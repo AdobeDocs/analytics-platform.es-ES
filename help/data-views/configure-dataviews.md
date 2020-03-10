@@ -2,7 +2,7 @@
 title: Configurar vistas de datos y atribución
 description: Describe cómo crear una vista de datos en un conjunto de datos de plataforma en Análisis de viajes del cliente
 translation-type: tm+mt
-source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
+source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
 
 ---
 
@@ -32,7 +32,7 @@ Tenga esto en cuenta antes de aplicar la configuración de atribución:
 Después de [establecer y guardar la configuración](/help/data-views/create-dataview.md) de vista de datos y de agregar componentes, estará listo para especificar la configuración de atribución, si lo desea. Puede especificar la configuración de atribución/caducidad/retroactividad para dimensiones y métricas. Si, por ejemplo, desea que la atribución de una dimensión persista, es probable que desee establecer una hora de caducidad personalizada. Por ejemplo: si desea que una dimensión &#39;Código de seguimiento&#39; (una variable de campaña) configurada en la atribución &#39;Último toque&#39; persista durante una semana, agregue una caducidad personalizada de 1 semana.
 
 >[!IMPORTANT]
->Puede optar por no establecer la asignación/caducidad. En ese caso, las dimensiones se comportarán como... . Las métricas sin configuración de atribución heredarán la configuración de la dimensión a la que se aplica esta métrica.
+>Puede optar por no establecer la asignación/caducidad. En ese caso, las dimensiones se comportarán como props (modelo de atribución de &quot;mismo toque&quot;). Las métricas sin configuración de atribución heredarán la configuración de la dimensión a la que se aplica esta métrica.
 
 ![](assets/edit-component.png)
 
