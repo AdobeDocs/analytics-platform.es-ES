@@ -2,7 +2,7 @@
 title: Preguntas más frecuentes sobre Análisis de Viaje del Cliente
 description: 'Análisis del viaje del cliente: Preguntas más frecuentes.'
 translation-type: tm+mt
-source-git-commit: cca701c2a18d094ee4b172b032c125e710b51ff0
+source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
 
 ---
 
@@ -32,5 +32,5 @@ source-git-commit: cca701c2a18d094ee4b172b032c125e710b51ff0
 | ¿Dónde están ahora todas las configuraciones de persistencia de variables y sesiones? | El análisis de viaje del cliente aplica todas estas configuraciones en el momento del informe, y estas opciones ahora están activas en las vistas de datos. Los cambios en esta configuración ahora son retroactivos y puede tener varias versiones con varias vistas de datos. |
 | ¿Qué les sucede a nuestros segmentos o métricas calculadas existentes? | Customer Journey Analytics ya no utiliza eVars, props ni eventos y, en su lugar, utiliza ningún esquema AEP. Esto significa que ninguno de los segmentos existentes o las métricas de cálculo son compatibles con el análisis de viajes del cliente. |
 | ¿Cómo gestiona Customer Journey Analytics `Uniques Exceeded` las limitaciones? | Customer Journey Analytics no tiene limitaciones de valor únicas, por lo que no es necesario preocuparse por ellas. |
-| Si soy un cliente [!DNL Data Workbench] existente, ¿puedo pasar a Customer Journey Analytics ahora mismo? | Depende. Si se basa en gran medida en el proceso de cliente unificado (UCP), tendrá que esperar hasta que se haya implementado la vinculación. Si ya tiene tasas de autenticación de cliente elevadas, o si desea eliminar todos los datos en un solo lugar, o desea eliminar las eVars, puede que el análisis de viaje del cliente sea un buen ajuste. |
+| Si soy un cliente [!DNL Data Workbench] existente, ¿puedo pasar a Customer Journey Analytics ahora mismo? | Depende. Si se basa en gran medida en el proceso de cliente unificado (UCP), tendrá que esperar hasta que se haya implementado la vinculación. Si ya tiene tasas de autenticación de clientes altas, o si desea que todos los datos estén en un solo lugar o desea deshacerse de las eVars, puede que el análisis de viajes de clientes sea un buen ajuste. |
 
