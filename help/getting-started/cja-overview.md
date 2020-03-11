@@ -2,7 +2,7 @@
 title: Información general sobre el análisis de viajes del cliente
 description: Introducción a Análisis de Viaje del Cliente
 translation-type: tm+mt
-source-git-commit: 7afdf490d0a63b1286a1a646a487ee96d4b6ed8f
+source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 
 ---
 
@@ -11,28 +11,22 @@ source-git-commit: 7afdf490d0a63b1286a1a646a487ee96d4b6ed8f
 
 El análisis de viaje del cliente es una función de Analytics que le permite utilizar la potencia de Analysis Workspace con datos de la plataforma de Adobe Experience. Puede desglosar, filtrar, consultar y visualizar datos de años, y se combina con la capacidad de Platform para albergar todo tipo de esquemas y tipos de datos. Con el Modelo de datos de **experiencia (XDM)**, los datos se pueden representar y organizar de forma uniforme, listos para la combinación y exploración. **Experience Query Services** le permite utilizar herramientas y marcos compatibles con SQL para consultar y manipular todos sus datos.
 
-## Comparación de CJA con Analysis Workspace
+## Comparación de CJA con Adobe Analytics tradicional
 
 El análisis de viajes del cliente amplía el ámbito de Analytics al ofrecer funciones de varios canales fáciles de usar y eliminar las limitaciones de versiones anteriores de Adobe Analytics. Algunas mejoras notables son:
 
 * **Variables y eventos** ilimitados: Los conceptos de eVars, props y events ya no existen. Los datos se centran principalmente en dimensiones y métricas. Los conjuntos de datos pueden tener una cantidad ilimitada de dimensiones y métricas únicas.
-* **Únicos** ilimitados: Adobe Experience Platform no se limita a ninguna limitación única, como los valores únicos de 500.000 en los grupos de informes tradicionales.
+* **Valores**&#x200B;únicos ilimitados: Adobe Experience Platform no se limita a ninguna limitación única, como los valores únicos de 500.000 en los grupos de informes tradicionales.
 * **Modificar datos** históricos: Con Adobe Experience Platform, los datos se pueden eliminar o corregir.
-* **Datos** de grupos de informes cruzados: Las implementaciones existentes de varios conjuntos de datos se pueden combinar en la plataforma.
+* **Datos** de grupos de informes múltiples: Las implementaciones existentes de varios conjuntos de datos se pueden combinar en la plataforma.
 
 La versión inicial de Análisis del viaje del cliente incluye muchas de las funciones incluidas en Analysis Workspace. Para obtener una lista completa, consulte Compatibilidad con [las funciones de Análisis del viaje del](cja-aa.md)cliente.
 
-### Actualizaciones terminológicas
+## Comparación de CJA con análisis entre dispositivos
 
-Se ha cambiado el nombre de varias funciones de CJA para que se ajusten a las normas del sector. Algunos nombres actualizados incluyen:
+[Análisis](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) cruzado de dispositivos se integra con el servicio de identidad de la plataforma de experiencia de Adobe, utilizando Co-op Graph o Private Graph, para identificar cómo los dispositivos digitales se asignan a las personas. Está disponible para los clientes de Adobe Analytics Ultimate.
 
-* Los segmentos ahora se conocen como &#39;filtros&#39;
-* Los grupos de informes virtuales ahora se conocen como &quot;Vistas&quot;
-* Las clasificaciones ahora se conocen como &quot;conjuntos de datos de búsqueda&quot;
-* Los atributos del cliente ahora se conocen como &quot;conjuntos de datos de perfil&quot;
-* Los contenedores de visita individual ahora se conocen como contenedores de &#39;evento&#39;
-* Los contenedores de visita ahora se conocen como contenedores de &#39;sesión&#39;
-* Los contenedores de visitante ahora se conocen como contenedores de &#39;persona&#39;
+CJA se integra con los conjuntos de datos de la plataforma Adobe Experience y permite el análisis multicanal en Analysis Workspace. Aunque CJA todavía no se integra con los gráficos de identidad Co-op o Privada, puede &quot;unir su propia ID&quot; para unir conjuntos de datos, y esos conjuntos de datos pueden ir más allá de los datos digitales para incluir puntos de contacto en línea y sin conexión. Los requisitos previos de CJA se tratan más detalladamente a continuación.
 
 ## Casos de uso clave
 
@@ -47,7 +41,7 @@ El análisis de viajes del cliente le permite:
 
 ## Requisitos previos
 
-Antes de empezar a utilizar el análisis de viajes del cliente, se deben completar los siguientes pasos:
+Antes de empezar a usar el análisis de viajes del cliente, deben cumplirse los siguientes requisitos previos:
 
 * Su organización tiene un contrato activo con Adobe Analytics para Select, Prime o Ultimate con el complemento Customer Journey Analytics. Si no está seguro de qué tipo de contrato tiene o no está seguro de si tiene el complemento CJA, póngase en contacto con el administrador de cuentas de su organización.
 * Su organización se ha aprovisionado para Adobe Experience Platform.
@@ -63,6 +57,18 @@ Para crear conexiones, agregar conjuntos de datos, etc., necesita los siguientes
    * Administrar espacios de nombres de identidad
    * Ver Simuladores
 * Para acceder a Análisis del viaje del cliente o establecer una conexión, también deberá agregarlo a un perfil de producto de Análisis del viaje del cliente en la Consola de [administración](https://adminconsole.adobe.com/enterprise/).
+
+### Actualizaciones terminológicas
+
+Se ha cambiado el nombre de varias funciones de CJA para que se ajusten a las normas del sector. Algunos nombres actualizados incluyen:
+
+* Los segmentos ahora se conocen como &#39;filtros&#39;.
+* Los grupos de informes virtuales ahora se conocen como &quot;Vistas&quot;.
+* Las clasificaciones ahora se conocen como &quot;conjuntos de datos de búsqueda&quot;.
+* Los atributos del cliente ahora se conocen como &quot;conjuntos de datos de perfil&quot;.
+* Los contenedores de visita individual ahora se conocen como contenedores de &#39;evento&#39;.
+* Los contenedores de visita ahora se conocen como contenedores de &#39;sesión&#39;.
+* Los contenedores de visitante ahora se conocen como contenedores &#39;Persona&#39;.
 
 ## Otras funciones creadas en la plataforma Adobe Experience
 
