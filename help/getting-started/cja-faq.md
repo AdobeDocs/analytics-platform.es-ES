@@ -2,7 +2,7 @@
 title: Preguntas más frecuentes sobre Análisis de Viaje del Cliente
 description: 'Análisis del viaje del cliente: Preguntas más frecuentes.'
 translation-type: tm+mt
-source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
+source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
 | **Requisitos previos** |  |
 | ¿Necesita Device Graph o Device Coop para el análisis de viajes del cliente? | No, Device Graph o Device Coop no son obligatorios para los análisis de viajes del cliente. De hecho, todavía no son compatibles. |
 | ¿Necesita el ID de Experience Cloud (ECID) para el análisis de viajes del cliente? | No, Customer Journey Analytics admite cualquier ID de un conjunto de datos, ya sea ECID o cualquier otro ID que elija. |
-| ¿Qué sucede si necesita ETL para sus datos antes de Customer Journey Analytics? | Hoy en día, debe trabajar con un socio de ETL (Unifi o Informatica) si necesita transformar sus datos antes de ponerlos en AEP. Si necesita ETL después de que los datos ya se hayan ingestado, AEP Query Services proporciona algunas opciones limitadas. |
+| ¿Qué sucede si necesita ETL (Extraer, Transformar, Cargar) sus datos antes de que el cliente haga un análisis de viajes? | Hoy en día, debe trabajar con un socio de ETL (Unifi o Informatica) si necesita transformar sus datos antes de ponerlos en AEP. Si necesita ETL después de que los datos ya se hayan ingestado, AEP Query Services proporciona algunas opciones limitadas. |
 | **Stitching** |  |
 | ¿Puede el análisis de viajes del cliente &quot;unir&quot; varios dispositivos o conjuntos de datos? | No. Customer Journey Analytics es un sistema de análisis de &quot;traer su propio ID&quot;. Los planes para un buen enfoque de costura están en marcha. |
 | ¿Se admite la vinculación del comportamiento anónimo al comportamiento autenticado? | No, todavía no. |
