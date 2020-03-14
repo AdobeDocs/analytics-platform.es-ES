@@ -2,7 +2,7 @@
 title: Administrar intervalos de fechas
 description: Compartir, cambiar el nombre o eliminar intervalos de fechas en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
+source-git-commit: cd854a7543a6e31abb9cffd2657c75366cfe2737
 
 ---
 
@@ -29,7 +29,7 @@ El administrador de intervalos de fechas incluye las siguientes opciones:
 Haga clic en la casilla de verificación situada junto a uno o varios intervalos de fechas para ver más opciones.
 
 * **Etiqueta**: Aplicar una etiqueta a todos los intervalos de fechas seleccionados. Las etiquetas ayudan a organizar los intervalos de fechas y permiten filtrarlos mediante la columna izquierda.
-* **Compartir**: Comparta una etiqueta con otros usuarios de Experience Cloud. Si es administrador de productos, también puede compartir con toda la organización o grupos. Los intervalos de fechas que se comparten con otros usuarios de la organización incluyen un icono ![compartido](../assets/shared.png) junto al título.
+* **Compartir**: Comparta un intervalo de fechas con otros usuarios de Experience Cloud. Si es administrador de productos, también puede compartir con toda la organización o grupos. Los intervalos de fechas que se comparten con otros usuarios de la organización incluyen un icono ![compartido](../assets/shared.png) junto al título.
 * **Eliminar**: Eliminar permanentemente los intervalos de fechas seleccionados.
 * **Cambiar nombre**: Si se selecciona un solo intervalo de fechas, puede cambiar su título.
 * **Aprobar**: Si es administrador de un producto, puede agregar un sello de aprobación a un intervalo de fechas. Los intervalos de fechas aprobados informan a los usuarios de su organización de que son &quot;oficiales&quot;, diferenciándolos de los intervalos de fechas creados por otros usuarios de su organización. Los intervalos de fechas aprobados incluyen un icono ![aprobado](../assets/approved.png) junto al título.
