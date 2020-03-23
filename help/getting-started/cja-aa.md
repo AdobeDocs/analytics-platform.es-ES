@@ -34,7 +34,7 @@ Las siguientes tablas muestran qué funciones de Adobe Analytics son compatibles
 
 | Función | Notas |
 | --- | --- |
-| Variable de producto | La variable de producto actualmente disponible para la creación de informes de datos que se ajustan al esquema de eventos de experiencia (específicamente mediante el objeto productListItems). |
+| Variable de producto | La variable de producto actualmente disponible para la generación de informes de datos que se ajustan al esquema de eventos de experiencia (específicamente, mediante el objeto productListItems). |
 | Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización Mapa. |
 | Audiencias de AAM | Si los clientes utilizan conjuntos de datos del conector de datos de Analytics, estos datos formarán parte de los datos de ADC. |
 | Uso compartido de proyecto | El uso compartido de proyectos solo es compatible entre usuarios de CJA; no existe el uso compartido de proyectos entre CJA y Analysis Workspace tradicional. |
@@ -80,7 +80,7 @@ Las siguientes tablas muestran qué funciones de Adobe Analytics son compatibles
 | Análisis de vídeo | Aún no se ha planificado la asistencia. |
 | Advertising Cloud | Aún no se ha planificado la asistencia. |
 | Creador de informes (complemento de Excel) | Aún no se ha planificado la asistencia. |
-| Activity Map  | Aún no se ha planificado la asistencia. |
+| Página de  | Aún no se ha planificado la asistencia. |
 | Clasificación del Generador de reglas | Aún no se ha planificado la asistencia. |
 | Fuentes de datos de resumen | Aún no se ha planificado la asistencia. |
 | Informes en tiempo real | Aún no se ha planificado la asistencia. |
