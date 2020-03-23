@@ -15,7 +15,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
-## ¿Qué significa el parámetro Include-Zeros?
+## ¿Qué significa el parámetro Include-Zeros? 
 
 Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa &quot;nada&quot;, pero en ocasiones es importante.
 
@@ -48,9 +48,9 @@ Approximate Count Distinct (dimension)
 
 | Argumento |  |
 |---|---|
-| *dimension* | Dimensión de la que se quiere obtener el número aproximado de elementos distintos. |
+| *dimensión* | Dimensión de la que se quiere obtener el número aproximado de elementos distintos. |
 
-## Caso práctico de ejemplo
+## Caso práctico de ejemplo 
 
 El número aproximado de elementos distintos (eVar del ID del cliente) es un caso práctico común para esta función.
 
@@ -62,11 +62,11 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ![](assets/approx-customers.png)
 
-## Se excedió la cantidad de valores exclusivos
+## Se excedió la cantidad de valores exclusivos 
 
 Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
-## Comparación de funciones de recuento
+## Comparación de funciones de recuento 
 
 La función Approximate Count Distinct() es una mejora de las funciones Count() y RowCount() porque la métrica que se crea puede usarse en cualquier informe dimensional para representar un número aproximado de elementos para una dimensión distinta. Por ejemplo, un recuento de los ID de cliente que se usan en un informe sobre tipos de dispositivos móviles.
 
