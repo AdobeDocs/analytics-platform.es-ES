@@ -22,7 +22,7 @@ Un informe de clasificación muestra una vista total agregada de cada valor de d
 1. Haga clic en **[!UICONTROL Create New Project]**.
 1. In the modal popup, make sure &#39;Blank Project&#39; is selected, then click **[!UICONTROL Create]**.
 1. A la izquierda, debería ver una lista de dimensiones, métricas, segmentos e intervalos de fechas. Busque la dimensión Páginas (de color naranja) y arrástrela al lienzo hasta la zona con el texto “Coloque una dimensión aquí”.
-1. Se puede ver un informe que muestra las páginas más visitadas de este mes. Analysis Workspace llenó automáticamente el informe con la métrica [Ocurrencias](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html).
+1. Se puede ver un informe que muestra las páginas más visitadas del mes actual. Analysis Workspace llenó automáticamente el informe con la métrica [Ocurrencias](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html).
 1. Busque la métrica Visitas (de color verde) y arrástrela **sobre** o **junto** al encabezado de la métrica Ocurrencias (evite colocarla encima de la métrica). Si arrastra la métrica Visitas sobre Ocurrencias, la métrica se reemplaza en los informes. Si arrastra la métrica Visitas junto a Ocurrencias, ambas métricas se mostrarán una al lado de la otra.
 1. If you&#39;d like to save your project, click **[!UICONTROL Project]>[!UICONTROL Save]**in the upper left menu.
 
