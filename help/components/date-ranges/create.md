@@ -16,7 +16,7 @@ Puede crear un intervalo de fechas personalizado mediante cualquiera de los dos 
 
 Para crear un intervalo de fechas en el administrador de intervalos de fechas:
 
-1. Inicie sesión en [analytics.adobe.com](https://analytics.adobe.com) con sus credenciales de Adobe ID.
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. Vaya a [!UICONTROL Components] > [!UICONTROL Date Ranges].
 1. Haga clic en el [!UICONTROL Add] botón para abrir la ventana modal que crea un intervalo de fechas.
 
