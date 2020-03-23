@@ -134,5 +134,5 @@ Marcar los segmentos como favoritos es otra manera de organizarlos para que su u
 
 1. En el Administrador de filtros, marque la estrella junto a cualquier filtro que desee marcar como favorito. La estrella se vuelve amarilla cuando la seleccionas.
 
-1. También puede filtrar por favoritos desde Filtros > Otros filtros > Favoritos.
+1. También puede filtrar por favoritos con Filtros > Otros filtros > Favoritos.
 
