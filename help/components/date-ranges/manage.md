@@ -11,7 +11,7 @@ source-git-commit: cd854a7543a6e31abb9cffd2657c75366cfe2737
 
 Utilice el administrador de intervalos de fechas para compartir, cambiar el nombre o eliminar intervalos de fechas. Para llegar al administrador de fechas:
 
-1. Inicie sesión en [analytics.adobe.com](https://analytics.adobe.com) con sus credenciales de Adobe ID.
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. Vaya a [!UICONTROL Components] > [!UICONTROL Date Ranges].
 
 ## Interfaz
