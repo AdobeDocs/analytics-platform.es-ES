@@ -43,7 +43,7 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
    | Descripción | Agregue más detalles para distinguir esta conexión de otras. |
    | Tamaño | El tamaño colectivo de los conjuntos de datos en la conexión de datos. |
    | Conjuntos de datos | Los conjuntos de datos que se incluyen en esta conexión. |
-   | Transmisión de datos | Para iniciar la transmisión de datos para esta conexión, habilite la transmisión de datos. Cuando se habilita el flujo de datos para esta conexión, se factura a la cuenta la cantidad de datos que esta conexión está transmitiendo. (Tenga en cuenta que también puede activar la transmisión de datos en el Administrador de conexiones). |
+   | Transmisión de datos | Para iniciar la transmisión de datos de esta conexión, habilite la transmisión de datos. Cuando se habilita el flujo de datos para esta conexión, se factura a la cuenta la cantidad de datos que esta conexión está transmitiendo. (Tenga en cuenta que también puede activar la transmisión de datos en el Administrador de conexiones). |
 
 1. Haga clic en **[!UICONTROL Save]**. Al guardar esta conexión, suceden dos cosas:
 
