@@ -57,7 +57,7 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
       + [Información general sobre proyectos](components/projects/overview.md)
       + [Crear un proyecto](components/projects/create.md)
       + [Gestión de proyectos](components/projects/manage.md)
-+ Casos de uso {#cja-usecases}
++ Casos prácticos {#cja-usecases}
    + [Casos de uso de Análisis de Viaje del Cliente](use-cases/cja-usecases.md)
 + Privacidad {#cja-privacy}
    + [Información general sobre privacidad](privacy/privacy-overview.md)
