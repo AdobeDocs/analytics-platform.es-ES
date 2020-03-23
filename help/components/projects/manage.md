@@ -11,7 +11,7 @@ source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 
 Utilice el administrador de proyectos para compartir, cambiar el nombre o eliminar proyectos. Para llegar al administrador de fechas:
 
-1. Inicie sesión en [analytics.adobe.com](https://analytics.adobe.com) con sus credenciales de Adobe ID.
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. Vaya a [!UICONTROL Components] > [!UICONTROL Projects].
 
 ## Interfaz
