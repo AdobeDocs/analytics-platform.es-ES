@@ -1,6 +1,6 @@
 ---
 title: Documentación del producto Análisis de Viaje del Cliente
-description: Página de aterrizaje de Análisis de Viaje del Cliente.
+description: página de aterrizaje de Análisis de Viaje del Cliente.
 translation-type: tm+mt
 source-git-commit: 61cf17635c73a400b0c3a52666d75a771fca1a47
 
@@ -11,7 +11,7 @@ source-git-commit: 61cf17635c73a400b0c3a52666d75a771fca1a47
 
 Esta guía de documentación técnica proporciona asistencia de autoayuda para el análisis de viajes del cliente. Customer Journey Analytics permite obtener los datos de clientes desde cualquier canal que elija, tanto en línea como sin conexión, e importarlos en Adobe Experience Platform y, a continuación, analizarlos del mismo modo que lo haría con los datos digitales actuales con Analysis Workspace.
 
-El análisis de viaje del cliente le permite controlar la forma en que conecta los datos en línea y sin conexión en Analysis Workspace con cualquier ID de cliente común, permitiéndole finalmente realizar tareas de atribución, segmentación, flujo, visitas en el orden previsto, etc. en todo el conjunto de datos de clientes de Adobe Analytics.
+Customer Journey Analytics le permite controlar cómo conecta sus datos en línea y sin conexión en Análisis Workspace en cualquier ID de cliente común, permitiéndole finalmente realizar tareas de atribución, segmentación, flujo, visitas en el orden previsto, etc. en todo el conjunto de datos de clientes de Adobe Analytics.
 
 Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto adicional. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
