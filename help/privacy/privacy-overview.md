@@ -11,9 +11,9 @@ source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
 
 En términos generales, cualquier configuración relacionada con la privacidad en el análisis de viajes del cliente se hereda de Adobe Experience Platform.
 
-## RGPD
+## GDPR
 
-Customer Journey Analytics no se suscribirá directamente al servicio central del Reglamento general de protección de datos (RGPD) y, en su lugar, heredará todos los cambios de conjuntos de datos realizados en la plataforma de experiencia. Dependemos del lago de datos de plataforma para aplicar las solicitudes de eliminación del RGPD y notificarnos cuando se hayan completado con Pipeline. Escuchamos Pipeline y sincronizamos todos los cambios realizados en lotes afectados en el análisis de viajes del cliente para conjuntos de datos de eventos. Los conjuntos de datos de perfil y búsqueda afectados por las solicitudes de eliminación del RGPD se volverán a ingestar completamente después de cada solicitud de eliminación. Podemos garantizar que las solicitudes de eliminación se ejecuten dentro de los 7 días posteriores a un evento de eliminación en Data Lake.
+Customer Journey Analytics no se suscribirá directamente al servicio central del Reglamento general de protección de datos (RGPD) y, en su lugar, heredará todos los cambios de conjuntos de datos realizados en la plataforma de experiencia. Dependemos del lago de datos de plataforma para aplicar las solicitudes de eliminación del RGPD y notificarnos cuando se hayan completado con Pipeline. Escuchamos Pipeline y sincronizamos todos los cambios realizados en lotes afectados en el análisis del viaje del cliente para conjuntos de datos de evento. Los conjuntos de datos de Perfil y búsqueda afectados por las solicitudes de eliminación del RGPD se volverán a ingerir completamente después de cada solicitud de eliminación. Podemos garantizar que las solicitudes de eliminación se ejecuten dentro de los 7 días posteriores a un evento de eliminación en Data Lake.
 
 ## CCPA
 
