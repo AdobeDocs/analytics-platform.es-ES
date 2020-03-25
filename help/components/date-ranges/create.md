@@ -1,6 +1,6 @@
 ---
 title: Crear un intervalo de fechas
-description: Cree un intervalo de fechas para utilizarlo en los informes.
+description: Cree un intervalo de fechas para utilizarlo en sistema de informes.
 translation-type: tm+mt
 source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
 
@@ -11,7 +11,7 @@ source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
 
 Puede crear un intervalo de fechas personalizado mediante cualquiera de los dos métodos siguientes:
 
-* Directamente en un proyecto de área de trabajo haciendo clic en el botón &#39;`+`&#39; al lado de la lista de componentes de intervalo de fechas a la izquierda
+* Directamente en un proyecto de área de trabajo haciendo clic en el botón &#39;`+`&#39; al lado de la lista de los componentes de intervalo de fechas a la izquierda
 * Dentro del administrador de intervalos de fechas
 
 Para crear un intervalo de fechas en el administrador de intervalos de fechas:
@@ -33,15 +33,15 @@ La ventana modal tiene cuatro campos que puede editar:
 
 Al hacer clic en el intervalo de fechas en la ventana modal, tiene varias opciones:
 
-* **Calendario**: Seleccione la fecha de inicio y de finalización.
+* **Calendario**: Seleccione el inicio y la fecha de finalización.
 * **Usar fechas** móviles: Marque esta casilla si desea que el intervalo de fechas cambie con el transcurso del tiempo. No marque esta casilla si desea que el intervalo de fechas permanezca estático.
-* **Seleccionar ajuste preestablecido**: Utilice este menú desplegable si desea un intervalo de fechas personalizado basado en un intervalo que Adobe ofrezca de forma predeterminada. Al seleccionar un ajuste preestablecido, puede personalizar aún más el intervalo de fechas para adaptarlo a sus necesidades. No afecta al ajuste preestablecido que ofrece Adobe.
+* **Seleccionar ajuste preestablecido**: Utilice este menú desplegable si desea un intervalo de fechas personalizado basado en un intervalo que Adobe oferta de forma predeterminada. Al seleccionar un ajuste preestablecido, puede personalizar aún más el intervalo de fechas para adaptarlo a sus necesidades. No afecta al ajuste preestablecido que Adobe oferta.
 
 ## Intervalos de fechas móviles
 
 Si desea un intervalo de fechas móvil, puede personalizar el momento en que se desplaza. Puede controlar cuándo se rompen las fechas de inicio y finalización de forma independiente.
 
-* **Cuando comienza** la fecha: Seleccione si la fecha comienza al principio de un período de tiempo, al final de un período de tiempo o utiliza un día fijo.
+* **Cuando la fecha inicio**: Seleccione si la fecha inicio al comienzo de un período de tiempo, al final de un período de tiempo o utiliza un día fijo.
 * **Período de tiempo que se debe utilizar**: Elija la frecuencia con la que se desplaza el intervalo de fechas. Se puede hacer rodar todos los días, cada semana, cada mes, cada trimestre o cada año.
 * **Desplazamiento**: Elija el desplazamiento del intervalo de fechas. Puede agregar o restar días, semanas, meses, trimestres o años.
 
@@ -63,7 +63,7 @@ Start: Start of current week minus 3 days
 End: Start of current week plus 4 days
 ```
 
-Ejercicio fiscal (por ejemplo, si un año fiscal comienza en diciembre)
+Ejercicio fiscal (por ejemplo, si un año fiscal inicio en diciembre)
 
 ```text
 Start: Start of current year minus 1 month
