@@ -1,6 +1,6 @@
 ---
 title: Gestión de proyectos
-description: Comparta, elimine o cambie el nombre de los proyectos en Analysis Workspace.
+description: Compartir, eliminar o cambiar el nombre de los proyectos en Análisis Workspace.
 translation-type: tm+mt
 source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 
@@ -16,13 +16,13 @@ Utilice el administrador de proyectos para compartir, cambiar el nombre o elimin
 
 ## Interfaz
 
-![IU](../assets/project-ui.png)
+![UI](../assets/project-ui.png)
 
 El administrador de proyectos incluye las siguientes opciones:
 
-* **Agregar**: Cree un nuevo proyecto. Consulte [Creación de un proyecto](create.md) para obtener más información.
+* **Añadir**: Cree un nuevo proyecto. Consulte [Creación de un proyecto](create.md) para obtener más información.
 * **Buscar por título**: Busque un proyecto por título. Los resultados se filtran según el texto introducido aquí.
-* **Filtro**: Filtre proyectos con la columna izquierda. Puede filtrar por etiqueta personalizada, propietario, creado por usted, sus favoritos, aprobado o compartido con usted. También puede buscar los filtros deseados.
+* **Filtro**: Filtre proyectos con la columna izquierda. Puede filtrar por etiqueta personalizada, propietario, creado por usted, sus favoritos, aprobado o compartido con usted. También puede buscar filtros deseados.
 * **Favorito**: Haga clic en el icono de ![estrella](../assets/star.png) junto a un proyecto para agregarlo a sus favoritos.
 * **Personalizar columnas**: Haga clic en el icono de ![columnas](../assets/columns.png) para mostrar u ocultar las columnas en el administrador de proyectos.
 
