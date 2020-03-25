@@ -1,6 +1,6 @@
 ---
 title: Administrar intervalos de fechas
-description: Compartir, cambiar el nombre o eliminar intervalos de fechas en Analysis Workspace.
+description: Compartir, cambiar el nombre o eliminar intervalos de fechas en el área de Análisis.
 translation-type: tm+mt
 source-git-commit: cd854a7543a6e31abb9cffd2657c75366cfe2737
 
@@ -16,13 +16,13 @@ Utilice el administrador de intervalos de fechas para compartir, cambiar el nomb
 
 ## Interfaz
 
-![IU](../assets/date-range-ui.png)
+![UI](../assets/date-range-ui.png)
 
 El administrador de intervalos de fechas incluye las siguientes opciones:
 
-* **Agregar**: Cree un nuevo intervalo de fechas. Consulte [Creación de un intervalo](create.md) de fechas para obtener más información.
+* **Añadir**: Cree un nuevo intervalo de fechas. Consulte [Creación de un intervalo](create.md) de fechas para obtener más información.
 * **Buscar por título**: Busque un intervalo de fechas por título. Los resultados se filtran según el texto introducido aquí.
-* **Filtro**: Filtre los intervalos de fechas utilizando la columna izquierda. Puede filtrar por etiqueta personalizada, propietario, creado por usted, sus favoritos, aprobado o compartido con usted. También puede buscar los filtros deseados.
+* **Filtro**: Filtre los intervalos de fechas utilizando la columna izquierda. Puede filtrar por etiqueta personalizada, propietario, creado por usted, sus favoritos, aprobado o compartido con usted. También puede buscar filtros deseados.
 * **Favorito**: Haga clic en el icono de ![estrella](../assets/star.png) junto a un intervalo de fechas para agregarlo a sus favoritos.
 * **Personalizar columnas**: Haga clic en el icono de ![columnas](../assets/columns.png) para mostrar u ocultar las columnas en el administrador de intervalos de fechas.
 
