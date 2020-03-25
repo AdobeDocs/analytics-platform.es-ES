@@ -68,7 +68,7 @@ Tenga en cuenta que los siguientes recursos pueden hacer referencia al uso de Wo
 
 * Publicaciones del blog:
    * [Fortalecer las empresas con un análisis más inteligente](https://theblog.adobe.com/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [Espacio de trabajo de análisis: La salsa secreta se está volviendo más desagradable](https://theblog.adobe.com/analysis-workspace-secret-sauce-getting-tastier/)
+   * [Espacio de trabajo de Análisis: La salsa secreta se está volviendo más desagradable](https://theblog.adobe.com/analysis-workspace-secret-sauce-getting-tastier/)
    * [Por qué debería utilizar Analysis Workspace](https://theblog.adobe.com/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
    * [5 consejos para optimizar su productividad con Analysis Workspace](https://theblog.adobe.com/5-tips-maximize-productivity-analysis-workspace/)
 
