@@ -1,6 +1,6 @@
 ---
 title: Actualizaciones de documentación de CJA
-description: 'Enumera las actualizaciones de contenido del conjunto de documentación de Análisis de viajes del cliente desde diciembre de 2019. '
+description: 'Actualizaciones de contenido de Listas para la documentación de Análisis de viajes del cliente establecida desde diciembre de 2019. '
 translation-type: tm+mt
 source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 
