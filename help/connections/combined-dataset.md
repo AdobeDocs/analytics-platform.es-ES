@@ -9,10 +9,10 @@ source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
 
 # datasets combinados
 
-Al crear una conexión, CJA combina todos los esquemas y conjuntos de datos en un único conjunto de datos. Este &quot;conjunto de datos combinado&quot; es lo que utiliza CJA para los informes. Cuando se incluyen varios esquemas o conjuntos de datos en una conexión:
+Al crear una conexión, CJA combina todos los esquemas y conjuntos de datos en un único conjunto de datos. Este &quot;conjunto de datos combinado&quot; es lo que utiliza CJA para el sistema de informes. Cuando se incluyen varios esquemas o conjuntos de datos en una conexión:
 
-* Los esquemas se combinan. Se combinan campos de esquema duplicados.
-* La columna &#39;ID de persona&#39; de cada conjunto de datos se combina en una sola columna, independientemente de su nombre. Esta columna es la base para identificar visitantes únicos en CJA.
+* Esquemas combinados. Se combinan los campos de esquema de Duplicado.
+* La columna &#39;ID de persona&#39; de cada conjunto de datos se combina en una sola columna, independientemente de su nombre. Esta columna es la base de la identificación de visitantes únicos en la lista de usuarios.
 * Las filas se procesan según la marca de tiempo.
 
 ## Ejemplo
@@ -36,7 +36,7 @@ Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos, cada uno con ca
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
 
-Cuando se crea una conexión con estos dos conjuntos de datos, se utiliza la siguiente tabla para los informes.
+Cuando se crea una conexión con estos dos conjuntos de datos, se utiliza la siguiente tabla para el sistema de informes.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ Cuando se crea una conexión con estos dos conjuntos de datos, se utiliza la sig
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
 
-Este conjunto de datos combinado es lo que se utiliza en los informes. No importa de qué conjunto de datos proviene una fila; CJA trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se considera que es el mismo visitante único. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
+Este conjunto de datos combinado es lo que se utiliza en sistema de informes. No importa de qué conjunto de datos proviene una fila; CJA trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran el mismo visitante único. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
 
 Este concepto también se aplica a la atribución. No importa de qué conjunto de datos proviene una fila; la atribución funciona exactamente como si todos los eventos procedieran de un único conjunto de datos. Ejemplo de uso de las tablas anteriores:
 
