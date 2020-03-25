@@ -14,7 +14,7 @@ Una vez que haya creado una o más conexiones, puede administrarlas en el Admini
 * Eliminar una conexión.
 * Cambie el nombre de una conexión.
 * Cree una vista de datos a partir de una conexión.
-* Iniciar y detener el flujo continuo de datos.
+* Inicio y parada del flujo continuo de datos.
 
 ![Administrador de conexiones](assets/connections-manager.png)
 
@@ -29,6 +29,6 @@ Una vez que haya creado una o más conexiones, puede administrarlas en el Admini
    | Eliminar | Al eliminar una conexión, no se elimina el conjunto de datos, ya que los datos siguen estando en Adobe Experience Platform. |
    | Cambiar nombre | Cambiando el nombre de una conexión... |
    | Crear vista de datos | Este vínculo lo lleva al creador [de vistas de](/help/data-views/create-dataview.md)datos. |
-   | Iniciar o detener el flujo de datos | &quot;Flujo continuo&quot; significa que si se agregan lotes nuevos a cualquiera de los conjuntos de datos de la conexión, estos nuevos datos se introducirán en el análisis de viajes del cliente para los informes. |
+   | Inicio o parada del flujo de datos | &quot;Streaming&quot; significa que si se agregan lotes nuevos a cualquiera de los conjuntos de datos de la conexión, estos nuevos datos se introducirán en Customer Journey Analytics para sistema de informes. |
 
 
