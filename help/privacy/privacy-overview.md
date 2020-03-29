@@ -1,19 +1,19 @@
 ---
-title: Información general sobre la privacidad de Análisis de viajes del cliente
-description: Describe cómo funciona la configuración de privacidad en el análisis de viajes del cliente.
-translation-type: tm+mt
+title: Información general sobre la privacidad de Customer Journey Analytics
+description: Describe cómo funciona la configuración de privacidad en Customer Journey Analytics.
+translation-type: ht
 source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
 
 ---
 
 
-# Información general sobre la privacidad de Análisis de viajes del cliente
+# Información general sobre la privacidad de Customer Journey Analytics
 
-En términos generales, cualquier configuración relacionada con la privacidad en el análisis de viajes del cliente se hereda de Adobe Experience Platform.
+En términos generales, cualquier configuración relacionada con la privacidad en Customer Journey Analytics se hereda de Adobe Experience Platform.
 
-## GDPR
+## RGPD
 
-Customer Journey Analytics no se suscribirá directamente al servicio central del Reglamento general de protección de datos (RGPD) y, en su lugar, heredará todos los cambios de conjuntos de datos realizados en la plataforma de experiencia. Dependemos del lago de datos de plataforma para aplicar las solicitudes de eliminación del RGPD y notificarnos cuando se hayan completado con Pipeline. Escuchamos Pipeline y sincronizamos todos los cambios realizados en lotes afectados en el análisis del viaje del cliente para conjuntos de datos de evento. Los conjuntos de datos de Perfil y búsqueda afectados por las solicitudes de eliminación del RGPD se volverán a ingerir completamente después de cada solicitud de eliminación. Podemos garantizar que las solicitudes de eliminación se ejecuten dentro de los 7 días posteriores a un evento de eliminación en Data Lake.
+Customer Journey Analytics no se suscribirá directamente al servicio central del Reglamento general de protección de datos (RGPD) y, en su lugar, heredará todos los cambios de conjuntos de datos realizados en Experience Platform. Platform Data Lake se encarga de aplicar las solicitudes de eliminación del RGPD y de notificarnos cuando se hayan completado en la canalización. Prestamos atención a la canalización y sincronizamos todos los cambios realizados en lotes afectados en Customer Journey Analytics para los conjuntos de datos implicados en el evento. Los conjuntos de datos de perfil y búsqueda afectados por las solicitudes de eliminación del RGPD se volverán a ingerir completamente después de cada solicitud de eliminación. Garantizamos que las solicitudes de eliminación se ejecutarán en un plazo de 7 días después del evento de eliminación en Data Lake.
 
 ## CCPA
 
