@@ -1,17 +1,17 @@
 ---
-title: Documentación del producto Análisis de Viaje del Cliente
-description: página de aterrizaje de Análisis de Viaje del Cliente.
-translation-type: tm+mt
+title: Documentación de producto de Customer Journey Analytics
+description: Página de aterrizaje de Customer Journey Analytics.
+translation-type: ht
 source-git-commit: 61cf17635c73a400b0c3a52666d75a771fca1a47
 
 ---
 
 
-# Análisis del viaje del cliente: Documentación del producto
+# Customer Journey Analytics: Documentación de producto
 
-Esta guía de documentación técnica proporciona asistencia de autoayuda para el análisis de viajes del cliente. Customer Journey Analytics permite obtener los datos de clientes desde cualquier canal que elija, tanto en línea como sin conexión, e importarlos en Adobe Experience Platform y, a continuación, analizarlos del mismo modo que lo haría con los datos digitales actuales con Analysis Workspace.
+Esta guía de documentación técnica proporciona instrucciones para Customer Journey Analytics. Customer Journey Analytics permite obtener los datos de clientes desde cualquier canal que elija, tanto en línea como sin conexión, e importarlos en Adobe Experience Platform y, a continuación, analizarlos del mismo modo que lo haría con los datos digitales actuales con Analysis Workspace.
 
-Customer Journey Analytics le permite controlar cómo conecta sus datos en línea y sin conexión en Análisis Workspace en cualquier ID de cliente común, permitiéndole finalmente realizar tareas de atribución, segmentación, flujo, visitas en el orden previsto, etc. en todo el conjunto de datos de clientes de Adobe Analytics.
+Customer Journey Analytics permite controlar cómo conectar los datos en línea y sin conexión en Analysis Workspace en cualquier ID de cliente común, lo que permite realizar procesos de atribución, segmentación, flujo, abandonos, etc. en todo el conjunto de datos de clientes de Adobe Analytics.
 
 Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto adicional. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
@@ -20,20 +20,20 @@ Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Elementos nuevos o destacados</b> </p> <p> 
      <ul> 
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html"> Introducción al análisis de viajes del cliente </a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-faq.html"> Preguntas frecuentes</a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-glossary.html"> Glosario de análisis de viajes del cliente</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-getting-started.html"> Introducción a Customer Journey Analytics </a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-faq.translate.html"> Preguntas frecuentes</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-glossary.translate.html"> Glosario de Customer Journey Analytics</a> </li> 
       <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> API de Adobe Analytics 2.0</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Notas de la versión</b> </p> 
     <ul> 
-     <li>Consulte las últimas <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones. </li> 
+     <li>Consulte las últimas <a href="https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones. </li> 
     </ul> <p class="head"> <b>Recursos de Adobe Experience Platform</b> </p> 
     <ul> 
-     <li><a href="https://www.adobe.com/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
+     <li><a href="https://www.adobe.com/es/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
      <li> <a href="https://www.adobe.io/apis/experienceplatform/home/tutorials.html" format="https" scope="external"> Tutoriales de Adobe Experience Platform</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> Referencia de API</a> </li> 
-     <li><a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentación y recursos para desarrolladores</a> </li> 
+     <li><a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentación y recursos para desarrolladores</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
