@@ -1,5 +1,5 @@
 ---
-title: Crear una vista de datos
+title: Creación de una vista de datos
 description: Describe cómo crear una vista de datos en un conjunto de datos de la plataforma en Customer Journey Analytics (CJA).
 translation-type: tm+mt
 source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
@@ -7,7 +7,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
 ---
 
 
-# Crear una vista de datos
+# Creación de una vista de datos
 
 Una vista de datos es similar a un grupo de informes virtuales en Analytics, en el sentido de que es una vista &quot;filtrada&quot; de los datos. Puede crear diferentes vistas de datos para la misma conexión, con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Puede crear varias vistas de datos para un único conjunto de datos. Por ejemplo, puede tener una vista de datos en la que todas las dimensiones estén configuradas como &quot;Último toque&quot; y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como &quot;Primer toque&quot;.
 
