@@ -1,5 +1,5 @@
 ---
-title: datasets combinados
+title: Conjunto de datos combinados
 description: Descubra cómo CJA crea una conexión combinando conjuntos de datos.
 translation-type: tm+mt
 source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
@@ -7,7 +7,7 @@ source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
 ---
 
 
-# datasets combinados
+# Conjunto de datos combinados
 
 Al crear una conexión, CJA combina todos los esquemas y conjuntos de datos en un único conjunto de datos. Este &quot;conjunto de datos combinado&quot; es lo que utiliza CJA para el sistema de informes. Cuando se incluyen varios esquemas o conjuntos de datos en una conexión:
 
