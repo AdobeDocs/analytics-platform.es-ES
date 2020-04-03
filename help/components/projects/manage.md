@@ -1,5 +1,5 @@
 ---
-title: Gestión de proyectos
+title: Administrar proyectos
 description: Compartir, eliminar o cambiar el nombre de los proyectos en Análisis Workspace.
 translation-type: tm+mt
 source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
@@ -7,7 +7,7 @@ source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 ---
 
 
-# Gestión de proyectos
+# Administrar proyectos
 
 Utilice el administrador de proyectos para compartir, cambiar el nombre o eliminar proyectos. Para llegar al administrador de fechas:
 
