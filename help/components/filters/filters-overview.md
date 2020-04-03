@@ -7,7 +7,7 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 ---
 
 
-# Información general sobre Filtros
+# Información general de Filtros
 
 El análisis de viaje del cliente le permite crear, administrar, compartir y aplicar filtros de audiencia potentes y centrados a sus informes. Los Filtros permiten identificar subconjuntos de visitantes en función de las características o las interacciones con el sitio web. Los Filtros están diseñados como perspectivas de audiencia codificadas que puede crear para sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
 
