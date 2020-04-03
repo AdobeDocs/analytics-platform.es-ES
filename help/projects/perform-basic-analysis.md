@@ -7,7 +7,7 @@ source-git-commit: 280c7d3feb953f99c7a302bb93f94662b585a07d
 ---
 
 
-# Realizar análisis básica
+# Realizar análisis básico
 
 Después de crear conexiones y vistas de datos, analice los datos que ha introducido con la potencia y flexibilidad de Espacio de trabajo de Análisis. No dude en experimentar y arrastrar dimensiones y métricas, configuración de atribución de cambiares dimensión y métricas, nombres prácticos, huso horario, configuración de sesión, etc.
 
