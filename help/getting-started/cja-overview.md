@@ -1,5 +1,5 @@
 ---
-title: Información general sobre el análisis de viajes del cliente
+title: Información general sobre Customer Journey Analytics
 description: Introducción a Análisis de Viaje del Cliente
 translation-type: tm+mt
 source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
@@ -7,7 +7,7 @@ source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 ---
 
 
-# Información general sobre el análisis de viajes del cliente
+# Información general sobre Customer Journey Analytics
 
 El análisis de viaje del cliente es una función de Analytics que le permite utilizar la potencia del espacio de trabajo de Análisis con datos de la plataforma de Adobe Experience. Puede desglosar, filtrar, consulta y visualizar datos de años, y se combina con la capacidad de Platform de albergar todo tipo de esquemas y tipos de datos. Con el Modelo de datos de **experiencia (XDM)**, los datos se pueden representar y organizar de forma uniforme, listos para la combinación y exploración. **Los servicios** de Consulta de experiencias le permiten utilizar herramientas y marcos compatibles con SQL para realizar consultas y manipular todos los datos.
 
