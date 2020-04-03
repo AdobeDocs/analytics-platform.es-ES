@@ -1,7 +1,7 @@
 ---
 title: Información general sobre la privacidad de Customer Journey Analytics
 description: Describe cómo funciona la configuración de privacidad en Customer Journey Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
 
 ---
