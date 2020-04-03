@@ -1,5 +1,5 @@
 ---
-title: Información general sobre proyectos
+title: Información general sobre Proyectos
 description: Organizar y mantener proyectos en Análisis Workspace.
 translation-type: tm+mt
 source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
@@ -7,7 +7,7 @@ source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 ---
 
 
-# Información general sobre proyectos
+# Información general sobre Proyectos
 
 Los proyectos son el &quot;archivo&quot; general que se utiliza en Análisis Workspace. Contienen uno o más paneles, que permiten organizar visualizaciones.
 
