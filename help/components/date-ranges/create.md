@@ -1,5 +1,5 @@
 ---
-title: Crear un intervalo de fechas
+title: Crear un intervalo de fecha
 description: Cree un intervalo de fechas para utilizarlo en sistema de informes.
 translation-type: tm+mt
 source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
@@ -7,7 +7,7 @@ source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
 ---
 
 
-# Crear un intervalo de fechas
+# Crear un intervalo de fecha
 
 Puede crear un intervalo de fechas personalizado mediante cualquiera de los dos métodos siguientes:
 
