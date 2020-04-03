@@ -1,5 +1,5 @@
 ---
-title: Creación de una conexión
+title: Crear una conexión
 description: Describe cómo crear una conexión a un conjunto de datos de la plataforma en Análisis del viaje del cliente.
 translation-type: tm+mt
 source-git-commit: 41029fb428308a247df65072af4e419a90098a15
@@ -7,7 +7,7 @@ source-git-commit: 41029fb428308a247df65072af4e419a90098a15
 ---
 
 
-# Creación de una conexión
+# Crear una conexión
 
 Una conexión le permite integrar conjuntos de datos de Adobe Experience Platform en Workspace. Para informar sobre los conjuntos de datos de la plataforma, primero debe establecer una conexión entre los conjuntos de datos de la plataforma y del espacio de trabajo.
 
