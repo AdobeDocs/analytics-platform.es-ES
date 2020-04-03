@@ -1,5 +1,5 @@
 ---
-title: Configurar vistas y atribución de datos
+title: Configurar vistas de datos y atribución
 description: Describe cómo crear una vista de datos en un conjunto de datos de la plataforma en Análisis de viajes del cliente
 translation-type: tm+mt
 source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
@@ -9,7 +9,7 @@ source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
 
 # Configuración de componentes y atribuciones
 
-Las eVars, las propiedades y los eventos de la sensación tradicional de Adobe Analytics ya no existen en el análisis de viajes del cliente. En su lugar, tiene elementos de esquema ilimitados (dimensiones, métricas, campos de lista). Todos los ajustes de atribución que se utilizaron para aplicar a eVars y props durante el proceso de recopilación de datos ahora se aplican en tiempo de consulta, también conocidos como procesamiento de tiempo del informe.
+Las eVars, las propiedades y los eventos en el sentido tradicional de Adobe Analytics ya no existen en Customer Journey Analytics. En su lugar, tiene elementos de esquema ilimitados (dimensiones, métricas, campos de lista). Todos los ajustes de atribución que se utilizaron para aplicar a eVars y props durante el proceso de recopilación de datos ahora se aplican en tiempo de consulta, también conocidos como procesamiento de tiempo del informe.
 
 Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/attribution-settings-in-data-views.html) para ver un vídeo de información general.
 
