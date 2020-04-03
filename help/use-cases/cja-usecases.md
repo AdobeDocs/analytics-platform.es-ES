@@ -1,5 +1,5 @@
 ---
-title: Casos de uso de Análisis de Viaje del Cliente
+title: Casos de uso de Customer Journey Analytics
 description: Casos de uso para el análisis de viajes del cliente
 translation-type: tm+mt
 source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
@@ -7,7 +7,7 @@ source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 ---
 
 
-# Casos de uso de Análisis de Viaje del Cliente
+# Casos de uso de Customer Journey Analytics
 
 El análisis de viajes del cliente habilita los siguientes casos de uso clave:
 
