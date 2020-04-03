@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con funciones de Análisis de viajes del cliente
+title: Compatibilidad con funciones de Customer Journey Analytics
 description: Análisis del viaje del cliente en comparación con las funciones de Adobe Analytics establecidas.
 translation-type: tm+mt
 source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
@@ -7,7 +7,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 ---
 
 
-# Compatibilidad con funciones de Análisis de viajes del cliente
+# Compatibilidad con funciones de Customer Journey Analytics
 
 Las siguientes tablas lista qué funciones de Adobe Analytics son compatibles, parcialmente compatibles o no lo son en el análisis de viajes del cliente (CJA). Estas listas cambiarán con el tiempo a medida que se añadan funciones a CJA.
 
