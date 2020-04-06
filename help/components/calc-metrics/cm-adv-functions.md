@@ -2,7 +2,7 @@
 title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -27,7 +27,7 @@ Por otro lado, si tiene dos métricas en las que le interesa, puede que no sea j
 
 Devuelve el valor de su argumento. Utilice NO para asegurarse de que un valor no es igual a un valor en particular.
 
-> [!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
+>[!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -64,7 +64,7 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ## Se excedió la cantidad de valores exclusivos 
 
-Al igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a límites [de](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)&quot;valores exclusivos excedidos&quot;. Si se alcanza el límite de &quot;valores exclusivos excedidos&quot; en un mes concreto para una dimensión, el valor se cuenta como 1 elemento de dimensión.
+Al igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a límites [de](https://marketing.adobe.com/resources/help/es_ES/reference/metrics_uniques_high_numbers.html)&quot;valores exclusivos excedidos&quot;. Si se alcanza el límite de &quot;valores exclusivos excedidos&quot; en un mes concreto para una dimensión, el valor se cuenta como 1 elemento de dimensión.
 
 ## Comparación de funciones de recuento 
 
@@ -203,7 +203,7 @@ Devuelve el promedio de las últimas N filas.
 
 Si N &lt;= 0, utiliza todas las filas anteriores. Dado que se ordena por la dimensión, solo es útil en dimensiones que tienen un orden natural, como la fecha o la longitud de ruta.
 
-> [!NOTE] Esto no funcionará de la forma esperada con métricas de tasa, tales como ingresos o visitantes. Calcula la media de las tasas, en lugar de sumar los ingresos y los visitantes del último N y después dividirlos. En su lugar utilice
+>[!NOTE] Esto no funcionará de la forma esperada con métricas de tasa, tales como ingresos o visitantes. Calcula la media de las tasas, en lugar de sumar los ingresos y los visitantes del último N y después dividirlos. En su lugar utilice
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -446,7 +446,7 @@ Devuelve todos los elementos que no contienen la coincidencia exacta del valor i
 
 Devuelve TRUE si algún argumento es VERDADERO o devuelve FALSE si todos los argumentos son FALSOS.
 
-> [!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
+>[!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -687,7 +687,7 @@ La ecuación de la variable estandarizada es:
 
 donde [!DNL x] es la puntuación sin procesar, [!DNL μ] es la media de población y [!DNL σ] es la desviación estándar de la población.
 
-> [!NOTE] [!DNL μ] (mu) y[!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
+>[!NOTE] [!DNL μ] (mu) y[!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
 
 Puntuación Z(métrica)
 
@@ -712,5 +712,5 @@ Realiza una prueba Z n-personalizada con la puntuación Z de A.
 
 Devuelve la probabilidad de que la fila actual se pueda ver por casualidad en la columna.
 
-> [!NOTE] Asume que los valores se distribuyen de forma normal.
+>[!NOTE] Asume que los valores se distribuyen de forma normal.
 
