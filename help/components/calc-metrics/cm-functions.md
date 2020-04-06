@@ -2,7 +2,7 @@
 title: 'Referencia: funciones básicas'
 description: 'El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas. '
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -13,7 +13,7 @@ El Creador de métricas calculadas permite aplicar funciones estadísticas y mat
 
 Aquí se encuentra una lista alfabética de las funciones y sus definiciones.
 
-> [!NOTE] Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [!DNL MAXV(metrics)] también permite [!DNL MAXV(PageViews + Visits).]
+>[!NOTE] Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [!DNL MAXV(metrics)] también permite [!DNL MAXV(PageViews + Visits).]
 
 ## Funciones de tabla en comparación con funciones de fila
 
