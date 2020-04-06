@@ -2,7 +2,7 @@
 title: Conjunto de datos combinados
 description: Descubra cómo CJA crea una conexión combinando conjuntos de datos.
 translation-type: tm+mt
-source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -19,7 +19,7 @@ Al crear una conexión, CJA combina todos los esquemas y conjuntos de datos en u
 
 Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos, cada uno con campos diferentes que contienen datos diferentes.
 
-> [!NOTE] Adobe Experience Platform generalmente almacena la marca de hora en milisegundos de Unix. Para facilitar la lectura en este ejemplo, se utiliza la fecha y la hora.
+>[!NOTE] Adobe Experience Platform generalmente almacena la marca de hora en milisegundos de Unix. Para facilitar la lectura en este ejemplo, se utiliza la fecha y la hora.
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
