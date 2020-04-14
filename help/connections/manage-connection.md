@@ -2,7 +2,7 @@
 title: Administrar conexiones
 description: Describe cómo administrar conexiones a conjuntos de datos de plataforma.
 translation-type: tm+mt
-source-git-commit: fa7898d73756c33a0bae22c8758bc9f0a649626a
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -26,7 +26,7 @@ Una vez que haya creado una o varias conexiones, puede administrarlas en el [!UI
 
    | Acción | Descripción |
    |---|---|
-   | [!UICONTROL Delete] | Al eliminar una conexión, no se elimina el conjunto de datos, ya que los datos siguen estando en Adobe Experience Platform. |
+   | [!UICONTROL Delete] | Al eliminar una conexión no se elimina el conjunto de datos, ya que los datos siguen en [!DNL Adobe Experience Platform]. |
    | [!UICONTROL Rename] | Puede cambiar el nombre de la conexión con un nombre más descriptivo. |
    | [!UICONTROL Create Data View] | Este vínculo lo lleva al creador [de vistas de](/help/data-views/create-dataview.md)datos. |
    | [!UICONTROL Start or stop data streaming] | &quot;Streaming&quot; significa que si se agregan lotes nuevos a cualquiera de los conjuntos de datos de la conexión, estos nuevos datos se introducirán [!UICONTROL Customer Journey Analytics] para sistema de informes. |
