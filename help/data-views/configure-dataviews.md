@@ -2,7 +2,7 @@
 title: Configurar vistas de datos y atribución
 description: Describe cómo crear una vista de datos en un conjunto de datos de la plataforma en Análisis de viajes del cliente
 translation-type: tm+mt
-source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -17,7 +17,7 @@ Tenga esto en cuenta antes de aplicar la configuración de atribución:
 
 * En la interfaz de usuario de vistas de datos, se especifica la atribución predeterminada. **Nota**: Posteriormente, podrá anular esta configuración en proyectos de Workspace. Sin embargo, esta funcionalidad no está disponible en este momento.
 
-* La configuración de atribución en el análisis de viaje del cliente no es destructiva ni retroactiva. En otras palabras, no puede dañar irreparablemente sus conjuntos de datos en el análisis de viajes del cliente. Incluso si elimina algo accidentalmente, siempre puede volver a la plataforma de experiencia y volver a introducir el conjunto de datos. (Sin embargo, tenga en cuenta que volver a incorporar el conjunto de datos supondrá un costo adicional).
+* La configuración de atribución en el análisis de viaje del cliente no es destructiva ni retroactiva. En otras palabras, no puede dañar irreparablemente sus conjuntos de datos en el análisis de viajes del cliente. Incluso si elimina algo accidentalmente, siempre puede volver a [!UICONTROL Experience Platform] y volver a introducir el conjunto de datos. (Sin embargo, tenga en cuenta que volver a incorporar el conjunto de datos supondrá un costo adicional).
 
 * Si desea que una dimensión &quot;se comporte&quot; como una eVar tradicional (variable de conversión), debe configurarla con la atribución de &quot;Visita de último toque&quot; de forma predeterminada.
 
