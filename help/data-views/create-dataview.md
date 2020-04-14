@@ -2,7 +2,7 @@
 title: Creación de una vista de datos
 description: Describe cómo crear una vista de datos en un conjunto de datos de la plataforma en Customer Journey Analytics (CJA).
 translation-type: tm+mt
-source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -17,7 +17,7 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
 ## Requisitos previos
 
-Para poder crear vistas de datos, debe [configurar una o varias conexiones a conjuntos de datos](/help/connections/create-connection.md)de la plataforma Adobe Experience.
+Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de la plataforma] de experiencias](/help/connections/create-connection.md).
 
 ## Ajustar configuración
 
@@ -27,7 +27,7 @@ Para poder crear vistas de datos, debe [configurar una o varias conexiones a con
 
    | Configuración de sesión | Definición |
    |---|---|
-   | Conexión | Este campo vincula la vista de datos con la conexión que ha establecido anteriormente, que contiene los conjuntos de datos de la plataforma. |
+   | Conexión | Este campo vincula la vista de datos con la conexión que ha establecido anteriormente, que contiene los [!UICONTROL Experience Platform] conjuntos de datos. |
    | Nombre | Es obligatorio asignar un nombre a la vista de datos. |
    | Descripción | Una descripción detallada no es obligatoria, pero se recomienda. |
    | Añadir etiquetas | Las etiquetas permiten organizar las vistas de datos en categorías. |
