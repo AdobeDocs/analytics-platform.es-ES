@@ -2,14 +2,14 @@
 title: Administrar conexiones
 description: Describe cómo administrar conexiones a conjuntos de datos de plataforma.
 translation-type: tm+mt
-source-git-commit: 43d7606886c1e1e51c549d4741924a902a7de26c
+source-git-commit: fa7898d73756c33a0bae22c8758bc9f0a649626a
 
 ---
 
 
 # Administrar conexiones
 
-Una vez que haya creado una o más conexiones, puede administrarlas en el Administrador de conexiones. Puede
+Una vez que haya creado una o varias conexiones, puede administrarlas en el [!UICONTROL Connections] Administrador. Puede
 
 * Eliminar una conexión.
 * Cambie el nombre de una conexión.
@@ -26,9 +26,9 @@ Una vez que haya creado una o más conexiones, puede administrarlas en el Admini
 
    | Acción | Descripción |
    |---|---|
-   | Eliminar | Al eliminar una conexión, no se elimina el conjunto de datos, ya que los datos siguen estando en Adobe Experience Platform. |
-   | Cambiar nombre | Cambiando el nombre de una conexión... |
-   | Crear vista de datos | Este vínculo lo lleva al creador [de vistas de](/help/data-views/create-dataview.md)datos. |
-   | Inicio o parada del flujo de datos | &quot;Streaming&quot; significa que si se agregan lotes nuevos a cualquiera de los conjuntos de datos de la conexión, estos nuevos datos se introducirán en Customer Journey Analytics para sistema de informes. |
+   | [!UICONTROL Delete] | Al eliminar una conexión, no se elimina el conjunto de datos, ya que los datos siguen estando en Adobe Experience Platform. |
+   | [!UICONTROL Rename] | Puede cambiar el nombre de la conexión con un nombre más descriptivo. |
+   | [!UICONTROL Create Data View] | Este vínculo lo lleva al creador [de vistas de](/help/data-views/create-dataview.md)datos. |
+   | [!UICONTROL Start or stop data streaming] | &quot;Streaming&quot; significa que si se agregan lotes nuevos a cualquiera de los conjuntos de datos de la conexión, estos nuevos datos se introducirán [!UICONTROL Customer Journey Analytics] para sistema de informes. |
 
 
