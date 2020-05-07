@@ -2,7 +2,10 @@
 title: Información general sobre Filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro sencillo.
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +19,13 @@ Los Filtros se pueden basar en atributos (tipo de explorador, dispositivo, núme
 Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden utilizar juntos como filtros apilados.
 
 >[!IMPORTANT]
-Los Filtros se conocen como &#39;segmentos&#39; en Adobe Analytics. Se ha cambiado el nombre de los segmentos a filtros porque Adobe Experience Platform tiene una definición diferente de &quot;segmento&quot;. Un segmento en AEP hace referencia a...
+>Los Filtros se conocen como &#39;segmentos&#39; en Adobe Analytics. Se ha cambiado el nombre de los segmentos a filtros porque Adobe Experience Platform tiene una definición diferente de &quot;segmento&quot;.
 
-El filtrado incluye el Generador [de](/help/components/filters/create-filters.md) filtros para construir filtros y ejecutar una prueba previa, y el Administrador [de](/help/components/filters/manage-filters.md) filtros para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
+Filtering includes the [Filter Builder](/help/components/filters/create-filters.md) to construct filters and run a pre-test, and the [Filter Manager](/help/components/filters/manage-filters.md) to collect, tag, approve, set security, and share filters across your organization.
 
 ## filtros secuenciales
 
-Los filtros secuenciales permiten identificar visitantes en función de la navegación y la vista de la página en el sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los segmentos secuenciales ayudan a identificar qué le gusta a un visitante y qué evita un visitante. Al generar filtros secuenciales, el operador ENTONCES se utiliza para definir y ordenar la navegación por visitante.
+Los filtros secuenciales permiten identificar visitantes en función de la navegación y la vista de la página en el sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los segmentos secuenciales le ayudan a identificar qué le gusta a un visitante, así como lo que evita. Al generar filtros secuenciales, el operador ENTONCES se utiliza para definir y ordenar la navegación por visitante.
 
 Vea el siguiente ejemplo:
 
@@ -76,7 +79,7 @@ Los contenedores de sesión incluyen valores basados en la incidencia por sesió
 
 ### contenedor Evento
 
-El contenedor Evento define qué eventos de página desea incluir o excluir de un filtro. Es el contenedor más limitado del que dispone para identificar clics específicos y vistas de página cuando una condición sea verdadera, lo que le permite ver un código de seguimiento único, o aislar un comportamiento en una sección en concreto de su sitio. También es posible que desee señalar un valor específico cuando se produzca una acción, como el canal de mercadotecnia cuando se realice un pedido.
+El contenedor Evento define qué eventos de página desea incluir o excluir de un filtro. Es el contenedor más limitado del que dispone para identificar clics específicos y vistas de página cuando una condición sea verdadera, lo que le permite ver un código de seguimiento único, o aislar un comportamiento en una sección en concreto de su sitio. También podría interesarle localizar un valor específico cuando se produzca una acción, como el canal de marketing cuando se realice un pedido.
 
 Los contenedores de Evento incluyen valores basados en desgloses de una sola página:
 
