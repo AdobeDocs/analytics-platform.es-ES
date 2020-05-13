@@ -2,9 +2,9 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión a un conjunto de datos de la plataforma en Análisis del viaje del cliente.
 translation-type: tm+mt
-source-git-commit: b81116bba59c4b52dfe5b8b628c581e332a05c48
+source-git-commit: 674835d9c8b79850051729c875bc67f0e4052a66
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 4%
 
 ---
@@ -24,11 +24,11 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
 1. Haga clic en **[!UICONTROL Crear nueva conexión]** en la parte superior derecha.
 
-![Crear conexión](assets/create-connection.png)
+   ![Crear conexión](assets/create-connection.png)
 
 1. En primer lugar, elija un simulador para pruebas en la plataforma de experiencias que contenga los conjuntos de datos con los que desee crear una conexión. Adobe Experience Platform proporciona [entornos limitados](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) que dividen una instancia de plataforma única en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como &quot;silos de datos&quot; que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos. No se puede acceder a los datos de los entornos limitados.
 
-1. Una vez que haya seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos de ese simulador para pruebas desde los que puede extraer. Seleccione uno o varios conjuntos de datos que desee extraer de [!UICONTROL Customer Journey Analytics] y haga clic en **[!UICONTROL Añadir]**. (Si tiene muchos conjuntos de datos para elegir, puede buscar los correctos mediante la barra de búsqueda que se encuentra encima de la lista de conjuntos de datos).
+1. Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos de ese simulador para pruebas desde los que puede extraer. Seleccione uno o varios conjuntos de datos que desee extraer de [!UICONTROL Customer Journey Analytics] y haga clic en **[!UICONTROL Añadir]**. (Si tiene muchos conjuntos de datos para elegir, puede buscar los correctos mediante la barra de búsqueda que se encuentra encima de la lista de conjuntos de datos).
 
 1. A continuación, por cada conjunto de datos que haya agregado a esta conexión, [!UICONTROL Customer Journey Analytics] establece automáticamente el tipo de conjunto de datos en función de los datos que se vayan a introducir. Existen tres tipos diferentes de conjuntos de datos: [!UICONTROL Datos de Evento] , datos de [!UICONTROL Perfil] y datos de [!UICONTROL búsqueda] .
 
