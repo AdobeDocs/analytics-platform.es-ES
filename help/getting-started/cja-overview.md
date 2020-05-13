@@ -2,7 +2,10 @@
 title: Información general sobre Customer Journey Analytics
 description: Introducción a Análisis de Viaje del Cliente
 translation-type: tm+mt
-source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
+source-git-commit: 6f5c3c073069ca7f428d971515342c1a636795e3
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ La versión inicial de Análisis del viaje del cliente incluye muchas de las fun
 
 ## Comparación de CJA con análisis entre dispositivos
 
-[Análisis](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) cruzado de dispositivos se integra con el servicio de identidad de la plataforma de experiencia de Adobe, utilizando Co-op Graph o Private Graph, para identificar cómo los dispositivos digitales se asignan a las personas. Está disponible para los clientes de Adobe Analytics Ultimate.
+[Análisis](https://docs.adobe.com/content/help/es-ES/analytics/components/cda/cda-home.html) cruzado de dispositivos se integra con el servicio de identidad de la plataforma de experiencia de Adobe, utilizando Co-op Graph o Private Graph, para identificar cómo los dispositivos digitales se asignan a las personas. Está disponible para los clientes de Adobe Analytics Ultimate.
 
 CJA se integra con los conjuntos de datos de la plataforma Adobe Experience y permite la análisis entre canales en el espacio de trabajo de Análisis. Aunque CJA todavía no se integra con los gráficos de identidad Co-op o Privada, puede &quot;unir su propia ID&quot; para unir conjuntos de datos, y esos conjuntos de datos pueden ir más allá de los datos digitales para incluir puntos de contacto en línea y sin conexión. Los requisitos previos de CJA se tratan más detalladamente a continuación.
 
