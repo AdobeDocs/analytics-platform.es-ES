@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 4b672b0decfecc5a3c607ad966ebb2ecbf178a96
+source-git-commit: 204eb143d513b9b73fad020efabe6891a1253608
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 69%
+source-wordcount: '889'
+ht-degree: 68%
 
 ---
 
@@ -26,12 +26,17 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
    ![Crear conexión](assets/create-connection.png)
 
-1. En primer lugar, en **[!UICONTROL Seleccionar conjuntos]** de datos, elija un [!UICONTROL simulador] de pruebas en la plataforma de experiencias que contenga los conjuntos de datos con los que desee crear una conexión.
-Adobe Experience Platform proporciona [entornos](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) limitados que dividen una sola instancia de plataforma en entornos virtuales independientes. Puede considerar [!UICONTROL los entornos limitados] como &quot;silos de datos&quot; que contienen conjuntos de datos y que se utilizan para controlar el acceso a los conjuntos de datos. Tenga en cuenta que no se puede acceder a los datos de [!UICONTROL los entornos limitados].
+1. Elija un simulador para pruebas en la plataforma de experiencias que contenga los conjuntos de datos a los que desea crear una conexión.
 
-1. Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos de ese simulador para pruebas desde los que puede extraer. Select one or more dataset(s) you want to pull into [!UICONTROL Customer Journey Analytics] and click **[!UICONTROL Add]**. (Si tiene muchos conjuntos de datos para elegir, puede buscar los correctos mediante la barra de búsqueda que se encuentra arriba de la lista de conjuntos de datos).
+   Adobe Experience Platform proporciona [entornos limitados](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) que dividen una instancia de plataforma única en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como &quot;silos de datos&quot; que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos. No se puede acceder a los datos de los entornos limitados. Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos de ese simulador para pruebas desde los que puede extraer.
 
-1. Next, for each dataset that you added to this connection, [!UICONTROL Customer Journey Analytics] automatically sets the dataset type based on the data coming in. There are 3 different dataset types: [!UICONTROL Event] data, [!UICONTROL Profile] data, and [!UICONTROL Lookup] data.
+1. Select one or more dataset(s) you want to pull into [!UICONTROL Customer Journey Analytics] and click **[!UICONTROL Add]**.
+
+   (Si tiene muchos conjuntos de datos para elegir, puede buscar los correctos mediante la barra de búsqueda que se encuentra arriba de la lista de conjuntos de datos).
+
+1. Next, for each dataset that you added to this connection, [!UICONTROL Customer Journey Analytics] automatically sets the dataset type based on the data coming in.
+
+   There are 3 different dataset types: [!UICONTROL Event] data, [!UICONTROL Profile] data, and [!UICONTROL Lookup] data.
 
    | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de la persona |
    |---|---|---|---|---|
@@ -39,7 +44,7 @@ Adobe Experience Platform proporciona [entornos](https://docs.adobe.com/content/
    | [!UICONTROL Búsqueda] | Análogo a un archivo de clasificaciones. Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento para los nombres de producto. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento &quot;Record&quot;, excepto la clase &quot;XDM Individual Profile&quot;. | N/A |
    | [!UICONTROL Perfil] | Analogous to [!UICONTROL Customer Attributes] - for non-changing and non-temporal attributes. Data that is applied to your visitors, users, or customers in the [!UICONTROL Event] data. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/A | Cualquier esquema integrado o personalizado basado en la clase &quot;XDM Individual Perfil&quot;. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona](assets/person-id.png)**Nota:** Si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
 
-1. Al hacer clic en **[!UICONTROL Siguiente]** , se abre el cuadro de diálogo [!UICONTROL Crear conexión] .
+1. Haga clic en **[!UICONTROL Siguiente]** para ir al cuadro de diálogo [!UICONTROL Crear conexión] .
 
    ![Crear conexión](assets/create-connection2.png)
 
