@@ -1,7 +1,7 @@
 ---
 title: Configurar vistas de datos y atribución
-description: Describe cómo crear una vista de datos en un conjunto de datos de la plataforma en Análisis de viajes del cliente
-translation-type: tm+mt
+description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics
+translation-type: ht
 source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
@@ -9,45 +9,45 @@ source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 # Configuración de componentes y atribuciones
 
-Las eVars, las propiedades y los eventos en el sentido tradicional de Adobe Analytics ya no existen en Customer Journey Analytics. En su lugar, tiene elementos de esquema ilimitados (dimensiones, métricas, campos de lista). Todos los ajustes de atribución que se utilizaron para aplicar a eVars y props durante el proceso de recopilación de datos ahora se aplican en tiempo de consulta, también conocidos como procesamiento de tiempo del informe.
+Las eVars, las propiedades y los eventos en el sentido tradicional de Adobe Analytics ya no existen en Customer Journey Analytics. En lugar de ello, tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). Todos los ajustes de atribución que se utilizaron para aplicar a eVars y props durante el proceso de recopilación de datos ahora se aplican en tiempo de consulta, también conocidos como procesamiento de intervalos del informe.
 
 Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/attribution-settings-in-data-views.html) para ver un vídeo de información general.
 
 Tenga esto en cuenta antes de aplicar la configuración de atribución:
 
-* En la interfaz de usuario de vistas de datos, se especifica la atribución predeterminada. **Nota**: Posteriormente, podrá anular esta configuración en proyectos de Workspace. Sin embargo, esta funcionalidad no está disponible en este momento.
+* En la interfaz de usuario de vistas de datos, se especifica la atribución predeterminada. **Nota**: Posteriormente, podrá anular esta configuración en proyectos de Workspace. No obstante, esta funcionalidad no está disponible en este momento.
 
-* La configuración de atribución en el análisis de viaje del cliente no es destructiva ni retroactiva. En otras palabras, no puede dañar irreparablemente sus conjuntos de datos en el análisis de viajes del cliente. Incluso si elimina algo accidentalmente, siempre puede volver a [!UICONTROL Experience Platform] y volver a introducir el conjunto de datos. (Sin embargo, tenga en cuenta que volver a incorporar el conjunto de datos supondrá un costo adicional).
+* La configuración de atribución en Customer Journey Analytics es no destructiva y retroactiva. En otras palabras, no puede dañar irreparablemente sus conjuntos de datos en Customer Journey Analytics. Incluso si elimina algo accidentalmente, siempre puede volver a [!UICONTROL Experience Platform] y volver a introducir el conjunto de datos. (Sin embargo, tenga en cuenta que volver a incorporar el conjunto de datos tendrá un coste adicional).
 
-* Si desea que una dimensión &quot;se comporte&quot; como una eVar tradicional (variable de conversión), debe configurarla con la atribución de &quot;Visita de último toque&quot; de forma predeterminada.
+* Si desea que una dimensión &quot;se comporte&quot; como una eVar tradicional (variable de conversión), debe configurarla con la atribución de &quot;Visita de último contacto&quot; de forma predeterminada.
 
-* Si desea que una dimensión &quot;se comporte&quot; como una propiedad tradicional (variable de tráfico), debe configurarla con la atribución &quot;Mismo toque&quot; de forma predeterminada.
+* Si desea que una dimensión &quot;se comporte&quot; como una prop tradicional (variable de tráfico), debe configurarla con la atribución de &quot;Mismo contacto&quot; de forma predeterminada.
 
 * Si desea que una métrica se &quot;comporte&quot; como una métrica predeterminada, no debe cambiar nada.
 
-* La configuración de atribución de métricas anula la configuración de atribución de dimensiones.
+* La configuración de atribución de métricas anula la configuración de atribución de las dimensiones.
 
-## Especificar la configuración de componente y atribución
+## Especificar la configuración de componentes y atribuciones
 
-Después de [establecer y guardar la configuración](/help/data-views/create-dataview.md) de vista de datos y de agregar componentes, estará listo para especificar la configuración de atribución, si lo desea. Puede especificar la configuración de atribución/caducidad/retroactividad para dimensiones y métricas. Si, por ejemplo, desea que la atribución de una dimensión persista, es probable que desee establecer una hora de caducidad personalizada. Por ejemplo, si desea que una dimensión &#39;Código de seguimiento&#39; (una variable de campaña) configurada en la atribución &#39;Último toque&#39; persista durante una semana, agregue una caducidad personalizada de 1 semana.
+Después de [establecer y guardar la configuración](/help/data-views/create-dataview.md) de vista de datos y de agregar componentes, estará listo para especificar la configuración de atribución, si lo desea. Puede especificar la configuración de atribución/caducidad/retroactividad para dimensiones y métricas. Si, por ejemplo, desea que la atribución de una dimensión persista, es probable que desee establecer una hora de caducidad personalizada. Por ejemplo, si desea que una dimensión de &#39;Código de seguimiento&#39; (una variable de campaña) configurada en la atribución &#39;Último contacto&#39; dure una semana, añada una caducidad personalizada de 1 semana.
 
 >[!IMPORTANT]
->Puede optar por no establecer la asignación/caducidad. En ese caso, las dimensiones se comportarán como props (modelo de atribución de &quot;mismo toque&quot;). Las métricas sin configuración de atribución heredarán la configuración de la dimensión a la que se aplica esta métrica.
+>Puede optar por no establecer la asignación/caducidad. En ese caso, las dimensiones se comportarán como props (modelo de atribución de &quot;Mismo toque&quot;). Las métricas sin configuración de atribución heredarán la configuración de la dimensión a la que se aplica esta métrica.
 
 ![](assets/edit-component.png)
 
-1. Especifique la configuración de componente y atribución para dimensiones y métricas. Consulte a continuación para obtener información sobre la configuración individual.
+1. Especifique la configuración de componentes y atribuciones para dimensiones y métricas. Consulte a continuación para obtener información sobre la configuración individual.
 
 1. Haga clic en **[!UICONTROL Save]** para guardar la vista de datos.
 
 
 ### Configuración de componentes
 
-Puede cambiar el nombre de la métrica o dimensión a algo más sencillo de usar. Tenga en cuenta que el nombre subyacente no cambia, solo el nombre para mostrar.
+Puede cambiar el nombre de la métrica o la dimensión a algo más fácil de usar. Tenga en cuenta que el nombre subyacente no cambia. Solo el nombre para mostrar.
 
 ### Modelo de atribución
 
-El modelo describe la distribución de las conversiones a los eventos de un grupo. Por ejemplo, primer contacto o último contacto. Determina la forma en que el análisis de viaje del cliente asigna crédito por un evento de éxito si una variable recibe varios valores antes del evento.
+El modelo describe la distribución de conversiones a los eventos en un grupo. Por ejemplo, primer contacto o último contacto. Determina la forma en la que Customer Journey Analytics asigna crédito por un evento de éxito si una variable recibe varios valores antes del evento.
 
 | Icono de la interfaz de usuario | Modelo de atribución | Definición | Uso |
 | --- | --- | --- | --- |
@@ -64,19 +64,19 @@ El modelo describe la distribución de las conversiones a los eventos de un grup
 
 ### Caducidad
 
-Especifica un período de tiempo, o evento, tras el cual caduca el valor de la dimensión (ya no recibe crédito por eventos de éxito). Puede establecer la caducidad de la atribución en el nivel de sesión, persona o personalizado.
+Especifica un periodo o un evento tras el cual caduca el valor de la dimensión (ya no recibe crédito por los eventos de éxito). Puede establecer la caducidad de la atribución en el nivel de sesión, persona o personalizado.
 
 | Configuración | Definición |
 |---|---|
-| Sesión | Anteriormente conocido como el nivel de &#39;visita&#39;. Los eventos de conversión más allá de la vista de página o la sesión no se asocian con la dimensión o métrica. |
-| Persona (ventana Sistema de informes) | Anteriormente conocido como nivel de &quot;Visitante&quot;. Los eventos de conversión no vinculados a esta persona no se asocian con la dimensión o métrica. |
-| Tiempo personalizado | Especifique los minutos, horas, días, meses o trimestres personalizados. Los eventos de conversión más allá del período de tiempo especificado no se asocian con la dimensión o métrica. |
+| Sesión | Antes conocido como el nivel de &#39;Visita&#39;. Los eventos de conversión más allá de la vista de página o la sesión no se asocian a la dimensión ni la métrica. |
+| Persona (ventana del Sistema de informes) | Antes conocido como nivel de &#39;Visitante&#39;. Los eventos de conversión no vinculados a esta persona no se asocian con la dimensión o la métrica. |
+| Tiempo personalizado | Especifique los minutos, horas, días, meses o trimestres personalizados. Los eventos de conversión que no entren en el periodo especificado no se asocian a la dimensión o la métrica. |
 
-Para obtener más información, consulte el documento [Atribución IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
+Para obtener más información, consulte el [documento Attribution IQ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
 
 ### Ventana retroactiva
 
 Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devolverse en el tiempo para incluir los puntos de contacto. Los modelos de atribución que dan más crédito a las primeras interacciones ven diferencias mayores al tener ventanas retrospectivas distintas.
 
-* **Sesión:** Revisa hasta el principio de una sesión en la que se produjo una conversión. Las ventanas retroactivas de visitas son estrechas, ya que no se ven más allá de la sesión. Las ventanas retrospectivas de sesión respetan la definición de visita modificada en las vistas de datos.
-* **Persona (ventana sistema de informes):** Busca en todas las sesiones hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas personales son amplias, ya que pueden abarcar muchas sesiones. Por ejemplo: si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas retrospectivas de la persona incluye del 1 de septiembre al 30 de septiembre.
+* **Sesión:** Busca hasta el principio de una sesión en la que se produjo una conversión. Las ventanas retrospectivas de visitas son estrechas, ya que no buscan más allá de la sesión. Las ventanas retrospectivas de sesión respetan la definición de visita modificada en las vistas de datos.
+* **Persona (ventana del Sistema de informes):** Busca todas las sesiones hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de personas son amplias, ya que pueden abarcar muchas sesiones. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de personas sería del 1 de septiembre al 30 de septiembre.
