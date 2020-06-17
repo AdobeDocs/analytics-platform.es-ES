@@ -1,15 +1,20 @@
 ---
 title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
-translation-type: ht
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+translation-type: tm+mt
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '2949'
+ht-degree: 99%
 
 ---
 
 
 # Referencia: funciones avanzadas
 
-Acceda a estas funciones en la **[!UICONTROL Show Advanced]** lista desplegable **[!UICONTROL Functions]**
+>[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+
+Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
 
 ## Funciones de tabla en comparación con funciones de fila
 
