@@ -2,12 +2,17 @@
 title: Crear un intervalo de fecha
 description: Cree un intervalo de fechas para utilizarlo en sistema de informes.
 translation-type: tm+mt
-source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 4%
 
 ---
 
 
 # Crear un intervalo de fecha
+
+>[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede crear un intervalo de fechas personalizado mediante cualquiera de los dos métodos siguientes:
 
@@ -17,8 +22,8 @@ Puede crear un intervalo de fechas personalizado mediante cualquiera de los dos 
 Para crear un intervalo de fechas en el administrador de intervalos de fechas:
 
 1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
-1. Vaya a [!UICONTROL Components] > [!UICONTROL Date Ranges].
-1. Haga clic en el [!UICONTROL Add] botón para abrir la ventana modal que crea un intervalo de fechas.
+1. Vaya a [!UICONTROL Componentes] > Intervalos [!UICONTROL de fechas].
+1. Haga clic en el botón [!UICONTROL Añadir] para abrir la ventana modal que crea un intervalo de fechas.
 
 ## Creación de una ventana modal de intervalo de fechas
 
