@@ -1,16 +1,16 @@
 ---
-title: Usar CJA con matrices de objetos
+title: Uso de conjuntos de objetos
 description: Comprender cómo CJA informa sobre las jerarquías de datos.
 translation-type: tm+mt
-source-git-commit: b7cd74f3fe2f0222e78452f58a7c387f6e0c86d2
+source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# Usar CJA con matrices de objetos
+# Uso de conjuntos de objetos
 
 Algunos esquemas de plataforma pueden tener matrices de objetos. Uno de los ejemplos más comunes sería un carro de compras, que contiene múltiples productos. Cada producto tiene un nombre, SKU, categoría, precio, cantidad y cualquier otra dimensión que desee rastrear. Todas estas facetas tienen requisitos separados, pero todas deben encajar en la misma visita.
 
@@ -206,7 +206,7 @@ Existe un pedido de producto sin un nombre de garantía vinculado a él, por lo 
       "SKU": "1234", 
       "category": "Washing Machines", 
       "name": "LG Washing Machine 2000", 
-      "orders": 1, 
++      "orders": 1, 
       "revenue": 1600, 
       "units": 1,
       "order_id":"abc123", 
@@ -239,3 +239,30 @@ Existe un pedido de producto sin un nombre de garantía vinculado a él, por lo 
 +  "timestamp": 1534219229
 +}
 ```
+
+Observe los pedidos que no tienen un nombre vinculado a ellos. Son los pedidos atribuidos al valor de dimensión &#39;No especificado&#39;.
+
+### Combinación de métricas
+
+CJA no combina de forma nativa métricas con nombres similares si se encuentran en diferentes niveles de objeto.
+
+| `product : category` | `product : revenue` | `product : warranty : revenue` |
+| --- | --- | --- |
+| `Washing Machines` | `1600` | `250` |
+| `Dryers` | `500` | `0` |
+| `Total` | `2100` | `250` |
+
+Sin embargo, puede crear una métrica calculada que combine las métricas deseadas:
+
+Métrica calculada &quot;Ingresos totales&quot;: `[product : revenue] + [product : warranty : revenue]`
+
+Al aplicar esta métrica calculada se muestran los resultados deseados:
+
+| `product : warranty : name` | `Total revenue (calculated metric)` |
+| --- | --- |
+| `Washing Machines` | `1850` |
+| `Dryers` | `500` |
+| `Total` | `2350` |
+
+## Ejemplos de persistencia
+
