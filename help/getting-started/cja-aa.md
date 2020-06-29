@@ -1,11 +1,11 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Grupos de informes virtuales | Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de VRS | Ahora forma parte de las Vistas de datos. |
 | Procesamiento de intervalo de tiempo | CJA se basa exclusivamente en el procesamiento de intervalos del informe. |
-| Eliminación de RGPD | Note that GDPR is now handled in coordination with [!UICONTROL Experience Platform] - CJA inherits whatever data changes [!UICONTROL Experience Platform] makes to underlying datasets. |
+| Eliminación de RGPD | Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Experience Platform]: CJA hereda los cambios de datos que [!UICONTROL Experience Platform] haga en los conjuntos de datos subyacentes. |
 
 ## Admitido con advertencias
 
@@ -40,7 +40,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Variable de producto | La variable de producto actualmente disponible para el sistema de informes para los datos que se ajustan al esquema de Experience Event (específicamente mediante el objeto productListItems). |
 | Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
-| Audiencias de AAM | If customers are using [!UICONTROL Analytics Data Connector] datasets, this data will be part of the ADC data. |
+| Audiencias de AAM | Si los clientes utilizan conjuntos de datos de [!UICONTROL Analytics Data Connector], estos datos formarán parte de los datos de ADC. |
 | Uso compartido de proyecto | El uso compartido de proyectos solo es compatible entre los usuarios de CJA; no existe el uso compartido de proyectos entre CJA y la versión tradicional de Analysis Workspace. |
 | Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada que no sean visitas en segundo plano móviles. |
 | Configuración de persistencia de eVar | Las eVars ya no forman parte de CJA. Sin embargo, la configuración de persistencia ahora forma parte de las Vistas de datos y está disponible para todas las dimensiones. Tenga en cuenta que la persistencia se basa en el procesamiento de intervalos del informe, no en el procesamiento de la recopilación de datos. Esto significa que toda persistencia se basará en el intervalo de fechas del sistema de informes, no en la totalidad de los datos. |
@@ -52,11 +52,11 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Dimensiones predeterminadas del Analysis Workspace (por ejemplo: tipo de explorador, tipo de remitente del reenvío, canales de marketing, cantidad de visitas, etc.) | CJA no proporciona estas dimensiones de forma nativa. Para los clientes que utilizan el Analytics Data Connector (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics para Destinatario (A4T) no son compatibles. |
+| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics para Target (A4T) no son compatibles. |
 | eVars de comercialización | Las eVars de comercialización solo funcionarán con conjuntos de datos basados en ADC a menos que se ajusten estrictamente al mismo esquema de XDM (similar a las limitaciones de lista de productos anteriores). |
-| Filtros de bots | Para conjuntos de datos basados en el Analytics Data Connector (ADC), se aplica el filtrado de bots. General bot filtering logic for other datasets is not performed by the [!UICONTROL Experience Platform] or CJA. |
+| Filtros de bots | Para conjuntos de datos basados en el Analytics Data Connector (ADC), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
 | Reglas de procesamiento | Para los conjuntos de datos basados en ADC, las reglas de procesamiento siguen aplicándose. |
-| Configuración de identidad entre dispositivos | Customers are limited to &quot;one-time&quot; stitches of the data via Query Service, or currently must apply this logic to data prior to [!UICONTROL Experience Platform] data ingestion. |
+| Configuración de identidad entre dispositivos | Los clientes se limitan a puntos &quot;únicos&quot; de datos a través del servicio de Consulta o deben aplicar esta lógica a los datos antes del ingreso de datos de [!UICONTROL Experience Platform]. |
 
 ## No compatible actualmente, pero planificado
 
@@ -98,6 +98,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Destinatarios de Reports &amp; Analytics |  |
 | Eventos del calendario de Reports &amp; Analytics |  |
 | Ad Hoc Analysis |  |
-| Data Warehouse Creación de informes | [!UICONTROL El Servicio] de Consulta de Experience Platform será la nueva interfaz para estos casos de uso en CJA. |
+| Data Warehouse Creación de informes | [!UICONTROL El Servicio de consulta de Experience Platform] será la nueva interfaz para estos casos de uso en CJA. |
 | Mobile Services |  |
 | Archivo de fuentes de datos |  |
