@@ -15,8 +15,8 @@ tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
 translation-type: tm+mt
 source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 + Vistas de datos {#cja-dataviews}
    + [Creación de una vista de datos](data-views/create-dataview.md)
    + [Configurar vistas de datos y atribución](data-views/configure-dataviews.md)
-+ Workspace projects {#cja-workspace}
++ Proyectos de Workspace {#cja-workspace}
    + [Información general de Analysis Workspace](analysis-workspace/home.md)
    + [Realizar análisis básico](analysis-workspace/perform-basic-analysis.md)
    + [Realizar análisis avanzado](analysis-workspace/perform-adv-analysis.md)
@@ -66,7 +66,7 @@ ht-degree: 89%
          + [Resumen de abandonos](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar una visualización de abandonos](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abandonos entre dimensiones](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Aplicar filtros en la análisis de visitas en el orden previsto](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Aplicar filtros en un análisis de visitas en orden previsto](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flujo {#flow}
          + [Resumen de flujos](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuración de una visualización de flujo](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
@@ -89,11 +89,11 @@ ht-degree: 89%
       + [Panel de Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Panel de perspectivas rápidas](analysis-workspace/c-panels/quickinsight.md)
+      + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
    + Curar y compartir proyectos {#curate-share}
       + [Depurar proyectos de Workspace](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos de Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Proyectos de Workspace solo de Vista](analysis-workspace/curate-share/view-only-projects.md)
+      + [Proyectos de Workspace solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Uso compartido y programación de archivos de proyecto](analysis-workspace/curate-share/send-schedule-files.md)
       + [Envío de archivo: Programar un proyecto para su entrega](analysis-workspace/curate-share/t-schedule-report.md)
@@ -114,7 +114,7 @@ ht-degree: 89%
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Limitaciones de Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos de administración](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accesibilidad en el Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Accesibilidad en Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Cola larga en Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
 + Componentes {#cja-components}
    + [Resumen de componentes](components/overview.md)
@@ -142,7 +142,7 @@ ht-degree: 89%
       + [Comparación de fechas](components/date-ranges/time-comparison.md)
 + Casos prácticos {#cja-usecases}
    + [Casos de uso de Customer Journey Analytics](use-cases/cja-usecases.md)
-   + [Uso de conjuntos de objetos](use-cases/object-arrays.md)
+   + [Uso de matrices de objetos](use-cases/object-arrays.md)
 + Privacidad {#cja-privacy}
    + [Información general de privacidad](privacy/privacy-overview.md)
 + [Actualizaciones de documentación de CJA](doc-changes.md)
