@@ -4,21 +4,25 @@ keywords: fallout and segmentation;segments in fallout analysis;compare segments
 title: Aplicación de segmentos en el análisis de abandonos
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
 
-# Aplicar filtros en la análisis de visitas en el orden previsto
+# Aplicar filtros en un análisis de visitas en orden previsto
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede crear filtros desde un punto de contacto, agregar segmentos como punto de contacto y comparar flujos de trabajo clave entre varios filtros en Analysis Workspace.
 
->[!IMPORTANT] Los Filtros utilizados como puntos de comprobación en Visitas en el orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización de visitas en el orden previsto. Con una visita en el orden previsto de contexto de visitante, los filtros utilizados como puntos de comprobación deben ser visitas o filtros basados en visitas. Con una visita en el orden previsto de contexto, los filtros utilizados como punto de comprobación deben ser segmentos basados en visitas individuales. Si utiliza una combinación no válida, el resultado de abandonos será del 100%. Se ha añadido una advertencia a la visualización de visitas en el orden previsto que se mostrará cuando añada un filtro incompatible como punto de contacto. Determinadas combinaciones de contenedores de filtro no válidas provocarán diagramas de visitas en el orden previsto no válidos, como:
+>[!IMPORTANT]
+>
+>Los Filtros utilizados como puntos de comprobación en Visitas en el orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización de visitas en el orden previsto. Con una visita en el orden previsto de contexto de visitante, los filtros utilizados como puntos de comprobación deben ser visitas o filtros basados en visitas. Con una visita en el orden previsto de contexto, los filtros utilizados como punto de comprobación deben ser segmentos basados en visitas individuales. Si utiliza una combinación no válida, el resultado de abandonos será del 100%. Se ha añadido una advertencia a la visualización de visitas en el orden previsto que se mostrará cuando añada un filtro incompatible como punto de contacto. Determinadas combinaciones de contenedores de filtro no válidas provocarán diagramas de visitas en el orden previsto no válidos, como:
 
 * Uso de un filtro basado en visitantes como punto de contacto dentro de una visualización de visitas en el orden previsto en contexto de visitante
 * Uso de un filtro basado en visitantes como punto de contacto dentro de una visualización de visitas en el orden previsto en contexto
