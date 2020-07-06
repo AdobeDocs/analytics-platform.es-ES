@@ -2,7 +2,7 @@
 title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre la análisis de cohorte en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 48%
@@ -12,7 +12,9 @@ ht-degree: 48%
 
 # What is [!UICONTROL Cohort Analysis]?
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. [!UICONTROL El análisis de cohorte es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. ] Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
@@ -32,7 +34,9 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!IMPORTANT]
 >
->[!UICONTROL La Análisis] de cohorte no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) o Ocurrencias. Solo se pueden utilizar las métricas que se pueden usar en segmentos en
+>[!UICONTROL Análisis de cohorte]
+>
+>no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) ni Ocurrencias. Solo se pueden utilizar las métricas que se pueden usar en segmentos en
 >[!UICONTROL Análisis]de cohorte y solo se pueden incrementar en 1 cada vez.
 
 ## Capacidades del análisis de cohorte
