@@ -3,7 +3,7 @@ description: 'null'
 title: Resumen de flujos
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 90%
@@ -13,7 +13,9 @@ ht-degree: 90%
 
 # Resumen de flujos
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 La función de flujo muestra las rutas del cliente en sus sitios web y aplicaciones.
 
@@ -23,7 +25,9 @@ Le permite:
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
 * Crear segmentos mediante la designación de un punto específico en una ruta elegida
 
->[!NOTE] Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics/Ad Hoc Analysis, consulte [La segmentación como base para Flujo y Abandonos](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>[!NOTE]
+>
+>Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics/Ad Hoc Analysis, consulte [La segmentación como base para Flujo y Abandonos](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [Visualización de flujo en YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:56)
 
