@@ -3,7 +3,7 @@ description: La partición de tiempo toma la marca de hora de los aciertos recog
 title: Dimensiones de partición de tiempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: 0c5bd5ce0b0ba4ba758a1ef1adf5a4a519e9cf8c
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
@@ -22,7 +22,9 @@ Las dimensiones de partición de tiempo se basan en el huso horario del grupo de
 * ¿Qué rendimiento tienen las ventas del fin de semana en comparación con las ventas en días laborables?
 * ¿Cuándo genera mayor conversión una determinada campaña de marketing? ¿Por la mañana o por la tarde?
 
->[!NOTE] Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de análisis, puede implementar el [complemento getTimeParting](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/plugins/gettimeparting.html).
+>[!NOTE]
+>
+>Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de análisis, puede implementar el [complemento getTimeParting](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/plugins/gettimeparting.html).
 
 Las dimensiones de partición de tiempo en Analysis Workspace incluyen:
 
