@@ -2,17 +2,19 @@
 title: Modelos de atribución y ventanas retroactivas
 description: Cómo los diferentes tipos de atribución dividen el crédito entre los valores de dimensión.
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
 
 # Modelos de atribución y ventanas retroactivas
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 El concepto de atribución en Adobe Analytics requiere dos componentes:
 
@@ -45,7 +47,9 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 * **Ventana retroactiva personalizada:** Permite expandir la ventana de atribución más allá del intervalo de fechas de sistema de informes hasta un máximo de 90 días. Las ventanas retroactivas personalizadas se evalúan en cada conversión del período de sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
 
->[!NOTE] **[!UICONTROL Las ventanas]** retroactivas personalizadas están actualmente en pruebas limitadas. Consulte las versiones [de funciones de](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) Adobe Analytics para obtener más información.
+>[!NOTE]
+>
+>**[!UICONTROL Las ventanas]** retroactivas personalizadas están actualmente en pruebas limitadas. Consulte las versiones [de funciones de](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) Adobe Analytics para obtener más información.
 
 ## Ejemplo
 
@@ -76,4 +80,6 @@ Según la ventana retrospectiva y el modelo de atribución, los canales reciben 
       * Medio social: 18,6 %, 9,32 dólares
       * Búsqueda de pago: 13,8 %, 6,92 dólares
 
->[!TIP] Otros eventos de conversión, como pedidos o eventos personalizados, también se dividen si el crédito pertenece a más de un canal. Por ejemplo, si dos canales contribuyen a un evento personalizado mediante un modelo de atribución lineal, ambos canales obtienen 0,5 del evento personalizado. Estas fracciones de evento se suman en todas las visitas y luego se redondean al entero más cercano para los informes.
+>[!NOTE]
+>
+>Otros eventos de conversión, como pedidos o eventos personalizados, también se dividen si el crédito pertenece a más de un canal. Por ejemplo, si dos canales contribuyen a un evento personalizado mediante un modelo de atribución lineal, ambos canales obtienen 0,5 del evento personalizado. Estas fracciones de evento se suman en todas las visitas y luego se redondean al entero más cercano para los informes.
