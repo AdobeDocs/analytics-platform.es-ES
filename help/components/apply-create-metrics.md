@@ -3,7 +3,7 @@ description: Hay dos modos de utilizar métricas en Analysis Workspace.
 title: Métricas
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 0c5bd5ce0b0ba4ba758a1ef1adf5a4a519e9cf8c
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 88%
@@ -19,7 +19,9 @@ Puede arrastrar una métrica estándar, una métrica calculada o una plantilla d
 
 ![](assets/metrics_icons.png)
 
->[!NOTE] Aunque esto parezca simple, el uso de métricas es bastante versátil. Puede agregar métricas a un informe arrastrando la métrica adecuada a la sección de métricas de una tabla. También puede desglosar las dimensiones por métricas, lo que le proporciona un control preciso sobre la vista de tabla. Además, puede insertar una métrica como dimensión y una dimensión como métrica para crear un informe de tiempo extra. Juegue con los distintos componentes y vea lo que puede hacer. Las posibilidades son infinitas.
+>[!NOTE]
+>
+>Aunque esto parezca simple, el uso de métricas es bastante versátil. Puede agregar métricas a un informe arrastrando la métrica adecuada a la sección de métricas de una tabla. También puede desglosar las dimensiones por métricas, lo que le proporciona un control preciso sobre la vista de tabla. Además, puede insertar una métrica como dimensión y una dimensión como métrica para crear un informe de tiempo extra. Juegue con los distintos componentes y vea lo que puede hacer. Las posibilidades son infinitas.
 
 O puede hacer clic en **[!UICONTROL Componentes]** > **[!UICONTROL Nueva métrica]**. Esto le llevará al [Generador de métricas calculadas](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/cm-overview.html), donde puede generar métricas personalizadas a partir de las ya existentes.
 
