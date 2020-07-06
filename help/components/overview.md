@@ -2,7 +2,7 @@
 title: Resumen de componentes
 description: Aprenda qué componentes son las ofertas de CJA y cómo puede utilizarlas en el sistema de informes.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 86%
@@ -38,7 +38,9 @@ See [Create a project](/help/analysis-workspace/home.md) for information about u
 
 Puede administrar componentes (de uno en uno o seleccionando más de uno) de diferentes formas. Haga clic con el botón secundario en un componente o haga clic en **[!UICONTROL Acciones]** en la parte superior de la lista de componentes.
 
->[!NOTE] Estas acciones no se aplican a los componentes de tiempo.
+>[!NOTE]
+>
+>Estas acciones no se aplican a los componentes de tiempo.
 
 | Acción de componente | Descripción |
 |--- |--- |
