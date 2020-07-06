@@ -3,7 +3,7 @@ description: 'null'
 title: Optimizar rendimiento de Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 98%
@@ -13,7 +13,9 @@ ht-degree: 98%
 
 # Optimizar rendimiento de Analysis Workspace
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Determinados factores pueden influir en el rendimiento de un proyecto dentro de Analysis Workspace. Es importante conocer cuáles son antes de comenzar a crear un proyecto, de forma que este se pueda planificar y generar de forma óptima. Abajo se muestra una lista de factores que afectan al rendimiento y prácticas recomendadas para optimizar los proyectos. El rendimiento de Analysis Workspace es una de las principales prioridades de Adobe y lo mejoramos día a día.
 
@@ -32,9 +34,9 @@ Los segmentos intrincados pueden tener un impacto significativo en el desempeño
 
 Aunque algunos de los factores de complejidad no se pueden prevenir, piense en opciones para reducir la complejidad de sus segmentos. En general, cuanto más específico pueda ser con sus criterios de segmento, mejor. Por ejemplo:
 
-* Con los contenedores, el uso de un solo contenedor en la parte superior del segmento será más rápido que una serie de contenedores anidados.
-* Con los operadores, “es igual a” será más rápido que “contiene” y “es igual a cualquiera de” será más rápido que “contiene cualquiera de”.
-* Con muchos criterios, los operadores Y serán más rápidos que varios operadores O. Además, busque oportunidades para reducir muchas condiciones “O” en una sola condición “es igual a cualquiera de”.
+* Con los contenedores, el uso de un solo contenedor en la parte superior del segmento será más rápido que una serie de contenedores anidados
+* Con los operadores, “es igual a” será más rápido que “contiene” y “es igual a cualquiera de” será más rápido que “contiene cualquiera de”
+* Con muchos criterios, los operadores Y serán más rápidos que varios operadores O. Además, busque oportunidades para reducir muchas condiciones “O” en una sola condición “es igual a cualquiera de”
 
 Además, [las clasificaciones](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/c-classifications.html) pueden ayudar a consolidar muchos valores en grupos concisos a partir de los cuales crear segmentos. La segmentación en grupos de clasificación proporciona beneficios de rendimiento sobre los segmentos con muchas condiciones “O”, o criterios “contiene”.
 
