@@ -1,8 +1,8 @@
 ---
 description: Quick Insights es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
-title: Panel de perspectivas rápidas
+title: Panel de información rápida
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 6%
@@ -10,9 +10,11 @@ ht-degree: 6%
 ---
 
 
-# Panel de perspectivas rápidas
+# Panel de información rápida
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 >[!IMPORTANT]
 >
@@ -68,7 +70,6 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
 1. Cuando haya agregado al menos una dimensión y una métrica, se creará lo siguiente:
 
    * Una tabla improvisada con la dimensión (aquí, Estados de EE.UU.) verticalmente y la métrica (aquí, Visitas) horizontalmente en la parte superior. Consulte esta tabla:
-
    ![](assets/qibuilder3.png)
 
    * Una visualización adjunta, en este caso un gráfico [de barras](/help/analysis-workspace/visualizations/bar.md). La visualización que se genera se basa en el tipo de datos agregados a la tabla. Cualquier dato basado en el tiempo (como [!UICONTROL Visitas] por día/mes) tiene un gráfico de [!UICONTROL líneas] predeterminado. Cualquier dato no basado en el tiempo (como [!UICONTROL Visitas] por [!UICONTROL dispositivo]) tiene el valor predeterminado de un gráfico de [!UICONTROL barras] . Puede cambiar el tipo de visualización haciendo clic en la flecha desplegable situada junto al tipo de visualización.
