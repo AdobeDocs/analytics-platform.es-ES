@@ -2,7 +2,7 @@
 title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 99%
@@ -12,7 +12,9 @@ ht-degree: 99%
 
 # Referencia: funciones avanzadas
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
 
@@ -32,7 +34,9 @@ Por otra parte, si tiene dos métricas en las que está interesado, puede que no
 
 Devuelve el valor de su argumento. Utilice NO para asegurarse de que un valor no es igual a un valor en concreto.
 
->[!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
+>[!NOTE]
+>
+>0 (cero) significa Falso y cualquier otro valor es Verdadero.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -208,7 +212,9 @@ Devuelve la media de las últimas N filas.
 
 Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensión, solo resulta útil en dimensiones que tienen un orden natural como la fecha o la longitud de ruta.
 
->[!NOTE] Esto no funcionará de la forma esperada con métricas de tasa, tales como ingresos o visitantes. Calcula la media de las tasas, en lugar de sumar los ingresos y los visitantes del último N y después dividirlos. En su lugar utilice
+>[!NOTE]
+>
+>Esto no funcionará de la forma esperada con métricas de tasa, tales como ingresos o visitantes. Calcula la media de las tasas, en lugar de sumar los ingresos y los visitantes del último N y después dividirlos. En su lugar utilice
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -451,7 +457,9 @@ Devuelve todos los elementos que no contienen la coincidencia exacta del valor i
 
 Devuelve TRUE si algún argumento es VERDADERO o devuelve FALSE si todos los argumentos son FALSOS.
 
->[!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
+>[!NOTE]
+>
+>0 (cero) significa Falso y cualquier otro valor es Verdadero.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -692,7 +700,9 @@ La ecuación de variable estandarizada es:
 
 donde [!DNL x] es la puntuación sin procesar, [!DNL μ] es la media de población y [!DNL σ] es la desviación estándar de la población.
 
->[!NOTE] [!DNL μ] (mu) y[!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
+>[!NOTE]
+>
+>[!DNL μ] (mu) y[!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
 
 Puntuación Z(métrica)
 
@@ -717,5 +727,7 @@ Realiza una prueba Z con una distribución n con una variable estandarizada de A
 
 Devuelve la probabilidad de que la fila actual pueda verse por casualidad en la columna.
 
->[!NOTE] Asume que los valores se distribuyen de forma normal.
+>[!NOTE]
+>
+>Asume que los valores se distribuyen de forma normal.
 
