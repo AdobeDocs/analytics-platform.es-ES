@@ -3,7 +3,7 @@ description: La detección de anomalías de Analysis Workspace utiliza una serie
 title: Técnicas estadísticas utilizadas en la detección de anomalías
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 97%
@@ -13,7 +13,9 @@ ht-degree: 97%
 
 # Técnicas estadísticas utilizadas en la detección de anomalías
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 La detección de anomalías de Analysis Workspace utiliza una serie de técnicas estadísticas avanzadas para determinar si una observación debe considerarse como anómala o no.
 
@@ -68,7 +70,7 @@ Los plazos de aprendizaje de las tendencias horarias dependen de un plazo de ret
 
 ## Detección de anomalías para granularidades semanales y mensuales
 
-Las tendencias semanales y mensuales no muestran las mismas tendencias semanales o diarias que las granularidades por días u horas, por tanto, se utiliza un algoritmo independiente. Para semanal y mensual, se utiliza un método de detección de casos aparte de dos pasos conocido como la prueba de Desviación estudentizada extrema generalizada (GESD). Esta prueba considera el número máximo de anomalías esperadas combinadas con el método de diagramas de cajas ajustado (un método no paramétrico para la detección de casos aparte) para determinar el número máximo de casos aparte. Los dos pasos son:
+Las tendencias semanales y mensuales no muestran las mismas tendencias semanales o diarias que las granularidades por días u horas, por tanto, se utiliza un algoritmo independiente. Para semanal y mensual, se utiliza un método de detección de casos aparte de dos pasos conocido como la prueba de Desviación estudentizada extrema generalizada (GESD). Esta prueba considera el número máximo de anomalías esperadas combinadas con el método de diagramas de cajas ajustado (un método no paramétrico para la detección de casos aparte) para determinar el número máximo de periféricos. Los dos pasos son:
 
 1. Función de diagrama de cajas ajustado: esta función determina el número máximo de anomalías sobre los datos de entrada.
 1. Función GESD: se aplica a los datos de entrada con el resultado del paso 1.
