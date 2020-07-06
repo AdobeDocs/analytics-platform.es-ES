@@ -5,17 +5,19 @@ title: Casos de uso de análisis de cohorte
 topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
 
 # [!UICONTROL Casos de uso de Análisis] de cohorte
 
->[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Use case examples for [!UICONTROL Cohort Analysis].
 
@@ -25,9 +27,9 @@ Imagine que desea analizar de qué manera los usuarios que instalan su aplicaci�
 
 You can create a six-month [!UICONTROL Cohort Analysis]:
 
-**Granularidad**: mensual, de enero de 2015 a junio de 2015.
+**Granularidad**: mensual, de enero de 2015 a junio de 2015
 
-**Métrica de inclusión**: instalaciones de aplicación.
+**Métrica de inclusión**: instalaciones de aplicación
 
 **Métrica de regreso**: sesiones o ejecuciones
 
@@ -59,7 +61,7 @@ Una gran compañía de seguros obtiene una gran participación de los clientes g
 
 ## Caso de uso de permanencia en Campaign
 
-Una empresa multimedia internacional utiliza campañas dirigidas para dirigir a los usuarios a sus distintas plataformas y así fomentar la participación. Los ingresos publicitarios por plataforma se basan en la participación de los clientes y la retención; por tanto, el éxito de las campañas es esencial para el éxito del negocio. They use our new [!UICONTROL Custom Dimension] Cohort feature in [!UICONTROL Cohort] Tables to compare various campaigns side-by-side to identify which campaigns are most effective at acquiring and retaining users to increase engagement. Luego pueden identificar qué aspectos hacen que una campaña tenga éxito y aplicarla a otras campañas para aumentar el compromiso en las distintas plataformas.
+Una empresa multimedia internacional utiliza campañas dirigidas para dirigir a los usuarios a sus distintas plataformas y así fomentar la participación. Los ingresos publicitarios por plataforma se basan en la participación de los clientes y la retención; por tanto, el éxito de las campañas es esencial para el éxito del negocio. They use our new [!UICONTROL Custom Dimension] Cohort feature in [!UICONTROL Cohort] Tables to compare various campaigns side-by-side to identify which campaigns are most effective at acquiring and retaining users to increase engagement. De ese modo puede identificar qué aspectos hacen que una campaña tenga éxito y aplicarlos a las demás, y así aumentar la participación en las distintas plataformas.
 
 ## Caso de uso de lanzamiento de productos
 
