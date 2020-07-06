@@ -2,7 +2,7 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 204eb143d513b9b73fad020efabe6891a1253608
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 68%
@@ -16,7 +16,9 @@ A connection lets you integrate datasets from [!DNL Adobe Experience Platform] i
 
 Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html) para ver un vídeo de información general.
 
->[!IMPORTANT] Puede combinar varios conjuntos de datos de [!DNL Experience Platform] en una sola conexión.
+>[!IMPORTANT]
+>
+>Puede combinar varios conjuntos de datos de [!DNL Experience Platform] en una sola conexión.
 
 1. Acceda a [https://analytics.adobe.com](https://analytics.adobe.com).
 
@@ -26,9 +28,9 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
    ![Crear conexión](assets/create-connection.png)
 
-1. Elija un simulador para pruebas en la plataforma de experiencias que contenga los conjuntos de datos a los que desea crear una conexión.
+1. Elija un simulador para pruebas en el Experience Platform que contenga los conjuntos de datos a los que desea crear una conexión.
 
-   Adobe Experience Platform proporciona [entornos limitados](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) que dividen una instancia de plataforma única en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como &quot;silos de datos&quot; que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos. No se puede acceder a los datos de los entornos limitados. Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos de ese simulador para pruebas desde los que puede extraer.
+   Adobe Experience Platform proporciona [entornos](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) limitados que dividen una sola instancia de Platform en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como &quot;silos de datos&quot; que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos. No se puede acceder a los datos de los entornos limitados. Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos de ese simulador para pruebas desde los que puede extraer.
 
 1. Select one or more dataset(s) you want to pull into [!UICONTROL Customer Journey Analytics] and click **[!UICONTROL Add]**.
 
