@@ -15,8 +15,8 @@ tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
 translation-type: tm+mt
 source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 0%
       + [Limitaciones de Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos de administración](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad en Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
-      + [Cola larga en Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
+      + [Long-tail en Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
 + Componentes {#cja-components}
    + [Resumen de componentes](components/overview.md)
    + Dimensiones {#dimensions}
