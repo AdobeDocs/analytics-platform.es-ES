@@ -2,10 +2,10 @@
 title: Panel de Attribution
 description: Cómo utilizar e interpretar el panel de atribución en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -40,7 +40,7 @@ El panel Atribución es una forma sencilla de generar un análisis comparando va
 * **Métrica** total: El número total de conversiones que se produjeron durante el período de tiempo de sistema de informes. Estas son las conversiones que se atribuyen a través de la dimensión seleccionada.
 * **Gráfico** de la barra de comparación de atribución de métricas: Compara visualmente las conversiones atribuidas en cada uno de los elementos de dimensión de la dimensión seleccionada. Cada color de barra representa un modelo de atribución distinto.
 * **Tabla** improvisada de atribución de métricas: Muestra los mismos datos que el gráfico de barras, representado como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtros el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de forma similar a cualquier otra tabla improvisada en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
-* **Gráfico** de superposición de dimensión: Diagrama de Venn que muestra los tres valores de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica la frecuencia con la que se produjeron las conversiones cuando un visitante estuvo expuesto a ambos valores de dimensión. Al seleccionar otras filas en la tabla improvisada adyacente, se actualiza la visualización para reflejar su selección.
+* **Gráfico** de superposición de dimensión: Diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica la frecuencia con la que se produjeron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Al seleccionar otras filas en la tabla improvisada adyacente, se actualiza la visualización para reflejar su selección.
 * **Puntos de contacto de marketing por viaje**: Un histograma que indica el número de puntos de contacto que un visitante tuvo en la ventana retroactiva. Esto resulta útil para ver qué impacto tuvo la atribución de múltiples contactos para su conjunto de datos. Si casi todos los visitantes tienen un solo punto de contacto, es probable que distintos modelos de atribución muestren datos similares.
 * **Detalle** de rendimiento de Canal de mercadotecnia: Permite comparar hasta tres modelos de atribución visualmente mediante un diagrama de puntos.
 * **Flujo** de Canal de mercadotecnia: Permite ver con qué canales se interactúan con mayor frecuencia y en qué orden durante el viaje de un visitante.
