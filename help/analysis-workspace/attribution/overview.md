@@ -1,11 +1,11 @@
 ---
 title: Información general de Attribution
-description: Concepto de atribución de crédito de un evento de éxito a varios valores de dimensión.
+description: El concepto de atribuir crédito de un evento de éxito a varios elementos de dimensión.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 50%
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 50%
 >
 >Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
-La atribución permite a los analistas personalizar la forma en que los valores de dimensión obtienen crédito por los eventos de éxito. Por ejemplo:
+La atribución permite a los analistas personalizar la forma en que los elementos de dimensión obtienen crédito por los eventos de éxito. Por ejemplo:
 
 1. Un visitante a su sitio hace clic en un vínculo de búsqueda paga a una de las páginas de productos. Agregue el producto al carro de compras, pero no lo compre.
 2. Al día siguiente, verá una publicación en los medios sociales de uno de sus amigos, haga clic en el vínculo y, a continuación, complete la compra.
