@@ -1,8 +1,8 @@
 ---
-title: Valores de dimensión dinámicos vs. estáticos
-description: Cómo interactuar con valores de dimensión dinámicos y estáticos en tablas.
+title: Elementos de dimensión dinámicos vs. estáticos
+description: Cómo interactuar con elementos de dimensión dinámicos y estáticos en tablas.
 translation-type: tm+mt
-source-git-commit: 0477302df92ccab30d9f3a45cc7b22f2112a0c70
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 9%
@@ -10,38 +10,38 @@ ht-degree: 9%
 ---
 
 
-# Valores de dimensión dinámicos frente a estáticos en tablas improvisadas
+# Elementos de dimensión dinámicos vs. estáticos en tablas improvisadas
 
 >[!NOTE] Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 En las tablas improvisadas, las filas y columnas pueden contener varios valores de componente. Estos valores pueden ser dinámicos (cambian con el tiempo) o estáticos (no cambian con el tiempo), según la análisis que desee generar.
 
-## Valores de dimensión dinámica
+## Elementos de dimensión dinámica
 
-Los valores de dimensión dinámica cambian con el tiempo y dependen de la métrica por la que se ordena en la tabla improvisada. Los valores de dimensión dinámica son preferibles cuando desea analizar los elementos principales de un período de tiempo determinado.
+Los elementos de dimensión dinámica cambian con el tiempo y dependen de la métrica por la que se ordena en la tabla improvisada. Los elementos de dimensión dinámica son preferibles cuando desea analizar los elementos principales de un período de tiempo determinado.
 
-Cuando se coloca una dimensión en una tabla improvisada, se devuelven filas dinámicas. Representan los elementos principales que corresponden a la dimensión de una métrica y un período de tiempo determinados. También puede colocar una dimensión en columnas de tabla improvisada y ésta se expande automáticamente a los 5 valores de dimensión principales.
+Cuando se coloca una dimensión en una tabla improvisada, se devuelven filas dinámicas. Representan los elementos principales que corresponden a la dimensión de una métrica y un período de tiempo determinados. También puede colocar una dimensión en columnas de tabla improvisada y ésta se expande automáticamente a los 5 elementos de dimensión principales.
 
-Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los valores de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) volver dinámicamente a las filas de tabla. Si se suelta en una columna, los 5 valores de dimensión Tipo de explorador principales devuelven dinámicamente.
+Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) volver dinámicamente a las filas de tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
 
-Los valores de dimensión dinámica tienen la opción de filtro de fila y **no tienen** iconos de bloqueo y X.
+Los elementos de dimensión dinámica tienen la opción de filtro de fila y **no tienen** iconos de bloqueo y X.
 
-## Valores de dimensión estáticos
+## Elementos de dimensión estáticos
 
-Los valores de dimensión estáticos no cambian con el tiempo; son componentes fijos que siempre se devuelven en una tabla improvisada. Los valores de dimensión estáticos son preferibles cuando se desea analizar siempre el mismo elemento, ya sean campañas específicas o días específicos de la semana.
+Los elementos de dimensión estáticos no cambian con el tiempo; son componentes fijos que siempre se devuelven en una tabla improvisada. Los elementos de dimensión estáticos son preferibles cuando se desea analizar siempre el mismo elemento, ya sean campañas específicas o días específicos de la semana.
 
-Cada vez que selecciona y suelta manualmente valores de componente específicos (dimensión, métrica, segmento, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas. También se pueden crear valores de dimensión estáticos si elige:
+Cada vez que selecciona y suelta manualmente valores de componente específicos (dimensión, métrica, segmento, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas. También se pueden crear elementos de dimensión estáticos si elige:
 
 * En filas, haga clic con el botón derecho > [!UICONTROL Mostrar sólo las filas seleccionadas]
 * Desde columnas, haga clic con el botón derecho > [!UICONTROL Convertir el elemento en estático]
 
 Por ejemplo, cuando arrastra elementos específicos del tipo de navegador como Microsoft y Apple, esos dos elementos específicos siempre se arrastran a la tabla.
 
-Los valores de dimensión estáticos **no tienen** la opción de filtro de fila. En su lugar, los iconos Bloquear y X están presentes en cada elemento. Haga clic en el icono X para eliminar ese valor de dimensión de la tabla.
+Los elementos de dimensión estáticos **no tienen** la opción de filtro de fila. En su lugar, los iconos Bloquear y X están presentes en cada elemento. Haga clic en el icono X para eliminar ese elemento de dimensión de la tabla.
 
-## Valores de dimensión mixtos
+## Elementos de dimensión mixtos
 
-Los valores de dimensión de diferentes dimensiones se pueden agregar a la misma tabla. En estos casos, el encabezado de fila indica &quot;Dimensiones mixtas&quot;. Estos valores de dimensión son estáticos. Por ejemplo, agregar valores de dimensión específicos de la dimensión Tipo de navegador y otros valores de dimensión de la dimensión Explorador.
+Los elementos de dimensión de diferentes dimensiones se pueden agregar a la misma tabla. En estos casos, el encabezado de fila indica &quot;Dimensiones mixtas&quot;. Estos elementos de dimensión son estáticos. Por ejemplo, si agrega elementos de dimensión específicos desde la dimensión Tipo de navegador y otros elementos de dimensión desde la dimensión Explorador.
 
 ## Filas totales improvisadas
 
