@@ -2,10 +2,10 @@
 title: Resumen de componentes
 description: Aprenda qué componentes son las ofertas de CJA y cómo puede utilizarlas en el sistema de informes.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ Los componentes son funciones de Customer Journey Analytics que se pueden utiliz
 
 Puede administrar los siguientes componentes:
 
-* [**Filtros:**](filters/filters-overview.md) excluir partes de los datos para centrarse en valores de dimensión comunes
+* [**Filtros **](filters/filters-overview.md): Excluir partes de los datos para centrarse en elementos de dimensión comunes
 * [**Métricas calculadas:**](calc-metrics/calc-metr-overview.md) usar las métricas y fórmulas como componentes nuevos para utilizarlas en sistemas de informes
 * [**Intervalos de fechas:**](date-ranges/overview.md) personalizar y especificar las ofertas de Analysis Workspace en los intervalos de fechas
 * [**Proyectos:**](/help/analysis-workspace/home.md) Organizar y mantener sus proyectos en Analysis Workspace
