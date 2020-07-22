@@ -1,8 +1,11 @@
 ---
 title: Configurar vistas de datos y atribución
 description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics
-translation-type: ht
-source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+translation-type: tm+mt
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +20,7 @@ Tenga esto en cuenta antes de aplicar la configuración de atribución:
 
 * En la interfaz de usuario de vistas de datos, se especifica la atribución predeterminada. **Nota**: Posteriormente, podrá anular esta configuración en proyectos de Workspace. No obstante, esta funcionalidad no está disponible en este momento.
 
-* La configuración de atribución en Customer Journey Analytics es no destructiva y retroactiva. En otras palabras, no puede dañar irreparablemente sus conjuntos de datos en Customer Journey Analytics. Incluso si elimina algo accidentalmente, siempre puede volver a [!UICONTROL Experience Platform] y volver a introducir el conjunto de datos. (Sin embargo, tenga en cuenta que volver a incorporar el conjunto de datos tendrá un coste adicional).
+* La configuración de atribución en Customer Journey Analytics es no destructiva y retroactiva. En otras palabras, no puede dañar irreparablemente sus conjuntos de datos en Customer Journey Analytics. Even if you accidentally delete something, you can always go back to [!UICONTROL Experience Platform] and bring the dataset back in. (Sin embargo, tenga en cuenta que volver a incorporar el conjunto de datos tendrá un coste adicional).
 
 * Si desea que una dimensión &quot;se comporte&quot; como una eVar tradicional (variable de conversión), debe configurarla con la atribución de &quot;Visita de último contacto&quot; de forma predeterminada.
 
@@ -38,7 +41,7 @@ Después de [establecer y guardar la configuración](/help/data-views/create-dat
 
 1. Especifique la configuración de componentes y atribuciones para dimensiones y métricas. Consulte a continuación para obtener información sobre la configuración individual.
 
-1. Haga clic en **[!UICONTROL Save]** para guardar la vista de datos.
+1. Click **[!UICONTROL Save]** to save your data view.
 
 
 ### Configuración de componentes
@@ -55,7 +58,7 @@ El modelo describe la distribución de conversiones a los eventos en un grupo. P
 | ![Primer contacto](assets/first_touch.png) | Primer contacto | Otorga un 100% de crédito al punto de contacto que se ve por primera vez en la ventana retrospectiva de atribución. | Otro modelo de atribución común que resulta útil para analizar canales de marketing destinados a impulsar la diferenciación de la marca o la adquisición de clientes. Lo suelen usar equipos de marketing de Visualización o Social, pero también es una herramienta excelente para evaluar la efectividad de recomendaciones de productos in situ. |
 | ![Mismo contacto](assets/same_touch.png) | Mismo contacto | Otorga un 100% de crédito a la visita individual donde se produjo la conversión. Si un punto de contacto no se produce en la misma visita que una conversión, se agrupa en “Ninguno”. | Es un modelo útil al evaluar el contenido o la experiencia del usuario que se presentó inmediatamente en el momento de la conversión. Los equipos de producto o diseño a menudo utilizan este modelo para tener acceso a la efectividad de una página en la que tiene lugar la conversión. |
 | ![Lineal](assets/linear.png) | Lineal | Otorga el mismo crédito a cada punto de contacto que se visualice y que conduzca a una conversión. | Este modelo es útil para conversiones con ciclos de consideración más largos o experiencias del usuario que necesitan interacción de clientes más frecuente. La suelen utilizar equipos que miden la efectividad de notificaciones de aplicaciones móviles o con productos por suscripción. |
-| ![Forma de U](assets/u_shaped.png) | Forma de U | Otorga un 40% de crédito a la primera interacción, un 40% de crédito a la última interacción y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 50% de crédito a ambos. | Un gran modelo para aquellos que valoran las interacciones que introdujeron o cerraron una conversión, pero que aún desean reconocer las interacciones de asistencia. La atribución de Forma de U la suelen utilizar equipos que adoptan un enfoque más equilibrado y desean dar más crédito a canales que encontraron o cerraron una conversión. |
+| ![Forma de U](assets/u_shaped.png) | Forma de U | Otorga un 40% de crédito a la primera interacción, un 40% de crédito a la última interacción y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 50% de crédito a ambos. | Un gran modelo para aquellos que valoran las interacciones que introdujeron o cerraron una conversión, pero que aún desean reconocer las interacciones de asistencia. La atribución de Forma de U suele ser utilizada por equipos que adoptan un enfoque más equilibrado y desean dar más crédito a canales que encontraron o cerraron una conversión. |
 | ![Forma de J](assets/j_shaped.png) | Forma de J | Otorga un 60% de crédito a la última interacción, un 20% de crédito a la primera interacción y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 75% de crédito a la última interacción y un 25% de crédito a la primera. | Este modelo es ideal para aquellos que dan prioridad a los buscadores y cerradores, pero que quieren centrarse en cerrar interacciones. La atribución de Forma de J la suelen utilizar equipos que adoptan un enfoque más equilibrado y desean dar más crédito a canales que cerraron una conversión. |
 | ![Forma J inversa](assets/inverse_j.png) | J inversa | Otorga un 60% de crédito al primer contacto, un 20% al último contacto y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 75% de crédito a la primera interacción y un 25% de crédito a la última. | Este modelo es ideal para aquellos que dan prioridad a los buscadores y cerradores, pero que desean centrarse en encontrar interacciones. La atribución de J inversa la suelen utilizar equipos que adoptan un enfoque más balanceado y desean dar más crédito a canales que iniciaron una conversión. |
 | ![Personalizado](assets/custom.png) | Personalizado | Permite especificar el valor que desea dar a los puntos de primer contacto, los puntos de último contacto y los puntos de contacto intermedios. Los valores especificados se normalizan al 100% incluso si los números introducidos no suman 100. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. En el caso de interacciones con dos puntos de contacto, se omite el parámetro central. Los puntos de primer y último contacto se normalizan al 100% y el crédito se asigna en consecuencia. | Este modelo es perfecto para aquellos que quieren un control total sobre su modelo de atribución y tienen necesidades específicas que otros modelos de atribución no satisfacen. |
@@ -64,7 +67,7 @@ El modelo describe la distribución de conversiones a los eventos en un grupo. P
 
 ### Caducidad
 
-Especifica un periodo o un evento tras el cual caduca el valor de la dimensión (ya no recibe crédito por los eventos de éxito). Puede establecer la caducidad de la atribución en el nivel de sesión, persona o personalizado.
+Especifica un período de tiempo, o evento, tras el cual caduca el elemento de dimensión (ya no recibe crédito por eventos de éxito). Puede establecer la caducidad de la atribución en el nivel de sesión, persona o personalizado.
 
 | Configuración | Definición |
 |---|---|
