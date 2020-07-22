@@ -1,11 +1,11 @@
 ---
 title: Modelos de atribución y ventanas retroactivas
-description: Cómo los diferentes tipos de atribución dividen el crédito entre los valores de dimensión.
+description: Cómo los diferentes tipos de atribución dividen el crédito entre elementos de dimensión.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
