@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre Attribution
 description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -77,7 +77,7 @@ Dado que las dimensiones del canal de marketing dependen de una definición de v
 
 Algunas dimensiones en Analytics pueden contener varios valores en una sola visita. Algunos ejemplos comunes son las variables de lista y la variable Products.
 
-Cuando la atribución se aplica a visitas con varios valores, todos los valores de la misma visita obtienen el mismo crédito. Dado que muchos valores pueden recibir este crédito, el total del informe puede ser diferente a la suma de cada elemento de línea individual. El total del informe se deduplica, mientras que cada valor de dimensión individual obtiene el crédito adecuado.
+Cuando la atribución se aplica a visitas con varios valores, todos los valores de la misma visita obtienen el mismo crédito. Dado que muchos valores pueden recibir este crédito, el total del informe puede ser diferente a la suma de cada elemento de línea individual. El total del informe se anula la duplicación, mientras que cada elemento de dimensión individual recibe el crédito adecuado.
 
 **¿Cómo funciona la atribución con la segmentación?**
 
@@ -89,4 +89,4 @@ Por ejemplo, si crea un VRS y le aplica un segmento “Display Hits”, puede ve
 
 >[!NOTE]
 >
->Si un segmento suprime las visitas que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos valores de dimensión, sin ningún impacto en las métricas procesadas por el modelo de atribución. Como resultado, un segmento puede devolver valores más bajos que un filtro con una definición comparable.
+>Si un segmento suprime las visitas que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos elementos de dimensión, sin ningún impacto en las métricas procesadas según el modelo de atribución. Como resultado, un segmento puede devolver valores más bajos que un filtro con una definición comparable.
