@@ -3,10 +3,10 @@ description: Obtenga información sobre las visualizaciones y los ajustes de vis
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Vídeo de YouTube: [tipos de visualización en Analysis Workspace](https://www.y
 | [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores). |
 | [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
 | [Líneas](/help/analysis-workspace/visualizations/line.md) | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión. |
-| [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los valores de dimensión y hasta tres métricas. |
+| [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | En función de la celda seleccionada, esta visualización muestra los totales y los resúmenes. |
 | [Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | En función de las celdas seleccionadas, esta visualización compara las celdas entre sí. |
 | [Texto](/help/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al Workspace. |
