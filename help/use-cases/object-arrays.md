@@ -1,11 +1,11 @@
 ---
 title: Uso de matrices de objetos
 description: Comprender cómo CJA informa sobre las jerarquías de datos.
-translation-type: ht
-source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -188,7 +188,7 @@ CJA examina estas partes de la visita para generar el informe:
 
 Como el secador no incluía una garantía, no está incluido en la tabla.
 
-Dado que puede combinar cualquier dimensión con cualquier métrica, la siguiente tabla muestra cómo serían los datos con valores de dimensión no especificados:
+Dado que puede combinar cualquier dimensión con cualquier métrica, la siguiente tabla muestra cómo se harían los datos con elementos de dimensión no especificados:
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ Dado que puede combinar cualquier dimensión con cualquier métrica, la siguient
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-Existe un pedido de producto sin un nombre de garantía vinculado a él, por lo que el valor de dimensión se atribuye a &#39;No especificado&#39;. La misma situación se aplica también al pedido de garantía del producto:
+Existe un pedido de producto sin un nombre de garantía vinculado a él, por lo que el elemento de dimensión se atribuye a &#39;No especificado&#39;. La misma situación se aplica también al pedido de garantía del producto:
 
 ```diff
 {
@@ -240,7 +240,7 @@ Existe un pedido de producto sin un nombre de garantía vinculado a él, por lo 
 +}
 ```
 
-Observe los pedidos que no tienen un nombre vinculado a ellos. Son los pedidos atribuidos al valor de dimensión &#39;No especificado&#39;.
+Observe los pedidos que no tienen un nombre vinculado a ellos. Son los pedidos atribuidos al elemento de dimensión &#39;No especificado&#39;.
 
 ### Combinación de métricas
 
