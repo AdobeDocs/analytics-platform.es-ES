@@ -13,10 +13,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
       + Configuración de columna y fila {#column-row-settings}
          + [Configuración de columna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Configuración de filas](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Filas manuales y dinámicas](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Elementos dinámicos vs. estáticos](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [Configuración de Deshacer y Rehacer](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Teclas de acceso directo en Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paginación, filtrado y ordenación de tablas](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
