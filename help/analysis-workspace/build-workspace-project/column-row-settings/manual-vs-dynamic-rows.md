@@ -1,10 +1,10 @@
 ---
-title: Elementos de dimensión dinámicos vs. estáticos
+title: Elementos de dimensión dinámicos vs. estáticos en tablas improvisadas
 description: Cómo interactuar con elementos de dimensión dinámicos y estáticos en tablas.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '518'
 ht-degree: 9%
 
 ---
@@ -26,6 +26,8 @@ Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los el
 
 Los elementos de dimensión dinámica tienen la opción de filtro de fila y **no tienen** iconos de bloqueo y X.
 
+![](assets/dynamic-items.png)
+
 ## Elementos de dimensión estáticos
 
 Los elementos de dimensión estáticos no cambian con el tiempo; son componentes fijos que siempre se devuelven en una tabla improvisada. Los elementos de dimensión estáticos son preferibles cuando se desea analizar siempre el mismo elemento, ya sean campañas específicas o días específicos de la semana.
@@ -39,15 +41,18 @@ Por ejemplo, cuando arrastra elementos específicos del tipo de navegador como M
 
 Los elementos de dimensión estáticos **no tienen** la opción de filtro de fila. En su lugar, los iconos Bloquear y X están presentes en cada elemento. Haga clic en el icono X para eliminar ese elemento de dimensión de la tabla.
 
+![](assets/static-items.png)
+
 ## Elementos de dimensión mixtos
 
 Los elementos de dimensión de diferentes dimensiones se pueden agregar a la misma tabla. En estos casos, el encabezado de fila indica &quot;Dimensiones mixtas&quot;. Estos elementos de dimensión son estáticos. Por ejemplo, si agrega elementos de dimensión específicos desde la dimensión Tipo de navegador y otros elementos de dimensión desde la dimensión Explorador.
+
+![](assets/mixed-dimensions.png)
 
 ## Filas totales improvisadas
 
 Las filas dinámicas y estáticas se comportan de forma diferente en la fila total improvisada. De forma predeterminada:
 
 * Las filas dinámicas se suman a las métricas de servidor y de duplicado, como visitas o visitantes
-* Las filas estáticas se suman en el lado del cliente y **no eliminan** las métricas de duplicado.
+* Las filas estáticas se suman en el lado del cliente y **no eliminan** las métricas de duplicado. Para calcular el total de filas en el servidor, cambie la configuración Fila a **Mostrar total** general. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
 
-[Obtenga más información sobre las opciones totales](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) de Workspace para filas dinámicas y estáticas.
