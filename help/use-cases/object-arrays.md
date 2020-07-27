@@ -1,11 +1,11 @@
 ---
 title: Uso de matrices de objetos
 description: Comprender cómo CJA informa sobre las jerarquías de datos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ CJA examina estas partes de la visita para generar el informe:
 
 Como el secador no incluía una garantía, no está incluido en la tabla.
 
-Dado que puede combinar cualquier dimensión con cualquier métrica, la siguiente tabla muestra cómo se harían los datos con elementos de dimensión no especificados:
+Dado que puede combinar cualquier dimensión con cualquier métrica, la siguiente tabla muestra cómo serían los datos con elementos de dimensión no especificados:
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
