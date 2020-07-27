@@ -1,11 +1,11 @@
 ---
 title: Configurar vistas de datos y atribución
 description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Tenga esto en cuenta antes de aplicar la configuración de atribución:
 
 * En la interfaz de usuario de vistas de datos, se especifica la atribución predeterminada. **Nota**: Posteriormente, podrá anular esta configuración en proyectos de Workspace. No obstante, esta funcionalidad no está disponible en este momento.
 
-* La configuración de atribución en Customer Journey Analytics es no destructiva y retroactiva. En otras palabras, no puede dañar irreparablemente sus conjuntos de datos en Customer Journey Analytics. Even if you accidentally delete something, you can always go back to [!UICONTROL Experience Platform] and bring the dataset back in. (Sin embargo, tenga en cuenta que volver a incorporar el conjunto de datos tendrá un coste adicional).
+* La configuración de atribución en Customer Journey Analytics es no destructiva y retroactiva. En otras palabras, no puede dañar irreparablemente sus conjuntos de datos en Customer Journey Analytics. Incluso si elimina algo accidentalmente, siempre puede volver a [!UICONTROL Experience Platform] y volver a introducir el conjunto de datos. (Sin embargo, tenga en cuenta que volver a incorporar el conjunto de datos tendrá un coste adicional).
 
 * Si desea que una dimensión &quot;se comporte&quot; como una eVar tradicional (variable de conversión), debe configurarla con la atribución de &quot;Visita de último contacto&quot; de forma predeterminada.
 
@@ -41,7 +41,7 @@ Después de [establecer y guardar la configuración](/help/data-views/create-dat
 
 1. Especifique la configuración de componentes y atribuciones para dimensiones y métricas. Consulte a continuación para obtener información sobre la configuración individual.
 
-1. Click **[!UICONTROL Save]** to save your data view.
+1. Haga clic en **[!UICONTROL Guardar]** para guardar la vista de datos.
 
 
 ### Configuración de componentes
@@ -67,7 +67,7 @@ El modelo describe la distribución de conversiones a los eventos en un grupo. P
 
 ### Caducidad
 
-Especifica un período de tiempo, o evento, tras el cual caduca el elemento de dimensión (ya no recibe crédito por eventos de éxito). Puede establecer la caducidad de la atribución en el nivel de sesión, persona o personalizado.
+Especifica un periodo o un evento tras el cual caduca el elemento de dimensión (ya no recibe crédito por los eventos de éxito). Puede establecer la caducidad de la atribución en el nivel de sesión, persona o personalizado.
 
 | Configuración | Definición |
 |---|---|
@@ -75,7 +75,7 @@ Especifica un período de tiempo, o evento, tras el cual caduca el elemento de d
 | Persona (ventana del Sistema de informes) | Antes conocido como nivel de &#39;Visitante&#39;. Los eventos de conversión no vinculados a esta persona no se asocian con la dimensión o la métrica. |
 | Tiempo personalizado | Especifique los minutos, horas, días, meses o trimestres personalizados. Los eventos de conversión que no entren en el periodo especificado no se asocian a la dimensión o la métrica. |
 
-Para obtener más información, consulte el [documento Attribution IQ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
+Para obtener más información, consulte el [documento Attribution IQ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/attribution/models.html).
 
 ### Ventana retroactiva
 
