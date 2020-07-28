@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 2bbfe2296d658dd38464a4a9d7810ae6d6eda306
+source-git-commit: 756c6e7c187b76636cf96d18c949908a97db51ed
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 45%
+source-wordcount: '1626'
+ht-degree: 38%
 
 ---
 
@@ -70,7 +70,7 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
 
 Customer Journey Analytics ahora admite la capacidad de usar el mapa de identidad para su ID de persona. Mapa de identidad es una estructura de datos de mapa que permite a alguien cargar pares de clave -> valor. Las claves son Áreas de nombres de identidad y el valor es una estructura que contiene el valor de identidad. El mapa de identidad existe en cada fila o evento cargado y se completa para cada fila en consecuencia.
 
-El mapa de identidad está disponible para cualquier conjunto de datos que utilice un esquema basado en la clase XDM de ExperienceEvent. Al seleccionar un conjunto de datos para incluirlo en una conexión CJA, tiene la opción de seleccionar un campo como ID principal o el mapa de identidad:
+El mapa de identidad está disponible para cualquier conjunto de datos que utilice un esquema basado en la clase [ExperienceEvent XDM](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html) . Al seleccionar un conjunto de datos para incluirlo en una conexión CJA, tiene la opción de seleccionar un campo como ID principal o el mapa de identidad:
 
 ![](assets/idmap1.png)
 
@@ -80,6 +80,15 @@ Si selecciona Mapa de identidad, obtendrá dos opciones de configuración adicio
 |---|---|
 | [!UICONTROL Usar área de nombres de ID primario] | Esto indica a CJA, por fila, que busque la identidad en el mapa de identidad que está marcado con un atributo primario=true y que la utilice como ID de persona para esa fila. Esto significa que esta es la clave principal que se utilizará en el Experience Platform para la partición. También es el candidato principal para el uso como ID de visitante de CJA (según la configuración del conjunto de datos en una conexión CJA). |
 | [!UICONTROL Área de nombres] | (Esta opción solo está disponible si no utiliza la Área de nombres de ID principal). Las Áreas de nombres de identidad son un componente del servicio [de identidad de](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) Adobe Experience Platform que sirve de indicadores del contexto al que se relaciona la identidad. Si especifica una Área de nombres, CJA buscará en el mapa de identidad de cada fila esta clave de Área de nombres y utilizará la identidad bajo esa Área de nombres como ID de persona para esa fila. Tenga en cuenta que, como CJA no puede realizar una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué Áreas de nombres están realmente presentes, en la lista desplegable se enumeran todas las Áreas de nombres posibles. Debe saber qué Áreas de nombres se especifican en los datos; no se puede detectar automáticamente. |
+
+### Casos de borde de mapa de identidad
+
+En esta tabla se muestran las dos opciones de configuración cuando están presentes los casos extremos y cómo se gestionan:
+
+| Opción | No hay ID presentes en el mapa de identidad | Ningún ID está marcado como principal | Los ID múltiples se marcan como principales | La ID única se marca como principal | Área de nombres no válida con un ID marcado como principal |
+|---|---|---|---|---|---|
+| **&quot;Usar Área de nombres de ID principal&quot; marcada** | La fila la abandona CJA. | La fila se borra con CJA, ya que no se especifica ningún ID principal. | Todos los ID marcados como principales, bajo todas las Áreas de nombres, se extraen en una lista. A continuación, se ordenan alfabéticamente; con esta nueva clasificación, la primera Área de nombres con su primer ID se utiliza como ID de persona. | El ID único marcado como principal se utiliza como ID de persona. | Aunque la Área de nombres puede no ser válida (no está presente en AEP), CJA utilizará el ID principal de dicha Área de nombres como ID de persona. |
+| **Área de nombres de mapa de identidad específica seleccionada** | La fila la abandona CJA. | Todos los ID de la Área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID de la Área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID de la Área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID de la Área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar una Área de nombres válida en el momento de la creación de la conexión, por lo que no es posible utilizar una Área de nombres o ID no válida como ID de persona) |
 
 ## Habilitar conexión
 
