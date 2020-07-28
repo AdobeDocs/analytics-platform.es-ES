@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 63ddde92f1ea5e5e8129888909ac03ac89096b71
+source-git-commit: 2bbfe2296d658dd38464a4a9d7810ae6d6eda306
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 59%
+source-wordcount: '1351'
+ht-degree: 45%
 
 ---
 
@@ -56,9 +56,9 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
 
 1. **[!UICONTROL Marca]** de hora: agregar contenido aquí
 
-1. **[!UICONTROL Esquema]**: Es el esquema en función del cual se creó el conjunto de datos en Adobe Experience Platform.
+1. **[!UICONTROL Esquema]**: Este es el [esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/schema/composition.html) en función del cual se creó el conjunto de datos en Adobe Experience Platform.
 
-1. **[!UICONTROL ID]** de persona: Seleccione un ID de persona de las identidades disponibles definidas en el esquema del conjunto de datos en el Experience Platform.
+1. **[!UICONTROL ID]** de persona: Seleccione un ID de persona en la lista desplegable de identidades disponibles. Estas identidades se definieron en el esquema del conjunto de datos en el Experience Platform. Consulte a continuación para obtener información sobre cómo utilizar el mapa de identidad como ID de persona.
 
    >[!IMPORTANT]
    >
@@ -66,9 +66,20 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
 
 1. Haga clic en **[!UICONTROL Siguiente]** para ir al cuadro de diálogo [!UICONTROL Activar conexión] .
 
-### Mapa de identidad
+### Usar el mapa de identidad como ID de persona
 
+Customer Journey Analytics ahora admite la capacidad de usar el mapa de identidad para su ID de persona. Mapa de identidad es una estructura de datos de mapa que permite a alguien cargar pares de clave -> valor. Las claves son Áreas de nombres de identidad y el valor es una estructura que contiene el valor de identidad. El mapa de identidad existe en cada fila o evento cargado y se completa para cada fila en consecuencia.
 
+El mapa de identidad está disponible para cualquier conjunto de datos que utilice un esquema basado en la clase XDM de ExperienceEvent. Al seleccionar un conjunto de datos para incluirlo en una conexión CJA, tiene la opción de seleccionar un campo como ID principal o el mapa de identidad:
+
+![](assets/idmap1.png)
+
+Si selecciona Mapa de identidad, obtendrá dos opciones de configuración adicionales:
+
+| Opción | Descripción |
+|---|---|
+| [!UICONTROL Usar área de nombres de ID primario] | Esto indica a CJA, por fila, que busque la identidad en el mapa de identidad que está marcado con un atributo primario=true y que la utilice como ID de persona para esa fila. Esto significa que esta es la clave principal que se utilizará en el Experience Platform para la partición. También es el candidato principal para el uso como ID de visitante de CJA (según la configuración del conjunto de datos en una conexión CJA). |
+| [!UICONTROL Área de nombres] | (Esta opción solo está disponible si no utiliza la Área de nombres de ID principal). Las Áreas de nombres de identidad son un componente del servicio [de identidad de](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) Adobe Experience Platform que sirve de indicadores del contexto al que se relaciona la identidad. Si especifica una Área de nombres, CJA buscará en el mapa de identidad de cada fila esta clave de Área de nombres y utilizará la identidad bajo esa Área de nombres como ID de persona para esa fila. Tenga en cuenta que, como CJA no puede realizar una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué Áreas de nombres están realmente presentes, en la lista desplegable se enumeran todas las Áreas de nombres posibles. Debe saber qué Áreas de nombres se especifican en los datos; no se puede detectar automáticamente. |
 
 ## Habilitar conexión
 
@@ -76,7 +87,7 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
 
 1. Para habilitar una conexión, defina esta configuración:
 
-   | Campo | Descripción |
+   | Opción | Descripción |
    |---|---|
    | [!UICONTROL Asignar nombre a una conexión] | Asigne un nombre descriptivo a la conexión. La conexión no se puede guardar sin un nombre. |
    | [!UICONTROL Descripción] | Añada más detalles para distinguir esta conexión de otras. |
