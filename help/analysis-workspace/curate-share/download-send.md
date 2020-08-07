@@ -3,10 +3,10 @@ description: Puede descargar proyectos guardados y sin guardar en los formatos P
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 387e9755d963e70a9ba8dbc5f1f01f83541b5511
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 68%
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Recuerde:
 
 * También se admite la visualización de abandonos en formato CSV.
 * Cuando procesamos un proyecto en PDF, solo procesamos lo que figura en la página. Si un proyecto tiene paneles y visualizaciones de tamaño personalizado, deberá cambiarlos a tamaño automático (mediante el botón que hay en la esquina superior derecha) para que no se trunque el contenido.
-* Los archivos PDF descargados en el navegador pueden tardar varios minutos en exportarse. Esto se debe a que tenemos que volver a ejecutar todo el proyecto en nuestros servidores antes de procesarlo en formato PDF. Se recomienda no abandonar el proyecto hasta que el PDF se descargue en el explorador. Sin embargo, puede seguir realizando cambios en el proyecto mientras espera.
+* Los archivos PDF descargados en el explorador pueden tardar varios minutos en exportarse. Esto se debe a que tenemos que volver a ejecutar todo el proyecto en nuestros servidores antes de procesarlo en formato PDF. Se recomienda no abandonar el proyecto hasta que el PDF se descargue en el explorador. Sin embargo, puede seguir realizando cambios en el proyecto mientras espera.
 * Sabemos que si tiene proyectos de Workspace muy largos, los archivos PDF se exportan como una página gigante en lugar de como un documento paginado. Estamos trabajando en una mejora en la exportación de PDF de Workspace que permitirá la paginación.
 
 1. Cree o abra un proyecto.
@@ -40,6 +40,6 @@ A partir del 11 de abril de 2019, se han aplicado varios cambios en las **[!CSV 
 * Las tablas de cohorte solo muestran valores sin procesar y se eliminan los porcentajes.
 * Si un número no es válido, se mostrará una celda vacía.
 
->[!Nota:]
+>[!NOTE]
 >
-> Los valores numéricos que utilizan una coma como separador decimal seguirán citados en el CSV exportado.
+>Los valores numéricos que utilizan una coma como separador decimal seguirán citados en el CSV exportado.
