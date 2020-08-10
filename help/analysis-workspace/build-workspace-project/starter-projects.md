@@ -3,10 +3,10 @@ description: Plantillas en Workspace
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c7bf87b4ff3a7d0da930a22336db762fa3d74393
 workflow-type: tm+mt
 source-wordcount: '1420'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Puede elegir crear un proyecto a partir de:
 
 * **Proyecto en blanco (predeterminado)**: para obtener instrucciones, consulte [Creación de un proyecto de Analysis Workspace](/help/analysis-workspace/home.md).
 * **Plantilla estándar**: estas plantillas son creadas por Adobe y se envían con el producto.
-* **Plantilla** personalizada: Estas plantillas las pueden crear, compartir o eliminar usuarios con derechos de administrador o usuarios que no sean administradores, siempre que se les haya concedido el [!UICONTROL Analysis Workspace: Guardar como plantilla] en Admin Console. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/permissions/product-profile.html)
+* **Plantilla personalizada**: estas plantillas pueden ser creadas, compartidas o eliminadas por usuarios con derechos de administrador o por usuarios que no sean administradores, siempre que se les haya otorgado el permiso [!UICONTROL Analysis Workspace: Guardar como plantilla] en Admin Console. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -133,7 +133,7 @@ Esta plantilla se basa en la métrica Personas que es una versión deduplicada d
 
 ### Journey IQ: plantilla de análisis entre dispositivos
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. Solo está disponible para clientes que tienen acceso al [análisis entre dispositivos](https://docs.adobe.com/content/help/es-ES/analytics/components/cda/cda-home.html) (CDA).
 
