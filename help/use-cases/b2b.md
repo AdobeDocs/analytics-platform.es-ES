@@ -2,9 +2,9 @@
 title: (B2B) Añadir datos de nivel de cuenta como un conjunto de datos de búsqueda
 description: Aprenda a agregar datos basados en cuentas como un conjunto de datos de búsqueda a CJA
 translation-type: tm+mt
-source-git-commit: 721915ffdc9f196a13a360fb5ac145f750788bcf
+source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -46,8 +46,15 @@ Una vez creado el esquema, debe crear un conjunto de datos de búsqueda a partir
 1. Asigne un nombre al conjunto de datos (en nuestro ejemplo, Información B2B) y proporcione una descripción.
 1. Haga clic en **[!UICONTROL Finalizar]**.
 
+## 3. Ingestar datos en el Experience Platform
 
-## 3. Combinar conjuntos de datos en una conexión (Customer Journey Analytics)
+Instrucciones sobre cómo [Asignación de un archivo CSV a un esquema XDM](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/map-a-csv-file.html) debería ayudarle si está utilizando un archivo CSV.
+
+[Otros métodos](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) también están disponibles.
+
+El embarque de los datos y el establecimiento de la búsqueda tardan entre 2 y 4 horas, según el tamaño de la tabla de búsqueda.
+
+## 4. Combinar conjuntos de datos en una conexión (Customer Journey Analytics)
 
 Para este ejemplo, combinamos 3 conjuntos de datos en una conexión CJA:
 
@@ -61,20 +68,18 @@ Así se combinan los conjuntos de datos:
 
 1. En Customer Journey Analytics, seleccione la opción **[!UICONTROL Conexiones]** para abrir el Navegador.
 1. Seleccione los conjuntos de datos (en nuestro ejemplo, los tres anteriores) que desee combinar.
-1. (No estoy seguro de que este es el lugar al que pertenece el paso...) Para el conjunto de datos de B2B Info, seleccione la variable `accountID` que se utilizará en la tabla de búsqueda. A continuación, seleccione su clave coincidente (dimensión correspondiente), también `accountID` en el conjunto de datos de evento.
+1. Para el conjunto de datos de B2B Info, seleccione la variable `accountID` que se utilizará en la tabla de búsqueda. A continuación, seleccione su clave coincidente (dimensión correspondiente), también `accountID` en el conjunto de datos de evento.
 1. Haga clic en **[!UICONTROL Siguiente]**.
 1. Asigne un nombre a la conexión y describa su configuración según [estas instrucciones](/help/connections/create-connection.md).
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Ahora se ingerirán los datos. El embarque de los datos y el establecimiento de la búsqueda tardan entre 2 y 4 horas, según el tamaño de la tabla de búsqueda.
-
-## Crear una vista de datos a partir de esta conexión
+## 5. Crear una vista de datos a partir de esta conexión
 
 Siga las instrucciones de [creación de vistas de datos](/help/data-views/create-dataview.md).
 
 * Añada todos los componentes (dimensiones y métricas) que necesite de los conjuntos de datos.
 
-## Analizar los datos en Workspace
+## 6. Analizar los datos en Workspace
 
 Ahora puede crear proyectos de Workspace basados en los datos de los 3 conjuntos de datos.
 
