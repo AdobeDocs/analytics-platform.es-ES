@@ -1,11 +1,11 @@
 ---
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
-translation-type: ht
-source-git-commit: 756c6e7c187b76636cf96d18c949908a97db51ed
-workflow-type: ht
-source-wordcount: '1626'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 92702a78f4b3d3413f91d896749db10102412fba
+workflow-type: tm+mt
+source-wordcount: '1639'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,8 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 >
 >Puede combinar varios conjuntos de datos de [!DNL Experience Platform] en una sola conexión.
 
+## Seleccionar entorno limitado y conjuntos de datos
+
 1. Acceda a [https://analytics.adobe.com](https://analytics.adobe.com).
 
 1. Haga clic en la pestaña **[!UICONTROL Conexiones]**.
@@ -30,7 +32,11 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
 1. Elija un simulador para pruebas en Experience Platform que contenga los conjuntos de datos a los que desea conectarse.
 
-   Adobe Experience Platform proporciona [entornos](https://docs.adobe.com/content/help/es-ES/experience-platform/sandbox/home.html) limitados que dividen una sola instancia de Platform en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como &quot;silos de datos&quot; que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos. No se puede acceder a los datos de entornos limitados. Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos del simulador de pruebas desde los que puede extraer datos.
+   Adobe Experience Platform proporciona [entornos](https://docs.adobe.com/content/help/es-ES/experience-platform/sandbox/home.html) limitados que dividen una sola instancia de Platform en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como &quot;silos de datos&quot; que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos.  Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos del simulador de pruebas desde los que puede extraer datos.
+
+   >[!IMPORTANT]
+   >
+   >No se puede acceder a los datos de los entornos limitados, es decir, solo se pueden combinar conjuntos de datos en un entorno limitado.
 
 1. Seleccione uno o varios conjuntos de datos a los que desee extraer [!UICONTROL Customer Journey Analytics] y haga clic en **[!UICONTROL Añadir]**.
 
@@ -49,8 +55,8 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
    | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de la persona |
    |---|---|---|---|---|
    | [!UICONTROL Evento] | Datos que representan eventos en el tiempo (p. ej., visitas web, interacciones, transacciones, datos de TPV, datos de encuesta, datos de impresión de publicidad, etc.). Por ejemplo, estos datos podrían ser datos típicos del flujo de navegación, con un ID de cliente o un ID de cookie y una marca de tiempo. Con los datos de evento, tiene flexibilidad para saber qué ID se utiliza como ID de persona. | Se establece automáticamente en el campo de marca de tiempo predeterminado a partir de los esquemas basados en eventos en [UICONTROL Experience Platform]. | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento &quot;Serie temporal&quot;. Algunos ejemplos son &quot;Evento de experiencias XDM&quot; o &quot;Evento de decisiones XDM&quot;. | Puede elegir qué ID de persona desea incluir. Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, etc. |
-   | [!UICONTROL Búsqueda] | Análogo a un archivo de clasificaciones. Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento para los nombres de producto. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento &quot;Record&quot;, excepto la clase &quot;XDM Individual Profile&quot;. | N/A |
-   | [!UICONTROL Perfil] | Análogo a [!UICONTROL Atributos del cliente]: para atributos no cambiantes y no temporales. Datos que se aplican a sus visitas, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/A | Cualquier esquema integrado o personalizado basado en la clase &quot;XDM Individual Perfil&quot;. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona](assets/person-id.png)**Nota:** si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
+   | [!UICONTROL Búsqueda] | Análogo a un archivo de clasificaciones. Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento para los nombres de producto. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento &quot;Record&quot;, excepto la clase &quot;XDM Individual Profile&quot;. | N/D |
+   | [!UICONTROL Perfil] | Análogo a [!UICONTROL Atributos del cliente]: para atributos no cambiantes y no temporales. Datos que se aplican a sus visitas, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/D | Cualquier esquema integrado o personalizado basado en la clase &quot;XDM Individual Perfil&quot;. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona ](assets/person-id.png)**Nota:** si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
 
 1. **[!UICONTROL ID de conjunto de datos]**: este ID se genera automáticamente.
 
