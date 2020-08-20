@@ -1,8 +1,11 @@
 ---
 title: Creación de una vista de datos
 description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics (CJA).
-translation-type: ht
-source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+translation-type: tm+mt
+source-git-commit: de265170126c1a9fc1f66364a79a74ff487d0b71
+workflow-type: tm+mt
+source-wordcount: '540'
+ht-degree: 83%
 
 ---
 
@@ -17,17 +20,17 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
 ## Requisitos previos
 
-Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform]] (/help/connections/create-connection.md).
+Antes de crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos Experience Platform](/help/connections/create-connection.md).
 
 ## Ajustar configuración
 
-1. En Customer Journey Analytics, vaya a la ficha **[!UICONTROL Data Views]**.
+1. En Customer Journey Analytics, vaya a la **[!UICONTROL Vistas de datos]** para abrir el Navegador.
 
-1. Haga clic en **[!UICONTROL Add]** para añadir una vista de datos y configurar su configuración.
+1. Haga clic en **[!UICONTROL Añadir]** para agregar una vista de datos y configurar su configuración.
 
    | Configuración de sesión | Definición |
    |---|---|
-   | Conexión | Este campo vincula la vista de datos con la conexión que ha establecido anteriormente, que tiene los conjuntos de datos de [!UICONTROL Experience Platform]. |
+   | Conexión | Este campo vincula la vista de datos con la conexión que ha establecido anteriormente, que contiene la variable [!UICONTROL Experience Platform] dataset/s. |
    | Nombre | Es obligatorio asignar un nombre a la vista de datos. |
    | Descripción | Una descripción detallada no es obligatoria, pero se recomienda. |
    | Añadir etiquetas | Las etiquetas permiten organizar las vistas de datos en categorías. |
@@ -36,15 +39,15 @@ Para poder crear vistas de datos, debe [configurar una o más conexiones a conju
    | Iniciar nueva sesión con un evento | Una nueva sesión se inicia cuando se activa un evento, independientemente de si se ha superado o no el tiempo de espera de la sesión. La sesión recién creada incluye el evento que la ha iniciado. Además, es posible utilizar varios eventos para iniciar una sesión, y se activa una nueva si se observa cualquiera de esos eventos en los datos. Este ajuste afecta al recuento de visitas, al contenedor de segmento (antes conocido como Visita) y a la lógica de caducidad de las visitas en las dimensiones. |
    | Añadir filtros | &quot;Filtros&quot; es el término para &quot;segmentos&quot; en Customer Journey Analytics. Si desea filtrar los datos, arrastre el filtro correspondiente hasta aquí desde el carril izquierdo. Si no selecciona ningún filtro, la vista de datos tendrá todos los datos. |
 
-1. Haga clic en **[!UICONTROL Continue]**.
+1. Haga clic en **[!UICONTROL Continuar]**.
 
 ## Añadir componentes
 
-1. Ahora es el momento de agregar componentes (dimensiones, métricas) a la vista de datos (similar a la experiencia de depuración en grupos de informes virtuales). Tenga en cuenta que cada uno de los campos de los conjuntos de datos ahora se traduce en dimensiones o métricas. Arrastre dimensiones y métricas al panel o **[!UICONTROL Seleccionar todo]** para añadir todos los componentes.
+1. Ahora es el momento de agregar componentes (dimensiones, métricas) a la vista de datos (similar a la experiencia de depuración en grupos de informes virtuales). Tenga en cuenta que cada uno de los campos de los conjuntos de datos ahora se traduce en dimensiones o métricas. Arrastre dimensiones y métricas al panel o **[!UICONTROL Seleccionar todo]** para agregar todos los componentes.
 
    ![](assets/add-all-components.png)
 
-1. Haga clic en la ficha **[!UICONTROL Add Components]** para añadir dimensiones y métricas a la vista de datos.
+1. Haga clic en el botón **[!UICONTROL Añadir componentes]** para agregar dimensiones y métricas a la vista de datos.
 
    ![](assets/add-all-components2.png)
 
