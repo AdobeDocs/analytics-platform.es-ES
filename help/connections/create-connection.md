@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: bbe86f2d6e052262f0e8a84bca0996f4e2589433
+source-git-commit: 297ed03ff59cc8d719a6bf0984e82597e8d33392
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 97%
+source-wordcount: '1655'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
    >[!IMPORTANT]
    >
-   >No se puede acceder a los datos de los entornos limitados, es decir, solo se pueden combinar conjuntos de datos en un entorno limitado.
+   >No se puede acceder a los datos de los entornos limitados, es decir, solo se pueden combinar conjuntos de datos ubicados dentro del mismo entorno limitado.
 
 1. Seleccione uno o varios conjuntos de datos a los que desee extraer [!UICONTROL Customer Journey Analytics] y haga clic en **[!UICONTROL Añadir]**.
 
