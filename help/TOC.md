@@ -12,11 +12,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
-translation-type: ht
-source-git-commit: 41ad1eeb2510fce0d73c7f14fe11621445e43420
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 100%
       + [Comparación de fechas](components/date-ranges/time-comparison.md)
 + Casos prácticos {#cja-usecases}
    + [Casos de uso de Customer Journey Analytics](use-cases/cja-usecases.md)
-   + [Uso de matrices de objetos](use-cases/object-arrays.md)
+   + [Utilizar conjuntos de objetos](use-cases/object-arrays.md)
    + [(B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consulta](use-cases/b2b.md)
 + Privacidad {#cja-privacy}
    + [Información general de privacidad](privacy/privacy-overview.md)
