@@ -3,7 +3,7 @@ description: Plantillas en Workspace
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: c7bf87b4ff3a7d0da930a22336db762fa3d74393
+source-git-commit: 43487b0dc9d0246fc4750fcc0175055899a198b5
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 99%
@@ -81,7 +81,9 @@ Estas plantillas estándar le guían a través de la terminología común y de l
 
 ### Comercio
 
-* **Magento: Marketing and Commerce**: Esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing and Commerce**: Esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte:
+
+>[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Medios
 
