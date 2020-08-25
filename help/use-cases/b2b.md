@@ -1,11 +1,11 @@
 ---
 title: (B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consulta
 description: Aprenda a agregar datos basados en cuentas como un conjunto de datos de consulta a CJA
-translation-type: ht
-source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
-workflow-type: ht
-source-wordcount: '851'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 89%
 
 ---
 
@@ -37,6 +37,12 @@ Creación de su propio esquema para la [consulta](/help/getting-started/cja-glos
 ## 2. Crear conjunto de datos de consulta (Experience Platform)
 
 Una vez creado el esquema, debe crear un conjunto de datos de consulta a partir de ese esquema en Experience Platform. Este conjunto de datos de consulta contiene información de marketing de nivel de cuenta, como: Nombre de la compañía, número total de empleados, nombre de dominio, sector al que pertenecen, ingresos anuales, ya sean clientes actuales de Experience Platform o no, en qué fase de ventas se encuentran, en qué equipo de la cuenta se utiliza CJA, etc.
+
+>[!IMPORTANT]
+>
+>CJA no admite enteros en conjuntos de datos de búsqueda. Si agrega los campos enteros en el esquema XDM para el conjunto de datos de búsqueda, no podrá usar esos enteros como métricas o métricas calculadas. Por ejemplo, si yearRevenue o totalEmployees se definen como enteros, se mostrarán como &quot;0&quot; en sistema de informes en CJA. Sin embargo, si los asigna como cadenas, puede utilizarlos como información de búsqueda.
+
+Por ejemplo, yearRevenue o totalEmployees se definen como Integer en el siguiente ejemplo, ese es el motivo, ya que muestra &quot;0&quot; en CJA.
 
 1. En Adobe Experience Platform, vaya a **[!UICONTROL Administración de datos > Conjuntos de datos]**.
 1. Haga clic en **[!UICONTROL + Crear conjunto de datos]**.
