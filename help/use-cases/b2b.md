@@ -2,9 +2,9 @@
 title: (B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consulta
 description: Aprenda a agregar datos basados en cuentas como un conjunto de datos de consulta a CJA
 translation-type: tm+mt
-source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
+source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '933'
 ht-degree: 89%
 
 ---
@@ -67,7 +67,7 @@ Para este ejemplo, combinamos 3 conjuntos de datos en una conexión CJA:
 | Nombre del conjunto de datos | Descripción | Clase de Esquema AEP | Detalles del conjunto de datos |
 |---|---|---|---|
 | Impresión B2B | Contiene datos de flujo de navegación a nivel de evento de la cuenta. Por ejemplo, contiene el ID de correo electrónico y el ID de cuenta correspondiente, así como el nombre de marketing para realizar campañas publicitarias. También incluye las impresiones de esas campañas publicitarias, por usuario. | Basado en la clase de esquema XDM ExperienceEvent | El `emailID` se usa como identidad principal y se asigna un espacio de nombre de `Customer ID`. Como resultado, se mostrará como el valor predeterminado **[!UICONTROL Person ID]** en Customer Journey Analytics. ![Impresiones](assets/impressions-mixins.png) |
-| Perfil B2B | Este conjunto de datos de perfil proporciona más información sobre los usuarios de una cuenta, como su puesto de trabajo, a qué cuenta pertenecen, su perfil de LinkedIn, etc. | Basado en la clase de esquema de Perfil individual XDM | No es necesario seleccionar `emailID` como ID principal en este esquema. Asegúrese de habilitar **[!UICONTROL Perfil]**; si no lo hace, CJA no podrá conectar el `emailID` en Perfil B2B con el `emailID` en los datos de impresión B2B. (Esta funcionalidad se denomina “Unión basada en campos”). ![Perfil](assets/profile-mixins.png) |
+| Perfil B2B | Este conjunto de datos de perfil proporciona más información sobre los usuarios de una cuenta, como su puesto de trabajo, a qué cuenta pertenecen, su perfil de LinkedIn, etc. | Basado en la clase de esquema de Perfil individual XDM | No es necesario seleccionar `emailID` como ID principal en este esquema. Asegúrese de habilitar **[!UICONTROL Perfil]**; si no lo hace, CJA no podrá conectar el `emailID` en Perfil B2B con el `emailID` en los datos de impresión B2B. ![Perfil](assets/profile-mixins.png) |
 | Información B2B | Consulte “Creación de un conjunto de datos de consulta” más arriba. | B2BAccount (clase de esquema de consulta personalizada) | La relación entre `accountID` y el conjunto de datos de Impresiones B2B se ha creado automáticamente conectando el conjunto de datos de información B2B con el conjunto de datos de Impresión B2B en CJA, como se describe en los pasos que aparecen a continuación. ![Consulta](assets/lookup-mixins.png) |
 
 Así se combinan los conjuntos de datos:
