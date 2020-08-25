@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 59b949cf67c26226f4d337c566641f68e76b41ec
 workflow-type: tm+mt
 source-wordcount: '1654'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
 ## Configurar el conjunto de datos
 
-En el lado derecho, ahora puede configurar los conjuntos de datos que ha agregado.
+En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
 
 ![Configurar el conjunto de datos](assets/create-connection.png)
 
@@ -55,7 +55,7 @@ En el lado derecho, ahora puede configurar los conjuntos de datos que ha agregad
    | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de la persona |
    |---|---|---|---|---|
    | [!UICONTROL Evento] | Datos que representan eventos en el tiempo (p. ej., visitas web, interacciones, transacciones, datos de TPV, datos de encuesta, datos de impresión de publicidad, etc.). Por ejemplo, estos datos podrían ser datos típicos del flujo de navegación, con un ID de cliente o un ID de cookie y una marca de tiempo. Con los datos de evento, tiene flexibilidad para saber qué ID se utiliza como ID de persona. | Se establece automáticamente en el campo de marca de tiempo predeterminado a partir de los esquemas basados en eventos en [!UICONTROL  Experience Platform]. | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento &quot;Serie temporal&quot;. Algunos ejemplos son &quot;Evento de experiencias XDM&quot; o &quot;Evento de decisiones XDM&quot;. | Puede elegir qué ID de persona desea incluir. Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, etc. |
-   | [!UICONTROL Búsqueda] | (Analógico para un archivo de clasificaciones en Adobe Analytics tradicional). Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [este caso de uso](/help/use-cases/b2b.md) por ejemplo. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento &quot;Record&quot;, excepto la clase &quot;XDM Individual Profile&quot;. | N/D |
+   | [!UICONTROL Búsqueda] | (Analógico para un archivo de clasificaciones en Adobe Analytics tradicional). Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [este caso de uso](/help/use-cases/b2b.md) para ver un ejemplo. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento &quot;Record&quot;, excepto la clase &quot;XDM Individual Profile&quot;. | N/D |
    | [!UICONTROL Perfil] | Análogo a [!UICONTROL Atributos del cliente]: para atributos no cambiantes y no temporales. Datos que se aplican a sus visitas, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/D | Cualquier esquema integrado o personalizado basado en la clase &quot;XDM Individual Perfil&quot;. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona ](assets/person-id.png)**Nota:** si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
 
 1. **[!UICONTROL ID de conjunto de datos]**: este ID se genera automáticamente.
@@ -94,7 +94,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 | Opción | No hay ID presentes en el mapa de identidad | Ningún ID está marcado como principal | Los ID múltiples se marcan como principales | La ID única se marca como principal | Área de nombres no válida con un ID marcado como principal |
 |---|---|---|---|---|---|
 | **«Usar área de nombres de ID primario»** verificado | La fila la abandona CJA. | La fila se borra con CJA, ya que no se especifica ningún ID principal. | Todos los ID marcados como principales, con todas las áreas de nombres, se extraen en una lista. A continuación, se ordenan alfabéticamente; con esta nueva clasificación, la primera área de nombres con su primer ID se utiliza como ID de persona. | El ID único marcado como principal se utiliza como ID de persona. | Aunque el área de nombres puede no ser válida (no está presente en AEP), CJA utilizará el ID principal de dicha área de nombres como ID de persona. |
-| **Área de nombres de un mapa de identidad específica seleccionada** | La fila la abandona CJA. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar un área de nombres válida en el momento de la creación de la conexión, por lo que no es posible utilizar un área de nombres o ID no válida como ID de persona) |
+| **Área de nombres de un mapa de identidad específica seleccionada** | La fila la abandona CJA. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar un área de nombres válida en el momento de la creación de la conexión, por lo que no es posible utilizar un área de nombres o ID no válida como ID de persona). |
 
 ## Habilitar conexión
 
