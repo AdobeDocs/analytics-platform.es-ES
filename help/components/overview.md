@@ -1,9 +1,9 @@
 ---
 title: Resumen de componentes
 description: Aprenda qué componentes son las ofertas de CJA y cómo puede utilizarlas en el sistema de informes.
-translation-type: ht
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e3457b3ad6c991844f83c2213a4991e1e8879e97
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 Los componentes son funciones de Customer Journey Analytics que se pueden utilizar en los informes o pueden complementar las funciones del sistema de informes. Puede administrar estos componentes siguiendo estos pasos:
 
 1. Inicie sesión en [analytics.adobe.com](https://analytics.adobe.com) con sus credenciales de Adobe ID.
-2. Vaya a [!UICONTORL Componentes] > [!UICONTROL Componentes] en el menú del encabezado.
+2. Vaya a [!UICONTROL Componentes] > [!UICONTROL Componentes] en el menú del encabezado.
 
 Puede administrar los siguientes componentes:
 
