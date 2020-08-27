@@ -3,23 +3,19 @@ description: La configuración de columna le permite configurar el formato de la
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: d49e07d14d1b202d9cc12f42d60083c052a1c364
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 93%
+source-wordcount: '628'
+ht-degree: 97%
 
 ---
 
 
-# Configuración de columna
+# [!UICONTROL Configuración de columna]
 
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+[!UICONTROL Configuración de columna] permite configurar el formato de las columnas, algunas de las cuales pueden ser condicionales.
 
-La configuración de columna le permite configurar el formato de la columna, aunque algunas opciones de formato pueden ser condicionales.
-
-## Configuración de columna {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
+## Editar [!UICONTROL Configuración de columna] {#column-settings}
 
 Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla improvisada al proyecto y, a continuación, haga clic en el icono de engranaje en el encabezado de la columna.
 
@@ -28,7 +24,7 @@ Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla imp
 Puede editar la configuración **de varias columnas a la vez**. Basta con seleccionar varias columnas y hacer clic en el icono de configuración de cualquiera de ellas. Los cambios realizados se aplicarán a todas las columnas que tengan celdas seleccionadas.
 
 | Elemento | Descripción |
-|--- |--- |
+| --- | --- |
 | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila dividido por el total de visualizaciones de la página para la columna.  Nota: Se pueden mostrar porcentajes superiores al 100 % para mejorar la precisión. También se ha he incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. |
 | Anomalías | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. |
@@ -39,33 +35,30 @@ Puede editar la configuración **de varias columnas a la vez**. Basta con selecc
 | Formato condicional | Consulte la siguiente sección. |
 | Vista previa de celdas de tabla | Muestra una vista previa del aspecto de cada una de las celdas con las opciones de formato seleccionadas actualmente aplicadas. |
 
-
-## Formato condicional {#section_3DD847151DA14914888A70FC4FD7BDFB}
+## Formato condicional {#conditional-formatting}
 
 El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional (colores, etc.) en tablas de forma libre también está activada automáticamente en los desgloses, a menos que los límites “Personalizados” estén seleccionados.
 
 ![](assets/conditional-formatting.png)
 
 | Elemento | Descripción |
-|--- |--- |
-| Formato condicional | Aplica los colores siguientes a las celdas, en función de los valores de los datos: <ul><li>Verde: valores altos</li><li>Amarillo: valores medios</li><li>Rojo: valores bajos</li></ul><br>Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
-| Usar límites porcentuales | Le permite utilizar los límites superior, medio e inferior basándose en valores porcentuales para cada métrica. Esto sirve para métricas que solo se basan en porcentajes (como el porcentaje de rebote), así como para métricas que tienen un recuento y un porcentaje (como las vistas de la página). |
-| Generación automática | Genera automáticamente límites para el formato condicional. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
-| Personalizado | Puede asignar de forma manual los valores de los campos Superior, Punto medio y Límite inferior para el formato condicional. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
-| Vista previa de celdas de tabla | Muestra una vista previa del aspecto de cada una de las celdas con las opciones de formato seleccionadas actualmente aplicadas. |
+| --- | --- |
+| Formato condicional | Aplica los colores siguientes a las celdas, en función de los valores de los datos: <ul><li>Verde: valores altos</li><li>Amarillo: valores medios</li><li>Rojo: valores bajos</li></ul> <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
+| Usar límites porcentuales | Cambie el rango de límite en función de los porcentajes, no en función de los valores absolutos. Esto sirve para métricas que solo se basan en porcentajes (como el porcentaje de rebote), así como para métricas que tienen un recuento y un porcentaje (como las vistas de la página). |
+| Generación automática | Calcule automáticamente los límites superior/medio/inferior en función de los datos. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
+| Personalizado | Asigne los límites superior/medio/inferior en forma manual. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
 
-## Uso de modelos de atribución no predeterminados
+## Uso de modelos de atribución no predeterminados {#attribution}
 
-Analysis Workspace admite [atribución](../../attribution/overview.md) para casi cualquier métrica.
+Analysis Workspace admite la [atribución](../../attribution/overview.md) en casi cualquier métrica.
 
 1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla improvisada.
 
-   ![Casilla de verificación Atribución](assets/attribution-checkbox.png)
+   ![Casilla de verificación de atribución](assets/attribution-checkbox.png)
 
-2. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+1. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. Para obtener más información sobre los diferentes modelos de atribución, consulte [Modelos de atribución](../../attribution/models.md).
 
    ![Seleccionar modelo de atribución](assets/attribution-select.png)
-
 
 >[!MORELIKETHIS]
 >
