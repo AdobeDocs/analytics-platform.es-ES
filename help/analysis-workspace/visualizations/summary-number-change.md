@@ -1,32 +1,41 @@
 ---
-description: 'null'
+description: Utilice las visualizaciones Número de resumen y Cambio para mostrar puntos de datos importantes en un proyecto.
 title: Número de resumen y cambio de resumen
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 158c9da54f7d5dcdd0cca6223b5d4833df53abb7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 92%
+source-wordcount: '399'
+ht-degree: 52%
 
 ---
 
 
 # Número de resumen y cambio de resumen
 
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+## Visualización Número de resumen {#summary-number}
 
-## Visualización Número de resumen
+Utilice la visualización Número de resumen para resaltar un gran número que es importante en un proyecto. Esta visualización se comporta de las siguientes maneras:
 
 * Selecciona el total de la columna en caso de que no se haya seleccionado ninguna celda.
 * Si se selecciona una única celda, se muestra el resumen de esta.
 * Si se selecciona más de una celda, se muestra la primera celda seleccionada.
 * Si se selecciona la columna, se usa el valor de la primera celda de la columna.
 
-![](assets/summary-number.png)
+Haga clic en el botón **Configuración de visualización** vaya a la parte superior derecha para configurar la configuración de Número de resumen:
 
-## Visualización Cambio de resumen
+| Configuración | Definición |
+|--- |--- |
+| Porcentajes | Mostrar porcentajes en lugar de números sin procesar. |
+| Leyenda visible | Muestre información sobre la métrica mostrada. |
+| Valor abreviado | Elija abreviar los valores y mostrar hasta 3 decimales. |
+| Valor de resumen por | Elija mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
+
+## Visualización Cambio de resumen {#summary-change}
+
+Utilice la visualización Cambio de resumen para mostrar el delta (cambio) entre dos números. El color verde y rojo del cambio de resumen se puede controlar mediante [polaridad de evento personalizada](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) o una métrica calculada [Mostrar tendencia ascendente como](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) , seleccione una opción.
+
+Esta visualización se comporta de las siguientes maneras:
 
 * Si no se selecciona ninguna celda, compara los valores de las dos primeras celdas de la columna.
 * Si se selecciona una celda, muestra 0, ya que compara el valor de celda con ella misma.
@@ -34,18 +43,12 @@ ht-degree: 92%
 * Si se seleccionan más de dos celdas, solo se tienen en cuenta las dos primeras para la comparación.
 * Si se selecciona un intervalo de celdas, se compara la primera celda con la última seleccionada en el intervalo.
 * Si se selecciona la columna, se compara el primer valor consigo mismo, lo que da como resultado un cambio de 0.
-* El color verde y rojo del cambio de resumen se puede controlar mediante:
-   * [Polaridad de evento personalizada](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html).
-   * Opción [Mostrar tendencia ascendente como](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) de una métrica calculada.
 
-## Configuración de cambio de resumen {#section_2581AC0107634FB4990AB8347E5897AA}
-
-Haga clic en el icono de engranaje situado junto a la visualización para configurar los ajustes de resumen:
+Haga clic en el botón **Configuración de visualización** vaya a la parte superior derecha para configurar los ajustes de Cambio de resumen:
 
 | Configuración | Definición |
 |--- |--- |
-| Porcentajes | Use porcentajes en lugar de números en bruto. |
-| Leyenda visible | Muestra las métricas utilizadas. |
-| Opciones de número de resumen: abreviar valor | Puede seleccionar de 0 a 3 decimales para los valores abreviados. |
-| Opciones de cambio de resumen: mostrar cambio de porcentaje | Muestra el cambio, en porcentaje, entre los 2 números. |
-| Opciones de cambio de resumen: mostrar diferencia en bruto | Muestra la diferencia en bruto entre los 2 números. |
+| Porcentajes | Mostrar porcentajes en lugar de números sin procesar. |
+| Leyenda visible | Muestre información sobre la métrica mostrada. |
+| Mostrar cambio de porcentaje | Muestra el cambio porcentual entre los 2 números. |
+| Mostrar diferencia sin procesar | Muestra la diferencia en bruto entre los 2 números. También puede abreviar valores y mostrar hasta 3 decimales con esta opción. |
