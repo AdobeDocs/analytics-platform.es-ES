@@ -1,11 +1,11 @@
 ---
 title: Documentación de producto de Customer Journey Analytics
 description: Página de aterrizaje de Customer Journey Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Elementos nuevos o destacados</b> </p> <p> 
      <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html"> Utilizar conjuntos de objetos </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/b2b.html"> Añadir datos de nivel de cuenta como un conjunto de datos de búsqueda </a> </li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-usecases/object-arrays.html"> Usar matrices de objetos </a> </li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-usecases/b2b.html"> Añadir datos de nivel de cuenta como un conjunto de datos de consulta </a> </li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-getting-started.html"> Introducción a Customer Journey Analytics </a> </li> 
       <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-faq.translate.html"> Preguntas frecuentes</a> </li> 
       <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-glossary.translate.html"> Glosario de Customer Journey Analytics</a> </li> 
