@@ -1,16 +1,16 @@
 ---
-title: Utilizar conjuntos de objetos
+title: Usar matrices de objetos
 description: Comprender cómo CJA informa sobre las jerarquías de datos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Utilizar conjuntos de objetos
+# Usar matrices de objetos
 
 Algunos esquemas de la plataforma pueden tener matrices de objetos. Uno de los ejemplos más comunes sería un carro de compras que tiene varios productos. Cada producto tiene un nombre, SKU, categoría, precio, cantidad y cualquier otra dimensión que desee rastrear. Todas estas facetas tienen requisitos diferentes, pero todas deben encajar en la misma visita.
 
