@@ -1,11 +1,11 @@
 ---
 title: Creación de una vista de datos
 description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics (CJA).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de265170126c1a9fc1f66364a79a74ff487d0b71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorial
 
 ## Requisitos previos
 
-Antes de crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos Experience Platform](/help/connections/create-connection.md).
+Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform](/help/connections/create-connection.md).
 
 ## Ajustar configuración
 
-1. En Customer Journey Analytics, vaya a la **[!UICONTROL Vistas de datos]** para abrir el Navegador.
+1. En Customer Journey Analytics, vaya a la ficha **[!UICONTROL Vistas de datos]**.
 
-1. Haga clic en **[!UICONTROL Añadir]** para agregar una vista de datos y configurar su configuración.
+1. Haga clic en **[!UICONTROL Añadir]** para agregar una vista de datos y ajustar su configuración.
 
    | Configuración de sesión | Definición |
    |---|---|
-   | Conexión | Este campo vincula la vista de datos con la conexión que ha establecido anteriormente, que contiene la variable [!UICONTROL Experience Platform] dataset/s. |
+   | Conexión | Este campo vincula la vista de datos con la conexión que ha establecido anteriormente, que tiene los conjuntos de datos de [!UICONTROL Experience Platform]. |
    | Nombre | Es obligatorio asignar un nombre a la vista de datos. |
    | Descripción | Una descripción detallada no es obligatoria, pero se recomienda. |
    | Añadir etiquetas | Las etiquetas permiten organizar las vistas de datos en categorías. |
@@ -43,11 +43,11 @@ Antes de crear vistas de datos, debe [configurar una o más conexiones a conjunt
 
 ## Añadir componentes
 
-1. Ahora es el momento de agregar componentes (dimensiones, métricas) a la vista de datos (similar a la experiencia de depuración en grupos de informes virtuales). Tenga en cuenta que cada uno de los campos de los conjuntos de datos ahora se traduce en dimensiones o métricas. Arrastre dimensiones y métricas al panel o **[!UICONTROL Seleccionar todo]** para agregar todos los componentes.
+1. Ahora es el momento de agregar componentes (dimensiones, métricas) a la vista de datos (similar a la experiencia de depuración en grupos de informes virtuales). Tenga en cuenta que cada uno de los campos de los conjuntos de datos ahora se traduce en dimensiones o métricas. Arrastre dimensiones y métricas al panel o haga clic en **[!UICONTROL Seleccionar todo]** para añadir todos los componentes.
 
    ![](assets/add-all-components.png)
 
-1. Haga clic en el botón **[!UICONTROL Añadir componentes]** para agregar dimensiones y métricas a la vista de datos.
+1. Haga clic en la ficha **[!UICONTROL Añadir componentes]** para agregar dimensiones y métricas a la vista de datos.
 
    ![](assets/add-all-components2.png)
 
