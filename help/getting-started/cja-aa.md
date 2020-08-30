@@ -1,9 +1,9 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 100%
 
