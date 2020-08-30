@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '2949'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Por otra parte, si tiene dos métricas en las que está interesado, puede que no
 
 ## Y
 
-Devuelve el valor de su argumento. Utilice NO para asegurarse de que un valor no es igual a un valor en concreto.
+Devuelve el valor de su argumento. Utilice NOT para asegurarse de que un valor no es igual a un valor en concreto.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ AND(logical_test1,[logical_test2],...)
 
 | Argumento | Descripción |
 |---|---|
-| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
+| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
 | *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
 
 ## Número aproximado de elementos distintos (dimensión)
@@ -321,7 +321,7 @@ TANH(metric)
 
 ## IF (Fila)
 
-La función IF devuelve un valor si una condición que haya especificada se evalúa como VERDADERO y otro valor si esa condición se evalúa como FALSO.
+La función IF devuelve un valor si una condición que haya especificada se evalúa como TRUE y otro valor si esa condición se evalúa como FALSE.
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
@@ -329,9 +329,9 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | Argumento | Descripción |
 |---|---|
-| *logical_test* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *[value_if_true]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como VERDADERO. (Este argumento es 0 de forma predeterminada si no se incluye). |
-| *[value_if_false]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como FALSO. (Este argumento es 0 de forma predeterminada si no se incluye). |
+| *logical_test* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
+| *[value_if_true]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como TRUE. (Este argumento es 0 de forma predeterminada si no se incluye). |
+| *[value_if_false]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como FALSE. (Este argumento es 0 de forma predeterminada si no se incluye). |
 
 ## Menor que
 
@@ -445,9 +445,9 @@ NOT(logical)
 
 | Argumento | Descripción |
 |---|---|
-| *lógico* | Requerido. Un valor o expresión que puede evaluarse como VERDADERO o FALSO. |
+| *lógico* | Requerido. Un valor o expresión que puede evaluarse como TRUE o FALSE. |
 
-Si utiliza NO, es necesario conocer si las expresiones (&lt;, >, =, &lt;> , etc.) devuelven valores 0 o 1.
+Si utiliza NOT, es necesario conocer si las expresiones (&lt;, >, =, &lt;> , etc.) devuelven valores 0 o 1.
 
 ## Distinto a
 
@@ -455,7 +455,7 @@ Devuelve todos los elementos que no contienen la coincidencia exacta del valor i
 
 ## O (Fila)
 
-Devuelve TRUE si algún argumento es VERDADERO o devuelve FALSE si todos los argumentos son FALSOS.
+Devuelve TRUE si algún argumento es TRUE o devuelve FALSE si todos los argumentos son FALSE.
 
 >[!NOTE]
 >
@@ -467,7 +467,7 @@ OR(logical_test1,[logical_test2],...)
 
 | Argumento | Descripción |
 |---|---|
-| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
+| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
 | *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
 
 ## Pi
