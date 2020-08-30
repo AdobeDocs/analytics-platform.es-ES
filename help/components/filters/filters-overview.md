@@ -1,31 +1,31 @@
 ---
-title: Información general sobre Filtros
-description: Comprenda para qué filtros se utilizan y cómo crear un filtro sencillo.
+title: Información general de filtros
+description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 translation-type: tm+mt
 source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
 
 # Información general de Filtros
 
-El análisis de viaje del cliente le permite crear, administrar, compartir y aplicar filtros de audiencia potentes y centrados a sus informes. Los Filtros permiten identificar subconjuntos de visitantes en función de las características o las interacciones con el sitio web. Los Filtros están diseñados como perspectivas de audiencia codificadas que puede crear para sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
+Customer Journey Analytics le permite crear, administrar, compartir y aplicar filtros de audiencia poderosos y centrados en sus informes. Los filtros le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Los Filtros están diseñados como perspectivas de audiencia codificadas que puede crear para atender sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
 
-Los Filtros se pueden basar en atributos (tipo de explorador, dispositivo, número de visitas, país, sexo), interacciones (campañas, búsqueda de palabras clave, motor de búsqueda), salidas y entradas (visitantes de Facebook, una página de aterrizaje definida, dominio de referencia), variables personalizadas (campo de formulario, categorías definidas, ID del cliente) y otros criterios.
+Los Filtros se pueden basar en atributos (tipo de explorador, dispositivo, cantidad de visitas, país, sexo), interacciones (campañas, búsqueda de palabras clave, motor de búsqueda), salidas y entradas (visitantes de Facebook, una página de aterrizaje definida, dominio de referencia), variables personalizadas (campo de formulario, categorías definidas, ID del cliente) y otros criterios.
 
-Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden utilizar juntos como filtros apilados.
+Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden usar juntos como filtros apilados.
 
 >[!IMPORTANT]
 >Los Filtros se conocen como &#39;segmentos&#39; en Adobe Analytics. Se ha cambiado el nombre de los segmentos a filtros porque Adobe Experience Platform tiene una definición diferente de &quot;segmento&quot;.
 
-Filtering includes the [Filter Builder](/help/components/filters/create-filters.md) to construct filters and run a pre-test, and the [Filter Manager](/help/components/filters/manage-filters.md) to collect, tag, approve, set security, and share filters across your organization.
+Los filtros del [Generador de filtros](/help/components/filters/create-filters.md) para construir filtros y ejecutar una prueba previa, y el [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
 
-## filtros secuenciales
+## Filtros secuenciales
 
-Los filtros secuenciales permiten identificar visitantes en función de la navegación y la vista de la página en el sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los segmentos secuenciales le ayudan a identificar qué le gusta a un visitante, así como lo que evita. Al generar filtros secuenciales, el operador ENTONCES se utiliza para definir y ordenar la navegación por visitante.
+Los filtros secuenciales le permiten identificar a los visitantes en función de la navegación y las vistas de página en su sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los segmentos secuenciales le ayudan a identificar qué le gusta a un visitante, así como lo que evita. Cuando se generan filtros secuenciales, se utiliza el operador THEN para definir y ordenar la navegación del visitante.
 
 Vea el siguiente ejemplo:
 
@@ -33,23 +33,22 @@ Vea el siguiente ejemplo:
 
 | Visita uno | Visita dos | Visita tres |
 |---|---|---|
-| El visitante fue a la página de aterrizaje principal (A), excluyó la página de campaña (B) y, a continuación, vio la página Producto (C). | El visitante volvió a dirigirse a la página de aterrizaje principal (A), excluyó la página de campaña (B) y volvió a dirigirse a la página Producto (C) y, a continuación, a una nueva página (D). | El visitante ingresó y siguió la misma ruta que en la primera y la segunda visita, y luego excluyó la página F para ir directamente a una página de producto de destino (G). |
+| El visitante accedió a la página de aterrizaje principal (A), excluyó la página de campaña (B) y después vio la página de producto (C). | El visitante volvió a acceder a la página de aterrizaje principal (A), excluyó la página de campaña (B) y vio de nuevo la página del producto (C), para acceder a continuación a una nueva página (D). | El visitante accedió y siguió la misma ruta que en la primera y la segunda visita, y después excluyó la página F para ir directamente a una página de producto dirigida (G). |
 
-## contenedores de filtro
+## Contenedores de filtro
 
-Los Filtros se basan en una jerarquía de nivel Persona, Sesión y Evento mediante un modelo de contenedor anidado. Los contenedores anidados permiten definir atributos de persona y acciones en función de reglas entre los contenedores y dentro de ellos.
+Los Filtros se basan en una jerarquía de nivel persona, sesión y evento mediante un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones de la persona en función de las reglas entre los contenedores y dentro de ellos.
 
 >[!NOTE]
->El contenedor Persona era anteriormente conocido como el contenedor del Visitante. El contenedor Sesión se denominaba contenedor Visita y el contenedor Evento solía ser el contenedor Visita individual.
+>El contenedor de persona era conocido como el contenedor del visitante. El contenedor de sesión se denominaba contenedor de visita, y el contenedor de evento era el contenedor de visita individual.
 
-Un filtro establece condiciones para filtrar un visitante en función de sus atributos o interacciones con el sitio. Para definir condiciones en un filtro, debe definir reglas para filtrar visitantes en función de las características del visitante y/o las características de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de filtros proporciona una arquitectura sencilla para crear estos subconjuntos y aplicar reglas como contenedores de persona, sesión o Evento anidados y jerárquicos.
+Un filtro establece las condiciones necesarias para filtrar a un visitante en función de sus atributos o de las interacciones con su sitio. Para establecer las condiciones en un filtro, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de filtros proporciona una arquitectura simple para crear estos subconjuntos y aplicar reglas como contenedores anidados, jerárquicos, de persona, de sesión y de eventos.
 
-La arquitectura de contenedor empleada en el Generador de filtros define Persona como el contenedor más externo, que contiene datos globales específicos para el visitante en las visitas y vistas de páginas. Un contenedor de sesión anidado le permite establecer reglas para desglosar los datos del visitante en función de las sesiones, y un contenedor de Evento anidado le permite desglosar la información del visitante en función de vistas de página individuales. Cada contenedor permite realizar informes a través del historial de un visitante, las interacciones desglosadas por sesiones o desglosar eventos individuales.
+La arquitectura de contenedor empleada en el Generador de filtros define la persona como el contenedor exterior, que incluye datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de sesión anidado le permite establecer reglas para desglosar los datos del visitante en función de las sesiones, y un contenedor de eventos individual anidado le permite desglosar la información del visitante según las vistas de página individuales. Cada contenedor le permite realizar informes basados en el historial del visitante o en las interacciones detalladas por sesión, o bien desglosar los eventos individuales.
 
-### contenedor personal
+### Contenedor de persona
 
-El contenedor Persona incluye todas las visitas y vistas de página para visitantes dentro de un intervalo de tiempo específico. Un filtro en el nivel Persona devuelve la página que cumple la condición más todas las demás páginas vistas por el visitante (y solo restringidas por intervalos de fechas definidos). Como el contenedor más definido, los informes generados en el nivel de contenedor Persona devolverán vistas de página en todas las visitas y le permitirán generar una análisis de varias visitas. En consecuencia, el contenedor Persona es el más susceptible de cambiar según los intervalos de fechas definidos.
-Los contenedores de persona pueden incluir valores basados en el historial general de un visitante:
+El contenedor de persona incluye todas las visitas y vistas de página de los visitantes en un período de tiempo específico. Un filtro en el nivel de persona devuelve la página que cumple la condición, además de todas las demás páginas visitadas por el visitante (restringidas únicamente por los intervalos de fechas definidos). Al ser el contenedor definido con mayor amplitud, los informes generados en el nivel del contenedor de persona muestran vistas de página de todas las visitas, lo que le permite generar análisis multivisitas. Por tanto, el contenedor de persona es el más propenso a cambiar en función de intervalos de fechas definidos. Los contenedores de persona pueden incluir valores basados en el historial general de un visitante:
 
 * Días antes de la primera compra
 
@@ -57,13 +56,13 @@ Los contenedores de persona pueden incluir valores basados en el historial gener
 
 * Dominios de referencia originales
 
-### contenedor de sesión
+### Contenedor de sesión
 
-El contenedor Sesión permite identificar las interacciones de página, campañas o conversiones para una sesión específica. El contenedor de sesión es el contenedor más utilizado porque captura los comportamientos de toda la sesión de visita una vez cumplida la regla y le permite definir qué sesiones desea incluir o excluir al generar y aplicar un segmento. Puede ayudarle a responder a estas preguntas:
+El contenedor de sesión le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. El contenedor de sesión es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se cumple la regla y le permite definir qué sesiones desea incluir o excluir al generar y aplicar un segmento. Puede ayudarle a responder a estas preguntas:
 
 * ¿Cuántos visitantes vieron la sección Noticias y Deportes en la misma sesión?
 
-* ¿Qué páginas contribuyeron a una conversión exitosa a una venta?
+* ¿Qué páginas contribuyeron a una conversión exitosa para una venta?
 
 Los contenedores de sesión incluyen valores basados en la incidencia por sesión:
 
@@ -77,16 +76,16 @@ Los contenedores de sesión incluyen valores basados en la incidencia por sesió
 
 * Métricas asignadas linealmente
 
-### contenedor Evento
+### Contenedor de evento
 
-El contenedor Evento define qué eventos de página desea incluir o excluir de un filtro. Es el contenedor más limitado del que dispone para identificar clics específicos y vistas de página cuando una condición sea verdadera, lo que le permite ver un código de seguimiento único, o aislar un comportamiento en una sección en concreto de su sitio. También podría interesarle localizar un valor específico cuando se produzca una acción, como el canal de marketing cuando se realice un pedido.
+El contenedor de evento individual define qué eventos de página desea incluir o excluir de un filtro. Es el contenedor más limitado del que dispone para identificar clics específicos y vistas de página cuando una condición sea verdadera, lo que le permite ver un código de seguimiento único, o aislar un comportamiento en una sección en concreto de su sitio. También podría interesarle localizar un valor específico cuando se produzca una acción, como el canal de marketing cuando se realice un pedido.
 
-Los contenedores de Evento incluyen valores basados en desgloses de una sola página:
+Los contenedores de eventos individuales incluyen valores basados en el desglose de una sola página:
 
 * Productos
 
 * props de lista
 
-* Dimensiones de Lista
+* Dimensiones de lista
 
-* Dimensiones de comercialización (en el contexto de los eventos)
+* Dimensiones de comercialización (en el contexto de eventos)
