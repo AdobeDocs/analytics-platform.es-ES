@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -23,5 +23,5 @@ Requisitos del sistema para Analysis Workspace.
 |--- |--- |
 | SKU de producto | Debe tener Adobe Analytics Standard o Adobe Analytics Premium. Si solo tiene acceso a Reports &amp; Analytics como producto independiente, trabaje con el equipo de la cuenta para adquirir la solución Adobe Analytics. |
 | Administradores | Disponen de acceso completo a Analysis Workspace. |
-| Usuarios | Para habilitar el acceso a la ficha Espacio de trabajo en Analytics, los administradores deben crear un perfil de producto con el permiso de acceso de Analysis Workspace y agregar usuarios a él en el [Admin Console](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/permissions/product-profile.html). |
+| Usuarios | Para habilitar el acceso a la pestaña de Workspace en Analytics, los administradores deben crear un perfil de producto con el permiso de acceso de Analysis Workspace y agregar usuarios a él en [Admin Console](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/permissions/product-profile.html). |
 | Explorador | <ul><li>Preferidos: versiones más recientes de Firefox, Chrome, Safari o Edge. Versión más reciente de Microsoft Internet Explorer 11. **Nota:** El 13 de noviembre de 2018, Adobe dejó de admitir Internet Explorer 11 en Adobe Analytics. Cambie a Microsoft Edge o a otro navegador compatible en cuanto pueda.</li><li>JavaScript y las cookies deben estar activados.</li><li>Resolución de pantalla de 1024 x 768 con una profundidad de color de 16 bits (o superior).</li></ul> |
