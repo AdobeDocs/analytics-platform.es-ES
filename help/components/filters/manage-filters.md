@@ -1,8 +1,11 @@
 ---
 title: Administrar filtros
 description: descubra cómo administrar filtros en Customer Journey Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+workflow-type: tm+mt
+source-wordcount: '1109'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ El Administrador de filtros ofrece numerosas maneras de conservar los segmentos,
 
 El Administrador de filtros le muestra todos los filtros que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los filtros de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de filtros.
 
-Para acceder al Administrador de filtros, vaya a **[!UICONTROL Customer Journey Analysis]** > **[!UICONTROL Components]** > **[!UICONTROL Filters]** en la barra de navegación superior.
+Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis del viaje del cliente]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]** en la navegación superior.
 
 ## Interfaz de usuario del Administrador de filtros
 
@@ -71,16 +74,16 @@ Para etiquetar un filtro:
 
 1. En el Administrador de filtros, marque la casilla que aparece junto al filtro que desea etiquetar. Aparecerá la barra de herramientas para la administración de filtros.
 
-1. Haga clic en **[!UICONTROL Tag]** y
+1. Haga clic en **[!UICONTROL Etiqueta]** y:
 
-   * seleccione una de las etiquetas existentes, o bien,
+   * Seleccione una de las etiquetas existentes, o bien
 
-   * introduzca un nuevo nombre de etiqueta y pulse **[!UICONTROL Enter]**.
+   * introduzca un nuevo nombre de etiqueta y pulse **[!UICONTROL Intro]**.
 
-1. Haga clic en **[!UICONTROL Tag]** de nuevo para etiquetar el segmento.
+1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar el segmento.
 
 La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
-También puede filtrar las etiquetas accediendo a **[!UICONTROL Filters > Tags]**.
+También puede filtrar las etiquetas accediendo a **[!UICONTROL Filtros > Etiquetas]**.
 
 ### Aprobar filtros
 
@@ -90,17 +93,17 @@ Así es como se marca un filtro como aprobado:
 
 1. En el Administrador de filtros, marque la casilla a la izquierda del título del filtro.
 
-1. Haga clic en **[!UICONTROL Approve]** en la barra de tareas de administración de filtros.
+1. Haga clic en **[!UICONTROL Aprobar]** en la barra de tareas de administración de filtros.
 
 1. Considere la posibilidad de compartir el segmento o segmentos aprobados con su organización.
 
-1. Haga clic en **[!UICONTROL OK]**.
+1. Haga clic en **[!UICONTROL Aceptar]**.
 
    Fíjese en el icono de aprobación que aparece junto al filtro en la lista:
 
    ![](assets/seg_approved.png)
 
-1. También puede desaprobar un segmento aprobado haciendo clic en **[!UICONTROL Unapprove]**.
+1. También puede desaprobar un segmento aprobado haciendo clic en **[!UICONTROL Desaprobar]**.
 
 ### Compartir filtros
 
@@ -122,9 +125,9 @@ Para compartir un filtro:
 
 1. En el Administrador de filtros, marque la casilla que aparece junto al filtro que desea compartir.
 
-1. En la barra de herramientas de administración de filtros, haga clic en **[!UICONTROL Share]**.
+1. En la barra de herramientas de administración de filtros, haga clic en **[!UICONTROL Compartir]**.
 
-1. Si es administrador, puede seleccionar Todos o elegir entre Grupos y Usuarios de su organización. Si no es administrador, solo verá usuarios individuales. Utilice el campo Buscar para buscar grupos o usuarios. Haga clic en **[!UICONTROL Share]**. El icono Compartido aparece junto al filtro: ![](assets/share_icon.png)
+1. Si es administrador, puede seleccionar Todos o elegir entre Grupos y Usuarios de su organización. Si no es administrador, solo verá usuarios individuales. Utilice el campo Buscar para buscar grupos o usuarios. Haga clic en **[!UICONTROL Compartir]**. El icono Compartido aparece junto al filtro: ![](assets/share_icon.png)
 
 1. Puede filtrar los filtros que se han compartido con usted accediendo a Filtros > Otros filtros > Compartido conmigo.
 
