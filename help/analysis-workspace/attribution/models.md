@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -43,13 +43,13 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 * **Ventana retrospectiva de visita:** Revisa hasta el principio de una visita en la que se produjo una conversión. Las ventanas retrospectivas de visitas son estrechas, ya que no miran más allá de la visita. Las ventanas retrospectivas de visitas respetan la definición de visita modificada en los grupos de informes virtuales.
 
-* **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. El retrospectivo de Visitante tiene en cuenta todos los valores desde el comienzo del mes del intervalo de fechas del informe. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
+* **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. La ventana retrospectiva de visitantes tiene en cuenta todos los valores desde el comienzo del mes del intervalo de fechas del informe. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
 
-* **Ventana retroactiva personalizada:** Permite expandir la ventana de atribución más allá del intervalo de fechas de sistema de informes hasta un máximo de 90 días. Las ventanas retroactivas personalizadas se evalúan en cada conversión del período de sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
+* **Ventana retrospectiva personalizada:** Permite expandir la ventana de atribución más allá del intervalo de fechas del sistema de informes hasta un máximo de 90 días. Las ventanas retrospectivas personalizadas se evalúan en cada conversión del periodo del sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de la dimensión del 10 al 20 de febrero en el modelo de atribución.
 
 >[!NOTE]
 >
->**[!UICONTROL Las ventanas]** retroactivas personalizadas están actualmente en pruebas limitadas. Consulte las versiones [de funciones de](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) Adobe Analytics para obtener más información.
+>**[!UICONTROL Ventanas retroactivas personalizadas]** actualmente están en pruebas limitadas. Consulte [Versiones de funciones de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) para obtener más información.
 
 ## Ejemplo
 
