@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 80%
+ht-degree: 91%
 
 ---
 
@@ -23,11 +23,11 @@ Un panel es una colección de tablas y visualizaciones. Puede acceder a los pane
 * [Panel de Attribution](attribution.md)
 * [Panel de forma libre](freeform-panel.md)
 
-Quick Insights, los paneles en blanco y improvisado son lugares buenos para realizar inicios en la análisis, mientras que el panel de atribución IQ se presta a análisis más avanzados. Hay un `"+"` botón disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
+Quick Insights, los paneles en blanco y improvisado son lugares buenos para realizar inicios en la análisis, mientras que el panel Attribution IQ se presta a análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analysis-workspace/c-panels/blank-panel.md) your default as well.
+El panel inicial predeterminado es el improvisado, pero también puede convertir el [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
-## filtros desplegables en paneles
+## Filtros desplegables en paneles
 
 La zona de colocación del panel tiene capacidades de filtrado desplegables. Estos filtros le permiten interactuar con los datos del proyecto de manera controlada, de modo que pueda realizar análisis en profundidad, simplificar los proyectos y compartir perspectivas con otros.
 
