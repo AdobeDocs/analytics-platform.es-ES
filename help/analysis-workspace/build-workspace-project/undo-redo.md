@@ -1,11 +1,11 @@
 ---
-description: Cambios y mejoras en la opción Deshacer del Analysis Workspace
+description: Cambios y mejoras en la opción Deshacer de Analysis Workspace
 title: Configuración de Deshacer y Rehacer
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
