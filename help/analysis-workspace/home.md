@@ -3,9 +3,9 @@ keywords: Analysis Workspace
 title: Información general de Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Un proyecto puede tener tablas de datos y cualquier cantidad de visualizaciones 
 
 ## Dos formas de crear una tabla
 
-## Abordaje común del análisis
+## Enfoque común de un análisis
 
 ### Paso 1: analizar una dimensión
 
@@ -47,9 +47,9 @@ Toque para agregar métricas calculadas en esta sección
 
 ### Paso 3: cambiar el intervalo de fecha
 
-### Paso 4: desglosar una dimensión
+### Paso 4: Desglosar una dimensión
 
-### Paso 5: aplicar un segmento a los datos
+### Paso 5: Aplicar un segmento a los datos
 
 ### Paso 6: añadir visualizaciones básicas
 
