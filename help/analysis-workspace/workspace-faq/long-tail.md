@@ -22,7 +22,7 @@ Si algún servidor individual que procesa un subconjunto de datos encuentra más
 
 ## Diferencias entre &#39;Cola larga&#39; y &#39;Poco tráfico&#39;
 
-En versiones anteriores de Adobe Analytics, se utilizaba una arquitectura de procesamiento diferente. Los datos se procesaron en el momento en que se recopilaron. Los elementos de dimensión se colocaron en &#39;Poco tráfico&#39; después de que una dimensión alcanzara valores únicos de 500 K y se aplicara un filtrado más agresivo en valores únicos de 1M. El recuento de valores únicos se restableció al principio de cada mes calendario. Los datos procesados eran permanentes; no había forma de obtener los datos existentes de &quot;Poco tráfico&quot;.
+En versiones anteriores de Adobe Analytics, se utilizaba una arquitectura de procesamiento diferente. Los datos se procesaron en el momento en que se recopilaron. Los elementos de Dimension se colocaron en &#39;Poco tráfico&#39; después de que una dimensión alcanzara valores únicos de 500.000 y se aplicara un filtrado más agresivo en valores únicos de 1M. El recuento de valores únicos se restableció al principio de cada mes calendario. Los datos procesados eran permanentes; no había forma de obtener los datos existentes de &quot;Poco tráfico&quot;.
 
 En CJA, los elementos de dimensión solo se colocan en &#39;Cola larga&#39; si un servidor de procesamiento individual contiene más de 500.000 valores únicos. Los datos procesados no son permanentes, lo que significa que puede reducir el elemento de dimensión &#39;Cola larga&#39; modificando el informe.
 
@@ -33,4 +33,4 @@ Si desea reducir el elemento de dimensión &#39;Cola larga&#39;, Adobe recomiend
 * Utilice un segmento. Los segmentos se aplican en el momento en que cada servidor procesa un subconjunto de datos. Al limitar el número de valores únicos que devuelven, se reduce el elemento de dimensión &#39;Cola larga&#39;.
 * Utilice una dimensión de conjunto de datos de búsqueda. Las dimensiones del conjunto de datos de búsqueda combinan elementos de dimensión del conjunto de datos de evento, lo que limita el número de valores únicos devueltos.
 
-En general, es difícil consumir un informe que contenga más de 500.000 elementos de dimensión únicos. Si aplica una dimensión de segmento o de conjunto de datos de búsqueda, puede reducir la presencia de &#39;Cola larga&#39; y, al mismo tiempo, facilitar el consumo del informe. Adobe planea mejorar esta experiencia a medida que se desarrolla CJA.
+En general, es difícil consumir un informe que contenga más de 500.000 elementos de dimensión únicos. Si aplica una dimensión de segmento o de conjunto de datos de búsqueda, puede reducir la presencia de &#39;Cola larga&#39; y, al mismo tiempo, facilitar el consumo del informe. El Adobe tiene previsto mejorar esta experiencia a medida que se siga desarrollando la ECP.
