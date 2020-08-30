@@ -1,9 +1,9 @@
 ---
 title: Introducción a Customer Journey Analytics
 description: Introducción a Customer Journey Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16bca45f2576d3feef8129d558fad6f236852cb9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
 
