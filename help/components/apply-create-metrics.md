@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ Si quiere comparar rápida y fácilmente un modelo de atribución con otro, haga
 
 ![Comparar atribución](assets/compare-attribution.png)
 
-Este método abreviado le permite comparar rápida y fácilmente un modelo de atribución con otro sin arrastrarlo y configurarlo dos veces.
+Este método abreviado permite comparar rápida y fácilmente un modelo de atribución con otro sin tener que arrastrar una métrica y configurarla dos veces.
