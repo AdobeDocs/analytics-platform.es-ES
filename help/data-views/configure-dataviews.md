@@ -1,9 +1,9 @@
 ---
 title: Configurar vistas de datos y atribución
 description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 100%
 
