@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 56%
+ht-degree: 93%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 56%
 
 La atribución permite a los analistas personalizar la forma en que los elementos de dimensión obtienen crédito por los eventos de éxito. Por ejemplo:
 
-1. Un visitante a su sitio hace clic en un vínculo de búsqueda paga a una de las páginas de productos. Agregue el producto al carro de compras, pero no lo compre.
-2. Al día siguiente, verá una publicación en los medios sociales de uno de sus amigos, haga clic en el vínculo y, a continuación, complete la compra.
+1. Un visitante de su sitio hace clic en un vínculo de búsqueda de pago a una de las páginas de producto. Después, agrega el producto al carro de compras, pero no lo compra.
+2. Al día siguiente, ve una publicación en los medios sociales de uno de sus amigos, hace clic en el vínculo y, a continuación, completa la compra.
 
-En algunos informes, es posible que desee atribuir el orden a la búsqueda paga. En otros informes, es posible que desee atribuir el orden a Social. La atribución permite controlar este aspecto del sistema de informes. Está disponible para todas las organizaciones en Adobe Analytics Ultimate, Prime, Select y Foundation. Si no está seguro de qué tipo de contrato tiene con Adobe, póngase en contacto con el administrador de cuentas de su organización.
+En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes. Está disponible para todas las organizaciones en Adobe Analytics Ultimate, Prime, Select y Foundation. Si no está seguro de qué tipo de contrato tiene con Adobe, póngase en contacto con el administrador de cuentas de su organización.
 
-## Valor de IQ de atribución
+## Valor de Attribution IQ
 
 El recorrido del cliente no es lineal y a menudo es bastante impredecible. Cada cliente actúa sigue su propio recorrido; a menudo se duplican, se paralizan, se reinician o se involucran en otro comportamiento no lineal. Esto hace que sea difícil saber el impacto de los esfuerzos de marketing a lo largo del recorrido del cliente. También obstaculiza los esfuerzos por unir múltiples canales de datos.
 
@@ -44,7 +44,7 @@ Adobe Analytics mejora la atribución al permitir lo siguiente:
 
 Attribution IQ incluye las siguientes funciones:
 
-* [Panel](../c-panels/attribution.md)de atribución: Tome cualquier dimensión y métrica y compárela rápidamente con diferentes modelos de atribución.
+* [Panel de atribución](../c-panels/attribution.md): Tome cualquier dimensión y métrica y compárela rápidamente con diferentes modelos de atribución.
 * [Aplicar atribución a una métrica](../build-workspace-project/column-row-settings/column-settings.md): Utilice una atribución no predeterminada en cualquier métrica de un proyecto.
 * [Aplicar atribución a un desglose](/help/components/dimensions/t-breakdown-fa.md): Utilice una atribución no predeterminada en un desglose.
-* [Comparar modelos](/help/components/apply-create-metrics.md)de atribución: Ver rápidamente cómo se comparan los distintos modelos de atribución para cualquier métrica.
+* [Comparar modelos de atribución](/help/components/apply-create-metrics.md): Vea rápidamente cómo se comparan los distintos modelos de atribución para cualquier métrica.
