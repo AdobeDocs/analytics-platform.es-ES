@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: ef0e1823e1343266853253fe29dc25d58c88cdee
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 99%
    + Curar y compartir proyectos {#curate-share}
       + [Depurar proyectos de Workspace](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos de Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Creación de vínculos compartibles](analysis-workspace/curate-share/shareable-links.md)
+      + [Creación de vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de Workspace solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Uso compartido y programación de archivos de proyecto](analysis-workspace/curate-share/send-schedule-files.md)
