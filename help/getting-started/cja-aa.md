@@ -2,10 +2,10 @@
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 translation-type: tm+mt
-source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
+source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '879'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Intervalos de fechas | Se ha planificado lanzar una versión compatible con el calendario personalizado. |
 | Métricas calculadas | Tenga en cuenta que las métricas de cálculo existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
 | Segmentos | Ahora se denominan &quot;Filtros&quot;: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
-| Detección de anomalías | Asistencia total a partir de junio de 2020 |
+| Detección de anomalías | Asistencia total a partir de septiembre de 2020 |
 | Attribution IQ | Compatibilidad total. |
 | Revisión del proyecto | Compatibilidad total. |
 | Vinculación de proyectos | Compatibilidad total. |
@@ -80,7 +80,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | A4T | Aún no se ha planificado lanzar una versión compatible. |
-| Video Analytics | Aún no se ha planificado lanzar una versión compatible. |
+| Media Analytics | Aún no se ha planificado lanzar una versión compatible. |
 | Advertising Cloud | Aún no se ha planificado lanzar una versión compatible. |
 | Report Builder (complemento de Excel) | Aún no se ha planificado lanzar una versión compatible. |
 | Activity Map | Aún no se ha planificado lanzar una versión compatible. |
@@ -90,14 +90,12 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 
 ## Nunca será compatible
 
-| Función | Notas |
-| --- | --- |
-| Métrica de personas que utiliza la cooperación entre dispositivos |  |
-| Paneles de Reports &amp; Analytics |  |
-| Marcadores de Reports &amp; Analytics |  |
-| Destinatarios de Reports &amp; Analytics |  |
-| Eventos del calendario de Reports &amp; Analytics |  |
-| Ad Hoc Analysis |  |
-| Data Warehouse Creación de informes | [!UICONTROL El Servicio de consulta de Experience Platform] será la nueva interfaz para estos casos de uso en CJA. |
-| Mobile Services |  |
-| Archivo de fuentes de datos |  |
+* Métrica de personas que utiliza la cooperación entre dispositivos
+* Paneles de Reports &amp; Analytics
+* Marcadores de Reports &amp; Analytics
+* Destinatarios de Reports &amp; Analytics
+* Eventos del calendario de Reports &amp; Analytics
+* Ad Hoc Analysis
+* sistema de informes de Data Warehouse: [!UICONTROL Servicio de Consulta de Experience Platform] será la nueva interfaz para estos casos de uso en CJA.
+* Mobile Services
+* Archivo de fuentes de datos
