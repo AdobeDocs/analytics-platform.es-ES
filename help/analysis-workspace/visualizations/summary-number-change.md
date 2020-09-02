@@ -3,15 +3,19 @@ description: Utilice las visualizaciones Número de resumen y Cambio para mostra
 title: Número de resumen y cambio de resumen
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 3e8e628ac7fe782e060fd3e0ced209853d53540e
+source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 52%
+source-wordcount: '438'
+ht-degree: 56%
 
 ---
 
 
 # Número de resumen y cambio de resumen
+
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 ## Visualización Número de resumen {#summary-number}
 
