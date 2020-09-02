@@ -3,15 +3,19 @@ description: Utilice la visualización de líneas para representar conjuntos de 
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: afe5b341ea1b442c23561299fbffce59dae45930
+source-git-commit: 4f163e32787a732526511aeda5f6c1e32becb490
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 15%
+source-wordcount: '443'
+ht-degree: 20%
 
 ---
 
 
 # Líneas
+
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 La visualización Línea representa las métricas que utilizan una línea para mostrar cómo cambian los valores en un período de tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
 
@@ -35,7 +39,7 @@ Un menú desplegable de granularidad en la [configuración de visualización](fr
 
 ## Mostrar mínimo o máximo
 
-Bajo **[!UICONTROL Configuración de visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar mín./máx.]**, puede superponer una etiqueta de valor mínimo y máximo para resaltar rápidamente los picos y los valores de una métrica.
+Bajo **[!UICONTROL Configuración de visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar mín./máx.]**, puede superponer una etiqueta de valor mínimo y máximo para resaltar rápidamente los picos y los valores de una métrica. Nota: Los valores mínimo y máximo se derivan de los puntos de datos visibles en la visualización, no del conjunto completo de valores dentro de una dimensión.
 
 ![Mostrar mín./máx.](assets/min-max-labels.png)
 
@@ -48,7 +52,7 @@ Bajo **[!UICONTROL Configuración de visualización]** > **[!UICONTROL Superposi
 Todos los modelos se ajustan con los mínimos cuadrados normales:
 
 | Modelo | Descripción |
-|---|---|
+| --- | --- |
 | Lineal | Crea una línea recta de mejor ajuste para conjuntos de datos lineales simples y resulta útil cuando los datos aumentan o disminuyen a una velocidad constante. Ecuación: `y = a + b * x` |
 | Logarítmica | Crea una línea curva que se adapta mejor y resulta útil cuando la velocidad de cambio de los datos aumenta o disminuye rápidamente y luego se alza. Una línea de tendencia logarítmica puede utilizar valores negativos y positivos. Ecuación: `y = a + b * log(x)` |
 | Exponencial | Crea una línea curva y resulta útil cuando los datos suben o disminuyen a tasas de crecimiento constantes. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a + e^(b * x)` |
