@@ -3,15 +3,19 @@ description: Puede descargar datos de Analysis Workspace copiándolos o en forma
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 814e02648607b6f06e2743cd054c14c892200b44
+source-git-commit: 23856a744ce66ac03656d84f72b4bce4cdef253a
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 8%
+source-wordcount: '1048'
+ht-degree: 11%
 
 ---
 
 
 # Descarga de archivos PDF o CSV desde Workspace
+
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Existen varias maneras de exportar datos desde Analysis Workspace, según el conjunto de datos que desee analizar fuera de la herramienta y quién necesite recibir la información. Los datos exportados pueden tener la forma de datos copiados, archivos CSV o archivos PDF. Normalmente, se prefiere un PDF si desea incluir visualizaciones en el archivo, mientras que un CSV (o datos copiados) es preferible si simplemente desea datos de texto sin formato.
 
@@ -36,7 +40,7 @@ Para las descargas de proyectos, tenga en cuenta:
 
 Opción de clic con el botón derecho **[!UICONTROL Copiar al portapapeles]** le permite copiar datos de Workspace rápidamente y pegarlos en otro lugar.
 
-* Si desea que se copie la tabla mostrada, haga clic con el botón derecho en el encabezado de la tabla y elija **Copiar los datos mostrados en el portapapeles**.
+* Si desea que se copie la tabla mostrada, haga clic con el botón derecho en el encabezado de la tabla y elija **Copiar datos al portapapeles**.
 * Si desea copiar un subconjunto de datos, realice una selección en la tabla y, a continuación, haga clic con el botón secundario > **Copiar selección al portapapeles**.
 
 Además, la tecla de acceso directo `Ctrl+C` copia la selección en el portapapeles. Una vez copiado, puede ir a otra herramienta y pegar la información (o la visita `Ctrl+V`).
@@ -47,15 +51,14 @@ Además, la tecla de acceso directo `Ctrl+C` copia la selección en el portapape
 
 Opción de clic con el botón derecho **[!UICONTROL Descargar datos como CSV]** permite descargar una tabla de datos o la fuente de datos de cualquier visualización como CSV.
 
-* En el encabezado de cualquier tabla, haga clic con el botón derecho **[!UICONTROL Descargar datos mostrados como CSV]**. Esto descarga los datos mostrados en la tabla como un CSV.
+* En el encabezado de cualquier tabla o visualización, haga clic con el botón derecho **[!UICONTROL Descargar datos como CSV]**. Esto descarga los datos mostrados en la tabla o el origen de datos subyacente para una visualización como CSV. Nota: la visualización Mapa no admite esta opción.
 * Si se realiza una selección en la tabla, la opción dirá **[!UICONTROL Descargar selección como CSV]**. Solo la selección se descarga con esta opción, en oposición a la tabla mostrada completa.
-* En el encabezado de cualquier visualización, haga clic con el botón derecho **[!UICONTROL Descargar datos como CSV]**. Esto descarga la tabla de fuente de datos para una visualización como un CSV. Nota: la visualización Mapa no admite esta opción.
 
 ![](assets/download-data-viz.png)
 
 ## Descargar elementos como CSV {#download-items}
 
-Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en el encabezado de tabla o en cualquier fila y seleccione **Descargar elementos como CSV (nombre del Dimension)**. Esta opción exportará hasta 50.000 elementos de dimensión para la dimensión seleccionada (según el orden de tabla), con filtros y segmentos aplicados. Si elige esta opción desde la parte superior de la tabla, se exportará la primera dimensión de la tabla. Aunque no se aplican límites en la tabla improvisada, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
+Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en el encabezado de tabla o en cualquier fila y seleccione **Descargar elementos como CSV (nombre del Dimension)**. Esta opción exportará hasta 50.000 elementos de dimensión (según la clasificación de tabla) para la dimensión seleccionada, con filtros y segmentos aplicados. Si elige esta opción desde la parte superior de la tabla, se exportará la primera dimensión de la tabla. Aunque no se aplican límites en la tabla improvisada, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
 
 >[!TIP]
 >
