@@ -1,11 +1,11 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Intervalos de fechas | Se ha planificado lanzar una versión compatible con el calendario personalizado. |
 | Métricas calculadas | Tenga en cuenta que las métricas de cálculo existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
 | Segmentos | Ahora se denominan &quot;Filtros&quot;: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
-| Detección de anomalías | Asistencia total a partir de septiembre de 2020 |
+| Detección de anomalías | Asistencia total a partir de septiembre de 2020. |
 | Attribution IQ | Compatibilidad total. |
 | Revisión del proyecto | Compatibilidad total. |
 | Vinculación de proyectos | Compatibilidad total. |
@@ -96,6 +96,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 * Destinatarios de Reports &amp; Analytics
 * Eventos del calendario de Reports &amp; Analytics
 * Ad Hoc Analysis
-* sistema de informes de Data Warehouse: [!UICONTROL Servicio de Consulta de Experience Platform] será la nueva interfaz para estos casos de uso en CJA.
+* El [!UICONTROL Servicio de consulta de Experience Platform] será la nueva interfaz para estos casos de uso en CJA.
 * Mobile Services
 * Archivo de fuentes de datos
