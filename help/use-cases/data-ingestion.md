@@ -2,17 +2,17 @@
 title: Opciones de inserción de datos para Customer Journey Analytics
 description: Comprender las distintas formas de ingerir datos en Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 540b170c3429f04b7f63872b30cbb01852d30179
+source-git-commit: 32dd6194ab2777652c3fb7df5fadd42395a0697d
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 32%
+source-wordcount: '515'
+ht-degree: 31%
 
 ---
 
 
 # Opciones de inserción de datos para Customer Journey Analytics
 
-Tiene una serie de opciones para la ingesta de datos en Customer Journey Analytics. Algunos de ellos suponen que desea mover los datos tradicionales de Adobe Analytics, algunos de los cuales suponen que los ingiere directamente desde Adobe Experience Platform.
+Tiene una serie de opciones para la ingesta de datos en Customer Journey Analytics. Algunos de ellos suponen que desea mover los datos tradicionales de Adobe Analytics, algunos de los cuales suponen que los ingiere directamente desde Adobe Experience Platform. Esta referencia proporciona pasos de alto nivel a seguir.
 
 ## Ingestar datos de Adobe Analytics tradicional
 
