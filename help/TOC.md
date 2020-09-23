@@ -5,7 +5,7 @@ product: adobe analytics
 sub-product: recorrido del cliente
 index: true
 user-guide-title: Guía de Customer Journey Analytics
-user-guide-description: This guide provides self-help assistance for Customer Journey Analytics.
+user-guide-description: This guide provides self-help assistance for Customer Journey Analytics, Adobe's next-generation solution for cross-channel analytics, based on Adobe Experience Platform.
 breadcrumb-title: Customer Journey Analytics Guide
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 solution-title: Experience Cloud
@@ -15,9 +15,9 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
-translation-type: ht
-source-git-commit: 1c5f134fc28fd02d58117d72db9afe5ada84cd40
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 47e4d06be87ef32d63a1003f5073d75f61d6f38d
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ ht-degree: 100%
    + Curar y compartir proyectos {#curate-share}
       + [Depurar proyectos de Workspace](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos de Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Creación de vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
+      + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de Workspace solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Uso compartido y programación de archivos de proyecto](analysis-workspace/curate-share/send-schedule-files.md)
