@@ -3,30 +3,26 @@ description: Obtenga información sobre las visualizaciones y los ajustes de vis
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 98%
+source-wordcount: '1046'
+ht-degree: 95%
 
 ---
 
 
 # Resumen de las visualizaciones
 
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
-
 Workspace oferta una serie de visualizaciones que le permiten generar representaciones visuales de sus datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. Cada visualización tiene su propia configuración que puede administrar. Haga clic en el nombre de la visualización para obtener información más detallada.
 
-Vídeo de YouTube: [tipos de visualización en Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Tutorial de vídeo: [Tipos de visualización en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | Nombre de la visualización | Descripción |
-|---|---|
-| [Área](/help/analysis-workspace/visualizations/area.md) | es similar a un gráfico de líneas, pero incluye una zona coloreada bajo la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas. |
+| --- | --- |
+| [Área](/help/analysis-workspace/visualizations/area.md) | Como un gráfico de líneas, pero con un área de color debajo de la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas. |
 | [Barra](/help/analysis-workspace/visualizations/bar.md) | Muestra las barras verticales que representan los distintos valores de una o varias métricas. |
 | [Gráfico de viñetas](/help/analysis-workspace/visualizations/bullet-graph.md) | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
-| [Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. |
+| [Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una cohorte es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. |
 | [Anillo](/help/analysis-workspace/visualizations/donut.md) | Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. |
 | [Abandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. |
 | [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
@@ -37,13 +33,13 @@ Vídeo de YouTube: [tipos de visualización en Analysis Workspace](https://www.y
 | [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | En función de la celda seleccionada, esta visualización muestra los totales y los resúmenes. |
 | [Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | En función de las celdas seleccionadas, esta visualización compara las celdas entre sí. |
-| [Texto](/help/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al Workspace. |
+| [Texto](/help/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al espacio de trabajo. |
 | [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | Le permite arrastrar hasta tres segmentos (de Componentes) y una métrica para generar un diagrama de Venn. |
 
 ## Panel de visualizaciones {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Para mostrar el Panel de visualizaciones, haga clic en **[!UICONTROL Visualizaciones]** en el panel lateral.
+Para mostrar el panel Visualizaciones, haga clic en **[!UICONTROL Visualizaciones]** en el carril izquierdo.
 
 ![Resultado ](assets/visualizations.png)
 
@@ -60,7 +56,7 @@ Para acceder a la [!UICONTROL configuración de visualización], arrastre una vi
 ![](assets/visualization_settings.png)
 
 | Configuración | Descripción |
-|--- |--- |
+| --- | --- |
 | Porcentajes | Muestra valores en porcentajes. |
 | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización apilada al 100 %. Ejemplo: ![](assets/stacked_100_percent.png) |
 | Leyenda visible | Le permite ocultar el texto de detalles del filtro para la visualización de Número de resumen/Resumen del cambio. |
@@ -83,7 +79,7 @@ Se puede acceder a la configuración contextual de un gráfico si hace clic con 
 ![](assets/right-click_menu.png)
 
 | Configuración | Descripción |
-|--- |--- |
+| --- | --- |
 | Insertar visualización/panel copiado | Le permite pegar (“insertar”) el elemento copiado en otro lugar del proyecto o en otro proyecto diferente. |
 | Copiar visualización/panel | Le permite hacer clic con el botón derecho y copiar una visualización o un panel. |
 | Duplicar visualización/panel | Crea un duplicado exacto de la visualización actual, el cual puede modificar a continuación. |
@@ -112,4 +108,4 @@ Para editar una etiqueta de leyenda en un gráfico de líneas, por ejemplo:
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
 
-Aquí tiene un [vínculo que dirige a un vídeo](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sobre este tema.
+Aquí tiene un [vínculo que dirige a un vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sobre este tema.
