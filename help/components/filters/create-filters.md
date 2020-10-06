@@ -2,10 +2,10 @@
 title: Crear filtros
 description: Comprenda la interfaz de usuario para la creación de filtros.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 38%
+source-wordcount: '372'
+ht-degree: 33%
 
 ---
 
@@ -46,4 +46,4 @@ Existen otros métodos para aplicar filtros a un proyecto:
 | Crear filtro a partir de selección | Cree un filtro en línea. Seleccione filas, haga clic con el botón secundario en la selección y, a continuación, cree un filtro en línea. Este filtro solo se aplica al proyecto abierto y no se guarda como filtro CJA. 1. Seleccione filas.  2. Haga clic con el botón secundario en la selección.  3. Haga clic en *Crear filtro a partir de selección*. |
 | Componentes > Nuevo filtro | Muestra el Generador de filtros. Consulte [Generador de filtros](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-build.html) para obtener más información sobre el filtrado. |
 | Compartir > Compartir proyecto o Compartir > Depurar datos del proyecto | En [Depurar y compartir](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), conozca cómo los filtros que aplica al proyecto están disponibles en la análisis compartida para el destinatario. |
-| Usar filtros como dimensiones | Vídeo: [Uso de segmentos como dimensiones en Analysis Workspace](https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39) |
+| Usar filtros como dimensiones | Vídeo: Uso de Filtros como Dimension en Analysis Workspace<br>>[!VIDEO](https://video.tv.adobe.com/v/23974) |
