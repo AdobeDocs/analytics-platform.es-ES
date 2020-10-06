@@ -2,10 +2,10 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 translation-type: tm+mt
-source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
+source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 99%
+source-wordcount: '885'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Los Filtros se pueden basar en atributos (tipo de explorador, dispositivo, canti
 Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden usar juntos como filtros apilados.
 
 >[!IMPORTANT]
->Los Filtros se conocen como &#39;segmentos&#39; en Adobe Analytics. Se ha cambiado el nombre de los segmentos a filtros porque Adobe Experience Platform tiene una definición diferente de &quot;segmento&quot;.
+>Los Filtros se conocen como &#39;segmentos&#39; en Adobe Analytics. Se ha cambiado el nombre de los segmentos a filtros porque Adobe Experience Platform tiene [una definición diferente de &quot;segmento&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
 
 Los filtros del [Generador de filtros](/help/components/filters/create-filters.md) para construir filtros y ejecutar una prueba previa, y el [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
 
@@ -32,7 +32,7 @@ Vea el siguiente ejemplo:
 ![](assets/sequential_fil.png)
 
 | Visita uno | Visita dos | Visita tres |
-|---|---|---|
+| --- | --- | --- |
 | El visitante accedió a la página de aterrizaje principal (A), excluyó la página de campaña (B) y después vio la página de producto (C). | El visitante volvió a acceder a la página de aterrizaje principal (A), excluyó la página de campaña (B) y vio de nuevo la página del producto (C), para acceder a continuación a una nueva página (D). | El visitante accedió y siguió la misma ruta que en la primera y la segunda visita, y después excluyó la página F para ir directamente a una página de producto dirigida (G). |
 
 ## Contenedores de filtro
@@ -51,9 +51,7 @@ La arquitectura de contenedor empleada en el Generador de filtros define la pers
 El contenedor de persona incluye todas las visitas y vistas de página de los visitantes en un período de tiempo específico. Un filtro en el nivel de persona devuelve la página que cumple la condición, además de todas las demás páginas visitadas por el visitante (restringidas únicamente por los intervalos de fechas definidos). Al ser el contenedor definido con mayor amplitud, los informes generados en el nivel del contenedor de persona muestran vistas de página de todas las visitas, lo que le permite generar análisis multivisitas. Por tanto, el contenedor de persona es el más propenso a cambiar en función de intervalos de fechas definidos. Los contenedores de persona pueden incluir valores basados en el historial general de un visitante:
 
 * Días antes de la primera compra
-
 * Página de entrada original
-
 * Dominios de referencia originales
 
 ### Contenedor de sesión
@@ -61,19 +59,14 @@ El contenedor de persona incluye todas las visitas y vistas de página de los vi
 El contenedor de sesión le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. El contenedor de sesión es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se cumple la regla y le permite definir qué sesiones desea incluir o excluir al generar y aplicar un segmento. Puede ayudarle a responder a estas preguntas:
 
 * ¿Cuántos visitantes vieron la sección Noticias y Deportes en la misma sesión?
-
 * ¿Qué páginas contribuyeron a una conversión exitosa para una venta?
 
 Los contenedores de sesión incluyen valores basados en la incidencia por sesión:
 
 * Número de sesión
-
 * Página de entrada
-
 * Frecuencia de retorno
-
 * Métricas de participación
-
 * Métricas asignadas linealmente
 
 ### Contenedor de evento
@@ -83,9 +76,6 @@ El contenedor de evento individual define qué eventos de página desea incluir 
 Los contenedores de evento incluyen desgloses de una sola página basados en valores:
 
 * Productos
-
 * props de lista
-
 * Dimensiones de lista
-
 * Dimensiones de comercialización (en el contexto de eventos)
