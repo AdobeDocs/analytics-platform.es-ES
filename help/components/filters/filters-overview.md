@@ -2,10 +2,10 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 translation-type: tm+mt
-source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
+source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Los contenedores de sesión incluyen valores basados en la incidencia por sesió
 
 El contenedor de evento individual define qué eventos de página desea incluir o excluir de un filtro. Es el contenedor más limitado del que dispone para identificar clics específicos y vistas de página cuando una condición sea verdadera, lo que le permite ver un código de seguimiento único, o aislar un comportamiento en una sección en concreto de su sitio. También podría interesarle localizar un valor específico cuando se produzca una acción, como el canal de marketing cuando se realice un pedido.
 
-Los contenedores de eventos individuales incluyen valores basados en el desglose de una sola página:
+Los contenedores de evento incluyen desgloses de una sola página basados en valores:
 
 * Productos
 
