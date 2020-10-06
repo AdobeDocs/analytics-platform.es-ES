@@ -5,10 +5,10 @@ title: Desglose de dimensiones
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: cee89d021e9cd034246fe9367bc8910dac7ca7cf
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 94%
+source-wordcount: '232'
+ht-degree: 96%
 
 ---
 
@@ -28,15 +28,19 @@ Desglose los datos ilimitadamente para sus necesidades específicas; genere cons
 
    ![Resultado](assets/fa_data_table_actions.png)
 
-   Puede desglosar las métricas por elementos de dimensión o segmentos de audiencia en los períodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
+   Puede desglosar métricas por elementos de dimensión o segmentos de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 
    >[!NOTE]
    >
    >El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumentará para la exportación de desgloses.
 
-[Dimensiones en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
+**Vídeo: Dimension en Analysis Workspace**
 
-[Desgloses de dimensiones en YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13) (2:02)
+>[!VIDEO](https://video.tv.adobe.com/v/23971)
+
+**Vídeo: Desgloses de Dimension**
+
+>[!VIDEO](https://video.tv.adobe.com/v/23969)
 
 ## Aplicar modelos de atribución a desgloses
 
