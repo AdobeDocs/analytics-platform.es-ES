@@ -5,19 +5,15 @@ title: 'Creación de un proyecto: Resumen'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 100%
+source-wordcount: '758'
+ht-degree: 84%
 
 ---
 
 
 # Creación de un proyecto: Resumen
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
@@ -37,14 +33,18 @@ La lista de proyectos de Workspace contiene la siguiente información:
 
 | Elemento | Descripción |
 |---|---|
-| Proyecto [Plantillas](/help/analysis-workspace/build-workspace-project/starter-projects.md) | Puede utilizar estas plantillas de proyecto rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre. |
-| [Crear nuevo proyecto](/help/analysis-workspace/home.md) | Haga clic en este vínculo para iniciar un proyecto nuevo desde cero. |
+| Crear nuevo proyecto | Haga clic en este vínculo para [inicio de un nuevo proyecto desde cero](/help/analysis-workspace/home.md). |
 | Administrar proyectos | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos ( **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos]**), que muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
-| Ver tutoriales | Le permite acceder a los [vídeos en YouTube de Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
+| Establecer como página de aterrizaje | Convierte esta página en su página de aterrizaje de Workspace. |
+| Ver tutoriales | Lo lleva a la [Tutoriales de vídeo de Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | Nombre | Nombre del proyecto de Workspace. |
-| Creado por | Persona que ha creado el proyecto (usted mismo o alguien que haya compartido su proyecto). |
+| Propietario | Persona que ha creado el proyecto (usted mismo o alguien que haya compartido su proyecto). |
+| Tipo | Indica si se trata de un proyecto de Workspace o de un [Cuadro de mandos móvil](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/home.html). |
+| Función del proyecto | Indica si es el propietario, si puede editar el proyecto o si se trata de un proyecto de Duplicado. |
 | Etiquetas | Etiquetas aplicadas al proyecto, ya sea en el administrador de componentes de proyectos o en **[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**. |
 | Última modificación | Fecha y hora de última modificación del proyecto. |
+| Mis proyectos favoritos | Para marcar un proyecto como favorito, abra el proyecto y haga clic en la estrella junto a su nombre. Aparecerá en esta lista la próxima vez que abra Workspace. |
+| Proyectos vistos con frecuencia | Lista todos los proyectos que abre con frecuencia para facilitar el acceso. |
 
 ## Info y configuración del proyecto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
