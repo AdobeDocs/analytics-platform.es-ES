@@ -2,10 +2,10 @@
 title: Resumen de componentes
 description: Aprenda qué componentes son las ofertas de CJA y cómo puede utilizarlas en el sistema de informes.
 translation-type: tm+mt
-source-git-commit: e3457b3ad6c991844f83c2213a4991e1e8879e97
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '343'
+ht-degree: 97%
 
 ---
 
@@ -50,5 +50,6 @@ Puede administrar componentes (de uno en uno o seleccionando más de uno) de dif
 | Compartir | Solo se aplica a los segmentos. |
 | Eliminar | Solo se aplica a los segmentos. |
 
-[Creación de métricas, segmentos y fechas en YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
+Vea el vídeo sobre la creación de métricas, segmentos y fechas:
 
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
