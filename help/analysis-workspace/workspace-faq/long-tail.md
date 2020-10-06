@@ -2,7 +2,7 @@
 title: Elemento de dimensión de cola larga
 description: Explica el elemento de dimensión "Larga cola" y por qué aparece en sistema de informes.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -30,7 +30,7 @@ En CJA, los elementos de dimensión solo se colocan en &#39;Cola larga&#39; si u
 
 Si desea reducir el elemento de dimensión &#39;Cola larga&#39;, Adobe recomienda cualquiera de las siguientes opciones:
 
-* Utilice un segmento. Los segmentos se aplican en el momento en que cada servidor procesa un subconjunto de datos. Al limitar el número de valores únicos que devuelven, se reduce el elemento de dimensión &#39;Cola larga&#39;.
+* Utilice un filtro. Los filtros se aplican en el momento en que cada servidor procesa un subconjunto de datos. Al limitar el número de valores únicos que devuelven, se reduce el elemento de dimensión &#39;Cola larga&#39;.
 * Utilice una dimensión de conjunto de datos de búsqueda. Las dimensiones del conjunto de datos de búsqueda combinan elementos de dimensión del conjunto de datos de evento, lo que limita el número de valores únicos devueltos.
 
 En general, es difícil consumir un informe que contenga más de 500.000 elementos de dimensión únicos. Si aplica una dimensión de segmento o de conjunto de datos de búsqueda, puede reducir la presencia de &#39;Cola larga&#39; y, al mismo tiempo, facilitar el consumo del informe. El Adobe tiene previsto mejorar esta experiencia a medida que se siga desarrollando la ECP.
