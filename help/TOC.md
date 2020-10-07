@@ -15,11 +15,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
-translation-type: ht
-source-git-commit: 8cf9f257ccf2afd830a7f8e211c8e42b3f786e86
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 + Conexiones {#cja-connections}
    + [Crear una conexión](connections/create-connection.md)
    + [Administrar conexiones](connections/manage-connection.md)
-   + [Conjunto de datos combinados](connections/combined-dataset.md)
+   + [Conjuntos de datos de evento combinados](connections/combined-dataset.md)
 + Vistas de datos {#cja-dataviews}
    + [Creación de una vista de datos](data-views/create-dataview.md)
    + [Configurar vistas de datos y atribución](data-views/configure-dataviews.md)
