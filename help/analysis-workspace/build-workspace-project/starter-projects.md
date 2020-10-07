@@ -3,7 +3,7 @@ description: Plantillas en Workspace
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: bb75be2608a9eedaa856cfb5f0a233fff7f8c074
+source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 97%
@@ -59,7 +59,9 @@ Al abrir un espacio de trabajo por primera vez, las plantillas aparecen en el pa
 
 Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre.
 
->[!VIDEO](https://video.tv.adobe.com/v/23960) (2:46)
+>[!VIDEO](https://video.tv.adobe.com/v/23960)
+
+*(2:46)*
 
 Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a responder.
 
