@@ -1,11 +1,11 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: ht
-source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
-workflow-type: ht
-source-wordcount: '879'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
+workflow-type: tm+mt
+source-wordcount: '890'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Intervalos de fechas | Se ha planificado lanzar una versión compatible con el calendario personalizado. |
 | Métricas calculadas | Tenga en cuenta que las métricas de cálculo existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
 | Segmentos | Ahora se denominan &quot;Filtros&quot;: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
-| Detección de anomalías | Asistencia total a partir de septiembre de 2020. |
+| Detección de anomalías | Compatibilidad total. |
 | Attribution IQ | Compatibilidad total. |
 | Revisión del proyecto | Compatibilidad total. |
 | Vinculación de proyectos | Compatibilidad total. |
@@ -33,6 +33,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Revisión de componentes de VRS | Ahora forma parte de las Vistas de datos. |
 | Procesamiento de intervalo de tiempo | CJA se basa exclusivamente en el procesamiento de intervalos del informe. |
 | Eliminación de RGPD | Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Experience Platform]: CJA hereda los cambios de datos que [!UICONTROL Experience Platform] haga en los conjuntos de datos subyacentes. |
+| Permisos de usuario/Controles de acceso de datos | CJA distingue entre administradores de productos y usuarios de Adobe Admin Console. Solo los administradores de productos pueden: 1) crear, actualizar o eliminar conexiones o Vistas de datos, 2) actualizar o eliminar proyectos, filtros o métricas de cálculos creados por otros usuarios, y 3) compartir un proyecto de Workspace con todos los usuarios |
 
 ## Admitido con advertencias
 
@@ -52,7 +53,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Dimensiones predeterminadas del Analysis Workspace (por ejemplo: tipo de explorador, tipo de remitente del reenvío, canales de marketing, cantidad de visitas, etc.) | CJA no proporciona estas dimensiones de forma nativa. Para los clientes que utilizan el Analytics Data Connector (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics para Target (A4T) no son compatibles. |
+| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics para Destinatario (A4T) y Visores simultáneos de medios. |
 | eVars de comercialización | Las eVars de comercialización solo funcionarán con conjuntos de datos basados en ADC a menos que se ajusten estrictamente al mismo esquema de XDM (similar a las limitaciones de lista de productos anteriores). |
 | Filtros de bots | Para conjuntos de datos basados en el Analytics Data Connector (ADC), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
 | Reglas de procesamiento | Para los conjuntos de datos basados en ADC, las reglas de procesamiento siguen aplicándose. |
@@ -65,7 +66,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Análisis de contribución | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
 | Publicación de segmentos (envío de segmentos de Workspace a Experience Cloud) | Se ha planificado lanzar una versión compatible. |
-| Permisos de usuario/Controles de acceso de datos | Todos los usuarios de CJA tienen los mismos controles de acceso: esto significa que todos los usuarios tienen acceso a todas las conexiones, vistas de datos, etc. Básicamente, todos los usuarios son usuarios de nivel de administrador en CJA. Se prevé compatibilidad para 2020. |
 | Descarga de CSV | Se ha planificado lanzar una versión compatible. |
 | Informes y proyectos programados | Se ha planificado lanzar una versión compatible. |
 | Alertas | Se ha planificado lanzar una versión compatible. |
