@@ -3,9 +3,9 @@ description: Factores que afectan al rendimiento del espacio de trabajo y a las 
 title: Optimización y factores de rendimiento de Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2028'
 ht-degree: 17%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 Varios factores pueden influir en el rendimiento de un proyecto dentro de Analysis Workspace. Es importante saber cuáles son esos colaboradores antes de que se cree un proyecto para que se pueda planificar y construir el proyecto de la manera más óptima. Esta página incluye una lista de factores que afectarán al rendimiento y optimizaciones recomendadas que puede realizar para garantizar un rendimiento máximo en Analysis Workspace.
 
->[!IMPORTANT NOTA]
+>[!IMPORTANT]
 >
 >La página Rendimiento de Analysis Workspace está en versión limitada. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html)
 
