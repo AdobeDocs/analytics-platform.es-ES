@@ -1,11 +1,11 @@
 ---
 title: Información general sobre Customer Journey Analytics
-description: Descubra cómo Customer Journey Analytics le permite utilizar Analysis Workspace con datos de Experience Platform.
-translation-type: tm+mt
+description: Descubra la forma en que Customer Journey Analytics le permite utilizar Analysis Workspace con los datos de Experience Platform.
+translation-type: ht
 source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ La versión inicial de Customer Journey Analytics incluye muchas de las funcione
 
 [El análisis](https://docs.adobe.com/content/help/es-ES/analytics/components/cda/cda-home.html) cruzado de dispositivos se integra con el servicio de identidad de Adobe Experience Platform, utilizando Co-op Graph o Private Graph, para identificar cómo los dispositivos digitales se asignan a las personas. Está disponible para los clientes de Adobe Analytics Ultimate.
 
-CJA, por otro lado, se integra con los conjuntos de datos de Adobe Experience Platform y permite el análisis entre canales en Analysis Workspace. Aunque CJA todavía no se integra con los gráficos de identidad Co-op o Privada, puede &quot;unir su propia ID&quot; para unir conjuntos de datos, y esos conjuntos de datos pueden ir más allá de los datos digitales para incluir puntos de contacto en línea y sin conexión. Los requisitos previos de CJA se tratan en más detalle a continuación.
+CJA, por otro lado, se integra con los conjuntos de datos de Adobe Experience Platform y permite el análisis entre canales en Analysis Workspace. Aunque CJA todavía no se integra con los gráficos de identidad Co-op o Privada, puede “unir su propia ID” para unir conjuntos de datos, y esos conjuntos de datos pueden ir más allá de los datos digitales para incluir puntos de contacto en línea y sin conexión. Los requisitos previos de CJA se tratan en más detalle a continuación.
 
 ## Casos de uso clave
 
@@ -39,7 +39,7 @@ Customer Journey Analytics le permite:
 * **Poner perspectivas a disposición de todos**: democratizar el acceso a los datos y permitir que más personas tomen decisiones comerciales con perspectivas derivadas de los datos. Cualquier miembro de la organización responsable de cualquier aspecto de la experiencia del cliente puede tomar decisiones reales con mayor rapidez según datos más completos.
 * **Aproveche el poder de la ciencia de datos para sus analistas**: Customer Journey Analytics nos permite utilizar la ciencia de datos para obtener una perspectiva y un análisis profundos.
 * **Visualice e interactúe con sus conjuntos de datos mediante sistemas de informes ad-hoc**: Workspace puede utilizar cualquier conjunto de datos de Adobe Experience Platform que se ajuste a algunas reglas básicas.
-* **Vista de datos no web**: Workspace ya no se limita a una definición rígida de &#39;visita&#39; o &#39;evento&#39;. Los esquemas personalizados permiten un control completo de los datos y las definiciones.
+* **Vista de datos no web**: Workspace ya no se limita a una definición rígida de “visita” o “evento”. Los esquemas personalizados permiten un control completo de los datos y las definiciones.
 * **Ejerza un buen control sobre la manipulación de datos**: cambie los datos que ha cargado, cree nuevos conjuntos de datos e impórtelos a Workspace. Adobe Experience Platform proporciona herramientas de consulta, extracción, transformación y carga a través del servicio de consulta de Experience Cloud.
 
 ## Requisitos previos
@@ -73,13 +73,13 @@ Los usuarios que no son administradores (usuarios) en Customer Journey Analytics
 
 Se ha cambiado el nombre de varias funciones de CJA, en comparación con la versión clásica de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen lo siguiente:
 
-* Los segmentos ahora se conocen como &#39;Filtros&#39;.
-* Los grupos de informes virtuales ahora se conocen como &#39;Vistas&#39;.
-* Las clasificaciones ahora se conocen como &#39;Conjuntos de datos de búsqueda&#39;.
-* Los atributos del cliente ahora se conocen como &#39;Conjuntos de datos de perfil&#39;.
-* Los contenedores de visita individual ahora se conocen como contenedores de &#39;Evento&#39;.
-* Los contenedores de visitas ahora se conocen como contenedores de &#39;Sesión&#39;.
-* Los contenedores de Visitante ahora se conocen como contenedores de &#39;Persona&#39;.
+* Los segmentos ahora se conocen como “Filtros”.
+* Los grupos de informes virtuales ahora se conocen como “Vistas”.
+* Las clasificaciones ahora se conocen como “Conjuntos de datos de búsqueda”.
+* Los atributos del cliente ahora se conocen como “Conjuntos de datos de perfil”.
+* Los contenedores de visita individual ahora se conocen como contenedores de “Evento”.
+* Los contenedores de visitas ahora se conocen como contenedores de “Sesión”.
+* Los contenedores de Visitante ahora se conocen como contenedores de “Persona”.
 
 ## Otras funciones creadas en Adobe Experience Platform
 
@@ -92,4 +92,4 @@ Desde la ingestión de datos hasta el acceso directo a SQL, varios componentes d
 * [Servicio de consulta](https://docs.adobe.com/content/help/es-ES/experience-platform/query/home.translate.html): utilice SQL estándar para recuperar datos de Adobe Experience Platform, como datos de soluciones de Adobe, datos de origen de clientes o cualquier otro dato de Platform. Se trata de una herramienta sin servidor que le permite unirse a cualquier conjunto de datos y capturar los resultados de la consulta como un nuevo conjunto de datos para usar en el sistema de informes, en Data Science Workspace o para su inserción en el servicio de perfil. Puede utilizar el servicio de consulta para crear ecosistemas de análisis de datos creando una imagen de los consumidores en sus diversos canales de interacción. Estos canales pueden incluir sistemas de puntos de venta, web, móviles, CRM, etc.
 * [Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md):
 * [Servicio de identidad](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/identity_services_architectural_overview/identity_services_architectural_overview.md):
-* [Data Science Workspace](https://docs.adobe.com/content/help/es-ES/experience-platform/data-science-workspace/home.translate.html) la opción &quot;desarrollador&quot;: puede utilizar inteligencia artificial (IA) prediseñada y modelos de aprendizaje automático en Adobe Experience Platform para influir en varios puntos del recorrido del cliente. Al descubrir perspectivas ocultas, puede hacer mejores predicciones en todo el viaje del cliente, sugerir los mejores pasos siguientes recomendados o automatizar procesos engorrosos.
+* [Data Science Workspace](https://docs.adobe.com/content/help/es-ES/experience-platform/data-science-workspace/home.translate.html) la opción “desarrollador”: puede utilizar inteligencia artificial (IA) prediseñada y modelos de aprendizaje automático en Adobe Experience Platform para influir en varios puntos del recorrido del cliente. Al descubrir perspectivas ocultas, puede hacer mejores predicciones en todo el viaje del cliente, sugerir los mejores pasos siguientes recomendados o automatizar procesos engorrosos.
