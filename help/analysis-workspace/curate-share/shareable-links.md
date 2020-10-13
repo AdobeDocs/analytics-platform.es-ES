@@ -2,11 +2,11 @@
 description: Aprenda a crear vínculos que se pueden compartir a proyectos o visualizaciones
 keywords: Analysis Workspace sharing
 title: Crear vínculos que se pueden compartir
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
