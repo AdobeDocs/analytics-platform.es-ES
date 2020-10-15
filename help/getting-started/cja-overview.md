@@ -1,9 +1,9 @@
 ---
 title: Información general sobre Customer Journey Analytics
 description: Descubra la forma en que Customer Journey Analytics le permite utilizar Analysis Workspace con los datos de Experience Platform.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 100%
 
