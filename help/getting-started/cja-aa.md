@@ -2,9 +2,9 @@
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 translation-type: tm+mt
-source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
+source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '871'
 ht-degree: 93%
 
 ---
@@ -41,7 +41,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Variable de producto | La variable de producto actualmente disponible para el sistema de informes para los datos que se ajustan al esquema de Experience Event (específicamente mediante el objeto productListItems). |
 | Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
-| Audiencias de AAM | Si los clientes utilizan conjuntos de datos de [!UICONTROL Analytics Data Connector], estos datos formarán parte de los datos de ADC. |
 | Uso compartido de proyecto | El uso compartido de proyectos solo es compatible entre los usuarios de CJA; no existe el uso compartido de proyectos entre CJA y la versión tradicional de Analysis Workspace. |
 | Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada que no sean visitas en segundo plano móviles. |
 | Configuración de persistencia de eVar | Las eVars ya no forman parte de CJA. Sin embargo, la configuración de persistencia ahora forma parte de las Vistas de datos y está disponible para todas las dimensiones. Tenga en cuenta que la persistencia se basa en el procesamiento de intervalos del informe, no en el procesamiento de la recopilación de datos. Esto significa que toda persistencia se basará en el intervalo de fechas del sistema de informes, no en la totalidad de los datos. |
