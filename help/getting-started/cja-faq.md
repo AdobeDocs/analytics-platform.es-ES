@@ -2,9 +2,9 @@
 title: Preguntas frecuentes de Customer Journey Analytics
 description: 'Customer Journey Analytics: Preguntas frecuentes.'
 translation-type: tm+mt
-source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
+source-git-commit: d700146427505e464df4006204f730751e315524
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '824'
 ht-degree: 96%
 
 ---
@@ -12,16 +12,25 @@ ht-degree: 96%
 
 # Preguntas frecuentes
 
+## Requisitos previos
+
 | Pregunta | Respuesta |
 | --- | --- |
-| **Requisitos previos** |  |
 | ¿Necesito usar Device Graph o Device Coop para [!UICONTROL Customer Journey Analytics]? | No. Device Graph o Device Coop no son necesarios para [!UICONTROL Customer Journey Analytics]. De hecho, todavía no son compatibles. |
 | ¿Se necesita el Experience Cloud ID (ECID) para [!UICONTROL Customer Journey Analytics]? | No, [!UICONTROL Customer Journey Analytics] admite cualquier ID de un conjunto de datos, ya sea ECID o cualquier otro ID de su elección. |
 | ¿Qué sucede si necesito extraer, transformar o cargar datos antes de utilizar Customer Journey Analytics? | Actualmente, debe trabajar con un socio que extraiga, transforme o cargue sus datos (Unifi o Informatica) si necesita transformarlos antes de ponerlos en AEP. Si necesita extraer, transformar o cargar los datos después de haberlos introducido, los servicios de consulta de AEP ofrecen algunas opciones limitadas. |
-| **Unión** |  |
+
+## Unión
+
+| Pregunta | Respuesta |
+| --- | --- |
 | ¿Puede [!UICONTROL Customer Journey Analytics] “unir” varios dispositivos o conjuntos de datos? | No. [!UICONTROL Customer Journey Analytics] es un sistema de análisis que trabaja con ID propios. Se está trabajando en planes para conseguir un buen sistema de unión. |
 | ¿Se admite la unión del comportamiento anónimo al comportamiento autenticado? | Todavía no. |
-| **Introducción de datos en [!UICONTROL Customer Journey Analytics]** |  |
+
+## Introducción de datos en [!UICONTROL Customer Journey Analytics]
+
+| Pregunta | Respuesta |
+| --- | --- |
 | ¿Puedo combinar datos de diferentes entornos limitados de Experience Platform en una conexión CJA? | No. No puede acceder a los datos de entornos limitados. Solo se pueden combinar conjuntos de datos ubicados en el mismo entorno limitado. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
 | ¿Cuál es la latencia esperada para [!UICONTROL Customer Journey Analytics] en [!UICONTROL Experience Platform]? | <ul><li>En carga normal: &lt; 60 minutos <br>**Nota:** En caso de que sea un volumen inusualmente alto de flujo de datos a través de la canalización, podría durar hasta 24 horas.</li><li>Datos de relleno (hasta 13 meses de datos, independientemente del tamaño): &lt; 4 semanas</li></ul> |
 | ¿Cómo puede conectar datos en línea con datos sin conexión en [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Customer Journey Analytics] es un sistema de análisis que trabaja con ID propios. Siempre que el ID de usuario coincida entre conjuntos de datos, [!UICONTROL Customer Journey Analytics] puede conectar segmentos, atribuciones, flujos, visitas en orden previsto, etc. entre conjuntos de datos. |
@@ -29,7 +38,11 @@ ht-degree: 96%
 | ¿Cómo puedo obtener datos de Analytics en Customer Journey Analytics? | Los datos de Analytics se pueden conectar a Experience Platform mediante el [conector de datos de Analytics](https://docs.adobe.com/content/help/es-ES/experience-platform/sources/connectors/adobe-applications/analytics.html). La mayoría de los campos de Analytics se transfieren en formato XDM, pero otros todavía no están disponibles (como las dimensiones Canales de marketing). |
 | ¿Cuánto tiempo se tarda en ensamblar elementos de conjuntos de datos a una vista de datos? | Tarda unas pocas horas en empezar y unos días en rellenar los últimos 13 meses de datos. |
 | ¿Es necesario introducir datos PII para establecer conexiones entre ellos? | No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es PII. |
-| **Componentes tradicionales de Analytics** |  |
+
+## Componentes tradicionales de Analytics
+
+| Pregunta | Respuesta |
+| --- | --- |
 | ¿Qué significa esto para nuestro producto tradicional de Adobe Analytics? | Customer Journey Analytics es nuestro producto de análisis de próxima generación. Pasar de nuestros productos actuales a Customer Journey Analytics nos llevará años y requerirá de una gran coordinación. Para obtener más información, consulte [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/cja-aa.md). |
 | ¿Puedo compartir segmentos desde Customer Journey Analytics a AEP u otras soluciones? | Todavía no. Estamos buscando nuevas e innovadoras formas de compartir segmentos desde Customer Journey Analytics a AEP en el futuro que no conlleven un tiempo de espera demasiado largo. Dicho esto, puede compartir el resultado de los servicios de consulta con el Perfil unificado como una solución alternativa. |
 | ¿Qué ha pasado con mi antigua configuración de eVar? | Las eVars, las propiedades y los eventos en el sentido tradicional de Adobe Analytics ya no existen en Customer Journey Analytics. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta. |
@@ -37,4 +50,3 @@ ht-degree: 96%
 | ¿Qué les sucede a nuestros segmentos o métricas calculadas existentes? | Customer Journey Analytics ya no utiliza eVars, props ni eventos y, en su lugar, utiliza cualquier esquema de AEP. Esto significa que ninguno de los segmentos existentes ni las métricas de cálculo son compatibles con Customer Journey Analytics. |
 | ¿Cómo gestiona Customer Journey Analytics las limitaciones `Uniques Exceeded`? | Customer Journey Analytics no tiene limitaciones de valor únicas, por lo que no es necesario preocuparse por ellas. |
 | Si soy un cliente de [!DNL Data Workbench], ¿puedo pasar a Customer Journey Analytics ahora mismo? | Depende. Si se basa principalmente en el proceso de cliente unificado (UCP), tendrá que esperar hasta que se haya implementado la unión. Si ya tiene tasas de autenticación de clientes altas, o si desea que todos los datos estén en un solo lugar o quiere deshacerse de las eVars, puede que Customer Journey Analytics sea lo que está buscando. |
-
