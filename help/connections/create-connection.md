@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: fb7b28c0525f7ac6bf8d8e346116c86952a438aa
+source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 98%
+source-wordcount: '1679'
+ht-degree: 97%
 
 ---
 
@@ -114,7 +114,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 
    * Si el tamaño acumulado de los datos históricos para todos los conjuntos de datos de la conexión supera las 1500 millones de filas, un mensaje de error indicará que no puede importar esta cantidad de datos históricos. Sin embargo, si agregara un conjunto de datos con mil millones de filas de datos históricos, importara esos datos y, una semana después, agregara otro conjunto de datos del mismo tamaño y se importaran sus datos históricos, esto funcionaría.
    * Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.
-   * Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta.
+   * Cualquier dato de relleno (histórico) se importa a una velocidad más lenta (hasta 13 meses de datos, independientemente del tamaño).
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
