@@ -2,10 +2,10 @@
 title: Preguntas frecuentes de Customer Journey Analytics
 description: 'Customer Journey Analytics: Preguntas frecuentes.'
 translation-type: tm+mt
-source-git-commit: 297ed03ff59cc8d719a6bf0984e82597e8d33392
+source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 100%
+source-wordcount: '818'
+ht-degree: 96%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 100%
 | ¿Se admite la unión del comportamiento anónimo al comportamiento autenticado? | Todavía no. |
 | **Introducción de datos en [!UICONTROL Customer Journey Analytics]** |  |
 | ¿Puedo combinar datos de diferentes entornos limitados de Experience Platform en una conexión CJA? | No. No puede acceder a los datos de entornos limitados. Solo se pueden combinar conjuntos de datos ubicados en el mismo entorno limitado. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
-| ¿Cuál es la latencia esperada para [!UICONTROL Customer Journey Analytics] en [!UICONTROL Experience Platform]? | <ul><li>En carga normal: &lt; 60 minutos <br>**Nota:** En caso de que sea un volumen inusualmente alto de flujo de datos a través de la canalización, podría durar hasta 24 horas.</li><li>Datos de relleno (hasta 10 000 millones de eventos): &lt; 4 semanas.</li></ul> |
+| ¿Cuál es la latencia esperada para [!UICONTROL Customer Journey Analytics] en [!UICONTROL Experience Platform]? | <ul><li>En carga normal: &lt; 60 minutos <br>**Nota:** En caso de que sea un volumen inusualmente alto de flujo de datos a través de la canalización, podría durar hasta 24 horas.</li><li>Datos de relleno (hasta 13 meses de datos, independientemente del tamaño): &lt; 4 semanas</li></ul> |
 | ¿Cómo puede conectar datos en línea con datos sin conexión en [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Customer Journey Analytics] es un sistema de análisis que trabaja con ID propios. Siempre que el ID de usuario coincida entre conjuntos de datos, [!UICONTROL Customer Journey Analytics] puede conectar segmentos, atribuciones, flujos, visitas en orden previsto, etc. entre conjuntos de datos. |
 | ¿Cómo puedo llevar mis datos sin conexión a Customer Journey Analytics? | En primer lugar, debe llevar los datos a Experience Platform para poder utilizarlos con Customer Journey Analytics. El equipo de incorporación de datos de Experience Platform puede ofrecer recomendaciones o asesoría a los clientes si lo necesitan. |
 | ¿Cómo puedo obtener datos de Analytics en Customer Journey Analytics? | Los datos de Analytics se pueden conectar a Experience Platform mediante el [conector de datos de Analytics](https://docs.adobe.com/content/help/es-ES/experience-platform/sources/connectors/adobe-applications/analytics.html). La mayoría de los campos de Analytics se transfieren en formato XDM, pero otros todavía no están disponibles (como las dimensiones Canales de marketing). |
 | ¿Cuánto tiempo se tarda en ensamblar elementos de conjuntos de datos a una vista de datos? | Tarda unas pocas horas en empezar y unos días en rellenar los últimos 13 meses de datos. |
 | ¿Es necesario introducir datos PII para establecer conexiones entre ellos? | No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es PII. |
 | **Componentes tradicionales de Analytics** |  |
-| ¿Qué significa esto para nuestro producto tradicional de Adobe Analytics? | Customer Journey Analytics es nuestro producto de análisis de próxima generación. Pasar de nuestros productos actuales a Customer Journey Analytics nos llevará años y requerirá de una gran coordinación. |
+| ¿Qué significa esto para nuestro producto tradicional de Adobe Analytics? | Customer Journey Analytics es nuestro producto de análisis de próxima generación. Pasar de nuestros productos actuales a Customer Journey Analytics nos llevará años y requerirá de una gran coordinación. Para obtener más información, consulte [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/cja-aa.md). |
 | ¿Puedo compartir segmentos desde Customer Journey Analytics a AEP u otras soluciones? | Todavía no. Estamos buscando nuevas e innovadoras formas de compartir segmentos desde Customer Journey Analytics a AEP en el futuro que no conlleven un tiempo de espera demasiado largo. Dicho esto, puede compartir el resultado de los servicios de consulta con el Perfil unificado como una solución alternativa. |
 | ¿Qué ha pasado con mi antigua configuración de eVar? | Las eVars, las propiedades y los eventos en el sentido tradicional de Adobe Analytics ya no existen en Customer Journey Analytics. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta. |
 | ¿Dónde están ahora todas las configuraciones de persistencia de la variable y sesiones? | Customer Journey Analytics aplica todas estas configuraciones en el momento del informe y estas se encuentran ahora en Vistas de datos. Los cambios en esta configuración ahora son retroactivos y puede tener varias versiones con varias Vistas de datos. |
