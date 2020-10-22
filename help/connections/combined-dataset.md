@@ -1,11 +1,11 @@
 ---
 title: Conjuntos de datos de evento combinados
 description: Descubra cómo CJA crea una conexión combinando conjuntos de datos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ef05a948cb2036db24c8e308695e3615613d98d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Al crear una conexión, CJA combina todos los esquemas y conjuntos de datos en u
 
 ## Ejemplo
 
-Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de evento, cada uno con campos diferentes que contienen datos diferentes.
+Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de eventos, cada uno con campos y datos diferentes.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de evento, cada 
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
 
-Cuando se crea una conexión con estos dos conjuntos de datos de evento, se utiliza la siguiente tabla para el sistema de informes.
+Cuando se crea una conexión con estos dos conjuntos de datos de eventos, se utiliza la siguiente tabla para el sistema de informes.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -55,7 +55,7 @@ Cuando se crea una conexión con estos dos conjuntos de datos de evento, se util
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
 
-Este conjunto de datos de evento combinado es lo que se utiliza en el sistema de informes. No importa de qué conjunto de datos proviene una fila; CJA trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran el mismo visitante único. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
+Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila; CJA trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran el mismo visitante único. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
 
 Este concepto también se aplica a la atribución. No importa de qué conjunto de datos proviene una fila; la atribución funciona exactamente como si todos los eventos procedieran de un único conjunto de datos. Ejemplo de uso de las tablas anteriores:
 
