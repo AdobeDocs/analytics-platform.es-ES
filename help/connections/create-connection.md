@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
+source-git-commit: 64c77d3080bc2a36af4e80a854f10adce2632064
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 84%
 
 ---
 
@@ -100,22 +100,26 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 
 ![Habilitar conexión](assets/create-connection2.png)
 
-1. Para habilitar una conexión, defina esta configuración:
+1. Para habilitar una conexión, defina esta configuración para toda la conexión, es decir, todos los conjuntos de datos de la conexión:
 
    | Opción | Descripción |
-   |---|---|
+   | --- | --- |
    | [!UICONTROL Asignar nombre a una conexión] | Asigne un nombre descriptivo a la conexión. La conexión no se puede guardar sin un nombre. |
    | [!UICONTROL Descripción] | Añada más detalles para distinguir esta conexión de otras. |
    | [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que se incluyen en esta conexión. |
    | [!UICONTROL Importe automáticamente todos los conjuntos de datos nuevos en esta conexión desde hoy.] | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a [!UICONTROL Workspace]. |
-   | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y al guardar la conexión, se importarán todos los datos (históricos) existentes de [!DNL Experience Platform] de todos los conjuntos de datos de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. <br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
+   | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y guardar la conexión, todos los datos existentes (históricos) de [!DNL Experience Platform] se importarán o rellenarán todos los conjuntos de datos de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. <br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
+   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar el número promedio de eventos diarios que se importarán (datos nuevos) **y** datos de relleno) para todos los conjuntos de datos de la conexión. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce el número promedio de eventos diarios que va a importar la compañía, puede realizar una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) para averiguarlo.<!--Rohit to provide and make sure we include multiple datasets.--> |
 
-   **Tenga en cuenta que:**
+1. Haga clic en **[!UICONTROL Guardar y crear vista de datos]**. Para obtener documentación, consulte [crear una vista de datos](/help/data-views/create-dataview.md).
 
-   * Si el tamaño acumulado de los datos históricos para todos los conjuntos de datos de la conexión supera las 1500 millones de filas, un mensaje de error indicará que no puede importar esta cantidad de datos históricos. Sin embargo, si agregara un conjunto de datos con mil millones de filas de datos históricos, importara esos datos y, una semana después, agregara otro conjunto de datos del mismo tamaño y se importaran sus datos históricos, esto funcionaría.
-   * Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.
-   * Cualquier dato de relleno (histórico) se importa a una velocidad más lenta (hasta 13 meses de datos, independientemente del tamaño).
+### Rellenar datos históricos
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+**[!UICONTROL Importar todos los datos existentes]** le permite rellenar datos históricos. Recuerde:
 
-El paso siguiente en el flujo de trabajo es [crear una vista de datos](/help/data-views/create-dataview.md).
+* Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos nuevos datos tienen la latencia más baja.
+* Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La latencia se ve influida por la cantidad de datos históricos que tiene, combinados con la variable **[!UICONTROL Cantidad promedio de eventos diarios]** que seleccionó. Por ejemplo: si tiene más de mil millones de filas de datos por día, más 3 años de datos históricos, la importación podría tardar varias semanas. Por otro lado, si tiene menos de un millón de filas por día y una semana de datos históricos, eso tomaría menos de una hora.
+* El relleno se aplica a toda la conexión, no a cada conjunto de datos individualmente.
+* El [Conector de datos de Adobe Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) importa hasta 13 meses de datos, independientemente de su tamaño.
+
+<!--If you do not know the average number of daily events your company is going to import, you can do a simple SQL query in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) to find out. Rohit to provide and make sure we include multiple datasets.-->
