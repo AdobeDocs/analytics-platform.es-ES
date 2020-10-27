@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 64c77d3080bc2a36af4e80a854f10adce2632064
+source-git-commit: 619eaeabfbd0fb6a7205488075c1c9cfb0fd5a26
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 84%
+source-wordcount: '1844'
+ht-degree: 83%
 
 ---
 
@@ -108,8 +108,8 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
    | [!UICONTROL Descripción] | Añada más detalles para distinguir esta conexión de otras. |
    | [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que se incluyen en esta conexión. |
    | [!UICONTROL Importe automáticamente todos los conjuntos de datos nuevos en esta conexión desde hoy.] | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a [!UICONTROL Workspace]. |
-   | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y guardar la conexión, todos los datos existentes (históricos) de [!DNL Experience Platform] se importarán o rellenarán todos los conjuntos de datos de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. <br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
-   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar el número promedio de eventos diarios que se importarán (datos nuevos) **y** datos de relleno) para todos los conjuntos de datos de la conexión. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce el número promedio de eventos diarios que va a importar la compañía, puede realizar una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) para averiguarlo.<!--Rohit to provide and make sure we include multiple datasets.--> |
+   | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y guardar la conexión, todos los datos existentes (históricos) de [!DNL Experience Platform] se importarán o rellenarán todos los conjuntos de datos de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. Consulte también [Rellenar datos históricos](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) más abajo.<br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
+   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar el número promedio de eventos diarios que se importarán (datos nuevos) **y** datos de relleno) para todos los conjuntos de datos de la conexión. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce el número promedio de eventos diarios que va a importar la compañía, puede realizar una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) para averiguarlo. Estas son las selecciones para esta opción: ![eventos diarios](assets/daily_size.png) |
 
 1. Haga clic en **[!UICONTROL Guardar y crear vista de datos]**. Para obtener documentación, consulte [crear una vista de datos](/help/data-views/create-dataview.md).
 
