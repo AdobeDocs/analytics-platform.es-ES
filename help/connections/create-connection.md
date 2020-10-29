@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 240c0d33eb3db8bd3618698cac7f61f88048e953
+source-git-commit: 55347b8704fa93bdc833faec68b8da6dd589420b
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 81%
+source-wordcount: '1957'
+ht-degree: 78%
 
 ---
 
@@ -109,7 +109,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
    | [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que se incluyen en esta conexión. |
    | [!UICONTROL Importe automáticamente todos los conjuntos de datos nuevos en esta conexión desde hoy.] | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a [!UICONTROL Workspace]. |
    | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y guardar la conexión, todos los datos existentes (históricos) de [!DNL Experience Platform] se importarán o rellenarán todos los conjuntos de datos de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. Consulte también [Rellenar datos históricos](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) más abajo.<br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
-   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar el número promedio de eventos diarios que se importarán (datos nuevos) **y** datos de relleno) para todos los conjuntos de datos de la conexión. Seleccione una opción en el menú desplegable. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce el número promedio de eventos diarios que va a importar la compañía, puede realizar una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) para averiguarlo. La consulta tendría este aspecto:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;` |
+   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar el número promedio de eventos diarios que se importarán (datos nuevos) **y** datos de relleno) para todos los conjuntos de datos de la conexión. Seleccione una opción en el menú desplegable. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce el número promedio de eventos diarios que va a importar la compañía, puede realizar una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) para averiguarlo.<br>Consulte &quot;Calcular el número promedio de eventos diarios&quot; a continuación. |
 
 1. Haga clic en **[!UICONTROL Guardar y crear vista de datos]**. Para obtener documentación, consulte [crear una vista de datos](/help/data-views/create-dataview.md).
 
@@ -123,4 +123,13 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 * El relleno se aplica a toda la conexión, no a cada conjunto de datos individualmente.
 * El [Conector de datos de Adobe Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) importa hasta 13 meses de datos, independientemente de su tamaño.
 
-<!--If you do not know the average number of daily events your company is going to import, you can do a simple SQL query in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) to find out. Rohit to provide and make sure we include multiple datasets.-->
+### Calcular el número promedio de eventos diarios
+
+Este cálculo debe realizarse para cada conjunto de datos de la conexión.
+
+1. Ir a [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) y crear una nueva consulta.
+
+1. La consulta tendría este aspecto:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
+
+* En este ejemplo, &quot;analytics_demo_data&quot; es el nombre del conjunto de datos.
+* Realice la `Show Tables` consulta para mostrar todos los conjuntos de datos que existen en AEP.
