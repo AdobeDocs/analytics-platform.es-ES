@@ -16,9 +16,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -102,7 +102,6 @@ ht-degree: 100%
       + [Proyectos de solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Programar proyectos](analysis-workspace/curate-share/t-schedule-report.md)
-      + [Administrador de programación de informes](analysis-workspace/curate-share/schedule-projects.md)
    + Attribution IQ {#attribution}
       + [Información general de Attribution](analysis-workspace/attribution/overview.md)
       + [Modelos de atribución y ventanas retroactivas](analysis-workspace/attribution/models.md)
