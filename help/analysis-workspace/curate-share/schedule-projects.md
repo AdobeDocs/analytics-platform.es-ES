@@ -1,23 +1,18 @@
 ---
-description: Gestione proyectos programados de Analysis Workspace.
+description: Gestione proyectos programados de Analysis Workspace
 keywords: Analysis Workspace
-title: Administrador de programación de informes
-topic: Reports and analytics
+title: Administrador de proyectos programados
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '150'
 ht-degree: 100%
 
 ---
 
 
-# Administrador de programación de informes
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+# Administrador de proyectos programados
 
 Gestione proyectos programados de Analysis Workspace.
 
