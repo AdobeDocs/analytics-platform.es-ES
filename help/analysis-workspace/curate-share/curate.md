@@ -3,19 +3,15 @@ description: Una depuración le permite limitar los componentes antes de compart
 keywords: Analysis Workspace curation
 title: 'Depurar proyectos de '
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '489'
 ht-degree: 100%
 
 ---
 
 
 # Depurar proyectos de 
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, verá un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
 
@@ -43,6 +39,7 @@ Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurad
 ## Eliminar depuración del proyecto
 
 Para eliminar la depuración del proyecto y restaurar el conjunto completo de componentes en el carril izquierdo:
+
 1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
 1. Haga clic en **[!UICONTROL Eliminar depuración]**.
 1. Haga clic en **[!UICONTROL Finalizado]**.
