@@ -1,9 +1,9 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -51,10 +51,10 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
-| Dimensiones predeterminadas del Analysis Workspace (por ejemplo: tipo de explorador, tipo de remitente del reenvío, canales de marketing, cantidad de visitas, etc.) | CJA no proporciona estas dimensiones de forma nativa. Para los clientes que utilizan el Analytics Data Connector (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
+| Dimensiones predeterminadas del Analysis Workspace (por ejemplo: tipo de explorador, tipo de remitente del reenvío, canales de marketing, cantidad de visitas, etc.) | CJA no proporciona estas dimensiones de forma nativa. Para los clientes que utilizan el Conector de datos de Analytics (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics para Target (A4T) y Visores simultáneos de medios. |
 | eVars de comercialización | Las eVars de comercialización solo funcionarán con conjuntos de datos basados en ADC a menos que se ajusten estrictamente al mismo esquema de XDM (similar a las limitaciones de lista de productos anteriores). |
-| Filtros de bots | Para conjuntos de datos basados en el Analytics Data Connector (ADC), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
+| Filtros de bots | Para conjuntos de datos basados en el Conector de datos de Analytics (ADC), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
 | Reglas de procesamiento | Para los conjuntos de datos basados en ADC, las reglas de procesamiento siguen aplicándose. |
 | Configuración de identidad entre dispositivos | Los clientes se limitan a puntos &quot;únicos&quot; de datos a través del servicio de Consulta o deben aplicar esta lógica a los datos antes del ingreso de datos de [!UICONTROL Experience Platform]. |
 
@@ -74,7 +74,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Acceso a la API de informes | Se ha planificado lanzar una versión compatible: solo estará disponible con la API 2.0. |
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
 
-## Compatibilidad aún no planificada
+## Compatibilidad aún no planificada.
 
 | Función | Notas |
 | --- | --- |
@@ -95,6 +95,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 * Destinatarios de Reports &amp; Analytics
 * Eventos del calendario de Reports &amp; Analytics
 * Ad Hoc Analysis
-* El [!UICONTROL Servicio de consulta de Experience Platform] será la nueva interfaz para estos casos de uso en CJA.
+* Informes de Data Warehouse - El [!UICONTROL Query Service de Experience Platform] será la nueva interfaz para estos casos de uso en CJA.
 * Mobile Services
 * Archivo de fuentes de datos
