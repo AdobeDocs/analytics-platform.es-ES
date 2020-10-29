@@ -1,11 +1,11 @@
 ---
 title: Información general sobre Customer Journey Analytics
 description: Descubra la forma en que Customer Journey Analytics le permite utilizar Analysis Workspace con los datos de Experience Platform.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f52a6788a0a5f3aea23fc783e479c3f8a23a260d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Customer Journey Analytics amplía el ámbito de Analytics al ofrecer funciones 
 
 La versión inicial de Customer Journey Analytics incluye muchas de las funciones incluidas en Analysis Workspace. Para obtener una lista completa, consulte [Compatibilidad con las funciones de Customer Journey Analytics](cja-aa.md).
 
-## Comparación de CJA con análisis entre dispositivos
+## Comparación de CJA con Análisis multidispositivo
 
-[El análisis](https://docs.adobe.com/content/help/es-ES/analytics/components/cda/cda-home.html) cruzado de dispositivos se integra con el servicio de identidad de Adobe Experience Platform, utilizando Co-op Graph o Private Graph, para identificar cómo los dispositivos digitales se asignan a las personas. Está disponible para los clientes de Adobe Analytics Ultimate.
+El [Análisis multidispositivo](https://docs.adobe.com/content/help/es-ES/analytics/components/cda/cda-home.html) se integra con Identity Service de Adobe Experience Platform, utilizando Co-op Graph o Private Graph, para identificar cómo los dispositivos digitales se asignan a las personas. Está disponible para los clientes de Adobe Analytics Ultimate.
 
 CJA, por otro lado, se integra con los conjuntos de datos de Adobe Experience Platform y permite el análisis entre canales en Analysis Workspace. Aunque CJA todavía no se integra con los gráficos de identidad Co-op o Privada, puede “unir su propia ID” para unir conjuntos de datos, y esos conjuntos de datos pueden ir más allá de los datos digitales para incluir puntos de contacto en línea y sin conexión. Los requisitos previos de CJA se tratan en más detalle a continuación.
 
@@ -53,11 +53,11 @@ Para poder iniciar desde Customer Journey Analytics, se deben cumplir los siguie
 
 Para crear conexiones, agregar conjuntos de datos, etc., necesita los siguientes permisos en la [Admin Console](https://adminconsole.adobe.com/enterprise/):
 
-* A partir del 9 de septiembre de 2020, para acceder a Customer Journey Analytics o establecer una conexión, deberá agregarlo como administrador al **Producto Customer Journey Analytics** en el [Admin Console](https://adminconsole.adobe.com/enterprise/). Los administradores de productos tienen los siguientes permisos:
+* Desde el 9 de septiembre de 2020, para acceder a Customer Journey Analytics o establecer una conexión, también deberá agregarlo a un **perfil de producto de Customer Journey Analytics** en [Admin Console](https://adminconsole.adobe.com/enterprise/). Los administradores de productos tienen los siguientes permisos:
    * Crear/actualizar/eliminar conexiones o Vistas de datos
    * Actualizar o eliminar proyectos, filtros, métricas de cálculo o segmentos creados por otros usuarios
    * Compartir un proyecto de Workspace con todos los usuarios
-* Convertirse en administrador de producto solo dentro de Customer Journey Analytics no es suficiente para crear, actualizar o eliminar una conexión. Para crear una conexión a un conjunto de datos de Experience Platform, también necesita permisos de Experience Platform. Específicamente, debe formar parte de un **perfil del producto Experience Platform** que le proporciona los siguientes permisos:
+* Convertirse en administrador de productos dentro de Customer Journey Analytics no es suficiente para crear, actualizar o eliminar una conexión. Para crear una conexión a un conjunto de datos de Experience Platform, también necesita permisos de Experience Platform. Específicamente, debe formar parte de un **perfil del producto Experience Platform** que le proporciona los siguientes permisos:
    * Esquemas de vistas
    * Administrar esquemas
    * Ver espacios de nombres de identidad
@@ -67,7 +67,7 @@ Para obtener más información sobre los permisos de Experience Platform, consul
 
 ### Acceso de usuarios
 
-Los administradores (usuarios) que no son de producto en Customer Journey Analytics no pueden realizar vistas de Vistas de datos o de conexiones, pero sí crear filtros, proyectos y métricas calculadas.
+Los usuarios que no son administradores (usuarios) en Customer Journey Analytics no pueden realizar vistas de las Vistas de datos o las Conexiones, pero sí crear filtros, proyectos y métricas calculadas.
 
 ## Actualizaciones terminológicas
 
