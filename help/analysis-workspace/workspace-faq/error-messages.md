@@ -1,16 +1,16 @@
 ---
-description: Lista de limitaciones conocidas en Analysis Workspace y componentes relacionados
-title: Limitaciones conocidas en Analysis Workspace
+description: Lista de mensajes de error en Analysis Workspace y sus componentes relacionados
+title: Mensajes de error
 translation-type: tm+mt
-source-git-commit: 3d3620ef9180688b6216be0c930769e0f836370a
+source-git-commit: 130dd81b580a8a011d24401918c9cb1d6bb545e7
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 96%
 
 ---
 
 
-# Mensajes de error frecuentes
+# Mensajes de error
 
 Puede encontrar errores al interactuar con Analysis Workspace que también afectarán el rendimiento. A continuación se enumeran los tipos de error más comunes, por qué se producen y las optimizaciones que se pueden realizar.
 
