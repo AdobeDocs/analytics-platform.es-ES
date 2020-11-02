@@ -1,11 +1,11 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: ht
-source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Configuración de persistencia de eVar | Las eVars ya no forman parte de CJA. Sin embargo, la configuración de persistencia ahora forma parte de las Vistas de datos y está disponible para todas las dimensiones. Tenga en cuenta que la persistencia se basa en el procesamiento de intervalos del informe, no en el procesamiento de la recopilación de datos. Esto significa que toda persistencia se basará en el intervalo de fechas del sistema de informes, no en la totalidad de los datos. |
 | Clasificaciones | Ahora denominados &quot;conjuntos de datos de búsqueda&quot;, no se importan de manera automática desde la versión tradicional de Analytics. Tendrán que cargarse en AEP antes de que estén disponibles en CJA. |
 | Atributos del cliente | Ahora denominados &quot;conjuntos de datos del Perfil&quot;, no se importan de manera automática desde Experience Cloud, pero deberán cargarse en AEP antes de que estén disponibles en CJA. |
+| Dimensiones de dispositivo, navegador y tecnología | Estas dimensiones se incluyen automáticamente cuando un conjunto de datos AEP incluye campos de esquema XDM específicos y se ajusta a la clase XDM Experience Evento. |
+| Métricas y dimensiones de entradas, salidas y tiempo transcurrido | Se admiten (las entradas y salidas ahora se denominan Inicios de sesión y Fin de sesión) y se calculan de forma ligeramente distinta. |
 
 ## Compatibilidad parcial
 
@@ -66,6 +68,10 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
 | Publicación de segmentos (envío de segmentos de Workspace a Experience Cloud) | Se ha planificado lanzar una versión compatible. |
 | Descarga de CSV | Se ha planificado lanzar una versión compatible. |
+| Anulación de duplicación métrica | Se ha planificado lanzar una versión compatible. |
+| Calendarios personalizados | Se ha planificado lanzar una versión compatible. |
+| Anulación de duplicación métrica | Se ha planificado lanzar una versión compatible. |
+| Persistencia de la variable de comercialización | Se ha planificado lanzar una versión compatible. |
 | Informes y proyectos programados | Se ha planificado lanzar una versión compatible. |
 | Alertas | Se ha planificado lanzar una versión compatible. |
 | Calendarios personalizados | Se ha planificado lanzar una versión compatible. |
