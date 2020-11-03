@@ -3,15 +3,19 @@ description: Uso compartido de proyectos y funciones de proyectos en Workspace
 keywords: Analysis Workspace sharing
 title: Compartir proyectos
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1135'
 ht-degree: 100%
 
 ---
 
 
 # Compartir proyectos
+
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Al compartir, hace que este proyecto esté disponible para otros usuarios de Analysis Workspace de su organización. Cualquier [depuración](curate.md) que haya aplicado se verá reflejada cuando los destinatarios abran el proyecto.
 
