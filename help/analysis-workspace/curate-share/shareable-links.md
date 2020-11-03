@@ -2,16 +2,20 @@
 description: Aprenda a crear vínculos que se pueden compartir a proyectos o visualizaciones
 keywords: Analysis Workspace sharing
 title: Crear vínculos que se pueden compartir
-translation-type: ht
-source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
-workflow-type: ht
-source-wordcount: '296'
+translation-type: tm+mt
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+workflow-type: tm+mt
+source-wordcount: '331'
 ht-degree: 100%
 
 ---
 
 
 # Crear vínculos que se pueden compartir
+
+>[!NOTE]
+>
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Los usuarios que reciban un vínculo deben iniciar sesión en Adobe Analytics antes de poder acceder al proyecto.
 
