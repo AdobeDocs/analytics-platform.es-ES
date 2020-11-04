@@ -1,9 +1,9 @@
 ---
 title: Resumen de componentes
 description: Aprenda qué componentes son las ofertas de CJA y cómo puede utilizarlas en el sistema de informes.
-translation-type: ht
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Puede administrar los siguientes componentes:
 
 Los componentes de Analysis Workspace están formados por métricas, dimensiones, segmentos y granularidades de tiempo que puede arrastrar y soltar en un proyecto. Los componentes personalizados que crea se añaden a estos paneles como, por ejemplo, los intervalos de fecha personalizados.
 
-Para acceder al panel Componentes, haga clic en el icono **[!UICONTROL Componentes]** del carril izquierdo. Puede alternar entre paneles (Panel en blanco, [Panel de forma libre](/help/analysis-workspace/visualizations/freeform-table.md), [Información rápida](/help/analysis-workspace/c-panels/quickinsight.md), o [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) panel), [Visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), y Componentes con los iconos del carril izquierdo o con [métodos abreviados de teclado](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Para acceder al panel Componentes, haga clic en el icono **[!UICONTROL Componentes]** del carril izquierdo. Puede alternar entre paneles (Panel en blanco, [Panel de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Información rápida](/help/analysis-workspace/c-panels/quickinsight.md), o [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) panel), [Visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), y Componentes con los iconos del carril izquierdo o con [métodos abreviados de teclado](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
@@ -52,4 +52,4 @@ Puede administrar componentes (de uno en uno o seleccionando más de uno) de dif
 
 Vea el vídeo sobre la creación de métricas, segmentos y fechas:
 
->[!VIDEO](https://video.tv.adobe.com/v/23979?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
