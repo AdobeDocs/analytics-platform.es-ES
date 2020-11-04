@@ -2,7 +2,7 @@
 title: Información general de Attribution
 description: El concepto de atribuir crédito de un evento de éxito a varios elementos de dimensión.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 93%
@@ -45,6 +45,6 @@ Adobe Analytics mejora la atribución al permitir lo siguiente:
 Attribution IQ incluye las siguientes funciones:
 
 * [Panel de atribución](../c-panels/attribution.md): Tome cualquier dimensión y métrica y compárela rápidamente con diferentes modelos de atribución.
-* [Aplicar atribución a una métrica](../build-workspace-project/column-row-settings/column-settings.md): Utilice una atribución no predeterminada en cualquier métrica de un proyecto.
+* [Aplicar atribución a una métrica](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md): Utilice una atribución no predeterminada en cualquier métrica de un proyecto.
 * [Aplicar atribución a un desglose](/help/components/dimensions/t-breakdown-fa.md): Utilice una atribución no predeterminada en un desglose.
 * [Comparar modelos de atribución](/help/components/apply-create-metrics.md): Vea rápidamente cómo se comparan los distintos modelos de atribución para cualquier métrica.
