@@ -2,7 +2,7 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 55347b8704fa93bdc833faec68b8da6dd589420b
+source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 95%
@@ -121,15 +121,15 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 * Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.
 * Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La latencia se ve afectada por la cantidad de datos históricos que tiene, combinados con la variable **[!UICONTROL Cantidad promedio de eventos diarios]** que seleccionó. Por ejemplo: si tiene más de mil millones de filas de datos por día, más 3 años de datos históricos, la importación podría tardar varias semanas. Por otro lado, si tiene menos de un millón de filas por día y una semana de datos históricos, eso tomaría menos de una hora.
 * El relleno se aplica a toda la conexión, no a cada conjunto de datos individualmente.
-* El [Conector de datos de Adobe Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) importa hasta 13 meses de datos, independientemente de su tamaño.
+* El [Conector de origen de Adobe Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) importa hasta 13 meses de datos, independientemente del tamaño.
 
 ### Calcular el número promedio de eventos diarios
 
 Este cálculo debe realizarse para cada conjunto de datos de la conexión.
 
-1. Ir a [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) y crear una nueva consulta.
+1. Vaya a [Servicios de Consulta de Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) y cree una nueva consulta.
 
 1. La consulta tendría este aspecto:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
 
 * En este ejemplo, &quot;analytics_demo_data&quot; es el nombre del conjunto de datos.
-* Realice la `Show Tables` consulta para mostrar todos los conjuntos de datos que existen en AEP.
+* Realice la consulta `Show Tables` para mostrar todos los datasets que existen en AEP.
