@@ -2,9 +2,9 @@
 title: Calcular el tamaño de la conexión
 description: Informe sobre el uso actual del Customer Journey Analytics (a efectos de facturación)
 translation-type: tm+mt
-source-git-commit: 62172cafb080e4eb4a1bba2c9d7d874fe68d14b2
+source-git-commit: 443b878d90c52ae29fe127b4b6f151c4fbc3a0e9
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
