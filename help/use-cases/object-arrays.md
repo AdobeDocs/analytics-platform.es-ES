@@ -2,9 +2,9 @@
 title: Usar matrices de objetos
 description: Comprender cómo CJA informa sobre las jerarquías de datos.
 translation-type: tm+mt
-source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+source-git-commit: 6229c5bb08f6f153c625932ed06e85030bc08c5a
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -263,6 +263,3 @@ Al aplicar esta métrica calculada, se muestran los resultados deseados:
 | `Washing Machines` | `1850` |
 | `Dryers` | `500` |
 | `Total` | `2350` |
-
-## Ejemplos de persistencia
-
