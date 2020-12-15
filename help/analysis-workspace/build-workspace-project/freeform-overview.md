@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ En Analysis Workspace, puede comparar y diseccionar datos de formas en las que a
 
 La consulta va directamente al motor de búsqueda (puede realizar cambios en línea sin abrir otros informes para crear el análisis). Los resultados se devuelven de forma inmediata sin que se actualice el explorador.
 
-## Página de lista de proyectos de Workspace {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## Página de lista de proyectos de Workspace  {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
 La primera vez que acceda a **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, la página muestra todos los proyectos que posee o a los que se le ha otorgado acceso. Puede establecer esta página como página de aterrizaje de Adobe Analytics. Para ello, haga clic en **[!UICONTROL Establecer como página de aterrizaje]**. (si no ve esta opción, como en la captura de pantalla que aparece a continuación, significa que ya es su página de aterrizaje).
 
@@ -34,12 +34,12 @@ La lista de proyectos de Workspace contiene la siguiente información:
 | Elemento | Descripción |
 |---|---|
 | Crear nuevo proyecto | Haga clic en este vínculo para [inicio de un nuevo proyecto desde cero](/help/analysis-workspace/home.md). |
-| Administrar proyectos | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos ( **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos]**), que muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
+| Administrar proyectos | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos]**), que muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
 | Establecer como página de aterrizaje | Convierte esta página en su página de aterrizaje de Workspace. |
-| Ver tutoriales | Lo lleva a la [Tutoriales de vídeo de Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
+| Ver tutoriales | Le permite acceder a los [tutoriales en vídeo de Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | Nombre | Nombre del proyecto de Workspace. |
 | Propietario | Persona que ha creado el proyecto (usted mismo o alguien que haya compartido su proyecto). |
-| Tipo | Indica si se trata de un proyecto de Workspace o de un [Cuadro de mandos móvil](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/home.html). |
+| Tipo | Indica si se trata de un proyecto de Workspace o de un cuadro de mandos [móvil](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/home.html). |
 | Función del proyecto | Indica si es el propietario, si puede editar el proyecto o si se trata de un proyecto de Duplicado. |
 | Etiquetas | Etiquetas aplicadas al proyecto, ya sea en el administrador de componentes de proyectos o en **[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**. |
 | Última modificación | Fecha y hora de última modificación del proyecto. |
@@ -56,7 +56,7 @@ La lista de proyectos de Workspace contiene la siguiente información:
 
 | Configuración | Descripción |
 |---|---|
-| Proyecto Nombre | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
+| Proyecto  Nombre | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
 | Creado por | Nombre del propietario del proyecto. |
 | Última modificación | Fecha de la última modificación del proyecto. |
 | Etiquetas | Enumera cualquier etiqueta aplicada a un proyecto para una ordenación por categorías más sencilla. También puede etiquetar proyectos mientras los guarda. Puede ver las etiquetas de un proyecto en la página de aterrizaje de Workspace, en la columna [!UICONTROL Etiquetas]. |
@@ -89,7 +89,7 @@ Los submenús contienen las siguientes opciones.
 | Descargar PDF* |  |  |  |  |  |
 | Info y configuración del proyecto |  |  |  |  |  |
 
-## Carril izquierdo {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## Carril izquierdo   {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 El carril izquierdo tiene tres iconos que le permiten acceder a paneles, [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) y [componentes](/help/components/overview.md) (dimensiones, métricas, segmentos e intervalos de fechas) con un clic:
 
