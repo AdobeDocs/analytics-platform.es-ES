@@ -1,5 +1,5 @@
 ---
-description: Le permite agregar texto definido por el usuario al Workspace.
+description: Le permite agregar texto definido por el usuario al espacio de trabajo.
 title: Texto
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
-Le permite agregar texto definido por el usuario al Workspace.
+Le permite agregar texto definido por el usuario al espacio de trabajo.
 
 Puede cambiar los ajustes de fuente (negrita, cursiva, etc.) y agregar hipervínculos en visualizaciones de cuadros de texto y descripciones de paneles/visualizaciones.
 
