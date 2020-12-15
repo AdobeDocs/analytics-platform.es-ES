@@ -38,7 +38,7 @@ El número de eventos ingeridos realmente en [!UICONTROL Customer Journey Analyt
 1. Una vez guardada la conexión, cree una vista de datos de la misma conexión sin ningún filtros.
 1. Cree un proyecto de Workspace y seleccione la vista de datos correcta. Cree una tabla improvisada y arrastre y suelte la métrica **[!UICONTROL Eventos]** con una dimensión **[!UICONTROL Año]**. Elija un intervalo de fechas lo suficientemente grande del calendario de selección de fechas para encapsular todos los datos de la conexión. Esto le permite ver el número de eventos que se están ingeriendo en [!UICONTROL Customer Journey Analytics].
 
-   ![Proyecto de Workspace](assets/event-number.png)
+   ![Proyecto de espacio de trabajo](assets/event-number.png)
 
    >[!NOTE]
    >
