@@ -29,11 +29,11 @@ Con el fin de facilitar la creación rápida de métricas calculadas, se ha aña
 
 ![](assets/calc_metrics.png)
 
-[Métricas calculadas: Métricas sin implementación](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[Métricas calculadas: Métricas](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  sin implementación(3:42)
 
 ## Comparar métricas con diferentes modelos de atribución
 
-Si desea comparar rápida y fácilmente un modelo de atribución con otro, haga clic con el botón derecho en una métrica y seleccione **[!UICONTROL Comparar modelos de atribución]**::
+Si desea comparar rápida y fácilmente un modelo de atribución con otro, haga clic con el botón secundario en una métrica y seleccione **[!UICONTROL Comparar modelos de atribución]**:
 
 ![Comparar atribución](assets/compare-attribution.png)
 
