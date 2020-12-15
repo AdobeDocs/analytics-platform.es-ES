@@ -28,9 +28,9 @@ Puede crear filtros desde un punto de contacto, agregar segmentos como punto de 
 * Uso de un filtro basado en visitantes como punto de contacto dentro de una visualización de visitas en el orden previsto en contexto
 * Uso de un filtro basado en visitas como punto de contacto dentro de una visualización de visitas en el orden previsto en contexto
 
-## Creación de un filtro a partir de un punto de contacto {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## Crear un filtro a partir de un punto de contacto {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Cree un filtro a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda resultar útil para aplicar a otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear filtro a partir de touchpoint]**.
+1. Cree un filtro a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda resultar útil para aplicar a otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear filtro a partir del punto de contacto]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -54,7 +54,7 @@ O bien, puede crear un punto de contacto AND arrastrando el filtro de usuarios d
 
 Puede comparar un número ilimitado de filtros en la visualización de visitas en el orden previsto.
 
-1. Seleccione los segmentos que desee comparar en el [!UICONTROL Filtro] carril a la izquierda. En nuestro ejemplo, hemos seleccionado 2 segmentos: usuarios de EE. UU. y usuarios fuera de EE. UU.
+1. Seleccione los segmentos que desee comparar en el carril [!UICONTROL Filtro] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 segmentos: usuarios de EE. UU. y usuarios fuera de EE. UU.
 1. Arrástrelos a la zona de colocación Filtro en la parte superior.
 
    ![](assets/segment-drop.png)
