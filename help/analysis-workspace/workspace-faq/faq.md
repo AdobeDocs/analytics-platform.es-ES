@@ -37,4 +37,4 @@ Si ha creado correctamente un informe de espacio de trabajo pero no hay datos, p
 * Compruebe el grupo de informes y asegúrese de que se rellena con datos.
 * Si aplicó un segmento en el informe, es posible que los criterios del segmento no coincidan con ningún dato. Intente eliminar el segmento o ajustar la definición del mismo.
 * Compruebe el intervalo de fechas en la esquina superior derecha y compruebe que está establecido en un valor que esperaba.
-* Vaya al sitio web y utilice [Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) para validar que se están recopilando datos.
+* Vaya al sitio web y utilice [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es-ES) para validar que se están recopilando datos.
