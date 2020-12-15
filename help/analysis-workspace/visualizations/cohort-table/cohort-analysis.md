@@ -26,7 +26,7 @@ Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 
 El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de Adobe Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
 
-[Tutorial de vídeo de Análisis de cohorte](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  de vídeo de Análisis de cohorte (4:36)
 
 >[!IMPORTANT]
 >
