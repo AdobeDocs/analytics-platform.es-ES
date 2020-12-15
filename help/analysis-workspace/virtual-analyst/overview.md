@@ -20,6 +20,6 @@ Analista virtual, un conjunto de funciones que forma parte de Adobe Analytics, u
 
 ## Funciones {#features}
 
-Los analistas virtuales de la Análisis de viajes del cliente constan de [Detección de anomalías:](c-anomaly-detection/anomaly-detection.md), que proporciona un método estadístico para determinar cómo ha cambiado una métrica determinada en relación con los datos anteriores.
+Analista virtual en la Análisis de Viaje del cliente consiste en [Detección de anomalías:](c-anomaly-detection/anomaly-detection.md), que proporciona un método estadístico para determinar cómo ha cambiado una métrica determinada en relación con los datos anteriores.
 
 La Análisis de contribución y las alertas inteligentes todavía no están disponibles en la Análisis de viajes del cliente.
