@@ -1,11 +1,11 @@
 ---
-description: Obtenga información sobre los paneles improvisados
+description: Obtenga información sobre los paneles de forma libre
 title: Panel de forma libre
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
