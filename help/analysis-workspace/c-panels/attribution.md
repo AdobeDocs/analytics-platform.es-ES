@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 84%
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ El panel Atribución es una forma sencilla de generar un análisis comparando va
 * **Métrica total**: El número total de conversiones que tienen lugar durante el periodo establecido por la ventana de creación de informes. Estas son las conversiones que se atribuyen a través de la dimensión seleccionada.
 * **Gráfico de barras comparativo de la atribución de métricas**: Compara visualmente las conversiones atribuidas en cada uno de los elementos de dimensión de la dimensión seleccionada. Cada color de barra representa un modelo de atribución distinto.
 * **Tabla improvisada de atribución de métricas**: Muestra los mismos datos que el gráfico de barras, representados como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de forma similar a cualquier otra tabla improvisada en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
-* **Gráfico superpuesto de Dimension**:: Diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica la frecuencia con la que se produjeron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
+* **Gráfico de superposición de dimensiones**: Diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
 * **Puntos de contacto de marketing por recorrido**: Un histograma que indica el número de puntos de contacto que un visitante tuvo en la ventana retrospectiva. Esto resulta útil para ver qué impacto tuvo la atribución de múltiples contactos para su conjunto de datos. Si casi todos los visitantes tienen un solo punto de contacto, es probable que distintos modelos de atribución muestren datos similares.
 * **Detalles de rendimiento del canal de marketing:** Permite comparar visualmente hasta tres modelos de atribución mediante un diagrama de puntos.
 * **Flujo del canal de marketing:** Permite ver en qué canales hay interacción con más frecuencia y en qué orden a lo largo del recorrido de un visitante.
