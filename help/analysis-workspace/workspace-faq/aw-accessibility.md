@@ -64,7 +64,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | Ctrl + Mayús + D | Nuevo intervalo de fechas |
 | Ctrl + Mayús + E | Nuevo segmento |
 | Ctrl + Z | Deshacer |
-| Mantenga pulsada la tecla Mayús (en la zona desplegable de segmentos del panel) | Cree un [filtro desplegable](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| Mantenga pulsada la tecla Mayús (en la zona desplegable de segmentos del panel) | Cree un [filtro desplegable](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es-ES) |
 
 #### Democratización
 
