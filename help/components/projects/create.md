@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 10%
 
 Existen dos métodos para [crear un proyecto](/help/analysis-workspace/home.md) en Analysis Workspace:
 
-* Haga clic en [!UICONTROL Proyectos] en el encabezado, haga clic en [!UICONTROL Crear nuevo proyecto].
-* Haga clic en [!UICONTROL Componentes] > [!UICONTROL Proyectos]y haga clic en ![Añadir](../assets/add.png) [!UICONTROL Añadir].
+* Haga clic en [!UICONTROL Proyectos] en el encabezado y, a continuación, haga clic en [!UICONTROL Crear nuevo proyecto].
+* Haga clic en [!UICONTROL Componentes] > [!UICONTROL Proyectos] y, a continuación, haga clic en ![Añadir](../assets/add.png) [!UICONTROL Añadir].
 
 La creación de un proyecto le presenta un proyecto de Workspace en blanco:
 
