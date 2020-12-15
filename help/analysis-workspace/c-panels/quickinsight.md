@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Perspectivas rápidas]** actualmente está en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html)
+>**[!UICONTROL Quick]** Insightspanel está actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] proporciona una guía a los no analistas y a los nuevos usuarios de [!UICONTROL Analysis Workspace] para aprender a responder preguntas comerciales de forma rápida y sencilla. También es una buena herramienta para usuarios avanzados que desean responder a una pregunta simple rápidamente sin tener que crear una tabla ellos mismos.
 
@@ -98,7 +98,7 @@ En el [!UICONTROL Generador de Quick Insights], aparecerán otras sugerencias ú
 
    ![](assets/qibuilder6.png)
 
-* **Añadir más segmentos**: Puede agregar hasta dos segmentos más utilizando los operadores AND (Y) u OR (O) para agregarlos a la tabla. Observe lo que sucede en la tabla cuando agrega Usuarios móviles O Visitantes fieles. Están uno al lado del otro, encima de las métricas. Si agregara Usuarios móviles Y Visitantes fieles, vería los resultados de ambos segmentos juntos y se apilarían uno encima del otro en la tabla.
+* **Añadir más segmentos**: Puede agregar hasta dos segmentos más utilizando los operadores AND (Y) u OR (O) para agregarlos a la tabla. Observe lo que sucede en la tabla cuando agrega Usuarios móviles OR Visitantes fieles. Están uno al lado del otro, encima de las métricas. Si agregara Usuarios móviles AND Visitantes fieles, vería los resultados de ambos segmentos juntos y se apilarían uno encima del otro en la tabla.
 
    ![](assets/qibuilder7.png)
 
