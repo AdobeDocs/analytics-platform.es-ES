@@ -16,7 +16,7 @@ El Administrador de filtros ofrece numerosas maneras de conservar los segmentos,
 
 El Administrador de filtros le muestra todos los filtros que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los filtros de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de filtros.
 
-Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis del viaje del cliente]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]** en la navegación superior.
+Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis de viajes del cliente]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]** en la navegación superior.
 
 ## Interfaz de usuario del Administrador de filtros
 
@@ -62,11 +62,11 @@ En el Administrador de filtros, el etiquetado de filtros le permite organizarlos
 
 ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:
 
-* Etiquetas basadas en nombres de equipos, como “Marketing social” o “Marketing móvil”.
+* Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil.
 
 * Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada.
 
-* Etiquetas de categorías: Para hombres, Área geográfica.
+* Etiquetas de categorías: Para hombres o Área geográfica.
 
 * Etiquetas de flujo de trabajo: pendiente de aprobación, conservado para (una unidad empresarial específica).
 
@@ -93,7 +93,7 @@ Así es como se marca un filtro como aprobado:
 
 1. En el Administrador de filtros, marque la casilla a la izquierda del título del filtro.
 
-1. Haga clic en **[!UICONTROL Aprobar]** en la barra de tareas de administración de filtros.
+1. Haga clic en **[!UICONTROL Aprobar]** en la barra de tarea de administración de filtros.
 
 1. Considere la posibilidad de compartir el segmento o segmentos aprobados con su organización.
 
