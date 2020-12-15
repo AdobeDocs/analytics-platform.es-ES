@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 7dc245671d98e63cc4f0d97c1b1fdb11509b7d45
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ El primer clic en un calendario inicia una selección de intervalo de fechas. El
 
 También puede arrastrar fechas (y dimensiones temporales) a un proyecto de Workspace. Se pueden seleccionar fechas, semanas, meses o años concretos, o bien fechas móviles.
 
-[Uso de intervalos de fechas y calendarios en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
+[Uso de intervalos de fechas y calendarios en Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=es-ES) (4:07)
 
 | Configuración | Descripción |
 | --- | --- |
