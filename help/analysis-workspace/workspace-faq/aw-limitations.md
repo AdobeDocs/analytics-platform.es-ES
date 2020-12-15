@@ -57,4 +57,4 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 
 ## Attribution IQ
 
-* Un subconjunto de métricas no se admite en [!UICONTROL Attribution IQ]. Para obtener una lista completa, consulte las preguntas más frecuentes sobre [Attribution IQ](../attribution/faq.md).
+* Un subconjunto de métricas no se admite en [!UICONTROL Attribution IQ]. Para obtener una lista completa, consulte las [preguntas más frecuentes sobre Attribution IQ](../attribution/faq.md).
