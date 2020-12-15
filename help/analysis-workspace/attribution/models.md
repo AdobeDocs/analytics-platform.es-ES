@@ -49,7 +49,7 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 >[!NOTE]
 >
->**[!UICONTROL Ventanas retroactivas personalizadas]** actualmente están en pruebas limitadas. Consulte [Versiones de funciones de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) para obtener más información.
+>**[!UICONTROL Las]** ventanas de retrospectiva personalizadas están actualmente en pruebas limitadas. Consulte [Versiones de funciones de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) para obtener más información.
 
 ## Ejemplo
 
