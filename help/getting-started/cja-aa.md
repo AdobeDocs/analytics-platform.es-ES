@@ -2,10 +2,10 @@
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 translation-type: tm+mt
-source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+source-git-commit: 55b03e01494a5989ab05aa391df5155bcf9d188f
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 94%
+source-wordcount: '985'
+ht-degree: 89%
 
 ---
 
@@ -40,6 +40,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Variable de producto | La variable de producto actualmente disponible para el sistema de informes para los datos que se ajustan al esquema de Experience Event (específicamente mediante el objeto productListItems). |
+| Canales de marketing | Los datos de Canales de marketing ahora fluyen a CJA a través del conector de datos de Analytics. Las reglas de Canal de mercadotecnia deben seguir configurándose en Adobe Analytics tradicional. Algunas reglas no son compatibles. Para obtener más información, consulte la [documentación de Canales de mercadotecnia de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases). |
 | Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
 | Uso compartido de proyecto | El uso compartido de proyectos solo es compatible entre los usuarios de CJA; no existe el uso compartido de proyectos entre CJA y la versión tradicional de Analysis Workspace. |
 | Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada que no sean visitas en segundo plano móviles. |
@@ -75,10 +76,11 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Informes y proyectos programados | Se ha planificado lanzar una versión compatible. |
 | Alertas | Se ha planificado lanzar una versión compatible. |
 | Calendarios personalizados | Se ha planificado lanzar una versión compatible. |
-| Canales de marketing | Se ha planificado lanzar una versión compatible. |
 | Exportación de PDF | Se ha planificado lanzar una versión compatible. |
 | Acceso a la API de informes | Se ha planificado lanzar una versión compatible: solo estará disponible con la API 2.0. |
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
+| Report Builder (complemento de Excel) | Se ha planificado lanzar una versión compatible. |
+| Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 
 ## Compatibilidad aún no planificada.
 
@@ -87,11 +89,9 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | A4T | Aún no se ha planificado lanzar una versión compatible. |
 | Media Analytics | Aún no se ha planificado lanzar una versión compatible. |
 | Advertising Cloud | Aún no se ha planificado lanzar una versión compatible. |
-| Report Builder (complemento de Excel) | Aún no se ha planificado lanzar una versión compatible. |
 | Activity Map | Aún no se ha planificado lanzar una versión compatible. |
 | Clasificación del Generador de reglas | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de resumen | Aún no se ha planificado lanzar una versión compatible. |
-| Informes en tiempo real | Aún no se ha planificado lanzar una versión compatible. |
 
 ## Nunca será compatible
 
