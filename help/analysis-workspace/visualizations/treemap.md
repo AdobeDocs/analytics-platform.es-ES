@@ -3,19 +3,15 @@ description: Muestra datos de forma jerárquica (con estructura de árbol) como 
 title: Gráfico de rectángulos
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '94'
 ht-degree: 100%
 
 ---
 
 
 # Gráfico de rectángulos
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados.
 
