@@ -3,9 +3,9 @@ description: 'null'
 title: Área y área apilada
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 100%
 
 # Área y área apilada
 
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
-
-## Área
+## Área {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
 Esta visualización es similar a un gráfico de líneas, pero incluye una zona coloreada bajo la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas.
 
 ![](assets/area.png)
 
-## Área apilada
+## Área apilada {#section_922BBC5A6D254778A050DF710B0BD8D9}
 
 Esta visualización es similar a un gráfico de áreas, pero cada serie comienza en la parte superior de la serie anterior.
 
