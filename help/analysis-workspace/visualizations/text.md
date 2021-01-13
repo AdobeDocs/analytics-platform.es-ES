@@ -3,32 +3,32 @@ description: Le permite agregar texto definido por el usuario al espacio de trab
 title: Texto
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 7%
 
 ---
 
 
 # Texto
 
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+Puede agregar texto definido por el usuario a su proyecto de Workspace mediante visualizaciones de texto o descripciones de panel/visualización (haga clic con el botón derecho en el encabezado > **[!UICONTROL Editar descripción]**). También puede cambiar el formato del texto, agregar hipervínculos y agregar imágenes.
 
-Le permite agregar texto definido por el usuario al espacio de trabajo.
+## Ajustar formato {#format}
 
-Puede cambiar los ajustes de fuente (negrita, cursiva, etc.) y agregar hipervínculos en visualizaciones de cuadros de texto y descripciones de paneles/visualizaciones.
+Al editar el cuadro de texto o la descripción, puede ajustar el tamaño de fuente (niveles de encabezado), el color, el estilo (negrita, cursiva, subrayado) y la alineación del texto seleccionado. También puede agregar listas numeradas y con viñetas.
 
-## Cambio de configuración de fuente {#section_32727EE03FD04A8EB1D1B387DCAF6537}
+![](assets/format.png)
 
-![](assets/rich-text1.png)
+## Adición de hipervínculos {#hyperlinks}
 
-Al arrastrar una visualización de texto a un panel y agregar texto, puede aplicar formato al texto. Para ello, agregue niveles de encabezado, aplique negrita, cursiva o subrayado al texto y cambie el color del texto, entre otras acciones.
+Para agregar un hipervínculo, resalte el texto y haga clic en el icono de hipervínculo del menú. Los hipervínculos pueden vincularse a sitios web externos, páginas de documentación, [proyectos/paneles/visualizaciones de Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html), y mucho más para seguir ayudando a los destinatarios del proyecto.
 
-## Adición de hipervínculos {#section_D55B857188A74A06B49006DF3511DC7C}
+![](assets/hyperlink.png)
 
-![](assets/rich-text2.png)
+## Añadir imágenes {#images}
 
-Resalte el texto y haga clic en el icono de hipervínculo en el menú de formato para agregar hipervínculos.
+Para agregar una imagen al proyecto, haga clic en el icono de imagen en el menú e inserte una URL de imagen pública. La dirección URL de la imagen debe ser de acceso público, comenzar por `https` y tener el formato `.png`, `.jpeg`, `.jpg` o `.gif`. Se admiten imágenes estáticas y animadas.
+
+![](assets/image.png)
