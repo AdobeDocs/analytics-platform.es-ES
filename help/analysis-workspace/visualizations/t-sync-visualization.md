@@ -3,9 +3,9 @@ description: La sincronización de visualizaciones le permite controlar qué tab
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Administración de fuentes de datos
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 100%
 
 # Administración de fuentes de datos
 
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
-
 La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización.
 
 **Sugerencia:** puede saber qué visualizaciones están relacionadas por el color del punto al lado del título. La coincidencia de colores significa que las visualizaciones están basadas en la misma fuente de datos.
 
 Al administrar una fuente de datos, puede mostrar la fuente de datos o bloquear la selección. Esta configuración determina cómo cambia (o no) la visualización al introducir nuevos datos.
 
-1. [Cree un proyecto](/help/analysis-workspace/home.md) con una tabla de datos y [una visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. [Cree un proyecto](//help/analysis-workspace/home.md) con una tabla de datos y [una visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. En la tabla de datos, seleccione las celdas (fuente de datos) que desee asociar con la visualización.
 1. En la visualización, haga clic en el punto al lado del título para que aparezca el cuadro de diálogo **[!UICONTROL Fuente de datos]**. Seleccione **[!UICONTROL Mostrar fuente de datos]** o **[!UICONTROL Bloquear selección]**.
 
