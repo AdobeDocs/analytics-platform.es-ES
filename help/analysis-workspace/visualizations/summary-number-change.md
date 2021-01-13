@@ -3,19 +3,15 @@ description: Utilice las visualizaciones Número y cambio de resumen para mostra
 title: Número de resumen y cambio de resumen
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
 
 
 # Número de resumen y cambio de resumen
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 ## Visualización Número de resumen {#summary-number}
 
@@ -26,7 +22,15 @@ Utilice la visualización Número de resumen para resaltar un número elevado qu
 * Si se selecciona más de una celda, se muestra la primera celda seleccionada.
 * Si se selecciona la columna, se usa el valor de la primera celda de la columna.
 
-![Número de resumen](assets/summary-number.png)
+Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Número de resumen:
+
+| Configuración | Definición |
+|--- |--- |
+| Porcentajes | Muestra porcentajes en lugar de números en bruto. |
+| Leyenda visible | Muestra información sobre la métrica mostrada. |
+| Valor abreviado | Elige abreviar los valores y mostrar hasta 3 decimales. |
+| Valor de resumen por | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
+
 
 Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Número de resumen:
 
@@ -36,6 +40,7 @@ Haga clic en el icono de engranaje de **Configuración de la visualización** si
 | Leyenda visible | Muestra información sobre la métrica mostrada. |
 | Valor abreviado | Elige abreviar los valores y mostrar hasta 3 decimales. |
 | Valor de resumen por | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
+
 
 ## Visualización Cambio de resumen {#summary-change}
 
@@ -50,7 +55,9 @@ Esta visualización se comporta de las siguientes maneras:
 * Si se selecciona un intervalo de celdas, se compara la primera celda con la última seleccionada en el intervalo.
 * Si se selecciona la columna, se compara el primer valor consigo mismo, lo que da como resultado un cambio de 0.
 
-![Cambio de resumen](assets/summary-change.png)
+
+![](assets/summary-change.png)
+
 
 Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Cambio de resumen:
 
