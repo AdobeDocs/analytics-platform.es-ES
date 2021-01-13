@@ -2,19 +2,15 @@
 description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 82%
 
 ---
 
 
 # Accesibilidad en Analysis Workspace
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Obtenga información sobre la compatibilidad con la accesibilidad en [!UICONTROL Analysis Workspace], la herramienta de análisis más importante para Adobe Analytics.
 
@@ -26,11 +22,20 @@ La accesibilidad se refiere a hacer que personas con discapacidades visuales, au
 
 La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a abajo e izquierda a derecha. Los siguientes elementos de navegación facilitan la accesibilidad:
 
-* La tecla `F6` habilita los métodos abreviados de referencia
-* La tecla `Tab` permite moverse entre elementos individuales.
+* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
+* El movimiento `left/right arrows` entre elementos individuales después de que `Tab` lo haya resaltado.
+* El `F6` se desplaza al primer panel del proyecto y se desplaza entre las visualizaciones de ese panel. A continuación, pasa al siguiente panel del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.
 
    ![Indicador de enfoque](assets/focus-indicator.png)
+
+### Navegación por teclado para la barra de menús
+
+1. Tabulador hasta que llegue a la barra de menús.
+1. Utilice las teclas de flecha izquierda/derecha para desplazarse al menú que desee.
+1. Pulse `Enter` para seleccionar el menú y mostrar sus opciones.
+1. Utilice las teclas de flecha arriba/abajo para desplazarse a la opción de menú que desee.
+1. Pulse `Enter` para seleccionar la opción.
 
 ### Navegación por teclado para interacciones de arrastrar y soltar
 
@@ -43,7 +48,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 
 ### Métodos abreviados de teclado (teclas de acceso directo)
 
-[!UICONTROL Analysis Workspace] ofrece un completo conjunto de [métodos abreviados de teclado](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para lograr un flujo de trabajo más fluido. A continuación se enumeran algunos métodos abreviados comunes para la navegación, la creación de análisis y la democratización de los datos.
+[!UICONTROL Analysis Workspace] ofrece un completo conjunto de [métodos abreviados de teclado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=es-ES) para lograr un flujo de trabajo más fluido. A continuación se enumeran algunos métodos abreviados comunes para la navegación, la creación de análisis y la democratización de los datos.
 
 #### Navegación
 
@@ -85,7 +90,7 @@ Un lector de pantalla lee el texto que aparece en la pantalla del equipo. Tambi�
 
 [!UICONTROL Analysis Workspace] se esfuerza por lograr la conformidad con WCAG 2.1 AA, incluyendo sus requisitos para el contraste de color.
 
-Además, los usuarios pueden establecer su propia paleta de colores preferida para un proyecto en **[!UICONTROL Proyecto]** > **[!UICONTROL Ajustes del proyecto]** > [Paleta de color del proyecto](/help/analysis-workspace/build-workspace-project/color-palettes.md).
+Además, los usuarios pueden establecer su propia paleta de colores preferida para un proyecto en **[!UICONTROL Proyecto]** > **[!UICONTROL Ajustes del proyecto]** > [Paleta de color del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es-ES).
 
 ## Validación de campo requerida en los generadores de componentes
 
