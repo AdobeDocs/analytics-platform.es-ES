@@ -3,19 +3,15 @@ description: 'null'
 title: Barras horizontales y barras horizontales apiladas
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
 
 
 # Barras horizontales y barras horizontales apiladas
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 ## Barra horizontal {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
 
