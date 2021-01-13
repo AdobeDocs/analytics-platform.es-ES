@@ -3,27 +3,19 @@ description: Utilizar la visualización de líneas para representar conjuntos de
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 4f163e32787a732526511aeda5f6c1e32becb490
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 94%
+source-wordcount: '511'
+ht-degree: 65%
 
 ---
 
 
 # Líneas
 
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
-
 La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
 
 ![Visualización de líneas](assets/line-viz.png)
-
->[!IMPORTANT]
->
->Alguna configuración de visualización de líneas, como [!UICONTROL Mostrar línea de tendencia], está actualmente en prueba limitada. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html)
 
 Haga clic en el icono del engranaje en la parte superior derecha de la Visualización de líneas para acceder a la [**Configuración de la visualización**](freeform-analysis-visualizations.md) disponible. La configuración se clasifica en:
 
@@ -45,11 +37,15 @@ En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superpos
 
 ## Mostrar superposición de la línea de tendencia
 
-En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar línea de tendencia]**, puede elegir añadir una línea de tendencia de regresión a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
+En **[!UICONTROL Configuración de visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar línea de tendencia]**, puede elegir agregar una regresión o mover la línea de tendencia promedio a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
+
+>[!TIP]
+>
+>Se recomienda que las líneas de tendencia se apliquen a los datos que no incluyan fechas actuales (datos parciales) o futuras, ya que éstas distorsionarán la línea de tendencia. Sin embargo, si necesita incluir fechas futuras, elimine ceros de los datos para evitar el sesgo de esos días. Para ello, vaya a la tabla del origen de datos de la visualización, elija la columna de métrica y, a continuación, habilite **[!UICONTROL Configuración de columna]** > **[!UICONTROL Interprete cero como ningún valor]**.
 
 ![Línea de tendencia lineal](assets/show-linear-trendline.png)
 
-Todos los modelos se ajustan con los mínimos cuadrados normales:
+Todas las líneas de tendencia del modelo de regresión se ajustan con los mínimos cuadrados ordinarios:
 
 | Modelo | Descripción |
 | --- | --- |
@@ -58,3 +54,4 @@ Todos los modelos se ajustan con los mínimos cuadrados normales:
 | Exponencial | Crea una línea curva y resulta útil cuando los datos suben o bajan a tasas de crecimiento constantes. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a + e^(b * x)` |
 | Power | Crea una línea curva y resulta útil para conjuntos de datos que comparan mediciones que aumentan a una velocidad específica. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a * x^b` |
 | Valores cuadráticos | Busca el mejor ajuste para un conjunto de datos con forma de parábola (cóncava arriba o abajo). Ecuación: `y = a + b * x + c * x^2` |
+| Promedio móvil | Crea una línea de tendencia suave basada en un conjunto de promedios. También conocido como promedio móvil, un promedio móvil utiliza un número específico de puntos de datos (determinado por la selección de &#39;Períodos&#39;), los promedia y utiliza el promedio como punto en la línea. Algunos ejemplos son: promedio móvil de 7 días o promedio móvil de 4 semanas. |
