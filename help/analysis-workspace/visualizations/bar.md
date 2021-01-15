@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: La visualización de barras muestra barras verticales que representan varios valores en una o varias métricas.
 title: Barra y barra apilada
-uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 85%
 
 ---
 
