@@ -1,11 +1,10 @@
 ---
-description: Un histograma es un nuevo tipo de visualización en Analysis Workspace.
+description: Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores).
 title: Histograma
-uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '429'
 ht-degree: 95%
 
 ---
