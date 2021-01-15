@@ -1,11 +1,11 @@
 ---
-description: Preguntas frecuentes sobre Workspace
+description: Preguntas más frecuentes sobre Workspace y sugerencias para la resolución de problemas.
 title: Preguntas frecuentes
 translation-type: tm+mt
-source-git-commit: 3dc9d0d0a1f65a4205120895c35aa508f080c25d
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 87%
+source-wordcount: '429'
+ht-degree: 84%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 87%
 
 | Pregunta | Respuesta |
 |--- |--- |
-| ¿Cuáles son los requisitos previos para utilizar Analysis Workspace? | El uso de Analysis Workspace requiere una implementación de Customer Journey Analytics de trabajo. Asegúrese de que su organización está enviando datos al Adobe Experience Platform antes de utilizar la herramienta. |
-| ¿Cuáles son los requisitos de administración y acceso de Analysis Workspace? | Consulte [Requisitos de administración](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
-| ¿Afectará el uso de Analysis Workspace a la recopilación de datos? | Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto del espacio de trabajo para ver qué hay disponible. Si arrastra accidentalmente un componente no válido al proyecto del espacio de trabajo o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en *[!UICONTROL Proyecto] > [!UICONTROL Nuevo]* en el menú superior izquierdo. |
-| ¿Cómo se implementa Analysis Workspace? | No se requiere implementación especial. Analysis Workspace está disponible para todos los Customer Journey Analytics de compañías. Sin embargo, se aplican permisos estándar al contenido (como los componentes del proyecto) y para depurar y compartir proyectos. Consulte [Administración y requisitos de acceso](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
-| ¿Cómo puedo optimizar el rendimiento de Analysis Workspace? | Consulte [Optimización del rendimiento](/help/analysis-workspace/workspace-faq/optimizing-performance.md). |
+| **¿Cuáles son los requisitos previos para utilizar Analysis Workspace?** | El uso de Analysis Workspace requiere una implementación de Customer Journey Analytics de trabajo. Asegúrese de que su organización está enviando datos al Adobe Experience Platform antes de utilizar la herramienta. |
+| **¿Cuáles son los requisitos de administración y acceso de Analysis Workspace?** | Consulte [Requisitos de administración](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
+| **¿Afectará el uso de Analysis Workspace a la recopilación de datos?** | Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto del espacio de trabajo para ver qué hay disponible. Si arrastra accidentalmente un componente no válido al proyecto del espacio de trabajo o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en *[!UICONTROL Proyecto] > [!UICONTROL Nuevo]* en el menú superior izquierdo. |
+| **¿Cómo implemento Analysis Workspace?** | No se requiere implementación especial. Analysis Workspace está disponible para todos los Customer Journey Analytics de compañías. Sin embargo, se aplican permisos estándar al contenido (como los componentes del proyecto) y para depurar y compartir proyectos. Consulte [Administración y requisitos de acceso](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
+| **¿Cómo puedo optimizar el rendimiento de Analysis Workspace?** | Consulte [Optimización del rendimiento](/help/analysis-workspace/workspace-faq/optimizing-performance.md). |
 
 ## Resolución de problemas
 
