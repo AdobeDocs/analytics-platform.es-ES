@@ -1,9 +1,8 @@
 ---
 description: Las visitas en el orden previsto en Analysis Workspace le permiten mezclar dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Esto le proporciona una mayor flexibilidad para definir los pasos del usuario que desea investigar.
 title: Abandonos entre dimensiones
-uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
