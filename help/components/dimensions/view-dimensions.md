@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: Muestra los 5 valores principales para dimensiones que no son de tiempo (y 15 para dimensiones de tiempo).
 title: Vista preliminar de dimensiones
-uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 100%
+source-wordcount: '225'
+ht-degree: 95%
 
 ---
 
