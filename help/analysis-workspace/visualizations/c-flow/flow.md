@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: La función Flujo muestra las rutas de los clientes a través de los sitios web y las aplicaciones.
 title: Resumen de flujos
-uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '187'
+ht-degree: 86%
 
 ---
 
@@ -19,11 +18,7 @@ Le permite:
 
 * Visualizar el recorrido del cliente a lo largo de su sitio web o aplicación
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
-* Crear segmentos mediante la designación de un punto específico en una ruta elegida
-
->[!NOTE]
->
->Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics/Ad Hoc Analysis, consulte [La segmentación como base para Flujo y Abandonos](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Crear filtros mediante la designación de un punto específico en una ruta seleccionada
 
 [Tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=es-ES) de vídeo de visualización de flujo (4:56)
 
