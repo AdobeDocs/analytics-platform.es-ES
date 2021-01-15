@@ -2,10 +2,10 @@
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 translation-type: tm+mt
-source-git-commit: 55b03e01494a5989ab05aa391df5155bcf9d188f
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 89%
+source-wordcount: '986'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Grupos de informes virtuales | Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de VRS | Ahora forma parte de las Vistas de datos. |
 | Procesamiento de intervalo de tiempo | CJA se basa exclusivamente en el procesamiento de intervalos del informe. |
-| Eliminación de RGPD | Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Experience Platform]: CJA hereda los cambios de datos que [!UICONTROL Experience Platform] haga en los conjuntos de datos subyacentes. |
+| Eliminación de RGPD | Tenga en cuenta que el RGPD ahora se maneja en coordinación con [!UICONTROL Adobe Experience Platform]: CJA hereda los cambios de datos que [!UICONTROL Experience Platform] realiza en los datasets subyacentes. |
 | Permisos de usuario/Controles de acceso de datos | CJA distingue entre administradores de productos y usuarios de Adobe Admin Console. Solo los administradores de productos pueden: 1) crear, actualizar o eliminar conexiones o Vistas de datos, 2) actualizar o eliminar proyectos, filtros o métricas de cálculos creados por otros usuarios, y 3) compartir un proyecto de Workspace con todos los usuarios |
 
 ## Admitido con advertencias
