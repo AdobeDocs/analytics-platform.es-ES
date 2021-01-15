@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: Las visualizaciones de visitas en el orden previsto muestran dónde salieron los visitantes (se desactivaron) y continuaron (se perdieron) una secuencia predefinida de páginas.
 title: Resumen de abandonos
-uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 99%
+source-wordcount: '532'
+ht-degree: 95%
 
 ---
 
