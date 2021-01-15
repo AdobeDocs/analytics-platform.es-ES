@@ -1,13 +1,12 @@
 ---
 keywords: Analysis Workspace
 title: Información general de Analysis Workspace
-topic: Reports and analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
+description: Visión general de las capacidades de Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 98%
+source-wordcount: '515'
+ht-degree: 97%
 
 ---
 
