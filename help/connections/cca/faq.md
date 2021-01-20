@@ -1,8 +1,8 @@
 ---
-title: Preguntas más frecuentes sobre análisis de canal cruzado
-description: Preguntas más frecuentes sobre Análisis de canales cruzados
+title: Preguntas más frecuentes sobre análisis de Canal cruzado
+description: Preguntas más frecuentes sobre Análisis de Canales cruzados
 translation-type: tm+mt
-source-git-commit: dd4e7e5cd04db6483f0e4a1f3161f23f8a5a8294
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 20%
@@ -41,8 +41,8 @@ El número de ID persistentes es irrelevante en favor del ID transitorio. Un sol
 
 ## Una vez que me comunico con el administrador de mi cuenta con la información deseada, ¿cuánto tarda en estar disponible el conjunto de datos rekeyed?
 
-La costura en vivo está disponible aproximadamente 1 semana después de que el Adobe active Análisis de canales cruzados. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1.000 millones de eventos por día) pueden tardar una semana o más.
+La costura en vivo está disponible aproximadamente 1 semana después de que el Adobe active Análisis de Canales cruzados. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1.000 millones de eventos por día) pueden tardar una semana o más.
 
-## ¿Cómo gestiona Analytics entre canales las solicitudes de RGPD y CPA?
+## ¿Cómo gestiona Analytics entre Canales las solicitudes de RGPD y CPA?
 
 El Adobe se ocupa de las solicitudes del RGPD y de la CCPA de conformidad con las leyes locales e internacionales. Adobe oferta el [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) para enviar solicitudes de acceso y eliminación de datos. Las solicitudes se aplican tanto a los conjuntos de datos originales como a los restringidos.
