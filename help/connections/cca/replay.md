@@ -1,8 +1,8 @@
 ---
 title: Cómo funcionan las reproducciones
-description: Comprender el concepto de "repetición" en Análisis de canales cruzados
+description: Comprender el concepto de "repetición" en Análisis de Canales cruzados
 translation-type: tm+mt
-source-git-commit: 26486c79f6d94db1aa795bf024f581cad74c25f6
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Cómo funcionan las reproducciones
 
-Análisis de canales cruzados realiza dos pasadas de datos en una conexión determinada:
+Análisis de Canales cruzados realiza dos pasadas de datos en una conexión determinada:
 
 * **Cosificación** en vivo: CCA intenta unir cada visita a medida que entra. Los nuevos dispositivos netos del conjunto de datos que nunca han iniciado sesión no suelen vincularse a este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
 * **Reproducir**: La CCA &quot;reproduce&quot; datos basados en identificadores únicos que ha aprendido. En esta etapa se vinculan nuevos dispositivos a la conexión. Adobe oferta dos intervalos de repetición:
