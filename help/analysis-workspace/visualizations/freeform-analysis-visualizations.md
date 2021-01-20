@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -37,7 +37,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | Muestra la celda seleccionada como un número grande. |
 | [Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | Muestra el cambio entre las celdas seleccionadas como un número/porcentaje grande. |
-| [Texto](/help/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al espacio de trabajo. Útil para agregar contexto adicional a la análisis y perspectivas, además de aprovechar las descripciones de paneles y visualizaciones |
+| [Texto](/help/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario a Workspace. Útil para agregar contexto adicional a la análisis y perspectivas, además de aprovechar las descripciones de paneles y visualizaciones |
 | [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | Utiliza círculos para representar la superposición de métricas de hasta 3 segmentos. |
 
@@ -86,7 +86,7 @@ Para una visualización, puede hacer clic con el botón derecho en el encabezado
 
 | Configuración | Descripción |
 | --- | --- |
-| Insertar visualización/panel copiado | Permite pegar (&quot;insertar&quot;) un panel o una visualización copiados en otro lugar del proyecto o en un proyecto completamente diferente. |
+| Insertar panel copiado/visualización | Permite pegar (“insertar”) un panel copiado o una visualización en otro lugar del proyecto, o en otro proyecto diferente. |
 | Copiar visualización | Le permite hacer clic con el botón derecho y copiar una visualización, para poder insertarla en otro lugar del proyecto o en un proyecto completamente diferente. |
 | [Descargar elementos como CSV](/help/analysis-workspace/curate-share/download-send.md) | Descargue hasta 50.000 elementos de dimensión para la dimensión seleccionada como CSV. |
 | [Descargue los datos como CSV](/help/analysis-workspace/curate-share/download-send.md) | Descargue la fuente de datos de visualización como un CSV. |
