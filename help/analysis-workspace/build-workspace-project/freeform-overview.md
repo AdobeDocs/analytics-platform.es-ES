@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 27%
 
 Los proyectos de Workspace le permiten combinar componentes de datos, tablas y visualizaciones para diseñar su análisis y compartirla con cualquier persona de su organización. Antes de iniciar el primer proyecto, descubra cómo acceder, navegar y administrar los proyectos.
 
-## Lista del proyecto {#project-list}
+## Lista de proyectos {#project-list}
 
 Cuando vaya por primera vez a **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, la página lista todos los proyectos que posee o que ha compartido con usted. Esta es también la página de aterrizaje para Adobe Analytics, a menos que haya establecido previamente una página de aterrizaje personalizada.
 
