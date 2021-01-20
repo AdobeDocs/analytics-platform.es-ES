@@ -2,9 +2,9 @@
 title: Importación de datos de centro de llamadas y web
 description: Aprenda a crear un conjunto de datos que vincule los datos del centro de llamadas y del sitio web.
 translation-type: tm+mt
-source-git-commit: 8d2f70ad47dcf9b97808da3a04d32d3412a1f0c8
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '679'
 ht-degree: 3%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Importación de datos de centro de llamadas y web
 
-Customer Journey Analytics ofrece la valiosa y sólida capacidad de combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender de qué manera su organización puede unir los datos del sitio Web a los datos que se originan en el centro de llamadas.
+Customer Journey Analytics ofrece la valiosa y sólida capacidad de combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas.
 
 ## Requisitos previos
 
@@ -31,7 +31,7 @@ Customer Journey Analytics ofrece la valiosa y sólida capacidad de combinar con
 
 ## Importación de datos de centros de llamadas y Web en la plataforma
 
-Empiece a importar datos en Adobe Experience Platform. Consulte [Creación de un esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/tutorials/create-schema-ui.html) y [Ingesta de datos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
+Importe los datos en Adobe Experience Platform. Consulte [Creación de un esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/tutorials/create-schema-ui.html) y [Ingesta de datos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
 
 Al importar datos en la plataforma, estas sugerencias pueden ayudar a aumentar la perspectiva en los informes resultantes:
 
@@ -43,7 +43,7 @@ Al importar datos en la plataforma, estas sugerencias pueden ayudar a aumentar l
 CJA requiere un identificador común para generar un [conjunto de datos combinado](../connections/combined-dataset.md).
 
 * Si los conjuntos de datos ya tienen un identificador común en cada evento de ambos conjuntos de datos, puede omitir este paso y continuar con la creación de una conexión.
-* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos mediante Análisis de canales cruzados. Consulte [Información general de Análisis de canal cruzado](/help/connections/cca/overview.md) para ver los pasos para habilitar la CCA para estos dos conjuntos de datos.
+* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos mediante Análisis de Canales cruzados. Consulte [Información general de Análisis de Canal cruzado](/help/connections/cca/overview.md) para ver los pasos para habilitar la CCA para estos dos conjuntos de datos.
 
 ## Crear una conexión en CJA
 
@@ -100,9 +100,19 @@ step 3: call
 another good one
 
 step 1: all sessions
-step 2: -->
+step 2: 
 
-<!--  use target (AB testing) to test new versions of these pages so they reduce calls (using an eVar to determine A/B?)
-  filter by specific call reason using workspace dropdowns
-  visualize flow of pages > call reason 
--->
+Orrr we could also use dataset ID
+
+### Site sections that result in a call within 30 minutes
+
+Slide 4
+
+Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+
+wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
+
+use sequential segmentation, but you lose the ability to use attribution IQ
+
+## What to do when you've found insight -->
+
