@@ -1,9 +1,9 @@
 ---
 title: Resumen de componentes
 description: Aprenda qué componentes son las ofertas de CJA y cómo puede utilizarlas en el sistema de informes.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -52,4 +52,4 @@ Puede administrar componentes (de uno en uno o seleccionando más de uno) de dif
 
 Vea el vídeo sobre la creación de métricas, segmentos y fechas:
 
->[!VIDEO](https://video.tv.adobe.com/v/23979)
+>[!VIDEO](https://video.tv.adobe.com/v/23979?captions=spa)
