@@ -21,7 +21,7 @@ translation-type: tm+mt
 source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 + Conexiones {#cja-connections}
    + [Crear una conexión](connections/create-connection.md)
    + [Administrar conexiones](connections/manage-connection.md)
-   + [Calcular el tamaño de la conexión](connections/estimate-connection-size.md)
+   + [Cálculo del tamaño de la conexión](connections/estimate-connection-size.md)
    + [Conjuntos de datos de evento combinados](connections/combined-dataset.md)
    + Análisis de Canales cruzados {#cca}
       + [Información general de Análisis de Canales cruzados](connections/cca/overview.md)
@@ -156,10 +156,10 @@ ht-degree: 93%
    + [Casos de uso de Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Usar matrices de objetos](use-cases/object-arrays.md)
    + [(B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consulta](use-cases/b2b.md)
-   + [Importación de datos de centro de llamadas y web](use-cases/call-center.md)
+   + [Importación de datos de sitios web y de centros de llamadas](use-cases/call-center.md)
    + [Casos de uso sobre ingesta de datos](use-cases/data-ingestion.md)
-   + [Usar dimensiones de canal de mercadotecnia](use-cases/marketing-channels.md)
-   + [Añadir búsquedas globales a sus conjuntos de datos](use-cases/global-lookups.md)
+   + [Uso de dimensiones del canal de marketing](use-cases/marketing-channels.md)
+   + [Adición de búsquedas globales a sus conjuntos de datos](use-cases/global-lookups.md)
 + Privacidad {#cja-privacy}
    + [Información general de privacidad](privacy/privacy-overview.md)
 + [Actualizaciones de documentación de CJA](doc-changes.md)
