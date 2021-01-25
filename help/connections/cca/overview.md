@@ -1,11 +1,11 @@
 ---
 title: Información general de Análisis de Canales cruzados
-description: Vuelva a escribir los ID de visitante de varios conjuntos de datos para unir visitantes.
+description: Vuelva a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
 translation-type: tm+mt
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 19%
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 * ¿Cuáles son las rutas más comunes que los usuarios realizan de un dispositivo a otro? ¿En qué punto abandonan? ¿Dónde tienen éxito?
 * ¿En qué se diferencia el comportamiento de los usuarios con varios dispositivos de los usuarios con un único dispositivo?
 
-Cuando combina conjuntos de datos con ID de personas similares, la atribución se transfiere a través de dispositivos y canales. Por ejemplo: un usuario visita su sitio por primera vez a través de un anuncio en su equipo de escritorio. Ese usuario encuentra un problema con su pedido y, a continuación, llama a su equipo de servicio al cliente para ayudarle a resolverlo. Con Análisis de Canales cruzados, puede atribuir eventos del centro de llamadas a la publicidad en la que hicieron clic originalmente.
+Cuando combina conjuntos de datos con ID de personas similares, la atribución se transfiere a través de dispositivos y canales. Por ejemplo: un usuario visita su sitio por primera vez a través de un anuncio en su equipo de escritorio. Ese usuario encuentra un problema con su pedido y, a continuación, llama a su equipo de servicio de atención al cliente para que le ayude a resolverlo. Con Análisis de Canales cruzados, puede atribuir eventos del centro de llamadas a la publicidad en la que hicieron clic originalmente.
 
 ## Requisitos previos
 
@@ -31,36 +31,36 @@ Cuando combina conjuntos de datos con ID de personas similares, la atribución s
 
 Antes de usar Análisis de Canal cruzado, asegúrese de que su organización está preparada con lo siguiente:
 
-* Un conjunto de datos en Adobe Experience Platform debe tener dos columnas que ayuden a identificar visitantes:
-   * Un **ID persistente**, identificador presente en cada fila. Por ejemplo, un ID de visitante generado por una biblioteca de Adobe Analytics AppMeasurement.
-   * Un **ID transitorio**, identificador presente sólo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que un visitante se autentica. Puede utilizar prácticamente cualquier identificador que desee, siempre y cuando esté presente al menos una vez en el mismo evento que un ID persistente determinado.
-* Otro conjunto de datos, como los datos del centro de llamadas, que contiene una ID transitoria en cada fila. Este ID de persona debe tener el mismo formato que el ID transitorio del otro conjunto de datos.
-* Esta función le permite unir conjuntos de datos que pueden incluir la combinación de datos de usuario autenticados y no autenticados. Asegúrese de cumplir con las leyes y regulaciones aplicables, incluida la obtención de los permisos necesarios para el usuario final, antes de combinar conjuntos de datos.
+* Un conjunto de datos en Adobe Experience Platform debe tener dos columnas que ayuden a identificar a los visitantes:
+   * Un **ID persistente**, un identificador presente en cada fila. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics.
+   * Un **ID transitorio**, un identificador presente solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que un visitante se autentica. Puede utilizar prácticamente cualquier identificador que desee, siempre y cuando esté presente al menos una vez en el mismo evento que un ID persistente determinado.
+* Otro conjunto de datos, como los datos del centro de llamadas, que contiene un ID transitorio en cada fila. Este ID personal debe tener el mismo formato que el ID transitorio del otro conjunto de datos.
+* Esta función le permite vincular conjuntos de datos que pueden incluir la combinación de datos de usuario autenticados y no autenticados. Asegúrese de cumplir las leyes y regulaciones aplicables, incluida la obtención de los permisos necesarios para el usuario final, antes de combinar conjuntos de datos.
 
 ## Limitaciones
 
 El análisis de Canal cruzado es una característica innovadora y sólida, pero tiene limitaciones en cuanto a cómo se puede usar.
 
-* Las capacidades actuales de rekeying están limitadas a un paso (ID persistente a ID transitorio). No se admite la reclaves de varios pasos (por ejemplo, el ID persistente a un ID transitorio y, a continuación, a otro ID transitorio).
+* Las capacidades actuales de regeneración de claves están limitadas a un paso (ID persistente a ID transitorio). No se admite la regeneración de claves de varios pasos (por ejemplo, ID persistente a ID transitorio y, a continuación, a otro ID transitorio).
 * Solo se admiten conjuntos de datos de evento. No se admiten otros conjuntos de datos, como conjuntos de datos de búsqueda.
 * No se admiten los mapas de ID personalizados utilizados en su organización.
-* No se admiten el gráfico de cooperación entre Adobes ni el gráfico privado.
+* No se admiten gráficos cooperativos ni privados de Adobe.
 
 ## Habilitar análisis de Canal cruzado
 
-Una vez que su organización cumpla todos los requisitos previos y comprenda sus limitaciones, puede seguir estos pasos para inicio de su uso en CJA.
+Una vez que su organización cumpla todos los requisitos previos y comprenda sus limitaciones, puede seguir estos pasos para comenzar a usarlo en CJA.
 
-1. Importe los datos deseados en Adobe Experience Platform. Consulte [Creación de un esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/tutorials/create-schema-ui.html) y [Ingesta de datos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
+1. Importe los datos deseados en Adobe Experience Platform. Consulte [Creación de un esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/tutorials/create-schema-ui.html) e [Introducción de datos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
 1. Póngase en contacto con el administrador de cuentas de Adobe, el cual incluye lo siguiente:
    * Una solicitud para habilitar el análisis entre Canales
-   * ID del conjunto de datos para el conjunto de datos que desea volver a escribir
-   * El nombre de columna del ID persistente para el conjunto de datos deseado (identificador que aparece en cada fila)
-   * El nombre de la columna del ID transitorio del conjunto de datos deseado (vínculo del identificador de persona entre conjuntos de datos)
-   * Su preferencia de [repetición](replay.md) frecuencia y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
-1. El Administrador de cuentas de Adobe habilita Análisis de Canales cruzados al recibir la solicitud. Una vez activado, aparece un nuevo conjunto de datos con clave en Adobe Experience Platform que contiene una nueva columna de ID de persona. El administrador de cuentas de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna ID de la persona.
-1. [Cree una ](../create-connection.md) conexión CJA utilizando el conjunto de datos recién generado y cualquier otro conjunto de datos que desee incluir. Elija la ID de persona correcta para cada conjunto de datos.
-1. [Cree una ](/help/data-views/create-dataview.md) vista de datos basada en la conexión.
+   * El ID del conjunto de datos del conjunto de datos para el cual desea volver a generar la clave
+   * El nombre de columna del ID persistente del conjunto de datos deseado (identificador que aparece en cada fila)
+   * El nombre de la columna del ID transitorio del conjunto de datos deseado (vínculo del identificador personal entre conjuntos de datos)
+   * Su preferencia de frecuencia de [repetición](replay.md) y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
+1. El Administrador de cuentas de Adobe habilita Análisis de Canales cruzados al recibir la solicitud. Una vez activado, aparece un nuevo conjunto de datos con nueva clave generada en Adobe Experience Platform que contiene una nueva columna de ID personal. El administrador de cuentas de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
+1. [Cree una conexión](../create-connection.md) en CJA usando el nuevo conjunto de datos recientemente generado y otros conjuntos de datos que desea incluir. Elija el ID personal correcto para cada conjunto de datos.
+1. [Cree una vista de datos](/help/data-views/create-dataview.md) en función de la conexión.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-Una vez configurada la vista de datos, la Análisis en CJA es igual que cualquier otra análisis en CJA, excepto que ahora los datos funcionan a través de canales y dispositivos.
+Una vez configurada la vista de datos, Analysis en CJA es igual que cualquier otro análisis en CJA, excepto que ahora los datos se gestionan a través de varios canales y dispositivos.
