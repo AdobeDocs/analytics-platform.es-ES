@@ -1,11 +1,11 @@
 ---
 title: Creación de una vista de datos
 description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics (CJA).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Una vista de datos es similar a un grupo de informes virtuales en Analytics, en 
 
 Los proyectos de Workspace en Customer Journey Analytics se basan en vistas de datos.
 
-Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/basic-configuration-for-data-views.html) para ver un vídeo de información general.
+Haga clic [aquí](https://docs.adobe.com/content/help/es-ES/platform-learn/tutorials/cja/basic-configuration-for-data-views.html) para ver un vídeo de información general.
 
 ## Requisitos previos
 
@@ -55,6 +55,6 @@ Para poder crear vistas de datos, debe [configurar una o más conexiones a conju
 
 1. Los siguientes pasos son para [especificar la configuración](/help/data-views/configure-dataviews.md) de componentes y atribuciones.
 
-## Eliminar vistas de datos
+## Eliminación de vistas de datos
 
-Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], un mensaje de error indicará que cualquier proyecto de Workspace que dependa de esta vista de datos eliminada dejará de funcionar.
+Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparecerá un mensaje de error que indica que dejarán de funcionar todos los proyectos de Workspace que dependan de esta vista de datos eliminada.
