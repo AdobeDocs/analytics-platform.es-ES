@@ -1,11 +1,11 @@
 ---
 title: Elementos de dimensión dinámicos o estáticos en tablas improvisadas
 description: Interacción con elementos de dimensión dinámicos y estáticos en tablas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ Los elementos de dimensión estáticos no cambian con el tiempo; son componentes
 
 Cada vez que seleccionan y sueltan manualmente valores de componente específicos (dimensión, métrica, segmento, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas. También se pueden crear elementos de dimensión estáticos si elige:
 
-* En las filas, haga clic con el botón derecho > [!UICONTROL Mostrar sólo las filas seleccionadas]
-* Desde columnas, haga clic con el botón derecho > [!UICONTROL Convertir el elemento en estático]
+* En las filas, haga clic con el botón derecho en > [!UICONTROL Mostrar solo las filas seleccionadas]
+* En las columnas, haga clic con el botón derecho en > [!UICONTROL Convertir el elemento en estático]
 
 Por ejemplo, cuando arrastra elementos específicos de Tipo de explorador como Microsoft y Apple, esos dos elementos específicos siempre se arrastran a la tabla.
 
@@ -56,5 +56,5 @@ Los elementos de dimensión de diferentes dimensiones se pueden agregar a la mis
 Las filas dinámicas y estáticas se comportan de forma diferente en la fila total improvisada. De forma predeterminada:
 
 * Las filas dinámicas se suman a las métricas del lado del servidor y a las duplicadas, como visitas o visitantes
-* Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es-ES)
+* Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
 
