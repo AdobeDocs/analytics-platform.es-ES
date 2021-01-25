@@ -1,56 +1,56 @@
 ---
-title: Importación de datos de centro de llamadas y web
-description: Aprenda a crear un conjunto de datos que vincule los datos del centro de llamadas y del sitio web.
+title: Importación de datos web y de centros de llamadas
+description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios web y de centros de llamadas.
 translation-type: tm+mt
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 3%
+ht-degree: 91%
 
 ---
 
 
-# Importación de datos de centro de llamadas y web
+# Importación de datos web y de centros de llamadas
 
-Customer Journey Analytics ofrece la valiosa y sólida capacidad de combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas.
+Customer Journey Analytics dispone de una función robusta y muy útil que permite combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas.
 
 ## Requisitos previos
 
-* El componente más importante para combinar estos dos conjuntos de datos es un identificador común entre cada fuente de datos. Algunos ejemplos son un ID de cliente, un correo electrónico con hash, un nombre de usuario de inicio de sesión o un número de teléfono.
+* El componente más importante para combinar estos dos conjuntos de datos es disponer de un identificador común entre cada fuente de datos. Algunos ejemplos son un ID de cliente, un correo electrónico con hash, un nombre de usuario de inicio de sesión o un número de teléfono.
 * Acceso a Adobe Experience Platform y Customer Journey Analytics
-* Si el conjunto de datos incluye registros de un sistema interactivo de respuesta de voz, Adobe recomienda procesar los datos para incluir únicamente interacciones rápidas antes de importarlos a la plataforma.
-* Si el conjunto de datos incluye registros de llamadas, Adobe recomienda incluir las siguientes columnas:
-   * La fecha y hora en que se inició la llamada
+* Si el conjunto de datos incluye registros de un sistema de respuesta de voz interactivo, Adobe recomienda procesar los datos para incluir únicamente interacciones rápidas antes de importarlos a Platform.
+* Si el conjunto de datos incluye registros de llamadas, Adobe recomienda incluir las columnas siguientes:
+   * Fecha y hora en que se inició la llamada
    * Motivo de la llamada
    * ID del centro de llamadas
    * ID del agente del centro de llamadas
    * Duración de la llamada
    * Resultado de la llamada
-   * Costo de la llamada (si está disponible)
-   * Cualquier meta de llamada adicional que su organización desee incluir
+   * Coste de la llamada (si está disponible)
+   * Cualquier metadato adicional de la llamada que su organización desee incluir
 
-## Importación de datos de centros de llamadas y Web en la plataforma
+## Importación de datos web y de centros de llamadas en Platform
 
-Importe los datos en Adobe Experience Platform. Consulte [Creación de un esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/tutorials/create-schema-ui.html) y [Ingesta de datos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
+Importe los datos en Adobe Experience Platform. Consulte [Crear un esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/tutorials/create-schema-ui.html) e [Introducir datos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
 
-Al importar datos en la plataforma, estas sugerencias pueden ayudar a aumentar la perspectiva en los informes resultantes:
+Al importar datos en Platform, estas sugerencias pueden ayudar a aumentar la perspectiva de los informes resultantes:
 
-* Asegúrese de que el identificador utilizado para vincular el centro de llamadas y los datos web de forma conjunta tenga un formato similar.
+* Asegúrese de que el identificador utilizado para vincular el centro de llamadas y los datos web tenga un formato similar.
 * Incluya la fuente de datos en cada conjunto de datos. Por ejemplo, incluya una columna `data_source` en cada esquema y establezca el valor de cada evento en `"Web"` o `"Call center"`, respectivamente. <!--mapper-->
 
-## Unir el ID de la persona
+## Vinculación del ID de la persona
 
-CJA requiere un identificador común para generar un [conjunto de datos combinado](../connections/combined-dataset.md).
+CJA requiere un identificador común para poder generar un [conjunto de datos combinado](../connections/combined-dataset.md).
 
 * Si los conjuntos de datos ya tienen un identificador común en cada evento de ambos conjuntos de datos, puede omitir este paso y continuar con la creación de una conexión.
 * Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos mediante Análisis de Canales cruzados. Consulte [Información general de Análisis de Canal cruzado](/help/connections/cca/overview.md) para ver los pasos para habilitar la CCA para estos dos conjuntos de datos.
 
-## Crear una conexión en CJA
+## Creación de una conexión en CJA
 
-[Cree una ](/help/connections/create-connection.md) conexión en CJA.
+[Cree una conexión](/help/connections/create-connection.md) en CJA.
 
-* Si se utiliza CCA, hay un nuevo conjunto de datos enlazado disponible para su uso. Utilice el campo de ID de vinculación recién creado como ID de persona.
-* De lo contrario, puede seleccionar los conjuntos de datos originales de la Web y del centro de llamadas para utilizarlos en la conexión.
+* Si se utiliza CCA, encontrará un nuevo conjunto de datos vinculado disponible para el uso. Utilice el campo de ID de vinculación recién creado como ID de persona.
+* De lo contrario, puede seleccionar los conjuntos de datos originales del sitio web y el centro de llamadas para utilizarlos en la conexión.
 
 ## Creación de una vista de datos
 
@@ -59,28 +59,28 @@ Después de crear una conexión, puede [Crear una vista de datos](/help/data-vie
 
 ## Creación de visualizaciones
 
-Las visualizaciones siguientes se pueden utilizar para obtener perspectivas de su conjunto de datos enlazado.
+Las siguientes visualizaciones se pueden utilizar para obtener información de su conjunto de datos vinculado.
 
-### Superposición de conjunto de datos
+### Superposición de conjuntos de datos
 
-Esta visualización le ayuda a comprender cuán bien CCA une los datos.
+Esta visualización le ayuda a conocer el rendimiento de CCA a la hora de vincular los datos.
 
-1. Cree dos filtros. La variable utilizada en estos dos filtros es la misma variable mencionada anteriormente que refleja la fuente de datos de cada evento. Consulte [Crear un filtro](/help/components/filters/create-filters.md) para obtener más información.
-   * Contenedor personal donde el ID de conjunto de datos es igual a los datos web
-   * Contenedor personal donde el ID de conjunto de datos es igual a los datos del centro de llamadas
+1. Cree dos filtros. La variable que se utiliza en estos dos filtros es la misma variable que la que se menciona anteriormente y que refleja el origen de datos de cada evento. Consulte [Crear un filtro](/help/components/filters/create-filters.md) para obtener más información.
+   * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del sitio web
+   * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del centro de llamadas
 2. En Analysis Workspace, arrastre una visualización [Venn](/help/analysis-workspace/visualizations/venn.md) al lienzo del área de trabajo.
 3. Arrastre los dos filtros recién creados al área **[!UICONTROL Añadir filtro]** y la métrica Personas al área **[!UICONTROL Añadir métrica]**.
 
-La visualización Venn resultante muestra el número de personas en el conjunto de datos que contienen datos de la Web y del centro de llamadas. Cuanto mayor sea el solapamiento, más personas se vincularon con éxito. Las áreas que no se superponen representan personas que residen exclusivamente en un conjunto de datos u otro.
+La visualización Venn resultante muestra el número de personas del conjunto de datos que contienen datos del sitio web y del centro de llamadas. Cuanto mayor sea la superposición, más personas se habrán vinculado correctamente. Las áreas que no se superponen representan a las personas que residen exclusivamente en un conjunto de datos u otro.
 
-### Eventos del centro de llamadas de atributos a páginas web
+### Atribución de eventos del centro de llamadas a páginas web
 
-Esta tabla improvisada le permite ver las páginas principales que contribuyen a los eventos del centro de llamadas. En primer lugar, asegúrese de que las dimensiones y métricas deseadas tienen el modelo de atribución correcto:
+Esta tabla de formato libre le permite ver las páginas principales que contribuyen a los eventos del centro de llamadas. En primer lugar, asegúrese de que las dimensiones y métricas deseadas tienen el modelo de atribución correcto:
 
-1. Arrastre la dimensión que contiene los nombres de las páginas web a una visualización de tabla improvisada.
-1. Reemplace la métrica con la métrica del centro de llamadas que desee que mida la conversión.
-1. Haga clic en el icono de engranaje cerca del encabezado de la métrica. Haga clic en **[!UICONTROL Usar modelo de atribución no predeterminado]**.
-1. Configure el [modelo de atribución](/help/data-views/configure-dataviews.md#Attribution-model) que desee.
+1. Arrastre la dimensión que contiene los nombres de su página web a una visualización de tabla de formato libre.
+1. Reemplace la métrica por la métrica del centro de llamadas de la que desee medir la conversión.
+1. Haga clic en el icono de engranaje que se encuentra cerca del encabezado de la métrica. Haga clic en **[!UICONTROL Utilizar modelo de atribución no predeterminado]**.
+1. Configure el [modelo de atribución](/help/data-views/configure-dataviews.md#Attribution-model) deseado.
 
 El informe resultante muestra la métrica principal de los datos del centro de llamadas. <!-- Complement with donut visualization -->
 
