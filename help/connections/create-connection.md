@@ -1,11 +1,11 @@
 ---
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1957'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 Una conexión le permite integrar conjuntos de datos de [!DNL Adobe Experience Platform] en [!UICONTROL Workspace]. Para informar sobre conjuntos de datos de [!DNL Experience Platform], primero debe establecer una conexión entre conjuntos de datos en [!DNL Experience Platform] y [!UICONTROL Workspace].
 
-Haga clic [aquí](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html) para ver un vídeo de información general.
+Haga clic [aquí](https://docs.adobe.com/content/help/es-ES/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html) para ver un vídeo de información general.
 
 >[!IMPORTANT]
 >
@@ -55,8 +55,8 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
    | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de la persona |
    |---|---|---|---|---|
    | [!UICONTROL Evento] | Datos que representan eventos en el tiempo (p. ej., visitas web, interacciones, transacciones, datos de TPV, datos de encuesta, datos de impresión de publicidad, etc.). Por ejemplo, estos datos podrían ser datos típicos del flujo de navegación, con un ID de cliente o un ID de cookie y una marca de tiempo. Con los datos de evento, tiene flexibilidad para saber qué ID se utiliza como ID de persona. | Se establece automáticamente en el campo de marca de tiempo predeterminado a partir de los esquemas basados en eventos en [!UICONTROL Experience Platform]. | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento “Serie temporal”. Algunos ejemplos son “Evento de experiencias XDM” o “Evento de decisiones XDM”. | Puede elegir qué ID de persona desea incluir. Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, etc. |
-   | [!UICONTROL Búsqueda] | (Analógico para un archivo de clasificaciones en Adobe Analytics tradicional). Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [este caso de uso](/help/use-cases/b2b.md) para ver un ejemplo. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento “Record”, excepto la clase “XDM Individual Profile”. | N/D |
-   | [!UICONTROL Perfil] | Análogo a [!UICONTROL Atributos del cliente]: para atributos no cambiantes y no temporales. Datos que se aplican a sus visitas, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/D | Cualquier esquema integrado o personalizado basado en la clase “XDM Individual Perfil”. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona ](assets/person-id.png)**Nota**: si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
+   | [!UICONTROL Búsqueda] | (Analógico para un archivo de clasificaciones en Adobe Analytics tradicional). Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [este caso de uso](/help/use-cases/b2b.md) para ver un ejemplo. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento “Record”, excepto la clase “XDM Individual Profile”. | N/A |
+   | [!UICONTROL Perfil] | Análogo a [!UICONTROL Atributos del cliente]: para atributos no cambiantes y no temporales. Datos que se aplican a sus visitas, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/A | Cualquier esquema integrado o personalizado basado en la clase “XDM Individual Perfil”. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona ](assets/person-id.png)**Nota**: si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
 
 1. **[!UICONTROL ID de conjunto de datos]**: este ID se genera automáticamente.
 
@@ -109,7 +109,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
    | [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que se incluyen en esta conexión. |
    | [!UICONTROL Importe automáticamente todos los conjuntos de datos nuevos en esta conexión desde hoy.] | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a [!UICONTROL Workspace]. |
    | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y al guardar la conexión, se importarán todos los datos (históricos) existentes de [!DNL Experience Platform] de todos los conjuntos de datos de relleno de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. Consulte también [Rellenar datos históricos](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) a continuación.<br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
-   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar la cantidad promedio de eventos diarios que se importarán (datos nuevos **y** datos de relleno) para todos los conjuntos de datos de la conexión. Seleccione una opción en el menú desplegable. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce la cantidad promedio de eventos diarios que va a importar la compañía, puede hacer una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/es-ES/experience-platform/query/home.html) para averiguarlo.<br>Consulte &quot;Calcular el número promedio de eventos diarios&quot; a continuación. |
+   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar la cantidad promedio de eventos diarios que se importarán (datos nuevos **y** datos de relleno) para todos los conjuntos de datos de la conexión. Seleccione una opción en el menú desplegable. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce la cantidad promedio de eventos diarios que va a importar la compañía, puede hacer una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://docs.adobe.com/content/help/es-ES/experience-platform/query/home.html) para averiguarlo.<br>Consulte Cálculo del número medio de eventos diarios a continuación. |
 
 1. Haga clic en **[!UICONTROL Guardar y crear vista de datos]**. Para ver la documentación, consulte [crear una vista de datos](/help/data-views/create-dataview.md).
 
@@ -117,19 +117,19 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 
 **[!UICONTROL Importar los datos existentes]** le permite rellenar con los datos históricos. Recuerde:
 
-* Se ha eliminado la limitación de relleno (importación de datos históricos). Anteriormente, se podía rellenar un máximo de 2500 millones de filas por su cuenta y, de lo contrario, se requería la participación de técnicos. Ahora, puede rellenar los datos por su cuenta, sin limitaciones.
+* Se ha eliminado la limitación de relleno (importación de datos históricos). Anteriormente, se podía rellenar un máximo de 2500 millones de filas por su cuenta y, de lo contrario, se requería la participación de técnicos. Ahora puede rellenar los datos por su cuenta sin ningún tipo de limitación.
 * Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.
 * Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La latencia se ve afectada por la cantidad de datos históricos que tiene, combinados con la variable **[!UICONTROL Cantidad promedio de eventos diarios]** que seleccionó. Por ejemplo: si tiene más de mil millones de filas de datos por día, más 3 años de datos históricos, la importación podría tardar varias semanas. Por otro lado, si tiene menos de un millón de filas por día y una semana de datos históricos, eso tomaría menos de una hora.
 * El relleno se aplica a toda la conexión, no a cada conjunto de datos individualmente.
-* El [Conector de origen de Adobe Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) importa hasta 13 meses de datos, independientemente del tamaño.
+* El [Conector de datos de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) importa hasta 13 meses de datos, independientemente de su tamaño.
 
-### Calcular el número promedio de eventos diarios
+### Cálculo del número medio de eventos diarios
 
-Este cálculo debe realizarse para cada conjunto de datos de la conexión.
+Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 
-1. Vaya a [Servicios de Consulta de Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) y cree una nueva consulta.
+1. Vaya a [Servicios de consulta de Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/experience-platform/query/home.html) y cree una nueva consulta.
 
-1. La consulta tendría este aspecto:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
+1. La consulta tendría un aspecto similar al siguiente:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
 
 * En este ejemplo, &quot;analytics_demo_data&quot; es el nombre del conjunto de datos.
-* Realice la consulta `Show Tables` para mostrar todos los datasets que existen en AEP.
+* Realice la consulta `Show Tables` para mostrar todos los conjuntos de datos que existen en AEP.
