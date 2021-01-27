@@ -2,10 +2,10 @@
 description: Paginación, filtrado y ordenación de tablas en Workspace
 title: Paginación, filtrado y ordenación de tablas
 translation-type: tm+mt
-source-git-commit: 71401db7bf034136eb053f559962b1eb49175ec1
+source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 35%
+source-wordcount: '235'
+ht-degree: 36%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 35%
 
 Para obtener una descripción general de la paginación, el filtrado y la ordenación de tablas en Analysis Workspace, consulte este tutorial de vídeo:
 
->[!VIDEO](https://publish.tv.adobe.com/bucket/1/category/2282/video/23968/)
+>[!VIDEO](https://video.tv.adobe.com/v/23968)
 
 ## Opciones de filtrado avanzadas {#section_36E92E31442B4EBCB052073590C1F025}
 
