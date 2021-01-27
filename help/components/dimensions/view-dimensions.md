@@ -1,11 +1,11 @@
 ---
 description: Muestra los 5 valores principales para dimensiones que no son de tiempo (y 15 para dimensiones de tiempo).
-title: Vista preliminar de dimensiones
+title: Previsualización de dimensiones en CJA Workspace
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '230'
+ht-degree: 92%
 
 ---
 
