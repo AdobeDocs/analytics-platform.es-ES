@@ -2,7 +2,7 @@
 description: Paginación, filtrado y ordenación de tablas en Workspace
 title: Paginación, filtrado y ordenación de tablas
 translation-type: tm+mt
-source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
+source-git-commit: 7274e44dedb3eef89119d886e72c1454d914da0f
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 36%
@@ -46,7 +46,7 @@ Al hacer clic en el icono de filtro y, a continuación, **[!UICONTROL Mostrar av
 
 1. En cualquier tabla improvisada de un proyecto, haga clic en la flecha situada junto al nombre de la dimensión:
 
-Insertar captura de pantalla aquí.
+![](assets/sort-dimensions.png)
 
 * La flecha hacia abajo se ordena en orden descendente y la flecha hacia arriba (predeterminada) en orden ascendente.
-* Puede ordenar las dimensiones alfabética o numéricamente. Por ejemplo, es posible que haya numerado los pasos de un flujo de trabajo y que desee ordenarlos por el número de paso. Puede ordenar una dimensión relacionada con la fecha por fecha. O bien, puede ordenar una dimensión de nombre de producto alfabéticamente.
+* Puede ordenar las dimensiones alfabética o numéricamente. Por ejemplo, es posible que haya numerado los pasos de un flujo de trabajo y que desee ordenarlos por el número de paso. Puede ordenar una dimensión relacionada con la fecha por fecha. O bien, puede ordenar las fuentes de datos alfabéticamente, como en la captura de pantalla de arriba.
