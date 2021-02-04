@@ -1,27 +1,27 @@
 ---
 title: Cómo funcionan las reproducciones
-description: Comprender el concepto de "repetición" en Análisis de Canales cruzados
-translation-type: tm+mt
+description: Comprensión del concepto "reproducción" en Análisis entre canales
+translation-type: ht
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Cómo funcionan las reproducciones
 
-Análisis de Canales cruzados realiza dos pasadas de datos en una conexión determinada:
+Análisis entre canales realiza dos pasadas de datos por una conexión determinada:
 
-* **Vinculación en tiempo real**: CCA intenta vincular cada visita conforme se va produciendo. Los nuevos dispositivos netos del conjunto de datos que nunca han iniciado sesión no suelen vincularse en este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
-* **Reproducción**: CCA &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. En esta fase es en la que se vinculan nuevos dispositivos a la conexión. Adobe ofrece dos intervalos de reproducción:
+* **Vinculación en tiempo real**: AEC intenta vincular cada visita conforme se va produciendo. Los nuevos dispositivos netos del conjunto de datos que nunca han iniciado sesión no suelen vincularse en este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
+* **Reproducción**: AEC &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. En esta fase es en la que se vinculan nuevos dispositivos a la conexión. Adobe ofrece dos intervalos de reproducción:
    * Diario: los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las repeticiones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
    * Semanal: los datos se reproducen una vez a la semana con una ventana retrospectiva de 7 días. Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos de menos de una semana de antigüedad no están vinculados.
 
 ## Paso 1: Vinculación en tiempo real
 
-CCA intenta vincular cada evento tras la recopilación con los dispositivos y canales conocidos. Preste atención al siguiente ejemplo, en el que Bob utiliza dos canales diferentes.
+AEC intenta vincular cada evento tras la recopilación con los dispositivos y canales conocidos. Preste atención al siguiente ejemplo, en el que Bob utiliza dos canales diferentes.
 
 *Datos tal como aparecen el día en que se recopilan:*
 
@@ -41,7 +41,7 @@ La atribución funciona tan pronto como la variable personalizada de identificac
 
 ## Paso 2: Reproducción de la vinculación
 
-A intervalos regulares (una vez a la semana o una vez al día, en función de la ventana retrospectiva seleccionada), CCA vuelve a calcular los datos históricos en función de los dispositivos que ahora reconoce. Si un dispositivo envía inicialmente datos sin autenticarse y luego inicia sesión, CCA vincula esos eventos sin autenticar con la persona correcta. La siguiente tabla representa los mismos datos que los que hemos visto anteriormente, pero muestra números diferentes basados en la reproducción de los datos.
+A intervalos regulares (una vez a la semana o una vez al día, en función de la ventana retrospectiva seleccionada), AEC vuelve a calcular los datos históricos en función de los dispositivos que ahora reconoce. Si un dispositivo envía inicialmente datos sin autenticarse y luego inicia sesión, AEC vincula esos eventos sin autenticar con la persona correcta. La siguiente tabla representa los mismos datos que los que hemos visto anteriormente, pero muestra números diferentes basados en la reproducción de los datos.
 
 *Mismos datos tras la reproducción:*
 
@@ -57,5 +57,5 @@ A intervalos regulares (una vez a la semana o una vez al día, en función de la
 
 ## Recapitulación
 
-* CCA vincula de inmediato los dispositivos conocidos, pero no vincula de forma inmediata los dispositivos nuevos o no reconocidos.
+* AEC vincula de inmediato los dispositivos conocidos, pero no vincula de forma inmediata los dispositivos nuevos o no reconocidos.
 * Los datos se reproducen a intervalos regulares y cambian los datos históricos de la conexión en función de los dispositivos que ha aprendido a identificar.
