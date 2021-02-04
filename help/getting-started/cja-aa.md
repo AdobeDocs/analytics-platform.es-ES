@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: b77165ee5994ec59e346cf6314a7e051ffa07524
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -32,7 +32,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Grupos de informes virtuales | Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de VRS | Ahora forma parte de las Vistas de datos. |
 | Procesamiento de intervalo de tiempo | CJA se basa exclusivamente en el procesamiento de intervalos del informe. |
-| Eliminación de RGPD | Tenga en cuenta que el RGPD ahora se maneja en coordinación con [!UICONTROL Adobe Experience Platform]: CJA hereda los cambios de datos que [!UICONTROL Experience Platform] realiza en los datasets subyacentes. |
+| Eliminación de RGPD | Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]: CJA hereda los cambios de datos que [!UICONTROL Experience Platform] haga en los conjuntos de datos subyacentes. |
 | Permisos de usuario/Controles de acceso de datos | CJA distingue entre administradores de productos y usuarios de Adobe Admin Console. Solo los administradores de productos pueden: 1) crear, actualizar o eliminar conexiones o Vistas de datos, 2) actualizar o eliminar proyectos, filtros o métricas de cálculos creados por otros usuarios, y 3) compartir un proyecto de Workspace con todos los usuarios. |
 | Colisión entre dispositivos y canales | Consulte [Análisis de Canales cruzados](/help/connections/cca/overview.md). |
 | Dimensiones de Analysis Workspace predeterminadas (por ejemplo: Tipo de explorador, Tipo de Remitente del reenvío, Sistema operativo, etc.) | CJA proporciona estas dimensiones de forma nativa siempre y cuando se rellenen los campos XDM base (como agente de usuario o ID de dispositivo). Para los clientes que utilizan el Conector de datos de Analytics (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
@@ -57,7 +57,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
-| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics para Target (A4T) y Visores simultáneos de medios. |
+| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics for Target (A4T) y Visores simultáneos de medios. |
 | eVars de comercialización | El comportamiento de las eVars de comercialización se puede lograr usando dimensiones dentro de una matriz de objetos, dado que un eVar de comercialización no está configurado para utilizar persistencia. Actualmente, la persistencia de la dimensión de comercialización no está disponible. |
 | Filtros de bots | Para conjuntos de datos basados en el Conector de datos de Analytics (ADC), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
 | Reglas de procesamiento | En los conjuntos de datos basados en el conector de datos de Analytics, las reglas de procesamiento siguen aplicándose. |
