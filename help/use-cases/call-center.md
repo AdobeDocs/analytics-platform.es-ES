@@ -1,11 +1,11 @@
 ---
 title: Importación de datos web y de centros de llamadas
 description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios web y de centros de llamadas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Customer Journey Analytics dispone de una función robusta y muy útil que permi
 
 ## Importación de datos web y de centros de llamadas en Platform
 
-Importe los datos en Adobe Experience Platform. Consulte [Crear un esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/tutorials/create-schema-ui.html) e [Introducir datos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
+Importe los datos que desee en Adobe Experience Platform. Consulte [Crear un esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/tutorials/create-schema-ui.html) e [Introducir datos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
 
 Al importar datos en Platform, estas sugerencias pueden ayudar a aumentar la perspectiva de los informes resultantes:
 
@@ -43,13 +43,13 @@ Al importar datos en Platform, estas sugerencias pueden ayudar a aumentar la per
 CJA requiere un identificador común para poder generar un [conjunto de datos combinado](../connections/combined-dataset.md).
 
 * Si los conjuntos de datos ya tienen un identificador común en cada evento de ambos conjuntos de datos, puede omitir este paso y continuar con la creación de una conexión.
-* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos mediante Análisis de Canales cruzados. Consulte [Información general de Análisis de Canal cruzado](/help/connections/cca/overview.md) para ver los pasos para habilitar la CCA para estos dos conjuntos de datos.
+* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos con Análisis entre canales. Consulte [Información general de Análisis entre canales](/help/connections/cca/overview.md) para ver los pasos que debe seguir para habilitar AEC para estos dos conjuntos de datos.
 
 ## Creación de una conexión en CJA
 
 [Cree una conexión](/help/connections/create-connection.md) en CJA.
 
-* Si se utiliza CCA, encontrará un nuevo conjunto de datos vinculado disponible para el uso. Utilice el campo de ID de vinculación recién creado como ID de persona.
+* Si se utiliza AEC, encontrará un nuevo conjunto de datos vinculado disponible para el uso. Utilice el campo de ID de vinculación recién creado como ID de persona.
 * De lo contrario, puede seleccionar los conjuntos de datos originales del sitio web y el centro de llamadas para utilizarlos en la conexión.
 
 ## Creación de una vista de datos
@@ -63,7 +63,7 @@ Las siguientes visualizaciones se pueden utilizar para obtener información de s
 
 ### Superposición de conjuntos de datos
 
-Esta visualización le ayuda a conocer el rendimiento de CCA a la hora de vincular los datos.
+Esta visualización le ayuda a conocer el rendimiento de AEC a la hora de vincular los datos.
 
 1. Cree dos filtros. La variable que se utiliza en estos dos filtros es la misma variable que la que se menciona anteriormente y que refleja el origen de datos de cada evento. Consulte [Crear un filtro](/help/components/filters/create-filters.md) para obtener más información.
    * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del sitio web
