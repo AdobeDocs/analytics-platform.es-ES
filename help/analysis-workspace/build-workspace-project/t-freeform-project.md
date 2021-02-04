@@ -2,9 +2,9 @@
 description: Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel improvisada.
 keywords: Analysis Workspace
 title: Creación de un proyecto de Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
 ht-degree: 100%
 
