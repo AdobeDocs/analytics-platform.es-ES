@@ -1,11 +1,11 @@
 ---
 description: Aprenda a crear un mapa visual de cualquier métrica en Analysis Workspace.
 title: Mapa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ La visualización de mapas en Analysis Workspace
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensión geográfica</b> </p> </td> 
-   <td colname="col2"> <p>Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en País, Región y Ciudad. Tenga en cuenta que no se desciende al nivel del código postal. </p> <p>Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. </p> </td> 
+   <td colname="col2"> <p>Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en País, Región y Ciudad. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. </p> <p>Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
