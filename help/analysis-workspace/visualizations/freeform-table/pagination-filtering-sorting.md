@@ -1,11 +1,11 @@
 ---
 description: Paginación, filtrado y ordenación de tablas en Workspace
 title: Paginación, filtrado y ordenación de tablas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7274e44dedb3eef89119d886e72c1454d914da0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Para obtener una descripción general de la paginación, el filtrado y la ordena
 
 ## Opciones de filtrado avanzadas {#section_36E92E31442B4EBCB052073590C1F025}
 
-Al hacer clic en el icono de filtro y, a continuación, **[!UICONTROL Mostrar avanzadas]**, junto a una dimensión en una tabla improvisada, puede filtrar con los siguientes criterios. Puede aplicar varias reglas de filtrado.
+Al hacer clic en el icono de filtro y, luego, en **[!UICONTROL Mostrar avanzado]** junto a una dimensión de una tabla improvisada, podrá filtrar según los criterios siguientes. Puede aplicar varias reglas de filtrado.
 
 * Contiene
 * No contiene
@@ -38,15 +38,15 @@ Al hacer clic en el icono de filtro y, a continuación, **[!UICONTROL Mostrar av
 
 ![](assets/advanced-filter.png)
 
-## Ordenación de Dimension en tablas improvisadas
+## Ordenación de dimensiones en tablas improvisadas
 
 >[!NOTE]
 >
->La clasificación de Dimension se aplica solamente a tablas Freeform en Customer Journey Analytics, no en Adobe Analytics tradicional. La clasificación de métricas se puede realizar en ambas versiones de Analytics.
+>La ordenación de dimensiones se aplica solamente a tablas improvisadas de Customer Journey Analytics, no de Adobe Analytics tradicional. La ordenación de métricas se puede realizar en ambas versiones de Analytics.
 
 1. En cualquier tabla improvisada de un proyecto, haga clic en la flecha situada junto al nombre de la dimensión:
 
 ![](assets/sort-dimensions.png)
 
-* La flecha hacia abajo se ordena en orden descendente y la flecha hacia arriba (predeterminada) en orden ascendente.
-* Puede ordenar las dimensiones alfabética o numéricamente. Por ejemplo, es posible que haya numerado los pasos de un flujo de trabajo y que desee ordenarlos por el número de paso. Puede ordenar una dimensión relacionada con la fecha por fecha. O bien, puede ordenar las fuentes de datos alfabéticamente, como en la captura de pantalla de arriba.
+* La flecha hacia abajo ordena en orden descendente y la flecha hacia arriba (predeterminada) lo hace en orden ascendente.
+* Puede ordenar las dimensiones de manera alfabética o numérica. Por ejemplo, es posible que haya numerado los pasos de un flujo de trabajo y que desee ordenarlos por el número de paso. Puede ordenar una dimensión relacionada con la fecha por fecha. Asimismo, puede ordenar las fuentes de datos alfabéticamente como en la captura de pantalla que se muestra arriba.
