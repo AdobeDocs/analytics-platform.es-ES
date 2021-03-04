@@ -1,11 +1,11 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: ht
-source-git-commit: b77165ee5994ec59e346cf6314a7e051ffa07524
-workflow-type: ht
-source-wordcount: '1014'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
+workflow-type: tm+mt
+source-wordcount: '1035'
+ht-degree: 93%
 
 ---
 
@@ -16,11 +16,11 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 
 ## Funciones y componentes totalmente compatibles
 
-| Función Adobe Analytics | Notas |
+| Función Adobe Analytics | Notas sobre la compatibilidad |
 | --- | --- |
 | Métricas | CJA aprovecha el Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados del Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
-| Dimensiones | CJA aprovecha XDM, admite dimensiones ilimitadas y no está vinculado a los eventos de éxito personalizados del Analytics tradicional. |
-| Variables de lista/Propiedades de lista | CJA aprovecha XDM y admite variables de lista ilimitadas. |
+| Dimensiones | CJA aprovecha XDM, admite dimensiones ilimitadas y no está vinculado a las eVars o props personalizadas del Analytics tradicional. |
+| Variables de lista/Propiedades de lista | CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
 | Intervalos de fechas | Se ha planificado lanzar una versión compatible con el calendario personalizado. |
 | Métricas calculadas | Tenga en cuenta que las métricas de cálculo existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
 | Segmentos | Ahora se denominan &quot;Filtros&quot;: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
@@ -80,6 +80,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
 | Report Builder (complemento de Excel) | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
+| Informes del almacén de datos (exportación de fila al 100 %) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. [!UICONTROL El servicio de consulta de Experience Platform ] también proporciona una interfaz para estos casos de uso en CJA. |
 
 ## Compatibilidad aún no planificada.
 
@@ -90,6 +91,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Activity Map | Aún no se ha planificado lanzar una versión compatible. |
 | Clasificación del Generador de reglas | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de resumen | Aún no se ha planificado lanzar una versión compatible. |
+| Archivo de fuentes de datos | Aún no se ha planificado lanzar una versión compatible. |
 
 ## Nunca será compatible
 
@@ -98,7 +100,4 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 * Marcadores de Reports &amp; Analytics
 * Destinatarios de Reports &amp; Analytics
 * Eventos del calendario de Reports &amp; Analytics
-* Ad Hoc Analysis
-* Informes de Data Warehouse - El [!UICONTROL Query Service de Experience Platform] será la nueva interfaz para estos casos de uso en CJA.
 * Mobile Services
-* Archivo de fuentes de datos
