@@ -2,9 +2,9 @@
 title: 'Referencia: funciones básicas'
 description: 'El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas. '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1079'
 ht-degree: 100%
 
 ---
@@ -210,7 +210,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *quart* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *quart* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *quart* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
+*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *cuarto* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *cuarto* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *cuarto* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
 
 ## Ronda
 
@@ -324,10 +324,4 @@ A modo de ejemplo, suponga que tiene una columna de tres elementos:
 
 3
 
-El promedio de esta columna es 2. La varianza de la columna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. En Ad Hoc Analysis, tendrá el siguiente aspecto:
-
-1 2/3
-
-2 2/3
-
-3 2/3
+El promedio de esta columna es 2. La varianza de la columna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
