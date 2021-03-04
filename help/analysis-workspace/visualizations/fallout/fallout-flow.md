@@ -1,11 +1,11 @@
 ---
-description: Las visualizaciones de visitas en el orden previsto muestran dónde salieron los visitantes (se desactivaron) y continuaron (se perdieron) una secuencia predefinida de páginas.
+description: Las visualizaciones de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia predefinida de páginas.
 title: Resumen de abandonos
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 95%
+source-wordcount: '515'
+ht-degree: 81%
 
 ---
 
@@ -32,11 +32,11 @@ La visualización de visitas en el orden previsto es útil para analizar:
 * Flujos de tráfico generales, con un alcance más amplio: entre las personas que visitaron la página principal, este flujo muestra cuántas fueron de allí a realizar una búsqueda y cuántas continuaron para ver un elemento específico.
 * Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de privacidad y procedieron a realizar la compra de un producto.
 
-[Tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=es-ES)  de vídeo de visualización de visitas en el orden previsto (4:15)
+[Tutorial de vídeo de Visualización de abandonos](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=es-ES)  (4:15)
 
 ## La segmentación como base para Flujo y Abandonos {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Los segmentos aplicados a los paneles de Workspace funcionan de un modo ligeramente distinto a los aplicados a los informes de visitas en el orden previsto y flujo tanto en Reports &amp; Analytics como en los Ad Hoc Analysis. La mayoría de las veces ofrecen los mismos resultados. La principal diferencia radica en que tanto Reports &amp; Analytics como los Ad Hoc Analysis aplican el segmento en cada paso de la secuencia. Esto puede producir resultados ligeramente distintos.
+Los segmentos aplicados a los paneles de Workspace funcionan de forma ligeramente diferente a los segmentos aplicados a los informes de visitas en el orden previsto y flujos en Reports &amp; Analytics en Adobe Analytics. La mayoría de las veces ofrecen los mismos resultados. La diferencia principal es que Reports &amp; Analytics aplica el segmento en cada paso de la secuencia. Esto puede producir resultados ligeramente distintos.
 
 Veamos un ejemplo de visitas en el orden previsto con dos pasos:
 
@@ -46,13 +46,13 @@ Si a continuación aplica un segmento en el nivel de panel de Workspace, el segm
 
 ![](assets/fallout_seg.png)
 
-Por el contrario, cuando Reports &amp; Analytics y los Ad Hoc Analysis calculan el segmento, este se combina del siguiente modo:
+Por el contrario, cuando Reports &amp; Analytics calcula el segmento, este se combina de esta manera:
 
 ![](assets/fallout_segments3.png)
 
-Tanto Reports &amp; Analytics como los Ad Hoc Analysis combinan el segmente con cada paso. Cuando los contenedores se encuentran en el mismo nivel que las visitas en el orden previsto (p. ej., el nivel de visita o de visitante), el resultado es una coincidencia con el número de visitas o visitantes.
+Reports &amp; Analytics combina el segmento con cada paso. Cuando los contenedores se encuentran en el mismo nivel que las visitas en el orden previsto (p. ej., el nivel de visita o de visitante), el resultado es una coincidencia con el número de visitas o visitantes.
 
-Sin embargo, si el segmento aplicado al panel es menor que el nivel de las visitas en el orden previsto (p. ej., el nivel de visita individual), muestra resultados diferentes por el modo en que el informe lo combina. Para reiterar, en la mayoría de las circunstancias, los números de Analysis Workspace coinciden con los de Reports &amp; Analytics y los de los Ad Hoc Analysis. **No** coincidirán únicamente si se cumplen todas las condiciones siguientes:
+Sin embargo, si el segmento aplicado al panel es menor que el nivel de las visitas en el orden previsto (p. ej., el nivel de visita individual), muestra resultados diferentes por el modo en que el informe lo combina. Para reiterar, en la mayoría de los casos, los números de Analysis Workspace coinciden con los de Reports &amp; Analytics. **No** coincidirán únicamente si se cumplen todas las condiciones siguientes:
 
 * El segmento no está en el mismo nivel que los abandonos.
 * El segmento incluye una variable por la que el visitante/visita puede adoptar distintos valores durante una visita/visitante.
