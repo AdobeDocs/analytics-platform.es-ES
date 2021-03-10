@@ -1,11 +1,11 @@
 ---
 title: Información general sobre Análisis entre canales
 description: Vuelva a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
-translation-type: ht
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: ht
-source-wordcount: '787'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,8 @@ Análisis entre canales es una función innovadora y sólida, pero tiene limitac
 * Solo se admiten conjuntos de datos de evento. No se admiten otros conjuntos de datos, como conjuntos de datos de búsqueda.
 * No se admiten los mapas de ID personalizados utilizados en su organización.
 * No se admiten gráficos cooperativos ni privados de Adobe.
+* El análisis entre canales no transforma el campo utilizado para la vinculación de ninguna manera. La vinculación basada en el campo utiliza el valor del campo especificado tal como existe en el conjunto de datos no enlazado dentro del lago de datos. Por ejemplo, si a veces la palabra &quot;Bob&quot; aparece en el campo y a veces aparece la palabra &quot;BOB&quot;, se tratarán como dos personas independientes.
+
 
 ## Habilitación de Análisis entre canales
 
