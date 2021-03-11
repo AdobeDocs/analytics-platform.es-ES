@@ -2,10 +2,10 @@
 title: Información general sobre Análisis entre canales
 description: Vuelva a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
 translation-type: tm+mt
-source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
+source-git-commit: cc78a3941a4179be0dbf46055fea60df8e7e8b97
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 93%
+source-wordcount: '898'
+ht-degree: 84%
 
 ---
 
@@ -59,7 +59,8 @@ Una vez que su organización cumpla todos los requisitos previos y comprenda sus
    * El nombre de columna del ID persistente del conjunto de datos deseado (identificador que aparece en cada fila)
    * El nombre de la columna del ID transitorio del conjunto de datos deseado (vínculo del identificador personal entre conjuntos de datos)
    * Su preferencia de frecuencia de [repetición](replay.md) y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
-1. El Administrador de cuentas de Adobe habilita Análisis entre canales al recibir la solicitud. Una vez activado, aparece un nuevo conjunto de datos con nueva clave generada en Adobe Experience Platform que contiene una nueva columna de ID personal. El administrador de cuentas de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
+1. El administrador de cuentas de Adobe trabajará con la ingeniería de Adobes para habilitar el análisis entre canales cuando reciba la solicitud. Una vez habilitado, aparece en Adobe Experience Platform un nuevo conjunto de datos con clave que contiene una nueva columna de ID de persona. El administrador de cuentas de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
+1. Cuando se activa por primera vez, Adobe proporciona un relleno de datos enlazados que se remontan hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, el ID transitorio debe existir en los datos no enlazados en ese momento.
 1. [Cree una conexión](../create-connection.md) en CJA usando el nuevo conjunto de datos recientemente generado y otros conjuntos de datos que desea incluir. Elija el ID personal correcto para cada conjunto de datos.
 1. [Cree una vista de datos](/help/data-views/create-dataview.md) en función de la conexión.
 
