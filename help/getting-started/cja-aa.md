@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función Adobe Analytics | Notas sobre la compatibilidad |
 | --- | --- |
 | Métricas | CJA aprovecha el Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados del Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
-| Dimensiones | CJA aprovecha XDM, admite dimensiones ilimitadas y no está vinculado a las eVars o props personalizadas del Analytics tradicional. |
+| Dimensiones | CJA aprovecha XDM, admite dimensiones ilimitadas, y no se vincula con las variables de conversión y de tráfico personalizadas del software de Analytics tradicional. |
 | Variables de lista/Propiedades de lista | CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
 | Intervalos de fechas | Se ha planificado lanzar una versión compatible con el calendario personalizado. |
 | Métricas calculadas | Tenga en cuenta que las métricas de cálculo existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
@@ -80,9 +80,9 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
 | Report Builder (complemento de Excel) | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
-| Informes del almacén de datos (exportación de fila al 100 %) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. [!UICONTROL El servicio de consulta de Experience Platform ] también proporciona una interfaz para estos casos de uso en CJA. |
+| Creación de informes de Data Warehouse (100 % de exportación de filas) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. El [!UICONTROL servicio de consulta de Experience Platform] también proporciona una interfaz para estos casos de uso en CJA. |
 
-## Compatibilidad aún no planificada.
+## Compatibilidad aún no planificada
 
 | Función | Notas |
 | --- | --- |
