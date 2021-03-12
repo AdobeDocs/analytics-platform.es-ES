@@ -2,10 +2,10 @@
 title: Información general sobre Análisis entre canales
 description: Vuelva a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
 translation-type: tm+mt
-source-git-commit: cc78a3941a4179be0dbf46055fea60df8e7e8b97
+source-git-commit: 1ac845af7255428d9df0fa7d4d733f60e014ed83
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 84%
+source-wordcount: '1076'
+ht-degree: 70%
 
 ---
 
@@ -45,7 +45,11 @@ Análisis entre canales es una función innovadora y sólida, pero tiene limitac
 * Solo se admiten conjuntos de datos de evento. No se admiten otros conjuntos de datos, como conjuntos de datos de búsqueda.
 * No se admiten los mapas de ID personalizados utilizados en su organización.
 * No se admiten gráficos cooperativos ni privados de Adobe.
-* El análisis entre canales no transforma el campo utilizado para la vinculación de ninguna manera. La vinculación basada en el campo utiliza el valor del campo especificado tal como existe en el conjunto de datos no enlazado dentro del lago de datos. Por ejemplo, si a veces la palabra &quot;Bob&quot; aparece en el campo y a veces aparece la palabra &quot;BOB&quot;, se tratarán como dos personas independientes.
+* El análisis entre canales no transforma el campo utilizado para la vinculación de ninguna manera. La vinculación basada en el campo utiliza el valor del campo especificado tal como existe en el conjunto de datos no enlazado dentro del lago de datos. El proceso de unión distingue entre mayúsculas y minúsculas. Por ejemplo, si a veces la palabra &quot;Bob&quot; aparece en el campo y a veces aparece la palabra &quot;BOB&quot;, se tratarán como dos personas independientes.
+* La vinculación basada en el campo distingue entre mayúsculas y minúsculas, y para los conjuntos de datos de Analytics generados mediante el conector de datos de Analytics, Adobe recomienda revisar cualquier regla de VISTA o regla de procesamiento que se aplique al campo de ID transitorio para garantizar que ninguna de estas reglas introduzca nuevos formularios del mismo ID. Por ejemplo, debe asegurarse de que ninguna VISTA o regla de procesamiento introduce minúsculas en el campo ID transitorio solo en una parte de los eventos.
+* La vinculación basada en el campo no combina ni concatena campos.
+* El campo de ID transitorio debe contener un solo tipo de ID (es decir, ID de un solo espacio de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
+* Si se producen varios eventos con la misma marca de tiempo para la misma ID persistente, pero con valores diferentes en el campo ID transitorio, la vinculación basada en el campo elegirá en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro especifica Ann, la vinculación basada en el campo elegirá Ann.
 
 
 ## Habilitación de Análisis entre canales
