@@ -1,11 +1,11 @@
 ---
 title: Resumen de componentes
 description: Aprenda qué componentes son las ofertas de CJA y cómo puede utilizarlas en el sistema de informes.
-translation-type: ht
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
-workflow-type: ht
-source-wordcount: '343'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c1699c4319b3b840d8420f3ffa1a4bd1c1d9a4d4
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 57%
 
 ---
 
@@ -52,4 +52,16 @@ Puede administrar componentes (de uno en uno o seleccionando más de uno) de dif
 
 Vea el vídeo sobre la creación de métricas, segmentos y fechas:
 
->[!VIDEO](https://video.tv.adobe.com/v/23979?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
+
+## Permisos de acceso a los componentes
+
+Los administradores pueden depurar (a través del [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en#manage-users-and-products)) qué componentes están expuestos a los usuarios en los informes. La tabla siguiente muestra cómo se comportan estos permisos de acceso a componentes:
+
+| Tipo de depuración | El administrador puede ver | El propietario del proyecto que no es administrador (o la función de edición) puede ver | Función duplicada no de administrador |
+| --- | --- | --- | --- |
+| **Componentes &quot;ocultos&quot; de una vista de datos** | Todos los componentes de vista de datos disponibles para la creación de informes (los componentes ocultos requieren hacer clic en &quot;Mostrar todo&quot;) | No disponible para informes | No disponible para informes |
+| **Componentes agregados o eliminados de una vista de datos** | Solo los componentes agregados a la vista de datos (ocultos o no ocultos). Los administradores no pueden informar sobre campos o componentes que no estén definidos por la vista de datos. | Solo los componentes agregados a la vista de datos o los componentes propiedad del usuario o compartidos con él. Los componentes ocultos no están disponibles (como la depuración de VRS). | Solo los componentes añadidos al DV no se ocultan y se incluyen en la depuración del proyecto. |
+| **Componentes depurados en un proyecto** | Todos los componentes de vista de datos disponibles para la creación de informes (los componentes ocultos requieren hacer clic en &quot;Mostrar todo&quot;) | Todos los componentes de vista de datos no ocultos (requiere hacer clic en &quot;mostrar todo&quot;) | Solo los componentes depurados, además de los componentes que sean propiedad del usuario o que se compartan con él |
+| **Proyecto depurado mediante una vista de datos con componentes ocultos** | Todos los componentes de datos disponibles para la creación de informes (los componentes ocultos y no depurados requieren hacer clic en &quot;Mostrar todo&quot;) | Todos los componentes de proyecto no depurados, todos los componentes de vista de datos no ocultos y cualquier componente propiedad del usuario o compartido con él | Solo los componentes depurados, además de los componentes que sean propiedad del usuario o que se compartan con él |
+
