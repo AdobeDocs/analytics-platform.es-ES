@@ -1,26 +1,22 @@
 ---
 description: Una depuración le permite limitar los componentes antes de compartir un proyecto.
-keywords: Analysis Workspace curation
-title: 'Depurar proyectos de '
+keywords: Revisión de Analysis Workspace
+title: Depurar proyectos de
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 50%
 
 ---
 
 
-# Depurar proyectos de 
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+# Depurar proyectos de
 
 La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, verá un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
 
 >[!NOTE]
-> Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran a través de Admin Console en Adobe Experience Cloud. La depuración es un filtro secundario.
+> Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran mediante el [Admin Console de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html). La depuración es un filtro secundario.
 
 ## Aplicar depuración de proyecto
 
@@ -48,23 +44,18 @@ Para eliminar la depuración del proyecto y restaurar el conjunto completo de co
 1. Haga clic en **[!UICONTROL Eliminar depuración]**.
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
-## Depuración de grupos de informes virtuales (VRS)
+## Opciones de depuración de componentes
 
-Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales (VRS)](https://docs.adobe.com/content/help/es-ES/analytics/components/virtual-report-suites/vrs-components.html).
-
->[!NOTE]
-> La depuración de grupos de informes virtuales siempre se aplica antes de la depuración de proyectos. Esto significa que, aunque el proyecto depurado incluya determinados componentes, se filtrarán si los grupos de informes virtuales depurados no los incluyen.
-
-## Opción Mostrar todos los componentes
-
-En un proyecto depurado o VRS, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos los componentes]** en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
+En un proyecto depurado, se mostrará al destinatario la opción **[!UICONTROL Mostrar todos los componentes]** en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
 
 * Nivel de permiso del usuario (administrador o no administrador)
 * Función del proyecto (propietario/editor o no)
-* Tipo de depuración aplicada (VRS o proyecto)
+* Tipo de depuración aplicada (a nivel de proyecto)
 
-| Tipo de depuración | Administradores | Propietario del proyecto no administrador o función de edición | Duplicado no administrador o función de vista |
-|---|---|---|---|
-| Grupos de informes virtuales depurados | Todos los componentes de grupos de informes virtuales no depurados | Componentes de grupos de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función | Componentes de grupos de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función |
-| Proyecto depurado | Todos los componentes de proyecto no depurados | Todos los componentes de proyecto no depurados | Componentes de proyecto no depurados que pertenecen a esta función o que se compartieron con esta función |
-| Proyecto depurado en un grupo de informes virtuales depurado | Todos los componentes no depurados siguientes: **[!UICONTROL Componentes sin depurar]** y **[!UICONTROL Componentes VRS sin depurar]** | Todos los componentes de proyecto sin depurar y los componentes VRS sin depurar de esta función o que se han compartido con ellos | Componentes de proyecto y de grupo de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función |
+| Tipo de depuración | El administrador puede ver | El propietario del proyecto que no es administrador (o la función de edición) puede ver | La función duplicada que no es de administrador puede ver |
+| --- | --- | --- | --- |
+| **Componentes &quot;ocultos&quot; de una vista de datos** | Todos los componentes de vista de datos disponibles para la creación de informes (los componentes ocultos requieren hacer clic en &quot;Mostrar todo&quot;) | No disponible para informes | No disponible para informes |
+| **Componentes agregados o eliminados de una vista de datos** | Solo los componentes agregados a la vista de datos (ocultos o no ocultos). Los administradores no pueden informar sobre campos o componentes que no estén definidos por la vista de datos. | Solo los componentes agregados a la vista de datos o los componentes propiedad del usuario o compartidos con él. Los componentes ocultos no están disponibles (como la depuración de VRS). | Solo los componentes añadidos al DV no se ocultan y se incluyen en la depuración del proyecto. |
+| **Componentes depurados en un proyecto** | Todos los componentes de vista de datos disponibles para la creación de informes (los componentes ocultos requieren hacer clic en &quot;Mostrar todo&quot;) | Todos los componentes de vista de datos no ocultos (requiere hacer clic en &quot;mostrar todo&quot;) | Solo los componentes depurados, además de los componentes que sean propiedad del usuario o que se compartan con él |
+| **Proyecto depurado mediante una vista de datos con componentes ocultos** | Todos los componentes de datos disponibles para la creación de informes (los componentes ocultos y no depurados requieren hacer clic en &quot;Mostrar todo&quot;) | Todos los componentes de proyecto no depurados, todos los componentes de vista de datos no ocultos y cualquier componente propiedad del usuario o compartido con él | Solo los componentes depurados, además de los componentes que sean propiedad del usuario o que se compartan con él |
+
