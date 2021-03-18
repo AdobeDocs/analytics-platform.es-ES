@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1ac845af7255428d9df0fa7d4d733f60e014ed83
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 70%
+ht-degree: 83%
 
 ---
 
@@ -45,7 +45,7 @@ Análisis entre canales es una función innovadora y sólida, pero tiene limitac
 * Solo se admiten conjuntos de datos de evento. No se admiten otros conjuntos de datos, como conjuntos de datos de búsqueda.
 * No se admiten los mapas de ID personalizados utilizados en su organización.
 * No se admiten gráficos cooperativos ni privados de Adobe.
-* El análisis entre canales no transforma el campo utilizado para la vinculación de ninguna manera. La vinculación basada en el campo utiliza el valor del campo especificado tal como existe en el conjunto de datos no enlazado dentro del lago de datos. El proceso de unión distingue entre mayúsculas y minúsculas. Por ejemplo, si a veces la palabra &quot;Bob&quot; aparece en el campo y a veces aparece la palabra &quot;BOB&quot;, se tratarán como dos personas independientes.
+* El análisis entre canales no transforma el campo que se utiliza para la identificación de ninguna manera. La identificación basada en campos utiliza el valor del campo especificado tal como existe en el conjunto de datos no identificado del lago de datos. El proceso de unión distingue entre mayúsculas y minúsculas. Por ejemplo, si aparece unas veces la palabra &quot;Bob&quot; en el campo y otras la palabra &quot;BOB&quot;, estas se tratarán como dos personas independientes.
 * La vinculación basada en el campo distingue entre mayúsculas y minúsculas, y para los conjuntos de datos de Analytics generados mediante el conector de datos de Analytics, Adobe recomienda revisar cualquier regla de VISTA o regla de procesamiento que se aplique al campo de ID transitorio para garantizar que ninguna de estas reglas introduzca nuevos formularios del mismo ID. Por ejemplo, debe asegurarse de que ninguna VISTA o regla de procesamiento introduce minúsculas en el campo ID transitorio solo en una parte de los eventos.
 * La vinculación basada en el campo no combina ni concatena campos.
 * El campo de ID transitorio debe contener un solo tipo de ID (es decir, ID de un solo espacio de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
@@ -63,8 +63,8 @@ Una vez que su organización cumpla todos los requisitos previos y comprenda sus
    * El nombre de columna del ID persistente del conjunto de datos deseado (identificador que aparece en cada fila)
    * El nombre de la columna del ID transitorio del conjunto de datos deseado (vínculo del identificador personal entre conjuntos de datos)
    * Su preferencia de frecuencia de [repetición](replay.md) y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
-1. El administrador de cuentas de Adobe trabajará con la ingeniería de Adobes para habilitar el análisis entre canales cuando reciba la solicitud. Una vez habilitado, aparece en Adobe Experience Platform un nuevo conjunto de datos con clave que contiene una nueva columna de ID de persona. El administrador de cuentas de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
-1. Cuando se activa por primera vez, Adobe proporciona un relleno de datos enlazados que se remontan hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, el ID transitorio debe existir en los datos no enlazados en ese momento.
+1. El administrador de cuentas de Adobe trabajará con el personal de ingeniería de Adobe para habilitar Cross-Channel Analytics cuando reciba la solicitud. Una vez habilitado, aparecerá en Adobe Experience Platform un nuevo conjunto de datos con clave con una nueva columna de ID de la persona. El administrador de cuentas de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
+1. Cuando se active por primera vez, Adobe proporcionará un relleno de datos identificados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, el ID efímero debe existir en los datos no identificados en ese momento.
 1. [Cree una conexión](../create-connection.md) en CJA usando el nuevo conjunto de datos recientemente generado y otros conjuntos de datos que desea incluir. Elija el ID personal correcto para cada conjunto de datos.
 1. [Cree una vista de datos](/help/data-views/create-dataview.md) en función de la conexión.
 
