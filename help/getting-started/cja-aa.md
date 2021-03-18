@@ -1,11 +1,11 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 
 ## Funciones y componentes totalmente compatibles
 
-| Función Adobe Analytics | Notas sobre la compatibilidad |
+| Función Adobe Analytics | Notas sobre asistencia |
 | --- | --- |
 | Métricas | CJA aprovecha el Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados del Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
 | Dimensiones | CJA aprovecha XDM, admite dimensiones ilimitadas, y no se vincula con las variables de conversión y de tráfico personalizadas del software de Analytics tradicional. |
