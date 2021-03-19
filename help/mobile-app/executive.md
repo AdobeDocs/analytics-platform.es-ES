@@ -1,23 +1,23 @@
 ---
 description: Instrucciones para usar los informes de valoración de los paneles.
-title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
+title: Guía del usuario ejecutivo sobre paneles de Analytics
 translation-type: tm+mt
-source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 91%
 
 ---
 
 
-# Paneles de Adobe Analytics: guía de inicio rápido del usuario ejecutivo
+# Paneles de Analytics: guía de inicio rápido del usuario ejecutivo
 
-La siguiente información proporciona a los usuarios ejecutivos información sobre las prácticas recomendadas para utilizar y ver paneles de Adobe Analytics. Para ver un vídeo que muestra esta información, consulte [Experiencia en la aplicación sobre paneles de Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
+La siguiente información proporciona a los usuarios ejecutivos información sobre las prácticas recomendadas para utilizar y ver paneles de Analytics. Para ver un vídeo que muestra esta información, consulte [Experiencia en la aplicación sobre paneles de Analytics](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Primeros pasos
 
-Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar.  La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Los paneles son compatibles con los sistemas operativos iOS y Android.
+Los paneles de Analytics proporcionan datos del Customer Journey Analytics en cualquier momento y lugar.  La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Los paneles son compatibles con los sistemas operativos iOS y Android.
 
 ## Más información sobre esta guía
 
@@ -27,8 +27,8 @@ Esta guía está diseñada para ayudar a los usuarios ejecutivos a leer e interp
 
 | Término | Definición |
 |--- |--- |
-| Consumidor | Ejecutivo que ve métricas clave y datos de Analytics en un dispositivo móvil |
-| Gestor de datos | Experto que busca y distribuye datos de Analytics y que configura los informes de valoración que verá el consumidor |
+| Consumidor | Ejecutivo que ve métricas clave y perspectivas de CJA en un dispositivo móvil |
+| Gestor de datos | Experto que busca y distribuye datos de CJA y configura los informes de valoración que verá el consumidor |
 | Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
 | Informe de valoración | Vista de paneles que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
@@ -44,7 +44,7 @@ Para utilizar los paneles de forma eficiente, necesitará que el gestor de datos
 
 Para acceder a los informes de valoración de los paneles, compruebe que:
 
-* Tiene unas credenciales de inicio de sesión válidas para Adobe Analytics
+* Tiene un inicio de sesión válido en el Customer Journey Analytics
 * El gestor de datos ha creado correctamente los informes de valoración móviles y los ha compartido con usted
 
 ### Descargar e instalar paneles
@@ -53,13 +53,13 @@ Para descargar e instalar la aplicación, siga los pasos que correspondan al sis
 
 **Para usuarios ejecutivos con iOS:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en CJA en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (Aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de iOS](https://apple.co/2zXq0aN)
 
 **Para usuarios ejecutivos con Android:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en CJA en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (Aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de Android](https://bit.ly/2LM38Oo)
 
