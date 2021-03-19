@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: c4338e2d53f56b97bab06a1ba862bbfd35126c2d
+source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 99%
 
 ---
 
@@ -161,6 +161,10 @@ ht-degree: 100%
    + [Casos de uso sobre ingesta de datos](use-cases/data-ingestion.md)
    + [Uso de dimensiones del canal de marketing](use-cases/marketing-channels.md)
    + [Adición de búsquedas globales a sus conjuntos de datos](use-cases/global-lookups.md)
++ Paneles de Analytics {#cja-dashboards}
+   + [Paneles de Analytics: información general](mobile-app/home.md)
+   + [Guía del administrador](mobile-app/curator.md)
+   + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + Privacidad {#cja-privacy}
    + [Información general de privacidad](privacy/privacy-overview.md)
 + [Actualizaciones de documentación de CJA](doc-changes.md)
