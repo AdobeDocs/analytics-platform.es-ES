@@ -1,11 +1,11 @@
 ---
 title: Resumen de componentes
 description: Aprenda qué componentes son las ofertas de CJA y cómo puede utilizarlas en el sistema de informes.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,4 +56,4 @@ Vea el vídeo sobre la creación de métricas, segmentos y fechas:
 
 ## Permisos de acceso a los componentes
 
-En Analysis Workspace, los administradores pueden [depurar](/help/analysis-workspace/curate-share/curate.md) qué componentes están expuestos a los usuarios en los informes.
+En Analysis Workspace, los administradores pueden [revisar](/help/analysis-workspace/curate-share/curate.md) qué componentes se exponen a los usuarios en la creación de informes.
