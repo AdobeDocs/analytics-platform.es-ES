@@ -1,11 +1,11 @@
 ---
 title: ¿Qué es una vista de datos en Customer Journey Analytics?
-description: null
+description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión CJA, como métricas, dimensiones, sesiones, etc.
 translation-type: tm+mt
-source-git-commit: 0f116524c0c3937ddddce6b50b3d9f8519e9157f
+source-git-commit: 3b9a740d50d99315a5609133917dfd0714afa6cc
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 6%
+source-wordcount: '1126'
+ht-degree: 7%
 
 ---
 
@@ -52,13 +52,15 @@ La última actualización de las vistas de datos le ofrece una mayor flexibilida
 ## Requisitos previos
 
 * Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform](/help/connections/create-connection.md).
-* Para crear o administrar una vista de datos, necesita los siguientes permisos en Adobe Admin Console:
+* Para crear o administrar una vista de datos, necesita un [conjunto de permisos en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es-ES#admin-access-permissions).
 
 ## Ver información sobre un componente
 
 Haga clic en el icono de información (i) de Workspace para ver en qué campo de esquema se basa un componente y su configuración, como una descripción.
 
 ## Configuración de vista de datos que puede anular en Workspace
+
+Algunos ajustes de la vista de datos se pueden sobrescribir en Analysis Workspace a nivel de proyecto, mientras que otros no.
 
 * Ventana retroactiva
 * Atribución de métricas
@@ -70,10 +72,6 @@ Haga clic en el icono de información (i) de Workspace para ver en qué campo de
 * Formato de métrica
 * Nombre de la vista de datos
 * asignación de Dimension
-
-## Sin valor
-
-Puede decidir qué llamar a esta dimensión Ninguno/Sin valor/No especificado y si desea que sea visible para los usuarios en los informes. Sin embargo, los administradores y los usuarios (para los proyectos que posean) pueden cambiar la configuración de visibilidad en Workspace.
 
 ## Eliminación de vistas de datos
 
