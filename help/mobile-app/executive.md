@@ -2,10 +2,10 @@
 description: Instrucciones para usar los informes de valoración de los paneles.
 title: Guía del usuario ejecutivo sobre paneles de Analytics
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: cfda4791c89a0fa1023bea6033b0244b29f45f12
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 91%
+source-wordcount: '1288'
+ht-degree: 89%
 
 ---
 
@@ -120,9 +120,9 @@ Para usar los paneles:
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-7. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en el espacio de trabajo de Analytics.
+7. Para aplicar un filtro al informe de valoración, pulse la lista desplegable de filtros y seleccione un filtro que haya configurado el gestor de datos. Los [filtros](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en el espacio de trabajo de Analytics.
 
-   ![Filtro de segmento](assets/segment_filter.png)
+   ![Filtro](assets/segment_filter.png)
 
 8. Obtener actualizaciones del informe de valoración. Si un informe de valoración no incluye todas las métricas o desgloses que le interesen, contacte con el equipo de Analytics para actualizar el informe de valoración. Una vez hecho, puede arrastrar el informe de valoración hacia abajo para actualizarlo, lo cual hará que se carguen los datos agregados recientemente.
 
