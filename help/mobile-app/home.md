@@ -2,17 +2,17 @@
 title: 'Paneles de Analytics: información general'
 description: Documentación del producto e instrucciones para paneles de Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: 8b8fa177b1fdfc760845b1fad7c145da68c320c8
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 87%
+source-wordcount: '208'
+ht-degree: 73%
 
 ---
 
 
 # Paneles [!UICONTROL de Analytics]: información general
 
-**Los  ** paneles de Analytics proporcionan datos del Customer Journey Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+**Los  ** paneles de Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar, incluido el Customer Journey Analytics. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son una colección de métricas clave y otros componentes que se presentan en un diseño en mosaico y que puede pulsar para obtener desgloses y vistas de datos de tendencias más detalladas. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
 Para obtener más información sobre [!UICONTROL paneles] de Analytics, consulte los siguientes recursos:
 
