@@ -2,10 +2,10 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos de los paneles del Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 6a2e32f6bdac3b47a74e262c0b0e0f4f93b2dc4d
+source-git-commit: 026771a61bcbd0eec8cb59a1d06f3dad0b96acf6
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 93%
+source-wordcount: '2403'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ La siguiente información enseña a los depuradores de datos de Adobe Analytics 
 
 ## Primeros pasos
 
-Los paneles de Analytics proporcionan perspectivas en cualquier momento y lugar basadas en los datos del Customer Journey Analytics. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos que se crean y comparten desde la interfaz de usuario de Customer Journey Analytics local. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
+Los paneles de Adobe Analytics proporcionan perspectivas en cualquier momento y lugar basadas en los datos de su Customer Journey Analytics. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos que se crean y comparten desde la interfaz de usuario de Customer Journey Analytics local. Los informes de valoración son una colección de métricas clave y otros componentes que se presentan en un diseño en mosaico y que puede pulsar para obtener desgloses y vistas de datos de tendencias más detalladas. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
 
 ## Más información sobre esta guía
 
@@ -26,10 +26,10 @@ Esta guía está diseñada para ayudar a los gestores de datos de los Customer J
 
 ## Glosario de términos
 
-En la tabla siguiente se describen los términos para comprender la audiencia, las funciones y el funcionamiento de los paneles de Customer Journey Analytics.
+En la siguiente tabla se describen los términos para comprender la audiencia, las funciones y el funcionamiento de los paneles de Analytics.
 
 | Término | Definición |
-| --- | --- |
+|--- |--- |
 | Consumidor | Ejecutivo que ve métricas clave y perspectivas de CJA en un dispositivo móvil |
 | Gestor de datos | Experto que busca y distribuye datos de CJA y configura los informes de valoración que verá el consumidor |
 | Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
@@ -60,31 +60,31 @@ Puede tener acceso a la plantilla [!UICONTROL informe de valoración móvil en b
 
 **Creación de un nuevo proyecto**
 
-1. Abra CJA y haga clic en la pestaña **[!UICONTROL Workspace]**.
-2. Haga clic en **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL informe de valoración móvil en blanco]**.
-3. Haga clic en **[!UICONTROL Crear]**.
+1. Abra el Customer Journey Analytics y haga clic en **Proyectos**.
+2. Haga clic en el botón **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL informe de valoración móvil en blanco]**.
+3. Haga clic en el botón **[!UICONTROL Crear]**.
 
-![Plantilla del informe de valoración](assets/new_template.png)
+![Plantilla del informe de valoración](assets/new_template_cja.png)
 
 **Agregar un proyecto**
 
-En la pantalla **[!UICONTROL Proyectos]**, en la pestaña **[!UICONTROL Componentes]**, haga clic en **[!UICONTROL Agregar]** y seleccione **[!UICONTROL Informe de valoración móvil]**.
+En la pantalla **[!UICONTROL Proyectos]**, en la ficha **[!UICONTROL Componentes]**, haga clic en el botón **[!UICONTROL Agregar]** y seleccione **[!UICONTROL informe de valoración móvil]**.
 
 ![Agregar proyectos](assets/add_project.png)
 
-**Usar [!DNL Analytics] herramientas**
+**O**
 
-En [!DNL Analytics], haga clic en el menú **[!UICONTROL Herramientas]** y seleccione **[!UICONTROL Paneles de Analytics (aplicación móvil)]**. En la pantalla siguiente, haga clic en el botón **[!UICONTROL Crear nuevo informe de valoración]**.
+En el menú **[!UICONTROL Herramientas]**, seleccione **[!UICONTROL Paneles de Analytics (aplicación móvil)]**. En la pantalla siguiente, haga clic en el botón **[!UICONTROL Crear nuevo informe de valoración]**.
 
 ### Configure el informe de valoración con datos y guárdelo
 
 Para implementar la plantilla del informe de valoración:
 
-1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique un **[!UICONTROL grupo de informes de proyecto]** cuyos datos quiera utilizar.
+1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique una **[!UICONTROL Vista de datos del proyecto]** desde la que desea utilizar los datos.
 
-   ![Selección del grupo de informes](assets/properties_save.png)
+   ![Selección de vista de fecha](assets/properties_save.png)
 
-1. Para añadir un nuevo mosaico al informe de valoración, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
+2. Para añadir un nuevo mosaico al informe de valoración, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
    ![Agregar mosaicos](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Para implementar la plantilla del informe de valoración:
    *Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.*
 
 
-1. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede añadir dimensiones pertinentes (como **[!DNL DMA Region]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de las **[!UICONTROL Propiedades]** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
+3. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede añadir dimensiones pertinentes (como **[!DNL DMA Region]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de las **[!UICONTROL Propiedades]** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
 
    ![Agregar dimensiones](assets/layer_dimensions.png)
 
-   También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo del informe de valoración.
-
    Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
+
+   ![Título Propiedades](assets/properties_tile.png)
 
    Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
@@ -106,23 +106,35 @@ Para implementar la plantilla del informe de valoración:
 
    Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
-1. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
+4. Para aplicar filtros a mosaicos individuales, arrastre un filtro desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el filtro a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
 
-   ![Generar segmentos para filtrar](assets/segment_ui.png)
+   ![Generar un filtro](assets/segment_ui.png)
 
-1. Del mismo modo, para quitar un componente que se aplica a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación en el segmento **[!DNL Mobile Customers]**:
+5. Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el filtro **Primeras visitas**:
 
    ![Remove_components](assets/new_remove.png)
 
-1. En **[!UICONTROL Propiedades]** del informe de valoración, también puede especificar de forma opcional lo siguiente:
+6. Agregue y elimine combinaciones de intervalos de fechas que se puedan seleccionar en el informe de valoración seleccionando la lista desplegable de intervalos de fechas.
 
-   * Un **[!UICONTROL intervalo de fecha predeterminado]**. Los intervalos que especifique aquí serán los mismos que se aplicarán cuando el usuario ejecutivo acceda por primera vez al informe de valoración en su aplicación.
+   ![Nueva tarjeta de puntuación](assets/new_score_card.png)
 
-   * Un **[!UICONTROL intervalo de fecha de comparación]**
+   Cada nuevo informe de valoración comienza con 6 combinaciones de intervalos de fechas que se centran en los datos de hoy y ayer. Puede eliminar intervalos de fechas innecesarios haciendo clic en la x o puede editar cada combinación de intervalos de fechas haciendo clic en el lápiz.
 
-   * Cualquier **[!UICONTROL segmento]** que se aplique a todo el informe de valoración
+   ![Nueva tarjeta de puntuación2](assets/new_score_card2.png)
 
-1. Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+   Para crear o cambiar una fecha principal, utilice la lista desplegable para seleccionar entre intervalos de fechas disponibles o arrastre y suelte un componente de fecha del carril derecho en la zona de colocación.
+
+   ![Nueva tarjeta de puntuación3](assets/new_score_card3.png)
+
+   Para crear una fecha de comparación, puede seleccionar entre cómodos preconjuntos para comparaciones de tiempo comunes en el menú desplegable. También puede arrastrar y soltar un componente de fecha desde el carril derecho.
+
+   ![Nueva tarjeta de puntuación4](assets/new_score_card4.png)
+
+   Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo haciendo clic en el icono de calendario.
+
+   ![Nueva tarjeta de puntuación4](assets/new_score_card5.png)
+
+7. Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas. Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
    ![Naming_Scorecards](assets/new_name.png)
 
@@ -158,7 +170,7 @@ Para ayudar a los usuarios ejecutivos a acceder en la aplicación a los informes
 * El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics
 * Haya creado y compartido correctamente los informes de valoración móviles de los usuarios
-* Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
+* Tienen acceso a Analysis Workspace y a la vista de datos en la que se basa el informe de valoración
 * Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Tenga en cuenta que, al compartir los informes de valoración, puede seleccionar la opción **[!UICONTROL Compartir los componentes incrustados]**.
 
 ### Ayudar a los usuarios ejecutivos de la aplicación
@@ -201,7 +213,7 @@ Para ayudar a los usuarios ejecutivos:
    * Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
 
-3. Explique al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración que comparte (el primer informe de valoración a continuación se establece en modo oscuro; consulte **[!UICONTROL Preferencias]** a continuación si cree que el usuario ejecutivo prefiere esta opción de visualización):
+3. Explique al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración que comparte (el primer informe de valoración a continuación se establece en modo oscuro); consulte **[!UICONTROL Preferencias]** a continuación si cree que el usuario ejecutivo prefiere esta opción de visualización):
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
@@ -225,13 +237,9 @@ Para ayudar a los usuarios ejecutivos:
 
    * Se incluye una tabla para mostrar los datos de las dimensiones agregadas al mosaico. Pulse en la flecha hacia abajo para seleccionar dimensiones. Si no se ha agregado ninguna dimensión al mosaico, la tabla muestra los datos del gráfico.
 
-5. Cambiar los intervalos de fecha del informe de valoración:
+5. Para cambiar los intervalos de fechas del informe de valoración, pulse el encabezado Fecha y seleccione la combinación de intervalo de fechas principal y de comparación que desee ver.
 
    ![Cambio de fechas](assets/changedate.png)
-
-   * También puede cambiar los intervalos de fechas del mismo modo en la vista Desglosar que se muestra arriba.
-
-   * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
 6. Para dejar comentarios sobre esta aplicación:
 
