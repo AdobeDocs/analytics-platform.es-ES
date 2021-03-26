@@ -7,9 +7,13 @@ getting-started-title: Introducción
 getting-started-url: https://helpx.adobe.com/es/experience-cloud-core-services/get-started.html
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/analytics/how-to/adobe-launch-publishing-process.html
-git-repo: https://github.com/AdobeDocs/analytics-platform.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.es-ES
+description: Este archivo incluye metadatos de nivel de repo que pasan a los archivos TOC.md de la guía del usuario en la repo.
 translation-type: tm+mt
-source-git-commit: 8559ff2f6e311822bc8021e98c2c8c72880bbe8a
+source-git-commit: 7f846ac36d787159d25aaf9ff7240e3a51979408
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 86%
 
 ---
 
