@@ -2,10 +2,10 @@
 title: Información general sobre las métricas calculadas
 description: 'Obtenga más información sobre '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 82%
 
 ---
 
@@ -47,3 +47,12 @@ A continuación se muestra una comparación de las competencias de las métricas
 | Administrador de métricas calculadas | <ul><li>Compartir métricas con otros.</li><li>Aprobar y ajustar métricas.</li><li>Organizar (etiquetar) sus métricas para que los demás puedan encontrarlas.</li><li>Eliminar métricas.</li><li>Cambiar el nombre de métricas.</li></ul> |
 | API para métricas calculadas | Parte del conjunto de API de Adobe Analytics 2.0. |
 
+## Plantillas de métricas calculadas en CJA
+
+| Nombre de métrica calculada | Descripción de la métrica calculada |
+| --- | --- |
+| Sesiones por persona | Número promedio de sesiones por persona |
+| Tasa de inicio de sesión | El porcentaje de tiempo que cualquier elemento de dimensión se produjo en el primer evento de una sesión. |
+| Tasa de finalización de la sesión | El porcentaje de tiempo que cualquier elemento de dimensión se produjo en el último evento de una sesión. |
+| Tiempo empleado por persona | Cantidad promedio de tiempo que una persona ha invertido en un elemento de dimensión determinado. |
+| Tiempo Empleado Por Sesión | Cantidad promedio de tiempo que una persona ha invertido por sesión en un elemento de dimensión determinado. |
