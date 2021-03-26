@@ -2,10 +2,10 @@
 title: ¿Qué es una vista de datos en Customer Journey Analytics?
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión CJA, como métricas, dimensiones, sesiones, etc.
 translation-type: tm+mt
-source-git-commit: 3b9a740d50d99315a5609133917dfd0714afa6cc
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 7%
+source-wordcount: '1127'
+ht-degree: 4%
 
 ---
 
@@ -75,4 +75,4 @@ Algunos ajustes de la vista de datos se pueden sobrescribir en Analysis Workspac
 
 ## Eliminación de vistas de datos
 
-Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparecerá un mensaje de error que indica que dejarán de funcionar todos los proyectos de Workspace que dependan de esta vista de datos eliminada.
+Si elimina una vista de datos en el [!UICONTROL Customer Journey Analytics], un mensaje de error indicará que cualquier proyecto de Workspace que dependa de esta vista de datos eliminada ya no funcionará.
