@@ -2,10 +2,10 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 translation-type: tm+mt
-source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 92%
 
 ---
 
@@ -79,3 +79,11 @@ Los contenedores de evento incluyen desgloses de una sola página basados en val
 * props de lista
 * Dimensiones de lista
 * Dimensiones de comercialización (en el contexto de eventos)
+
+## Plantilla de filtro predeterminada
+
+El análisis tradicional viene con muchos segmentos de plantilla (filtros) y métricas calculadas integrados. Muchos de ellos no se aplican en CJA, o tendrán que cambiarse de nombre o recrearse. Otros dependerán de una solución para variables según el contexto en CJA.
+
+| Nombre del filtro | Descripción |
+| --- | --- |
+| Todos los datos | Se trata de un filtro obligatorio análogo al segmento &quot;Todas las visitas&quot; de la versión tradicional de Analytics de Adobe. Se añade dinámicamente a los informes cuando se agrega una métrica a la fila de una tabla improvisada. |
