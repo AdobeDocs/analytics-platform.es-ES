@@ -2,21 +2,32 @@
 title: Casos de uso de vistas de datos en el Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '228'
+ht-degree: 0%
 
 ---
 
 
 # Casos de uso de vistas de datos
 
-Esta página está en construcción.
+Las posibilidades de
 
-## Crear métricas a partir de campos de esquema de cadenas
+## Creación de una métrica Pedidos a partir de un campo de esquema pageTitle (string)
 
-32:00
+Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL Pedidos] a partir de un campo de esquema [!UICONTROL pageTitle] que sea una cadena. Estos son los pasos:
+
+1. En la ficha Componentes, arrastre [!UICONTROL pageTitle] a la sección [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+   ![](assets/use-case1a.png)
+1. Ahora, resalte la métrica que acaba de arrastrar y cambie el nombre a [!UICONTROL Configuración de componentes] a la derecha:
+   ![](assets/orders.png)
+1. Abra el cuadro de diálogo [!UICONTROL Incluir/Excluir valores] a la derecha y especifique lo siguiente:
+   ![](assets/orders2.png)
+
+   La frase &quot;confirmación&quot; indica que se trata de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se cuenta un &quot;1&quot; para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Funciona con Attribution IQ, filtros y en cualquier otro lugar donde se pueden usar métricas estándar.
+1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con una [!UICONTROL ventana de retrospectiva] de [!UICONTROL Sesión].
+También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y especificar un modelo de atribución diferente para él, como [!UICONTROL Primer toque] y una ventana [!UICONTROL Retrospectiva] diferente, como [!UICONTROL 30 días].
 
 ## Crear varias dimensiones a partir de un campo de esquema
 
