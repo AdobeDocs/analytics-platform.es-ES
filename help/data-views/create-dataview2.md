@@ -2,42 +2,48 @@
 title: Cómo crear una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 translation-type: tm+mt
-source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
+source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
 workflow-type: tm+mt
-source-wordcount: '2464'
-ht-degree: 8%
+source-wordcount: '2621'
+ht-degree: 6%
 
 ---
 
 
 # Crear una nueva vista de datos
 
-La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándar. La creación de métricas o dimensiones le proporciona una gran flexibilidad. Anteriormente, se suponía que si tenía conjuntos de datos en Adobe Experience Platform, los campos de cadena eran dimensiones y los campos numéricos eran métricas. Para cambiar cualquiera de estos campos, tuvo que editar el esquema en Platform. La interfaz de usuario de vistas de datos ahora permite una definición más libre de métricas y dimensiones.
+>[!IMPORTANT]
+>
+>Esta funcionalidad se encuentra actualmente en prueba limitada.
 
-## Configuración de la configuración y los contenedores de vistas de datos
+La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándar. La creación de métricas o dimensiones le proporciona una gran flexibilidad. Anteriormente, se suponía que si tenía conjuntos de datos en Adobe Experience Platform, los campos de cadena se utilizaban como dimensiones y los campos numéricos como métricas. Para cambiar cualquiera de estos campos, tuvo que editar el esquema en Platform. La interfaz de usuario de vistas de datos ahora permite una [definición más libre de métricas y dimensiones](/help/data-views/data-views.md).
 
-1. En Customer Journey Analytics, vaya a la ficha **Vistas de datos**.
-2. Haga clic en **Agregar** para crear una nueva vista de datos y configurar su configuración.
+## 1. Configurar la configuración y los contenedores de vistas de datos
+
+1. En Customer Journey Analytics, vaya a la ficha **[!UICONTROL Vistas de datos]**.
+2. Haga clic en **[!UICONTROL Agregar]** para crear una nueva vista de datos y configurar su configuración.
 
 ![](assets/new-data-view.png)
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
-| Conexión | Este campo vincula la vista de datos con la conexión que ha establecido anteriormente, que contiene uno o más conjuntos de datos de Adobe Experience Platform. |
-| Nombre | Es obligatorio asignar un nombre a la vista de datos. |
-| Descripción | Una descripción detallada no es obligatoria, pero se recomienda. |
-| Zona horaria | Elija en qué zona horaria desea que se presenten los datos. |
-| Etiquetas | Las etiquetas permiten organizar las vistas de datos en categorías. |
-| Contenedores | Puede cambiar el nombre de los contenedores aquí y así es como aparecerán en cualquier proyecto de Workspace basado en esta vista de datos. Los contenedores se utilizan en filtros y visitas en el orden previsto/flujo para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
-| El nombre del contenedor de persona es... | Persona (predeterminado). El contenedor de persona incluye todas las visitas y vistas de página de los visitantes en un período de tiempo específico. Puede cambiarle el nombre por &quot;Usuario&quot; o cualquier otro término que prefiera. |
-| El nombre del contenedor de sesión es... | Sesión (predeterminada). El contenedor de sesión le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiarle el nombre por &quot;Visita&quot; o cualquier otro término que prefiera. |
-| El nombre del contenedor de eventos es... | Evento (predeterminado). El contenedor de evento individual define qué eventos de página desea incluir o excluir de un filtro. |
+| [!UICONTROL Conexión] | Este campo vincula la vista de datos con la conexión que ha establecido anteriormente, que contiene uno o más conjuntos de datos de Adobe Experience Platform. |
+| [!UICONTROL Nombre] | Es obligatorio asignar un nombre a la vista de datos. |
+| [!UICONTROL Descripción] | Una descripción detallada no es obligatoria, pero se recomienda. |
+| [!UICONTROL Zona horaria] | Elija en qué zona horaria desea que se presenten los datos. |
+| [!UICONTROL Etiquetas] | Las etiquetas permiten organizar las vistas de datos en categorías. |
+| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí y así es como aparecerán en cualquier proyecto de Workspace basado en esta vista de datos. Los contenedores se utilizan en filtros y visitas en el orden previsto/flujo para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| [!UICONTROL El nombre del contenedor de persona es...] | [!UICONTROL Persona]  (predeterminado). El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes dentro de un intervalo de tiempo especificado. Puede cambiarle el nombre por &quot;Usuario&quot; o cualquier otro término que prefiera. |
+| [!UICONTROL El nombre del contenedor de sesión es...] | [!UICONTROL Sesión]  (predeterminada). El contenedor [!UICONTROL Session] permite identificar interacciones de página, campañas o conversiones para una sesión específica. Puede cambiarle el nombre por &quot;Visita&quot; o cualquier otro término que prefiera. |
+| [!UICONTROL El nombre del contenedor de eventos es...] | [!UICONTROL Evento]  (predeterminado). El contenedor [!UICONTROL Event] define qué eventos de página desea incluir o excluir de un filtro. |
 
-A continuación, creará métricas y dimensiones a partir de elementos de esquema.
+A continuación, puede crear métricas y dimensiones a partir de elementos de esquema. También puede utilizar componentes estándar.
 
-## Creación de métricas y dimensiones a partir de elementos de esquema
+## 2. Crear métricas y dimensiones a partir de elementos de esquema
 
-1. En [!UICONTROL Customer Recorrido Analytics] > [!UICONTROL Vistas de datos], haga clic en la pestaña [!UICONTROL Componentes].
+
+
+1. En [!UICONTROL Customer Journey Analytics] > [!UICONTROL Vistas de datos], haga clic en la pestaña [!UICONTROL Componentes].
 
 ![](assets/components-tab.png)
 
@@ -45,9 +51,13 @@ Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene
 
 1. A continuación, arrastre un campo de esquema, como [!UICONTROL pageTitle], desde el carril izquierdo a la sección Métricas o Dimension .
 
-   Puede arrastrar el mismo campo de esquema a las dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras. Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensión llamada &quot;Páginas de producto&quot; y otra &quot;Páginas de error&quot;, etc. Desde **[!UICONTROL pageTitle]**; , también puede crear métricas a partir de un valor de cadena. Por ejemplo, puede crear una o más métricas **[!UICONTROL Pedidos]** con diferentes configuraciones de atribución y diferentes valores de inclusión/exclusión.
+   Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras. Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensión llamada &quot;Páginas de producto&quot; y otra &quot;Páginas de error&quot;, etc. Desde **[!UICONTROL pageTitle]**; , también puede crear métricas a partir de un valor de cadena. Por ejemplo, puede crear una o más métricas **[!UICONTROL Pedidos]** con diferentes configuraciones de atribución y diferentes valores de inclusión/exclusión.
 
    ![](assets/components-tab-3.png)
+
+   >[!NOTE]
+   >
+   >Puede arrastrar carpetas de campo de esquema completas desde el carril izquierdo y se ordenarán automáticamente en secciones tradicionales. Los campos de cadena terminarán en la sección [!UICONTROL Dimension] y los números en la sección [!UICONTROL Métricas]. O bien, puede hacer clic en **[!UICONTROL Add all]** y se agregarán todos los campos de esquema.
 
 1. Una vez que seleccione el componente, verá una serie de configuraciones a la derecha. Configure el componente mediante los ajustes que se describen a continuación.
 
@@ -66,8 +76,8 @@ Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene
 | [!UICONTROL Conjunto de datos] | Requerido. Campo no editable que muestra el tipo de campo del que procede el componente (por ejemplo, cadena, entero, etc.). Este campo puede contener varios conjuntos de datos, como cuando se combinan varios grupos de informes. |
 | [!UICONTROL Tipo de esquema] | Se refiere a si el componente es una cadena, un número entero, etc. |
 | [!UICONTROL ID de componente] | Requerido. La [API de CJA](https://adobe.io/cja-apis/docs) utiliza este campo para hacer referencia al componente. Puede hacer clic en el icono de edición y modificar este ID de componente. Sin embargo, al cambiar este ID de componente, se rompen todos los proyectos existentes de Workspace que contienen este componente.<br>Si alguna vez crea otra vista de datos que utiliza un campo diferente para una dimensión pageTitle , puede cambiarle el nombre y hacer compatible la vista de datos cruzados de dimensión. |
-| Ruta | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
-| Ocultar componente en creación de informes | Predeterminado = desactivado. Permite depurar el componente fuera de la vista de datos cuando se utiliza en los informes. Esto no afecta a los permisos, solo a la depuración de componentes. En otras palabras, puede ocultar el componente de los usuarios que no sean administradores en los informes. Los administradores aún pueden acceder a él haciendo clic en [!UICONTROL Mostrar todos los componentes] en un proyecto de Analysis Workspace. |
+| [!UICONTROL Ruta] | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
+| [!UICONTROL Ocultar componente en creación de informes] | Predeterminado = desactivado. Permite depurar el componente fuera de la vista de datos cuando se utiliza en los informes. Esto no afecta a los permisos, solo a la depuración de componentes. En otras palabras, puede ocultar el componente de los usuarios que no sean administradores en los informes. Los administradores aún pueden acceder a él haciendo clic en [!UICONTROL Mostrar todos los componentes] en un proyecto de Analysis Workspace. |
 
 ### Configurar las opciones de formato
 
@@ -121,18 +131,20 @@ Por ejemplo, puede crear una dimensión fuera del campo pageTitle , pero llamarl
 
 [!UICONTROL Las opciones sin ] valor son análogas a las opciones   sin especificar o   sin evaluar en los informes. En la interfaz de usuario de vistas de datos, componente por componente, puede decidir cómo desea que se traten estos valores en los informes. También puede cambiar el nombre de [!UICONTROL Ningún valor] por otro que se adapte mejor a su entorno, como [!UICONTROL Null], [!UICONTROL Not set] u otros.
 
-Importante: Al cambiar este campo a un valor personalizado, el valor personalizado se tratará como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado.
+>[!NOTE]
+>
+>Al cambiar este campo a un valor personalizado, el valor personalizado se tratará como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado.
 
-Tenga en cuenta también que, independientemente de lo que especifique en este campo, se puede usar para el tratamiento especial por parte de la interfaz del usuario del elemento de línea &quot;Sin valor&quot; en los informes, tal como se indica en la configuración &quot;Opciones sin valor&quot;. (No estoy seguro de lo que esto significa).
+Tenga en cuenta también que, independientemente de lo que especifique en este campo, se puede usar para el tratamiento especial por parte de la interfaz de usuario del elemento de línea [!UICONTROL Ningún valor] en los informes, tal como se indica en la configuración [!UICONTROL Opciones sin valor].
 
 ![](assets/no-value-options.png)
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
-| Si se muestra, llame a [!UICONTROL Sin valor]... | Aquí es donde puede cambiar el nombre de **[!UICONTROL Ningún valor]** por otro. |
-| No mostrar **[!UICONTROL Ningún valor]** de forma predeterminada | No muestra este valor en los informes. |
-| Mostrar **[!UICONTROL Sin valor]** de forma predeterminada | No muestra este valor en los informes. |
-| Tratar **[!UICONTROL Ningún valor]** como un valor | Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Sin valor]** por &quot;Escritorio&quot;. |
+| [!UICONTROL Si se muestra, llame a No value]... | Aquí es donde puede cambiar el nombre de **[!UICONTROL Ningún valor]** por otro. |
+| [!UICONTROL No mostrar ningún valor de forma predeterminada] | No muestra este valor en los informes. |
+| [!UICONTROL Mostrar valor No de forma predeterminada] | No muestra este valor en los informes. |
+| [!UICONTROL Tratar Sin valor como valor] | Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Sin valor]** por &quot;Escritorio&quot;. |
 
 ### Configuración de la persistencia
 
@@ -142,9 +154,9 @@ Estos ajustes son similares a los ajustes de eVar de la versión tradicional de 
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
-| Establecer persistencia | Tecla de alternancia |
-| Asignación | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: Más reciente, Original, Instance, All. Si desea que un valor persista (similar a eVars en la versión tradicional de Analytics), aquí es donde lo configuraría. La única diferencia clave es que la persistencia máxima que puede establecer es de 90 días. Además, [!UICONTROL No caducar] no es una opción. |
-| Caducidad | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: Sesión (predeterminada), Persona, Tiempo, Métrica. Es posible que deba poder caducar la dimensión de una compra (como los términos de búsqueda internos u otros casos de uso de comercialización). &quot;Métrica&quot; permite especificar cualquiera de las métricas definidas como la caducidad de esta dimensión (por ejemplo, una métrica &quot;Compra&quot;). |
+| [!UICONTROL Establecer persistencia] | Tecla de alternancia |
+| [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: Más reciente, Original, Instance, All. Si desea que un valor persista (similar a eVars en la versión tradicional de Analytics), aquí es donde lo configuraría. La única diferencia clave es que la persistencia máxima que puede establecer es de 90 días. Además, [!UICONTROL No caducar] no es una opción. |
+| [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: [!UICONTROL Sesión] (predeterminada), [!UICONTROL Persona], [!UICONTROL Tiempo], [!UICONTROL Métrica]. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización).  Métricas le permite especificar cualquiera de las métricas definidas como la caducidad de esta dimensión (por ejemplo, una   métrica de compra). |
 
 ### Configurar la configuración de Agrupamiento de valores
 
@@ -152,35 +164,35 @@ Estos ajustes son similares a los ajustes de eVar de la versión tradicional de 
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
-| Valor del cubo | Permite crear una versión agrupada de una dimensión numérica. Esto permite informar sobre bloques de ingresos u otros valores numéricos como dimensión en los informes. Puede crear hasta 5 bloques. |
-| Hasta | Permite especificar los límites del primer bloque de dimensiones numéricas. Esto solo se aplica a dimensiones numéricas. |
-| Entre y hasta | Permite especificar los límites de los contenedores de dimensiones numéricas subsiguientes. |
-| Añadir cubo | Permite agregar otro bloque a la agrupación de dimensiones numéricas. |
+| [!UICONTROL Valor del cubo] | Permite crear una versión agrupada de una dimensión numérica. Esto permite informar sobre bloques de ingresos u otros valores numéricos como dimensión en los informes. Puede crear hasta 5 bloques. |
+| [!UICONTROL Hasta] | Permite especificar los límites del primer bloque de dimensiones numéricas. Esto solo se aplica a dimensiones numéricas. |
+| [!UICONTROL Entre y hasta] | Permite especificar los límites de los contenedores de dimensiones numéricas subsiguientes. |
+| [!UICONTROL Añadir cubo] | Permite agregar otro bloque a la agrupación de dimensiones numéricas. |
 
-## Uso de componentes estándar
+### Usar [!UICONTROL componentes estándar]
 
 Además de crear métricas y dimensiones a partir de elementos de esquema, también puede utilizar componentes estándar en las vistas de datos.
 
-Los componentes estándar son componentes que no se generan a partir de los campos de esquema del conjunto de datos, sino que se generan en el sistema. Algunos componentes del sistema son necesarios en cualquier vista de datos para facilitar las funciones de informes en Analysis Workspace, mientras que otros componentes del sistema son opcionales.
+[!UICONTROL Los ] componentes estándar son componentes que no se generan a partir de los campos de esquema del conjunto de datos, sino que se generan en el sistema. Algunos componentes del sistema son necesarios en cualquier vista de datos para facilitar las funciones de informes en Analysis Workspace, mientras que otros componentes del sistema son opcionales.
 
-![](RackMultipart20210326-4-374d6q_html_1100d8d54f8c09ac.png)
+![](assets/standard-components.png)
 
 Componentes estándar necesarios
 
 | Nombre del componente | Dimension o métrica | Notas |
 | --- | --- | --- |
-| Personas | Métrica | Anteriormente conocidos como [!UICONTROL Visitantes únicos] en Analytics tradicional. Esta métrica se basa en el ID de persona especificado en una Conexión. |
-| Sesiones | Métrica | Anteriormente conocido como [!UICONTROL Visitas] en la versión tradicional de Analytics. Esta métrica se basa en la configuración de sesionización especificada a continuación. |
-| Eventos | Métrica | Anteriormente conocido como [!UICONTROL Ocurrencias] en la versión tradicional de Analytics. Esta métrica representa el número de filas de todos los conjuntos de datos de evento de una conexión. |
-| Día | Dimensión |  |
-| Semana | Dimensión |  |
-| Mes | Dimensión |  |
-| Trimestre | Dimensión |  |
-| Año | Dimensión |  |
-| Hora | Dimensión |  |
-| Minuto | Dimensión |  |
+| [!UICONTROL People] | Métrica | Anteriormente conocidos como [!UICONTROL Visitantes únicos] en Analytics tradicional. Esta métrica se basa en el ID de persona especificado en una Conexión. |
+| [!UICONTROL Sesiones] | Métrica | Anteriormente conocido como [!UICONTROL Visitas] en la versión tradicional de Analytics. Esta métrica se basa en la configuración de sesionización especificada a continuación. |
+| [!UICONTROL Eventos] | Métrica | Anteriormente conocido como [!UICONTROL Ocurrencias] en la versión tradicional de Analytics. Esta métrica representa el número de filas de todos los conjuntos de datos de evento de una conexión. |
+| [!UICONTROL Día] | Dimensión |  |
+| [!UICONTROL Semana] | Dimensión |  |
+| [!UICONTROL Mes] | Dimensión |  |
+| [!UICONTROL Trimestre] | Dimensión |  |
+| [!UICONTROL Año] | Dimensión |  |
+| [!UICONTROL Hora] | Dimensión |  |
+| [!UICONTROL Minuto] | Dimensión |  |
 
-## Componentes estándar opcionales
+### Componentes estándar opcionales
 
 Algunos componentes del sistema son necesarios en cualquier vista de datos para facilitar las funciones de informes en Analysis Workspace, mientras que los siguientes son opcionales.
 
@@ -190,7 +202,24 @@ Algunos componentes del sistema son necesarios en cualquier vista de datos para 
 | [!UICONTROL La sesión termina] | Métrica | Esta métrica cuenta el número de eventos que fueron el último evento de una sesión. De forma similar a [!UICONTROL Session Starts], también se puede utilizar en una definición de filtro para filtrar cosas hasta el último evento de cada sesión. Tenga en cuenta que este comportamiento es diferente al de [!UICONTROL Salidas], ya que siempre cuenta el último evento de una sesión, no el último valor presente para una dimensión en una sesión. |
 | [!UICONTROL Tiempo empleado (segundos)] | Métrica | La métrica [!UICONTROL Tiempo empleado] funciona de forma similar a como en la versión tradicional de Adobe Analytics, lo que suma el tiempo entre dos valores diferentes para una dimensión. Sin embargo, con la métrica Inicio de sesión y Finalizaciones de sesión , los clientes pueden construir las métricas calculadas [!UICONTROL Tiempo empleado por persona] y [!UICONTROL Tiempo empleado por sesión] (consulte los filtros OOTB y las métricas de cálculo a continuación). |
 | [!UICONTROL Tiempo empleado por evento] | Dimensión | Desde el punto de vista funcional, se trata simplemente de un agrupamiento de la métrica anterior. Suministramos contenedores predeterminados, pero le permitimos cambiar los contenedores a lo que desee. |
-| Tiempo empleado por sesión | Dimensión |  |
-| Tiempo empleado por persona | Dimensión |  |
-| ID de lote | Dimensión |  |
-| ID de conjunto de datos | Dimensión |  |
+| [!UICONTROL Tiempo empleado por sesión] | Dimensión |  |
+| [!UICONTROL Tiempo empleado por persona] | Dimensión |  |
+| [!UICONTROL ID de lote] | Dimensión |  |
+| [!UICONTROL ID de conjunto de datos] | Dimensión |  |
+
+### Filtrar campos y dimensiones/métricas de esquema
+
+Puede filtrar los campos de esquema en el carril izquierdo según los siguientes tipos de datos:
+
+![](assets/filter-fields.png)
+
+También puede filtrar por conjuntos de datos y por si un campo de esquema contiene datos o si es una identidad:
+
+![](assets/filter-other.png)
+
+## 3. Añadir un filtro global a la vista de datos
+
+Puede agregar filtros (anteriormente denominados segmentos) que se apliquen a toda la vista de datos, de forma similar a la vista filtrada de datos en los grupos de informes virtuales (Adobe Analytics tradicional).
+
+1. Haga clic en la pestaña [!UICONTROL Settings] en [!UICONTROL Data views].
+1. Arrastre un filtro desde la lista en el carril izquierdo al campo [!UICONTROL Add filters] .
