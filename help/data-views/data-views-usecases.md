@@ -2,15 +2,19 @@
 title: Casos de uso de vistas de datos en el Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
+source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '308'
 ht-degree: 1%
 
 ---
 
 
 # Casos de uso de vistas de datos
+
+>[!IMPORTANT]
+>
+>Esta funcionalidad se encuentra actualmente en prueba limitada.
 
 Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics.
 
