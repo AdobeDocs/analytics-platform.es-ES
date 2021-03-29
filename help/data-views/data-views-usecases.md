@@ -2,9 +2,9 @@
 title: Casos de uso de vistas de datos en el Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 6ca345f61ccdcdf9e3befd733a30dcb3fc79ee7a
+source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Casos de uso de vistas de datos
 
-Las posibilidades de
+Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics.
 
 ## Creación de una métrica Pedidos a partir de un campo de esquema pageTitle (string)
 
