@@ -2,7 +2,7 @@
 title: Cómo crear una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 translation-type: tm+mt
-source-git-commit: 6cfab7fc7ce3360b5ea2ed8bdd7f3e0a8e76a24d
+source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
 workflow-type: tm+mt
 source-wordcount: '2464'
 ht-degree: 8%
@@ -19,7 +19,7 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 1. En Customer Journey Analytics, vaya a la ficha **Vistas de datos**.
 2. Haga clic en **Agregar** para crear una nueva vista de datos y configurar su configuración.
 
-![](assets/)
+![](assets/new-data-view.png)
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
