@@ -2,10 +2,10 @@
 title: Casos de uso de vistas de datos en el Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
+source-git-commit: 6ca345f61ccdcdf9e3befd733a30dcb3fc79ee7a
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 0%
+source-wordcount: '288'
+ht-degree: 1%
 
 ---
 
@@ -29,10 +29,12 @@ Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL P
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con una [!UICONTROL ventana de retrospectiva] de [!UICONTROL Sesión].
 También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y especificar un modelo de atribución diferente para él, como [!UICONTROL Primer toque] y una ventana [!UICONTROL Retrospectiva] diferente, como [!UICONTROL 30 días].
 
-## Crear varias dimensiones a partir de un campo de esquema
-
 ## Usar números enteros como dimensiones
 
-34:00
+Anteriormente, los enteros se trataban automáticamente como métricas en CJA. Ahora, los números (incluidos los eventos personalizados de Adobe Analytics) pueden tratarse como dimensiones. Vea el siguiente ejemplo:
 
-Incluida la creación de contenedores
+1. Arrastre el entero [!UICONTROL call_length_min] a la sección [!UICONTROL Dimension] en [!UICONTROL Componentes incluidos]:
+   ![](assets/integers.png)
+
+1. Ahora puede agregar [!UICONTROL Value Bucketing] para presentar esta dimensión en forma de agrupamiento en los informes. De lo contrario, cada instancia de esta dimensión aparecería como un elemento de línea en Workspace.
+   ![](assets/bucketing.png)
