@@ -2,9 +2,9 @@
 title: Casos de uso de vistas de datos en el Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Esta funcionalidad se encuentra actualmente en prueba limitada.
+>Esta funcionalidad estará disponible para el público general el 22 de abril de 2021.
 
 Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics.
 
@@ -38,7 +38,12 @@ También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y e
 Anteriormente, los enteros se trataban automáticamente como métricas en CJA. Ahora, los números (incluidos los eventos personalizados de Adobe Analytics) pueden tratarse como dimensiones. Vea el siguiente ejemplo:
 
 1. Arrastre el entero [!UICONTROL call_length_min] a la sección [!UICONTROL Dimension] en [!UICONTROL Componentes incluidos]:
+
    ![](assets/integers.png)
 
-1. Ahora puede agregar [!UICONTROL Value Bucketing] para presentar esta dimensión en forma de agrupamiento en los informes. De lo contrario, cada instancia de esta dimensión aparecería como un elemento de línea en Workspace.
+1. Ahora puede agregar [!UICONTROL Value Bucketing] para presentar esta dimensión en forma de agrupamiento en los informes. (Sin agrupar, cada instancia de esta dimensión aparecería como un elemento de línea en los informes de Workspace).
+
    ![](assets/bucketing.png)
+
+Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview2.md).
+Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
