@@ -2,9 +2,9 @@
 title: Cómo crear una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: 6d3298731ae387f626aeadc67529482e9455775f
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2566'
 ht-degree: 6%
 
 ---
@@ -122,7 +122,6 @@ Por ejemplo, puede crear una dimensión fuera del campo pageTitle , pero llamarl
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
-| [!UICONTROL Contar valores] | Esto permite crear un recuento del número de veces que un campo booleano se estableció en `true`; como métrica. Por ejemplo, el número de [!UICONTROL Vistas de página] donde un campo booleano llamado `isPage` está establecido en `true`. |
 | [!UICONTROL Contar instancias] | Permite especificar si un campo numérico o de tipo de fecha utilizado como métrica debe contar las veces que se estableció en lugar del valor en sí.<br> Si desea añadir las instancias de un campo numérico y desea simplemente añadir el número de veces que un campo estaba  ** más alejado que el valor real incluido en él.<br>Esto resulta útil para crear una   métrica de pedidos a partir de un campo de   ingresos, por ejemplo. Si se establecieron ingresos, entonces queremos contar 1 pedido único en lugar de la cantidad de ingresos numérica. |
 
 ### Configurar [!UICONTROL Opciones sin valor]
@@ -160,7 +159,7 @@ Por ejemplo, un bloque de &quot;entre 5 y 10&quot; aparecerá como un elemento d
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
-| [!UICONTROL Valor del cubo] | Permite crear una versión agrupada de una dimensión numérica. Esto permite informar sobre bloques de ingresos u otros valores numéricos como dimensión en los informes. Puede crear hasta 5 bloques. |
+| [!UICONTROL Valor del cubo] | Permite crear una versión agrupada de una dimensión numérica. Esto permite informar sobre bloques de ingresos u otros valores numéricos como dimensión en los informes. |
 | [!UICONTROL Hasta] | Permite especificar los límites del primer bloque de dimensiones numéricas. Esto solo se aplica a dimensiones numéricas. |
 | [!UICONTROL Entre y hasta] | Permite especificar los límites de los contenedores de dimensiones numéricas subsiguientes. |
 | [!UICONTROL Añadir cubo] | Permite agregar otro bloque a la agrupación de dimensiones numéricas. |
