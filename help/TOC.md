@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 0f116524c0c3937ddddce6b50b3d9f8519e9157f
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 98%
+source-wordcount: '456'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,9 @@ ht-degree: 98%
 + Vistas de datos {#cja-dataviews}
    + [Resumen de las vistas de datos](data-views/data-views.md)
    + [Creación de una vista de datos](data-views/create-dataview.md)
+   + [Crear una vista de datos 2](data-views/create-dataview2.md)
    + [Configurar vistas de datos y atribución](data-views/configure-dataviews.md)
+   + [Casos de uso de vistas de datos](data-views/data-views-usecases.md)
 + Proyectos de Workspace {#cja-workspace}
    + [Información general de Analysis Workspace](analysis-workspace/home.md)
    + [Realizar análisis básico](analysis-workspace/perform-basic-analysis.md)
