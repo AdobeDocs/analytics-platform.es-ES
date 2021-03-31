@@ -2,9 +2,9 @@
 title: Cómo crear una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2609'
 ht-degree: 6%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Esta funcionalidad se encuentra actualmente en prueba limitada.
+>Esta funcionalidad estará disponible para el público general el 22 de abril de 2021.
 
-La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándar. La creación de métricas o dimensiones le proporciona una gran flexibilidad. Anteriormente, se suponía que si tenía conjuntos de datos en Adobe Experience Platform, los campos de cadena se utilizaban como dimensiones y los campos numéricos como métricas. Para cambiar cualquiera de estos campos, tuvo que editar el esquema en Platform. La interfaz de usuario de vistas de datos ahora permite una [definición más libre de métricas y dimensiones](/help/data-views/data-views.md).
+La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándar. La creación de métricas o dimensiones le proporciona una gran flexibilidad. Anteriormente, se suponía que si tenía conjuntos de datos en Adobe Experience Platform, los campos de cadena se utilizaban como dimensiones y los campos numéricos como métricas. Para cambiar cualquiera de estos campos, tuvo que editar el esquema en Platform. La interfaz de usuario de vistas de datos ahora permite una [definición más libre de métricas y dimensiones](/help/data-views/data-views.md). Para ver más casos de uso, consulte [Casos de uso de vistas de datos](/help/data-views/data-views-usecases.md).
 
 ## 1. Configurar la configuración y los contenedores de vistas de datos
 
@@ -40,8 +40,6 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 A continuación, puede crear métricas y dimensiones a partir de elementos de esquema. También puede utilizar componentes estándar.
 
 ## 2. Crear métricas y dimensiones a partir de elementos de esquema
-
-
 
 1. En [!UICONTROL Customer Journey Analytics] > [!UICONTROL Vistas de datos], haga clic en la pestaña [!UICONTROL Componentes].
 
@@ -112,7 +110,7 @@ Por ejemplo, puede crear una dimensión fuera del campo pageTitle , pero llamarl
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
-| [!UICONTROL Con distinción de mayúsculas y minúsculas] | Predeterminado = Activado. Esta configuración es ligeramente diferente para Dimension y para métricas.<ul><li>**Métrica**: Esta configuración solo se aplica a la sección  [!UICONTROL Incluir/Excluir ] valores . Le permite decir si el filtro que está aplicando debe distinguir entre mayúsculas y minúsculas.</li><li>**Dimension** : Esta configuración determina si los datos de esta dimensión deben agregarse de una manera que distingue entre mayúsculas y minúsculas o si no. Esto cambia la forma en que se ejecutan los informes/filtros/ajustes de atribución para un campo de cadena.</li></ul> |
+| [!UICONTROL Con distinción de mayúsculas y minúsculas] | Predeterminado = Activado. Esta configuración solo se aplica a la sección [!UICONTROL Incluir/Excluir valores]. Le permite decir si la regla de inclusión/exclusión que está aplicando debe distinguir entre mayúsculas y minúsculas. |
 | [!UICONTROL Coincidencias] | Le permite especificar qué valores desea tener en cuenta para los informes antes de la atribución y segmentación (por ejemplo, usar solo valores que contengan la frase &quot;error&quot;). Puede especificar: **[!UICONTROL Si se cumplen todos los criterios]** o **[!UICONTROL Si se cumplen los criterios]**. |
 | [!UICONTROL Criterios] | Permite especificar la lógica de coincidencia que debe aplicarse a una regla de filtro específica.<ul><li>**Cadena**: Contiene la frase, Contiene cualquier término, Contiene todos los términos, No contiene ningún término, No contiene la frase, Es igual a, No es igual a, Comienza con, Finaliza con</li><li>**Doble/entero**: igual, no igual, es bueno que, es menor que, es bueno o igual que, es menor o igual que</li><li>**Fecha**: igual, no igual, es posterior a, es anterior, ocurre en</li></ul> |
 | [!UICONTROL Operador de coincidencia] | Permite especificar el operando de coincidencia al que se debe aplicar el operador de coincidencia.<ul><li>**Cadena**: Campo de texto</li><li>**Doble/entero**: Campo de texto con flechas arriba/abajo para valores numéricos</li><li>**Fecha**: Selector de granularidad de día (calendario)</li><li>**Fecha y hora**: Selector de granularidad de fecha y hora</li></ul> |
@@ -131,10 +129,6 @@ Por ejemplo, puede crear una dimensión fuera del campo pageTitle , pero llamarl
 
 [!UICONTROL Las opciones sin ] valor son análogas a las opciones   sin especificar o   sin evaluar en los informes. En la interfaz de usuario de vistas de datos, componente por componente, puede decidir cómo desea que se traten estos valores en los informes. También puede cambiar el nombre de [!UICONTROL Ningún valor] por otro que se adapte mejor a su entorno, como [!UICONTROL Null], [!UICONTROL Not set] u otros.
 
->[!NOTE]
->
->Al cambiar este campo a un valor personalizado, el valor personalizado se tratará como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado.
-
 Tenga en cuenta también que, independientemente de lo que especifique en este campo, se puede usar para el tratamiento especial por parte de la interfaz de usuario del elemento de línea [!UICONTROL Ningún valor] en los informes, tal como se indica en la configuración [!UICONTROL Opciones sin valor].
 
 ![](assets/no-value-options.png)
@@ -144,7 +138,7 @@ Tenga en cuenta también que, independientemente de lo que especifique en este c
 | [!UICONTROL Si se muestra, llame a No value]... | Aquí es donde puede cambiar el nombre de **[!UICONTROL Ningún valor]** por otro. |
 | [!UICONTROL No mostrar ningún valor de forma predeterminada] | No muestra este valor en los informes. |
 | [!UICONTROL Mostrar valor No de forma predeterminada] | No muestra este valor en los informes. |
-| [!UICONTROL Tratar Sin valor como valor] | Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Sin valor]** por &quot;Escritorio&quot;. |
+| [!UICONTROL Tratar Sin valor como valor] | Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Sin valor]** por &quot;Escritorio&quot;. Tenga en cuenta que cuando cambie este campo a un valor personalizado, el valor personalizado se tratará como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado. |
 
 ### Configuración de la persistencia
 
@@ -155,10 +149,12 @@ Estos ajustes son similares a los ajustes de eVar de la versión tradicional de 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
 | [!UICONTROL Establecer persistencia] | Tecla de alternancia |
-| [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: Más reciente, Original, Instance, All. Si desea que un valor persista (similar a eVars en la versión tradicional de Analytics), aquí es donde lo configuraría. La única diferencia clave es que la persistencia máxima que puede establecer es de 90 días. Además, [!UICONTROL No caducar] no es una opción. |
+| [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: [!UICONTROL Más reciente], [!UICONTROL Original], [!UICONTROL Instancia], [!UICONTROL Todos]. Si desea que un valor persista (similar a eVars en la versión tradicional de Analytics), aquí es donde lo configuraría. La única diferencia clave es que la persistencia máxima que puede establecer es de 90 días. Además, [!UICONTROL No caducar] no es una opción. |
 | [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: [!UICONTROL Sesión] (predeterminada), [!UICONTROL Persona], [!UICONTROL Tiempo], [!UICONTROL Métrica]. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización).  Métricas le permite especificar cualquiera de las métricas definidas como la caducidad de esta dimensión (por ejemplo, una   métrica de compra). |
 
 ### Configurar la configuración de Agrupamiento de valores
+
+Por ejemplo, un bloque de &quot;entre 5 y 10&quot; aparecerá como un elemento de línea de &quot;5 a 10&quot; en los informes de Workspace.
 
 ![](assets/value-bucketing.png)
 
@@ -173,7 +169,7 @@ Estos ajustes son similares a los ajustes de eVar de la versión tradicional de 
 
 Además de crear métricas y dimensiones a partir de elementos de esquema, también puede utilizar componentes estándar en las vistas de datos.
 
-[!UICONTROL Los ] componentes estándar son componentes que no se generan a partir de los campos de esquema del conjunto de datos, sino que se generan en el sistema. Algunos componentes del sistema son necesarios en cualquier vista de datos para facilitar las funciones de informes en Analysis Workspace, mientras que otros componentes del sistema son opcionales.
+[!UICONTROL Los ] componentes estándar son componentes que no se generan a partir de los campos de esquema del conjunto de datos, sino que se generan en el sistema. Algunos componentes del sistema son necesarios en cualquier vista de datos para facilitar las funciones de generación de informes en Analysis Workspace, mientras que otros componentes del sistema son opcionales.
 
 ![](assets/standard-components.png)
 
