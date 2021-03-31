@@ -2,9 +2,9 @@
 title: ¿Qué es una vista de datos en Customer Journey Analytics?
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión CJA, como métricas, dimensiones, sesiones, etc.
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1133'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Esta funcionalidad se encuentra actualmente en prueba limitada.
+>Esta funcionalidad estará disponible para el público general el 22 de abril de 2021.
 
 Una vista de datos se encuentra sobre un Customer Journey Analytics (CJA) [connection](/help/connections/create-connection.md). Una conexión combina uno o más conjuntos de datos de Adobe Experience Platform y los conecta a CJA. La vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión, como métricas, dimensiones, sesiones, etc. Las vistas de datos se definen a fin de prepararse para la creación de informes de los datos en Workspace.
 
@@ -37,15 +37,15 @@ La última actualización de las vistas de datos le ofrece una mayor flexibilida
 
 * **Puede editar el ID de un componente** ; se utiliza para la compatibilidad con vistas de datos cruzados. El ID de componente es lo que utiliza la API de informes para identificar una métrica o dimensión específica. Dado que puede crear arbitrariamente muchas métricas o dimensiones a partir de un campo XDM, le daremos la opción de definir su propio ID de componente. Como resultado, una métrica que utilice en un proyecto de Workspace puede ser compatible con todas las vistas de datos (y la API), incluso si se basan en campos totalmente diferentes de diferentes conexiones o vistas de datos o de un esquema diferente en XDM.
 
-* **Puede especificar el nombre descriptivo del componente que aparecerá en Analysis Workspace**. De forma predeterminada, este nombre se hereda del nombre para mostrar del esquema, pero ahora puede sobrescribirlo para esta vista de datos específica. (Así también funciona la depuración de componentes en los grupos de informes virtuales en la versión tradicional de Adobe Analytics).
+* **Puede especificar el nombre descriptivo del componente que aparecerá en Analysis Workspace**. De forma predeterminada, este nombre se hereda del nombre para mostrar del esquema, pero ahora se puede sobrescribir para esta vista de datos específica. (Así también funciona la depuración de componentes en los grupos de informes virtuales en la versión tradicional de Adobe Analytics).
 
 * **Puede ver más información relacionada con el esquema sobre los componentes** , como: de qué tipo de conjunto de datos (evento, perfil, búsqueda) procede; qué tipo de esquema (cadena, entero, etc.) procedía de; y su ruta de esquema (el campo XDM en el que se basa).
 
 * **Puede etiquetar un** componente para que sea más fácil buscarlo en Workspace.
 
-* **Puede ocultar un componente en los informes**. Algunas métricas y dimensiones de la configuración de DV2 requerían una segunda métrica o dimensión para su configuración (como la deduplicación de métricas o la deduplicación de compras, por ejemplo). Esto le permite definir una métrica o dimensión que se puede usar en la configuración de otra métrica o dimensión sin estar expuesta directamente en los informes (como el ID de compra).
+* **Puede ocultar un componente en los informes**. Algunas métricas y dimensiones requieren una segunda métrica o dimensión para su configuración (como la deduplicación de métricas o la deduplicación de compras, por ejemplo). Esto le permite definir una métrica o dimensión que se puede usar en la configuración de otra métrica o dimensión sin estar expuesta directamente en los informes (como el ID de compra).
 
-* **Puede aplicar formato a una métrica** , como mostrar decimal, tiempo, porcentaje o moneda; especificación de lugares decimales; mostrar tendencia ascendente como verde o rojo; y especificar opciones de moneda.
+* **Puede aplicar formato a una métrica**, como mostrar decimal, tiempo, porcentaje o moneda; especificación de lugares decimales; mostrar tendencia ascendente como verde o rojo; y especificar opciones de moneda.
 
 * Puede **crear una métrica o dimensión basada únicamente en algunos de los valores del campo de esquema**. Por ejemplo, si desea una métrica de &quot;errores&quot;, puede crear una métrica a partir del campo del nombre de página, pero solo incluir páginas que contengan la palabra &quot;error&quot;. La métrica de errores creada a partir de esta acción es compatible con filtros, se puede insertar en métricas calculadas y funciona con atribución, flujo, visitas en el orden previsto, etc.
 
