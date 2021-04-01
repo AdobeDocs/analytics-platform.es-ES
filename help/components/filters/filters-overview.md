@@ -2,9 +2,9 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '957'
 ht-degree: 92%
 
 ---
@@ -86,4 +86,4 @@ El análisis tradicional viene con muchos segmentos de plantilla (filtros) y mé
 
 | Nombre del filtro | Descripción |
 | --- | --- |
-| Todos los datos | Se trata de un filtro obligatorio análogo al segmento &quot;Todas las visitas&quot; de la versión tradicional de Analytics de Adobe. Se añade dinámicamente a los informes cuando se agrega una métrica a la fila de una tabla improvisada. |
+| Todos los datos | Se trata de un filtro obligatorio que se añade dinámicamente a los informes cuando se agrega una métrica a la fila de una tabla improvisada. |
