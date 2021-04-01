@@ -2,10 +2,10 @@
 title: ¿Qué es una vista de datos en Customer Journey Analytics?
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión CJA, como métricas, dimensiones, sesiones, etc.
 translation-type: tm+mt
-source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
+source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1087'
+ht-degree: 4%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 0%
 >
 >Esta funcionalidad estará disponible para el público general el 22 de abril de 2021.
 
-Una vista de datos se encuentra sobre un Customer Journey Analytics (CJA) [connection](/help/connections/create-connection.md). Una conexión combina uno o más conjuntos de datos de Adobe Experience Platform y los conecta a CJA. La vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión, como métricas, dimensiones, sesiones, etc. Las vistas de datos se definen a fin de prepararse para la creación de informes de los datos en Workspace. Las vistas de datos son retroactivas y no destructivas. En otras palabras, no cambiarán permanentemente los datos subyacentes.
+Una vista de datos se encuentra sobre un Customer Journey Analytics (CJA) [connection](/help/connections/create-connection.md). Una conexión combina uno o más conjuntos de datos de Adobe Experience Platform y los conecta a CJA. La vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión, como métricas, dimensiones, sesiones, etc. Las vistas de datos se definen a fin de prepararse para la creación de informes de los datos en Workspace.
 
-Si ya ha utilizado la versión tradicional de Adobe Analytics, una vista de datos es similar a un grupo de informes virtuales, ya que puede ser una vista &quot;filtrada&quot; de los datos.
+>[!NOTE]
+>
+>Cualquier configuración que seleccione o cambie en una vista de datos es retroactiva y no destructiva. En otras palabras, no cambiarán permanentemente los datos subyacentes.
 
 Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, cree vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, podría tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último toque] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer toque].
 
@@ -28,7 +30,7 @@ Los proyectos de Workspace en Customer Journey Analytics se basan en vistas de d
 
 La última actualización de las vistas de datos le ofrece una mayor flexibilidad en lo que puede hacer con las vistas de datos. Estas mejoras le permiten **cambiar espontáneamente la configuración del elemento de esquema en las vistas de datos, sin tener que cambiar el esquema en Adobe Experience Platform ni volver a implementar el entorno de CJA**.
 
-* **Puede cambiar un componente de una métrica a un Dimension y viceversa**. Puede crear métricas a partir de campos de cadena o dimensiones a partir de campos numéricos. Esto facilita las cosas, ya que no tiene que crear un campo numérico en el esquema XDM para cada métrica que desee. En su lugar, puede crearlo espontáneamente en el cuadro de diálogo de vistas de datos. Estos son algunos ejemplos:
+* **Puede cambiar un componente de una métrica a un Dimension y viceversa**. Puede crear métricas a partir de campos de cadena o dimensiones a partir de campos numéricos. Esto facilita las cosas, ya que no es necesario crear un campo numérico en el esquema XDM para cada métrica que desee. En su lugar, puede crearlo espontáneamente en el cuadro de diálogo de vistas de datos. Estos son algunos ejemplos:
    * **Cree una o varias dimensiones a partir de un único campo** de esquema. Es una relación uno a varios. Por ejemplo, puede crear una o más métricas de ingresos o una o más dimensiones de ingresos desde un único campo de esquema.
    * **Utilice un campo de cadena como métrica**: Al rellenar un esquema en Experience Platform con un conjunto de datos, es posible que no sepa por adelantado qué elementos de esquema necesita. Por ejemplo, es posible que no se haya dado cuenta de que necesitaba una métrica para &quot;Errores en una página&quot;. Como resultado, no se ha creado ningún elemento de esquema numérico a este efecto. Al utilizar un elemento de cadena como métrica, ahora puede utilizar la configuración de vistas de datos para especificar que, cada vez que una cadena contenga la palabra &quot;error&quot;, se pueda utilizar como métrica.
    * **Utilice un campo numérico como dimensión**: Por ejemplo, si desea extraer la métrica Ingresos de la dimensión Ingresos , la dimensión Ingresos mostraría cada valor como un elemento de dimensión ($100, $175, $1000, etc.) y el número de instancias para cada elemento de dimensión. Los ingresos como métrica se comportarían como siempre.
@@ -37,7 +39,7 @@ La última actualización de las vistas de datos le ofrece una mayor flexibilida
 
 * **Puede editar el ID de un componente** ; se utiliza para la compatibilidad con vistas de datos cruzados. El ID de componente es lo que utiliza la API de informes para identificar una métrica o dimensión específica. Dado que puede crear arbitrariamente muchas métricas o dimensiones a partir de un campo XDM, le daremos la opción de definir su propio ID de componente. Como resultado, una métrica que utilice en un proyecto de Workspace puede ser compatible con todas las vistas de datos (y la API), incluso si se basan en campos totalmente diferentes de diferentes conexiones o vistas de datos o de un esquema diferente en XDM.
 
-* **Puede especificar el nombre descriptivo del componente que aparecerá en Analysis Workspace**. De forma predeterminada, este nombre se hereda del nombre para mostrar del esquema, pero ahora se puede sobrescribir para esta vista de datos específica. (Así también funciona la depuración de componentes en los grupos de informes virtuales en la versión tradicional de Adobe Analytics).
+* **Puede especificar el nombre descriptivo del componente que aparecerá en Analysis Workspace**. De forma predeterminada, este nombre se hereda del nombre para mostrar del esquema, pero ahora se puede sobrescribir para esta vista de datos específica.
 
 * **Puede ver más información relacionada con el esquema sobre los componentes** , como: de qué tipo de conjunto de datos (evento, perfil, búsqueda) procede; qué tipo de esquema (cadena, entero, etc.) procedía de; y su ruta de esquema (el campo XDM en el que se basa).
 
@@ -57,10 +59,6 @@ La última actualización de las vistas de datos le ofrece una mayor flexibilida
 
 * Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform](/help/connections/create-connection.md).
 * Para crear o administrar una vista de datos, necesita un [conjunto de permisos en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es-ES#admin-access-permissions).
-
-## Ver información sobre un componente
-
-Haga clic en el icono de información (i) de Workspace para ver en qué campo de esquema se basa un componente y su configuración, como una descripción.
 
 ## Configuración de vista de datos que puede anular en Workspace
 
