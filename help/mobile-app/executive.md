@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: cfda4791c89a0fa1023bea6033b0244b29f45f12
 workflow-type: tm+mt
 source-wordcount: '1288'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ La siguiente información proporciona a los usuarios ejecutivos información sob
 
 ## Primeros pasos
 
-Los paneles de Analytics proporcionan datos del Customer Journey Analytics en cualquier momento y lugar.  La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Los paneles son compatibles con los sistemas operativos iOS y Android.
+Los paneles de Analytics proporcionan datos de Customer Journey Analytics en cualquier momento y lugar.  La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Los paneles son compatibles con los sistemas operativos iOS y Android.
 
 ## Más información sobre esta guía
 
@@ -27,8 +27,8 @@ Esta guía está diseñada para ayudar a los usuarios ejecutivos a leer e interp
 
 | Término | Definición |
 |--- |--- |
-| Consumidor | Ejecutivo que ve métricas clave y perspectivas de CJA en un dispositivo móvil |
-| Gestor de datos | Experto que busca y distribuye datos de CJA y configura los informes de valoración que verá el consumidor |
+| Consumidor | Ejecutivo que ve datos y métricas clave de Customer Journey Analytics en un dispositivo móvil |
+| Gestor de datos | Experto que busca y distribuye datos de Customer Journey Analytics y que configura los cuadros de resultados que verá el consumidor |
 | Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
 | Informe de valoración | Vista de paneles que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
@@ -44,22 +44,22 @@ Para utilizar los paneles de forma eficiente, necesitará que el gestor de datos
 
 Para acceder a los informes de valoración de los paneles, compruebe que:
 
-* Tiene un inicio de sesión válido en el Customer Journey Analytics
+* Tiene credenciales de inicio de sesión válidas para Customer Journey Analytics
 * El gestor de datos ha creado correctamente los informes de valoración móviles y los ha compartido con usted
 
-### Descargar e instalar paneles
+### Descarga e instalación de paneles
 
 Para descargar e instalar la aplicación, siga los pasos que correspondan al sistema operativo de su dispositivo.
 
 **Para usuarios ejecutivos con iOS:**
 
-Haga clic en el siguiente vínculo (también está disponible en CJA en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (Aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics, en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de iOS](https://apple.co/2zXq0aN)
 
 **Para usuarios ejecutivos con Android:**
 
-Haga clic en el siguiente vínculo (también está disponible en CJA en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (Aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics, en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de Android](https://bit.ly/2LM38Oo)
 
@@ -120,7 +120,7 @@ Para usar los paneles:
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-7. Para aplicar un filtro al informe de valoración, pulse la lista desplegable de filtros y seleccione un filtro que haya configurado el gestor de datos. Los [filtros](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en el espacio de trabajo de Analytics.
+7. Para aplicar un filtro al informe de valoración, pulse la lista desplegable de filtros y seleccione un filtro que haya configurado el gestor de datos. Los [filtros](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en Analytics Workspace.
 
    ![Filtro](assets/segment_filter.png)
 
