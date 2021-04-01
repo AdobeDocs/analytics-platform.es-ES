@@ -2,9 +2,9 @@
 title: Cómo crear una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 translation-type: tm+mt
-source-git-commit: 6d3298731ae387f626aeadc67529482e9455775f
+source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2607'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 | [!UICONTROL Descripción] | Una descripción detallada no es obligatoria, pero se recomienda. |
 | [!UICONTROL Zona horaria] | Elija en qué zona horaria desea que se presenten los datos. |
 | [!UICONTROL Etiquetas] | Las etiquetas permiten organizar las vistas de datos en categorías. |
-| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí y así es como aparecerán en cualquier proyecto de Workspace basado en esta vista de datos. Los contenedores se utilizan en filtros y visitas en el orden previsto/flujo para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí y así es como aparecerán en cualquier proyecto de Workspace basado en esta vista de datos. Los contenedores se utilizan en filtros y visitas en el orden previsto/flujo, etc., para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
 | [!UICONTROL El nombre del contenedor de persona es...] | [!UICONTROL Persona]  (predeterminado). El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes dentro de un intervalo de tiempo especificado. Puede cambiarle el nombre por &quot;Usuario&quot; o cualquier otro término que prefiera. |
 | [!UICONTROL El nombre del contenedor de sesión es...] | [!UICONTROL Sesión]  (predeterminada). El contenedor [!UICONTROL Session] permite identificar interacciones de página, campañas o conversiones para una sesión específica. Puede cambiarle el nombre por &quot;Visita&quot; o cualquier otro término que prefiera. |
 | [!UICONTROL El nombre del contenedor de eventos es...] | [!UICONTROL Evento]  (predeterminado). El contenedor [!UICONTROL Event] define qué eventos de página desea incluir o excluir de un filtro. |
@@ -45,11 +45,12 @@ A continuación, puede crear métricas y dimensiones a partir de elementos de es
 
 ![](assets/components-tab.png)
 
-Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos, y sus [!UICONTROL Campos de esquema] a continuación.
+Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos, y sus [!UICONTROL Campos de esquema] a continuación. Los componentes ya presentes son los componentes estándar necesarios (generados por el sistema).
 
 1. A continuación, arrastre un campo de esquema, como [!UICONTROL pageTitle], desde el carril izquierdo a la sección Métricas o Dimension .
 
-   Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras. Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensión llamada &quot;Páginas de producto&quot; y otra &quot;Páginas de error&quot;, etc. Desde **[!UICONTROL pageTitle]**; , también puede crear métricas a partir de un valor de cadena. Por ejemplo, puede crear una o más métricas **[!UICONTROL Pedidos]** con diferentes configuraciones de atribución y diferentes valores de inclusión/exclusión.
+   Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras.
+Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensión llamada &quot;Páginas de producto&quot; y otra &quot;Páginas de error&quot;, etc., cambiando el nombre del **[!UICONTROL Nombre del componente]** a la derecha. Desde **[!UICONTROL pageTitle]**; , también puede crear métricas a partir de un valor de cadena. Por ejemplo, puede crear una o más métricas **[!UICONTROL Pedidos]** con diferentes configuraciones de atribución y diferentes valores de inclusión/exclusión.
 
    ![](assets/components-tab-3.png)
 
@@ -134,10 +135,10 @@ Tenga en cuenta también que, independientemente de lo que especifique en este c
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
-| [!UICONTROL Si se muestra, llame a No value]... | Aquí es donde puede cambiar el nombre de **[!UICONTROL Ningún valor]** por otro. |
+| [!UICONTROL Si se muestra, llame a No value...] | Aquí es donde puede cambiar el nombre de **[!UICONTROL Ningún valor]** por otro. |
 | [!UICONTROL No mostrar ningún valor de forma predeterminada] | No muestra este valor en los informes. |
 | [!UICONTROL Mostrar valor No de forma predeterminada] | No muestra este valor en los informes. |
-| [!UICONTROL Tratar Sin valor como valor] | Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Sin valor]** por &quot;Escritorio&quot;. Tenga en cuenta que cuando cambie este campo a un valor personalizado, el valor personalizado se tratará como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado. |
+| [!UICONTROL Tratar Sin valor como valor] | Esta configuración reemplazará los valores en blanco de los datos con el texto especificado en [!UICONTROL Si se muestra, llame a No value ...]. Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Sin valor]** por &quot;Escritorio&quot;. Tenga en cuenta que cuando cambie este campo a un valor personalizado, el valor personalizado se tratará como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado. |
 
 ### Configuración de la persistencia
 
