@@ -2,9 +2,9 @@
 title: Cómo crear una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 translation-type: tm+mt
-source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2599'
 ht-degree: 6%
 
 ---
@@ -144,7 +144,7 @@ Tenga en cuenta también que, independientemente de lo que especifique en este c
 
 ![](assets/persistence.png)
 
-Estos ajustes son similares a los ajustes de eVar de la versión tradicional de Adobe Analytics.
+Para obtener más información, consulte el tema sobre [Persistencia](/help/data-views/persistence.md).
 
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
@@ -215,7 +215,7 @@ También puede filtrar por conjuntos de datos y por si un campo de esquema conti
 
 ## 3. Añadir un filtro global a la vista de datos
 
-Puede agregar filtros (anteriormente denominados segmentos) que se apliquen a toda la vista de datos, de forma similar a la vista filtrada de datos en los grupos de informes virtuales (Adobe Analytics tradicional).
+Puede agregar filtros que se apliquen a toda la vista de datos. Este filtro se aplicará a cualquier informe que ejecute en Workspace.
 
 1. Haga clic en la pestaña [!UICONTROL Settings] en [!UICONTROL Data views].
 1. Arrastre un filtro desde la lista en el carril izquierdo al campo [!UICONTROL Add filters] .
