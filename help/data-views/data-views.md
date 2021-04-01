@@ -2,10 +2,10 @@
 title: ¿Qué es una vista de datos en Customer Journey Analytics?
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión CJA, como métricas, dimensiones, sesiones, etc.
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 4%
 >
 >Esta funcionalidad estará disponible para el público general el 22 de abril de 2021.
 
-Una vista de datos se encuentra sobre un Customer Journey Analytics (CJA) [connection](/help/connections/create-connection.md). Una conexión combina uno o más conjuntos de datos de Adobe Experience Platform y los conecta a CJA. La vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión, como métricas, dimensiones, sesiones, etc. Las vistas de datos se definen a fin de prepararse para la creación de informes de los datos en Workspace.
+Una vista de datos se encuentra sobre un Customer Journey Analytics (CJA) [connection](/help/connections/create-connection.md). Una conexión combina uno o más conjuntos de datos de Adobe Experience Platform y los conecta a CJA. La vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión, como métricas, dimensiones, sesiones, etc. Las vistas de datos se definen a fin de prepararse para la creación de informes de los datos en Workspace. Las vistas de datos son retroactivas y no destructivas. En otras palabras, no cambiarán permanentemente los datos subyacentes.
 
-Si ya ha utilizado la versión tradicional de Adobe Analytics, una vista de datos es similar a un grupo de informes virtuales, ya que es una vista &quot;filtrada&quot; de los datos.
+Si ya ha utilizado la versión tradicional de Adobe Analytics, una vista de datos es similar a un grupo de informes virtuales, ya que puede ser una vista &quot;filtrada&quot; de los datos.
 
-Puede crear distintas vistas de datos para la misma conexión, con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. También puede crear varias vistas de datos para un único conjunto de datos. Por ejemplo, podría tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último toque] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer toque].
+Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, cree vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, podría tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último toque] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer toque].
 
 Los proyectos de Workspace en Customer Journey Analytics se basan en vistas de datos.
 
