@@ -1,10 +1,10 @@
 ---
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
-translation-type: ht
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: ht
-source-wordcount: '1957'
+translation-type: tm+mt
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+workflow-type: tm+mt
+source-wordcount: '1939'
 ht-degree: 100%
 
 ---
@@ -55,8 +55,8 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
    | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de la persona |
    |---|---|---|---|---|
    | [!UICONTROL Evento] | Datos que representan eventos en el tiempo (p. ej., visitas web, interacciones, transacciones, datos de TPV, datos de encuesta, datos de impresión de publicidad, etc.). Por ejemplo, estos datos podrían ser datos típicos del flujo de navegación, con un ID de cliente o un ID de cookie y una marca de tiempo. Con los datos de evento, tiene flexibilidad para saber qué ID se utiliza como ID de persona. | Se establece automáticamente en el campo de marca de tiempo predeterminado a partir de los esquemas basados en eventos en [!UICONTROL Experience Platform]. | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento “Serie temporal”. Algunos ejemplos son “Evento de experiencias XDM” o “Evento de decisiones XDM”. | Puede elegir qué ID de persona desea incluir. Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, etc. |
-   | [!UICONTROL Búsqueda] | (Analógico para un archivo de clasificaciones en Adobe Analytics tradicional). Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [este caso de uso](/help/use-cases/b2b.md) para ver un ejemplo. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento “Record”, excepto la clase “XDM Individual Profile”. | N/A |
-   | [!UICONTROL Perfil] | Análogo a [!UICONTROL Atributos del cliente]: para atributos no cambiantes y no temporales. Datos que se aplican a sus visitas, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/A | Cualquier esquema integrado o personalizado basado en la clase “XDM Individual Perfil”. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona ](assets/person-id.png)**Nota**: si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
+   | [!UICONTROL Búsqueda] | Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [este caso de uso](/help/use-cases/b2b.md) para ver un ejemplo. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento “Record”, excepto la clase “XDM Individual Profile”. | N/D |
+   | [!UICONTROL Perfil] | Datos que se aplican a sus visitas, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/D | Cualquier esquema integrado o personalizado basado en la clase “XDM Individual Perfil”. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona ](assets/person-id.png)**Nota**: si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
 
 1. **[!UICONTROL ID de conjunto de datos]**: este ID se genera automáticamente.
 
@@ -127,7 +127,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 
 Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 
-1. Vaya a [Servicios de consulta de Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/experience-platform/query/home.html) y cree una nueva consulta.
+1. Vaya a [Servicios de consulta de Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) y cree una nueva consulta.
 
 1. La consulta tendría un aspecto similar al siguiente:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
 
