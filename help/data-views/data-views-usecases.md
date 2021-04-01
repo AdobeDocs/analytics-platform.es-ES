@@ -2,10 +2,10 @@
 title: Casos de uso de vistas de datos en el Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL P
 1. Abra el cuadro de diálogo [!UICONTROL Incluir/Excluir valores] a la derecha y especifique lo siguiente:
    ![](assets/orders2.png)
 
-   La frase &quot;confirmación&quot; indica que se trata de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se cuenta un &quot;1&quot; para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Funciona con Attribution IQ, filtros y en cualquier otro lugar donde se pueden usar métricas estándar.
+   La frase &quot;confirmación&quot; indica que se trata de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se cuenta un &quot;1&quot; para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Funciona con Attribution IQ, filtros y en cualquier otro lugar donde se pueden usar métricas estándar.
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con una [!UICONTROL ventana de retrospectiva] de [!UICONTROL Sesión].
 También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y especificar un modelo de atribución diferente para él, como [!UICONTROL Primer toque] y una ventana [!UICONTROL Retrospectiva] diferente, como [!UICONTROL 30 días].
 
