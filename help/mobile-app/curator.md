@@ -1,11 +1,11 @@
 ---
 description: Instrucciones para configurar los informes de valoración de los paneles.
-title: Guía del gestor de datos de los paneles del Customer Journey Analytics
+title: Guía del gestor de datos de los paneles de Customer Journey Analytics
 translation-type: tm+mt
 source-git-commit: 026771a61bcbd0eec8cb59a1d06f3dad0b96acf6
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 77%
+ht-degree: 81%
 
 ---
 
@@ -18,11 +18,11 @@ La siguiente información enseña a los depuradores de datos de Adobe Analytics 
 
 ## Primeros pasos
 
-Los paneles de Adobe Analytics proporcionan perspectivas en cualquier momento y lugar basadas en los datos de su Customer Journey Analytics. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos que se crean y comparten desde la interfaz de usuario de Customer Journey Analytics local. Los informes de valoración son una colección de métricas clave y otros componentes que se presentan en un diseño en mosaico y que puede pulsar para obtener desgloses y vistas de datos de tendencias más detalladas. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
+Los paneles de Adobe Analytics proporcionan perspectivas en cualquier momento y lugar basadas en los datos de su Customer Journey Analytics. La aplicación permite que los usuarios accedan mediante dispositivos móviles a cuadros de resultados intuitivos que se crean y se comparten desde la IU de Customer Journey Analytics para escritorio. Los informes de valoración son una colección de métricas clave y otros componentes que se presentan en un diseño en mosaico y que puede pulsar para obtener desgloses y vistas de datos de tendencias más detalladas. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
 
 ## Más información sobre esta guía
 
-Esta guía está diseñada para ayudar a los gestores de datos de los Customer Journey Analytics a configurar informes de valoración en los paneles para sus usuarios ejecutivos. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de los paneles de Analytics, esta guía ayudará a los gestores de datos a configurar la aplicación de forma eficaz para estos usuarios.
+Esta guía está diseñada para ayudar a los gestores de datos de Customer Journey Analytics a configurar cuadros de resultados para sus usuarios ejecutivos en los paneles. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de los paneles de Analytics, esta guía ayudará a los gestores de datos a configurar la aplicación de forma eficaz para estos usuarios.
 
 ## Glosario de términos
 
@@ -30,8 +30,8 @@ En la siguiente tabla se describen los términos para comprender la audiencia, l
 
 | Término | Definición |
 |--- |--- |
-| Consumidor | Ejecutivo que ve métricas clave y perspectivas de CJA en un dispositivo móvil |
-| Gestor de datos | Experto que busca y distribuye datos de CJA y configura los informes de valoración que verá el consumidor |
+| Consumidor | Ejecutivo que ve datos y métricas clave de Customer Journey Analytics en un dispositivo móvil |
+| Gestor de datos | Experto que busca y distribuye datos de Customer Journey Analytics y que configura los cuadros de resultados que verá el consumidor |
 | Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
 | Informe de valoración | Vista de paneles que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
@@ -270,4 +270,4 @@ Pulse la opción y escriba su dirección de correo electrónico en el campo supe
 
 >[!IMPORTANT]
 >
->A partir de octubre de 2020, Adobe implementará gradualmente una serie de mejoras para optimizar el rendimiento de la aplicación &quot;Paneles de Adobe Analytics&quot;. Estas mejoras se centran en el almacenamiento en caché de datos históricos de Analytics que se utilizan para rellenar informes de valoración con fechas (excluido el día actual). Estos datos se almacenarán en caché durante un máximo de 24 horas en una cuenta segura de almacenamiento público en la nube de Microsoft Azure. Póngase en contacto con el CSM si desea excluirse de estas funciones de mejora de rendimiento.
+>Desde octubre de 2020, Adobe está implementando gradualmente una serie de mejoras para optimizar el rendimiento de la aplicación Paneles de Adobe Analytics. Estas mejoras se centran en el almacenamiento en caché de datos históricos de Analytics que se utilizan para rellenar informes de valoración con fechas (excluido el día actual). Estos datos se almacenarán en caché durante un máximo de 24 horas en una cuenta segura de almacenamiento público en la nube de Microsoft Azure. Póngase en contacto con el CSM si desea excluirse de estas funciones de mejora de rendimiento.
