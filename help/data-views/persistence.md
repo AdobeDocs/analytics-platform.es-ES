@@ -1,11 +1,11 @@
 ---
-title: ¿Qué es la persistencia en el Customer Journey Analytics?
+title: ¿Qué es la persistencia de la dimensión en el Customer Journey Analytics?
 description: La persistencia del Dimension es una combinación de asignación y caducidad. Juntos, determinan qué valores de dimensión persisten.
 translation-type: tm+mt
-source-git-commit: 09f49cff89d69ae630e917243425967dbf56a9ed
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
