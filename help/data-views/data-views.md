@@ -1,14 +1,14 @@
 ---
 title: ¿Qué es una vista de datos en Customer Journey Analytics?
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión CJA, como métricas, dimensiones, sesiones, etc.
+exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
+source-git-commit: 3c5cd2aa571d99b4c04aaf24b86d5e64fc8acec6
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 4%
 
 ---
-
 
 # ¿Qué es una vista de datos?
 
@@ -22,7 +22,7 @@ Una vista de datos se encuentra sobre un Customer Journey Analytics (CJA) [conne
 >
 >Cualquier configuración que seleccione o cambie en una vista de datos es retroactiva y no destructiva. En otras palabras, no cambiarán permanentemente los datos subyacentes.
 
-Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, cree vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, podría tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último toque] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer toque].
+Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, cree vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, podría tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último toque] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones establecidas como [!UICONTROL Primer toque].
 
 Los proyectos de Workspace en Customer Journey Analytics se basan en vistas de datos.
 
