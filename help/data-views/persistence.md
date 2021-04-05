@@ -1,20 +1,20 @@
 ---
 title: ¿Qué es la persistencia de la dimensión en el Customer Journey Analytics?
 description: La persistencia del Dimension es una combinación de asignación y caducidad. Juntos, determinan qué valores de dimensión persisten.
+exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
-source-git-commit: efe92e25229addadf57bff3f2ba73d831a3161ea
+source-git-commit: 16e43f5d938ac25445f382e5eba8fc12e0e67161
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '598'
 ht-degree: 18%
 
 ---
-
 
 # Persistencia
 
 La persistencia del Dimension es una combinación de asignación y caducidad. Juntos, determinan qué valores de dimensión persisten. Adobe recomienda explicar en su organización cómo se gestionan los valores múltiples para cada dimensión (asignación) y cuándo los valores de dimensión dejan de contener datos (caducidad).
 
-* De forma predeterminada, un valor de dimensión utiliza ? asignación.
+* De forma predeterminada, un valor de dimensión utiliza [QUÉ?] asignación.
 * De forma predeterminada, un valor de dimensión utiliza una caducidad de [!UICONTROL Session].
 
 ## Asignación
@@ -53,7 +53,7 @@ Esta nueva asignación de dimensiones se puede aplicar tanto a dimensiones basad
 
 | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
 | --- | --- | --- | --- | --- | --- |
-| timestamp (min) | 3 | 2 | 3 | 6 | 7 |
+| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
 | valores originales | A | B | C |  | A |
 | después de la persistencia | A | A,B | A,B,C | B,C | A,C |
 
@@ -95,4 +95,3 @@ Existen cuatro formas de caducar un valor de dimensión:
 **Asignación**: Considere la asignación como una &quot;transformación de datos&quot; de la dimensión. La asignación se produce antes del filtrado. Si crea un filtro, se elimina de la dimensión transformada.
 
 **Atribución**: ¿Cómo puedo distribuir el crédito de una métrica a la dimensión a la que se aplica? La atribución se produce después del filtrado.
-
