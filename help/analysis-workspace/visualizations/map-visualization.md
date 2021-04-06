@@ -1,10 +1,10 @@
 ---
 description: Aprenda a crear un mapa visual de cualquier métrica en Analysis Workspace.
 title: Mapa
-translation-type: ht
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
-workflow-type: ht
-source-wordcount: '632'
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -30,19 +30,6 @@ La visualización de mapas en Analysis Workspace
 
 1. Arrastre una métrica desde la lista de métricas (incluidas métricas calculadas).
 1. Especifique la fuente de datos que desea utilizar. (Este cuadro de diálogo aparece únicamente si tiene habilitado el seguimiento de la ubicación para datos de aplicaciones móviles).
-
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Latitud/Longitud móvil</b> </p> </td> 
-   <td colname="col2"> <p>Esta opción representa los datos de aplicaciones móviles. </p> <p>Solo verá esta opción si la ha habilitado para su conjunto de informes en <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Grupos de informes </span> &gt; <span class="uicontrol"> &lt;seleccionar grupo de informes&gt; </span> &gt; <span class="uicontrol"> Editar configuración </span> &gt; <span class="uicontrol"> Administración móvil </span> &gt; <span class="uicontrol"> Activar el seguimiento de ubicación</span></span>. </p> <p>Esta es la configuración predeterminada (si el seguimiento de la ubicación está habilitado). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Dimensión geográfica</b> </p> </td> 
-   <td colname="col2"> <p>Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en País, Región y Ciudad. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. </p> <p>Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 1. Haga clic en **[!UICONTROL Generar]**.
 
