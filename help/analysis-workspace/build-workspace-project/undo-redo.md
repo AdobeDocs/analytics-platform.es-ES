@@ -2,10 +2,10 @@
 description: Obtenga información sobre las opciones Deshacer y Rehacer de Analysis Workspace.
 title: Configuración de Deshacer y Rehacer
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
-workflow-type: ht
-source-wordcount: '298'
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 
 * **[!UICONTROL Nuevo proyecto]** o **[!UICONTROL Abrir proyecto existente]** sí borran la pila **[!UICONTROL Deshacer]**.
 
-* Puede deshacer y rehacer los cambios realizados en el conjunto de informes.
 * Se muestra un mensaje deshacer/rehacer cerca del nombre del proyecto para indicar cuándo se está deshaciendo o rehaciendo una acción.
 * Puede utilizar estos [métodos abreviados de teclado](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
@@ -36,7 +35,6 @@ ht-degree: 100%
 * Análisis de contribución
 * Comparación de segmentos
 * Nombre del proyecto
-* Selección del conjunto de informes
 * Visualización Añadir/Eliminar
 * Panel o visualización Contraer/Expandir
 * Insertar utilizando teclas de acceso directo (CTRL(CMD)+Z para deshacer), (CTRL(CMD)+MAYÚS+Z para rehacer)
