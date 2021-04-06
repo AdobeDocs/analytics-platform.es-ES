@@ -1,14 +1,14 @@
 ---
 description: Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores).
 title: Histograma
+exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 95%
+ht-degree: 87%
 
 ---
-
 
 # Histograma
 
@@ -60,7 +60,7 @@ Para ver o modificar los datos de origen de un gráfico de histograma, haga clic
 
 ![](assets/manage-data-source.png)
 
-Los segmentos creados previamente que se muestran en la tabla son segmentos internos y no aparecerán en el selector de segmentos. Haga clic en el icono “i” junto al nombre del segmento y, a continuación, haga clic en **[!UICONTROL Hacer público]** para que el segmento sea público.
+Los filtros creados previamente que se muestran en la tabla son filtros internos y no aparecerán en el selector de filtros. Haga clic en el icono &quot;i&quot; junto al nombre del filtro y, a continuación, haga clic en **[!UICONTROL Hacer público]** para que el filtro sea público.
 
 ![](assets/prebuilt_segments.png)
 
