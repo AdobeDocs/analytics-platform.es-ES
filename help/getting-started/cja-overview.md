@@ -1,14 +1,14 @@
 ---
 title: Información general sobre Customer Journey Analytics
 description: Descubra la forma en que Customer Journey Analytics le permite utilizar Analysis Workspace con los datos de Experience Platform.
+exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 translation-type: tm+mt
-source-git-commit: 0f5e9c117f12ef070733df032b078ad70ce7c52b
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 97%
+source-wordcount: '1217'
+ht-degree: 95%
 
 ---
-
 
 # Información general sobre Customer Journey Analytics
 
@@ -19,7 +19,7 @@ Customer Journey Analytics es una función de Analytics que le permite utilizar 
 Customer Journey Analytics amplía el ámbito de Analytics al ofrecer funciones fáciles de usar entre canales y al eliminar las limitaciones de versiones anteriores de Adobe Analytics. Algunas mejoras importantes:
 
 * **Eventos y variables ilimitadas**: los conceptos de eVars, props y eventos ya no existen. Los datos se centran principalmente en dimensiones y métricas. Los conjuntos de datos pueden tener una cantidad ilimitada de dimensiones y métricas únicas.
-* **Valores únicos ilimitados**: Adobe Experience Platform no se limita a ninguna limitación única, como los valores únicos de 500.000 en los grupos de informes tradicionales.
+* **Valores** únicos ilimitados: Adobe Experience Platform no se limita a ninguna limitación única.
 * **Modificar datos históricos**: con Adobe Experience Platform, los datos se pueden eliminar o corregir.
 * **Datos de grupos de informes múltiples**: las implementaciones existentes de varios conjuntos de datos se pueden combinar en Platform.
 
@@ -74,7 +74,7 @@ Los usuarios que no son administradores (usuarios) en Customer Journey Analytics
 Se ha cambiado el nombre de varias funciones de CJA, en comparación con la versión clásica de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen lo siguiente:
 
 * Los segmentos ahora se conocen como “Filtros”.
-* Los grupos de informes virtuales ahora se conocen como “Vistas”.
+* Los grupos de informes virtuales ahora se conocen como &quot;Vistas de datos&quot;.
 * Las clasificaciones ahora se conocen como “Conjuntos de datos de búsqueda”.
 * Los atributos del cliente ahora se conocen como “Conjuntos de datos de perfil”.
 * Los contenedores de visita individual ahora se conocen como contenedores de “Evento”.
