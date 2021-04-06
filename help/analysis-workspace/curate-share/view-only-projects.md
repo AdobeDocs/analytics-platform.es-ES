@@ -1,15 +1,15 @@
 ---
 description: Proyectos “Solo consulta” en Workspace
-keywords: View-only projects
+keywords: Proyectos de solo de vista
 title: Proyectos de solo de vista
+exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
 ---
-
 
 # Proyectos de solo de vista
 
@@ -26,7 +26,6 @@ Puede compartir proyectos como “Solo consulta” a destinatarios a través del
 Las interacciones desactivadas en un proyecto de Solo consulta incluyen:
 
 * Barra izquierda oculta
-* Grupo de informes
 * Intervalo de fechas del calendario del panel. Nota: Si desea otorgar el control del calendario a los destinatarios, agregue un [filtro desplegable con intervalos de fechas](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
 * Filtro improvisado
 * N.º de filas visibles improvisado
