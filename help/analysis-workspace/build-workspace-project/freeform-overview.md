@@ -5,7 +5,7 @@ title: Información general sobre Proyectos
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 translation-type: tm+mt
-source-git-commit: 18a76c92e37cf515dd02ebcebcc8d5e9d70a3ec0
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 90%
@@ -80,7 +80,7 @@ En un proyecto, se accede a [paneles](/help/analysis-workspace/c-panels/panels.m
 
 También puede acceder a las visualizaciones y los paneles desde el [Panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md).
 
-Los componentes (Dimension, métricas, segmentos e intervalos de fechas) del carril izquierdo están relacionados con la vista de datos del panel activo. El panel activo tendrá un borde azul alrededor de él y la vista de datos activa se mostrará en la parte superior del carril del componente.
+Los componentes (Dimension, Métricas, Filtros e Intervalos de fechas) del carril izquierdo están relacionados con la vista de datos del panel activo. El panel activo tendrá un borde azul alrededor de él y la vista de datos activa se mostrará en la parte superior del carril del componente.
 
 ![](assets/left-rail.png)
 
