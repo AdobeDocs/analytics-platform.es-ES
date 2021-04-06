@@ -1,14 +1,14 @@
 ---
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
+exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 92%
+source-wordcount: '926'
+ht-degree: 86%
 
 ---
-
 
 # Información general de Filtros
 
@@ -18,14 +18,11 @@ Los Filtros se pueden basar en atributos (tipo de explorador, dispositivo, canti
 
 Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden usar juntos como filtros apilados.
 
->[!IMPORTANT]
->Los Filtros se conocen como “segmentos” en Adobe Analytics. Se ha cambiado el nombre de los segmentos a filtros porque Adobe Experience Platform tiene [una definición diferente de “segmento”](https://docs.adobe.com/content/help/es-ES/experience-platform/segmentation/home.html).
-
 Los filtros del [Generador de filtros](/help/components/filters/create-filters.md) para construir filtros y ejecutar una prueba previa, y el [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
 
 ## Filtros secuenciales
 
-Los filtros secuenciales le permiten identificar a los visitantes en función de la navegación y las vistas de página en su sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los segmentos secuenciales le ayudan a identificar qué le gusta a un visitante, así como lo que evita. Cuando se generan filtros secuenciales, se utiliza el operador THEN para definir y ordenar la navegación del visitante.
+Los filtros secuenciales le permiten identificar a los visitantes en función de la navegación y las vistas de página en su sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los filtros secuenciales le ayudan a identificar qué le gusta a un visitante y qué evita. Cuando se generan filtros secuenciales, se utiliza el operador THEN para definir y ordenar la navegación del visitante.
 
 Vea el siguiente ejemplo:
 
@@ -56,7 +53,7 @@ El contenedor de persona incluye todas las visitas y vistas de página de los vi
 
 ### Contenedor de sesión
 
-El contenedor de sesión le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. El contenedor de sesión es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se cumple la regla y le permite definir qué sesiones desea incluir o excluir al generar y aplicar un segmento. Puede ayudarle a responder a estas preguntas:
+El contenedor de sesión le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. El contenedor de sesión es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se cumple la regla y le permite definir qué sesiones desea incluir o excluir al generar y aplicar un filtro. Puede ayudarle a responder a estas preguntas:
 
 * ¿Cuántos visitantes vieron la sección Noticias y Deportes en la misma sesión?
 * ¿Qué páginas contribuyeron a una conversión exitosa para una venta?
@@ -82,7 +79,7 @@ Los contenedores de evento incluyen desgloses de una sola página basados en val
 
 ## Plantilla de filtro predeterminada
 
-El análisis tradicional viene con muchos segmentos de plantilla (filtros) y métricas calculadas integrados. Muchos de ellos no se aplican en CJA, o tendrán que cambiarse de nombre o recrearse. Otros dependerán de una solución para variables según el contexto en CJA.
+El análisis tradicional viene con muchos filtros de plantilla (filtros) y métricas calculadas integrados. Muchos de ellos no se aplican en CJA, o tendrán que cambiarse de nombre o recrearse. Otros dependerán de una solución para variables según el contexto en CJA.
 
 | Nombre del filtro | Descripción |
 | --- | --- |
