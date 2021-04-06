@@ -3,10 +3,10 @@ description: Obtenga información sobre las opciones Deshacer y Rehacer de Analy
 title: Configuración de Deshacer y Rehacer
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 100%
 * Borrar todo
 * Periodo
 * Análisis de contribución
-* Comparación de segmentos
 * Nombre del proyecto
 * Visualización Añadir/Eliminar
 * Panel o visualización Contraer/Expandir
@@ -45,7 +44,7 @@ ht-degree: 100%
 * Opciones de clic con el botón derecho en elemento improvisado
 * Selección
 * Visualización de la selección de leyenda
-* Añadir un segmento a un panel
+* Adición de un filtro a un panel
 * Configuración de la visualización en los gráficos
 * Edición de las etiquetas de la leyenda
 * Visualización mágica
@@ -63,9 +62,9 @@ ht-degree: 100%
 
 * Cambios en la información y configuración del proyecto (añadir etiquetas, cambios en la descripción, configuración de las instancias de repetición del recuento)
 * Establecer como página de aterrizaje
-* Añadir elementos nuevos (segmentos, métricas, intervalos de fechas, alertas)
+* Agregar nuevo (filtro/métrica/intervalo de fechas/alerta)
 * Compartir proyectos, obtener vínculos de proyectos, enviar archivos (de forma puntual o programada)
-* Crear un segmento para esta ruta en la visualización del flujo
+* Crear filtro para esta ruta en la visualización del flujo
 * Crear métrica calculada
 * Crear intervalo de fechas
 
