@@ -2,14 +2,14 @@
 description: Interacciones de teclado estándar, teclas de acceso directo y comportamientos de apuntar y hacer clic disponibles en Analysis Workspace.
 keywords: Analysis Workspace
 title: Teclas de acceso directo (métodos abreviados)
+exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 98%
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
-
 
 # Teclas de acceso directo (métodos abreviados)
 
@@ -39,7 +39,7 @@ Nota: `CTRL` = Windows y `command` = Mac
 | Crear una alerta | ctrl (o cmd) + mayús + a |
 | Crear métrica calculada | ctrl (o cmd) + mayús + c |
 | Crear un intervalo de fechas | ctrl (o cmd) + mayús + d |
-| Creación de segmentos | ctrl (o cmd) + mayús + e |
+| Crear un filtro | ctrl (o cmd) + mayús + e |
 | Borrar todo | alt + w |
 | Copy | ctrl (o cmd) + c |
 | Rehacer | ctrl (o cmd) + mayús + z |
@@ -52,13 +52,10 @@ Nota: `CTRL` = Windows y `command` = Mac
 
 | Acción | Acceso directo |
 |---|---|
-| Nuevo panel para Analytics for Target | alt + g |
 | Nuevo panel Atribución | alt + e |
 | Nuevo panel en blanco | alt + b |
 | Nuevo panel improvisado | alt + a |
-| Panel de visualizadores simultáneos de medios nuevos | alt + h |
 | Nuevo panel de información rápida | alt + f |
-| Nuevo panel de comparación de segmentos | alt + c |
 | Nueva tabla improvisada | alt + 1 |
 | Nuevo gráfico de líneas | alt + 2 |
 | Nuevo gráfico de barras | alt + 3 |
