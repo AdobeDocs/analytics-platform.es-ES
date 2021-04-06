@@ -1,14 +1,14 @@
 ---
 title: Elementos de dimensión dinámicos o estáticos en tablas improvisadas
 description: Interacción con elementos de dimensión dinámicos y estáticos en tablas.
-translation-type: ht
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
-workflow-type: ht
+exl-id: 7806f535-15c7-40f4-955a-724d9752969d
+translation-type: tm+mt
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
-
 
 # Elementos de dimensión dinámicos o estáticos en tablas improvisadas
 
@@ -34,7 +34,7 @@ Los elementos de dimensión dinámicos tienen la opción de filtro de fila y **n
 
 Los elementos de dimensión estáticos no cambian con el tiempo; son componentes fijos que siempre se devuelven en una tabla improvisada. Se prefieren los elementos de dimensión estáticos cuando se desea analizar siempre el mismo elemento, ya sean campañas específicas o días específicos de la semana.
 
-Cada vez que seleccionan y sueltan manualmente valores de componente específicos (dimensión, métrica, segmento, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas. También se pueden crear elementos de dimensión estáticos si elige:
+Cada vez que seleccione y suelte manualmente valores de componente específicos (dimensión, métrica, filtro, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas. También se pueden crear elementos de dimensión estáticos si elige:
 
 * En las filas, haga clic con el botón derecho en > [!UICONTROL Mostrar solo las filas seleccionadas]
 * En las columnas, haga clic con el botón derecho en > [!UICONTROL Convertir el elemento en estático]
@@ -57,4 +57,3 @@ Las filas dinámicas y estáticas se comportan de forma diferente en la fila tot
 
 * Las filas dinámicas se suman a las métricas del lado del servidor y a las duplicadas, como visitas o visitantes
 * Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
-
