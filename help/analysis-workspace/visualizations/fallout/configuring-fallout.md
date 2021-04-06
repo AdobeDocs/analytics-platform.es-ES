@@ -1,20 +1,20 @@
 ---
 description: Aprenda a especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional.
 title: Configurar una visualización de abandonos
+exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 98%
+ht-degree: 85%
 
 ---
-
 
 # Configurar una visualización de abandonos
 
 Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página de su sitio web. Sin embargo, los puntos de contacto no están limitados a páginas. Por ejemplo, puede añadir eventos, como unidades, así como visitantes únicos y visitas de retorno. También puede añadir dimensiones, como categoría, tipo de navegador o término de búsqueda interno.
 
-Incluso puede añadir segmentos dentro de un punto de contacto. Por ejemplo, es posible que desee comparar segmentos como los usuarios de iOS y Android. Arrastre los segmentos deseados sobre las visitas en el orden previsto, y la información sobre esos segmentos se añadirá al informe de visitas en el orden previsto. Si desea mostrar únicamente esos segmentos, puede eliminar la línea de base de Todas las visitas.
+Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es posible que desee comparar filtros como los usuarios de iOS y Android. Arrastre los filtros deseados sobre las visitas en el orden previsto y la información sobre esos filtros se agregará al informe de visitas en el orden previsto. Si desea mostrar solo esos filtros, puede eliminar la línea de base Todas las visitas .
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
@@ -38,7 +38,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 
    >[!NOTE]
    >
-   >Los segmentos se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
+   >Los filtros múltiples se unen con AND, pero los elementos como elementos de dimensión y métricas se unen con OR.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -74,4 +74,4 @@ Al hacer **clic con el botón derecho en un punto de contacto**, se muestran las
 | Tendencia de todos los puntos de contacto (%) | Realiza la tendencia de todos los porcentajes de puntos de contacto en las visitas en el orden previsto (excepto “Todas las visitas”, si se incluye) en el mismo gráfico. |
 | Desglosar visitas en el orden previsto en este punto de contacto | Vea qué hicieron los visitantes entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Así se crea una tabla improvisada que muestra sus dimensiones. Puede sustituir las dimensiones y otros elementos de la tabla. |
 | Desglosar visitas en orden previsto en este punto de contacto | Vea qué han hecho las personas que no han seguido el embudo inmediatamente tras el paso seleccionado. |
-| Crear segmento a partir de touchpoint | Cree un nuevo segmento a partir de un punto de contacto seleccionado. |
+| Crear filtro a partir de touchpoint | Cree un nuevo filtro a partir del punto de contacto seleccionado. |
