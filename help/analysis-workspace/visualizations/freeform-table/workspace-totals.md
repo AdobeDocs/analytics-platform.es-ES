@@ -1,14 +1,14 @@
 ---
 description: Cálculo de totales de Workspace.
 title: Totales de Workspace
-translation-type: ht
-source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 92%
 
 ---
-
 
 # Totales de Workspace
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 En las tablas de forma libre, aparece una fila total en cada nivel de desglose y puede mostrar dos totales:
 
-* **[!UICONTROL Total general]** (número “de” gris): este total representa todas las visitas recopiladas, a veces denominadas “total del grupo de informes”. Cuando se aplica un segmento en el nivel de panel o en la tabla improvisada, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento.
+* **[!UICONTROL Total general]**  (número &quot;de&quot; gris): este total representa todas las visitas recopiladas. Cuando se aplica un filtro en el panel o en la tabla improvisada, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento.
 * **[!UICONTROL Total de tabla]** (número negro): Este total suele ser igual o un subconjunto del [!UICONTROL total general]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno].
 
 ![](assets/total-row.png)
@@ -47,4 +47,3 @@ Los totales de [filas estáticas](/help/analysis-workspace/visualizations/freefo
 | Cuando se aplican filtros de tabla personalizados a una tabla de forma libre, ¿tienen en cuenta todas mis métricas calculadas y el formato condicional para el filtro? | Actualmente no. **[!UICONTROL Incluir No especificado (Ninguno)]** se contabilizará, pero los filtros de tabla personalizados no afectarán a lo siguiente:<ul><li>El rango máximo/mínimo de columna que utiliza el formato condicional comprobará todos los datos.</li><li>Métricas calculadas que aprovechan los tipos de métricas **[!UICONTROL Total general]**.</li><li>Métricas calculadas con funciones que calculan en filas de una tabla improvisada, por ejemplo: Suma de columna, Máximo de columna, Mínimo de columna, Recuento, Media, Mediana, Percentil, Cuartil, Recuento de filas, Desviación estándar, Variación, Acumulativo, Promedio Acumulado, Variantes de regresión, Puntuación T, Prueba T, Puntuación Z, Prueba Z.</li></ul> |
 | En Métricas calculadas, ¿qué refleja el tipo de métrica **[!UICONTROL Total general]**? | **[!UICONTROL Total general]** sigue haciendo referencia al **[!UICONTROL Total general]** y no refleja los filtros aplicados a una tabla o al **[!UICONTROL Total de tabla]**. |
 | ¿Qué total se muestra cuando los datos se copian y pegan desde una tabla improvisada o se descargan mediante CSV? | La fila total reflejará únicamente el **[!UICONTROL Total de tabla]** y respetará la configuración de la columna **[!UICONTROL Mostrar totales]**. |
-
