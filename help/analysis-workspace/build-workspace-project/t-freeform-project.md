@@ -2,10 +2,10 @@
 description: Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel improvisada.
 keywords: Analysis Workspace
 title: Creación de un proyecto de Workspace
-translation-type: ht
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
-workflow-type: ht
-source-wordcount: '751'
+translation-type: tm+mt
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+workflow-type: tm+mt
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
@@ -124,9 +124,9 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
  </tbody> 
 </table>
 
-**[Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
+**[Visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, tablas de datos, tablas de [cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), diagramas Venn y otros elementos estándar de Analytics. Puede arrastrar y colocar varias visualizaciones en su proyecto.
+El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, tablas de datos, tablas de [cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), diagramas Venn y otros elementos estándar de Analytics. Puede arrastrar y colocar varias visualizaciones en su proyecto.
 
 ![Resultado ](assets/visualizations.png)
 
@@ -149,11 +149,11 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Añadir columna de periodo de tiempo</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Añadir columna de periodo de tiempo</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparar periodos de tiempo</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparar periodos de tiempo</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > Desglosar</a> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > Desglosar</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensiones </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Métricas </li> 
@@ -179,23 +179,23 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualizar</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualizar</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > Descargar como CSV</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/curate-share/download-send.md"  > Descargar como CSV</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > Selección de tendencia</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/home.md"  > Selección de tendencia</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Crear segmento de selección</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Crear segmento de selección</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Ejecutar en comparación de segmentos</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Ejecutar en comparación de segmentos</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -209,4 +209,4 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
  </tbody> 
 </table>
 
-Consulte [Interacciones de teclado y ratón disponibles en Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obtener información sobre cómo copiar y seleccionar filas.
+Consulte [Interacciones de teclado y ratón disponibles en Analysis Workspace](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obtener información sobre cómo copiar y seleccionar filas.
