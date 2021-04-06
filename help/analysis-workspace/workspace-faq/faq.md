@@ -3,10 +3,10 @@ description: Preguntas frecuentes y sugerencias para la solución de problemas d
 title: Preguntas frecuentes
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 84%
+ht-degree: 78%
 
 ---
 
@@ -34,6 +34,6 @@ Datos no válidos significa que Adobe no puede devolver datos mediante la combin
 
 Si ha creado correctamente un informe de espacio de trabajo pero no hay datos, puede comprobar algunas cosas:
 
-* Si aplicó un segmento en el informe, es posible que los criterios del segmento no coincidan con ningún dato. Intente eliminar el segmento o ajustar la definición del mismo.
+* Si aplicó un filtro en el informe, es posible que los criterios del filtro no coincidan con ningún dato. Intente quitar el filtro o ajustar la definición del filtro.
 * Compruebe el intervalo de fechas en la esquina superior derecha y compruebe que está establecido en un valor que esperaba.
 * Vaya al sitio web y utilice [Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) para validar que se están recopilando datos.
