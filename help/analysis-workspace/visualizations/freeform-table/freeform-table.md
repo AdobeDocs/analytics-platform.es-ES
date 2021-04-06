@@ -1,14 +1,14 @@
 ---
 title: Tabla improvisada
 description: Las tablas de forma libre son la base del análisis de datos en Workspace
+exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
-
 
 # Tabla improvisada
 
@@ -24,7 +24,7 @@ La forma más rápida de crear una tabla es soltar componentes directamente en u
 
 ## Generador de tablas de forma libre
 
-Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas improvisadas. Con el Generador de tablas improvisadas, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Generar]**.
+Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas improvisadas. Con el generador habilitado, puede arrastrar y soltar muchas dimensiones, desgloses, métricas y filtros para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Generar]**.
 
 ![](assets/table-builder.png)
 
@@ -39,7 +39,7 @@ Puede interactuar con una tabla de forma libre y personalizarla de diversas mane
    * Las filas se pueden [filtrar](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) para mostrar un conjunto reducido de elementos. Hay opciones de configuración adicionales disponibles en [Configuración de fila](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
 
 * **Columnas**
-   * Los componentes se pueden apilar en columnas para crear métricas segmentadas, análisis entre fichas, etcétera.
+   * Los componentes se pueden apilar en columnas para crear métricas filtradas, análisis entre fichas y mucho más.
    * La vista de cada columna se ajusta en la [configuración de columna](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html).
    * Hay varias acciones disponibles a través del [menú accesible mediante el botón secundario](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). El menú proporciona diferentes acciones en función de si se hace clic en el encabezado de tabla, en las filas o en las columnas.
 
