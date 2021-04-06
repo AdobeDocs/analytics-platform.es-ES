@@ -3,7 +3,7 @@ description: Cálculo de totales de Workspace.
 title: Totales de Workspace
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 92%
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 En las tablas de forma libre, aparece una fila total en cada nivel de desglose y puede mostrar dos totales:
 
-* **[!UICONTROL Total general]**  (número &quot;de&quot; gris): este total representa todas las visitas recopiladas. Cuando se aplica un filtro en el panel o en la tabla improvisada, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento.
+* **[!UICONTROL Total general]**  (número &quot;de&quot; gris): este total representa todas las visitas recopiladas. Cuando se aplica un filtro en el panel o en la tabla improvisada, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del filtro.
 * **[!UICONTROL Total de tabla]** (número negro): Este total suele ser igual o un subconjunto del [!UICONTROL total general]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno].
 
 ![](assets/total-row.png)
