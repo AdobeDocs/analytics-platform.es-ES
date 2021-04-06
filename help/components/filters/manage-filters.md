@@ -3,16 +3,16 @@ title: Administrar filtros
 description: descubra cómo administrar filtros en Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1094'
-ht-degree: 94%
+ht-degree: 85%
 
 ---
 
 # Administrar filtros
 
-El Administrador de filtros ofrece numerosas maneras de conservar los segmentos, como compartir, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
+El Administrador de filtros ofrece muchas maneras de conservar los filtros, como compartir, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 
 El Administrador de filtros le muestra todos los filtros que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los filtros de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de filtros.
 
@@ -39,7 +39,7 @@ Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis del Rec
 
 ## Filtros del plan
 
-El hecho de dedicar un cierto tiempo a la planificación de los segmentos aumenta las probabilidades de que sean útiles para su organización y de que se mantenga bajo control el número de segmentos.
+El hecho de dedicar algún tiempo a la planificación de filtros aumenta las probabilidades de que sean útiles para su organización y de que sus números se mantengan bajo control.
 
 * Tome en consideración la audiencia: ¿quién lo consumirá? ¿Con quién lo compartirá? ¿Qué grupos de personas utilizarán este filtro y, por lo tanto, cómo debo etiquetarlo? Esto también conlleva la necesidad de describir el filtro correctamente. Como mínimo, la descripción debe responder a las siguientes preguntas:
 
@@ -57,7 +57,7 @@ El hecho de dedicar un cierto tiempo a la planificación de los segmentos aument
 
 ### Filtros de etiquetas
 
-En el Administrador de filtros, el etiquetado de filtros le permite organizarlos. Todos los usuarios pueden crear etiquetas para los filtros y aplicar una o más a un segmento. Sin embargo, solo verá las etiquetas de los filtros que sean suyos o que se hayan compartido con usted.
+En el Administrador de filtros, el etiquetado de filtros le permite organizarlos. Todos los usuarios pueden crear etiquetas para los filtros y aplicar una o más a un filtro. Sin embargo, solo verá las etiquetas de los filtros que sean suyos o que se hayan compartido con usted.
 
 ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:
 
@@ -79,7 +79,7 @@ Para etiquetar un filtro:
 
    * introduzca un nuevo nombre de etiqueta y pulse **[!UICONTROL Enter]**.
 
-1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar el segmento.
+1. Haga clic en **[!UICONTROL Tag]** de nuevo para etiquetar el filtro.
 
 La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
 También puede filtrar las etiquetas accediendo a **[!UICONTROL Filtros > Etiquetas]**.
@@ -94,7 +94,7 @@ Así es como se marca un filtro como aprobado:
 
 1. Haga clic en **[!UICONTROL Aprobar]** en la barra de tareas de administración de filtros.
 
-1. Considere la posibilidad de compartir el segmento o segmentos aprobados con su organización.
+1. Considere la posibilidad de compartir los filtros aprobados con su organización.
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
@@ -102,7 +102,7 @@ Así es como se marca un filtro como aprobado:
 
    ![](assets/seg_approved.png)
 
-1. También puede desaprobar un segmento aprobado haciendo clic en **[!UICONTROL Desaprobar]**.
+1. También puede desaprobar un filtro aprobado haciendo clic en **[!UICONTROL Desaprobar]**.
 
 ### Compartir filtros
 
@@ -132,7 +132,7 @@ Para compartir un filtro:
 
 ### Marcar filtros como favoritos
 
-Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
+Marcar los filtros como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
 
 1. En el Administrador de filtros, haga clic en la estrella que aparece junto a cualquier filtro que desee marcar como favorito. La estrella se vuelve amarilla cuando la selecciona.
 
