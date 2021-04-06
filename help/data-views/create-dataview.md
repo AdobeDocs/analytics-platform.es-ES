@@ -3,10 +3,10 @@ title: Creación de una vista de datos
 description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics (CJA).
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
@@ -35,9 +35,9 @@ Para poder crear vistas de datos, debe [configurar una o más conexiones a conju
    | Descripción | Una descripción detallada no es obligatoria, pero se recomienda. |
    | Añadir etiquetas | Las etiquetas permiten organizar las vistas de datos en categorías. |
    | Zona horaria | Elija el huso horario de la vista de datos. |
-   | Tiempo de espera de la sesión | Seleccione su definición de &quot;sesión&quot;. El tiempo de espera de sesión es la cantidad de inactividad que un visitante único debe presentar antes de que una sesión se inicie automáticamente. El valor predeterminado es de 30 minutos. Por ejemplo, si establece el tiempo de espera de sesión en 45 minutos, se crea un nuevo grupo de sesión por cada secuencia de visitas obtenida diferente de la anterior por al menos 45 minutos de inactividad. <!--This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
-   | Iniciar nueva sesión con un evento | Una nueva sesión se inicia cuando se activa un evento, independientemente de si se ha superado o no el tiempo de espera de la sesión. La sesión recién creada incluye el evento que la ha iniciado. Además, es posible utilizar varios eventos para iniciar una sesión, y se activa una nueva si se observa cualquiera de esos eventos en los datos. Este ajuste afecta al recuento de visitas, al contenedor de segmento (antes conocido como Visita) y a la lógica de caducidad de las visitas en las dimensiones. |
-   | Añadir filtros | &quot;Filtros&quot; es el término para &quot;segmentos&quot; en Customer Journey Analytics. Si desea filtrar los datos, arrastre el filtro correspondiente hasta aquí desde el carril izquierdo. Si no selecciona ningún filtro, la vista de datos tendrá todos los datos. |
+   | Tiempo de espera de la sesión | Seleccione su definición de &quot;sesión&quot;. El tiempo de espera de sesión es la cantidad de inactividad que un visitante único debe presentar antes de que una sesión se inicie automáticamente. El valor predeterminado es de 30 minutos. Por ejemplo, si establece el tiempo de espera de sesión en 45 minutos, se crea un nuevo grupo de sesión por cada secuencia de visitas obtenida diferente de la anterior por al menos 45 minutos de inactividad. <!--This setting impacts not only your visit counts, but also how visit filter containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
+   | Iniciar nueva sesión con un evento | Una nueva sesión se inicia cuando se activa un evento, independientemente de si se ha superado o no el tiempo de espera de la sesión. La sesión recién creada incluye el evento que la ha iniciado. Además, es posible utilizar varios eventos para iniciar una sesión, y se activa una nueva si se observa cualquiera de esos eventos en los datos. Este ajuste afecta al recuento de visitas, al contenedor de filtros Sesión (antes Visita) y a la lógica de caducidad de visitas en las dimensiones. |
+   | Añadir filtros | Si desea filtrar los datos, arrastre el filtro correspondiente hasta aquí desde el carril izquierdo. Si no selecciona ningún filtro, la vista de datos tendrá todos los datos. |
 
 1. Haga clic en **[!UICONTROL Continuar]**.
 
