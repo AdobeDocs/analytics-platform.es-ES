@@ -3,10 +3,10 @@ title: Información general sobre Customer Journey Analytics
 description: Descubra la forma en que Customer Journey Analytics le permite utilizar Analysis Workspace con los datos de Experience Platform.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Para crear conexiones, agregar conjuntos de datos, etc., necesita los siguientes
 
 * Para acceder al Customer Journey Analytics o establecer una conexión, deberá agregarlo como administrador al **Producto de Customer Journey Analytics** en el [Admin Console](https://adminconsole.adobe.com/enterprise/). Los administradores de productos tienen los siguientes permisos:
    * Crear/actualizar/eliminar conexiones o Vistas de datos
-   * Actualizar o eliminar proyectos, filtros, métricas de cálculo o segmentos creados por otros usuarios
+   * Actualizar o eliminar proyectos, filtros, métricas de cálculo o filtros creados por otros usuarios
    * Compartir un proyecto de Workspace con todos los usuarios
 * Convertirse en administrador de productos dentro de Customer Journey Analytics no es suficiente para crear, actualizar o eliminar una conexión. Para crear una conexión a un conjunto de datos de Experience Platform, también necesita permisos de Experience Platform. Específicamente, debe formar parte de un **perfil del producto Experience Platform** que le proporciona los siguientes permisos:
    * Esquemas de vistas
