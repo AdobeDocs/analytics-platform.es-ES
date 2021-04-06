@@ -4,10 +4,10 @@ title: Información general de Analysis Workspace
 description: Información general sobre las capacidades de Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ En el proyecto de Workspace, se accede a **paneles, tablas, visualizaciones y co
 
 ### Componentes
 
-**Los componentes** son dimensiones, métricas, segmentos o intervalos de fechas, los cuales se pueden combinar en una **[!UICONTROL tabla improvisada]** para responder en inicio a las preguntas comerciales. Asegúrese de familiarizarse con cada [tipo de componente](/help/components/overview.md) antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear el análisis](/help/analysis-workspace/build-workspace-project/freeform-overview.md) en una **[!UICONTROL tabla improvisada]**.
+**** Los componentes son dimensiones, métricas, filtros o intervalos de fechas, todos los cuales se pueden combinar en una tabla  **[!UICONTROL improvisada]** para comenzar a responder a las preguntas comerciales. Asegúrese de familiarizarse con cada [tipo de componente](/help/components/overview.md) antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear el análisis](/help/analysis-workspace/build-workspace-project/freeform-overview.md) en una **[!UICONTROL tabla improvisada]**.
 
 ![](assets/build-components.png)
 
