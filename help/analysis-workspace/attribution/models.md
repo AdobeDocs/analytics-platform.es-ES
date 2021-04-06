@@ -1,14 +1,14 @@
 ---
 title: Modelos de atribución y ventanas retroactivas
-description: Cómo los diferentes tipos de atribución dividen el crédito entre elementos de dimensión.
+description: Los diferentes tipos de atribución dividen el crédito entre los elementos de dimensión.
+exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 98%
+source-wordcount: '1541'
+ht-degree: 97%
 
 ---
-
 
 # Modelos de atribución y ventanas retroactivas
 
@@ -41,7 +41,7 @@ El concepto de atribución en Adobe Analytics requiere dos componentes:
 
 Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devolverse en el tiempo para incluir los puntos de contacto. Los modelos de atribución que dan más crédito a las primeras interacciones ven diferencias mayores al tener ventanas retrospectivas distintas.
 
-* **Ventana retrospectiva de visita:** Revisa hasta el principio de una visita en la que se produjo una conversión. Las ventanas retrospectivas de visitas son estrechas, ya que no miran más allá de la visita. Las ventanas retrospectivas de visitas respetan la definición de visita modificada en los grupos de informes virtuales.
+* **Ventana retrospectiva de visita:** Revisa hasta el principio de una visita en la que se produjo una conversión. Las ventanas retrospectivas de visitas son estrechas, ya que no miran más allá de la visita. Las ventanas retrospectivas de visitas respetan la definición de visita modificada en las vistas de datos.
 
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. La ventana retrospectiva de visitantes tiene en cuenta todos los valores desde el comienzo del mes del intervalo de fechas del informe. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
 
@@ -49,7 +49,7 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 >[!NOTE]
 >
->**[!UICONTROL Las]** ventanas de retrospectiva personalizadas están actualmente en pruebas limitadas. Consulte [Versiones de funciones de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) para obtener más información.
+>**[!UICONTROL Las]** ventanas retrospectivas personalizadas están actualmente en prueba limitada. Consulte [Versiones de características de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) para obtener más información.
 
 ## Ejemplo
 
