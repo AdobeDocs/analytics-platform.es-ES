@@ -1,14 +1,14 @@
 ---
 title: Creación de una vista de datos
 description: Describe cómo crear una vista de datos en un conjunto de datos de Platform en Customer Journey Analytics (CJA).
-translation-type: ht
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 97%
 
 ---
-
 
 # Creación de una vista de datos
 
@@ -43,7 +43,7 @@ Para poder crear vistas de datos, debe [configurar una o más conexiones a conju
 
 ## Añadir componentes
 
-1. Ahora es el momento de agregar componentes (dimensiones, métricas) a la vista de datos (similar a la experiencia de depuración en grupos de informes virtuales). Tenga en cuenta que cada uno de los campos de los conjuntos de datos ahora se traduce en dimensiones o métricas. Arrastre dimensiones y métricas al panel o haga clic en **[!UICONTROL Seleccionar todo]** para añadir todos los componentes.
+1. Ahora es el momento de agregar componentes (dimensiones, métricas) a la vista de datos. Tenga en cuenta que cada uno de los campos de los conjuntos de datos ahora se traduce en dimensiones o métricas. Arrastre dimensiones y métricas al panel o haga clic en **[!UICONTROL Seleccionar todo]** para añadir todos los componentes.
 
    ![](assets/add-all-components.png)
 
