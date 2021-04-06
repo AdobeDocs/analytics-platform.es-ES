@@ -1,20 +1,20 @@
 ---
 title: Crear filtros
 description: Comprenda la interfaz de usuario para la creación de filtros.
+exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 translation-type: tm+mt
-source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
-
 
 # Crear filtros
 
 El Generador de filtros proporciona un lienzo para arrastrar y soltar las métricas, las dimensiones, los filtros y los eventos para filtrar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar filtros simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
 
-Puede crear filtros instantáneos soltando cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de filtros en la parte superior de un panel.
+Puede crear filtros instantáneos soltando cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, filtro, plantilla de filtro, intervalo de fechas) en la zona de colocación de filtros en la parte superior de un panel.
 
 Los tipos de componente se convierten automáticamente en filtros. También puede hacer clic en el signo “+” en el cuadro desplegable **[!UICONTROL Agregar filtro]**.
 
