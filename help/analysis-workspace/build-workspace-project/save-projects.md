@@ -1,10 +1,11 @@
 ---
 description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como y guardar como plantilla.
 title: Guardar proyectos
-translation-type: ht
-source-git-commit: f01585ffdc0b54d1b21b035278869e59bd4947dc
-workflow-type: ht
-source-wordcount: '313'
+exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -21,7 +22,7 @@ Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL
 |---|---| 
 | **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre, una descripción (opcional) y que añada etiquetas (opcional). |
 | **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
-| **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una [plantilla personalizada](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
+| **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una plantilla personalizada que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
 
 ![](assets/save-project.png)
 
