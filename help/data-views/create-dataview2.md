@@ -3,9 +3,9 @@ title: Cómo crear una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '2805'
+source-wordcount: '2802'
 ht-degree: 11%
 
 ---
@@ -106,7 +106,7 @@ La configuración de formato solo es para métricas.
 
 ### Configurar los valores de inclusión/exclusión
 
-Esta configuración le permite modificar los datos subyacentes sobre los que realiza informes en el momento de la consulta. No es lo mismo que un filtro (antes denominado segmento). Pero los filtros respetarán esta nueva dimensión, al igual que las rutas y la atribución.
+Esta configuración le permite modificar los datos subyacentes sobre los que realiza informes en el momento de la consulta. No es lo mismo que un filtro. Pero los filtros respetarán esta nueva dimensión, al igual que las rutas y la atribución.
 
 Por ejemplo, puede crear una dimensión fuera del campo pageTitle , pero llamarla &quot;páginas de error&quot; e incluir cualquier página que [!UICONTROL contenga la frase] &quot;error&quot;.
 
@@ -115,7 +115,7 @@ Por ejemplo, puede crear una dimensión fuera del campo pageTitle , pero llamarl
 | Configuración | Descripción/Caso de uso |
 | --- | --- |
 | [!UICONTROL Con distinción de mayúsculas y minúsculas] | Predeterminado = Activado. Esta configuración solo se aplica a la sección [!UICONTROL Incluir/Excluir valores]. Le permite decir si la regla de inclusión/exclusión que está aplicando debe distinguir entre mayúsculas y minúsculas. |
-| [!UICONTROL Coincidencias] | Le permite especificar qué valores desea tener en cuenta para los informes antes de la atribución y segmentación (por ejemplo, usar solo valores que contengan la frase &quot;error&quot;). Puede especificar: **[!UICONTROL Si se cumplen todos los criterios]** o **[!UICONTROL Si se cumplen los criterios]**. |
+| [!UICONTROL Coincidencias] | Permite especificar qué valores desea tener en cuenta para los informes antes de la atribución y los filtros (por ejemplo, usar solo valores que contengan la frase &quot;error&quot;). Puede especificar: **[!UICONTROL Si se cumplen todos los criterios]** o **[!UICONTROL Si se cumplen los criterios]**. |
 | [!UICONTROL Criterios] | Permite especificar la lógica de coincidencia que debe aplicarse a una regla de filtro específica.<ul><li>**Cadena**: Contiene la frase, Contiene cualquier término, Contiene todos los términos, No contiene ningún término, No contiene la frase, Es igual a, No es igual a, Comienza con, Finaliza con</li><li>**Doble/entero**: igual, no igual, es bueno que, es menor que, es bueno o igual que, es menor o igual que</li><li>**Fecha**: igual, no igual, es posterior a, es anterior, ocurre en</li></ul> |
 | [!UICONTROL Operador de coincidencia] | Permite especificar el operando de coincidencia al que se debe aplicar el operador de coincidencia.<ul><li>**Cadena**: Campo de texto</li><li>**Doble/entero**: Campo de texto con flechas arriba/abajo para valores numéricos</li><li>**Fecha**: Selector de granularidad de día (calendario)</li><li>**Fecha y hora**: Selector de granularidad de fecha y hora</li></ul> |
 | [!UICONTROL Añadir regla] | Permite especificar un operador de coincidencia y un operando adicionales. |
