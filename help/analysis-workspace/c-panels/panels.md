@@ -1,18 +1,18 @@
 ---
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
+exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
-
 # Resumen de paneles
 
-Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis. A continuación, se describen los tipos de paneles que están disponibles en Analysis Workspace:
+Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, vistas de datos o casos de uso de análisis. A continuación, se describen los tipos de paneles que están disponibles en Analysis Workspace:
 
 | Nombre del panel | Descripción |
 | --- | --- |
@@ -41,13 +41,13 @@ La zona de colocación del panel permite aplicar filtros de segmentos y desplega
 
 ### Filtros de segmentos
 
-Arrastre y suelte cualquier Filtros del carril izquierdo en la zona de colocación del panel para empezar a filtrar el panel.
+Arrastre y suelte cualquier Filtro del carril izquierdo en la zona de colocación del panel para comenzar a filtrar el panel.
 
 ![](assets/segment-filter.png)
 
 ### Filtros específicos
 
-Los componentes que no son de segmento también se pueden arrastrar directamente a la zona desplegable para crear filtros ad-hoc, lo que le ahorra tiempo y esfuerzo al ir al Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Esta definición se puede modificar haciendo clic en el icono de información (i) situado junto al filtro, luego en el icono de edición con forma de lápiz y editándolo en el Generador de filtros.
+Los componentes que no son de segmento también se pueden arrastrar directamente a la zona de colocación para crear filtros específicos, lo que le ahorra tiempo y esfuerzo al ir al Generador de filtros. Los filtros creados de esta forma se definen automáticamente como filtros de nivel de visita. Esta definición se puede modificar haciendo clic en el icono de información (i) junto al filtro, luego en el icono de edición con forma de lápiz y editándolo en el Generador de filtros.
 
 Los filtros específicos son locales del proyecto y no aparecerán en el carril izquierdo a menos que los haga públicos.
 
