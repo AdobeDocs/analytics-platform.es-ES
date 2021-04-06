@@ -4,10 +4,10 @@ keywords: Proyectos de solo de vista
 title: Proyectos de solo de vista
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Las interacciones desactivadas en un proyecto de Solo consulta incluyen:
 * Filtro improvisado
 * N.º de filas visibles improvisado
 * Configuración de fila, columna o visualización improvisada
-* Segmentos de panel
+* Filtros del panel
 * Menús Editar, Insertar y Componente
 * Sugerencias del espacio de trabajo
 
