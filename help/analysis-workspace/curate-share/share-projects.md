@@ -1,15 +1,15 @@
 ---
 description: Uso compartido de proyectos y funciones de proyectos en Workspace
-keywords: Analysis Workspace sharing
+keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
+exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 98%
 
 ---
-
 
 # Compartir proyectos
 
@@ -52,7 +52,7 @@ Para agregar destinatarios al proyecto compartido:
 Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 1. Añadir destinatarios o grupos de destinatarios.
 Consulte el icono de ayuda en la parte superior para ver las descripciones de cada función.
-1. Si lo desea, puede compartir componentes del proyecto incrustados (segmentos, métricas calculadas e intervalos de fechas) con todos los destinatarios.
+1. (Opcional) Comparta componentes de proyecto incrustados (filtros, métricas calculadas e intervalos de fechas) con todos los destinatarios.
 Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes de Workspace del destinatario. Tenga en cuenta que esta configuración no se mantiene, se trata de una acción concreta usada en el momento de compartir.
 1. Si lo desea, puede configurar esta página como la página de aterrizaje para destinatarios.
 Esta configuración no se mantiene, se trata de una acción concreta usada en el momento de compartir.
