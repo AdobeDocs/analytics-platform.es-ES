@@ -1,14 +1,14 @@
 ---
 title: Administrar filtros
 description: descubra cómo administrar filtros en Customer Journey Analytics
+exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 96%
+source-wordcount: '1094'
+ht-degree: 94%
 
 ---
-
 
 # Administrar filtros
 
@@ -16,7 +16,7 @@ El Administrador de filtros ofrece numerosas maneras de conservar los segmentos,
 
 El Administrador de filtros le muestra todos los filtros que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los filtros de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de filtros.
 
-Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis de viajes del cliente]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]** en la navegación superior.
+Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis del Recorrido del cliente]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]** en la barra de navegación superior.
 
 ## Interfaz de usuario del Administrador de filtros
 
@@ -28,7 +28,6 @@ Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis de viaj
 | 2 | Casillas de verificación | Marque un filtro para administrarlo. |
 | 4 | Favoritos | Si hace clic en la estrella que aparece junto a un filtro, esta se pondrá de color amarillo y el filtro se marcará como favorito. |
 | 5 | Título y descripción | Aparecen en el Generador de filtros. Para editar el título y la descripción, haga clic en el vínculo del título. Se le redirigirá al Generador de filtros. |
-| 6 | Grupos de informes | Esta columna indica en qué grupo de informes se guardó el filtro por última vez. |
 | 7 | Propietario | Indica a quién pertenece el filtro. Si no es el administrador, solo podrá ver los filtros que le pertenecen o que compartieron con usted. |
 | 8 | Etiquetas (la columna no aparece porque no está marcada en el selector de columnas) | Etiquetas que se aplicaron al filtro, tanto por su parte como por parte de las personas que compartieron el filtro con usted. |
 | 9 | Compartido con | Enumera las personas o los grupos (solo administrador) o todos (solo administrador) con los que compartió el filtro. |
@@ -36,7 +35,7 @@ Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis de viaj
 | 11 | Selector de columnas | (Parte superior derecha) Permite seleccionar qué columnas mostrar en el Administrador de filtros. |
 | 12 | Icono compartido | Indica que usted compartió este filtro con otra persona o que lo han compartido con usted. |
 | 13 | Icono de aprobado | Indica que un administrador ha aprobado este filtro. |
-| 14 | Otros filtros | Permite ver los filtros de Etiquetas, Conjuntos de informes, Propietarios y Otros (Mostrar todo, Míos, Compartidos conmigo, Aprobados y Favoritos). |
+| 14 | Otros filtros | Permite ver los filtros de Etiquetas, Vistas de datos, Propietarios y Otros (Mostrar todo, Míos, Compartidos conmigo, Aprobados y Favoritos). |
 
 ## Filtros del plan
 
@@ -78,7 +77,7 @@ Para etiquetar un filtro:
 
    * Seleccione una de las etiquetas existentes, o bien
 
-   * introduzca un nuevo nombre de etiqueta y pulse **[!UICONTROL Intro]**.
+   * introduzca un nuevo nombre de etiqueta y pulse **[!UICONTROL Enter]**.
 
 1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar el segmento.
 
@@ -93,7 +92,7 @@ Así es como se marca un filtro como aprobado:
 
 1. En el Administrador de filtros, marque la casilla a la izquierda del título del filtro.
 
-1. Haga clic en **[!UICONTROL Aprobar]** en la barra de tarea de administración de filtros.
+1. Haga clic en **[!UICONTROL Aprobar]** en la barra de tareas de administración de filtros.
 
 1. Considere la posibilidad de compartir el segmento o segmentos aprobados con su organización.
 
@@ -138,4 +137,3 @@ Marcar los segmentos como favoritos es otra manera de organizarlos para que su u
 1. En el Administrador de filtros, haga clic en la estrella que aparece junto a cualquier filtro que desee marcar como favorito. La estrella se vuelve amarilla cuando la selecciona.
 
 1. También puede filtrar por favoritos con Filtros > Otros filtros > Favoritos.
-
