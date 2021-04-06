@@ -1,14 +1,14 @@
 ---
 description: Configuración de la visualización Flujo en Workspace
 title: Configuración de flujo
+exl-id: 85de8ee7-b79f-4ac4-9601-a4e7f6fb3b2a
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
-
 
 # Configuración de flujo
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 | --- | --- |
 | Centrarse en este nodo | Cambia el interés al nodo seleccionado. El nodo de interés aparece en el centro del diagrama de flujo. |
 | Volver a empezar | Le hace regresar al generador de diagramas improvisados, donde puede crear un nuevo diagrama de flujo. |
-| Crear segmento desde este punto del flujo | Creación de segmentos. Esto le lleva al Generador de segmentos, donde puede configurar el nuevo segmento. |
+| Crear filtro a partir de este punto del flujo | Crear un filtro. Esto le lleva al Generador de filtros, donde puede configurar el nuevo filtro. |
 | Desglosar | Desglosa el nodo mediante las dimensiones, métricas o tiempo disponibles. |
 | Tendencia | Crea un diagrama de tendencia para el nodo. |
 | Expandir toda la columna | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
