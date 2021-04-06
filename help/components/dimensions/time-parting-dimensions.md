@@ -1,32 +1,26 @@
 ---
 description: La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
 title: Dimensiones de partición de tiempo
-uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 91%
 
 ---
-
 
 # Dimensiones de partición de tiempo
 
 La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
 
-Las dimensiones de partición de tiempo se basan en el huso horario del grupo de informes o del grupo de informes virtuales. Estas dimensiones están disponibles en Analysis Workspace y pueden ayudar a responder a las siguientes preguntas:
+Las dimensiones de partición de tiempo se basan en la zona horaria de la vista de datos. Estas dimensiones están disponibles en Analysis Workspace y pueden ayudar a responder a las siguientes preguntas:
 
 * En un rango de datos de gran volumen, ¿cuál es la hora del día más popular para que los visitantes accedan a mi sitio o aplicación?
 * ¿Hay días de la semana u horas del día en que la conversión es mayor en mi sitio o aplicación?
 * ¿Qué rendimiento tienen las ventas del fin de semana en comparación con las ventas en días laborables?
 * ¿Cuándo genera mayor conversión una determinada campaña de marketing? ¿Por la mañana o por la tarde?
 
->[!NOTE]
->
->Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de análisis, puede implementar el [complemento getTimeParting](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/plugins/gettimeparting.html).
-
-Las dimensiones de partición de tiempo en Analysis Workspace incluyen:
+## Dimensiones de partición de tiempo en Analysis Workspace
 
 | Dimensión | Valores de ejemplo |
 |--- |--- |
