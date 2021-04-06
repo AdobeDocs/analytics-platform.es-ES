@@ -1,14 +1,14 @@
 ---
 description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
+exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
-
 
 # Accesibilidad en Analysis Workspace
 
@@ -24,17 +24,17 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 
 * La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
 * El movimiento `left/right arrows` entre elementos individuales después de que `Tab` lo haya resaltado.
-* El `F6` se desplaza al primer panel del proyecto y se desplaza entre las visualizaciones de ese panel. A continuación, pasa al siguiente panel del proyecto y se repite.
+* El `F6` se desplaza al primer panel del proyecto y se desplaza entre las visualizaciones de ese panel. A continuación, se desplaza al panel siguiente del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.
 
    ![Indicador de enfoque](assets/focus-indicator.png)
 
 ### Navegación por teclado para la barra de menús
 
-1. Tabulador hasta que llegue a la barra de menús.
-1. Utilice las teclas de flecha izquierda/derecha para desplazarse al menú que desee.
+1. Tabulador hasta que haya llegado a la barra de menús.
+1. Utilice las teclas de flecha izquierda/derecha para desplazarse hasta el menú que desee.
 1. Pulse `Enter` para seleccionar el menú y mostrar sus opciones.
-1. Utilice las teclas de flecha arriba/abajo para desplazarse a la opción de menú que desee.
+1. Utilice las teclas de flecha arriba/abajo para ir a la opción de menú que desee.
 1. Pulse `Enter` para seleccionar la opción.
 
 ### Navegación por teclado para interacciones de arrastrar y soltar
@@ -67,9 +67,9 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | Alt + 1 | Nueva tabla improvisada |
 | Ctrl + Mayús + C | Nueva métrica calculada |
 | Ctrl + Mayús + D | Nuevo intervalo de fechas |
-| Ctrl + Mayús + E | Nuevo segmento |
+| Ctrl + Mayús + E | Nuevo filtro |
 | Ctrl + Z | Deshacer |
-| Mantenga pulsada la tecla Mayús (en la zona desplegable de segmentos del panel) | Cree un [filtro desplegable](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es-ES) |
+| Mantenga pulsada la tecla Mayús (en la zona desplegable del filtro del panel) | Cree un [filtro desplegable](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es-ES) |
 
 #### Democratización
 
