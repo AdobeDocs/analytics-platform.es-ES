@@ -3,17 +3,17 @@ description: Cree un proyecto y añada componentes (dimensiones, métricas, segm
 keywords: Analysis Workspace
 title: Creación de un proyecto de Workspace
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '672'
+ht-degree: 95%
 
 ---
 
 
 # Creación de un proyecto de Workspace
 
-Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel improvisada.
+Cree un proyecto y añada componentes (dimensiones, métricas, filtros e intervalos de fechas) al panel improvisado.
 
 Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto.
 
@@ -36,8 +36,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
    Puede elegir crear un proyecto a partir de
 
 * Un proyecto en blanco (opción predeterminada). Consulte las instrucciones más abajo.
-* Una plantilla estándar. Adobe se encarga de crear estas plantillas, que están listas para usarse. Para obtener instrucciones, consulte [Plantillas](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md).
-* Una plantilla personalizada. Estas plantillas las crean los usuarios que tienen derechos de administrador. Para obtener instrucciones, consulte [Plantillas](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md).
+* Una plantilla personalizada. Estas plantillas las crean los usuarios que tienen derechos de administrador.
 
    ![](assets/start_modal.png)
 
@@ -49,10 +48,6 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
    Aparece un proyecto en blanco, que muestra un panel improvisado y una visualización de tabla de datos.
 
    ![](assets/fa_project_new.png)
-
-   >[!NOTE]
-   >
-   >En ocasiones, aparece el mensaje “Grupo de informes incompatible” al cargar un proyecto (o cambiar a un grupo de informes) en el que no todos los componentes (métricas/dimensiones) contenidos en él están incluidos en el grupo de informes. Se puede ver una lista de los componentes que no son compatibles. De este modo, podrá saber por qué aparece el mensaje.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -134,7 +129,7 @@ El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, t
 
 1. Paso
 
-## Use el menú que se abre al hacer clic con el botón derecho para personalizar sus datos. {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
+## Utilice el menú que se abre al hacer clic con el botón derecho para personalizar los datos {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 El menú del botón secundario le permite realizar las siguientes acciones, según en qué celda de una tabla haga clic con el botón secundario.
 
@@ -173,7 +168,7 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensiones </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Métricas </li> 
-     <li id="li_0405D339CD01405DB508A7D8D1A976B4">Segmentos </li> 
+     <li id="li_0405D339CD01405DB508A7D8D1A976B4">Filtros </li> 
      <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">Fecha </li> 
     </ul> </td> 
    <td colname="col2"> </td> 
@@ -191,7 +186,7 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Crear segmento de selección</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Crear filtro desde la selección</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
