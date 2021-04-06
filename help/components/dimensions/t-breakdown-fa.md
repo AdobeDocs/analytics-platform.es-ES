@@ -2,16 +2,16 @@
 description: Desglose de dimensiones y elementos de dimensión en Analysis Workspace.
 keywords: Analysis Workspace
 title: Desglose de dimensiones
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
+exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 translation-type: tm+mt
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 96%
+source-wordcount: '237'
+ht-degree: 79%
 
 ---
-
 
 # Desglose de dimensiones
 
@@ -21,14 +21,14 @@ ht-degree: 96%
 
 Desglose de dimensiones y elementos de dimensión en Analysis Workspace.
 
-Desglose los datos ilimitadamente para sus necesidades específicas; genere consultas con métricas, dimensiones, segmentos, líneas de tiempo y otros valores de desglose de análisis relevantes.
+Desglose los datos de manera ilimitada según sus necesidades específicas; genere consultas utilizando métricas, dimensiones, filtros, líneas de tiempo y otros valores de desglose de análisis relevantes.
 
 1. [Cree un proyecto](/help/analysis-workspace/home.md) con una tabla de datos.
 1. En la tabla de datos, haga clic con el botón secundario en un elemento de línea y seleccione **[!UICONTROL Desglosar]** > *`<item>`*.
 
    ![Resultado](assets/fa_data_table_actions.png)
 
-   Puede desglosar métricas por elementos de dimensión o segmentos de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
+   Puede desglosar métricas por elementos de dimensión o filtros de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 
    >[!NOTE]
    >
