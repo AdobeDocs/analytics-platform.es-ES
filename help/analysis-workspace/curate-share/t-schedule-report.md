@@ -2,14 +2,14 @@
 description: Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega.
 keywords: Analysis Workspace
 title: Programar proyectos
+exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 5f9dc79e666303165f07fd203e29a3daf478e980
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
-
 
 # Programar proyectos
 
@@ -30,7 +30,7 @@ Para enviar un archivo inmediatamente a los destinatarios por correo electrónic
 1. Haga clic en **Enviar ahora**.
 1. (Opcional) Haga clic en **Mostrar opciones de programación** para especificar una programación de entregas.
 
-![Enviar archivo ahora](assets/send-file-now.png)
+![Enviar archivo ahora](assets/send-file-no-scheduling-options.JPG)
 
 ## Enviar archivo según lo programado
 
@@ -44,15 +44,13 @@ Para enviar un archivo en una programación recurrente a los destinatarios por c
 1. Especifique la frecuencia de entrega. Cada frecuencia permite diferentes personalizaciones.
 1. Haga clic en **Enviar según lo programado**.
 
-![](assets/send-on-schedule.png)
+![](assets/send-file.JPG)
 
 ## Administrador de proyectos programados
 
 Los proyectos programados de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos programados**.
 
 En el Administrador de proyectos programados, puede editar y eliminar la programación recurrente de proyectos. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro en el carril izquierdo. Puede filtrar por etiqueta, programaciones aprobadas, propietarios, etc.
-
-![](assets/scheduled-project-manager.png)
 
 Las siguientes son acciones comunes en el administrador de proyectos programados:
 
@@ -65,4 +63,4 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 | **Ver las programaciones caducadas** | Vaya al carril izquierdo > Otros filtros > Caducado para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de entrega. |
 | **Ver el ID de programación** | Vaya a las opciones de columna en la parte superior derecha y añada la columna ID de programación a la tabla. El ID de programación suele ser útil para la depuración. |
 
-El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados. La propiedad del proyecto programado se puede **transferir** a un nuevo usuario en **Administración > Usuarios y activos de Analytics > Transferir activos**.
+El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados.
