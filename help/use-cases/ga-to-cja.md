@@ -2,7 +2,7 @@
 title: Configuración de informes de Google Analytics en Customer Journey Analytics
 description: null
 translation-type: tm+mt
-source-git-commit: c07d32eef579432bf92f94cbbe4e99188b2de74c
+source-git-commit: 13828f484ec1edcd00a6d049ff78c7e2642d2b01
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 1%
@@ -47,7 +47,8 @@ Consulte [estas instrucciones](https://support.google.com/analytics/answer/34160
 
    ![](assets/ga-bigquery.png)
 Debe crear una consulta SQL para transformar los datos de Universal Analytics en un formato compatible con Experience Platform.
-   * Vea este vídeo para obtener instrucciones.
+   * Vea este vídeo para obtener instrucciones:
+   >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
 1. Exporte eventos de Google Analytics en formato JSON a Google Cloud Storage y guárdelos en un bloque.
 Consulte [estas instrucciones](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
