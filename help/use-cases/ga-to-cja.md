@@ -1,18 +1,18 @@
 ---
 title: Configuración de informes de Google Analytics en Customer Journey Analytics
 description: null
+exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 1324ad5768a7ab215431b9447d9519367dfe17a0
+source-git-commit: 49b49f24dbc68b1d9e843e0f4522123e6792a438
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
 
-
 # Configuración de informes de Google Analytics en Customer Journey Analytics
 
-
+Este caso de uso explica cómo obtener los datos de sus Google Analytics en Adobe Experience Platform y, a continuación,
 
 ## Requisitos previos
 
@@ -26,12 +26,12 @@ La forma de introducir los datos de los Google Analytics en Adobe Experience Pla
 
 | Si utiliza... | También necesita esta licencia... | Y haz esto... |
 | --- | --- | --- |
-| **Google Analytics universales** | Google Analytics 360 | Siga los pasos 1 a x de las instrucciones siguientes |
-| **Google Analytics 4** | Versión gratuita de GA para Google Analytics 360 | No es necesario realizar el paso x en las instrucciones siguientes. |
+| **Google Analytics universales** | Google Analytics 360 | Siga los pasos 1 a 5 de las instrucciones siguientes |
+| **Google Analytics 4** | Versión gratuita de GA para Google Analytics 360 | Siga los pasos 2 a 5 de las instrucciones siguientes. No es necesario el paso 1. |
 
 Las siguientes instrucciones están basadas en Google Analytics universales.
 
-1. Conecte los datos de sus Google Analytics a BigQuery y
+1. Conecte los datos de sus Google Analytics a BigQuery para poder transformar algunos de los datos.
 Consulte [estas instrucciones](https://support.google.com/analytics/answer/3416092?hl=en).
 
 1. (Solo clientes de Universal Analytics) Transforme sesiones de Google Analytics a eventos en BigQuery.
@@ -55,4 +55,3 @@ Vea este vídeo para obtener instrucciones:
 1. Importar eventos GCS a Adobe Experience Platform y asignarlos al esquema XDM
 
 Esquema BigQuery Export (https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)
-
