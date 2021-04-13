@@ -1,14 +1,14 @@
 ---
 title: Adición de búsquedas globales a los conjuntos de datos
 description: Utilice búsquedas globales para aumentar la creación de informes con dimensiones útiles en Customer Journey Analytics.
+exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 translation-type: tm+mt
-source-git-commit: b3c9757421537d2d84a78a4d37e9bfc362438d40
+source-git-commit: e19e9b7d7a88232e1eeb7ddaa739389e26763c1a
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
-
 
 # Adición de búsquedas globales a los conjuntos de datos
 
@@ -23,7 +23,7 @@ Los conjuntos de datos de búsqueda global se aplican automáticamente en el mom
 
 ## Uso de búsquedas globales con conjuntos de datos personalizados
 
-Debe haber una clave en el conjunto de datos de evento que sea compatible con los conjuntos de datos de búsqueda globales. Siempre que complete los campos XDM adecuados agregando algunas de las [mezclas de esquema de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=es-ES#mixins) estándar, podrá hacer que los conjuntos de datos personalizados funcionen con búsquedas globales.
+Debe estar presente una clave en el conjunto de datos de evento que sea compatible con los conjuntos de datos de búsqueda globales. Siempre que complete los campos XDM adecuados agregando algunas de las [mezclas de esquema de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=es-ES#mixins) estándar, podrá hacer que los conjuntos de datos personalizados funcionen con búsquedas globales.
 
 ## Campos de búsqueda globales disponibles
 
@@ -67,4 +67,3 @@ Para informar sobre las dimensiones de búsqueda global, debe añadirlas al crea
 A continuación, podrá ver los datos de búsqueda en Workspace:
 
 ![](assets/gl-reporting.png)
-
