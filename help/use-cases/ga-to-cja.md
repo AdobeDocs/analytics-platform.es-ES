@@ -1,11 +1,11 @@
 ---
-title: Cómo obtener datos de Google Analytics en Adobe Experience Platform para su análisis en Customer Journey Analytics (CJA)
+title: Ingesta de datos de Google Analytics en Adobe Experience Platform
 description: 'Explica cómo aprovechar Customer Journey Analytics (CJA) para ingerir sus Google Analytics y datos de firebase en Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: cc212d8b1e0a229fd246f6678a8dc8e5bbadce79
+source-git-commit: b6f62c1d53d023c230fbd7f8ad366ac5c6b13954
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ La forma de introducir los datos de los Google Analytics en Adobe Experience Pla
 
 ### 1. Conecte los datos de sus Google Analytics a BigQuery
 
-Tenga en cuenta que las siguientes instrucciones están basadas en Google Analytics universales. Se aplican a los datos históricos. Para obtener instrucciones sobre la transmisión de datos en directo, vaya a Traer datos de transmisión en vivo a AEP.
+Tenga en cuenta que las siguientes instrucciones están basadas en Google Analytics universales. Se aplican a los datos históricos. Para obtener instrucciones sobre la transmisión de datos en directo, vaya a [Traer datos de transmisión en vivo a AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#ingest-live-streaming-google-analytics-data).
 
 Consulte [estas instrucciones](https://support.google.com/analytics/answer/3416092?hl=en).
 
@@ -84,7 +84,7 @@ O vea este vídeo:
 
 ### 3. Exporte eventos de Google Analytics en formato JSON a Google Cloud Storage y guárdelos en un bucket
 
-A continuación, importará los eventos de Google Analytics en Google Cloud Storage en formato JSON. Luego lo traes al Experience Platform.
+A continuación, importará los eventos de Google Analytics en Google Cloud Storage en formato JSON.
 
 Consulte [estas instrucciones](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
 
