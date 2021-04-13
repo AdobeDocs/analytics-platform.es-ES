@@ -3,9 +3,9 @@ title: Cómo obtener datos de Google Analytics en Adobe Experience Platform para
 description: 'Explica cómo aprovechar Customer Journey Analytics (CJA) para ingerir sus Google Analytics y datos de firebase en Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 58842436ab3388ba10ad0df0b35c78f68b02f0a3
+source-git-commit: cc212d8b1e0a229fd246f6678a8dc8e5bbadce79
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1040'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ La forma de introducir los datos de los Google Analytics en Adobe Experience Pla
 
 | Si utiliza... | También necesita esta licencia... | Y haz esto... |
 | --- | --- | --- |
-| **Google Analytics universales** | Google Analytics 360 | Siga los pasos 1 a 5 de las instrucciones siguientes |
+| **Universal Analytics** | Google Analytics 360 | Siga los pasos 1 a 5 de las instrucciones siguientes |
 | **Google Analytics 4** | Versión gratuita de GA para Google Analytics 360 | Siga los pasos 1 y 3-5 de las instrucciones siguientes. No es necesario el paso 2. |
 
 ## Ingesta de datos históricos
@@ -53,11 +53,30 @@ Consulte [estas instrucciones](https://support.google.com/analytics/answer/34160
 
 Los datos de GA almacenan cada registro en sus datos como una sesión del usuario en lugar de como eventos individuales. Debe crear una consulta SQL para transformar los datos de Universal Analytics en un formato compatible con Experience Platform. La función &quot;unnest&quot; se aplica al campo &quot;hits&quot; del esquema GA. Este es el ejemplo SQL que puede utilizar:
 
-`SQL sample`
+`SELECT
+*,
+timestamp_seconds(`` + hit.time) AS `` 
+FROM
+(
+SELECT
+fullVisitorId,
+visitNumber,
+visitId,
+visitStartTime,
+trafficSource,
+socialEngagementType,
+channelGrouping,
+device,
+geoNetwork,
+hit 
+FROM
+`visitStartTimetimestampyour_bq_table_2021_04_*`,
+UNNEST(hits) AS hit 
+)`
 
 Una vez finalizada la consulta, guarde los resultados completos en una tabla BigQuery.
 
-Consulte [estas instrucciones](https://support.google.com/analytics/answer/3437618?hl=en).
+Consulte [estas instrucciones](https://support.google.com/analytics/answer/7029846?hl=en&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql).
 
 O vea este vídeo:
 
