@@ -3,17 +3,17 @@ title: Cómo obtener datos de Google Analytics en Adobe Experience Platform para
 description: 'Explica cómo aprovechar Customer Journey Analytics (CJA) para ingerir sus Google Analytics y datos de firebase en Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 793b2ce4ec8a487f6c4290fe2eff00879fcca13d
+source-git-commit: 58842436ab3388ba10ad0df0b35c78f68b02f0a3
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '1030'
+ht-degree: 1%
 
 ---
 
 
 # Ingesta de datos de Google Analytics en Adobe Experience Platform
 
-Este caso de uso se centra en cómo introducir los datos de sus Google Analytics como un conjunto de datos en Adobe Experience Platform. (Esto se aplica a los datos históricos y a los datos activos). Una vez finalizado, puede combinar ambos conjuntos de datos para obtener una vista entre dispositivos del recorrido del usuario.
+Este caso de uso se centra en cómo introducir los datos de sus Google Analytics como un conjunto de datos en Adobe Experience Platform. Explicaremos cómo ingerir datos históricos y activos. Una vez finalizado, puede combinar ambos conjuntos de datos en Customer Journey Analytics para obtener una vista entre dispositivos del recorrido del usuario.
 
 Los conjuntos de datos del Experience Platform se componen de dos cosas: un esquema y los registros reales en el conjunto de datos. El esquema (lo llamamos Experience Data Model o XDM para abreviar) es como las columnas del conjunto de datos y es como el modelo o las reglas que describen los datos en sí. Dentro de la plataforma, Adobe proporciona dos tipos de esquemas:
 
@@ -37,36 +37,83 @@ La forma de introducir los datos de los Google Analytics en Adobe Experience Pla
 | **Google Analytics universales** | Google Analytics 360 | Siga los pasos 1 a 5 de las instrucciones siguientes |
 | **Google Analytics 4** | Versión gratuita de GA para Google Analytics 360 | Siga los pasos 1 y 3-5 de las instrucciones siguientes. No es necesario el paso 2. |
 
-## 1. Conecte los datos de sus Google Analytics a BigQuery
+## Ingesta de datos históricos
 
-Tenga en cuenta que las siguientes instrucciones están basadas en Google Analytics universales.
+### 1. Conecte los datos de sus Google Analytics a BigQuery
+
+Tenga en cuenta que las siguientes instrucciones están basadas en Google Analytics universales. Se aplican a los datos históricos. Para obtener instrucciones sobre la transmisión de datos en directo, vaya a Traer datos de transmisión en vivo a AEP.
 
 Consulte [estas instrucciones](https://support.google.com/analytics/answer/3416092?hl=en).
 
-## 2. Transformar sesiones de Google Analytics a eventos en BigQuery
+### 2. Transformar sesiones de Google Analytics a eventos en BigQuery
 
 >[!IMPORTANT]
 >
 >Este paso solo se aplica a los clientes de Universal Analytics
 
-Los datos de GA almacenan cada registro en sus datos como una sesión del usuario en lugar de como eventos individuales. La transformación de los datos hace que sean compatibles con Adobe Experience Platform.
+Los datos de GA almacenan cada registro en sus datos como una sesión del usuario en lugar de como eventos individuales. Debe crear una consulta SQL para transformar los datos de Universal Analytics en un formato compatible con Experience Platform. La función &quot;unnest&quot; se aplica al campo &quot;hits&quot; del esquema GA. Este es el ejemplo SQL que puede utilizar:
+
+`SQL sample`
+
+Una vez finalizada la consulta, guarde los resultados completos en una tabla BigQuery.
 
 Consulte [estas instrucciones](https://support.google.com/analytics/answer/3437618?hl=en).
 
-Debe crear una consulta SQL para transformar los datos de Universal Analytics en un formato compatible con Experience Platform. Vea este vídeo para obtener instrucciones:
+O vea este vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
-## 3. Exporte eventos de Google Analytics en formato JSON a Google Cloud Storage y guárdelos en un bucket
+### 3. Exporte eventos de Google Analytics en formato JSON a Google Cloud Storage y guárdelos en un bucket
+
+A continuación, importará los eventos de Google Analytics en Google Cloud Storage en formato JSON. Luego lo traes al Experience Platform.
 
 Consulte [estas instrucciones](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
 
-## 4. Incorporar los datos del almacenamiento de Google Cloud al Experience Platform
+### 4. Incorporar los datos del almacenamiento de Google Cloud al Experience Platform
+
+En el Experience Platform, seleccione **[!UICONTROL Sources]** y busque la opción **[!UICONTROL Google Cloud Storage]**. A partir de ahí, solo necesita encontrar el conjunto de datos que ha guardado de Big Query.
 
 Vea este vídeo para obtener instrucciones:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332641)
 
-## 5. Importar eventos GCS a Adobe Experience Platform y asignarlos al esquema XDM
+### 5. Importar eventos GCS a Adobe Experience Platform y asignarlos al esquema XDM
 
-Esquema BigQuery Export (https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)
+A continuación, puede asignar los datos de evento de GA a un conjunto de datos existente que haya creado anteriormente, o crear un nuevo conjunto de datos utilizando el esquema XDM que elija. Una vez seleccionado el esquema, el Experience Platform aplica el aprendizaje automático para asignar automáticamente cada uno de los campos de los datos de los Google Analytics a su propio esquema.
+
+Las asignaciones son muy fáciles de cambiar e incluso puede crear campos derivados o calculados a partir de los datos del Google Analytics. Una vez que haya terminado de asignar los campos al esquema XDM, puede programar esta importación de forma recurrente, así como aplicar la validación de errores durante el proceso de ingesta. Esto garantiza que no haya ningún problema con los datos importados.
+
+## Ingesta de datos de Google Analytics de flujo en directo
+
+También puede capturar eventos de flujo continuo en vivo desde Google Tag Manager directamente a Adobe Experience Platform.
+
+### Agregar variables personalizadas
+
+Después de iniciar sesión en la cuenta de Google Tag Manager, debe agregar Variables de constante personalizadas relacionadas con el ID de organización de Adobe y los ID de conjuntos de datos. Probablemente ya tenga variables en Google Tag Manager que se envíen a Google Analytics, como el correo electrónico del cliente, el nombre del cliente, el idioma y el estado de inicio de sesión del cliente. Debe definir 5 nuevas variables personalizadas:
+
+* ID de organización de Adobe Experience Cloud
+* Punto final de transmisión DCS
+* ID del conjunto de datos del Experience Platform
+* Referencia de esquema
+* Marca de hora de la página.
+
+La obtención de estos valores garantiza que todos los datos de los Google Analytics se envíen al conjunto de datos correcto y que tengan el esquema correcto. Si no conoce su organización de Experience Cloud o cualquiera de las otras variables que acabo de mencionar, su administrador de cuentas de Adobe puede ayudarle a rastrear.
+
+Una vez que haya definido estas variables personalizadas, podemos configurar un déclencheur para que envíe todos los datos que ya está enviando a los Google Analytics también al Experience Platform.
+
+### Configuración de un Déclencheur en Google Tag Manager
+
+En este ejemplo, se ha definido el déclencheur &quot;Creación de cuenta&quot;, donde `pageUrl equals account-creation`. Al agregar información a este déclencheur, puede asegurarse de que cuando el usuario se autentique correctamente y se cargue la página de creación de cuentas, los datos se envíen tanto a los Google Analytics como a AEP.
+
+Para obtener instrucciones, vea este vídeo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332668)
+
+### Pasos siguientes
+
+Una vez que Adobe Experience Platform haya empezado a recibir los datos de Google Analytics activos y haya rellenado los datos de Google Analytics históricos de BigQuery, estará listo para saltar a CJA y
+
+1. [Cree su primera ](/help/connections/create-connection.md) conexión, que unirá los datos de GA con todos los demás datos de clientes utilizando un &quot;ID de cliente&quot; común.
+1. Realizar análisis sorprendentes en Workspace, como ...
+
+*¿Es aquí donde este tema debería detenerse o necesitamos entrar en detalles sobre la conexión?*
