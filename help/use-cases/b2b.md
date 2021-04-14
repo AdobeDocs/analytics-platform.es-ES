@@ -3,7 +3,7 @@ title: (B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consu
 description: Aprenda a agregar datos basados en cuentas como un conjunto de datos de consulta a CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 translation-type: tm+mt
-source-git-commit: 9bbc625aca9e0b8384b3e95d79fd695fda863f0b
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 89%
@@ -22,7 +22,7 @@ Este caso de uso B2B le muestra cómo especificar los datos a nivel de cuenta en
 
 Todo esto se logra mediante la introducción de la información de nivel de cuenta como un conjunto de datos [lookup](/help/getting-started/cja-glossary.md).
 
-Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (CJA0) que combina distintos conjuntos de datos, incluido el de consulta que se ha creado. A continuación, cree una vista de datos y, finalmente, podrá utilizar todos estos datos en Workspace.
+Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (CJA0) que combina distintos conjuntos de datos, incluido el de consulta que se ha creado. A continuación, crea una vista de datos y, finalmente, puede utilizar todos estos datos en Workspace.
 
 >[!NOTE]
 >
