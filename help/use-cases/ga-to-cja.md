@@ -3,9 +3,9 @@ title: Ingesta de datos de Google Analytics en Adobe Experience Platform
 description: 'Explica cómo aprovechar Customer Journey Analytics (CJA) para ingerir sus Google Analytics y datos de firebase en Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
+source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,25 @@ Vea este vídeo para obtener instrucciones:
 
 A continuación, puede asignar los datos de evento de GA a un conjunto de datos existente que haya creado anteriormente, o crear un nuevo conjunto de datos, utilizando el esquema XDM que elija. Una vez que haya seleccionado el esquema, el Experience Platform aplica el aprendizaje automático para asignar automáticamente previamente cada uno de los campos de los datos de los Google Analytics a su [esquema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui).
 
+![](assets/schema-map.png)
+
 Las asignaciones son muy fáciles de cambiar e incluso puede crear campos derivados o calculados a partir de los datos del Google Analytics. Una vez que haya terminado de asignar los campos al esquema XDM, puede programar esta importación de forma recurrente, así como aplicar la validación de errores durante el proceso de ingesta. Esto garantiza que no haya ningún problema con los datos importados.
+
+**Campo calculado con marca de tiempo**
+
+Para el campo `timestamp` de los datos de Google Analytics, debe crear un campo calculado especial en la interfaz de usuario del esquema de Experience Platform. Haga clic en **[!UICONTROL Add calculated field]** y ajuste la cadena `timestamp` en una función `date` de esta manera:
+
+`date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
+
+A continuación, debe guardar este campo calculado en la estructura de datos de marca de tiempo del esquema :
+
+![](assets/timestamp.png)
+
+**_id Campo calculado XDM**
+
+El campo de esquema `_id` tiene que tener un valor en él: a CJA no le importa cuál sea el valor. Solo puede añadir un &quot;1&quot; al campo :
+
+![](assets/_id.png)
 
 ## Ingesta de datos de Google Analytics de flujo en directo
 
