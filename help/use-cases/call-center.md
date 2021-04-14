@@ -3,7 +3,7 @@ title: Importación de datos web y de centros de llamadas
 description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios web y de centros de llamadas.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
@@ -80,7 +80,7 @@ Esta tabla de formato libre le permite ver las páginas principales que contribu
 1. Arrastre la dimensión que contiene los nombres de su página web a una visualización de tabla de formato libre.
 1. Reemplace la métrica por la métrica del centro de llamadas de la que desee medir la conversión.
 1. Haga clic en el icono de engranaje que se encuentra cerca del encabezado de la métrica. Haga clic en **[!UICONTROL Utilizar modelo de atribución no predeterminado]**.
-1. Configure el [modelo de atribución](/help/data-views/configure-dataviews.md#Attribution-model) deseado.
+1. Configure el [modelo de atribución](/help/data-views/create-dataview.md) deseado.
 
 El informe resultante muestra la métrica principal de los datos del centro de llamadas. <!-- Complement with donut visualization -->
 
