@@ -1,8 +1,9 @@
 ---
 title: Conjuntos de datos de evento combinados
 description: Descubra cómo CJA crea una conexión combinando conjuntos de datos.
+exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
@@ -72,5 +73,5 @@ Sin embargo, si ha incluido ambas tablas en la conexión, la atribución cambia 
 | string_color | metric_a |
 | --- | --- |
 | Amarillo | 6 |
-| Azul | 3 |
+| Azul | 1 |
 | Rojo | 2 |
