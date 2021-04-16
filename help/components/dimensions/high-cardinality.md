@@ -2,9 +2,9 @@
 title: Dimension con muy alta cardinalidad en Customer Journey Analytics
 description: Describe las prácticas recomendadas para tratar las dimensiones de alta cardinalidad en el Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: be423e0fd298ed3ea9d6efa272f865882406b811
+source-git-commit: 9af5c74164462851ac4a6cbc4764569789f677fc
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,17 @@ Es posible que los recuentos de filas en dimensiones de alta cardinalidad no se 
 
 ![](assets/high-cardinality.png)
 
-### 2. Las métricas calculadas pueden devolver estimaciones
+### 2. Las métricas calculadas pueden utilizar estimaciones para algunas funciones y para el criterio de ordenación
 
 Cuando se utilizan con dimensiones altamente cardinales, algunas funciones de métricas calculadas pueden devolver estimaciones, entre las que se incluyen: Funciones Máximo de columna, Mínimo de columna, Recuento de fila, Media, Mediana, Percentil, Cuartil, Desviación estándar, Varianza, Regresión y T y Z.
 
 Además, ordenar una columna de tabla mediante una métrica calculada puede basarse en una estimación y no reflejar siempre el orden exacto. Aparecerá un mensaje de advertencia para avisarle de que se pueden haber utilizado estimaciones.
 
-Tenga en cuenta que, aunque las métricas calculadas a veces pueden devolver estimaciones, los totales de columnas siempre son precisos y nunca se basan en estimaciones. Del mismo modo, cuando se utilizan métricas estándar, las estimaciones nunca se utilizan para ordenar columnas y siempre reflejan órdenes de clasificación exactas.
+Tenga en cuenta que, aunque las métricas calculadas a veces pueden devolver estimaciones, los totales de columnas siempre son precisos y nunca se basan en estimaciones. Del mismo modo, cuando se utilizan métricas estándar, las estimaciones nunca se utilizan y siempre reflejan órdenes de clasificación exactas.
 
-## Donde se consideran todos los valores de dimensión
+### Donde se consideran todos los valores de dimensión
 
-Aunque existen limitaciones a algunas métricas calculadas y a algunos recuentos de filas de dimensión, tenga en cuenta que las siguientes capacidades siempre tienen en cuenta todos los valores únicos de cualquier dimensión. Las consideran independientemente de si una dimensión es altamente cardinal o no:
+Aunque existen limitaciones para algunas métricas calculadas y recuentos de filas de dimensión, tenga en cuenta que las siguientes capacidades siempre tienen en cuenta todos los valores únicos en cualquier dimensión, independientemente de si una dimensión es altamente cardinal o no:
 
 * Atribución de métrica y asignación de dimensiones
 * Búsquedas de elementos de línea aplicadas a una tabla improvisada
@@ -45,11 +45,11 @@ Aunque existen limitaciones a algunas métricas calculadas y a algunos recuentos
 
 ## Prácticas recomendadas para trabajar con dimensiones de alto cardenal
 
-Para eliminar las advertencias o estimaciones que pueden producirse al utilizar dimensiones con alta cardinalidad, recomendamos reducir el número de filas que se consideran en el informe, mediante uno de los métodos siguientes:
+Para eliminar las advertencias o estimaciones que pueden producirse al utilizar dimensiones con alta cardinalidad, se recomienda reducir el número de filas consideradas en el informe mediante uno de los métodos siguientes:
 
 * Agregue un filtro a la columna o panel afectado.
 * Aplique una búsqueda a la tabla improvisada.
-* Aplique un desglose a las filas de interés o utilice la dimensión altamente cardinal como dimensión de desglose.
+* Aplique un desglose a las filas de interés o utilice la dimensión altamente cardinal como dimensión de desglose
 * Agregue criterios de inclusión/exclusión a la configuración de vista de datos de la dimensión para reducir el número de valores únicos presentes en la dimensión.
 
 El uso de estas técnicas puede con frecuencia eliminar cualquier estimación o advertencia no deseable que experimente al utilizar dimensiones de alto cardenal.
