@@ -2,9 +2,9 @@
 title: Dimension con muy alta cardinalidad en Customer Journey Analytics
 description: Describe las prácticas recomendadas para tratar las dimensiones de alta cardinalidad en el Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: c086f21e1a13ef4dec4e1be63d9f462bfb32f2ea
+source-git-commit: be423e0fd298ed3ea9d6efa272f865882406b811
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Es posible que los recuentos de filas en dimensiones de alta cardinalidad no se 
 
 ![](assets/high-cardinality.png)
 
-## 2. Las métricas calculadas pueden devolver estimaciones
+### 2. Las métricas calculadas pueden devolver estimaciones
 
 Cuando se utilizan con dimensiones altamente cardinales, algunas funciones de métricas calculadas pueden devolver estimaciones, entre las que se incluyen: Funciones Máximo de columna, Mínimo de columna, Recuento de fila, Media, Mediana, Percentil, Cuartil, Desviación estándar, Varianza, Regresión y T y Z.
 
@@ -32,7 +32,7 @@ Además, ordenar una columna de tabla mediante una métrica calculada puede basa
 
 Tenga en cuenta que, aunque las métricas calculadas a veces pueden devolver estimaciones, los totales de columnas siempre son precisos y nunca se basan en estimaciones. Del mismo modo, cuando se utilizan métricas estándar, las estimaciones nunca se utilizan para ordenar columnas y siempre reflejan órdenes de clasificación exactas.
 
-### Donde se consideran todos los valores de dimensión
+## Donde se consideran todos los valores de dimensión
 
 Aunque existen limitaciones a algunas métricas calculadas y a algunos recuentos de filas de dimensión, tenga en cuenta que las siguientes capacidades siempre tienen en cuenta todos los valores únicos de cualquier dimensión. Las consideran independientemente de si una dimensión es altamente cardinal o no:
 
@@ -45,11 +45,11 @@ Aunque existen limitaciones a algunas métricas calculadas y a algunos recuentos
 
 ## Prácticas recomendadas para trabajar con dimensiones de alto cardenal
 
-Para eliminar las advertencias o estimaciones que pueden producirse al utilizar dimensiones con alta cardinalidad, se recomienda reducir el número de filas consideradas en el informe mediante uno de los métodos siguientes:
+Para eliminar las advertencias o estimaciones que pueden producirse al utilizar dimensiones con alta cardinalidad, recomendamos reducir el número de filas que se consideran en el informe, mediante uno de los métodos siguientes:
 
 * Agregue un filtro a la columna o panel afectado.
 * Aplique una búsqueda a la tabla improvisada.
-* Aplicar un desglose a las filas de interés o utilizar la dimensión altamente cardinal como dimensión de desglose
+* Aplique un desglose a las filas de interés o utilice la dimensión altamente cardinal como dimensión de desglose.
 * Agregue criterios de inclusión/exclusión a la configuración de vista de datos de la dimensión para reducir el número de valores únicos presentes en la dimensión.
 
 El uso de estas técnicas puede con frecuencia eliminar cualquier estimación o advertencia no deseable que experimente al utilizar dimensiones de alto cardenal.
