@@ -1,14 +1,14 @@
 ---
 title: Dimension con muy alta cardinalidad en Customer Journey Analytics
 description: Describe las prácticas recomendadas para tratar las dimensiones de alta cardinalidad en el Customer Journey Analytics
+exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 translation-type: tm+mt
-source-git-commit: d35ff80b7a3a3235f13640d88b0efcfb3e7cc30b
+source-git-commit: 8ae1cb5a84b26258fb30f6e630744b2e36a48e5c
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # Dimension con muy alta cardinalidad
 
@@ -49,7 +49,7 @@ Para eliminar las advertencias o estimaciones que pueden producirse al utilizar 
 
 * Agregue un filtro a la columna o panel afectado.
 * Aplique una búsqueda a la tabla improvisada.
-* Aplique un desglose a las filas de interés o utilice la dimensión altamente cardinal como dimensión de desglose
+* Aplique un desglose a las filas de interés o utilice la dimensión altamente cardinal como dimensión de desglose.
 * Agregue criterios de inclusión/exclusión a la configuración de vista de datos de la dimensión para reducir el número de valores únicos presentes en la dimensión.
 
 El uso de estas técnicas puede con frecuencia eliminar cualquier estimación o advertencia no deseable que experimente al utilizar dimensiones de alto cardenal.
