@@ -3,9 +3,9 @@ title: ¿Qué es la persistencia de la dimensión en el Customer Journey Analyti
 description: La persistencia del Dimension es una combinación de asignación y caducidad. Juntos, determinan cómo o si los valores de dimensión persisten de un evento a otro.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
-source-git-commit: 7370caf3495ff707698022889bf17528582da803
+source-git-commit: ffeada325825545ae0ab43f176e5d301cd1761ee
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '574'
 ht-degree: 9%
 
 ---
@@ -60,7 +60,7 @@ Existen cuatro formas de caducar un valor de dimensión:
 
 * Sesión (predeterminada): Caduca después de una sesión determinada.
 * Persona: Caduca al final de la ventana de informes.
-* Tiempo: Puede configurar el valor de dimensión para que caduque después de un período de tiempo o evento especificados. Esta opción de caducidad solo está disponible para los modelos de asignación Original y Más reciente.
+* Tiempo: Puede configurar el valor de dimensión para que caduque después de un período de tiempo especificado (hasta 90 días). Esta opción de caducidad solo está disponible para los modelos de asignación Original y Más reciente. Al utilizar la caducidad basada en el tiempo, se tienen en cuenta los valores anteriores al inicio de la ventana de informes (hasta 90 días).
 * Métrica: Puede especificar cualquiera de las métricas definidas como fin de caducidad para esta dimensión (por ejemplo, una métrica &quot;Compra&quot;). Esta caducidad solo está disponible para los modelos de asignación Original y Más reciente.
 
 ### ¿Cuál es la diferencia entre Asignación y Atribución?
