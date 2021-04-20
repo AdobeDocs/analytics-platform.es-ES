@@ -2,7 +2,7 @@
 description: Cree intervalos de fechas personalizados en Analysis Workspace y guárdelos como componentes de tiempo.
 keywords: Analysis Workspace
 title: Crear intervalos de fechas
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 translation-type: tm+mt
