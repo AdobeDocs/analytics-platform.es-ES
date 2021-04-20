@@ -3,9 +3,9 @@ title: Ingesta de datos de Google Analytics en Adobe Experience Platform
 description: 'Explica cómo aprovechar Customer Journey Analytics (CJA) para ingerir sus Google Analytics y datos de firebase en Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 1dcc566f286b0399e5ebd1e06e9d42a9522a1684
+source-git-commit: de822eb00a5e205889b4fa96f729845ad4c7e356
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1217'
 ht-degree: 1%
 
 ---
@@ -99,10 +99,6 @@ Puede asignar los datos de evento GA a un conjunto de datos existente que haya c
 ![](assets/schema-map.png)
 
 Las asignaciones son muy fáciles de cambiar e incluso puede crear campos derivados o calculados a partir de los datos del Google Analytics. Una vez que haya terminado de asignar los campos al esquema XDM, puede programar esta importación de forma recurrente, así como aplicar la validación de errores durante el proceso de ingesta. Esto garantiza que no haya ningún problema con los datos importados.
-
-Vea este vídeo para obtener instrucciones:
-
->[!VIDEO](https://video.tv.adobe.com/v/332641)
 
 **Campo calculado &quot;Marca de tiempo&quot;**
 
