@@ -1,18 +1,18 @@
 ---
-title: ¿Qué es la persistencia de la dimensión en el Customer Journey Analytics?
-description: La persistencia del Dimension es una combinación de asignación y caducidad. Juntos, determinan cómo o si los valores de dimensión persisten de un evento a otro.
+title: ¿Qué es la persistencia de la dimensión en Customer Journey Analytics?
+description: La persistencia de la dimensión es una combinación de asignación y caducidad. Juntos, determinan cómo o si los valores de dimensión persisten de un evento a otro.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
 source-git-commit: ffeada325825545ae0ab43f176e5d301cd1761ee
 workflow-type: tm+mt
 source-wordcount: '574'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
 # Persistencia
 
-La persistencia del Dimension es una combinación de asignación y caducidad. Juntos, determinan cómo o si los valores de dimensión persisten de un evento a otro. La persistencia del Dimension se configura en una dimensión dentro de las vistas de datos y es retroactiva y no destructiva para los datos a los que se aplica. La persistencia del Dimension es una transformación de datos inmediata aplicada a una dimensión que se produce antes de que el filtrado u otras operaciones de análisis se realicen en los informes.
+La persistencia de la dimensión es una combinación de asignación y caducidad. Juntos, determinan cómo o si los valores de dimensión persisten de un evento a otro. La persistencia del Dimension se configura en una dimensión dentro de las vistas de datos y es retroactiva y no destructiva para los datos a los que se aplica. La persistencia del Dimension es una transformación de datos inmediata aplicada a una dimensión que se produce antes de que el filtrado u otras operaciones de análisis se realicen en los informes.
 
 * De forma predeterminada, un valor de dimensión no tiene habilitada ninguna persistencia.
 * De forma predeterminada, cuando cualquier modelo de asignación está habilitado para una dimensión, se utiliza una caducidad de [!UICONTROL Session].
