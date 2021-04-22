@@ -1,32 +1,39 @@
 ---
 title: Actualizaciones de documentación de CJA
-description: 'Actualizaciones de contenido de listas para el conjunto de documentación de Customer Journey Analytics desde diciembre de 2019. '
+description: Enumera las actualizaciones de contenido para la documentación de Customer Journey Analytics establecida desde diciembre de 2019.
+exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 translation-type: tm+mt
-source-git-commit: 06079f13a61ec9732a69c8acee0bed7356910a84
+source-git-commit: 8f3b57e0851441b86a282411674ffe67ed34ea32
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-
 # Customer Journey Analytics: actualizaciones de la documentación
 
-Desde su creación, se han realizado las siguientes actualizaciones en la documentación de CJA.
+Se han realizado las siguientes actualizaciones en la documentación de CJA desde su creación.
 
 | Fecha | Actualizar descripción |
 | --- | --- |
-| 13 de noviembre de 2020 | Nuevos temas en [Análisis de Canales cruzados](/help/connections/cca/overview.md), que le permite volver a escribir la ID de persona de un conjunto de datos, lo que permite una combinación sin fisuras de varios conjuntos de datos. |
-| 13 de noviembre de 2020 | Se agregó un nuevo caso de uso en [importación de centro de llamadas y datos Web](/help/use-cases/call-center.md). |
-| 11 de noviembre de 2020 | Se añadió un tema en [Calcular el tamaño de la conexión](/help/connections/estimate-connection-size.md). |
-| 10 de noviembre de 2020 | Se añadió una sección sobre las implicaciones de eliminar componentes de datos en la [FAQ](/help/getting-started/cja-faq.md). |
-| 2 de noviembre de 2020 | Actualizaciones en la página [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/cja-aa.md). |
-| 7 de octubre de 2020 | Se añadió un tema en [conjuntos de datos de evento combinados](/help/connections/combined-dataset.md). |
-| 15 de septiembre de 2020 | Se añadió un nuevo tema sobre [ingestión de datos](/help/use-cases/data-ingestion.md). |
+| Abril de 2021 | Temas nuevos sobre la experiencia [Vistas de datos mejoradas](/help/data-views/data-views.md). |
+| Abril de 2021 | Nuevos temas sobre [ingesta de datos de Google Analytics](/help/use-cases/ga-to-cja.md) y [análisis de esos datos](/help/use-cases/ga-to-cja-reporting.md) |
+| Abril de 2021 | Se ha añadido un tema sobre [informes programados](/help/analysis-workspace/curate-share/t-schedule-report.md) en Workspace |
+| Febrero de 2021 | Nuevo tema sobre el uso de [dimensiones del canal de marketing en Adobe Experience Platform](/help/use-cases/marketing-channels.md) |
+| Marzo de 2021 | Se ha añadido un tema sobre la compatibilidad con [Paneles de Analytics](/help/mobile-app/home.md) (aplicación móvil) |
+| Marzo de 2021 | Nuevo tema sobre las [preferencias de usuario](/help/analysis-workspace/user-preferences.md) en Workspace |
+| Enero de 2021 | Nuevo tema sobre [agregar búsquedas globales a su conjunto de datos](/help/use-cases/global-lookups.md) |
+| 13 de noviembre de 2020 | Nuevos temas sobre [Cross-Channel Analytics](/help/connections/cca/overview.md), que le permite volver a escribir el ID de persona de un conjunto de datos, lo que permite una combinación perfecta de varios conjuntos de datos. |
+| 13 de noviembre de 2020 | Se ha añadido un nuevo caso de uso en [importación de centro de llamadas y datos web](/help/use-cases/call-center.md). |
+| 11 de noviembre de 2020 | Se ha añadido un tema sobre [Calcular el tamaño de la conexión](/help/connections/estimate-connection-size.md). |
+| 10 de noviembre de 2020 | Se ha añadido una sección sobre las implicaciones de eliminar componentes de datos en las [preguntas frecuentes](/help/getting-started/cja-faq.md). |
+| 2 de noviembre de 2020 | Actualizaciones a la página [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/cja-aa.md). |
+| 7 de octubre de 2020 | Se ha añadido un tema sobre [conjuntos de datos de evento combinados](/help/connections/combined-dataset.md). |
+| 15 de septiembre de 2020 | Se ha añadido un nuevo tema sobre [ingesta de datos](/help/use-cases/data-ingestion.md). |
 | 2 de septiembre de 2020 | Se ha actualizado la sección sobre [permisos de usuario](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions) |
-| 7 de agosto de 2020 | Se agregó un nuevo tema sobre [caso de uso B2B - dataset de búsqueda](/help/use-cases/b2b.md). |
-| Julio de 2020 | Información añadida sobre la opción [Mapa de identidad para ID de persona](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
-| Julio de 2020 | Se agregó un nuevo tema sobre [matrices de objetos](/help/use-cases/object-arrays.md) o &#39;jerarquías de datos&#39;. |
+| 7 de agosto de 2020 | Se ha añadido un nuevo tema sobre el [caso de uso B2B - conjunto de datos de consulta](/help/use-cases/b2b.md). |
+| Julio de 2020 | Se ha añadido información sobre la [opción de mapa de identidad para ID de persona](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| Julio de 2020 | Se ha añadido un nuevo tema sobre [matrices de objetos](/help/use-cases/object-arrays.md) o &quot;jerarquías de datos&quot;. |
 | 14 de abril de 2020 | Actualizaciones de la IU más reciente en el tema [Crear conexiones](/help/connections/create-connection.md). |
-| 27 de febrero de 2020 | Actualizaciones en la página [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/cja-aa.md). |
-| Diciembre de 2019 | Primer borrador de la documentación de la Ley de justicia penal |
+| 27 de febrero de 2020 | Actualizaciones a la página [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/cja-aa.md). |
+| Diciembre de 2019 | Primer borrador de la documentación de CJA |
