@@ -3,18 +3,14 @@ title: Casos de uso de vistas de datos en el Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 translation-type: tm+mt
-source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
+source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
 
 # Casos de uso de vistas de datos
-
->[!IMPORTANT]
->
->Esta funcionalidad estará disponible para el público general el 22 de abril de 2021.
 
 Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos en el Customer Journey Analytics.
 
