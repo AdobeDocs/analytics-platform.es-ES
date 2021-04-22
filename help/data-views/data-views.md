@@ -3,10 +3,10 @@ title: ¿Qué es una vista de datos en Customer Journey Analytics?
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión de CJA, como, por ejemplo, métricas, dimensiones, sesiones, etc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 8f3b57e0851441b86a282411674ffe67ed34ea32
+source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -16,7 +16,7 @@ Las vistas de datos se encuentran sobre las [conexiones](/help/connections/creat
 
 >[!NOTE]
 >
->Cualquier configuración que seleccione o cambie en una vista de datos es retroactiva y no destructiva. En otras palabras, no cambiarán los datos subyacentes de manera permanente.
+>Cualquier configuración que seleccione o cambie en una vista de datos es retroactiva y no destructiva. En otras palabras, no cambian permanentemente los datos subyacentes .
 
 Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, puede crear vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, podría tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último toque] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones establecidas como [!UICONTROL Primer toque].
 
@@ -60,13 +60,13 @@ La última actualización de las vistas de datos le ofrece una mayor flexibilida
 
 Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en el ámbito del proyecto, mientras que otros no.
 
-* Ventana retroactiva
-* Atribución de métricas
-* Indica si los usuarios ven o no el elemento de línea &quot;Sin valor&quot; en un informe
+* [!UICONTROL Ventana retroactiva]
+* Atribución de métrica
+* Indica si los usuarios ven o no el elemento de línea [!UICONTROL Ningún valor] en un informe
 
 ## Configuración de vista de datos que no se puede anular en Workspace
 
-* Tipo de componente
+* [!UICONTROL Tipo de componente]
 * Formato de métrica
 * Nombre de la vista de datos
 * Asignación de dimensiones
