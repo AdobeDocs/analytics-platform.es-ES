@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -48,10 +48,10 @@ A continuación se muestra una comparación de las competencias de las métricas
 
 ## Plantillas de métricas calculadas en CJA
 
-| Nombre de métrica calculada | Descripción de la métrica calculada |
+| Nombre de métrica calculada | Descripción de métrica calculada |
 | --- | --- |
 | Sesiones por persona | Número promedio de sesiones por persona |
-| Tasa de inicio de sesión | El porcentaje de tiempo que cualquier elemento de dimensión se produjo en el primer evento de una sesión. |
-| Tasa de finalización de la sesión | El porcentaje de tiempo que cualquier elemento de dimensión se produjo en el último evento de una sesión. |
-| Tiempo empleado por persona | Cantidad promedio de tiempo que una persona ha invertido en un elemento de dimensión determinado. |
-| Tiempo Empleado Por Sesión | Cantidad promedio de tiempo que una persona ha invertido por sesión en un elemento de dimensión determinado. |
+| Tasa de inicio de sesión | Porcentaje de tiempo que un elemento de dimensión tuvo lugar en el primer evento de una sesión. |
+| Tasa de finalización de sesión | Porcentaje de tiempo que cualquier elemento de dimensión se produjo en el último evento de una sesión. |
+| Tiempo empleado por persona | Promedio de tiempo que una persona ha invertido en un elemento de dimensión determinado. |
+| Tiempo empleado por sesión | Promedio de tiempo que una persona ha invertido por sesión en un elemento de dimensión determinado. |
