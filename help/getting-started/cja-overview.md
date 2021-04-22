@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Para poder iniciar desde Customer Journey Analytics, se deben cumplir los siguie
 
 Para crear conexiones, agregar conjuntos de datos, etc., necesita los siguientes permisos en la [Admin Console](https://adminconsole.adobe.com/enterprise/):
 
-* Para acceder al Customer Journey Analytics o establecer una conexión, deberá agregarlo como administrador al **Producto de Customer Journey Analytics** en el [Admin Console](https://adminconsole.adobe.com/enterprise/). Los administradores de productos tienen los siguientes permisos:
+* Para acceder a Customer Journey Analytics o establecer una conexión, también se le tendrá que añadir como Admin al **producto de Customer Journey Analytics** en [Admin Console](https://adminconsole.adobe.com/enterprise/). Los administradores de productos tienen los siguientes permisos:
    * Crear/actualizar/eliminar conexiones o Vistas de datos
    * Actualizar o eliminar proyectos, filtros, métricas de cálculo o filtros creados por otros usuarios
    * Compartir un proyecto de Workspace con todos los usuarios
