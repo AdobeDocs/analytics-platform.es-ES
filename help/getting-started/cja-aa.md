@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
-translation-type: ht
-source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
-workflow-type: ht
-source-wordcount: '1035'
-ht-degree: 100%
+exl-id: be19aa27-58aa-438d-806c-e27c9a289797
+translation-type: tm+mt
+source-git-commit: 4b543a1566580a8f3060c2387928148d55be70f2
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 99%
 
 ---
-
 
 # Compatibilidad con funciones de Customer Journey Analytics
 
@@ -36,7 +36,9 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Permisos de usuario/Controles de acceso de datos | CJA distingue entre administradores de productos y usuarios de Adobe Admin Console. Solo los administradores de productos pueden: 1) crear, actualizar o eliminar conexiones o Vistas de datos, 2) actualizar o eliminar proyectos, filtros o métricas de cálculos creados por otros usuarios, y 3) compartir un proyecto de Workspace con todos los usuarios. |
 | Vinculación entre dispositivos y canales | Consulte [Análisis entre canales](/help/connections/cca/overview.md). |
 | Dimensiones de Analysis Workspace predeterminadas (por ejemplo: Tipo de explorador, Tipo de referente, Sistema operativo, etc.) | CJA proporciona estas dimensiones de forma nativa siempre y cuando se rellenen los campos XDM base (como agente de usuario o ID de dispositivo). Para los clientes que utilizan el Conector de datos de Analytics (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| Acceso a la API de informes | Actualmente disponible mediante la API de Analytics 2.0. |
+| Acceso a la API de informes | Ahora disponible mediante la [API de CJA](https://www.adobe.io/cja-apis/docs/). |
+| Informes y proyectos programados | Compatibilidad total. |
+| Exportación de PDF | Compatibilidad total. |
 
 ## Admitido con advertencias
 
@@ -74,9 +76,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Calendarios personalizados | Se ha planificado lanzar una versión compatible. |
 | Anulación de duplicación métrica | Se ha planificado lanzar una versión compatible. |
 | Persistencia de la variable de comercialización | Se ha planificado lanzar una versión compatible. |
-| Informes y proyectos programados | Se ha planificado lanzar una versión compatible. |
 | Alertas | Se ha planificado lanzar una versión compatible. |
-| Exportación de PDF | Se ha planificado lanzar una versión compatible. |
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
 | Report Builder (complemento de Excel) | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
