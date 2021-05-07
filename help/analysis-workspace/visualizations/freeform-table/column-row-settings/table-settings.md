@@ -3,11 +3,11 @@ description: La configuración de filas varía en función del componente que ha
 title: Configuración de filas
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 >
 >Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
-La configuración de filas varía en función del componente que haya arrastrado a la tabla. Para acceder a la configuración de fila de tabla, haga clic en el icono Configuración junto a una dimensión, filtro, métrica, periodo de tiempo o desglose dentro de cada uno de estos elementos:
+La configuración de filas varía en función del componente que haya arrastrado a la tabla. Para obtener acceso a la configuración de fila de la tabla, haga clic en el icono Configuración junto a una dimensión, filtro, métrica, período de tiempo o desglose dentro de cada uno de estos elementos:
 
 ![](assets/row-settings.png)
 
