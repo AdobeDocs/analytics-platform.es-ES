@@ -2,11 +2,11 @@
 title: Elementos de dimensión dinámicos o estáticos en tablas improvisadas
 description: Interacción con elementos de dimensión dinámicos y estáticos en tablas.
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Los elementos de dimensión dinámicos tienen la opción de filtro de fila y **n
 
 Los elementos de dimensión estáticos no cambian con el tiempo; son componentes fijos que siempre se devuelven en una tabla improvisada. Se prefieren los elementos de dimensión estáticos cuando se desea analizar siempre el mismo elemento, ya sean campañas específicas o días específicos de la semana.
 
-Cada vez que seleccione y suelte manualmente valores de componente específicos (dimensión, métrica, filtro, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas. También se pueden crear elementos de dimensión estáticos si elige:
+Cada vez que selecciona y suelta manualmente valores de componente específicos (dimensión, métrica, filtro, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas. También se pueden crear elementos de dimensión estáticos si elige:
 
 * En las filas, haga clic con el botón derecho en > [!UICONTROL Mostrar solo las filas seleccionadas]
 * En las columnas, haga clic con el botón derecho en > [!UICONTROL Convertir el elemento en estático]
