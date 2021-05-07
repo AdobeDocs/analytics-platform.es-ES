@@ -10,11 +10,11 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Análisis entre canales, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 93%
       + [Cómo funcionan las reproducciones](connections/cca/replay.md)
       + [Preguntas frecuentes sobre Análisis entre canales](connections/cca/faq.md)
 + Vistas de datos {#cja-dataviews}
-   + [Resumen de las vistas de datos](data-views/data-views.md)
+   + [Información general de las vistas de datos](data-views/data-views.md)
    + [Creación de una vista de datos](data-views/create-dataview.md)
-   + [Casos de uso de vistas de datos](data-views/data-views-usecases.md)
+   + [Casos de uso de las vistas de datos](data-views/data-views-usecases.md)
    + [Persistencia](data-views/persistence.md)
 + Proyectos de Workspace {#cja-workspace}
    + [Información general de Analysis Workspace](analysis-workspace/home.md)
@@ -129,7 +129,7 @@ ht-degree: 93%
       + [Vista preliminar de dimensiones](components/dimensions/view-dimensions.md)
       + [Desglose de dimensiones](components/dimensions/t-breakdown-fa.md)
       + [Dimensiones de partición de tiempo](components/dimensions/time-parting-dimensions.md)
-      + [Dimension con muy alta cardinalidad](components/dimensions/high-cardinality.md)
+      + [Dimensión con muy alta cardinalidad](components/dimensions/high-cardinality.md)
    + [Métricas](components/apply-create-metrics.md)
    + Filtros {#cja-filters}
       + [Información general de Filtros](components/filters/filters-overview.md)
@@ -157,7 +157,7 @@ ht-degree: 93%
    + [Uso de dimensiones del canal de marketing](use-cases/marketing-channels.md)
    + [Adición de búsquedas globales a sus conjuntos de datos](use-cases/global-lookups.md)
    + [Ingesta de datos de Google Analytics en Adobe Experience Platform](use-cases/ga-to-cja.md)
-   + [Informar sobre datos de Google Analytics en CJA](use-cases/ga-to-cja-reporting.md)
+   + [Informe sobre datos de Google Analytics en CJA](use-cases/ga-to-cja-reporting.md)
 + Paneles de Analytics {#cja-dashboards}
    + [Paneles de Analytics: Información general](mobile-app/home.md)
    + [Guía del administrador](mobile-app/curator.md)
