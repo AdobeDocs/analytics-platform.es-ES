@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 199219322ca5cff48c83c66d1ad7cdab04845b2b
 workflow-type: tm+mt
 source-wordcount: '2795'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 | [!UICONTROL Descripción] | No es obligatorio proporcionar descripción detallada, pero se recomienda. |
 | [!UICONTROL Zona horaria] | Elija en qué zona horaria desea que se presenten los datos. |
 | [!UICONTROL Etiquetas] | Las etiquetas permiten organizar las vistas de datos en categorías. |
-| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí y así es como aparecerán en cualquier proyecto de Workspace basado en dicha vista de datos. Los contenedores se utilizan en filtros y visitas en el orden previsto/flujo, etc., para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=es#filter-containers) |
+| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí y así es como aparecerán en cualquier proyecto de Workspace basado en dicha vista de datos. Los contenedores se utilizan en filtros y visitas en orden previsto/flujo, etc. para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=es#filter-containers) |
 | [!UICONTROL El nombre del contenedor de persona es...] | [!UICONTROL Persona] (valor predeterminado). El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Puede cambiarle el nombre a &quot;Usuario&quot; o a cualquier otro término que prefiera. |
 | [!UICONTROL El nombre del contenedor de sesión es...] | [!UICONTROL Sesión] (valor predeterminado). El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiarle el nombre a &quot;Visita&quot; o a cualquier otro término que prefiera. |
 | [!UICONTROL El nombre del contenedor de eventos es...] | [!UICONTROL Evento] (valor predeterminado). El contenedor [!UICONTROL Evento] define qué eventos de página desea incluir o excluir de un filtro. |
@@ -44,12 +44,12 @@ A continuación, puede crear métricas y dimensiones a partir de elementos de es
 Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos, y sus [!UICONTROL Campos de esquema] a continuación. Tenga en cuenta que:
 
 * Los componentes ya incluidos son los componentes estándar necesarios (generados por el sistema).
-* También aplicamos el filtro **[!UICONTROL Contiene datos]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos. Si está buscando un campo que no contenga datos, simplemente elimine el filtro.
+* También aplicamos el filtro **[!UICONTROL Contiene datos]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos. Si está buscando un campo que no contenga datos, simplemente quite el filtro.
 
 1. A continuación, arrastre un campo de esquema, como [!UICONTROL pageTitle], desde el carril izquierdo a la sección Métricas o Dimensión.
 
    Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras.
-Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensión llamada &quot;Páginas de producto&quot; y otra &quot;Páginas de error&quot;, etc., cambiando el nombre del **[!UICONTROL Nombre del componente]** a la derecha. En el campo **[!UICONTROL pageTitle]**, también puede crear métricas a partir de un valor de cadena. Por ejemplo, puede crear una o más métricas **[!UICONTROL Pedidos]** con diferentes configuraciones de atribución y diferentes valores de inclusión/exclusión.
+Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensión llamada “Páginas de producto” y otra “Páginas de error”, etc., cambiando el nombre del **[!UICONTROL Nombre del componente]** a la derecha. En el campo **[!UICONTROL pageTitle]**, también puede crear métricas a partir de un valor de cadena. Por ejemplo, puede crear una o más métricas **[!UICONTROL Pedidos]** con diferentes configuraciones de atribución y diferentes valores de inclusión/exclusión.
 
    ![](assets/components-tab-3.png)
 
@@ -111,7 +111,7 @@ Por ejemplo, puede crear una dimensión fuera del campo pageTitle, pero llamarla
 | Configuración | Descripción/caso de uso |
 | --- | --- |
 | [!UICONTROL Con distinción de mayúsculas y minúsculas] | Predeterminado = Activado. Esta configuración solo se aplica a la sección [!UICONTROL Incluir/Excluir valores]. Le permite decir si la regla de inclusión/exclusión que está aplicando debe contar con distinción de mayúsculas y minúsculas. |
-| [!UICONTROL Coincidencias] | Permite especificar qué valores desea tener en cuenta para los informes antes de la atribución y los filtros (por ejemplo, usar solo valores que contengan la frase &quot;error&quot;). Puede especificar: **[!UICONTROL Si se cumplen todos los criterios]** o **[!UICONTROL Si se cumplen los criterios]**. |
+| [!UICONTROL Coincidencias] | Le permite especificar qué valores desea tener en cuenta para la creación de informes antes de la atribución y filtros (por ejemplo, usar solo valores que contengan la frase “error”). Puede especificar: **[!UICONTROL Si se cumplen todos los criterios]** o **[!UICONTROL Si se cumplen los criterios]**. |
 | [!UICONTROL Criterios] | Permite especificar la lógica de coincidencia que debe aplicarse a una regla de filtro específica.<ul><li>**Cadena**: Contiene la frase, Contiene cualquier término, Contiene todos los términos, No contiene ningún término, No contiene la frase, Es igual a, No es igual a, Comienza con, Finaliza con</li><li>**Doble/entero**: igual, no igual, es mayor que, es menor que, es mayor o igual que, es menor o igual que</li><li>**Fecha**: igual, no igual, es posterior a, es anterior, ocurre en</li></ul> |
 | [!UICONTROL Operando de coincidencia] | Permite especificar el operando de coincidencia al que se debe aplicar el operador de coincidencia.<ul><li>**Cadena**: Campo de texto</li><li>**Doble/entero**: Campo de texto con flechas arriba/abajo para valores numéricos</li><li>**Fecha**: Selector de granularidad de día (calendario)</li><li>**Fecha y hora**: Selector de granularidad de fecha y hora</li></ul> |
 | [!UICONTROL Añadir regla] | Permite especificar un operador de coincidencia y un operador adicionales. |
@@ -137,7 +137,7 @@ Tenga en cuenta también que, independientemente de lo que especifique en este c
 | [!UICONTROL Si se muestra, solicite Ningún valor...] | Aquí es donde puede cambiar el nombre de **[!UICONTROL Ningún valor]** por otro. |
 | [!UICONTROL No mostrar Ningún valor de forma predeterminada] | No muestra este valor en la creación de informes. |
 | [!UICONTROL Mostrar Ningún valor de forma predeterminada] | Muestra este valor en la creación de informes. |
-| [!UICONTROL Tratar Ningún valor como valor] | Esta configuración reemplazará los valores en blanco de los datos con el texto especificado en [!UICONTROL Si se muestra, llame a No value ...]. Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Ningún valor]** por Escritorio. Tenga en cuenta que cuando cambie este campo a un valor personalizado, el valor personalizado se tratará como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado. |
+| [!UICONTROL Tratar Ningún valor como valor] | Esta configuración reemplazará los valores en blanco de los datos con el texto especificado en [!UICONTROL Si se muestra, llame a No value...]. Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Ningún valor]** por Escritorio. Tenga en cuenta que cuando cambie este campo a un valor personalizado, el valor personalizado se tratará como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado. |
 
 ### Ajuste de la configuración de la persistencia
 
@@ -179,27 +179,27 @@ De forma predeterminada, estos componentes estándar necesarios se añaden a cad
 | [!UICONTROL Personas] | Métrica | Esta métrica se basa en el ID de persona especificado en una [!UICONTROL Conexión]. |
 | [!UICONTROL Sesiones] | Métrica | Esta métrica se basa en la configuración de creación de sesiones que se especifica a continuación. |
 | [!UICONTROL Eventos] | Métrica | Esta métrica representa el número de filas de todos los conjuntos de datos de evento en una [!UICONTROL Conexión]. |
-| [!UICONTROL Día] | Dimensión | La dimensión &quot;Día&quot; indica el día en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer día del intervalo de fechas y el último elemento de dimensión es el último día del intervalo de fechas. |
-| [!UICONTROL Semana] | Dimensión | La dimensión &quot;Semana&quot; indica la semana en la que se produjo una métrica determinada. El primer elemento de dimensión es la primera semana del intervalo de fechas y el último elemento de dimensión es la última semana del intervalo de fechas. |
-| [!UICONTROL Mes] | Dimensión | La dimensión Mes informa del mes en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer mes del intervalo de fechas y el último elemento de dimensión es el último mes del intervalo de fechas. |
-| [!UICONTROL Trimestre] | Dimensión | La dimensión &quot;Trimestre&quot; indica el trimestre en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer trimestre del intervalo de fechas y el último elemento de dimensión es el último trimestre del intervalo de fechas. |
-| [!UICONTROL Año] | Dimensión | La dimensión &quot;Año&quot; indica el año en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer año del intervalo de fechas y el último elemento de dimensión es el año más reciente del intervalo de fechas. |
-| [!UICONTROL Hora] | Dimensión | La dimensión &quot;Hora&quot; indica la hora en la que se produjo una métrica determinada (redondeada hacia abajo). El primer elemento de dimensión es la primera hora del intervalo de fechas y el último elemento de dimensión es la última hora del intervalo de fechas. |
-| [!UICONTROL Minuto] | Dimensión | La dimensión &quot;Minuto&quot; indica el minuto en que se produjo una métrica determinada (redondeada hacia abajo). El primer elemento de dimensión es el primer minuto del intervalo de fechas y el último elemento de dimensión es el último minuto del intervalo de fechas. |
+| [!UICONTROL Día] | Dimensión | La dimensión “Día” indica el día en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer día del intervalo de fechas y el último elemento de dimensión es el último día del intervalo de fechas. |
+| [!UICONTROL Semana] | Dimensión | La dimensión “Semana” indica la semana en que se produjo una métrica determinada. El primer elemento de dimensión es la primera semana del intervalo de fechas y el último elemento de dimensión es la última semana del intervalo de fechas. |
+| [!UICONTROL Mes] | Dimensión | La dimensión “Mes” indica el día en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer mes del intervalo de fechas y el último elemento de dimensión es el último mes del intervalo de fechas. |
+| [!UICONTROL Trimestre] | Dimensión | La dimensión “Trimestre” indica el trimestre en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer trimestre del intervalo de fechas y el último elemento de dimensión es el último trimestre del intervalo de fechas. |
+| [!UICONTROL Año] | Dimensión | La dimensión “Año” informa el año en que se produjo una métrica determinada. El primer elemento de dimensión es el primer año del intervalo de fechas y el último elemento de dimensión es el año más reciente del intervalo de fechas. |
+| [!UICONTROL Hora] | Dimensión | La dimensión “Hora” indica la hora en la que se produjo una métrica determinada (redondeada hacia abajo). El primer elemento de dimensión es la primera hora del intervalo de fechas y el último elemento de dimensión es la última hora del intervalo de fechas. |
+| [!UICONTROL Minuto] | Dimensión | La dimensión “Minuto” indica el minuto en el que se produjo una métrica determinada (redondeada hacia abajo). El primer elemento de dimensión es el primer minuto del intervalo de fechas y el último elemento de dimensión es el último minuto del intervalo de fechas. |
 
 ### Componentes estándares opcionales
 
-Los componentes estándar opcionales están disponibles en la pestaña **[!UICONTROL Componentes estándar]**.
+Los componentes estándar opcionales están disponibles en la pestaña **[!UICONTROL Componentes estándares]**.
 
 | Nombre del componente | Dimensión o métrica | Notas |
 | --- | --- | --- |
 | [!UICONTROL La sesión finaliza] | Métrica | Esta métrica cuenta el número de eventos que fueron el primer evento de una sesión. Cuando se utiliza en una definición de filtro (por ejemplo, [!UICONTROL La sesión inicia] existe), se filtra hasta el primer evento de cada sesión. |
 | [!UICONTROL La sesión termina] | Métrica | Esta métrica cuenta el número de eventos que fueron el último evento de una sesión. De forma similar a [!UICONTROL Inicio de sesión], también se puede utilizar en una definición de filtro para filtrar cosas hasta el último evento de cada sesión. |
 | [!UICONTROL Tiempo empleado (segundos)] | Métrica | La métrica [!UICONTROL Tiempo empleado] suma el tiempo entre dos valores diferentes para una dimensión. |
-| [!UICONTROL Tiempo empleado por evento] | Dimensión | [!UICONTROL El tiempo empleado por ] evento agrupa la métrica  [!UICONTROL Tiempo ] empleado en   bloques de eventos. |
-| [!UICONTROL Tiempo empleado por sesión] | Dimensión | [!UICONTROL El tiempo empleado por ] sesión agrupa la métrica  [!UICONTROL Tiempo ] empleado en bloques de   sesiones. |
-| [!UICONTROL Tiempo empleado por persona] | Dimensión | [!UICONTROL Tiempo empleado por persona] agrupa la métrica [!UICONTROL Tiempo empleado] en bloques [!UICONTROL Persona]. |
-| [!UICONTROL ID de lote] | Dimensión | Representa el lote de Experience Platform del que formaba parte un [!UICONTROL Event]. |
+| [!UICONTROL Tiempo empleado por evento] | Dimensión | [!UICONTROL Tiempo empleado por evento] agrupa la métrica [!UICONTROL Tiempo empleado] en bloques de [!UICONTROL Eventos]. |
+| [!UICONTROL Tiempo empleado por sesión] | Dimensión | [!UICONTROL Tiempo empleado por sesión] agrupa la métrica [!UICONTROL Tiempo empleado] en bloques de [!UICONTROL Sesiones]. |
+| [!UICONTROL Tiempo empleado por persona] | Dimensión | [!UICONTROL Tiempo empleado por persona] agrupa la métrica [!UICONTROL Tiempo empleado] en bloques de [!UICONTROL Personas]. |
+| [!UICONTROL ID de lote] | Dimensión | Representa el lote de Experience Platform del que formaba parte un [!UICONTROL Evento]. |
 | [!UICONTROL ID de conjunto de datos] | Dimensión | Representa el conjunto de datos del Experience Platform del que formaba parte un [!UICONTROL Evento]. |
 
 ### Filtrar campos y dimensiones/métricas de esquema
@@ -208,14 +208,14 @@ Puede filtrar los campos de esquema en el carril izquierdo según los siguientes
 
 ![](assets/filter-fields.png)
 
-También puede filtrar por conjuntos de datos y por si un campo de esquema contiene datos o si es una identidad. De forma predeterminada, se aplica el filtro **[!UICONTROL Contains data]** a todas las vistas de datos.
+También puede filtrar por conjuntos de datos y por si un campo de esquema contiene datos o si es una identidad. De forma predeterminada, se aplica el filtro **[!UICONTROL Contiene datos]** a todas las vistas de datos.
 
 ![](assets/filter-other.png)
 
 
 ## 3. Añadir un filtro global a la vista de datos
 
-Puede agregar filtros que se apliquen a toda la vista de datos. Este filtro se aplicará a cualquier informe que ejecute en Workspace.
+Puede añadir filtros que se apliquen a toda la vista de datos. Este filtro se aplicará a cualquier informe que ejecute en Workspace.
 
 1. Haga clic en la pestaña [!UICONTROL Configuración] en [!UICONTROL Vistas de datos].
 1. Arrastre un filtro desde la lista en el carril izquierdo al campo [!UICONTROL Añadir filtros].
