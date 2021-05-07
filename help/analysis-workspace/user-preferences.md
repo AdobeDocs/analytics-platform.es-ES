@@ -2,9 +2,9 @@
 title: Establecimiento de las preferencias de usuario en Analysis Workspace
 description: Puede establecer preferencias generales y de proyecto para los usuarios.
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Las preferencias de proyecto se aplican a los nuevos proyectos y paneles creados
 |  | [Ver densidad](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density.html?lang=es) | <ul><li>Compacto</li><li>Cómodo</li><li>Expandido (predeterminado)</li></ul> |
 |  | [Paleta de color](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/color-palettes.html?lang=es) | <ul><li>Paletas proporcionadas por Adobe (predeterminado)</li><li>Paletas personalizadas</li></ul> |
 | **Datos** |  |  |
-|  | [Calendario](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=es#calendar) | Lista de intervalos de fechas iniciales, incluido **[!UICONTROL Este mes]** (predeterminado) |
+|  | [Calendario](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=es#calendar) | Lista de intervalos de fechas originales, incluido **[!UICONTROL Este mes]** (predeterminado) |
 |  | [Tipo de panel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=es) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
 |  | Formato de número | <ul><li>1000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separador CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
