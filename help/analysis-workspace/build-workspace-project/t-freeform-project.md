@@ -1,19 +1,19 @@
 ---
-description: Cree un proyecto y añada componentes (dimensiones, métricas, filtros e intervalos de fechas) al panel improvisado.
+description: Cree un proyecto y añada componentes (dimensiones, métricas, filtros e intervalos de fechas) al panel de forma libre.
 keywords: Analysis Workspace
 title: Creación de un proyecto de Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # Creación de un proyecto de Workspace
 
-Cree un proyecto y añada componentes (dimensiones, métricas, filtros e intervalos de fechas) al panel improvisado.
+Cree un proyecto y añada componentes (dimensiones, métricas, filtros e intervalos de fechas) al panel de forma libre.
 
 Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto.
 
@@ -21,7 +21,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
 1. Especifique el permiso del usuario para crear y depurar proyectos.
 
-   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. (**[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > [Grupos](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=es-ES)).
+   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. (**[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > [Grupos](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-groups/groups.html)).
 
 1. En [!DNL Experience Cloud], haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
@@ -59,7 +59,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
  <tbody> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > Componentes</a> </td> 
-   <td colname="col2"> <p>Dimension, métricas, filtros e intervalos de fechas que puede arrastrar hasta los proyectos. </p> </td> 
+   <td colname="col2"> <p>Dimensiones, métricas, filtros e intervalos de fechas que puede arrastrar hasta los proyectos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualizaciones</a> </td> 
@@ -90,7 +90,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    **Componentes**
 
-   La barra de herramientas Componente muestra dimensiones, métricas, filtros e intervalos de fechas que se pueden buscar y que se utilizan con más frecuencia.
+   La barra de herramientas Componente muestra dimensiones, métricas, filtros e intervalos de fechas que permiten búsqueda y que puede usar habitualmente.
 
 <table id="table_4626163E26DE46CB86391868BBA3AD32"> 
  <thead> 
@@ -129,7 +129,7 @@ El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, t
 
 1. Paso
 
-## Utilice el menú que se abre al hacer clic con el botón derecho para personalizar los datos {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
+## Use el menú que se abre al hacer clic con el botón derecho para personalizar sus datos {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 El menú del botón secundario le permite realizar las siguientes acciones, según en qué celda de una tabla haga clic con el botón secundario.
 
