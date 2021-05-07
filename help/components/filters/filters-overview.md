@@ -2,11 +2,11 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Los filtros del [Generador de filtros](/help/components/filters/create-filters.m
 
 ## Filtros secuenciales
 
-Los filtros secuenciales le permiten identificar a los visitantes en función de la navegación y las vistas de página en su sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los filtros secuenciales le ayudan a identificar qué le gusta a un visitante y qué evita. Cuando se generan filtros secuenciales, se utiliza el operador THEN para definir y ordenar la navegación del visitante.
+Los filtros secuenciales le permiten identificar a los visitantes en función de la navegación y las vistas de página en su sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los filtros secuenciales le ayudan a identificar qué le gusta a un visitante, así como lo que evita. Cuando se generan filtros secuenciales, se utiliza el operador THEN para definir y ordenar la navegación del visitante.
 
 Vea el siguiente ejemplo:
 
@@ -77,9 +77,9 @@ Los contenedores de evento incluyen desgloses de una sola página basados en val
 * Dimensiones de lista
 * Dimensiones de comercialización (en el contexto de eventos)
 
-## Plantilla de filtro predeterminada
+## Plantilla de filtro predefinida
 
-El análisis tradicional viene con muchos filtros de plantilla (filtros) y métricas calculadas integrados. Muchos de ellos no se aplican en CJA, o tendrán que cambiarse de nombre o recrearse. Otros dependerán de una solución para variables según el contexto en CJA.
+La versión tradicional de Analytics incluye numerosos filtros de plantilla (filtros) y métricas calculadas predefinidos. Muchos de ellos no se aplican en CJA, o será necesario cambiarles el nombre o volver a crearlos. Otros dependerán de una solución para variables según el contexto en CJA.
 
 | Nombre del filtro | Descripción |
 | --- | --- |
