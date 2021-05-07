@@ -2,17 +2,17 @@
 title: (B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consulta
 description: Aprenda a agregar datos basados en cuentas como un conjunto de datos de consulta a CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # (B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consulta
 
-Este caso de uso B2B le muestra cómo especificar los datos a nivel de cuenta en lugar de a nivel de persona para su análisis. El análisis a nivel de cuenta puede responder preguntas como
+Este caso de uso de B2B se muestra cómo especificar los datos en cuanto a cuenta, en lugar de en cuanto a persona, para su análisis. El análisis a nivel de cuenta puede responder preguntas como
 
 * ¿Qué nombre de compañía coincide con esta cuenta?
 * ¿Cuántos empleados están asociados con esta cuenta o compañía?
@@ -22,7 +22,7 @@ Este caso de uso B2B le muestra cómo especificar los datos a nivel de cuenta en
 
 Todo esto se logra mediante la introducción de la información de nivel de cuenta como un conjunto de datos [lookup](/help/getting-started/cja-glossary.md).
 
-Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (CJA0) que combina distintos conjuntos de datos, incluido el de consulta que se ha creado. A continuación, crea una vista de datos y, finalmente, puede utilizar todos estos datos en Workspace.
+Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (CJA) que combina distintos conjuntos de datos, incluido el de consulta que se ha creado. A continuación, cree una vista de datos y, finalmente, podrá utilizar todos estos datos en Workspace.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Una vez creado el esquema, debe crear un conjunto de datos de consulta a partir 
 >
 >CJA no admite números enteros en los conjuntos de datos de búsqueda. Si agrega los campos enteros en el esquema XDM para el conjunto de datos de búsqueda, no podrá usarlos como métricas o métricas calculadas. Por ejemplo, si annualRevenue o totalEmployees se definen como números enteros, se mostrarán como “0” en los sistemas de informes en CJA. Sin embargo, si los asigna como cadenas, puede utilizarlos como información de búsqueda.
 
-Por ejemplo, annualRevenue o totalEmployees se definen como Entero en el siguiente ejemplo: esa es la razón por la que muestra &quot;0&quot; en CJA.
+Por ejemplo, annualRevenue o totalEmployees se definen como Entero en el siguiente ejemplo, ese es el motivo, ya que muestra “0” en CJA.
 
 1. En Adobe Experience Platform, vaya a **[!UICONTROL Administración de datos > Conjuntos de datos]**.
 1. Haga clic en **[!UICONTROL + Crear conjunto de datos]**.
