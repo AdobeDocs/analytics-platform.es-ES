@@ -2,11 +2,11 @@
 description: Obtenga información sobre las opciones Deshacer y Rehacer de Analysis Workspace.
 title: Configuración de Deshacer y Rehacer
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -62,9 +62,9 @@ ht-degree: 92%
 
 * Cambios en la información y configuración del proyecto (añadir etiquetas, cambios en la descripción, configuración de las instancias de repetición del recuento)
 * Establecer como página de aterrizaje
-* Agregar nuevo (filtro/métrica/intervalo de fechas/alerta)
+* Adición de elementos nuevos (filtros, métricas, intervalos de fechas, alertas)
 * Compartir proyectos, obtener vínculos de proyectos, enviar archivos (de forma puntual o programada)
-* Crear filtro para esta ruta en la visualización del flujo
+* Creación de un filtro para esta ruta en la visualización del flujo
 * Crear métrica calculada
 * Crear intervalo de fechas
 
