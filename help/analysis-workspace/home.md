@@ -3,11 +3,11 @@ keywords: Analysis Workspace
 title: Información general de Analysis Workspace
 description: Información general sobre las capacidades de Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es-ES#analysis-workspace). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es#analysis-workspace). [Más información...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente. Mediante la interfaz de arrastrar y soltar, puede crear su análisis, agregar visualizaciones para dar vida a los datos, depurar un conjunto de datos, compartir y programar proyectos con cualquier persona de su organización.
 
@@ -47,7 +47,7 @@ En el proyecto de Workspace, se accede a **paneles, tablas, visualizaciones y co
 
 ### Componentes
 
-**** Los componentes son dimensiones, métricas, filtros o intervalos de fechas, todos los cuales se pueden combinar en una tabla  **[!UICONTROL improvisada]** para comenzar a responder a las preguntas comerciales. Asegúrese de familiarizarse con cada [tipo de componente](/help/components/overview.md) antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear el análisis](/help/analysis-workspace/build-workspace-project/freeform-overview.md) en una **[!UICONTROL tabla improvisada]**.
+**Los componentes** son dimensiones, métricas, filtros o intervalos de fechas que se pueden combinar en una **[!UICONTROL Tabla de forma libre]** para comenzar a responder su pregunta relacionada con lo comercial. Asegúrese de familiarizarse con cada [tipo de componente](/help/components/overview.md) antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear el análisis](/help/analysis-workspace/build-workspace-project/freeform-overview.md) en una **[!UICONTROL tabla improvisada]**.
 
 ![](assets/build-components.png)
 
