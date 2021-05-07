@@ -2,21 +2,21 @@
 title: Administrar filtros
 description: descubra cómo administrar filtros en Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1094'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Administrar filtros
 
-El Administrador de filtros ofrece muchas maneras de conservar los filtros, como compartir, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
+El Administrador de filtros ofrece numerosas maneras de gestionar los filtros, como compartir, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 
 El Administrador de filtros le muestra todos los filtros que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los filtros de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de filtros.
 
-Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis del Recorrido del cliente]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]** en la barra de navegación superior.
+Para acceder al Administrador de filtros, vaya a **[!UICONTROL Customer Journey Analysis]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]** en la barra de navegación superior.
 
 ## Interfaz de usuario del Administrador de filtros
 
@@ -39,7 +39,7 @@ Para acceder al Administrador de filtros, vaya a **[!UICONTROL Análisis del Rec
 
 ## Filtros del plan
 
-El hecho de dedicar algún tiempo a la planificación de filtros aumenta las probabilidades de que sean útiles para su organización y de que sus números se mantengan bajo control.
+El hecho de dedicar un cierto tiempo a la planificación de los filtros aumenta las probabilidades de que sean útiles para su organización y de que se mantenga bajo control el número de segmentos.
 
 * Tome en consideración la audiencia: ¿quién lo consumirá? ¿Con quién lo compartirá? ¿Qué grupos de personas utilizarán este filtro y, por lo tanto, cómo debo etiquetarlo? Esto también conlleva la necesidad de describir el filtro correctamente. Como mínimo, la descripción debe responder a las siguientes preguntas:
 
@@ -77,9 +77,9 @@ Para etiquetar un filtro:
 
    * Seleccione una de las etiquetas existentes, o bien
 
-   * introduzca un nuevo nombre de etiqueta y pulse **[!UICONTROL Enter]**.
+   * introduzca un nuevo nombre de etiqueta y pulse **[!UICONTROL Intro]**.
 
-1. Haga clic en **[!UICONTROL Tag]** de nuevo para etiquetar el filtro.
+1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar el filtro.
 
 La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
 También puede filtrar las etiquetas accediendo a **[!UICONTROL Filtros > Etiquetas]**.
@@ -94,7 +94,7 @@ Así es como se marca un filtro como aprobado:
 
 1. Haga clic en **[!UICONTROL Aprobar]** en la barra de tareas de administración de filtros.
 
-1. Considere la posibilidad de compartir los filtros aprobados con su organización.
+1. Considere la posibilidad de compartir el filtro o filtros aprobados con su organización.
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
