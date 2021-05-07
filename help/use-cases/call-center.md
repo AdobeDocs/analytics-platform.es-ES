@@ -2,9 +2,9 @@
 title: Importación de datos web y de centros de llamadas
 description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios web y de centros de llamadas.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
 ht-degree: 100%
 
