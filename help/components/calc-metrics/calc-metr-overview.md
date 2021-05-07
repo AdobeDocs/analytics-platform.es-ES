@@ -2,9 +2,9 @@
 title: Información general sobre las métricas calculadas
 description: Obtenga más información sobre
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
 ht-degree: 100%
 
