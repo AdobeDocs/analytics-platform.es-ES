@@ -2,11 +2,11 @@
 title: Información general sobre Customer Journey Analytics
 description: Descubra la forma en que Customer Journey Analytics le permite utilizar Analysis Workspace con los datos de Experience Platform.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Customer Journey Analytics es una función de Analytics que le permite utilizar 
 Customer Journey Analytics amplía el ámbito de Analytics al ofrecer funciones fáciles de usar entre canales y al eliminar las limitaciones de versiones anteriores de Adobe Analytics. Algunas mejoras importantes:
 
 * **Eventos y variables ilimitadas**: los conceptos de eVars, props y eventos ya no existen. Los datos se centran principalmente en dimensiones y métricas. Los conjuntos de datos pueden tener una cantidad ilimitada de dimensiones y métricas únicas.
-* **Valores** únicos ilimitados: Adobe Experience Platform no se limita a ninguna limitación única.
+* **Valores únicos ilimitados**: Adobe Experience Platform no se limita a ninguna limitación única.
 * **Modificar datos históricos**: con Adobe Experience Platform, los datos se pueden eliminar o corregir.
 * **Datos de grupos de informes múltiples**: las implementaciones existentes de varios conjuntos de datos se pueden combinar en Platform.
 
@@ -63,7 +63,7 @@ Para crear conexiones, agregar conjuntos de datos, etc., necesita los siguientes
    * Ver espacios de nombres de identidad
    * Conjuntos de datos de vistas
 
-Para obtener más información sobre los permisos de Experience Platform, consulte [Control de acceso en Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
+Para obtener más información sobre los permisos de Experience Platform, consulte [Control de acceso en Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
 ### Acceso de usuarios
 
@@ -74,7 +74,7 @@ Los usuarios que no son administradores (usuarios) en Customer Journey Analytics
 Se ha cambiado el nombre de varias funciones de CJA, en comparación con la versión clásica de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen lo siguiente:
 
 * Los segmentos ahora se conocen como “Filtros”.
-* Los grupos de informes virtuales ahora se conocen como &quot;Vistas de datos&quot;.
+* Los grupos de informes virtuales ahora se conocen como Vistas de datos.
 * Las clasificaciones ahora se conocen como “Conjuntos de datos de búsqueda”.
 * Los atributos del cliente ahora se conocen como “Conjuntos de datos de perfil”.
 * Los contenedores de visita individual ahora se conocen como contenedores de “Evento”.
@@ -85,11 +85,11 @@ Se ha cambiado el nombre de varias funciones de CJA, en comparación con la vers
 
 Customer Journey Analytics es una de las funciones de muchos que dependen de Adobe Experience Platform. Muchas otras capacidades, también integradas en Experience Platform, le permiten aprovechar al máximo sus datos.
 
-Adobe Experience Platform le permite centralizar y estandarizar los datos y el contenido de los clientes de cualquier sistema y aplicar la ciencia de datos y el aprendizaje automático para mejorar el diseño y el envío de las experiencias personalizadas. Los datos del cliente en la plataforma se almacenan como conjuntos de datos que consisten en un esquema y lotes de datos. Para obtener más información sobre la plataforma, consulte la [Descripción general de arquitectura de Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.translate.html).
+Adobe Experience Platform le permite centralizar y estandarizar los datos y el contenido de los clientes de cualquier sistema y aplicar la ciencia de datos y el aprendizaje automático para mejorar el diseño y el envío de las experiencias personalizadas. Los datos del cliente en la plataforma se almacenan como conjuntos de datos que consisten en un esquema y lotes de datos. Para obtener más información sobre la plataforma, consulte la [Descripción general de arquitectura de Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html).
 
 Desde la ingestión de datos hasta el acceso directo a SQL, varios componentes de Experience Platform son fundamentales para Customer Journey Analytics y actúan con él:
 
-* [Servicio de consulta](https://docs.adobe.com/content/help/es-ES/experience-platform/query/home.translate.html): utilice SQL estándar para recuperar datos de Adobe Experience Platform, como datos de soluciones de Adobe, datos de origen de clientes o cualquier otro dato de Platform. Se trata de una herramienta sin servidor que le permite unirse a cualquier conjunto de datos y capturar los resultados de la consulta como un nuevo conjunto de datos para usar en el sistema de informes, en Data Science Workspace o para su inserción en el servicio de perfil. Puede utilizar el servicio de consulta para crear ecosistemas de análisis de datos creando una imagen de los consumidores en sus diversos canales de interacción. Estos canales pueden incluir sistemas de puntos de venta, web, móviles, CRM, etc.
-* [Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md):
-* [Servicio de identidad](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/identity_services_architectural_overview/identity_services_architectural_overview.md):
-* [Data Science Workspace](https://docs.adobe.com/content/help/es-ES/experience-platform/data-science-workspace/home.translate.html) la opción “desarrollador”: puede utilizar inteligencia artificial (IA) prediseñada y modelos de aprendizaje automático en Adobe Experience Platform para influir en varios puntos del recorrido del cliente. Al descubrir perspectivas ocultas, puede hacer mejores predicciones en todo el viaje del cliente, sugerir los mejores pasos siguientes recomendados o automatizar procesos engorrosos.
+* [Servicio de consulta](https://docs.adobe.com/content/help/es-ES/experience-platform/query/home.html): utilice SQL estándar para recuperar datos de Adobe Experience Platform, como datos de soluciones de Adobe, datos de origen de clientes o cualquier otro dato de Platform. Se trata de una herramienta sin servidor que le permite unirse a cualquier conjunto de datos y capturar los resultados de la consulta como un nuevo conjunto de datos para usar en el sistema de informes, en Data Science Workspace o para su inserción en el servicio de perfil. Puede utilizar el servicio de consulta para crear ecosistemas de análisis de datos creando una imagen de los consumidores en sus diversos canales de interacción. Estos canales pueden incluir sistemas de puntos de venta, web, móviles, CRM, etc.
+* [Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md):
+* [Servicio de identidad](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html#!api-specification/markdown/narrative/technical_overview/identity_services_architectural_overview/identity_services_architectural_overview.md):
+* [Data Science Workspace](https://docs.adobe.com/content/help/es-ES/experience-platform/data-science-workspace/home.html) la opción “desarrollador”: puede utilizar inteligencia artificial (IA) prediseñada y modelos de aprendizaje automático en Adobe Experience Platform para influir en varios puntos del recorrido del cliente. Al descubrir perspectivas ocultas, puede hacer mejores predicciones en todo el viaje del cliente, sugerir los mejores pasos siguientes recomendados o automatizar procesos engorrosos.
