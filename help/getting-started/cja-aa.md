@@ -2,11 +2,10 @@
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-translation-type: tm+mt
-source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
+source-git-commit: bc0e722ad33f818a6d580305301a869af2fff385
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 98%
+source-wordcount: '1071'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +62,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Media Analytics | Los datos de medios están disponibles como parte de Analytics Data Connector. |
 | eVars de comercialización | El comportamiento de los eVars de comercialización se puede lograr usando dimensiones dentro de una matriz de objetos, dado que un eVar de comercialización no está configurado para utilizar persistencia. Actualmente, la persistencia de la dimensión de comercialización no está disponible. |
 | Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics for Target (A4T) y Visores simultáneos de medios. |
-| Reglas de procesamiento | En los conjuntos de datos basados en Analytics Data Connector, las reglas de procesamiento se aplican igual. |
+| Reglas de procesamiento | En los conjuntos de datos basados en Analytics Data Connector, las reglas de procesamiento se aplican igual. [Las funciones de preparación de datos de Adobe Experience ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) Platform también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
 
 ## No compatible actualmente, pero planificado
 
