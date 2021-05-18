@@ -2,11 +2,10 @@
 title: ¿Qué es una vista de datos en Customer Journey Analytics?
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión de CJA, como, por ejemplo, métricas, dimensiones, sesiones, etc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-translation-type: tm+mt
-source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
+source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 97%
+source-wordcount: '1070'
+ht-degree: 95%
 
 ---
 
@@ -22,9 +21,9 @@ Puede crear distintas vistas de datos para la misma conexión, con conjuntos de 
 
 Los proyectos de Workspace en Customer Journey Analytics se basan en vistas de datos.
 
-## ¿Qué novedades hay en las vistas de datos?
+## Funciones de vistas de datos
 
-La última actualización de las vistas de datos le ofrece una mayor flexibilidad en lo que se puede hacer con las vistas de datos. Estas mejoras le permiten **cambiar espontáneamente la configuración del elemento de esquema en las vistas de datos sin tener que cambiar el esquema en Adobe Experience Platform ni volver a implementar el entorno de CJA**.
+Las vistas de datos permiten cambiar espontáneamente la configuración del elemento de esquema, sin tener que cambiar el esquema en Adobe Experience Platform ni volver a implementar el entorno de CJA.
 
 * **Puede cambiar un componente de una métrica a una dimensión y viceversa**. Puede crear métricas a partir de campos de cadena o crear dimensiones a partir de campos numéricos. Esto facilita las cosas, ya que no tiene que crear un campo numérico en el esquema XDM para cada métrica que desee. En su lugar, puede crearlo de manera espontánea en el cuadro de diálogo de vistas de datos. Estos son algunos ejemplos:
    * **Cree una o varias dimensiones a partir de un único campo de esquema**. Se trata de una relación de uno a varios. Por ejemplo, puede crear una o más métricas de ingresos o una o más dimensiones de ingresos desde un único campo de esquema.
@@ -78,5 +77,5 @@ Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparec
 ## Pasos siguientes
 
 * [Creación de vistas de datos](/help/data-views/create-dataview.md)
-* [Casos de uso de las vistas de datos](/help/data-views/data-views-usecases.md)
+* [Casos de uso de vistas de datos](/help/data-views/data-views-usecases.md)
 * Detalles sobre el funcionamiento de la [persistencia](/help/data-views/persistence.md)
