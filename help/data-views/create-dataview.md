@@ -2,11 +2,11 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 199219322ca5cff48c83c66d1ad7cdab04845b2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2795'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -172,13 +172,13 @@ Los [!UICONTROL Componentes estándares] son componentes que no se generan a par
 
 ![](assets/standard-components.png)
 
-De forma predeterminada, estos componentes estándar necesarios se añaden a cada vista de datos.
+De forma predeterminada, estos componentes estándares necesarios se añaden a cada vista de datos.
 
 | Nombre del componente | Dimensión o métrica | Notas |
 | --- | --- | --- |
 | [!UICONTROL Personas] | Métrica | Esta métrica se basa en el ID de persona especificado en una [!UICONTROL Conexión]. |
 | [!UICONTROL Sesiones] | Métrica | Esta métrica se basa en la configuración de creación de sesiones que se especifica a continuación. |
-| [!UICONTROL Eventos] | Métrica | Esta métrica representa el número de filas de todos los conjuntos de datos de evento en una [!UICONTROL Conexión]. |
+| [!UICONTROL Eventos] | Métrica | Esta métrica representa el número de filas de todos los conjuntos de datos de evento de una [!UICONTROL Conexión]. |
 | [!UICONTROL Día] | Dimensión | La dimensión “Día” indica el día en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer día del intervalo de fechas y el último elemento de dimensión es el último día del intervalo de fechas. |
 | [!UICONTROL Semana] | Dimensión | La dimensión “Semana” indica la semana en que se produjo una métrica determinada. El primer elemento de dimensión es la primera semana del intervalo de fechas y el último elemento de dimensión es la última semana del intervalo de fechas. |
 | [!UICONTROL Mes] | Dimensión | La dimensión “Mes” indica el día en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer mes del intervalo de fechas y el último elemento de dimensión es el último mes del intervalo de fechas. |
