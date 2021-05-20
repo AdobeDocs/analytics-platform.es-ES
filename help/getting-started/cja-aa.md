@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 source-git-commit: bc0e722ad33f818a6d580305301a869af2fff385
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Vinculación entre dispositivos y canales | Consulte [Análisis entre canales](/help/connections/cca/overview.md). |
 | Comparaciones de fechas | Compatibilidad total. |
 | Intervalos de fechas | Se ha planificado lanzar una versión compatible con el calendario personalizado. |
-| Dimensiones | CJA aprovecha XDM, admite dimensiones ilimitadas, y no se vincula con las variables de conversión y de tráfico personalizadas del software de Analytics tradicional. |
+| Dimensiones | CJA aprovecha XDM, admite dimensiones ilimitadas, y no está vinculado a las eVars o props del software de Analytics tradicional. |
 | Dimensiones de Analysis Workspace predeterminadas (por ejemplo: Tipo de explorador, Tipo de referente, Sistema operativo, etc.) | CJA proporciona estas dimensiones de forma nativa siempre y cuando se rellenen los campos XDM base (como agente de usuario o ID de dispositivo). Para los clientes que utilizan el Conector de datos de Analytics (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | Eliminación de RGPD | Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]: CJA hereda los cambios de datos que [!UICONTROL Experience Platform] haga en los conjuntos de datos subyacentes. |
 | Variables de lista/Propiedades de lista | CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
