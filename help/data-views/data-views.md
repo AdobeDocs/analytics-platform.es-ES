@@ -5,7 +5,7 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ Las vistas de datos se encuentran sobre las [conexiones](/help/connections/creat
 
 >[!NOTE]
 >
->Cualquier configuración que seleccione o cambie en una vista de datos es retroactiva y no destructiva. En otras palabras, no cambian permanentemente los datos subyacentes .
+>Cualquier configuración que seleccione o cambie en una vista de datos es retroactiva y no destructiva. En otras palabras, no cambian permanentemente los datos subyacentes.
 
 Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, puede crear vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, puede tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último contacto] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer contacto].
 
@@ -60,8 +60,8 @@ Las vistas de datos permiten cambiar espontáneamente la configuración del elem
 Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en el ámbito del proyecto, mientras que otros no.
 
 * [!UICONTROL Ventana retroactiva]
-* Atribución de métrica
-* Indica si los usuarios ven o no el elemento de línea [!UICONTROL Ningún valor] en un informe
+* Atribución de métricas
+* Indica si los usuarios ven o no el elemento de línea [!UICONTROL Sin valor] en un informe
 
 ## Configuración de vista de datos que no se puede anular en Workspace
 
@@ -72,7 +72,7 @@ Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en e
 
 ## Eliminación de vistas de datos
 
-Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparecerá un mensaje de error que indica que dejarán de funcionar todos los proyectos de Workspace que dependan de dicha vista de datos eliminada.
+Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparecerá un mensaje de error que indica que dejarán de funcionar todos los proyectos de [!UICONTROL Workspace] que dependan de dicha vista de datos eliminada.
 
 ## Pasos siguientes
 
