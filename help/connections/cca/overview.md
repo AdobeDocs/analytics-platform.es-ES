@@ -2,11 +2,11 @@
 title: Información general sobre Análisis entre canales
 description: Vuelva a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5770817d9e72cfde4786c205ecbfb32f34fc13ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1128'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Análisis entre canales es una función innovadora y sólida, pero tiene limitac
 * La identificación basada en campos no combina ni concatena campos.
 * El campo de ID transitorio debe contener un solo tipo de ID (es decir, ID de un solo espacio de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
 * Si se producen varios eventos con la misma marca de tiempo en relación con el mismo ID persistente, pero con valores diferentes en el campo de ID transitorio, la identificación basada en campos decidirá en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro Ann, la identificación basada en campos elegirá Ann.
-* El análisis entre canales realiza un seguimiento de cada valor de ID persistente durante 1 año (TTL = 1 año). Si un dispositivo no tiene actividad durante más de un año y luego empieza a tener actividad de nuevo, los nuevos eventos se asociarán con una persona anónima hasta que se vuelva a identificar al usuario (por ejemplo, mediante un nuevo inicio de sesión).
+* El análisis entre canales múltiples realiza un seguimiento de cada valor de ID persistente durante 1 año (TTL = 1 año). Si un dispositivo no tiene actividad durante más de un año y luego empieza a tener actividad de nuevo, los nuevos eventos se asociarán con una persona anónima hasta que se vuelva a identificar al usuario (por ejemplo, mediante un nuevo inicio de sesión).
 
 
 ## Habilitación de Análisis entre canales
