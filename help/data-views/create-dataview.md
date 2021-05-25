@@ -2,11 +2,10 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-translation-type: ht
-source-git-commit: 199219322ca5cff48c83c66d1ad7cdab04845b2b
-workflow-type: ht
-source-wordcount: '2795'
-ht-degree: 100%
+source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+workflow-type: tm+mt
+source-wordcount: '2812'
+ht-degree: 99%
 
 ---
 
@@ -149,7 +148,7 @@ Para obtener más información, consulte el tema sobre [Persistencia](/help/data
 | --- | --- |
 | [!UICONTROL Establecer persistencia] | Tecla de alternancia |
 | [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: [!UICONTROL Más reciente], [!UICONTROL Original], [!UICONTROL Instancia], [!UICONTROL Todos]. Si desea que un valor persista (similar a eVars en la versión tradicional de Analytics), aquí es donde lo configuraría. La única diferencia clave es que la persistencia máxima que puede establecer es de 90 días. Además, [!UICONTROL No caducar] no es una opción. |
-| [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: [!UICONTROL Sesión] (predeterminada), [!UICONTROL Persona], [!UICONTROL Tiempo], [!UICONTROL Métrica]. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). [!UICONTROL Métricas] le permite especificar cualquiera de las métricas definidas como la caducidad de esta dimensión (por ejemplo, una métrica de [!UICONTROL compra]). |
+| [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: [!UICONTROL Sesión] (predeterminada), [!UICONTROL Persona], [!UICONTROL Tiempo], [!UICONTROL Métrica]. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). [!UICONTROL Métricas] le permite especificar cualquiera de las métricas definidas como la caducidad de esta dimensión (por ejemplo, una métrica de [!UICONTROL compra]).<br>**Nota**: No se puede establecer una caducidad personalizada para una dimensión al seleccionar una asignación de  [!UICONTROL Todos]. |
 
 ### Ajuste de la configuración de agrupamiento de valores
 
