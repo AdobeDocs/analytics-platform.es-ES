@@ -2,11 +2,10 @@
 title: Casos de uso de vistas de datos en Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-translation-type: ht
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
-workflow-type: ht
-source-wordcount: '342'
-ht-degree: 100%
+source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 90%
 
 ---
 
@@ -40,6 +39,14 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 1. Ahora puede añadir [!UICONTROL Clasificación de valor] para presentar esta dimensión en forma de agrupación en los informes. (Sin agrupar, cada instancia de esta dimensión aparecería como un elemento de línea en los informes de Workspace).
 
    ![](assets/bucketing.png)
+
+## Utilizar dimensiones numéricas como &quot;métricas&quot; en diagramas de flujo
+
+Puede utilizar una dimensión numérica para obtener &quot;métricas&quot; en la visualización de [!UICONTROL  flujo]. El ejemplo siguiente muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
+
+![](assets/flow.png)
+
+## Incluir o excluir valores de métricas
 
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
