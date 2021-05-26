@@ -2,10 +2,10 @@
 title: Casos de uso de vistas de datos en Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 7386645aa63ddbf1fcc8835037c13382e117ef1e
+source-git-commit: 27e472f534590112194ce46b28a15b655c9caf2b
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 59%
+source-wordcount: '707'
+ht-degree: 46%
 
 ---
 
@@ -53,14 +53,36 @@ Puede utilizar una dimensión numérica para obtener &quot;métricas&quot; en la
 
 Puede filtrar eventos para mostrar solo lo que desee ver. Por ejemplo, use la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 dólares. Por lo tanto, si tiene un pedido que incluye una compra de producto de 50 dólares y una compra de producto de 25 dólares, solo eliminaríamos la compra de producto de 25 dólares, no todo el pedido.
 
-1. En la pestaña Vistas de datos [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , arrastre el campo de esquema [!UICONTROL Pedidos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña Vistas de datos [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
-   1. En [!UICONTROL Formato], seleccione [!UICONTROL Moneda].
-   1. En [!UICONTROL Moneda], seleccione USD.
-   1. En [!UICONTROL Incluir/Excluir valores], active la casilla situada junto a [!UICONTROL Definir valores de inclusión/exclusión].
-   1. En [!UICONTROL Coincidencia], seleccione [!UICONTROL Si se cumplen todos los criterios].
-   1. En [!UICONTROL Criterios], seleccione [!UICONTROL es bueno o igual que].
-   1. Especifique &quot;50&quot; como valor.
+a. En [!UICONTROL Formato], seleccione [!UICONTROL Moneda].
+b. En [!UICONTROL Moneda], seleccione USD.
+c. En [!UICONTROL Incluir/Excluir valores], active la casilla situada junto a [!UICONTROL Definir valores de inclusión/exclusión].
+d. En [!UICONTROL Coincidencia], seleccione [!UICONTROL Si se cumplen todos los criterios].
+e. En [!UICONTROL Criterios], seleccione [!UICONTROL es bueno o igual que].
+f. Especifique &quot;50&quot; como valor.
+
+Esta nueva configuración le permite ver solo los ingresos de alto valor y filtrar cualquier valor por debajo de los 50 $.
+
+## 5. Utilice la configuración [!UICONTROL Opciones sin valor]
+
+Es posible que su empresa haya dedicado tiempo a capacitar a sus usuarios para que esperen &quot;No especificado&quot; en los informes. El valor predeterminado en Vistas de datos es &quot;Sin valor&quot;. Ahora puede [cambiar el nombre de &quot;Sin valor&quot; por &quot;No especificado&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) en la interfaz de usuario de las vistas de datos.
+
+## 6. Utilice la función [!UICONTROL Duplicate]
+
+Duplicar una métrica y luego modificar configuraciones específicas es una forma sencilla de crear varias métricas o dimensiones a partir de un único campo de esquema.
+
+Simplemente seleccione la configuración Duplicar debajo del nombre de la métrica o dimensiones en la parte superior derecha:
+
+![](assets/duplicate.png)
+
+## Crear varias métricas con diferentes configuraciones de atribución
+
+Con la función [!UICONTROL Duplicar] mencionada anteriormente, cree una serie de métricas de ingresos con diferentes configuraciones de atribución como [!UICONTROL Primer toque], [!UICONTROL Último toque] y [!UICONTROL Algorítmico].
+
+No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como &quot;Ingresos algorítmicos&quot;:
+
+![](assets/algo-revenue.png)
 
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
