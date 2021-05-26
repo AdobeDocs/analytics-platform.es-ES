@@ -2,10 +2,10 @@
 title: Casos de uso de vistas de datos en Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+source-git-commit: 7386645aa63ddbf1fcc8835037c13382e117ef1e
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 90%
+source-wordcount: '549'
+ht-degree: 59%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics.
 
-## Creación de una métrica de pedidos a partir de un campo de esquema pageTitle (cadena)
+## 1. Crear una métrica Pedidos a partir de un campo de esquema pageTitle (cadena)
 
 Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL Pedidos] a partir de un campo de esquema [!UICONTROL pageTitle] que sea una cadena. A continuación se describen los pasos que debe seguir:
 
@@ -28,7 +28,7 @@ Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL P
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con un [!UICONTROL Periodo de retroactividad] de [!UICONTROL Sesión].
 También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y especificar un modelo de atribución diferente para él, como [!UICONTROL Primer toque] y una ventana [!UICONTROL Periodo de retroactividad] diferente, como, por ejemplo, [!UICONTROL 30 días].
 
-## Uso de filtros como dimensiones
+## 2. Utilice enteros como dimensiones
 
 Anteriormente, los enteros se trataban automáticamente como métricas en CJA. Ahora, los números (incluidos los eventos personalizados de Adobe Analytics) pueden tratarse como dimensiones. Vea el siguiente ejemplo:
 
@@ -40,13 +40,27 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 
    ![](assets/bucketing.png)
 
-## Utilizar dimensiones numéricas como &quot;métricas&quot; en diagramas de flujo
+## 3. Utilice dimensiones numéricas como &quot;métricas&quot; en diagramas de flujo
 
-Puede utilizar una dimensión numérica para obtener &quot;métricas&quot; en la visualización de [!UICONTROL  flujo]. El ejemplo siguiente muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
+Puede utilizar una dimensión numérica para obtener &quot;métricas&quot; en la visualización de [!UICONTROL  flujo].
+
+1. En la pestaña Vistas de datos [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+2. En los informes de Workspace, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
 
 ![](assets/flow.png)
 
-## Incluir o excluir valores de métricas
+## 4. Realizar el filtrado de subeventos
+
+Puede filtrar eventos para mostrar solo lo que desee ver. Por ejemplo, use la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 dólares. Por lo tanto, si tiene un pedido que incluye una compra de producto de 50 dólares y una compra de producto de 25 dólares, solo eliminaríamos la compra de producto de 25 dólares, no todo el pedido.
+
+1. En la pestaña Vistas de datos [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , arrastre el campo de esquema [!UICONTROL Pedidos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. Seleccione la métrica y configure lo siguiente en el lado derecho:
+   1. En [!UICONTROL Formato], seleccione [!UICONTROL Moneda].
+   1. En [!UICONTROL Moneda], seleccione USD.
+   1. En [!UICONTROL Incluir/Excluir valores], active la casilla situada junto a [!UICONTROL Definir valores de inclusión/exclusión].
+   1. En [!UICONTROL Coincidencia], seleccione [!UICONTROL Si se cumplen todos los criterios].
+   1. En [!UICONTROL Criterios], seleccione [!UICONTROL es bueno o igual que].
+   1. Especifique &quot;50&quot; como valor.
 
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
