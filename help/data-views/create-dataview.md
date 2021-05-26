@@ -2,10 +2,10 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+source-git-commit: 473b6679619c9e523997044eaa080025a762bb8d
 workflow-type: tm+mt
-source-wordcount: '2812'
-ht-degree: 99%
+source-wordcount: '2848'
+ht-degree: 98%
 
 ---
 
@@ -71,9 +71,9 @@ Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensió
 | [!UICONTROL Nombre del campo] | Nombre del campo de esquema. |
 | [!UICONTROL Tipo de conjunto de datos] | Requerido. Campo no editable que muestra el tipo de conjunto de datos (evento, búsqueda o perfil) del que procede el componente. |
 | [!UICONTROL Conjunto de datos] | Requerido. Campo no editable que muestra el tipo de campo del que procede el componente (por ejemplo, cadena, entero, etc.). Este campo puede contener varios conjuntos de datos. |
-| [!UICONTROL Tipo de esquema] | Se refiere a si el componente es una cadena, un número entero, etc. |
+| [!UICONTROL Tipo de datos del esquema] | Se refiere a si el componente es una cadena, un número entero, etc. |
 | [!UICONTROL ID de componente] | Requerido. La [API de CJA](https://adobe.io/cja-apis/docs) utiliza este campo para hacer referencia al componente. Puede hacer clic en el icono de edición y modificar este ID de componente. Sin embargo, al cambiar este ID de componente, se rompen todos los proyectos existentes de Workspace que contienen este componente.<br>Si alguna vez crea otra vista de datos que utiliza un campo diferente para una dimensión pageTitle, puede cambiarle el nombre y hacer compatible la vista de datos cruzados de dimensión. |
-| [!UICONTROL Ruta] | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
+| [!UICONTROL Ruta del esquema] | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
 | [!UICONTROL Ocultar componente en creación de informes] | Predeterminado = desactivado. Permite depurar el componente fuera de la vista de datos cuando se utiliza en la creación de informes. Esto no afecta a los permisos, solo a la depuración de componentes. En otras palabras, puede ocultar el componente de los usuarios que no sean administradores en la creación de informes. Los administradores aún pueden acceder a él haciendo clic en [!UICONTROL Mostrar todos los componentes] en un proyecto de Analysis Workspace. |
 
 ### Ajuste de la configuración de formato
@@ -121,6 +121,7 @@ Por ejemplo, puede crear una dimensión fuera del campo pageTitle, pero llamarla
 
 | Configuración | Descripción/caso de uso |
 | --- | --- |
+| [!UICONTROL Contar valores] | Solo para métricas booleanas, esta configuración le permite especificar si desea [!UICONTROL Contar verdadero], [!UICONTROL Contar falso] o [!UICONTROL Contar verdadero o falso] como valor de métrica. El valor predeterminado es [!UICONTROL Count True]. |
 | [!UICONTROL Contar instancias] | Permite especificar si un campo numérico o de tipo de fecha utilizado como métrica debe contar las veces que se estableció en lugar del valor en sí.<br> Si desea añadir las instancias de un campo numérico y desea simplemente añadir el número de veces que un campo se *estableció* en lugar del valor real incluido en él.<br>Esto resulta útil para crear una métrica de [!UICONTROL pedidos] a partir de un campo de [!UICONTROL ingresos], por ejemplo. Si se establecieron ingresos, entonces queremos contar 1 pedido único en lugar de la cantidad de ingresos numérica. |
 
 ### Ajuste de la configuración de las [!UICONTROL Opciones sin valor]
