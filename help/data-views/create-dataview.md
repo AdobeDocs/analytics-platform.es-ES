@@ -2,10 +2,10 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
+source-git-commit: e62303250e1f6b8f3f666a04c2742126a4861893
 workflow-type: tm+mt
 source-wordcount: '2934'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -27,9 +27,9 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 | [!UICONTROL Descripción] | No es obligatorio proporcionar descripción detallada, pero se recomienda. |
 | [!UICONTROL Zona horaria] | Elija en qué zona horaria desea que se presenten los datos. |
 | [!UICONTROL Etiquetas] | Las etiquetas permiten organizar las vistas de datos en categorías. |
-| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí y así es como aparecerán en cualquier proyecto de Workspace basado en dicha vista de datos. Los contenedores se utilizan en filtros y visitas en orden previsto/flujo, etc. para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=es#filter-containers) |
-| [!UICONTROL El nombre del contenedor de persona es...] | [!UICONTROL Persona] (valor predeterminado). El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Puede cambiarle el nombre a &quot;Usuario&quot; o a cualquier otro término que prefiera. |
-| [!UICONTROL El nombre del contenedor de sesión es...] | [!UICONTROL Sesión] (valor predeterminado). El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiarle el nombre a &quot;Visita&quot; o a cualquier otro término que prefiera. |
+| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí para determinar cómo aparecen en cualquier proyecto de Workspace basado en esta vista de datos. Los contenedores se utilizan en filtros y visitas en el orden previsto/flujo, etc., para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=es#filter-containers) |
+| [!UICONTROL El nombre del contenedor de persona es...] | [!UICONTROL Persona] (valor predeterminado). El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Puede cambiar el nombre de este contenedor a &quot;Usuario&quot; o a cualquier otro término que prefiera. |
+| [!UICONTROL El nombre del contenedor de sesión es...] | [!UICONTROL Sesión] (valor predeterminado). El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiar el nombre de este contenedor a &quot;Visita&quot; o a cualquier otro término que prefiera. |
 | [!UICONTROL El nombre del contenedor de eventos es...] | [!UICONTROL Evento] (valor predeterminado). El contenedor [!UICONTROL Evento] define qué eventos de página desea incluir o excluir de un filtro. |
 
 A continuación, puede crear métricas y dimensiones a partir de elementos de esquema. También puede utilizar componentes estándares.
@@ -43,7 +43,7 @@ A continuación, puede crear métricas y dimensiones a partir de elementos de es
 Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos, y sus [!UICONTROL Campos de esquema] a continuación. Tenga en cuenta que:
 
 * Los componentes ya incluidos son los componentes estándar necesarios (generados por el sistema).
-* También aplicamos el filtro **[!UICONTROL Contiene datos]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos. Si está buscando un campo que no contenga datos, simplemente quite el filtro.
+* El Adobe aplica el filtro **[!UICONTROL Contiene datos]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos. Si está buscando un campo que no contenga datos, elimine el filtro.
 
 1. A continuación, arrastre un campo de esquema, como [!UICONTROL pageTitle], desde el carril izquierdo a la sección Métricas o Dimensión.
 
