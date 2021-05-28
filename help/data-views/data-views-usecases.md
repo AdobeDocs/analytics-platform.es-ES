@@ -2,10 +2,10 @@
 title: Casos de uso de vistas de datos en Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 27e472f534590112194ce46b28a15b655c9caf2b
+source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 46%
+source-wordcount: '688'
+ht-degree: 47%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 46%
 
 Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics.
 
-## 1. Crear una métrica Pedidos a partir de un campo de esquema pageTitle (cadena)
+## 1. Crear una métrica a partir de un campo de esquema de cadena
 
 Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL Pedidos] a partir de un campo de esquema [!UICONTROL pageTitle] que sea una cadena. A continuación se describen los pasos que debe seguir:
 
@@ -27,6 +27,8 @@ Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL P
    La frase &quot;confirmación&quot; indica que se trata de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se contará un &quot;1&quot; para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Funciona con Attribution IQ, filtros y en cualquier otro lugar donde se pueden usar métricas estándares.
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con un [!UICONTROL Periodo de retroactividad] de [!UICONTROL Sesión].
 También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y especificar un modelo de atribución diferente para él, como [!UICONTROL Primer toque] y una ventana [!UICONTROL Periodo de retroactividad] diferente, como, por ejemplo, [!UICONTROL 30 días].
+
+Otro ejemplo sería el uso del ID de visitante, una dimensión, como métrica para determinar cuántos ID de visitante tiene su empresa.
 
 ## 2. Utilice enteros como dimensiones
 
@@ -68,17 +70,9 @@ Esta nueva configuración le permite ver solo los ingresos de alto valor y filtr
 
 Es posible que su empresa haya dedicado tiempo a capacitar a sus usuarios para que esperen &quot;No especificado&quot; en los informes. El valor predeterminado en Vistas de datos es &quot;Sin valor&quot;. Ahora puede [cambiar el nombre de &quot;Sin valor&quot; por &quot;No especificado&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) en la interfaz de usuario de las vistas de datos.
 
-## 6. Utilice la función [!UICONTROL Duplicate]
+## 6. Cree varias métricas con diferentes configuraciones de [!UICONTROL Atribución]
 
-Duplicar una métrica y luego modificar configuraciones específicas es una forma sencilla de crear varias métricas o dimensiones a partir de un único campo de esquema.
-
-Simplemente seleccione la configuración Duplicar debajo del nombre de la métrica o dimensiones en la parte superior derecha:
-
-![](assets/duplicate.png)
-
-## Crear varias métricas con diferentes configuraciones de atribución
-
-Con la función [!UICONTROL Duplicar] mencionada anteriormente, cree una serie de métricas de ingresos con diferentes configuraciones de atribución como [!UICONTROL Primer toque], [!UICONTROL Último toque] y [!UICONTROL Algorítmico].
+Con la función [!UICONTROL Duplicar] en la parte superior derecha, cree una serie de métricas de ingresos con diferentes configuraciones de atribución como [!UICONTROL Primer toque], [!UICONTROL Último toque] y [!UICONTROL Algorítmico].
 
 No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como &quot;Ingresos algorítmicos&quot;:
 
