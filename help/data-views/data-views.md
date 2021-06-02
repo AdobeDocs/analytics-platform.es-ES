@@ -3,9 +3,9 @@ title: ¿Qué es una vista de datos en Customer Journey Analytics?
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión de CJA, como, por ejemplo, métricas, dimensiones, sesiones, etc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Los proyectos de Workspace en Customer Journey Analytics se basan en vistas de d
 
 ## Funciones de vistas de datos
 
-Las vistas de datos permiten cambiar espontáneamente la configuración del elemento de esquema, sin tener que cambiar el esquema en Adobe Experience Platform ni volver a implementar el entorno de CJA.
+Las vistas de datos le permiten cambiar espontáneamente la configuración del elemento de esquema sin tener que variar el esquema en Adobe Experience Platform ni volver a implementar el entorno de CJA.
 
 * **Puede cambiar un componente de una métrica a una dimensión y viceversa**. Puede crear métricas a partir de campos de cadena o crear dimensiones a partir de campos numéricos. Esto facilita las cosas, ya que no tiene que crear un campo numérico en el esquema XDM para cada métrica que desee. En su lugar, puede crearlo de manera espontánea en el cuadro de diálogo de vistas de datos. Estos son algunos ejemplos:
    * **Cree una o varias dimensiones a partir de un único campo de esquema**. Se trata de una relación de uno a varios. Por ejemplo, puede crear una o más métricas de ingresos o una o más dimensiones de ingresos desde un único campo de esquema.
