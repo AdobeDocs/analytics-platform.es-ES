@@ -2,20 +2,19 @@
 description: Puede ver anomalías en una tabla o un gráfico de líneas.
 title: Visualización de anomalías en Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 97%
 
 ---
-
 
 # Visualización de anomalías en Analysis Workspace
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede ver anomalías en una tabla o un gráfico de líneas.
 
@@ -48,4 +47,3 @@ El intervalo de confianza de detección de anomalías no escala automáticamente
 Tiene la opción de permitir que el intervalo de confianza escale el gráfico. Solo tiene que hacer clic en el icono de Configuración (engranaje) y marcar **[!UICONTROL Permitir que Detección de anomalías escale el eje Y]**.
 
 ![](assets/scale-y-axis.png)
-
