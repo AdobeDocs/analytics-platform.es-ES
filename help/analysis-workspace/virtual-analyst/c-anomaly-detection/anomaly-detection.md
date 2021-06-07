@@ -2,20 +2,19 @@
 description: Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
 title: Resumen de la Detección de anomalías
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 92%
+source-wordcount: '182'
+ht-degree: 96%
 
 ---
-
 
 # Resumen de la Detección de anomalías
 
 Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
 
-[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  de vídeo de detección de anomalías (4:53)
+[Tutorial en vídeo de Detección de anomalías](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
 La Detección de anomalías constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores.
 
