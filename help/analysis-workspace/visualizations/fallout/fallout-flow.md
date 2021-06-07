@@ -2,11 +2,10 @@
 description: Las visualizaciones de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia predefinida de páginas.
 title: Resumen de abandonos
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 88%
+source-wordcount: '243'
+ht-degree: 84%
 
 ---
 
@@ -32,5 +31,5 @@ La visualización de visitas en el orden previsto es útil para analizar:
 * Flujos de tráfico generales, con un alcance más amplio: entre las personas que visitaron la página principal, este flujo muestra cuántas fueron de allí a realizar una búsqueda y cuántas continuaron para ver un elemento específico.
 * Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de privacidad y procedieron a realizar la compra de un producto.
 
-[Tutorial de vídeo de visualización de visitas en orden previsto](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[Tutorial de vídeo de visualización de visitas en orden previsto](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
