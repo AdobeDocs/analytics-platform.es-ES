@@ -1,20 +1,19 @@
 ---
 title: Administrar intervalos de fechas
 description: Compartir, cambiar el nombre o eliminar intervalos de fechas en Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 10%
+source-wordcount: '416'
+ht-degree: 8%
 
 ---
-
 
 # Administrar intervalos de fechas
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Utilice el administrador de intervalos de fechas para compartir, cambiar el nombre o eliminar intervalos de fechas. Para llegar al administrador de fechas:
 
@@ -27,19 +26,19 @@ Utilice el administrador de intervalos de fechas para compartir, cambiar el nomb
 
 El administrador de intervalos de fechas incluye las siguientes opciones:
 
-* **Añadir**: Cree un nuevo intervalo de fechas. Consulte [crear un intervalo de fechas](create.md) para obtener más información.
+* **Agregar**: Cree un nuevo intervalo de fechas. Consulte [crear un intervalo de fechas](create.md) para obtener más información.
 * **Buscar por título**: Busque un intervalo de fechas por título. Los resultados se filtran según el texto introducido aquí.
-* **Filtro**: Filtre los intervalos de fechas utilizando la columna izquierda. Puede filtrar por etiqueta personalizada, propietario, creado por usted, sus favoritos, aprobado o compartido con usted. También puede buscar filtros deseados.
-* **Favorito**: Haga clic en el  ![](../assets/star.png) icono estelar junto a un intervalo de fechas para agregarlo a sus favoritos.
-* **Personalizar columnas**: Haga clic en la  ![](../assets/columns.png) columna para mostrar u ocultar las columnas en el administrador de intervalos de fechas.
+* **Filtro**: Filtre los intervalos de fechas utilizando la columna izquierda. Puede filtrar por etiqueta personalizada, propietario, creado por usted, sus favoritos, aprobado o compartido con usted. También puede buscar los filtros deseados.
+* **Favorito**: Haga clic en el  ![](../assets/star.png) icono de inicio situado junto a un intervalo de fechas para agregarlo a sus favoritos.
+* **Personalizar columnas**: Haga clic en el  ![](../assets/columns.png) icono de columna para mostrar u ocultar columnas en el administrador de intervalos de fechas.
 
-Haga clic en la casilla de verificación situada junto a uno o varios intervalos de fechas para ver más opciones.
+Haga clic en la casilla de verificación situada junto a uno o varios intervalos de fechas para obtener más opciones.
 
-* **Etiqueta**: Aplicar una etiqueta a todos los intervalos de fechas seleccionados. Las etiquetas ayudan a organizar los intervalos de fechas y permiten filtrarlos mediante la columna izquierda.
-* **Compartir**: Comparta un intervalo de fechas con otros usuarios Experience Cloud. Si es administrador de productos, también puede compartir con toda la organización o grupos. Los intervalos de fechas que se comparten con otros usuarios de la organización incluyen un icono ![compartido](../assets/shared.png) junto al título.
+* **Etiqueta**: Aplique una etiqueta a todos los intervalos de fechas seleccionados. Las etiquetas ayudan a organizar los intervalos de fechas y permiten filtrarlos mediante la columna izquierda.
+* **Compartir**: Comparta un intervalo de fechas con otros usuarios del Experience Cloud. Si es administrador de productos, también puede compartir con toda la organización o grupos. Los intervalos de fechas que se comparten con otros usuarios de su organización incluyen un icono ![compartido](../assets/shared.png) junto al título.
 * **Eliminar**: Eliminar permanentemente los intervalos de fechas seleccionados.
-* **Cambiar nombre**: Si se selecciona un solo intervalo de fechas, puede cambiar su título.
-* **Aprobar**: Si es administrador de un producto, puede agregar un sello de aprobación a un intervalo de fechas. Los intervalos de fechas aprobados informan a los usuarios de su organización de que son &quot;oficiales&quot;, diferenciándolos de los intervalos de fechas creados por otros usuarios de su organización. Los intervalos de fechas aprobados incluyen un icono ![aprobado](../assets/approved.png) junto al título.
-* **Desaprobar**: Si es administrador de un producto y selecciona un intervalo de fechas ya aprobado, puede desaprobarlo.
-* **Copiar**: Cree una copia de los intervalos de fechas seleccionados. Al copiar intervalos de fechas se anexa `(Copy)` al final del título de los intervalos de fechas recién copiados.
-* **Exportar a CSV**: Exporta todos los intervalos de fechas seleccionados en un archivo CSV. Las columnas del archivo CSV resultante incluyen todas las columnas visibles en el administrador de intervalos de fechas.
+* **Cambiar nombre**: Si se selecciona un solo intervalo de fechas, se puede cambiar su título.
+* **Aprobar**: Si es administrador de productos, puede agregar un sello de aprobación a un intervalo de fechas. Los intervalos de fechas aprobados informan a los usuarios de su organización de que son &quot;oficiales&quot;, lo que los diferencia de los intervalos de fechas creados por otros usuarios de su organización. Los intervalos de fechas aprobados incluyen un icono ![aprobado](../assets/approved.png) junto al título.
+* **Desaprobar**: Si es administrador de productos y selecciona un intervalo de fechas que ya está aprobado, puede desaprobarlo.
+* **Copiar**: Cree una copia de los intervalos de fechas seleccionados. Al copiar intervalos de fechas, se añade `(Copy)` al final del título de los intervalos de fechas recién copiados.
+* **Exportar a CSV**: Exporta todos los intervalos de fechas seleccionados a un archivo CSV. Las columnas del archivo CSV resultante incluyen todas las columnas visibles en el administrador de intervalos de fechas.
