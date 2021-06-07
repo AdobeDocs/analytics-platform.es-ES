@@ -2,11 +2,10 @@
 title: Guía de Customer Journey Analytics
 description: Página de aterrizaje de Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
-translation-type: ht
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
-workflow-type: ht
-source-wordcount: '338'
-ht-degree: 100%
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 93%
 
 ---
 
@@ -29,12 +28,12 @@ Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es#cja-connections"> Análisis en canales múltiples (vinculación de ID en Customer Journey Analytics) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#admin-access-permissions"> Requisitos de permisos de usuario actualizados </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=es#cja-usecases"> Usar matrices de objetos </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-usecases/b2b.html"> Añadir datos de nivel de cuenta como un conjunto de datos de consulta </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-getting-started.html"> Introducción a Customer Journey Analytics </a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-overview/cja-faq.html"> Preguntas frecuentes</a> </li> 
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html"> Añadir datos de nivel de cuenta como un conjunto de datos de consulta </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html"> Introducción a Customer Journey Analytics </a> </li> 
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html"> Preguntas frecuentes</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>Notas de la versión</b> </p> 
     <ul> 
-     <li>Consulte las últimas <a href="https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones. </li> 
+     <li>Consulte las últimas <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones. </li> 
     </ul> <p class="head"> <b>Recursos de Adobe Experience Platform</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/es/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
