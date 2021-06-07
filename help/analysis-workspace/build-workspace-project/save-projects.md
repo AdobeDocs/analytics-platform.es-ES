@@ -4,9 +4,9 @@ title: Guardar proyectos
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 18b5a98cf5abb0d552cb7e87ee3098d314c5459a
-workflow-type: ht
-source-wordcount: '465'
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+workflow-type: tm+mt
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL
 | **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre, una descripción (opcional) y que añada etiquetas (opcional). |
 | **[!UICONTROL Guardar con notas]** | Antes de guardar el proyecto, añada notas acerca de los cambios realizados. Las notas se almacenan con la versión del proyecto y están disponibles para todos los editores en [!UICONTROL Proyecto] > [!UICONTROL Abrir versión anterior]. |
 | **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
-| **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una [plantilla personalizada](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
+| **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una [plantilla personalizada](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es) que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
 
 ![](assets/save-project.png)
 
