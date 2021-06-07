@@ -2,14 +2,13 @@
 description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 title: Resumen de calendario e intervalos de fechas
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: tm+mt
-source-git-commit: 7dc245671d98e63cc4f0d97c1b1fdb11509b7d45
+exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 97%
 
 ---
-
 
 # Resumen de calendario e intervalos de fechas
 
@@ -23,7 +22,7 @@ El primer clic en un calendario inicia una selección de intervalo de fechas. El
 
 También puede arrastrar fechas (y dimensiones temporales) a un proyecto de Workspace. Se pueden seleccionar fechas, semanas, meses o años concretos, o bien fechas móviles.
 
-[Uso de intervalos de fechas y calendarios en Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=es-ES) (4:07)
+[Uso de intervalos de fechas y calendarios en Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Configuración | Descripción |
 | --- | --- |
