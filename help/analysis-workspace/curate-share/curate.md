@@ -3,11 +3,10 @@ description: Una depuración le permite limitar los componentes antes de compart
 keywords: Revisión de Analysis Workspace
 title: Depurar proyectos de
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 44%
+source-wordcount: '493'
+ht-degree: 43%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 44%
 La depuración permite limitar los componentes (dimensiones, métricas, filtros e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, verá un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
 
 >[!NOTE]
-> Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran mediante el [Admin Console de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html). La depuración es un filtro secundario.
+> Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran mediante el [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). La depuración es un filtro secundario.
 
 ## Aplicar depuración de proyecto
 
