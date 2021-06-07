@@ -2,11 +2,10 @@
 description: Aprenda a especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional.
 title: Configurar una visualización de abandonos
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 85%
+source-wordcount: '688'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +17,7 @@ Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es po
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
-Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
