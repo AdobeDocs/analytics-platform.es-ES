@@ -2,11 +2,10 @@
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 63%
+source-wordcount: '800'
+ht-degree: 62%
 
 ---
 
@@ -69,7 +68,7 @@ Para crear filtros desplegables:
 
 ![](assets/create-dropdown.png)
 
-[Vea el vídeo](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
+[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
 
 ## Haga clic con el botón derecho en el menú {#right-click}
 
