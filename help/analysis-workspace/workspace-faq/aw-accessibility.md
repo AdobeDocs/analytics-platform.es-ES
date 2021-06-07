@@ -2,11 +2,10 @@
 description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 81%
+source-wordcount: '655'
+ht-degree: 98%
 
 ---
 
@@ -22,16 +21,16 @@ La accesibilidad se refiere a hacer que personas con discapacidades visuales, au
 
 La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a abajo e izquierda a derecha. Los siguientes elementos de navegación facilitan la accesibilidad:
 
-* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
+* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes en Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
 * El movimiento `left/right arrows` entre elementos individuales después de que `Tab` lo haya resaltado.
-* El `F6` se desplaza al primer panel del proyecto y se desplaza entre las visualizaciones de ese panel. A continuación, se desplaza al panel siguiente del proyecto y se repite.
+* El `F6` se desplaza al primer panel del proyecto y se mueve entre las visualizaciones de ese panel. A continuación, se desplaza al siguiente panel del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.
 
    ![Indicador de enfoque](assets/focus-indicator.png)
 
 ### Navegación por teclado para la barra de menús
 
-1. Tabulador hasta que haya llegado a la barra de menús.
+1. Use el tabulador hasta que haya llegado a la barra de menús.
 1. Utilice las teclas de flecha izquierda/derecha para desplazarse hasta el menú que desee.
 1. Pulse `Enter` para seleccionar el menú y mostrar sus opciones.
 1. Utilice las teclas de flecha arriba/abajo para ir a la opción de menú que desee.
@@ -48,7 +47,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 
 ### Métodos abreviados de teclado (teclas de acceso directo)
 
-[!UICONTROL Analysis Workspace] ofrece un completo conjunto de [métodos abreviados de teclado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=es-ES) para lograr un flujo de trabajo más fluido. A continuación se enumeran algunos métodos abreviados comunes para la navegación, la creación de análisis y la democratización de los datos.
+[!UICONTROL Analysis Workspace] ofrece un completo conjunto de [métodos abreviados de teclado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=es) para lograr un flujo de trabajo más fluido. A continuación se enumeran algunos métodos abreviados comunes para la navegación, la creación de análisis y la democratización de los datos.
 
 #### Navegación
 
@@ -69,7 +68,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | Ctrl + Mayús + D | Nuevo intervalo de fechas |
 | Ctrl + Mayús + E | Nuevo filtro |
 | Ctrl + Z | Deshacer |
-| Mantenga pulsada la tecla Mayús (en la zona desplegable del filtro del panel) | Cree un [filtro desplegable](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es-ES) |
+| Mantenga pulsada la tecla Mayús (en la zona desplegable del filtro del panel) | Cree un [filtro desplegable](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) |
 
 #### Democratización
 
@@ -90,7 +89,7 @@ Un lector de pantalla lee el texto que aparece en la pantalla del equipo. Tambi�
 
 [!UICONTROL Analysis Workspace] se esfuerza por lograr la conformidad con WCAG 2.1 AA, incluyendo sus requisitos para el contraste de color.
 
-Además, los usuarios pueden establecer su propia paleta de colores preferida para un proyecto en **[!UICONTROL Proyecto]** > **[!UICONTROL Ajustes del proyecto]** > [Paleta de color del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es-ES).
+Además, los usuarios pueden establecer su propia paleta de colores preferida para un proyecto en **[!UICONTROL Proyecto]** > **[!UICONTROL Ajustes del proyecto]** > [Paleta de color del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es).
 
 ## Validación de campo requerida en los generadores de componentes
 
