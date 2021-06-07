@@ -2,11 +2,10 @@
 title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre el análisis de cohorte en Analysis Workspace
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 84%
+source-wordcount: '466'
+ht-degree: 82%
 
 ---
 
@@ -26,7 +25,7 @@ Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 
 El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de Adobe Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
 
-[Tutorial en vídeo de análisis de cohortes](https://docs.adobe.com/content/help/es/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[Tutorial en vídeo de análisis de cohortes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
