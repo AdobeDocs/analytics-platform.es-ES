@@ -1,14 +1,13 @@
 ---
-description: La función Flujo muestra las rutas de los clientes a través de los sitios web y las aplicaciones.
+description: La función Flujo muestra las rutas de los clientes a través de sus sitios web y aplicaciones.
 title: Resumen de flujos
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 86%
+source-wordcount: '185'
+ht-degree: 83%
 
 ---
-
 
 # Resumen de flujos
 
@@ -18,9 +17,9 @@ Le permite:
 
 * Visualizar el recorrido del cliente a lo largo de su sitio web o aplicación
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
-* Crear filtros mediante la designación de un punto específico en una ruta seleccionada
+* Crear filtros mediante la designación de un punto específico en una ruta elegida
 
-[Tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=es-ES) de vídeo de visualización de flujo (4:56)
+[Tutorial de vídeo de visualización de flujo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## Flujos interdimensionales {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
