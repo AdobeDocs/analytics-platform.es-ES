@@ -1,20 +1,19 @@
 ---
 title: Modelos de atribución y ventanas retroactivas
-description: Los diferentes tipos de atribución dividen el crédito entre los elementos de dimensión.
+description: Cómo los diferentes tipos de atribución dividen el crédito entre los valores de dimensión.
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1537'
 ht-degree: 97%
 
 ---
 
-# Modelos de atribución y ventanas retroactivas
+# Atribución modelos y ventanas retroactivas
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 El concepto de atribución en Adobe Analytics requiere dos componentes:
 
@@ -49,7 +48,7 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 >[!NOTE]
 >
->**[!UICONTROL Las]** ventanas retrospectivas personalizadas están actualmente en prueba limitada. Consulte [Versiones de características de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html) para obtener más información.
+>**[!UICONTROL Las]** ventanas retrospectivas personalizadas están actualmente en prueba limitada. Consulte [Versiones de características de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html) para obtener más información.
 
 ## Ejemplo
 
