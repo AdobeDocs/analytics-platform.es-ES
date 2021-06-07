@@ -2,11 +2,10 @@
 title: Preguntas más frecuentes sobre Attribution
 description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 88%
+source-wordcount: '306'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 **¿Cuál es el elemento de línea “Ninguno” al utilizar Attribution?**
 
