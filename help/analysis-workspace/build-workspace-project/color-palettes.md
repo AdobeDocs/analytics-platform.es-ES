@@ -2,20 +2,19 @@
 description: Cómo cambiar la paleta de colores de visualización o especificar su propia paleta de colores personalizada.
 title: Paleta de colores de visualización
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
-translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 91%
+source-wordcount: '245'
+ht-degree: 88%
 
 ---
-
 
 # Paleta de colores de visualización
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede cambiar la paleta de colores de visualización que se emplea en Workspace eligiendo una paleta de color diferente o creando una paleta propia que corresponda a los colores de marca de su empresa. Esta característica afecta a la mayoría de las visualizaciones de Workspace, pero **no** afecta al Resumen del cambio, al formato condicional en tablas improvisadas ni a la Visualización de mapas.
 
@@ -39,4 +38,3 @@ Recuerde:
 
 1. Para crear su propia paleta, seleccione **[!UICONTROL Paleta personalizada]** en las opciones preconfiguradas.
 1. Especifique hasta 16 valores hexadecimales separados por comas (por ejemplo, #00a4e4) de los colores que desee utilizar. Si, por ejemplo, desea utilizar solo cuatro valores, estos colores se repetirán automáticamente en las visualizaciones que contengan más colores.
-
