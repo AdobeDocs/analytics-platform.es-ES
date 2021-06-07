@@ -3,11 +3,10 @@ description: Desglose de dimensiones y elementos de dimensión en Analysis Works
 keywords: Analysis Workspace
 title: Desglose de dimensiones
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
-translation-type: tm+mt
-source-git-commit: c086f21e1a13ef4dec4e1be63d9f462bfb32f2ea
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 79%
+source-wordcount: '232'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Desglose de dimensiones y elementos de dimensión en Analysis Workspace.
 
