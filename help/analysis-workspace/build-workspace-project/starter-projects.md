@@ -3,11 +3,10 @@ description: Utilice plantillas en Workspace y cree plantillas personalizadas.
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 exl-id: 464032a1-6dae-4df5-b4db-b277788e88c2
-translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 95%
+source-wordcount: '709'
+ht-degree: 92%
 
 ---
 
@@ -15,13 +14,13 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede elegir crear un proyecto a partir de:
 
 * **Proyecto en blanco (predeterminado)**: para obtener instrucciones, consulte [Creación de un proyecto de Analysis Workspace](/help/analysis-workspace/home.md).
 * **Plantilla estándar**: estas plantillas son creadas por Adobe y se envían con el producto.
-* **Plantilla personalizada**: estas plantillas pueden ser creadas, compartidas o eliminadas por usuarios con derechos de administrador o por usuarios que no sean administradores, siempre que se les haya otorgado el permiso [!UICONTROL Analysis Workspace: Guardar como plantilla] en Admin Console. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/permissions/product-profile.html)
+* **Plantilla personalizada**: estas plantillas pueden ser creadas, compartidas o eliminadas por usuarios con derechos de administrador o por usuarios que no sean administradores, siempre que se les haya otorgado el permiso [!UICONTROL Analysis Workspace: Guardar como plantilla] en Admin Console. [Más información...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
