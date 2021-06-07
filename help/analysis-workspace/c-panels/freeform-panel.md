@@ -1,22 +1,20 @@
 ---
-description: Obtenga información sobre los paneles improvisados en Analysis Workspace.
+description: Obtenga información sobre los paneles de forma libre en Analysis Workspace.
 title: Panel de forma libre
-translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+exl-id: 4e1d5d72-da59-419a-835e-a3c90f1362b4
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 88%
+source-wordcount: '60'
+ht-degree: 76%
 
 ---
-
 
 # Panel de forma libre
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Un panel improvisado es un panel en blanco cuyo estado inicial incluye una tabla improvisada.
 
 ![](assets/freeform-panel.png)
-
