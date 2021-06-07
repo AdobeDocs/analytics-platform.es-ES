@@ -3,11 +3,10 @@ description: Envíe un proyecto de Analysis Workspace por correo electrónico o 
 keywords: Analysis Workspace
 title: Programar proyectos
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-translation-type: tm+mt
-source-git-commit: 5f9dc79e666303165f07fd203e29a3daf478e980
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 En el **menú Compartir** de Workspace, puede enviar proyectos de Analysis Workspace por correo electrónico a destinatarios seleccionados. Los archivos se pueden enviar en formato CSV o PDF.
 
