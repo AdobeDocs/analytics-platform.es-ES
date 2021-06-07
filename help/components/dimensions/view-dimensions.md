@@ -1,20 +1,19 @@
 ---
-description: Muestra los 5 valores principales para dimensiones que no son de tiempo (y 15 para dimensiones de tiempo).
-title: Previsualización de dimensiones en CJA Workspace
-translation-type: tm+mt
-source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
+description: Muestra los 5 valores principales para dimensiones que no sean temporales (y 15 para dimensiones temporales).
+title: Vista previa de dimensiones en CJA Workspace
+exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 92%
+source-wordcount: '228'
+ht-degree: 89%
 
 ---
-
 
 # Vista preliminar de dimensiones
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Sitúe el ratón encima del icono de información (i) que encontrará junto a una dimensión. Se mostrarán los cinco valores principales correspondientes a las dimensiones que no sean temporales. En el caso de las dimensiones temporales, se mostrarán los 15 valores principales. Anteriormente estos valores solían ser estáticos, es decir, los cinco valores seleccionados no cambiaban nunca.
 
