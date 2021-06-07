@@ -2,11 +2,10 @@
 description: Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores).
 title: Histograma
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 87%
+source-wordcount: '421'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
 
 Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores). Analytics automatiza la creación de contenedores de números en rangos, pero puede modificar la configuración en [Configuración avanzada](#section_09D774C584864D4CA6B5672DC2927477).
 
@@ -45,7 +44,7 @@ Para ajustar la configuración de su histograma, haga clic en el icono de Config
 | Iniciando el depósito | Determina por qué contenedor empieza el histograma. La opción predeterminada es “1”. Puede ajustar los números iniciales de 0 hasta el infinito (sin números negativos). |
 | Contenedor de métricas | Le permite aumentar/disminuir el número de rangos de fecha (contenedores). El número máximo de contenedores es 50. |
 | Tamaño del contenedor de métricas | Le permite establecer el tamaño de cada contenedor. Por ejemplo, puede cambiar el tamaño del contenedor de 1 vista de página a 2 vistas de página. |
-| Método de recuento | Permite seleccionar entre [Visitante](https://docs.adobe.com/content/help/en/analytics/components/metrics/unique-visitors.html), [Visita](https://docs.adobe.com/content/help/en/analytics/components/metrics/visits.html) o Tipo de visita. Por ejemplo, vistas de página por visita o visitas de página por visitante o visitas de página por cada acierto. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre. |
+| Método de recuento | Permite seleccionar entre [Visitante](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html), [Visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) o Tipo de visita. Por ejemplo, vistas de página por visita o visitas de página por visitante o visitas de página por cada acierto. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -64,4 +63,4 @@ Los filtros creados previamente que se muestran en la tabla son filtros internos
 
 ![](assets/prebuilt_segments.png)
 
-Para explorar más formas en las que gestionar las tablas de datos improvisadas y otras visualizaciones, como hacer desgloses de datos, vaya [aquí](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+Para explorar más formas en las que gestionar las tablas de datos improvisadas y otras visualizaciones, como hacer desgloses de datos, vaya [aquí](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=es).
