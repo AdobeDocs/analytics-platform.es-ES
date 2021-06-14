@@ -2,10 +2,10 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: e62303250e1f6b8f3f666a04c2742126a4861893
+source-git-commit: d343ad40be6ae210f17dd547062e91df0aaf7fce
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 91%
+source-wordcount: '2988'
+ht-degree: 88%
 
 ---
 
@@ -26,8 +26,8 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 | [!UICONTROL Nombre] | Es obligatorio asignar un nombre a la vista de datos. |
 | [!UICONTROL Descripción] | No es obligatorio proporcionar descripción detallada, pero se recomienda. |
 | [!UICONTROL Zona horaria] | Elija en qué zona horaria desea que se presenten los datos. |
-| [!UICONTROL Etiquetas] | Las etiquetas permiten organizar las vistas de datos en categorías. |
-| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí para determinar cómo aparecen en cualquier proyecto de Workspace basado en esta vista de datos. Los contenedores se utilizan en filtros y visitas en el orden previsto/flujo, etc., para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=es#filter-containers) |
+| [!UICONTROL Etiquetas] | [!UICONTROL Las etiquetas permiten organizar las vistas de datos en categorías.] |
+| [!UICONTROL Contenedores] | Puede cambiar el nombre de los contenedores aquí para determinar cómo aparecen en cualquier proyecto de Workspace basado en esta vista de datos.  Los contenedores se utilizan en filtros, visitas en el orden previsto/flujo, etc. para definir la amplitud o el alcance del contexto. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=es#filter-containers) |
 | [!UICONTROL El nombre del contenedor de persona es...] | [!UICONTROL Persona] (valor predeterminado). El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Puede cambiar el nombre de este contenedor a &quot;Usuario&quot; o a cualquier otro término que prefiera. |
 | [!UICONTROL El nombre del contenedor de sesión es...] | [!UICONTROL Sesión] (valor predeterminado). El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiar el nombre de este contenedor a &quot;Visita&quot; o a cualquier otro término que prefiera. |
 | [!UICONTROL El nombre del contenedor de eventos es...] | [!UICONTROL Evento] (valor predeterminado). El contenedor [!UICONTROL Evento] define qué eventos de página desea incluir o excluir de un filtro. |
@@ -71,7 +71,7 @@ Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensió
 | [!UICONTROL Nombre del campo] | Nombre del campo de esquema. |
 | [!UICONTROL Tipo de conjunto de datos] | Requerido. Campo no editable que muestra el tipo de conjunto de datos (evento, búsqueda o perfil) del que procede el componente. |
 | [!UICONTROL Conjunto de datos] | Requerido. Campo no editable que muestra el tipo de campo del que procede el componente (por ejemplo, cadena, entero, etc.). Este campo puede contener varios conjuntos de datos. |
-| [!UICONTROL Tipo de datos del esquema] | Se refiere a si el componente es una cadena, un número entero, etc. |
+| [!UICONTROL Tipo de datos del esquema] | Se refiere a si el componente es una cadena, un número entero, etc.  Aunque puede utilizar cualquier tipo de campo de esquema admitido en Platform, no todos los tipos de campos son compatibles con CJA. Puede agregar conjuntos de datos a CJA con tipos de campo de esquema que no sean cadenas o enteros, pero CJA no puede mostrar esos datos. Además, solo se permiten cadenas en conjuntos de datos de búsqueda en este momento. |
 | [!UICONTROL ID de componente] | Requerido. La [API de CJA](https://adobe.io/cja-apis/docs) utiliza este campo para hacer referencia al componente. Puede hacer clic en el icono de edición y modificar este ID de componente. Sin embargo, al cambiar este ID de componente, se rompen todos los proyectos existentes de Workspace que contienen este componente.<br>Si alguna vez crea otra vista de datos que utiliza un campo diferente para una dimensión pageTitle, puede cambiarle el nombre y hacer compatible la vista de datos cruzados de dimensión. |
 | [!UICONTROL Ruta del esquema] | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
 | [!UICONTROL Ocultar componente en creación de informes] | Predeterminado = desactivado. Permite depurar el componente fuera de la vista de datos cuando se utiliza en la creación de informes. Esto no afecta a los permisos, solo a la depuración de componentes. En otras palabras, puede ocultar el componente de los usuarios que no sean administradores en la creación de informes. Los administradores aún pueden acceder a él haciendo clic en [!UICONTROL Mostrar todos los componentes] en un proyecto de Analysis Workspace. |
@@ -95,9 +95,9 @@ La configuración de formato solo es para métricas.
 
 | Configuración | Descripción/caso de uso |
 | --- | --- |
-| [!UICONTROL Establecer atribución] | Permite especificar la configuración de atribución que desea aplicar a esta métrica de forma predeterminada cuando se utiliza. Este valor predeterminado se puede sobrescribir en una tabla improvisada o en una métrica calculada. |
+| [!UICONTROL Establecer atribución] | Permite especificar la configuración de atribución que desea aplicar a esta métrica de forma predeterminada cuando se utiliza. Este valor predeterminado se puede sobrescribir en una [!UICONTROL Tabla improvisada] o en una Métrica calculada. |
 | [!UICONTROL Modelo de atribución] | Permite especificar un modelo de atribución predeterminado: solo activo cuando se activa la configuración [!UICONTROL Usar modelo de atribución no predeterminado]. El valor predeterminado es [!UICONTROL Último toque]. Las opciones son: Último toque, Primer toque, Lineal, Participación, Mismo toque, Forma de U, Curva J, J Inversa, Deterioro de tiempo, Personalizado, Algorítmico. Algunas de estas opciones crean campos adicionales que es necesario rellenar, como Personalizado o Deterioro de tiempo. Puede crear varias métricas utilizando el mismo campo: esto significa que puede tener una métrica de ingresos [!UICONTROL Último toque] y una métrica de ingresos [!UICONTROL Primer toque], pero en función del mismo campo de ingresos del esquema. |
-| [!UICONTROL Ventana retroactiva] | Permite especificar una ventana retrospectiva predeterminada para una métrica; solo está activa cuando activa la configuración [!UICONTROL Usar modelo de atribución no predeterminado]. Las opciones son: Persona (ventana de informes), Sesión, Personalizado. Cuando se selecciona Personalizado, también se le da la opción de seleccionar cualquier número de días/semanas/meses/etc. (hasta 90 días), igual que Attribution IQ. Puede tener varias métricas utilizando el mismo campo de esquema, pero cada una con una ventana retrospectiva independiente. |
+| [!UICONTROL Ventana retroactiva] | Permite especificar una ventana retrospectiva predeterminada para una métrica; solo está activa cuando activa la configuración [!UICONTROL Usar modelo de atribución no predeterminado]. Las opciones son: [!UICONTROL Persona] (ventana de informes), [!UICONTROL Sesión], [!UICONTROL Personalizado]. Cuando [!UICONTROL Personalizado] está seleccionado, también le damos la opción de seleccionar cualquier número de días/semanas/meses/etc. (hasta 90 días), igual que [!UICONTROL Attribution IQ]. Puede tener varias métricas utilizando el mismo campo de esquema, pero cada una con una ventana retrospectiva independiente. |
 
 ### Ajuste de la configuración de los valores de inclusión/exclusión
 
