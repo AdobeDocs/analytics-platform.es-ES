@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 16533219915421ed3ff642250bb707bf5ef13ed7
 workflow-type: tm+mt
-source-wordcount: '1968'
-ht-degree: 97%
+source-wordcount: '2084'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,9 @@ Una conexión le permite integrar conjuntos de datos de [!DNL Adobe Experience P
 
 Haga clic [aquí](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en) para ver un vídeo de información general.
 
-Para crear una conexión CJA, necesita los siguientes permisos en [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
+## Permisos necesarios
+
+Para crear una conexión de Customer Journey Analytics (CJA), necesita los siguientes permisos en [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
 
 Adobe Experience Platform:
 * Modelado de datos: Esquemas de vista, Administrar esquemas
@@ -41,7 +43,7 @@ Customer Journey Analytics
 
 1. Elija un simulador para pruebas en Experience Platform que contenga los conjuntos de datos a los que desea conectarse.
 
-   Adobe Experience Platform proporciona [entornos](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) limitados que dividen una sola instancia de Platform en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como “silos de datos” que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos.  Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos del simulador de pruebas desde los que puede extraer datos.
+   Adobe Experience Platform proporciona [entornos](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) limitados que dividen una sola instancia de Platform en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como “silos de datos” que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos.  Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos del simulador de pruebas desde los que puede extraer datos.
 
    >[!IMPORTANT]
    >
@@ -50,6 +52,9 @@ Customer Journey Analytics
 1. Seleccione uno o varios conjuntos de datos a los que desee extraer [!UICONTROL Customer Journey Analytics] y haga clic en **[!UICONTROL Añadir]**.
 
    (Si tiene muchos conjuntos de datos para elegir, puede buscar los correctos mediante la barra de búsqueda **[!UICONTROL Buscar conjuntos de datos]** que se encuentra arriba de la lista de conjuntos de datos).
+
+   CJA se basa en conjuntos de datos de Experience Platform. Aunque puede utilizar cualquier tipo de campo de esquema admitido en Platform, no todos los tipos de campos son compatibles con CJA. Puede agregar conjuntos de datos a CJA con tipos de campo de esquema que no sean cadenas o números, pero CJA no puede mostrar esos datos. Además, solo se permiten cadenas en conjuntos de datos de búsqueda en este momento.
+Si busca un campo que agregar a una vista de datos después de agregar el conjunto de datos a una conexión, la etiqueta predeterminada [!UICONTROL Contiene datos] está disponible para todos los campos de los conjuntos de datos. Esta etiqueta mantiene las vistas de datos más manejables, ya que incluye solo campos de esquema que tienen datos en sus conjuntos de datos.
 
 ## Configurar el conjunto de datos
 
@@ -85,7 +90,7 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
 
 Customer Journey Analytics ahora admite la capacidad de usar el mapa de identidad para su ID de persona. El mapa de identidad es una estructura de datos de mapa que permite a alguien cargar pares de clave -> valor. Las claves son áreas de nombres de identidad y el valor es una estructura que contiene el valor de identidad. El mapa de identidad existe en cada fila o evento cargado y se completa para cada fila en consecuencia.
 
-El mapa de identidad está disponible para cualquier conjunto de datos que utilice un esquema basado en la clase [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html). Al seleccionar un conjunto de datos para incluir en una conexión CJA, tiene la opción de seleccionar un campo como ID principal o el mapa de identidad:
+El mapa de identidad está disponible para cualquier conjunto de datos que utilice un esquema basado en la clase [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es). Al seleccionar un conjunto de datos para incluir en una conexión CJA, tiene la opción de seleccionar un campo como ID principal o el mapa de identidad:
 
 ![](assets/idmap1.png)
 
@@ -118,7 +123,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
    | [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que se incluyen en esta conexión. |
    | [!UICONTROL Importe automáticamente todos los conjuntos de datos nuevos en esta conexión desde hoy.] | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a [!UICONTROL Workspace]. |
    | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y al guardar la conexión, se importarán todos los datos (históricos) existentes de [!DNL Experience Platform] de todos los conjuntos de datos de relleno de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. Consulte también [Rellenar datos históricos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) a continuación.<br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
-   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar la cantidad promedio de eventos diarios que se importarán (datos nuevos **y** datos de relleno) para todos los conjuntos de datos de la conexión. Seleccione una opción en el menú desplegable. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce la cantidad promedio de eventos diarios que va a importar la compañía, puede hacer una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) para averiguarlo.<br>Consulte Cálculo del número medio de eventos diarios a continuación. |
+   | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar la cantidad promedio de eventos diarios que se importarán (datos nuevos **y** datos de relleno) para todos los conjuntos de datos de la conexión. Seleccione una opción en el menú desplegable. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce la cantidad promedio de eventos diarios que va a importar la compañía, puede hacer una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) para averiguarlo.<br>Consulte Cálculo del número medio de eventos diarios a continuación. |
 
 1. Haga clic en **[!UICONTROL Guardar y crear vista de datos]**. Para ver la documentación, consulte [crear una vista de datos](/help/data-views/create-dataview.md).
 
