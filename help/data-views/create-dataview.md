@@ -2,9 +2,9 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: d343ad40be6ae210f17dd547062e91df0aaf7fce
+source-git-commit: 9507bdfa66775e75628426bbb6d177b9bb5a3c6a
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2974'
 ht-degree: 88%
 
 ---
@@ -71,7 +71,7 @@ Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensió
 | [!UICONTROL Nombre del campo] | Nombre del campo de esquema. |
 | [!UICONTROL Tipo de conjunto de datos] | Requerido. Campo no editable que muestra el tipo de conjunto de datos (evento, búsqueda o perfil) del que procede el componente. |
 | [!UICONTROL Conjunto de datos] | Requerido. Campo no editable que muestra el tipo de campo del que procede el componente (por ejemplo, cadena, entero, etc.). Este campo puede contener varios conjuntos de datos. |
-| [!UICONTROL Tipo de datos del esquema] | Se refiere a si el componente es una cadena, un número entero, etc.  Aunque puede utilizar cualquier tipo de campo de esquema admitido en Platform, no todos los tipos de campos son compatibles con CJA. Puede agregar conjuntos de datos a CJA con tipos de campo de esquema que no sean cadenas o enteros, pero CJA no puede mostrar esos datos. Además, solo se permiten cadenas en conjuntos de datos de búsqueda en este momento. |
+| [!UICONTROL Tipo de datos del esquema] | Se refiere a si el componente es una cadena, un número entero, etc.  Aunque puede utilizar cualquier tipo de campo de esquema admitido en Platform, no todos los tipos de campos son compatibles con CJA. Se admiten los siguientes tipos de datos: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String` y `Boolean`. Tenga en cuenta que solo se permiten cadenas en conjuntos de datos de búsqueda en este momento. |
 | [!UICONTROL ID de componente] | Requerido. La [API de CJA](https://adobe.io/cja-apis/docs) utiliza este campo para hacer referencia al componente. Puede hacer clic en el icono de edición y modificar este ID de componente. Sin embargo, al cambiar este ID de componente, se rompen todos los proyectos existentes de Workspace que contienen este componente.<br>Si alguna vez crea otra vista de datos que utiliza un campo diferente para una dimensión pageTitle, puede cambiarle el nombre y hacer compatible la vista de datos cruzados de dimensión. |
 | [!UICONTROL Ruta del esquema] | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
 | [!UICONTROL Ocultar componente en creación de informes] | Predeterminado = desactivado. Permite depurar el componente fuera de la vista de datos cuando se utiliza en la creación de informes. Esto no afecta a los permisos, solo a la depuración de componentes. En otras palabras, puede ocultar el componente de los usuarios que no sean administradores en la creación de informes. Los administradores aún pueden acceder a él haciendo clic en [!UICONTROL Mostrar todos los componentes] en un proyecto de Analysis Workspace. |
