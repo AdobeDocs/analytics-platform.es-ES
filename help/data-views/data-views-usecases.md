@@ -5,7 +5,7 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 source-git-commit: acf2728539562a2bb9be2adfbeb7ae6cc4f3dffd
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 42%
+ht-degree: 88%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 42%
 
 Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics.
 
-## 1. Crear una métrica a partir de un campo de esquema de cadena
+## 1. Cree una métrica a partir de un campo de esquema de cadena.
 
 Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL Pedidos] a partir de un campo de esquema [!UICONTROL pageTitle] que sea una cadena. A continuación se describen los pasos que debe seguir:
 
@@ -28,9 +28,9 @@ Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL P
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con un [!UICONTROL Periodo de retroactividad] de [!UICONTROL Sesión].
 También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y especificar un modelo de atribución diferente para él, como [!UICONTROL Primer toque] y una ventana [!UICONTROL Periodo de retroactividad] diferente, como, por ejemplo, [!UICONTROL 30 días].
 
-Otro ejemplo sería el uso del ID de visitante, una dimensión, como métrica para determinar cuántos ID de visitante tiene su empresa.
+Otro ejemplo sería el uso del ID de visitante, una dimensión, como métrica para determinar cuántos ID de visitante tiene su compañía.
 
-## 2. Utilice enteros como dimensiones
+## 2. Use enteros como dimensiones.
 
 Anteriormente, los enteros se trataban automáticamente como métricas en CJA. Ahora, los números (incluidos los eventos personalizados de Adobe Analytics) pueden tratarse como dimensiones. Vea el siguiente ejemplo:
 
@@ -42,43 +42,43 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 
    ![](assets/bucketing.png)
 
-## 3. Utilice dimensiones numéricas como &quot;métricas&quot; en diagramas de flujo
+## 3. Utilice dimensiones numéricas como “métricas” en diagramas de flujo.
 
-Puede utilizar una dimensión numérica para obtener &quot;métricas&quot; en la visualización de [!UICONTROL  flujo].
+Puede utilizar una dimensión numérica para obtener “métricas” en la visualización de [!UICONTROL flujo].
 
-1. En la pestaña Vistas de datos [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 2. En los informes de Workspace, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
 
 ![](assets/flow.png)
 
-## 4. Realizar el filtrado de subeventos
+## 4. Filtre los subeventos.
 
 Esta capacidad se aplica específicamente a los campos basados en matrices. La funcionalidad de inclusión/exclusión permite realizar filtros en el nivel de subevento, mientras que los filtros (segmentos) creados en el generador de filtros solo le proporcionan filtros en el nivel de evento. De este modo, puede realizar el filtrado de subeventos mediante la inclusión/exclusión en Vistas de datos y luego hacer referencia a esa nueva métrica/dimensión en un filtro a nivel de evento.
 
-Por ejemplo, use la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 dólares. Por lo tanto, si tiene un pedido que incluye una compra de producto de 50 dólares y una compra de producto de 25 dólares, solo eliminaríamos la compra de producto de 25 dólares, no todo el pedido.
+Por ejemplo, puede usar la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 dólares. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 dólares y una compra de productos de 25 dólares, solo quitaríamos esta última, no todo el pedido.
 
-1. En la pestaña Vistas de datos [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
 a. En [!UICONTROL Formato], seleccione [!UICONTROL Moneda].
 b. En [!UICONTROL Moneda], seleccione USD.
 c. En [!UICONTROL Incluir/Excluir valores], active la casilla situada junto a [!UICONTROL Definir valores de inclusión/exclusión].
 d. En [!UICONTROL Coincidencia], seleccione [!UICONTROL Si se cumplen todos los criterios].
-e. En [!UICONTROL Criterios], seleccione [!UICONTROL es bueno o igual que].
-f. Especifique &quot;50&quot; como valor.
+e. En [!UICONTROL Criterios], seleccione [!UICONTROL es mayor o igual que].
+f. Especifique “50” como valor.
 
-Esta nueva configuración le permite ver solo los ingresos de alto valor y filtrar cualquier valor por debajo de los 50 $.
+Esta nueva configuración le permite ver solo los ingresos de alto valor y filtrar cualquiera por debajo de 50 $.
 
-## 5. Utilice la configuración [!UICONTROL Opciones sin valor]
+## 5. Utilice la configuración [!UICONTROL Opciones sin valor].
 
-Es posible que su empresa haya dedicado tiempo a capacitar a sus usuarios para que esperen &quot;No especificado&quot; en los informes. El valor predeterminado en Vistas de datos es &quot;Sin valor&quot;. Ahora puede [cambiar el nombre de &quot;Sin valor&quot; por &quot;No especificado&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) en la interfaz de usuario de las vistas de datos.
+Es posible que su compañía haya dedicado tiempo en formar a sus usuarios para ver No especificado en los informes. El valor predeterminado en Vistas de datos es “Sin valor”. Ahora puede [cambiar el nombre de Sin valor por No especificado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-no-value-options-settings) en la IU de las vistas de datos.
 
 Otro ejemplo sería una dimensión para el registro de un programa de membresía. En este caso, puede cambiar el nombre &quot;Sin valor&quot; por &quot;Sin registro de programa de membresía&quot;.
 
-## 6. Cree varias métricas con diferentes configuraciones de [!UICONTROL Atribución]
+## 6. Cree varias métricas con diferentes configuraciones de [!UICONTROL Atribución].
 
-Con la función [!UICONTROL Duplicar] en la parte superior derecha, cree una serie de métricas de ingresos con diferentes configuraciones de atribución como [!UICONTROL Primer toque], [!UICONTROL Último toque] y [!UICONTROL Algorítmico].
+Con la función [!UICONTROL Duplicar] de la parte superior derecha, cree una serie de métricas de ingresos con diferentes configuraciones de atribución como [!UICONTROL Primer contacto], [!UICONTROL Último contacto] y [!UICONTROL Algorítmico].
 
-No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como &quot;Ingresos algorítmicos&quot;:
+No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como Ingresos algorítmicos:
 
 ![](assets/algo-revenue.png)
 
