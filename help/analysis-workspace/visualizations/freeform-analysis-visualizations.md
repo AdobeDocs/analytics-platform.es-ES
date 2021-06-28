@@ -3,16 +3,16 @@ description: Representar visualmente los datos en Analysis Workspace.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 4f12248e196759c4c4fc494770048495c703c954
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 93%
+source-wordcount: '1052'
+ht-degree: 92%
 
 ---
 
 # Resumen de las visualizaciones
 
-Workspace oferta una serie de visualizaciones que le permiten generar representaciones visuales de sus datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. La mayoría de los tipos de visualización le resultarán familiares si utiliza Adobe Analytics. Sin embargo, Analysis Workspace proporciona una configuración de visualización y múltiples tipos de visualización únicos o nuevos con funciones interactivas.
+Workspace oferta una serie de visualizaciones que le permiten generar representaciones visuales de sus datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. La mayoría de los tipos de visualización le resultarán familiares si utiliza Customer Journey Analytics. Sin embargo, Analysis Workspace proporciona una configuración de visualización y múltiples tipos de visualización únicos o nuevos con funciones interactivas.
 
 Puede acceder a las visualizaciones desde el icono superior izquierdo de Workspace, un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md) o a través del menú que aparece al hacer clic con el botón derecho en el flujo de trabajo.
 
