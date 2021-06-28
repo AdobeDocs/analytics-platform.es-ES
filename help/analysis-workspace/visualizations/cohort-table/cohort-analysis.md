@@ -2,10 +2,10 @@
 title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre el análisis de cohorte en Analysis Workspace
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 82%
+source-wordcount: '468'
+ht-degree: 72%
 
 ---
 
@@ -23,7 +23,7 @@ Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 * Obtener ideas para pruebas A/B en áreas como precios, ruta de actualización, etc.
 * Ver un informe de [!UICONTROL análisis de cohorte] dentro de un informe de análisis guiado.
 
-El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de Adobe Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
+[!UICONTROL El ] análisis de cohorte está disponible para todos los clientes Customer Journey Analytics con derechos de acceso a  [!UICONTROL Analysis Workspace].
 
 [Tutorial en vídeo de análisis de cohortes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
@@ -64,7 +64,7 @@ Mide el tiempo transcurrido antes y después de ocurrir el evento de inclusión.
 
 ### Cohorte de [!UICONTROL dimensión personalizada]
 
-Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como [!UICONTROL canal de marketing], [!UICONTROL campaña], [!UICONTROL producto], [!UICONTROL página], [!UICONTROL región] o cualquier otra dimensión de Adobe Analytics para mostrar cómo cambia la retención en función de los distintos valores que adoptan.
+Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como [!UICONTROL canal de marketing], [!UICONTROL campaña], [!UICONTROL producto], [!UICONTROL página], [!UICONTROL región] o cualquier otra dimensión en Customer Journey Analytics para mostrar cómo cambia la retención en función de los diferentes valores de estas dimensiones.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
