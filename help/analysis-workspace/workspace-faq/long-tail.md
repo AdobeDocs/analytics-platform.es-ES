@@ -2,10 +2,9 @@
 title: Elemento de dimensión de cola larga
 description: Explica el elemento de dimensión "Cola larga" y por qué aparece en los informes.
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ Si algún servidor individual que procese un subconjunto de datos encuentra más
 
 ## Diferencias entre &quot;cola larga&quot; y &quot;poco tráfico&quot;
 
-En versiones anteriores de Adobe Analytics, se utilizaba una arquitectura de procesamiento diferente. Los datos se procesaron en el momento en que se recopilaron. Los elementos de Dimension se colocaron en &quot;Poco tráfico&quot; después de que una dimensión alcanzara valores únicos de 500 000 y aplicara filtros más agresivos a valores únicos de 1M. Se restableció el recuento de valores únicos al principio de cada mes del calendario. Los datos procesados eran permanentes; no había forma de sacar los datos existentes de &quot;Poco tráfico&quot;.
+En versiones anteriores de Analytics, se utilizaba una arquitectura de procesamiento diferente. Los datos se procesaron en el momento en que se recopilaron. Los elementos de Dimension se colocaron en &quot;Poco tráfico&quot; después de que una dimensión alcanzara valores únicos de 500 000 y aplicara filtros más agresivos a valores únicos de 1M. Se restableció el recuento de valores únicos al principio de cada mes del calendario. Los datos procesados eran permanentes; no había forma de sacar los datos existentes de &quot;Poco tráfico&quot;.
 
 En CJA, los elementos de dimensión solo se ponen en &quot;Cola larga&quot; si un servidor de procesamiento individual contiene más de 500 000 valores únicos. Los datos procesados no son permanentes, lo que significa que puede reducir el elemento de dimensión &quot;Cola larga&quot; modificando el informe.
 
