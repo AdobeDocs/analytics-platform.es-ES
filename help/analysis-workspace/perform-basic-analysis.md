@@ -2,9 +2,9 @@
 title: Hacer análisis básicos en Customer Journey Analytics
 description: Describe cómo usar visualizaciones básicas para analizar datos en Customer Journey Analytics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 81%
 
 ---
@@ -23,7 +23,7 @@ A continuación, verá un ejemplo de visualizaciones básicas en Workspace. Por 
 
 * Cree un informe de tendencias de los ingresos en línea frente a los ingresos en el almacén que compare las dos fuentes de datos con el paso del tiempo.
 
-* Indique el tamaño de la audiencia según las fuentes de datos, como los datos de impresiones de publicidad, los datos de Adobe Analytics, los datos de correo electrónico, los datos de PDV, los datos del centro de llamadas y los datos de encuestas.
+* Indique el tamaño de la audiencia según las fuentes de datos, como los datos de impresiones de publicidad, los datos del Customer Journey Analytics, los datos de correo electrónico, los datos del TPV, los datos del centro de llamadas y los datos de las encuestas.
 
 ![](assets/cja-basic-analysis.png)
 
