@@ -3,10 +3,10 @@ description: Uso compartido de proyectos y funciones de proyectos en Workspace
 keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 96%
+source-wordcount: '1128'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Puede agregar destinatarios a una de las tres funciones del proyecto. Las funcio
 |---|---|
 | Se puede editar | Los destinatarios pueden **[!UICONTROL Guardar]** cambios en un proyecto y en una funcionalidad como copropietarios. Esta función resulta útil si desea administrar un proyecto conjuntamente con otros compañeros. Esto incluye editar, eliminar y modificar listas de destinatario para un proyecto compartido. <br>Nota: Actualmente, Analysis Workspace no admite la colaboración en tiempo real, por lo que se recomienda que solo un usuario edite un proyecto a la vez. Si los proyectos se guardan al mismo tiempo, se conservará la última versión. |
 | Se puede duplicar | Los Destinatarios pueden usar la opción **[!UICONTROL Guardar como]** y acceder al carril izquierdo. Las interacciones del proyecto no están limitadas en esta función. Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que el proyecto se modifique. |
-| Se puede ver | Los destinatarios no pueden Guardar como y no tienen acceso al panel izquierdo. Las interacciones del proyecto también están limitadas. Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro.<br>Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analysis-workspace/curate-share/view-only-projects.md). |
+| Se puede ver | Los destinatarios no pueden Guardar como y no tienen acceso al panel izquierdo. Las interacciones del proyecto también están limitadas. Esta función es útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, Analysis Workspace o Customer Journey Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro.<br>Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analysis-workspace/curate-share/view-only-projects.md). |
 
 >[!IMPORTANT]
 > Los destinatarios del proyecto agregados antes del 18 de junio de 2020 se han migrado a una función de proyecto. Los usuarios administradores migraron a la función **[!UICONTROL Puede editar]** y los usuarios no administradores se migraron a la función **[!UICONTROL Puede duplicar]**. Estas funciones proporcionan la misma experiencia de proyecto que antes. Además, todos los grupos (incluido “Todos”) se migraron a la función **[!UICONTROL Puede duplicar]**.
@@ -62,7 +62,7 @@ También puede hacer clic en **[!UICONTROL Depurar y compartir]** para aplicar l
 
 ## Compartir en grupos de destinatarios {#Groups}
 
-Todos los usuarios pueden compartir proyectos con grupos, que son una recopilación de destinatarios. En Adobe Analytics, los grupos se definen mediante perfiles de producto en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Todos los usuarios pueden compartir proyectos con grupos, que son una recopilación de destinatarios. En el Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [Adobe Experience Cloud admin console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 * Los administradores pueden compartir con cualquier grupo, incluido “Todos”.
 * Los no administradores pueden compartir con los grupos de los que son miembros, excepto con el grupo “Todos”.
