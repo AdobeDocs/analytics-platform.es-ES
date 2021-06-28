@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 title: Información general de Analysis Workspace
 description: Información general sobre las capacidades de Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '461'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,9 @@ Si solo tiene unos minutos, consulte esta breve descripción general para ver qu
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Iniciar sesión en Adobe Analytics {#login}
+## Customer Journey Analytics de inicio de sesión {#login}
 
-Para empezar a usar Analysis Workspace, inicie sesión en Adobe Analytics en [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Aterrizará en la página de inicio de la lista del proyecto de Workspace si no se ha seleccionado anteriormente un proyecto específico.
+Para empezar a usar Analysis Workspace, inicie sesión en el Customer Journey Analytics en [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Aterrizará en la página de inicio de la lista del proyecto de Workspace si no se ha seleccionado anteriormente un proyecto específico.
 
 ![](assets/login-analytics.png)
 
@@ -36,7 +36,7 @@ Una vez que haya iniciado sesión, la primera parada debe ser el Tutorial de for
 
 ## Creación de un nuevo proyecto {#new-project}
 
-Una vez completado el tutorial, estará listo para empezar a crear el primer proyecto. El **nuevo modal de proyecto** le ofrece diferentes opciones para iniciar el análisis. Puede elegir el inicio de un proyecto en blanco o de un [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) en blanco, en función de si desea compartir el análisis desde el navegador o desde la aplicación móvil de paneles de Adobe Analytics.
+Una vez completado el tutorial, estará listo para empezar a crear el primer proyecto. El **nuevo modal de proyecto** le ofrece diferentes opciones para iniciar el análisis. Puede elegir comenzar desde un proyecto en blanco o [informe de valoración móvil en blanco](/help/mobile-app/curator.md), en función de si desea compartir el análisis desde el explorador o la aplicación móvil de paneles de Customer Journey Analytics.
 
 ![](assets/create-new-project.png)
 
