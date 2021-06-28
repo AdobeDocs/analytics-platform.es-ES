@@ -2,10 +2,10 @@
 title: Información general sobre las métricas calculadas
 description: Obtenga más información sobre
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 98%
+source-wordcount: '481'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ A continuación se muestra una comparación de las competencias de las métricas
 |--- |--- |
 | Creador de métricas calculadas | <ul><li>Cree métricas calculadas avanzadas con modelos de asignación avanzados.</li><li>Añadir filtros en línea a fórmulas métricas.</li><li>Comparar filtros en el mismo informe. Por ejemplo, comparar los visitantes locales con los visitantes internacionales.</li><li>Utilizar funciones estadísticas.</li><li> Proporcionar descripciones de métricas detalladas (mostrar qué hace, dónde utilizarla y para qué NO utilizarla).</li><li>Copiar definiciones en métricas nuevas.</li><li>Proporcionar una vista previa de métricas en línea.</li><li>Establecer la polaridad de una métrica, lo cual indica si es bueno o malo que un evento personalizado predeterminado (métrica) vaya al alza.</li><li>Etiquetar métricas.</li></ul> |
 | Administrador de métricas calculadas | <ul><li>Compartir métricas con otros.</li><li>Aprobar y ajustar métricas.</li><li>Organizar (etiquetar) sus métricas para que los demás puedan encontrarlas.</li><li>Eliminar métricas.</li><li>Cambiar el nombre de métricas.</li></ul> |
-| API para métricas calculadas | Parte del conjunto de API de Adobe Analytics 2.0. |
+| API para métricas calculadas | Parte del conjunto de API de CJA. |
 
 ## Plantillas de métricas calculadas en CJA
 
