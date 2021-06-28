@@ -2,10 +2,10 @@
 title: Atribución algorítmica
 description: Detalles sobre el modelo de atribución algorítmica.
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 34a1e7cea518e39ee665470dc3e1087d728b654d
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 78%
+source-wordcount: '290'
+ht-degree: 84%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 78%
 >[!NOTE]
 >
 >Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
-
->[!NOTE]
->
->**[!UICONTROL Actualmente, la]** atribución algorítmica está en prueba limitada. Consulte [Versiones de características de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html) para obtener más información.
 
 El [modelo de atribución](models.md) algorítmica en Analysis Workspace difiere de otros modelos en que utiliza técnicas estadísticas para asignar crédito entre los elementos de dimensión del informe o la tabla improvisada. Al igual que todos los demás modelos de atribución en Analysis Workspace, se puede utilizar en cualquier dimensión o métrica y admite filtros y desgloses ilimitados y distribuye el 100 % de las conversiones a las dimensiones de la tabla (también conocida como atribución &quot;fraccional&quot;).
 
