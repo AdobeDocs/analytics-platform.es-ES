@@ -1,0 +1,132 @@
+---
+title: Administrar conexiones
+description: Describe cómo administrar conexiones a conjuntos de datos de Experience Platform en Customer Journey Analytics (CJA).
+mini-toc-levels: 3
+source-git-commit: fb0b35173d7a2b0daa17c34272b2b2b271095f4a
+workflow-type: tm+mt
+source-wordcount: '1445'
+ht-degree: 8%
+
+---
+
+# Administrar conexiones
+
+Una vez que los usuarios administradores han [creado una o más conexiones](/help/connections/create-connection.md), pueden administrarlas en el Administrador de [!UICONTROL Conexiones]. La última actualización de la experiencia de conexión agrega dos funciones importantes en la página Detalles de conexión, que se describen más adelante en esta página:
+
+* Permite comprobar el estado **de los conjuntos de datos de la conexión y del proceso de ingesta**. Esta comprobación de estado le permite saber cuándo están disponibles los datos para poder entrar en Analysis Workspace e iniciar el análisis.
+
+* Permite **identificar cualquier discrepancia en los datos** debido a una configuración incorrecta. ¿Le faltan filas? En caso afirmativo, ¿qué filas faltan y por qué? ¿Configuró incorrectamente las conexiones y causó la falta de datos en CJA?
+
+>[!NOTE]
+> Esta funcionalidad estará disponible para el público general el 26 de julio de 2021.
+
+## Administrador de conexiones {#connections-manager}
+
+El Administrador de conexiones le permite:
+
+* Vea todas las conexiones de un vistazo, incluido el propietario, el simulador de pruebas y cuándo se crearon y modificaron.
+* Ver todos los conjuntos de datos de una conexión.
+* Compruebe el estado de una conexión.
+* Eliminar una conexión.
+* Cambiar el nombre de una conexión.
+* Crear una vista de datos a partir de una conexión.
+
+![Administrar conexiones](assets/conn-manager.png)
+
+| Configuración | Descripción |
+| --- | --- |
+| [!UICONTROL Nombre] | Nombre descriptivo de la conexión. Al hacer clic en el nombre del hipervínculo, llegará a la página de detalles de Conexión que se describe a continuación. |
+| Información de conexión | Haga clic en el icono de información junto al nombre de la conexión para ver la siguiente información:![Ver información de conexión](assets/conn-info.png) |
+| Edición de una conexión | Haga clic en los puntos suspensivos (...) junto al nombre de la conexión y, a continuación, haga clic en [!UICONTROL Editar].![Editar ](assets/conn-edit-delete.png) conexiónPara obtener más información, consulte &quot;Editar conexión&quot; a continuación. |
+| Eliminar una conexión | Haga clic en los puntos suspensivos (...) junto al nombre de la conexión y, a continuación, haga clic en [!UICONTROL Eliminar]. Más información bajo el encabezado &quot;Eliminar conexiones&quot; a continuación. |
+| Crear vista de datos | Haga clic en los puntos suspensivos (...) junto al nombre de la conexión y, a continuación, haga clic en [!UICONTROL Crear vista de datos]. Esta acción crea una nueva vista de datos basada en esta conexión. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
+| [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que forman parte de la conexión. Puede hacer clic en el hipervínculo para ver todos los conjuntos de datos de la conexión. Al hacer clic en un conjunto de datos, se abre ese conjunto de datos en Adobe Experience Platform, en una pestaña nueva. |
+| [!UICONTROL Sandbox] | El [simulador de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) desde el que esta conexión obtiene sus conjuntos de datos. Este simulador para pruebas se seleccionó la primera vez que se creó la conexión. No se puede cambiar. |
+| [!UICONTROL Propietario] | La persona que creó la conexión. |
+| [!UICONTROL Importar conjuntos de datos] | Le permite activar o desactivar lo que antes se llamaba &quot;flujo de datos&quot;. |
+| [!UICONTROL Fecha de creación] | La fecha en la que se creó la conexión por primera vez. |
+| [!UICONTROL Última modificación] | Fecha en la que se actualizó la conexión por última vez. |
+
+### Eliminación de conexiones {#connections-delete}
+
+Solo los administradores tienen permiso para eliminar una conexión. Esta acción no aparece para los usuarios que no son administradores.
+
+1. Haga clic en los puntos suspensivos (...) junto al nombre de la conexión.
+1. Haga clic en [!UICONTROL Eliminar].
+
+Cuando elimine una conexión en [!UICONTROL Customer Journey Analytics], un mensaje de error indicará que:
+
+* Ya no funciona ninguna vista de datos creada en función de la conexión eliminada.
+* Del mismo modo, los proyectos de Workspace que dependan de vistas de datos en la conexión eliminada dejarán de funcionar.
+
+[Obtenga ](/help/getting-started/cja-deletion.md) más información sobre las implicaciones de eliminación.
+
+### Buscar una conexión o un conjunto de datos
+
+Puede buscar conexiones utilizando la barra de búsqueda situada en la parte superior, debajo del título [!UICONTROL Connections].
+
+### Ordenar conexiones
+
+Puede ordenar las conexiones haciendo clic en el encabezado de cada columna y ordenando hacia arriba o hacia abajo.
+
+## Página Detalles de conexión {#connection-detail}
+
+La nueva página Detalles de Conexiones le proporciona una vista muy detallada del estado de una conexión.
+
+Le permite:
+
+* Compruebe el estado de los conjuntos de datos de la conexión y del proceso de ingesta.
+* Identifique los problemas de configuración que conducen a registros omitidos o eliminados.
+* Ver cuándo están disponibles los datos para los informes.
+
+Aquí se explican las utilidades y la configuración:
+
+![Ver detalles de conexión](assets/conn-details.png)
+
+| Widget/configuración | Descripción |
+| --- | --- |
+| Selector de conjunto de datos | Permite seleccionar uno o todos los conjuntos de datos de la conexión. No puede seleccionar conjuntos de datos múltiples. El valor predeterminado es [!UICONTROL Todos los conjuntos de datos]. |
+| Calendario/intervalos de fechas | El intervalo de fechas indica cuándo se agregaron datos a la conexión. Se incluyen todos los ajustes preestablecidos de calendario estándar. Puede personalizar el intervalo de fechas, pero en la lista desplegable no aparecerá ningún intervalo de fechas personalizado. |
+| [!UICONTROL Registra la utilidad ] disponible | Representa el número total de filas disponibles para informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. Cambia si selecciona un conjunto de datos del selector de conjuntos de datos o si selecciona un conjunto de datos en la tabla. (Tenga en cuenta que hay una latencia de 1 a 2 horas para que los datos aparezcan en los informes, una vez añadidos). |
+|  Widget de métricas | Resume los registros agregados, omitidos o eliminados, y el número de lotes agregados, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. |
+| [!UICONTROL Registra la utilidad ] agregada | Indica cuántas filas se agregaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada 10 minutos. |
+| [!UICONTROL Registra el ] widget de skippedap | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: Faltan marcas de hora, ID de persona que falta, etc. Se actualiza cada 10 minutos. |
+| [!UICONTROL Registra ] widget eliminado | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en el Experience Platform, por ejemplo. Se actualiza cada 10 minutos. |
+| Cuadro de búsqueda de conjunto de datos | Puede buscar por nombre de conjunto de datos o [!UICONTROL ID de conjunto de datos]. |
+| [!UICONTROL Conjuntos de datos] | Muestra los conjuntos de datos que forman parte de la conexión. Puede hacer clic en el hipervínculo para ver todos los conjuntos de datos de la conexión. |
+| [!UICONTROL ID de conjunto de datos] | Adobe Experience Platform genera automáticamente este ID. |
+| [!UICONTROL Lotes] | Indica cuántos lotes de datos se han agregado a este conjunto de datos. |
+| [!UICONTROL Última incorporación] | Muestra la marca de tiempo del último lote agregado a este conjunto de datos. |
+| [!UICONTROL Tipo de conjunto de datos] | El tipo de conjunto de datos para este conjunto de datos puede ser [!UICONTROL Event], [!UICONTROL Lookup] o [!UICONTROL Profile]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
+| Esquema | El esquema de Adobe Experience Platform en el que se basan los conjuntos de datos de esta conexión. |
+| **Carril derecho en el nivel de conexión** |  |
+| [!UICONTROL Actualizar] | Actualice la conexión para permitir que se reflejen los registros agregados recientemente. |
+| [!UICONTROL Eliminar] | Elimine esta conexión. |
+| [!UICONTROL Crear vista de datos] | Cree una nueva vista de datos basada en esta conexión. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
+| [!UICONTROL Nombre de la conexión] | Muestra el nombre descriptivo de la conexión. |
+| [!UICONTROL Descripción de la conexión] | Muestra una descripción más detallada que describe el propósito de esta conexión. |
+| [!UICONTROL ID de la persona] | Muestra una identidad que se definió en el esquema del conjunto de datos en el Experience Platform. Este es el [!UICONTROL ID de persona] que eligió durante la creación de la conexión. Si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos realmente, debe utilizar el mismo [!UICONTROL ID de persona]. |
+| [!UICONTROL Sandbox] | El [simulador de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) desde el que esta conexión obtiene sus conjuntos de datos. Este simulador para pruebas se seleccionó la primera vez que se creó la conexión. No se puede cambiar. |
+| [!UICONTROL ID. de conexión] | Este ID se genera en el sistema en Adobe Experience Platform. |
+| [!UICONTROL ID de organización IMS] | El [identificador de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en) asociado a la empresa Experience Cloud aprovisionada. Anteriormente denominada &quot;empresa de inicio de sesión&quot;. |
+| [!UICONTROL Vistas de datos mediante conexión] | Enumera todas las vistas de datos que utilizan esta conexión. |
+| [!UICONTROL Importar datos nuevos] | Indica si se deben o no agregar nuevos lotes de datos a los datos históricos (relleno). |
+| **Carril derecho en el nivel del conjunto de datos** |  |
+| [!UICONTROL Descripción del conjunto de datos] | Describe los parámetros de cada conjunto de datos en esta conexión. |
+| [!UICONTROL Registros disponibles] | Representa el número total de filas ingeridas para este conjunto de datos, para el período de tiempo particular seleccionado a través del calendario. Una vez añadidos, no hay latencia en cuanto a la obtención de datos para que aparezcan en los informes. (La excepción es que cuando crea una conexión completamente nueva, habrá [latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#3.-getting-data-into-customer-recorrido-analytics). |
+| [!UICONTROL Registros añadidos] | Cantidad de filas agregadas en el período de tiempo seleccionado. |
+| [!UICONTROL Registros omitidos] | Cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado. |
+| [!UICONTROL Registrar errores omitidos] | La razón por la que se omitieron los registros se indica aquí. Pueden incluir marcas de hora que faltan, ID de persona que falta, etc. |
+| [!UICONTROL Lotes ingeridos] | Cuántos lotes de datos se agregaron a este conjunto de datos. |
+| [!UICONTROL Última incorporación] | Cuando se agregó el último lote. |
+| [!UICONTROL Tipo de conjunto de datos] | [!UICONTROL Evento], [!UICONTROL Búsqueda] o [!UICONTROL Perfil]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
+| [!UICONTROL Esquema] | El esquema de Adobe Experience Platform en el que se basa este conjunto de datos. |
+| [!UICONTROL ID de conjunto de datos] | Este ID se genera en el sistema en Adobe Experience Platform. |
+| [!UICONTROL Datos de relleno] | Los datos de relleno (históricos) se rastrean en 3 estados: [!UICONTROL En cola], [!UICONTROL En curso] (con porcentaje de progreso indicado) y [!UICONTROL Completa]. |
+
+### Editar conexión
+
+Permite a los administradores editar la conexión. Seleccione una conexión y haga clic en [!UICONTROL Editar conexión] para llegar a este cuadro de diálogo. Aquí puede hacer lo siguiente:
+
+* Iniciar y detener la importación de nuevos datos. Este proceso se conocía anteriormente como &quot;flujo de datos&quot;.
+* Cambiar el nombre de una conexión.
