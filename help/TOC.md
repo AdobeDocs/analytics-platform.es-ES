@@ -10,11 +10,10 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Análisis entre canales, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-translation-type: ht
-source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+source-git-commit: 03be6a7a62d0ce43cd89657ecf828aa6e8fa03ee
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 99%
 
 ---
 
@@ -27,20 +26,21 @@ ht-degree: 100%
    + [Introducción](getting-started/cja-getting-started.md)
    + [Preguntas frecuentes](getting-started/cja-faq.md)
    + [Compatibilidad con funciones de Customer Journey Analytics](getting-started/cja-aa.md)
+   + [Implicaciones de eliminación](getting-started/cja-deletion.md)
    + [Glosario de CJA](getting-started/cja-glossary.md)
 + Conexiones {#cja-connections}
    + [Crear una conexión](connections/create-connection.md)
-   + [Administrar conexiones](connections/manage-connection.md)
+   + [Administrar conexiones](connections/manage-connections.md)
    + [Cálculo del tamaño de la conexión](connections/estimate-connection-size.md)
    + [Conjuntos de datos de evento combinados](connections/combined-dataset.md)
    + Análisis entre canales {#cca}
-      + [Información general de Análisis entre canales](connections/cca/overview.md)
+      + [Información general sobre Análisis entre canales](connections/cca/overview.md)
       + [Cómo funcionan las reproducciones](connections/cca/replay.md)
       + [Preguntas frecuentes sobre Análisis entre canales](connections/cca/faq.md)
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](data-views/data-views.md)
    + [Creación de una vista de datos](data-views/create-dataview.md)
-   + [Casos de uso de las vistas de datos](data-views/data-views-usecases.md)
+   + [Casos de uso de vistas de datos](data-views/data-views-usecases.md)
    + [Persistencia](data-views/persistence.md)
 + Proyectos de Workspace {#cja-workspace}
    + [Información general de Analysis Workspace](analysis-workspace/home.md)
@@ -56,7 +56,7 @@ ht-degree: 100%
       + [Resumen de las visualizaciones](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Administración de fuentes de datos](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabla de forma libre {#freeform-table}
-         + [Tabla de forma libre](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Tabla improvisada](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Configuración de columna y fila {#column-row-settings}
             + [Configuración de columna](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
@@ -97,7 +97,7 @@ ht-degree: 100%
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
    + Curar y compartir proyectos {#curate-share}
       + [Menú Compartir](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Depurar proyectos de ](analysis-workspace/curate-share/curate.md)
+      + [Depurar proyectos de](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](analysis-workspace/curate-share/share-projects.md)
       + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de solo de vista](analysis-workspace/curate-share/view-only-projects.md)
@@ -152,10 +152,10 @@ ht-degree: 100%
    + [Casos de uso de Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Usar matrices de objetos](use-cases/object-arrays.md)
    + [(B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consulta](use-cases/b2b.md)
-   + [Importación de datos de sitios web y de centros de llamadas](use-cases/call-center.md)
+   + [Importación de datos web y de centros de llamadas](use-cases/call-center.md)
    + [Casos de uso sobre ingesta de datos](use-cases/data-ingestion.md)
    + [Uso de dimensiones del canal de marketing](use-cases/marketing-channels.md)
-   + [Adición de búsquedas globales a sus conjuntos de datos](use-cases/global-lookups.md)
+   + [Adición de búsquedas globales a los conjuntos de datos](use-cases/global-lookups.md)
    + [Ingesta de datos de Google Analytics en Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [Informe sobre datos de Google Analytics en CJA](use-cases/ga-to-cja-reporting.md)
 + Paneles de Analytics {#cja-dashboards}
