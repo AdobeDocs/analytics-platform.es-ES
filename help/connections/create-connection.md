@@ -2,10 +2,10 @@
 title: Crear una conexión
 description: Describe cómo crear una conexión para un conjunto de datos de Platform en Customer Journey Analytics.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: 16533219915421ed3ff642250bb707bf5ef13ed7
+source-git-commit: 4933b0393ddb985ad0da7a572e67efb3e77381b8
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 92%
+source-wordcount: '1980'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ Haga clic [aquí](https://experienceleague.adobe.com/docs/customer-journey-analy
 
 ## Permisos necesarios
 
-Para crear una conexión de Customer Journey Analytics (CJA), necesita los siguientes permisos en [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
+Para crear una conexión CJA, necesita los siguientes permisos en [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
 
 Adobe Experience Platform:
 * Modelado de datos: Esquemas de vista, Administrar esquemas
@@ -33,7 +33,9 @@ Customer Journey Analytics
 
 ## Seleccionar entorno limitado y conjuntos de datos
 
-1. Acceda a [https://analytics.adobe.com](https://analytics.adobe.com).
+1. Vaya a [https://analytics.adobe.com](https://analytics.adobe.com) e inicie sesión con su Adobe ID.
+
+1. Haga clic en el icono [!DNL Customer Journey Analytics].
 
 1. Haga clic en la pestaña **[!UICONTROL Conexiones]**.
 
@@ -53,10 +55,7 @@ Customer Journey Analytics
 
    (Si tiene muchos conjuntos de datos para elegir, puede buscar los correctos mediante la barra de búsqueda **[!UICONTROL Buscar conjuntos de datos]** que se encuentra arriba de la lista de conjuntos de datos).
 
-   CJA se basa en conjuntos de datos de Experience Platform. Aunque puede utilizar cualquier tipo de campo de esquema admitido en Platform, no todos los tipos de campos son compatibles con CJA. Puede agregar conjuntos de datos a CJA con tipos de campo de esquema que no sean cadenas o números, pero CJA no puede mostrar esos datos. Además, solo se permiten cadenas en conjuntos de datos de búsqueda en este momento.
-Si busca un campo que agregar a una vista de datos después de agregar el conjunto de datos a una conexión, la etiqueta predeterminada [!UICONTROL Contiene datos] está disponible para todos los campos de los conjuntos de datos. Esta etiqueta mantiene las vistas de datos más manejables, ya que incluye solo campos de esquema que tienen datos en sus conjuntos de datos.
-
-## Configurar el conjunto de datos
+## 2. Configurar el conjunto de datos
 
 En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
 
