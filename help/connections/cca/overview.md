@@ -3,9 +3,9 @@ title: Información general sobre Análisis entre canales
 description: Vuelva a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1124'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Análisis entre canales es una función innovadora y sólida, pero tiene limitac
 
 Una vez que su organización cumpla todos los requisitos previos y comprenda sus limitaciones, puede seguir estos pasos para comenzar a usarlo en CJA.
 
-1. Importe los datos deseados en Adobe Experience Platform. Consulte [Creación de un esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) e [Introducción de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) en la documentación de Adobe Experience Platform.
+1. Importe los datos deseados en Adobe Experience Platform. Consulte [Creación de un esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es) e [Introducción de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es) en la documentación de Adobe Experience Platform.
 1. Póngase en contacto con el administrador de cuentas de Adobe, el cual incluye lo siguiente:
    * Una solicitud para habilitar Análisis entre canales
    * El ID del conjunto de datos del conjunto de datos para el cual desea volver a generar la clave
