@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 source-git-commit: 4933b0393ddb985ad0da7a572e67efb3e77381b8
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 96%
 
 Una conexión le permite integrar conjuntos de datos de [!DNL Adobe Experience Platform] en [!UICONTROL Workspace]. Para informar sobre conjuntos de datos de [!DNL Experience Platform], primero debe establecer una conexión entre conjuntos de datos en [!DNL Experience Platform] y [!UICONTROL Workspace].
 
-Haga clic [aquí](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en) para ver un vídeo de información general.
+Haga clic [aquí](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=es) para ver un vídeo de información general.
 
 ## Permisos necesarios
 
-Para crear una conexión CJA, necesita los siguientes permisos en [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
+Para crear una conexión CJA, necesita los siguientes permisos en [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
 
 Adobe Experience Platform:
 * Modelado de datos: Esquemas de vista, Administrar esquemas
@@ -75,7 +75,7 @@ En el lado derecho, ahora puede configurar el conjunto de datos que ha agregado.
 
 1. **[!UICONTROL Marca de hora]**: solo para conjuntos de datos de evento, esta configuración se establece automáticamente en el campo de marca de tiempo predeterminado de esquemas basados en eventos en [!UICONTROL Experience Platform].
 
-1. **[!UICONTROL Esquema]**: este es el [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) en función del cual se creó el conjunto de datos en Adobe Experience Platform.
+1. **[!UICONTROL Esquema]**: este es el [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es) en función del cual se creó el conjunto de datos en Adobe Experience Platform.
 
 1. **[!UICONTROL ID de persona]**: seleccione un ID de persona en la lista desplegable de identidades disponibles. Estas identidades se definieron en el esquema del conjunto de datos en Experience Platform. Consulte a continuación para obtener información sobre cómo usar el mapa de identidad como ID de persona.
 
@@ -98,7 +98,7 @@ Si selecciona Mapa de identidad, obtendrá dos opciones de configuración adicio
 | Opción | Descripción |
 |---|---|
 | [!UICONTROL Usar área de nombres de ID primario] | Esto indica a CJA, por fila, que busque la identidad en el mapa de identidad que está marcado con un atributo primary=true y que la utilice como ID de persona para esa fila. Esto significa que esta es la clave principal que se utilizará en Experience Platform para la partición. También es el candidato principal para el uso como ID de visitante de CJA (según la configuración del conjunto de datos en una conexión de CJA). |
-| [!UICONTROL Área de nombres] | (Esta opción solo está disponible si no utiliza el área de nombres de ID principal). Las áreas de nombres de identidad son un componente de [Identity Service de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) que sirve de indicadores del contexto al que se relaciona una identidad. Si especifica un área de nombres, CJA buscará en el mapa de identidad de cada fila esta clave de área de nombres y utilizará la identidad en el área de nombres como ID de persona para esa fila. Tenga en cuenta que, como CJA no puede hacer una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están realmente presentes, en la lista desplegable se enumeran todas las áreas de nombres posibles. Debe saber qué áreas de nombres se especifican en los datos. Esto no se puede detectar automáticamente. |
+| [!UICONTROL Área de nombres] | (Esta opción solo está disponible si no utiliza el área de nombres de ID principal). Las áreas de nombres de identidad son un componente de [Identity Service de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es) que sirve de indicadores del contexto al que se relaciona una identidad. Si especifica un área de nombres, CJA buscará en el mapa de identidad de cada fila esta clave de área de nombres y utilizará la identidad en el área de nombres como ID de persona para esa fila. Tenga en cuenta que, como CJA no puede hacer una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están realmente presentes, en la lista desplegable se enumeran todas las áreas de nombres posibles. Debe saber qué áreas de nombres se especifican en los datos. Esto no se puede detectar automáticamente. |
 
 ### Casos extremos del mapa de identidad
 
@@ -121,7 +121,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
    | [!UICONTROL Descripción] | Añada más detalles para distinguir esta conexión de otras. |
    | [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que se incluyen en esta conexión. |
    | [!UICONTROL Importe automáticamente todos los conjuntos de datos nuevos en esta conexión desde hoy.] | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a [!UICONTROL Workspace]. |
-   | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y al guardar la conexión, se importarán todos los datos (históricos) existentes de [!DNL Experience Platform] de todos los conjuntos de datos de relleno de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. Consulte también [Rellenar datos históricos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) a continuación.<br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
+   | [!UICONTROL Importar los datos existentes] | Al seleccionar esta opción y al guardar la conexión, se importarán todos los datos (históricos) existentes de [!DNL Experience Platform] de todos los conjuntos de datos de relleno de esta conexión. En el futuro, todos los datos históricos existentes para cualquier conjunto de datos nuevo agregado a esta conexión guardada también se importarán de manera automática. Consulte también [Rellenar datos históricos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#backfill-historical-data) a continuación.<br>**Tenga en cuenta que, una vez guardada esta conexión, la configuración no se puede modificar.** |
    | [!UICONTROL Cantidad promedio de eventos diarios] | Debe especificar la cantidad promedio de eventos diarios que se importarán (datos nuevos **y** datos de relleno) para todos los conjuntos de datos de la conexión. Seleccione una opción en el menú desplegable. Esto es para que Adobe pueda asignar espacio suficiente para estos datos.<br>Si no conoce la cantidad promedio de eventos diarios que va a importar la compañía, puede hacer una consulta SQL simple en [Adobe Experience Platform Consulta Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) para averiguarlo.<br>Consulte Cálculo del número medio de eventos diarios a continuación. |
 
 1. Haga clic en **[!UICONTROL Guardar y crear vista de datos]**. Para ver la documentación, consulte [crear una vista de datos](/help/data-views/create-dataview.md).
