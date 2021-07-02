@@ -6,7 +6,7 @@ exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Los usuarios que reciban un vínculo deberán iniciar sesión en Customer Journey Analytics antes de poder acceder al proyecto.
 
@@ -31,7 +31,7 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 * Desde cualquier encabezado del panel, haga clic con el botón derecho en **[!UICONTROL Obtener vínculo del panel]**
 * Desde cualquier tabla o encabezado de visualización, haga clic con el botón derecho en **[!UICONTROL Obtener vínculo de visualización]**
 
-[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
+[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
 
 ![](assets/get-viz-link.png)
 
@@ -39,6 +39,6 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 
 Una sugerencia para aprovechar las distintas opciones de vínculos es incluir siempre una tabla de contenido en la parte superior del proyecto de Workspace. En la tabla de contenido, puede vincular otros proyectos relevantes, paneles específicos y visualizaciones específicas. Esto ayuda al destinatario del proyecto a navegar más fácilmente.
 
-[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) sobre cómo crear una tabla de contenido mediante vínculos y el editor de texto enriquecido de Workspace.
+[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=es) sobre cómo crear una tabla de contenido mediante vínculos y el editor de texto enriquecido de Workspace.
 
 ![](assets/toc.png)
