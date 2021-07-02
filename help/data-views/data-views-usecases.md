@@ -3,9 +3,9 @@ title: Casos de uso de vistas de datos en Customer Journey Analytics
 description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 source-git-commit: acf2728539562a2bb9be2adfbeb7ae6cc4f3dffd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -53,11 +53,11 @@ Puede utilizar una dimensión numérica para obtener “métricas” en la visua
 
 ## 4. Filtre los subeventos.
 
-Esta capacidad se aplica específicamente a los campos basados en matrices. La funcionalidad de inclusión/exclusión permite realizar filtros en el nivel de subevento, mientras que los filtros (segmentos) creados en el generador de filtros solo le proporcionan filtros en el nivel de evento. De este modo, puede realizar el filtrado de subeventos mediante la inclusión/exclusión en Vistas de datos y luego hacer referencia a esa nueva métrica/dimensión en un filtro a nivel de evento.
+Esta función se aplica específicamente a los campos basados en matrices. La funcionalidad de inclusión/exclusión permite realizar filtros en el nivel de subevento, mientras que los filtros (segmentos) creados en el generador de filtros solo le proporcionan filtros en el nivel de evento. De este modo, puede realizar el filtrado de subeventos mediante la inclusión/exclusión en Vistas de datos y luego hacer referencia a esa nueva métrica/dimensión en un filtro a nivel de evento.
 
 Por ejemplo, puede usar la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 dólares. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 dólares y una compra de productos de 25 dólares, solo quitaríamos esta última, no todo el pedido.
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
 a. En [!UICONTROL Formato], seleccione [!UICONTROL Moneda].
 b. En [!UICONTROL Moneda], seleccione USD.
@@ -72,7 +72,7 @@ Esta nueva configuración le permite ver solo los ingresos de alto valor y filtr
 
 Es posible que su compañía haya dedicado tiempo en formar a sus usuarios para ver No especificado en los informes. El valor predeterminado en Vistas de datos es “Sin valor”. Ahora puede [cambiar el nombre de Sin valor por No especificado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-no-value-options-settings) en la IU de las vistas de datos.
 
-Otro ejemplo sería una dimensión para el registro de un programa de membresía. En este caso, puede cambiar el nombre &quot;Sin valor&quot; por &quot;Sin registro de programa de membresía&quot;.
+Otro ejemplo sería una dimensión para el registro de un programa de membresía. En este caso, puede cambiar el nombre “Sin valor” por “Sin registro de programa de membresía”.
 
 ## 6. Cree varias métricas con diferentes configuraciones de [!UICONTROL Atribución].
 
