@@ -3,7 +3,7 @@ description: Lista de mensajes de error en Adobe Analysis Workspace y componente
 title: Mensajes de error comunes en Analysis Workspace
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
