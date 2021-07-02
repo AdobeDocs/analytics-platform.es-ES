@@ -5,7 +5,7 @@ exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -28,9 +28,9 @@ Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es#cja-connections"> Análisis en canales múltiples (vinculación de ID en Customer Journey Analytics) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#admin-access-permissions"> Requisitos de permisos de usuario actualizados </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=es#cja-usecases"> Usar matrices de objetos </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html"> Añadir datos de nivel de cuenta como un conjunto de datos de consulta </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html"> Introducción a Customer Journey Analytics </a> </li> 
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html"> Preguntas frecuentes</a> </li> 
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=es"> Añadir datos de nivel de cuenta como un conjunto de datos de consulta </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=es"> Introducción a Customer Journey Analytics </a> </li> 
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es"> Preguntas frecuentes</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>Notas de la versión</b> </p> 
     <ul> 
      <li>Consulte las últimas <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones. </li> 
