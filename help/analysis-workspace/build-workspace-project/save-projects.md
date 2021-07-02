@@ -1,11 +1,11 @@
 ---
-description: Obtenga información acerca de las distintas opciones de guardado, como Guardar automáticamente, Guardar como, Guardar como plantilla y Abrir versiones anteriores.
+description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como, guardar como plantilla y abrir versiones anteriores.
 title: Guardar proyectos
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -21,8 +21,8 @@ Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL
 
 | Acción | Descripción |
 |---|---| 
-| **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre, una descripción (opcional) y que añada etiquetas (opcional). |
-| **[!UICONTROL Guardar con notas]** | Antes de guardar el proyecto, añada notas acerca de los cambios realizados. Las notas se almacenan con la versión del proyecto y están disponibles para todos los editores en [!UICONTROL Proyecto] > [!UICONTROL Abrir versión anterior]. |
+| **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre y una descripción (opcional), y que agregue etiquetas (opcional). |
+| **[!UICONTROL Guardar con notas]** | Antes de guardar el proyecto, agregue notas sobre los cambios realizados en el proyecto. Las notas se almacenan con la versión del proyecto y están disponibles para todos los editores en [!UICONTROL Proyecto] > [!UICONTROL Abrir versión anterior]. |
 | **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
 | **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una [plantilla personalizada](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es) que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
 
@@ -48,7 +48,7 @@ El explorador advierte que se perderán los cambios no guardados. Puede elegir e
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
 
-Para los proyectos **existentes**, al volver a Workspace, el usuario verá un modo de **Recuperación del proyecto**. Si selecciona Sí, se restaurará el proyecto a partir de la copia local guardada automáticamente. “No” elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
+Para los **proyectos** existentes, al volver a Workspace, el usuario verá un modo de **recuperación del proyecto**. Si selecciona Sí, se restaurará el proyecto a partir de la copia local guardada automáticamente. “No” elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
 
 ![](assets/project-recovery.png)
 
@@ -67,6 +67,6 @@ Para abrir una versión anterior de un proyecto:
    ![](assets/previous-versions.png)
 
 1. Revise la lista de versiones anteriores disponibles.
-   Se muestra la [!UICONTROL Marca de hora] y el [!UICONTROL Editor], además de [!UICONTROL Notas] si se añadieron cuando el [!UICONTROL Editor] se guardó. Las versiones sin notas se almacenan durante 90 días; las que tienen notas, durante 1 año.
+   Se muestran la [!UICONTROL Marca de tiempo] y el [!UICONTROL Editor], así como las [!UICONTROL Notas] si es que se añadieron cuando el [!UICONTROL Editor] guardó. Las versiones sin notas se almacenan durante 90 días; las versiones con notas se almacenan durante 1 año.
 1. Seleccione una versión anterior y haga clic en **[!UICONTROL Cargar]**.
-A continuación, la versión anterior se carga con una notificación. La versión anterior no se convierte en la versión guardada actual del proyecto hasta que no haga clic en **[!UICONTROL Guardar]**. Si se aleja de la versión cargada, al volver, verá la última versión guardada del proyecto.
+A continuación, la versión anterior se carga con una notificación. La versión anterior no se convierte en la versión guardada actual del proyecto hasta que no haga clic en **[!UICONTROL Guardar]**. Si abandona la versión cargada, al volver, verá la última versión guardada del proyecto.
