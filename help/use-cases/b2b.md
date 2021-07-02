@@ -3,9 +3,9 @@ title: (B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consu
 description: Aprenda a agregar datos basados en cuentas como un conjunto de datos de consulta a CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Primero debe crear un esquema de consulta en Adobe Experience Platform y luego c
 
 ## 1. Crear esquema de consulta (Experience Platform)
 
-Creación de su propio esquema para la [consulta](/help/getting-started/cja-glossary.md) garantiza que el conjunto de datos utilizado estará disponible en CJA con la configuración correcta (tipo de registro). La práctica recomendada es: [crear una clase de esquema personalizada](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) llamado “Consulta”, vacío, que se puede reutilizar para todas las tablas de consulta.
+Creación de su propio esquema para la [consulta](/help/getting-started/cja-glossary.md) garantiza que el conjunto de datos utilizado estará disponible en CJA con la configuración correcta (tipo de registro). La práctica recomendada es: [crear una clase de esquema personalizada](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#create-new-class) llamado “Consulta”, vacío, que se puede reutilizar para todas las tablas de consulta.
 
 ![](assets/create-new-class.png)
 
@@ -53,9 +53,9 @@ Por ejemplo, annualRevenue o totalEmployees se definen como Entero en el siguien
 
 ## 3. Ingresar datos en Experience Platform
 
-Las instrucciones sobre cómo [asignar un archivo CSV a un esquema XDM](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) deberían ayudarle si está usando un archivo CSV.
+Las instrucciones sobre cómo [asignar un archivo CSV a un esquema XDM](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=es) deberían ayudarle si está usando un archivo CSV.
 
-[Otros métodos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) también están disponibles.
+[Otros métodos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es) también están disponibles.
 
 La incorporación de los datos y el establecimiento de la consulta suelen llevar entre 2 y 4 horas, según el tamaño de la tabla de consulta.
 
