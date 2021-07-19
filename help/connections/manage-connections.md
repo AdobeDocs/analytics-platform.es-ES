@@ -2,7 +2,7 @@
 title: Administrar conexiones
 description: Describe cómo administrar conexiones a conjuntos de datos de Experience Platform en Customer Journey Analytics (CJA).
 mini-toc-levels: 3
-source-git-commit: ec76734f270666d13db28fd60ffdf62c04e378bf
+source-git-commit: 1daac64168e656ed1145dac4c34d3df52d155e35
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 99%
@@ -18,7 +18,7 @@ Una vez que los usuarios administradores hayan [creado una o varias conexiones](
 * Permite **identificar cualquier discrepancia en los datos** debido a una configuración incorrecta. ¿Le faltan filas? En caso afirmativo, ¿qué filas faltan y por qué? ¿Configuró incorrectamente las conexiones y esto causó la falta de datos en CJA?
 
 >[!NOTE]
-> Esta funcionalidad estará disponible para el público general el 19 de agosto de 2021.
+> Esta funcionalidad estará disponible para el público general el 10 de agosto de 2021.
 
 ## Administrador de conexiones {#connections-manager}
 
@@ -41,7 +41,7 @@ El Administrador de conexiones le permite:
 | Eliminar una conexión | Haga clic en los puntos suspensivos (...) junto al nombre de la conexión y, a continuación, haga clic en [!UICONTROL Eliminar]. Más información bajo el encabezado “Eliminar conexiones” a continuación. |
 | Crear vista de datos | Haga clic en los puntos suspensivos (...) junto al nombre de la conexión y, a continuación, haga clic en [!UICONTROL Crear vista de datos]. Esta acción crea una nueva vista de datos basada en esta conexión. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=es) |
 | [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que forman parte de la conexión. Puede hacer clic en el hipervínculo para ver todos los conjuntos de datos de la conexión. Al hacer clic en un conjunto de datos, se abre ese conjunto de datos en Adobe Experience Platform, en una pestaña nueva. |
-| [!UICONTROL Sandbox] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó cuando creó la conexión. No se pudo modificar. |
+| [!UICONTROL Sandbox] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó cuando creó la conexión. No se puede modificar. |
 | [!UICONTROL Propietario] | La persona que creó la conexión. |
 | [!UICONTROL Importación de conjuntos de datos] | Le permite activar o desactivar lo que antes se llamaba “flujo de datos”. |
 | [!UICONTROL Fecha de creación] | La fecha en la que se creó la conexión. |
@@ -54,7 +54,7 @@ Solo los administradores tienen permiso para eliminar una conexión. Esta acció
 1. Haga clic en los puntos suspensivos (...) junto al nombre de la conexión.
 1. Haga clic en [!UICONTROL Eliminar].
 
-Cuando elimine una conexión en [!UICONTROL Customer Journey Analytics], un mensaje de error indicará que:
+Cuando elimine una conexión en [!UICONTROL Customer Journey Analytics], un mensaje de error indicará lo siguiente:
 
 * Ya no funciona ninguna vista de datos creada en función de la conexión eliminada.
 * Del mismo modo, los proyectos de Workspace que dependan de vistas de datos en la conexión eliminada dejarán de funcionar.
@@ -106,8 +106,8 @@ Aquí se explican los widgets y la configuración:
 | [!UICONTROL Nombre de la conexión] | Muestra el nombre descriptivo de la conexión. |
 | [!UICONTROL Descripción de la conexión] | Muestra una descripción más detallada que, de forma ideal, describe el propósito de esta conexión. |
 | [!UICONTROL ID de la persona] | Muestra una identidad que se definió en el esquema del conjunto de datos en Experience Platform. Este es el [!UICONTROL ID de persona] que eligió durante la creación de la conexión. Si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo [!UICONTROL ID de persona]. |
-| [!UICONTROL Sandbox] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó la primera vez que creó la conexión. No se pudo modificar. |
-| [!UICONTROL ID. de conexión] | Este ID se genera en el sistema en Adobe Experience Platform. |
+| [!UICONTROL Sandbox] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó la primera vez que creó la conexión. No se puede modificar. |
+| [!UICONTROL ID de conexión] | Este ID lo genera el sistema en Adobe Experience Platform. |
 | [!UICONTROL ID de organización IMS] | El [identificador de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) es el ID asociado con la compañía que ha seleccionado en Experience Cloud. Anteriormente denominada “compañía de inicio de sesión”. |
 | [!UICONTROL Vistas de datos mediante conexión] | Enumera todas las vistas de datos que utilizan esta conexión. |
 | [!UICONTROL Importar datos nuevos] | Indica si se deben o no añadir nuevos lotes de datos a los datos históricos (relleno). |
@@ -121,7 +121,7 @@ Aquí se explican los widgets y la configuración:
 | [!UICONTROL Última incorporación] | Cuando se añadió el último lote. |
 | [!UICONTROL Tipo de conjunto de datos] | [!UICONTROL Evento], [!UICONTROL Búsqueda] o [!UICONTROL Perfil]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
 | [!UICONTROL Esquema] | El esquema de Adobe Experience Platform en el que se basa este conjunto de datos. |
-| [!UICONTROL ID de conjunto de datos] | Este ID se genera en el sistema en Adobe Experience Platform. |
+| [!UICONTROL ID de conjunto de datos] | Este ID lo genera el sistema en Adobe Experience Platform. |
 | [!UICONTROL Datos de relleno] | Los datos de relleno (históricos) se rastrean en tres estados: [!UICONTROL En cola], [!UICONTROL En curso] (con el porcentaje de progreso indicado) y [!UICONTROL Completado]. |
 
 ### Editar conexión
