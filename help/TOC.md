@@ -11,9 +11,9 @@ user-guide-description: Esta guía proporciona ayuda para Customer Journey Analy
 breadcrumb-title: Guía de Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 source-git-commit: 03be6a7a62d0ce43cd89657ecf828aa6e8fa03ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
