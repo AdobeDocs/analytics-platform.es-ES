@@ -5,7 +5,7 @@ mini-toc-levels: 3
 source-git-commit: 1daac64168e656ed1145dac4c34d3df52d155e35
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ El Administrador de conexiones le permite:
 | Eliminar una conexión | Haga clic en los puntos suspensivos (...) junto al nombre de la conexión y, a continuación, haga clic en [!UICONTROL Eliminar]. Más información bajo el encabezado “Eliminar conexiones” a continuación. |
 | Crear vista de datos | Haga clic en los puntos suspensivos (...) junto al nombre de la conexión y, a continuación, haga clic en [!UICONTROL Crear vista de datos]. Esta acción crea una nueva vista de datos basada en esta conexión. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=es) |
 | [!UICONTROL Conjuntos de datos] | Los conjuntos de datos que forman parte de la conexión. Puede hacer clic en el hipervínculo para ver todos los conjuntos de datos de la conexión. Al hacer clic en un conjunto de datos, se abre ese conjunto de datos en Adobe Experience Platform, en una pestaña nueva. |
-| [!UICONTROL Sandbox] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó cuando creó la conexión. No se puede modificar. |
+| [!UICONTROL Entorno de pruebas] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó cuando creó la conexión. No se puede modificar. |
 | [!UICONTROL Propietario] | La persona que creó la conexión. |
 | [!UICONTROL Importación de conjuntos de datos] | Le permite activar o desactivar lo que antes se llamaba “flujo de datos”. |
 | [!UICONTROL Fecha de creación] | La fecha en la que se creó la conexión. |
@@ -87,11 +87,11 @@ Aquí se explican los widgets y la configuración:
 | --- | --- |
 | Selector de conjunto de datos | Permite seleccionar uno o todos los conjuntos de datos de la conexión. No puede seleccionar conjuntos de datos múltiples. El valor predeterminado es [!UICONTROL Todos los conjuntos de datos]. |
 | Calendario/intervalos de fechas | El intervalo de fechas indica cuándo se añadieron datos a la conexión. Se incluyen todos los ajustes preestablecidos de calendario estándar. Puede personalizar el intervalo de fechas, pero en la lista desplegable no aparecerá ningún intervalo de fechas personalizado. |
-| [!UICONTROL Registra el widget] disponible | Representa el número total de filas disponibles para informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. Cambia si selecciona un conjunto de datos del selector de conjuntos de datos o en la tabla. (Tenga en cuenta que hay una latencia de una a dos horas para que los datos aparezcan en los informes, una vez añadidos). |
-| [!UICONTROL Widget] de métricas | Resume los registros añadidos, omitidos o eliminados, y el número de lotes agregados, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. |
-| [!UICONTROL Registra el widget] añadido | Indica cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada diez minutos. |
-| [!UICONTROL Registra el widget] omitido | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona, etc. Se actualiza cada diez minutos. |
-| [!UICONTROL Registra el widget] eliminado | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en Experience Platform, por ejemplo. Se actualiza cada diez minutos. |
+| Widget de [!UICONTROL registros disponibles] | Representa el número total de filas disponibles para informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. Cambia si selecciona un conjunto de datos del selector de conjuntos de datos o en la tabla. (Tenga en cuenta que hay una latencia de una a dos horas para que los datos aparezcan en los informes, una vez añadidos). |
+| Widget de [!UICONTROL métricas] | Resume los registros añadidos, omitidos o eliminados, y el número de lotes agregados, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. |
+| Widget de [!UICONTROL registros añadidos] | Indica cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada diez minutos. |
+| Widget de [!UICONTROL registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona, etc. Se actualiza cada diez minutos. |
+| Widget de [!UICONTROL registros eliminados] | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en Experience Platform, por ejemplo. Se actualiza cada diez minutos. |
 | Cuadro de búsqueda de conjunto de datos | Puede buscar por nombre de conjunto de datos o [!UICONTROL ID de conjunto de datos]. |
 | [!UICONTROL Conjuntos de datos] | Muestra los conjuntos de datos que forman parte de la conexión. Puede hacer clic en el hipervínculo para ver todos los conjuntos de datos de la conexión. |
 | [!UICONTROL ID de conjunto de datos] | Adobe Experience Platform genera automáticamente este ID. |
@@ -106,14 +106,14 @@ Aquí se explican los widgets y la configuración:
 | [!UICONTROL Nombre de la conexión] | Muestra el nombre descriptivo de la conexión. |
 | [!UICONTROL Descripción de la conexión] | Muestra una descripción más detallada que, de forma ideal, describe el propósito de esta conexión. |
 | [!UICONTROL ID de la persona] | Muestra una identidad que se definió en el esquema del conjunto de datos en Experience Platform. Este es el [!UICONTROL ID de persona] que eligió durante la creación de la conexión. Si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo [!UICONTROL ID de persona]. |
-| [!UICONTROL Sandbox] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó la primera vez que creó la conexión. No se puede modificar. |
+| [!UICONTROL Entorno de pruebas] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó la primera vez que creó la conexión. No se puede modificar. |
 | [!UICONTROL ID de conexión] | Este ID lo genera el sistema en Adobe Experience Platform. |
 | [!UICONTROL ID de organización IMS] | El [identificador de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) es el ID asociado con la compañía que ha seleccionado en Experience Cloud. Anteriormente denominada “compañía de inicio de sesión”. |
 | [!UICONTROL Vistas de datos mediante conexión] | Enumera todas las vistas de datos que utilizan esta conexión. |
 | [!UICONTROL Importar datos nuevos] | Indica si se deben o no añadir nuevos lotes de datos a los datos históricos (relleno). |
 | **Carril derecho en el nivel del conjunto de datos** |  |
 | [!UICONTROL Descripción del conjunto de datos] | Describe los parámetros de cada conjunto de datos en esta conexión. |
-| [!UICONTROL Registros disponibles] | Representa el número total de filas ingeridas para este conjunto de datos, para el período de tiempo particular seleccionado a través del calendario. Una vez añadidos, no hay latencia en cuanto a la aparición de datos en los informes. (La excepción es que cuando crea una conexión completamente nueva, habrá [latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#3.-getting-data-into-customer-journey-analytics). |
+| [!UICONTROL Registros disponibles] | Representa el número total de filas ingeridas para este conjunto de datos, para el período de tiempo particular seleccionado a través del calendario. Una vez añadidos, no hay latencia en cuanto a la aparición de datos en los informes. (La excepción es que cuando crea una conexión completamente nueva, habrá [latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#3.-introducción-de-datos-en-customer-journey-analytics). |
 | [!UICONTROL Registros añadidos] | Cantidad de filas añadidas en el período de tiempo seleccionado. |
 | [!UICONTROL Registros omitidos] | Cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado. |
 | [!UICONTROL Registro de errores omitidos] | La razón por la que se omitieron los registros se indica aquí. Pueden incluir marcas de hora que faltan, ID de persona que falta, etc. |
