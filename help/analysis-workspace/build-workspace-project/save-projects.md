@@ -5,7 +5,7 @@ feature: Conceptos básicos de Workspace
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 734f1fe702398034090e25c251b5ff193db8381e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
