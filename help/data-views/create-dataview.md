@@ -2,10 +2,10 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 9507bdfa66775e75628426bbb6d177b9bb5a3c6a
-workflow-type: ht
-source-wordcount: '2974'
-ht-degree: 100%
+source-git-commit: f2e13469faf540d997fcac4687aa51533b543c84
+workflow-type: tm+mt
+source-wordcount: '3024'
+ht-degree: 98%
 
 ---
 
@@ -125,6 +125,7 @@ Permite especificar cómo debe comportarse una métrica en los informes.
 | --- | --- |
 | [!UICONTROL Contar valores] | Solo para métricas booleanas, esta configuración le permite especificar si desea [!UICONTROL Contar verdadero], [!UICONTROL Contar falso] o [!UICONTROL Contar verdadero o falso] como valor de métrica. El valor predeterminado es [!UICONTROL Contar verdadero]. Esto le proporciona el valor real de una métrica, como “50” si había un valor de pedido de 50. |
 | [!UICONTROL Contar instancias] | Permite especificar si un campo numérico o de tipo de fecha utilizado como métrica debe contar las veces que se estableció en lugar del valor en sí.<br> Si desea añadir las instancias de un campo numérico y desea simplemente añadir el número de veces que un campo se *estableció* en lugar del valor real incluido en él.<br>Esto resulta útil para crear una métrica de [!UICONTROL pedidos] a partir de un campo de [!UICONTROL ingresos], por ejemplo. Si se establecieron ingresos, entonces queremos contar 1 pedido único en lugar de la cantidad de ingresos numérica. |
+| [!UICONTROL Lower case] | *Nuevo* : para dimensiones de tipo &quot;cadena&quot;. Esta configuración le permite controlar si el Customer Journey Analytics trata los valores de dimensión como si distinguen entre mayúsculas y minúsculas. Permite la deduplicación de filas que tienen el mismo valor, pero con un caso diferente. Esta captura de pantalla muestra un ejemplo de una dimensión que distingue entre mayúsculas y minúsculas en Workspace:<br>![dimensión que distingue entre mayúsculas y minúsculas](assets/case-sens-workspace.png) |
 
 ### Ajuste de la configuración de las [!UICONTROL Opciones sin valor]
 
