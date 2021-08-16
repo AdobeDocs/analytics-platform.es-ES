@@ -2,9 +2,9 @@
 title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
 workflow-type: tm+mt
-source-wordcount: '2947'
+source-wordcount: '2944'
 ht-degree: 99%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
 
@@ -48,7 +48,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Número aproximado de elementos distintos (dimensión)
 
-Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos. Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
+Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos.  Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
 
 ```
 Approximate Count Distinct (dimension)
@@ -72,7 +72,7 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ## Se excedió la cantidad de valores exclusivos
 
-Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://marketing.adobe.com/resources/help/es_ES/reference/metrics_uniques_high_numbers.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
+Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
 ## Comparación de funciones de recuento
 
