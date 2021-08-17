@@ -2,10 +2,10 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: bf3744ce700adf29e63066c3f15a72f0b20d01b1
+source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
 workflow-type: tm+mt
-source-wordcount: '3054'
-ht-degree: 94%
+source-wordcount: '3069'
+ht-degree: 93%
 
 ---
 
@@ -125,7 +125,7 @@ Permite especificar cómo debe comportarse una métrica en los informes.
 | --- | --- |
 | [!UICONTROL Contar valores] | Solo para métricas booleanas, esta configuración le permite especificar si desea [!UICONTROL Contar verdadero], [!UICONTROL Contar falso] o [!UICONTROL Contar verdadero o falso] como valor de métrica. El valor predeterminado es [!UICONTROL Contar verdadero]. Esto le proporciona el valor real de una métrica, como “50” si había un valor de pedido de 50. |
 | [!UICONTROL Contar instancias] | Permite especificar si un campo numérico o de tipo de fecha utilizado como métrica debe contar las veces que se estableció en lugar del valor en sí.<br> Si desea añadir las instancias de un campo numérico y desea simplemente añadir el número de veces que un campo se *estableció* en lugar del valor real incluido en él.<br>Esto resulta útil para crear una métrica de [!UICONTROL pedidos] a partir de un campo de [!UICONTROL ingresos], por ejemplo. Si se establecieron ingresos, entonces queremos contar 1 pedido único en lugar de la cantidad de ingresos numérica. |
-| [!UICONTROL Lower case] | *Nuevo* : para dimensiones de tipo &quot;cadena&quot;. Esta configuración le permite controlar si el Customer Journey Analytics trata los valores de dimensión como si distinguen entre mayúsculas y minúsculas. Permite la deduplicación de filas que tienen el mismo valor, pero con un caso diferente. Si marca **[!UICONTROL Lower case]**, todas las instancias de una dimensión con el mismo valor se registrarán como minúsculas. Esta captura de pantalla muestra qué sucede si **no** comprueba [!UICONTROL Lower case]. Observe cómo &quot;liverpool&quot;, &quot;Liverpool&quot; y &quot;LIVERPOOL&quot; resultan en tres elementos de línea independientes en los informes:<br>![dimensión que distingue entre mayúsculas y minúsculas](assets/case-sens-workspace.png) |
+| [!UICONTROL Lower case] | *Nuevo* : para dimensiones de tipo &quot;cadena&quot;. Esta configuración le permite controlar si el Customer Journey Analytics trata los valores de dimensión como si distinguen entre mayúsculas y minúsculas. Permite la deduplicación de filas que tienen el mismo valor, pero con un caso diferente. Si marca **[!UICONTROL Lower case]**, todas las instancias de una dimensión con el mismo valor se registrarán como minúsculas. Esta captura de pantalla muestra qué ocurre si marca **not** la casilla [!UICONTROL Lower case] frente a si marca **do**. En la tabla de la izquierda, observe cómo &quot;liverpool&quot;, &quot;Liverpool&quot; y &quot;LIVERPOOL&quot; resultan en tres partidas separadas en los informes. En la tabla de la derecha, se han anulado los duplicados de esos mismos valores y se encuentran en un elemento de línea:<br>![dimensión que distingue entre mayúsculas y minúsculas](assets/case-sens-workspace.png) |
 
 ### Ajuste de la configuración de las [!UICONTROL Opciones sin valor]
 
@@ -151,7 +151,7 @@ Para obtener más información, consulte el tema sobre [Persistencia](/help/data
 | Configuración | Descripción/caso de uso |
 | --- | --- |
 | [!UICONTROL Establecer persistencia] | Tecla de alternancia |
-| [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: [!UICONTROL Más reciente], [!UICONTROL Original], [!UICONTROL Instancia], [!UICONTROL Todos]. Si desea que un valor persista (similar a eVars en la versión tradicional de Analytics), aquí es donde lo configuraría. La única diferencia clave es que la persistencia máxima que puede establecer es de 90 días. Además, [!UICONTROL No caducar] no es una opción. |
+| [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: [!UICONTROL Más reciente], [!UICONTROL Original], [!UICONTROL Instancia], [!UICONTROL Todos]. Si desea que un valor persista, aquí es donde lo configuraría. La persistencia máxima que puede establecer es de 90 días. Además, [!UICONTROL No caducar] no es una opción. |
 | [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: [!UICONTROL Sesión] (predeterminada), [!UICONTROL Persona], [!UICONTROL Tiempo], [!UICONTROL Métrica]. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). [!UICONTROL Métricas] le permite especificar cualquiera de las métricas definidas como la caducidad de esta dimensión (por ejemplo, una métrica de [!UICONTROL compra]).<br>**Nota**: No se puede establecer una caducidad personalizada para una dimensión al seleccionar una asignación de [!UICONTROL Todos]. |
 
 ### Ajuste de la configuración de agrupamiento de valores
