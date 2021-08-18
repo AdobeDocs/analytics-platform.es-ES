@@ -10,9 +10,9 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Análisis entre canales, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: f6ec268d3820a7bcbcc84521e486c26e8ea9329b
+source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -107,6 +107,7 @@ ht-degree: 98%
       + [Información general de Attribution](analysis-workspace/attribution/overview.md)
       + [Modelos de atribución y ventanas retroactivas](analysis-workspace/attribution/models.md)
       + [Atribución algorítmica](analysis-workspace/attribution/algorithmic.md)
+      + [Prácticas recomendadas de atribución](analysis-workspace/attribution/best-practices.md)
       + [Preguntas más frecuentes](analysis-workspace/attribution/faq.md)
    + Analista virtual {#virtual-analyst}
       + [Descripción general del analista virtual](analysis-workspace/virtual-analyst/overview.md)
