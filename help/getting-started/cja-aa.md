@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 source-git-commit: c23b172fd4dc5d0303723c4e8ccfeaa251257bfd
 workflow-type: tm+mt
 source-wordcount: '1188'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
-| A4T | Se proporciona compatibilidad mediante los campos del [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
+| A4T | Se proporciona compatibilidad mediante los campos del [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). |
 | Clasificaciones | Ahora se denomina Conjuntos de datos de búsqueda. Las clasificaciones utilizadas en Analytics se pueden importar a Experience Platform y a CJA mediante el Classifications Data Connector de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en AEP y estar disponibles en CJA. |
 | Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada que no sean visitas en segundo plano móviles. |
 | Atributos del cliente | Ahora denominados &quot;conjuntos de datos de perfil&quot;, no se importan automáticamente desde el Experience Cloud, pero deberán cargarse en AEP antes de que estén disponibles en CJA. |
@@ -83,7 +83,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
 | Publicación de segmentos (envío de segmentos de Workspace a Experience Cloud) | Se ha planificado lanzar una versión compatible. |
 
-## Compatibilidad aún no planificada.
+## Compatibilidad aún no planificada
 
 | Función | Notas |
 | --- | --- |
