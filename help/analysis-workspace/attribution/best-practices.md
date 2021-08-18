@@ -1,10 +1,10 @@
 ---
 title: Prácticas recomendadas de atribución
 description: ¿Cuáles son las mejores prácticas para decidir un modelo de atribución?
-source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
+source-git-commit: 0e0d77425edeceb3ede6d2d7ca81846b30179607
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 2%
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Elegir el modelo de atribución correcto para su organización depende de una se
 >[!NOTE]
 >Este análisis debe realizarse antes de elegir un modelo de atribución.
 
-Esta fase consiste inicialmente en comprender el comportamiento del cliente y definir las métricas de conversión. En función de las métricas de conversión, herramientas como [Fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) (para datos sin procesar) o Analysis Workspace le facilitan la comprensión de
+Esta fase consiste inicialmente en comprender el comportamiento del cliente y definir las métricas de conversión. En función de las métricas de conversión, las herramientas como Analysis Workspace y la extracción de fuentes de datos de varios canales (como los datos de Impresiones) pueden facilitar su comprensión de
 
 * ¿Cuántos clientes están tocando diferentes canales de marketing antes de la conversión?
 * La proporción/distribución de estos comportamientos.
@@ -53,6 +53,3 @@ Como es muy difícil validar un gran número de hipótesis y combinaciones posib
 ## Otras consideraciones
 
 * Es posible que necesite utilizar los servicios de un científico de datos en lugar de depender solo de Analysis Workspace.
-* Puede confiar en los datos sin procesar, como en las fuentes de datos de Adobe.
-* Considere utilizar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es), por ejemplo, si desea tener en cuenta los datos de Impresiones.
-
