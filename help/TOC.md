@@ -2,7 +2,7 @@
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.es-ES
 cloud: Experience Cloud
 product: adobe analytics
-sub-product: recorrido del cliente
+sub-product: customer journey
 solution: Customer Journey Analytics
 type: Documentation
 index: true
@@ -12,8 +12,8 @@ breadcrumb-title: Guía de Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 98%
+source-wordcount: '450'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 98%
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
-   + Depurar, compartir y programar proyectos {#curate-share}
+   + Depuración, uso compartido y programación de proyectos {#curate-share}
       + [Menú Compartir](analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](analysis-workspace/curate-share/share-projects.md)
