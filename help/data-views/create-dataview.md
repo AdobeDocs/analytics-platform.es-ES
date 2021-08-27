@@ -3,9 +3,9 @@ title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3069'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ Permite especificar cómo debe comportarse una métrica en los informes.
 | --- | --- |
 | [!UICONTROL Contar valores] | Solo para métricas booleanas, esta configuración le permite especificar si desea [!UICONTROL Contar verdadero], [!UICONTROL Contar falso] o [!UICONTROL Contar verdadero o falso] como valor de métrica. El valor predeterminado es [!UICONTROL Contar verdadero]. Esto le proporciona el valor real de una métrica, como “50” si había un valor de pedido de 50. |
 | [!UICONTROL Contar instancias] | Permite especificar si un campo numérico o de tipo de fecha utilizado como métrica debe contar las veces que se estableció en lugar del valor en sí.<br> Si desea añadir las instancias de un campo numérico y desea simplemente añadir el número de veces que un campo se *estableció* en lugar del valor real incluido en él.<br>Esto resulta útil para crear una métrica de [!UICONTROL pedidos] a partir de un campo de [!UICONTROL ingresos], por ejemplo. Si se establecieron ingresos, entonces queremos contar 1 pedido único en lugar de la cantidad de ingresos numérica. |
-| [!UICONTROL Lower case] | *Nuevo* : para dimensiones de tipo &quot;cadena&quot;. Esta configuración le permite controlar si el Customer Journey Analytics trata los valores de dimensión como si distinguen entre mayúsculas y minúsculas. Permite la deduplicación de filas que tienen el mismo valor, pero con un caso diferente. Si marca **[!UICONTROL Lower case]**, todas las instancias de una dimensión con el mismo valor se registrarán como minúsculas. Esta captura de pantalla muestra qué ocurre si marca **not** la casilla [!UICONTROL Lower case] frente a si marca **do**. En la tabla de la izquierda, observe cómo &quot;liverpool&quot;, &quot;Liverpool&quot; y &quot;LIVERPOOL&quot; resultan en tres partidas separadas en los informes. En la tabla de la derecha, se han anulado los duplicados de esos mismos valores y se encuentran en un elemento de línea:<br>![dimensión que distingue entre mayúsculas y minúsculas](assets/case-sens-workspace.png) |
+| [!UICONTROL Minúsculas] | *Nuevo*: para dimensiones de tipo cadena. Esta configuración le permite controlar si Customer Journey Analytics trata los valores de dimensión con distinción de mayúsculas y minúsculas. Permite la deduplicación de filas que tienen el mismo valor, pero con mayúsculas o minúsculas diferentes. Si marca **[!UICONTROL Minúsculas]**, todas las instancias de una dimensión con el mismo valor se registrarán como minúsculas. Esta captura de pantalla muestra qué ocurre si **no** marca la casilla [!UICONTROL Minúsculas] frente a si **lo hace**. En la tabla de la izquierda, observe cómo “liverpool”, “Liverpool” y “LIVERPOOL” se representan como tres elementos de línea independientes en los informes. En la tabla de la derecha, se han anulado los duplicados de esos mismos valores y se encuentran en un elemento de línea:<br>![dimensión que distingue entre mayúsculas y minúsculas](assets/case-sens-workspace.png) |
 
 ### Ajuste de la configuración de las [!UICONTROL Opciones sin valor]
 
@@ -140,7 +140,7 @@ Tenga en cuenta también que, independientemente de lo que especifique en este c
 | [!UICONTROL Si se muestra, solicite Ningún valor...] | Aquí es donde puede cambiar el nombre de **[!UICONTROL Ningún valor]** por otro. |
 | [!UICONTROL No mostrar Ningún valor de forma predeterminada] | No muestra este valor en la creación de informes. |
 | [!UICONTROL Mostrar Ningún valor de forma predeterminada] | Muestra este valor en la creación de informes. |
-| [!UICONTROL Tratar Ningún valor como valor] | Esta configuración reemplaza los valores en blanco en los datos con el texto especificado en [!UICONTROL Si se muestra, llame a No value ...]. Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Ningún valor]** por Escritorio. Tenga en cuenta que cuando cambia este campo a un valor personalizado, el valor personalizado se trata como un valor de cadena legítimo. Por lo tanto, si introduce el valor &quot;Rojo&quot; en este campo, cualquier instancia de la cadena &quot;Rojo&quot; que aparezca en los propios datos se desplaza por el mismo elemento de línea que haya especificado. |
+| [!UICONTROL Tratar Ningún valor como valor] | Esta configuración reemplazará los valores en blanco de los datos con el texto especificado en [!UICONTROL Si se muestra, llame a No value...]. Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Ningún valor]** por Escritorio. Tenga en cuenta que cuando cambia este campo a un valor personalizado, el valor personalizado se trata como un valor de cadena legítimo. Por lo tanto, si introduce el valor “Rojo” en este campo, cualquier instancia de la cadena “Rojo” que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado. |
 
 ### Ajuste de la configuración de la persistencia
 
