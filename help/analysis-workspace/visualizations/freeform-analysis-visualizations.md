@@ -3,9 +3,9 @@ description: Representar visualmente los datos en Analysis Workspace.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: fa0033202650f17acd275f1050565285c1464f53
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1043'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ Workspace oferta una serie de visualizaciones que le permiten generar representa
 
 Puede acceder a las visualizaciones desde el icono superior izquierdo de Workspace, un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md) o a través del menú que aparece al hacer clic con el botón derecho en el flujo de trabajo.
 
-![](assets/viz-rail.png)
+![Carril de visualización](assets/viz-rail.png)
 
 Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
@@ -30,7 +30,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Abandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
 | [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
 | [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabla improvisada no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
-| [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a visitantes, visitas o visitas individuales en bloques en función de un volumen de métrica. |
+| [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a visitantes, visitas o visitas individuales en contenedores en función de un volumen de métrica. |
 | [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
 | [Líneas](/help/analysis-workspace/visualizations/line.md) | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
 | [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
@@ -44,7 +44,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
 Cada visualización tiene su propia configuración que puede administrar. Para acceder a [!UICONTROL Configuración de visualización], haga clic en el icono de engranaje [!UICONTROL Configuración de visualización].
 
-![](assets/settings.png)
+![Configuración](assets/settings.png)
 
 | Configuración | Descripción |
 | --- | --- |
@@ -70,18 +70,16 @@ Para editar una etiqueta de leyenda:
 1. Haga clic con el botón derecho en una de las etiquetas de leyenda.
 1. Haga clic en **[!UICONTROL Editar etiqueta]**.
 
-   ![](assets/edit-label.png)
+   ![Editar etiqueta](assets/edit-label.png)
 
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
-
-Aquí tiene un [vínculo que dirige a un vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sobre este tema.
 
 ## Haga clic con el botón derecho en el menú {#right-click}
 
 Hay funcionalidad adicional disponible para una visualización haciendo clic con el botón derecho en el encabezado de visualización. La configuración variará según la visualización. Algunos de los ajustes disponibles son:
 
-![](assets/right-click.png)
+![Clic con el botón derecho](assets/right-click.png)
 
 | Configuración | Descripción |
 | --- | --- |
@@ -98,4 +96,4 @@ Hay funcionalidad adicional disponible para una visualización haciendo clic con
 
 Si no está seguro de qué visualización escoger, haga clic en el icono **[!UICONTROL Crear visualización]** en cualquier fila de la tabla (disponible al pasar el ratón por encima). Esta es la forma más rápida de agregar una visualización. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene 1 fila seleccionada, se creará un gráfico de líneas de tendencias. Si tiene 3 filas de filtro seleccionadas, se creará un diagrama de Venn.
 
-![](assets/quick-viz.png)
+![Visualización rápida](assets/quick-viz.png)
