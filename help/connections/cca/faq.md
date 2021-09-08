@@ -1,14 +1,13 @@
 ---
 title: Preguntas frecuentes sobre Análisis entre canales
 description: Preguntas frecuentes sobre Análisis entre canales
-translation-type: ht
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
+source-git-commit: 2be442915587780ce41f33b13e27b8cf44e239a6
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 46%
 
 ---
-
 
 # Preguntas frecuentes
 
@@ -46,3 +45,21 @@ La vinculación en tiempo real está disponible aproximadamente 1 semana despué
 ## ¿Cómo gestiona Análisis entre canales las solicitudes del RGPD y CCPA?
 
 Adobe gestiona las solicitudes del RGPD y CCPA de conformidad con las leyes locales e internacionales. Adobe ofrece el [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es-ES) para enviar solicitudes de acceso a datos y de eliminación. Las solicitudes se aplican tanto a los conjuntos de datos originales como a aquellos cuyas claves se volvieron a generar.
+
+## ¿Qué sucede si el campo ID persistente de uno o varios eventos está vacío?
+
+Si el campo `Persistent ID` está en blanco en un evento de un conjunto de datos que se está vinculando con la vinculación basada en el campo, CCA rellena el `Stitched ID` para ese evento de una de las dos maneras siguientes:
+* Si el campo `Transient ID` no está en blanco, CCA utiliza el valor en `Transient ID` como `Stitched ID`.
+* Si el campo `Transient ID` está en blanco, CCA también deja el `Stitched ID` en blanco. En este caso, `Persistent ID`, `Transient ID` y `Stitched ID` estarán en blanco en el evento. Eventos como este se eliminan de CJA en cualquier conexión CJA usando el conjunto de datos que se está vinculando donde `Stitched ID` se eligió como `Person ID`.
+
+## ¿En qué se parecen las métricas de los conjuntos de datos enlazados de CJA y las de los conjuntos de datos no enlazados de CJA y las de la Adobe Analytics tradicional?
+
+Ciertas métricas en CJA son similares a las métricas en la versión tradicional de Analytics, pero otras son bastante diferentes, según lo que esté comparando. La siguiente tabla compara varias métricas comunes:
+
+| **Datos vinculados de CJA** | **Datos no vinculados de CJA** | **Adobe Analytics tradicional** | **Analytics Ultimate con CDA** |
+| ----- | ----- | ----- | ----- |
+| **People**  = Recuento de  `Person ID`s diferentes donde  `Stitched ID` se elige como  `Person ID`. **** Las personas pueden ser superiores o inferiores a los  **visitantes únicos** en la Adobe Analytics tradicional, según el resultado del proceso de vinculación. | **People**  = Recuento de  `Person ID`s diferentes según la columna seleccionada como  `Person ID`. **** Los conjuntos de datos del conector de Adobe Analytics (ADC) son similares a los  **visitantes** únicos en la Adobe Analytics tradicional si  `endUserIDs. _experience. aaid.id` se elige como  `Person ID` en CJA. | **Visitantes únicos**  = Recuento de ID de visitantes diferentes. Tenga en cuenta que **Visitantes únicos** puede no ser el mismo que el recuento de **ECID** s distintos. | Consulte [People](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=en). |
+| **Sesiones**: Se define en función de la configuración de sesionización especificada en la vista de datos de CJA. El proceso de vinculación puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: Se define en función de la configuración de sesionización especificada en la vista de datos de CJA. | **Visitas**: Consulte  [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=en). | **Visitas**: Se define en función de la configuración de sesiones especificada en el grupo de informes virtuales de  [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=en). |
+| **Events**  = recuento de filas en los datos enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. No obstante, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un `Persistent ID` en blanco. | **Eventos**  = recuento de filas en los datos no enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. Sin embargo, tenga en cuenta que si algún evento tiene un `Person ID` en blanco en los datos no enlazados en el lago de datos de AEP, estos eventos se perderán (no se incluirán) en CJA. | **Ocurrencias**: Consulte  [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). | **Ocurrencias**: Consulte  [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). |
+
+Otras métricas pueden ser similares en CJA y en Adobe Analytics tradicional. Por ejemplo, el recuento total de eventos [personalizados](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=en) de Adobe Analytics (eventos 1-100) debería estar muy cerca en la versión tradicional de Adobe Analytics y CJA (ya se haya vinculado o no). Sin embargo, tenga en cuenta que esto puede no ser siempre cierto debido a [diferencias en las capacidades](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en), como la deduplicación de eventos entre CJA y la Adobe Analytics tradicional.

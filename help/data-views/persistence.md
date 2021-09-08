@@ -2,11 +2,10 @@
 title: ¿Qué es la persistencia de la dimensión en Customer Journey Analytics?
 description: La persistencia de la dimensión es una combinación de asignación y caducidad. Juntos, determinan cómo persisten los valores de dimensión de un evento a otro, o si lo hacen.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
-translation-type: ht
-source-git-commit: ffeada325825545ae0ab43f176e5d301cd1761ee
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+source-git-commit: ab81c7fff2b7e942491fd417cfa115dd428f222d
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 84%
 
 ---
 
@@ -27,7 +26,7 @@ La asignación aplica una transformación al valor subyacente que está utilizan
 
 ### Asignación [!UICONTROL más reciente]
 
-La asignación más reciente persistirá en el valor más reciente (por marca de tiempo) presente en la dimensión. Los valores posteriores que se produzcan dentro de la misma sesión reemplazarán al valor que persiste anteriormente. Tenga en cuenta que si se ha seleccionado Tratar sin valor como valor en esta dimensión, los valores vacíos se sustituirán por Sin valor antes de aplicar la persistencia. Este es un ejemplo del antes y después de la asignación [!UICONTROL Más reciente] suponiendo que se utiliza una [!UICONTROL Sesión] para la caducidad y que todos los eventos se producen dentro de una [!UICONTROL Sesión]:
+La asignación más reciente persiste en el valor más reciente (por marca de tiempo) presente en la dimensión. Cualquier valor posterior que se produzca dentro de la misma sesión reemplazará al valor que persiste anteriormente. Tenga en cuenta que si se ha seleccionado &quot;Tratar &#39;Sin valor&#39; como valor&quot; en esta dimensión, los valores vacíos se sustituyen por &#39;Sin valor&#39; antes de aplicar la persistencia. Este es un ejemplo del antes y después de la asignación [!UICONTROL Más reciente] suponiendo que se utiliza una [!UICONTROL Sesión] para la caducidad y que todos los eventos se producen dentro de una [!UICONTROL Sesión]:
 
 | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
 | --- | --- | --- | --- | --- | --- |
@@ -36,7 +35,7 @@ La asignación más reciente persistirá en el valor más reciente (por marca de
 
 ### Asignación [!UICONTROL original]
 
-La asignación original persistirá en el valor original (por marca de tiempo) presente dentro de la dimensión durante un periodo de caducidad. Este es un ejemplo del antes y después de la asignación [!UICONTROL original]:
+La asignación original persiste en el valor original (por marca de tiempo) presente dentro de la dimensión durante un periodo de caducidad. Este es un ejemplo del antes y después de la asignación [!UICONTROL original]:
 
 | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
 | --- | --- | --- | --- | --- | --- |
