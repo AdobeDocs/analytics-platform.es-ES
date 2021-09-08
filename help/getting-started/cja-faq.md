@@ -2,7 +2,7 @@
 title: Preguntas frecuentes de Customer Journey Analytics
 description: 'Customer Journey Analytics: Preguntas frecuentes.'
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: e605682ee4df06589ec343a27941f5d6a5928d7d
+source-git-commit: af683f97284ed24c3285a5819217ad329d5a8067
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 87%
@@ -83,7 +83,7 @@ Si planea introducir datos de Adobe Analytics a través del [Conector de origen 
 | Problema | Consideración |
 | --- | --- |
 | Variables | Es posible que las variables como [!UICONTROL eVars] no se alineen entre grupos de informes. Por ejemplo, eVar1 en el grupo de informes 1 puede apuntar a **[!UICONTROL Página]**. En el grupo de informes 2, eVar1 puede señalar a **[!UICONTROL Campaña interna]**, lo que produce informes mixtos e inexactos. |
-|  Sesiones y   recuentos de personas | Se eliminan los duplicados en los grupos de informes. Como resultado, es posible que los recuentos no coincidan. |
+|  Sesiones y   recuentos de personas | Se deduplican en los grupos de informes. Como resultado, es posible que los recuentos no coincidan. |
 | Anulación de duplicación métrica | Anula la duplicación de instancias de una métrica (por ejemplo, [!UICONTROL Pedidos]) si varias filas tienen el mismo ID de transacción (por ejemplo, [!UICONTROL ID de compra]). Esto evita el recuento excesivo de las métricas clave. Como resultado, es posible que las métricas como [!UICONTROL Pedidos] no se sumen en los grupos de informes. |
 | Moneda | La conversión de moneda aún no es compatible con CJA. Si los grupos de informes que intenta combinar utilizan distintas monedas base, pueden surgir problemas. |
 | [!UICONTROL Persistencia] | [](/help/data-views/persistence.md) La persistencia se extiende a los grupos de informes, lo que afecta a los  [!UICONTROL filtros], la  [!UICONTROL atribución], etc. Los números pueden no sumarse correctamente. |
