@@ -2,14 +2,14 @@
 title: Creación de una nueva vista de datos en Customer Journey Analytics.
 description: Describe todos los ajustes necesarios para crear nuevas vistas de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
-workflow-type: ht
-source-wordcount: '3069'
-ht-degree: 100%
+source-git-commit: fb8de8c65b44fd57ca5da6d993bb02b8574f7f47
+workflow-type: tm+mt
+source-wordcount: '3076'
+ht-degree: 95%
 
 ---
 
-# Creación de una nueva vista de datos
+# Creación de una vista de datos
 
 La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándares. La creación de métricas o dimensiones le proporciona una gran flexibilidad. Anteriormente, se suponía que si tenía conjuntos de datos en Adobe Experience Platform, los campos de cadena se utilizaban como dimensiones y los campos numéricos como métricas. Para cambiar cualquiera de estos campos, tenía que editar el esquema en Platform. La IU de vistas de datos ahora permite [mayor libertad de definición de métricas y dimensiones](/help/data-views/data-views.md). Para ver más casos de uso, consulte [Casos de uso de vistas de datos](/help/data-views/data-views-usecases.md).
 
@@ -123,9 +123,13 @@ Permite especificar cómo debe comportarse una métrica en los informes.
 
 | Configuración | Descripción/caso de uso |
 | --- | --- |
-| [!UICONTROL Contar valores] | Solo para métricas booleanas, esta configuración le permite especificar si desea [!UICONTROL Contar verdadero], [!UICONTROL Contar falso] o [!UICONTROL Contar verdadero o falso] como valor de métrica. El valor predeterminado es [!UICONTROL Contar verdadero]. Esto le proporciona el valor real de una métrica, como “50” si había un valor de pedido de 50. |
+| [!UICONTROL Contar valores] | Solo para métricas booleanas, esta configuración le permite especificar si desea [!UICONTROL Contar verdadero], [!UICONTROL Contar falso] o [!UICONTROL Contar verdadero o falso] como valor de métrica. El valor predeterminado es [!UICONTROL Contar verdadero]. Esto le proporciona el valor real de una métrica, como &quot;50&quot; si había un valor de pedido de 50. |
 | [!UICONTROL Contar instancias] | Permite especificar si un campo numérico o de tipo de fecha utilizado como métrica debe contar las veces que se estableció en lugar del valor en sí.<br> Si desea añadir las instancias de un campo numérico y desea simplemente añadir el número de veces que un campo se *estableció* en lugar del valor real incluido en él.<br>Esto resulta útil para crear una métrica de [!UICONTROL pedidos] a partir de un campo de [!UICONTROL ingresos], por ejemplo. Si se establecieron ingresos, entonces queremos contar 1 pedido único en lugar de la cantidad de ingresos numérica. |
-| [!UICONTROL Minúsculas] | *Nuevo*: para dimensiones de tipo cadena. Esta configuración le permite controlar si Customer Journey Analytics trata los valores de dimensión con distinción de mayúsculas y minúsculas. Permite la deduplicación de filas que tienen el mismo valor, pero con mayúsculas o minúsculas diferentes. Si marca **[!UICONTROL Minúsculas]**, todas las instancias de una dimensión con el mismo valor se registrarán como minúsculas. Esta captura de pantalla muestra qué ocurre si **no** marca la casilla [!UICONTROL Minúsculas] frente a si **lo hace**. En la tabla de la izquierda, observe cómo “liverpool”, “Liverpool” y “LIVERPOOL” se representan como tres elementos de línea independientes en los informes. En la tabla de la derecha, se han anulado los duplicados de esos mismos valores y se encuentran en un elemento de línea:<br>![dimensión que distingue entre mayúsculas y minúsculas](assets/case-sens-workspace.png) |
+| [!UICONTROL Minúsculas] | Se utiliza con dimensiones de cadena. Anula la duplicación de filas que tienen el mismo valor pero casos diferentes. Si se habilita, todas las instancias de una dimensión con el mismo valor se informan como minúsculas. Por ejemplo, el conjunto de datos contiene los valores `"liverpool"`, `"Liverpool"` y `"LIVERPOOL"` en una dimensión de cadena. Si [!UICONTROL Lower case] está habilitado, los tres valores se combinan en `"liverpool"`. Si está desactivado, los tres valores se tratan como valores distintos:<br>![dimensión que distingue entre mayúsculas y minúsculas](assets/case-sens-workspace.png)<br> |
+
+>[!NOTE]
+>
+>Si habilita [!UICONTROL Lower case] en una dimensión de conjunto de datos de consulta, pueden existir varios valores de búsqueda para el mismo identificador. Si se produce este conflicto, CJA utiliza el primer valor de intercalación ASCII (los valores en mayúsculas preceden a los valores en minúsculas). Adobe recomienda evitar el uso de conjuntos de datos de búsqueda que contienen el mismo valor cuando [!UICONTROL Lower case] está habilitado.
 
 ### Ajuste de la configuración de las [!UICONTROL Opciones sin valor]
 
