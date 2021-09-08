@@ -2,10 +2,11 @@
 title: Administrar conexiones
 description: Describe cómo administrar conexiones a conjuntos de datos de Experience Platform en Customer Journey Analytics (CJA).
 mini-toc-levels: 3
-source-git-commit: 1daac64168e656ed1145dac4c34d3df52d155e35
+exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
+source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +19,7 @@ Una vez que los usuarios administradores hayan [creado una o varias conexiones](
 * Permite **identificar cualquier discrepancia en los datos** debido a una configuración incorrecta. ¿Le faltan filas? En caso afirmativo, ¿qué filas faltan y por qué? ¿Configuró incorrectamente las conexiones y esto causó la falta de datos en CJA?
 
 >[!NOTE]
-> Esta funcionalidad estará disponible para el público general el 10 de agosto de 2021.
+> Esta funcionalidad estará disponible para el público general el 20 de septiembre de 2021.
 
 ## Administrador de conexiones {#connections-manager}
 
