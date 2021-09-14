@@ -3,10 +3,10 @@ title: Administrar conexiones
 description: Describe cómo administrar conexiones a conjuntos de datos de Experience Platform en Customer Journey Analytics (CJA).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
+source-git-commit: d099c2559eea68aa1f44d345b103618f55fd0559
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 99%
+source-wordcount: '1587'
+ht-degree: 86%
 
 ---
 
@@ -80,6 +80,9 @@ Le permite:
 * Identifique los problemas de configuración que conducen a registros omitidos o eliminados.
 * Ver cuándo están disponibles los datos para los informes.
 
+>[!IMPORTANT]
+>Los datos introducidos antes del 13 de agosto de 2021 no se reflejan en este cuadro de diálogo [!UICONTROL Conexiones].
+
 Aquí se explican los widgets y la configuración:
 
 ![Ver detalles de conexión](assets/conn-details.png)
@@ -88,11 +91,11 @@ Aquí se explican los widgets y la configuración:
 | --- | --- |
 | Selector de conjunto de datos | Permite seleccionar uno o todos los conjuntos de datos de la conexión. No puede seleccionar conjuntos de datos múltiples. El valor predeterminado es [!UICONTROL Todos los conjuntos de datos]. |
 | Calendario/intervalos de fechas | El intervalo de fechas indica cuándo se añadieron datos a la conexión. Se incluyen todos los ajustes preestablecidos de calendario estándar. Puede personalizar el intervalo de fechas, pero en la lista desplegable no aparecerá ningún intervalo de fechas personalizado. |
-| Widget de [!UICONTROL registros disponibles] | Representa el número total de filas disponibles para informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. Cambia si selecciona un conjunto de datos del selector de conjuntos de datos o en la tabla. (Tenga en cuenta que hay una latencia de una a dos horas para que los datos aparezcan en los informes, una vez añadidos). |
-| Widget de [!UICONTROL métricas] | Resume los registros añadidos, omitidos o eliminados, y el número de lotes agregados, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. |
-| Widget de [!UICONTROL registros añadidos] | Indica cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada diez minutos. |
-| Widget de [!UICONTROL registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona, etc. Se actualiza cada diez minutos. |
-| Widget de [!UICONTROL registros eliminados] | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en Experience Platform, por ejemplo. Se actualiza cada diez minutos. |
+| [!UICONTROL Registros de datos de evento disponibles ] widget | Representa el número total de filas de conjuntos de datos de evento disponibles para informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. Cambia si selecciona un conjunto de datos del selector de conjuntos de datos o en la tabla. (Tenga en cuenta que hay una latencia de una a dos horas para que los datos aparezcan en los informes, una vez añadidos). |
+| Widget de [!UICONTROL métricas] | Resume los registros de evento agregados/omitidos/eliminados, y el número de lotes agregados, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. |
+| Widget de [!UICONTROL registros añadidos] | Indica cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada diez minutos. **Nota**: Los datos de los  **[!UICONTROL registros]** añadidos solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| Widget de [!UICONTROL registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona, etc. Se actualiza cada diez minutos. **Nota**: Los datos de los  **[!UICONTROL registros]** seleccionados solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| Widget de [!UICONTROL registros eliminados] | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en Experience Platform, por ejemplo. Se actualiza cada diez minutos. **Nota**: Los datos de los  **[!UICONTROL registros]** eliminados solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
 | Cuadro de búsqueda de conjunto de datos | Puede buscar por nombre de conjunto de datos o [!UICONTROL ID de conjunto de datos]. |
 | [!UICONTROL Conjuntos de datos] | Muestra los conjuntos de datos que forman parte de la conexión. Puede hacer clic en el hipervínculo para ver todos los conjuntos de datos de la conexión. |
 | [!UICONTROL ID de conjunto de datos] | Adobe Experience Platform genera automáticamente este ID. |
@@ -115,9 +118,10 @@ Aquí se explican los widgets y la configuración:
 | **Carril derecho en el nivel del conjunto de datos** |  |
 | [!UICONTROL Descripción del conjunto de datos] | Describe los parámetros de cada conjunto de datos en esta conexión. |
 | [!UICONTROL Registros disponibles] | Representa el número total de filas ingeridas para este conjunto de datos, para el período de tiempo particular seleccionado a través del calendario. Una vez añadidos, no hay latencia en cuanto a la aparición de datos en los informes. (La excepción es que cuando crea una conexión completamente nueva, habrá [latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#3.-introducción-de-datos-en-customer-journey-analytics). |
-| [!UICONTROL Registros añadidos] | Cantidad de filas añadidas en el período de tiempo seleccionado. |
-| [!UICONTROL Registros omitidos] | Cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado. |
-| [!UICONTROL Registro de errores omitidos] | La razón por la que se omitieron los registros se indica aquí. Pueden incluir marcas de hora que faltan, ID de persona que falta, etc. |
+| [!UICONTROL Registros añadidos] | Cantidad de filas añadidas en el período de tiempo seleccionado. **Nota**: Los datos de los  **[!UICONTROL registros]** añadidos solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Registros omitidos] | Cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado. **Nota**: Los datos de los  **[!UICONTROL registros]** seleccionados solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Registros eliminados] | Cuántos registros se eliminaron durante el período de tiempo seleccionado. **Nota**: Los datos de los  **[!UICONTROL registros]** eliminados solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Registro de errores omitidos] | La razón por la que se omitieron los registros se indica aquí. Las razones pueden incluir la falta de marcas de hora, la falta de ID de persona, etc. |
 | [!UICONTROL Lotes ingeridos] | Cuántos lotes de datos se añadieron a este conjunto de datos. |
 | [!UICONTROL Última incorporación] | Cuando se añadió el último lote. |
 | [!UICONTROL Tipo de conjunto de datos] | [!UICONTROL Evento], [!UICONTROL Búsqueda] o [!UICONTROL Perfil]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
@@ -131,3 +135,5 @@ Permite a los administradores editar la conexión. Seleccione una conexión y ha
 
 * Iniciar y detener la importación de nuevos datos. Este proceso se conocía anteriormente como “flujo de datos”.
 * Cambiar el nombre de una conexión.
+* Actualice los conjuntos de datos.
+* Elimine los conjuntos de datos de las conexiones.
