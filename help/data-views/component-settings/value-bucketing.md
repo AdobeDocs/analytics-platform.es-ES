@@ -1,7 +1,7 @@
 ---
 title: Configuración del componente de agrupamiento de valores
 description: Combinar valores numéricos en una dimensión.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 12%
@@ -9,7 +9,7 @@ ht-degree: 12%
 ---
 
 
-# Configuración del componente Agrupación de valores
+# [!UICONTROL Configuración del componente ] Agrupación de valores
 
 Al crear o editar una vista de datos, la agrupación de valores permite combinar valores numéricos basados en un rango. Solo está disponible para dimensiones que utilizan tipos de datos de esquema entero o doble.
 

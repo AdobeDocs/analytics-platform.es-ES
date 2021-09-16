@@ -2,10 +2,10 @@
 title: Creación de una vista de datos
 description: Todos los ajustes que se pueden ajustar para crear o editar una vista de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+source-git-commit: 49b4998194274eec2ab8eca231029ccb5ccf648d
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 81%
+source-wordcount: '805'
+ht-degree: 77%
 
 ---
 
@@ -56,7 +56,17 @@ Por ejemplo, desde el campo **[!UICONTROL pageTitle]** puede crear una dimensió
    >
    >Puede arrastrar carpetas de campo de esquema completas desde el carril izquierdo y se ordenan automáticamente en secciones tradicionales. Los campos de cadena terminan en la sección [!UICONTROL Dimension] y los números en la sección [!UICONTROL Métricas]. O bien, puede hacer clic en **[!UICONTROL Add all]** y añadir todos los campos de esquema.
 
-1. Una vez que seleccione el componente, verá una serie de configuraciones a la derecha. Configure el componente mediante las configuraciones que se describen a continuación.
+1. Una vez que seleccione el componente, verá una serie de configuraciones a la derecha. Configure el componente mediante los ajustes descritos en
+
+* [ Información general sobre la configuración de componentes](/help/data-views/component-settings/overview.md)
+* [ Configuración de componentes de atribución](/help/data-views/component-settings/attribution.md)
+* [ Configuración de los componentes de comportamiento](/help/data-views/component-settings/behavior.md)
+* [ Configuración de componentes de formato](/help/data-views/component-settings/format.md)
+* [[!UICONTROL Incluir|] excluir configuración de componentes](/help/data-views/component-settings/include-exclude-values.md)
+* [[!UICONTROL Configuración de componentes de ] deduplicación de métricas](/help/data-views/component-settings/metric-deduplication.md)
+* [[!UICONTROL Sin ] configuración de componentes de valor](/help/data-views/component-settings/no-value-options.md)
+* [ Configuración de componentes de persistencia](/help/data-views/component-settings/persistence.md)
+   [[!UICONTROL Configuración de componentes de ] bloque de valores](/help/data-views/component-settings/value-bucketing.md)
 
 ## Utilice la función [!UICONTROL Duplicar]
 
