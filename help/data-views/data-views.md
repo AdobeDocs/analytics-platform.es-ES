@@ -1,17 +1,17 @@
 ---
-title: ¿Qué es una vista de datos en Customer Journey Analytics?
+title: Información general de las vistas de datos
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión de CJA, como, por ejemplo, métricas, dimensiones, sesiones, etc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
-workflow-type: ht
-source-wordcount: '1070'
-ht-degree: 100%
+source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 94%
 
 ---
 
-# ¿Qué es una vista de datos?
+# Información general de las vistas de datos
 
-Las vistas de datos se encuentran sobre las [conexiones](/help/connections/create-connection.md) de Customer Journey Analytics (CJA). Las conexiones combinan uno o varios conjuntos de datos de Adobe Experience Platform y los conecta a CJA. La vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión, como, por ejemplo, métricas, dimensiones, sesiones, etc. Las vistas de datos se definen como preparación para la creación de informes de datos en Workspace.
+Una vista de datos es un contenedor específico del Customer Journey Analytics que le permite determinar cómo interpretar los datos de una [conexión](/help/connections/create-connection.md). Especifica todas las dimensiones y métricas disponibles en Analysis Workspace y de qué columnas obtienen esos datos esas dimensiones y métricas. Las vistas de datos se definen a fin de prepararse para la creación de informes en Analysis Workspace.
 
 >[!NOTE]
 >
@@ -78,4 +78,3 @@ Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparec
 
 * [Creación de vistas de datos](/help/data-views/create-dataview.md)
 * [Casos de uso de vistas de datos](/help/data-views/data-views-usecases.md)
-* Detalles sobre el funcionamiento de la [persistencia](/help/data-views/persistence.md)

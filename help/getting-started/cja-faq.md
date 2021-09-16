@@ -2,7 +2,7 @@
 title: Preguntas frecuentes de Customer Journey Analytics
 description: 'Customer Journey Analytics: Preguntas frecuentes.'
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: af683f97284ed24c3285a5819217ad329d5a8067
+source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 87%
@@ -86,5 +86,5 @@ Si planea introducir datos de Adobe Analytics a través del [Conector de origen 
 |  Sesiones y   recuentos de personas | Se deduplican en los grupos de informes. Como resultado, es posible que los recuentos no coincidan. |
 | Anulación de duplicación métrica | Anula la duplicación de instancias de una métrica (por ejemplo, [!UICONTROL Pedidos]) si varias filas tienen el mismo ID de transacción (por ejemplo, [!UICONTROL ID de compra]). Esto evita el recuento excesivo de las métricas clave. Como resultado, es posible que las métricas como [!UICONTROL Pedidos] no se sumen en los grupos de informes. |
 | Moneda | La conversión de moneda aún no es compatible con CJA. Si los grupos de informes que intenta combinar utilizan distintas monedas base, pueden surgir problemas. |
-| [!UICONTROL Persistencia] | [](/help/data-views/persistence.md) La persistencia se extiende a los grupos de informes, lo que afecta a los  [!UICONTROL filtros], la  [!UICONTROL atribución], etc. Los números pueden no sumarse correctamente. |
+| [!UICONTROL Persistencia] | [](../data-views/component-settings/persistence.md) La persistencia se extiende a los grupos de informes, lo que afecta a los  [!UICONTROL filtros], la  [!UICONTROL atribución], etc. Los números pueden no sumarse correctamente. |
 | [!UICONTROL Clasificaciones] |  Las clasificaciones no se deduplican automáticamente al combinar grupos de informes. Al combinar varios archivos de clasificaciones en un único conjunto de datos [!UICONTROL lookup], puede encontrar problemas. |
