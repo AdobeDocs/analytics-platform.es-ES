@@ -1,14 +1,13 @@
 ---
 title: Cómo funcionan las reproducciones
 description: Comprensión del concepto "reproducción" en Análisis entre canales
-translation-type: ht
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
+source-git-commit: af14d9279f1dd5019e7e6db59a27765eede078bb
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 95%
 
 ---
-
 
 # Cómo funcionan las reproducciones
 
@@ -43,7 +42,7 @@ La atribución funciona tan pronto como la variable personalizada de identificac
 
 A intervalos regulares (una vez a la semana o una vez al día, en función de la ventana retrospectiva seleccionada), AEC vuelve a calcular los datos históricos en función de los dispositivos que ahora reconoce. Si un dispositivo envía inicialmente datos sin autenticarse y luego inicia sesión, AEC vincula esos eventos sin autenticar con la persona correcta. La siguiente tabla representa los mismos datos que los que hemos visto anteriormente, pero muestra números diferentes basados en la reproducción de los datos.
 
-*Mismos datos tras la reproducción:*
+*Los mismos datos después de la reproducción:*
 
 | Marca de tiempo | ID persistente del conjunto de datos web | ID transitorio del conjunto de datos web | ID de la persona del centro de llamadas | ID de persona utilizado | Explicación de la visita | Métrica de personas (acumulativa) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -54,6 +53,10 @@ A intervalos regulares (una vez a la semana o una vez al día, en función de la
 | `5` | `3579` | `Bob` | - | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `1` (Bob) |
 | `6` | - | - | `Bob` | `Bob` | Bob hace otra llamada al servicio de atención al cliente | `1` (Bob) |
 | `7` | `246` | - | - | `Bob` | Bob vuelve a visitar el sitio en su escritorio, sin autenticarse | `1` (Bob) |
+
+>[!NOTE]
+>
+>Los datos solo se reproducen para el conjunto de datos del sitio web. El conjunto de datos del centro de llamadas permanece sin cambios, pero coincide cuando se utiliza el ID de persona correcto.
 
 ## Recapitulación
 
