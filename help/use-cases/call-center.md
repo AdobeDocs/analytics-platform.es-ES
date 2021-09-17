@@ -2,16 +2,16 @@
 title: Importación de datos web y de centros de llamadas
 description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios web y de centros de llamadas.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
-source-wordcount: '675'
-ht-degree: 100%
+source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 86%
 
 ---
 
 # Importación de datos web y de centros de llamadas
 
-Customer Journey Analytics dispone de una función robusta y muy útil que permite combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas.
+Customer Journey Analytics dispone de una función robusta y muy útil que permite combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas. Por ejemplo, puede comprender qué acciones realiza un cliente, qué contenido ve y qué términos busca antes de ponerse en contacto con el servicio de atención al cliente. A continuación, puede determinar el contenido y las herramientas de autoservicio para mejorar, de modo que los clientes puedan resolver los problemas por sí mismos sin necesidad de llamar a .
 
 ## Requisitos previos
 
@@ -53,8 +53,10 @@ CJA requiere un identificador común para poder generar un [conjunto de datos co
 
 ## Creación de una vista de datos
 
-Después de crear una conexión, puede [Crear una vista de datos](/help/data-views/create-dataview.md) para utilizarla en Analysis Workspace. <!-- page dimension last touch, session persistence -->
-<!-- create calls metric using call center reason (requires data views 2.0). any column that triggers once per call -->
+Después de crear una conexión, puede [Crear una vista de datos](/help/data-views/create-dataview.md) para utilizarla en Analysis Workspace. Los componentes útiles incluyen:
+
+* Dimensión de página con último contacto y persistencia de sesión. Puede conectar las métricas del centro de llamadas con la última página que vio un cliente antes de llamar a .
+* Una métrica de llamadas que utiliza un campo de esquema &quot;Motivo del centro de llamadas&quot; para aumentar las ocurrencias. Utilice [Deduplicación de métricas](/help/data-views/component-settings/metric-deduplication.md) para que aumente solo una vez por sesión.
 
 ## Creación de visualizaciones
 
@@ -81,14 +83,13 @@ Esta tabla de formato libre le permite ver las páginas principales que contribu
 1. Haga clic en el icono de engranaje que se encuentra cerca del encabezado de la métrica. Haga clic en **[!UICONTROL Utilizar modelo de atribución no predeterminado]**.
 1. Configure el [modelo de atribución](/help/data-views/create-dataview.md) deseado.
 
-El informe resultante muestra la métrica principal de los datos del centro de llamadas. <!-- Complement with donut visualization -->
+El informe resultante muestra la métrica principal de los datos del centro de llamadas.
 
 <!-- ### Flow between web data and call center
 
 call reason as an exit dimension, web page name for previous pages
 
 ### Histogram
-
 
 ### Fallout
 

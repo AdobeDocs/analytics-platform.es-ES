@@ -2,10 +2,10 @@
 title: Crear o editar una vista de datos
 description: Todos los ajustes que se pueden ajustar para crear o editar una vista de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 384679788d140a01a12e1c830b47099398a920b1
+source-git-commit: 36b7cc72c34e27f90af29146f7a32c525b279b9b
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -60,12 +60,9 @@ A continuación, puede crear métricas y dimensiones a partir de elementos de es
 1. Haga clic en **[!UICONTROL Add]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
 1. Haga clic en la pestaña **[!UICONTROL Components]**.
 
-![Ficha Componentes](assets/components-tab.png)
+   ![Ficha Componentes](assets/components-tab.png)
 
-Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos, y sus [!UICONTROL Campos de esquema] a continuación. Tenga en cuenta que:
-
-    * Los componentes ya incluidos son los componentes estándar necesarios (generados por el sistema).
-    * El Adobe aplica el filtro **[!UICONTROL Contiene datos]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos. Si está buscando un campo que no contenga datos, quite el filtro.
+   Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos, y sus [!UICONTROL Campos de esquema] a continuación. Tenga en cuenta que los componentes ya incluidos son componentes estándar necesarios (generados por el sistema) para todas las vistas de datos. El Adobe también aplica el filtro **[!UICONTROL Contiene datos]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos. Si desea un campo que no contenga datos, elimine este filtro.
 
 1. Arrastre un campo de esquema, como `pageTitle`, desde el carril izquierdo a la sección Métricas o Dimension .
 
