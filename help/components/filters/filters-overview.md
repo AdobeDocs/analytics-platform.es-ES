@@ -2,10 +2,10 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
+source-git-commit: ff1f28015a2c52f79fae975c16bb7cb76f6179c3
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 84%
 
 ---
 
@@ -18,6 +18,18 @@ Los Filtros se pueden basar en atributos (tipo de explorador, dispositivo, canti
 Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden usar juntos como filtros apilados.
 
 Los filtros del [Generador de filtros](/help/components/filters/create-filters.md) para construir filtros y ejecutar una prueba previa, y el [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
+
+## Tipos de filtro
+
+Puede crear diferentes tipos de filtros en Workspace y el Generador de filtros, en función de lo complejo que deban ser, si solo deben aplicarse a este proyecto, etc. Este es un resumen de los tipos de filtros:
+
+| Tipo de filtro | ¿Creado dónde? | ¿Dónde se aplica? | Uso |
+| --- | --- | --- | --- |
+| Filtro de lista de componentes | Haga clic en +, que le lleva al [Generador de filtros](/help/components/filters/create-filters.md) | Todos los proyectos de Workspace | Para filtros más complejos, filtros secuenciales |
+| Filtro rápido | [Generador de filtros rápidos](/help/components/filters/quick-filters.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Flexibilidad para agregar o editar una o más reglas |
+| Filtro de proyecto específico | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/components/filters/ad-hoc-filters.md) | Project solamente, pero puede guardar y agregar a la lista de filtros. | Para filtros de una sola regla |
+| Filtros en el análisis de abandonos | [Visualización de ](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) abandonos en Analysis Workspace | Para visualizaciones de visitas en el orden previsto individuales | Cree filtros a partir de un punto de contacto, añada filtros como punto de contacto y compare flujos de trabajo clave entre distintos filtros |
+| Filtro basado en métricas calculadas | [Generador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Para métricas calculadas individuales | Aplicar filtros dentro de su definición de métrica |
 
 ## Filtros secuenciales
 

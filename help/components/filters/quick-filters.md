@@ -3,13 +3,13 @@ description: Utilice filtros rápidos en Analysis Workspace.
 title: Filtros rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: a32b260fb4c4696ac460903f44b240cb71a62db9
+exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
+source-git-commit: 23ae3185b29b72638e5ecdb4c9cf8a0680e48d5e
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 1%
+source-wordcount: '927'
+ht-degree: 3%
 
 ---
-
 
 # Filtros rápidos
 
@@ -27,7 +27,7 @@ Para ver una comparación de lo que pueden hacer los filtros rápidos frente a l
 
 ## Requisitos previos
 
-Los usuarios necesitan el permiso [!UICONTROL Creación de filtros] en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) para poder crear filtros rápidos.
+Los usuarios necesitan el permiso [!UICONTROL Creación de segmentos] en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) para poder crear filtros rápidos.
 
 ## Crear filtros rápidos
 
@@ -37,9 +37,9 @@ En una tabla improvisada, haga clic en el icono filter+ del encabezado del panel
 
 | Configuración | Descripción |
 | --- | --- |
-| Nombre | El nombre predeterminado de un filtro es una combinación de los nombres de reglas del filtro. Puede cambiar el nombre del filtro. |
+| Nombre | El nombre predeterminado de un filtro es una combinación de los nombres de reglas del filtro. Puede cambiar el nombre del filtro por otro más descriptivo. |
 | Incluir/excluir | Puede incluir o excluir componentes en la definición del filtro, pero no ambos. |
-| Contenedor de visita/visita individual/visitante | Los filtros rápidos incluyen un [contenedor de filtros](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) que solo permite incluir una dimensión, métrica o intervalo de fechas en el filtro (o excluirlo de) él.  Visitante contiene datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de [!UICONTROL visita] le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de [!UICONTROL visita individual] le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita]. |
+| Contenedor de visita/visita individual/visitante | Los filtros rápidos incluyen un [contenedor de filtros](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=es#filter-containers) que solo permite incluir una dimensión, métrica o intervalo de fechas en el filtro (o excluirlo de) él.  Visitante contiene datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de [!UICONTROL visita] le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de [!UICONTROL visita individual] le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita]. |
 | Componentes (Dimension/métrica/intervalo de fechas) | Defina hasta 3 reglas agregando componentes, dimensiones o métricas y/o intervalos de fechas y sus valores. Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el [!UICONTROL Generador de filtros rápidos] encuentre automáticamente el componente apropiado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrastre y suelte los componentes desde el carril izquierdo.</li></ul> |
 | Operador | Utilice el menú desplegable para buscar operadores estándar y operadores [!UICONTROL Distinct Count]. [Más información](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
 | Signo más (+) | Añadir otra regla |
@@ -83,9 +83,6 @@ Observe cómo la barra lateral del filtro cambia de azul rayado a azul. Ahora ap
 
 1. Pase el ratón sobre el filtro rápido y seleccione el icono de información (&quot;i&quot;).
 1. Seleccione **[!UICONTROL Guardar filtro]**
-
-   ![](assets/save-quick-seg.png)
-
 1. Deje el nombre tal cual o cambie el nombre del filtro.
 
    Vuelva a Workspace y observe cómo el filtro ahora tiene una barra lateral azul. Esto indica que ya no se puede editar ni abrir en el Generador de filtros rápidos. Al guardarlo, pasa a formar parte de la lista de componentes.
@@ -100,7 +97,7 @@ Después de aplicar el filtro, puede elegir agregarlo a la lista de componentes 
 
    ![](assets/project-only.png)
 
-1. Seleccione la casilla de verificación situada junto a **[!UICONTROL Hacer que este filtro esté disponible para todos los proyectos y agréguelo a la lista de componentes.]**
+1. Seleccione la casilla de verificación situada junto a **[!UICONTROL Poner a disposición de todos los proyectos y añadirlos a la lista de componentes.]**
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. El filtro ahora aparece en la lista de componentes del filtro para todos los proyectos.
 1. También puede [compartir el filtro](/help/components/filters/manage-filters.md) con otras personas de su organización.
