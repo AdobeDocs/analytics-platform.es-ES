@@ -2,10 +2,10 @@
 title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: c23b172fd4dc5d0303723c4e8ccfeaa251257bfd
-workflow-type: ht
-source-wordcount: '1188'
-ht-degree: 100%
+source-git-commit: ac86d4a191a7ed2f9fa7285e497be509f658f615
+workflow-type: tm+mt
+source-wordcount: '1183'
+ht-degree: 99%
 
 ---
 
@@ -21,12 +21,16 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Attribution IQ | Compatibilidad total. |
 | Métricas calculadas | Compatibilidad total. Tenga en cuenta que las métricas de cálculo existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
 | Vinculación entre dispositivos y canales | Compatibilidad total. Consulte [Análisis en canales múltiples](/help/connections/cca/overview.md). |
+| Calendarios personalizados | Compatibilidad total. |
 | Comparaciones de fechas | Compatibilidad total. |
+| Intervalos de fechas | Se admite toda la funcionalidad de intervalo de fechas. |
+| Horario de verano | Compatibilidad total. |
 | Dimensiones | Compatibilidad total; CJA aprovecha XDM y admite dimensiones ilimitadas. CJA no está vinculado a las eVars o props personalizadas de Adobe Analytics tradicional. |
 | Dimensiones de Analysis Workspace predeterminadas (por ejemplo: Tipo de explorador, Tipo de referente, Sistema operativo, etc.) | CJA proporciona estas dimensiones de forma nativa siempre y cuando se rellenen los campos XDM base (como agente de usuario o ID de dispositivo). Para los clientes que utilizan el Conector de datos de Analytics (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | Eliminación de RGPD | Compatibilidad total. Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. CJA hereda los cambios de datos que [!UICONTROL Experience Platform] hace en los conjuntos de datos subyacentes. |
 | Variables de lista/Propiedades de lista | Compatibilidad total; CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
 | Métricas | Compatibilidad total. CJA aprovecha Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
+| Anulación de duplicación métrica | Compatibilidad total. |
 | Exportación de PDF | Compatibilidad total. |
 | Revisión del proyecto | Compatibilidad total. |
 | Vinculación de proyectos | Compatibilidad total. |
@@ -46,7 +50,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Clasificaciones | Ahora se denomina Conjuntos de datos de búsqueda. Las clasificaciones utilizadas en Analytics se pueden importar a Experience Platform y a CJA mediante el Classifications Data Connector de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en AEP y estar disponibles en CJA. |
 | Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada que no sean visitas en segundo plano móviles. |
 | Atributos del cliente | Ahora se denomina Conjuntos de datos de perfil. No se importan de manera automática desde Experience Cloud, pero deberán cargarse en AEP antes de que estén disponibles en CJA. |
-| Intervalos de fechas | Se admite toda la funcionalidad de intervalo de fechas, excepto la compatibilidad con calendarios personalizados, que está planificada. |
 | Dimensiones de dispositivo, explorador y tecnología | Estas dimensiones se incluyen automáticamente cuando un conjunto de datos de AEP incluye campos de esquema XDM específicos y se ajusta a la clase de evento de Experience XDM. |
 | Métricas y dimensiones de entradas, salidas y tiempo empleado | Todas estas son ahora compatibles (las entradas y salidas ahora se denominan inicios de sesión y fines de sesión) y se calculan de forma ligeramente distinta. |
 | Configuración de persistencia de eVar | Las eVars ya no forman parte de CJA. Sin embargo, la configuración de persistencia ahora forma parte de las Vistas de datos y está disponible para todas las dimensiones. Tenga en cuenta que la persistencia se basa en el procesamiento de intervalos del informe, no en el procesamiento de la recopilación de datos. Las dimensiones configuradas en Vistas de datos se limitan a una persistencia máxima de 90 días y no admiten persistencia ilimitada. |
@@ -73,10 +76,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Alertas | Se ha planificado lanzar una versión compatible. |
 | Análisis de contribución | Se ha planificado lanzar una versión compatible. |
 | Descarga de CSV | Se ha planificado lanzar una versión compatible. |
-| Calendarios personalizados | Se ha planificado lanzar una versión compatible. |
 | Creación de informes de Data Warehouse (100 % de exportación de filas) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. El [!UICONTROL servicio de consulta de Experience Platform] también proporciona una interfaz para estos casos de uso en CJA. |
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
-| Anulación de duplicación métrica | Se ha planificado lanzar una versión compatible. |
 | Persistencia de la variable de comercialización | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | Report Builder (complemento de Excel) | Se ha planificado lanzar una versión compatible. |
