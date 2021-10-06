@@ -3,10 +3,10 @@ description: Cómo crear un informe de valoración de paneles de Adobe Analytics
 title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
+source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 55%
+source-wordcount: '1339'
+ht-degree: 53%
 
 ---
 
@@ -126,7 +126,7 @@ Al igual que un gráfico circular, esta visualización muestra los datos como pa
 
 **Visualización de líneas**
 
-La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
+La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas muestra las dimensiones a lo largo del tiempo, pero funciona con cualquier visualización. En este ejemplo está visualizando la dimensión de categoría del producto.
 
 ![Visualización de líneas](assets/line.png)
 
@@ -146,7 +146,7 @@ Si desea eliminar los elementos de dimensión [!UICONTROL No especificados] de l
 
    ![no especificado](assets/unspecified.png)
 
-1. Haga clic en el icono junto a **[!UICONTROL No especificado]** para eliminar los datos no especificados de los informes.
+1. Haga clic en el icono junto a **[!UICONTROL No especificado]** para eliminar los datos no especificados de los informes. (También puede eliminar cualquier otro elemento de dimensión).
 
 ## Ver y configurar propiedades de mosaico
 
