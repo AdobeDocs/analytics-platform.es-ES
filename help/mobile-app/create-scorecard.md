@@ -4,10 +4,10 @@ title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
-source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
+source-git-commit: 9a7fa68bd7b4b9a7164a80691ddfb7aedaf8e3e4
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 53%
+source-wordcount: '1378'
+ht-degree: 52%
 
 ---
 
@@ -16,6 +16,9 @@ ht-degree: 53%
 La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del Generador de informes de valoración de paneles de Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!NOTE]
+>Las capturas de pantalla del informe de valoración de esta página se tomaron de la interfaz de usuario de Adobe Analytics, no de CJA. Las IU son casi idénticas.
 
 Un informe de valoración de Adobe Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, como se muestra a continuación:
 
@@ -116,7 +119,7 @@ O bien, haga clic en el icono [!UICONTROL Visualizaciones] en el carril izquierd
 
 Utilice la visualización Número de resumen para resaltar un número elevado que es importante en un proyecto.
 
-![Número de resumen](assets/sparkline.png)
+![Número de resumen](assets/summary-number.png)
 
 ### [!UICONTROL Anillo]
 
@@ -153,11 +156,11 @@ Al hacer clic en un mosaico en el Generador de informes de valoración, el carri
 
 ![Mosaico de propiedades](assets/properties_tile.png)
 
-## Ver profundidades (desgloses)
+## Ver detalles (desgloses)
 
-Al hacer clic en los mosaicos, una ventana emergente dinámica muestra cómo el usuario ejecutivo de la aplicación ve la vista Exploración en profundidad (Desglose). Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
+Al hacer clic en los mosaicos, una ventana emergente dinámica muestra cómo el usuario ejecutivo de la aplicación ve la vista Exploración en profundidad (Desglose). Puede desglosar dimensiones y elementos de dimensión para desglosar los datos según sus necesidades específicas. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
-Los desgloses refinan el análisis al desglosar literalmente métricas y dimensiones según otras métricas y dimensiones, como en este ejemplo de venta minorista:
+Los desgloses refinan el análisis, desglosando literalmente las dimensiones por otras métricas y dimensiones, como en este ejemplo de venta minorista:
 
 * Métrica Visitantes únicos desglosada por plataforma de publicidad (AMO ID)
 * Visitas desglosadas por categoría de producto (comercial)
