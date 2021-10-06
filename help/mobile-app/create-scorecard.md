@@ -3,13 +3,13 @@ description: Cómo crear un informe de valoración de paneles de Adobe Analytics
 title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
+exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1342'
 ht-degree: 53%
 
 ---
-
 
 # Crear un informe de valoración
 
@@ -112,32 +112,31 @@ O bien, haga clic en el icono [!UICONTROL Visualizaciones] en el carril izquierd
 
 ![Visualizaciones](assets/vizs.png)
 
-**[!UICONTROL Número de resumen]**
+### [!UICONTROL Número de resumen]
 
 Utilice la visualización Número de resumen para resaltar un número elevado que es importante en un proyecto.
 
 ![Número de resumen](assets/sparkline.png)
 
-** Donutvisualization**
+### [!UICONTROL Anillo]
 
 Al igual que un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de visitantes únicos:
 
 ![Visualización de anillo](assets/donut-viz.png)
 
-**Visualización de líneas**
+### [!UICONTROL Líneas]
 
 La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas muestra las dimensiones a lo largo del tiempo, pero funciona con cualquier visualización. En este ejemplo está visualizando la dimensión de categoría del producto.
 
 ![Visualización de líneas](assets/line.png)
 
-
-**[!UICONTROL Visualización de ] barras horizontales**
+### [!UICONTROL Barra horizontal]
 
 Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas. Por ejemplo, para ver fácilmente cuáles son sus productos principales, utilice [!UICONTROL Barra horizontal] para la visualización que prefiera.
 
 ![barra horizontal](assets/horizontal.png)
 
-**Quitar  [!UICONTROL no especificado]**
+### Quitar elemento de dimensión [!UICONTROL No especificado]
 
 Si desea eliminar los elementos de dimensión [!UICONTROL No especificados] de los datos, haga lo siguiente:
 
@@ -153,6 +152,8 @@ Si desea eliminar los elementos de dimensión [!UICONTROL No especificados] de l
 Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
 
 ![Mosaico de propiedades](assets/properties_tile.png)
+
+## Ver profundidades (desgloses)
 
 Al hacer clic en los mosaicos, una ventana emergente dinámica muestra cómo el usuario ejecutivo de la aplicación ve la vista Exploración en profundidad (Desglose). Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 

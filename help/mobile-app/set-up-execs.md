@@ -3,13 +3,13 @@ description: Cómo configurar usuarios para que utilicen la aplicación móvil d
 title: Configurar ejecutivos para utilizar tableros
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 020d59268873776aeec8fc7a90be70c3b6c55b69
+exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 56%
 
 ---
-
 
 # Configuración de usuarios ejecutivos para utilizar tableros
 
@@ -19,7 +19,7 @@ En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicion
 
 1. Configure nuevos usuarios en el [Admin Console del Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en).
 
-1. Para poder compartir los informes de valoración, debe conceder a los usuarios de la aplicación permisos para acceder a componentes de informe de valoración como Analysis Workspace, los grupos de informes en los que se basan los informes de valoración, así como segmentos, métricas y dimensiones.
+1. Para poder compartir informes de valoración, debe conceder a los usuarios de la aplicación permisos para acceder a componentes de cuadro de mandos como Analysis Workspace, a las vistas de datos en las que se basan los informes de valoración, así como a filtros, métricas y dimensiones.
 
 ## Requisitos previos del sistema de los usuarios de la aplicación
 
@@ -111,4 +111,3 @@ Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha c
 * Es posible que el informe de valoración no se haya compartido con el usuario ejecutivo.
 
 Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Adobe Analytics y que se ha compartido el informe de valoración.
-
