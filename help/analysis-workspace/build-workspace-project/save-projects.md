@@ -1,12 +1,12 @@
 ---
 description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como, guardar como plantilla y abrir versiones anteriores.
 title: Guardar proyectos
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 734f1fe702398034090e25c251b5ff193db8381e
-workflow-type: ht
-source-wordcount: '463'
+source-git-commit: 1c19c8cb9cad7b4b7938915d04396cc4646a1f32
+workflow-type: tm+mt
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Para guardar los cambios en un proyecto, vaya al menú **[!UICONTROL Proyecto]**
 Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL Proyecto]**, según cómo desee acceder a su análisis en el futuro.
 
 | Acción | Descripción |
-|---|---| 
+|---|---|
 | **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre y una descripción (opcional), y que agregue etiquetas (opcional). |
 | **[!UICONTROL Guardar con notas]** | Antes de guardar el proyecto, agregue notas sobre los cambios realizados en el proyecto. Las notas se almacenan con la versión del proyecto y están disponibles para todos los editores en [!UICONTROL Proyecto] > [!UICONTROL Abrir versión anterior]. |
 | **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
