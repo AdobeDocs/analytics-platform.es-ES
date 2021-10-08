@@ -4,9 +4,9 @@ title: Filtros rápidos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
+source-git-commit: ca1789242a4b9abe63affcc0769d669863722c88
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '950'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,6 @@ Puede crear filtros rápidos dentro de un proyecto para evitar la complejidad de
 * Se aplican solo a los proyectos en los que se crearon (puede cambiar esto).
 * Permitir hasta 3 reglas
 * No se admiten contenedores anidados ni reglas secuenciales.
-* Trabajar en proyectos con varios grupos de informes
 
 Para ver una comparación de lo que pueden hacer los filtros rápidos frente a los filtros de lista de componentes completa, vaya [aquí](/help/components/filters/filters-overview.md).
 
