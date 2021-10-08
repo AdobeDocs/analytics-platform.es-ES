@@ -2,10 +2,10 @@
 title: Actualizaciones de documentación de CJA
 description: Enumera las actualizaciones de contenido para la documentación de Customer Journey Analytics establecida desde diciembre de 2019.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: 6fca2dbffb0a631b0c5425c7d8964296ad22b7cc
+source-git-commit: 5eb2e4e27a64edec5670ef5a78e2bbfe63a0168d
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 18%
+source-wordcount: '594'
+ht-degree: 22%
 
 ---
 
@@ -15,9 +15,17 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 | Fecha | Actualizar descripción |
 | --- | --- |
+| Octubre de 2021 | Documentación para [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) en CJA. |
+| Octubre de 2021 | Documentación de la API [Audit Log](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) del Customer Journey Analytics |
+| Octubre de 2021 | [Visualizaciones documentadas para paneles de Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) |
+| Octubre de 2021 | Doc para ventana móvil para [!UICONTROL Connection] [data maintenance](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#set-rolling-window-for-connection-data-retention).<p>**Nota: Póngase en contacto con el Servicio de atención al cliente o con el administrador de cuentas de Adobe para implementar esta configuración. Todavía no está disponible a través de la interfaz de usuario de CJA.** |
+| Septiembre de 2021 | [Métrica ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=es) deduplicationdoc |
+| Septiembre de 2021 | [Compatibilidad con el horario de verano en los informes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#calendar) |
+| Septiembre de 2021 | [Documentación de los ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) calendarios del cliente |
+| Septiembre de 2021 | [Documentación de ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=es) campos booleanos |
 | Septiembre de 2021 | Se ha desglosado la configuración de componentes en vistas de datos en archivos individuales:<ul><li>[ Información general sobre la configuración de componentes](/help/data-views/component-settings/overview.md)</li><li>[ Configuración de componentes de atribución](/help/data-views/component-settings/attribution.md)</li><li>[ Configuración de los componentes de comportamiento](/help/data-views/component-settings/behavior.md)</li><li>[ Configuración de componentes de formato](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL Incluir/] excluir configuración de componentes](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL Configuración de componentes de ] deduplicación de métricas](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL Sin ] configuración de componentes de valor](/help/data-views/component-settings/no-value-options.md)</li><li>[ Configuración de componentes de persistencia](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL Configuración de componentes de ] bloque de valores](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
 | Septiembre de 2021 | Nueva sección sobre las [implicaciones de la combinación de grupos de informes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#6.-considered-when-merging-report-suites-in-cja) en CJA. |
-| Agosto de 2021 | Nueva sección sobre la experiencia mejorada [Connections](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es) en CJA. |
+| Agosto de 2021 | Nueva sección sobre la experiencia mejorada [Connections](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) en CJA. |
 | Agosto de 2021 | Nueva sección sobre la [distinción entre mayúsculas y minúsculas en las dimensiones de vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-behavior-settings). |
 | Junio de 2021 | Nueva documentación sobre [versiones anteriores del proyecto](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) en Workspace. |
 | Abril de 2021 | Nuevo tema sobre [persistencia](data-views/component-settings/persistence.md). |
