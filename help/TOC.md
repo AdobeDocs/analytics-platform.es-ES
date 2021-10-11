@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Análisis entre canales, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 4b528ef401cbe63b6237c66c2e9f39ee831aa71e
+source-git-commit: 0fd60f5923a010754a4ccad343934acfa30f358a
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 88%
+source-wordcount: '519'
+ht-degree: 89%
 
 ---
 
@@ -156,6 +156,7 @@ ht-degree: 88%
       + [Administrar filtros](components/filters/manage-filters.md)
       + [Filtros rápidos](components/filters/quick-filters.md)
       + [Filtros específicos](components/filters/ad-hoc-filters.md)
+      + [Operadores](components/filters/operators.md)
    + Métricas calculadas {#cja-calcmetrics}
       + [Información general sobre las métricas calculadas](components/calc-metrics/calc-metr-overview.md)
       + [Crear una métrica calculada](components/calc-metrics/create.md)

@@ -1,0 +1,46 @@
+---
+title: Operadores de filtro
+description: Determine cómo interactúa un componente con un valor dentro de un filtro.
+source-git-commit: 1334e1edb36583ba978936fecbff2657e63a94bf
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 20%
+
+---
+
+# Operadores de filtro
+
+El Generador de filtros permite comparar y restringir valores utilizando una selección de operadores. Existen dos categorías de operadores: [!UICONTROL Standard] y [!UICONTROL Distinct Count].
+
+## Operadores estándar
+
+| Operador | Descripción |
+| es igual a | Devuelve elementos que coinciden exactamente con un valor numérico o de cadena. Si utiliza caracteres comodín, utilice el operador &quot;coincidencias&quot;. |
+| no es igual a | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido.  Si utiliza caracteres comodín, utilice el operador &quot;no coincide con&quot;. |
+| contiene | Devuelve elementos que se comparan con las subcadenas de los valores introducidos. Por ejemplo, si la regla para una dimensión de cadena contiene `"Search"`, coincide con cualquier página que tenga la subcadena `"Search"`, incluidos `"Search Results"`, `"Search"` y `"Searching"`. Este operador distingue entre mayúsculas y minúsculas. |
+| no contiene | Todos los elementos que coincidan con el valor introducido se excluirán de los resultados. Por ejemplo, si la regla para una dimensión de cadena no contiene `"Search"`, excluye cualquier página que tenga la subcadena `"Search"` en ella, incluidos `"Search Results"`, `"Search"` y `"Searching"`. |
+| contiene todo | Devuelve elementos que incluyen todas las subcadenas (separadas por un espacio) en cualquier orden. Por ejemplo, si se introduce `"Search Results"` con este operador, coincidirá con `"Search Results"` y `"Results of Search"`, pero no con `"Search"` ni con `"Results"` de forma independiente. Este operador admite hasta 100 palabras delimitadas por espacios. |
+| no contiene todo | Todos los elementos que coinciden con cada valor introducido se excluyen de los resultados. Por ejemplo, si se introduce `"Search Results"` con este operador, se excluirían `"Search Results"` y `"Results of Search"`, pero no `"Search"` ni `"Results"`. Este operador admite hasta 100 palabras delimitadas por espacios. |
+| contiene cualquiera | Devuelve elementos que contienen cualquiera de las subcadenas especificadas. Por ejemplo, si se introduce `"Search Results"` con este operador, coincidirá con `"Search Results"`, `"Results of Search"`, `"Search"` y `"Results"`. Este operador admite hasta 100 palabras delimitadas por espacios. |
+| no contiene ninguno | Todos los elementos que coinciden con cualquier subcadena se excluyen de los resultados. Por ejemplo, si se introduce `"Search Results"` se excluirían `"Search Results"`, `"Results of Search"`, `"Search"` y `"Results"`. Este operador admite hasta 100 palabras delimitadas por espacios. |
+| comienza con | Devuelve elementos que comienzan con el carácter o cadenas del valor introducido. |
+| no comienza con | Devuelve todos los elementos que no comienzan con los caracteres o cadenas de los valores introducidos. |
+| termina con | Devuelve elementos que terminan con el carácter o cadenas del valor introducido. |
+| no termina con | Devuelve todos los elementos que no terminan con los caracteres o cadenas del valor introducido. |
+| coincide | Devuelve elementos que coinciden exactamente en función de un valor numérico o de cadena determinado. Admite caracteres comodín mediante un asterisco (`*`). Este operador distingue entre mayúsculas y minúsculas. Por ejemplo:<ul><li>`a*e` coincide con  `ae`,  `abcde`,  `adobe` y  `a whole sentence`.</li><li>`adob*` coincide  `adobe`,  `adobe analytics`y  `adobo recipe`</li><li>`*dobe` coincide con  `dobe`,  `adobe`, y  `cute little dobe`.</li></ul>|
+| no coincide | Se excluyen todos los elementos que coincidan con la cadena. Admite caracteres comodín mediante un asterisco (`*`). |
+| existe | Devuelve elementos si el valor no es nulo. |
+| no existe | Devuelve elementos si el valor es nulo. |
+
+## Operadores de recuento distinto
+
+Puede segmentar un recuento distinto de elementos dentro de una dimensión. Por ejemplo, puede crear filtros para los visitantes que vieron más de 5 productos diferentes o visitas donde se vieron más de 5 páginas diferentes.
+
+| Operador | Descripción |
+| --- | --- |
+| es igual que | Devuelve elementos de dimensión cuya cantidad única es igual al valor introducido. |
+| no es igual | Devuelve elementos de dimensión cuya cantidad única no es igual al valor introducido. |
+| es mayor que | Devuelve elementos de dimensión cuya cantidad única sea mayor que el valor introducido. |
+| es menor que | Devuelve elementos de dimensión cuya cantidad única sea menor que el valor introducido. |
+| es mayor o igual que | Devuelve elementos de dimensión cuya cantidad única sea mayor o igual que el valor introducido. |
+| es menor o igual que | Devuelve elementos de dimensión cuya cantidad única sea menor o igual que el valor introducido. |
