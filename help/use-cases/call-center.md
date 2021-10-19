@@ -3,15 +3,15 @@ title: Importación de datos web y de centros de llamadas
 description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios web y de centros de llamadas.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 source-git-commit: 269c6e50f26d424df58c0803a4e49eb2fc9d3968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # Importación de datos web y de centros de llamadas
 
-Customer Journey Analytics dispone de una función robusta y muy útil que permite combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas. Por ejemplo, puede comprender qué acciones realiza un cliente, qué contenido ve y qué términos busca antes de ponerse en contacto con el servicio de atención al cliente. A continuación, puede determinar el contenido y las herramientas de autoservicio para mejorar, de modo que los clientes puedan resolver los problemas por sí mismos sin necesidad de llamar a .
+Customer Journey Analytics dispone de una función robusta y muy útil que permite combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas. Por ejemplo, puede comprender qué acciones realiza un cliente, qué contenido ve y qué términos busca antes de ponerse en contacto con la asistencia al cliente. Puede determinar el contenido y las herramientas de autoservicio para mejorar, de modo que los clientes puedan resolver los problemas por sí mismos sin necesidad de llamar.
 
 ## Requisitos previos
 
@@ -55,8 +55,8 @@ CJA requiere un identificador común para poder generar un [conjunto de datos co
 
 Después de crear una conexión, puede [Crear una vista de datos](/help/data-views/create-dataview.md) para utilizarla en Analysis Workspace. Los componentes útiles incluyen:
 
-* Dimensión de página con último contacto y persistencia de sesión. Puede conectar las métricas del centro de llamadas con la última página que vio un cliente antes de llamar a .
-* Una métrica de llamadas que utiliza un campo de esquema &quot;Motivo del centro de llamadas&quot; para aumentar las ocurrencias. Utilice [Deduplicación de métricas](/help/data-views/component-settings/metric-deduplication.md) para que aumente solo una vez por sesión.
+* Dimensión de página con último contacto y persistencia de sesión. Puede conectar las métricas del centro de llamadas con la última página que vio un cliente antes de llamar.
+* Una métrica de llamadas que utiliza un campo de esquema Motivo del centro de llamadas para aumentar las ocurrencias. Utilice [la anulación de deduplicación de métricas](/help/data-views/component-settings/metric-deduplication.md) para que aumente solo una vez por sesión.
 
 ## Creación de visualizaciones
 
@@ -79,7 +79,7 @@ La visualización Venn resultante muestra el número de personas del conjunto de
 Esta tabla de formato libre le permite ver las páginas principales que contribuyen a los eventos del centro de llamadas. En primer lugar, asegúrese de que las dimensiones y métricas deseadas tienen el modelo de atribución correcto:
 
 1. Arrastre la dimensión que contiene los nombres de su página web a una visualización de tabla de formato libre.
-1. Reemplace la métrica por la métrica del centro de llamadas que desee medir.
+1. Reemplace la métrica por la métrica del centro de llamadas de la que desee medir.
 1. Haga clic en el icono de engranaje que se encuentra cerca del encabezado de la métrica. Haga clic en **[!UICONTROL Utilizar modelo de atribución no predeterminado]**.
 1. Configure el [modelo de atribución](/help/analysis-workspace/attribution/models.md) deseado. Por ejemplo, un modelo de decadencia de tiempo con una semivida de 15 minutos y una ventana retrospectiva de sesión. Este modelo de atribución da crédito a las páginas que preceden a la llamada a su centro de llamadas.
 
@@ -89,30 +89,30 @@ El informe resultante muestra las páginas principales que dirigen las llamadas 
 
 Puede aumentar aún más la perspectiva con esta tabla dividiendo las llamadas por motivo o categoría.
 
-1. Haga clic en el corchete derecho debajo de la dimensión &quot;Razón de la llamada&quot; en la lista de componentes. Esta acción revela valores de dimensión individuales.
-2. Arrastre los valores de dimensión deseados en la métrica &quot;Llamadas&quot;, que filtra esa métrica por cada motivo de llamada respectivo.
-3. Repita el proceso por cada motivo de llamada en el que desee profundizar. Utilice el filtro &quot;Todas las sesiones&quot; para ver el total agregado.
+1. Haga clic en el corchete derecho debajo de la dimensión Razón de la llamada en la lista de componentes. Esta acción revela valores de dimensión individuales.
+2. Arrastre los valores de dimensión deseados en la métrica Llamadas, que filtra esa métrica por cada motivo de llamada respectivo.
+3. Repita el proceso por cada motivo de llamada en el que desee profundizar. Utilice el filtro Todas las sesiones para ver el total acumulado.
 
 <!-- screenshot -->
 
 ### Visualización de flujo
 
-Puede obtener información sobre lo que un cliente intentaba hacer antes de utilizar el canal del centro de llamadas. Esta visualización de flujo le ayuda a comprender los recorridos más frecuentes que un cliente emplea para llegar a su centro de llamadas. Esta perspectiva le permite determinar las mejoras más efectivas que puede realizar en el sitio, de modo que es menos probable que los clientes llamen a .
+Puede obtener información sobre lo que un cliente intentaba hacer antes de utilizar el canal del centro de llamadas. Esta visualización de flujo le ayuda a comprender los recorridos más frecuentes que un cliente emplea para llegar a su centro de llamadas. Esta perspectiva le permite determinar las mejoras más efectivas que puede realizar en el sitio, de modo que es menos probable que los clientes llamen.
 
-1. Haga clic en la pestaña **[!UICONTROL Visualizaciones]** de la izquierda y arrastre una visualización de flujo al lienzo del espacio de trabajo.
-2. Haga clic en la pestaña **[!UICONTROL Components]** a la izquierda y busque la dimensión &quot;Razón de la llamada&quot;.
-3. Haga clic en la cadena derecha junto a esta dimensión. Esta acción revela valores de dimensión individuales.
+1. Haga clic en la pestaña **[!UICONTROL Visualizaciones]** de la izquierda y arrastre la visualización deseada al lienzo del espacio de trabajo.
+2. Haga clic en la pestaña **[!UICONTROL Componentes]** a la izquierda y busque la dimensión Razón de la llamada.
+3. Haga clic en corchete derecho junto a esta dimensión. Esta acción revela valores de dimensión individuales.
 4. Arrastre el elemento de dimensión del motivo de la llamada deseado a la ubicación central de la visualización del flujo.
 5. La visualización de flujo rellena automáticamente los motivos de llamada anterior y siguiente. Reemplace el motivo de la llamada anterior por la dimensión de página del sitio web.
-6. Haga clic en el icono de engranaje en la parte superior derecha de la visualización de flujo y cambie el contenedor de flujo a **[!UICONTROL Session]**.
+6. Haga clic en el icono de engranaje en la parte superior derecha de la visualización de flujo y cambie el contenedor de flujo a **[!UICONTROL Sesión]**.
 
 ### Histograma
 
 ¿Cuántos clientes han llamado una vez, han llamado dos veces o han llamado más de 6 veces? Algunas de estas personas nunca visitan el sitio web. Utilice la visualización del histograma para determinar cuántas personas entran en cada bloque. Para las personas que nunca visitan el sitio web, ver cómo podemos animarlos a que se sirvan a sí mismos.
 
-1. Haga clic en la pestaña **[!UICONTROL Visualizaciones]** de la izquierda y arrastre una visualización de histograma al lienzo del espacio de trabajo.
+1. Haga clic en la pestaña **[!UICONTROL Visualizaciones]** de la izquierda y arrastre la visualización del histograma deseada al lienzo del espacio de trabajo.
 2. Haga clic en la pestaña **[!UICONTROL Componentes]** a la izquierda y arrastre la métrica de llamadas a la visualización del histograma.
-3. Haga clic en **[!UICONTROL Show advanced settings]** en el centro de la visualización y personalice los bloques deseados.
+3. Haga clic en **[!UICONTROL Mostrar configuración avanzada]** en el centro de la visualización y personalice los bloques deseados.
 4. Haga clic en **[!UICONTROL Generar]**.
 
 <!--
