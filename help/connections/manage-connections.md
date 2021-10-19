@@ -5,8 +5,8 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -91,11 +91,11 @@ Aquí se explican los widgets y la configuración:
 | --- | --- |
 | Selector de conjunto de datos | Permite seleccionar uno o todos los conjuntos de datos de la conexión. No puede seleccionar conjuntos de datos múltiples. El valor predeterminado es [!UICONTROL Todos los conjuntos de datos]. |
 | Calendario/intervalos de fechas | El intervalo de fechas indica cuándo se añadieron datos a la conexión. Se incluyen todos los ajustes preestablecidos de calendario estándar. Puede personalizar el intervalo de fechas, pero en la lista desplegable no aparecerá ningún intervalo de fechas personalizado. |
-| [!UICONTROL Registros de datos de evento disponibles ] widget | Representa el número total de filas de conjuntos de datos de evento disponibles para informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. Cambia si selecciona un conjunto de datos del selector de conjuntos de datos o en la tabla. (Tenga en cuenta que hay una latencia de una a dos horas para que los datos aparezcan en los informes, una vez añadidos). |
-| Widget de [!UICONTROL métricas] | Resume los registros de evento agregados/omitidos/eliminados, y el número de lotes agregados, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. |
-| Widget de [!UICONTROL registros añadidos] | Indica cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada diez minutos. **Nota**: Los datos de los  **[!UICONTROL registros]** añadidos solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
-| Widget de [!UICONTROL registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona, etc. Se actualiza cada diez minutos. **Nota**: Los datos de los  **[!UICONTROL registros]** seleccionados solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
-| Widget de [!UICONTROL registros eliminados] | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en Experience Platform, por ejemplo. Se actualiza cada diez minutos. **Nota**: Los datos de los  **[!UICONTROL registros]** eliminados solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Registros de widget de datos de evento disponibles] | Representa el número total de filas del conjunto de datos de evento disponibles para la creación de informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. Cambia si selecciona un conjunto de datos del selector de conjuntos de datos o en la tabla. (Tenga en cuenta que hay una latencia de una a dos horas para que los datos aparezcan en los informes, una vez añadidos). |
+| Widget de [!UICONTROL métricas] | Resume los registros añadidos, omitidos o eliminados del evento, y el número de lotes agregados, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. |
+| Widget de [!UICONTROL registros añadidos] | Indica cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada diez minutos. **Nota**: Los datos de los **[!UICONTROL registros añadidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| Widget de [!UICONTROL registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona, etc. Se actualiza cada diez minutos. **Nota**: Los datos de los **[!UICONTROL registros omitidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| Widget de [!UICONTROL registros eliminados] | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en Experience Platform, por ejemplo. Se actualiza cada diez minutos. **Nota**: Los datos de los **[!UICONTROL registros eliminados]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
 | Cuadro de búsqueda de conjunto de datos | Puede buscar por nombre de conjunto de datos o [!UICONTROL ID de conjunto de datos]. |
 | [!UICONTROL Conjuntos de datos] | Muestra los conjuntos de datos que forman parte de la conexión. Puede hacer clic en el hipervínculo para ver todos los conjuntos de datos de la conexión. |
 | [!UICONTROL ID de conjunto de datos] | Adobe Experience Platform genera automáticamente este ID. |
@@ -118,10 +118,10 @@ Aquí se explican los widgets y la configuración:
 | **Carril derecho en el nivel del conjunto de datos** |  |
 | [!UICONTROL Descripción del conjunto de datos] | Describe los parámetros de cada conjunto de datos en esta conexión. |
 | [!UICONTROL Registros disponibles] | Representa el número total de filas ingeridas para este conjunto de datos, para el período de tiempo particular seleccionado a través del calendario. Una vez añadidos, no hay latencia en cuanto a la aparición de datos en los informes. (La excepción es que cuando crea una conexión completamente nueva, habrá [latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#3.-introducción-de-datos-en-customer-journey-analytics). |
-| [!UICONTROL Registros añadidos] | Cantidad de filas añadidas en el período de tiempo seleccionado. **Nota**: Los datos de los  **[!UICONTROL registros]** añadidos solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
-| [!UICONTROL Registros omitidos] | Cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado. **Nota**: Los datos de los  **[!UICONTROL registros]** seleccionados solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
-| [!UICONTROL Registros eliminados] | Cuántos registros se eliminaron durante el período de tiempo seleccionado. **Nota**: Los datos de los  **[!UICONTROL registros]** eliminados solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
-| [!UICONTROL Registro de errores omitidos] | La razón por la que se omitieron los registros se indica aquí. Las razones pueden incluir la falta de marcas de hora, la falta de ID de persona, etc. |
+| [!UICONTROL Registros añadidos] | Cantidad de filas añadidas en el período de tiempo seleccionado. **Nota**: Los datos de los **[!UICONTROL registros añadidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Registros omitidos] | Cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado. **Nota**: Los datos de los **[!UICONTROL registros omitidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Registros eliminados] | Cuántos registros se eliminaron durante el período de tiempo seleccionado. **Nota**: Los datos de los **[!UICONTROL registros eliminados]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Registro de errores omitidos] | La razón por la que se omitieron los registros se indica aquí. Las razones pueden incluir marcas de hora que faltan, ID de persona que falta, etc. |
 | [!UICONTROL Lotes ingeridos] | Cuántos lotes de datos se añadieron a este conjunto de datos. |
 | [!UICONTROL Última incorporación] | Cuando se añadió el último lote. |
 | [!UICONTROL Tipo de conjunto de datos] | [!UICONTROL Evento], [!UICONTROL Búsqueda] o [!UICONTROL Perfil]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
@@ -138,9 +138,9 @@ Permite a los administradores editar la conexión. Seleccione una conexión y ha
 * Actualice los conjuntos de datos.
 * Elimine los conjuntos de datos de las conexiones.
 
-## Establecer ventana móvil para la retención de datos [!UICONTROL Connection]
+## Configurar la ventana móvil para [!UICONTROL Conexión] retención de datos
 
 >[!IMPORTANT]
 >Póngase en contacto con el Servicio de atención al cliente o con el administrador de cuentas de Adobe para implementar esta configuración. Todavía no está disponible a través de la interfaz de usuario de CJA.
 
-Esta configuración le permite definir la retención de datos de CJA como un período de tiempo variable en meses (3 meses, 6 meses, etc.), en un nivel de [!UICONTROL conexión] (no en un [!UICONTROL conjunto de datos]). La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
+Esta configuración le permite definir la retención de datos de CJA como un período de tiempo variable en meses (3 meses, 6 meses, etc.), a una [!UICONTROL connection] Nivel (no en un [!UICONTROL conjunto de datos] nivel). La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.

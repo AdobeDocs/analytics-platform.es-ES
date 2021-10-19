@@ -11,8 +11,8 @@ user-guide-description: Esta guía proporciona ayuda para Customer Journey Analy
 breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 0fd60f5923a010754a4ccad343934acfa30f358a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
       + [Preguntas frecuentes sobre Análisis entre canales](connections/cca/faq.md)
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](data-views/data-views.md)
-   + [Crear o editar una vista de datos](data-views/create-dataview.md)
+   + [Creación o edición de una fuente de datos](data-views/create-dataview.md)
    + Configuración de componentes {#component-settings}
       + [Información general sobre la configuración de componentes](data-views/component-settings/overview.md)
       + [Atribución](data-views/component-settings/attribution.md)
@@ -184,7 +184,7 @@ ht-degree: 89%
 + Paneles de Analytics {#cja-dashboards}
    + [Paneles de Analytics: Información general](mobile-app/home.md)
    + [Tareas del gestor de datos](mobile-app/curator.md)
-   + [Crear un informe de valoración](mobile-app/create-scorecard.md)
+   + [Creación de un cuadro de resultados](mobile-app/create-scorecard.md)
    + [Configurar ejecutivos para utilizar tableros](mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + Privacidad {#cja-privacy}
