@@ -1,20 +1,20 @@
 ---
-title: Configuración del componente de deduplicación de métricas
-description: Contar solo la primera aparición de una métrica en los informes.
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
-workflow-type: tm+mt
+title: Configuración del componente de anulación de deduplicación de métricas
+description: Cuenta solo la primera aparición de una métrica en los informes.
+exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
+source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
+# Configuración del componente de anulación de deduplicación de métricas
 
-# Configuración del componente de deduplicación de métricas
-
-La deduplicación de métricas le permite configurar una métrica para que solo cuente los valores de forma no repetitiva.
+La anulación de deduplicación de métricas le permite configurar una métrica para que solo cuente los valores de forma no repetitiva.
 
 | Configuración | Descripción |
 | --- | --- |
-| Anulación de duplicación métrica | Casilla de verificación que permite habilitar la deduplicación de métricas. Deshabilitado de forma predeterminada. |
-| Ámbito de anulación de duplicación | Permite determinar hasta dónde llega la comprobación única.<br>**Sesión**: Solo se cuenta la primera incidencia de métrica de la sesión.<br>**Persona**: Solo se cuenta la primera aparición de métrica en la ventana de informes. |
-| ID de anulación de duplicación | En lugar de aplicar la deduplicación en la propia métrica, le permite aplicar la deduplicación de métricas en función de una dimensión. Valioso para dimensiones como ID de compra para aplicar la deduplicación. |
+| Anulación de duplicación métrica | Casilla de verificación que permite habilitar la anulación de deduplicación de métricas. Deshabilitado de forma predeterminada. |
+| Ámbito de anulación de duplicación | Permite determinar hasta dónde llega la comprobación única.<br>**Sesión**: solo se cuenta la primera ocurrencia de métrica de la sesión.<br>**Persona**: solo se cuenta la primera ocurrencia de métrica en la ventana de creación de informes. |
+| ID de anulación de duplicación | En lugar de aplicar la anulación de deduplicación en la propia métrica, le permite aplicar la anulación de duplicación de métricas en función de una dimensión. Útil para dimensiones como ID de compra para aplicar la anulación de deduplicación. |
