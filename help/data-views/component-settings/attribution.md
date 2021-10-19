@@ -1,13 +1,13 @@
 ---
 title: Configuración de componentes de atribución
 description: Permite establecer la atribución predeterminada para una métrica.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
-workflow-type: tm+mt
+exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
+source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
-
 
 # Configuración de componentes de atribución
 
