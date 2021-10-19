@@ -3,15 +3,15 @@ title: Información general de las vistas de datos
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión de CJA, como, por ejemplo, métricas, dimensiones, sesiones, etc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Información general de las vistas de datos
 
-Una vista de datos es un contenedor específico del Customer Journey Analytics que le permite determinar cómo interpretar los datos de una [conexión](/help/connections/create-connection.md). Especifica todas las dimensiones y métricas disponibles en Analysis Workspace y de qué columnas obtienen esos datos esas dimensiones y métricas. Las vistas de datos se definen a fin de prepararse para la creación de informes en Analysis Workspace.
+Una vista de datos es un contenedor específico del Customer Journey Analytics que le permite determinar cómo interpretar los datos de una [conexión](/help/connections/create-connection.md). Especifica todas las dimensiones y métricas disponibles en Analysis Workspace y de qué columnas obtienen esos datos las dimensiones y métricas. Las vistas de datos se definen a fin de prepararse para la creación de informes en Analysis Workspace.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 ## Requisitos previos de vistas de datos
 
 * Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform](/help/connections/create-connection.md).
-* Para crear o administrar una vista de datos, necesita un [conjunto de permisos en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#admin-access-permissions).
+* Para crear o administrar una vista de datos, necesita un [conjunto de permisos en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es).
 
 ## Configuración de vista de datos que se puede anular en Workspace
 
