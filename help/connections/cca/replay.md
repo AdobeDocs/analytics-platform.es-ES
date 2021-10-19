@@ -3,9 +3,9 @@ title: Cómo funcionan las reproducciones
 description: Comprensión del concepto "reproducción" en Análisis entre canales
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 source-git-commit: af14d9279f1dd5019e7e6db59a27765eede078bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
