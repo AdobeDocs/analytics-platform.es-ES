@@ -3,9 +3,9 @@ title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 source-git-commit: ff1f28015a2c52f79fae975c16bb7cb76f6179c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1099'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Puede crear diferentes tipos de filtros en Workspace y el Generador de filtros, 
 
 | Tipo de filtro | ¿Creado dónde? | ¿Dónde se aplica? | Uso |
 | --- | --- | --- | --- |
-| Filtro de lista de componentes | Haga clic en +, que le lleva al [Generador de filtros](/help/components/filters/create-filters.md) | Todos los proyectos de Workspace | Para filtros más complejos, filtros secuenciales |
+| Filtro de lista de componentes | Haga clic en +, que le lleva al [Generador de filtros](/help/components/filters/create-filters.md) | Todos los proyectos del espacio de trabajo | Para filtros más complejos, filtros secuenciales |
 | Filtro rápido | [Generador de filtros rápidos](/help/components/filters/quick-filters.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Flexibilidad para agregar o editar una o más reglas |
-| Filtro de proyecto específico | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/components/filters/ad-hoc-filters.md) | Project solamente, pero puede guardar y agregar a la lista de filtros. | Para filtros de una sola regla |
-| Filtros en el análisis de abandonos | [Visualización de ](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) abandonos en Analysis Workspace | Para visualizaciones de visitas en el orden previsto individuales | Cree filtros a partir de un punto de contacto, añada filtros como punto de contacto y compare flujos de trabajo clave entre distintos filtros |
-| Filtro basado en métricas calculadas | [Generador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Para métricas calculadas individuales | Aplicar filtros dentro de su definición de métrica |
+| Filtro de proyecto específico | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/components/filters/ad-hoc-filters.md) | Solo proyecto, pero puede guardar y agregar a la lista de filtros. | Para filtros de una sola regla |
+| Filtros en un análisis de visitas en orden previsto | [Visualización de visitas en orden previsto](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) en Analysis Workspace | Para visualizaciones de visitas en el orden previsto individuales | Cree filtros a partir de un punto de contacto, añada filtros como punto de contacto y compare flujos de trabajo clave entre distintos filtros |
+| Filtro basado en métricas calculadas | [Generador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=es) | Para métricas calculadas individuales | Aplicar filtros dentro de su definición de métrica |
 
 ## Filtros secuenciales
 
