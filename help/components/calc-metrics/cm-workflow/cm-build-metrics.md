@@ -1,9 +1,9 @@
 ---
 description: El Creador de métricas calculadas proporciona un lienzo en el que arrastrar y soltar Dimension, métricas, filtros y funciones para crear métricas personalizadas basadas en lógica de jerarquía de contenedor, reglas y operadores. Esta herramienta de desarrollo integrada le permite crear y guardar métricas calculadas simples o métricas calculadas avanzadas complejas.
 title: Crear métricas
-source-git-commit: 92d9c3bd7478af5fbd4aca20fd814e2c9f2d6ef4
+source-git-commit: a747a7e7def6f55fd350406125581e631af9e208
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '930'
 ht-degree: 73%
 
 ---
@@ -38,6 +38,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
 | Definición | Aquí es donde arrastra las métricas/métricas calculadas, filtros y/o funciones para crear la métrica calculada. Si arrastra una métrica calculada, ampliará su definición de métrica automáticamente. Puede anidar definiciones en contenedores. Sin embargo, a diferencia de los contenedores de segmento, estos contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. |
 | Operador | [!UICONTROL Dividido por] es el operador predeterminado, además de los operadores +, - y x. |
 | Vista previa | Proporciona una lectura rápida de cualquier posible error. La vista previa abarca los últimos 90 días. Esta es una forma de calibrar inicialmente si ha seleccionado los componentes adecuados para su métrica. Un resultado inesperado significaría que debe volver a revisar la definición de la métrica. |
+| Compatibilidad del producto | La compatibilidad del producto le muestra si la métrica es compatible con los datos completamente procesados. |
 | Agregue | Puede añadir contenedores y números estáticos a la definición de todos los tipos de métricas calculadas. Para las métricas calculadas avanzadas, también puede añadir filtros y funciones.<ul><li>Los contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. Así, cualquier cosa que se encuentre en un contenedor se procesará antes de la operación siguiente.</li><li>Al arrastrar un segmento a un contenedor, se segmenta todo lo que se encuentra en dicho contenedor (solo métricas calculadas avanzadas).</li><li>Puede apilar varios filtros en un contenedor.</li></ul> |
 | Icono de engranaje (Tipo de métrica, Atribución) | Si selecciona el icono de engranaje junto a una métrica, puede especificar el tipo de métrica y los modelos de atribución. |
 | + Nuevo | Permite crear un componente nuevo, como un filtro nuevo (que le lleva al Generador de filtros ). |
