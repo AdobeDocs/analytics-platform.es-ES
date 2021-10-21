@@ -2,10 +2,10 @@
 title: Configuración de componentes de persistencia
 description: Determina cómo persisten los valores de dimensión de un evento a otro, o si lo hace.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
-source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: e8f372692e60158ce7f30837ee4da0f922e1d752
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ La [!UICONTROL persistencia] solo está disponible en dimensiones y es retroacti
 | Configuración | Descripción |
 | --- | --- |
 | [!UICONTROL Establecer persistencia] | Habilite la persistencia para la dimensión. Si la persistencia no está habilitada, la dimensión solo se relaciona con métricas que existen en el mismo evento. Esta opción está desactivada de manera predeterminada. |
-| [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: [!UICONTROL Más reciente], [!UICONTROL Original], [!UICONTROL Instancia], [!UICONTROL Todos]. |
+| [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: [!UICONTROL Más reciente], [!UICONTROL Original], [!UICONTROL Instancia], [!UICONTROL Todos]. A partir del 28 de octubre de 2021, se agregará una ventana de retrospectiva de hasta 90 días a la variable [!UICONTROL Asignación] configuración. |
 | [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: [!UICONTROL Sesión] (predeterminada), [!UICONTROL Persona], [!UICONTROL Tiempo personalizado], [!UICONTROL Métrica]. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). La caducidad máxima que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
 
 ## Configuración de [!UICONTROL asignación]
