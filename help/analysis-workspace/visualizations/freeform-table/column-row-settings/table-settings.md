@@ -3,10 +3,10 @@ description: La configuración de filas varía en función del componente que ha
 title: Configuración de filas
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-source-git-commit: 941c32ce5ec9bfec020a68297397574f687d5e2b
+source-git-commit: 7abd4d08f02597aed1af27970b8497898a553a10
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ La configuración de filas varía en función del componente que haya arrastrado
 
 Para cambiar el número de filas que se muestran:
 
-1. Haga clic en el número situado junto a Filas en la parte superior de la tabla.
+1. Haga clic en el número situado junto a [!UICONTROL Filas] en la parte superior de la mesa.
 
    ![](assets/row-number.png)
 
