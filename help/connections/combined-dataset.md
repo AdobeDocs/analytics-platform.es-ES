@@ -2,11 +2,10 @@
 title: Conjuntos de datos de evento combinados
 description: Descubra cómo CJA crea una conexión combinando conjuntos de datos.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
-translation-type: ht
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: dd68a85b1398fa99e6ee5fff1c356a005ebb9482
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +17,7 @@ Al crear una conexión, CJA combina todos los esquemas y conjuntos de datos en u
 * Los esquemas están combinados. Se combinan los campos de esquema duplicados.
 * La columna &#39;ID de persona&#39; de cada conjunto de datos se combina en una sola columna, independientemente de su nombre. Esta columna es la base de la identificación de visitantes únicos en CJA.
 * Las filas se procesan según la marca de tiempo.
+* Los eventos se resuelven en el nivel de milisegundos.
 
 ## Ejemplo
 
