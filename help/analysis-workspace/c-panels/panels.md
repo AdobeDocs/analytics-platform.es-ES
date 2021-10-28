@@ -2,10 +2,10 @@
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 62%
+source-wordcount: '845'
+ht-degree: 60%
 
 ---
 
@@ -22,7 +22,7 @@ Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acced
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights], los paneles   en blanco y   improvisado son los buenos lugares para iniciar el análisis, mientras que  [!UICONTROL Attribution ] IQ se presta a análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
+[!UICONTROL Quick Insights], [!UICONTROL En blanco] y [!UICONTROL Forma libre] los paneles son buenos lugares para iniciar el análisis, mientras que [!UICONTROL Attribution IQ] se presta a análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
 
 El panel inicial predeterminado es [!UICONTROL Forma libre], pero también puede convertir el [Panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
@@ -33,6 +33,8 @@ El calendario del panel controla el intervalo de la creación de informes de las
 Nota: Si se utiliza un componente de intervalo de fechas (púrpura) en una tabla, una visualización o en la zona desplegable de un panel, se anulará el calendario del panel.
 
 ![](assets/panel-calendar.png)
+
+Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel. Si realiza informes en un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo.
 
 ## Zona de colocación {#dropzone}
 
@@ -63,12 +65,12 @@ Los filtros desplegables también se pueden utilizar para consolidar muchos proy
 Para crear filtros desplegables:
 
 1. Para crear un filtro desplegable con [!UICONTROL Elementos de dimensión], como, por ejemplo, valores dentro de la dimensión [!UICONTROL Canal de marketing], haga clic en el icono de flecha derecha que se encuentra junto a la dimensión en el carril izquierdo. Esto mostrará todos los elementos disponibles. Seleccione uno o varios elementos de componente del carril izquierdo y suéltelos en la zona desplegable del panel **mientras mantiene pulsada la tecla Mayús**. De este modo, los componentes se convierten en un filtro desplegable, no en un filtro único.
-1. Para crear un filtro desplegable utilizando otros componentes como métricas, filtros o intervalos de fechas, seleccione un tipo de componente en el carril izquierdo y suelte en la zona desplegable del panel **mientras pulsa la tecla Mayús**.
+1. Para crear un filtro desplegable utilizando otros componentes como métricas, filtros o intervalos de fechas, seleccione un tipo de componente en el carril izquierdo y suéltelo en la zona desplegable del panel **manteniendo pulsada la tecla Mayús**.
 1. Seleccione una de las opciones del menú desplegable para cambiar los datos del panel. También puede optar por no filtrar ninguno de los datos del panel seleccionando **[!UICONTROL Sin filtro]**.
 
 ![](assets/create-dropdown.png)
 
-[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
+[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=es) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
 
 ## Haga clic con el botón derecho en el menú {#right-click}
 
