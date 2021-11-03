@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 1c19c8cb9cad7b4b7938915d04396cc4646a1f32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Guardar proyectos
 
-Para guardar los cambios en un proyecto, vaya al menú **[!UICONTROL Proyecto]** de Workspace. Workspace también guarda automáticamente proyectos en determinados casos.
+Para guardar los cambios en un proyecto, vaya al menú **[!UICONTROL Proyecto]** de del Espacio de trabajo. del Espacio de trabajo también guarda automáticamente proyectos en determinados casos.
 
 ## Guardar opciones de proyecto {#Save}
 
@@ -34,7 +34,7 @@ Los proyectos existentes, es decir, los que se han guardado al menos una vez ant
 
 Hay algunas opciones, como las siguientes, que pueden evitar dejar cambios no guardados en un proyecto.
 
-### Abrir otro proyecto de Workspace
+### Abrir otro proyecto de del Espacio de trabajo
 
 Adobe proporciona la opción de guardar antes de salir de la página. Después de abandonar un proyecto existente, se elimina la copia local guardada automáticamente.
 
@@ -48,7 +48,7 @@ El explorador advierte que se perderán los cambios no guardados. Puede elegir e
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
 
-Para los **proyectos** existentes, al volver a Workspace, el usuario verá un modo de **recuperación del proyecto**. Si selecciona Sí, se restaurará el proyecto a partir de la copia local guardada automáticamente. “No” elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
+Para los **proyectos** existentes, al volver a del Espacio de trabajo, el usuario verá un modo de **recuperación del proyecto**. Si selecciona Sí, se restaurará el proyecto a partir de la copia local guardada automáticamente. “No” elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
 
 ![](assets/project-recovery.png)
 
