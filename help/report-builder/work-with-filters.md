@@ -1,28 +1,28 @@
 ---
-title: Cómo usar los filtros en el Report Builder en el Customer Journey Analytics
+title: Cómo usar filtros en Report Builder en Customer Journey Analytics
 description: Describe cómo usar filtros en Report Builder para CJA
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: b655813816b2a8e0d47b035eefa11926f106ee0e
-workflow-type: tm+mt
+exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
+source-git-commit: 4afd011561e6351e7d4da2dc6a2263ca835f0b08
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# Trabajo con filtros en Report Builder
 
-# Trabajar con filtros en el Report Builder
+Puede aplicar Filtros cuando cree un nuevo bloque de datos o cuando seleccione la opción **Editar bloque de datos** del panel COMANDOS.
 
-Puede aplicar Filtros al crear un nuevo bloque de datos o al seleccionar la opción **Editar bloque de datos** en el panel COMANDOS.
-
-## Aplicar filtros a un bloque de datos
+## Aplicación de filtros a un bloque de datos
 
 Para aplicar un filtro a todo el bloque de datos, haga doble clic en un filtro o arrastre y suelte los filtros de la lista de componentes en la sección Filtros de la Tabla.
 
-## Aplicar filtros a métricas individuales
+## Aplicación de filtros a métricas individuales
 
-Para aplicar filtros a métricas individuales, arrastre y suelte un filtro en una métrica de la tabla. También puede hacer clic en **...El icono** a la derecha de una métrica en el panel Tabla y, a continuación, seleccione **Filtrar métrica**. Para ver los filtros aplicados, pase el ratón sobre una métrica o selecciónela en el panel Tabla. Las métricas con filtros aplicados muestran un icono de filtro.
+Para aplicar filtros a métricas individuales, arrastre y suelte un filtro en una métrica de la tabla. También puede hacer clic en el botón **...** a la derecha de una métrica en el panel Tabla y, a continuación, seleccionar **Métrica de filtro**. Para ver los filtros aplicados, pase el ratón sobre una métrica o selecciónela en el panel Tabla. Las métricas con filtros aplicados muestran un icono de filtro.
 
 <!-- ![](./assets/image24.png) -->
 
@@ -30,59 +30,59 @@ Para aplicar filtros a métricas individuales, arrastre y suelte un filtro en un
 
 ## Filtros de edición rápida
 
-Puede utilizar el panel de edición rápida para agregar, quitar o reemplazar filtros para bloques de datos existentes.
+Puede utilizar el panel de edición rápida para añadir, quitar o reemplazar los filtros para bloques de datos existentes.
 
-Cuando se selecciona un rango de celdas en la hoja de cálculo, el vínculo **Filters** del panel de edición rápida muestra una lista resumida de los filtros utilizados por los bloques de datos de esa selección.
+Cuando se selecciona un rango de celdas en la hoja de cálculo, la variable **Filtros** en el panel Edición rápida muestra una lista resumida de los filtros utilizados por los bloques de datos de esa selección.
 
-Edición de filtros mediante el panel de edición rápida
+Edición de filtros mediante el panel Edición rápida
 
 1. Seleccione un rango de celdas de uno o varios bloques de datos.
 
    ![](./assets/select_multiple_dbs.png)
 
-1. Haga clic en el vínculo Filtros para iniciar el panel Edición rápida: Filtros .
+1. Haga clic en el vínculo Filtros para iniciar el panel Edición rápida - Filtros.
 
    ![](./assets/quick_edit_filters.png)
 
-### Agregar o quitar un filtro
+### Agregado o eliminación de un filtro
 
-Puede agregar o quitar filtros utilizando las opciones Agregar o Quitar .
+Puede añadir o quitar filtros utilizando las opciones Agregar o Quitar.
 
-1. Seleccione la pestaña **Add/Remove** en el panel Quick edit-filters .
+1. Seleccione la pestaña **Agregar/eliminar** en el panel Edición rápida - Filtros.
 
-   Todos los filtros aplicados a los bloques de datos seleccionados se muestran en el panel Filtros de edición rápida . Los filtros aplicados a todos los bloques de datos de la selección se enumeran en el encabezado **Aplicado a todos los bloques de datos seleccionados**. Los filtros aplicados a algunos bloques de datos, pero no a todos, se enumeran en el encabezado **Aplicado a 1 o más bloques de datos seleccionados**.
+   Todos los filtros aplicados a los bloques de datos seleccionados se muestran en el panel Edición rápida - Filtros. Los filtros aplicados a todos los bloques de datos de la selección se enumeran en el encabezado **Se aplica a todos los bloques de datos seleccionados**. Los filtros aplicados a algunos bloques de datos, pero no a todos, se enumeran en el encabezado **Se aplica a uno o más bloques de datos seleccionados**.
 
    Cuando hay varios filtros presentes en los bloques de datos seleccionados, puede buscar filtros específicos mediante el campo de búsqueda **Añadir filtro**.
 
    ![](./assets/add_filter.png)
 
-1. Añada filtros seleccionando filtros en el menú desplegable **Add filter**.
+1. Añadir filtros seleccionándolos en el menú desplegable **Añadir filtro**.
 
-   La lista de filtros en los que se pueden buscar incluye todos los filtros accesibles para las vistas de datos que están presentes en uno o más de los bloques de datos seleccionados, así como todos los filtros disponibles globalmente en la organización.
+   La lista de filtros en los que se puede buscar incluye todos los filtros accesibles para las vistas de datos que están presentes en uno o más de los bloques de datos seleccionados, así como todos los filtros disponibles globalmente en la organización.
 
    Al añadir un filtro, se aplica el filtro a todos los bloques de datos de la selección.
 
-1. Para eliminar filtros, haga clic en el icono de eliminación **x** a la derecha de los filtros en la lista **Filtros aplicados**.
+1. Para quitar filtros, haga clic en el icono Eliminar **x** a la derecha de los filtros de la lista **Filtros aplicados**.
 
-1. Haga clic en **Aplicar** para guardar los cambios y volver al panel del concentrador.
+1. Haga clic en **Aplicar** para guardar los cambios y volver al panel central.
 
-   El Report Builder muestra un mensaje para confirmar los cambios del filtro aplicado.
+   Report Builder muestra un mensaje para confirmar los cambios del filtro aplicado.
 
-### Reemplazar un filtro
+### Reemplazo de un filtro
 
 Puede reemplazar un filtro existente por otro para cambiar la forma en que se filtran los datos.
 
-1. Seleccione la pestaña **Replace** en el panel Filtros de edición rápida .
+1. Seleccione la pestaña **Reemplazar** en el panel Edición rápida - Filtros.
 
    ![](./assets/replace_filter.png)
 
-1. Utilice el campo de búsqueda **Search list** para localizar filtros específicos.
+1. Utilice el campo de búsqueda **Lista de búsqueda** para localizar filtros específicos.
 
 1. Elija uno o varios filtros que desee reemplazar.
 
-1. Busque uno o varios filtros en el campo Reemplazar con .
+1. Busque uno o varios filtros en el campo Reemplazar con.
 
-   Al seleccionar un filtro, se agrega a la lista **Replace with**...
+   Al seleccionar un filtro, se añade a la lista **Reemplazar con**...
 
    ![](./assets/replace_screen_new.png)
 
