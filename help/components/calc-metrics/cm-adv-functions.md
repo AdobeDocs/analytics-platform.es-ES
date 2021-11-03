@@ -3,9 +3,9 @@ title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 source-git-commit: d6902af2d5e8a706e6b572c3daca2f60661dbbe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2944'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ## Se excedió la cantidad de valores exclusivos
 
-Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
+Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=es). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
 ## Comparación de funciones de recuento
 
@@ -557,7 +557,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## Regresión cuadrática: Y predicha (Fila)
 
-Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) utilizando el método de los menos cuadrados para calcular la mejor opción de línea para [!DNL Y=(a*X+b)]**** .
+Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) utilizando el método de los menos cuadrados para calcular la mejor opción de línea para [!DNL Y=(a*X+b)]****.
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -699,7 +699,7 @@ donde [!DNL x] es la puntuación sin procesar, [!DNL μ] es la media de poblaci�
 
 >[!NOTE]
 >
->[!DNL μ] (mu) y[!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
+>[!DNL μ] (mu) y [!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
 
 Puntuación Z(métrica)
 
