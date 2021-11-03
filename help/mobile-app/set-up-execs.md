@@ -1,25 +1,25 @@
 ---
 description: Cómo configurar usuarios para que utilicen la aplicación móvil de Analytics
-title: Configurar ejecutivos para utilizar tableros
+title: Configuración de ejecutivos para que utilicen tableros
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
-# Configuración de usuarios ejecutivos para utilizar tableros
+# Configuración de usuarios ejecutivos para que utilicen tableros
 
-En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicional para acceder a la aplicación y utilizarla. Esta sección proporciona información para ayudar a los gestores de datos a proporcionar esa asistencia.
+En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicional para acceder a la aplicación y utilizarla. Esta sección presenta información que ayudará a los responsables a proporcionar esa asistencia.
 
 ## Comprobar que los usuarios de la aplicación pueden acceder a Adobe Analytics
 
-1. Configure nuevos usuarios en el [Admin Console del Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en).
+1. Configure nuevos usuarios en la [Admin Console de Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es).
 
-1. Para poder compartir informes de valoración, debe conceder a los usuarios de la aplicación permisos para acceder a componentes de cuadro de mandos como Analysis Workspace, a las vistas de datos en las que se basan los informes de valoración, así como a filtros, métricas y dimensiones.
+1. Para poder compartir los cuadros de resultados, debe conceder a los usuarios de la aplicación permisos para acceder a componentes del cuadro de resultados como Analysis Workspace, las vistas de datos en los que se basan los informes de valoración, así como segmentos, métricas y dimensiones.
 
 ## Requisitos previos del sistema de los usuarios de la aplicación
 
@@ -27,10 +27,10 @@ Para garantizar que los usuarios ejecutivos tengan acceso a sus informes de valo
 
 * El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics.
-* Ha creado correctamente informes de valoración móviles para ellos y ha compartido estos informes de valoración con ellos.
-* Tienen acceso a los componentes que incluye el informe de valoración. Tenga en cuenta que puede seleccionar una opción al compartir los informes de valoración en **[!UICONTROL Compartir componentes incrustados]**.
+* Haya creado y compartido correctamente los informes de valoración móviles de los usuarios.
+* Los usuarios tengan acceso a los componentes que se incluyen en el cuadro de resultados. Tenga en cuenta que, al compartir los cuadros de resultados, puede seleccionar la opción **[!UICONTROL Compartir los componentes incrustados]**.
 
-## Ayuda a los ejecutivos descargar e instalar la aplicación
+## Ayuda para que los ejecutivos descarguen e instalen la aplicación
 
 **Para usuarios ejecutivos con iOS:**
 
@@ -48,26 +48,26 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
 ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
-## Ayudar a los ejecutivos a acceder al informe de valoración
+## Ayuda para que los ejecutivos accedan al informe de valoración que ha creado
 
 1. Haga que los usuarios ejecutivos inicien sesión en la aplicación.
 
-   Aparece la pantalla **[!UICONTROL Choose a company]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo.
+   Aparece la pantalla **[!UICONTROL Elija una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo.
 
-1. Haga que toquen el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud que se aplica al informe de valoración compartido.
+1. Haga que pulsen el nombre de la compañía de inicio de sesión o de la organización de Experience Cloud con la que acceder al cuadro de resultados que ha compartido.
 
-   A continuación, la lista informe de valoración muestra todos los informes de valoración que se han compartido con el ejecutivo en esa empresa de inicio de sesión.
+   A continuación, la lista de cuadros de resultados muestra todos los cuadros de resultados que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
 
-1. Haga que ordenen esta lista por **[!UICONTROL Últimas modificaciones]**, si corresponde.
+1. Ayude al usuario ejecutivo a ordenar esta lista por **[!UICONTROL Últimas modificaciones]**, si procede.
 
-1. Haga que toquen el nombre del informe de valoración para verlo.
+1. Haga que pulsen el nombre de un cuadro de resultados para verlo.
 
    ![Seleccione una empresa](assets/accesscard.png)
 
 
-### Explicar la interfaz de usuario del informe de valoración
+### Explicación de la IU del cuadro de resultados
 
-Explique al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración que comparte.
+Explique al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de resultados compartidos.
 
 ![Explicación de los mosaicos](assets/newexplain.png)
 
@@ -95,7 +95,7 @@ Información adicional sobre los mosaicos:
 
    ![Cambio de fechas](assets/changedate.png)
 
-## Cambiar preferencias de aplicación
+## Cambio de preferencias de aplicación
 
 Para cambiar las preferencias, pulse la opción **[!UICONTROL Preferencias]** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer el modo oscuro de la aplicación, tal y como se muestra a continuación:
 
@@ -108,6 +108,6 @@ Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha c
 ![No se ha compartido nada](assets/nothing.png)
 
 * Es posible que el usuario ejecutivo haya seleccionado una instancia incorrecta de Analytics o
-* Es posible que el informe de valoración no se haya compartido con el usuario ejecutivo.
+* Es posible que el cuadro de resultados no se haya compartido con el usuario ejecutivo.
 
-Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Adobe Analytics y que se ha compartido el informe de valoración.
+Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Adobe Analytics y que se ha compartido el cuadro de resultados.
