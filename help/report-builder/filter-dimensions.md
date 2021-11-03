@@ -1,16 +1,16 @@
 ---
-title: Cómo usar los filtros en el Report Builder en el Customer Journey Analytics
+title: Cómo usar filtros en Report Builder en Customer Journey Analytics
 description: Describe cómo usar filtros en Report Builder para CJA
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: dc6317bc754218c03d78145be1c8681ad202bcb8
-workflow-type: tm+mt
+exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
+source-git-commit: 4afd011561e6351e7d4da2dc6a2263ca835f0b08
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
-
 
 # Filtrar dimensiones
 
@@ -18,42 +18,42 @@ De forma predeterminada, cada elemento de dimensión de la tabla devuelve los 10
 
 Para cambiar los elementos de dimensión devueltos para cada dimensión
 
-1. Seleccione un bloque de datos y haga clic en Editar bloque de datos en el panel COMANDOS .
+1. Seleccione un bloque de datos y haga clic en Editar bloque de datos en el panel COMANDOS.
 
-1. Haga clic en Siguiente para mostrar la pestaña Dimension .
+1. Haga clic en Siguiente para mostrar la pestaña Dimensiones.
 
-1. Haga clic en **...Icono** junto al nombre de un componente en la tabla.
+1. Haga clic en el icono **...** junto al nombre de un componente en la tabla.
 
    ![](./assets/image27.png)
 
-1. Seleccione **Filter dimension** en el menú emergente para mostrar el panel **Filter dimension**.
+1. Seleccione **Dimensión del filtro** en el menú emergente para mostrar el panel **Dimensión del filtro**.
 
-1. Seleccione **Más popular** o **Específico**.
+1. Seleccione **El más popular** o **Específico**.
 
    ![](./assets/image28.png)
 
 1. Seleccione las opciones adecuadas en función del tipo de filtro elegido.
 
-1. Haga clic en **Apply** para agregar el filtro.
+1. Haga clic en **Aplicar** para añadir el filtro.
 
-   El Report Builder muestra una notificación para confirmar el filtro añadido.
+   Report Builder muestra una notificación para confirmar el filtro añadido.
 
-Para mostrar los filtros aplicados, pase el ratón sobre una dimensión. Los Dimension con filtros aplicados muestran un icono de filtro a la derecha del nombre del Dimension.
+Para mostrar los filtros aplicados, pase el ratón sobre una dimensión. Las dimensiones con filtros aplicados muestran un icono de filtro a la derecha del nombre de la dimensión.
 
 ## Tipo de filtro
 
-Existen dos formas de filtrar los elementos de dimensión: Más popular y específico.
+Existen dos formas de filtrar los elementos de dimensión: el más popular y específico.
 
 ## Más popular
 
-La opción Más popular le permite filtrar dinámicamente los elementos de dimensión en función de los valores de las métricas. El filtrado más popular devuelve los elementos de dimensión de mayor clasificación en función de los valores de las métricas. De forma predeterminada, se muestran los 10 primeros elementos de dimensión, ordenados por la primera métrica agregada al bloque de datos.
+La opción el más popular le permite filtrar dinámicamente los elementos de dimensión en función de los valores de las métricas. El filtrado por el más popular devuelve los elementos de dimensión de mayor clasificación en función de los valores de las métricas. De forma predeterminada, se muestran los 10 primeros elementos de dimensión, ordenados por la primera métrica añadida al bloque de datos.
 
 ![archivos de imagen](./assets/image29.png)
 
 
 ### Opciones de página y filas
 
-Utilice los campos **Page** y **Rows** para dividir los datos en grupos o páginas secuenciales. Esto le permite extraer en el informe valores de fila clasificados que no sean los valores más altos. Esta función es especialmente útil para extraer datos que superen el límite de 50 000 filas.
+Utilice los campos **Página** y **Filas** para dividir los datos en grupos secuenciales o páginas. Esto le permite extraer en el informe valores de fila clasificados que no sean los valores más altos. Esta función es especialmente útil para extraer datos que superen el límite de 50 000 filas.
 
 #### Valores predeterminados de página y filas
 
@@ -62,30 +62,30 @@ Utilice los campos **Page** y **Rows** para dividir los datos en grupos o págin
 
 La configuración predeterminada Página y Filas identifica que cada página tiene 10 filas de datos. La página 1 devuelve los 10 elementos principales, la página 2 devuelve los 10 elementos siguientes, etc.
 
-En la tabla siguiente se muestran ejemplos de valores de página y fila y el resultado.
+En la tabla siguiente se muestran ejemplos de valores de página, fila y el resultado.
 
-| Página | Fila | Salida |
+| Página | Fila | Output |
 |------|--------|----------------------|
-| 1 | 10 | Principales 10 elementos |
-| 2 | 10 | Temas 11 a 20 |
-| 1 | 100 | Principales 100 elementos |
-| 2 | 100 | Temas 101 a 200 |
-| 2 | 50 000 | Temas 50.001 a 100.000 |
+| 1 | 10 | Primeros 10 elementos |
+| 2 | 10 | Elementos 11 a 20 |
+| 1 | 100 | Primeros 100 elementos |
+| 2 | 100 | Elementos 101 a 200 |
+| 2 | 50 000 | Elementos 50 001 a 100 000 |
 
-#### Valores mínimo y máximo
+#### Valores mínimos y máximos
 
-- Página de inicio: Mín. = 1, Máx.: 50 millones
-- Número de filas: Mín. = 1, Máx.: 50.000
+- Página de inicio: mín. = 1, máx.: 50 millones
+- Número de filas: mín. = 1, máx.: 50 000
 
-### Incluir &quot;Sin valor&quot;
+### Incluir “Sin valor”
 
-En Customer Journey Analytics, algunas dimensiones recopilan una entrada &quot;sin valor&quot;. Este filtro le permite excluir estos valores de los informes. Por ejemplo, puede crear una clasificación como la clasificación Nombre del producto basada en la clave SKU del producto. Si no se ha configurado un SKU de producto específico con su clasificación de nombre de producto específica, su valor de nombre de producto se establece en &quot;sin valor&quot;.
+En Customer Journey Analytics, algunas dimensiones recopilan una entrada “sin valor”. Este filtro le permite excluir estos valores de los informes. Por ejemplo, puede crear una clasificación como la de Nombre del producto basada en la clave SKU del producto. Si no se ha configurado un SKU de producto específico con su clasificación de nombre de producto específica, su valor de nombre de producto se establece en “sin valor”.
 
-Incluir &quot;**Ningún valor**&quot; está seleccionado de forma predeterminada. Anule la selección de esta opción para excluir las entradas sin valor.
+Incluir “**Sin valor**” está seleccionado de forma predeterminada. Anule la selección de esta opción para excluir las entradas sin valor.
 
-### Filtrar por criterios
+### Filtrado por criterios
 
-Puede filtrar los elementos de dimensión en función de si se cumplen todos los criterios o si se cumple alguno.
+Puede filtrar los elementos de dimensión en función de si se cumplen todos los criterios o alguno.
 
 Definición de criterios de filtrado
 
@@ -93,19 +93,19 @@ Definición de criterios de filtrado
 
    ![](./assets/image31.png)
 
-1. Introduzca un valor en el campo de búsqueda.
+1. Escriba un valor en el campo de búsqueda.
 
-1. Haga clic en Añadir fila para confirmar la selección y añadir otro elemento de criterio.
+1. Haga clic en Agregar fila para confirmar la selección y añadir otro elemento de criterio.
 
-1. Haga clic en el icono de eliminación para eliminar un elemento de criterio.
+1. Haga clic en el icono Eliminar para quitar un elemento de criterio.
 
-   Puede incluir hasta 10 elementos de criterios.
+   Puede incluir hasta 10 elementos de criterio.
 
-### Cambiar el filtro y el orden
+### Cambio del filtro y el orden
 
-Aparece una flecha junto a la métrica utilizada para filtrar y ordenar el bloque de datos. La dirección de la flecha indica si la métrica se ordena de bueno a menos o menos a bueno.
+Aparece una flecha junto a la métrica utilizada para filtrar y ordenar el bloque de datos. La dirección de la flecha indica si la métrica se ordena de mayor a menor o menor a mayor.
 
-Para cambiar la dirección de ordenación, haga clic en la flecha situada junto a la métrica. 
+Para cambiar la dirección del orden, haga clic en la flecha situada junto a la métrica. 
 
 Para cambiar la métrica utilizada para filtrar y ordenar el bloque de datos,
 
@@ -118,37 +118,37 @@ Para cambiar la métrica utilizada para filtrar y ordenar el bloque de datos,
 
 ## Filtro específico
 
-La opción Específico permite crear una lista fija de elementos de dimensión para cada dimensión. Utilice el tipo de filtrado **Specific** para especificar los elementos de dimensión exactos que se incluirán en el filtro. Puede seleccionar elementos de una lista o de un rango de celdas.
+La opción Específico permite crear una lista fija de elementos de dimensión para cada dimensión. Utilice el tipo de filtro **Específico** para especificar los elementos de dimensión exactos que se incluirán en el filtro. Puede seleccionar elementos de una lista o de un rango de celdas.
 
 ![](./assets/image32.png)
 
 ### De la lista
 
-1. Seleccione la opción **From list** para buscar y seleccionar elementos de dimensión.
+1. Seleccione la opción **De la lista** para buscar y seleccionar elementos de dimensión.
 
-   Cuando selecciona la opción **From list**, la lista se rellena con elementos de dimensión con la mayor cantidad de eventos primero.
+   Al seleccionar la variable **De la lista**, la lista se rellena con elementos de dimensión con la mayoría de eventos primero.
 
    ![](./assets/image33.png)
 
-   La lista **Elementos disponibles** se ordena desde los elementos de dimensión con la mayor cantidad de eventos a los que tienen menos.
+   La lista **Elementos disponibles** se ordena de elementos de dimensión con la mayor cantidad de eventos a aquellos con la menor cantidad.
 
-1. Introduzca un término de búsqueda en el campo **Add item** para buscar en la lista.
+1. Escriba un término de búsqueda en el campo **Añadir elemento** para buscar en la lista.
 
-1. Para buscar un elemento no incluido en los últimos 90 días de datos, haga clic en **Mostrar elementos de los últimos 6 meses** para ampliar la búsqueda.
+1. Para buscar un elemento no incluido en los últimos 90 días de datos, haga clic en **Mostrar los elementos de los últimos 6 meses** para ampliar la búsqueda.
 
    ![](./assets/image34.png)
 
-   Después de cargar los datos de los últimos seis meses, el Report Builder actualiza el vínculo a **Mostrar elementos durante los últimos 18 meses**.
+   Después de cargar los datos de los últimos seis meses, Report Builder actualiza el vínculo a **Mostrar artículos de los últimos 18 meses**.
 
-1. Seleccione un elemento de dimensión.
+1. Seleccionar un elemento de dimensión.
 
    Los elementos de dimensión seleccionados se añaden automáticamente a la lista **Elementos seleccionados**.
 
    ![](./assets/image35.png)
 
-   Para eliminar un elemento de la lista, haga clic en el icono eliminar para eliminarlo de la lista.
+   Para quitar un elemento de la lista, haga clic en el icono eliminar.
 
-   Para mover un elemento en la lista, arrastre y suelte el elemento o haga clic en ... para mostrar el menú mover.
+   Para mover un elemento en la lista, arrastre y suelte el elemento o haga clic en ... para mostrar el menú de mover.
 
    ![](./assets/image36.png)
 
@@ -158,22 +158,22 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
 ### Desde el rango de celdas
 
-Seleccione la opción **From range of Cells** para elegir un rango de celdas que contenga la lista de elementos de dimensiones que desea hacer coincidir.
+Seleccione la opción **Desde el rango de celdas** para elegir un rango de celdas que contenga la lista de elementos de dimensiones que desea que coincidan.
 
 ![](./assets/image37.png)
 
 Cuando seleccione un rango de celdas, tenga en cuenta las restricciones siguientes:
 
 - El rango debe tener al menos una celda.
-- El rango no puede tener más de 50.000 celdas.
-- El rango debe estar en una sola fila o columna sin pausarlo.
+- El rango no puede tener más de 50 000 celdas.
+- El rango debe estar en una sola fila o columna sin interrupciones.
 
-La selección puede contener celdas vacías o celdas con valores que no coinciden con un elemento de dimensión específico.
+La selección puede contener celdas vacías o con valores que no coinciden con un elemento de dimensión específico.
 
-### Desde la ficha Dimension del Generador de tablas
+### Desde la pestaña Dimensiones del Generador de tablas
 
-En la pestaña **Dimension**, haga clic en el icono de cheurón situado junto al nombre de una dimensión para ver la lista de elementos de dimensión.
+En la pestaña **Dimensiones**, haga clic en el icono de cheurón situado junto al nombre de una dimensión para ver la lista de elementos que contiene.
 
 ![](./assets/dimensions_chevron.png)
 
-Puede arrastrar y soltar elementos en la **Tabla** o hacer doble clic en un nombre de elemento para agregarlo al Generador de **Tabla**.
+Puede arrastrar y soltar elementos en la **Tabla** o hacer doble clic en un nombre de elemento para añadirlo al Generador de **tablas**.
