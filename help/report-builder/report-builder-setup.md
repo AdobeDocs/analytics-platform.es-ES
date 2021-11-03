@@ -1,20 +1,20 @@
 ---
 title: Configuración de Report Builder en Customer Journey Analytics
-description: Describe cómo configurar el Report Builder en CJA
+description: Describe cómo configurar Report Builder en CJA
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: e76f6cbb8ecf2032a8211d1c6bd18a79c2a6f5d2
-workflow-type: tm+mt
+exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
+source-git-commit: 4afd011561e6351e7d4da2dc6a2263ca835f0b08
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
+# Configuración de Report Builder
 
-# Configuración del Report Builder
-
-Puede acceder rápidamente al Report Builder mediante el menú Complemento de Excel.
+Puede acceder rápidamente a Report Builder mediante el menú Complemento de Excel.
 
 ## Requisitos
 
@@ -45,7 +45,7 @@ Report Builder para Customer Journey Analytics es compatible con los siguientes 
 
 Debe instalar el complemento de Excel de Report Builder para utilizar Report Builder para Customer Journey Analytics. Una vez instalado el complemento de Excel de Report Builder, puede acceder a Report Builder desde un libro de Excel abierto.
 
-### Descargar e instalar el complemento de Report Builder
+### Descarga e instalación del complemento de Report Builder
 
 Para descargar e instalar el complemento de Report Builder
 
@@ -53,9 +53,9 @@ Para descargar e instalar el complemento de Report Builder
 
 1. Seleccione Insertar > Obtener complementos.
 
-1. En el cuadro de diálogo Complementos de Office, seleccione la ficha Almacenar .
+1. En el cuadro de diálogo Complementos de Office, seleccione la pestaña Tienda.
 
-1. Busque &quot;Report Builder&quot; y haga clic en Agregar.
+1. Busque “Report Builder” y haga clic en Agregar.
 
 1. En el cuadro de diálogo Términos de licencia y política de privacidad, haga clic en Continuar.
 
@@ -63,39 +63,39 @@ Para descargar e instalar el complemento de Report Builder
 
 1. En Excel, seleccione Archivo > Cuenta > Administrar configuración.
 
-1. Marque la casilla junto a &quot;Habilitar experiencias conectadas opcionales&quot;.
+1. Marque la casilla junto a “Habilitar experiencias conectadas opcionales”.
 
 1. Reinicie Excel.
 
-**Si su organización bloquea el acceso a la tienda Microsoft**
+**Si su organización bloquea el acceso a la Microsoft Store**
 
-Póngase en contacto con su equipo de TI o de seguridad para solicitar la aprobación del complemento del Report Builder. Una vez concedida la aprobación, en el cuadro de diálogo Complementos de Office, seleccione la pestaña Administración administrada .
+Póngase en contacto con su equipo de TI o de seguridad para solicitar la aprobación del complemento de Report Builder. Una vez concedida la aprobación, en el cuadro de diálogo Complementos de Office, seleccione la pestaña Administración administrada.
 
 ![](./assets/image1.png)
 
-Después de instalar el complemento del Report Builder, el icono del Report Builder se muestra en la cinta de Excel debajo de la ficha Inicio.
+Después de instalar el complemento de Report Builder, el icono de Report Builder se muestra en la cinta de Excel debajo de la pestaña Inicio.
 
 ![](./assets/rb_app_icon.png)
 
-## Iniciar sesión en el Report Builder
+## Inicio de sesión en Report Builder
 
 Después de instalar el complemento de Report Builder for Excel para su plataforma operativa o explorador, siga estos pasos para iniciar sesión en Report Builder.
 
 1. Abra un libro de Excel.
 
-1. Haga clic en el icono del Report Builder para iniciar el Report Builder.
+1. Haga clic en el icono de Report Builder para iniciar Report Builder.
 
-1. En la barra de herramientas de Adobe Report Builder, haga clic en **Login**.
+1. En la barra de herramientas de Adobe Report Builder, haga clic en **Iniciar sesión**.
 
    ![](./assets/rb_login.png)
 
-1. Introduzca la información de la cuenta de Adobe Experience ID. La información de la cuenta debe coincidir con las credenciales del Customer Journey Analytics.
+1. Introduzca la información de la cuenta de Adobe Experience ID. La información de la cuenta debe coincidir con las credenciales de Customer Journey Analytics.
 
    ![](./assets/image4.png)
 
 Después de iniciar sesión, el icono de inicio de sesión y la organización aparecerán en la parte superior del panel
 
-## Cambiar organizaciones
+## Cambio de organizaciones
 
 La primera vez que inicie sesión, iniciará sesión en la organización predeterminada asignada a su perfil.
 
@@ -107,7 +107,7 @@ La primera vez que inicie sesión, iniciará sesión en la organización predete
 
 ## Cerrar sesión
 
-Puede cerrar la sesión desde el Report Builder desde el perfil de usuario.
+Puede cerrar la sesión de Report Builder desde el perfil de usuario.
 
 1. Guarde los cambios en los libros abiertos.
 
