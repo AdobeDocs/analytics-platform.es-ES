@@ -3,9 +3,9 @@ title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 source-git-commit: 8efb8da477b2680a44294553fdca944461ba0f0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Acceso a la API de informes | Compatibilidad total. Disponible a través de la [API de CJA](https://www.adobe.io/cja-apis/docs/). |
 | Informes y proyectos programados | Compatibilidad total. |
 | Segmentos | Compatibilidad total. Ahora se denomina Filtros. Tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
-| Permisos de usuario/Controles de acceso de datos | Compatibilidad total. CJA distingue entre administradores de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es). Solo los administradores de productos pueden <ul><li>Crear/actualizar/eliminar conexiones o Vistas de datos</li><li>Actualizar o eliminar proyectos, filtros o métricas de cálculo creados por otros usuarios, y</li><li>Compartir un proyecto de Workspace con todos los usuarios.</li></ul> |
+| Permisos de usuario/Controles de acceso de datos | Compatibilidad total. CJA distingue entre administradores de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es). Solo los administradores de productos pueden <ul><li>Crear/actualizar/eliminar conexiones o Vistas de datos</li><li>Actualizar o eliminar proyectos, filtros o métricas de cálculo creados por otros usuarios, y</li><li>Compartir un proyecto de del Espacio de trabajo con todos los usuarios.</li></ul> |
 | Grupos de informes virtuales | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de VRS | Compatibilidad total; Ahora forma parte de Vistas de datos. |
 
@@ -83,7 +83,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Persistencia de la variable de comercialización | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
-| Publicación de segmentos (envío de segmentos de Workspace a Experience Cloud) | Se ha planificado lanzar una versión compatible. |
+| Publicación de segmentos (envío de segmentos de del Espacio de trabajo a Experience Cloud) | Se ha planificado lanzar una versión compatible. |
 
 ## Compatibilidad aún no planificada
 
