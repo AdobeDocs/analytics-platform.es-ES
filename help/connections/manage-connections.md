@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 source-git-commit: fa87337c10a1621142137b427c1986fafc70d9f7
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Solo los administradores tienen permiso para eliminar una conexión. Esta acció
 Cuando elimine una conexión en [!UICONTROL Customer Journey Analytics], un mensaje de error indicará lo siguiente:
 
 * Ya no funciona ninguna vista de datos creada en función de la conexión eliminada.
-* Del mismo modo, los proyectos de Workspace que dependan de vistas de datos en la conexión eliminada dejarán de funcionar.
+* Del mismo modo, los proyectos de del Espacio de trabajo que dependan de vistas de datos en la conexión eliminada dejarán de funcionar.
 
 [Obtenga más información](/help/getting-started/cja-deletion.md) acerca de las implicaciones de la eliminación.
 
@@ -138,9 +138,9 @@ Permite a los administradores editar la conexión. Seleccione una conexión y ha
 * Actualice los conjuntos de datos.
 * Elimine los conjuntos de datos de las conexiones.
 
-## Configurar la ventana móvil para [!UICONTROL Conexión] retención de datos
+## Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión]
 
 >[!IMPORTANT]
 >Póngase en contacto con el Servicio de atención al cliente o con el administrador de cuentas de Adobe para implementar esta configuración. Todavía no está disponible a través de la IU de CJA.
 
-Esta configuración le permite definir la retención de datos de CJA como un período de tiempo variable en meses (3 meses, 6 meses, etc.), a una [!UICONTROL connection] Nivel (no en un [!UICONTROL conjunto de datos] nivel). La retención de datos se basa en las marcas de tiempo de los conjuntos de datos de eventos y se aplica solo a los conjuntos de datos de eventos. No existe ningún ajuste de retención de datos para los conjuntos de datos de perfiles o de búsqueda, ya que no hay marcas de tiempo aplicables. La principal ventaja es que se almacenan o registran solo los datos que son aplicables y útiles, y se eliminan los datos antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites de su contrato y reduce el riesgo de que se produzcan costes por exceso de uso.
+Esta configuración le permite definir la retención de datos de CJA como un período de tiempo variable en meses (tres o seis meses, etc.), en un nivel de [!UICONTROL conexión] (no en un nivel de [!UICONTROL conjunto de datos]). La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.

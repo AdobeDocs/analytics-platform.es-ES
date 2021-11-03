@@ -5,7 +5,7 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 source-git-commit: 688c7ee9debd82bbeb1e95461e9d95a8d1bd220b
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 | ¿Puede [!UICONTROL Customer Journey Analytics] “unir” varios dispositivos o conjuntos de datos? | Sí. [!UICONTROL Customer Journey Analytics] tiene una solución de vinculación llamada [Análisis entre canales múltiples](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es) (CCA). Permite volver a escribir el ID de la persona de un conjunto de datos, lo que ofrece una combinación perfecta de varios conjuntos de datos. |
 | ¿Se admite la unión del comportamiento anónimo al comportamiento autenticado? | Sí. [Análisis entre canales múltiples](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado. |
 | ¿Cómo funciona la &quot;repetición&quot; en CCA? | CCA &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. Reproducir hace que los nuevos dispositivos de la conexión se vinculen. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=es#paso-1%3A-vinculaci%C3%B3n-en-tiempo-real) |
-| ¿Cómo funciona la vinculación de datos históricos (relleno) en CCA? | Cuando se active por primera vez, Adobe proporcionará un relleno de datos vinculados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, los datos no vinculados en aquel momento deben tener un tipo de ID efímero. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es#habilitaci%C3%B3n-de-an%C3%A1lisis-entre-canales) |
+| ¿Cómo funciona la vinculación de datos históricos (relleno) en CCA? | Cuando se active por primera vez, Adobe proporcionará un relleno de datos vinculados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, los datos no vinculados en aquel momento deben tener un tipo de ID efímero. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es#enable-cross-channel-analytics) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -44,18 +44,18 @@ ht-degree: 93%
 | ¿Cómo puedo obtener datos de [!UICONTROL Adobe Analytics] en [!UICONTROL Customer Journey Analytics]? | Los datos de [!UICONTROL Adobe Analytics] se pueden conectar a Experience Platform mediante el [conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). La mayoría de los campos de [!UICONTROL Adobe Analytics] se transfieren en formato XDM, pero otros campos todavía no están disponibles. |
 | ¿Cuánto tiempo se tarda en ensamblar elementos de conjuntos de datos a una vista de datos? | Tarda unas pocas horas en empezar y unos días en rellenar los últimos 13 meses de datos. |
 | ¿Es necesario introducir datos PII para establecer conexiones entre ellos? | No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es PII. |
-| ¿Cuáles son los límites para la ingesta de fechas/marcas de tiempo pasadas o futuras en conjuntos de datos de eventos de CJA? | <ul><li>Con respecto a las fechas y marcas de tiempo anteriores: Datos de eventos de hasta 10 años.</li><li>Con respecto a las fechas y marcas de hora futuras: Datos de eventos (predictivos) hasta 1 mes en el futuro.</li></ul> |
+| ¿Cuáles son los límites para la ingesta de fechas/marcas de tiempo pasadas o futuras en conjuntos de datos de eventos de CJA? | <ul><li>Con respecto a las fechas y marcas de tiempo anteriores: datos de eventos de hasta 10 años.</li><li>Con respecto a las fechas y marcas de hora futuras: datos de eventos (predictivos) hasta 1 mes en el futuro.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 4. Consideraciones de latencia
 
 >[!NOTE]
->No hay un tamaño de datos fijo en CJA y, por lo tanto, el Adobe no puede comprometerse con un tiempo de ingesta estándar. Estamos trabajando activamente para reducir estas latencias a través de nuevas actualizaciones y optimización de la ingesta.
+>No hay un tamaño de datos fijo en CJA y, por lo tanto, Adobe no puede comprometerse con un tiempo de ingesta estándar. Estamos trabajando activamente para reducir estas latencias a través de nuevas actualizaciones y la optimización de la ingesta.
 
 | Pregunta | Respuesta |
 | --- | --- |
-| ¿Cuál es la latencia esperada para [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform]? | <ul><li>Eventos o datos activos: Procesado e ingestado en un plazo de 90 minutos, una vez que los datos estén disponibles en AEP.</li><li>Tamaño del lote > 50 millones de filas: más de 90 minutos.</li><li>Rellenos secundarios pequeños : por ejemplo, un conjunto de datos de consulta de 10 millones de filas: en un plazo de 24 horas<li>Rellenos de fondo grandes: por ejemplo, 500 000 millones de filas: 30 días</li></ul> |
+| ¿Cuál es la latencia esperada para [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform]? | <ul><li>Eventos o datos activos: procesado e ingestado en un plazo de 90 minutos, una vez que los datos estén disponibles en AEP.</li><li>Tamaño del lote > 50 millones de filas: más de 90 minutos.</li><li>Rellenos secundarios pequeños: por ejemplo, un conjunto de datos de consulta de 10 millones de filas: en un plazo de 24 horas<li>Rellenos de fondo grandes: por ejemplo, 500 000 millones de filas: 30 días</li></ul> |
 
 
 ## 5. Componentes tradicionales de [!UICONTROL Adobe Analytics]
@@ -73,7 +73,7 @@ ht-degree: 93%
 
 ## 6. Implicaciones de la eliminación de componentes de datos
 
-En cuanto a la eliminación de datos, nos interesan 6 tipos de componentes: simulación de pruebas, esquema, conjunto de datos, conexión, vista de datos y proyectos de Workspace. Estos son algunos de los escenarios posibles en los que puede ser necesario eliminar cualquiera de estos componentes:
+En cuanto a la eliminación de datos, nos interesan 6 tipos de componentes: simulación de pruebas, esquema, conjunto de datos, conexión, vista de datos y proyectos de del Espacio de trabajo. Estos son algunos de los escenarios posibles en los que puede ser necesario eliminar cualquiera de estos componentes:
 
 | Si usted... | Esto sucede... |
 | --- | --- |
@@ -83,8 +83,8 @@ En cuanto a la eliminación de datos, nos interesan 6 tipos de componentes: simu
 | Eliminar un conjunto de datos en [!UICONTROL Customer Journey Analytics] | Actualmente, no se puede eliminar un conjunto de datos de una conexión que se haya guardado. Tendría que eliminar toda la conexión y comenzar de nuevo. (Sin embargo, los clientes que hayan adquirido la SKU de CJA pueden eliminar un conjunto de datos en la interfaz de usuario de [!UICONTROL Adobe Experience Platform]). |
 | Eliminar un lote de un conjunto de datos (en [!UICONTROL Adobe Experience Platform]) | Si se elimina un lote de un conjunto de datos de [!UICONTROL Adobe Experience Platform], se eliminará el mismo lote de cualquier conexión de CJA que contenga dicho lote específico. CJA recibirá una notificación de las eliminaciones de lotes que se produzcan en [!UICONTROL Adobe Experience Platform]. |
 | Eliminar un lote **mientras se está introduciendo** en [!UICONTROL Customer Journey Analytics] | Si solo hay un lote en el conjunto de datos, no aparecerán datos ni datos parciales de dicho lote en [!UICONTROL Customer Journey Analytics]. La introducción se revertirá. Si, por ejemplo, hay 5 lotes en el conjunto de datos y 3 de ellos ya se han introducido cuando se elimine el conjunto de datos, los datos de esos 3 lotes aparecerán en [!UICONTROL Customer Journey Analytics]. |
-| Eliminar una conexión en [!UICONTROL Customer Journey Analytics] | Aparecerá un mensaje de error para indicar lo siguiente:<ul><li>Las vistas de datos creadas para la conexión eliminada ya no funcionarán.</li><li> Del mismo modo, los proyectos de Workspace que dependan de vistas de datos en la conexión eliminada dejarán de funcionar.</li></ul> |
-| Eliminar una vista de datos en [!UICONTROL Customer Journey Analytics] | Un mensaje de error indicará que dejarán de funcionar todos los proyectos de Workspace que dependan de esta vista de datos eliminada. |
+| Eliminar una conexión en [!UICONTROL Customer Journey Analytics] | Aparecerá un mensaje de error para indicar lo siguiente:<ul><li>Las vistas de datos creadas para la conexión eliminada ya no funcionarán.</li><li> Del mismo modo, los proyectos de del Espacio de trabajo que dependan de vistas de datos en la conexión eliminada dejarán de funcionar.</li></ul> |
+| Eliminar una vista de datos en [!UICONTROL Customer Journey Analytics] | Un mensaje de error indicará que dejarán de funcionar todos los proyectos de del Espacio de trabajo que dependan de esta vista de datos eliminada. |
 
 ## 7. Consideraciones al combinar grupos de informes en CJA
 
