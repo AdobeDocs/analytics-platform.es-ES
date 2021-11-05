@@ -2,10 +2,10 @@
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 94b086c9eb0b148ebb176a37205030b862ac2678
+source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 60%
+source-wordcount: '851'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acced
 
 ## Tipos de panel
 
-A continuación, se describen los tipos de paneles que están disponibles en Analysis Workspace:
+Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UICONTROL Customer Journey Analytics]:
 
 | Nombre del panel | Descripción |
 | --- | --- |
@@ -38,7 +38,7 @@ Nota: Si se utiliza un componente de intervalo de fechas (púrpura) en una tabla
 
 ![](assets/panel-calendar.png)
 
-Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel. Si realiza informes en un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo.
+Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel. Si realiza informes de un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo.
 
 ## Zona de colocación {#dropzone}
 
