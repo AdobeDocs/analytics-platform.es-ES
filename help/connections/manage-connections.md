@@ -3,9 +3,9 @@ title: Administrar conexiones
 description: Describe cómo administrar conexiones a conjuntos de datos de Experience Platform en Customer Journey Analytics (CJA).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 6d1907d676ea01b3956d5ce2ce76d43d7a8f0f1d
+source-git-commit: 3103e02bb49b6e5913c8a71d7ecf436b5ee90d11
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1866'
 ht-degree: 83%
 
 ---
@@ -32,7 +32,7 @@ El Administrador de conexiones le permite:
 * Cambiar el nombre de una conexión.
 * Crear una vista de datos a partir de una conexión.
 
-![Administrar conexiones](assets/conn-manager.png)
+![](assets/conn-manager.png)
 
 | Configuración | Descripción |
 | --- | --- |
@@ -85,7 +85,7 @@ Le permite:
 
 Aquí se explican los widgets y la configuración:
 
-![Ver detalles de conexión](assets/conn-details.png)
+![](assets/conn-details.png)
 
 | Widget/configuración | Descripción |
 | --- | --- |
