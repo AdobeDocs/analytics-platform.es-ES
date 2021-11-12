@@ -10,9 +10,9 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Análisis entre canales, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 20dd79161f813a372901dafa8ba44bb64d301974
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 93%
       + [Clasificación de valor](data-views/component-settings/value-bucketing.md)
    + [Referencia de componente estándar](data-views/component-reference.md)
    + [Casos de uso de vistas de datos](data-views/data-views-usecases.md)
-+ Proyectos de Workspace {#cja-workspace}
++ Proyectos de del Espacio de trabajo {#cja-workspace}
    + [Información general de Analysis Workspace](analysis-workspace/home.md)
    + [Realizar análisis básico](analysis-workspace/perform-basic-analysis.md)
    + [Realizar análisis avanzado](analysis-workspace/perform-adv-analysis.md)
@@ -71,7 +71,7 @@ ht-degree: 93%
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Paginación, filtrado y ordenación de tablas](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Totales de Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totales de del Espacio de trabajo](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -125,7 +125,7 @@ ht-degree: 93%
          + [Visualización de anomalías en Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [Técnicas estadísticas utilizadas en la detección de anomalías](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Preferencias del usuario](analysis-workspace/user-preferences.md)
-   + Preguntas frecuentes sobre Workspace {#workspace-faq}
+   + Preguntas frecuentes sobre del Espacio de trabajo {#workspace-faq}
       + [Preguntas frecuentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Mensajes de error](analysis-workspace/workspace-faq/error-messages.md)
@@ -134,14 +134,14 @@ ht-degree: 93%
       + [Accesibilidad en Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Long-tail en Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
 + Report Builder {#cja-reportbuilder}
-   + [Información general del Report Builder](report-builder/report-buider-overview.md)
-   + [Configuración del Report Builder](report-builder/report-builder-setup.md)
-   + [Crear un bloque de datos](report-builder/create-a-data-block.md)
-   + [Centro de Report Builder](report-builder/report-builder-hub.md)
-   + [Seleccionar un intervalo de fechas](report-builder/select-date-range.md)
-   + [Trabajar con filtros](report-builder/work-with-filters.md)
+   + [Información general de Report Builder](report-builder/report-buider-overview.md)
+   + [Configuración de Report Builder](report-builder/report-builder-setup.md)
+   + [Creación de un bloque de datos](report-builder/create-a-data-block.md)
+   + [Report Builder Hub](report-builder/report-builder-hub.md)
+   + [Selección de un intervalo de fechas](report-builder/select-date-range.md)
+   + [Trabajo con filtros](report-builder/work-with-filters.md)
    + [Filtrar dimensiones](report-builder/filter-dimensions.md)
-   + [Configuración del Report Builder](report-builder/report-builder-settings.md)
+   + [Configuración de Report Builder](report-builder/report-builder-settings.md)
 + Componentes {#cja-components}
    + [Resumen de componentes](components/overview.md)
    + Dimensiones {#dimensions}
@@ -198,7 +198,7 @@ ht-degree: 93%
    + [Paneles de Analytics: Información general](mobile-app/home.md)
    + [Tareas del gestor de datos](mobile-app/curator.md)
    + [Creación de un cuadro de resultados](mobile-app/create-scorecard.md)
-   + [Configurar ejecutivos para utilizar tableros](mobile-app/set-up-execs.md)
+   + [Configuración de ejecutivos para que utilicen tableros](mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + Privacidad {#cja-privacy}
    + [Información general de privacidad](privacy/privacy-overview.md)
