@@ -2,9 +2,9 @@
 description: El Administrador de métricas calculadas ofrece numerosas maneras de conservar las métricas, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 title: Administrador de métricas calculadas
 source-git-commit: cefc5696efa8c1b68d6227d06a03014fbc5e3ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ El Administrador de métricas calculadas muestra todos los segmentos que posee y
 | Mostrar/ocultar filtros | Al hacer clic en mostrar filtros aparece el menú de filtros. Puede filtrar por Etiquetas, Grupos de informes, Propietarios, Mostrar todo (solo para administradores), Compartido conmigo, Mío, Favoritos y Aprobado. |
 | Casillas de verificación | Marque una métrica personalizada para administrarla. |
 | Favoritos | Si hace clic en la estrella que aparece junto a una métrica, esta se pondrá de color amarillo y la métrica se marcará como favorita. |
-| Filtrar títulos y descripciones | Incluido en el Creador de métricas calculadas. Para editar el título y la descripción, haga clic en el vínculo del título. Se le redirigirá al Creador de métricas calculadas. |
+| Títulos y descripciones de filtros | Incluido en el Creador de métricas calculadas. Para editar el título y la descripción, haga clic en el vínculo del título. Se le redirigirá al Creador de métricas calculadas. |
 | Vista de datos | Esta columna indica en qué vista de datos se guardó por última vez la métrica. |
 | Propietario | Indica quién es el propietario de la métrica personalizada. Si no es el administrador, solo podrá ver las métricas que le pertenecen o que compartieron con usted. |
 | Etiquetas | Muestra las etiquetas que se aplicaron a la métrica, tanto por su parte como por parte de las personas que compartieron el segmento con usted. |
