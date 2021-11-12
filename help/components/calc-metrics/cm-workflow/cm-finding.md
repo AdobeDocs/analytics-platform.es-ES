@@ -2,9 +2,9 @@
 description: 'Describe las dos formas principales de encontrar sus métricas: clasificación y filtrado.'
 title: Buscar métricas
 source-git-commit: cefc5696efa8c1b68d6227d06a03014fbc5e3ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
