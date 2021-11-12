@@ -5,13 +5,13 @@ exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 62%
+ht-degree: 98%
 
 ---
 
 # Resumen de paneles
 
-Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, vistas de datos o casos de uso de análisis.
+Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda del Espacio de trabajo o desde un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, vistas de datos o casos de uso de análisis.
 
 ## Tipos de panel
 
@@ -26,7 +26,7 @@ Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UI
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights], [!UICONTROL En blanco] y [!UICONTROL Forma libre] los paneles son buenos lugares para iniciar el análisis, mientras que [!UICONTROL Attribution IQ] se presta a análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
+Los paneles [!UICONTROL Quick Insights], [!UICONTROL En blanco] y [!UICONTROL Forma libre] son buenos lugares para iniciar el análisis, mientras que [!UICONTROL Attribution IQ] se presta para análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
 
 El panel inicial predeterminado es [!UICONTROL Forma libre], pero también puede convertir el [Panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
@@ -38,21 +38,21 @@ Nota: Si se utiliza un componente de intervalo de fechas (púrpura) en una tabla
 
 ![](assets/panel-calendar.png)
 
-Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel. Si realiza informes de un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo.
+Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel. Si realiza informes en un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo.
 
 ## Zona de colocación {#dropzone}
 
-La zona desplegable del panel le permite aplicar filtros y filtros desplegables a todas las tablas y visualizaciones de un panel. Puede aplicar uno o varios filtros a un panel. El título sobre cada filtro se puede modificar haciendo clic en el lápiz de edición, o bien puede hacer clic con el botón derecho para eliminarlo por completo.
+La zona de colocación del panel permite aplicar filtros y filtros desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel. El título sobre cada filtro se puede modificar haciendo clic en el lápiz de edición, o bien puede hacer clic con el botón derecho para eliminarlo por completo.
 
 ### Filtros
 
-Arrastre y suelte cualquier Filtro del carril izquierdo en la zona de colocación del panel para comenzar a filtrar el panel.
+Arrastre y suelte cualquier filtro del carril izquierdo en la zona desplegable del panel para empezar a filtrar el panel.
 
 ![](assets/segment-filter.png)
 
 ### Filtros específicos
 
-Los componentes que no son de filtro también se pueden arrastrar directamente a la zona de colocación para crear filtros específicos, lo que le ahorra tiempo y esfuerzo al ir al Generador de filtros. Los filtros creados de esta forma se definen automáticamente como filtros de nivel de visita. Esta definición se puede modificar haciendo clic en el icono de información (i) junto al filtro, luego en el icono de edición con forma de lápiz y editándolo en el Generador de filtros.
+Los componentes que no son filtros también se pueden arrastrar directamente a la zona de colocación para crear filtros específicos, lo que le ahorrará el tiempo y el tener que utilizar el Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al filtro, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de filtros.
 
 Los filtros específicos son locales del proyecto y no aparecerán en el carril izquierdo a menos que los haga públicos.
 
@@ -60,16 +60,16 @@ Los filtros específicos son locales del proyecto y no aparecerán en el carril 
 
 ### Filtros desplegables {#dropdown-filter}
 
-Además de los filtros, los filtros desplegables permiten interactuar con los datos de forma controlada. Por ejemplo, puede agregar un filtro desplegable para Tipos de dispositivos móviles, de modo que pueda filtrar el panel por Tablet, Teléfono móvil o Escritorio.
+Además de los filtros, los filtros desplegables permiten interactuar con los datos de forma controlada. Por ejemplo, puede añadir un filtro desplegable para tipos de dispositivos móviles para poder filtrar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
 
-Los filtros desplegables también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes filtros de país aplicados, puede consolidar todas las versiones en un solo proyecto y agregar un filtro desplegable de país .
+Los filtros desplegables también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes filtros de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un filtro desplegable de país.
 
 ![](assets/dropdown-filter-intro.png)
 
 Para crear filtros desplegables:
 
-1. Para crear un filtro desplegable con [!UICONTROL Elementos de dimensión], como, por ejemplo, valores dentro de la dimensión [!UICONTROL Canal de marketing], haga clic en el icono de flecha derecha que se encuentra junto a la dimensión en el carril izquierdo. Esto mostrará todos los elementos disponibles. Seleccione uno o varios elementos de componente del carril izquierdo y suéltelos en la zona desplegable del panel **mientras mantiene pulsada la tecla Mayús**. De este modo, los componentes se convierten en un filtro desplegable, no en un filtro único.
-1. Para crear un filtro desplegable utilizando otros componentes como métricas, filtros o intervalos de fechas, seleccione un tipo de componente en el carril izquierdo y suéltelo en la zona desplegable del panel **manteniendo pulsada la tecla Mayús**.
+1. Para crear un filtro desplegable con [!UICONTROL Elementos de dimensión], como, por ejemplo, valores dentro de la dimensión [!UICONTROL Canal de marketing], haga clic en el icono de flecha derecha que se encuentra junto a la dimensión en el carril izquierdo. Esto mostrará todos los elementos disponibles. Seleccione uno o varios elementos de componente del carril izquierdo y suéltelos en la zona desplegable del panel **mientras mantiene pulsada la tecla Mayús**. De este modo, los componentes se convertirán en un filtro desplegable y no en un filtro único.
+1. Para crear un filtro desplegable con otro componente, como, por ejemplo, métricas, filtros o intervalos de fechas, seleccione un tipo de componente en el carril izquierdo y suéltelo en la zona desplegable del panel **mientras mantiene pulsada la tecla Mayús**.
 1. Seleccione una de las opciones del menú desplegable para cambiar los datos del panel. También puede optar por no filtrar ninguno de los datos del panel seleccionando **[!UICONTROL Sin filtro]**.
 
 ![](assets/create-dropdown.png)
