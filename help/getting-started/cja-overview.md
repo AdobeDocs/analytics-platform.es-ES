@@ -2,16 +2,20 @@
 title: Información general sobre Customer Journey Analytics
 description: Descubra la forma en que Customer Journey Analytics le permite utilizar Analysis Workspace con los datos de Experience Platform.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-source-git-commit: fa0033202650f17acd275f1050565285c1464f53
-workflow-type: ht
-source-wordcount: '1255'
-ht-degree: 100%
+source-git-commit: e358d79921c30f0d8663f35768ce20e2439439fd
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
 # Información general sobre Customer Journey Analytics
 
 Customer Journey Analytics es una función de Analytics que le permite utilizar la potencia de Analysis Workspace con datos de Adobe Experience Platform. Puede desglosar, filtrar, consultar y visualizar datos de años, y se combina con la capacidad de Platform de albergar todo tipo de esquemas y tipos de datos. Con el **Experience Data Model (XDM)**, los datos se pueden representar y organizar de forma uniforme, listos para la combinación y exploración. **Los servicios de consulta de Experience** le permiten usar herramientas y marcos compatibles con SQL para hacer consultas y manipular todos los datos.
+
+La arquitectura CJA de alto nivel se muestra aquí:
+
+![arquitectura](assets/cja-architecture.png)
 
 ## Comparación de CJA con la versión tradicional de Adobe Analytics
 
