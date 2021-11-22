@@ -4,9 +4,9 @@ description: Describe cómo administrar conexiones a conjuntos de datos de Exper
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 source-git-commit: 61f11ed1d91d7a5da7aabbec1fe961b9b0842450
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1942'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ El Administrador de conexiones le permite:
 
 ![](assets/conn-manager.png)
 
-### Configuración de Connection Manager
+### Configuración del administrador de conexiones
 
 | Configuración | Descripción |
 | --- | --- |
@@ -98,7 +98,7 @@ Aquí se explican los widgets y la configuración:
 | [!UICONTROL Registros de widget de datos de evento disponibles] | Representa el número total de filas del conjunto de datos de evento disponibles para la creación de informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. Cambia si selecciona un conjunto de datos del selector de conjuntos de datos o en la tabla. (Tenga en cuenta que hay una latencia de una a dos horas para que los datos aparezcan en los informes, una vez añadidos). |
 | Widget de [!UICONTROL métricas] | Resume los registros añadidos, omitidos o eliminados del evento, y el número de lotes agregados, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. |
 | Widget de [!UICONTROL registros añadidos] | Indica cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada diez minutos. **Nota**: Los datos de los **[!UICONTROL registros añadidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
-| Widget de [!UICONTROL registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: Faltan marcas de hora, ID de persona que falta o no es válido, etc. Se actualiza cada diez minutos.<p>ID de persona no válidos (como &quot;sin definir&quot; o &quot;0000000&quot;, o cualquier combinación de números y letras en una [!UICONTROL ID de persona] que aparece en un evento más de 1 millón de veces en un mes determinado) no se puede atribuir a ningún usuario o persona en particular. No se pueden ingerir en el sistema y generar informes e ingesta propensos a errores. Para corregir ID de persona no válidos, tiene tres opciones:<ul><li>Uso [Análisis en canales múltiples](/help/connections/cca/overview.md) para rellenar los ID de usuario sin definir o todos cero con ID de usuario válidos.</li><li>Vacíe el ID de usuario, que también se omitirá durante la ingesta (preferible a los ID de usuario no válidos o todos cero).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul><p>**Nota**: Los datos de los **[!UICONTROL registros omitidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| Widget de [!UICONTROL registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona o no es válido, etc. Se actualiza cada diez minutos.<p>ID de persona no válido (como “sin definir”, “00000000” o cualquier combinación de números y letras en un [!UICONTROL ID de persona] que aparece en un evento más de 1 millón de veces en un mes determinado) no se puede atribuir a ningún usuario o persona en particular. No se pueden ingerir en el sistema, y conlleva la generación de informes e ingestas propensas a errores. Para corregir ID de persona no válidos, tiene tres opciones:<ul><li>Use [Análisis en canales múltiples](/help/connections/cca/overview.md) para rellenar los ID de usuario sin definir o todos cero con ID de usuario válidos.</li><li>Vacíe el ID de usuario, que también se omitirá durante la ingesta (preferible a los ID de usuario no válidos o todos cero).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul><p>**Nota**: Los datos de los **[!UICONTROL registros omitidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
 | Widget de [!UICONTROL registros eliminados] | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en Experience Platform, por ejemplo. Se actualiza cada diez minutos. **Nota**: Los datos de los **[!UICONTROL registros eliminados]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
 | Cuadro de búsqueda de conjunto de datos | Puede buscar por nombre de conjunto de datos o [!UICONTROL ID de conjunto de datos]. |
 | [!UICONTROL Conjuntos de datos] | Muestra los conjuntos de datos que forman parte de la conexión. Puede hacer clic en el hipervínculo para ver todos los conjuntos de datos de la conexión. |
@@ -114,16 +114,16 @@ Aquí se explican los widgets y la configuración:
 | --- | --- |
 | [!UICONTROL Actualizar] | Actualice la conexión para permitir que se reflejen los registros añadidos recientemente. |
 | [!UICONTROL Eliminar] | Elimine esta conexión. |
-| [!UICONTROL Crear vista de datos] | Cree una vista de datos basada en esta conexión. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
+| [!UICONTROL Crear vista de datos] | Cree una vista de datos basada en esta conexión. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=es) |
 | [!UICONTROL Nombre de la conexión] | Muestra el nombre descriptivo de la conexión. |
 | [!UICONTROL Descripción de la conexión] | Muestra una descripción más detallada que, de forma ideal, describe el propósito de esta conexión. |
-| [!UICONTROL Entorno de pruebas] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó la primera vez que creó la conexión. No se puede modificar. |
+| [!UICONTROL Entorno de pruebas] | El [Entorno de pruebas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) desde el que esta conexión obtiene sus conjuntos de datos. Este entorno de pruebas se seleccionó la primera vez que creó la conexión. No se puede modificar. |
 | [!UICONTROL ID de conexión] | Este ID lo genera el sistema en Adobe Experience Platform. |
 | [!UICONTROL Vistas de datos mediante conexión] | Enumera todas las vistas de datos que utilizan esta conexión. |
 | [!UICONTROL Importar datos nuevos] | (Encendido/apagado) Indica si se deben o no añadir nuevos lotes de datos a los datos históricos (relleno). |
 | [!UICONTROL Datos de relleno] | Los datos de relleno (históricos) se rastrean en tres estados: [!UICONTROL En cola], [!UICONTROL En curso] (con el porcentaje de progreso indicado) y [!UICONTROL Completado]. |
-| [!UICONTROL Creado por] | Muestra el nombre de la persona que creó la conexión. |
-| [!UICONTROL Última modificación] | Muestra la fecha y la hora del último cambio en la conexión. |
+| [!UICONTROL Creado por] | Mostrar el nombre de la persona que crea la conexión. |
+| [!UICONTROL Última modificación] | Mostrar la fecha y hora del último cambio en la conexión. |
 | [!UICONTROL Última modificación de:] | Muestra la persona que modificó la conexión por última vez. |
 
 ### Configuración del carril derecho en el nivel de conjunto de datos
@@ -132,12 +132,12 @@ Aquí se explican los widgets y la configuración:
 | --- | --- |
 | [!UICONTROL ID de la persona] | Muestra una identidad que se definió en el esquema del conjunto de datos en Experience Platform. Este es el ID de persona que eligió durante la creación de la conexión. Si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona en ellos. |
 | [!UICONTROL Registros disponibles] | Representa el número total de filas ingeridas para este conjunto de datos, para el período de tiempo particular seleccionado a través del calendario. Una vez añadidos, no hay latencia en cuanto a la aparición de datos en los informes. (La excepción es que cuando crea una conexión completamente nueva, habrá [latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#3.-introducción-de-datos-en-customer-journey-analytics). |
-| [!UICONTROL Registros añadidos] | Indica cuántas filas se agregaron en el período de tiempo seleccionado. **Nota**: Los datos de los **[!UICONTROL registros añadidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Registros añadidos] | Indica la cantidad de filas añadidas en el período de tiempo seleccionado. **Nota**: Los datos de los **[!UICONTROL registros añadidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
 | [!UICONTROL Registros eliminados] | Indica cuántos registros se eliminaron durante el período de tiempo seleccionado. **Nota**: Los datos de los **[!UICONTROL registros eliminados]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
-| [!UICONTROL Lotes añadidos] | Indica cuántos lotes de datos se agregaron a este conjunto de datos. |
-| [!UICONTROL Registros omitidos] | Indica cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado.<p>Los motivos por los que se omiten registros son: Faltan marcas de hora, ID de persona que falta o no es válido, etc. Se actualiza cada diez minutos.<p>ID de persona no válidos (como &quot;sin definir&quot; o &quot;0000000&quot;, o cualquier combinación de números y letras en una [!UICONTROL ID de persona] que aparece en un evento más de 1 millón de veces en un mes determinado) no se puede atribuir a ningún usuario o persona en particular. No se pueden ingerir en el sistema y generar informes e ingesta propensos a errores. Para corregir ID de persona no válidos, tiene tres opciones:<ul><li>Uso [Análisis en canales múltiples](/help/connections/cca/overview.md) para rellenar los ID de usuario sin definir o todos cero con ID de usuario válidos.</li><li>Vacíe el ID de usuario, que también se omitirá durante la ingesta (preferible a los ID de usuario no válidos o todos cero).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul><p>**Nota**: Los datos de los **[!UICONTROL registros omitidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
-| [!UICONTROL Última incorporación] | Indica cuándo se agregó el último lote. |
-| [!UICONTROL Tipo de conjunto de datos] | [!UICONTROL Evento], [!UICONTROL Búsqueda] o [!UICONTROL Perfil]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
+| [!UICONTROL Lotes añadidos] | Indica cuántos lotes de datos se añadieron a este conjunto de datos. |
+| [!UICONTROL Registros omitidos] | Indica cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado.<p>Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona o no es válido, etc. Se actualiza cada diez minutos.<p>ID de persona no válido (como “sin definir”, “00000000” o cualquier combinación de números y letras en un [!UICONTROL ID de persona] que aparece en un evento más de 1 millón de veces en un mes determinado) no se puede atribuir a ningún usuario o persona en particular. No se pueden ingerir en el sistema, y conlleva la generación de informes e ingestas propensas a errores. Para corregir ID de persona no válidos, tiene tres opciones:<ul><li>Use [Análisis en canales múltiples](/help/connections/cca/overview.md) para rellenar los ID de usuario sin definir o todos cero con ID de usuario válidos.</li><li>Vacíe el ID de usuario, que también se omitirá durante la ingesta (preferible a los ID de usuario no válidos o todos cero).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul><p>**Nota**: Los datos de los **[!UICONTROL registros omitidos]** solo incluyen datos de evento en este momento, no datos de perfil o búsqueda. |
+| [!UICONTROL Última incorporación] | Indica cuándo se añadió el último lote. |
+| [!UICONTROL Tipo de conjunto de datos] | [!UICONTROL Evento], [!UICONTROL Búsqueda] o [!UICONTROL Perfil]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#configure-dataset) |
 | [!UICONTROL Esquema] | Muestra el esquema de Adobe Experience Platform en el que se basa este conjunto de datos. |
 | [!UICONTROL ID de conjunto de datos] | Este ID lo genera el sistema en Adobe Experience Platform. |
 
