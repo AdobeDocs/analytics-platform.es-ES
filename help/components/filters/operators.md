@@ -3,9 +3,9 @@ title: Operadores de filtro
 description: Determine cómo interactúa un componente con un valor dentro de un filtro.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 source-git-commit: 87da431752c235c442d13fd185c7ab8f6cf20eba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ El Generador de filtros le permite comparar y restringir valores utilizando los 
 
 | Operador | Descripción |
 | --- | --- |
-| es igual que | Devuelve elementos que coinciden exactamente con un valor numérico o de cadena. Si utiliza caracteres comodín, utilice el operador “coincidencias”.  |
+| es igual que | Devuelve elementos que coinciden exactamente con un valor numérico o de cadena. Si utiliza caracteres comodín, utilice el operador “coincidencias”. |
 | no es igual | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido.  Si utiliza caracteres comodín, utilice el operador “no coincide con”. |
 | contiene | Devuelve elementos que se comparan con las subcadenas de los valores introducidos. Por ejemplo, si la regla de una dimensión de cadena contiene `"Search"`, coincide con cualquier página que tenga la subcadena `"Search"` en ella, incluido `"Search Results"`, `"Search"` y `"Searching"`. Esta variable distingue entre mayúsculas y minúsculas. |
 | no contiene | Todos los elementos que coincidan con el valor introducido se excluirán de los resultados. Por ejemplo, si la regla de una dimensión de cadena no contiene `"Search"`, excluye cualquier página que tenga la subcadena `"Search"` en ella, incluido `"Search Results"`, `"Search"` y `"Searching"`. |
 | contiene todo | Devuelve elementos que incluyen todas las subcadenas (separadas por un espacio) en cualquier orden. Por ejemplo, al introducir `"Search Results"` con este operador coincidiría `"Search Results"` y `"Results of Search"`, pero no `"Search"` o `"Results"` de forma independiente. Este operador admite hasta 100 palabras delimitadas por espacios. |
-| no contiene todos | Todos los elementos que coinciden con cada valor introducido se excluyen de los resultados. Por ejemplo, al introducir `"Search Results"` con este operador se excluiría `"Search Results"` y `"Results of Search"`, pero no `"Search"` o `"Results"`. Este operador admite hasta 100 palabras delimitadas por espacios. |
+| no contiene todos | Todos los elementos que coincidan con todo valor introducido se excluirán de los resultados. Por ejemplo, al introducir `"Search Results"` con este operador se excluiría `"Search Results"` y `"Results of Search"`, pero no `"Search"` o `"Results"`. Este operador admite hasta 100 palabras delimitadas por espacios. |
 | contiene alguno | Devuelve elementos que contienen cualquiera de las subcadenas especificadas. Por ejemplo, al introducir `"Search Results"` con este operador coincidiría `"Search Results"`, `"Results of Search"`, `"Search"` y `"Results"`. Este operador admite hasta 100 palabras delimitadas por espacios. |
 | no contiene ninguno | Todos los elementos que coinciden con cualquier subcadena se excluyen de los resultados. Por ejemplo, introducir `"Search Results"` excluiría `"Search Results"`, `"Results of Search"`, `"Search"` y `"Results"`. Este operador admite hasta 100 palabras delimitadas por espacios. |
 | comienza con | Devuelve elementos que comienzan con el carácter o cadenas del valor introducido. |
@@ -32,7 +32,7 @@ El Generador de filtros le permite comparar y restringir valores utilizando los 
 | coincide | Devuelve elementos que coinciden exactamente en función de un determinado valor numérico o de cadena. Admite caracteres comodín que utilizan un asterisco (`*`). Este operador tiene distinción de mayúsculas y minúsculas. Por ejemplo:<ul><li>`a*e` coincide con `ae`, `abcde`, `adobe` y `a whole sentence`.</li><li>`adob*` coincide con `adobe`, `adobe analytics` y `adobo recipe`</li><li>`*dobe` coincide con `dobe`, `adobe` y `cute little dobe`.</li></ul> |
 | no coincide | Se excluyen todos los elementos que coincidan con la cadena. Admite caracteres comodín que utilizan un asterisco (`*`). |
 | existe | Devuelve elementos si el valor no es nulo. |
-| no existe | Devuelve elementos si el valor es nulo. |
+| no existe | Devuelve elementos si el valor no es nulo. |
 
 ## Operadores de recuento distinto
 
