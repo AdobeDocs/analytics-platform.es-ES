@@ -2,8 +2,9 @@
 title: Incluir valores de exclusión configuración de componentes
 description: Incluya o excluya condicionalmente un elemento de dimensión según su valor.
 exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
-source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 

@@ -2,8 +2,9 @@
 title: Glosario de Customer Journey Analytics
 description: Glosario de Customer Journey Analytics.
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 

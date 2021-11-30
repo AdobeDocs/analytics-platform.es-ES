@@ -1,14 +1,14 @@
 ---
 title: Casos de uso de Customer Journey Analytics
 description: Casos de uso para Customer Journey Analytics
-translation-type: tm+mt
-source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
+exl-id: 90746eb0-99df-463a-8f01-330fd460a4a8
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # Casos de uso de Customer Journey Analytics
 

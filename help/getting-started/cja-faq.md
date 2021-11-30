@@ -2,8 +2,9 @@
 title: Preguntas frecuentes de Customer Journey Analytics
 description: 'Customer Journey Analytics: Preguntas frecuentes.'
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: 688c7ee9debd82bbeb1e95461e9d95a8d1bd220b
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 100%
 
@@ -28,7 +29,7 @@ ht-degree: 100%
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Puede [!UICONTROL Customer Journey Analytics] “unir” varios dispositivos o conjuntos de datos? | Sí. [!UICONTROL Customer Journey Analytics] tiene una solución de vinculación llamada [Análisis entre canales múltiples](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es) (CCA). Permite volver a escribir el ID de la persona de un conjunto de datos, lo que ofrece una combinación perfecta de varios conjuntos de datos. |
-| ¿Se admite la unión del comportamiento anónimo al comportamiento autenticado? | Sí. [Análisis entre canales múltiples](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es) busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado. |
+| ¿Se admite la unión del comportamiento anónimo al comportamiento autenticado? | Sí. [Análisis entre canales múltiples](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado. |
 | ¿Cómo funciona la &quot;repetición&quot; en CCA? | CCA &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. Reproducir hace que los nuevos dispositivos de la conexión se vinculen. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=es#paso-1%3A-vinculaci%C3%B3n-en-tiempo-real) |
 | ¿Cómo funciona la vinculación de datos históricos (relleno) en CCA? | Cuando se active por primera vez, Adobe proporcionará un relleno de datos vinculados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, los datos no vinculados en aquel momento deben tener un tipo de ID efímero. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es#enable-cross-channel-analytics) |
 

@@ -3,8 +3,9 @@ keywords: Analysis Workspace
 title: Información general de Analysis Workspace
 description: Información general sobre las capacidades de Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
 

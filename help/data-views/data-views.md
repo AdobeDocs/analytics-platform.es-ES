@@ -2,8 +2,9 @@
 title: Información general de las vistas de datos
 description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión de CJA, como, por ejemplo, métricas, dimensiones, sesiones, etc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 

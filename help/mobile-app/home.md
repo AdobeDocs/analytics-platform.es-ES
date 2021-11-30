@@ -4,8 +4,9 @@ description: Documentación del producto e instrucciones para los paneles de Ado
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
-source-git-commit: 020d59268873776aeec8fc7a90be70c3b6c55b69
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 

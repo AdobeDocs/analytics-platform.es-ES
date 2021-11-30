@@ -4,8 +4,9 @@ title: Creación de un cuadro de resultados
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
-source-git-commit: 9a7fa68bd7b4b9a7164a80691ddfb7aedaf8e3e4
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 100%
 

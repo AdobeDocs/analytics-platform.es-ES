@@ -2,8 +2,9 @@
 title: Actualizaciones de documentación de CJA
 description: Enumera las actualizaciones de contenido para la documentación de Customer Journey Analytics establecida desde diciembre de 2019.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: 0a44d4c80caa0198938a8f9c57f492c2aaaf9539
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -22,7 +23,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Octubre de 2021 | Doc para la ventana móvil para la [retención de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es#set-rolling-window-for-connection-data-retention) [!UICONTROL de Conexión].<p>**Nota: Póngase en contacto con el Servicio de atención al cliente o con el administrador de cuentas de Adobe para implementar esta configuración. Todavía no está disponible a través de la IU de CJA.** |
 | Septiembre de 2021 | Doc de [Anulación de duplicación de métricas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=es) |
 | Septiembre de 2021 | [Compatibilidad con el horario de verano para la creación de informes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#calendar) |
-| Septiembre de 2021 | Documentación de [Calendarios de clientes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#calendar) |
+| Septiembre de 2021 | Documentación de [Calendarios de clientes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) |
 | Septiembre de 2021 | Documentación de [Campos booleanos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=es) |
 | Septiembre de 2021 | Se ha desglosado la configuración de componentes en vistas de datos en archivos individuales:<ul><li>[[!UICONTROL Información general sobre la configuración de ]componentes](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL Configuración de componentes de ]atribución](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL Configuración de los componentes de ]comportamiento](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL Configuración de componentes de ]formato](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL Incluir/excluir] configuración de componentes](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL Configuración de componentes de ]anulación de deduplicación de métricas](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL Sin configuración de componentes de ]valor](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL  Configuración de componentes de ]persistencia](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL Configuración de componentes de] bloque de valores](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
 | Septiembre de 2021 | Nueva sección sobre las [implicaciones de la combinación de grupos de informes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#6.-considerations-when-merging-report-suites-in-cja) en CJA. |

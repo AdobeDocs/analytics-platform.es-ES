@@ -2,10 +2,11 @@
 title: Hacer análisis básicos en Customer Journey Analytics
 description: Describe cómo usar visualizaciones básicas para analizar datos en Customer Journey Analytics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 81%
+ht-degree: 85%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Después de crear conexiones y vistas de datos, analice los datos que ha introducido con la potencia y flexibilidad de Analysis Workspace. No dude en experimentar y arrastrar dimensiones y métricas, cambiar dimensiones y configuraciones de atribución de métricas, nombres prácticos, husos horarios, configuraciones de sesión, etc.
 

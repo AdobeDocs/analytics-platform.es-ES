@@ -2,7 +2,8 @@
 title: Preguntas frecuentes sobre Análisis entre canales
 description: Preguntas frecuentes sobre Análisis entre canales
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
-source-git-commit: 2be442915587780ce41f33b13e27b8cf44e239a6
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 100%

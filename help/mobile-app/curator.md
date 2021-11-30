@@ -4,8 +4,9 @@ title: Guía del gestor de datos para paneles de Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
-source-git-commit: 35b76b1c2642d5e8f15f71fed9c75ab37491a901
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%
 

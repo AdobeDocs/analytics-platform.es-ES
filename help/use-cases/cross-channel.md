@@ -2,8 +2,9 @@
 title: Análisis de Recorridos en todos los canales
 description: Analice y extraiga información de las interacciones de los clientes en todo el recorrido del cliente.
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
-source-git-commit: 68ca5b1ee9d695f53b22c821cec481cc116dcdb3
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 

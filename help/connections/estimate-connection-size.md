@@ -1,14 +1,14 @@
 ---
-title: Cálculo del tamaño de la conexión
+title: Cómo calcular el tamaño de la conexión de CJA
 description: Informe sobre el uso actual de Customer Journey Analytics
-translation-type: ht
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
-
 
 # Cálculo del tamaño de la conexión
 

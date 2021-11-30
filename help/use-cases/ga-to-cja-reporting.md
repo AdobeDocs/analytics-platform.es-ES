@@ -1,14 +1,14 @@
 ---
 title: Informar sobre los datos de Google Analytics en Customer Journey Analytics
 description: Muestra informes útiles sobre los datos de Google Analytics en Customer Journey Analytics
-translation-type: ht
-source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
-workflow-type: ht
+exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 
 ---
-
 
 # Informar sobre los datos de Google Analytics en Customer Journey Analytics
 

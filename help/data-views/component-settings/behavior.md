@@ -2,8 +2,9 @@
 title: Configuración de componentes de comportamiento
 description: Especifique cómo se comporta una dimensión o métrica en la creación de informes.
 exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
-source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 

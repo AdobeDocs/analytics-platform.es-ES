@@ -4,8 +4,9 @@ title: Configuración de ejecutivos para que utilicen tableros
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
-source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 

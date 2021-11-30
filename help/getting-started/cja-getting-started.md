@@ -1,14 +1,14 @@
 ---
 title: Introducción a Customer Journey Analytics
 description: Comprenda los requisitos previos y el flujo de trabajo necesarios para implementar Customer Journey Analytics.
-translation-type: tm+mt
-source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
+exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
 ---
-
 
 # Introducción a Customer Journey Analytics
 

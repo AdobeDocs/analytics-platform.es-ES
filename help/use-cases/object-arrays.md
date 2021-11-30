@@ -1,14 +1,14 @@
 ---
 title: Usar matrices de objetos
 description: Comprender cómo CJA informa sobre las jerarquías de datos.
-translation-type: ht
-source-git-commit: 6229c5bb08f6f153c625932ed06e85030bc08c5a
-workflow-type: ht
+exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 
 ---
-
 
 # Usar matrices de objetos
 

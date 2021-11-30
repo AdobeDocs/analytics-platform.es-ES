@@ -5,8 +5,9 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
-source-git-commit: 188ed6c6c32db9f65f6f31cf26311ce545d9dfb7
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 100%
 
