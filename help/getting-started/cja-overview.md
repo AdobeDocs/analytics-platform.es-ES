@@ -3,10 +3,10 @@ title: Información general sobre Customer Journey Analytics
 description: Descubra la forma en que Customer Journey Analytics le permite utilizar Analysis Workspace con los datos de Experience Platform.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 69ded6c9d08981810f6d9edef273cad95cb2c367
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -61,11 +61,12 @@ Para crear conexiones, agregar conjuntos de datos, etc., necesita los siguientes
    * Crear/actualizar/eliminar conexiones o Vistas de datos
    * Actualizar o eliminar proyectos, filtros, métricas de cálculo o filtros creados por otros usuarios
    * Compartir un proyecto de Workspace con todos los usuarios
-* Convertirse en administrador de productos dentro de Customer Journey Analytics no es suficiente para crear, actualizar o eliminar una conexión. Para crear una conexión a un conjunto de datos de Experience Platform, también necesita permisos de Experience Platform. Específicamente, debe formar parte de un **perfil del producto Experience Platform** que le proporciona los siguientes permisos:
+* Convertirse en administrador de productos dentro del Customer Journey Analytics por sí solo no es suficiente para crear, actualizar o eliminar una conexión. Para crear una conexión a un conjunto de datos de Experience Platform, también necesita permisos de Experience Platform. Específicamente, debe formar parte de un **perfil del producto Experience Platform** que le proporciona los siguientes permisos:
    * Esquemas de vistas
    * Administrar esquemas
-   * Ver espacios de nombres de identidad
    * Conjuntos de datos de vistas
+   * Administrar conjuntos de datos
+   * Administrar fuentes
 
 Para obtener más información sobre los permisos de Experience Platform, consulte [Control de acceso en Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
