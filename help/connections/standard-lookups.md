@@ -3,9 +3,9 @@ title: Agregar búsquedas estándar a sus conjuntos de datos
 description: Utilice búsquedas estándar para aumentar los informes con dimensiones útiles en el Customer Journey Analytics.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
-source-git-commit: 067502a0d69bd0b085ecb5e6cbd3ae062f33daef
+source-git-commit: 4e31b02815e32695d97eab0f563c71725bc79c11
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '360'
 ht-degree: 28%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 28%
 # Agregar búsquedas estándar a sus conjuntos de datos
 
 >[!IMPORTANT]
->Las búsquedas estándar solo están disponibles para fuentes de datos de conectores de datos de Analytics en CJA. Solo se pueden usar si se usa la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) o las API de recopilación de datos del Experience Platform.
+>Las búsquedas estándar solo están disponibles para fuentes de datos de conectores de datos de Analytics en CJA. Solo se pueden usar con implementaciones estándar de Adobe Analytics o con la variable [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)o las API de recopilación de datos del Experience Platform.
 
 Las búsquedas estándar (también conocidas como búsquedas suministradas por Adobe) mejoran la capacidad del Customer Journey Analytics para informar sobre algunas dimensiones/atributos que no son útiles por sí mismos pero que son útiles cuando se unen con otros datos. Algunos ejemplos son los atributos de dispositivos móviles y los atributos de dimensiones del sistema operativo y del explorador, como, por ejemplo, los números de versión del explorador. Una &quot;búsqueda estándar&quot; es similar a un conjunto de datos de búsqueda. Las búsquedas estándar son aplicables en todas las organizaciones de Experience Cloud. Se aplican automáticamente a todos los conjuntos de datos de evento que contienen determinados campos de esquema XDM (consulte la información sobre campos específicos a continuación). Existe un conjunto de datos de consulta estándar para cada ubicación de esquema que clasifica el Adobe.
 
