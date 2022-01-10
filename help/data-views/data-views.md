@@ -4,7 +4,7 @@ description: Una vista de datos especifica cómo desea interpretar los elementos
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Una vista de datos es un contenedor específico del Customer Journey Analytics q
 
 Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, puede crear vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, puede tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último contacto] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer contacto].
 
-Los proyectos de Workspace en Customer Journey Analytics se basan en vistas de datos.
+Los proyectos del Espacio de trabajo en Customer Journey Analytics se basan en vistas de datos.
 
 ## Funciones de vistas de datos
 
@@ -33,13 +33,13 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 
 * **Puede crear varias métricas con diferentes modelos de atribución o con diferentes ventanas retroactivas** desde el mismo campo de esquema.
 
-* **Puede editar el ID de un componente**: Se utiliza para garantizar la compatibilidad con vistas de datos cruzados. El ID de componente es lo que utiliza la API de informes para identificar una métrica o dimensión específica. Dado que puede crear arbitrariamente muchas métricas o dimensiones a partir de un campo XDM, le daremos la opción de definir su propio ID de componente. Como resultado, una métrica que utilice en un proyecto de Workspace puede ser compatible con todas las vistas de datos (y la API), incluso si se basan en campos totalmente diferentes de diferentes conexiones o vistas de datos, o de un esquema diferente en XDM.
+* **Puede editar el ID de un componente**: Se utiliza para garantizar la compatibilidad con vistas de datos cruzados. El ID de componente es lo que utiliza la API de informes para identificar una métrica o dimensión específica. Dado que puede crear arbitrariamente muchas métricas o dimensiones a partir de un campo XDM, le daremos la opción de definir su propio ID de componente. Como resultado, una métrica que utilice en un proyecto del Espacio de trabajo puede ser compatible con todas las vistas de datos (y la API), incluso si se basan en campos totalmente diferentes de diferentes conexiones o vistas de datos, o de un esquema diferente en XDM.
 
 * **Puede especificar el nombre descriptivo del componente que aparecerá en Analysis Workspace**. De forma predeterminada, este nombre se hereda del nombre para mostrar del esquema, pero ahora se puede sobrescribir para esta vista de datos específica.
 
 * **Puede ver más información relacionada con el esquema sobre los componentes**, como, por ejemplo, de qué tipo de conjunto de datos (evento, perfil, búsqueda) procede, el tipo de esquema (cadena, entero, etc.). del que procede y su ruta de esquema (campo XDM en el que se basa).
 
-* **Puede etiquetar un componente** para que le resulte más fácil buscarlo en Workspace.
+* **Puede etiquetar un componente** para que le resulte más fácil buscarlo el Espacio de trabajo.
 
 * **Puede ocultar un componente en los informes**. Algunas métricas y dimensiones requieren una segunda métrica o dimensión para su configuración (como la anulación de duplicación de métricas o de compras, por ejemplo). Esto le permite definir una métrica o dimensión que se puede usar en la configuración de otra métrica o dimensión sin estar expuesta directamente en los informes (como el ID de compra).
 
@@ -49,14 +49,14 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 
 * Para las dimensiones, puede **incluir o excluir automáticamente solo determinados valores dentro de un campo específico**. Por ejemplo, si un desarrollador envía un valor incorrecto de `dev mistake` a un campo, puede excluirlo fácilmente de los informes mediante una regla de exclusión y se comportará como si nunca existiera en los datos.
 
-* Puede **cambiar el nombre de los contenedores** en una vista de datos y hacer que los contenedores con nuevos nombres aparezcan en cualquier proyecto de Workspace basado en la vista de datos.
+* Puede **cambiar el nombre de los contenedores** en una vista de datos y hacer que los contenedores con nuevos nombres aparezcan en cualquier proyecto del Espacio de trabajo basado en la vista de datos.
 
 ## Requisitos previos de vistas de datos
 
 * Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform](/help/connections/create-connection.md).
-* Para crear o administrar una vista de datos, necesita un [conjunto de permisos en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es).
+* Para crear o administrar una vista de datos, necesita un [conjunto de permisos en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#admin-access-permissions).
 
-## Configuración de vista de datos que se puede anular en Workspace
+## Configuración de vista de datos que se puede anular el Espacio de trabajo
 
 Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en el ámbito del proyecto, mientras que otros no.
 
@@ -64,7 +64,7 @@ Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en e
 * Atribución de métricas
 * Indica si los usuarios ven o no el elemento de línea [!UICONTROL Sin valor] en un informe
 
-## Configuración de vista de datos que no se puede anular en Workspace
+## Configuración de vista de datos que no se puede anular el Espacio de trabajo
 
 * [!UICONTROL Tipo de componente]
 * Formato de métrica
@@ -73,7 +73,7 @@ Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en e
 
 ## Eliminación de vistas de datos
 
-Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparecerá un mensaje de error que indica que dejarán de funcionar todos los proyectos de [!UICONTROL Workspace] que dependan de dicha vista de datos eliminada.
+Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparecerá un mensaje de error que indica que dejarán de funcionar todos los proyectos del [!UICONTROL Espacio de trabajo] que dependan de dicha vista de datos eliminada.
 
 ## Pasos siguientes
 
