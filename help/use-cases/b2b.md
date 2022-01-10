@@ -4,7 +4,7 @@ description: Aprenda a agregar datos basados en cuentas como un conjunto de dato
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Este caso de uso de B2B se muestra cómo especificar los datos en cuanto a cuent
 
 Todo esto se logra mediante la introducción de la información de nivel de cuenta como un conjunto de datos [lookup](/help/getting-started/cja-glossary.md).
 
-Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (CJA) que combina distintos conjuntos de datos, incluido el de consulta que se ha creado. A continuación, cree una vista de datos y, finalmente, podrá utilizar todos estos datos en Workspace.
+Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (CJA) que combina distintos conjuntos de datos, incluido el de consulta que se ha creado. A continuación, cree una vista de datos y, finalmente, podrá utilizar todos estos datos el Espacio de trabajo.
 
 >[!NOTE]
 >
@@ -85,9 +85,9 @@ Siga las instrucciones de [creación de vistas de datos](/help/data-views/create
 
 * Añada todos los componentes (dimensiones y métricas) que necesite de los conjuntos de datos.
 
-## 6. Analizar los datos en Workspace
+## 6. Analizar los datos en Espacio de trabajo
 
-Ahora puede crear proyectos de Workspace basados en los datos de los 3 conjuntos de datos.
+Ahora puede crear proyectos del Espacio de trabajo basados en los datos de los 3 conjuntos de datos.
 
 Por ejemplo, puede encontrar respuestas a las consultas planteadas en la introducción:
 
