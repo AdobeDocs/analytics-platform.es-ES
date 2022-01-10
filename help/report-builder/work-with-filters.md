@@ -7,7 +7,7 @@ type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
 ht-degree: 100%
 
