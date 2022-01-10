@@ -4,7 +4,7 @@ description: Vuelva a escribir los ID de visitante de varios conjuntos de datos 
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
 ht-degree: 100%
 
