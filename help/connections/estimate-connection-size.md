@@ -4,9 +4,9 @@ description: Informe sobre el uso actual de Customer Journey Analytics
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ Es posible que necesite saber cuántas filas de datos tiene actualmente en [!UIC
 El número de eventos introducidos realmente en [!UICONTROL Customer Journey Analytics] depende de la configuración de su conexión. Además, si seleccionó el ID de persona incorrecto o si este ID no está disponible para algunas filas de los conjuntos de datos, [!UICONTROL Customer Journey Analytics] ignorará dichas filas. Para determinar las filas reales de los eventos introducidos, realice los pasos siguientes:
 
 1. Una vez guardada la conexión, cree una vista de datos de la misma conexión sin ningún filtro.
-1. Cree un proyecto de Workspace y seleccione la vista de datos correcta. Cree una tabla de formato libre y arrastre y suelte la métrica **[!UICONTROL Eventos]** con la dimensión **[!UICONTROL Año]**. Elija un intervalo de fechas lo suficientemente grande en el calendario de selección de fechas para encapsular todos los datos de la conexión. Esto le permite ver el número de eventos que se están ingiriendo en [!UICONTROL Customer Journey Analytics].
+1. Cree un proyecto del Espacio de trabajo y seleccione la vista de datos correcta. Cree una tabla de formato libre y arrastre y suelte la métrica **[!UICONTROL Eventos]** con la dimensión **[!UICONTROL Año]**. Elija un intervalo de fechas lo suficientemente grande en el calendario de selección de fechas para encapsular todos los datos de la conexión. Esto le permite ver el número de eventos que se están ingiriendo en [!UICONTROL Customer Journey Analytics].
 
-   ![Proyecto de Workspace](assets/event-number.png)
+   ![Proyecto del Espacio de trabajo](assets/event-number.png)
 
    >[!NOTE]
    >
@@ -54,4 +54,4 @@ En algunos casos, es posible que observe que el número total de eventos que ha 
 
 1. Además, si comprobamos [!UICONTROL Adobe Experience Platform], no hay ningún conjunto de datos con el ID &quot;5f21c12b732044194bffc1d0&quot;, por lo que alguien eliminó este conjunto de datos concreto de [!UICONTROL Adobe Experience Platform] cuando se creaba la conexión inicial. Más adelante se volvió a añadir a [!UICONTROL Customer Journey Analytics], pero se generó un [!UICONTROL ID de conjunto de datos de Platform] mediante [!UICONTROL Adobe Experience Platform].
 
-Obtenga más información sobre las [implicaciones de la eliminación de conjuntos de datos y conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es-ES#implications-of-deleting-data-components) en [!UICONTROL Customer Journey Analytics] y [!UICONTROL Adobe Experience Platform].
+Obtenga más información sobre las [implicaciones de la eliminación de conjuntos de datos y conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components) en [!UICONTROL Customer Journey Analytics] y [!UICONTROL Adobe Experience Platform].
