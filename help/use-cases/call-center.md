@@ -4,7 +4,7 @@ description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Importación de datos web y de centros de llamadas
 
-Customer Journey Analytics dispone de una función robusta y muy útil que permite combinar conjuntos de datos de diferentes fuentes en un único proyecto de Workspace. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas. Por ejemplo, puede comprender qué acciones realiza un cliente, qué contenido ve y qué términos busca antes de ponerse en contacto con la asistencia al cliente. Puede determinar el contenido y las herramientas de autoservicio para mejorar, de modo que los clientes puedan resolver los problemas por sí mismos sin necesidad de llamar.
+Customer Journey Analytics dispone de una función robusta y muy útil que permite combinar conjuntos de datos de diferentes fuentes en un único proyecto del Espacio de trabajo. Utilice esta guía para comprender cómo su organización puede combinar los datos del sitio web con los datos del centro de llamadas. Por ejemplo, puede comprender qué acciones realiza un cliente, qué contenido ve y qué términos busca antes de ponerse en contacto con la asistencia al cliente. Puede determinar el contenido y las herramientas de autoservicio para mejorar, de modo que los clientes puedan resolver los problemas por sí mismos sin necesidad de llamar.
 
 ## Requisitos previos
 
