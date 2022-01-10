@@ -5,7 +5,7 @@ description: Información general sobre las capacidades de Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
 ht-degree: 100%
 
@@ -25,13 +25,13 @@ Si solo tiene unos minutos, consulte esta breve descripción general para ver qu
 
 ## Inicio de sesión de Customer Journey Analytics {#login}
 
-Para empezar a usar Analysis Workspace, inicie sesión en Customer Journey Analytics en [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Aterrizará en la página de inicio de la lista del proyecto de Workspace si no se ha seleccionado anteriormente un proyecto específico.
+Para empezar a usar Analysis Workspace, inicie sesión en Customer Journey Analytics en [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Aterrizará en la página de inicio de la lista del proyecto del Espacio de trabajo si no se ha seleccionado anteriormente un proyecto específico.
 
 ![](assets/login-analytics.png)
 
 ## Uso del tutorial de formación {#training-tutorial}
 
-Una vez que haya iniciado sesión, la primera parada debe ser el Tutorial de formación de Analysis Workspace, que le explicará la terminología común y los pasos para crear su primer análisis en Workspace. Para comenzar el tutorial, haga clic en **[!UICONTROL Crear nuevo proyecto]** y, a continuación, seleccione **Tutorial de formación** dentro del nuevo modal de proyecto.
+Una vez que haya iniciado sesión, la primera parada debe ser el Tutorial de formación de Analysis Workspace, que le explicará la terminología común y los pasos para crear su primer análisis el Espacio de trabajo. Para comenzar el tutorial, haga clic en **[!UICONTROL Crear nuevo proyecto]** y, a continuación, seleccione **Tutorial de formación** dentro del nuevo modal de proyecto.
 
 ![](assets/training-tutorial.png)
 
@@ -43,7 +43,7 @@ Una vez completado el tutorial, estará listo para empezar a crear el primer pro
 
 ## Cree su análisis {#analysis}
 
-En el proyecto de Workspace, se accede a **paneles, tablas, visualizaciones y componentes** desde el carril izquierdo. Estos son los componentes básicos del proyecto.
+En el proyecto del Espacio de trabajo, se accede a **paneles, tablas, visualizaciones y componentes** desde el carril izquierdo. Estos son los componentes básicos del proyecto.
 
 ### Componentes
 
@@ -65,4 +65,4 @@ En el proyecto de Workspace, se accede a **paneles, tablas, visualizaciones y co
 
 ## Recursos adicionales {#resources}
 
-* Adobe ofrece cientos de [tutoriales de formación en vídeo de Analytics](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.html).
+* Adobe ofrece cientos de [tutoriales de formación en vídeo de Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=es).
