@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 
