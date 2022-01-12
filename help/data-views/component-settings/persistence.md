@@ -3,9 +3,9 @@ title: Configuración de componentes de persistencia
 description: Determina cómo persisten los valores de dimensión de un evento a otro, o si lo hace.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: 4d45314ae77ee1ca78bbd44b0aa08add0f7030cc
+source-git-commit: 3b00b8fe5dd4687bb8022d8e6e5e98ad2d535866
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '753'
 ht-degree: 78%
 
 ---
@@ -66,10 +66,10 @@ Detalles sobre la configuración de caducidad disponible.
 
 Un menú desplegable que permite enlazar la persistencia de un valor de dimensión con valores de dimensión de otra dimensión. Las opciones desplegables válidas incluyen otras dimensiones incluidas en la vista de datos.
 
-Esta configuración se utiliza generalmente en matrices de objetos y se utiliza principalmente para medir elementos como métodos de búsqueda de productos, resultados de búsqueda interna, impresiones de promociones internas o recomendaciones de contenido o productos. En versiones anteriores de Adobe Analytics, este concepto se conoce como comercialización de sintaxis de conversión.
+Esta configuración se utiliza generalmente en matrices de objetos y se utiliza principalmente para medir elementos como métodos de búsqueda de productos, resultados de búsqueda interna, impresiones de promociones internas o recomendaciones de contenido o productos. En versiones anteriores de Adobe Analytics, este concepto es similar a la comercialización de sintaxis de conversión.
 
 ## [!UICONTROL Métrica de enlace]
 
 Lista desplegable que permite elegir una métrica que actúa como déclencheur de enlace. Las opciones desplegables válidas incluyen métricas incluidas en la vista de datos.
 
-Esta configuración solo aparece cuando el Dimension Enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace. En versiones anteriores de Adobe Analytics, un concepto similar pero más limitado de esto se conoce como comercialización de sintaxis de producto.
+Esta configuración solo aparece cuando el Dimension Enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace. En versiones anteriores de Adobe Analytics, un concepto similar pero más limitado se conoce como comercialización de sintaxis de producto.
