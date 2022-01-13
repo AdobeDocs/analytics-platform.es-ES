@@ -3,13 +3,13 @@ title: Comparar los datos de AA con los datos de CJA
 description: Obtenga información sobre cómo comparar sus datos de Adobe Analytics con los de Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
-source-git-commit: b0d29964c67d8a6a847a05dbe113b8213b346f9b
+exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
+source-git-commit: 6f77dd9caef1ac8c838f825a48ace6cf533d28a9
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '699'
 ht-degree: 4%
 
 ---
-
 
 # Comparar los datos de Adobe Analytics con los datos de CJA
 
@@ -26,7 +26,6 @@ A continuación se indican algunos pasos a seguir para comparar los datos origin
 * Asegúrese de que el conjunto de datos de Analytics en AEP contenga datos para el intervalo de fechas que está investigando.
 
 * Asegúrese de que el grupo de informes seleccionado en Analytics coincide con el grupo de informes introducido en Adobe Experience Platform.
-
 
 ## Paso 1: Ejecute la métrica Ocurrencias en Adobe Analytics
 
@@ -48,7 +47,7 @@ Los registros totales por marcas de hora deben coincidir con Ocurrencias, siempr
 >
 >Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Análisis en canales múltiples](/help/connections/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en CJA es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en AA, especialmente si se ha activado el análisis en todos los canales.
 
-1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html), ejecute la siguiente consulta Total Records by timestamps :
+1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html), ejecute lo siguiente [!UICONTROL Registros totales por marcas de hora] consulta:
 
 ```
 SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \ 
@@ -62,7 +61,7 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique a partir de los datos sin procesar si el conector de origen de Analytics puede soltar algunas filas.
+1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber soltado algunas filas.
 
    La variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) podría soltar filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se perderá toda la fila.
 
@@ -75,20 +74,16 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
    | Hit_source | 0,3,5,7,8,9,10 |
    | Page_event | 53,63 |
 
-1. Si el conector suelta filas, reste esas filas de la métrica Ocurrencias . El número resultante debe coincidir con el número de eventos de los conjuntos de datos de AEP.
+1. Si el conector suelta filas, reste esas filas del [!UICONTROL Ocurrencias] métrica. El número resultante debe coincidir con el número de eventos de los conjuntos de datos de Adobe Experience Platform.
 
 ## Por qué se pueden perder o omitir registros durante la ingesta desde AEP
 
-CJA [Conexiones](/help/connections/create-connection.md) le permite unir varios conjuntos de datos en función de un ID de persona común en todos los conjuntos de datos. En el servidor, se aplica la deduplicación: unión externa completa o unión en conjuntos de datos de evento basados en marcas de tiempo y, a continuación, unión interna en perfiles y conjuntos de datos de búsqueda, en función del ID de persona.
+CJA [Conexiones](/help/connections/create-connection.md) le permite unir varios conjuntos de datos en función de un ID de persona común en todos los conjuntos de datos. En el servidor, se aplica la deduplicación: unión externa completa o unión en conjuntos de datos de evento basados en marcas de tiempo y, a continuación, unión interna en el perfil y el conjunto de datos de búsqueda, según el ID de persona.
 
 A continuación se indican algunas de las razones por las que se pueden omitir registros al ingerir datos de AEP.
 
-* **Marcas de hora que faltan** - Si faltan marcas de hora en los conjuntos de datos de evento, esos registros se ignorarán o omitirán por completo durante la ingesta. porque permitirían que el conjunto de datos se una.
+* **Marcas de hora que faltan** - Si faltan marcas de hora en los conjuntos de datos de evento, esos registros se ignorarán o omitirán por completo durante la ingesta.
 
 * **ID de persona que faltan** : los ID de persona que faltan (del conjunto de datos de eventos o del perfil o conjunto de datos de búsqueda) hacen que esos registros se ignoren o se omitan. El motivo es que no hay ID comunes ni claves coincidentes para unirse a los registros.
 
-* **ID de persona no válidos** : con ID no válidos, el sistema no puede encontrar un ID común válido entre los conjuntos de datos para unirse. En algunos casos, la columna ID de persona tiene ID de persona no válidos, como &quot;indefinido&quot; o &quot;0000000&quot;.
-
-* **ID de persona grande** - Un ID de persona con cualquier combinación de números y letras que aparezca en un evento más de 1 millón de veces al mes no se puede atribuir a ningún usuario o persona en particular. Se clasificará como no válido. Estos registros no se pueden ingerir en el sistema y generar informes e ingesta propensos a errores.
-
-
+* **ID de persona grande o no válida** : con ID no válidos, el sistema no puede encontrar un ID común válido entre los conjuntos de datos para unirse. En algunos casos, la columna ID de persona tiene ID de persona no válidos, como &quot;indefinido&quot; o &quot;0000000&quot;. Un ID de persona (con cualquier combinación de números y letras) que aparezca en un evento más de 1 millón de veces al mes no se puede atribuir a ningún usuario o persona en particular. Se clasificará como no válido. Estos registros no se pueden ingerir en el sistema y generar informes e ingesta propensos a errores.
