@@ -3,10 +3,10 @@ title: Creación o edición de una fuente de datos
 description: Todos los ajustes que se pueden ajustar para crear o editar una vista de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
+source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 99%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 
 ![Nueva vista de datos](assets/new-data-view.png)
 
-### Configuración
+### Configuración de vista de datos
 
 Proporciona una configuración general para la vista de datos.
 
