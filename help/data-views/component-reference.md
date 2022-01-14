@@ -3,10 +3,10 @@ title: Referencia de componente estándar
 description: Detalles e información sobre todos los componentes estándar que se pueden agregar a cualquier vista de datos.
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '583'
-ht-degree: 100%
+source-git-commit: b4d2c564f9fc477212306dc022b4afc5ab92db97
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 92%
 
 ---
 
@@ -39,13 +39,23 @@ De forma predeterminada, estos componentes estándares necesarios se añaden a c
 
 Los componentes estándar opcionales están disponibles en la pestaña **[!UICONTROL Vistas de datos]** > **[!UICONTROL Editar vista de datos]** > **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar]**.
 
-| Nombre del componente | Dimensión o métrica | Notas |
+| Nombre del componente | Dimensión o métrica | Notas y valores |
 | --- | --- | --- |
+| [!UICONTROL AM/PM] | Dimensión de partición de tiempo | AM o PM |
+| [!UICONTROL ID de lote] | Dimensión | Representa el lote de Experience Platform del que formaba parte un [!UICONTROL Evento]. |
+| [!UICONTROL ID de conjunto de datos] | Dimensión | Representa el conjunto de datos del Experience Platform del que formaba parte un [!UICONTROL Evento]. |
+| [!UICONTROL Día del mes] | Dimensión de partición de tiempo | 1-31 |
+| [!UICONTROL Día de la semana] | Dimensión de partición de tiempo | Lunes, martes, miércoles, jueves, viernes, sábado, domingo |
+| [!UICONTROL Día del año] | Dimensión de partición de tiempo | 1-366 |
+| [!UICONTROL Hora del día] | Dimensión de partición de tiempo | 0-23 |
+| [!UICONTROL  Mes del año] | Dimensión de partición de tiempo | Enero a diciembre |
+| [!UICONTROL ID de la persona] | Dimensión | Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, etc. La variable [!UICONTROL ID de persona] es la base de la combinación de conjuntos de datos e identificación de visitantes únicos en CJA. |
+| [!UICONTROL Área de nombres de ID de persona] | Dimensión | Qué tipo de ID de la variable [!UICONTROL ID de persona] consiste en. Ejemplos: `email address`, `cookie ID`, `Analytics ID`, etc. |
+| [!UICONTROL Trimestre del año] | Dimensión de partición de tiempo | T1, T2, T3, T4 |
 | [!UICONTROL La sesión finaliza] | Métrica | El número de eventos que fueron el primer evento de una sesión. Cuando se utiliza en una definición de filtro (por ejemplo, [!UICONTROL La sesión inicia] existe), se filtra hasta el primer evento de cada sesión. |
 | [!UICONTROL La sesión termina] | Métrica | El número de eventos que fueron el último evento de una sesión. De forma similar a [!UICONTROL Inicio de sesión], también se puede utilizar en una definición de filtro para filtrar cosas hasta el último evento de cada sesión. |
 | [!UICONTROL Tiempo empleado (segundos)] | Métrica | Suma el tiempo entre dos valores diferentes para una dimensión. |
 | [!UICONTROL Tiempo empleado por evento] | Dimensión | Agrupa el [!UICONTROL Tiempo empleado] de la métrica en bloques de [!UICONTROL Eventos]. |
 | [!UICONTROL Tiempo empleado por sesión] | Dimensión | Agrupa el [!UICONTROL Tiempo empleado] de la métrica en bloques de [!UICONTROL Sesiones]. |
 | [!UICONTROL Tiempo empleado por persona] | Dimensión | Agrupa el [!UICONTROL Tiempo empleado] de la métrica en bloques de [!UICONTROL Personas]. |
-| [!UICONTROL ID de lote] | Dimensión | Representa el lote de Experience Platform del que formaba parte un [!UICONTROL Evento]. |
-| [!UICONTROL ID de conjunto de datos] | Dimensión | Representa el conjunto de datos del Experience Platform del que formaba parte un [!UICONTROL Evento]. |
+| [!UICONTROL Fin de semana]/[!UICONTROL Día de la semana] | Dimensión de partición de tiempo | Fin de semana o día de la semana |
