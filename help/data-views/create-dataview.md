@@ -3,10 +3,10 @@ title: Creación o edición de una fuente de datos
 description: Todos los ajustes que se pueden ajustar para crear o editar una vista de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
+workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,21 +84,23 @@ A continuación, puede crear métricas y dimensiones a partir de elementos de es
    * [[!UICONTROL Persistencia]](component-settings/persistence.md)
    * [[!UICONTROL Clasificación de valor]](component-settings/value-bucketing.md)
 
-Si es necesario, puede utilizar las siguientes funciones:
+## Duplicar métricas o dimensiones
 
-* **[!UICONTROL Duplicado]**: duplicar métricas o dimensiones, y luego modificar configuraciones específicas es una manera sencilla de crear varias métricas o dimensiones a partir de un único campo de esquema. Seleccione la opción [!UICONTROL Duplicado] debajo del nombre de la métrica o dimensión en la parte superior derecha. Modifique la nueva métrica o dimensión, y guárdela con un nombre más descriptivo.
+Duplicar métricas o dimensiones y luego modificar configuraciones específicas es una manera sencilla de crear varias métricas o dimensiones a partir de un único campo de esquema. Seleccione la opción [!UICONTROL Duplicado] debajo del nombre de la métrica o dimensión en la parte superior derecha. Modifique la nueva métrica o dimensión, y guárdela con un nombre más descriptivo.
 
-   ![Duplicar](assets/duplicate.png)
+![Duplicar](assets/duplicate.png)
 
-* **[!UICONTROL Filtrar]**: puede filtrar los campos de esquema en el carril izquierdo según los siguientes tipos de datos:
+## Filtrar campos de esquema o conjuntos de datos
 
-   ![Filtrar campos](assets/filter-fields.png)
+Puede filtrar los campos de esquema en el carril izquierdo según los siguientes tipos de datos:
 
-   También puede filtrar por conjuntos de datos y por si un campo de esquema contiene datos o si es una identidad. De forma predeterminada, Adobe aplica el filtro **[!UICONTROL Contiene datos]** a todas las vistas de datos.
+![Filtrar campos](assets/filter-fields.png)
 
-   ![Filtrar otros](assets/filter-other.png)
+También puede filtrar por conjuntos de datos y por si un campo de esquema contiene datos o si es una identidad. De forma predeterminada, Adobe aplica el filtro **[!UICONTROL Contiene datos]** a todas las vistas de datos.
 
-## Configuración
+![Filtrar otros](assets/filter-other.png)
+
+## Configuración ficha
 
 1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la pestaña **[!UICONTROL Vistas de datos]**.
 1. Haga clic en **[!UICONTROL Agregar]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
