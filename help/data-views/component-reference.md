@@ -3,10 +3,10 @@ title: Referencia de componente estándar
 description: Detalles e información sobre todos los componentes estándar que se pueden agregar a cualquier vista de datos.
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
-source-git-commit: b4d2c564f9fc477212306dc022b4afc5ab92db97
+source-git-commit: 9d08d5c80c8d31ffeca4f829798d0fd1700b0cc8
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 92%
+source-wordcount: '774'
+ht-degree: 86%
 
 ---
 
@@ -49,7 +49,7 @@ Los componentes estándar opcionales están disponibles en la pestaña **[!UICON
 | [!UICONTROL Día del año] | Dimensión de partición de tiempo | 1-366 |
 | [!UICONTROL Hora del día] | Dimensión de partición de tiempo | 0-23 |
 | [!UICONTROL  Mes del año] | Dimensión de partición de tiempo | Enero a diciembre |
-| [!UICONTROL ID de la persona] | Dimensión | Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, etc. La variable [!UICONTROL ID de persona] es la base de la combinación de conjuntos de datos e identificación de visitantes únicos en CJA. |
+| [!UICONTROL ID de la persona] | Dimensión | Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, etc. La variable [!UICONTROL ID de persona] es la base de la combinación de conjuntos de datos e identificación de visitantes únicos en CJA.<p>Los posibles casos de uso incluyen:<ul><li>Creación de un filtro en un valor de ID de persona específico para filtrar todo según el comportamiento de ese usuario.</li><li>Depuración: asegúrese de que los datos de un ID de cookie específico (o un ID de cliente específico) estén presentes.</li><li>Identificación de los usuarios que llamaron a un centro de llamadas.</li></ul> |
 | [!UICONTROL Área de nombres de ID de persona] | Dimensión | Qué tipo de ID de la variable [!UICONTROL ID de persona] consiste en. Ejemplos: `email address`, `cookie ID`, `Analytics ID`, etc. |
 | [!UICONTROL Trimestre del año] | Dimensión de partición de tiempo | T1, T2, T3, T4 |
 | [!UICONTROL La sesión finaliza] | Métrica | El número de eventos que fueron el primer evento de una sesión. Cuando se utiliza en una definición de filtro (por ejemplo, [!UICONTROL La sesión inicia] existe), se filtra hasta el primer evento de cada sesión. |
