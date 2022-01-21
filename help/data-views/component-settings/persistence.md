@@ -4,9 +4,9 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 source-git-commit: 8c82aad72beca8d206d30f8f0e842445fd18758b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '837'
+ht-degree: 100%
 
 ---
 
@@ -53,14 +53,14 @@ Detalles sobre la configuración de asignación disponible.
    | Valores del conjunto de datos | A | B | C |  | A |
    | Toda la asignación | A | A,B | A,B,C | A,B,C | A,B,C |
 
-* **[!UICONTROL Conocido por primera vez]** y **[!UICONTROL Última conocida]**: (19 de enero de 2022 ) Estos dos modelos de asignación satisfacen los casos de uso de dimensiones &quot;entrada&quot; y &quot;salida&quot;. Toman el primer o el último valor observado para una dimensión dentro de un ámbito de persistencia especificado (sesión, persona o período de tiempo personalizado con retrospectiva) y lo aplican a todos los eventos dentro del ámbito especificado. Ejemplo:
+* **[!UICONTROL Conocido por primera vez]** y **[!UICONTROL Último conocido]**: (19 de enero de 2022 ) estos dos modelos de asignación satisfacen los casos de uso de dimensiones “entrada” y “salida”. Toman el primer o el último valor observado para una dimensión dentro de un ámbito de persistencia especificado (sesión, persona o período de tiempo personalizado con retrospectiva) y lo aplican a todos los eventos dentro del ámbito especificado. Ejemplo:
 
    | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
    | --- | --- | --- | --- | --- | --- |
    | Marca de tiempo (mín.) | 1 | 2 | 3 | 6 | 7 |
    | Valores originales |  | C | B |  | A |
-   | Primera conocida | C | C | C | C | C |
-   | Última conocida | A | A | A | A | A |
+   | Primero conocido | C | C | C | C | C |
+   | Último conocido | A | A | A | A | A |
 
 ## Configuración de [!UICONTROL caducidad]
 
@@ -79,6 +79,6 @@ Esta configuración se utiliza generalmente en matrices de objetos y se utiliza 
 
 ## [!UICONTROL Métrica de enlace]
 
-Lista desplegable que permite elegir una métrica que actúa como déclencheur de enlace. Las opciones desplegables válidas incluyen métricas incluidas en la vista de datos.
+Lista desplegable que permite elegir una métrica que actúa como activador de enlace. Las opciones desplegables válidas incluyen métricas incluidas en la vista de datos.
 
-Esta configuración solo aparece cuando el Dimension Enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace. En versiones anteriores de Adobe Analytics, un concepto similar pero más limitado se conoce como comercialización de sintaxis de producto.
+Esta configuración solo aparece cuando la dimensión de enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace. En versiones anteriores de Adobe Analytics, un concepto similar pero más limitado se conoce como comercialización de sintaxis de producto.
