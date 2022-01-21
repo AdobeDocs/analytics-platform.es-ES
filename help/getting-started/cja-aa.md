@@ -4,9 +4,9 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 source-git-commit: b72d84a0412ab774360bc2f9b4d9e656b54598f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1207'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,18 +28,18 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Intervalos de fechas | Se admite toda la funcionalidad de intervalo de fechas. |
 | Horario de verano | Compatibilidad total. |
 | Dimensiones | Compatibilidad total; CJA aprovecha XDM y admite dimensiones ilimitadas. CJA no está vinculado a las eVars o props personalizadas de Adobe Analytics tradicional. |
-| Dimensiones de Analysis Workspace predeterminadas (por ejemplo: Tipo de explorador, Tipo de referente, Sistema operativo, etc.) | CJA proporciona estas dimensiones de forma nativa siempre y cuando se rellenen los campos XDM base (como agente de usuario o ID de dispositivo). Para los clientes que utilizan el Conector de datos de Analytics (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
+| Dimensiones de Analysis Workspace predeterminadas (por ejemplo: Tipo de explorador, Tipo de referente, Sistema operativo, etc.) | CJA proporciona estas dimensiones de forma nativa siempre y cuando se rellenen los campos XDM base (como agente de usuario o ID de dispositivo). Para los clientes que utilizan el Conector de datos de Analytics (ADC), algunas de estas dimensiones están disponibles, pero no todas. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | Eliminación de RGPD | Compatibilidad total. Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. CJA hereda los cambios de datos que [!UICONTROL Experience Platform] hace en los conjuntos de datos subyacentes. |
 | Variables de lista/Propiedades de lista | Compatibilidad total; CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
-| Persistencia de la variable de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) (Enero de 2022) |
-| eVars de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) (Enero de 2022) |
+| Persistencia de la variable de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#métrica-de-enlace) (enero de 2022) |
+| eVars de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#métrica-de-enlace) (enero de 2022) |
 | Métricas | Compatibilidad total. CJA aprovecha Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
 | Anulación de duplicación métrica | Compatibilidad total. |
 | Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. |
 | Exportación de PDF | Compatibilidad total. |
 | Revisión del proyecto | Compatibilidad total. |
 | Vinculación de proyectos | Compatibilidad total. |
-| Report Builder (complemento de Excel) | Compatibilidad total. |
+| Report Builder (complemento de Excel) | Compatibilidad total |
 | Procesamiento de intervalo de tiempo | Compatibilidad total; CJA se basa exclusivamente en el procesamiento de intervalos del informe. |
 | Acceso a la API de informes | Compatibilidad total. Disponible a través de la [API de CJA](https://www.adobe.io/cja-apis/docs/). |
 | Informes y proyectos programados | Compatibilidad total. |
@@ -61,7 +61,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Configuración de persistencia de eVar | Las eVars ya no forman parte de CJA. Sin embargo, la configuración de persistencia ahora forma parte de las Vistas de datos y está disponible para todas las dimensiones. Tenga en cuenta que la persistencia se basa en el procesamiento de intervalos del informe, no en el procesamiento de la recopilación de datos. Las dimensiones configuradas en Vistas de datos se limitan a una persistencia máxima de 90 días y no admiten persistencia ilimitada. |
 | Dimensiones de segmentación geográfica | Toda la segmentación geográfica/geografía recopilada en Adobe Analytics se transfiere a CJA a través de Analytics Data Connector. Las implementaciones que no utilicen Analytics Data Connector, como las que dependen del SDK web de AEP para la recopilación de datos digitales, no tendrán la lista completa de búsquedas geográficas realizadas automáticamente (se admiten países y estados, ciudades y códigos postales no). |
 | Canales de marketing | Los datos de los canales de marketing ahora fluyen a CJA a través de Analytics Data Connector. Las reglas del canal de marketing aún deben configurarse en Adobe Analytics tradicional. Algunas reglas no son compatibles. Para obtener más información, consulte la [documentación sobre canales de marketing de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=es#cja-usecases). |
-| Variable de producto | Dentro de Experience Platform, los usuarios pueden utilizar una matriz de campos de tipo Objeto dentro de un esquema del conjunto de datos para satisfacer este caso práctico. Dentro de CJA, los clientes pueden utilizar cualquier cantidad de variables de producto y no están restringidos a una sola variable como en Adobe Analytics. |
+| Variable de producto | Dentro de Experience Platform, los usuarios pueden utilizar una matriz de campos de tipo Objeto dentro de un esquema del conjunto de datos para satisfacer este caso práctico. Dentro de CJA, los clientes tienen la capacidad de usar cualquier número de variables de producto y no están restringidos a una sola variable como en Adobe Analytics. |
 | Uso compartido de proyecto | El uso compartido de proyectos solo es compatible entre los usuarios de CJA; no existe el uso compartido de proyectos entre CJA y la versión tradicional de Analysis Workspace. |
 | Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
 
@@ -80,7 +80,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Alertas | Se ha planificado lanzar una versión compatible. |
 | Análisis de contribución | Se ha planificado lanzar una versión compatible. |
-| Creación de informes de Data Warehouse (100 % de exportación de filas) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. Adobe Experience Platform [[!UICONTROL Servicio de consultas]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) también proporciona una interfaz para estos casos de uso en CJA. |
+| Creación de informes de Data Warehouse (100 % de exportación de filas) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. [[!UICONTROL El servicio de consulta]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) de Adobe Experience Platform también proporciona una interfaz para estos casos de uso en CJA. |
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
