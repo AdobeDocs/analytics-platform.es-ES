@@ -3,10 +3,10 @@ title: Ingesta de datos de Google Analytics en Adobe Experience Platform
 description: 'Explica cómo aprovechar Customer Journey Analytics (CJA) para ingerir los datos de Google Analytics en Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+source-git-commit: 445317efa636024dbaf0ac34b6a74b52b92b9000
+workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -124,7 +124,7 @@ También puede capturar eventos de flujo continuo en directo desde Google Tag Ma
 
 ### 1. Agregar variables personalizadas
 
-Después de iniciar sesión en la cuenta de Google Tag Manager, debe agregar algunas variables de constante personalizadas relacionadas con Adobe. Probablemente ya tenga variables en Google Tag Manager que se envíen a Google Analytics, como el correo electrónico del cliente, el nombre del cliente, el idioma y el estado de inicio de sesión del cliente. Debe definir 5 nuevas variables personalizadas:
+Después de iniciar sesión en la cuenta de Google Tag Manager, debe agregar algunas variables de constante personalizadas relacionadas con Adobe. Probablemente ya tenga variables en Google Tag Manager que se envíen a los Google Analytics, como el correo electrónico del cliente, el nombre del cliente, el idioma y el estado de inicio de sesión del cliente. Debe definir 5 nuevas variables personalizadas:
 
 * ID de organización en Adobe Experience Cloud
 * Punto final de transmisión DCS
