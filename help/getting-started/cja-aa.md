@@ -3,9 +3,9 @@ title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: 279778d30241e338bff97bd2b0514f3a47614bb9
+source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1309'
 ht-degree: 94%
 
 ---
@@ -79,17 +79,17 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Alertas | Se ha planificado lanzar una versión compatible. |
+| Clasificación del Generador de reglas | Funcionará de forma ligeramente diferente en CJA, usando manipulaciones de cadenas en el momento del informe en lugar de conjuntos de datos de búsqueda. |
 | Análisis de contribución | Se ha planificado lanzar una versión compatible. |
 | Creación de informes de Data Warehouse (100 % de exportación de filas) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. [[!UICONTROL El servicio de consulta]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) de Adobe Experience Platform también proporciona una interfaz para estos casos de uso en CJA. |
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
+| Informes de alza y confianza | Se ha planificado lanzar una versión compatible. |
+| Reglas de procesamiento, Reglas de VISTA, Reglas de procesamiento de canales de marketing | Se ha planificado la compatibilidad, pero funcionará en el momento de la consulta en lugar de durante la recopilación de datos para realizar manipulaciones de datos más flexibles, retroactivas y no destructivas. |
+| Plantillas de proyecto | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
 | Publicación de segmentos (envío de segmentos del Espacio de trabajo a Experience Cloud) | Se ha planificado lanzar una versión compatible. Se llamará &quot;Publicación de audiencias&quot; en CJA. |
 | Informes de sesión nuevos frente a repetidos | Se ha planificado lanzar una versión compatible con algunas advertencias. |
-| Informes de alza y confianza | Se ha planificado lanzar una versión compatible. |
-| Clasificación del Generador de reglas | Funcionará de forma ligeramente diferente en CJA usando manipulaciones de cadenas sobre la marcha en el momento del informe en lugar de conjuntos de datos de búsqueda. |
-| Reglas de procesamiento, Reglas de VISTA, Reglas de procesamiento de canales de marketing | Se ha planificado la compatibilidad, pero funcionará en el momento de la consulta en lugar de durante la recopilación de datos para realizar manipulaciones de datos más flexibles, retroactivas y no destructivas. |
-| Plantillas de proyecto | Se ha planificado lanzar una versión compatible. |
 
 ## Compatibilidad aún no planificada
 
