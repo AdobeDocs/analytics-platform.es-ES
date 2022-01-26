@@ -3,10 +3,10 @@ title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: b72d84a0412ab774360bc2f9b4d9e656b54598f6
-workflow-type: ht
-source-wordcount: '1207'
-ht-degree: 100%
+source-git-commit: 279778d30241e338bff97bd2b0514f3a47614bb9
+workflow-type: tm+mt
+source-wordcount: '1310'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Eliminación de RGPD | Compatibilidad total. Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. CJA hereda los cambios de datos que [!UICONTROL Experience Platform] hace en los conjuntos de datos subyacentes. |
 | Variables de lista/Propiedades de lista | Compatibilidad total; CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
 | Persistencia de la variable de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#métrica-de-enlace) (enero de 2022) |
-| eVars de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#métrica-de-enlace) (enero de 2022) |
+| eVars de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) (enero de 2022) |
 | Métricas | Compatibilidad total. CJA aprovecha Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
 | Anulación de duplicación métrica | Compatibilidad total. |
 | Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. |
@@ -84,7 +84,12 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
-| Publicación de segmentos (envío de segmentos del Espacio de trabajo a Experience Cloud) | Se ha planificado lanzar una versión compatible. |
+| Publicación de segmentos (envío de segmentos del Espacio de trabajo a Experience Cloud) | Se ha planificado lanzar una versión compatible. Se llamará &quot;Publicación de audiencias&quot; en CJA. |
+| Informes de sesión nuevos frente a repetidos | Se ha planificado lanzar una versión compatible con algunas advertencias. |
+| Informes de alza y confianza | Se ha planificado lanzar una versión compatible. |
+| Clasificación del Generador de reglas | Funcionará de forma ligeramente diferente en CJA usando manipulaciones de cadenas sobre la marcha en el momento del informe en lugar de conjuntos de datos de búsqueda. |
+| Reglas de procesamiento, Reglas de VISTA, Reglas de procesamiento de canales de marketing | Se ha planificado la compatibilidad, pero funcionará en el momento de la consulta en lugar de durante la recopilación de datos para realizar manipulaciones de datos más flexibles, retroactivas y no destructivas. |
+| Plantillas de proyecto | Se ha planificado lanzar una versión compatible. |
 
 ## Compatibilidad aún no planificada
 
@@ -95,6 +100,9 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Clasificación del Generador de reglas | Aún no se ha planificado lanzar una versión compatible. |
 | Archivo de fuentes de datos | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de resumen | Aún no se ha planificado lanzar una versión compatible. |
+| Fuentes de datos de ID de transacción | Aún no se ha planificado lanzar una versión compatible. |
+| Conversión de moneda | Aún no se ha planificado lanzar una versión compatible. |
+| Informes en tiempo real | Aún no se ha planificado lanzar una versión compatible. |
 
 ## Nunca será compatible
 
