@@ -3,10 +3,10 @@ title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
+source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 94%
+source-wordcount: '1313'
+ht-degree: 93%
 
 ---
 
@@ -79,6 +79,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Alertas | Se ha planificado lanzar una versión compatible. |
+| Eventos de calendario | Se llamará &quot;Anotaciones&quot; en Workspace. |
 | Clasificación del Generador de reglas | Funcionará de forma ligeramente diferente en CJA, usando manipulaciones de cadenas en el momento del informe en lugar de conjuntos de datos de búsqueda. |
 | Análisis de contribución | Se ha planificado lanzar una versión compatible. |
 | Creación de informes de Data Warehouse (100 % de exportación de filas) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. [[!UICONTROL El servicio de consulta]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) de Adobe Experience Platform también proporciona una interfaz para estos casos de uso en CJA. |
@@ -98,11 +99,11 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Activity Map | Aún no se ha planificado lanzar una versión compatible. |
 | Advertising Cloud | Aún no se ha planificado lanzar una versión compatible. |
 | Clasificación del Generador de reglas | Aún no se ha planificado lanzar una versión compatible. |
+| Conversión de moneda | Aún no se ha planificado lanzar una versión compatible. |
 | Archivo de fuentes de datos | Aún no se ha planificado lanzar una versión compatible. |
+| Informes en tiempo real | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de resumen | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de ID de transacción | Aún no se ha planificado lanzar una versión compatible. |
-| Conversión de moneda | Aún no se ha planificado lanzar una versión compatible. |
-| Informes en tiempo real | Aún no se ha planificado lanzar una versión compatible. |
 
 ## Nunca será compatible
 
@@ -110,5 +111,4 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 * Paneles de Reports &amp; Analytics
 * Marcadores de Reports &amp; Analytics
 * Destinatarios de Reports &amp; Analytics
-* Eventos del calendario de Reports &amp; Analytics
 * Mobile Services
