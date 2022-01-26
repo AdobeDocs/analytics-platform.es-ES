@@ -3,10 +3,10 @@ title: Compatibilidad con funciones de Customer Journey Analytics
 description: Customer Journey Analytics en comparación con las funciones de Adobe Analytics establecidas.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
+source-git-commit: d46779a30fd841194f8ba0e80ab17ea5714569db
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 93%
+source-wordcount: '1309'
+ht-degree: 92%
 
 ---
 
@@ -69,8 +69,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
-| Filtros de bots | Para los conjuntos de datos basados en el conector de origen de Analytics, se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
-| Media Analytics | Los datos de medios están disponibles como parte de Analytics Data Connector. |
+| Filtros de bots | Para [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)conjuntos de datos basados en , se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
+| Media Analytics | Los datos de contenidos están disponibles como parte del conector de origen de Analytics. |
 | Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics for Target (A4T) y Visores simultáneos de medios. |
 | Reglas de procesamiento | En los conjuntos de datos basados en Analytics Data Connector, las reglas de procesamiento se aplican igual. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
 
@@ -98,10 +98,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Activity Map | Aún no se ha planificado lanzar una versión compatible. |
 | Advertising Cloud | Aún no se ha planificado lanzar una versión compatible. |
-| Clasificación del Generador de reglas | Aún no se ha planificado lanzar una versión compatible. |
 | Conversión de moneda | Aún no se ha planificado lanzar una versión compatible. |
 | Archivo de fuentes de datos | Aún no se ha planificado lanzar una versión compatible. |
-| Informes en tiempo real | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de resumen | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de ID de transacción | Aún no se ha planificado lanzar una versión compatible. |
 
