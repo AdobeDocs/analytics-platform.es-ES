@@ -1,17 +1,48 @@
 ---
-title: View previous Customer Journey Analytics release notes
-description: Previous CJA release notes
-source-git-commit: 0822b27006c79e88d463055ecb0f7172cda8e141
+title: Ver notas de versiones anteriores del Customer Journey Analytics
+description: Notas de la versión anterior de CJA
+source-git-commit: 62cf5418309c12413edeeaa88346f9eb8a893276
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 15%
+source-wordcount: '525'
+ht-degree: 78%
 
 ---
 
 
-# Previous Customer Journey Analytics release notes
+# Notas de la versión anterior del Customer Journey Analytics
 
-## 2021
+## Notas de la versión 2021
+
+### Noviembre de 2021
+
+| Función | Descripción | [Disponibilidad general](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=es) - Fecha de destino |
+| ----------- | ---------- | ----- |
+| Intervalos de fechas de nivel de minuto en Analysis Workspace | Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel o al crear un intervalo de fechas personalizado. Si realiza informes en un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo. | 18 de octubre de 2021 |
+| [!UICONTROL Generador de filtros] rápidos | Permite a los usuarios empresariales aplicar rápidamente segmentos básicos en un flujo de trabajo del proyecto simplificado y en línea. No es necesario ir al [!UICONTROL Generador de filtros]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=es) | 21 de octubre de 2021 |
+| Mejoras en la búsqueda del carril izquierdo de Analysis Workspace | La búsqueda en el carril izquierdo 1) da prioridad a las coincidencias exactas por encima de las amplias, además de seguir teniendo en cuenta la actualización y la relevancia de los componentes. 2) Resalta los caracteres coincidentes para que los resultados de la búsqueda sean más comprensibles. 3) Es más fácil encontrar clasificaciones relacionadas con una dimensión. 4) Por último, admite la búsqueda con comodines (`*`) para encontrar más fácilmente los componentes específicos que necesita. Nota: La búsqueda con comodines todavía no funciona en el nivel de elemento de dimensión. | 21 de octubre de 2021 |
+| Tema oscuro | El [tema oscuro](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=es#dark-theme) está disponible como opción de visualización. | 21 de octubre de 2021 |
+| Ventana de retrospectiva para la asignación de dimensiones | Se añade una ventana retrospectiva de hasta 90 días a la configuración de asignación de dimensiones en Persistencia en la configuración de Vistas de datos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es) | 28 de octubre de 2021 |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Correcciones en Customer Journey Analytics {#cja-fixes}
+
+* Se han corregido problemas de rendimiento de CJA (mensajes de error al cargar proyectos). (AN-269451, AN-270649)
+* Se ha corregido un problema en CJA por el cual Inicio de sesión no coincidía con las Entradas de flujo para Nombres de página. (AN-273501)
+* Se ha corregido un problema que hacía que el informe de visitas en el orden previsto en CJA no funcionara correctamente. (AN-269761)
+
+### Octubre de 2021
+
+
+
+### Enero de 2021
+
+| Función | [Disponibilidad general](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=es) - Fecha de destino | Descripción |
+| ----------- | ---------- | ----- |
+| Dimensiones de [!UICONTROL dispositivo] y [!UICONTROL geografía] | 30 de octubre de 2020 | Estas dimensiones ahora están disponibles de forma predeterminada como parte del [Búsqueda estándar](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/standard-lookups.html) proyecto de asistencia en Adobe Analytics [!UICONTROL Conector de origen]. Esta adición tan solicitada aumenta la [paridad entre Adobe Analytics y CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=es#cja-overview). |
+| IQ de recorrido: [!UICONTROL Cross-Channel Analytics] | 11 de enero de 2021 | Recorrido IQ: [!UICONTROL Análisis en canales múltiples] permite volver a escribir un conjunto de datos de evento de Adobe Analytics (u otro) en el conjunto de datos de Experience Platform de un espacio de nombres de ID a otro. Normalmente, puede volver a escribir el conjunto de datos de evento de un ID basado en cookies a un ID basado en persona. De este modo, el conjunto de datos reabierto se puede combinar con otros datos basados en personas en una conexión CJA, lo que permite el análisis entre dispositivos y canales en Analysis Workspace. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es#cja-connections) |
+| Analysis Workspace: selección de componentes | 4 de febrero de 2021 | El componente de zona desplegable/zona de colocación que se encuentra en [!UICONTROL Quick Insights] se ha agregado a todas las zonas de colocación de [!UICONTROL Workspace]. Esta mejora le permite elegir de una lista desplegable de componentes compatibles o continuar utilizando el espacio como zona de colocación. |
+| Analysis Workspace: direcciones URL de imagen | 14 de enero de 2021 | Puede añadir imágenes a proyectos de Workspace haciendo referencia a una URL de imagen pública. |
 
 
 ## 2020
