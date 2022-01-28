@@ -4,9 +4,9 @@ description: Vuelva a escribir los ID de visitante de varios conjuntos de datos 
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 source-git-commit: 0f348f1d2119c902716a5e096a859521a4b316b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Antes de usar Análisis entre canales, asegúrese de que su organización está 
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que cualquier cambio en el esquema del conjunto de datos de evento global debe aplicarse también en el nuevo esquema del conjunto de datos enlazado; de lo contrario, romperá el conjunto de datos enlazado.
+>Tenga en cuenta que cualquier cambio en el esquema del conjunto de datos de evento global debe aplicarse también en el nuevo esquema del conjunto de datos vinculado; de lo contrario, este se romperá.
 
 Análisis entre canales es una función innovadora y sólida, pero tiene limitaciones en cuanto a su uso.
 
@@ -62,14 +62,14 @@ Análisis entre canales es una función innovadora y sólida, pero tiene limitac
 Una vez que su organización cumpla todos los requisitos previos y comprenda sus limitaciones, puede seguir estos pasos para comenzar a usarlo en CJA.
 
 1. Importe los datos deseados en Adobe Experience Platform. Consulte [Creación de un esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es) e [Introducción de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es) en la documentación de Adobe Experience Platform.
-1. Póngase en contacto con el servicio de atención al cliente de Adobe con la siguiente información:
+1. Póngase en contacto con Asistencia al cliente de Adobe con la siguiente información:
    * Una solicitud para habilitar Análisis entre canales
    * El ID del conjunto de datos del conjunto de datos para el cual desea volver a generar la clave
    * El nombre de columna del ID persistente del conjunto de datos deseado (identificador que aparece en cada fila)
    * El nombre de la columna del ID transitorio del conjunto de datos deseado (vínculo del identificador personal entre conjuntos de datos)
    * Su preferencia de frecuencia de [repetición](replay.md) y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día
-   * Nombre del Simulador para pruebas.
-1. El servicio de asistencia al cliente de Adobe trabajará con la ingeniería de Adobes para habilitar el análisis entre canales cuando reciba su solicitud. Una vez habilitado, aparecerá en Adobe Experience Platform un nuevo conjunto de datos con clave con una nueva columna de ID de persona. La asistencia al cliente de Adobe puede proporcionar el nuevo nombre de columna de ID del conjunto de datos y ID de persona.
+   * Nombre de la zona protegida.
+1. La Asistencia al cliente de Adobe trabajará con el personal de ingeniería de Adobe para habilitar el Análisis en canales múltiples cuando reciba la solicitud. Una vez habilitado, aparecerá en Adobe Experience Platform un nuevo conjunto de datos con clave con una nueva columna de ID de persona. La Asistencia al cliente de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
 1. Cuando se active por primera vez, Adobe proporcionará un relleno de datos identificados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, el ID efímero debe existir en los datos no identificados en ese momento.
 1. [Cree una conexión](../create-connection.md) en CJA usando el nuevo conjunto de datos recientemente generado y otros conjuntos de datos que desea incluir. Elija el ID personal correcto para cada conjunto de datos.
 1. [Cree una vista de datos](/help/data-views/create-dataview.md) en función de la conexión.
