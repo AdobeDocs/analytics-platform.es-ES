@@ -1,15 +1,15 @@
 ---
-description: Muestra los 5 valores principales para dimensiones que no sean temporales (y 15 para dimensiones temporales).
-title: Vista previa de dimensiones en CJA Workspace
+description: 'Muestra los cinco valores principales correspondientes a las dimensiones que no sean temporales (y 15 valores para las temporales). '
+title: Previsualización de dimensiones en CJA Workspace
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Vista previa de dimensiones en Analysis Workspace
+# Previsualización de dimensiones en Analysis Workspace
 
 >[!NOTE]
 >
