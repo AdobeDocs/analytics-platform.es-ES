@@ -4,9 +4,9 @@ description: Todos los ajustes que se pueden ajustar para crear o editar una vis
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,13 +84,13 @@ A continuación, puede crear métricas y dimensiones a partir de elementos de es
    * [[!UICONTROL Persistencia]](component-settings/persistence.md)
    * [[!UICONTROL Clasificación de valor]](component-settings/value-bucketing.md)
 
-## Duplicar métricas o dimensiones
+## Duplicado de métricas o dimensiones
 
 Duplicar métricas o dimensiones y luego modificar configuraciones específicas es una manera sencilla de crear varias métricas o dimensiones a partir de un único campo de esquema. Seleccione la opción [!UICONTROL Duplicado] debajo del nombre de la métrica o dimensión en la parte superior derecha. Modifique la nueva métrica o dimensión, y guárdela con un nombre más descriptivo.
 
 ![Duplicar](assets/duplicate.png)
 
-## Filtrar campos de esquema o conjuntos de datos
+## Filtrado de campos de esquema o conjuntos de datos
 
 Puede filtrar los campos de esquema en el carril izquierdo según los siguientes tipos de datos:
 
@@ -100,7 +100,7 @@ También puede filtrar por conjuntos de datos y por si un campo de esquema conti
 
 ![Filtrar otros](assets/filter-other.png)
 
-## Configuración ficha
+## Configuración pestaña
 
 1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la pestaña **[!UICONTROL Vistas de datos]**.
 1. Haga clic en **[!UICONTROL Agregar]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
