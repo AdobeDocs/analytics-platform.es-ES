@@ -3,9 +3,9 @@ description: La partición de tiempo toma la marca de hora de los aciertos recog
 title: Dimensiones de partición de tiempo
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ Dimensiones de partición de tiempo se basan en la zona horaria de la vista de d
 | Día de la semana | Lunes, martes, miércoles, jueves, viernes, sábado, domingo |
 | Fin de semana / Día de la semana | Fin de semana, día de la semana |
 | Día del mes | 1-31 |
-| Mes del año | Enero-Diciembre |
+| Mes del año | Enero-diciembre |
 | Día del año | 1-366 |
 | Trimestre del año | T1, T2, T3, T4 |
