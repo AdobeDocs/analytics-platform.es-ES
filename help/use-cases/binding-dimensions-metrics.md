@@ -1,13 +1,13 @@
 ---
 title: Uso de dimensiones y métricas de enlace en CJA
 description: Dimensiones de atributo a matrices de objetos para análisis de persistencia complejos.
-source-git-commit: b93809c9af02227295c9dd66565f04675236c393
+exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
+source-git-commit: 4381a01b072084701d065d7f41de539412c8d371
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 1%
+source-wordcount: '837'
+ht-degree: 2%
 
 ---
-
 
 # Uso de dimensiones y métricas de enlace en CJA
 
@@ -15,7 +15,81 @@ Customer Journey Analytics ofrece varias formas de mantener los valores de dimen
 
 Aunque puede utilizar dimensiones de enlace con datos de evento de nivel superior, este concepto es mejor utilizado cuando se trabaja con [Matrices de objetos](object-arrays.md). Puede atribuir una dimensión a una parte de una matriz de objetos sin aplicarla a todos los atributos de un suceso determinado. Por ejemplo, puede atribuir un término de búsqueda a un producto de la matriz de objetos del carro de compras sin enlazar ese término de búsqueda al evento completo.
 
-## Ejemplo 2: Uso de métricas de enlace para enlazar el término de búsqueda con una compra de producto
+## Ejemplo 1: Utilice dimensiones de enlace para atribuir atributos de producto adicionales a una compra
+
+Puede enlazar elementos de dimensión dentro de una matriz de objetos a otra dimensión. Cuando aparece el elemento de dimensión enlazado, CJA recuerda la dimensión enlazada y la incluye en el evento por usted. Tenga en cuenta el siguiente recorrido del cliente:
+
+1. Un visitante ve una página de producto en una lavadora.
+
+   ```json
+   {
+       "PersonID": "1",
+       "product_views": 1,
+       "product": [
+           {
+               "name": "Washing Machine 2000",
+               "color": "white",
+               "type": "front loader",
+           },
+       ],
+       "timestamp": 1534219229
+   }
+   ```
+
+1. A continuación, el visitante ve una página de producto en un secador.
+
+   ```json
+   {
+       "PersonID": "1",
+       "product_views": 1,
+       "product": [
+           {
+               "name": "Dryer 2000",
+               "color": "neon orange",
+           },
+       ],
+       "timestamp": 1534219502
+   }
+   ```
+
+1. Finalmente hacen una compra. El color de cada producto no se incluyó en el evento de compra.
+
+   ```json
+   {
+       "PersonID": "1",
+       "orders": 1,
+       "product": [
+           {
+               "name": "Washing Machine 2000",
+               "price": 1600,
+           },
+           {
+               "name": "Dryer 2000",
+               "price": 499
+           }
+       ],
+       "timestamp": 1534219768
+   }
+   ```
+
+Si desea ver los ingresos por color sin una dimensión de enlace, la dimensión `product.color` persiste y atribuye incorrectamente el crédito al color del secador:
+
+| product.color | ingresos |
+| --- | --- |
+| naranja neón | 2099 |
+
+Puede entrar al Administrador de vista de datos y enlazar el color del producto con el nombre del producto:
+
+![Dimensión de enlace](assets/binding-dimension.png)
+
+Cuando se establece este modelo de persistencia, Adobe toma nota del nombre del producto cada vez que se establece el color del producto. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para este visitante, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con el nombre del producto tendrían un aspecto similar al siguiente:
+
+| product.color | ingresos |
+| --- | --- |
+| blanco | 1600 |
+| naranja neón | 499 |
+
+## Ejemplo 2: Use métricas de enlace para enlazar el término de búsqueda con una compra de producto
 
 Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido enlazar un término de búsqueda a un producto para que cada término de búsqueda obtenga crédito por su producto apropiado. Tenga en cuenta el siguiente recorrido del cliente:
 
@@ -204,11 +278,7 @@ Si ha utilizado la última asignación con la dimensión de término de búsqued
 
 Aunque este ejemplo incluye solo un visitante, muchos visitantes que buscan cosas diferentes pueden atribuir de forma incorrecta términos de búsqueda a productos diferentes, lo que dificulta la determinación de cuáles son realmente los mejores resultados de búsqueda.
 
-Con una dimensión de enlace, el Adobe toma nota del elemento de dimensión al que está enlazado. Cuando ese mismo valor de enlace se ve en un evento subsiguiente, trae el elemento de dimensión para que pueda atribuirle la métrica deseada. En este ejemplo, podemos establecer la dimensión de enlace para search_term en product name:
-
-![Dimensión de enlace](assets/binding-dimension.png)
-
-Cuando establecemos esta dimensión en el Administrador de vista de datos, también se requiere que definamos una métrica de enlace porque la dimensión de enlace está en una matriz de objetos. Una métrica de enlace actúa como déclencheur para una dimensión de enlace, por lo que solo se une a los eventos en los que la métrica de enlace está presente. En esta implementación de ejemplo, la página de resultados de búsqueda siempre incluye una dimensión de término de búsqueda y una métrica de búsquedas. Podemos enlazar términos de búsqueda con nombres de producto siempre que la métrica Búsquedas esté presente.
+Con una dimensión de enlace, el Adobe toma nota del elemento de dimensión al que está enlazado. Cuando ese mismo valor de enlace se ve en un evento subsiguiente, trae el elemento de dimensión para que pueda atribuirle la métrica deseada. En este ejemplo, podemos establecer la dimensión de enlace para search_term en product name. Cuando establecemos esta dimensión en el Administrador de vista de datos, también se requiere que definamos una métrica de enlace porque la dimensión de enlace está en una matriz de objetos. Una métrica de enlace actúa como déclencheur para una dimensión de enlace, por lo que solo se une a los eventos en los que la métrica de enlace está presente. En esta implementación de ejemplo, la página de resultados de búsqueda siempre incluye una dimensión de término de búsqueda y una métrica de búsquedas. Podemos enlazar términos de búsqueda con nombres de producto siempre que la métrica Búsquedas esté presente.
 
 ![Métrica de enlace](assets/binding-metric.png)
 
