@@ -1,11 +1,12 @@
 ---
 description: Preguntas frecuentes y sugerencias para la solución de problemas del espacio de trabajo.
 title: Preguntas frecuentes
+feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 | Pregunta | Respuesta |
 |--- |--- |
@@ -35,4 +36,4 @@ Si ha creado correctamente un informe de espacio de trabajo pero no hay datos, p
 
 * Si aplicó un filtro en el informe, es posible que los criterios del filtro no coincidan con ningún dato. Intente quitar el filtro o ajustar la definición del filtro.
 * Compruebe el intervalo de fechas en la esquina superior derecha y compruebe que está establecido en un valor que esperaba.
-* Vaya al sitio web y utilice [Debugger](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html) para validar que se están recopilando datos.
+* Vaya al sitio web y utilice [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) para validar que se están recopilando datos.

@@ -1,12 +1,12 @@
 ---
 description: Cómo cambiar la paleta de colores de visualización o especificar su propia paleta de colores personalizada.
 title: Paleta de colores de visualización
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 88%
+source-wordcount: '244'
+ht-degree: 82%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede cambiar la paleta de colores de visualización que se emplea en Workspace eligiendo una paleta de color diferente o creando una paleta propia que corresponda a los colores de marca de su empresa. Esta característica afecta a la mayoría de las visualizaciones de Workspace, pero **no** afecta al Resumen del cambio, al formato condicional en tablas improvisadas ni a la Visualización de mapas.
 
@@ -26,7 +26,7 @@ Puede cambiar la paleta de colores de visualización que se emplea en Workspace 
 
 Recuerde:
 
-* Hay cinco paletas de color preconfiguradas entre las que elegir. La paleta predeterminada y la de abajo se han optimizado para lograr un contraste óptimo y son más accesibles para los que no tienen color.
+* Hay cinco paletas de color preconfiguradas entre las que elegir. La paleta predeterminada y la de abajo se han optimizado para el contraste y son más accesibles para los que no tienen color.
 * Las paletas de color 3, 4 y 5, situadas bajo las dos primeras, están optimizada para ofrecer la mayor armonía cromática.
 
 ## Para cambiar la paleta de color:

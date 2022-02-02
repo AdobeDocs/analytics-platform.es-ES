@@ -1,12 +1,13 @@
 ---
 description: Puede crear filtros a partir de un punto de contacto, añadir filtros como punto de contacto y comparar flujos de trabajo clave entre distintos filtros de Analysis Workspace.
-keywords: visitas en el orden previsto y filtros;filtros en el análisis de visitas en el orden previsto;comparar filtros en el orden previsto
+keywords: visitas en el orden previsto y filtros;filtros en el análisis de visitas en el orden previsto;comparar filtros en visitas en el orden previsto
 title: Aplicar filtros en un análisis de visitas en orden previsto
+feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede crear filtros a partir de un punto de contacto, añadir filtros como punto de contacto y comparar flujos de trabajo clave entre distintos filtros de Analysis Workspace.
 
@@ -28,7 +29,7 @@ Puede crear filtros a partir de un punto de contacto, añadir filtros como punto
 
 ## Crear un filtro a partir de un punto de contacto {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Cree un filtro a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda resultar útil para aplicarlo a otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Create filter from touchpoint]**.
+1. Cree un filtro a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda resultar útil para aplicarlo a otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear filtro a partir de touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -42,7 +43,7 @@ Puede crear filtros a partir de un punto de contacto, añadir filtros como punto
 
 ## Añadir un filtro como punto de contacto {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Si desea ver, por ejemplo, la tendencia de los usuarios de EE. UU. y cómo afectan a las visitas en el orden previsto, solo tiene que arrastrar el filtro de los usuarios de EE. UU. a las visitas en el orden previsto:
+Si desea ver, por ejemplo, la tendencia de los usuarios de EE. UU. y cómo afectan a las visitas en el orden previsto, simplemente arrastre el filtro de usuarios de EE. UU. a las visitas en el orden previsto:
 
 ![](assets/segment-touchpoint.png)
 
@@ -52,7 +53,7 @@ O puede crear un punto de contacto AND arrastrando los usuarios de EE. UU. a otr
 
 Puede comparar un número ilimitado de filtros en la visualización de abandonos.
 
-1. Seleccione los filtros que desee comparar en el carril [!UICONTROL Filter] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 filtros: Usuarios de EE. UU. y usuarios de fuera de EE. UU.
+1. Seleccione los filtros que desee comparar en el informe [!UICONTROL Filtro] carril a la izquierda. En nuestro ejemplo, hemos seleccionado 2 filtros: Usuarios de EE. UU. y usuarios de fuera de EE. UU.
 1. Arrástrelos a la zona de colocación Filtro en la parte superior.
 
    ![](assets/segment-drop.png)

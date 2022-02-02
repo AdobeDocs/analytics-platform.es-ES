@@ -1,9 +1,10 @@
 ---
 title: Información general sobre las métricas calculadas
 description: Obtenga más información sobre
+feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
 

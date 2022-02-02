@@ -1,10 +1,9 @@
 ---
 description: La visualización Venn permite arrastrar hasta tres filtros (de Componentes) y una métrica para generar un diagrama de Venn.
 title: Venn
-uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
+feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 48%

@@ -1,9 +1,9 @@
 ---
 description: Lista de limitaciones conocidas en Adobe Analysis Workspace y componentes relacionados
 title: Limitaciones conocidas en Analysis Workspace
+feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 69%
@@ -24,20 +24,20 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 
 ## Visualizaciones
 
-* Las visualizaciones que aprovechan filtros como [!UICONTROL Visitas en el orden previsto], [!UICONTROL Flujo], [!UICONTROL Cohorte] e [!UICONTROL Histograma] no pueden aceptar las métricas calculadas como entradas.
+* Visualizaciones que aprovechan los filtros, como [!UICONTROL Visita en el orden previsto], [!UICONTROL Flujo], [!UICONTROL Cohorte]y [!UICONTROL Histograma], no pueden aceptar las métricas calculadas como entradas.
 * [!UICONTROL Flujo]: Las dimensiones de entrada y salida, por ejemplo: [!UICONTROL página de entrada], no se pueden usar en Flujos.
 * [!UICONTROL Cohorte]: Los números no enteros no se pueden usar como criterios de cohorte.
 
 ## Componentes > Filtros
 
 * Ciertas métricas y dimensiones no se pueden filtrar, como [!UICONTROL Ocurrencias], [!UICONTROL Visitantes únicos], etc.
-* Los filtros específicos creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) no aparecerán en el carril izquierdo de Workspace ni en el administrador de componentes de filtro, a menos que se hagan públicos. Esto se puede hacer editando el filtro y seleccionando **[!UICONTROL Convertir este filtro en público]**.
+* Los filtros específicos creados en la variable [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) no aparecerán en el carril izquierdo de Workspace ni en el administrador de componentes de filtro, a menos que se hagan públicos. Esto se puede hacer editando el filtro y seleccionando **[!UICONTROL Convertir este filtro en público]**.
 
 ## Componentes > Métricas calculadas
 
 * Las métricas calculadas no se pueden usar en determinadas visualizaciones. Consulte “Visualizaciones”.
 * Las métricas calculadas no se pueden usar en el panel de [!UICONTROL Attribution], ya que las métricas calculadas pueden incluir modelos de atribución independientes.
-* Ciertos componentes y operadores no están disponibles si se crea una métrica calculada desde Workspace (en lugar de hacerlo desde [!UICONTROL Components > filters]). Por ejemplo, [!UICONTROL Dirección IP].
+* Ciertos componentes y operadores no están disponibles si se crea una métrica calculada desde Workspace (en lugar de hacerlo desde [!UICONTROL Componentes > Filtros]). Por ejemplo, [!UICONTROL Dirección IP].
 
 ## Componentes > Intervalos de fechas
 

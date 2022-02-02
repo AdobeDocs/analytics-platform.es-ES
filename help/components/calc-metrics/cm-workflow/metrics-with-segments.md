@@ -1,10 +1,10 @@
 ---
 description: 'La segmentación de una métrica individual le permite realizar comparaciones de métricas dentro del mismo informe. '
 title: Métricas segmentadas
-uuid: 88f9829b-76e4-4598-9494-084a91602bc1
+feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 0865c318c1390f2ad6d9864915254a7b8f68030f
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 

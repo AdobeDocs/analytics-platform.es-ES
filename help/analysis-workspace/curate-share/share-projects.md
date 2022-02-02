@@ -2,11 +2,12 @@
 description: Uso compartido de proyectos y funciones de proyectos en Workspace
 keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
+feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -14,13 +15,13 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Más información...](/help/getting-started/cja-aa.md)
+>Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Al compartir, hace que este proyecto esté disponible para otros usuarios de Analysis Workspace de su organización. Cualquier [depuración](curate.md) que haya aplicado se verá reflejada cuando los destinatarios abran el proyecto.
 
 ## Funciones de proyecto {#Roles}
 
-Puede agregar destinatarios a una de las tres funciones del proyecto. Las funciones de proyecto están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Puede agregar destinatarios a una de las tres funciones del proyecto. Las funciones de proyecto están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
 
 | Función | Control de proyecto |
 |---|---|
@@ -51,18 +52,18 @@ Para agregar destinatarios al proyecto compartido:
 Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 1. Añadir destinatarios o grupos de destinatarios.
 Consulte el icono de ayuda en la parte superior para ver las descripciones de cada función.
-1. (Opcional) Comparta componentes de proyecto incrustados (filtros, métricas calculadas e intervalos de fechas) con todos los destinatarios.
+1. (Opcional) Comparta componentes del proyecto incrustados (filtros, métricas calculadas e intervalos de fechas) con todos los destinatarios.
 Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes de Workspace del destinatario. Tenga en cuenta que esta configuración no se mantiene, se trata de una acción concreta usada en el momento de compartir.
 1. Si lo desea, puede configurar esta página como la página de aterrizaje para destinatarios.
 Esta configuración no se mantiene, se trata de una acción concreta usada en el momento de compartir.
 1. Haga clic en Compartir.
-También puede hacer clic en **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. Si un proyecto ya se ha compartido, estos botones indicarán **[!UICONTROL Actualizar]** y **[!UICONTROL Depurar y actualizar]**. Obtenga más información sobre la [depuración del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+También puede hacer clic en **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. Si un proyecto ya se ha compartido, estos botones indicarán **[!UICONTROL Actualizar]** y **[!UICONTROL Depurar y actualizar]**. Obtenga más información sobre la [depuración del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es).
 
 ![](assets/share-proj-modal.png)
 
 ## Compartir en grupos de destinatarios {#Groups}
 
-Todos los usuarios pueden compartir proyectos con grupos, que son una recopilación de destinatarios. En el Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [Adobe Experience Cloud admin console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Todos los usuarios pueden compartir proyectos con grupos, que son una recopilación de destinatarios. En Customer Journey Analytics, los grupos se definen mediante perfiles de producto en la variable [Consola de administración de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 * Los administradores pueden compartir con cualquier grupo, incluido “Todos”.
 * Los no administradores pueden compartir con los grupos de los que son miembros, excepto con el grupo “Todos”.

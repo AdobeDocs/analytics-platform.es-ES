@@ -1,10 +1,11 @@
 ---
 title: Realización de análisis avanzados en Customer Journey Analytics
 description: Describe cómo realizar análisis avanzados de Customer Journey Analytics el Espacio de trabajo.
+feature: CJA Workspace Basics
 exl-id: 17f50618-54eb-4d60-9f5e-62aab9a3c49b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: Elementos de dimensión dinámicos o estáticos en tablas improvisadas
-description: Interacción con elementos de dimensión dinámicos y estáticos en tablas.
+description: Interacción con elementos de dimensión dinámicos y estáticos en tablas
+feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 100%
 

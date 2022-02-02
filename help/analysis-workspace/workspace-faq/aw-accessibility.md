@@ -1,8 +1,9 @@
 ---
 description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
+feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 96%
@@ -56,7 +57,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | Alt + Mayús + 1 / 2 / 3 | Saltar a diferentes carriles: [!UICONTROL Paneles], [!UICONTROL Visualizaciones] o [!UICONTROL Componentes] |
 | Alt + flecha izquierda/derecha | Desplazamiento entre paneles |
 | Alt + M | Contraer/Expandir todos los paneles |
-| Alt + Ctrl + M | Contraer/Expandir panel activo |
+| Alt + Ctrl + M | Contraer/Expandir el panel activo |
 | Ctrl + / | Buscar carril izquierdo |
 
 #### Creación de análisis

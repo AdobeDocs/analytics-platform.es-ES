@@ -1,19 +1,19 @@
 ---
-description: Aprenda a ajustar la densidad de vista en Analysis Workspace.
+description: Aprenda a ajustar la densidad de la vista en Analysis Workspace.
 title: Ver densidad
-translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+feature: CJA Workspace Basics
+exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 90%
 
 ---
 
-
 # Ver densidad
 
 Ajustar la densidad de la visualización le permite ver más datos en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte.
-Dispone de tres opciones al cambiar la densidad de visualización mediante botones de opción:
+Dispone de tres opciones al cambiar la densidad de la visualización mediante botones de opción:
 
 - **[!UICONTROL Compacta]**: Esta es la versión con la vista más condensada.
 - **[!UICONTROL Cómoda]**: Deja algo más de espacio que la versión Compacta.

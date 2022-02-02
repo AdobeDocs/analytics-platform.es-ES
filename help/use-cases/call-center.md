@@ -3,8 +3,9 @@ title: Importación de datos web y de centros de llamadas
 description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios web y de centros de llamadas.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+feature: Use Cases
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 

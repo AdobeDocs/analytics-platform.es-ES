@@ -1,11 +1,11 @@
 ---
 description: Utilizar filtros específicos en Analysis Workspace.
 title: Filtros de proyecto específicos
-feature: Workspace Basics
+feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: 5877c7a39605f7a5ce1f84673dbd4123762ccc61
-workflow-type: ht
+source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 

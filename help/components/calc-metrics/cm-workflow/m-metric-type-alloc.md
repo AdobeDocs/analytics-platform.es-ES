@@ -1,8 +1,10 @@
 ---
-description: 'Obtenga más información sobre '
+description: Obtenga más información sobre
 title: Tipo de métrica y atribución
-source-git-commit: 0865c318c1390f2ad6d9864915254a7b8f68030f
-workflow-type: ht
+feature: Calculated Metrics
+exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -25,4 +27,3 @@ Si selecciona el icono de engranaje junto a una métrica, puede especificar el t
 
 >[!IMPORTANT]
 >Para obtener una lista completa de los modelos de atribución no predeterminados y de las ventanas retroactivas, consulte [Modelos de atribución y ventanas retroactivas](/help/analysis-workspace/attribution/models.md).
-

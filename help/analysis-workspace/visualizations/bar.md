@@ -1,14 +1,14 @@
 ---
-description: La visualización de barras muestra barras verticales que representan varios valores en una o varias métricas.
+description: La visualización Barra muestra las barras verticales que representan los distintos valores de una o varias métricas.
 title: Barra y barra apilada
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+feature: Visualizations
+exl-id: a4458694-0c90-4e44-88d5-575737a61c36
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 85%
 
 ---
-
 
 # Barra y barra apilada
 
@@ -29,4 +29,3 @@ Esta visualización es similar a un gráfico de barras, pero con las barras de s
 Una nueva configuración en las visualizaciones de barras apiladas convierte el gráfico en una visualización apilada al 100 %:
 
 ![](assets/stacked_100_percent.png)
-

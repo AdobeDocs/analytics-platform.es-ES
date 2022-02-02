@@ -1,14 +1,14 @@
 ---
 description: Las visitas en el orden previsto en Analysis Workspace le permiten mezclar dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Esto le proporciona una mayor flexibilidad para definir los pasos del usuario que desea investigar.
 title: Abandonos entre dimensiones
-translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+feature: Visualizations
+exl-id: 7975324c-4efc-4c36-bc83-dcde85d2febc
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 
 ---
-
 
 # Abandonos entre dimensiones
 
@@ -27,4 +27,3 @@ También puede añadir métricas a este conjunto. En este ejemplo, hemos añadid
 Además, puede combinar distintas dimensiones y métricas en puntos de comprobación AND. Simplemente, arrastre otra dimensión o métrica sobre una existente:
 
 ![](assets/interdimensional-fallout3.png)
-

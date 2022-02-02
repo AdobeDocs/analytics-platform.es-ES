@@ -1,15 +1,14 @@
 ---
 description: Le permite agregar texto definido por el usuario a Workspace.
 title: Texto
-uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+feature: Visualizations
+exl-id: 51cb6b57-682f-4475-b829-75def725be43
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
 ---
-
 
 # Texto
 

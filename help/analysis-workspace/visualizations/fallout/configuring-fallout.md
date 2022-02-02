@@ -1,11 +1,12 @@
 ---
 description: Aprenda a especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional.
 title: Configurar una visualización de abandonos
+feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -13,11 +14,11 @@ ht-degree: 84%
 
 Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página de su sitio web. Sin embargo, los puntos de contacto no están limitados a páginas. Por ejemplo, puede añadir eventos, como unidades, así como visitantes únicos y visitas de retorno. También puede añadir dimensiones, como categoría, tipo de navegador o término de búsqueda interno.
 
-Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es posible que desee comparar filtros como los usuarios de iOS y Android. Arrastre los filtros deseados sobre las visitas en el orden previsto y la información sobre esos filtros se agregará al informe de visitas en el orden previsto. Si desea mostrar solo esos filtros, puede eliminar la línea de base Todas las visitas .
+Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es posible que desee comparar los filtros, como los usuarios de iOS y Android. Arrastre los filtros deseados sobre las visitas en el orden previsto y la información sobre esos filtros se agregará al informe de visitas en el orden previsto. Si desea mostrar solo esos filtros, puede eliminar la línea de base Todas las visitas .
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
-Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
@@ -52,7 +53,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
    <td colname="col2"> <p>Se cuentan los visitantes que “eventualmente” se dirijan a la siguiente página de la ruta, pero no necesariamente al siguiente elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Elemento siguiente </p> </td> 
+   <td colname="col1"> <p>Visita siguiente </p> </td> 
    <td colname="col2"> <p>Se cuentan los visitantes que se dirijan a la siguiente página de la ruta del elemento que aparece inmediatamente después. </p> </td> 
   </tr> 
  </tbody> 

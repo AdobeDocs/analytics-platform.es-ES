@@ -1,9 +1,10 @@
 ---
 description: Cálculo de totales de Workspace.
 title: Totales de Workspace
+feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 

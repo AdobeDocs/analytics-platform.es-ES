@@ -1,8 +1,10 @@
 ---
 description: Obtenga información sobre los pasos a seguir para crear métricas calculadas.
 title: Flujo de trabajo de las métricas calculadas
-source-git-commit: 50c56d718ae7a7f6e3d788b9f755831a7522337c
-workflow-type: ht
+feature: Calculated Metrics
+exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 

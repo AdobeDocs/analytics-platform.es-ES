@@ -1,17 +1,18 @@
 ---
 title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre el análisis de cohorte en Analysis Workspace
+feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 72%
+ht-degree: 74%
 
 ---
 
 # ¿Qué es el [!UICONTROL análisis de cohorte]?
 
-Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El [!UICONTROL análisis de cohorte] es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. (Las explicaciones de [!UICONTROL análisis de cohorte] se encuentran disponibles en la web, como en la [Guía de análisis de cohorte](https://en.wikipedia.org/wiki/Cohort_analysis)).
+Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El [!UICONTROL análisis de cohorte] es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. (Las explicaciones de [!UICONTROL análisis de cohorte] se encuentran disponibles en la web, como en la [Guía básica de análisis de cohorte](https://en.wikipedia.org/wiki/Cohort_analysis)).
 
 Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y filtros específicos) y luego compartir el informe de cohorte con quien desee. Consulte [Depurar y compartir](/help/analysis-workspace/curate-share/curate.md).
 
@@ -23,9 +24,9 @@ Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 * Obtener ideas para pruebas A/B en áreas como precios, ruta de actualización, etc.
 * Ver un informe de [!UICONTROL análisis de cohorte] dentro de un informe de análisis guiado.
 
-[!UICONTROL El ] análisis de cohorte está disponible para todos los clientes Customer Journey Analytics con derechos de acceso a  [!UICONTROL Analysis Workspace].
+[!UICONTROL Análisis de cohorte] está disponible para todos los clientes de Customer Journey Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
 
-[Tutorial en vídeo de análisis de cohortes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[Tutorial en vídeo de análisis de cohortes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=es) (4:36)
 
 >[!IMPORTANT]
 >
@@ -64,7 +65,7 @@ Mide el tiempo transcurrido antes y después de ocurrir el evento de inclusión.
 
 ### Cohorte de [!UICONTROL dimensión personalizada]
 
-Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como [!UICONTROL canal de marketing], [!UICONTROL campaña], [!UICONTROL producto], [!UICONTROL página], [!UICONTROL región] o cualquier otra dimensión en Customer Journey Analytics para mostrar cómo cambia la retención en función de los diferentes valores de estas dimensiones.
+Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como [!UICONTROL canal de marketing], [!UICONTROL campaign], [!UICONTROL producto], [!UICONTROL página], [!UICONTROL region], o cualquier otra dimensión del Customer Journey Analytics para mostrar cómo cambia la retención en función de los diferentes valores de estas dimensiones.
 
 ![](assets/cohort-customizable-cohort-row.png)
 

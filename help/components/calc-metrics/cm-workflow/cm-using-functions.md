@@ -1,8 +1,10 @@
 ---
 description: Las funciones le permiten filtrar y clasificar sus datos, y realizar análisis estadísticos.
 title: Uso de funciones
-source-git-commit: 50c56d718ae7a7f6e3d788b9f755831a7522337c
-workflow-type: ht
+feature: Calculated Metrics
+exl-id: 7a41aa4e-90c6-4242-a801-2eef6b524cfe
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 

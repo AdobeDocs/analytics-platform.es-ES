@@ -3,8 +3,9 @@ title: Cómo funcionan las reproducciones
 description: Comprensión del concepto "reproducción" en Análisis entre canales
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+feature: Cross-Channel Analytics
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 100%
 

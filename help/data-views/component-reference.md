@@ -3,8 +3,9 @@ title: Referencia de componente estándar
 description: Detalles e información sobre todos los componentes estándar que se pueden agregar a cualquier vista de datos.
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
-source-git-commit: 9d08d5c80c8d31ffeca4f829798d0fd1700b0cc8
-workflow-type: ht
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
 

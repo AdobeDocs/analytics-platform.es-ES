@@ -1,10 +1,9 @@
 ---
 cloud: Experience Cloud
-git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.es-ES
+git-repo: https://github.com/AdobeDocs/analytics-platform.es-ES
 description: Este archivo incluye metadatos de nivel de repo que pasan a los archivos TOC.md de la guía del usuario en la repo.
-feature-set: Analytics
-translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+feature-set: Customer Journey Analytics
+source-git-commit: a31b6a6624087b2863b4643397c4a824662551b5
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 84%

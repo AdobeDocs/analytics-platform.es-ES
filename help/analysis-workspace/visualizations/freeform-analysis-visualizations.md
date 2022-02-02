@@ -2,8 +2,9 @@
 description: Representar visualmente los datos en Analysis Workspace.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
+feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: fa0033202650f17acd275f1050565285c1464f53
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 92%
@@ -75,7 +76,7 @@ Para editar una etiqueta de leyenda:
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
 
-## Haga clic con el botón derecho en el menú {#right-click}
+## Menú contextual {#right-click}
 
 Hay funcionalidad adicional disponible para una visualización haciendo clic con el botón derecho en el encabezado de visualización. La configuración variará según la visualización. Algunos de los ajustes disponibles son:
 

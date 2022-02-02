@@ -3,8 +3,9 @@ title: Configuración del componente de agrupamiento de valores
 description: Combine valores numéricos en una dimensión.
 exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 
