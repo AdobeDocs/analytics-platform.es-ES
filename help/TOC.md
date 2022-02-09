@@ -10,9 +10,9 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Análisis entre canales, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 6585e3b3f5a48edcf4357f710630ebbd36175e7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
       + [Clasificación de valor](data-views/component-settings/value-bucketing.md)
    + [Referencia de componente estándar](data-views/component-reference.md)
    + [Casos de uso de vistas de datos](data-views/data-views-usecases.md)
-+ Proyectos del Espacio de trabajo {#cja-workspace}
++ Proyectos de Workspace {#cja-workspace}
    + [Información general de Analysis Workspace](analysis-workspace/home.md)
    + [Realizar análisis básico](analysis-workspace/perform-basic-analysis.md)
    + [Realizar análisis avanzado](analysis-workspace/perform-adv-analysis.md)
@@ -188,7 +188,7 @@ ht-degree: 99%
    + [Casos de uso de Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Usar matrices de objetos](use-cases/object-arrays.md)
    + [Uso de dimensiones y métricas de enlace](use-cases/binding-dimensions-metrics.md)
-   + [(B2B) Añadir datos de nivel de cuenta como un conjunto de datos de consulta](use-cases/b2b.md)
+   + [(B2B) Adición de datos de nivel de cuenta como un conjunto de datos de consulta](use-cases/b2b.md)
    + [Analizar datos en varios canales](use-cases/cross-channel.md)
    + [Importación de datos web y de centros de llamadas](use-cases/call-center.md)
    + [Casos de uso sobre ingesta de datos](use-cases/data-ingestion.md)
