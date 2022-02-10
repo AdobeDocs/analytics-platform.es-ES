@@ -5,14 +5,14 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '1378'
-ht-degree: 100%
+source-git-commit: 929656128214ed0dc2fe2195ea691122edb6566e
+workflow-type: tm+mt
+source-wordcount: '1492'
+ht-degree: 92%
 
 ---
 
-# Creación de un cuadro de resultados
+# Creación de un cuadro de resultados móvil
 
 La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del Generador de cuadros de resultados de los paneles de Adobe Analytics:
 
@@ -34,11 +34,11 @@ Para crear un cuadro de resultados, deberá hacer lo siguiente:
 1. Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco].
 2. Configure el cuadro de resultados con datos y guárdelo.
 
-## Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco]
+## Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco] {#template}
 
 Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blanco] al crear un nuevo proyecto o desde el menú Herramientas.
 
-### Creación de un nuevo proyecto
+### Creación de un nuevo proyecto {#create}
 
 1. Abra Adobe Analytics y haga clic en la ficha **[!UICONTROL Espacio de trabajo]**.
 1. Haga clic en **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL Informe de valoración móvil en blanco]**.
@@ -51,7 +51,7 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 1. En el menú **[!UICONTROL Herramientas]**, seleccione **[!UICONTROL Paneles de Analytics (aplicación móvil)]**.
 1. En la pantalla siguiente, haga clic en **[!UICONTROL Crear nuevo informe de valoración]**.
 
-## Configure el informe de valoración con datos y guárdelo
+## Configure el informe de valoración con datos y guárdelo {#configure}
 
 Para implementar la plantilla del informe de valoración:
 
@@ -66,7 +66,7 @@ Para implementar la plantilla del informe de valoración:
 
 1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
 
-## Adición de dimensiones o métricas
+## Adición de dimensiones o métricas (#dimsmetrics)
 
 Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
 
@@ -74,7 +74,7 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 ![Agregar dimensiones](assets/layer_dimensions.png)
 
-## Aplicar segmentos
+## Aplicar segmentos {#segments}
 
 Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
@@ -82,7 +82,7 @@ Si desea aplicar el segmento a todos los mosaicos del informe de valoración, su
 
 ![Generar segmentos para filtrar](assets/segment_ui.png)
 
-## Adición de intervalos de fechas
+## Adición de intervalos de fechas {#dates}
 
 Añada y quite combinaciones de intervalos de fechas que se puedan seleccionar en el cuadro de resultados seleccionando la lista desplegable de intervalo de fechas.
 
@@ -106,7 +106,7 @@ Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo 
 
 Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas.
 
-## Aplicación de visualizaciones
+## Aplicación de visualizaciones {#viz}
 
 Los paneles de Analytics ofrecen cuatro visualizaciones que le proporcionan buenos conocimientos de los elementos y las métricas de dimensión. Cambie a una visualización diferente al variar el [!UICONTROL tipo de gráfico] de las [!UICONTROL propiedades] de un mosaico. Seleccione el mosaico derecho y cambie el tipo de gráfico.
 
@@ -151,13 +151,13 @@ Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los dat
 
 1. Haga clic en el icono situado junto a **[!UICONTROL No especificado]** para eliminar los datos no especificados de los informes. También puede eliminar cualquier otro elemento de dimensión.
 
-## Vista y configuración de propiedades de mosaico
+## Vista y configuración de propiedades de mosaico {#tiles}
 
 Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
 
 ![Mosaico de propiedades](assets/properties_tile.png)
 
-## Ver Profundizar en (desgloses)
+## Ver Profundizar en (desgloses) {#breakdowns}
 
 Cuando hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Profundizar en (Desglose) el usuario ejecutivo en la aplicación. Puede desglosar dimensiones y elementos de dimensión para desglosar los datos según sus necesidades específicas. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
@@ -171,19 +171,39 @@ Los desgloses refinan el análisis al desglosar literalmente dimensiones según 
 
 Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
-## Eliminación de componentes
+## Eliminación de componentes {#remove}
 
 Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, quítelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Primeras visitas**:
 
 ![Remove_components](assets/new_remove.png)
 
-## Nombrar un cuadro de resultados
+## Vista previa del informe de valoración {#preview}
+
+Puede obtener una vista previa del aspecto y el funcionamiento del informe de valoración una vez que se publique en la aplicación de paneles de Analytics.
+
+1. Haga clic en **[!UICONTROL Vista previa]** en la esquina superior derecha de la pantalla.
+
+   ![Preview_scorecards](assets/preview.png)
+
+1. Para ver el aspecto que tendrá el informe de valoración en distintos dispositivos, seleccione un dispositivo de la [!UICONTROL Vista previa del dispositivo] menú desplegable.
+
+   ![Device_preview](assets/device-preview.png)
+
+1. Para interactuar con la vista previa, puede:
+
+   * Haga clic con el botón izquierdo para simular los toques en la pantalla del teléfono.
+
+   * Utilice la función de desplazamiento del equipo para simular el desplazamiento por la pantalla del teléfono con el dedo.
+
+   * Haga clic y mantenga presionado el dedo para simular la presión y la sujeción en la pantalla del teléfono. Esto resulta útil para interactuar con las visualizaciones en la vista detallada.
+
+## Nombrar un cuadro de resultados {#name}
 
 Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Uso compartido de un cuadro de resultados
+## Uso compartido de un cuadro de resultados {#share}
 
 Para compartir el informe de valoración con un usuario ejecutivo:
 
