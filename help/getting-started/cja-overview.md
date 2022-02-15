@@ -4,10 +4,10 @@ description: Descubra la forma en que Customer Journey Analytics le permite util
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 100%
+source-wordcount: '1270'
+ht-degree: 94%
 
 ---
 
@@ -32,9 +32,9 @@ La versión inicial de Customer Journey Analytics incluye muchas de las funcione
 
 ## Comparación de CJA con Análisis multidispositivo
 
-El [Análisis multidispositivo](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) se integra con Identity Service de Adobe Experience Platform, utilizando Co-op Graph o Private Graph, para identificar cómo los dispositivos digitales se asignan a las personas. Está disponible para los clientes de Adobe Analytics Ultimate.
+[Análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) se integra con [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en), utilizando el gráfico de cooperación o el gráfico privado, para identificar cómo se asignan los dispositivos digitales a las personas. Está disponible para los clientes de Adobe Analytics Ultimate.
 
-CJA, por otro lado, se integra con los conjuntos de datos de Adobe Experience Platform y permite el análisis entre canales en Analysis Workspace. Aunque CJA todavía no se integra con los gráficos de identidad Co-op o Privada, puede “unir su propia ID” para unir conjuntos de datos, y esos conjuntos de datos pueden ir más allá de los datos digitales para incluir puntos de contacto en línea y sin conexión. Los requisitos previos de CJA se tratan en más detalle a continuación.
+CJA, por otro lado, se integra con los conjuntos de datos de Adobe Experience Platform y permite el análisis entre canales en Analysis Workspace. Aunque CJA aún no se integra con los gráficos de identidad Co-op o Privada, puede &quot;unir su propio ID&quot; para unir conjuntos de datos. Estos conjuntos de datos pueden ir más allá de los datos digitales para incluir puntos de contacto en línea y sin conexión. Los requisitos previos de CJA se tratan en más detalle a continuación.
 
 ## Casos de uso clave
 

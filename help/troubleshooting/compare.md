@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo comparar sus datos de Adobe Analyt
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
-workflow-type: ht
-source-wordcount: '777'
-ht-degree: 100%
+source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
+workflow-type: tm+mt
+source-wordcount: '788'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 A medida que su organización adopta CJA, es posible que observe algunas diferencias en los datos entre Adobe Analytics y CJA. Esto es normal y puede ocurrir por varios motivos. CJA está diseñado para permitirle mejorar algunas de las limitaciones de sus datos en AA. Sin embargo, pueden producirse discrepancias inesperadas/no deseadas. Este artículo está diseñado para ayudarle a diagnosticar y resolver esas diferencias, de modo que usted y su equipo puedan utilizar CJA sin impedimentos por motivos de integridad de los datos.
 
-Supongamos que ha ingerido datos de Adobe Analytics en AEP a través del conector de origen de Analytics y, a continuación, ha creado una conexión de CJA utilizando este conjunto de datos.
+Supongamos que ha ingerido datos de Adobe Analytics en AEP a través del [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es)y, a continuación, creó una conexión CJA utilizando este conjunto de datos.
 
 ![Flujo de datos](assets/compare.png)
 
