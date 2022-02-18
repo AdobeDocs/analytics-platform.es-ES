@@ -4,10 +4,10 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Detalles sobre la configuración de caducidad disponible.
 
 * **Sesión**: caduca después de una sesión determinada. Ventana de caducidad predeterminada.
 * **Persona**: caduca al final de la ventana de creación de informes.
-* **Tiempo**: puede configurar el valor de dimensión para que caduque después de un período de tiempo especificado (hasta 90 días). Esta opción de caducidad solo está disponible para los modelos de asignación Original y Más reciente. Al utilizar la caducidad basada en el tiempo, se tienen en cuenta los valores anteriores al inicio de la ventana de creación de informes (hasta 90 días).
+* **Hora personalizada**: Caduca después de un período de tiempo especificado (hasta 90 días). Esta opción de caducidad solo está disponible para los modelos de asignación Original y Más reciente. Al utilizar la caducidad basada en el tiempo, se tienen en cuenta los valores anteriores al inicio de la ventana de creación de informes (hasta 90 días).
 * **Métrica**: cuando esta métrica se ve en una visita, caduca inmediatamente el valor persistente en la dimensión. Puede usar cualquier métrica como fin de caducidad para esta dimensión. Esta opción de caducidad solo está disponible para la configuración de asignación Original y Más reciente.
 
 ## [!UICONTROL Dimensión de enlace]
