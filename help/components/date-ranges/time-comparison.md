@@ -4,7 +4,7 @@ title: Comparación de fechas
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
 ht-degree: 100%
 
