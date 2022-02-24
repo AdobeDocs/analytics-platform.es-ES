@@ -4,9 +4,9 @@ description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 feature: Attribution
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 >
 >Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
-**¿Cuál es el elemento de línea “Ninguno” al utilizar Attribution?**
+**¿Cuál es el elemento de línea Ninguno al utilizar la atribución?**
 
 El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Intente incluir un intervalo de tiempo más largo en la ventana de informes.
 
@@ -26,7 +26,7 @@ Estas fechas adicionales se deben a la ventana retrospectiva de informes de visi
 
 **¿Cuándo debo usar una retrospectiva de atribución de visita o de visitante?**
 
-La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda una retrospectiva del visitante. La creación de una vista de datos con una definición de visita más larga también es una solución potencial.
+La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda una retrospectiva del visitante. La creación de una vista de datos con una definición de visita más larga también es una posible solución.
 
 **¿Cómo se comparan las props y las eVars al utilizar la atribución?**
 
