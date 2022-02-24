@@ -4,9 +4,9 @@ title: Histograma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -60,8 +60,8 @@ Para ver o modificar los datos de origen de un gráfico de histograma, haga clic
 
 ![](assets/manage-data-source.png)
 
-Los filtros creados previamente que se muestran en la tabla son filtros internos y no aparecerán en el selector de filtros. Haga clic en el icono &quot;i&quot; junto al nombre del filtro y, a continuación, haga clic en **[!UICONTROL Convertir en público]** para que el filtro sea público.
+Los filtros creados previamente que se muestran en la tabla son filtros internos y no aparecerán en el selector de filtros. Haga clic en el icono “i” junto al nombre del filtro y, a continuación, haga clic en **[!UICONTROL Hacer público]** para que el filtro sea público.
 
 ![](assets/prebuilt_segments.png)
 
-Para explorar más formas en las que gestionar las tablas de datos improvisadas y otras visualizaciones, como hacer desgloses de datos, vaya [aquí](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=es).
+Para explorar más formas en las que administrar las tablas de datos de forma libre y otras visualizaciones, como hacer desgloses de datos, vaya [aquí](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=es).
