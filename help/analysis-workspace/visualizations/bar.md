@@ -1,12 +1,12 @@
 ---
-description: La visualización Barra muestra las barras verticales que representan los distintos valores de una o varias métricas.
+description: La visualización de barras muestra barras verticales que representan varios valores en una o más métricas.
 title: Barra y barra apilada
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
