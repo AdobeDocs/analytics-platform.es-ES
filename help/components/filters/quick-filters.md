@@ -5,7 +5,7 @@ feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
 source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '950'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ En una tabla improvisada, haga clic en el icono filtrar+ del encabezado del pane
 | Componentes (dimensión/métrica/intervalo de fechas) | Defina hasta 3 reglas añadiendo componentes (dimensiones, métricas, intervalos de fechas o valores de dimensión). Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el [!UICONTROL Generador de filtros rápidos] encuentra automáticamente el componente apropiado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrástrelos y suéltelos desde el carril izquierdo.</li></ul> |
 | Operador | Utilice el menú desplegable para buscar operadores estándar y operadores de [!UICONTROL recuento distintos]. Consulte [Operadores de filtro](operators.md). |
 | Signo más (+) | Añadir otra regla |
-| Calificadores Y/O | Puede agregar calificadores Y u O a las reglas, pero no puede combinar Y y O en una sola definición de filtro. |
+| Calificadores AND/OR | Puede agregar calificadores AND u OR a las reglas, pero no puede combinar AND y OR en una sola definición de filtro. |
 | Aplicar | Aplique este filtro al panel. Si el filtro no contiene datos, se le preguntará si desea continuar. |
 | Abrir creador | Se abre el Generador de filtros. Una vez guardado o aplicado el filtro en el Generador de filtros, ya no se considera un “filtro rápido”. Forma parte de la biblioteca de filtros de lista de componentes. |
 | Cancelar | Cancele este filtro rápido: no lo aplique. |
