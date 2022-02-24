@@ -4,9 +4,9 @@ title: Panel de información rápida
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** está actualmente en prueba limitada. [Más información](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=es)
+>El panel **[!UICONTROL Quick Insights]** está actualmente en prueba limitada. [Más información](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=es)
 
 [!UICONTROL Quick Insights] proporciona una guía a los no analistas y a los nuevos usuarios de [!UICONTROL Analysis Workspace] para aprender a responder preguntas comerciales de forma rápida y sencilla. También es una buena herramienta para usuarios avanzados que desean responder a una pregunta simple rápidamente sin tener que crear una tabla ellos mismos.
 
-La primera vez que empiece a usar esta [!UICONTROL Analysis Workspace], es posible que se pregunte qué visualizaciones serían más útiles, qué dimensiones y métricas podrían facilitar las perspectivas, dónde arrastrar y soltar elementos, dónde crear un filtro, etc.
+Al empezar a usar [!UICONTROL Analysis Workspace], es posible que se pregunte qué visualizaciones serían más útiles, qué dimensiones y métricas podrían ayudar a conseguir datos, dónde arrastrar y soltar elementos, dónde crear un filtro, etc.
 
-Para ayudarle con esto, y en función del uso que haga su propia empresa de los componentes de datos en [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] aprovecha un algoritmo que le presentará las dimensiones, métricas, filtros e intervalos de fechas más populares que utilice su empresa. De hecho, verá dimensiones, métricas y filtros etiquetados como [!UICONTROL Popular] en la lista desplegable , como se muestra aquí:
+Para ayudarle con esto, y en función del uso que haga su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] utilizará un algoritmo que le presentará las dimensiones, métricas, filtros e intervalos de fechas más populares que utilice su compañía. De hecho, verá dimensiones, métricas y filtros etiquetados como [!UICONTROL Populares] en la lista desplegable, como se muestra a continuación:
 
 ![](assets/popular-tag.png)
 
@@ -32,7 +32,7 @@ Para ayudarle con esto, y en función del uso que haga su propia empresa de los 
 
 * Crear correctamente una tabla de datos y una visualización adjunta en [!UICONTROL Analysis Workspace].
 * Conocer la terminología y el vocabulario para componentes básicos y partes de [!UICONTROL Analysis Workspace].
-* Realizar desgloses simples de dimensiones, agregar varias métricas o comparar filtros fácilmente dentro de un [!UICONTROL Tabla improvisada].
+* Realizar desgloses simples de dimensiones, añadir varias métricas o comparar filtros es fácil dentro de una [!UICONTROL tabla de forma libre].
 * Cambiar o probar varios tipos de visualización para encontrar la herramienta de búsqueda para su análisis de forma rápida e intuitiva.
 
 ## Terminología clave básica
@@ -46,11 +46,11 @@ A continuación se incluyen algunos de los términos básicos que debe conocer. 
 | [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
 | [!UICONTROL Visualización] | Workspace oferta [una serie de visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para crear representaciones visuales de sus datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | [!UICONTROL Desglose de dimensiones] | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. En nuestro ejemplo, puede desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado o puede desglosar Dispositivos móviles por Tipos de dispositivos móviles, por Regiones, por Campañas internas, etc. |
-| [!UICONTROL filter] | los filtros permiten identificar subconjuntos de visitantes en función de sus características o de las interacciones con el sitio web. Por ejemplo, puede generar [!UICONTROL Visitante] filtros basados en atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o según las interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o en función de salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o en función de variables personalizadas: campo de formulario, categorías definidas, ID de cliente. |
+| [!UICONTROL filtro] | Los filtros le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar filtros de [!UICONTROL Visitante] basados en atributos: Tipo de explorador, Dispositivo, Número de visitas, País, Sexo o según las interacciones: Campañas, Búsqueda de palabras clave, Motor de búsqueda o en función de salidas y entradas: Visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o según variables personalizadas: Campo de formulario, Categorías definidas, ID de cliente. |
 
 ## Introducción a Quick Insights
 
-1. Inicie sesión en el Customer Journey Analytics con las credenciales que se le han proporcionado.
+1. Inicie sesión en Customer Journey Analytics con las credenciales que se le han proporcionado.
 1. Vaya a [!UICONTROL Workspace], haga clic en **[!UICONTROL Crear nuevo proyecto]** y, a continuación, haga clic en **[!UICONTROL Quick Insights]**. (También puede acceder a este panel desde el menú **[!UICONTROL Panel]** en el carril izquierdo).
 
    ![](assets/qibuilder.png)
@@ -58,7 +58,7 @@ A continuación se incluyen algunos de los términos básicos que debe conocer. 
    ![](assets/qi-panel.png)
 
 1. Cuando termine el inicio por primera vez, consulte el breve tutorial que le enseña algunos de los conceptos básicos del panel [!UICONTROL Quick Insights]. O bien, haga clic en **[!UICONTROL Omitir tutorial]**.
-1. Seleccione los componentes básicos (también conocidos como componentes): dimensiones (naranja), métricas (verde), filtros (azul) o intervalos de fechas (púrpura) Debe seleccionar al menos una dimensión y una métrica para crear una tabla automáticamente.
+1. Seleccione los bloques de creación (también conocidos como componentes): dimensiones (naranja), métricas (verde), filtros (azul) o intervalos de fechas (púrpura) Debe seleccionar al menos una dimensión y una métrica para crear una tabla automáticamente.
 
    ![](assets/qibuilder2.png)
 
@@ -98,7 +98,7 @@ En el [!UICONTROL Generador de Quick Insights], aparecerán otras sugerencias ú
 
    ![](assets/qibuilder6.png)
 
-* **Añadir más filtros**: Puede agregar hasta dos filtros más utilizando los operadores AND u OR para agregarlos a la tabla. Observe lo que sucede en la tabla cuando agrega Usuarios móviles OR Visitantes fieles. Están uno al lado del otro, encima de las métricas. Si agregara Usuarios móviles Y Visitantes fieles, vería los resultados de ambos filtros juntos y se apilarían uno encima del otro en la tabla.
+* **Añadir más filtros**: puede agregar hasta dos filtros más a la tabla utilizando los operadores AND u OR. Observe lo que sucede en la tabla cuando agrega Usuarios móviles OR Visitantes fieles. Están uno al lado del otro, encima de las métricas. Si agregara Usuarios móviles Y Visitantes fieles, vería los resultados de ambos filtros juntos y se apilarían uno encima del otro en la tabla.
 
    ![](assets/qibuilder7.png)
 
