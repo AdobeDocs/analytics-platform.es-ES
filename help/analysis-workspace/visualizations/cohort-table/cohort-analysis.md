@@ -4,9 +4,9 @@ description: Obtenga información sobre el análisis de cohorte en Analysis Work
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 74%
 
 Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El [!UICONTROL análisis de cohorte] es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. (Las explicaciones de [!UICONTROL análisis de cohorte] se encuentran disponibles en la web, como en la [Guía básica de análisis de cohorte](https://en.wikipedia.org/wiki/Cohort_analysis)).
 
-Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y filtros específicos) y luego compartir el informe de cohorte con quien desee. Consulte [Depurar y compartir](/help/analysis-workspace/curate-share/curate.md).
+Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y filtros específicos), y luego compartir el informe de cohorte con quien desee. Consulte [Depurar y compartir](/help/analysis-workspace/curate-share/curate.md).
 
 Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 
@@ -24,7 +24,7 @@ Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 * Obtener ideas para pruebas A/B en áreas como precios, ruta de actualización, etc.
 * Ver un informe de [!UICONTROL análisis de cohorte] dentro de un informe de análisis guiado.
 
-[!UICONTROL Análisis de cohorte] está disponible para todos los clientes de Customer Journey Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
+El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de Customer Journey Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
 
 [Tutorial en vídeo de análisis de cohortes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=es) (4:36)
 
@@ -32,7 +32,7 @@ Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 >
 >[!UICONTROL Análisis de cohorte]
 >
->no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden usar las métricas que se pueden usar en filtros en
+>no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden utilizar las métricas que se pueden usar en filtros en
 >[!UICONTROL Análisis de cohorte] y solo se pueden incrementar en 1 cada vez.
 
 ## Capacidades del análisis de cohorte
@@ -41,13 +41,13 @@ Las siguientes funciones permiten un control preciso de las cohortes que está c
 
 ### Tabla de [!UICONTROL retención]
 
-Un informe de cohorte de [!UICONTROL retención] devuelve la información de visitantes: cada celda de datos muestra el número sin procesar y el porcentaje de visitantes en la cohorte que realizó la acción durante ese periodo de tiempo. Puede incluir hasta 3 métricas y hasta 10 filtros.
+Un informe de cohorte de [!UICONTROL retención] devuelve la información de visitantes: cada celda de datos muestra el número sin procesar y el porcentaje de visitantes en la cohorte que realizó la acción durante ese periodo de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
 
 ![](assets/retention-report.png)
 
 ### [!UICONTROL Tabla de pérdida]
 
-Una cohorte de [!UICONTROL pérdida] es la inversa de una tabla de retención y muestra a los visitantes que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Puede incluir hasta 3 métricas y hasta 10 filtros.
+Una cohorte de [!UICONTROL pérdida] es la inversa de una tabla de retención y muestra a los visitantes que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
 
 ![](assets/churn-report.png)
 
@@ -65,7 +65,7 @@ Mide el tiempo transcurrido antes y después de ocurrir el evento de inclusión.
 
 ### Cohorte de [!UICONTROL dimensión personalizada]
 
-Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como [!UICONTROL canal de marketing], [!UICONTROL campaign], [!UICONTROL producto], [!UICONTROL página], [!UICONTROL region], o cualquier otra dimensión del Customer Journey Analytics para mostrar cómo cambia la retención en función de los diferentes valores de estas dimensiones.
+Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como [!UICONTROL canal de marketing], [!UICONTROL campaña], [!UICONTROL producto], [!UICONTROL página], [!UICONTROL región] o cualquier otra dimensión de Customer Journey Analytics para mostrar cómo cambia la retención en función de los distintos valores que adoptan.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
