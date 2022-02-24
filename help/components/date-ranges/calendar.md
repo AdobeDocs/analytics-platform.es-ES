@@ -5,7 +5,7 @@ feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
 source-git-commit: b776478fa4fa77841c5cf0b2d082ff60055bf587
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
