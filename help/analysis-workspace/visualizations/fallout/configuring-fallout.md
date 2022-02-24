@@ -4,9 +4,9 @@ title: Configurar una visualización de abandonos
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página de su sitio web. Sin embargo, los puntos de contacto no están limitados a páginas. Por ejemplo, puede añadir eventos, como unidades, así como visitantes únicos y visitas de retorno. También puede añadir dimensiones, como categoría, tipo de navegador o término de búsqueda interno.
 
-Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es posible que desee comparar los filtros, como los usuarios de iOS y Android. Arrastre los filtros deseados sobre las visitas en el orden previsto y la información sobre esos filtros se agregará al informe de visitas en el orden previsto. Si desea mostrar solo esos filtros, puede eliminar la línea de base Todas las visitas .
+Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es posible que desee comparar filtros como los usuarios de iOS y Android. Arrastre los filtros deseados sobre las visitas en el orden previsto y la información acerca de esos filtros se añadirá al informe de visitas en el orden previsto. Si desea mostrar únicamente esos filtros, puede eliminar la línea de base de Todas las visitas.
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
@@ -38,7 +38,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 
    >[!NOTE]
    >
-   >Los filtros múltiples se unen con AND, pero los elementos como elementos de dimensión y métricas se unen con OR.
+   >Los filtros se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -74,4 +74,4 @@ Al hacer **clic con el botón derecho en un punto de contacto**, se muestran las
 | Tendencia de todos los puntos de contacto (%) | Realiza la tendencia de todos los porcentajes de puntos de contacto en las visitas en el orden previsto (excepto “Todas las visitas”, si se incluye) en el mismo gráfico. |
 | Desglosar visitas en el orden previsto en este punto de contacto | Vea qué hicieron los visitantes entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Así se crea una tabla improvisada que muestra sus dimensiones. Puede sustituir las dimensiones y otros elementos de la tabla. |
 | Desglosar visitas en orden previsto en este punto de contacto | Vea qué han hecho las personas que no han seguido el embudo inmediatamente tras el paso seleccionado. |
-| Crear filtro a partir de touchpoint | Cree un nuevo filtro a partir del punto de contacto seleccionado. |
+| Crear filtro desde punto de contacto | Cree un nuevo filtro a partir de un punto de contacto seleccionado. |
