@@ -4,9 +4,9 @@ title: Descarga de archivos PDF o CSV
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ La opción **[!UICONTROL Descargar datos como CSV]** del botón secundario le pe
 
 ## Descargar elementos como CSV {#download-items}
 
-Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en cualquier encabezado de tabla o fila y seleccione **Descargar elementos como CSV (nombre de la dimensión)**. Esta opción exportará hasta 50 000 elementos de dimensión (según el orden de tabla) para la dimensión seleccionada, con filtros y filtros aplicados. Si elige esta opción en la parte superior de la tabla, se exporta la primera dimensión de la tabla. Aunque no se aplican límites en la tabla improvisada, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
+Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en cualquier encabezado de tabla o fila y seleccione **Descargar elementos como CSV (nombre de la dimensión)**. Esta opción exportará hasta 50 000 elementos de dimensión (según el orden de tabla) para la dimensión seleccionada, con filtros aplicados. Si elige esta opción en la parte superior de la tabla, se exporta la primera dimensión de la tabla. Aunque no se aplican límites en la tabla improvisada, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
 
 >[!TIP]
 >
@@ -67,7 +67,7 @@ Puede realizar varias tareas dentro del proyecto e incluso desplazarse a un nuev
 
 Las funciones de la tabla se aplicarán al archivo descargado de la siguiente manera:
 
-* Todos los filtros de panel se aplican como filtros.
+* Todos los filtros del panel se aplican como filtros.
 * Los desgloses **superiores** a la dimensión seleccionada en la tabla se aplican como filtros encima de cada columna.
 * Los desgloses **inferiores** a las dimensiones seleccionadas en la tabla se eliminan.
 
