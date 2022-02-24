@@ -1,22 +1,22 @@
 ---
-description: La visualización Venn permite arrastrar hasta tres filtros (de Componentes) y una métrica para generar un diagrama de Venn.
+description: La visualización Venn le permite arrastrar hasta tres filtros (de Componentes) y una métrica para elaborar un diagrama de Venn.
 title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # Venn
 
-La visualización Venn permite arrastrar hasta tres filtros (de Componentes) y una métrica para generar un diagrama de Venn.
+La visualización Venn le permite arrastrar hasta tres filtros (de Componentes) y una métrica para elaborar un diagrama de Venn.
 
 ![](assets/venn.png)
 
-A continuación, puede pasar el ratón por encima de los filtros para obtener más información sobre los porcentajes, etc.
+Así pues, puede situarse encima de los filtros para conocer mejor los porcentajes, etc.
 
 ![](assets/venn_hover.png)
 
