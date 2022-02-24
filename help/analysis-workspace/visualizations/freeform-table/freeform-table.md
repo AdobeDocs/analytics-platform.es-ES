@@ -4,7 +4,7 @@ description: Las tablas de forma libre son la base del análisis de datos en Wor
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
 ht-degree: 100%
 
@@ -47,10 +47,10 @@ Puede interactuar con una tabla de forma libre y personalizarla de diversas mane
 
 Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es) de datos de Analysis Workspace.
 
-* Al hacer clic con el botón derecho en > **[!UICONTROL Copiar datos en el portapapeles]**, se exportan los datos de tabla mostrados. Si se realiza una selección de tabla, esta opción dirá **[!UICONTROL Copiar selección al portapapeles]**. La tecla de acceso directo **Ctrl+C** también copia los datos seleccionados.
+* Al hacer clic con el botón derecho en > **[!UICONTROL Copiar datos en el portapapeles]**, se exportan los datos de tabla mostrados. Si se realiza una selección de tabla, esta opción dirá **[!UICONTROL Copiar selección al portapapeles]**. La tecla de acceso directo **Ctrl + C** también copia los datos seleccionados.
 * Al hacer clic con el botón derecho en > **[!UICONTROL Descargar datos como CSV]**, se descargan los datos de tabla mostrados como CSV. Si se hace una selección de tabla, esta opción indicará **[!UICONTROL Descargar selección como CSV]**.
 * Al hacer clic con el botón derecho en > **[!UICONTROL Proyecto > Descargar elementos como CSV]**, se exportarán hasta 50 000 elementos de dimensión de la dimensión seleccionada.
 
-Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) de datos de Analysis Workspace.
+Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es) de datos de Analysis Workspace.
 
 ![](assets/export-options.png)
