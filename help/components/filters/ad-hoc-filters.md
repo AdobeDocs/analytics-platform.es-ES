@@ -5,7 +5,7 @@ feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
 source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
 ht-degree: 100%
 
