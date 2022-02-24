@@ -4,7 +4,7 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2944'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métr
 
 Por otra parte, si tiene dos métricas en las que está interesado, puede que no sea justo afirmar que una tiene una media superior o mínima porque algunas de sus filas eran ceros, por lo que no debería marcar el parámetro para incluir ceros.
 
-## Y
+## AND
 
 Devuelve el valor de su argumento. Utilice NOT para asegurarse de que un valor no es igual a un valor en concreto.
 
@@ -45,7 +45,7 @@ AND(logical_test1,[logical_test2],...)
 | Argumento | Descripción |
 |---|---|
 | *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como TRUE o FALSE. |
 
 ## Número aproximado de elementos distintos (dimensión)
 
@@ -263,7 +263,7 @@ SLOPE.EXP(metric_X, metric_Y)
 
 ## Suelo (Fila)
 
-Devuelve el mayor entero igual o menor a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe en los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula FLOOR(*Ingresos*) para redondear hacia arriba al dólar más próximo o 569 $.
+Devuelve el mayor entero igual o menor a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe en los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula FLOOR(*Revenue*) para redondear hacia arriba al dólar más próximo o 569 $.
 
 ```
 FLOOR(metric)
@@ -433,7 +433,7 @@ LN(metric)
 |---|---|
 | *métrica* | El número real positivo del cual desea el logaritmo natural. |
 
-## NO
+## NOT
 
 Devuelve 1 si el número es 0 o devuelve 0 si es otro número.
 
@@ -466,7 +466,7 @@ OR(logical_test1,[logical_test2],...)
 | Argumento | Descripción |
 |---|---|
 | *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como TRUE o FALSE. |
 
 ## Pi
 
