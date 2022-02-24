@@ -1,12 +1,12 @@
 ---
-description: Cómo cambiar la paleta de colores de visualización o especificar su propia paleta de colores personalizada.
+description: Cómo cambiar la paleta de colores de visualización o especificar su propia paleta de color a medida.
 title: Paleta de colores de visualización
 feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Puede cambiar la paleta de colores de visualización que se emplea en Workspace 
 
 Recuerde:
 
-* Hay cinco paletas de color preconfiguradas entre las que elegir. La paleta predeterminada y la de abajo se han optimizado para el contraste y son más accesibles para los que no tienen color.
+* Hay cinco paletas de color preconfiguradas entre las que elegir. La paleta predeterminada y la de abajo se han optimizado para lograr un mejor contraste y son más accesibles para los daltónicos.
 * Las paletas de color 3, 4 y 5, situadas bajo las dos primeras, están optimizada para ofrecer la mayor armonía cromática.
 
 ## Para cambiar la paleta de color:
