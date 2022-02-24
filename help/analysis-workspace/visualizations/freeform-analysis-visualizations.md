@@ -1,13 +1,13 @@
 ---
-description: Representar visualmente los datos en Analysis Workspace.
+description: Represente visualmente los datos en Analysis Workspace.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Barra](/help/analysis-workspace/visualizations/bar.md) | Muestra las barras verticales que representan los distintos valores de una o varias métricas. |
 | [Gráfico de viñetas](/help/analysis-workspace/visualizations/bullet-graph.md) | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
 | [Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil para el análisis de retención, pérdida o latencia. |
-| [Anillo](/help/analysis-workspace/visualizations/donut.md) | Al igual que un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. |
-| [Abandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
+| [Anillo](/help/analysis-workspace/visualizations/donut.md) | Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. |
+| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
 | [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
 | [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabla improvisada no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
 | [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a visitantes, visitas o visitas individuales en contenedores en función de un volumen de métrica. |
@@ -78,7 +78,7 @@ Para editar una etiqueta de leyenda:
 
 ## Menú contextual {#right-click}
 
-Hay funcionalidad adicional disponible para una visualización haciendo clic con el botón derecho en el encabezado de visualización. La configuración variará según la visualización. Algunos de los ajustes disponibles son:
+Una funcionalidad adicional está disponible haciendo clic con el botón derecho en el encabezado de la visualización. La configuración variará según la visualización. Algunos de los ajustes disponibles son:
 
 ![Clic con el botón derecho](assets/right-click.png)
 
@@ -95,6 +95,6 @@ Hay funcionalidad adicional disponible para una visualización haciendo clic con
 
 ## Icono Crear imagen {#quick-viz}
 
-Si no está seguro de qué visualización escoger, haga clic en el icono **[!UICONTROL Crear visualización]** en cualquier fila de la tabla (disponible al pasar el ratón por encima). Esta es la forma más rápida de agregar una visualización. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene 1 fila seleccionada, se creará un gráfico de líneas de tendencias. Si tiene 3 filas de filtro seleccionadas, se creará un diagrama de Venn.
+Si no está seguro de qué visualización escoger, haga clic en el icono **[!UICONTROL Crear visualización]** en cualquier fila de la tabla (disponible al pasar el ratón por encima). Esta es la forma más rápida de agregar una visualización. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene 1 fila seleccionada, se creará un gráfico de líneas de tendencias. Si tiene 3 filas de filtros seleccionadas, se creará un diagrama de Venn.
 
 ![Visualización rápida](assets/quick-viz.png)
