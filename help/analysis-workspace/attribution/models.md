@@ -4,13 +4,13 @@ description: Cómo los diferentes tipos de atribución dividen el crédito entre
 Feature: Attribution
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1516'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Atribución modelos y ventanas retroactivas
+# Atribución modelos de atribución y ventanas retrospectivas
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ El concepto de atribución en Customer Journey Analytics requiere dos componente
 
 Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devolverse en el tiempo para incluir los puntos de contacto. Los modelos de atribución que dan más crédito a las primeras interacciones ven diferencias mayores al tener ventanas retrospectivas distintas.
 
-* **Ventana retrospectiva de visita:** Revisa hasta el principio de una visita en la que se produjo una conversión. Las ventanas retrospectivas de visitas son estrechas, ya que no miran más allá de la visita. Las ventanas retrospectivas de visitas respetan la definición de visita modificada en las vistas de datos.
+* **Ventana retrospectiva de visita:** Revisa hasta el principio de una visita en la que se produjo una conversión. Las ventanas retrospectivas de visitas son estrechas, ya que no miran más allá de la visita. Las ventanas retrospectivas de visita respetan la definición de visita modificada en las vistas de datos.
 
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. La ventana retrospectiva de visitantes tiene en cuenta todos los valores desde el comienzo del mes del intervalo de fechas del informe. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
 
