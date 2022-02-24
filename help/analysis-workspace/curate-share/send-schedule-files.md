@@ -1,12 +1,12 @@
 ---
-description: Puede depurar, compartir y programar proyectos de PDF/CSV para destinatarios de su organización.
+description: Puede depurar, compartir y programar proyectos PDF/CSV para destinatarios de su organización.
 title: Menú Compartir
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
