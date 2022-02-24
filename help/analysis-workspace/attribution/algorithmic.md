@@ -4,9 +4,9 @@ description: Detalles sobre el modelo de atribución algorítmica.
 feature: Attribution
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 84%
 >
 >Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
-A continuación se muestra un vídeo introductorio de la atribución algorítmica:
+A continuación, se muestra un vídeo introductorio de la atribución algorítmica:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36205/?quality=12)
 
-El [modelo de atribución](models.md) algorítmica en Analysis Workspace difiere de otros modelos en que utiliza técnicas estadísticas para asignar crédito entre los elementos de dimensión del informe o la tabla improvisada. Al igual que todos los demás modelos de atribución en Analysis Workspace, se puede utilizar en cualquier dimensión o métrica y admite filtros y desgloses ilimitados y distribuye el 100 % de las conversiones a las dimensiones de la tabla (también conocida como atribución &quot;fraccional&quot;).
+El [modelo de atribución](models.md) algorítmica en Analysis Workspace difiere de otros modelos en que utiliza técnicas estadísticas para asignar crédito entre los elementos de dimensión del informe o la tabla de forma libre. Al igual que todos los demás modelos de atribución en Analysis Workspace, puede utilizarse en cualquier dimensión o métrica y admite filtros y desgloses ilimitados y distribuye el 100 % de las conversiones a las dimensiones de la tabla (también conocida como atribución “fraccional”).
 
 El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.
 
