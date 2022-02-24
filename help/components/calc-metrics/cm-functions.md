@@ -4,7 +4,7 @@ description: El Creador de métricas calculadas permite aplicar funciones estad�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
 ht-degree: 100%
 
@@ -214,7 +214,7 @@ QUARTILE(metric,quart)
 
 ## Ronda
 
-Devuelve el entero más próximo a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe en los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula Round(*Ingresos*) para redondear al dólar más próximo o 569 $. Un producto de 569,51 $ se redondeará al dólar más cercano o 570 $.
+Devuelve el entero más próximo a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe en los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula Round(*Revenue*) para redondear al dólar más próximo o 569 $. Un producto de 569,51 $ se redondeará al dólar más cercano o 570 $.
 
 ```
 ROUND(metric)
@@ -296,7 +296,7 @@ La ecuación de VARIANCE es:
 
 ![](assets/variance_eq.png)
 
-donde x es la media de la muestra, MEAN(*métrica*) y *n* es el tamaño de la muestra.
+donde x es la media de la muestra, MEAN(*metric*) y *n* es el tamaño de la muestra.
 
 ```
 VARIANCE(metric)
