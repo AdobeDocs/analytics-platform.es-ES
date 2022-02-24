@@ -4,13 +4,13 @@ description: Concepto de atribución de crédito de un evento de éxito a varios
 Feature: Attribution
 exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Atribución sobre validación
+# Atribución información general
 
 >[!NOTE]
 >
@@ -29,13 +29,13 @@ El recorrido del cliente no es lineal y a menudo es bastante impredecible. Cada 
 
 ![Problema de Attribution IQ](assets/attribution_iq_problem.png)
 
-El Customer Journey Analytics mejora la atribución al permitirle:
+Customer Journey Analytics mejora la atribución al permitir lo siguiente:
 
 * Definir la atribución más allá del contenido multimedia de pago: cualquier dimensión, métrica, canal o evento puede aplicarse a modelos (por ejemplo, búsqueda interna), no solo a campañas de marketing.
 * Utilizar la comparación de modelos de atribución sin límites: compare dinámicamente todos los modelos que desee.
 * Evitar cambios de implementación: con el procesamiento de tiempo de informes y las sesiones con reconocimiento de contexto, el contexto del recorrido del cliente puede generarse y aplicarse en el tiempo de ejecución.
-* Construir la sesión más adecuada para su situación de atribución.
-* Desglose de atribución por filtros: Compare fácilmente el rendimiento de sus canales de marketing en cualquier filtro importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de fidelidad o CLV).
+* Construir la sesión más adecuada para su escenario de atribución.
+* Desglosar la atribución por filtros: compare fácilmente el rendimiento de sus canales de marketing en cualquier filtro importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de fidelidad o CLV).
 * Inspeccionar análisis de canales cruzados y de múltiples contactos mediante Diagramas de Venn e Histogramas, y resultados de atribución de tendencias.
 * Analizar visualmente secuencias de marketing clave: explore las rutas que generaron una conversión visualmente con las visualizaciones de visitas en el orden previsto y flujo de varios nodos.
 * Generar métricas calculadas: Utilice todos los métodos de asignación de atribuciones que desee.
