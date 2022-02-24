@@ -5,9 +5,9 @@ title: Casos de uso de análisis de cohorte
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 81%
 >
 >Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
-Ejemplos de casos de uso para [!UICONTROL Análisis de cohorte].
+Ejemplos de casos de uso para [!UICONTROL Análisis de cohortes].
 
 ## Caso de uso de interacción con aplicaciones
 
@@ -49,9 +49,9 @@ Al reconocer que no necesita perder clientes potenciales en el mes tres, configu
 
 Vuelva a consultar el informe de análisis de cohorte unos meses más tarde. Para cohortes formadas después de la ejecución de la campaña, la conversión a suscripciones a Creative Cloud de pago en el mes tres aumentó de un 4 % y 5 % a un 13 % y 14 %, lo que dio como resultado miles de dólares por cohorte, para cada cohorte mensual que llega al mes tres desde ese punto en adelante.
 
-## Caso de uso de filtros de cohorte complejos
+## Caso de uso de filtros en una cohorte compleja
 
-Una gran cadena hotelera dirige sus promociones a varios grupos de clientes y realiza un seguimiento del rendimiento. Para identificar los mejores grupos de cohortes de usuarios a los que dirigirse, quieren crear grupos de cohortes muy específicos. Uso del [!UICONTROL Inclusión] y [!UICONTROL Devuelve] Criterios dentro de [!UICONTROL Cohorte] En las tablas, pueden definir las agrupaciones de cohortes exactas, con múltiples métricas y filtros, para identificar los grupos de clientes con peor rendimiento y así dirigirse a ellos con promociones y ofertas que aumenten las contrataciones.
+Una gran cadena hotelera dirige sus promociones a varios grupos de clientes y realiza un seguimiento del rendimiento. Para identificar los mejores grupos de cohortes de usuarios a los que dirigirse, quieren crear grupos de cohortes muy específicos. Gracias a los criterios aumentados de [!UICONTROL Inclusión] y [!UICONTROL Regreso] de las tablas de [!UICONTROL cohortes], son capaces de definir las agrupaciones de cohortes exactas, con múltiples métricas y filtros para identificar los grupos de clientes con peor rendimiento, y de ese modo dirigirse a ellos con promociones y ofertas que aumenten las contrataciones.
 
 ## Caso de uso de adopción de versión de una aplicación
 
@@ -63,8 +63,8 @@ Una empresa multimedia internacional utiliza campañas dirigidas para dirigir a 
 
 ## Caso de uso de lanzamiento de productos
 
-Un gran minorista de accesorios tiene muchos filtros específicos para clientes que generan grandes porciones de ingresos para su negocio. Cada filtro tiene productos específicos diseñados y creados teniendo en cuenta el filtro. Cuando se produce un lanzamiento, la empresa quiere saber en qué medida el nuevo producto potencia las ventas en varias cohortes a lo largo del tiempo. Uso del nuevo [!UICONTROL Tabla de latencia] configurar en [!UICONTROL Análisis de cohorte], pueden analizar el comportamiento y los ingresos de un filtro de cliente determinado antes y después del lanzamiento. Esta información permite identificar qué productos producen nuevos ingresos y cuáles no llegan a calar en los clientes.
+Un gran minorista de ropa cuenta con muchos filtros específicos de clientes que generan gran parte de los ingresos. Se diseñan y crean productos específicos para cada uno de esos filtros. Cuando se produce un lanzamiento, la empresa quiere saber en qué medida el nuevo producto potencia las ventas en varias cohortes a lo largo del tiempo. Mediante la nueva configuración de [!UICONTROL tablas de latencia] de los [!UICONTROL análisis de cohortes], se puede analizar el comportamiento y los ingresos de un filtro de clientes dados antes y después del lanzamiento. Esta información permite identificar qué productos producen nuevos ingresos y cuáles no llegan a calar en los clientes.
 
 ## Permanencia individual: usuarios más fieles caso de uso
 
-Una gran línea aérea deriva la mayor parte de su éxito e ingresos de los clientes fieles que repiten. En muchos casos, estos viajeros fieles representan la mayoría de los ingresos, por lo que conservarlos es esencial para el éxito a largo plazo. A menudo no es sencillo identificar a los clientes más fieles y consistentes. Sin embargo, si se usa el nuevo [!UICONTROL Cálculo móvil] configurar en [!UICONTROL Análisis de cohorte], fueron capaces de analizar los filtros de cliente leales y averiguar cuáles eran los viajeros que repetían compras mes tras mes. Con estos datos pudo dirigirse a estos viajeros con recompensas y beneficios por su fidelidad. Además, cambiando el tipo de cohorte de retención a pérdida, también pudo identificar qué clientes no repetían reservas un mes tras otro, y así dirigirse a esos filtros con promociones para volver a interactuar con ellos y asegurarse de que se conviertan en clientes leales en el futuro.
+Una gran línea aérea deriva la mayor parte de su éxito e ingresos de los clientes fieles que repiten. En muchos casos, estos viajeros fieles representan la mayoría de los ingresos, por lo que conservarlos es esencial para el éxito a largo plazo. A menudo no es sencillo identificar a los clientes más fieles y consistentes. Sin embargo, gracias a la nueva configuración de [!UICONTROL cálculo móvil] de los [!UICONTROL análisis de cohortes], la empresa pudo analizar los segmentos de clientes fieles y averiguar cuáles repiten reservas un mes tras otro. Con estos datos pudo dirigirse a estos viajeros con recompensas y beneficios por su fidelidad. Además, cambiando el tipo de cohorte de retención a pérdida, también pudo identificar qué clientes no repetían reservas un mes tras otro, y así dirigirse a estos filtros con promociones para reactivarlos y asegurar que, en el futuro, se conviertan en clientes leales.
