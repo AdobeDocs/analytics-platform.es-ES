@@ -4,7 +4,7 @@ title: Número de resumen y cambio de resumen
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
 
