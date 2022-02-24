@@ -4,7 +4,7 @@ title: Crear una métrica "Vistas de página por visitas" simple
 feature: Calculated Metrics
 exl-id: 46c83a1f-cb2d-4d5d-af4f-e1d2e4566743
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Le muestra cómo crear una métrica &quot;Vistas de página por visitas&quot; simple.
 
-Para obtener una descripción detallada de los componentes de la interfaz de usuario, consulte [Crear métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+Para obtener una descripción detallada de los componentes de la interfaz de usuario, consulte [Genere métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md). 
 
 Para crear una métrica &quot;Vistas de página por visitas&quot; simple haga lo siguiente.
 
