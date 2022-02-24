@@ -4,9 +4,9 @@ title: Ver densidad
 feature: CJA Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
