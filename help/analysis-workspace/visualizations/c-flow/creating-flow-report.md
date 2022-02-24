@@ -4,9 +4,9 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 exl-id: b379f1f0-e51a-44ec-91e1-b6479901c945
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
