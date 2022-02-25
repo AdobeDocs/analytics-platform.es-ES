@@ -4,10 +4,10 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
+source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 98%
+source-wordcount: '806'
+ht-degree: 93%
 
 ---
 
@@ -76,10 +76,12 @@ Detalles sobre la configuración de caducidad disponible.
 
 Un menú desplegable que permite enlazar la persistencia de un valor de dimensión con valores de dimensión de otra dimensión. Las opciones desplegables válidas incluyen otras dimensiones incluidas en la vista de datos.
 
-Esta configuración se utiliza generalmente en matrices de objetos y se utiliza principalmente para medir elementos como métodos de búsqueda de productos, resultados de búsqueda interna, impresiones de promociones internas o recomendaciones de contenido o productos. En versiones anteriores de Adobe Analytics, este concepto es similar a la comercialización de sintaxis de conversión.
+Consulte [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
 
 ## [!UICONTROL Métrica de enlace]
 
 Lista desplegable que permite elegir una métrica que actúa como activador de enlace. Las opciones desplegables válidas incluyen métricas incluidas en la vista de datos.
 
-Esta configuración solo aparece cuando la dimensión de enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace. En versiones anteriores de Adobe Analytics, un concepto similar pero más limitado se conoce como comercialización de sintaxis de producto.
+Esta configuración solo aparece cuando la dimensión de enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace.
+
+Consulte el segundo ejemplo en [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar de forma eficaz las métricas de enlace.
