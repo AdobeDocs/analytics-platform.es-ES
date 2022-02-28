@@ -4,10 +4,10 @@ description: Vea la configuración principal de un componente de vista de datos.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 97%
 
 ---
 
@@ -30,3 +30,7 @@ Configuración principal que utiliza un componente de vista de datos.
 | [!UICONTROL ID de componente] | Requerido. La [API de CJA](https://adobe.io/cja-apis/docs) utiliza este campo para hacer referencia al componente. Cada componente de una vista de datos debe ser único. Adobe genera automáticamente un ID para cada componente; sin embargo, puede hacer clic en el icono de edición y modificar el ID del componente. Al cambiar este ID de componente, se rompen todos los proyectos existentes del Espacio de trabajo que contienen este componente. Aunque cada componente necesita un ID único en una sola vista de datos, puede utilizar el mismo ID de componente en otras vistas de datos. Si utiliza el mismo ID de componente en otras vistas de datos, puede hacer que los proyectos del Espacio de trabajo sean compatibles en todas las vistas de datos. |
 | [!UICONTROL Ruta de esquema] | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
 | [!UICONTROL Ocultar componente en creación de informes] | Permite depurar el componente fuera de la vista de datos para los usuarios que no son administradores. Los administradores aún pueden acceder a él haciendo clic en [!UICONTROL Mostrar todos los componentes] en un proyecto de Analysis Workspace. |
+
+Aquí hay un vídeo sobre la configuración de componentes en las vistas de datos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/333112/?quality=12)
