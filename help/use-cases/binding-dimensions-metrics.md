@@ -3,10 +3,10 @@ title: Uso de dimensiones y métricas de enlace en CJA
 description: Atribuir dimensiones a matrices de objetos para un análisis de persistencia complejo.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
+source-git-commit: 28a6acd3f850e94a1f0d72477c22a5b30ab3fc2a
 workflow-type: tm+mt
 source-wordcount: '1330'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
