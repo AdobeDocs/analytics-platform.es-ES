@@ -4,10 +4,10 @@ description: Descubra la forma en que Customer Journey Analytics le permite util
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+source-git-commit: e397ff4de0f65ebb0264eac3813046452c572256
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 88%
+source-wordcount: '1271'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,9 @@ La arquitectura de CJA de alto nivel se muestra aquí:
 
 ![arquitectura](assets/cja-architecture.png)
 
-Para ver un vídeo sobre
+A continuación se muestra un vídeo introductorio de Customer Journey Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30090/?quality=12)
 
 ## Comparación de CJA con la versión tradicional de Adobe Analytics
 
