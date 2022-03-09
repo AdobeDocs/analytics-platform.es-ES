@@ -1,19 +1,20 @@
 ---
-title: Migración de Adobe Analytics a Customer Journey Analytics
-description: Pasos para migrar de Adobe Analytics a Customer Journey Analytics
+title: Evolución de Adobe Analytics a Customer Journey Analytics
+description: Pasos para mover datos de Adobe Analytics a Customer Journey Analytics
+role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 2f38b38328816a523427d73f812041904e294bc7
-workflow-type: ht
-source-wordcount: '1234'
-ht-degree: 100%
+source-git-commit: a47343628ace3063d23c6ba023f73dcbdc24dbcc
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 88%
 
 ---
 
-# Preparación para migrar de Adobe Analytics a Customer Journey Analytics
+# Evolución de Adobe Analytics a Customer Journey Analytics
 
-Antes de migrar los datos de Adobe Analytics a Customer Journey Analytics, explore estas consideraciones para preparar los datos y conocer las diferencias críticas entre las dos tecnologías.
+A medida que su organización evoluciona para utilizar Customer Journey Analytics, explore estos pasos para preparar sus datos y tomar conciencia de las diferencias críticas entre las dos tecnologías. Este artículo está dirigido a una audiencia de administrador.
 
 ## Preparación de los datos
 
@@ -33,7 +34,7 @@ En conjuntos de datos como Adobe Analytics, es posible que no exista una identid
 
 ### 2. Alinee las variables
 
-La migración más directa de datos de Adobe Analytics a Customer Journey Analytics es ingerir un [grupo de informes globales](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=es) en Experience Platform mediante el [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es). Este conector asigna las variables de Adobe Analytics directamente a un esquema XDM y a un conjunto de datos en AEP, que a su vez pueden conectarse fácilmente a CJA.
+El método más sencillo para transformar los datos de Adobe Analytics en datos de Customer Journey Analytics es ingerir un [grupo de informes globales](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=es) en el Experience Platform mediante el [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es). Este conector asigna las variables de Adobe Analytics directamente a un esquema XDM y a un conjunto de datos en Experience Platform, que a su vez pueden conectarse fácilmente al Customer Journey Analytics.
 
 Es posible que no siempre sea factible una implementación de un grupo de informes globales completo. Si planea incluir varios grupos de informes en Customer Journey Analytics, debe planificarlos con anticipación para alinear las variables entre esos grupos de informes.
 
@@ -57,7 +58,7 @@ Como la recopilación de datos [Edge de Experience](https://experienceleague.ado
 
 Este método amplía considerablemente las posibilidades de recopilación de datos: ya no existe una limitación en el número de campos o la necesidad de asignar elementos de datos a props, eVars y eventos como en Analytics. Puede utilizar elementos de esquema ilimitados de diferentes tipos y representarlos de varias formas mediante [Vistas de datos](/help/data-views/data-views.md) de CJA. La velocidad de disponibilidad de los datos aumenta cuando se envían directamente a Adobe Experience Platform, a medida que se elimina el tiempo de procesamiento de datos mediante Adobe Analytics.
 
-**Ventajas de utilizar el SDK de Experience Platform**
+**Ventajas de utilizar el SDK de Experience Platform:**
 
 * Esquema flexible para definir cualquier campo que necesite
 * No depende de la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)
@@ -105,7 +106,7 @@ Aquí hay un par de vídeos para guiarle:
 
 * Con el poder de las vistas de datos de CJA, tiene mucha más flexibilidad en la definición de métricas y dimensiones dentro de Customer Journey Analytics. Por ejemplo, puede utilizar el valor de una dimensión para convertirlo en la definición de una métrica. [Más información](/help/data-views/data-views-usecases.md)
 
-* Si ha definido un calendario personalizado en Adobe Analytics, tendrá funciones de calendario similares dentro de CJA. Debe asegurarse de que el calendario esté definido correctamente.
+* Si ha definido un calendario personalizado en Adobe Analytics, tendrá un [funcionalidades de calendario personalizadas](/help/components/date-ranges/custom-date-ranges.md) dentro de CJA. Debe asegurarse de que el calendario esté definido correctamente.
 
 * En Customer Journey Analytics, puede definir un tiempo de espera de visita/sesión personalizado, así como una métrica que iniciará una nueva sesión. Puede crear vistas de datos con distintas definiciones de sesión para obtener perspectivas que vayan más allá de las posibles en Adobe Analytics. Esta capacidad puede ser especialmente beneficiosa para los conjuntos de datos móviles.
 
