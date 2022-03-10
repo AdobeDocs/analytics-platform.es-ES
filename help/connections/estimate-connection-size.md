@@ -4,10 +4,10 @@ description: Informe sobre el uso actual de Customer Journey Analytics
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 74934c8684198104c808284310bcdfd633085574
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 51%
+source-wordcount: '535'
+ht-degree: 50%
 
 ---
 
@@ -40,7 +40,7 @@ Es posible que necesite saber cuántas filas de datos tiene actualmente en [!UIC
 
 Los límites de uso están estrictamente monitorizados y aplicados por el Adobe, diariamente. &quot;Filas de datos&quot; significa las filas medias diarias de datos disponibles para su análisis dentro del Customer Journey Analytics.
 
-Supongamos que la asignación de derechos del contrato limita el número de filas a 1 millón. Supongamos que en el día 1 del uso de Customer Journey Analytics se cargan 2 millones de filas de datos. El día 2, elimina 1 millón de filas y mantiene su uso en el máximo comprometido. Seguiría incurriendo en cargos de sobreuso para el Día 1.
+Supongamos que la asignación de derechos del contrato limita el número de filas a 1 millón. Supongamos que en el día 1 del uso de Customer Journey Analytics se cargan 2 millones de filas de datos. El día 2, elimina 1 millón de filas y mantiene su uso en el máximo comprometido durante el resto del Término de licencia. Dependiendo de las condiciones contractuales, aún puede incurrir en cargos de sobreuso prorrateados para el Día 1.
 
 ## Diagnóstico de discrepancias
 
