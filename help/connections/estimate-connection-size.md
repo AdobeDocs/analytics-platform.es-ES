@@ -4,10 +4,10 @@ description: Informe sobre el uso actual de Customer Journey Analytics
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 74934c8684198104c808284310bcdfd633085574
+source-git-commit: 966274d433d8495d32823d74c5f72107bb5f383a
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 50%
+source-wordcount: '549'
+ht-degree: 48%
 
 ---
 
@@ -38,9 +38,9 @@ Es posible que necesite saber cuántas filas de datos tiene actualmente en [!UIC
 
 ## Acerca de los excedentes de uso
 
-Los límites de uso están estrictamente monitorizados y aplicados por el Adobe, diariamente. &quot;Filas de datos&quot; significa las filas medias diarias de datos disponibles para su análisis dentro del Customer Journey Analytics.
+El Adobe supervisa y aplica los límites de uso con regularidad. &quot;Filas de datos&quot; significa las filas medias diarias de datos disponibles para su análisis dentro del Customer Journey Analytics.
 
-Supongamos que la asignación de derechos del contrato limita el número de filas a 1 millón. Supongamos que en el día 1 del uso de Customer Journey Analytics se cargan 2 millones de filas de datos. El día 2, elimina 1 millón de filas y mantiene su uso en el máximo comprometido durante el resto del Término de licencia. Dependiendo de las condiciones contractuales, aún puede incurrir en cargos de sobreuso prorrateados para el Día 1.
+Por ejemplo, supongamos que su contrato le da derecho a un millón de filas de datos. Supongamos que en el día 1 del uso de Customer Journey Analytics se cargan dos millones de filas de datos. El día 2, se eliminan 1 millón de filas y se mantiene el uso en el máximo comprometido (es decir, un millón de filas de datos) durante el resto del Término de licencia. Según las condiciones contractuales, es posible que siga incurriendo en cargos por sobreutilización prorrateados para el día 1, ya que ha superado el derecho de licencia de &quot;filas de datos&quot;.
 
 ## Diagnóstico de discrepancias
 
