@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 621b40ffebe0c28376bcb36fabf84b53b54e4992
+source-git-commit: d5bdbfd0ac2a62ea5a55fbd381bf5453910ce0d1
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 98%
@@ -17,7 +17,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 | Fecha | Actualizar descripción |
 | --- | --- |
-| Marzo de | Contenido actualizado de forma significativa en [estimación del tamaño de la conexión](/help/getting-started/cja-faq.md). |
+| Marzo de 2022 | Contenido actualizado de forma significativa en [estimación del tamaño de la conexión](/help/getting-started/cja-faq.md). |
 | Febrero de 2022 | [Evolución de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=es) |
 | Enero de 2022 | Nuevo caso de uso para [Uso de dimensiones y métricas de enlace en CJA](/help/use-cases/binding-dimensions-metrics.md) |
 | Enero de 2022 | Se ha añadido nueva documentación de funciones en [enlace de dimensiones y métricas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#métrica-de-enlace) y en configuración de asignación [[!UICONTROL Conocido por primera vez] y [!UICONTROL Último conocido] ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#configuración-de-asignación) |
