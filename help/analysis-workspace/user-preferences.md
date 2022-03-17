@@ -4,9 +4,9 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '230'
+source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+workflow-type: tm+mt
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
@@ -40,6 +40,7 @@ Las preferencias de proyecto se aplican a los nuevos proyectos y paneles creados
 |  | [Tipo de panel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=es) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
 |  | Formato de número | <ul><li>1000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separador CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
+|  | Tabla improvisada | <ul><li>Mostrar anomalías </li><li>Mostrar minigráficos</li><li>Mostrar anotaciones</li></ul> |
 
 ## [!UICONTROL Tema oscuro]
 

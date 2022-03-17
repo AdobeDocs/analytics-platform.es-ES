@@ -2,9 +2,8 @@
 title: Administrar filtros
 description: descubra cómo administrar filtros en Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-translation-type: ht
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: ht
+source-git-commit: bd7a6d8ea46b27c465fcc8db4b9a317e517939a6
+workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 100%
 
@@ -18,7 +17,7 @@ El Administrador de filtros le muestra todos los filtros que posee y que han com
 
 Para acceder al Administrador de filtros, vaya a **[!UICONTROL Customer Journey Analysis]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]** en la barra de navegación superior.
 
-## Interfaz de usuario del Administrador de filtros
+## Interfaz de usuario del Administrador de filtros {#ui}
 
 ![](assets/filter-manager-ui.png)
 
@@ -37,7 +36,7 @@ Para acceder al Administrador de filtros, vaya a **[!UICONTROL Customer Journey 
 | 13 | Icono de aprobado | Indica que un administrador ha aprobado este filtro. |
 | 14 | Otros filtros | Permite ver los filtros de Etiquetas, Vistas de datos, Propietarios y Otros (Mostrar todo, Míos, Compartidos conmigo, Aprobados y Favoritos). |
 
-## Filtros del plan
+## Filtros del plan {#plan}
 
 El hecho de dedicar un cierto tiempo a la planificación de los filtros aumenta las probabilidades de que sean útiles para su organización y de que se mantenga bajo control el número de segmentos.
 
@@ -55,7 +54,7 @@ El hecho de dedicar un cierto tiempo a la planificación de los filtros aumenta 
 
 * Defina sus filtros con miras a una biblioteca de filtros que ofrezca a los usuarios empresariales la posibilidad de apilar y reutilizar filtros o componentes de segmentos de manera modular. ¿Qué &quot;módulos&quot; necesita definir para que dicha biblioteca se haga realidad?
 
-### Filtros de etiquetas
+### Filtros de etiquetas {#tag}
 
 En el Administrador de filtros, el etiquetado de filtros le permite organizarlos. Todos los usuarios pueden crear etiquetas para los filtros y aplicar una o más a un filtro. Sin embargo, solo verá las etiquetas de los filtros que sean suyos o que se hayan compartido con usted.
 
@@ -84,7 +83,7 @@ Para etiquetar un filtro:
 La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
 También puede filtrar las etiquetas accediendo a **[!UICONTROL Filtros > Etiquetas]**.
 
-### Aprobar filtros
+### Aprobar filtros {#approve}
 
 En el Administrador de filtros, puede establecer un flujo de trabajo que incluya la aprobación de filtros para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
 
@@ -104,7 +103,7 @@ Así es como se marca un filtro como aprobado:
 
 1. También puede desaprobar un filtro aprobado haciendo clic en **[!UICONTROL Desaprobar]**.
 
-### Compartir filtros
+### Compartir filtros {#share}
 
 En función de sus permisos, puede compartir filtros con toda su organización, con grupos o con usuarios individuales.
 
@@ -130,7 +129,7 @@ Para compartir un filtro:
 
 1. Puede filtrar los filtros que se han compartido con usted accediendo a Filtros > Otros filtros > Compartido conmigo.
 
-### Marcar filtros como favoritos
+### Marcar filtros como favoritos {#favorites}
 
 Marcar los filtros como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
 
