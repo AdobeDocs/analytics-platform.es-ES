@@ -3,9 +3,9 @@ description: Explica las características de la nueva página de aterrizaje .
 title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
-source-git-commit: 186c462c363660970080acbb9a906c4cf8254df8
+source-git-commit: 2aafa1b1181377ff80b12dbaecd9634e53f1a08c
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1053'
 ht-degree: 59%
 
 ---
@@ -32,15 +32,13 @@ Puede
 
 [!UICONTROL Proyectos] sirve como página de inicio del [!UICONTROL Espacio de trabajo]. Aquí se muestra cualquier proyecto del Espacio de trabajo, incluidos los cuadros de resultados móviles. **[!UICONTROL Proyectos]** son cosas que ha creado usted, o que otra persona ha creado y compartido con usted. [!UICONTROL Proyectos] también hace referencia a proyectos y cuadros de resultados móviles en blanco.
 
-![Aterrizar todo](assets/landing-all.png)
-
 >[!NOTE]
 >
 >Varias de las siguientes configuraciones persisten (se recuerdan) durante la sesión y entre sesiones. Ejemplos: En qué pestaña se encuentra, qué filtros y qué columnas se seleccionaron y la dirección de clasificación de las columnas. Los resultados de la búsqueda, sin embargo, no se mantienen.
 
 | Elemento de la IU | Definición |
 | --- | --- |
-| ... Más | Le permite [!UICONTROL Ver tutoriales] y [Editar preferencias de usuario](/help/analyze/analysis-workspace/user-preferences.md). |
+| ... Más | Le permite [!UICONTROL Ver tutoriales] y [Editar preferencias de usuario](/help/analysis-workspace/user-preferences.md). |
 | **[!UICONTROL Crear nuevo]** el modal vuelve | Al hacer clic en **[!UICONTROL Crear nuevo]** en Workspace, una vez más puede elegir entre una [!UICONTROL Proyecto en blanco] y [!UICONTROL Informe de valoración móvil en blanco]. También puede elegir entre cualquier plantilla que haya creado su empresa. |
 | [!UICONTROL Mostrar menos/más] | Alterna entre no mostrar y mostrar el banner: ![Banner superior](assets/top-banner.png) |
 | [!UICONTROL Proyecto en blanco] | Crea un [proyecto del Espacio de trabajo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es) en blanco para que lo rellene. |
@@ -52,7 +50,7 @@ Puede
 | Cuadro de selección | Al hacer clic en este cuadro junto a uno o varios proyectos, se muestran las acciones de administración de proyectos que puede realizar: eliminar, etiquetar, fijar, aprobar, compartir, cambiar el nombre, copiar y exportar a CSV. Es posible que no tenga permisos para realizar todas estas acciones. |
 | [!UICONTROL Favoritos] | Al marcar como favorito un proyecto, se coloca una estrella al lado y se etiqueta como favorito, categoría por la que podrá filtrar. |
 | [!UICONTROL Nombre] | El nombre del proyecto. |
-| Icono de información (i) | Al hacer clic en el icono de información, se muestra la siguiente información acerca de este proyecto: tipo, función del proyecto, propietario, descripción y con quién se comparte. También indica quién puede [editar o duplicar](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/curate-share/share-projects.html) este proyecto. |
+| Icono de información (i) | Al hacer clic en el icono de información, se muestra la siguiente información acerca de este proyecto: tipo, función del proyecto, propietario, descripción y con quién se comparte. También indica quién puede [editar o duplicar](/help/analysis-workspace/curate-share/share-projects.md) este proyecto. |
 | Puntos suspensivos (...) | Al hacer clic en los puntos suspensivos junto a un proyecto, se muestran las acciones de administración de proyectos que puede realizar: eliminar, etiquetar, fijar, aprobar, compartir, cambiar nombre, copiar y exportar a CSV. Tenga en cuenta que es posible que no tenga permisos para realizar todas estas acciones. |
 | [!UICONTROL Tipo] | Indica si este tipo se trata de un proyecto del Espacio de trabajo o de un cuadro de resultados móvil. |
 | [!UICONTROL Etiquetas] | Los informes se pueden etiquetar para organizarlos en grupos. |
@@ -62,7 +60,7 @@ Puede
 | [!UICONTROL Compartido con] | Con quién se compartió este proyecto. |
 | [!UICONTROL Última modificación] | La última vez que se modificó este proyecto. |
 | [!UICONTROL Última apertura] | La última vez que abrió este proyecto. |
-| [!UICONTROL Programado] | Establecer como [!UICONTROL Activado] cuando un proyecto está programado o **[!UICONTROL Off]** cuando no lo sea. Al hacer clic en **[!UICONTROL Activado]** link permite ver información sobre el proyecto programado. También puede [editar la programación del proyecto](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) si es el propietario del proyecto. |
+| [!UICONTROL Programado] | Establecer como [!UICONTROL Activado] cuando un proyecto está programado o **[!UICONTROL Off]** cuando no lo sea. Al hacer clic en **[!UICONTROL Activado]** link permite ver información sobre el proyecto programado. También puede [editar la programación del proyecto](/help/analysis-workspace/curate-share/t-schedule-report.md) si es el propietario del proyecto. |
 | [!UICONTROL ID de proyecto] | El ID de proyecto se puede usar para depurar proyectos. |
 | [!UICONTROL Intervalo de fecha más largo] | Los intervalos de fechas más largos aumentan la complejidad del proyecto y pueden aumentar los tiempos de procesamiento y carga. |
 | [!UICONTROL Cantidad de consultas] | Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. |
