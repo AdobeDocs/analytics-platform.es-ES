@@ -3,10 +3,11 @@ description: Explica las características de la nueva página de aterrizaje .
 title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
-source-git-commit: 2aafa1b1181377ff80b12dbaecd9634e53f1a08c
+exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
+source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 59%
+source-wordcount: '1081'
+ht-degree: 58%
 
 ---
 
@@ -63,7 +64,7 @@ Puede
 | [!UICONTROL Programado] | Establecer como [!UICONTROL Activado] cuando un proyecto está programado o **[!UICONTROL Off]** cuando no lo sea. Al hacer clic en **[!UICONTROL Activado]** link permite ver información sobre el proyecto programado. También puede [editar la programación del proyecto](/help/analysis-workspace/curate-share/t-schedule-report.md) si es el propietario del proyecto. |
 | [!UICONTROL ID de proyecto] | El ID de proyecto se puede usar para depurar proyectos. |
 | [!UICONTROL Intervalo de fecha más largo] | Los intervalos de fechas más largos aumentan la complejidad del proyecto y pueden aumentar los tiempos de procesamiento y carga. |
-| [!UICONTROL Cantidad de consultas] | Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. |
+| [!UICONTROL Cantidad de consultas] | El número total de solicitudes realizadas a Analytics cuando se carga el proyecto. Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. Estos datos solo están disponibles después de que se haya cargado un proyecto o de que se haya enviado un proyecto programado. |
 | Icono Personalizar tabla | (Parte superior derecha) Si desea añadir o eliminar columnas de la lista de proyectos, puede hacerlo seleccionándolas o anulándolas. |
 | &lt; (Botón Atrás) | Este botón de un proyecto de Workspace le lleva de nuevo a la configuración más reciente de la página de aterrizaje. Cualquiera que sea la configuración de la página que tenía cuando abandonó la página de aterrizaje, se mantendrá cuando regrese. |
 
