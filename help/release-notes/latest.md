@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 847d54a576d9e66b73bf8a545bccce179e6283b2
+source-git-commit: abe97ed01ce841d3a74b29dedc9d2c4248c554c4
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 42%
+source-wordcount: '199'
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 42%
 >
 >Estas notas de la versión contienen información previa al lanzamiento que está sujeta a cambios.
 
-**Última actualización**: 21 de marzo de 2022
+**Última actualización**: 23 de marzo de 2022
 
 ## Funciones principales
 
@@ -24,6 +24,7 @@ ht-degree: 42%
 | ----------- | ---------- | ----- |
 | Anotaciones en Workspace | Las anotaciones en Workspace le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. [Más información](/help/components/annotations/overview.md) | 23 de marzo de 2022 |
 | Nueva página de aterrizaje del Customer Journey Analytics | La página de aterrizaje para Customer Journey Analytics incluye una página de inicio del administrador de proyectos y una sección de aprendizaje para ayudarle a empezar de forma más eficaz. [Más información](/help/getting-started/landing.md) | 1 de abril de 2022 |
+| [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de Workspace | La variable [!UICONTROL Elemento siguiente o anterior] permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. Por ejemplo, utilícelo si desea ver las páginas siguientes o anteriores de una página de producto, un canal de marketing o incluso un tipo de dispositivo específicos. Este panel va más allá de los informes anteriores o siguientes, ya que le permite ver cualquier dimensión y no requiere ninguna implementación nueva para obtener información. | 1 de abril de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
