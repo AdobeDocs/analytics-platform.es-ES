@@ -4,10 +4,10 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ Una conexión le permite integrar conjuntos de datos de [!DNL Adobe Experience P
 
 A continuación, se muestra un vídeo introductorio:
 
->[!VIDEO](https://video.tv.adobe.com/v/32549/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/331788/?quality=12&learn=on)
 
 ## Permisos necesarios
 
@@ -146,11 +146,12 @@ Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 
 1. Vaya a [Servicios de consulta de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) y cree una nueva consulta.
 
-1. La consulta tendría un aspecto similar al siguiente:
+   La consulta tendría un aspecto similar al siguiente:
 
    ```
    Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;
    ```
 
-* En este ejemplo, &quot;analytics_demo_data&quot; es el nombre del conjunto de datos.
-* Realice la consulta `Show Tables` para mostrar todos los conjuntos de datos que existen en AEP.
+   En este ejemplo, &quot;analytics_demo_data&quot; es el nombre del conjunto de datos.
+
+1. Realice la consulta `Show Tables` para mostrar todos los conjuntos de datos que existen en AEP.
