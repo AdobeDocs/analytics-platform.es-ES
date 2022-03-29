@@ -4,10 +4,10 @@ description: Qué considerar desde la perspectiva de un usuario cuando su empres
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 07c9bda0c40bf1e7bd39bf75bdce900a4749f0da
+source-git-commit: 957cb693a9fd814cbf571696964cd4f91d338307
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 20%
+source-wordcount: '982'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 >
 >Esta página está en construcción.
 
-¡Felicidades, su empresa está empezando a trabajar con el Customer Journey Analytics! Como usuario que está familiarizado con Adobe Analytics, ya tiene un bueno inicio del cabezal. Al trabajar con el Customer Journey Analytics, notará algunas grandes diferencias y algunas similitudes. Esta página pretende explicar las cosas que no han cambiado, así como algunas de las principales diferencias. También le explicaremos cómo puede obtener más información sobre nuevos conceptos y pasos adicionales para que el recorrido de sus clientes sea más fácil y exitoso.
+¡Felicidades, su empresa está empezando a emplear a Customer Journey Analytics! Como usuario que está familiarizado con Adobe Analytics, ya tiene un bueno inicio del cabezal. Al trabajar con el Customer Journey Analytics, notará algunas grandes diferencias y algunas similitudes. Esta página pretende explicar las cosas que no han cambiado, así como algunas de las principales diferencias. También le explicaremos cómo puede obtener más información sobre nuevos conceptos y pasos adicionales para que el recorrido de sus clientes sea más fácil y exitoso.
 
 ## Qué no ha cambiado
 
@@ -28,7 +28,7 @@ Mucho de lo que está familiarizado con los informes no ha cambiado.
 * También tiene la misma versión de [Tableros de Adobe Analytics](/help/mobile-app/home.md) a su disposición. Workspace y los paneles funcionan igual que en la Adobe Analytics tradicional.
 * [Report Builder](/help/report-builder/report-buider-overview.md) tiene una nueva interfaz y ahora se ejecuta en PC, Mac y la versión web de Excel.
 
-En cuanto a los informes, lo que es diferente es que tiene acceso a muchos más datos de canales cruzados para analizar. Este es un ejemplo de algunas visualizaciones multicanal que incluyen varias fuentes de datos de canales múltiples:
+En cuanto a los informes, lo que es diferente es que tiene acceso a muchos más datos de canales cruzados para analizar. Este es un ejemplo de algunas visualizaciones que incluyen fuentes de datos en canales múltiples:
 
 ![visualizaciones multicanal](assets/cross-channel.png)
 
@@ -38,7 +38,7 @@ Customer Journey Analytics obtiene sus datos de Adobe Experience Platform. Exper
 
 Los datos del cliente en la plataforma se almacenan como conjuntos de datos que consisten en un esquema y lotes de datos. Para obtener más información sobre la plataforma, consulte la [Descripción general de arquitectura de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en).
 
-Su administrador de CJA se ha establecido [conexiones](/help/connections/create-connection.md) a conjuntos de datos en Platform. Luego se construyeron [vistas de datos](/help/data-views/data-views.md) dentro de esas conexiones. Considere las vistas de datos como si fueran similares a los grupos de informes virtuales. Las vistas de datos son la base de los informes en Customer Journey Analytics.
+Su administrador de CJA se ha establecido [conexiones](/help/connections/create-connection.md) a conjuntos de datos en Platform. Luego se construyeron [vistas de datos](/help/data-views/data-views.md) dentro de esas conexiones. Considere las vistas de datos como si fueran similares a los grupos de informes virtuales. Las vistas de datos son la base de los informes en Customer Journey Analytics. El concepto de grupo de informes ya no existe.
 
 ## Nuevos conceptos y terminología
 
@@ -72,17 +72,30 @@ Por el momento, no puede compartir/publicar [!UICONTROL filtros] ([!UICONTROL se
 * Si desea mover las métricas calculadas de Adobe Analytics al Customer Journey Analytics, consulte [este vídeo](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=es).
 * De lo contrario, vuelva a crear las métricas calculadas en Customer Journey Analytics.
 
-### Configuración de persistencia de variables y sesiones
-
-[!UICONTROL Customer Journey Analytics] aplica todos estos ajustes en el momento del informe y estos ajustes ahora se encuentran activos en [vistas de datos](help/data-views/component-settings/persistence.md). Los cambios en esta configuración ahora son retroactivos y puede tener varias versiones con varias vistas de datos.
-
 ### Los grupos de informes virtuales ahora son &quot;vistas de datos&quot;
 
 Las vistas de datos toman el concepto de grupos de informes virtuales tal como existen actualmente y lo expanden a [habilitar controles adicionales en los datos](/help/data-views/create-dataview.md) disponible mediante conexiones. Esto permite configurar los intervalos de zona horaria y de tiempo de espera de sesión. También puede aplicar propiedades de atribución y caducidad de forma dinámica para dimensiones individuales. Tenga en cuenta que se aplican retroactivamente en todos los datos.
 
+**Qué debe hacer**:
+
+* Familiarícese con los muchos casos de uso relacionados con las vistas de datos.
+* Tenga en cuenta que en Workspace, el selector de grupos de informes al que está acostumbrado ahora le permite elegir entre las vistas de datos que su administrador ha compartido con usted:
+
+   ![data-view-selector](assets/data-views.png)
+
 ### Datos de grupos de informes múltiples
 
-Las implementaciones existentes de varios conjuntos de datos se pueden combinar en Experience Platform.
+Las implementaciones existentes de varios conjuntos de datos se pueden combinar en Experience Platform. Las conexiones y vistas de datos basadas en estos conjuntos de datos pueden combinar datos que existían anteriormente en grupos de informes separados.
+
+**Qué debe hacer**:
+
+
+### Configuración de persistencia de variables y sesiones
+
+[!UICONTROL Customer Journey Analytics] aplica todos estos ajustes en el momento del informe y estos ajustes ahora se encuentran activos en [vistas de datos](help/data-views/component-settings/persistence.md). Los cambios en esta configuración ahora son retroactivos y puede tener varias versiones con varias vistas de datos.
+
+**Qué debe hacer**:
+
 
 ### Las clasificaciones ahora son &quot;conjuntos de datos de búsqueda&quot;
 
@@ -91,11 +104,15 @@ Las implementaciones existentes de varios conjuntos de datos se pueden combinar 
 
 ### Se ha cambiado el nombre de los contenedores
 
-Especifique un contenedor para [cada vista de datos que cree](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers). Tenga en cuenta que puede cambiar el nombre de cualquier contenedor para adaptarlo a las necesidades de su organización.
-
+Especifique un contenedor para [cada vista de datos que cree](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers).
 * **Los contenedores de visita individual ahora son contenedores de &quot;Evento&quot;**. El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico.
 * **Los contenedores de visita ahora son contenedores de &quot;sesión&quot;**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
 * **Los contenedores de visitante ya están [!UICONTROL Persona] contenedores**. El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico.
+
+**Qué debe hacer**:
+
+Tiene la opción de cambiar el nombre de cualquier contenedor para adaptarlo a las necesidades de su organización.
+
 
 ### `Uniques Exceeded` limitaciones
 
