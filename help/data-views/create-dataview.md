@@ -4,10 +4,10 @@ description: Todos los ajustes que se pueden ajustar para crear o editar una vis
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
+source-git-commit: 48cc438032fb1df043b7caf085aadf3f2c2f1ecf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1224'
+ht-degree: 99%
 
 ---
 
@@ -19,14 +19,14 @@ A continuación se muestra un vídeo sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
-## Configuración de una fuente de datos
+## Configuración de una fuente de datos {#configure}
 
 1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la pestaña **[!UICONTROL Vistas de datos]**.
 2. Haga clic en **[!UICONTROL Agregar]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
 
 ![Nueva vista de datos](assets/new-data-view.png)
 
-### Configuración de vista de datos
+### Configuración de vista de datos {#settings}
 
 Proporciona una configuración general para la vista de datos.
 
@@ -36,9 +36,9 @@ Proporciona una configuración general para la vista de datos.
 | [!UICONTROL Nombre] | Requerido. Nombre de la vista de datos. Este valor aparece en la lista desplegable superior derecha de Analysis Workspace. |
 | [!UICONTROL Descripción] | Opcional. Adobe recomienda una descripción detallada para que los usuarios entiendan por qué existe la vista de datos y para quién está diseñada. |
 
-### Contenedores
+### Contenedores {#containers}
 
-Designa el nombre de los contenedores para la vista de datos. Los nombres de contenedores se utilizan frecuentemente en [Filtros](/help/components/filters/filters-overview.md#Filter-containers).
+Designa el nombre de los contenedores para la vista de datos. Los nombres de contenedor se utilizan frecuentemente en [filtros](/help/components/filters/filters-overview.md#Filter-containers).
 
 | Configuración | Descripción |
 | --- | --- |
@@ -46,7 +46,7 @@ Designa el nombre de los contenedores para la vista de datos. Los nombres de con
 | [!UICONTROL Nombre de contenedor de sesión] | [!UICONTROL Sesión] (valor predeterminado). El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiar el nombre de este contenedor a Visita o a cualquier otro término que prefiera. |
 | [!UICONTROL Nombre de contenedor de evento] | [!UICONTROL Evento] (valor predeterminado). El contenedor [!UICONTROL Evento] define eventos individuales en un conjunto de datos. Si su organización utiliza un término diferente (por ejemplo, Visitas individuales o Vistas de página), puede cambiar el nombre del contenedor aquí. |
 
-### Calendario
+### Calendario {#calendar}
 
 Indica el formato de calendario que desea que siga la vista de datos. Puede tener varias vistas de datos basadas en la misma [Conexión](/help/connections/create-connection.md) y proporcionarles diferentes tipos de calendario o zonas horarias. Estas vistas de datos pueden permitir que equipos que utilicen distintos tipos de calendario satisfagan sus necesidades respectivas con los mismos datos subyacentes.
 
@@ -58,7 +58,7 @@ Indica el formato de calendario que desea que siga la vista de datos. Puede tene
 | [!UICONTROL Primer día del año actual] | Visible para tipos de calendario personalizados. Especifique qué día del año desea que comience el año actual. El calendario aplica automáticamente el formato del primer día de cada semana en función de este valor. |
 | [!UICONTROL Año que incluye la semana “extra”] | Con la mayoría de los calendarios de 364 días (52 semanas de 7 días cada uno), cada año se acumulan varios días restantes hasta formar una semana extra. Esta semana extra se agrega al último mes de ese año. Especifique a qué año desea agregar la semana adicional. |
 
-## Definición de los componentes de una vista de datos
+## Definición de los componentes de una vista de datos {#set-components}
 
 A continuación, puede crear métricas y dimensiones a partir de elementos de esquema. También puede utilizar componentes estándares.
 
@@ -89,13 +89,13 @@ A continuación, puede crear métricas y dimensiones a partir de elementos de es
    * [[!UICONTROL Persistencia]](component-settings/persistence.md)
    * [[!UICONTROL Clasificación de valor]](component-settings/value-bucketing.md)
 
-## Duplicado de métricas o dimensiones
+## Duplicado de métricas o dimensiones {#duplicate}
 
 Duplicar métricas o dimensiones y luego modificar configuraciones específicas es una manera sencilla de crear varias métricas o dimensiones a partir de un único campo de esquema. Seleccione la opción [!UICONTROL Duplicado] debajo del nombre de la métrica o dimensión en la parte superior derecha. Modifique la nueva métrica o dimensión, y guárdela con un nombre más descriptivo.
 
 ![Duplicar](assets/duplicate.png)
 
-## Filtrado de campos de esquema o conjuntos de datos
+## Filtrado de campos de esquema o conjuntos de datos {#filter}
 
 Puede filtrar los campos de esquema en el carril izquierdo según los siguientes tipos de datos:
 
@@ -105,20 +105,18 @@ También puede filtrar por conjuntos de datos y por si un campo de esquema conti
 
 ![Filtrar otros](assets/filter-other.png)
 
-## Configuración pestaña
+## Configuración pestaña {#settings-tab}
 
 1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la pestaña **[!UICONTROL Vistas de datos]**.
 1. Haga clic en **[!UICONTROL Agregar]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
 1. Haga clic en la pestaña **[!UICONTROL Configuración]**.
 
-### Filtro global
+### Filtro global {#global-filter}
 
 Puede agregar filtros que se apliquen a toda la vista de datos. Este filtro se aplicará a cualquier informe que ejecute el Espacio de trabajo. Arrastre un filtro desde la lista en el carril izquierdo al campo [!UICONTROL Añadir filtros].
 
-### Configuración de sesión
+### Configuración de sesión {#sessions}
 
-Determine el período de inactividad entre los eventos antes de que caduque una sesión y se inicie una nueva.
-
-Se requiere un período de tiempo. Opcionalmente, también puede forzar el inicio de una nueva sesión cuando un evento contenga una métrica determinada.
+Determine el período de inactividad entre los eventos antes de que caduque una sesión y se inicie una nueva. Se requiere un período de tiempo. Opcionalmente, también puede forzar el inicio de una nueva sesión cuando un evento contenga una métrica determinada.
 
 Una vez especificada toda la configuración deseada, haga clic en **[!UICONTROL Guardar y finalizar]**.
