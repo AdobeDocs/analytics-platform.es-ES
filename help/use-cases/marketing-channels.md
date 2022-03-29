@@ -4,10 +4,10 @@ description: Utilice el conector de datos de Analytics para incorporar reglas de
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+source-git-commit: 0b4dbe76e21c443b46b56f302b1a23858c65f828
+workflow-type: tm+mt
+source-wordcount: '957'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Si su organización utiliza el [conector de datos de Analytics](https://experien
 
 ## Requisitos previos
 
-* Los datos del grupo de informes ya deben estar importados en Adobe Experience Platform mediante el [conector de datos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). No se admiten otras fuentes de datos, ya que los canales de marketing dependen de las reglas de procesamiento de un grupo de informes de Analytics.
+* Los datos del grupo de informes ya deben estar importados en Adobe Experience Platform mediante el [conector de datos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). No se admiten otras fuentes de datos, ya que los canales de marketing dependen de las reglas de procesamiento de un grupo de informes de Analytics.
 * Las reglas de procesamiento de canal de marketing ya deben estar configuradas. Consulte [Reglas de procesamiento para canales de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=es) en la guía tradicional de componentes de Analytics.
 
 ## Elementos de esquema de canal de marketing
@@ -39,9 +39,13 @@ Sus dimensiones de canal de marketing ya están disponibles para su uso en Analy
 >
 >Existen varias diferencias fundamentales entre los datos del grupo de informes y los datos de Platform. Adobe recomienda encarecidamente ajustar las reglas de procesamiento de canales de marketing del grupo de informes para facilitar una recopilación de datos adecuada en Platform.
 
+>[!NOTE]
+>
+>Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=es).
+
 La configuración del canal de marketing funciona de forma diferente entre los datos de Platform y los datos del grupo de informes. Tenga en cuenta las siguientes diferencias al configurar canales de marketing para CJA:
 
-* **Es la primera página de la visita**: este criterio de regla es común en varias definiciones predeterminadas de canales de marketing. Cualquier regla de procesamiento que contenga este criterio se ignora en Platform (se seguirán aplicando otros criterios de la misma regla). Las sesiones se determinan en el momento de la consulta de datos en lugar de en el momento de la recopilación de datos, lo que impide que Platform use estos criterios específicos de regla. Adobe recomienda eliminar el criterio &quot;Es la primera página de la visita&quot; de cada regla de procesamiento de canal de marketing.
+* **Es la primera página de la visita**: este criterio de regla es común en varias definiciones predeterminadas de canales de marketing. Cualquier regla de procesamiento que contenga este criterio se ignora en Platform (se seguirán aplicando otros criterios de la misma regla). Las sesiones se determinan en el momento de la consulta de datos en lugar de en el momento de la recopilación de datos, lo que impide que Platform use estos criterios específicos de regla. Adobe recomienda volver a evaluar cualquier regla de procesamiento de canal de marketing que contenga el criterio &quot;Es la primera página de la visita&quot;, optando por enfoques alternativos que logren sus objetivos.
 
    ![Es la primera página de la visita](assets/first-page-of-visit.png)
 
@@ -62,5 +66,5 @@ Debido a que la arquitectura de Adobe Experience Platform es diferente a un grup
 * Compruebe que las diferencias arquitectónicas enumeradas anteriormente no afectan a la comparación. Esto incluye eliminar canales que no anulan el canal de último contacto, así como eliminar los criterios de regla que son el primer resultado de una visita (sesión).
 * Asegúrese de que su conexión utiliza el mismo grupo de informes que Analytics tradicional. Si la conexión de CJA contiene varios grupos de informes con sus propias reglas de procesamiento de canal de marketing, no hay una manera fácil de compararla con Analytics tradicional. Desea crear una conexión independiente para cada grupo de informes con el fin de comparar los datos.
 * Asegúrese de comparar los mismos intervalos de fechas y de que la configuración de la zona horaria de su vista de datos sea la misma que la del grupo de informes.
-* Utilice un modelo de atribución personalizado cuando visualice los datos del grupo de informes. Por ejemplo, utilice la dimensión [Canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=es) con métricas que utilicen un modelo de atribución no predeterminado. Adobe aconseja no comparar las dimensiones predeterminadas [Canal de primer contacto](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=es) o [Canal de último contacto](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=es), porque dependen de la atribución recopilada en el grupo de informes. CJA no se basa en los datos de atribución de un grupo de informes; en su lugar, se calcula cuando se ejecuta un informe de CJA.
+* Utilice un modelo de atribución personalizado cuando visualice los datos del grupo de informes. Por ejemplo, utilice la dimensión [Canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) con métricas que utilicen un modelo de atribución no predeterminado. Adobe aconseja no comparar las dimensiones predeterminadas [Canal de primer contacto](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=es) o [Canal de último contacto](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=es), porque dependen de la atribución recopilada en el grupo de informes. CJA no se basa en los datos de atribución de un grupo de informes; en su lugar, se calcula cuando se ejecuta un informe de CJA.
 * Algunas métricas no tienen una comparación razonable debido a las diferencias de arquitectura entre los datos del grupo de informes y los datos de Platform. Algunos ejemplos son visitas/sesiones, visitantes/personas y ocurrencias/eventos.
