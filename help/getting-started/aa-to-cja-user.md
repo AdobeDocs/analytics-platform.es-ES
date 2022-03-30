@@ -4,7 +4,7 @@ description: Qué considerar desde la perspectiva de un usuario cuando su empres
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
+source-git-commit: 48cde188fffd810f7bb292923fb0137fb476dcd4
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 18%
@@ -44,7 +44,7 @@ Su administrador de CJA se ha establecido [conexiones](/help/connections/create-
 
 Se ha cambiado el nombre de varias funciones de CJA y se ha vuelto a diseñar, en comparación con la versión tradicional de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen segmentos, grupos de informes virtuales, clasificaciones, atributos del cliente y nombres de contenedor. Ya no existen conceptos familiares como eVars y props, además de las limitaciones que imponen.
 
-### No hay más eVars y props
+## No hay más eVars y props
 
 Las [!UICONTROL eVars], las [!UICONTROL props] y los [!UICONTROL eventos] en el sentido tradicional de Adobe Analytics ya no existen en [!UICONTROL Customer Journey Analytics]. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta.
 
@@ -52,7 +52,7 @@ Las [!UICONTROL eVars], las [!UICONTROL props] y los [!UICONTROL eventos] en el 
 
 * Familiarícese con las muchas formas que puede
 
-### Los segmentos ahora son &quot;Filtros&quot;
+## Los segmentos ahora son &quot;Filtros&quot;
 
 [!UICONTROL Customer Journey Analytics] ya no utiliza eVars, props ni eventos y, en su lugar, utiliza cualquier esquema de AEP. Esto significa que ninguno de los segmentos existentes es compatible con [!UICONTROL Customer Journey Analytics]. Además, se ha cambiado el nombre de &quot;segmentos&quot; a &quot;filtros&quot;.
 
@@ -63,7 +63,7 @@ Por el momento, no puede compartir/publicar [!UICONTROL filtros] ([!UICONTROL se
 * Si desea mover los segmentos de Adobe Analytics existentes al Customer Journey Analytics, consulte [este vídeo](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=es).
 * De lo contrario, vuelva a crear los filtros en el Customer Journey Analytics .
 
-### Métricas calculadas
+## Métricas calculadas
 
 [!UICONTROL Customer Journey Analytics] ya no utiliza eVars, props ni eventos y, en su lugar, utiliza cualquier esquema de AEP. Esto significa que ninguna de las métricas calculadas existentes es compatible con [!UICONTROL Customer Journey Analytics].
 
@@ -72,7 +72,7 @@ Por el momento, no puede compartir/publicar [!UICONTROL filtros] ([!UICONTROL se
 * Si desea mover las métricas calculadas de Adobe Analytics al Customer Journey Analytics, consulte [este vídeo](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=es).
 * De lo contrario, vuelva a crear las métricas calculadas en Customer Journey Analytics.
 
-### Los grupos de informes virtuales ahora son &quot;vistas de datos&quot;
+## Los grupos de informes virtuales ahora son &quot;vistas de datos&quot;
 
 Las vistas de datos toman el concepto de grupos de informes virtuales tal como existen actualmente y lo expanden a [habilitar controles adicionales en los datos](/help/data-views/create-dataview.md) disponible mediante conexiones. Esto permite configurar los intervalos de zona horaria y de tiempo de espera de sesión. También puede aplicar propiedades de atribución y caducidad de forma dinámica para dimensiones individuales. Tenga en cuenta que se aplican retroactivamente en todos los datos.
 
@@ -84,26 +84,25 @@ Las vistas de datos toman el concepto de grupos de informes virtuales tal como e
 
 * Familiarícese con los muchos [casos de uso en vistas de datos](/help/data-views/data-views-usecases.md).
 
-### Datos de grupos de informes múltiples
+## Datos de grupos de informes múltiples
 
 Las implementaciones existentes de varios conjuntos de datos se pueden combinar en Experience Platform. Las conexiones y vistas de datos basadas en estos conjuntos de datos pueden combinar datos que existían anteriormente en grupos de informes separados.
 
 **Qué debe hacer**:
 
-
-### Configuración de persistencia de variables y sesiones
+## Configuración de persistencia de variables y sesiones
 
 [!UICONTROL Customer Journey Analytics] aplica todos estos ajustes en el momento del informe y estos ajustes ahora se encuentran activos en [vistas de datos](help/data-views/component-settings/persistence.md). Los cambios en esta configuración ahora son retroactivos y puede tener varias versiones con varias vistas de datos.
 
 **Qué debe hacer**:
 
 
-### Las clasificaciones ahora son &quot;conjuntos de datos de búsqueda&quot;
+## Las clasificaciones ahora son &quot;conjuntos de datos de búsqueda&quot;
 
-### Los atributos del cliente ahora son &quot;Conjuntos de datos de perfil&quot;
+## Los atributos del cliente ahora son &quot;Conjuntos de datos de perfil&quot;
 
 
-### Se ha cambiado el nombre de los contenedores
+## Se ha cambiado el nombre de los contenedores
 
 Especifique un contenedor para [cada vista de datos que cree](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers).
 * **Los contenedores de visita individual ahora son contenedores de &quot;Evento&quot;**. El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico.
@@ -115,6 +114,6 @@ Especifique un contenedor para [cada vista de datos que cree](https://experience
 Tiene la opción de cambiar el nombre de cualquier contenedor para adaptarlo a las necesidades de su organización.
 
 
-### `Uniques Exceeded` limitaciones
+## `Uniques Exceeded` limitaciones
 
 [!UICONTROL Customer Journey Analytics] no tiene limitaciones de valor único, por lo que no es necesario preocuparse por ellas.
