@@ -4,10 +4,10 @@ description: Qué considerar desde la perspectiva de un usuario cuando su empres
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 957cb693a9fd814cbf571696964cd4f91d338307
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 19%
+source-wordcount: '994'
+ht-degree: 18%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 19%
 
 Mucho de lo que está familiarizado con los informes no ha cambiado.
 
-* Puede seguir utilizando la potencia de [Analysis Workspace](/help/analysis-workspace/home.md) para analizar los datos.
-* También tiene la misma versión de [Tableros de Adobe Analytics](/help/mobile-app/home.md) a su disposición. Workspace y los paneles funcionan igual que en la Adobe Analytics tradicional.
+* Puede seguir utilizando la potencia de [Analysis Workspace](/help/analysis-workspace/home.md) para analizar los datos. Workspace funciona igual que en la versión tradicional de Adobe Analytics.
+* También tiene la misma versión de [Tableros de Adobe Analytics](/help/mobile-app/home.md) a su disposición. Los tableros (o aplicación Mobile) funcionan igual que en la versión tradicional de Adobe Analytics.
 * [Report Builder](/help/report-builder/report-buider-overview.md) tiene una nueva interfaz y ahora se ejecuta en PC, Mac y la versión web de Excel.
 
 En cuanto a los informes, lo que es diferente es que tiene acceso a muchos más datos de canales cruzados para analizar. Este es un ejemplo de algunas visualizaciones que incluyen fuentes de datos en canales múltiples:
@@ -78,10 +78,11 @@ Las vistas de datos toman el concepto de grupos de informes virtuales tal como e
 
 **Qué debe hacer**:
 
-* Familiarícese con los muchos casos de uso relacionados con las vistas de datos.
 * Tenga en cuenta que en Workspace, el selector de grupos de informes al que está acostumbrado ahora le permite elegir entre las vistas de datos que su administrador ha compartido con usted:
 
    ![data-view-selector](assets/data-views.png)
+
+* Familiarícese con los muchos [casos de uso en vistas de datos](/help/data-views/data-views-usecases.md).
 
 ### Datos de grupos de informes múltiples
 

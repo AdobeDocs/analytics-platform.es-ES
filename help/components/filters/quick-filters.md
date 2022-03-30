@@ -4,10 +4,10 @@ title: Filtros rápidos
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 83%
+source-wordcount: '1050'
+ht-degree: 81%
 
 ---
 
@@ -20,6 +20,10 @@ Puede crear filtros rápidos dentro de un proyecto para evitar la complejidad de
 * No se admiten contenedores anidados ni reglas secuenciales.
 
 Para ver una comparación de lo que pueden hacer los filtros rápidos frente a los filtros de lista de componentes completa, acceda [aquí](/help/components/filters/filters-overview.md).
+
+Aquí hay un vídeo sobre los filtros rápidos (tenga en cuenta que en su lugar utiliza el término &quot;segmentos rápidos&quot;). Sin embargo, la funcionalidad es la misma.
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## Requisitos previos {#prereqs}
 
