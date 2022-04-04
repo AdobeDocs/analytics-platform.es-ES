@@ -5,10 +5,10 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 100%
+source-wordcount: '1822'
+ht-degree: 99%
 
 ---
 
@@ -20,8 +20,9 @@ Una vez que los usuarios administradores hayan [creado una o varias conexiones](
 
 * Permite **identificar cualquier discrepancia en los datos** debido a una configuración incorrecta. ¿Le faltan filas? En caso afirmativo, ¿qué filas faltan y por qué? ¿Configuró incorrectamente las conexiones y esto causó la falta de datos en CJA?
 
->[!NOTE]
-> Esta funcionalidad estará disponible para el público general el 20 de septiembre de 2021.
+Este es un vídeo sobre el nuevo Administrador de conexiones:
+
+>[!VIDEO](https://video.tv.adobe.com/v/342097/?quality=12&learn=on)
 
 ## Administrador de conexiones {#connections-manager}
 

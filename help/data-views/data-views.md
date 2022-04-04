@@ -4,8 +4,8 @@ description: Una vista de datos especifica cómo desea interpretar los elementos
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Puede crear distintas vistas de datos para la misma conexión, con conjuntos de 
 
 Los proyectos del Espacio de trabajo en Customer Journey Analytics se basan en vistas de datos.
 
-## Funciones de vistas de datos
+## Funciones de vistas de datos {#capabilities}
 
 Las vistas de datos le permiten cambiar espontáneamente la configuración del elemento de esquema sin tener que variar el esquema en Adobe Experience Platform ni volver a implementar el entorno de CJA.
 
@@ -52,12 +52,12 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 
 * Puede **cambiar el nombre de los contenedores** en una vista de datos y hacer que los contenedores con nuevos nombres aparezcan en cualquier proyecto del Espacio de trabajo basado en la vista de datos.
 
-## Requisitos previos de vistas de datos
+## Requisitos previos de vistas de datos {#prerequisites}
 
 * Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform](/help/connections/create-connection.md).
 * Para crear o administrar una vista de datos, necesita un [conjunto de permisos en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#admin-access-permissions).
 
-## Configuración de vista de datos que se puede anular el Espacio de trabajo
+## Configuración de vista de datos que se puede anular el Espacio de trabajo {#settings-override}
 
 Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en el ámbito del proyecto, mientras que otros no.
 
@@ -65,14 +65,14 @@ Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en e
 * Atribución de métricas
 * Indica si los usuarios ven o no el elemento de línea [!UICONTROL Sin valor] en un informe
 
-## Configuración de vista de datos que no se puede anular el Espacio de trabajo
+## Configuración de vista de datos que no se puede anular el Espacio de trabajo {#settings-no-override}
 
 * [!UICONTROL Tipo de componente]
 * Formato de métrica
 * Nombre de la vista de datos
 * Asignación de dimensiones
 
-## Eliminación de vistas de datos
+## Eliminación de vistas de datos {#delete}
 
 Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparecerá un mensaje de error que indica que dejarán de funcionar todos los proyectos del [!UICONTROL Espacio de trabajo] que dependan de dicha vista de datos eliminada.
 

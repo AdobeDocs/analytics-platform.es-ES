@@ -4,9 +4,9 @@ description: Qué considerar desde la perspectiva de un usuario cuando su empres
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 48cde188fffd810f7bb292923fb0137fb476dcd4
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1010'
 ht-degree: 18%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 18%
 >
 >Esta página está en construcción.
 
-¡Felicidades, su empresa está empezando a emplear a Customer Journey Analytics! Como usuario que está familiarizado con Adobe Analytics, ya tiene un bueno inicio del cabezal. Al trabajar con el Customer Journey Analytics, notará algunas grandes diferencias y algunas similitudes. Esta página pretende explicar las cosas que no han cambiado, así como algunas de las principales diferencias. También le explicaremos cómo puede obtener más información sobre nuevos conceptos y pasos adicionales para que el recorrido de sus clientes sea más fácil y exitoso.
+Su empresa está iniciando un Customer Journey Analytics de empleo. Como usuario que está familiarizado con Adobe Analytics, ya tiene un bueno inicio del cabezal. Al trabajar con el Customer Journey Analytics, notará algunas grandes diferencias y algunas similitudes. Esta página pretende explicar las cosas que no han cambiado, así como algunas de las principales diferencias. También le explicaremos cómo puede obtener más información sobre nuevos conceptos y pasos adicionales para que el recorrido de sus clientes sea más fácil y exitoso.
 
 ## Qué no ha cambiado
 
@@ -44,13 +44,25 @@ Su administrador de CJA se ha establecido [conexiones](/help/connections/create-
 
 Se ha cambiado el nombre de varias funciones de CJA y se ha vuelto a diseñar, en comparación con la versión tradicional de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen segmentos, grupos de informes virtuales, clasificaciones, atributos del cliente y nombres de contenedor. Ya no existen conceptos familiares como eVars y props, además de las limitaciones que imponen.
 
-## No hay más eVars y props
+## Los grupos de informes (virtuales) ahora son &quot;vistas de datos&quot;
 
-Las [!UICONTROL eVars], las [!UICONTROL props] y los [!UICONTROL eventos] en el sentido tradicional de Adobe Analytics ya no existen en [!UICONTROL Customer Journey Analytics]. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta.
+[!UICONTROL Vistas de datos] tome el concepto de grupos de informes virtuales tal como existen hoy en día y expórtelo a [habilitar controles adicionales en los datos](/help/data-views/create-dataview.md) disponible mediante conexiones. Esto permite configurar los intervalos de zona horaria y de tiempo de espera de sesión. También puede aplicar propiedades de atribución y caducidad de forma dinámica para dimensiones individuales. Tenga en cuenta que se aplican retroactivamente en todos los datos.
 
 **Qué debe hacer**:
 
-* Familiarícese con las muchas formas que puede
+* Tenga en cuenta que en Workspace, el selector de grupos de informes al que está acostumbrado ahora le permite elegir entre las vistas de datos que su administrador ha compartido con usted:
+
+   ![data-view-selector](assets/data-views.png)
+
+* Familiarícese con los muchos [casos de uso en vistas de datos](/help/data-views/data-views-usecases.md).
+
+## No hay más eVars y props
+
+Las [!UICONTROL eVars], las [!UICONTROL props] y los [!UICONTROL eventos] en el sentido tradicional de Adobe Analytics ya no existen en [!UICONTROL Customer Journey Analytics]. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta. Su administrador de CJA ha creado vistas de datos
+
+**Qué debe hacer**:
+
+* Familiarícese con las muchas formas en que estos elementos de esquema pueden utilizarse para profundizar en los datos.
 
 ## Los segmentos ahora son &quot;Filtros&quot;
 
@@ -72,17 +84,6 @@ Por el momento, no puede compartir/publicar [!UICONTROL filtros] ([!UICONTROL se
 * Si desea mover las métricas calculadas de Adobe Analytics al Customer Journey Analytics, consulte [este vídeo](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=es).
 * De lo contrario, vuelva a crear las métricas calculadas en Customer Journey Analytics.
 
-## Los grupos de informes virtuales ahora son &quot;vistas de datos&quot;
-
-Las vistas de datos toman el concepto de grupos de informes virtuales tal como existen actualmente y lo expanden a [habilitar controles adicionales en los datos](/help/data-views/create-dataview.md) disponible mediante conexiones. Esto permite configurar los intervalos de zona horaria y de tiempo de espera de sesión. También puede aplicar propiedades de atribución y caducidad de forma dinámica para dimensiones individuales. Tenga en cuenta que se aplican retroactivamente en todos los datos.
-
-**Qué debe hacer**:
-
-* Tenga en cuenta que en Workspace, el selector de grupos de informes al que está acostumbrado ahora le permite elegir entre las vistas de datos que su administrador ha compartido con usted:
-
-   ![data-view-selector](assets/data-views.png)
-
-* Familiarícese con los muchos [casos de uso en vistas de datos](/help/data-views/data-views-usecases.md).
 
 ## Datos de grupos de informes múltiples
 
@@ -96,8 +97,9 @@ Las implementaciones existentes de varios conjuntos de datos se pueden combinar 
 
 **Qué debe hacer**:
 
-
 ## Las clasificaciones ahora son &quot;conjuntos de datos de búsqueda&quot;
+
+
 
 ## Los atributos del cliente ahora son &quot;Conjuntos de datos de perfil&quot;
 
