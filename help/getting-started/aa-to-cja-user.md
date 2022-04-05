@@ -4,13 +4,13 @@ description: Qué considerar desde la perspectiva de un usuario cuando su empres
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 13743c627ae0af608e63c39ca1f0b8c54f61bbe0
+exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
+source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 18%
 
 ---
-
 
 # Guía del usuario de CJA para usuarios de Adobe Analytics
 
@@ -28,7 +28,7 @@ Mucho de lo que está familiarizado con los informes no ha cambiado.
 * También tiene la misma versión de [Tableros de Adobe Analytics](/help/mobile-app/home.md) a su disposición. Los tableros (o aplicación Mobile) funcionan igual que en la versión tradicional de Adobe Analytics.
 * [Report Builder](/help/report-builder/report-buider-overview.md) tiene una nueva interfaz y ahora se ejecuta en PC, Mac y la versión web de Excel.
 
-En cuanto a los informes, lo que es diferente es que tiene acceso a muchos más datos de canales cruzados para analizar. Este es un ejemplo de algunas visualizaciones que incluyen fuentes de datos en canales múltiples:
+Cuando se trata de informes, **¿qué es diferente?** es que tiene acceso a muchos más datos de canales cruzados para analizar. Este es un ejemplo de algunas visualizaciones que incluyen fuentes de datos en canales múltiples:
 
 ![visualizaciones multicanal](assets/cross-channel.png)
 
