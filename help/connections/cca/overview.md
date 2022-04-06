@@ -4,10 +4,10 @@ description: Vuelva a escribir los ID de visitante de varios conjuntos de datos 
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+source-git-commit: 16ebf5672099b0cd0c5e4dafd577f175370fa9b5
+workflow-type: tm+mt
+source-wordcount: '1196'
+ht-degree: 96%
 
 ---
 
@@ -43,6 +43,8 @@ Antes de usar Análisis entre canales, asegúrese de que su organización está 
 >[!IMPORTANT]
 >
 >Tenga en cuenta que cualquier cambio en el esquema del conjunto de datos de evento global debe aplicarse también en el nuevo esquema del conjunto de datos vinculado; de lo contrario, este se romperá.
+>
+>Además, si elimina el conjunto de datos de origen, el conjunto de datos enlazado detiene el procesamiento y el sistema lo elimina.
 
 Análisis entre canales es una función innovadora y sólida, pero tiene limitaciones en cuanto a su uso.
 
@@ -56,6 +58,7 @@ Análisis entre canales es una función innovadora y sólida, pero tiene limitac
 * El campo de ID transitorio debe contener un solo tipo de ID (es decir, ID de un solo espacio de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
 * Si se producen varios eventos con la misma marca de tiempo en relación con el mismo ID persistente, pero con valores diferentes en el campo de ID transitorio, la identificación basada en campos decidirá en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro Ann, la identificación basada en campos elegirá Ann.
 * El análisis entre canales múltiples realiza un seguimiento de cada valor de ID persistente durante 1 año (TTL = 1 año). Si un dispositivo no tiene actividad durante más de un año y luego empieza a tener actividad de nuevo, los nuevos eventos se asociarán con una persona anónima hasta que se vuelva a identificar al usuario (por ejemplo, mediante un nuevo inicio de sesión).
+* Si varias personas comparten un dispositivo y el número total de transiciones entre usuarios supera las 50 000, CCA deja de vincular datos para ese dispositivo.
 
 
 ## Habilitación de Análisis entre canales
