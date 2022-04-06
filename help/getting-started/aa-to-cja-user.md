@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 171b174624dbb48873024368884992766dcd0922
+source-git-commit: 3af757fd311d7a92e56aa9ce5939dc3db8dcf6fa
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1051'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ Cuando se trata de informes, **¿qué es diferente?** es que tiene acceso a much
 
 ![visualizaciones multicanal](assets/cross-channel.png)
 
-## Nueva arquitectura
+## Nueva arquitectura {#architecture}
 
 Customer Journey Analytics obtiene sus datos de Adobe Experience Platform. Experience Platform le permite centralizar y estandarizar los datos y el contenido de los clientes de cualquier sistema o canal y aplica la ciencia de datos y el aprendizaje automático para mejorar el diseño y el envío de las experiencias personalizadas.
 
@@ -38,11 +38,11 @@ Los datos del cliente en la plataforma se almacenan como conjuntos de datos que 
 
 Su administrador de CJA se ha establecido [conexiones](/help/connections/create-connection.md) a conjuntos de datos en Platform. Luego se construyeron [vistas de datos](/help/data-views/data-views.md) dentro de esas conexiones. Considere las vistas de datos como si fueran similares a los grupos de informes virtuales. Las vistas de datos son la base de los informes en Customer Journey Analytics. El concepto de grupo de informes ya no existe.
 
-## Grupos de informes
+## Grupos de informes {#report-suites}
 
 Los datos del grupo de informes se pueden traer al Experience Platform mediante el conector de origen de Adobe Analytics o el SDK web, especialmente si su organización sigue en la plataforma Adobe Analytics y añade CJA/AEP. Generalmente, creará conjuntos de datos que son específicos del grupo de informes mediante el esquema de Analytics.
 
-## Los grupos de informes (virtuales) ahora son &quot;vistas de datos&quot;
+## Los grupos de informes (virtuales) ahora son &quot;vistas de datos&quot; {#data-views}
 
 [!UICONTROL Vistas de datos] tome el concepto de grupos de informes virtuales tal como existen hoy en día y expórtelo a [habilitar controles adicionales en los datos](/help/data-views/create-dataview.md) disponible mediante conexiones. Esto permite configurar los intervalos de zona horaria y de tiempo de espera de sesión. También puede aplicar propiedades de atribución y caducidad de forma dinámica para dimensiones individuales. Tenga en cuenta que se aplican retroactivamente en todos los datos.
 
@@ -54,7 +54,7 @@ Los datos del grupo de informes se pueden traer al Experience Platform mediante 
 
 * Familiarícese con los muchos [casos de uso en vistas de datos](/help/data-views/data-views-usecases.md).
 
-## No hay más eVars y props
+## eVars y props
 
 Las [!UICONTROL eVars], las [!UICONTROL props] y los [!UICONTROL eventos] en el sentido tradicional de Adobe Analytics ya no existen en [!UICONTROL Customer Journey Analytics]. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta. Su administrador de CJA ha creado vistas de datos
 
