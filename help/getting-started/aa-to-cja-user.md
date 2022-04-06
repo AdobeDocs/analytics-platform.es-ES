@@ -5,20 +5,18 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
+source-git-commit: 171b174624dbb48873024368884992766dcd0922
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 18%
+source-wordcount: '1053'
+ht-degree: 17%
 
 ---
 
 # Guía del usuario de CJA para usuarios de Adobe Analytics
 
->[!NOTE]
->
->Esta página está en construcción.
+Su empresa está empezando a emplear a un Customer Journey Analytics. Como usuario que está familiarizado con Adobe Analytics, ya tiene un bueno inicio del cabezal. Al trabajar con Customer Journey Analytics, notará algunas similitudes y algunas grandes diferencias. Esta página pretende explicar las cosas que no han cambiado, así como algunas de las principales diferencias. También le explicaremos cómo puede obtener más información sobre nuevos conceptos y pasos adicionales para que el recorrido de sus clientes sea más fácil y exitoso.
 
-Su empresa está empezando a emplear a un Customer Journey Analytics. Como usuario que está familiarizado con Adobe Analytics, ya tiene un bueno inicio del cabezal. Al trabajar con el Customer Journey Analytics, notará algunas grandes diferencias y algunas similitudes. Esta página pretende explicar las cosas que no han cambiado, así como algunas de las principales diferencias. También le explicaremos cómo puede obtener más información sobre nuevos conceptos y pasos adicionales para que el recorrido de sus clientes sea más fácil y exitoso.
+Se ha cambiado el nombre de varias funciones de CJA y se ha vuelto a diseñar, en comparación con la versión tradicional de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen segmentos, grupos de informes virtuales, clasificaciones, atributos del cliente y nombres de contenedor. Ya no existen conceptos familiares como eVars y props, además de las limitaciones que imponen.
 
 ## Qué no ha cambiado
 
@@ -40,9 +38,9 @@ Los datos del cliente en la plataforma se almacenan como conjuntos de datos que 
 
 Su administrador de CJA se ha establecido [conexiones](/help/connections/create-connection.md) a conjuntos de datos en Platform. Luego se construyeron [vistas de datos](/help/data-views/data-views.md) dentro de esas conexiones. Considere las vistas de datos como si fueran similares a los grupos de informes virtuales. Las vistas de datos son la base de los informes en Customer Journey Analytics. El concepto de grupo de informes ya no existe.
 
-## Nuevos conceptos y terminología
+## Grupos de informes
 
-Se ha cambiado el nombre de varias funciones de CJA y se ha vuelto a diseñar, en comparación con la versión tradicional de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen segmentos, grupos de informes virtuales, clasificaciones, atributos del cliente y nombres de contenedor. Ya no existen conceptos familiares como eVars y props, además de las limitaciones que imponen.
+Los datos del grupo de informes se pueden traer al Experience Platform mediante el conector de origen de Adobe Analytics o el SDK web, especialmente si su organización sigue en la plataforma Adobe Analytics y añade CJA/AEP. Generalmente, creará conjuntos de datos que son específicos del grupo de informes mediante el esquema de Analytics.
 
 ## Los grupos de informes (virtuales) ahora son &quot;vistas de datos&quot;
 
@@ -50,7 +48,7 @@ Se ha cambiado el nombre de varias funciones de CJA y se ha vuelto a diseñar, e
 
 **Qué debe hacer**:
 
-* Tenga en cuenta que en Workspace, el selector de grupos de informes al que está acostumbrado ahora le permite elegir entre las vistas de datos que su administrador ha compartido con usted:
+* Tenga en cuenta que en Workspace, el selector de grupo de informes al que está acostumbrado ahora le permite elegir entre las vistas de datos que su administrador ha compartido con usted:
 
    ![data-view-selector](assets/data-views.png)
 
