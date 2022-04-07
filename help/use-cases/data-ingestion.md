@@ -4,7 +4,7 @@ description: Comprender las distintas formas de ingerir datos en Customer Journe
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 06ef2da0f66b1f8fa1597a618d64974cb6c320ce
+source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 89%
@@ -19,7 +19,7 @@ Tiene varias opciones de ingesta de datos en Customer Journey Analytics. Algunos
 
 Este flujo de trabajo utiliza el conector de datos de Adobe Analytics y varía en función de si utiliza DTM o Launch como Administrador de etiquetas.
 
-### Mediante etiquetas en Adobe Experience Platform (anteriormente, Launch)
+### Mediante etiquetas en Adobe Experience Platform (anteriormente denominadas [!UICONTROL Launch])
 
 1. [Crear una capa de datos](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html?lang=es), si aún no lo ha hecho. Una capa de datos es un marco de objetos de JavaScript del sitio que contiene todos los valores de variables utilizados en la implementación. Permite un mayor control y un mantenimiento más sencillo en la implementación.
 1. Uso [Etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=es) para implementar código en el sitio para la recopilación de datos, si aún no lo ha hecho. Esta solución de administración de etiquetas le permite implementar código de Analytics junto con otros requisitos de etiquetado. Las etiquetas ofrecen integraciones con otras soluciones y productos, y permiten implementar código personalizado. Todas estas tareas se pueden realizar sin depender de ningún equipo de desarrollo de la organización para actualizar el código del sitio..

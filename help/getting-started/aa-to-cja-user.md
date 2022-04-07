@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 3af757fd311d7a92e56aa9ce5939dc3db8dcf6fa
+source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 17%
+source-wordcount: '1280'
+ht-degree: 21%
 
 ---
 
@@ -38,9 +38,21 @@ Los datos del cliente en la plataforma se almacenan como conjuntos de datos que 
 
 Su administrador de CJA se ha establecido [conexiones](/help/connections/create-connection.md) a conjuntos de datos en Platform. Luego se construyeron [vistas de datos](/help/data-views/data-views.md) dentro de esas conexiones. Considere las vistas de datos como si fueran similares a los grupos de informes virtuales. Las vistas de datos son la base de los informes en Customer Journey Analytics. El concepto de grupo de informes ya no existe.
 
+## Conexiones
+
+Una conexión permite que el administrador de Analytics integre conjuntos de datos desde [!DNL Adobe Experience Platform] into [!UICONTROL Espacio de trabajo]. Para informar sobre conjuntos de datos de [!DNL Experience Platform], primero debe establecer una conexión entre conjuntos de datos en [!DNL Experience Platform] y [!UICONTROL Espacio de trabajo].
+
+A continuación, se muestra un vídeo introductorio:
+
+>[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12&learn=on)
+
 ## Grupos de informes {#report-suites}
 
-Los datos del grupo de informes se pueden traer al Experience Platform mediante el conector de origen de Adobe Analytics o el SDK web, especialmente si su organización sigue en la plataforma Adobe Analytics y añade CJA/AEP. Generalmente, creará conjuntos de datos que son específicos del grupo de informes mediante el esquema de Analytics.
+Los datos del grupo de informes se pueden traer al Experience Platform mediante el conector de origen de Adobe Analytics o el SDK web, si la organización sigue en la plataforma de Adobe Analytics y añade CJA/AEP. Generalmente, creará conjuntos de datos que son específicos del grupo de informes mediante el esquema de Analytics.
+
+Sin embargo, los grupos de informes ya no son la base para la creación de informes en CJA: [vistas de datos](/help/data-views/data-views.md) son. Consulte la sección siguiente para obtener más información sobre las vistas de datos.
+
+Las implementaciones existentes de varios conjuntos de datos se pueden combinar en Experience Platform. Las conexiones y vistas de datos basadas en estos conjuntos de datos pueden combinar datos que existían anteriormente en grupos de informes separados.
 
 ## Los grupos de informes (virtuales) ahora son &quot;vistas de datos&quot; {#data-views}
 
@@ -56,7 +68,7 @@ Los datos del grupo de informes se pueden traer al Experience Platform mediante 
 
 ## eVars y props
 
-Las [!UICONTROL eVars], las [!UICONTROL props] y los [!UICONTROL eventos] en el sentido tradicional de Adobe Analytics ya no existen en [!UICONTROL Customer Journey Analytics]. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta. Su administrador de CJA ha creado vistas de datos
+Las [!UICONTROL eVars], las [!UICONTROL props] y los [!UICONTROL eventos] en el sentido tradicional de Adobe Analytics ya no existen en [!UICONTROL Customer Journey Analytics]. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta.
 
 **Qué debe hacer**:
 
@@ -82,29 +94,30 @@ Por el momento, no puede compartir/publicar [!UICONTROL filtros] ([!UICONTROL se
 * Si desea mover las métricas calculadas de Adobe Analytics al Customer Journey Analytics, consulte [este vídeo](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=es).
 * De lo contrario, vuelva a crear las métricas calculadas en Customer Journey Analytics.
 
-
-## Datos de grupos de informes múltiples
-
-Las implementaciones existentes de varios conjuntos de datos se pueden combinar en Experience Platform. Las conexiones y vistas de datos basadas en estos conjuntos de datos pueden combinar datos que existían anteriormente en grupos de informes separados.
-
-**Qué debe hacer**:
-
 ## Configuración de persistencia de variables y sesiones
 
 [!UICONTROL Customer Journey Analytics] aplica todos estos ajustes en el momento del informe y estos ajustes ahora se encuentran activos en [vistas de datos](/help/data-views/component-settings/persistence.md). Los cambios en esta configuración ahora son retroactivos y puede tener varias versiones con varias vistas de datos.
 
-**Qué debe hacer**:
-
 ## Las clasificaciones ahora son &quot;conjuntos de datos de búsqueda&quot;
 
-
+Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de evento o perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [este caso de uso](/help/use-cases/b2b.md) para ver un ejemplo.
 
 ## Los atributos del cliente ahora son &quot;Conjuntos de datos de perfil&quot;
 
+Los conjuntos de datos de perfil contienen datos que se aplican a sus visitantes, usuarios o clientes en la variable [!UICONTROL Evento] datos. Por ejemplo, le permite cargar datos CRM sobre sus clientes. Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.
+
+## Identidades
+
+CJA amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar [Análisis en canales múltiples](/help/connections/cca/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto de Workspace en CJA debe comprender los ID utilizados en los conjuntos de datos.
+
+Este es un vídeo que destaca el uso de identidades en el Customer Journey Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## Se ha cambiado el nombre de los contenedores
 
 Especifique un contenedor para [cada vista de datos que cree](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers).
+
 * **Los contenedores de visita individual ahora son contenedores de &quot;Evento&quot;**. El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico.
 * **Los contenedores de visita ahora son contenedores de &quot;sesión&quot;**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
 * **Los contenedores de visitante ya están [!UICONTROL Persona] contenedores**. El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico.
@@ -112,7 +125,6 @@ Especifique un contenedor para [cada vista de datos que cree](https://experience
 **Qué debe hacer**:
 
 Tiene la opción de cambiar el nombre de cualquier contenedor para adaptarlo a las necesidades de su organización.
-
 
 ## `Uniques Exceeded` limitaciones
 
