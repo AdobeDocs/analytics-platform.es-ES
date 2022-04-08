@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 59355c37d7bae28c1de52cd12ae63c37cdd09eb6
+source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -111,6 +111,8 @@ Aquí hay un par de vídeos para guiarle:
 * Si ha definido un calendario personalizado en Adobe Analytics, tendrá un [funcionalidades de calendario personalizadas](/help/components/date-ranges/custom-date-ranges.md) dentro de CJA. Debe asegurarse de que el calendario esté definido correctamente.
 
 * En Customer Journey Analytics, puede definir un tiempo de espera de visita/sesión personalizado, así como una métrica que iniciará una nueva sesión. Puede crear vistas de datos con distintas definiciones de sesión para obtener perspectivas que vayan más allá de las posibles en Adobe Analytics. Esta capacidad puede ser especialmente beneficiosa para los conjuntos de datos móviles.
+
+* Considere la posibilidad de proporcionar un diccionario de datos para los usuarios o ampliar el SDR para incluir el nombre del campo Experience Platform para los elementos de esquema.
 
 ## Pasos siguientes
 
