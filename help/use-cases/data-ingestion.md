@@ -4,10 +4,10 @@ description: Comprender las distintas formas de ingerir datos en Customer Journe
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 89%
+source-wordcount: '771'
+ht-degree: 86%
 
 ---
 
@@ -39,20 +39,20 @@ Adobe Experience Platform reúne datos de varias fuentes para ayudar a los espec
 
 ### Ingesta por lotes
 
-1. Configure [Ingesta por lotes](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=es#batch) para permitir la ingesta de datos en Adobe Experience Platform como archivos por lotes. Los datos que se están ingiriendo pueden ser los datos de perfil de un archivo plano de un sistema CRM (como un archivo de Parquet) o los datos que se ajustan a un esquema conocido en el registro del modelo de datos de experiencia (XDM).
+1. Configure [Ingesta por lotes](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html#batch) para permitir la ingesta de datos en Adobe Experience Platform como archivos por lotes. Los datos que se están ingiriendo pueden ser los datos de perfil de un archivo plano de un sistema CRM (como un archivo de Parquet) o los datos que se ajustan a un esquema conocido en el registro del modelo de datos de experiencia (XDM).
 1. Usar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) para crear una o varias conexiones y vistas de datos que informarán al sistema de informes entre canales.[](/help/connections/create-connection.md)[](/help/data-views/data-views.md)
 
 ### Ingesta de la transmisión
 
-1. Configure la [Ingesta de la transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es#streaming) para enviar datos del cliente y de dispositivos del lado del servidor a Experience Platform en tiempo real.
+1. Configure la [Ingesta de la transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html#streaming) para enviar datos del cliente y de dispositivos del lado del servidor a Experience Platform en tiempo real.
 1. Usar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) para crear una o varias conexiones y vistas de datos que informarán al sistema de informes entre canales.[](/help/connections/create-connection.md)[](/help/data-views/data-views.md)
 
 ## Introducción de datos de Google Analytics para analizarlos en Customer Journey Analytics
 
-Consulte este tutorial sobre cómo [Analizar datos de Google Analytics mediante Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module16/ex5.html?lang=es#objectives) para ver los pasos detallados.
+Consulte este tutorial sobre cómo [Analizar datos de Google Analytics mediante Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module16/ex5.html#objectives) para ver los pasos detallados.
 
 ## Utilice la API de inserción masiva de datos para obtener datos en Analytics y, a continuación, realice la ingesta mediante el conector de origen de Adobe en Experience Platform
 
 1. [Utilice la API de inserción masiva de datos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para enviar datos de colección del lado del servidor a Adobe Analytics. Permite enviar archivos con formato CSV que contienen datos de evento.
-1. [Cree un conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) para llevar estos datos de consumidor a Adobe Experience Platform.
+1. [Cree un conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) para llevar estos datos de consumidor a Adobe Experience Platform.
 1. Usar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) para crear una o varias conexiones y vistas de datos que informarán al sistema de informes entre canales.[](/help/connections/create-connection.md)[](/help/data-views/data-views.md)

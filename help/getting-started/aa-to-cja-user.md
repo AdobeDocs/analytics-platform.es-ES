@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 6981a7a68d8a517f6b842cb36382f543c80f4582
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 6%
+source-wordcount: '1456'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Tiene acceso a muchos más datos de canales cruzados para analizar. Por ejemplo,
 
 CJA obtiene sus datos de Adobe Experience Platform. Experience Platform le permite centralizar y estandarizar los datos y el contenido de los clientes de cualquier sistema o canal y aplica la ciencia de datos y el aprendizaje automático para mejorar el diseño y el envío de las experiencias personalizadas.
 
-Los datos del cliente en el Experience Platform se almacenan como conjuntos de datos, que consisten en un [esquema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=es) y lotes de datos. Para obtener más información sobre la plataforma, consulte la [Descripción general de arquitectura de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en).
+Los datos del cliente en el Experience Platform se almacenan como conjuntos de datos, que consisten en un [esquema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) y lotes de datos. Para obtener más información sobre la plataforma, consulte la [Descripción general de arquitectura de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html).
 
 Su administrador de CJA establece [conexiones](/help/connections/create-connection.md) a conjuntos de datos en Experience Platform. Luego construyen [vistas de datos](/help/data-views/data-views.md) usando esas conexiones. Conceptualmente, las vistas de datos son similares a los grupos de informes virtuales y son la base de los informes en CJA. Dado que el Experience Platform obtiene todos los datos para la creación de informes, los grupos de informes ya no existen como contenedores de datos.
 

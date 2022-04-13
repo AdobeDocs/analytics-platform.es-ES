@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo comparar sus datos de Adobe Analyt
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ A continuación, se indican algunos pasos a seguir para comparar los datos origi
 
 ## Paso 1: Ejecute la métrica Ocurrencias en Adobe Analytics
 
-La métrica [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es) muestra el número de visitas configurado o en las que persiste una dimensión.
+La métrica [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html) muestra el número de visitas configurado o en las que persiste una dimensión.
 
 1. En Analytics > [!UICONTROL Espacio de trabajo], arrastre el intervalo de fechas sobre el que desee crear el informe como dimensión a una tabla de [!UICONTROL Forma libre].
 
@@ -63,9 +63,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber soltado algunas filas.
+1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber soltado algunas filas.
 
-   El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) podría soltar filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se perderá toda la fila.
+   El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) podría soltar filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se perderá toda la fila.
 
    | Campo de Analytics | Valores que hacen que se borre |
    | --- | --- |

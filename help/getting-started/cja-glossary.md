@@ -4,10 +4,10 @@ description: Glosario de Customer Journey Analytics.
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 97%
+source-wordcount: '336'
+ht-degree: 98%
 
 ---
 
@@ -27,4 +27,4 @@ Algunos términos de Customer Journey Analytics difieren de cómo se han utiliza
 ## Glosario de Adobe Experience Platform
 
 Adobe Experience Platform estandariza los datos y el contenido en toda la empresa, lo que potencia los perfiles de los consumidores en tiempo real, permite la ciencia de datos y acelera la velocidad de contenido para impulsar la personalización de la experiencia a lo largo del recorrido del cliente.
-Consulte [el glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=en) para obtener más información.
+Consulte [el glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html) para obtener más información.

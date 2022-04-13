@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 75f4921f6624b1b26a26b88f2ff15f44d29f4c01
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 80%
+source-wordcount: '303'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. Puede anotar una fecha o un intervalo de fechas con problemas de datos conocidos, días festivos, lanzamientos de campañas, etc. Entonces, puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o alguna otra métrica.
 
-Por ejemplo, supongamos que comparte proyectos con su organización. Si tuvo un pico importante en el tráfico debido a una campaña de marketing, podría crear una anotación &quot;Fecha de inicio de la campaña&quot; y ampliarla para todo el grupo de informes. Cuando los usuarios ven cualquier conjunto de datos que incluya esa fecha, ven la anotación dentro de sus proyectos, junto con sus datos.
+Por ejemplo, supongamos que comparte proyectos con su organización. Si tuvo un pico importante en el tráfico debido a una campaña de marketing, podría crear una anotación de “Fecha de inicio de la campaña” y ampliarla para todo el grupo de informes. Cuando los usuarios ven cualquier conjunto de datos que incluya esa fecha, ven la anotación dentro de sus proyectos, junto con sus datos.
 
 ![](assets/multi-day.png)
 
@@ -38,7 +38,7 @@ Recuerde:
 
 De forma predeterminada, solo los administradores pueden crear anotaciones. Los usuarios tienen derechos para ver las anotaciones como lo hacen con otros componentes de Analytics (como segmentos, métricas calculadas, etc.).
 
-Sin embargo, los administradores pueden dar el permiso de [!UICONTROL Creación de anotaciones] (Herramientas de Analytics) a los usuarios a través de [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=es).
+Sin embargo, los administradores pueden dar el permiso de [!UICONTROL Creación de anotaciones] (Herramientas de Analytics) a los usuarios a través de [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Activación o desactivación de anotaciones
 

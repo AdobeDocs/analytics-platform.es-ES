@@ -4,10 +4,10 @@ title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 58%
+source-wordcount: '1077'
+ht-degree: 57%
 
 ---
 

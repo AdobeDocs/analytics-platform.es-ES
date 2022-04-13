@@ -3,9 +3,9 @@ title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '2944'
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '2942'
 ht-degree: 100%
 
 ---
