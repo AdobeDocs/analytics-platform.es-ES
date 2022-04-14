@@ -1,19 +1,19 @@
 ---
-title: Ingesta de datos B2B en AEP e informa en CJA
-description: Aprenda a incorporar datos de Marketo a CJA
+title: Ingesta de datos de Marketo Engage en AEP e informa en CJA
+description: Aprenda a incorporar datos de Marketo Engage a CJA
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e18de2563427941f8c227881b46f73c490be218d
+exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
+source-git-commit: ad8e3c18dbb73a064662a4543cb0e553cd52cec3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '387'
 ht-degree: 5%
 
 ---
 
+# Ingesta de datos de Marketo Engage en AEP e informa en CJA
 
-# Ingesta de datos B2B de Marketo en AEP e informa en CJA
-
-Puede aprovechar los conjuntos de datos B2B de Marketo (AEP) recientemente disponibles en Adobe Experience Platform para ofrecer valiosas soluciones de análisis e informes a los especialistas en marketing B2B. A continuación, informe sobre estos conjuntos de datos en Customer Journey Analytics (CJA)
+Puede aprovechar los conjuntos de datos de Marketo Engage recién disponibles en Adobe Experience Platform (AEP) para ofrecer valiosas soluciones de análisis e informes a los especialistas en marketing B2B. A continuación, informe sobre estos conjuntos de datos en Customer Journey Analytics (CJA)
 
 ## Paso 1: Asignación de campos de datos de origen de Marketo a sus destinos XDM
 
@@ -21,7 +21,7 @@ Asigne la variable [Personas](https://experienceleague.adobe.com/docs/experience
 
 ## Paso 2: Ingesta de datos de Marketo en AEP
 
-Utilice la variable [Conector del Marketo Engage](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en) para llevar los datos B2B de Marketo al Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
+Utilice la variable [Conector del Marketo Engage](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en) para llevar los datos de Marketo al Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
 
 ## Paso 3: Configurar una conexión a este conjunto de datos en CJA
 
@@ -36,6 +36,7 @@ A [vista de datos](/help/data-views/data-views.md) es un contenedor específico 
 Un caso de uso que puede explorar es: ¿Cuántas visitas de páginas web de posibles clientes tuvimos entre abril y junio de 2020?
 
 1. Apertura [Espacio de trabajo de Analytics](/help/analysis-workspace/home.md) y cree un nuevo proyecto.
+Los clientes con B2B/B2P CDP pueden realizar análisis de tipo B2C en CJA. Los objetos B2B aún no están disponibles.
 
 1. Cree un [filter](/help/components/filters/create-filters.md) para vistas de páginas web como se indica a continuación: Tipo de evento = web.webpagedetails.pageViews :
 
