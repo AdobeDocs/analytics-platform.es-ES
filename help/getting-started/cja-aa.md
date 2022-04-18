@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Attribution IQ | Compatibilidad total. |
 | Métricas calculadas | Compatibilidad total. Tenga en cuenta que las métricas de cálculo existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
 | Eventos de calendario | Compatibilidad total. Los eventos de calendario se han implementado como [Anotaciones](/help/components/annotations/overview.md) en Workspace. |
+| Generador de reglas de clasificación | Soporte completo. Llamada [subcadenas](/help/data-views/component-settings/substring.md) en CJA. Utiliza manipulaciones de cadenas en el tiempo del informe en lugar de conjuntos de datos de búsqueda. |
 | Vinculación entre dispositivos y canales | Compatibilidad total. Consulte [Análisis entre canales](/help/connections/cca/overview.md). |
 | Descarga de CSV | Compatibilidad total. |
 | Calendarios personalizados | Compatibilidad total. |
@@ -80,7 +81,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Alertas | Se ha planificado lanzar una versión compatible. |
-| Generador de reglas de clasificación | Funcionará de forma ligeramente diferente en CJA, usando manipulaciones de cadenas en el momento del informe en lugar de conjuntos de datos de búsqueda. |
 | Análisis de contribución | Se ha planificado lanzar una versión compatible. |
 | Creación de informes de Data Warehouse (100 % de exportación de filas) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. [[!UICONTROL El servicio de consulta]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) de Adobe Experience Platform también proporciona una interfaz para estos casos de uso en CJA. |
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
