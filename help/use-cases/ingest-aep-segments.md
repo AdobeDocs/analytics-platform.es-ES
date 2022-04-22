@@ -3,15 +3,19 @@ title: Ingesta de audiencias de AEP en Customer Journey Analytics
 description: Explica cómo incorporar audiencias de AEP a Customer Journey Analytics para un análisis más detallado.
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: cd1d639ad698c188c506881b2b17103b0a3559f2
+source-git-commit: ed01fd0899cac21fff156e0c31dc2b52ff7c8cca
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---
 
 
 # Ingesta de audiencias de AEP en Customer Journey Analytics (CJA)
+
+>[!NOTE]
+>
+>Este tema está en construcción.
 
 (Brandon, fyi, &quot;Perfil unificado&quot; es un término obsoleto para &quot;Perfil del cliente en tiempo real&quot;, según el administrador de documentos de AEP. No encontrará ningún documento en UP en el conjunto de documentos de AEP).
 
@@ -61,7 +65,7 @@ Estos son los elementos de datos que deben estar presentes:
 * `audienceMembershipIdList` campo de cadena: El ID de audiencia
 * Añada un nombre descriptivo para la audiencia (`audienceMembershipIdName`), como
 
-   ![Nombre descriptivo de la audiencia](assets/audience-name)
+   ![Nombre descriptivo de la audiencia](assets/audience-name.png)
 
 ## Paso 5: Crear una conexión en CJA con este conjunto de datos de perfil
 
