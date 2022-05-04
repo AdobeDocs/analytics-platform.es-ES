@@ -2,10 +2,10 @@
 title: Crear filtros
 description: Comprenda la interfaz de usuario para la creación de filtros.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
+source-git-commit: 38b68d2f61b2db9dbc2cdf4853a8c32a1f8639e9
+workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Hay varios métodos más para aplicar filtros a un proyecto:
 
 | Acción | Descripción |
 |--- |--- |
-| Crear filtro desde la selección | Cree un filtro en línea. Seleccione filas, haga clic con el botón secundario en la selección y cree un filtro en línea. Este filtro se aplica solamente al proyecto abierto y no se guarda como filtro de CJA. 1. Seleccione filas.  2. Haga clic con el botón secundario en la selección.  3. Haga clic en *Crear filtro de selección*. |
+| Crear filtro desde la selección | Cree un filtro en línea. Seleccione filas, haga clic con el botón secundario en la selección y cree un filtro en línea. Este filtro se aplica solo al proyecto abierto y no se guarda como filtro de CJA. 1. Seleccione filas.  2. Haga clic con el botón secundario en la selección.  3. Haga clic en *Crear filtro de selección*. |
 | Componentes > Nuevo filtro | Se abre el Generador de filtros. Consulte el [Generador de filtros](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) para obtener más información acerca de la creación de filtros. |
 | Compartir > Compartir proyecto o Compartir > Depurar datos del proyecto | En [Depurar y compartir](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es#concept_4A9726927E7C44AFA260E2BB2721AFC6), los segmentos aplicados al proyecto se encuentran disponibles en el análisis compartido para el destinatario. |
 | Usar filtros como dimensiones | Vídeo: uso de filtros como dimensiones en Analysis Workspace. |
