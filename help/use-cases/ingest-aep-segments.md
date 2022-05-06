@@ -4,40 +4,42 @@ description: Explica cómo incorporar audiencias de AEP a Customer Journey Analy
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 535095dc82680882d1a53076ea0655b1333b576b
+source-git-commit: 490a754270922481ebd893514c530a0667d9d6e4
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1042'
 ht-degree: 1%
 
 ---
 
 # Ingesta de audiencias de AEP en Customer Journey Analytics (CJA)
 
->[!NOTE]
->
->Este tema está en construcción.
-
 Este caso de uso explora una forma provisional y manual de incorporar audiencias de Adobe Experience Platform (AEP) a CJA. Es posible que estas audiencias se hayan creado en el Generador de segmentos de AEP, Adobe Audience Manager u otras herramientas, y se almacenen en el Perfil del cliente en tiempo real (RTCP). Las audiencias constan de un conjunto de ID de perfil, junto con cualquier atributo, evento, etc. aplicables. y queremos incluirlos en CJA Workspace para su análisis.
 
 ## Requisitos previos
 
-* Acceso a Adobe Experience Platform (AEP), específicamente Perfil del cliente en tiempo real.  También tiene acceso a la creación/administración de esquemas y conjuntos de datos de AEP.
-* Acceso a AEP Query Service (y la capacidad de escribir SQL) o una herramienta diferente para realizar algunas transformaciones ligeras
-* Acceso al Customer Journey Analytics (debe ser administrador de producto de CJA, para crear/modificar conexiones de CJA y vistas de datos)
+* Acceso a Adobe Experience Platform (AEP), específicamente Perfil del cliente en tiempo real.
+* Acceso para crear/administrar esquemas y conjuntos de datos de AEP.
+* Acceso a AEP Query Service (y la capacidad de escribir SQL) o una herramienta diferente para realizar algunas transformaciones ligeras.
+* Acceso al Customer Journey Analytics. Debe ser administrador de producto de CJA para crear/modificar conexiones de CJA y vistas de datos.
 * Capacidad para utilizar las API de Adobe (segmentación, opcionalmente, otras)
 
 ## Paso 1: Elija la audiencia en el perfil del cliente en tiempo real {#audience}
 
-Adobe Experience Platform [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCP) le permite ver una vista holística de cada cliente individual combinando datos de varios canales, incluidos en línea, sin conexión, CRM y de terceros. Es probable que ya tenga audiencias en RTCP que puedan provenir de varias fuentes. Elija una o más audiencias para ingerirlas en CJA.
+Adobe Experience Platform [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCP) le permite ver una vista holística de cada cliente individual combinando datos de varios canales, incluidos en línea, sin conexión, CRM y de terceros.
+
+Es probable que ya tenga audiencias en RTCP que puedan provenir de varias fuentes. Elija una o más audiencias para ingerirlas en CJA.
 
 ## Paso 2: Creación de un conjunto de datos de unión de perfiles para la exportación
 
 Para exportar la audiencia a un conjunto de datos que finalmente se pueda agregar a una conexión en CJA, debe crear un conjunto de datos cuyo esquema sea un perfil [Esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=en#understanding-union-schemas).
+
 Los esquemas de unión están compuestos por varios esquemas que comparten la misma clase y que se han habilitado para Perfil. El esquema de unión permite ver una amalgamación de todos los campos contenidos en esquemas que comparten la misma clase. El perfil del cliente en tiempo real utiliza el esquema de unión para crear una vista holística de cada cliente individual.
 
 ## Paso 3: Exportación de una audiencia al conjunto de datos de Profile Union mediante una llamada de API {#export}
 
-Para poder introducir una audiencia en CJA, debe exportarla a un conjunto de datos de AEP. Esto solo se puede hacer con la API de segmentación y, específicamente, con la variable [Exportar extremo de API de trabajos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en). Puede crear un trabajo de exportación utilizando el ID de audiencia que elija y poner los resultados en el conjunto de datos de AEP de unión de perfiles que creó en el paso 2.  Aunque puede exportar varios atributos o eventos para la audiencia, solo necesita exportar el campo ID de perfil específico que coincida con el campo ID de persona utilizado en la conexión CJA que va a aprovechar (consulte a continuación en el paso 5).
+Para poder introducir una audiencia en CJA, debe exportarla a un conjunto de datos de AEP. Esto solo se puede hacer con la API de segmentación y, específicamente, con la variable [Exportar extremo de API de trabajos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en).
+
+Puede crear un trabajo de exportación utilizando el ID de audiencia que elija y poner los resultados en el conjunto de datos de AEP de unión de perfiles que creó en el paso 2. Aunque puede exportar varios atributos o eventos para la audiencia, solo necesita exportar el campo ID de perfil específico que coincida con el campo ID de persona utilizado en la conexión CJA que va a aprovechar (consulte a continuación en el paso 5).
 
 ## Paso 4: Editar la salida de exportación
 
@@ -67,7 +69,9 @@ Estos son los elementos de datos que deben estar presentes:
 
 * Añada otros metadatos de audiencia si lo desea.
 
-## Paso 5: Agregar este conjunto de datos de perfil a una conexión existente en CJA (BG: puede crear una nueva, pero el 99 % de las veces los clientes desean agregarla a una conexión existente en la que ya tienen sus datos; los id de audiencia solo &quot;enriquecen&quot; los datos existentes en CJA)
+## Paso 5: Agregar este conjunto de datos de perfil a una conexión existente en CJA
+
+Puede crear una nueva conexión, pero la mayoría de los clientes desea agregarla a una conexión existente. Los ID de audiencia &quot;enriquecen&quot; los datos existentes en CJA.
 
 [Crear una conexión](/help/connections/create-connection.md)
 
