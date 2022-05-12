@@ -3,10 +3,11 @@ title: Configuración de componentes de subcadena
 description: Utilice un subconjunto de una cadena como elementos de dimensión.
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: a8bdb5b0c00a9dbca2f466452a5d18045b2e9971
+exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
+source-git-commit: e1d8cffac907e1043d18b1939585108ce95a0fda
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 6%
+source-wordcount: '907'
+ht-degree: 4%
 
 ---
 
@@ -87,14 +88,14 @@ CJA utiliza un subconjunto de la sintaxis regex de Perl. Si la entrada no coinci
 | `\s` | Cualquier carácter de espacio en blanco. |
 | `\S` | Cualquier carácter que no sea un espacio en blanco. |
 | `\d` | Cualquier dígito. |
-| `\D` | Cualquier no dígito. |
+| `\D` | Cualquier carácter que no sea un dígito. |
 | `\w` | Cualquier letra, número o guión bajo. |
 | `\W` | Cualquier carácter que no sea de palabra. |
 | `\b` | Cualquier límite de palabra. |
 | `\B` | Cualquier carácter que no sea un límite de palabra. |
 | `\<` | Inicio de la palabra. |
 | `\>` | Fin de la palabra. |
-| `(...)` | Capturar todo lo incluido. |
+| `(...)` | Capturar todo lo que está cerrado. |
 | `(?:...)` | Captura sin marca. Evita que se haga referencia a la coincidencia en la cadena de salida. |
 | `a?` | Cero o uno de `a`. |
 | `a*` | Cero o más de `a`. |
@@ -112,3 +113,7 @@ También se admiten marcadores de posición de salida. Puede utilizar estas secu
 | ``$` `` | Genera el texto entre el final de la última coincidencia encontrada (o el inicio del texto si no se encontró ninguna coincidencia anterior) y el inicio de la coincidencia actual. |
 | `$+` | Genera lo que coincidió con la última subexpresión marcada en la expresión regular. |
 | `$$` | Genera el carácter de cadena `"$"`. |
+
+Este es un vídeo sobre la vinculación de Dimension:
+
+>[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
