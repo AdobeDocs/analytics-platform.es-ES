@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 067d816b3e9ce6bf9cc36f270cdf050a847bbcc8
+source-git-commit: 72486c527fa48775395bc5a31e6dd98eb30cbdc1
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 20%
+source-wordcount: '148'
+ht-degree: 25%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 20%
 >
 >Esta página contiene información previa al lanzamiento que está sujeta a cambios.
 
-**Última actualización**: 10 de mayo de 2022
+**Última actualización**: 16 de mayo de 2022
 
 ## Funciones principales
 
 | Función | Descripción | [Fecha objetivo](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Nueva interfaz de usuario de edición y creación de conexión | Esta experiencia optimizada le permite rellenar los datos en el nivel de conjunto de datos, habilitar un período de retención de datos móvil, agregar y eliminar conjuntos de datos de una conexión. | 18 de mayo de 2022 |
-| Report Builder para actualizaciones de CJA | Incluye funciones como la programación y el administrador de bloques de datos. | 18 de mayo de 2022 |
-| Integración de Customer AI | Le permite introducir puntuaciones de modelos de AI del cliente en CJA para un análisis más detallado en el espacio de trabajo de análisis de CJA. | 25 de mayo de 2022 |
-| Integración de Attribution AI | Permite introducir las puntuaciones de modelos de Attribution AI en CJA para un análisis más detallado en el espacio de trabajo de análisis de CJA. | 25 de mayo de 2022 |
+| Nueva interfaz de usuario de edición y creación de conexión | Esta experiencia optimizada le permite rellenar los datos en el nivel de conjunto de datos, habilitar un período de retención de datos móvil, agregar y eliminar conjuntos de datos de una conexión. [Más información](/help/connections/create-connection.md) | 18 de mayo de 2022 |
+| Report Builder para actualizaciones de CJA | Incluye funciones como la programación y el administrador de bloques de datos. [Más información] | 18 de mayo de 2022 |
+| Integración de Customer AI | Le permite introducir puntuaciones de modelos de AI del cliente en CJA para un análisis más detallado en el espacio de trabajo de análisis de CJA. [Más información] | 25 de mayo de 2022 |
+| Integración de Attribution AI | Permite introducir las puntuaciones de modelos de Attribution AI en CJA para un análisis más detallado en el espacio de trabajo de análisis de CJA. [Más información] | 25 de mayo de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
