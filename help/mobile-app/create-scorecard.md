@@ -66,7 +66,7 @@ Para implementar la plantilla del informe de valoración:
 
 1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
 
-## Adición de dimensiones o métricas (#dimsmetrics)
+## Adición de dimensiones o métricas  (#dimsmetrics)
 
 Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
 
