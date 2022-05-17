@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ A continuación, se indican algunos pasos a seguir para comparar los datos origi
 
 ## Paso 1: Ejecute la métrica Ocurrencias en Adobe Analytics
 
-La métrica [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html) muestra el número de visitas configurado o en las que persiste una dimensión.
+La métrica [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es) muestra el número de visitas configurado o en las que persiste una dimensión.
 
 1. En Analytics > [!UICONTROL Espacio de trabajo], arrastre el intervalo de fechas sobre el que desee crear el informe como dimensión a una tabla de [!UICONTROL Forma libre].
 
@@ -47,7 +47,7 @@ Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siem
 
 >[!NOTE]
 >
->Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Análisis en canales múltiples](/help/connections/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en CJA es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en AA, especialmente si se ha activado el análisis en todos los canales.
+>Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Cross-Channel Analytics](/help/connections/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en CJA es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en AA, especialmente si se ha activado el Cross-Channel Analytics.
 
 1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es), ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
 
@@ -63,9 +63,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber soltado algunas filas.
+1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber soltado algunas filas.
 
-   El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) podría soltar filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se perderá toda la fila.
+   El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) podría soltar filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se perderá toda la fila.
 
    | Campo de Analytics | Valores que hacen que se borre |
    | --- | --- |
