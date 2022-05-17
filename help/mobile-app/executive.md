@@ -79,8 +79,8 @@ Para usar los paneles:
    * La granularidad de los minigráficos depende de la longitud del intervalo de fecha:
 
       * Si se selecciona un día se muestra una tendencia horaria
-      * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria
-      * Si se selecciona un año o más se muestra una tendencia semanal
+      * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria.
+      * Si se selecciona un año o más se muestra una tendencia semanal.
    * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
 
    * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
