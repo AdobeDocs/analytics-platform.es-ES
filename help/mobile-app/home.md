@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # [!UICONTROL Paneles] de Adobe Analytics: Información general
 
-Los **paneles[!UICONTROL  de Adobe Analytics]** proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+Los **[!UICONTROL paneles]** de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
 Para obtener más información sobre [!UICONTROL paneles] de Adobe Analytics, consulte los siguientes recursos:
 
