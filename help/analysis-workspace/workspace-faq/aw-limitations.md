@@ -3,10 +3,10 @@ description: Lista de limitaciones conocidas en Adobe Analysis Workspace y compo
 title: Limitaciones conocidas en Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 ## Componentes > Filtros
 
 * Ciertas métricas y dimensiones no se pueden filtrar, como [!UICONTROL Ocurrencias], [!UICONTROL Visitantes únicos], etc.
-* Los segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) no aparecerán en el carril izquierdo de Workspace ni en el administrador de componentes del filtro, a menos que se hagan públicos. Esto se puede hacer editando el filtro y seleccionando **[!UICONTROL Convertir este filtro en público]**.
+* Los filtros específicos creados en la variable [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) no aparecerán en el carril izquierdo de Workspace ni en el administrador de componentes de filtro, a menos que se hagan públicos. Esto se puede hacer editando el filtro y seleccionando **[!UICONTROL Convertir este filtro en público]**.
 
 ## Componentes > Métricas calculadas
 

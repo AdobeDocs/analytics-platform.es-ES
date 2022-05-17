@@ -3,10 +3,10 @@ description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '851'
-ht-degree: 100%
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 93%
 
 ---
 
@@ -51,9 +51,9 @@ Arrastre y suelte cualquier filtro del carril izquierdo en la zona desplegable d
 
 ![](assets/segment-filter.png)
 
-### Filtros específicos
+### Filtros ad hoc
 
-Los componentes que no son filtros también se pueden arrastrar directamente a la zona de colocación para crear filtros específicos, lo que le ahorrará el tiempo y el tener que utilizar el Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al filtro, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de filtros.
+Los componentes que no son de filtro también se pueden arrastrar directamente a la zona de colocación para crear filtros específicos, lo que le ahorra tiempo y esfuerzo al ir al Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al filtro, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de filtros.
 
 Los filtros específicos son locales del proyecto y no aparecerán en el carril izquierdo a menos que los haga públicos.
 

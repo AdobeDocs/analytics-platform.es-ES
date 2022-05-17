@@ -4,24 +4,24 @@ title: Filtros de proyecto específicos
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 56%
+source-wordcount: '302'
+ht-degree: 47%
 
 ---
 
 # Filtros de proyecto específicos
 
-Ad-hoc project filters allow you to drag and drop any component directly into the panel drop zone to create a filter. El filtro se convierte en un [filtro de nivel de proyecto](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=es) local al proyecto actual.
+Los filtros de proyecto específicos le permiten arrastrar y soltar cualquier componente directamente en la zona de colocación del panel para crear un filtro. El filtro se convierte en un [filtro de nivel de proyecto](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=es) local al proyecto actual.
 
-Aquí tiene un vídeo sobre la creación de filtros de proyecto específicos:
+Aquí hay un vídeo sobre la creación de filtros de proyecto ad hoc:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 
 1. 
-   1. Drop any component type (dimension, dimension item, event, metric, segment, segment template, date range) into the filter drop zone at the top of a panel. Los tipos de componente se convierten automáticamente en filtros ad hoc o [Filtros rápidos](/help/components/filters/quick-filters.md) si es compatible.
+   1. Coloque cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de filtros en la parte superior de un panel. Los tipos de componente se convierten automáticamente en filtros ad hoc o [Filtros rápidos](/help/components/filters/quick-filters.md) si es compatible.
 
    Este es un ejemplo de cómo crear un filtro para el dominio de referencia de Twitter:
 
