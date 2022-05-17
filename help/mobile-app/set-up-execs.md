@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicion
 
 Para garantizar que los usuarios ejecutivos tengan acceso a sus informes de valoración en la aplicación, asegúrese de que:
 
-* El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior
+* El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior.
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics.
 * Haya creado y compartido correctamente los informes de valoración móviles de los usuarios.
 * Los usuarios tengan acceso a los componentes que se incluyen en el cuadro de resultados. Tenga en cuenta que, al compartir los cuadros de resultados, puede seleccionar la opción **[!UICONTROL Compartir los componentes incrustados]**.
@@ -78,8 +78,8 @@ Información adicional sobre los mosaicos:
 
 * La granularidad de los minigráficos depende de la longitud del intervalo de fecha:
 * Si se selecciona un día se muestra una tendencia horaria
-   * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria
-   * Si se selecciona un año o más se muestra una tendencia semanal
+   * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria.
+   * Si se selecciona un año o más se muestra una tendencia semanal.
    * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
    * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
 
