@@ -7,12 +7,12 @@ solution: Customer Journey Analytics
 type: Documentation
 index: true
 user-guide-title: Guía de Customer Journey Analytics
-user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para análisis en canales múltiples, basada en Adobe Experience Platform.
+user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Cross-Channel Analytics, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: b164a78cd55a885c8dd724a448dcbe9ecdbcfff8
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 93%
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 93%
    + [Administrar conexiones](connections/manage-connections.md)
    + [Conjuntos de datos de evento combinados](connections/combined-dataset.md)
    + [Búsquedas estándar](connections/standard-lookups.md)
-   + Análisis entre canales {#cca}
-      + [Información general sobre Análisis entre canales](connections/cca/overview.md)
+   + Cross-Channel Analytics {#cca}
+      + [Información general sobre Cross-Channel Analytics](connections/cca/overview.md)
       + [Cómo funcionan las reproducciones](connections/cca/replay.md)
-      + [Preguntas frecuentes sobre Análisis entre canales](connections/cca/faq.md)
+      + [Preguntas frecuentes sobre Cross-Channel Analytics](connections/cca/faq.md)
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](data-views/data-views.md)
    + [Creación o edición de una fuente de datos](data-views/create-dataview.md)
@@ -59,7 +59,7 @@ ht-degree: 93%
       + [Anulación de duplicación métrica](data-views/component-settings/metric-deduplication.md)
       + [Sin opciones de valor](data-views/component-settings/no-value-options.md)
       + [Persistencia](data-views/component-settings/persistence.md)
-      + [Substring](data-views/component-settings/substring.md)
+      + [Subcadena](data-views/component-settings/substring.md)
       + [Clasificación de valor](data-views/component-settings/value-bucketing.md)
    + [Referencia de componente estándar](data-views/component-reference.md)
    + [Casos de uso de vistas de datos](data-views/data-views-usecases.md)
@@ -172,7 +172,7 @@ ht-degree: 93%
       + [Crear un filtro](components/filters/create-filters.md)
       + [Administrar filtros](components/filters/manage-filters.md)
       + [Filtros rápidos](components/filters/quick-filters.md)
-      + [Filtros específicos](components/filters/ad-hoc-filters.md)
+      + [Filtros ad hoc](components/filters/ad-hoc-filters.md)
       + [Operadores](components/filters/operators.md)
    + Métricas calculadas {#cja-calcmetrics}
       + [Información general sobre las métricas calculadas](components/calc-metrics/calc-metr-overview.md)
@@ -203,9 +203,9 @@ ht-degree: 93%
 + Casos prácticos {#cja-usecases}
    + [Casos de uso de Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Usar matrices de objetos](use-cases/object-arrays.md)
-   + [Usar dimensiones y métricas de enlace](use-cases/binding-dimensions-metrics.md)
+   + [Uso de dimensiones y métricas de enlace](use-cases/binding-dimensions-metrics.md)
    + [(B2B) Adición de datos de nivel de cuenta como un conjunto de datos de consulta](use-cases/b2b.md)
-   + [Ingesta de datos de Marketo Engage en AEP e informa en CJA](use-cases/marketo.md)
+   + [Ingesta de datos de Marketo Engage en AEP e informes en CJA](use-cases/marketo.md)
    + [Ingesta de audiencias de AEP en CJA](use-cases/ingest-aep-segments.md)
    + [Analizar datos en varios canales](use-cases/cross-channel.md)
    + [Importación de datos web y de centros de llamadas](use-cases/call-center.md)
