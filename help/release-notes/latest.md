@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
+source-git-commit: 0b095edc3ad8f5121818feafa6edb3f826bee84c
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 28%
+source-wordcount: '159'
+ht-degree: 27%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 28%
 >
 >Esta página contiene información previa al lanzamiento que está sujeta a cambios.
 
-**Última actualización**: 16 de mayo de 2022
+**Última actualización**: 18 de mayo de 2022
 
 ## Funciones principales
 
 | Función | Descripción | [Fecha objetivo](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
 | Nueva interfaz de usuario de edición y creación de conexión | Esta experiencia optimizada le permite rellenar los datos en el nivel de conjunto de datos, habilitar un período de retención de datos móvil, agregar y eliminar conjuntos de datos de una conexión. [Más información](/help/connections/create-connection.md) | 18 de mayo de 2022 |
-| Report Builder para actualizaciones de CJA | Incluye funciones como la programación y el administrador de bloques de datos. [Más información] | 18 de mayo de 2022 |
+| Report Builder para actualizaciones de CJA | Incluye funciones como la programación y el administrador de bloques de datos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) | 18 de mayo de 2022 |
 | Integración de Customer AI | Le permite introducir puntuaciones de modelos de AI del cliente en CJA para un análisis más detallado en el espacio de trabajo de análisis de CJA. [Más información: a continuación] | 25 de mayo de 2022 |
 | Integración de Attribution AI | Permite introducir las puntuaciones de modelos de Attribution AI en CJA para un análisis más detallado en el espacio de trabajo de análisis de CJA. [Más información: a continuación] | 25 de mayo de 2022 |
 
