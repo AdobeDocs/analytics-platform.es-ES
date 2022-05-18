@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Cross-Channel Analytics, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 565a247da0e66953d84b70dfb2fa50555e36b27d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '634'
+ht-degree: 96%
 
 ---
 
@@ -200,6 +200,15 @@ ht-degree: 0%
       + [Información general del calendario](components/date-ranges/calendar.md)
       + [Crear intervalos de fechas](components/date-ranges/custom-date-ranges.md)
       + [Comparación de fechas](components/date-ranges/time-comparison.md)
++ Paneles de Analytics {#cja-dashboards}
+   + [Paneles de Analytics: Información general](mobile-app/home.md)
+   + [Tareas del gestor de datos](mobile-app/curator.md)
+   + [Creación de un cuadro de resultados](mobile-app/create-scorecard.md)
+   + [Configuración de ejecutivos para que utilicen tableros](mobile-app/set-up-execs.md)
+   + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
++ Integraciones {#integrations}
+   + [Integración de Attribution AI con CJA](integrations/attribution-ai.md)
+   + [Integración de Customer AI con CJA](integrations/customer-ai.md)
 + Casos prácticos {#cja-usecases}
    + [Casos de uso de Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Usar matrices de objetos](use-cases/object-arrays.md)
@@ -213,12 +222,6 @@ ht-degree: 0%
    + [Uso de dimensiones del canal de marketing](use-cases/marketing-channels.md)
    + [Ingesta de datos de Google Analytics en Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [Informe sobre datos de Google Analytics en CJA](use-cases/ga-to-cja-reporting.md)
-+ Paneles de Analytics {#cja-dashboards}
-   + [Paneles de Analytics: Información general](mobile-app/home.md)
-   + [Tareas del gestor de datos](mobile-app/curator.md)
-   + [Creación de un cuadro de resultados](mobile-app/create-scorecard.md)
-   + [Configuración de ejecutivos para que utilicen tableros](mobile-app/set-up-execs.md)
-   + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + Resolución de problemas {#troubleshooting}
    + [Comparación de los datos de Adobe Analytics con los de CJA](troubleshooting/compare.md)
 + Privacidad {#cja-privacy}
