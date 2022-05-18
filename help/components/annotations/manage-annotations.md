@@ -4,18 +4,14 @@ description: Cómo administrar anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Components
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: b4e65903c720ecd9e684f8b7a764e2ba8f74baed
+source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 69%
 
 ---
 
 # Administración de anotaciones
-
->[!NOTE]
->
->Actualmente, esta función está en prueba limitada.
 
 El administrador [!UICONTROL Componentes] > [!UICONTROL Anotaciones] ofrece numerosas maneras de conservar las anotaciones, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 
@@ -47,6 +43,22 @@ Editar una anotación significa que puede ajustar intervalos de fechas, colores,
 * En el [!UICONTROL Administrador de anotaciones], haga clic en el título de la anotación.
 
 Ambas opciones le permiten volver a acceder al Generador de anotaciones. Aquí puede realizar los ajustes necesarios y guardar la nueva versión.
+
+## Compartir anotaciones
+
+Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con usted, tenga esto en cuenta:
+
+* Supongamos que crea un proyecto con anotaciones solo de proyecto y luego comparte el proyecto con otro usuario. Se mostrarán estas anotaciones, pero ninguna persona con la que comparta el proyecto puede editarlas o eliminarlas.
+
+* Si guarda una anotación y la comparte directamente con un usuario, solo podrá editarla o eliminarla si tiene derechos de administrador.
+
+* Para recapitular, si el proyecto se comparte con usted, solo se mostrará en ese proyecto. Si la anotación se comparte directamente con usted, aparecerá en todos los proyectos en los que se pueda mostrar.
+
+## Anotaciones y zonas horarias
+
+Todas las anotaciones se crean con una marca de tiempo, pero no con información de &quot;hora&quot; o &quot;zona horaria&quot;. En el momento del informe, siempre se aplica la zona horaria de la vista de datos del panel. Por lo tanto, una anotación creada para Navidad se produce el 25 de diciembre, independientemente de la zona horaria del grupo de informes en la que se encuentre.
+
+Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 10 pm, hora de las montañas de EE.UU., la costa este de EE.UU. está ardiendo fuego porque ya son las 12 am, hora del este.
 
 ## Otras tareas de anotaciones
 

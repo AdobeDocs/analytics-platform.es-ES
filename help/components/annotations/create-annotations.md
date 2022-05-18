@@ -4,18 +4,14 @@ description: Cómo crear anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 15faee32171a2beab7cf42b92b09358b5cb1acc3
+source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 92%
+source-wordcount: '643'
+ht-degree: 93%
 
 ---
 
 # Creación de anotaciones
-
->[!NOTE]
->
->Actualmente, esta función está en prueba limitada.
 
 1. Para crear anotaciones, tiene varias formas de empezar:
 
