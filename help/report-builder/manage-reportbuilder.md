@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 01a9ff4e03e002da723c10500de6dec4444f951e
+exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
+source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
-
 
 # Administrar bloques de datos en el Report Builder
 
@@ -50,19 +50,17 @@ Puede editar la vista de datos, el intervalo de fechas o los filtros aplicados a
 
 Por ejemplo, puede reemplazar un filtro existente con un nuevo filtro en uno o más bloques de datos.
 
-1. Seleccione los bloques de datos que desea actualizar.
+1. Seleccione los bloques de datos que desea actualizar. Puede seleccionar la casilla de verificación de nivel superior para seleccionar todos los bloques de datos o puede seleccionar bloques de datos individuales.
 
-Puede seleccionar la casilla de verificación de nivel superior para seleccionar todos los bloques de datos o puede seleccionar bloques de datos individuales.
-
-![image](./assets/image56.png)
+   ![image](./assets/image56.png)
 
 1. Haga clic en el icono de edición para mostrar la ventana de edición rápida.
 
-![image](./assets/image58.png)
+   ![image](./assets/image58.png)
 
 1. Seleccione un vínculo de filtro para actualizar vistas de datos, intervalos de fechas o filtros.
 
-![image](./assets/image59.png)
+   ![image](./assets/image59.png)
 
 ## Actualizar bloques de datos
 
@@ -81,9 +79,9 @@ Haga clic en el icono de la papelera para eliminar un bloque de datos selecciona
 
 ## Bloques de datos de grupo
 
-Haga clic en los títulos de las columnas para agrupar bloques de datos o seleccione un nombre de columna de la columna **Agrupar por** *Nombre* lista.
+Puede agrupar bloques de datos utilizando la variable **Agrupar por** menú desplegable o puede hacer clic en el título de una columna. Para ordenar los bloques de datos por columna, haga clic en el título de la columna. Para agrupar bloques de datos por grupos, seleccione un nombre de grupo en el **Agrupar por** menú desplegable. Por ejemplo, la captura de pantalla siguiente muestra bloques de datos agrupados por hoja. Muestra los bloques de datos agrupados por Hoja1 y Hoja2.  Esto resulta útil, por ejemplo, en el caso de uso de reemplazo de filtros. Si se han aplicado varios filtros a cada bloque de datos, resulta útil crear un grupo que contenga todos los bloques de datos que desea reemplazar. A continuación, puede seleccionarlos y editarlos fácilmente a la vez.
 
-![image](./assets/image514.png)
+![image](./assets/group-data-blocks.png)
 
 ## Modificación de la vista Administrador de bloques de datos
 
