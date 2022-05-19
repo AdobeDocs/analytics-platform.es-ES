@@ -4,16 +4,16 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: beb9e94e0870f8957de59e643957f7422f902182
+source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2094'
 ht-degree: 69%
 
 ---
 
 # Crear una conexión
 
-En mayo de 2022, se iniciará un nuevo flujo de trabajo Conexiones en Customer Journey Analytics (CJA). A continuación se muestra una descripción general de las nuevas funciones:
+Se ha iniciado recientemente un nuevo flujo de trabajo Conexiones en Customer Journey Analytics (CJA). A continuación se muestra una descripción general de las nuevas funciones:
 
 * Puede habilitar un período de retención de datos móvil al crear la conexión.
 * Puede agregar y eliminar conjuntos de datos de una conexión. (Al eliminar un conjunto de datos, éste se elimina de la conexión y afecta a las vistas de datos asociadas y a los proyectos de Analysis Workspace subyacentes).
@@ -26,7 +26,7 @@ En mayo de 2022, se iniciará un nuevo flujo de trabajo Conexiones en Customer J
 1. En CJA, haga clic en la **[!UICONTROL Conexiones]** pestaña .
 1. Haga clic en **[!UICONTROL Crear nueva conexión]**.
 
-   ![Configuración de conexión](assets/create-conn1.png)
+   ![Configuración de la conexión](assets/create-conn1.png)
 
 1. Configure los ajustes de conexión.
 
@@ -35,7 +35,7 @@ En mayo de 2022, se iniciará un nuevo flujo de trabajo Conexiones en Customer J
    | **[!UICONTROL Nombre de la conexión]** | Introduzca un nombre único para la conexión. |
    | **[!UICONTROL Descripción de la conexión]** | Describa el propósito de esta conexión. |
    | **[!UICONTROL Entorno de pruebas]** | Elija un simulador para pruebas en Experience Platform que contenga los conjuntos de datos a los que desea conectarse.<p>Adobe Experience Platform proporciona [entornos](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) limitados que dividen una sola instancia de Platform en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como &quot;silos de datos&quot; que contienen conjuntos de datos. Los Simuladores para pruebas se utilizan para controlar el acceso a los conjuntos de datos.<p>Una vez seleccionado el simulador para pruebas, el carril izquierdo muestra todos los conjuntos de datos del simulador de pruebas desde los que puede extraer datos. |
-   | **[!UICONTROL Activar la ventana de datos móviles]** | Esta configuración le permite definir la retención de datos de CJA como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.<p>La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Sin embargo, si la conexión incluye perfiles o conjuntos de datos de búsqueda (además de uno o más conjuntos de datos de evento), esos datos se conservarán durante el mismo período de tiempo.<p> La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales. |
+   | **[!UICONTROL Habilitar la ventana de datos acumulados]** | Esta configuración le permite definir la retención de datos de CJA como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.<p>La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Sin embargo, si la conexión incluye perfiles o conjuntos de datos de búsqueda (además de uno o más conjuntos de datos de evento), esos datos se conservarán durante el mismo período de tiempo.<p> La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales. |
    | **[!UICONTROL Agregar conjuntos de datos]** (véase más abajo) | Agregue conjuntos de datos si no aparecen conjuntos de datos en su lista de conjuntos de datos. |
    | **[!UICONTROL Nombre del conjunto de datos]** | Seleccione uno o varios conjuntos de datos a los que desee extraer Customer Journey Analytics y haga clic en **[!UICONTROL Añadir]**.<p>(Si tiene muchos conjuntos de datos para elegir, puede buscar los correctos mediante la barra de búsqueda Buscar conjuntos de datos que se encuentra arriba de la lista de conjuntos de datos). |
    | **[!UICONTROL Última actualización]** | Solo para conjuntos de datos de evento, esta configuración se establece automáticamente en el campo de marca de tiempo predeterminado de esquemas basados en eventos en Experience Platform. &quot;N/D&quot; significa que este conjunto de datos no contiene datos. |
