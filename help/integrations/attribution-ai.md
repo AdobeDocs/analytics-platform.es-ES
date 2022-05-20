@@ -4,10 +4,10 @@ title: Integración de Attribution AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 5d22437ec6514196146283af311b6661c1f2e45b
+source-git-commit: b82bf04bb09a38f1cd475ecd2036acc240b7ef38
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
