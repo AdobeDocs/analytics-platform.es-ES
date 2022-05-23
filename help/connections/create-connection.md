@@ -4,7 +4,7 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
+source-git-commit: ffcffa3838419d49afda7598d81c672b36415260
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 69%
@@ -20,6 +20,8 @@ Se ha iniciado recientemente un nuevo flujo de trabajo Conexiones en Customer Jo
 * Puede habilitar y solicitar datos de relleno por conjunto de datos.
 * Puede editar conjuntos de datos, por ejemplo, para solicitar otro relleno.
 * Puede importar los datos existentes por conjunto de datos.
+
+>[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
 ## Creación y configuración de la conexión {#create-connection}
 
