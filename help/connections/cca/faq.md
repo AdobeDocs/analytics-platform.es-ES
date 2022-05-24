@@ -4,9 +4,9 @@ description: Preguntas frecuentes sobre Análisis entre canales
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: de12bb7758904fb471a2da940d5281a5937f7d21
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '975'
 ht-degree: 96%
 
 ---
@@ -65,3 +65,7 @@ Ciertas métricas en CJA son similares a las métricas en la versión tradiciona
 | **Eventos** = recuento de filas en los datos enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. No obstante, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un `Persistent ID` en blanco. | **Eventos** = recuento de filas en los datos no enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. Sin embargo, tenga en cuenta que si algún evento tiene un `Person ID` en blanco en los datos no enlazados en el lago de datos de AEP, estos eventos se perderán (no se incluirán) en CJA. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
 
 Otras métricas pueden ser similares en CJA y en Adobe Analytics tradicional. Por ejemplo, el recuento total de eventos [personalizados](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html) de Adobe Analytics (eventos 1-100) debería estar muy cerca en la versión tradicional de Adobe Analytics y CJA (ya se haya vinculado o no). Sin embargo, tenga en cuenta que esto puede no ser siempre cierto debido a [diferencias en las capacidades](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=es), como la deduplicación de eventos entre CJA y Adobe Analytics tradicional.
+
+## ¿Puede la CCA utilizar campos de mapa de identidad?
+
+No, actualmente CCA no puede utilizar campos de identityMap.
