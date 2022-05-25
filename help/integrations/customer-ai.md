@@ -4,18 +4,14 @@ title: Integración de Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: b82bf04bb09a38f1cd475ecd2036acc240b7ef38
+source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
 
 # Integración de Customer AI con CJA
-
->[!NOTE]
->
->Esta funcionalidad se lanzará el 25 de mayo de 2022.
 
 [Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en), como parte de Adobe Experience Platform Intelligent Services, proporciona a los especialistas en marketing la capacidad de generar predicciones de clientes a nivel individual.
 
@@ -41,7 +37,11 @@ Una vez que haya preparado los datos y haya establecido todas sus credenciales y
 
 ### Paso 2: Configuración de una conexión CJA a conjuntos de datos de Customer AI
 
-En CJA, ahora puede [crear una o más conexiones](/help/connections/create-connection.md) a conjuntos de datos de Experience Platform instrumentados para Customer AI. Cada predicción, como &quot;Probabilidad de actualizar cuenta&quot;, equivale a un conjunto de datos. Estos conjuntos de datos aparecen con el prefijo &quot;Puntuaciones de AI del cliente&quot;, como se muestra a continuación:
+En CJA, ahora puede [crear una o más conexiones](/help/connections/create-connection.md) a conjuntos de datos de Experience Platform instrumentados para Customer AI. Cada predicción, como &quot;Probabilidad de actualizar cuenta&quot;, equivale a un conjunto de datos. Estos conjuntos de datos aparecen con el prefijo &quot;Customer AI Score in EE Format - name_of_application&quot;.
+
+>[!IMPORTANT]
+>
+>Cada instancia de Customer AI tiene dos conjuntos de datos de salida si se activa la opción para habilitar puntuaciones para CJA durante la configuración en el paso 1. Aparece un conjunto de datos de salida en formato XDM de perfil y uno en formato XDM de evento de experiencia.
 
 ![Puntuaciones de CAI](assets/cai-scores.png)
 
