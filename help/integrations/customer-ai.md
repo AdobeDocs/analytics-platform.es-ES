@@ -4,9 +4,9 @@ title: Integración de Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
+source-git-commit: 23c257c6b00b919b8e70b4cef58b5187227ec2a6
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 Con la ayuda de factores influyentes, la Customer AI puede indicarle qué es lo más probable que haga un cliente y por qué. Además, los especialistas en marketing pueden beneficiarse de las predicciones y perspectivas de Customer AI para personalizar las experiencias de los clientes al ofrecer las ofertas y los mensajes más adecuados.
 
-La AI del cliente se basa en datos de comportamiento individuales y en datos de perfil para la puntuación de tendencia. La AI del cliente es flexible, ya que puede incorporar varias fuentes de datos, incluidas Adobe Analytics, Adobe Audience Manager, datos de Evento de experiencias del consumidor y datos de Evento de experiencias. Si utiliza el conector de datos de AEP para incorporar datos de Adobe Audience Manager y Adobe Analytics, el modelo recoge automáticamente los tipos de eventos estándar para entrenar y puntuar el modelo. Si introduce su propio conjunto de datos de Evento de experiencia sin tipos de evento estándar, cualquier campo relevante deberá asignarse como eventos personalizados o atributos de perfil si desea usarlo en el modelo. Esto se puede hacer en el paso de configuración de Customer AI . &#x200B;
+La AI del cliente se basa en datos de comportamiento individuales y en datos de perfil para la puntuación de tendencia. La AI del cliente es flexible, ya que puede incorporar varias fuentes de datos, incluidas Adobe Analytics, Adobe Audience Manager, datos de Evento de experiencias del consumidor y datos de Evento de experiencias. Si utiliza el conector de origen del Experience Platform para introducir datos de Adobe Audience Manager y Adobe Analytics, el modelo recoge automáticamente los tipos de evento estándar para entrenar y puntuar el modelo. Si introduce su propio conjunto de datos de Evento de experiencia sin tipos de evento estándar, cualquier campo relevante deberá asignarse como eventos personalizados o atributos de perfil si desea usarlo en el modelo. Esto se puede hacer en el paso de configuración de Customer AI en Experience Platform. &#x200B;
 
 Customer AI se integra con Customer Journey Analytics (CJA) en la medida en que los conjuntos de datos habilitados para Customer AI se pueden aprovechar en las vistas de datos y los informes en CJA. Con esta integración, puede
 
 * **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**. Ejemplo de caso de uso: ¿Cuál es la probabilidad de que un cliente del hotel compre un billete de show en el recinto de conciertos del hotel?
 * **Analizar qué eventos o atributos de éxito están asociados con puntuaciones de tendencia**. &#x200B;Ejemplo de caso de uso: Quiero comprender los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
 * **Siga el flujo de entrada para la propensión del cliente sobre diferentes ejecuciones de puntuación.**. Ejemplo de caso de uso: Me gustaría entender a las personas que inicialmente eran usuarios de baja propensión y, con el tiempo, se convirtieron en usuarios de alta propensión &#x200B;
-* **Observe la distribución de la propensión**. Caso de uso: Me gustaría entender la distribución de las puntuaciones de tendencia a que pueda ser más precisa con mis segmentos. &#x200B;Ejemplo: un minorista quiere ejecutar una promoción específica por 50 dólares de descuento en un producto.  Es posible que solo deseen ejecutar una promoción muy limitada debido al presupuesto, etc. Analizan los datos y deciden segmentar solo el principal 80 % o más de &#x200B; de sus clientes.
+* **Observe la distribución de la propensión**. Caso de uso: Me gustaría entender la distribución de las puntuaciones de tendencia a que pueda ser más precisa con mis segmentos. &#x200B;Ejemplo: un minorista quiere ejecutar una promoción específica por 50 dólares de descuento en un producto. Es posible que solo deseen ejecutar una promoción muy limitada debido al presupuesto, etc. Analizan los datos y deciden segmentar solo el principal 80 % o más de &#x200B; de sus clientes.
 * **Observe la propensión a realizar una acción para una cohorte en particular a lo largo del tiempo**. Caso de uso: Me gustaría rastrear una cohorte específica a lo largo del tiempo. Esto es similar al primero, pero puede rastrear una cohorte específica a lo largo del tiempo. &#x200B; Ejemplo de hospitalidad: Un especialista en mercadotecnia puede rastrear su nivel de bronce frente a su nivel de plata, o su nivel de plata frente a su nivel de oro a lo largo del tiempo. Luego pueden ver la propensión de cada cohorte a reservar el hotel a lo largo del tiempo. &#x200B;
 
 ## Flujo de trabajo
@@ -33,7 +33,7 @@ Algunos de los pasos se realizan en Adobe Experience Platform antes de trabajar 
 
 ### Paso 1: Configuración de una instancia de Customer AI
 
-Una vez que haya preparado los datos y haya establecido todas sus credenciales y esquemas, comience por seguir la [Configuración de una instancia de AI del cliente](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) guía.
+Una vez que haya preparado los datos y haya establecido todas sus credenciales y esquemas, comience por seguir la [Configuración de una instancia de AI del cliente](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) en Adobe Experience Platform.
 
 ### Paso 2: Configuración de una conexión CJA a conjuntos de datos de Customer AI
 
