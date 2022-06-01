@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ab60cb09e4578be0fda642a3669af7e4c796fd52
+source-git-commit: 401d22d7edbb751f1a377b2a8778d1c08ddea5c3
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 94%
+source-wordcount: '1432'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Comparaciones de fechas | Compatibilidad total. |
 | Intervalos de fechas | Se admite toda la funcionalidad de intervalo de fechas. |
 | Horario de verano | Compatibilidad total. |
-| Dimensiones de dispositivo, navegador, referente y tecnología | Estas dimensiones se incluyen automáticamente cuando un conjunto de datos de AEP incluye campos de esquema XDM específicos y se ajusta a la clase de evento de Experience XDM. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). En el caso de los clientes de CJA que no utilicen ADC para rellenar datos de Adobe Analytics en CJA, pero que utilicen en su lugar la recopilación de datos del SDK web de AEP, el dispositivo y las dimensiones basadas en la búsqueda de dispositivos no son compatibles actualmente, pero lo serán en un futuro próximo. |
+| Dimensiones de dispositivo, navegador, referente y tecnología | Estas dimensiones se incluyen automáticamente cuando un conjunto de datos de AEP incluye campos de esquema XDM específicos y se ajusta a la clase de evento de Experience XDM. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es).<p>Si no utiliza el conector de origen de Adobe para rellenar datos de Adobe Analytics en CJA, sino que utiliza la recopilación de datos del SDK web de Experience Platform, el dispositivo y las dimensiones basadas en la búsqueda de dispositivos no son compatibles actualmente. En un futuro próximo tendrán apoyo. |
 | Dimensiones | Compatibilidad total; CJA aprovecha XDM y admite dimensiones ilimitadas. CJA no está vinculado a las eVars o props personalizadas de Adobe Analytics tradicional. |
 | Eliminación de RGPD | Compatibilidad total. Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. CJA hereda los cambios de datos que [!UICONTROL Experience Platform] hace en los conjuntos de datos subyacentes. |
 | Variables de lista/Propiedades de lista | Compatibilidad total; CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
@@ -52,6 +52,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Grupos de informes virtuales | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de VRS | Compatibilidad total; Ahora forma parte de Vistas de datos. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Admitido con advertencias
 
 | Función | Notas |
@@ -69,14 +71,18 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Uso compartido de proyecto | El uso compartido de proyectos solo es compatible entre los usuarios de CJA; no existe el uso compartido de proyectos entre CJA y la versión tradicional de Analysis Workspace. |
 | Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Compatibilidad parcial
 
 | Función | Notas |
 | --- | --- |
 | Filtros de bots | Para conjuntos de datos basados en el [conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
-| Media Analytics | Los datos de medios están disponibles como parte del conector de origen de Analytics. |
 | Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics for Target (A4T) y Visores simultáneos de medios. |
 | Reglas de procesamiento | En los conjuntos de datos basados en Analytics Data Connector, las reglas de procesamiento se aplican igual. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
+| Streaming Media Analytics | Los datos de contenidos están disponibles como parte del [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## No compatible actualmente, pero planificado
 
@@ -94,6 +100,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Publicación de segmentos (envío de segmentos del Espacio de trabajo a Experience Cloud) | Se ha planificado lanzar una versión compatible. Se llamará “Publicación de audiencias” en CJA. |
 | Informes de sesión nueva frente a repetida | Se ha planificado lanzar una versión compatible con algunas advertencias. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Compatibilidad aún no planificada
 
 | Función | Notas |
@@ -104,6 +112,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Archivo de fuentes de datos | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de resumen | Aún no se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de ID de transacción | Aún no se ha planificado lanzar una versión compatible. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Nunca será compatible
 
