@@ -4,16 +4,16 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 322961b416deb049010d9e4e3f2301300a116ee4
+source-git-commit: 90480aa725e75d8b8315c4cebcd9a2fd9cfe8823
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 68%
+source-wordcount: '2319'
+ht-degree: 63%
 
 ---
 
 # Crear una conexión
 
-Se ha iniciado recientemente un nuevo flujo de trabajo Conexiones en Customer Journey Analytics (CJA). A continuación se muestra una descripción general de las nuevas funciones:
+Se ha iniciado recientemente un nuevo flujo de trabajo Conexiones en Customer Journey Analytics (CJA). La nueva experiencia de creación de conexión y edición de flujo de trabajo lleva todos los ajustes de configuración de conjunto de datos y conexión al centro de la pantalla con flujo de trabajo de asistencia.  Proporcionamos selección, configuración y experiencia de revisión detalladas del conjunto de datos con información crítica como tipo de conjunto de datos, tamaño, esquema, id de conjunto de datos, estado de lote, estado de relleno, ID de persona y mucho más para reducir el riesgo de configuración de conexión incorrecta. A continuación se muestra una descripción general de las nuevas funciones:
 
 * Puede habilitar un período de retención de datos móvil al crear la conexión.
 * Puede agregar y eliminar conjuntos de datos de una conexión. (Al eliminar un conjunto de datos, éste se elimina de la conexión y afecta a las vistas de datos asociadas y a los proyectos de Analysis Workspace subyacentes).
@@ -47,7 +47,7 @@ Se ha iniciado recientemente un nuevo flujo de trabajo Conexiones en Customer Jo
    | **[!UICONTROL Clave]** | Solo para conjuntos de datos de búsqueda (como _id). |
    | **[!UICONTROL Clave de coincidencia]** | Solo para conjuntos de datos de búsqueda (como _id). |
    | **[!UICONTROL Importar datos nuevos]** | Establézcalo en Activado o Desactivado. |
-   | **[!UICONTROL Datos de relleno]** |  |
+   | **[!UICONTROL Datos de relleno]** | Puede solicitar rellenar los datos en un conjunto de datos basado en marcas de tiempo de evento. Por ejemplo, puede solicitar que se rellenen los últimos 7 días de datos, configurar el ID de persona correcto y probar la conexión para obtener la configuración correcta. Si todo parece correcto, puede rellenar todos los datos restantes con facilidad.<p>Además, puede habilitar la importación de nuevos datos por conjunto de datos. Por ejemplo, puede habilitar la importación de nuevos datos solo para los datos de búsqueda. |
    | **[!UICONTROL Estado de relleno]** | Indica si se están procesando datos de relleno. |
 
    {style=&quot;table-layout:auto&quot;}
@@ -77,7 +77,7 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
    | **[!UICONTROL Esquema]** | Este es el esquema en función del cual se creó el conjunto de datos en Adobe Experience Platform. |
    | **[!UICONTROL Conjunto de datos]** | Nombre del conjunto de datos. |
    | **[!UICONTROL Vista previa]**: `<dataset name>` | Previsualiza el conjunto de datos con columnas date, my ID y Identifier . |
-   | **[!UICONTROL Eliminar]** | Elimine este conjunto de datos de la conexión. |
+   | **[!UICONTROL Eliminar]** | Puede eliminar o eliminar el conjunto de datos y cambiar el ID de persona sin eliminar toda la conexión. Esto reduce los costes que implica la ingesta de datos y el engorroso proceso de recrear toda la conexión y las vistas de datos asociadas. |
 
    {style=&quot;table-layout:auto&quot;}
 

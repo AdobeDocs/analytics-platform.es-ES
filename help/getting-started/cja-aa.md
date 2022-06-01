@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: e9f83a6169addc7d7df1ef7902466008f66ef66b
+source-git-commit: ab60cb09e4578be0fda642a3669af7e4c796fd52
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 95%
+source-wordcount: '1414'
+ht-degree: 94%
 
 ---
 
@@ -34,8 +34,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Dimensiones | Compatibilidad total; CJA aprovecha XDM y admite dimensiones ilimitadas. CJA no está vinculado a las eVars o props personalizadas de Adobe Analytics tradicional. |
 | Eliminación de RGPD | Compatibilidad total. Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. CJA hereda los cambios de datos que [!UICONTROL Experience Platform] hace en los conjuntos de datos subyacentes. |
 | Variables de lista/Propiedades de lista | Compatibilidad total; CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
-| Persistencia de la variable de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) (enero de 2022) |
-| eVars de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) (enero de 2022) |
+| Persistencia de la variable de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) |
+| eVars de comercialización | Asistencia total a través de [enlazar dimensiones y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
 | Métricas | Compatibilidad total. CJA aprovecha Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
 | Anulación de duplicación métrica | Compatibilidad total. |
 | Tableros/informe de valoración móvil | Compatibilidad total. |
