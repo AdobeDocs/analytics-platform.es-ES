@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 146c8b9b4918c753391484dc1267e1cb90380525
+source-git-commit: e9f83a6169addc7d7df1ef7902466008f66ef66b
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 99%
+source-wordcount: '1416'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Comparaciones de fechas | Compatibilidad total. |
 | Intervalos de fechas | Se admite toda la funcionalidad de intervalo de fechas. |
 | Horario de verano | Compatibilidad total. |
+| Dimensiones de dispositivo, navegador, referente y tecnología | Estas dimensiones se incluyen automáticamente cuando un conjunto de datos de AEP incluye campos de esquema XDM específicos y se ajusta a la clase de evento de Experience XDM. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través de ADC](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). En el caso de los clientes de CJA que no utilicen ADC para rellenar datos de Adobe Analytics en CJA, pero que utilicen en su lugar la recopilación de datos del SDK web de AEP, el dispositivo y las dimensiones basadas en la búsqueda de dispositivos no son compatibles actualmente, pero lo serán en un futuro próximo. |
 | Dimensiones | Compatibilidad total; CJA aprovecha XDM y admite dimensiones ilimitadas. CJA no está vinculado a las eVars o props personalizadas de Adobe Analytics tradicional. |
 | Eliminación de RGPD | Compatibilidad total. Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. CJA hereda los cambios de datos que [!UICONTROL Experience Platform] hace en los conjuntos de datos subyacentes. |
 | Variables de lista/Propiedades de lista | Compatibilidad total; CJA aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
@@ -57,7 +58,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | A4T | Se proporciona soporte mediante campos en el [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). |
 | Clasificaciones | Ahora se denomina Conjuntos de datos de búsqueda. Las clasificaciones utilizadas en Analytics se pueden importar a Experience Platform y a CJA mediante el Classifications Data Connector de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en AEP y estar disponibles en CJA. |
-| Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada que no sean visitas en segundo plano móviles. |
+| Definición de sesiones personalizada | Compatibilidad con todas las funciones de sesionización personalizadas, excepto con las visitas en segundo plano móviles. |
 | Atributos del cliente | Ahora se denomina Conjuntos de datos de perfil. No se importan de manera automática desde Experience Cloud, pero deberán cargarse en AEP antes de que estén disponibles en CJA. |
 | Dimensiones del [!UICONTROL Dispositivo], [!UICONTROL Explorador], [!UICONTROL Referente], [!UICONTROL Tecnología] | Estas dimensiones se incluyen automáticamente cuando un conjunto de datos de AEP incluye campos de esquema XDM específicos y se ajusta a la clase de evento de Experience XDM. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través del conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es). Para los clientes de CJA que no utilizan el conector de origen para rellenar datos de Adobe Analytics en CJA, pero que en su lugar usan la recopilación de datos del SDK web de AEP, [!UICONTROL Dispositivo] y las dimensiones basadas en la búsqueda de dispositivos no son compatibles actualmente, pero lo serán pronto. |
 | Métricas y dimensiones de entradas, salidas y tiempo empleado | Todas estas son ahora compatibles (las entradas y salidas ahora se denominan inicios de sesión y fines de sesión) y se calculan de forma ligeramente distinta. |
