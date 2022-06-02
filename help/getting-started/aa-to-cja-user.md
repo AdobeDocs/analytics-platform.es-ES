@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '1456'
-ht-degree: 100%
+source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
+workflow-type: tm+mt
+source-wordcount: '1457'
+ht-degree: 97%
 
 ---
 
@@ -76,9 +76,9 @@ Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL
 
 Además del concepto de cambiar segmentos, también se actualizan los contenedores de segmentos.
 
-* **Los contenedores de visita individual ahora son contenedores de “Evento”**. El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico.
-* **Los contenedores de visita ahora son contenedores de “sesión”**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
-* **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico.
+* **Los contenedores de visita individual ahora [!UICONTROL Evento] contenedores**. La variable [!UICONTROL Evento] container le permite desglosar la información del visitante en función de las vistas/visitas individuales de una página.
+* **Los contenedores de visita ahora [!UICONTROL Sesión] contenedores**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
+* **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. La variable [!UICONTROL Persona] contenedor incluye todas las sesiones y eventos de un visitante dentro del lapso de tiempo especificado.
 
 ## Cambios en el concepto de métricas calculadas
 
