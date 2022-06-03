@@ -1,9 +1,9 @@
 ---
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
-source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
+source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '827'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >
 >Esta funcionalidad se encuentra actualmente en [pruebas limitadas](/help/release-notes/releases.md).
 
-En este tema se explica cómo publicar audiencias descubiertas en Customer Journey Analytics (CJA) en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para personalización y segmentación de clientes.
+En este tema se explica cómo crear y publicar audiencias descubiertas en Customer Journey Analytics (CJA) para [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para personalización y segmentación de clientes.
 
 Lea esto [información general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de CJA.
 
@@ -47,7 +47,7 @@ Lea esto [información general](/help/components/audiences/audiences-overview.md
    | Actualizar ventana de retrospección | Especifica cuánto tiempo atrás en la ventana de datos desea recorrer al crear esta audiencia. El máximo. es de 90 días. |
    | [!UICONTROL Intervalo de fecha de una sola vez] | Intervalo de fechas en el que desea que se publique la audiencia única. |
    | [!UICONTROL Filtro] | Los filtros son la entrada principal a la audiencia. Se pueden agregar hasta 20 filtros. Estos filtros se pueden unir con `And` o `Or` operadores. |
-   | [!UICONTROL Ver ID de muestra] | Una muestra de los ID de esta audiencia. Utilice la barra de búsqueda para buscar ID de ejemplo.<p>!![](assets/sample-ids.png) |
+   | [!UICONTROL Ver ID de muestra] | Una muestra de los ID de esta audiencia. Utilice la barra de búsqueda para buscar ID de ejemplo. |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -72,7 +72,23 @@ Lea esto [información general](/help/components/audiences/audiences-overview.md
 
 1. Si todo parece correcto, haga clic en **[!UICONTROL Publicación]**.
 
+   Si todo salió bien, recibirá un mensaje de confirmación de que se publicó la audiencia.
+
+1. Haga clic en **[!UICONTROL Ver la audiencia en AEP]** en el mismo mensaje y se le redirigirá a la interfaz de usuario del segmento en Adobe Experience Platform. Para obtener más información, vaya más abajo.
+
+## Usar audiencias de CJA en Experience Platform
+
+Para ver las audiencias de CJA en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Crear segmentos]** > **[!UICONTROL Audiencias]** pestaña > **[!UICONTROL Audiencias de CJA]**.
+
+Puede arrastrar audiencias de CJA a la definición del segmento para segmentos de AEP.
+
+![](assets/audiences-aep.png)
+
+Si decide exportar esta audiencia al lago de datos de AEP, aparecerá como un conjunto de datos que se ajuste a la clase de esquema de perfil individual XDM:
+
+![](assets/aep-datalake.png)
+
+
 ## Pasos siguientes
 
 * Para administrar esta audiencia, vaya a la [Interfaz de usuario de administración](/help/components/audiences/manage.md).
-* Para trabajar con esta audiencia en Adobe Experience Platform, vaya aquí.
