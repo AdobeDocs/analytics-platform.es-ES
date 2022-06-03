@@ -1,15 +1,19 @@
 ---
 title: Administrar audiencias creadas en el Customer Journey Analytics
 description: Obtenga información sobre cómo administrar audiencias en Customer Journey Analytics
-source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
+source-git-commit: 9d19e1ea55a6c2de701d38cb417d6d39e753c640
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 8%
 
 ---
 
 
 # Administrar audiencias creadas en el Customer Journey Analytics
+
+>[!NOTE]
+>
+>Esta funcionalidad se encuentra actualmente en [pruebas limitadas](/help/release-notes/releases.md).
 
 La administración de audiencias creadas anteriormente le permite
 
