@@ -1,13 +1,13 @@
 ---
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
-source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
+exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
+source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '929'
 ht-degree: 7%
 
 ---
-
 
 # Crear y publicar audiencias
 
@@ -65,18 +65,20 @@ Lea esto [información general](/help/components/audiences/audiences-overview.md
    | [!UICONTROL Retorno estimado de la audiencia] | Esta configuración es útil para volver a dirigirse a los clientes de esta audiencia que regresan al sitio. (En otras palabras, que se ven de nuevo en este conjunto de datos). <p>Aquí puede seleccionar el lapso de tiempo (7 días siguientes, 2 semanas siguientes, mes siguiente) para la cantidad estimada de clientes que pueden regresar. |
    | [!UICONTROL Estimación de retorno] | Este número proporciona un número estimado de clientes que regresan durante el lapso de tiempo seleccionado en la lista desplegable. Observamos la tasa de pérdida histórica para esta audiencia para predecir este número. |
    | [!UICONTROL Previsualizar métricas] | Esta configuración le permite observar métricas específicas para ver si esta audiencia contribuye en una cantidad desproporcionada a esta métrica, como &quot;[!UICONTROL Ingresos]&#39; o &#39;[!UICONTROL Promedio de tiempo en el sitio]&#39;. Proporciona el recuento agregado de la métrica, así como el porcentaje del total que representa. Puede seleccionar cualquier métrica que esté disponible en la vista de datos. |
-   | Espacios de nombres incluidos | Los espacios de nombres específicos asociados a las personas de la audiencia. Algunos ejemplos son ECID, CRM ID, direcciones de correo electrónico, etc. |
-   | Entorno de pruebas | El simulador para pruebas de Experience Platform en el que reside esta audiencia. Cuando publica esta audiencia en Platform, solo puede trabajar con ella dentro de los límites de este entorno limitado. |
+   | [!UICONTROL Espacios de nombres incluidos] | Los espacios de nombres específicos asociados a las personas de la audiencia. Algunos ejemplos son ECID, CRM ID, direcciones de correo electrónico, etc. |
+   | [!UICONTROL Entorno de pruebas] | La variable [Espacio aislado del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) en la que reside esta audiencia. Cuando publica esta audiencia en Platform, solo puede trabajar con ella dentro de los límites de este entorno limitado. |
 
    {style=&quot;table-layout:auto&quot;}
 
-1. Si todo parece correcto, haga clic en **[!UICONTROL Publicación]**.
+1. Compruebe la configuración de la audiencia y haga clic en **[!UICONTROL Publicación]**.
 
    Si todo salió bien, recibirá un mensaje de confirmación de que se publicó la audiencia.
 
-1. Haga clic en **[!UICONTROL Ver la audiencia en AEP]** en el mismo mensaje y se le redirigirá a la interfaz de usuario del segmento en Adobe Experience Platform. Para obtener más información, vaya más abajo.
+1. Haga clic en **[!UICONTROL Ver la audiencia en AEP]** dentro del mismo mensaje y se le redirigirá al [Interfaz de usuario de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
 
 ## Usar audiencias de CJA en Experience Platform
+
+Ahora, CJA toma todas las combinaciones de espacio de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real. A continuación, RTCP examina cada combinación de espacio de nombres e ID y busca un perfil del que pueda formar parte. Si encuentra uno, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, &quot;user@adobe.com&quot; se puede dirigir a todos sus dispositivos y canales. Si no se encuentra el perfil, se crea uno nuevo.
 
 Para ver las audiencias de CJA en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Crear segmentos]** > **[!UICONTROL Audiencias]** pestaña > **[!UICONTROL Audiencias de CJA]**.
 
