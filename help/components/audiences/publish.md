@@ -2,10 +2,10 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
+source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 7%
+source-wordcount: '971'
+ht-degree: 6%
 
 ---
 
@@ -72,13 +72,13 @@ Lea esto [información general](/help/components/audiences/audiences-overview.md
 
 1. Compruebe la configuración de la audiencia y haga clic en **[!UICONTROL Publicación]**.
 
-   Si todo salió bien, recibirá un mensaje de confirmación de que se publicó la audiencia.
+   Si todo salió bien, recibirá un mensaje de confirmación de que se publicó la audiencia. Solo toma un minuto o dos para que esta audiencia aparezca en el Experience Platform. (Incluso para audiencias con millones de miembros, debería tardar menos de 5 minutos).
 
 1. Haga clic en **[!UICONTROL Ver la audiencia en AEP]** dentro del mismo mensaje y se le redirigirá al [Interfaz de usuario de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
 
 ## Usar audiencias de CJA en Experience Platform
 
-Ahora, CJA toma todas las combinaciones de espacio de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real. A continuación, RTCP examina cada combinación de espacio de nombres e ID y busca un perfil del que pueda formar parte. Si encuentra uno, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, &quot;user@adobe.com&quot; se puede dirigir a todos sus dispositivos y canales. Si no se encuentra el perfil, se crea uno nuevo.
+Ahora, CJA toma todas las combinaciones de espacio de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). A continuación, RTCP examina cada combinación de espacio de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, &quot;user@adobe.com&quot; se puede dirigir a todos sus dispositivos y canales. Si no se encuentra el perfil, se crea uno nuevo.
 
 Para ver las audiencias de CJA en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Crear segmentos]** > **[!UICONTROL Audiencias]** pestaña > **[!UICONTROL Audiencias de CJA]**.
 
