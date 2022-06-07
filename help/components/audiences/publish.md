@@ -2,9 +2,9 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
+source-git-commit: abeefebafb9ac246ab6a0c18b5554370a6776b38
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 6%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 6%
 >
 >Esta funcionalidad se encuentra actualmente en [pruebas limitadas](/help/release-notes/releases.md).
 
-En este tema se explica cómo crear y publicar audiencias descubiertas en Customer Journey Analytics (CJA) para [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para personalización y segmentación de clientes.
+En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics (CJA) para [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para personalización y segmentación de clientes.
 
 Lea esto [información general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de CJA.
 
@@ -42,9 +42,9 @@ Lea esto [información general](/help/components/audiences/audiences-overview.md
    | [!UICONTROL Nombre] | Nombre de la audiencia. |
    | [!UICONTROL Etiquetas] | Cualquier etiqueta que desee asignar a la audiencia con fines organizativos. Puede utilizar una etiqueta preexistente o introducir una nueva. |
    | [!UICONTROL Descripción] | Añada una buena descripción de la audiencia para diferenciarla de otras. |
-   | [!UICONTROL Frecuencia de actualización] | Frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (predeterminada) que no necesite ser actualizada, lo que sería útil para campañas únicas específicas, por ejemplo.</li><li>Puede seleccionar otros intervalos de actualización. Para la frecuencia de 4 horas, hay un límite de 150 audiencias, ya que esta frecuencia de actualización es muy intensiva en el procesamiento. Para otros intervalos, no hay un número máximo de audiencias.</li></ul> |
+   | [!UICONTROL Frecuencia de actualización] | Frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (predeterminada) que no necesite ser actualizada. Por ejemplo, esto podría resultar útil para campañas únicas específicas.</li><li>Puede seleccionar otros intervalos de actualización. Para la frecuencia de 4 horas, hay un límite de 150 audiencias, ya que esta frecuencia de actualización es muy intensiva en el procesamiento. Para otros intervalos, no hay un número máximo de audiencias.</li></ul> |
    | Fecha de caducidad | Cuándo dejará de actualizarse la audiencia. El valor predeterminado es 1 año a partir de la fecha de creación. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la audiencia caduque. |
-   | Actualizar ventana de retrospección | Especifica cuánto tiempo atrás en la ventana de datos desea recorrer al crear esta audiencia. El máximo. es de 90 días. |
+   | Actualizar ventana de retrospección | Especifica cuánto tiempo atrás en la ventana de datos desea recorrer al crear esta audiencia. El máximo es de 90 días. |
    | [!UICONTROL Intervalo de fecha de una sola vez] | Intervalo de fechas en el que desea que se publique la audiencia única. |
    | [!UICONTROL Filtro] | Los filtros son la entrada principal a la audiencia. Se pueden agregar hasta 20 filtros. Estos filtros se pueden unir con `And` o `Or` operadores. |
    | [!UICONTROL Ver ID de muestra] | Una muestra de los ID de esta audiencia. Utilice la barra de búsqueda para buscar ID de ejemplo. |
@@ -53,7 +53,7 @@ Lea esto [información general](/help/components/audiences/audiences-overview.md
 
 1. Interpretar la vista previa de datos.
 
-   La vista previa de la audiencia aparece en el carril derecho. Permite realizar análisis avanzados de la audiencia que ha creado.
+   La vista previa de la audiencia aparece en el carril derecho. Permite realizar un análisis resumido de la audiencia que ha creado.
 
    ![](assets/data-preview.png)
 
@@ -78,7 +78,8 @@ Lea esto [información general](/help/components/audiences/audiences-overview.md
 
 ## Usar audiencias de CJA en Experience Platform
 
-Ahora, CJA toma todas las combinaciones de espacio de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). A continuación, RTCP examina cada combinación de espacio de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, &quot;user@adobe.com&quot; se puede dirigir a todos sus dispositivos y canales. Si no se encuentra el perfil, se crea uno nuevo.
+
+Ahora, CJA toma todas las combinaciones de espacio de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). A continuación, RTCP examina cada combinación de espacio de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, &quot;user@adobe.com&quot; se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
 Para ver las audiencias de CJA en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Crear segmentos]** > **[!UICONTROL Audiencias]** pestaña > **[!UICONTROL Audiencias de CJA]**.
 
