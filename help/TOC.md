@@ -9,7 +9,7 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Cross-Channel Analytics, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
+source-git-commit: a8b59feccfb5bf1656dc3716fa3d022f8f74ee5a
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 97%
@@ -95,7 +95,7 @@ ht-degree: 97%
          + [Aplicar filtros en un análisis de visitas en orden previsto](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flujo {#flow}
          + [Resumen de flujos](analysis-workspace/visualizations/c-flow/flow.md)
-         + [Configuración de una visualización de flujo](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [Configuración de una visualización de flujo](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Configuración de flujo](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Flujos interdimensionales](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
