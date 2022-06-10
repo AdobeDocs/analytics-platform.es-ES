@@ -47,7 +47,7 @@ Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siem
 
 >[!NOTE]
 >
->Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Cross-Channel Analytics](/help/connections/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en CJA es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en AA, especialmente si se ha activado el Cross-Channel Analytics.
+>Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Cross-Channel Analytics](/help/connections/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en CJA es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en AA, especialmente si se ha activado Cross-Channel Analytics.
 
 1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es), ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
 
