@@ -1,13 +1,13 @@
 ---
-title: Preguntas frecuentes sobre Análisis entre canales
-description: Preguntas frecuentes sobre Análisis entre canales
+title: Preguntas frecuentes sobre Cross-Channel Analytics
+description: Preguntas frecuentes sobre Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
 source-git-commit: de12bb7758904fb471a2da940d5281a5937f7d21
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,9 +42,9 @@ El número de ID persistentes es irrelevante en favor del ID transitorio. Un sol
 
 ## Tras contactar con el administrador de cuentas y proporcionarle la información deseada, ¿cuánto tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?
 
-La vinculación en tiempo real está disponible aproximadamente 1 semana después de que Adobe active Análisis entre canales. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
+La vinculación en tiempo real está disponible aproximadamente 1 semana después de que Adobe active Cross-Channel Analytics. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
 
-## ¿Cómo gestiona Análisis entre canales las solicitudes del RGPD y CCPA?
+## ¿Cómo gestiona Cross-Channel Analytics las solicitudes del RGPD y CCPA?
 
 Adobe gestiona las solicitudes del RGPD y CCPA de conformidad con las leyes locales e internacionales. Adobe ofrece el [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para enviar solicitudes de acceso a datos y de eliminación. Las solicitudes se aplican tanto a los conjuntos de datos originales como a aquellos cuyas claves se volvieron a generar.
 
@@ -60,11 +60,11 @@ Ciertas métricas en CJA son similares a las métricas en la versión tradiciona
 
 | **Datos vinculados de CJA** | **Datos no identificados entre dispositivos de CJA** | **Adobe Analytics tradicional** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Personas** = Recuento de `Person ID` diferentes donde `Stitched ID` se elige como `Person ID`. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de `Person ID` diferentes según la columna seleccionada como `Person ID`. **Las personas** en los conjuntos de datos del conector de Adobe Analytics (ADC) son similares a los **visitantes únicos** en Adobe Analytics tradicional si `endUserIDs. _experience. aaid.id` se elige como `Person ID` en CJA. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. Tenga en cuenta que **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html). |
-| **Sesiones**: se define en función de la configuración de sesiones especificada en la vista de datos de CJA. El proceso de identificación entre dispositivos puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: se define en función de la configuración de sesionización especificada en la vista de datos de CJA. | **Visitas**: consulte [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html). | **Visitas**: se define en función de la configuración de sesiones especificada en el grupo de informes virtuales de [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html). |
-| **Eventos** = recuento de filas en los datos enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. No obstante, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un `Persistent ID` en blanco. | **Eventos** = recuento de filas en los datos no enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. Sin embargo, tenga en cuenta que si algún evento tiene un `Person ID` en blanco en los datos no enlazados en el lago de datos de AEP, estos eventos se perderán (no se incluirán) en CJA. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
+| **Personas** = Recuento de `Person ID` diferentes donde `Stitched ID` se elige como `Person ID`. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de `Person ID` diferentes según la columna seleccionada como `Person ID`. **Las personas** en los conjuntos de datos del conector de Adobe Analytics (ADC) son similares a los **visitantes únicos** en Adobe Analytics tradicional si `endUserIDs. _experience. aaid.id` se elige como `Person ID` en CJA. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. Tenga en cuenta que **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
+| **Sesiones**: se define en función de la configuración de sesiones especificada en la vista de datos de CJA. El proceso de identificación entre dispositivos puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: se define en función de la configuración de sesionización especificada en la vista de datos de CJA. | **Visitas**: consulte [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es). | **Visitas**: se define en función de la configuración de sesiones especificada en el grupo de informes virtuales de [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=es). |
+| **Eventos** = recuento de filas en los datos enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. No obstante, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un `Persistent ID` en blanco. | **Eventos** = recuento de filas en los datos no enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. Sin embargo, tenga en cuenta que si algún evento tiene un `Person ID` en blanco en los datos no enlazados en el lago de datos de AEP, estos eventos se perderán (no se incluirán) en CJA. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
 
-Otras métricas pueden ser similares en CJA y en Adobe Analytics tradicional. Por ejemplo, el recuento total de eventos [personalizados](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html) de Adobe Analytics (eventos 1-100) debería estar muy cerca en la versión tradicional de Adobe Analytics y CJA (ya se haya vinculado o no). Sin embargo, tenga en cuenta que esto puede no ser siempre cierto debido a [diferencias en las capacidades](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=es), como la deduplicación de eventos entre CJA y Adobe Analytics tradicional.
+Otras métricas pueden ser similares en CJA y en Adobe Analytics tradicional. Por ejemplo, el recuento total de eventos [personalizados](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=es) de Adobe Analytics (eventos 1-100) debería estar muy cerca en la versión tradicional de Adobe Analytics y CJA (ya se haya vinculado o no). Sin embargo, tenga en cuenta que esto puede no ser siempre cierto debido a [diferencias en las capacidades](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=es), como la deduplicación de eventos entre CJA y Adobe Analytics tradicional.
 
 ## ¿Puede la CCA utilizar campos de mapa de identidad?
 

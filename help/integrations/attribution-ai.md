@@ -1,25 +1,25 @@
 ---
-description: Descubra cómo AEP Attribution AI se integra con Workspace en CJA.
-title: Integración de Attribution AI con CJA
+description: Descubra cómo la inteligencia artificial aplicada a la atribución de AEP se integra con Workspace en CJA.
+title: Integración de la inteligencia artificial aplicada a la atribución con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Integración de Attribution AI con CJA
+# Integración de la inteligencia artificial aplicada a la atribución con CJA
 
-[Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), como parte de Adobe Experience Platform Intelligent Services, es un servicio de atribución algorítmica de varios canales que calcula la influencia y el impacto incremental de las interacciones de los clientes con los resultados especificados. Con Attribution AI, los especialistas en marketing pueden medir y optimizar el gasto en marketing y publicidad al comprender el impacto de cada interacción individual con los clientes en cada fase de los recorridos de los clientes.
+[Inteligencia artificial aplicada a la atribución](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=es), como parte de Adobe Experience Platform Intelligent Services, es un servicio de atribución algorítmica de varios canales que calcula la influencia y el impacto incremental de las interacciones de los clientes con los resultados especificados. Con Inteligencia artificial aplicada a la atribución, los especialistas en marketing pueden medir y optimizar el gasto en marketing y publicidad al comprender el impacto de cada interacción individual con los clientes en cada fase de los recorridos de los clientes.
 
-Attribution AI se integra con Customer Journey Analytics (CJA) en la medida en que Attribution AI ejecuta modelos con puntos de contacto de marketing de los clientes y fuentes de datos de conversión. A continuación, CJA importa la salida de esos modelos como un conjunto de datos o se puede integrar con el resto de los conjuntos de datos de CJA. Los conjuntos de datos habilitados para Attribution AI se pueden aprovechar en las vistas de datos y los informes en CJA.
+Attribution AI se integra con Customer Journey Analytics (CJA) en la medida en que Attribution AI ejecuta modelos con puntos de contacto de marketing de los clientes y fuentes de datos de conversión. A continuación, CJA importa la salida de esos modelos como un conjunto de datos o se puede integrar con el resto de los conjuntos de datos de CJA. Los conjuntos de datos habilitados para Inteligencia artificial aplicada a la atribución se pueden aprovechar en las vistas de datos y los informes en CJA.
 
-Attribution AI admite 3 esquemas de Experience Platform: Evento de experiencia, Adobe Analytics y Evento de experiencia del consumidor.
+Inteligencia artificial aplicada a la atribución admite 3 esquemas de Experience Platform: Evento de experiencia, Adobe Analytics y Evento de experiencia del consumidor.
 
-Attribution AI admite dos categorías de puntuaciones: algorítmica y basada en reglas.
+Inteligencia artificial aplicada a la atribución admite dos categorías de puntuaciones: algorítmica y basada en reglas.
 
 ## Puntuaciones algorítmicas
 
@@ -44,7 +44,7 @@ Algunos de los pasos se realizan en Adobe Experience Platform antes de trabajar 
 
 ### Paso 1: Crear una instancia de Attribution AI
 
-En Experience Platform, cree una instancia de Attribution AI seleccionando y asignando datos, definiendo eventos y formando los datos, como se describe [here](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
+En Experience Platform, cree una instancia de Inteligencia artificial aplicada a la atribución seleccionando y asignando datos, definiendo eventos y formando los datos, como se describe [aquí](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html?lang=es).
 
 ![Instancia AAI](assets/aai-instance.png)
 
@@ -112,17 +112,17 @@ Aquí, vemos el tiempo de espera para la conversión cuando un punto de contacto
 
 ![Tiempo de espera](assets/lead-time.png)
 
-## Diferencias entre Attribution AI y Attribution IQ
+## Diferencias entre Inteligencia artificial aplicada a la atribución y Attribution IQ
 
-Entonces, ¿cuándo se deben usar los datos de Attribution AI en lugar de [Attribution IQ](/help/analysis-workspace/attribution/overview.md), ¿una capacidad nativa de CJA? Esta tabla muestra algunas de las diferencias en la funcionalidad:
+Entonces, ¿cuándo se deben usar los datos de Inteligencia artificial aplicada a la atribución en lugar de [Attribution IQ](/help/analysis-workspace/attribution/overview.md), una funcionalidad nativa de CJA? Esta tabla muestra algunas de las diferencias en la funcionalidad:
 
-| Funcionalidad | Attribution AI | Attribution IQ |
+| Funcionalidad | Inteligencia artificial aplicada a la atribución | Attribution IQ |
 | --- | --- | --- |
 | ¿La atribución incremental? | Sí | No |
 | Permite a los usuarios ajustar el modelo | Sí | Sí |
 | Hace atribución entre canales (Nota: AAI no utiliza los mismos datos enlazados que CJA). | Sí | Sí |
 | Incluye puntuaciones influidas | Sí | Sí |
-| ¿Modelado ML | Sí | Sí |
+| Modelado ML | Sí | Sí |
 | Modelos de atribución basados en regiones | Sí | Sí |
 | Puede configurar puntos de contacto de marketing en el modelo | Sí | No |
 

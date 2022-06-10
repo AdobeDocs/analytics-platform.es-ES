@@ -6,8 +6,8 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 source-git-commit: 82e4629583ef0aadeac098101d7429625470d8b8
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

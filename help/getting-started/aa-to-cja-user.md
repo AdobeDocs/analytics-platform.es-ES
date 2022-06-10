@@ -7,8 +7,8 @@ feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
