@@ -5,9 +5,9 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Ahora veamos qué páginas de sitios web condujeron las llamadas entrantes en el
 Hacemos esto por
 
 * Uso de una métrica calculada para filtrar los datos hasta que solo haya sesiones que hayan finalizado con una llamada al centro de llamadas.
-* Uso del modelo de participación en la [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#cja-workspace) de CJA.
+* Uso del modelo de participación en la [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=es#cja-workspace) de CJA.
 
 Puede ver fácilmente qué páginas participan con mayor frecuencia en una sesión que termina en una llamada. Se puede ver que las páginas &quot;Carro de compras&quot; e &quot;Información de cierre de compra&quot; condujeron la mayoría de las llamadas. Como también ha incluido los datos de la aplicación móvil firebase, puede incluso ver errores de página y bloqueos de aplicación que generan las llamadas. Este es un punto de datos muy importante si desea ofrecer buenas experiencias de aplicaciones móviles y web.
 
