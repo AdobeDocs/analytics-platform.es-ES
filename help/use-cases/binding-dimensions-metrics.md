@@ -4,9 +4,9 @@ description: Atribuir dimensiones a matrices de objetos para un análisis de per
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 source-git-commit: 28a6acd3f850e94a1f0d72477c22a5b30ab3fc2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1330'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Puede entrar al Administrador de vista de datos y enlazar el color del producto 
 
 ![Dimensión de enlace](assets/binding-dimension.png)
 
-Cuando se establece este modelo de persistencia, CJA toma nota del nombre del producto cada vez que se establece el color del producto. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para este visitante, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con su nombre tendrían un aspecto similar al siguiente:
+Cuando se establece este modelo de persistencia, CJA toma nota del nombre del producto cada vez que se establece su color. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para este visitante, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con su nombre tendrían un aspecto similar al siguiente:
 
 | product.color | ingresos |
 | --- | --- |
@@ -93,7 +93,7 @@ Cuando se establece este modelo de persistencia, CJA toma nota del nombre del pr
 
 Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido enlazar un término de búsqueda a un producto para que cada término de búsqueda obtenga crédito por su producto apropiado. Piense en el siguiente recorrido del cliente:
 
-1. Un visitante llega a su sitio y busca “guantes de boxeo”. La métrica búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
+1. Un visitante llega a su sitio y busca “guantes de boxeo”. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
 
    ```json
    {
@@ -130,7 +130,7 @@ Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido
    }
    ```
 
-3. A continuación, el visitante busca “raqueta de tenis”. La métrica búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
+3. A continuación, el visitante busca “raqueta de tenis”. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
 
    ```json
    {
@@ -170,7 +170,7 @@ Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido
    }
    ```
 
-5. El visitante busca por tercera vez: “zapatos”. La métrica búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
+5. El visitante busca por tercera vez: “zapatos”. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
 
    ```json
    {
@@ -237,13 +237,13 @@ Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido
    }
    ```
 
-Si utiliza un modelo de asignación que no incluya una dimensión de enlace con el término de búsqueda, los tres productos atribuirán los ingresos a un único término de búsqueda. Por ejemplo, si ha utilizado la asignación original con la dimensión de término de búsqueda:
+Si utiliza un modelo de asignación que no incluya una dimensión de enlace con el término de búsqueda, los tres productos atribuirán los ingresos a un único término de búsqueda. Por ejemplo, si utilizó la asignación original con la dimensión de término de búsqueda:
 
 | search_term | ingresos |
 | --- | --- |
 | guantes de boxeo | 204,97 USD |
 
-Si ha utilizado la asignación Más reciente con la dimensión de término de búsqueda, los tres productos siguen atribuyendo ingresos a un único término de búsqueda:
+Si ha utilizado la asignación más reciente con la dimensión de término de búsqueda, los tres productos siguen atribuyendo ingresos a un único término de búsqueda:
 
 | search_term | ingresos |
 | --- | --- |
@@ -263,7 +263,7 @@ En Analysis Workspace, el informe resultante tendría un aspecto similar al sigu
 | raqueta de tenis | 34,99 USD |
 | zapatos | 79,99 USD |
 
-CJA detecta automáticamente la relación entre la dimensión seleccionada y la dimensión de enlace. Si la dimensión de enlace se encuentra en una matriz de objetos mientras que la dimensión seleccionada se encuentra en un nivel superior, se requiere una métrica de enlace. Una métrica de enlace actúa como activador para una dimensión de enlace, por lo que solo se une a los eventos en los que la métrica de enlace está presente. En el ejemplo anterior, la página de resultados de la búsqueda siempre incluye una dimensión de término de búsqueda y una métrica de búsquedas.
+CJA detecta automáticamente la relación entre la dimensión seleccionada y la dimensión de enlace. Si la dimensión de enlace se encuentra en una matriz de objetos mientras que la dimensión seleccionada se encuentra en un nivel superior, se requiere una métrica de enlace. Una métrica de enlace actúa como activador para una dimensión de enlace, por lo que solo se une a los eventos en los que la métrica de enlace está presente. En este ejemplo, la página de resultados de búsqueda siempre incluye una dimensión de término de búsqueda y una métrica de búsquedas.
 
 Al establecer la dimensión de término de búsqueda en este modelo de persistencia, se ejecuta la siguiente lógica:
 
@@ -271,14 +271,14 @@ Al establecer la dimensión de término de búsqueda en este modelo de persisten
 * Si el nombre del producto no está allí, no haga nada.
 * Si el nombre del producto está allí, compruebe la presencia de la métrica Búsquedas.
 * Si la métrica Búsquedas no está allí, no haga nada.
-* Si la métrica Búsquedas está allí, vincule el término de búsqueda a todos los nombres de productos de ese evento. Se copia hasta el mismo nivel que el nombre del producto para ese evento. En este ejemplo, se trata como product.search_term.
+* Si la métrica Búsquedas está allí, vincule el término de búsqueda a todos los nombres de productos del evento. Se copia hasta el mismo nivel que el nombre del producto para ese evento. En este ejemplo, se trata como product.search_term.
 * Si se ve el mismo nombre de producto en un evento posterior, el término de búsqueda enlazado también se transfiere a ese evento.
 
 ## Ejemplo 3: Enlace el término de búsqueda de vídeo al perfil del usuario
 
-Puede enlazar un término de búsqueda a un perfil de usuario para que la persistencia entre perfiles permanezca completamente separada. Por ejemplo, su organización ejecuta un servicio de flujo continuo en el que una cuenta general puede tener varios perfiles. El visitante tiene un perfil secundario y un perfil adulto.
+Puede enlazar un término de búsqueda a un perfil de usuario para que la persistencia entre perfiles permanezca completamente separada. Por ejemplo, su organización ejecuta un servicio de streaming en el que una cuenta general puede tener varios perfiles. El visitante tiene un perfil para niños y un perfil para adultos.
 
-1. La cuenta inicia sesión en el perfil secundario y busca un programa de televisión para niños. Tenga en cuenta que `"ProfileID"` es `2` para representar el perfil secundario.
+1. La cuenta inicia sesión en el perfil para niños y busca un programa de televisión para niños. Tenga en cuenta que `"ProfileID"` es `2` para representar el perfil para niños.
 
    ```json
    {
@@ -289,7 +289,7 @@ Puede enlazar un término de búsqueda a un perfil de usuario para que la persis
    }
    ```
 
-1. Encontraron el programa &quot;Orangey&quot; y lo tocaron para que su hijo pueda verlo.
+1. Encuentra el programa “Orangey” y lo reproduce para que su hijo pueda verlo.
 
    ```json
    {
@@ -300,7 +300,7 @@ Puede enlazar un término de búsqueda a un perfil de usuario para que la persis
    }
    ```
 
-1. Más tarde esa noche, el padre cambia a su perfil y busca contenido adulto para ver. Tenga en cuenta que `"ProfileID"` es `1` para representar el perfil de adulto. Ambos perfiles pertenecen a la misma cuenta, representada por el mismo `"PersonID"`.
+1. Más tarde esa noche, el padre cambia a su perfil y busca contenido no infantil que ver. Tenga en cuenta que `"ProfileID"` es `1` para representar el perfil de adulto. Ambos perfiles pertenecen a la misma cuenta, representada por el mismo `"PersonID"`.
 
    ```json
    {
@@ -311,7 +311,7 @@ Puede enlazar un término de búsqueda a un perfil de usuario para que la persis
    }
    ```
 
-1. Encuentra el programa &quot;Analytics After Hours&quot; y disfruta de su visión nocturna.
+1. Encuentra el programa “Analytics After Hours” y disfruta de su velada viéndolo.
 
    ```json
    {
@@ -322,7 +322,7 @@ Puede enlazar un término de búsqueda a un perfil de usuario para que la persis
    }
    ```
 
-1. Al día siguiente, continúan el programa &quot;Orangey&quot; para su hijo. No necesitan buscar porque ya están al tanto del programa.
+1. Al día siguiente, continúa el programa “Orangey” para su hijo. No necesita buscar porque ya conoce el programa.
 
    ```json
    {
@@ -333,23 +333,23 @@ Puede enlazar un término de búsqueda a un perfil de usuario para que la persis
    }
    ```
 
-Si utiliza la asignación más reciente con caducidad de persona, la variable `"grownup movie"` el término de búsqueda se atribuye a la última vista del programa del niño.
+Si utiliza la asignación más reciente con caducidad de persona, el término de búsqueda `"grownup movie"` se atribuye a la última vista del programa del niño.
 
-| Término de búsqueda | Inicio del vídeo |
+| Término de búsqueda | Inicios de vídeo |
 | --- | --- |
-| película de grunup | 2 |
-| show de chicos | 1 |
+| películas no infantiles | 2 |
+| programa para niños | 1 |
 
-Sin embargo, si se enlaza `search_term` a `ProfileID`, las búsquedas de cada perfil se aislarían a su propio perfil, atribuido a los programas correctos que buscan.
+Sin embargo, si se enlaza el `search_term` al `ProfileID`, las búsquedas de cada perfil se aislarían a su propio perfil, atribuido a los programas correctos que buscan.
 
 ![Enlace de visitantes](assets/binding-visitor.png)
 
 Analysis Workspace atribuiría correctamente el segundo episodio de Orangey al término de búsqueda `"kids show"` sin tener en cuenta las búsquedas de otros perfiles.
 
-| Término de búsqueda | Inicio del vídeo |
+| Término de búsqueda | Inicios de vídeo |
 | --- | --- |
-| show de chicos | 2 |
-| película de grunup | 1 |
+| programa para niños | 2 |
+| películas no infantiles | 1 |
 
 ## Ejemplo 4: Evaluar el comportamiento de exploración frente a búsqueda en una configuración de venta minorista
 
@@ -364,7 +364,7 @@ Puede enlazar valores a dimensiones establecidas en eventos anteriores. Cuando s
    }
    ```
 
-1. Hacen clic en una cámara que les gusta y la añaden al carro de compras.
+1. Hace clic en una cámara que le gusta y la añade al carro de compras.
 
    ```json
    {
@@ -377,7 +377,7 @@ Puede enlazar valores a dimensiones establecidas en eventos anteriores. Cuando s
    }
    ```
 
-1. A continuación, el visitante navega a la categoría de cinturones de masculinidad sin realizar una búsqueda. Tenga en cuenta que no hay productos configurados en esta página.
+1. A continuación, el visitante navega a la categoría de cinturones de hombre sin realizar una búsqueda. Tenga en cuenta que no hay productos configurados en esta página.
 
    ```json
    {
@@ -386,7 +386,7 @@ Puede enlazar valores a dimensiones establecidas en eventos anteriores. Cuando s
    }
    ```
 
-1. Hacen clic en un cinturón que les gusta y lo añaden al carro de compras.
+1. Hace clic en un cinturón que le gusta y lo añade al carro de compras.
 
    ```json
    {
@@ -399,7 +399,7 @@ Puede enlazar valores a dimensiones establecidas en eventos anteriores. Cuando s
    }
    ```
 
-1. Pasan por el proceso de cierre de compra y compran estos dos artículos.
+1. Pasa por el proceso de cierre de compra y adquiere estos dos artículos.
 
    ```json
    {
@@ -417,21 +417,21 @@ Puede enlazar valores a dimensiones establecidas en eventos anteriores. Cuando s
    }
    ```
 
-Si la persistencia se establece en la asignación más reciente sin una dimensión de enlace, todos los 419,98 $ de ingresos se atribuyen a la variable `browse` método de búsqueda.
+Si la persistencia se establece usando la asignación más reciente sin una dimensión de enlace, los 419,98 $ completos de ingresos se atribuyen al método de localización `browse`.
 
-| Método de búsqueda de productos | Ingresos |
+| Método de localización de productos | Ingresos |
 | --- | --- |
-| navegar | 419,98 |
+| examinar | 419,98 |
 
-Si la persistencia se establece utilizando la asignación original sin una dimensión de enlace, todos los 419,98 $ de ingresos se atribuyen al valor `search` método de búsqueda.
+Si la persistencia se establece usando la asignación original sin una dimensión de enlace, los 419,98 $ completos de ingresos se atribuyen al método de localización `search`.
 
-| Método de búsqueda de productos | Ingresos |
+| Método de localización de productos | Ingresos |
 | --- | --- |
-| OR | 419,98 |
+| búsqueda | 419,98 |
 
-Sin embargo, si se enlaza `product_finding_method` a la métrica Adiciones al carro de compras, el informe resultante atribuye cada producto al método de búsqueda correcto.
+Sin embargo, si se enlaza `product_finding_method` a la métrica Adiciones al carro de compras, el informe resultante atribuye cada producto al método de localización correcto.
 
-| Método de búsqueda de productos | Ingresos |
+| Método de localización de productos | Ingresos |
 | --- | --- |
-| OR | 399,99 |
-| navegar | 19,99 |
+| búsqueda | 399,99 |
+| examinar | 19,99 |
