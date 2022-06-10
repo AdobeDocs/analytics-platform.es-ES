@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
