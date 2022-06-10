@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 48cc438032fb1df043b7caf085aadf3f2c2f1ecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1224'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Proporciona una configuración general para la vista de datos.
 
 ### Contenedores {#containers}
 
-Designa el nombre de los contenedores para la vista de datos. Los nombres de contenedor se utilizan frecuentemente en [filtros](/help/components/filters/filters-overview.md#Filter-containers).
+Designa el nombre de los contenedores para la vista de datos. Los nombres de contenedores se utilizan frecuentemente en [Filtros](/help/components/filters/filters-overview.md#Filter-containers).
 
 | Configuración | Descripción |
 | --- | --- |
@@ -105,7 +105,7 @@ También puede filtrar por conjuntos de datos y por si un campo de esquema conti
 
 ![Filtrar otros](assets/filter-other.png)
 
-## Configuración pestaña {#settings-tab}
+## Configuración  pestaña {#settings-tab}
 
 1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la pestaña **[!UICONTROL Vistas de datos]**.
 1. Haga clic en **[!UICONTROL Agregar]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
