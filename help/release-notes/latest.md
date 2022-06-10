@@ -3,31 +3,28 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 23258f85ae62375f498d7ac3a7ee24cc139a22a8
+source-git-commit: 74c93b9327b1c7081c461187d53b1b27a686cfdd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 16%
 
 ---
 
-# Notas de la versión de Customer Journey Analytics (CJA) actuales (mayo de 2022)
+# Notas de la versión del Customer Journey Analytics actual (CJA) (junio de 2022)
 
-**Última actualización:** 19 de mayo de 2022
+**Última actualización**: 10 de junio de 2022
 
 ## Funciones principales
 
 | Función | Descripción | [Fecha objetivo](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Nueva interfaz de usuario de edición y creación de conexión | Esta experiencia optimizada le permite rellenar los datos en el nivel de conjunto de datos, habilitar un período de retención de datos móvil, agregar y eliminar conjuntos de datos de una conexión. [Más información](/help/connections/create-connection.md) | 18 de mayo de 2022 |
-| Report Builder para actualizaciones del estado de CJA | Incluye funciones como la programación y el administrador de bloques de datos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) | 18 de mayo de 2022 |
-| Integración de Inteligencia artificial aplicada al cliente | Le permite introducir puntuaciones de modelos de Inteligencia artificial aplicada al cliente en CJA para un análisis más detallado en el espacio de trabajo de análisis de CJA. Más información: próximamente | Por determinar |
-| Integración de Inteligencia artificial aplicada a la atribución | Permite introducir las puntuaciones de modelos de Inteligencia artificial aplicada a la atribución en CJA para un análisis más detallado en el espacio de trabajo de análisis de CJA. Más información: próximamente | Por determinar |
+| Publicación de audiencias en el Perfil del cliente en tiempo real | Permite publicar audiencias descubiertas en CJA en AEP/RTCDP para segmentación y personalización de clientes. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=en) | 15 de junio de 2022 |
+| Nueva interfaz de usuario de visualización de flujo | Proporciona funcionalidad adicional a nuestra visualización de flujo para hacerla más potente y capaz. Más información (a continuación) | 15 de junio de 2022 |
+| Compatibilidad con campos numéricos como claves de búsqueda y valores de búsqueda | Resulta útil si desea clasificar valores de cadena con un campo numérico como, por ejemplo, COGS o margen en un SKU de producto. Al permitir métricas de búsquedas, puede obtener estos puntos de datos en los informes. Más información (a continuación) | 15 de junio de 2022 |
+| Etiquetas de Analytics en CJA | Admita Labs en CJA para que pueda explorar prototipos con datos de canales cruzados. [Más información](/help/labs/labs.md) | 15 de junio de 2022 |
+| Compartir anotaciones en informes de valoración de Mobile | Puede mostrar anotaciones creadas en Workspace en informes de valoración móviles. Esto le permite compartir matices de datos contextuales y perspectivas sobre su organización y campañas directamente dentro de proyectos de informes de valoración móviles, visibles en la aplicación móvil de paneles de Analytics . Más información (a continuación) | 15 de junio de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
-
-### Correcciones de CJA
-
-AN-279234; AN-284839; AN-285417
 
 >[!MORELIKETHIS]
 >[Actualizaciones de la documentación de Customer Journey Analytics](/help/release-notes/doc-changes.md)
