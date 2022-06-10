@@ -30,7 +30,7 @@ Algunos ejemplos de identidades pueden ser un ID de cliente, un ID de cuenta o u
 * El ID no contiene PII. Aplique la función resumen a cualquier cosa que pueda ser confidencial.
 * El ID utiliza el mismo formato en todas las fuentes (la misma longitud, el mismo método de función resumen, etc.)
 
-En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar el Cross-Channel Analytics (anteriormente conocido como “vinculación basada en campos”) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es)
+En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar Cross-Channel Analytics (anteriormente conocido como “vinculación basada en campos”) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es)
 
 ### 2. Alinee las variables {#variables}
 
