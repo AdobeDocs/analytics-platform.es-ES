@@ -4,9 +4,9 @@ description: ¿Cuáles son las mejores prácticas para decidir un modelo de atri
 feature: Attribution
 exl-id: d612dc79-24e4-4d50-bccd-dfb58328bd4e
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Digamos que su hipótesis es &quot;Mi canal de primer contacto tiene más impact
 
 **Ejemplo 2**
 
-Su hipótesis puede ser: &quot;En nuestra industria (como la industria de viajes), la ventana de atribución es de 60 o 90 días, no de 30 días, porque los clientes hacen mucha investigación antes de comprar un producto. Luego cambiaría su [ventana retrospectiva](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#lookback-windows) a 90 días.
+Su hipótesis puede ser: &quot;En nuestra industria (como la industria de viajes), la ventana de atribución es de 60 o 90 días, no de 30 días, porque los clientes hacen mucha investigación antes de comprar un producto. Luego cambiaría su [ventana retrospectiva](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=es#lookback-windows) a 90 días.
 
 ## Paso 3: utilizar atribución algorítmica
 
