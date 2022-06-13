@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 401d22d7edbb751f1a377b2a8778d1c08ddea5c3
+source-git-commit: ab44c58a4089a5a48ad845579fb536f668d9f9f6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1440'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Detección de anomalías | Compatibilidad total. |
 | Attribution IQ | Compatibilidad total. |
+| Publicación de audiencia | Compatibilidad total. Se denomina Publicación de segmentos (envío de segmentos de Workspace al Experience Cloud) en AA. [Publicación de audiencias](/help/components/audiences/audiences-overview.md) envía audiencias al perfil del cliente en tiempo real en experience Platform. |
 | Métricas calculadas | Compatibilidad total. Tenga en cuenta que las métricas de cálculo existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
 | Eventos de calendario | Compatibilidad total. Los eventos de calendario se han implementado como [Anotaciones](/help/components/annotations/overview.md) en Workspace. |
 | Generador de reglas de clasificación | Compatibilidad total. Llamadas [subcadenas](/help/data-views/component-settings/substring.md) en CJA. Utiliza manipulaciones de cadenas en el tiempo del informe en lugar de conjuntos de datos de búsqueda. |
@@ -97,7 +98,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Plantillas de proyecto | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
-| Publicación de segmentos (envío de segmentos del Espacio de trabajo a Experience Cloud) | Se ha planificado lanzar una versión compatible. Se llamará “Publicación de audiencias” en CJA. |
 | Informes de sesión nueva frente a repetida | Se ha planificado lanzar una versión compatible con algunas advertencias. |
 
 {style=&quot;table-layout:auto&quot;}
