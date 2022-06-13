@@ -4,10 +4,10 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 90480aa725e75d8b8315c4cebcd9a2fd9cfe8823
+source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2474'
+ht-degree: 81%
 
 ---
 
@@ -107,9 +107,21 @@ Existen tres tipos diferentes de conjuntos de datos: datos: datos [!UICONTROL de
 
 {style=&quot;table-layout:auto&quot;}
 
+## Usar campos numéricos como claves de búsqueda y valores de búsqueda {#numeric}
+
+Esta funcionalidad es útil si desea clasificar valores de cadena con un campo numérico, como un COGS o margen, en un SKU de producto. Permite que los valores numéricos formen parte de búsquedas, ya sea como claves o como valores. En el esquema de búsqueda, es posible que tenga valores numéricos vinculados, por ejemplo, a sus nombres de producto, COGS, costos de marketing de campaña o márgenes. Este es un ejemplo de esquema de búsqueda en Adobe Experience Platform:
+
+![Esquema de búsqueda](assets/schema.png)
+
+Ahora admitimos la introducción de estos valores como métricas o dimensiones en los informes de CJA. Al configurar la conexión y extraer los conjuntos de datos de consulta, puede editar los conjuntos de datos para seleccionar la variable [!UICONTROL Clave] y [!UICONTROL Clave de coincidencia]:
+
+![Editar conjunto de datos](assets/lookup-dataset.png)
+
+Al configurar una vista de datos basada en esta conexión, se agregan los valores numéricos como componentes a la vista de datos. Cualquier proyecto basado en esta vista de datos puede generar informes sobre estos valores numéricos.
+
 ## Use el mapa de identidad como ID de persona {#id-map}
 
-Customer Journey Analytics ahora admite la capacidad de usar el mapa de identidad para su ID de persona. El mapa de identidad es una estructura de datos de mapa que permite a alguien cargar pares de clave -> valor. Las claves son áreas de nombres de identidad y el valor es una estructura que contiene el valor de identidad. El mapa de identidad existe en cada fila o evento cargado y se completa para cada fila en consecuencia.
+Customer Journey Analytics admite la capacidad de usar el mapa de identidad para su ID de persona. El mapa de identidad es una estructura de datos de asignación que le permite cargar pares de clave -> valor. Las claves son áreas de nombres de identidad y el valor es una estructura que contiene el valor de identidad. El mapa de identidad existe en cada fila o evento cargado y se completa para cada fila en consecuencia.
 
 El mapa de identidad está disponible para cualquier conjunto de datos que utilice un esquema basado en la clase [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es). Al seleccionar un conjunto de datos para incluir en una conexión CJA, tiene la opción de seleccionar un campo como ID principal o el mapa de identidad:
 
