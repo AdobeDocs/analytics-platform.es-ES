@@ -1,19 +1,19 @@
 ---
 title: Combinación de grupos de informes con diferentes esquemas
 description: Aprenda a utilizar la preparación de datos para combinar grupos de informes con distintos esquemas
-source-git-commit: c602ee5567e7ba90d1d302f990cc1d8fc49e5adc
+source-git-commit: 02483345326180a72a71e3fc7c60ba64a5f8a9d6
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
 
 
-# Combinación de grupos de informes con distintos esquemas
+# Combinación de grupos de informes con diferentes esquemas
 
-La variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) proporciona un medio para incluir datos de grupos de informes de Adobe Analytics en Adobe Experience Platform para que los utilicen aplicaciones de AEP, como Real-time Customer Data Platform y Customer Journey Analytics (CJA). Cada grupo de informes introducido en AEP está configurado como flujo de datos de conexión de origen individual, y cada flujo de datos se aterriza como un conjunto de datos dentro del lago de datos de AEP. El conector de origen de Analytics crea un conjunto de datos por grupo de informes.
+La variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) incorpora datos de grupos de informes de Adobe Analytics en Adobe Experience Platform (AEP) para su uso en aplicaciones AEP, como Real-time Customer Data Platform y Customer Journey Analytics (CJA). Cada grupo de informes introducido en AEP está configurado como flujo de datos de conexión de origen individual, y cada flujo de datos se aterriza como un conjunto de datos dentro del lago de datos de AEP. El conector de origen de Analytics crea un conjunto de datos por grupo de informes.
 
-Los clientes de CJA utilizan [conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) para integrar conjuntos de datos de AEP data lake en Analysis Workspace de CJA. Sin embargo, al combinar grupos de informes dentro de una conexión, las diferencias de esquema entre grupos de informes deben resolverse con el [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) para garantizar que las variables de Adobe Analytics, como las props y las eVars, tengan un significado coherente en CJA.
+Los clientes de CJA utilizan [conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) para integrar conjuntos de datos de AEP data lake en Analysis Workspace de CJA. Sin embargo, al combinar grupos de informes dentro de una conexión, las diferencias de esquema entre grupos de informes deben resolverse con el [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) funcionalidad. El propósito es garantizar que las variables de Adobe Analytics, como las props y las eVars, tengan un significado coherente en CJA.
 
 ## Las diferencias de esquema entre los grupos de informes son problemáticas
 
@@ -21,8 +21,8 @@ Supongamos que su empresa desea importar datos de dos grupos de informes diferen
 
 | Grupo de informes A | Grupo de informes B |
 | --- | --- |
-| eVar1 => Término de búsqueda | eVar1 => Unidad de negocio |
-| eVar2 => Categoría del cliente | eVar2 => Término de búsqueda |
+| eVar1 = Término de búsqueda | eVar1 = Unidad de negocio |
+| eVar2 = Categoría del cliente | eVar2 = Término de búsqueda |
 
 Para simplificar, supongamos que son las únicas eVars definidas para ambos grupos de informes.
 
@@ -30,8 +30,8 @@ Además, supongamos que realiza las siguientes acciones:
 
 - Crear una conexión de origen de Analytics (sin usar la preparación de datos) que ingrese **Grupo de informes A** en el lago de datos de AEP como **Conjunto De Datos A**.
 - Crear una conexión de origen de Analytics (sin usar la preparación de datos) que ingrese **Grupo de informes B** en el lago de datos de AEP como **Conjunto de datos B**.
-- Cree una conexión de CJA llamada **Todos los grupos de informes** que combina el conjunto de datos A y el conjunto de datos B.
-- Cree una vista de datos de CJA llamada **Vista global** que se basa en la conexión Todos los grupos de informes .
+- Cree un [Conexión CJA](/help/connections/create-connection.md) llamado **Todos los grupos de informes** que combina el conjunto de datos A y el conjunto de datos B.
+- Cree un [Vista de datos de CJA](/help/data-views/create-dataview.md) llamado **Vista global** que se basa en la conexión Todos los grupos de informes .
 
 Sin el uso de la preparación de datos para resolver las diferencias de esquema entre el conjunto de datos A y el conjunto de datos B, las eVars de la vista de datos global contendrán una mezcla de valores:
 
@@ -48,9 +48,9 @@ Esta situación resulta en informes sin sentido para el eVar 1 y el eVar 2:
 
 ## Usar la preparación de datos de AEP para resolver diferencias de esquema entre grupos de informes
 
-La funcionalidad de preparación de datos de AEP está integrada con el conector de origen de Analytics y se puede utilizar para resolver las diferencias de esquema descritas en el escenario anterior. Esto da como resultado eVars con significados coherentes en la vista de datos de CJA. (Las convenciones de nomenclatura que se utilizan a continuación se pueden personalizar para adaptarlas a sus necesidades).
+La funcionalidad de preparación de datos del Experience Platform está integrada con el conector de origen de Analytics y se puede utilizar para resolver las diferencias de esquema descritas en el escenario anterior. Esto da como resultado eVars con significados coherentes en la vista de datos de CJA. (Las convenciones de nomenclatura que se utilizan a continuación se pueden personalizar para adaptarlas a sus necesidades).
 
-1. Antes de crear los flujos de datos de conexión de origen para el grupo de informes A y el grupo de informes B, cree un grupo de campos personalizados en AEP (lo llamaremos **Campos unificados** en nuestro ejemplo) que contiene los siguientes campos:
+1. Antes de crear los flujos de datos de conexión de origen para el grupo de informes A y el grupo de informes B, [crear un grupo de campos personalizado](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail.) en AEP (lo llamaremos **Campos unificados** en nuestro ejemplo) que contiene los siguientes campos:
 
    | Grupo de campos personalizados &quot;Campos unificados&quot;  |
    | --- |
@@ -58,7 +58,7 @@ La funcionalidad de preparación de datos de AEP está integrada con el conector
    | Unidad empresarial |
    | Categoría del cliente |
 
-1. Crear un nuevo esquema en AEP (lo llamaremos **Esquema unificado** en nuestro ejemplo). Agregue los siguientes grupos de campos al esquema :
+1. [Crear un nuevo esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) en AEP (lo llamaremos **Esquema unificado** en nuestro ejemplo). Agregue los siguientes grupos de campos al esquema :
 
    | Grupos de campos para &quot;Esquema unificado&quot; |
    | --- |
@@ -106,9 +106,9 @@ La funcionalidad de preparación de datos de AEP está integrada con el conector
 
    Ahora ha asignado eVar1 y eVar2 de los grupos de informes de origen a tres campos nuevos. Tenga en cuenta que otra ventaja de usar asignaciones de preparación de datos es que los campos de destino ahora se basan en nombres semánticamente significativos (término de búsqueda, unidad de negocio, categoría de cliente) en lugar de los nombres de eVar menos significativos (eVar1, eVar2).
 
->[!NOTE]
->
->El grupo de campos personalizados Campos unificados y las asignaciones de campos asociadas se pueden agregar a flujos de datos y conjuntos de datos del conector de origen de Analytics existentes en cualquier momento. Sin embargo, esto solo afecta a los datos a partir de ahora.
+   >[!NOTE]
+   >
+   >El grupo de campos personalizados Campos unificados y las asignaciones de campos asociadas se pueden agregar a flujos de datos y conjuntos de datos del conector de origen de Analytics existentes en cualquier momento. Sin embargo, esto solo afecta a los datos a partir de ahora.
 
 ## Más que solo grupos de informes
 
