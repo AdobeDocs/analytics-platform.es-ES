@@ -1,59 +1,57 @@
 ---
 title: 'Anotaciones al informe de valoración móvil    '
-description: Cómo usar anotaciones en informes de valoración móviles.
+description: Aprenda a que aparezcan anotaciones en informes de valoración móviles.
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 3387d72e68cccd4df54fbc4f29f03409db131206
+source-git-commit: 20e495040c213c5fff0450cddc1899ce340f785d
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 3%
 
 ---
 
+
 # Uso compartido de anotaciones en informes de valoración móviles
 
-Puede mostrar anotaciones creadas en Workspace en informes de valoración móviles. Esto le permite compartir matices y perspectivas de datos contextuales con su organización y campañas directamente dentro de los informes de valoración.
+>[!NOTE]
+>
+>Actualmente, esta función está en [prueba limitada](/help/release-notes/releases.md).
 
-Las anotaciones de los informes de valoración móviles funcionan de forma similar a las anotaciones de Workspace con algunas funciones adicionales. En Workspace, por ejemplo, puede crear anotaciones de nivel de tabla para un intervalo de fechas. En los informes de valoración móviles, se ven las anotaciones de categoría. Esto proporciona contexto adicional para los usuarios de informes de valoración móviles.
-__añadir un ejemplo: o más información que describa la diferencia
+Puede mostrar anotaciones creadas en Workspace en informes de valoración móviles. Esto le permite compartir matices de datos contextuales y perspectivas sobre su organización y campañas directamente dentro de proyectos de informes de valoración móviles, visibles en la aplicación móvil de paneles de Analytics .
 
-?? ¿qué funciones adicionales tiene Mobile?
+## Anotaciones de superficie en informes de valoración móviles
 
+Para que aparezcan anotaciones en informes de valoración móviles, cree primero la anotación desde proyectos de Workspace o desde el menú de componentes.
 
-## Agregar anotaciones a informes de valoración móviles
-
-Las anotaciones que se muestran en los informes de valoración móviles se crean en Workspace empleando los métodos de creación de anotaciones de Workspace. Para obtener información sobre la creación de anotaciones, consulte [Crear anotaciones](create-annotations.md).
-
+Para obtener información sobre la creación de anotaciones, consulte [Crear anotaciones](create-annotations.md). Las anotaciones están desactivadas en los informes de valoración móviles de forma predeterminada y deben habilitarse para cada informe de valoración que desee que aparezca en los informes de valoración móviles.
 
 1. Activar anotaciones. Para activar las anotaciones, consulte [Activar o desactivar anotaciones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en#turn-annotations-on-or-off).
 
-1. Cree una anotación y asígnela a proyectos _globales. Para crear una anotación en Workspace, consulte [Crear anotaciones](create-annotations.md).
+1. Cree una anotación y asegúrese de que se comparta con todos sus proyectos. Para crear una anotación en Workspace, consulte [Crear anotaciones](create-annotations.md).
 
 1. Select **Mostrar anotaciones** para mostrar la anotación en los informes de valoración móviles.
 
-Para confirmar que la opción mostrar anotaciones está seleccionada, vaya a **Proyecto** > **Información y configuración del proyecto**.
+![](assets/show-annotations.png)
+
+1. Confirme que la opción mostrar anotaciones está seleccionada y vaya a **Proyecto** > **Información y configuración del proyecto**.
+
+![](assets/project-info-settings.png)
 
 ## Ver anotaciones en informes de valoración móviles
 
-En Workspace, puede verificar anotaciones en el Generador. También puede utilizar el modo de vista previa para ver el informe de valoración móvil con anotaciones.
+Cuando las anotaciones están activadas, los iconos de anotación se pueden ver en el Generador de informes de valoración. Las anotaciones aparecen únicamente en los gráficos y tablas de la vista detallada. Las anotaciones no están visibles desde la vista de mosaico principal del informe de valoración.
 
-Para ver anotaciones en un dispositivo móvil, en los informes de valoración móviles, pulse un icono de anotación. Deslice hacia la izquierda o la derecha para ver anotaciones adicionales. Esto le permite ver rápidamente todas las anotaciones.
+![](assets/view-annotations.png)
 
-![](assets/mobile-annotations2.png)
+Cuando los iconos de anotación están visibles, no se puede ver ni interactuar con las anotaciones en el lienzo del generador. Utilice el modo de vista previa para ver e interactuar con anotaciones tal y como aparecen en la aplicación. ![](assets/preview-icon.png)
 
-Al ver un __donut, se encuentra un resumen de las anotaciones aplicadas a una métrica en la esquina inferior derecha.
+Los colores de anotación se seleccionan cuando la anotación se crea en el espacio de trabajo. Las anotaciones grises indicaban la presencia de más de una anotación. ![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
 
-![](assets/ann-mobile-summary.png)
+## Ver anotaciones de gráfico
 
-
-## Consideraciones de anotación del informe de valoración móvil
-
-* Si se aplica una anotación a una categoría y un usuario cambia de esa vista de categoría, la anotación desaparece. Las anotaciones solo se muestran en una categoría asociada.
-
-* Las anotaciones están desactivadas de forma predeterminada.
-
-
-## Colores de anotación
-
-Al crear una anotación, se asigna un color específico a la anotación que se muestra en el informe de valoración. Las anotaciones que aparecen en gris indican que se han asignado varias anotaciones a la misma categoría. De lo contrario, la anotación aparece en el color definido en Workspace.
+| Fecha | Aspecto |
+| --- | --- |
+| **Día único** | ![](assets/single-day-mobile-annotations.png)<br></br> |
+| **Intervalo de fechas** | ![](assets/date-range.png) |
+| **Anotaciones superpuestas** | ![](assets/overlapping-annotations.png)<br></br>Para ver los detalles de las anotaciones en la aplicación de paneles de Analytics, pulse un icono de anotación. <br></br>Cuando vea una anotación en un gráfico, puede deslizar hacia la izquierda y hacia la derecha para navegar por todas las anotaciones presentes en el gráfico. Cuando vea una anotación en la tabla, deslice hacia la izquierda y la derecha para navegar por todas las anotaciones asociadas con ese elemento de fila en la tabla. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>En gráficos que no tienen una base de tiempo *eje x*, como los gráficos de barras circulares u horizontales, las anotaciones que se aplican al gráfico se pueden ver tocando el icono situado en la esquina inferior derecha.<br></br> ![](assets/charts-without-timebase.png) |
