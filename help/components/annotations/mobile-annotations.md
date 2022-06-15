@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
-source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 2%
+source-wordcount: '367'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ Para obtener información sobre la creación de anotaciones, consulte [Crear ano
 
 1. Cree una anotación y asegúrese de que se comparta con todos sus proyectos. Para crear una anotación en Workspace, consulte [Crear anotaciones](create-annotations.md).
 
-1. Select **Mostrar anotaciones** para mostrar la anotación en los informes de valoración móviles.
+1. Select **[!UICONTROL Mostrar anotaciones]** para mostrar la anotación en los informes de valoración móviles.
 
    ![](assets/show-annotations.png)
 
-1. Confirme que la opción mostrar anotaciones está seleccionada y vaya a **Proyecto** > **Información y configuración del proyecto**.
+1. Confirme que la opción mostrar anotaciones está seleccionada y vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**.
 
    ![](assets/project-info-settings.png)
 
@@ -49,6 +49,6 @@ Los colores de anotación se seleccionan cuando la anotación se crea en el espa
 
 | Fecha | Aspecto |
 | --- | --- |
-| **Día único** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **Intervalo de fechas** | ![](assets/date-range.png) |
-| **Anotaciones superpuestas** | ![](assets/overlapping-annotations.png)<br></br>Para ver los detalles de las anotaciones en la aplicación de paneles de Analytics, pulse un icono de anotación. <br></br>Cuando vea una anotación en un gráfico, puede deslizar hacia la izquierda y hacia la derecha para navegar por todas las anotaciones presentes en el gráfico. Cuando vea una anotación en la tabla, deslice hacia la izquierda y la derecha para navegar por todas las anotaciones asociadas con ese elemento de fila en la tabla. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>En gráficos que no tienen una base de tiempo *eje x*, como los gráficos de barras circulares u horizontales, las anotaciones que se aplican al gráfico se pueden ver tocando el icono situado en la esquina inferior derecha.<br></br> ![](assets/charts-without-timebase.png) |
+| **[!UICONTROL Un solo día]y** | ![](assets/single-day-mobile-annotations.png)<br></br> |
+| **[!UICONTROL Intervalo de fechas]** | ![](assets/date-range.png) |
+| **[!UICONTROL Anotaciones superpuestas]** | ![](assets/overlapping-annotations.png)<br></br>Para ver los detalles de las anotaciones en la aplicación de paneles de Analytics, pulse un icono de anotación. <br></br>Cuando vea una anotación en un gráfico, puede deslizar hacia la izquierda y hacia la derecha para navegar por todas las anotaciones presentes en el gráfico. Cuando vea una anotación en la tabla, deslice hacia la izquierda y la derecha para navegar por todas las anotaciones asociadas con ese elemento de fila en la tabla. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>En gráficos que no tienen una base de tiempo *eje x*, como los gráficos de barras circulares u horizontales, las anotaciones que se aplican al gráfico se pueden ver tocando el icono situado en la esquina inferior derecha.<br></br> ![](assets/charts-without-timebase.png) |

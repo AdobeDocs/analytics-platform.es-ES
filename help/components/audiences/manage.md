@@ -2,18 +2,14 @@
 title: Administrar audiencias creadas en el Customer Journey Analytics
 description: Obtenga información sobre cómo administrar audiencias en Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
-source-git-commit: 71f13c4f7d8ad5682ae0974bca9a0e8fc90acfe4
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 7%
+source-wordcount: '276'
+ht-degree: 8%
 
 ---
 
 # Administrar audiencias creadas en el Customer Journey Analytics
-
->[!NOTE]
->
->Esta funcionalidad se encuentra actualmente en [pruebas limitadas](/help/release-notes/releases.md).
 
 La administración de audiencias creadas anteriormente le permite
 
@@ -25,15 +21,18 @@ La administración de audiencias creadas anteriormente le permite
 
 ## Interfaz de usuario de administración
 
+![](assets/manage.png)
+
 | Configuración de la interfaz de usuario | Definición |
 | --- | --- |
-| Ocultar/Mostrar filtros | Permite mostrar u ocultar los siguientes filtros en el carril izquierdo: <ul><li>Vista de datos</li><li>Propietario</li><li>Frecuencia de actualización</li><li>Etiquetas</li></ul> |
+| Ocultar/Mostrar filtros | Permite mostrar u ocultar los siguientes filtros en el carril izquierdo: <ul><li>[!UICONTROL Vista de datos]</li><li>[!UICONTROL Propietario]</li><li>[!UICONTROL Frecuencia de actualización]</li><li>[!UICONTROL Etiquetas]</li></ul> |
 | [!UICONTROL Título y descripción] | El título y la descripción que se dan a la audiencia cuando se creó. |
 | [!UICONTROL Vista de datos] | Vista de datos en la que se creó esta audiencia. |
 | [!UICONTROL Tamaño de la audiencia] | El número total de personas en esta audiencia. |
 | [!UICONTROL Propietario] | El propietario de la audiencia: la persona que la creó. |
 | [!UICONTROL Frecuencia de actualización] | Intervalo de actualización configurado cuando se creó la audiencia. |
 | [!UICONTROL Etiquetas] | Cualquier etiqueta aplicada a esta audiencia. |
+| [!UICONTROL Estado de publicación] | Se puede mostrar [!UICONTROL Preparado], [!UICONTROL En curso]o [!UICONTROL Error]. |
 | [!UICONTROL  Última actualización] | La última vez que se actualizó la audiencia. |
 | [!UICONTROL Última modificación] | La última vez que se editó o modificó la audiencia. |
 

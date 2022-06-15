@@ -3,18 +3,14 @@ title: Guía del usuario de Labs
 description: Vista previa de proyectos prototipo para Customer Journey Analytics
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
-source-git-commit: 6a44f9fe73de2a6a9bf9397bd31a27607707061b
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 78%
+source-wordcount: '453'
+ht-degree: 79%
 
 ---
 
 # Guía del usuario de [!UICONTROL Labs]
-
->[!NOTE]
->
->Esta funcionalidad se encuentra actualmente en [pruebas limitadas](/help/release-notes/releases.md).
 
 [!UICONTROL Labs] permite crear prototipos en las primeras etapas del diseño de manera más rápida. Es una combinación de herramientas y procesos que aceleran el desarrollo de manera transparente, siempre pensando en el cliente. Permite que los usuarios se involucren con tecnologías emergentes, descubran perspectivas valiosas e influyan en el desarrollo de funciones y prioridades futuras. Puede utilizar Labs para obtener acceso anticipado a las innovaciones de Customer Journey Analytics (CJA) y para evaluar las próximas funciones en el contexto de sus propios casos de uso y datos empresariales.
 

@@ -2,28 +2,22 @@
 title: Información general sobre la publicación de Audiencias de CJA
 description: Obtenga información sobre el concepto de publicación de audiencias en Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 1fd3bc1f0d62bedfbaebfe6ca84099ccbd9d3c5f
+source-git-commit: 1abc116892405772530e8c254299b40167613656
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
 
 # Información general sobre la publicación de Audiencias de CJA
 
->[!NOTE]
->
->Esta funcionalidad se encuentra actualmente en [pruebas limitadas](/help/release-notes/releases.md).
-
-Ahora puede crear y publicar audiencias descubiertas en Customer Journey Analytics (CJA) para [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCP) en Adobe Experience Platform para personalización y segmentación de clientes. Con Perfil del cliente en tiempo real, puede ver una vista holística de cada cliente combinando datos de varios canales, incluidos en línea, sin conexión, CRM y de terceros. El perfil le permite consolidar los datos de sus clientes en una vista unificada que ofrece una cuenta procesable con marca de tiempo de cada interacción con los clientes.
+Ahora puede crear y publicar audiencias descubiertas en Customer Journey Analytics (CJA) para [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCP) en Adobe Experience Platform para personalización y segmentación de clientes.
 
 La publicación de audiencias proporciona una manera clara de activar y realizar acciones en las perspectivas que se encuentran dentro de CJA. Estas acciones pueden incluir:
 
-* Envío de correos electrónicos a esta audiencia.
-* Envío de mensajes push a esta audiencia.
 * Uso de la audiencia para un recorrido en Adobe Journey Optimizer.
 * Exportación de la audiencia a un tercero mediante un destino de Experience Platform.
-* Enriquecimiento del perfil del cliente en tiempo real con atributos útiles derivados de datos basados en eventos en CJA, sin tener que agregar todos los datos de evento a RTCP.
+* Enriquecimiento del perfil del cliente en tiempo real con atributos útiles derivados de datos basados en eventos en CJA.
 * Hacer todo esto con una latencia mínima después de publicar la audiencia (un par de minutos)
 * Publicación de audiencias únicas o recurrentes
 
