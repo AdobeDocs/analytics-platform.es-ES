@@ -1,22 +1,19 @@
 ---
-title: 'Anotaciones al informe de valoración móvil    '
+title: Anotaciones al informe de valoración móvil
 description: Aprenda a que aparezcan anotaciones en informes de valoración móviles.
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 20e495040c213c5fff0450cddc1899ce340f785d
+exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
+source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 3%
+source-wordcount: '366'
+ht-degree: 2%
 
 ---
 
 
 # Uso compartido de anotaciones en informes de valoración móviles
-
->[!NOTE]
->
->Actualmente, esta función está en [prueba limitada](/help/release-notes/releases.md).
 
 Puede mostrar anotaciones creadas en Workspace en informes de valoración móviles. Esto le permite compartir matices de datos contextuales y perspectivas sobre su organización y campañas directamente dentro de proyectos de informes de valoración móviles, visibles en la aplicación móvil de paneles de Analytics .
 
@@ -26,17 +23,17 @@ Para que aparezcan anotaciones en informes de valoración móviles, cree primero
 
 Para obtener información sobre la creación de anotaciones, consulte [Crear anotaciones](create-annotations.md). Las anotaciones están desactivadas en los informes de valoración móviles de forma predeterminada y deben habilitarse para cada informe de valoración que desee que aparezca en los informes de valoración móviles.
 
-1. Activar anotaciones. Para activar las anotaciones, consulte [Activar o desactivar anotaciones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en#turn-annotations-on-or-off).
+1. Activar anotaciones. Para activar las anotaciones, consulte [Activar o desactivar anotaciones](overview.md#annotations-on-off).
 
 1. Cree una anotación y asegúrese de que se comparta con todos sus proyectos. Para crear una anotación en Workspace, consulte [Crear anotaciones](create-annotations.md).
 
 1. Select **Mostrar anotaciones** para mostrar la anotación en los informes de valoración móviles.
 
-![](assets/show-annotations.png)
+   ![](assets/show-annotations.png)
 
 1. Confirme que la opción mostrar anotaciones está seleccionada y vaya a **Proyecto** > **Información y configuración del proyecto**.
 
-![](assets/project-info-settings.png)
+   ![](assets/project-info-settings.png)
 
 ## Ver anotaciones en informes de valoración móviles
 

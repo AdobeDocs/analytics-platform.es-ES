@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
+source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ De forma predeterminada, solo los administradores pueden crear anotaciones. Los 
 
 Sin embargo, los administradores pueden dar el permiso de [!UICONTROL Creación de anotaciones] (Herramientas de Analytics) a los usuarios a través de [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=es).
 
-## Activación o desactivación de anotaciones
+## Activación o desactivación de anotaciones {#annotations-on-off}
 
 Las anotaciones se pueden activar o desactivar en varios niveles:
 
