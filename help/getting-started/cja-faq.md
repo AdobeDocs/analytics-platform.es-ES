@@ -4,8 +4,8 @@ description: 'Customer Journey Analytics: Preguntas frecuentes.'
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
+source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+workflow-type: tm+mt
 source-wordcount: '2270'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Preguntas frecuentes
 
-[!UICONTROL Customer Journey Analytics] (CJA) es nuestro producto de análisis de nueva generación. A continuación, encontrará respuestas a las preguntas más frecuentes acerca de CJA. Para obtener más información, consulte [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/cja-aa.md).
+[!UICONTROL Customer Journey Analytics] (CJA) es nuestro producto de análisis de nueva generación. A continuación, encontrará respuestas a las preguntas más frecuentes acerca de CJA. Para obtener más información, consulte [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 
 ## 1. Requisitos previos {#prerequisites}
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Puede [!UICONTROL Customer Journey Analytics] “unir” varios dispositivos o conjuntos de datos? | Sí. [!UICONTROL Customer Journey Analytics] tiene una solución de vinculación llamada [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es) (CCA). Permite volver a escribir el ID de la persona de un conjunto de datos, lo que ofrece una combinación perfecta de varios conjuntos de datos. |
-| ¿Se admite la unión del comportamiento anónimo al comportamiento autenticado? | Sí. [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es) busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado. |
+| ¿Se admite la unión del comportamiento anónimo al comportamiento autenticado? | Sí. [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado. |
 | ¿Cómo funciona la &quot;repetición&quot; en CCA? | CCA &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. Reproducir hace que los nuevos dispositivos de la conexión se vinculen. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=es#step-1%3A-live-stitching) |
 | ¿Cómo funciona la vinculación de datos históricos (relleno) en CCA? | Cuando se active por primera vez, Adobe proporcionará un relleno de datos vinculados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, los datos no vinculados en aquel momento deben tener un tipo de ID efímero. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es#enable-cross-channel-analytics) |
 
@@ -85,7 +85,7 @@ En cuanto a la eliminación de datos, nos interesan 6 tipos de componentes: simu
 
 ## 7. Consideraciones al combinar grupos de informes en CJA {#merge-reportsuite}
 
-Si tiene pensado incorporar datos de Adobe Analytics a través del [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es), tenga en cuenta estas ramificaciones al combinar dos o más grupos de informes de Adobe Analytics.
+Si tiene pensado incorporar datos de Adobe Analytics a través del [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html), tenga en cuenta estas ramificaciones al combinar dos o más grupos de informes de Adobe Analytics.
 
 | Problema | Consideración |
 | --- | --- |
@@ -132,7 +132,7 @@ Es posible que necesite saber cuántas filas de datos tiene actualmente en [!UIC
 
    * Cambie la [configuración de retención de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es#set-rolling-window-for-connection-data-retention).
    * [Elimine conexiones no utilizadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
-   * [Elimine un conjunto de datos en AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
+   * [Elimine un conjunto de datos en AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
    * Póngase en contacto con el administrador de cuentas de Adobe para obtener una licencia de capacidad adicional.
 
 ## 10. Con respecto a los excedentes de uso {#overage}
@@ -151,4 +151,4 @@ En algunos casos, es posible que observe que el número total de eventos que ha 
 
 1. Además, si comprobamos [!UICONTROL Adobe Experience Platform], no hay ningún conjunto de datos con el ID &quot;5f21c12b732044194bffc1d0&quot;, por lo que alguien eliminó este conjunto de datos concreto de [!UICONTROL Adobe Experience Platform] cuando se creaba la conexión inicial. Más adelante se volvió a añadir a Customer Journey Analytics, pero se generó un [!UICONTROL ID de conjunto de datos de Platform] mediante [!UICONTROL Adobe Experience Platform].
 
-Obtenga más información sobre las [implicaciones de la eliminación de conjuntos de datos y conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components) en [!UICONTROL Customer Journey Analytics] y [!UICONTROL Adobe Experience Platform].
+Obtenga más información sobre las [implicaciones de la eliminación de conjuntos de datos y conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components) en [!UICONTROL Customer Journey Analytics] y [!UICONTROL Adobe Experience Platform].

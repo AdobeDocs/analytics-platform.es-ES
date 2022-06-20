@@ -3,18 +3,14 @@ description: La detección de anomalías de Analysis Workspace utiliza una serie
 title: Técnicas estadísticas utilizadas en la detección de anomalías
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '827'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '794'
 ht-degree: 100%
 
 ---
 
 # Técnicas estadísticas utilizadas en la detección de anomalías
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 La detección de anomalías de Analysis Workspace utiliza una serie de técnicas estadísticas avanzadas para determinar si una observación debe considerarse como anómala o no.
 

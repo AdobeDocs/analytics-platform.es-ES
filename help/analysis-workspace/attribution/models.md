@@ -3,18 +3,14 @@ title: Modelos de atribución y ventanas retroactivas
 description: Cómo los diferentes tipos de atribución dividen el crédito entre los valores de dimensión.
 Feature: Attribution
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
-workflow-type: ht
-source-wordcount: '1516'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '1483'
 ht-degree: 100%
 
 ---
 
 # Atribución modelos de atribución y ventanas retrospectivas
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 El concepto de atribución en Customer Journey Analytics requiere dos componentes:
 

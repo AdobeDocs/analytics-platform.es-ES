@@ -3,18 +3,14 @@ description: Un histograma es similar a un gráfico de barras, pero agrupa núme
 title: Histograma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '421'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
 
 # Histograma
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores). Analytics automatiza la creación de contenedores de números en rangos, pero puede modificar la configuración en [Configuración avanzada](#section_09D774C584864D4CA6B5672DC2927477).
 

@@ -3,18 +3,14 @@ title: 'Referencia: funciones básicas'
 description: El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1077'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
 
 # Referencia: funciones básicas
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
 
@@ -210,7 +206,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *cuarto* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *cuarto* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *cuarto* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
+&#42;Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *cuarto* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *cuarto* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *cuarto* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
 
 ## Ronda
 

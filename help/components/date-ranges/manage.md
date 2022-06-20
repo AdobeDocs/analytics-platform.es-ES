@@ -3,18 +3,14 @@ title: Administración de intervalos de fechas
 description: Comparta, cambie el nombre o elimine intervalos de fechas en Analysis Workspace.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '416'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
 
 # Administración de intervalos de fechas
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Utilice el administrador de intervalos de fechas para compartir, cambiar el nombre o eliminar intervalos de fechas. Para llegar al administrador de fechas:
 

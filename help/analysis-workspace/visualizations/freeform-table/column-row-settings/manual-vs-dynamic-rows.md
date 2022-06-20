@@ -3,18 +3,14 @@ title: Elementos de dimensión dinámicos o estáticos en tablas de forma libre
 description: Interacción con elementos de dimensión dinámicos y estáticos en tablas
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '515'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '482'
 ht-degree: 100%
 
 ---
 
 # Elementos de dimensión dinámicos o estáticos en tablas de forma libre
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 En las tablas improvisadas, las filas y columnas pueden contener varios valores de componente. Estos valores pueden ser dinámicos (cambian con el tiempo) o estáticos (no cambian con el tiempo), según el análisis que desee generar.
 

@@ -3,18 +3,14 @@ description: Cómo cambiar la paleta de colores de visualización o especificar 
 title: Paleta de colores de visualización
 feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
-workflow-type: ht
-source-wordcount: '244'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
 
 # Paleta de colores de visualización
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede cambiar la paleta de colores de visualización que se emplea en Workspace eligiendo una paleta de color diferente o creando una paleta propia que corresponda a los colores de marca de su empresa. Esta característica afecta a la mayoría de las visualizaciones de Workspace, pero **no** afecta al Resumen del cambio, al formato condicional en tablas improvisadas ni a la Visualización de mapas.
 

@@ -3,18 +3,14 @@ title: Crear un intervalo de fecha
 description: Crear un intervalo de fecha para utilizarlo en los informes.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '436'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
 
 # Crear un intervalo de fecha
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede crear un intervalo de fechas personalizado mediante cualquiera de los dos métodos siguientes:
 

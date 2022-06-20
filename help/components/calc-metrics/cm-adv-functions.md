@@ -3,18 +3,14 @@ title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '2942'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '2909'
 ht-degree: 100%
 
 ---
 
 # Referencia: funciones avanzadas
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
 

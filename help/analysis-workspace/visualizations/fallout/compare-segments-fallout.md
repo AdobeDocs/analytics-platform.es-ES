@@ -4,18 +4,14 @@ keywords: visitas en el orden previsto y filtros;filtros en el análisis de visi
 title: Aplicación de filtros en un análisis de visitas en orden previsto
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '405'
 ht-degree: 100%
 
 ---
 
 # Aplicación de filtros en un análisis de visitas en orden previsto
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Puede crear filtros a partir de un punto de contacto, añadir filtros como punto de contacto y comparar flujos de trabajo clave entre diversos filtros en Analysis Workspace.
 

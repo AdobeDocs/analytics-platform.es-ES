@@ -3,18 +3,14 @@ description: Cálculo de totales de Workspace.
 title: Totales de Workspace
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '524'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '491'
 ht-degree: 100%
 
 ---
 
 # Totales de Workspace
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 En las tablas de forma libre, aparece una fila total en cada nivel de desglose y puede mostrar dos totales:
 

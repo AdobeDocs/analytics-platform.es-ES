@@ -5,18 +5,14 @@ title: Desglose de dimensiones
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: 4bea8d7997d4084cfb87c1035689c0eea6b1f3b1
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 98%
 
 ---
 
 # Desglose de dimensiones en Workspace
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Desglose de dimensiones y elementos de dimensión en Analysis Workspace.
 
@@ -31,7 +27,7 @@ Desglose los datos de forma ilimitada para sus necesidades específicas; genere 
 
    >[!NOTE]
    >
-   >El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumentará para la exportación de desgloses.
+   >El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumenta para la exportación de desgloses.
 
 **Vídeo: Dimensiones en Analysis Workspace**
 

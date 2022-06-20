@@ -4,18 +4,14 @@ description: Describe cómo usar visualizaciones básicas para analizar datos en
 feature: CJA Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '172'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
 
 # Realizar análisis básico
-
->[!NOTE]
->
->Está viendo la documentación de Analysis Workspace en Customer Journey Analytics. Su conjunto de funciones difiere ligeramente del [Analysis Workspace de la versión tradicional de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). [Más información...](/help/getting-started/cja-aa.md)
 
 Después de crear conexiones y vistas de datos, analice los datos que ha introducido con la potencia y flexibilidad de Analysis Workspace. No dude en experimentar y arrastrar dimensiones y métricas, cambiar dimensiones y configuraciones de atribución de métricas, nombres prácticos, husos horarios, configuraciones de sesión, etc.
 
