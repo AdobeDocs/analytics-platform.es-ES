@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '1318'
-ht-degree: 100%
+source-git-commit: bad3527384802ace236ca78bce97bf7aac12bcbe
+workflow-type: tm+mt
+source-wordcount: '1330'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,8 @@ Es posible que no siempre sea factible una implementación de un grupo de inform
 * Utilice la función [Preparación de fecha](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) para asignar variables. Aunque facilita que todos los grupos de informes utilicen el mismo diseño común de variables, no es necesario si utiliza la nueva función [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es#mapping) de Experience Platform. Permite hacer referencia a una variable según su valor asignado, que es del nivel de conjunto de datos (o propiedad).
 
 Si ha evitado pasarse a un grupo de informes globales debido a problemas de [!UICONTROL excesos en la cantidad de valores exclusivos] o [!UICONTROL bajo tráfico], debe saber que CJA no tiene [límites de cardinalidad en una dimensión](/help/components/dimensions/high-cardinality.md). Permite que aparezca y se cuente cualquier valor único.
+
+Este es un caso de uso en [combinación de grupos de informes con distintos esquemas](/help/use-cases/combine-report-suites.md).
 
 ### 3. (Re)Configuración de los canales de marketing {#marketing-channels}
 
