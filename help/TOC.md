@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Cross-Channel Analytics, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 243dc9bfcb7dde08e58fa4f8a11c8ec8c1e49de1
+source-git-commit: a92a6e5825ae01fa2eac30d778293681eab9dd3e
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,10 @@ ht-degree: 96%
    + [Preguntas frecuentes](getting-started/cja-faq.md)
    + [Evolución de Adobe Analytics a Customer Journey Analytics](getting-started/aa-to-cja.md)
    + [Guía del usuario para nuevos usuarios de Customer Journey Analytics](getting-started/aa-to-cja-user.md)
-   + [Compatibilidad con funciones de Customer Journey Analytics](getting-started/cja-aa.md)
+   + Comparar Adobe Analytics y Customer Journey Analytics {#compare-aa-cja}
+      + [Compatibilidad con funciones de Customer Journey Analytics](getting-started/aa-vs-cja/cja-aa.md)
+      + [Comparar el procesamiento de datos entre Adobe Analytics y CJA](getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [Entornos de informes virtuales y entornos de espacio aislado](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
    + [Implicaciones de eliminación](getting-started/cja-deletion.md)
    + [Glosario de CJA](getting-started/cja-glossary.md)
 + Conexiones {#cja-connections}
@@ -229,6 +232,5 @@ ht-degree: 96%
    + [Guía del usuario de Labs](labs/labs.md)
 + Resolución de problemas {#troubleshooting}
    + [Comparación de los datos de Adobe Analytics con los de CJA](troubleshooting/compare.md)
-   + [Comparar el procesamiento de datos entre Adobe Analytics y CJA](troubleshooting/data-processing-comparisons.md)
 + Privacidad {#cja-privacy}
    + [Información general de privacidad](privacy/privacy-overview.md)
