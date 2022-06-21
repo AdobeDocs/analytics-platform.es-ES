@@ -4,10 +4,10 @@ description: Preguntas frecuentes sobre Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: f181584603d62b09ebc8538759d47fb1e03b007a
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 93%
+source-wordcount: '966'
+ht-degree: 91%
 
 ---
 
@@ -60,7 +60,7 @@ Ciertas métricas en CJA son similares a las métricas en la versión tradiciona
 
 | **Datos vinculados de CJA** | **Datos no identificados entre dispositivos de CJA** | **Adobe Analytics tradicional** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Personas** = Recuento de `Person ID` diferentes donde `Stitched ID` se elige como `Person ID`. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de `Person ID` diferentes según la columna seleccionada como `Person ID`. **Las personas** en los conjuntos de datos del conector de Adobe Analytics (ADC) son similares a los **visitantes únicos** en Adobe Analytics tradicional si `endUserIDs. _experience. aaid.id` se elige como `Person ID` en CJA. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. Tenga en cuenta que **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
+| **Personas** = Recuento de `Person ID` diferentes donde `Stitched ID` se elige como `Person ID`. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de `Person ID` diferentes según la columna seleccionada como `Person ID`. **People** en los conjuntos de datos del conector de origen de Adobe es similar a **Visitantes únicos** en el Adobe Analytics tradicional si `endUserIDs. _experience. aaid.id` se elige como `Person ID` en CJA. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. Tenga en cuenta que **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
 | **Sesiones**: se define en función de la configuración de sesiones especificada en la vista de datos de CJA. El proceso de identificación entre dispositivos puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: se define en función de la configuración de sesionización especificada en la vista de datos de CJA. | **Visitas**: consulte [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es). | **Visitas**: se define en función de la configuración de sesiones especificada en el grupo de informes virtuales de [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=es). |
 | **Eventos** = recuento de filas en los datos enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. No obstante, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un `Persistent ID` en blanco. | **Eventos** = recuento de filas en los datos no enlazados en CJA. Generalmente, esto debería estar cerca de **Ocurrencias** en la versión tradicional de Adobe Analytics. Sin embargo, tenga en cuenta que si algún evento tiene un `Person ID` en blanco en los datos no enlazados en el lago de datos de AEP, estos eventos se perderán (no se incluirán) en CJA. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
 
