@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: bad3527384802ace236ca78bce97bf7aac12bcbe
+source-git-commit: 93690a3351f2dca0b3a68e7eea7fb64c581d2d53
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ Aquí hay un par de vídeos para guiarle:
 
 * [Paso de segmentos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=es)
 
-* [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=es)
+* [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
 
 ### Otras consideraciones
 
