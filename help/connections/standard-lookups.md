@@ -4,25 +4,25 @@ description: Utilice búsquedas estándar para aumentar la creación de informes
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # Adición de búsquedas estándar a sus conjuntos de datos
 
 >[!IMPORTANT]
->Las búsquedas estándar solo están disponibles para fuentes de datos del conector de datos de Analytics en CJA. Puede utilizarlas con implementaciones estándar de Adobe Analytics o con el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) o las API de recopilación de datos de Experience Platform.
+>Las búsquedas estándar solo están disponibles para fuentes de datos del conector de origen de Analytics en CJA. Puede utilizarlas con implementaciones estándar de Adobe Analytics o con el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) o las API de recopilación de datos de Experience Platform.
 
 Las búsquedas estándar (también conocidas como búsquedas suministradas por Adobe) mejoran la capacidad de Customer Journey Analytics para informar sobre algunas dimensiones o atributos que no son útiles por sí mismos, pero que sí lo son cuando se unen con otros datos. Algunos ejemplos son los atributos de los dispositivos móviles y de las dimensiones del sistema operativo y del explorador, como, por ejemplo, los números de versión del explorador. Una &quot;búsqueda estándar&quot; es similar a un conjunto de datos de búsqueda. Sin embargo, las búsquedas estándar son aplicables en todas las organizaciones con Experience Cloud. Se aplican automáticamente a todos los conjuntos de datos de evento que contienen determinados campos de esquema XDM (consulte la información sobre campos específicos a continuación). Existe un conjunto de datos de búsqueda estándar para cada ubicación de esquema que Adobe clasifica.
 
 En Adobe Analytics tradicional, estas dimensiones aparecen por sí solas, mientras que en CJA hay que incluir activamente estas dimensiones al crear las vistas de datos. En el flujo de trabajo Conexiones, seleccione un conjunto de datos que esté marcado con una clave para la búsqueda estándar. La IU de vistas de datos sabe automáticamente que debe incluir todas las dimensiones de búsqueda estándar que estén disponibles para la creación de informes. Los archivos de búsqueda se mantienen actualizados automáticamente y están disponibles en todas las regiones y todas las cuentas. Se almacenan en organizaciones específicas de la región asociadas con el cliente.
 
-## Uso de búsquedas estándar con el conjuntos de datos del conector de datos de Adobe
+## Usar búsquedas estándar con conjuntos de datos del conector de origen de Adobe
 
-Los conjuntos de datos de búsqueda estándar se aplican automáticamente en el momento en que se crea el informe. Si está utilizando el Conector de datos de Analytics e introduce una dimensión para la que Adobe proporciona una búsqueda estándar, dicha búsqueda estándar se aplica automáticamente. Si un conjunto de datos de evento contiene campos XDM, es posible aplicarle búsquedas estándar.
+Los conjuntos de datos de búsqueda estándar se aplican automáticamente en el momento en que se crea el informe. Si utiliza el Conector de origen de Analytics y añade una dimensión para la que el Adobe proporciona una búsqueda estándar, aplicamos automáticamente esta búsqueda estándar. Si un conjunto de datos de evento contiene campos XDM, es posible aplicarle búsquedas estándar.
 
 <!--
 ### Specific IDs that need to be populated
