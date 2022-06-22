@@ -4,10 +4,10 @@ description: Comprensión del concepto "reproducción" en Análisis entre canale
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a67350c60593385daaeb01fb8afb9c57b423935a
+source-git-commit: 64cd3983f58f1f0de1d8639e5cb1e705dd72ef44
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 92%
+source-wordcount: '578'
+ht-degree: 89%
 
 ---
 
@@ -32,10 +32,10 @@ AEC intenta vincular cada evento tras la recopilación con los dispositivos y ca
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `246` | Bob visita el sitio en su escritorio, sin autenticarse | `1` (246) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob inicia sesión en el escritorio | `2` (246 y Bob) |
-| `3` | - | - | `Bob` | `Bob` | Bob hace una llamada al servicio de atención al cliente | `2` (246 y Bob) |
+| `3` | - | - | `Bob` | `Bob` | Bob llama al servicio al cliente | `2` (246 y Bob) |
 | `4` | `3579` | - | - | `3579` | Bob accede al sitio desde su dispositivo móvil, sin autenticarse | `3` (246, Bob y 3579) |
 | `5` | `3579` | `Bob` | - | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `3` (246, Bob y 3579) |
-| `6` | - | - | `Bob` | `Bob` | Bob hace otra llamada al servicio de atención al cliente | `3` (246, Bob y 3579) |
+| `6` | - | - | `Bob` | `Bob` | Bob llama de nuevo al servicio al cliente | `3` (246, Bob y 3579) |
 | `7` | `246` | - | - | `Bob` | Bob vuelve a visitar el sitio en su escritorio, sin autenticarse | `3` (246, Bob y 3579) |
 
 Tanto los eventos no autenticados como los autenticados en los nuevos dispositivos se cuentan como personas independientes (temporalmente). Los eventos no autenticados en dispositivos reconocidos se vinculan en tiempo real.
@@ -52,10 +52,10 @@ A intervalos regulares (una vez a la semana o una vez al día, en función de la
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `Bob` | Bob visita el sitio en su escritorio, sin autenticarse | `1` (Bob) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob inicia sesión en el escritorio | `1` (Bob) |
-| `3` | - | - | `Bob` | `Bob` | Bob hace una llamada al servicio de atención al cliente | `1` (Bob) |
+| `3` | - | - | `Bob` | `Bob` | Bob llama al servicio al cliente | `1` (Bob) |
 | `4` | `3579` | - | - | `Bob` | Bob accede al sitio desde su dispositivo móvil, sin autenticarse | `1` (Bob) |
 | `5` | `3579` | `Bob` | - | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `1` (Bob) |
-| `6` | - | - | `Bob` | `Bob` | Bob hace otra llamada al servicio de atención al cliente | `1` (Bob) |
+| `6` | - | - | `Bob` | `Bob` | Bob llama de nuevo al servicio al cliente | `1` (Bob) |
 | `7` | `246` | - | - | `Bob` | Bob vuelve a visitar el sitio en su escritorio, sin autenticarse | `1` (Bob) |
 
 >[!NOTE]
