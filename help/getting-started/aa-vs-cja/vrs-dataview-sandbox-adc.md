@@ -1,13 +1,13 @@
 ---
 title: Grupos de informes virtuales, vistas de datos, entornos limitados de AEP y el conector de origen de Analytics
 description: Obtenga información sobre los entornos de informes virtuales y los entornos de entornos limitados.
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
+source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 8%
 
 ---
-
 
 # Grupos de informes virtuales, vistas de datos, entornos limitados de AEP y el conector de origen de Analytics
 
@@ -25,7 +25,7 @@ Un VRS:
 
 * Se puede basar en segmentos de Adobe Analytics.
 * Se puede aplicar a datos nuevos e históricos de una manera no destructiva.
-* Permite crear una o varias vistas virtuales sobre un grupo de informes de Adobe Analytics para su uso por parte de distintos equipos empresariales.
+* Permite crear una o varias vistas virtuales sobre un grupo de informes de Adobe Analytics para que las utilicen distintos equipos empresariales.
 * Puede utilizarse para controlar el acceso a diferentes tipos de datos y depurarlos para diferentes usuarios en Adobe Analytics.
 * Proporciona información opcional [procesamiento de tiempo de informes](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en) para Adobe Analytics. En este caso, se puede utilizar un VRS para crear una definición personalizada de &quot;visita&quot;.
 * Se aplica durante el tiempo de ejecución del informe, de forma similar a la evaluación de segmentos. Esto es _after_ los datos se han recopilado y almacenado en Adobe Analytics.

@@ -1,7 +1,7 @@
 ---
-source-git-commit: de28f20583457e91aa5136c688a885045606b860
+source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '698'
 ht-degree: 8%
 
 ---
@@ -21,7 +21,7 @@ Un VRS:
 
 * Se puede basar en segmentos de Adobe Analytics.
 * Se puede aplicar a datos nuevos e históricos de una manera no destructiva.
-* Permite crear una o varias vistas virtuales sobre un grupo de informes de Adobe Analytics para su uso por parte de distintos equipos empresariales.
+* Permite crear una o varias vistas virtuales sobre un grupo de informes de Adobe Analytics para que las utilicen distintos equipos empresariales.
 * Puede utilizarse para controlar el acceso a diferentes tipos de datos y depurarlos para diferentes usuarios en Adobe Analytics.
 * Proporciona información opcional [procesamiento de tiempo de informes](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en) para Adobe Analytics. En este caso, se puede utilizar un VRS para crear una definición personalizada de &quot;visita&quot;.
 * Se aplica durante el tiempo de ejecución del informe, de forma similar a la evaluación de segmentos. Esto es _after_ los datos se han recopilado y almacenado en Adobe Analytics.
