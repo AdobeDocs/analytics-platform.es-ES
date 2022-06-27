@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: be74260829c8e383829a3163e518104d1d0f11e0
+source-git-commit: 159e24bb2a0dc40463679a6a672af773e8ce101f
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 80%
+source-wordcount: '881'
+ht-degree: 79%
 
 ---
 
@@ -17,6 +17,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 | Fecha | Actualizar descripción |
 | --- | --- |
+| Junio de 2022 | Nuevo artículo sobre [AAID, ECID, AACUSTOMID y el conector de origen de Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) |
 | Junio de 2022 | Nuevo artículo sobre [Reglas de procesamiento de Adobe Analytics, VISTA y clasificaciones vs. Preparación de datos para el conector de origen de Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | Junio de 2022 | Nuevo artículo sobre [entornos de informes virtuales y entornos de espacio aislado](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
 | Junio de 2022 | Nuevo artículo sobre [comparación del procesamiento de datos entre las funciones de informes de Adobe Analytics y CJA](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) |
@@ -70,7 +71,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Noviembre de 2020 | Se ha agregado contenido en [eliminando las limitaciones de relleno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) para las conexiones. |
 | miércoles, 7 de octubre de 2020 | Se ha añadido un tema sobre [conjuntos de datos de evento combinados](/help/connections/combined-dataset.md). |
 | martes, 15 de septiembre de 2020 | Se ha añadido un tema sobre [ingesta de datos](/help/use-cases/data-ingestion.md). |
-| miércoles, 2 de septiembre de 2020 | Se ha actualizado la sección sobre [permisos de usuario](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). |
+| miércoles, 2 de septiembre de 2020 | Se ha actualizado la sección sobre [permisos de usuario](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). |
 | viernes, 7 de agosto de 2020 | Se ha añadido un nuevo tema sobre el [caso de uso B2B - conjunto de datos de consulta](/help/use-cases/b2b.md). |
 | Julio de 2020 | Se ha añadido información sobre la [opción de mapa de identidad para ID de persona](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html). |
 | Julio de 2020 | Se ha añadido un nuevo tema sobre [matrices de objetos](/help/use-cases/object-arrays.md) o jerarquías de datos. |
