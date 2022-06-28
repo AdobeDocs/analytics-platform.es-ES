@@ -3,10 +3,10 @@ description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '854'
-ht-degree: 100%
+source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UI
 | [Panel de información rápida](quickinsight.md) | Cree rápidamente una tabla de forma libre y una visualización complementaria para analizar y descubrir información de manera más rápida. |
 | [Panel de Attribution](attribution.md) | Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión. |
 | [Panel de forma libre](freeform-panel.md) | Realice comparaciones y desgloses ilimitados y, a continuación, añada visualizaciones para contar una historia de datos enriquecida. |
+| [Panel de visualizadores simultáneos de medios](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
+| [Panel Tiempo invertido en la reproducción de medios](media-playback-timespent/media-playback-time-spent.md) | Analice el tiempo de reproducción transcurrido para comprender dónde se produjo la concurrencia máxima o dónde se produjeron los descensos. |
 
 ![](assets/panel-overview.png)
 

@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Cross-Channel Analytics, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 348f4e8596146f7ff4234535fa76a54f7be33171
+source-git-commit: d4b1d5f784a98c5e14d653d03aec4b811a34462a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 92%
 
 ---
@@ -120,6 +120,11 @@ ht-degree: 92%
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
+      + [Panel de visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + Tiempo invertido en la reproducción de medios {#media-playback-timespent}
+         + [Información general](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [Configuración de entrada y salida](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [Preguntas frecuentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
    + Depuración, uso compartido y programación de proyectos {#curate-share}
       + [Menú Compartir](analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](analysis-workspace/curate-share/curate.md)
