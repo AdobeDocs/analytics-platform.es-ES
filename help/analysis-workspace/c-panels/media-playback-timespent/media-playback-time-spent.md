@@ -3,11 +3,10 @@ title: Panel Tiempo invertido en la reproducción de contenido
 description: Cómo utilizar e interpretar el panel Tiempo invertido en la reproducción de contenido en Analysis Workspace.
 feature: Panels
 role: User, Admin
-exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
+source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -3,8 +3,7 @@ title: Panel de visualizadores simultáneos de medios
 description: Cómo utilizar e interpretar el panel Visualizadores simultáneos de medios en Analysis Workspace.
 feature: Panels
 role: User, Admin
-exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
+source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 96%
