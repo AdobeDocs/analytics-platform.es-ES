@@ -4,16 +4,16 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 96%
 
 ---
 
 # Panel de visualizadores simultáneos de medios
 
-Los clientes de Media Analytics pueden analizar los visualizadores simultáneos para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los abandonos para proporcionar un valioso conocimiento de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen y la escala.
+Puede analizar los visualizadores simultáneos para comprender dónde se produjo la concurrencia máxima o dónde se produjeron los descensos y proporcionar una valiosa perspectiva de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen o la escala.
 
 En Analysis Workspace, los visualizadores simultáneos comprende la cantidad de visitantes únicos que visualizan sus flujos de medios en un momento específico, independientemente de la cantidad de sesiones.
 

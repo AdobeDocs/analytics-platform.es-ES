@@ -4,16 +4,16 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 84%
 
 ---
 
 # Panel Tiempo invertido en la reproducción de contenido
 
-Los clientes de Media Analytics pueden analizar el tiempo invertido en la reproducción para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los abandonos para proporcionar un valioso conocimiento sobre la calidad del contenido y la participación del visualizador, así como para solucionar problemas o a planificar el volumen y la escala.
+Puede analizar el tiempo invertido en la reproducción para comprender dónde se produjo la concurrencia máxima o dónde se produjeron los descensos y proporcionar una valiosa perspectiva de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen o la escala.
 
 En Analysis Workspace, Tiempo invertido en la reproducción de contenido es la cantidad de tiempo que se emplea para ver flujos de medios en un momento específico, e incluye pausas, el búfer y el tiempo para el inicio.
 
