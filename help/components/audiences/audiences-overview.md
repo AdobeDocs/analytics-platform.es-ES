@@ -2,14 +2,18 @@
 title: Información general sobre la publicación de Audiencias de CJA
 description: Obtenga información sobre el concepto de publicación de audiencias en Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 1abc116892405772530e8c254299b40167613656
+source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 3%
+source-wordcount: '355'
+ht-degree: 5%
 
 ---
 
 # Información general sobre la publicación de Audiencias de CJA
+
+>[!NOTE]
+>
+>Actualmente, esta función está en [prueba limitada](/help/release-notes/releases.md).
 
 Ahora puede crear y publicar audiencias descubiertas en Customer Journey Analytics (CJA) para [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCP) en Adobe Experience Platform para personalización y segmentación de clientes.
 
