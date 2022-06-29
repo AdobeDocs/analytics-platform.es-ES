@@ -3,14 +3,20 @@ title: Entradas y salidas del panel Tiempo invertido en reproducción de medios
 description: ¿Cuáles son los ajustes de entrada y salida del Tiempo invertido en reproducción de medios?
 feature: Panels
 role: User, Admin
-source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
+exl-id: 4c0380ff-f55c-48a7-a4b2-1a291511e4d9
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '552'
 ht-degree: 100%
 
 ---
 
 # Entradas y salidas del panel Tiempo invertido en reproducción de medios {#Inputs-and-outputs}
+
+>[!NOTE]
+>
+>Actualmente, esta función está en [prueba limitada](/help/release-notes/releases.md).
+
 
 Puede personalizar el panel Tiempo invertido en reproducción de medios mediante los ajustes de entrada y salida siguientes.
 

@@ -3,14 +3,19 @@ title: Preguntas frecuentes sobre el Tiempo invertido en la reproducción de med
 description: ¿Cuáles son las preguntas frecuentes sobre el Tiempo invertido en la reproducción de medios?
 feature: Panels
 role: User, Admin
-source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
+exl-id: be5d5557-ef5f-4a13-8d4c-0a64a8163412
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 100%
 
 ---
 
 # Preguntas frecuentes sobre el Tiempo invertido en la reproducción de medios
+
+>[!NOTE]
+>
+>Actualmente, esta función está en [prueba limitada](/help/release-notes/releases.md).
 
 
 | Pregunta | Respuesta |
