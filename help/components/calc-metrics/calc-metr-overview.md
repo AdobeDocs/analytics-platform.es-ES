@@ -4,9 +4,9 @@ description: Obtenga información sobre las métricas filtradas que se derivan d
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 source-git-commit: e98b21824789600c7729cce99d7592011ad18577
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
