@@ -4,7 +4,7 @@ title: Menú Compartir
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
 ht-degree: 100%
 
