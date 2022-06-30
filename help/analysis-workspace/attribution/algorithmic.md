@@ -4,7 +4,7 @@ description: Detalles sobre el modelo de atribución algorítmica.
 feature: Attribution
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
 ht-degree: 100%
 
