@@ -8,7 +8,7 @@ exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
 workflow-type: tm+mt
 source-wordcount: '1457'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -76,9 +76,9 @@ Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL
 
 Además del concepto de cambiar segmentos, también se actualizan los contenedores de segmentos.
 
-* **Los contenedores de visita individual ahora [!UICONTROL Evento] contenedores**. La variable [!UICONTROL Evento] container le permite desglosar la información del visitante en función de las vistas/visitas individuales de una página.
-* **Los contenedores de visita ahora [!UICONTROL Sesión] contenedores**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
-* **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. La variable [!UICONTROL Persona] contenedor incluye todas las sesiones y eventos de un visitante dentro del lapso de tiempo especificado.
+* **Los contenedores de visita individual ahora son [!UICONTROL contenedores] de evento**. El contenedor [!UICONTROL Evento] le permite desglosar la información del visitante en función de las vistas o visitas individuales de una página.
+* **Los contenedores de visita ahora son [!UICONTROL contenedores] de sesión**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
+* **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. El contenedor [!UICONTROL Persona] incluye todas las sesiones y eventos de un visitante en un lapso de tiempo específico.
 
 ## Cambios en el concepto de métricas calculadas
 

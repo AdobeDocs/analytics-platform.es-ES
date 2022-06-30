@@ -7,13 +7,13 @@ feature: Cross-Channel Analytics
 source-git-commit: 5eede8eeb5d7e8632dc0d7d580f01ccc7ac8106c
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 
 # Preguntas frecuentes
 
-## ¿Cómo puedo usar AEC para ver cómo se mueve la gente de un canal a otro?
+## ¿Cómo puedo usar CCA para ver cómo se mueve la gente de un canal a otro?
 
 Puede utilizar una visualización de flujo con la dimensión ID de conjunto de datos.
 
@@ -24,7 +24,7 @@ Puede utilizar una visualización de flujo con la dimensión ID de conjunto de d
 
 Puede utilizar un conjunto de datos de búsqueda si desea cambiar el nombre de los elementos de la dimensión de ID de conjunto de datos.
 
-## ¿Cuánto tiempo atrás vuelve AEC a generar las claves de los visitantes?
+## ¿Cuánto tiempo atrás vuelve CCA a generar las claves de los visitantes?
 
 La ventana retrospectiva para la regeneración de claves depende de la frecuencia deseada de [reproducción](replay.md) de los datos. Por ejemplo, si configura CCA para que vuelva a reproducir los datos una vez por semana, la ventana de retrospectiva para la reintroducción de claves será de siete días. Si configura CCA para que vuelva a reproducir los datos todos los días, la ventana de retrospectiva para la reintroducción de claves será de un día.
 
@@ -38,7 +38,7 @@ El ID transitorio anula al ID persistente, por lo que los dispositivos compartid
 
 En algunas situaciones, un usuario individual puede asociarse con muchos ID persistentes. Algunos ejemplos de esto son las personas que borran las cookies del explorador con frecuencia o que utilizan el modo privado/de incógnito del explorador.
 
-El número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de AEC para crear vínculos entre los diferentes dispositivos.
+El número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de CCA para crear vínculos entre los diferentes dispositivos.
 
 ## Tras contactar con el administrador de cuentas y proporcionarle la información deseada, ¿cuánto tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?
 
@@ -73,6 +73,6 @@ Ciertas métricas en CJA son similares a las métricas en la versión tradiciona
 
 Otras métricas pueden ser similares en CJA y en Adobe Analytics tradicional. Por ejemplo, el recuento total de Adobe Analytics [eventos personalizados](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=es) 1-100 es generalmente comparable entre Adobe Analytics tradicional y CJA (ya sea cosido o no). [Diferencias en las capacidades](/help/getting-started/aa-vs-cja/cja-aa.md)), como la deduplicación de eventos entre CJA y Adobe Analytics tradicional, puede causar discrepancias entre los dos productos.
 
-## ¿Puede la CCA utilizar campos de mapa de identidad?
+## ¿Puede CCA utilizar los campos del mapa de identidad?
 
 No, actualmente CCA no puede utilizar campos de mapa de identidad.
