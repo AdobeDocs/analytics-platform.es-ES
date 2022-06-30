@@ -4,7 +4,7 @@ description: Vista previa de proyectos de prototipo para Customer Journey Analyt
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
 ht-degree: 100%
 
