@@ -4,7 +4,7 @@ description: Cómo los diferentes tipos de atribución dividen el crédito entre
 Feature: Attribution
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1483'
 ht-degree: 100%
 
