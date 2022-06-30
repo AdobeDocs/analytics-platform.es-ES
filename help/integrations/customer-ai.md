@@ -5,90 +5,90 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '891'
+ht-degree: 100%
 
 ---
 
 # Integración de inteligencia artificial aplicada al cliente con CJA
 
-[Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en), como parte de Adobe Experience Platform Intelligent Services, proporciona a los especialistas en marketing la capacidad de generar predicciones de clientes a nivel individual.
+La [inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=es), como parte de los servicios inteligentes de Adobe Experience Platform, proporciona a los expertos en marketing la capacidad de generar predicciones sobre clientes a nivel individual.
 
-Con la ayuda de factores influyentes, la Customer AI puede indicarle qué es lo más probable que haga un cliente y por qué. Además, los especialistas en marketing pueden beneficiarse de las predicciones y perspectivas de Customer AI para personalizar las experiencias de los clientes al ofrecer las ofertas y los mensajes más adecuados.
+Con la ayuda de factores influyentes, la inteligencia artificial aplicada al cliente puede indicarle qué es lo más probable que haga un cliente y por qué. Además, los expertos en marketing pueden beneficiarse de las predicciones y perspectivas de la inteligencia artificial aplicada al cliente para personalizar las experiencias de los clientes y ofrecerles las ofertas y los mensajes más adecuados.
 
-La AI del cliente se basa en datos de comportamiento individuales y en datos de perfil para la puntuación de tendencia. La AI del cliente es flexible, ya que puede incorporar varias fuentes de datos, incluidas Adobe Analytics, Adobe Audience Manager, datos de Evento de experiencias del consumidor y datos de Evento de experiencias. Si utiliza el conector de origen del Experience Platform para introducir datos de Adobe Audience Manager y Adobe Analytics, el modelo recoge automáticamente los tipos de evento estándar para entrenar y puntuar el modelo. Si introduce su propio conjunto de datos de Evento de experiencia sin tipos de evento estándar, cualquier campo relevante deberá asignarse como eventos personalizados o atributos de perfil si desea usarlo en el modelo. Esto se puede hacer en el paso de configuración de Customer AI en Experience Platform. &#x200B;
+La inteligencia artificial aplicada al cliente se basa en datos de comportamiento individuales y en datos de perfil para la puntuación de tendencia. La inteligencia artificial aplicada al cliente es flexible, ya que puede incorporar varias fuentes de datos, como Adobe Analytics, Adobe Audience Manager, datos de evento de experiencias del consumidor y datos de evento de experiencias. Si utiliza el conector de la fuente Experience Platform para introducir datos de Adobe Audience Manager y Adobe Analytics, el modelo recoge automáticamente los tipos de evento estándar para entrenar y puntuar el modelo. Si introduce su propio conjunto de datos de evento de experiencias sin tipos de evento estándar, los campos relevantes deberán asignarse como eventos personalizados o atributos de perfil si desea usarlos en el modelo. Esto se puede hacer en el paso de configuración de la inteligencia artificial aplicada al cliente en Experience Platform. &#x200B;
 
-Customer AI se integra con Customer Journey Analytics (CJA) en la medida en que los conjuntos de datos habilitados para Customer AI se pueden aprovechar en las vistas de datos y los informes en CJA. Con esta integración, puede
+La inteligencia artificial aplicada al cliente se integra con Customer Journey Analytics (CJA) en el sentido que los conjuntos de datos habilitados para inteligencia artificial aplicada al cliente se pueden aprovechar en las vistas de datos y los informes de CJA. Con esta integración, puede
 
-* **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**. Ejemplo de caso de uso: ¿Cuál es la probabilidad de que un cliente del hotel compre un billete de show en el recinto de conciertos del hotel?
-* **Analizar qué eventos o atributos de éxito están asociados con puntuaciones de tendencia**. &#x200B;Ejemplo de caso de uso: Quiero comprender los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
-* **Siga el flujo de entrada para la propensión del cliente sobre diferentes ejecuciones de puntuación.**. Ejemplo de caso de uso: Me gustaría entender a las personas que inicialmente eran usuarios de baja propensión y, con el tiempo, se convirtieron en usuarios de alta propensión &#x200B;
-* **Observe la distribución de la propensión**. Caso de uso: Me gustaría entender la distribución de las puntuaciones de tendencia a que pueda ser más precisa con mis segmentos. &#x200B;Ejemplo: un minorista quiere ejecutar una promoción específica por 50 dólares de descuento en un producto. Es posible que solo deseen ejecutar una promoción muy limitada debido al presupuesto, etc. Analizan los datos y deciden segmentar solo el principal 80 % o más de &#x200B; de sus clientes.
-* **Observe la propensión a realizar una acción para una cohorte en particular a lo largo del tiempo**. Caso de uso: Me gustaría rastrear una cohorte específica a lo largo del tiempo. Esto es similar al primero, pero puede rastrear una cohorte específica a lo largo del tiempo. &#x200B; Ejemplo de hospitalidad: Un especialista en mercadotecnia puede rastrear su nivel de bronce frente a su nivel de plata, o su nivel de plata frente a su nivel de oro a lo largo del tiempo. Luego pueden ver la propensión de cada cohorte a reservar el hotel a lo largo del tiempo. &#x200B;
+* **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**. Ejemplo de caso de uso: ¿Cuál es la probabilidad de que un cliente de un hotel compre una entrada para un espectáculo en el recinto de conciertos del hotel?
+* **Analizar qué eventos o atributos de éxito están asociados con puntuaciones de tendencia**. &#x200B;Ejemplo de caso de uso: quiero comprender los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
+* **Seguir el flujo de entrada para la tendencia del cliente sobre diferentes ejecuciones de puntuación**. Ejemplo de caso de uso: me gustaría entender a las personas que inicialmente eran usuarios de baja tendencia y, con el tiempo, se convirtieron en usuarios de alta tendencia. 
+* **Observar la distribución de la tendencia**. Caso de uso: me gustaría entender la distribución de las puntuaciones de tendencia para poder tener más precisión con mis segmentos. &#x200B;Ejemplo: un minorista quiere hacer una promoción específica de 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analiza los datos y decide segmentar solo los clientes principales con una puntuación del 80 % o más.
+* **Observar la tendencia a realizar una acción para una cohorte en particular a lo largo del tiempo**. Caso de uso: me gustaría rastrear una cohorte específica a lo largo del tiempo. Esto es similar al primero, pero puede rastrear una cohorte específica a lo largo del tiempo.&#x200B; Ejemplo de hospitalidad: un experto en marketing puede rastrear su nivel bronce frente a su nivel plata, o su nivel plata frente a su nivel oro a lo largo del tiempo. A continuación, puede ver la tendencia de cada cohorte a reservar el hotel a lo largo del tiempo. &#x200B;
 
 ## Flujo de trabajo
 
 Algunos de los pasos se realizan en Adobe Experience Platform antes de trabajar con la salida en CJA.
 
-### Paso 1: Configuración de una instancia de Customer AI
+### Paso 1: Configurar una instancia de inteligencia artificial aplicada al cliente
 
-Una vez que haya preparado los datos y haya establecido todas sus credenciales y esquemas, comience por seguir la [Configuración de una instancia de AI del cliente](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) en Adobe Experience Platform.
+Una vez que haya preparado los datos y haya establecido todas sus credenciales y esquemas, comience por seguir la guía de [Configuración de una instancia de inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=es) en Adobe Experience Platform.
 
-### Paso 2: Configuración de una conexión CJA a conjuntos de datos de Customer AI
+### Paso 2: Configurar una conexión de CJA a los conjuntos de datos de inteligencia artificial aplicada al cliente
 
-En CJA, ahora puede [crear una o más conexiones](/help/connections/create-connection.md) a conjuntos de datos de Experience Platform instrumentados para Customer AI. Cada predicción, como &quot;Probabilidad de actualizar cuenta&quot;, equivale a un conjunto de datos. Estos conjuntos de datos aparecen con el prefijo &quot;Customer AI Score in EE Format - name_of_application&quot;.
+En CJA, ahora puede [crear una o más conexiones](/help/connections/create-connection.md) a conjuntos de datos de Experience Platform instrumentados para la inteligencia artificial aplicada al cliente. Cada predicción, como «Probabilidad de actualizar la cuenta», equivale a un conjunto de datos. Estos conjuntos de datos aparecen con el prefijo «Puntuaciones de inteligencia artificial aplicada al cliente en formato EE - nombre_de_la_aplicación».
 
 >[!IMPORTANT]
 >
->Cada instancia de Customer AI tiene dos conjuntos de datos de salida si se activa la opción para habilitar puntuaciones para CJA durante la configuración en el paso 1. Aparece un conjunto de datos de salida en formato XDM de perfil y uno en formato XDM de evento de experiencia.
+>Cada instancia de inteligencia artificial aplicada al cliente tiene dos conjuntos de datos de salida si se activa la opción para habilitar puntuaciones para CJA durante la configuración en el paso 1. Aparece un conjunto de datos de salida en formato XDM de perfil y uno en formato XDM de evento de experiencia.
 
 ![Puntuaciones de CAI](assets/cai-scores.png)
 
 ![Crear conexión](assets/create-conn.png)
 
-Este es un ejemplo de esquema XDM que CJA traería como parte de un conjunto de datos existente o nuevo:
+A continuación se muestra un ejemplo de esquema de XDM que CJA traería como parte de un conjunto de datos existente o nuevo:
 
-![esquema CAI](assets/cai-schema.png)
+![Esquema de CAI](assets/cai-schema.png)
 
-(Tenga en cuenta que el ejemplo es un conjunto de datos de perfil; el mismo conjunto de objetos de esquema formaría parte de un conjunto de datos de Experience Event que CJA obtendría. El conjunto de datos de Evento de experiencia incluiría marcas de hora como fecha de puntuación). Todos los clientes puntuados en este modelo tendrían una puntuación, una scoreDate, etc. asociados a ellos.
+(Tenga en cuenta que el ejemplo es un conjunto de datos de perfil; el mismo conjunto de objetos de esquema formaría parte de un conjunto de datos de evento de experiencia que CJA obtendría. El conjunto de datos de evento de experiencia incluiría marcas de tiempo como fecha de la puntuación). Todos los clientes puntuados en este modelo tendrían una puntuación, una scoreDate, etc. asociadas a ellos.
 
 ### Paso 3: Crear vistas de datos en función de estas conexiones
 
-En CJA, ahora puede continuar con [crear vistas de datos](/help/data-views/create-dataview.md) con las dimensiones (como puntuación, fecha de puntuación, probabilidad, etc.) y métricas que se incluyeron como parte de la conexión que ha establecido.
+En CJA, ahora puede continuar con la [creación de vistas de datos](/help/data-views/create-dataview.md) con las dimensiones (como puntuación, fecha de puntuación, probabilidad, etc.) y métricas que se han incluido como parte de la conexión que ha establecido.
 
 ![Crear vista de datos](assets/create-dataview.png)
 
-### Paso 4: Informar sobre puntuaciones de IC en Workspace
+### Paso 4: Informar sobre puntuaciones de CAI en el Espacio de trabajo
 
-En CJA Workspace, ahora puede crear un nuevo proyecto y extraer visualizaciones.
+En el Espacio de trabajo de CJA, ahora puede crear un nuevo proyecto y extraer visualizaciones.
 
 **Puntuaciones de tendencia**
 
-A continuación, se muestra un ejemplo de un proyecto de Workspace con datos de IC que tendencia las puntuaciones de tendencia de un segmento de usuarios a lo largo del tiempo, en &#x200B; gráfico de barras apiladas:
+A continuación, se muestra un ejemplo de un proyecto del Espacio de trabajo con datos de CAI que ofrece puntuaciones de tendencia de un segmento de usuarios a lo largo del tiempo, en un gráfico de barras apiladas:
 
 ![Bloques de puntuación](assets/workspace-scores.png)
 
 **Tabla con códigos de motivo**
 
-Esta es una tabla que muestra los códigos de motivo por los que un segmento tiene &#x200B; de alta o baja tendencia:
+Esta es una tabla que muestra los códigos de motivo por los que un segmento tiene una tendencia alta o baja.
 
 ![Códigos de motivo](assets/reason-codes.png)
 
-**Flujo de entrada para la propensión del cliente**
+**Flujo de entrada para la tendencia del cliente**
 
-Este diagrama de flujo muestra el flujo de entrada de la propensión del cliente sobre distintas ejecuciones de puntuación &#x200B;:
+Este diagrama de flujo muestra el flujo de entrada de la tendencia del cliente en distintas ejecuciones de puntuación:
 
 ![Flujo de entrada](assets/flow.png)
 
-**Distribución de las puntuaciones de inclinación**
+**Distribución de las puntuaciones de tendencia**
 
-Este gráfico de barras muestra la distribución de las puntuaciones de tendencia &#x200B;:
+Este gráfico de barras muestra la distribución de las puntuaciones de tendencia:
 
 ![Distribución](assets/distribution.png)
 
-**La tendencia se superpone**
+**Superposiciones de tendencias**
 
-Este diagrama de Venn muestra la propensión a superponerse en diferentes ejecuciones de puntuación:
+Este diagrama de Venn muestra las superposiciones de tendencias en diferentes ejecuciones de puntuación:
 
-![La tendencia se superpone](assets/venn.png)
+![Superposiciones de tendencias](assets/venn.png)
