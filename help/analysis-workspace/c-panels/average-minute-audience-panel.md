@@ -5,7 +5,7 @@ feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
 ht-degree: 100%
 
