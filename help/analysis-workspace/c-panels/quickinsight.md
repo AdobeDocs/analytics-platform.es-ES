@@ -4,7 +4,7 @@ title: Panel de información rápida
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
 ht-degree: 100%
 
