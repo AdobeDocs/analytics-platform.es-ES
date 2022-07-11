@@ -2,9 +2,9 @@
 title: Grupos de informes virtuales, vistas de datos, entornos limitados de AEP y el conector de origen de Analytics
 description: Obtenga información sobre los entornos de informes virtuales y los entornos de entornos limitados.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
-source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
+source-git-commit: 6603aed778980c37d69843f11f3ee64e64cd13b5
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '720'
 ht-degree: 8%
 
 ---
@@ -21,7 +21,7 @@ Adobe proporciona una variedad de medios para crear entornos de informes virtual
 
 Para obtener más información, consulte: [Resumen de los grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es).
 
-Un VRS:
+Un grupo de informes virtuales:
 
 * Se puede basar en segmentos de Adobe Analytics.
 * Se puede aplicar a datos nuevos e históricos de una manera no destructiva.
