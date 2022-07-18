@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: f698b236ec37439b1edf7c28497baa8330b05015
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 78%
+source-wordcount: '1085'
+ht-degree: 69%
 
 ---
 
@@ -87,7 +87,7 @@ No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
 
-## Informes de sesión nuevos frente a repetidos {#new-repeat}
+## 7. Informes de sesión nuevos frente a repetidos {#new-repeat}
 
 Puede determinar si una sesión es realmente la primera sesión de un usuario o no, en función de la ventana de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Este informe permite determinar, por ejemplo:
 
@@ -97,9 +97,9 @@ Puede determinar si una sesión es realmente la primera sesión de un usuario o 
 
 Tres componentes facilitan la presentación de informes:
 
-* 1 dimensión: Sesiones nuevas y recurrentes
+* 1 dimensión: [Tipo de sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - Esta dimensión tiene dos valores: 1) [!UICONTROL Nuevo] y 2) [!UICONTROL Devolución]. La variable [!UICONTROL Nuevo] el elemento de línea incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el [!UICONTROL Devolución] elemento de línea (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque &quot;No aplicable&quot; para esta dimensión.
 
-* 2 métricas: Nuevas sesiones, sesiones de retorno
+* 2 métricas: [Nuevas sesiones, sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de informes. Las sesiones de retorno son el número de sesiones que no fueron la primera sesión de una persona.
 
 Para acceder a estos componentes:
 
@@ -109,7 +109,7 @@ Para acceder a estos componentes:
 
 Del 95 % al 99 % de las veces, las nuevas sesiones se registrarán con precisión. Las únicas excepciones son:
 
-* Cuando se produce una sesión antes de la ventana retrospectiva de 13 meses. Se ignorará esta sesión.
+* Cuando se produce una primera sesión antes de la ventana retrospectiva de 13 meses. Se ignorará esta sesión.
 
 * Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de informes se contarán como sesiones recurrentes.
 

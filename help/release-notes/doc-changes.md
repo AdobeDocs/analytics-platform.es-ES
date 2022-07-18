@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 83%
+source-wordcount: '880'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 | Fecha | Actualizar descripción |
 | --- | --- |
-| Julio de 2022 | Documentación de informes de sesión nueva frente a repetida. |
+| Julio de 2022 | [Sesión nueva vs. repetida](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) documentación de informes. |
 | Junio de 2022 | Nuevo artículo sobre [AAID, ECID, AACUSTOMID y el conector de origen de Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) |
 | Junio de 2022 | Nuevo artículo sobre [Reglas de procesamiento de Adobe Analytics, VISTA y clasificaciones vs. Preparación de datos para el conector de origen de Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | Junio de 2022 | Nuevo artículo sobre [entornos de informes virtuales y entornos de espacio aislado](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |

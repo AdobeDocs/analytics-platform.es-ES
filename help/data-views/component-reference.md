@@ -4,7 +4,7 @@ description: Detalles e información sobre todos los componentes estándar que s
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 89%
@@ -48,9 +48,9 @@ Los componentes estándar opcionales están disponibles en la pestaña **[!UICON
 | [!UICONTROL Día del mes] | Dimensión de partición de tiempo | 1-31 |
 | [!UICONTROL Día de la semana] | Dimensión de partición de tiempo | lunes, martes, miércoles, jueves, viernes, sábado, domingo |
 | [!UICONTROL Día del año] | Dimensión de partición de tiempo | 1-366 |
-| [!UICONTROL Primera sesión] | Métrica | Primera sesión definida por una persona dentro de la ventana de informes |
 | [!UICONTROL Hora del día] | Dimensión de partición de tiempo | 0-23 |
 | [!UICONTROL  Mes del año] | Dimensión de partición de tiempo | Enero-diciembre |
+| [!UICONTROL Nueva sesión] | Métrica | Primera sesión definida por una persona dentro de la ventana de informes |
 | [!UICONTROL ID de la persona] | Dimensión | Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID vinculado, ID de usuario, código de seguimiento, etc. La dimensión [!UICONTROL ID de persona] es la base de la combinación de conjuntos de datos y la identificación de visitantes únicos en CJA.<p>Los posibles casos de uso incluyen los siguientes:<ul><li>Creación de un filtro con un valor de ID de persona específico para filtrar todo según el comportamiento de ese usuario.</li><li>Depuración: asegúrese de que los datos de un ID de cookie específico (o un ID de cliente específico) estén presentes.</li><li>Identificación de los usuarios que llamaron a un centro de llamadas.</li></ul> |
 | [!UICONTROL Área de nombres de ID de persona] | Dimensión | De qué tipo de identificación consta el [!UICONTROL ID de persona]. Ejemplos: `email address`, `cookie ID`, `Analytics ID`, etc. |
 | [!UICONTROL Trimestre del año] | Dimensión de partición de tiempo | T1, T2, T3, T4 |
