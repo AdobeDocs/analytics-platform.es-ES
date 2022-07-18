@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: f698b236ec37439b1edf7c28497baa8330b05015
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics.
 
-## 1. Cree una métrica a partir de un campo de esquema de cadena.
+## 1. Cree una métrica a partir de un campo de esquema de cadena. {#string}
 
 Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL Pedidos] a partir de un campo de esquema [!UICONTROL pageTitle] que sea una cadena. A continuación se describen los pasos que debe seguir:
 
@@ -32,7 +32,7 @@ También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y e
 
 Otro ejemplo sería el uso del ID de visitante, una dimensión, como métrica para determinar cuántos ID de visitante tiene su compañía.
 
-## 2. Use enteros como dimensiones.
+## 2. Use enteros como dimensiones. {#integers}
 
 Anteriormente, los enteros se trataban automáticamente como métricas en CJA. Ahora, los números (incluidos los eventos personalizados de Adobe Analytics) pueden tratarse como dimensiones. Vea el siguiente ejemplo:
 
@@ -44,7 +44,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 
    ![](assets/bucketing.png)
 
-## 3. Utilice dimensiones numéricas como “métricas” en diagramas de flujo.
+## 3. Utilice dimensiones numéricas como “métricas” en diagramas de flujo. {#numeric}
 
 Puede utilizar una dimensión numérica para obtener “métricas” en la visualización de [!UICONTROL flujo].
 
@@ -53,13 +53,13 @@ Puede utilizar una dimensión numérica para obtener “métricas” en la visua
 
 ![](assets/flow.png)
 
-## 4. Filtre los subeventos.
+## 4. Filtre los subeventos. {#sub-event}
 
 Esta función se aplica específicamente a los campos basados en matrices. La funcionalidad de inclusión/exclusión permite realizar filtros en el nivel de subevento, mientras que los filtros (segmentos) creados en el generador de filtros solo le proporcionan filtros en el nivel de evento. De este modo, puede realizar el filtrado de subeventos mediante la inclusión/exclusión en Vistas de datos y luego hacer referencia a esa nueva métrica/dimensión en un filtro a nivel de evento.
 
 Por ejemplo, puede usar la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 dólares. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 dólares y una compra de productos de 25 dólares, solo quitaríamos esta última, no todo el pedido.
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
 a. En [!UICONTROL Formato], seleccione [!UICONTROL Moneda].
 b. En [!UICONTROL Moneda], seleccione USD.
@@ -70,13 +70,13 @@ f. Especifique “50” como valor.
 
 Esta nueva configuración le permite ver solo los ingresos de alto valor y filtrar cualquiera por debajo de 50 $.
 
-## 5. Utilice la configuración [!UICONTROL Opciones sin valor].
+## 5. Utilice la configuración [!UICONTROL Opciones sin valor]. {#no-value}
 
 Es posible que su compañía haya dedicado tiempo en formar a sus usuarios para ver No especificado en los informes. El valor predeterminado en Vistas de datos es “Sin valor”. Ahora puede [cambiar el nombre de Sin valor por No especificado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-no-value-options-settings) en la IU de las vistas de datos.
 
 Otro ejemplo sería una dimensión para el registro de un programa de membresía. En este caso, puede cambiar el nombre “Sin valor” por “Sin registro de programa de membresía”.
 
-## 6. Cree varias métricas con diferentes configuraciones de [!UICONTROL Atribución].
+## 6. Cree varias métricas con diferentes configuraciones de [!UICONTROL Atribución]. {#attribution}
 
 Con la función [!UICONTROL Duplicar] de la parte superior derecha, cree una serie de métricas de ingresos con diferentes configuraciones de atribución como [!UICONTROL Primer contacto], [!UICONTROL Último contacto] y [!UICONTROL Algorítmico].
 
@@ -86,3 +86,30 @@ No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como
 
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
+
+## Informes de sesión nuevos frente a repetidos {#new-repeat}
+
+Puede determinar si una sesión es realmente la primera sesión de un usuario o no, en función de la ventana de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Este informe permite determinar, por ejemplo:
+
+* ¿Qué porcentaje de sus pedidos provienen de sesiones nuevas o repetidas?
+
+* Para un canal de marketing determinado o una campaña específica, ¿está dirigiéndose a los usuarios nuevos o a los usuarios de retorno? ¿Cómo influyeron estas opciones en las tasas de conversión?
+
+Tres componentes facilitan la presentación de informes:
+
+* 1 dimensión: Sesiones nuevas y recurrentes
+
+* 2 métricas: Nuevas sesiones, sesiones de retorno
+
+Para acceder a estos componentes:
+
+1. Vaya al editor de vista de datos.
+1. Haga clic en el **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar opcionales]** en el carril izquierdo.
+1. Arrástrelos a la vista de datos.
+
+Del 95 % al 99 % de las veces, las nuevas sesiones se registrarán con precisión. Las únicas excepciones son:
+
+* Cuando se produce una sesión antes de la ventana retrospectiva de 13 meses. Se ignorará esta sesión.
+
+* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de informes se contarán como sesiones recurrentes.
+
