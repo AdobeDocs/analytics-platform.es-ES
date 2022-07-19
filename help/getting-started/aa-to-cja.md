@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 93690a3351f2dca0b3a68e7eea7fb64c581d2d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1333'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ A medida que su organización evoluciona para utilizar Customer Journey Analytic
 
 ## Preparación de los datos
 
-La preparación de los datos de Adobe Analytics para un paso sin problemas a Customer Journey Analytics es fundamental para la integridad de los datos y la coherencia del sistema de informes.
+La preparación de los datos de Adobe Analytics para pasar sin problemas a Customer Journey Analytics es fundamental para la integridad de los datos y la coherencia del sistema de informes.
 
 ### 1. Recopilar identidades {#identities}
 
@@ -38,13 +38,13 @@ El método de transformación más directa de datos de Adobe Analytics a datos d
 
 Es posible que no siempre sea factible una implementación de un grupo de informes globales completo. Si planea incluir varios grupos de informes en Customer Journey Analytics, tiene dos opciones:
 
-* Planifique con anticipación para alinear las variables en todos esos grupos de informes. Por ejemplo, eVar1 en el grupo de informes 1 puede apuntar a [!UICONTROL Página]. En el grupo de informes 2, el eVar 1 puede señalar a [!UICONTROL Campaña interna]. Cuando se incorporan a CJA, estas variables se mezclan en una sola dimensión de eVar1, lo que conduce a informes potencialmente confusos e inexactos.
+* Planifique con anticipación para alinear las variables en todos esos grupos de informes. Por ejemplo, eVar1 en el grupo de informes 1 puede apuntar a [!UICONTROL Página]. En el grupo de informes 2, el eVar1 puede señalar a [!UICONTROL Campaña interna]. Cuando se incorporan a CJA, estas variables se mezclan en una sola dimensión de eVar1, lo que conduce a informes potencialmente confusos e inexactos.
 
 * Utilice la función [Preparación de fecha](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) para asignar variables. Aunque facilita que todos los grupos de informes utilicen el mismo diseño común de variables, no es necesario si utiliza la nueva función [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es#mapping) de Experience Platform. Permite hacer referencia a una variable según su valor asignado, que es del nivel de conjunto de datos (o propiedad).
 
 Si ha evitado pasarse a un grupo de informes globales debido a problemas de [!UICONTROL excesos en la cantidad de valores exclusivos] o [!UICONTROL bajo tráfico], debe saber que CJA no tiene [límites de cardinalidad en una dimensión](/help/components/dimensions/high-cardinality.md). Permite que aparezca y se cuente cualquier valor único.
 
-Este es un caso de uso en [combinación de grupos de informes con distintos esquemas](/help/use-cases/combine-report-suites.md).
+Este es un caso de uso en [combinación de grupos de informes con diferentes esquemas](/help/use-cases/combine-report-suites.md).
 
 ### 3. (Re)Configuración de los canales de marketing {#marketing-channels}
 
@@ -84,7 +84,7 @@ No se admiten las siguientes funciones o componentes de Adobe Analytics:
 
 Los informes de Adobe Analytics dependen de una cantidad significativa de datos preprocesados para generar resultados como la persistencia que se ve en [!UICONTROL eVars]. Por el contrario, Customer Journey Analytics ejecuta esos cálculos en el tiempo de ejecución del informe.
 
-[!UICONTROL Procesamiento de tiempo de los informes] abre la capacidad de aplicar configuraciones retroactivas y crear varias versiones de persistencia de variables sin necesidad de cambiar la forma en que se recopilan los datos subyacentes.
+[!UICONTROL Procesamiento de intervalo de tiempo] abre la capacidad de aplicar configuraciones retroactivas y crear varias versiones de persistencia de variables sin necesidad de cambiar la forma en que se recopilan los datos subyacentes.
 
 Este cambio producirá algunas diferencias en la forma en que se crean los informes de los datos, especialmente para cualquier variable que pueda tener un período de caducidad largo. Puede empezar evaluando cómo puede afectar el procesamiento del tiempo de los informes a su creación con un [grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=es).
 
@@ -104,7 +104,7 @@ Aquí hay un par de vídeos para guiarle:
 
 * [Paso de segmentos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=es)
 
-* [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+* [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=es)
 
 ### Otras consideraciones
 
