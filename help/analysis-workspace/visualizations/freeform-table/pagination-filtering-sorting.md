@@ -4,7 +4,7 @@ title: Paginación, filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Para obtener una descripción general de la paginación, el filtrado y la ordena
 
 ## Opciones de filtrado avanzadas {#section_36E92E31442B4EBCB052073590C1F025}
 
-Al hacer clic en el icono de filtro y, luego, en **[!UICONTROL Mostrar avanzado]** junto a una dimensión de una tabla improvisada, podrá filtrar según los criterios siguientes. Puede aplicar varias reglas de filtrado.
+Al hacer clic en el icono de filtro y, luego, en **[!UICONTROL Mostrar avanzado]** junto a una dimensión de una tabla de forma libre, podrá filtrar según los criterios siguientes. Puede aplicar varias reglas de filtrado.
 
 * Contiene
 * No contiene
@@ -34,13 +34,13 @@ Al hacer clic en el icono de filtro y, luego, en **[!UICONTROL Mostrar avanzado]
 
 ![](assets/advanced-filter.png)
 
-## Ordenación de dimensiones en tablas improvisadas
+## Ordenación de dimensiones en tablas de forma libre
 
 >[!NOTE]
 >
->La ordenación de dimensiones se aplica solamente a tablas improvisadas de Customer Journey Analytics, no de Adobe Analytics tradicional. La ordenación de métricas se puede realizar en ambas versiones de Analytics.
+>La ordenación de dimensiones se aplica solamente a tablas de forma libre de Customer Journey Analytics, no de Adobe Analytics tradicional. La ordenación de métricas se puede realizar en ambas versiones de Analytics.
 
-1. En cualquier tabla improvisada de un proyecto, haga clic en la flecha situada junto al nombre de la dimensión:
+1. En cualquier tabla de forma libre de un proyecto, haga clic en la flecha situada junto al nombre de la dimensión:
 
 ![](assets/sort-dimensions.png)
 
