@@ -4,19 +4,14 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
+source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1010'
 ht-degree: 96%
 
 ---
 
 # Panel de visualizadores simultáneos de medios
-
->[!NOTE]
->
->Actualmente, esta función está en [prueba limitada](/help/release-notes/releases.md).
-
 
 Puede analizar los visualizadores simultáneos para comprender dónde se produjo la concurrencia máxima o dónde se produjeron los descensos y proporcionar una valiosa perspectiva de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen o la escala.
 
