@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Tiene acceso a muchos más datos de canales cruzados para analizar. Por ejemplo,
 
 ## Cambios en la arquitectura de datos {#architecture}
 
-CJA obtiene sus datos de Adobe Experience Platform. Experience Platform le permite centralizar y estandarizar los datos y el contenido de los clientes de cualquier sistema o acanal y aplica la ciencia de datos y el aprendizaje automático para mejorar el diseño y el envío de las experiencias personalizadas.
+CJA obtiene sus datos de Adobe Experience Platform. Experience Platform le permite centralizar y estandarizar los datos y el contenido de los clientes de cualquier sistema o canal y aplica la ciencia de datos y el aprendizaje automático para mejorar el diseño y el envío de las experiencias personalizadas.
 
 Los datos del cliente en Experience Platform se almacenan como conjuntos de datos, que consisten en un [esquema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=es) y lotes de datos. Para obtener más información sobre la plataforma, consulte la [Descripción general de arquitectura de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=es).
 
@@ -72,7 +72,7 @@ Adobe ha cambiado el nombre del componente “segmentos” a “filtros” para 
 
 >[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
-Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL segmentos]) desde [!DNL Customer Journey Analytics] a Experience Platform Unified Profile, esta funcionalidad está en desarrollo.
+Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL segmentos]) desde [!DNL Customer Journey Analytics] al perfil unificado de Experience Platform, esta funcionalidad está en desarrollo.
 
 Además del concepto de cambiar segmentos, también se actualizan los contenedores de segmentos.
 
@@ -96,7 +96,7 @@ También puede tener varias vistas de datos basadas en la misma conexión. Por e
 
 ## Cambios en el concepto de clasificaciones
 
-Las “clasificaciones” ahora se conocen como “Conjuntos de datos de búsqueda”. Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [Agregar datos de nivel de cuenta como un conjunto de datos de búsquda](/help/use-cases/b2b.md) para ver un ejemplo de uso.
+Las “clasificaciones” ahora se conocen como “Conjuntos de datos de búsqueda”. Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [Agregar datos de nivel de cuenta como un conjunto de datos de búsqueda](/help/use-cases/b2b.md) para ver un ejemplo de uso.
 
 ## Cambios en el concepto de atributos del cliente
 
