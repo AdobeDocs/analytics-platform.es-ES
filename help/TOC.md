@@ -10,9 +10,9 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Cross-Channel Analytics, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: f6ad28f8ed766bd25986da48bfd7bd7e86df0861
-workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
    + Comparar Adobe Analytics y Customer Journey Analytics {#compare-aa-cja}
       + [Compatibilidad con funciones de Customer Journey Analytics](getting-started/aa-vs-cja/cja-aa.md)
       + [Comparar el procesamiento de datos entre Adobe Analytics y CJA](getting-started/aa-vs-cja/data-processing-comparisons.md)
-      + [Entornos de informes virtuales y entornos de espacio aislado](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
+      + [Entornos de informes virtuales y entornos de zonas protegidas](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Reglas de procesamiento, VISTA y clasificaciones en comparación con la preparación de datos](getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID y el conector de origen de Analytics](getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Implicaciones de eliminación](getting-started/cja-deletion.md)
@@ -53,8 +53,8 @@ ht-degree: 93%
       + [Cómo funcionan las reproducciones](connections/cca/replay.md)
       + [Preguntas frecuentes sobre Cross-Channel Analytics](connections/cca/faq.md)
 + Vistas de datos {#cja-dataviews}
-   + [Información general de las vistas de datos](data-views/data-views.md)
-   + [Creación o edición de una fuente de datos](data-views/create-dataview.md)
+   + [Resumen de las vistas de datos](data-views/data-views.md)
+   + [Creación o edición de una vista de datos](data-views/create-dataview.md)
    + Configuración de componentes {#component-settings}
       + [Información general sobre la configuración de componentes](data-views/component-settings/overview.md)
       + [Atribución](data-views/component-settings/attribution.md)
@@ -93,10 +93,10 @@ ht-degree: 93%
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casos de uso de análisis de cohorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-      + Abandono {#fallout}
-         + [Resumen de abandonos](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Configurar una visualización de abandonos](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Abandonos entre dimensiones](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+      + Visita en orden previsto {#fallout}
+         + [Resumen de visita en orden previsto](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Configurar una visualización de visita en orden previsto](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Visita en orden previsto entre dimensiones](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Aplicar filtros en un análisis de visitas en orden previsto](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flujo {#flow}
          + [Resumen de flujos](analysis-workspace/visualizations/c-flow/flow.md)
