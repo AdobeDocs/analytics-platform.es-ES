@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
 source-wordcount: '1409'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Métricas | Compatibilidad total. CJA aprovecha Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
 | Anulación de duplicación métrica | Compatibilidad total. |
 | Paneles y cuadros de resultados para móviles | Compatibilidad total. |
-| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. |
+| Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. |
 | Exportación de PDF | Compatibilidad total. |
 | Revisión del proyecto | Compatibilidad total. |
 | Vinculación de proyectos | Compatibilidad total. |
@@ -48,7 +48,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Acceso a la API de informes | Compatibilidad total. Disponible a través de la [API de CJA](https://www.adobe.io/cja-apis/docs/). |
 | Informes y proyectos programados | Compatibilidad total. |
 | Segmentos | Compatibilidad total. Ahora se denomina Filtros. Tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
-| Permisos de usuario/Controles de acceso de datos | Compatibilidad total. CJA distingue entre administradores de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es). Solo los administradores de productos pueden <ul><li>Crear/actualizar/eliminar conexiones o Vistas de datos</li><li>Actualizar o eliminar proyectos, filtros o métricas de cálculo creados por otros usuarios, y</li><li>Compartir un proyecto de Workspace con todos los usuarios.</li></ul> |
+| Permisos de usuario/Controles de acceso de datos | Compatibilidad total. CJA distingue entre administradores de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es). Solo los administradores de productos pueden <ul><li>Crear/actualizar/eliminar conexiones o Vistas de datos</li><li>Actualizar o eliminar proyectos, filtros o métricas de cálculo creados por otros usuarios, y</li><li>Compartir un proyecto del Espacio de trabajo con todos los usuarios.</li></ul> |
 | Grupos de informes virtuales | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de VRS | Compatibilidad total; Ahora forma parte de Vistas de datos. |
 
@@ -59,14 +59,14 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | A4T | Se proporciona soporte mediante campos en el [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). |
-| Clasificaciones | Ahora se denomina Conjuntos de datos de búsqueda. Las clasificaciones utilizadas en Analytics se pueden importar al Experience Platform y a CJA mediante el conector de origen de clasificaciones de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en AEP y estar disponibles en CJA. |
+| Clasificaciones | Ahora se denomina Conjuntos de datos de búsqueda. Las clasificaciones utilizadas en Analytics se pueden importar a Experience Platform y a CJA mediante el Classifications Source Connector de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en AEP y estar disponibles en CJA. |
 | Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada excepto las visitas en segundo plano móviles. |
 | Atributos del cliente | Ahora se denomina Conjuntos de datos de perfil. No se importan de manera automática desde Experience Cloud, pero deberán cargarse en AEP antes de que estén disponibles en CJA. |
 | Dimensiones del [!UICONTROL Dispositivo], [!UICONTROL Explorador], [!UICONTROL Referente], [!UICONTROL Tecnología] | Estas dimensiones se incluyen automáticamente cuando un conjunto de datos de AEP incluye campos de esquema XDM específicos y se ajusta a la clase de evento de Experience XDM. Consulte nuestra [documentación sobre las variables de Analytics que se admiten a través del conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es). Para los clientes de CJA que no utilizan el conector de origen para rellenar datos de Adobe Analytics en CJA, pero que en su lugar usan la recopilación de datos del SDK web de AEP, [!UICONTROL Dispositivo] y las dimensiones basadas en la búsqueda de dispositivos no son compatibles actualmente, pero lo serán pronto. |
 | Métricas y dimensiones de entradas, salidas y tiempo empleado | Todas estas son ahora compatibles (las entradas y salidas ahora se denominan inicios de sesión y fines de sesión) y se calculan de forma ligeramente distinta. |
 | Configuración de persistencia de eVar | Las eVars ya no forman parte de CJA. Sin embargo, la configuración de persistencia ahora forma parte de las Vistas de datos y está disponible para todas las dimensiones. Tenga en cuenta que la persistencia se basa en el procesamiento de intervalos del informe, no en el procesamiento de la recopilación de datos. Las dimensiones configuradas en Vistas de datos se limitan a una persistencia máxima de 90 días y no admiten persistencia ilimitada. |
-| Dimensiones de segmentación geográfica | Toda la segmentación geográfica/geografía recopilada en Adobe Analytics se transfiere a CJA a través del [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Las implementaciones que no utilizan el conector de origen de Analytics, como las que dependen del SDK web de AEP para la recopilación de datos digitales, no tendrán la pizarra completa de búsquedas geográficas realizadas automáticamente: El país y el estado son compatibles globalmente, la ciudad y el código postal no lo son. |
-| Canales de marketing | Los datos de los canales de marketing fluyen a CJA a través del conector de origen de Analytics. Las reglas del canal de marketing aún deben configurarse en Adobe Analytics tradicional. Algunas reglas no son compatibles. Para obtener más información, consulte la [documentación sobre canales de marketing de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=es#cja-usecases). |
+| Dimensiones de segmentación geográfica | Toda la segmentación geográfica/geografía recopilada en Adobe Analytics se transfiere a CJA a través del [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Las implementaciones que no utilicen Analytics Source Connector, como las que dependen del SDK web de AEP para la recopilación de datos digitales, no tendrán la lista completa de búsquedas geográficas realizadas automáticamente: se admiten países y estados de todo el mundo, ciudades y códigos postales no. |
+| Canales de marketing | Los datos de los canales de marketing ahora fluyen a CJA a través de Analytics Source Connector. Las reglas del canal de marketing aún deben configurarse en Adobe Analytics tradicional. Algunas reglas no son compatibles. Para obtener más información, consulte la [documentación sobre canales de marketing de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=es#cja-usecases). |
 | Informes de sesión nueva frente a repetida | Compatible, [con una ventana retrospectiva de 13 meses](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat). |
 | Variable de producto | Dentro de Experience Platform, los usuarios pueden utilizar una matriz de campos de tipo Objeto dentro de un esquema del conjunto de datos para satisfacer este caso práctico. Dentro de CJA, los clientes tienen la capacidad de usar cualquier número de variables de producto y no están restringidos a una sola variable como en Adobe Analytics. |
 | Uso compartido de proyecto | El uso compartido de proyectos solo es compatible entre los usuarios de CJA; no existe el uso compartido de proyectos entre CJA y la versión tradicional de Analysis Workspace. |
@@ -79,8 +79,8 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Filtros de bots | Para conjuntos de datos basados en el [conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
-| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics for Target (A4T) y Visores simultáneos de medios. |
-| Reglas de procesamiento | Para los conjuntos de datos basados en el conector de origen de Analytics, las reglas de procesamiento siguen aplicándose. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
+| Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics for Target (A4T) y Visores simultáneos de medios. |
+| Reglas de procesamiento | En los conjuntos de datos basados en Analytics Source Connector, las reglas de procesamiento se aplican igual. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
 | Streaming de datos de medios | Los datos de medios están disponibles como parte del [conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). |
 
 {style=&quot;table-layout:auto&quot;}
