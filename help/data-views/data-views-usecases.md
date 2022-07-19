@@ -4,9 +4,9 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
+source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1092'
 ht-degree: 69%
 
 ---
@@ -88,6 +88,10 @@ Para obtener más información sobre otras configuraciones de vistas de datos, c
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
 
 ## 7. Informes de sesión nuevos frente a repetidos {#new-repeat}
+
+>[!NOTE]
+>
+>Actualmente, esta funcionalidad está en prueba limitada.
 
 Puede determinar si una sesión es realmente la primera sesión de un usuario o no, en función de la ventana de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Este informe permite determinar, por ejemplo:
 
