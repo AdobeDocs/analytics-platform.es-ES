@@ -5,15 +5,15 @@ feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Panel Tiempo invertido en la reproducción de contenido
 
-Puede analizar el tiempo invertido en la reproducción para comprender dónde se produjo la concurrencia máxima o dónde se produjeron los descensos y proporcionar una valiosa perspectiva de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen o la escala.
+Puede analizar el tiempo invertido en la reproducción para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los abandonos para proporcionar un valioso conocimiento sobre la calidad del contenido y la participación del visualizador, así como para solucionar problemas o a planificar el volumen y la escala.
 
 En Analysis Workspace, Tiempo invertido en la reproducción de contenido es la cantidad de tiempo que se emplea para ver flujos de medios en un momento específico, e incluye pausas, el búfer y el tiempo para el inicio.
 
