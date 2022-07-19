@@ -4,9 +4,9 @@ title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UI
 | [Panel de Attribution](attribution.md) | Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión. |
 | [Panel de forma libre](freeform-panel.md) | Realice comparaciones y desgloses ilimitados y, a continuación, añada visualizaciones para contar una historia de datos enriquecida. |
 | [Panel de visualizadores simultáneos de medios](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
-| [Panel Tiempo invertido en la reproducción de medios](media-playback-timespent/media-playback-time-spent.md) | Analice el tiempo de reproducción transcurrido para comprender dónde se produjo la concurrencia máxima o dónde se produjeron los descensos. |
+| [Panel Tiempo invertido en la reproducción de medios](media-playback-timespent/media-playback-time-spent.md) | Analice el tiempo invertido en la reproducción para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los descensos. |
 
 ![](assets/panel-overview.png)
 
@@ -55,9 +55,9 @@ Arrastre y suelte cualquier filtro del carril izquierdo en la zona desplegable d
 
 ### Filtros ad hoc
 
-Los componentes que no son filtros también se pueden arrastrar directamente a la zona de colocación para crear filtros específicos, lo que le ahorrará el tiempo y el tener que utilizar el Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al filtro, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de filtros.
+Los componentes que no son filtros también se pueden arrastrar directamente a la zona de colocación para crear filtros ad hoc, lo que le ahorrará el tiempo y el tener que utilizar el Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al filtro, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de filtros.
 
-Los filtros específicos son locales del proyecto y no aparecerán en el carril izquierdo a menos que los haga públicos.
+Los filtros ad hoc son locales del proyecto y no aparecerán en el carril izquierdo a menos que los haga públicos.
 
 ![](assets/adhoc-segment-filter.png)
 
