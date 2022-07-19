@@ -3,9 +3,9 @@ title: Administrar audiencias creadas en Customer Journey Analytics
 description: Descubra cómo administrar audiencias en Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La administración de audiencias creadas anteriormente le permite
 
 * **Programar o desprogramar** actualizaciones automáticas de audiencias. La caducidad máxima de la programación es de 1 año.
 * **Renovar la programación de actualizaciones de una audiencia** cuando esté a punto de caducar. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la programación caduque.
-* Consulte la **intervalo de actualización** y **la última vez que se actualizó una audiencia**
+* Consultar el **intervalo de actualización** y la **última vez que se actualizó una audiencia**
 * Obtenga información sobre la **cantidad de tiempo que se tardó en producir una audiencia** de Customer Journey Analytics (CJA) y la cantidad de tiempo que tardó la audiencia en aparecer en el Perfil del cliente en tiempo real con fines de activación.
 * Vea si las audiencias de CJA están **siendo utilizadas activamente por el Perfil del cliente en tiempo real** o (idealmente) cualquier aplicación de Experience Platform que consuma las audiencias creadas por CJA.
 
@@ -36,7 +36,7 @@ La administración de audiencias creadas anteriormente le permite
 | [!UICONTROL Propietario] | El propietario de la audiencia: la persona que la creó. |
 | [!UICONTROL Frecuencia de actualización] | El intervalo de actualización configurado al crear la audiencia. |
 | [!UICONTROL Etiquetas] | Las etiquetas aplicadas a esta audiencia. |
-| [!UICONTROL Estado de publicación] | Se puede mostrar [!UICONTROL Preparado], [!UICONTROL En curso]o [!UICONTROL Error]. |
+| [!UICONTROL Estado de publicación] | Puede mostrar [!UICONTROL Listo], [!UICONTROL En curso] o [!UICONTROL Error]. |
 | [!UICONTROL  Última actualización] | La última vez que se actualizó la audiencia. |
 | [!UICONTROL Última modificación] | La última vez que se editó o modificó la audiencia. |
 
