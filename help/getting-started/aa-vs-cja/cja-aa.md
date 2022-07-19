@@ -4,9 +4,9 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 0adc1c6a285bcabc1023834b39a315be1860b7d9
+source-git-commit: 9d928a68e9b2eb16ba14cd793857547432ba11b0
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1411'
 ht-degree: 97%
 
 ---
@@ -80,7 +80,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Filtros de bots | Para conjuntos de datos basados en el [conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
-| Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. No se admiten los paneles Comparación de segmentos, Analytics for Target (A4T) y Visores simultáneos de medios. |
+| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics para Target (A4T) no son compatibles. |
 | Reglas de procesamiento | En los conjuntos de datos basados en Analytics Source Connector, las reglas de procesamiento se aplican igual. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
 
 {style=&quot;table-layout:auto&quot;}
