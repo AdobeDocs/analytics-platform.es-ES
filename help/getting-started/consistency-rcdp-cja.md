@@ -1,19 +1,20 @@
 ---
-description: Explica qué factores influyen en la coherencia de las métricas entre Real-time Customer Data Platform (CDP en tiempo real) y CJA.
-title: Coherencia de métricas entre CDP en tiempo real y CJA
+description: Explica qué factores influyen en la coherencia de las métricas y los recuentos de pertenencia a audiencias entre Real-time Customer Data Platform (CDP en tiempo real) y CJA.
+title: Coherencia de métricas y recuentos de miembros de audiencia entre CDP en tiempo real y CJA
 role: Admin
 feature: CJA Basics
-source-git-commit: 2318b303c981ad556dc61a3419af4cce9fbbf92b
+exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
+source-git-commit: 21d51ababeda7fe188fbd42b57ef3baf76d21774
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '781'
 ht-degree: 2%
 
 ---
 
 
-# Coherencia de métricas entre CDP en tiempo real y CJA
+# Coherencia de métricas y recuentos de miembros de audiencia entre CDP en tiempo real y CJA
 
-En escenarios reales, no se puede garantizar la coherencia de las métricas en Real-time Customer Data Platform (CDP en tiempo real) y Customer Journey Analytics (CJA). Este documento explica por qué.
+En escenarios reales, no se puede garantizar la coherencia de las métricas y los recuentos de miembros de audiencia en Real-time Customer Data Platform (CDP en tiempo real) y Customer Journey Analytics (CJA). Este documento explica por qué.
 
 ## CJA todavía no utiliza Identity Graph
 
