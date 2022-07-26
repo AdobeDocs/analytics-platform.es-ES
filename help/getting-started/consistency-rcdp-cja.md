@@ -4,9 +4,9 @@ title: Coherencia de métricas y recuentos de miembros de audiencia entre CDP en
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: cf4e2136f5ab4e0ed702820e52e9a62ea8251860
+source-git-commit: 769eef205df32865874753859ce79e573db40641
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,14 @@ ht-degree: 0%
 
 En escenarios reales, no se puede garantizar la coherencia de las métricas y los recuentos de miembros de audiencia en Real-time Customer Data Platform (CDP en tiempo real) y Customer Journey Analytics (CJA). Este documento explica por qué.
 
+Al comparar los recuentos de miembros de la audiencia entre CDP en tiempo real y CJA, es importante tener en cuenta los diferentes propósitos de estas dos herramientas. CDP en tiempo real utiliza datos de perfil del cliente para dirigir experiencias digitales a consumidores individuales, mientras que CJA está diseñado para ayudar a los usuarios a comprender los patrones en métricas y segmentos clave del negocio. Aunque la publicación de audiencias de CJA a CDP en tiempo real permite al usuario de estas herramientas &quot;activar&quot; de forma fácil y nativa una perspectiva, aprovechando las lecciones obtenidas en CJA, estas herramientas sirven para propósitos fundamentalmente diferentes.
+
 ## Diferencias en las configuraciones de identidad
 
 CDP y CJA en tiempo real no comparten la misma definición de una persona en la actualidad. CDP en tiempo real se basa completamente en la información del [Gráfico de identidad](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) para crear un perfil combinado.
 
 CJA se puede configurar para usar [Análisis en canales múltiples](/help/connections/cca/overview.md) que extrae identificadores de conjuntos de datos en el lago de datos y aplica lógica personalizada para vincularlos juntos.
+
 En el futuro, CJA podrá utilizar Identity Graph.
 
 ## Diferencias en la configuración del conjunto de datos
