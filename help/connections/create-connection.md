@@ -4,7 +4,7 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: fd403194eed70e1b4a5a63cd02c8a84a11902e1d
+source-git-commit: 3fa65dd46e807041cec1fee64e918aacaa5b7a1b
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 99%
@@ -140,7 +140,7 @@ Si selecciona Mapa de identidad, obtendrá dos opciones de configuración adicio
 
 En esta tabla se muestran las dos opciones de configuración cuando están presentes los casos extremos y cómo se gestionan:
 
-| Opción | No hay ID presentes en el mapa de identidad | Ningún ID está marcado como principal | Los ID múltiples se marcan como principales | ID único, marcado como principal o no | Área de nombres no válida con un ID marcado como principal |
+| Opción | No hay ID presentes en el mapa de identidad | Varios ID, ninguno marcado como principal | Los ID múltiples se marcan como principales | ID único, marcado como principal o no | Área de nombres no válida con un ID marcado como principal |
 |---|---|---|---|---|---|
 | **[!UICONTROL Usar área de nombres de ID primario] verificado** | La fila la abandona CJA. | La fila se borra con CJA, ya que no se especifica ningún ID principal. | Todos los ID marcados como principales, con todas las áreas de nombres, se extraen en una lista. A continuación, se ordenan alfabéticamente; con esta nueva clasificación, la primera área de nombres con su primer ID se utiliza como ID de persona. | El ID único se utiliza como ID de persona. | Aunque el área de nombres puede no ser válida (no está presente en AEP), CJA utilizará el ID principal de dicha área de nombres como ID de persona. |
 | **[!UICONTROL Área de nombres de un mapa de identidad específica] seleccionada** | La fila la abandona CJA. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar un área de nombres válida en el momento de la creación de la conexión, por lo que no es posible utilizar un área de nombres o ID no válida como ID de persona). |
