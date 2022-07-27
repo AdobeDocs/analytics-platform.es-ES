@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 69%
 
 Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics.
 
-## 1. Cree una métrica a partir de un campo de esquema de cadena. {#string}
+## 1. Cree una métrica a partir de un campo de esquema de cadena {#string}
 
 Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL Pedidos] a partir de un campo de esquema [!UICONTROL pageTitle] que sea una cadena. A continuación se describen los pasos que debe seguir:
 
@@ -32,7 +32,7 @@ También puede crear otra métrica [!UICONTROL Pedidos] desde el mismo campo y e
 
 Otro ejemplo sería el uso del ID de visitante, una dimensión, como métrica para determinar cuántos ID de visitante tiene su compañía.
 
-## 2. Use enteros como dimensiones. {#integers}
+## 2. Use enteros como dimensiones {#integers}
 
 Anteriormente, los enteros se trataban automáticamente como métricas en CJA. Ahora, los números (incluidos los eventos personalizados de Adobe Analytics) pueden tratarse como dimensiones. Vea el siguiente ejemplo:
 
@@ -44,7 +44,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 
    ![](assets/bucketing.png)
 
-## 3. Utilice dimensiones numéricas como “métricas” en diagramas de flujo. {#numeric}
+## 3. Utilice dimensiones numéricas como “métricas” en diagramas de flujo {#numeric}
 
 Puede utilizar una dimensión numérica para obtener “métricas” en la visualización de [!UICONTROL flujo].
 
@@ -53,7 +53,7 @@ Puede utilizar una dimensión numérica para obtener “métricas” en la visua
 
 ![](assets/flow.png)
 
-## 4. Filtre los subeventos. {#sub-event}
+## 4. Filtre los subeventos {#sub-event}
 
 Esta función se aplica específicamente a los campos basados en matrices. La funcionalidad de inclusión/exclusión permite realizar filtros en el nivel de subevento, mientras que los filtros (segmentos) creados en el generador de filtros solo le proporcionan filtros en el nivel de evento. De este modo, puede realizar el filtrado de subeventos mediante la inclusión/exclusión en Vistas de datos y luego hacer referencia a esa nueva métrica/dimensión en un filtro a nivel de evento.
 
@@ -76,7 +76,7 @@ Es posible que su compañía haya dedicado tiempo en formar a sus usuarios para 
 
 Otro ejemplo sería una dimensión para el registro de un programa de membresía. En este caso, puede cambiar el nombre “Sin valor” por “Sin registro de programa de membresía”.
 
-## 6. Cree varias métricas con diferentes configuraciones de [!UICONTROL Atribución]. {#attribution}
+## 6. Cree varias métricas con diferentes configuraciones de [!UICONTROL Atribución] {#attribution}
 
 Con la función [!UICONTROL Duplicar] de la parte superior derecha, cree una serie de métricas de ingresos con diferentes configuraciones de atribución como [!UICONTROL Primer contacto], [!UICONTROL Último contacto] y [!UICONTROL Algorítmico].
 
@@ -87,33 +87,33 @@ No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
 
-## 7. Informes de sesión nuevos frente a repetidos {#new-repeat}
+## 7. Creación de informes de sesión nueva frente a repetida {#new-repeat}
 
 >[!NOTE]
 >
 >Actualmente, esta funcionalidad está en prueba limitada.
 
-Puede determinar si una sesión es realmente la primera sesión de un usuario o no, en función de la ventana de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Este informe permite determinar, por ejemplo:
+Puede determinar si una sesión es realmente la primera sesión de un usuario o no, en función de la ventana de creación de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Esta creación de informe permite determinar, por ejemplo, lo siguiente:
 
 * ¿Qué porcentaje de sus pedidos provienen de sesiones nuevas o repetidas?
 
-* Para un canal de marketing determinado o una campaña específica, ¿está dirigiéndose a los usuarios nuevos o a los usuarios de retorno? ¿Cómo influyeron estas opciones en las tasas de conversión?
+* Para un canal de marketing determinado o una campaña específica, ¿está dirigiéndose a los usuarios que ingresan por primera vez o a los que regresan? ¿Cómo influyeron estas opciones en las tasas de conversión?
 
-Tres componentes facilitan la presentación de informes:
+Tres componentes facilitan la creación de informes:
 
-* 1 dimensión: [Tipo de sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - Esta dimensión tiene dos valores: 1) [!UICONTROL Nuevo] y 2) [!UICONTROL Devolución]. La variable [!UICONTROL Nuevo] el elemento de línea incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el [!UICONTROL Devolución] elemento de línea (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque &quot;No aplicable&quot; para esta dimensión.
+* Primera dimensión: [tipo de sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Esta dimensión tiene dos valores: 1) [!UICONTROL Nuevo] y 2) [!UICONTROL Devolución]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
 
-* 2 métricas: [Nuevas sesiones, sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de informes. Las sesiones de retorno son el número de sesiones que no fueron la primera sesión de una persona.
+* Dos métricas: [nuevas sesiones, sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de creación de informes. Las sesiones de retorno son el número de sesiones que no fueron la primera sesión de una persona.
 
 Para acceder a estos componentes:
 
 1. Vaya al editor de vista de datos.
-1. Haga clic en el **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar opcionales]** en el carril izquierdo.
+1. Haga clic en la pestaña **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar opcionales]** en el carril izquierdo.
 1. Arrástrelos a la vista de datos.
 
-Del 95 % al 99 % de las veces, las nuevas sesiones se registrarán con precisión. Las únicas excepciones son:
+Del 95 al 99 % de las veces, las nuevas sesiones se registrarán con precisión. Las únicas excepciones son las siguientes:
 
 * Cuando se produce una primera sesión antes de la ventana retrospectiva de 13 meses. Se ignorará esta sesión.
 
-* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de informes se contarán como sesiones recurrentes.
+* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de creación de informes se contarán como sesiones recurrentes.
 

@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: bd246314734e8bcebc351d42ebe28ad4912f7ba6
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | --- | --- |
 | Julio de 2022 | [Panel de tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) documentación. |
 | Julio de 2022 | [Panel del visualizador simultáneo de medios](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) documentación. |
-| Julio de 2022 | [Sesión nueva vs. repetida](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) documentación de informes. |
+| Julio de 2022 | Documentación de creación de informes de [Sesión nueva frente a repetida](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat). |
 | Junio de 2022 | Nuevo artículo sobre [AAID, ECID, AACUSTOMID y el conector de origen de Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html?lang=es) |
 | Junio de 2022 | Nuevo artículo sobre [reglas de procesamiento de Adobe Analytics, VISTA y clasificaciones frente a la preparación de datos para el conector de origen de Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | Junio de 2022 | Nuevo artículo sobre [entornos de informes virtuales y entornos de zona protegida](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
@@ -42,7 +42,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Enero de 2022 | Se ha añadido nueva documentación de funciones en [enlace de dimensiones y métricas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) y en configuración de asignación [[!UICONTROL Conocido por primera vez] y [!UICONTROL Último conocido] ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#allocation-settings) |
 | Enero de 2022 | Nuevo artículo sobre la [comparación de los datos de Adobe Analytics con los datos de Analytics en CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html?lang=es) |
 | Noviembre de 2021 | Documentación actualizada para [[!UICONTROL Registros omitidos]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es) en la página Detalles de conexiones. |
-| Octubre de 2021 | Documentación para [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html?lang=es) en CJA. |
+| Octubre de 2021 | Documentación para [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html?lang=es#) en CJA. |
 | Octubre de 2021 | Documentación de API de [Registro de auditoría](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) de Customer Journey Analytics |
 | Octubre de 2021 | [Visualizaciones para paneles de Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=es#apply-visualizations) documentadas |
 | Octubre de 2021 | Doc para la ventana móvil para la [retención de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es#set-rolling-window-for-connection-data-retention) [!UICONTROL de Conexión]. |
