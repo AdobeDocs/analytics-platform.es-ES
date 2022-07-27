@@ -5,7 +5,7 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 source-git-commit: 434695e87a0b342da9c17c94b93e0253cf1e621e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Los componentes son funciones de Customer Journey Analytics que se pueden utiliz
 
 Puede administrar los siguientes componentes:
 
-* [**Anotaciones**](/help/components/annotations/overview.md): Comunicar matices y perspectivas de datos contextuales a su organización.
+* [**Anotaciones**](/help/components/annotations/overview.md): comunicar matices y perspectivas de datos contextuales a su organización.
 * [**Filtros:**](filters/filters-overview.md) excluir partes de los datos para centrarse en elementos de dimensión comunes
 * [**Métricas calculadas:**](calc-metrics/calc-metr-overview.md) usar las métricas y fórmulas como componentes nuevos para utilizarlas en sistemas de informes
 * [**Intervalos de fechas:**](date-ranges/overview.md) personalizar y especificar las ofertas de Analysis Workspace en los intervalos de fechas
