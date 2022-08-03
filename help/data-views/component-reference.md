@@ -4,9 +4,9 @@ description: Detalles e información sobre todos los componentes estándar que s
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8e43c65c372f57dc54d01114b9c06a59d5c0efe4
+source-git-commit: c5a42392df82af4f0f8dcd718e3ce962ad654191
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,8 @@ De forma predeterminada, estos componentes estándares necesarios se añaden a c
 | [!UICONTROL Trimestre] | Dimensión | El trimestre en el que se produjo un evento determinado. El primer elemento de dimensión es el primer trimestre del intervalo de fechas y el último elemento de dimensión es el último trimestre del intervalo de fechas. |
 | [!UICONTROL Año] | Dimensión | Año en el que se produjo un evento determinado. El primer elemento de dimensión es el primer año del intervalo de fechas y el último elemento de dimensión es el año más reciente del intervalo de fechas. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Componentes estándar opcionales {#optional}
 
 Los componentes estándar opcionales están disponibles en la pestaña **[!UICONTROL Vistas de datos]** > **[!UICONTROL Editar vista de datos]** > **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar]**.
@@ -64,3 +66,4 @@ Los componentes estándar opcionales están disponibles en la pestaña **[!UICON
 | [!UICONTROL Tiempo empleado por persona] | Dimensión | Agrupa el [!UICONTROL Tiempo empleado] de la métrica en bloques de [!UICONTROL Personas]. |
 | [!UICONTROL Fin de semana]/[!UICONTROL día laborable] | Dimensión de partición de tiempo | Fin de semana o día laborable |
 
+{style=&quot;table-layout:auto&quot;}
