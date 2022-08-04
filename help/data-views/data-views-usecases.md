@@ -70,7 +70,7 @@ f. Especifique “50” como valor.
 
 Esta nueva configuración le permite ver solo los ingresos de alto valor y filtrar cualquiera por debajo de 50 $.
 
-## 5. Utilice la configuración [!UICONTROL Opciones sin valor]. {#no-value}
+## 5. Utilice la configuración [!UICONTROL Opciones sin valor] {#no-value}
 
 Es posible que su compañía haya dedicado tiempo en formar a sus usuarios para ver No especificado en los informes. El valor predeterminado en Vistas de datos es “Sin valor”. Ahora puede [cambiar el nombre de Sin valor por No especificado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-no-value-options-settings) en la IU de las vistas de datos.
 

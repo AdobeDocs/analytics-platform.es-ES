@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: 42b3b2e9a2ff8a46fd6c84e2425e19dcbb0d28f0
 workflow-type: tm+mt
 source-wordcount: '1493'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Acceso a la API de informes | Compatibilidad total. Disponible a través de la [API de CJA](https://www.adobe.io/cja-apis/docs/). |
 | Informes y proyectos programados | Compatibilidad total. |
 | Segmentos | Compatibilidad total. Ahora se denomina Filtros. Tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transferirán a CJA. |
-| Streaming de datos de medios | Los datos de contenidos estarán disponibles el 30 de julio de 2022 como parte del panel Visualizadores simultáneos de medios y del panel Tiempo invertido en la reproducción de contenido en Workspace. |
+| Streaming de medios de Analytics | Los datos de medios estarán disponibles el 30 de julio de 2022 como parte del panel Visualizadores simultáneos de medios y del panel Tiempo invertido en la reproducción de medios en Workspace. |
 | Permisos de usuario/Controles de acceso de datos | Compatibilidad total. CJA distingue entre administradores de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es). Solo los administradores de productos pueden <ul><li>Crear/actualizar/eliminar conexiones o Vistas de datos</li><li>Actualizar o eliminar proyectos, filtros o métricas de cálculo creados por otros usuarios, y</li><li>Compartir un proyecto del Espacio de trabajo con todos los usuarios.</li></ul> |
 | Grupos de informes virtuales | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de VRS | Compatibilidad total; Ahora forma parte de Vistas de datos. |
@@ -81,7 +81,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Filtros de bots | Para conjuntos de datos basados en el [conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o CJA. |
-| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics para Target (A4T) no son compatibles. |
+| Paneles | El panel en blanco, el panel de atribución, el panel improvisado y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics for Target (A4T) no son compatibles. |
 | Reglas de procesamiento | En los conjuntos de datos basados en Analytics Source Connector, las reglas de procesamiento se aplican igual. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
 
 {style=&quot;table-layout:auto&quot;}
