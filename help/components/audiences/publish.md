@@ -2,18 +2,14 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
-workflow-type: ht
-source-wordcount: '1000'
-ht-degree: 100%
+source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Crear y publicar audiencias
-
->[!NOTE]
->
->Actualmente, esta función está en [prueba limitada](/help/release-notes/releases.md).
 
 En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics (CJA) para el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes.
 
