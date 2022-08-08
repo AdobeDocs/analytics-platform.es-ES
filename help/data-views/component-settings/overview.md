@@ -4,10 +4,10 @@ description: Vea la configuración principal de un componente de vista de datos.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 99%
+source-wordcount: '388'
+ht-degree: 96%
 
 ---
 
@@ -28,8 +28,11 @@ Configuración principal que utiliza un componente de vista de datos.
 | [!UICONTROL Conjunto de datos] | Campo no editable que muestra el conjunto de datos desde el que se originó el componente. Este campo puede contener varios conjuntos de datos. |
 | [!UICONTROL Tipo de esquema] | Campo no editable que muestra el tipo de datos del componente.  Aunque puede utilizar cualquier tipo de campo de esquema admitido en Platform, no todos los tipos de campos son compatibles con CJA. Se admiten los siguientes tipos de datos: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String` y `Boolean`. Solo se permite el tipo de datos de esquema `String` en los conjuntos de datos de búsqueda en este momento. |
 | [!UICONTROL ID de componente] | Requerido. La [API de CJA](https://adobe.io/cja-apis/docs) utiliza este campo para hacer referencia al componente. Cada componente de una vista de datos debe ser único. Adobe genera automáticamente un ID para cada componente; sin embargo, puede hacer clic en el icono de edición y modificar el ID del componente. Al cambiar este ID de componente, se rompen todos los proyectos existentes del Espacio de trabajo que contienen este componente. Aunque cada componente necesita un ID único en una sola vista de datos, puede utilizar el mismo ID de componente en otras vistas de datos. Si utiliza el mismo ID de componente en otras vistas de datos, puede hacer que los proyectos del Espacio de trabajo sean compatibles en todas las vistas de datos. |
-| [!UICONTROL Ruta de esquema] | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
+| [!UICONTROL Ruta] | Requerido. Campo no editable que muestra la ruta de esquema de la que procede el componente. |
+| [!UICONTROL Etiquetas de uso de datos] | Cualquier etiqueta de uso de datos asignada a este componente en Adobe Experience Platform. Más información |
 | [!UICONTROL Ocultar componente en creación de informes] | Permite depurar el componente fuera de la vista de datos para los usuarios que no son administradores. Los administradores aún pueden acceder a él haciendo clic en [!UICONTROL Mostrar todos los componentes] en un proyecto de Analysis Workspace. |
+
+{style=&quot;table-layout:auto&quot;}
 
 Aquí hay un vídeo sobre la configuración de componentes en las vistas de datos:
 

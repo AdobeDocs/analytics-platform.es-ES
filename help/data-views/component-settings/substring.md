@@ -4,9 +4,9 @@ description: Utilice un subconjunto de una cadena como elementos de dimensión.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 0178babcd5ae87b491e849c7517eb5792fb14af1
-workflow-type: ht
-source-wordcount: '911'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '914'
 ht-degree: 100%
 
 ---
@@ -113,6 +113,8 @@ También se admiten marcadores de posición de salida. Puede utilizar estas secu
 | ``$` `` | Genera el texto entre el final de la última coincidencia encontrada (o el inicio del texto si no se encontró ninguna coincidencia anterior) y el inicio de la coincidencia actual. |
 | `$+` | Genera lo que coincidió con la última subexpresión marcada en la expresión regular. |
 | `$$` | Genera el carácter de cadena `"$"`. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Vídeo sobre dimensiones de enlace
 

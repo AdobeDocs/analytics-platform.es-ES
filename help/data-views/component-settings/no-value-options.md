@@ -4,9 +4,9 @@ description: Determina cómo gestionar una dimensión si está vacía.
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '224'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '227'
 ht-degree: 100%
 
 ---
@@ -23,3 +23,5 @@ Ninguna opción de valor le permite determinar cómo gestiona Analysis Workspace
 | [!UICONTROL No mostrar Ningún valor de forma predeterminada] | No muestra este valor en la creación de informes. Las ocurrencias de métricas no vinculadas a esta dimensión no son visibles en el informe. |
 | [!UICONTROL Mostrar Ningún valor de forma predeterminada] | Muestra este valor en la creación de informes. |
 | [!UICONTROL Tratar Ningún valor como valor] | Reemplaza los valores en blanco de los datos con el texto especificado en [!UICONTROL Si se muestra, solicite Sin valor]. Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Ningún valor]** por Escritorio. Tenga en cuenta que cuando cambia este campo a un valor personalizado, el valor personalizado se trata como un valor de cadena legítimo. Por lo tanto, si introduce el valor “Rojo” en este campo, cualquier instancia de la cadena “Rojo” que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado. |
+
+{style=&quot;table-layout:auto&quot;}

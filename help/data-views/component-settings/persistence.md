@@ -4,9 +4,9 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
-workflow-type: ht
-source-wordcount: '806'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '809'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,8 @@ La [!UICONTROL persistencia] solo está disponible en dimensiones y es retroacti
 | [!UICONTROL Establecer persistencia] | Habilite la persistencia para la dimensión. Si la persistencia no está habilitada, la dimensión solo se relaciona con métricas que existen en el mismo evento. Esta opción está desactivada de manera predeterminada. |
 | [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son: [!UICONTROL Más reciente], [!UICONTROL Original], [!UICONTROL Instancia], [!UICONTROL Todos]. A partir del 28 de octubre de 2021, se añadirá una ventana retrospectiva de hasta 90 días a la configuración de [!UICONTROL Asignación]. |
 | [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: [!UICONTROL Sesión] (predeterminada), [!UICONTROL Persona], [!UICONTROL Tiempo personalizado], [!UICONTROL Métrica]. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). La caducidad máxima que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Configuración de [!UICONTROL asignación]
 

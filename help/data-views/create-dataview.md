@@ -4,9 +4,9 @@ description: Todos los ajustes que se pueden ajustar para crear o editar una vis
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 48cc438032fb1df043b7caf085aadf3f2c2f1ecf
-workflow-type: ht
-source-wordcount: '1224'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '1233'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,8 @@ Proporciona una configuración general para la vista de datos.
 | [!UICONTROL Nombre] | Requerido. Nombre de la vista de datos. Este valor aparece en la lista desplegable superior derecha de Analysis Workspace. |
 | [!UICONTROL Descripción] | Opcional. Adobe recomienda una descripción detallada para que los usuarios entiendan por qué existe la vista de datos y para quién está diseñada. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### Contenedores {#containers}
 
 Designa el nombre de los contenedores para la vista de datos. Los nombres de contenedores se utilizan frecuentemente en [Filtros](/help/components/filters/filters-overview.md#Filter-containers).
@@ -45,6 +47,8 @@ Designa el nombre de los contenedores para la vista de datos. Los nombres de con
 | [!UICONTROL Nombre de contenedor de persona] | [!UICONTROL Persona] (valor predeterminado). El contenedor [!UICONTROL Persona] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente (por ejemplo, visitante o usuario), puede cambiar el nombre del contenedor aquí. |
 | [!UICONTROL Nombre de contenedor de sesión] | [!UICONTROL Sesión] (valor predeterminado). El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiar el nombre de este contenedor a Visita o a cualquier otro término que prefiera. |
 | [!UICONTROL Nombre de contenedor de evento] | [!UICONTROL Evento] (valor predeterminado). El contenedor [!UICONTROL Evento] define eventos individuales en un conjunto de datos. Si su organización utiliza un término diferente (por ejemplo, Visitas individuales o Vistas de página), puede cambiar el nombre del contenedor aquí. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Calendario {#calendar}
 
@@ -57,6 +61,8 @@ Indica el formato de calendario que desea que siga la vista de datos. Puede tene
 | [!UICONTROL Primer mes del año] y [!UICONTROL primer día de la semana] | Visible para el tipo de calendario gregoriano. Especifique en qué mes desea que comience el año del calendario y en qué día desea que comience cada semana. |
 | [!UICONTROL Primer día del año actual] | Visible para tipos de calendario personalizados. Especifique qué día del año desea que comience el año actual. El calendario aplica automáticamente el formato del primer día de cada semana en función de este valor. |
 | [!UICONTROL Año que incluye la semana “extra”] | Con la mayoría de los calendarios de 364 días (52 semanas de 7 días cada uno), cada año se acumulan varios días restantes hasta formar una semana extra. Esta semana extra se agrega al último mes de ese año. Especifique a qué año desea agregar la semana adicional. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Definición de los componentes de una vista de datos {#set-components}
 

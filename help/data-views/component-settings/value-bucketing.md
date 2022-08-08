@@ -4,9 +4,9 @@ description: Combine valores numéricos en una dimensión.
 exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '188'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '191'
 ht-degree: 100%
 
 ---
@@ -28,3 +28,5 @@ Si desea la flexibilidad al crear informes tanto en términos de dimensiones agr
 | [!UICONTROL Incluyendo] [!UICONTROL y menor que] | Límites de bloques subsiguientes. |
 | [!UICONTROL Mayor o igual que] | Límite inferior del último bloque de dimensiones. |
 | [!UICONTROL Añadir cubo] | Permite añadir otro bloque a la agrupación de dimensiones numéricas. Puede añadir hasta 20 bloques en una sola dimensión. |
+
+{style=&quot;table-layout:auto&quot;}
