@@ -4,7 +4,7 @@ description: Todos los ajustes que se pueden ajustar para crear o editar una vis
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 100%
@@ -126,3 +126,4 @@ Puede agregar filtros que se apliquen a toda la vista de datos. Este filtro se a
 Determine el período de inactividad entre los eventos antes de que caduque una sesión y se inicie una nueva. Se requiere un período de tiempo. Opcionalmente, también puede forzar el inicio de una nueva sesión cuando un evento contenga una métrica determinada.
 
 Una vez especificada toda la configuración deseada, haga clic en **[!UICONTROL Guardar y finalizar]**.
+

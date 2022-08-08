@@ -1,11 +1,18 @@
 ---
-source-git-commit: c25e320268aeda85eb6709ca3458c60c6f24fea3
+title: Comparar terminología para datos de Analytics pasados a través del conector de origen de Analytics
+description: Algunas diferencias terminológicas
+solution: Customer Journey Analytics
+source-git-commit: 287c75fd2b519f3d1d86209e0b0ab4ed7f761814
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 28%
+source-wordcount: '788'
+ht-degree: 27%
 
 ---
-# Comparación de terminología para datos de Analytics pasados a través del conector de origen de Analytics
+
+
+# Comparar terminología para datos de Analytics pasados a través del conector de origen de Analytics
+
+Existen algunas diferencias terminológicas entre Adobe Analytics, Fuentes de datos, Conector de origen de Analytics/lago de datos y CJA. El objetivo de este tema es destacar y aclarar esas diferencias.
 
 | Términos relacionados | Adobe Analytics | Fuentes de datos de Adobe Analytics | Conector de origen de Analytics/lago de datos | CJA | Notas |
 |---|---|---|---|---|---|

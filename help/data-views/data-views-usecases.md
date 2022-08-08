@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
+source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -109,11 +109,10 @@ Para acceder a estos componentes:
 
 1. Vaya al editor de vista de datos.
 1. Haga clic en la pestaña **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar opcionales]** en el carril izquierdo.
-1. Arrástrelos a la vista de datos.
+1. Arrastre estos componentes a la vista de datos.
 
-Del 95 al 99 % de las veces, las nuevas sesiones se registrarán con precisión. Las únicas excepciones son las siguientes:
+Del 95 % al 99 % de las veces, las nuevas sesiones se informan con precisión. Las únicas excepciones son las siguientes:
 
 * Cuando se produce una primera sesión antes de la ventana retrospectiva de 13 meses. Se ignorará esta sesión.
 
-* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de creación de informes se contarán como sesiones recurrentes.
-
+* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de informes se contarán como sesiones de retorno.
