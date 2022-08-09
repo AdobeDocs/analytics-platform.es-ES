@@ -1,15 +1,20 @@
 ---
 title: Compatibilidad con CJA para la administración de datos de Adobe Experience Platform
-description: null
-source-git-commit: 40b87cd748717124a355b030b17b1e3b6f94a99e
+description: Descubra cómo las etiquetas y políticas de datos definidas en AEP afectan a los informes en CJA.
+mini-toc-levels: 3
+source-git-commit: 82060862c64aae10ea6dd375a8cd65d67ee21704
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 0%
+source-wordcount: '845'
+ht-degree: 1%
 
 ---
 
 
 # Compatibilidad con CJA para la administración de datos de Adobe Experience Platform
+
+>[!NOTE]
+>
+>Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
 
 La integración entre CJA y [Administración de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=en) permite el etiquetado de datos de CJA confidenciales y la aplicación de políticas de privacidad.
 
@@ -21,7 +26,11 @@ Esta integración le permite administrar el cumplimiento de normas más fácilme
 
 ## Etiquetado y políticas en Adobe Experience Platform
 
-Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) para algunos o todos los elementos del conjunto de datos. Hasta ahora, estas etiquetas no estaban expuestas en CJA. Con esta versión, puede ver estas etiquetas en CJA. De especial interés para CJA es la etiqueta C8, que dice &quot;Los datos no se pueden usar para medir los sitios web o las aplicaciones de su organización&quot;.
+Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) para algunos o todos los elementos del conjunto de datos. Hasta ahora, estas etiquetas no estaban expuestas en CJA. Con esta versión, puede ver estas etiquetas en CJA. De especial interés para CJA son estas etiquetas:
+
+* La variable `C8` label - **[!UICONTROL Sin medición]**. Esta etiqueta significa que los datos no se pueden usar para análisis en los sitios web o las aplicaciones de su organización.
+
+* La variable `C12` label - **[!UICONTROL Sin exportación de datos general]**. Los campos de esquema etiquetados de esta manera no se pueden exportar ni descargar desde CJA (a través de informes, exportación, API, etc.)
 
 El etiquetado en sí mismo no significa que se apliquen estas etiquetas de uso de datos. Para eso se utilizan las políticas. Las políticas se crean mediante la variable [API del servicio de directivas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=en) en Experience Platform.
 
@@ -29,16 +38,17 @@ Las políticas tienen dos componentes: la etiqueta de datos y una acción de mar
 
 * Analytics: uso de datos con fines analíticos, como medición, análisis e informes sobre el uso que hacen los consumidores de las aplicaciones o los sitios de su organización.
 
-* Exportar estos datos fuera del entorno de Adobe, como exportar datos a un tercero.
+* Exportación de datos a terceros, es decir, fuera del entorno de Adobe.
 
-Asocia etiquetas y acciones de marketing con una directiva y, a continuación, activa la directiva. La política toma la etiqueta y la acción de marketing y dice: aplique esta restricción. En CJA aparecen dos políticas definidas por Adobe:
+Asocia etiquetas y acciones de marketing con una directiva y, a continuación, activa la directiva. La política toma la etiqueta y la acción de marketing y dice: aplique esta restricción. En CJA aparecen dos políticas definidas por Adobe que afectan a los informes y a la descarga/uso compartido:
 
-* Política de Analytics
-* Descargar directiva
+* Aplicar directiva de Analytics
+* Aplicar directiva de descarga
 
-## Ver etiquetas de datos en vistas de datos de CJA
 
-Las etiquetas de datos creadas en el Experience Platform se muestran en tres ubicaciones de la interfaz de usuario de vistas de datos:
+### Ver etiquetas de datos en vistas de datos de CJA
+
+Las etiquetas de datos que se crearon en el Experience Platform se muestran en tres ubicaciones de la interfaz de usuario de vistas de datos:
 
 | Ubicación | Descripción |
 | --- | --- |
@@ -46,13 +56,15 @@ Las etiquetas de datos creadas en el Experience Platform se muestran en tres ubi
 | Carril derecho debajo [Configuración de componentes](/help/data-views/component-settings/overview.md) | Todas las etiquetas de uso de datos se enumeran aquí:<p>![](assets/data-label-right.png) |
 | Agregar etiquetas de datos como una columna | Puede agregar Etiquetas de datos como una columna a las columnas Componentes incluidos en las vistas de datos. Haga clic en el icono del selector de columnas y seleccione Etiquetas de uso de datos:<p>![](assets/data-label-column.png) |
 
-### Filtro en las etiquetas de Control de datos en CJA
+### Filtro en las etiquetas de Control de datos en las vistas de datos
 
-En el editor de vistas de datos, haga clic en el icono Filtro de la pista izquierda y filtre los componentes de vistas de datos por etiquetas de control de datos:
+En el editor de vistas de datos, haga clic en el icono Filtro en la pista izquierda y filtre los componentes de vistas de datos por etiquetas de control de datos:
 
 ![](assets/filter-labels.png)
 
-### Filtrar por políticas de control de datos en CJA
+Haga clic en **[!UICONTROL Aplicar]** para ver qué componentes tienen etiquetas adjuntas.
+
+### Filtrar por políticas de control de datos en vistas de datos
 
 Puede comprobar si hay una directiva activada que bloquee el uso de ciertos elementos de vista de datos de CJA para análisis o exportación con fines específicos.
 
@@ -60,11 +72,31 @@ De nuevo, haga clic en el icono Filtro en el carril izquierdo y, en Administraci
 
 ![](assets/filter-policies.png)
 
-Si la directiva está activada, los campos de esquema que tienen ciertas etiquetas de datos (como C8) asociadas a ellas no se pueden usar para fines de análisis ni descarga (como enviar por correo electrónico o compartir archivos pdf) en CJA Workspace.
+Haga clic en **[!UICONTROL Aplicar]** para ver qué directivas están habilitadas _para esta vista de datos?_
 
-Tenga en cuenta lo siguiente
+### Cómo [!UICONTROL Aplicar Analytics] la directiva afecta a los proyectos de Workspace
 
-* No se le permite agregarlas a vistas de datos. Estos campos aparecerán atenuados en la lista de campos Esquema del carril izquierdo.
+Si esta directiva está activada, los campos de esquema que tienen determinadas etiquetas de datos (como C8) asociadas a ellas no se pueden usar con fines de análisis dentro de CJA Workspace.
+
+Para los informes, esto significa que
+
+* No puede agregar estos campos a las vistas de datos y aparecen atenuados en el carril izquierdo [!UICONTROL Campos de esquema] lista.
 * No se puede guardar una vista de datos que tenga campos bloqueados.
 
+Si intenta realizar análisis de Workspace en vistas de datos que contienen elementos prohibidos para análisis, obtendrá un aviso similar al siguiente:
 
+![](assets/policy-enforce.png)
+
+En componentes individuales, el mensaje sería similar a este:
+
+![](assets/policy-enforce2.png)
+
+### Cómo [!UICONTROL Aplicar descarga] la directiva afecta a los proyectos de Workspace
+
+Si esta directiva está activada, cualquier descarga (como envío por correo electrónico o uso compartido de pdfs) de proyectos de Workspace hash de los campos confidenciales. Puede seguir realizando análisis de estos campos en Workspace, pero si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como elementos con hash en el archivo .pdf.
+
+Añada una captura de pantalla aquí.
+
+### Ver etiquetas en el Report Builder
+
+Consulte _esta sección_ para obtener más información. (enlace al documento de Christine)

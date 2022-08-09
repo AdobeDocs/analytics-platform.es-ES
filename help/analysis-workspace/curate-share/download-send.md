@@ -3,10 +3,10 @@ description: Puede descargar datos de Analysis Workspace copiándolos, o en los 
 title: Descarga de archivos PDF o CSV
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '983'
-ht-degree: 100%
+source-git-commit: 3f0051868ef559d331fa9e5c4648f9bab7fc8d34
+workflow-type: tm+mt
+source-wordcount: '1048'
+ht-degree: 93%
 
 ---
 
@@ -59,7 +59,7 @@ Puede realizar varias tareas dentro del proyecto e incluso desplazarse a un nuev
 
 ![](assets/download-items.png)
 
-### Archivo de elementos descargados
+### Archivo de elementos descargados {#items-file}
 
 Las funciones de la tabla se aplicarán al archivo descargado de la siguiente manera:
 
@@ -71,7 +71,7 @@ En el ejemplo anterior, los elementos de página se descargan con el filtro de p
 
 ![](assets/downloaded-file.png)
 
-### Descarga de notificaciones
+### Descarga de notificaciones {#notifications}
 
 A medida que el archivo se descarga, verá una notificación informativa con el progreso. En cualquier momento, puede cancelar la descarga haciendo clic en **[!UICONTROL Cancelar descarga]**. Al cerrar el mensaje **no se** cancelará la descarga.
 
@@ -80,6 +80,10 @@ Una vez que el archivo se complete, verá una notificación de finalización y e
 Si solicita más de una descarga a la vez, recibirá una notificación avisando que cada descarga adicional se colocará en cola hasta que finalice la descarga anterior.
 
 ![](assets/toast.png)
+
+## Descargar datos confidenciales {#sensitive}
+
+Si la directiva Aplicar administración de datos de descarga está activada, cualquier descarga (como correos electrónicos o archivos pdfs compartidos) de proyectos de Workspace hash de los campos de datos etiquetados como confidenciales. Puede seguir realizando análisis de estos campos en Workspace, pero si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como elementos con hash en el archivo .pdf.
 
 ## Preguntas más frecuentes {#faq}
 

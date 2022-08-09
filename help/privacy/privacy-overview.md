@@ -1,18 +1,21 @@
 ---
-title: Información general sobre la privacidad de Customer Journey Analytics
-description: Describe cómo funciona la configuración de privacidad en Customer Journey Analytics.
-translation-type: tm+mt
-source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
+title: Customer Journey Analytics y administración de datos
+description: Describe cómo funciona el control de datos en Customer Journey Analytics.
+exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
+source-git-commit: 61850e8a1da80a115bf850c64358a512770f852e
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 75%
 
 ---
 
+# Customer Journey Analytics y administración de datos
 
-# Información general sobre la privacidad de Customer Journey Analytics
+En términos generales, cualquier configuración relacionada con el control de datos en Customer Journey Analytics se hereda de Adobe Experience Platform.
 
-En términos generales, cualquier configuración relacionada con la privacidad en Customer Journey Analytics se hereda de Adobe Experience Platform.
+## Gobierno de datos
+
+CJA es compatible con las etiquetas y políticas de control de datos configuradas en Adobe Experience Platform. Para obtener más información, consulte Compatibilidad de CJA con la administración de datos de Adobe Experience Platform.
 
 ## RGPD
 
