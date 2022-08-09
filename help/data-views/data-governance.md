@@ -2,9 +2,9 @@
 title: Compatibilidad con CJA para la administración de datos de Adobe Experience Platform
 description: Descubra cómo las etiquetas y políticas de datos definidas en AEP afectan a los informes en CJA.
 mini-toc-levels: 3
-source-git-commit: 82060862c64aae10ea6dd375a8cd65d67ee21704
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -38,13 +38,12 @@ Las políticas tienen dos componentes: la etiqueta de datos y una acción de mar
 
 * Analytics: uso de datos con fines analíticos, como medición, análisis e informes sobre el uso que hacen los consumidores de las aplicaciones o los sitios de su organización.
 
-* Exportación de datos a terceros, es decir, fuera del entorno de Adobe.
+* Exportación de datos, es decir, fuera del entorno de Adobe.
 
 Asocia etiquetas y acciones de marketing con una directiva y, a continuación, activa la directiva. La política toma la etiqueta y la acción de marketing y dice: aplique esta restricción. En CJA aparecen dos políticas definidas por Adobe que afectan a los informes y a la descarga/uso compartido:
 
-* Aplicar directiva de Analytics
-* Aplicar directiva de descarga
-
+* [!UICONTROL Aplicar Analytics] directiva
+* [!UICONTROL Aplicar descarga] directiva
 
 ### Ver etiquetas de datos en vistas de datos de CJA
 
@@ -93,7 +92,7 @@ En componentes individuales, el mensaje sería similar a este:
 
 ### Cómo [!UICONTROL Aplicar descarga] la directiva afecta a los proyectos de Workspace
 
-Si esta directiva está activada, cualquier descarga (como envío por correo electrónico o uso compartido de pdfs) de proyectos de Workspace hash de los campos confidenciales. Puede seguir realizando análisis de estos campos en Workspace, pero si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como elementos con hash en el archivo .pdf.
+Si esta directiva está activada, cualquier exportación o descarga (como correos electrónicos o archivos pdfs compartidos) de proyectos de Workspace hash de los campos confidenciales. Puede seguir realizando análisis de estos campos en Workspace, pero si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como elementos con hash en el archivo .pdf.
 
 Añada una captura de pantalla aquí.
 

@@ -2,7 +2,7 @@
 title: Customer Journey Analytics y administración de datos
 description: Describe cómo funciona el control de datos en Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 61850e8a1da80a115bf850c64358a512770f852e
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 75%
@@ -15,7 +15,7 @@ En términos generales, cualquier configuración relacionada con el control de d
 
 ## Gobierno de datos
 
-CJA es compatible con las etiquetas y políticas de control de datos configuradas en Adobe Experience Platform. Para obtener más información, consulte Compatibilidad de CJA con la administración de datos de Adobe Experience Platform.
+CJA es compatible con las etiquetas y políticas de control de datos configuradas en Adobe Experience Platform. Para obtener más información, consulte [Compatibilidad con CJA para la administración de datos de Adobe Experience Platform](/help/data-views/data-governance.md).
 
 ## RGPD
 
