@@ -2,10 +2,10 @@
 title: Customer Journey Analytics y administración de datos
 description: Describe cómo funciona el control de datos en Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
+source-git-commit: 2dde88ea6c3bb806b66cd4bc8fb8b10bd28084d0
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 75%
+source-wordcount: '373'
+ht-degree: 51%
 
 ---
 
@@ -15,7 +15,13 @@ En términos generales, cualquier configuración relacionada con el control de d
 
 ## Gobierno de datos
 
-CJA es compatible con las etiquetas y políticas de control de datos configuradas en Adobe Experience Platform. Para obtener más información, consulte [Compatibilidad con CJA para la administración de datos de Adobe Experience Platform](/help/data-views/data-governance.md).
+La integración entre CJA y [Administración de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=en) permite el etiquetado de datos de CJA confidenciales y la aplicación de políticas de privacidad.
+
+Las etiquetas de privacidad y las políticas creadas en conjuntos de datos consumidos por el Experience Platform se pueden ver en el flujo de trabajo de vistas de datos de CJA. Estas etiquetas detienen o advierten a los usuarios que crean métricas y/o dimensiones a partir de campos confidenciales.
+
+Además, cuando se exportan datos desde CJA (mediante informes, exportación, API, etc.), se añaden advertencias o etiquetas para notificar a los usuarios que un informe contiene información confidencial que debe tratarse de una manera específica.
+
+Esta integración le permite administrar el cumplimiento de normas más fácilmente. Los administradores de datos de su organización pueden establecer políticas para restringir el uso. Como resultado, los usuarios de CJA pueden usar los datos con mayor seguridad, sabiendo que cumplen con las políticas definidas por los administradores de datos.
 
 ## RGPD
 
