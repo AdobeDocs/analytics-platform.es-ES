@@ -1,12 +1,11 @@
 ---
-title: Compatibilidad con CJA para la administración de datos de Adobe Experience Platform
-description: Descubra cómo las etiquetas y políticas de datos definidas en AEP afectan a los informes en CJA.
-mini-toc-levels: 3
+title: Etiquetas y políticas
+description: Descubra cómo las etiquetas y políticas de datos definidas en AEP afectan a las vistas de datos y a los informes en CJA.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 2dde88ea6c3bb806b66cd4bc8fb8b10bd28084d0
+source-git-commit: a28247e861e2f8853a6e2d2b81e7f6ed221caec0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,8 +25,8 @@ El etiquetado en sí mismo no significa que se apliquen estas etiquetas de uso d
 
 En CJA aparecen dos políticas definidas por Adobe que afectan a los informes y a la descarga/uso compartido:
 
-* [!UICONTROL Aplicar Analytics] directiva
-* [!UICONTROL Aplicar descarga] directiva
+* **[!UICONTROL Aplicar Analytics]** directiva
+* **[!UICONTROL Aplicar descarga]** directiva
 
 ## Ver etiquetas de datos en vistas de datos de CJA
 
@@ -35,9 +34,11 @@ Las etiquetas de datos que se crearon en el Experience Platform se muestran en t
 
 | Ubicación | Descripción |
 | --- | --- |
-| Botón Información de un campo de esquema | Al hacer clic en este botón, se indica qué etiquetas de uso de datos se aplican actualmente a un campo:<p>![](assets/data-label-left.png) |
-| Carril derecho debajo [Configuración de componentes](/help/data-views/component-settings/overview.md) | Todas las etiquetas de uso de datos se enumeran aquí:<p>![](assets/data-label-right.png) |
-| Agregar etiquetas de datos como una columna | Puede agregar Etiquetas de datos como una columna a las columnas Componentes incluidos en las vistas de datos. Haga clic en el icono del selector de columnas y seleccione Etiquetas de uso de datos:<p>![](assets/data-label-column.png) |
+| Botón Información de un campo de esquema | Al hacer clic en este botón, se indica cuál [!UICONTROL Etiquetas de uso de datos] actualmente se aplica a un campo:<p>![](assets/data-label-left.png) |
+| Carril derecho debajo [Configuración de componentes](/help/data-views/component-settings/overview.md) | Cualquiera [!UICONTROL Etiquetas de uso de datos] se enumeran aquí:<p>![](assets/data-label-right.png) |
+| Agregar etiquetas de datos como una columna | Puede añadir [!UICONTROL Etiquetas de datos] como columna para [!UICONTROL Componentes incluidos] en vistas de datos. Haga clic en el icono del selector de columnas y seleccione **[!UICONTROL Etiquetas de uso de datos]**:<p>![](assets/data-label-column.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Filtro en las etiquetas de Control de datos en las vistas de datos
 
@@ -55,7 +56,7 @@ De nuevo, haga clic en el icono Filtro en el carril izquierdo y, en Administraci
 
 ![](assets/filter-policies.png)
 
-Haga clic en **[!UICONTROL Aplicar]** para ver qué directivas están habilitadas _para esta vista de datos?_
+Haga clic en **[!UICONTROL Aplicar]** para ver qué directivas están habilitadas.
 
 ## Cómo [!UICONTROL Aplicar Analytics] la directiva afecta a los proyectos de Workspace
 
