@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
+source-git-commit: 684918af270a77355b7cefab4ae2e32720a71cae
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 95%
+source-wordcount: '1194'
+ht-degree: 87%
 
 ---
 
@@ -89,10 +89,6 @@ Para obtener una descripción general conceptual de las vistas de datos, consult
 
 ## 7. Creación de informes de sesión nueva frente a repetida {#new-repeat}
 
->[!NOTE]
->
->Actualmente, esta funcionalidad está en prueba limitada.
-
 Puede determinar si una sesión es realmente la primera sesión de un usuario o no, en función de la ventana de creación de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Esta creación de informe permite determinar, por ejemplo, lo siguiente:
 
 * ¿Qué porcentaje de sus pedidos provienen de sesiones nuevas o repetidas?
@@ -116,3 +112,19 @@ Del 95 % al 99 % de las veces, las nuevas sesiones se informan con precisión. L
 * Cuando se produce una primera sesión antes de la ventana retrospectiva de 13 meses. Se ignorará esta sesión.
 
 * Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de informes se contarán como sesiones de retorno.
+
+## Uso de la funcionalidad Fecha y Fecha-Hora {#date}
+
+>[!NOTE]
+>
+>Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
+
+Casos de uso de ejemplo:
+
+* Fecha: Una empresa de viajes está recopilando la fecha de salida de los viajes como campo en sus datos. Les gustaría tener un informe que compare el [!UICONTROL Día de la semana] para todas las fechas de salida recopiladas para comprender cuál es la más popular. Les gustaría hacer lo mismo por [!UICONTROL Mes del año].
+
+* Fecha-Hora: Una empresa minorista está recopilando el tiempo de cada una de sus compras en puntos de venta (POS). Durante un mes determinado, les gustaría entender los períodos de compra más concurridos por [!UICONTROL Hora del día].
+
+>[!MORELIKETHIS]
+>[Fecha y fecha-hora en la configuración del componente Formato](/help/data-views/component-settings/format.md)
+
