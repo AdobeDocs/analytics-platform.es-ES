@@ -3,10 +3,10 @@ description: Puede descargar datos de Analysis Workspace copiándolos, o en los 
 title: Descarga de archivos PDF o CSV
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 3f0051868ef559d331fa9e5c4648f9bab7fc8d34
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 93%
+source-wordcount: '1057'
+ht-degree: 92%
 
 ---
 
@@ -83,7 +83,7 @@ Si solicita más de una descarga a la vez, recibirá una notificación avisando 
 
 ## Descargar datos confidenciales {#sensitive}
 
-Si la directiva Aplicar administración de datos de descarga está activada, cualquier descarga (como correos electrónicos o archivos pdfs compartidos) de proyectos de Workspace hash de los campos de datos etiquetados como confidenciales. Puede seguir realizando análisis de estos campos en Workspace, pero si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como elementos con hash en el archivo .pdf.
+Si la variable **[!UICONTROL Aplicar descarga]** [política de control de datos](/help/data-views/data-governance.md) está activada en la vista de datos sobre la que realiza informes, cualquier descarga (como correos electrónicos o archivos pdfs compartidos) de proyectos de Workspace hash de los campos de datos etiquetados como confidenciales. Puede seguir realizando análisis de estos campos en Workspace, pero si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como vacíos en el archivo .pdf o .csv .
 
 ## Preguntas más frecuentes {#faq}
 

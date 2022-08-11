@@ -2,9 +2,9 @@
 title: Customer Journey Analytics y administración de datos
 description: Describe cómo funciona el control de datos en Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 0d48c1ed8d0bf50939f8eda1f5656c95370ac0b7
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 51%
 
 ---
@@ -22,6 +22,8 @@ Las etiquetas de privacidad y las políticas creadas en conjuntos de datos consu
 Además, cuando se exportan datos desde CJA (mediante informes, exportación, API, etc.), se añaden advertencias o etiquetas para notificar a los usuarios que un informe contiene información confidencial que debe tratarse de una manera específica.
 
 Esta integración le permite administrar el cumplimiento de normas más fácilmente. Los administradores de datos de su organización pueden establecer políticas para restringir el uso. Como resultado, los usuarios de CJA pueden usar los datos con mayor seguridad, sabiendo que cumplen con las políticas definidas por los administradores de datos.
+
+[Más información](/help/data-views/data-governance.md)
 
 ## RGPD
 
