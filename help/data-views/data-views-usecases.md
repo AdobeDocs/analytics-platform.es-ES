@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b7a2921b30075b3c63136a989df3744256f810f4
+source-git-commit: 9321831a23c1329000fd1e960c28e41d4ba18714
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -119,7 +119,7 @@ Del 95 % al 99 % de las veces, las nuevas sesiones se informan con precisión. L
 >
 >Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
 
-Los esquemas de Adobe Experience Platform contienen campos de fecha y hora. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar sus [format](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en los informes. Por ejemplo:
+Los esquemas de Adobe Experience Platform contienen [!UICONTROL Fecha] y [!UICONTROL Date-Time] campos. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar sus [format](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en los informes. Por ejemplo:
 
 * Para el formato Fecha, si selecciona **[!UICONTROL Día]** con el formato **[!UICONTROL Mes, día, año]**, un ejemplo de salida en los informes puede tener el siguiente aspecto: 23 de agosto de 2022.
 
