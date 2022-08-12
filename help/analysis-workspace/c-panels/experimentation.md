@@ -2,10 +2,10 @@
 description: Obtenga información sobre cómo analizar los resultados de las pruebas A/B en el panel Experimentación con CJA.
 title: Panel de experimentación
 feature: Panels
-source-git-commit: 9668ea5406def50feddc61b5fae605d07d6f8417
+source-git-commit: 13a80625d0c3770f6b2fef10da2282868021ddf2
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 7%
+source-wordcount: '74'
+ht-degree: 9%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 7%
 >
 >Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
 
-La variable [!UICONTROL Experimento] panel permite analizar los resultados de las pruebas A/B en CJA. Proporciona resultados para métricas genéricas de Alza y Confianza. Puede analizar los datos de otras herramientas, como Target, Adobe Journey Optimizer y herramientas de terceros que se han introducido en Adobe Experience Platform.
+La variable [!UICONTROL Experimento] permite evaluar el alza y la confianza de cualquier experimento A/B desde cualquier fuente: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos de BYO.
 
 >[!IMPORTANT]
 >
->Los datos de A4T no se pueden analizar en la variable [!UICONTROL Experimento] en este punto.
+>Los datos de A4T no se pueden evaluar en la variable [!UICONTROL Experimento] en este punto.
 
 ## Configuración del panel
 

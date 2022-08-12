@@ -2,9 +2,9 @@
 title: Etiquetas y políticas
 description: Descubra cómo las etiquetas y políticas de datos definidas en AEP afectan a las vistas de datos y a los informes en CJA.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
+source-git-commit: b135175e0276ab26514d1c785793feb817c09898
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -72,3 +72,7 @@ Tampoco puede guardar una vista de datos que tenga campos bloqueados.
 
 >[!MORELIKETHIS]
 >[Descargar datos confidenciales](/help/analysis-workspace/curate-share/download-send.md)
+
+>[!MORELIKETHIS]
+>[¿Qué son las etiquetas restringidas en el Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=en)
+
