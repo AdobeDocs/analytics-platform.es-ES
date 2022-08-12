@@ -2,10 +2,10 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 235f08b275fd2f5706024823005e732b61af1c07
+source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
 workflow-type: tm+mt
 source-wordcount: '1032'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | [!UICONTROL Nombre] | El nombre de la audiencia. |
    | [!UICONTROL Etiquetas] | Las etiquetas que quiera asignar a la audiencia con fines organizativos. Puede utilizar una etiqueta preexistente o introducir una nueva. |
    | [!UICONTROL Descripción] | Agregue una buena descripción de la audiencia para diferenciarla de otras. |
-   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para la frecuencia de 4 horas, hay un límite de 75 o 150 audiencias, según sus derechos de CJA. Para otros intervalos, no hay un número máximo de audiencias.</li></ul> |
+   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para todas las frecuencias de actualización, hay un límite de 75 o 150 audiencias, según la asignación de CJA. Para otros intervalos, no hay un número máximo de audiencias.</li></ul> |
    | Fecha de caducidad | Cuando la audiencia deje de actualizarse. El valor predeterminado es 1 año a partir de la fecha de creación. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la audiencia caduque. |
    | Actualizar ventana de retrospección | Especifica cuánto tiempo en la ventana de datos va a retroceder al crear la audiencia. El máximo es de 90 días. |
    | [!UICONTROL Intervalo de fecha único] | Intervalo de fecha en el que desea que se publique la audiencia única. |
