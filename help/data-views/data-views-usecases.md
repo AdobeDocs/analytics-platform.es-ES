@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 684918af270a77355b7cefab4ae2e32720a71cae
+source-git-commit: b7a2921b30075b3c63136a989df3744256f810f4
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 87%
+source-wordcount: '1284'
+ht-degree: 81%
 
 ---
 
@@ -119,7 +119,13 @@ Del 95 % al 99 % de las veces, las nuevas sesiones se informan con precisión. L
 >
 >Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
 
-Casos de uso de ejemplo:
+Los esquemas de Adobe Experience Platform contienen campos de fecha y hora. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar sus [format](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en los informes. Por ejemplo:
+
+* Para el formato Fecha, si selecciona **[!UICONTROL Día]** con el formato **[!UICONTROL Mes, día, año]**, un ejemplo de salida en los informes puede tener el siguiente aspecto: 23 de agosto de 2022.
+
+* Para el formato de fecha y hora, si selecciona **[!UICONTROL Minuto del día]** con el formato **[!UICONTROL Hora:Minuto]**, el resultado puede ser similar a: 20:20.
+
+### Casos de uso de ejemplo:
 
 * Fecha: Una empresa de viajes está recopilando la fecha de salida de los viajes como campo en sus datos. Les gustaría tener un informe que compare el [!UICONTROL Día de la semana] para todas las fechas de salida recopiladas para comprender cuál es la más popular. Les gustaría hacer lo mismo por [!UICONTROL Mes del año].
 
