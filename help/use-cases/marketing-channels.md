@@ -4,10 +4,10 @@ description: Utilice el conector de origen de Analytics para introducir las regl
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: 5819db4d7c597b5b7587c09a1433503ff7abb6a5
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +30,10 @@ Una vez que haya establecido el Conector de origen de Analytics en un grupo de i
    * **`channel._id`**: equivalente a los [Detalles de canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html?lang=es)
 3. Proporcione a cada dimensión el modelo de atribución y la persistencia deseados. Si desea dimensiones de primer toque y de último toque, arrastre cada dimensión de canal de marketing al área de componentes varias veces. Proporcione a cada dimensión el modelo de atribución y la persistencia deseados. Adobe también recomienda asignar a cada dimensión un nombre para mostrar para facilitar su uso el Espacio de trabajo.
 4. Cree la vista de datos.
+
+>[!NOTE]
+>
+> El conector de origen de Analytics requiere que ambos `channel.typeAtSource` (Canal de marketing) y `channel._id` (Detalle del canal de marketing) se rellenarán; de lo contrario, ninguno de los dos se transferirá al ExperienceEvent de XDM. Si el detalle del canal de marketing está vacío en el grupo de informes de origen, el resultado es un espacio en blanco `channel._id` y el conector de origen de Analytics se quedarán en blanco `channel.typeAtSource` también. Esto puede provocar diferencias en los informes entre Adobe Analytics y Customer Journey Analytics.
 
 Sus dimensiones de canal de marketing ya están disponibles para su uso en Analysis Workspace.
 
