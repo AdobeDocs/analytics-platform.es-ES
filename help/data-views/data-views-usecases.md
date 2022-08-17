@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9321831a23c1329000fd1e960c28e41d4ba18714
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1277'
+ht-degree: 81%
 
 ---
 
@@ -114,10 +114,6 @@ Del 95 % al 99 % de las veces, las nuevas sesiones se informan con precisión. L
 * Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de informes se contarán como sesiones de retorno.
 
 ## Uso de la funcionalidad Fecha y Fecha-Hora {#date}
-
->[!NOTE]
->
->Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
 
 Los esquemas de Adobe Experience Platform contienen [!UICONTROL Fecha] y [!UICONTROL Date-Time] campos. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar sus [format](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en los informes. Por ejemplo:
 

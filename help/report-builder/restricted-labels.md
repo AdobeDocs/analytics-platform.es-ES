@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 0e626b4072c68a69ae94dbfdfb53169aa34ca8ac
+exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 2%
+source-wordcount: '311'
+ht-degree: 0%
 
 ---
-
 
 # Etiquetas restringidas en el Report Builder
 
@@ -25,11 +25,7 @@ Esta integración le permite administrar el cumplimiento de normas más fácilme
 
 Para obtener más información, consulte [Customer Journey Analytics y administración de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html)
 
-## Visualización de datos restringidos en el Report Builder
-
->[!NOTE]
->
->Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
+## Ver datos restringidos en el Report Builder
 
 En CJA aparecen dos políticas definidas por Adobe que afectan a los informes, las descargas y el uso compartido:
 
@@ -40,7 +36,7 @@ Los componentes afectados por estas políticas aparecen atenuados. Cuando pasa e
 
 ![](assets/rb-restricted-label.png)
 
-## Actualización de informes que contienen datos restringidos
+## Actualizar informes que contengan datos restringidos
 
 En los casos en los que un usuario ha creado un informe de Report Builder con elementos de datos que se restrinjan posteriormente, cuando se actualiza el informe, se muestra un mensaje de error.
 
