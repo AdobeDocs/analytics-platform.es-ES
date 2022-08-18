@@ -4,10 +4,10 @@ description: Vea la configuración principal de un componente de vista de datos.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
+source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 95%
+source-wordcount: '422'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,8 @@ Configuración principal que utiliza un componente de vista de datos.
 | [!UICONTROL Nombre del componente] | Requerido. Permite especificar el nombre descriptivo que aparecerá en Analysis Workspace. Puede cambiar el nombre de un componente para darle un nombre específico para la vista de datos. |
 | [!UICONTROL Descripción] | Opcional, pero recomendada. Proporciona información sobre el componente a otros usuarios. |
 | [!UICONTROL Etiquetas] | Opcional. Le permite etiquetar el componente con etiquetas personalizadas o listas para usar para facilitar la búsqueda y el filtrado en la IU de Analysis Workspace. |
-| [!UICONTROL Nombre del campo] | Nombre del campo de esquema. |
+| [!UICONTROL Etiquetas de contexto] | Puede etiquetar dimensiones o métricas específicas para casos de uso específicos en los informes. Algunos ejemplos son los paneles de medios para CJA, el nuevo panel de experimentos y las plantillas de informes. |
+| [!UICONTROL Nombre del campo de esquema] | Nombre del campo de esquema. |
 | [!UICONTROL Tipo de conjunto de datos] | Requerido. Campo no editable que muestra el tipo de conjunto de datos (evento, búsqueda o perfil) del que procede el componente. |
 | [!UICONTROL Conjunto de datos] | Campo no editable que muestra el conjunto de datos desde el que se originó el componente. Este campo puede contener varios conjuntos de datos. |
 | [!UICONTROL Tipo de esquema] | Campo no editable que muestra el tipo de datos del componente.  Aunque puede utilizar cualquier tipo de campo de esquema admitido en Platform, no todos los tipos de campos son compatibles con CJA. Se admiten los siguientes tipos de datos: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String` y `Boolean`. Solo se permite el tipo de datos de esquema `String` en los conjuntos de datos de búsqueda en este momento. |
