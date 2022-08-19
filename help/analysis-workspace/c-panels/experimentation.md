@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo analizar los resultados de las pru
 title: Panel de experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 76ebaf5ae5bd6027f83945d5750ddc13533a7b47
+source-git-commit: 57a52c21b1850574e5d85ab560fb5399f9b37631
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 9%
+source-wordcount: '745'
+ht-degree: 8%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 9%
 >
 >Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
 
-La variable **[!UICONTROL Experimento]** permite comparar diferentes variaciones de experiencia del usuario, marketing o mensajería para determinar cuál es la mejor opción para obtener un resultado específico. Puede evaluar el alza y la confianza de cualquier experimento A/B desde cualquier plataforma de experimentación: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos de BYO (que le aporten sus propios).
+La variable **[!UICONTROL Experimento]** permite que los analistas comparen distintas variaciones de experiencia de usuario, marketing o mensajería para determinar cuál es la mejor opción para obtener un resultado específico. Puede evaluar el alza y la confianza de cualquier experimento A/B desde cualquier plataforma de experimentación: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos de BYO (que le aporten sus propios).
 
 >[!IMPORTANT]
 >
->En este punto, [Adobe Analytics para Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) Los datos (A4T) no se pueden evaluar en la variable [!UICONTROL Experimento] panel.
+>En este punto, [Adobe Analytics para Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) Datos (A4T) introducidos en Adobe Experience Platform mediante el conector de origen de Analytics **cannot** se analizará en la variable [!UICONTROL Experimento] panel. Esperamos una solución a esta cuestión en 2023.
 
 ## Control de acceso
 
@@ -58,14 +58,20 @@ Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no habr�
    | --- | --- |
    | **[!UICONTROL Experimento]** | Conjunto de variaciones de una experiencia que se han expuesto a los usuarios finales para determinar cuál es mejor mantener a perpetuidad. Un experimento está formado por dos o más variantes, una de las cuales se considera la variante de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con la variable  **[!UICONTROL Experimento]** en vistas de datos y el valor de los últimos 3 meses de datos de experimento. |
    | **[!UICONTROL Variante de control]** | Una de las dos o más alteraciones en la experiencia de un usuario final que se están comparando con el fin de identificar la mejor alternativa. Se debe seleccionar una variante como control y solo se puede considerar que una variante es la variante de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con la variable  **[!UICONTROL Variant]** en las vistas de datos. Esta configuración extrae los datos de variante asociados con este experimento. |
-   | **[!UICONTROL Métricas de éxito]** | La métrica o métricas con las que un usuario compara variantes. La variante con el resultado más deseable para la métrica de conversión (ya sea la más alta o la más baja) se declara como la &quot;métrica principal&quot; de un experimento. Puede agregar hasta 5 métricas. |
+   | **[!UICONTROL Métricas de éxito]** | La métrica o métricas con las que un usuario compara variantes. La variante con el resultado más deseable para la métrica de conversión (ya sea la más alta o la más baja) se declara como la &quot;variante de mejor rendimiento&quot; de un experimento. Puede agregar hasta 5 métricas. |
    | **[!UICONTROL Métrica de normalización]** | La base ([!UICONTROL People], [!UICONTROL Sesiones]o [!UICONTROL Eventos]) en el que se ejecutará una prueba. Por ejemplo, una prueba puede comparar las tasas de conversión de varias variaciones en las que **[!UICONTROL Tasa de conversión]** se calcula como **[!UICONTROL Conversiones por sesión]** o **[!UICONTROL Conversiones por persona]**. |
 
 1. Haga clic en **[!UICONTROL Generar]**.
 
 ## Paso 4: Interpretación de la salida del panel
 
-El panel Experimentación devuelve un completo conjunto de datos y visualizaciones para ayudarle a comprender mejor el rendimiento de sus experimentos. En la parte superior del panel, se proporciona una línea de resumen para recordarle la configuración del panel seleccionada. En cualquier momento, puede editar el panel haciendo clic en el lápiz de edición en la parte superior derecha. También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. También puede ver los números de resumen de la variante con el alza y la confianza más altos.
+El panel Experimentación devuelve un completo conjunto de datos y visualizaciones para ayudarle a comprender mejor el rendimiento de sus experimentos. En la parte superior del panel, se proporciona una línea de resumen para recordarle la configuración del panel seleccionada. En cualquier momento, puede editar el panel haciendo clic en el lápiz de edición en la parte superior derecha.
+
+También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. La conclusión se basa en la relevancia estadística. (Consulte &quot;Metodología estadística&quot; más adelante). Puede ver los números de resumen de la variante de mejor rendimiento con el alza y la confianza más altos.
+
+>[!NOTE]
+>
+>El alza y la confianza también son funciones métricas calculadas avanzadas en CJA, por lo que puede crear sus propias métricas de alza y confianza.
 
 ![salida del experimento](assets/exp-output1.png)
 
@@ -73,10 +79,12 @@ Para cada métrica de éxito seleccionada, se mostrará una tabla improvisada y 
 
 ![salida del experimento](assets/exp-output2.png)
 
+La variable [!UICONTROL Línea] El gráfico le proporciona la variable [!UICONTROL Control] versus [!UICONTROL Variante de control] rendimiento:
+
 ![salida del experimento](assets/exp-output3.png)
 
 
-## Metodología estadística del panel Experimento
+## Metodología estadística
 
 A seguir.
 
