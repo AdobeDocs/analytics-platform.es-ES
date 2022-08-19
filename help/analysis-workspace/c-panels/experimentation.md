@@ -2,13 +2,13 @@
 description: Obtenga información sobre cómo analizar los resultados de las pruebas A/B en el panel Experimentación con CJA.
 title: Panel de experimentación
 feature: Panels
-source-git-commit: 2c217c7d31819ac8eb27d2d1010e0df787601e21
+exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
+source-git-commit: 76ebaf5ae5bd6027f83945d5750ddc13533a7b47
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 4%
+source-wordcount: '686'
+ht-degree: 9%
 
 ---
-
 
 # Panel de experimentación
 
@@ -24,19 +24,7 @@ La variable **[!UICONTROL Experimento]** permite comparar diferentes variaciones
 
 ## Control de acceso
 
-El panel Experimento está disponible para todos los usuarios de Customer Journey Analytics (CJA). No se requieren derechos de administrador ni otros permisos. Sin embargo, la configuración requiere etiquetas en vistas de datos que solo los administradores pueden asignar.
-
-## Terminología
-
-* **Experimento**: Un experimento es un conjunto de variaciones de una experiencia que se expusieron a los usuarios finales para determinar cuál es mejor mantener a perpetuidad. Un experimento consta de dos o más variaciones, una de las cuales se considera la variación de control.
-
-* **Variación**: Una de las dos o más alteraciones en la experiencia de un usuario final que se están comparando con el fin de identificar la mejor alternativa. Se debe seleccionar una variación como control y solo se puede considerar que una variación es la variación de control.
-
-* **Control**: Variación específica que representa el estado actual o el estado predeterminado de la experiencia de un usuario. A qué se comparan todas las demás variaciones.
-
-* **Métrica de normalización**: Base (sesiones o personas) en la que se ejecutará una prueba. Por ejemplo, una prueba puede comparar las tasas de conversión de varias variaciones en las que la tasa de conversión se calcula como conversiones por sesión o conversiones por persona.
-
-* **Métrica de conversión**: La métrica con la que un usuario compara variaciones. La variación con el resultado más deseable para la métrica de conversión (ya sea la más alta o la más baja) se declara como &quot;ganadora&quot; de un experimento.
+El panel Experimento está disponible para su uso por parte de todos los usuarios de Customer Journey Analytics (CJA). No se requieren derechos de administrador ni otros permisos. Sin embargo, la configuración (pasos 1 y 2 a continuación) requiere acciones que solo los administradores pueden realizar.
 
 ## Paso 1: Crear conexión para experimentar conjuntos de datos
 
@@ -53,7 +41,7 @@ En la vista de datos que contiene datos de experimentación, elija dos dimension
 
 ![etiqueta de contexto](assets/context-label.png)
 
-Sin estas etiquetas presentes, el panel Experimento no funciona.
+Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no habrá experimentos con los que trabajar.
 
 ## Paso 3: Configuración del panel Experimento
 
@@ -61,6 +49,36 @@ Sin estas etiquetas presentes, el panel Experimento no funciona.
 
 ![panel de experimento](assets/experiment.png)
 
+>[!IMPORTANT]
+>Si no se ha completado la configuración necesaria en las vistas de datos de CJA, recibirá un mensaje a ese efecto antes de continuar.
+
+1. Configure los ajustes de entrada del panel.
+
+   | Configuración | Definición |
+   | --- | --- |
+   | **[!UICONTROL Experimento]** | Conjunto de variaciones de una experiencia que se han expuesto a los usuarios finales para determinar cuál es mejor mantener a perpetuidad. Un experimento está formado por dos o más variantes, una de las cuales se considera la variante de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con la variable  **[!UICONTROL Experimento]** en vistas de datos y el valor de los últimos 3 meses de datos de experimento. |
+   | **[!UICONTROL Variante de control]** | Una de las dos o más alteraciones en la experiencia de un usuario final que se están comparando con el fin de identificar la mejor alternativa. Se debe seleccionar una variante como control y solo se puede considerar que una variante es la variante de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con la variable  **[!UICONTROL Variant]** en las vistas de datos. Esta configuración extrae los datos de variante asociados con este experimento. |
+   | **[!UICONTROL Métricas de éxito]** | La métrica o métricas con las que un usuario compara variantes. La variante con el resultado más deseable para la métrica de conversión (ya sea la más alta o la más baja) se declara como la &quot;métrica principal&quot; de un experimento. Puede agregar hasta 5 métricas. |
+   | **[!UICONTROL Métrica de normalización]** | La base ([!UICONTROL People], [!UICONTROL Sesiones]o [!UICONTROL Eventos]) en el que se ejecutará una prueba. Por ejemplo, una prueba puede comparar las tasas de conversión de varias variaciones en las que **[!UICONTROL Tasa de conversión]** se calcula como **[!UICONTROL Conversiones por sesión]** o **[!UICONTROL Conversiones por persona]**. |
+
+1. Haga clic en **[!UICONTROL Generar]**.
+
+## Paso 4: Interpretación de la salida del panel
+
+El panel Experimentación devuelve un completo conjunto de datos y visualizaciones para ayudarle a comprender mejor el rendimiento de sus experimentos. En la parte superior del panel, se proporciona una línea de resumen para recordarle la configuración del panel seleccionada. En cualquier momento, puede editar el panel haciendo clic en el lápiz de edición en la parte superior derecha. También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. También puede ver los números de resumen de la variante con el alza y la confianza más altos.
+
+![salida del experimento](assets/exp-output1.png)
+
+Para cada métrica de éxito seleccionada, se mostrará una tabla improvisada y una tendencia de tasa de conversión:
+
+![salida del experimento](assets/exp-output2.png)
+
+![salida del experimento](assets/exp-output3.png)
+
+
+## Metodología estadística del panel Experimento
+
+A seguir.
 
 
 

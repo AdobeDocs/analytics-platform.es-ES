@@ -4,10 +4,10 @@ description: Vea la configuración principal de un componente de vista de datos.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
+source-git-commit: 3d0de872f92de3586bfe5e38ac01799da20526de
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 88%
+source-wordcount: '437'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Configuración principal que utiliza un componente de vista de datos.
 | [!UICONTROL Nombre del componente] | Requerido. Permite especificar el nombre descriptivo que aparecerá en Analysis Workspace. Puede cambiar el nombre de un componente para darle un nombre específico para la vista de datos. |
 | [!UICONTROL Descripción] | Opcional, pero recomendada. Proporciona información sobre el componente a otros usuarios. |
 | [!UICONTROL Etiquetas] | Opcional. Le permite etiquetar el componente con etiquetas personalizadas o listas para usar para facilitar la búsqueda y el filtrado en la IU de Analysis Workspace. |
-| [!UICONTROL Etiquetas de contexto] | Puede etiquetar dimensiones o métricas específicas para casos de uso específicos en los informes. Algunos ejemplos son los paneles de medios para CJA, el nuevo panel de experimentos y las plantillas de informes. |
+| [!UICONTROL Etiquetas de contexto] | Puede etiquetar dimensiones o métricas específicas para casos de uso específicos en los informes. Algunos ejemplos son los paneles de medios para CJA, el nuevo panel de experimentos y las plantillas de informes. La eliminación de una etiqueta de contexto puede afectar a paneles o informes específicos donde se requiere el componente. |
 | [!UICONTROL Nombre del campo de esquema] | Nombre del campo de esquema. |
 | [!UICONTROL Tipo de conjunto de datos] | Requerido. Campo no editable que muestra el tipo de conjunto de datos (evento, búsqueda o perfil) del que procede el componente. |
 | [!UICONTROL Conjunto de datos] | Campo no editable que muestra el conjunto de datos desde el que se originó el componente. Este campo puede contener varios conjuntos de datos. |
