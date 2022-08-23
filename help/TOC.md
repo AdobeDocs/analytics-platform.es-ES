@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Cross-Channel Analytics, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
+source-git-commit: 85c1b071d0a860cf9f42c09951039a14903529ca
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '739'
 ht-degree: 97%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [Histograma](analysis-workspace/visualizations/histogram.md)
       + [Barras horizontales y barras horizontales apiladas](analysis-workspace/visualizations/horizontal-bar.md)
       + [Resumen de métricas clave](analysis-workspace/visualizations/key-metric.md)
-      + [Líneas](analysis-workspace/visualizations/line.md)
+      + [Línea](analysis-workspace/visualizations/line.md)
       + [Diagrama de dispersión](analysis-workspace/visualizations/scatterplot.md)
       + [Número de resumen y cambio de resumen](analysis-workspace/visualizations/summary-number-change.md)
       + [Texto](analysis-workspace/visualizations/text.md)
@@ -123,7 +123,8 @@ ht-degree: 97%
       + [Resumen de paneles](analysis-workspace/c-panels/panels.md)
       + [Panel de Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
-      + [Panel de experimentación](analysis-workspace/c-panels/experimentation.md)
+      + Experimento {#experimentation}
+         + [Panel de experimentación](analysis-workspace/c-panels/experimentation/experimentation.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
       + [Panel de visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
