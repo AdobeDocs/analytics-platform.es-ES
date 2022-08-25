@@ -1,17 +1,17 @@
 ---
-title: Creación o edición de una fuente de datos
+title: Creación o edición de una vista de datos
 description: Todos los ajustes que se pueden ajustar para crear o editar una vista de datos.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1233'
 ht-degree: 100%
 
 ---
 
-# Creación o edición de una fuente de datos
+# Creación o edición de una vista de datos
 
 La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándares. La mayoría de los elementos de esquema pueden ser una dimensión o una métrica según los requisitos de la empresa. Una vez arrastrado un elemento de esquema a una vista de datos, las opciones aparecen a la derecha, donde puede ajustar el funcionamiento de la dimensión o métrica en CJA.
 
