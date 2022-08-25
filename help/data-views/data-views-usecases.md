@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1277'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Esta función se aplica específicamente a los campos basados en matrices. La fu
 
 Por ejemplo, puede usar la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 dólares. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 dólares y una compra de productos de 25 dólares, solo quitaríamos esta última, no todo el pedido.
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
 a. En [!UICONTROL Formato], seleccione [!UICONTROL Moneda].
 b. En [!UICONTROL Moneda], seleccione USD.
@@ -99,7 +99,7 @@ Tres componentes facilitan la creación de informes:
 
 * Primera dimensión: [tipo de sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Esta dimensión tiene dos valores: 1) [!UICONTROL Nuevo] y 2) [!UICONTROL Devolución]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
 
-* Dos métricas: [nuevas sesiones, sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de creación de informes. Las sesiones de retorno son el número de sesiones que no fueron la primera sesión de una persona.
+* Dos métricas: [nuevas sesiones, sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de creación de informes. Las sesiones de retorno son el número de sesiones que no fueron la primera sesión de una persona.
 
 Para acceder a estos componentes:
 
@@ -107,26 +107,26 @@ Para acceder a estos componentes:
 1. Haga clic en la pestaña **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar opcionales]** en el carril izquierdo.
 1. Arrastre estos componentes a la vista de datos.
 
-Del 95 % al 99 % de las veces, las nuevas sesiones se informan con precisión. Las únicas excepciones son las siguientes:
+Del 95 al 99 % de las veces, las nuevas sesiones se registran con precisión. Las únicas excepciones son las siguientes:
 
 * Cuando se produce una primera sesión antes de la ventana retrospectiva de 13 meses. Se ignorará esta sesión.
 
-* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de informes se contarán como sesiones de retorno.
+* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de creación de informes se contarán como sesiones recurrentes.
 
-## Uso de la funcionalidad Fecha y Fecha-Hora {#date}
+## Uso de la funcionalidad Fecha y Fecha-hora {#date}
 
-Los esquemas de Adobe Experience Platform contienen [!UICONTROL Fecha] y [!UICONTROL Date-Time] campos. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar sus [format](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en los informes. Por ejemplo:
+Los esquemas de Adobe Experience Platform contienen campos [!UICONTROL Fecha] y [!UICONTROL Fecha-hora]. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar su [formato](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en la creación de informes. Por ejemplo:
 
-* Para el formato Fecha, si selecciona **[!UICONTROL Día]** con el formato **[!UICONTROL Mes, día, año]**, un ejemplo de salida en los informes puede tener el siguiente aspecto: 23 de agosto de 2022.
+* Para el formato Fecha, si selecciona **[!UICONTROL Día]** con el formato **[!UICONTROL Mes, día, año]**, un ejemplo de salida en la creación de informes puede tener el siguiente aspecto: Agosto 23, 2022.
 
-* Para el formato de fecha y hora, si selecciona **[!UICONTROL Minuto del día]** con el formato **[!UICONTROL Hora:Minuto]**, el resultado puede ser similar a: 20:20.
+* Para el formato de fecha y hora, si selecciona **[!UICONTROL Minuto del día]** con el formato **[!UICONTROL Hora:Minuto]**, el resultado puede ser similar a “20:20”.
 
 ### Casos de uso de ejemplo:
 
-* Fecha: Una empresa de viajes está recopilando la fecha de salida de los viajes como campo en sus datos. Les gustaría tener un informe que compare el [!UICONTROL Día de la semana] para todas las fechas de salida recopiladas para comprender cuál es la más popular. Les gustaría hacer lo mismo por [!UICONTROL Mes del año].
+* Fecha: una empresa de viajes está recopilando la fecha de salida de los viajes como campo en sus datos. Les gustaría tener un informe que compare el [!UICONTROL Día de la semana] para todas las fechas de salida recopiladas a fin de comprender cuál es el más popular. Les gustaría hacer lo mismo con el [!UICONTROL Mes del año].
 
-* Fecha-Hora: Una empresa minorista está recopilando el tiempo de cada una de sus compras en puntos de venta (POS). Durante un mes determinado, les gustaría entender los períodos de compra más concurridos por [!UICONTROL Hora del día].
+* Fecha-hora: una empresa minorista está recopilando la hora de cada una de sus compras en el punto de venta (TPV). Para un mes determinado, les gustaría entender los períodos de compra más concurridos por [!UICONTROL Hora del día].
 
 >[!MORELIKETHIS]
->[Fecha y fecha-hora en la configuración del componente Formato](/help/data-views/component-settings/format.md)
+>[Fecha y Fecha-hora en la configuración del componente Formato](/help/data-views/component-settings/format.md)
 
