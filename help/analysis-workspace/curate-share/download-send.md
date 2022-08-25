@@ -4,9 +4,9 @@ title: Descarga de archivos PDF o CSV
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ La opción **[!UICONTROL Descargar datos como CSV]** del botón secundario le pe
 
 ## Descargar elementos como CSV {#download-items}
 
-Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en cualquier encabezado de tabla o fila y seleccione **Descargar elementos como CSV (nombre de la dimensión)**. Esta opción exportará hasta 50 000 elementos de dimensión (según el orden de tabla) para la dimensión seleccionada, con filtros aplicados. Si elige esta opción en la parte superior de la tabla, se exporta la primera dimensión de la tabla. Aunque no se aplican límites en la tabla improvisada, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
+Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en cualquier encabezado de tabla o fila y seleccione **Descargar elementos como CSV (nombre de la dimensión)**. Esta opción exportará hasta 50 000 elementos de dimensión (según el orden de tabla) para la dimensión seleccionada, con filtros aplicados. Si elige esta opción en la parte superior de la tabla, se exporta la primera dimensión de la tabla. Aunque no se aplican límites en la tabla de forma libre, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
 
 >[!TIP]
 >
@@ -81,9 +81,9 @@ Si solicita más de una descarga a la vez, recibirá una notificación avisando 
 
 ![](assets/toast.png)
 
-## Descargar datos confidenciales {#sensitive}
+## Descarga de datos confidenciales {#sensitive}
 
-Si la variable **[!UICONTROL Aplicar descarga]** [política de control de datos](/help/data-views/data-governance.md) está activada en la vista de datos sobre la que realiza informes, cualquier descarga (como correos electrónicos o archivos pdfs compartidos) de proyectos de Workspace hash de los campos de datos etiquetados como confidenciales. Puede seguir realizando análisis de estos campos en Workspace, pero si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como vacíos en el archivo .pdf o .csv .
+Si la [política de gobernanza de datos](/help/data-views/data-governance.md) **[!UICONTROL Aplicar descarga]** está activada en la vista de datos sobre la que crea informes, cualquier descarga (como el envío por correo electrónico o el uso compartido de PDF) de los proyectos del espacio de trabajo hará un hash de los campos de datos etiquetados como confidenciales. Puede seguir analizando estos campos en el espacio de trabajo, pero, si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como vacíos en el archivo .pdf o .csv.
 
 ## Preguntas más frecuentes {#faq}
 
