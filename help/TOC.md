@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 15ef6bfc1d6600b3795310c208ad46c6f6b52254
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
    + [Guía del usuario para nuevos usuarios de Customer Journey Analytics](getting-started/aa-to-cja-user.md)
    + Comparar Adobe Analytics y Customer Journey Analytics {#compare-aa-cja}
       + [Compatibilidad con funciones de Customer Journey Analytics](getting-started/aa-vs-cja/cja-aa.md)
-      + [Comparar terminología para datos de Analytics pasados a través del conector de origen de Analytics](getting-started/aa-vs-cja/terminology.md)
+      + [Comparación de terminología para datos de Analytics pasados a través del conector de origen de Analytics](getting-started/aa-vs-cja/terminology.md)
       + [Comparar el procesamiento de datos entre Adobe Analytics y CJA](getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Entornos de informes virtuales y entornos de zonas protegidas](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Reglas de procesamiento, VISTA y clasificaciones en comparación con la preparación de datos](getting-started/aa-vs-cja/pr-vista-dataprep.md)
@@ -56,7 +56,7 @@ ht-degree: 97%
       + [Cómo funcionan las reproducciones](connections/cca/replay.md)
       + [Preguntas frecuentes sobre Cross-Channel Analytics](connections/cca/faq.md)
 + Vistas de datos {#cja-dataviews}
-   + [Resumen de las vistas de datos](data-views/data-views.md)
+   + [Información general de las vistas de datos](data-views/data-views.md)
    + [Creación o edición de una vista de datos](data-views/create-dataview.md)
    + Configuración de componentes {#component-settings}
       + [Información general sobre la configuración de componentes](data-views/component-settings/overview.md)

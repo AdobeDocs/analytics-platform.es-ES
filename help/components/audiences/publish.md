@@ -4,8 +4,8 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 source-git-commit: 49af5869f5aa3b8915b9fb36edb16abe3a3cf34b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | [!UICONTROL Nombre] | El nombre de la audiencia. |
    | [!UICONTROL Etiquetas] | Las etiquetas que quiera asignar a la audiencia con fines organizativos. Puede utilizar una etiqueta preexistente o introducir una nueva. |
    | [!UICONTROL Descripción] | Agregue una buena descripción de la audiencia para diferenciarla de otras. |
-   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para todas las frecuencias de actualización, hay un límite de 75 o 150 audiencias, según la asignación de CJA.</li></ul> |
+   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para todas las frecuencias de actualización, hay un límite de 75 o 150 audiencias, según sus derechos de CJA.</li></ul> |
    | Fecha de caducidad | Cuando la audiencia deje de actualizarse. El valor predeterminado es 1 año a partir de la fecha de creación. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la audiencia caduque. |
    | Actualizar ventana de retrospección | Especifica cuánto tiempo en la ventana de datos va a retroceder al crear la audiencia. El máximo es de 90 días. |
    | [!UICONTROL Intervalo de fecha único] | Intervalo de fecha en el que desea que se publique la audiencia única. |
@@ -90,7 +90,7 @@ En este caso, se envía un evento de salida al Experience Platform desde CJA.
 
 ## ¿Qué sucede si elimina una audiencia en CJA? {#delete}
 
-Cuando se elimina una audiencia de CJA, esta ya no aparecerá en la interfaz de usuario del Experience Platform. Sin embargo, en Platform no se eliminan perfiles asociados a esa audiencia.
+Cuando se elimina una audiencia de CJA, esta ya no aparecerá en la IU de Experience Platform. Sin embargo, en Platform no se eliminan perfiles asociados a esa audiencia.
 
 ## Pasos siguientes
 
