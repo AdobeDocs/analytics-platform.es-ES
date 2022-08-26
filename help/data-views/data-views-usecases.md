@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
+source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 100%
+source-wordcount: '1254'
+ht-degree: 92%
 
 ---
 
@@ -46,7 +46,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 
 ## 3. Utilice dimensiones numéricas como “métricas” en diagramas de flujo {#numeric}
 
-Puede utilizar una dimensión numérica para obtener “métricas” en la visualización de [!UICONTROL flujo].
+Puede utilizar una dimensión numérica para obtener &quot;métricas&quot; en su [!UICONTROL  Flujo] visualización.
 
 1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 2. En los informes del Espacio de trabajo, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
@@ -87,19 +87,19 @@ No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
 
-## 7. Creación de informes de sesión nueva frente a repetida {#new-repeat}
+## 7. Nuevos informes de las sesiones {#new-repeat}
 
 Puede determinar si una sesión es realmente la primera sesión de un usuario o no, en función de la ventana de creación de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Esta creación de informe permite determinar, por ejemplo, lo siguiente:
 
-* ¿Qué porcentaje de sus pedidos provienen de sesiones nuevas o repetidas?
+* ¿Qué porcentaje de sus pedidos provienen de nuevas sesiones?
 
-* Para un canal de marketing determinado o una campaña específica, ¿está dirigiéndose a los usuarios que ingresan por primera vez o a los que regresan? ¿Cómo influyeron estas opciones en las tasas de conversión?
+* Para un canal de marketing determinado o una campaña específica, ¿está segmentando usuarios nuevos? ¿Cómo influye esta opción en las tasas de conversión?
 
-Tres componentes facilitan la creación de informes:
+Dos componentes facilitan este sistema de informes:
 
-* Primera dimensión: [tipo de sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Esta dimensión tiene dos valores: 1) [!UICONTROL Nuevo] y 2) [!UICONTROL Devolución]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
+* Primera dimensión: [tipo de sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Esta dimensión tiene dos valores: 1) [!UICONTROL Nuevo] y 2) [!UICONTROL Devolución]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque &quot;No aplicable&quot; para esta dimensión.
 
-* Dos métricas: [nuevas sesiones, sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de creación de informes. Las sesiones de retorno son el número de sesiones que no fueron la primera sesión de una persona.
+* 1 métricas: [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de informes.
 
 Para acceder a estos componentes:
 

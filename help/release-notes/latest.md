@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e7ff0bfae0f7d041a8131cecbf362cf71aca9740
+source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 99%
 
 ---
 
 # Notas de la versión de Customer Journey Analytics (CJA) actuales (agosto de 2022)
 
-**Última actualización**: 23 de agosto de 2022
+**Última actualización**: 25 de agosto de 2022
 
 ## Funciones principales
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | **Soporte de CJA para etiquetas y políticas de gobernanza de datos** | Automatiza la integración entre las etiquetas y políticas de privacidad de CJA y Adobe Experience Platform. Las etiquetas de datos creadas en conjuntos de datos consumidos por Platform se muestran en las vistas de datos de CJA para detener o advertir a los usuarios que crean métricas o dimensiones a partir de campos confidenciales. Además, cuando los datos se exportan desde CJA (a través de informes de espacio de trabajo o Report Builder, exportación, API, etc.) se añadirán etiquetas o advertencias adicionales para notificar a los usuarios de que un informe contiene información confidencial que debe tratarse de una manera específica.  [Más información](/help/data-views/data-governance.md) | 17 de agosto de 2022 |
 | **Compatibilidad con campos de fecha en CJA** | Permite que CJA informe sobre los campos de fecha y hora.  [Más información](/help/data-views/data-views-usecases.md#date) | 17 de agosto de 2022 |
 | **Compatibilidad entre regiones para el conector de origen de Analytics** | Ahora puede ingerir grupos de informes de cualquier región (Estados Unidos, Reino Unido o Singapur). Sin embargo, estos deben asignarse a la misma organización que la instancia de zona protegida de Experience Platform en la que se está creando la conexión de origen.  [Más información](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) | 24 de agosto de 2022 |
-| **Creación de informes de sesión nueva frente a repetida** | Ahora puede descubrir si una sesión en particular fue la primera de un usuario.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat) | 24 de agosto de 2022 |
+| **Informes de primera sesión** | Ahora puede descubrir si una sesión en particular fue la primera de un usuario.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat) | 24 de agosto de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
