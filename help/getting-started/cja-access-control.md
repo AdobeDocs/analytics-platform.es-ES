@@ -8,17 +8,17 @@ mini-toc-levels: 3
 source-git-commit: 04957adebd848739b8b3609eb35366d8296ee752
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 17%
+ht-degree: 29%
 
 ---
 
 # Control de acceso de CJA
 
-El Customer Journey Analytics (CJA) se rige por tres niveles de acceso o por tres funciones: Función de administrador de productos, función de administrador de perfil de producto y acceso de usuario. En este tema se explican estas funciones con más detalle.
+Customer Journey Analytics (CJA) se rige por tres niveles de acceso o funciones: función Administrador de productos, función Administrador de perfil de producto y acceso de nivel de usuario. En este tema se explican estas funciones con más detalle.
 
 Además, analizamos formas más detalladas de limitar el acceso, como la depuración de Workspace y el nivel de fila, así como el control de acceso de nivel de valor.
 
-## Función de administrador de productos
+## Función Administrador de productos
 
 Los administradores de productos tienen permisos para completar cualquier tarea necesaria dentro de CJA. Debe agregarse como administrador de productos al **Perfil de producto del Customer Journey Analytics** en el [Admin Console](https://adminconsole.adobe.com/enterprise/) under [!UICONTROL Customer Journey Analytics] > [!UICONTROL Administradores] pestaña > [!UICONTROL Agregar administrador]. Los administradores de productos tienen los siguientes permisos:
 
@@ -35,7 +35,7 @@ Convertirse en administrador de productos solo en Customer Journey Analytics no 
 
 Para obtener más información sobre los permisos de Experience Platform, consulte [Control de acceso en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es).
 
-## Función de administrador del perfil de producto
+## Función Administrador de perfil de producto
 
 Un perfil de producto es un conjunto de permisos. Los administradores de perfil de producto pueden
 
@@ -45,11 +45,11 @@ Un perfil de producto es un conjunto de permisos. Los administradores de perfil 
 
 ## Acceso de nivel de usuario
 
-Los usuarios en Customer Journey Analytics no pueden crear, editar ni ver conexiones o vistas de datos. Los usuarios pueden crear filtros, proyectos, audiencias y métricas calculadas con permisos especiales en el Admin Console.
+Los usuarios en Customer Journey Analytics no pueden crear, editar ni ver conexiones o vistas de datos. Los usuarios pueden crear filtros, proyectos, audiencias y métricas calculadas con permisos especiales en Admin Console.
 
-## Revisión de proyecto de Workspace
+## Depuración del proyecto de Workspace
 
-Se puede utilizar otro nivel de control de acceso en el nivel de informes de Workspace. Puede limitar el acceso a componentes específicos para determinados usuarios. Para obtener más información sobre cómo limitar componentes (dimensiones, métricas, segmentos e intervalos de fechas) en el nivel de proyecto de Workspace y cómo se vincula la depuración a las vistas de datos, consulte [Depurar proyectos](/help/analysis-workspace/curate-share/curate.md).
+Se puede utilizar otro nivel de control de acceso en el nivel de informes de Workspace. Puede limitar el acceso a componentes específicos para determinados usuarios. Para obtener más información sobre cómo limitar componentes (dimensiones, métricas, segmentos e intervalos de fechas) en el nivel de proyecto de Workspace y cómo se vincula la depuración a las vistas de datos, consulte [Depuración de proyectos](/help/analysis-workspace/curate-share/curate.md).
 
 ## Conceder acceso a métricas o dimensiones individuales
 
@@ -82,7 +82,7 @@ Este es un ejemplo relacionado con la atención médica: Supongamos que crea una
 
 La variable **[!UICONTROL Permisos]** forma parte de cada perfil de producto en [Admin Console](https://adminconsole.adobe.com/enterprise/). Puede agregar usuarios a perfiles de producto específicos. A continuación, asigne derechos a vistas de datos específicas y especifique los permisos que tienen los usuarios en un perfil de producto. Estos son los permisos específicos de CJA:
 
-![permisos de admin console](assets/permissions.png)
+![permisos de Admin Console](assets/permissions.png)
 
 | Permiso | Definición |
 | --- | --- |
