@@ -4,9 +4,9 @@ title: Preguntas frecuentes
 feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 source-git-commit: e5ae592c6765638e26ee5252f458e82af9d24e44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 |--- |--- |
 | **¿Cuáles son los requisitos previos para utilizar Analysis Workspace?** | El uso de Analysis Workspace en CJA requiere una implementación de Customer Journey Analytics en funcionamiento. Compruebe que su organización está enviando datos a Adobe Experience Platform antes de utilizar la herramienta. |
 | **¿Cuáles son los requisitos de administración y acceso de Analysis Workspace?** | Consulte [Requisitos de administración](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
-| **¿Afectará el uso de Analysis Workspace a la recopilación de datos?** | Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto del espacio de trabajo para ver qué hay disponible. Si arrastra accidentalmente un componente no válido al proyecto del espacio de trabajo o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en *[!UICONTROL Proyecto] > [!UICONTROL Nuevo]* en el menú superior izquierdo. |
+| **¿Afectará el uso de Analysis Workspace a la recopilación de datos?** | Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto de Workspace para ver qué hay disponible. Si arrastra accidentalmente un componente no válido al proyecto de Workspace o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en *[!UICONTROL Proyecto] > [!UICONTROL Nuevo]* en el menú superior izquierdo. |
 | **¿Cómo se implementa Analysis Workspace?** | No se requiere implementación especial. Analysis Workspace está disponible para Customer Journey Analytics de todas las empresas. Sin embargo, son aplicables los permisos estándares para el contenido (como los componentes de proyecto) y para depurar y compartir proyectos. Consulte [Administración y requisitos de acceso](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
 | **¿Cómo puedo optimizar el rendimiento de Analysis Workspace?** | Consulte [Optimización del rendimiento](/help/analysis-workspace/workspace-faq/optimizing-performance.md). |
 
@@ -28,7 +28,7 @@ Datos no válidos significa que Adobe no puede devolver datos mediante la combin
 
 **Cuando arrastro una métrica, no veo ningún dato real, solo ceros.**
 
-Si ha creado correctamente un informe de espacio de trabajo pero no hay datos, puede comprobar algunas cosas:
+Si ha creado correctamente un informe de Workspace pero no hay datos, puede comprobar algunas cosas:
 
 * Si aplicó un filtro en el informe, es posible que los criterios de filtro no coincidan con ningún dato. Intente eliminar el filtro o ajustar su definición.
 * Compruebe el intervalo de fechas en la esquina superior derecha y compruebe que está establecido en un valor que esperaba.
