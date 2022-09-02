@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 source-git-commit: 75e72f94b90ad67a3f8e9506abb09b96a59383d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,13 +59,13 @@ En CJA, ahora puede continuar con la [creación de vistas de datos](/help/data-v
 
 ![Crear vista de datos](assets/create-dataview.png)
 
-### Paso 4: Informar sobre puntuaciones de CAI en el Espacio de trabajo
+### Paso 4: Informar sobre puntuaciones de CAI en e Workspace
 
-En CJA Workspace, cree un nuevo proyecto y extraiga visualizaciones.
+En CJA Workspace, ahora puede crear un nuevo proyecto y recibir visualizaciones.
 
 **Puntuaciones de tendencia**
 
-A continuación, se muestra un ejemplo de un proyecto del Espacio de trabajo con datos de CAI que ofrece puntuaciones de tendencia de un segmento de usuarios a lo largo del tiempo, en un gráfico de barras apiladas:
+A continuación, se muestra un ejemplo de un proyecto de Workspace con datos de CAI que ofrece puntuaciones de tendencia de un segmento de usuarios a lo largo del tiempo, en un gráfico de barras apiladas:
 
 ![Bloques de puntuación](assets/workspace-scores.png)
 
