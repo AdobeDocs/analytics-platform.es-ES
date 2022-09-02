@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,9 +65,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
 1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber soltado algunas filas.
 
-   El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) podría soltar filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se perderá toda la fila.
+   El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) podría soltar filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se perderá toda la fila.
 
-   | Campo de Analytics | Valores que provocan la pérdida de una fila |
+   | Campo de Analytics | Valores que hacen que se borre una fila |
    | --- | --- |
    | Opt_out | y, Y |
    | In_data_only | No 0 |
@@ -76,7 +76,7 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
-   Para obtener más información sobre hit\_source, consulte: [Referencia de columnas de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es). Para obtener más información sobre page\_event, consulte: [Búsqueda de eventos de página](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=en).
+   Para obtener más información acerca de hit\_source, consulte [Referencia de columnas de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es). Para obtener más información acerca de page\_event, consulte [Búsqueda de eventos de página](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=es).
 
 1. Si el conector suelta filas, reste esas filas de la métrica [!UICONTROL Ocurrencias]. El número resultante debe coincidir con el número de eventos de los conjuntos de datos de Adobe Experience Platform.
 
