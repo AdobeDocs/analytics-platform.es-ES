@@ -2,10 +2,10 @@
 title: Operadores de filtro
 description: Determine cómo interactúa un componente con un valor dentro de un filtro.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: 87da431752c235c442d13fd185c7ab8f6cf20eba
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: a8b884148a197b081e321582f70a9188a1bdc51e
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ El Generador de filtros le permite comparar y restringir valores utilizando los 
 | --- | --- |
 | es igual que | Devuelve elementos que coinciden exactamente con un valor numérico o de cadena. Si utiliza caracteres comodín, utilice el operador “coincidencias”. |
 | no es igual | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido.  Si utiliza caracteres comodín, utilice el operador “no coincide con”. |
+| es igual a cualquiera | Devuelve cualquier elemento que contenga la coincidencia de los valores de subcadena introducidos, delimitados por una coma. |
 | contiene | Devuelve elementos que se comparan con las subcadenas de los valores introducidos. Por ejemplo, si la regla de una dimensión de cadena contiene `"Search"`, coincide con cualquier página que tenga la subcadena `"Search"` en ella, incluido `"Search Results"`, `"Search"` y `"Searching"`. Esta variable distingue entre mayúsculas y minúsculas. |
 | no contiene | Todos los elementos que coincidan con el valor introducido se excluirán de los resultados. Por ejemplo, si la regla de una dimensión de cadena no contiene `"Search"`, excluye cualquier página que tenga la subcadena `"Search"` en ella, incluido `"Search Results"`, `"Search"` y `"Searching"`. |
 | contiene todo | Devuelve elementos que incluyen todas las subcadenas (separadas por un espacio) en cualquier orden. Por ejemplo, al introducir `"Search Results"` con este operador coincidiría `"Search Results"` y `"Results of Search"`, pero no `"Search"` o `"Results"` de forma independiente. Este operador admite hasta 100 palabras delimitadas por espacios. |
