@@ -3,9 +3,9 @@ description: Obtenga información acerca de cómo analizar los resultados de las
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 15ef6bfc1d6600b3795310c208ad46c6f6b52254
-workflow-type: ht
-source-wordcount: '1322'
+source-git-commit: 3c4e2ccd9a3a1d8daf4ace79103b35aead79e432
+workflow-type: tm+mt
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -34,8 +34,8 @@ Una vez que se hayan [ingerido](https://experienceleague.adobe.com/docs/experien
 
 En la configuración de vistas de datos de CJA, los administradores pueden añadir [etiquetas de contexto](/help/data-views/component-settings/overview.md) a una dimensión o métrica y los servicios de CJA como el panel [!UICONTROL Experimentación] puede utilizarlas para sus fines. Para el panel Experimentación se utilizan dos etiquetas predefinidas:
 
-* [!UICONTROL Experimento]
-* [!UICONTROL Variante]
+* [!UICONTROL Experimento de experimentación]
+* [!UICONTROL Variante de experimento]
 
 En la vista de datos que contiene datos de experimentación, elija dos dimensiones, una con los datos de experimentación y otra con los de variante. A continuación, etiquete esas dimensiones con **[!UICONTROL Experimento]** y **[!UICONTROL Variante]**.
 
