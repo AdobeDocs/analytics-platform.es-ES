@@ -3,10 +3,10 @@ description: Obtenga información acerca de cómo analizar los resultados de las
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 870fe0f441ad95e5faec569f05fe4d67954b18a5
+source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 87%
+source-wordcount: '1326'
+ht-degree: 86%
 
 ---
 
@@ -41,7 +41,7 @@ En la vista de datos que contiene datos de experimentación, elija dos dimension
 
 ![etiqueta de contexto](assets/context-label.png)
 
-Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no habrá experimentos con los que trabajar.
+Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no hay experimentos con los que trabajar.
 
 ## Paso 3: Configurar el panel Experimento
 
@@ -70,13 +70,9 @@ El panel Experimentación devuelve un completo conjunto de datos y visualizacion
 
 También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. La conclusión se basa en la relevancia estadística. (Consulte Metodología estadística más adelante). Puede ver los números de resúmenes de la variante con mejor rendimiento, con el alza y la confianza más altas.
 
->[!NOTE]
->
->El alza y la confianza también son [funciones de métricas calculadas avanzadas](/help/components/calc-metrics/cm-adv-functions.md) en CJA, para que pueda generar sus propias métricas de alza y confianza.
+Para cada métrica de éxito seleccionada, se mostrará una tabla de forma libre  y una tendencia de tasa de conversión.
 
 ![resultado del experimento](assets/exp-output1.png)
-
-Para cada métrica de éxito seleccionada, se mostrará una tabla de forma libre  y una tendencia de tasa de conversión.
 
 El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL Control] frente a [!UICONTROL Variante de control]:
 
@@ -85,6 +81,10 @@ El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL
 >[!NOTE]
 >
 >Actualmente, este panel no admite el análisis de pruebas A/A.
+
+>[!NOTE]
+>
+>El alza y la confianza también son [funciones de métricas calculadas avanzadas](/help/components/calc-metrics/cm-adv-functions.md) en CJA, para que pueda generar sus propias métricas de alza y confianza.
 
 ## Paso 5: Interpretación de los resultados
 
