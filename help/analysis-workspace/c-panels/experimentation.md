@@ -3,10 +3,10 @@ description: Obtenga información acerca de cómo analizar los resultados de las
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
+source-git-commit: 31f29e9453d252f119a4fa7c26f96e9f01ed2abf
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 86%
+source-wordcount: '1401'
+ht-degree: 81%
 
 ---
 
@@ -27,6 +27,8 @@ El panel **[!UICONTROL Experimentación]** permite que los analistas comparen di
 El panel Experimentación está disponible para su uso por parte de todos los usuarios de Customer Journey Analytics (CJA). No se requieren derechos de administrador ni otros permisos. Sin embargo, la configuración (pasos 1 y 2 a continuación) exige acciones que solo los administradores pueden realizar.
 
 ## Paso 1: Crear una conexión con el conjunto de datos del experimento
+
+El esquema de datos recomendado es que los datos del experimento estén en un [Matriz de objetos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) que contiene el experimento y los datos de variante en dos dimensiones independientes. Si tiene los datos del experimento en una sola dimensión con datos de experimento y variante en una cadena delimitada, puede utilizar la variable [substring](/help/data-views/component-settings/substring.md) configuración en vistas de datos para dividirlas en dos para utilizarlas en el panel.
 
 Una vez que se hayan [ingerido](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es) los datos del experimento en Adobe Experience Platform, [cree una conexión en CJA](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
 
@@ -76,7 +78,7 @@ Para cada métrica de éxito seleccionada, se mostrará una tabla de forma libre
 
 El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL Control] frente a [!UICONTROL Variante de control]:
 
-![resultado del experimento](assets/exp-output2.png)
+![resultado del gráfico de líneas](assets/exp-output2.png)
 
 >[!NOTE]
 >
