@@ -4,10 +4,10 @@ description: Vuelva a escribir los ID de visitante de varios conjuntos de datos 
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: fff0ffb3a513c3fc514d6769f8c3bc70fa75459e
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 96%
+source-wordcount: '1189'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Antes de usar Cross-Channel Analytics, asegúrese de que su organización está 
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que cualquier cambio en el esquema del conjunto de datos de evento global debe aplicarse también en el nuevo esquema del conjunto de datos vinculado; de lo contrario, este se romperá.
+>Cualquier cambio en el esquema del conjunto de datos de evento global debe aplicarse también en el nuevo esquema del conjunto de datos enlazado; de lo contrario, romperá el conjunto de datos enlazado.
 >
 >Además, si elimina el conjunto de datos de origen, el conjunto de datos enlazado detiene el procesamiento y el sistema lo elimina.
 
@@ -51,7 +51,7 @@ Cross-Channel Analytics es una función innovadora y sólida, pero tiene limitac
 * Las capacidades actuales de regeneración de claves están limitadas a un paso (ID persistente a ID transitorio). No se admite la regeneración de claves de varios pasos (por ejemplo, ID persistente a ID transitorio y, a continuación, a otro ID transitorio).
 * Solo se admiten conjuntos de datos de evento. No se admiten otros conjuntos de datos, como conjuntos de datos de búsqueda.
 * No se admiten los mapas de ID personalizados utilizados en su organización.
-* No se admiten gráficos cooperativos ni privados de Adobe.
+* No se admite el gráfico privado entre dispositivos.
 * Cross-Channel Analytics no transforma el campo que se utiliza para la identificación de ninguna manera. La identificación basada en campos utiliza el valor del campo especificado tal como existe en el conjunto de datos no identificado del lago de datos. El proceso de identificación distingue entre mayúsculas y minúsculas. Por ejemplo, si aparece unas veces la palabra &quot;Bob&quot; en el campo y otras la palabra &quot;BOB&quot;, estas se tratarán como dos personas independientes.
 * La vinculación basada en el campo distingue entre mayúsculas y minúsculas, y para los conjuntos de datos de Analytics generados mediante el Conector de origen de Analytics, Adobe recomienda revisar cualquier regla de VISTA o regla de procesamiento que se aplique al campo de ID transitorio para garantizar que ninguna de estas reglas introduzca nuevos formularios del mismo ID. Por ejemplo, debe asegurarse de que ninguna regla VISTA o de procesamiento introduce minúsculas en el campo ID transitorio en solo en una parte de los eventos.
 * La identificación basada en campos no combina ni concatena campos.

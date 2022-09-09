@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Esta guía proporciona ayuda para Customer Journey Analytics, la solución de nueva generación de Adobe para Cross-Channel Analytics, basada en Adobe Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 5eebcccc45b9760ecc18ec94ca526f2082d089bc
+source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 96%
 
 ---
 
@@ -230,6 +230,11 @@ ht-degree: 100%
    + [Configuración de ejecutivos para que utilicen tableros](mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + Casos prácticos {#cja-usecases}
+   + datos de Google Analytics {#ga}
+      + [Información general sobre la migración de datos de Google Analytics a CJA](use-cases/ga/overview.md)
+      + [Ingesta de datos históricos de Google Analytics en Platform](use-cases/ga/backfill.md)
+      + [Configurar los datos de los Google Analytics de flujo continuo en Platform](use-cases/ga/streaming.md)
+      + [Informe sobre datos de Google Analytics en CJA](use-cases/ga/report.md)
    + [Casos de uso de Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Combinación de grupos de informes con diferentes esquemas](use-cases/combine-report-suites.md)
    + [Usar matrices de objetos](use-cases/object-arrays.md)
@@ -241,8 +246,6 @@ ht-degree: 100%
    + [Importación de datos web y de centros de llamadas](use-cases/call-center.md)
    + [Casos de uso sobre ingesta de datos](use-cases/data-ingestion.md)
    + [Uso de dimensiones del canal de marketing](use-cases/marketing-channels.md)
-   + [Ingesta de datos de Google Analytics en Adobe Experience Platform](use-cases/ga-to-cja.md)
-   + [Informe sobre datos de Google Analytics en CJA](use-cases/ga-to-cja-reporting.md)
 + Labs {#labs}
    + [Guía del usuario de Labs](labs/labs.md)
 + Resolución de problemas {#troubleshooting}
