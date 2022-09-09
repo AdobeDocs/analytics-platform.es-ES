@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
+source-git-commit: f961bf0a615199de931a98f14d8b640890df7a2b
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,10 +32,6 @@ ht-degree: 79%
 
 | Función | Descripción | [Fecha objetivo](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Panel de visualizadores simultáneos de medios** | Comprenda dónde se produjo el pico de concurrencia o dónde se produjeron las disminuciones. Obtenga valiosos conocimientos de la calidad del contenido y de la participación del visualizador, y solucione problemas o planifique el volumen o la escala.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=es) | 9 de agosto de 2022 |
-| **Panel Tiempo invertido en la reproducción de medios** | El Tiempo invertido en la reproducción de medios proporciona un valioso conocimiento sobre la participación de los espectadores y permite a las organizaciones de medios obtener una información más profunda y granular. Esto se realiza con la participación de los usuarios detallada minuto a minuto, por medio de un análisis avanzado del tiempo invertido con capacidades de partición del día.<p>Puede observar la cantidad de tiempo que se dedica a ver sus flujos de contenido en un momento determinado. Puede dividir la duración de la reproducción por diferentes granularidades, incluyendo las nuevas granularidades de 5, 15 y 30 minutos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=es) | 9 de agosto de 2022 |
-| **Publicación de audiencias en el Perfil del cliente en tiempo real** | Permite publicar audiencias descubiertas en CJA en Adobe Experience Platform/Perfil del cliente en tiempo real para la personalización y segmentación de clientes.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=es) | 17 de agosto de 2022 |
-| **Soporte de CJA para etiquetas y políticas de gobernanza de datos** | Automatiza la integración entre las etiquetas y políticas de privacidad de CJA y Adobe Experience Platform. Las etiquetas de datos creadas en conjuntos de datos consumidos por Platform se muestran en las vistas de datos de CJA para detener o advertir a los usuarios que crean métricas o dimensiones a partir de campos confidenciales. Además, cuando los datos se exportan desde CJA (a través de informes de Workspace o Report Builder, exportación, API, etc.) se añadirán etiquetas o advertencias adicionales para notificar a los usuarios de que un informe contiene información confidencial que debe tratarse de una manera específica.  [Más información](/help/data-views/data-governance.md) | 17 de agosto de 2022 |
 | **Compatibilidad entre regiones para el conector de origen de Analytics** | Ahora puede ingerir grupos de informes de cualquier región (Estados Unidos, Reino Unido o Singapur). Sin embargo, estos deben asignarse a la misma organización que la instancia de zona protegida de Experience Platform en la que se está creando la conexión de origen.  [Más información](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) | 24 de agosto de 2022 |
 | **Informes de primera sesión** | Descubra si una sesión en particular fue la primera sesión del usuario.  [Más información](/help/data-views/data-views-usecases.md) | 24 de agosto de 2022 |
 | **Panel de experimentación para CJA** | Este nuevo panel de espacio de trabajo permite a los usuarios de CJA evaluar el alza y la confianza de cualquier experimento A/B desde cualquier fuente: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos de BYO (por su cuenta).  [Más información](/help/analysis-workspace/c-panels/experimentation.md) | [Versión limitada](/help/release-notes/releases.md) a partir del 14 de septiembre de 2022 |

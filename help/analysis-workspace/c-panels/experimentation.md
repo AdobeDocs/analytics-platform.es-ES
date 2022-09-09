@@ -3,10 +3,10 @@ description: Descubra cómo puede analizar los resultados de las pruebas A/B en 
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
+source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -83,10 +83,6 @@ El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL
 >[!NOTE]
 >
 >Actualmente, este panel no admite el análisis de pruebas A/A.
-
->[!NOTE]
->
->El alza y la confianza también son [funciones de métricas calculadas avanzadas](/help/components/calc-metrics/cm-adv-functions.md) en CJA, para que pueda generar sus propias métricas de alza y confianza.
 
 ## Paso 5: Interpretación de los resultados
 
