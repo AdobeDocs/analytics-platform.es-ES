@@ -4,9 +4,9 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c7dd23b7cf0a624c98691646ba4c55d748bc0dcf
+source-git-commit: 80f31a77df68dca91c1f9f5a0d521b0ea7d450ce
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '979'
 ht-degree: 91%
 
 ---
@@ -95,17 +95,15 @@ Puede determinar si una sesión es realmente la primera sesión de un usuario o 
 
 * Para un canal de marketing determinado o una campaña específica, ¿está segmentando usuarios nuevos? ¿Cómo influye esta opción en las tasas de conversión?
 
-Tres componentes facilitan la creación de informes:
+Una métrica facilita la creación de informes:
 
-* Primera dimensión: [tipo de sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Esta dimensión tiene dos valores: 1) [!UICONTROL Nuevo] y 2) [!UICONTROL Devolución]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque &quot;No aplicable&quot; para esta dimensión.
+<!--* 1 dimension: [Session type](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - This dimension has two values: 1) [!UICONTROL New] and 2) [!UICONTROL Returning]. The [!UICONTROL New] line item includes all of the behavior (i.e. metrics against this dimension) from a session that has been determined to be a person's defined first session. Everything else is included in the [!UICONTROL Returning] line item (assuming everything belongs to a session). Where metrics are not part of any session, they fall into the 'Not applicable' bucket for this dimension.-->
 
-* 2 métricas:
+* [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de informes.
 
-   * [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de informes.
+   <!--* [Return sessions](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Return sessions is the number of sessions that were not a person's first-ever session.-->
 
-   * [Sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Las sesiones de retorno son el número de sesiones que no fueron la primera sesión de una persona.
-
-Para acceder a estos componentes:
+Para acceder a este componente:
 
 1. Vaya al editor de vista de datos.
 1. Haga clic en la pestaña **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar opcionales]** en el carril izquierdo.
@@ -117,20 +115,20 @@ Del 95 al 99 % de las veces, las nuevas sesiones se registran con precisión. L
 
 * Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de creación de informes se contarán como sesiones recurrentes.
 
-## Uso de la funcionalidad Fecha y Fecha-hora {#date}
+<!--## Use the Date and Date-Time functionality {#date}
 
-Los esquemas de Adobe Experience Platform contienen campos [!UICONTROL Fecha] y [!UICONTROL Fecha-hora]. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar su [formato](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en la creación de informes. Por ejemplo:
+Schemas in Adobe Experience Platform contain [!UICONTROL Date] and [!UICONTROL Date-Time] fields. CJA data views now support these fields. When you drag these fields into a data view as a dimension, you can specify their [format](/help/data-views/component-settings/format.md). This format setting determines how the fields are displayed in reporting. For example:
 
-* Para el formato Fecha, si selecciona **[!UICONTROL Día]** con el formato **[!UICONTROL Mes, día, año]**, un ejemplo de salida en la creación de informes puede tener el siguiente aspecto: Agosto 23, 2022.
+* For the Date format, if you select **[!UICONTROL Day]** with the format **[!UICONTROL Month, Day, Year]**, an example output in reporting might look like: August 23, 2022.
 
-* Para el formato de fecha y hora, si selecciona **[!UICONTROL Minuto del día]** con el formato **[!UICONTROL Hora:Minuto]**, el resultado puede ser similar a “20:20”.
+* For the Date-Time format, if you select **[!UICONTROL Minute of Day]** with the format **[!UICONTROL Hour:Minute]**, your output might look like: 20:20.
 
-### Casos de uso de ejemplo:
+### Example use cases:
 
-* Fecha: una empresa de viajes está recopilando la fecha de salida de los viajes como campo en sus datos. Les gustaría tener un informe que compare el [!UICONTROL Día de la semana] para todas las fechas de salida recopiladas a fin de comprender cuál es el más popular. Les gustaría hacer lo mismo con el [!UICONTROL Mes del año].
+* Date: A travel company is collecting the departure date for trips as a field in their data. They would like to have a report which compares the [!UICONTROL Day of Week] for all departure dates collected to understand which is most popular. They would like to do the same for [!UICONTROL Month of Year].
 
-* Fecha-hora: una empresa minorista está recopilando la hora de cada una de sus compras en el punto de venta (TPV). Para un mes determinado, les gustaría entender los períodos de compra más concurridos por [!UICONTROL Hora del día].
+* Date-Time: A retail company is collecting the time for each of their in-store point-of-sale (POS) purchases. Over a given month, they would like to understand the busiest shopping periods by [!UICONTROL Hour of Day].
 
 >[!MORELIKETHIS]
->[Fecha y Fecha-hora en la configuración del componente Formato](/help/data-views/component-settings/format.md)
+>[Date and Date-Time in the Format component setting](/help/data-views/component-settings/format.md)-->
 
