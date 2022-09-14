@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 5526e903da45fa2206d6d6fd70ea71d8452687e4
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,8 +22,8 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Septiembre de 2022 | Nuevo caso de uso activado [Migración de datos de Google Analytics a CJA](/help/use-cases/ga/overview.md). |
 | Septiembre de 2022 | Tema nuevo en [Gráficos combinados](/help/analysis-workspace/visualizations/combo-charts.md) en Workspace. |
 | Septiembre de 2022 | Tema nuevo en [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) en Workspace. |
-| Agosto de 2022 | Artículo de Adobe Experience Platform en [Compatibilidad entre regiones para el conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es). |
-| Agosto de 2022 | Artículo actualizado de forma significativa sobre [Control de acceso de CJA](/help/getting-started/cja-access-control.md). |
+| Agosto de 2022 | Artículo de Adobe Experience Platform sobre [Compatibilidad entre regiones para el conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es). |
+| Agosto de 2022 | Artículo sobre [Control de acceso de CJA](/help/getting-started/cja-access-control.md) actualizado de forma significativa. |
 | Agosto de 2022 | Nuevo artículo sobre [Compatibilidad con CJA para etiquetas y políticas de gobernanza de datos](/help/data-views/data-governance.md). |
 | Agosto de 2022 | Nuevo artículo sobre [Comparación de la terminología de los datos de Analytics pasados a través del conector de origen de Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
 | Agosto de 2022 | Nueva documentación sobre [publicación de audiencias en el Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=es). |

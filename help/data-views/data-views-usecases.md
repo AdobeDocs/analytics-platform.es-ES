@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 80f31a77df68dca91c1f9f5a0d521b0ea7d450ce
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 
 ## 3. Utilice dimensiones numéricas como “métricas” en diagramas de flujo {#numeric}
 
-Puede utilizar una dimensión numérica para obtener &quot;métricas&quot; en su [!UICONTROL  Flujo] visualización.
+Puede utilizar una dimensión numérica para obtener “métricas” en la visualización de [!UICONTROL flujo].
 
 1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 2. En los informes del Espacio de trabajo, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
@@ -87,19 +87,19 @@ No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
 
-## 7. Nuevos informes de las sesiones {#new-repeat}
+## 7. Nueva creación de informes de las sesiones {#new-repeat}
 
 Puede determinar si una sesión es realmente la primera sesión de un usuario o no, en función de la ventana de creación de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Esta creación de informe permite determinar, por ejemplo, lo siguiente:
 
-* ¿Qué porcentaje de sus pedidos provienen de nuevas sesiones?
+* ¿Qué porcentaje de sus pedidos provienen de sesiones nuevas?
 
-* Para un canal de marketing determinado o una campaña específica, ¿está segmentando usuarios nuevos? ¿Cómo influye esta opción en las tasas de conversión?
+* Para un canal de marketing determinado o una campaña específica, ¿está dirigiéndose a los usuarios que ingresan por primera vez? ¿Cómo influye esta opción en las tasas de conversión?
 
 Una métrica facilita la creación de informes:
 
 <!--* 1 dimension: [Session type](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - This dimension has two values: 1) [!UICONTROL New] and 2) [!UICONTROL Returning]. The [!UICONTROL New] line item includes all of the behavior (i.e. metrics against this dimension) from a session that has been determined to be a person's defined first session. Everything else is included in the [!UICONTROL Returning] line item (assuming everything belongs to a session). Where metrics are not part of any session, they fall into the 'Not applicable' bucket for this dimension.-->
 
-* [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de informes.
+* [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). Una nueva sesión se define como la primera sesión definida por una persona dentro de la ventana de creación de informes.
 
    <!--* [Return sessions](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Return sessions is the number of sessions that were not a person's first-ever session.-->
 
