@@ -4,10 +4,10 @@ title: Visualización de gráficos combinados
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 5aee0fcc0ec241d946da4ce97dc01eb6274648aa
+source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 99%
+source-wordcount: '776'
+ht-degree: 96%
 
 ---
 
@@ -21,12 +21,13 @@ Utilice un [!UICONTROL Gráfico combinado] para lo siguiente::
 * Analizar y comparar rápidamente varias métricas (por ejemplo, [!UICONTROL Visitantes únicos] e [!UICONTROL Ingresos]) en el mismo gráfico.
 * Analizar una métrica con una función (como [!UICONTROL Promedio acumulado]) en un horizonte temporal.
 
-Tenga en cuenta que puede hacer lo siguiente::
+Recuerde:
 
-* Agregar varias comparaciones en un solo [!UICONTROL Gráfico combinado].
+* Puede agregar varias comparaciones en una sola [!UICONTROL Gráfico combinado].
 * Si añade una o más comparaciones, deben ser del mismo tipo, como una [!UICONTROL Comparación temporal].
 * Se pueden añadir hasta cinco comparaciones.
 * Puede aplicar hasta tres filtros (segmentos) a una métrica.
+* Las métricas calculadas no son compatibles con los gráficos combinados.
 
 ## Creación de un gráfico combinado
 
