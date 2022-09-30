@@ -2,12 +2,13 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '1100'
-ht-degree: 100%
+source-git-commit: 67489fc6e9c0733589bccdd136837db8caca14a2
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 98%
 
 ---
+
 
 # Información general de Filtros {#overview}
 
@@ -18,6 +19,8 @@ Los Filtros se pueden basar en atributos (tipo de explorador, dispositivo, canti
 Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden usar juntos como filtros apilados.
 
 Los filtros del [Generador de filtros](/help/components/filters/create-filters.md) para construir filtros y ejecutar una prueba previa, y el [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
+
+El número máximo de filtros que puede crear por cada organización de IMS es de 50 000.
 
 ## Tipos de filtro {#types}
 
@@ -94,4 +97,4 @@ La versión tradicional de Analytics incluye numerosos filtros de plantilla (fil
 
 | Nombre del filtro | Descripción |
 | --- | --- |
-| Todos los datos | Se trata de un filtro obligatorio que se añade dinámicamente a los informes cuando se agrega una métrica a la fila de una tabla improvisada. |
+| Todos los datos | Se trata de un filtro obligatorio que se añade dinámicamente a los informes cuando se agrega una métrica a la fila de una tabla de forma libre. |
