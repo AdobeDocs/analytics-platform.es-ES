@@ -3,10 +3,10 @@ title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '2909'
-ht-degree: 100%
+source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
+workflow-type: tm+mt
+source-wordcount: '3111'
+ht-degree: 96%
 
 ---
 
@@ -162,6 +162,23 @@ CEILING(metric)
 |---|---|
 | *métrica* | La métrica que desee redondear. |
 
+## Confianza
+
+[!UICONTROL Confianza] es una medida probabilística de cuánta evidencia existe de que una variante determinada es la misma que la variante de control. Una mayor confianza indica menos evidencia para el supuesto de que la variante de control y la que no es de control tienen un rendimiento igual.
+
+```
+fx Confidence (normalizing-container, success-metric, control, significance-threshold)
+```
+
+| Argumento | Descripción |
+| --- | --- |
+| Contenedor de normalización | La base (Personas, Sesiones o Eventos) en que se ejecutará una prueba. |
+| Métrica de éxito | La métrica o métricas con las que un usuario compara variantes. |
+| Control | La variante con la que se comparan todas las demás variantes del experimento. Introduzca el nombre del elemento de dimensión de variante de control. |
+| Significance-threshold | El umbral en esta función se establece en un 95 % de forma predeterminada. |
+
+{style=&quot;table-layout:auto&quot;}
+
 ## Coseno (Fila)
 
 Devuelve el coseno de un ángulo determinado. Si el ángulo es en grados, multiplique el ángulo por PI( )/180.
@@ -202,7 +219,7 @@ Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensió
 
 ## Media acumulada
 
-Devuelve la media de las últimas N filas.
+Devuelve el promedio de las últimas N filas.
 
 Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensión, solo resulta útil en dimensiones que tienen un orden natural como la fecha o la longitud de ruta.
 
@@ -334,6 +351,22 @@ Devuelve elementos cuyo recuento numérico sea menor que el valor introducido.
 ## Menor o igual que
 
 Devuelve elementos cuyo recuento numérico sea menor o igual que el valor introducido.
+
+## Alza
+
+Devuelve el alza que una variante en particular tenía en las conversiones sobre una variante de control. Es la diferencia de rendimiento entre una variante determinada y la base de referencia, dividida por el rendimiento de la línea de base, expresada como porcentaje.
+
+```
+fx Lift (normalizing-container, success-metric, control)
+```
+
+| Argumento | Descripción |
+| --- | --- |
+| Contenedor de normalización | La base (Personas, Sesiones o Eventos) en que se ejecutará una prueba. |
+| Métrica de éxito | La métrica o métricas con las que un usuario compara variantes. |
+| Control | La variante con la que se comparan todas las demás variantes del experimento. Introduzca el nombre del elemento de dimensión de variante de control. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Regresión lineal: coeficiente de correlación
 
