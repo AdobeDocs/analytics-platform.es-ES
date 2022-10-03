@@ -7,7 +7,7 @@ exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Recuerde:
 
 1. En la lista desplegable Visualizaciones del carril izquierdo, arrastre la visualización [!UICONTROL Gráfico combinado] a un panel en blanco.
 
-   ![Generar](assets/combo-chart-build.png)
+   ![Versión](assets/combo-chart-build.png)
 
 1. En las listas desplegables, seleccione una dimensión para el eje X y una métrica para el eje Y.
 
@@ -73,7 +73,7 @@ Si elige **[!UICONTROL Función]** como el [!UICONTROL Tipo de comparación de l
 
 Este es un ejemplo de la media acumulada de la métrica Ingresos:
 
-![Media acumulada](assets/combo-cumul-avg.png)
+![Media acumulativa](assets/combo-cumul-avg.png)
 
 Este es un ejemplo de un gráfico combinado con las funciones Media acumulada y Media:
 
