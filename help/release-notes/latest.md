@@ -3,18 +3,18 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d2aec8976d7d81c28a6b9b76c58fec0fc2c3b360
+source-git-commit: fc1a5b1b0f01ace6207820e2421d1770f68c3583
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 91%
+source-wordcount: '471'
+ht-degree: 50%
 
 ---
 
-# Notas de la versión de Customer Journey Analytics (CJA) actuales (septiembre de 2022)
+# Notas de la versión de Customer Journey Analytics (CJA) (octubre de 2022)
 
-**Última actualización**: 14 de septiembre de 2022
+**Última actualización**: 5 de octubre de 2022
 
-las versiones de Customer Journey Analytics funcionan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Por favor, compruébelas regularmente.
+Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Recursos relacionados
 
@@ -30,23 +30,20 @@ las versiones de Customer Journey Analytics funcionan en un [modelo de entrega c
 
 | Función | Descripción | [Fecha objetivo](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Compatibilidad entre regiones para el conector de origen de Analytics** | Ahora puede ingerir grupos de informes de cualquier región (Estados Unidos, Reino Unido o Singapur). Sin embargo, estos deben asignarse a la misma organización que la instancia de zona protegida de Experience Platform en la que se está creando la conexión de origen.  [Más información](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) | 24 de agosto de 2022 |
-| **Creación de informes de primera sesión** | Descubra si una sesión en particular fue la primera de un usuario.  [Más información](/help/data-views/data-views-usecases.md) | 24 de agosto de 2022 |
-| **Panel de experimentación para CJA** | Este nuevo panel de espacio de trabajo permite a los usuarios de CJA evaluar el alza y la confianza de cualquier experimento A/B desde cualquier fuente: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso sus propios datos.  [Más información](/help/analysis-workspace/c-panels/experimentation.md) | [Versión limitada](/help/release-notes/releases.md) a partir del 14 de septiembre de 2022 |
-| **Visualización de gráficos combinados en el espacio de trabajo** | Los gráficos combinados le permiten comparar métricas de forma más fácil e intuitiva dentro del espacio de trabajo.  [Más información](/help/analysis-workspace/visualizations/combo-charts.md) | 14 de septiembre de 2022 |
-| **Soporte de CJA para etiquetas y políticas de gobernanza de datos** | Automatiza la integración entre las etiquetas y políticas de privacidad de CJA y Adobe Experience Platform. Las etiquetas de datos creadas en conjuntos de datos consumidos por Platform se muestran en las vistas de datos de CJA para detener o advertir a los usuarios que crean métricas o dimensiones a partir de campos confidenciales. Además, cuando los datos se exportan desde CJA (a través de informes de Workspace o Report Builder, exportación, API, etc.) se añadirán etiquetas o advertencias adicionales para notificar a los usuarios de que un informe contiene información confidencial que debe tratarse de una manera específica.  [Más información](/help/data-views/data-governance.md) | 14 de septiembre de 2022 |
+| **Panel de experimentación** | Este nuevo panel de espacio de trabajo permite a los usuarios de CJA evaluar el alza y la confianza de cualquier experimento A/B desde cualquier fuente: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos propios.  [Más información](/help/analysis-workspace/c-panels/experimentation.md) | 5 de octubre de 2022 |
+| **[!UICONTROL Resumen de métricas clave] visualización** | La variable [!UICONTROL Resumen de métricas clave] la visualización le permite ver las tendencias de una métrica importante dentro de un solo intervalo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. Más información | Lanzamiento gradual a partir del 5 de octubre de 2022 |
+| **Compatibilidad con campos de fecha en CJA** | Permite que CJA informe sobre los campos de fecha y hora.  [Más información](/help/data-views/data-views-usecases.md#date) | 5 de octubre de 2022 |
+| **Aplicación móvil: Vistas de detalles personalizadas** | Las vistas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia, ya que permiten centrarse en lo que es más importante. Puede modificar el diseño de la vista de detalles asociada a cada mosaico del informe de valoración y agregar texto para explicar mejor lo que el usuario final puede ver en los datos.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=es) | 5 de octubre de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
-
-## Correcciones
-
-AN-298412
 
 ## Avisos importantes para los administradores de CJA
 
 | Aviso | Aviso añadido o actualizado | Descripción |
 | --- | --- | --- |
-| **Asignación de IP a geolocalización mejorada** | 9 de septiembre de 2022 | El proveedor de Adobe para búsquedas de IP, Digital Element, está actualizando a un nuevo conjunto de datos mejorado (NetAcuity Pulse) para la asignación de IP a geolocalización. Adobe Analytics adoptará este nuevo conjunto de datos el **5 de octubre de 2022**. La nueva base de datos será más precisa que las versiones anteriores. Algunas asignaciones de IP a regiones cambiarán o mejorarán cuando se adopte la nueva base de datos.<p> Los datos de CJA proporcionados a través del conector de origen de Analytics también aprovecharán automáticamente las nuevas asignaciones. |
+| **Página de aterrizaje predeterminada** | 29 de septiembre de 2023 | La variable [nueva página de aterrizaje](/help/getting-started/landing.md) que se introdujo a principios de este año se convertirá en la experiencia predeterminada para todos los usuarios de **Enero de 2023**. La página actual quedará obsoleta y todos tendrán que utilizar la nueva experiencia. |
+| **Asignación de IP a geolocalización mejorada** | 29 de septiembre de 2022 | El proveedor de Adobe para búsquedas de IP, Digital Element, está actualizando a un nuevo conjunto de datos mejorado (NetAcuity Pulse) para la asignación de IP a geolocalización. Adobe Analytics ha pospuesto la adopción de este nuevo conjunto de datos a **Enero de 2023**. La nueva base de datos será más precisa que las versiones anteriores. Algunas asignaciones de IP a regiones cambiarán o mejorarán cuando se adopte la nueva base de datos.<p> Los datos de CJA proporcionados a través de la variable [!UICONTROL Conector de origen de Analytics] también aprovechará automáticamente las nuevas asignaciones. |
+| **[!UICONTROL Detección de anomalías] condiciones de ejecución automática** | 29 de septiembre de 2022 | Hoy, [!UICONTROL Detección de anomalías] se ejecuta automáticamente en todas las columnas de tablas de forma libre de series temporales. Para garantizar que los datos estén disponibles para análisis y que los proyectos se carguen más rápido, el Adobe cambiará la forma en que [!UICONTROL Detección de anomalías] se ejecuta automáticamente. Inicio **26 de octubre de 2022**, la detección de anomalías se ejecutará automáticamente solo en la primera columna de métrica de una tabla. Puede configurar la configuración de columna para que se ejecute [!UICONTROL Detección de anomalías] en otras columnas, si es necesario. |
 
 {style=&quot;table-layout:auto&quot;}
 
