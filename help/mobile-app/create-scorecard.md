@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: e2a79bc9d39d1c7758c1ff61c5de5af31c92d34c
+workflow-type: tm+mt
+source-wordcount: '1769'
+ht-degree: 71%
 
 ---
 
@@ -55,7 +55,7 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 
 Para implementar la plantilla del informe de valoración:
 
-1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique un **[!UICONTROL grupo de informes de proyecto]** cuyos datos quiera utilizar.
+1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique un **[!UICONTROL grupo de informes de proyecto]** cuyos datos quiera utilizar. Los grupos de informes son vistas de datos en CJA.
 
    ![Selección del grupo de informes](assets/properties_save.png)
 
@@ -66,7 +66,7 @@ Para implementar la plantilla del informe de valoración:
 
 1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
 
-## Adición de dimensiones o métricas  (#dimsmetrics)
+## Adición de dimensiones o métricas {#dimsmetrics}
 
 Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
 
@@ -74,13 +74,13 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 ![Agregar dimensiones](assets/layer_dimensions.png)
 
-## Aplicar segmentos {#segments}
+## Aplicar filtros {#filters}
 
-Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico.
+Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en CJA) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
+Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
 
-![Generar segmentos para filtrar](assets/segment_ui.png)
+![Generar filtros](assets/segment_ui.png)
 
 ## Adición de intervalos de fechas {#dates}
 
@@ -124,7 +124,7 @@ Utilice la visualización Número de resumen para resaltar un número elevado qu
 
 ### [!UICONTROL Anillo]
 
-Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de visitantes únicos:
+Al igual que un gráfico circular, esta visualización muestra los datos como partes de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de visitantes únicos:
 
 ![Visualización de anillo](assets/donut-viz.png)
 
@@ -153,15 +153,15 @@ Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los dat
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
-Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
+Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con ese mosaico y su diapositiva de detalles. En este carril, puede proporcionar una nueva **Título** para el mosaico y, alternativamente, configure el mosaico aplicando filtros. Los segmentos son filtros en CJA.
 
-![Mosaico de propiedades](assets/properties_tile.png)
+![Mosaico de propiedades](assets/properties-tile-new.png)
 
-## Ver Profundizar en (desgloses) {#breakdowns}
+## Ver diapositivas de detalles {#view-detail-slides}
 
-Cuando hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Profundizar en (Desglose) el usuario ejecutivo en la aplicación. Puede desglosar dimensiones y elementos de dimensión para desglosar los datos según sus necesidades específicas. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
+Al hacer clic en mosaicos, una ventana emergente dinámica muestra cómo aparece la diapositiva de detalles para el usuario ejecutivo de la aplicación. Puede agregar dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado una dimensión, la dimensión de desglose será **hour** o **días**, según el intervalo de fechas predeterminado.
 
-Los desgloses refinan el análisis al desglosar literalmente dimensiones según otras métricas y dimensiones, como en este ejemplo de venta minorista:
+Los desgloses refinan el análisis mediante el desglose de métricas por elementos de dimensión como los siguientes:
 
 * Métrica Visitantes únicos desglosada por plataforma de publicidad (AMO ID)
 * Visitas desglosadas por categoría de producto (venta minorista)
@@ -171,9 +171,33 @@ Los desgloses refinan el análisis al desglosar literalmente dimensiones según 
 
 Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
+## Personalizar diapositivas de detalle {#customize-detail-slide}
+
+Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia. Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable .
+
+![diapositiva de detalle personalizada](assets/custom-detail-slide.png)
+
+### Cambiar el diseño de la diapositiva
+
+Cambie el diseño de la diapositiva para centrarse en la información más importante. Por ejemplo, puede cambiar el diseño para mostrar solo un gráfico o una tabla. Para cambiar el diseño de la diapositiva, seleccione uno de los formatos prediseñados.
+
+![Presentación de diapositivas](assets/layout.png)
+
+También puede cambiar el diseño de la diapositiva arrastrando y soltando los componentes de visualización del carril izquierdo al lienzo. Cada diapositiva de detalle solo puede admitir dos visualizaciones a la vez.
+
+![Cambio de diseño de diapositiva](assets/slide-layout-change.png)
+
+### Agregar texto descriptivo a una diapositiva
+
+Puede agregar texto para proporcionar información significativa sobre lo que contiene los gráficos o matices sobre los datos.
+
+Para agregar texto a una diapositiva de detalles, seleccione un diseño que muestre la variable `T` o arrastre y suelte el componente de visualización Texto desde el carril izquierdo. El editor de texto se abrirá automáticamente al agregar una nueva visualización de texto o al elegir un diseño de diapositiva con texto. El editor de texto proporciona todas las opciones estándar para dar formato al texto. Puede aplicar estilos de texto como párrafo, encabezados y subencabezados, y aplicar negrita y cursiva. Puede justificar el texto, agregar listas numeradas y con viñetas y agregar vínculos. Cuando haya terminado de editar, seleccione el botón minimizar en la esquina superior derecha del editor de texto para cerrarlo. Para editar texto que ya agregó, seleccione el icono de lápiz para abrir de nuevo el editor de texto.
+
+![Cambio de diseño de diapositiva](assets/add-descriptive-text.png)
+
 ## Eliminación de componentes {#remove}
 
-Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, quítelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Primeras visitas**:
+Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en el botón **x** que aparece al pasar el ratón por encima del componente, como se muestra a continuación para el **Visitas por primera vez**:
 
 ![Remove_components](assets/new_remove.png)
 
