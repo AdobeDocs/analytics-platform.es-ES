@@ -4,7 +4,7 @@ title: Integración de datos de Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 81e80058ea5004d77ba1d15b9cd90a16283daa7c
+source-git-commit: 305bcd46df033f2f69a1161657d8d46793187225
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 88%
@@ -65,31 +65,31 @@ En CJA, ahora puede continuar con la [creación de vistas de datos](/help/data-v
 
 En CJA Workspace, ahora puede crear un nuevo proyecto y recibir visualizaciones.
 
-**Puntuaciones de tendencia**
+### Puntuaciones de tendencia
 
 A continuación, se muestra un ejemplo de un proyecto de Workspace con datos de CAI que ofrece puntuaciones de tendencia de un segmento de usuarios a lo largo del tiempo, en un gráfico de barras apiladas:
 
 ![Bloques de puntuación](assets/workspace-scores.png)
 
-**Tabla con códigos de motivo**
+### Tabla con códigos de motivo
 
 Esta es una tabla que muestra los códigos de motivo por los que un segmento tiene una tendencia alta o baja.
 
 ![Códigos de motivo](assets/reason-codes.png)
 
-**Flujo de entrada para la tendencia del cliente**
+### Flujo de entrada para la tendencia del cliente
 
 Este diagrama de flujo muestra el flujo de entrada de la tendencia del cliente en distintas ejecuciones de puntuación:
 
 ![Flujo de entrada](assets/flow.png)
 
-**Distribución de las puntuaciones de tendencia**
+### Distribución de las puntuaciones de tendencia
 
 Este gráfico de barras muestra la distribución de las puntuaciones de tendencia:
 
 ![Distribución](assets/distribution.png)
 
-**Superposiciones de tendencias**
+### Superposiciones de tendencias
 
 Este diagrama de Venn muestra las superposiciones de tendencias en diferentes ejecuciones de puntuación:
 
