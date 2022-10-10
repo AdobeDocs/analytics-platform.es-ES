@@ -1,13 +1,13 @@
 ---
-description: Descubra cómo la inteligencia artificial aplicada al cliente de AEP se integra con Workspace en CJA.
-title: Integración de inteligencia artificial aplicada al cliente con CJA
+description: Descubra cómo los datos de AEP Customer AI se integran con Workspace en CJA.
+title: Integración de datos de Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
+source-git-commit: 81e80058ea5004d77ba1d15b9cd90a16283daa7c
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 90%
+source-wordcount: '901'
+ht-degree: 88%
 
 ---
 
@@ -31,15 +31,13 @@ La inteligencia artificial aplicada al cliente se integra con Customer Journey A
 * **Observar la distribución de la tendencia**. Caso de uso: Me gustaría entender la distribución de las puntuaciones de tendencia a que pueda ser más precisa con mis segmentos. &#x200B;Ejemplo: un minorista quiere hacer una promoción específica de 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analiza los datos y decide segmentar solo los clientes principales con una puntuación del 80 % o más.
 * **Observar la tendencia a realizar una acción para una cohorte en particular a lo largo del tiempo**. Caso de uso: Me gustaría rastrear una cohorte específica a lo largo del tiempo. Esto es similar al primero, pero puede rastrear una cohorte específica a lo largo del tiempo.&#x200B; Ejemplo de hospitalidad: un experto en marketing puede rastrear su nivel bronce frente a su nivel plata, o su nivel plata frente a su nivel oro a lo largo del tiempo. A continuación, puede ver la tendencia de cada cohorte a reservar el hotel a lo largo del tiempo. &#x200B;
 
-## Flujo de trabajo
-
 Algunos de los pasos se realizan en Adobe Experience Platform antes de trabajar con la salida en CJA.
 
-### Paso 1: Configurar una instancia de inteligencia artificial aplicada al cliente
+## Paso 1: Configurar una instancia de inteligencia artificial aplicada al cliente
 
 Una vez que haya preparado los datos y haya establecido todas sus credenciales y esquemas, comience por seguir la guía de [Configuración de una instancia de inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=es) en Adobe Experience Platform.
 
-### Paso 2: Configurar una conexión de CJA a los conjuntos de datos de inteligencia artificial aplicada al cliente
+## Paso 2: Configurar una conexión de CJA a los conjuntos de datos de inteligencia artificial aplicada al cliente
 
 En CJA, ahora puede [crear una o más conexiones](/help/connections/create-connection.md) a conjuntos de datos de Experience Platform instrumentados para la inteligencia artificial aplicada al cliente. Cada predicción, como «Probabilidad de actualizar la cuenta», equivale a un conjunto de datos. Estos conjuntos de datos aparecen con el prefijo «Puntuaciones de inteligencia artificial aplicada al cliente en formato EE - nombre_de_la_aplicación».
 
@@ -57,13 +55,13 @@ A continuación se muestra un ejemplo de esquema de XDM que CJA traería como pa
 
 (Tenga en cuenta que el ejemplo es un conjunto de datos de perfil; el mismo conjunto de objetos de esquema formaría parte de un conjunto de datos de evento de experiencia que CJA obtendría. El conjunto de datos de evento de experiencia incluiría marcas de tiempo como fecha de la puntuación). Todos los clientes puntuados en este modelo tendrían una puntuación, una scoreDate, etc. asociadas a ellos.
 
-### Paso 3: Crear vistas de datos en función de estas conexiones
+## Paso 3: Crear vistas de datos en función de estas conexiones
 
 En CJA, ahora puede continuar con la [creación de vistas de datos](/help/data-views/create-dataview.md) con las dimensiones (como puntuación, fecha de puntuación, probabilidad, etc.) y métricas que se han incluido como parte de la conexión que ha establecido.
 
 ![Crear vista de datos](assets/create-dataview.png)
 
-### Paso 4: Informar sobre puntuaciones de CAI en e Workspace
+## Paso 4: Informar sobre puntuaciones de CAI en e Workspace
 
 En CJA Workspace, ahora puede crear un nuevo proyecto y recibir visualizaciones.
 
