@@ -3,9 +3,9 @@ title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 source-git-commit: 67489fc6e9c0733589bccdd136837db8caca14a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Puede crear y guardar filtros en el Generador de filtros o generar filtros a par
 
 Los filtros del [Generador de filtros](/help/components/filters/create-filters.md) para construir filtros y ejecutar una prueba previa, y el [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
 
-El número máximo de filtros que puede crear por cada organización de IMS es de 50 000.
+El número máximo de filtros que puede crear por cada organización de IMS es 50 000.
 
 ## Tipos de filtro {#types}
 
