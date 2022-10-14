@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 0113bd3157c147a3d39aead3fc686d114925f476
+source-git-commit: 1ce51f7eb5a40584fec781727e82b448cd23cc7a
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 91%
+source-wordcount: '1296'
+ht-degree: 90%
 
 ---
 
@@ -123,7 +123,7 @@ Los esquemas de Adobe Experience Platform contienen campos [!UICONTROL Fecha] y 
 
 * Para el formato de fecha y hora, si selecciona **[!UICONTROL Minuto del día]** con el formato **[!UICONTROL Hora:Minuto]**, el resultado puede ser similar a “20:20”.
 
-### Casos de uso de ejemplo:
+### Casos de uso de fecha y hora
 
 * Fecha: una empresa de viajes está recopilando la fecha de salida de los viajes como campo en sus datos. Les gustaría tener un informe que compare el [!UICONTROL Día de la semana] para todas las fechas de salida recopiladas a fin de comprender cuál es el más popular. Les gustaría hacer lo mismo con el [!UICONTROL Mes del año].
 
