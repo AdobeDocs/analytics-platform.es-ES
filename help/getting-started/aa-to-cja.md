@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 93690a3351f2dca0b3a68e7eea7fb64c581d2d53
-workflow-type: ht
-source-wordcount: '1333'
-ht-degree: 100%
+source-git-commit: 87d0dd37c9fc9e32e46b7c6a104301f23a2ff652
+workflow-type: tm+mt
+source-wordcount: '1334'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Es posible que no siempre sea factible una implementación de un grupo de inform
 
 * Planifique con anticipación para alinear las variables en todos esos grupos de informes. Por ejemplo, eVar1 en el grupo de informes 1 puede apuntar a [!UICONTROL Página]. En el grupo de informes 2, el eVar1 puede señalar a [!UICONTROL Campaña interna]. Cuando se incorporan a CJA, estas variables se mezclan en una sola dimensión de eVar1, lo que conduce a informes potencialmente confusos e inexactos.
 
-* Utilice la función [Preparación de fecha](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) para asignar variables. Aunque facilita que todos los grupos de informes utilicen el mismo diseño común de variables, no es necesario si utiliza la nueva función [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es#mapping) de Experience Platform. Permite hacer referencia a una variable según su valor asignado, que es del nivel de conjunto de datos (o propiedad).
+* Utilice la función [Preparación de fecha](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) para asignar variables. Aunque facilita que todos los grupos de informes utilicen el mismo diseño común de variables, no es necesario si utiliza el nuevo Experience Platform [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es#mapping) función. Permite hacer referencia a una variable según su valor asignado, que es del nivel de conjunto de datos (o propiedad).
 
 Si ha evitado pasarse a un grupo de informes globales debido a problemas de [!UICONTROL excesos en la cantidad de valores exclusivos] o [!UICONTROL bajo tráfico], debe saber que CJA no tiene [límites de cardinalidad en una dimensión](/help/components/dimensions/high-cardinality.md). Permite que aparezca y se cuente cualquier valor único.
 
@@ -104,7 +104,7 @@ Aquí hay un par de vídeos para guiarle:
 
 * [Paso de segmentos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=es)
 
-* [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=es)
+* [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
 
 ### Otras consideraciones
 
