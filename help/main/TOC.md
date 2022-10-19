@@ -7,11 +7,11 @@ solution: Customer Journey Analytics
 type: Documentation
 index: true
 user-guide-title: Guía de Customer Journey Analytics
-user-guide-description: Obtenga información sobre Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
+user-guide-description: Obtenga información acerca de Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
+source-git-commit: f70dafa93ec22a0ef876052fbef4c9a67835d292
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '794'
 ht-degree: 97%
 
 ---
@@ -79,6 +79,12 @@ ht-degree: 97%
    + Proyectos {#build-workspace-project}
       + [Información general sobre Proyectos](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
+      + Carpetas en Workspace {#workspace-folders}
+         + [Acerca de las carpetas en Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Crear carpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Agregar proyectos](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Eliminar un proyecto](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [Guardar un nuevo proyecto](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Teclas de acceso directo (métodos abreviados)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paletas de color](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Ver densidad](../analysis-workspace/build-workspace-project/view-density.md)
