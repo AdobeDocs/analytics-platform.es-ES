@@ -3,10 +3,10 @@ description: Aprenda a añadir carpetas en Workspace
 keywords: Analysis Workspace
 title: Añadir carpetas en Workspace
 feature: CJA Workspace Basics
-source-git-commit: af3580a1925dd5cb504b192f9b125234443e53cf
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Puede agregar proyectos a una carpeta en la vista de tabla o desde una carpeta.
 
 >[!NOTE]
 >
->Actualmente, esta funcionalidad está en versión limitada. Algunas pantallas pueden cambiar.
+>Esta función está actualmente en versión beta. Algunas pantallas pueden cambiar.
 
 ## Desde la vista de tabla
 

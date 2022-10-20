@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo guardar proyectos en carpetas en W
 keywords: Analysis Workspace
 title: Guardar proyectos en carpetas
 feature: CJA Workspace Basics
-source-git-commit: af3580a1925dd5cb504b192f9b125234443e53cf
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ Para guardar un nuevo proyecto en una carpeta específica, seleccione el nombre 
 
 >[!NOTE]
 >
->Actualmente, esta funcionalidad está en versión limitada. Algunas pantallas pueden cambiar.
+>Esta función está actualmente en versión beta. Algunas pantallas pueden cambiar.
 
 1. En Workspace, cree un nuevo proyecto.
 

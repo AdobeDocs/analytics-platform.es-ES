@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e2a79bc9d39d1c7758c1ff61c5de5af31c92d34c
-workflow-type: ht
-source-wordcount: '1769'
-ht-degree: 100%
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -173,7 +173,11 @@ Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la 
 
 ## Personalización de diapositivas de detalle {#customize-detail-slide}
 
-Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia. Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable.
+Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable.
 
 ![Diapositiva de detalle personalizada](assets/custom-detail-slide.png)
 
