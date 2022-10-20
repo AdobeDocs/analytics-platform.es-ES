@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 785ea95049135adef888c20a6d9fef9f31439a7d
+source-git-commit: a3d47318d74df161cf9054b849c9eb8ef09e60c4
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 71%
+source-wordcount: '517'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,6 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 
 | Función | Descripción | [Fecha objetivo](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Carpetas en proyectos de Workspace** | Carpetas en proyectos de Workspace ayuda a los usuarios a organizar y categorizar sus proyectos mediante carpetas para una mejor recuperación y acceso. Una carpeta de empresa compartida permite a los administradores crear y compartir contenido fácilmente con todos los usuarios de Workspace [Más información](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 19 de octubre de 2022 |
 | **Panel de experimentación** | Este nuevo panel de espacio de trabajo permite a los usuarios de CJA evaluar el alza y la confianza de cualquier experimento A/B desde cualquier fuente: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos propios. [Más información](/help/analysis-workspace/c-panels/experimentation.md) | 5 de octubre de 2022 |
 | Visualización del **[!UICONTROL resumen de métricas clave]** | La visualización del [!UICONTROL resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. Más información | Despliegue gradual a partir del 5 de octubre de 2022 |
 | **Compatibilidad con campos de fecha en CJA** | Permite que CJA informe sobre los campos de fecha y hora. [Más información](/help/data-views/data-views-usecases.md#date) | 5 de octubre de 2022 |

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: f70dafa93ec22a0ef876052fbef4c9a67835d292
+source-git-commit: d11a1cf98999c5797ab456bd547c065a5103b068
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 97%
+source-wordcount: '799'
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 97%
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
       + Carpetas en Workspace {#workspace-folders}
          + [Acerca de las carpetas en Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Crear carpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Crear carpetas y subcarpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Agregar proyectos](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Eliminar un proyecto](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Guardar un nuevo proyecto](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -260,6 +260,7 @@ ht-degree: 97%
    + [Guía del usuario de Labs](../labs/labs.md)
 + Resolución de problemas {#troubleshooting}
    + [Comparación de los datos de Adobe Analytics con los de CJA](../troubleshooting/compare.md)
-+ Privacidad {#cja-privacy}
++ Gobierno de datos {#cja-privacy}
+   + [Registros de auditoría](../privacy/audit-log.md)
    + [Gobierno de datos](../privacy/privacy-overview.md)
 + [API de CJA](https://developer.adobe.com/cja-apis/docs/)
