@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 04957adebd848739b8b3609eb35366d8296ee752
+source-git-commit: 8262d7f0ec56a792bfcd8fe94b7f7685ee5b5438
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +88,7 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil de producto en 
 | --- | --- |
 | **[!UICONTROL Vistas de datos]** | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que forman parte de este perfil de producto pueden ver todas las vistas de datos existentes y creadas recientemente. Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso. |
 | **[!UICONTROL Herramientas de creación de informes]**: |  |
-| **[!UICONTROL Acceso a registros de auditoría]** | Actualmente, los [registros de auditoría](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) solo están disponibles a través de la API. Este permiso exige la comprobación de permisos en la API y en una próxima IU de registros de auditoría. |
+| **[!UICONTROL Acceso a registros de auditoría]** | Este permiso exige la comprobación de permisos en la variable [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) y [interfaz de usuario de registros de auditoría](/help/privacy/audit-log.md). |
 | **[!UICONTROL Administración de creación de informes]** | Permite a los usuarios ver y eliminar cualquier informe que se ejecute en su compañía. (La funcionalidad del uso de creación de informes aún no está disponible). |
 | **[!UICONTROL Vista del uso de creación de informes]** | Permite a los usuarios ver todas las solicitudes de creación de informes simultáneas. (La funcionalidad del uso de creación de informes aún no está disponible). |
 | **[!UICONTROL Creación de métricas calculadas]** | Permite que los usuarios creen [métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md). |
