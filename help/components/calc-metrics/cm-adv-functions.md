@@ -4,9 +4,9 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3111'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ CEILING(metric)
 
 ## Confianza
 
-[!UICONTROL Confianza] es una medida probabilística de cuánta evidencia existe de que una variante determinada es la misma que la variante de control. Una mayor confianza indica menos evidencia para el supuesto de que la variante de control y la que no es de control tienen un rendimiento igual.
+[!UICONTROL Confianza]: es una medida probabilística de cuánta evidencia existe de que una variante determinada es la misma que la de control. Una mayor confianza indica menos evidencia para el supuesto de que la variante de control y la que no es de control tienen un rendimiento igual.
 
 ```
 fx Confidence (normalizing-container, success-metric, control, significance-threshold)
@@ -175,7 +175,7 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 | Contenedor de normalización | La base (Personas, Sesiones o Eventos) en que se ejecutará una prueba. |
 | Métrica de éxito | La métrica o métricas con las que un usuario compara variantes. |
 | Control | La variante con la que se comparan todas las demás variantes del experimento. Introduzca el nombre del elemento de dimensión de variante de control. |
-| Significance-threshold | El umbral en esta función se establece en un 95 % de forma predeterminada. |
+| Umbral de relevancia | El umbral en esta función se establece en un 95 % de forma predeterminada. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -354,7 +354,7 @@ Devuelve elementos cuyo recuento numérico sea menor o igual que el valor introd
 
 ## Alza
 
-Devuelve el alza que una variante en particular tenía en las conversiones sobre una variante de control. Es la diferencia de rendimiento entre una variante determinada y la base de referencia, dividida por el rendimiento de la línea de base, expresada como porcentaje.
+Devuelve el alza que una variante en particular tenía en las conversiones sobre una variante de control. Es la diferencia de rendimiento entre una variante determinada y la línea de base, dividida por el rendimiento de la línea de base, expresada como porcentaje.
 
 ```
 fx Lift (normalizing-container, success-metric, control)
