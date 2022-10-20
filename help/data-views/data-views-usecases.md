@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 1ce51f7eb5a40584fec781727e82b448cd23cc7a
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -87,23 +87,23 @@ No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
 
-## 7. Nuevo informe de sesión y de retorno {#new-repeat}
+## 7. Creación de informes de sesión nueva y sesión de retorno {#new-repeat}
 
-Puede determinar si una sesión es realmente la primera sesión de un usuario o una sesión de retorno, en función de la ventana de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Esta creación de informe permite determinar, por ejemplo, lo siguiente:
+Puede determinar si una sesión es realmente la primera sesión de un usuario o una sesión de retorno, en función de la ventana de creación de informes que definió para esta vista de datos y una ventana retrospectiva de 13 meses. Esta creación de informes permite determinar, por ejemplo, lo siguiente:
 
 * ¿Qué porcentaje de sus pedidos provienen de sesiones nuevas o de retorno?
 
 * Para un canal de marketing determinado o una campaña específica, ¿está dirigiéndose a los usuarios que ingresan por primera vez o a los que regresan? ¿Cómo influye esta opción en las tasas de conversión?
 
-Una dimensión y dos métricas facilitan este informe:
+Una dimensión y dos métricas facilitan esta creación de informes:
 
-* [Tipo de sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional) - Esta dimensión tiene dos valores: 1) [!UICONTROL Nuevo] y 2) [!UICONTROL Devolución]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
+*  [Tipo de sesión:](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional) Esta dimensión tiene dos valores: 1) [!UICONTROL Nueva] y 2) [!UICONTROL Retorno]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
 
-* [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). La nueva métrica de sesiones se define como la primera sesión definida por una persona dentro de la ventana de informes.
+* [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). La métrica de sesiones nuevas se entiende como la primera sesión definida por una persona dentro de la ventana de creación de informes.
 
 * [Sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) La métrica de sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.—>
 
-Para acceder a estos componentes:
+Para acceder a este componente, haga lo siguiente:
 
 1. Vaya al editor de vista de datos.
 1. Haga clic en la pestaña **[!UICONTROL Componentes]** > **[!UICONTROL Componentes estándar opcionales]** en el carril izquierdo.
@@ -115,7 +115,7 @@ Del 95 al 99 % de las veces, las nuevas sesiones se registran con precisión. L
 
 * Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. Supongamos que ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión comenzara el 30 de mayo de 2022 y finalizara el 1 de junio de 2022, porque la sesión se incluye en la ventana retrospectiva, todas las sesiones de la ventana de creación de informes se contarán como sesiones recurrentes.
 
-## 8. Utilice las funciones Fecha y Fecha-Hora {#date}
+## 8. Uso de la funcionalidad Fecha y Fecha-hora {#date}
 
 Los esquemas de Adobe Experience Platform contienen campos [!UICONTROL Fecha] y [!UICONTROL Fecha-hora]. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar su [formato](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en la creación de informes. Por ejemplo:
 

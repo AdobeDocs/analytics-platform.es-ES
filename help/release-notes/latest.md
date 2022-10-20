@@ -6,11 +6,11 @@ feature: Release Notes
 source-git-commit: a3d47318d74df161cf9054b849c9eb8ef09e60c4
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 77%
+ht-degree: 90%
 
 ---
 
-# Notas de la versión de Customer Journey Analytics (CJA) (octubre de 2022)
+# Notas de la versión de Customer Journey Analytics (CJA) (octubre 2022)
 
 **Última actualización**: 18 de octubre de 2022
 
@@ -20,7 +20,7 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 
 * [Notas de la versión de CJA anteriores de 2022](/help/release-notes/2022.md)
 
-* [Notas de la versión de Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
+* [Notas de la versión de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
 
 * [Notas de la versión de Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
 
@@ -30,10 +30,10 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 
 | Función | Descripción | [Fecha objetivo](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Panel de experimentación** | Este nuevo panel de espacio de trabajo permite a los usuarios de CJA evaluar el alza y la confianza de cualquier experimento A/B desde cualquier fuente: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos propios. [Más información](/help/analysis-workspace/c-panels/experimentation.md) | 5 de octubre de 2022 |
-| Visualización del **[!UICONTROL resumen de métricas clave]** | La visualización del [!UICONTROL resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. Más información | Despliegue gradual a partir del 5 de octubre de 2022 |
-| **Compatibilidad con campos de fecha en CJA** | Permite que CJA informe sobre los campos de fecha y hora. [Más información](/help/data-views/data-views-usecases.md#date) | 5 de octubre de 2022 |
-| **Aplicación móvil: Vistas de detalles personalizadas** | Las vistas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia, ya que le dejan enfocarse en lo más importante. Puede modificar el diseño de la vista de detalles asociada a cada mosaico del cuadro de resultados y agregar texto para explicar mejor lo que el usuario final puede ver en los datos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=es) | 5 de octubre de 2022 |
+| **Panel de experimentación** | Este nuevo panel de espacio de trabajo permite a los usuarios de CJA evaluar el alza y la confianza de cualquier experimento A/B desde cualquier fuente: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos propios.  [Más información](/help/analysis-workspace/c-panels/experimentation.md) | 5 de octubre de 2022 |
+| **[!UICONTROL Resumen de métricas clave] visualización** | La visualización [!UICONTROL Resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un único periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. Más información | Despliegue gradual a partir del 5 de octubre de 2022 |
+| **Compatibilidad con campos de fecha en CJA** | Permite que CJA informe sobre los campos de fecha y hora.  [Más información](/help/data-views/data-views-usecases.md#date) | 5 de octubre de 2022 |
+| **Aplicación móvil: vistas de detalles personalizadas** | Las vistas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia, ya que permiten centrarse en lo que es más importante. Puede modificar el diseño de la vista de detalles asociada a cada mosaico del cuadro de resultados y agregar texto para explicar mejor lo que el usuario final puede ver en los datos.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=es) | 5 de octubre de 2022 |
 | **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | Para variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores se almacenan en `mvvar1` - `mvvar3` ya no se convertirá en minúsculas automáticamente. En su lugar, los datos pasados a través del Conector de origen de Analytics a Adobe Experience Platform y CJA reflejarán el caso original que se pasó desde la página. | 24 de octubre de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -42,9 +42,9 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 
 | Aviso | Aviso añadido o actualizado | Descripción |
 | --- | --- | --- |
-| **Página de aterrizaje predeterminada** | 29 de septiembre de 2023 | La [nueva página de aterrizaje](/help/getting-started/landing.md) que se introdujo a principios de este año se convertirá en la experiencia predeterminada para todos los usuarios en **enero de 2023**. La página actual quedará en desuso y todos tendrán que utilizar la nueva experiencia. |
-| **Asignación de IP a geolocalización mejorada** | 29 de septiembre de 2022 | El proveedor de Adobe para búsquedas de IP, Digital Element, está actualizando a un nuevo conjunto de datos mejorado (NetAcuity Pulse) para la asignación de IP a geolocalización. Adobe Analytics ha pospuesto la adopción de este nuevo conjunto de datos a **Enero de 2023**. La nueva base de datos será más precisa que las versiones anteriores. Algunas asignaciones de IP a regiones cambiarán o mejorarán cuando se adopte la nueva base de datos.<p> Los datos de CJA proporcionados a través de la variable [!UICONTROL Conector de origen de Analytics] también aprovechará automáticamente las nuevas asignaciones. |
-| Condiciones de ejecución automática de **[!UICONTROL Detección de anomalías]** | 29 de septiembre de 2022 | Hoy en día, [!UICONTROL Detección de anomalías] se ejecuta automáticamente en todas las columnas de tablas de forma libre de series temporales. Para garantizar que los datos estén disponibles para análisis y que los proyectos se carguen más rápido, el Adobe cambiará la forma en que [!UICONTROL Detección de anomalías] se ejecuta automáticamente. A partir del **26 de octubre de 2022**, Detección de anomalías solo se ejecutará automáticamente en la primera columna de métrica de una tabla. Puede configurar la configuración de columna para que se ejecute [!UICONTROL Detección de anomalías] en otras columnas, si es necesario. |
+| **Página de aterrizaje predeterminada** | 29 de septiembre de 2023 | La [nueva página de aterrizaje](/help/getting-started/landing.md) que se introdujo a principios de este año se convertirá en la experiencia predeterminada para todos los usuarios en **enero de 2023**. La página actual quedará obsoleta y todos tendrán que utilizar la nueva experiencia. |
+| **Asignación de IP a geolocalización mejorada** | 29 de septiembre de 2022 | El proveedor de Adobe para búsquedas de IP, Digital Element, está actualizando a un nuevo conjunto de datos mejorado (NetAcuity Pulse) para la asignación de IP a geolocalización. Adobe Analytics ha pospuesto la adopción de este nuevo conjunto de datos a **enero de 2023**. La nueva base de datos será más precisa que las versiones anteriores. Algunas asignaciones de IP a regiones cambiarán o mejorarán cuando se adopte la nueva base de datos.<p> Los datos de CJA proporcionados a través del [!UICONTROL conector de origen de Analytics] también aprovecharán automáticamente las nuevas asignaciones. |
+| **[!UICONTROL Detección de anomalías] condiciones de ejecución automática** | 29 de septiembre de 2022 | Hoy, [!UICONTROL Detección de anomalías] se ejecuta automáticamente en todas las columnas de tablas de forma libre de series temporales. Para garantizar que los datos estén disponibles para análisis y que los proyectos se carguen más rápido, Adobe cambiará la forma en que [!UICONTROL Detección de anomalías] se ejecuta automáticamente. A partir del **26 de octubre de 2022**, la detección de anomalías se ejecutará automáticamente solo en la primera columna de métrica de una tabla. Puede configurar la configuración de columna para que se ejecute [!UICONTROL Detección de anomalías] en otras columnas, si es necesario. |
 
 {style=&quot;table-layout:auto&quot;}
 
