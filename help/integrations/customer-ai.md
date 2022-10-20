@@ -1,17 +1,17 @@
 ---
-description: Descubra cómo los datos de AEP Customer AI se integran con Workspace en CJA.
-title: Integración de datos de Customer AI con CJA
+description: Descubra cómo los datos de la inteligencia artificial aplicada al cliente de AEP se integran con Workspace en CJA.
+title: Integración de datos de inteligencia artificial aplicada al cliente con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 source-git-commit: 305bcd46df033f2f69a1161657d8d46793187225
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Integración de datos de Customer AI con CJA
+# Integración de datos de inteligencia artificial aplicada al cliente con CJA
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ La inteligencia artificial aplicada al cliente se basa en datos de comportamient
 
 La inteligencia artificial aplicada al cliente se integra con Customer Journey Analytics (CJA) en el sentido que los conjuntos de datos habilitados para inteligencia artificial aplicada al cliente se pueden aprovechar en las vistas de datos y los informes de CJA. Con esta integración, puede
 
-* **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**. Ejemplo de caso de uso: ¿Cuál es la probabilidad de que un cliente del hotel compre un billete de show en la sala de conciertos del hotel?
+* **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**. Ejemplo de caso de uso: ¿cuál es la probabilidad de que un cliente de un hotel compre una entrada para un espectáculo en el recinto de conciertos del hotel?
 * **Analizar qué eventos o atributos de éxito están asociados con puntuaciones de tendencia**. &#x200B;Ejemplo de caso de uso: quiero comprender los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
-* **Seguir el flujo de entrada para la tendencia del cliente sobre diferentes ejecuciones de puntuación**. Ejemplo de caso de uso: Me gustaría entender a las personas que inicialmente eran usuarios de baja propensión y, con el tiempo, se convirtieron en usuarios de alta propensión. &#x200B;
-* **Observar la distribución de la tendencia**. Caso de uso: Me gustaría entender la distribución de las puntuaciones de tendencia a que pueda ser más precisa con mis segmentos. &#x200B;Ejemplo: un minorista quiere hacer una promoción específica de 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analiza los datos y decide segmentar solo los clientes principales con una puntuación del 80 % o más.
-* **Observar la tendencia a realizar una acción para una cohorte en particular a lo largo del tiempo**. Caso de uso: Me gustaría rastrear una cohorte específica a lo largo del tiempo. Esto es similar al primero, pero puede rastrear una cohorte específica a lo largo del tiempo.&#x200B; Ejemplo de hospitalidad: un experto en marketing puede rastrear su nivel bronce frente a su nivel plata, o su nivel plata frente a su nivel oro a lo largo del tiempo. A continuación, puede ver la tendencia de cada cohorte a reservar el hotel a lo largo del tiempo. &#x200B;
+* **Seguir el flujo de entrada para la tendencia del cliente sobre diferentes ejecuciones de puntuación**. Ejemplo de caso de uso: me gustaría entender a las personas que inicialmente eran usuarios de baja tendencia y, con el tiempo, se convirtieron en usuarios de alta tendencia.
+* **Observar la distribución de la tendencia**. Caso de uso: me gustaría entender la distribución de las puntuaciones de tendencia para poder tener más precisión con mis segmentos.Ejemplo: un minorista quiere hacer una promoción específica de 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analiza los datos y decide segmentar solo los clientes principales con una puntuación del 80 % o más.
+* **Observar la tendencia a realizar una acción para una cohorte en particular a lo largo del tiempo**. Caso de uso: me gustaría rastrear una cohorte específica a lo largo del tiempo. Esto es similar al primero, pero puede rastrear una cohorte específica a lo largo del tiempo.&#x200B; Ejemplo de hospitalidad: un experto en marketing puede rastrear su nivel bronce frente a su nivel plata, o su nivel plata frente a su nivel oro a lo largo del tiempo. A continuación, puede ver la tendencia de cada cohorte a reservar el hotel a lo largo del tiempo. &#x200B;
 
 Algunos de los pasos se realizan en Adobe Experience Platform antes de trabajar con la salida en CJA.
 
