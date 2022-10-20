@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: d11a1cf98999c5797ab456bd547c065a5103b068
+source-git-commit: dc75ed818b2760e9cd19fdcd427fe752f829aef0
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 97%
 
 ---
@@ -261,6 +261,5 @@ ht-degree: 97%
 + Resolución de problemas {#troubleshooting}
    + [Comparación de los datos de Adobe Analytics con los de CJA](../troubleshooting/compare.md)
 + Gobierno de datos {#cja-privacy}
-   + [Registros de auditoría](../privacy/audit-log.md)
    + [Gobierno de datos](../privacy/privacy-overview.md)
 + [API de CJA](https://developer.adobe.com/cja-apis/docs/)
