@@ -2,10 +2,10 @@
 description: Explica la estrategia de lanzamiento continuo de funciones para Customer Journey Analytics
 title: Lanzamiento de funciones de Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
-source-git-commit: f2c82f54ec534603539327597d5f4c4ec875d44c
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 90%
 
 ---
 
@@ -17,9 +17,7 @@ Las versiones de Customer Journey Analytics operan en un modelo de entrega conti
 
 [!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “alternadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
-* **Versión para producción (RTP)**: El código se libera para su producción, con la visibilidad de las funcionalidades desactivada en Analysis Workspace. Esta característica a veces está disponible en la API de CJA.
-
-* **Prueba limitada**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. La versión se escalará de 0% a 100% de disponibilidad en un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
+* **Inicio de la implementación**: La implementación de una versión por fases comienza con las pruebas limitadas realizadas por los usuarios de Adobe internos. A continuación, la versión se escalará de 0% a 100% de disponibilidad para los clientes en un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
 * **Disponibilidad general (GA)**: La funcionalidad está disponible para el 100% de las organizaciones de Experience Cloud y la versión de la funcionalidad está completa.
 
