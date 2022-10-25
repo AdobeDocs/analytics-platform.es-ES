@@ -2,7 +2,7 @@
 title: Información general sobre la publicación de audiencias de CJA
 description: Obtenga información sobre el concepto de publicación de audiencias en Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 18306a5a2fc8873850eb62b7407acb55db4007ea
+source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 83%
@@ -39,7 +39,7 @@ La publicación de audiencias proporciona una manera clara de activar y realizar
 
 ## Control y consentimiento de datos
 
-Cuando publica una audiencia en CJA, se registran las etiquetas y políticas de control de datos adjuntas a los campos utilizados en la audiencia.  Cuando la audiencia se activa en cualquier aplicación de Adobe Experience, todas las etiquetas y políticas de control de datos asociadas están disponibles para esa audiencia y se puede aplicar la aplicación correspondiente.  [Más información sobre el consentimiento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy)
+Cuando publica una audiencia en CJA, se registran las etiquetas y políticas de control de datos adjuntas a los campos utilizados en la audiencia.  Cuando la audiencia se activa en cualquier aplicación de Adobe Experience, todas las etiquetas y políticas de control de datos asociadas están disponibles para esa audiencia y se puede aplicar la aplicación correspondiente. [Más información sobre el consentimiento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
 ## Pasos siguientes
 
