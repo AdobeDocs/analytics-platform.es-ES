@@ -3,9 +3,9 @@ title: Claves administradas por el cliente
 description: Aprenda a configurar claves gestionadas por el cliente para CJA.
 hide: true
 hidefromtoc: true
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ce386f30e344b3921689a8ecc0e6fba0a55137f9
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Esta funcionalidad estará disponible en noviembre de 2022.
 
-Customer Journey Analytics (CJA) proporciona la opción para que los clientes de Escudo de la salud y Escudo de la privacidad y la seguridad utilicen una clave administrada por el cliente de Azure (CMK) para que se aplique a sus datos de CJA.  Tenga en cuenta que este proceso es independiente de la configuración de Adobe Experience Platform CMK (vínculo a continuación).
+Customer Journey Analytics (CJA) proporciona la opción para [Escudo sanitario](https://www.adobe.com/trust/compliance/hipaa-ready.html) y los clientes de Privacy &amp; Security Shield para utilizar una clave administrada por el cliente de Azure (CMK) que se aplicará a sus datos de CJA.  Tenga en cuenta que este proceso es independiente de [Configuración de Adobe Experience Platform CMK](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html).
 
 >[!NOTE]
 >
