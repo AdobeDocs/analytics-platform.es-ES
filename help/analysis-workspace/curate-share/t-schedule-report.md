@@ -5,10 +5,10 @@ title: Programar proyectos
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
+source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 62%
+source-wordcount: '741'
+ht-degree: 61%
 
 ---
 
@@ -86,8 +86,8 @@ Los requisitos de contraseña se ajustan al estándar de Adobe y requieren un m�
 
 ### Nuevo proyecto programado
 
-1. Una vez guardado el proyecto, vaya a Compartir > Enviar archivo ahora o Compartir > Enviar archivo según lo programado.
-1. Siga las instrucciones anteriores, en Compartir archivo ahora o Compartir archivo según lo programado.
+1. Una vez guardado el proyecto, vaya a **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo ahora]** o [!UICONTROL Compartir] > **[!UICONTROL Enviar archivo según lo programado]**.
+1. Siga las instrucciones anteriores, en [Enviar archivo ahora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) o [Enviar archivo según lo programado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule).
 
 ### Proyecto programado existente
 
