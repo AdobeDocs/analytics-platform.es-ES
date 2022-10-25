@@ -5,10 +5,10 @@ title: Programar proyectos
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 63%
+source-wordcount: '723'
+ht-degree: 62%
 
 ---
 
@@ -95,6 +95,7 @@ Antes de la hora en la que se programa un proyecto, el propietario del proyecto 
 
 ![email](assets/email-password.png)
 
+1. Vuelva a iniciar sesión en el Customer Journey Analytics.
 1. Haga clic en **[!UICONTROL Ver proyecto programado]**.
 1. En el **[!UICONTROL Editar proyecto programado]** , introduzca y vuelva a introducir una contraseña.
 1. Informar (solo) a los destinatarios del proyecto programado de esta contraseña.
