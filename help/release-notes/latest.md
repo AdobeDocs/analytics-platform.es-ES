@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a7636909c0570655ee6d3638e56828916044d2bd
+source-git-commit: 07842c9f1e2f4708d0881dec75c067d93611626c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 68%
+source-wordcount: '590'
+ht-degree: 59%
 
 ---
 
 # Notas de la versión de Customer Journey Analytics (CJA) (octubre/noviembre de 2022)
 
-**Última actualización**: 19 de octubre de 2022
+**Última actualización**: 25 de octubre de 2022
 
 Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -22,8 +22,9 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 | ----------- | ---------- | ----- | --- |
 | **[!UICONTROL Resumen de métricas clave] visualización** | La visualización [!UICONTROL Resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un único periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo.  [Más información](/help/analysis-workspace/visualizations/key-metric.md) | 5 de octubre de 2022 | 19 de octubre de 2022 |
 | **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | Para variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores se almacenan en `mvvar1` - `mvvar3` ya no se convertirá en minúsculas automáticamente. En su lugar, los datos pasados a través del Conector de origen de Analytics a Adobe Experience Platform y CJA reflejarán el caso original que se pasó desde la página. | N/A | 24 de octubre de 2022 |
-| **Registro de auditoría de CJA** | Customer Journey Analytics (CJA) le permite auditar la actividad del usuario para varios servicios y capacidades en forma de &quot;registros de auditoría&quot;. Estos registros forman una pista de auditoría que puede ayudar a solucionar problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Porability and Accounability Act). Anteriormente, estos registros solo estaban disponibles a través de la API de registros de auditoría. [Más documentación próximamente] | N/D | 26 de octubre de 2022 |
-| **Preparación para HIPAA** | Descripción a continuación | N/D | 7 de noviembre de 2022 |
+| **Registro de auditoría de CJA** | Customer Journey Analytics (CJA) le permite auditar la actividad del usuario para varios servicios y capacidades en forma de &quot;registros de auditoría&quot;. Estos registros forman una pista de auditoría que puede ayudar a solucionar problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Porability and Accounability Act). Anteriormente, estos registros solo estaban disponibles a través de la API de registros de auditoría. [Más información](/help/privacy/audit-log.md) | N/D | 26 de octubre de 2022 |
+| **Preparación para HIPAA** | Ahora, el Adobe admite la recepción, el uso, el mantenimiento o la transmisión de información protegida sobre la salud en Customer Journey Analytics y otras aplicaciones basadas en Experience Platform únicamente para clientes de Escudo Sanitario. Healthcare Shield es para clientes sanitarios que son una entidad cubierta o un asociado comercial solo en Estados Unidos. [Más información](https://www.adobe.com/trust/compliance/hipaa-ready.html) | N/D | 7 de noviembre de 2022 |
+| **Protección de contraseña para proyectos programados** | Esta función forma parte de la preparación para HIPAA y se aplica sólo a los clientes de Healthcare Shield. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) | N/A/ | 7 de noviembre de 2022. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -33,7 +34,7 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 
 ### Otras  correcciones
 
-AN-302367; AN-302562
+AN-302367; AN-302562; AN-304036
 
 ## Avisos importantes para los administradores de CJA
 

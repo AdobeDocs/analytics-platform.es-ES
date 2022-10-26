@@ -3,9 +3,9 @@ title: Registros de auditoría
 description: Obtenga información sobre cómo ver y administrar los registros de auditoría de CJA.
 hide: true
 hidefromtoc: true
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: 6cf2d5ccbeeea7baeea8a675f2b7e96e6203fe24
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '849'
 ht-degree: 16%
 
 ---
@@ -25,7 +25,7 @@ Cuando la función está habilitada para su organización, los registros de audi
 
 Para ver y exportar los registros de auditoría, se debe haber concedido la variable **[!UICONTROL Acceso a registros de auditoría]** permiso de control de acceso en la consola Adobe. Para obtener información sobre cómo administrar permisos individuales para funciones de CJA, consulte la [documentación de control de acceso](/help/getting-started/cja-access-control.md).
 
-## Ver registros de auditoría en la interfaz de usuario
+## Ver el registro de auditoría en la interfaz de usuario
 
 En CJA, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Registros de auditoría]**.
 
