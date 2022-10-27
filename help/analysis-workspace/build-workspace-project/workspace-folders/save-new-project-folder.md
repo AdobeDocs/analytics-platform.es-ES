@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo guardar proyectos en carpetas en Workspace
+description: Obtenga información sobre cómo guardar proyectos en carpetas de Workspace
 keywords: Analysis Workspace
 title: Guardar proyectos en carpetas
 feature: CJA Workspace Basics
@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 5%
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Para guardar un nuevo proyecto en una carpeta específica, seleccione el nombre 
 
    ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. En el **Proyecto** > **Guardar** , seleccione un nombre de carpeta en el menú desplegable Carpeta .
+1. En el diálogo **Proyecto** > **Guardar**, seleccione un nombre de carpeta en el menú desplegable Carpeta.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
 

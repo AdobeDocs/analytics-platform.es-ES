@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 36667163792454a1793e48bc0c810615b51c1b7e
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,8 +79,8 @@ ht-degree: 97%
    + Proyectos {#build-workspace-project}
       + [Información general sobre Proyectos](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
-      + Carpetas en Workspace {#workspace-folders}
-         + [Acerca de las carpetas en Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + Carpetas de Workspace {#workspace-folders}
+         + [Acerca de las carpetas de Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Crear carpetas y subcarpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Agregar proyectos](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Eliminar un proyecto](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
@@ -210,7 +210,7 @@ ht-degree: 97%
          + [Buscar métricas](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Crear métricas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Tipo de métrica y atribución](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Crear una métrica &quot;Vistas de página por visitas&quot; simple](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Crear una métrica “Vistas de página por visitas” simple](../components/calc-metrics/cm-workflow/cm-pvv.md)
          + [Métricas filtradas](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Apilar y sustituir segmentos](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Métricas filtradas y ponderadas](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)

@@ -39,7 +39,7 @@ Para obtener más información sobre los permisos de Experience Platform, consul
 
 Un perfil de producto es un conjunto de permisos. Los administradores de perfil de producto pueden hacer lo siguiente:
 
-* Crear y administrar perfiles de producto para particulares, como añadir nuevos usuarios o administrar grupos de usuarios y sus perfiles de producto asociados.
+* Crear y administrar perfiles de producto para particulares, como agregar nuevos usuarios o administrar grupos de usuarios y sus perfiles de producto asociados.
 
 * En CJA, editar las vistas de datos que forman parte de un perfil de producto que administran. No pueden crear vistas de datos nuevas.
 
@@ -61,14 +61,14 @@ Estos son algunos casos de uso que ilustran cómo se puede utilizar el control d
 
 ### Acceso de terceros
 
-Un tercero con el que trabaja su empresa tiene un líder de equipo que se puede convertir en administrador de perfil de producto. A continuación, este administrador puede añadir usuarios de su equipo a este perfil de producto. Este administrador puede proporcionar acceso a vistas de datos específicas y agregar otros usuarios a este perfil de producto. También puede modificar las vistas de datos sobre las que tienen control para adaptarlas a las necesidades de su equipo.
+Un tercero con el que trabaja su compañía tiene un líder de equipo que se puede convertir en administrador de perfil de producto. A continuación, este administrador puede agregar usuarios de su equipo a este perfil de producto. Este administrador puede proporcionar acceso a vistas de datos específicas y agregar otros usuarios a este perfil de producto. También puede modificar las vistas de datos sobre las que tienen control para adaptarlas a las necesidades de su equipo.
 
 ### Control de acceso de nivel de fila
 
 Supongamos que desea que los usuarios tengan acceso a los datos de un solo día. Así se limita el acceso a esas filas específicas:
 
 1. Cree un filtro en CJA donde **[!UICONTROL Día]** sea igual a la fecha en la que desea que tengan acceso a los datos.
-1. En [!UICONTROL Vistas de datos] > [!UICONTROL Configuración], añada ese filtro a la vista de datos.
+1. En [!UICONTROL Vistas de datos] > [!UICONTROL Configuración], agregue ese filtro a la vista de datos.
 1. Guarde la vista de datos y aplicará automáticamente el filtro al conjunto de datos. Ahora, las filas que no se ajusten a la definición del filtro se excluyen automáticamente de la vista de datos editada.
 1. Cree un nuevo perfil de producto en Admin Console, añada usuarios y limite su acceso a esta vista de datos.
 
