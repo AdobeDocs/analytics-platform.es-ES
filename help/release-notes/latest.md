@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 07842c9f1e2f4708d0881dec75c067d93611626c
+source-git-commit: fbfc7113aef8857e11ccfba5e5e557eed16c2465
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 73%
+source-wordcount: '598'
+ht-degree: 72%
 
 ---
 
@@ -21,7 +21,7 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 | Función | Descripción | [Inicio de la implementación](/help/release-notes/releases.md) | [Disponibilidad general](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
 | **[!UICONTROL Resumen de métricas clave] visualización** | La visualización [!UICONTROL Resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un único periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo.  [Más información](/help/analysis-workspace/visualizations/key-metric.md) | 5 de octubre de 2022 | 19 de octubre de 2022 |
-| **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | En el caso de las variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores que se almacenan en `mvvar1` - `mvvar3` ya no se convertirán en minúsculas automáticamente. En su lugar, los datos pasados a través del conector de origen de Analytics a Adobe Experience Platform y CJA reflejarán el caso original que se pasó desde la página. | N/A | 24 de octubre de 2022 |
+| **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | En el caso de las variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores que se almacenan en `mvvar1` - `mvvar3` ya no se convertirán en minúsculas automáticamente. En su lugar, los datos pasados a través del conector de origen de Analytics a Adobe Experience Platform y CJA reflejarán el caso original que se pasó desde la página. Columnas ASC/CJA `_experience.analytics.customDimensions.lists.list1.list[]` - `_experience.analytics.customDimensions.lists.list3.list[]` se ven afectados por este cambio. | N/A | 24 de octubre de 2022 |
 | **Registro de auditoría de CJA** | Customer Journey Analytics (CJA) le permite auditar la actividad del usuario para varios servicios y capacidades en forma de &quot;registros de auditoría&quot;. Estos registros forman una pista de auditoría que puede ser útil en la resolución de problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Portability and Accountability Act). Anteriormente, estos registros solo estaban disponibles a través de la API de registros de auditoría.  [Más información](/help/privacy/audit-log.md) | N/D | 26 de octubre de 2022 |
 | **Preparación para HIPAA** | Ahora, el Adobe admite la recepción, el uso, el mantenimiento o la transmisión de información protegida sobre la salud en Customer Journey Analytics y otras aplicaciones basadas en Experience Platform únicamente para clientes de Escudo Sanitario. Healthcare Shield es para clientes sanitarios que son una entidad cubierta o un asociado comercial solo en Estados Unidos. [Más información](https://www.adobe.com/trust/compliance/hipaa-ready.html) | N/D | 7 de noviembre de 2022 |
 | **Protección de contraseña para proyectos programados** | Esta función forma parte de la preparación para HIPAA y se aplica sólo a los clientes de Healthcare Shield.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) | N/A/ | 7 de noviembre de 2022. |
