@@ -3,9 +3,9 @@ title: Claves administradas por el cliente
 description: Aprenda a configurar claves gestionadas por el cliente para CJA.
 hide: true
 hidefromtoc: true
-source-git-commit: 90521aa7326486b9016321d35191a73ef891a0bc
+source-git-commit: 08a322e159725c565dafdc5ef28758cc97fb9ae4
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -30,5 +30,10 @@ Siga estos pasos para configurar CMK para CJA:
 1. Asegúrese de que, en Azure, es un administrador con una función privilegiada, como administrador de aplicaciones, administrador de aplicaciones de nube o administrador global. [Obtenga más información en Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 1. Cree un nuevo Azure Key Vault para utilizarlo solo con CJA. [Obtenga más información en Microsoft](https://learn.microsoft.com/en-us/azure/key-vault/general/)
 1. Conceda acceso a la aplicación de Adobe Azure a su clave en el almacén de claves. Este es el ID de aplicación de Adobe: 251e3919-1940-4296-bb8b-6b9a5e8a4805. [Obtenga más información en Microsoft](https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
-1. Cree un ticket del Servicio de atención al cliente de Adobe solicitando la configuración de CMK. Incluya el URI de Azure en su ticket. El URI se puede encontrar en el campo Identificador de clave de la clave de Azure.
+1. Cree un ticket del Servicio de atención al cliente de Adobe solicitando la configuración de CMK. Incluya el URI de Azure en su ticket. El URI se puede encontrar en la variable **Identificador de clave** del campo Clave de Azure.
+
+   ![](assets/key-identifier.png)
+
 1. El Servicio de atención al cliente de Adobe confirmará la finalización de la aplicación CMK en sus datos de CJA.
+
+Todos los datos utilizados por Platform se cifran en tránsito y en reposo para mantener sus datos seguros, con o sin CMK. Para obtener información sobre el cifrado de Adobe Experience Platform, [más información](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=en).
