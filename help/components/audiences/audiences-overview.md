@@ -3,9 +3,9 @@ title: Información general sobre la publicación de audiencias de CJA
 description: Obtenga información sobre el concepto de publicación de audiencias en Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ La publicación de audiencias proporciona una manera clara de activar y realizar
 * Uso de la audiencia para un recorrido en Adobe Journey Optimizer.
 * Exportación de la audiencia a un tercero mediante un destino de Experience Platform.
 * Enriquecimiento del perfil del cliente en tiempo real con atributos útiles derivados de datos basados en eventos en CJA.
-* Hacer todo esto con una latencia mínima después de publicar la audiencia (un par de minutos)
-* Publicación de audiencias únicas o recurrentes
+* Hacer todo esto con una latencia mínima después de publicar la audiencia (un par de minutos).
+* Publicación de audiencias únicas o recurrentes.
 
 ## Terminología clave
 
@@ -37,9 +37,9 @@ La publicación de audiencias proporciona una manera clara de activar y realizar
 
 * También necesitan el permiso **[!UICONTROL Administrar perfiles]** en Adobe Experience Platform.
 
-## Control y consentimiento de datos
+## Gobernanza de datos y consentimiento
 
-Cuando publica una audiencia en CJA, se registran las etiquetas y políticas de control de datos adjuntas a los campos utilizados en la audiencia.  Cuando la audiencia se activa en cualquier aplicación de Adobe Experience, todas las etiquetas y políticas de control de datos asociadas están disponibles para esa audiencia y se puede aplicar la aplicación correspondiente. [Más información sobre el consentimiento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Cuando publica una audiencia en CJA, se registran las etiquetas y políticas de gobernanza de datos adjuntas a los campos utilizados en la audiencia.  Cuando la audiencia se activa en cualquier aplicación de Adobe Experience, todas las etiquetas y políticas de gobernanza de datos asociadas están disponibles para esa audiencia y se puede aplicar la aplicación correspondiente. [Más información sobre el consentimiento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es#consent-policy).
 
 ## Pasos siguientes
 
