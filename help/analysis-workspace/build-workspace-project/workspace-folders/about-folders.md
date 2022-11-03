@@ -6,9 +6,9 @@ feature: CJA Workspace Basics
 hide: true
 hidefromtoc: true
 source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La función Carpetas en los proyectos de Workspace es un sistema de administraci
 
 >[!NOTE]
 >
->Esta función está actualmente en versión beta. Algunas pantallas pueden cambiar.
+>Esta funcionalidad está actualmente en beta. Algunas pantallas pueden cambiar.
 
 La función Carpetas en los proyectos de Workspace ayuda a los usuarios a organizar y categorizar sus proyectos para una mejor recuperación y acceso. Además, una carpeta compartida de la compañía permite a los administradores crear y compartir contenido fácilmente con todos los usuarios de Workspace. 
 
