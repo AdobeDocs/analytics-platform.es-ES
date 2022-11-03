@@ -3,9 +3,9 @@ description: Explica la estrategia de lanzamiento continuo de funciones para Cus
 title: Lanzamiento de funciones de Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Las versiones de Customer Journey Analytics operan en un modelo de entrega conti
 
 [!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “alternadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
-* **Inicio de la implementación**: La implementación de una versión por fases comienza con las pruebas limitadas realizadas por los usuarios de Adobe internos. A continuación, la versión se escalará de 0% a 100% de disponibilidad para los clientes en un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
+* **Inicio del despliegue**: el despliegue de una versión por fases comienza con pruebas limitadas realizadas por los usuarios internos de Adobe. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
 * **Disponibilidad general (GA)**: La funcionalidad está disponible para el 100% de las organizaciones de Experience Cloud y la versión de la funcionalidad está completa.
 
