@@ -6,9 +6,9 @@ role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1769'
+ht-degree: 100%
 
 ---
 
@@ -161,7 +161,7 @@ Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril 
 
 Cuando hace clic en un mosaico, la ventana emergente dinámica le muestra cómo aparece la diapositiva de detalle para el usuario ejecutivo en la aplicación. Puede agregar dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado ninguna dimensión, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
-Los desgloses afinan el análisis mediante el desglose de métricas por elementos de dimensión como los siguientes:
+Los desgloses afinan el análisis al desglosar las métricas por elementos de dimensión como los siguientes:
 
 * Métrica Visitantes únicos desglosada por plataforma de publicidad (AMO ID)
 * Visitas desglosadas por categoría de producto (venta minorista)
