@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de cómo agregar carpetas en Workspace
+description: Aprenda a agregar carpetas en Workspace
 keywords: Analysis Workspace
 title: Agregar carpetas en Workspace
 feature: CJA Workspace Basics
@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Puede agregar proyectos a una carpeta en la vista de tabla o desde una carpeta.
 
 >[!NOTE]
 >
->Esta función está actualmente en versión beta. Algunas pantallas pueden cambiar.
+>Esta funcionalidad está actualmente en beta. Algunas pantallas pueden cambiar.
 
 ## Desde la vista de tabla
 
-Agregar proyectos a una carpeta desde la vista de tabla de la página principal.
+Agregue proyectos a una carpeta desde la vista de tabla de la página principal.
 
 1. Seleccione uno o varios proyectos que desee agregar a una carpeta.
 
@@ -47,21 +47,21 @@ Agregar proyectos a una carpeta desde la vista de tabla de la página principal.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## Desde una carpeta
+## Desde dentro de una carpeta
 
-También puede agregar proyectos desde dentro de una carpeta mediante el enlace de tres puntos.
+También puede agregar proyectos desde dentro de una carpeta mediante el vínculo de puntos suspensivos.
 
 1. Seleccione y abra una carpeta desde la vista de tabla.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Haga clic en el icono de tres puntos **…** en la parte superior derecha.
+1. Haga clic en el icono puntos suspensivos **...** en la parte superior derecha.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
-   Un menú desplegable muestra la opción de agregar proyectos a la carpeta. Las opciones adicionales le permiten cambiar el nombre de la carpeta, moverla o eliminarla, así como administrar los permisos de la carpeta.
+   Un menú desplegable muestra la opción para agregar proyectos a la carpeta. Las opciones adicionales le permiten cambiar el nombre de la carpeta, moverla o eliminarla, así como administrar los permisos de la carpeta.
 
-1. Seleccione **Agregar proyectos** y el proyecto que desee agregar en la lista desplegable.
+1. Seleccione **Agregar proyectos** y seleccione el proyecto que desee agregar en la lista desplegable.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 

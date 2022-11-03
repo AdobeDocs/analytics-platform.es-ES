@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 6fee3b9e91aff8c49176d86ac99fd78a6d852c4c
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -79,11 +79,11 @@ ht-degree: 99%
    + Proyectos {#build-workspace-project}
       + [Información general sobre Proyectos](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
-      + Carpetas de Workspace {#workspace-folders}
-         + [Acerca de las carpetas de Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Crear carpetas y subcarpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + Carpetas en el Espacio de trabajo {#workspace-folders}
+         + [Acerca de las carpetas en el Espacio de trabajo](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Creación de carpetas y subcarpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Agregar proyectos](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [Eliminar un proyecto](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [Quitar un proyecto](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Guardar un nuevo proyecto](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Teclas de acceso directo (métodos abreviados)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paletas de color](../analysis-workspace/build-workspace-project/color-palettes.md)
@@ -261,7 +261,7 @@ ht-degree: 99%
 + Resolución de problemas {#troubleshooting}
    + [Comparación de los datos de Adobe Analytics con los de CJA](../troubleshooting/compare.md)
 + Gobierno de datos {#cja-privacy}
-   + [Gobierno de datos](../privacy/privacy-overview.md)
+   + [Gobernanza de datos](../privacy/privacy-overview.md)
    + [Registro de auditoría](../privacy/audit-log.md)
-   + [Claves administradas por el cliente](../privacy/cmk.md)
+   + [Claves gestionadas por el cliente](../privacy/cmk.md)
 + [API de CJA](https://developer.adobe.com/cja-apis/docs/)
