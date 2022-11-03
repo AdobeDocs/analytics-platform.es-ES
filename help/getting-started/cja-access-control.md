@@ -6,9 +6,9 @@ feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 source-git-commit: ee3196b78e1cf613446840e8cde1fac565d0f2b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Se puede utilizar otro nivel de control de acceso en el nivel de creación de in
 
 ## Conceder acceso a métricas o dimensiones individuales
 
-No se pueden conceder ni denegar permisos para métricas o dimensiones individuales en Customer Journey Analytics como se puede hacer en la versión tradicional de Adobe Analytics. Las métricas y dimensiones se pueden modificar en las [vistas de datos](/help/data-views/data-views.md) y, por lo tanto, están sujetas a cambios en CJA. Si se cambian, también de forma retroactiva, la creación de informes se verá modificada.
+No se puede otorgar ni rechazar permisos a métricas o dimensiones individuales en Customer Journey Analytics como se puede hacer en la versión tradicional de Adobe Analytics. Las métricas y dimensiones se pueden modificar en las [vistas de datos](/help/data-views/data-views.md) y, por lo tanto, están sujetas a cambios en CJA. Si se cambian, también de forma retroactiva, la creación de informes se verá modificada.
 
 ## Casos prácticos
 
@@ -88,7 +88,7 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil de producto en 
 | --- | --- |
 | **[!UICONTROL Vistas de datos]** | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que forman parte de este perfil de producto pueden ver todas las vistas de datos existentes y creadas recientemente. Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso. |
 | **[!UICONTROL Herramientas de creación de informes]**: |  |
-| **[!UICONTROL Acceso a registros de auditoría]** | Este permiso exige la comprobación de permisos en la variable [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) y la interfaz de usuario de los registros de auditoría que vendrán. |
+| **[!UICONTROL Acceso a registros de auditoría]** | Este permiso exige la comprobación de permisos en la [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) y en la próxima IU de registros de auditoría. |
 | **[!UICONTROL Administración de creación de informes]** | Permite a los usuarios ver y eliminar cualquier informe que se ejecute en su compañía. (La funcionalidad del uso de creación de informes aún no está disponible). |
 | **[!UICONTROL Vista del uso de creación de informes]** | Permite a los usuarios ver todas las solicitudes de creación de informes simultáneas. (La funcionalidad del uso de creación de informes aún no está disponible). |
 | **[!UICONTROL Creación de métricas calculadas]** | Permite que los usuarios creen [métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md). |
