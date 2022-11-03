@@ -2,9 +2,9 @@
 title: Registros de auditoría
 description: Obtenga información sobre cómo ver y administrar los registros de auditoría de CJA.
 source-git-commit: 37a23a4669c08c8f7d9c6595286998ebd7e60ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Cuando la función está habilitada para su organización, los registros de audi
 
 Para ver y exportar los registros de auditoría, se debe contar con el permiso de control **[!UICONTROL Acceso a registros de auditoría]** en la consola de Adobe. Para obtener información sobre cómo administrar permisos individuales para funciones de CJA, consulte la [documentación de control de acceso](/help/getting-started/cja-access-control.md).
 
-## Ver el registro de auditoría en la interfaz de usuario
+## Vista del registro de auditoría en la IU
 
 En CJA, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Registros de auditoría]**.
 
@@ -66,7 +66,7 @@ Los siguientes filtros están disponibles para eventos de auditoría en la inter
 | Filtro | Descripción |
 | --- | --- |
 | [!UICONTROL Intervalo de fecha] | Filtre en un intervalo distinto seleccionando una fecha diferente o un intervalo de fechas arrastrando el cursor sobre varias fechas. De forma predeterminada, se seleccionan las fechas de hoy y de ayer. |
-| [!UICONTROL Acción] | Filtre con una o más de las siguientes acciones: <ul><li>API_Request</li><li>Aprobar</li><li>Crear</li><li>Editar</li><li>Exportar</li><li>Login_failed</li><li>Login_success</li><li>Cerrar sesión</li><li>Org_change</li><li>Actualizar</li><li>Compartir</li><li>Transferir</li><li>Desaprobar</li><li>Dejar de compartir</li></ul> |
+| [!UICONTROL Acción] | Filtre con una o más de las siguientes acciones: <ul><li>API_Request</li><li>Aprobar</li><li>Crear</li><li>Editar</li><li>Exportar</li><li>Login_failed</li><li>Login_successful</li><li>Cerrar sesión</li><li>Org_change</li><li>Actualizar</li><li>Compartir</li><li>Transferir</li><li>Desaprobar</li><li>Dejar de compartir</li></ul> |
 | [!UICONTROL ID de usuario] | Filtrar por un usuario específico con el ID. El ID de usuario se puede encontrar seleccionando el botón de información (i) junto al nombre de usuario. |
 | [!UICONTROL Correo electrónico] | Filtre por la dirección de correo electrónico de un usuario específico. El correo electrónico se puede encontrar seleccionando el botón de información (i) junto a un nombre de usuario. |
 | [!UICONTROL ID de componente] | Filtre por un ID de componente específico. El ID de componente se puede encontrar seleccionando el botón de información (i) para un componente deseado. |
