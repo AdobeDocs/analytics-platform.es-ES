@@ -6,9 +6,9 @@ feature: CJA Workspace Basics
 hide: true
 hidefromtoc: true
 source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o elimin
 
 >[!NOTE]
 >
->Esta función está actualmente en versión beta. Algunas pantallas pueden cambiar.
+>Esta funcionalidad está actualmente en beta. Algunas pantallas pueden cambiar.
 
 >[!NOTE]
 >
