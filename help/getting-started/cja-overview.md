@@ -5,9 +5,9 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: f70cb6a8567d1bb2f844b1694f552ec4bfe70adc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Para poder iniciar desde Customer Journey Analytics, se deben cumplir los siguie
 
 * Su organización tiene un contrato activo con Adobe Analytics para Select, Prime o Ultimate con el complemento de Customer Journey Analytics. Si no está seguro de qué tipo de contrato tiene o no está seguro de si tiene el complemento de CJA, póngase en contacto con el Administrador de cuentas de su organización.
 * Su organización se ha aprovisionado para Adobe Experience Platform.
-* También puede adquirir Customer Journey Analytics como producto independiente, sin necesidad de Adobe Analytics.
+* También puede adquirir Customer Journey Analytics como producto independiente, sin necesidad de tener Adobe Analytics.
 
 ## Control de acceso
 
