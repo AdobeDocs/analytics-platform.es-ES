@@ -5,10 +5,10 @@ title: Programar proyectos
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: b0a1fdcfb2d200d40c308c557c2ddff172c1e18f
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 98%
 
 ---
 
@@ -84,12 +84,12 @@ Una vez que su compañía ha adquirido la unidad de almacén de Healthcare Shiel
 
 Los requisitos de la contraseña cumplen con el estándar de Adobe y requieren un mínimo de 8 caracteres con al menos un número y un carácter especial.
 
-### Nuevo proyecto programado
+### Proteger con contraseña un nuevo proyecto programado
 
 1. Una vez guardado el proyecto, vaya a **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo ahora]** o [!UICONTROL Compartir] > **[!UICONTROL Enviar archivo según lo programado]**.
 1. Siga las instrucciones anteriores, en [Enviar archivo ahora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=es#now) o [Enviar archivo según lo programado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=es#schedule).
 
-### Proyecto programado existente
+### Proteger con contraseña un proyecto programado existente
 
 Antes de la hora en la que se programa un proyecto, el propietario del proyecto recibirá un correo electrónico similar al siguiente:
 
