@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo comparar sus datos de Adobe Analyt
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
-workflow-type: ht
-source-wordcount: '825'
-ht-degree: 100%
+source-git-commit: 2088fd98510887e86cffb6bd957d32a35fcfc467
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 90%
 
 ---
 
@@ -63,9 +63,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber soltado algunas filas.
+1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si algunas filas podrían haber sido filtradas por el conector de origen de Analytics.
 
-   El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) podría soltar filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se perderá toda la fila.
+   La variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) puede filtrar ciertas filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, toda la fila se filtrará hacia fuera.
 
    | Campo de Analytics | Valores que hacen que se borre una fila |
    | --- | --- |
@@ -78,9 +78,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
    Para obtener más información acerca de hit\_source, consulte [Referencia de columnas de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es). Para obtener más información acerca de page\_event, consulte [Búsqueda de eventos de página](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=es).
 
-1. Si el conector suelta filas, reste esas filas de la métrica [!UICONTROL Ocurrencias]. El número resultante debe coincidir con el número de eventos de los conjuntos de datos de Adobe Experience Platform.
+1. Si el conector filtra filas, reste esas filas del [!UICONTROL Ocurrencias] métrica. El número resultante debe coincidir con el número de eventos de los conjuntos de datos de Adobe Experience Platform.
 
-## Por qué se pueden perder o omitir registros durante la ingesta desde AEP
+## Por qué los registros se pueden filtrar o omitir durante la ingesta desde AEP
 
 Las [Conexiones](/help/connections/create-connection.md) CJA le permiten unir varios conjuntos de datos en función de un ID de persona común en todos los conjuntos de datos. En el servidor, se aplica la anulación de duplicación: unión externa completa o unión en conjuntos de datos de evento basados en marcas de tiempo y, a continuación, unión interna en el perfil y el conjunto de datos de búsqueda, según el ID de persona.
 
