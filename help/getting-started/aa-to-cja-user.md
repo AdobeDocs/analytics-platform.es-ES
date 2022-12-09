@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
-workflow-type: ht
+source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
+workflow-type: tm+mt
 source-wordcount: '1457'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Tenga en cuenta que el selector de grupos de informes en la esquina superior der
 
 ![selector-vista-de-datos](assets/data-views.png)
 
-Consulte [Ejemplos de uso de vistas de datos](/help/data-views/data-views-usecases.md) para obtener más información sobre este concepto.
+Consulte [Ejemplos de uso de vistas de datos](/help/use-cases/data-views/data-views-usecases.md) para obtener más información sobre este concepto.
 
 ## Cambios en el concepto de eVars y props
 
@@ -96,7 +96,7 @@ También puede tener varias vistas de datos basadas en la misma conexión. Por e
 
 ## Cambios en el concepto de clasificaciones
 
-Las “clasificaciones” ahora se conocen como “Conjuntos de datos de búsqueda”. Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [Agregar datos de nivel de cuenta como un conjunto de datos de búsqueda](/help/use-cases/b2b.md) para ver un ejemplo de uso.
+Las “clasificaciones” ahora se conocen como “Conjuntos de datos de búsqueda”. Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [Agregar datos de nivel de cuenta como un conjunto de datos de búsqueda](/help/use-cases/b2b/b2b.md) para ver un ejemplo de uso.
 
 ## Cambios en el concepto de atributos del cliente
 

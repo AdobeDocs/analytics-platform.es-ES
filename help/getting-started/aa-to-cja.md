@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 7820f462617d21c9e3b23de26c9e9022d74bec0e
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 94%
@@ -44,7 +44,7 @@ Es posible que no siempre sea factible una implementación de un grupo de inform
 
 Si ha evitado pasarse a un grupo de informes globales debido a problemas de [!UICONTROL excesos en la cantidad de valores exclusivos] o [!UICONTROL bajo tráfico], debe saber que CJA no tiene [límites de cardinalidad en una dimensión](/help/components/dimensions/high-cardinality.md). Permite que aparezca y se cuente cualquier valor único.
 
-Este es un caso de uso en [combinación de grupos de informes con diferentes esquemas](/help/use-cases/combine-report-suites.md).
+Este es un caso de uso en [combinación de grupos de informes con diferentes esquemas](/help/use-cases/aa-data/combine-report-suites.md).
 
 ### 3. (Re)Configuración de los canales de marketing {#marketing-channels}
 
@@ -111,7 +111,7 @@ Aquí hay un par de vídeos para guiarle:
 
 ### Otras consideraciones
 
-* Con el poder de las vistas de datos de CJA, tiene mucha más flexibilidad en la definición de métricas y dimensiones dentro de Customer Journey Analytics. Por ejemplo, puede utilizar el valor de una dimensión para convertirlo en la definición de una métrica. [Más información](/help/data-views/data-views-usecases.md)
+* Con el poder de las vistas de datos de CJA, tiene mucha más flexibilidad en la definición de métricas y dimensiones dentro de Customer Journey Analytics. Por ejemplo, puede utilizar el valor de una dimensión para convertirlo en la definición de una métrica. [Más información](/help/use-cases/data-views/data-views-usecases.md)
 
 * Si ha definido un calendario personalizado en Adobe Analytics, tendrá [funciones de calendario personalizadas](/help/components/date-ranges/custom-date-ranges.md) similares dentro de CJA. Debe asegurarse de que el calendario esté definido correctamente.
 

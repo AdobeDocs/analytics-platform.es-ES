@@ -4,8 +4,8 @@ description: Una vista de datos especifica cómo desea interpretar los elementos
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
+source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
@@ -79,4 +79,4 @@ Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparec
 ## Pasos siguientes
 
 * [Creación de vistas de datos](/help/data-views/create-dataview.md)
-* [Casos de uso de vistas de datos](/help/data-views/data-views-usecases.md)
+* [Casos de uso de vistas de datos](/help/use-cases/data-views/data-views-usecases.md)

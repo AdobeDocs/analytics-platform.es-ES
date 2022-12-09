@@ -4,8 +4,8 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Detalles sobre la configuración de caducidad disponible.
 
 Un menú desplegable que permite enlazar la persistencia de un valor de dimensión con valores de dimensión de otra dimensión. Las opciones desplegables válidas incluyen otras dimensiones incluidas en la vista de datos.
 
-Consulte [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
+Consulte [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
 
 ## [!UICONTROL Métrica de enlace]
 
@@ -86,4 +86,4 @@ Lista desplegable que permite elegir una métrica que actúa como activador de e
 
 Esta configuración solo aparece cuando la dimensión de enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace.
 
-Consulte el segundo ejemplo en [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar de forma eficaz las métricas de enlace.
+Consulte el segundo ejemplo en [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar de forma eficaz las métricas de enlace.
