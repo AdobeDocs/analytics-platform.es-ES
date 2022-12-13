@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ee3196b78e1cf613446840e8cde1fac565d0f2b7
-workflow-type: ht
-source-wordcount: '936'
+source-git-commit: 648fae78f8e4a5b9632554e7a92636ee02ab11d1
+workflow-type: tm+mt
+source-wordcount: '921'
 ht-degree: 100%
 
 ---
@@ -88,9 +88,9 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil de producto en 
 | --- | --- |
 | **[!UICONTROL Vistas de datos]** | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que forman parte de este perfil de producto pueden ver todas las vistas de datos existentes y creadas recientemente. Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso. |
 | **[!UICONTROL Herramientas de creación de informes]**: |  |
-| **[!UICONTROL Acceso a registros de auditoría]** | Este permiso exige la comprobación de permisos en la [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) y en la próxima IU de registros de auditoría. |
-| **[!UICONTROL Administración de creación de informes]** | Permite a los usuarios ver y eliminar cualquier informe que se ejecute en su compañía. (La funcionalidad del uso de creación de informes aún no está disponible). |
-| **[!UICONTROL Vista del uso de creación de informes]** | Permite a los usuarios ver todas las solicitudes de creación de informes simultáneas. (La funcionalidad del uso de creación de informes aún no está disponible). |
+| **[!UICONTROL Acceso a registros de auditoría]** | Este permiso exige la comprobación de permisos en la [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) y en la interfaz de usuario de registros de auditoría. |
+| **[!UICONTROL Administración de creación de informes]** | Permite a los usuarios ver y eliminar cualquier informe que se ejecute en su compañía. |
+| **[!UICONTROL Vista del uso de creación de informes]** | Permite a los usuarios ver todas las solicitudes de creación de informes simultáneas. |
 | **[!UICONTROL Creación de métricas calculadas]** | Permite que los usuarios creen [métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md). |
 | **[!UICONTROL Creación de filtros]** | Permite que los usuarios creen [filtros](/help/components/filters/filters-overview.md). |
 | **[!UICONTROL Acceso a Labs]** | Permite que los usuarios accedan a la pestaña [Labs](/help/labs/labs.md) en CJA. |
