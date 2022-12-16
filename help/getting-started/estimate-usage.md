@@ -4,9 +4,9 @@ description: Muestra dos métodos para estimar el uso y uno para administrarlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 9ee3bbfe77d6134bee85d4f1844e40894e16a5c7
+source-git-commit: d80a4c277fa1ebd2a354aa454d1356a8561bb517
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '809'
 ht-degree: 43%
 
 ---
@@ -58,9 +58,9 @@ Es posible que necesite saber cuántas filas de datos de evento tiene en [!UICON
 
 ## Creación de un proyecto de Workspace con todos los datos de evento {#workspace-event-data}
 
-1. Antes de crear el proyecto en Workspace, [crear una vista de datos](/help/data-views/create-dataview.md) para cada una de las conexiones y no tiene filtros aplicados.
+1. Antes de crear el proyecto en Workspace, [crear una vista de datos](/help/data-views/create-dataview.md) para cada una de las conexiones, sin ningún filtro aplicado.
 
-1. En Workspace, cree un nuevo proyecto y extraiga todos los eventos (desde la **[!UICONTROL Métricas]** lista desplegable) que va hasta el primer viernes del mes, a partir del primer día de su contrato actual de CJA.
+1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde la **[!UICONTROL Métricas]** lista desplegable) que va hasta el primer viernes del mes, a partir del primer día de su contrato actual de CJA.
 
    ![Eventos](assets/events-usage.png)
 
