@@ -4,24 +4,26 @@ description: Muestra dos métodos para estimar el uso y uno para administrarlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: d80a4c277fa1ebd2a354aa454d1356a8561bb517
+source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 43%
+source-wordcount: '835'
+ht-degree: 42%
 
 ---
 
-# Estimar y administrar el uso de CJA
+# Ver y administrar el uso de CJA
 
-Para comprender el uso de CJA, puede utilizar 3 métodos:
+Para ver el uso de CJA, puede utilizar varios métodos:
 
-* Agregue las filas de datos de evento para cada conexión. (Consulte **Estimar el tamaño de la conexión** a continuación) Es una forma sencilla de ver los datos de fila de evento, por conexión, para una marca de tiempo específica.
-* Use Analysis Workspace para informar sobre los eventos del mes pasado. (Consulte **Creación de un proyecto de Workspace con todos los datos de evento** más abajo). Esto le permite realizar un análisis más profundo de los datos de uso, así como del historial de uso.
-* Utilice la API de CJA para crear un informe automatizado. (Consulte **Creación de un informe en la API de CJA** más abajo).
+* Agregue las filas de datos de evento para cada conexión. Consulte [Estimar el tamaño de la conexión](#estimated size) a continuación. Esta es una forma sencilla de ver los datos de fila de evento, por conexión, para una marca de tiempo específica.
+* Vea su uso de tres maneras, cada una de las cuales se describe con más detalle a continuación:
+   * Use Analysis Workspace para informar sobre los eventos del mes pasado.
+   * Utilice el Report Builder para informar sobre los eventos del mes pasado.
+   * Utilice la API de CJA para crear un informe automatizado.
 
 Para administrar el uso de CJA:
 
-* Defina una ventana de datos móviles. (Consulte **Definición de una ventana de datos móvil** más abajo).
+* Defina una ventana de datos móviles.
 
 ## Cálculo del tamaño de la conexión {#estimate-size}
 
@@ -58,6 +60,8 @@ Es posible que necesite saber cuántas filas de datos de evento tiene en [!UICON
 
 ## Creación de un proyecto de Workspace con todos los datos de evento {#workspace-event-data}
 
+Este método le permite realizar un análisis más profundo de los datos de uso, así como del historial de su uso.
+
 1. Antes de crear el proyecto en Workspace, [crear una vista de datos](/help/data-views/create-dataview.md) para cada una de las conexiones, sin ningún filtro aplicado.
 
 1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde la **[!UICONTROL Métricas]** lista desplegable) que va hasta el primer viernes del mes, a partir del primer día de su contrato actual de CJA.
@@ -68,19 +72,22 @@ Es posible que necesite saber cuántas filas de datos de evento tiene en [!UICON
 
 1. Según sus necesidades, puede explorar en profundidad por conjunto de datos, etc.
 
+## Crear un bloque de datos en el Report Builder {#arb}
+
+En Report Builder, [crear un bloque de datos](/help/report-builder/create-a-data-block.md) para cada vista de datos, sumételos.
 
 ## Creación de un informe automatizado en la API de CJA {#api-report}
 
 1. Utilice la variable [API de informes de CJA](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) para ejecutar un informe sobre todos los datos de evento, **para cada conexión**. Configúrelo para que el informe se ejecute
 
-   * cada tres viernes de cada mes.
+   * cada primer viernes de cada mes.
    * volviendo al primer día de su contrato actual de CJA.
 
    Esto le dará una buena idea de cómo es que su uso es tendencia mes a mes. Le proporcionará el número total de filas en todas sus conexiones de CJA.
 
 1. Utilice Excel para personalizar aún más este informe.
 
-## Definición de una ventana de datos móvil {#rolling}
+## Administre su uso definiendo una ventana de datos móvil {#rolling}
 
 Para administrar su uso, la variable [interfaz de usuario de conexiones](/help/connections/create-connection.md) permite definir la retención de datos de CJA como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.
 
