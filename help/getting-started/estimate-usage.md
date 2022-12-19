@@ -4,10 +4,10 @@ description: Muestra dos métodos para estimar el uso y uno para administrarlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
+source-git-commit: a69cb8a419d95e0cab666fceea9cb7ebf6daef73
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 42%
+source-wordcount: '857'
+ht-degree: 41%
 
 ---
 
@@ -63,6 +63,10 @@ Es posible que necesite saber cuántas filas de datos de evento tiene en [!UICON
 Este método le permite realizar un análisis más profundo de los datos de uso, así como del historial de su uso.
 
 1. Antes de crear el proyecto en Workspace, [crear una vista de datos](/help/data-views/create-dataview.md) para cada una de las conexiones, sin ningún filtro aplicado.
+
+>[!WARNING]
+>
+>    No cree una nueva conexión que abarque todos los datos solo para medir el uso, ya que de hecho duplicaría el uso.
 
 1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde la **[!UICONTROL Métricas]** lista desplegable) que va hasta el primer viernes del mes, a partir del primer día de su contrato actual de CJA.
 
