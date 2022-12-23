@@ -41,7 +41,7 @@ Nota: `CTRL` = Windows y `command` = Mac
 | Crear un intervalo de fechas | ctrl (o cmd) + mayús + d |
 | Creación de un filtro | ctrl (o cmd) + mayús + e |
 | Borrar todo | Alt + W |
-| Copy | ctrl (o cmd) + c |
+| Copiar | ctrl (o cmd) + c |
 | Rehacer | ctrl (o cmd) + mayús + z |
 | Deshacer | ctrl (o cmd) + z |
 | Actualizar componentes | Alt + Mayús + R |
@@ -56,7 +56,7 @@ Nota: `CTRL` = Windows y `command` = Mac
 | Nuevo panel en blanco | Alt + B |
 | Nuevo panel improvisado | Alt + A |
 | Nuevo panel de información rápida | Alt + F |
-| Nueva tabla improvisada | Alt + 1 |
+| Nueva tabla de forma libre | Alt + 1 |
 | Nuevo gráfico de líneas | Alt + 2 |
 | Nuevo gráfico de barras | Alt + 3 |
 
