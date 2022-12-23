@@ -3,7 +3,7 @@ title: Grupos de informes virtuales, vistas de datos, zonas protegidas de AEP y 
 description: Obtenga información sobre los entornos de informes virtuales y los entornos de zonas protegidas.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 source-git-commit: 6603aed778980c37d69843f11f3ee64e64cd13b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
 ht-degree: 100%
 
@@ -79,4 +79,4 @@ Una zona protegida de AEP no:
 Tenga en cuenta lo siguiente:
 
 * Los datos de diferentes zonas protegidas no se pueden combinar dentro de CJA.
-* El conector de origen de Analytics envía datos del grupo de informes _hacia_ una zona protegida específica. Cada grupo de informes puede configurarse como fuente para una sola zona protegida. Consulte la [Documentación del conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) para obtener más información.
+* El conector de origen de Analytics envía datos del grupo de informes _hacia_ una zona protegida específica. Cada grupo de informes puede configurarse como fuente para una sola zona protegida. Consulte la [Documentación del conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) para obtener más información.
