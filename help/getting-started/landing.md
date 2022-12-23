@@ -40,11 +40,11 @@ Puede
 | Elemento de la IU | Definición |
 | --- | --- |
 | ... Más | Le permite [!UICONTROL Ver tutoriales] y [Editar preferencias de usuario](/help/analysis-workspace/user-preferences.md). |
-| El modal **[!UICONTROL Crear nuevo]** está de vuelta | Al hacer clic en **[!UICONTROL Crear nuevo]** en Workspace, una vez más puede elegir entre un [!UICONTROL Proyecto en blanco] y un [!UICONTROL Cuadro de resultados móvil en blanco]. También puede elegir entre cualquier plantilla que haya creado su empresa. |
-| [!UICONTROL Mostrar menos/más] | Alterna entre no mostrar y mostrar el banner: ![Banner principal](assets/top-banner.png) |
+| El modal **[!UICONTROL Crear nuevo]** está de vuelta | Al hacer clic en **[!UICONTROL Crear nuevo]** en el espacio de trabajo, una vez más puede elegir entre un [!UICONTROL Proyecto en blanco] y [!UICONTROL Cuadro de resultados móvil en blanco]. También puede elegir entre cualquier plantilla que haya creado su empresa. |
+| [!UICONTROL Mostrar menos/más] | Alterna entre no mostrar y mostrar el titular: ![titular superior](assets/top-banner.png)  |
 | [!UICONTROL Proyecto en blanco] | Crea un [proyecto del Espacio de trabajo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es) en blanco para que lo rellene. |
 | [!UICONTROL Cuadro de resultados móvil en blanco] | Crea un [cuadro de resultados móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) en blanco para que lo rellene. |
-| [!UICONTROL Tutorial de formación abierta] | Abre el tutorial de aprendizaje del Espacio de trabajo que guía paso a paso a los nuevos usuarios durante el proceso de creación de un proyecto. |
+| [!UICONTROL Tutorial de formación abierta] | Abre el tutorial de aprendizaje del Espacio de trabajo que guía paso a paso a los usuarios nuevos durante el proceso de creación de un proyecto. |
 | [!UICONTROL Abrir notas de la versión] | Abre las notas de la versión más recientes de Adobe Experience Cloud. |
 | Icono de filtro | Puede filtrar por etiquetas, grupos de informes, propietarios, tipos y otros filtros (Míos, Compartidos conmigo, Favoritos y Aprobados) |
 | Barra de búsqueda | La búsqueda ahora incluye todas las columnas de la tabla. |
@@ -65,7 +65,7 @@ Puede
 | [!UICONTROL ID del proyecto] | El ID de proyecto se puede usar para depurar proyectos. |
 | [!UICONTROL El intervalo de fecha más largo] | Los intervalos de fechas más largos aumentan la complejidad del proyecto y pueden aumentar los tiempos de procesamiento y carga. |
 | [!UICONTROL Cantidad de consultas] | El número total de solicitudes realizadas a Analytics cuando se carga el proyecto. Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. Estos datos solo están disponibles después de que se haya cargado un proyecto o de que se haya enviado un proyecto programado. |
-| Icono Personalizar tabla | (Parte superior derecha) Si desea agregar o quitar columnas de la lista de proyectos, puede seleccionarlas o anularlas. |
+| Icono Personalizar tabla | (Arriba a la derecha) Si desea agregar o quitar columnas de la lista de proyectos, puede seleccionarlas o desactivarlas. |
 | &lt; (Botón Atrás) | Este botón, en un proyecto del Espacio de trabajo, le lleva a la configuración de la página de aterrizaje más reciente. Cualquiera que sea la configuración de la página que tenía cuando abandonó la página de aterrizaje, se mantendrá cuando regrese. |
 
 ## Vaya a la pestaña Aprendizaje {#navigate-learning}
@@ -81,4 +81,4 @@ La página Aprendizaje contiene tutoriales y recorridos en vídeo prácticos, ad
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Hay un número máximo de proyectos que pueda fijar? | No, no hay límite en el número de proyectos que puede fijar. |
-| ¿Pueden los administradores designar esta página de aterrizaje para sus usuarios? | No, los administradores no pueden designar la nueva página de aterrizaje en nombre de los usuarios. Los usuarios individuales deben activar la opción ellos mismos. |
+| ¿Pueden los administradores designar esta página de aterrizaje para sus usuarios? | No, los administradores no pueden designar la página de aterrizaje en nombre de los usuarios. Los usuarios individuales deben activar la opción ellos mismos. |
