@@ -40,7 +40,7 @@ Las preferencias de proyecto se aplican a los nuevos proyectos y paneles creados
 |  | [Tipo de panel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=es) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
 |  | Formato de número | <ul><li>1000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separador CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
-|  | Tabla improvisada | <ul><li>Mostrar anomalías </li><li>Mostrar minigráficos</li><li>Mostrar anotaciones</li></ul> |
+|  | Tabla de forma libre | <ul><li>Mostrar anomalías </li><li>Mostrar minigráficos</li><li>Mostrar anotaciones</li></ul> |
 
 ## [!UICONTROL Tema oscuro]
 
