@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Octubre de 2022 | Tema nuevo sobre la visualización [Resumen de métricas clave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=es). |
 | Octubre de 2022 | Nueva sección sobre [funcionalidad de fecha y hora en las vistas de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#date) |
 | Octubre de 2022 | Aplicación móvil: Tema nuevo sobre [vistas de detalles personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#view-detail-slides). |
-| Octubre de 2022 | Actualizaciones de [compatibilidad con funciones del Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) tema. |
+| Octubre de 2022 | Actualizaciones del tema [Soporte de funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
 | **Septiembre de 2022** |  |
 | Septiembre de 2022 | Nuevo caso de uso en [Migración de datos de Google Analytics a CJA](/help/use-cases/ga/overview.md). |
 | Septiembre de 2022 | Tema nuevo en [Gráficos combinados](/help/analysis-workspace/visualizations/combo-charts.md) en el espacio de trabajo. |
