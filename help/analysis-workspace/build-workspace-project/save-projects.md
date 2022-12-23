@@ -3,8 +3,8 @@ description: Obtenga información sobre las distintas opciones de guardado, como
 title: Guardar proyectos
 feature: CJA Workspace Basics
 role: User, Admin
-exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
+exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
+source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
 workflow-type: ht
 source-wordcount: '453'
 ht-degree: 100%
