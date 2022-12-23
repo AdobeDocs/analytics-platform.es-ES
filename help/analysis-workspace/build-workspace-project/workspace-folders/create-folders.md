@@ -5,13 +5,13 @@ title: Creación de carpetas
 feature: CJA Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
-workflow-type: tm+mt
+exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
+source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
+workflow-type: ht
 source-wordcount: '152'
 ht-degree: 100%
 
 ---
-
 
 # Creación de carpetas
 
