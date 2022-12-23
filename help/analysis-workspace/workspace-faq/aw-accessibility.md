@@ -64,7 +64,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 
 | Acceso directo | Acción |
 |---|---|
-| Alt + 1 | Nueva tabla improvisada |
+| Alt + 1 | Nueva tabla de forma libre |
 | Ctrl + Mayús + C | Nueva métrica calculada |
 | Ctrl + Mayús + D | Nuevo intervalo de fechas |
 | Ctrl + Mayús + E | Nuevo filtro |
