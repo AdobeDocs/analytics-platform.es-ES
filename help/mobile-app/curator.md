@@ -1,11 +1,11 @@
 ---
-description: 'Qué son los informes de valoración de los paneles y '
+description: Qué son los informes de valoración de los paneles y
 title: Guía del gestor de datos para paneles de Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
-exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
+exl-id: 892e5789-8eec-43d9-99fe-8448aa8600b2
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
 workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
