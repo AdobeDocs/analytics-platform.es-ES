@@ -44,7 +44,7 @@ En el proyecto del Espacio de trabajo, se accede a **paneles, tablas, visualizac
 
 ### Componentes
 
-**Los componentes** son dimensiones, métricas, filtros o intervalos de fechas que se pueden combinar en una **[!UICONTROL Tabla de forma libre]** para comenzar a responder su pregunta relacionada con lo comercial. Asegúrese de familiarizarse con cada [tipo de componente](/help/components/overview.md) antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear el análisis](/help/analysis-workspace/build-workspace-project/freeform-overview.md) en una **[!UICONTROL tabla improvisada]**.
+**Los componentes** son dimensiones, métricas, filtros o intervalos de fechas que se pueden combinar en una **[!UICONTROL Tabla de forma libre]** para comenzar a responder su pregunta relacionada con lo comercial. Asegúrese de familiarizarse con cada [tipo de componente](/help/components/overview.md) antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear el análisis](/help/analysis-workspace/build-workspace-project/freeform-overview.md) en una **[!UICONTROL tabla de forma libre]**.
 
 ![](assets/build-components.png)
 
