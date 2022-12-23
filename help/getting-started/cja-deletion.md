@@ -5,9 +5,9 @@ exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ Tenga esto en cuenta esto antes de eliminar conexiones, conjuntos de datos o lot
 | Eliminar un conjunto de datos en [!UICONTROL Customer Journey Analytics] | Actualmente, no se puede eliminar un conjunto de datos de una conexión que se haya guardado. Tendría que eliminar toda la conexión y comenzar de nuevo. (Sin embargo, puede eliminar un conjunto de datos en [!UICONTROL Adobe Experience Platform].) |
 | Eliminar un lote de un conjunto de datos (en [!UICONTROL Adobe Experience Platform]) | Si se elimina un lote de un conjunto de datos de [!UICONTROL Adobe Experience Platform], se eliminará el mismo lote de cualquier conexión de [!UICONTROL Customer Journey Analytics] que contenga ese lote específico. [!UICONTROL Customer Journey Analytics] recibirá una notificación de los lotes que se eliminaron en [!UICONTROL Adobe Experience Platform]. |
 | Eliminar un lote **mientras se está introduciendo** en [!UICONTROL Customer Journey Analytics] | Si solo hay un lote en el conjunto de datos, no aparecerán datos ni datos parciales de dicho lote en [!UICONTROL Customer Journey Analytics]. La introducción se revertirá. Si, por ejemplo, hay 5 lotes en el conjunto de datos y 3 de ellos ya se han introducido cuando se elimine el conjunto de datos, los datos de esos 3 lotes aparecerán en [!UICONTROL Customer Journey Analytics]. |
-| Eliminar conjuntos de datos de búsqueda en [!UICONTROL Adobe Experience Platform] | Mientras que la eliminación de conjuntos de datos es posible para otros conectores de origen, actualmente no es compatible con [Conector de origen de clasificaciones de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/classifications.html?lang=es). Si elimina un conjunto de datos por error, póngase en contacto con el Servicio de atención al cliente de Adobe. |
+| Eliminar conjuntos de datos de búsqueda en [!UICONTROL Adobe Experience Platform] | Mientras que la eliminación de conjuntos de datos es posible para otros conectores de origen, actualmente no se admite para [Conector de origen de clasificaciones de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/classifications.html?lang=es). Si elimina un conjunto de datos por error, póngase en contacto con el Servicio de atención al cliente de Adobe. |
