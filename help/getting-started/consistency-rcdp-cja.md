@@ -42,7 +42,7 @@ Incluso si los conjuntos de datos de Real-time CDP y CJA son los mismos, Real-ti
 
 * Los clientes de CJA y Real-time CDP pueden establecer ventanas de retención personalizadas para datos, independientes entre sí.
 
-* CDP y Real-time CDP tienen una lógica diferente para la ingesta de datos. CJA ignora los registros sin ID de persona o marca de tiempo y tiene límites estrictos con respecto al número de registros que puede tener un solo perfil o una persona.
+* CJA y Real-time CDP tienen una lógica diferente para la ingesta de datos. CJA ignora los registros sin ID de persona o marca de tiempo y tiene límites estrictos con respecto al número de registros que puede tener un solo perfil o una persona.
 
 * Los clientes de Real-time CDP obtienen siete días de acceso a los datos en el lago, principalmente para facilitar la incorporación de datos en el perfil y para consultas ad hoc.
 
