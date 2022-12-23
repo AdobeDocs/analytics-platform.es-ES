@@ -3,9 +3,9 @@ title: 'Paneles de Adobe Analytics: Información general'
 description: Documentación del producto e instrucciones para los paneles de Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
-exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
+exl-id: 40e52441-e772-41a3-b2e3-51a3d00580d0
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
 workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
