@@ -1,19 +1,19 @@
 ---
-description: Obtenga información sobre cómo eliminar proyectos de carpetas
+description: Obtenga información acerca de cómo quitar proyectos de carpetas
 keywords: Analysis Workspace
-title: Eliminar proyectos de carpetas
+title: Quitar proyectos de carpetas
 feature: CJA Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
+exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
+source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
 workflow-type: ht
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
 
-
-# Eliminar un proyecto de una carpeta
+# Quitar un proyecto de una carpeta
 
 Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o eliminarlo.
 
@@ -23,15 +23,15 @@ Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o elimin
 
 >[!NOTE]
 >
->Cuando un administrador mueve un proyecto a la carpeta de la compañía, la carpeta se comparte con todos aunque los privilegios compartidos originales estén restringidos. Cuando un administrador mueve un proyecto fuera de la carpeta de la compañía, se respetan los privilegios de uso compartido originales o anteriores.
+>Cuando un administrador mueve un proyecto a la carpeta Compañía, esta se comparte con todos aunque los privilegios compartidos originales estén restringidos. Cuando un administrador mueve un proyecto fuera de la carpeta Compañía, se respetan los privilegios de uso compartido originales o anteriores.
 
-## Mover un proyecto
+## Traslado de un proyecto
 
-1. En una carpeta de proyecto, seleccione el icono de tres puntos **…** junto al nombre del proyecto.
+1. En una carpeta de proyecto, seleccione los puntos suspensivos **...** junto al nombre del proyecto.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Seleccione **Mover a** y, a continuación, seleccione la carpeta a la que desea mover el proyecto.
+1. Seleccione **Mover a** y, a continuación, una carpeta a la que mover el proyecto.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
@@ -39,15 +39,15 @@ Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o elimin
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-   Se mostrará una notificación emergente que confirma que el proyecto se ha movido.
+   Un mensaje confirma que el proyecto se ha movido.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Eliminar un proyecto de una carpeta de proyecto
+## Eliminación de un proyecto de una carpeta de proyecto
 
-Al eliminar un proyecto de una carpeta, este se elimina por completo.
+Al eliminar un proyecto de una carpeta, este se borra por completo.
 
-1. En una carpeta de proyecto, seleccione el icono de tres puntos **…** junto al nombre del proyecto.
+1. En una carpeta de proyecto, seleccione los puntos suspensivos **...** junto al nombre del proyecto.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
