@@ -4,9 +4,9 @@ description: Vuelva a escribir los ID de visitante de varios conjuntos de datos 
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
+source-git-commit: a9c4465ae099763c92cdc355de56d383ac625432
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1158'
 ht-degree: 97%
 
 ---
@@ -57,7 +57,6 @@ Cross-Channel Analytics es una función innovadora y sólida, pero tiene limitac
 * La identificación basada en campos no combina ni concatena campos.
 * El campo de ID transitorio debe contener un solo tipo de ID (es decir, ID de un solo espacio de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
 * Si se producen varios eventos con la misma marca de tiempo en relación con el mismo ID persistente, pero con valores diferentes en el campo de ID transitorio, la identificación basada en campos decidirá en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro Ann, la identificación basada en campos elegirá Ann.
-* Cross-Channel Analytics múltiples realiza un seguimiento de cada valor de ID persistente durante 1 año (TTL = 1 año). Si un dispositivo no tiene actividad durante más de un año y luego empieza a tener actividad de nuevo, los nuevos eventos se asociarán con una persona anónima hasta que se vuelva a identificar al usuario (por ejemplo, mediante un nuevo inicio de sesión).
 * Si varias personas comparten un dispositivo y el número total de transiciones entre usuarios supera las 50 000, CCA deja de vincular datos para ese dispositivo.
 
 
