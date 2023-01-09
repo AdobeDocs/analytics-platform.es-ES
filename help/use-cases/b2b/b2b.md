@@ -4,9 +4,9 @@ description: Aprenda a agregar datos basados en cuentas como un conjunto de dato
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2b21d6e4e092c33947220b2d22a8a757407fabb
+source-git-commit: f7d50753f4c6d64492682d7c1269a4d45aea8a31
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '853'
 ht-degree: 93%
 
 ---
@@ -38,12 +38,6 @@ Creación de su propio esquema para la [consulta](/help/getting-started/cja-glos
 ## 2. Crear conjunto de datos de consulta (Experience Platform)
 
 Una vez creado el esquema, debe crear un conjunto de datos de consulta a partir de ese esquema en Experience Platform. Este conjunto de datos de consulta contiene información de marketing de nivel de cuenta, como: Nombre de la compañía, número total de empleados, nombre de dominio, sector al que pertenecen, ingresos anuales, ya sean clientes actuales de Experience Platform o no, en qué fase de ventas se encuentran, en qué equipo de la cuenta se utiliza CJA, etc.
-
->[!IMPORTANT]
->
->CJA no admite números enteros en los conjuntos de datos de búsqueda. Si agrega los campos enteros en el esquema XDM para el conjunto de datos de búsqueda, no podrá usarlos como métricas o métricas calculadas. Por ejemplo, si annualRevenue o totalEmployees se definen como números enteros, se mostrarán como &quot;0&quot; en los informes en CJA. Sin embargo, si los asigna como cadenas, puede utilizarlos como información de búsqueda.
-
-Por ejemplo, annualRevenue o totalEmployees se definen como Entero en el siguiente ejemplo: esa es la razón por la que muestra &quot;0&quot; en CJA.
 
 1. En Adobe Experience Platform, vaya a **[!UICONTROL Administración de datos > Conjuntos de datos]**.
 1. Haga clic en **[!UICONTROL + Crear conjunto de datos]**.
@@ -96,4 +90,4 @@ Por ejemplo, puede encontrar respuestas a las consultas planteadas en la introdu
 * ¿Cuántos empleados se asignan a un ID de cuenta específico?
 * ¿A qué sector pertenece un ID de cuenta?
 
-![](../assets/project-lookup.png)
+![project-lookup2](https://git.corp.adobe.com/storage/user/5902/files/348183a8-343c-497e-b270-4fc02b32cb9e)
