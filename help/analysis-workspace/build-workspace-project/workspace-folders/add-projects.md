@@ -3,12 +3,10 @@ description: Aprenda a agregar carpetas en Workspace
 keywords: Analysis Workspace
 title: Agregar carpetas en Workspace
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '225'
+source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 Puede agregar proyectos a una carpeta en la vista de tabla o desde una carpeta.
 
->[!NOTE]
->
->Esta funcionalidad está actualmente en beta. Algunas pantallas pueden cambiar.
-
-## Desde la vista de tabla
+## Desde la vista de tabla {#table-view}
 
 Agregue proyectos a una carpeta desde la vista de tabla de la página principal.
 
@@ -47,7 +41,7 @@ Agregue proyectos a una carpeta desde la vista de tabla de la página principal.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## Desde dentro de una carpeta
+## Desde dentro de una carpeta {#inside-folder}
 
 También puede agregar proyectos desde dentro de una carpeta mediante el vínculo de puntos suspensivos.
 
@@ -72,4 +66,8 @@ También puede agregar proyectos desde dentro de una carpeta mediante el víncul
 1. Haga clic en **Agregar** para agregar los proyectos a la carpeta.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-Solo los administradores pueden agregar proyectos a la carpeta de la compañía o crear un nuevo proyecto de red y guardarlo en ella
+
+
+>[!NOTE]
+>
+>Solo los administradores pueden agregar proyectos a la carpeta de la compañía o crear un nuevo proyecto y guardarlo en la carpeta de la compañía

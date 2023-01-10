@@ -3,29 +3,25 @@ description: Obtenga información acerca de cómo quitar proyectos de carpetas
 keywords: Analysis Workspace
 title: Quitar proyectos de carpetas
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: b251cc2f918b54e52ad70def28187473255efbfa
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 89%
 
 ---
 
-# Quitar un proyecto de una carpeta
+# Eliminación de un proyecto de una carpeta
 
 Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o eliminarlo.
 
 >[!NOTE]
 >
->Esta funcionalidad está actualmente en beta. Algunas pantallas pueden cambiar.
-
->[!NOTE]
->
 >Cuando un administrador mueve un proyecto a la carpeta Compañía, esta se comparte con todos aunque los privilegios compartidos originales estén restringidos. Cuando un administrador mueve un proyecto fuera de la carpeta Compañía, se respetan los privilegios de uso compartido originales o anteriores.
 
-## Traslado de un proyecto
+## Traslado de un proyecto {#move-project-in-folder}
+
+Puede mover proyectos de una carpeta a otra que haya creado.
 
 1. En una carpeta de proyecto, seleccione los puntos suspensivos **...** junto al nombre del proyecto.
 
@@ -43,7 +39,7 @@ Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o elimin
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Eliminación de un proyecto de una carpeta de proyecto
+## Eliminación de un proyecto de una carpeta de proyecto {#delete-project-in-folder}
 
 Al eliminar un proyecto de una carpeta, este se borra por completo.
 
