@@ -3,7 +3,8 @@ description: Obtenga información sobre cómo eliminar carpetas en Workspace
 keywords: Analysis Workspace
 title: Eliminar carpetas en Workspace
 feature: CJA Workspace Basics
-source-git-commit: aedc4ff099327e5b6ac7e9a171f90c5c15738585
+exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
+source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 2%

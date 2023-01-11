@@ -4,10 +4,10 @@ title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: acf55556e3f53e7f4e8f8de69044e456b931a80b
+source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 54%
+source-wordcount: '1279'
+ht-degree: 55%
 
 ---
 
@@ -26,7 +26,6 @@ Se resalta la página de aterrizaje para el Customer Journey Analytics [!DNL Ana
 | Reordenar elementos anclados | Para mover los elementos anclados hacia arriba y hacia abajo, haga clic en los puntos suspensivos junto al elemento anclado y seleccione **[!UICONTROL Subir]** o **[!UICONTROL Bajar]**. | ![Mover elementos anclados](assets/move-up-down.png) |
 | Nuevas columnas de tabla | Haga clic en el icono [!UICONTROL Personalizar tabla] en la parte superior derecha de la tabla. Las nuevas columnas de la tabla incluyen las siguientes: <ul><li>**[!UICONTROL Programado]**: establecer como [!UICONTROL Activado] cuando un proyecto está programado o [!UICONTROL Desactivado] cuando no lo está. Al hacer clic en el vínculo [!UICONTROL Activado], permite ver información sobre el proyecto programado. También puede [editar la programación del proyecto](../analysis-workspace/curate-share/t-schedule-report.md) si es el propietario del proyecto.</li><li>**[!UICONTROL ID del proyecto]**: el ID de proyecto se puede usar para depurar proyectos.</li><li>**[!UICONTROL Intervalo de fecha más largo]**: los intervalos de fechas más largos aumentan la complejidad del proyecto y pueden aumentar los tiempos de procesamiento y carga. </li><li>**[!UICONTROL Número de consultas]**: el número total de solicitudes realizadas a Analytics cuando se carga el proyecto. Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. Estos datos solo están disponibles después de que se haya cargado un proyecto o de que se haya enviado un proyecto programado. </li></ul> | ![Nuevas columnas](assets/new-columns.png) |
 | **[!UICONTROL Crear proyecto]** el modal vuelve | Al hacer clic en **[!UICONTROL Crear proyecto]** en Workspace, una vez más puede elegir entre una [!UICONTROL Proyecto en blanco] y [!UICONTROL Informe de valoración móvil en blanco]. También puede elegir entre cualquier plantilla que haya creado su compañía. | ![Crear nuevo](assets/create-new.png) |
-| También disponible en Customer Journey Analytics | Esta página de aterrizaje, en un formulario modificado, también está disponible en CJA. |  |
 
 {style=&quot;table-layout:auto&quot;}
 
