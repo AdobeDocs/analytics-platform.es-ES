@@ -2,10 +2,10 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 67489fc6e9c0733589bccdd136837db8caca14a2
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: 3c2361069e2a4934c7f6d616f8223bbba1b410ac
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 98%
 
 ---
 
@@ -69,12 +69,12 @@ El contenedor de persona incluye todas las visitas y vistas de página de los vi
 
 El contenedor de sesión le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. El contenedor de sesión es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se cumple la regla y le permite definir qué sesiones desea incluir o excluir al generar y aplicar un filtro. Puede ayudarle a responder a estas preguntas:
 
-* ¿Cuántos visitantes vieron la sección Noticias y Deportes en la misma sesión?
+* ¿Cuántas sesiones se realizaron con fuentes de datos web y de centro de llamadas?
 * ¿Qué páginas contribuyeron a una conversión exitosa para una venta?
 
 Los contenedores de sesión incluyen valores basados en la incidencia por sesión:
 
-* Número de sesión
+* Tipo de sesión
 * Página de entrada
 * Frecuencia de retorno
 * Métricas de participación
