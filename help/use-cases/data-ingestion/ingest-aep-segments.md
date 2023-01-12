@@ -4,10 +4,10 @@ description: Explica cómo incorporar audiencias de AEP a Customer Journey Analy
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 96%
 
 ---
 
@@ -88,6 +88,6 @@ Ahora puede informar sobre `audienceMembershipId`, `audienceMembershipIdName` y 
 * Debe realizar este proceso en una cadencia normal, de modo que los datos de audiencia se actualicen constantemente dentro de CJA.
 * Puede importar varias audiencias dentro de una sola conexión CJA. Esto añade complejidad adicional al proceso, pero es posible. Para que esto funcione, debe realizar algunas modificaciones en el proceso anterior:
    1. Realice este proceso para cada audiencia deseada en la colección de audiencias dentro de RTCP.
-   1. Al realizar las transformaciones de la salida del trabajo de exportación, debe crear una lista de `audienceMembershipId(s)`, ya que un solo ID de persona de CJA podría pertenecer a varias audiencias. En algún momento futuro, CJA admitirá matrices/matrices de objetos en conjuntos de datos de perfil. Una vez admitidos, utilice una matriz de objetos para `audienceMembershipId` o `audienceMembershipIdName` será la mejor opción. Mientras tanto, extraiga todos los ID de audiencia actuales para cada ID de perfil en la salida del trabajo de exportación (con el estado “realizado” o “introducido”) y colóquelos en una cadena de valores separados por comas (por ejemplo, `<id1>,<id2>,...`).  Si hay un ID de audiencia con el estado “saliente”, asegúrese de que NO esté en la lista.  Si desea mantener la asociación de nombres descriptivos con el ID, puede adjuntarla al final de cada ID en la lista (junto con cualquier otro metadato).
+   1. CJA admite matrices/matrices de objetos en conjuntos de datos de perfil. Uso de un [matriz de objetos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en) para audienceMembershipId o audienceMembershipIdName es la mejor opción.
    1. En la vista de datos, cree una nueva dimensión con la transformación de la subcadena en el campo `audienceMembershipId` para convertir la cadena de valores separados por comas en una matriz. NOTA: Actualmente hay un límite de 10 valores en la matriz.
    1. Ahora puede generar informes sobre esta nueva dimensión `audienceMembershipIds` dentro de CJA Workspace.
