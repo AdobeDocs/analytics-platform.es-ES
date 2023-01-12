@@ -3,10 +3,10 @@ description: La configuración de columna le permite configurar el formato de la
 title: Configuración de columna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+source-git-commit: 46873cc66461c40d7f44c8aac91ddc3ccf15ee21
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 93%
 
 ---
 
@@ -46,16 +46,17 @@ El formato condicional aplica formato que puede definir a los límites superior,
 
 | Elemento | Descripción |
 | --- | --- |
-| Formato condicional | Aplica los colores siguientes a las celdas, en función de los valores de los datos: <ul><li>Verde: valores altos</li><li>Amarillo: valores medios</li><li>Rojo: valores bajos</li></ul> <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
+| Formato condicional | Aplica un conjunto de colores preconfigurado que elija a las celdas. Dependiendo de cuál de los 4 esquemas de color disponibles seleccione, se asignan diferentes colores a valores altos, valores medios y valores bajos. <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
 | Usar límites porcentuales | Cambie el rango de límite en función de los porcentajes, no en función de los valores absolutos. Esto sirve para métricas que solo se basan en porcentajes (como el porcentaje de rebote), así como para métricas que tienen un recuento y un porcentaje (como las vistas de la página). |
 | Generación automática | Calcule automáticamente los límites superior/medio/inferior en función de los datos. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
 | Personalizado | Asigne los límites superior/medio/inferior en forma manual. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
+| Paleta de formato condicional | Elija cuál de los 4 esquemas de color disponibles va a utilizar para el formato condicional. |
 
 ## Uso de modelos de atribución no predeterminados {#attribution}
 
 Analysis Workspace admite la [atribución](/help/analysis-workspace/attribution/overview.md) en casi cualquier métrica.
 
-1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla improvisada.
+1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla de forma libre.
 
    ![Casilla de verificación de atribución](assets/attribution-checkbox.png)
 
