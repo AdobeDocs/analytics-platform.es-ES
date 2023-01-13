@@ -4,10 +4,10 @@ title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
+source-git-commit: 88f38de837a23f9b0833c5c6b534b3ed567207a6
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 55%
+source-wordcount: '1424'
+ht-degree: 49%
 
 ---
 
@@ -67,6 +67,18 @@ Se resalta la página de aterrizaje para el Customer Journey Analytics [!DNL Ana
 | Icono Personalizar tabla | Selecciona qué columnas se verán en la tabla. Para agregar o quitar columnas de la lista de proyectos, haga clic en el icono de columna (![Landing all](assets/select-column.png) ) en la parte superior derecha, seleccione o anule la selección de los títulos de las columnas. |
 | MOSTRAR: Carpetas y proyectos para todos los proyectos | Cambia la configuración de vista de la tabla para mostrar carpetas y proyectos según la organización de carpetas **o** mostrar todos los proyectos en una lista desorganizada. |
 | &lt; (Botón Atrás) | Le devuelve a la configuración de página de aterrizaje más reciente de un proyecto de Workspace. La configuración de página que tenía al salir de la página de aterrizaje persistirá cuando vuelva. |
+
+### Obsolescencia de la página Administrador de proyectos {#deprecate-pm-page}
+
+Con el lanzamiento de la nueva página de aterrizaje, se ha desaprobado el Administrador de proyectos como aparece en el Administrador de componentes. La nueva página de aterrizaje gestiona todas las funciones de la antigua página Administrador de proyectos y más.
+
+Un caso de uso común para la página Administrador de proyectos era ver todos sus proyectos. Para ver todos los proyectos en la nueva página de aterrizaje mediante el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Mostrar todo**.
+
+![Otros filtros](assets/other-filters.png)
+
+Si está en la vista &quot;Carpetas y proyectos&quot;, aparecerá un modal en el que se le preguntará si desea cambiar a la vista &quot;Todos los proyectos&quot;, lo que facilita la visualización de todos los proyectos fuera de las carpetas en las que se puedan organizar.   Select **Cambiar a la vista &quot;Todos los proyectos&quot;** para ver mejor todos los proyectos a los que tiene acceso.
+
+![Cambiar a Todos los proyectos](assets/switch-all-projects-view.png)
 
 ## Vaya a la pestaña Aprendizaje {#navigate-learning}
 
