@@ -2,10 +2,10 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 49af5869f5aa3b8915b9fb36edb16abe3a3cf34b
-workflow-type: ht
-source-wordcount: '1022'
-ht-degree: 100%
+source-git-commit: 96e374440fda61665a45797483eadab930c48c10
+workflow-type: tm+mt
+source-wordcount: '1179'
+ht-degree: 85%
 
 ---
 
@@ -38,7 +38,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | [!UICONTROL Nombre] | El nombre de la audiencia. |
    | [!UICONTROL Etiquetas] | Las etiquetas que quiera asignar a la audiencia con fines organizativos. Puede utilizar una etiqueta preexistente o introducir una nueva. |
    | [!UICONTROL Descripción] | Agregue una buena descripción de la audiencia para diferenciarla de otras. |
-   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para todas las frecuencias de actualización, hay un límite de 75 o 150 audiencias, según sus derechos de CJA.</li></ul> |
+   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para todas las frecuencias de actualización, hay un límite de 75 a 150 audiencias, según la asignación de CJA.</li></ul> |
    | Fecha de caducidad | Cuando la audiencia deje de actualizarse. El valor predeterminado es 1 año a partir de la fecha de creación. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la audiencia caduque. |
    | Actualizar ventana de retrospección | Especifica cuánto tiempo en la ventana de datos va a retroceder al crear la audiencia. El máximo es de 90 días. |
    | [!UICONTROL Intervalo de fecha único] | Intervalo de fecha en el que desea que se publique la audiencia única. |
@@ -84,13 +84,37 @@ Puede arrastrar audiencias de CJA a la definición del segmento para segmentos d
 
 ![](assets/audiences-aep.png)
 
-## ¿Qué sucede si un usuario ya no es miembro de una audiencia en CJA? {#no-member}
+## Preguntas frecuentes
+
+Preguntas más frecuentes sobre la publicación de audiencias.
+
+### ¿Qué sucede si un usuario ya no es miembro de una audiencia en CJA?
 
 En este caso, se envía un evento de salida al Experience Platform desde CJA.
 
-## ¿Qué sucede si elimina una audiencia en CJA? {#delete}
+### ¿Qué sucede si elimina una audiencia en CJA? {#delete}
 
 Cuando se elimina una audiencia de CJA, esta ya no aparecerá en la IU de Experience Platform. Sin embargo, en Platform no se eliminan perfiles asociados a esa audiencia.
+
+### Si no existe un perfil correspondiente en RTCDP, ¿se creará un nuevo perfil?
+
+Sí, lo hará.
+
+### ¿CJA envía los datos de audiencia como eventos de canalización o como un archivo plano que también se dirige a un lago de datos?
+
+Transmite los datos a RTCP mediante canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
+
+### ¿Qué identidades envía CJA?
+
+Independientemente de los pares de identidad/área de nombres que se hayan utilizado en la configuración de Conexión. Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como &quot;ID de persona&quot;.
+
+### ¿Qué se elige como identidad principal?
+
+Véase más arriba. Solo enviamos una identidad por cada &quot;persona&quot; de CJA.
+
+### ¿RTCP también procesa los mensajes CJA? ¿Puede CJA añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias?
+
+No. Solo enviamos una identidad por &quot;persona&quot;, por lo que no habría bordes de gráficos para que el RTCP lo consuma.
 
 ## Pasos siguientes
 
