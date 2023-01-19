@@ -4,9 +4,9 @@ description: Página de aterrizaje de Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 7550249f94a2d81bcaf771a16283136d7a3543ff
-workflow-type: ht
-source-wordcount: '426'
+source-git-commit: 316f53c99053023fa54e0890fe9cf5f6c9cfcb4d
+workflow-type: tm+mt
+source-wordcount: '425'
 ht-degree: 100%
 
 ---
@@ -24,6 +24,7 @@ Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Elementos nuevos o destacados</b> </p> <p> 
      <ul>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cca/overview.html?lang=es#cja-connections"> Cross-Channel Analytics (vinculación de ID en Customer Journey Analytics) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=es">Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=es"> Combinación de grupos de informes con diferentes esquemas </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=es"> Reglas de procesamiento, VISTA y clasificaciones en comparación con la preparación de datos </a> </li>
@@ -33,7 +34,6 @@ Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html?lang=es"> Guía del usuario de CJA para usuarios de Adobe Analytics </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es#connection-detail"> Uso de las funciones mejoradas de la administración de conexiones </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=es#cja-dataviews"> Uso de las capacidades de vistas de datos mejoradas </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es#cja-connections"> Cross-Channel Analytics (vinculación de ID en Customer Journey Analytics) </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>Introducción</b> </p> 
       <ul> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=es"> Introducción a Customer Journey Analytics </a> </li> 
