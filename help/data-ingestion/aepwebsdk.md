@@ -1,15 +1,15 @@
 ---
 title: Ingesta de datos mediante el SDK web de Adobe Experience Platform y la red Edge
-description: Explicar cómo introducir datos en Customer Recorrido Analytics mediante el SDK web de Adobe Experience Platform y la red perimetral
+description: Explicar cómo introducir datos en Customer Journey Analytics mediante el SDK web de Adobe Experience Platform y la red perimetral
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '3591'
+source-wordcount: '3587'
 ht-degree: 8%
 
 ---
-
 
 # Ingesta de datos mediante el SDK web de Adobe Experience Platform y la red Edge
 
@@ -19,34 +19,34 @@ Para lograr esto, debe:
 
 - **Configuración de un esquema y un conjunto de datos** en Adobe Experience Platform para definir el modelo (esquema) de los datos que desea recopilar y dónde recopilar realmente los datos (conjunto de datos).
 
-- **Configuración de un conjunto de datos** para configurar la red perimetral de Adobe Experience Platform con el fin de enrutar los datos recopilados al conjunto de datos configurado en Adobe Experience Platform.
+- **Configurar un conjunto de datos** para configurar la red perimetral de Adobe Experience Platform con el fin de enrutar los datos recopilados al conjunto de datos configurado en Adobe Experience Platform.
 
-- **Usar etiquetas** para configurar fácilmente reglas y elementos de datos con respecto a los datos de la capa de datos de su sitio web y garantizar que los datos se envíen al conjunto de datos configurado en la red perimetral de Adobe Experience Platform.
+- **Usar etiquetas** para configurar fácilmente reglas y elementos de datos con respecto a los datos de la capa de datos de su sitio web. A continuación, asegúrese de que los datos se envíen al conjunto de datos configurado en la red perimetral de Adobe Experience Platform.
 
 - **Implementar y validar**. Tenga un entorno en el que pueda iterar en el desarrollo de etiquetas y, una vez validado todo, publíquelo en su entorno de producción.
 
 - **Configuración de una conexión** en Customer Journey Analytics. Esta conexión debe incluir (al menos) su conjunto de datos de Adobe Experience Platform.
 
-- **Configuración de una vista de datos** en Customer Journey Analytics para definir métricas y dimensiones que desee utilizar en Analysis Workspace.
+- **Configuración de una vista de datos** en Customer Journey Analytics para definir las métricas y las dimensiones que desea utilizar en Analysis Workspace.
 
 - **Configuración de un proyecto** en Customer Journey Analytics para crear sus informes y visualizaciones.
 
 >[!NOTE]
 >
->Esta es una guía simplificada sobre cómo ingerir datos recopilados de su sitio en Adobe Experience Platform y utilizarlos en Customer Journey Analytics.  Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Esta es una guía simplificada sobre cómo ingerir datos recopilados de su sitio en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 
 ## Configuración de un esquema y un conjunto de datos
 
 Para introducir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos introducidos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características descendentes puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
 
-Una vez que haya definido un esquema, utilizará uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
 Todos los datos introducidos en Adobe Experience Platform deben cumplir un esquema predefinido para que se puedan conservar como conjunto de datos.
 
 ### Configuración de un esquema
 
-Desea rastrear datos mínimos de perfiles que visitan su sitio web, por ejemplo: nombre de página, identificación, etc.
+Desea rastrear datos mínimos de perfiles que visitan el sitio web como, por ejemplo, el nombre de la página o la identificación.
 Para ello, primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
@@ -94,7 +94,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identification-field.png)
 
-   Esto agregará capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante el ID de Experience Cloud y la dirección de correo electrónico. Hay muchos otros atributos disponibles para realizar un seguimiento de la identificación del visitante (por ejemplo, ID de cliente, ID de fidelidad, etc.).
+   Esto añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante el ID de Experience Cloud y la dirección de correo electrónico. Hay muchos otros atributos disponibles para realizar un seguimiento de la identificación del visitante (por ejemplo, ID de cliente o ID de fidelidad).
 
    Select **[!UICONTROL Aplicar]** para añadir este objeto al esquema.
 
@@ -112,13 +112,13 @@ Para configurar el esquema:
 
    Está especificando la dirección de correo electrónico como otra identidad que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) el comportamiento de los perfiles.
 
-   Select **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella en el atributo de correo electrónico.
+   Select **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella digital en el atributo de correo electrónico.
 
    Seleccione **[!UICONTROL Guardar]**.
 
 8. Seleccione el elemento raíz del esquema que muestra el nombre del esquema y, a continuación, seleccione el **[!UICONTROL Perfil]** .
 
-   Se le pedirá que habilite el esquema para el perfil. Una vez habilitados, cuando los datos se incorporen en conjuntos de datos basados en este esquema, esos datos se combinarán en el Perfil del cliente en tiempo real.
+   Se le pedirá que habilite el esquema para el perfil. Una vez habilitados, cuando los datos se incorporan en conjuntos de datos basados en este esquema, esos datos se combinan en el perfil del cliente en tiempo real.
 
    Consulte [Habilitar el esquema para utilizarlo en el perfil de cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) para obtener más información.
 
@@ -150,9 +150,9 @@ Consulte [Crear y editar esquemas en la interfaz de usuario](https://experiencel
 
 ### Configuración de un conjunto de datos
 
-Con el esquema ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos. Esto se realiza mediante conjuntos de datos.
+Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos. Esto se realiza mediante conjuntos de datos.
 
-Para configurar su conjunto de datos:
+Para configurar el conjunto de datos:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Conjuntos de datos]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
@@ -174,17 +174,17 @@ Para configurar su conjunto de datos:
 
 7. Seleccione el **[!UICONTROL Perfil]** .
 
-   Se le pedirá que habilite el conjunto de datos para el perfil. Una vez habilitado, el conjunto de datos enriquecerá los perfiles de clientes en tiempo real con sus datos introducidos.
+   Se le pedirá que habilite el conjunto de datos para el perfil. Una vez habilitado, el conjunto de datos enriquece los perfiles de clientes en tiempo real con sus datos introducidos.
 
    >[!IMPORTANT]
    >
-   >    Solo se puede habilitar un conjunto de datos para el perfil cuando el esquema, al que se adhiere el conjunto de datos, también esté habilitado para el perfil.
+   >    Solo puede habilitar un conjunto de datos para un perfil cuando el esquema, al que se adhiere el conjunto de datos, también esté habilitado para el perfil.
 
    ![Habilitar esquema para perfil](./assets/aepwebsdk-dataset-profile.png)
 
 Consulte [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es) para obtener más información sobre cómo ver, previsualizar, crear o eliminar un conjunto de datos. Y cómo habilitar un conjunto de datos para el perfil del cliente en tiempo real.
 
-## Configuración de un conjunto de datos
+## Configurar un conjunto de datos
 
 Un conjunto de datos representa la configuración del lado del servidor al implementar los SDK web y móviles de Adobe Experience Platform. Al recopilar datos con los SDK de Adobe Experience Platform, los datos se envían a Adobe Experience Platform Edge Network. Es el conjunto de datos el que determina a qué servicios se reenvían los datos.
 
@@ -245,7 +245,7 @@ Seleccione la etiqueta recién creada de la lista de [!UICONTROL Propiedades de 
 
 #### **Extensiones**
 
-Debe añadir la extensión del SDK web de la plataforma de Adobe a la etiqueta para asegurarse de que puede enviar datos a Adobe Experience Platform (a través del conjunto de datos).
+Añada la extensión del SDK web de la plataforma Adobe a la etiqueta para asegurarse de que puede enviar datos a Adobe Experience Platform (a través del conjunto de datos).
 
 Para crear y configurar la extensión del SDK web de Adobe Experience Platform:
 
@@ -265,7 +265,7 @@ Para crear y configurar la extensión del SDK web de Adobe Experience Platform:
 
 Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) para obtener más información.
 
-También desea configurar la extensión del servicio de ID de Experience Cloud para que pueda utilizar fácilmente el servicio de ID de Experience Cloud. El servicio de ID de Experience Cloud identifica a los visitantes en todas las soluciones de Adobe Experience Cloud.
+También desea configurar la extensión del servicio de ID de Experience Cloud para que pueda utilizar fácilmente el ID de Experience Cloud. El servicio de ID de Experience Cloud identifica a los visitantes en todas las soluciones de Adobe Experience Cloud.
 
 Para crear y configurar la extensión del servicio de ID de Experience Cloud:
 
@@ -283,9 +283,9 @@ Para crear y configurar la extensión del servicio de ID de Experience Cloud:
 
 #### **Elementos de datos**
 
-Los Data Elements son los componentes básicos del diccionario de datos (o mapa de datos). Utilice Data Elements para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad. Configurará elementos de datos en la etiqueta que lean de la capa de datos y que pueden utilizarse para enviar datos a Adobe Experience Platform.
+Los Data Elements son los componentes básicos del diccionario de datos (o mapa de datos). Utilice Data Elements para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad. Los elementos de datos de la etiqueta se configuran para que se lean en la capa de datos y se puedan utilizar para enviar datos a Adobe Experience Platform.
 
-Existen diferentes tipos de elementos de datos. Primero configurará un elemento de datos para capturar el nombre de página que los visitantes están viendo en el sitio.
+Existen diferentes tipos de elementos de datos. Primero configuró un elemento de datos para capturar el nombre de página que los visitantes están viendo en el sitio.
 
 Para definir un elemento de datos de nombre de página:
 
@@ -295,7 +295,7 @@ Para definir un elemento de datos de nombre de página:
 
 3. En el [!UICONTROL Crear elemento de datos] diálogo:
 
-   - Asigne un nombre al elemento de datos, por ejemplo: `Page Name`.
+   - Asigne un nombre al elemento de datos, por ejemplo `Page Name`.
 
    - Select **[!UICONTROL Principal]** de la variable [!UICONTROL Extensión] lista.
 
@@ -305,7 +305,7 @@ Para definir un elemento de datos de nombre de página:
 
       ![Creación de un elemento de fecha mediante información de página](./assets/create-dataelement-1.png)
 
-      Como alternativa, podría haber utilizado el valor de una variable de la capa de datos, por ejemplo, `pageName` y [!UICONTROL Variable JavaScript] tipo de elemento de datos para definir el elemento de datos.
+      Como alternativa, podría haber utilizado el valor de una variable de la capa de datos, por ejemplo `pageName` y [!UICONTROL Variable JavaScript] tipo de elemento de datos para definir el elemento de datos.
 
       ![Creación de elementos de datos mediante la variable Javascript](./assets/create-dataelement-2.png)
 
@@ -321,7 +321,7 @@ Para definir un elemento de datos ECID:
 
 3. En el [!UICONTROL Crear elemento de datos] diálogo:
 
-   - Asigne un nombre al elemento de datos, por ejemplo: `ECID`.
+   - Asigne un nombre al elemento de datos, por ejemplo `ECID`.
 
    - Select **[!UICONTROL Servicio de ID de Experience Cloud]** de la variable [!UICONTROL Extensión] lista.
 
@@ -331,7 +331,7 @@ Para definir un elemento de datos ECID:
 
    - Seleccione **[!UICONTROL Guardar]**.
 
-Por último, ahora desea asignar cualquiera de los elementos de datos específicos al esquema definido anteriormente. Debe definir otro elemento de datos que proporcione una representación del esquema XDM.
+Por último, ahora desea asignar cualquiera de los elementos de datos específicos al esquema definido anteriormente. Puede definir otro elemento de datos que proporcione una representación del esquema XDM.
 
 Para definir un elemento de datos de objeto XDM:
 
@@ -341,7 +341,7 @@ Para definir un elemento de datos de objeto XDM:
 
 3. En el [!UICONTROL Crear elemento de datos] diálogo:
 
-   - Asigne un nombre al elemento de datos, por ejemplo: `XDM - Page View`.
+   - Asigne un nombre al elemento de datos, por ejemplo `XDM - Page View`.
 
    - Select **[!UICONTROL SDK web de Adobe Experience Platform]** de la variable [!UICONTROL Extensión] lista.
 
@@ -351,7 +351,7 @@ Para definir un elemento de datos de objeto XDM:
 
    - Seleccione el esquema de la variable [!UICONTROL Esquema] lista.
 
-   - Asigne la variable `identification > core > ecid` , definido en el esquema, al elemento de datos ECID. Seleccione el icono cilin der para elegir fácilmente el elemento de datos ECID de su lista de elementos de datos.
+   - Asigne la variable `identification > core > ecid` , definido en el esquema, al elemento de datos ECID. Seleccione el icono del cilindro para elegir fácilmente el elemento de datos ECID de su lista de elementos de datos.
 
       ![Seleccionar elemento de datos ECID](./assets/pick-ecid-dataelement.png)
 
@@ -377,7 +377,7 @@ Para definir una regla:
 
 3. En el [!UICONTROL Crear regla] diálogo:
 
-   - Asigne un nombre a la regla, por ejemplo: `Page View`.
+   - Asigne un nombre a la regla, por ejemplo `Page View`.
 
    - Select **[!UICONTROL + Agregar]** underneath [!UICONTROL Eventos].
 
@@ -400,7 +400,7 @@ Para definir una regla:
 
       - Select **[!UICONTROL web.webpagedetails.pageViews]** de la variable [!UICONTROL Tipo] lista.
 
-      - Seleccione el icono de cilin situado junto a  [!UICONTROL Datos XDM] y seleccione **[!UICONTROL XDM: vista de página]** de la lista de elementos de datos.
+      - Seleccione el icono de cilindro situado junto a  [!UICONTROL Datos XDM] y seleccione **[!UICONTROL XDM: vista de página]** de la lista de elementos de datos.
 
          ![Regla: Configuración de la acción](./assets/action-pageview-xdm.png)
 
@@ -417,7 +417,7 @@ Para definir una regla:
 
 Este es solo un ejemplo de definición de una regla que envía datos XDM, que contienen valores de otros elementos de datos, a Adobe Experience Platform.
 
-Puede utilizar las reglas de varias formas en la etiqueta para manipular las variables (utilizando los elementos de datos).
+Puede utilizar las reglas de varias formas en la etiqueta para manipular las variables (mediante los elementos de datos).
 
 Consulte [Reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=es) para obtener más información.
 
@@ -449,7 +449,7 @@ Para crear y publicar la etiqueta:
 
    ![Publicar: crear biblioteca](./assets/build-library.png)
 
-Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación sencillos o complejos que deberían acomodar su implementación del SDK web de Adobe Experience Platform.
+Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deberían admitir la implementación del SDK web de Adobe Experience Platform.
 
 Consulte [Información general sobre la publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) para obtener más información.
 
@@ -480,7 +480,7 @@ Consulte [Entornos](https://experienceleague.adobe.com/docs/experience-platform/
 
 ## Implementar y validar
 
-Ahora puede implementar el código en la versión de desarrollo de su sitio web dentro del `<head>` etiqueta. Cuando se implementa, el sitio web empezará a recopilar datos en Adobe Experience Platform.
+Ahora puede implementar el código en la versión de desarrollo de su sitio web dentro del `<head>` etiqueta. Cuando se implementa, el sitio web comienza a recopilar datos en Adobe Experience Platform.
 
 Valide la implementación, corríjala donde sea necesario y, una vez correcta, impleméntelo en el entorno de ensayo y producción utilizando la función de flujo de trabajo de publicación de Etiquetas.
 
@@ -500,7 +500,7 @@ Para crear la conexión:
 
    Asigne un nombre a la conexión y describa su [!UICONTROL Configuración de conexión].
 
-   Seleccione el simulador de pruebas correcto en el [!UICONTROL Sandbox] en [!UICONTROL Configuración de datos] y seleccione el número de eventos diarios en la [!UICONTROL Promedio de eventos diarios] lista.
+   Seleccione el simulador de pruebas correcto en el [!UICONTROL Sandbox] en [!UICONTROL Configuración de datos] y seleccione el número de eventos diarios en la [!UICONTROL Cantidad promedio de eventos diarios] lista.
 
    ![Configuración de conexión](./assets/cja-connections-1.png)
 
@@ -508,7 +508,7 @@ Para crear la conexión:
 
    En el [!UICONTROL Seleccionar conjuntos de datos] paso a paso [!UICONTROL Agregar conjuntos de datos]:
 
-   - Seleccione el conjunto de datos creado anteriormente (`Example dataset`) y cualquier otro conjunto de datos que desee incluir en la conexión.
+   - Seleccione el conjunto de datos que creó anteriormente (`Example dataset`) y cualquier otro conjunto de datos que desee incluir en la conexión.
 
       ![Añadir conjuntos de datos](./assets/cja-connections-2b.png)
 
@@ -519,7 +519,7 @@ Para crear la conexión:
 
       - Seleccione un [!UICONTROL ID de persona] de las identidades disponibles definidas en los esquemas de conjuntos de datos en Adobe Experience Platform.
 
-      - Seleccione la fuente de datos correcta de la [!UICONTROL Tipo de fuente de datos] lista. Si especifica **[!UICONTROL Otro]** a continuación, agregue una descripción para la fuente de datos.
+      - Seleccione la fuente de datos correcta de la [!UICONTROL Tipo de fuente de datos] lista. Si especifica **[!UICONTROL Otro]** y, a continuación, agregue una descripción para la fuente de datos.
 
       - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Relleno de conjuntos de datos de datos existentes]** según sus preferencias.
 
@@ -552,7 +552,7 @@ Para crear la vista de datos:
 
 4. En el [!UICONTROL Componentes] paso:
 
-   Añada cualquier campo de esquema o componente estándar que desee incluir al [!UICONTROL MÉTRICAS] o [!UICONTROL Dimension] cuadros de componentes.
+   Añada cualquier campo de esquema o componente estándar que desee incluir en el [!UICONTROL MÉTRICAS] o [!UICONTROL Dimension] cuadros de componentes.
 
    ![Componentes de la vista de datos](./assets/cja-dataview-2.png)
 
@@ -569,7 +569,7 @@ Consulte [Resumen de las vistas de datos](../data-views/data-views.md) para obte
 
 ## Configuración de un proyecto
 
-Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente en función de sus datos. Los proyectos de Workspace se utilizan para combinar componentes de datos, tablas y visualizaciones para crear su análisis y compartirlo con cualquier persona de su organización.
+Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente en función de sus datos. Los proyectos de Workspace se utilizan para combinar componentes de datos, tablas y visualizaciones con el fin de crear su análisis y compartirlo con cualquier persona de su organización.
 
 Para crear el proyecto:
 
@@ -589,12 +589,12 @@ Para crear el proyecto:
 
    ![Espacio de trabajo Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla improvisada] en el [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y también forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla improvisada] en el [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace: primer informe](./assets/cja-projects-5.png)
 
-Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y crear su análisis mediante componentes, visualización y paneles.
+Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y crear su análisis mediante componentes, visualizaciones y paneles.
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Empezando por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform, ha configurado un conjunto de datos en la red perimetral para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, definió e implementó la etiqueta que contiene las extensiones (Adobe Experience Platform Web SDK, servicio de ID de Experience Cloud), elementos de datos y reglas para capturar datos de su sitio web y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento del sitio web y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas utilizar y, finalmente, creó su primer proyecto visualizando y analizando los datos.
+>Ha completado todos los pasos. Empezando por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform, configuró un conjunto de datos en la red perimetral para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, definió e implementó la etiqueta que contiene las extensiones (Adobe Experience Platform Web SDK, servicio de ID de Experience Cloud), elementos de datos y reglas para capturar datos de su sitio web y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento del sitio web y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas utilizar y, finalmente, creó su primer proyecto visualizando y analizando los datos.

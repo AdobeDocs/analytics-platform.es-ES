@@ -3,13 +3,13 @@ title: Ingesta y uso de datos de Adobe Analytics tradicional
 description: Explicar cómo ingerir datos de Adobe Analytics tradicional
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1146'
 ht-degree: 10%
 
 ---
-
 
 # Ingesta y uso de datos de Adobe Analytics tradicional
 
@@ -23,23 +23,23 @@ En esta guía de inicio rápido se explica cómo utilizar los datos recopilados 
 >
 >- [Implementar Analytics con la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=es)
 >
->- [Implementar Analytics con Javascript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
+>- [Implementar Analytics mediante JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
 
 
 Para lograr esto, debe:
 
-- **Configuración de un conector de origen de Adobe Analytics** en Adobe Experience Platform. Esto se encargará de incorporar los datos actuales de Adobe Analytics en un conjunto de datos en Adobe Experience Platform.
+- **Configuración de un conector de origen de Adobe Analytics** en Adobe Experience Platform. Esto se encarga de introducir los datos actuales de Adobe Analytics en un conjunto de datos en Adobe Experience Platform.
 
 - **Configuración de una conexión** en Customer Journey Analytics. Esta conexión debe incluir (al menos) su conjunto de datos de Adobe Experience Platform.
 
-- **Configuración de una vista de datos** en Customer Journey Analytics para definir métricas y dimensiones que desee utilizar en Analysis Workspace.
+- **Configuración de una vista de datos** en Customer Journey Analytics para definir las métricas y las dimensiones que desea utilizar en Analysis Workspace.
 
 - **Configuración de un proyecto** en Customer Journey Analytics para crear sus informes y visualizaciones.
 
 
 >[!NOTE]
 >
->Se trata de una guía simplificada sobre cómo introducir datos mediante el conector de origen de Adobe Analytics y utilizar esos datos en Customer Journey Analytics.  Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Se trata de una guía simplificada sobre cómo introducir datos mediante el conector de origen de Adobe Analytics y utilizar esos datos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 
 ## Configuración de un conector de origen de Adobe Analytics
@@ -48,7 +48,7 @@ El conector de origen de Adobe Analytics le permite introducir datos de grupos d
 
 Para crear un conector de origen de Adobe Analytics:
 
-1. En la interfaz de usuario de Platform, seleccione **[!UICONTROL Fuentes]** desde el carril izquierdo.
+1. En la interfaz de usuario de Platform, seleccione **[!UICONTROL Fuentes]**, desde el carril izquierdo.
 
 2. Select **[!UICONTROL aplicaciones de Adobe]** de la lista de [!UICONTROL CATEGORÍAS].
 
@@ -62,7 +62,7 @@ Para crear un conector de origen de Adobe Analytics:
 
    Seleccione **[!UICONTROL Siguiente]**.
 
-5. Select **[!UICONTROL Esquema predeterminado]** como el [!UICONTROL Esquema de Target]. Adobe Experience Platform creará automáticamente el esquema y el conjunto de datos correspondiente para asignar todos los campos estándar del grupo de informes de Adobe Analytics seleccionado.
+5. Select **[!UICONTROL Esquema predeterminado]** como el [!UICONTROL Esquema de Target]. Adobe Experience Platform crea automáticamente el esquema y el conjunto de datos correspondiente para asignar todos los campos estándar del grupo de informes de Adobe Analytics seleccionado.
 
    ![Esquema predeterminado](./assets/default-schema.png)
 
@@ -102,7 +102,7 @@ Para crear la conexión:
 
    Asigne un nombre a la conexión y describa su [!UICONTROL Configuración de conexión].
 
-   Seleccione el simulador de pruebas correcto en el [!UICONTROL Sandbox] en [!UICONTROL Configuración de datos] y seleccione el número de eventos diarios en la [!UICONTROL Promedio de eventos diarios] lista.
+   Seleccione el simulador de pruebas correcto en el [!UICONTROL Sandbox] en [!UICONTROL Configuración de datos] y seleccione el número de eventos diarios en la [!UICONTROL Cantidad promedio de eventos diarios] lista.
 
    ![Configuración de conexión](./assets/cja-connections-1.png)
 
@@ -121,7 +121,7 @@ Para crear la conexión:
 
       - Seleccione un [!UICONTROL ID de persona] de las identidades disponibles definidas en los esquemas de conjuntos de datos en Adobe Experience Platform.
 
-      - Seleccione la fuente de datos correcta de la [!UICONTROL Tipo de fuente de datos] lista. Si especifica **[!UICONTROL Otro]** a continuación, agregue una descripción para la fuente de datos.
+      - Seleccione la fuente de datos correcta de la [!UICONTROL Tipo de fuente de datos] lista. Si especifica **[!UICONTROL Otro]** y, a continuación, agregue una descripción para la fuente de datos.
 
       - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Relleno de conjuntos de datos de datos existentes]** según sus preferencias.
 
@@ -154,7 +154,7 @@ Para crear la vista de datos:
 
 4. En el [!UICONTROL Componentes] paso:
 
-   Añada cualquier campo de esquema o componente estándar que desee incluir al [!UICONTROL MÉTRICAS] o [!UICONTROL Dimension] cuadros de componentes.
+   Añada cualquier campo de esquema o componente estándar que desee incluir en el [!UICONTROL MÉTRICAS] o [!UICONTROL Dimension] cuadros de componentes.
 
    ![Componentes de la vista de datos](./assets/cja-dataview-2.png)
 
@@ -171,7 +171,7 @@ Consulte [Resumen de las vistas de datos](../data-views/data-views.md) para obte
 
 ## Configuración de un proyecto
 
-Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente en función de sus datos. Los proyectos de Workspace se utilizan para combinar componentes de datos, tablas y visualizaciones para crear su análisis y compartirlo con cualquier persona de su organización.
+Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente en función de sus datos. Los proyectos de Workspace se utilizan para combinar componentes de datos, tablas y visualizaciones con el fin de crear su análisis y compartirlo con cualquier persona de su organización.
 
 Para crear el proyecto:
 
@@ -191,20 +191,14 @@ Para crear el proyecto:
 
    ![Espacio de trabajo Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla improvisada] en el [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y también forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla improvisada] en el [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace: primer informe](./assets/cja-projects-5.png)
 
-Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y crear su análisis mediante componentes, visualización y paneles.
+Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y crear su análisis mediante componentes, visualizaciones y paneles.
 
 
 >[!SUCCESS]
 >
 >Ha completado todos los pasos. Comenzando por configurar el conector de fuente de datos de Adobe Analytics y configurar ese conector para su grupo de informes, los datos de Adobe Analytics se cargan automáticamente en Adobe Experience Platform. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de Adobe Analytics ingestados y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas utilizar y, finalmente, creó su primer proyecto visualizando y analizando los datos.
-
-
-
-
-
-
 

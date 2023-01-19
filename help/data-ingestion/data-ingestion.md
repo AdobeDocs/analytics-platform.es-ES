@@ -1,19 +1,19 @@
 ---
 title: Información general sobre la incorporación de datos
-description: Comprender las distintas formas de ingerir datos en Customer Journey Analytics
+description: Comprender las distintas formas de ingerir datos en el Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 5de8c0daaa7eea0a9ab993d256e2b0a14f37301e
+exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 7%
+source-wordcount: '634'
+ht-degree: 3%
 
 ---
 
-
 # Información general sobre la incorporación de datos
 
-Tiene varias opciones de ingesta de datos en Customer Journey Analytics. Algunos de ellos suponen que desea mover los datos tradicionales de Adobe Analytics, algunos de los cuales suponen que utiliza los datos introducidos directamente en Adobe Experience Platform.
+Tiene varias opciones al ingerir datos en el Customer Journey Analytics. Algunos de ellos suponen que desea mover los datos tradicionales de Adobe Analytics, algunos de los cuales suponen que utiliza datos incorporados en Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
@@ -24,9 +24,21 @@ Consulte la arquitectura de Customer Journey Analytics de alto nivel que se mues
 
 ![Customer Journey Analytics](./assets/cja-architecture.png)
 
-El conjunto de datos de la arquitectura anterior puede proceder de una variedad de fuentes: datos por lotes, datos de flujo continuo, datos de una implementación actual de Adobe Analytics, datos del seguimiento de su sitio web o aplicación móvil mediante el SDK web/móvil de Adobe Experience Platform o datos procedentes de un proveedor de datos de terceros para el que el Adobe proporciona un conector de origen. Y puede tener muchos de estos conjuntos de datos.
+El conjunto de datos de la arquitectura anterior puede proceder de varias fuentes:
 
-Esta sección de la documentación proporciona guías de inicio rápido para una serie de escenarios.
+- datos por lotes,
+
+- flujo continuo de datos,
+
+- datos de una implementación actual de Adobe Analytics,
+
+- datos del seguimiento de su sitio web o aplicación móvil mediante el SDK web/móvil de Adobe Experience Platform, o
+
+- datos procedentes de un proveedor de datos de terceros para el que Adobe proporciona un conector de origen.
+
+Y puede tener muchos de estos conjuntos de datos.
+
+Esta sección de la documentación proporciona guías de inicio rápidas para varios escenarios.
 
 ## Ingesta y uso de datos de Adobe Analytics tradicional
 
@@ -42,7 +54,7 @@ Consulte [Ingesta y uso de datos mediante el SDK web de Adobe Experience Platfor
 
 ## Ingesta y uso de datos por lotes
 
-Tiene disponibles datos relevantes de lote que proporcionan detalles que pueden ayudarle a comprender mejor el comportamiento del cliente y analizar las interacciones con él. Algunos ejemplos de estos datos por lotes son archivos planos en formato CSV, JSON o Parquet de un sistema CRM, una aplicación de fidelidad u otra solución para la que el Adobe no proporciona actualmente un conector de origen. La ingesta de estos datos por lotes en Adobe Experience Platform le permite utilizarlos, combinarlos y analizarlos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
+Tiene disponibles datos relevantes de lote que proporcionan detalles que pueden ayudarle a comprender mejor el comportamiento del cliente y analizar las interacciones con él. Algunos ejemplos de estos datos por lotes son archivos planos en formato CSV, JSON o Parquet de un sistema CRM, una aplicación de fidelidad u otra solución para los que el Adobe no proporciona actualmente un conector de origen. La ingesta de estos datos por lotes en Adobe Experience Platform le permite utilizarlos, combinarlos y analizarlos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
 
 Consulte [Ingesta y uso de datos por lotes](./batch.md) para obtener más información.
 
@@ -57,4 +69,3 @@ Consulte [Ingesta y uso de datos de flujo continuo](./streaming.md) para obtener
 Tiene datos disponibles de un origen compatible con un conector de origen. Los conectores de origen son configuraciones configurables que le permiten introducir datos de la aplicación de Adobe, de origen y de terceros en Adobe Experience Platform. Consulte [Información general sobre conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es) para obtener información general sobre los conectores de origen disponibles. Con el conector de origen puede introducir fácilmente datos del origen en Adobe Experience Platform y, a continuación, combinarlos y analizarlos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
 
 Consulte [Ingesta y uso de datos mediante conectores de origen](./sources.md) para obtener más información.
-

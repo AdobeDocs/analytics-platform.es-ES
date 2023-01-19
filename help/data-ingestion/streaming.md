@@ -3,13 +3,13 @@ title: Ingesta y uso de datos de flujo continuo
 description: Explicar cómo ingerir y utilizar datos de flujo continuo en el Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: '2002'
 ht-degree: 5%
 
 ---
-
 
 # Ingesta y uso de datos de flujo continuo
 
@@ -19,30 +19,30 @@ Para lograr esto, debe:
 
 - **Configuración de un esquema y un conjunto de datos** en Adobe Experience Platform para definir el modelo (esquema) de los datos que desea recopilar y dónde recopilar realmente los datos (conjunto de datos).
 
-- **Uso del conector de origen de API HTTP** para transmitir fácilmente sus datos al conjunto de datos configurado en Adobe Experience Platform.
+- **Uso del conector de origen de la API HTTP** para transmitir fácilmente sus datos al conjunto de datos configurado en Adobe Experience Platform.
 
 - **Configuración de una conexión** en Customer Journey Analytics. Esta conexión debe incluir (al menos) su conjunto de datos de Adobe Experience Platform.
 
-- **Configuración de una vista de datos** en Customer Journey Analytics para definir métricas y dimensiones que desee utilizar en Analysis Workspace.
+- **Configuración de una vista de datos** en Customer Journey Analytics para definir las métricas y las dimensiones que desea utilizar en Analysis Workspace.
 
 - **Configuración de un proyecto** en Customer Journey Analytics para crear sus informes y visualizaciones.
 
 
 >[!NOTE]
 >
->Esta es una guía simplificada sobre cómo ingerir datos de flujo continuo en Adobe Experience Platform y utilizarlos en Customer Journey Analytics.  Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Esta es una guía simplificada sobre cómo ingerir datos de flujo continuo en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 ## Configuración de un esquema y un conjunto de datos
 
 Para introducir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos introducidos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características descendentes puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
 
-Una vez que haya definido un esquema, utilizará uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
 Todos los datos introducidos en Adobe Experience Platform deben cumplir un esquema predefinido para que se puedan conservar como conjunto de datos.
 
 ### Configuración de un esquema
 
-Para este inicio rápido asumimos que desea recopilar algunos datos de fidelidad, por ejemplo, ID de fidelidad, puntos de fidelidad y estado de fidelidad.
+Para este inicio rápido, debe recopilar algunos datos de fidelidad, como el id de fidelidad, los puntos de fidelidad y el estado de fidelidad.
 Para ello, primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
@@ -90,7 +90,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identifcation-loyalty-field.png)
 
-   Esto agregará capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico en los datos de lote.
+   Esto añade capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico en los datos de lote.
 
    Select **[!UICONTROL Aplicar]** para añadir este objeto al esquema.
 
@@ -100,11 +100,11 @@ Para configurar el esquema:
 
    Está especificando la dirección de correo electrónico como la identidad que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) el comportamiento de los perfiles.
 
-   Select **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella en el atributo de correo electrónico.
+   Select **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella digital en el atributo de correo electrónico.
 
 7. Seleccione el nivel raíz del esquema (con el nombre del esquema) y, a continuación, seleccione el **[!UICONTROL Perfil]** .
 
-   Se le pedirá que habilite el esquema para el perfil. Una vez habilitados, cuando los datos se incorporen en conjuntos de datos basados en este esquema, esos datos se combinarán en el Perfil del cliente en tiempo real.
+   Se le pedirá que habilite el esquema para el perfil. Una vez habilitados, cuando los datos se incorporan en conjuntos de datos basados en este esquema, esos datos se combinan en el perfil del cliente en tiempo real.
 
    Consulte [Habilitar el esquema para utilizarlo en el perfil de cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) para obtener más información.
 
@@ -122,9 +122,9 @@ Consulte [Crear y editar esquemas en la interfaz de usuario](https://experiencel
 
 ### Configuración de un conjunto de datos
 
-Con el esquema ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos. Esto se realiza mediante conjuntos de datos.
+Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos. Esto se realiza mediante conjuntos de datos.
 
-Para configurar su conjunto de datos:
+Para configurar el conjunto de datos:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Conjuntos de datos]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
@@ -146,11 +146,11 @@ Para configurar su conjunto de datos:
 
 7. Seleccione el **[!UICONTROL Perfil]** .
 
-   Se le pedirá que habilite el conjunto de datos para el perfil. Una vez habilitado, el conjunto de datos enriquecerá los perfiles de clientes en tiempo real con sus datos introducidos.
+   Se le pedirá que habilite el conjunto de datos para el perfil. Una vez habilitado, el conjunto de datos enriquece los perfiles de clientes en tiempo real con sus datos introducidos.
 
    >[!IMPORTANT]
    >
-   >    Solo se puede habilitar un conjunto de datos para el perfil cuando el esquema, al que se adhiere el conjunto de datos, también esté habilitado para el perfil.
+   >    Solo puede habilitar un conjunto de datos para un perfil cuando el esquema, al que se adhiere el conjunto de datos, también esté habilitado para el perfil.
 
    ![Habilitar esquema para perfil](./assets/loyalty-dataset-profile.png)
 
@@ -183,7 +183,7 @@ La aplicación de origen transmite datos que se ajustan al esquema creado y que 
 }
 ```
 
-Para transmitir estos datos al conjunto de datos que hemos creado, debe definir un extremo de flujo continuo al que se enviarán esos datos. Para ello, debe definir un conector de origen de API HTTP.
+Para transmitir estos datos al conjunto de datos que ha creado, debe definir un extremo de flujo continuo al que se enviarán esos datos. Para ello, debe definir un conector de origen de API HTTP.
 
 Para crear un conector de origen de API HTTP:
 
@@ -193,13 +193,13 @@ Para crear un conector de origen de API HTTP:
 
 3. Select **Configuración** en el [!UICONTROL API HTTP] mosaico.
 
-   ![Configuración de mosaico de API HTTP](./assets/httpapi-tile.png)
+   ![Configuración del mosaico de la API HTTP](./assets/httpapi-tile.png)
 
 4. En el [!UICONTROL Autenticación] del [!UICONTROL Añadir datos] pantalla:
 
    Escriba un nombre y una descripción para la conexión de API HTTP.
 
-   Select **[!UICONTROL Compatible con XDM]** para indicar que los datos que va a transmitir son compatibles con un esquema XDM existente.
+   Select **[!UICONTROL Compatible con XDM]** para indicar que los datos que transmite son compatibles con un esquema XDM existente.
 
    Select **[!UICONTROL Conectar a origen]**. Después de una conexión correcta, verá [!UICONTROL Conectado].
 
@@ -246,7 +246,7 @@ Para crear la conexión:
 
    Asigne un nombre a la conexión y describa su [!UICONTROL Configuración de conexión].
 
-   Seleccione el simulador de pruebas correcto en el [!UICONTROL Sandbox] en [!UICONTROL Configuración de datos] y seleccione el número de eventos diarios en la [!UICONTROL Promedio de eventos diarios] lista.
+   Seleccione el simulador de pruebas correcto en el [!UICONTROL Sandbox] en [!UICONTROL Configuración de datos] y seleccione el número de eventos diarios en la [!UICONTROL Cantidad promedio de eventos diarios] lista.
 
    ![Configuración de conexión](./assets/cja-connections-1.png)
 
@@ -254,7 +254,7 @@ Para crear la conexión:
 
    En el [!UICONTROL Seleccionar conjuntos de datos] paso a paso [!UICONTROL Agregar conjuntos de datos]:
 
-   - Seleccione el conjunto de datos creado anteriormente (`Example Loyalty Dataset`) y cualquier otro conjunto de datos que desee incluir en la conexión.
+   - Seleccione el conjunto de datos que creó anteriormente (`Example Loyalty Dataset`) y cualquier otro conjunto de datos que desee incluir en la conexión.
 
       ![Añadir conjuntos de datos](./assets/cja-connections-2.png)
 
@@ -265,7 +265,7 @@ Para crear la conexión:
 
       - Seleccione un [!UICONTROL ID de persona] de las identidades disponibles definidas en los esquemas de conjuntos de datos en Adobe Experience Platform.
 
-      - Seleccione la fuente de datos correcta de la [!UICONTROL Tipo de fuente de datos] lista. Si especifica **[!UICONTROL Otro]** a continuación, agregue una descripción para la fuente de datos.
+      - Seleccione la fuente de datos correcta de la [!UICONTROL Tipo de fuente de datos] lista. Si especifica **[!UICONTROL Otro]** y, a continuación, agregue una descripción para la fuente de datos.
 
       - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Relleno de conjuntos de datos de datos existentes]** según sus preferencias.
 
@@ -298,7 +298,7 @@ Para crear la vista de datos:
 
 4. En el [!UICONTROL Componentes] paso:
 
-   Añada cualquier campo de esquema o componente estándar que desee incluir al [!UICONTROL MÉTRICAS] o [!UICONTROL Dimension] cuadros de componentes.
+   Añada cualquier campo de esquema o componente estándar que desee incluir en el [!UICONTROL MÉTRICAS] o [!UICONTROL Dimension] cuadros de componentes.
 
    ![Componentes de la vista de datos](./assets/cja-dataview-2.png)
 
@@ -315,7 +315,7 @@ Consulte [Resumen de las vistas de datos](../data-views/data-views.md) para obte
 
 ## Configuración de un proyecto
 
-Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente en función de sus datos. Los proyectos de Workspace se utilizan para combinar componentes de datos, tablas y visualizaciones para crear su análisis y compartirlo con cualquier persona de su organización.
+Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente en función de sus datos. Los proyectos de Workspace se utilizan para combinar componentes de datos, tablas y visualizaciones con el fin de crear su análisis y compartirlo con cualquier persona de su organización.
 
 Para crear el proyecto:
 
@@ -335,13 +335,12 @@ Para crear el proyecto:
 
    ![Espacio de trabajo Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla improvisada] en el [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y también forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla improvisada] en el [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace: primer informe](./assets/cja-projects-5.png)
 
-Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y crear su análisis mediante componentes, visualización y paneles.
+Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y crear su análisis mediante componentes, visualizaciones y paneles.
 
 >[!SUCCESS]
 >
 >Ha completado todos los pasos. Empezando por definir qué datos de lealtad desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform, se configuró un conector de origen de API HTTP para transmitir los datos de fidelidad directamente al conjunto de datos. La definición de la vista de datos le permite especificar qué dimensión y métricas utilizar y, finalmente, creó su primer proyecto visualizando y analizando los datos.
-
