@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
 source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
 ht-degree: 100%
 
