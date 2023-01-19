@@ -4,7 +4,7 @@ description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Al importar datos en Platform, estas sugerencias pueden ayudar a aumentar la per
 CJA requiere un identificador común para poder generar un [conjunto de datos combinado](/help/connections/combined-dataset.md).
 
 * Si los conjuntos de datos ya tienen un identificador común en cada evento de ambos conjuntos de datos, puede omitir este paso y continuar con la creación de una conexión.
-* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos con Análisis entre canales. Consulte [Información general de Análisis entre canales](/help/connections/cca/overview.md) para ver los pasos que debe seguir para habilitar AEC para estos dos conjuntos de datos.
+* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos con Análisis entre canales. Consulte [Información general de Análisis entre canales](/help/cca/overview.md) para ver los pasos que debe seguir para habilitar AEC para estos dos conjuntos de datos.
 
 ## Creación de una conexión en CJA
 

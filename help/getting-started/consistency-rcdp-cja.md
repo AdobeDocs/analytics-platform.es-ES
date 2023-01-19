@@ -4,8 +4,8 @@ title: Coherencia de métricas y recuentos de miembros de audiencia entre Real-t
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 769eef205df32865874753859ce79e573db40641
-workflow-type: ht
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Al comparar los recuentos de miembros de audiencia entre Real-time CDP y CJA, es
 
 Real-time CDP y CJA no comparten la misma definición de una persona en la actualidad. Real-time CDP se basa completamente en la información de [Identity Graph](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identifies/understanding-identity-and-identity-graphs.html?lang=es) para crear un perfil combinado.
 
-CJA se puede configurar para usar [Cross-Channel Analytics](/help/connections/cca/overview.md), que extrae identificadores de conjuntos de datos en el lago de datos y aplica lógica personalizada para vincularlos juntos.
+CJA se puede configurar para usar [Cross-Channel Analytics](/help/cca/overview.md), que extrae identificadores de conjuntos de datos en el lago de datos y aplica lógica personalizada para vincularlos juntos.
 
 En el futuro, CJA podrá utilizar Identity Graph.
 

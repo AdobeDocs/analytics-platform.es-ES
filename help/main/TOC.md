@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: eb7b53816fcc325f6a72ae145c8cf8a633375578
+source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '860'
 ht-degree: 96%
 
 ---
@@ -61,10 +61,7 @@ ht-degree: 96%
    + [Administrar conexiones](../connections/manage-connections.md)
    + [Conjuntos de datos de evento combinados](../connections/combined-dataset.md)
    + [Búsquedas estándar](../connections/standard-lookups.md)
-   + Cross-Channel Analytics {#cca}
-      + [Información general sobre Cross-Channel Analytics](../connections/cca/overview.md)
-      + [Cómo funcionan las reproducciones](../connections/cca/replay.md)
-      + [Preguntas frecuentes sobre Cross-Channel Analytics](../connections/cca/faq.md)
+   + [Cross-Channel Analytics](../connections/cca.md)
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](../data-views/data-views.md)
    + [Creación o edición de una vista de datos](../data-views/create-dataview.md)
@@ -177,18 +174,6 @@ ht-degree: 96%
       + [Requisitos de administración](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad en Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Long-tail en Analysis Workspace](../analysis-workspace/workspace-faq/long-tail.md)
-+ Report Builder {#cja-reportbuilder}
-   + [Información general de Report Builder](../report-builder/report-buider-overview.md)
-   + [Configuración de Report Builder](../report-builder/report-builder-setup.md)
-   + [Creación de un bloque de datos](../report-builder/create-a-data-block.md)
-   + [Report Builder Hub](../report-builder/report-builder-hub.md)
-   + [Selección de un intervalo de fechas](../report-builder/select-date-range.md)
-   + [Trabajo con filtros](../report-builder/work-with-filters.md)
-   + [Filtrar dimensiones](../report-builder/filter-dimensions.md)
-   + [Administrar bloques de datos](../report-builder/manage-reportbuilder.md)
-   + [Programar libros](../report-builder/schedule-reportbuilder.md)
-   + [Etiquetas restringidas](../report-builder/restricted-labels.md)
-   + [Configuración de Report Builder](../report-builder/report-builder-settings.md)
 + Componentes {#cja-components}
    + [Resumen de componentes](../components/overview.md)
    + Anotaciones {#annotations}
@@ -246,11 +231,31 @@ ht-degree: 96%
    + [Creación de un cuadro de resultados móvil](../mobile-app/create-scorecard.md)
    + [Configuración de ejecutivos para que utilicen paneles](../mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
++ Report Builder {#cja-reportbuilder}
+   + [Información general de Report Builder](../report-builder/report-buider-overview.md)
+   + [Configuración de Report Builder](../report-builder/report-builder-setup.md)
+   + [Creación de un bloque de datos](../report-builder/create-a-data-block.md)
+   + [Report Builder Hub](../report-builder/report-builder-hub.md)
+   + [Selección de un intervalo de fechas](../report-builder/select-date-range.md)
+   + [Trabajo con filtros](../report-builder/work-with-filters.md)
+   + [Filtrar dimensiones](../report-builder/filter-dimensions.md)
+   + [Administrar bloques de datos](../report-builder/manage-reportbuilder.md)
+   + [Programar libros](../report-builder/schedule-reportbuilder.md)
+   + [Etiquetas restringidas](../report-builder/restricted-labels.md)
+   + [Configuración de Report Builder](../report-builder/report-builder-settings.md)
++ Cross-Channel Analytics {#cca}
+   + [Información general sobre Cross-Channel Analytics](../cca/overview.md)
+   + [Cómo funcionan las reproducciones](../cca/replay.md)
+   + [Preguntas frecuentes sobre Cross-Channel Analytics](../cca/faq.md)
 + Integraciones de Adobe {#integrations}
    + [Información general sobre la integración de soluciones de Adobe con CJA](/help/integrations/overview.md)
    + [Integración de soluciones de Adobe Analytics con Customer Journey Analytics](/help/integrations/aa.md)
    + [Integración de datos de Journey Optimizer con CJA](/help/integrations/ajo.md)
    + [Integración de datos de inteligencia artificial aplicada al cliente con CJA](/help/integrations/customer-ai.md)
++ Gobierno de datos {#cja-privacy}
+   + [Gobernanza de datos](../privacy/privacy-overview.md)
+   + [Registro de auditoría](../privacy/audit-log.md)
+   + [Claves gestionadas por el cliente](../privacy/cmk.md)
 + Casos prácticos {#cja-usecases}
    + [Casos de uso de Customer Journey Analytics](../use-cases/cja-usecases.md)
    + Datos de Google Analytics {#ga}
@@ -277,8 +282,4 @@ ht-degree: 96%
    + [Guía del usuario de Labs](../labs/labs.md)
 + Resolución de problemas {#troubleshooting}
    + [Comparación de los datos de Adobe Analytics con los de CJA](../troubleshooting/compare.md)
-+ Gobierno de datos {#cja-privacy}
-   + [Gobernanza de datos](../privacy/privacy-overview.md)
-   + [Registro de auditoría](../privacy/audit-log.md)
-   + [Claves gestionadas por el cliente](../privacy/cmk.md)
 + [API de CJA](https://developer.adobe.com/cja-apis/docs/)

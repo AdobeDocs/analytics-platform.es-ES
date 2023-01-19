@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
-workflow-type: ht
-source-wordcount: '1457'
-ht-degree: 100%
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+workflow-type: tm+mt
+source-wordcount: '1456'
+ht-degree: 98%
 
 ---
 
@@ -104,10 +104,10 @@ Los “atributos del cliente” ahora se conocen como “Conjuntos de datos de p
 
 ## Cambios en la forma en que el Adobe identifica a los visitantes
 
-CJA amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar [Cross-Channel Analytics](/help/connections/cca/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto de Workspace en CJA debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en CJA:
+CJA amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar [Cross-Channel Analytics](/help/cca/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto de Workspace en CJA debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en CJA:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## Cambios en el concepto de elemento de dimensión de poco tráfico
 
-En Adobe Analytics tradicional, una variable que recibe demasiados valores únicos comienza a agrupar los elementos de dimensión en [!UICONTROL Poco tráfico]. CJA tiene menos limitaciones en los campos de alta cardinalidad. Los cambios en la arquitectura de informes permiten a Analysis Workspace crear informes sobre muchos elementos de dimensión únicos más. Consulte [Larga cola](../analysis-workspace/workspace-faq/long-tail.md) para obtener más información sobre cómo CJA optimiza el sistema de informes para dimensiones con muchos valores únicos.
+En Adobe Analytics tradicional, una variable que recibe demasiados valores únicos comienza a agrupar los elementos de dimensión en [!UICONTROL Poco tráfico]. CJA tiene menos limitaciones en los campos de alta cardinalidad. Los cambios en la arquitectura de informes permiten que Analysis Workspace informe sobre muchos elementos de dimensión únicos más. Consulte [Larga cola](../analysis-workspace/workspace-faq/long-tail.md) para obtener más información sobre cómo CJA optimiza el sistema de informes para dimensiones con muchos valores únicos.

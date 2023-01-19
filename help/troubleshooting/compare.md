@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo comparar sus datos de Adobe Analyt
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 2088fd98510887e86cffb6bd957d32a35fcfc467
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -47,7 +47,7 @@ Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siem
 
 >[!NOTE]
 >
->Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Cross-Channel Analytics](/help/connections/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en CJA es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en AA, especialmente si se ha activado Cross-Channel Analytics.
+>Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Cross-Channel Analytics](/help/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en CJA es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en AA, especialmente si se ha activado Cross-Channel Analytics.
 
 1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es), ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
 
@@ -65,7 +65,7 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
 1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si algunas filas podrían haber sido filtradas por el conector de origen de Analytics.
 
-   La variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) puede filtrar ciertas filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, toda la fila se filtrará hacia fuera.
+   La variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) puede filtrar ciertas filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, toda la fila se filtrará hacia fuera.
 
    | Campo de Analytics | Valores que hacen que se borre una fila |
    | --- | --- |
@@ -90,4 +90,4 @@ A continuación, se indican algunas de las razones por las que se pueden omitir 
 
 * **ID de persona que faltan**: los ID de persona que faltan (del conjunto de datos de eventos y/o del perfil o conjunto de datos de búsqueda) hacen que esos registros se ignoren o se omitan. El motivo es que no hay ID comunes ni claves coincidentes para unirse a los registros.
 
-* **ID de persona grande o no válida**: con ID no válidos, el sistema no puede encontrar un ID común válido entre los conjuntos de datos para unirse. En algunos casos, la columna ID de persona tiene ID de persona no válidos, como “indefinido” o “00000000”. Un ID de persona (con cualquier combinación de números y letras) que aparezca en un evento más de 1 millón de veces al mes no se puede atribuir a ningún usuario o persona en particular. Se clasificará como no válido. Estos registros no se pueden ingerir en el sistema, y conlleva a la creación de informes e ingestas propensas a errores.
+* **ID de persona grande o no válida**: con ID no válidos, el sistema no puede encontrar un ID común válido entre los conjuntos de datos para unirse. En algunos casos, la columna ID de persona tiene ID de persona no válidos, como &quot;indefinido&quot; o &quot;0000000&quot;. Un ID de persona (con cualquier combinación de números y letras) que aparezca en un evento más de 1 millón de veces al mes no se puede atribuir a ningún usuario o persona en particular. Se clasificará como no válido. Estos registros no se pueden ingerir en el sistema, y conlleva a la creación de informes e ingestas propensas a errores.
