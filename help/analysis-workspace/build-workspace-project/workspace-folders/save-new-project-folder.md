@@ -5,7 +5,7 @@ title: Guardado de proyectos en carpetas
 feature: CJA Workspace Basics
 exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
 source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
 ht-degree: 100%
 
