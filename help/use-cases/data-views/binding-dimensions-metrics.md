@@ -4,7 +4,7 @@ description: Atribuir dimensiones a matrices de objetos para un análisis de per
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1330'
 ht-degree: 100%
 
