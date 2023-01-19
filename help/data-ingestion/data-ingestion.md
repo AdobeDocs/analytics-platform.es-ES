@@ -3,7 +3,7 @@ title: Información general sobre la incorporación de datos
 description: Comprender las distintas formas de ingerir datos en Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+source-git-commit: 5de8c0daaa7eea0a9ab993d256e2b0a14f37301e
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 7%
