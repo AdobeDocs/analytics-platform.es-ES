@@ -5,7 +5,7 @@ title: Agregar carpetas en Workspace
 feature: CJA Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
