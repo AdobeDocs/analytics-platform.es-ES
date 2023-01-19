@@ -4,7 +4,7 @@ description: Explicar cómo introducir datos en Customer Journey Analytics media
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
+source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
 workflow-type: tm+mt
 source-wordcount: '3587'
 ht-degree: 8%
@@ -523,7 +523,7 @@ Para crear la conexión:
 
       - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Relleno de conjuntos de datos de datos existentes]** según sus preferencias.
 
-      ![Configurar conjuntos de datos](./assets/cja-connections-3.png)
+      ![Configurar conjuntos de datos](./assets/cja-connections-3b.png)
 
    - Select **[!UICONTROL Agregar conjuntos de datos]**.
    Seleccione **[!UICONTROL Guardar]**.
