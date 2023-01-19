@@ -5,7 +5,7 @@ exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
 source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
 ht-degree: 100%
 
