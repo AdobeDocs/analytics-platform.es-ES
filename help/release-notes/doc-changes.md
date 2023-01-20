@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7055ef91d853da02b4510ec2b9e4543f70b0bec0
+source-git-commit: 6c1abdcb4543124c1585d4461b32adb55c558032
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 95%
+source-wordcount: '1250'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Enero de 2023** |  |
+| Guías de inicio rápido | Nueva sección de documentación sobre cómo [ingesta y uso de datos](/help/data-ingestion/data-ingestion.md) en CJA. |
 | Carpetas | Páginas dedicadas para [Administración de carpetas](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferencias del usuario | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analysis-workspace/user-preferences.md). |
 | Guardar automáticamente para proyectos | Se ha actualizado el contenido para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analysis-workspace/build-workspace-project/save-projects.md). |
