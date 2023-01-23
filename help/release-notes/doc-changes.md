@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6c1abdcb4543124c1585d4461b32adb55c558032
+source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 94%
+source-wordcount: '1255'
+ht-degree: 93%
 
 ---
 
@@ -20,14 +20,14 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Enero de 2023** |  |
-| Guías de inicio rápido | Nueva sección de documentación sobre cómo [ingesta y uso de datos](/help/data-ingestion/data-ingestion.md) en CJA. |
-| Carpetas | Páginas dedicadas para [Administración de carpetas](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| Preferencias del usuario | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analysis-workspace/user-preferences.md). |
-| Guardar automáticamente para proyectos | Se ha actualizado el contenido para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| Guías de inicio rápido sobre la ingesta de datos | Nueva sección de documentación sobre cómo [ingesta y uso de datos](/help/data-ingestion/data-ingestion.md) en CJA. |
+| Carpetas de Workspace | Páginas dedicadas para [Administración de carpetas](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Preferencias de usuario de Workspace | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analysis-workspace/user-preferences.md). |
+| Guardar automáticamente para proyectos de Workspace | Se ha actualizado el contenido para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Página de aterrizaje | Nuevas actualizaciones de la página de aterrizaje [página de aterrizaje](/help/getting-started/landing.md). |
 | Programar libros | Página dedicada para describir cómo [Programar libros](/help/report-builder/schedule-reportbuilder.md) en Report Builder. |
 
-## 2022
+## 2022 {#22}
 
 | Fecha | Actualizar descripción |
 | --- | --- |
@@ -85,7 +85,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2021
+## 2021 {#21}
 
 | Fecha | Actualizar descripción |
 | --- | --- |
@@ -126,7 +126,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2020
+## 2020 {#20}
 
 | Fecha | Actualizar descripción |
 | --- | --- |
