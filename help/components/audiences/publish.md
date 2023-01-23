@@ -2,10 +2,10 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: f45485d7e26827a85abe47168b1a3dbdbe150e53
+source-git-commit: 2cc4dc1472406314e9ba3a5ab17c08bb7696f6c0
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 79%
+source-wordcount: '1289'
+ht-degree: 75%
 
 ---
 
@@ -84,7 +84,7 @@ Después de crear una audiencia, Adobe crea un segmento de flujo continuo de Exp
 
 ## Usar audiencias de CJA en Experience Platform {#audiences-aep}
 
-Ahora, CJA toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). CJA envía la audiencia a Experience Platform con la identidad principal establecida en el valor que se haya seleccionado como ID de la persona cuando se configuró la conexión.
+CJA toma todas las combinaciones de espacio de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). CJA envía la audiencia al Experience Platform con el conjunto de identidades principal, según lo que se haya seleccionado como [!UICONTROL ID de persona] cuando se configuró la conexión.
 
 A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, «user@adobe.com» se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
@@ -98,33 +98,47 @@ Puede arrastrar audiencias de CJA a la definición del segmento para segmentos d
 
 Preguntas más frecuentes sobre la publicación de audiencias.
 
-### ¿Qué sucede si un usuario ya no es miembro de una audiencia en CJA?
++++**¿Qué sucede si un usuario ya no es miembro de una audiencia en CJA?**
 
 En este caso, se envía un evento de salida al Experience Platform desde CJA.
 
-### ¿Qué sucede si elimina una audiencia en CJA?
++++
+
++++**¿Qué sucede si elimina una audiencia en CJA?**
 
 Cuando se elimina una audiencia de CJA, esta ya no aparecerá en la IU de Experience Platform. Sin embargo, en Platform no se eliminan perfiles asociados a esa audiencia.
 
-### Si no existe un perfil correspondiente en RTCDP, ¿se creará un nuevo perfil?
++++
+
++++**Si no existe un perfil correspondiente en RTCDP, ¿se creará un nuevo perfil?**
 
 Sí, lo hará.
 
-### ¿CJA envía los datos de audiencia como eventos de canalización o como un archivo plano que también se dirige a un lago de datos?
++++
 
-Transmite los datos a RTCP mediante canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
++++**¿CJA envía los datos de audiencia como eventos de canalización o como un archivo plano que también se dirige a un lago de datos?**
 
-### ¿Qué identidades envía CJA?
+CJA transmite los datos a RTCP mediante canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
 
-Independientemente de los pares de identidad/área de nombres que se hayan utilizado en la configuración de Conexión. Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como &quot;ID de persona&quot;.
++++
 
-### ¿Qué se elige como identidad principal?
++++**¿Qué identidades envía CJA?**
+
+Los pares de identidad/área de nombres que se usaron en la variable [Configuración de la conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como &quot;ID de persona&quot;.
+
++++
+
++++**¿Qué ID se elige como identidad principal?**
 
 Véase más arriba. Solo enviamos una identidad por cada &quot;persona&quot; de CJA.
 
-### ¿RTCP también procesa los mensajes CJA? ¿Puede CJA añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias?
++++
+
++++**¿RTCP también procesa los mensajes CJA? ¿Puede CJA añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias?**
 
 No. Solo enviamos una identidad por &quot;persona&quot;, por lo que no habría bordes de gráficos para que el RTCP lo consuma.
+
++++
 
 ## Pasos siguientes
 
