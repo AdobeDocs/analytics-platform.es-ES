@@ -2,10 +2,10 @@
 title: Registros de auditoría
 description: Obtenga información sobre cómo ver y administrar los registros de auditoría de CJA.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '849'
-ht-degree: 100%
+source-git-commit: 53d019f99cbf06ee97243121fbf46f6d3ee9f0a7
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Se muestran los siguientes elementos:
 | Nombre de la acción | Esta es la lista de las posibles acciones: <ul><li>API_Request</li><li>Aprobar</li><li>Crear</li><li>Editar</li><li>Exportar</li><li>Login_failed</li><li>Login_successful</li><li>Cerrar sesión</li><li>Org_change</li><li>Actualizar</li><li>Compartir</li><li>Transferir</li><li>Desaprobar</li><li>Dejar de compartir</li></ul> |
 | Descripción | Resumen de la acción, tipo de componente (con ID) y otros valores. |
 | Nombre de usuario | El usuario que realiza la acción. |
-| Tipo de componente | Los tipos de componentes posibles incluyen: <ul><li>Anotación</li><li>Audiencia</li><li>Métrica calculada</li><li>Conexión</li><li>Data_Group</li><li>Data_View</li><li>Feature_Access</li><li>Filtro</li><li>IMS_Org</li><li>Móvil</li><li>Proyecto</li><li>Informe</li><li>Scheduled_Project</li><li>Usuario</li><li>User_Group</li></ul> |
+| Tipo de componente | Los tipos de componentes posibles incluyen: <ul><li>Anotación</li><li>Audiencia</li><li>Métrica calculada</li><li>Conexión</li><li>Data_Group</li><li>Data_View (este tipo de componente incluye dimensiones y métricas)</li><li>Feature_Access</li><li>Filtro</li><li>IMS_Org</li><li>Móvil</li><li>Proyecto</li><li>Informe</li><li>Scheduled_Project</li><li>Usuario</li><li>User_Group</li></ul> |
 | ID de organización IMS | ID único que se proporciona a la instancia de un usuario que inicia sesión por primera vez en Adobe Experience Cloud. Debe tener el formato siguiente: xxx@AdobeOrg. |
 | ID de usuario | ID único que identifica al usuario que realizó esta acción. |
 | Fecha de creación | Cuando se realizó esta acción. |
