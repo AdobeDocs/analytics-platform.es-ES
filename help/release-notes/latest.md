@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a6ce6409eb7a4d853d5390cd62f4a9506ee6282a
+source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 39%
+source-wordcount: '537'
+ht-degree: 41%
 
 ---
 
 # Notas de la versión del Customer Journey Analytics actual (CJA) (enero de 2023)
 
-**Última actualización**: 23 de enero de 2023
+**Última actualización**: 13 de enero de 2023
 
 Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,7 +20,6 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 
 | Función | Descripción | [Inicio del despliegue](/help/release-notes/releases.md) | [Disponibilidad general](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **Actualización de las audiencias de CJA** | Después de crear una audiencia, [Adobe crea un segmento de flujo continuo de Experience Platform para cada nueva audiencia de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). | N/A | 23 de enero de 2023 |
 | **Carpetas en el Espacio de trabajo** | Las carpetas le ayudan a organizar y categorizar sus proyectos para una mejor recuperación y acceso. Además, un **[!UICONTROL Empresa]** permite a los administradores crear y compartir contenido fácilmente con todos los usuarios de Workspace.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=es) | N/A | 11 de enero de 2023 |
 | **Página de aterrizaje predeterminada** | La variable [nueva página de aterrizaje](/help/getting-started/landing.md) que se introdujo a principios de 2022 se convertirá en la experiencia predeterminada para todos los usuarios de **11 de enero de 2023**. La página de aterrizaje heredada quedará obsoleta y todos tendrán que utilizar la nueva experiencia. | N/A | 11 de enero de 2023 |
 | **Página Administrador de proyectos en desuso** | Con el lanzamiento de la nueva página de aterrizaje, hemos desaprobado el **[!UICONTROL Administrador de proyectos]** como aparece en **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Componentes]**. La nueva página de aterrizaje tiene todas las funciones de la antigua página Administrador de proyectos y más.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#deprecate-pm-page) | N/A | 11 de enero de 2023 |

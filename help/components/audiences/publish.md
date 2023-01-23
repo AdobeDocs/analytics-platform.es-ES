@@ -2,10 +2,10 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 2cc4dc1472406314e9ba3a5ab17c08bb7696f6c0
+source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 75%
+source-wordcount: '1192'
+ht-degree: 81%
 
 ---
 
@@ -71,16 +71,6 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    Si todo salió bien, recibirá un mensaje de confirmación conforme se ha publicado la audiencia. La audiencia solo tardará un minuto o dos en mostrarse en Experience Platform. (Incluso las audiencias con millones de miembros deberían tardar menos de 5 minutos).
 
 1. Haga clic en **[!UICONTROL Ver la audiencia en AEP]** dentro del mismo mensaje y se le redirigirá a la [Interfaz de usuario de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
-
-## Qué sucede después de crear una audiencia {#after-audience-created}
-
-Después de crear una audiencia, Adobe crea un segmento de flujo continuo de Experience Platform para cada nueva audiencia de CJA.
-
-* El segmento de AEP comparte el mismo nombre/descripción que la audiencia de CJA, pero el nombre se adjuntará con el ID de audiencia de CJA para garantizar que sea único.
-
-* Si cambia el nombre o la descripción de la audiencia de CJA, el nombre o la descripción del segmento de AEP también reflejarán ese cambio.
-
-* Si un usuario elimina una audiencia de CJA, el segmento de AEP NO se elimina. La razón es que la audiencia de CJA puede ser posteriormente deseliminada.
 
 ## Usar audiencias de CJA en Experience Platform {#audiences-aep}
 
