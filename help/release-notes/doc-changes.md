@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 93%
+source-wordcount: '1282'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Guardar automáticamente para proyectos de Workspace | Se ha actualizado el contenido para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Página de aterrizaje | Nuevas actualizaciones de la página de aterrizaje [página de aterrizaje](/help/getting-started/landing.md). |
 | Programar libros | Página dedicada para describir cómo [Programar libros](/help/report-builder/schedule-reportbuilder.md) en Report Builder. |
+| Compatibilidad con matrices de objetos para conjuntos de datos de perfil y búsqueda | Actualizado [Usar matrices de objetos](/help/use-cases/object-arrays.md) y [Ingesta de audiencias de AEP](/help/use-cases/data-ingestion/ingest-aep-segments.md) para reflejar la compatibilidad de matrices de objetos para conjuntos de datos de perfil y búsqueda. |
 
 ## 2022 {#22}
 

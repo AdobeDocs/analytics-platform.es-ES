@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 41%
+source-wordcount: '561'
+ht-degree: 40%
 
 ---
 
@@ -26,6 +26,7 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 | **Programar libros en el Report Builder** | En Customer Journey Analytics, puede crear programaciones para enviar libros a intervalos regulares. Ahora los destinatarios pueden recibir las actualizaciones más recientes de sus libros de trabajo de forma regular.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html) | N/A | 11 de enero de 2023 |
 | **Guardar automáticamente nuevos proyectos** | Analysis Workspace ahora guarda automáticamente los proyectos recién creados. Si, por cualquier motivo, pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, ya está disponible una versión de recuperación del proyecto. Anteriormente, los proyectos se guardaban automáticamente solo después de guardarse inicialmente manualmente.  [Más información](/help/analysis-workspace/build-workspace-project/save-projects.md) | N/A | 11 de enero de 2023 |
 | **Preferencias de usuario mejoradas** | Ahora puede configurar preferencias adicionales a nivel de usuario (en [!UICONTROL Componentes] > [!UICONTROL Preferencias]). Al establecer las preferencias de usuario, las selecciones se extienden a lo largo de los proyectos, tablas y visualizaciones. La página Preferencias ahora contiene las siguientes pestañas nuevas, cada una de las cuales contiene muchas opciones de configuración nuevas:<ul><li>Tabla de forma libre</li><li>Visualizaciones>/li></ul>  Además, ahora hay más preferencias disponibles en el **[!UICONTROL General]** y **[!UICONTROL Proyecto]** pestañas.<p>Anteriormente, muchas de estas preferencias solo se podían configurar para proyectos, tablas y visualizaciones individuales.  [Más información](/help/analysis-workspace/user-preferences.md) | N/A | 11 de enero de 2023 |
+| **Compatibilidad con matrices de objetos para conjuntos de datos de perfil y búsqueda** | Los conjuntos de datos de perfil y los conjuntos de datos de búsqueda ahora admiten matrices de objetos para su uso en CJA. | N/A | 11 de enero de 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 
