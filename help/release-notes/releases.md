@@ -2,10 +2,10 @@
 description: Explica la estrategia de lanzamiento continuo de funciones para Customer Journey Analytics
 title: Lanzamiento de funciones de Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
-source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: 40f145d20125c41f3399ab0690a673f01c1817e3
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,9 @@ Las versiones de Customer Journey Analytics operan en un modelo de entrega conti
 
 [!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “alternadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
-* **Inicio del despliegue**: el despliegue de una versión por fases comienza con pruebas limitadas realizadas por los usuarios internos de Adobe. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
+* **Prueba limitada**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas de cliente para garantizar que la función satisfaga las necesidades y expectativas de los clientes.
+
+* **Inicio de la implementación**: La implementación de una versión por fases comienza con la fase Prueba limitada . Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
 * **Disponibilidad general (GA)**: La funcionalidad está disponible para el 100% de las organizaciones de Experience Cloud y la versión de la funcionalidad está completa.
 
