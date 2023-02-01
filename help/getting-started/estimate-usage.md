@@ -4,10 +4,10 @@ description: Muestra dos métodos para estimar el uso y uno para administrarlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: a69cb8a419d95e0cab666fceea9cb7ebf6daef73
+source-git-commit: d38e4c4cd589e6708b0a6b5856da341344f6440e
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 41%
+source-wordcount: '864'
+ht-degree: 37%
 
 ---
 
@@ -99,5 +99,5 @@ La principal ventaja es que solo almacena o genera informes sobre datos que son 
 
 Si deja el valor predeterminado (sin marcar), el período de retención se sustituirá por la configuración de retención de datos de Adobe Experience Platform. Si tiene datos de 25 meses en Experience Platform, CJA recibirá 25 meses de datos mediante el relleno. Si eliminase 10 de esos meses en Platform, CJA conservaría los 15 meses restantes.
 
-La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Sin embargo, si la conexión incluye perfiles o conjuntos de datos de búsqueda (además de uno o más conjuntos de datos de evento), esos datos se conservarán durante el mismo período de tiempo.
+La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Si la conexión incluye cualquier perfil o conjunto de datos de búsqueda, ya que se unen con conjuntos de datos de evento, los datos se retienen en CJA en función de la configuración de retención de datos en las marcas de tiempo del conjunto de datos de evento.
 
