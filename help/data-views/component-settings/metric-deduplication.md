@@ -4,10 +4,10 @@ description: Cuenta solo la primera aparición de una métrica en los informes.
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: e2ebda486eae7740351370f48bdf104c90494ae3
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 75%
 
 ---
 
@@ -22,3 +22,7 @@ La anulación de deduplicación de métricas le permite configurar una métrica 
 | [!UICONTROL ID de anulación de duplicación] | En lugar de aplicar la anulación de deduplicación en la propia métrica, le permite aplicar la anulación de duplicación de métricas en función de una dimensión. Útil para dimensiones como ID de compra para aplicar la anulación de deduplicación. |
 
 {style=&quot;table-layout:auto&quot;}
+
+>[!CAUTION]
+>
+>   Deduplicación en un _person_ el ámbito se evalúa mediante meses completos en tiempo UTC. Es posible que una ventana de informes de mes parcial no muestre todas las instancias primera o última, si algunas ocurrieron dentro del mes completo pero fuera de las fechas de informes.
