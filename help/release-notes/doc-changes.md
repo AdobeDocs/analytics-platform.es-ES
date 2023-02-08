@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fe8a2ee1af1f022f56116ea64460e4ad1b572b8e
+source-git-commit: 7f137f545ca2da64f4019818e0b00ab8d96e312f
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 89%
+source-wordcount: '1343'
+ht-degree: 87%
 
 ---
 
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 | Función | Descripción |
 | --- | --- |
+| **Febrero de 2023** |  |
+| Actualización de la documentación de Audiences | Después de crear una audiencia, Adobe crea un Experience Platform [segmento de flujo continuo para cada nueva audiencia de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | **Enero de 2023** |  |
 | Filtrado y ordenación de tablas | Se ha actualizado el contenido (incluyendo procedimientos y explicaciones de las opciones disponibles) en la [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artículo. Se ha cambiado el nombre de este artículo de &quot;Paginación, filtrado y ordenación de tablas&quot;. |
 | Guías de inicio rápido sobre la ingesta de datos | Nueva sección de documentación sobre cómo [ingesta y uso de datos](/help/data-ingestion/data-ingestion.md) en CJA. |
