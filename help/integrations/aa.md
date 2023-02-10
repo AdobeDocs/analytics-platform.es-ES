@@ -1,10 +1,11 @@
 ---
-title: Integración de Adobe Analytics con el Customer Journey Analytics
+title: Integración de soluciones de Adobe Analytics con Customer Journey Analytics
 description: Integrar Adobe Analytics con CJA
-source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
-workflow-type: tm+mt
+exl-id: 0a9998df-a538-4a84-95a9-98706bd99ac1
+source-git-commit: fecc7355ff0d091f97238433487af8e36d2012f7
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
