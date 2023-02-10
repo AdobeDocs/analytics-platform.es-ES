@@ -8,7 +8,7 @@ exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
 workflow-type: tm+mt
 source-wordcount: '1454'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Gran parte de lo que está familiarizado con los informes no ha cambiado.
 
 ## Cambios en los informes
 
-Tiene acceso a muchos más datos de canales cruzados para analizar. Por ejemplo, puede crear un proyecto de espacio de trabajo que analice el rendimiento de varios canales, siempre que su organización incorpore estos conjuntos de datos y los incluya en las vistas de datos utilizadas por CJA (consulte “Cambios en la arquitectura de datos” a continuación).
+Tiene acceso a muchos más datos de canales cruzados para analizar. Por ejemplo, puede crear un proyecto de Workspace que analice el rendimiento de varios canales, siempre que su organización incorpore estos conjuntos de datos y los incluya en las vistas de datos utilizadas por CJA (consulte “Cambios en la arquitectura de datos” a continuación).
 
 ![visualizaciones multicanal](assets/cross-channel.png)
 
@@ -104,10 +104,10 @@ Los “atributos del cliente” ahora se conocen como “Conjuntos de datos de p
 
 ## Cambios en la forma en que el Adobe identifica a los visitantes
 
-CJA amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar [Cross-Channel Analytics](/help/cca/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto de Workspace en CJA debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en CJA:
+CJA amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar [Análisis en canales múltiples](/help/cca/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto de Workspace en CJA debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en CJA:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## Cambios en el concepto de elemento de dimensión de poco tráfico
 
-En Adobe Analytics tradicional, una variable que recibe demasiados valores únicos comienza a agrupar los elementos de dimensión en [!UICONTROL Poco tráfico]. CJA tiene menos limitaciones en los campos de alta cardinalidad. Los cambios en la arquitectura de informes permiten que Analysis Workspace informe sobre muchos elementos de dimensión únicos más. Consulte [Larga cola](../analysis-workspace/workspace-faq/long-tail.md) para obtener más información sobre cómo CJA optimiza el sistema de informes para dimensiones con muchos valores únicos.
+En Adobe Analytics tradicional, una variable que recibe demasiados valores únicos comienza a agrupar los elementos de dimensión en [!UICONTROL Poco tráfico]. CJA tiene menos limitaciones en los campos de alta cardinalidad. Los cambios en la arquitectura de informes permiten a Analysis Workspace crear informes sobre muchos elementos de dimensión únicos más. Consulte [Larga cola](../analysis-workspace/workspace-faq/long-tail.md) para obtener más información sobre cómo CJA optimiza el sistema de informes para dimensiones con muchos valores únicos.

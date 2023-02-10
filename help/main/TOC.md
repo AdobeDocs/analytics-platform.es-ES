@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 45c6e6db751f5a73bb9d44d3a6641c7369d6252f
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -49,12 +49,12 @@ ht-degree: 94%
       + [AAID, ECID, AACUSTOMID y el conector de origen de Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
 
 + Ingesta de datos {#cja-data-ingestion}
-   + [Información general sobre la incorporación de datos](../data-ingestion/data-ingestion.md)
-   + Ingesta y uso de guías de inicio rápido{#ingest-use-guides}
+   + [Información general sobre la ingesta de datos](../data-ingestion/data-ingestion.md)
+   + Guías de inicio rápido de ingesta y uso{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + [SDK web de Adobe Experience Platform y red perimetral](../data-ingestion/aepwebsdk.md)
+      + [SDK web de Adobe Experience Platform y Edge Network](../data-ingestion/aepwebsdk.md)
       + [Datos por lotes](../data-ingestion/batch.md)
-      + [Transmisión de datos](../data-ingestion/streaming.md)
+      + [Datos de streaming](../data-ingestion/streaming.md)
       + [Conectores de origen](../data-ingestion/sources.md)
 
 + Conexiones {#cja-connections}
@@ -91,8 +91,8 @@ ht-degree: 94%
    + Proyectos {#build-workspace-project}
       + [Información general sobre Proyectos](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
-      + Carpetas en el Espacio de trabajo {#workspace-folders}
-         + [Acerca de las carpetas en el Espacio de trabajo](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + Carpetas en Workspace {#workspace-folders}
+         + [Acerca de las carpetas en Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creación de carpetas y subcarpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Eliminar carpetas](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Agregar proyectos](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -113,7 +113,7 @@ ht-degree: 94%
             + [Elementos dinámicos vs. estáticos](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Paginación, filtrado y ordenación de tablas](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
 
-         + [Totales del Espacio de trabajo](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totales de Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -226,9 +226,9 @@ ht-degree: 94%
       + Flujo de trabajo de las métricas calculadas {#cm-workflow}
          + [Flujo de trabajo de las métricas calculadas](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Buscar métricas](../components/calc-metrics/cm-workflow/cm-finding.md)
-         + [Crear métricas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Generar métricas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Tipo de métrica y atribución](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Crear una métrica “Vistas de página por visitas” simple](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Generar una métrica “Vistas de página por visitas” simple](../components/calc-metrics/cm-workflow/cm-pvv.md)
          + [Métricas filtradas](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Apilar y sustituir segmentos](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Métricas filtradas y ponderadas](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
@@ -264,14 +264,14 @@ ht-degree: 94%
    + [Trabajo con filtros](../report-builder/work-with-filters.md)
    + [Filtrar dimensiones](../report-builder/filter-dimensions.md)
    + [Administrar bloques de datos](../report-builder/manage-reportbuilder.md)
-   + [Programar libros](../report-builder/schedule-reportbuilder.md)
+   + [Programar libros de trabajo](../report-builder/schedule-reportbuilder.md)
    + [Etiquetas restringidas](../report-builder/restricted-labels.md)
    + [Configuración de Report Builder](../report-builder/report-builder-settings.md)
 
-+ Cross-Channel Analytics {#cca}
-   + [Información general sobre Cross-Channel Analytics](../cca/overview.md)
++ Análisis en canales múltiples {#cca}
+   + [Información general sobre Análisis en canales múltiples](../cca/overview.md)
    + [Cómo funcionan las reproducciones](../cca/replay.md)
-   + [Preguntas frecuentes sobre Cross-Channel Analytics](../cca/faq.md)
+   + [Preguntas frecuentes sobre Análisis en canales múltiples](../cca/faq.md)
 
 + Integraciones de Adobe {#integrations}
    + [Información general sobre la integración de soluciones de Adobe con CJA](/help/integrations/overview.md)
@@ -310,7 +310,7 @@ ht-degree: 94%
 
 + Administración {#cja-admin}
    + [Control de acceso](../admin/cja-access-control.md)
-   + [Ver y administrar el uso](../admin/estimate-usage.md)
+   + [Ver y administrar el uso de ](../admin/estimate-usage.md)
    + [Implicaciones de eliminación](../admin/cja-deletion.md)
 
 + Labs {#labs}

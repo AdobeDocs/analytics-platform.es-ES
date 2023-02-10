@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
 source-wordcount: '1390'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Preferencias de usuario de Workspace | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analysis-workspace/user-preferences.md). |
 | Guardar automáticamente para proyectos de Workspace | Se ha actualizado el contenido para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Página de aterrizaje | Nuevas actualizaciones de la página de aterrizaje [página de aterrizaje](/help/getting-started/landing.md). |
-| Programar libros | Página dedicada para describir cómo [Programar libros](/help/report-builder/schedule-reportbuilder.md) en Report Builder. |
+| Programar libros de trabajo | Página dedicada para describir cómo [Programar libros](/help/report-builder/schedule-reportbuilder.md) en Report Builder. |
 | Compatibilidad con matrices de objetos para conjuntos de datos de perfil y búsqueda | Actualizado [Usar matrices de objetos](/help/use-cases/object-arrays.md) y [Ingesta de audiencias de AEP](/help/use-cases/data-ingestion/ingest-aep-segments.md) para reflejar la compatibilidad de matrices de objetos para conjuntos de datos de perfil y búsqueda. |
 
 ## 2022 {#22}
@@ -38,7 +38,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Fecha | Actualizar descripción |
 | --- | --- |
 | **Diciembre de 2022** |  |
-| 16 de diciembre de 2022 | Tema nuevo en [medición y administración del uso de los datos de CJA](/help/admin/estimate-usage.md). |
+| 16 de diciembre de 2022 | Tema nuevo acerca de la [medición y administración del uso de los datos de CJA](/help/admin/estimate-usage.md). |
 | **Octubre de 2022** |  |
 | Octubre de 2022 | Tema nuevo en [protección de contraseña de proyectos programados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=es#password). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Octubre de 2022 | Tema nuevo en [Claves administradas por el cliente](/help/privacy/cmk.md). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
@@ -49,8 +49,8 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Octubre de 2022 | Actualizaciones del tema [Soporte de funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
 | **Septiembre de 2022** |  |
 | Septiembre de 2022 | Nuevo caso de uso en [Migración de datos de Google Analytics a CJA](/help/use-cases/ga/overview.md). |
-| Septiembre de 2022 | Tema nuevo en [Gráficos combinados](/help/analysis-workspace/visualizations/combo-charts.md) en el espacio de trabajo. |
-| Septiembre de 2022 | Tema nuevo en [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) en el espacio de trabajo. |
+| Septiembre de 2022 | Tema nuevo acerca de los [Gráficos combinados](/help/analysis-workspace/visualizations/combo-charts.md) en Workspace. |
+| Septiembre de 2022 | Tema nuevo acerca del [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) en Workspace. |
 | **Agosto de 2022** |  |
 | Agosto de 2022 | Artículo de Adobe Experience Platform sobre [Compatibilidad entre regiones para el conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es). |
 | Agosto de 2022 | Artículo sobre [Control de acceso de CJA](/help/admin/cja-access-control.md) actualizado de forma significativa. |
@@ -81,7 +81,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | **Marzo de 2022** |  |
 | Marzo de 2022 | Nueva [Documentación de la API de anotaciones de CJA](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
 | Marzo de 2022 | Nueva documentación sobre [anotaciones en Workspace](/help/components/annotations/overview.md). |
-| Marzo de 2022 | Contenido actualizado de forma significativa en [estimación del tamaño de la conexión](/help/getting-started/cja-faq.md). |
+| Marzo de 2022 | Contenido actualizado de forma significativa en el [cálculo del tamaño de la conexión](/help/getting-started/cja-faq.md). |
 | **Febrero de 2022** |  |
 | Febrero de 2022 | Una nueva guía para administradores que se trasladan de Adobe Analytics a CJA: [Evolución de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=es) |
 | **Enero de 2022** |  |
@@ -113,17 +113,17 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Agosto de 2021 | Nueva sección sobre la experiencia mejorada [Conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es) en CJA. |
 | Agosto de 2021 | Nueva sección sobre la [distinción entre mayúsculas y minúsculas en las dimensiones de vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-behavior-settings). |
 | **Junio de 2021** |  |
-| Junio de 2021 | Nueva documentación sobre [versiones anteriores del proyecto](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=es#previous-version) el espacio de trabajo. |
+| Junio de 2021 | Nueva documentación sobre [versiones anteriores del proyecto](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=es#previous-version) en Workspace. |
 | **Abril de 2021** |  |
 | Abril de 2021 | Nuevo tema sobre [persistencia](/help/data-views/component-settings/persistence.md). |
-| Abril de 2021 | Nueva documentación sobre la compatibilidad con proyectos programados el Espacio de trabajo. |
+| Abril de 2021 | Nueva documentación sobre la compatibilidad con proyectos programados en Workspace. |
 | Abril de 2021 | Temas nuevos sobre la experiencia [Vistas de datos mejorada](/help/data-views/data-views.md). |
 | Abril de 2021 | Temas nuevos sobre [ingesta de datos de Google Analytics](/help/use-cases/ga/overview.md) y [análisis de esos datos](/help/use-cases/ga/report.md). |
-| Abril de 2021 | Se ha añadido un tema sobre [informes programados](/help/analysis-workspace/curate-share/t-schedule-report.md) el Espacio de trabajo. |
+| Abril de 2021 | Se ha añadido un tema sobre [informes programados](/help/analysis-workspace/curate-share/t-schedule-report.md) en Workspace. |
 | Abril de 2021 | Nuevo tema sobre las [dimensiones de alta cardinalidad en CJA](/help/components/dimensions/high-cardinality.md). |
 | **Marzo de 2021** |  |
 | Marzo de 2021 | Se ha añadido un tema sobre la compatibilidad con [Paneles de Analytics](/help/mobile-app/home.md) (aplicación móvil). |
-| Marzo de 2021 | Nuevo tema sobre [preferencias de usuario](/help/analysis-workspace/user-preferences.md) el Espacio de trabajo. |
+| Marzo de 2021 | Nuevo tema sobre [preferencias de usuario](/help/analysis-workspace/user-preferences.md) en Workspace. |
 | **Febrero de 2021** |  |
 | Febrero de 2021 | Nuevo tema sobre el uso de [dimensiones del canal de marketing en Adobe Experience Platform](/help/use-cases/aa-data/marketing-channels.md). |
 | Febrero de 2021 | Se ha publicado la nueva documentación [de la API de CJA](https://www.adobe.io/cja-apis/docs/). |
@@ -136,7 +136,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 | Fecha | Actualizar descripción |
 | --- | --- |
-| 13 de noviembre de 2020 | Nuevos temas sobre [Cross-Channel Analytics](/help/cca/overview.md), que le permite volver a escribir el ID de persona de un conjunto de datos y permite una combinación perfecta de varios conjuntos de datos. |
+| 13 de noviembre de 2020 | Nuevos temas sobre [Análisis en canales múltiples](/help/cca/overview.md), que le permite volver a escribir el ID de persona de un conjunto de datos y permite una combinación perfecta de varios conjuntos de datos. |
 | 13 de noviembre de 2020 | Se ha añadido un nuevo caso de uso en [importación de centro de llamadas y datos web](/help/use-cases/cross-channel/call-center.md). |
 | 10 de noviembre de 2020 | Se ha añadido una sección sobre las implicaciones de eliminar componentes de datos en las [preguntas frecuentes](/help/getting-started/cja-faq.md). |
 | 2 de noviembre de 2020 | Actualizaciones a la página [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
