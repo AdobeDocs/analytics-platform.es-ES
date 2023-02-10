@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Este caso de uso explora una forma provisional y manual de incorporar audiencias
 
 El [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCP) de Adobe Experience Platform le permite ver una vista holística de cada cliente individual combinando datos de varios canales, incluidos en línea, sin conexión, CRM y de terceros.
 
-Es probable que ya tenga audiencias en RTCP que puedan provenir de varias fuentes. Elija una o más audiencias para ingerirlas en CJA.
+Es probable que ya tenga audiencias en RTCP que puedan provenir de varios orígenes. Elija una o más audiencias para ingerirlas en CJA.
 
 ## Paso 2: Creación de un conjunto de datos de unión de perfiles para la exportación
 
@@ -37,7 +37,7 @@ Los esquemas de unión están compuestos por varios esquemas que comparten la mi
 
 ## Paso 3: Exportación de una audiencia al conjunto de datos de unión de perfiles mediante una llamada de API {#export}
 
-Para poder introducir una audiencia en CJA, debe exportarla a un conjunto de datos de AEP. Esto solo se puede hacer con la API de segmentación y, específicamente, con [Exportar extremo de API de trabajos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es).
+Para poder introducir una audiencia en CJA, debe exportarla a un conjunto de datos de AEP. Esto solo se puede hacer con la API de segmentación y, específicamente, con [Exportar punto final de API de trabajos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es).
 
 Puede crear un trabajo de exportación utilizando el ID de audiencia que elija y poner los resultados en el conjunto de datos de AEP de unión de perfiles que creó en el paso 2. Aunque puede exportar varios atributos o eventos para la audiencia, solo necesita exportar el campo ID de perfil específico que coincida con el campo ID de persona utilizado en la conexión de CJA que va a aprovechar (consulte a continuación en el paso 5).
 
@@ -88,6 +88,6 @@ Ahora puede informar sobre `audienceMembershipId`, `audienceMembershipIdName` y 
 * Debe realizar este proceso en una cadencia normal, de modo que los datos de audiencia se actualicen constantemente dentro de CJA.
 * Puede importar varias audiencias dentro de una sola conexión CJA. Esto añade complejidad adicional al proceso, pero es posible. Para que esto funcione, debe realizar algunas modificaciones en el proceso anterior:
    1. Realice este proceso para cada audiencia deseada en la colección de audiencias dentro de RTCP.
-   1. CJA admite matrices/matrices de objetos en conjuntos de datos de perfil. Uso de un [matriz de objetos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en) para audienceMembershipId o audienceMembershipIdName es la mejor opción.
+   1. CJA admite matrices/matrices de objetos en conjuntos de datos de perfil. El uso de una [matriz de objetos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=es) para audienceMembershipId o audienceMembershipIdName es la mejor opción.
    1. En la vista de datos, cree una nueva dimensión con la transformación de la subcadena en el campo `audienceMembershipId` para convertir la cadena de valores separados por comas en una matriz. NOTA: Actualmente hay un límite de 10 valores en la matriz.
    1. Ahora puede generar informes sobre esta nueva dimensión `audienceMembershipIds` dentro de CJA Workspace.
