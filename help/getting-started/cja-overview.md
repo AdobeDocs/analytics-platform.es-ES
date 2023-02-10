@@ -4,7 +4,7 @@ description: Descubra la forma en que Customer Journey Analytics le permite util
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f70cb6a8567d1bb2f844b1694f552ec4bfe70adc
+source-git-commit: e808ac175092af659ac702bb43f94f82c0ff22f9
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Para poder iniciar desde Customer Journey Analytics, se deben cumplir los siguie
 
 ## Control de acceso
 
-Consulte el tema [Control de acceso](/help/getting-started/cja-access-control.md).
+Consulte el tema [Control de acceso](/help/admin/cja-access-control.md).
 
 ## Actualizaciones terminológicas
 
