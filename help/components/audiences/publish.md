@@ -2,10 +2,10 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
+source-git-commit: d343436f5b72e30b420088f9e9a3a8fb9b97becb
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 70%
+source-wordcount: '1430'
+ht-degree: 68%
 
 ---
 
@@ -84,14 +84,13 @@ Después de crear una audiencia, Adobe crea un segmento de flujo continuo de Exp
 
 En varios puntos antes, durante y después de la publicación de la audiencia, pueden producirse latencias. A continuación se muestra una descripción general de las posibles latencias.
 
-![](assets/latency-diagram.png)
-
 | Punto de latencia | Duración de la latencia |
 | --- | --- |
 | Ingesta de datos en Data Lake | Hasta 30 minutos |
 | Ingesta de datos de Experience Platform a CJA | Hasta 60 minutos |
-| Publicación de audiencias en el Perfil del cliente en tiempo real | Menos de 5 minutos (según el tamaño de la audiencia) |
+| Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de flujo continuo y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
+| Creación de destino en AEP: Activación del nuevo segmento en Adobe Target | Actualmente, esto puede tardar hasta 24 horas, según el intervalo de actualización de audiencia y el tipo de evaluación de segmentos |
 
 ## Usar audiencias de CJA en Experience Platform {#audiences-aep}
 
