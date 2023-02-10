@@ -4,7 +4,7 @@ description: Página de aterrizaje de Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
+source-git-commit: 6e90688d72ddf7791ad8c4c12d5293070d987e39
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 82%
@@ -31,7 +31,7 @@ Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=en"> Comparar el procesamiento de datos entre las funciones de informes de Adobe Analytics y CJA </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=en"> Grupos de informes virtuales, vistas de datos, zonas protegidas de AEP y el conector de origen de Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html"> Evolución de Adobe Analytics a Customer Journey Analytics </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.htm"> Guía del usuario de CJA para usuarios de Adobe Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html"> Guía del usuario de CJA para usuarios de Adobe Analytics </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es#connection-detail"> Uso de las funciones mejoradas de la administración de conexiones </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=es#cja-dataviews"> Uso de las capacidades de vistas de datos mejoradas </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>Introducción</b> </p> 
