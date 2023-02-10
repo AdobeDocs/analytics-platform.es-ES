@@ -5,9 +5,9 @@ exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: f7d50753f4c6d64492682d7c1269a4d45aea8a31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '853'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Este caso de uso de B2B se muestra cómo especificar los datos en cuanto a cuent
 
 Todo esto se logra mediante la introducción de la información de nivel de cuenta como un conjunto de datos [lookup](/help/getting-started/cja-glossary.md).
 
-Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (CJA) que combina distintos conjuntos de datos, incluido el de consulta que se ha creado. A continuación, cree una vista de datos y, finalmente, podrá utilizar todos estos datos el Espacio de trabajo.
+Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (CJA) que combina distintos conjuntos de datos, incluido el de consulta que se ha creado. A continuación, cree una vista de datos y, finalmente, podrá utilizar todos estos datos en Workspace.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Primero debe crear un esquema de consulta en Adobe Experience Platform y luego c
 
 ## 1. Crear esquema de consulta (Experience Platform)
 
-Creación de su propio esquema para la [consulta](/help/getting-started/cja-glossary.md) garantiza que el conjunto de datos utilizado estará disponible en CJA con la configuración correcta (tipo de registro). Una práctica recomendada es: [crear una clase de esquema personalizada](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#create-new-class) llamado &quot;Búsqueda&quot;, vacío de cualquier elemento, que se puede reutilizar para todas las tablas de búsqueda.
+Creación de su propio esquema para la [consulta](/help/getting-started/cja-glossary.md) garantiza que el conjunto de datos utilizado estará disponible en CJA con la configuración correcta (tipo de registro). La práctica recomendada es [crear una clase de esquema personalizada](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#create-new-class) llamada “Consulta”, vacía, que se puede reutilizar para todas las tablas de consulta.
 
 ![](../assets/create-new-class.png)
 
@@ -63,7 +63,7 @@ Para este ejemplo, combinamos 3 conjuntos de datos en una conexión CJA:
 | --- | --- | --- | --- |
 | Impresión B2B | Contiene datos de flujo de navegación a nivel de evento de la cuenta. Por ejemplo, contiene el ID de correo electrónico y el ID de cuenta correspondiente, así como el nombre de marketing para realizar campañas publicitarias. También incluye las impresiones de esas campañas publicitarias, por usuario. | Basado en la clase de esquema XDM ExperienceEvent | El `emailID` se usa como identidad principal y se asigna un área de nombres de `Customer ID`. Como resultado, se mostrará como el valor predeterminado **[!UICONTROL Person ID]** en Customer Journey Analytics. ![Impresiones](../assets/impressions-mixins.png) |
 | Perfil B2B | Este conjunto de datos de perfil proporciona más información sobre los usuarios de una cuenta, como su puesto de trabajo, a qué cuenta pertenecen, su perfil de LinkedIn, etc. | Basado en la clase de esquema de Perfil individual XDM | No es necesario seleccionar `emailID` como ID principal en este esquema. Asegúrese de habilitar **[!UICONTROL Perfil]**; si no lo hace, CJA no podrá conectar el `emailID` en Perfil B2B con el `emailID` en los datos de impresión B2B. ![Perfil](../assets/profile-mixins.png) |
-| Información B2B | Consulte “Creación de un conjunto de datos de consulta” más arriba. | B2BAccount (clase de esquema de consulta personalizada) | La relación entre `accountID` y el conjunto de datos de Impresiones B2B se ha creado automáticamente conectando el conjunto de datos de información B2B con el conjunto de datos de Impresión B2B en CJA, como se describe en los pasos que aparecen a continuación. ![Consulta](../assets/lookup-mixins.png) |
+| Información B2B | Consulte “Creación de un conjunto de datos de consulta” más arriba. | B2BAccount (clase de esquema de consulta personalizada) | La relación entre `accountID` y el conjunto de datos de Impresiones B2B se ha creado automáticamente conectando el conjunto de datos de información B2B con el conjunto de datos de Impresión B2B en CJA, como se describe en los pasos que aparecen a continuación. ![Búsqueda](../assets/lookup-mixins.png) |
 
 Así se combinan los conjuntos de datos:
 
@@ -80,9 +80,9 @@ Siga las instrucciones de [creación de vistas de datos](/help/data-views/create
 
 * Añada todos los componentes (dimensiones y métricas) que necesite de los conjuntos de datos.
 
-## 6. Analizar los datos en Espacio de trabajo
+## 6. Analizar los datos en Workspace
 
-Ahora puede crear proyectos del Espacio de trabajo basados en los datos de los 3 conjuntos de datos.
+Ahora puede crear proyectos de Workspace basados en los datos de los 3 conjuntos de datos.
 
 Por ejemplo, puede encontrar respuestas a las consultas planteadas en la introducción:
 
