@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 
    ![](../assets/integers.png)
 
-1. Ahora puede agregar [!UICONTROL Clasificación de valor] para presentar esta dimensión en forma de agrupación en los informes. (Sin agrupar, cada instancia de esta dimensión aparecería como un elemento de línea en los informes del Espacio de trabajo).
+1. Ahora puede agregar [!UICONTROL Clasificación de valor] para presentar esta dimensión en forma de agrupación en los informes. (Sin agrupar, cada instancia de esta dimensión aparecería como un elemento de línea en los informes de Workspace).
 
    ![](../assets/bucketing.png)
 
@@ -49,7 +49,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en CJA. A
 Puede utilizar una dimensión numérica para obtener “métricas” en la visualización de [!UICONTROL flujo].
 
 1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
-2. En los informes del Espacio de trabajo, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
+2. En los informes de Workspace, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
 
 ![](../assets/flow.png)
 
@@ -59,7 +59,7 @@ Esta función se aplica específicamente a los campos basados en matrices. La fu
 
 Por ejemplo, puede usar la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 dólares. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 dólares y una compra de productos de 25 dólares, solo quitaríamos esta última, no todo el pedido.
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Ingresos] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
 a. En [!UICONTROL Formato], seleccione [!UICONTROL Moneda].
 b. En [!UICONTROL Moneda], seleccione USD.
@@ -99,9 +99,9 @@ Una dimensión y dos métricas facilitan esta creación de informes:
 
 *  [Tipo de sesión:](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional) Esta dimensión tiene dos valores: 1) [!UICONTROL Nueva] y 2) [!UICONTROL Retorno]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
 
-* [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). La métrica de sesiones nuevas se entiende como la primera sesión definida por una persona dentro de la ventana de creación de informes.
+* [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). La métrica de sesiones nuevas se entiende como la primera sesión definida por una persona dentro de la ventana de creación de informes.
 
-* [Sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) La métrica de sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.-->
+* [Sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional) La métrica de sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.-->
 
 Para acceder a este componente, haga lo siguiente:
 
@@ -123,7 +123,7 @@ Los esquemas de Adobe Experience Platform contienen campos [!UICONTROL Fecha] y 
 
 * Para el formato de fecha y hora, si selecciona **[!UICONTROL Minuto del día]** con el formato **[!UICONTROL Hora:Minuto]**, el resultado puede ser similar a “20:20”.
 
-Actualmente, se admiten fechas posteriores al 1 de enero de 1900 (con la única excepción del 1 de enero de 1970) y valores de fecha y hora posteriores al 1 de enero de 2000 00:00:00.
+Actualmente, se admiten fechas posteriores al 1 de enero de 1900 (con la única excepción del 1 de enero de 1970) y valores de fecha y hora posteriores al 1 de enero de 2000 00:00:00.
 
 ### Casos de uso de fecha y hora
 
