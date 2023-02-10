@@ -5,17 +5,17 @@ exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: afc4dfd808b12be869edbd5e93a4069b93488739
-workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # Usar matrices de objetos
 
-Algunos esquemas de la plataforma pueden tener matrices de objetos. CJA admite la ingesta y el sistema de informes de matrices de objetos dentro de datos de evento, búsqueda y perfil. Uno de los ejemplos más comunes sería un carro de compras que tiene varios productos. Cada producto tiene un nombre, SKU, categoría, precio, cantidad y cualquier otra dimensión que desee rastrear. Todas estas facetas tienen requisitos diferentes, pero todas deben encajar en la misma visita.
+Algunos esquemas de la plataforma pueden tener matrices de objetos. CJA admite la ingesta y los informes de matrices de objetos dentro de datos de evento, búsqueda y perfil. Uno de los ejemplos más comunes sería un carro de compras que tiene varios productos. Cada producto tiene un nombre, SKU, categoría, precio, cantidad y cualquier otra dimensión que desee rastrear. Todas estas facetas tienen requisitos diferentes, pero todas deben encajar en la misma visita.
 
-En versiones anteriores de Adobe Analytics, esta función se realizaba con la variable `products`. Era una cadena concatenada separada por punto y coma (`;`) para distintas facetas de un producto, y con coma (`,`) para delinear productos. Era la única variable con compatibilidad limitada con &quot;matrices de objetos&quot;. Las variables de varios valores, como las variables de lista, podrían admitir el equivalente de matrices, pero no podrían admitir &quot;matrices de objetos&quot;. CJA amplía este concepto al admitir jerarquías arbitrariamente profundas dentro de una sola fila de datos, una función que no está disponible en ninguna versión anterior de Adobe Analytics.
+En versiones anteriores de Adobe Analytics, esta función se realizaba con la variable `products`. Era una cadena concatenada separada por punto y coma (`;`) para distintas facetas de un producto, y con coma (`,`) para delinear productos. Era la única variable con compatibilidad limitada con “matrices de objetos”. Las variables de varios valores, como las variables de lista, podrían admitir el equivalente de matrices, pero no podrían admitir “matrices de objetos”. CJA amplía este concepto al admitir jerarquías arbitrariamente profundas dentro de una sola fila de datos, una función que no está disponible en ninguna versión anterior de Adobe Analytics.
 
 ## Mismo ejemplo de visita individual
 
@@ -83,7 +83,7 @@ Al crear una vista de datos, están disponibles las siguientes dimensiones y mé
 
 ### Los mismos ejemplos de visitas (comportamiento del sistema de informes)
 
-Solo con la visita anterior, las tablas siguientes muestran los informes del Espacio de trabajo con algunas combinaciones de dimensión y métrica.
+Solo con la visita anterior, las tablas siguientes muestran los informes de Workspace con algunas combinaciones de dimensión y métrica.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -255,7 +255,7 @@ CJA no combina de forma nativa las métricas con nombres similares si se encuent
 
 Sin embargo, puede crear una métrica calculada que combine las métricas deseadas:
 
-Métrica calculada &quot;Ingresos totales&quot;: `[product : revenue] + [product : warranty : revenue]`
+Métrica calculada “Ingresos totales”: `[product : revenue] + [product : warranty : revenue]`
 
 Al aplicar esta métrica calculada, se muestran los resultados deseados:
 
