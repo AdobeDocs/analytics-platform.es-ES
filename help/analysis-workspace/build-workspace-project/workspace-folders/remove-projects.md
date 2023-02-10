@@ -5,13 +5,13 @@ title: Quitar proyectos de carpetas
 feature: CJA Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 source-git-commit: b251cc2f918b54e52ad70def28187473255efbfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Eliminación de un proyecto de una carpeta
+# Quitar un proyecto de una carpeta
 
 Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o eliminarlo.
 
