@@ -5,9 +5,9 @@ title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1136'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,23 +41,23 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | Utiliza círculos para mostrar la superposición de métricas de hasta 3 filtros. |
 
-## Personalización de la configuración de visualización
+## Personalizar la configuración de visualización
 
 Puede personalizar la configuración de visualización para una visualización individual o para todas las visualizaciones que cree.
 
-### Personalización de la configuración de visualización para una sola visualización
+### Personalizar la configuración de visualización para una sola visualización
 
-Para acceder a [!UICONTROL Configuración de visualización] para una visualización individual:
+Para acceder a [!UICONTROL Configuración de visualización] para una visualización individual, debe hacer lo siguiente:
 
 1. En Analysis Workspace, pase el ratón sobre la visualización cuya configuración desee personalizar.
 
-1. Haga clic en el icono del engranaje.
+1. Haga clic en el icono de engranaje.
 
    Cada tipo de visualización tiene una configuración única que puede personalizar. Para obtener información sobre la configuración disponible, consulte [Configuración](#settings).
 
-### Personalización de la configuración de visualización para todas las visualizaciones que cree
+### Personalizar la configuración de visualización para todas las visualizaciones creadas
 
-Puede personalizar la configuración de todas las visualizaciones que cree. Para obtener más información, consulte [Preferencias de usuario](/help/analysis-workspace/user-preferences.md).
+Puede personalizar la configuración de todas las visualizaciones que cree. Para obtener más información, consulte [Preferencias del usuario](/help/analysis-workspace/user-preferences.md).
 
 ## Configuración {#settings}
 
