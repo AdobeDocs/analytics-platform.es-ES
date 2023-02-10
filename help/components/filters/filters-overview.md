@@ -3,16 +3,16 @@ title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 source-git-commit: 3c2361069e2a4934c7f6d616f8223bbba1b410ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1111'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Información general de Filtros {#overview}
 
-Customer Journey Analytics le permite crear, administrar, compartir y aplicar filtros de audiencia poderosos y centrados en sus informes. Los filtros le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Los Filtros están diseñados como perspectivas de audiencia codificadas que puede crear para atender sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
+Customer Journey Analytics le permite generar, administrar, compartir y aplicar filtros de audiencia poderosos y centrados en sus informes. Los filtros le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Los Filtros están diseñados como perspectivas de audiencia codificadas que puede crear para atender sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
 
 Los Filtros se pueden basar en atributos (tipo de explorador, dispositivo, cantidad de visitas, país, sexo), interacciones (campañas, búsqueda de palabras clave, motor de búsqueda), salidas y entradas (visitantes de Facebook, una página de aterrizaje definida, dominio de referencia), variables personalizadas (campo de formulario, categorías definidas, ID del cliente) y otros criterios.
 
@@ -28,7 +28,7 @@ Puede crear diferentes tipos de filtros en Workspace y el Generador de filtros, 
 
 | Tipo de filtro | ¿Creado dónde? | ¿Dónde se aplica? | Uso |
 | --- | --- | --- | --- |
-| Filtro de lista de componentes | Haga clic en +, que le lleva al [Generador de filtros](/help/components/filters/create-filters.md) | Todos los proyectos del espacio de trabajo | Para filtros más complejos, filtros secuenciales |
+| Filtro de lista de componentes | Haga clic en +, que le lleva al [Generador de filtros](/help/components/filters/create-filters.md) | Todos los proyectos de Workspace | Para filtros más complejos, filtros secuenciales |
 | Filtro rápido | [Generador de filtros rápidos](/help/components/filters/quick-filters.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Flexibilidad para agregar o editar una o más reglas |
 | Filtro de proyecto ad hoc | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/components/filters/ad-hoc-filters.md) | Solo proyecto, pero puede guardar y agregar a la lista de filtros. | Para filtros de una sola regla |
 | Filtros en un análisis de visitas en orden previsto | [Visualización de visitas en orden previsto](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) en Analysis Workspace | Para visualizaciones de visitas en el orden previsto individuales | Cree filtros a partir de un punto de contacto, añada filtros como punto de contacto y compare flujos de trabajo clave entre distintos filtros |
