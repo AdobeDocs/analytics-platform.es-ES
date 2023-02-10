@@ -1,19 +1,19 @@
 ---
-title: Cross-Channel Analytics
-description: Descubra cómo volver a escribir los ID de visitante a partir de varios conjuntos de datos para unir a los visitantes.
+title: Análisis en canales múltiples
+description: Obtenga información sobre cómo volver a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-# Cross-Channel Analytics
+# Análisis en canales múltiples
 
-El análisis en canales múltiples (CCA) le permite volver a escribir el ID de persona de un conjunto de datos, lo que permite una combinación perfecta de varios conjuntos de datos. AEC busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado. Con Cross-Channel Analytics, puede dar respuesta a preguntas como:
+Análisis en canales múltiples (CCA, por sus siglas en inglés) le permite volver a escribir la ID personal de un conjunto de datos, lo cual ofrece una combinación perfecta de múltiples conjuntos de datos. CCA busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado. Con Análisis en canales múltiples, puede dar respuesta a preguntas como:
 
 * ¿Cuántas personas comienzan su experiencia en un canal y luego la terminan en otro?
 * ¿Cuántas personas interactúan con mi marca? ¿Cuántos y qué tipos de dispositivos utilizan? ¿Cómo se superponen?
@@ -22,8 +22,8 @@ El análisis en canales múltiples (CCA) le permite volver a escribir el ID de p
 * ¿Cuáles son las rutas más comunes que los usuarios realizan de un dispositivo a otro? ¿En qué punto abandonan? ¿Dónde tienen éxito?
 * ¿En qué se diferencia el comportamiento de los usuarios con varios dispositivos de los usuarios con un único dispositivo?
 
-Para obtener un análisis más en profundidad del análisis entre canales, vaya a:
+Para obtener un análisis más en profundidad de Análisis en canales múltiples, vaya a:
 
-* [Información general sobre Cross-Channel Analytics](/help/cca/overview.md)
+* [Información general sobre Análisis en canales múltiples](/help/cca/overview.md)
 * [Funcionamiento de la reproducción](/help/cca/replay.md)
 * [Preguntas frecuentes](/help/cca/faq.md)
