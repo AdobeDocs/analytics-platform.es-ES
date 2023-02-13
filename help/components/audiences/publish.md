@@ -2,9 +2,9 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 04dd36d9157da852aea7d488cbcc2617162d9324
+source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1419'
 ht-degree: 77%
 
 ---
@@ -84,13 +84,17 @@ Después de crear una audiencia, Adobe crea un segmento de flujo continuo de Exp
 
 En varios puntos antes, durante y después de la publicación de la audiencia, pueden producirse latencias. A continuación se muestra una descripción general de las posibles latencias.
 
-| Punto de latencia | Duración de la latencia |
-| --- | --- |
-| Ingesta de datos en Data Lake | Hasta 30 minutos |
-| Ingesta de datos de Experience Platform a CJA | Hasta 60 minutos |
-| Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de flujo continuo y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
-| Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
-| Creación de destino en AEP: Activación del nuevo segmento | 1 a 2 horas |
+![](assets/latency-diagram.png)
+
+| # | Punto de latencia | Duración de la latencia |
+| --- | --- | --- |
+| 1 | Ingesta de datos en Data Lake | Hasta 30 minutos |
+| 2 | Ingesta de datos de Experience Platform a CJA | Hasta 60 minutos |
+| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de flujo continuo y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
+| 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
+| 5 | Creación de destino en AEP: Activación del nuevo segmento | 1 a 2 horas |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Usar audiencias de CJA en Experience Platform {#audiences-aep}
 

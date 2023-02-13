@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 85%
+source-wordcount: '1410'
+ht-degree: 86%
 
 ---
 
@@ -20,15 +20,16 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Febrero de 2023** |  |
+| Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
 | Actualización de la documentación de Audiences | Después de crear una audiencia, Adobe crea un Experience Platform [segmento de flujo continuo para cada nueva audiencia de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | Calendarios e intervalos de fechas de Workspace | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la interfaz de usuario del calendario. Consulte [Acerca de los intervalos de fechas del panel relativo](/help/components/date-ranges/calendar.md#relative-panel-dates). |
 | Tarjetas de valoración móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/mobile-app/create-scorecard.md#show-comparison-dates) en CJA. |
 | **Enero de 2023** |  |
 | Filtrado y ordenación de tablas | Se ha actualizado el contenido (incluyendo procedimientos y explicaciones de las opciones disponibles) en la [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artículo. Se ha cambiado el nombre de este artículo de &quot;Paginación, filtrado y ordenación de tablas&quot;. |
 | Guías de inicio rápido sobre la ingesta de datos | Nueva sección de documentación sobre cómo [ingesta y uso de datos](/help/data-ingestion/data-ingestion.md) en CJA. |
-| Carpetas de Workspace | Páginas dedicadas para [Administración de carpetas](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Carpetas de Workspace | Páginas específicas para la [administración de carpetas](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferencias de usuario de Workspace | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analysis-workspace/user-preferences.md). |
-| Guardar automáticamente para proyectos de Workspace | Se ha actualizado el contenido para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| Guardar automáticamente para proyectos de Workspace | Contenido actualizado para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Página de aterrizaje | Nuevas actualizaciones de la página de aterrizaje [página de aterrizaje](/help/getting-started/landing.md). |
 | Programar libros de trabajo | Página dedicada para describir cómo [Programar libros](/help/report-builder/schedule-reportbuilder.md) en Report Builder. |
 | Compatibilidad con matrices de objetos para conjuntos de datos de perfil y búsqueda | Actualizado [Usar matrices de objetos](/help/use-cases/object-arrays.md) y [Ingesta de audiencias de AEP](/help/use-cases/data-ingestion/ingest-aep-segments.md) para reflejar la compatibilidad de matrices de objetos para conjuntos de datos de perfil y búsqueda. |
