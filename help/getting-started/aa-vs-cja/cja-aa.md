@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
-source-wordcount: '1537'
-ht-degree: 100%
+source-git-commit: 95c1f15cf5a3e807c101d356c5452f37ea2a78e9
+workflow-type: tm+mt
+source-wordcount: '1527'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Dimensiones de segmentación geográfica | Toda la segmentación geográfica/geografía recopilada en Adobe Analytics se transfiere a CJA a través del [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Las implementaciones que no utilicen Analytics Source Connector, como las que dependen del SDK web de AEP para la recopilación de datos digitales, no tendrán la lista completa de búsquedas geográficas realizadas automáticamente: se admiten países y estados de todo el mundo, ciudades y códigos postales no. |
 | Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics for Target (A4T) no son compatibles. |
 | Reglas de procesamiento | En los conjuntos de datos basados en Analytics Source Connector, las reglas de procesamiento se aplican igual. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
-| A4T | Se proporciona soporte parcial mediante campos en el [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Se ha planificado la compatibilidad con nombres descriptivos de A4T en Actividades y experiencias de Target. |
+| A4T | Se proporciona soporte parcial mediante campos en el [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Está previsto admitir nombres descriptivos de A4T en Actividades y experiencias de Target. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -102,7 +102,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Fuentes de datos | La compatibilidad está planificada a través de destinos de AEP. |
 | Fuentes de datos de ID de transacción | Se ha planificado lanzar una versión compatible. |
 | Migración de proyectos/filtros/métricas calculadas de AA a CJA | Se ha planificado lanzar una versión compatible. |
-| Fuentes de nivel de resumen | Se ha planificado lanzar una versión compatible. |
+| Fuentes de datos de nivel de resumen | Se ha planificado lanzar una versión compatible. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -112,7 +112,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Activity Map | Aún no se ha planificado lanzar una versión compatible. |
 | Advertising Cloud | Aún no se ha planificado lanzar una versión compatible. |
-| Fuentes de datos de resumen | Aún no se ha planificado lanzar una versión compatible. |
 
 {style=&quot;table-layout:auto&quot;}
 
