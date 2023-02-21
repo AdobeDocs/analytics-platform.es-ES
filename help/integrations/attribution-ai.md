@@ -4,10 +4,10 @@ title: Integración de la inteligencia artificial aplicada a la atribución con 
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 87%
 
 ---
 
@@ -74,7 +74,15 @@ En un proyecto del Espacio de trabajo de CJA, puede extraer métricas como, por 
 
 ![Dimensiones de AAI](assets/aai-dims.png)
 
+El resultado de puntuación sin procesar en AAI tiene un esquema anidado, donde la ruta a los campos puede ser lo suficientemente larga como para ocupar la mayoría de los espacios en tablas o visualizaciones. Para la concisión, [!UICONTROL Nombre para mostrar] se genera automáticamente y se aprovecha en CJA siguiendo las reglas siguientes:
 
+* Todos los campos tienen un prefijo &quot;AAI&quot;
+* Para campos de punto de contacto:
+   * Para los campos que forman parte de la puntuación XDM, aparecen en CJA como `AAI T {field name}`
+   * Para los campos que se incluyen como columna passThrough, se muestran en CJA como `AAI T PT {field name}`
+* Para campos de conversión:
+   * Para los campos que forman parte de la puntuación XDM, aparecerán en CJA como `AAI C {field name}`
+   * Para los campos que se incluyen como columna passThrough, se muestran en CJA como `AAI C PT {field name}`
 
 **Pedidos con puntuaciones influenciadas e incrementales**
 
