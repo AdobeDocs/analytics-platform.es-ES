@@ -4,9 +4,9 @@ title: Integración de la inteligencia artificial aplicada a la atribución con 
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
-workflow-type: ht
-source-wordcount: '889'
+source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+workflow-type: tm+mt
+source-wordcount: '812'
 ht-degree: 100%
 
 ---
@@ -74,11 +74,7 @@ En un proyecto del Espacio de trabajo de CJA, puede extraer métricas como, por 
 
 ![Dimensiones de AAI](assets/aai-dims.png)
 
->[!IMPORTANT]
->
->Estas dimensiones y métricas no se denominan de esta forma de manera nativa. Se trata de «nombres descriptivos». La [convención de nomenclatura en inteligencia artificial aplicada a la atribución](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=es#attribution-ai-output-data) sigue la ruta del esquema. Se recomienda cambiar el nombre de las rutas de esquema de AAI largas por nombres cortos y más descriptivos (dimensiones/métricas) en CJA. Puede hacerlo en **[!UICONTROL Vistas de datos]** > **[!UICONTROL Editar vista de datos]** > **[!UICONTROL Componentes]** pestaña > **[!UICONTROL Campos de esquema]** -> Haga clic en un campo de esquema -> **[!UICONTROL Nombre del componente]**.
 
-![Cambiar nombres de dimensiones](assets/change-name.png)
 
 **Pedidos con puntuaciones influenciadas e incrementales**
 
