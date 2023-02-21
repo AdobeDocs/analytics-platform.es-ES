@@ -4,10 +4,10 @@ title: Resumen de calendario e intervalos de fechas
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 969040538e12ef3c3d15881ae225af02bef1cba4
+source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 51%
+source-wordcount: '822'
+ht-degree: 45%
 
 ---
 
@@ -40,7 +40,7 @@ Si está trabajando en Workspace, puede hacer que los componentes del intervalo 
 Usar intervalos de fechas del panel relativo
 
 1. Seleccione el **Espacio de trabajo** pestaña .
-1. Select **Proyecto en blanco**.
+1. Seleccione **Proyecto en blanco**.
 1. Agregue dimensiones, métricas y segmentos desde el carril izquierdo.
 1. Haga clic en el campo Intervalo de fechas del panel para alternar el valor del intervalo de fechas del panel relativo.
 1. Select **Conversión de componentes de intervalo de fechas en relación con el calendario del panel**.
@@ -70,3 +70,10 @@ Cuando se usa un calendario personalizado basado en semanas y se agregan meses o
 ### Acerca de los segmentos que utilizan fechas móviles e intervalos de fechas del panel relativo {#segments-relative-dates}
 
 Si genera un segmento o utiliza un segmento con una fecha móvil, por ejemplo, los últimos 7 días o las últimas 2 semanas, y hace clic en la vista previa del segmento, se iniciará la fecha móvil desde *Hoy* en lugar de la fecha de inicio del panel. Como resultado, la vista previa del segmento no coincidirá cuando realmente utilice el segmento en la tabla. La vista previa se ve afectada, no el propio segmento.
+
+## Pautas para intervalos de fechas y vistas previas en el panel {#guidelines-panel-dates}
+
+* A partir de la versión de febrero, las vistas previas de componentes y datos se basarán en el intervalo de fechas del panel y no en los últimos 90 días.
+* Todos los componentes enumerados en el carril izquierdo estarán disponibles en función del intervalo de fechas del panel.
+* Todas las vistas previas de fechas del segmento y los creadores de métricas calculadas se basarán en el intervalo de fechas del panel (a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado, se basarán en los últimos 90 días).
+* Cualquier vista previa de datos mostrará datos o componentes en función del intervalo de fechas del panel.
