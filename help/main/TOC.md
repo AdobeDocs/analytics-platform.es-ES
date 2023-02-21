@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 45c6e6db751f5a73bb9d44d3a6641c7369d6252f
+source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 98%
+source-wordcount: '861'
+ht-degree: 97%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 98%
    + [Guía de inicio rápido](../getting-started/cja-getting-started.md)
    + [Página de aterrizaje](../getting-started/landing.md)
    + [Preguntas frecuentes](../getting-started/cja-faq.md)
+   + [Comparar soluciones de CJA con BI](../getting-started/cja-vs-bi.md)
 
 + Customer Journey Analytics y Adobe Analytics {#compare-aa-cja}
    + [Evolución desde Adobe Analytics ](../getting-started/aa-to-cja.md)
@@ -174,7 +175,7 @@ ht-degree: 98%
          + [Resumen de la Detección de anomalías](../analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Visualización de anomalías en Analysis Workspace](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [Técnicas estadísticas utilizadas en la detección de anomalías](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-   + [Preferencias del usuario](../analysis-workspace/user-preferences.md)
+   + [Preferencias de usuario](../analysis-workspace/user-preferences.md)
 
    + Preguntas frecuentes sobre de Workspace {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)

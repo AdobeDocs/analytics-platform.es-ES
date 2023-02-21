@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
+source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 84%
+source-wordcount: '1430'
+ht-degree: 83%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Febrero de 2023** |  |
+| Comparar soluciones de CJA con BI | Nuevo documento en un [comparación](../getting-started/cja-vs-bi.md) de Customer Journey Analytics a soluciones de BI típicas. |
 | Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
 | Actualización de la documentación de Audiences | Después de crear una audiencia, Adobe crea un Experience Platform [segmento de flujo continuo para cada nueva audiencia de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | Calendarios e intervalos de fechas de Workspace | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la interfaz de usuario del calendario. Consulte [Acerca de los intervalos de fechas del panel relativo](/help/components/date-ranges/calendar.md#relative-panel-dates). |
