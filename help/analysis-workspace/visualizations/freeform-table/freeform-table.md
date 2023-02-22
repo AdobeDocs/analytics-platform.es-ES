@@ -4,9 +4,9 @@ description: Las tablas de forma libre son la base del análisis de datos en Wor
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Puede interactuar con una tabla de forma libre y personalizarla de diversas mane
    * Puede visualizar más filas en una sola pantalla ajustando la [densidad de vista](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=es) del proyecto.
    * Cada fila de dimensión puede mostrar hasta 400 filas antes de que se produzca la paginación. Haga clic en el número junto a Filas para mostrar más filas en una página. Navegue a otra página utilizando la flecha de página en el encabezado.
    * Las filas se pueden desglosar en componentes adicionales. Para desglosar muchas filas a la vez solo tiene que seleccionar varias filas y arrastrar el siguiente componente sobre las filas seleccionadas. Obtenga más información sobre los [desgloses](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=es).
-   * Las filas se pueden [filtrar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) para mostrar un conjunto reducido de elementos. Hay opciones de configuración adicionales disponibles en [Configuración de fila](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=es).
+   * Las filas se pueden [filtrar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=es) para mostrar un conjunto reducido de elementos. Hay opciones de configuración adicionales disponibles en [Configuración de fila](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=es).
 
 * **Columnas**
    * Los componentes se pueden apilar en columnas para crear métricas filtradas, análisis entre pestañas, etcétera.
