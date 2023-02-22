@@ -1,18 +1,18 @@
 ---
-title: Control de acceso del Customer Journey Analytics
+title: Control de acceso de Customer Journey Analytics
 description: Obtenga información acerca de las formas de implementar el control de acceso en CJA.
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Control de acceso del Customer Journey Analytics
+# Control de acceso de Customer Journey Analytics
 
 Customer Journey Analytics (CJA) se rige por tres niveles de acceso o funciones: función Administrador de productos, función Administrador de perfil de producto y acceso de nivel de usuario. En este tema se explican estas funciones con más detalle.
 
