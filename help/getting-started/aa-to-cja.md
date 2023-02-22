@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1436'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Algunos ejemplos de identidades pueden ser un ID de cliente, un ID de cuenta o u
 * El ID no contiene PII. Aplique la función resumen a cualquier cosa que pueda ser confidencial.
 * El ID utiliza el mismo formato en todas las fuentes (la misma longitud, el mismo método de función resumen, etc.)
 
-En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar Cross-Channel Analytics (anteriormente conocido como “vinculación basada en campos”) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es)
+En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar Análisis en canales múltiples (anteriormente conocido como “vinculación basada en campos”) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es)
 
 ### 2. Alinee las variables {#variables}
 
@@ -58,7 +58,7 @@ Adobe ha publicado [prácticas recomendadas actualizadas para la implementación
 
 ### 4. Decida si utilizar el conector de origen de Analytics o los SDK de Experience Platform {#connector-vs-sdk}
 
-Los clientes de Adobe Analytics pueden aprovechar fácilmente sus grupos de informes en Adobe Experience Platform y el Customer Journey Analytics mediante el conector de origen de Analytics. Para obtener información sobre el uso del conector de origen de Analytics, consulte la guía de inicio rápido sobre cómo [ingesta de datos de Adobe Analytics y úselo en CJA](../data-ingestion/analytics.md). Consulte también [Crear una conexión de origen de Adobe Analytics en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) para obtener más información.
+Los clientes de Adobe Analytics pueden aprovechar fácilmente sus grupos de informes en Adobe Experience Platform y el Customer Journey Analytics mediante el conector de origen de Analytics. Para obtener información sobre el uso del conector de origen de Analytics, consulte la guía de inicio rápido sobre la [ingesta de datos de Adobe Analytics y úselo en CJA](../data-ingestion/analytics.md). Consulte también [Crear una conexión de origen de Adobe Analytics en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) para obtener más información.
 
 Como la recopilación de datos [Edge de Experience](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) evoluciona, probablemente migrará al [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es) o al [SDK móvil de Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=es) con la red Edge de Adobe Experience Platform. Aunque una implementación típica de los SDK enviará datos a Adobe Analytics, se presenta una nueva oportunidad para enviar datos directamente a Adobe Experience Platform. A continuación, se puede ingerir en Customer Journey Analytics, y mantenerse al mismo tiempo los datos enviados a Adobe Analytics.
 
@@ -78,8 +78,8 @@ No se admiten las siguientes funciones o componentes de Adobe Analytics:
 
 * Filtros de bots
 * Búsqueda geográfica, de dominio y de dispositivo
-* Medición de medios de transmisión
-* Déclencheur de Livestream o Livestream
+* Medición de medios de streaming
+* Activadores de Livestream o Livestream
 
 ## Preparación para diferencias críticas
 
