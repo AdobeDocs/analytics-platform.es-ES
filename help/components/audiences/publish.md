@@ -5,7 +5,7 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -74,23 +74,23 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
 
 ## ¿Qué sucede después de crear una audiencia? {#after-audience-created}
 
-Después de crear una audiencia, Adobe crea un segmento de flujo continuo de Experience Platform para cada nueva audiencia de CJA. Solo se creará un segmento de flujo continuo de AEP si su organización está configurada para la segmentación de flujo continuo.
+Después de crear una audiencia, Adobe crea un segmento de streaming de Experience Platform para cada nueva audiencia de CJA. Solo se creará un segmento de streaming de AEP si su organización está configurada para la segmentación de streaming.
 
 * El segmento de AEP comparte el mismo nombre/descripción que la audiencia de CJA, pero el nombre se adjuntará con el ID de audiencia de CJA para garantizar que sea único.
 * Si cambia el nombre o la descripción de la audiencia de CJA, el nombre o la descripción del segmento de AEP también reflejarán ese cambio.
-* Si un usuario elimina una audiencia de CJA, el segmento de AEP NO se elimina. La razón es que la audiencia de CJA puede ser posteriormente deseliminada.
+* Si un usuario elimina una audiencia de CJA, el segmento de AEP NO se elimina. La razón es que la audiencia de CJA puede ser posteriormente recuperada.
 
 ## Consideraciones de latencia {#latency}
 
-En varios puntos antes, durante y después de la publicación de la audiencia, pueden producirse latencias. A continuación se muestra una descripción general de las posibles latencias.
+En varios puntos antes, durante y después de la publicación de la audiencia, pueden producirse latencias. A continuación se muestra una información general de las posibles latencias.
 
 ![](assets/latency-diagram.png)
 
 | # | Punto de latencia | Duración de la latencia |
 | --- | --- | --- |
-| 1 | Ingesta de datos en Data Lake | Hasta 30 minutos |
+| 1 | Ingesta de datos en el lago de datos | Hasta 30 minutos |
 | 2 | Ingesta de datos de Experience Platform a CJA | Hasta 60 minutos |
-| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de flujo continuo y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
+| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
 | 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
 | 5 | Creación de destino en AEP: Activación del nuevo segmento | 1 a 2 horas |
 
@@ -98,7 +98,7 @@ En varios puntos antes, durante y después de la publicación de la audiencia, p
 
 ## Usar audiencias de CJA en Experience Platform {#audiences-aep}
 
-CJA toma todas las combinaciones de espacio de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). CJA envía la audiencia al Experience Platform con el conjunto de identidades principal, según lo que se haya seleccionado como [!UICONTROL ID de persona] cuando se configuró la conexión.
+CJA toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). CJA envía la audiencia a Experience Platform con la identidad principal establecida en el valor que se haya seleccionado como [!UICONTROL ID de la persona] cuando se configuró la conexión.
 
 A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, “user@adobe.com” se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
@@ -138,7 +138,7 @@ CJA transmite los datos a RTCP mediante canalización y estos datos también se 
 
 +++**¿Qué identidades envía CJA?**
 
-Los pares de identidad/área de nombres que se usaron en la variable [Configuración de la conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como &quot;ID de persona&quot;.
+Cualesquiera pares de identidad/área de nombres que se hayan utilizado en la [configuración de Conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
 
 +++
 

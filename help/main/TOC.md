@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
 
 + Customer Journey Analytics y Adobe Analytics {#compare-aa-cja}
    + [Evolución desde Adobe Analytics ](../getting-started/aa-to-cja.md)
-   + [Guía del usuario de para usuarios de Adobe Analytics](../getting-started/aa-to-cja-user.md)
+   + [Guía para usuarios de Adobe Analytics](../getting-started/aa-to-cja-user.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
       + [Utilizar los datos de Adobe Analytics en Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Compatibilidad con funciones de Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
@@ -51,7 +51,7 @@ ht-degree: 97%
 
 + Ingesta de datos {#cja-data-ingestion}
    + [Información general sobre la ingesta de datos](../data-ingestion/data-ingestion.md)
-   + Guías de inicio rápido de ingesta y uso{#ingest-use-guides}
+   + Guías de inicio rápido de ingesta y uso {#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + [SDK web de Adobe Experience Platform y Edge Network](../data-ingestion/aepwebsdk.md)
       + [Datos por lotes](../data-ingestion/batch.md)
@@ -64,7 +64,7 @@ ht-degree: 97%
    + [Administrar conexiones](../connections/manage-connections.md)
    + [Conjuntos de datos de evento combinados](../connections/combined-dataset.md)
    + [Búsquedas estándar](../connections/standard-lookups.md)
-   + [Cross-Channel Analytics](../connections/cca.md)
+   + [Análisis en canales múltiples](../connections/cca.md)
 
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](../data-views/data-views.md)
@@ -311,7 +311,7 @@ ht-degree: 97%
 
 + Administración {#cja-admin}
    + [Control de acceso](../admin/cja-access-control.md)
-   + [Ver y administrar el uso de ](../admin/estimate-usage.md)
+   + [Ver y administrar el uso](../admin/estimate-usage.md)
    + [Implicaciones de eliminación](../admin/cja-deletion.md)
 
 + Labs {#labs}

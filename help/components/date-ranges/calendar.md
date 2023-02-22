@@ -7,7 +7,7 @@ exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
 source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 45%
+ht-degree: 87%
 
 ---
 
@@ -35,16 +35,16 @@ También puede arrastrar fechas (y dimensiones temporales) a un proyecto de Work
 
 ## Acerca de los intervalos de fechas del panel relativo {#relative-panel-dates}
 
-Si está trabajando en Workspace, puede hacer que los componentes del intervalo de fechas sean relativos al calendario del panel. Tres casos de uso habituales en los que las fechas relativas del panel surten efecto son los gráficos combinados, el resumen de métricas clave y los intervalos de fechas de la tabla improvisada.
+Si está trabajando en Workspace, puede hacer que los componentes del intervalo de fecha sean relativos al calendario del panel. Tres casos de uso habituales en los que las fechas relativas al panel surten efecto son los gráficos combinados, el resumen de métricas clave y los intervalos de fecha de la tabla de forma libre.
 
-Usar intervalos de fechas del panel relativo
+Usar intervalos de fechas del panel relativos
 
-1. Seleccione el **Espacio de trabajo** pestaña .
+1. Seleccione la pestaña **espacio de trabajo**.
 1. Seleccione **Proyecto en blanco**.
 1. Agregue dimensiones, métricas y segmentos desde el carril izquierdo.
-1. Haga clic en el campo Intervalo de fechas del panel para alternar el valor del intervalo de fechas del panel relativo.
-1. Select **Conversión de componentes de intervalo de fechas en relación con el calendario del panel**.
-   * Seleccione la opción para que los componentes del intervalo de fechas sean relativos al calendario del panel.
+1. Haga clic en el campo Intervalo de fecha del panel para cambiar el valor del intervalo de fecha del panel relativo.
+1. Seleccione **Hacer que los componentes del intervalo de fecha sean relativos al calendario del panel**.
+   * Seleccione la opción para que los componentes del intervalo de fecha sean relativos al calendario del panel.
 Si se seleccionan fechas relativas, las fechas móviles se basarán en la fecha de inicio del calendario del panel y no en la fecha actual.
    * Si esta opción no está seleccionada, las fechas móviles se basarán en la fecha actual.
 
@@ -55,7 +55,7 @@ Las fechas relativas se muestran en la esquina superior derecha.
 
    ![fechas relativas en forma libre ](assets/relative-date-range1.png)
 
-## Pautas para intervalos de fechas relativos del panel {#guidelines}
+## Pautas para intervalos de fechas relativas del panel {#guidelines}
 
 Tenga en cuenta las siguientes directrices cuando utilice intervalos de fechas relativos del panel.
 
@@ -65,11 +65,11 @@ Si tiene seleccionadas fechas relativas, todas las fórmulas de fecha utilizará
 
 ### Calendarios personalizados e intervalos de fechas relativos {#custom-calendar-formulas}
 
-Cuando se usa un calendario personalizado basado en semanas y se agregan meses o años, la fórmula calcula el desplazamiento del día en un periodo determinado. La fecha real puede ser diferente debido al desplazamiento. La fórmula elige el aterrizaje del día en el mismo lugar del calendario personalizado. Por ejemplo, el tercer viernes de la tercera semana en un calendario personalizado.
+Cuando se usa un calendario personalizado basado en semanas y se añaden meses o años, la fórmula calcula el desplazamiento del día en un período determinado. La fecha real puede ser diferente debido a la diferencia horaria. La fórmula elige el aterrizaje del día en el mismo lugar del calendario personalizado. Por ejemplo, el tercer viernes de la tercera semana en un calendario personalizado.
 
 ### Acerca de los segmentos que utilizan fechas móviles e intervalos de fechas del panel relativo {#segments-relative-dates}
 
-Si genera un segmento o utiliza un segmento con una fecha móvil, por ejemplo, los últimos 7 días o las últimas 2 semanas, y hace clic en la vista previa del segmento, se iniciará la fecha móvil desde *Hoy* en lugar de la fecha de inicio del panel. Como resultado, la vista previa del segmento no coincidirá cuando realmente utilice el segmento en la tabla. La vista previa se ve afectada, no el propio segmento.
+Si genera o utiliza un segmento con una fecha móvil, por ejemplo, los últimos siete días o las últimas dos semanas, y hace clic en la vista previa del segmento, se inicia la fecha móvil desde *hoy* en lugar de la fecha de inicio del panel. Como resultado, la vista previa del segmento no coincidirá cuando realmente utilice el segmento en la tabla. Se verá afectada la vista previa y no el propio segmento.
 
 ## Pautas para intervalos de fechas y vistas previas en el panel {#guidelines-panel-dates}
 

@@ -1,5 +1,5 @@
 ---
-title: Guía del usuario de para usuarios de Adobe Analytics
+title: Guía para usuarios de Adobe Analytics
 description: Qué considerar desde la perspectiva de un usuario cuando su empresa mueve datos de Adobe Analytics a Customer Journey Analytics
 role: User
 solution: Customer Journey Analytics
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Guía del usuario de para usuarios de Adobe Analytics
+# Guía para usuarios de Adobe Analytics
 
 Si su organización está empezando a emplear Customer Journey Analytics (CJA), es posible que observe algunas similitudes y diferencias entre Analytics tradicional y CJA. Esta página pretende explicar estas diferencias para ayudar a su organización a familiarizarse con el nuevo flujo de trabajo de implementación y creación de informes. Esta página también proporciona recursos adicionales sobre nuevos conceptos y pasos adicionales para que su recorrido como analista sea más fácil y exitoso.
 
