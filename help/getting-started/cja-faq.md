@@ -5,7 +5,7 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2135'
 ht-degree: 100%
 
