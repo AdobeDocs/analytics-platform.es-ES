@@ -4,10 +4,11 @@ title: Integración de la inteligencia artificial aplicada a la atribución con 
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
+mini-toc-levels: 3
+source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 87%
+source-wordcount: '929'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 87%
 
 [Inteligencia artificial aplicada a la atribución](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=es), como parte de Adobe Experience Platform Intelligent Services, es un servicio de atribución algorítmica de varios canales que calcula la influencia y el impacto incremental de las interacciones de los clientes con los resultados especificados. Con Inteligencia artificial aplicada a la atribución, los especialistas en marketing pueden medir y optimizar el gasto en marketing y publicidad al comprender el impacto de cada interacción individual con los clientes en cada fase de los recorridos de los clientes.
 
-La inteligencia artificial aplicada a la atribución se integra con Customer Journey Analytics (CJA) hasta el punto que la inteligencia artificial aplicada a la atribución ejecuta modelos con puntos de contacto de marketing de los clientes y fuentes de datos de conversión. A continuación, CJA importa la salida de esos modelos como un conjunto de datos, o bien se puede integrar con el resto de los conjuntos de datos de CJA. Los conjuntos de datos habilitados para Inteligencia artificial aplicada a la atribución se pueden aprovechar en las vistas de datos y los informes en CJA.
+La inteligencia artificial aplicada a la atribución se integra con Customer Journey Analytics (CJA) hasta el punto que la inteligencia artificial aplicada a la atribución ejecuta modelos con puntos de contacto de marketing de los clientes y fuentes de datos de conversión. A continuación, CJA importa la salida de esos modelos como un conjunto de datos, o bien se puede integrar con el resto de los conjuntos de datos de CJA. Los conjuntos de datos habilitados para Attribution AI se pueden aprovechar en las vistas de datos y los informes en CJA.
 
 Inteligencia artificial aplicada a la atribución admite 3 esquemas de Experience Platform: Evento de experiencia, Adobe Analytics y Evento de experiencia del consumidor.
 

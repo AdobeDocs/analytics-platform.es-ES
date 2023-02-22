@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 95c1f15cf5a3e807c101d356c5452f37ea2a78e9
+source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 99%
+source-wordcount: '1525'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Alertas | Se ha planificado lanzar una versión compatible. |
 | Análisis de contribución | Se ha planificado lanzar una versión compatible. |
-| Creación de informes de Data Warehouse (100 % de exportación de filas) | La compatibilidad está planificada desde la interfaz de Analysis Workspace. [[!UICONTROL El servicio de consulta]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) de Adobe Experience Platform también proporciona una interfaz para estos casos de uso en CJA. |
+| Informes de Data Warehouse | La compatibilidad está planificada desde la interfaz de Analysis Workspace. [[!UICONTROL El servicio de consulta]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) de Adobe Experience Platform también proporciona una interfaz para estos casos de uso en CJA. |
 | Configuración de ID mediante Device Graph | Se ha planificado lanzar una versión compatible. |
 | Plantillas de proyecto | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
