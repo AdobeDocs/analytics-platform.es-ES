@@ -6,9 +6,9 @@ role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 source-git-commit: 14bcb1364e59ee02073829050daa068c6203a93c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1811'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -108,11 +108,11 @@ Esto le llevará al generador de intervalos de fechas, donde puede crear y guard
 
 ### Mostrar u ocultar intervalos de fechas de comparación {#show-comparison-dates}
 
-Para incluir intervalos de fechas de comparación, active la opción **Incluir fechas de comparación** configuración.
+Para incluir intervalos de fechas de comparación, cambie la configuración de **Incluir fechas de comparación**.
 
 ![Incluir fechas de comparación](assets/include-comparison-dates.png)
 
-El entorno es *en* de forma predeterminada. Cambie a *off* si no desea ver las fechas de comparación.
+La configuración está *activa* de forma predeterminada. Cambie a *desactivado* si no desea ver las fechas de comparación.
 
 ![Configuración de fecha de comparación no seleccionada](assets/no-comparison-dates.png)
 
