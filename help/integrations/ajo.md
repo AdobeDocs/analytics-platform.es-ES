@@ -2,7 +2,7 @@
 title: Integración de Adobe Journey Optimizer (AJO) con Customer Journey Analytics (CJA)
 description: Incorpore datos generados por AJO y analícelos usando Analysis Workspace dentro de CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 3a4dbe9a87f8e195a4daf78423d29d73f2be0f83
+source-git-commit: 9aed4e724c564272071b96c037f4eb0e82572e6f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 53%
@@ -64,7 +64,7 @@ Puede crear las métricas siguientes en una vista de datos para lograr una parid
 | Aperturas de correo electrónico | El número de mensajes abiertos. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir valores de exclusión: Es igual a `open` |
 | Errores | El número de mensajes erróneos. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir valores de exclusión: Es igual a `error` |
 | Excluye  | El número de mensajes excluidos. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir valores de exclusión: Es igual a `exclude` |
-| Enviados | Número de mensajes que los proveedores de correo electrónico aceptaron. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir valores de exclusión: Es igual a `sent` |
+| Enviados | Número de mensajes que los proveedores de correo electrónico aceptaron. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir valores de exclusión: Es igual a `sent` |
 | Reclamaciones por correo no deseado | Recuento de quejas por correo no deseado. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir valores de exclusión: Es igual a `spam_complaint` |
 | Cancelación de suscripción | El número de bajas. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir valores de exclusión: Es igual a `unsubscribe` |
 
