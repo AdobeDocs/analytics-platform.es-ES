@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
+source-git-commit: ca161bd86b4f926991c1adec2ccf3918f2bc4347
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 98%
+source-wordcount: '1595'
+ht-degree: 94%
 
 ---
 
@@ -58,6 +58,7 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada excepto las visitas en segundo plano móviles. |
 | Persistencia de la variable de comercialización | Asistencia total a través de [dimensiones de enlace y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) |
 | Atributos del cliente | Ahora se denomina Conjuntos de datos de perfil. No se importan de manera automática desde Experience Cloud, pero deberán cargarse en AEP antes de que estén disponibles en CJA. |
+| Fuentes de datos | La exportación de datos de primera generación de conjuntos de datos está disponible a través del [API de acceso a datos de AEP](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) y [Destinos de AEP](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). Estas opciones proporcionan la exportación en el nivel de visita/fila de todos los datos recopilados o incorporados al lago de datos de AEP. Las columnas de datos posteriores al proceso no están disponibles porque las columnas posteriores se calculan en el momento de la consulta. La exportación de columnas de anuncios está disponible a través de los informes. |
 | Anulación de duplicación métrica | Ahora está configurado en métricas dentro de las vistas de datos. La anulación de duplicación de métricas se produce en el nivel de persona o sesión en lugar de en el nivel de conjunto de datos, vista de datos o conexión. |
 | Métricas y dimensiones de entradas, salidas y tiempo empleado | Todas estas son ahora compatibles (las entradas y salidas ahora se denominan inicios de sesión y fines de sesión) y se calculan de forma ligeramente distinta. |
 | Configuración de persistencia de eVar | Las eVars ya no forman parte de CJA. Sin embargo, la configuración de persistencia ahora forma parte de las Vistas de datos y está disponible para todas las dimensiones. Tenga en cuenta que la persistencia se basa en el procesamiento de intervalos del informe, no en el procesamiento de la recopilación de datos. Las dimensiones configuradas en Vistas de datos se limitan a una persistencia máxima de 90 días y no admiten persistencia ilimitada. |
@@ -99,7 +100,6 @@ Las siguientes tablas detalla qué funciones de Adobe Analytics son compatibles,
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
 | Conversión de divisa | Se ha planificado lanzar una versión compatible. |
-| Fuentes de datos | La compatibilidad está planificada a través de destinos de AEP. |
 | Fuentes de datos de ID de transacción | Se ha planificado lanzar una versión compatible. |
 | Migración de proyectos/filtros/métricas calculadas de AA a CJA | Se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de nivel de resumen | Se ha planificado lanzar una versión compatible. |
