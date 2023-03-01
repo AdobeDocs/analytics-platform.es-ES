@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
+source-git-commit: 04b5e4df5ad07e701e3fb812df841b457e7b9c6f
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 96%
+source-wordcount: '1454'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,10 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 
 | Función | Descripción |
 | --- | --- |
+| **Marzo de 2023** |  |
+| Compatibilidad de funciones | Actualizado [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) con una tabla de funciones disponibles en CJA, pero no disponibles ni admitidas en AA. |
 | **Febrero de 2023** |  |
-| Comparar soluciones de CJA con BI | Nuevo documento en un [comparación](../getting-started/cja-vs-bi.md) de Customer Journey Analytics a soluciones de BI típicas. |
+| Comparar soluciones de CJA con BI | Nuevo documento en un [comparación](../getting-started/cja-vs-bi.md) de Customer Journey Analytics a las soluciones típicas de BI. |
 | Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
 | Actualización de la documentación de Audiences | Después de crear una audiencia, Adobe crea un Experience Platform [segmento streaming para cada nueva audiencia de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#after-audience-created). |
 | Calendarios e intervalos de fechas de Workspace | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos relativos de fechas del panel](/help/components/date-ranges/calendar.md#relative-panel-dates). |
