@@ -20,7 +20,7 @@ Desde el espacio de trabajo **[!UICONTROL Compartir]** , puede enviar proyectos 
 
 Para enviar un archivo inmediatamente a los destinatarios por correo electrónico:
 
-1. Haga clic en **[!UICONTROL Compartir] > [!UICONTROL Enviar archivo ahora]**.
+1. Clic **[!UICONTROL Compartir] > [!UICONTROL Enviar archivo ahora]**.
 1. Especifique el tipo de archivo (CSV o PDF).
 1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
@@ -34,7 +34,7 @@ Para enviar un archivo inmediatamente a los destinatarios por correo electrónic
 
 Para enviar un archivo en una programación recurrente a los destinatarios por correo electrónico:
 
-1. Haga clic en **[!UICONTROL Compartir] > [!UICONTROL Enviar archivo según lo programado]**.
+1. Clic **[!UICONTROL Compartir] > [!UICONTROL Enviar archivo según lo programado]**.
 1. Especifique el tipo de archivo (CSV o PDF).
 1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
@@ -77,20 +77,20 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 
 El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados.
 
-## Fechas de caducidad para proyectos programados {#expiration}
+## Fechas de caducidad de los proyectos programados {#expiration}
 
-Las fechas de caducidad de los proyectos programados dependen de la frecuencia de envío programada:
+Las fechas de caducidad de los proyectos programados dependen de la frecuencia de entrega programada:
 
-* Los envíos por hora caducan en una semana.
-* Los envíos diarios caducan en un mes.
+* Las entregas por hora caducan en una semana.
+* Las entregas diarias caducan en un mes.
 * Las entregas semanales caducan en 6 meses.
-* Los envíos mensuales/anuales caducan en un año.
+* Las entregas mensuales/anuales caducan en un año.
 
 ## Proteger un proyecto programado con contraseña {#password}
 
 >[!NOTE]
 >
->La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de CJA que hayan adquirido el complemento [Healthcare Shield](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html).
+>La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de CJA que hayan adquirido el complemento [Healthcare Shield](https://business.adobe.com/es/solutions/experience-cloud-for-healthcare.html).
 
 Adobe utiliza la contraseña para cifrar proyectos programados, independientemente de si se envían en formato .pdf o .csv.
 

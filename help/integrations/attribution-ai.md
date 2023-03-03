@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ En Experience Platform, cree una instancia de Inteligencia artificial aplicada a
 
 ### Paso 2: Configurar una conexión de CJA en conjuntos de datos de inteligencia artificial aplicada a la atribución
 
-En CJA, ahora puede [crear una o más conexiones](/help/connections/create-connection.md) a conjuntos de datos de Experience Platform que se han instrumentado para la inteligencia artificial aplicada a la atribución. Estos conjuntos de datos aparecen con el prefijo «Puntuaciones de inteligencia artificial aplicada a la atribución», como se muestra a continuación:
+En CJA, ahora puede [crear una o más conexiones](/help/connections/create-connection.md) a conjuntos de datos de Experience Platform que se han instrumentado para la inteligencia artificial aplicada a la atribución. Estos conjuntos de datos aparecen con el prefijo “Puntuaciones de inteligencia artificial aplicada a la atribución”, como se muestra a continuación:
 
 ![Puntuaciones de AAI](assets/aai-scores.png)
 
@@ -71,19 +71,19 @@ Y estos son los campos de esquema de XDM para la conversión:
 
 ### Paso 4: Informar sobre los datos de inteligencia artificial aplicada a la atribución en el espacio de trabajo de CJA
 
-En un proyecto del Espacio de trabajo de CJA, puede extraer métricas como, por ejemplo, «Pedidos de AAI» y dimensiones como «Nombre de la campaña de AAI» o «Canal de marketing de AAI».
+En un proyecto del Espacio de trabajo de CJA, puede extraer métricas como, por ejemplo, “Pedidos de AAI” y dimensiones como “Nombre de la campaña de AAI” o “Canal de marketing de AAI”.
 
 ![Dimensiones de AAI](assets/aai-dims.png)
 
-El resultado de puntuación sin procesar en AAI tiene un esquema anidado, donde la ruta a los campos puede ser lo suficientemente larga como para ocupar la mayoría de los espacios en tablas o visualizaciones. Para la concisión, [!UICONTROL Nombre para mostrar] se genera automáticamente y se aprovecha en CJA siguiendo las reglas siguientes:
+El resultado de puntuación en bruto en AAI tiene un esquema anidado, en el que la ruta a los campos puede ser lo suficientemente larga como para ocupar la mayoría de los espacios en tablas o visualizaciones. Para mayor concisión, el [!UICONTROL Nombre para mostrar] se genera automáticamente y se aprovecha en CJA siguiendo las siguientes reglas:
 
-* Todos los campos tienen un prefijo &quot;AAI&quot;
+* Todos los campos tienen un prefijo “AAI”
 * Para campos de punto de contacto:
    * Para los campos que forman parte de la puntuación XDM, aparecen en CJA como `AAI T {field name}`
-   * Para los campos que se incluyen como columna passThrough, se muestran en CJA como `AAI T PT {field name}`
-* Para campos de conversión:
+   * Para los campos que se incluyen como columna passThrough, aparecerán en CJA como `AAI T PT {field name}`
+* Para los campos de conversión:
    * Para los campos que forman parte de la puntuación XDM, aparecerán en CJA como `AAI C {field name}`
-   * Para los campos que se incluyen como columna passThrough, se muestran en CJA como `AAI C PT {field name}`
+   * Para los campos que se incluyen como columna passThrough, aparecerán en CJA como `AAI C PT {field name}`
 
 **Pedidos con puntuaciones influenciadas e incrementales**
 
