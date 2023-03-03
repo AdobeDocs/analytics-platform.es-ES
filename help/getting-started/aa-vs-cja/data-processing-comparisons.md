@@ -3,9 +3,9 @@ title: Comparar el procesamiento de datos entre las funciones de informes de Ado
 description: Comprender las diferencias en el procesamiento de datos para las distintas funciones de informes
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 Comprender las diferencias en el procesamiento de datos para las distintas funciones de informes puede ser útil para comprender qué métricas están disponibles, dónde y por qué pueden diferir.
 
-Por ejemplo, dado que «visitas» como métrica en Adobe Analytics se define en el tiempo del procesamiento de datos y «sesiones» como métrica en CJA se calcula en el tiempo del informe, las dos métricas pueden diferir en función de las reglas utilizadas para la definición de sesión dentro de la vista de datos de CJA.
+Por ejemplo, dado que “visitas” como métrica en Adobe Analytics se define en el tiempo del procesamiento de datos y “sesiones” como métrica en CJA se calcula en el tiempo del informe, las dos métricas pueden diferir en función de las reglas utilizadas para la definición de sesión dentro de la vista de datos de CJA.
 
 Además, ni las visitas ni las sesiones como métrica están disponibles en conjuntos de datos creados por el conector de origen de Analytics y, por lo tanto, requerirían que definiera la sesión en la lógica de consulta para poder hacer comparaciones.
 
@@ -23,7 +23,7 @@ La siguiente tabla define la terminología para los diferentes tipos de lógica 
 
 | Término | Definición | Notas |
 | --- | --- | --- |
-| Lógica de tiempo del procesamiento | Lógica que se realiza cuando se procesan los datos, antes de almacenarse para fines de informes y análisis. | Esta lógica está «incorporada» a los datos históricos y, por lo general, no se puede cambiar fácilmente. |
+| Lógica de tiempo del procesamiento | Lógica que se realiza cuando se procesan los datos, antes de almacenarse para fines de informes y análisis. | Esta lógica está “incorporada” a los datos históricos y, por lo general, no se puede cambiar fácilmente. |
 | Lógica de tiempo del informe | Lógica que se realiza en el momento de ejecutar un informe. | Esta lógica se puede aplicar a datos futuros e históricos durante el tiempo de ejecución del informe de forma no destructiva. |
 | Lógica de nivel de éxito individual | Lógica aplicada en un nivel fila a fila. | Ejemplos: Reglas de procesamiento, VISTA, ciertas reglas de canal de marketing. |
 | Lógica de nivel de visita | Lógica aplicada en el nivel de visita. | Ejemplos: Visita y definición de sesión. |
@@ -42,7 +42,7 @@ Los pasos de procesamiento de datos que se realizan para Adobe Analytics y CJA y
 
 | Función de Analytics | Se aplica en el tiempo del procesamiento | Se aplica en el tiempo del informe | No disponible | Notas |
 | --- | --- | --- | --- | --- |
-| Creación de informes [Core AA](https://experienceleague.adobe.com/docs/analytics.html?lang=es) <br/>(sin incluir los grupos de informes virtuales o los Attribution IQ con procesamiento de tiempo de los informes) | <ul><li>[Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=es)</li><li>[Reglas de VISTA](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=es)</li><li>[Reglas de canal de marketing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=en) de nivel de éxito</li><li>Reglas de canal de marketing de nivel de visita (consulte la nota)</li><li>Definición de la visita</li><li>Lógica de atribución</li></ul> | <ul><li>Lógica del segmento</li><li>Métricas calculadas</li></ul> | <ul><li>Análisis entre dispositivos (consulte la nota)</li></ul> | <ul><li>CDA requiere el uso de grupos de informes virtuales con procesamiento de tiempo de informes.</li><li>Las «reglas de canal de marketing de nivel de visita» incluyen: **Es la primera página de la visita**, **Anular canal de último toque** y **Caducidad del canal de marketing**. (Consulte la [documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=es).)</li></ul> |
+| Creación de informes [Core AA](https://experienceleague.adobe.com/docs/analytics.html?lang=es) <br/>(sin incluir los grupos de informes virtuales o los Attribution IQ con procesamiento de tiempo de los informes) | <ul><li>[Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=es)</li><li>[Reglas de VISTA](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=es)</li><li>[Reglas de canal de marketing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=es) de nivel de éxito</li><li>Reglas de canal de marketing de nivel de visita (consulte la nota)</li><li>Definición de la visita</li><li>Lógica de atribución</li></ul> | <ul><li>Lógica del segmento</li><li>Métricas calculadas</li></ul> | <ul><li>Análisis entre dispositivos (consulte la nota)</li></ul> | <ul><li>CDA requiere el uso de grupos de informes virtuales con procesamiento de tiempo de informes.</li><li>Las “reglas de canal de marketing de nivel de visita” incluyen: **Es la primera página de la visita**, **Anular canal de último toque** y **Caducidad del canal de marketing**. (Consulte la [documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=es).)</li></ul> |
 | Core AA [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=es) | <ul><li>Reglas de procesamiento</li><li>Reglas de VISTA</li><li>Reglas de canal de marketing de nivel de éxito</li><li>Reglas de canal de marketing de nivel de visita</li><li>Definición de la visita</li><li>Lógica de atribución</li></ul> | <ul><li>Lógica del segmento</li></ul> | <ul><li>Métricas calculadas</li><li>Análisis entre dispositivos</li></ul> |  |
 | [Fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=es) Core AA | <ul><li>Reglas de procesamiento</li><li>Reglas de VISTA</li><li>Reglas de canal de marketing de nivel de éxito</li><li>Reglas de canal de marketing de nivel de visita</li><li>Definición de visita (campo visitnum)</li><li>Lógica de atribución (en columnas posteriores)</li></ul> |  | <ul><li>Lógica del segmento</li><li>Métricas calculadas</li><li>Análisis entre dispositivos</li></ul> | <ul><li>Las asignaciones de ID para determinadas columnas relacionadas con los canales de marketing en fuentes de datos no se incluyen en las fuentes de datos. (Consulte la [documentación de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es)).</li></ul> |
 | [Livestream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) Core AA | <ul><li> Reglas de procesamiento</li><li>Reglas de VISTA</li><ul> |  | <ul><li>Reglas de canal de marketing de nivel de éxito</li><li>Reglas de canal de marketing de nivel de visita</li><li>Lógica de visita</li><li>Lógica de atribución</li><li>Lógica del segmento</li><li>Métricas calculadas</li><li>Análisis entre dispositivos</li></ul> |  |
