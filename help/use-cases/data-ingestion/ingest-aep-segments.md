@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,6 +88,6 @@ Ahora puede informar sobre `audienceMembershipId`, `audienceMembershipIdName` y 
 * Debe realizar este proceso en una cadencia normal, de modo que los datos de audiencia se actualicen constantemente dentro de CJA.
 * Puede importar varias audiencias dentro de una sola conexión CJA. Esto añade complejidad adicional al proceso, pero es posible. Para que esto funcione, debe realizar algunas modificaciones en el proceso anterior:
    1. Realice este proceso para cada audiencia deseada en la colección de audiencias dentro de RTCP.
-   1. CJA admite matrices/matrices de objetos en conjuntos de datos de perfil. El uso de una [matriz de objetos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html) para audienceMembershipId o audienceMembershipIdName es la mejor opción.
+   1. CJA admite matrices/matrices de objetos en conjuntos de datos de perfil. El uso de una [matriz de objetos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=es) para audienceMembershipId o audienceMembershipIdName es la mejor opción.
    1. En la vista de datos, cree una nueva dimensión con la transformación de la subcadena en el campo `audienceMembershipId` para convertir la cadena de valores separados por comas en una matriz. NOTA: Actualmente hay un límite de 10 valores en la matriz.
    1. Ahora puede generar informes sobre esta nueva dimensión `audienceMembershipIds` dentro de CJA Workspace.
