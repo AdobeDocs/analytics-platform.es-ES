@@ -3,9 +3,9 @@ title: Información general sobre la publicación de audiencias de CJA
 description: Obtenga información sobre el concepto de publicación de audiencias en Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ La publicación de audiencias proporciona una manera clara de activar y realizar
 * Uso de la audiencia para un recorrido en Adobe Journey Optimizer.
 * Exportación de la audiencia a un tercero mediante un destino de Experience Platform.
 * Enriquecimiento del perfil del cliente en tiempo real con atributos útiles derivados de datos basados en eventos en CJA.
-* Hacer todo esto con una latencia mínima después de publicar la audiencia. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
+* Haciendo todo esto con una latencia mínima después de la publicación de la audiencia. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency)
 * Publicación de audiencias únicas o recurrentes.
 
 ## Terminología clave
@@ -27,7 +27,7 @@ La publicación de audiencias proporciona una manera clara de activar y realizar
 
 **Filtro**: conjunto de reglas que, al evaluarse con un conjunto de datos durante un período de tiempo, produce un subconjunto de datos. Se puede utilizar un filtro en el proceso de creación de una audiencia cuando se asocia con otros servicios de respaldo. Los filtros se definen y mantienen en CJA.
 
-**Filtros** en comparación con **Segmentos**: CJA no utiliza el concepto de «segmentos», sino que utiliza «filtros». Aunque ambos son un conjunto de reglas que pueden contener una lógica similar, producen resultados diferentes. Un filtro se utiliza para reducir un conjunto de datos con fines de análisis. Un segmento se utiliza para producir una lista de identidades que se puede utilizar para la activación. Los segmentos producen audiencias en el Perfil del cliente en tiempo real, mientras que los filtros (por sí solos) no. La publicación de audiencias de CJA es el proceso mediante el cual utilizamos un filtro de CJA para crear una audiencia que pueda ser consumida por el Perfil del cliente en tiempo real.
+**Filtros** en comparación con **Segmentos**: CJA no utiliza el concepto de “segmentos”, sino que utiliza “filtros”. Aunque ambos son un conjunto de reglas que pueden contener una lógica similar, producen resultados diferentes. Un filtro se utiliza para reducir un conjunto de datos con fines de análisis. Un segmento se utiliza para producir una lista de identidades que se puede utilizar para la activación. Los segmentos producen audiencias en el Perfil del cliente en tiempo real, mientras que los filtros (por sí solos) no. La publicación de audiencias de CJA es el proceso mediante el cual utilizamos un filtro de CJA para crear una audiencia que pueda ser consumida por el Perfil del cliente en tiempo real.
 
 ## Permisos
 
