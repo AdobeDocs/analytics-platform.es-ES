@@ -4,10 +4,10 @@ description: Muestra dos métodos para calcular el uso y uno para administrarlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 9f2d0d00872ad18c73bf67184e44f687a0b156a3
-workflow-type: ht
+source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Es posible que necesite saber cuántas filas de datos de evento tiene actualment
    * Cambie la [configuración de retención de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es#set-rolling-window-for-connection-data-retention).
    * [Elimine conexiones no utilizadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
    * [Elimine un conjunto de datos en AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
-   * Póngase en contacto con el administrador de cuentas de Adobe para obtener una licencia de capacidad adicional.
+   * Póngase en contacto con el equipo de cuenta de Adobe para obtener una licencia de capacidad adicional.
 
 ## Creación de un proyecto de Workspace con todos los datos de evento {#workspace-event-data}
 

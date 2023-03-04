@@ -4,10 +4,10 @@ description: Preguntas frecuentes sobre Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ En algunas situaciones, un usuario individual puede asociarse con muchos ID pers
 
 El número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de CCA para crear vínculos entre los diferentes dispositivos.
 
-## Tras contactar con el administrador de cuentas y proporcionarle la información deseada, ¿cuánto tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?
+## Una vez que contacto con mi equipo de cuenta de Adobe y le proporciono la información deseada, ¿cuánto tiempo tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?
 
 La vinculación en tiempo real está disponible aproximadamente una semana después de que Adobe active Cross-Channel Analytics. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
 
