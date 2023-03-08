@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2f974cab2eee158f3ac5c1ae6139cfd924d62c67
+source-git-commit: c4dc2f66e80644ef6f1b68bed4d16593785764b2
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 | Función | Descripción | [Inicio del despliegue](/help/release-notes/releases.md) | [Disponibilidad general](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
 | **Diccionario de datos en Analysis Workspace** | El diccionario de datos ayuda a los usuarios y administradores a realizar un seguimiento y comprender mejor los componentes (dimensiones, métricas) de su entorno de CJA. Más información | 8 de marzo de 2023 | 22 de marzo de 2023 |
-| **Historias de datos en paneles móviles** | Las historias de datos le permiten agregar varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede deslizar fácilmente el dedo a través de estas vistas para comprender toda la historia detrás de sus métricas clave. Más información | N/A | 8 de marzo de 2023 |
+| **Historias de datos en paneles móviles** | Las historias de datos le permiten agregar varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede deslizar fácilmente el dedo a través de estas vistas para comprender toda la historia detrás de sus métricas clave. [Más información](/help/mobile-app/create-scorecard.md#create-data-story) | N/A | 8 de marzo de 2023 |
 | **Fechas de caducidad de los proyectos programados** | Puede establecer las fechas de caducidad máximas para los proyectos programados hasta un año, independientemente de la frecuencia de programación. [Más información](/help/analysis-workspace/curate-share/t-schedule-report.md) | N/A | 8 de marzo de 2023 |
 | **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión): solo acceso beta privado** | Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a CJA. Puede compartir vínculos de proyecto con personas fuera de su organización o con personas dentro de su organización que no están aprovisionadas para CJA. Más información (a continuación)<p>Para unirse a la versión beta privada, póngase en contacto con el equipo de la cuenta de Adobe. | 15 de marzo de 2023 (beta privada) | Abril de 2023 |
 
