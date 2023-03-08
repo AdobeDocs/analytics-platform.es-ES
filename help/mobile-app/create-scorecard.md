@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 14bcb1364e59ee02073829050daa068c6203a93c
-workflow-type: ht
-source-wordcount: '1811'
-ht-degree: 100%
+source-git-commit: 05cc4410d78e69919447356ea343543c3415afd7
+workflow-type: tm+mt
+source-wordcount: '2370'
+ht-degree: 76%
 
 ---
 
@@ -215,7 +215,68 @@ Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de r
 
 ![Remove_components](assets/new_remove.png)
 
-## Vista previa del cuadro de resultados {#preview}
+## Creación de historias de datos {#create-data-story}
+
+Una historia de datos es una colección de puntos de datos de soporte, contexto empresarial y métricas relacionadas creadas en torno a un tema o métrica central.
+
+Por ejemplo: si se centra en el tráfico web, la métrica más importante pueden ser las visitas, pero también puede estar interesado en nuevos visitantes y visitantes únicos, y es posible que desee ver los datos desglosados por página web o por el tipo de dispositivo del que proviene el tráfico. Las historias de datos en los proyectos de cuadros de resultados móviles le permiten colocar las métricas más importantes en un lugar destacado y centrado, mientras cuenta toda la historia detrás de las métricas con varias diapositivas de detalle.
+
+Vea el vídeo para obtener más información sobre la creación de historias de datos en proyectos de cuadros de resultados móviles en Analysis Workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+**Para crear una historia de datos**
+
+Cree su historia de datos agregando varias diapositivas de detalle a un mosaico.
+
+1. Comience con un proyecto de cuadro de resultados móvil.
+1. Seleccione un mosaico en el que desee crear una historia.
+   ![Crear una historia de datos](assets/data-story1.png)
+   ![Crear iconos de historia de datos](assets/create-data-story.png){width=".50%"}
+1. Agregue diapositivas para crear su historia de datos. La primera diapositiva se genera de forma predeterminada.
+Para añadir nuevas diapositivas, pase el ratón sobre una diapositiva o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
+   * Pulse el signo + para crear una nueva diapositiva.
+   * Pulse el icono de duplicado para duplicar la diapositiva existente.
+1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para rellenar automáticamente la diapositiva con los datos del mosaico.
+   ![Crear una historia de datos](assets/data-story2.png)
+Para eliminar una diapositiva, pulse el icono de papelera.
+
+### Personalizar una historia de datos {#customize-data-story}
+
+Las historias de datos le permiten personalizar todo para que pueda compartir información que desee compartir y excluir todo lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para añadir filtros, mostrar desgloses, cambiar el diseño y cambiar las visualizaciones.
+
+**Para personalizar mosaicos**
+
+1. Pulse un mosaico. El mosaico seleccionado está delineado en azul y el panel derecho muestra las propiedades del mosaico.
+1. Cambie el título, el tipo de gráfico y otras opciones de mosaico.
+1. Arrastre un componente al mosaico.
+   ![Crear una historia de datos](assets/data-story3.png)
+Al arrastrar y soltar un componente, como una visualización, en un mosaico, el componente se aplica a todas las diapositivas de la historia de datos.
+1. Para aplicar un cambio solo al título, mantenga pulsada la tecla Mayús para aplicar el cambio.
+   ![Crear una historia de datos](assets/data-story4.png)
+
+>[!NOTE]
+>Las diapositivas heredan los componentes del mosaico, pero los mosaicos no heredan los componentes de las diapositivas.
+
+**Para personalizar diapositivas individuales**
+
+Puede cambiar la visualización de diapositivas individuales en un artículo de datos. Por ejemplo, puede cambiar una barra horizontal a un gráfico de anillos para una diapositiva específica. También puede cambiar el diseño. Consulte [Personalizar diapositivas de detalle](#customize-detail-slide).
+
+### Previsualización de una historia de datos {#preview-data-story}
+
+Después de crear una historia de datos, utilice el **Previsualizar** para ver e interactuar con una historia de datos como si fuera un usuario de la aplicación. Para obtener información sobre la vista previa del artículo de datos, consulte [Previsualización de un cuadro de resultados](#preview)
+
+### Desplazamiento entre mosaicos y diapositivas {#navigate-tiles-slides}
+
+La barra de navegación muestra iconos que representan lo que hay en cada diapositiva. La barra de exploración facilita el desplazamiento a una diapositiva específica si tiene muchas diapositivas.
+
+Para desplazarse entre el mosaico y las diapositivas, pulse la barra de navegación.
+![Crear una historia de datos](assets/data-story5.png)
+![Crear una historia de datos](assets/data-story-nav.png){width="45%"}
+
+También puede desplazarse hacia atrás y hacia adelante utilizando las flechas del teclado o seleccionando un componente y manteniéndolo a la izquierda o a la derecha de la pantalla para desplazarse.
+
+## Previsualizar informes de valoración {#preview}
 
 Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de resultados una vez que se publique en la aplicación de paneles de Analytics.
 
@@ -235,13 +296,13 @@ Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de res
 
    * Haga clic y mantenga presionado para simular el efecto del dedo en la pantalla del teléfono. Esto resulta útil para interactuar con las visualizaciones en la vista detallada.
 
-## Nombrar un cuadro de resultados {#name}
+## Nombrar cuadros de resultados {#name}
 
 Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Uso compartido de un cuadro de resultados {#share}
+## Compartir cuadros de resultados {#share}
 
 Para compartir el informe de valoración con un usuario ejecutivo:
 
