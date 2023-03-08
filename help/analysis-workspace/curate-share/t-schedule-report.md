@@ -5,10 +5,10 @@ title: Programar proyectos
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 5adf47139a3a083f90007dfab3bc63fd187ddcff
+source-git-commit: 06ec1145e25275dab0b1bf2388caae9eb8e6bcfe
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 89%
+source-wordcount: '886'
+ht-degree: 93%
 
 ---
 
@@ -59,7 +59,7 @@ En el Administrador de proyectos programados, puede editar y eliminar la program
 | [!UICONTROL Propietario] | La persona que creó el proyecto y es de su propiedad. |
 | [!UICONTROL Etiquetas] | (opcional) El etiquetado es una buena forma de organizar los proyectos. Todos los usuarios pueden crear etiquetas y aplicar una o más a un proyecto. Sin embargo, solo verá las etiquetas de los proyectos que sean suyos o que se hayan compartido con usted. |
 | [!UICONTROL Entregado a] | Los destinatarios de este proyecto programado. |
-| [!UICONTROL Fecha de caducidad] | La fecha de caducidad predeterminada depende de la frecuencia de programación. Consulte &quot;Fechas de caducidad programadas del proyecto&quot; a continuación. |
+| [!UICONTROL Fecha de caducidad] | Puede establecer la fecha de caducidad en un máximo de un año, independientemente de la frecuencia de programación. |
 | [!UICONTROL Frecuencia] | La frecuencia con la que desea que este proyecto programado se envíe a los destinatarios. |
 | [!UICONTROL Hora de ejecución] | A qué hora del día se envía este proyecto programado. |
 | [!UICONTROL Cantidad de consultas] | Número de consultas de este proyecto. |
@@ -76,15 +76,6 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 | **[!UICONTROL Ver el ID de programación]** | Vaya a las opciones de columna en la parte superior derecha y añada la columna ID de programación a la tabla. El ID de programación suele ser útil para la depuración. |
 
 El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados.
-
-## Fechas de caducidad de los proyectos programados {#expiration}
-
-Las fechas de caducidad de los proyectos programados dependen de la frecuencia de entrega programada:
-
-* Las entregas por hora caducan en una semana.
-* Las entregas diarias caducan en un mes.
-* Las entregas semanales caducan en 6 meses.
-* Las entregas mensuales/anuales caducan en un año.
 
 ## Proteger un proyecto programado con contraseña {#password}
 
