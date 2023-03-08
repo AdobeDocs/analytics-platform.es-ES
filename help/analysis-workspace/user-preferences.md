@@ -4,10 +4,10 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
-workflow-type: ht
-source-wordcount: '2439'
-ht-degree: 100%
+source-git-commit: 0c41c5a4c79105520f6f98e9e9ea60f19befd608
+workflow-type: tm+mt
+source-wordcount: '2928'
+ht-degree: 84%
 
 ---
 
@@ -175,13 +175,29 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 |  | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización de Dispersión. Puede resultar útil si tiene un conjunto de datos grande. |
 |  | Anclar el eje Y en cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
 
+## Preferencias de compañía
+
+>[!AVAILABILITY]
+>
+>La funcionalidad de vínculos de acceso público que se describe en esta sección se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información acerca del proceso de lanzamiento de Analytics, consulte [Lanzamientos de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
+
+Puede actualizar las preferencias de la empresa que se aplican a todos los usuarios y proyectos de su organización. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
+
+| Sección | Preferencia | Opciones |
+| --- | --- | --- |
+| **Vínculos de acceso público** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+|  | Inhabilitar todos los vínculos de acceso público | <p>Deshabilita todos los vínculos de acceso público existentes e impide que los usuarios de su organización creen nuevos vínculos. Esto significa que los usuarios no pueden compartir proyectos de Analysis Workspace con personas que no tengan cuenta de Adobe Customer Journey Analytics. Los usuarios solo pueden compartir proyectos con otros usuarios Customer Journey Analytics de su organización.</p> <p>Cuando los vínculos públicos están desactivados:</p> <ul><li><p>Los usuarios no pueden crear vínculos de acceso público</p><p>La opción &quot;Compartir vínculo público&quot; se elimina del menú Compartir. Esto significa que los usuarios ya no pueden compartir proyectos con personas que no tengan cuenta de Analysis Workspace en su organización, tal como se describe en [Compartir un vínculo público con cualquier persona (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Se desactivarán todos los vínculos públicos existentes</p></li><p>Si los vínculos públicos se desactivan y se vuelven a activar, todos los vínculos desactivados anteriormente no se reactivan automáticamente. En este caso, los usuarios deben reactivarlos manualmente para cada proyecto desde el cuadro de diálogo Compartir proyecto.</p> |
+|  | Requerir autenticación de Experience Cloud | <p>Cuando esta opción está habilitada, solo los destinatarios que tengan un Federated ID y puedan iniciar sesión en Adobe Experience Cloud pueden acceder a los vínculos públicos compartidos.</p> <p>Después de habilitar esta opción, cada vez que un usuario cree un vínculo a un proyecto de Analysis Workspace, la opción Requerir autenticación de Experience Cloud se habilitará en el cuadro de diálogo Compartir y el usuario que comparte el vínculo no podrá deshabilitarla. (Para obtener información sobre cómo los usuarios pueden compartir proyectos con usuarios fuera de la organización, consulte [Compartir un vínculo público con cualquier persona (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).)</p> <p>Tenga en cuenta lo siguiente al habilitar esta opción:</p><ul><li><p>Al activar esta opción, se desactivan todos los vínculos públicos activos actualmente que no tienen el Experience Cloud activado.</p></li> <li><p>Si esta opción está activada y luego desactivada, todos los vínculos desactivados anteriormente no se reactivan automáticamente. En este caso, los usuarios deben reactivarlos manualmente desde el cuadro de diálogo Compartir proyecto.</p></li> <li><p>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulte [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Si SSO está configurado para su organización, compruebe si algún tipo de creación de cuenta automática se implementa en la consola. Normalmente, un administrador del sistema lo configuraría, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Si su organización se encuentra en un sector que requiere el cumplimiento de la HIPAA, esta opción se activa automáticamente y no se puede desactivar.</p></li></ul> |
+
+{style="table-layout:auto"}
+
 ## Restaurar preferencias predeterminadas
 
 Puede restaurar todas sus preferencias de usuario a los valores predeterminados del sistema. No afecta a las preferencias del administrador en la pestaña Compañía.
 
 No se puede deshacer esta acción.
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] **>** [!UICONTROL **Preferencias**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] **>** [!UICONTROL **Preferencias**].
 
    ![Preferencias del usuario](assets/user-preferences.png)
 
