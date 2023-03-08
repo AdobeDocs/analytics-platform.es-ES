@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b73404d9594b0915cea64f4016c9c7b36c3aaf01
+source-git-commit: c6714b375c8e74f12018fe54d80eb411e55e7097
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '276'
+ht-degree: 49%
 
 ---
 
-# Notas de la versión de Customer Journey Analytics (CJA) actuales (febrero de 2023)
+# Notas de la versión de Customer Journey Analytics actual (CJA) (marzo de 2023)
 
-**Última actualización**: 23 de febrero de 2023
+**Última actualización**: 8 de marzo de 2023
 
 Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,25 +20,23 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 
 | Función | Descripción | [Inicio del despliegue](/help/release-notes/releases.md) | [Disponibilidad general](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **Actualización de las audiencias de CJA** | Después de crear una audiencia, Adobe crea un segmento de streaming de Experience Platform para cada nueva audiencia de CJA. Solo se creará un segmento de streaming si su organización está configurada para la segmentación de streaming. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#after-audience-created) | N/A | 3 de febrero de 2023 |
-| **Ocultar intervalos de fechas de comparación en los cuadros de resultados móviles** | Con los cuadros de resultados móviles, ahora puede ocultar los intervalos de fechas de comparación. | N/A | 8 de febrero de 2023 |
-| **Actualizaciones de calendario en el espacio de trabajo** | <ul><li>Fechas del panel de anclaje: puede hacer que los componentes del intervalo de fecha sean relativos al calendario del panel. [Más información](/help/components/date-ranges/calendar.md)</li><li>Actualizaciones de estilo del calendario: los estilos de calendario de toda la IU se han actualizado para presentar un flujo de trabajo más coherente y fácil de usar.</li><li>Actualizaciones de la fórmula del calendario: si utiliza fechas relativas, todas las fórmulas del calendario reflejarán el inicio del intervalo de fecha del panel. [Más información](/help/components/date-ranges/calendar.md)</li></ul> | N/A | 8 de febrero de 2023 |
-| **Actualizaciones del intervalo de fechas del panel** | En Workspace, hemos añadido las siguientes mejoras:<ul><li>A partir de la versión de febrero, las vistas previas de componentes y datos se basarán en el intervalo de fechas del panel y no en los últimos 90 días. </li><li>Todos los elementos de dimensión mostrados estarán disponibles en función del intervalo de fechas del panel.</li><li>Todas las vistas previas de fechas en los generadores de segmentos y métricas calculadas se basarán en el intervalo de fechas del panel (a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado, seguirán basándose en los últimos 90 días).</li><li>Cualquier vista previa de datos mostrará datos o componentes basados en el intervalo de fechas del panel.</li></ul> | N/A | 8 de febrero de 2023 |
-| **Filtrado de filas y columnas para el streaming del conector de origen de Adobe Analytics** | El conector de origen de Analytics en Adobe Experience Platform ahora permite filtrar los datos de Analytics que se usan para rellenar perfiles en el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es).<p>El filtrado a nivel de fila ayuda a reducir el número de eventos asociados a perfiles. El filtrado a nivel de columna ayuda a reducir la riqueza de los propios eventos, lo que permite optimizar el uso de derechos de perfil. Este filtrado solo se aplica a los datos enviados al Perfil del cliente en tiempo real y al [Servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es).<p>**El filtrado no afecta a los datos que se envían a Data Lake para su uso en aplicaciones como Customer Journey Analytics**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es#filtering-for-profile) | N/A | Reprogramado para el 29 de marzo de 2023 |
+| **Diccionario de datos en Analysis Workspace** | El diccionario de datos ayuda a los usuarios y administradores a realizar un seguimiento y comprender mejor los componentes (dimensiones, métricas) de su entorno de CJA. Más información | 8 de marzo de 2023 | 22 de marzo de 2023 |
+| **Historias de datos en paneles móviles** | Las historias de datos le permiten agregar varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede deslizar fácilmente el dedo a través de estas vistas para comprender toda la historia detrás de sus métricas clave. Más información | N/A | 8 de marzo de 2023 |
+| **Fechas de caducidad de los proyectos programados** | Puede establecer las fechas de caducidad máximas para los proyectos programados hasta un año, independientemente de la frecuencia de programación. | N/A | 8 de marzo de 2023 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Correcciones en Customer Journey Analytics
 
-AN-309106
+AN-309729; AN-309975; AN-311779; AN-313095;
 
 ## Avisos importantes para los administradores de CJA
 
 | Aviso | Aviso añadido o actualizado | Descripción |
 | --- | --- | --- |
-| No hay avisos actuales | N/A | N/A |
+| Disponibilidad del conector de origen de Analytics | 15 de febrero de 2023 | El 28 de febrero de 2023, el conector de origen de Analytics estuvo disponible en el nuevo centro de datos de Adobe Experience Platform ubicado en Canadá. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Recursos relacionados
 
