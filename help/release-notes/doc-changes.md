@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 04b5e4df5ad07e701e3fb812df841b457e7b9c6f
+source-git-commit: 9e87d7b834873d33474d9f48f34ee41d10271419
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 98%
+source-wordcount: '1538'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,9 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | --- | --- |
 | **Marzo de 2023** |  |
 | Compatibilidad de funciones | Actualizado [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) con una tabla de funciones disponibles en CJA, pero no disponibles ni admitidas en AA. |
+| Métricas calculadas predeterminadas | Se ha añadido contenido que explica la [métricas calculadas predeterminadas proporcionadas por el Adobe](/help/components/calc-metrics/default-calcmetrics.md). |
+| Diccionario de datos | <p>Se ha añadido nueva documentación para el diccionario de datos, que incluye [Información general](/help/components/data-dictionary/data-dictionary-overview.md), [Visualización](/help/components/data-dictionary/view-data-dictionary.md), [Edición](/help/components/data-dictionary/edit-entries-data-dictionary.md), y [Monitorización](/help/components/data-dictionary/monitor-data-dictionary-health.md) el diccionario de datos.</p><p>Información en [Adición de descripciones de componentes](/help/components/add-component-descriptions.md) se actualizó para tener en cuenta la funcionalidad del diccionario de datos.</p> |
+| Uso compartido de vínculos para proyectos (no se requiere inicio de sesión) | <p>Se ha actualizado la documentación existente para explicar cómo compartir un vínculo de solo lectura de un proyecto con personas que no tienen acceso a Analysis Workspace.</p> <p>La documentación actualizada del usuario incluye [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) y [Crear vínculos que se pueden compartir](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>Se agregaron opciones para administradores a [Preferencias](/help/analysis-workspace/user-preferences.md).</p> |
 | **Febrero de 2023** |  |
 | Comparar soluciones de CJA con las soluciones de BI | Nuevo documento sobre una [comparación](../getting-started/cja-vs-bi.md) de Customer Journey Analytics con las soluciones típicas de BI. |
 | Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency). |
@@ -93,7 +96,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Enero de 2022 | Se ha añadido nueva documentación de funciones en [enlace de dimensiones y métricas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) y en configuración de asignación [[!UICONTROL Conocido por primera vez] y [!UICONTROL Último conocido]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#allocation-settings) |
 | Enero de 2022 | Nuevo artículo sobre la [comparación de los datos de Adobe Analytics con los datos de Analytics en CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html?lang=es) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 {#21}
 
@@ -134,7 +137,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | **Enero de 2021** |  |
 | Enero de 2021 | Nuevo tema sobre [agregar búsquedas estándar al conjunto de datos](/help/connections/standard-lookups.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020 {#20}
 
@@ -155,4 +158,4 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | 27 de febrero de 2020 | Actualizaciones a la [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) |
 | Diciembre de 2019 | Primer borrador de la documentación de CJA |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
