@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9e87d7b834873d33474d9f48f34ee41d10271419
+source-git-commit: e4b84436315d4eb87e39085f4838b51797a1f9b7
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 92%
+source-wordcount: '1566'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Marzo de 2023** |  |
+| Crear historias de datos en cuadros de resultados móviles | A [historia de datos](/help/mobile-app/create-scorecard.md#create-data-stories) es una colección de puntos de datos de soporte, contexto empresarial y métricas relacionadas que se crean en torno a un tema o métrica central. |
 | Compatibilidad de funciones | Actualizado [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) con una tabla de funciones disponibles en CJA, pero no disponibles ni admitidas en AA. |
 | Métricas calculadas predeterminadas | Se ha añadido contenido que explica la [métricas calculadas predeterminadas proporcionadas por el Adobe](/help/components/calc-metrics/default-calcmetrics.md). |
 | Diccionario de datos | <p>Se ha añadido nueva documentación para el diccionario de datos, que incluye [Información general](/help/components/data-dictionary/data-dictionary-overview.md), [Visualización](/help/components/data-dictionary/view-data-dictionary.md), [Edición](/help/components/data-dictionary/edit-entries-data-dictionary.md), y [Monitorización](/help/components/data-dictionary/monitor-data-dictionary-health.md) el diccionario de datos.</p><p>Información en [Adición de descripciones de componentes](/help/components/add-component-descriptions.md) se actualizó para tener en cuenta la funcionalidad del diccionario de datos.</p> |
