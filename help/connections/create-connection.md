@@ -4,10 +4,10 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '2471'
-ht-degree: 100%
+source-git-commit: 5db5747637c014da00744802e81f8706c3901b5b
+workflow-type: tm+mt
+source-wordcount: '2472'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ Recientemente se ha lanzado un nuevo flujo de trabajo de conexiones en Customer 
    | **[!UICONTROL Datos de relleno]** | Puede solicitar rellenar los datos en un conjunto de datos en función de marcas de tiempo de evento. Por ejemplo, puede solicitar que se rellenen los datos de los últimos 7 días, configurar el ID de persona correcto y probar la conexión para obtener la configuración correcta. Si todo parece correcto, puede rellenar fácilmente todos los datos restantes.<p>Además, puede habilitar la importación de nuevos datos por conjunto de datos. Por ejemplo, puede habilitar la importación de nuevos datos solo para los datos de búsqueda. |
    | **[!UICONTROL Estado de relleno]** | Indica si se están procesando datos de relleno. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Agregar y configurar conjuntos de datos {#add-dataset}
 
@@ -68,6 +68,7 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
    | --- | --- |
    | **[!UICONTROL ID de la persona]** | Seleccione un ID de persona en la lista desplegable de identidades disponibles. Estas identidades se definieron en el esquema del conjunto de datos en Experience Platform. Consulte a continuación para obtener información sobre cómo usar el mapa de identidad como ID de persona.<p>Si no hay ID de persona para elegir, significa que uno o más ID de persona no se han definido en el esquema. Mire este vídeo sobre cómo definir una identidad en Experience Platform. |
    | **[!UICONTROL Marca de tiempo]** | Solo para conjuntos de datos de evento, esta configuración se establece automáticamente en el campo de marca de tiempo predeterminado de esquemas basados en eventos en Experience Platform. |
+   | **[!UICONTROL Tipo de fuente de datos]** | Los tipos de fuentes de datos incluyen datos de CRM, datos del centro de llamadas, datos de correo electrónico, etc. |
    | **[!UICONTROL Importar datos nuevos]** | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a Workspace. Se puede configurar como Activado o Desactivado. |
    | **[!UICONTROL Relleno del conjunto de datos]** | Haga clic en **[!UICONTROL Solicitar relleno]** para rellenar datos históricos.<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La latencia se ve afectada por la cantidad de datos históricos que tiene.</li><li>El Conector de datos de Adobe Analytics importa hasta 13 meses de datos, independientemente de su tamaño.</li></ul> |
    | **[!UICONTROL Estado de relleno]** | Los posibles indicadores de estado son:<ul><li>Correcto</li><li>Procesamiento de X rellenos</li><li>Off</li></ul> |
@@ -79,7 +80,7 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
    | **[!UICONTROL Vista previa]**: `<dataset name>` | Previsualiza el conjunto de datos con columnas date, my ID y Identifier. |
    | **[!UICONTROL Eliminar]** | Puede eliminar o quitar el conjunto de datos y cambiar el ID de persona sin eliminar toda la conexión. Esto reduce los costes que implica la ingesta de datos y el engorroso proceso de volver a crear toda la conexión y las vistas de datos asociadas. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Previsualización de la conexión {#preview}
 
@@ -105,7 +106,7 @@ Existen tres tipos diferentes de conjuntos de datos: datos: datos [!UICONTROL de
 | **[!UICONTROL Búsqueda]** | Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [este caso de uso](/help/use-cases/b2b/b2b.md) para ver un ejemplo. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento “Record”, excepto la clase “XDM Individual Profile”. | N/A |
 | **[!UICONTROL Perfil]** | Datos que se aplican a sus visitas, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/A | Cualquier esquema integrado o personalizado basado en la clase “XDM Individual Perfil”. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos, como ID de cookie, ID de título, ID de usuario, código de seguimiento, etc.<br>![ID de persona ](assets/person-id.png)**Nota**: si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes reflejará eso. Para combinar conjuntos de datos correctamente, necesita usar el mismo ID de persona. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Usar campos numéricos como claves de búsqueda y valores de búsqueda {#numeric}
 
@@ -134,7 +135,7 @@ Si selecciona Mapa de identidad, obtendrá dos opciones de configuración adicio
 | **[!UICONTROL Usar área de nombres de ID primario]** | Esto indica a CJA, por fila, que busque la identidad en el mapa de identidad que está marcado con un atributo primary=true y que la utilice como ID de persona para esa fila. Esto significa que esta es la clave principal que se utilizará en Experience Platform para la partición. También es el candidato principal para el uso como ID de visitante de CJA (según la configuración del conjunto de datos en una conexión de CJA). |
 | **[!UICONTROL Área de nombres]** | (Esta opción solo está disponible si no utiliza el área de nombres de ID principal). Las áreas de nombres de identidad son un componente de [Identity Service de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es) que sirve de indicadores del contexto al que se relaciona una identidad. Si especifica un área de nombres, CJA buscará en el mapa de identidad de cada fila esta clave de área de nombres y utilizará la identidad en el área de nombres como ID de persona para esa fila. Tenga en cuenta que, como CJA no puede hacer una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están realmente presentes, en la lista desplegable se enumeran todas las áreas de nombres posibles. Debe saber qué áreas de nombres se especifican en los datos. Esto no se puede detectar automáticamente. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Casos extremos del mapa de identidad {#id-map-edge}
 
@@ -145,7 +146,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 | **[!UICONTROL Usar área de nombres de ID primario] verificado** | La fila la abandona CJA. | La fila se borra con CJA, ya que no se especifica ningún ID principal. | Todos los ID marcados como principales, con todas las áreas de nombres, se extraen en una lista. A continuación, se ordenan alfabéticamente; con esta nueva clasificación, la primera área de nombres con su primer ID se utiliza como ID de persona. | El ID único se utiliza como ID de persona. | Aunque el área de nombres puede ser no válida (no está presente en AEP), CJA utilizará el ID principal de dicha área de nombres como ID de persona. |
 | **[!UICONTROL Área de nombres de un mapa de identidad específica] seleccionada** | La fila la abandona CJA. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar un área de nombres válida en el momento de la creación de la conexión, por lo que no es posible utilizar un área de nombres o ID no válida como ID de persona) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cálculo del número medio de eventos diarios
 
