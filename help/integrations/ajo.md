@@ -2,9 +2,9 @@
 title: Integración de Adobe Journey Optimizer (AJO) con Customer Journey Analytics (CJA)
 description: Incorpore datos generados por AJO y analícelos usando Analysis Workspace dentro de CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: adf5671f80b122b7bcc77dea9c3e57d133961266
+source-git-commit: 750e96bdf6f020e0f5c0fbaf95cdd10c42b95e55
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '735'
 ht-degree: 89%
 
 ---
@@ -35,8 +35,10 @@ Una vez que los datos de Journey Optimizer están en Adobe Experience Platform, 
 
 Después de crear una conexión, puede crear una o más [Vistas de datos](/help/data-views/create-dataview.md) para configurar las dimensiones y métricas deseadas disponibles en Customer Journey Analytics.
 
->!![NOTE]
-Las discrepancias de datos entre AJO y CJA suelen ser inferiores al 1-2 %. Es posible que las discrepancias sean mayores cuando los datos se hayan recopilado en las dos últimas horas. Utilice intervalos de fechas que excluyan hoy para mitigar las discrepancias que implican tiempo de procesamiento.
+>[!NOTE]
+>
+>Las discrepancias de datos entre AJO y CJA suelen ser inferiores al 1-2 %. Es posible que las discrepancias sean mayores cuando los datos se hayan recopilado en las dos últimas horas. Utilice intervalos de fechas que excluyan hoy para mitigar las discrepancias que implican tiempo de procesamiento.
+
 
 ### Configuración de dimensiones en la vista de datos
 
@@ -58,7 +60,7 @@ Puede crear las dimensiones siguientes en una vista de datos para lograr una par
 | Motivo del error de entrega del correo electrónico | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | Tipo de componente: Dimensión |
 | Motivo de exclusión de entrega del correo electrónico | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Tipo de componente: Dimensión |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Configurar métricas en la vista de datos
 
@@ -76,7 +78,7 @@ Puede crear las métricas siguientes en una vista de datos para lograr una parid
 | Reclamaciones por correo no deseado | Recuento de quejas por correo no deseado. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `spam_complaint` |
 | Cancelación de suscripción | El número de bajas. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `unsubscribe` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Configurar las métricas calculadas en Analysis Workspace
 
@@ -87,4 +89,4 @@ Una vez que haya configurado las dimensiones y métricas deseadas para el conjun
 | Mensajes enviados | El número total de mensajes enviados. Incluye mensajes enviados con éxito o fallidos. | `[Sends] + [Bounces] - [Bounces After Delivery]` |
 | Mensajes entregados | Número de correos electrónicos enviados a los clientes. | `[Sends] - [Bounces After Delivery]` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
