@@ -11,7 +11,7 @@ ht-degree: 79%
 
 # Etiquetas y políticas
 
-Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es) para algunos o todos los elementos del conjunto de datos. Puede ver estas etiquetas y políticas en CJA.
+Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es) para algunos o todos los elementos del conjunto de datos. Puede ver estas etiquetas y directivas en CJA.
 
 Las siguientes etiquetas son de especial interés para CJA:
 
@@ -21,9 +21,9 @@ Las siguientes etiquetas son de especial interés para CJA:
 
 >[!NOTE]
 >
->Las etiquetas de uso de datos no se propagan automáticamente a los conjuntos de datos enlazados. Sin embargo, se pueden añadir manualmente.
+>Las etiquetas de uso de datos no se propagan automáticamente a conjuntos de datos enlazados. Sin embargo, se pueden añadir manualmente.
 
-El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso se usan las políticas. Las políticas se crean mediante la [API del servicio de políticas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=es) en Experience Platform.
+El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso se utilizan las políticas. Las políticas se crean mediante la [API del servicio de políticas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=es) en Experience Platform.
 
 En CJA aparecen dos políticas definidas por Adobe que afectan a la creación de informes y a la descarga/uso compartido:
 
@@ -44,7 +44,7 @@ Las etiquetas de datos que se crearon en Experience Platform se muestran en tres
 
 ## Filtro en las etiquetas de Gobernanza de datos en las vistas de datos
 
-En el editor de vistas de datos, haga clic en [!UICONTROL filter] en el carril izquierdo y filtre los componentes de vistas de datos por **[!UICONTROL Gobernanza de datos]** y tipo de **[!UICONTROL Etiqueta]**:
+En el editor de vistas de datos, haga clic en el botón [!UICONTROL filter] en la pista izquierda y filtre los componentes de vistas de datos por **[!UICONTROL Administración de datos]** y tipo de **[!UICONTROL Etiqueta]**:
 
 ![](assets/filter-labels.png)
 
@@ -54,7 +54,7 @@ Haga clic en **[!UICONTROL Aplicar]** para ver qué componentes tienen etiquetas
 
 Puede comprobar si hay una política activada que bloquee el uso de ciertos elementos de vista de datos de CJA para análisis o exportación con fines específicos.
 
-De nuevo, haga clic en [!UICONTROL filter] en el carril izquierdo y debajo de **[!UICONTROL Gobernanza de datos]**, haga clic en **[!UICONTROL Políticas]**:
+De nuevo, haga clic en el botón [!UICONTROL filter] en el carril izquierdo y debajo de **[!UICONTROL Administración de datos]**, haga clic en **[!UICONTROL Políticas]**:
 
 ![](assets/filter-policies.png)
 
