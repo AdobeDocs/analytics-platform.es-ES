@@ -3,16 +3,16 @@ description: Aprenda a crear vínculos que se pueden compartir a proyectos o vis
 keywords: Uso compartido en Analysis Workspace
 title: Crear vínculos que se pueden compartir
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: c419d304e6af77fb61b756aa59faeae88a7c29d5
+source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Crear vínculos que se pueden compartir
 
-Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en Adobe Analytics antes de acceder al proyecto, mientras que otros no.
+Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en Adobe Analytics antes de acceder al proyecto, mientras que otros no lo hacen.
 
 ## Obtener vínculo del proyecto {#project-link}
 
@@ -20,13 +20,13 @@ Para compartir un vínculo al proyecto completo, vaya a **[!UICONTROL Compartir 
 
 ![](assets/get-project-link.png)
 
-## Obtener vínculo público
+## Obtener un vínculo de solo lectura para compartirlo con cualquier persona
 
 {{release-limited-testing-section}}
 
-Puede compartir un vínculo de solo vista a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics.
+Puede compartir un vínculo de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Customer Journey Analytics.
 
-Para obtener más información, consulte &quot;Compartir un vínculo público con cualquier persona (no se requiere inicio de sesión)&quot; en el artículo [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
+Para obtener más información, consulte &quot;Compartir un proyecto con cualquier persona (no se requiere inicio de sesión)&quot; en el artículo [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## Obtener panel o vínculo de visualización {#panel-link}
 
