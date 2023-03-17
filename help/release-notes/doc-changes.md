@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: e4b84436315d4eb87e39085f4838b51797a1f9b7
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -20,11 +20,11 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Marzo de 2023** |  |
-| Crear historias de datos en cuadros de resultados móviles | A [historia de datos](/help/mobile-app/create-scorecard.md#create-data-stories) es una colección de puntos de datos de soporte, contexto empresarial y métricas relacionadas que se crean en torno a un tema o métrica central. |
-| Compatibilidad de funciones | Actualizado [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) con una tabla de funciones disponibles en CJA, pero no disponibles ni admitidas en AA. |
-| Métricas calculadas predeterminadas | Se ha añadido contenido que explica la [métricas calculadas predeterminadas proporcionadas por el Adobe](/help/components/calc-metrics/default-calcmetrics.md). |
-| Diccionario de datos | <p>Se ha añadido nueva documentación para el diccionario de datos, que incluye [Información general](/help/components/data-dictionary/data-dictionary-overview.md), [Visualización](/help/components/data-dictionary/view-data-dictionary.md), [Edición](/help/components/data-dictionary/edit-entries-data-dictionary.md), y [Monitorización](/help/components/data-dictionary/monitor-data-dictionary-health.md) el diccionario de datos.</p><p>Información en [Adición de descripciones de componentes](/help/components/add-component-descriptions.md) se actualizó para tener en cuenta la funcionalidad del diccionario de datos.</p> |
-| Uso compartido de vínculos para proyectos (no se requiere inicio de sesión) | <p>Se ha actualizado la documentación existente para explicar cómo compartir un vínculo de solo lectura de un proyecto con personas que no tienen acceso a Analysis Workspace.</p> <p>La documentación actualizada del usuario incluye [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) y [Crear vínculos que se pueden compartir](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>Se agregaron opciones para administradores a [Preferencias](/help/analysis-workspace/user-preferences.md).</p> |
+| Crear artículos de datos en informes de valoración móviles | A [historia de datos](/help/mobile-app/create-scorecard.md#create-data-stories) es una colección de puntos de datos compatibles, contexto empresarial y métricas relacionadas creada en torno a un tema o métrica central. |
+| Compatibilidad de funciones | [Compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) actualizadas con una tabla de funciones disponibles en CJA, pero no disponibles ni admitidas en AA. |
+| Métricas calculadas predeterminadas | Se ha añadido contenido que explica las [métricas calculadas predeterminadas que proporciona Adobe](/help/components/calc-metrics/default-calcmetrics.md). |
+| Diccionario de datos | <p>Se ha añadido nueva documentación para el diccionario de datos, incluido un [Información general](/help/components/data-dictionary/data-dictionary-overview.md), [Visualización](/help/components/data-dictionary/view-data-dictionary.md), [Edición](/help/components/data-dictionary/edit-entries-data-dictionary.md)y [Monitorización](/help/components/data-dictionary/monitor-data-dictionary-health.md) el diccionario de datos.</p><p>Información de [Adición de descripciones de componentes](/help/components/add-component-descriptions.md) se ha actualizado para tener en cuenta la funcionalidad del diccionario de datos.</p> |
+| Uso compartido de vínculos para proyectos (no se requiere inicio de sesión) | <p>Se ha actualizado la documentación existente para explicar cómo compartir un vínculo de solo lectura de un proyecto con personas que no tienen acceso a Analysis Workspace.</p> <p>La documentación de usuario actualizada incluye [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) y [Crear vínculos que se pueden compartir](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>Las opciones para administradores se agregaron a [Preferencias](/help/analysis-workspace/user-preferences.md).</p> |
 | **Febrero de 2023** |  |
 | Comparar soluciones de CJA con las soluciones de BI | Nuevo documento sobre una [comparación](../getting-started/cja-vs-bi.md) de Customer Journey Analytics con las soluciones típicas de BI. |
 | Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency). |
