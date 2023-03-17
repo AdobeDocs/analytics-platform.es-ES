@@ -2,10 +2,10 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
+source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 100%
+source-wordcount: '1435'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | Desde una tabla de forma libre | Haga clic con el botón derecho en un elemento de una tabla de forma libre y seleccione **[!UICONTROL Crear una audiencia a partir de la selección]**. Mediante este método se rellena previamente el filtro con la dimensión o el elemento de dimensión que haya seleccionado en la tabla. |
    | Desde la interfaz de usuario de creación/edición de filtros | Marque la casilla que dice **[!UICONTROL Crear una audiencia a partir de este filtro]**. Mediante este método se rellena previamente el filtro. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Cree la audiencia.
 
@@ -45,7 +45,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | [!UICONTROL Filtro] | Los filtros son la entrada principal a la audiencia. Se pueden agregar hasta 20 filtros. Estos filtros se pueden unir con los operadores `And` o `Or`. |
    | [!UICONTROL Ver ID de muestra] | Una muestra de los ID de esta audiencia. Utilice la barra de búsqueda para buscar ID de ejemplo. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Interprete la vista previa de datos.
 
@@ -64,7 +64,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | [!UICONTROL Espacios de nombres incluidos] | Los espacios de nombres específicos asociados a las personas de la audiencia. Algunos ejemplos son ECID, CRM ID, direcciones de correo electrónico, etc. |
    | [!UICONTROL Zona protegida] | La [zona protegida de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) en la que reside esta audiencia. Cuando publica esta audiencia en Platform, solo puede trabajar con ella dentro de los límites de esta zona protegida. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Compruebe la configuración de la audiencia y haga clic en **[!UICONTROL Publicar]**.
 
@@ -82,19 +82,20 @@ Después de crear una audiencia, Adobe crea un segmento de streaming de Experien
 
 ## Consideraciones de latencia {#latency}
 
-En varios puntos antes, durante y después de la publicación de la audiencia, pueden producirse latencias. A continuación se muestra una información general de las posibles latencias.
+Pueden producirse latencias en varios puntos antes, durante y después de la publicación de la audiencia. A continuación se muestra una información general de las posibles latencias.
 
-![](assets/latency-diagram.png)
+![latencia de AEP a CJA](assets/latency-diagram.png)
 
 | # | Punto de latencia | Duración de la latencia |
 | --- | --- | --- |
-| 1 | Ingesta de datos en el lago de datos | Hasta 30 minutos |
-| 2 | Ingesta de datos de Experience Platform a CJA | Hasta 60 minutos |
+| No se muestra | Conector de origen de Adobe Analytics a Analytics (A4T) | Hasta 30 minutos |
+| 1 | Ingesta de datos en Data Lake (desde Analytics Source Connector u otras fuentes) | Hasta 90 minutos |
+| 2 | Ingesta de datos desde Data Lake de Experience Platform a CJA | Hasta 90 minutos |
 | 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
 | 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
 | 5 | Creación de destino en AEP: Activación del nuevo segmento | 1 a 2 horas |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Usar audiencias de CJA en Experience Platform {#audiences-aep}
 
@@ -138,7 +139,7 @@ CJA transmite los datos a RTCP mediante canalización y estos datos también se 
 
 +++**¿Qué identidades envía CJA?**
 
-Cualesquiera pares de identidad/área de nombres que se hayan utilizado en la [configuración de Conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
+Los pares de identidad/área de nombres que se especificaron en la variable [Configuración de la conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
 
 +++
 

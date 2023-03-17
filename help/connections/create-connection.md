@@ -4,7 +4,7 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 1490efac916594b7d7eb146f1cfa6a1835878199
+source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
 workflow-type: tm+mt
 source-wordcount: '2489'
 ht-degree: 98%
@@ -68,8 +68,8 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
    | --- | --- |
    | **[!UICONTROL ID de la persona]** | Seleccione un ID de persona en la lista desplegable de identidades disponibles. Estas identidades se definieron en el esquema del conjunto de datos en Experience Platform. Consulte a continuación para obtener información sobre cómo usar el mapa de identidad como ID de persona.<p>Si no hay ID de persona para elegir, significa que uno o más ID de persona no se han definido en el esquema. Mire este vídeo sobre cómo definir una identidad en Experience Platform. |
    | **[!UICONTROL Marca de tiempo]** | Solo para conjuntos de datos de evento, esta configuración se establece automáticamente en el campo de marca de tiempo predeterminado de esquemas basados en eventos en Experience Platform. |
-   | **[!UICONTROL Tipo de fuente de datos]** | Los tipos de fuentes de datos incluyen: datos web, datos de aplicaciones móviles, datos de PDV, datos CRM, datos de encuestas, datos de centros de llamadas, datos de productos, datos de cuentas, datos de transacciones, datos de comentarios del cliente y otros. |
-   | **[!UICONTROL Importar datos nuevos]** | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a Workspace. Se puede configurar como Activado o Desactivado. |
+   | **[!UICONTROL Tipo de fuente de datos]** | Los tipos de fuentes de datos incluyen: [!UICONTROL Datos web], [!UICONTROL Datos de aplicaciones móviles], [!UICONTROL Datos de POS], [!UICONTROL Datos CRM], [!UICONTROL Datos de encuesta], [!UICONTROL Datos del centro de llamadas], [!UICONTROL Datos del producto], [!UICONTROL Datos de cuentas], [!UICONTROL Datos de transacciones], [!UICONTROL Datos de comentarios del cliente]y [!UICONTROL Otro]. |
+   | **[!UICONTROL Importar datos nuevos]** | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a Workspace. Se puede configurar en [!UICONTROL Activado] o [!UICONTROL Off]. |
    | **[!UICONTROL Relleno del conjunto de datos]** | Haga clic en **[!UICONTROL Solicitar relleno]** para rellenar datos históricos.<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La latencia se ve afectada por la cantidad de datos históricos que tiene.</li><li>El Conector de datos de Adobe Analytics importa hasta 13 meses de datos, independientemente de su tamaño.</li></ul> |
    | **[!UICONTROL Estado de relleno]** | Los posibles indicadores de estado son:<ul><li>Correcto</li><li>Procesamiento de X rellenos</li><li>Off</li></ul> |
    | **[!UICONTROL ID de conjunto de datos]** | Este ID se genera automáticamente. |
