@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Información general sobre Proyectos
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1165'
-ht-degree: 100%
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+workflow-type: tm+mt
+source-wordcount: '1427'
+ht-degree: 81%
 
 ---
 
@@ -21,22 +21,40 @@ La primera vez que acceda a **[!UICONTROL Analytics]** > **[!UICONTROL Workspace
 
 ![](assets/sample-project.png)
 
-La lista de proyectos de Workspace contiene la siguiente información:
+La página Proyectos contiene la siguiente información:
+
+>[!NOTE]
+>
+>Algunas columnas no se muestran de forma predeterminada. Para personalizar las columnas que ve, haga clic en el botón **Personalizar tabla** icono ![Personalizar tabla](assets/projects-page-customize-columns-icon.png).
+
 
 | Elemento | Descripción |
 |---|---|
-| [Crear nuevo proyecto](/help/analysis-workspace/home.md) | Haga clic en este vínculo para iniciar un proyecto nuevo desde cero. |
-| Administrar proyectos | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos]**), que muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
-| Definir como página principal | Convierte esta página en su página de aterrizaje de Workspace. |
-| [Ver tutoriales](/help/analysis-workspace/home.md) | Le permite acceder a los tutoriales en vídeo de Analysis Workspace. |
+| [Editar preferencias](/help/analysis-workspace/user-preferences.md) | Administre la configuración de Analysis Workspace y sus componentes relacionados para todos los proyectos o paneles nuevos que cree. |
+| [Crear carpeta](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Agregue una nueva carpeta o subcarpeta a la lista de proyectos y carpetas. |
+| [Crear proyecto](/help/analysis-workspace/home.md) | Inicio de un nuevo proyecto desde cero o desde un [plantilla](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#analysis-workspace). |
+| Administrar proyectos <!--I don't see this option--> | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos]**), que muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
+| Definir como página principal <!--I don't see this option--> | Convierte esta página en su página de aterrizaje de Workspace. |
+| Mostrar más | Muestra las opciones para crear un proyecto en blanco o un informe de valoración móvil, [visualización de tutoriales de formación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=es)o [ver notas de la versión](/help/release-notes/latest.md). |
+| Mostrar carpetas y proyectos | Elija si desea mostrar la estructura de carpetas de los proyectos. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Personalizar tabla (icono) | Permite personalizar la información que se muestra para cada proyecto en la página Proyectos . |
 | Nombre | Nombre del proyecto de Workspace. |
-| Propietario | Persona que ha creado el proyecto (usted mismo o alguien que haya compartido su proyecto). |
-| Tipo | Indica si se trata de un proyecto de Workspace o de un cuadro de mandos [móvil](/help/mobile-app/home.md). |
-| [Función del proyecto](/help/analysis-workspace/curate-share/share-projects.md) | Indica la función en el proyecto: propietarios, edición, duplicado o vista. |
+| Tipo | Indica si se trata de un proyecto de Workspace, una carpeta o un [Informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=es). |
 | Etiquetas | Etiquetas aplicadas al proyecto. |
+| Programado | Indica si los proyectos están programados para enviarse por correo electrónico a los destinatarios según una programación. Consulte [Programar proyectos](/help/analysis-workspace/curate-share/t-schedule-report.md). |
+| Vínculo compartido (cualquier persona) | Los proyectos se pueden compartir con cualquier persona, incluso con personas que no tengan acceso a Analysis Workspace. Esta columna muestra si los proyectos se han compartido de esta manera. Consulte [Compartir un proyecto con cualquier persona (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
+| Grupo de informes | Grupo de informes al que está asociado el proyecto. |
+| [Función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) | Indica la función en el proyecto: propietarios, edición, duplicado o vista. |
+| Propietario | Persona que ha creado el proyecto (usted mismo o alguien que haya compartido su proyecto). |
+| Compartido con | Usuarios con los que se ha compartido el proyecto. |
 | Última modificación | Fecha y hora de última modificación del proyecto. |
-| Mis proyectos favoritos | Para marcar un proyecto como favorito, abra el proyecto y haga clic en la estrella junto a su nombre. Aparecerá en esta lista la próxima vez que abra Workspace. |
-| Proyectos vistos con frecuencia | Lista todos los proyectos que abre con frecuencia para facilitar el acceso. |
+| Última apertura | Fecha y hora en que se abrió el proyecto por última vez. |
+| ID del proyecto | ID del proyecto. |
+| El intervalo de fecha más largo | Intervalo de fechas más largo del proyecto. |
+| Cantidad de consultas | Número total de consultas contenidas en el proyecto. |
+| Ubicación | Carpeta donde reside el proyecto. |
+| Mis proyectos favoritos <!--I don't see this option--> | Para marcar un proyecto como favorito, abra el proyecto y haga clic en la estrella junto a su nombre. Aparecerá en esta lista la próxima vez que abra Workspace. |
+| Proyectos vistos con frecuencia <!--I don't see this option--> | Lista todos los proyectos que abre con frecuencia para facilitar el acceso. |
 
 ## Barra de menú {#menu-bar}
 
@@ -46,7 +64,7 @@ En un proyecto, el menú proporciona opciones para administrar el proyecto, agre
 
 | Elemento del menú | Descripción |
 |---|---|
-| Proyecto | Incluye acciones comunes para la administración de proyectos, como Nuevo, Abrir, Guardar, Guardar como y Guardar como plantilla. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. Las opciones [Descargar CSV y PDF](/help/analysis-workspace/curate-share/download-send.md) permiten exportar datos desde Workspace. **Información y configuración del proyecto** (ver más abajo) ofrece muchas opciones para administrar el proyecto. |
+| Proyecto  | Incluye acciones comunes para la administración de proyectos, como Nuevo, Abrir, Guardar, Guardar como y Guardar como plantilla. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. Las opciones [Descargar CSV y PDF](/help/analysis-workspace/curate-share/download-send.md) permiten exportar datos desde Workspace. **Información y configuración del proyecto** (ver más abajo) ofrece muchas opciones para administrar el proyecto. |
 | Editar | Deshacer o volver a hacer la última acción. Borrar todo restablecerá el proyecto a un punto de partida en blanco. |
 | Insertar | Inserte nuevos paneles o visualizaciones desde este menú. También puede insertar nuevos paneles y visualizaciones desde el carril izquierdo. |
 | [Componentes](/help/components/overview.md) | Cree nuevos componentes de filtro, métrica calculada, intervalo de fecha o alerta a partir del proyecto. También puede crear nuevos componentes desde el carril izquierdo. Si las definiciones de los componentes han cambiado recientemente, Actualizar componentes recuperará las definiciones más recientes. |
@@ -56,7 +74,7 @@ En un proyecto, el menú proporciona opciones para administrar el proyecto, agre
 
 ### Info y configuración del proyecto {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]** proporciona información a nivel de proyecto sobre el proyecto activo.
+**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**  proporciona información a nivel de proyecto sobre el proyecto activo.
 
 ![](assets/projectinfo.png)
 
@@ -64,7 +82,7 @@ La configuración incluye lo siguiente:
 
 | Configuración | Descripción |
 |---|---|
-| Proyecto Nombre | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
+| Proyecto  Nombre | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
 | Creado por | Nombre del propietario del proyecto. |
 | Última modificación | Fecha de la última modificación del proyecto. |
 | Etiquetas | Enumera cualquier etiqueta aplicada a un proyecto para una ordenación por categorías más sencilla. |
@@ -106,7 +124,7 @@ Las siguientes acciones comunes del administrador de proyectos se pueden llevar 
 | Acción | Descripción |
 |---|---|
 | Agregar | Cree un nuevo proyecto desde cero. |
-| Etiquetar o Aprobar | Elija Etiquetar o Aprobar para organizar proyectos y facilitar su búsqueda. |
+| Etiquetar o Aprobar | Elija &quot;Etiqueta&quot; o &quot;Aprobar&quot; para organizar sus proyectos y facilitar su búsqueda. |
 | [Compartir](/help/analysis-workspace/curate-share/share-projects.md) | Hace que este proyecto esté disponible para otros usuarios de Analysis Workspace de su organización. |
 | Eliminar | Elimine el proyecto. |
 | Cambiar nombre | Edite el nombre del proyecto. |

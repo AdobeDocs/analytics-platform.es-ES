@@ -3,7 +3,7 @@ description: Los administradores son responsables de supervisar el estado del di
 title: Monitorización del estado del diccionario de datos
 feature: Components
 role: Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 94%
@@ -12,9 +12,7 @@ ht-degree: 94%
 
 # Monitorización del estado del diccionario de datos
 
-{{release-limited-testing}}
-
-Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos en buen estado.
+Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos saludable.
 
 ## Características de un diccionario de datos correcto
 

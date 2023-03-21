@@ -3,16 +3,14 @@ description: El diccionario de datos de Analysis Workspace permite a los usuario
 title: Visualización del diccionario de datos
 feature: Components
 role: User, Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 94%
+source-wordcount: '280'
+ht-degree: 71%
 
 ---
 
 # Visualización de información de componentes en el diccionario de datos
-
-{{release-limited-testing}}
 
 El diccionario de datos permite ver información acerca de un componente, incluida su descripción, componentes similares, otros componentes con los que se utiliza con frecuencia, etc.
 
@@ -31,6 +29,8 @@ Para ver información acerca de un componente en el diccionario de datos:
 1. Asegúrese de que el grupo de informes que contiene el componente que desea ver esté seleccionado en el menú desplegable. De forma predeterminada, se muestra el grupo de informes en el que ya se encuentra.
 
 1. (Opcional) En el campo de búsqueda, empiece a escribir el nombre del componente que desea ver.
+
+   El tipo de componente se puede identificar mediante el color y el icono. **Dimension** ![Dimension](assets/dimension-icon.png) son naranjas, **Segmentos** ![Icono de segmento](assets/segment-icon.png) son azules, **Intervalos de fechas** ![Icono de intervalo de fechas](assets/date-range-icon.png) son púrpura y **Métricas** ![Icono de métrica](assets/default-metric-icon.png) son verdes. El icono del Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o una plantilla de segmento y el icono de la calculadora ![Icono de calculadora](assets/calculated-metric-icon-created.png) indica una métrica calculada que fue creada por un administrador de Analytics en su organización.
 
 {{dd-filter-criteria}}
 

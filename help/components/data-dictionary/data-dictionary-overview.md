@@ -3,7 +3,7 @@ description: El diccionario de datos de Analysis Workspace permite a los usuario
 title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
-source-git-commit: 5d6942af4ac3f999c5e7fd7d6ba74a5fe7a26a9d
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 77%
@@ -12,11 +12,9 @@ ht-degree: 77%
 
 # Información general del diccionario de datos
 
-{{release-limited-testing}}
-
 El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a seguir los componentes de su entorno de Analytics y a comprenderlos mejor.
 
-Los administradores de Analytics son responsables de revisar información sobre cada componente del diccionario de datos para que esté disponible para los usuarios.
+Los administradores de Analytics son responsables de conservar la información sobre cada componente en el diccionario de datos para que esté disponible para los usuarios.
 
 ## Ventajas para los usuarios
 
@@ -32,7 +30,7 @@ La información disponible en el diccionario de datos incluye la siguiente:
 
 * Si el administrador del sistema ha aprobado un componente
 
-Para obtener información sobre cómo acceder al diccionario de datos y para obtener detalles sobre la información que contiene, consulte [Ver información del componente en el diccionario de datos](/help/components/data-dictionary/view-data-dictionary.md).
+Para obtener información sobre cómo acceder al diccionario de datos y para obtener detalles sobre la información que contiene, consulte [Ver información de componentes en el diccionario de datos](/help/components/data-dictionary/view-data-dictionary.md).
 
 ## Ventajas para los administradores
 
@@ -67,13 +65,13 @@ Puede acceder al diccionario de datos de cualquiera de las siguientes maneras en
 
 * Desde el menú: [!UICONTROL **Ayuda**] > [!UICONTROL **Diccionario de datos**].
 
-Para obtener información detallada sobre las distintas opciones disponibles en el diccionario de datos, consulte [Ver información del componente en el diccionario de datos](/help/components/data-dictionary/view-data-dictionary.md).
+Para obtener información detallada sobre las distintas opciones disponibles en el diccionario de datos, consulte [Ver información de componentes en el diccionario de datos](/help/components/data-dictionary/view-data-dictionary.md).
 
 ## Actualizar y depurar el diccionario de datos
 
-Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos en buen estado para su organización, tal como se describe en [Monitorizar estado del diccionario de datos](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos correcto para su organización, tal como se describe en [Monitorizar el estado del diccionario de datos](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Como parte de este proceso, los administradores de CJA pueden editar información sobre cada componente del diccionario de datos, tal como se describe en [Editar entradas de componente en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+Como parte de este proceso, los administradores de CJA pueden editar información sobre cada componente en el diccionario de datos, tal como se describe en [Editar entradas de componentes en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Movimiento, minimización o cierre del diccionario de datos
 
