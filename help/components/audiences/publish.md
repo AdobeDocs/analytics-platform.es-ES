@@ -2,10 +2,10 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
+source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 94%
+source-wordcount: '1502'
+ht-degree: 90%
 
 ---
 
@@ -154,6 +154,19 @@ Véase más arriba. Solo enviamos una identidad por cada “persona” de CJA.
 No. Solo enviamos una identidad por “persona”, por lo que no habría bordes de gráficos para que RTCP los consumiera.
 
 +++
+
++++**¿A qué hora del día se producen actualizaciones diarias, semanales y mensuales? ¿Qué día de la semana se producen actualizaciones semanales?**
+
+El momento de la actualización se basa en el momento en que se publicó la audiencia original y se ancla a esa hora del día (y el día de la semana o el mes).
+
++++
+
++++**¿Pueden los usuarios configurar la hora diaria, semanal y mensual de actualización?**
+
+No, los usuarios no pueden configurarlos.
+
++++
+
 
 ## Pasos siguientes
 
