@@ -4,10 +4,10 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+source-git-commit: bf067ca57564bad72640c6bb5eb1c376ad818d3e
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 63%
+source-wordcount: '1655'
+ht-degree: 60%
 
 ---
 
@@ -121,6 +121,10 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 >* El administrador de CJA puede deshabilitar la capacidad de compartir un proyecto de esta forma, tal como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md). Si no puede compartir un proyecto como se describe en esta sección, su administrador de CJA ha deshabilitado esta capacidad.
 >
 >* Los proyectos con más de 14 visualizaciones expandidas no se pueden compartir con personas que no tienen acceso a CJA.
+>
+>* Los usuarios con los que comparta pueden ver los filtros que se aplicaron al proyecto durante [depuración](curate.md).
+> 
+>* Los usuarios con los que comparta pueden cambiar el intervalo de fechas del proyecto. El intervalo de fechas definido para el proyecto se muestra de forma predeterminada.
 
 
 Para compartir un proyecto de Analysis Workspace con cualquier persona:
@@ -152,6 +156,8 @@ Para compartir un proyecto de Analysis Workspace con cualquier persona:
 1. Comparta el vínculo con las personas a las que desee tener acceso al proyecto. Por ejemplo, puede pegar el vínculo en un correo electrónico.
 
    Cualquier persona con la que comparta el vínculo puede ver el proyecto de Analysis Workspace.
+
+1. (Opcional) Puede hacer clic en la **Generar nuevo vínculo** icono ![Icono Generar vínculo](assets/regenerate-link.png) para eliminar el acceso de los usuarios que recibieron previamente un vínculo al proyecto. Se genera un nuevo vínculo que puede compartir con los usuarios a los que desee acceder al proyecto.
 
 1. Select **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo compartir. Los cambios se guardan automáticamente.
 
