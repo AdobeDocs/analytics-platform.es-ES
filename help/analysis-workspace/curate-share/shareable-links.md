@@ -3,10 +3,10 @@ description: Aprenda a crear vínculos que se pueden compartir a proyectos o vis
 keywords: Uso compartido en Analysis Workspace
 title: Crear vínculos que se pueden compartir
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '375'
+ht-degree: 62%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en Adobe Analytics antes de acceder al proyecto, mientras que otros no lo hacen.
 
-## Obtener vínculo del proyecto {#project-link}
+## Obtener un vínculo de proyecto para compartirlo con otros usuarios de Workspace {#project-link}
 
-Para compartir un vínculo al proyecto completo, vaya a **[!UICONTROL Compartir > Obtener vínculo del proyecto]**. Si no se ha asignado al destinatario del vínculo una [función de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores tendrán la función: **[!UICONTROL Puede editar]** y los que no sean administradores: **[!UICONTROL Puede duplicar]**.
+Para compartir un vínculo a un proyecto, vaya al proyecto que desea compartir y, a continuación, seleccione ir a [!UICONTROL **Compartir**] > [!UICONTROL **Obtener vínculo del proyecto**] (o **Compartir**] > [!UICONTROL **Compartir con usuarios de Workspace**] > [!UICONTROL **Compartir por vínculo**). Los usuarios con los que comparta el vínculo deben iniciar sesión.
 
-![](assets/get-project-link.png)
+Si al destinatario del vínculo no se le ha asignado un [función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores reciben **[!UICONTROL Puede editar]** y reciben los usuarios que no son administradores **[!UICONTROL Puede duplicarse]** experiencias.
 
 ## Obtener un vínculo de solo lectura para compartirlo con cualquier persona
 

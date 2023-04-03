@@ -4,10 +4,10 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: bf067ca57564bad72640c6bb5eb1c376ad818d3e
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 60%
+source-wordcount: '1673'
+ht-degree: 56%
 
 ---
 
@@ -91,16 +91,15 @@ Cuando comparta un vínculo como se describe en esta sección, tenga en cuenta l
 
 * Los destinatarios que utilicen el vínculo deben iniciar sesión en el Customer Journey Analytics antes de obtener acceso al proyecto.
 
-* Si a un destinatario no se le asigna una función y recibe un [vínculo](/help/analysis-workspace/curate-share/shareable-links.md) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]**, y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**.
+* Si a un destinatario no se le asigna una función y recibe un [vínculo](/help/analysis-workspace/curate-share/shareable-links.md) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función predeterminada. Los administradores reciben **[!UICONTROL Puede editar]** y reciben los usuarios que no son administradores **[!UICONTROL Puede duplicarse]**.
 
 Para compartir el vínculo del proyecto con los usuarios de su organización, haga lo siguiente:
 
-1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**.
-Si hay cambios sin guardar, se le pedirá primero que guarde el proyecto.
+1. Guarde el proyecto. Si hay cambios sin guardar, se le pedirá que guarde el proyecto antes de compartir un vínculo.
+
+1. Select **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]** y, a continuación, seleccione **[!UICONTROL Copiar]** junto a la variable **[!UICONTROL Compartir por vínculo]** campo .
 
    ![](assets/share-proj-modal.png)
-
-1. Haga clic en **[!UICONTROL Copiar vínculo]** junto al **[!UICONTROL campo Compartir URL]**.
 
 1. Comparta el vínculo con los usuarios de su organización. Por ejemplo, puede pegarlo en un correo electrónico, en un sitio web interno, etc.
 
@@ -190,4 +189,4 @@ A continuación se muestra un vídeo sobre este tema:
 | ¿Qué sucede si dos editores guardan un proyecto al mismo tiempo? | Los cambios no se combinan y se conservará la última versión guardada del proyecto. Actualmente, Analysis Workspace no admite la colaboración en tiempo real. |
 | Como administrador, ¿qué experiencia de proyecto veré? | Los administradores con una función **[!UICONTROL Puede duplicar]** o **[!UICONTROL Puede ver]** recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función a **[!UICONTROL Puede editar]** en cualquier momento mediante **[!UICONTROL Componentes] > [!UICONTROL Proyectos]**. |
 | ¿Qué sucede si un destinatario se coloca en una función como individuo y otra como miembro de un grupo? | Si un destinatario se coloca en varias funciones, siempre recibirá la experiencia más alta. Por ejemplo, si a un destinatario se le asigna la función **[!UICONTROL Puede editar]** como individuo y la función **[!UICONTROL Puede ver]** como miembro de un grupo, recibirá una experiencia **[!UICONTROL Puede editar]** en el proyecto. |
-| ¿Qué experiencia obtiene un destinatario si abre un vínculo de proyecto? | Los Destinatarios reciben la función que les ha asignado en el modal de uso compartido. Si a un destinatario no se le asigna una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función de forma predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. |
+| ¿Qué experiencia obtiene un destinatario si abre un vínculo de proyecto? | Los Destinatarios reciben la función que les ha asignado en el modal de uso compartido. Si a un destinatario no se le asigna una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]** y, a continuación, seleccione **[!UICONTROL Copiar]** junto a la variable **[!UICONTROL Compartir por vínculo]** ), se colocan en una función de forma predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]**, y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. |
