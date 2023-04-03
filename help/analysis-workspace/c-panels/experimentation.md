@@ -3,10 +3,10 @@ description: Obtenga información acerca de cómo analizar los resultados de las
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 967348b321525c50b292339de875fd4976d8b10a
-workflow-type: ht
-source-wordcount: '1393'
-ht-degree: 100%
+source-git-commit: 54d8cf211a5a4bc3ffde5e24c29089125fc35362
+workflow-type: tm+mt
+source-wordcount: '1833'
+ht-degree: 75%
 
 ---
 
@@ -18,17 +18,21 @@ El panel **[!UICONTROL Experimentación]** permite que los analistas comparen di
 >
 >En este momento, los datos de [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) (A4T) introducidos en Adobe Experience Platform mediante el conector de origen de Analytics **no pueden** analizarse en el panel [!UICONTROL Experimentación]. Esperamos que este problema se resuelva en 2023.
 
-## Control de acceso
+## Control de acceso {#access}
 
 El panel Experimentación está disponible para su uso por parte de todos los usuarios de Customer Journey Analytics (CJA). No se requieren derechos de administrador ni otros permisos. Sin embargo, la configuración (pasos 1 y 2 a continuación) exige acciones que solo los administradores pueden realizar.
 
-## Paso 1: Crear una conexión con el conjunto de datos del experimento
+## Nuevas funciones en Métricas calculadas {#functions}
+
+Se agregaron dos nuevas funciones avanzadas: [!UICONTROL Alza] y [!UICONTROL Confianza]. Para obtener más información, consulte [Referencia: funciones avanzadas](/help/components/calc-metrics/cm-adv-functions.md).
+
+## Paso 1: Crear una conexión con el conjunto de datos del experimento {#connection}
 
 El esquema de datos recomendado es que los datos del experimento estén en una [Matriz de objetos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=es) que contiene el experimento y los datos de variante en dos dimensiones independientes. Si tiene los datos del experimento en una sola dimensión con datos de experimento y de variante en una cadena delimitada, puede utilizar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividirlas en dos y usarlas en el panel.
 
 Una vez que se hayan [ingerido](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es) los datos del experimento en Adobe Experience Platform, [cree una conexión en CJA](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
 
-## Paso 2: Añadir etiquetas de contexto en vistas de datos
+## Paso 2: Añadir etiquetas de contexto en vistas de datos {#contect-labels}
 
 En la configuración de vistas de datos de CJA, los administradores pueden añadir [etiquetas de contexto](/help/data-views/component-settings/overview.md) a una dimensión o métrica y los servicios de CJA como el panel [!UICONTROL Experimentación] puede utilizarlas para sus fines. Para el panel Experimentación se utilizan dos etiquetas predefinidas:
 
@@ -41,7 +45,7 @@ En la vista de datos que contiene datos de experimentación, elija dos dimension
 
 Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no hay experimentos con los que trabajar.
 
-## Paso 3: Configurar el panel Experimento
+## Paso 3: Configurar el panel Experimento {#configure}
 
 1. En e Workspace de CJA, arrastre el panel Experimentación a un proyecto.
 
@@ -62,7 +66,7 @@ Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no hay e
 
 1. Haga clic en **[!UICONTROL Generar]**.
 
-## Paso 4: Ver el resultado del panel
+## Paso 4: Ver el resultado del panel {#view}
 
 El panel Experimentación devuelve un completo conjunto de datos y visualizaciones para ayudarle a comprender mejor el rendimiento de sus experimentos. En la parte superior del panel, se proporciona una línea de resumen para recordarle la configuración del panel seleccionada. En cualquier momento, puede editar el panel haciendo clic en el lápiz de edición en la parte superior derecha.
 
@@ -80,7 +84,7 @@ El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL
 >
 >Actualmente, este panel no admite el análisis de pruebas A/A.
 
-## Paso 5: Interpretar los resultados
+## Paso 5: Interpretar los resultados {#interpret}
 
 1. **El experimento es concluyente**: cada vez que visualiza el informe de experimentación, Adobe analiza los datos que se hayan acumulado en el experimento hasta este momento. Luego declara que un experimento es “concluyente” cuando la confianza válida en cualquier momento supere el umbral del 95 % para *al menos una* de las variantes (con una corrección de Bonferroni aplicada cuando hay más de dos ramas, para corregir las pruebas de hipótesis múltiples).
 
@@ -96,7 +100,7 @@ El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL
 >
 >Una descripción completa de los resultados debe tener en cuenta todas las pruebas disponibles (es decir, el diseño de los experimentos, los tamaños de las muestras, las tasas de conversión, la confianza, etc.), y no solo la declaración de concluyente o no. Incluso cuando un resultado aún no es “concluyente”, puede haber pruebas convincentes de que una variante es diferente de otra (por ejemplo, los intervalos de confianza casi no se superponen). Lo ideal sería que la adopción de decisiones se basara en todas las pruebas estadísticas, interpretadas en un espectro continuo.
 
-## Metodología estadística de Adobe
+## Metodología estadística de Adobe {#statistics}
 
 A fin de facilitar la interpretación y la seguridad de la inferencia estadística, Adobe ha adoptado una metodología estadística basada en [Secuencias de confianza válidas en cualquier momento](https://doi.org/10.48550/arXiv.2103.06476).
 
@@ -104,6 +108,20 @@ Una secuencia de confianza es un análogo “secuencial” de un intervalo de co
 
 Una secuencia de confianza del 95 % incluirá el valor “verdadero” de la métrica comercial en 95 de los 100 experimentos que ejecutó. (Un intervalo de confianza del 95 % solo se podía calcular una vez por experimento para ofrecer la misma garantía de cobertura del 95 %; no con cada nuevo usuario). Por lo tanto, las secuencias de confianza le permiten monitorizar continuamente los experimentos, sin aumentar las tasas de error de los falsos positivos, es decir, permiten “asomarse” a los resultados.
 
-## Nuevas funciones en Métricas calculadas
+## Interpretación de dimensiones no aleatorias {#non-randomized}
 
-Se agregaron dos nuevas funciones avanzadas: [!UICONTROL Alza] y [!UICONTROL Confianza]. Para obtener más información, consulte [Referencia: funciones avanzadas](/help/components/calc-metrics/cm-adv-functions.md).
+CJA permite a los analistas seleccionar cualquier dimensión como el &quot;experimento&quot;. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como el experimento no es una para la que se aleatorizan los visitantes?
+
+Por ejemplo, considere una publicidad que vea un visitante. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar a los visitantes &quot;ad B&quot; en lugar de &quot;ad A&quot;. El efecto causal de mostrar el anuncio B en lugar del anuncio A es de importancia central para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio en toda la población, si reemplazamos el status quo de visualización del anuncio A con la estrategia alternativa de visualización del anuncio B.
+
+Las pruebas A/B son el estándar de oro del sector para medir objetivamente los efectos de esas intervenciones. La razón crítica por la que una prueba A/B genera una estimación causal se debe a la aleatorización de visitantes para recibir una de las posibles variantes.
+
+Ahora considere una dimensión que no se logra mediante la aleatorización, por ejemplo, el estado de EE. UU. del visitante. Digamos que nuestros visitantes provienen principalmente de dos estados, Nueva York y California. El ingreso promedio de las ventas de una marca de ropa de invierno puede ser diferente en los dos estados debido a las diferencias en el clima regional. En tal situación, el clima puede ser el verdadero factor causal de la venta de ropa de invierno, y no el hecho de que los estados geográficos de los visitantes sean diferentes.
+
+El panel de experimentación en Customer Journey Analytics permite analizar los datos como la diferencia de ingresos promedio por estados de los visitantes. En tal situación, el producto no tiene una interpretación causal. Sin embargo, tal análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos promedio por estados de los visitantes. Esto también se conoce como &quot;Pruebas de Hipótesis Estadística&quot;. El resultado de este análisis puede ser interesante, pero no necesariamente procesable, ya que no hemos aleatorizado a los visitantes a uno de los posibles valores de la dimensión, y a veces no podemos hacerlo.
+
+La siguiente ilustración contrasta estas situaciones:
+
+![experimento aleatorio](assets/randomize.png)
+
+Cuando desea medir el impacto de la intervención X en el resultado Y, es posible que la causa real de ambos sea el factor de confusión C. Si los datos no se obtienen al aleatorizar visitantes en X, el impacto es más difícil de medir y el análisis explicará explícitamente C. La aleatorización rompe la dependencia de X en C, lo que nos permite medir el efecto de X en Y sin tener que preocuparse por otras variables.
