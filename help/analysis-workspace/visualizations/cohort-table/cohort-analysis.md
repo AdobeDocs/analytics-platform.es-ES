@@ -3,10 +3,10 @@ title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre el análisis de cohorte en Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '468'
-ht-degree: 100%
+source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -30,10 +30,7 @@ El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de
 
 >[!IMPORTANT]
 >
->[!UICONTROL Análisis de cohorte]
->
->no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden utilizar las métricas que se pueden usar en filtros en
->[!UICONTROL Análisis de cohorte] y solo se pueden incrementar en 1 cada vez.
+>[!UICONTROL Análisis de cohorte] no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden usar las métricas que se pueden usar en filtros en [!UICONTROL Análisis de cohorte]y solo se pueden incrementar de 1 cada vez.
 
 ## Capacidades del análisis de cohorte
 
