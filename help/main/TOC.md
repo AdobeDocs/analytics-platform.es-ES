@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '881'
 ht-degree: 99%
 
 ---
@@ -163,12 +163,6 @@ ht-degree: 99%
       + [Proyectos de solo de vista](../analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](../analysis-workspace/curate-share/download-send.md)
       + [Programar proyectos](../analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
-      + [Información general de Attribution](../analysis-workspace/attribution/overview.md)
-      + [Modelos de atribución y ventanas retroactivas](../analysis-workspace/attribution/models.md)
-      + [Atribución algorítmica](../analysis-workspace/attribution/algorithmic.md)
-      + [Prácticas recomendadas de atribución](../analysis-workspace/attribution/best-practices.md)
-      + [Preguntas más frecuentes](../analysis-workspace/attribution/faq.md)
    + Analista virtual {#virtual-analyst}
       + [Descripción general del analista virtual](../analysis-workspace/virtual-analyst/overview.md)
       + Detección de anomalías {#anomaly-detection}
@@ -185,7 +179,6 @@ ht-degree: 99%
       + [Requisitos de administración](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad en Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Long-tail en Analysis Workspace](../analysis-workspace/workspace-faq/long-tail.md)
-
 
 
 

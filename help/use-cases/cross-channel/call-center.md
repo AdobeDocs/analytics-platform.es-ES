@@ -4,8 +4,8 @@ description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: fd5d7ae51b51e6f608428a032319a4d7d1f45a97
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Esta tabla de forma libre le permite ver las páginas principales que contribuye
 1. Arrastre la dimensión que contiene los nombres de su página web a una visualización de tabla de forma libre.
 1. Reemplace la métrica por la métrica del centro de llamadas de la que desee medir.
 1. Haga clic en el icono de engranaje que se encuentra cerca del encabezado de la métrica. Haga clic en **[!UICONTROL Utilizar modelo de atribución no predeterminado]**.
-1. Configure el [modelo de atribución](/help/analysis-workspace/attribution/models.md) deseado. Por ejemplo, un modelo de decadencia de tiempo con una semivida de 15 minutos y una ventana retrospectiva de sesión. Este modelo de atribución da crédito a las páginas que preceden a la llamada a su centro de llamadas.
+1. Configure el [modelo de atribución](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) deseado. Por ejemplo, un modelo de decadencia de tiempo con una semivida de 15 minutos y una ventana retrospectiva de sesión. Este modelo de atribución da crédito a las páginas que preceden a la llamada a su centro de llamadas.
 
 El informe resultante muestra las páginas principales que dirigen las llamadas al centro de llamadas. <!-- use case behind what we use these pages for -->
 

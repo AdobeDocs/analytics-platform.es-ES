@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
-source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 98%
+source-wordcount: '913'
+ht-degree: 96%
 
 ---
 
@@ -117,11 +117,11 @@ Aquí, vemos el tiempo de espera para la conversión cuando un punto de contacto
 
 ![Tiempo de espera](assets/lead-time.png)
 
-## Diferencias entre Inteligencia artificial aplicada a la atribución y Attribution IQ
+## Diferencias entre las capacidades de atribución de Attribution AI y CJA
 
-Entonces, ¿cuándo se deben usar los datos de Inteligencia artificial aplicada a la atribución en lugar de [Attribution IQ](/help/analysis-workspace/attribution/overview.md), una funcionalidad nativa de CJA? Esta tabla muestra algunas de las diferencias en la funcionalidad:
+La siguiente tabla muestra algunas de las diferencias en la funcionalidad:
 
-| Funcionalidad | Inteligencia artificial aplicada a la atribución | Attribution IQ |
+| Funcionalidad | Inteligencia artificial aplicada a la atribución | Atribución de CJA |
 | --- | --- | --- |
 | ¿La atribución incremental? | Sí | No |
 | Permite a los usuarios ajustar el modelo | Sí | Sí |
@@ -131,4 +131,4 @@ Entonces, ¿cuándo se deben usar los datos de Inteligencia artificial aplicada 
 | Modelos de atribución basados en regiones | Sí | Sí |
 | Puede configurar los puntos de contacto de marketing del modelo | Sí | No |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

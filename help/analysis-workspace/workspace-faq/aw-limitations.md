@@ -3,9 +3,9 @@ description: Lista de limitaciones conocidas en Adobe Analysis Workspace y compo
 title: Limitaciones conocidas en Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '361'
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '340'
 ht-degree: 100%
 
 ---
@@ -48,6 +48,3 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 
 * Algunas de las opciones de la página [!UICONTROL Configuración de informes] no se aplican. Analysis Workspace solo utiliza la configuración de [!UICONTROL Idioma, moneda y codificación] de la parte inferior: [!UICONTROL Separador de miles], [!UICONTROL Codificación de informes programados] y [!UICONTROL Carácter separador de CSV].
 
-## Attribution IQ
-
-* Un subconjunto de métricas no se admite en [!UICONTROL Attribution IQ]. Para obtener una lista completa, consulte las [preguntas más frecuentes sobre Attribution IQ](../attribution/faq.md).

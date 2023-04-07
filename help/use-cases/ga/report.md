@@ -4,10 +4,10 @@ description: Muestra informes útiles sobre los datos de Google Analytics en Cus
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 17b9e14e58f5bd2f4ec995de54989b00c26076f2
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Puede ver qué productos provocan la mayoría de las llamadas a su centro de lla
 
 Al aplicar un desglose de la dimensión “Razón de la llamada”, el ejemplo muestra un elemento de dimensión “Producto dañado”. El siguiente paso sería contactar con el departamento de control de calidad y ver por qué los clientes han estado recibiendo camisetas dañadas.
 
-Puede ver qué páginas del sitio web condujeron las llamadas al centro de llamadas. Este informe le permite saber dónde se encuentran las experiencias menos óptimas en el sitio web y ayudar a los responsables de producto a resolver esos retos. El siguiente ejemplo usa una métrica calculada para filtrar los datos hasta que solo haya sesiones que hayan finalizado con una llamada al centro de llamadas. También utiliza el modelo de “participación” en el [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=es#cja-workspace) de CJA.
+Puede ver qué páginas del sitio web condujeron las llamadas al centro de llamadas. Este informe le permite saber dónde se encuentran las experiencias menos óptimas en el sitio web y ayudar a los responsables de producto a resolver esos retos. El siguiente ejemplo utiliza una métrica calculada con un modelo de atribución de participación para filtrar los datos hasta que solo haya sesiones que hayan finalizado con una llamada al centro de llamadas.
 
 El siguiente ejemplo muestra que las páginas “Carro de compras” e “Información de cierre” de compra dirigen la mayoría de las llamadas.
 
