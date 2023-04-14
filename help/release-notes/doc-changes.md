@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 8360a7d98510973061e76748ec520711eb3ebaf6
+source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 97%
+source-wordcount: '1642'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | --- | --- |
 | **Abril de 2023** |  |
 | Actualización de la documentación del panel Experimento | Se ha añadido una sección en [interpretación de dimensiones no aleatorias](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
+| Filtros de proyecto (filtros específicos y rápidos) | Documentación optimizada sobre filtros de proyecto y se ha eliminado información duplicada. Los pasos para crear filtros ad hoc ahora se combinan con los pasos para [creación de filtros rápidos](/help/components/filters/quick-filters.md). |
 | **Marzo de 2023** |  |
 | Integración de datos de gestión de decisiones | Se agregó contenido que explica cómo [integrar datos de administración de decisiones de Adobe Journey Optimizer en CJA](/help/integrations/ajo-od.md). |
 | Creación de historias de datos en cuadros de resultados móviles | Una [historia de datos](/help/mobile-app/create-scorecard.md#create-data-stories) es una colección de puntos de datos de apoyo, contexto empresarial y métricas relacionadas creada en torno a un tema o métrica central. |

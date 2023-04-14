@@ -3,10 +3,10 @@ description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
-workflow-type: ht
-source-wordcount: '894'
-ht-degree: 100%
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,9 @@ Arrastre y suelte cualquier filtro del carril izquierdo en la zona desplegable d
 
 Los componentes que no son filtros también se pueden arrastrar directamente a la zona de colocación para crear filtros ad hoc, lo que le ahorrará el tiempo y el tener que utilizar el Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al filtro, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de filtros.
 
-Los filtros ad hoc son locales del proyecto y no aparecerán en el carril izquierdo a menos que los haga públicos.
+Los filtros específicos son un tipo de filtro rápido y son locales para el proyecto. No aparecen en el carril izquierdo a menos que los haga públicos.
+
+Para obtener más información, consulte [Filtros rápidos](/help/components/filters/quick-filters.md).
 
 ![](assets/adhoc-segment-filter.png)
 
