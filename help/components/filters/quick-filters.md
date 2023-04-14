@@ -4,10 +4,10 @@ title: Filtros rápidos
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: cb1654cef651c5143667302c3fc592ba503dfe0a
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 45%
+source-wordcount: '1167'
+ht-degree: 44%
 
 ---
 
@@ -94,7 +94,7 @@ Puede elegir guardar filtros rápidos como filtros de lista de componentes. Las 
 * Disponibilidad en todos los proyectos de Workspace
 * Compatibilidad con filtros más complejos, así como filtros secuenciales
 
-Los filtros se pueden guardar desde el Generador de filtros rápidos o desde el [!UICONTROL Generador de filtros].
+Puede guardar filtros desde el generador de filtros rápidos o desde el [!UICONTROL Generador de filtros].
 
 ### Guardar en el generador de filtros rápidos {#save2}
 
@@ -119,13 +119,17 @@ Después de aplicar el filtro, puede elegir agregarlo a la lista de componentes 
 
 1. Pase el ratón sobre el filtro guardado y seleccione el icono de lápiz.
 
+1. Select [!UICONTROL **Abrir generador**].
+
 1. En la parte superior del Generador de filtros, observe este cuadro de diálogo:
 
-   ![Cuadro de diálogo Filtro](assets/project-only.png)
+   ![Cuadro de diálogo Filtro](assets/project-only-filter-dialog.png)
 
-1. Seleccione la casilla de verificación situada junto a **[!UICONTROL Poner a disposición de todos los proyectos y añadirlos a la lista de componentes.]**
+1. Seleccione la casilla de verificación situada junto a **[!UICONTROL Ponga esta filtr a disposición de todos los proyectos y agréguela a la lista de componentes.]**
+
 1. Seleccione **[!UICONTROL Guardar]**.
-El filtro ahora aparece en la lista de componentes del filtro para todos los proyectos.
+
+   El filtro ahora aparece en la lista de componentes del filtro para todos los proyectos.
 También puede [compartir el filtro](/help/components/filters/manage-filters.md) con otras personas de su organización.
 
 ## Ejemplo de filtro rápido
