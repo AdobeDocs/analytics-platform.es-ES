@@ -3,10 +3,10 @@ title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre el análisis de cohorte en Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+source-git-commit: 76840d025d1ace28abce5557d66d104795818167
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,6 @@ Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 * Modificar el presupuesto de marketing en el momento justo del ciclo de vida del cliente.
 * Reconocer cuándo finalizar una prueba o una oferta, para maximizar el valor.
 * Obtener ideas para pruebas A/B en áreas como precios, ruta de actualización, etc.
-* Ver un informe de [!UICONTROL análisis de cohorte] dentro de un informe de análisis guiado.
 
 El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de Customer Journey Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
 
