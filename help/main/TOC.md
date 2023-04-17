@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '879'
 ht-degree: 99%
 
 ---
@@ -211,9 +211,10 @@ ht-degree: 99%
    + [Métricas](../components/apply-create-metrics.md)
    + Filtros {#cja-filters}
       + [Información general de Filtros](../components/filters/filters-overview.md)
-      + [Crear un filtro](../components/filters/create-filters.md)
-      + [Administrar filtros](../components/filters/manage-filters.md)
+      + [Crear filtros](../components/filters/create-filters.md)
       + [Filtros rápidos](../components/filters/quick-filters.md)
+      + [Generador de filtros](../components/filters/filter-builder.md)
+      + [Administrar filtros](../components/filters/manage-filters.md)
       + [Operadores](../components/filters/operators.md)
    + Métricas calculadas {#cja-calcmetrics}
       + [Información general sobre las métricas calculadas](../components/calc-metrics/calc-metr-overview.md)

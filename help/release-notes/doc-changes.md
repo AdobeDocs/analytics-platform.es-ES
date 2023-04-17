@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 95%
+source-wordcount: '1659'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Abril de 2023** |  |
+| Documentación del filtro | Se ha agregado un artículo sobre el uso de la variable [Generador de filtros](/help/components/filters/filter-builder.md). <p>Documentación optimizada en [Crear filtros](/help/components/filters/create-filters.md) y [Información general de Filtros](/help/components/filters/filters-overview.md).</p> |
 | Actualización de la documentación del panel Experimento | Se ha añadido una sección en [interpretación de dimensiones no aleatorias](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
 | Filtros de proyecto (filtros específicos y rápidos) | Documentación optimizada sobre filtros de proyecto y se ha eliminado información duplicada. Los pasos para crear filtros ad hoc ahora se combinan con los pasos para [creación de filtros rápidos](/help/components/filters/quick-filters.md). |
 | **Marzo de 2023** |  |
