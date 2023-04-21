@@ -4,10 +4,10 @@ description: Explicar cómo ingerir datos de Adobe Analytics tradicional
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+workflow-type: tm+mt
+source-wordcount: '1162'
+ht-degree: 95%
 
 ---
 
@@ -79,7 +79,7 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
    ![Consulte](./assets/review.png)
 
 
-Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes, incluida la ingesta de hasta 13 meses de datos históricos.
+Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes, incluida la ingesta de hasta 13 meses de datos históricos para entornos limitados de producción. (Tenga en cuenta que a partir del 26 de abril de 2023, el relleno de los entornos limitados que no sean de producción estará limitado a 3 meses).
 
 Cuando termina la ingesta inicial, los datos del grupo de informes de Adobe Analytics están listos para que los use Customer Journey Analytics.
 

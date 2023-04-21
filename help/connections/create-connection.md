@@ -4,10 +4,10 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
+source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 98%
+source-wordcount: '2501'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
    | **[!UICONTROL Marca de tiempo]** | Solo para conjuntos de datos de evento, esta configuración se establece automáticamente en el campo de marca de tiempo predeterminado de esquemas basados en eventos en Experience Platform. |
    | **[!UICONTROL Tipo de fuente de datos]** | Los tipos de fuentes de datos incluyen: [!UICONTROL Datos web], [!UICONTROL Datos de aplicaciones móviles], [!UICONTROL Datos de POS], [!UICONTROL Datos CRM], [!UICONTROL Datos de encuesta], [!UICONTROL Datos del centro de llamadas], [!UICONTROL Datos del producto], [!UICONTROL Datos de cuentas], [!UICONTROL Datos de transacciones], [!UICONTROL Datos de comentarios del cliente]y [!UICONTROL Otro]. |
    | **[!UICONTROL Importar datos nuevos]** | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a Workspace. Se puede configurar en [!UICONTROL Activado] o [!UICONTROL Off]. |
-   | **[!UICONTROL Relleno del conjunto de datos]** | Haga clic en **[!UICONTROL Solicitar relleno]** para rellenar datos históricos.<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La latencia se ve afectada por la cantidad de datos históricos que tiene.</li><li>El Conector de datos de Adobe Analytics importa hasta 13 meses de datos, independientemente de su tamaño.</li></ul> |
+   | **[!UICONTROL Relleno del conjunto de datos]** | Haga clic en **[!UICONTROL Solicitar relleno]** para rellenar datos históricos.<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Priorizamos los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La latencia se ve afectada por la cantidad de datos históricos que tiene.</li><li>El conector de origen de Adobe Analytics importa hasta 13 meses de datos (independientemente del tamaño) para los entornos limitados de producción. El relleno de los entornos limitados que no son de producción está limitado a 3 meses.</li></ul> |
    | **[!UICONTROL Estado de relleno]** | Los posibles indicadores de estado son:<ul><li>Correcto</li><li>Procesamiento de X rellenos</li><li>Off</li></ul> |
    | **[!UICONTROL ID de conjunto de datos]** | Este ID se genera automáticamente. |
    | **[!UICONTROL Descripción]** | La descripción dada a este conjunto de datos cuando se creó. |
