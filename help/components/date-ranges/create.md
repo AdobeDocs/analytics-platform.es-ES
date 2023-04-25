@@ -3,10 +3,10 @@ title: Crear un intervalo de fecha
 description: Crear un intervalo de fecha para utilizarlo en los informes.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ Al hacer clic en el intervalo de fecha en la ventana modal, tiene varias opcione
 
 * **Calendario**: seleccione la fecha de inicio y la de finalización.
 * **Usar fechas móviles**: marque esta casilla si desea que el intervalo de fecha cambie con el transcurso del tiempo. No marque esta casilla si desea que el intervalo de fecha permanezca estático.
-* **Seleccionar ajuste preestablecido**: utilice este menú desplegable si desea un intervalo de fecha personalizado basado en un intervalo que ofrezca Adobe de forma predeterminada. Al seleccionar un ajuste preestablecido, puede personalizar aún más el intervalo de fecha para adaptarlo a sus necesidades. No afecta al ajuste preestablecido que ofrece Adobe.
+* **Seleccionar ajuste preestablecido**: Utilice esta selección desplegable si desea un intervalo de fechas personalizado basado en un intervalo que ofrezca el Adobe de forma predeterminada. Al seleccionar un ajuste preestablecido, puede personalizar aún más el intervalo de fecha para adaptarlo a sus necesidades. No afecta al ajuste preestablecido que ofrece Adobe.
 
 ## Intervalos de fechas móviles
 

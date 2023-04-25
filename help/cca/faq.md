@@ -4,10 +4,10 @@ description: Preguntas frecuentes sobre Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 97%
+source-wordcount: '1067'
+ht-degree: 95%
 
 ---
 
@@ -40,9 +40,9 @@ En algunas situaciones, un usuario individual puede asociarse con muchos ID pers
 
 El número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de CCA para crear vínculos entre los diferentes dispositivos.
 
-## Una vez que contacto con mi equipo de cuenta de Adobe y le proporciono la información deseada, ¿cuánto tiempo tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?
+## Una vez que me comunico con mi equipo de cuenta de Adobe con la información deseada, ¿cuánto tarda el conjunto de datos marcado en estar disponible?
 
-La vinculación en tiempo real está disponible aproximadamente una semana después de que Adobe active Cross-Channel Analytics. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
+La vinculación en tiempo real está disponible aproximadamente una semana después de que Adobe active Cross-Channel Analytics. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los conjuntos de datos grandes (100 millones de eventos por día) pueden tardar una semana o más.
 
 ## ¿Cuál es la diferencia entre Análisis entre dispositivos (una función tradicional de Analytics) y Cross-Channel Analytics?
 

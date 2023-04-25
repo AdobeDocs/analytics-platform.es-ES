@@ -3,10 +3,10 @@ description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 99%
 
 ---
 
@@ -53,34 +53,34 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 #### Navegación
 
 | Acceso directo | Acción |
-|---|---|
-| Alt + Mayús + 1 / 2 / 3 | Saltar a diferentes carriles: [!UICONTROL Paneles], [!UICONTROL Visualizaciones] o [!UICONTROL Componentes] |
-| Alt + flecha izquierda/derecha | Desplazamiento entre paneles |
-| Alt + M | Contraer/Expandir todos los paneles |
-| Alt + Ctrl + M | Contraer/Expandir el panel activo |
-| Ctrl + / | Buscar carril izquierdo |
+| --- | --- |
+| `[Alt + Shift + 1 / 2 / 3]` | Saltar a diferentes carriles: [!UICONTROL Paneles], [!UICONTROL Visualizaciones] o [!UICONTROL Componentes] |
+| `[Alt + Left / Right]` | Desplazamiento entre paneles |
+| `[Alt + M]` | Contraer/Expandir todos los paneles |
+| `[Alt + Ctrl + M]` | Contraer/Expandir el panel activo |
+| `[Ctrl + /]` | Buscar carril izquierdo |
 
 #### Creación de análisis
 
 | Acceso directo | Acción |
-|---|---|
-| Alt + 1 | Nueva tabla de forma libre |
-| Ctrl + Mayús + C | Nueva métrica calculada |
-| Ctrl + Mayús + D | Nuevo intervalo de fechas |
-| Ctrl + Mayús + E | Nuevo filtro |
-| Ctrl + Z | Deshacer |
-| Mantenga pulsada la tecla Mayús (en la zona de colocación de filtros del panel) | Cree un [filtro desplegable](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) |
+| --- | --- |
+| `[Alt + 1]` | Nueva tabla de forma libre |
+| `[Ctrl + Shift + C]` | Nueva métrica calculada |
+| `[Ctrl + Shift + D]` | Nuevo intervalo de fechas |
+| `[Ctrl + Shift + E]` | Nuevo segmento |
+| `[Ctrl + Z]` | Deshacer |
+| `[Component drag + Shift]` | Creación de un filtro desplegable |
 
 #### Democratización
 
 | Acceso directo | Acción |
-|---|---|
-| Ctrl + S | Guardar |
-| Ctrl + Mayús + G | Depurar |
-| Ctrl + G | Compartir |
-| Alt + Mayús + S | Programación |
-| Alt + L | Obtener vínculo al proyecto |
-| Ctrl + Mayús + B | Descargar PDF |
+| --- | --- |
+| `[Ctrl + S]` | Guardar |
+| `[Ctrl + Shift + G]` | Depurar |
+| `[Ctrl + G]` | Compartir |
+| `[Alt + Shift + S]` | Programación |
+| `[Alt + L]` | Obtener vínculo al proyecto |
+| `[Ctrl + Shift + B]` | Descargar PDF |
 
 ## Compatibilidad con lectores de pantalla y ampliadores de pantalla
 

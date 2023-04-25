@@ -4,10 +4,10 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 64a774d9151c40ea9eadb1fb80c07db168ac8667
+source-git-commit: 7f657820e01696aa5d9b466ea2eaa6bc417ee6cf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3146'
+ht-degree: 77%
 
 ---
 
@@ -107,7 +107,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | **Valores generales predeterminados** |  |  |
 |  | Porcentajes | Muestra valores en porcentajes para todas las visualizaciones. |
 |  | Leyenda visible | Permite ocultar el texto de leyenda detallado para todas las visualizaciones. |
-|  | Límite máximo de elementos | Reduce el número de elementos en el eje X para todas las visualizaciones. Puede resultar útil si tiene un conjunto de datos grande. |
+|  | Límite máximo de elementos | Reduce el número de elementos en el eje X para todas las visualizaciones. Esto puede resultar útil si tiene un conjunto de datos grande. |
 |  | Mostrar doble eje (cuando corresponda) | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 |  | Normalización (cuando corresponda) | Fuerza métricas para igualar proporciones. Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 |  | Anclar el eje Y en cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
@@ -115,7 +115,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | **[Líneas](/help/analysis-workspace/visualizations/line.md)** |  |  |
 |  | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Línea. |
 |  | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización de línea. |
-|  | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización de línea. Puede resultar útil si tiene un conjunto de datos grande. |
+|  | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización de línea. Esto puede resultar útil si tiene un conjunto de datos grande. |
 |  | Mostrar doble eje (cuando corresponda) | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 |  | Normalización (cuando corresponda) | Fuerza métricas para igualar proporciones. Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 |  | Mostrar el eje X | Muestra el eje X en el gráfico de líneas. |
@@ -166,13 +166,13 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 |  | Valor abreviado | En la sección [!UICONTROL **Número de resumen**] |
 | **[Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md)** |  |  |
 |  | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Gráfico de rectángulos. |
-|  | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización del Gráfico de rectángulos. Puede resultar útil si tiene un conjunto de datos grande. |
+|  | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización del Gráfico de rectángulos. Esto puede resultar útil si tiene un conjunto de datos grande. |
 | **[Venn](/help/analysis-workspace/visualizations/venn.md)** |  |  |
 |  | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización de Venn. |
 | **[Dispersión](/help/analysis-workspace/visualizations/scatterplot.md)** |  |  |
 |  | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Dispersión. |
 |  | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización de Dispersión. |
-|  | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización de Dispersión. Puede resultar útil si tiene un conjunto de datos grande. |
+|  | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización de Dispersión. Esto puede resultar útil si tiene un conjunto de datos grande. |
 |  | Anclar el eje Y en cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
 
 ## Preferencias de empresa

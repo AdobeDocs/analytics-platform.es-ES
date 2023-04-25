@@ -1,12 +1,12 @@
 ---
-description: Utilizar la visualización de líneas para representar conjuntos de datos de tendencias (basados en el tiempo)
+description: Utilice la visualización de líneas para representar conjuntos de datos de tendencias (basados en el tiempo)
 title: Líneas
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '511'
-ht-degree: 100%
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '507'
+ht-degree: 87%
 
 ---
 

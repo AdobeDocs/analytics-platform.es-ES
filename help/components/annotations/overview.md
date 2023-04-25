@@ -4,11 +4,11 @@ description: Cómo utilizar anotaciones en Espacio de trabajo.
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
-exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 88%
 
 ---
 

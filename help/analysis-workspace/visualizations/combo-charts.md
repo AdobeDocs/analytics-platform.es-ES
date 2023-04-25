@@ -3,11 +3,11 @@ description: Permite visualizar fácilmente datos de comparación en Analysis Wo
 title: Visualización de gráficos combinados
 feature: Visualizations
 role: User, Admin
-exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
+exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '767'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ Recuerde:
    | **[!UICONTROL Función]** | Puede introducir una función como [!UICONTROL Promedio] en la comparación. Consulte la lista de funciones admitidas a continuación.<p>![Funciones](assets/combo-functions.png) |
    | **[!UICONTROL Métrica secundaria]** | Por ejemplo, podría comparar [!UICONTROL Ingresos] con otra métrica.<p>![Dos métricas](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Haga clic en **[!UICONTROL Generar]**.
 
@@ -69,7 +69,7 @@ Si elige **[!UICONTROL Función]** como el [!UICONTROL Tipo de comparación de l
 | **[!UICONTROL Media]** | Devuelve la media aritmética o el promedio de una métrica. |
 | **[!UICONTROL Mínimo de columna]** | Devuelve el menor valor en un conjunto de elementos de una dimensión para una columna de métrica. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Este es un ejemplo de la media acumulada de la métrica Ingresos:
 
@@ -88,7 +88,7 @@ Haga clic en el icono de engranaje en la parte superior derecha de un gráfico c
 | Configuración | Definición |
 | --- | --- |
 | **[!UICONTROL Tipo de visualización]** | Le permite cambiar a otro tipo de visualización. |
-| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. |
+| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) en esta lista desplegable. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Porcentajes]** | Muestra valores en porcentajes. |
 | **[!UICONTROL Leyenda visible]** | Permite ocultar el texto de leyenda detallado para la visualización de gráficos combinados. |
@@ -101,4 +101,4 @@ Haga clic en el icono de engranaje en la parte superior derecha de un gráfico c
 | **[!UICONTROL Mostrar eje Y]** | Muestra u oculta el eje Y. |
 | **[!UICONTROL Anclar eje Y a cero]** | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

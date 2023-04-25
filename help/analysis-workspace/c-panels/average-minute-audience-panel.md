@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Audiencia media por minuto de
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
-workflow-type: ht
-source-wordcount: '1313'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '1315'
+ht-degree: 91%
 
 ---
 
@@ -44,9 +44,9 @@ Puede configurar el panel Audiencia media por minuto de medios con esta configur
 |---------|------------|
 | Dimensiones de creación de informes | Al elegir contenido específico, puede seleccionar el resultado del informe para utilizar los campos Nombre del vídeo o ID de contenido, y mostrar el contenido y su audiencia de minuto promedio asociada durante el período de tiempo seleccionado. |
 | Filtrar contenido por (opcional) | Puede filtrar el contenido específico según la vista que desee o la forma en que se estructuran los datos. |
-| Programa, temporada, episodio | Al seleccionar Mostrar, temporada, episodio, se muestran los programas disponibles en la lista desplegable, que puede filtrar con una búsqueda (o arrastrando y soltando el nombre del programa desde la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado. |
+| Programa, temporada, episodio | Si selecciona &quot;Mostrar, temporada, episodio&quot;, se mostrarán los programas disponibles en la lista desplegable, que puede filtrar con una búsqueda (o arrastrando y soltando el nombre del programa desde la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado. |
 | Dimensión personalizada | Si el nombre para mostrar se encuentra en una dimensión personalizada, puede encontrarla buscando en la lista desplegable de dimensiones (opcional) o utilizando la búsqueda de la columna izquierda. El elemento de dimensión se rellena automáticamente en función de esa selección y se trata como un episodio. |
-| Ninguno | Puede elegir *Ninguno* para mostrar todos los nombres de vídeo que tengan datos de audiencia de minuto promedio para la selección que haya elegido. |
+| Ninguno | Puede elegir *Ninguna* para mostrar todos los nombres de vídeo que tengan datos de audiencia de minuto promedio para la selección que haya elegido. |
 
 ### Configuración avanzada de contenido específico
 
@@ -61,9 +61,9 @@ Puede configurar el panel Audiencia media por minuto de medios con esta configur
 |---------|------------|
 | Granularidad | La granularidad predeterminada es de 5 minutos, pero puede elegir cualquiera de las granularidades que se utilizan como denominador para la serie temporal dentro de la selección de período de tiempo global realizada en la selección de calendario. Por ejemplo, si se selecciona de 12:00 pm a 12:30 pm con una granularidad de 5 minutos, la audiencia media por minuto devolverá la media de media hora, así como seis filas con la audiencia media por minuto para cada periodo de 5 minutos. Estas filas se utilizan como puntos de datos para el gráfico de series temporales. |
 | Filtrar contenido por (opcional) | Puede filtrar el contenido específico según la vista que desee o la forma en que se estructuran los datos. |
-| Programa, temporada, episodio | La selección *Programa, temporada, episodio* muestra los programas disponibles en la lista desplegable, que puede filtrar mediante la búsqueda (o arrastrando y soltando el nombre para mostrar de la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado. |
+| Programa, temporada, episodio | Selección *Programa, temporada, episodio* muestra los programas disponibles en la lista desplegable, que puede filtrar mediante la búsqueda (o arrastrando y soltando el nombre para mostrar de la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado. |
 | Dimensión personalizada | Si el nombre para mostrar se encuentra en una dimensión personalizada, puede encontrarla buscando en la lista desplegable de dimensiones (opcional) o utilizando la búsqueda de la columna izquierda. El elemento de dimensión se rellena automáticamente en función de esa selección y se trata como un episodio. |
-| Ninguna | Puede elegir *Ninguna* para mostrar todos los nombres de vídeo durante el período de tiempo que ha elegido. |
+| Ninguno | Puede elegir *Ninguna* para mostrar todos los nombres de vídeo durante el período de tiempo que ha elegido. |
 
 ### Configuración avanzada de período de tiempo personalizado
 

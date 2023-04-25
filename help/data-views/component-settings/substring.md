@@ -4,10 +4,10 @@ description: Utilice un subconjunto de una cadena como elementos de dimensión.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -21,16 +21,16 @@ La [!UICONTROL subcadena] solo está disponible en dimensiones y es retroactiva 
 
 ## De izquierda a derecha
 
-Realice una parte de una cadena basada en su posición hasta el principio o el final de una cadena. Los métodos **[!UICONTROL Desde la izquierda]** y **[!UICONTROL Desde la derecha]** proporcionan dos menús desplegables: **[!UICONTROL De]** (donde se inicia la salida) y **[!UICONTROL Hasta]** (donde termina la salida).
+Realice una parte de una cadena basada en su posición hasta el principio o el final de una cadena. **[!UICONTROL Desde la izquierda]** y **[!UICONTROL Desde la derecha]** los métodos contienen dos listas desplegables: **[!UICONTROL De]** (donde se inicia la salida) y **[!UICONTROL Hasta]** (donde termina la salida).
 
 * **[!UICONTROL Inicio de cadena]**: Inicio de la cadena.
 * **[!UICONTROL Final de cadena]**: El final de la cadena.
 * **[!UICONTROL Posición]**: Un número estático de caracteres de la izquierda o la derecha, según el método.
-* **[!UICONTROL Cadena]**: Haga coincidir un carácter o secuencia de caracteres para indicar el principio o el final de una cadena. Este menú desplegable también revela opciones adicionales:
+* **[!UICONTROL Cadena]**: Haga coincidir un carácter o secuencia de caracteres para indicar el principio o el final de una cadena. Esta lista desplegable también revela opciones adicionales:
    * **[!UICONTROL Coincidencia]**: La cadena que debe coincidir. Si la entrada no coincide con este campo, se aplica [Sin opciones de valor](no-value-options.md).
    * **[!UICONTROL Índice]**: Los criterios de **[!UICONTROL Coincidencia]** se pueden presentar varias veces en una cadena. Este entero determina qué coincidencia debe comenzar o finalizar la salida, según el método. Por ejemplo, un índice de `1` representa la primera coincidencia. Si el índice es mayor que el número de coincidencias disponibles, se aplica [Sin opciones de valor](no-value-options.md).
    * **[!UICONTROL Incluir cadena]**: Una casilla de verificación que incluya la cadena **[!UICONTROL Coincidencia]** en la salida si está activada.
-* **[!UICONTROL Longitud]**: Un entero que especifica el recuento de caracteres que se va a incluir después de la posición inicial de la salida. Solo está disponible en la lista desplegable **[!UICONTROL Hasta]**.
+* **[!UICONTROL Longitud]**: Un entero que especifica el recuento de caracteres que se va a incluir después de la posición inicial de la salida. Solo está disponible en la sección **[!UICONTROL Hasta]** lista desplegable.
 
 ## Delimitador
 
@@ -114,7 +114,7 @@ También se admiten marcadores de posición de salida. Puede utilizar estas secu
 | `$+` | Genera lo que coincidió con la última subexpresión marcada en la expresión regular. |
 | `$$` | Genera el carácter de cadena `"$"`. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Vídeo sobre dimensiones de enlace
 

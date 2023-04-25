@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
-workflow-type: ht
-source-wordcount: '1136'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 99%
 
 ---
 
@@ -43,11 +43,11 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
 ## Personalizar la configuración de visualización
 
-Puede personalizar la configuración de visualización para una visualización individual o para todas las visualizaciones que cree.
+Puede personalizar la configuración de visualización de una visualización individual o de todas las visualizaciones que cree.
 
-### Personalizar la configuración de visualización para una sola visualización
+### Personalización de la configuración de visualización de una sola visualización
 
-Para acceder a [!UICONTROL Configuración de visualización] para una visualización individual, debe hacer lo siguiente:
+Para acceder a la [!UICONTROL Configuración de visualización] de una visualización individual:
 
 1. En Analysis Workspace, pase el ratón sobre la visualización cuya configuración desee personalizar.
 
@@ -55,9 +55,9 @@ Para acceder a [!UICONTROL Configuración de visualización] para una visualizac
 
    Cada tipo de visualización tiene una configuración única que puede personalizar. Para obtener información sobre la configuración disponible, consulte [Configuración](#settings).
 
-### Personalizar la configuración de visualización para todas las visualizaciones creadas
+### Personalización de la configuración de visualización de todas las visualizaciones que cree
 
-Puede personalizar la configuración de todas las visualizaciones que cree. Para obtener más información, consulte [Preferencias del usuario](/help/analysis-workspace/user-preferences.md).
+Puede personalizar la configuración de todas las visualizaciones que cree. Para obtener más información, consulte [Preferencias de usuario](/help/analysis-workspace/user-preferences.md).
 
 ## Configuración {#settings}
 
@@ -68,7 +68,7 @@ Cada visualización tiene su propia configuración que puede administrar. Para a
 | Configuración | Descripción |
 | --- | --- |
 | Tipo de visualización | Cambie el tipo de imagen que se utiliza para representar los datos. |
-| Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. Este cambio también se aplica a la tabla de fuente de datos. |
+| Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) en esta lista desplegable. Este cambio también se aplica a la tabla de fuente de datos. |
 | Porcentajes | Muestra valores en porcentajes. |
 | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. Ejemplo: ![Apilada al 100 %](assets/stacked_100_percent.png) |
 | Leyenda visible | Le permite ocultar el texto de detalles de la leyenda para la visualización de Número de resumen/Resumen del cambio. |

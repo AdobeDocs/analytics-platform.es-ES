@@ -4,10 +4,10 @@ description: Descubra la forma en que Customer Journey Analytics le permite util
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 97%
+source-wordcount: '978'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Customer Journey Analytics amplía el ámbito de Adobe Analytics al ofrecer func
 * **Eventos y variables ilimitadas**: los conceptos de eVars, props y eventos ya no existen. Los datos se centran principalmente en dimensiones y métricas. Los conjuntos de datos pueden tener un número ilimitado de dimensiones y métricas únicas.
 * **Valores únicos ilimitados**: Adobe Experience Platform no se limita a ninguna limitación única.
 * **Modificar datos históricos**: con Adobe Experience Platform, los datos se pueden eliminar o corregir.
-* **Datos de grupos de informes múltiples**: las implementaciones existentes de varios conjuntos de datos se pueden combinar en Platform.
+* **Datos de grupos de informes múltiples**: Las implementaciones existentes de varios conjuntos de datos se pueden combinar en Platform.
 
 >[!TIP]
 >
@@ -54,7 +54,7 @@ Customer Journey Analytics le permite:
 
 Para poder iniciar desde Customer Journey Analytics, se deben cumplir los siguientes requisitos previos:
 
-* Su organización tiene un contrato activo con Adobe Analytics para Select, Prime o Ultimate con el complemento de Customer Journey Analytics. Si no está seguro de qué tipo de contrato tiene o no está seguro de si tiene el complemento de CJA, póngase en contacto con el equipo de cuenta de Adobe.
+* Su organización tiene un contrato activo con Adobe Analytics para Select, Prime o Ultimate con el complemento de Customer Journey Analytics. Si no está seguro de qué tipo de contrato tiene o no está seguro de si tiene el complemento de CJA, póngase en contacto con su equipo de cuenta de Adobe.
 * Su organización se ha aprovisionado para Adobe Experience Platform.
 * También puede adquirir Customer Journey Analytics como producto independiente, sin necesidad de tener Adobe Analytics.
 

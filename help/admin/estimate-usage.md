@@ -4,10 +4,10 @@ description: Muestra dos métodos para calcular el uso y uno para administrarlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 98%
+source-wordcount: '869'
+ht-degree: 94%
 
 ---
 
@@ -56,7 +56,7 @@ Es posible que necesite saber cuántas filas de datos de evento tiene actualment
    * Cambie la [configuración de retención de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es#set-rolling-window-for-connection-data-retention).
    * [Elimine conexiones no utilizadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
    * [Elimine un conjunto de datos en AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
-   * Póngase en contacto con el equipo de cuenta de Adobe para obtener una licencia de capacidad adicional.
+   * Póngase en contacto con su equipo de cuentas de Adobe para obtener una licencia de capacidad adicional.
 
 ## Creación de un proyecto de Workspace con todos los datos de evento {#workspace-event-data}
 
@@ -68,7 +68,7 @@ Este método le permite realizar un análisis más profundo de los datos de uso,
 >
 >    No cree una nueva conexión que abarque todos los datos solo para medir el uso, ya que el resultado sería que duplicaría el uso.
 
-1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde la lista desplegable **[!UICONTROL Métricas]**) llegando hasta el primer viernes del mes, a partir del primer día de su contrato actual de CJA.
+1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde la **[!UICONTROL Métricas]** lista desplegable) que va hasta el primer viernes del mes, a partir del primer día de su contrato actual de CJA.
 
    ![Eventos](./assets/events-usage.png)
 
