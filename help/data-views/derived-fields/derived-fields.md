@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 3fb99165104ad4045aed0b9f6867b21acf2a11f8
+source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: '3057'
 ht-degree: 9%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # Campos derivados
 
-Los campos derivados son aspectos importantes de la funcionalidad de informes en tiempo real en Customer Journey Analytics (CJA). Un campo derivado (personalizado) permite definir manipulaciones de datos (a menudo complejas) sobre la marcha, mediante un generador de reglas personalizable. A continuación, puede utilizar ese campo derivado como componente (métrica o dimensión) en Workspace o incluso definir más como un componente en la vista de datos.
+Los campos derivados son un aspecto importante de la funcionalidad de informes en tiempo real en Customer Journey Analytics (CJA). Un campo derivado (personalizado) permite definir manipulaciones de datos (a menudo complejas) sobre la marcha, mediante un generador de reglas personalizable. A continuación, puede utilizar ese campo derivado como componente (métrica o dimensión) en [Espacio de trabajo](../../analysis-workspace/home.md) o incluso definir como un componente en [Vista de datos](../data-views.md).
 
-Los campos derivados pueden ahorrar una gran cantidad de tiempo y esfuerzo, en comparación con la transformación o manipulación de los datos en otras ubicaciones fuera de CJA. Tales como Data Prep, Data Distiller o dentro de procesos de Extract Transform Load (ETL) / Extract Load Transform (ELT) .
+Los campos derivados pueden ahorrar una gran cantidad de tiempo y esfuerzo, en comparación con la transformación o manipulación de los datos en otras ubicaciones fuera de CJA. Como [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es), [Distiller de datos](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en), o dentro de sus propios procesos de carga de transformación de extracción (ETL)/transformación de carga de extracción (ELT).
 
-Los campos derivados se definen como campos personalizados dentro de [Vistas de datos](../data-views.md)y se basan en un conjunto de funciones y se aplican a los campos estándar o de esquema disponibles.
+Los campos derivados se definen como campos personalizados dentro de [Vistas de datos](../data-views.md), se basan en un conjunto de funciones y se aplican a los campos estándar o de esquema disponibles.
 
 Los casos de uso de ejemplo son:
 
