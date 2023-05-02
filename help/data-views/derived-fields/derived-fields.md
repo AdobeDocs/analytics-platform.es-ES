@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 3aa2f57e7cd11b013369ad80d0181bccb48eebe1
+source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
 workflow-type: tm+mt
-source-wordcount: '3225'
+source-wordcount: '3221'
 ht-degree: 9%
 
 ---
@@ -461,11 +461,10 @@ Puede definir una `Trip Duration (bucketed)` campo personalizado. Cree lo siguie
 
 Las siguientes dependencias se aplican al seleccionar y establecer valores.
 
-
 |  | Dependencias del conjunto de datos |
 |:---:|----|
 | <span style='color: red'>A</span> | Valores que _select_ dentro del mismo [!UICONTROL If], [!UICONTROL Else Si] construir (usar [!UICONTROL Y] o [!UICONTROL O]) de una regla debe proceder del mismo conjunto de datos. |
-| <span style='color: red'>B</span> | Todos los valores que _set_ en construcciones y en toda la regla debe proceder del mismo conjunto de datos. |
+| <span style='color: red'>B</span> | Todos los valores que _set_ en una regla debe proceder del mismo conjunto de datos. |
 | <span style='color: blue'>C</span> | Los valores que _select_ ross [!UICONTROL If], [!UICONTROL Else Si] construcciones en la regla do _not_ deben proceder del mismo conjunto de datos. |
 
 {style="table-layout:auto"}
@@ -475,7 +474,7 @@ Las siguientes dependencias se aplican al seleccionar y establecer valores.
 
 |  | Dependencias de tipo |
 |:---:|----|
-| <span style='color: red'>D</span> | Los tipos de valor que _set_ en toda la regla debe ser la misma. |
+| <span style='color: red'>D</span> | Los tipos de valor que _set_ en una regla debe ser la misma. |
 | <span style='color: blue'>E</span> | Los tipos de valor que _select_ en una construcción o en las construcciones de una regla pueden ser de cualquier tipo (cadena, número, fechas). |
 
 {style="table-layout:auto"}
