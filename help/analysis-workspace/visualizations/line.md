@@ -3,14 +3,18 @@ description: Utilice la visualización de líneas para representar conjuntos de 
 title: Líneas
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 228578ceae27bb83645001fb959a614283dcca33
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 87%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
 # Líneas
+
+>[!NOTE]
+>
+>La visualización Línea pronto estará presente [rótulos inteligentes](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
 La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
 

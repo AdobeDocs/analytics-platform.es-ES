@@ -3,11 +3,11 @@ description: Utilice la visualización de resumen de métricas clave para compar
 title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
-exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
-workflow-type: ht
-source-wordcount: '598'
-ht-degree: 100%
+exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
+source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 
 1. Configure la visualización seleccionando una métrica, un intervalo de fechas principal, un intervalo de fechas de comparación y un segmento (si lo desea):
 
-   ![](assets/key-metric-config.png)
+   ![configuración de métrica clave](assets/key-metric-config.png)
 
    | Ajuste de configuración | Definición |
    | --- | --- |
@@ -46,7 +46,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
    | **[!UICONTROL Intervalo de fechas de comparación]** | El intervalo de fechas con el que se desea comparar el intervalo de fechas principal. |
    | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese específicamente para este resumen. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Haga clic en **[!UICONTROL Generar]**.
 
@@ -62,7 +62,7 @@ Tenga en cuenta:
 
 * Desde aquí, puede pasar el ratón por encima de los gráficos de líneas para ver las estadísticas de los días individuales:
 
-![](assets/key-metric-output2.png)
+![estadísticas](assets/key-metric-output2.png)
 
 ## Configuración de visualización
 
@@ -89,7 +89,7 @@ Después de crear la visualización, aún puede editar la configuración origina
 
 1. Haga clic en el icono de lápiz en la esquina superior derecha de la visualización (junto al icono de engranaje de configuración).
 
-   ![](assets/edit-icon.png)
+   ![editar](assets/edit-icon.png)
 
    Ahora volverá a la vista de configuración original.
 
