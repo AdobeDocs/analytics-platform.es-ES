@@ -4,10 +4,10 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 749088c6e6c100797bd9a2dd1de64d18d45108e5
+source-git-commit: cc475afebba5bd1cfcaf3b1471ce6d1316126a9d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1770'
+ht-degree: 53%
 
 ---
 
@@ -124,6 +124,8 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 >* Los usuarios con los que comparta pueden ver los filtros que se aplicaron al proyecto durante [depuración](curate.md).
 > 
 >* Los usuarios con los que comparta pueden cambiar el intervalo de fechas del proyecto. El intervalo de fechas definido para el proyecto se muestra de forma predeterminada.
+>
+>* Un proyecto podría quedar inaccesible si demasiados usuarios intentan acceder a él al mismo tiempo.
 
 
 Para compartir un proyecto de Analysis Workspace con cualquier persona:
