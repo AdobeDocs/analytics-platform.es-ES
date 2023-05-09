@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: 1aece0ac0873e2cf68bfe8b24725072ddf18ad30
+source-git-commit: cb63cd52a1618f2e1048f2779c4e6c0317e94f64
 workflow-type: tm+mt
 source-wordcount: '3003'
 ht-degree: 8%
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 {{release-limited-testing}}
 
->[!WARNING]
+>[!NOTE]
 >
 >Actualizaciones finales pendientes, es posible que vea [!UICONTROL Campo personalizado] en lugar de [!UICONTROL Campo derivado] en la interfaz de usuario.
 
