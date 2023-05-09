@@ -4,10 +4,10 @@ title: Edición de entradas en el diccionario de datos
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: d431e781eb18eb3f4904094972c218a9e80980d9
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 58%
+source-wordcount: '315'
+ht-degree: 53%
 
 ---
 
@@ -32,6 +32,10 @@ Para editar un componente en el diccionario de datos:
    El tipo de componente se puede identificar mediante el color y el icono. **Dimension** ![Dimension](assets/dimension-icon.png) son naranjas, **Segmentos** ![Icono de segmento](assets/segment-icon.png) son azules, **Intervalos de fechas** ![Icono de intervalo de fechas](assets/date-range-icon.png) son púrpura y **Métricas** ![Icono de métrica](assets/default-metric-icon.png) son verdes. El icono del Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o una plantilla de segmento y el icono de la calculadora ![Icono de calculadora](assets/calculated-metric-icon-created.png) indica una métrica calculada que fue creada por un administrador de Analytics en su organización.
 
 {{dd-filter-criteria}}
+
+1. (Opcional) Seleccione el **Ordenar** icono ![Icono Ordenar componentes](assets/component-sort-icon.png)y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+
+   {{components-sort-options}}
 
 1. En la lista de componentes, seleccione el componente que desea editar.
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 4662b941b90b2304402f6e2097f59ef669da7ada
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 72%
+source-wordcount: '950'
+ht-degree: 68%
 
 ---
 # Fragmentos
@@ -56,3 +56,14 @@ ht-degree: 72%
 | [!UICONTROL **Fecha de la última modificación**] | Muestra el día en que se modificó por última vez el componente. Esta sección se muestra al ver filtros, métricas, métricas calculadas e intervalos de fechas. |
 
 {style="table-layout:auto"}
+
+## Opciones de ordenación de componentes {#components-sort-options}
+
+| Opción | Función |
+|---------|----------|
+| [!UICONTROL **Recomendado**] | Ordena los componentes con los que se recomiendan en la parte superior de la lista. Los componentes que usted u otras personas de la organización utilizan con más frecuencia y más recientemente se muestran en la parte superior de la lista. |
+| [!UICONTROL **Alfabético**] | Ordena los componentes alfabéticamente. |
+| [!UICONTROL **Categórica**] | Ordena los componentes según el tipo de componente (dimensión, métrica, segmento, intervalo de fechas). |
+
+{style="table-layout:auto"}
+
