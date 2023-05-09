@@ -4,10 +4,10 @@ title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 88f38de837a23f9b0833c5c6b534b3ed567207a6
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 96%
 
 ---
 
@@ -25,13 +25,13 @@ La página de aterrizaje de Customer Journey Analytics resalta [!DNL Analysis Wo
 | Personalizar anchura de columna | Anteriormente, la anchura de la columna era fija. Ahora puede ajustarla arrastrando el separador de columnas. | ![Anchura de columna](assets/column-width.png) |
 | Reordenar elementos anclados | Para mover los elementos anclados hacia arriba y hacia abajo, haga clic en los puntos suspensivos junto al elemento anclado y seleccione **[!UICONTROL Subir]** o **[!UICONTROL Bajar]**. | ![Mover elementos anclados](assets/move-up-down.png) |
 | Nuevas columnas de tabla | Haga clic en el icono [!UICONTROL Personalizar tabla] en la parte superior derecha de la tabla. Las nuevas columnas de la tabla incluyen las siguientes: <ul><li>**[!UICONTROL Programado]**: establecer como [!UICONTROL Activado] cuando un proyecto está programado o [!UICONTROL Desactivado] cuando no lo está. Al hacer clic en el vínculo [!UICONTROL Activado], permite ver información sobre el proyecto programado. También puede [editar la programación del proyecto](../analysis-workspace/curate-share/t-schedule-report.md) si es el propietario del proyecto.</li><li>**[!UICONTROL ID del proyecto]**: el ID de proyecto se puede usar para depurar proyectos.</li><li>**[!UICONTROL Intervalo de fecha más largo]**: los intervalos de fechas más largos aumentan la complejidad del proyecto y pueden aumentar los tiempos de procesamiento y carga. </li><li>**[!UICONTROL Número de consultas]**: el número total de solicitudes realizadas a Analytics cuando se carga el proyecto. Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. Estos datos solo están disponibles después de que se haya cargado un proyecto o de que se haya enviado un proyecto programado. </li></ul> | ![Nuevas columnas](assets/new-columns.png) |
-| Vuelve el modal **[!UICONTROL Crear proyecto]** | Al hacer clic en **[!UICONTROL Crear proyecto]** en Workspace, una vez más puede elegir entre un [!UICONTROL Proyecto en blanco] y [!UICONTROL Cuadro de resultados móvil en blanco]. También puede elegir entre cualquier plantilla que haya creado su compañía. | ![Crear nuevo](assets/create-new.png) |
+| Vuelve el modal **[!UICONTROL Crear proyecto]** | Al hacer clic en **[!UICONTROL Crear proyecto]** en el Espacio de trabajo, una vez más puede elegir entre un [!UICONTROL Proyecto en blanco] y un [!UICONTROL Cuadro de resultados móviles en blanco]. También puede elegir entre cualquier plantilla que haya creado su compañía. | ![Crear nuevo](assets/create-new.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Vaya a la pestaña [!UICONTROL Proyectos] {#navigate-projects}
 
-[!UICONTROL Proyectos] sirve como página de inicio de [!UICONTROL Workspace]. La pestaña Proyectos muestra la carpeta Compañía, las carpetas personales que ha creado, sus proyectos y los cuadros de resultados móviles. Utilice esta página para ver, crear y modificar carpetas, proyectos y cuadros de resultados móviles. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+[!UICONTROL Proyectos] sirve como página de inicio de [!UICONTROL Workspace]. La pestaña Proyectos muestra la carpeta Compañía, las carpetas personales que ha creado, los proyectos y los informes de valoración móviles. Utilice esta página para ver, crear y modificar carpetas, proyectos e informes de valoración móviles. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Aterrizar todo](assets/landing-all2.png)
 
@@ -39,38 +39,38 @@ Los **[!UICONTROL Proyectos]** son diseños personalizados que combinan compone
 
 >[!NOTE]
 >
->Varias de las siguientes opciones de configuración persisten durante la sesión y entre sesiones. Por ejemplo, la pestaña seleccionada, los filtros seleccionados, las columnas seleccionadas y la dirección de ordenación de las columnas. Los resultados de la búsqueda no son persistentes.
+>Varias de las siguientes opciones de configuración persisten durante la sesión y entre sesiones. Por ejemplo, la pestaña seleccionada, los filtros seleccionados, las columnas seleccionadas y la dirección de clasificación de las columnas. Los resultados de la búsqueda no son persistentes.
 
 | Elemento de la IU | Definición |
 | --- | --- |
 | Editar preferencias | Le permite [!UICONTROL Ver tutoriales] y [Editar preferencias de usuario](/help/analysis-workspace/user-preferences.md). |
-| [!UICONTROL Crear nuevo] | Abre el modal del proyecto, donde puede crear un proyecto de Workspace o un cuadro de resultados móvil, o abrir una plantilla de compañía. |
+| [!UICONTROL Crear nuevo] | Abre el modal del proyecto, donde puede crear un proyecto del Espacio de trabajo o un informe de valoración móvil o abrir una plantilla de empresa. |
 | [!UICONTROL Mostrar menos<br> Mostrar más] | Alterna entre no mostrar y mostrar el titular: ![titular superior](assets/top-banner.png) |
-| [!UICONTROL Proyecto de Workspace] | Crea un [proyecto de Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es) en blanco para su diseño y construcción. |
-| [!UICONTROL Cuadro de resultados móvil] | Crea un [cuadro de resultados móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) en blanco para su diseño y construcción. |
-| [!UICONTROL Tutorial de formación abierta] | Abre el tutorial de formación de Workspace que le guía a través del proceso de creación de un nuevo proyecto de inicio, paso a paso. |
+| [!UICONTROL Proyecto del Espacio de trabajo] | Crea un [proyecto del Espacio de trabajo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es) en blanco para que pueda diseñarlo y elaborarlo. |
+| [!UICONTROL Informe de valoración móvil] | Crea un [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) en blanco para que pueda diseñarlo y elaborarlo. |
+| [!UICONTROL Abrir tutorial de formación] | Abre el tutorial de formación del Espacio de trabajo que le guía a través del proceso de creación de un nuevo proyecto de inicio en un tutorial paso a paso. |
 | [!UICONTROL Abrir notas de la versión] | Abre la sección Adobe Analytics de las últimas notas de la versión de Adobe Experience Cloud. |
-| Icono de filtro | Filtra por etiquetas, grupos de informes, propietarios, tipos y otros filtros (Míos, Compartidos conmigo, Favoritos y Aprobados) |
+| Icono de filtro | Filtros por etiquetas, vistas de datos, propietarios, tipos y otros filtros (Míos, Compartidos conmigo, Favoritos y Aprobados) |
 | Barra de búsqueda | Busca todas las columnas de la tabla. |
-| Cuadro de selección | Selecciona uno o varios proyectos para mostrar las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiquetar**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas las acciones indicadas. |
-| [!UICONTROL Favoritos] | Agrega una estrella junto a un proyecto favorito o una carpeta favorita que se puede usar como filtro. |
+| Cuadro de selección | Selecciona uno o varios proyectos para mostrar las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiqueta**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas estas acciones. |
+| [!UICONTROL Favoritos] | Agrega una estrella junto a un proyecto o una carpeta favoritos que se puede usar como filtro. |
 | [!UICONTROL Nombre] | Identifica el nombre del proyecto. |
-| Icono de anclaje | Ancla elementos para que siempre aparezcan en la parte superior de la lista, pero puede volver a ajustar el orden moviéndolos hacia arriba o hacia abajo en el orden. Utilice el menú de opciones de tres puntos (...) y seleccione **Subir** o **Bajar** en la lista. |
-| Icono de información (i) | Muestra la siguiente información sobre un proyecto: Tipo, Función del proyecto, Propietario, Descripción y con quién se comparte. También indica quién puede [editar o duplicar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) este proyecto. |
-| Puntos suspensivos (...) | Muestra las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiquetar**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas las acciones indicadas. |
-| [!UICONTROL Tipo] | Indica si este tipo es un proyecto de Workspace, un cuadro de resultados móvil o una carpeta. |
+| Icono de anclaje | Ancla elementos para que siempre aparezcan en la parte superior de la lista, pero puede volver a ajustar el orden moviéndolos hacia arriba o hacia abajo en el orden. Utilice el menú de opciones de puntos suspensivos y seleccione **Subir** o **Bajar** en la lista. |
+| Icono de información (i) | Muestra la siguiente información sobre un proyecto: Escribir, Función del proyecto, Propietario, Descripción y con quién se comparte. También indica quién puede [editar o duplicar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) este proyecto. |
+| Puntos suspensivos (...) | Muestra las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiqueta**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas estas acciones. |
+| [!UICONTROL Tipo] | Indica si este tipo es un proyecto del Espacio de trabajo, un informe de valoración móvil o una carpeta. |
 | [!UICONTROL Etiquetas] | Etiqueta proyectos para organizarlos en grupos. |
-| [!UICONTROL Función del proyecto] | Identifica las funciones de proyecto: hacen referencia a si es el propietario del proyecto y si tiene permisos para editar o duplicar el proyecto. |
-| [!UICONTROL Grupo de informes] | Identifica los grupos de informes asociados al proyecto.<br>Las tablas y visualizaciones de un panel derivan datos del grupo de informes seleccionado en la parte superior derecha del panel. El grupo de informes también determina qué componentes están disponibles en el carril izquierdo. Dentro de un proyecto, puede utilizar uno o varios grupos de informes en función de los casos de uso del análisis. La lista de grupos de informes se ordena según la relevancia. Adobe define la relevancia en función del uso reciente y de la frecuencia con que el usuario actual ha utilizado el grupo, y en función de la frecuencia con la que el grupo se utiliza dentro de la organización. |
-| [!UICONTROL Propietario] | Identifica a la persona que creó el proyecto. |
-| [!UICONTROL Última apertura] | Identifica la última fecha en que se abrió el proyecto. |
-| Icono Personalizar tabla | Selecciona qué columnas se verán en la tabla. Para agregar o quitar columnas de la lista de proyectos, haga clic en el icono de columna (![Aterrizar todo](assets/select-column.png)) en la parte superior derecha y seleccione o anule la selección de los títulos de las columnas. |
-| MOSTRAR: Carpetas y proyectos para todos los proyectos | Cambia la configuración de vista de la tabla para mostrar carpetas y proyectos según la organización de carpetas **o bien** para mostrar todos los proyectos en una lista desorganizada. |
+| [!UICONTROL Función del proyecto] | Identifica las funciones de proyecto: si usted es el propietario del proyecto y si tiene permisos para editar o duplicar el proyecto. |
+| [!UICONTROL Vista de datos] | Identifica las vistas de datos asociadas al proyecto.<br>Las tablas y visualizaciones de un panel derivan datos de la vista de datos seleccionada en la parte superior derecha del panel. La vista de datos también determina qué componentes están disponibles en el carril izquierdo. Dentro de un proyecto, puede utilizar una o varias vistas de datos en función de sus casos de uso de análisis. La lista de vistas de datos se ordena según la relevancia. Adobe define la relevancia en función del uso reciente y de la frecuencia con que el usuario actual ha utilizado el grupo, y en función de la frecuencia con la que el grupo se utiliza dentro de la organización. |
+| [!UICONTROL Propietario] | Identifica la persona que creó el proyecto. |
+| [!UICONTROL Última apertura] | Identifica la última fecha en que abrió el proyecto. |
+| Icono Personalizar tabla | Selecciona qué columnas se verán en la tabla. Para agregar o quitar columnas de la lista de proyectos, haga clic en el icono de columna (![Aterrizar todo](assets/select-column.png)) en la parte superior derecha y, a continuación, seleccione o anule la selección de los títulos de las columnas. |
+| MOSTRAR: Carpetas y proyectos o Todos los proyectos | Cambia la configuración de vista de la tabla para mostrar carpetas y proyectos según la organización de carpetas **o** mostrar todos los proyectos en una lista desorganizada. |
 | &lt; (Botón Atrás) | Le devuelve a la configuración de página de aterrizaje más reciente de un proyecto de Workspace. La configuración de la página que tenía cuando abandonó la página de aterrizaje se mantendrá cuando regrese. |
 
-### Retirada de la página Administrador de proyectos {#deprecate-pm-page}
+### Obsolescencia de la página Administrador de proyectos {#deprecate-pm-page}
 
-Con el lanzamiento de la nueva página de aterrizaje, se ha retirado el Administrador de proyectos tal y como aparecía en el Administrador de componentes. La nueva página de aterrizaje gestiona todas las funcionalidades de la antigua página Administrador de proyectos y otras funcionalidades adicionales.
+Con el lanzamiento de la nueva página de aterrizaje, ha quedado en desuso el Administrador de proyectos como se muestra en el Administrador de componentes. La nueva página de aterrizaje gestiona todas las funcionalidades de la antigua página Administrador de proyectos y otras funcionalidades adicionales.
 
 Un caso de uso común para la página Administrador de proyectos era la visualización de todos los proyectos de un usuario. Para ver todos los proyectos en la nueva página de aterrizaje mediante el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Mostrar todo**.
 

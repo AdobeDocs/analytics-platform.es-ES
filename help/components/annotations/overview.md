@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 88%
+ht-degree: 72%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. Puede anotar una fecha o un intervalo de fechas con problemas de datos conocidos, días festivos, lanzamientos de campañas, etc. Entonces, puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o alguna otra métrica.
 
-Por ejemplo, supongamos que comparte proyectos con su organización. Si tuvo un pico importante en el tráfico debido a una campaña de marketing, podría crear una anotación de “Fecha de inicio de la campaña” y ampliarla para todo el grupo de informes. Cuando los usuarios ven cualquier conjunto de datos que incluya esa fecha, ven la anotación dentro de sus proyectos, junto con sus datos.
+Por ejemplo, supongamos que comparte proyectos con su organización. Si tuvo un pico importante en el tráfico debido a una campaña de marketing, podría crear una anotación &quot;Fecha de inicio de la campaña&quot; y ampliarla para toda la vista de datos. Cuando los usuarios ven cualquier conjunto de datos que incluya esa fecha, ven la anotación dentro de sus proyectos, junto con sus datos.
 
 ![](assets/multi-day.png)
 
@@ -28,7 +28,7 @@ Recuerde:
 
 * Pueden aplicarse al proyecto en el que se crearon (predeterminado) o a todos los proyectos.
 
-* Pueden aplicarse al grupo de informes en el que se crearon (predeterminado) o a todos los grupos de informes.
+* Pueden aplicarse a la vista de datos en la que se crearon (opción predeterminada) o a todas las vistas de datos.
 
 ## Permisos
 

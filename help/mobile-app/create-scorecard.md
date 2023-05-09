@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 7065215f89f964e7504f3e95996b352410b89779
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2363'
+ht-degree: 98%
 
 ---
 
@@ -55,9 +55,9 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 
 Para implementar la plantilla del informe de valoración:
 
-1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique un **[!UICONTROL grupo de informes de proyecto]** cuyos datos quiera utilizar. Los grupos de informes son vistas de datos en CJA.
+1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique una **[!UICONTROL Vista de datos de proyecto]**, cuyos datos quiera utilizar.
 
-   ![Selección del grupo de informes](assets/properties_save.png)
+   ![selección de vista de datos](assets/properties_save.png)
 
 1. Para añadir un nuevo mosaico al informe de valoración, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
@@ -217,66 +217,66 @@ Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de r
 
 ## Creación de historias de datos {#create-data-story}
 
-Una historia de datos es una colección de puntos de datos de soporte, contexto empresarial y métricas relacionadas creadas en torno a un tema o métrica central.
+Una historia basada en datos es una colección de puntos de datos de apoyo, contexto empresarial y métricas relacionadas creada en torno a un tema o métrica central.
 
-Por ejemplo: si se centra en el tráfico web, la métrica más importante pueden ser las visitas, pero también puede estar interesado en nuevos visitantes y visitantes únicos, y es posible que desee ver los datos desglosados por página web o por el tipo de dispositivo del que proviene el tráfico. Las historias de datos en los proyectos de cuadros de resultados móviles le permiten colocar las métricas más importantes en un lugar destacado y centrado, mientras cuenta toda la historia detrás de las métricas con varias diapositivas de detalle.
+Por ejemplo, si se centra en el tráfico web, la métrica más importante puede ser las visitas, pero también es posible que le interesen los visitantes nuevos y los únicos, o que desee ver los datos desglosados por página web o por el tipo de dispositivo desde el que proviene el tráfico. Las historias basadas en datos en proyectos de cuadros de resultados móviles le permiten poner sus métricas más importantes en primer plano y, al mismo tiempo, contar toda la historia que hay detrás con múltiples diapositivas detalladas.
 
-Vea el vídeo para obtener más información sobre la creación de historias de datos en proyectos de cuadros de resultados móviles en Analysis Workspace.
+Vea el vídeo para obtener más información acerca de la creación de historias basadas en datos en los proyectos de cuadro de resultados móviles en Analysis Workspace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
-**Para crear una historia de datos** {#data-story-create}
+**Para crear una historia basada en datos** {#data-story-create}
 
-Cree su historia de datos agregando varias diapositivas de detalle a un mosaico.
+Cree su historia basada en datos al agregar varias diapositivas de detalles a un mosaico.
 
 1. Comience con un proyecto de cuadro de resultados móvil.
-1. Seleccione un mosaico en el que desee crear una historia.
-   ![Crear una historia de datos](assets/data-story1.png)
-   ![Crear iconos de historia de datos](assets/create-data-story.png){width=".50%"}
-1. Agregue diapositivas para crear su historia de datos. La primera diapositiva se genera de forma predeterminada.
-Para añadir nuevas diapositivas, pase el ratón sobre una diapositiva o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
+1. Seleccione un mosaico desde el que desee crear una historia.
+   ![Creación de una historia basada en datos](assets/data-story1.png)
+   ![Creación de iconos de historia basada en datos](assets/create-data-story.png){width=".50%"}
+1. Agregue diapositivas para generar la historia basada en datos. La primera diapositiva se genera de forma predeterminada.
+Para agregar nuevas diapositivas, pase el ratón sobre una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
    * Pulse el signo + para crear una nueva diapositiva.
    * Pulse el icono de duplicado para duplicar la diapositiva existente.
-1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para rellenar automáticamente la diapositiva con los datos del mosaico.
-   ![Crear una historia de datos](assets/data-story2.png)
+1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para llenarla automáticamente con los datos del mosaico.
+   ![Creación de una historia basada en datos](assets/data-story2.png)
 Para eliminar una diapositiva, pulse el icono de papelera.
 
-### Personalizar una historia de datos {#customize-data-story}
+### Personalización de una historia basada en datos {#customize-data-story}
 
-Las historias de datos le permiten personalizar todo para que pueda compartir información que desee compartir y excluir todo lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para añadir filtros, mostrar desgloses, cambiar el diseño y cambiar las visualizaciones.
+Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para agregar filtros, mostrar desgloses, cambiar el diseño y modificar las visualizaciones.
 
 **Para personalizar mosaicos**
 
-1. Pulse un mosaico. El mosaico seleccionado está delineado en azul y el panel derecho muestra las propiedades del mosaico.
-1. Cambie el título, el tipo de gráfico y otras opciones de mosaico.
+1. Toque un mosaico. El mosaico seleccionado se resalta en azul y el panel derecho muestra las propiedades.
+1. Cambie el título, el tipo de gráfico y otras opciones del mosaico.
 1. Arrastre un componente al mosaico.
-   ![Crear una historia de datos](assets/data-story3.png)
-Al arrastrar y soltar un componente, como una visualización, en un mosaico, el componente se aplica a todas las diapositivas de la historia de datos.
-1. Para aplicar un cambio solo al título, mantenga pulsada la tecla Mayús para aplicar el cambio.
-   ![Crear una historia de datos](assets/data-story4.png)
+   ![Creación de una historia basada en datos](assets/data-story3.png)
+Cuando arrastra y suelta un componente como una visualización en un mosaico, este se aplica a todas las diapositivas de historias basada en datos.
+1. Para aplicar un cambio solo al título, mantenga pulsada la tecla Mayús.
+   ![Creación de una historia basada en datos](assets/data-story4.png)
 
 >[!NOTE]
->Las diapositivas heredan los componentes del mosaico, pero los mosaicos no heredan los componentes de las diapositivas.
+>Las diapositivas heredan componentes del mosaico, pero los mosaicos no heredan componentes de las diapositivas.
 
-**Para personalizar diapositivas individuales**
+**Para personalizar las diapositivas individuales**
 
-Puede cambiar la visualización de diapositivas individuales en un artículo de datos. Por ejemplo, puede cambiar una barra horizontal a un gráfico de anillos para una diapositiva específica. También puede cambiar el diseño. Consulte [Personalizar diapositivas de detalle](#customize-detail-slide).
+Puede cambiar la visualización de diapositivas individuales en una historia basada en datos. Por ejemplo, puede cambiar una barra horizontal por un gráfico de anillos para una diapositiva específica. También puede cambiar el diseño. Consulte [los detalles de personalización de diapositivas](#customize-detail-slide).
 
-### Previsualización de una historia de datos {#preview-data-story}
+### Vista previa de una historia basada en datos {#preview-data-story}
 
-Después de crear una historia de datos, utilice el **Previsualizar** para ver e interactuar con una historia de datos como si fuera un usuario de la aplicación. Para obtener información sobre la vista previa del artículo de datos, consulte [Previsualización de un cuadro de resultados](#preview)
+Después de crear una historia basada en datos, use el botón **Vista previa** para verla e interactuar con ella como si fuera un usuario de la aplicación. Para obtener información acerca de la vista previa de la historia basada en datos, consulte [Vista previa del cuadro de resultados](#preview)
 
-### Desplazamiento entre mosaicos y diapositivas {#navigate-tiles-slides}
+### Navegación entre mosaicos y diapositivas {#navigate-tiles-slides}
 
-La barra de navegación muestra iconos que representan lo que hay en cada diapositiva. La barra de exploración facilita el desplazamiento a una diapositiva específica si tiene muchas diapositivas.
+La barra de navegación muestra iconos que representan lo que hay en cada diapositiva. Si hay muchas, la barra de navegación facilita el desplazamiento a una diapositiva específica.
 
-Para desplazarse entre el mosaico y las diapositivas, pulse la barra de navegación.
-![Crear una historia de datos](assets/data-story5.png)
-![Crear una historia de datos](assets/data-story-nav.png){width="45%"}
+Para moverse entre los mosaicos y las diapositivas, pulse la barra de navegación.
+![Creación de una historia de datos](assets/data-story5.png)
+![Creación de una historia de datos](assets/data-story-nav.png){width="45%"}
 
-También puede desplazarse hacia atrás y hacia adelante utilizando las flechas del teclado o seleccionando un componente y manteniéndolo a la izquierda o a la derecha de la pantalla para desplazarse.
+También puede navegar hacia atrás y hacia adelante utilizando las flechas del teclado o seleccionando un componente y manteniéndolo a la izquierda o a la derecha de la pantalla para desplazarse.
 
-## Previsualizar informes de valoración {#preview}
+## Vista previa de los informes de valoración {#preview}
 
 Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de resultados una vez que se publique en la aplicación de paneles de Analytics.
 
@@ -296,13 +296,13 @@ Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de res
 
    * Haga clic y mantenga presionado para simular el efecto del dedo en la pantalla del teléfono. Esto resulta útil para interactuar con las visualizaciones en la vista detallada.
 
-## Nombrar cuadros de resultados {#name}
+## Nombrar informes de valoración {#name}
 
 Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Compartir cuadros de resultados {#share}
+## Compartir informes de valoración {#share}
 
 Para compartir el informe de valoración con un usuario ejecutivo:
 

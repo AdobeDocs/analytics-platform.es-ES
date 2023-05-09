@@ -3,10 +3,11 @@ description: El diccionario de datos de Analysis Workspace permite a los usuario
 title: Visualización del diccionario de datos
 feature: Components
 role: User, Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 71%
+ht-degree: 60%
 
 ---
 
@@ -26,7 +27,7 @@ Para ver información acerca de un componente en el diccionario de datos:
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. Asegúrese de que el grupo de informes que contiene el componente que desea ver esté seleccionado en el menú desplegable. De forma predeterminada, se muestra el grupo de informes en el que ya se encuentra.
+1. Asegúrese de que la vista de datos que contiene el componente que desea ver esté seleccionada en el menú desplegable. De forma predeterminada, se muestra la vista de datos en la que ya se encuentra.
 
 1. (Opcional) En el campo de búsqueda, empiece a escribir el nombre del componente que desea ver.
 

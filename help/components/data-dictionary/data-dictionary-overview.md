@@ -3,10 +3,11 @@ description: El diccionario de datos de Analysis Workspace permite a los usuario
 title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 77%
+ht-degree: 67%
 
 ---
 
@@ -44,11 +45,11 @@ A continuación se indican algunas de las formas en que los administradores de A
 
 * Identificar los componentes que aún no se han aprobado.
 
-* Actualizar las descripciones de los componentes directamente en Analysis Workspace. Las actualizaciones introducidas en las descripciones de los componentes del diccionario de datos se reflejan en el grupo de informes.
+* Actualizar las descripciones de los componentes directamente en Analysis Workspace. Las actualizaciones realizadas en las descripciones de los componentes del diccionario de datos se reflejan en la vista de datos.
 
-   Del mismo modo, cualquier actualización introducida en las descripciones de los componentes del grupo de informes se refleja en Analysis Workspace.
+   Del mismo modo, cualquier actualización realizada en las descripciones de los componentes en la vista de datos se refleja en Analysis Workspace.
 
-   Para obtener más información acerca de la adición de descripciones de componentes en Analysis Workspace o en un grupo de informes, consulte [Adición de descripciones de componentes](/help/components/add-component-descriptions.md).
+   Para obtener más información sobre la adición de descripciones de componentes en Analysis Workspace o en una vista de datos, consulte [Agregar descripciones de componentes](/help/components/add-component-descriptions.md).
 
 ## Acceso al diccionario de datos
 

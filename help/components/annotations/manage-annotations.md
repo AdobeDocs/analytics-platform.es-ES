@@ -3,11 +3,11 @@ title: Administración de anotaciones
 description: Cómo administrar anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Components
-exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '677'
+ht-degree: 87%
 
 ---
 
@@ -28,17 +28,17 @@ El administrador [!UICONTROL Anotaciones] le muestra todas las anotaciones que p
 | Elemento de la IU | Descripción |
 | --- | --- | 
 | [!UICONTROL Título y descripción] | Aparecen en el Generador de anotaciones. Para editar el título y la descripción, haga clic en el vínculo del título. Se le redirigirá al Generador de anotaciones. |
-| [!UICONTROL Grupo de informes] | Los grupos de informes a los que se aplica esta anotación. |
+| [!UICONTROL Vista de datos] | Las vistas de datos a las que se aplica esta anotación. |
 | [!UICONTROL Propietario] | Indica a quién pertenece la anotación. Si no es el administrador, solo podrá ver las anotaciones que le pertenecen o que se han compartido con usted. |
 | [!UICONTROL Intervalo de fecha aplicado] | La fecha o el intervalo de fechas al que se aplica esta anotación. |
 | [!UICONTROL Compartido con] | Indica cuántos individuos o grupos han compartido la anotación. Haga clic para ver más detalles. |
 | [!UICONTROL Fecha de modificación] | Muestra la fecha y la hora de la última modificación de la anotación. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Edición de anotaciones
 
-Editar una anotación significa que puede ajustar intervalos de fechas, colores, ámbito o si se aplica o no a todos los grupos de informes o proyectos. Puede editar las anotaciones de dos formas:
+Editar una anotación significa que puede ajustar intervalos de fechas, colores, ámbito o si se aplica o no a todas las vistas de datos o proyectos. Puede editar las anotaciones de dos formas:
 
 * En un gráfico de líneas, pase el ratón sobre la anotación y haga clic en el icono de lápiz dentro de la ventana emergente.
 
@@ -58,7 +58,7 @@ Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con us
 
 ## Anotaciones y zonas horarias
 
-Todas las anotaciones se crean con una marca de tiempo, pero no con información de “hora” o “zona horaria”. En el momento del informe, siempre se aplica la zona horaria de la vista de datos del panel. Por lo tanto, una anotación creada para Navidad se produce el 25 de diciembre, independientemente de la zona horaria del grupo de informes en la que se encuentre.
+Todas las anotaciones se crean con una marca de tiempo, pero no con información de “hora” o “zona horaria”. En el momento del informe, siempre se aplica la zona horaria de la vista de datos del panel. Así que una anotación creada para el día de Navidad se produce el 25 de diciembre, sin importar la zona horaria de visualización de datos en la que se encuentre.
 
 Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 22:00, hora de las montañas de EE. UU., la costa este de EE. UU. está preparando los fuegos artificiales porque ya son las 00:00 en el este.
 
@@ -76,6 +76,6 @@ Solo tiene que seleccionar una o varias anotaciones y aparecerá la barra de tar
 | Cambiar nombre | Al cambiar el nombre de una anotación, se le cambia el nombre en todos los proyectos a los que se ha aplicado. |
 | Copiar | Crea una copia distinta con su nuevo ID de anotación, pero con el mismo nombre y definición. |
 | Exportar a CSV | Exporte la definición de la anotación a un archivo .csv. |
-| Filtro (carril izquierdo) | Filtre por etiquetas, grupo de informes, propietarios y otros filtros (Míos, Aprobados, Favoritos, Compartidos conmigo y Mostrar todo). |
+| Filtro (carril izquierdo) | Filtre por etiquetas, vista de datos, propietarios y otros filtros (Míos, Aprobados, Favoritos, Compartidos conmigo y Mostrar todo). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
-workflow-type: ht
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ El Administrador de bloques de datos muestra todos los bloques de datos presente
 
 ## Ordenar la lista de bloques de datos
 
-Puede ordenar la lista de bloques de datos por una columna mostrada. Por ejemplo, puede ordenar la lista de bloques de datos por grupos de informes, filtros, intervalo de fechas y otras variables.
+Puede ordenar la lista de bloques de datos por una columna mostrada. Por ejemplo, puede ordenar la lista de bloqueados de datos por vistas de datos, filtros, intervalo de fechas y otras variables.
 
 Para ordenar la lista de bloques de datos, haga clic en un encabezado de columna.
 
@@ -40,7 +40,7 @@ Para ordenar la lista de bloques de datos, haga clic en un encabezado de columna
 
 ## Buscar en la lista de bloques de datos
 
-Utilice el campo Buscar para localizar cualquier contenido en la tabla de bloques de datos. Por ejemplo, puede buscar métricas contenidas en los bloques de datos o en el grupo de informes. También puede buscar fechas que aparezcan en las columnas de intervalo de fechas, fecha de modificación o fecha de última ejecución.
+Utilice el campo Buscar para localizar cualquier contenido en la tabla de bloques de datos. Por ejemplo, puede buscar métricas contenidas en los bloques de datos o en la vista de datos. También puede buscar fechas que aparezcan en las columnas de intervalo de fechas, fecha de modificación o fecha de última ejecución.
 
 ![image](./assets/image55.png)
 

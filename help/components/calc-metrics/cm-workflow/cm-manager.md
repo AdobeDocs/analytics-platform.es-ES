@@ -3,10 +3,10 @@ description: El Administrador de métricas calculadas ofrece numerosas maneras d
 title: Administrador de métricas calculadas
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ El Administrador de métricas calculadas muestra todos los segmentos que posee y
 | Función de la interfaz de usuario | Descripción |
 | --- | --- |
 | Barra de herramientas de administración de métricas calculadas | Cuando marque una métrica, aparecerá esta barra de herramientas. Puede realizar la mayoría de las tareas de gestión desde esta barra de herramientas. |
-| Mostrar/ocultar filtros | Al hacer clic en mostrar filtros aparece el menú de filtros. Puede filtrar por Etiquetas, Grupos de informes, Propietarios, Mostrar todo (solo para administradores), Compartido conmigo, Mío, Favoritos y Aprobado. |
+| Mostrar/ocultar filtros | Al hacer clic en mostrar filtros aparece el menú de filtros. Puede filtrar por Etiquetas, Vistas de datos, Propietarios, Mostrar todo (solo administrador), Compartido conmigo, Mío, Favoritos y Aprobado. |
 | Casillas de verificación | Marque una métrica personalizada para administrarla. |
 | Favoritos | Si hace clic en la estrella que aparece junto a una métrica, esta se pondrá de color amarillo y la métrica se marcará como favorita. |
 | Títulos y descripciones de filtros | Incluido en el Creador de métricas calculadas. Para editar el título y la descripción, haga clic en el vínculo del título. Se le redirigirá al Creador de métricas calculadas. |
