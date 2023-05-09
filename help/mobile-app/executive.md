@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 26012a5b7332adf2b80edd8fb9f9327788443dfc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 98%
+source-wordcount: '1267'
+ht-degree: 92%
 
 ---
 
@@ -59,11 +59,17 @@ Para usar los paneles:
 
    ![Proceso de inicio de sesión](assets/signseq.png)
 
-1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Seleccione una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
+1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Seleccione una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada al informe de valoración compartido con usted.
 
-1. A continuación, la lista informes de valoración mostrará todos los informes de valoración que se han compartido con usted. Pulse el informe de valoración que desee ver.
+   La lista de informes de valoración muestra todos los informes de valoración que se han compartido con usted.
 
-   ![Seleccione una empresa](assets/nextseq.png)
+1. Pulse el informe de valoración que desee ver.
+
+   Si tiene acceso a más de una organización en un inicio de sesión, todos los informes de valoración de sus organizaciones estarán disponibles en la lista de informes de valoración.
+
+   Puede ordenar la lista del informe de valoración según el título del informe de valoración, el nombre de la organización o los datos vistos más recientemente. Incluso puede buscar un informe de valoración específico.
+
+   ![Seleccione una empresa](assets/mobile-home-screen.png)
 
    Si inicia sesión y ve un mensaje que indica que no se ha compartido nada, compruebe lo siguiente con su gestor de datos:
 
