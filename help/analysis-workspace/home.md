@@ -5,7 +5,7 @@ description: Información general sobre las capacidades de Analysis Workspace
 feature: CJA Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: d2828173e802baf5dc598cef0383075e1203442a
+source-git-commit: e3c9db595b26b96c2079a770ede1bdd609f6de14
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 26%
@@ -31,7 +31,7 @@ La siguiente imagen y la tabla adjunta explican algunas de las áreas principale
 | A | **Carril izquierdo lejano:** Contiene fichas para agregar paneles, visualizaciones y componentes a Analysis Workspace. También contiene el icono del diccionario de datos que se utiliza para abrir el diccionario de datos. |
 | B | **Carril izquierdo:** En función de la pestaña seleccionada en el carril del extremo izquierdo, esta área contiene paneles, visualizaciones o componentes individuales. |
 | C | **Lienzo:** Esta es el área principal donde arrastra contenido desde los carriles izquierdos para crear el proyecto. El proyecto se actualiza de forma dinámica a medida que se agregan paneles, visualizaciones y componentes al lienzo. |
-| D | **Menú desplegable del grupo de informes:** Para cada panel de Analysis Workspace, el menú desplegable de grupo de informes le permite elegir el grupo de informes que desea usar como fuente de datos. |
+| D | **Menú desplegable Vista de datos:** Para cada panel de Analysis Workspace, el menú desplegable de vista de datos le permite elegir la vista de datos que desea utilizar como fuente de datos. |
 
 ## Funciones en Analysis Workspace {#analysis}
 
