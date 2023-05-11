@@ -4,18 +4,18 @@ title: Integración de datos de inteligencia artificial aplicada al cliente con 
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: fdd8d96eeca90ac13c035ace4a010c016681bac7
+hide: true
+hide-from-toc: true
+source-git-commit: adfc2500cfc3811e7ef2798c3a0ee3e9b3425208
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 73%
+source-wordcount: '954'
+ht-degree: 72%
 
 ---
 
 # Integración de datos de inteligencia artificial aplicada al cliente con CJA
 
->[!NOTE]
->
->Esta funcionalidad se encuentra actualmente en [pruebas limitadas](/help/release-notes/releases.md) y no está disponible de forma general.
+{{release-limited-testing}}
 
 La [inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=es), como parte de los servicios inteligentes de Adobe Experience Platform, proporciona a los expertos en marketing la capacidad de generar predicciones sobre clientes a nivel individual.
 
