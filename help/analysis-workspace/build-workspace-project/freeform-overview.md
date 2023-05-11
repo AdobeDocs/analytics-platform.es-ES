@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Información general sobre Proyectos
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 80%
+source-wordcount: '1317'
+ht-degree: 79%
 
 ---
 
@@ -27,12 +27,11 @@ La página Proyectos contiene la siguiente información:
 >
 >Algunas columnas no se muestran de forma predeterminada. Para personalizar las columnas que ve, haga clic en el botón **Personalizar tabla** icono ![Personalizar tabla](assets/projects-page-customize-columns-icon.png).
 
-
 | Elemento | Descripción |
 |---|---|
 | [Editar preferencias](/help/analysis-workspace/user-preferences.md) | Administre la configuración de Analysis Workspace y sus componentes relacionados para todos los proyectos o paneles nuevos que cree. |
 | [Crear carpeta](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Agregue una nueva carpeta o subcarpeta a la lista de proyectos y carpetas. |
-| [Crear proyecto](/help/analysis-workspace/home.md) | Inicio de un nuevo proyecto desde cero o desde un [plantilla](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#analysis-workspace). |
+| [Crear proyecto](/help/analysis-workspace/build-workspace-project/create-projects.md) | Inicie un nuevo proyecto desde cero. |
 | Mostrar más | Muestra las opciones para crear un proyecto en blanco o un informe de valoración móvil, [visualización de tutoriales de formación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=es)o [ver notas de la versión](/help/release-notes/latest.md). |
 | Mostrar carpetas y proyectos | Elija si desea mostrar la estructura de carpetas de los proyectos. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Personalizar tabla (icono) | Permite personalizar la información que se muestra para cada proyecto en la página Proyectos . |
@@ -60,7 +59,7 @@ En un proyecto, el menú proporciona opciones para administrar el proyecto, agre
 
 | Elemento del menú | Descripción |
 |---|---|
-| Proyecto  | Incluye acciones comunes para la administración de proyectos, como Nuevo, Abrir, Guardar, Guardar como y Guardar como plantilla. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. Las opciones [Descargar CSV y PDF](/help/analysis-workspace/curate-share/download-send.md) permiten exportar datos desde Workspace. **Información y configuración del proyecto** (ver más abajo) ofrece muchas opciones para administrar el proyecto. |
+| Proyecto  | Incluye acciones comunes para la administración de proyectos, como Nuevo, Abrir, Guardar y Guardar como. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. Las opciones [Descargar CSV y PDF](/help/analysis-workspace/curate-share/download-send.md) permiten exportar datos desde Workspace. **Información y configuración del proyecto** (ver más abajo) ofrece muchas opciones para administrar el proyecto. |
 | Editar | Deshacer o volver a hacer la última acción. Borrar todo restablecerá el proyecto a un punto de partida en blanco. |
 | Insertar | Inserte nuevos paneles o visualizaciones desde este menú. También puede insertar nuevos paneles y visualizaciones desde el carril izquierdo. |
 | [Componentes](/help/components/overview.md) | Cree nuevos componentes de filtro, métrica calculada, intervalo de fecha o alerta a partir del proyecto. También puede crear nuevos componentes desde el carril izquierdo. Si las definiciones de los componentes han cambiado recientemente, Actualizar componentes recuperará las definiciones más recientes. |
