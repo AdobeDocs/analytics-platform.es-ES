@@ -5,7 +5,8 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 7d072538c42210f5de7c9c38df05423350e694b0
+badgeCJASQLConnector: label="New Feature" type="Positive"
+source-git-commit: 4205995fdc54e4d7626f17de79573751a5c63d26
 workflow-type: tm+mt
 source-wordcount: '2879'
 ht-degree: 2%
