@@ -3,9 +3,9 @@ description: Utilice subtítulos inteligentes para generar perspectivas en lengu
 title: Subtítulos inteligentes
 feature: Visualizations
 role: User, Admin
-source-git-commit: 1474d438e9deafc9d303bff3560ef3ff3aff0ec0
+source-git-commit: c613c313ae2c9c6786370c46fa0a86134014e754
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,10 @@ ht-degree: 0%
 
 Los subtítulos inteligentes utilizan la ciencia de datos para proporcionar perspectivas de lenguaje natural valiosas para las visualizaciones de Workspace. La versión inicial proporciona perspectivas autogeneradas para el [Línea](line.md) visualización. (Seguirán otras visualizaciones).
 
-Los analistas necesitan estas perspectivas para poder proporcionar contexto a los usuarios con los que podrían compartir sus proyectos.
-
 Los subtítulos inteligentes están orientados a:
 
+* Analistas que necesitan narrativas para compartirlas con otros usuarios. Los analistas necesitan estas perspectivas para poder proporcionar contexto a sus usuarios.
 * Usuarios empresariales que desean descubrir rápidamente las principales conversiones.
-* Analistas que necesitan narrativas para compartirlas con otros usuarios.
 
 Los subtítulos están disponibles para todos los usuarios de CJA y no requieren permisos especiales.
 
@@ -34,12 +32,13 @@ Para iniciar subtítulos generados automáticamente para una visualización de l
 
 Ahora se están generando perspectivas en lenguaje natural.
 
+Si guarda el proyecto en este momento y lo vuelve a cargar más adelante, los rótulos se actualizan automáticamente con nuevos datos. Lo mismo se aplica a los proyectos programados y a los archivos de PDF exportados desde este proyecto.
+
 ## Ver e interpretar subtítulos {#view}
 
 Este es un ejemplo de cómo podrían verse los subtítulos:
 
 ![Subtítulos](assets/captions.png)
-
 
 ## Copiar al portapapeles {#copy}
 
@@ -55,7 +54,18 @@ Puede editar los rótulos, como ocultar o mostrar una categoría concreta de per
 
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
+Utilice el mismo proceso para mostrar los rótulos.
+
 ## Exportar rótulos {#export}
 
 Puede **exportar subtítulos a través del PDF**, siempre que el proyecto se guarde con los rótulos generados.
 
+## Desactivar rótulos {#toggle}
+
+Si no desea que se generen subtítulos inteligentes, puede desactivar esta función si va a las preferencias de visualización y desmarca **[!UICONTROL Mostrar rótulos inteligentes]**.
+
+![configuración de rótulo](assets/toggle-captions.png)
+
+## Reordenar rótulos {#reorder}
+
+Para cambiar el orden en que se muestran los rótulos, arrastre el rótulo a una nueva posición.
