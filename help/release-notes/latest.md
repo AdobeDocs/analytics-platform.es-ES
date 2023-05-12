@@ -3,9 +3,9 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 306c1432163841034c8e7a34f8e112a5cc734da4
+source-git-commit: 7e6383bf94e10f6ab6f9db990f4ef3df0fb826d3
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '852'
 ht-degree: 26%
 
 ---
@@ -29,7 +29,7 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 | **Eliminar filas que contienen dimensiones dinámicas de una tabla improvisada** | En una tabla improvisada de Analysis Workspace, ahora puede eliminar rápidamente filas específicas que contengan dimensiones dinámicas mediante el icono x . Al hacerlo, se aplica automáticamente una regla de filtro &quot;No es igual que&quot;.<p>Anteriormente, la única forma de eliminar filas que contenían dimensiones dinámicas era crear manualmente una regla en el cuadro de diálogo Filtro. [Más información](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | N/A | 17 de mayo de 2023 |
 | **Nuevo botón para añadir una visualización dentro de un panel** | Ahora hay disponible un nuevo botón en la parte inferior de cada panel en Analysis Workspace, lo que le permite añadir rápidamente una visualización. <p>Anteriormente, los únicos métodos para añadir una visualización a un panel eran arrastrar una visualización desde el carril izquierdo, duplicar o copiar una visualización existente o crear un panel en blanco. [Más información](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | N/A | 17 de mayo de 2023 |
 | **Vinculación profunda (aplicación móvil)** | Permite a los usuarios enviar vínculos a informes de valoración que los llevarán directamente al proyecto de informe de valoración de la aplicación. Esto facilita aún más el uso compartido de proyectos y aumenta la participación de una audiencia menos técnica. | N/A | 17 de mayo de 2023 |
-| **Subtítulos inteligentes** | Enriquecimiento de la narración para usuarios con resúmenes en lenguaje natural de un [!UICONTROL Línea] visualización. | 17 de mayo de 2023 | 1 de junio de 2023 |
+| **Subtítulos inteligentes** | Enriquecimiento de la narración para usuarios con resúmenes en lenguaje natural de un [!UICONTROL Línea] visualización. [Más información](/help/analysis-workspace/visualizations/intelligent-captions.md) | 17 de mayo de 2023 | 1 de junio de 2023 |
 
 {style="table-layout:auto"}
 
