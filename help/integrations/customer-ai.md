@@ -4,10 +4,10 @@ title: Integración de datos de inteligencia artificial aplicada al cliente con 
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: b56dd36d85cd34179166ad9a6bc45f3f641e9697
+source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 72%
+source-wordcount: '951'
+ht-degree: 73%
 
 ---
 
@@ -25,7 +25,7 @@ La AI del cliente se puede integrar con el Customer Journey Analytics (CJA) en l
 
 * **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**.
    * Caso de uso: Comprenda la probabilidad de que los clientes de un segmento específico realicen la conversión.
-   * Ejemplo: Un especialista en marketing de una cadena hotelera quiere saber cuál es la probabilidad de que un cliente del hotel compre un billete de show en la sala de conciertos del hotel.
+   * Ejemplo: Un especialista en marketing de una cadena hotelera quiere comprender la probabilidad de que un cliente de un hotel compre un billete de show en la sala de conciertos del hotel.
 * **Analizar qué eventos o atributos de éxito están asociados con puntuaciones de tendencia**.
    * Caso de uso: Comprenda los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
    * Ejemplo: Un especialista en marketing de una cadena hotelera quiere entender cómo las compras de entradas para espectáculos en el recinto de conciertos de un hotel están asociadas con puntuaciones de inclinación.
@@ -37,7 +37,7 @@ La AI del cliente se puede integrar con el Customer Journey Analytics (CJA) en l
    * Ejemplo: Un minorista quiere ejecutar una promoción específica por 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analizan los datos y deciden segmentar solo el 80 % o más de sus clientes principales.
 * **Observar la tendencia a realizar una acción para una cohorte en particular a lo largo del tiempo**.
    * Caso de uso: Rastree una cohorte específica a lo largo del tiempo.
-   * Ejemplo: Un especialista en marketing de una cadena hotelera quiere seguir su nivel de bronce frente a su nivel de plata, o de plata frente a su nivel de oro, con el tiempo. Pueden ver la propensión de cada cohorte a reservar el hotel con el tiempo.
+   * Ejemplo: Un especialista en marketing de una cadena hotelera quiere seguir su nivel de bronce frente a su nivel de plata, o de plata frente a su nivel de oro, con el tiempo. Pueden ver la propensión de cada cohorte a reservar el hotel a lo largo del tiempo.
 
 Para integrar los datos de Customer AI con CJA, siga estos pasos:
 

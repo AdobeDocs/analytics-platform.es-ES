@@ -3,9 +3,9 @@ description: Utilice subtítulos inteligentes para generar perspectivas en lengu
 title: Subtítulos inteligentes
 feature: Visualizations
 role: User, Admin
-source-git-commit: c613c313ae2c9c6786370c46fa0a86134014e754
+source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-Los subtítulos inteligentes utilizan la ciencia de datos para proporcionar perspectivas de lenguaje natural valiosas para las visualizaciones de Workspace. La versión inicial proporciona perspectivas autogeneradas para el [Línea](line.md) visualización. (Seguirán otras visualizaciones).
+Los subtítulos inteligentes utilizan aprendizaje automático avanzado y IA generativa para proporcionar perspectivas de lenguaje natural valiosas para las visualizaciones de Workspace. La versión inicial proporciona perspectivas autogeneradas para el [Línea](line.md) visualización. (Seguirán otras visualizaciones).
 
 Los subtítulos inteligentes están orientados a:
 
@@ -30,7 +30,7 @@ Para iniciar subtítulos generados automáticamente para una visualización de l
 
 ![iniciar subtítulos inteligentes](assets/intell-caps-1.png)
 
-Ahora se están generando perspectivas en lenguaje natural.
+Ahora se están generando perspectivas en lenguaje natural. Se generarán subtítulos cada vez que los datos seleccionados subyacentes cambien en la tabla que alimenta la visualización. Además, si hay varias métricas en la tabla, los rótulos solo se generan para la primera métrica o la métrica seleccionada actualmente por el usuario.
 
 Si guarda el proyecto en este momento y lo vuelve a cargar más adelante, los rótulos se actualizan automáticamente con nuevos datos. Lo mismo se aplica a los proyectos programados y a los archivos de PDF exportados desde este proyecto.
 
@@ -65,7 +65,3 @@ Puede **exportar subtítulos a través del PDF**, siempre que el proyecto se gua
 Si no desea que se generen subtítulos inteligentes, puede desactivar esta función si va a las preferencias de visualización y desmarca **[!UICONTROL Mostrar rótulos inteligentes]**.
 
 ![configuración de rótulo](assets/toggle-captions.png)
-
-## Reordenar rótulos {#reorder}
-
-Para cambiar el orden en que se muestran los rótulos, arrastre el rótulo a una nueva posición.
