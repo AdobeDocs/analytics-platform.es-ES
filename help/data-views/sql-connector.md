@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 4205995fdc54e4d7626f17de79573751a5c63d26
+source-git-commit: 5b84c2c908f947b1abed621f68aa1a324faeecde
 workflow-type: tm+mt
-source-wordcount: '2879'
+source-wordcount: '2890'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,9 @@ Los usuarios deben tener acceso a:
    - proyectos de CJA Workspace y
    - Las vistas de datos de CJA que desean utilizar.
 
-- Utilice la caducidad de las credenciales no caducadas para conectar las herramientas de BI al conector SQL de CJA. Consulte [Guía de credenciales](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) para obtener más información sobre la configuración de credenciales que caducan o credenciales que no caducan.
+- Utilice la caducidad de las credenciales no caducadas para conectar las herramientas de BI al conector SQL de CJA. Thr [Guía de credenciales](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) proporciona más información sobre la configuración de credenciales que caducan o credenciales que no caducan.
+
+Consulte [Control de acceso](../admin/cja-access-control.md) en la sección Administración de CJA para obtener información adicional.
 
 
 ## Uso
