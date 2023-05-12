@@ -4,11 +4,9 @@ title: Integración de datos de inteligencia artificial aplicada al cliente con 
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-hide: true
-hide-from-toc: true
-source-git-commit: adfc2500cfc3811e7ef2798c3a0ee3e9b3425208
+source-git-commit: b56dd36d85cd34179166ad9a6bc45f3f641e9697
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '955'
 ht-degree: 72%
 
 ---
@@ -26,19 +24,19 @@ La inteligencia artificial aplicada al cliente se basa en datos de comportamient
 La AI del cliente se puede integrar con el Customer Journey Analytics (CJA) en la medida en que los conjuntos de datos habilitados para la AI del cliente se puedan aprovechar en las vistas de datos y los informes en CJA. Puede:
 
 * **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**.
-   * Caso de uso: comprenda la probabilidad de conversión de los clientes en un segmento específico.
+   * Caso de uso: Comprenda la probabilidad de que los clientes de un segmento específico realicen la conversión.
    * Ejemplo: Un especialista en marketing de una cadena hotelera quiere saber cuál es la probabilidad de que un cliente del hotel compre un billete de show en la sala de conciertos del hotel.
 * **Analizar qué eventos o atributos de éxito están asociados con puntuaciones de tendencia**.
-   * Caso de uso: comprenda los atributos o los eventos de éxito asociados a las puntuaciones de tendencia.
+   * Caso de uso: Comprenda los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
    * Ejemplo: Un especialista en marketing de una cadena hotelera quiere entender cómo las compras de entradas para espectáculos en el recinto de conciertos de un hotel están asociadas con puntuaciones de inclinación.
 * **Seguir el flujo de entrada para la tendencia del cliente sobre diferentes ejecuciones de puntuación**.
-   * Caso de uso: entienda a las personas que inicialmente eran usuarios con baja tendencia y, con el tiempo, se convirtieron en usuarios con alta propensión.
+   * Caso de uso: Comprender a las personas que inicialmente eran usuarios de baja propensión y, con el tiempo, se convirtieron en usuarios de alta propensión.
    * Ejemplo: Un especialista en marketing de una cadena hotelera quiere saber qué clientes de hoteles se identificaron inicialmente como clientes con baja propensión a comprar un ticket show, pero con el tiempo se convirtieron en clientes con una alta propensión a comprar un ticket show.
 * **Observar la distribución de la tendencia**.
-   * Caso de uso: comprenda la distribución de las puntuaciones de tendencia para ser más precisa al definir segmentos.
+   * Caso de uso: Comprenda la distribución de las puntuaciones de tendencia para ser más precisa al definir segmentos.
    * Ejemplo: Un minorista quiere ejecutar una promoción específica por 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analizan los datos y deciden segmentar solo el 80 % o más de sus clientes principales.
 * **Observar la tendencia a realizar una acción para una cohorte en particular a lo largo del tiempo**.
-   * Caso de uso: realizar el seguimiento de una cohorte específica a lo largo del tiempo.
+   * Caso de uso: Rastree una cohorte específica a lo largo del tiempo.
    * Ejemplo: Un especialista en marketing de una cadena hotelera quiere seguir su nivel de bronce frente a su nivel de plata, o de plata frente a su nivel de oro, con el tiempo. Pueden ver la propensión de cada cohorte a reservar el hotel con el tiempo.
 
 Para integrar los datos de Customer AI con CJA, siga estos pasos:
