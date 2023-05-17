@@ -1,20 +1,20 @@
 ---
-description: Cómo crear un cuadro de resultados de paneles de Adobe Analytics
-title: Creación de un cuadro de resultados
+description: Creación y uso compartido de informes de valoración de paneles de Adobe Analytics
+title: Crear y compartir informes de valoración
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: 868eaa6c35b2b15449dcc70bc7521d78f8e95e35
 workflow-type: tm+mt
-source-wordcount: '2363'
-ht-degree: 98%
+source-wordcount: '2523'
+ht-degree: 81%
 
 ---
 
 # Creación de un cuadro de resultados móvil
 
-La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del Generador de cuadros de resultados de los paneles de Adobe Analytics:
+La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador de informes de valoración de paneles de Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
@@ -25,11 +25,11 @@ Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clav
 
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 
-Como gestor de datos del cuadro de resultados, puede utilizar el Generador del cuadro de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. La interfaz del Generador de informes de valoración se muestra a continuación:
+Como gestor de este informe de valoración, puede utilizar el generador de informes de valoración para configurar qué mosaicos aparecen en el informe de valoración para su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. A continuación se muestra la interfaz del generador de informes de valoración:
 
 ![Generador de informes de valoración](assets/scorecard_builder.png)
 
-Para crear un cuadro de resultados, deberá hacer lo siguiente:
+Para crear el informe de valoración, debe hacer lo siguiente:
 
 1. Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco].
 2. Configure el cuadro de resultados con datos y guárdelo.
@@ -59,7 +59,7 @@ Para implementar la plantilla del informe de valoración:
 
    ![selección de vista de datos](assets/properties_save.png)
 
-1. Para añadir un nuevo mosaico al informe de valoración, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
+1. Para agregar un nuevo mosaico al informe de valoración, arrastre una métrica desde el panel izquierdo y suéltela en el **[!UICONTROL Arrastrar y soltar métricas aquí]** zona. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
    ![Agregar mosaicos](assets/build_list.png)
 
@@ -78,7 +78,7 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en CJA) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
+Si desea aplicar el filtro a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. You [configurar y aplicar filtros para los informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
 
 ![Generar filtros](assets/segment_ui.png)
 
@@ -163,7 +163,7 @@ Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los dat
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
-Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su dispositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando filtros. Los segmentos son filtros en CJA.
+Al hacer clic en un mosaico en el generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con ese mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando filtros. Los segmentos son filtros en CJA.
 
 ![Mosaico de propiedades](assets/properties-tile-new.png)
 
@@ -211,7 +211,7 @@ Para agregar texto a una diapositiva de detalles, seleccione un diseño que mues
 
 ## Eliminación de componentes {#remove}
 
-Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el filtro **Visitas por primera vez**:
+Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en el **x** que aparece al pasar el ratón por encima del componente, como se muestra a continuación para el **Visitas por primera vez**:
 
 ![Remove_components](assets/new_remove.png)
 
@@ -298,7 +298,7 @@ Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de res
 
 ## Nombrar informes de valoración {#name}
 
-Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+Para asignar un nombre al informe de valoración, haga clic en el área de nombres en la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
 ![Naming_Scorecards](assets/new_name.png)
 
@@ -308,7 +308,7 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 1. Haga clic en el menú **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Compartir informe de valoración]**.
 
-1. En el formulario **[!UICONTROL Compartir informe de valoración móvil]**, rellene los campos con:
+1. En el **[!UICONTROL Compartir informe de valoración móvil]** rellene los campos de la siguiente manera:
 
    * Proporción del nombre del cuadro de resultados
    * Proporción de la descripción del cuadro de resultados
@@ -319,6 +319,25 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 ![Share_Scorecards](assets/new_share.png)
 
-Una vez que haya compartido un cuadro de resultados, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el cuadro de resultados mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
+Una vez que haya compartido un cuadro de resultados, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración en el generador de informes de valoración, estos se actualizarán automáticamente en el informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
 Si actualiza el cuadro de resultados con nuevos componentes, es posible que desee volver a compartirlo (marque la opción **[!UICONTROL Compartir componentes incrustados]**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.
+
+### Compartir informes de valoración mediante un vínculo que se puede compartir
+
+El uso de un vínculo que se puede compartir facilita el uso compartido de un informe de valoración en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el informe de valoración en su escritorio o en la aplicación móvil de paneles. La vinculación profunda que se puede compartir facilita aún más el uso compartido de los proyectos e incrementa la participación con las partes interesadas.
+
+Para compartir un informe de valoración mediante un vínculo que se puede compartir
+
+1. Haga clic en el menú **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Compartir informe de valoración]**.
+
+   ![Share_Scorecards](assets/share-scorecard.png)
+
+1. Copie el vínculo y péguelo en una aplicación de correo electrónico, documento o mensajería instantánea.
+
+   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto del informe de valoración móvil se abrirá en Workspace.
+
+   Cuando un destinatario abre el vínculo en un dispositivo móvil, el informe de valoración se abre directamente en la aplicación de paneles de Analytics.
+
+   Si un destinatario no ha descargado la aplicación móvil, se le dirigirá al listado de aplicaciones de App Store o Google Play Store donde puede descargarla.
+
