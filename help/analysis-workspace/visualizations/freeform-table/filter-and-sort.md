@@ -3,9 +3,9 @@ description: Documentación que describe cómo filtrar y ordenar tablas en Analy
 title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 54032271e8f12673cc6d4f2b209b4fa89f5c4406
+source-git-commit: 1c11eb1b89eccf33fd66a0914b4beb1ab5dd6ff2
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '862'
 ht-degree: 79%
 
 ---
@@ -32,7 +32,7 @@ Puede excluir rápidamente filas específicas de la tabla sin tener que abrir el
 
 >[!NOTE]
 >
->Cuando excluye filas como se describe en esta sección, una [!UICONTROL **No es igual a**] se aplica automáticamente en la variable [**[!UICONTROL Filtro avanzado]**](#apply-a-simple-or-advanced-filter) diálogo.
+>Cuando excluye filas como se describe en esta sección, una [!UICONTROL **Excluir siempre elementos**] se aplica automáticamente en el cuadro de diálogo de filtro avanzado. (Puede ver la regla aplicada seleccionando el icono Filtro y, a continuación, [**[!UICONTROL Mostrar avanzado]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Para excluir rápidamente filas específicas de una tabla improvisada:
 
@@ -57,7 +57,7 @@ Para filtrar datos en tablas de forma libre:
    | [!UICONTROL **Palabra o frase de búsqueda**] | Especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada. |
    | [!UICONTROL **Incluir no especificado (ninguno)**] | Seleccione esta opción para mostrar los datos de la tabla que no estén dentro de ninguna de sus dimensiones. <!--what is this?--> |
 
-1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Filtro avanzado**].
+1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Mostrar avanzadas**].
 
    Las opciones disponibles son las siguientes
 
