@@ -3,10 +3,10 @@ description: Aprenda a especificar los puntos de contacto para crear una secuenc
 title: Configurar una visualización de abandonos
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es po
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
-Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede realizar el control de rutas en las eVars, incluidas las eVars de comercialización y [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) (variables que pueden tener varios valores por evento, como products, listVars, eVars de comercialización y props de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
-1. Arrastre la dimensión Página en la tabla improvisada y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar punto de contacto]** como el primer punto de contacto.
+1. Arrastre la dimensión Página en la tabla de forma libre y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar punto de contacto]** como el primer punto de contacto.
 
    ![](assets/fallout1.png)
 
@@ -42,7 +42,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. También puede **limitar puntos de contacto individuales a la siguiente visita** (en vez de hacerlo de forma eventual) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones “Ruta eventual” y “Elemento siguiente”, como se muestra a continuación:
+1. También puede **constreñir puntos de contacto individuales al siguiente evento** (en contraposición a &quot;eventualmente&quot;) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones “Ruta eventual” y “Elemento siguiente”, como se muestra a continuación:
 
    ![](assets/next-hit-eventually.png)
 
@@ -50,11 +50,11 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ruta eventual </p> <p>(Predeterminado) </p> </td> 
-   <td colname="col2"> <p>Se cuentan los visitantes que “eventualmente” se dirijan a la siguiente página de la ruta, pero no necesariamente al siguiente elemento. </p> </td> 
+   <td colname="col2"> <p>Se cuentan los visitantes que "eventualmente" se dirijan a la siguiente página de la ruta, pero no necesariamente al siguiente evento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visita siguiente </p> </td> 
-   <td colname="col2"> <p>Se cuentan los visitantes que se dirijan a la siguiente página de la ruta del elemento que aparece inmediatamente después. </p> </td> 
+   <td colname="col2"> <p>Se cuentan los visitantes que aterrizan en la siguiente página de la ruta en el siguiente evento. </p> </td> 
   </tr> 
  </tbody> 
 </table>

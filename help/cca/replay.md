@@ -4,10 +4,10 @@ description: Comprensión del concepto "reproducción" en Cross-Channel Analytic
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Comprensión del concepto &quot;reproducción&quot; en Cross-Channel Analytics realiza dos pasadas de datos por una conexión determinada:
 
-* **Vinculación en tiempo real**: CCA intenta vincular cada visita conforme se va produciendo. Los nuevos dispositivos netos del conjunto de datos que nunca han iniciado sesión no suelen vincularse en este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
+* **Vinculación en tiempo real**: AEC intenta vincular cada evento a medida que se produce. Los nuevos dispositivos netos del conjunto de datos que nunca han iniciado sesión no suelen vincularse en este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
 * **Reproducción**: CCA &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. En esta fase es en la que se vinculan nuevos dispositivos a la conexión. Adobe ofrece dos intervalos de reproducción:
    * Diario: los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las repeticiones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
    * Semanal: los datos se reproducen una vez a la semana con una ventana retrospectiva de 7 días. Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos de menos de una semana de antigüedad no están vinculados.
@@ -28,7 +28,7 @@ CCA intenta vincular cada evento tras la recopilación con los dispositivos y ca
 
 *Datos tal como aparecen el día en que se recopilan:*
 
-| Marca de tiempo | ID persistente del conjunto de datos web | ID transitorio del conjunto de datos web | ID de la persona del centro de llamadas | ID de persona utilizado | Explicación de la visita | Métrica de personas (acumulativa) |
+| Marca de tiempo | ID persistente del conjunto de datos web | ID transitorio del conjunto de datos web | ID de la persona del centro de llamadas | ID de persona utilizado | Explicación del evento | Métrica de personas (acumulativa) |
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `246` | Bob visita el sitio en su escritorio, sin autenticarse | `1` (246) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob inicia sesión en el escritorio | `2` (246 y Bob) |
@@ -48,7 +48,7 @@ A intervalos regulares (una vez a la semana o una vez al día, en función de la
 
 *Los mismos datos después de la reproducción:*
 
-| Marca de tiempo | ID persistente del conjunto de datos web | ID transitorio del conjunto de datos web | ID de la persona del centro de llamadas | ID de persona utilizado | Explicación de la visita | Métrica de personas (acumulativa) |
+| Marca de tiempo | ID persistente del conjunto de datos web | ID transitorio del conjunto de datos web | ID de la persona del centro de llamadas | ID de persona utilizado | Explicación del evento | Métrica de personas (acumulativa) |
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `Bob` | Bob visita el sitio en su escritorio, sin autenticarse | `1` (Bob) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob inicia sesión en el escritorio | `1` (Bob) |

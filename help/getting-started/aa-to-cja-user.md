@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 97%
+source-wordcount: '1450'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ CJA obtiene sus datos de Adobe Experience Platform. Experience Platform le permi
 
 Los datos del cliente en Experience Platform se almacenan como conjuntos de datos, que consisten en un [esquema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=es) y lotes de datos. Para obtener más información sobre la plataforma, consulte la [Descripción general de arquitectura de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=es).
 
-Su administrador de CJA establece [conexiones](/help/connections/create-connection.md) a conjuntos de datos en Experience Platform. Luego construyen [vistas de datos](/help/data-views/data-views.md) usando esas conexiones. Conceptualmente, las vistas de datos son similares a los grupos de informes virtuales y son la base de los informes en CJA. Dado que Experience Platform obtiene todos los datos para la creación de informes, los grupos de informes ya no existen como contenedores de datos.
+Su administrador de CJA establece [conexiones](/help/connections/create-connection.md) a conjuntos de datos en el Experience Platform. Luego construyen [vistas de datos](/help/data-views/data-views.md) usando esas conexiones. Conceptualmente, las vistas de datos son similares a los grupos de informes virtuales y son la base de los informes en CJA. Dado que Experience Platform obtiene todos los datos para la creación de informes, los grupos de informes ya no existen como contenedores de datos.
 
 Una conexión le permite a su administrador de Analytics integrar conjuntos de datos de Adobe Experience Platform en CJA, incluidos en el siguiente vídeo:
 
@@ -76,7 +76,7 @@ Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL
 
 Además del concepto de cambiar segmentos, también se actualizan los contenedores de segmentos.
 
-* **Los contenedores de visita individual ahora son [!UICONTROL contenedores] de evento**. El contenedor [!UICONTROL Evento] le permite desglosar la información del visitante en función de las vistas o visitas individuales de una página.
+* **Los contenedores de visita individual ahora son [!UICONTROL contenedores] de evento**. El [!UICONTROL Evento] El contenedor de permite desglosar la información del visitante en función de eventos individuales.
 * **Los contenedores de visita ahora son [!UICONTROL contenedores] de sesión**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
 * **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. El contenedor [!UICONTROL Persona] incluye todas las sesiones y eventos de un visitante en un lapso de tiempo específico.
 

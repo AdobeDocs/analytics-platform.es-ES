@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 19d18d497857442c141fda49cdcf1fbe71e9c07f
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1245'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
 | [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
 | [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabla de forma libre no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
-| [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a visitantes, visitas o visitas individuales en contenedores en función de un volumen de métrica. |
+| [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a visitantes, visitas o eventos en bloques en función de un volumen de métrica. |
 | [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
 | [Líneas](/help/analysis-workspace/visualizations/line.md) | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
 | [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
@@ -39,25 +39,25 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | Utiliza círculos para mostrar la superposición de métricas de hasta 3 filtros. |
 
-## Añadir visualizaciones a un panel
+## Adición de visualizaciones a un panel
 
 1. Abra el proyecto de Analysis Workspace donde desee agregar una visualización.
 
 1. Utilice cualquiera de los siguientes métodos para añadir la visualización:
 
-   * En el carril izquierdo, seleccione la opción **Visualizaciones** icono <!-- add icon -->y, a continuación, arrastre una visualización al panel en el que desea agregarla.
+   * En el carril izquierdo, seleccione **Visualizaciones** icono <!-- add icon -->A continuación, arrastre una visualización al panel donde desee agregarla.
 
       ![](assets/viz-rail.png)
 
-   * En el panel en el que desea añadir la visualización, seleccione la opción **Más** y, a continuación, elija el icono que representa la visualización que desea añadir. Pase el ratón sobre el icono de cada visualización para ver su nombre.
+   * En el panel donde desee añadir la visualización, seleccione **Plus** y, a continuación, elija el icono que representa la visualización que desea añadir. Pase el ratón sobre el icono de cada visualización para ver su nombre.
 
       ![Botón para añadir una visualización](assets/visualization-add-to-panel.png)
 
-   * Agregue un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es)y, a continuación, elija la visualización que desee añadir.
+   * Añadir un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es)A continuación, elija la visualización que desee añadir.
 
       ![Panel en blanco](assets/blank_panel.png)
 
-   * Haga clic con el botón derecho en un panel existente del proyecto de Analysis Workspace y, a continuación, seleccione [!UICONTROL **Duplicar visualización**] o [!UICONTROL **Copiar visualización**].
+   * Haga clic con el botón derecho en un panel existente del proyecto de Analysis Workspace y seleccione [!UICONTROL **Duplicar visualización**] o [!UICONTROL **Copiar visualización**].
 
 ## Personalización de la configuración de visualización
 
@@ -86,7 +86,7 @@ Cada visualización tiene su propia configuración que puede administrar. Para a
 | Configuración | Descripción |
 | --- | --- |
 | Tipo de visualización | Cambie el tipo de imagen que se utiliza para representar los datos. |
-| Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) en esta lista desplegable. Este cambio también se aplica a la tabla de fuente de datos. |
+| Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. Este cambio también se aplica a la tabla de fuente de datos. |
 | Porcentajes | Muestra valores en porcentajes. |
 | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. Ejemplo: ![Apilada al 100 %](assets/stacked_100_percent.png) |
 | Leyenda visible | Le permite ocultar el texto de detalles de la leyenda para la visualización de Número de resumen/Resumen del cambio. |

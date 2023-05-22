@@ -4,16 +4,16 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1305'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
 # Configuración de una visualización de flujo
 
-Las visualizaciones de flujo le permiten comprender los recorridos que se derivan de un evento de conversión específico o que conduce a él en su sitio web o aplicación. Traza una ruta a través de las dimensiones (y elementos de dimensión) o las métricas. El flujo le permite configurar el inicio o el final de la ruta que le interesa o analizar todas las rutas que fluyen a través de una dimensión o un elemento de dimensión.
+Las visualizaciones de flujo le permiten comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que conducen a él. Traza una ruta a través de las dimensiones (y elementos de dimensión) o las métricas. El flujo le permite configurar el inicio o el final de la ruta que le interesa o analizar todas las rutas que fluyen a través de una dimensión o un elemento de dimensión.
 
 ![nueva interfaz de usuario de flujo](assets/new-flow.png)
 
@@ -112,10 +112,10 @@ Al utilizar esta opción, tenga en cuenta que:
 * **[!UICONTROL Limitar a primera/última incidencia]** solo cuenta la primera/última incidencia de la serie. Todas las demás ocurrencias de los criterios **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]** se descartan.
 * Si se usa con un flujo de **[!UICONTROL Comienza con]**, solo se incluye la primera incidencia que coincida con los criterios de inicio.
 * Si se usa con un flujo de **[!UICONTROL Finaliza con]**, solo se incluirá la última incidencia que coincida con los criterios finales.
-* La serie utilizada difiere según el contenedor. Si se usa el contenedor **[!UICONTROL Visita]**, la serie de visitas será la sesión. Si se usa el contenedor **[!UICONTROL Visitante]**, la serie de visitas será todas las visitas de un usuario determinado en el intervalo de fechas proporcionado.
+* La serie utilizada difiere según el contenedor. Si se usa la variable **[!UICONTROL Visita]** contenedor, la serie de eventos será la sesión. Si se usa la variable **[!UICONTROL Visitante]** , la serie de eventos será todos los eventos de un usuario determinado en el intervalo de fechas proporcionado.
 * La opción **[!UICONTROL Limitar a primera/última incidencia]** se puede configurar en la configuración avanzada cuando se utiliza un elemento de Métrica o Dimensión en los campos «Comienza con» o «Finaliza con».
 
-Ejemplo de serie de visitas:
+Ejemplo de serie de eventos:
 
 Inicio > Productos > Agregar al carro > Productos > Agregar al carro > Facturación > Confirmación del pedido
 
@@ -125,22 +125,22 @@ Inicio > Productos > Agregar al carro > Productos > Agregar al carro > Facturaci
 * [!UICONTROL Página] dimensión de las rutas
 * Contenedor de [!UICONTROL visita]
 
-Si &quot;Limitar a la primera/última incidencia&quot; está deshabilitado, esta única serie de visitas contará dos veces el valor &quot;Agregar al carro&quot;.
+Si &quot;Limitar a la primera/última incidencia&quot; está deshabilitado, esta única serie de eventos contaría 2 ocurrencias de &quot;Agregar al carro de compras&quot;.
 Salida de flujo esperada:
 «Agregar al carro de compras» (2) —> «Productos» (1)
 -> «Facturación» (1)
 
-Sin embargo, si &quot;Limitar a la primera/última incidencia&quot; está habilitado, solo se incluirá en el análisis la primera incidencia de &quot;Agregar al carro de compras&quot;.
+Sin embargo, si &quot;Limitar a la primera/última incidencia&quot; está habilitado, solo se incluirá en el análisis la primera incidencia de &quot;Agregar al carrito&quot;.
 Salida de flujo esperada:
 «Agregar al carro de compras» (1) —> «Productos» (1)
 
-### Considere la misma serie de visitas pero utilice la siguiente configuración:
+### Considere la misma serie de eventos pero utilice la siguiente configuración:
 
 * Finaliza con [!UICONTROL Agregar al carrito] (Artículo Dimension)
 * [!UICONTROL Página] dimensión de las rutas
 * Contenedor de [!UICONTROL visita]
 
-Si **[!UICONTROL Limitar a primera/última ocurrencia]** está *deshabilitado*, esta única serie de visitas contaría 2 ocurrencias de «Agregar al carro de compras».
+If **[!UICONTROL Limitar a la primera/última ocurrencia]** es *inhabilitado*, entonces esta única serie de eventos contaría 2 ocurrencias de &quot;Agregar al carro de compras&quot;.
 Salida de flujo esperada:
 «Productos» (2) &lt;— «Agregar al carro de compras» (2)
 

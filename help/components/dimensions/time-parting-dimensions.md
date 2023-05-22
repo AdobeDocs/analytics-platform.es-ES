@@ -1,20 +1,20 @@
 ---
-description: La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
+description: La partición de tiempo toma la marca de hora de los eventos recopilados y la divide en dimensiones más significativas, como "Hora del día" o "Día de la semana".
 title: Dimensiones de partición de tiempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
 # Dimensiones de partición de tiempo en Analysis Workspace
 
-La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
+La partición de tiempo toma la marca de hora de los eventos recopilados y la divide en dimensiones más significativas, como &quot;Hora del día&quot; o &quot;Día de la semana&quot;.
 
-Dimensiones de partición de tiempo se basan en la zona horaria de la vista de datos. Estas dimensiones están disponibles en Analysis Workspace y pueden ayudar a responder a las siguientes preguntas:
+Las dimensiones de partición de tiempo se basan en la zona horaria de la vista de datos. Estas dimensiones están disponibles en Analysis Workspace y pueden ayudar a responder a las siguientes preguntas:
 
 * En un rango de datos de gran volumen, ¿cuál es la hora del día más popular para que los visitantes accedan a mi sitio o aplicación?
 * ¿Hay días de la semana u horas del día en que la conversión es mayor en mi sitio o aplicación?

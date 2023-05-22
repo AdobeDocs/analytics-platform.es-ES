@@ -4,10 +4,10 @@ description: Comprender cómo CJA informa sobre las jerarquías de datos.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: afc4dfd808b12be869edbd5e93a4069b93488739
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -17,9 +17,9 @@ Algunos esquemas de la plataforma pueden tener matrices de objetos. CJA admite l
 
 En versiones anteriores de Adobe Analytics, esta función se realizaba con la variable `products`. Era una cadena concatenada separada por punto y coma (`;`) para distintas facetas de un producto, y con coma (`,`) para delinear productos. Era la única variable con compatibilidad limitada con “matrices de objetos”. Las variables de varios valores, como las variables de lista, podrían admitir el equivalente de matrices, pero no podrían admitir “matrices de objetos”. CJA amplía este concepto al admitir jerarquías arbitrariamente profundas dentro de una sola fila de datos, una función que no está disponible en ninguna versión anterior de Adobe Analytics.
 
-## Mismo ejemplo de visita individual
+## Mismo ejemplo de evento
 
-La siguiente visita es un objeto JSON que representa una compra hecha por un cliente de una lavadora y una secadora.
+El siguiente evento es un objeto JSON que representa una compra hecha por un cliente de una lavadora y una secadora.
 
 ```json
 {
@@ -81,9 +81,9 @@ Al crear una vista de datos, están disponibles las siguientes dimensiones y mé
    * producto: garantía
    * producto: garantía: ingresos
 
-### Los mismos ejemplos de visitas (comportamiento del sistema de informes)
+### Mismos ejemplos de eventos (comportamiento de informes)
 
-Solo con la visita anterior, las tablas siguientes muestran los informes de Workspace con algunas combinaciones de dimensión y métrica.
+Solo con el evento anterior, las tablas siguientes muestran los informes del Espacio de trabajo con algunas combinaciones de dimensión y métrica.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -143,7 +143,7 @@ Si desea informar sobre los ingresos de la garantía, su proyecto tendría un as
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA examina estas partes de la visita para generar el informe:
+CJA examina estas partes del evento para generar el informe:
 
 ```diff
 {

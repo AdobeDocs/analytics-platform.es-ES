@@ -2,10 +2,10 @@
 title: Reglas de procesamiento, VISTA y clasificaciones frente a la preparación de datos para el conector de origen de Analytics
 description: Obtenga información sobre la transformación de datos mediante reglas de procesamiento y VISTA en comparación con el uso de la preparación de datos
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-source-git-commit: 6b7b8e8f1c1e88644961dd5e1b3d2ff7ec07951e
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,6 @@ Los datos que recopila y almacena Adobe Analytics se pueden transformar mediante
 
 La preparación de datos tiene una transición con [clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en algunas situaciones.
 
-Por ejemplo, en un campo delimitado puede utilizar la preparación de datos para dividir ese campo en varios campos individuales sin el uso de clasificaciones. Por lo general, las clasificaciones permiten agregar metadatos a un campo cargando un archivo de búsqueda que se proporciona fuera del flujo de visitas entrantes de Analytics.
+Por ejemplo, en un campo delimitado puede utilizar la preparación de datos para dividir ese campo en varios campos individuales sin el uso de clasificaciones. Por lo general, las clasificaciones permiten agregar metadatos a un campo cargando un archivo de búsqueda que se proporciona fuera del flujo de eventos entrantes de Analytics.
 
 Por ejemplo, puede cargar un archivo de clasificación que agrupe las SKU en «tamaño», «marca», «color», etc. Otra diferencia entre las clasificaciones y la preparación de datos es que las clasificaciones se aplican a los datos _históricamente y en el futuro_. Las asignaciones de preparación de datos, por otro lado, se aplican _hacia adelante_ a los datos desde el momento en que se crea la asignación.

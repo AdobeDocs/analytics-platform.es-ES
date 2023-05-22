@@ -3,7 +3,7 @@ description: Obtenga información acerca de cómo analizar los resultados de las
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 54d8cf211a5a4bc3ffde5e24c29089125fc35362
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1833'
 ht-degree: 75%
@@ -62,7 +62,7 @@ Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no hay e
    | **[!UICONTROL Variante de control]** | Una de las dos o más alteraciones en la experiencia de un usuario final que se comparan con el fin de identificar la mejor alternativa. Se debe seleccionar una variante como control, y solo una puede considerarse la de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con **[!UICONTROL Variante]** en las vistas de datos. Esta configuración extrae los datos de variante asociados con este experimento. |
    | **[!UICONTROL Métricas de éxito]** | La métrica o métricas con las que un usuario compara variantes. La variante con el resultado más deseable para las métricas de conversión (ya sea la más alta o la más baja) se declara como la “variante con mejor rendimiento” de un experimento. Se pueden añadir hasta cinco filtros. |
    | **[!UICONTROL Métrica de normalización]** | La base ([!UICONTROL Personas], [!UICONTROL Sesiones] o [!UICONTROL Eventos]) en que se ejecutará una prueba. Por ejemplo, una prueba puede comparar las tasas de conversión de varias variaciones en las que **[!UICONTROL Tasa de conversión]** se calcula como **[!UICONTROL Conversiones por sesión]** o **[!UICONTROL Conversiones por persona]**. |
-   | **[!UICONTROL Intervalo de fecha]** | El intervalo de fecha se establece automáticamente, en función de la primera visita recibida en CJA para el experimento seleccionado. Puede restringir o expandir el intervalo de fecha a un periodo de tiempo más específico si es necesario. |
+   | **[!UICONTROL Intervalo de fecha]** | El intervalo de fechas se establece automáticamente, en función del primer evento recibido en CJA para el experimento seleccionado. Puede restringir o expandir el intervalo de fecha a un periodo de tiempo más específico si es necesario. |
 
 1. Haga clic en **[!UICONTROL Generar]**.
 
@@ -110,18 +110,18 @@ Una secuencia de confianza del 95 % incluirá el valor “verdadero” de la m�
 
 ## Interpretación de dimensiones no aleatorias {#non-randomized}
 
-CJA permite a los analistas seleccionar cualquier dimensión como el &quot;experimento&quot;. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como el experimento no es una para la que se aleatorizan los visitantes?
+CJA permite a los analistas seleccionar cualquier dimensión como &quot;experimento&quot;. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como experimento no es aquella para la que se aleatorizan los visitantes?
 
-Por ejemplo, considere una publicidad que vea un visitante. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar a los visitantes &quot;ad B&quot; en lugar de &quot;ad A&quot;. El efecto causal de mostrar el anuncio B en lugar del anuncio A es de importancia central para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio en toda la población, si reemplazamos el status quo de visualización del anuncio A con la estrategia alternativa de visualización del anuncio B.
+Por ejemplo, considere un anuncio que vea un visitante. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar a los visitantes &quot;anuncio B&quot; en lugar de &quot;anuncio A&quot;. El efecto causal de mostrar el anuncio B en lugar del anuncio A es de importancia fundamental para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio sobre toda la población, si reemplazamos el status quo de mostrar el anuncio A con la estrategia alternativa de mostrar el anuncio B.
 
-Las pruebas A/B son el estándar de oro del sector para medir objetivamente los efectos de esas intervenciones. La razón crítica por la que una prueba A/B genera una estimación causal se debe a la aleatorización de visitantes para recibir una de las posibles variantes.
+Las pruebas A/B son el estándar de oro dentro de la industria para medir de manera objetiva los efectos de este tipo de intervenciones. La razón crítica por la que una prueba A/B da lugar a una estimación causal se debe a la aleatorización de los visitantes para recibir una de las posibles variantes.
 
-Ahora considere una dimensión que no se logra mediante la aleatorización, por ejemplo, el estado de EE. UU. del visitante. Digamos que nuestros visitantes provienen principalmente de dos estados, Nueva York y California. El ingreso promedio de las ventas de una marca de ropa de invierno puede ser diferente en los dos estados debido a las diferencias en el clima regional. En tal situación, el clima puede ser el verdadero factor causal de la venta de ropa de invierno, y no el hecho de que los estados geográficos de los visitantes sean diferentes.
+Ahora considere una dimensión que no se logra mediante la aleatorización, por ejemplo, el estado de EE. UU. del visitante. Digamos que nuestros visitantes provienen principalmente de dos estados, Nueva York y California. Los ingresos promedio de las ventas de una marca de ropa de invierno pueden ser diferentes en los dos estados debido a las diferencias en el clima regional. En tal situación, el clima puede ser el verdadero factor causal detrás de las ventas de ropa de invierno, y no el hecho de que los estados geográficos de los visitantes son diferentes.
 
-El panel de experimentación en Customer Journey Analytics permite analizar los datos como la diferencia de ingresos promedio por estados de los visitantes. En tal situación, el producto no tiene una interpretación causal. Sin embargo, tal análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos promedio por estados de los visitantes. Esto también se conoce como &quot;Pruebas de Hipótesis Estadística&quot;. El resultado de este análisis puede ser interesante, pero no necesariamente procesable, ya que no hemos aleatorizado a los visitantes a uno de los posibles valores de la dimensión, y a veces no podemos hacerlo.
+El panel de experimentación en Customer Journey Analytics le permite analizar los datos como una diferencia de ingresos promedio por estados de los visitantes. En tal situación, el resultado no tiene una interpretación causal. Sin embargo, dicho análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos promedio por estados de los visitantes. Esto también se conoce como &quot;Prueba de hipótesis estadística&quot;. El resultado de este análisis puede ser interesante, pero no necesariamente procesable, ya que no hemos visitado, y a veces no podemos, uno de los posibles valores de la dimensión.
 
 La siguiente ilustración contrasta estas situaciones:
 
 ![experimento aleatorio](assets/randomize.png)
 
-Cuando desea medir el impacto de la intervención X en el resultado Y, es posible que la causa real de ambos sea el factor de confusión C. Si los datos no se obtienen al aleatorizar visitantes en X, el impacto es más difícil de medir y el análisis explicará explícitamente C. La aleatorización rompe la dependencia de X en C, lo que nos permite medir el efecto de X en Y sin tener que preocuparse por otras variables.
+Cuando se desea medir el impacto de la intervención X en el resultado Y, es posible que la causa real de ambos sea el factor de confusión C. Si los datos no se obtienen aleatoriamente en X, el impacto es más difícil de medir y el análisis explicará explícitamente C. La aleatorización rompe la dependencia de X en C, lo que nos permite medir el efecto de X en Y sin tener que preocuparnos por otras variables.

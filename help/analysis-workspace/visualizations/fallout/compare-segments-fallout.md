@@ -4,10 +4,10 @@ keywords: visitas en el orden previsto y filtros;filtros en el análisis de visi
 title: Aplicación de filtros en un análisis de visitas en orden previsto
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ Puede crear filtros a partir de un punto de contacto, añadir filtros como punto
 
 >[!IMPORTANT]
 >
->Los filtros utilizados como puntos de comprobación en visitas en orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización Visita en orden previsto. Con las visitas en orden previsto respectivas a los visitantes, los filtros utilizados como puntos de comprobación deben ser filtros basados en visitas o visitas individuales. Con las visitas en orden previsto respectivas a las visitas, los filtros utilizados como puntos de comprobación deben ser filtros basados en visitas individuales. Si utiliza una combinación no válida, el resultado de visitas en orden previsto será del 100 %. Se ha añadido una advertencia a la visualización de visitas en orden previsto que se mostrará cuando añada un filtro incompatible como punto de contacto. Determinadas combinaciones de contenedores de filtros no válidas producirán diagramas de visitas en orden previsto no válidos, como:
+>Los filtros utilizados como puntos de comprobación en visitas en orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización Visita en orden previsto. Con las visitas en orden previsto respectivas a los visitantes, los filtros utilizados como puntos de comprobación deben ser filtros basados en visitas o eventos. Con las visitas en orden previsto respectivas a las visitas, los filtros utilizados como puntos de comprobación deben ser filtros basados en eventos. Si utiliza una combinación no válida, el resultado de visitas en orden previsto será del 100 %. Se ha añadido una advertencia a la visualización de visitas en orden previsto que se mostrará cuando añada un filtro incompatible como punto de contacto. Determinadas combinaciones de contenedores de filtros no válidas producirán diagramas de visitas en orden previsto no válidos, como:
 
 * Cuando se usa un filtro basado en visitantes como punto de contacto dentro de una visualización de visitas en orden previsto de visitantes.
 * Cuando se usa un filtro basado en visitantes como punto de contacto dentro de una visualización de visitas en orden previsto de visitas.
