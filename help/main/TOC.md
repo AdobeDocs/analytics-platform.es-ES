@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 970f93737f35a84c0e28061d2c6a8215c8b070ec
+source-git-commit: e7a27030459f0755ef445fffd4c86f79d4333d72
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 98%
+source-wordcount: '899'
+ht-degree: 97%
 
 ---
 
@@ -192,6 +192,21 @@ ht-degree: 98%
 
 
 
++ Paneles de Analytics {#cja-dashboards}
+   + [Paneles de Analytics: Información general](../mobile-app/home.md)
+   + [Tareas del gestor de datos](../mobile-app/curator.md)
+   + [Creación de un cuadro de resultados móvil](../mobile-app/create-scorecard.md)
+   + [Configuración de ejecutivos para que utilicen paneles](../mobile-app/set-up-execs.md)
+   + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
+
++ Análisis guiado {#guided-analysis}
+   + [Información general](../guided-analysis/overview.md)
+   + [Interfaz](../guided-analysis/interface.md)
+   + Tipos de análisis {#analysis-types}
+      + [Información general](../guided-analysis/analysis-types/overview.md)
+      + [Embudo](../guided-analysis/analysis-types/funnel.md)
+      + [Tendencias](../guided-analysis/analysis-types/trends.md)
+      + [Crecimiento de usuarios](../guided-analysis/analysis-types/user-growth.md)
 
 + Componentes {#cja-components}
    + [Resumen de componentes](../components/overview.md)
@@ -259,13 +274,6 @@ ht-degree: 98%
 
 
 
-
-+ Paneles de Analytics {#cja-dashboards}
-   + [Paneles de Analytics: Información general](../mobile-app/home.md)
-   + [Tareas del gestor de datos](../mobile-app/curator.md)
-   + [Creación de un cuadro de resultados móvil](../mobile-app/create-scorecard.md)
-   + [Configuración de ejecutivos para que utilicen paneles](../mobile-app/set-up-execs.md)
-   + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
 
 + Report Builder {#cja-reportbuilder}
    + [Información general de Report Builder](../report-builder/report-buider-overview.md)
