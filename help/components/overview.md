@@ -4,7 +4,7 @@ description: Aprenda qué componentes son las ofertas de CJA y cómo puede utili
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: d431e781eb18eb3f4904094972c218a9e80980d9
+source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 62%
@@ -56,7 +56,7 @@ Vea el vídeo sobre la creación de métricas, filtros y fechas:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23979)
 
-## Administración de componentes {#actions}
+## Administrar componentes {#actions}
 
 Puede administrar componentes directamente en el carril izquierdo.
 
@@ -64,11 +64,11 @@ Puede administrar componentes directamente en el carril izquierdo.
 
    o
 
-   Seleccione un componente y, a continuación, seleccione el **Acción** icono (3 puntos) en la parte superior de la lista de componentes.
+   Seleccione un componente y, a continuación, seleccione el **Acción** Icono (3 puntos) en la parte superior de la lista de componentes.
 
    >[!TIP]
    >
-   >   Para seleccionar varios componentes, mantenga pulsada la tecla Mayús o mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+   >   Para seleccionar varios componentes, mantenga pulsada la tecla Mayús o Comando (en Mac) o Ctrl (en Windows).
 
 
    ![](assets/component-actions.png)
@@ -85,23 +85,23 @@ Los componentes personalizados también se pueden administrar a través de sus r
 
 ## Buscar, filtrar y ordenar la lista de componentes
 
-Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo de Analysis Workspace para localizar rápidamente un componente concreto.
+Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo de Analysis Workspace para localizar rápidamente un componente en particular.
 
 ### Buscar en la lista de componentes
 
-1. Seleccione el **Componentes** icono ![Icono de componentes](assets/components-icon.png) en el carril izquierdo.
+1. Seleccione el **Componentes** icono ![Icono Componentes](assets/components-icon.png) en el carril izquierdo.
 
-1. En el campo de búsqueda, empiece a escribir el nombre del componente que desee utilizar en el proyecto.
+1. En el campo de búsqueda, empiece a escribir el nombre del componente que desea utilizar en el proyecto.
 
-   El tipo de componente se puede identificar mediante el color y el icono. **Dimension** ![Dimension](assets/dimension-icon.png) son naranjas, **Filtros** ![Icono de filtro](assets/segment-icon.png) son azules, **Intervalos de fechas** ![Icono de intervalo de fechas](assets/date-range-icon.png) son púrpura y **Métricas** ![Icono de métrica](assets/default-metric-icon.png) son verdes. El icono del Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o una plantilla de filtro y el icono de la calculadora ![Icono de calculadora](assets/calculated-metric-icon-created.png) indica una métrica calculada que fue creada por un administrador de Analytics en su organización.
+   El tipo de componente se puede identificar mediante colores e iconos. **Dimension** ![Icono de Dimension](assets/dimension-icon.png) son naranjas, **Filtros** ![Icono de filtro](assets/segment-icon.png) son azules, **Intervalos de fechas** ![Icono de intervalo de fecha](assets/date-range-icon.png) son morados y **Métricas** ![Icono de métrica](assets/default-metric-icon.png) son verdes. El icono Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o de filtro, y el icono de la calculadora ![Icono Calculadora](assets/calculated-metric-icon-created.png) indicó una métrica calculada que creó un administrador de Analytics en su organización.
 
 1. Seleccione el componente cuando aparezca en la lista desplegable.
 
-### Filtrar la lista de componentes
+### Filtrado de la lista de componentes
 
-1. Seleccione el **Componentes** icono ![Icono de componentes](assets/components-icon.png) en el carril izquierdo.
+1. Seleccione el **Componentes** icono ![Icono Componentes](assets/components-icon.png) en el carril izquierdo.
 
-1. Seleccione el **Filtro** icono ![Icono de filtro del diccionario de datos](assets/components-filter-icon.png).
+1. Seleccione el **Filtrar** icono ![Icono Filtro de diccionario de datos](assets/components-filter-icon.png).
 
    o
 
@@ -112,23 +112,25 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
    | Opción | Función |
    |---------|----------|
    | [!UICONTROL **Aprobado**] | Mostrar solo los componentes marcados como Aprobado por un administrador. |
-   | [!UICONTROL **Favoritos**] | Mostrar solo los componentes que se encuentran en la lista de Favoritos. Para obtener información sobre cómo añadir componentes a la lista de favoritos, consulte [Administración de componentes](#manage-components). |
+   | [!UICONTROL **Favoritos**] | Mostrar solo los componentes que se encuentran en la lista de Favoritos. Para obtener información sobre cómo agregar componentes a la lista de favoritos, consulte [Administrar componentes](#manage-components). |
    | [!UICONTROL **Dimensiones**] | Mostrar solo los componentes que son dimensiones. |
    | [!UICONTROL **Métricas**] | Mostrar solo los componentes que son métricas. |
-   | [!UICONTROL **Filtros**] | Mostrar solo los componentes que son Filtros. |
+   | [!UICONTROL **Filtros**] | Mostrar solo los componentes que son filtros. |
    | [!UICONTROL **Intervalos de fechas**] | Mostrar solo los componentes que son intervalos de fechas. |
    | [!UICONTROL **Mostrar todo**] | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
    | [!UICONTROL **No aprobado**] | Mostrar solo los componentes que aún no están marcados como Aprobado por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |
 
-1. (Opcional) Para perfeccionar la lista, puede ordenar la lista de componentes, tal como se describe en [Ordenar la lista de componentes](#sort-the-component-list).
+1. (Opcional) Para perfeccionar aún más la lista, puede ordenarla, tal como se describe en [Ordenar la lista de componentes](#sort-the-component-list).
 
 ### Ordenar la lista de componentes
 
-1. (Opcional) Aplique cualquier filtro a la lista de componentes, tal como se describe en [Filtrar la lista de componentes](#filter-the-component-list).
+{{release-limited-testing-section}}
 
-1. Seleccione el **Componentes** icono ![Icono de componentes](assets/components-icon.png) en el carril izquierdo.
+1. (Opcional) Aplique cualquier filtro a la lista de componentes, tal como se describe en [Filtrado de la lista de componentes](#filter-the-component-list).
 
-1. Seleccione el **Ordenar** icono ![Icono Ordenar componentes](assets/component-sort-icon.png)y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+1. Seleccione el **Componentes** icono ![Icono Componentes](assets/components-icon.png) en el carril izquierdo.
+
+1. Seleccione el **Ordenar** icono ![Icono Ordenar componentes](assets/component-sort-icon.png), luego seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
 
    {{components-sort-options}}
 
