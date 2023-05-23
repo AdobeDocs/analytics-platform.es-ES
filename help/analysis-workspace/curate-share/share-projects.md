@@ -4,9 +4,9 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: dab154ce10b0b4f7fb2873d92a1ce9ceb7478b26
+source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1814'
 ht-degree: 52%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 52%
 
 Puede compartir un proyecto de Analysis Workspace con los siguientes tipos de personas:
 
-* Usuarios y grupos de la organización que tienen acceso a Adobe Customer Journey Analytics
+* Usuarios y grupos de su organización que tienen acceso a Adobe Customer Journey Analytics
 
-   Puede compartir el acceso Editar, Duplicar o Ver
+   Puede compartir el acceso de Editar, Duplicar o Ver
 
-* Usuarios y grupos de su organización que no tienen acceso al Customer Journey Analytics
+* Usuarios y grupos de su organización que no tienen acceso a Customer Journey Analytics
 
    Los destinatarios tienen acceso de solo lectura
 
@@ -27,14 +27,14 @@ Puede compartir un proyecto de Analysis Workspace con los siguientes tipos de pe
 
    Los destinatarios tienen acceso de solo lectura
 
-Cualquiera [depuración](curate.md) la aplicación anterior al uso compartido se refleja cuando los destinatarios abren el proyecto.
+Cualquiera [depuración](curate.md) la solicitud presentada antes del uso compartido se refleja cuando los destinatarios abren el proyecto.
 
 A continuación se muestra un vídeo introductorio del uso compartido de proyectos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 
-## Compartir con usuarios y grupos Customer Journey Analytics de su organización {#Add}
+## Compartir con usuarios y grupos de Customer Journey Analytics de su organización {#Add}
 
 Puede compartir un proyecto con usuarios o grupos de Customer Journey Analytics existentes de su organización. Cuando comparte un proyecto como se describe en esta sección, los usuarios con los que comparte ya deben tener una cuenta de Customer Journey Analytics.
 
@@ -58,7 +58,7 @@ Cuando comparta una función de proyecto específica con usuarios y grupos de su
 
 Para compartir una función de proyecto específica con usuarios o grupos de su organización, haga lo siguiente:
 
-1. Vaya al proyecto que desea compartir y, a continuación, haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**.
+1. Vaya al proyecto que desee compartir y haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**.
 Si hay cambios sin guardar, se le pedirá primero que guarde el proyecto.
 
    ![](assets/share-proj-modal.png)
@@ -71,7 +71,7 @@ Si hay cambios sin guardar, se le pedirá primero que guarde el proyecto.
 
    **Puede duplicar:** los destinatarios pueden **[!UICONTROL Guardar como]** y acceder al carril izquierdo. Las interacciones del proyecto no están limitadas en esta función. Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que el proyecto se modifique.
 
-   **Puede ver:** los destinatarios no pueden **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]** y no tienen acceso al carril izquierdo. Las interacciones del proyecto también están limitadas. Esta función es útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, Analysis Workspace o Customer Journey Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro. Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analysis-workspace/curate-share/view-only-projects.md).
+   **Puede ver:** los destinatarios no pueden **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]** y no tienen acceso al carril izquierdo. Las interacciones del proyecto también están limitadas. Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con el Customer Journey Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro. Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analysis-workspace/curate-share/view-only-projects.md).
 
 1. Elija si desea habilitar las siguientes opciones al compartir el proyecto:
 
@@ -83,27 +83,27 @@ Si hay cambios sin guardar, se le pedirá primero que guarde el proyecto.
 
    o
 
-   Haga clic en **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, haga clic en **[!UICONTROL Depurar y actualizar]**.) Obtenga más información sobre la [depuración del proyecto](curate.md).
+   Clic **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, haga clic en **[!UICONTROL Depurar y actualizar]**.) Obtenga más información sobre la [depuración del proyecto](curate.md).
 
 ## Compartir un vínculo a un proyecto
 
 Cuando comparta un vínculo como se describe en esta sección, tenga en cuenta lo siguiente:
 
-* Los destinatarios que utilicen el vínculo deben iniciar sesión en el Customer Journey Analytics antes de obtener acceso al proyecto.
+* Los destinatarios que utilicen el vínculo deben iniciar sesión en Customer Journey Analytics antes de obtener acceso al proyecto.
 
-* Si a un destinatario no se le asigna una función y recibe un [vínculo](/help/analysis-workspace/curate-share/shareable-links.md) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función predeterminada. Los administradores reciben **[!UICONTROL Puede editar]** y reciben los usuarios que no son administradores **[!UICONTROL Puede duplicarse]**.
+* Si a un destinatario no se le asigna una función y recibe un [vínculo](/help/analysis-workspace/curate-share/shareable-links.md) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función predeterminada. Los administradores reciben **[!UICONTROL Puede editar]** y los usuarios que no son administradores reciben **[!UICONTROL Se puede duplicar]**.
 
 Para compartir el vínculo del proyecto con los usuarios de su organización, haga lo siguiente:
 
 1. Guarde el proyecto. Si hay cambios sin guardar, se le pedirá que guarde el proyecto antes de compartir un vínculo.
 
-1. Select **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]** y, a continuación, seleccione **[!UICONTROL Copiar]** junto a la variable **[!UICONTROL Compartir por vínculo]** campo .
+1. Seleccionar **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**, luego seleccione **[!UICONTROL Copiar]** junto al **[!UICONTROL Compartir mediante vínculo]** field.
 
    ![](assets/share-proj-modal.png)
 
 1. Comparta el vínculo con los usuarios de su organización. Por ejemplo, puede pegarlo en un correo electrónico, en un sitio web interno, etc.
 
-## Compartir un proyecto con cualquier persona (no se requiere inicio de sesión) {#share-public-link}
+## Compartir un proyecto con cualquiera (no se requiere inicio de sesión) {#share-public-link}
 
 {{release-limited-testing-section}}
 
@@ -111,60 +111,60 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 
 * Personas fuera de la organización
 
-* Personas de la organización que no están aprovisionadas con Customer Journey Analytics
+* Personas de su organización que no están aprovisionadas con Customer Journey Analytics
 
 >[!NOTE]
 >
 >Tenga en cuenta lo siguiente al compartir un proyecto de Analysis Workspace con personas que no tienen acceso a CJA:
 >
->* El administrador de CJA puede deshabilitar la capacidad de compartir un proyecto de esta forma, tal como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md). Si no puede compartir un proyecto como se describe en esta sección, su administrador de CJA ha deshabilitado esta capacidad.
+>* El administrador de CJA puede desactivar la capacidad de compartir un proyecto de esta manera, tal como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md). Si no puede compartir un proyecto como se describe en esta sección, su administrador de CJA ha desactivado esta capacidad.
 >
->* Los proyectos con más de 50 visualizaciones expandidas no se pueden compartir con personas que no tienen acceso a CJA.
+>* Los proyectos con más de 50 visualizaciones expandidas no se pueden compartir con personas que no tengan acceso a CJA.
 >
->* Los usuarios con los que comparta pueden ver los filtros que se aplicaron al proyecto durante [depuración](curate.md).
+>* Los usuarios con los que comparta pueden ver cualquier filtro que se haya aplicado al proyecto durante [depuración](curate.md).
 > 
->* Los usuarios con los que comparta pueden cambiar el intervalo de fechas del proyecto. El intervalo de fechas definido para el proyecto se muestra de forma predeterminada.
+>* Los usuarios con los que comparte puede cambiar el intervalo de fechas del proyecto. El intervalo de fechas que ha establecido para el proyecto se muestra de forma predeterminada.
 >
->* Un proyecto podría quedar inaccesible si muchos usuarios intentan acceder a un vínculo determinado al mismo tiempo. De forma predeterminada, más de 190 personas pueden acceder a un único vínculo cada 5 minutos. Si su organización alcanza este límite, espere 5 minutos e intente acceder al vínculo de nuevo.
+>* Un proyecto podría resultar inaccesible si muchos usuarios intentan acceder a un vínculo determinado al mismo tiempo. De forma predeterminada, más de 190 personas pueden acceder a un solo vínculo cada 5 minutos. Si su organización alcanza este límite, espere 5 minutos e intente acceder al vínculo de nuevo.
 
 
 Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
 1. Abra el proyecto de Analysis Workspace que desee compartir.
 
-1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquier persona]**.
+1. Clic **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]**.
 
    Si hay cambios sin guardar, se le pedirá que guarde el proyecto.
 
    <!-- Add screen shot of new modal -->
 
-1. Active la variable **[!UICONTROL El vínculo está activo]** si no está activada.
+1. Habilite la **[!UICONTROL El vínculo está activo]** opción si aún no está activada.
 
    Al seleccionar esta opción, se crea un vínculo al proyecto que se puede compartir con cualquier persona. Puede deshabilitar el acceso al proyecto en cualquier momento desactivando esta opción.
 
-   El propietario del proyecto también es el propietario de este vínculo. La propiedad del vínculo solo se puede transferir a otro usuario cuando se transfiere la propiedad del proyecto, tal como se describe en [Transferir recursos de usuario o establecer caducidades de cuenta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) en la guía de administración de Analytics.
+   El propietario del proyecto también es el propietario de este vínculo. La propiedad de los vínculos solo se puede transferir a otro usuario cuando se transfiere la propiedad del proyecto, tal como se describe en [Transferir recursos de usuario o establecer caducidades de cuenta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) en la guía de administración de Analytics.
 
-1. Elija si desea activar la siguiente opción de seguridad (esta opción puede ser controlada por el administrador de CJA):
+1. Elija si desea activar la siguiente opción de seguridad (esta opción puede ser controlada por su administrador de CJA):
 
    * **[!UICONTROL Requiere autenticación de Experience Cloud]:**
 
-      Cuando esta opción está habilitada, solo los usuarios que puedan iniciar sesión en la organización de Adobe Experience Cloud donde se creó el proyecto que está compartiendo pueden acceder al proyecto.
+      Cuando esta opción está habilitada, solo los usuarios que pueden iniciar sesión en la organización de Adobe Experience Cloud donde se creó el proyecto que está compartiendo pueden acceder al proyecto.
 
-      Los administradores de CJA pueden configurar esta preferencia para la empresa, tal como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md). Puede encontrar las siguientes situaciones, según la configuración del administrador de esta opción:
+      Los administradores de CJA pueden configurar esta preferencia para la compañía, tal como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md). Puede encontrar los siguientes escenarios, según la configuración que haya realizado el administrador con esta opción:
 
-      * Si esta opción no está visible, el administrador de CJA no habilitó esta función.
+      * Si esta opción no está visible, su administrador de CJA no habilitó esta función.
 
-      * Si esta opción está habilitada y atenuada, el administrador de CJA requiere autenticación de Experience Cloud para cualquier persona que acceda a proyectos de Analysis Workspace.
+      * Si esta opción está habilitada y atenuada, el administrador de CJA requiere la autenticación del Experience Cloud para cualquiera que acceda a proyectos de Analysis Workspace.
 
-1. Al lado de la variable **[!UICONTROL Compartir con cualquier persona (no se requiere inicio de sesión)]** , haga clic en el botón **Copiar vínculo** icono ![Icono Copiar vínculo](assets/copy-link-icon.png) para copiar el vínculo en el portapapeles del sistema.
+1. Junto a la **[!UICONTROL Compartir con cualquiera (no se requiere inicio de sesión)]** , haga clic en el **Copiar vínculo** icono ![Icono Copiar vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)) para copiar el enlace en el portapapeles del sistema.
 
-1. Comparta el vínculo con las personas a las que desee tener acceso al proyecto. Por ejemplo, puede pegar el vínculo en un correo electrónico.
+1. Comparta el vínculo con las personas a las que desee permitir el acceso al proyecto. Por ejemplo, puede pegar el vínculo en un mensaje de correo electrónico.
 
    Cualquier persona con la que comparta el vínculo puede ver el proyecto de Analysis Workspace.
 
-1. (Opcional) Puede hacer clic en la **Generar nuevo vínculo** icono ![Icono Generar vínculo](assets/regenerate-link.png) para eliminar el acceso de los usuarios que recibieron previamente un vínculo al proyecto. Se genera un nuevo vínculo que puede compartir con los usuarios a los que desee acceder al proyecto.
+1. (Opcional) Puede hacer clic en **Generar nuevo vínculo** icono ![Icono Generar vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para eliminar el acceso de los usuarios que anteriormente recibieron un vínculo al proyecto. Se genera un nuevo vínculo que puede compartir con los usuarios que desea que tengan acceso al proyecto.
 
-1. Select **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo compartir. Los cambios se guardan automáticamente.
+1. Seleccionar **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo compartir. Los cambios se guardarán automáticamente.
 
 ## Compartir proyectos en el administrador de proyectos {#Manager}
 
@@ -195,4 +195,4 @@ A continuación se muestra un vídeo sobre este tema:
 | ¿Qué sucede si dos editores guardan un proyecto al mismo tiempo? | Los cambios no se combinan y se conservará la última versión guardada del proyecto. Actualmente, Analysis Workspace no admite la colaboración en tiempo real. |
 | Como administrador, ¿qué experiencia de proyecto veré? | Los administradores con una función **[!UICONTROL Puede duplicar]** o **[!UICONTROL Puede ver]** recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función a **[!UICONTROL Puede editar]** en cualquier momento mediante **[!UICONTROL Componentes] > [!UICONTROL Proyectos]**. |
 | ¿Qué sucede si un destinatario se coloca en una función como individuo y otra como miembro de un grupo? | Si un destinatario se coloca en varias funciones, siempre recibirá la experiencia más alta. Por ejemplo, si a un destinatario se le asigna la función **[!UICONTROL Puede editar]** como individuo y la función **[!UICONTROL Puede ver]** como miembro de un grupo, recibirá una experiencia **[!UICONTROL Puede editar]** en el proyecto. |
-| ¿Qué experiencia obtiene un destinatario si abre un vínculo de proyecto? | Los Destinatarios reciben la función que les ha asignado en el modal de uso compartido. Si a un destinatario no se le asigna una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]** y, a continuación, seleccione **[!UICONTROL Copiar]** junto a la variable **[!UICONTROL Compartir por vínculo]** ), se colocan en una función de forma predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]**, y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. |
+| ¿Qué experiencia obtiene un destinatario si abre un vínculo de proyecto? | Los Destinatarios reciben la función que les ha asignado en el modal de uso compartido. Si un destinatario no tiene asignada una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**, luego seleccione **[!UICONTROL Copiar]** junto al **[!UICONTROL Compartir mediante vínculo]** ), se les asignará una función de forma predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]**, y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. |

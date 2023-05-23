@@ -4,10 +4,10 @@ description: Aprenda qué componentes son las ofertas de CJA y cómo puede utili
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
+source-git-commit: 3b98047d7ac04b370dc9c03300f75b7313e79e5a
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 62%
+source-wordcount: '1035'
+ht-degree: 57%
 
 ---
 
@@ -89,25 +89,25 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
 
 ### Buscar en la lista de componentes
 
-1. Seleccione el **Componentes** icono ![Icono Componentes](assets/components-icon.png) en el carril izquierdo.
+1. Seleccione el **Componentes** icono ![Icono Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) en el carril izquierdo.
 
-1. En el campo de búsqueda, empiece a escribir el nombre del componente que desea utilizar en el proyecto.
+2. En el campo de búsqueda, empiece a escribir el nombre del componente que desea utilizar en el proyecto.
 
-   El tipo de componente se puede identificar mediante colores e iconos. **Dimension** ![Icono de Dimension](assets/dimension-icon.png) son naranjas, **Filtros** ![Icono de filtro](assets/segment-icon.png) son azules, **Intervalos de fechas** ![Icono de intervalo de fecha](assets/date-range-icon.png) son morados y **Métricas** ![Icono de métrica](assets/default-metric-icon.png) son verdes. El icono Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o de filtro, y el icono de la calculadora ![Icono Calculadora](assets/calculated-metric-icon-created.png) indicó una métrica calculada que creó un administrador de Analytics en su organización.
+   El tipo de componente se puede identificar mediante colores e iconos. **Dimension** ![Icono de Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) son naranjas, **Filtros** ![Icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) son azules, **Intervalos de fechas** ![Icono de intervalo de fecha](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) son morados y **Métricas** ![Icono de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) son verdes. El icono Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o de filtro, y el icono de la calculadora ![Icono Calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indicó una métrica calculada que creó un administrador de Analytics en su organización.
 
-1. Seleccione el componente cuando aparezca en la lista desplegable.
+3. Seleccione el componente cuando aparezca en la lista desplegable.
 
 ### Filtrado de la lista de componentes
 
-1. Seleccione el **Componentes** icono ![Icono Componentes](assets/components-icon.png) en el carril izquierdo.
+1. Seleccione el **Componentes** icono ![Icono Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) en el carril izquierdo.
 
-1. Seleccione el **Filtrar** icono ![Icono Filtro de diccionario de datos](assets/components-filter-icon.png).
+2. Seleccione el **Filtrar** icono ![Icono Filtro de diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)).
 
    o
 
    Escriba el signo de almohadilla (#) en el campo de búsqueda.
 
-1. Seleccione cualquiera de las siguientes opciones de filtro para filtrar la lista de componentes:
+3. Seleccione cualquiera de las siguientes opciones de filtro para filtrar la lista de componentes:
 
    | Opción | Función |
    |---------|----------|
@@ -120,7 +120,7 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
    | [!UICONTROL **Mostrar todo**] | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
    | [!UICONTROL **No aprobado**] | Mostrar solo los componentes que aún no están marcados como Aprobado por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |
 
-1. (Opcional) Para perfeccionar aún más la lista, puede ordenarla, tal como se describe en [Ordenar la lista de componentes](#sort-the-component-list).
+4. (Opcional) Para perfeccionar aún más la lista, puede ordenarla, tal como se describe en [Ordenar la lista de componentes](#sort-the-component-list).
 
 ### Ordenar la lista de componentes
 
@@ -128,9 +128,9 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
 
 1. (Opcional) Aplique cualquier filtro a la lista de componentes, tal como se describe en [Filtrado de la lista de componentes](#filter-the-component-list).
 
-1. Seleccione el **Componentes** icono ![Icono Componentes](assets/components-icon.png) en el carril izquierdo.
+2. Seleccione el **Componentes** icono ![Icono Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) en el carril izquierdo.
 
-1. Seleccione el **Ordenar** icono ![Icono Ordenar componentes](assets/component-sort-icon.png), luego seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+3. Seleccione el **Ordenar** icono ![Icono Ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), luego seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
 
    {{components-sort-options}}
 
