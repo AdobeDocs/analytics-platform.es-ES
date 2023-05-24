@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1450'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -76,9 +76,9 @@ Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL
 
 Además del concepto de cambiar segmentos, también se actualizan los contenedores de segmentos.
 
-* **Los contenedores de visita individual ahora son [!UICONTROL contenedores] de evento**. El [!UICONTROL Evento] El contenedor de permite desglosar la información del visitante en función de eventos individuales.
+* **Los contenedores de visita individual ahora son [!UICONTROL contenedores] de evento**. El [!UICONTROL Evento] El contenedor de permite desglosar la información de la persona en función de eventos individuales.
 * **Los contenedores de visita ahora son [!UICONTROL contenedores] de sesión**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
-* **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. El contenedor [!UICONTROL Persona] incluye todas las sesiones y eventos de un visitante en un lapso de tiempo específico.
+* **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. El [!UICONTROL Persona] El contenedor de incluye todas las sesiones y eventos de una persona en un lapso de tiempo específico.
 
 ## Cambios en el concepto de métricas calculadas
 
@@ -100,7 +100,7 @@ Las “clasificaciones” ahora se conocen como “Conjuntos de datos de búsque
 
 ## Cambios en el concepto de atributos del cliente
 
-Los “atributos del cliente” ahora se conocen como “Conjuntos de datos de perfil”. Los conjuntos de datos de perfil contienen datos que se aplican a sus visitantes, usuarios o clientes en los datos de [!UICONTROL evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos.
+Los “atributos del cliente” ahora se conocen como “Conjuntos de datos de perfil”. Los conjuntos de datos de perfil contienen datos que se aplican a sus personas, usuarios o clientes en [!UICONTROL Evento] datos. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos.
 
 ## Cambios en la forma en que el Adobe identifica a los visitantes
 

@@ -1,18 +1,18 @@
 ---
-description: Las visualizaciones de visitas en orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas.
+description: Las visualizaciones de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
 title: Resumen de abandonos
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
 # Resumen de abandonos
 
-Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas.
+Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
 
 Las visualizaciones de visitas en el orden previsto le permiten:
 
@@ -24,7 +24,7 @@ Las visualizaciones de visitas en el orden previsto le permiten:
 
 Las visitas en el orden previsto muestran la conversión y las tasas de visitas en el orden previsto entre cada paso o punto de contacto en una secuencia.
 
-Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. Para ello, basta con seleccionar un punto de contacto inicial y otro de conclusión, y luego añadir puntos de contacto intermedios para crear una ruta de navegación por el sitio web. Pero también puede crear visitas en el orden previsto multidimensionales.
+Por ejemplo, puede realizar un seguimiento de los puntos de abandonos de una persona durante un proceso de compra. Para ello, basta con seleccionar un punto de contacto inicial y otro de conclusión, y luego añadir puntos de contacto intermedios para crear una ruta de navegación por el sitio web. Pero también puede crear visitas en el orden previsto multidimensionales.
 
 La visualización de visitas en el orden previsto es útil para analizar:
 

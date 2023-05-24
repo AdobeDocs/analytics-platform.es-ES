@@ -3,10 +3,10 @@ title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre el análisis de cohorte en Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 76840d025d1ace28abce5557d66d104795818167
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '457'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de
 
 >[!IMPORTANT]
 >
->[!UICONTROL Análisis de cohorte] no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden usar las métricas que se pueden usar en filtros en [!UICONTROL Análisis de cohorte]y solo se pueden incrementar de 1 cada vez.
+>[!UICONTROL Análisis de cohorte] no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden utilizar las métricas que se pueden usar en filtros en [!UICONTROL Análisis de cohorte], y solo se pueden incrementar de 1 en 1.
 
 ## Capacidades del análisis de cohorte
 
@@ -37,13 +37,13 @@ Las siguientes funciones permiten un control preciso de las cohortes que está c
 
 ### Tabla de [!UICONTROL retención]
 
-Un informe de cohorte de [!UICONTROL retención] devuelve la información de visitantes: cada celda de datos muestra el número sin procesar y el porcentaje de visitantes en la cohorte que realizó la acción durante ese periodo de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
+A [!UICONTROL Retención] informe de cohorte devuelve personas: cada celda de datos muestra el número sin procesar y el porcentaje de personas en la cohorte que realizó la acción durante ese período de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
 
 ![](assets/retention-report.png)
 
 ### [!UICONTROL Tabla de pérdida]
 
-Una cohorte de [!UICONTROL pérdida] es la inversa de una tabla de retención y muestra a los visitantes que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
+A [!UICONTROL Pérdida] cohorte es la inversa de una tabla de retención y muestra a las personas que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
 
 ![](assets/churn-report.png)
 

@@ -3,10 +3,10 @@ description: Cálculo de totales de Workspace.
 title: Totales de Workspace
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 91%
+ht-degree: 81%
 
 ---
 
@@ -29,8 +29,8 @@ En **[!UICONTROL Configuración de columna]** hay opciones para **[!UICONTROL Mo
 
 Los totales de [filas estáticas](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) se comportan de forma diferente y se controlan desde **[!UICONTROL Configuración de fila]**.
 
-* **[!UICONTROL Mostrar la suma de las filas actuales como el total]**: muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no** eliminará las métricas duplicadas como visitas o visitantes.
-* **[!UICONTROL Mostrar total general]**: muestra una suma del lado del servidor, lo que significa que el total eliminará la duplicación de métricas como visitas o visitantes.
+* **[!UICONTROL Mostrar la suma de las filas actuales como el total]** - esto muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no** anule la duplicación de métricas como visitas o personas.
+* **[!UICONTROL Mostrar total general]** : muestra una suma del lado del servidor, lo que significa que el total eliminará la duplicación de métricas como visitas o personas.
 
 ![](assets/static-rows.png)
 

@@ -3,10 +3,10 @@ title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: ht
-source-wordcount: '3111'
-ht-degree: 100%
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
+source-wordcount: '3105'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 | Control | La variante con la que se comparan todas las demás variantes del experimento. Introduzca el nombre del elemento de dimensión de variante de control. |
 | Umbral de relevancia | El umbral en esta función se establece en un 95 % de forma predeterminada. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Coseno (Fila)
 
@@ -225,10 +225,10 @@ Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensió
 
 >[!NOTE]
 >
->Esto no funcionará de la forma esperada con métricas de tasa, tales como ingresos o visitantes. Calcula la media de las tasas, en lugar de sumar los ingresos y los visitantes del último N y después dividirlos. En su lugar utilice
+>Esto no funcionará de la forma esperada con métricas de tasa, tales como ingresos o personas. Calcula la media de las tasas, en lugar de sumar los ingresos y las personas del último N y después dividirlas. En su lugar utilice
 
 ```
-cumul(revenue)/cumul(visitor)
+cumul(revenue)/cumul(person)
 ```
 
 ## Igual
@@ -366,7 +366,7 @@ fx Lift (normalizing-container, success-metric, control)
 | Métrica de éxito | La métrica o métricas con las que un usuario compara variantes. |
 | Control | La variante con la que se comparan todas las demás variantes del experimento. Introduzca el nombre del elemento de dimensión de variante de control. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Regresión lineal: coeficiente de correlación
 

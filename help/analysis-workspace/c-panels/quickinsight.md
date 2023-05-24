@@ -3,10 +3,10 @@ description: Quick Insights es una herramienta para nuevos usuarios de Workspace
 title: Panel de información rápida
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -35,10 +35,10 @@ A continuación se incluyen algunos de los términos básicos que debe conocer. 
 |---|---|
 | [!UICONTROL Dimensión] | Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un proyecto. Son valores no numéricos y fechas que se desglosan en elementos de dimensión. Por ejemplo, “explorador” o “página” son dimensiones. |
 | [!UICONTROL Elemento de dimensión] | Los elementos de dimensión son valores individuales para una dimensión. Por ejemplo, los elementos de dimensión para la dimensión del navegador serían “Chrome”, “Firefox”, “Edge”, etc. |
-| [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
+| [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad de la persona, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, unidades, pedidos, ingresos, etc. |
 | [!UICONTROL Visualización] | Workspace oferta [una serie de visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para crear representaciones visuales de sus datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | [!UICONTROL Desglose de dimensiones] | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. En nuestro ejemplo, puede desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado o puede desglosar Dispositivos móviles por Tipos de dispositivos móviles, por Regiones, por Campañas internas, etc. |
-| [!UICONTROL filtro] | Los filtros le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar filtros de [!UICONTROL Visitante] basados en atributos: Tipo de explorador, Dispositivo, Número de visitas, País, Sexo o según las interacciones: Campañas, Búsqueda de palabras clave, Motor de búsqueda o en función de salidas y entradas: Visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o según variables personalizadas: Campo de formulario, Categorías definidas, ID de cliente. |
+| [!UICONTROL filtro] | Los filtros le permiten identificar subconjuntos de personas en función de sus características o de las interacciones con el sitio web. Por ejemplo, puede generar [!UICONTROL Visitante] filtros basados en atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o según las interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o en función de salidas y entradas: personas de Facebook, una página de aterrizaje definida, un dominio de referencia o según variables personalizadas: campo de formulario, categorías definidas, ID de cliente. |
 
 ## Introducción a Quick Insights
 
@@ -61,7 +61,7 @@ A continuación se incluyen algunos de los términos básicos que debe conocer. 
 
 1. Cuando haya agregado al menos una dimensión y una métrica, se creará lo siguiente:
 
-   * Una tabla improvisada con la dimensión (Estados de EE. UU. en este ejemplo) verticalmente y la métrica (Visitas) horizontalmente en la parte superior. Consulte esta tabla:
+   * Una tabla de forma libre con la dimensión (Estados de EE. UU. en este ejemplo) verticalmente y la métrica (Visitas) horizontalmente en la parte superior. Consulte esta tabla:
 
    ![](assets/qibuilder3.png)
 
@@ -104,4 +104,4 @@ Recibirá una advertencia antes de agregar cualquier cosa directamente a la tabl
 
 ![](assets/qibuilder8.png)
 
-De lo contrario, la creación directa hará que la tabla ahora se comporte como una tabla improvisada tradicional, sin las funciones útiles para los nuevos usuarios.
+De lo contrario, la creación directa hará que la tabla ahora se comporte como una tabla de forma libre tradicional, sin las funciones útiles para los nuevos usuarios.

@@ -4,10 +4,10 @@ description: Permite establecer la atribución predeterminada para una métrica.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1782'
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 41%
 
 La atribución le permite personalizar la forma en que los elementos de dimensión obtienen crédito por los eventos de éxito. Por ejemplo:
 
-1. Un visitante de su sitio hace clic en un vínculo de búsqueda de pago a una de las páginas de producto. Agregan el producto al carro de compras, pero no lo compran.
+1. Una persona que accede a su sitio hace clic en un vínculo de búsqueda de pago a una de las páginas de producto. Agregan el producto al carro de compras, pero no lo compran.
 2. Al día siguiente, ven una publicación en los medios sociales de uno de sus amigos. Hace clic en el vínculo y, a continuación, completa la compra.
 
 En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes.
@@ -58,15 +58,15 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 * **60 días**: Busca hasta 60 días después de que se produjo la conversión.
 * **90 días**: Busca hasta 90 días después de que se produjo la conversión.
 * **Session**: Busca hasta el principio de la sesión en la que se produjo una conversión. Las ventanas retrospectivas de sesión respetan el [Session timeout](../create-dataview.md#session-settings).
-* **Persona (ventana del Sistema de informes)**: Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
+* **Persona (ventana del Sistema de informes)**: Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de personas sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
 * **Tiempo personalizado:** Permite establecer una ventana retrospectiva personalizada desde el momento en que se produjo una conversión. Puede especificar el número de minutos, horas, días, semanas, meses o trimestres. Por ejemplo, si se produce una conversión el 20 de febrero, una ventana retrospectiva de cinco días evaluaría todos los puntos de contacto de la dimensión del 15 de febrero al 20 de febrero en el modelo de atribución.
 
 ## Ejemplo
 
 Consideremos el siguiente ejemplo:
 
-1. El 15 de septiembre, un visitante llega a su sitio a través de un anuncio de búsqueda de pago y luego lo abandona.
-2. El 18 de setiembre, el visitante regresa a su sitio a través de un vínculo de medios sociales que obtuvo de un amigo. Agregan varios artículos al carro, pero no compran nada.
+1. El 15 de septiembre, una persona llega a su sitio a través de un anuncio de búsqueda de pago y luego lo abandona.
+2. El 18 de septiembre, la persona regresa a su sitio a través de un vínculo de medios sociales que obtuvo de un amigo. Agregan varios artículos al carro, pero no compran nada.
 3. El 24 de septiembre, su equipo de marketing les enviará un correo electrónico con un cupón para algunos de los artículos del carrito. Aplican el cupón, pero visitan otros sitios para ver si hay otros cupones disponibles. Encontraron otro a través de un anuncio y finalmente hicieron una compra por valor de 50 dólares.
 
 Según la ventana retrospectiva y el modelo de atribución, los canales reciben crédito diferente. Los siguientes son algunos ejemplos importantes:

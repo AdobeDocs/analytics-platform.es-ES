@@ -4,10 +4,10 @@ description: Comprensión del concepto "reproducción" en Cross-Channel Analytic
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 89%
 
 ---
 
@@ -17,10 +17,10 @@ Comprensión del concepto &quot;reproducción&quot; en Cross-Channel Analytics r
 
 * **Vinculación en tiempo real**: AEC intenta vincular cada evento a medida que se produce. Los nuevos dispositivos netos del conjunto de datos que nunca han iniciado sesión no suelen vincularse en este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
 * **Reproducción**: CCA &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. En esta fase es en la que se vinculan nuevos dispositivos a la conexión. Adobe ofrece dos intervalos de reproducción:
-   * Diario: los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las repeticiones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
+   * Diario: los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las repeticiones son mucho más frecuentes, pero las personas no autenticadas deben autenticarse el mismo día que visitan el sitio.
    * Semanal: los datos se reproducen una vez a la semana con una ventana retrospectiva de 7 días. Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos de menos de una semana de antigüedad no están vinculados.
 
-Los datos que están más allá de la ventana retrospectiva no se reproducen. Un visitante debe autenticarse dentro de una ventana retrospectiva determinada para que una visita no autenticada y autenticada se identifiquen juntas. Una vez que se reconoce un dispositivo, se vincula en vivo a partir de ese momento.
+Los datos que están más allá de la ventana retrospectiva no se reproducen. Una persona debe autenticarse dentro de una ventana retrospectiva determinada para que una visita no autenticada y autenticada se identifiquen juntas. Una vez que se reconoce un dispositivo, se vincula en vivo a partir de ese momento.
 
 ## Paso 1: Vinculación en tiempo real
 

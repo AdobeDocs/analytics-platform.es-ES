@@ -6,7 +6,7 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 829f7556c731ce55ccf1e03e2dea69b12e4501e4
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '2890'
 ht-degree: 2%
@@ -267,7 +267,7 @@ Puede usar:
 
 #### Recuento de distintivos
 
-Debido a la naturaleza subyacente de cómo funciona CJA, la única dimensión para la que puede obtener un recuento distinto exacto es la siguiente `adobe_personid` dimensión. Las siguientes instrucciones SQL `SELECT COUNT(DISTINCT adobe_personid)` o `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` devuelve el valor de la métrica de visitantes predeterminada que es el recuento de personas distintas. Para otras dimensiones, se devuelve un recuento distinto aproximado.
+Debido a la naturaleza subyacente de cómo funciona CJA, la única dimensión para la que puede obtener un recuento distinto exacto es la siguiente `adobe_personid` dimensión. Las siguientes instrucciones SQL `SELECT COUNT(DISTINCT adobe_personid)` o `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` devuelve el valor de la métrica personas predeterminada que es el recuento de personas distintas. Para otras dimensiones, se devuelve un recuento distinto aproximado.
 
 #### Métricas condicionales
 

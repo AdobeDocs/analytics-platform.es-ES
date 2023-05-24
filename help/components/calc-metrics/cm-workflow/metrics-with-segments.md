@@ -1,12 +1,12 @@
 ---
-description: 'La segmentación de una métrica individual le permite realizar comparaciones de métricas dentro del mismo informe. '
+description: La segmentación de una métrica individual le permite realizar comparaciones de métricas dentro del mismo informe.
 title: Métricas segmentadas
 feature: Calculated Metrics
-exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ En el Generador de métricas calculadas, puede aplicar filtros dentro de su defi
 Digamos que desea comparar distintos aspectos de los filtros de “Visitantes alemanes” para aquellos de un filtro en “Visitantes internacionales”. Puede crear métricas que le proporcionarán información como:
 
 * ¿De qué forma se compara el contenido de navegación ente los dos grupos? Otro ejemplo sería: ¿De qué forma se compara la tasa de conversión entre los dos filtros?
-* Como un porcentaje de visitantes totales, ¿cuántos visitantes alemanes navegan por ciertas páginas en comparación con los visitantes internacionales?
+* Como porcentaje del total de personas, ¿cuántas personas alemanas navegan por determinadas páginas en comparación con las personas internacionales?
 * ¿Cuáles son las principales diferencias en términos de a qué contenido se accede desde estos filtros diferentes?
 
 1. Si no tiene ningún filtro comparable, cree un segmento ad hoc en el creador de métricas calculadas que se llame “Visitantes alemanes”, en el que la opción “Países” sea “Alemania”. Arrastre la dimensión de países al lienzo de definición y seleccione que el valor sea Alemania:
@@ -38,7 +38,7 @@ Digamos que desea comparar distintos aspectos de los filtros de “Visitantes al
    ![](assets/german-visitors.png)
 
 1. Repita el paso 3 con el segmento de Visitantes internacionales y la métrica de Visitantes únicos para crear una métrica de Visitantes internacionales.
-1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de formato libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
+1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de forma libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
 
    ![](assets/workspace-pages.png)
 

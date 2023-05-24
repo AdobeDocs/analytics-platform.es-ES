@@ -3,7 +3,7 @@ description: Obtenga información acerca de cómo analizar los resultados de las
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1833'
 ht-degree: 75%
@@ -110,18 +110,18 @@ Una secuencia de confianza del 95 % incluirá el valor “verdadero” de la m�
 
 ## Interpretación de dimensiones no aleatorias {#non-randomized}
 
-CJA permite a los analistas seleccionar cualquier dimensión como &quot;experimento&quot;. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como experimento no es aquella para la que se aleatorizan los visitantes?
+CJA permite a los analistas seleccionar cualquier dimensión como &quot;experimento&quot;. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como experimento no es aquella para la que se aleatorizan las personas?
 
-Por ejemplo, considere un anuncio que vea un visitante. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar a los visitantes &quot;anuncio B&quot; en lugar de &quot;anuncio A&quot;. El efecto causal de mostrar el anuncio B en lugar del anuncio A es de importancia fundamental para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio sobre toda la población, si reemplazamos el status quo de mostrar el anuncio A con la estrategia alternativa de mostrar el anuncio B.
+Por ejemplo, considere un anuncio que vea una persona. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar las personas &quot;anuncio B&quot; en lugar de &quot;anuncio A&quot;. El efecto causal de mostrar el anuncio B en lugar del anuncio A es de importancia fundamental para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio sobre toda la población, si reemplazamos el status quo de mostrar el anuncio A con la estrategia alternativa de mostrar el anuncio B.
 
-Las pruebas A/B son el estándar de oro dentro de la industria para medir de manera objetiva los efectos de este tipo de intervenciones. La razón crítica por la que una prueba A/B da lugar a una estimación causal se debe a la aleatorización de los visitantes para recibir una de las posibles variantes.
+Las pruebas A/B son el estándar de oro dentro de la industria para medir de manera objetiva los efectos de este tipo de intervenciones. La razón crítica por la que una prueba A/B da lugar a una estimación causal se debe a la aleatorización de las personas para recibir una de las posibles variantes.
 
-Ahora considere una dimensión que no se logra mediante la aleatorización, por ejemplo, el estado de EE. UU. del visitante. Digamos que nuestros visitantes provienen principalmente de dos estados, Nueva York y California. Los ingresos promedio de las ventas de una marca de ropa de invierno pueden ser diferentes en los dos estados debido a las diferencias en el clima regional. En tal situación, el clima puede ser el verdadero factor causal detrás de las ventas de ropa de invierno, y no el hecho de que los estados geográficos de los visitantes son diferentes.
+Ahora considere una dimensión que no se logra mediante la aleatorización, por ejemplo, el estado de EE. UU. de la persona. Digamos que nuestras personas provienen principalmente de dos estados, Nueva York y California. Los ingresos promedio de las ventas de una marca de ropa de invierno pueden ser diferentes en los dos estados debido a las diferencias en el clima regional. En tal situación, el clima puede ser el verdadero factor causal detrás de las ventas de ropa de invierno, y no el hecho de que los estados geográficos de las personas son diferentes.
 
-El panel de experimentación en Customer Journey Analytics le permite analizar los datos como una diferencia de ingresos promedio por estados de los visitantes. En tal situación, el resultado no tiene una interpretación causal. Sin embargo, dicho análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos promedio por estados de los visitantes. Esto también se conoce como &quot;Prueba de hipótesis estadística&quot;. El resultado de este análisis puede ser interesante, pero no necesariamente procesable, ya que no hemos visitado, y a veces no podemos, uno de los posibles valores de la dimensión.
+El panel de experimentación en Customer Journey Analytics permite analizar los datos como una diferencia de ingresos promedio por estados de las personas. En tal situación, el resultado no tiene una interpretación causal. Sin embargo, dicho análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos medios por estados de las personas. Esto también se conoce como &quot;Prueba de hipótesis estadística&quot;. El resultado de este análisis puede ser interesante, pero no necesariamente procesable, ya que no hemos y a veces no podemos aleatorizar a las personas a uno de los posibles valores de la dimensión.
 
 La siguiente ilustración contrasta estas situaciones:
 
 ![experimento aleatorio](assets/randomize.png)
 
-Cuando se desea medir el impacto de la intervención X en el resultado Y, es posible que la causa real de ambos sea el factor de confusión C. Si los datos no se obtienen aleatoriamente en X, el impacto es más difícil de medir y el análisis explicará explícitamente C. La aleatorización rompe la dependencia de X en C, lo que nos permite medir el efecto de X en Y sin tener que preocuparnos por otras variables.
+Cuando se desea medir el impacto de la intervención X en el resultado Y, es posible que la causa real de ambos sea el factor de confusión C. Si los datos no se consiguen aleatorizando a las personas en X, el impacto es más difícil de medir, y el análisis dará cuenta explícitamente de C. La aleatorización rompe la dependencia de X en C, lo que nos permite medir el efecto de X en Y sin tener que preocuparnos por otras variables.

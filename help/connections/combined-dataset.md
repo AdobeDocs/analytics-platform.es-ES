@@ -4,10 +4,10 @@ description: Descubra cómo CJA crea una conexión combinando conjuntos de datos
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 6b5f4659e9bae02e2665db3c0ee02d143dbc7ea0
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 Al crear una conexión, Customer Journey Analytics (CJA ) combina todos los esquemas y conjuntos de datos en un único conjunto de datos. Este &quot;conjunto de datos de evento combinado&quot; es lo que utiliza CJA para el sistema de informes. Cuando se incluyen varios esquemas o conjuntos de datos en una conexión:
 
 * Los esquemas están combinados. Se combinan los campos de esquema duplicados.
-* La columna &#39;ID de persona&#39; de cada conjunto de datos se combina en una sola columna, independientemente de su nombre. Esta columna es la base de la identificación de visitantes únicos en CJA.
+* La columna &#39;ID de persona&#39; de cada conjunto de datos se combina en una sola columna, independientemente de su nombre. Esta columna es la base para identificar personas únicas en CJA.
 * Las filas se procesan según la marca de tiempo.
 * Los eventos se resuelven en el nivel de milisegundos.
 
@@ -58,7 +58,7 @@ Cuando se crea una conexión con estos dos conjuntos de datos de eventos, se uti
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
 
-Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila; CJA trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran el mismo visitante único. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
+Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila; CJA trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
 
 Este concepto también se aplica a la atribución. No importa de qué conjunto de datos proviene una fila; la atribución funciona exactamente como si todos los eventos procedieran de un único conjunto de datos. Ejemplo de uso de las tablas anteriores:
 

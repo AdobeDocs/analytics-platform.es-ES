@@ -1,13 +1,13 @@
 ---
 title: Información general sobre Análisis en canales múltiples
-description: Vuelva a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
+description: Vuelva a escribir los ID de persona de varios conjuntos de datos para vincular las personas.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '1158'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -32,9 +32,9 @@ Cuando combina conjuntos de datos con ID de personas similares, la atribución s
 
 Antes de usar Análisis en canales múltiples, asegúrese de que su organización está preparada con lo siguiente:
 
-* Un conjunto de datos en Adobe Experience Platform debe tener dos columnas que ayuden a identificar a los visitantes:
-   * Un **ID persistente**, un identificador presente en cada fila. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics.
-   * Un **ID transitorio**, un identificador presente solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que un visitante se autentica. Puede utilizar prácticamente cualquier identificador que desee, siempre y cuando esté presente al menos una vez en el mismo evento que un ID persistente determinado.
+* Un conjunto de datos en Adobe Experience Platform debe tener dos columnas que ayuden a identificar a las personas:
+   * Un **ID persistente**, un identificador presente en cada fila. Por ejemplo, un ID de persona generado por una biblioteca de AppMeasurement para Adobe Analytics.
+   * Un **ID transitorio**, un identificador presente solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que una persona se autentica. Puede utilizar prácticamente cualquier identificador que desee, siempre y cuando esté presente al menos una vez en el mismo evento que un ID persistente determinado.
 * Otro conjunto de datos, como los datos del centro de llamadas, que contiene un ID transitorio en cada fila. Este ID personal debe tener el mismo formato que el ID transitorio del otro conjunto de datos.
 * Esta función le permite vincular conjuntos de datos que pueden incluir la combinación de datos de usuario autenticados y no autenticados. Asegúrese de cumplir las leyes y regulaciones aplicables, incluida la obtención de los permisos necesarios para el usuario final, antes de combinar conjuntos de datos.
 

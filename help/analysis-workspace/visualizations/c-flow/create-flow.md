@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1305'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
@@ -54,7 +54,7 @@ Las visualizaciones de flujo le permiten comprender los recorridos que se deriva
    | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a aquellas que comienzan/finalizan con la primera/última ocurrencia de una dimensión, un elemento o una métrica. Consulte la sección siguiente titulada «Ejemplo de escenario para “limitar a la primera/última incidencia”» para obtener una explicación más detallada. |
    | **[!UICONTROL Número de columnas]** | Determina cuántas columnas desea incluir en el diagrama de flujo. |
    | **[!UICONTROL Elementos expandidos por columna]** | Cuántos elementos desea incluir en cada columna. |
-   | **[!UICONTROL Contenedor de flujo]** | <ul><li>Visita</li><li>Visitante.</li></ul> Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
+   | **[!UICONTROL Contenedor de flujo]** | <ul><li>Visita</li><li>Visitante</li></ul> Le permite alternar entre visitas y visitantes para analizar las rutas seguidas por las personas. Esta configuración le ayuda a comprender el compromiso de la persona en el nivel de persona (a lo largo de visitas) o a restringir el análisis a una sola visita. |
 
 1. Haga clic en **[!UICONTROL Generar]**.
 

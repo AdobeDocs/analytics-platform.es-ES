@@ -2,10 +2,10 @@
 title: Comparar el procesamiento de datos entre las funciones de informes de Adobe Analytics y CJA
 description: Comprender las diferencias en el procesamiento de datos para las distintas funciones de informes
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -40,8 +40,8 @@ La siguiente tabla define la terminología para los diferentes tipos de lógica 
 | Procesamiento de intervalo de tiempo | Lógica que se realiza en el momento de ejecutar un informe. | Esta lógica se puede aplicar a datos futuros e históricos durante el tiempo de ejecución del informe de forma no destructiva. |
 | Lógica de nivel de éxito individual | Lógica aplicada en un nivel fila a fila. | Ejemplos: Reglas de procesamiento, VISTA, ciertas reglas de canal de marketing. |
 | Lógica de nivel de visita | Lógica aplicada en el nivel de visita. | Ejemplos: Visita y definición de sesión. |
-| Lógica a nivel de visitante | Lógica aplicada en el nivel de visitante. | Ejemplo: Vinculación de visitantes entre dispositivos y canales. |
-| Lógica de segmento (filtro) | Evaluación de las reglas del segmento (filtro) evento/visita/visitante (evento/sesión/persona). | Ejemplo: Personas que compraron zapatos rojos. |
+| Lógica a nivel de visitante | Lógica aplicada en el nivel de persona. | Ejemplo: vinculación de personas entre dispositivos y canales. |
+| Lógica de segmento (filtro) | Evaluación de las reglas del segmento (filtro) evento/visita/persona (evento/sesión/persona). | Ejemplo: Personas que compraron zapatos rojos. |
 | Métricas calculadas | Evaluación de métricas personalizadas creadas por el cliente que pueden basarse en fórmulas complejas, incluidos segmentos y filtros. | Ejemplo: número de personas que compraron zapatos rojos. |
 | Lógica de atribución | Lógica para calcular la atribución. | Ejemplo: Persistencia del eVar. |
 | Configuración de componentes | Aplicación de personalizaciones a métricas o dimensiones, como atribución, comportamiento, formato, etc | Ejemplo: agrupación de valores para combinar valores numéricos basados en un rango |
@@ -49,7 +49,7 @@ La siguiente tabla define la terminología para los diferentes tipos de lógica 
 
 {style="table-layout:auto"}
 
-Con el tiempo, Adobe Analytics y ahora Customer Journey Analytics han mejorado su flexibilidad al permitir que la lógica de datos de nivel de visita y visitante se realice durante el tiempo de ejecución del informe.
+Con el tiempo, Adobe Analytics y ahora Customer Journey Analytics han mejorado su flexibilidad al permitir que la lógica de datos de nivel de persona y visita se realice durante el tiempo de ejecución del informe.
 
 ## Tipos de procesamiento de datos {#types}
 

@@ -1,20 +1,20 @@
 ---
-description: Creación y uso compartido de informes de valoración de paneles de Adobe Analytics
-title: Crear y compartir informes de valoración
+description: Cómo crear y compartir cuadros de resultados de paneles de Adobe Analytics
+title: Crear y compartir cuadros de resultados
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 868eaa6c35b2b15449dcc70bc7521d78f8e95e35
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '2523'
-ht-degree: 81%
+ht-degree: 78%
 
 ---
 
 # Creación de un cuadro de resultados móvil
 
-La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador de informes de valoración de paneles de Adobe Analytics:
+La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
@@ -25,7 +25,7 @@ Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clav
 
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 
-Como gestor de este informe de valoración, puede utilizar el generador de informes de valoración para configurar qué mosaicos aparecen en el informe de valoración para su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. A continuación se muestra la interfaz del generador de informes de valoración:
+Como gestor de datos del cuadro de resultados, puede utilizar el generador del cuadro de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. A continuación, se muestra la interfaz del generador de cuadros de resultados:
 
 ![Generador de informes de valoración](assets/scorecard_builder.png)
 
@@ -59,7 +59,7 @@ Para implementar la plantilla del informe de valoración:
 
    ![selección de vista de datos](assets/properties_save.png)
 
-1. Para agregar un nuevo mosaico al informe de valoración, arrastre una métrica desde el panel izquierdo y suéltela en el **[!UICONTROL Arrastrar y soltar métricas aquí]** zona. También puede insertar una métrica entre dos mosaicos del mismo modo.
+1. Para agregar un nuevo mosaico al cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en el **[!UICONTROL Arrastre y suelte las métricas aquí]** zona. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
    ![Agregar mosaicos](assets/build_list.png)
 
@@ -78,7 +78,7 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en CJA) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-Si desea aplicar el filtro a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. You [configurar y aplicar filtros para los informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
+Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Usted [configuración y aplicación de filtros para los cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que en Adobe Analytics Workspace.
 
 ![Generar filtros](assets/segment_ui.png)
 
@@ -134,7 +134,7 @@ Utilice la visualización Número de resumen para resaltar un número elevado qu
 
 ### [!UICONTROL Anillo]
 
-Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de visitantes únicos:
+Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de personas únicas:
 
 ![Visualización de anillo](assets/donut-viz.png)
 
@@ -163,7 +163,7 @@ Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los dat
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
-Al hacer clic en un mosaico en el generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con ese mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando filtros. Los segmentos son filtros en CJA.
+Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando filtros. Los segmentos son filtros en CJA.
 
 ![Mosaico de propiedades](assets/properties-tile-new.png)
 
@@ -211,7 +211,7 @@ Para agregar texto a una diapositiva de detalles, seleccione un diseño que mues
 
 ## Eliminación de componentes {#remove}
 
-Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en el **x** que aparece al pasar el ratón por encima del componente, como se muestra a continuación para el **Visitas por primera vez**:
+Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, quítelo haciendo clic en **x** que aparece al pasar el ratón por encima del componente, como se muestra a continuación para la variable **Visitas por primera vez**:
 
 ![Remove_components](assets/new_remove.png)
 
@@ -219,7 +219,7 @@ Del mismo modo, para eliminar un componente que se aplique a todo el informe de 
 
 Una historia basada en datos es una colección de puntos de datos de apoyo, contexto empresarial y métricas relacionadas creada en torno a un tema o métrica central.
 
-Por ejemplo, si se centra en el tráfico web, la métrica más importante puede ser las visitas, pero también es posible que le interesen los visitantes nuevos y los únicos, o que desee ver los datos desglosados por página web o por el tipo de dispositivo desde el que proviene el tráfico. Las historias basadas en datos en proyectos de cuadros de resultados móviles le permiten poner sus métricas más importantes en primer plano y, al mismo tiempo, contar toda la historia que hay detrás con múltiples diapositivas detalladas.
+Por ejemplo: si se centra en el tráfico web, la métrica más importante pueden ser las visitas, pero también puede estar interesado en nuevas personas, personas únicas y es posible que desee ver los datos desglosados por página web o por el tipo de dispositivo del que proviene el tráfico. Las historias basadas en datos en proyectos de cuadros de resultados móviles le permiten poner sus métricas más importantes en primer plano y, al mismo tiempo, contar toda la historia que hay detrás con múltiples diapositivas detalladas.
 
 Vea el vídeo para obtener más información acerca de la creación de historias basadas en datos en los proyectos de cuadro de resultados móviles en Analysis Workspace.
 
@@ -256,7 +256,7 @@ Cuando arrastra y suelta un componente como una visualización en un mosaico, es
    ![Creación de una historia basada en datos](assets/data-story4.png)
 
 >[!NOTE]
->Las diapositivas heredan componentes del mosaico, pero los mosaicos no heredan componentes de las diapositivas.
+>Las diapositivas heredan los componentes del mosaico, pero los mosaicos no heredan los componentes de las diapositivas.
 
 **Para personalizar las diapositivas individuales**
 
@@ -276,7 +276,7 @@ Para moverse entre los mosaicos y las diapositivas, pulse la barra de navegació
 
 También puede navegar hacia atrás y hacia adelante utilizando las flechas del teclado o seleccionando un componente y manteniéndolo a la izquierda o a la derecha de la pantalla para desplazarse.
 
-## Vista previa de los informes de valoración {#preview}
+## Previsualizar informes de valoración {#preview}
 
 Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de resultados una vez que se publique en la aplicación de paneles de Analytics.
 
@@ -296,19 +296,19 @@ Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de res
 
    * Haga clic y mantenga presionado para simular el efecto del dedo en la pantalla del teléfono. Esto resulta útil para interactuar con las visualizaciones en la vista detallada.
 
-## Nombrar informes de valoración {#name}
+## Nombrar cuadros de resultados {#name}
 
-Para asignar un nombre al informe de valoración, haga clic en el área de nombres en la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+Para asignar un nombre al cuadro de mandos, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Compartir informes de valoración {#share}
+## Compartir cuadros de resultados {#share}
 
 Para compartir el informe de valoración con un usuario ejecutivo:
 
 1. Haga clic en el menú **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Compartir informe de valoración]**.
 
-1. En el **[!UICONTROL Compartir informe de valoración móvil]** rellene los campos de la siguiente manera:
+1. En el **[!UICONTROL Compartir informe de valoración móvil]** , rellene los campos de la siguiente manera:
 
    * Proporción del nombre del cuadro de resultados
    * Proporción de la descripción del cuadro de resultados
@@ -319,25 +319,25 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 ![Share_Scorecards](assets/new_share.png)
 
-Una vez que haya compartido un cuadro de resultados, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración en el generador de informes de valoración, estos se actualizarán automáticamente en el informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
+Una vez que haya compartido un cuadro de resultados, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el cuadro de resultados mediante el Generador de cuadros de resultados, estos se actualizarán automáticamente en el cuadro de resultados compartido. Los usuarios ejecutivos verán los cambios después de actualizar el cuadro de resultados en su aplicación.
 
 Si actualiza el cuadro de resultados con nuevos componentes, es posible que desee volver a compartirlo (marque la opción **[!UICONTROL Compartir componentes incrustados]**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.
 
 ### Compartir informes de valoración mediante un vínculo que se puede compartir
 
-El uso de un vínculo que se puede compartir facilita el uso compartido de un informe de valoración en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el informe de valoración en su escritorio o en la aplicación móvil de paneles. La vinculación profunda que se puede compartir facilita aún más el uso compartido de los proyectos e incrementa la participación con las partes interesadas.
+El uso de un vínculo que se puede compartir facilita el uso de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles. La vinculación profunda compartible facilita aún más el uso compartido de proyectos y la participación con las partes interesadas.
 
-Para compartir un informe de valoración mediante un vínculo que se puede compartir
+Para compartir un cuadro de resultados mediante un vínculo que se puede compartir
 
 1. Haga clic en el menú **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Compartir informe de valoración]**.
 
    ![Share_Scorecards](assets/share-scorecard.png)
 
-1. Copie el vínculo y péguelo en una aplicación de correo electrónico, documento o mensajería instantánea.
+1. Copie el vínculo y péguelo en un correo electrónico, documento o aplicación de mensajería instantánea.
 
-   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto del informe de valoración móvil se abrirá en Workspace.
+   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto de cuadro de resultados móvil se abrirá en Workspace.
 
-   Cuando un destinatario abre el vínculo en un dispositivo móvil, el informe de valoración se abre directamente en la aplicación de paneles de Analytics.
+   Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abre directamente en la aplicación de paneles de Analytics.
 
-   Si un destinatario no ha descargado la aplicación móvil, se le dirigirá al listado de aplicaciones de App Store o Google Play Store donde puede descargarla.
+   Si un destinatario no ha descargado la aplicación móvil, se le redirigirá a la lista de aplicaciones de la tienda de App Store o Google Play donde pueda descargarla.
 

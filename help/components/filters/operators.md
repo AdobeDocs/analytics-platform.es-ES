@@ -2,10 +2,10 @@
 title: Operadores de filtro
 description: Determine cómo interactúa un componente con un valor dentro de un filtro.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: a8b884148a197b081e321582f70a9188a1bdc51e
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ El Generador de filtros le permite comparar y restringir valores utilizando los 
 
 ## Operadores de recuento distinto
 
-Puede segmentar un recuento distinto de elementos dentro de una dimensión. Por ejemplo, puede crear filtros para los visitantes que vieron más de 5 productos diferentes o visitas donde se vieron más de 5 páginas diferentes.
+Puede segmentar un recuento distinto de elementos dentro de una dimensión. Por ejemplo, puede crear filtros para las personas que vieron más de 5 productos diferentes o visitas donde se vieron más de 5 páginas diferentes.
 
 | Operador | Descripción |
 | --- | --- |

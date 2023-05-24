@@ -4,10 +4,10 @@ description: Preguntas frecuentes sobre Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ Puede utilizar una visualización de flujo con la dimensión ID de conjunto de d
 
 Puede utilizar un conjunto de datos de búsqueda si desea cambiar el nombre de los elementos de la dimensión de ID de conjunto de datos.
 
-## ¿Cuánto tiempo atrás vuelve CCA a generar las claves de los visitantes?
+## ¿Hasta dónde regresa CCA a las personas?
 
 La ventana retrospectiva para la regeneración de claves depende de la frecuencia deseada de [reproducción](replay.md) de los datos. Por ejemplo, si configura CCA para que reproduzca los datos una vez por semana, la ventana retrospectiva para la regeneración de claves será de siete días. Si configura CCA para que reproduzca datos todos los días, la ventana retrospectiva para la regeneración de claves será de un día.
 
@@ -40,9 +40,9 @@ En algunas situaciones, un usuario individual puede asociarse con muchos ID pers
 
 El número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de CCA para crear vínculos entre los diferentes dispositivos.
 
-## Una vez que me comunico con mi equipo de cuenta de Adobe con la información deseada, ¿cuánto tarda el conjunto de datos marcado en estar disponible?
+## Una vez que contacto con mi equipo de cuenta de Adobe y le proporciono la información deseada, ¿cuánto tiempo tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?
 
-La vinculación en tiempo real está disponible aproximadamente una semana después de que Adobe active Cross-Channel Analytics. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los conjuntos de datos grandes (100 millones de eventos por día) pueden tardar una semana o más.
+La vinculación en tiempo real está disponible aproximadamente una semana después de que Adobe active Cross-Channel Analytics. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
 
 ## ¿Cuál es la diferencia entre Análisis entre dispositivos (una función tradicional de Analytics) y Cross-Channel Analytics?
 
@@ -67,7 +67,7 @@ Ciertas métricas en CJA son similares a las métricas en la versión tradiciona
 
 | **Datos vinculados de CJA** | **Datos no identificados entre dispositivos de CJA** | **Adobe Analytics tradicional** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Personas** = Recuento de `Person ID` diferentes donde `Stitched ID` se elige como `Person ID`. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de `Person ID` diferentes según la columna seleccionada como `Person ID`. **Las personas** en los conjuntos de datos del conector de origen de Adobe son similares a los **visitantes únicos** en Adobe Analytics tradicional si `endUserIDs._experience.aaid.id` se elige como `Person ID` en CJA. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
+| **Personas** = Recuento de `Person ID` diferentes donde `Stitched ID` se elige como `Person ID`. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de `Person ID` diferentes según la columna seleccionada como `Person ID`. **Las personas** en los conjuntos de datos del conector de origen de Adobe son similares a los **visitantes únicos** en Adobe Analytics tradicional si `endUserIDs._experience.aaid.id` se elige como `Person ID` en CJA. | **Visitantes únicos** = Recuento de ID de persona diferentes. **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
 | **Sesiones**: se define en función de la configuración de sesiones en la vista de datos de CJA. El proceso de identificación entre dispositivos puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: se define en función de la configuración de sesiones especificada en la vista de datos de CJA. | **Visitas**: consulte [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es). | **Visitas**: se define en función de la configuración de sesiones especificada en el [grupo de informes virtuales de CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=es). |
 | **Eventos** = recuento de filas en los datos enlazados en CJA. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. No obstante, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un `Persistent ID` en blanco. | **Eventos** = recuento de filas en los datos no enlazados en CJA. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. Sin embargo, tenga en cuenta que si algún evento tiene un `Person ID` en blanco en los datos no enlazados en el lago de datos de Experience Platform, estos eventos no se incluyen en CJA. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). |
 

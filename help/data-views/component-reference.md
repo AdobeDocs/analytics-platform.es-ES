@@ -4,10 +4,10 @@ description: Detalles e información sobre todos los componentes estándar que s
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c5a42392df82af4f0f8dcd718e3ce962ad654191
-workflow-type: ht
-source-wordcount: '915'
-ht-degree: 100%
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ De forma predeterminada, estos componentes estándares necesarios se añaden a c
 | [!UICONTROL Trimestre] | Dimensión | El trimestre en el que se produjo un evento determinado. El primer elemento de dimensión es el primer trimestre del intervalo de fechas y el último elemento de dimensión es el último trimestre del intervalo de fechas. |
 | [!UICONTROL Año] | Dimensión | Año en el que se produjo un evento determinado. El primer elemento de dimensión es el primer año del intervalo de fechas y el último elemento de dimensión es el año más reciente del intervalo de fechas. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Componentes estándar opcionales {#optional}
 
@@ -53,7 +53,7 @@ Los componentes estándar opcionales están disponibles en la pestaña **[!UICON
 | [!UICONTROL Hora del día] | Dimensión de partición de tiempo | 0-23 |
 | [!UICONTROL  Mes del año] | Dimensión de partición de tiempo | Enero-diciembre |
 | [!UICONTROL Nueva sesión] | Métrica | Primera sesión de una persona definida dentro de la ventana de creación de informes. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat) |
-| [!UICONTROL ID de la persona] | Dimensión | Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID vinculado, ID de usuario, código de seguimiento, etc. La dimensión [!UICONTROL ID de persona] es la base de la combinación de conjuntos de datos y la identificación de visitantes únicos en CJA.<p>Los posibles casos de uso incluyen los siguientes:<ul><li>Creación de un filtro con un valor de ID de persona específico para filtrar todo según el comportamiento de ese usuario.</li><li>Depuración: asegúrese de que los datos de un ID de cookie específico (o un ID de cliente específico) estén presentes.</li><li>Identificación de los usuarios que llamaron a un centro de llamadas.</li></ul> |
+| [!UICONTROL ID de la persona] | Dimensión | Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de ellos puede utilizarse como ID de persona. Algunos ejemplos son: ID de cookie, ID vinculado, ID de usuario, código de seguimiento, etc. El [!UICONTROL ID de persona] La dimensión es la base de la combinación de conjuntos de datos y la identificación de personas únicas en CJA.<p>Los posibles casos de uso incluyen los siguientes:<ul><li>Creación de un filtro con un valor de ID de persona específico para filtrar todo según el comportamiento de ese usuario.</li><li>Depuración: asegúrese de que los datos de un ID de cookie específico (o un ID de cliente específico) estén presentes.</li><li>Identificación de los usuarios que llamaron a un centro de llamadas.</li></ul> |
 | [!UICONTROL Área de nombres de ID de persona] | Dimensión | De qué tipo de identificación consta el [!UICONTROL ID de persona]. Ejemplos: `email address`, `cookie ID`, `Analytics ID`, etc. |
 | [!UICONTROL Trimestre del año] | Dimensión de partición de tiempo | T1, T2, T3, T4 |
 | [!UICONTROL Repetir sesión] | Métrica | Número de sesiones que no fueron la primera sesión de una persona. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat) |
@@ -66,4 +66,4 @@ Los componentes estándar opcionales están disponibles en la pestaña **[!UICON
 | [!UICONTROL Tiempo empleado por persona] | Dimensión | Agrupa el [!UICONTROL Tiempo empleado] de la métrica en bloques de [!UICONTROL Personas]. |
 | [!UICONTROL Fin de semana]/[!UICONTROL día laborable] | Dimensión de partición de tiempo | Fin de semana o día laborable |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

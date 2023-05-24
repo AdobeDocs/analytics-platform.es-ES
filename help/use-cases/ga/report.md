@@ -4,10 +4,10 @@ description: Muestra informes útiles sobre los datos de Google Analytics en Cus
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Puede analizar la tendencia del tiempo invertido en el centro de llamadas durant
 
 ![Volumen de llamadas](../assets/call-volume.png)
 
-El uso de la dimensión “Razón de la llamada” puede sugerir formas de mejorar la experiencia web, y evitar que los visitantes llamen en primer lugar. El ejemplo anterior muestra que “Producto dañado” tiene un tiempo de llamada promedio de casi 3 minutos por llamada, lo que proporciona a su organización una manera precisa de mejorar la experiencia del cliente y reducir los costes del centro de llamadas.
+El uso de la dimensión &quot;Razón de la llamada&quot; puede sugerir formas de mejorar la experiencia web, y evitar que las personas llamen en primer lugar. El ejemplo anterior muestra que “Producto dañado” tiene un tiempo de llamada promedio de casi 3 minutos por llamada, lo que proporciona a su organización una manera precisa de mejorar la experiencia del cliente y reducir los costes del centro de llamadas.
 
 Puede ver qué productos provocan la mayoría de las llamadas a su centro de llamadas y cuántos clientes las hicieron. El gráfico de burbujas muestra que llamaron 20 000 personas, pasaron más de 4 horas y 30 minutos y devolvieron 33 unidades del producto &quot;Camiseta de manga corta para hombre&quot;.
 

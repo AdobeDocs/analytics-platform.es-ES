@@ -3,10 +3,10 @@ description: Un histograma es similar a un gráfico de barras, pero agrupa núme
 title: Histograma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Para crear un histograma:
 >
 >Los histogramas únicamente admiten métricas estándar, pero no métricas calculadas.
 
-Aquí hemos utilizado la métrica Vistas de página por Visitantes únicos. El primer contenedor (izquierda) corresponde a 1 vista de página por visitante único, el segundo bloque a dos vistas de página, etcétera.
+Aquí hemos utilizado la métrica Vistas de página por Visitantes únicos. El primer contenedor (izquierda) corresponde a 1 vista de página por persona única, el segundo bloque a dos vistas de página, etc.
 
 ![](assets/histogram2.png)
 
@@ -41,7 +41,7 @@ Para ajustar la configuración de su histograma, haga clic en el icono de Config
 | Iniciando el depósito | Determina por qué contenedor empieza el histograma. La opción predeterminada es “1”. Puede ajustar los números iniciales de 0 hasta el infinito (sin números negativos). |
 | Contenedor de métricas | Le permite aumentar/disminuir el número de rangos de fecha (contenedores). El número máximo de contenedores es 50. |
 | Tamaño del contenedor de métricas | Le permite establecer el tamaño de cada contenedor. Por ejemplo, puede cambiar el tamaño del contenedor de 1 vista de página a 2 vistas de página. |
-| Método de recuento | Permite seleccionar entre [Visitante](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=es), [Visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es) o Tipo de visita. Por ejemplo, vistas de página por visita o vistas de página por visitante o vistas de página por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre. |
+| Método de recuento | Permite seleccionar entre [Visitante](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=es), [Visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es) o Tipo de visita. Por ejemplo, vistas de página por visita o vistas de página por persona o vistas de página por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

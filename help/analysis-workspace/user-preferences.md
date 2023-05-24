@@ -4,10 +4,10 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '3150'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
@@ -160,7 +160,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 |  | Mostrar comparación | Se muestran datos de comparación. Cuando están ocultos, el gráfico de líneas de comparación y los objetos de cambio de resumen no se ven. |
 |  | Opciones de valor numérico | En la sección [!UICONTROL **Resumen de métricas clave**] <ul><li>Mostrar cambio de porcentaje</li><li>Mostrar diferencia en bruto</li>Diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario</ul> |
 | **[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** |  |  |
-|  | Contenedor | Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. La opción predeterminada es Visitante. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Visita</li><li>Visitante</li></ul> |
+|  | Contenedor | Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. La opción predeterminada es Visitante. Esta configuración le ayuda a comprender la participación de la persona en el nivel de persona (entre sesiones) o a restringir el análisis a una sola sesión. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Visita</li><li>Visitante</li></ul> |
 | **[Flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** |  |  |
 |  | Contenedor | En la sección [!UICONTROL **Flujo**] <ul><li>Visita</li><li>Visitante</li></ul> |
 |  | Etiquetas de ajustes | Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla. Valor predeterminado = sin marcar. |
@@ -172,7 +172,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 |  | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. <p>Para obtener más información, consulte [Barra y barra apilada](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | Número de contenedores | Elija el número de intervalos de datos (contenedores) en la visualización. El número máximo de contenedores es 50. <p>Para obtener más información, consulte [Histograma](/help/analysis-workspace/visualizations/histogram.md).</p> |
-|  | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Visita</li><li>Visitante</li></ul> <p>Por ejemplo, cuando se utiliza junto con las vistas de página, puede elegir las vistas de página por visitante, las vistas de página por visita o las vistas de página por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
+|  | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Visita</li><li>Visitante</li></ul> <p>Por ejemplo, cuando se utiliza junto con las vistas de página, puede elegir las vistas de página por persona, las vistas de página por visita o las vistas de página por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
 | **[Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio porcentual</li><li>Diferencia en bruto</li></ul> |
 |  | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Cambio de resumen. |

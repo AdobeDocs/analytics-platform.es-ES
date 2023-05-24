@@ -1,15 +1,15 @@
 ---
 title: Análisis en canales múltiples
-description: Obtenga información sobre cómo volver a escribir los ID de visitante de varios conjuntos de datos para vincular los visitantes.
+description: Aprenda a volver a escribir los ID de persona de varios conjuntos de datos para vincular a las personas.
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
-workflow-type: ht
+exl-id: 5fb30b64-d305-4de4-ab84-66195ceb8386
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
-
 
 # Análisis en canales múltiples
 

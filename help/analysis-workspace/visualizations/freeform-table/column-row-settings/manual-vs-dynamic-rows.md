@@ -3,10 +3,10 @@ title: Elementos de dimensión dinámicos o estáticos en tablas de forma libre
 description: Interacción con elementos de dimensión dinámicos y estáticos en tablas
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: 54032271e8f12673cc6d4f2b209b4fa89f5c4406
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Cuando se coloca una dimensión en una tabla de forma libre, se devuelven filas 
 
 Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) se devuelven de forma dinámica a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
 
-Los elementos de dimensión dinámicos tienen la opción de filtro de fila y los iconos X, y sí **not** tienen el icono de candado presente. <!--do they have the lock icon? --> Al hacer clic en la x junto a un elemento de dimensión dinámica, se aplica un filtro automáticamente. Para obtener más información sobre la aplicación de filtros a tablas, consulte [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Los elementos de dimensión dinámicos tienen la opción de filtro de fila y los iconos X, y **no** tenga el icono de candado presente. <!--do they have the lock icon? --> Al hacer clic en la x junto a un elemento de dimensión dinámica, se aplica automáticamente un filtro. Para obtener más información sobre la aplicación de filtros a tablas, consulte [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
 ![](assets/dynamic-items.png)
@@ -52,5 +52,5 @@ Los elementos de dimensión de diferentes dimensiones se pueden agregar a la mis
 
 Las filas dinámicas y estáticas se comportan de forma diferente en la fila total improvisada. De forma predeterminada:
 
-* Las filas dinámicas se suman a las métricas del lado del servidor y a las duplicadas, como visitas o visitantes
+* Las filas dinámicas se suman a las métricas del lado del servidor y a las duplicadas, como visitas o personas
 * Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es)

@@ -4,10 +4,10 @@ description: Utilice el conector de origen de Analytics para incorporar reglas d
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ La configuración del canal de marketing funciona de forma diferente entre los d
 
    ![Anular canal de último toque](../assets/override-last-touch-channel.png)
 
-* **Caducidad de canal de marketing**: esta configuración del período de participación determina el período de inactividad antes de que un visitante pueda obtener un nuevo canal de primer contacto en los datos del grupo de informes. Platform utiliza su propia configuración de atribución, por lo que esta configuración se ignora por completo en CJA.
+* **Caducidad de canal de marketing**: esta configuración del período de participación determina el período de inactividad antes de que una persona pueda obtener un nuevo canal de primer contacto en los datos del grupo de informes. Platform utiliza su propia configuración de atribución, por lo que esta configuración se ignora por completo en CJA.
 
    ![Caducidad del canal de marketing](../assets/marketing-channel-expiration.png)
 
@@ -71,4 +71,4 @@ Debido a que la arquitectura de Adobe Experience Platform es diferente a un grup
 * Asegúrese de que su conexión utiliza el mismo grupo de informes que Analytics tradicional. Si la conexión de CJA contiene varios grupos de informes con sus propias reglas de procesamiento de canal de marketing, no hay una manera fácil de compararla con Analytics tradicional. Desea crear una conexión independiente para cada grupo de informes con el fin de comparar los datos.
 * Asegúrese de comparar los mismos intervalos de fechas y de que la configuración de la zona horaria de su vista de datos sea la misma que la del grupo de informes.
 * Utilice un modelo de atribución personalizado cuando visualice los datos del grupo de informes. Por ejemplo, utilice la dimensión [Canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=es) con métricas que utilicen un modelo de atribución no predeterminado. Adobe aconseja no comparar las dimensiones predeterminadas [Canal de primer contacto](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=es) o [Canal de último contacto](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=es), porque dependen de la atribución recopilada en el grupo de informes. CJA no se basa en los datos de atribución de un grupo de informes; en su lugar, se calcula cuando se ejecuta un informe de CJA.
-* Algunas métricas no tienen una comparación razonable debido a las diferencias de arquitectura entre los datos del grupo de informes y los datos de Platform. Algunos ejemplos son visitas/sesiones, visitantes/personas y ocurrencias/eventos.
+* Algunas métricas no tienen una comparación razonable debido a las diferencias de arquitectura entre los datos del grupo de informes y los datos de Platform. Algunos ejemplos son visitas/sesiones, personas/personas y ocurrencias/eventos.

@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1245'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -26,10 +26,10 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Gráfico de viñetas](/help/analysis-workspace/visualizations/bullet-graph.md) | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
 | [Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil para el análisis de retención, pérdida o latencia. |
 | [Anillo](/help/analysis-workspace/visualizations/donut.md) | Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. |
-| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
+| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
 | [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
 | [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabla de forma libre no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
-| [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a visitantes, visitas o eventos en bloques en función de un volumen de métrica. |
+| [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a personas, visitas o eventos en bloques en función de un volumen de métrica. |
 | [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
 | [Líneas](/help/analysis-workspace/visualizations/line.md) | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
 | [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
