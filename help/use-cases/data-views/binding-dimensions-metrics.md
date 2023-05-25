@@ -3,10 +3,10 @@ title: Uso de dimensiones y métricas de enlace en CJA
 description: Atribuir dimensiones a matrices de objetos para un análisis de persistencia complejo.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '1330'
-ht-degree: 100%
+source-git-commit: 71c633f259b25f30d474ab19f714935b074dfc0c
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 91%
 
 ---
 
@@ -78,11 +78,11 @@ Si desea ver los ingresos por color sin una dimensión de enlace, la dimensión 
 | --- | --- |
 | naranja neón | 2099 |
 
-Puede entrar al Administrador de vista de datos y enlazar el color del producto con su nombre:
+Puede entrar al administrador de vistas de datos y enlazar el color del producto con su nombre:
 
 ![Dimensión de enlace](../assets/binding-dimension.png)
 
-Cuando se establece este modelo de persistencia, CJA toma nota del nombre del producto cada vez que se establece su color. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para este visitante, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con su nombre tendrían un aspecto similar al siguiente:
+Cuando se establece este modelo de persistencia, CJA toma nota del nombre del producto cada vez que se establece su color. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para esta persona, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con su nombre tendrían un aspecto similar al siguiente:
 
 | product.color | ingresos |
 | --- | --- |
@@ -237,19 +237,19 @@ Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido
    }
    ```
 
-Si utiliza un modelo de asignación que no incluya una dimensión de enlace con el término de búsqueda, los tres productos atribuirán los ingresos a un único término de búsqueda. Por ejemplo, si utilizó la asignación original con la dimensión de término de búsqueda:
+Si utiliza un modelo de asignación que no incluya una dimensión de enlace con el término de búsqueda, los tres productos atribuirán los ingresos a un único término de búsqueda. Por ejemplo, si utilizó [!UICONTROL Original] asignación con la dimensión de término de búsqueda:
 
 | search_term | ingresos |
 | --- | --- |
 | guantes de boxeo | 204,97 USD |
 
-Si ha utilizado la asignación más reciente con la dimensión de término de búsqueda, los tres productos siguen atribuyendo ingresos a un único término de búsqueda:
+Si ha utilizado [!UICONTROL Más reciente] Al asignar con la dimensión de término de búsqueda, los tres productos siguen atribuyendo ingresos a un único término de búsqueda:
 
 | search_term | ingresos |
 | --- | --- |
 | zapatos | 204,97 USD |
 
-Aunque este ejemplo incluye solo un visitante, muchos visitantes que buscan cosas diferentes pueden atribuir de forma incorrecta términos de búsqueda a productos diferentes, lo que dificulta poder determinar cuáles son realmente los mejores resultados de búsqueda.
+Aunque este ejemplo incluye solo una persona, muchas personas que buscan cosas diferentes pueden atribuir de forma incorrecta términos de búsqueda a productos diferentes, lo que dificulta determinar cuáles son realmente los mejores resultados de búsqueda.
 
 Puede enlazar términos de búsqueda con nombres de producto siempre que la métrica Búsquedas esté presente para atribuir correctamente términos de búsqueda a ingresos.
 
