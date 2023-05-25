@@ -4,10 +4,10 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
+source-git-commit: 29ceba37422ab2cb432bbe000dee6379a63d5a8f
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -111,7 +111,7 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 
 * Personas fuera de la organización
 
-* Personas de su organización que no están aprovisionadas con Customer Journey Analytics
+* Personas de su organización que no tienen acceso a Customer Journey Analytics
 
 >[!NOTE]
 >
@@ -126,6 +126,8 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 >* Los usuarios con los que comparte puede cambiar el intervalo de fechas del proyecto. El intervalo de fechas que ha establecido para el proyecto se muestra de forma predeterminada.
 >
 >* Un proyecto podría resultar inaccesible si muchos usuarios intentan acceder a un vínculo determinado al mismo tiempo. De forma predeterminada, más de 190 personas pueden acceder a un solo vínculo cada 5 minutos. Si su organización alcanza este límite, espere 5 minutos e intente acceder al vínculo de nuevo.
+>
+>* Si su organización dispone de licencia para Healthcare Shield, solo podrá compartir proyectos con usuarios autenticados mediante el inicio de sesión único (SSO) o Adobe ID; no podrá compartir proyectos con usuarios no autenticados. Es su responsabilidad utilizar esta función de conformidad con las políticas internas de control de datos de su empresa y compartir únicamente los vínculos de proyecto que contengan Información médica personal (PHI) con los usuarios que tengan los permisos adecuados.
 
 
 Para compartir un proyecto de Analysis Workspace con cualquier persona:
@@ -154,7 +156,7 @@ Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
       * Si esta opción no está visible, su administrador de CJA no habilitó esta función.
 
-      * Si esta opción está habilitada y atenuada, el administrador de CJA requiere la autenticación del Experience Cloud para cualquiera que acceda a proyectos de Analysis Workspace.
+      * Si esta opción está habilitada y no puede deshabilitarla, significa que el administrador de CJA requiere la autenticación de Experience Cloud para cualquiera que acceda a proyectos de Analysis Workspace. Este siempre es el caso de las organizaciones que conceden la licencia a Healthcare Shield.
 
 1. Junto a la **[!UICONTROL Compartir con cualquiera (no se requiere inicio de sesión)]** , haga clic en el **Copiar vínculo** icono ![Icono Copiar vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)) para copiar el enlace en el portapapeles del sistema.
 
