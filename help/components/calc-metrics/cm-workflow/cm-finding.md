@@ -3,40 +3,15 @@ description: 'Describe las dos formas principales de encontrar sus métricas: cl
 title: Buscar métricas
 feature: Calculated Metrics
 exl-id: 34d2563a-7cd2-4f22-9ad0-6a3dab8d84ea
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 24%
 
 ---
 
 # Buscar métricas
 
-Describe las dos formas principales de encontrar sus métricas: clasificación y filtrado.
+Las métricas se pueden localizar en Analysis Workspace del mismo modo que se localizan otros tipos de componentes.
 
-## Clasificación {#sorting}
-
-Cuando abra un informe y haga clic en el icono Métricas ![](assets/metrics_icon.png) que encontrará a la izquierda para que se muestre el carril Métricas, verá cuatro opciones de clasificación en la lista desplegable **[!UICONTROL Clasificar por]** del Selector de métricas:
-
-![](assets/cm_sort.png)
-
-| Opción | Cuándo utilizarla |
-|---|---|
-| Alfabético | Útil cuando sabe el nombre. |
-| Recomendado | Métricas comunes que se utilizan en el informe: esto se recopila en segundo plano a partir de las métricas que suelen utilizar los usuarios con este informe. |
-| Más utilizadas | Resulta útil cuando es un usuario sin experiencia y necesita ver qué se utiliza normalmente en el informe. |
-| Más recientes | Resulta útil si trabaja en un proyecto y utiliza el mismo grupo de métricas una y otra vez. |
-
-## Filtrado - selección avanzada {#filtering-advanced}
-
-Tras abrir un informe y hacer clic en el icono Métricas, haga clic en **[!UICONTROL Administrar]**. A continuación, haga clic en el icono Filtrar. Puede filtrar de varias formas.
-
-![](assets/cm_advanced_sel.png)
-
-| Si desea | Clasificar por |
-| --- | --- |
-| Mostrar todas las métricas en esta vista de datos. | Otros filtros > Mostrar todo |
-| Mostrar solo las métricas que tiene. | Otros filtros > Míos |
-| Mostrar métricas compartidas conmigo por otra persona. | Seleccione Propietarios u Otros filtros > Compartido conmigo |
-| Mostrar únicamente las métricas que han sido aprobadas por la empresa. | Aprobado |
-| Filtrar las métricas de un proyecto en el que esté trabajando. | Una de las etiquetas. |
+Para obtener información sobre cómo localizar rápidamente componentes, consulte [Buscar, filtrar y ordenar la lista de componentes](https://experienceleague.corp.adobe.com/docs/analytics-platform/using/cja-components/overview.html?lang=en#search%2C-filter%2C-and-sort-the-component-list) in [Resumen de componentes](/help/components/overview.md).
