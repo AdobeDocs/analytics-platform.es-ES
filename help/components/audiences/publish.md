@@ -2,7 +2,7 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
+source-git-commit: a56cc7a0299aad98ff8af5e0d59df4679e0d2d25
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 90%
@@ -82,15 +82,15 @@ Después de crear una audiencia, Adobe crea un segmento de streaming de Experien
 
 ## Consideraciones de latencia {#latency}
 
-Pueden producirse latencias en varios puntos antes, durante y después de la publicación de la audiencia. A continuación se muestra una información general de las posibles latencias.
+En varios puntos antes, durante y después de la publicación de audiencias, se pueden producir latencias. A continuación se muestra una información general de las posibles latencias.
 
-![latencia de AEP a CJA](assets/latency-diagram.png)
+![Latencia de AEP a CJA](assets/latency-diagram.png)
 
 | # | Punto de latencia | Duración de la latencia |
 | --- | --- | --- |
 | No se muestra | Conector de origen de Adobe Analytics a Analytics (A4T) | Hasta 30 minutos |
-| 1 | Ingesta de datos en Data Lake (desde Analytics Source Connector u otras fuentes) | Hasta 90 minutos |
-| 2 | Ingesta de datos desde Data Lake de Experience Platform a CJA | Hasta 90 minutos |
+| 1 | Ingesta de datos en el lago de datos (desde el conector de origen de Analytics u otras fuentes) | Hasta 90 minutos |
+| 2 | Ingesta de datos del lago de datos de Experience Platform en CJA | Hasta 90 minutos |
 | 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
 | 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
 | 5 | Creación de destino en AEP: Activación del nuevo segmento | 1 a 2 horas |
@@ -131,7 +131,7 @@ Efectivamente.
 
 +++
 
-+++**¿CJA envía los datos de audiencia como eventos de canalización o como un archivo plano que también se dirige a un lago de datos?**
++++**¿CJA envía los datos de audiencia como eventos de canalización o como archivo sin formato que también va al lago de datos?**
 
 CJA transmite los datos a RTCP mediante canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
 
@@ -139,7 +139,7 @@ CJA transmite los datos a RTCP mediante canalización y estos datos también se 
 
 +++**¿Qué identidades envía CJA?**
 
-Los pares de identidad/área de nombres que se especificaron en la variable [Configuración de la conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
+Los pares de identidad/área de nombres especificados en la variable [Configuración de conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
 
 +++
 
@@ -155,15 +155,15 @@ No. Solo enviamos una identidad por “persona”, por lo que no habría bordes 
 
 +++
 
-+++**¿A qué hora del día se producen actualizaciones diarias, semanales y mensuales? ¿Qué día de la semana se producen actualizaciones semanales?**
++++**¿A qué hora del día se producen las actualizaciones diarias, semanales y mensuales? ¿Qué día de la semana se producen las actualizaciones semanales?**
 
-El momento de la actualización se basa en el momento en que se publicó la audiencia original y se ancla a esa hora del día (y el día de la semana o el mes).
+El momento de la actualización se basa en el momento en el que se publicó la audiencia original y se ancla a esa hora del día (y al día de la semana o del mes).
 
 +++
 
-+++**¿Pueden los usuarios configurar la hora diaria, semanal y mensual de actualización?**
++++**¿Pueden configurar los usuarios el tiempo de actualización diario, semanal y mensual?**
 
-No, los usuarios no pueden configurarlos.
+No, los usuarios no pueden configurarlas.
 
 +++
 
