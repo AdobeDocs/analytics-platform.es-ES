@@ -2,7 +2,7 @@
 title: Comparar el procesamiento de datos entre las funciones de informes de Adobe Analytics y CJA
 description: Comprender las diferencias en el procesamiento de datos para las distintas funciones de informes
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a38e2afac7645e9249e42e0b4830f5249a69b522
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 71%
@@ -45,7 +45,7 @@ La siguiente tabla define la terminología para los diferentes tipos de lógica 
 | Métricas calculadas | Evaluación de métricas personalizadas creadas por el cliente que pueden basarse en fórmulas complejas, incluidos segmentos y filtros. | Ejemplo: número de personas que compraron zapatos rojos. |
 | Lógica de atribución | Lógica para calcular la atribución. | Ejemplo: Persistencia del eVar. |
 | Configuración de componentes | Aplicación de personalizaciones a métricas o dimensiones, como atribución, comportamiento, formato, etc | Ejemplo: agrupación de valores para combinar valores numéricos basados en un rango |
-| Campos personalizados | La lógica se aplica a los campos de esquema o estándar como parte de la definición de componentes en una vista de datos. | Ejemplo: creación de una nueva dimensión de canal de marketing |
+| Campos derivados | La lógica se aplica a los campos de esquema o estándar como parte de la definición de componentes en una vista de datos. | Ejemplo: creación de una nueva dimensión de canal de marketing |
 
 {style="table-layout:auto"}
 
