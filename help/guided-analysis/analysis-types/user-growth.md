@@ -1,9 +1,10 @@
 ---
 title: Crecimiento de usuarios
 description: Realice un seguimiento del crecimiento de la base de usuarios de su producto.
-source-git-commit: 37699a674a190aa2f28125d5b39bb3c27ac88551
+exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
+source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
@@ -25,7 +26,7 @@ Los casos de uso de este tipo de análisis incluyen:
 
 * **Evaluación del rendimiento**: el crecimiento de usuarios le permite evaluar el rendimiento general del producto en términos de adquisición de nuevos usuarios. Al rastrear las tendencias de crecimiento, puede comprender mejor si su producto atrae y retiene a los usuarios a un ritmo deseado.
 * **Retención y pérdida de usuarios:** El crecimiento del usuario proporciona una visualización clara de los períodos de retención de usuarios alta o baja. Reconocer estos períodos de retención alta o baja puede ayudarle a tomar decisiones sobre productos para fomentar una retención alta o ayudar a minimizar la pérdida.
-* **Evaluación de campaña**: Ver el crecimiento de usuarios específico de una campaña específica puede ayudarle a comprender no solo cuánto tráfico generó, sino también en qué medida la campaña ayudó a los usuarios a seguir participando.
+* **Evaluación de campaña**: Ver el crecimiento del usuario en torno a una campaña específica puede ayudarle a comprender no solo cuánto tráfico generó, sino también en qué medida la campaña ayudó a los usuarios a seguir participando.
 
 [Captura de pantalla del crecimiento de usuarios]
 
@@ -33,8 +34,8 @@ Los casos de uso de este tipo de análisis incluyen:
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **Eventos**: el evento que desea medir. Dado que este tipo de análisis se basa en el usuario, un usuario puede tocar el evento una vez dentro de la granularidad de fecha establecida para contarlo como un usuario activo. Solo puede incluir un evento.
-* **People**: El segmento que desea medir. Solo puede incluir un segmento.
+* **Eventos**: el evento que desea medir. Dado que este tipo de análisis se basa en el usuario, un usuario puede tocar el evento una vez dentro de la granularidad de fecha establecida para contarlo como un usuario activo. Solo se puede incluir un evento en una consulta.
+* **People**: El segmento que desea medir. Solo puede incluir un segmento en una consulta.
 
 ## Tipos de vista
 

@@ -3,7 +3,7 @@ description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 51%
@@ -95,7 +95,7 @@ Los filtros desplegables dinámicos le permiten determinar los valores disponibl
 
 Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los filtros seleccionados del panel. Los elementos de Dimension seleccionados en los filtros desplegables estáticos afectan a los valores disponibles en los filtros desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de Dimension seleccionados en los filtros desplegables dinámicos no afectan a los valores disponibles en los filtros desplegables estáticos.
 
-La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un filtro desplegable dinámico para que no contenga un valor, lo que permitirá que otros filtros desplegables dinámicos contengan más valores. Seleccionar **[!UICONTROL Borrar todo]** para borrar la selección de todos los filtros desplegables de ese panel.
+La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un filtro desplegable dinámico para que no contenga un valor, lo que permitirá que otros filtros desplegables dinámicos contengan más valores. Seleccionar **[!UICONTROL Restablecer todo]** para borrar la selección de todos los filtros desplegables de ese panel.
 
 Para crear un filtro desplegable dinámico:
 
