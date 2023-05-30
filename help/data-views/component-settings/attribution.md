@@ -4,16 +4,20 @@ description: Permite establecer la atribución predeterminada para una métrica.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1781'
 ht-degree: 38%
 
 ---
 
 # Configuración de componentes de atribución
 
-La atribución le permite personalizar la forma en que los elementos de dimensión obtienen crédito por los eventos de éxito. Por ejemplo:
+La atribución le permite personalizar la forma en que los elementos de dimensión obtienen crédito por los eventos de éxito.
+
+![](../assets/attribution-settings.png)
+
+Por ejemplo:
 
 1. Una persona que accede a su sitio hace clic en un vínculo de búsqueda de pago a una de las páginas de producto. Agregan el producto al carro de compras, pero no lo compran.
 2. Al día siguiente, ven una publicación en los medios sociales de uno de sus amigos. Hace clic en el vínculo y, a continuación, completa la compra.
@@ -22,7 +26,7 @@ En algunos informes, es posible que desee atribuir el pedido a la búsqueda de p
 
 Esta configuración del componente de vista de datos le permite establecer un modelo de atribución predeterminado para una métrica. Puede anular el modelo de atribución de una métrica determinada mientras trabaja en Analysis Workspace.
 
-![Atribución](../assets/attribution-settings.png)
+
 
 Si su organización requiere que una métrica tenga varias configuraciones de atribución, puede realizar una de las siguientes acciones:
 
@@ -45,7 +49,7 @@ Un modelo de atribución determina qué elementos de dimensión obtienen crédit
 | ![J inversa](../assets/attribution-models/inverse_j.png) | J inversa | Otorga un 60% de crédito al primer contacto, un 20% al último contacto y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 75% de crédito a la primera interacción y un 25% de crédito a la última. Similar a la Forma de J, este modelo de atribución favorece la primera y la última interacción, pero favorece más intensamente la primera interacción. |
 | ![Deterioro de tiempo](../assets/attribution-models/time_decay.png) | Deterioro de tiempo | Sigue un declive exponencial con un parámetro de semivida personalizado, con un valor predeterminado de 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2^(-t/halflife)`, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100%. Ideal para escenarios en los que desea medir la atribución con un evento específico e importante. Cuanto más tardía sea la conversión después de este evento, menor será el crédito. |
 | ![Personalizado](../assets/attribution-models/custom.png) | Personalizado | Permite especificar los pesos que desea dar al primer punto de contacto, al último punto de contacto y a cualquier punto de contacto intermedio. Los valores especificados se normalizan al 100% incluso si los números introducidos no suman 100. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. En el caso de interacciones con dos puntos de contacto, se omite el parámetro central. Los puntos de primer y último contacto se normalizan al 100% y el crédito se asigna en consecuencia. Este modelo es ideal para los analistas que desean un control total sobre su modelo de atribución y tienen necesidades específicas que otros modelos de atribución no satisfacen. |
-| ![Algorítmico](../assets/attribution-models/algorithmic.png) | Algorítmico | Utiliza técnicas estadísticas para determinar de manera dinámica la asignación óptima de crédito para la métrica seleccionada. El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.<br>En un nivel alto, la atribución se calcula como una coalición de actores a los que se debe distribuir equitativamente un excedente. La distribución del superávit de cada coalición se determina de acuerdo con el superávit creado previamente por cada subcoalición (o los elementos de dimensión que participaban antes) de manera recursiva. Para obtener más información, consulte los artículos originales de John Harsanyi y Lloyd Shapley:<br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). Un modelo de negociación simplificado para un juego cooperativo de n personas. *International Economic Review 4(2)*, 194-220. |
+| ![Algorítmico](../assets/attribution-models/algorithmic.png) | Algorítmico | Utiliza técnicas estadísticas para determinar de manera dinámica la asignación óptima de crédito para la métrica seleccionada. El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.<br>En un nivel alto, la atribución se calcula como una coalición de actores a los que se debe distribuir equitativamente un excedente. La distribución del superávit de cada coalición se determina de acuerdo con el superávit creado previamente por cada subcoalición (o los elementos de dimensión que participaban antes) de manera recursiva. Para más detalles, vea los artículos originales de John Harsanyi y Lloyd Shapley:<br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). Un modelo de negociación simplificado para un juego cooperativo de n personas. *International Economic Review 4(2)*, 194-220. |
 
 {style="table-layout:auto"}
 

@@ -4,7 +4,7 @@ description: Utilice un subconjunto de una cadena como elementos de dimensión.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 95%
@@ -15,13 +15,13 @@ ht-degree: 95%
 
 La configuración de componentes de [!UICONTROL subcadena] permite realizar varios métodos de manipulación de cadenas para obtener los elementos de dimensión deseados en los informes.
 
-La [!UICONTROL subcadena] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar el filtrado u otras operaciones de análisis.
-
 ![Configuración de subcadenas](../assets/substring-settings.png)
+
+La [!UICONTROL subcadena] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar el filtrado u otras operaciones de análisis.
 
 ## De izquierda a derecha
 
-Realice una parte de una cadena basada en su posición hasta el principio o el final de una cadena. **[!UICONTROL Desde la izquierda]** y **[!UICONTROL Desde la derecha]** los métodos contienen dos listas desplegables: **[!UICONTROL De]** (donde se inicia la salida) y **[!UICONTROL Hasta]** (donde termina la salida).
+Realice una parte de una cadena basada en su posición hasta el principio o el final de una cadena. **[!UICONTROL Desde la izquierda]** y **[!UICONTROL Desde la derecha]** Los métodos de proporcionan dos listas desplegables: **[!UICONTROL Desde]** (donde se inicia la salida) y **[!UICONTROL Hasta]** (donde termina la salida).
 
 * **[!UICONTROL Inicio de cadena]**: Inicio de la cadena.
 * **[!UICONTROL Final de cadena]**: El final de la cadena.
@@ -30,7 +30,7 @@ Realice una parte de una cadena basada en su posición hasta el principio o el f
    * **[!UICONTROL Coincidencia]**: La cadena que debe coincidir. Si la entrada no coincide con este campo, se aplica [Sin opciones de valor](no-value-options.md).
    * **[!UICONTROL Índice]**: Los criterios de **[!UICONTROL Coincidencia]** se pueden presentar varias veces en una cadena. Este entero determina qué coincidencia debe comenzar o finalizar la salida, según el método. Por ejemplo, un índice de `1` representa la primera coincidencia. Si el índice es mayor que el número de coincidencias disponibles, se aplica [Sin opciones de valor](no-value-options.md).
    * **[!UICONTROL Incluir cadena]**: Una casilla de verificación que incluya la cadena **[!UICONTROL Coincidencia]** en la salida si está activada.
-* **[!UICONTROL Longitud]**: Un entero que especifica el recuento de caracteres que se va a incluir después de la posición inicial de la salida. Solo está disponible en la sección **[!UICONTROL Hasta]** lista desplegable.
+* **[!UICONTROL Longitud]**: Un entero que especifica el recuento de caracteres que se va a incluir después de la posición inicial de la salida. Solo disponible en la **[!UICONTROL Hasta]** lista desplegable.
 
 ## Delimitador
 

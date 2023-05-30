@@ -4,7 +4,7 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 91%
@@ -16,12 +16,12 @@ ht-degree: 91%
 
 La [!UICONTROL persistencia] es la capacidad de un valor de dimensión determinado para relacionarse con una métrica más allá del evento en el que está establecido. Utiliza una combinación de asignación y caducidad.
 
+![Persistencia](../assets/persistence.png)
+
 * La **asignación** le permite determinar qué valor se conserva cuando más de un elemento de dimensión puede persistir a la vez en una sola columna.
 * La **caducidad** le permite determinar cuánto tiempo persiste un elemento de dimensión más allá del evento en el que está establecido.
 
 La [!UICONTROL persistencia] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar el filtrado u otras operaciones de análisis.
-
-![Persistencia](../assets/persistence.png)
 
 | Configuración | Descripción |
 | --- | --- |
