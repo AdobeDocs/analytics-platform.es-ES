@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
+source-git-commit: 960021f2374b38b96fc1ec18200f1790194bfbb8
 workflow-type: tm+mt
-source-wordcount: '1868'
-ht-degree: 93%
+source-wordcount: '2060'
+ht-degree: 91%
 
 ---
 
@@ -20,12 +20,16 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Mayo de 2023** |  |
+| Documentación de vinculación profunda (aplicación móvil) | Permite a los usuarios enviar vínculos a cuadros de resultados que los llevarán directamente al cuadro de resultados de la aplicación. Esto facilita aún más el uso compartido de proyectos e impulsa la participación de una audiencia menos técnica. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
+| Doc sobre &quot;Seleccionar vista de datos de la celda&quot; en Report Builder | Esta función permite a los usuarios seleccionar la vista de datos para un bloque de datos de una celda. Esto resulta útil si crea un libro y tiene varias vistas de datos que tienen una construcción de datos similar y desea poder reutilizar un libro varias veces, con diferentes vistas de datos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=es) |
+| Documentación para la pantalla de inicio actualizada de la aplicación de paneles de Analytics (aplicación móvil) | La nueva pantalla de inicio actualizada le permite ver todos los cuadros de resultados en una lista consolidada de cuadros de resultados. Si tiene acceso a más de una organización en un inicio de sesión, todos los cuadros de resultados de sus organizaciones estarán disponibles en una sola lista. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
+| Actualización de optimización | Artículo actualizado sobre [Optimización del rendimiento de CJA](/help/admin/optimizing-performance.md) |
 | Información general de Analysis Workspace | Se ha actualizado la [información general de Analysis Workspace](/help/analysis-workspace/home.md) para incluir información más general y vínculos a contenido relevante. |
 | Crear proyectos | Se ha creado un nuevo artículo que explica en detalle cómo [Crear proyectos](/help/analysis-workspace/build-workspace-project/create-projects.md) en Analysis Workspace. |
-| Ordenar componentes en el carril izquierdo | Se ha añadido información sobre la ordenación de la lista de componentes en el carril izquierdo. Consulte la sección &quot;Buscar, filtrar y ordenar la lista de componentes&quot; en [Información general sobre componentes](/help/components/overview.md). |
-| Eliminación de filas que contienen dimensiones dinámicas de una tabla de forma libre | Se ha añadido información sobre cómo eliminar rápidamente filas específicas que contienen dimensiones dinámicas mediante el icono x. Consulte la sección &quot;Excluir rápidamente filas específicas de una tabla&quot; en [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
-| Botón para añadir una visualización dentro de un panel | Se ha añadido información sobre un nuevo botón en la parte inferior de cada panel en Analysis Workspace que le permite agregar rápidamente una visualización. Consulte la sección &quot;Añadir visualizaciones a un panel&quot; en [Resumen de las visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
-| Documentación de subtítulos inteligentes | Enriquecer la narración para los usuarios con [resúmenes en lenguaje natural](/help/analysis-workspace/visualizations/intelligent-captions.md) de una visualización de Línea. |
+| Ordenar componentes en el carril izquierdo | Se ha añadido información sobre la ordenación de la lista de componentes en el carril izquierdo. Consulte la sección Buscar, filtrar y ordenar la lista de componentes en [Resumen de componentes](/help/components/overview.md). |
+| Eliminación de filas que contienen dimensiones dinámicas de una tabla de forma libre | Se ha añadido información acerca de cómo eliminar rápidamente filas específicas que contienen dimensiones dinámicas mediante el icono x. Consulte la sección Excluir rápidamente filas específicas de una tabla en [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| Botón para añadir una visualización dentro de un panel | Se ha agregado información sobre un nuevo botón en la parte inferior de cada panel en Analysis Workspace que le permite agregar rápidamente una visualización. Consulte la sección &quot;Añadir visualizaciones a un panel&quot; en [Información general sobre visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| Documentación de subtítulos inteligentes | Enriquezca la narración para los usuarios con [resúmenes en lenguaje natural](/help/analysis-workspace/visualizations/intelligent-captions.md) de una visualización de Línea. |
 | **Abril de 2023** |  |
 | Vídeo sobre el uso de filtros como dimensiones | Se ha actualizado el vídeo sobre el uso de filtros como dimensión. <p>Este vídeo está vinculado desde la página [Crear filtros](/help/components/filters/create-filters.md).</p> <p>A continuación se muestra un vínculo directo al vídeo: [Usar filtros como dimensiones en Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html?lang=es).</p> |
 | Documentación del filtro | Se ha añadido un artículo sobre el uso del [Generador de filtros](/help/components/filters/filter-builder.md). <p>Documentación optimizada en [Crear filtros](/help/components/filters/create-filters.md) e [Información general de Filtros](/help/components/filters/filters-overview.md).</p> |
