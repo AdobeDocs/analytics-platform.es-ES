@@ -3,34 +3,41 @@ description: El Administrador de métricas calculadas ofrece numerosas maneras d
 title: Administrador de métricas calculadas
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 94%
+source-wordcount: '355'
+ht-degree: 13%
 
 ---
 
 # Administrador de métricas calculadas
 
-El Administrador de métricas calculadas ofrece numerosas maneras de conservar las métricas, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
+La página Métricas calculadas ofrece numerosas maneras de conservar las métricas, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favorito.
 
-El Administrador de métricas calculadas muestra todos los segmentos que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todas las métricas personalizadas de la organización. En esta introducción se presentan la interfaz de usuario y las capacidades del Administrador de métricas calculadas. Acceda a ella
+El Administrador de métricas calculadas le muestra todos los filtros que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todas las métricas personalizadas de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de métricas calculadas. Acceda a ella
 
-* Accediendo a **[!UICONTROL Análisis]** > **[!UICONTROL Componentes]** en el panel de navegación izquierdo. A continuación, haga clic en **[!UICONTROL Métricas calculadas]**.
+## Acceso al Administrador de métricas calculadas
+
+1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
+
+## Áreas del Administrador de métricas calculadas
+
+En la siguiente imagen y en la tabla adjunta se explican algunas de las áreas y características principales del Administrador de métricas calculadas.
 
 ![](assets/calcmet_mgr_ui.png)
 
-| Función de la interfaz de usuario | Descripción |
-| --- | --- |
-| Barra de herramientas de administración de métricas calculadas | Cuando marque una métrica, aparecerá esta barra de herramientas. Puede realizar la mayoría de las tareas de gestión desde esta barra de herramientas. |
-| Mostrar/ocultar filtros | Al hacer clic en mostrar filtros aparece el menú de filtros. Puede filtrar por Etiquetas, Vistas de datos, Propietarios, Mostrar todo (solo administrador), Compartido conmigo, Mío, Favoritos y Aprobado. |
-| Casillas de verificación | Marque una métrica personalizada para administrarla. |
-| Favoritos | Si hace clic en la estrella que aparece junto a una métrica, esta se pondrá de color amarillo y la métrica se marcará como favorita. |
-| Títulos y descripciones de filtros | Incluido en el Creador de métricas calculadas. Para editar el título y la descripción, haga clic en el vínculo del título. Se le redirigirá al Creador de métricas calculadas. |
-| Vista de datos | Esta columna indica en qué vista de datos se guardó por última vez la métrica. |
-| Propietario | Indica quién es el propietario de la métrica personalizada. Si no es el administrador, solo podrá ver las métricas que le pertenecen o que compartieron con usted. |
-| Etiquetas | Muestra las etiquetas que se aplicaron a la métrica, tanto por su parte como por parte de las personas que compartieron el segmento con usted. |
-| Compartido con | Enumera las personas o grupos (solo administrador) o todos (solo administrador) con los que compartió el segmento. |
-| Selector de columnas | Le permite seleccionar o deseleccionar columnas en el Administrador de métricas calculadas para que pueda personalizar la vista. |
-| Icono compartido (no se muestra) | Indica que usted compartió esta métrica personalizada con otra persona o que la han compartido con usted. |
-| Icono aprobado (no se muestra) | Indica que un administrador ha aprobado esta métrica personalizada. |
+| Ubicación en la imagen | Nombre y función |
+|---|---|
+| 1 | **Barra de herramientas del Administrador de métricas calculadas:** Después de seleccionar una métrica, aparece esta barra de herramientas. La mayoría de las tareas de administración se pueden completar desde esta barra de herramientas. |
+| 2 | **Filtro:** Puede filtrar por etiquetas, grupos de informes, propietarios, todos (solo administrador), compartidos conmigo, míos, favoritos y aprobados (solo administrador). |
+| 3 | **Seleccionar cuadros:** Seleccione una métrica personalizada para administrarla. |
+| 4 | **Favoritos:** Si se selecciona la estrella junto a una métrica, esta se marca como favorita. |
+| 5 | **Títulos y descripciones de segmentos:** Estos valores se proporcionan en el Creador de métricas calculadas. Para editar el título y la descripción, seleccione el vínculo del título para abrir el Creador de métricas calculadas. |
+| 6 | **Grupo de informes:** Indica en qué grupo de informes se guardó por última vez la métrica. |
+| 7 | **Propietario:** Indica a quién pertenece la métrica personalizada. Si no es el administrador, solo podrá ver las métricas que le pertenecen o que compartieron con usted. |
+| 8 | **Etiquetas:** Muestra las etiquetas que se aplicaron a la métrica, tanto por su parte como por parte de las personas que compartieron el segmento con usted. |
+| 9 | **Compartido con:** Enumera las personas o los grupos (solo administrador) o todos (solo administrador) con los que compartió el segmento. |
+| 10 | **Selector de columna:** Permite seleccionar o deseleccionar columnas en la página Métricas calculadas para poder personalizar la vista. |
+| No se muestra en la imagen | **Fecha de modificación:** Indica la fecha en la que se modificó por última vez la métrica personalizada. |
+
+{style="table-layout:auto"}

@@ -4,10 +4,10 @@ title: Resumen de calendario e intervalos de fechas
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -41,7 +41,7 @@ Para usar intervalos de fechas relativos del panel
 
 1. Seleccione la pestaña **Espacio de trabajo**.
 1. Seleccione **Proyecto en blanco**.
-1. Agregue dimensiones, métricas y segmentos desde el carril izquierdo.
+1. Añada dimensiones, métricas y filtros desde el carril izquierdo.
 1. Haga clic en el campo Intervalo de fecha del panel para cambiar el valor del intervalo de fecha del panel relativo.
 1. Seleccione **Hacer que los componentes del intervalo de fecha sean relativos al calendario del panel**.
    * Seleccione la opción para que los componentes del intervalo de fecha sean relativos al calendario del panel.
@@ -61,19 +61,19 @@ Tenga en cuenta las siguientes directrices cuando utilice intervalos de fechas r
 
 ### Fórmulas e intervalos de fechas relativos {#formula-relative-dates}
 
-Si tiene seleccionadas fechas relativas, todas las fórmulas de fecha utilizarán la fecha de inicio del panel como punto de partida.
+Si tiene fechas relativas seleccionadas, todas las fórmulas de fecha utilizarán la fecha de inicio del panel como punto de partida.
 
 ### Calendarios personalizados e intervalos de fechas relativos {#custom-calendar-formulas}
 
 Cuando se usa un calendario personalizado basado en semanas y se añaden meses o años, la fórmula calcula el desplazamiento del día en un período determinado. La fecha real puede ser diferente debido a dicho desplazamiento. La fórmula elige el día que cae en el mismo lugar del calendario personalizado. Por ejemplo, el tercer viernes de la tercera semana en un calendario personalizado.
 
-### Acerca de los segmentos que utilizan fechas móviles e intervalos de fechas relativos del panel {#segments-relative-dates}
+### Acerca de los filtros que utilizan fechas móviles e intervalos de fechas relativos en el panel {#segments-relative-dates}
 
-Si genera o utiliza un segmento con una fecha móvil, por ejemplo, los últimos siete días o las últimas dos semanas, y hace clic en la vista previa del segmento, se inicia la fecha móvil desde *hoy* en lugar de la fecha de inicio del panel. Como resultado, la vista previa del segmento no coincidirá cuando realmente utilice el segmento en la tabla. Se ve afectada la vista previa, no el propio segmento.
+Si genera un filtro o utiliza un filtro con una fecha móvil, por ejemplo, los últimos 7 días o las últimas 2 semanas, y hace clic en la previsualización del filtro, la fecha móvil comenzará desde *Hoy* en lugar de la fecha de inicio del panel. Como resultado, la vista previa del filtro no coincidirá cuando realmente utilice el filtro en la tabla. La vista previa se ve afectada, no el filtro en sí.
 
 ## Directrices para los intervalos de fechas del panel y las vistas previas {#guidelines-panel-dates}
 
 * A partir de la versión de febrero, las vistas previas de componentes y datos se basarán en el intervalo de fechas del panel y no en los últimos 90 días.
 * Todos los componentes enumerados en el carril izquierdo estarán disponibles en función del intervalo de fechas del panel.
-* Todas las vistas previas de fechas en los generadores de segmentos y métricas calculadas se basarán en el intervalo de fechas del panel (a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado, seguirán basándose en los últimos 90 días).
+* Todas las previsualizaciones de fecha de los creadores de filtros y métricas calculadas se basarán en el intervalo de fechas del panel (a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado, se basarán en los últimos 90 días).
 * Cualquier vista previa de datos mostrará datos o componentes basados en el intervalo de fechas del panel.

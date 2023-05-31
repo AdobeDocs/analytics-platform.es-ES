@@ -4,10 +4,10 @@ title: Visualización de gráficos combinados
 feature: Visualizations
 role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 97%
+source-wordcount: '766'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Recuerde:
 * Puede agregar varias comparaciones en un solo [!UICONTROL Gráfico combinado].
 * Si añade una o más comparaciones, deben ser del mismo tipo, como una [!UICONTROL Comparación temporal].
 * Se pueden añadir hasta cinco comparaciones.
-* Puede aplicar hasta tres filtros (segmentos) a una métrica.
+* Puede aplicar hasta 3 filtros a una métrica.
 * Las métricas calculadas no son compatibles con los gráficos combinados.
 
 ## Creación de un gráfico combinado
@@ -88,7 +88,7 @@ Haga clic en el icono de engranaje en la parte superior derecha de un gráfico c
 | Configuración | Definición |
 | --- | --- |
 | **[!UICONTROL Tipo de visualización]** | Le permite cambiar a otro tipo de visualización. |
-| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) en esta lista desplegable. |
+| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Porcentajes]** | Muestra valores en porcentajes. |
 | **[!UICONTROL Leyenda visible]** | Permite ocultar el texto de leyenda detallado para la visualización de gráficos combinados. |

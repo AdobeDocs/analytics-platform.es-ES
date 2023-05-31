@@ -3,10 +3,10 @@ description: Le muestra cómo crear una métrica "Vistas de página por visitas"
 title: Crear una métrica "Vistas de página por visitas" simple
 feature: Calculated Metrics
 exl-id: 46c83a1f-cb2d-4d5d-af4f-e1d2e4566743
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 83%
+source-wordcount: '214'
+ht-degree: 85%
 
 ---
 
@@ -32,4 +32,4 @@ Para crear una métrica &quot;Vistas de página por visitas&quot; simple haga lo
 
    Observe que la fórmula de **[!UICONTROL Resumen]** se actualiza cada vez que realice cambios en la definición de la métrica.
 
-1. (Opcional) Para compartir, aprobar, (volver a) etiquetar, cambiar el nombre o eliminar una métrica, puede ir a [Página Métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+1. (Opcional) Comparta la métrica con otros usuarios de su organización, tal como se describe en [Compartir métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

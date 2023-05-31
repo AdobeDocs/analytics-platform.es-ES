@@ -1,12 +1,12 @@
 ---
-description: La segmentación de una métrica individual le permite realizar comparaciones de métricas dentro del mismo informe.
-title: Métricas segmentadas
+description: El filtrado en métricas individuales le permite realizar comparaciones de métricas dentro del mismo informe.
+title: Métricas filtradas
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 96%
+source-wordcount: '473'
+ht-degree: 59%
 
 ---
 
@@ -24,20 +24,30 @@ Digamos que desea comparar distintos aspectos de los filtros de “Visitantes al
 * Como porcentaje del total de personas, ¿cuántas personas alemanas navegan por determinadas páginas en comparación con las personas internacionales?
 * ¿Cuáles son las principales diferencias en términos de a qué contenido se accede desde estos filtros diferentes?
 
-1. Si no tiene ningún filtro comparable, cree un segmento ad hoc en el creador de métricas calculadas que se llame “Visitantes alemanes”, en el que la opción “Países” sea “Alemania”. Arrastre la dimensión de países al lienzo de definición y seleccione que el valor sea Alemania:
+Cree y guarde una métrica llamada &quot;Visitantes alemanes&quot; y una métrica llamada &quot;Visitantes internacionales&quot;:
+
+1. Cree un filtro ad hoc en el Creador de métricas calculadas llamado &quot;Visitantes alemanes&quot;, donde &quot;Países&quot; es igual a &quot;Alemania&quot;. Arrastre la dimensión Países al lienzo Definición y seleccione [!UICONTROL **Alemania**] como valor:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >También puede llevar a cabo esta acción en el [Generador de filtros](/help/components/filters/create-filters.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el creador de métricas calculadas. La opción “ad hoc” implica que el segmento no esté visible en la lista **[!UICONTROL Filtros]** del carril de la izquierda. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
+   >También puede hacer esto en la [Generador de filtros](/help/components/filters/create-filters.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el Creador de métricas calculadas. &quot;Ad hoc&quot; significa que el filtro no es visible en la variable **[!UICONTROL Filtros]** en el carril izquierdo. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
 
-1. Si no tiene ningún filtro comparable, cree un segmento que se llame “Visitantes internacionales” en el que “Países” no sea igual a “Alemania”.
-1. Cree y guarde una métrica llamada “Visitantes alemanes” arrastrando el filtro de Alemania al lienzo Definición y la métrica de Visitantes únicos dentro de este:
+1. Arrastre el filtro de Alemania al lienzo Definición y arrastre la métrica Visitantes únicos dentro de este:
 
    ![](assets/german-visitors.png)
 
-1. Repita el paso 3 con el segmento de Visitantes internacionales y la métrica de Visitantes únicos para crear una métrica de Visitantes internacionales.
+1. Seleccionar [!UICONTROL **Guardar**] para guardar la métrica calculada.
+
+1. Cree un filtro ad hoc en el Creador de métricas calculadas llamado &quot;Visitantes internacionales&quot;, donde &quot;Países&quot; no es igual a &quot;Alemania&quot;.
+
+   Arrastre la dimensión Países al lienzo Definición y seleccione [!UICONTROL **Alemania**] como valor, luego seleccione [!UICONTROL **no es igual a**] como operador.
+
+1. Arrastre la métrica Visitantes únicos dentro.
+
+1. Seleccionar [!UICONTROL **Guardar**] para guardar la métrica calculada.
+
 1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de forma libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
 
    ![](assets/workspace-pages.png)

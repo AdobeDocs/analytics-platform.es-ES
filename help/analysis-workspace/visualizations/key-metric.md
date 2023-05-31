@@ -4,10 +4,10 @@ title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 99%
+ht-degree: 91%
 
 ---
 
@@ -35,16 +35,16 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 
 1. Arrastre la visualización **[!UICONTROL Resumen de métricas clave]** desde el menú **[!UICONTROL Visualizaciones]** del carril izquierdo a un panel.
 
-1. Configure la visualización seleccionando una métrica, un intervalo de fechas principal, un intervalo de fechas de comparación y un segmento (si lo desea):
+1. Configure la visualización seleccionando una métrica, un intervalo de fechas principal, un intervalo de fechas de comparación y un filtro (si lo desea):
 
-   ![configuración de métrica clave](assets/key-metric-config.png)
+   ![configuración de métricas clave](assets/key-metric-config.png)
 
    | Ajuste de configuración | Definición |
    | --- | --- |
    | **[!UICONTROL Métrica]** | Seleccione la métrica que desea examinar. Todas las métricas son compatibles. |
    | **[!UICONTROL Intervalo de fechas principal]** | El intervalo de fechas actual para la tabla de forma libre. |
    | **[!UICONTROL Intervalo de fechas de comparación]** | El intervalo de fechas con el que se desea comparar el intervalo de fechas principal. |
-   | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese específicamente para este resumen. |
+   | **[!UICONTROL Filtro (opcional)]** | Cualquier filtro que le interese específicamente para este resumen. |
 
    {style="table-layout:auto"}
 
@@ -93,4 +93,4 @@ Después de crear la visualización, aún puede editar la configuración origina
 
    Ahora volverá a la vista de configuración original.
 
-1. Cambie la métrica, el intervalo de fechas principal, el intervalo de fechas de comparación o el segmento como prefiera.
+1. Cambie la métrica, el intervalo de fechas principal, el intervalo de fechas de comparación o el filtro como prefiera.

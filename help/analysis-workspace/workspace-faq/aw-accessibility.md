@@ -3,7 +3,7 @@ description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 99%
@@ -67,7 +67,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | `[Alt + 1]` | Nueva tabla de forma libre |
 | `[Ctrl + Shift + C]` | Nueva métrica calculada |
 | `[Ctrl + Shift + D]` | Nuevo intervalo de fechas |
-| `[Ctrl + Shift + E]` | Nuevo segmento |
+| `[Ctrl + Shift + E]` | Nuevo filtro |
 | `[Ctrl + Z]` | Deshacer |
 | `[Component drag + Shift]` | Creación de un filtro desplegable |
 
