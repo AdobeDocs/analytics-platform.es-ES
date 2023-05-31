@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 960021f2374b38b96fc1ec18200f1790194bfbb8
+source-git-commit: 2ff3fae7e285998d787a259d9d18c6d5e7fa961e
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 82%
+source-wordcount: '932'
+ht-degree: 77%
 
 ---
 
 # Notas de la versión de Customer Journey Analytics (CJA) actuales (mayo de 2023)
 
-**Última actualización:** 30 de mayo de 2023
+**Última actualización:** 31 de mayo de 2023
 
 Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,6 +20,7 @@ Las versiones de Customer Journey Analytics operan en un [modelo de entrega cont
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Vistas de datos de Adobe Journey Optimizer** | Los administradores de CJA tienen acceso a algunas vistas de datos adicionales en CJA, tituladas &quot;Vista de datos de AJO (nombre de zona protegida)&quot;. Estas vistas de datos se utilizan para activar los informes en Adobe Journey Optimizer (AJO). También pueden utilizarse para realizar un análisis más profundo de las actividades de AJO en CJA. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html). |  | 25 de mayo de 2023 |
 | **Relleno para zonas protegidas que no sean de producción** | Al crear un flujo de datos del conector de origen de Analytics en una zona protegida que no sea de producción, el relleno de las zonas protegidas que no sean de producción estará limitado a 3 meses. Permanecerá a los 13 meses para las zonas protegidas de producción. | N/A | 26 de abril de 2023 |
 | **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** | Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Esto incluye compartir con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es#share-public-link) <p>Esta funcionalidad está habilitada de forma predeterminada y el administrador del sistema puede inhabilitarla. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=es#company-preferences)</p> | 3 de mayo de 2023 | 5 de junio de 2023 |
 | **Pantalla de inicio actualizada para la aplicación de paneles de Analytics (aplicación móvil)** | La nueva pantalla de inicio actualizada le permite ver todos los cuadros de resultados en una lista consolidada de cuadros de resultados. Si tiene acceso a más de una organización en un inicio de sesión, todos los cuadros de resultados de sus organizaciones estarán disponibles en una sola lista. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) | N/A | 10 de mayo de 2023 |
