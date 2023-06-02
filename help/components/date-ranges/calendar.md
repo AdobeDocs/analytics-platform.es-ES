@@ -1,19 +1,19 @@
 ---
-description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
+description: Cómo especificar fechas e intervalos de fechas o seleccionar un ajuste preestablecido.
 title: Resumen de calendario e intervalos de fechas
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 81%
+source-wordcount: '869'
+ht-degree: 79%
 
 ---
 
 # Resumen de calendario e intervalos de fechas
 
-En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
+Con el calendario, puede especificar fechas e intervalos de fechas o seleccionar un ajuste preestablecido. Los intervalos de fechas son un tipo de componente que puede utilizar en proyectos de Workspace. Permiten ver las tendencias de los datos a lo largo del tiempo o comprobar cuándo ocurren los eventos con mayor frecuencia. Los intervalos de fechas están marcados en color morado. Los intervalos de fechas personalizados le permiten personalizar las fechas que ve en los proyectos de Workspace.
 
 Las selecciones de calendario se aplican a nivel de panel, pero tiene la opción de aplicarlas a todos los paneles. Al hacer clic en un intervalo de fechas en Workspace, la interfaz muestra el mes natural actual y el mes natural anterior. Puede ajustar estos dos calendarios haciendo clic en las flechas derecha e izquierda de cada esquina superior respectiva.
 
