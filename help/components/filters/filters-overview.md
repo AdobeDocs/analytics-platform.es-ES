@@ -2,10 +2,10 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 4e2d4d8c4f8145ae691114d57d663af96240b5f5
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 58%
+source-wordcount: '963'
+ht-degree: 34%
 
 ---
 
@@ -14,7 +14,14 @@ ht-degree: 58%
 
 Customer Journey Analytics le permite generar, administrar, compartir y aplicar filtros de audiencia poderosos y centrados en sus informes. Los filtros le permiten identificar subconjuntos de personas en función de sus características o de las interacciones con el sitio web. Los Filtros están diseñados como perspectivas de audiencia codificadas que puede crear para atender sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
 
-Los filtros se pueden basar en atributos (tipo de explorador, dispositivo, número de visitas, país, sexo), interacciones (campañas, búsqueda de palabras clave, motor de búsqueda), salidas y entradas (personas de Facebook, una página de aterrizaje definida, dominio de referencia), variables personalizadas (campo de formulario, categorías definidas, ID del cliente) y otros criterios.
+Los filtros se pueden basar en
+
+- atributos (tipo de explorador, dispositivo, número de visitas, país, sexo),
+- interacciones (campañas, búsqueda de palabras clave, motor de búsqueda),
+- salidas y entradas (personas de Facebook,
+- una página de aterrizaje definida (dominio de referencia),
+- variables personalizadas (campo de formulario, categorías definidas, ID de cliente),
+- y otros criterios.
 
 Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden usar juntos como filtros apilados.
 
@@ -32,15 +39,34 @@ Los filtros secuenciales le permiten identificar a las personas en función de l
 
 Vea el siguiente ejemplo:
 
-![](assets/sequential_fil.png)
+<!--![](assets/sequential_fil.png)-->
 
-| Visita uno | Visita dos | Visita tres |
+| Sesión uno | Sesión dos | Sesión tres |
 | --- | --- | --- |
-| La persona accedió a la página de aterrizaje principal (A), excluyó la página de campaña (B) y después vio la página del producto (C). | La persona volvió a acceder a la página de aterrizaje principal (A), excluyó la página de campaña (B) y vio de nuevo la página del producto (C), para acceder a continuación a una nueva página (D). | La persona accedió y siguió la misma ruta que en la primera y la segunda visita, y después excluyó la página F para ir directamente a una página de producto dirigida (G). |
+| La persona fue a la página de aterrizaje principal A, excluyó la página de campaña B y luego vio la página de producto C. | La persona volvió a acceder a la página de aterrizaje principal A, excluyó la página de campaña B y vio de nuevo la página del producto C, para acceder a continuación a una nueva página D. | La persona accedió y siguió la misma ruta que en la primera y la segunda visita, y después excluyó la página F para ir directamente a una página de producto dirigida G. |
 
 ## Contenedores de filtro {#containers}
 
-Los Filtros se basan en una jerarquía de nivel persona, sesión y evento mediante un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones de la persona en función de las reglas entre los contenedores y dentro de ellos.
+Los filtros se basan en una jerarquía de nivel persona, sesión y evento mediante un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones de la persona en función de las reglas entre los contenedores y dentro de ellos.
+
+
+<table style="table-layout: fixed; border: none;">
+
+<tr>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Persona</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Sesión</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Evento</td>
+</tr>
+</table>
 
 >[!NOTE]
 >El contenedor de persona era conocido como el contenedor del visitante. El contenedor de sesión se denominaba contenedor de visita, y el contenedor de evento era el contenedor de visita individual.
@@ -51,42 +77,43 @@ La arquitectura de contenedor empleada en el Generador de filtros define la pers
 
 ### Contenedor de persona {#person}
 
-El contenedor Persona incluye todas las visitas y vistas de página de las personas en un lapso de tiempo específico. Un filtro en el nivel de persona devuelve la página que cumple la condición, además de todas las demás páginas visitadas por la persona (restringidas únicamente por los intervalos de fechas definidos). Al ser el contenedor definido con mayor amplitud, los informes generados en el nivel del contenedor de persona muestran vistas de página de todas las visitas, lo que le permite generar análisis multivisitas. Por tanto, el contenedor de persona es el más propenso a cambiar en función de intervalos de fechas definidos. Los contenedores de persona pueden incluir valores basados en el historial general de una persona:
+El contenedor Persona incluye todas las visitas y vistas de página de las personas en un lapso de tiempo específico. Un filtro en el nivel de persona devuelve la página que cumple la condición, además de todas las demás páginas visitadas por la persona (restringidas únicamente por los intervalos de fechas definidos). Al ser el contenedor definido con mayor amplitud, los informes generados en el nivel del contenedor de persona devuelven vistas de página de todas las visitas, lo que le permite generar análisis multivisitas. Por lo tanto, el contenedor de persona es el más susceptible de cambiar en función de intervalos de fechas definidos.
+Los contenedores de persona pueden incluir valores basados en el historial general de una persona:
 
-* Días antes de la primera compra
-* Página de entrada original
-* Dominios de referencia originales
+- Días antes de la primera compra
+- Página de entrada original
+- Dominios de referencia originales
 
 ### Contenedor de sesión {#session}
 
-El contenedor de sesión le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. El contenedor de sesión es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se cumple la regla y le permite definir qué sesiones desea incluir o excluir al generar y aplicar un filtro. Puede ayudarle a responder a estas preguntas:
+El contenedor de sesión le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. El contenedor de sesión es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se cumple la regla. El contenedor Sesión también le permite definir qué sesiones desea incluir o excluir al generar y aplicar un filtro. Puede ayudarle a responder a las siguientes preguntas:
 
-* ¿Cuántas sesiones se realizaron con fuentes de datos web y de centro de llamadas?
-* ¿Qué páginas contribuyeron a una conversión exitosa para una venta?
+- ¿Cuántas sesiones se realizaron con fuentes de datos web y de centro de llamadas?
+- ¿Qué páginas contribuyeron a una conversión exitosa para una venta?
 
 Los contenedores de sesión incluyen valores basados en la incidencia por sesión:
 
-* Tipo de sesión
-* Página de entrada
-* Frecuencia de retorno
-* Métricas de participación
-* Métricas asignadas linealmente
+- Tipo de sesión
+- Página de entrada
+- Frecuencia de retorno
+- Métricas de participación
+- Métricas asignadas linealmente
 
 ### Contenedor de evento {#event}
 
-El contenedor de evento individual define qué eventos de página desea incluir o excluir de un filtro. Es el contenedor más limitado del que dispone para identificar clics específicos y vistas de página cuando una condición sea verdadera, lo que le permite ver un código de seguimiento único, o aislar un comportamiento en una sección en concreto de su sitio. También podría interesarle localizar un valor específico cuando se produzca una acción, como el canal de marketing cuando se realice un pedido.
+El contenedor Evento define qué eventos de página desea incluir o excluir de un filtro. Es el contenedor más estrecho del que dispone para identificar clics específicos y vistas de página en los que una condición es verdadera. El contenedor Evento le permite ver un único código de seguimiento o aislar un comportamiento en una sección concreta del sitio. También podría interesarle localizar un valor específico cuando se produzca una acción, como el canal de marketing cuando se realice un pedido.
 
 Los contenedores de evento incluyen desgloses de una sola página basados en valores:
 
-* Productos
-* props de lista
-* Dimensiones de lista
-* Dimensiones de comercialización (en el contexto de eventos)
+- Productos
+- props de lista
+- Dimensiones de lista
+- Dimensiones de comercialización (en el contexto de eventos)
 
 ## Plantilla de filtro predefinida {#template}
 
-La versión tradicional de Analytics incluye numerosos filtros de plantilla (filtros) y métricas calculadas predefinidos. Muchos de ellos no se aplican en CJA, o será necesario cambiarles el nombre o volver a crearlos. Otros dependerán de una solución para variables según el contexto en CJA.
+La versión tradicional de Analytics incluye numerosos filtros de plantilla (filtros) y métricas calculadas predefinidos. Muchos de ellos no se aplican en CJA, o deben renombrarse o volver a crearse. Otros dependen de una solución para variables según el contexto en CJA.
 
 | Nombre del filtro | Descripción |
 | --- | --- |
-| Todos los datos | Se trata de un filtro obligatorio que se añade dinámicamente a los informes cuando se agrega una métrica a la fila de una tabla de forma libre. |
+| Todos los datos | Todos los datos es un filtro obligatorio que se añade dinámicamente a los informes cuando se agrega una métrica a la fila de una tabla de forma libre. |

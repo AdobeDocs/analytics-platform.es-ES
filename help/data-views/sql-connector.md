@@ -6,9 +6,10 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
+source-git-commit: f3dba7bac92cbda3285fe53a8961065e9bbbf972
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2900'
 ht-degree: 2%
 
 ---
@@ -33,7 +34,7 @@ Los principales beneficios son:
 
 Para utilizar esta funcionalidad, debe hacer lo siguiente
 
-- Habilite la [!UICONTROL Conector SQL de CJA] en su organización de Experience Platform.
+<!---   Enable the [!UICONTROL CJA SQL Connector] in your Experience Platform organization. -->
 
 - Configure la funcionalidad para los perfiles de producto, grupos de usuarios o usuarios individuales relevantes.<br/>
 Los usuarios deben tener acceso a:
@@ -88,7 +89,7 @@ Consulte [Guía de IU del Editor de consultas](https://experienceleague.adobe.co
 
 ### Herramientas de BI
 
-Actualmente, el conector SQL de CJA es compatible con Power BI y Tableau.
+Actualmente, el conector SQL de CJA es compatible y se prueba solo para Power BI y Tableau. Otras herramientas de BI que usan la interfaz PSQL podrían funcionar también, pero aún no son compatibles oficialmente.
 
 +++ Power BI
 
@@ -219,9 +220,9 @@ De forma predeterminada, el esquema de las vistas de datos utiliza estructuras a
 
 Consulte [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=en) para obtener la referencia completa sobre qué tipo de SQL se admite.
 
-Consulte la tabla Patrones a continuación para obtener una descripción general de los patrones y ejemplos.
+Consulte la tabla siguiente para ver ejemplos del SQL que puede utilizar.
 
-+++Patrones
++++ Ejemplos
 
 | Patrón | Ejemplo |
 |---|---|
@@ -390,4 +391,3 @@ Estas funciones se pueden utilizar en dimensiones en la variable `SELECT`, `WHER
 | [DATE_TRUNC(granularidad, fecha o fecha-hora)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | Genere una identidad de dimensión dinámica en el campo pasado.<br/>Las granularidades de cadena admitidas son: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, o `'MINUTE'`. |
 
 {style="table-layout:auto"}
-
