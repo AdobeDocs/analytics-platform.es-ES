@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a7a03fa6e0f71d473b4713bd9817e1b97dab383e
+source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2102'
 ht-degree: 90%
 
 ---
@@ -20,7 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de CJA desd
 | Función | Descripción |
 | --- | --- |
 | **Junio de 2023** |  |
-| Actualizaciones de métricas calculadas | Se han realizado actualizaciones en varios artículos relacionados con las métricas calculadas, incluida la actualización de capturas de pantalla y pasos en los procedimientos. Estos cambios se realizaron para alinear la documentación con la funcionalidad actual de CJA. |
+| Actualizaciones de métricas calculadas | Se han realizado las siguientes actualizaciones en la documentación de las métricas calculadas para alinearla con la funcionalidad actual de CJA: <ul><li>Se ha actualizado la lista de [métricas calculadas predeterminadas](/help/components/calc-metrics/default-calcmetrics.md) disponible en CJA</li><li>Capturas de pantalla y procedimientos actualizados en varios artículos de métricas calculadas </li></ul> |
 | **Mayo de 2023** |  |
 | Documentación de vinculación profunda (aplicación móvil) | Permite a los usuarios enviar vínculos a cuadros de resultados que los llevarán directamente al cuadro de resultados de la aplicación. Esto facilita aún más el uso compartido de proyectos e impulsa la participación de una audiencia menos técnica. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
 | Doc sobre &quot;Seleccionar vista de datos de la celda&quot; en Report Builder | Esta función permite a los usuarios seleccionar la vista de datos para un bloque de datos de una celda. Esto resulta útil si crea un libro y tiene varias vistas de datos que tienen una construcción de datos similar y desea poder reutilizar un libro varias veces, con diferentes vistas de datos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=es) |

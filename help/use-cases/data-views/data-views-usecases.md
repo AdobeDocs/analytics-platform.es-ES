@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
-workflow-type: ht
+source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
+workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -99,9 +99,9 @@ Una dimensión y dos métricas facilitan esta creación de informes:
 
 *  [Tipo de sesión:](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional) Esta dimensión tiene dos valores: 1) [!UICONTROL Nueva] y 2) [!UICONTROL Retorno]. El elemento de línea [!UICONTROL Nuevo] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
 
-* [Nuevas sesiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). La métrica de sesiones nuevas se entiende como la primera sesión definida por una persona dentro de la ventana de creación de informes.
+* [Sesiones por primera vez](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional). La métrica Sesiones por primera vez se define como la primera sesión definida por una persona dentro de la ventana de creación de informes.
 
-* [Sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional) La métrica de sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.-->
+* [Sesiones de retorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=es#optional) La métrica Sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.—>
 
 Para acceder a este componente, haga lo siguiente:
 
