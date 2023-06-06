@@ -4,10 +4,10 @@ description: Determina cómo gestionar una dimensión si está vacía.
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '227'
-ht-degree: 100%
+source-git-commit: 0bd632d9e748b567c7b946f4c7d1437f0a776ca2
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 91%
 
 ---
 
@@ -17,6 +17,8 @@ Ninguna opción de valor le permite determinar cómo gestiona Analysis Workspace
 
 ![Sin opciones de valor](../assets/no-value-options.png)
 
+## Configuración {#settings}
+
 | Configuración | Descripción |
 | --- | --- |
 | [!UICONTROL Si se muestra, solicite Sin valor] | Campo de texto que permite cambiar el nombre del elemento de dimensión **[!UICONTROL Sin valor]** por otro. |
@@ -24,4 +26,8 @@ Ninguna opción de valor le permite determinar cómo gestiona Analysis Workspace
 | [!UICONTROL Mostrar Ningún valor de forma predeterminada] | Muestra este valor en la creación de informes. |
 | [!UICONTROL Tratar Ningún valor como valor] | Reemplaza los valores en blanco de los datos con el texto especificado en [!UICONTROL Si se muestra, solicite Sin valor]. Por ejemplo, si tuviera los tipos de dispositivos móviles como dimensión, podría cambiar el nombre del elemento **[!UICONTROL Ningún valor]** por Escritorio. Tenga en cuenta que cuando cambia este campo a un valor personalizado, el valor personalizado se trata como un valor de cadena legítimo. Por lo tanto, si introduce el valor “Rojo” en este campo, cualquier instancia de la cadena “Rojo” que aparezca en los datos en sí también se moverá bajo el mismo elemento de línea que haya especificado. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
+
+## Publicación de blog
+
+A continuación se muestra una publicación de blog relacionada sobre [manejo de &quot;sin valor&quot; en CJA](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
