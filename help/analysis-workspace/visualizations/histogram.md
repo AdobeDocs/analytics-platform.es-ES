@@ -3,10 +3,10 @@ description: Un histograma es similar a un gráfico de barras, pero agrupa núme
 title: Histograma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 90%
+source-wordcount: '411'
+ht-degree: 85%
 
 ---
 
@@ -61,3 +61,7 @@ Los filtros creados previamente que se muestran en la tabla son filtros internos
 ![](assets/prebuilt_segments.png)
 
 Para explorar más formas en las que administrar las tablas de datos de forma libre y otras visualizaciones, como hacer desgloses de datos, vaya [aquí](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=es).
+
+## Publicación de blog
+
+Consulte esta publicación de blog para obtener información sobre [uso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).

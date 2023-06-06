@@ -3,10 +3,10 @@ description: Obtenga información acerca de cómo analizar los resultados de las
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '1833'
-ht-degree: 75%
+source-wordcount: '1861'
+ht-degree: 73%
 
 ---
 
@@ -125,3 +125,7 @@ La siguiente ilustración contrasta estas situaciones:
 ![experimento aleatorio](assets/randomize.png)
 
 Cuando se desea medir el impacto de la intervención X en el resultado Y, es posible que la causa real de ambos sea el factor de confusión C. Si los datos no se consiguen aleatorizando a las personas en X, el impacto es más difícil de medir, y el análisis dará cuenta explícitamente de C. La aleatorización rompe la dependencia de X en C, lo que nos permite medir el efecto de X en Y sin tener que preocuparnos por otras variables.
+
+## Uso de métricas calculadas en el panel Experimentación
+
+Consulte esta publicación de blog para obtener información sobre [uso de métricas derivadas en el panel Experimentación](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
