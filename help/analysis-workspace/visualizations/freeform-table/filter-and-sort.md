@@ -3,10 +3,10 @@ description: Documentación que describe cómo filtrar y ordenar tablas en Analy
 title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
+source-git-commit: 5469585897e483d721326fd6859ad74087407825
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 78%
+ht-degree: 73%
 
 ---
 
@@ -72,9 +72,9 @@ Para filtrar datos en tablas de forma libre:
 
    El icono de **filtro** de la ![Tabla filtrada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) se vuelve azul cuando se aplica un filtro a la tabla.
 
-## Ordenar tablas
+## Orden de tablas
 
-Puede ordenar los datos de una tabla de forma libre según cualquier columna de Analysis Workspace que sea Dimensión o Métrica.
+Puede ordenar los datos de una tabla de forma libre por cualquier columna de Analysis Workspace que sea una dimensión o una métrica.
 
 El icono de flecha hacia abajo en la ![columna de tabla ordenada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) es visible en el encabezado de la columna por la que se ordenan actualmente los datos.
 
