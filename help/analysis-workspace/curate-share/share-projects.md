@@ -4,7 +4,7 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: a64b380c337f2f359b4cffd23265a8fca8251957
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 48%
@@ -104,8 +104,6 @@ Para compartir el vínculo del proyecto con los usuarios de su organización, ha
 1. Comparta el vínculo con los usuarios de su organización. Por ejemplo, puede pegarlo en un correo electrónico, en un sitio web interno, etc.
 
 ## Compartir un proyecto con cualquiera (no se requiere inicio de sesión) {#share-public-link}
-
-{{release-limited-testing-section}}
 
 Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/view-only-projects.md) a proyectos de Analysis Workspace para personas que no tienen acceso a Customer Journey Analytics. Esto puede incluir:
 
