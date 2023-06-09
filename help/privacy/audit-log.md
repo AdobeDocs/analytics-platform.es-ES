@@ -2,10 +2,10 @@
 title: Registros de auditoría
 description: Obtenga información sobre cómo ver y administrar los registros de auditoría de CJA.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 79%
 
 ---
 
@@ -41,19 +41,49 @@ Haga doble clic en el botón de información (i) junto a una descripción.
 
 Se muestran los siguientes elementos:
 
-| Elemento | Descripción |
-| --- | --- |
-| Nombre de la acción | Esta es la lista de las posibles acciones: <ul><li>API_Request</li><li>Aprobar</li><li>Crear</li><li>Editar</li><li>Exportar</li><li>Login_failed</li><li>Login_successful</li><li>Cerrar sesión</li><li>Org_change</li><li>Actualizar</li><li>Compartir</li><li>Transferir</li><li>Desaprobar</li><li>Dejar de compartir</li></ul> |
-| Descripción | Resumen de la acción, tipo de componente (con ID) y otros valores. |
-| Nombre de usuario | El usuario que realiza la acción. |
-| Tipo de componente | Los tipos de componentes posibles incluyen: <ul><li>Anotación</li><li>Audiencia</li><li>Métrica calculada</li><li>Conexión</li><li>Data_Group</li><li>Data_View (este tipo de componente incluye dimensiones y métricas)</li><li>Feature_Access</li><li>Filtro</li><li>IMS_Org</li><li>Móvil</li><li>Proyecto</li><li>Informe</li><li>Scheduled_Project</li><li>Usuario</li><li>User_Group</li></ul> |
-| ID de organización IMS | ID único que se proporciona a la instancia de un usuario que inicia sesión por primera vez en Adobe Experience Cloud. Debe tener el formato siguiente: xxx@AdobeOrg. |
-| ID de usuario | ID único que identifica al usuario que realizó esta acción. |
-| Fecha de creación | Cuando se realizó esta acción. |
-| Correo electrónico | El correo electrónico del usuario que realiza la acción. |
-| ID de componente | ID único que identifica el componente sobre el que se realiza una acción. |
-| ID de registro | ID único que identifica esta entrada de registro. |
-| Tipo de usuario | Los tipos posibles son: IMS, OKTA |
+* **[!UICONTROL Nombre de acción]**: la acción realizada. Entre los posibles valores están:
+   * API_REQUEST
+   * APROBAR
+   * CREAR
+   * DELETE
+   * EDITAR
+   * EXPORTAR
+   * ORG_CHANGE
+   * ACTUALIZAR
+   * SHARE
+   * TRANSFERIR
+   * DESAPROBAR
+   * DEJAR DE COMPARTIR
+* **[!UICONTROL Fecha de creación]**: Fecha y hora en que se realizó la acción.
+* **[!UICONTROL Descripción]**: Un resumen de la acción.
+* **[!UICONTROL Nombre de usuario]**: el usuario que realizó la acción.
+* **[!UICONTROL Correo electrónico]**: la dirección de correo electrónico del usuario que realizó la acción.
+* **[!UICONTROL Nombre del componente]**: componente sobre el que el usuario realizó una acción.
+* **[!UICONTROL Tipo de componente]**: el tipo de componente. Entre los posibles valores están:
+   * ANOTACIÓN
+   * AUDIENCIA
+   * CALCULATED_METRIC
+   * CONEXIÓN
+   * DATA_GROUP
+   * DATA_VIEW
+   * DATASET_STITCHING
+   * DATE_RANGE
+   * FEATURE_ACCESS
+   * FILTRO
+   * IMS_ORG
+   * MÓVIL
+   * PROYECTO
+   * INFORME
+   * PROYECTO_PROGRAMADO
+   * USUARIO
+   * USER_GROUP
+* **[!UICONTROL ID de componente]**: ID del componente sobre el que el usuario realizó una acción.
+* **[!UICONTROL ID de organización IMS]**: el ID de IMS de la organización, con el formato de `ABC123@AdobeOrg`.
+* **[!UICONTROL ID de registro]**: ID único que identifica esta entrada de registro.
+* **[!UICONTROL ID de usuario]**: ID único que identifica al usuario que realizó la acción.
+* **[!UICONTROL Tipo de usuario]**: el tipo de autenticación utilizado. Los valores válidos son los siguientes:
+   * IMS
+   * OKTA
 
 ### Filtrar registros de auditoría
 
@@ -66,13 +96,13 @@ Los siguientes filtros están disponibles para eventos de auditoría en la inter
 | Filtro | Descripción |
 | --- | --- |
 | [!UICONTROL Intervalo de fecha] | Filtre en un intervalo distinto seleccionando una fecha diferente o un intervalo de fechas arrastrando el cursor sobre varias fechas. De forma predeterminada, se seleccionan las fechas de hoy y de ayer. |
-| [!UICONTROL Acción] | Filtre con una o más de las siguientes acciones: <ul><li>API_Request</li><li>Aprobar</li><li>Crear</li><li>Editar</li><li>Exportar</li><li>Login_failed</li><li>Login_successful</li><li>Cerrar sesión</li><li>Org_change</li><li>Actualizar</li><li>Compartir</li><li>Transferir</li><li>Desaprobar</li><li>Dejar de compartir</li></ul> |
+| [!UICONTROL Acción] | Filtre por cualquier nombre de acción enumerado anteriormente. |
 | [!UICONTROL ID de usuario] | Filtrar por un usuario específico con el ID. El ID de usuario se puede encontrar seleccionando el botón de información (i) junto al nombre de usuario. |
 | [!UICONTROL Correo electrónico] | Filtre por la dirección de correo electrónico de un usuario específico. El correo electrónico se puede encontrar seleccionando el botón de información (i) junto a un nombre de usuario. |
 | [!UICONTROL ID de componente] | Filtre por un ID de componente específico. El ID de componente se puede encontrar seleccionando el botón de información (i) para un componente deseado. |
-| [!UICONTROL Tipo de componente] | Filtrar por uno o varios tipos de componente: <ul><li>Anotación</li><li>Audiencia</li><li>Métrica calculada</li><li>Conexión</li><li>Data_Group</li><li>Data_View</li><li>Feature_Access</li><li>Filtro</li><li>IMS_Org</li><li>Móvil</li><li>Proyecto</li><li>Informe</li><li>Scheduled_Project</li><li>Usuario</li><li>User_Group</li></ul> |
+| [!UICONTROL Tipo de componente] | Filtre por cualquier tipo de componente enumerado anteriormente. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Tipos de eventos capturados por los registros de auditoría
 
@@ -94,7 +124,7 @@ La siguiente tabla indica qué acciones sobre qué tipo de componentes se regist
 | [!UICONTROL Usuario] | <ul><li>API_Request</li><li>Crear</li><li>Eliminar</li><li>Editar</li></ul> |
 | [!UICONTROL Grupo de usuarios] | <ul><li>API_Request</li><li>Crear</li><li>Eliminar</li><li>Editar</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Descargar registros de auditoría
 
