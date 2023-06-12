@@ -2,16 +2,16 @@
 title: Información general sobre la publicación de audiencias de CJA
 description: Obtenga información sobre el concepto de publicación de audiencias en Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 7b86650cd3475a203d597baeec2ec2152e082b10
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 83%
 
 ---
 
 # Información general sobre la publicación de audiencias de CJA
 
-Ahora puede crear y publicar audiencias que haya descubierto en Customer Journey Analytics (CJA) para el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCP) en Adobe Experience Platform para la segmentación y personalización de clientes.
+Ahora puede crear y publicar audiencias descubiertas en Customer Journey Analytics (CJA) para [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCDP) en Adobe Experience Platform para la segmentación y personalización de clientes.
 
 La publicación de audiencias proporciona una manera clara de activar y realizar acciones relacionadas con la información contenida en CJA. Estas acciones pueden incluir:
 
@@ -20,6 +20,8 @@ La publicación de audiencias proporciona una manera clara de activar y realizar
 * Enriquecimiento del perfil del cliente en tiempo real con atributos útiles derivados de datos basados en eventos en CJA.
 * Haciendo todo esto con una latencia mínima después de la publicación de la audiencia. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency)
 * Publicación de audiencias únicas o recurrentes.
+
+Las audiencias que cree en CJA no tienen por qué basarse en conjuntos de datos habilitados para el perfil. Puede introducir datos históricos en Experience Platform sin habilitar los conjuntos de datos y esquemas asociados para el perfil. A continuación, utilice estos conjuntos de datos para detectar audiencias relevantes en CJA y publicar estas audiencias en RTCDP en Experience Platform para fines de activación.
 
 ## Terminología clave
 
