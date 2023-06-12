@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 26012a5b7332adf2b80edd8fb9f9327788443dfc
+source-git-commit: 25293f3ef40f0c19ec6a963d337ab91b8054aa58
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 92%
@@ -51,7 +51,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
 ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
-## Usar los paneles
+## Usar los paneles {#use-dashboards}
 
 Para usar los paneles:
 
@@ -59,15 +59,15 @@ Para usar los paneles:
 
    ![Proceso de inicio de sesión](assets/signseq.png)
 
-1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Seleccione una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada al informe de valoración compartido con usted.
+1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Seleccione una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
 
-   La lista de informes de valoración muestra todos los informes de valoración que se han compartido con usted.
+   La lista de cuadros de resultados muestra todos los cuadros de resultados compartidos con usted.
 
 1. Pulse el informe de valoración que desee ver.
 
-   Si tiene acceso a más de una organización en un inicio de sesión, todos los informes de valoración de sus organizaciones estarán disponibles en la lista de informes de valoración.
+   Si tiene acceso a más de una organización en un inicio de sesión, todos los cuadros de resultados de sus organizaciones estarán disponibles en la lista de cuadros de resultados.
 
-   Puede ordenar la lista del informe de valoración según el título del informe de valoración, el nombre de la organización o los datos vistos más recientemente. Incluso puede buscar un informe de valoración específico.
+   Puede ordenar la lista del cuadro de resultados según el título del cuadro de resultados, el nombre de la organización o los elementos vistos más recientemente. Incluso puede buscar un informe de valoración específico.
 
    ![Seleccione una empresa](assets/mobile-home-screen.png)
 
@@ -89,6 +89,7 @@ Para usar los paneles:
       * Si se selecciona un día se muestra una tendencia horaria
       * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria.
       * Si se selecciona un año o más se muestra una tendencia semanal.
+
    * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
 
    * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
@@ -110,7 +111,7 @@ Para usar los paneles:
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-1. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el gestor de datos. Los [filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la aplicación funcionan del mismo modo que en Analytics Workspace.
+1. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la aplicación funcionan del mismo modo que en Analytics Workspace.
 
    ![Filtro de segmento](assets/segment_filter.png)
 
