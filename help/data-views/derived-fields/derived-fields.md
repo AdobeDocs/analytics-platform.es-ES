@@ -3,11 +3,9 @@ title: Campos derivados
 description: Un campo derivado especifica la manipulación en tiempo de informe de los campos de esquema o los componentes estándar a través de un conjunto de funciones disponibles y plantillas de funciones.
 solution: Customer Journey Analytics
 feature: Data Views
-hide: true
-hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: b780a6cb4e0f922ff68d62b742ff58034db672b7
+source-git-commit: 4ae102baa524a7e01ac8f08365260e80fe90150e
 workflow-type: tm+mt
 source-wordcount: '3252'
 ht-degree: 8%
@@ -16,8 +14,6 @@ ht-degree: 8%
 
 
 # Campos derivados
-
-{{release-limited-testing}}
 
 Los campos derivados son un aspecto importante de la funcionalidad de creación de informes en tiempo real de Customer Journey Analytics (CJA). Un campo derivado permite definir manipulaciones de datos (a menudo complejas) sobre la marcha, mediante un generador de reglas personalizable. A continuación, puede utilizar ese campo derivado como componente (métrica o dimensión) en [Workspace](../../analysis-workspace/home.md) o incluso definir más el campo derivado como un componente en [Vista de datos](../data-views.md).
 
@@ -289,7 +285,7 @@ En caso de que el sitio reciba los siguientes eventos de muestra, que contienen 
 |:--:|----|----|----|
 | 1 | `https://facebook.com` | `https://site.com/home` | [!DNL Natural Social] |
 | 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | [!DNL Display] |
-| 3 |  | `https://site.com/?cid=em_12345678` | [!DNL Email] |
+| 3 | | `https://site.com/?cid=em_12345678` | [!DNL Email] |
 | 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | [!DNL Paid Search] |
 | 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | [!DNL Email] |
 | 6 | `https://google.com` |  | [!DNL Natural Search] |
@@ -342,7 +338,7 @@ Su sitio recopila los siguientes valores para su [!DNL Product Finding Methods] 
 | [!DNL search p13n_no] | [!DNL search] |
 | [!DNL search p13n_yes] | [!DNL search] |
 | [!DNL search refine p13n_no] | [!DNL search] |
-| [!DNL search refine p13n_yes ] | [!DNL search] |
+| [!DNL search refine p13n_yes] | [!DNL search] |
 | [!DNL search redirect p13n_yes] | [!DNL search] |
 | [!DNL search-redirect] | [!DNL search] |
 
@@ -764,5 +760,5 @@ Usted define un `Query String CID` campo derivado. Utilice el [!UICONTROL ANÁLI
 
 Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en general:
 
-- Puede utilizar un máximo de 100 campos de esquema diferentes (sin incluir los campos estándar) al definir reglas para un campo derivado.
+- Puede utilizar un máximo de 10 campos de esquema diferentes (sin incluir los campos estándar) al definir reglas para un campo derivado.
 - Puede tener un máximo de 100 campos derivados por conexión CJA.
