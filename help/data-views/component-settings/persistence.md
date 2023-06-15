@@ -4,10 +4,10 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,33 +37,33 @@ Detalles sobre la configuración de asignación disponible.
 
 * **[!UICONTROL Más reciente]**: conserva el valor más reciente (por marca de tiempo) presente en la dimensión. Cualquier valor posterior que aparezca en el periodo de caducidad de la dimensión reemplaza al valor que persiste anteriormente. Si Tratar Sin valor como un valor está habilitado en esta dimensión en [Sin opciones de valor](no-value-options.md), los valores vacíos sobrescriben los valores persistentes anteriormente. Por ejemplo, vea la siguiente tabla con asignación [!UICONTROL Más reciente] y caducidad de [!UICONTROL Sesión]:
 
-   | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Valores del conjunto de datos |  | C | B |  | A |
-   | Asignación más reciente |  | C | B | B | A |
+  | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Valores del conjunto de datos |  | C | B |  | A |
+  | Asignación más reciente |  | C | B | B | A |
 
 * **[!UICONTROL Original]**: conserva el valor original por marca de tiempo presente en la dimensión durante el periodo de caducidad. Si esta dimensión tiene un valor, no se sobrescribe cuando se ve un valor diferente en un evento posterior. Por ejemplo, vea la siguiente tabla con asignación [!UICONTROL Original] y caducidad de [!UICONTROL Sesión]:
 
-   | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Valores del conjunto de datos |  | C | B |  | A |
-   | Asignación original |  | C | C | C | C |
+  | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Valores del conjunto de datos |  | C | B |  | A |
+  | Asignación original |  | C | C | C | C |
 
 * **[!UICONTROL Todos]**: actúa de manera similar al modelo de atribución [!UICONTROL Participación] de las métricas. Conserva todos los valores de forma equitativa, de modo que cada uno obtenga crédito total para la métrica en la creación de informes. Por ejemplo, vea la siguiente tabla con asignación de [!UICONTROL Todo] y caducidad de [!UICONTROL Sesión]:
 
-   | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Valores del conjunto de datos | A | B | C |  | A |
-   | Toda la asignación | A | A,B | A,B,C | A,B,C | A,B,C |
+  | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Valores del conjunto de datos | A | B | C |  | A |
+  | Toda la asignación | A | A,B | A,B,C | A,B,C | A,B,C |
 
 * **[!UICONTROL Conocido por primera vez]** y **[!UICONTROL Último conocido]**: (19 de enero de 2022 ) estos dos modelos de asignación satisfacen los casos de uso de dimensiones “entrada” y “salida”. Toman el primer o el último valor observado para una dimensión dentro de un ámbito de persistencia especificado (sesión, persona o período de tiempo personalizado con retrospectiva) y lo aplican a todos los eventos dentro del ámbito especificado. Ejemplo:
 
-   | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Marca de tiempo (mín.) | 1 | 2 | 3 | 6 | 7 |
-   | Valores originales |  | C | B |  | A |
-   | Primero conocido | C | C | C | C | C |
-   | Último conocido | A | A | A | A | A |
+  | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Marca de tiempo (mín.) | 1 | 2 | 3 | 6 | 7 |
+  | Valores originales |  | C | B |  | A |
+  | Primero conocido | C | C | C | C | C |
+  | Último conocido | A | A | A | A | A |
 
 ## Configuración de [!UICONTROL caducidad]
 
@@ -79,6 +79,8 @@ Detalles sobre la configuración de caducidad disponible.
 Lista desplegable que permite enlazar la persistencia de un valor de dimensión a valores de dimensión de otra dimensión. Las opciones válidas incluyen otras dimensiones incluidas en la vista de datos.
 
 Consulte [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
 ## [!UICONTROL Métrica de enlace]
 
