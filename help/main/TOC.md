@@ -10,9 +10,9 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca Customer Journey Analytics (CJA) y cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 
 + Ingesta de datos {#cja-data-ingestion}
    + [Información general sobre la ingesta de datos](../data-ingestion/data-ingestion.md)
-   + Guías de inicio rápido de ingesta y uso {#ingest-use-guides}
+   + Guías de inicio rápido de ingesta y uso{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + [SDK web de Adobe Experience Platform y Edge Network](../data-ingestion/aepwebsdk.md)
       + [Datos por lotes](../data-ingestion/batch.md)
@@ -203,7 +203,7 @@ ht-degree: 95%
    + [Información general](../guided-analysis/overview.md)
    + Tipos de análisis {#analysis-types}
       + [Información general](../guided-analysis/analysis-types/overview.md)
-      + [Embudo](../guided-analysis/analysis-types/funnel.md)
+      + [Canal](../guided-analysis/analysis-types/funnel.md)
       + [Tendencias](../guided-analysis/analysis-types/trends.md)
       + [Crecimiento de usuarios](../guided-analysis/analysis-types/user-growth.md)
    + [Preguntas más frecuentes](../guided-analysis/faq.md)
@@ -241,10 +241,10 @@ ht-degree: 95%
       + Flujo de trabajo de las métricas calculadas {#cm-workflow}
          + [Flujo de trabajo de las métricas calculadas](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Buscar métricas](../components/calc-metrics/cm-workflow/cm-finding.md)
-         + [Crear métricas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Generar métricas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Tipo de métrica y atribución](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Crear una métrica &quot;Vistas de página por visitas&quot;](../components/calc-metrics/cm-workflow/cm-pvv.md)
-         + [Crear una métrica de &quot;participación&quot;](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Generar una métrica “Vistas de página por visitas” ](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Generar una métrica de “participación”](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Métricas filtradas](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Apilado y reemplazo de filtros](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Métricas filtradas y ponderadas](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
@@ -297,7 +297,7 @@ ht-degree: 95%
    + [Información general sobre la integración de soluciones de Adobe con CJA](/help/integrations/overview.md)
    + [Integración de soluciones de Adobe Analytics con Customer Journey Analytics](/help/integrations/aa.md)
    + [Integración de datos de Journey Optimizer con CJA](/help/integrations/ajo.md)
-   + [Integración de datos de Administración de decisiones con CJA](/help/integrations/ajo-od.md)
+   + [Integración de datos de Gestión de decisiones con CJA](/help/integrations/ajo-od.md)
    + [Integración de inteligencia artificial aplicada al cliente con CJA](/help/integrations/customer-ai.md)
 
 + Gobierno de datos {#cja-privacy}
