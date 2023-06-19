@@ -3,10 +3,10 @@ description: Obtenga información acerca de cómo analizar los resultados de las
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
+source-git-commit: f95693c35f5baa569bde79150c24ef752824b592
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 73%
+source-wordcount: '1855'
+ht-degree: 66%
 
 ---
 
@@ -16,7 +16,7 @@ El panel **[!UICONTROL Experimentación]** permite que los analistas comparen di
 
 >[!IMPORTANT]
 >
->En este momento, los datos de [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) (A4T) introducidos en Adobe Experience Platform mediante el conector de origen de Analytics **no pueden** analizarse en el panel [!UICONTROL Experimentación]. Esperamos que este problema se resuelva en 2023.
+>En este punto, [Adobe Analytics para Target|https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en] Datos de (A4T) *no puede* analizarse en el panel Experimentación.
 
 ## Control de acceso {#access}
 
@@ -28,7 +28,7 @@ Se agregaron dos nuevas funciones avanzadas: [!UICONTROL Alza] y [!UICONTROL Con
 
 ## Paso 1: Crear una conexión con el conjunto de datos del experimento {#connection}
 
-El esquema de datos recomendado es que los datos del experimento estén en una [Matriz de objetos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=es) que contiene el experimento y los datos de variante en dos dimensiones independientes. Si tiene los datos del experimento en una sola dimensión con datos de experimento y de variante en una cadena delimitada, puede utilizar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividirlas en dos y usarlas en el panel.
+El esquema de datos recomendado es que los datos del experimento estén en una [Matriz de objetos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=es) que contiene el experimento y los datos de variante en dos dimensiones independientes. Ambas dimensiones deben estar en una **soltero** matriz de objetos. Si tiene los datos del experimento en una sola dimensión con datos de experimento y de variante en una cadena delimitada, puede utilizar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividirlas en dos y usarlas en el panel.
 
 Una vez que se hayan [ingerido](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es) los datos del experimento en Adobe Experience Platform, [cree una conexión en CJA](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
 
@@ -86,9 +86,9 @@ El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL
 
 ## Paso 5: Interpretar los resultados {#interpret}
 
-1. **El experimento es concluyente**: cada vez que visualiza el informe de experimentación, Adobe analiza los datos que se hayan acumulado en el experimento hasta este momento. Luego declara que un experimento es “concluyente” cuando la confianza válida en cualquier momento supere el umbral del 95 % para *al menos una* de las variantes (con una corrección de Bonferroni aplicada cuando hay más de dos ramas, para corregir las pruebas de hipótesis múltiples).
+1. **El experimento es concluyente**: cada vez que visualiza el informe de experimentación, Adobe analiza los datos que se hayan acumulado en el experimento hasta este momento. Luego declara que un experimento es &quot;concluyente&quot; cuando la confianza válida en cualquier momento supere el umbral del 95 % para *al menos uno* de las variantes (con una corrección de Benjamini-Hochberg aplicada cuando hay más de dos brazos, para corregir las pruebas de hipótesis múltiples).
 
-2. **Variante de mejor rendimiento**: cuando se declara que un experimento es concluyente, la variante con la tasa de conversión más alta se identifica como la “variante con mejor rendimiento”. Tenga en cuenta que esta variante debe ser la de control o de línea de base, o una de las variantes que cruce el umbral de confianza válida en cualquier momento del 95 % (con correcciones de Bonferroni aplicadas).
+2. **Variante de mejor rendimiento**: cuando se declara que un experimento es concluyente, la variante con la tasa de conversión más alta se identifica como la “variante con mejor rendimiento”. Tenga en cuenta que esta variante debe ser la de control o de línea de base, o una de las variantes que cruce el umbral de confianza válida en cualquier momento del 95 % (con correcciones de Benjamini-Hochberg aplicadas).
 
 3. **Tasa de conversión**: la tasa de conversión que se muestra es una relación entre el valor de la métrica de éxito y el de la métrica de normalización. Tenga en cuenta que a veces puede ser mayor que 1, si la métrica no es binaria (1 o 0 para cada unidad en el experimento)
 
