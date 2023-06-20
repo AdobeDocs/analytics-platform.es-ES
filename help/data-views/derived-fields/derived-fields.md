@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: 4ae102baa524a7e01ac8f08365260e80fe90150e
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '3252'
+source-wordcount: '3262'
 ht-degree: 8%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 8%
 
 # Campos derivados
 
-Los campos derivados son un aspecto importante de la funcionalidad de creación de informes en tiempo real de Customer Journey Analytics (CJA). Un campo derivado permite definir manipulaciones de datos (a menudo complejas) sobre la marcha, mediante un generador de reglas personalizable. A continuación, puede utilizar ese campo derivado como componente (métrica o dimensión) en [Workspace](../../analysis-workspace/home.md) o incluso definir más el campo derivado como un componente en [Vista de datos](../data-views.md).
+Los campos derivados son un aspecto importante de la funcionalidad de creación de informes en tiempo real de Adobe Customer Journey Analytics. Un campo derivado permite definir manipulaciones de datos (a menudo complejas) sobre la marcha, mediante un generador de reglas personalizable. A continuación, puede utilizar ese campo derivado como componente (métrica o dimensión) en [Workspace](../../analysis-workspace/home.md) o incluso definir más el campo derivado como un componente en [Vista de datos](../data-views.md).
 
-Los campos derivados pueden ahorrar una cantidad significativa de tiempo y esfuerzo, en comparación con la transformación o manipulación de los datos en otras ubicaciones fuera de CJA. Como [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en), o dentro de sus propios procesos de carga de transformación de extracción (ETL) / transformación de carga de extracción (ELT).
+Los campos derivados pueden ahorrar una cantidad significativa de tiempo y esfuerzo, en comparación con la transformación o manipulación de los datos en otras ubicaciones fuera de Customer Journey Analytics. Como [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en), o dentro de sus propios procesos de carga de transformación de extracción (ETL) / transformación de carga de extracción (ELT).
 
 Los campos derivados se definen en [Vistas de datos](../data-views.md), se basan en un conjunto de funciones definidas como reglas y se aplican a los campos de esquema o estándar disponibles.
 
@@ -122,7 +122,7 @@ Cuando define una regla en el generador de reglas, utiliza la interfaz de reglas
 
 >[!NOTE]
 >
->Los campos derivados se administran a nivel de conexión en CJA. Cualquier cambio realizado en un campo derivado en cualquiera de las vistas de datos asociadas con esa conexión se aplica a todas estas vistas de datos asociadas.
+>Los campos derivados se administran en el nivel de Conexión en Customer Journey Analytics. Cualquier cambio realizado en un campo derivado en cualquiera de las vistas de datos asociadas con esa conexión se aplica a todas estas vistas de datos asociadas.
 
 
 
@@ -461,9 +461,9 @@ Usted define un `Trip Duration (bucketed)` campo derivado. Puede crear lo siguie
 
 ## Restricciones
 
-CJA utiliza una estructura de contenedor anidada, siguiendo el modelo de Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) (Modelo de datos de experiencia). Consulte [Contenedores](../create-dataview.md#containers) y [Filtrar contenedores](../../components/filters/filters-overview.md#filter-containers) para obtener más información. Este modelo de contenedor, aunque flexible por naturaleza, impone algunas restricciones al utilizar el generador de reglas.
+El Customer Journey Analytics utiliza una estructura de contenedor anidada, siguiendo el modelo de Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) (Modelo de datos de experiencia). Consulte [Contenedores](../create-dataview.md#containers) y [Filtrar contenedores](../../components/filters/filters-overview.md#filter-containers) para obtener más información. Este modelo de contenedor, aunque flexible por naturaleza, impone algunas restricciones al utilizar el generador de reglas.
 
-CJA utiliza el siguiente modelo de contenedor predeterminado:
+Customer Journey Analytics utiliza el siguiente modelo de contenedor predeterminado:
 
 <p align="center">
 <img src="./assets/containers.png" width="50%" valign="middle">
@@ -761,4 +761,4 @@ Usted define un `Query String CID` campo derivado. Utilice el [!UICONTROL ANÁLI
 Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en general:
 
 - Puede utilizar un máximo de 10 campos de esquema diferentes (sin incluir los campos estándar) al definir reglas para un campo derivado.
-- Puede tener un máximo de 100 campos derivados por conexión CJA.
+- Puede tener un máximo de 100 campos derivados por conexión de Customer Journey Analytics.

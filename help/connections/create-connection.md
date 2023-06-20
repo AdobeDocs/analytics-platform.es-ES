@@ -4,16 +4,16 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 90ce711ddfdff9e3441e40aa968e62e34da6a122
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 66%
+source-wordcount: '2543'
+ht-degree: 62%
 
 ---
 
 # Crear una conexión
 
-Recientemente se ha lanzado un nuevo flujo de trabajo de conexiones en Customer Journey Analytics (CJA). La nueva experiencia de flujo de trabajo de creación y edición de conexiones reúne todos los ajustes de configuración del conjunto de datos y la conexión al centro de la pantalla con un flujo de trabajo de asistencia. Ha proporcionado una experiencia de revisión, configuración y selección de conjuntos de datos detallada con información crítica, como el tipo de conjunto de datos, el tamaño, el esquema, el ID del conjunto de datos, el estado del lote, el estado de relleno, los ID de persona y mucho más para reducir el riesgo de una configuración de conexión incorrecta. A continuación se muestra una descripción general de las nuevas funciones:
+Recientemente se ha lanzado un nuevo flujo de trabajo de conexiones en Customer Journey Analytics. La nueva experiencia de flujo de trabajo de creación y edición de conexiones reúne todos los ajustes de configuración del conjunto de datos y la conexión al centro de la pantalla con un flujo de trabajo de asistencia. Ha proporcionado una experiencia de revisión, configuración y selección de conjuntos de datos detallada con información crítica, como el tipo de conjunto de datos, el tamaño, el esquema, el ID del conjunto de datos, el estado del lote, el estado de relleno, los ID de persona y mucho más para reducir el riesgo de una configuración de conexión incorrecta. A continuación se muestra una descripción general de las nuevas funciones:
 
 * Puede habilitar un período de retención de datos móvil al crear la conexión.
 * Puede agregar y eliminar conjuntos de datos de una conexión. (Al eliminar un conjunto de datos, éste se elimina de la conexión y afecta a las vistas de datos asociadas y a los proyectos de Analysis Workspace subyacentes).
@@ -25,7 +25,7 @@ Recientemente se ha lanzado un nuevo flujo de trabajo de conexiones en Customer 
 
 ## Creación y configuración de la conexión {#create-connection}
 
-1. En CJA, haga clic en la pestaña **[!UICONTROL Conexiones]**.
+1. En Customer Journey Analytics, haga clic en la pestaña **[!UICONTROL Conexiones]**.
 1. Haga clic en **[!UICONTROL Crear nueva conexión]**.
 
    ![Configuración de la conexión](assets/create-conn1.png)
@@ -37,7 +37,7 @@ Recientemente se ha lanzado un nuevo flujo de trabajo de conexiones en Customer 
    | **[!UICONTROL Nombre de la conexión]** | Introduzca un nombre único para la conexión. |
    | **[!UICONTROL Descripción de la conexión]** | Describa el propósito de esta conexión. |
    | **[!UICONTROL Zona protegida]** | Elija una zona protegida en Experience Platform que contenga los conjuntos de datos a los que desea conectarse.<p>Adobe Experience Platform proporciona [zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) limitadas que dividen una sola instancia de Platform en entornos virtuales independientes para ayudar a desarrollar y desarrollar aplicaciones de experiencia digital. Puede considerar los entornos limitados como &quot;silos de datos&quot; que contienen conjuntos de datos. Las zonas protegidas se utilizan para controlar el acceso a los conjuntos de datos.<p>Una vez seleccionada la zona protegida, el carril izquierdo muestra todos los conjuntos de datos de la zona protegida desde los que puede extraer datos. |
-   | **[!UICONTROL Activar la ventana de datos móviles]** | Si está marcada, esta casilla le permite definir la retención de datos de CJA como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.<p>La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Sin embargo, si la conexión incluye perfiles o conjuntos de datos de búsqueda (además de uno o más conjuntos de datos de evento), esos datos se conservan durante el mismo período de tiempo.<p> La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.<p>Si deja el valor predeterminado (sin marcar), el período de retención se sustituirá por la configuración de retención de datos de Adobe Experience Platform. Si tiene datos de 25 meses en Experience Platform, CJA obtiene 25 meses de datos mediante el relleno. Si eliminase 10 de esos meses en Platform, CJA conservaría los 15 meses restantes. |
+   | **[!UICONTROL Activar la ventana de datos móviles]** | Si está marcada, esta casilla permite definir la retención de datos del Customer Journey Analytics como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.<p>La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Sin embargo, si la conexión incluye perfiles o conjuntos de datos de búsqueda (además de uno o más conjuntos de datos de evento), esos datos se conservan durante el mismo período de tiempo.<p> La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.<p>Si deja el valor predeterminado (sin marcar), el período de retención se sustituirá por la configuración de retención de datos de Adobe Experience Platform. Si tiene datos de 25 meses en Experience Platform, Customer Journey Analytics recibe 25 meses de datos mediante el relleno. Si eliminara 10 de esos meses en Platform, Customer Journey Analytics conservaría los 15 meses restantes. |
    | **[!UICONTROL Agregar conjuntos de datos]** (consulte más abajo) | Agregue conjuntos de datos si no aparecen conjuntos de datos en su lista de conjuntos de datos. |
    | **[!UICONTROL Nombre del conjunto de datos]** | Seleccione uno o varios conjuntos de datos en el Customer Journey Analytics y haga clic en **[!UICONTROL Añadir]**.<p>(Si tiene muchos conjuntos de datos para elegir, puede buscar los correctos mediante la barra de búsqueda Buscar conjuntos de datos que se encuentra arriba de la lista de conjuntos de datos). |
    | **[!UICONTROL Última actualización]** | Solo para conjuntos de datos de evento, esta configuración se establece automáticamente en el campo de marca de tiempo predeterminado de esquemas basados en eventos en Experience Platform. “N/A” significa que este conjunto de datos no contiene datos. |
@@ -114,7 +114,7 @@ Esta funcionalidad de búsqueda es útil si desea agregar un campo numérico com
 
 ![Esquema de búsqueda](assets/schema.png)
 
-Ahora admite la introducción de estos valores como métricas o dimensiones en los informes de CJA. Al configurar la conexión y extraer los conjuntos de datos de consulta, puede editar los conjuntos de datos para seleccionar la [!UICONTROL Clave] y [!UICONTROL Clave de coincidencia]:
+Ahora admite la introducción de estos valores como métricas o dimensiones en los informes de Customer Journey Analytics. Al configurar la conexión y extraer los conjuntos de datos de consulta, puede editar los conjuntos de datos para seleccionar la [!UICONTROL Clave] y [!UICONTROL Clave de coincidencia]:
 
 ![Editar conjunto de datos](assets/lookup-dataset.png)
 
@@ -124,7 +124,7 @@ Al configurar una vista de datos basada en esta conexión, se agregan los valore
 
 Customer Journey Analytics admite la capacidad de usar el mapa de identidad para su ID de persona. El mapa de identidad es una estructura de datos de mapa que le permite cargar pares de clave -> valor. Las claves son áreas de nombres de identidad y el valor es una estructura que contiene el valor de identidad. El mapa de identidad existe en cada fila o evento cargado y se completa para cada fila en consecuencia.
 
-El mapa de identidad está disponible para cualquier conjunto de datos que utilice un esquema basado en la clase [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es). Al seleccionar un conjunto de datos para incluir en una conexión CJA, tiene la opción de seleccionar un campo como ID principal o el mapa de identidad:
+El mapa de identidad está disponible para cualquier conjunto de datos que utilice un esquema basado en la clase [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es). Al seleccionar un conjunto de datos para incluirlo en una conexión de Customer Journey Analytics, tiene la opción de seleccionar un campo como ID principal o el mapa de identidad:
 
 ![](assets/idmap1.png)
 
@@ -132,8 +132,8 @@ Si selecciona Mapa de identidad, obtendrá dos opciones de configuración adicio
 
 | Opción | Descripción |
 |---|---|
-| **[!UICONTROL Usar área de nombres de ID primario]** | Esta opción indica a CJA, por fila, que busque la identidad en el mapa de identidad que está marcado con un atributo primary=true y que la utilice como ID de persona para esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. Y esta identidad también es la candidata principal para su uso como ID de persona de CJA (según la configuración del conjunto de datos en una conexión de CJA). |
-| **[!UICONTROL Área de nombres]** | (Esta opción solo está disponible si no utiliza el área de nombres de ID principal). Las áreas de nombres de identidad son un componente de [Identity Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es) que sirve de indicadores del contexto al que se relaciona una identidad. Si especifica un área de nombres, CJA busca en el mapa de identidad de cada fila esta clave de área de nombres y utiliza la identidad en el área de nombres como ID de persona para esa fila. Dado que CJA no puede realizar una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están presentes, todas las áreas de nombres posibles se muestran en la lista desplegable. Debe saber qué áreas de nombres se especifican en los datos; estas áreas de nombres no se detectan automáticamente. |
+| **[!UICONTROL Usar área de nombres de ID primario]** | Esta opción indica al Customer Journey Analytics, por fila, que busque la identidad en el mapa de identidad que está marcado con un atributo primary=true y que la utilice como ID de persona para esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. Y esta identidad también es la candidata principal para su uso como ID de persona de Customer Journey Analytics (según la configuración del conjunto de datos en una conexión de Customer Journey Analytics). |
+| **[!UICONTROL Área de nombres]** | (Esta opción solo está disponible si no utiliza el área de nombres de ID principal). Las áreas de nombres de identidad son un componente de [Identity Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es) que sirve de indicadores del contexto al que se relaciona una identidad. Si especifica un área de nombres, el Customer Journey Analytics busca en el mapa de identidad de cada fila esta clave de área de nombres y utiliza la identidad en el área de nombres como ID de persona para esa fila. Dado que el Customer Journey Analytics no puede realizar una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están presentes, en la lista desplegable se muestran todas las áreas de nombres posibles. Debe saber qué áreas de nombres se especifican en los datos; estas áreas de nombres no se detectan automáticamente. |
 
 {style="table-layout:auto"}
 
@@ -143,8 +143,8 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 
 | Opción | No hay ID presentes en el mapa de identidad | ID múltiples, ninguno marcado como principales | Los ID múltiples se marcan como principales | ID único, marcado como principal o no | Área de nombres no válida con un ID marcado como principal |
 |---|---|---|---|---|---|
-| **[!UICONTROL Usar área de nombres de ID primario] verificado** | La fila la abandona CJA. | La fila se borra con CJA, ya que no se especifica ningún ID principal. | Todos los ID marcados como principales, con todas las áreas de nombres, se extraen en una lista. A continuación, se ordenan alfabéticamente; con la nueva ordenación, la primera área de nombres con su primer ID se utiliza como ID de persona. | El ID único se utiliza como ID de persona. | Aunque el área de nombres puede no ser válida (no está presente en AEP), CJA utiliza el ID principal de dicha área de nombres como ID de persona. |
-| **[!UICONTROL Área de nombres de un mapa de identidad específica] seleccionada** | La fila la abandona CJA. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar un área de nombres válida en el momento de la creación de la conexión, por lo que no es posible utilizar un área de nombres o ID no válida como ID de persona) |
+| **[!UICONTROL Usar área de nombres de ID primario] verificado** | El Customer Journey Analytics suelta la fila. | El Customer Journey Analytics borra la fila, ya que no se especifica ningún ID principal. | Todos los ID marcados como principales, con todas las áreas de nombres, se extraen en una lista. A continuación, se ordenan alfabéticamente; con la nueva ordenación, la primera área de nombres con su primer ID se utiliza como ID de persona. | El ID único se utiliza como ID de persona. | Aunque el área de nombres puede no ser válida (no está presente en Adobe Experience Platform), Customer Journey Analytics utiliza el ID principal de dicha área de nombres como ID de persona. |
+| **[!UICONTROL Área de nombres de un mapa de identidad específica] seleccionada** | El Customer Journey Analytics suelta la fila. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar un área de nombres válida en el momento de la creación de la conexión, por lo que no es posible utilizar un área de nombres o ID no válida como ID de persona) |
 
 {style="table-layout:auto"}
 
@@ -162,4 +162,4 @@ Este cálculo se realiza para cada conjunto de datos de la conexión.
 
    En este ejemplo, “analytics_demo_data” es el nombre del conjunto de datos.
 
-2. Para mostrar todos los conjuntos de datos que existen en AEP, realice las siguientes acciones `Show Tables` query .
+2. Para mostrar todos los conjuntos de datos que existen en Adobe Experience Platform, realice las siguientes acciones `Show Tables` query .

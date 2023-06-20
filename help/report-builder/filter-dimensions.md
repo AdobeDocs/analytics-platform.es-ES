@@ -1,15 +1,15 @@
 ---
 title: Filtrar dimensiones en Customer Journey Analytics
-description: Describe cómo filtrar dimensiones en Report Builder para CJA
+description: Describe cómo filtrar dimensiones en Report Builder para Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: 39a399f5267b37548d4e757140268d6f104370b6
-workflow-type: ht
-source-wordcount: '916'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '918'
+ht-degree: 98%
 
 ---
 

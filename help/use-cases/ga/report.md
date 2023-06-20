@@ -4,10 +4,10 @@ description: Muestra informes útiles sobre los datos de Google Analytics en Cus
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 92%
+source-wordcount: '684'
+ht-degree: 86%
 
 ---
 
@@ -47,7 +47,7 @@ La tabla de cohorte permite ver cuánto tiempo tardan los usuarios en contactar 
 
 ## Uso de atribución de marketing avanzada
 
-CJA le permite utilizar modelos de atribución sofisticados en datos de canales múltiples. En el siguiente ejemplo, se puede ver una comparación de la aplicación de Atribución de ingresos de último toque, primer toque, en forma de U y algorítmica a la dimensión Agrupación de canales de Google Analytics.
+Customer Journey Analytics le permite utilizar modelos de atribución sofisticados en datos de canales cruzados. En el siguiente ejemplo, se puede ver una comparación de la aplicación de Atribución de ingresos de último toque, primer toque, en forma de U y algorítmica a la dimensión Agrupación de canales de Google Analytics.
 
 ![Atribución de marketing](../assets/mktg-attribution.png)
 
@@ -63,6 +63,6 @@ También puede atribuir los ingresos de su aplicación y web al contenido de Goo
 
 ![Anuncio de Google](../assets/google-ad.png)
 
-La combinación de conjuntos de datos en CJA le permite ver en este ejemplo que los anuncios en línea estaban teniendo algún impacto en los productos comprados en su aplicación móvil. La siguiente visualización muestra que los ingresos de la aplicación móvil procedentes de Google Ads representan un extra de 14 000 a 15 000 $, en comparación con la web solamente.
+La combinación de conjuntos de datos en Customer Journey Analytics le permite ver en este ejemplo que los anuncios en línea estaban teniendo algún impacto en los productos comprados en su aplicación móvil. La siguiente visualización muestra que los ingresos de la aplicación móvil procedentes de Google Ads representan un extra de 14 000 a 15 000 $, en comparación con la web solamente.
 
 ![Anuncio de Google 2](../assets/google-ad2.png)

@@ -1,23 +1,23 @@
 ---
 title: Conjuntos de datos de evento combinados
-description: Descubra cómo CJA crea una conexión combinando conjuntos de datos.
+description: Descubra cómo Customer Journey Analytics crea una conexión combinando conjuntos de datos.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 91%
+source-wordcount: '344'
+ht-degree: 72%
 
 ---
 
 
 # Conjuntos de datos de evento combinados
 
-Al crear una conexión, Customer Journey Analytics (CJA ) combina todos los esquemas y conjuntos de datos en un único conjunto de datos. Este &quot;conjunto de datos de evento combinado&quot; es lo que utiliza CJA para el sistema de informes. Cuando se incluyen varios esquemas o conjuntos de datos en una conexión:
+Al crear una conexión, Customer Journey Analytics combina todos los esquemas y conjuntos de datos en un único conjunto de datos. Este &quot;conjunto de datos de evento combinado&quot; es lo que utiliza el Customer Journey Analytics para el sistema de informes. Cuando se incluyen varios esquemas o conjuntos de datos en una conexión:
 
 * Los esquemas están combinados. Se combinan los campos de esquema duplicados.
-* La columna &#39;ID de persona&#39; de cada conjunto de datos se combina en una sola columna, independientemente de su nombre. Esta columna es la base para identificar personas únicas en CJA.
+* La columna &#39;ID de persona&#39; de cada conjunto de datos se combina en una sola columna, independientemente de su nombre. Esta columna es la base de la identificación de personas únicas en Customer Journey Analytics.
 * Las filas se procesan según la marca de tiempo.
 * Los eventos se resuelven en el nivel de milisegundos.
 
@@ -31,34 +31,34 @@ Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de eventos, cada
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` |  |
-| `user_310` | `1 Jan 7:04 AM` |  |  | `2` |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` |  | `3` |
-| `user_847` | `2 Jan 12:31 PM` |  | `Turtle` | `4` |
-| `user_847` | `2 Jan 12:44 PM` |  |  | `2` |
+| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | |
+| `user_310` | `1 Jan 7:04 AM` | | | `2` |
+| `user_310` | `1 Jan 7:08 AM` | `Blue` | | `3` |
+| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | `4` |
+| `user_847` | `2 Jan 12:44 PM` | | | `2` |
 
 | `different_id` | `timestamp` | `string_color` | `string_shape` | `metric_b` |
 | --- | --- | --- | --- | --- |
 | `user_847` | `2 Jan 12:26 PM` | `Yellow` | `Circle` | `8.5` |
-| `user_847` | `2 Jan 1:01 PM` | `Red` |  |  |
+| `user_847` | `2 Jan 1:01 PM` | `Red` | | |
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
+| `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
 
 Cuando se crea una conexión con estos dos conjuntos de datos de eventos, se utiliza la siguiente tabla para el sistema de informes.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` |  |  |  |
-| `user_310` | `1 Jan 7:04 AM` |  |  |  | `2` |  |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` |  |  | `3` |  |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` |  | `Circle` |  | `8.5` |
-| `user_847` | `2 Jan 12:31 PM` |  | `Turtle` |  | `4` |  |
-| `user_847` | `2 Jan 12:44 PM` |  |  |  | `2` |  |
-| `user_847` | `2 Jan 1:01 PM` | `Red` |  |  |  |  |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
+| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | | | |
+| `user_310` | `1 Jan 7:04 AM` | | | | `2` | |
+| `user_310` | `1 Jan 7:08 AM` | `Blue` | | | `3` | |
+| `user_847` | `2 Jan 12:26 PM` | `Yellow` | | `Circle` | | `8.5` |
+| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | | `4` | |
+| `user_847` | `2 Jan 12:44 PM` | | | | `2` | |
+| `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
+| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
+| `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila; CJA trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
+Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila; Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
 
 Este concepto también se aplica a la atribución. No importa de qué conjunto de datos proviene una fila; la atribución funciona exactamente como si todos los eventos procedieran de un único conjunto de datos. Ejemplo de uso de las tablas anteriores:
 

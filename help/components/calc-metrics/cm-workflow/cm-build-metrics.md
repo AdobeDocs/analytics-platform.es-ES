@@ -3,14 +3,14 @@ description: El Generador de métricas calculadas proporciona un lienzo en el qu
 title: Crear métricas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 66%
 
 ---
 
-# Crear métricas
+# Generar métricas
 
 Customer Journey Analytics proporciona un lienzo al que arrastrar y en el que soltar las dimensiones, métricas, filtros y funciones para crear métricas personalizadas basadas en lógica, reglas y operadores de jerarquía de contenedor. Esta herramienta de desarrollo integrada le permite crear y guardar métricas calculadas simples o métricas calculadas avanzadas complejas.
 
@@ -41,7 +41,7 @@ La siguiente imagen y la tabla adjunta explican algunas de las áreas y caracter
 | Definición | Aquí es donde arrastra las métricas/métricas calculadas, filtros o funciones para crear la métrica calculada. <ul><li>Si arrastra una métrica calculada, ampliará su definición de métrica automáticamente. </li> <li>Puede anidar definiciones en contenedores. Sin embargo, a diferencia de los contenedores de filtro, estos contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. </li> </ul> |
 | Operador | Dividido entre ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) es el operador predeterminado, además de los operadores +, - y x. |
 | Vista previa | Proporciona una lectura rápida de cualquier posible error. La vista previa abarca los últimos 90 días. Esta es una forma de calibrar inicialmente si ha seleccionado los componentes adecuados para su métrica. Un resultado inesperado significaría que debe volver a revisar la definición de la métrica. |
-| Compatibilidad del producto | Para cualquier métrica calculada que cree en CJA, este valor siempre se muestra como [!UICONTROL **Datos completamente procesados**]. Las métricas calculadas solo pueden incluir datos de conjuntos de datos de evento. |
+| Compatibilidad del producto | Para cualquier métrica calculada que cree en Customer Journey Analytics, este valor siempre se muestra como [!UICONTROL **Datos completamente procesados**]. Las métricas calculadas solo pueden incluir datos de conjuntos de datos de evento. |
 | Agregue | Puede añadir contenedores y números estáticos a la definición de todos los tipos de métricas calculadas. Para obtener métricas calculadas avanzadas, también puede añadir filtros y funciones.<ul><li>Los contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. Así, cualquier cosa que se encuentre en un contenedor se procesará antes de la operación siguiente.</li><li>Al arrastrar un filtro a un contenedor, se filtra todo lo que hay en dicho contenedor. (solo métricas calculadas avanzadas).</li><li>Puede apilar múltiples filtros en un contenedor.</li></ul> |
 | Icono de engranaje (Tipo de métrica, Atribución) | Si selecciona el icono de engranaje junto a una métrica, puede especificar el tipo de métrica y los modelos de atribución. |
 | Icono de signo más (+) | Le permite crear un nuevo componente, como un nuevo filtro (que le dirige al Generador de segmentos). |

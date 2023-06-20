@@ -2,18 +2,18 @@
 title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: a56cc7a0299aad98ff8af5e0d59df4679e0d2d25
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 90%
+source-wordcount: '1565'
+ht-degree: 63%
 
 ---
 
 # Crear y publicar audiencias
 
-En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics (CJA) para el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes.
+En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics con [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes.
 
-Lea esta [información general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de CJA.
+Lea esto [descripción general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de Customer Journey Analytics.
 
 ## Crear audiencias {#create}
 
@@ -38,7 +38,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | [!UICONTROL Nombre] | El nombre de la audiencia. |
    | [!UICONTROL Etiquetas] | Las etiquetas que quiera asignar a la audiencia con fines organizativos. Puede utilizar una etiqueta preexistente o introducir una nueva. |
    | [!UICONTROL Descripción] | Agregue una buena descripción de la audiencia para diferenciarla de otras. |
-   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para la frecuencia de actualización de 4 horas, hay un límite de 75 a 150 actualizaciones de audiencias, según sus derechos de CJA.</li></ul> |
+   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para la frecuencia de actualización de 4 horas, existe un límite de 75 a 150 actualizaciones de audiencia, según los derechos del Customer Journey Analytics.</li></ul> |
    | Fecha de caducidad | Cuando la audiencia deje de actualizarse. El valor predeterminado es 1 año a partir de la fecha de creación. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la audiencia caduque. |
    | Actualizar ventana de retrospección | Especifica cuánto tiempo en la ventana de datos va a retroceder al crear la audiencia. El máximo es de 90 días. |
    | [!UICONTROL Intervalo de fecha único] | Intervalo de fecha en el que desea que se publique la audiencia única. |
@@ -74,38 +74,38 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
 
 ## ¿Qué sucede después de crear una audiencia? {#after-audience-created}
 
-Después de crear una audiencia, Adobe crea un segmento de streaming de Experience Platform para cada nueva audiencia de CJA. Solo se creará un segmento de streaming de AEP si su organización está configurada para la segmentación de streaming.
+Después de crear una audiencia, Adobe crea un segmento de flujo continuo de Experience Platform para cada nueva audiencia de Customer Journey Analytics. Solo se creará un segmento de streaming de Adobe Experience Platform si su organización está configurada para la segmentación de streaming.
 
-* El segmento de AEP comparte el mismo nombre/descripción que la audiencia de CJA, pero el nombre se adjuntará con el ID de audiencia de CJA para garantizar que sea único.
-* Si cambia el nombre o la descripción de la audiencia de CJA, el nombre o la descripción del segmento de AEP también reflejarán ese cambio.
-* Si un usuario elimina una audiencia de CJA, el segmento de AEP NO se elimina. La razón es que la audiencia de CJA puede ser posteriormente recuperada.
+* El segmento de Adobe Experience Platform comparte el mismo nombre/descripción que la audiencia del Customer Journey Analytics, pero el nombre se adjuntará con el ID de audiencia del Customer Journey Analytics para garantizar que sea único.
+* Si el nombre/descripción de la audiencia del Customer Journey Analytics cambia, el nombre/descripción del segmento de Adobe Experience Platform también refleja ese cambio.
+* Si un usuario elimina una audiencia de Customer Journey Analytics, el segmento de Adobe Experience Platform NO se elimina. El motivo es que la audiencia del Customer Journey Analytics puede recuperarse más adelante.
 
 ## Consideraciones de latencia {#latency}
 
 En varios puntos antes, durante y después de la publicación de audiencias, se pueden producir latencias. A continuación se muestra una información general de las posibles latencias.
 
-![Latencia de AEP a CJA](assets/latency-diagram.png)
+![Latencia de Adobe Experience Platform a Customer Journey Analytics](assets/latency-diagram.png)
 
 | # | Punto de latencia | Duración de la latencia |
 | --- | --- | --- |
 | No se muestra | Conector de origen de Adobe Analytics a Analytics (A4T) | Hasta 30 minutos |
 | 1 | Ingesta de datos en el lago de datos (desde el conector de origen de Analytics u otras fuentes) | Hasta 90 minutos |
-| 2 | Ingesta de datos del lago de datos de Experience Platform en CJA | Hasta 90 minutos |
+| 2 | Ingesta de datos del lago de datos de Experience Platform en Customer Journey Analytics | Hasta 90 minutos |
 | 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
 | 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
-| 5 | Creación de destino en AEP: Activación del nuevo segmento | 1 a 2 horas |
+| 5 | Creación del destino en Adobe Experience Platform: Activación del nuevo segmento | 1 a 2 horas |
 
 {style="table-layout:auto"}
 
-## Usar audiencias de CJA en Experience Platform {#audiences-aep}
+## Usar audiencias de Customer Journey Analytics en Experience Platform {#audiences-aep}
 
-CJA toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). CJA envía la audiencia a Experience Platform con la identidad principal establecida en el valor que se haya seleccionado como [!UICONTROL ID de la persona] cuando se configuró la conexión.
+Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). Customer Journey Analytics envía la audiencia al Experience Platform con la identidad principal establecida, según lo que se haya seleccionado como [!UICONTROL ID de persona] cuando se configuró la conexión.
 
 A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, “user@adobe.com” se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
-Para ver las audiencias de CJA en Platform; para ello, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Crear segmentos]** > pestaña **[!UICONTROL Audiencias]** > **[!UICONTROL Audiencias de CJA]**.
+Para ver las audiencias de los Customer Journey Analytics en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Creación de segmentos]** > **[!UICONTROL Audiencias]** pestaña > **[!UICONTROL Audiencias de CJA]**.
 
-Puede arrastrar audiencias de CJA a la definición del segmento para segmentos de AEP.
+Puede arrastrar audiencias de Customer Journey Analytics a la definición del segmento para segmentos de Adobe Experience Platform.
 
 ![](assets/audiences-aep.png)
 
@@ -113,15 +113,15 @@ Puede arrastrar audiencias de CJA a la definición del segmento para segmentos d
 
 Preguntas más frecuentes sobre la publicación de audiencias.
 
-+++**¿Qué sucede si un usuario ya no es miembro de una audiencia en CJA?**
++++**¿Qué sucede si un usuario ya no es miembro de una audiencia en Customer Journey Analytics?**
 
-En este caso, se envía un evento de salida al Experience Platform desde CJA.
+En este caso, se envía un evento de salida al Experience Platform desde el Customer Journey Analytics.
 
 +++
 
-+++**¿Qué sucede si elimina una audiencia en CJA?**
++++**¿Qué sucede si se elimina una audiencia en Customer Journey Analytics?**
 
-Cuando se elimina una audiencia de CJA, esta ya no aparecerá en la IU de Experience Platform. Sin embargo, en Platform no se eliminan perfiles asociados a esa audiencia.
+Cuando se elimina una audiencia de Customer Journey Analytics, esta ya no aparecerá en la interfaz de usuario de Experience Platform. Sin embargo, en Platform no se eliminan perfiles asociados a esa audiencia.
 
 +++
 
@@ -131,13 +131,13 @@ Efectivamente.
 
 +++
 
-+++**¿CJA envía los datos de audiencia como eventos de canalización o como archivo sin formato que también va al lago de datos?**
++++**¿Customer Journey Analytics envía los datos de audiencia como eventos de canalización o como archivo sin formato que también va al lago de datos?**
 
-CJA transmite los datos a RTCP mediante canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
+Customer Journey Analytics transmite los datos a RTCP a través de la canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
 
 +++
 
-+++**¿Qué identidades envía CJA?**
++++**¿Qué identidades envía el Customer Journey Analytics?**
 
 Los pares de identidad/área de nombres especificados en la variable [Configuración de conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
 
@@ -145,11 +145,11 @@ Los pares de identidad/área de nombres especificados en la variable [Configurac
 
 +++**¿Qué ID se elige como identidad principal?**
 
-Véase más arriba. Solo enviamos una identidad por cada “persona” de CJA.
+Véase más arriba. Solo enviamos una identidad por &quot;persona&quot; Customer Journey Analytics.
 
 +++
 
-+++**¿RTCP también procesa los mensajes de CJA? ¿Puede CJA añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias?**
++++**¿Procesa RTCP también los mensajes del Customer Journey Analytics? ¿Puede Customer Journey Analytics añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias?**
 
 No. Solo enviamos una identidad por “persona”, por lo que no habría bordes de gráficos para que RTCP los consumiera.
 

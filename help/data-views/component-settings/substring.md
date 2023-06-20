@@ -4,10 +4,10 @@ description: Utilice un subconjunto de una cadena como elementos de dimensión.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ Aplique expresiones regulares a una dimensión para recuperar el valor deseado.
 * **[!UICONTROL Formato de salida]**: Campo opcional que permite agregar texto o reordenar la salida del subgrupo regex. Si este campo está en blanco, el resultado de la cadena es la expresión regex evaluada.
 * **[!UICONTROL Distinción entre mayúsculas y minúsculas]**: Casilla de verificación que fuerza a la expresión regular a distinguir entre mayúsculas y minúsculas si está habilitada.
 
-CJA utiliza un subconjunto de la sintaxis regex de Perl. Si la entrada no coincide con la expresión regular y el campo **[!UICONTROL Formato de salida]** está en blanco, se aplica [Sin opciones de valor](no-value-options.md). Se admiten las expresiones siguientes:
+Customer Journey Analytics utiliza un subconjunto de la sintaxis regex de Perl. Si la entrada no coincide con la expresión regular y el campo **[!UICONTROL Formato de salida]** está en blanco, se aplica [Sin opciones de valor](no-value-options.md). Se admiten las expresiones siguientes:
 
 | Expresión | Descripción |
 | --- | --- |

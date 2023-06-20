@@ -4,10 +4,10 @@ description: Casos de uso múltiple que muestran la flexibilidad y la potencia d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 97%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Otro ejemplo sería el uso del ID de visitante, una dimensión, como métrica pa
 
 ## 2. Use enteros como dimensiones {#integers}
 
-Anteriormente, los enteros se trataban automáticamente como métricas en CJA. Ahora, los números (incluidos los eventos personalizados de Adobe Analytics) pueden tratarse como dimensiones. Vea el siguiente ejemplo:
+Anteriormente, los enteros se trataban automáticamente como métricas en Customer Journey Analytics. Ahora, los números (incluidos los eventos personalizados de Adobe Analytics) pueden tratarse como dimensiones. Vea el siguiente ejemplo:
 
 1. Arrastre el entero [!UICONTROL call_length_min] a la sección [!UICONTROL Dimensión] en [!UICONTROL Componentes incluidos]:
 
@@ -117,7 +117,7 @@ Del 95 al 99 % de las veces, las nuevas sesiones se registran con precisión. L
 
 ## 8. Uso de la funcionalidad Fecha y Fecha-hora {#date}
 
-Los esquemas de Adobe Experience Platform contienen campos [!UICONTROL Fecha] y [!UICONTROL Fecha-hora]. Las vistas de datos de CJA ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar su [formato](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en la creación de informes. Por ejemplo:
+Los esquemas de Adobe Experience Platform contienen campos [!UICONTROL Fecha] y [!UICONTROL Fecha-hora]. Las vistas de datos de Customer Journey Analytics ahora admiten estos campos. Al arrastrar estos campos a una vista de datos como dimensión, puede especificar su [formato](/help/data-views/component-settings/format.md). Esta configuración de formato determina cómo se muestran los campos en la creación de informes. Por ejemplo:
 
 * Para el formato Fecha, si selecciona **[!UICONTROL Día]** con el formato **[!UICONTROL Mes, día, año]**, un ejemplo de salida en la creación de informes puede tener el siguiente aspecto: Agosto 23, 2022.
 

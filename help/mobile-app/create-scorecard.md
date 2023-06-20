@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2523'
-ht-degree: 78%
+source-wordcount: '2529'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ La siguiente información enseña a los depuradores de datos de Adobe Analytics 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->Las capturas de pantalla del cuadro de resultados de esta página se tomaron en la IU de Adobe Analytics, no de CJA. Las IU son casi idénticas.
+>Las capturas de pantalla del cuadro de resultados de esta página se tomaron en la interfaz de usuario de Adobe Analytics, no del Customer Journey Analytics. Las IU son casi idénticas.
 
 Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
 
@@ -76,7 +76,7 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 ## Aplicar filtros {#filters}
 
-Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en CJA) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
+Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en Customer Journey Analytics) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
 Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Usted [configuración y aplicación de filtros para los cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que en Adobe Analytics Workspace.
 
@@ -163,7 +163,7 @@ Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los dat
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
-Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando filtros. Los segmentos son filtros en CJA.
+Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando filtros. Los segmentos son filtros en el Customer Journey Analytics.
 
 ![Mosaico de propiedades](assets/properties-tile-new.png)
 

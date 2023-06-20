@@ -5,10 +5,10 @@ title: Programar proyectos
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 88%
+source-wordcount: '912'
+ht-degree: 86%
 
 ---
 
@@ -83,7 +83,7 @@ El Administrador de programación de proyectos muestra los artículos que ha cre
 
 >[!NOTE]
 >
->La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de CJA que hayan adquirido el complemento [Healthcare Shield](https://business.adobe.com/es/solutions/experience-cloud-for-healthcare.html).
+>La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido [Healthcare Shield](https://business.adobe.com/es/solutions/experience-cloud-for-healthcare.html) producto de complemento.
 
 Adobe utiliza la contraseña para cifrar proyectos programados, independientemente de si se envían en formato .pdf o .csv.
 

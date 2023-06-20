@@ -1,13 +1,13 @@
 ---
-title: Información general sobre conexiones de CJA
+title: Información general sobre Customer Journey Analytics Connections
 description: Obtenga información sobre las conexiones en Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
-source-git-commit: 82e4629583ef0aadeac098101d7429625470d8b8
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 80%
 
 ---
 
@@ -21,7 +21,7 @@ A continuación, se muestra un vídeo introductorio:
 
 ## Permisos necesarios
 
-Para crear una conexión CJA, necesita los siguientes permisos en [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
+Para crear una conexión de Customer Journey Analytics, necesita los siguientes permisos en [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
 
 Adobe Experience Platform:
 * Modelado de datos: Esquemas de vista, Administrar esquemas

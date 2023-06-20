@@ -1,13 +1,13 @@
 ---
 title: Información general de las vistas de datos
-description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión de CJA, como, por ejemplo, métricas, dimensiones, sesiones, etc.
+description: Una vista de datos especifica cómo desea interpretar los elementos de los datos de la conexión del Customer Journey Analytics, como, por ejemplo, métricas, dimensiones, sesiones, etc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Los proyectos del Espacio de trabajo en Customer Journey Analytics se basan en v
 
 ## Funciones de vistas de datos {#capabilities}
 
-Las vistas de datos le permiten cambiar espontáneamente la configuración del elemento de esquema sin tener que variar el esquema en Adobe Experience Platform ni volver a implementar el entorno de CJA.
+Las vistas de datos le permiten cambiar espontáneamente la configuración del elemento de esquema sin tener que cambiar el esquema en Adobe Experience Platform ni volver a implementar el entorno de Customer Journey Analytics.
 
 * **Puede cambiar un componente de una métrica a una dimensión y viceversa**. Puede crear métricas a partir de campos de cadena o crear dimensiones a partir de campos numéricos. Esto facilita las cosas, ya que no tiene que crear un campo numérico en el esquema XDM para cada métrica que desee. En su lugar, puede crearlo de manera espontánea en el cuadro de diálogo de vistas de datos. Estos son algunos ejemplos:
    * **Cree una o varias dimensiones a partir de un único campo de esquema**. Se trata de una relación de uno a varios. Por ejemplo, puede crear una o más métricas de ingresos o una o más dimensiones de ingresos desde un único campo de esquema.

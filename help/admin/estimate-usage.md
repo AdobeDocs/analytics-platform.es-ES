@@ -4,24 +4,24 @@ description: Muestra dos métodos para calcular el uso y uno para administrarlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 94%
+source-wordcount: '895'
+ht-degree: 73%
 
 ---
 
 # Ver y administrar el uso de Customer Journey Analytics
 
-Para ver el uso de CJA, puede utilizar varios métodos:
+Para ver el uso del Customer Journey Analytics, puede utilizar varios métodos:
 
 * Agregue las filas de datos de evento para cada conexión. Consulte [Cálculo del tamaño de la conexión](#tamaño calculado) a continuación. Esta es una forma sencilla de ver los datos de fila de evento, por conexión, para una marca de tiempo específica.
 * Vea su uso de tres maneras, cada una de las cuales se describe con más detalle a continuación:
    * Utilizar Analysis Workspace para informar sobre los eventos del mes pasado.
    * Utilizar Report Builder para informar sobre los eventos del mes pasado.
-   * Utilizar la API de CJA para crear un informe automatizado.
+   * Utilice la API de Customer Journey Analytics para crear un informe automatizado.
 
-Para administrar el uso de CJA:
+Para administrar el uso del Customer Journey Analytics:
 
 * Defina una ventana de datos móviles.
 
@@ -55,8 +55,8 @@ Es posible que necesite saber cuántas filas de datos de evento tiene actualment
 
    * Cambie la [configuración de retención de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es#set-rolling-window-for-connection-data-retention).
    * [Elimine conexiones no utilizadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
-   * [Elimine un conjunto de datos en AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
-   * Póngase en contacto con su equipo de cuentas de Adobe para obtener una licencia de capacidad adicional.
+   * [Eliminar un conjunto de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components).
+   * Póngase en contacto con el equipo de cuenta de Adobe para obtener una licencia de capacidad adicional.
 
 ## Creación de un proyecto de Workspace con todos los datos de evento {#workspace-event-data}
 
@@ -68,7 +68,7 @@ Este método le permite realizar un análisis más profundo de los datos de uso,
 >
 >    No cree una nueva conexión que abarque todos los datos solo para medir el uso, ya que el resultado sería que duplicaría el uso.
 
-1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde la **[!UICONTROL Métricas]** lista desplegable) que va hasta el primer viernes del mes, a partir del primer día de su contrato actual de CJA.
+1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde el **[!UICONTROL Métricas]** lista desplegable) hasta el primer viernes del mes, a partir del primer día del contrato de Customer Journey Analytics actual.
 
    ![Eventos](./assets/events-usage.png)
 
@@ -80,24 +80,24 @@ Este método le permite realizar un análisis más profundo de los datos de uso,
 
 En Report Builder, [cree un bloque de datos](/help/report-builder/create-a-data-block.md) para cada vista de datos, y posteriormente sume todos los bloques.
 
-## Crear un informe automatizado en la API de CJA {#api-report}
+## Creación de un informe automatizado en la API de Customer Journey Analytics {#api-report}
 
-1. Utilice la [API de informes de CJA](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) para ejecutar un informe sobre todos los datos de evento, **para cada conexión**. Configúrelo para que el informe se ejecute
+1. Utilice el [API de informes de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) para ejecutar un informe con todos los datos de evento, **para cada conexión**. Configúrelo para que el informe se ejecute
 
    * cada primer viernes de cada mes.
-   * volviendo al primer día de su contrato actual de CJA.
+   * volviendo al primer día de su contrato de Customer Journey Analytics actual.
 
-   Esto le dará una buena idea de la tendencia de su uso mes a mes. Le proporcionará el número total de filas en todas sus conexiones de CJA.
+   Esto le dará una buena idea de la tendencia de su uso mes a mes. Proporciona el número total de filas en todas las conexiones de Customer Journey Analytics.
 
 1. Utilice Excel para personalizar adicionalmente este informe.
 
 ## Administre su uso definiendo una ventana de datos móviles {#rolling}
 
-Para administrar el uso, la [IU de conexiones](/help/connections/create-connection.md) le permite definir la retención de datos de CJA como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.
+Para administrar su uso, la variable [IU de conexiones](/help/connections/create-connection.md) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.
 
 La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
 
-Si deja el valor predeterminado (sin marcar), el período de retención se sustituirá por la configuración de retención de datos de Adobe Experience Platform. Si tiene datos de 25 meses en Experience Platform, CJA recibirá 25 meses de datos mediante el relleno. Si eliminase 10 de esos meses en Platform, CJA conservaría los 15 meses restantes.
+Si deja el valor predeterminado (sin marcar), el período de retención se sustituirá por la configuración de retención de datos de Adobe Experience Platform. Si tiene datos de 25 meses en Experience Platform, Customer Journey Analytics recibirá 25 meses de datos mediante el relleno. Si eliminara 10 de esos meses en Platform, Customer Journey Analytics conservaría los 15 meses restantes.
 
-La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Si la conexión incluye cualquier perfil o conjunto de datos de búsqueda, ya que se unen con conjuntos de datos de evento, los datos se retienen en CJA en función de la configuración de retención de datos en las marcas de tiempo del conjunto de datos de evento.
+La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Si la conexión incluye perfiles o conjuntos de datos de búsqueda, ya que se unen a conjuntos de datos de evento, los datos se conservan en Customer Journey Analytics en función de la configuración de retención de datos en las marcas de tiempo del conjunto de datos de evento.
 

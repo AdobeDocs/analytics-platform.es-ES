@@ -4,10 +4,10 @@ description: Cómo crear anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 80%
+source-wordcount: '699'
+ht-degree: 76%
 
 ---
 
@@ -26,7 +26,7 @@ Sin embargo, los administradores pueden dar el permiso de [!UICONTROL Creación 
 | **Haga clic con el botón derecho en un punto de un gráfico de [!UICONTROL Líneas].** | Se abre el [!UICONTROL Generador de anotaciones]. Tenga en cuenta que, de forma predeterminada, las anotaciones creadas de esta forma solo son visibles en el proyecto en el que se crearon. No obstante, puede ponerlas a disposición de todos los proyectos. Observe que las fechas y cualquier métrica, etc., ya se han rellenado.<p>![](assets/annotate-line.png) |
 | **En Espacio de trabajo, vaya a [!UICONTROL Componentes] > [!UICONTROL Crear anotación].** | Se abre el [!UICONTROL Generador de anotaciones.] |
 | **Utilice esta tecla de acceso directo** para abrir el Generador de anotaciones: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Tenga en cuenta que al utilizar la tecla de acceso directo para crear una anotación, se crea una anotación de un solo día para la fecha actual, sin ningún ámbito preseleccionado (métricas o dimensiones). |
-| **Utilice la [API de anotaciones de CJA](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Las API de anotaciones de CJA permiten crear, actualizar o recuperar anotaciones mediante programación a través de Adobe Developer. Estas API utilizan los mismos datos y métodos que el Adobe utiliza en la interfaz de usuario del producto. |
+| **Utilice el [API de anotaciones de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Las API de anotaciones de Customer Journey Analytics le permiten crear, actualizar o recuperar anotaciones mediante programación a través de Adobe Developer. Estas API utilizan los mismos datos y métodos que el Adobe utiliza en la interfaz de usuario del producto. |
 
 1. Rellene los elementos del [!UICONTROL Creador de anotaciones.]
 

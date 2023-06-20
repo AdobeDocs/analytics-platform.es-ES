@@ -1,31 +1,31 @@
 ---
 title: Registros de auditoría
-description: Obtenga información sobre cómo ver y administrar los registros de auditoría de CJA.
+description: Obtenga información sobre cómo ver y administrar registros de auditoría de Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 79%
+source-wordcount: '806'
+ht-degree: 67%
 
 ---
 
 # Registros de auditoría
 
-Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, el Customer Journey Analytics (CJA) le permite auditar la actividad del usuario en varios servicios y capacidades en forma de “registros de auditoría”. Estos registros forman una pista de auditoría que puede ser útil en la resolución de problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Portability and Accountability Act).
+Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, Adobe Customer Journey Analytics le permite auditar la actividad del usuario para varios servicios y funcionalidades en forma de &quot;registros de auditoría&quot;. Estos registros forman una pista de auditoría que puede ser útil en la resolución de problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Portability and Accountability Act).
 
 En un sentido estricto, un registro de auditoría informa de **quién** realizó **qué** acción y **cuándo** lo hizo. Cada acción registrada contiene metadatos que indican el tipo de acción, la fecha y la hora, el ID de correo electrónico del usuario que realizó la acción y los atributos adicionales relevantes de ese tipo de acción.
 
-Este tema cubre los registros de auditoría en CJA, como su visualización y administración en la interfaz de usuario.
+Este tema cubre los registros de auditoría en Customer Journey Analytics, incluido cómo verlos y administrarlos en la interfaz de usuario.
 
 ## Acceso a los registros de auditoría
 
 Cuando la función está habilitada para su organización, los registros de auditoría se recopilan automáticamente a medida que se produce la actividad. No es necesario habilitar manualmente la recopilación de registros.
 
-Para ver y exportar los registros de auditoría, se debe contar con el permiso de control **[!UICONTROL Acceso a registros de auditoría]** en la consola de Adobe. Para obtener información sobre cómo administrar permisos individuales para funciones de CJA, consulte la [documentación de control de acceso](../admin/cja-access-control.md).
+Para ver y exportar los registros de auditoría, se debe contar con el permiso de control **[!UICONTROL Acceso a registros de auditoría]** en la consola de Adobe. Para obtener información sobre cómo administrar permisos individuales para funciones de Customer Journey Analytics, consulte la [documentación de control de acceso](../admin/cja-access-control.md).
 
 ## Vista del registro de auditoría en la IU
 
-En CJA, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Registros de auditoría]**.
+En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Registros de auditoría]**.
 
 El registro de auditoría correspondiente al día de hoy y al día de ayer se muestra de forma predeterminada.
 
@@ -136,4 +136,4 @@ Puede descargar registros de auditoría en los formatos CSV o JSON. Los filtros 
 
 ## Administrar registros de auditoría en la API
 
-Todas las acciones que puede realizar en la interfaz de usuario también se pueden realizar mediante llamadas a la API. Para obtener más información, consulte el [documento de la API de CJA](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs).
+Todas las acciones que puede realizar en la interfaz de usuario también se pueden realizar mediante llamadas a la API. Consulte la [Documento de referencia de API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) para obtener más información.

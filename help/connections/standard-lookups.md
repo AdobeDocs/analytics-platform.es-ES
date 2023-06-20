@@ -4,25 +4,25 @@ description: Utilice búsquedas estándar para aumentar la creación de informes
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 84%
+source-wordcount: '362'
+ht-degree: 76%
 
 ---
 
 # Adición de búsquedas estándar a sus conjuntos de datos
 
 >[!IMPORTANT]
->Las búsquedas estándar solo están disponibles para fuentes de datos del conector de origen de Analytics en CJA. Puede utilizarlas con implementaciones estándar de Adobe Analytics o con el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) o las API de recopilación de datos de Experience Platform.
+>Las búsquedas estándar solo están disponibles para fuentes de datos del conector de origen de Analytics en Customer Journey Analytics. Puede utilizarlas con implementaciones estándar de Adobe Analytics o con el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) o las API de recopilación de datos de Experience Platform.
 
-Las búsquedas estándar (también conocidas como búsquedas suministradas por Adobe) mejoran la capacidad de Customer Journey Analytics para informar sobre algunas dimensiones o atributos que no son útiles por sí mismos, pero que sí lo son cuando se unen con otros datos. Algunos ejemplos son los atributos de los dispositivos móviles y de las dimensiones del sistema operativo y del explorador, como, por ejemplo, los números de versión del explorador. Una &quot;búsqueda estándar&quot; es similar a un conjunto de datos de consulta. Sin embargo, las búsquedas estándar son aplicables en todas las organizaciones con Experience Cloud. Se aplican automáticamente a todos los conjuntos de datos de evento que contienen determinados campos de esquema XDM (consulte la información sobre campos específicos a continuación). Existe un conjunto de datos de búsqueda estándar para cada ubicación de esquema que Adobe clasifica.
+Las búsquedas estándar (también conocidas como búsquedas suministradas por Adobe) mejoran la capacidad de Customer Journey Analytics para informar sobre algunas dimensiones o atributos que no son útiles por sí mismos, pero que sí lo son cuando se unen con otros datos. Algunos ejemplos son los atributos de los dispositivos móviles y de las dimensiones del sistema operativo y del explorador, como, por ejemplo, los números de versión del explorador. Una &quot;búsqueda estándar&quot; es similar a un conjunto de datos de búsqueda. Sin embargo, las búsquedas estándar son aplicables en todas las organizaciones con Experience Cloud. Se aplican automáticamente a todos los conjuntos de datos de evento que contienen determinados campos de esquema XDM (consulte la información sobre campos específicos a continuación). Existe un conjunto de datos de búsqueda estándar para cada ubicación de esquema que Adobe clasifica.
 
-En Adobe Analytics tradicional, estas dimensiones aparecen por sí solas, mientras que en CJA hay que incluir activamente estas dimensiones al crear las vistas de datos. En el flujo de trabajo Conexiones, seleccione un conjunto de datos que esté marcado con una clave para la búsqueda estándar. La IU de vistas de datos sabe automáticamente que debe incluir todas las dimensiones de búsqueda estándar que estén disponibles para la creación de informes. Los archivos de búsqueda se mantienen actualizados automáticamente y están disponibles en todas las regiones y todas las cuentas. Se almacenan en organizaciones específicas de la región asociadas con el cliente.
+En Adobe Analytics tradicional, estas dimensiones aparecen por sí solas, mientras que en Customer Journey Analytics hay que incluir activamente estas dimensiones al crear vistas de datos. En el flujo de trabajo Conexiones, seleccione un conjunto de datos que esté marcado con una clave para la búsqueda estándar. La IU de vistas de datos sabe automáticamente que debe incluir todas las dimensiones de búsqueda estándar que estén disponibles para la creación de informes. Los archivos de búsqueda se mantienen actualizados automáticamente y están disponibles en todas las regiones y todas las cuentas. Se almacenan en organizaciones específicas de la región asociadas con el cliente.
 
-## Usar búsquedas estándar con conjuntos de datos del conector de origen de Adobe
+## Uso de búsquedas estándar con conjuntos de datos del conector de origen de Adobe
 
-Los conjuntos de datos de búsqueda estándar se aplican automáticamente en el momento en que se crea el informe. Si utiliza el Conector de origen de Analytics y añade una dimensión para la que el Adobe proporciona una búsqueda estándar, aplicamos automáticamente esta búsqueda estándar. Si un conjunto de datos de evento contiene campos XDM, es posible aplicarle búsquedas estándar.
+Los conjuntos de datos de búsqueda estándar se aplican automáticamente en el momento en que se crea el informe. Si utiliza el conector de origen de Analytics e introduce una dimensión para la que Adobe proporciona una búsqueda estándar, dicha búsqueda estándar se aplica automáticamente. Si un conjunto de datos de evento contiene campos XDM, es posible aplicarle búsquedas estándar.
 
 <!--
 ### Specific IDs that need to be populated
@@ -32,7 +32,7 @@ The following IDs need to be populated in the specific XDM mixins for this funct
 * Environment Details Mixin – device/typeID value populated - Must match Device Atlas IDs and will populate device data.
 * Adobe Analytics ExperienceEvent Template Mixin or Adobe Analytics ExperienceEvent Full Extension Mixin with analytics/environment/browserIDStr and analytics/environment/operatingSystemIDStr. Both must match the Adobe IDs and  populate browser and OS data, respectively.
 
-You need these mixins with the three IDs populated (device/typeID, environment/browserIDStr, and environment/operatingSystemIDStr). The lookup dimensions will then be pulled automatically by CJA and will be available in the Data View.
+You need these mixins with the three IDs populated (device/typeID, environment/browserIDStr, and environment/operatingSystemIDStr). The lookup dimensions will then be pulled automatically by Customer Journey Analytics and will be available in the Data View.
 
 The catch here is that they can only populate those IDs today if they have a direct relationship with Device Atlas. They are Device Atlas IDs, and they provide an API to allow a customer to look them up. This is a significant hurdle, and we may just want to take the reference to this capability out of the product documentation until we have a productized way to expose the Device Atlas ID lookup functionality.
 -->

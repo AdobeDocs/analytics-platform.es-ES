@@ -1,17 +1,17 @@
 ---
-title: Uso de dimensiones y métricas de enlace en CJA
+title: Uso de dimensiones y métricas de enlace en Customer Journey Analytics
 description: Atribuir dimensiones a matrices de objetos para un análisis de persistencia complejo.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 71c633f259b25f30d474ab19f714935b074dfc0c
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 91%
+source-wordcount: '1343'
+ht-degree: 84%
 
 ---
 
 
-# Uso de dimensiones y métricas de enlace en CJA
+# Uso de dimensiones y métricas de enlace en Customer Journey Analytics
 
 Customer Journey Analytics ofrece varias formas de mantener los valores de dimensión más allá de la visita en la que están configurados. Uno de los métodos de persistencia que ofrece Adobe se conoce como Enlace. En versiones anteriores de Adobe Analytics, este concepto se conocía como comercialización.
 
@@ -19,7 +19,7 @@ Aunque puede utilizar dimensiones de enlace con datos de evento de nivel superio
 
 ## Ejemplo 1: Utilice dimensiones de enlace para atribuir atributos de producto adicionales a una compra
 
-Puede enlazar elementos de dimensión dentro de una matriz de objetos a otra dimensión. Cuando aparece el elemento de dimensión enlazado, CJA recuerda la dimensión enlazada y la incluye en el evento por usted. Piense en el siguiente recorrido del cliente:
+Puede enlazar elementos de dimensión dentro de una matriz de objetos a otra dimensión. Cuando aparece el elemento de dimensión enlazado, Customer Journey Analytics recuerda la dimensión enlazada y la incluye en el evento por usted. Piense en el siguiente recorrido del cliente:
 
 1. Un visitante ve una página de producto de una lavadora.
 
@@ -82,7 +82,7 @@ Puede entrar al administrador de vistas de datos y enlazar el color del producto
 
 ![Dimensión de enlace](../assets/binding-dimension.png)
 
-Cuando se establece este modelo de persistencia, CJA toma nota del nombre del producto cada vez que se establece su color. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para esta persona, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con su nombre tendrían un aspecto similar al siguiente:
+Cuando se establece este modelo de persistencia, el Customer Journey Analytics toma nota del nombre del producto cada vez que se establece su color. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para esta persona, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con su nombre tendrían un aspecto similar al siguiente:
 
 | product.color | ingresos |
 | --- | --- |
@@ -263,7 +263,7 @@ En Analysis Workspace, el informe resultante tendría un aspecto similar al sigu
 | raqueta de tenis | 34,99 USD |
 | zapatos | 79,99 USD |
 
-CJA detecta automáticamente la relación entre la dimensión seleccionada y la dimensión de enlace. Si la dimensión de enlace se encuentra en una matriz de objetos mientras que la dimensión seleccionada se encuentra en un nivel superior, se requiere una métrica de enlace. Una métrica de enlace actúa como activador para una dimensión de enlace, por lo que solo se une a los eventos en los que la métrica de enlace está presente. En este ejemplo, la página de resultados de búsqueda siempre incluye una dimensión de término de búsqueda y una métrica de búsquedas.
+Customer Journey Analytics detecta automáticamente la relación entre la dimensión seleccionada y la dimensión de enlace. Si la dimensión de enlace se encuentra en una matriz de objetos mientras que la dimensión seleccionada se encuentra en un nivel superior, se requiere una métrica de enlace. Una métrica de enlace actúa como activador para una dimensión de enlace, por lo que solo se une a los eventos en los que la métrica de enlace está presente. En este ejemplo, la página de resultados de búsqueda siempre incluye una dimensión de término de búsqueda y una métrica de búsquedas.
 
 Al establecer la dimensión de término de búsqueda en este modelo de persistencia, se ejecuta la siguiente lógica:
 
@@ -353,7 +353,7 @@ Analysis Workspace atribuiría correctamente el segundo episodio de Orangey al t
 
 ## Ejemplo 4: Evaluar el comportamiento de exploración frente a búsqueda en una configuración de venta minorista
 
-Puede enlazar valores a dimensiones establecidas en eventos anteriores. Cuando se configura una variable con una dimensión de enlace, CJA tiene en cuenta el valor persistente. Si no desea este comportamiento, puede ajustar la configuración de persistencia de la dimensión de enlace. Consideremos el siguiente ejemplo donde `product_finding_method` se configura en un evento y luego se vincula a la métrica Adiciones al carro de compras en el siguiente evento.
+Puede enlazar valores a dimensiones establecidas en eventos anteriores. Cuando se establece una variable con una dimensión de enlace, Customer Journey Analytics tiene en cuenta el valor persistente. Si no desea este comportamiento, puede ajustar la configuración de persistencia de la dimensión de enlace. Consideremos el siguiente ejemplo donde `product_finding_method` se configura en un evento y luego se vincula a la métrica Adiciones al carro de compras en el siguiente evento.
 
 1. Un visitante busca `"camera"`. Tenga en cuenta que no hay productos configurados en esta página.
 

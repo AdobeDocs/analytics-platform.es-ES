@@ -4,10 +4,10 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '810'
+ht-degree: 86%
 
 ---
 
@@ -78,7 +78,7 @@ Detalles sobre la configuración de caducidad disponible.
 
 Lista desplegable que permite enlazar la persistencia de un valor de dimensión a valores de dimensión de otra dimensión. Las opciones válidas incluyen otras dimensiones incluidas en la vista de datos.
 
-Consulte [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
+Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
@@ -88,4 +88,4 @@ Lista desplegable que permite elegir una métrica que actúa como déclencheur d
 
 Esta configuración solo aparece cuando la dimensión de enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace.
 
-Consulte el segundo ejemplo en [Uso de dimensiones y métricas de enlace en CJA](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar de forma eficaz las métricas de enlace.
+Consulte el segundo ejemplo en [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar de forma eficaz las métricas de enlace.

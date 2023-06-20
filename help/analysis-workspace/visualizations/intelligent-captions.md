@@ -4,9 +4,9 @@ title: Pies de ilustración inteligentes
 feature: Visualizations
 role: User, Admin
 exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
-source-git-commit: 48648a29b92ff81b98a7efa8f6f1cb3f49d4bf81
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Los subtítulos inteligentes están orientados a:
 * Analistas que necesitan narrativas para compartir con otros usuarios. Los analistas necesitan estas perspectivas para poder proporcionar contexto a sus usuarios.
 * Usuarios empresariales que deseen descubrir rápidamente ofertas para llevar de alto nivel.
 
-Los subtítulos están disponibles para todos los usuarios de CJA y no requieren permisos especiales.
+Los subtítulos están disponibles para todos los usuarios de Customer Journey Analytics y no requieren permisos especiales.
 
 ## Iniciar subtítulos inteligentes {#launch}
 

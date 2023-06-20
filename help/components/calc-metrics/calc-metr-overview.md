@@ -3,10 +3,10 @@ title: Información general sobre las métricas calculadas
 description: Obtenga información sobre las métricas filtradas que se derivan del tiempo de ejecución del informe.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 92%
+source-wordcount: '461'
+ht-degree: 90%
 
 ---
 
@@ -40,9 +40,9 @@ A continuación se muestra una comparación de las competencias de las métricas
 |--- |--- |
 | Generador de métricas calculadas | <ul><li>Cree métricas calculadas avanzadas con modelos de asignación avanzados.</li><li>Añadir filtros en línea a fórmulas métricas.</li><li>Comparar filtros en el mismo informe. Por ejemplo, comparar personas locales con personas internacionales.</li><li>Utilizar funciones estadísticas.</li><li> Proporcionar descripciones de métricas detalladas (mostrar qué hace, dónde utilizarla y para qué NO utilizarla).</li><li>Copiar definiciones en métricas nuevas.</li><li>Proporcionar una vista previa de métricas en línea.</li><li>Establecer la polaridad de una métrica, lo cual indica si es bueno o malo que un evento personalizado predeterminado (métrica) vaya al alza.</li><li>Etiquetar métricas.</li></ul> |
 | Administrador de métricas calculadas | <ul><li>Compartir métricas con otros.</li><li>Aprobar y ajustar métricas.</li><li>Organizar (etiquetar) sus métricas para que los demás puedan encontrarlas.</li><li>Eliminar métricas.</li><li>Cambiar el nombre de métricas.</li></ul> |
-| API para métricas calculadas | Parte del conjunto API de CJA. |
+| API para métricas calculadas | Parte del conjunto de API de Customer Journey Analytics. |
 
-## Plantillas de métricas calculadas en CJA
+## Plantillas de métricas calculadas en Customer Journey Analytics
 
 | Nombre de métrica calculada | Descripción de métrica calculada |
 | --- | --- |

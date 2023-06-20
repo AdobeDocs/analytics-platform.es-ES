@@ -3,7 +3,7 @@ description: La función de flujo muestra las rutas del cliente en sus sitios we
 title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: 8a971c6b7e04f40a57d379f246c38815852ee0c2
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 93%
@@ -22,7 +22,7 @@ Le permite:
 
 [Tutorial de vídeo de visualización Flujo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=es) (4:56)
 
-## Flujos interdimensionales {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## Flujos interdimensionales {#in}
 
 Puede mostrar el [flujo entre dimensiones](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por ejemplo, puede combinar páginas y departamentos en un diagrama. En este caso, su flujo puede ir desde la página de inicio a la página Hombres y, a continuación, al departamento Zapatos.
 

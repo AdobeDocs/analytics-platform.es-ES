@@ -1,21 +1,21 @@
 ---
 title: Usar matrices de objetos
-description: Comprender cómo CJA informa sobre las jerarquías de datos.
+description: Comprender cómo Customer Journey Analytics informa sobre las jerarquías de datos.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 86%
+source-wordcount: '445'
+ht-degree: 66%
 
 ---
 
 # Usar matrices de objetos
 
-Algunos esquemas de la plataforma pueden tener matrices de objetos. CJA admite la ingesta y los informes de matrices de objetos dentro de datos de evento, búsqueda y perfil. Uno de los ejemplos más comunes sería un carro de compras que tiene varios productos. Cada producto tiene un nombre, SKU, categoría, precio, cantidad y cualquier otra dimensión que desee rastrear. Todas estas facetas tienen requisitos diferentes, pero todas deben encajar en la misma visita.
+Algunos esquemas de la plataforma pueden tener matrices de objetos. Adobe Customer Journey Analytics admite la ingesta y generación de informes de matrices de objetos dentro de datos de evento, búsqueda y perfil. Uno de los ejemplos más comunes sería un carro de compras que tiene varios productos. Cada producto tiene un nombre, SKU, categoría, precio, cantidad y cualquier otra dimensión que desee rastrear. Todas estas facetas tienen requisitos diferentes, pero todas deben encajar en la misma visita.
 
-En versiones anteriores de Adobe Analytics, esta función se realizaba con la variable `products`. Era una cadena concatenada separada por punto y coma (`;`) para distintas facetas de un producto, y con coma (`,`) para delinear productos. Era la única variable con compatibilidad limitada con “matrices de objetos”. Las variables de varios valores, como las variables de lista, podrían admitir el equivalente de matrices, pero no podrían admitir “matrices de objetos”. CJA amplía este concepto al admitir jerarquías arbitrariamente profundas dentro de una sola fila de datos, una función que no está disponible en ninguna versión anterior de Adobe Analytics.
+En versiones anteriores de Adobe Analytics, esta función se realizaba con la variable `products`. Era una cadena concatenada separada por punto y coma (`;`) para distintas facetas de un producto, y con coma (`,`) para delinear productos. Era la única variable con compatibilidad limitada con “matrices de objetos”. Las variables de varios valores, como las variables de lista, podrían admitir el equivalente de matrices, pero no podrían admitir “matrices de objetos”. Customer Journey Analytics amplía este concepto al admitir jerarquías arbitrariamente profundas dentro de una sola fila de datos, una función que no está disponible en ninguna versión anterior de Adobe Analytics.
 
 ## Mismo ejemplo de evento
 
@@ -91,7 +91,7 @@ Solo con el evento anterior, las tablas siguientes muestran los informes del Esp
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-CJA analiza de forma selectiva la dimensión y las métricas del objeto en función de la tabla.
+El Customer Journey Analytics analiza de forma selectiva la dimensión y las métricas del objeto en función de la tabla.
 
 ```diff
 {
@@ -143,7 +143,7 @@ Si desea informar sobre los ingresos de la garantía, su proyecto tendría un as
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA examina estas partes del evento para generar el informe:
+El Customer Journey Analytics examina estas partes del evento para generar el informe:
 
 ```diff
 {
@@ -245,7 +245,7 @@ Observe los pedidos que no tienen un nombre vinculado a ellos. Son los pedidos a
 
 ### Combinación de métricas
 
-CJA no combina de forma nativa las métricas con nombres similares si se encuentran en diferentes niveles de objeto.
+Customer Journey Analytics no combina de forma nativa las métricas con nombres similares si se encuentran en diferentes niveles de objeto.
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |

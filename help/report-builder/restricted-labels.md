@@ -6,28 +6,28 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
-workflow-type: ht
-source-wordcount: '311'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 60%
 
 ---
 
 # Etiquetas restringidas en Report Builder
 
-En general, la configuración relacionada con la gobernanza de datos en Customer Journey Analytics se hereda de Adobe Experience Platform. La integración entre CJA y Gobernanza de datos de Adobe Experience Platform permite el etiquetado de datos de CJA confidenciales y la aplicación de directivas de privacidad.
+En general, la configuración relacionada con la gobernanza de datos en Customer Journey Analytics se hereda de Adobe Experience Platform. La integración entre Customer Journey Analytics y Gobernanza de datos de Adobe Experience Platform permite el etiquetado de datos confidenciales del Customer Journey Analytics y la aplicación de políticas de privacidad.
 
-Las etiquetas y directivas de privacidad creadas en conjuntos de datos consumidos por Experience Platform se pueden ver en el flujo de trabajo de vistas de datos de CJA. Estas etiquetas detienen o advierten a los usuarios que crean métricas o dimensiones a partir de campos confidenciales. Para obtener información acerca de los conjuntos de datos, consulte [Información general sobre conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es)
+Las etiquetas de privacidad y las políticas creadas en conjuntos de datos consumidos por Experience Platform se pueden ver en el flujo de trabajo de vistas de datos del Customer Journey Analytics. Estas etiquetas detienen o advierten a los usuarios que crean métricas o dimensiones a partir de campos confidenciales. Para obtener información acerca de los conjuntos de datos, consulte [Información general sobre conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es)
 
-Además, cuando se exportan datos desde CJA (mediante creación de informes, exportación, API, etc.), se añaden advertencias o etiquetas para notificar a los usuarios de que un informe contiene información confidencial que debe tratarse de una manera específica.
+Además, cuando se exportan datos desde Customer Journey Analytics (mediante creación de informes, exportación, API, etc.), se añaden advertencias o etiquetas para notificar a los usuarios de que un informe contiene información confidencial que debe tratarse de una manera específica.
 
-Esta integración le permite administrar el cumplimiento de normas más fácilmente. Los administradores de datos de su organización pueden establecer políticas para restringir el uso. Como resultado, los usuarios de CJA pueden emplear los datos con mayor seguridad, sabiendo que cumplen con las políticas definidas por los administradores de datos.
+Esta integración le permite administrar el cumplimiento de normas más fácilmente. Los administradores de datos de su organización pueden establecer políticas para restringir el uso. Como resultado, los usuarios de Customer Journey Analytics pueden utilizar los datos con mayor seguridad, sabiendo que cumplen con las políticas definidas por los administradores de datos.
 
 Para obtener más información, consulte [Customer Journey Analytics y gobernanza de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html?lang=es)
 
 ## Visualización de datos restringidos en Report Builder
 
-En CJA aparecen dos directivas definidas por Adobe que afectan a la creación de informes, a la descarga y al uso compartido:
+En Customer Journey Analytics aparecen dos directivas definidas por el Adobe que afectan a la creación de informes, a la descarga y al uso compartido:
 
 * Aplicación de la directiva de Analytics
 * Aplicación de la directiva de descarga

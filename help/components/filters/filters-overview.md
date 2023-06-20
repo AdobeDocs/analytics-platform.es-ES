@@ -2,9 +2,9 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4e2d4d8c4f8145ae691114d57d663af96240b5f5
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '967'
 ht-degree: 34%
 
 ---
@@ -112,7 +112,7 @@ Los contenedores de evento incluyen desgloses de una sola página basados en val
 
 ## Plantilla de filtro predefinida {#template}
 
-La versión tradicional de Analytics incluye numerosos filtros de plantilla (filtros) y métricas calculadas predefinidos. Muchos de ellos no se aplican en CJA, o deben renombrarse o volver a crearse. Otros dependen de una solución para variables según el contexto en CJA.
+La versión tradicional de Analytics incluye numerosos filtros de plantilla (filtros) y métricas calculadas predefinidos. Muchos de ellos no se aplican en el Customer Journey Analytics, o hay que cambiarles el nombre o volver a crearlos. Otros dependen de una solución para variables según el contexto en Customer Journey Analytics.
 
 | Nombre del filtro | Descripción |
 | --- | --- |
