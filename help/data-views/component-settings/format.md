@@ -4,10 +4,10 @@ description: Configure el formato de una métrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 5c6e7c51369b451ac0efdcead86f71e38bd3a853
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,10 +44,6 @@ Para mostrar una moneda para una métrica:
 
 
 ### Convertir y mostrar moneda
-
-[!BADGE Nueva función]{type=Positive}
-
-{{release-limited-testing-section}}
 
 Para habilitar la conversión de una moneda para una métrica:
 
