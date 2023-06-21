@@ -1,9 +1,10 @@
 ---
 title: Información general sobre el análisis guiado
 description: Un método de análisis de datos en Customer Journey Analytics que permite a los equipos de productos generar fácilmente informes y perspectivas.
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
+source-git-commit: e2020d9194f7885f80671214829f06245bbab328
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -17,10 +18,6 @@ El análisis guiado es un formato de informes que permite a los equipos de produ
 Al igual que los cuadros de resultados de Analysis Workspace y Mobile, un informe de análisis guiado utiliza datos de una [Vista de datos](../data-views/data-views.md), que hace referencia a los datos en Adobe Experience Platform a través de una [Conexión](../connections/overview.md). Todos los informes creados en Guided analysis pueden transferirse sin problemas a Analysis Workspace para realizar investigaciones adicionales.
 
 Actualmente, los informes de análisis guiados presentan tres tipos de análisis: [Canal](analysis-types/funnel.md), [Tendencias](analysis-types/trends.md), y [Crecimiento de usuarios](analysis-types/user-growth.md). Cada uno de estos tipos de análisis tiene varios tipos de vista, que proporcionan información adicional a cada uno de estos informes.
-
-## Aprovisionamiento
-
-El análisis guiado es un complemento de pago para Customer Journey Analytics. Si su organización desea empezar a utilizar esta función, póngase en contacto con el equipo de cuenta de Adobe.
 
 ## Interfaz
 
@@ -45,7 +42,9 @@ El análisis guiado contiene las siguientes partes de la interfaz:
 
 {style="table-layout:auto"}
 
-## Permisos
+## Aprovisionamiento
+
+El análisis guiado forma parte de Adobe Product Analytics, que es un complemento de pago para Customer Journey Analytics. Si su organización desea empezar a utilizar esta función, póngase en contacto con el equipo de cuenta de Adobe.
 
 Adobe planea proporcionar permisos específicos para el análisis guiado en el futuro.
 
