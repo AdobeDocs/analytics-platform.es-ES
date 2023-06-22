@@ -4,16 +4,16 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: fb5642f8dafdc16749b355cf4b77a8366e1f8401
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 41%
+source-wordcount: '2056'
+ht-degree: 40%
 
 ---
 
-# Compatibilidad con funciones de Customer Journey Analytics
+# Compatibilidad con funciones de Adobe Customer Journey Analytics
 
-Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles, parcialmente o nada compatibles con Customer Journey Analytics (Customer Journey Analytics) y qué funciones de Customer Journey Analytics no son compatibles o no están disponibles en Adobe Analytics. Estas listas cambiarán con el tiempo a medida que se añadan funciones a Customer Journey Analytics.
+Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles, parcialmente o nada compatibles con Customer Journey Analytics, y qué funciones de Customer Journey Analytics no son compatibles o no están disponibles en Adobe Analytics. Estas listas cambiarán con el tiempo a medida que se añadan funciones a Customer Journey Analytics.
 
 ## Funciones y componentes totalmente compatibles {#full-support}
 
@@ -56,6 +56,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Clasificaciones | Ahora se denomina Conjuntos de datos de búsqueda. Las clasificaciones utilizadas en Analytics se pueden importar al Experience Platform y al Customer Journey Analytics mediante el Classifications Source Connector de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en el Experience Platform y estar disponibles en el Customer Journey Analytics. |
 | Generador de reglas de clasificación | Admitido mediante [subcadenas](/help/data-views/component-settings/substring.md) en Customer Journey Analytics. Utiliza manipulaciones de cadenas en el tiempo del informe en lugar de conjuntos de datos de búsqueda. |
 | Definición de sesiones personalizada | Compatibilidad con todas las funciones de definición de sesiones personalizada excepto eventos de fondo móviles. |
+| Conversión de divisa | Compatible como parte de [formato de un componente de métrica](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=en#currency) en una vista de datos. |
 | Persistencia de la variable de comercialización | Asistencia total a través de [dimensiones de enlace y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) |
 | Atributos del cliente | Ahora denominados &quot;conjuntos de datos del perfil&quot;, no se importan de manera automática desde Experience Cloud, pero deben cargarse en Experience Platform antes de que estén disponibles en Customer Journey Analytics. |
 | Fuentes de datos | La exportación de datos de primera generación de conjuntos de datos está disponible a través del [API de acceso a datos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) y mediante [Destinos del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). Estas opciones proporcionan una exportación a nivel de evento/fila de todos los datos recopilados o introducidos en el lago de datos del Experience Platform. Las columnas de datos de procesamiento posterior no están disponibles porque las columnas posteriores se calculan en el momento de la consulta. La exportación de columnas post está disponible a través del sistema de informes. |
@@ -99,7 +100,6 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Plantillas de proyecto | Se ha planificado lanzar una versión compatible. |
 | Informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
-| Conversión de divisa | Se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de ID de transacción | Se ha planificado lanzar una versión compatible. |
 | Migración de proyectos/filtros/métricas calculadas de Adobe Analytics a Customer Journey Analytics | Se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de nivel de resumen | Se ha planificado lanzar una versión compatible. |
@@ -115,7 +115,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 
 {style="table-layout:auto"}
 
-## No admitir nunca {#never}
+## Nunca admitido {#never}
 
 * Métrica de personas que utiliza la cooperación entre dispositivos
 * Paneles de Reports &amp; Analytics
@@ -124,7 +124,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 
 ## Funciones de Adobe Customer Journey Analytics no disponibles en Adobe Analytics {#cja-not-aa}
 
-En la tabla siguiente se enumeran las funciones disponibles en Customer Journey Analytics , pero que no son compatibles con Adobe Analytics.
+En la tabla siguiente se enumeran las funciones disponibles en Customer Journey Analytics, pero que no son compatibles con Adobe Analytics.
 
 | Funcionalidad | Más detalles |
 | --- | --- |

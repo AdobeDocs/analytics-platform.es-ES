@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3c6d1cd351df9a8db8e2fcfe66ecf713ae680c16
+source-git-commit: 68041d22c55d46d740307f2ad2b0cefa249a7e96
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 74%
+source-wordcount: '1426'
+ht-degree: 70%
 
 ---
 
 # Notas de la versión actuales de Adobe Customer Journey Analytics (junio de 2023)
 
-**Última actualización**: 21 de junio de 2023
+**Última actualización**: 22 de junio de 2023
 
 Las versiones de Adobe Customer Journey Analytics funcionan de forma [modelo de envío continuo](releases.md) lo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -56,7 +56,7 @@ AN-318343; AN-319453
 
 | Aviso | Aviso añadido o actualizado | Descripción |
 | --- | --- | --- |
-| N/A | N/A | N/A |
+| Cambios en el modo en que el Customer Journey Analytics procesa los datos | 22 de junio de 2023 | Recientemente hemos cambiado la forma en que procesamos los datos en Customer Journey Analytics.<p>**Antiguo modo:**<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote > 50 millones de filas: más de 90 minutos.)</li><li>Rellenos secundarios pequeños: por ejemplo, un conjunto de datos de consulta de 10 millones de filas: en un plazo de 7 días<li>Rellenos de fondo grandes: por ejemplo, 500 000 millones de filas: 30 días</li></ul>**Nueva forma (a partir de junio de 2023)**<ul><li>Se transmite cualquier dato de evento con una marca de tiempo de menos de 24 horas.</li><li>Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.</li></ul> |
 
 ## Avisos de final de la vida útil {#eol}
 
