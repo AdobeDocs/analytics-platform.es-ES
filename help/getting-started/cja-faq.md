@@ -4,7 +4,7 @@ description: 'Customer Journey Analytics: Preguntas frecuentes.'
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: cf11fa76503e700c07de7872b5f6c8a73b1d94d1
+source-git-commit: eb05f22fdef55147da3bb84ba038f52ee7769167
 workflow-type: tm+mt
 source-wordcount: '2210'
 ht-degree: 72%
@@ -132,12 +132,11 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 
 +++**Cuál es la latencia esperada para [!UICONTROL Customer Journey Analytics] datos sobre [!UICONTROL Adobe Experience Platform]?**
 
+<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.)</li><li>Rellenos secundarios pequeños: por ejemplo, un conjunto de datos de consulta de 10 millones de filas: en un plazo de 7 días<li>Rellenos de fondo grandes: por ejemplo, 500 000 millones de filas: 30 días</li></ul>
+
 Recientemente, hemos cambiado la forma en que procesamos los datos en Customer Journey Analytics:
 
 <ul><li>Se transmite cualquier dato de evento con una marca de tiempo de menos de 24 horas.</li><li>Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.</li></ul>
-
-<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.)</li><li>Rellenos secundarios pequeños: por ejemplo, un conjunto de datos de consulta de 10 millones de filas: en un plazo de 7 días<li>Rellenos de fondo grandes: por ejemplo, 500 000 millones de filas: 30 días</li></ul>
-
 
 +++
 
