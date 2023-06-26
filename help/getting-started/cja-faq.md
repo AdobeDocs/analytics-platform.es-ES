@@ -4,9 +4,9 @@ description: 'Customer Journey Analytics: Preguntas frecuentes.'
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: b66aed675153af3a2a0fbb77569d5c4c90d48022
+source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
 workflow-type: tm+mt
-source-wordcount: '2199'
+source-wordcount: '2185'
 ht-degree: 72%
 
 ---
@@ -130,15 +130,11 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 >[!NOTE]
 >No hay un tamaño de datos fijo en el Customer Journey Analytics y, por lo tanto, el Adobe no puede comprometerse con un tiempo de ingesta estándar. Estamos trabajando activamente para reducir estas latencias a través de nuevas actualizaciones y la optimización de la ingesta.
 
-+++**Cuál es la latencia esperada para [!UICONTROL Customer Journey Analytics] datos sobre [!UICONTROL Adobe Experience Platform]?**
-
 <ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.)</li><li>Rellenos secundarios pequeños: en un plazo de 7 días<li>Rellenos de fondo grandes: en 30 días</li></ul>
 
 Recientemente, hemos cambiado la forma en que procesamos los datos en Customer Journey Analytics:
 
 <ul><li>Se transmite cualquier dato de evento con una marca de tiempo de menos de 24 horas.</li><li>Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.</li></ul>
-
-+++
 
 ## 5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
 
