@@ -4,7 +4,9 @@ description: Comprensión del concepto "reproducción" en Cross-Channel Analytic
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+hide: true
+hidefromtoc: true
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 89%

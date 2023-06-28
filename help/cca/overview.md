@@ -4,7 +4,9 @@ description: Vuelva a escribir los ID de persona de varios conjuntos de datos pa
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+hide: true
+hidefromtoc: true
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 89%

@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo comparar sus datos de Adobe Analyt
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '905'
 ht-degree: 65%
 
 ---
@@ -47,7 +47,7 @@ Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siem
 
 >[!NOTE]
 >
->Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Análisis en canales múltiples](/help/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en el Customer Journey Analytics es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en Adobe Analytics, especialmente si se ha activado Cross-Channel Analytics.
+>Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Análisis en canales múltiples](/help/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en el Customer Journey Analytics es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en Adobe Analytics, especialmente si se ha activado la vinculación.
 
 1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es), ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
 

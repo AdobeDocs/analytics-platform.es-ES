@@ -4,7 +4,9 @@ description: Preguntas frecuentes sobre Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+hide: true
+hidefromtoc: true
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 66%

@@ -4,10 +4,10 @@ description: Descubra cómo Customer Journey Analytics crea una conexión combin
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 72%
+source-wordcount: '584'
+ht-degree: 61%
 
 ---
 
@@ -77,3 +77,28 @@ Sin embargo, si ha incluido ambas tablas en la conexión, la atribución cambia 
 | Amarillo | 6 |
 | Azul | 3 |
 | Rojo | 2 |
+
+## Análisis en canales múltiples
+
+El siguiente nivel de combinación de conjuntos de datos es el análisis en canales múltiples, donde se combinan conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona). El análisis en canales múltiples puede beneficiarse de la funcionalidad de vinculación, que le permite volver a escribir el ID de persona de un conjunto de datos para que el conjunto de datos se actualice correctamente y permita una combinación perfecta de varios conjuntos de datos. La vinculación busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado.
+
+El análisis en canales múltiples le permite responder preguntas como las siguientes:
+
+* ¿Cuántas personas comienzan su experiencia en un canal y luego la terminan en otro?
+* ¿Cuántas personas interactúan con mi marca? ¿Cuántos y qué tipos de dispositivos utilizan? ¿Cómo se superponen?
+* ¿Con qué frecuencia comienzan una tarea en un dispositivo móvil y luego se trasladan a un ordenador de escritorio para completarla? ¿Los clics de campaña que llegan a un dispositivo llevan a la conversión en otro dispositivo diferente?
+* ¿Cómo cambia mi comprensión de la eficacia de la campaña si tengo en cuenta los recorridos entre dispositivos? ¿Cómo cambia mi análisis de embudo?
+* ¿Cuáles son las rutas más comunes que los usuarios realizan de un dispositivo a otro? ¿En qué punto abandonan? ¿Dónde tienen éxito?
+* ¿En qué se diferencia el comportamiento de los usuarios con varios dispositivos de los usuarios con un único dispositivo?
+
+
+Para obtener más información sobre el análisis entre canales, consulte el caso de uso específico:
+
+* [Análisis en canales múltiples](../use-cases/cross-channel/cross-channel.md)
+
+Para obtener una funcionalidad de vinculación de discusión más detallada, vaya a:
+
+* [Información general de vinculación](/help/stitching/overview.md)
+* [Cómo funciona la vinculación](../stitching/explained.md)
+* [Preguntas frecuentes ](/help/stitching/faq.md)
+

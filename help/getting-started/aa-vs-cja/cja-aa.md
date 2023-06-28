@@ -4,9 +4,9 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: fb5642f8dafdc16749b355cf4b77a8366e1f8401
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2055'
 ht-degree: 40%
 
 ---
@@ -79,7 +79,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
-| Vinculación entre dispositivos y canales | Compatible con conjuntos de datos que contienen información de identidad directamente (también conocida como vinculación “basada en campos”). La vinculación basada en gráficos aún no es compatible, pero está programada. Consulte [Análisis en canales múltiples](/help/cca/overview.md). |
+| Vinculación entre dispositivos y canales | Compatible con conjuntos de datos que contienen información de identidad directamente (también conocida como vinculación “basada en campos”). La vinculación basada en gráficos aún no es compatible, pero está programada. Consulte [Vinculación](../../stitching/overview.md). |
 | Filtros de bots | Para conjuntos de datos basados en el [conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o Customer Journey Analytics. |
 | Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Admitido para conjuntos de datos basados en [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Consulte [Documentación sobre las variables de Analytics que se admiten mediante ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es).<p>Si utiliza la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten el dispositivo y las dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. |
 | Dimensiones de segmentación geográfica | Toda la segmentación geográfica/geografía recopilada en Adobe Analytics se transfiere a Customer Journey Analytics a través del [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Las implementaciones que no utilizan el conector de origen de Analytics, pero que dependen del SDK web de Experience Platform para la recopilación de datos digitales, pueden utilizar el [Servicio de búsqueda geográfica de Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es). |

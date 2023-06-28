@@ -4,9 +4,9 @@ title: Coherencia de métricas y recuentos de miembros de audiencia entre Real-t
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 25%
 
 ---
@@ -22,7 +22,7 @@ Al comparar los recuentos de miembros de audiencia entre Real-time CDP y Custome
 
 Real-time CDP y Customer Journey Analytics no comparten la misma definición de una persona en la actualidad. Real-time CDP se basa completamente en la información de [Identity Graph](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identifies/understanding-identity-and-identity-graphs.html?lang=es) para crear un perfil combinado.
 
-El Customer Journey Analytics se puede configurar para que utilice [Análisis entre canales](/help/cca/overview.md) que extrae identificadores de conjuntos de datos en el lago de datos y aplica lógica personalizada para vincularlos juntos.
+El Customer Journey Analytics se puede configurar para que utilice [Vinculación](../stitching/overview.md) que extrae identificadores de conjuntos de datos en el lago de datos y aplica lógica personalizada para vincularlos juntos.
 
 En el futuro, Customer Journey Analytics podrá utilizar Identity Graph.
 

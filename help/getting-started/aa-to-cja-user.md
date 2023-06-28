@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 76%
+source-wordcount: '1479'
+ht-degree: 75%
 
 ---
 
@@ -104,7 +104,7 @@ Los “atributos del cliente” ahora se conocen como “Conjuntos de datos de p
 
 ## Cambios en la forma en que el Adobe identifica a los visitantes
 
-Customer Journey Analytics amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar [Análisis en canales múltiples](/help/cca/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto del Espacio de trabajo en Customer Journey Analytics debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en Customer Journey Analytics:
+Customer Journey Analytics amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar [Vinculación](../stitching/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto del Espacio de trabajo en Customer Journey Analytics debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en Customer Journey Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
