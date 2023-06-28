@@ -4,29 +4,39 @@ description: Todos los ajustes que se pueden ajustar para crear o editar una vis
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 77647ddbd2deee402629104312db1620de4449e9
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 95%
+source-wordcount: '1385'
+ht-degree: 57%
 
 ---
 
 # Creación o edición de una vista de datos
 
-La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándares. La mayoría de los elementos de esquema pueden ser una dimensión o una métrica según los requisitos de la empresa. Una vez arrastrado un elemento de esquema a una vista de datos, las opciones aparecen a la derecha, donde puede ajustar el funcionamiento de la dimensión o métrica en Customer Journey Analytics.
+La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándar. La mayoría de los elementos de esquema pueden ser una dimensión o una métrica según los requisitos de la empresa. Una vez arrastrado un elemento de esquema a una vista de datos, las opciones aparecen a la derecha, donde puede ajustar el funcionamiento de la dimensión o métrica en Customer Journey Analytics.
 
 A continuación se muestra un vídeo sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
-## Configuración de una fuente de datos
+Para crear o editar una vista de datos:
 
-1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la pestaña **[!UICONTROL Vistas de datos]**.
-2. Haga clic en **[!UICONTROL Agregar]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
+1. Iniciar sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la **[!UICONTROL Vistas de datos]** pestaña.
+1. Para crear una vista de datos, seleccione **[!UICONTROL Crear nueva vista de datos]**. También puede seleccionar una vista de datos existente de la lista de vistas de datos para editarla.
 
-![Nueva vista de datos](assets/new-data-view.png)
 
-### Configuración de vista de datos
+## Configurar
+
+Para configurar una vista de datos nueva o existente:
+
+1. Seleccione el **[!UICONTROL Configurar]** pestaña (si no está activa).
+
+   ![Configuración de vista de datos](assets/dataview-configure.png)
+1. Especificar [!UICONTROL Configuración], [!UICONTROL Contenedor], y [!UICONTROL Calendario] detalles (consulte más abajo).
+1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para guardar la configuración para la vista de datos existente.
+
+
+### Configuración
 
 Proporciona una configuración general para la vista de datos.
 
@@ -57,34 +67,34 @@ Indica el formato de calendario que desea que siga la vista de datos. Puede tene
 | Configuración | Descripción |
 | --- | --- |
 | [!UICONTROL Zona horaria] | Elija en qué zona horaria desea que se presenten los datos. Si elige una zona horaria que funcione según el horario de verano, los datos se ajustan automáticamente para reflejarlo. En primavera, cuando los relojes se adelantan, hay un espacio de una hora. En otoño, cuando los relojes se atrasan, se repite una hora durante el cambio del horario de verano. |
-| [!UICONTROL Tipo de calendario] | Determine cómo se agrupan las semanas del mes.<br>**Gregoriano:** formato de calendario estándar. Los trimestres se agrupan por mes.<br>**Venta minorista 4-5-4:** calendario de venta minorista estandarizado 4-5-4. El primer y último mes del trimestre contiene 4 semanas, mientras que el segundo mes del trimestre consta de 5 semanas.<br>**Personalizado (4-5-4):** similar al calendario 4-5-4 excepto que puede elegir el primer día del año y el año en el que se produce la semana extra.<br>**Personalizado (4-4-5):** el primer y el segundo meses de cada trimestre contienen 4 semanas, mientras que la última semana de cada trimestre constan de 5 semanas.<br>**Personalizado (5-4-4):** el primer mes de cada trimestre consta de 5 semanas, mientras que el segundo y el tercer mes de cada trimestre constan de 4 semanas. |
+| [!UICONTROL Tipo de calendario] | Determine cómo se agrupan las semanas del mes.<br>**Gregoriano:** formato de calendario estándar. Los trimestres se agrupan por mes.<br>**Venta minorista 4-5-4:** calendario de venta minorista estandarizado 4-5-4. El primer y último mes del trimestre contienen 4 semanas, mientras que el segundo mes del trimestre constan de 5 semanas.<br>**Personalizado (4-5-4):** similar al calendario 4-5-4 excepto que puede elegir el primer día del año y el año en el que se produce la semana extra.<br>**Personalizado (4 - 4 - 5):** El primer y el segundo meses de cada trimestre contienen 4 semanas, mientras que la última semana de cada trimestre constan de 5 semanas.<br>**Personalizado (5-4-4):** el primer mes de cada trimestre consta de 5 semanas, mientras que el segundo y el tercer mes de cada trimestre constan de 4 semanas. |
 | [!UICONTROL Primer mes del año] y [!UICONTROL primer día de la semana] | Visible para el tipo de calendario gregoriano. Especifique en qué mes desea que comience el año del calendario y en qué día desea que comience cada semana. |
 | [!UICONTROL Primer día del año actual] | Visible para tipos de calendario personalizados. Especifique qué día del año desea que comience el año actual. El calendario aplica automáticamente el formato del primer día de cada semana en función de este valor. |
-| [!UICONTROL Año que incluye la semana “extra”] | Con la mayoría de los calendarios de 364 días (52 semanas de 7 días cada uno), cada año se acumulan varios días restantes hasta formar una semana extra. Esta semana extra se agrega al último mes de ese año. Especifique a qué año desea agregar la semana adicional. |
+| [!UICONTROL Año que incluye la semana “extra”] | Con la mayoría de los calendarios de 364 días (52 semanas de 7 días cada uno), cada año se acumulan varios días restantes hasta que suman una semana adicional. Esta semana extra se agrega al último mes de ese año. Especifique a qué año desea agregar la semana adicional. |
 
 {style="table-layout:auto"}
 
-## Definición de los componentes de una vista de datos
+## Componentes
 
-A continuación, puede crear métricas y dimensiones a partir de elementos de esquema. También puede utilizar componentes estándares.
+A continuación, puede establecer los componentes de una vista de datos, lo que significa que puede crear métricas y dimensiones a partir de elementos de esquema. También puede utilizar componentes estándares.
 
-1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la pestaña **[!UICONTROL Vistas de datos]**.
-1. Haga clic en **[!UICONTROL Agregar]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
-1. Haga clic en la pestaña **[!UICONTROL Componentes]**.
+1. Seleccione el **[!UICONTROL Componentes]** pestaña.
 
-   ![Pestaña Componentes](assets/components-tab.png)
+   ![Pestaña Componentes](assets/dataview-components.png)
 
-   Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos, y sus [!UICONTROL Campos de esquema] a continuación. Tenga en cuenta que los componentes ya incluidos son componentes estándar necesarios (que genera el sistema) para todas las vistas de datos. Adobe aplica el filtro **[!UICONTROL Contiene datos]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos. Si desea un campo que no contenga datos, elimine este filtro.
+   Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos, y sus [!UICONTROL Campos de esquema] a continuación.  Los componentes ya incluidos son componentes estándar (generados por el sistema) necesarios para todas las vistas de datos (como Eventos, Personas, Métricas de sesiones y las dimensiones Minuto, Trimestre y Semana ). El Adobe también aplica el filtro **[!UICONTROL Contiene datos]** y **[!UICONTROL no está obsoleto]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos y que no están en desuso.
 
-1. Arrastre un campo de esquema, como `pageTitle`, desde el carril izquierdo a la sección Métricas o Dimensión.
+1. Buscar un campo de esquema mediante ![Icono de búsqueda](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Buscar campos de esquema]** o busque un campo moviéndose a cualquiera de las colecciones de conjuntos de datos, como ![Icono de carpeta](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Conjuntos de datos de evento]**.<br/>Como alternativa, puede crear un campo derivado utilizando ![Icono de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crear campo derivado** . Consulte [Campos derivados](./derived-fields/derived-fields.md) para obtener más información.
 
-   Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras. Por ejemplo, desde el campo `pageTitle` puede crear una dimensión llamada Páginas de producto y otra Páginas de error utilizando diferentes [Configuraciones del componente](component-settings/overview.md) a la derecha.
+1. Cuando haya encontrado el campo de esquema específico o haya definido el campo derivado, arrastre ese campo, como ![Icono de controlador](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Nombre de página]**, desde el carril izquierdo a la sección Métricas o Dimension.
+Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras. Por ejemplo, desde el campo pageName, puede crear una dimensión llamada Páginas de producto y otra Páginas de error utilizando diferentes [Configuración de componentes](component-settings/overview.md) a la derecha.
+Si arrastra una carpeta de campo de esquema desde el carril izquierdo, se ordenan automáticamente en secciones típicas. Los campos de cadena terminan en la sección [!UICONTROL Dimensiones] y los tipos de esquema numérico terminan en la sección [!UICONTROL Métricas]. También puede hacer clic en **[!UICONTROL Agregar todo]** y todos los campos de esquema se añaden a sus respectivas ubicaciones.
 
-   ![Pestaña 3](assets/components-tab-3.png)
+1. Una vez seleccionado un componente, la configuración aparece a la derecha.
 
-   Si arrastra una carpeta de campo de esquema desde el carril izquierdo, se ordenan automáticamente en secciones típicas. Los campos de cadena terminan en la sección [!UICONTROL Dimensiones] y los tipos de esquema numérico terminan en la sección [!UICONTROL Métricas]. También puede hacer clic en **[!UICONTROL Agregar todo]** y todos los campos de esquema se añaden a sus respectivas ubicaciones.
+   ![Componente de vista de datos seleccionado](assets/dataview-component-pagename.png)
 
-1. Una vez que seleccione el componente, verá una serie de configuraciones a la derecha. Configure el componente con [Configuración del componente](component-settings/overview.md). La configuración de componentes disponible depende de si el componente es una dimensión o métrica y del tipo de datos de esquema. La configuración incluye lo siguiente:
+   Configure el componente con [Configuración del componente](component-settings/overview.md). La configuración de componentes disponible depende de si el componente es una dimensión o métrica y del tipo de datos de esquema. La configuración incluye lo siguiente:
 
    * [[!UICONTROL Atribución]](component-settings/attribution.md)
    * [[!UICONTROL Comportamiento]](component-settings/behavior.md)
@@ -95,29 +105,27 @@ A continuación, puede crear métricas y dimensiones a partir de elementos de es
    * [[!UICONTROL Persistencia]](component-settings/persistence.md)
    * [[!UICONTROL Clasificación de valor]](component-settings/value-bucketing.md)
 
-## Duplicado de métricas o dimensiones
+1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para guardar la configuración para la vista de datos existente.
+
+**Duplicado de métricas o dimensiones**
 
 Duplicar métricas o dimensiones y luego modificar configuraciones específicas es una manera sencilla de crear varias métricas o dimensiones a partir de un único campo de esquema. Seleccione la opción [!UICONTROL Duplicado] debajo del nombre de la métrica o dimensión en la parte superior derecha. Modifique la nueva métrica o dimensión, y guárdela con un nombre más descriptivo.
 
-![Duplicar](assets/duplicate.png)
+**Filtrado de campos de esquema o conjuntos de datos**
 
-## Filtrado de campos de esquema o conjuntos de datos
+Puede filtrar ![Icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) Campos de esquema en el carril izquierdo por [!UICONTROL tipo de datos], [!UICONTROL conjuntos de datos], [!UICONTROL gobernanza de datos], y [!UICONTROL otro] criterios ([!UICONTROL contiene datos], [!UICONTROL es identidad], y [!UICONTROL no está obsoleto]):
 
-Puede filtrar los campos de esquema en el carril izquierdo según los siguientes tipos de datos:
+![Filtrar campos](assets/dataview-components-filter.png)
 
-![Filtrar campos](assets/filter-fields.png)
 
-También puede filtrar por conjuntos de datos y por si un campo de esquema contiene datos o si es una identidad. De forma predeterminada, Adobe aplica el filtro **[!UICONTROL Contiene datos]** a todas las vistas de datos.
+## Configuración
 
-![Filtrar otros](assets/filter-other.png)
+1. Seleccione el **[!UICONTROL Configuración]** pestaña.
+1. Configure filtros para aplicarlos a toda la vista de datos. Consulte [Configuración (filtros)](#settings-filters) más abajo.
+1. Configure el tiempo de espera de sesión y las métricas. Consulte [Configuración de sesión](#session-settings) más abajo.
+1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para guardar la configuración para la vista de datos existente.
 
-## Configuración  pestaña
-
-1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y vaya a la pestaña **[!UICONTROL Vistas de datos]**.
-1. Haga clic en **[!UICONTROL Agregar]** para crear una vista de datos o haga clic en una vista de datos existente para editarla.
-1. Haga clic en la pestaña **[!UICONTROL Configuración]**.
-
-### Filtro global
+### Configuración (filtros)
 
 Puede agregar filtros que se apliquen a toda la vista de datos. Este filtro se aplicará a cualquier informe que ejecute el Espacio de trabajo. Arrastre un filtro desde la lista en el carril izquierdo al campo [!UICONTROL Añadir filtros].
 
