@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: ffa57379c868322290fbe23ba43659620c01f068
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 78%
+source-wordcount: '2213'
+ht-degree: 76%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación del Custome
 | Función | Descripción |
 | --- | --- |
 | **Junio de 2023** | |
+| Vinculación y análisis en canales múltiples | En previsión de los próximos cambios para habilitar la vinculación y aclarar cómo se puede elevar el análisis entre canales mediante la vinculación, todo el contenido relacionado con la funcionalidad de Análisis entre canales se edita para hacer referencia al análisis entre canales como la capacidad del Customer Journey Analytics y a la vinculación como una funcionalidad importante para lograrlo. |
 | Acceso de Power BI y Tableau a vistas de datos de Customer Journey Analytics | El Conector SQL del Customer Journey Analytics permite el acceso SQL a las vistas de datos definidas en el Customer Journey Analytics. [Más información](/help/data-views/sql-connector.md) |
 | Vistas de datos de Adobe Journey Optimizer | Los administradores de Customer Journey Analytics tienen acceso a algunas vistas de datos adicionales en Customer Journey Analytics, tituladas &quot;Vista de datos de AJO (nombre de zona protegida)&quot;. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html?lang=es). |
 | Conversión de moneda | Documentación actualizada para [conversión de moneda](../data-views/component-settings/format.md#currency) soporte. |
