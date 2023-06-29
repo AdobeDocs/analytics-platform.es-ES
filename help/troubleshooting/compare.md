@@ -4,16 +4,16 @@ description: Obtenga información sobre cómo comparar sus datos de Adobe Analyt
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 65%
+source-wordcount: '906'
+ht-degree: 64%
 
 ---
 
 # Comparación de los datos de Adobe Analytics con los de Customer Journey Analytics
 
-A medida que su organización adopta Customer Journey Analytics, es posible que observe algunas diferencias en los datos entre Adobe Analytics y Customer Journey Analytics. Esto es normal y puede ocurrir por varios motivos. Customer Journey Analytics está diseñado para permitirle mejorar algunas de las limitaciones de sus datos en AA. Sin embargo, pueden producirse discrepancias inesperadas/no deseadas. Este artículo está diseñado para ayudarle a diagnosticar y solucionar esas diferencias, de modo que usted y su equipo puedan utilizar Customer Journey Analytics sin impedimentos por motivos de integridad de los datos.
+A medida que su organización adopta Customer Journey Analytics, es posible que observe algunas diferencias en los datos entre Adobe Analytics y Customer Journey Analytics. Esto es normal y puede ocurrir por varios motivos. Customer Journey Analytics está diseñado para permitirle mejorar algunas de las limitaciones de sus datos en AA. Sin embargo, pueden producirse discrepancias inesperadas y no deseadas. Este artículo está diseñado para ayudarle a diagnosticar y solucionar esas diferencias, de modo que usted y su equipo puedan utilizar Customer Journey Analytics sin impedimentos por motivos de integridad de los datos.
 
 Supongamos que ha ingerido datos de Adobe Analytics en Adobe Experience Platform a través de [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es)y, a continuación, creó una conexión de Customer Journey Analytics con este conjunto de datos.
 

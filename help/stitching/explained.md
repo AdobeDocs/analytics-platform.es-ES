@@ -3,7 +3,7 @@ title: Cómo funciona la vinculación
 description: Comprensión del concepto de vinculación
 solution: Customer Journey Analytics
 feature: Stitching
-source-git-commit: cfe369ca1d0b18e32f1d88b543e549d01ddc0d64
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 28%
@@ -129,5 +129,5 @@ Cuando recibe una solicitud de privacidad, se elimina la fila que contiene la in
 
 * La vinculación inmediata vincula dispositivos conocidos, pero no vincula inmediatamente dispositivos nuevos o no reconocidos.
 * Los datos se reproducen a intervalos regulares y cambian los datos históricos de la conexión en función de los dispositivos que ha aprendido a identificar.
-* La vinculación activa y la vinculación de reproducción se realizan en un conjunto de datos. El resultado es un nuevo conjunto de datos elevado que es más adecuado para utilizarlo al combinarlo con otros conjuntos de datos (por ejemplo, datos del centro de llamadas) para realizar análisis en canales múltiples.
+* La vinculación activa y la vinculación de reproducción se realizan en un conjunto de datos. El resultado es un nuevo conjunto de datos elevado que es más adecuado para utilizarlo cuando se combina con otros conjuntos de datos (por ejemplo, datos del centro de llamadas) para realizar análisis en canales múltiples.
 * Las solicitudes de privacidad eliminan las identidades que se propagaron a filas no autenticadas.
