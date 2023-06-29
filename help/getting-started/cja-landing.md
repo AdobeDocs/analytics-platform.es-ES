@@ -4,10 +4,10 @@ description: Página de aterrizaje de Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9b69f36f47ca8f0bd709af8bdd8aa8e47830e06d
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 89%
+source-wordcount: '453'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Elementos nuevos o destacados</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cca/overview.html?lang=es#cja-connections"> Análisis en canales múltiples (vinculación de ID en Customer Journey Analytics) </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/stitching/overview.html"> Análisis en canales múltiples (vinculación de ID en Customer Journey Analytics) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=es">Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=es"> Combinación de grupos de informes con diferentes esquemas </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html?lang=es"> Reglas de procesamiento, VISTA y clasificaciones en comparación con la preparación de datos </a> </li>
