@@ -4,9 +4,9 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
+source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2605'
 ht-degree: 60%
 
 ---
@@ -98,8 +98,6 @@ Para cada conjunto de datos que agregue a esta conexión, [!UICONTROL Customer J
 >
 >Debe agregar al menos un conjunto de datos de evento como parte de una conexión.
 
-![Cuadro de diálogo Agregar conjunto de datos](assets/add-dataset.png)
-
 Existen tres tipos diferentes de conjuntos de datos: [!UICONTROL Evento] datos, [!UICONTROL Perfil] datos, y [!UICONTROL Búsqueda] datos.
 
 | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de la persona |
@@ -150,7 +148,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 
 {style="table-layout:auto"}
 
-## Cálculo del número medio de eventos diarios
+## Cálculo del número medio de eventos diarios {#average-number}
 
 Este cálculo se realiza para cada conjunto de datos de la conexión.
 
