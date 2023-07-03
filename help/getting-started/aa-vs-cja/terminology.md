@@ -3,7 +3,8 @@ title: Comparación de terminología para datos de Analytics pasados a través d
 description: Algunas diferencias terminológicas
 solution: Customer Journey Analytics
 exl-id: f0f9aa1e-f9d2-4dcb-bbe9-7960412c094b
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: CJA Basics
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 72%

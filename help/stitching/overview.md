@@ -2,8 +2,8 @@
 title: Información general de vinculación
 description: Información general sobre la vinculación.
 solution: Customer Journey Analytics
-feature: Stitching
-source-git-commit: ec316d36c1e2ec6eb6e75e980ad3fed4ededfb94
+feature: Stitching, Cross-Channel Analysis
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 32%

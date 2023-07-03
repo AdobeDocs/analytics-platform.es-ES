@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo comparar sus datos de Adobe Analyt
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+feature: Troubleshooting
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 64%

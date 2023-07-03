@@ -2,7 +2,8 @@
 title: Registros de auditoría
 description: Obtenga información sobre cómo ver y administrar registros de auditoría de Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Privacy
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 67%

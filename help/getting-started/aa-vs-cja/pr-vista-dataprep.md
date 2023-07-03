@@ -2,10 +2,11 @@
 title: Reglas de procesamiento, VISTA y clasificaciones frente a la preparación de datos para el conector de origen de Analytics
 description: Obtenga información sobre la transformación de datos mediante reglas de procesamiento y VISTA en comparación con el uso de la preparación de datos
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: CJA Basics
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -29,4 +30,4 @@ La preparación de datos tiene una transición con [clasificaciones](https://exp
 
 Por ejemplo, en un campo delimitado puede utilizar la preparación de datos para dividir ese campo en varios campos individuales sin el uso de clasificaciones. Por lo general, las clasificaciones permiten agregar metadatos a un campo cargando un archivo de búsqueda que se proporciona fuera del flujo de eventos entrantes de Analytics.
 
-Por ejemplo, puede cargar un archivo de clasificación que agrupe las SKU en «tamaño», «marca», «color», etc. Otra diferencia entre las clasificaciones y la preparación de datos es que las clasificaciones se aplican a los datos _históricamente y en el futuro_. Las asignaciones de preparación de datos, por otro lado, se aplican _hacia adelante_ a los datos desde el momento en que se crea la asignación.
+Por ejemplo, puede cargar un archivo de clasificación que agrupe las SKU en &quot;tamaño&quot;, &quot;marca&quot;, &quot;color&quot;, etc. Otra diferencia entre las clasificaciones y la preparación de datos es que las clasificaciones se aplican a los datos _históricamente y en el futuro_. Las asignaciones de preparación de datos, por otro lado, se aplican _hacia adelante_ a los datos desde el momento en que se crea la asignación.

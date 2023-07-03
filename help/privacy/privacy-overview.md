@@ -2,7 +2,8 @@
 title: Customer Journey Analytics y gobernanza de datos
 description: Describe cómo funciona la gobernanza de datos en Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Privacy
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 68%

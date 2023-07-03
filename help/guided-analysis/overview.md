@@ -2,7 +2,8 @@
 title: Información general sobre el análisis guiado
 description: Un método de análisis de datos en Customer Journey Analytics que permite a los equipos de productos generar fácilmente informes y perspectivas.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
-source-git-commit: e2020d9194f7885f80671214829f06245bbab328
+feature: Guided Analysis
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 1%

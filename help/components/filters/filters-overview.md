@@ -2,7 +2,8 @@
 title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Filters
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 34%

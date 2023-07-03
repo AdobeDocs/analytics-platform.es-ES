@@ -2,7 +2,8 @@
 title: Integración de soluciones de Adobe Analytics con Customer Journey Analytics
 description: Integración de soluciones de Adobe Analytics con Customer Journey Analytics
 exl-id: 0a9998df-a538-4a84-95a9-98706bd99ac1
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Platform Integration
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%

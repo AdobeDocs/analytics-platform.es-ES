@@ -2,7 +2,8 @@
 title: Crecimiento de usuarios
 description: Realice un seguimiento del crecimiento de la base de usuarios de su producto.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
-source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
+feature: Guided Analysis
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 2%

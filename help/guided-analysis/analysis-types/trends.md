@@ -1,7 +1,9 @@
 ---
 title: Tendencias
 description: Encuentre patrones y cambios en la participación del usuario a lo largo del tiempo.
-source-git-commit: 37699a674a190aa2f28125d5b39bb3c27ac88551
+exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
+feature: Guided Analysis
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 2%

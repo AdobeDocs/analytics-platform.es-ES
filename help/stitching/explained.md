@@ -2,8 +2,8 @@
 title: Cómo funciona la vinculación
 description: Comprensión del concepto de vinculación
 solution: Customer Journey Analytics
-feature: Stitching
-source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+feature: Stitching, Cross-Channel Analysis
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 28%

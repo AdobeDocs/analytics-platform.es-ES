@@ -2,7 +2,8 @@
 title: Administrar filtros
 description: descubra cómo administrar filtros en Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
+feature: Filters
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 99%
