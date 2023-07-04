@@ -3,10 +3,10 @@ title: Información general de vinculación
 description: Información general sobre la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+source-git-commit: 3fd4038c44b50490618f838d281684742920d152
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 31%
+source-wordcount: '1246'
+ht-degree: 26%
 
 ---
 
@@ -56,22 +56,22 @@ Una vez que su organización cumpla todos los requisitos previos y comprenda los
    * Una solicitud para habilitar la vinculación.
    * El ID del conjunto de datos del conjunto de datos para el cual desea volver a generar la clave.
    * El nombre de columna del ID persistente del conjunto de datos deseado (identificador que aparece en cada fila).
-   * El nombre de la columna del ID transitorio del conjunto de datos deseado (vínculo del identificador personal entre conjuntos de datos).
+   * El nombre de columna del ID transitorio del conjunto de datos deseado (el identificador de persona, que también actúa como vínculo entre conjuntos de datos en el contexto de una conexión).
    * Su preferencia de frecuencia de [repetición](explained.md) y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
    * Nombre de la zona protegida.
 
 
-2. La Asistencia al cliente de Adobe trabaja con el personal de ingeniería de Adobes para habilitar la vinculación al recibir la solicitud. Una vez habilitado, aparecerá en Adobe Experience Platform un nuevo conjunto de datos con clave con una nueva columna de ID de persona. La Asistencia al cliente de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
+2. La Asistencia al cliente de Adobe trabaja con el personal de ingeniería de Adobes para habilitar la vinculación al recibir la solicitud. Una vez habilitado, aparecerá en Adobe Experience Platform un nuevo conjunto de datos con clave con una nueva columna de ID con título. La Asistencia al cliente de Adobe puede proporcionar el ID del nuevo conjunto de datos.
 
-3. Cuando se active por primera vez, Adobe proporcionará un relleno de datos vinculados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para rellenar este campo, el ID transitorio debe existir en los datos no enlazados en ese momento.
+3. Cuando se activa por primera vez, el Adobe proporciona un relleno de datos vinculados que se remontan a 30 días.
 
-4. [Crear una conexión](/help/connections/create-connection.md) en un Customer Journey Analytics que utilice el conjunto de datos recién generado y otros conjuntos de datos que desee incluir. Elija el ID personal correcto para cada conjunto de datos.
+4. Si desea utilizar el nuevo conjunto de datos vinculado en un análisis en canales múltiples, debe agregarlo a un [conexión](../connections/overview.md) en el Customer Journey Analytics junto con cualquier otro conjunto de datos necesario. Elija el ID personal correcto para cada conjunto de datos.
 
 5. [Cree una vista de datos](/help/data-views/create-dataview.md) en función de la conexión.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-Una vez configurada la vista de datos, el análisis en canales múltiples en Customer Journey Analytics es igual que cualquier otro análisis en Customer Journey Analytics, excepto que ahora los datos se gestionan a través de varios canales y dispositivos.
+Una vez configurada la vista de datos, puede ejecutar el análisis de creación de informes de Customer Journey Analytics en varios canales y dispositivos.
 
 <!-- Uncomment once stitching UI is available (for limited testing)..
 
