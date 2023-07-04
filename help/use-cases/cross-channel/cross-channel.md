@@ -4,10 +4,10 @@ description: Analice y extraiga información de las interacciones de los cliente
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '523'
+ht-degree: 63%
 
 ---
 
@@ -43,6 +43,6 @@ Al establecer este flujo de trabajo, asegúrese de tener en cuenta los siguiente
 * El análisis de datos entre canales requiere la misma área de nombres de ID en cada registro.
 * El proceso de unión de conjuntos de datos dispares requiere una clave persona/entidad principal común en todos los conjuntos de datos.
 * Actualmente no se admiten uniones secundarias basadas en claves.
-* El proceso de vinculación permite volver a incrustar identidades en filas en función de registros de ID transitorios posteriores, como un ID de autenticación. Esto permite resolver registros dispares en un único ID para su análisis en el nivel de la persona, en lugar de en el nivel de dispositivo o cookie.
+* El proceso de vinculación permite volver a incrustar identidades en filas basadas en información de ID transitoria (como un ID de autenticación) de registros que comparten el mismo ID persistente. Esto permite resolver registros dispares en un único ID vinculado para su análisis en el nivel de persona, en lugar de en el nivel de dispositivo o cookie.
 * Los objetos y atributos del mismo campo XDM se combinan en una dimensión en Customer Journey Analytics. Para combinar varios atributos de varios conjuntos de datos en la misma dimensión de Customer Journey Analytics, los conjuntos de datos deben hacer referencia al mismo campo o esquema XDM.
 

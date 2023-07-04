@@ -3,10 +3,10 @@ title: Cómo funciona la vinculación
 description: Comprensión del concepto de vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 28%
+source-wordcount: '1246'
+ht-degree: 24%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 28%
 
 La vinculación realiza un mínimo de dos pasadas de datos en un conjunto de datos determinado:
 
-* **Vinculación en tiempo real**: intenta vincular cada visita conforme se va produciendo. Los nuevos dispositivos netos del conjunto de datos que nunca han iniciado sesión no suelen vincularse en este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
+* **Vinculación en tiempo real**: intenta vincular cada visita (evento) a medida que se va produciendo. Las visitas de dispositivos que son &quot;nuevos&quot; para el conjunto de datos (nunca se han autenticado) no suelen vincularse en este nivel. Las visitas de dispositivos ya reconocidos se vinculan inmediatamente.
 
-* **Vinculación de repetición**: &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. En esta fase es en la que se vinculan nuevos dispositivos a la conexión. Adobe ofrece dos intervalos de reproducción:
+* **Vinculación de repetición**: &quot;reproduce&quot; los datos en función de los identificadores únicos (ID transitorios) que ha aprendido. En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan (a ID transitorios). Adobe ofrece dos intervalos de reproducción:
    * **Diario**: los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las repeticiones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
-   * **Semanalmente**: los datos se reproducen una vez a la semana con una ventana retrospectiva de 7 días. Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos de menos de una semana de antigüedad no están vinculados.
+   * **Semanalmente**: los datos se reproducen una vez a la semana con una ventana retrospectiva de 7 días. Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
 
 * **Privacidad (opcional)**: Cuando se reciben solicitudes relacionadas con la privacidad, además de eliminar la identidad solicitada, cualquier vinculación de esa identidad a través de eventos no autenticados debe deshacerse.
 
-Los datos que están más allá de la ventana retrospectiva no se reproducen. Un visitante debe autenticarse dentro de una ventana retrospectiva determinada para que una visita no autenticada y autenticada se identifiquen juntas. Una vez que se reconoce un dispositivo, se vincula en vivo a partir de ese momento. Las solicitudes de privacidad se procesan en todos los datos vinculados independientemente del tiempo.
+Los datos que están más allá de la ventana retrospectiva no se reproducen. Un visitante debe autenticarse dentro de una ventana retrospectiva determinada para que una visita no autenticada y autenticada se identifiquen juntas. Una vez que se reconoce un dispositivo, se vincula en vivo a partir de ese momento.
 
 ## Paso 1: Vinculación en tiempo real
 
@@ -127,7 +127,7 @@ Cuando recibe una solicitud de privacidad, se elimina la fila que contiene la in
 
 ## Resumen
 
-* La vinculación inmediata vincula dispositivos conocidos, pero no vincula inmediatamente dispositivos nuevos o no reconocidos.
+* La vinculación inmediata vincula eventos de dispositivos conocidos, pero no vincula inmediatamente eventos de dispositivos nuevos o no reconocidos.
 * Los datos se reproducen a intervalos regulares y cambian los datos históricos de la conexión en función de los dispositivos que ha aprendido a identificar.
 * La vinculación activa y la vinculación de reproducción se realizan en un conjunto de datos. El resultado es un nuevo conjunto de datos elevado que es más adecuado para utilizarlo cuando se combina con otros conjuntos de datos (por ejemplo, datos del centro de llamadas) para realizar análisis en canales múltiples.
 * Las solicitudes de privacidad eliminan las identidades que se propagaron a filas no autenticadas.
