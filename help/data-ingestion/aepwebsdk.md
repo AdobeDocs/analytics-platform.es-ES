@@ -2,9 +2,9 @@
 title: Ingesta de datos mediante el SDK web de Adobe Experience Platform y Edge Network
 description: Explicar cómo ingerir datos en Customer Journey Analytics mediante el SDK web de Adobe Experience Platform y Edge Network
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '3587'
 ht-degree: 98%
@@ -303,11 +303,11 @@ Para definir un elemento de datos de nombre de página, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Título]** en la lista [!UICONTROL Atributo].
 
-      ![Crear un elemento de fecha mediante información de página](./assets/create-dataelement-1.png)
+     ![Crear un elemento de fecha mediante información de página](./assets/create-dataelement-1.png)
 
-      Como alternativa, podría haber utilizado el valor de una variable de la capa de datos, por ejemplo `pageName`, y el tipo de elemento de datos [!UICONTROL Variable JavaScript] para definir el elemento de datos.
+     Como alternativa, podría haber utilizado el valor de una variable de la capa de datos, por ejemplo `pageName`, y el tipo de elemento de datos [!UICONTROL Variable JavaScript] para definir el elemento de datos.
 
-      ![Crear elementos de datos mediante la variable Javascript](./assets/create-dataelement-2.png)
+     ![Crear elementos de datos mediante la variable Javascript](./assets/create-dataelement-2.png)
 
    - Seleccione **[!UICONTROL Guardar]**.
 
@@ -327,7 +327,7 @@ Para definir un elemento de datos ECID, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL ECID]** en la lista [!UICONTROL Tipo de elemento de datos].
 
-      ![Elemento de datos ECID](./assets/ecid-dataelement.png)
+     ![Elemento de datos ECID](./assets/ecid-dataelement.png)
 
    - Seleccione **[!UICONTROL Guardar]**.
 
@@ -353,14 +353,14 @@ Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
 
    - Asigne el atributo `identification > core > ecid`, definido en el esquema, al elemento de datos ECID. Seleccione el icono del cilindro para elegir fácilmente el elemento de datos ECID de su lista de elementos de datos.
 
-      ![Seleccionar un elemento de datos ECID](./assets/pick-ecid-dataelement.png)
+     ![Seleccionar un elemento de datos ECID](./assets/pick-ecid-dataelement.png)
 
-      ![Asignar un elemento de datos ECID](./assets/map-ecid.png)
+     ![Asignar un elemento de datos ECID](./assets/map-ecid.png)
 
 
    - Asigne el atributo `web > webPageDetails > name`, definido en el esquema, al elemento de datos Nombre de página.
 
-      ![Asignar un elemento de datos de nombre de página](./assets/map-pagename.png)
+     ![Asignar un elemento de datos de nombre de página](./assets/map-pagename.png)
 
    - Seleccione **[!UICONTROL Guardar]**.
 
@@ -387,9 +387,12 @@ Para definir una regla, debe hacer lo siguiente:
 
       - Seleccione **[!UICONTROL Ventana cargada]** en la lista [!UICONTROL Tipo de evento].
 
-         ![Regla - Configuración de evento](./assets/event-windowloaded-pageview.png)
+        ![Regla - Configuración de evento](./assets/event-windowloaded-pageview.png)
 
       - Seleccione **[!UICONTROL Conservar cambios]**.
+
+
+
    - Seleccione **[!UICONTROL + Agregar]**, bajo [!UICONTROL Acciones].
 
    - En el cuadro de diálogo [!UICONTROL Configuración de acción], haga lo siguiente:
@@ -402,18 +405,15 @@ Para definir una regla, debe hacer lo siguiente:
 
       - Seleccione el icono de cilindro situado junto a [!UICONTROL Datos XDM] y seleccione **[!UICONTROL XDM - Vista de página]** en la lista de elementos de datos.
 
-         ![Regla - Configuración de la acción](./assets/action-pageview-xdm.png)
+        ![Regla - Configuración de la acción](./assets/action-pageview-xdm.png)
 
       - Seleccione **[!UICONTROL Conservar cambios]**.
+
    - La regla debe tener el siguiente aspecto:
 
-      ![Crear regla](assets/rule-pageview.png)
+     ![Crear regla](assets/rule-pageview.png)
 
    - Seleccione **[!UICONTROL Guardar]**.
-
-
-
-
 
 Este es solo un ejemplo de definición de una regla que envía datos XDM, que contienen valores de otros elementos de datos, a Adobe Experience Platform.
 
@@ -439,7 +439,7 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL + Agregar todos los recursos modificados]**.
 
-      ![Publicar - Crear biblioteca](./assets/create-library-aep.png)
+     ![Publicar - Crear biblioteca](./assets/create-library-aep.png)
 
    - Seleccione **[!UICONTROL Guardar y compilar para desarrollo]**.
 
@@ -510,9 +510,10 @@ Para crear la conexión:
 
    - Seleccione el conjunto de datos que creó anteriormente (`Example dataset`) y cualquier otro conjunto de datos que quiera incluir en la conexión.
 
-      ![Añadir conjuntos de datos](./assets/cja-connections-2b.png)
+     ![Añadir conjuntos de datos](./assets/cja-connections-2b.png)
 
    - Seleccione **[!UICONTROL Siguiente]**.
+
    En el paso [!UICONTROL Configuración de conjuntos de datos], en [!UICONTROL Agregar conjuntos de datos], haga lo siguiente:
 
    - Para cada conjunto de datos:
@@ -523,9 +524,10 @@ Para crear la conexión:
 
       - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
 
-      ![Configurar conjuntos de datos](./assets/cja-connections-3b.png)
+     ![Configurar conjuntos de datos](./assets/cja-connections-3b.png)
 
    - Seleccione **[!UICONTROL Agregar conjuntos de datos]**.
+
    Seleccione **[!UICONTROL Guardar]**.
 
 Consulte [Información general sobre conexiones](../connections/overview.md) para obtener más información sobre cómo crear y administrar una conexión y cómo seleccionar y combinar conjuntos de datos.

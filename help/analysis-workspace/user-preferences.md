@@ -1,10 +1,10 @@
 ---
 title: Establecimiento de las preferencias de usuario en Analysis Workspace
 description: Puede establecer preferencias generales y de proyecto para los usuarios.
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: c7e6dd4fb9a4dd517464572815e09f698b1761ed
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '3130'
 ht-degree: 74%

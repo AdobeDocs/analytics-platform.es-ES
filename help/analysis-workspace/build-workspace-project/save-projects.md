@@ -1,11 +1,11 @@
 ---
 description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como, guardar como plantilla y abrir versiones anteriores.
 title: Guardar proyectos
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -38,9 +38,9 @@ Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 min
 
 * **Nuevos proyectos:** aunque los nuevos proyectos se guardan automáticamente, debe guardarse cada nuevo proyecto manualmente la primera vez. Analysis Workspace solicita guardar los nuevos proyectos manualmente al cambiar a otro proyecto, cerrar la pestaña del explorador, etc.
 
-   Si, por cualquier motivo, se pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guarda una versión de recuperación del proyecto en la página de aterrizaje de Analysis Workspace en una carpeta denominada `Recovered Projects (Last 7 Days)`. Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
+  Si, por cualquier motivo, se pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guarda una versión de recuperación del proyecto en la página de aterrizaje de Analysis Workspace en una carpeta denominada `Recovered Projects (Last 7 Days)`. Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
 
-   Para restaurar un proyecto recuperado:
+  Para restaurar un proyecto recuperado:
 
    1. Vaya a la carpeta [!UICONTROL **Proyectos recuperados**] en la página de aterrizaje de Analysis Workspace.
 
@@ -51,7 +51,7 @@ Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 min
 
 * **Proyectos existentes:** si, por cualquier motivo, abandona un proyecto con cambios que aún no se han guardado automáticamente, Analysis Workspace le indicará que guarde los cambios o le enviará un mensaje de advertencia.
 
-   A continuación se presentan algunos escenarios comunes:
+  A continuación se presentan algunos escenarios comunes:
 
 ### Abrir otro proyecto
 

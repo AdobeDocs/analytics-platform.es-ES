@@ -2,10 +2,10 @@
 title: Control de acceso de Customer Journey Analytics
 description: Obtenga información acerca de las formas de implementar el control de acceso en Customer Journey Analytics.
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 83%

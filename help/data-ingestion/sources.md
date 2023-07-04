@@ -2,10 +2,10 @@
 title: Ingesta y uso de datos mediante conectores de origen
 description: Explicar cómo ingerir y utilizar datos mediante conectores de origen en Customer Journey Analytics
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '1955'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Para configurar un conjunto de datos:
 
 3. Seleccione **[!UICONTROL Crear conjunto de datos a partir de esquema]**.
 
-   Haga clic en ![Crear conjunto de datos a partir de esquema](./assets/create-dataset-from-schema.png)
+   ![Crear conjunto de datos a partir de esquema](./assets/create-dataset-from-schema.png)
 
 4. Seleccione el esquema creado anteriormente y, después, **[!UICONTROL Siguiente]**.
 
@@ -187,10 +187,9 @@ Para configurar un conector de origen, debe hacer lo siguiente:
 
    - En el mosaico del conector, seleccione la opción **[!UICONTROL ...]** junto a [!UICONTROL Configurar] o [!UICONTROL Agregar datos].
 
-      ![Ver documentación](./assets/sourceconnector-documentation.png)
+     ![Ver documentación](./assets/sourceconnector-documentation.png)
 
    - Seleccione **[!UICONTROL Ver documentación]**.
-
 
 Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md) para obtener información sobre cómo utilizar el conector de origen de Adobe Analytics.
 
@@ -211,11 +210,11 @@ Para crear la conexión:
 
 2. Seleccione **[!UICONTROL Crear nueva conexión]**.
 
-3. En la pantalla [!UICONTROL Conexión sin título]:
+3. En la pantalla [!UICONTROL Conexión sin título], haga lo siguiente:
 
    Asigne un nombre a la conexión y descríbala en [!UICONTROL Configuración de la conexión].
 
-   Seleccione la zona protegida correcta en la lista [!UICONTROL Zona protegida] en [!UICONTROL Configuración de datos] y seleccione el número de eventos diarios en la lista [!UICONTROL Número medio de eventos diarios].
+   Seleccione la zona protegida correcta en la lista [!UICONTROL Zona protegida] de [!UICONTROL Configuración de datos] y seleccione el número de eventos diarios en la lista [!UICONTROL Número medio de eventos diarios].
 
    ![Configuración de la conexión](./assets/cja-connections-1.png)
 
@@ -225,10 +224,11 @@ Para crear la conexión:
 
    - Seleccione el conjunto de datos que creó anteriormente (`Example Loyalty Dataset`) y cualquier otro conjunto de datos que quiera incluir en la conexión.
 
-      ![Añadir conjuntos de datos](./assets/cja-connections-2.png)
+     ![Añadir conjuntos de datos](./assets/cja-connections-2.png)
 
    - Seleccione **[!UICONTROL Siguiente]**.
-   En el paso [!UICONTROL Configuración de conjuntos de datos] en [!UICONTROL Agregar conjuntos de datos]:
+
+   En el paso [!UICONTROL Configuración de conjuntos de datos], en [!UICONTROL Agregar conjuntos de datos], haga lo siguiente:
 
    - Para cada conjunto de datos:
 
@@ -236,11 +236,12 @@ Para crear la conexión:
 
       - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
 
-      - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Relleno de conjuntos de datos de datos existentes]** según sus preferencias.
+      - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
 
-      ![Configurar conjuntos de datos](./assets/cja-connections-3.png)
+     ![Configurar conjuntos de datos](./assets/cja-connections-3.png)
 
    - Seleccione **[!UICONTROL Agregar conjuntos de datos]**.
+
    Seleccione **[!UICONTROL Guardar]**.
 
 Consulte [Información general sobre conexiones](../connections/overview.md) para obtener más información sobre cómo crear y administrar una conexión y cómo seleccionar y combinar conjuntos de datos.
@@ -255,7 +256,7 @@ Para crear la vista de datos:
 
 2. Seleccione **[!UICONTROL Crear nueva vista de datos]**.
 
-3. En el paso [!UICONTROL Configurar]:
+3. En el paso [!UICONTROL Configurar], haga lo siguiente:
 
    Seleccione la conexión en la lista [!UICONTROL Conexión].
 
@@ -265,15 +266,15 @@ Para crear la vista de datos:
 
    Seleccione **[!UICONTROL Guardar y continuar]**.
 
-4. En el paso [!UICONTROL Componentes]:
+4. En el paso [!UICONTROL Componentes], haga lo siguiente:
 
-   Agregue cualquier campo de esquema y/o componente estándar que quiera incluir en los cuadros de componentes [!UICONTROL MÉTRICAS] o [!UICONTROL DIMENSIONES].
+   Agregue cualquier campo de esquema o componente estándar que quiera incluir en los cuadros de componentes [!UICONTROL MÉTRICAS] o [!UICONTROL DIMENSIONES].
 
    ![Componentes de la vista de datos](./assets/cja-dataview-2.png)
 
    Seleccione **[!UICONTROL Guardar y continuar]**.
 
-5. En el paso [!UICONTROL Configuración]:
+5. En el paso [!UICONTROL Configuración], haga lo siguiente:
 
    Configuración de ![vista de datos](./assets/cja-dataview-3.png)
 

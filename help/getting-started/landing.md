@@ -2,9 +2,9 @@
 description: Explica las funciones de la nueva página de aterrizaje.
 title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
-feature: CJA Basics
+feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 04da0dd42e4ab44dbacdc7a3bf840b7c7dcf24ee
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 82%

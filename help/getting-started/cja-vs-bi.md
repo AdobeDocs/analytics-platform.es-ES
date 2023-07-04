@@ -3,9 +3,9 @@ title: Comparar soluciones de Customer Journey Analytics con las soluciones de B
 description: Comparar soluciones de Customer Journey Analytics con las soluciones de BI
 role: User
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 66%

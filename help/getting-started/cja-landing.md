@@ -3,8 +3,8 @@ title: Guía de Customer Journey Analytics
 description: Página de aterrizaje de Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
-feature: CJA Basics
-source-git-commit: 9b69f36f47ca8f0bd709af8bdd8aa8e47830e06d
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 86%

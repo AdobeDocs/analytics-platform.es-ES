@@ -2,10 +2,10 @@
 title: Ingesta y uso de datos por lotes
 description: Explicar cómo ingerir y utilizar datos por lotes en Customer Journey Analytics
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '1954'
 ht-degree: 100%
 
@@ -233,13 +233,14 @@ Para crear la conexión:
 
    Seleccione **[!UICONTROL Agregar conjuntos de datos]**.
 
-   En el paso [!UICONTROL Seleccionar conjuntos de datos], en [!UICONTROL Agregar conjuntos de datos], haga lo siguiente:
+   En el paso [!UICONTROL Seleccionar conjuntos de datos] en [!UICONTROL Agregar conjuntos de datos]:
 
    - Seleccione el conjunto de datos que creó anteriormente (`Example Loyalty Dataset`) y cualquier otro conjunto de datos que quiera incluir en la conexión.
 
-      ![Añadir conjuntos de datos](./assets/cja-connections-2.png)
+     ![Añadir conjuntos de datos](./assets/cja-connections-2.png)
 
    - Seleccione **[!UICONTROL Siguiente]**.
+
    En el paso [!UICONTROL Configuración de conjuntos de datos], en [!UICONTROL Agregar conjuntos de datos], haga lo siguiente:
 
    - Para cada conjunto de datos:
@@ -250,9 +251,10 @@ Para crear la conexión:
 
       - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
 
-      ![Configurar conjuntos de datos](./assets/cja-connections-3.png)
+     ![Configurar conjuntos de datos](./assets/cja-connections-3.png)
 
    - Seleccione **[!UICONTROL Agregar conjuntos de datos]**.
+
    Seleccione **[!UICONTROL Guardar]**.
 
 Consulte [Información general sobre conexiones](../connections/overview.md) para obtener más información sobre cómo crear y administrar una conexión y cómo seleccionar y combinar conjuntos de datos.
@@ -320,7 +322,7 @@ Para crear un proyecto:
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 
-Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y generar su análisis mediante componentes, visualizaciones y paneles.
+Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y compilar su análisis mediante componentes, visualizaciones y paneles.
 
 >[!SUCCESS]
 >

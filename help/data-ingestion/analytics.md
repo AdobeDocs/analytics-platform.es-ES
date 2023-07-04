@@ -2,9 +2,9 @@
 title: Ingesta y uso de datos de Adobe Analytics tradicional
 description: Explicar cómo ingerir datos de Adobe Analytics tradicional
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 95%
@@ -24,7 +24,6 @@ En esta guía de inicio rápido se explica cómo utilizar los datos recopilados 
 >- [Implementar Analytics con la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=es)
 >
 >- [Implementar Analytics con JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=es)
-
 
 Para lograrlo, debe llevar a cabo lo siguiente:
 
@@ -79,7 +78,7 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
    ![Consulte](./assets/review.png)
 
 
-Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes, incluida la ingesta de hasta 13 meses de datos históricos para entornos limitados de producción. (Tenga en cuenta que a partir del 26 de abril de 2023, el relleno de los entornos limitados que no sean de producción estará limitado a 3 meses).
+Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics de su grupo de informes, incluida la ingesta de hasta 13 meses de datos históricos para las zonas protegidas de producción. (Tenga en cuenta que a partir del 26 de abril de 2023, el relleno en zonas protegidas que no sean de producción estará limitado a 3 meses).
 
 Cuando termina la ingesta inicial, los datos del grupo de informes de Adobe Analytics están listos para que los use Customer Journey Analytics.
 
@@ -112,9 +111,10 @@ Para crear la conexión:
 
    - Seleccione el conjunto de datos creado automáticamente por el conector de origen de Adobe Analytics y cualquier otro conjunto de datos que desee incluir en la conexión.
 
-      ![Añadir conjuntos de datos](./assets/cja-connections-2a.png)
+     ![Añadir conjuntos de datos](./assets/cja-connections-2a.png)
 
    - Seleccione **[!UICONTROL Siguiente]**.
+
    En el paso [!UICONTROL Configuración de conjuntos de datos], en [!UICONTROL Agregar conjuntos de datos], haga lo siguiente:
 
    - Para cada conjunto de datos:
@@ -125,9 +125,10 @@ Para crear la conexión:
 
       - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
 
-      ![Configurar conjuntos de datos](./assets/cja-connections-3a.png)
+     ![Configurar conjuntos de datos](./assets/cja-connections-3a.png)
 
    - Seleccione **[!UICONTROL Agregar conjuntos de datos]**.
+
    Seleccione **[!UICONTROL Guardar]**.
 
 Consulte [Información general sobre conexiones](../connections/overview.md) para obtener más información sobre cómo crear y administrar una conexión y cómo seleccionar y combinar conjuntos de datos.

@@ -2,8 +2,8 @@
 title: Reglas de procesamiento, VISTA y clasificaciones frente a la preparación de datos para el conector de origen de Analytics
 description: Obtenga información sobre la transformación de datos mediante reglas de procesamiento y VISTA en comparación con el uso de la preparación de datos
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-feature: CJA Basics
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 80%

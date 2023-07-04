@@ -1,11 +1,11 @@
 ---
-description: Aprenda a eliminar carpetas en Workspace
+description: Obtenga información acerca de cómo eliminar carpetas en el Espacio de trabajo
 keywords: Analysis Workspace
-title: Eliminar carpetas en Workspace
-feature: CJA Workspace Basics
+title: Eliminar carpetas en el Espacio de trabajo
+feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
-source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Puede eliminar las carpetas que cree.
 >
 >Al eliminar una carpeta, no se elimina su contenido. El contenido de una carpeta eliminada (proyectos o subcarpetas) se mueve a la carpeta inmediata anterior en la jerarquía de carpetas.
 
-1. Haga clic en el icono puntos suspensivos **…** en la parte superior derecha.
+1. Haga clic en el icono de puntos suspensivos (**…**) en la parte superior derecha.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
 

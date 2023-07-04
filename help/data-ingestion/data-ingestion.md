@@ -2,9 +2,9 @@
 title: Información general sobre la ingesta de datos
 description: Comprender las distintas formas de ingerir datos en Customer Journey Analytics
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 96%

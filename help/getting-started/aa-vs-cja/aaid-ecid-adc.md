@@ -2,7 +2,8 @@
 title: AAID, ECID, AACUSTOMID y el conector de origen de Analytics
 description: Descubra cómo el conector de origen de Analytics trata los campos de identidad de Adobe Analytics.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 91%
@@ -39,9 +40,9 @@ Conector de origen de Analytics pasa estas identidades a Adobe Experience Platfo
 
 Estos campos no están marcados como identidades. En cambio, las mismas identidades se copian en el **_identityMap_** de XDM como pares de valor clave de la siguiente manera:
 
-* `{ “key”: “AAID”, “value”: [ { “id”: “<identity>”, “primary”: <true or false> } ] }`
-* `{ “key”: “ECID”, “value”: [ { “id”: “<identity>”, “primary”: <true or false> } ] }`
-* `{ “key”: “AACUSTOMID”, “value”: [ { “id”: “<identity>”, “primary”: false } ] }`
+* `{ "key": "AAID", "value": [ { "id": "<identity>", "primary": <true or false> } ] }`
+* `{ "key": "ECID", "value": [ { "id": "<identity>", "primary": <true or false> } ] }`
+* `{ "key": "AACUSTOMID", "value": [ { "id": "<identity>", "primary": false } ] }`
 
 Los elementos entre corchetes &lt;> representan lugares en los que aparecerían valores reales.
 

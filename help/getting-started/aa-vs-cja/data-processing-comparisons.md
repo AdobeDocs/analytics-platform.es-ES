@@ -2,8 +2,8 @@
 title: Comparar el procesamiento de datos entre las funciones de informes de Adobe Analytics y de Customer Journey Analytics
 description: Comprender las diferencias en el procesamiento de datos para las distintas funciones de informes
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-feature: CJA Basics
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 58%

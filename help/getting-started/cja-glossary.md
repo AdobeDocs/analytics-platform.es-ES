@@ -3,8 +3,8 @@ title: Glosario de Customer Journey Analytics
 description: Glosario de Customer Journey Analytics.
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
-feature: CJA Basics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 88%

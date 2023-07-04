@@ -2,10 +2,10 @@
 keywords: Analysis Workspace
 title: Información general de Analysis Workspace
 description: Información general sobre las capacidades de Analysis Workspace
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 26%
