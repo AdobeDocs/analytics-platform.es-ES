@@ -1,22 +1,27 @@
 ---
-title: 'Paneles de Adobe Analytics: Información general'
-description: Documentación del producto e instrucciones para los paneles de Adobe Analytics
+title: 'Paneles de Customer Journey Analytics: Información general'
+description: Documentación del producto e instrucciones para los paneles de Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 40e52441-e772-41a3-b2e3-51a3d00580d0
 solution: Customer Journey Analytics
-source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 63%
 
 ---
 
-# [!UICONTROL Paneles] de Adobe Analytics: Información general
+# [!UICONTROL Paneles] de Analytics: Información general
 
-Los **[!UICONTROL paneles]** de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+**Los paneles de [!UICONTROL Analytics]** proporcionan datos de Customer Journey Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
-Para obtener más información sobre [!UICONTROL paneles] de Adobe Analytics, consulte los siguientes recursos:
+>[!NOTE]
+>
+>La funcionalidad del cuadro de resultados móvil que se ofrece en Customer Journey Analytics es casi idéntica a la funcionalidad que se ofrece en Adobe Analytics. Por este motivo, los vídeos del cuadro de resultados a los que se hace referencia en esta página muestran la interfaz de usuario de Adobe Analytics, no el Customer Journey Analytics. <br/><br/>Además, aunque la aplicación móvil recibe el nombre de Adobe Analytics en la tienda de aplicaciones, se puede utilizar de la misma manera que los cuadros de resultados móviles de los Customer Journey Analytics.
+
+
+Para obtener más información sobre Customer Journey Analytics [!UICONTROL tableros], consulte los siguientes recursos:
 
 * [Recursos para los gestores de datos](/help/mobile-app/curator.md): diseñados para ayudar a los gestores de datos a configurar cuadros de resultados para sus usuarios ejecutivos en los [!UICONTROL paneles]. Los gestores de datos pueden ser administradores de la empresa o personas con otras funciones, y se encargan de configurar los informes de valoración:
 
@@ -25,6 +30,6 @@ Para obtener más información sobre [!UICONTROL paneles] de Adobe Analytics, co
    * Para ver un vídeo de información general sobre la experiencia de los gestores de datos, consulte [Generador del cuadro de resultados de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=es).
 
 
-* [Guía rápida del usuario ejecutivo](/help/mobile-app/executive.md): Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración sobre los [!UICONTROL paneles]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
+* [Guía de inicio rápida para el usuario ejecutivo](/help/mobile-app/executive.md): Esta guía está diseñada para ayudar a los usuarios ejecutivos a leer e interpretar los cuadros de resultados de [!UICONTROL tableros]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
 
    * Para ver un vídeo que resalta esta información, consulte [Experiencia en la aplicación de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=es).

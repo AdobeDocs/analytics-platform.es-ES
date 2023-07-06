@@ -1,20 +1,20 @@
 ---
 description: Instrucciones para usar los informes de valoración de los paneles.
-title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
+title: Guía del usuario ejecutivo sobre paneles de Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 25293f3ef40f0c19ec6a963d337ab91b8054aa58
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 92%
+source-wordcount: '1304'
+ht-degree: 77%
 
 ---
 
 # Guía de inicio rápida para el usuario ejecutivo
 
-La siguiente información proporciona a los usuarios ejecutivos información sobre las prácticas recomendadas para utilizar y ver paneles de Adobe Analytics. A continuación encontrará un vídeo en el que se muestra esta información:
+La siguiente información proporciona a los usuarios ejecutivos información sobre las prácticas recomendadas para utilizar y ver paneles de Analytics. A continuación encontrará un vídeo en el que se muestra esta información:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343460/)
 
@@ -28,26 +28,30 @@ Para utilizar los paneles de forma eficiente, necesitará que el gestor de datos
 
 Para acceder a los informes de valoración de los paneles, compruebe que:
 
-* Tiene unas credenciales de inicio de sesión válidas para Adobe Analytics
+* Tiene credenciales de inicio de sesión válidas para Customer Journey Analytics
 * El gestor de datos ha creado correctamente los informes de valoración móviles y los ha compartido con usted
 
 ### Descarga e instalación de paneles
 
 Para descargar e instalar la aplicación, siga los pasos que correspondan al sistema operativo de su dispositivo.
 
+>[!NOTE]
+>
+>Aunque la aplicación móvil se denomina tablero de Adobe Analytics en la tienda de aplicaciones, se puede utilizar de la misma manera que los cuadros de resultados móviles de los Customer Journey Analytics.
+
 **Para usuarios ejecutivos con iOS:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics en ) **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de iOS](https://apple.co/2zXq0aN)
 
 **Para usuarios ejecutivos con Android:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics en ) **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de Android](https://bit.ly/2LM38Oo)
 
-Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics.
+Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Customer Journey Analytics existentes.
 
 ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
@@ -55,7 +59,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
 Para usar los paneles:
 
-1. Inicie sesión en la aplicación. La pantalla de inicio de sesión aparecerá al iniciar los paneles. Siga las indicaciones y use sus credenciales de Adobe Analytics. La aplicación es compatible con Adobe ID y con Enterprise ID/Federated ID.
+1. Inicie sesión en la aplicación. La pantalla de inicio de sesión aparecerá al iniciar los paneles. Siga las indicaciones y use sus credenciales de Customer Journey Analytics. La aplicación es compatible con Adobe ID y con Enterprise ID/Federated ID.
 
    ![Proceso de inicio de sesión](assets/signseq.png)
 
@@ -73,8 +77,8 @@ Para usar los paneles:
 
    Si inicia sesión y ve un mensaje que indica que no se ha compartido nada, compruebe lo siguiente con su gestor de datos:
 
-   * Puede iniciar sesión en la instancia correcta de Analytics
-   * El informe de valoración se ha compartido con usted
+   * Puede iniciar sesión en la zona protegida del Customer Journey Analytics derecho.
+   * El informe de valoración se ha compartido con usted.
 
    ![No se ha compartido nada](assets/nothing.png)
 
@@ -111,11 +115,11 @@ Para usar los paneles:
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-1. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la aplicación funcionan del mismo modo que en Analytics Workspace.
+1. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la aplicación funcionan del mismo modo que en Workspace.
 
    ![Filtro de segmento](assets/segment_filter.png)
 
-1. Obtener actualizaciones del informe de valoración. Si un informe de valoración no incluye todas las métricas o desgloses que le interesen, contacte con el equipo de Analytics para actualizar el informe de valoración. Una vez hecho, puede arrastrar el informe de valoración hacia abajo para actualizarlo, lo cual hará que se carguen los datos agregados recientemente.
+1. Obtener actualizaciones del informe de valoración. Si un informe de valoración no incluye todas las métricas o desgloses que le interesen, póngase en contacto con el equipo del Customer Journey Analytics para actualizar el informe de valoración. Una vez hecho, puede arrastrar el informe de valoración hacia abajo para actualizarlo, lo cual hará que se carguen los datos agregados recientemente.
 
 1. Para dejar comentarios sobre esta aplicación:
 
@@ -148,8 +152,8 @@ Pulse la opción y escriba su dirección de correo electrónico en el campo supe
 
 | Término | Definición |
 |--- |--- |
-| Consumidor | Ejecutivo que ve métricas clave y datos de Analytics en un dispositivo móvil |
-| Gestor de datos | Experto que busca y distribuye datos de Analytics y que configura los informes de valoración que verá el consumidor |
+| Consumidor | Ejecutivo que ve métricas clave y datos de Customer Journey Analytics en un dispositivo móvil |
+| Gestor de datos | Experto que busca y distribuye datos de Customer Journey Analytics y que configura los informes de valoración que verá el consumidor |
 | Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
 | Informe de valoración | Vista de paneles que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |

@@ -1,14 +1,14 @@
 ---
-description: Cómo configurar usuarios para que utilicen la aplicación móvil de Analytics
+description: Configuración de usuarios para que utilicen la aplicación móvil de tablero de Adobe Analytics
 title: Configuración de ejecutivos para que utilicen tableros
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '668'
-ht-degree: 100%
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 76%
 
 ---
 
@@ -27,25 +27,29 @@ En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicion
 Para garantizar que los usuarios ejecutivos tengan acceso a sus informes de valoración en la aplicación, asegúrese de que:
 
 * El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior.
-* Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics.
+* Tengan unas credenciales de inicio de sesión válidas para el Customer Journey Analytics.
 * Haya creado y compartido correctamente los informes de valoración móviles de los usuarios.
 * Los usuarios tengan acceso a los componentes que se incluyen en el cuadro de resultados. Tenga en cuenta que, al compartir los cuadros de resultados, puede seleccionar la opción **[!UICONTROL Compartir los componentes incrustados]**.
 
 ## Ayuda para que los ejecutivos descarguen e instalen la aplicación
 
+>[!NOTE]
+>
+>Aunque la aplicación móvil se denomina tablero de Adobe Analytics en la tienda de aplicaciones, se puede utilizar de la misma manera que los cuadros de resultados móviles de los Customer Journey Analytics.
+
 **Para usuarios ejecutivos con iOS:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics en ) **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Para usuarios ejecutivos con Android:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics en ) **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
+Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Customer Journey Analytics; la aplicación es compatible con el Adobe y con los Enterprise/Federated ID.
 
 ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
@@ -108,7 +112,7 @@ Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha c
 
 ![No se ha compartido nada](assets/nothing.png)
 
-* Es posible que el usuario ejecutivo haya seleccionado una instancia incorrecta de Analytics o
+* Es posible que el usuario ejecutivo haya seleccionado una zona protegida de Customer Journey Analytics incorrecta, o
 * Es posible que el cuadro de resultados no se haya compartido con el usuario ejecutivo.
 
-Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Adobe Analytics y que se ha compartido el cuadro de resultados.
+Compruebe que el usuario ejecutivo puede iniciar sesión en la zona protegida del Customer Journey Analytics correcto y que se ha compartido el cuadro de resultados.

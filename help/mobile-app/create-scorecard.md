@@ -1,27 +1,28 @@
 ---
-description: Cómo crear y compartir cuadros de resultados de paneles de Adobe Analytics
+description: Cómo crear y compartir cuadros de resultados de paneles de Analytics
 title: Crear y compartir cuadros de resultados
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '2529'
-ht-degree: 76%
+source-wordcount: '2532'
+ht-degree: 74%
 
 ---
 
 # Creación de un cuadro de resultados móvil
 
-La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Adobe Analytics:
+La siguiente información enseña a los depuradores de datos de los Customer Journey Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->Las capturas de pantalla del cuadro de resultados de esta página se tomaron en la interfaz de usuario de Adobe Analytics, no del Customer Journey Analytics. Las IU son casi idénticas.
+>
+>Las capturas de pantalla del cuadro de resultados de Analytics para esta página se tomaron en la interfaz de usuario de Adobe Analytics, no del Customer Journey Analytics. Las IU son casi idénticas.
 
-Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
+Un cuadro de resultados de Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
 
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 
@@ -40,7 +41,7 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 
 ### Creación de un nuevo proyecto {#create}
 
-1. Abra Adobe Analytics y haga clic en la ficha **[!UICONTROL Espacio de trabajo]**.
+1. Abra el Customer Journey Analytics y haga clic en **[!UICONTROL Workspace]** pestaña.
 1. Haga clic en **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL Informe de valoración móvil en blanco]**.
 1. Haga clic en **[!UICONTROL Crear]**.
 
@@ -78,7 +79,7 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en Customer Journey Analytics) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Usted [configuración y aplicación de filtros para los cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que en Adobe Analytics Workspace.
+Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Usted [configuración y aplicación de filtros para los cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que en Customer Journey Analytics Workspace.
 
 ![Generar filtros](assets/segment_ui.png)
 
@@ -278,7 +279,7 @@ También puede navegar hacia atrás y hacia adelante utilizando las flechas del 
 
 ## Previsualizar informes de valoración {#preview}
 
-Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de resultados una vez que se publique en la aplicación de paneles de Analytics.
+Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de resultados una vez que se publique en la aplicación de paneles de Adobe Analytics.
 
 1. Haga clic en **[!UICONTROL Vista previa]** en la esquina superior derecha de la pantalla.
 
@@ -337,7 +338,7 @@ Para compartir un cuadro de resultados mediante un vínculo que se puede compart
 
    Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto de cuadro de resultados móvil se abrirá en Workspace.
 
-   Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abre directamente en la aplicación de paneles de Analytics.
+   Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abre directamente en la aplicación de paneles de Adobe Analytics.
 
    Si un destinatario no ha descargado la aplicación móvil, se le redirigirá a la lista de aplicaciones de la tienda de App Store o Google Play donde pueda descargarla.
 
