@@ -3,7 +3,7 @@ title: Información general de vinculación
 description: Información general sobre la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 3fd4038c44b50490618f838d281684742920d152
+source-git-commit: 41dc46ed5e30d08708ebb97fa29312aafd99ff9d
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 26%
@@ -63,7 +63,7 @@ Una vez que su organización cumpla todos los requisitos previos y comprenda los
 
 2. La Asistencia al cliente de Adobe trabaja con el personal de ingeniería de Adobes para habilitar la vinculación al recibir la solicitud. Una vez habilitado, aparecerá en Adobe Experience Platform un nuevo conjunto de datos con clave con una nueva columna de ID con título. La Asistencia al cliente de Adobe puede proporcionar el ID del nuevo conjunto de datos.
 
-3. Cuando se activa por primera vez, el Adobe proporciona un relleno de datos vinculados que se remontan a 30 días.
+3. Cuando se activa por primera vez, el Adobe proporciona un relleno de datos vinculados que se remontan 60 días.
 
 4. Si desea utilizar el nuevo conjunto de datos vinculado en un análisis en canales múltiples, debe agregarlo a un [conexión](../connections/overview.md) en el Customer Journey Analytics junto con cualquier otro conjunto de datos necesario. Elija el ID personal correcto para cada conjunto de datos.
 
