@@ -3,10 +3,10 @@ title: Preguntas frecuentes sobre análisis guiados
 description: Preguntas frecuentes sobre el análisis guiado.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: d5208a28c9efd6c31ecbfc6ff6b4e44a52f396e8
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 5%
+source-wordcount: '327'
+ht-degree: 2%
 
 ---
 
@@ -40,5 +40,31 @@ El análisis guiado utiliza términos que se utilizan con mayor frecuencia en la
 | Segmento | Filtro |
 
 {style="table-layout:auto"}
+
++++
+
++++**¿Cuáles son algunas diferencias en la forma en que Analysis Workspace y el análisis guiado abordan los informes?**
+
+Aunque Analysis Workspace y el análisis guiado utilizan los mismos datos subyacentes, la forma en que cada herramienta consulta esos datos es diferente.
+
+**Analysis Workspace es una experiencia centrada en las dimensiones.** Las tablas suelen consistir en filas de elementos de dimensión, mientras que las columnas suelen ser métricas. Puede aplicar filtros a cualquiera de las dos para obtener los datos deseados.
+
+![Estructura de Workspace](assets/workspace-structure.png)
+
+**El análisis guiado es una experiencia centrada en eventos.** Las visualizaciones se centran en eventos, utilizando dimensiones y filtros para complementar esos datos.
+
+![Estructura de análisis guiado](assets/guided-analysis-structure.png)
+
+Preste atención al siguiente ejemplo, en el que se centra en los datos de la página principal del sitio web. Los equipos hacen preguntas similares, pero el enfoque del análisis puede ser diferente.
+
+* Un enfoque típico de Analysis Workspace centrado en las dimensiones sería: &quot;¿Cuántas vistas de página ha recibido la página principal?&quot;
+
+  ![centrado en Dimension](assets/dimension-centered.png)
+
+* Un enfoque típico del análisis guiado centrado en eventos sería: &quot;¿Cuántos usuarios han visto la página principal?&quot;
+
+  ![Centrado en evento](assets/event-centered.png)
+
+Estas instrucciones ilustran dos métodos diferentes para lograr el mismo informe, según la estrategia de administración de eventos.
 
 +++

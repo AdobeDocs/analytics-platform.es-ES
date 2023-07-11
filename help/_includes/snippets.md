@@ -1,8 +1,8 @@
 ---
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 89665490fb3b03a9d9578d22e0e9ed62415c66be
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 68%
+source-wordcount: '1061'
+ht-degree: 66%
 
 ---
 # Fragmentos
@@ -61,9 +61,14 @@ ht-degree: 68%
 
 | Opción | Función |
 |---------|----------|
-| [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados al principio de la lista. Los componentes que utiliza con más frecuencia y más recientemente usted o otras personas de su organización aparecen en la parte superior de la lista. |
+| [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados en la parte superior de la lista. Los componentes que usted u otras personas de su organización utilizan con más frecuencia y más recientemente aparecen en la parte superior de la lista. |
 | [!UICONTROL **Alfabético**] | Ordena los componentes alfabéticamente. |
 | [!UICONTROL **Categórica**] | Ordena los componentes según su tipo (dimensión, métrica, filtro, intervalo de fechas). |
 
 {style="table-layout:auto"}
 
+## Aplicar comparación de tiempo {#apply-time-comparison}
+
+Puede comparar el período de tiempo actual con un período de tiempo anterior. Si selecciona una opción en este menú, cada punto de datos recibe un homólogo con líneas punteadas de color similar. Este homólogo representa la misma métrica en el intervalo de fechas anterior seleccionado. Al establecer esta opción, se duplica el número de elementos del gráfico y de las filas de la tabla.
+
+Las opciones de comparación de tiempo disponibles incluyen el periodo anterior, 13 semanas antes, 52 semanas antes y un intervalo de fechas personalizado. Si selecciona Intervalo de fechas personalizado, aparecen opciones adicionales para permitirle seleccionar el número y la granularidad. Si selecciona Ninguno, se elimina la comparación de fechas.
