@@ -3,9 +3,9 @@ title: Preguntas frecuentes sobre análisis guiados
 description: Preguntas frecuentes sobre el análisis guiado.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
+source-git-commit: 23d3e6a9662cda932a376c09849ab078d22830dc
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '333'
 ht-degree: 3%
 
 ---
@@ -35,6 +35,7 @@ El análisis guiado utiliza términos que se utilizan con mayor frecuencia en la
 | Término del análisis guiado | Término de Analysis Workspace |
 | --- | --- |
 | Evento | Métrica |
+| Usuarios | Personas |
 | Propiedad | Dimensión |
 | Valor | Elemento de dimensión |
 | Segmento | Filtro |
@@ -43,11 +44,11 @@ El análisis guiado utiliza términos que se utilizan con mayor frecuencia en la
 
 +++
 
-+++**¿Cuáles son algunas diferencias en la forma en que Analysis Workspace y el análisis guiado abordan los informes?**
++++**¿Cuáles son algunas diferencias en la forma en que Analysis Workspace y el análisis guiado abordan el análisis?**
 
-Aunque Analysis Workspace y el análisis guiado utilizan los mismos datos subyacentes, la forma en que cada herramienta consulta esos datos es diferente.
+Aunque Analysis Workspace y el análisis guiado utilizan los mismos datos subyacentes, la forma en que cada herramienta permite formar consultas de esos datos es diferente.
 
-* **Analysis Workspace es una experiencia centrada en las dimensiones.** Las tablas suelen consistir en filas de elementos de dimensión, mientras que las columnas suelen ser métricas. Puede aplicar filtros a cualquiera de las dos para obtener los datos deseados.
+* **Analysis Workspace es una experiencia centrada en las dimensiones.** Las tablas suelen consistir en filas de elementos de dimensión, mientras que las columnas suelen ser métricas. Puede aplicar filtros tanto a filas como a columnas para obtener los datos deseados.
 
 * **El análisis guiado es una experiencia centrada en eventos.** Las visualizaciones se centran en eventos, utilizando dimensiones y filtros para complementar esos datos.
 
