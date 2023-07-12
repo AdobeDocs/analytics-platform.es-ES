@@ -1,15 +1,15 @@
 ---
-title: Crecimiento neto
+title: Vista de crecimiento neto
 description: ¿Está ganando o perdiendo usuarios?
 feature: Guided Analysis
-source-git-commit: ab734506a023eacdeeb7c26f31a4361a6b804795
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 2%
+source-wordcount: '619'
+ht-degree: 1%
 
 ---
 
-# Crecimiento neto
+# Vista de crecimiento neto
 
 {{release-limited-testing}}
 
@@ -28,13 +28,15 @@ Similar a la [Activo](active.md) Tipo de vista, los usuarios se definen de la si
 * **Inactivo**: el usuario estuvo activo en el periodo inmediatamente anterior, pero no lo está en el periodo actual. Los usuarios inactivos no se contabilizan en el número total de usuarios activos.
 * Nota: Los usuarios repetidos no se tienen en cuenta en este cálculo, ya que no representan ninguna ganancia o pérdida de usuarios.
 
+![Crecimiento neto](../assets/net-growth.png)
+
+## Casos prácticos
+
 Los casos de uso para este tipo de vista incluyen:
 
 * **Evaluación del rendimiento**: le permite evaluar el rendimiento general del producto en términos de adquisición de nuevos usuarios. Al rastrear las tendencias de crecimiento, puede comprender mejor si su producto atrae y retiene a los usuarios a un ritmo deseado.
 * **Análisis de adquisición de usuarios**: le permite evaluar la eficacia de sus estrategias de adquisición de usuarios. El análisis de las fuentes de crecimiento de los usuarios, como motores de búsqueda, campañas u otros canales de marketing, permite identificar las fuentes de crecimiento más significativas para poder asignar los recursos en consecuencia.
 * **Análisis de pérdida**: El crecimiento neto incluye la desgaste en su fórmula (usuarios inactivos). Puede evaluar el estado general de su base de usuarios a lo largo del tiempo. Si el crecimiento neto es sistemáticamente inferior a `1`Además, indica una alta cantidad de desgaste que podría impulsar la implementación de estrategias de retención.
-
-![Crecimiento neto](../assets/net-growth.png)
 
 ## Carril de consulta
 

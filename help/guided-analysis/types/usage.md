@@ -1,27 +1,31 @@
 ---
-title: Uso
+title: Vista de uso
 description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 81fe48ba9bdafa73e1bcd02e4016a2efa68ce1d1
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '493'
 ht-degree: 3%
 
 ---
 
-# Uso
+# Vista de uso
 
 {{release-limited-testing}}
 
-El **Uso** La vista de proporciona una valiosa perspectiva del rendimiento del producto o del comportamiento de los usuarios a lo largo del tiempo. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los eventos deseados. Los casos de uso para este tipo de vista incluyen:
+El **Uso** La vista de proporciona una valiosa perspectiva del rendimiento del producto o del comportamiento de los usuarios a lo largo del tiempo. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los eventos deseados.
+
+![Uso](../assets/usage.png)
+
+## Casos prácticos
+
+Los casos de uso para este tipo de vista incluyen:
 
 * **Evaluar el rendimiento del producto**: las tendencias permiten evaluar el rendimiento general del producto durante un periodo determinado. Al analizar métricas como la participación del usuario, la adopción o las tasas de conversión, puede identificar si el rendimiento del producto mejora, se estanca o disminuye.
 * **Adopción de funciones**: las tendencias le permiten comprender cómo adoptan los usuarios las nuevas funciones o actualizaciones que usted publique. Puede determinar qué funciones son populares y qué funciones requieren mejora. Esta información le permite tomar decisiones basadas en datos sobre qué funciones priorizar los esfuerzos de desarrollo.
 * **Comportamiento del usuario**: las tendencias pueden proporcionar una perspectiva del comportamiento del usuario a lo largo del tiempo. Al examinar las acciones específicas que realizan los usuarios, puede identificar patrones en los que estos pueden abandonarlos. Puede combinar perspectivas de esta vista con [Fricción](friction.md) para obtener aún más información sobre el comportamiento.
 * **Pruebas y experimentación A/B**: si ejecuta pruebas A/B en su producto, puede utilizar Tendencias para medir qué pruebas son las más exitosas con el paso del tiempo.
-
-![Uso](../assets/usage.png)
 
 ## Carril de consulta
 

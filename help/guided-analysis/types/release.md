@@ -1,14 +1,14 @@
 ---
-title: Versión
+title: Vista de versión
 description: Comparar los resultados en periodos iguales antes y después de la liberación.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: eacb6eeaeadce7dfe39e6fb67eaba76986078363
 workflow-type: tm+mt
-source-wordcount: '13'
-ht-degree: 100%
+source-wordcount: '15'
+ht-degree: 73%
 
 ---
 
-# Versión
+# Vista de versión
 
 Muy pronto: ¡nuevo contenido!

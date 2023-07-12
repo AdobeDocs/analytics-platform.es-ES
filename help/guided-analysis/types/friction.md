@@ -1,27 +1,29 @@
 ---
-title: Fricción
+title: Vista de fricción
 description: Comparar tasas de conversión entre los pasos.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 164785f52990c43691c8e13c8fa80e3c201995f7
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '490'
 ht-degree: 3%
 
 ---
 
-# Fricción
+# Vista de fricción
 
 {{release-limited-testing}}
 
 El **Fricción** La vista de proporciona una representación visual de un recorrido de usuario crítico en el producto. El eje horizontal representa cada paso que debe pasar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes. Los casos de uso para este tipo de vista incluyen:
 
+![Fricción](../assets/friction.png)
+
+## Casos prácticos
+
 * **Análisis de conversión**: Puede analizar las conversiones en cada fase del canal. Al rastrear el número de usuarios que progresan de un paso al siguiente, puede identificar cuellos de botella que tienen tasas de conversión inusuales o no deseadas. Esta información es valiosa para saber dónde puede mejorar el producto para obtener resultados inmediatos.
 * **Optimización de incorporación**: optimice el proceso de incorporación de su producto examinando el comportamiento del usuario en torno a los eventos clave. Puede identificar con qué pasos luchan los usuarios o no logran completarlos.
 * **Adopción y participación de funciones**: comprenda cómo los usuarios interactúan con funciones específicas del producto. Al analizar la progresión de los usuarios a través de los pasos relacionados con las funciones, puede evaluar las tasas de adopción de las funciones e identificar las áreas en las que los usuarios pueden abandonar o infrautilizar determinadas funciones. A continuación, puede utilizar esta información para centrarse en las mejoras de funciones y aumentar las tasas de adopción.
 * **Evaluación de campaña**: mida la eficacia de las campañas de marketing. Puede crear un segmento que se centre en los usuarios que han participado en una campaña determinada y comparar su proceso de conversión con otras campañas o con el producto en general.
-
-![Fricción](../assets/friction.png)
 
 ## Carril de consulta
 

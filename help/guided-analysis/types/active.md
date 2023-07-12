@@ -1,16 +1,16 @@
 ---
-title: Activo
+title: Vista activa
 description: Identifique quién es nuevo, retenido, que regresa o está inactivo.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: c96f30979cc8bf519a8e96a1fafa5aba2ebc4c01
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
 
-# Activo
+# Vista activa
 
 {{release-limited-testing}}
 
@@ -23,13 +23,15 @@ El **Activo** La vista de proporciona perspectivas sobre el crecimiento y la adq
 
 Todos los usuarios activos (nuevos + repetidos + devueltos) aparecen como un tono de verde azulado encima del eje horizontal, mientras que todos los usuarios inactivos aparecen en naranja debajo del eje horizontal.
 
+![Activo](../assets/active.png)
+
+## Casos prácticos
+
 Los casos de uso para este tipo de vista incluyen:
 
 * **Retención y pérdida de usuarios:** Proporciona una visualización clara de los períodos de retención de usuarios alta o baja. Reconocer estos períodos de retención alta o baja puede ayudarle a tomar decisiones sobre productos para fomentar una retención alta o ayudar a minimizar la pérdida.
 * **Evaluación de campaña**: Ver una campaña específica puede ayudarle a comprender no solo cuánto tráfico generó, sino también en qué medida la campaña ayudó a los usuarios a seguir participando.
 * **Análisis del ciclo vital de usuario**: El análisis del crecimiento activo del usuario a lo largo del ciclo vital de este puede ayudar a identificar fases específicas en las que disminuye la participación del usuario. Por ejemplo, si hay una alta proporción de usuarios latentes para personas en una fase de incorporación, puede indicar problemas de uso o la necesidad de mejorar la orientación interna del producto.
-
-![Activo](../assets/active.png)
 
 ## Carril de consulta
 

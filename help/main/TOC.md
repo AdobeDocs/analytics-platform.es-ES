@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 3364850a56c7382fc1591b75d493ee9478ac59f6
+source-git-commit: eacb6eeaeadce7dfe39e6fb67eaba76986078363
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 86%
+source-wordcount: '966'
+ht-degree: 84%
 
 ---
 
@@ -187,16 +187,16 @@ ht-degree: 86%
 + Análisis guiado {#guided-analysis}
    + [Información general](../guided-analysis/overview.md)
    + Impacto {#impact}
-      + [Versión](../guided-analysis/types/release.md)
-      + [Primer uso](../guided-analysis/types/first-use.md)
+      + [Vista de versión](../guided-analysis/types/release.md)
+      + [Vista de primer uso](../guided-analysis/types/first-use.md)
    + Canal {#funnel}
-      + [Fricción](../guided-analysis/types/friction.md)
-      + [Tendencias de conversión](../guided-analysis/types/conversion-trends.md)
+      + [Vista de fricción](../guided-analysis/types/friction.md)
+      + [Vista de tendencias de conversión](../guided-analysis/types/conversion-trends.md)
    + Crecimiento de usuarios {#user-growth}
-      + [Activo](../guided-analysis/types/active.md)
-      + [Crecimiento neto](../guided-analysis/types/net-growth.md)
+      + [Vista activa](../guided-analysis/types/active.md)
+      + [Vista de crecimiento neto](../guided-analysis/types/net-growth.md)
    + Tendencias {#trends}
-      + [Uso](../guided-analysis/types/usage.md)
+      + [Vista de uso](../guided-analysis/types/usage.md)
    + [Casos de uso del sector](../guided-analysis/industry-use-cases.md)
    + [Preguntas más frecuentes](../guided-analysis/faq.md)
 

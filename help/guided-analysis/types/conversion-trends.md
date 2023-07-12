@@ -1,25 +1,29 @@
 ---
-title: Tendencias de conversión
+title: Vista de tendencias de conversión
 description: Rastree los cambios en la tasa de conversión a lo largo del tiempo.
 feature: Guided Analysis
-source-git-commit: 84ac8008e4c90250e9f626b8c4d72f20297c14ad
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 2%
 
 ---
 
-# Tendencias de conversión
+# Vista de tendencias de conversión
 
 {{release-limited-testing}}
 
-El **Tendencias de conversión** La vista de proporciona una visualización de tendencias en torno a las tasas de conversión a lo largo del tiempo. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical representa la tasa de conversión. Los casos de uso para este tipo de vista incluyen:
+El **Tendencias de conversión** La vista de proporciona una visualización de tendencias en torno a las tasas de conversión a lo largo del tiempo. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical representa la tasa de conversión.
+
+![Tendencias de conversión](../assets/conversion-trends.png)
+
+## Casos prácticos
+
+Los casos de uso para este tipo de vista incluyen:
 
 * **Seguimiento de esfuerzos de optimización**: Después de identificar los cuellos de botella clave que desea mejorar mediante [Fricción](friction.md)Sin embargo, puede utilizar esta vista para rastrear cómo esas optimizaciones afectan a la tasa de conversión a lo largo del tiempo.
 * **Evaluación de las pruebas A/B**: Evalúe la eficacia de las pruebas A/B o los experimentos realizados en el contexto de un canal. Al comparar las tasas de conversión entre diferentes variaciones, puede determinar fácilmente qué pruebas proporcionan tasas de conversión más altas, lo que lleva a decisiones basadas en datos sobre qué variaciones implementar de forma permanente.
 * **Evaluación de campañas a lo largo del tiempo**: mida la eficacia de las campañas de marketing a lo largo del tiempo. Puede crear un segmento que se centre en los usuarios que hayan utilizado una campaña determinada y comparar sus tasas de conversión con las de otras campañas. También puede comparar las tasas de conversión actuales con campañas similares que se ejecutaron en el pasado.
-
-![Tendencias de conversión](../assets/conversion-trends.png)
 
 ## Carril de consulta
 
