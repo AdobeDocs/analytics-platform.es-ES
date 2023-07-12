@@ -3,7 +3,7 @@ title: Vista de fricción
 description: Comparar tasas de conversión entre los pasos.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 3%
@@ -14,11 +14,13 @@ ht-degree: 3%
 
 {{release-limited-testing}}
 
-El **Fricción** La vista de proporciona una representación visual de un recorrido de usuario crítico en el producto. El eje horizontal representa cada paso que debe pasar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes. Los casos de uso para este tipo de vista incluyen:
+El **Fricción** La vista de proporciona una representación visual de un recorrido de usuario crítico en el producto. El eje horizontal representa cada paso que debe pasar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
 
 ![Fricción](../assets/friction.png)
 
 ## Casos prácticos
+
+Los casos de uso para este tipo de vista incluyen:
 
 * **Análisis de conversión**: Puede analizar las conversiones en cada fase del canal. Al rastrear el número de usuarios que progresan de un paso al siguiente, puede identificar cuellos de botella que tienen tasas de conversión inusuales o no deseadas. Esta información es valiosa para saber dónde puede mejorar el producto para obtener resultados inmediatos.
 * **Optimización de incorporación**: optimice el proceso de incorporación de su producto examinando el comportamiento del usuario en torno a los eventos clave. Puede identificar con qué pasos luchan los usuarios o no logran completarlos.
