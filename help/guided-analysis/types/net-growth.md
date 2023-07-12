@@ -2,10 +2,10 @@
 title: Crecimiento neto
 description: Balance de pérdidas y ganancias del usuario.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Los casos de uso para este tipo de vista incluyen:
 * **Evaluación del rendimiento**: le permite evaluar el rendimiento general del producto en términos de adquisición de nuevos usuarios. Al rastrear las tendencias de crecimiento, puede comprender mejor si su producto atrae y retiene a los usuarios a un ritmo deseado.
 * **Análisis de pérdida**: El crecimiento neto incluye la desgaste en su fórmula (usuarios inactivos). Puede evaluar el estado general de su base de usuarios a lo largo del tiempo. Si el crecimiento neto es sistemáticamente inferior a `1`Sin embargo, indica una gran cantidad de desgaste, lo que le obliga a investigar las razones detrás e implementar estrategias de retención.
 
-[Captura de pantalla del crecimiento de usuarios]
+![Crecimiento neto](../assets/net-growth.png)
 
 ## Carril de consulta
 

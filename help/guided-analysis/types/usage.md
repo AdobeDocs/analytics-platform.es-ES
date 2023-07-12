@@ -3,9 +3,9 @@ title: Uso
 description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ El **Uso** tipo de vista proporciona una valiosa perspectiva sobre el rendimient
 * **Comportamiento del usuario**: las tendencias pueden proporcionar una perspectiva del comportamiento del usuario a lo largo del tiempo. Al examinar las acciones específicas que realizan los usuarios, puede identificar patrones en los que estos pueden abandonarlos. Puede combinar perspectivas de este tipo de vista con [Fricción](friction.md) para obtener aún más información sobre el comportamiento.
 * **Pruebas y experimentación A/B**: si ejecuta pruebas A/B en su producto, puede utilizar Tendencias para medir qué pruebas son las más exitosas con el paso del tiempo.
 
-[Captura de pantalla de tendencias]
+![Uso](../assets/usage.png)
 
 ## Carril de consulta
 
@@ -40,6 +40,8 @@ Las tendencias ofrecen la siguiente configuración de gráfico. Puede ajustar la
 ## Aplicar comparación de tiempo
 
 {{apply-time-comparison}}
+
+![Comparación del tiempo de uso](../assets/usage-compare.png)
 
 ## Intervalo de fechas
 

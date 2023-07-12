@@ -2,9 +2,9 @@
 title: Tendencias de conversión
 description: Rastree los cambios en la tasa de conversión a lo largo del tiempo.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ El **Tendencias de conversión** tipo de vista proporciona una visualización de
 * **Evaluación de las pruebas A/B**: Evalúe la eficacia de las pruebas A/B o los experimentos realizados en el contexto de un canal. Al comparar las tasas de conversión entre diferentes variaciones, puede determinar fácilmente qué pruebas proporcionan tasas de conversión más altas, lo que lleva a decisiones basadas en datos sobre qué variaciones implementar de forma permanente.
 * **Evaluación de campañas a lo largo del tiempo**: mida la eficacia de las campañas de marketing a lo largo del tiempo. Puede crear un segmento que se centre en los usuarios que hayan utilizado una campaña determinada y comparar sus tasas de conversión con las de otras campañas. También puede comparar las tasas de conversión actuales con campañas similares que se ejecutaron en el pasado.
 
-[Captura de pantalla del embudo]
+![Tendencias de conversión](../assets/conversion-trends.png)
 
 ## Carril de consulta
 
@@ -39,6 +39,8 @@ El canal ofrece la siguiente configuración de gráfico. Puede ajustar la config
 ## Aplicar comparación de tiempo
 
 {{apply-time-comparison}}
+
+![Comparación temporal de tendencias de conversión](../assets/conversion-trends-compare.png)
 
 ## Intervalo de fechas
 

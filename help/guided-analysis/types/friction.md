@@ -3,9 +3,9 @@ title: Fricción
 description: Comparar tasas de conversión entre los pasos.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ El **Fricción** el tipo de vista proporciona una representación visual de un r
 * **Adopción y participación de funciones**: comprenda cómo los usuarios interactúan con funciones específicas del producto. Al analizar la progresión de los usuarios a través de los pasos relacionados con las funciones, puede evaluar las tasas de adopción de las funciones e identificar las áreas en las que los usuarios pueden abandonar o infrautilizar determinadas funciones. A continuación, puede utilizar esta información para centrarse en las mejoras de las funcionalidades o la interfaz de usuario y aumentar las tasas de adopción.
 * **Evaluación de campaña**: mida la eficacia de las campañas de marketing. Puede crear un segmento que se centre en los usuarios que han participado en una campaña determinada y comparar su proceso de conversión con otras campañas o con el producto en general.
 
-[Captura de pantalla del embudo]
+![Fricción](../assets/friction.png)
 
 ## Carril de consulta
 
@@ -41,6 +41,8 @@ El canal ofrece la siguiente configuración de gráfico. Puede ajustar la config
 ## Aplicar comparación de tiempo
 
 {{apply-time-comparison}}
+
+![Comparación del tiempo de fricción](../assets/friction-compare.png)
 
 ## Intervalo de fechas
 
