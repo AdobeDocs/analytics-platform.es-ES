@@ -2,10 +2,10 @@
 title: Vista de primer uso
 description: Medir el impacto del uso de funciones por primera vez en indicadores clave.
 feature: Guided Analysis
-source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
+source-git-commit: 9fa4b894e69a25b26632a93f00a655eec8e8aa86
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 8%
+source-wordcount: '417'
+ht-degree: 5%
 
 ---
 
@@ -24,25 +24,26 @@ Los casos de uso para este tipo de vista incluyen:
 * **Análisis de nuevas funciones**: si va a lanzar una nueva función dentro del producto, puede comparar el rendimiento de los indicadores clave antes y después de que los usuarios se expusieran a esa nueva función por primera vez.
 * **Eficacia de campañas**: Cuando un usuario ve una campaña determinada, puede comparar el rendimiento de los indicadores clave antes y después de que el usuario viera esa campaña o interactuara con ella.
 
-<!--
-## Query rail
+## Carril de consulta
 
-The query rail allows you to configure the following components:
+El carril de consulta permite configurar los siguientes componentes:
 
-* **Key indicators**: The events that you want to measure per user. Each selected key indicator is represented as a colored line. A row representing the event is added to the table. You can include up to three events.
-* **Factors**: The date that you want to compare before and after.
-* **People**: The segment that you want to measure. The selected segment filters your data to focus only on the individuals who match your segment criteria.
+* **Indicadores clave**: los eventos que desea medir por usuario. Cada indicador clave seleccionado se representa como una línea de color. Se agrega a la tabla una fila que representa el evento. Se pueden incluir hasta tres eventos.
+* **Factores**: Existen dos factores para esta vista:
+   * **Fecha**: cuánto tiempo atrás desea buscar por primera vez en un evento.
+   * **Evento**: el evento que desea comparar antes y después de tocarlo.
+* **People**: El segmento que desea medir. El segmento seleccionado filtra los datos para centrarse únicamente en las personas que coinciden con los criterios del segmento.
 
-## Chart settings
+## Ajustes del gráfico
 
-The Release view offers the following chart settings, which can be adjusted in the menu above the chart:
+La vista Primer uso ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
-* **Metric**: The metric that you want to measure. Options include [!UICONTROL Events per user], [!UICONTROL Percentage of users], [!UICONTROL Events], [!UICONTROL Sessions], and [!UICONTROL Users].
-* **Chart type**: The type of visualization that you want to use. Options include Line.
+* **Métrica**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Eventos], [!UICONTROL Sesiones], y [!UICONTROL Usuarios].
+* **Tipo de gráfico**: el tipo de visualización que desea utilizar. Las opciones incluyen Línea.
 
-## Date range
+## Intervalo de fechas
 
-Date selection in impact reports operate differently than other analysis types, since the report revolves around the date specified in the query rail. The following options are available:
+Las selecciones de fechas en los informes de impacto funcionan de forma diferente que otros tipos de análisis, ya que el informe gira en torno a un evento determinado que se está tocando por primera vez (especificado en el carril de consultas). Las opciones disponibles son las siguientes:
 
-* **Interval**: The date granularity that you want to view trended data by. Valid options include [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], and [!UICONTROL Quarterly]. Changing the interval affects the options available for the Before and after period.
-* **Before and after period**: The amount of time to analyze before and after the date specified in the query rail. Available options depend on the [!UICONTROL Interval] selection. -->
+* **Intervalo**: La granularidad de fecha por la que desea ver los datos de tendencias. Las opciones válidas incluyen [!UICONTROL Diario], [!UICONTROL Semanalmente], [!UICONTROL Mensual], y [!UICONTROL Trimestral]. Cambiar el intervalo afecta a las opciones disponibles para los periodos Antes y Después.
+* **Antes y después del período**: Cantidad de tiempo que se debe analizar antes y después del evento tocado especificado en el carril de consulta. Las opciones disponibles dependen de la variable [!UICONTROL Intervalo] selección.
