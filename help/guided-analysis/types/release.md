@@ -2,9 +2,9 @@
 title: Vista de versión
 description: Comparar los resultados en periodos iguales antes y después de la liberación.
 feature: Guided Analysis
-source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
+source-git-commit: a635c43c129ea45b270e304f4310b95124709b2a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '475'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,8 @@ El **Versión** La vista muestra una comparación del rendimiento de los indicad
 
 Los casos de uso para este tipo de vista incluyen:
 
-* **Evaluación general del rendimiento:** La comparación de indicadores clave generales, como los ingresos, puede ayudarle a determinar si una versión determinada ha tenido éxito en general.
+* **Evaluación general del rendimiento:** La comparación de indicadores clave generales, como las medidas de participación, puede ayudarle a determinar si una versión determinada ha tenido éxito en general.
+* **Monitorización**: Si espera que haya ciertas medidas que permanezcan planas cuando se realicen cambios, como constantes vitales para la web como tiempo de carga o inicios de sesión, compárelas antes y después para asegurarse de que su lanzamiento no haya tenido consecuencias no deseadas.
 * **Adopción de funciones**: si una actualización de producto se centra en mejorar una determinada función, puede utilizar esta vista para comparar directamente el uso de esa función antes y después de la actualización del producto.
 * **Detección de errores**: El seguimiento del número de errores antes y después de una versión de puede proporcionar un indicador anticipado de los problemas de los clientes. Si observa un aumento de errores inmediatamente después de una versión, puede trabajar con equipos de ingeniería o desarrollo para identificar y corregir el problema, lo que evita un mayor impacto para los clientes.
 
@@ -42,7 +43,7 @@ La vista Lanzamiento ofrece la siguiente configuración de gráfico, que se pued
 
 ## Intervalo de fechas
 
-La selección de fechas en los informes de impacto funciona de forma diferente a otros tipos de análisis, ya que el informe gira en torno a la fecha especificada en el carril de la consulta. Las opciones disponibles son las siguientes:
+La selección de fechas en el análisis de impacto funciona de forma diferente a otros tipos de análisis, ya que el informe gira en torno a la fecha especificada en el carril de consulta. Las opciones disponibles son las siguientes:
 
 * **Intervalo**: La granularidad de fecha por la que desea ver los datos de tendencias. Las opciones válidas incluyen [!UICONTROL Diario], [!UICONTROL Semanalmente], [!UICONTROL Mensual], y [!UICONTROL Trimestral]. Cambiar el intervalo afecta a las opciones disponibles para los periodos Antes y Después.
 * **Antes y después del período**: Cantidad de tiempo que se debe analizar antes y después de la fecha especificada en el carril de consultas. Las opciones disponibles dependen de la variable [!UICONTROL Intervalo] selección.
