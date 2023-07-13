@@ -1,9 +1,9 @@
 ---
 title: Casos de uso del sector
 description: Casos de uso del sector para un análisis guiado
-source-git-commit: 9311157c8aa8bab8627e3fdf3e989a0302d29f32
+source-git-commit: 704018bd9d0dae97e0f9c40c36d0618e9f15de76
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1442'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,10 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 
 {style="table-layout:auto"}
 
+![Vista de fricción para comercio minorista](assets/retail-funnel-friction.png)
+
+![Vista de uso para comercio minorista](assets/retail-trends-usage.png)
+
 +++
 
 +++**Servicios financieros**
@@ -32,9 +36,17 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 | **Cuantificar el impacto de las nuevas funciones** | Hace poco implementamos transferencias bancarias con Zelle, y necesitábamos entender el impacto de la nueva función en las transferencias de finalización. Ahora que podemos ver cómo reaccionan los clientes, el equipo de marketing puede implementarlo. | **Aumentar las tasas de conversión.** Mida el impacto de las nuevas funciones en las conversiones de transferencia. | [Vista de impacto de versión](types/release.md) <p/><p/> [Vista de primer uso](types/first-use.md) |
 | **Desviar llamadas al centro de llamadas** | Nuestro proceso de reclamación móvil de 5 pasos dirigía las llamadas al centro de llamadas. Analizamos esto rápidamente, creamos una audiencia y enviamos un correo electrónico a esos clientes para que entendieran su experiencia&quot;. | **Aísle la fricción en la experiencia.** Mejore los recorridos de &quot;ruta feliz&quot; y reduzca las llamadas. | [Vista de fricción](types/friction.md) <p/><p/> [Vista de tendencias de conversión](types/conversion-trends.md) |
 | **Reducir la pérdida de clientes** | Sabemos que los clientes que inician sesión en la aplicación móvil de banca con frecuencia mensual siguen siendo clientes durante más tiempo. Cuando vemos el crecimiento de nuestros usuarios de aplicaciones, podemos identificar quién está en riesgo de perder y crear una estrategia de recuperación. | **Reduzca la pérdida.** Mantenga el nivel de clientes mientras gasta para adquirir nuevos clientes reales. | [Vista de crecimiento activo del usuario](types/active.md) <p/><p/> [Vista de crecimiento neto](types/net-growth.md) |
-| **Recomendación de nuevas funciones** | Los retiros digitales han disminuido con el tiempo en lugar de llamar a un asesor financiero. Nos gustaría optimizar el proceso digital y las tendencias de datos nos ayudan a priorizar las optimizaciones con un comité de dirección. | **Cree una hoja de ruta basada en datos.** Aproveche los datos para planificar e implementar las optimizaciones. | [Vista de tendencias de uso](types/usage.md) |
+| **Recomendación de nuevas funciones** | Los retiros digitales han disminuido con el tiempo en lugar de llamar a un asesor financiero. Nos gustaría optimizar el proceso digital, y las tendencias de datos nos ayudan a priorizar las optimizaciones con un comité de dirección. | **Cree una hoja de ruta basada en datos.** Aproveche los datos para planificar e implementar las optimizaciones. | [Vista de tendencias de uso](types/usage.md) |
 
 {style="table-layout:auto"}
+
+![Vista de fricción para servicios financieros](assets/fsi-funnel-friction.png)
+
+![Vista de uso de los servicios financieros](assets/fsi-trends-usage.png)
+
+![Vista activa para servicios financieros](assets/fsi-user-growth-active.png)
+
+![Vista activa alternativa para servicios financieros](assets/fsi-user-growth-active-2.png)
 
 +++
 
@@ -49,6 +61,10 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 
 {style="table-layout:auto"}
 
+![Vista de fricción para viajes y hospitalidad](assets/th-funnel-friction.png)
+
+![Vista de uso para viajes y hospitalidad](assets/th-trends-usage.png)
+
 +++
 
 +++**Medios de comunicación y entretenimiento**
@@ -62,6 +78,10 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 
 {style="table-layout:auto"}
 
+![Vista de fricción para medios y entretenimiento](assets/me-funnel-friction.png)
+
+![Vista activa para medios y entretenimiento](assets/me-user-growth-active.png)
+
 +++
 
 +++**Sanidad**
@@ -69,11 +89,13 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 | Caso de uso | Ejemplo | Impacto | Analysis |
 | --- | --- | --- | --- |
 | **Mejorar los resultados de salud del paciente** | No tenía una idea clara de cuántos miembros del plan de bienestar por semana simplemente dejaron de usarlo por completo. Ahora tenemos datos para centrar nuestros esfuerzos en el crecimiento. | **Reducir las visitas al médico.** Se identificaron rápidamente usuarios inactivos para volver a participar. | [Vistas de crecimiento activo del usuario](types/active.md) |
-| **Mejorar la experiencia del paciente** | Tener visibilidad directa de cuántos pacientes llamaban a nuestros centros de llamadas para simples restablecimientos de contraseña renovó mi pasión por centrarse en reducir el coste total de servicio de nuestra empresa y fortalecer nuestra experiencia con el paciente. | **Reduzca el coste total del servicio.** Cree una mejor experiencia del paciente y reduzca las llamadas a los servicios para pacientes. | [Vista de tendencias de uso](types/usage.md) <p/><p/> [Vista de fricción](types/friction.md) |
+| **Mejorar la experiencia del paciente** | Tener visibilidad directa de cuántos pacientes llamaban a nuestros centros de llamadas para simples restablecimientos de contraseña renovó mi pasión por centrarse en reducir el costo total de nuestra compañía para servir y fortalecer nuestra experiencia del paciente. | **Reduzca el coste total del servicio.** Cree una mejor experiencia del paciente y reduzca las llamadas a los servicios para pacientes. | [Vista de tendencias de uso](types/usage.md) <p/><p/> [Vista de fricción](types/friction.md) |
 | **Identificación de acciones repetidas en canales múltiples por segmento** | Necesito entender cómo los miembros elegibles de Medicare están activos con el uso de su plan para proporcionarles mensajes específicos en nuestros productos digitales. Las señales de producto ayudan a que nuestro marketing sea más efectivo. | **Personalice las opciones de inscripción en Medicare.** Comparar acciones secuenciales comunes de los miembros de mi plan más activo. | [Vista de fricción](types/friction.md) <p/><p/> [Vista de crecimiento activo del usuario](types/active.md) |
 | **Conservar los mejores talentos de la industria** | Nuestros recursos de análisis están muy limitados por el tiempo. Necesito obtener rápidamente los datos de uso del producto que necesito para mis llamadas de actualización de liderazgo. | **Reduzca la carga de trabajo de analistas.** Obtenga respuestas más rápido. Informes accesibles para cuando más lo necesito. | [Análisis guiado](overview.md) |
 
 {style="table-layout:auto"}
+
+![Vista de fricción para atención médica](assets/healthcare-funnel-friction.png)
 
 +++
 
@@ -87,5 +109,7 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 | **Desbloquear análisis de autoservicio** | Intentar obtener acceso a las perspectivas es todo un desafío y nuestros usuarios no están formados para el análisis. Necesitan poder obtener respuestas y aprovechar los mismos datos que utiliza toda la organización, lo que conduce a asociaciones más sólidas y permite tomar decisiones verdaderas basadas en datos. | **Colaboraciones más estrechas en toda la organización.** Conceda a los gestores de producto acceso a los datos que antes estaban en silo. | [Análisis guiado](overview.md) |
 
 {style="table-layout:auto"}
+
+![Vista de uso para B2B](assets/b2b-trends-usage.png)
 
 +++
