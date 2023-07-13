@@ -3,10 +3,10 @@ title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 63%
+source-wordcount: '1576'
+ht-degree: 61%
 
 ---
 
@@ -32,7 +32,7 @@ Lea esto [descripción general](/help/components/audiences/audiences-overview.md
 
    Configure estos ajustes para poder publicar la audiencia.
 
-   ![](assets/create-audience.png)
+   ![Captura de pantalla de cómo crear una audiencia](assets/create-audience.png)
 
    | Configuración | Descripción |
    | --- | --- |
@@ -52,7 +52,7 @@ Lea esto [descripción general](/help/components/audiences/audiences-overview.md
 
    La vista previa de la audiencia aparece en el carril derecho. Permite realizar un análisis resumido de la audiencia que ha creado.
 
-   ![](assets/data-preview.png)
+   ![Captura de pantalla de la previsualización de datos](assets/data-preview.png)
 
    | Configuración de la vista previa | Descripción |
    | --- | --- |
@@ -85,7 +85,7 @@ Después de crear una audiencia, Adobe crea un segmento de flujo continuo de Exp
 
 En varios puntos antes, durante y después de la publicación de audiencias, se pueden producir latencias. A continuación se muestra una información general de las posibles latencias.
 
-![Latencia de Adobe Experience Platform a Customer Journey Analytics](assets/latency-diagram.png)
+![Latencias en la publicación de audiencias como se describe en [Consideraciones de latencia](#latency-considerations)](assets/latency-diagram.png)
 
 | # | Punto de latencia | Duración de la latencia |
 | --- | --- | --- |
@@ -102,7 +102,7 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 
 Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). Customer Journey Analytics envía la audiencia al Experience Platform con la identidad principal establecida, según lo que se haya seleccionado como [!UICONTROL ID de persona] cuando se configuró la conexión.
 
-A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, “user@adobe.com” se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
+A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, <user@adobe.com> se pueden segmentar en todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
 Para ver las audiencias de los Customer Journey Analytics en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Creación de segmentos]** > **[!UICONTROL Audiencias]** pestaña > **[!UICONTROL Audiencias de CJA]**.
 
