@@ -3,7 +3,7 @@ title: Información general sobre el análisis guiado
 description: Un método de análisis de datos en Customer Journey Analytics que permite a los equipos de productos obtener información de alta calidad rápidamente.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bdde5e7798ee3c960006d47dc31947d2e1a74a5f
+source-git-commit: 75f946e65bfc0ccee4f173b699b14caced21bbaf
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 8%
@@ -40,11 +40,11 @@ Si su organización está aprovisionada para el análisis guiado, puede acceder 
 
 1. Clic **[!UICONTROL Análisis guiado]** desde la página de inicio para saltar directamente a [Vista de tendencias de uso](types/usage.md).
 
-   ![Crear un nuevo modal](assets/create-new-modal.png)
+   ![Mosaico de página de aterrizaje](assets/landing-page-tile.png)
 
 1. Clic **[!UICONTROL Crear nuevo]** para ver las distintas opciones de vista y elegir un punto de partida diferente para el análisis.
 
-   ![Mosaico de página de aterrizaje](assets/landing-page-tile.png)
+   ![Crear un nuevo modal](assets/create-new-modal.png)
 
 ## Interfaz
 
