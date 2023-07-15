@@ -4,7 +4,7 @@ description: Configure el formato de una métrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 585242be7ffff5b089d8452d34f7ee012a7d01f5
+source-git-commit: 3626a9f97048b68a57fca25fec396684c4f95449
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 30%
@@ -44,6 +44,8 @@ Para mostrar una moneda para una métrica:
 
 
 ### Convertir y mostrar moneda
+
+{{release-limited-testing-section}}
 
 Para habilitar la conversión de una moneda para una o varias métricas:
 
