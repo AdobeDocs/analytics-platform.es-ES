@@ -4,59 +4,75 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 4e5a186aa39ae7c56ff29e1523a4092546092789
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 85%
+source-wordcount: '1477'
+ht-degree: 62%
 
 ---
 
 # Configuración de una visualización de flujo
 
-Las visualizaciones de flujo le permiten comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que conducen a él. Traza una ruta a través de las dimensiones (y elementos de dimensión) o las métricas. El flujo le permite configurar el inicio o el final de la ruta que le interesa o analizar todas las rutas que fluyen a través de una dimensión o un elemento de dimensión.
+Las visualizaciones de flujo le ayudan a comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que conducen a él. Traza una ruta a través de las dimensiones (y elementos de dimensión) o las métricas.
+
+Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta que le interesa o analizar todas las rutas que fluyen a través de una dimensión o un elemento de dimensión.
 
 ![nueva interfaz de usuario de flujo](assets/new-flow.png)
 
-## Pasos de configuración {#configure}
+## Crear una visualización de flujo {#configure}
 
-1. Para empezar a crear un diagrama de flujo, agregue un panel en blanco al proyecto y haga clic en el icono de visualizaciones del carril izquierdo. A continuación, arrastre la visualización de flujo al panel. O bien arrastre la visualización de [!UICONTROL flujo] en un proyecto existente.
+1. Añada un panel en blanco al proyecto y haga clic en el icono de visualizaciones en el carril izquierdo.
 
-1. Ancle la visualización de flujo mediante una de las tres opciones siguientes:
+1. Arrastre el [!UICONTROL **Flujo**] visualización en el panel.
 
-   * [!UICONTROL Comienza con] (métricas, dimensiones o elementos), o
-   * [!UICONTROL Contiene] (dimensiones o elementos), o
-   * [!UICONTROL Finaliza con] (métricas, dimensiones o elementos)
+   o
+
+   Arrastre el [!UICONTROL **Flujo**] visualización en un proyecto existente.
+
+1. Ancle la visualización de flujo mediante una de las siguientes opciones:
+
+   * [!UICONTROL **Comienza con**] (métricas, dimensiones o elementos), o
+   * [!UICONTROL **Contiene**] (dimensiones o elementos), o
+   * [!UICONTROL **Finaliza con**] (métricas, dimensiones o elementos)
 
    Cada una de estas categorías se muestra como “zona de colocación”. Puede rellenar la zona de colocación de tres formas:
 
    * Utilice el menú desplegable para seleccionar métricas o dimensiones.
-   * Arrastre elementos desde la lista de dimensiones o métricas.
-   * Utilice la búsqueda para encontrar las métricas o dimensiones que esté buscando.
-
-   Por ejemplo, supongamos que desea rastrear todo lo que conduce a un evento de cierre de compra. Puede arrastrar una dimensión o métrica relacionada con el cierre de compra (por ejemplo, [!UICONTROL Existe un pedido]) en la zona de colocación **[!UICONTROL Finaliza con]**.
-
-1. Si elige una métrica, también debe proporcionar una [!UICONTROL Dimensión de las rutas], como se muestra aquí, que utilizará para crear la ruta. El valor predeterminado es [!UICONTROL Página].
-
-   ![dimensión de las rutas](assets/pathing-dim.png)
+   * Arrastre dimensiones o métricas desde el carril izquierdo.
+   * Empiece a escribir el nombre de una dimensión o métrica y, a continuación, selecciónela cuando aparezca en la lista desplegable.
 
    >[!IMPORTANT]
    >
-   >Las métricas calculadas no se pueden colocar en las zonas de colocación **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]**.
+   >Las métricas calculadas no se pueden usar en  **[!UICONTROL Comienza por]** o **[!UICONTROL Finaliza con]** campos.
 
-1. (Opcional) Haga clic en **[!UICONTROL Mostrar configuración avanzada]** para establecer la configuración avanzada:
+1. Si elige una métrica, también debe proporcionar un [!UICONTROL Dimension de rutas] para usar como ruta de acceso o de salida del componente seleccionado, como se muestra aquí. El valor predeterminado es [!UICONTROL **Página**].
+
+   ![dimensión de las rutas](assets/pathing-dim.png)
+
+1. (Opcional) Seleccione **[!UICONTROL Mostrar configuración avanzada]** para configurar cualquiera de las siguientes opciones:
 
    ![configuración avanzada](assets/adv-settings.png)
 
    | Configuración | Descripción |
    | --- | --- |
    | **[!UICONTROL Etiquetas de ajustes]** | Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla.  Valor predeterminado = sin marcar. |
-   | **[!UICONTROL Incluir instancias de repetición]** | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. Valor predeterminado = sin marcar. |
-   | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a aquellas que comienzan/finalizan con la primera/última ocurrencia de una dimensión, un elemento o una métrica. Consulte la sección siguiente titulada «Ejemplo de escenario para “limitar a la primera/última incidencia”» para obtener una explicación más detallada. |
-   | **[!UICONTROL Número de columnas]** | Determina cuántas columnas desea incluir en el diagrama de flujo. |
-   | **[!UICONTROL Elementos expandidos por columna]** | Cuántos elementos desea incluir en cada columna. |
-   | **[!UICONTROL Contenedor de flujo]** | <ul><li>Visita</li><li>Visitante</li></ul> Le permite alternar entre visitas y visitantes para analizar las rutas seguidas por las personas. Esta configuración le ayuda a comprender el compromiso de la persona en el nivel de persona (a lo largo de visitas) o a restringir el análisis a una sola visita. |
+   | **[!UICONTROL Incluir instancias de repetición]** | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. <p>Esta opción está desactivada de forma predeterminada.</p> |
+   | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a aquellas que comienzan/finalizan con la primera/última ocurrencia de una dimensión, un elemento o una métrica. Consulte la sección siguiente, [Ejemplo de escenario para &quot;limitar a la primera/última incidencia&quot;](#example-scenario-for-limit-to-firstlast-occurrence), para obtener una explicación más detallada. |
+   | **[!UICONTROL Número de columnas]** | El número de columnas que desee en el diagrama de flujo. |
+   | **[!UICONTROL Elementos expandidos por columna]** | El número de elementos que desea incluir en cada columna. |
+   | **[!UICONTROL Contenedor de flujo]** | <ul><li>Visita</li><li>Visitante.</li></ul> Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
 
-1. Haga clic en **[!UICONTROL Generar]**.
+1. Seleccionar **[!UICONTROL Generar]**.
+
+>[!INFO]
+>
+>**Ejemplo:** Supongamos que desea rastrear la ruta que tomaron los usuarios tanto hacia como desde las páginas más populares del sitio.
+>
+>Para ello, debe hacer lo siguiente
+>1. Comience a crear una visualización de flujo como se ha descrito anteriormente.
+>1. Arrastre el [!UICONTROL **Página**] dimensión en la **[!UICONTROL Contains]** , luego seleccione [!UICONTROL **Generar**].
+>1. La visualización de flujo se genera con la página más vista visible en el nodo de enfoque en el centro de la visualización. También verá las páginas principales que llevan a esa página (a la izquierda del nodo de enfoque), así como las páginas principales que llevan a esa página de enfoque (a la derecha del nodo de enfoque).
+>1. Analice los datos en el flujo, tal como se describe en [Ver y cambiar la salida de flujo](#view-and-change-the-flow-output).
 
 ## Ver y cambiar la salida del flujo {#output}
 
@@ -70,7 +86,7 @@ Para explorar en profundidad los datos, tiene varias opciones:
 
 * Cuando hace clic en un nodo en el diagrama, se muestran los detalles de dicho nodo. Haga clic de nuevo en el nodo para contraerlo.
 
-   ![detalles del nodo](assets/node-details.png)
+  ![detalles del nodo](assets/node-details.png)
 
 * Puede filtrar una columna para mostrar solo ciertos resultados, como incluir y excluir, especificar criterios, etc.
 
@@ -97,13 +113,17 @@ Por encima de cada columna aparece un filtro cuando pasa el ratón por encima. A
 | Opción | Descripción |
 |--- |--- |
 | [!UICONTROL Centrarse en este nodo] | Cambia el interés al nodo seleccionado. El nodo de interés aparece en el centro del diagrama de flujo. |
-| [!UICONTROL Volver a empezar] | Le hace regresar al generador de diagramas improvisados, donde puede crear un nuevo diagrama de flujo. |
-| [!UICONTROL Crear filtro desde este punto del flujo] | Crear un filtro. Esto le lleva al Generador de filtros, donde puede configurar el nuevo filtro. |
+| [!UICONTROL Comenzar de nuevo] | Le hace regresar al generador de diagramas improvisados, donde puede crear un nuevo diagrama de flujo. |
+| [!UICONTROL Crear filtro para esta ruta] | Crear un filtro. Esto le lleva al Generador de filtros, donde puede configurar el nuevo filtro. |
 | [!UICONTROL Desglose] | Desglosa el nodo mediante las dimensiones, métricas o tiempo disponibles. |
-| [!UICONTROL Tendencia] | Crea un diagrama de tendencia para el nodo. |
-| [!UICONTROL Expandir toda la columna] | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
-| [!UICONTROL Contraer toda la columna] | Oculta todos los nodos de una columna. |
+| [!UICONTROL Filtrar columna] | Aparecerán las mismas opciones de filtro que están disponibles en la tabla de forma libre. Para obtener más información sobre las opciones disponibles, consulte la sección &quot;Aplicar un filtro simple o avanzado a una tabla&quot; en [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | [!UICONTROL Excluir elemento]/[!UICONTROL Restaurar elementos excluidos] | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, haga clic con el botón derecho de nuevo y seleccione **[!UICONTROL Restaurar elemento excluido]**. También puede abrir el filtro en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |
+| [!UICONTROL Tendencia] | Crea un diagrama de tendencia para el nodo. |
+| Mostrar columna siguiente / Mostrar columna anterior | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
+| Ocultar columna | Oculta la columna seleccionada en la visualización. |
+| [!UICONTROL Expandir toda la columna] | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
+| Crear audiencia a partir de la selección | Crea una audiencia basada en la columna seleccionada. |
+| [!UICONTROL Contraer toda la columna] | Oculta todos los nodos de una columna. |
 
 ## Ejemplo de escenario para «limitar a la primera/última incidencia»
 
