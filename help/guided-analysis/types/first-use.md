@@ -2,7 +2,7 @@
 title: Vista de primer uso
 description: Medir el impacto del uso de funciones por primera vez en indicadores clave.
 feature: Guided Analysis
-source-git-commit: 4d642c150f04ed4780820036cfd53fc343fc94c8
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -10,8 +10,6 @@ ht-degree: 3%
 ---
 
 # Vista de primer uso
-
-{{release-limited-testing}}
 
 El **Primer uso** La vista muestra una comparación del rendimiento de los indicadores clave antes y después de que un usuario utilice una función de producto por primera vez. El eje horizontal de este informe es un intervalo de tiempo relativo antes y después del evento, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa el día 0 para el momento en que un usuario determinado utiliza por primera vez una función. Dado que los usuarios no siempre adoptan las funciones el mismo día y que los despliegues pueden producirse durante varios días, el día 0 significará algo diferente para cada usuario individual.
 

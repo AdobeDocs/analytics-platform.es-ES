@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre análisis guiados
 description: Preguntas frecuentes sobre el análisis guiado.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: d15ada7c5b46c55f56e3fd3ba2b749f0495a0c10
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 2%
@@ -11,8 +11,6 @@ ht-degree: 2%
 ---
 
 # Preguntas frecuentes sobre análisis guiados
-
-{{release-limited-testing}}
 
 Preguntas frecuentes sobre el análisis guiado.
 

@@ -2,7 +2,7 @@
 title: Vista de tendencias de conversión
 description: Rastree los cambios en la tasa de conversión a lo largo del tiempo.
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -10,8 +10,6 @@ ht-degree: 2%
 ---
 
 # Vista de tendencias de conversión
-
-{{release-limited-testing}}
 
 El **Tendencias de conversión** La vista de proporciona una visualización de tendencias en torno a las tasas de conversión a lo largo del tiempo. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical representa la tasa de conversión.
 

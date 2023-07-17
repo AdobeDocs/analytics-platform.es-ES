@@ -2,7 +2,7 @@
 title: Vista de versión
 description: Comparar los resultados en periodos iguales antes y después de la liberación.
 feature: Guided Analysis
-source-git-commit: a635c43c129ea45b270e304f4310b95124709b2a
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%
@@ -10,8 +10,6 @@ ht-degree: 4%
 ---
 
 # Vista de versión
-
-{{release-limited-testing}}
 
 El **Versión** La vista muestra una comparación del rendimiento de los indicadores clave antes y después de una fecha determinada. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa la fecha que desea comparar antes y después de. Esta fecha suele representar un cambio notable en el producto con el que desea medir, como una actualización del producto o un lanzamiento de campaña.
 

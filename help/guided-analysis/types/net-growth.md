@@ -2,7 +2,7 @@
 title: Vista de crecimiento neto
 description: ¿Está ganando o perdiendo usuarios?
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -10,8 +10,6 @@ ht-degree: 1%
 ---
 
 # Vista de crecimiento neto
-
-{{release-limited-testing}}
 
 El **Crecimiento neto** tipo de vista proporciona perspectivas sobre la tasa a la que gana o pierde usuarios durante un periodo específico. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical es la medida del crecimiento.
 
