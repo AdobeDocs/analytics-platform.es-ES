@@ -4,9 +4,9 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 4e5a186aa39ae7c56ff29e1523a4092546092789
+source-git-commit: f97572025d07d56d1fd699074228abe5d2a7b8a1
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1487'
 ht-degree: 62%
 
 ---
@@ -21,13 +21,11 @@ Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta
 
 ## Crear una visualización de flujo {#configure}
 
-1. Añada un panel en blanco al proyecto y haga clic en el icono de visualizaciones en el carril izquierdo.
-
-1. Arrastre el [!UICONTROL **Flujo**] visualización en el panel.
+1. Añada un panel en blanco al proyecto, seleccione el icono Visualizaciones en el carril izquierdo y, a continuación, arrastre el [!UICONTROL **Flujo**] visualización en el panel.
 
    o
 
-   Arrastre el [!UICONTROL **Flujo**] visualización en un proyecto existente.
+   Añada una visualización de cualquiera de las formas descritas en la sección &quot;Añadir visualizaciones a un panel&quot; de [Información general sobre visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Ancle la visualización de flujo mediante una de las siguientes opciones:
 
@@ -45,7 +43,7 @@ Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta
    >
    >Las métricas calculadas no se pueden usar en  **[!UICONTROL Comienza por]** o **[!UICONTROL Finaliza con]** campos.
 
-1. Si elige una métrica, también debe proporcionar un [!UICONTROL Dimension de rutas] para usar como ruta de acceso o de salida del componente seleccionado, como se muestra aquí. El valor predeterminado es [!UICONTROL **Página**].
+1. Si elige una métrica, también debe proporcionar un [!UICONTROL **Dimension de rutas**] para usarlo como ruta de acceso o de salida del componente seleccionado, como se muestra aquí. El valor predeterminado es [!UICONTROL **Página**].
 
    ![dimensión de las rutas](assets/pathing-dim.png)
 
