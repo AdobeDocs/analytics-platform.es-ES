@@ -2,9 +2,9 @@
 title: Vista de crecimiento neto
 description: ¿Está ganando o perdiendo usuarios?
 feature: Guided Analysis
-source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
+source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '624'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,19 @@ El resultado de esta fórmula es una proporción. Un crecimiento neto de `1` rep
 
 Similar a la [Activo](active.md) Tipo de vista, los usuarios se definen de la siguiente manera:
 
-* **Nuevo**: el usuario estuvo activo durante el periodo actual, pero no anteriormente. Consulte hasta dónde llega el análisis para determinar un nuevo usuario pasando el puntero sobre &#39;[!UICONTROL Nuevos usuarios]&#39; en la leyenda del gráfico. El intervalo de retrospectiva se determina dinámicamente en función del intervalo de fechas y del intervalo seleccionados.
-* **Volver**: el usuario estaba activo en el periodo actual y no en el periodo inmediatamente anterior, pero anteriormente estaba activo en algún momento. Consulte hasta dónde llega el análisis para determinar un usuario de retorno pasando el puntero sobre &#39;[!UICONTROL Devolver usuarios]&#39; en la leyenda del gráfico. El intervalo de retrospectiva se determina dinámicamente en función del intervalo de fechas y del intervalo seleccionados.
-* **Inactivo**: el usuario estuvo activo en el periodo inmediatamente anterior, pero no lo está en el periodo actual. Los usuarios inactivos no se contabilizan en el número total de usuarios activos.
-* Nota: Los usuarios repetidos no se tienen en cuenta en este cálculo, ya que no representan ninguna ganancia o pérdida de usuarios.
+* **[!UICONTROL Nuevo]**: el usuario estuvo activo durante el periodo actual, pero no anteriormente. Consulte hasta dónde llega el análisis para determinar un nuevo usuario pasando el puntero sobre &#39;[!UICONTROL Nuevos usuarios]&#39; en la leyenda del gráfico. El intervalo de retrospectiva se determina dinámicamente en función del intervalo de fechas y del intervalo seleccionados.
+* **[!UICONTROL Volver]**: el usuario estaba activo en el periodo actual y no en el periodo inmediatamente anterior, pero anteriormente estaba activo en algún momento. Consulte hasta dónde llega el análisis para determinar un usuario de retorno pasando el puntero sobre &#39;[!UICONTROL Devolver usuarios]&#39; en la leyenda del gráfico. El intervalo de retrospectiva se determina dinámicamente en función del intervalo de fechas y del intervalo seleccionados.
+* **[!UICONTROL Inactivo]**: el usuario estuvo activo en el periodo inmediatamente anterior, pero no lo está en el periodo actual. Los usuarios inactivos no se contabilizan en el número total de usuarios activos.
+
+>[!NOTE]
+>
+>Los usuarios repetidos no se tienen en cuenta en este cálculo, ya que no representan ninguna ganancia o pérdida de usuarios.
 
 ![Crecimiento neto](../assets/net-growth.png)
+
+## Consulte Vista de crecimiento neto en acción
+
+>[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 
 ## Casos prácticos
 
@@ -40,12 +47,12 @@ Los casos de uso para este tipo de vista incluyen:
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **Eventos**: el evento que desea medir. Dado que este tipo de vista se basa en el usuario, cualquier usuario que interactúe con el evento una vez dentro del periodo se contará como un usuario activo. Puede incluir un evento en una consulta.
-* **People**: El segmento que desea medir. Puede incluir un segmento en una consulta.
+* **[!UICONTROL Eventos]**: el evento que desea medir. Dado que este tipo de vista se basa en el usuario, cualquier usuario que interactúe con el evento una vez dentro del periodo se contará como un usuario activo. Puede incluir un evento en una consulta.
+* **[!UICONTROL People]**: El segmento que desea medir. Puede incluir un segmento en una consulta.
 
 ## Intervalo de fechas
 
 El intervalo de fechas deseado para el análisis. Esta configuración consta de dos componentes:
 
-* **Intervalo**: La granularidad de fecha por la que desea ver los datos de tendencias. Las opciones válidas incluyen Por hora, Diario, Semanal, Mensual y Trimestral. El mismo intervalo de fechas puede tener diferentes intervalos que afectan al número de puntos de datos del gráfico y al número de columnas de la tabla. Por ejemplo, si se ve un análisis que abarca tres días con granularidad diaria, solo se mostrarían tres puntos de datos, mientras que un análisis que abarca tres días con granularidad horaria, mostraría 72 puntos de datos.
-* **Fecha**: la fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.
+* **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver los datos de tendencias. Las opciones válidas incluyen Por hora, Diario, Semanal, Mensual y Trimestral. El mismo intervalo de fechas puede tener diferentes intervalos que afectan al número de puntos de datos del gráfico y al número de columnas de la tabla. Por ejemplo, si se ve un análisis que abarca tres días con granularidad diaria, solo se mostrarían tres puntos de datos, mientras que un análisis que abarca tres días con granularidad horaria, mostraría 72 puntos de datos.
+* **[!UICONTROL Fecha]**: la fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.

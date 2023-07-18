@@ -1,9 +1,9 @@
 ---
 title: Casos de uso del sector
 description: Casos de uso del sector para un análisis guiado
-source-git-commit: 4a82681f0523e0a9cba23da98f42f9dd6210b414
+source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1442'
 ht-degree: 2%
 
 ---
@@ -46,8 +46,6 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 
 ![Vista activa para servicios financieros](assets/fsi-user-growth-active.png)
 
-![Vista activa alternativa para servicios financieros](assets/fsi-user-growth-active-2.png)
-
 +++
 
 +++**Viajes y hospitalidad**
@@ -65,7 +63,7 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 
 ![Vista de uso para viajes y hospitalidad](assets/th-trends-usage.png)
 
-![Tendencias de conversión para viajes y hospitalidad](assets/th-funnel-conversio-trends.png)
+![Tendencias de conversión para viajes y hospitalidad](assets/th-funnel-conversion-trends.png)
 
 +++
 
