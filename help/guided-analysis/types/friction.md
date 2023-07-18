@@ -3,20 +3,18 @@ title: Vista de fricción
 description: Comparar tasas de conversión entre los pasos.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
-# Vista de fricción
+# [!UICONTROL Fricción] vista
 
-El **Fricción** La vista de proporciona una representación visual de un recorrido de usuario crítico en el producto. El eje horizontal representa cada paso que debe pasar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
+El **[!UICONTROL Fricción]** La vista de proporciona una representación visual de un recorrido de usuario crítico en el producto. El eje horizontal representa cada paso que debe pasar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
 
-![Fricción](../assets/friction.png)
-
-## Consulte Vista de fricción en acción
+Consulte la [!UICONTROL Fricción] ver en acción:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on)
 

@@ -2,10 +2,10 @@
 title: Vista de tendencias de conversión
 description: Rastree los cambios en la tasa de conversión a lo largo del tiempo.
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 2%
+source-wordcount: '453'
+ht-degree: 1%
 
 ---
 
@@ -13,9 +13,7 @@ ht-degree: 2%
 
 El **Tendencias de conversión** La vista de proporciona una visualización de tendencias en torno a las tasas de conversión a lo largo del tiempo. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical representa la tasa de conversión.
 
-![Tendencias de conversión](../assets/conversion-trends.png)
-
-## Consulte Vista de tendencias de conversión en acción
+Consulte la [!UICONTROL Tendencias de conversión] ver en acción
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 

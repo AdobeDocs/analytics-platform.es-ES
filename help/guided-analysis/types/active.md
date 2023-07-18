@@ -3,7 +3,7 @@ title: Vista activa
 description: Identifique quién es nuevo, retenido, que regresa o está inactivo.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 1%
@@ -21,9 +21,7 @@ El **Activo** La vista de proporciona perspectivas sobre el crecimiento y la adq
 
 Todos los usuarios activos (nuevos + repetidos + devueltos) aparecen como un tono de verde azulado encima del eje horizontal, mientras que todos los usuarios inactivos aparecen en naranja debajo del eje horizontal.
 
-![Activo](../assets/active.png)
-
-## Consulte Vista activa en acción
+Consulte la [!UICONTROL Activo] ver en acción:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421667/?learn=on)
 

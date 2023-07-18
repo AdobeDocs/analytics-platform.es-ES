@@ -2,10 +2,10 @@
 title: Vista de versión
 description: Comparar los resultados en periodos iguales antes y después de la liberación.
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -13,9 +13,7 @@ ht-degree: 4%
 
 El **[!UICONTROL Versión]** La vista muestra una comparación del rendimiento de los indicadores clave antes y después de una fecha determinada. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa la fecha que desea comparar antes y después de. Esta fecha suele representar un cambio notable en el producto con el que desea medir, como una actualización del producto o un lanzamiento de campaña.
 
-![Versión](../assets/release.png)
-
-## Consulte Vista de la versión en acción
+Consulte la [!UICONTROL Versión] ver en acción:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421665/?learn=on)
 

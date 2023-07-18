@@ -2,16 +2,16 @@
 title: Vista de crecimiento neto
 description: ¿Está ganando o perdiendo usuarios?
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
-# Vista de crecimiento neto
+# [!UICONTROL Crecimiento neto] vista
 
-El **Crecimiento neto** tipo de vista proporciona perspectivas sobre la tasa a la que gana o pierde usuarios durante un periodo específico. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical es la medida del crecimiento.
+El **[!UICONTROL Crecimiento neto]** tipo de vista proporciona perspectivas sobre la tasa a la que gana o pierde usuarios durante un periodo específico. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical es la medida del crecimiento.
 
 Cada punto de datos representa el crecimiento neto, que se calcula mediante la siguiente fórmula:
 
@@ -29,9 +29,7 @@ Similar a la [Activo](active.md) Tipo de vista, los usuarios se definen de la si
 >
 >Los usuarios repetidos no se tienen en cuenta en este cálculo, ya que no representan ninguna ganancia o pérdida de usuarios.
 
-![Crecimiento neto](../assets/net-growth.png)
-
-## Consulte Vista de crecimiento neto en acción
+Consulte la [!UICONTROL Crecimiento neto] ver en acción:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 
