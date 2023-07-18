@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
+source-git-commit: fe52730e3904ba5ccc5d1e7e5ff89eed8a575fbc
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 82%
+source-wordcount: '541'
+ht-degree: 83%
 
 ---
 
@@ -72,8 +72,6 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
    ![](./assets/image10.png)
 
    **Mostrar u ocultar encabezados de fila y columna**
-
-1. Haga clic en el comando Editar bloque de datos en Report Builder hub.
 
 1. Haga clic en **Tabla** icono de configuración.
 
