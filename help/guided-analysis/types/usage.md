@@ -3,9 +3,9 @@ title: Vista de uso
 description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 2%
 # [!UICONTROL Uso] vista
 
 El **[!UICONTROL Uso]** La vista de proporciona una valiosa perspectiva del rendimiento del producto o del comportamiento de los usuarios a lo largo del tiempo. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los eventos deseados.
-
-Consulte la [!UICONTROL Uso] ver en acción:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
 

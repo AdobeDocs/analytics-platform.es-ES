@@ -2,9 +2,9 @@
 title: Vista de crecimiento neto
 description: ¿Está ganando o perdiendo usuarios?
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '616'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,6 @@ Similar a la [Activo](active.md) Tipo de vista, los usuarios se definen de la si
 >[!NOTE]
 >
 >Los usuarios repetidos no se tienen en cuenta en este cálculo, ya que no representan ninguna ganancia o pérdida de usuarios.
-
-Consulte la [!UICONTROL Crecimiento neto] ver en acción:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 

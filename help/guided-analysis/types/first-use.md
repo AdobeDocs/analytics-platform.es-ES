@@ -2,9 +2,9 @@
 title: Vista de primer uso
 description: Medir el impacto del uso de funciones por primera vez en indicadores clave.
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '613'
 ht-degree: 3%
 
 ---
@@ -12,8 +12,6 @@ ht-degree: 3%
 # [!UICONTROL Primer uso] vista
 
 El **[!UICONTROL Primer uso]** La vista muestra una comparación del rendimiento de los indicadores clave antes y después de que un usuario utilice una función de producto por primera vez. El eje horizontal de este informe es un intervalo de tiempo relativo antes y después del evento, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa el día 0 para el momento en que un usuario determinado utiliza por primera vez una función. Dado que los usuarios no siempre adoptan las funciones el mismo día y que los despliegues pueden producirse durante varios días, el día 0 significará algo diferente para cada usuario individual.
-
-Consulte la [!UICONTROL Primer uso] ver en acción
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421661/?learn=on)
 
