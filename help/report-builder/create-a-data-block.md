@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 97%
+source-wordcount: '552'
+ht-degree: 82%
 
 ---
 
@@ -70,6 +70,24 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
    Cuando se añaden componentes a la tabla, se muestra una vista previa del bloque de datos en la ubicación del bloque de datos en la hoja de cálculo. El diseño de la vista previa del bloque de datos se actualiza automáticamente a medida que se añaden, mueven o eliminan elementos de la tabla.
 
    ![](./assets/image10.png)
+
+   **Mostrar u ocultar encabezados de fila y columna**
+
+1. Haga clic en el comando Editar bloque de datos en Report Builder hub.
+
+1. Haga clic en **Tabla** icono de configuración.
+
+   ![imagen de marcador](./assets/table-settings.png){width="35%"}
+
+1. Marque o desmarque la opción Mostrar encabezados de fila y columna. Los encabezados se muestran de forma predeterminada.
+
+   **Ocultar o mostrar etiquetas de dimensión y encabezados de métrica**
+
+1. Haga clic en el icono de puntos suspensivos en las dimensiones o en los encabezados de columna para mostrar la configuración.
+
+   ![imagen de marcador](./assets/row-heading.png){width="35%"}
+
+1. Haga clic en Ocultar o Mostrar para alternar las etiquetas de dimensión o los encabezados de columna. Todas las etiquetas se muestran de forma predeterminada.
 
 1. Haga clic en **Finalizar**.
 
