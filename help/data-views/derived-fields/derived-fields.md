@@ -4,11 +4,11 @@ description: Un campo derivado especifica la manipulación en tiempo de informe 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+badgeDerivedFields: label="Nueva función" type="Positive"
+source-git-commit: 33ed28de1c410bcba04ab405ce8d779a501f4b3f
 workflow-type: tm+mt
-source-wordcount: '3281'
-ht-degree: 8%
+source-wordcount: '4350'
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ Algunos casos de uso son:
 
 Cuando se crea o edita un campo derivado, se utiliza la interfaz de campo derivado.
 
-![Cuadro de diálogo Campo derivado](assets/derived-field-dialog.png)
+![Captura de pantalla del cuadro de diálogo Campo derivado](assets/derived-field-dialog.png)
 
 
 |  | Nombre | Descripción |
@@ -56,7 +56,7 @@ El cuadro de diálogo de campo derivado se rellena con reglas (y funciones) nece
 
 Cuando define una regla en el generador de reglas, utiliza la interfaz de reglas.
 
-![Interfaz de reglas](assets/rule-interface.png)
+![Captura de pantalla de la interfaz de regla de campo derivada](assets/rule-interface.png)
 
 |  | Nombre | Descripción |
 |---------|----------|--------|
@@ -139,7 +139,7 @@ Esta plantilla está configurada para utilizar el [Análisis de URL](#dnl-url-pa
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
-![Generador de reglas de plantilla de canal de marketing](assets/marketing-channel-template.png)
+![Captura de pantalla del generador de reglas de plantilla de canal de marketing](assets/marketing-channel-template.png)
 
 +++
 
@@ -177,7 +177,7 @@ Para cada función admitida, busque los detalles siguientes en:
 
 ### Concatenar
 
-Combina dos o más campos, campos derivados o valores introducidos por el usuario en un único campo con delimitadores definidos.
+Combina valores de campo en un único campo derivado nuevo con delimitadores definidos.
 
 +++ Detalles
 
@@ -185,7 +185,7 @@ Combina dos o más campos, campos derivados o valores introducidos por el usuari
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Output |
 |---|---|---|---|---|
-| <p>Cadena</p> | <ul><li>Para cada [!UICONTROL Valor]:<ul><li>Regla</li><li>Campo estándar</li><li>Campo</li><li>Entrada introducida por el usuario</li></ul></li><li>Para cada [!UICONTROL Delimitador]:<ul><li>Entrada introducida por el usuario</li></ul></li> </ul> | <p>N/A</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Valor]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul></li><li>[!UICONTROL Delimitador]:<ul><li>Cadena</li></ul></li> </ul> | <p>N/A</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -235,7 +235,7 @@ El informe deseado debería tener un aspecto similar al siguiente:
 
 Usted define una nueva [!UICONTROL Origin - Destino] campo derivado. Utilice el [!UICONTROL CONCATENAR] función para definir una regla para concatenar el [!UICONTROL Original] y [!UICONTROL Destino] campos con el `-` [!UICONTROL Delimitador].
 
-![Concatenar regla](assets/concatenate.png)
+![Captura de pantalla de la regla de concatenación](assets/concatenate.png)
 
 ### Datos después de {#concatenate-dataafter}
 
@@ -263,7 +263,7 @@ Aplica condicionales, según los criterios definidos en uno o varios campos. Est
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>Para cada [!UICONTROL If], [!UICONTROL Else If] contenedor:</p><ul><li>[!UICONTROL Valor]</li><ul><li>Regla</li><li>Campo estándar</li><li>Campo</li></ul><li>[!UICONTROL Criterio] (consulte operadores incluidos, según el tipo de valor seleccionado)</li></ul></li><li>Para cada [!UICONTROL Luego establezca el valor en], [!UICONTROL De lo contrario, establezca el valor en]:</p><ul><li>[!UICONTROL Valor]</li><ul><li>Regla</li><li>Campo estándar</li><li>Campo</li></ul></ul></li></ul> | <p>Cadenas</p><ul><li>Es igual a</li><li>Es igual a cualquier término</li><li>Contiene la frase</li><li>Contiene cualquier término</li><li>Contiene todos los términos</li><li>Comienza con</li><li>Comienza con cualquier término</li><li>Finaliza con</li><li>Finaliza con cualquier término</li><li>No es igual a</li><li>No coincide con ningún término</li><li>No contiene la frase</li><li>No contiene ningún término</li><li>No contiene todos los términos</li><li>No comienza con</li><li>No comienza con ningún término</li><li>No finaliza con</li><li>No termina con ningún término</li><li>Se ha establecido</li><li>No se ha establecido</li></ul><p>Numéricos</p><ul><li>Es igual a</li><li>No es igual a</li><li>Es mayor que</li><li>Es mayor que o igual a</li><li>Es menor que</li><li>Es menor que o igual a</li><li>Se ha establecido</li><li>No se ha establecido</li></ul><p>Fechas</p><ul><li>Es igual a</li><li>No es igual a</li><li>Es posterior a</li><li>Es posterior o igual a</li><li>Es anterior a</li><li>Es anterior o igual a</li><li>Se ha establecido</li><li>No se ha establecido</li></ul> | <ul><li>5 funciones por campo derivado</li><li>200 operadores por campo derivado. Un ejemplo de operador único es &quot;El dominio de referencia contiene Google&quot;. </li></ul> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] contenedor:</p><ul><li>[!UICONTROL Valor]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Criterio] (consulte operadores incluidos, según el tipo de valor seleccionado)</li></ul></li><li>[!UICONTROL Luego establezca el valor en], [!UICONTROL De lo contrario, establezca el valor en]:</p><ul><li>[!UICONTROL Valor]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul></li></ul> | <p>Cadenas</p><ul><li>Es igual a</li><li>Es igual a cualquier término</li><li>Contiene la frase</li><li>Contiene cualquier término</li><li>Contiene todos los términos</li><li>Comienza con</li><li>Comienza con cualquier término</li><li>Finaliza con</li><li>Finaliza con cualquier término</li><li>No es igual a</li><li>No coincide con ningún término</li><li>No contiene la frase</li><li>No contiene ningún término</li><li>No contiene todos los términos</li><li>No comienza con</li><li>No comienza con ningún término</li><li>No finaliza con</li><li>No termina con ningún término</li><li>Se ha establecido</li><li>No se ha establecido</li></ul><p>Numéricos</p><ul><li>Es igual a</li><li>No es igual a</li><li>Es mayor que</li><li>Es mayor que o igual a</li><li>Es menor que</li><li>Es menor que o igual a</li><li>Se ha establecido</li><li>No se ha establecido</li></ul><p>Fechas</p><ul><li>Es igual a</li><li>No es igual a</li><li>Es posterior a</li><li>Es posterior o igual a</li><li>Es anterior a</li><li>Es anterior o igual a</li><li>Se ha establecido</li><li>No se ha establecido</li></ul> | <ul><li>5 funciones por campo derivado</li><li>200 operadores por campo derivado. Un ejemplo de operador único es &quot;El dominio de referencia contiene Google&quot;. </li></ul> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -311,7 +311,7 @@ Usted define una nueva `Marketing Channel` campo derivado. Utilice el [!UICONTRO
 
 Observe el uso de la función [!UICONTROL ANÁLISIS DE URL] para definir reglas para recuperar los valores de `Page Url` y `Referring Url` antes del [!UICONTROL CASO CUÁNDO] se aplican las reglas de.
 
-![Caso en el que la regla 1](assets/case-when-1.png)
+![Captura de pantalla del caso de la regla 1](assets/case-when-1.png)
 
 ### Datos después de {#casewhen-uc1-dataafter}
 
@@ -365,7 +365,7 @@ Su sitio recopila los siguientes valores para su [!DNL Product Finding Methods] 
 
 Usted define un `Product Finding Methods (new)` campo derivado. Puede crear lo siguiente [!UICONTROL CASO CUÁNDO] reglas en el generador de reglas. Estas reglas aplican lógica a todas las variaciones posibles de lo antiguo [!UICONTROL Métodos de búsqueda de productos] valores de campo para `search` y `browse` uso del [!UICONTROL Contiene la frase] criterio.
 
-![Caso Cuando la regla 2](assets/case-when-2.png)
+![Captura de pantalla del caso de la regla 2](assets/case-when-2.png)
 
 ### Datos después de {#casewhen-uc2-dataafter}
 
@@ -438,7 +438,7 @@ El informe deseado debería tener un aspecto similar al siguiente:
 
 Usted define un `Trip Duration (bucketed)` campo derivado. Puede crear lo siguiente [!UICONTROL CASO CUÁNDO] regla en el generador de reglas. Esta regla aplica lógica al contenedor del antiguo [!UICONTROL Duración del viaje] Valores de campo en tres valores: `short trip`, `medium  trip`, y `long trip`.
 
-![Caso Cuando la regla 3](assets/case-when-3.png)
+![Captura de pantalla del caso Cuando la regla 3](assets/case-when-3.png)
 
 
 ### Datos después de {#casewhen-uc3-dataafter}
@@ -459,7 +459,7 @@ Usted define un `Trip Duration (bucketed)` campo derivado. Puede crear lo siguie
 | [!DNL long trip] |
 
 
-## Restricciones
+## Más información
 
 El Customer Journey Analytics utiliza una estructura de contenedor anidada, siguiendo el modelo de Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) (Modelo de datos de experiencia). Consulte [Contenedores](../create-dataview.md#containers) y [Filtrar contenedores](../../components/filters/filters-overview.md#filter-containers) para obtener más información. Este modelo de contenedor, aunque flexible por naturaleza, impone algunas restricciones al utilizar el generador de reglas.
 
@@ -469,15 +469,13 @@ Customer Journey Analytics utiliza el siguiente modelo de contenedor predetermin
 <img src="./assets/containers.png" width="50%" valign="middle">
 </p>
 
-
-
 Las siguientes restricciones se aplican y se aplican cuando *selección* y *configuración* valores.
 
 |  | Restricciones |
 |:---:|----|
-| **<span style='color: red'>A</span>** | Valores que usted *select* dentro del mismo [!UICONTROL If], [!UICONTROL Else If] construcción (uso de [!UICONTROL Y] o [!UICONTROL O]) de una regla debe proceder del mismo contenedor y puede ser de cualquier tipo (cadena ![Cadena](assets/Smock_ABC_18_N.svg), numérico ![Numérico](assets/Smock_123_18_N.svg), etc.). <br/>![Dependencia A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | Todos los valores que *set* en una regla debe ser del mismo contenedor y tener el mismo tipo o un valor derivado del mismo tipo. <br/> ![Dependencia B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | Los valores que *select* horizontal [!UICONTROL If], [!UICONTROL Else If] las construcciones en la regla sí *no* deben proceder del mismo contenedor y deben *no* deben ser del mismo tipo. <br/> ![Dependencia C](assets/dependency-c.png) |
+| **<span style='color: red'>A</span>** | Valores que usted *select* dentro del mismo [!UICONTROL If], [!UICONTROL Else If] construcción (uso de [!UICONTROL Y] o [!UICONTROL O]) de una regla debe proceder del mismo contenedor y puede ser de cualquier tipo (cadena ![Cadena](assets/Smock_ABC_18_N.svg), numérico ![Numérico](assets/Smock_123_18_N.svg), etc.). <br/>![Captura de pantalla de la dependencia A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | Todos los valores que *set* en una regla debe ser del mismo contenedor y tener el mismo tipo o un valor derivado del mismo tipo. <br/> ![Captura de pantalla de Dependencia B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | Los valores que *select* horizontal [!UICONTROL If], [!UICONTROL Else If] las construcciones en la regla sí *no* deben proceder del mismo contenedor y deben *no* deben ser del mismo tipo. <br/> ![Captura de pantalla de Dependencia C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -496,7 +494,7 @@ Busca todos los valores de un campo seleccionado y reemplaza esos valores por un
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Output |
 |---|---|---|---|---|
-| <p>Cadena</p> | <ul><li>Para los criterios:<ul><li>[!UICONTROL Valor]<ul><li>Regla</li><li>Campo estándar</li><li>Campo</li></ul></li></ul></li><li>Para cada [!UICONTROL Buscar todos], [!UICONTROL y reemplace todo por]:<ul><li>[!UICONTROL Valor]</li><ul><li>Entrada introducida por el usuario</li></ul></li></ul></ul> | <p>Cadenas</p><ul><li>[!UICONTROL Buscar todos], [!UICONTROL y reemplace todo por]</li></ul> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Valor]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>[!UICONTROL Buscar todos], [!UICONTROL y reemplace todo por]:<ul><li>Cadena</li></ul></li></ul></ul> | <p>Cadenas</p><ul><li>[!UICONTROL Buscar todos], [!UICONTROL y reemplace todo por]</li></ul> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -537,7 +535,7 @@ Ha recibido algunos valores mal formados para su informe de canales de marketing
 
 Usted define un `Email Marketing (updated)` campo derivado. Utilice el [!UICONTROL BUSCAR Y REEMPLAZAR] función para definir una regla para buscar y reemplazar todas las ocurrencias de `email%20marketing` con `email marketing`.
 
-![Buscar y reemplazar, regla](assets/find-and-replace.png)
+![Captura de pantalla de la regla Buscar y reemplazar](assets/find-and-replace.png)
 
 ### Datos después de {#findreplace-uc-dataafter}
 
@@ -558,7 +556,7 @@ Usted define un `Email Marketing (updated)` campo derivado. Utilice el [!UICONTR
 
 ### Búsqueda
 
-Define un conjunto de valores de búsqueda que se reemplazan por los valores correspondientes.
+Define un conjunto de valores de búsqueda que se reemplazan por los valores correspondientes en un nuevo campo derivado.
 
 +++ Detalles
 
@@ -567,7 +565,7 @@ Define un conjunto de valores de búsqueda que se reemplazan por los valores cor
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>Para [!UICONTROL Campo para aplicar la búsqueda]:<ul><li>Regla</li><li>Campo estándar</li><li>Campo</li></ul></li><li>Para [!UICONTROL Cuando el valor es igual a] y [!UICONTROL Reemplazar valores por]:</p><ul><li>Entrada introducida por el usuario</li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para aplicar la búsqueda]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>[!UICONTROL Cuando el valor es igual a] y [!UICONTROL Reemplazar valores por]:</p><ul><li>Cadena</li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -623,7 +621,7 @@ Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una [!DNL 
 
 Usted define un `Hotel Name` campo derivado. Utilice el [!UICONTROL BÚSQUEDA] función para definir una regla en la que puede buscar valores de la variable [!UICONTROL ID de hotel] y reemplace con valores nuevos.
 
-![Regla de búsqueda 1](assets/lookup-1.png)
+![Captura de pantalla de la regla de búsqueda 1](assets/lookup-1.png)
 
 ### Datos después de {#lookup-uc1-dataafter}
 
@@ -658,7 +656,7 @@ Ha recopilado direcciones URL en lugar del nombre de página descriptivo de vari
 
 Usted define un `Page Name (updated)` campo derivado. Utilice el [!UICONTROL BÚSQUEDA] función para definir una regla en la que puede buscar valores de su [!UICONTROL Nombre de página] y reemplace con valores correctos actualizados.
 
-![Regla de búsqueda 2](assets/lookup-2.png)
+![Captura de pantalla de la regla de búsqueda 2](assets/lookup-2.png)
 
 ### Datos después de {#lookup-uc2-dataafter}
 
@@ -674,6 +672,262 @@ Usted define un `Page Name (updated)` campo derivado. Utilice el [!UICONTROL BÚ
 
 +++
 
+<!-- MERGE FIELDS -->
+
+### Combinar campos
+
+Combina valores de dos campos diferentes en un nuevo campo derivado.
+
++++ Detalles
+
+## Especificación {#merge-fields-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
+|---|---|---|---|---|
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+
+{style="table-layout:auto"}
+
+## Caso de uso {#merge-fields-uc}
+
+Desea crear una nueva dimensión compuesta por el campo de nombre de página y el campo de motivo de la llamada con la intención de analizar el recorrido en los distintos canales.
+
+### Datos anteriores {#merge-fields-uc-databefore}
+
+| Nombre de la página | Sesión | Visitantes |
+|---|--:|--:|
+| página de ayuda | 250 | 200 |
+| página principal | 500 | 250 |
+| página de detalles del producto | 300 | 200 |
+
+{style="table-layout:auto"}
+
+| Razón de llamada | Sesión | Visitantes |
+|---|--:|--:|
+| preguntas sobre mi pedido | 275 | 250 |
+| realizar un cambio en mi pedido | 150 | 145 |
+| problema con el pedido | 100 | 95 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#merge-fields-uc-derivedfield}
+
+Usted define un `Cross Channel Interactions` campo derivado. Utilice el [!UICONTROL COMBINAR CAMPOS] función para definir una regla para combinar los valores de [!UICONTROL Nombre de página] field y [!UICONTROL Razón de llamada] y almacenarlo en el nuevo campo derivado.
+
+![Captura de pantalla de la regla Combinar campos](assets/merge-fields.png)
+
+### Datos después de {#merge-fields-uc-dataafter}
+
+| Interacciones entre canales | Sesiones | Visitantes |
+|---|--:|--:|
+| página principal | 500 | 250 |
+| página de detalles del producto | 300 | 200 |
+| preguntas sobre mi pedido | 275 | 250 |
+| página de ayuda | 250 | 200 |
+| realizar un cambio en mi pedido | 150 | 145 |
+| problema con el pedido | 100 | 95 |
+
+{style="table-layout:auto"}
+
+## Más información {#merge-fields-moreinfo}
+
+Debe seleccionar el mismo tipo de campos dentro de una regla de campos combinados. Por ejemplo, si selecciona un campo Fecha, todos los demás campos que desee combinar deben ser campos Fecha.
+
+![Captura de pantalla de restricciones en campos de combinación](assets/merge-fields-constraint.png)
+
++++
+
+
+<!-- REGEX REPLACE -->
+
+### Reemplazar Regex
+
+Reemplaza un valor de un campo mediante una expresión regular en un nuevo campo derivado.
+
++++ Detalles
+
+## Especificación {#regex-replace-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
+|---|---|---|---|---|
+| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul><ul><li>[!UICONTROL Regex]:</li><ul><li>Cadena</li></ul></li><li>[!UICONTROL Formato de salida]:<ul><li>Cadena</li></ul></ul><ul><li>Con distinción de mayúsculas y minúsculas</li><ul><li>Booleano</li></ul></li></ul></li> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+
+{style="table-layout:auto"}
+
+## Caso de uso {#regex-replace-uc}
+
+Desea obtener una parte de una dirección URL y utilizarla como identificador de página único para analizar el tráfico. Utilizará el `[^/]+(?=/$|$)` para que la expresión regular capture el final de la dirección URL y `$1` como patrón de salida.
+
+### Datos anteriores {#regex-replace-uc-databefore}
+
+| URL de la página |
+|---|
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#regex-replace-uc-derivedfield}
+
+Usted crea un `Page Identifier` campo derivado. Utilice el [!UICONTROL REGEX REPLACE] función para definir una regla que reemplace el valor de [!UICONTROL URL de referencia] campo con una [!UICONTROL Regex] de `[^/]+(?=/$|$)` y [!UICONTROL Formato de salida] de `$1`.
+
+![Captura de pantalla de la regla de reemplazo de regex](assets/regex-replace.png)
+
+
+### Datos después de {#regex-replace-uc-dataafter}
+
+| Identificador de página |
+|---|
+| adobe-analytics-benefits.html |
+| adobe-analytics.html |
+| customer-journey-analytics.html |
+| adobe-experience-platform.html |
+
+## Más información
+
+Customer Journey Analytics utiliza un subconjunto de la sintaxis regex de Perl. Se admiten las expresiones siguientes:
+
+| Expresión | Descripción |
+| --- | --- |
+| `a` | Un solo carácter `a`. |
+| `a\|b` | Un solo carácter `a` o `b`. |
+| `[abc]` | Un solo carácter `a`, `b` o `c`. |
+| `[^abc]` | Cualquier carácter individual distinto de `a`, `b` o `c`. |
+| `[a-z]` | Cualquier carácter individual del intervalo de `a`-`z`. |
+| `[a-zA-Z0-9]` | Cualquier carácter individual del intervalo de `a`-`z`, `A`-`Z` o dígitos de `0`-`9`. |
+| `^` | Coincide con el principio de la línea. |
+| `$` | Coincide con el final de la línea. |
+| `\A` | Inicio de cadena. |
+| `\z` | Final de cadena. |
+| `.` | Coincide con cualquier carácter. |
+| `\s` | Cualquier carácter de espacio en blanco. |
+| `\S` | Cualquier carácter que no sea un espacio en blanco. |
+| `\d` | Cualquier dígito. |
+| `\D` | Cualquier carácter que no sea un dígito. |
+| `\w` | Cualquier letra, número o guion bajo. |
+| `\W` | Cualquier carácter que no sea de palabra. |
+| `\b` | Cualquier límite de palabra. |
+| `\B` | Cualquier carácter que no sea un límite de palabra. |
+| `\<` | Inicio de la palabra. |
+| `\>` | Fin de la palabra. |
+| `(...)` | Capturar todo lo incluido. |
+| `(?:...)` | Captura sin marca. Evita que se haga referencia a la coincidencia en la cadena de salida. |
+| `a?` | Cero o uno de `a`. |
+| `a*` | Cero o más de `a`. |
+| `a+` | Uno más de los `a`. |
+| `a{3}` | Exactamente 3 de `a`. |
+| `a{3,}` | 3 o más de `a`. |
+| `a{3,6}` | Entre 3 y 6 de `a`. |
+
+Puede utilizar estas secuencias en el [!UICONTROL Formato de salida] cualquier número de veces y en cualquier orden para obtener la salida de cadena deseada.
+
+| Secuencia de marcador de posición de salida | Descripción |
+| --- | --- |
+| `$&` | Genera lo que coincide con toda la expresión. |
+| `$n` | Genera lo que coincidió con la subexpresión nth. Por ejemplo, `$1` genera la primera subexpresión. |
+| ``$` `` | Genera el texto entre el final de la última coincidencia encontrada (o el inicio del texto si no se encontró ninguna coincidencia anterior) y el inicio de la coincidencia actual. |
+| `$+` | Genera lo que coincidió con la última subexpresión marcada en la expresión regular. |
+| `$$` | Genera el carácter de cadena `"$"`. |
+
+{style="table-layout:auto"}
+
++++
+
+<!-- SPLIT -->
+
+### Split
+
+Divide un valor de un campo en un nuevo campo derivado.
+
++++ Detalles
+
+## Especificación {#split-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
+|---|---|---|---|---|
+| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul><ul><li>[!UICONTROL Método]:</li><ul><li>Desde la izquierda</li><li>Desde la derecha</li><li>Convertir en matriz</li></ul></li><li>Para el delimitador:<ul><li>Cadena</li></ul><li>Para el índice:<ul><li>Numéricos</li></ul></li> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+
+{style="table-layout:auto"}
+
+## Caso de uso 1 {#split-uc1}
+
+Las respuestas de la aplicación de voz se recopilan en una lista delimitada en una sola dimensión. Desea que cada valor de la lista sea un valor único en el informe de respuestas.
+
+### Datos anteriores {#split-uc1-databefore}
+
+| Respuestas de aplicación de voz | Eventos |
+|---|--:|
+| era bueno, tenía perfecto sentido, recomendaría a otros | 1 |
+| fue bueno, algo confuso, recomendará a otros | 1 |
+| no era bueno, muy confuso, no se lo recomendaré a otros | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#split-u1-derivedfield}
+
+Usted crea un `Responses` campo derivado. Utilice el [!UICONTROL DIVIDIR] función para definir una regla para utilizar  [!UICONTROL Convertir en matriz] para convertir los valores del [!UICONTROL Respuesta de aplicación de voz] field using `,` como el [!UICONTROL Delimitador].
+
+![Captura de pantalla de la regla dividida 1](assets/split-1.png)
+
+### Datos después de {#split-uc1-dataafter}
+
+| Respuestas | Eventos |
+|---|--:|
+| era bueno | 2 |
+| recomendará a otras personas | 2 |
+| no era bueno | 1 |
+| tenía sentido | 1 |
+| algo confuso | 1 |
+| muy confuso | 1 |
+| no recomendará a otras personas | 1 |
+
+{style="table-layout:auto"}
+
+## Caso de uso 2 {#split-uc2}
+
+Las respuestas de la aplicación de voz se recopilan en una lista delimitada en una sola dimensión. Desea las respuestas del primer valor de la lista a su propia dimensión. Desea colocar el último valor de la lista en su propia dimensión.
+
+### Datos anteriores {#split-uc2-databefore}
+
+| Respuestas | Eventos |
+|---|--:|
+| era bueno, tenía perfecto sentido, se lo recomendaría a otros | 1 |
+| fue bueno, algo confuso, recomendará a otros | 1 |
+| no era bueno, muy confuso, no se lo recomendaré a otros | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#split-u2-derivedfield}
+
+Usted crea un  `First Response` campo derivado. Utilice el [!UICONTROL DIVIDIR] para definir una regla que tome el primer valor de la variable [!UICONTROL Respuestas] desde la izquierda de la respuesta `,` como delimitador.
+
+![Captura de pantalla de la regla Split: primer valor](assets/split-2.png)
+
+Usted crea un `Second Response` campo derivado para tomar el último valor de [!UICONTROL Respuestas] seleccionando Desde la derecha, 1 como Delimitador y 1 como Índice.
+
+![Captura de pantalla de la regla Split: último valor](assets/split-3.png)
+
+### Datos después de {#split-uc2-dataafter}
+
+| Primera respuesta | Eventos |
+|---|--:|
+| era bueno | 2 |
+| no era bueno | 1 |
+
+{style="table-layout:auto"}
+
+| Segunda respuesta | Eventos |
+|---|--:|
+| recomendará a otras personas | 2 |
+| no recomendará a otras personas | 1 |
+
+{style="table-layout:auto"}
+
++++
+
+
 <!-- URL PARSE -->
 
 ### Análisis de URL
@@ -686,7 +940,7 @@ Analiza diferentes partes de una dirección URL, incluidos el protocolo, el host
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li></ul> | <ul><li>Para [!UICONTROL Campo]:</li><ul><li>Regla</li><li>Campo estándar</li><li>Campo</li></ul><li>Para [!UICONTROL Opción]:<ul><li>[!UICONTROL Obtener protocolo]</li><li>[!UICONTROL Obtener host]</li><li>[!UICONTROL Obtener ruta]</li><li>[!UICONTROL Obtener valor de cadena de consulta]<ul><li>[!UICONTROL Parámetro de consulta]:<ul><li>Entrada introducida por el usuario</li></ul></li></ul></li><li>[!UICONTROL Obtener valor de hash]</li></ul></li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Opción]:<ul><li>[!UICONTROL Obtener protocolo]</li><li>[!UICONTROL Obtener host]</li><li>[!UICONTROL Obtener ruta]</li><li>[!UICONTROL Obtener valor de cadena de consulta]<ul><li>[!UICONTROL Parámetro de consulta]:<ul><li>Cadena</li></ul></li></ul></li><li>[!UICONTROL Obtener valor de hash]</li></ul></li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -710,7 +964,7 @@ Solo desea utilizar el dominio de referencia de la dirección URL de referencia 
 
 Usted define un  `Referring Domain` campo derivado. Utilice el [!UICONTROL ANÁLISIS DE URL] función para definir una regla para recuperar el host de [!UICONTROL URL de referencia] y almacenarlo en el nuevo campo derivado.
 
-![ Regla 1 de análisis de URL](assets/url-parse-1.png)
+![Captura de pantalla de la regla de análisis de URL 1](assets/url-parse-1.png)
 
 ### Datos después de {#urlparse-uc1-dataafter}
 
@@ -742,7 +996,7 @@ Desea utilizar el valor de la variable `cid` parámetro de una cadena de consult
 
 Usted define un `Query String CID` campo derivado. Utilice el [!UICONTROL ANÁLISIS DE URL] función para definir una regla para recuperar el valor del parámetro de cadena de consulta en [!UICONTROL URL de página] campo, especificar `cid` como parámetro de consulta. El valor de salida se almacena en el nuevo campo derivado.
 
-![Regla de análisis de URL 2](assets/url-parse-2.png)
+![Captura de pantalla de la regla de análisis de URL 2](assets/url-parse-2.png)
 
 ### Datos después de {#urlparse-uc2-dataafter}
 
@@ -760,6 +1014,13 @@ Usted define un `Query String CID` campo derivado. Utilice el [!UICONTROL ANÁLI
 
 Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en general:
 
-- Puede utilizar un máximo de 10 campos de esquema diferentes (sin incluir los campos estándar) al definir reglas para un campo derivado.
-   - Desde este máximo de 10 campos de esquema diferentes, solo se permite un máximo de 3 campos de esquema de búsqueda o esquema de perfil.
+- Puede utilizar un máximo de diez campos de esquema diferentes (sin incluir los campos estándar) al definir reglas para un campo derivado.
+   - De este máximo de diez campos de esquema diferentes, solo se permite un máximo de tres campos de esquema de búsqueda o de perfil.
 - Puede tener un máximo de 100 campos derivados por conexión de Customer Journey Analytics.
+
+## Más información
+
+- [Aprovechamiento al máximo de los datos: un marco para utilizar campos derivados en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+
+- [Casos de uso de campos derivados para Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+

@@ -4,7 +4,7 @@ description: Utilice un subconjunto de una cadena como elementos de dimensión.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 708dc7c69480534b118c8454d65a907946cfcce7
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 94%
@@ -75,7 +75,7 @@ Customer Journey Analytics utiliza un subconjunto de la sintaxis regex de Perl. 
 | Expresión | Descripción |
 | --- | --- |
 | `a` | Un solo carácter `a`. |
-| `a|b` | Un solo carácter `a` o `b`. |
+| `a\|b` | Un solo carácter `a` o `b`. |
 | `[abc]` | Un solo carácter `a`, `b` o `c`. |
 | `[^abc]` | Cualquier carácter individual distinto de `a`, `b` o `c`. |
 | `[a-z]` | Cualquier carácter individual del intervalo de `a`-`z`. |
