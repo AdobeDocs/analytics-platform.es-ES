@@ -4,10 +4,10 @@ description: Analice y extraiga información de las interacciones de los cliente
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: 75f27ef2f5fcd0d2a2038dbe7bcf812e865a14fc
+source-git-commit: 0b68281df23ef4d2e6c1f7dacf9f58c40604e7ca
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 61%
+source-wordcount: '528'
+ht-degree: 62%
 
 ---
 
@@ -17,7 +17,7 @@ El análisis en canales múltiples permite una sola vista consolidada del compor
 
 ## Pasos de la implementación
 
-![Ilustración del flujo de pasos de implementación como se describe en [Pasos de implementación](#implementation-steps)](../assets/cca-architecture.png)
+![Flujo de pasos de implementación como se describe en esta sección.](../assets/cca-architecture.png)
 
 1. [Cree esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es) para introducir los datos.
 1. [Cree conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para incorporar los datos.
