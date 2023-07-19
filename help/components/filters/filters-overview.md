@@ -3,17 +3,17 @@ title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 34%
+source-wordcount: '992'
+ht-degree: 33%
 
 ---
 
 
 # Información general de Filtros {#overview}
 
-Customer Journey Analytics le permite generar, administrar, compartir y aplicar filtros de audiencia poderosos y centrados en sus informes. Los filtros le permiten identificar subconjuntos de personas en función de sus características o de las interacciones con el sitio web. Los Filtros están diseñados como perspectivas de audiencia codificadas que puede crear para atender sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
+Customer Journey Analytics le permite generar, administrar, compartir y aplicar filtros de audiencia poderosos y centrados en sus informes. Los filtros le permiten identificar subconjuntos de personas en función de sus características o interacciones. Los Filtros están diseñados como perspectivas de audiencia codificadas que puede crear para atender sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
 
 Los filtros se pueden basar en
 
@@ -37,6 +37,10 @@ Para obtener información sobre los tipos de filtros disponibles y cómo crearlo
 ## Filtros secuenciales {#sequential}
 
 Los filtros secuenciales le permiten identificar a las personas en función de la navegación y las vistas de página en su sitio, lo que proporciona un filtro de acciones e interacciones definidas. Los filtros secuenciales le ayudan a identificar qué le gusta a una persona y qué evita. Cuando se generan filtros secuenciales, se utiliza el operador THEN para definir y ordenar la navegación de la persona.
+
+>[!IMPORTANT]
+>
+>Debe tener el **Seleccionar** para crear filtros secuenciales de canales cruzados. Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene&#x200B;
 
 Vea el siguiente ejemplo:
 

@@ -5,16 +5,20 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 29%
+source-wordcount: '878'
+ht-degree: 28%
 
 ---
 
 # Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics
 
 Los clientes de Adobe Analytics pueden aprovechar fácilmente sus grupos de informes en Adobe Experience Platform y el Customer Journey Analytics mediante el [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). La siguiente discusión explica cómo hacerlo.
+
+>[!IMPORTANT]
+>
+>Debe tener el **Seleccionar** para realizar análisis de datos en más de un grupo de informes. Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene&#x200B;
 
 ## Preparación
 
