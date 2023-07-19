@@ -4,10 +4,10 @@ description: Vista previa de proyectos de prototipo para Customer Journey Analyt
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 90%
+source-wordcount: '424'
+ht-degree: 91%
 
 ---
 
@@ -64,11 +64,6 @@ Para iniciar y evaluar un prototipo:
    ![new feedback box](assets/short-survey.png)
 
 1. Haga clic en **[!UICONTROL Enviar]** para volver al portal principal de vistas previas.
-
-## prototipos de Customer Journey Analytics Labs
-
-* Generador de perspectivas en lenguaje natural: Proporciona un resumen en lenguaje natural de los datos que esté analizando en una tabla de forma libre.
-* Recomendador de visualizaciones: Recomienda visualizaciones que se adaptan bien a los datos.
 
 ## Información adicional
 
