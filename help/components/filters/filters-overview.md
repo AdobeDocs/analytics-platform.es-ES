@@ -3,9 +3,9 @@ title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '990'
 ht-degree: 33%
 
 ---
@@ -43,8 +43,6 @@ Los filtros secuenciales le permiten identificar a las personas en función de l
 >Debe tener el **Seleccionar** para crear filtros secuenciales de canales cruzados. Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene&#x200B;
 
 Vea el siguiente ejemplo:
-
-<!--![](assets/sequential_fil.png)-->
 
 | Sesión uno | Sesión dos | Sesión tres |
 | --- | --- | --- |
@@ -117,7 +115,7 @@ Los contenedores de evento incluyen desgloses de una sola página basados en val
 
 ## Plantilla de filtro predefinida {#template}
 
-La versión tradicional de Analytics incluye numerosos filtros de plantilla (filtros) y métricas calculadas predefinidos. Muchos de ellos no se aplican en el Customer Journey Analytics, o hay que cambiarles el nombre o volver a crearlos. Otros dependen de una solución para variables según el contexto en Customer Journey Analytics.
+La versión tradicional de Analytics incluye varias plantillas y métricas calculadas listas para usar. Muchos de ellos no se aplican en el Customer Journey Analytics, o hay que cambiarles el nombre o volver a crearlos. Otros dependen de una solución para variables según el contexto en Customer Journey Analytics.
 
 | Nombre del filtro | Descripción |
 | --- | --- |
