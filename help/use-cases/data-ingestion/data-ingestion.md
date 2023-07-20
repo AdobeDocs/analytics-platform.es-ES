@@ -4,10 +4,10 @@ description: Comprender las distintas formas de ingerir datos en Customer Journe
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 96%
+source-wordcount: '785'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ Tiene varias opciones de ingesta de datos en Customer Journey Analytics. Algunos
 
 ## Ingesta de datos de Adobe Analytics tradicional
 
-Este flujo de trabajo utiliza el conector de origen de Adobe Analytics y varía en función de si utiliza DTM o Launch como Administrador de etiquetas.
+Este flujo de trabajo utiliza el conector de origen de Analytics y varía en función de si utiliza DTM o Launch como Administrador de etiquetas.
 
 ### Mediante etiquetas en Adobe Experience Platform (anteriormente denominado [!UICONTROL Launch])
 

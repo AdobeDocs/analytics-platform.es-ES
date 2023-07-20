@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 89%
+ht-degree: 85%
 
 ---
 
@@ -35,7 +35,7 @@ Cuando combina conjuntos de datos con ID de personas similares, la atribución s
 Antes de usar Análisis en canales múltiples, asegúrese de que su organización está preparada con lo siguiente:
 
 * Un conjunto de datos en Adobe Experience Platform debe tener dos columnas que ayuden a identificar a las personas:
-   * Un **ID persistente**, un identificador presente en cada fila. Por ejemplo, un ID de persona generado por una biblioteca de AppMeasurementes de Adobe Analytics.
+   * Un **ID persistente**, un identificador presente en cada fila. Por ejemplo, un ID de persona generado por una biblioteca de AppMeasurement para Adobe Analytics.
    * Un **ID transitorio**, un identificador presente solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que una persona se autentica. Puede utilizar prácticamente cualquier identificador que desee, siempre y cuando esté presente al menos una vez en el mismo evento que un ID persistente determinado.
 * Otro conjunto de datos, como los datos del centro de llamadas, que contiene un ID transitorio en cada fila. Este ID personal debe tener el mismo formato que el ID transitorio del otro conjunto de datos.
 * Esta función le permite vincular conjuntos de datos que pueden incluir la combinación de datos de usuario autenticados y no autenticados. Asegúrese de cumplir las leyes y regulaciones aplicables, incluida la obtención de los permisos necesarios para el usuario final, antes de combinar conjuntos de datos.
@@ -55,7 +55,7 @@ Análisis en canales múltiples es una función innovadora y sólida, pero tiene
 * No se admiten los mapas de ID personalizados utilizados en su organización.
 * No se admite el gráfico privado entre dispositivos.
 * Análisis en canales múltiples no transforma el campo que se utiliza para la identificación de ninguna manera. La identificación basada en campos utiliza el valor del campo especificado tal como existe en el conjunto de datos no identificado del lago de datos. El proceso de identificación distingue entre mayúsculas y minúsculas. Por ejemplo, si aparece unas veces la palabra “Bob” en el campo y otras la palabra “BOB”, estas se tratarán como dos personas independientes.
-* Como la identificación basada en campos distingue entre mayúsculas y minúsculas, en el caso de los conjuntos de datos de Analytics generados mediante el conector de origen de Analytics, Adobe recomienda revisar cualquier regla VISTA o de procesamiento que se aplique al campo de ID transitorio para garantizar que ninguna introduzca nuevos formularios del mismo ID. Por ejemplo, debe asegurarse de que ninguna regla VISTA o de procesamiento introduce minúsculas en el campo ID transitorio en solo en una parte de los eventos.
+* Como la identificación basada en campos distingue entre mayúsculas y minúsculas, en el caso de los conjuntos de datos de Analytics generados mediante el conector de origen de Analytics, el Adobe recomienda revisar cualquier regla VISTA o de procesamiento que se aplique al campo de ID transitorio para garantizar que ninguna introduzca nuevos formularios del mismo ID. Por ejemplo, debe asegurarse de que ninguna regla VISTA o de procesamiento introduce minúsculas en el campo ID transitorio en solo en una parte de los eventos.
 * La identificación basada en campos no combina ni concatena campos.
 * El campo de ID transitorio debe contener un solo tipo de ID (es decir, ID de un solo espacio de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
 * Si se producen varios eventos con la misma marca de tiempo en relación con el mismo ID persistente, pero con valores diferentes en el campo de ID transitorio, la identificación basada en campos decidirá en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro Ann, la identificación basada en campos elegirá Ann.

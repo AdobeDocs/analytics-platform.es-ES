@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 40%
+source-wordcount: '2053'
+ht-degree: 37%
 
 ---
 
@@ -44,7 +44,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Segmentos | Compatibilidad total. Ahora se denominan &quot;Filtros&quot;: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
 | Grupos de informes virtuales | Compatibilidad total. Ahora se llama [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes del grupo de informes virtuales | Compatibilidad total. Ahora forma parte de las Vistas de datos. |
-| Streaming de medios de Analytics | Los datos de medios están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de contenido en Workspace. |
+| Streaming de medios de Analytics | Los datos de medios están disponibles mediante el conector de origen de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios en Workspace. |
 
 {style="table-layout:auto"}
 
@@ -70,7 +70,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
 | Report Builder (complemento de Excel) | Compatible con un nuevo complemento de Office 365 para Excel. |
 | Permisos de usuario/Controles de acceso de datos | El Customer Journey Analytics distingue entre [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es) administradores de productos, administradores de perfiles de productos y usuarios. Solo los administradores de productos pueden crear, actualizar o eliminar conexiones, proyectos, filtros o métricas calculadas creados por otros usuarios, mientras que los administradores de productos y los administradores de perfiles de productos pueden editar las vistas de datos. Hay disponibles permisos de usuario adicionales para tareas como crear métricas calculadas, filtros o anotaciones. |
-| Reglas de procesamiento, Reglas de VISTA, Reglas de procesamiento de canales de marketing | Se admite mediante la funcionalidad de preparación de datos de Adobe Experience Platform tanto para conjuntos de datos basados en WebSDK como para datos del conector de datos de Analytics. |
+| Reglas de procesamiento, Reglas de VISTA, Reglas de procesamiento de canales de marketing | Se admite mediante la funcionalidad de preparación de datos de Adobe Experience Platform tanto para conjuntos de datos basados en WebSDK como para datos del conector de origen de Analytics. |
 | Canales de marketing | Al utilizar el conector de origen de Analytics, los datos de los canales de marketing fluyen a Customer Journey Analytics a través de ese conector. Las reglas del canal de marketing se configuran en la versión tradicional de Adobe Analytics y algunas reglas no son compatibles. Para obtener más información, consulte [Documentación de canales de marketing de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html). <br/>Para implementaciones de WebSDK, las reglas de procesamiento de los canales de marketing en tiempo de informe son compatibles mediante [Campos derivados](../../data-views/derived-fields/derived-fields.md). |
 
 {style="table-layout:auto"}
@@ -80,12 +80,12 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Vinculación entre dispositivos y canales | Compatible con conjuntos de datos que contienen información de identidad directamente (también conocida como vinculación “basada en campos”). La vinculación basada en gráficos aún no es compatible, pero está programada. Consulte [Vinculación](../../stitching/overview.md). |
-| Filtros de bots | Para conjuntos de datos basados en el [conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o Customer Journey Analytics. |
-| Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Admitido para conjuntos de datos basados en [Conector de origen de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Consulte [Documentación sobre las variables de Analytics que se admiten mediante ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es).<p>Si utiliza la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten el dispositivo y las dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. |
-| Dimensiones de segmentación geográfica | Toda la segmentación geográfica/geografía recopilada en Adobe Analytics se transfiere a Customer Journey Analytics a través del [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Las implementaciones que no utilizan el conector de origen de Analytics, pero que dependen del SDK web de Experience Platform para la recopilación de datos digitales, pueden utilizar el [Servicio de búsqueda geográfica de Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es). |
+| Filtros de bots | Para [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es)Conjuntos de datos basados en, se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o Customer Journey Analytics. |
+| Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Admitido para [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es)Conjuntos de datos basados en. Consulte [Documentación sobre las variables de Analytics que se admiten mediante ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es).<p>Si utiliza la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten el dispositivo y las dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. |
+| Dimensiones de segmentación geográfica | Toda la segmentación geográfica/geografía recopilada en Adobe Analytics se transfiere a Customer Journey Analytics a través del [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Las implementaciones que no utilizan el conector de origen de Analytics, pero dependen del SDK web de Experience Platform para la recopilación de datos digitales, pueden utilizar el [Servicio de búsqueda geográfica de Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es). |
 | Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics for Target (A4T) no son compatibles. |
-| Reglas de procesamiento | En los conjuntos de datos basados en Analytics Source Connector, las reglas de procesamiento se aplican igual. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
-| A4T | Se proporciona soporte parcial mediante campos en el [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Se ha planificado la compatibilidad con los nombres descriptivos de A4T en las actividades y experiencias de Target. |
+| Reglas de procesamiento | En los conjuntos de datos basados en el conector de origen de Analytics, las reglas de procesamiento se aplican igual. Las [Funciones de preparación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) también se pueden usar como reemplazo de las reglas de procesamiento de datos que van directamente a Platform. |
+| A4T | Se proporciona soporte parcial mediante campos en la variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Se ha planificado la compatibilidad con los nombres descriptivos de A4T en las actividades y experiencias de Target. |
 
 {style="table-layout:auto"}
 

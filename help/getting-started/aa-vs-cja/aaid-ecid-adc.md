@@ -3,20 +3,20 @@ title: AAID, ECID, AACUSTOMID y el conector de origen de Analytics
 description: Descubra cómo el conector de origen de Analytics trata los campos de identidad de Adobe Analytics.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 91%
+ht-degree: 73%
 
 ---
 
 # AAID, ECID, AACUSTOMID y el conector de origen de Analytics
 
-Los datos de Adobe Analytics contienen varios campos de identidad. Tres campos de identidad importantes reciben un trato especial por parte del [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es): AAID, ECID, AACUSTOMID.
+Los datos de Adobe Analytics contienen varios campos de identidad. Tres importantes campos de identidad reciben un trato especial por parte del [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es): AAID, ECID, AACUSTOMID.
 
 ## AAID
 
-Adobe Analytics ID (AAID) es el identificador de dispositivo principal de Adobe Analytics y se garantiza que existe en todos los eventos que se pasan a través del conector de origen de Analytics. A veces, AAID se denomina «ID de Analytics heredado» o `s_vi` id de cookie. Sin embargo, se crea un AAID aunque la cookie `s_vi` no esté presente. AAID se representa mediante las columnas `post_visid_high/post_visid_low` de [fuentes de datos de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es#columns%2C-descriptions%2C-and-data-types).
+Adobe Analytics ID (AAID) es el identificador de dispositivo principal en Adobe Analytics y se garantiza que existe en todos los eventos que se pasan a través del conector de origen de Analytics. A veces, AAID se denomina «ID de Analytics heredado» o `s_vi` id de cookie. Sin embargo, se crea un AAID aunque la cookie `s_vi` no esté presente. AAID se representa mediante las columnas `post_visid_high/post_visid_low` de [fuentes de datos de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es#columns%2C-descriptions%2C-and-data-types).
 
 En el conector de origen de Analytics, AAID se transforma en `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. El campo AAID de un evento determinado contiene una sola identidad que puede ser de varios tipos según se describe en [Orden de operaciones para los ID de Analytics](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=es%5B%5D). (AAID puede contener una combinación de tipos entre eventos en un grupo de informes completo. El tipo de cada evento se indica en `post_visid_type` en las fuentes de datos de Analytics). Consulte: [Referencia de columnas de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es).
 
@@ -32,7 +32,7 @@ AACUSTOMID es un campo de identificador independiente que se rellena en Adobe An
 
 ## Cómo trata el conector de origen de Analytics estas identidades
 
-Conector de origen de Analytics pasa estas identidades a Adobe Experience Platform en forma XDM de la siguiente manera:
+El conector de origen de Analytics pasa estas identidades a Adobe Experience Platform en forma XDM de la siguiente manera:
 
 * `endUserIDs._experience.aaid.id`
 * `endUserIDs._experience.mcid.id`

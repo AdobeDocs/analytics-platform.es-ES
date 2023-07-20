@@ -4,10 +4,10 @@ description: Utilice el conector de origen de Analytics para incorporar reglas d
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 74%
+ht-degree: 63%
 
 ---
 
@@ -17,14 +17,14 @@ Si su organización utiliza la variable [Conector de origen de Analytics](https:
 
 ## Requisitos previos
 
-* Los datos del grupo de informes ya deben estar importados en Adobe Experience Platform mediante el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). No se admiten otras fuentes de datos, ya que los canales de marketing dependen de las reglas de procesamiento de un grupo de informes de Analytics.
+* Los datos del grupo de informes ya deben estar importados en Adobe Experience Platform mediante [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). No se admiten otras fuentes de datos, ya que los canales de marketing dependen de las reglas de procesamiento de un grupo de informes de Analytics.
 * Las reglas de procesamiento de canal de marketing ya deben estar configuradas. Consulte [Reglas de procesamiento de canales de marketing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=es) en la guía Componentes de Adobe Analytics.
 
 ## Elementos de esquema de canal de marketing
 
 Una vez que haya establecido el conector de origen de Analytics en un grupo de informes deseado, se creará un esquema XDM. Este esquema contiene todas las dimensiones y métricas de Analytics como datos sin procesar. Estos datos sin procesar no contienen atribución ni persistencia. En su lugar, cada evento se ejecuta mediante reglas de procesamiento de canal de marketing y registra la primera regla que coincide. Especifique la atribución y la persistencia al crear una vista de datos en Customer Journey Analytics.
 
-1. [Cree una conexión](/help/connections/create-connection.md) que incluya un conjunto de datos basado en el conector de origen de Analytics.
+1. [Crear una conexión](/help/connections/create-connection.md) que incluye un conjunto de datos basado en el conector de origen de Analytics.
 2. [Cree una vista de datos](/help/data-views/create-dataview.md) que incluya las siguientes dimensiones:
    * **`channel.typeAtSource`**: equivalente a la dimensión [Canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=es).
    * **`channel._id`**: equivalente a los [Detalles de canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html?lang=es)
@@ -35,7 +35,7 @@ Sus dimensiones de canal de marketing ya están disponibles para su uso en Analy
 
 >[!NOTE]
 >
-> El conector de origen de Analytics requiere que ambos `channel.typeAtSource` (canal de marketing) y `channel._id` (Detalle del canal de marketing) se rellenen; de lo contrario, ninguno de los dos se transferirá a ExperienceEvent en XDM. Si el Detalle del canal de marketing está vacío en el grupo de informes de origen, el resultado es un `channel._id` en blanco y el conector de origen de Analytics también dejará en blanco `channel.typeAtSource`. Esto puede provocar diferencias en la creación de informes entre Adobe Analytics y Customer Journey Analytics.
+> El conector de origen de Analytics requiere que ambos `channel.typeAtSource` (Canal de marketing) y `channel._id` (Detalles del canal de marketing); de lo contrario, ninguno de los dos se transferirá a ExperienceEvent en XDM. Si el Detalle del canal de marketing está vacío en el grupo de informes de origen, el resultado es un en blanco `channel._id` y el conector de origen de Analytics dejará en blanco `channel.typeAtSource` y también. Esto puede provocar diferencias en la creación de informes entre Adobe Analytics y Customer Journey Analytics.
 
 ## Diferencias de procesamiento y arquitectura
 

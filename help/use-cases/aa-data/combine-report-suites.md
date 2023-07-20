@@ -3,10 +3,10 @@ title: Combinación de grupos de informes con diferentes esquemas
 description: Aprenda a utilizar la preparación de datos para combinar grupos de informes con distintos esquemas
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
@@ -49,7 +49,7 @@ Esta situación resulta en informes sin sentido para eVar1 y eVar2:
 
 ## Utilice la preparación de datos de Adobe Experience Platform para resolver diferencias de esquema entre grupos de informes
 
-La funcionalidad de preparación de datos de Experience Platform está integrada con el conector de origen de Analytics y se puede utilizar para resolver las diferencias de esquema descritas en el escenario anterior. Esto da como resultado eVars con significados coherentes en la vista de datos del Customer Journey Analytics. (Las convenciones de nomenclatura que se utilizan a continuación se pueden personalizar para adaptarlas a sus necesidades).
+La funcionalidad Preparación de datos del Experience Platform está integrada con el conector de origen de Analytics y se puede utilizar para resolver las diferencias de esquema descritas en el escenario anterior. Esto da como resultado eVars con significados coherentes en la vista de datos del Customer Journey Analytics. (Las convenciones de nomenclatura que se utilizan a continuación se pueden personalizar para adaptarlas a sus necesidades).
 
 1. Antes de crear los flujos de datos de conexión de origen para los grupos de informes A y B, [Creación de un nuevo esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es) en Adobe Experience Platform (lo llamaremos **Esquema unificado** en nuestro ejemplo). Añada lo siguiente al esquema:
 
@@ -108,7 +108,7 @@ Ahora ha asignado eVar1 y eVar2 de los grupos de informes de origen a tres campo
 
 Las capacidades de la preparación de datos para combinar conjuntos de datos con distintos esquemas van más allá de los grupos de informes de Analytics. Supongamos que tiene dos conjuntos de datos que contienen los siguientes datos:
 
-| Conjunto de datos A = Grupo de informes de Analytics mediante el conector de origen de Analytics |
+| Conjunto de datos A = grupo de informes de Analytics a través del conector de origen de Analytics |
 | --- |
 | `eVar1` => Categoría del cliente |
 

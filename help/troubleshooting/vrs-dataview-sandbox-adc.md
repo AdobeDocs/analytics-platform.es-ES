@@ -1,13 +1,13 @@
 ---
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 63%
+ht-degree: 57%
 
 ---
 # Grupos de informes virtuales, vistas de datos, zonas protegidas de Adobe Experience Platform y el conector de origen de Analytics
 
-Adobe proporciona una variedad de medios para crear entornos de informes virtuales y entornos de zonas protegidas. Es útil comprender las similitudes y diferencias entre las siguientes funciones y cómo se relacionan con el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es):
+Adobe proporciona una variedad de medios para crear entornos de informes virtuales y entornos de zonas protegidas. Es útil comprender las similitudes y diferencias entre las siguientes funciones y cómo se relacionan con la variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es):
 
 * Grupos de informes virtuales de Adobe Analytics
 * Vistas de datos de Customer Journey Analytics

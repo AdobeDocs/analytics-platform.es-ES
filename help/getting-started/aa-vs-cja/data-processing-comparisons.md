@@ -3,10 +3,10 @@ title: Comparar el procesamiento de datos entre las funciones de informes de Ado
 description: Comprender las diferencias en el procesamiento de datos para las distintas funciones de informes
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 58%
+ht-degree: 54%
 
 ---
 
