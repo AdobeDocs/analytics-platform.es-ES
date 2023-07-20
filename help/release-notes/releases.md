@@ -4,7 +4,7 @@ title: Lanzamiento de funciones de Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
 ht-degree: 100%
 
