@@ -3,10 +3,10 @@ title: Panel de Attribution
 description: Utilizar e interpretar el panel de atribución en Analysis Workspace.
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 86%
+source-wordcount: '515'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ Customer Journey Analytics mejora la atribución al permitir lo siguiente:
 
 * Definir la atribución más allá del contenido multimedia de pago: cualquier dimensión, métrica, canal o evento puede aplicarse a modelos (por ejemplo, búsqueda interna), no solo a campañas de marketing.
 * Utilizar la comparación de modelos de atribución sin límites: compare dinámicamente todos los modelos que desee.
-* Evitar cambios de implementación: con el procesamiento de tiempo de informes y las sesiones con reconocimiento de contexto, el contexto del recorrido del cliente puede generarse y aplicarse en el tiempo de ejecución.
+* Evitar cambios de implementación: con el procesamiento de tiempo de informes y las sesiones con reconocimiento de contexto, el contexto de recorrido del cliente se puede generar y aplicar en el tiempo de ejecución.
 * Construir la sesión más adecuada para su escenario de atribución.
 * Desglosar la atribución por filtros: compare fácilmente el rendimiento de sus canales de marketing en cualquier filtro importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de fidelidad o CLV).
 * Inspeccionar análisis de canales cruzados y de múltiples contactos mediante Diagramas de Venn e Histogramas, y resultados de atribución de tendencias.
