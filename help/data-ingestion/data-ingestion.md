@@ -4,10 +4,10 @@ description: Comprender las distintas formas de ingerir datos en Customer Journe
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 92%
 
 ---
 
@@ -46,11 +46,11 @@ Ya tiene Adobe Analytics implementado y desea ingerir estos datos en Adobe Exper
 
 Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md) para obtener más información.
 
-## Ingesta y uso de datos mediante el SDK web de Adobe Experience Platform y Edge Network
+## Ingesta y uso de datos mediante el SDK web de Adobe Experience Platform
 
 Desea analizar su sitio web con tecnología de Adobe, con la posibilidad de migrar desde otra solución o comenzar a rastrear el comportamiento de su persona. Quiere seguir las prácticas recomendadas de Adobe para la implementación, que consisten en utilizar los SDK de Adobe Experience Platform y Edge Network, para ingerir los datos. A continuación, puede utilizar, combinar y analizar los datos ingeridos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
 
-Consulte [Ingesta y uso de datos mediante el SDK web de Adobe Experience Platform y Edge Network](./aepwebsdk.md) para obtener más información.
+Consulte [Ingesta y uso de datos mediante el SDK web de Adobe Experience Platform](./aepwebsdk.md) para obtener más información.
 
 ## Ingesta y uso de datos por lotes
 

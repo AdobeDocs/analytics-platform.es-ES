@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre vinculación
 description: Preguntas frecuentes sobre la vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: c87aaefdd15e02b7fe2cf8e638830aa278d46b92
+source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 35%
@@ -60,6 +60,8 @@ La vinculación en tiempo real está disponible aproximadamente una semana despu
 [Análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) es una función específica de la versión tradicional de Adobe Analytics que le permite comprender cómo funcionan las personas en distintos dispositivos. Ofrece dos flujos de trabajo para vincular datos de dispositivos: vinculación basada en el campo y el gráfico del dispositivo.
 
 El análisis en canales múltiples es un caso de uso específico de Customer Journey Analytics que le permite comprender cómo funcionan las personas en ambos dispositivos y canales. Vincula el ID de persona de un conjunto de datos, lo que permite que ese conjunto de datos se combine sin problemas con otros conjuntos de datos. Esta función funciona de forma similar al de la vinculación basada en el campo de análisis entre dispositivos, pero la implementación es diferente debido a la diferente arquitectura de datos entre Analytics tradicional y Customer Journey Analytics. Consulte [Vinculación](overview.md) y el [análisis en canales múltiples](../use-cases/cross-channel/cross-channel.md) caso de uso para obtener más información.
+
++++
 
 +++**¿Cómo gestiona la vinculación las solicitudes del RGPD y CCPA?**
 
