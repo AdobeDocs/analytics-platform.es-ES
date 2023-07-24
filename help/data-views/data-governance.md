@@ -3,10 +3,10 @@ title: Etiquetas y políticas
 description: Descubra cómo las etiquetas y políticas de datos definidas en Adobe Experience Platform afectan a las vistas de datos y a la creación de informes en Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: d14db99f6cf597c4b62cdb148853b0f11503eaa1
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 60%
+source-wordcount: '501'
+ht-degree: 58%
 
 ---
 
@@ -24,7 +24,7 @@ Las siguientes etiquetas son de especial interés para el Customer Journey Analy
 >
 >Las etiquetas de uso de datos no se propagan automáticamente a los conjuntos de datos enlazados. Sin embargo, se pueden añadir manualmente.
 
-El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso se usan las políticas. Las políticas se crean mediante la [API del servicio de políticas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=es) en Experience Platform.
+El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso se usan las políticas. Las políticas se crean mediante la variable [IU de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es) o a través de [API del servicio de directivas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=es) en Experience Platform.
 
 En Customer Journey Analytics aparecen dos políticas definidas por el Adobe que afectan a la creación de informes y a la descarga/uso compartido:
 
