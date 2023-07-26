@@ -3,16 +3,16 @@ title: Información general sobre el análisis guiado
 description: Un método de análisis de datos en Customer Journey Analytics que permite a los equipos de productos obtener información de alta calidad rápidamente. También se denomina Product Analytics.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 4ed5acc2c9bb1a530d16d9c3ce8f5e9243bfa1f2
+source-git-commit: bbf69470727dae531065972511bcc29eb3f47679
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1082'
 ht-degree: 8%
 
 ---
 
 # Información general sobre el análisis guiado
 
-El análisis guiado es un formato de informes que permite a los equipos de productos autoabastecer rápidamente sus necesidades de datos para que puedan obtener perspectivas de alta calidad rápidamente y tomar más decisiones de productos basadas en datos. Los equipos interfuncionales pueden conectarse en tiempo real para utilizar y comprender estos informes.
+El Adobe Product Analytics permite a los equipos de productos autoabastecer datos y perspectivas sobre su experiencia con los productos a través de flujos de trabajo de análisis guiados, basados en los datos de canales cruzados de Customer Journey Analytics. El análisis guiado es un formato de informes que permite a los equipos de productos autoabastecer rápidamente sus necesidades de datos para que puedan obtener perspectivas de alta calidad rápidamente y tomar más decisiones de productos basadas en datos. Los equipos interfuncionales pueden conectarse en tiempo real para utilizar y comprender estos informes.
 
 Al igual que los cuadros de resultados de Analysis Workspace y Mobile, un informe de análisis guiado utiliza datos de una [Vista de datos](../data-views/data-views.md), que hace referencia a los datos en Adobe Experience Platform a través de una [Conexión](../connections/overview.md). Todos los informes creados en Guided analysis pueden transferirse sin problemas a Analysis Workspace para realizar investigaciones adicionales.
 
