@@ -3,10 +3,10 @@ title: Información general sobre el análisis guiado
 description: Un método de análisis de datos en Customer Journey Analytics que permite a los equipos de productos obtener información de alta calidad rápidamente. También se denomina Product Analytics.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bbf69470727dae531065972511bcc29eb3f47679
+source-git-commit: f1eb7eefb84054c37a04dd1535f30e3e5130e019
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 8%
+source-wordcount: '1128'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,9 @@ Si su organización está aprovisionada para el análisis guiado, puede acceder 
 
 ## Interfaz
 
-La interfaz para el análisis guiado, independientemente del tipo de análisis, consta de los siguientes elementos de la interfaz de usuario principal:
+La interfaz para el análisis guiado sigue un formato de pregunta y respuesta. Se forma la pregunta en el carril de consulta y, a continuación, se obtiene una respuesta en forma de perspectiva escrita, gráfico y tabla. A continuación, puede hacer la siguiente pregunta con la configuración de visualización y los tipos de vista.
+
+Independientemente del tipo de análisis, el análisis guiado consta de los siguientes elementos de la interfaz de usuario:
 
 | Previsualización de interfaz | Elemento de la IU | Descripción |
 | --- | --- | --- |
