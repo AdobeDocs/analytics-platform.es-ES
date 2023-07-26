@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: f97572025d07d56d1fd699074228abe5d2a7b8a1
+source-git-commit: 558825dc4768372f232ddfb614442443c89e9a65
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 62%
+source-wordcount: '1539'
+ht-degree: 60%
 
 ---
 
@@ -56,9 +56,14 @@ Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta
    | **[!UICONTROL Etiquetas de ajustes]** | Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla.  Valor predeterminado = sin marcar. |
    | **[!UICONTROL Incluir instancias de repetición]** | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. <p>Esta opción está desactivada de forma predeterminada.</p> |
    | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a aquellas que comienzan/finalizan con la primera/última ocurrencia de una dimensión, un elemento o una métrica. Consulte la sección siguiente, [Ejemplo de escenario para &quot;limitar a la primera/última incidencia&quot;](#example-scenario-for-limit-to-firstlast-occurrence), para obtener una explicación más detallada. |
-   | **[!UICONTROL Número de columnas]** | El número de columnas que desee en el diagrama de flujo. |
-   | **[!UICONTROL Elementos expandidos por columna]** | El número de elementos que desea incluir en cada columna. |
+   | **[!UICONTROL Número de columnas]** | El número de columnas que desee en el diagrama de flujo. Puede especificar un máximo de 5 columnas. |
+   | **[!UICONTROL Elementos expandidos por columna]** | El número de elementos que desea incluir en cada columna. Puede especificar un máximo de 10 elementos expandidos por columna. |
    | **[!UICONTROL Contenedor de flujo]** | <ul><li>Visita</li><li>Visitante.</li></ul> Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
+
+   >[!IMPORTANT]
+   >
+   >La combinación de **[!UICONTROL Número de columnas]** y **[!UICONTROL Elementos expandidos por columna]** determine el número de solicitudes subyacentes necesarias para crear la visualización de flujo. Cuanto más altos sean esos números, más tardará en procesarse una visualización.
+
 
 1. Seleccionar **[!UICONTROL Generar]**.
 
@@ -67,6 +72,7 @@ Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta
 >**Ejemplo:** Supongamos que desea rastrear la ruta que tomaron los usuarios tanto hacia como desde las páginas más populares del sitio.
 >
 >Para ello, debe hacer lo siguiente
+>
 >1. Comience a crear una visualización de flujo como se ha descrito anteriormente.
 >1. Arrastre el [!UICONTROL **Página**] dimensión en la **[!UICONTROL Contains]** , luego seleccione [!UICONTROL **Generar**].
 >1. La visualización de flujo se genera con la página más vista visible en el nodo de enfoque en el centro de la visualización. También verá las páginas principales que llevan a esa página (a la izquierda del nodo de enfoque), así como las páginas principales que llevan a esa página de enfoque (a la derecha del nodo de enfoque).
