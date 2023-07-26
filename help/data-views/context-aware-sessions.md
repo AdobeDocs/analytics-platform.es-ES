@@ -3,7 +3,7 @@ title: Sesiones según el contexto
 description: Configuración en una vista de datos que puede utilizar para definir sesiones según el contexto.
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 6235fbb128098e2a624d5fd4fd72c2c583cfd277
+source-git-commit: 5e4bf2985a0ec75cc0120e2a9549d720077cd5cc
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
