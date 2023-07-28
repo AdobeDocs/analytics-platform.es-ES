@@ -2,10 +2,10 @@
 title: Vista de tendencias de conversión
 description: Rastree los cambios en la tasa de conversión a lo largo del tiempo.
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+source-git-commit: 9c46c945bf98cff807773e1f1f795e30a28f203b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
 
@@ -37,6 +37,10 @@ La vista Tendencias de conversión ofrece la siguiente configuración de gráfic
 * **[!UICONTROL Métrica]**: La métrica que desea medir. Las opciones incluyen Sesiones y Usuarios.
 * **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen Línea.
 * **[!UICONTROL Conversión de]**: Determina el cálculo de porcentaje de paso a paso. Las opciones incluyen el cálculo de la conversión desde el primer paso o el paso anterior.
+
+>[!NOTE]
+>
+>El **Media** de la tabla de vista Tendencias de conversión difiere de la columna **Total** en la columna [Vista de fricción](friction.md) tabla. La primera es una media de las columnas de intervalo (por ejemplo, la media de las tasas de conversión diarias), mientras que la segunda es un cálculo agregado en todo el intervalo de fechas.
 
 ## Aplicar comparación de tiempo
 
