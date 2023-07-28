@@ -3,16 +3,18 @@ title: Elemento de dimensión Resultados truncados
 description: Explica el elemento de dimensión "Resultados truncados" y por qué aparece en los informes.
 feature: FAQ
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-source-git-commit: cf3c451cbefa7d6f9d5ea326c69fc2e5944881ff
+source-git-commit: f0fa126a23e6c99f89db82c91c98b6628d43a983
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 13%
+source-wordcount: '598'
+ht-degree: 12%
 
 ---
 
 # Elemento de dimensión Resultados truncados
 
-Cuando se utiliza una dimensión que contiene muchos valores únicos, un informe puede devolver un elemento de dimensión etiquetado como **[!UICONTROL Resultados truncados]**. Este elemento de dimensión significa que el informe solicitado contenía demasiados valores únicos para que se procese de forma eficaz. Como resultado, elimina los elementos que se consideran menos importantes.
+Cuando se utiliza una dimensión que contiene muchos valores únicos, los resultados del informe pueden ser demasiado grandes para procesarlos.  Para evitar ralentizaciones en todo el sistema, los resultados se truncan eliminando los elementos que se consideran menos importantes.  Esto se indica en un panel de forma libre añadiendo las palabras &quot;más que&quot; en el indicador de paginación, por ejemplo, &quot;Filas: 1-400 de más de 9 819 653&quot;.
+
+En algunos casos, como la ordenación por una métrica calculada, es imposible saber qué elementos de dimensión son los menos importantes.  Cuando esto sucede, se coloca un icono de advertencia en la métrica calculada que explica este problema y al que se vincula [cierta documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/dimensions/high-cardinality.html?lang=en).
 
 ## Arquitectura de procesamiento y valores únicos Customer Journey Analytics
 
@@ -22,7 +24,7 @@ Si algún servidor individual agrega un conjunto de resultados que supera un umb
 
 El servidor elige qué elementos de dimensión se descartan en función de la métrica que se utiliza para ordenar. Si la métrica de clasificación es una métrica calculada, el servidor utiliza métricas dentro de la métrica calculada para determinar qué elementos de dimensión se truncan. Dado que las métricas calculadas pueden contener varias métricas de importancia variable, los resultados pueden ser menos precisos. Por ejemplo, al calcular &quot;Ingresos por persona&quot;, la cantidad total de ingresos y el número total de personas se devuelven y se agregan antes de realizar la división. Como resultado, cada nodo elige qué elementos quitar sin saber cómo afectan sus resultados a la ordenación general.
 
-## Diferencias entre &quot;Resultados truncados&quot; y &quot;Poco tráfico&quot;
+## Diferencias con respecto a &quot;Poco tráfico&quot;
 
 En versiones anteriores de Adobe Analytics, se utilizaba una arquitectura de procesamiento diferente. Los datos se procesaban en el momento en que se recopilaron. Los elementos Dimension se colocaban en Bajo tráfico después de que una dimensión alcanzara 500 000 valores únicos y aplicara un filtrado más agresivo con un millón de valores únicos. El recuento &quot;Valor único&quot; se restablecía al principio de cada mes natural. Los datos procesados eran permanentes; no había forma de sacar los datos existentes de Bajo tráfico.
 
