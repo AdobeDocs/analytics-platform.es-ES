@@ -3,7 +3,7 @@ title: Información general sobre el análisis guiado
 description: Un método de análisis de datos en Customer Journey Analytics que permite a los equipos de productos obtener información de alta calidad rápidamente. También se denomina Product Analytics.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: f1eb7eefb84054c37a04dd1535f30e3e5130e019
+source-git-commit: bf34b4e1a7c1e28cbaae98e61492901b1d143e3e
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 7%
@@ -27,7 +27,7 @@ El análisis guiado clasifica los tipos de vista en **Tipos de análisis**. Est�
 | [!UICONTROL Canal] | [Fricción](types/friction.md) | Comparar tasas de conversión entre los pasos. |
 | [!UICONTROL Canal] | [Tendencias de conversión](types/conversion-trends.md) | Realizar un seguimiento de los cambios en las tasas de conversión a lo largo del tiempo. |
 | [!UICONTROL Crecimiento de usuarios] | [Activo](types/active.md) | Identifique quién es nuevo, retenido, que regresa o está inactivo. |
-| [!UICONTROL Crecimiento neto] | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
+| [!UICONTROL Crecimiento de usuarios] | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
 | [!UICONTROL Tendencias] | [Uso](types/usage.md) | Medir la participación del usuario a lo largo del tiempo. |
 
 {style="table-layout:auto"}
