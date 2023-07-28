@@ -2,9 +2,9 @@
 title: Casos de uso del sector
 description: Casos de uso del sector para un análisis guiado
 feature: Guided Analysis
-source-git-commit: 99cd8847ec7e35e71e17ae9f69605bfcb00f2882
+source-git-commit: 81ac3476be983ac5d2c7b19abeb618266f3148da
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1485'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,7 @@ Los casos de uso para el análisis guiado variarán según el sector. Esta pági
 
 | Caso de uso | Ejemplo | Impacto | Analysis |
 | --- | --- | --- | --- |
+| **Cuantificar el impacto de los nuevos programas o series** | Podríamos analizar el efecto en la audiencia después de que los usuarios vean un nuevo programa o serie y comprender mejor qué contenido está resonando. | **Aumentar audiencia.** Encuentre el contenido que tenga un mayor impacto en la audiencia. | [Vista de primer uso](types/first-use.md) |
 | **Identificar riesgo de pérdida** | Vimos una alta tasa de rotación de clientes que se inscribieron en nuestra plataforma para ver un evento de temporada y luego cancelaron tan pronto como el evento terminó. Al identificar rápidamente a estos usuarios, podemos mostrarles recomendaciones que les animen a seguir participando en la plataforma. | **Conservar suscriptores satisfechos.** Encuentre contenido que involucre a un segmento de crecimiento para que intervenga con recomendaciones. | [Vista de crecimiento activo del usuario](types/active.md) <p/><p/> [Vista de crecimiento neto](types/net-growth.md) |
 | **Buscar oportunidades de ampliación de venta** | La clave del crecimiento de nuestros ingresos es poder entender qué ofertas en la aplicación son más atractivas para nuestros fans mientras están en el estadio. | **Aumentar los ingresos complementarios.** Comprenda el impacto de las ofertas en la aplicación en los comportamientos de compra. | [Vista de primer uso](types/first-use.md) <p/><p/> [Vista de fricción](types/friction.md) |
 | **Optimización de la experiencia entre dispositivos** | Quiero poder analizar cómo interactúan mis suscriptores con varios dispositivos/aplicaciones para poder comprender los patrones de consumo de contenido y determinar dónde sería mejor redirigirme a ellos. | **Personalice la experiencia.** Comprenda qué contenido resuena mejor con los suscriptores de cada dispositivo. | [Vista de tendencias de uso](types/usage.md) |
