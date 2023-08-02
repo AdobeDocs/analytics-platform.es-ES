@@ -4,10 +4,10 @@ description: Explicar cómo ingerir datos de Adobe Analytics tradicional
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 95%
+source-wordcount: '1159'
+ht-degree: 86%
 
 ---
 
@@ -27,9 +27,9 @@ En esta guía de inicio rápido se explica cómo utilizar los datos recopilados 
 
 Para lograrlo, debe llevar a cabo lo siguiente:
 
-- **Configurar un conector de origen de Adobe Analytics** en Adobe Experience Platform. Esto se encarga de la ingestión de los datos actuales de Adobe Analytics en un conjunto de datos en Adobe Experience Platform.
+- **Configurar un conector de origen de Adobe Analytics** en Adobe Experience Platform. El conector de origen se encarga de la ingesta de los datos actuales de Adobe Analytics en un conjunto de datos en Adobe Experience Platform.
 
-- **Configurar una conexión** en Customer Journey Analytics. Esta conexión debe incluir (al menos) su conjunto de datos de Adobe Experience Platform.
+- **Configurar una conexión** en Customer Journey Analytics. La conexión debe incluir (al menos) su conjunto de datos de Adobe Experience Platform.
 
 - **Configurar una vista de datos** en Customer Journey Analytics para definir las métricas y las dimensiones que desea utilizar en Analysis Workspace.
 
@@ -38,7 +38,7 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 >[!NOTE]
 >
->Se trata de una guía simplificada sobre cómo ingerir datos mediante el conector de origen de Adobe Analytics, y utilizar estos datos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos mediante el conector de origen de Adobe Analytics y utilizar esos datos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 
 ## Configurar un conector de origen de Adobe Analytics
@@ -78,7 +78,7 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
    ![Consulte](./assets/review.png)
 
 
-Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics de su grupo de informes, incluida la ingesta de hasta 13 meses de datos históricos para las zonas protegidas de producción. (Tenga en cuenta que a partir del 26 de abril de 2023, el relleno en zonas protegidas que no sean de producción estará limitado a 3 meses).
+Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes. El flujo de datos ingiere hasta 13 meses de datos históricos para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.
 
 Cuando termina la ingesta inicial, los datos del grupo de informes de Adobe Analytics están listos para que los use Customer Journey Analytics.
 
@@ -192,7 +192,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] del [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel] . Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 

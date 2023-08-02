@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '971'
 ht-degree: 82%
 
 ---
@@ -53,7 +53,10 @@ ht-degree: 82%
    + [Información general sobre la ingesta de datos](../data-ingestion/data-ingestion.md)
    + Guías de inicio rápido de ingesta y uso{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + [SDK web de Adobe Experience Platform y Edge Network](../data-ingestion/aepwebsdk.md)
+      + Adobe Experience Platform Edge Network {#edge-network}
+         + [SDK web](../data-ingestion/aepwebsdk.md)
+         + [SDK móvil](../data-ingestion/aepmobilesdk.md)
+         + [API de servidor](../data-ingestion/serverapi.md)
       + [Datos por lotes](../data-ingestion/batch.md)
       + [Datos de streaming](../data-ingestion/streaming.md)
       + [Conectores de origen](../data-ingestion/sources.md)

@@ -4,10 +4,10 @@ description: Explicar cómo ingerir y utilizar datos de streaming en Customer Jo
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 100%
+source-wordcount: '2000'
+ht-degree: 88%
 
 ---
 
@@ -30,20 +30,20 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 >[!NOTE]
 >
->Esta es una guía simplificada sobre cómo ingerir datos de streaming en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos de flujo continuo en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 ## Configurar un esquema y un conjunto de datos
 
-Para ingerir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
+Para introducir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
 
-Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos (normalmente una tabla) que contiene un esquema (columnas) y campos (filas).
 
 Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema predefinido para que se puedan conservar como conjunto de datos.
 
 ### Configurar un esquema
 
 Para este inicio rápido, debe recopilar algunos datos de fidelidad, como el ID de fidelidad, los puntos de fidelidad y el estado de fidelidad.
-Para ello, primero debe definir un esquema que modele estos datos.
+Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
 
@@ -90,7 +90,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identifcation-loyalty-field.png)
 
-   Esto añade capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico en los datos por lotes.
+   Este objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico en los datos por lotes.
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -122,7 +122,7 @@ Consulte [Crear y editar esquemas en la interfaz de usuario](https://experiencel
 
 ### Configurar un conjunto de datos
 
-Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos. Esto se realiza mediante conjuntos de datos.
+Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos, lo que se hace a través de conjuntos de datos.
 
 Para configurar un conjunto de datos:
 
@@ -183,7 +183,7 @@ La aplicación de origen transmite datos que se ajustan, y que tienen un aspecto
 }
 ```
 
-Para transmitir estos datos al conjunto de datos que ha creado, debe definir un punto final de streaming al que se enviarán esos datos. Para ello, debe definir un conector de origen de API HTTP.
+Para transmitir estos datos al conjunto de datos que ha creado, debe definir un extremo de flujo continuo al que se enviarán los datos. Se crea un extremo de flujo continuo mediante un conector de origen de API HTTP.
 
 Para crear un conector de origen de API HTTP, debe hacer lo siguiente:
 
@@ -227,7 +227,11 @@ Para crear un conector de origen de API HTTP, debe hacer lo siguiente:
 
 Puede copiar la URL del punto final de streaming y utilizarla para configurar la aplicación de fidelidad para que transmita datos al conjunto de datos de fidelidad de Adobe Experience Platform.
 
-Consulte [Creación de una conexión de streaming de API HTTP mediante la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=es) para ver un tutorial mucho más completo que explica cómo utilizar la autenticación, cómo asignar datos cuando los datos entrantes no son compatibles con el esquema XDM y cómo crear un nuevo conjunto de datos como parte de la configuración del conector de streaming.
+Consulte [Creación de una conexión de flujo continuo de API HTTP mediante la IU](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=es) para ver un tutorial mucho más completo que explica lo siguiente:
+
+- cómo utilizar la autenticación,
+- Obtenga información sobre cómo asignar datos cuando los datos entrantes no sean compatibles con el esquema XDM.
+- cómo crear un conjunto de datos como parte de la configuración del conector de flujo continuo.
 
 
 ## Configurar una conexión
@@ -337,7 +341,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] del [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel] . Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 

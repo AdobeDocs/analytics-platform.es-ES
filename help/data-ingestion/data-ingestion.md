@@ -4,16 +4,16 @@ description: Comprender las distintas formas de ingerir datos en Customer Journe
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 92%
+source-wordcount: '624'
+ht-degree: 90%
 
 ---
 
 # Información general sobre la ingesta de datos
 
-Tiene varias opciones de ingesta de datos en Customer Journey Analytics. En algunas de ellas se presupone que desea mover los datos tradicionales de Adobe Analytics, en otras se presupone que utiliza datos ingeridos en Adobe Experience Platform.
+Tiene varias opciones al ingerir datos en Customer Journey Analytics. En algunas de ellas se presupone que desea mover los datos tradicionales de Adobe Analytics, en otras se presupone que utiliza datos ingeridos en Adobe Experience Platform.
 
 >[!IMPORTANT]
 >

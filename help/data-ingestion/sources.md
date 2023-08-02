@@ -4,10 +4,10 @@ description: Explicar cómo ingerir y utilizar datos mediante conectores de orig
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 100%
+source-wordcount: '1954'
+ht-degree: 90%
 
 ---
 
@@ -31,21 +31,21 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 >[!NOTE]
 >
->Esta es una guía simplificada sobre cómo ingerir datos mediante un conector de origen en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos mediante un conector de origen en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 
 ## Configurar un esquema y un conjunto de datos
 
-Para ingerir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
+Para introducir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. El modelo de datos de experiencia (XDM) es el marco de trabajo estándar que proporciona la estructura en forma de esquemas.
 
-Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos (normalmente una tabla) que contiene un esquema (columnas) y campos (filas).
 
 Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema predefinido para que se puedan conservar como conjunto de datos.
 
 ### Configurar un esquema
 
 Para este inicio rápido, debe recopilar algunos datos de fidelidad, como el ID de fidelidad, los puntos de fidelidad y el estado de fidelidad.
-Para ello, primero debe definir un esquema que modele estos datos.
+Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
 
@@ -92,7 +92,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identifcation-loyalty-field.png)
 
-   Esto añade capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico en los datos por lotes.
+   Este objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico en los datos por lotes.
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -124,7 +124,7 @@ Consulte [Crear y editar esquemas en la interfaz de usuario](https://experiencel
 
 ### Configurar un conjunto de datos
 
-Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos. Esto se realiza mediante conjuntos de datos.
+Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos, lo que se hace a través de conjuntos de datos.
 
 Para configurar un conjunto de datos:
 
@@ -173,7 +173,7 @@ Para configurar un conector de origen, debe hacer lo siguiente:
 
    - **[!UICONTROL Seleccionar datos]**: seleccione los datos de origen que quiera ingerir.
 
-   - **[!UICONTROL Detalles de flujo de datos]**: se proporcionan detalles adicionales sobre el flujo de datos, es decir, el nombre y qué conjunto de datos se debe utilizar.
+   - **[!UICONTROL Detalles del flujo de datos]**: Proporciona detalles adicionales sobre el flujo de datos, por ejemplo el nombre y el conjunto de datos que se va a utilizar.
 
    - **[!UICONTROL Asignación]**: los campos de datos de origen entrantes se asignan a atributos del esquema asociado al conjunto de datos seleccionado.
 
@@ -305,7 +305,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] del [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel] . Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 

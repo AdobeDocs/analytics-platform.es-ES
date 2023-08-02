@@ -4,10 +4,10 @@ description: Explicar cómo ingerir y utilizar datos por lotes en Customer Journ
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 100%
+source-wordcount: '1953'
+ht-degree: 91%
 
 ---
 
@@ -29,20 +29,20 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 >[!NOTE]
 >
->Esta es una guía simplificada sobre cómo ingerir datos por lotes en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos por lotes en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 ## Configurar un esquema y un conjunto de datos
 
 Para ingerir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
 
-Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos (normalmente una tabla) que contiene un esquema (columnas) y campos (filas).
 
 Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema predefinido para que se puedan conservar como conjunto de datos.
 
 ### Configurar un esquema
 
 Para este inicio rápido, debe recopilar algunos datos de fidelidad, como el ID de fidelidad, los puntos de fidelidad y el estado de fidelidad.
-Para ello, primero debe definir un esquema que modele estos datos.
+Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
 
@@ -89,7 +89,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identifcation-loyalty-field.png)
 
-   Esto añade capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico de los datos por lotes.
+   El objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico de los datos por lotes.
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -123,7 +123,7 @@ Consulte [Crear y editar esquemas en la interfaz de usuario](https://experiencel
 
 ### Configurar un conjunto de datos
 
-Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos. Esto se realiza mediante conjuntos de datos.
+Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos, lo que se hace a través de conjuntos de datos.
 
 Para configurar un conjunto de datos:
 
@@ -151,7 +151,7 @@ Para configurar un conjunto de datos:
 
    >[!IMPORTANT]
    >
-   >    Solo puede habilitar un conjunto de datos para un perfil cuando el esquema, al que se adhiere el conjunto de datos, también esté habilitado para el perfil.
+   >Solo puede habilitar un conjunto de datos para un perfil cuando el esquema, al que se adhiere el conjunto de datos, también esté habilitado para el perfil.
 
    ![Habilitar esquema para perfil](./assets/loyalty-dataset-profile.png)
 
@@ -208,7 +208,12 @@ Para utilizar flujos de trabajo, debe hacer lo siguiente:
 
 6. Seleccione **[!UICONTROL Finalizar]** para empezar a ingerir los datos por lotes en Adobe Experience Platform.
 
-Consulte [Asignar un archivo CSV sobre un esquema XDM existente](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html?lang=es) para obtener más información sobre cómo asignar datos cuando los datos entrantes no son compatibles con el esquema XDM, utilizar plantillas de asignación, utilizar el campo calculado para asegurarse de que los datos por lotes se ajustan a la expectativas del esquema, etc.
+Consulte [Asignar un archivo CSV a un esquema XDM existente](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html?lang=es) para obtener más información sobre:
+
+- Obtenga información sobre cómo asignar datos cuando los datos entrantes no sean compatibles con el esquema XDM.
+- utilizar plantillas de asignación,
+- utilice campos calculados para asegurarse de que los datos por lotes se ajustan a lo que espera el esquema.
+- y más.
 
 
 ## Configurar una conexión
@@ -318,7 +323,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] del [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel]. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 

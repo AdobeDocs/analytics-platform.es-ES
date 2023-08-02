@@ -1,17 +1,17 @@
 ---
-title: Ingesta de datos mediante el SDK web de Adobe Experience Platform y Edge Network
+title: Ingesta de datos mediante el SDK web de Adobe Experience Platform
 description: Explicar cómo ingerir datos en Customer Journey Analytics mediante el SDK web de Adobe Experience Platform y Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 662e9645cdb4b67f364525167e5191a52c474864
 workflow-type: tm+mt
-source-wordcount: '3587'
-ht-degree: 98%
+source-wordcount: '3580'
+ht-degree: 87%
 
 ---
 
-# Ingesta de datos mediante el SDK web de Adobe Experience Platform y Edge Network
+# Ingesta de datos mediante el SDK web de Adobe Experience Platform
 
 Esta guía de inicio rápido explica cómo puede ingerir datos de seguimiento de sitios web directamente en Adobe Experience Platform mediante el SDK web de Adobe Experience Platform y Edge Network y, a continuación, utilizar esos datos en Customer Journey Analytics.
 
@@ -33,21 +33,21 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 >[!NOTE]
 >
->Esta es una guía simplificada sobre cómo ingerir datos recopilados de su sitio en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+> Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos recopilados del sitio en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 
 ## Configurar un esquema y un conjunto de datos
 
-Para ingerir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
+Para introducir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
 
-Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
+Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos (normalmente una tabla) que contiene un esquema (columnas) y campos (filas).
 
 Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema predefinido para que se puedan conservar como conjunto de datos.
 
 ### Configurar un esquema
 
 Desea rastrear algunos datos mínimos de los perfiles que visitan el sitio web como, por ejemplo, el nombre de la página o la identificación.
-Para ello, primero debe definir un esquema que modele estos datos.
+Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
 
@@ -94,7 +94,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identification-field.png)
 
-   Esto añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante el Experience Cloud ID y la dirección de correo electrónico. Hay muchos otros atributos disponibles para rastrear la identificación de su persona (por ejemplo, ID de cliente, ID de fidelidad).
+   El objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante el Experience Cloud ID y la dirección de correo electrónico. Hay muchos otros atributos disponibles para rastrear la identificación de su persona (por ejemplo, ID de cliente, ID de fidelidad).
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -142,7 +142,7 @@ Para capturar estos datos de perfil, debe hacer lo siguiente:
 
 - Agregar un objeto de identificación basado en el grupo de campos Profile Core v2.
 
-- Definir ECID como identificador principal y el correo electrónico como identificador.
+- Defina el ID de Experience Cloud como identificador principal y el correo electrónico como identificador.
 
 - Habilitar el esquema para el perfil
 
@@ -150,7 +150,7 @@ Consulte [Crear y editar esquemas en la interfaz de usuario](https://experiencel
 
 ### Configurar un conjunto de datos
 
-Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos. Esto se realiza mediante conjuntos de datos.
+Con el esquema, ha definido el modelo de datos. Ahora tiene que definir la construcción para almacenar y administrar esos datos, lo que se hace a través de conjuntos de datos.
 
 Para configurar un conjunto de datos:
 
@@ -186,7 +186,7 @@ Consulte [Guía de la interfaz de usuario de conjuntos de datos](https://experie
 
 ## Configurar una secuencia de datos
 
-Una secuencia de datos representa la configuración del lado del servidor al implementar los SDK web y móvil de Adobe Experience Platform. Al recopilar datos con los SDK de Adobe Experience Platform, los datos se envían a Adobe Experience Platform Edge Network. Es la secuencia de datos lo que determina a qué servicios se reenvían los datos.
+Una secuencia de datos representa la configuración del lado del servidor al implementar los SDK web y móvil de Adobe Experience Platform. Al recopilar datos con los SDK de Adobe Experience Platform, los datos se envían a Adobe Experience Platform Edge Network. Es la secuencia de datos la que determina a qué servicios se reenvían los datos.
 
 En la configuración, quiere que los datos recopilados del sitio web se envíen a su conjunto de datos en Adobe Experience Platform.
 
@@ -218,13 +218,13 @@ Para configurar la secuencia de datos, debe hacer lo siguiente:
 
 La secuencia de datos ya está configurada para reenviar los datos recopilados de su sitio web a su conjunto de datos en Adobe Experience Platform.
 
-Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
+Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=es) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
 
 
 
 ## Usar etiquetas
 
-Utilice la función Etiquetas de Adobe Experience Platform a fin de implementar código en el sitio para recopilar datos. Esta solución de administración de etiquetas le permite implementar código de junto con otros requisitos de etiquetado. Las etiquetas ofrecen una integración perfecta con Adobe Experience Platform mediante la extensión del SDK web de Adobe Experience Platform.
+Para implementar código en el sitio para recopilar datos, use la función Etiquetas en Adobe Experience Platform Esta solución de administración de etiquetas le permite implementar código de junto con otros requisitos de etiquetado. Las etiquetas ofrecen una integración perfecta con Adobe Experience Platform mediante la extensión del SDK web de Adobe Experience Platform.
 
 ### Crear una etiqueta
 
@@ -238,14 +238,14 @@ Utilice la función Etiquetas de Adobe Experience Platform a fin de implementar 
 
 ### Configurar una etiqueta
 
-Después de crear la etiqueta, debe configurarla con las extensiones correctas y configurar los elementos de datos y las reglas según cómo quiera rastrear el sitio y enviar datos a Adobe Experience Platform.
+Después de crear la etiqueta, debe configurarla con las extensiones correctas y configurar los elementos de datos y las reglas según cómo desee rastrear el sitio y enviar datos a Adobe Experience Platform.
 
 Seleccione la etiqueta recién creada de la lista de [!UICONTROL Propiedades de la etiqueta] para abrirla.
 
 
 #### **Extensiones**
 
-Añada la extensión del SDK web de Adobe Experience Platform a la etiqueta para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de la secuencia de datos).
+Para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos), agregue la extensión SDK para web de Adobe Platform a la etiqueta.
 
 Para crear y configurar la extensión del SDK web de Adobe Experience Platform, debe hacer lo siguiente:
 
@@ -263,7 +263,7 @@ Para crear y configurar la extensión del SDK web de Adobe Experience Platform, 
 
    Seleccione **[!UICONTROL Guardar]**.
 
-Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=es) para obtener más información.
+Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) para obtener más información.
 
 También desea configurar la extensión del servicio  de Experience Cloud ID para poder utilizar fácilmente el ID de Experience Cloud. El servicio de ID de Experience Cloud identifica a las personas en todas las soluciones de Adobe Experience Cloud.
 
@@ -405,7 +405,7 @@ Para definir una regla, debe hacer lo siguiente:
 
       - Seleccione el icono de cilindro situado junto a [!UICONTROL Datos XDM] y seleccione **[!UICONTROL XDM - Vista de página]** en la lista de elementos de datos.
 
-        ![Regla - Configuración de la acción](./assets/action-pageview-xdm.png)
+     ![Regla - Configuración de la acción](./assets/action-pageview-xdm.png)
 
       - Seleccione **[!UICONTROL Conservar cambios]**.
 
@@ -415,7 +415,7 @@ Para definir una regla, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Guardar]**.
 
-Este es solo un ejemplo de definición de una regla que envía datos XDM, que contienen valores de otros elementos de datos, a Adobe Experience Platform.
+Lo anterior es solo un ejemplo de definición de una regla que envía datos XDM, que contienen valores de otros elementos de datos, a Adobe Experience Platform.
 
 Puede utilizar las reglas de varias formas en la etiqueta para manipular las variables (mediante los elementos de datos).
 
@@ -423,7 +423,7 @@ Consulte [Reglas](https://experienceleague.adobe.com/docs/experience-platform/ta
 
 ### Compilar y publicar una etiqueta
 
-Después de haber definido elementos de datos y reglas, debe compilar y publicar la etiqueta. Al crear una compilación de biblioteca, debe asignarla a un entorno. Las extensiones, reglas y elementos de datos de la compilación se compilan y colocan en el entorno asignado. Cada entorno proporciona un código incrustado único que le permite integrar su compilación asignada en el sitio.
+Después de haber definido los elementos de datos y las reglas, debe generar y publicar la etiqueta. Al crear una compilación de biblioteca, debe asignarla a un entorno. Las extensiones, reglas y elementos de datos de la compilación se compilan y colocan en el entorno asignado. Cada entorno proporciona un código incrustado único que le permite integrar su compilación asignada en el sitio.
 
 Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
@@ -443,7 +443,7 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Guardar y compilar para desarrollo]**.
 
-   Esto guarda y compila la etiqueta para el entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
+   La etiqueta se guardará y se compilará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
 
 4. Puede seleccionar **[!UICONTROL ...]** para recompilar la biblioteca o moverla a un entorno de ensayo o producción.
 
@@ -456,7 +456,7 @@ Consulte la [Información general de la publicación](https://experienceleague.a
 
 ### Recuperar el código de una etiqueta
 
-Por último, debe instalar la etiqueta en el sitio web que quiera rastrear. Esto implica colocar el código en la etiqueta de encabezado de la plantilla de su sitio web.
+Finalmente, debe instalar la etiqueta en el sitio web que desee rastrear, lo que implica colocar un código en la etiqueta de encabezado de la plantilla del sitio web.
 
 Para obtener el código que hace referencia a la etiqueta, debe hacer lo siguiente:
 
@@ -466,8 +466,8 @@ Para obtener el código que hace referencia a la etiqueta, debe hacer lo siguien
 
    En el cuadro de diálogo [!UICONTROL Instrucciones de instalación en la web] seleccione el botón para copiar junto al código de script que debería ser parecido a:
 
-   ```javascript
-   <script src="https://assets.adobedtm.com/2a518741ab24/.../launch-...-development.min.js" async></script>
+   ```
+   <script src="https://assets.adobedtm.com/2a518741ab24/.../launch-...-development.min.js" async></script>>
    ```
 
    ![Entorno](./assets/environment.png)
@@ -591,7 +591,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] del [!UICONTROL Panel] para crear su primer informe. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel]. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 
@@ -599,4 +599,4 @@ Consulte [Información general de Analysis Workspace](../analysis-workspace/home
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Empezando por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform, ha configurado una secuencia de datos en Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, ha definido e implementado la etiqueta que contiene las extensiones (SDK web de Adobe Experience Platform, servicio de Experience Cloud ID), los elementos de datos y las reglas para capturar datos de su sitio web y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento del sitio web y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.
+>Ha completado todos los pasos. Comience por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform. A continuación, configuró una secuencia de datos en la red perimetral para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, ha definido e implementado la etiqueta que contiene las extensiones (SDK web de Adobe Experience Platform, servicio de Experience Cloud ID), los elementos de datos y las reglas para capturar datos de su sitio web y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento del sitio web y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.
