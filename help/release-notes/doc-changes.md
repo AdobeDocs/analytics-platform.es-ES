@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 89841edb40f8ac89a3142588fede383b87d246f9
+source-git-commit: c1b92c9f30dc96a6058a320df9fd66cd316b212f
 workflow-type: tm+mt
 source-wordcount: '2430'
 ht-degree: 93%
@@ -20,7 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Agosto de 2023** | |
-| Guías de inicio rápido de ingesta de datos para aplicaciones móviles y otras plataformas | Se han añadido guías de inicio rápido de ingesta de datos adicionales que describen cómo ingerir y utilizar datos de aplicaciones móviles u otras plataformas (como aplicaciones de escritorio, juegos en consolas, aplicaciones en descodificadores y dispositivos de IoT) en Customer Journey Analytics. [Más información](../data-ingestion/data-ingestion.md) |
+| Guías de inicio rápido de ingesta de datos para aplicaciones móviles y otras plataformas | Se han añadido guías de inicio rápido de ingesta de datos adicionales que describen cómo ingerir y utilizar datos de aplicaciones móviles u otras plataformas (como aplicaciones de escritorio, juegos en consolas, aplicaciones en decodificadores y dispositivos de IoT) en Customer Journey Analytics. [Más información](../data-ingestion/data-ingestion.md) |
 | **Julio de 2023** | |
 | Sesiones según el contexto | Se ha añadido un tema para esta configuración de vista de datos. [Más información](/help/data-views/context-aware-sessions.md) |
 | Adobe Product Analytics | Adobe Product Analytics es una nueva forma de interactuar con datos y perspectivas en canales múltiples en Customer Journey Analytics. Estas nuevas funciones permiten a los equipos de productos proporcionar datos y perspectivas sobre su experiencia con los productos a través de [análisis guiado](/help/guided-analysis/overview.md) flujos &#x200B; trabajo. |
