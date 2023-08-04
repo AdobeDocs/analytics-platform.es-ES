@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c1b92c9f30dc96a6058a320df9fd66cd316b212f
+source-git-commit: a08a237eadc3408e170d4a8b5a3e6d451c15efee
 workflow-type: tm+mt
-source-wordcount: '2430'
-ht-degree: 93%
+source-wordcount: '2485'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Agosto de 2023** | |
+| Compatibilidad con funciones de Adobe Customer Journey Analytics | Se ha añadido más información en la *Compatible de una nueva forma* sobre las capacidades de creación de sesiones en Customer Journey Analytics en comparación con Adobe Analytics. [Más información](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
+| Evolución desde Adobe Analytics | Se ha actualizado el *(Re)Configuración De Canales De Marketing* con una referencia a la plantilla de función Canales de marketing de campos derivados. [Más información](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Guías de inicio rápido de ingesta de datos para aplicaciones móviles y otras plataformas | Se han añadido guías de inicio rápido de ingesta de datos adicionales que describen cómo ingerir y utilizar datos de aplicaciones móviles u otras plataformas (como aplicaciones de escritorio, juegos en consolas, aplicaciones en decodificadores y dispositivos de IoT) en Customer Journey Analytics. [Más información](../data-ingestion/data-ingestion.md) |
 | **Julio de 2023** | |
 | Sesiones según el contexto | Se ha añadido un tema para esta configuración de vista de datos. [Más información](/help/data-views/context-aware-sessions.md) |
