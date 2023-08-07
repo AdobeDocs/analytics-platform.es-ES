@@ -4,10 +4,10 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: bf700355597760b36441864de36f460b5996a1fe
 workflow-type: tm+mt
 source-wordcount: '1960'
-ht-degree: 46%
+ht-degree: 36%
 
 ---
 
@@ -48,13 +48,13 @@ Puede compartir una función específica con usuarios o grupos, o bien compartir
 
 Cuando comparta una función de proyecto específica con usuarios y grupos de su organización, tenga en cuenta lo siguiente:
 
-* Funciones de proyecto (**[!UICONTROL puede editar]**, **[!UICONTROL puede duplicar]** y **[!UICONTROL puede ver]**) están vinculados al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en la [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
+* Funciones del proyecto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar copia]**, y **[!UICONTROL Solo lectura]**) están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en la [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
 
 * En Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es). Los administradores pueden compartir con cualquier grupo, incluido “Todos”. Los no administradores pueden compartir con los grupos de los que son miembros, excepto con el grupo “Todos”.
 
-* El usuario que desempeña varias funciones siempre obtiene la mayor experiencia. Esto puede ocurrir si se agrega un destinatario como individuo y además, como parte de un grupo. Por ejemplo, si a un destinatario se le asigna la función **[!UICONTROL Puede editar]** como individuo y **[!UICONTROL Puede ver]** como miembro de un grupo, recibirá una experiencia **[!UICONTROL Puede editar]** en el proyecto.
+* El usuario que desempeña varias funciones siempre obtiene la mayor experiencia. Esto puede ocurrir si se agrega un destinatario como individuo y además, como parte de un grupo. Por ejemplo, si a un usuario se le **[!UICONTROL Editar original]** función como individuo y la función **[!UICONTROL Solo lectura]** función como miembro de un grupo, recibirá una **[!UICONTROL Editar original]** experiencia del proyecto.
 
-* Los administradores con una función **[!UICONTROL Puede duplicar]** o **[!UICONTROL Puede ver]** recibirán esas experiencias limitadas cuando abran un proyecto. Un administrador puede cambiar su función a **[!UICONTROL Puede editar]** compartiendo el proyecto con ellos mismos y otorgando la función Editar, tal como se describe en el siguiente procedimiento.
+* Administradores ubicados en **[!UICONTROL Editar copia]** o **[!UICONTROL Solo lectura]** función recibe esas experiencias limitadas cuando abre un proyecto. Un administrador puede cambiar su función a **[!UICONTROL Editar original]** compartiendo el proyecto con ellos mismos y otorgando la función Editar, tal como se describe en el siguiente procedimiento.
 
 Para compartir una función de proyecto específica con usuarios o grupos de su organización, haga lo siguiente:
 
@@ -67,11 +67,11 @@ Si hay cambios sin guardar, se le pedirá primero que guarde el proyecto.
 
 1. Añada destinatarios o grupos de destinatarios en uno de los campos de función proporcionados:
 
-   **Puede editar:** los destinatarios pueden **[!UICONTROL Guardar]** los cambios en un proyecto y en una funcionalidad como copropietarios. Esta función resulta útil si desea administrar un proyecto conjuntamente con otros compañeros. Esto incluye editar, eliminar y modificar listas de destinatario para un proyecto compartido. <br>Nota: Actualmente, Analysis Workspace no admite la colaboración en tiempo real, por lo que se recomienda que solo un usuario edite un proyecto a la vez. Si los proyectos se guardan al mismo tiempo, se conservará la última versión.
+   **Editar original:** Los destinatarios pueden **[!UICONTROL Guardar]** cambia a un proyecto y funciona como copropietarios. Esta función resulta útil si desea administrar un proyecto conjuntamente con otros compañeros. Esto incluye editar, eliminar y modificar listas de destinatario para un proyecto compartido. <br>Nota: Actualmente, Analysis Workspace no admite la colaboración en tiempo real, por lo que se recomienda que solo un usuario edite un proyecto a la vez. Si los proyectos se guardan al mismo tiempo, se conservará la última versión.
 
-   **Puede duplicar:** los destinatarios pueden **[!UICONTROL Guardar como]** y acceder al carril izquierdo. Las interacciones del proyecto no están limitadas en esta función. Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que el proyecto se modifique.
+   **Editar copia:** Los destinatarios pueden **[!UICONTROL Guardar como]** y tienen acceso al carril izquierdo. Las interacciones del proyecto no están limitadas en esta función. Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que el proyecto se modifique.
 
-   **Puede ver:** los destinatarios no pueden **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]** y no tienen acceso al carril izquierdo. Las interacciones del proyecto también están limitadas. Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con el Customer Journey Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro. Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analysis-workspace/curate-share/view-only-projects.md).
+   **Solo lectura:** Los destinatarios no pueden **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]** y no tienen acceso al carril izquierdo. Las interacciones del proyecto también están limitadas. Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con el Customer Journey Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro. Obtenga más información acerca de [Experiencia del proyecto de solo lectura](/help/analysis-workspace/curate-share/view-only-projects.md).
 
 1. Elija si desea habilitar las siguientes opciones al compartir el proyecto:
 
@@ -91,7 +91,7 @@ Cuando comparta un vínculo como se describe en esta sección, tenga en cuenta l
 
 * Los destinatarios que utilicen el vínculo deben iniciar sesión en Customer Journey Analytics antes de obtener acceso al proyecto.
 
-* Si a un destinatario no se le asigna una función y recibe un [vínculo](/help/analysis-workspace/curate-share/shareable-links.md) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función predeterminada. Los administradores reciben **[!UICONTROL Puede editar]** y los usuarios que no son administradores reciben **[!UICONTROL Se puede duplicar]**.
+* Si a un destinatario no se le asigna una función y recibe un [vínculo](/help/analysis-workspace/curate-share/shareable-links.md) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función predeterminada. Los administradores reciben **[!UICONTROL Editar original]** y los usuarios que no son administradores reciben **[!UICONTROL Editar copia]**.
 
 Para compartir el vínculo del proyecto con los usuarios de su organización, haga lo siguiente:
 
@@ -196,6 +196,6 @@ A continuación se muestra un vídeo sobre este tema:
 | Pregunta | Respuesta |
 |---|---|
 | ¿Qué sucede si dos editores guardan un proyecto al mismo tiempo? | Los cambios no se combinan y se conservará la última versión guardada del proyecto. Actualmente, Analysis Workspace no admite la colaboración en tiempo real. |
-| Como administrador, ¿qué experiencia de proyecto veré? | Los administradores con una función **[!UICONTROL Puede duplicar]** o **[!UICONTROL Puede ver]** recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función a **[!UICONTROL Puede editar]** en cualquier momento mediante **[!UICONTROL Componentes] > [!UICONTROL Proyectos]**. |
-| ¿Qué sucede si un destinatario se coloca en una función como individuo y otra como miembro de un grupo? | Si un destinatario se coloca en varias funciones, siempre recibirá la experiencia más alta. Por ejemplo, si a un destinatario se le asigna la función **[!UICONTROL Puede editar]** como individuo y la función **[!UICONTROL Puede ver]** como miembro de un grupo, recibirá una experiencia **[!UICONTROL Puede editar]** en el proyecto. |
-| ¿Qué experiencia obtiene un destinatario si abre un vínculo de proyecto? | Los Destinatarios reciben la función que les ha asignado en el modal de uso compartido. Si un destinatario no tiene asignada una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**, luego seleccione **[!UICONTROL Copiar]** junto al **[!UICONTROL Compartir mediante vínculo]** ), se les asignará una función de forma predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]**, y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. |
+| Como administrador, ¿qué experiencia de proyecto veré? | Administradores ubicados en un **[!UICONTROL Editar copia]** o **[!UICONTROL Solo lectura]** Esta función recibirá esas experiencias limitadas cuando abra un proyecto. Si lo desea, un administrador puede aumentar su función a **[!UICONTROL Editar original]** en cualquier momento mediante **[!UICONTROL Componentes] > [!UICONTROL Proyectos]**. |
+| ¿Qué sucede si un destinatario se coloca en una función como individuo y otra como miembro de un grupo? | Si un destinatario se coloca en varias funciones, siempre recibirá la experiencia más alta. Por ejemplo, si a un destinatario se le asigna la variable **[!UICONTROL Editar original]** función como individuo y la función **[!UICONTROL Puede ver]** función como miembro de un grupo, recibirá una **[!UICONTROL Editar original]** experiencia del proyecto. |
+| ¿Qué experiencia obtiene un destinatario si abre un vínculo de proyecto? | Los Destinatarios reciben la función que les ha asignado en el modal de uso compartido. Si un destinatario no tiene asignada una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**, luego seleccione **[!UICONTROL Copiar]** junto al **[!UICONTROL Compartir mediante vínculo]** ), se les asignará una función de forma predeterminada. Los administradores reciben **[!UICONTROL Editar original]** y Los usuarios que no son administradores reciben **[!UICONTROL Editar copia]**. |
