@@ -8,37 +8,37 @@ exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1480'
-ht-degree: 73%
+ht-degree: 98%
 
 ---
 
 # Guía para usuarios de Adobe Analytics
 
-Si su organización está empezando a utilizar Adobe Customer Journey Analytics, es posible que observe algunas similitudes y diferencias entre Adobe Analytics y Customer Journey Analytics. Esta página pretende explicar estas diferencias para ayudar a su organización a familiarizarse con el nuevo flujo de trabajo de implementación y creación de informes. Esta página también proporciona recursos adicionales sobre nuevos conceptos y pasos adicionales para que su recorrido como analista sea más fácil y exitoso.
+Si su organización está empezando a emplear Adobe Customer Journey Analytics, es posible que observe algunas similitudes y diferencias entre Adobe Analytics y Customer Journey Analytics. Esta página pretende explicar estas diferencias para ayudar a su organización a familiarizarse con el nuevo flujo de trabajo de implementación y creación de informes. Esta página también proporciona recursos adicionales sobre nuevos conceptos y pasos adicionales para que su recorrido como analista sea más fácil y exitoso.
 
-Se ha cambiado el nombre de varias funciones de Customer Journey Analytics y se han vuelto a diseñar para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen segmentos, grupos de informes virtuales, clasificaciones, atributos del cliente y nombres de contenedor. Ya no existen las limitaciones de eVars y props, lo que favorece dimensiones y métricas personalizadas y flexibles.
+Se ha cambiado el nombre de varias funciones de Customer Journey Analytics y se han rediseñado para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen segmentos, grupos de informes virtuales, clasificaciones, atributos del cliente y nombres de contenedor. Ya no existen las limitaciones de eVars y props, lo que favorece dimensiones y métricas personalizadas y flexibles.
 
 ## Qué no ha cambiado
 
 Gran parte de lo que está familiarizado con los informes no ha cambiado.
 
 * Puede seguir utilizando la potencia de [Analysis Workspace](/help/analysis-workspace/home.md) para analizar los datos. Workspace funciona igual que en la versión tradicional de Adobe Analytics.
-* La misma versión de [Paneles de Adobe Analytics](/help/mobile-app/home.md) está disponible y funciona de forma similar entre Customer Journey Analytics y Adobe Analytics.
+* La misma versión de [paneles de Adobe Analytics](/help/mobile-app/home.md) está disponible y funciona de forma similar entre Customer Journey Analytics y Adobe Analytics.
 * [Report Builder](/help/report-builder/report-buider-overview.md) tiene una nueva interfaz y se ejecuta en MS Windows, MacOS y la versión web de Excel. (Antes de esta versión de Report Builder, no se podía usar en Mac a menos que se ejecutara en VMware). Esta versión aún no admite solicitudes de datos AA tradicionales.
 
 ## Cambios en los informes
 
-Tiene acceso a muchos más datos de canales cruzados para analizar. Por ejemplo, puede crear un proyecto de Workspace que analice el rendimiento de varios canales, siempre que su organización incorpore estos conjuntos de datos y los incluya en las vistas de datos que utiliza Customer Journey Analytics (consulte &quot;Cambios en la arquitectura de datos&quot; más adelante).
+Tiene acceso a muchos más datos de canales cruzados para analizar. Por ejemplo, puede crear un proyecto en un espacio de trabajo que analice el rendimiento de varios canales, siempre que su organización incorpore estos conjuntos de datos y los incluya en las vistas de datos utilizadas por Customer Journey Analytics (consulte “Cambios en la arquitectura de datos” a continuación).
 
 ![visualizaciones multicanal](assets/cross-channel.png)
 
 ## Cambios en la arquitectura de datos {#architecture}
 
-El Customer Journey Analytics obtiene sus datos de Adobe Experience Platform. Experience Platform le permite centralizar y estandarizar los datos y el contenido de los clientes de cualquier sistema o canal y aplica la ciencia de datos y el aprendizaje automático para mejorar el diseño y el envío de las experiencias personalizadas.
+Customer Journey Analytics obtiene sus datos de Adobe Experience Platform. Experience Platform le permite centralizar y estandarizar los datos y el contenido de los clientes de cualquier sistema o canal y aplica la ciencia de datos y el aprendizaje automático para mejorar el diseño y el envío de las experiencias personalizadas.
 
 Los datos del cliente en Experience Platform se almacenan como conjuntos de datos, que consisten en un [esquema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=es) y lotes de datos. Para obtener más información sobre la plataforma, consulte la [Descripción general de arquitectura de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=es).
 
-El administrador del Customer Journey Analytics establece lo siguiente [conexiones](/help/connections/create-connection.md) a conjuntos de datos en el Experience Platform. Luego construyen [vistas de datos](/help/data-views/data-views.md) usando esas conexiones. Conceptualmente, las vistas de datos son similares a los grupos de informes virtuales y son la base de los informes en Customer Journey Analytics. Dado que Experience Platform obtiene todos los datos para la creación de informes, los grupos de informes ya no existen como contenedores de datos.
+El administrador de Customer Journey Analytics establece [conexiones](/help/connections/create-connection.md) con los conjuntos de datos en Experience Platform. Luego construye las [vistas de datos](/help/data-views/data-views.md) usando esas conexiones. Conceptualmente, las vistas de datos son similares a los grupos de informes virtuales y son la base de la creación de informes en Customer Journey Analytics. Dado que Experience Platform obtiene todos los datos para la creación de informes, los grupos de informes ya no existen como contenedores de datos.
 
 Una conexión le permite a su administrador de Analytics integrar conjuntos de datos de Adobe Experience Platform en Customer Journey Analytics, incluidos en el siguiente vídeo:
 
@@ -76,9 +76,9 @@ Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL
 
 Además del concepto de cambiar segmentos, también se actualizan los contenedores de segmentos.
 
-* **Los contenedores de visita individual ahora son [!UICONTROL contenedores] de evento**. El [!UICONTROL Evento] El contenedor de permite desglosar la información de la persona en función de eventos individuales.
+* **Los contenedores de visita individual ahora son [!UICONTROL contenedores] de evento**. El contenedor [!UICONTROL Evento] le permite desglosar la información de la persona en función de eventos individuales.
 * **Los contenedores de visita ahora son [!UICONTROL contenedores] de sesión**. El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica.
-* **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. El [!UICONTROL Persona] El contenedor de incluye todas las sesiones y eventos de una persona en un lapso de tiempo específico.
+* **Los contenedores de visitante hora son contenedores de [!UICONTROL Persona]**. El contenedor [!UICONTROL Persona] incluye todas las sesiones y eventos de una persona en un lapso de tiempo específico.
 
 ## Cambios en el concepto de métricas calculadas
 
@@ -100,11 +100,11 @@ Las “clasificaciones” ahora se conocen como “Conjuntos de datos de búsque
 
 ## Cambios en el concepto de atributos del cliente
 
-Los “atributos del cliente” ahora se conocen como “Conjuntos de datos de perfil”. Los conjuntos de datos de perfil contienen datos que se aplican a sus personas, usuarios o clientes en [!UICONTROL Evento] datos. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos.
+Los “atributos del cliente” ahora se conocen como “Conjuntos de datos de perfil”. Los conjuntos de datos de perfil contienen datos que se aplican a sus personas, usuarios o clientes en los datos de [!UICONTROL Evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. Puede elegir qué ID de persona desea incluir. Cada conjunto de datos definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos.
 
 ## Cambios en la forma en que el Adobe identifica a los visitantes
 
-Customer Journey Analytics amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar [Vinculación](../stitching/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto del Espacio de trabajo en Customer Journey Analytics debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en Customer Journey Analytics:
+Customer Journey Analytics amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar la [Vinculación](../stitching/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto de Workspace en Customer Journey Analytics debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en Customer Journey Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 

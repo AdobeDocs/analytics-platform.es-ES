@@ -7,7 +7,7 @@ feature: Basics
 source-git-commit: 635527f32e69aa079c33735da674deb3f47c31ff
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ A continuación, se muestra un vídeo sobre Customer Journey Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30090/?quality=12)
 
-## Comparación de Customer Journey Analytics con Adobe Analytics tradicional
+## Comparación entre Customer Journey Analytics y Adobe Analytics tradicional
 
 Customer Journey Analytics amplía el ámbito de Adobe Analytics al ofrecer funciones fáciles de usar entre canales y al eliminar las limitaciones de versiones anteriores de Adobe Analytics. Algunas mejoras importantes:
 
@@ -36,7 +36,7 @@ Customer Journey Analytics amplía el ámbito de Adobe Analytics al ofrecer func
 >
 >Si ha estado utilizando Adobe Analytics y desea utilizar los datos de Adobe Analytics en Customer Journey Analytics, consulte la guía de inicio rápido de [Ingesta y uso de datos de Adobe Analytics tradicional](../data-ingestion/analytics.md) como parte de la sección de [Ingesta de datos](../data-ingestion/data-ingestion.md).
 
-La versión inicial de Customer Journey Analytics incluye muchas de las funciones incluidas en Adobe Analytics. Para obtener una lista completa, consulte [Compatibilidad con las funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
+La versión inicial de Customer Journey Analytics incluye muchas de las funciones incluidas en Analysis Workspace. Para obtener una lista completa, consulte [Compatibilidad con las funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 
 ## Casos de uso clave
 
@@ -53,7 +53,7 @@ Customer Journey Analytics le permite:
 
 Para poder iniciar desde Customer Journey Analytics, se deben cumplir los siguientes requisitos previos:
 
-* Su organización tiene un contrato activo con Adobe Analytics para Select, Prime o Ultimate con el complemento de Customer Journey Analytics. Si no está seguro de qué tipo de contrato tiene o no está seguro de si tiene el complemento de Customer Journey Analytics, póngase en contacto con el equipo de cuenta de Adobe.
+* Su organización tiene un contrato activo con Adobe Analytics para Select, Prime o Ultimate con el complemento de Customer Journey Analytics. Si no está seguro de qué tipo de contrato tiene o no está seguro de si tiene el complemento de Customer Journey Analytics, póngase en contacto con el equipo de cuentas de Adobe.
 * Su organización se ha aprovisionado para Adobe Experience Platform.
 * También puede adquirir Customer Journey Analytics como producto independiente, sin necesidad de tener Adobe Analytics.
 
@@ -63,7 +63,7 @@ Consulte el tema [Control de acceso](/help/admin/cja-access-control.md).
 
 ## Actualizaciones terminológicas
 
-Se ha cambiado el nombre de varias funciones de Customer Journey Analytics, en comparación con la versión tradicional de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen lo siguiente:
+Se ha cambiado el nombre de varias funciones de Customer Journey Analytics, en comparación con la versión clásica de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen lo siguiente:
 
 * Los segmentos ahora se conocen como “Filtros”.
 * Los grupos de informes virtuales ahora se conocen como Vistas de datos.

@@ -1,6 +1,6 @@
 ---
 title: Información general sobre Análisis en canales múltiples
-description: Vuelva a escribir los ID de persona de varios conjuntos de datos para vincular las personas.
+description: Vuelva a escribir los ID de persona de varios conjuntos de datos para vincular los visitantes.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analysis
@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: ca037fa439a6a94ca071c610089a3ad931cc921d
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -34,9 +34,9 @@ Cuando combina conjuntos de datos con ID de personas similares, la atribución s
 
 Antes de usar Análisis en canales múltiples, asegúrese de que su organización está preparada con lo siguiente:
 
-* Un conjunto de datos en Adobe Experience Platform debe tener dos columnas que ayuden a identificar a las personas:
-   * Un **ID persistente**, un identificador presente en cada fila. Por ejemplo, un ID de persona generado por una biblioteca de AppMeasurement para Adobe Analytics.
-   * Un **ID transitorio**, un identificador presente solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que una persona se autentica. Puede utilizar prácticamente cualquier identificador que desee, siempre y cuando esté presente al menos una vez en el mismo evento que un ID persistente determinado.
+* Un conjunto de datos en Adobe Experience Platform debe tener dos columnas que ayuden a identificar a los visitantes:
+   * Un **ID persistente**, un identificador presente en cada fila. Por ejemplo, un ID de persona generado por una biblioteca de AppMeasurement de Adobe Analytics.
+   * Un **ID transitorio**, un identificador presente solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que un visitante se autentica. Puede utilizar prácticamente cualquier identificador que desee, siempre y cuando esté presente al menos una vez en el mismo evento que un ID persistente determinado.
 * Otro conjunto de datos, como los datos del centro de llamadas, que contiene un ID transitorio en cada fila. Este ID personal debe tener el mismo formato que el ID transitorio del otro conjunto de datos.
 * Esta función le permite vincular conjuntos de datos que pueden incluir la combinación de datos de usuario autenticados y no autenticados. Asegúrese de cumplir las leyes y regulaciones aplicables, incluida la obtención de los permisos necesarios para el usuario final, antes de combinar conjuntos de datos.
 
@@ -64,7 +64,7 @@ Análisis en canales múltiples es una función innovadora y sólida, pero tiene
 
 ## Habilitación de Análisis en canales múltiples
 
-Una vez que la organización cumpla todos los requisitos previos y comprenda sus limitaciones, puede seguir estos pasos para empezar a utilizarla en Customer Journey Analytics.
+Una vez que su organización cumpla todos los requisitos previos y comprenda sus limitaciones, puede seguir estos pasos para comenzar a usarlo en Customer Journey Analytics.
 
 1. Importe los datos deseados en Adobe Experience Platform. Para obtener datos de Adobe Analytics, consulte [Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). Para ver otros tipos de datos, consulte [Crear un esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es) y [Ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es) en la documentación de Adobe Experience Platform.
 1. Póngase en contacto con Asistencia al cliente de Adobe con la siguiente información:
@@ -76,7 +76,7 @@ Una vez que la organización cumpla todos los requisitos previos y comprenda sus
    * Nombre de la zona protegida.
 1. La Asistencia al cliente de Adobe trabajará con el personal de ingeniería de Adobe para habilitar Análisis en canales múltiples cuando reciba la solicitud. Una vez habilitado, aparecerá en Adobe Experience Platform un nuevo conjunto de datos con clave con una nueva columna de ID de persona. La Asistencia al cliente de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
 1. Cuando se active por primera vez, Adobe proporcionará un relleno de datos identificados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, el ID efímero debe existir en los datos no identificados en ese momento.
-1. [Crear una conexión](/help/connections/create-connection.md) en un Customer Journey Analytics que utilice el conjunto de datos recién generado y otros conjuntos de datos que desee incluir. Elija el ID personal correcto para cada conjunto de datos.
+1. [Cree una conexión](/help/connections/create-connection.md) en Customer Journey Analytics usando el nuevo conjunto de datos recientemente generado y otros conjuntos de datos que desea incluir. Elija el ID personal correcto para cada conjunto de datos.
 1. [Cree una vista de datos](/help/data-views/create-dataview.md) en función de la conexión.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->

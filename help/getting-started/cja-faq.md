@@ -7,7 +7,7 @@ feature: FAQ
 source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '2196'
-ht-degree: 70%
+ht-degree: 99%
 
 ---
 
@@ -38,26 +38,26 @@ Customer Journey Analytics incluye capacidades de [Data Prep](https://experience
 +++
 
 
-## 2. Unión de datos {#stitching}
+## 2. Vinculación de datos {#stitching}
 
 +++**¿Puede [!UICONTROL Customer Journey Analytics] “unir” varios dispositivos o conjuntos de datos?**
 
-Sí. [!UICONTROL Customer Journey Analytics] tiene [Vinculación](../stitching/overview.md) funcionalidad que funciona en eventos autenticados y no autenticados dentro de un conjunto de datos. Esto permite resolver registros dispares en un único ID vinculado para el análisis entre dispositivos en el nivel de persona.
-Además, cuando se utiliza un ID de área de nombres común (ID de persona) en conjuntos de datos dentro de un [Conexión](/help/connections/overview.md), podrá ejecutar el análisis en una combinación perfecta de varios conjuntos de datos, &quot;vinculados&quot; al nivel de la persona.
+Sí. [!UICONTROL Customer Journey Analytics] tiene la funcionalidad [Vinculación](../stitching/overview.md) que funciona en eventos autenticados y no autenticados dentro de un conjunto de datos. Esto permite resolver registros dispares en un único ID vinculado para el análisis entre dispositivos en el nivel de persona.
+Además, cuando se utiliza un ID de área de nombres común (ID de persona) en conjuntos de datos dentro de una [Conexión](/help/connections/overview.md), podrá ejecutar el análisis en una combinación perfecta de varios conjuntos de datos, “vinculados” al nivel de la persona.
 
 +++
 
 
 +++**¿Se admite la unión del comportamiento anónimo al comportamiento autenticado?**
 
-Sí. [Vinculación](../stitching/overview.md) busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado.
+Sí. La [vinculación](../stitching/overview.md) busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado.
 
 +++
 
 
-+++**¿Cómo funciona la &quot;repetición&quot; en la vinculación?**
++++**¿Cómo funciona la “repetición” en la vinculación?**
 
-La vinculación &quot;reproduce&quot; los datos en función de los identificadores únicos que ha aprendido. Reproducir pretende vincular eventos inicialmente no autenticados de dispositivos que se han identificado mientras tanto. [Más información](../stitching/explained.md)
+La vinculación “reproduce” los datos en función de los identificadores únicos que ha aprendido. Reproducir pretende vincular eventos inicialmente no autenticados de dispositivos que se han identificado mientras tanto. [Más información](../stitching/explained.md)
 
 +++
 
@@ -71,7 +71,7 @@ Cuando se active por primera vez, Adobe proporcionará un relleno de datos vincu
 
 +++**¿Cuál es el comportamiento esperado para los registros de conjuntos de datos de perfil no vinculados?**
 
-**Ejemplo de escenario**: Para unir dos conjuntos de datos en una conexión de Customer Journey Analytics, utilice `CRMid` como ID de persona. Uno es un conjunto de datos de eventos web con `CRMid` en todos los registros. El otro conjunto de datos es un conjunto de datos de perfil CRM. El 40 % del conjunto de datos CRM tiene `CRMid` presentes en el conjunto de datos de evento web. El otro 60 % no está presente en el conjunto de datos de evento web. ¿Aparecen estos registros en los informes de Analysis Workspace?<p> **Respuesta**: Las filas de perfil que no tienen eventos vinculados a ellos se almacenan en el Customer Journey Analytics. Sin embargo, no puede verlos en Analysis Workspace hasta que aparezca un evento vinculado a ese ID.
+**Escenario de ejemplo**: para unir dos conjuntos de datos en una conexión de Customer Journey Analytics, utilice `CRMid` como ID de la persona. Uno es un conjunto de datos de eventos web con `CRMid` en todos los registros. El otro conjunto de datos es un conjunto de datos de perfil CRM. El 40 % del conjunto de datos CRM tiene `CRMid` presentes en el conjunto de datos de evento web. El otro 60 % no está presente en el conjunto de datos de evento web. ¿Aparecen estos registros en los informes de Analysis Workspace?<p> **Respuesta**: las filas de perfil que no tienen eventos vinculados a ellas se almacenan en Customer Journey Analytics. Sin embargo, no puede verlos en Analysis Workspace hasta que aparezca un evento vinculado a ese ID.
 
 +++
 
@@ -126,12 +126,12 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 +++
 
 
-## 4. Consideraciones de latencia {#latency}
+## 4. Consideraciones sobre la latencia {#latency}
 
 >[!NOTE]
->No hay un tamaño de datos fijo en el Customer Journey Analytics y, por lo tanto, el Adobe no puede comprometerse con un tiempo de ingesta estándar. Estamos trabajando activamente para reducir estas latencias a través de nuevas actualizaciones y la optimización de la ingesta.
+>No hay un tamaño de datos fijo en Customer Journey Analytics y, por lo tanto, Adobe no puede comprometerse con un tiempo de ingesta estándar. Estamos trabajando activamente para reducir estas latencias a través de las nuevas actualizaciones y la optimización de la ingesta.
 
-<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.)</li><li>Rellenos secundarios pequeños: en un plazo de 7 días<li>Rellenos de fondo grandes: en 30 días</li></ul>
+<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.)</li><li>Rellenos secundarios pequeños: en un plazo de siete días<li>Rellenos de fondo grandes: en 30 días</li></ul>
 
 Recientemente hemos cambiado la forma en que procesamos los datos en Customer Journey Analytics:
 
@@ -139,7 +139,7 @@ Recientemente hemos cambiado la forma en que procesamos los datos en Customer Jo
 
 ## 5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
 
-El [**[!UICONTROL Activar la ventana de datos acumulados ]**configuración](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection) permite definir la retención de datos del Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc.). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
+La configuración [**[!UICONTROL Activar la ventana de datos móvil ]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc.). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
 
 La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
 
@@ -149,14 +149,14 @@ En cuanto a la eliminación de datos, nos interesan 6 tipos de componentes: zona
 
 | Si usted... | Esto sucede... |
 | --- | --- |
-| Eliminar una zona protegida en [!UICONTROL Adobe Experience Platform] | Al eliminar una zona protegida, se detendrá el flujo de datos a cualquier conexión de [!UICONTROL Customer Journey Analytics] a conjuntos de datos de dicha zona protegida. Actualmente, [!UICONTROL Conexiones] Los Customer Journey Analytics de asociados a la zona protegida eliminada no se eliminan automáticamente. |
+| Eliminar una zona protegida en [!UICONTROL Adobe Experience Platform] | Al eliminar una zona protegida, se detendrá el flujo de datos a cualquier conexión de [!UICONTROL Customer Journey Analytics] a conjuntos de datos de dicha zona protegida. Actualmente, [!UICONTROL Conexiones] en Customer Journey Analytics asociadas a la zona protegida eliminada no se eliminan automáticamente. |
 | Elimina un esquema en [!UICONTROL Adobe Experience Platform], pero no los conjuntos de datos asociados a dicho esquema | [!UICONTROL Adobe Experience Platform] no permite la eliminación de [!UICONTROL esquemas] que tienen uno o varios [!UICONTROL conjuntos de datos] asociados. Sin embargo, un administrador que tenga el conjunto de derechos adecuado podrá eliminar primero los conjuntos de datos y, a continuación, el esquema. |
-| Eliminar un conjunto de datos en el lago de datos de [!UICONTROL Adobe Experience Platform] | Al eliminar un conjunto de datos en el lago de datos de Adobe Experience Platform, se detiene el flujo de datos desde dicho conjunto de datos a cualquier conexión de Customer Journey Analytics que incluya el conjunto de datos. Los datos de ese conjunto de datos se eliminan automáticamente de las conexiones de Customer Journey Analytics asociadas. |
-| Eliminar un conjunto de datos en [!UICONTROL Customer Journey Analytics] | Póngase en contacto con el equipo de cuenta de Adobe para poner en marcha el proceso de eliminación de un conjunto de datos dentro de una conexión que se ha guardado. |
-| Eliminar un lote de un conjunto de datos (en [!UICONTROL Adobe Experience Platform]) | Si se elimina un lote de un [!UICONTROL Adobe Experience Platform] conjunto de datos, se eliminará el mismo lote de cualquier conexión de Customer Journey Analytics que contenga ese lote específico.  Se notifica al Customer Journey Analytics de las eliminaciones de lotes en [!UICONTROL Adobe Experience Platform]. |
-| Eliminar un lote **mientras se está ingiriendo** en [!UICONTROL Customer Journey Analytics] | Si solo hay un lote en el conjunto de datos, no aparecerán datos ni datos parciales de dicho lote en [!UICONTROL Customer Journey Analytics]. La ingesta se revertirá. Si, por ejemplo, hay 5 lotes en el conjunto de datos y 3 de ellos ya se han introducido cuando se eliminó el conjunto de datos, los datos de esos 3 lotes aparecen en [!UICONTROL Customer Journey Analytics]. |
-| Eliminar una conexión en [!UICONTROL Customer Journey Analytics] | Un mensaje de error indica lo siguiente:<ul><li>Las vistas de datos creadas para la conexión eliminada ya no funcionarán.</li><li> Del mismo modo, los proyectos de Workspace que dependan de vistas de datos en la conexión eliminada dejarán de funcionar.</li></ul> |
-| Eliminar una vista de datos en [!UICONTROL Customer Journey Analytics] | Un mensaje de error indica que dejarán de funcionar todos los proyectos del Espacio de trabajo que dependan de esta vista de datos eliminada. |
+| Eliminar un conjunto de datos en el lago de datos de [!UICONTROL Adobe Experience Platform] | Al eliminar un conjunto de datos en el lago de datos de Adobe Experience Platform, se detiene el flujo de datos desde dicho conjunto de datos a cualquier conexión de Customer Journey Analytics que incluya el conjunto de datos. Los datos de ese conjunto de datos no se eliminan automáticamente de las conexiones con Customer Journey Analytics asociadas. |
+| Eliminar un conjunto de datos en [!UICONTROL Customer Journey Analytics] | Póngase en contacto con el equipo de cuentas de Adobe para poner en marcha el proceso de eliminación de un conjunto de datos dentro de una conexión que se ha guardado. |
+| Eliminar un lote de un conjunto de datos (en [!UICONTROL Adobe Experience Platform]) | Si se elimina un lote de un conjunto de datos de [!UICONTROL Adobe Experience Platform], se eliminará el mismo lote de cualquier conexión de Customer Journey Analytics que contenga ese lote específico.  Customer Journey Analytics recibirá una notificación de las eliminaciones de lotes que se produzcan en [!UICONTROL Adobe Experience Platform]. |
+| Eliminar un lote **mientras se está ingiriendo** en [!UICONTROL Customer Journey Analytics] | Si solo hay un lote en el conjunto de datos, no aparecerán datos ni datos parciales de dicho lote en [!UICONTROL Customer Journey Analytics]. La ingesta se revertirá. Si, por ejemplo, hay cinco lotes en el conjunto de datos y tres de ellos ya se han introducido cuando se eliminó el conjunto de datos, los datos de esos tres lotes aparecen en [!UICONTROL Customer Journey Analytics]. |
+| Eliminar una conexión en [!UICONTROL Customer Journey Analytics] | El mensaje de error indica lo siguiente:<ul><li>Las vistas de datos creadas para la conexión eliminada ya no funcionarán.</li><li> Del mismo modo, los proyectos de Workspace que dependan de vistas de datos en la conexión eliminada dejarán de funcionar.</li></ul> |
+| Eliminar una vista de datos en [!UICONTROL Customer Journey Analytics] | El mensaje de error indica que dejarán de funcionar todos los proyectos del espacio de trabajo que dependan de esta vista de datos eliminada. |
 
 ## 7. Consideraciones al combinar grupos de informes en Customer Journey Analytics {#merge-reportsuite}
 
@@ -167,13 +167,13 @@ Si tiene pensado incorporar datos de Adobe Analytics a través del [Conector de 
 | Variables | Es posible que las variables como [!UICONTROL eVars] no se alineen entre grupos de informes. Por ejemplo, eVar1 en el grupo de informes 1 puede apuntar a **[!UICONTROL Página]**. En el grupo de informes 2, eVar1 puede señalar a **[!UICONTROL Campaña interna]**, lo que produce informes mixtos e inexactos. |
 | Recuentos de [!UICONTROL Sesiones] y [!UICONTROL Personas] | Se deduplican en los grupos de informes. Como resultado, es posible que los recuentos no coincidan. |
 | Anulación de duplicación métrica | Anula la deduplicación de instancias de una métrica (por ejemplo, [!UICONTROL Pedidos]) si varias filas tienen el mismo ID de transacción (por ejemplo, [!UICONTROL ID de compra]). Esto evita el recuento excesivo de las métricas clave. Como resultado, es posible que las métricas como [!UICONTROL Pedidos] no se sumen teniendo en cuenta varios grupos de informes. |
-| Moneda | El Customer Journey Analytics aún no admite la conversión de moneda. Si los grupos de informes que intenta combinar utilizan distintas monedas base, pueden surgir problemas. |
+| Moneda | Customer Journey Analytics aún no admite la conversión de moneda. Si los grupos de informes que intenta combinar utilizan distintas monedas base, pueden surgir problemas. |
 | [!UICONTROL Persistencia] | La [persistencia](../data-views/component-settings/persistence.md) se extiende a los grupos de informes, lo que afecta a los [!UICONTROL filtros], la [!UICONTROL atribución], etc. Los números pueden no sumarse correctamente. |
-| [!UICONTROL Clasificaciones] | Las [!UICONTROL clasificaciones] no se deduplican automáticamente al combinar grupos de informes. Al combinar varios archivos de clasificaciones en uno solo [!UICONTROL búsqueda] conjunto de datos, podría encontrar problemas. |
+| [!UICONTROL Clasificaciones] | Las [!UICONTROL clasificaciones] no se deduplican automáticamente al combinar grupos de informes. Al combinar varios archivos de clasificaciones en un único conjunto de datos de [!UICONTROL búsqueda], puede encontrar problemas. |
 
-## 8. [!UICONTROL Adobe Analytics] componentes
+## 8. Componentes de [!UICONTROL Adobe Analytics]
 
-+++**¿Puedo compartir/publicar? [!UICONTROL filtros] de [!DNL Customer Journey Analytics] a Experience Platform Real-Time CDP u otras aplicaciones de Experience Cloud?**
++++**¿Puedo compartir/publicar [!UICONTROL filtros] desde [!DNL Customer Journey Analytics] en Real-Time CDP de Experience Platform o en otras aplicaciones de Experience Cloud?**
 
 Aún no, pero estamos trabajando activamente para ofrecer esta capacidad.
 
@@ -181,19 +181,19 @@ Aún no, pero estamos trabajando activamente para ofrecer esta capacidad.
 
 +++**¿Qué ha pasado con mi antigua configuración de [!UICONTROL eVar]?**
 
-[!UICONTROL eVars], [!UICONTROL props], y [!UICONTROL eventos] en el sentido Adobe Analytics, ya no existe en [!UICONTROL Customer Journey Analytics]. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta.
+Las [!UICONTROL eVars], [!UICONTROL props] y los [!UICONTROL eventos] en el sentido de Adobe Analytics ya no existen en [!UICONTROL Customer Journey Analytics]. Tiene un número ilimitado de elementos de esquema (dimensiones, métricas, campos de lista). De modo que todos los ajustes de atribución que se aplicaron durante el proceso de recopilación de datos se aplican ahora en tiempo de consulta.
 
 +++
 
 +++**¿Dónde están ahora todas las configuraciones de persistencia de la variable y sesiones?**
 
-[!UICONTROL Customer Journey Analytics] aplica todas estas configuraciones en el momento del informe y estas se encuentran ahora en vistas de datos. Los cambios en esta configuración ahora son retroactivos y puede tener varias versiones con varias vistas de datos.
+[!UICONTROL Customer Journey Analytics] aplica todas estas configuraciones en el momento del informe y estas se encuentran ahora en Vistas de datos. Los cambios en esta configuración ahora son retroactivos y puede tener varias versiones con varias Vistas de datos.
 
 +++
 
-+++**¿Qué les sucede a nuestros segmentos o métricas calculadas existentes?**
++++**¿Qué les sucede a los segmentos o métricas calculadas existentes?**
 
-[!UICONTROL Customer Journey Analytics] ya no utiliza eVars, props ni eventos y, en su lugar, utiliza cualquier esquema de Adobe Experience Platform. Esto significa que ninguno de los segmentos existentes ni las métricas de cálculo son compatibles con [!UICONTROL Customer Journey Analytics].
+[!UICONTROL Customer Journey Analytics] ya no utiliza eVars, props ni eventos y, en su lugar, utiliza cualquier esquema de Experience Platform. Esto significa que ninguno de los segmentos existentes ni las métricas de cálculo son compatibles con [!UICONTROL Customer Journey Analytics].
 
 +++
 
@@ -223,10 +223,10 @@ Por ejemplo, supongamos que su contrato le da derecho a un millón de filas de d
 
 En algunos casos, es posible que observe que el número total de eventos que ha ingerido su conexión es diferente al número de filas del conjunto de datos en [!UICONTROL Adobe Experience Platform]. En este ejemplo, el conjunto de datos Impresión B2B tiene 7650 filas, pero el conjunto de datos contiene 3830 filas en [!UICONTROL Adobe Experience Platform]. Existen varias razones por las que pueden producirse discrepancias y se pueden realizar los siguientes pasos para el diagnóstico:
 
-1. Desglose esta dimensión por **[!UICONTROL ID de conjunto de datos de Platform]** y verá dos conjuntos de datos del mismo tamaño pero diferentes **[!UICONTROL ID de conjuntos de datos de Platform]**. Cada conjunto de datos tiene 3825 registros. Esto significa que [!UICONTROL Customer Journey Analytics] ha omitido 5 registros debido a la falta de ID de persona o la falta de marcas de hora:
+1. Desglose esta dimensión por **[!UICONTROL ID de conjunto de datos de Platform]** y verá dos conjuntos de datos del mismo tamaño, pero con diferentes **[!UICONTROL ID de conjunto de datos de Platform]**. Cada conjunto de datos tiene 3825 registros. Esto significa que [!UICONTROL Customer Journey Analytics] ha omitido 5 registros debido a la falta de ID de persona o la falta de marcas de hora:
 
    ![Desglosar](assets/data-size2.png)
 
-1. Además, si nos registramos [!UICONTROL Adobe Experience Platform]Sin embargo, no hay ningún conjunto de datos con el ID &quot;5f21c12b732044194bffc1d0&quot;, por lo que alguien eliminó este conjunto de datos concreto de [!UICONTROL Adobe Experience Platform] cuando se creó la conexión inicial. Más tarde, se volvió a añadir a Customer Journey Analytics, pero un [!UICONTROL ID de conjunto de datos de Platform] fue generado por [!UICONTROL Adobe Experience Platform].
+1. Además, si comprobamos [!UICONTROL Adobe Experience Platform], no hay ningún conjunto de datos con el ID “5f21c12b732044194bffc1d0”, por lo que alguien eliminó este conjunto de datos concreto de [!UICONTROL Adobe Experience Platform] cuando se creaba la conexión inicial. Más adelante se volvió a añadir a Customer Journey Analytics, pero se generó un [!UICONTROL ID de conjunto de datos de Platform] mediante [!UICONTROL Adobe Experience Platform].
 
 Obtenga más información sobre las [implicaciones de la eliminación de conjuntos de datos y conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#implications-of-deleting-data-components) en [!UICONTROL Customer Journey Analytics] y [!UICONTROL Adobe Experience Platform].
