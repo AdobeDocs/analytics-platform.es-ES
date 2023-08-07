@@ -5,9 +5,9 @@ exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Algunos términos de Customer Journey Analytics difieren de cómo se han utiliza
 | Organización de Experience Cloud | Inicio de sesión de la empresa | Consulte [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es#topic_C31CB834F109465A82ED57FF0563B3F1). |
 | N/A | Grupo de informes | Los grupos de informes en la sensación tradicional de Adobe Analytics ya no existen. En su lugar, se crean [vistas de datos](/help/data-views/create-dataview.md) (virtuales) a partir de los conjuntos de datos de Platform con los que se establecieron conexiones. |
 | Filtro | Segmento | Los segmentos ahora son filtros. Los filtros en Customer Journey Analytics se comportan como los segmentos. Solo ha cambiado la terminología. |
-| Vista de datos | Grupo de informes virtuales | En Adobe Analytics, un grupo de informes virtuales es una vista filtrada de un grupo de informes principal. La principal diferencia entre un grupo de informes virtuales y una vista de datos en Customer Journey Analytics es que el grupo de informes virtuales es un subconjunto de un grupo de informes &quot;base&quot; o &quot;principal&quot; y, como tal, hereda parte de su configuración. Dado que los grupos de informes principales/básicos ya no existen, puede definir vistas de datos con su propia configuración. |
+| Vista de datos | Grupo de informes virtuales | En Adobe Analytics, un grupo de informes virtuales es una vista filtrada de un grupo de informes principal. La principal diferencia entre un grupo de informes virtuales y una vista de datos en Customer Journey Analytics es que el grupo de informes virtuales es un subconjunto de un grupo de informes “base” o “principal” y, como tal, hereda parte de su configuración. Dado que los grupos de informes principales/básicos ya no existen, puede definir vistas de datos con su propia configuración. |
 
 ## Glosario de Adobe Experience Platform
 
