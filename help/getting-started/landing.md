@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1514'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Los **[!UICONTROL Proyectos]** son diseños personalizados que combinan compone
 | [!UICONTROL Informe de valoración móvil] | Crea un [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) en blanco para que pueda diseñarlo y elaborarlo. |
 | [!UICONTROL Abrir tutorial de formación] | Abre el tutorial de formación del Espacio de trabajo que le guía a través del proceso de creación de un nuevo proyecto de inicio en un tutorial paso a paso. |
 | [!UICONTROL Abrir notas de la versión] | Abre la sección Adobe Analytics de las últimas notas de la versión de Adobe Experience Cloud. |
-| Icono de filtro | Filtros por etiquetas, vistas de datos, propietarios, tipos y otros filtros (Míos, Compartidos conmigo, Favoritos y Aprobados) |
+| Icono de filtro | Filtra por etiquetas, vistas de datos, propietarios, tipos y otros filtros (Míos, Compartidos conmigo, Favoritos y Aprobados) |
 | Barra de búsqueda | Busca todas las columnas de la tabla. |
 | Cuadro de selección | Selecciona uno o varios proyectos para mostrar las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiqueta**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas estas acciones. |
 | [!UICONTROL Favoritos] | Agrega una estrella junto a un proyecto o una carpeta favoritos que se puede usar como filtro. |
@@ -82,25 +82,25 @@ Si está en la vista “Carpetas y proyectos”, aparecerá un modal en el que s
 
 ## Uso de la pestaña Aprendizaje {#navigate-learning}
 
-La página Aprendizaje contiene recorridos en vídeo prácticos, tutoriales y vínculos a documentación.
+La página Aprendizaje contiene tutoriales y recorridos en vídeo prácticos, además de vínculos a documentación.
 
 Utilice la página Aprendizaje en Customer Journey Analytics para aprender:
 
 * Funciones y casos de uso principiantes, intermedios o avanzados en CJA
 * Cómo realizar la transición sin problemas de Adobe Analytics a CJA
 
-### Acceso a la página Aprendizaje
+### Acceso a la página de Aprendizaje
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Workspace**] > [!UICONTROL **Aprendizaje**].
 
-### Funciones de página de aprendizaje
+### Funciones de la página de Aprendizaje
 
-* **Filtrar contenido:** El icono Filtro en el carril izquierdo le permite filtrar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio o avanzado) y por tipo de contenido (documento, vídeo o recorridos y tutoriales).
-* **Seguimiento del progreso:** Después de seleccionar un fragmento de contenido, se crea un **[!UICONTROL Visto]** aparece la etiqueta. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar el **[!UICONTROL Visto]** para eliminarlo de un fragmento de contenido.
-* **Ver contenido adicional:** Mientras ve cualquier vídeo, seleccione la opción **[!UICONTROL Más información]** para ver el contenido de la documentación relacionado en el Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
-   * **[!UICONTROL Visite YouTube]:** Vea la lista de reproducción completa de Analysis Workspace YouTube.
+* **Filtrar contenido:** el icono Filtro en el carril izquierdo le permite filtrar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio o avanzado) y por tipo de contenido (documento, vídeo o recorridos y tutoriales).
+* **Seguimiento del progreso:** después de seleccionar un fragmento de contenido, aparece una etiqueta **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar la etiqueta **[!UICONTROL Visto]** para eliminarla de un fragmento de contenido.
+* **Ver contenido adicional:** mientras ve cualquier vídeo, seleccione el botón **[!UICONTROL Más información]** para ver el contenido de la documentación relacionado en Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
+   * **[!UICONTROL Visite YouTube]:** vea la lista de reproducción completa de Analysis Workspace de YouTube.
    * [!UICONTROL **Visitar Experience League**]: vea el conjunto completo de documentación de CJA en Experience League.
-* **Aspectos básicos para nuevos usuarios:** El [!UICONTROL Aspectos básicos de Workspace] se recomienda realizar una visita guiada para los usuarios nuevos. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. También se puede reiniciar en cualquier momento en Workspace en la ventana emergente de información del panel del encabezado.
+* **Aspectos básicos para nuevos usuarios:** se recomienda la visita guiada [!UICONTROL Aspectos básicos de Workspace] para los usuarios nuevos. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. También se puede reiniciar en cualquier momento directamente en Workspace en la ventana emergente de información del panel del encabezado.
 
 ## Establecer una página de aterrizaje {#set-landing}
 
