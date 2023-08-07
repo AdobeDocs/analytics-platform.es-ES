@@ -1,13 +1,13 @@
 ---
-title: Información general sobre Customer Journey Analytics Connections
+title: Información general sobre las conexiones de Customer Journey Analytics
 description: Obtenga información sobre las conexiones en Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
