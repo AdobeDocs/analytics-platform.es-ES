@@ -1,56 +1,40 @@
 ---
-title: Dimensión con muy alta cardinalidad en Customer Journey Analytics
-description: Describe las prácticas recomendadas para tratar las dimensiones de alta cardinalidad en Customer Journey Analytics
+title: Dimensiones de alta cardinalidad
+description: Explica cómo gestiona Customer Journey Analytics las dimensiones con muchos valores únicos
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 88%
+source-wordcount: '514'
+ht-degree: 7%
 
 ---
 
-# Dimensión con muy alta cardinalidad
+# Dimensiones de alta cardinalidad
 
-El Customer Journey Analytics (Customer Journey Analytics) no impone límites al número de valores únicos o elementos de dimensión que se pueden registrar dentro de una sola dimensión. Sin embargo, en algunas circunstancias, las dimensiones con un número extremadamente grande de artículos únicos —también conocidas como dimensiones de alta cardinalidad— pueden afectar a qué se puede informar.
+Al utilizar una dimensión que contiene muchos valores únicos, el informe resultante puede contener demasiados elementos de dimensión únicos para mostrar o calcular. Los resultados se truncan al eliminar los elementos de dimensión que se consideran menos importantes. Estas optimizaciones se realizan para mantener el rendimiento del proyecto y del producto.
 
-## Limitaciones
+Cuando se solicita un informe con demasiados valores únicos, Analysis Workspace muestra un indicador en el encabezado de la dimensión que indica que no se incluyen todos los elementos de dimensión. Por ejemplo, &quot;Filas: 1-50 de más de 22 343 156&quot;. La palabra clave &quot;más que&quot; indica que se aplicó cierta optimización al informe para devolver los elementos de dimensión más importantes.
 
-Dependiendo del número de eventos en una conexión de Customer Journey Analytics específica, las dos limitaciones siguientes pueden ocurrir junto con dimensiones de alta cardinalidad:
+![Previsualización de Workspace](assets/high-cardinality.png)
 
-### 1. Es posible que los recuentos de filas no se puedan registrar con precisión
+## Determinación de los elementos de dimensión que se van a mostrar
 
-Es posible que los recuentos de filas en dimensiones de alta cardinalidad no se puedan registrar con precisión. Cuando esto sucede, las tablas improvisadas proporcionan una indicación, como se muestra a continuación:
+El Customer Journey Analytics procesa los informes en el momento en que se ejecutan y distribuye el conjunto de datos combinado a varios servidores. Los datos de cada servidor de procesamiento se agrupan por ID de persona, lo que significa que un solo servidor de procesamiento contiene todos los datos de una persona determinada. Una vez que un servidor termina de procesarse, entrega su subconjunto de datos procesados a un servidor agregador. Todos los subconjuntos de datos procesados se combinan y se devuelven en forma de informe de Workspace.
 
-![](assets/high-cardinality.png)
+Si algún servidor individual procesa datos que superan un umbral único, trunca los resultados antes de devolver el subconjunto de datos procesado. Los elementos de dimensión truncados se determinan en función de la métrica que se utiliza para ordenar.
 
-### 2. Las métricas calculadas pueden utilizar estimaciones para algunas funciones y para el criterio de ordenación
+Si la métrica de clasificación es una métrica calculada, el servidor utiliza las métricas dentro de la métrica calculada para determinar qué elementos de dimensión se truncan. Dado que las métricas calculadas pueden contener varias métricas de importancia variable, los resultados pueden ser menos precisos. Por ejemplo, al calcular &quot;Ingresos por persona&quot;, la cantidad total de ingresos y el número total de personas se devuelven y se agregan antes de realizar la división. Como resultado, cada servidor de procesamiento individual elige qué elementos quitar sin saber cómo afectan sus resultados a la ordenación general.
 
-Cuando se utilizan con dimensiones de alta cardinalidad, algunas funciones de métricas calculadas pueden devolver estimaciones, entre las que se incluyen: Máximo de columna, Mínimo de columna, Recuento de fila, Media, Mediana, Percentil, Cuartil, Desviación estándar, Variación, Funciones de regresión, y Funciones T y Z.
+Aunque es posible que falten algunos elementos de dimensión individuales en los informes de alta cardinalidad, los totales de columna son precisos y no se basan en datos truncados. La función &quot;Recuento distinto&quot; de las métricas calculadas tampoco se ve afectada por los elementos de dimensión truncados.
 
-Además, ordenar una columna de tabla mediante una métrica calculada puede basarse en una estimación y no reflejar siempre el orden exacto. Aparecerá un mensaje de advertencia para avisarle de que se pueden haber utilizado estimaciones.
+## Prácticas recomendadas para dimensiones de alta cardinalidad
 
-Tenga en cuenta que, aunque las métricas calculadas a veces pueden devolver estimaciones, los totales de columnas siempre son precisos y nunca se basan en estimaciones. Del mismo modo, cuando se utilizan métricas estándares, nunca se usan estimaciones y siempre reflejan órdenes de clasificación exactos.
+La mejor manera de dar cabida a las dimensiones de alta cardinalidad es limitar el número de elementos de dimensión que procesa un informe. Dado que todos los informes se procesan en el momento en que se solicitan, puede ajustar los parámetros del informe para obtener resultados inmediatos. El Adobe recomienda cualquiera de las siguientes optimizaciones para las dimensiones de alta cardinalidad:
 
-### Donde se consideran todos los valores de dimensión
-
-Aunque existen limitaciones para algunas métricas calculadas y recuentos de filas de dimensión, tenga en cuenta que las siguientes capacidades siempre tienen en cuenta todos los valores únicos en cualquier dimensión, independientemente de si una dimensión es altamente cardinal o no:
-
-* Atribución de métrica y asignación de dimensión
-* Búsquedas de elementos de línea aplicadas a una tabla de forma libre
-* Filtros que utilizan dimensiones o elementos de dimensión
-* La función aproximada de recuento distinto dentro de Métricas calculadas
-* Lógica de inclusión/exclusión aplicada a cualquier métrica o dimensión dentro de una vista de datos
-* Búsqueda de conjuntos de datos agregados a una conexión
-
-## Prácticas recomendadas para trabajar con dimensiones de alta cardinalidad
-
-Para eliminar las advertencias o estimaciones que pueden producirse al utilizar dimensiones con alta cardinalidad, recomendamos reducir el número de filas consideradas en el informe mediante uno de los métodos siguientes:
-
-* Añada un filtro a la columna o panel afectado.
-* Aplique una búsqueda a la tabla de forma libre.
-* Aplique un desglose a las filas de interés o utilice la dimensión de alta cardinalidad como dimensión de desglose.
-* Añada criterios de inclusión/exclusión a la configuración de vista de datos de la dimensión para reducir el número de valores únicos presentes en la dimensión.
-
-El uso de estas técnicas, con frecuencia, puede eliminar cualquier estimación o advertencia no deseable que experimente al utilizar dimensiones de alta cardenalidad.
+* Utilice un [Filtrar](/help/components/filters/create-filters.md). Los filtros se aplican en el momento en que cada servidor procesa un subconjunto de datos.
+* Utilice una búsqueda. Los elementos de Dimension excluidos del término de búsqueda se eliminan de los resultados del informe, lo que aumenta la probabilidad de que vea los elementos de dimensión deseados.
+* Utilice una dimensión del conjunto de datos de búsqueda. Las dimensiones del conjunto de datos de búsqueda combinan elementos de dimensión del conjunto de datos de evento, lo que limita el número de valores únicos devueltos.
+* Utilice el [Incluir/excluir](/help/data-views/component-settings/include-exclude-values.md) configuración de componentes en el administrador de vista de datos.
+* Reduzca el intervalo de fechas de la solicitud. Si muchos valores únicos se acumulan con el tiempo, acortar el intervalo de fechas del informe de Workspace puede limitar el número de valores únicos que deben procesar los servidores.
