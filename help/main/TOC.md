@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 82%
+source-wordcount: '974'
+ht-degree: 84%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 82%
       + [Utilizar los datos de Adobe Analytics en Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Compatibilidad con funciones de Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
       + [Comparación de terminología para datos de Analytics pasados a través del conector de origen de Analytics](../getting-started/aa-vs-cja/terminology.md)
-      + [Comparar el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics.](../getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [Compare el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Entornos de informes virtuales y entornos de zonas protegidas](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Reglas de procesamiento, VISTA y clasificaciones en comparación con la preparación de datos](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID y el conector de origen de Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
@@ -334,6 +334,7 @@ ht-degree: 82%
 + Resolución de problemas {#troubleshooting}
    + [Comparación de los datos de Adobe Analytics con los de Customer Journey Analytics](../troubleshooting/compare.md)
    + [Coherencia de métricas y recuentos de miembros de audiencia entre Real-time CDP y Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
+   + [Falta de permisos](../troubleshooting/lack-of-permissions.md)
 
 + [Glosario de Customer Journey Analytics](../getting-started/cja-glossary.md)
 
