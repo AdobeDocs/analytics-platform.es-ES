@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
 source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1166'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Análisis en canales múltiples es una función innovadora y sólida, pero tiene
 * No se admiten los mapas de ID personalizados utilizados en su organización.
 * No se admite el gráfico privado entre dispositivos.
 * Análisis en canales múltiples no transforma el campo que se utiliza para la identificación de ninguna manera. La identificación basada en campos utiliza el valor del campo especificado tal como existe en el conjunto de datos no identificado del lago de datos. El proceso de identificación distingue entre mayúsculas y minúsculas. Por ejemplo, si aparece unas veces la palabra “Bob” en el campo y otras la palabra “BOB”, estas se tratarán como dos personas independientes.
-* Como la identificación basada en campos distingue entre mayúsculas y minúsculas, en el caso de los conjuntos de datos de Analytics generados mediante el conector de origen de Analytics, el Adobe recomienda revisar cualquier regla VISTA o de procesamiento que se aplique al campo de ID transitorio para garantizar que ninguna introduzca nuevos formularios del mismo ID. Por ejemplo, debe asegurarse de que ninguna regla VISTA o de procesamiento introduce minúsculas en el campo ID transitorio en solo en una parte de los eventos.
+* Como la vinculación basada en campos distingue entre mayúsculas y minúsculas, en el caso de los conjuntos de datos de Analytics generados mediante el conector de origen de Analytics, Adobe recomienda revisar cualquier regla VISTA o de procesamiento que se aplique al campo de ID transitorio para garantizar que ninguna de estas reglas introduzca formularios nuevos con el mismo ID. Por ejemplo, debe asegurarse de que ninguna regla VISTA o de procesamiento introduce minúsculas en el campo ID transitorio en solo en una parte de los eventos.
 * La identificación basada en campos no combina ni concatena campos.
 * El campo de ID transitorio debe contener un solo tipo de ID (es decir, ID de un solo espacio de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
 * Si se producen varios eventos con la misma marca de tiempo en relación con el mismo ID persistente, pero con valores diferentes en el campo de ID transitorio, la identificación basada en campos decidirá en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro Ann, la identificación basada en campos elegirá Ann.
