@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
 source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Ciertas métricas en Customer Journey Analytics son similares a las métricas en
 
 | **Datos vinculados de Customer Journey Analytics** | **Datos no vinculados de Customer Journey Analytics** | **Adobe Analytics tradicional** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Personas** = Recuento de `Person ID` diferentes donde `Stitched ID` se elige como `Person ID`. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de `Person ID` diferentes según la columna seleccionada como `Person ID`. **People** en los conjuntos de datos del conector de origen de Analytics es similar a **Visitantes únicos** en Adobe Analytics tradicional si `endUserIDs._experience.aaid.id` se elige como `Person ID` en Customer Journey Analytics. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
+| **Personas** = Recuento de `Person ID` diferentes donde `Stitched ID` se elige como `Person ID`. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de `Person ID` diferentes según la columna seleccionada como `Person ID`. **Las personas** en los conjuntos de datos del conector de origen de Analytics son similares a los **visitantes únicos** en Adobe Analytics tradicional, si `endUserIDs._experience.aaid.id` se elige como `Person ID` en Customer Journey Analytics. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
 | **Sesiones**: se define en función de la configuración de sesiones en la vista de datos de Customer Journey Analytics. El proceso de identificación entre dispositivos puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: se define en función de la configuración de sesiones especificada en la vista de datos de Customer Journey Analytics. | **Visitas**: consulte [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es). | **Visitas**: se define en función de la configuración de sesiones especificada en el [grupo de informes virtuales de CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=es). |
 | **Eventos** = recuento de filas en los datos enlazados en Customer Journey Analytics. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. No obstante, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un `Persistent ID` en blanco. | **Eventos** = recuento de filas en los datos no enlazados en Customer Journey Analytics. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. Sin embargo, tenga en cuenta que si algún evento tiene un `Person ID` en blanco en los datos no enlazados en el lago de datos de Experience Platform, estos eventos no se incluyen en Customer Journey Analytics. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). |
 
