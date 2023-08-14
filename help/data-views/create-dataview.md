@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
 workflow-type: tm+mt
 source-wordcount: '1418'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -136,6 +136,6 @@ Puede agregar filtros que se apliquen a toda la vista de datos. Este filtro se a
 
 ### Configuración de sesión
 
-Determine el período de inactividad entre los eventos antes de que caduque una sesión y se inicie una nueva. Se requiere un período de tiempo. Opcionalmente, también puede forzar el inicio de una nueva sesión cuando un evento contenga una métrica determinada. Consulte [Sesiones según el contexto](context-aware-sessions.md) para obtener más información.
+Determine el período de inactividad entre los eventos antes de que caduque una sesión y se inicie una nueva. Se requiere un período de tiempo. Opcionalmente, también puede forzar el inicio de una nueva sesión cuando un evento contenga una métrica determinada. Consulte las [sesiones contextuales](context-aware-sessions.md) para obtener más información.
 
 Una vez especificada toda la configuración deseada, haga clic en **[!UICONTROL Guardar y finalizar]**.

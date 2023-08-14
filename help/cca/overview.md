@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
 source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 100%
 

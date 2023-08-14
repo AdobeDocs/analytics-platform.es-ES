@@ -6,13 +6,13 @@ feature: Basics
 source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Grupos de informes virtuales, vistas de datos, zonas protegidas de Adobe Experience Platform y el conector de origen de Analytics
 
-Adobe proporciona una variedad de medios para crear entornos de informes virtuales y entornos de zonas protegidas. Es útil comprender las similitudes y diferencias entre las siguientes funciones y cómo se relacionan con la variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es):
+Adobe proporciona una variedad de medios para crear entornos de informes virtuales y entornos de zonas protegidas. Es útil comprender las similitudes y diferencias entre las siguientes funciones y cómo se relacionan con el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es):
 
 * Grupos de informes virtuales de Adobe Analytics
 * Vistas de datos de Customer Journey Analytics
@@ -38,7 +38,7 @@ Un grupo de informes virtuales no es:
 
 * Un medio para combinar grupos de informes.
 * Algo que esté disponible en Adobe Analytics Data Warehouse.
-* Disponible como fuente para flujos de datos en Adobe Experience Platform mediante el conector de origen de Analytics. Solo los grupos de informes completos (no virtuales) están disponibles para su uso con el conector de origen de Analytics.
+* Disponible como fuente para flujos de datos hacia Adobe Experience Platform mediante el conector de origen de Analytics. Solo los grupos de informes completos (no virtuales) están disponibles para su uso con el conector de origen de Analytics.
 
 
 ## Vistas de datos de Customer Journey Analytics
@@ -80,4 +80,4 @@ La zona protegida de Adobe Experience Platform no realiza lo siguiente:
 Tenga en cuenta lo siguiente:
 
 * Los datos de diferentes zonas protegidas no se pueden combinar dentro de Customer Journey Analytics.
-* El conector de origen de Analytics envía datos del grupo de informes _hacia_ una zona protegida específica. Cada grupo de informes puede configurarse como fuente para una sola zona protegida. Consulte la [Documentación del conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) para obtener más información.
+* El conector de origen de Analytics envía datos del grupo de informes _hacia_ una zona protegida específica. Cada grupo de informes puede configurarse como fuente para una sola zona protegida. Consulte la [documentación del conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) para obtener más información.
