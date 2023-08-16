@@ -4,8 +4,8 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a08a237eadc3408e170d4a8b5a3e6d451c15efee
-workflow-type: ht
+source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
+workflow-type: tm+mt
 source-wordcount: '2485'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Evolución desde Adobe Analytics | Se ha actualizado la sección *reconfiguración de canales de marketing* con una referencia a la plantilla de función de canales de marketing de Campos derivados. [Más información](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Guías de inicio rápido de ingesta de datos para aplicaciones móviles y otras plataformas | Se han añadido guías de inicio rápido de ingesta de datos adicionales que describen cómo ingerir y utilizar datos de aplicaciones móviles u otras plataformas (como aplicaciones de escritorio, juegos en consolas, aplicaciones en decodificadores y dispositivos de IoT) en Customer Journey Analytics. [Más información](../data-ingestion/data-ingestion.md) |
 | **Julio de 2023** | |
-| Sesiones según el contexto | Se ha añadido un tema a esta configuración de vista de datos. [Más información](/help/data-views/context-aware-sessions.md) |
+| Configuración de sesión | Se ha añadido un tema a esta configuración de vista de datos. [Más información](/help/data-views/session-settings.md) |
 | Adobe Product Analytics | Adobe Product Analytics es una nueva forma de interactuar con los datos y las perspectivas en canales múltiples en Customer Journey Analytics. Estas nuevas funcionalidades permiten a los equipos de productos autogestionar datos y perspectivas sobre su experiencia con el producto mediante flujos de trabajo de [análisis guiados.](/help/guided-analysis/overview.md) |
 | Campos derivados | Un [campo derivado](/help/data-views/derived-fields/derived-fields.md) permite definir manipulaciones de datos (a menudo complejas) sobre la marcha, mediante un generador de reglas personalizable. |
 | Compatibilidad de búsqueda ampliada para datos de perfil y búsqueda | Proporciona la posibilidad de añadir conjuntos de datos como búsquedas de campos dentro de conjuntos de datos de perfil o de búsqueda. Anteriormente, solo se admitían conjuntos de datos de eventos. [Más información](/help/connections/create-connection.md) |

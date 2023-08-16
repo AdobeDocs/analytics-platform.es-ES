@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
+source-git-commit: 555ef833c3137c6e1c441b16781c240e5ef43419
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 84%
    + [Guía para usuarios de Adobe Analytics](../getting-started/aa-to-cja-user.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
       + [Utilizar los datos de Adobe Analytics en Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
-      + [Compatibilidad con funciones de Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
-      + [Comparación de terminología para datos de Analytics pasados a través del conector de origen de Analytics](../getting-started/aa-vs-cja/terminology.md)
+      + [Compatibilidad con las funciones de Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
+      + [Comparación de la terminología de datos de Analytics transferidos a través del conector de origen de Analytics](../getting-started/aa-vs-cja/terminology.md)
       + [Compare el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Entornos de informes virtuales y entornos de zonas protegidas](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Reglas de procesamiento, VISTA y clasificaciones en comparación con la preparación de datos](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
@@ -72,7 +72,7 @@ ht-degree: 84%
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](../data-views/data-views.md)
    + [Creación o edición de una vista de datos](../data-views/create-dataview.md)
-   + [Sesiones según el contexto](../data-views/context-aware-sessions.md)
+   + [Configuración de sesión](../data-views/session-settings.md)
    + Configuración de componentes {#component-settings}
       + [Información general sobre la configuración de componentes](../data-views/component-settings/overview.md)
       + [Atribución](../data-views/component-settings/attribution.md)
