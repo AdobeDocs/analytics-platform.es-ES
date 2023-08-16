@@ -4,9 +4,9 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2630'
 ht-degree: 100%
 
 ---
@@ -23,9 +23,9 @@ La experiencia de flujo de trabajo de creación y edición de conexiones reúne 
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
->[!IMPORTANT]
->
->Debe tener el paquete **Seleccionar** para añadir un número ilimitado de conjuntos de datos a una conexión. El paquete **Foundation** está limitado a un conjunto de datos. Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene.
+## Requisitos previos
+
+Debe tener el paquete **Seleccionar** para añadir un número ilimitado de conjuntos de datos a una conexión. El paquete **Foundation** está limitado a un conjunto de datos. Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene.
 
 ## Creación y configuración de la conexión {#create-connection}
 
