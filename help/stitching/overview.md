@@ -3,7 +3,7 @@ title: Información general de vinculación
 description: Información general sobre la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 26%
@@ -24,6 +24,8 @@ Se beneficia del análisis en canales múltiples si combina uno o más de los co
 
 
 ## Requisitos previos
+
+{{select-package}}
 
 >[!IMPORTANT]
 >

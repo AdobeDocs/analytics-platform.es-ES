@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -13,6 +13,8 @@ ht-degree: 2%
 ---
 
 # Crear y administrar conjuntos de datos enlazados
+
+{{select-package}}
 
 La vinculación permite a los administradores vincular identidades en conjuntos de datos disponibles en el Customer Journey Analytics. La vinculación de conjuntos de datos aumenta la precisión de la representación de un perfil, lo que en última instancia resulta en un mejor análisis e informes.
 

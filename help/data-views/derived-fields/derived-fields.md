@@ -4,7 +4,7 @@ description: Un campo derivado especifica la manipulación en tiempo de informe 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: bd017810cb0f7813bdada5e3e951b0f6d5b768e4
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '4348'
 ht-degree: 15%
@@ -154,6 +154,8 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 -->
 
 ## Referencia de función
+
+{{select-package}}
 
 Para cada función admitida, busque los detalles siguientes en:
 
@@ -328,7 +330,7 @@ Observe el uso de la función [!UICONTROL ANÁLISIS DE URL] para definir reglas 
 
 ## Caso de uso 2 {#casewhen-uc2}
 
-Ha recopilado varias variaciones diferentes de búsquedas dentro de su [!DNL Product Finding Methods] dimensión. Para comprender el rendimiento general de la búsqueda frente a la exploración, debe dedicar una buena cantidad de tiempo a combinar los resultados manualmente.
+Ha recopilado varias variaciones diferentes de búsquedas dentro de su [!DNL Product Finding Methods] dimensión. Para comprender el rendimiento general de la búsqueda frente a la exploración, debe dedicar una gran cantidad de tiempo a combinar los resultados manualmente.
 
 Su sitio recopila los siguientes valores para su [!DNL Product Finding Methods] dimensión. Al final, todos estos valores indican una búsqueda.
 
@@ -858,9 +860,9 @@ Las respuestas de la aplicación de voz se recopilan en una lista delimitada en 
 
 | Respuestas de aplicación de voz | Eventos |
 |---|--:|
-| era bueno, tenía perfecto sentido, recomendaría a otros | 1 |
-| fue bueno, algo confuso, recomendará a otros | 1 |
-| no era bueno, muy confuso, no se lo recomendaré a otros | 1 |
+| fue genial, hizo perfecto sentido, recomendará a los demás | 1 |
+| fue genial, algo confuso, recomendará a otros | 1 |
+| no fue genial, muy confuso, no se lo recomendaré a otros | 1 |
 
 {style="table-layout:auto"}
 
@@ -874,9 +876,9 @@ Usted crea un `Responses` campo derivado. Utilice el [!UICONTROL DIVIDIR] funci�
 
 | Respuestas | Eventos |
 |---|--:|
-| era bueno | 2 |
+| fue genial | 2 |
 | recomendará a otras personas | 2 |
-| no era bueno | 1 |
+| no fue genial | 1 |
 | tenía sentido | 1 |
 | algo confuso | 1 |
 | muy confuso | 1 |
@@ -892,9 +894,9 @@ Las respuestas de la aplicación de voz se recopilan en una lista delimitada en 
 
 | Respuestas | Eventos |
 |---|--:|
-| era bueno, tenía perfecto sentido, se lo recomendaría a otros | 1 |
-| fue bueno, algo confuso, recomendará a otros | 1 |
-| no era bueno, muy confuso, no se lo recomendaré a otros | 1 |
+| fue grandioso, hizo perfecto sentido, recomendará a otros | 1 |
+| fue genial, algo confuso, recomendará a otros | 1 |
+| no fue genial, muy confuso, no se lo recomendaré a otros | 1 |
 
 {style="table-layout:auto"}
 
@@ -912,8 +914,8 @@ Usted crea un `Second Response` campo derivado para tomar el último valor de [!
 
 | Primera respuesta | Eventos |
 |---|--:|
-| era bueno | 2 |
-| no era bueno | 1 |
+| fue genial | 2 |
+| no fue genial | 1 |
 
 {style="table-layout:auto"}
 
