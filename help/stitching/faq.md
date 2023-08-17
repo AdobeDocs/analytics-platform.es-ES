@@ -3,10 +3,10 @@ title: Preguntas frecuentes sobre vinculación
 description: Preguntas frecuentes sobre la vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
+source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 35%
+source-wordcount: '1299'
+ht-degree: 42%
 
 ---
 
@@ -45,11 +45,11 @@ El ID transitorio anula al ID persistente, por lo que los dispositivos compartid
 
 En algunas situaciones, un usuario individual puede asociarse con muchos ID persistentes. Un ejemplo es una persona que borra las cookies del explorador con frecuencia o que utiliza el modo privado/de incógnito del explorador.
 
-El número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de Customer Journey Analytics para crear vínculos entre los distintos dispositivos.
+El número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad del Customer Journey Analytics para crear vínculos entre los distintos dispositivos.
 
 +++
 
-+++**Una vez que contacto con mi equipo de cuenta de Adobe y le proporciono la información deseada, ¿cuánto tiempo tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?**
++++**Tras contactar con el equipo de cuentas de Adobe y proporcionarle la información deseada, ¿cuánto tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?**
 
 La vinculación en tiempo real está disponible aproximadamente una semana después de que el Adobe active la vinculación. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
 
@@ -78,14 +78,35 @@ Si el campo ID persistente está en blanco en un evento de un conjunto de datos 
 
 +++
 
+
++++**¿Qué sucede si el campo ID transitorio de uno o varios eventos tiene valores de marcador de posición, como &quot;Indefinido&quot;?**
+
+Tenga cuidado con el &quot;colapso de persona&quot;, que se produce cuando se aplica la vinculación a datos que utilizan valores de marcador de posición para ID transitorios. En la tabla de ejemplo siguiente, los ID de persona no definidos procedentes de un conjunto de datos procedentes de un sistema CRM se rellenan con el valor &quot;No definido&quot;, lo que da como resultado una representación incorrecta de las personas.
+
+| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID transitorio (ID de inicio de sesión) | ID vinculado (después de la reproducción) |
+|---|---|---|---|---|
+| 1 | 2023-05-12 12:01 | 123 | - | **Cory** |
+| 2 | 2023-05-12 12:02 | 123 | Cory | **Cory** |
+| 3 | 2023-05-12 12:03 | 456 | Indefinido | **Indefinido** |
+| 4 | 2023-05-12 12:04 | 456 | - | **Indefinido** |
+| 5 | 2023-05-12 12:05 | 789 | Indefinido | **Indefinido** |
+| 6 | 2023-05-12 12:06 | 012 | Indefinido | **Indefinido** |
+| 7 | 2023-05-12 12:07 | 012 | - | **Indefinido** |
+| 8 | 2023-05-12 12:03 | 789 | Indefinido | **Indefinido** |
+| 9 | 2023-05-12 12:09 | 456 | - | **Indefinido** |
+| 10 | 2023-05-12 12:02 | 123 | - | **Cory** |
+| | | **4 dispositivos** | **2 personas**:<br/>Eventos 1, 4, 7, 9, 10 perdidos | **2 personas**:<br/>Cory, no autenticado (contraído a una persona) |
+
++++
+
 +++**¿En qué se parecen las métricas de los conjuntos de datos enlazados por el Customer Journey Analytics y las de los conjuntos de datos no enlazados por el Customer Journey Analytics y las de Adobe Analytics?**
 
 Ciertas métricas en Customer Journey Analytics son similares a las métricas en la versión tradicional de Analytics, pero otras son diferentes, según lo que esté comparando. La siguiente tabla compara varias métricas comunes:
 
-| **datos vinculados del Customer Journey Analytics** | **datos no enlazados del Customer Journey Analytics** | **Adobe Analytics** | **Analytics Ultimate con CDA** |
+| **Datos vinculados de Customer Journey Analytics** | **Datos no vinculados de Customer Journey Analytics** | **Adobe Analytics** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
 | **People** = Recuento de ID de persona diferentes donde el ID vinculado se elige como ID de persona. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **People** = Recuento de ID de persona distintos en función de la columna seleccionada como ID de persona. **People** en los conjuntos de datos del conector de origen de Analytics es similar a **Visitantes únicos** en Adobe Analytics tradicional si `endUserIDs._experience.aaid.id` se utiliza como ID de persona en Customer Journey Analytics. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
-| **Sesiones**: se define en función de la configuración de sesión en la vista de datos del Customer Journey Analytics. El proceso de identificación entre dispositivos puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: se define en función de la configuración de sesión especificada en la vista de datos del Customer Journey Analytics. | **Visitas**: consulte [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es). | **Visitas**: se define en función de la configuración de sesiones especificada en el [grupo de informes virtuales de CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=es). |
+| **Sesiones**: se define en función de la configuración de sesiones en la vista de datos de Customer Journey Analytics. El proceso de identificación entre dispositivos puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: se define en función de la configuración de sesiones especificada en la vista de datos de Customer Journey Analytics. | **Visitas**: consulte [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es). | **Visitas**: se define en función de la configuración de sesiones especificada en el [grupo de informes virtuales de CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=es). |
 | **Eventos** = recuento de filas en los datos enlazados en Customer Journey Analytics. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. Sin embargo, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un ID persistente en blanco. | **Eventos** = recuento de filas en los datos no enlazados en Customer Journey Analytics. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. Sin embargo, tenga en cuenta que si algún evento tiene un ID de persona en blanco en los datos no enlazados en el lago de datos del Experience Platform, estos eventos no se incluyen en el Customer Journey Analytics. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). |
 
 Otras métricas pueden ser similares en Customer Journey Analytics y Adobe Analytics. Por ejemplo, el recuento total de Adobe Analytics [eventos personalizados](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=es) 1-100 es comparable entre Adobe Analytics tradicional y el Customer Journey Analytics (ya se haya vinculado o no). [Diferencias en las capacidades](/help/getting-started/aa-vs-cja/cja-aa.md)), como la deduplicación de eventos entre Customer Journey Analytics y Adobe Analytics, puede causar discrepancias entre los dos productos.

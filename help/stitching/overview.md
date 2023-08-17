@@ -3,10 +3,10 @@ title: Información general de vinculación
 description: Información general sobre la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 26%
+source-wordcount: '1265'
+ht-degree: 25%
 
 ---
 
@@ -117,10 +117,14 @@ La vinculación es una característica innovadora y sólida, pero tiene limitaci
 * El campo de ID transitorio debe contener un solo tipo de ID ( ID de un solo área de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
 * Si se producen varios eventos con la misma marca de tiempo para el mismo ID persistente, pero con valores diferentes en el campo de ID transitorio, la identificación se selecciona en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro Ann, al vincular se selecciona Ann.
 * Si varias personas comparten un dispositivo y el número total de transiciones entre usuarios supera las 50 000, el Customer Journey Analytics deja de vincular datos para ese dispositivo.
+* Tenga cuidado con los escenarios en los que los ID transitorios contienen valores de marcador de posición, por ejemplo, &quot;Sin definir&quot;. Consulte [FAQ](faq.md) para obtener más información.
 
 No confunda la vinculación con:
 
 * La combinación de dos o más conjuntos de datos. La vinculación solo se aplica a un conjunto de datos. La combinación de conjuntos de datos se produce como resultado de la configuración de una conexión de Customer Journey Analytics y la selección del mismo ID de persona en los conjuntos de datos seleccionados en la conexión.
 
 * La unión de dos conjuntos de datos. En Customer Journey Analytics, una unión se utiliza a menudo para búsquedas o clasificaciones en Analysis Workspace. Aunque la vinculación utiliza la funcionalidad de unión, el proceso en sí mismo implica mucho más que uniones.
+
+
+
 
