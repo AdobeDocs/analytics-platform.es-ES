@@ -4,9 +4,9 @@ description: Un campo derivado especifica la manipulación en tiempo de informe 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 29b7034dccb93ab78f340e142c3c26b1e86b6644
+source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
 workflow-type: tm+mt
-source-wordcount: '4378'
+source-wordcount: '4433'
 ht-degree: 15%
 
 ---
@@ -426,7 +426,7 @@ Define un conjunto de valores que se reemplazan por los valores correspondientes
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para clasificar]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>[!UICONTROL Cuando el valor es igual a] y [!UICONTROL Reemplazar valores por]:</p><ul><li>Cadena</li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para clasificar]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>[!UICONTROL Cuando el valor es igual a] y [!UICONTROL Reemplazar valores por]:</p><ul><li>Cadena</li></ul><li>Mostrar valores originales<ul><li>Booleano</li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -443,6 +443,7 @@ Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una [!DNL 
 | [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
 | [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
 | [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
+| [!DNL AMS789] | [!DNL Amsterdam] | 50 | [!DNL Okura] |
 
 {style="table-layout:auto"}
 
@@ -453,6 +454,7 @@ Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una [!DNL 
 | [!DNL SLC123] | 200 |
 | [!DNL LX342] | 198 |
 | [!DNL SFO456] | 190 |
+| [!DNL AMS789] | 150 |
 
 {style="table-layout:auto"}
 
@@ -474,6 +476,7 @@ Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una [!DNL 
 | [!DNL SLC123] |
 | [!DNL LAX342] |
 | [!DNL SFO456] |
+| [!DNL AMS789] |
 
 {style="table-layout:auto"}
 
@@ -482,7 +485,9 @@ Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una [!DNL 
 
 Usted define un `Hotel Name` campo derivado. Utilice el [!UICONTROL CLASIFICAR] función para definir una regla en la que se pueden clasificar los valores de [!UICONTROL ID de hotel] y reemplace con valores nuevos.
 
-![Captura de pantalla de la regla de clasificación 1](assets/lookup-1.png)
+Si desea incluir valores originales que no ha definido como parte de los valores que se van a clasificar (por ejemplo, ID de hotel AMS789), asegúrese de seleccionar **[!UICONTROL Mostrar valores originales]**. Esto garantiza que AMS789 forme parte de la salida del campo derivado, a pesar de que ese valor no se clasifique.
+
+![Captura de pantalla de la regla de clasificación 1](assets/classify-1.png)
 
 ### Datos después de {#classify-uc1-dataafter}
 
@@ -517,7 +522,7 @@ Ha recopilado direcciones URL en lugar del nombre de página descriptivo de vari
 
 Usted define un `Page Name (updated)` campo derivado. Utilice el [!UICONTROL CLASIFICAR] función para definir una regla en la que se pueden clasificar los valores de los [!UICONTROL Nombre de página] y reemplace con valores correctos actualizados.
 
-![Captura de pantalla de la regla de clasificación 2](assets/lookup-2.png)
+![Captura de pantalla de la regla de clasificación 2](assets/classify-2.png)
 
 ### Datos después de {#classify-uc2-dataafter}
 
