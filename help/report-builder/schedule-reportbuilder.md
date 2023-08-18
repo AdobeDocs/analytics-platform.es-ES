@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: d40638272263a389421adfe224649e2b905c652b
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 90%
@@ -93,7 +93,7 @@ Puede ver y administrar todos los libros programados en un mismo lugar en la pes
 
 1. Seleccione un libro. Se muestran varias herramientas que le permiten editar el libro, editar la tarea de programación, pausar y reiniciar la tarea de programación, descargar un informe de tarea programada o eliminar la tarea de programación.
 
-   ![Captura de pantalla que muestra los iconos de programación del libro.](./assets/schedule-icons.png){width="15%"}
+   ![Captura de pantalla que muestra los iconos de programación del libro.](./assets/schedule-icons.png){width="20%"}
 
 * (Opcional) Haga clic en el icono de lápiz para editar la tarea de programación del libro.
 
@@ -105,7 +105,7 @@ Puede ver y administrar todos los libros programados en un mismo lugar en la pes
 
 * (Opcional) Haga clic en la papelera para eliminar la tarea programada.
 
-  ![Captura de pantalla que muestra la lista de tareas programadas.](./assets/selected-workbook.png){width="20%"}
+  ![Captura de pantalla que muestra la lista de tareas programadas.](./assets/selected-workbook.png){width="40%"}
 
 ## Revisar el estado de las tareas programadas
 
