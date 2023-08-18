@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: fe52730e3904ba5ccc5d1e7e5ff89eed8a575fbc
+source-git-commit: bc82cd376a082b55f915c1e27f6fcec861989b00
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 83%
+source-wordcount: '607'
+ht-degree: 74%
 
 ---
 
@@ -62,6 +62,12 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
    - Los componentes de Dimensión se añaden a la sección Fila o a la sección Columna si ya tiene una dimensión en las columnas.
    - Los componentes de fecha se añaden a la sección Columna.
    - Los componentes de filtro se añaden a la sección Filtros.
+
+   **Fecha de inicio como Dimension**
+
+   Establezca la Fecha de inicio como una dimensión para identificar claramente la fecha de inicio del bloque de datos. Esto resulta útil si tiene un informe programado regularmente que tiene un intervalo de fechas móvil o si tiene un intervalo de fechas no convencional y necesita no mencionar la fecha de inicio.
+
+   ![Captura de pantalla que muestra la fecha de inicio en la lista de dimensiones.](./assets/start-date-dimension.png){width="15%"}
 
 1. Organice los elementos del panel Tabla para personalizar el diseño del bloque de datos.
 

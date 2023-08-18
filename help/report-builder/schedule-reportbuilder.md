@@ -1,15 +1,15 @@
 ---
 title: Programación de libros mediante Report Builder en Customer Journey Analytics
-description: Describe cómo utilizar la función de programación en Report Builder
+description: Aprenda a utilizar la función de programación en Report Builder
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: cd3ed8873619c7fb5281d42b1f74c32b245400d0
-workflow-type: ht
-source-wordcount: '1078'
-ht-degree: 100%
+source-git-commit: d40638272263a389421adfe224649e2b905c652b
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 90%
 
 ---
 
@@ -91,17 +91,21 @@ Puede ver y administrar todos los libros programados en un mismo lugar en la pes
 
 1. En la sección Programación del centro de Report Builder, haga clic en la pestaña Libros. Utilice esta vista para ver una lista de todos los libros programados.
 
-1. Seleccione un libro. Se muestran varias herramientas que permiten editar el libro de trabajo, cambiar la programación, pausar y reiniciar la programación o eliminar la programación.
+1. Seleccione un libro. Se muestran varias herramientas que le permiten editar el libro, editar la tarea de programación, pausar y reiniciar la tarea de programación, descargar un informe de tarea programada o eliminar la tarea de programación.
 
-   ![Descripción alt.](./assets/edit-icons.png){width="55%"}
+   ![Captura de pantalla que muestra los iconos de programación del libro.](./assets/schedule-icons.png){width="15%"}
 
-* (Opcional) Haga clic en el icono de lápiz para editar la programación del libro de trabajo.
+* (Opcional) Haga clic en el icono de lápiz para editar la tarea de programación del libro.
 
 * (Opcional) Haga clic en el icono de reloj para ver el historial de cada tarea programada.
 
-* (Opcional) Haga clic en el icono de pausa para pausar y reiniciar la programación de distribución. Esto resulta útil si necesita modificar el libro antes de enviarlo. Vuelva a hacer clic en el icono de pausa cuando desee reiniciar la distribución.
+* (Opcional) Haga clic en el icono de pausa para pausar y reiniciar la tarea de programación de distribución. Esto resulta útil si necesita modificar el libro antes de enviarlo. Vuelva a hacer clic en el icono de pausa cuando desee reiniciar la distribución.
 
-* (Opcional) Haga clic en la papelera para eliminar la programación.
+* (Opcional) Haga clic en el icono de descarga para descargar una copia de la tarea de programación del libro.
+
+* (Opcional) Haga clic en la papelera para eliminar la tarea programada.
+
+  ![Captura de pantalla que muestra la lista de tareas programadas.](./assets/selected-workbook.png){width="20%"}
 
 ## Revisar el estado de las tareas programadas
 
