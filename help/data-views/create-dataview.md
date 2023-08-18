@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
 workflow-type: tm+mt
 source-wordcount: '1418'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ Puede filtrar los campos de esquema ![Icono de filtro](https://spectrum.adobe.co
 
 >[!TIP]
 >
->Si los componentes no se cargan correctamente en la vista de datos y ve un mensaje de error en su lugar, consulte [Falta de permisos](../troubleshooting/lack-of-permissions.md) para obtener una resolución.
+>Si los componentes no se cargan correctamente en la vista de datos y ve un mensaje de error en su lugar, consulte [Falta de permisos](../troubleshooting/lack-of-permissions.md) para resolverlo.
 
 
 

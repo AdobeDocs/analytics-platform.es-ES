@@ -8,7 +8,7 @@ exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
 workflow-type: tm+mt
 source-wordcount: '1479'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,4 +110,4 @@ Customer Journey Analytics amplía los conceptos de identidades más allá de lo
 
 ## Cambios en el concepto de elemento de dimensión de poco tráfico
 
-En Adobe Analytics tradicional, una variable que recibe demasiados valores únicos comienza a agrupar los elementos de dimensión en [!UICONTROL Poco tráfico]. Customer Journey Analytics tiene menos limitaciones en los campos de alta cardinalidad. Los cambios en la arquitectura de informes permiten a Analysis Workspace crear informes sobre muchos elementos de dimensión únicos más. Consulte [Dimensiones de alta cardinalidad](../components/dimensions/high-cardinality.md) para obtener más información sobre cómo Customer Journey Analytics optimiza los informes para dimensiones con muchos valores únicos.
+En Adobe Analytics tradicional, una variable que recibe demasiados valores únicos comienza a agrupar los elementos de dimensión en [!UICONTROL Poco tráfico]. Customer Journey Analytics tiene menos limitaciones en los campos de alta cardinalidad. Los cambios en la arquitectura de informes permiten a Analysis Workspace crear informes sobre muchos elementos de dimensión únicos más. Consulte [Dimensiones de cardinalidad alta](../components/dimensions/high-cardinality.md) para obtener más información sobre cómo Customer Journey Analytics optimiza los informes para dimensiones con muchos valores únicos.
