@@ -3,10 +3,10 @@ title: Información general de vinculación
 description: Información general sobre la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+source-git-commit: 52d47e777e8c9f7e1e73f4131f19d7df280cb2a3
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 25%
+source-wordcount: '1322'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ Cuando combina conjuntos de datos con ID de personas similares, la atribución s
 
 Lamentablemente, no todos los conjuntos de datos basados en eventos que forman parte de la conexión en Customer Journey Analytics están suficientemente rellenados con datos para admitir esta atribución de forma predeterminada. En especial, los conjuntos de datos de experiencias basados en la web o en dispositivos móviles a menudo no tienen una información de ID de persona real disponible en todos los eventos.
 
-La configuración permite volver a incrustar identidades en las filas de un conjunto de datos, asegurándose de que el ID de persona (ID vinculado) esté disponible en cada evento. La vinculación busca los datos de usuario de las sesiones autenticadas y no autenticadas para determinar el valor de ID transitorio común que se puede utilizar como ID vinculado. Esto permite resolver registros dispares en un único ID vinculado para su análisis en el nivel de la persona, en lugar de en el nivel de dispositivo o cookie.
+La configuración permite volver a incrustar identidades en las filas de un conjunto de datos, asegurándose de que el ID de persona (ID vinculado) esté disponible en cada evento. La vinculación busca los datos de usuario de las sesiones autenticadas y no autenticadas para determinar el valor de ID transitorio común que se puede utilizar como ID vinculado. Esta regeneración de claves permite resolver registros dispares en un único ID vinculado para su análisis en el nivel de la persona, en lugar de en el nivel de dispositivo o cookie.
 
 Se beneficia del análisis en canales múltiples si combina uno o más de los conjuntos de datos enlazados con otros conjuntos de datos, como los datos del centro de llamadas, como parte de la definición de la conexión de Customer Journey Analytics. Esto supone que esos otros conjuntos de datos ya contienen un ID de persona en cada fila, similar al ID vinculado.
 
@@ -102,9 +102,11 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 
 >[!IMPORTANT]
 >
->Aplique cualquier cambio que realice en el esquema del conjunto de datos de evento global también al nuevo esquema del conjunto de datos vinculado; de lo contrario, este se romperá.
+>* Aplique cualquier cambio que realice en el esquema del conjunto de datos de evento global también al nuevo esquema del conjunto de datos vinculado; de lo contrario, este se romperá.
 >
->Además, si elimina el conjunto de datos de origen, el conjunto de datos enlazado detiene el procesamiento y el sistema lo elimina.
+>* Si elimina el conjunto de datos de origen, el conjunto de datos enlazado detiene el procesamiento y el sistema lo elimina.
+>
+>* Las etiquetas de uso de datos no se propagan automáticamente al esquema del conjunto de datos vinculado. Si tiene etiquetas de uso de datos aplicadas al esquema del conjunto de datos de origen, debe aplicar manualmente estas etiquetas de uso de datos al esquema del conjunto de datos vinculado. Consulte [Administración de etiquetas de uso de datos en Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=es) para obtener más información.
 
 La vinculación es una característica innovadora y sólida, pero tiene limitaciones en cuanto a su uso.
 
@@ -123,7 +125,7 @@ No confunda la vinculación con:
 
 * La combinación de dos o más conjuntos de datos. La vinculación solo se aplica a un conjunto de datos. La combinación de conjuntos de datos se produce como resultado de la configuración de una conexión de Customer Journey Analytics y la selección del mismo ID de persona en los conjuntos de datos seleccionados en la conexión.
 
-* La unión de dos conjuntos de datos. En Customer Journey Analytics, una unión se utiliza a menudo para búsquedas o clasificaciones en Analysis Workspace. Aunque la vinculación utiliza la funcionalidad de unión, el proceso en sí mismo implica mucho más que uniones.
+* La unión de dos conjuntos de datos. En Customer Journey Analytics, una unión se utiliza a menudo para búsquedas o clasificaciones en Analysis Workspace. Aunque la vinculación utiliza la funcionalidad de unión, el proceso en sí mismo implica más que uniones.
 
 
 
