@@ -3,16 +3,16 @@ title: Resumen de publicación de audiencias de Customer Journey Analytics
 description: Obtenga información sobre el concepto de publicación de audiencias en Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 3a3122934e0fb3d89ac94cc8be8799d43dd1c987
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '516'
 ht-degree: 54%
 
 ---
 
 # Resumen de publicación de audiencia de Customer Journey Analytics
 
-Ahora puede crear y publicar audiencias descubiertas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) (RTCDP) en Adobe Experience Platform para la segmentación y personalización de clientes.
+Ahora puede crear y publicar audiencias descubiertas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes.
 
 Las audiencias de publicación proporcionan una forma clara de activar y actuar en función de las perspectivas que se encuentran en Customer Journey Analytics. Estas acciones pueden incluir:
 
@@ -22,7 +22,7 @@ Las audiencias de publicación proporcionan una forma clara de activar y actuar 
 * Haciendo todo esto con una latencia mínima después de la publicación de la audiencia. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency)
 * Publicación de audiencias únicas o recurrentes.
 
-Las audiencias que cree en Customer Journey Analytics no tienen por qué basarse en conjuntos de datos habilitados para el perfil. Puede introducir datos históricos en Experience Platform sin habilitar los conjuntos de datos y esquemas asociados para el perfil. A continuación, utilice estos conjuntos de datos para detectar audiencias relevantes en Customer Journey Analytics y publique estas audiencias en RTCDP en Experience Platform para fines de activación.
+Las audiencias que cree en Customer Journey Analytics no tienen por qué basarse en conjuntos de datos habilitados para el perfil. Puede introducir datos históricos en Experience Platform sin habilitar los conjuntos de datos y esquemas asociados para el perfil. A continuación, utilice estos conjuntos de datos para detectar audiencias relevantes en Customer Journey Analytics y publicar estas audiencias en el Perfil del cliente en tiempo real en Experience Platform para fines de activación.
 
 ## Terminología clave
 
