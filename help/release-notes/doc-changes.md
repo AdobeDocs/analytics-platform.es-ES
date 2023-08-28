@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: e9c6aba709d0e75a42a16b455612e0cad1428779
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Agosto de 2023** | |
-| Panel Tiempo invertido en la reproducción de medios | Contenido actualizado para  [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) para mejorar la legibilidad. |
-| Mejoras de Report Builder | Contenido actualizado para [Programar libros](/help/report-builder/schedule-reportbuilder.md) para proporcionar información para descargar tareas programadas. Contenido actualizado para  [Creación de un bloque de datos](/help/report-builder/create-a-data-block.md) para proporcionar información sobre el uso de Fecha de inicio como dimensión. |
-| Se ha movido contenido sobre la administración de proyectos programados | Se ha creado un nuevo artículo en la Guía de componentes de Analytics llamado [Proyectos programados](/help/components/scheduled-projects-manager.md). Este contenido se encontraba anteriormente en [Programar proyectos](/help/analysis-workspace/curate-share/t-schedule-report.md) en la Guía de herramientas de Analytics. |
+| Panel Tiempo invertido en la reproducción de medios | Contenido actualizado del [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) para mejorar la legibilidad. |
+| Mejoras de Report Builder | Contenido actualizado de [Programación de libros](/help/report-builder/schedule-reportbuilder.md) para proporcionar información para descargar tareas programadas. Contenido actualizado de [Creación de un bloque de datos](/help/report-builder/create-a-data-block.md) para proporcionar información sobre el uso de Fecha de inicio como dimensión. |
+| Se ha movido contenido acerca de la administración de proyectos programados | Se ha creado un nuevo artículo en la Guía de componentes de Analytics llamado [Proyectos programados](/help/components/scheduled-projects-manager.md). Este contenido se encontraba anteriormente en [Programar proyectos](/help/analysis-workspace/curate-share/t-schedule-report.md) en la Guía de herramientas de Analytics. |
 | Compatibilidad con las funciones de Adobe Customer Journey Analytics | Se ha añadido más información en la tabla *Compatible de una nueva forma* sobre las funcionalidades de la definición de sesiones en Customer Journey Analytics en comparación con Adobe Analytics. [Más información](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Evolución desde Adobe Analytics | Se ha actualizado la sección *reconfiguración de canales de marketing* con una referencia a la plantilla de función de canales de marketing de Campos derivados. [Más información](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Guías de inicio rápido de ingesta de datos para aplicaciones móviles y otras plataformas | Se han añadido guías de inicio rápido de ingesta de datos adicionales que describen cómo ingerir y utilizar datos de aplicaciones móviles u otras plataformas (como aplicaciones de escritorio, juegos en consolas, aplicaciones en decodificadores y dispositivos de IoT) en Customer Journey Analytics. [Más información](../data-ingestion/data-ingestion.md) |
