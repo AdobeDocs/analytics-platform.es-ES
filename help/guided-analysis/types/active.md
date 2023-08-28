@@ -3,9 +3,10 @@ title: Vista activa
 description: Identifique quién es nuevo, retenido, que regresa o está inactivo.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+keywords: análisis de productos
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '597'
 ht-degree: 1%
 
 ---

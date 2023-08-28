@@ -2,9 +2,10 @@
 title: Vista de crecimiento neto
 description: ¿Está ganando o perdiendo usuarios?
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+keywords: análisis de productos
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ Cada punto de datos representa el crecimiento neto, que se calcula mediante la s
 
 `([New users] + [Return users]) / [Dormant users]`
 
-El resultado de esta fórmula es una proporción. Un crecimiento neto de `1` representa un equilibrio; el producto ganó el mismo número de usuarios que perdió. Un crecimiento neto bueno que `1` representa un crecimiento positivo; había más usuarios nuevos y recurrentes que usuarios inactivos. Del mismo modo, un crecimiento neto menor que `1` representa una pérdida; había más usuarios inactivos que nuevos usuarios + que devolvían.
+El resultado de esta fórmula es una proporción. Un crecimiento neto de `1` representa un equilibrio; el producto ganó el mismo número de usuarios que perdió. Un crecimiento neto superior a `1` representa un crecimiento positivo; había más usuarios nuevos y recurrentes que usuarios inactivos. Del mismo modo, un crecimiento neto menor que `1` representa una pérdida; había más usuarios inactivos que nuevos usuarios + que devolvían.
 
 Similar a la [Activo](active.md) Tipo de vista, los usuarios se definen de la siguiente manera:
 

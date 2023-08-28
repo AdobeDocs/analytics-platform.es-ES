@@ -2,9 +2,10 @@
 title: Casos de uso del sector
 description: Casos de uso del sector para un análisis guiado
 feature: Guided Analysis
-source-git-commit: 795a5713cdfaec7ab54966d02da7dba47d0e362c
+keywords: análisis de productos
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
