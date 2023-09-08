@@ -4,7 +4,7 @@ description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: 8f299dad39678047d362291cfe8a2a3c116071dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
