@@ -3,10 +3,10 @@ title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 15853fe7f37b1f0a3088f8dc108d7c65f1ef470a
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 61%
+source-wordcount: '1608'
+ht-degree: 60%
 
 ---
 
@@ -92,7 +92,7 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 | No se muestra | Conector de origen de Adobe Analytics a Analytics (A4T) | Hasta 30 minutos |
 | 1 | Ingesta de datos en el lago de datos (desde el conector de origen de Analytics u otras fuentes) | Hasta 90 minutos |
 | 2 | Ingesta de datos del lago de datos de Experience Platform en Customer Journey Analytics | Hasta 90 minutos |
-| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos. | Unos 60 minutos |
+| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos.<p>**Nota**: la audiencia se crea/define en el Experience Platform en un plazo de 1 a 2 minutos. Sin embargo, la audiencia tarda unos 60 minutos en recibir los ID según los criterios coincidentes y está lista para la activación. | Unos 60 minutos |
 | 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
 | 5 | Creación del destino en Adobe Experience Platform: Activación del nuevo segmento | 1 a 2 horas |
 
