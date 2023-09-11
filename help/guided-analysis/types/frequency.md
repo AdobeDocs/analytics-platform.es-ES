@@ -3,9 +3,9 @@ title: Vista de frecuencia
 description: Medir la participación en función de la frecuencia de uso.
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: 1e095720301f3e59e88674d086f5e0de9df88872
+source-git-commit: 77192426a58e1560abe91b904452b9cd46c862e9
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 3%
 # [!UICONTROL Frecuencia] vista
 
 El **[!UICONTROL Frecuencia]** ver datos de eventos de grupos según la frecuencia con la que se ve un evento. El eje vertical de este informe contiene bloques que representan la frecuencia de los eventos vistos. El eje horizontal mide el número de usuarios o sesiones para cada bloque.
+
+![Captura de pantalla Frecuencia](../assets/frequency-stacked.png)
 
 ## Casos prácticos
 
