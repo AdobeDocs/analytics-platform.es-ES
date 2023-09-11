@@ -4,10 +4,10 @@ description: Un campo derivado especifica la manipulación en tiempo de informe 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
+source-git-commit: 9dbda5000c1d0930fac782b5e3cf382ed6b99a85
 workflow-type: tm+mt
-source-wordcount: '4433'
-ht-degree: 15%
+source-wordcount: '5056'
+ht-degree: 16%
 
 ---
 
@@ -62,7 +62,7 @@ Cuando define una regla en el generador de reglas, utiliza la interfaz de reglas
 | A | **Nombre de regla** | De forma predeterminada, el nombre de la regla es **Regla X** (X hace referencia a un número de secuencia). Para editar el nombre de una regla, seleccione su nombre y escriba el nuevo nombre, por ejemplo `Query Parameter`. |
 | B | **Nombre de función** | El nombre de función seleccionado para la regla, por ejemplo [!UICONTROL ANÁLISIS DE URL]. Cuando la función es la última de la secuencia de funciones y determina los valores de salida finales, el nombre de la función va seguido de [!UICONTROL - SALIDA FINAL], por ejemplo [!UICONTROL ANÁLISIS DE URL: SALIDA FINAL]. <br/>Para mostrar una ventana emergente con más información sobre la función, seleccione ![Icono de ayuda](assets/Smock_HelpOutline_18_N.svg). |
 | C | **Descripción de regla** | Si lo desea, puede agregar una descripción a una regla.<br/>Seleccionar ![Icono Más](assets/More.svg), luego seleccione **[!UICONTROL ** Agregar descripción **]** para añadir una descripción o **[!UICONTROL ** Editar descripción **]** para editar una descripción existente.<br/>Utilice el editor para introducir una descripción. Puede utilizar la barra de herramientas para dar formato al texto (mediante el selector de estilo, negrita, cursiva, subrayado, derecha, izquierda, centrado, color, lista de números, lista de viñetas) y agregar vínculos a información externa. <br/>Para terminar de editar la descripción, haga clic fuera del editor. |
-| D | **Área de funciones** | Define la lógica de la función. La interfaz depende del tipo de función. El menú desplegable de [!UICONTROL Campo] o [!UICONTROL Valor] muestra todas las categorías de campos (reglas, campos estándar, campos) disponibles, según el tipo de entrada que espera la función. Consulte [Referencia de función](#function-reference) en información detallada para cada una de las funciones admitidas. |
+| D | **Área de funciones** | Define la lógica de la función. La interfaz depende del tipo de función. El menú desplegable de [!UICONTROL Campo] o [!UICONTROL Valor] muestra todas las categorías de campos (reglas, campos estándar, campos) disponibles, según el tipo de entrada que espera la función. <!-- Alternatively, you can drag and drop a field from the Schema and Standard fields selector on to a Field or Value. When that dragged field is originating from a Lookup dataset, a Lookup function is automatically inserted before the function you define.  See [Function reference](#function-reference) on detailed information for each of the functions supported. --> |
 
 {style="table-layout:auto"}
 
@@ -413,9 +413,6 @@ Las siguientes restricciones se aplican y se aplican cuando *selección* y *conf
 
 Define un conjunto de valores que se reemplazan por los valores correspondientes en un nuevo campo derivado.
 
-
-
-
 +++ Detalles
 
 >[!NOTE]
@@ -426,7 +423,7 @@ Define un conjunto de valores que se reemplazan por los valores correspondientes
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para clasificar]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>[!UICONTROL Cuando el valor es igual a] y [!UICONTROL Reemplazar valores por]:</p><ul><li>Cadena</li></ul><li>Mostrar valores originales<ul><li>Booleano</li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para clasificar]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>[!UICONTROL Cuando el valor es igual a] y [!UICONTROL Reemplazar valores por]:</p><ul><li>Cadena</li></ul><li>Mostrar valores originales<ul><li>Booleano</li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado<br/>100 filas por función</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -535,6 +532,17 @@ Usted define un `Page Name (updated)` campo derivado. Utilice el [!UICONTROL CLA
 | [!DNL Deals & Offers] |
 | [!DNL Reviews] |
 | [!DNL Generate Quote] |
+
+
+## Más información {#classify-moreinfo}
+
+La siguiente funcionalidad adicional está disponible en la interfaz de reglas de clasificación:
+
+- Para borrar rápidamente todos los valores de la tabla, seleccione ![Borrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL Borrar todos los valores de tabla]**.
+- Para cargar un archivo CSV que contenga valores originales para Cuando los valores sean iguales a los nuevos valores para Reemplazar valores por, seleccione ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Cargar CSV]**.
+- Para descargar una plantilla para crear un archivo CSV con los valores originales y nuevos que desea cargar, seleccione ![Descargar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Descargar plantilla CSV]**.
+- Para descargar un archivo CSV con todos los valores originales y nuevos rellenados en la interfaz de reglas, seleccione ![Descargar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Descargar valores CSV]**.
+
 
 +++
 
@@ -680,6 +688,108 @@ Usted define un `Email Marketing (updated)` campo derivado. Utilice el [!UICONTR
 | [!DNL email marketing] |
 | [!DNL email marketing] |
 | [!DNL email marketing] |
+
+{style="table-layout:auto"}
+
++++
+
+
+<!-- LOOKUP
+
+### Lookup
+
+Lookup values using a field from a lookup dataset and returns value in a new derived field or for further rule processing.
+
++++ Details
+
+## Specification {#lookup-io}
+
+| Input Data Type | Input | Included Operators | Limit | Output |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeric</li><li>Date</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:</li><ul><li>Rules</li><li>Standard fields</li><li>Fields</li></ul><li>[!UICONTROL Lookup dataset]</li><ul><li>Dataset</li></ul><li>[!UICONTROL Matching key]<ul><li>Rules</li><li>Fields</li></ul></li><li>Values to return<ul><li>Rules</li><li>Fields</li></ul></li></ul> | <p>N/A</p> | <p>3 functions per derived field</p> | <p>New derived field or value for further processing in next rule</p> |
+
+{style="table-layout:auto"}
+
+## Use case {#lookup-uc}
+
+You would like to lookup the activity name using the activity id collected when your customers clicked on a personalized banner shown through Adobe Target. You want to use a lookup dataset with Analytics for Target (A4T) activities containing activity ids and activity names.
+
+### A4T lookup dataset {#lookup-uc-lookup}
+
+| Activity Id | Activity Name |
+|---|---|
+| 415851 | MVT Test Category Pages |
+| 415852 | Luma - Campaign Max 2022 |
+| 402922 | Home Page Banners |
+
+{style="table-layout:auto"}
+
+### Derived field {#lookup-uc-derivedfield}
+
+You define an `Activity Name` derived field. You use the [!UICONTROL LOOKUP] function to define a rule to lookup the value from your collected data, specified in the [!UICONTROL Field to apply lookup] field. You select the lookup dataset from the [!UICONTROL Lookup dataset] list, selecting the identifier field from the [!UICONTROL Matching key list] and the field to return from the [!UICONTROL Values to return] list.
+
+![Screenshot of the Lowercase rule](assets/lookup.png)
+
+## More info
+
+You can quickly insert a [!UICONTROL Lookup] function in the rule builder, already containing one or more other functions.
+
+  1. Select **[!UICONTROL Schema fields]** from selector.
+  1. Select ![Schema field icon](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
+  1. Select your lookup dataset and find the field you want to use for lookup.
+  1. Drag the lookup field and drop the field on any of the available input fields for a function (for example Case When). When valid, a blue **[!UICONTROL + Add box]** will allow you to drop the field and automatically insert a Lookup function before the function you dropped the lookup field on, and populate the Lookup function with relevant values for all fields.
+     ![Lookup drag](assets/lookup-drag.png) 
+
++++
+
+-->
+
+<!-- LOWERCASE -->
+
+### Minúsculas
+
+Convierte los valores de un campo a minúsculas y los almacena en un nuevo campo derivado.
+
++++ Detalles
+
+## Especificación {#lowercase-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
+|---|---|---|---|---|
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul> | <p>N/A</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+
+{style="table-layout:auto"}
+
+## Caso de uso {#lowercase-uc}
+
+Desea convertir todos los nombres de productos recopilados en minúsculas para un sistema de informes adecuado.
+
+### Datos anteriores {#lowercase-uc-databefore}
+
+| Nombres de productos recopilados | Vistas del producto |
+|---|---:|
+| Raqueta de tenis | 35 |
+| Raqueta de tenis | 33 |
+| raqueta de tenis | 21 |
+| Bate de béisbol | 15 |
+| Bate de béisbol | 12 |
+| bate de béisbol | 10 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#lowercase-uc-derivedfield}
+
+Usted define un `Product Names` campo derivado. Utilice el [!UICONTROL MINÚSCULAS] función para definir una regla para convertir el valor de [!UICONTROL Nombres de productos recopilados] para convertirlo en minúsculas y almacenarlo en el nuevo campo derivado.
+
+![Captura de pantalla de la regla en minúsculas](assets/lowercase.png)
+
+
+### Datos después de {#lowercase-uc-dataafter}
+
+| Nombres de productos | Vistas del producto |
+|---|---|
+| raqueta de tenis | 89 |
+| bate de béisbol | 37 |
 
 {style="table-layout:auto"}
 
@@ -938,6 +1048,119 @@ Usted crea un `Second Response` campo derivado para tomar el último valor de [!
 
 {style="table-layout:auto"}
 
++++
+
+
+<!-- TRIM -->
+
+### Recortar
+
+Recorta los espacios en blanco, los caracteres especiales o el número de caracteres desde el principio o el final de los valores de campo en un nuevo campo derivado.
+
++++ Detalles
+
+## Especificación {#trim-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
+|---|---|---|---|---|
+| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Recortar espacios en blanco</li><li>Recortar caracteres especiales<ul><li>Entrada de caracteres especiales</li></ul></li><li>Recortar desde la izquierda<ul><li>De <ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>variables</li></ul></li></ul></li><li>Recortar desde la derecha<ul><li>De <ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>variables</li></ul></li></ul></li></ul> | <p>N/A</p> | <p>1 función por campo derivado</p> | <p>Nuevo campo derivado</p> |
+
+{style="table-layout:auto"}
+
+## Caso de uso 1 {#trim-uc1}
+
+Los datos del producto se recopilan, pero esos datos contienen caracteres de espacio en blanco ocultos que son fragmentos de los informes. Desea recortar fácilmente cualquier espacio en blanco en exceso
+
+### Datos anteriores {#trim-uc1-databefore}
+
+| ID del producto | Eventos |
+|---|--:|
+| `"prod12356 "` | 1 |
+| `"prod12356"` | 1 |
+| `" prod12356"` | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#trim-u1-derivedfield}
+
+Usted crea un `Product Identifier` campo derivado. Utilice el [!UICONTROL RECORTAR] función para definir una regla para **[!UICONTROL Recortar espacio en blanco]** desde el **[!UICONTROL ID del producto]** field.
+
+![Captura de pantalla de la regla dividida 1](assets/trim-1.png)
+
+### Datos después de {#trim-uc1-dataafter}
+
+| Identificador de producto | Eventos |
+|---|--:|
+| `"prod12356 "` | 3 |
+
+{style="table-layout:auto"}
+
+## Caso de uso 2 {#trim-uc2}
+
+Los datos sobre los nombres de páginas recopilados incluyen algunos caracteres especiales erróneos al final del nombre de página que deben eliminarse.
+
+### Datos anteriores {#trim-uc2-databefore}
+
+| Nombre | Eventos |
+|---|--:|
+| página principal# | 1 |
+| página principal? | 1 |
+| página principal% | 1 |
+| página principal&amp; | 1 |
+| página principal/ | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#trim-u2-derivedfield}
+
+Usted crea un  `Page Name` campo derivado. Utilice el [!UICONTROL RECORTAR] función para definir una regla para [!UICONTROL Recortar caracteres especiales] desde el [!UICONTROL Nombre] mediante el campo [!UICONTROL Caracteres especiales] `#?%&/`.
+
+![Captura de pantalla de la regla Split: primer valor](assets/trim-2.png)
+
+### Datos después de {#trim-uc2-dataafter}
+
+| Nombre de la página | Eventos |
+|---|--:|
+| página principal | 5 |
+
+{style="table-layout:auto"}
+
+
+## Caso de uso 3 {#trim-uc3}
+
+Los datos se recopilan, incluido un ID de tienda. StoreID contiene el código de estado de EE. UU. abreviado como los dos primeros caracteres. Sólo desea utilizar ese código de estado en los informes.
+
+### Datos anteriores {#trim-uc3-databefore}
+
+| storeID | Eventos |
+|---|--:|
+| CA293842 | 1 |
+| CA423402 | 1 |
+| UT123418 | 1 |
+| UT189021 | 1 |
+| ID028930 | 1 |
+| OR234223 | 1 |
+| NV22342 | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#trim-u3-derivedfield}
+
+Usted crea un  `Store Identifier` campo derivado. Utilice el [!UICONTROL RECORTAR] función para definir una regla para [!UICONTROL Truncar desde la derecha] el [!UICONTROL storeID] campo de cadena de extremo a posición `3`.
+
+![Captura de pantalla de la regla Split: primer valor](assets/trim-3.png)
+
+### Datos después de {#trim-uc3-dataafter}
+
+| Identificador de tienda | Eventos |
+|---|--:|
+| CA | 2 |
+| UT | 2 |
+| ID | 1 |
+| O BIEN | 1 |
+| NV | 1 |
+
+{style="table-layout:auto"}
 +++
 
 
