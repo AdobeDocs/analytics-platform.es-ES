@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4aa9a525fb2ae291cc0c753524d09a81b88c4c3
+source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 99%
+source-wordcount: '2604'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Septiembre de 2023** | |
+| Funcionalidad adicional de campos derivados | Documentación actualizada para el nuevo [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) y [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) funciones y para las funciones CSV adicionales añadidas a la [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) función. |
 | Recopilación de datos regionales | Actualizado [FAQ](../getting-started/cja-faq.md#12-regional-data-collection) con información sobre la recopilación de datos regionales al utilizar Customer Journey Analytics. |
 | **Agosto de 2023** | |
 | Panel Tiempo invertido en la reproducción de medios | Contenido actualizado del [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) para mejorar la legibilidad. |
