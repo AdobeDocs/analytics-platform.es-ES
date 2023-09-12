@@ -4,10 +4,10 @@ description: Un método de análisis de datos en Customer Journey Analytics que 
 keywords: análisis de productos
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 341ad5105be009bd6dd450f255a195961e5652a8
+source-git-commit: 55310a844f5928f0e97e7ea7f44ae146e103dafa
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 8%
+source-wordcount: '1188'
+ht-degree: 7%
 
 ---
 
@@ -54,7 +54,7 @@ Independientemente del tipo de análisis, el análisis guiado consta de los sigu
 
 | Previsualización de interfaz | Elemento de la IU | Descripción |
 | --- | --- | --- |
-| ![Carril de consulta](assets/query-rail.png) | Carril de consulta | Configure los componentes deseados (eventos, propiedades y segmentos) que componen un análisis. Cada tipo de análisis impone límites diferentes al número de eventos y segmentos que se pueden configurar. Si cambia a un nuevo tipo de análisis, las selecciones de consulta se mantienen dentro de los límites permitidos para ese tipo de análisis. |
+| ![Carril de consulta](assets/query-rail.png) | Carril de consulta | Configure los componentes deseados (eventos, propiedades y segmentos) que componen un análisis. Cada tipo de análisis impone límites diferentes al número de eventos y segmentos que se pueden configurar.<p>Utilice el icono de filtro para reducir por propiedades de evento específicas o crear nuevos segmentos sobre la marcha. Una vez seleccionada una propiedad, además de los criterios de filtro estándar como es igual a, contiene y termina con, se proporcionará una lista de los 1000 valores de propiedad principales para que se filtre rápidamente.<p>Si cambia a un nuevo tipo de análisis, las selecciones de consulta se mantienen dentro de los límites permitidos para ese tipo de análisis. |
 | ![Gráfico](assets/chart.png) | Gráfico | Una visualización de los datos devueltos en función de los datos que haya introducido desde el carril de consulta y la configuración. La visualización que vea depende de la vista y la configuración encima del gráfico. Las vistas disponibles dependen del tipo de análisis situado encima del carril de consulta. El gráfico también incluye: <ul><li>**Tooltips**: Pase el ratón sobre cualquier punto de datos del gráfico para exponer una información del objeto con más información.</li><li>**Leyenda**: Pase el ratón sobre la leyenda del gráfico para exponer las definiciones de series, cuando estén disponibles.</li><li>**Acciones de clic**: Exponga las acciones siguientes disponibles haciendo clic con el botón izquierdo en cualquier punto de datos. Las opciones incluyen **Guardar segmento**.</li></ul> |
 | ![Tabla](assets/table.png) | Tabla | Una representación en tabla de los datos devueltos en función de los datos introducidos desde el carril de consulta y la configuración. Las columnas de la tabla dependen del tipo de vista encima del gráfico. Las vistas disponibles dependen del tipo de análisis situado encima del carril de consulta. La tabla también incluye: <ul><li>**Acciones de clic**: Exponga las acciones siguientes disponibles haciendo clic en **[!UICONTROL Más]** menú. Las opciones incluyen **Guardar segmento**.</li></ul> |
 | ![Configuración de visualización](assets/visualization-settings.png) | Configuración de visualización | Hay varias opciones encima del gráfico que le permiten personalizar el modo en que el gráfico y la tabla devuelven los datos.<ul><li>**Tipo de vista**: Selector desplegable que permite presentar los datos de un tipo de análisis determinado de una manera diferente.</li><li>**Configuración de gráfico**: Ajuste lo que se muestra en el gráfico y en la tabla. Las opciones disponibles dependen de la vista seleccionada.</li><li>**Intervalo de fechas**: Selector de calendario que le permite determinar el intervalo de fechas del análisis. También puede seleccionar un intervalo para las vistas de tendencias, como diaria, semanal o mensual.</li><li>**Insights**: Perspectivas contextuales según el análisis que visualice. Puede acceder a perspectivas adicionales mediante las flechas o mostrar u ocultar estas perspectivas mediante el icono de la bombilla en la parte superior derecha.</li></ul> |
