@@ -4,10 +4,10 @@ description: Un método de análisis de datos en Customer Journey Analytics que 
 keywords: análisis de productos
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: 341ad5105be009bd6dd450f255a195961e5652a8
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 7%
+source-wordcount: '1138'
+ht-degree: 8%
 
 ---
 
@@ -30,6 +30,7 @@ El análisis guiado clasifica los tipos de vista en **Tipos de análisis**. Est�
 | [!UICONTROL Crecimiento de usuarios] | [Activo](types/active.md) | Identifique quién es nuevo, retenido, que regresa o está inactivo. |
 | [!UICONTROL Crecimiento de usuarios] | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
 | [!UICONTROL Tendencias] | [Uso](types/usage.md) | Medir la participación del usuario a lo largo del tiempo. |
+| [!UICONTROL Tendencias] | [Frecuencia](types/frequency.md) | Medir la participación en función de la frecuencia de uso. |
 
 {style="table-layout:auto"}
 
