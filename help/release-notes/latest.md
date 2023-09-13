@@ -3,7 +3,7 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 6e94dcf003c26af5ce32544655477b1074b504b5
+source-git-commit: 4de95c6c869e25a0301990669b7c8409ab025350
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 58%
@@ -12,7 +12,7 @@ ht-degree: 58%
 
 # Notas de la versión actuales de Adobe Customer Journey Analytics (septiembre de 2023)
 
-**Última actualización**: 7 de septiembre de 2023
+**Última actualización**: 13 de septiembre de 2023
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 13 de septiembre de 2023 al 3 de octubre de 2023. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
