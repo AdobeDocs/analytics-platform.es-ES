@@ -4,9 +4,9 @@ description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '522'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,12 @@ El [!UICONTROL Uso] La vista ofrece la siguiente configuración de gráfico, que
 
 * **[!UICONTROL Métrica]**: La métrica que desea medir. Las opciones incluyen Eventos, Sesiones, Usuarios, Eventos por sesión y Eventos por usuario.
 * **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen Línea, Barra, Barra apilada y Área apilada.
+
+## Superposiciones
+
+Agregue datos adicionales al gráfico.
+
+* **[!UICONTROL Mostrar anomalías]**: ejecuta la detección de anomalías en el análisis. Los valores atípicos aparecen como puntos sobre los que puede situarse para obtener más información.
 
 ## Aplicar comparación de tiempo
 
