@@ -3,10 +3,10 @@ title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 53a1a6995caad960d8daba4e0d1f4394aa184206
+source-git-commit: 8d681a956cc826642e8fc22081acd2c579543b2e
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 27%
+source-wordcount: '1171'
+ht-degree: 26%
 
 ---
 
@@ -73,13 +73,13 @@ Los filtros se basan en una jerarquía de nivel persona, sesión y evento median
 >[!NOTE]
 >El contenedor de persona era conocido como el contenedor del visitante. El contenedor de sesión se denominaba contenedor de visita, y el contenedor de evento era el contenedor de visita individual.
 
-Un filtro establece las condiciones necesarias para filtrar a una persona en función de sus atributos o de las interacciones con su sitio, aplicación móvil u otro tipo de dispositivo del que haya recopilado datos. Para establecer las condiciones en un filtro, debe fijar las reglas que filtran a las personas según sus características personales y/o rasgos de navegación. Para desglosar aún más los datos de la persona, puede filtrar según las visitas específicas o las visitas individuales de vista de página, los toques de pantalla o las opciones de menú de cada persona. El Generador de filtros proporciona una arquitectura simple para crear estos subconjuntos y aplicar reglas como contenedores anidados, jerárquicos, de persona, de sesión y de eventos.
+Un filtro establece las condiciones necesarias para filtrar a una persona en función de sus atributos o de las interacciones con su sitio, aplicación móvil u otro tipo de dispositivo del que haya recopilado datos. Para establecer las condiciones en un filtro, debe fijar las reglas que filtran a las personas según sus características personales y/o rasgos de navegación. Para desglosar aún más los datos de las personas, puede filtrar según las visitas específicas o las visitas individuales de vista de página, los toques de pantalla o las opciones de menú de cada persona en un cuadro en la parte superior. Pero también filtre por atributos que haya ingerido desde un CRM o sistema de fidelidad. El Generador de filtros proporciona una arquitectura simple para crear estos subconjuntos y aplicar reglas como contenedores anidados, jerárquicos, de persona, de sesión y de eventos.
 
-La arquitectura de contenedor empleada en el Generador de filtros define la persona como el contenedor exterior. El contenedor contiene datos globales específicos de la persona en las visitas y vistas de página, pantallas de aplicaciones móviles o pantallas de menú en un cuadro en la parte superior. Un contenedor de sesión anidado le permite establecer reglas para desglosar los datos de la persona en función de las sesiones, y un contenedor de evento anidado le permite desglosar la información de la persona según las vistas de página individuales. Cada contenedor le permite realizar informes basados en el historial de una persona, en las interacciones detalladas por sesión o en el desglose de eventos individuales.
+La arquitectura de contenedor empleada en el Generador de filtros define la persona como el contenedor exterior. El contenedor contiene datos globales específicos de la persona en las visitas y vistas de página, pantallas de aplicaciones móviles o pantallas de menú en un cuadro en la parte superior. Un contenedor de sesión anidado le permite establecer reglas para desglosar los datos de la persona en función de las sesiones, y un contenedor de evento anidado le permite desglosar la información de la persona según las interacciones individuales. Cada contenedor le permite realizar informes basados en el historial de una persona, en las interacciones detalladas por sesión o en el desglose de eventos de experiencia individuales.
 
 ### Contenedor de persona {#person}
 
-El contenedor Persona incluye todas las visitas y vistas de página, la pantalla de la aplicación móvil, el cuadro en la parte superior o la interacción entre la consola y el juego para personas en un lapso de tiempo específico. Un filtro en el nivel de persona devuelve las vistas de página, la aplicación móvil o las pantallas del cuadro superior que cumplen la condición. Además de todas las demás páginas y pantallas vistas por esa misma persona en varios canales (y restringidas únicamente por los intervalos de fechas definidos). Al ser el contenedor definido con mayor amplitud, los informes generados en el nivel del contenedor de persona devuelven vistas de página, pantallas de aplicaciones móviles y mucho más en todas las visitas, lo que le permite generar análisis multicanal de varias visitas. Por lo tanto, el contenedor de persona es el más susceptible de cambiar en función de intervalos de fechas definidos.
+El contenedor Persona incluye todas las visitas y vistas de página, la pantalla de la aplicación móvil, el cuadro en la parte superior o la interacción entre la consola y el juego para personas en un lapso de tiempo específico. Básicamente, todos los eventos de experiencia que forman parte de los conjuntos de datos definidos dentro de la conexión de Customer Journey Analytics. Un filtro en el nivel de persona devuelve las vistas de página, la aplicación móvil o las pantallas del cuadro superior que cumplen la condición. Además de todas las demás interacciones de esa misma persona en canales en línea y sin conexión (y solo restringidas por intervalos de fechas definidos). Al ser el contenedor definido con mayor amplitud, los informes generados en el nivel del contenedor de persona devuelven vistas de página, pantallas de aplicaciones móviles y mucho más en todas las visitas, lo que le permite generar análisis multicanal de varias visitas. Por lo tanto, el contenedor de persona es el más susceptible de cambiar en función de intervalos de fechas definidos.
 Los contenedores de persona pueden incluir valores basados en el historial general de una persona:
 
 - Días antes de la primera compra
@@ -101,7 +101,7 @@ Los contenedores de sesión incluyen valores basados en la incidencia por sesió
 - Métricas de participación
 - Métricas asignadas linealmente
 
-Las vistas de datos de Customer Journey Analytics le permiten determinar la duración de una sesión, pero también cuándo se debe crear una nueva. Por ejemplo, puede definir una nueva sesión de aplicación móvil basada en el momento en que un usuario inicia la nueva aplicación. Consulte [Configuración de sesiones](/help/data-views/session-settings.md) para obtener más información.
+Las vistas de datos de Customer Journey Analytics le permiten determinar la duración de una sesión, pero también cuándo se debe crear una nueva. Por ejemplo, puede definir una nueva sesión de aplicación móvil basada en cada vez que un usuario inicie la aplicación móvil. Consulte [Configuración de sesiones](/help/data-views/session-settings.md) para obtener más información.
 
 ### Contenedor de evento {#event}
 
