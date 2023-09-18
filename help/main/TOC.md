@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 4fd0f680ee0a1e61956899c2e3148cb1f0d46d76
+source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '969'
 ht-degree: 86%
 
 ---
@@ -153,11 +153,8 @@ ht-degree: 86%
       + [Panel Experimentación](../analysis-workspace/c-panels/experimentation.md)
       + [Panel de forma libre](../analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de información rápida](../analysis-workspace/c-panels/quickinsight.md)
-      + [Panel de visualizadores simultáneos de medios](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Tiempo invertido en la reproducción de medios {#media-playback-timespent}
-         + [Información general](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [Configuración de entrada y salida](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [Preguntas frecuentes](../analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Panel Visualizadores simultáneos de medios](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Panel Tiempo invertido en la reproducción de contenido](../analysis-workspace/c-panels/media-playback-time-spent.md)
    + Depuración, uso compartido y programación de proyectos {#curate-share}
       + [Menú Compartir](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](../analysis-workspace/curate-share/curate.md)

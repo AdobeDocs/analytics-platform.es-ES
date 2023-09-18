@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
+source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
 workflow-type: tm+mt
-source-wordcount: '2604'
-ht-degree: 99%
+source-wordcount: '2651'
+ht-degree: 97%
 
 ---
 
@@ -20,10 +20,11 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Septiembre de 2023** | |
+| Estructura actualizada de los artículos del panel Tiempo invertido en la reproducción de medios | Se ha eliminado la carpeta denominada Tiempo invertido en la reproducción de contenido y se ha combinado el contenido de la carpeta en un solo artículo: [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Este cambio está más en línea con la documentación de otros paneles.</p> |
 | Funcionalidad adicional de campos derivados | Documentación actualizada para el nuevo [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) y [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) funciones y para las funciones CSV adicionales añadidas a la [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) función. |
 | Recopilación de datos regionales | Actualizado [FAQ](../getting-started/cja-faq.md#12-regional-data-collection) con información sobre la recopilación de datos regionales al utilizar Customer Journey Analytics. |
 | **Agosto de 2023** | |
-| Panel Tiempo invertido en la reproducción de medios | Contenido actualizado del [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) para mejorar la legibilidad. |
+| Panel Tiempo invertido en la reproducción de medios | Contenido actualizado del [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-time-spent.md) para mejorar la legibilidad. |
 | Mejoras de Report Builder | Contenido actualizado de [Programación de libros](/help/report-builder/schedule-reportbuilder.md) para proporcionar información para descargar tareas programadas. Contenido actualizado de [Creación de un bloque de datos](/help/report-builder/create-a-data-block.md) para proporcionar información sobre el uso de Fecha de inicio como dimensión. |
 | Se ha movido contenido sobre la gestión de proyectos programados | Se ha creado un nuevo artículo en la Guía de componentes de Analytics llamado [Proyectos programados](/help/components/scheduled-projects-manager.md). Este contenido se encontraba anteriormente en [Programar proyectos](/help/analysis-workspace/curate-share/t-schedule-report.md) en la Guía de herramientas de Analytics. |
 | Compatibilidad con las funciones de Adobe Customer Journey Analytics | Se ha añadido más información en la tabla *Compatible de una nueva forma* sobre las funcionalidades de la definición de sesiones en Customer Journey Analytics en comparación con Adobe Analytics. [Más información](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
