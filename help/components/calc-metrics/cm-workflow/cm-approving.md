@@ -3,10 +3,10 @@ description: En el Administrador de métricas calculadas, puede configurar un fl
 title: Aprobar métricas calculadas
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 18%
+source-wordcount: '238'
+ht-degree: 19%
 
 ---
 
@@ -22,9 +22,9 @@ En el Administrador de métricas calculadas, los administradores pueden configur
 
 Para marcar las métricas calculadas como aprobadas:
 
-1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
 
-1. En el Administrador de métricas calculadas, active la casilla que hay a la izquierda de todas las métricas que desee marcar como aprobadas.
+1. En el Administrador de métricas calculadas, active la casilla que hay a la izquierda de las métricas que desee marcar como aprobadas.
 
 1. Seleccionar **[!UICONTROL Aprobar]** en la tarea de administración, en la parte superior de la página.
 

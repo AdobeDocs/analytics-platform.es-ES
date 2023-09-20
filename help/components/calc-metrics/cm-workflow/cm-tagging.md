@@ -3,9 +3,9 @@ description: En el Administrador de métricas calculadas, el etiquetado de segme
 title: Etiquetar métricas calculadas
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 19%
 
 ---
@@ -25,10 +25,9 @@ Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar un
 >* **Categorías**, como Mujeres o Geografía.
 >* **Flujos de trabajo**, como Para aprobar o Depurar para (una unidad comercial específica).
 
-
 ## Aplicación de etiquetas a una métrica calculada
 
-1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
 
 1. En el Administrador de métricas calculadas, active la casilla que hay junto a las métricas que desea etiquetar.
 

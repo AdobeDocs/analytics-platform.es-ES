@@ -3,7 +3,7 @@ description: El Generador de filtros proporciona un lienzo al que arrastrar y en
 title: Generar filtros
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: e97f206e2c2f00d32e7e06d56fcc84819fe329c6
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 23%
@@ -64,7 +64,7 @@ Puede agregar definiciones de reglas y contenedores para definir los filtros. (P
 1. Introduzca o seleccione un valor para el elemento seleccionado.
 1. Agregue contenedores adicionales si es necesario, utilizando las reglas **[!UICONTROL AND]**, **[!UICONTROL OR]** o **[!UICONTROL THEN]**.
 1. Después de colocar los contenedores y configurar las reglas, consulte los resultados del filtro en la tabla de validación, en la parte superior derecha. El validador indica el porcentaje y el número absoluto de vistas de página, visitas y personas únicas que coinciden con el filtro que ha creado.
-1. En **[!UICONTROL Etiquetas]**, [etiqueta](/help/components/filters/manage-filters.md) Seleccione el contenedor seleccionando una etiqueta existente o creando una nueva.
+1. En **[!UICONTROL Etiquetas]**, [etiqueta](/help/components/filters/filters-tag.md) Seleccione el contenedor seleccionando una etiqueta existente o creando una nueva.
 1. Clic **[!UICONTROL Guardar]** para guardar el filtro.
 
    Se le redirige a la [Administrador de filtros](/help/components/filters/manage-filters.md), donde puede etiquetar, compartir y administrar el filtro de varias formas.

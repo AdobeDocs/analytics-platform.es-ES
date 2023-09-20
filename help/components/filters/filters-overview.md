@@ -3,10 +3,10 @@ title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 8d681a956cc826642e8fc22081acd2c579543b2e
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Los filtros se pueden basar en
 
 Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden usar juntos como filtros apilados.
 
-Los filtros del [Generador de filtros](/help/components/filters/filter-builder.md) para construir filtros y ejecutar una prueba previa, y el [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
+El filtrado incluye [Generador de filtros](/help/components/filters/filter-builder.md) para construir filtros y ejecutar una prueba previa, y la variable [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
 
 El número máximo de filtros que puede crear por cada organización de IMS es 50 000.
 

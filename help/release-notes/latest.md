@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 795a30719c29e6352133987d5d0aaefcf9184a52
+source-git-commit: aa7f4361b1353a86b87c36c3d08e99ddb8ffd049
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 59%
+source-wordcount: '602'
+ht-degree: 53%
 
 ---
 
@@ -20,10 +20,11 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 13 de septiembr
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Compatibilidad con clasificaciones A4T en el conector de origen de Analytics** | El `_experience.decisioning.propositions.scopeDetails.correlationID` El campo ahora está disponible en el esquema del conector de origen de Adobe Analytics. Este campo se utiliza para clasificaciones de A4T y se rellenará a partir de septiembre de 2023. | | N/A | 12 de septiembre de 2023 |
+| **Compatibilidad con clasificaciones A4T en el conector de origen de Analytics** | El campo de `_experience.decisioning.propositions.scopeDetails.correlationID` ahora está disponible en el esquema del conector de origen de Adobe Analytics. Este campo se utiliza para clasificaciones de A4T y se rellenará a partir de septiembre de 2023. | | N/A | 12 de septiembre de 2023 |
 | **Actualizaciones en campos derivados** | Se han realizado las siguientes actualizaciones en la funcionalidad de campos derivados:<ul><li>El [!UICONTROL Búsqueda] se ha cambiado el nombre de la función a [!UICONTROL Clasificar], con opciones adicionales para cargar datos CSV. **(Versiones del 27 de septiembre de 2023)**</li><li>Hay funciones adicionales disponibles para utilizar al definir un campo derivado: [!UICONTROL Recortar], [!UICONTROL Minúsculas] y [!UICONTROL Búsqueda].</li><li>Las definiciones de campo derivadas ahora también admiten campos de [!UICONTROL Búsqueda] y [!UICONTROL Perfil] conjuntos de datos.</li></ul>[Más información](/help/data-views/derived-fields/derived-fields.md) | N/A | 13 de septiembre de 2023 |
 | **Nuevas funciones de Adobe Product Analytics** | <ul><li>**Detección de anomalías**: Compare eventos con valores esperados derivados de tendencias históricas. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html)</li><li>**Tendencias Vista de frecuencia de uso**: mida la adopción de las funciones por frecuencia de uso. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**Preferencias de usuario**: configure una serie de preferencias de usuario, como paletas de color y formato de número. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=es)</li></ul> | N/A | 18 de septiembre de 2023 |
 | **Búsquedas de dispositivos de Experience Edge** | Habilite la recopilación automática de datos de tipo de dispositivo a través de la red de Experience Platform Edge. Este servicio Experience Edge beneficia al Customer Journey Analytics junto con otras aplicaciones de Experience Platform. (Vínculo de documentación a continuación) | N/A | 27 de septiembre de 2023 |
+| **Nuevas columnas disponibles al administrar componentes** | Las siguientes columnas nuevas ya están disponibles en la [Administrador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-manager.md) y el [Administrador de filtros](/help/components/filters/manage-filters.md) al administrar componentes:<ul><li>Utilizado en</li><li>Último uso</li></ul><p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse. Puede utilizar el diccionario de datos junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización.</p> | 20 de septiembre de 2023 | 4 de octubre de 2023 |
 
 {style="table-layout:auto"}
 

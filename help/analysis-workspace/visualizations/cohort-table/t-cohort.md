@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Configuración de un informe de análisis de cohorte
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
+source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 91%
@@ -47,7 +47,7 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
 
    Seleccione celdas (contiguas o no) y haga clic con el botón secundario en > **[!UICONTROL Crear filtro a partir de la selección]**.
 
-1. En el [Generador de filtros](/help/components/filters/manage-filters.md), continúe editando el segmento y luego haga clic en **[!UICONTROL Guardar]**.
+1. En el [Generador de filtros](/help/components/filters/filter-builder.md), continúe editando el segmento y luego haga clic en **[!UICONTROL Guardar]**.
 
    El segmento guardado está disponible para usar en el panel [!UICONTROL Filtro] en [!UICONTROL Analysis Workspace].
 1. Especifique un nombre y guarde su proyecto de cohorte.
