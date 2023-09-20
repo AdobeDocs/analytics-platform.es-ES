@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 87%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -47,15 +47,15 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
    * En el carril izquierdo, seleccione **Visualizaciones** icono <!-- add icon -->A continuación, arrastre una visualización al panel donde desee agregarla.
 
-      ![](assets/viz-rail.png)
+     ![](assets/viz-rail.png)
 
    * En el panel donde desee añadir la visualización, seleccione **Plus** y, a continuación, elija el icono que representa la visualización que desea añadir. Pase el ratón sobre el icono de cada visualización para ver su nombre.
 
-      ![Botón para añadir una visualización](assets/visualization-add-to-panel.png)
+     ![Botón para añadir una visualización](assets/visualization-add-to-panel.png)
 
    * Añadir un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es)A continuación, elija la visualización que desee añadir.
 
-      ![Panel en blanco](assets/blank_panel.png)
+     ![Panel en blanco](assets/blank_panel.png)
 
    * Haga clic con el botón derecho en un panel existente del proyecto de Analysis Workspace y seleccione [!UICONTROL **Duplicar visualización**] o [!UICONTROL **Copiar visualización**].
 
@@ -122,8 +122,8 @@ Una funcionalidad adicional está disponible haciendo clic con el botón derecho
 | --- | --- |
 | Insertar panel copiado/visualización | Permite pegar (“insertar”) un panel copiado o una visualización en otro lugar del proyecto, o en otro proyecto diferente. |
 | Copiar visualización | Permite hacer clic con el botón derecho y copiar una visualización para poder insertarlo en otro lugar del proyecto o en un proyecto completamente diferente. |
-| [Descargar elementos como CSV](/help/analysis-workspace/curate-share/download-send.md) | Descargue hasta 50 000 elementos de dimensión para la dimensión seleccionada como CSV. |
-| [Descargue los datos como CSV](/help/analysis-workspace/curate-share/download-send.md) | Descargue la fuente de datos de visualización como CSV. |
+| [Descargar datos de proyecto](/help/analysis-workspace/export/download-send.md) | Descargue hasta 50 000 elementos de dimensión para la dimensión seleccionada como CSV. |
+| [Descargar datos de proyecto](/help/analysis-workspace/export/download-send.md) | Descargue la fuente de datos de visualización como CSV. |
 | Duplicar visualización | Crea un duplicado exacto de la visualización actual, el cual puede modificar a continuación. |
 | Editar descripción | Añada (o edite) una descripción de texto para la visualización. |
 | Obtener vínculo de visualización | Le permite dirigir a los usuarios a una visualización específica en un proyecto. Al hacer clic en el vínculo, el destinatario deberá iniciar sesión antes de que se le dirija a la visualización exacta a la que está vinculado. |

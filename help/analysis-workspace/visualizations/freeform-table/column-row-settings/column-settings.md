@@ -3,10 +3,10 @@ description: La configuración de columna le permite configurar el formato de la
 title: Configuración de columna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 98%
+source-wordcount: '686'
+ht-degree: 94%
 
 ---
 
@@ -54,9 +54,27 @@ El formato condicional aplica formato que puede definir a los límites superior,
 
 ## Uso de modelos de atribución no predeterminados {#attribution}
 
-Permite anular el modelo de atribución predeterminado configurado en [Vistas de datos](/help/data-views/component-settings/attribution.md).
+Permite anular el modelo de atribución predeterminado establecido en [Vistas de datos](/help/data-views/component-settings/attribution.md).
 
-1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla de forma libre.
+<!--
+
+>[!NOTE]
+>
+>Consider the following when updating a component's attribution to a non-default attribution model:
+>
+>* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>
+>* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>
+>   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>
+> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
+
+-->
+
+Para utilizar un modelo de atribución no predeterminado para una métrica en una Analysis Workspace:
+
+1. Haga clic en el icono Configuración (engranaje) de una métrica en una columna de Tabla de forma libre.
 
    ![Casilla de verificación de atribución](assets/attribution-checkbox.png)
 
@@ -67,4 +85,3 @@ Permite anular el modelo de atribución predeterminado configurado en [Vistas de
 >[!MORELIKETHIS]
 >
 >* [Administración de fuentes de datos](/help/analysis-workspace/visualizations/t-sync-visualization.md)
-

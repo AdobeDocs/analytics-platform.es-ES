@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Información general sobre Proyectos
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 79%
+source-wordcount: '1319'
+ht-degree: 80%
 
 ---
 
@@ -38,7 +38,7 @@ La página Proyectos contiene la siguiente información:
 | Nombre | Nombre del proyecto de Workspace. |
 | Tipo | Indica si se trata de un proyecto de Workspace, una carpeta o una [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=es). |
 | Etiquetas | Etiquetas aplicadas al proyecto. |
-| Programado | Indica si los proyectos están programados para enviarse por correo electrónico a los destinatarios según una programación. Consulte [Programar proyectos](/help/analysis-workspace/curate-share/t-schedule-report.md). |
+| Programado | Indica si los proyectos están programados para enviarse por correo electrónico a los destinatarios según una programación. Consulte [Enviar datos de proyecto a otras personas](/help/analysis-workspace/export/t-schedule-report.md). |
 | Vínculo compartido (cualquiera) | Los proyectos se pueden compartir con cualquier persona, incluso con personas que no tengan acceso a Analysis Workspace. Esta columna muestra si los proyectos se han compartido de esta manera. Consulte [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
 | Vista de datos | La vista de datos a la que está asociado el proyecto. |
 | [Función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) | Indica la función en el proyecto: propietarios, edición, duplicado o vista. |
@@ -59,7 +59,7 @@ En un proyecto, el menú proporciona opciones para administrar el proyecto, agre
 
 | Elemento del menú | Descripción |
 |---|---|
-| Proyecto  | Incluye acciones comunes para la administración de proyectos, como Nuevo, Abrir, Guardar y Guardar como. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. Las opciones [Descargar CSV y PDF](/help/analysis-workspace/curate-share/download-send.md) permiten exportar datos desde Workspace. **Información y configuración del proyecto** (ver más abajo) ofrece muchas opciones para administrar el proyecto. |
+| Proyecto  | Incluye acciones comunes para la administración de proyectos, como Nuevo, Abrir, Guardar y Guardar como. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. [Descargar datos de proyecto](/help/analysis-workspace/export/download-send.md) Las opciones de permiten exportar datos desde Workspace. **Información y configuración del proyecto** (ver más abajo) ofrece muchas opciones para administrar el proyecto. |
 | Editar | Deshacer o volver a hacer la última acción. Borrar todo restablecerá el proyecto a un punto de partida en blanco. |
 | Insertar | Inserte nuevos paneles o visualizaciones desde este menú. También puede insertar nuevos paneles y visualizaciones desde el carril izquierdo. |
 | [Componentes](/help/components/overview.md) | Cree nuevos componentes de filtro, métrica calculada, intervalo de fecha o alerta a partir del proyecto. También puede crear nuevos componentes desde el carril izquierdo. Si las definiciones de los componentes han cambiado recientemente, Actualizar componentes recuperará las definiciones más recientes. |

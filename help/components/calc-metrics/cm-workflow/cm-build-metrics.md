@@ -3,10 +3,10 @@ description: El Generador de métricas calculadas proporciona un lienzo en el qu
 title: Crear métricas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 66%
+source-wordcount: '982'
+ht-degree: 65%
 
 ---
 
@@ -43,7 +43,7 @@ La siguiente imagen y la tabla adjunta explican algunas de las áreas y caracter
 | Vista previa | Proporciona una lectura rápida de cualquier posible error. La vista previa abarca los últimos 90 días. Esta es una forma de calibrar inicialmente si ha seleccionado los componentes adecuados para su métrica. Un resultado inesperado significaría que debe volver a revisar la definición de la métrica. |
 | Compatibilidad del producto | Para cualquier métrica calculada que cree en Customer Journey Analytics, este valor siempre se muestra como [!UICONTROL **Datos completamente procesados**]. Las métricas calculadas solo pueden incluir datos de conjuntos de datos de evento. |
 | Agregue | Puede añadir contenedores y números estáticos a la definición de todos los tipos de métricas calculadas. Para obtener métricas calculadas avanzadas, también puede añadir filtros y funciones.<ul><li>Los contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. Así, cualquier cosa que se encuentre en un contenedor se procesará antes de la operación siguiente.</li><li>Al arrastrar un filtro a un contenedor, se filtra todo lo que hay en dicho contenedor. (solo métricas calculadas avanzadas).</li><li>Puede apilar múltiples filtros en un contenedor.</li></ul> |
-| Icono de engranaje (Tipo de métrica, Atribución) | Si selecciona el icono de engranaje junto a una métrica, puede especificar el tipo de métrica y los modelos de atribución. |
+| Icono de engranaje (Tipo de métrica, Atribución) | Si selecciona el icono de engranaje junto a una métrica, puede especificar el tipo de métrica y los modelos de atribución. <!-- <p>**Note:** Consider the following when updating a component's attribution to a non-default attribution model:</p><ul><li>**When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.</li><li>**When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.</li><li>Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).</li></ul> --> <p>Para obtener más información sobre la asignación, consulte [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).</p> |
 | Icono de signo más (+) | Le permite crear un nuevo componente, como un nuevo filtro (que le dirige al Generador de segmentos). |
 | Buscar componentes | Esta barra de búsqueda le permite buscar dimensiones, métricas, filtros (solo métricas calculadas avanzadas) y funciones (solo métricas calculadas avanzadas). |
 | Lista de dimensiones | En lugar de salir del Creador de métricas calculadas para generar un filtro simple (en el Creador de filtros), como &quot;Página = Página principal&quot;, puede arrastrar Página y seleccionar Página principal directamente en el Creador de métricas calculadas. Esto conlleva un flujo de trabajo mucho más simplificado en lo relativo a la creación de métricas calculadas filtradas. |

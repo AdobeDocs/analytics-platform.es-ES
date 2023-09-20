@@ -3,7 +3,7 @@ title: Etiquetas y políticas
 description: Descubra cómo las etiquetas y políticas de datos definidas en Adobe Experience Platform afectan a las vistas de datos y a la creación de informes en Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: d14db99f6cf597c4b62cdb148853b0f11503eaa1
+source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 58%
@@ -72,7 +72,7 @@ Estos componentes aparecen atenuados en la lista del carril izquierdo [!UICONTRO
 Tampoco puede guardar una vista de datos que tenga campos bloqueados.
 
 >[!MORELIKETHIS]
->[Descarga de datos confidenciales](/help/analysis-workspace/curate-share/download-send.md)
+>[Descarga de datos confidenciales](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
 >[Qué son las etiquetas restringidas en Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=es)

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configuración de un informe de análisis de cohorte
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '982'
 ht-degree: 91%
 
 ---
@@ -59,4 +59,4 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
 
 ## Descargar una visualización de cohorte
 
-Al igual que otras visualizaciones de Analysis Workspace, puede descargar una visualización de cohorte como archivo CSV o de PDF. Para obtener más información, consulte [Descargar archivos de PDF o CSV](/help/analysis-workspace/curate-share/download-send.md).
+Al igual que otras visualizaciones de Analysis Workspace, puede descargar una visualización de cohorte como archivo CSV o de PDF. Para obtener más información, consulte [Descargar datos de proyecto](/help/analysis-workspace/export/download-send.md).

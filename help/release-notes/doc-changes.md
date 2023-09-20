@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
 workflow-type: tm+mt
 source-wordcount: '2651'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Agosto de 2023** | |
 | Panel Tiempo invertido en la reproducción de medios | Contenido actualizado del [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-time-spent.md) para mejorar la legibilidad. |
 | Mejoras de Report Builder | Contenido actualizado de [Programación de libros](/help/report-builder/schedule-reportbuilder.md) para proporcionar información para descargar tareas programadas. Contenido actualizado de [Creación de un bloque de datos](/help/report-builder/create-a-data-block.md) para proporcionar información sobre el uso de Fecha de inicio como dimensión. |
-| Se ha movido contenido sobre la gestión de proyectos programados | Se ha creado un nuevo artículo en la Guía de componentes de Analytics llamado [Proyectos programados](/help/components/scheduled-projects-manager.md). Este contenido se encontraba anteriormente en [Programar proyectos](/help/analysis-workspace/curate-share/t-schedule-report.md) en la Guía de herramientas de Analytics. |
+| Se ha movido contenido sobre la gestión de proyectos programados | Se ha creado un nuevo artículo en la Guía de componentes de Analytics llamado [Proyectos programados](/help/components/scheduled-projects-manager.md). Este contenido se encontraba anteriormente en [Programar proyectos](/help/analysis-workspace/export/t-schedule-report.md) en la Guía de herramientas de Analytics. |
 | Compatibilidad con las funciones de Adobe Customer Journey Analytics | Se ha añadido más información en la tabla *Compatible de una nueva forma* sobre las funcionalidades de la definición de sesiones en Customer Journey Analytics en comparación con Adobe Analytics. [Más información](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Evolución desde Adobe Analytics | Se ha actualizado la sección *reconfiguración de canales de marketing* con una referencia a la plantilla de función de canales de marketing de Campos derivados. [Más información](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Guías de inicio rápido de ingesta de datos para aplicaciones móviles y otras plataformas | Se han añadido guías de inicio rápido de ingesta de datos adicionales que describen cómo ingerir y utilizar datos de aplicaciones móviles u otras plataformas (como aplicaciones de escritorio, juegos en consolas, aplicaciones en decodificadores y dispositivos de IoT) en Customer Journey Analytics. [Más información](../data-ingestion/data-ingestion.md) |
@@ -169,7 +169,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Abril de 2021 | Nueva documentación sobre la compatibilidad con proyectos programados en Workspace. |
 | Abril de 2021 | Temas nuevos sobre la experiencia [Vistas de datos mejorada](/help/data-views/data-views.md). |
 | Abril de 2021 | Temas nuevos sobre [ingesta de datos de Google Analytics](/help/use-cases/ga/overview.md) y [análisis de esos datos](/help/use-cases/ga/report.md). |
-| Abril de 2021 | Se ha añadido un tema sobre [informes programados](/help/analysis-workspace/curate-share/t-schedule-report.md) en Workspace. |
+| Abril de 2021 | Se ha añadido un tema sobre [informes programados](/help/analysis-workspace/export/t-schedule-report.md) en Workspace. |
 | Abril de 2021 | Tema nuevo sobre [dimensiones de alta cardinalidad en Customer Journey Analytics](/help/components/dimensions/high-cardinality.md). |
 | **Marzo de 2021** | |
 | Marzo de 2021 | Se ha añadido un tema sobre la compatibilidad con [Paneles de Analytics](/help/mobile-app/home.md) (aplicación móvil). |
