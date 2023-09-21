@@ -5,18 +5,16 @@ title: Configuración de ubicaciones de exportación de nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: c8f855ad5b586ed9ac3cde6889b6e73ecb216efa
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 6%
+source-wordcount: '972'
+ht-degree: 5%
 
 ---
 
 # Configuración de ubicaciones de exportación de nube
 
-{{select-package}}
-
-Antes de poder exportar datos de Customer Journey Analytics a un destino de nube, tal como se describe en [Exportación de datos del Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md), debe agregar y configurar la ubicación a la que desea enviar los datos.
+Antes de poder exportar informes de Customer Journey Analytics a un destino de nube, tal como se describe en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md), debe agregar y configurar la ubicación a la que desea enviar los datos.
 
 Este proceso consiste en añadir y configurar la cuenta (como Amazon S3, Google Cloud Platform, etc.) tal como se describe en [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md)y, a continuación, agregue y configure la ubicación dentro de esa cuenta (por ejemplo, una carpeta dentro de la cuenta) tal como se describe en este artículo.
 
@@ -26,18 +24,36 @@ Para configurar una ubicación de exportación en la nube:
 
 1. Debe agregar una cuenta antes de agregar una ubicación. Si aún no lo ha hecho, agregue una cuenta como se describe en [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md).
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
-1. En el [!UICONTROL Exportaciones] , seleccione la [!UICONTROL **Ubicaciones**] pestaña.
-1. Seleccionar [!UICONTROL **Añadir ubicación**].
+1. Seleccione el [!UICONTROL **Ubicaciones**] pestaña, luego seleccione [!UICONTROL **Añadir ubicación**].
 
    ![botón añadir ubicación](assets/location-add.png)
 
+   o
+
+   Seleccione el [!UICONTROL **Cuentas de ubicación**] , seleccione el icono de 3 puntos en una cuenta existente donde desee añadir una ubicación y, a continuación, seleccione [!UICONTROL **Añadir ubicación**].
+
+   ![Añadir ubicación a una cuenta existente](assets/add-location-existing-account.png)
+
    Se muestra el cuadro de diálogo Ubicación.
 
-1. Especifique la siguiente información: |Campo Función | | |---------|----------| | [!UICONTROL **Nombre**] | El nombre de la ubicación.  | | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación que creó en [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md). |
+1. Especifique la siguiente información: |Campo Función | | |---------|----------| | [!UICONTROL **Nombre**] | El nombre de la ubicación.  | | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta en la que desea crear la ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md). |
 
 1. En el [!UICONTROL **Propiedades de ubicación**] , especifique información específica para el tipo de cuenta de su cuenta de ubicación.
 
    Para obtener instrucciones de configuración, expanda la sección siguiente que corresponde al tipo de cuenta seleccionado en la [!UICONTROL **Cuentas de ubicación**] field.
+
+   Zona de aterrizaje de datos de +++Adobe Experience Platform
+
+   Especifique la siguiente información para configurar una ubicación de zona de aterrizaje de datos de Adobe Experience Platform:
+
+   <!-- still need to update; can't create AEP account -->
+
+   | Campo | Función |
+   |---------|----------|
+   | [!UICONTROL **ID de organización IMS**] | El Adobe proporciona el ID de organización de IMS. Haga clic en el icono Copiar junto a la etiqueta [!UICONTROL **ID de organización IMS**] para copiar el contenido del campo y, a continuación, utilice el ID en su cuenta de Adobe Experience Platform. |
+   | [!UICONTROL **Prefijo**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
+
++++
 
    +++Amazon S3 Role ARN
 
@@ -108,19 +124,6 @@ Para configurar una ubicación de exportación en la nube:
    | [!UICONTROL **Ruta de la fase**] | Ruta de acceso a la ubicación donde se almacenan los archivos de datos en el Snowflake. <p>Para obtener más información, consulte la [Selección de una fase interna para archivos locales en la documentación de Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
-
-+++
-
-   +++Adobe Experience Platform
-
-   Especifique la siguiente información para configurar una ubicación de Adobe Experience Platform:
-
-   <!-- still need to update; can't create AEP account -->
-
-   | Campo | Función |
-   |---------|----------|
-   | [!UICONTROL **ID de organización IMS**] | El Adobe proporciona el ID de organización de IMS. Haga clic en el icono Copiar junto a la etiqueta [!UICONTROL **ID de organización IMS**] para copiar el contenido del campo y, a continuación, utilice el ID en su cuenta de Adobe Experience Platform. |
-   | [!UICONTROL **Prefijo**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
 
 +++
 

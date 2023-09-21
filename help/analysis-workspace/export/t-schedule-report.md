@@ -5,7 +5,7 @@ title: Envío de datos del Customer Journey Analytics a otras personas por corre
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 8eda6e9ed27ab458951cd4bd08f511987bc61eb0
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 62%
@@ -14,7 +14,7 @@ ht-degree: 62%
 
 # Enviar datos del Customer Journey Analytics a otras personas por correo electrónico
 
-Puede exportar los datos del Customer Journey Analytics enviándolos a los destinatarios seleccionados por correo electrónico. Puede enviar archivos ad hoc o configurar los archivos para que se envíen según una programación. Los archivos se pueden enviar en formato CSV o PDF.
+Puede exportar informes de Customer Journey Analytics enviándolos a destinatarios seleccionados por correo electrónico. Puede enviar archivos ad hoc o configurar los archivos para que se envíen según una programación. Los archivos se pueden enviar en formato CSV o PDF.
 
 Todas las etiquetas aplicadas al proyecto se aplican automáticamente a la exportación.
 

@@ -5,16 +5,14 @@ title: Configuración de ubicaciones de exportación de nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '383'
 ht-degree: 6%
 
 ---
 
 # Administrar ubicaciones y cuentas de exportación en la nube
-
-{{select-package}}
 
 Puede ver, editar y eliminar ubicaciones de exportación de la nube.
 
@@ -38,7 +36,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
    | Filtro | Descripción |
    |---------|----------|
-   | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager**]</li></ul> |
+   | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos Adobe Experience Platform**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Cuenta**] | El nombre de la cuenta a la que está asociada la ubicación. |
    | [!UICONTROL **Creado por**] | La dirección de correo electrónico del usuario que creó la ubicación. |
 
