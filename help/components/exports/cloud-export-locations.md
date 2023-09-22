@@ -5,9 +5,9 @@ title: Configuración de ubicaciones de exportación de nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: c8f855ad5b586ed9ac3cde6889b6e73ecb216efa
+source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1023'
 ht-degree: 5%
 
 ---
@@ -118,9 +118,9 @@ Para configurar una ubicación de exportación en la nube:
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **DB**] | La base de datos predeterminada que se utiliza una vez conectada o especifica una cadena vacía. La base de datos especificada debe ser una base de datos existente para la que el rol predeterminado especificado tenga privilegios. <p>Para obtener más información, consulte la [Página Parámetro de conexión del controlador JDBC: Referencia en la documentación del Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **Esquema**] | El esquema predeterminado que se va a utilizar para la base de datos especificada una vez conectada, o especifica una cadena vacía. El esquema especificado debe ser un esquema existente para el cual la función predeterminada especificada tenga privilegios. <p>Para obtener más información, consulte la [Página Parámetro de conexión del controlador JDBC: Referencia en la documentación del Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **Nombre de la fase**] | Nombre de la ubicación donde se almacenan los archivos de datos en el Snowflake. <p>Para obtener más información, consulte la [Selección de una fase interna para archivos locales en la documentación de Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **DB**] | La base de datos especificada debe ser una base de datos existente para la que el rol predeterminado especificado tenga privilegios.<p>Es la base de datos asociada al nombre de la etapa.</p> <p>Para obtener más información, consulte la [Página Comandos de base de datos, esquema y uso compartido en la documentación del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Esquema**] | El esquema especificado debe ser un esquema existente para el cual la función predeterminada especificada tenga privilegios.<p>Este es el esquema asociado al nombre de la etapa.</p><p>Para obtener más información, consulte la [Página Comandos de base de datos, esquema y uso compartido en la documentación del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Nombre de la fase**] | Nombre de la fase en la que se almacenan los archivos de datos en el Snowflake. <p>Asegúrese de que la función especificada en la cuenta tiene acceso de lectura y escritura a este nombre de fase. (Como está concediendo acceso de lectura y escritura, se recomienda utilizar una fase que solo se utilice en Adobe). <p>Para obtener información sobre la concesión de privilegios a un rol, consulte [Conceder privilegios en la documentación de Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Para obtener más información sobre el nombre de la fase, consulte la [Selección de una fase interna para archivos locales en la documentación de Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
    | [!UICONTROL **Ruta de la fase**] | Ruta de acceso a la ubicación donde se almacenan los archivos de datos en el Snowflake. <p>Para obtener más información, consulte la [Selección de una fase interna para archivos locales en la documentación de Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
