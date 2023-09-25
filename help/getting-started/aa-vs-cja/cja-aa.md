@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 3149c50c14430c1960a9311b0464547b6e61bec7
-workflow-type: ht
-source-wordcount: '2080'
-ht-degree: 100%
+source-git-commit: e77dbb491178ffbe26fcec21d8b456cc3befbd1d
+workflow-type: tm+mt
+source-wordcount: '2140'
+ht-degree: 97%
 
 ---
 
@@ -136,5 +136,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | Análisis entre dispositivos | Customer Journey Analytics admite la combinación perfecta de conjuntos de datos específicos del dispositivo desde sesiones no autenticadas y autenticadas. Customer Journey Analytics ofrece rellenar los datos históricos en dispositivos conocidos. En Analytics, esta capacidad se limita a un único grupo de informes y al uso de un gráfico de dispositivos. |
 | Acceso SQL | Con la opción Data Distiller, Customer Journey Analytics puede eliminar las limitaciones de los datos recopilados en el procesamiento back-end de Adobe. Puede modificar los datos con SQL, crear valores y conjuntos de datos únicos para su empresa y continuar explorando. Analytics no admite ningún tipo de acceso SQL a sus datos. |
 | Opciones mejoradas de seguridad y privacidad: preparación para HIPAA | Customer Journey Analytics está preparado para la HIPAA y ofrece opciones de seguridad adicionales para el cumplimiento de la normativa. Adobe Analytics no está preparado para la HIPAA. |
+| Capacidad para combinar conjuntos de datos (como grupos de informes de Adobe Analytics) | Customer Journey Analytics le permite combinar datos de varios grupos de informes como si fueran un único grupo en Adobe Analytics. |
+| Campos derivados | Los campos derivados permiten realizar transformaciones en el tiempo del informe en los datos. Los datos pueden combinarse, corregirse o crearse sobre la marcha y aplicarse de forma retroactiva a todos los informes. |
 
 {style="table-layout:auto"}
