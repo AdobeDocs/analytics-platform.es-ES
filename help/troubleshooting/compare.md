@@ -5,10 +5,11 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+keywords: servicio de consultas;servicio de consultas;sintaxis sql
+source-git-commit: 5caae6c8dd38eb5c6ef9cf02cdff965add75b312
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 64%
+source-wordcount: '866'
+ht-degree: 69%
 
 ---
 
@@ -52,19 +53,19 @@ Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siem
 
 1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es), ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
 
-       &quot;
-       SELECT Subcadena(from_utc_timestamp(timestamp,&#39;{timeZone}&#39;), 1, 10) como día, \
-       Count(_id) AS Registros
-       DESDE  {dataset} \
-       WHERE timestamp>=from_utc_timestamp(&#39;{fromDate}&#39;,&#39;UTC&#39;) \
-       Y marca de tiempo&lt;from_utc_timestamp span=&quot;&quot; id=&quot;14&quot; translate=&quot;no&quot; />&#39;,&#39;UTC&#39;) \
-       Y LA MARCA DE TIEMPO NO ES NULA \
-       Y enduserids.{toDate}_experience.aaid.id IS NOT NULL \
-       AGRUPAR POR DÍA \
-       ORDENAR POR día;
-       
-       &quot;
-   
+   ```sql
+   SELECT
+       Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) AS Day,
+       Count(_id) AS Records 
+   FROM  {dataset}
+   WHERE   timestamp >= from_utc_timestamp('{fromDate}','UTC')
+       AND timestamp < from_utc_timestamp('{toDate}','UTC')
+       AND timestamp IS NOT NULL
+       AND enduserids._experience.aaid.id IS NOT NULL
+   GROUP BY Day
+   ORDER BY Day; 
+   ```
+
 1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber filtrado algunas filas.
 
    El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) podría filtrar determinadas filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se filtrará toda la fila.
