@@ -4,9 +4,9 @@ description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
+source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ El [!UICONTROL Uso] La vista ofrece la siguiente configuración de gráfico, que
 
 Agregue datos adicionales al gráfico.
 
-* **[!UICONTROL Mostrar anomalías]**: ejecuta la detección de anomalías en el análisis. Los valores atípicos aparecen como puntos sobre los que puede situarse para obtener más información.
+* **[!UICONTROL Mostrar anomalías]**: Ejecuciones [detección de anomalías](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) en el análisis de tendencias. Los valores atípicos aparecen como puntos sobre los que puede situarse para obtener más información.
 
 ## Aplicar comparación de tiempo
 
