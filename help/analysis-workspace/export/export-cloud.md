@@ -5,9 +5,9 @@ title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
+source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1716'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ También hay disponibles otros métodos para exportar informes de Customer Journ
 
 >[!NOTE]
 >
->Antes de exportar los datos como se describe en esta sección, asegúrese de que la tabla cumpla los requisitos siguientes [Requisitos de exportación](#export-requirements).
+>Antes de exportar los datos como se describe en esta sección, asegúrese de que la variable [Requisitos de exportación](#export-requirements) se cumplen.
 
 Para exportar tablas completas desde Analysis Workspace:
 
@@ -85,9 +85,13 @@ Exportar los datos del Customer Journey Analytics a la nube le permite:
 
 ### Requisitos mínimos
 
-Las tablas deben incluir al menos una dimensión en la fila y una métrica en cada columna para ser compatibles con una exportación de tabla completa.
+Asegúrese de que las tablas, el entorno y los permisos cumplan los siguientes requisitos:
 
-Los administradores deben asegurarse de que las direcciones IP enumeradas en [Direcciones IP utilizadas por el Customer Journey Analytics](/help/admin/ip-addresses.md) se incluyen en la lista de permitidos del cortafuegos.
+* **Tablas:** Todas las tablas deben incluir al menos una dimensión en la fila y una métrica en cada columna para ser compatibles con una exportación de tabla completa.
+
+* **Entorno:** Los administradores deben asegurarse de que las direcciones IP enumeradas en [Direcciones IP utilizadas por el Customer Journey Analytics](/help/admin/ip-addresses.md) se incluyen en la lista de permitidos del cortafuegos.
+
+* **Permisos:** En Adobe Admin Console, los usuarios deben tener asignado un perfil de producto que tenga la variable [!UICONTROL **Exportación de tabla completa**] permiso asignado para exportar tablas completas. Para obtener información sobre cómo asignar un permiso a un perfil de producto en el Admin Console, consulte [Permiso de Customer Journey Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
 ### Funciones no admitidas
 

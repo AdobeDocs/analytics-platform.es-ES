@@ -5,7 +5,7 @@ title: Información general sobre exportar datos de proyecto
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -39,4 +39,5 @@ Hay varios métodos disponibles al exportar desde Analysis Workspace. Al elegir 
 | [Enviar a una aplicación de nube](/help/analysis-workspace/export/export-cloud.md) | Utilice este método si desea: <ul><li>Exporte a una ubicación compartida, como Adobe Experience Platform Data Landing Zone, Google Cloud Platform, Microsoft Azure, Amazon S3 o Snowflake.</li><li>Puede ser ad hoc o según una programación.</li><li>Almacene mayores cantidades de datos de Customer Journey Analytics.</li><li>Exportar tablas completas que contengan miles o millones de filas.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}
+
 

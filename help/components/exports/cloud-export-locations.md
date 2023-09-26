@@ -5,9 +5,9 @@ title: Configuración de ubicaciones de exportación de nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1082'
 ht-degree: 5%
 
 ---
@@ -118,9 +118,9 @@ Para configurar una ubicación de exportación en la nube:
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **DB**] | La base de datos especificada debe ser una base de datos existente para la que el rol predeterminado especificado tenga privilegios.<p>Es la base de datos asociada al nombre de la etapa.</p> <p>Para obtener más información, consulte la [Página Comandos de base de datos, esquema y uso compartido en la documentación del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Esquema**] | El esquema especificado debe ser un esquema existente para el cual la función predeterminada especificada tenga privilegios.<p>Este es el esquema asociado al nombre de la etapa.</p><p>Para obtener más información, consulte la [Página Comandos de base de datos, esquema y uso compartido en la documentación del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Nombre de la fase**] | Nombre de la fase en la que se almacenan los archivos de datos en el Snowflake. <p>Asegúrese de que la función especificada en la cuenta tiene acceso de lectura y escritura a este nombre de fase. (Como está concediendo acceso de lectura y escritura, se recomienda utilizar una fase que solo se utilice en Adobe). <p>Para obtener información sobre la concesión de privilegios a un rol, consulte [Conceder privilegios en la documentación de Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Para obtener más información sobre el nombre de la fase, consulte la [Selección de una fase interna para archivos locales en la documentación de Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **DB**] | La base de datos especificada debe ser una base de datos existente. La función que ha creado debe tener privilegios para acceder a esta base de datos.<p>Es la base de datos asociada al nombre de la etapa.</p><p>Puede otorgar estos privilegios de rol a la base de datos en Snowflake mediante el siguiente comando: `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>Para obtener más información, consulte la [Página Comandos de base de datos, esquema y uso compartido en la documentación del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Esquema**] | El esquema especificado debe ser un esquema existente. La función que ha creado debe tener privilegios para acceder a este esquema.<p>Este es el esquema asociado al nombre de la etapa.<p>Puede otorgar al esquema del Snowflake la función que ha creado privilegios mediante el siguiente comando: `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>Para obtener más información, consulte la [Página Comandos de base de datos, esquema y uso compartido en la documentación del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Nombre de la fase**] | Nombre de la fase interna en la que se almacenan los archivos de datos en Snowflake.<p>Asegúrese de que la función especificada en la cuenta tiene acceso de lectura y escritura a este nombre de fase. (Como está concediendo acceso de lectura y escritura, se recomienda utilizar una fase que solo se utilice en Adobe).<p>Puede conceder acceso de lectura y escritura al nombre de la fase en Snowflake mediante el siguiente comando: `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>Para obtener información sobre la concesión de privilegios a un rol, consulte [Conceder privilegios en la documentación de Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Para obtener más información sobre el nombre de la fase, consulte la [Selección de una fase interna para archivos locales en la documentación de Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
    | [!UICONTROL **Ruta de la fase**] | Ruta de acceso a la ubicación donde se almacenan los archivos de datos en el Snowflake. <p>Para obtener más información, consulte la [Selección de una fase interna para archivos locales en la documentación de Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
