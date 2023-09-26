@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
+source-wordcount: '491'
+ht-degree: 89%
 
 ---
 
@@ -72,11 +72,11 @@ Para descargar e instalar el complemento de Report Builder
 
 Póngase en contacto con su equipo de TI o de seguridad para solicitar la aprobación del complemento de Report Builder. Una vez concedida la aprobación, en el cuadro de diálogo Complementos de Office, seleccione la pestaña Administración administrada.
 
-![](./assets/image1.png)
+![La pestaña Administración administrada del cuadro de diálogo Complementos de Office.](./assets/image1.png)
 
 Después de instalar el complemento de Report Builder, el icono de Report Builder se muestra en la cinta de Excel debajo de la pestaña Inicio.
 
-![](./assets/rb_app_icon.png)
+![El icono Report Builder en Excel](./assets/rb_app_icon.png)
 
 ## Inicio de sesión en Report Builder
 
@@ -88,11 +88,11 @@ Después de instalar el complemento de Report Builder for Excel para su platafor
 
 1. En la barra de herramientas de Adobe Report Builder, haga clic en **Iniciar sesión**.
 
-   ![](./assets/rb_login.png)
+   ![Haga clic en el botón de inicio de sesión del Report Builder.](./assets/rb_login.png)
 
 1. Introduzca la información de la cuenta de Adobe Experience ID. La información de la cuenta debe coincidir con las credenciales de Customer Journey Analytics.
 
-   ![](./assets/image4.png)
+   ![Su icono de inicio de sesión y organización.](./assets/image4.png)
 
 Después de iniciar sesión, el icono de inicio de sesión y la organización aparecerán en la parte superior del panel
 
@@ -104,7 +104,7 @@ La primera vez que inicie sesión, iniciará sesión en la organización predete
 
 1. Seleccione una organización de la lista de organizaciones disponibles. Solo aparecen en la lista las organizaciones a las que tiene acceso.
 
-   ![](./assets/image5.png)
+   ![La lista de organizaciones a las que puede acceder.](./assets/image5.png)
 
 ## Cerrar sesión
 
@@ -114,6 +114,6 @@ Puede cerrar la sesión de Report Builder desde el perfil de usuario.
 
 1. Haga clic en el icono de avatar para mostrar su perfil de usuario.
 
-   ![](./assets/image6.png)
+   ![El avatar de perfil de usuario y el botón Cerrar sesión.](./assets/image6.png)
 
 1. Haga clic en **Cerrar sesión**.

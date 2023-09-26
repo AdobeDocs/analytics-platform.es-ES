@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 802a8f0b-10c2-4adc-a4ec-25f3d28f3002
-source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 3%
+source-wordcount: '342'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Para obtener información sobre la creación de un bloque de datos, consulte [Cr
 
 1. Haga clic en *icono de celda* en el *Vistas de datos* sección.
 
-   ![Icono de celda](/help/report-builder/assets/cell-icon.png)
+   ![Haga clic en el icono de celda.](/help/report-builder/assets/cell-icon.png)
 
 1. Seleccione una ubicación de celda para agregar las vistas de datos a la celda seleccionada.
 
@@ -38,7 +38,7 @@ Para obtener información sobre la creación de un bloque de datos, consulte [Cr
 
 1. Seleccione las vistas de datos que desee asignar a la celda.
 
-   ![Icono de celda](/help/report-builder/assets/select-data-view.png)
+   ![Seleccionar vistas de datos.](/help/report-builder/assets/select-data-view.png)
 
 1. Haga clic en **Aplicar**.
 

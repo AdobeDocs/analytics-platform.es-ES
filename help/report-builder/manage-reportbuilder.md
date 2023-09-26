@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 94%
+source-wordcount: '641'
+ht-degree: 75%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 94%
 
 Puede ver y administrar todos los bloques de datos de un libro mediante el Administrador de bloques de datos. El Administrador de bloques de datos proporciona capacidades de búsqueda, filtro y ordenación que le permiten localizar rápidamente bloques de datos concretos. Después de seleccionar uno o más bloques de datos, puede editar, eliminar o actualizar los bloques de datos seleccionados.
 
-![image](./assets/image52.png)
+![Pantalla del administrador de bloques de datos.](./assets/image52.png)
 
 ## Ver bloques de datos
 
 Haga clic en **Administrar** para ver una lista de todos los bloques de datos de un libro.
 
 
-![image](./assets/image53.png)
+![La opción Administrar para ver una lista de todos los bloques de datos.](./assets/image53.png)
 
 El Administrador de bloques de datos muestra todos los bloques de datos presentes en un libro. 
 
-![image](./assets/image52.png)
+![La lista de todos los bloques de datos presentes en un libro.](./assets/image52.png)
 
 ## Ordenar la lista de bloques de datos
 
@@ -36,13 +36,13 @@ Puede ordenar la lista de bloques de datos por una columna mostrada. Por ejemplo
 
 Para ordenar la lista de bloques de datos, haga clic en un encabezado de columna.
 
-![image](./assets/image54.png)
+![Clasificación de los bloques de datos.](./assets/image54.png)
 
 ## Buscar en la lista de bloques de datos
 
-Utilice el campo Buscar para localizar cualquier contenido en la tabla de bloques de datos. Por ejemplo, puede buscar métricas contenidas en los bloques de datos o en la vista de datos. También puede buscar fechas que aparezcan en las columnas de intervalo de fechas, fecha de modificación o fecha de última ejecución.
+Utilice el campo Buscar para localizar cualquier contenido en la tabla de bloques de datos. Por ejemplo, puede buscar métricas contenidas en los bloques de datos o la vista de datos. También puede buscar fechas que aparezcan en las columnas de intervalo de fechas, fecha de modificación o fecha de última ejecución.
 
-![image](./assets/image55.png)
+![Uso del campo Buscar para localizar cualquier elemento en la tabla de bloques de datos.](./assets/image55.png)
 
 ## Editar bloques de datos
 
@@ -52,26 +52,30 @@ Por ejemplo, puede reemplazar un filtro existente con un nuevo filtro en uno o m
 
 1. Seleccione los bloques de datos que desea actualizar. Puede seleccionar la casilla de verificación de nivel superior para seleccionar todos los bloques de datos o puede seleccionar bloques de datos individuales.
 
-   ![image](./assets/image56.png)
+   ![El icono de edición de lápiz](./assets/image56.png)
 
 1. Haga clic en el icono de edición para mostrar la ventana de edición rápida.
 
-   ![image](./assets/image58.png)
+   ![La ventana de edición rápida](./assets/image58.png)
 
 1. Seleccione un vínculo de filtro para actualizar vistas de datos, intervalos de fechas o filtros.
 
-   ![image](./assets/image59.png)
+   ![El campo Añadir segmento en la ventana de edición rápida](./assets/image59.png)
 
 ## Actualizar bloques de datos
 
 Haga clic en el icono de actualización para actualizar los bloques de datos de la lista.
 
-<img src="./assets/refresh-icon.png" width="15%"/>
+<img src="./assets/refresh-icon.png" width="15%" alt="Icono Actualizar"/>
 
-Para comprobar si un bloque de datos se ha actualizado, consulte el icono de estado de la actualización. Una marca de verificación en un círculo verde <img src="./assets/refresh-success.png" width="5%"/> indica que la actualización del bloque de datos se ha realizado correctamente. Un bloque de datos que no se haya podido actualizar mostrará un icono de advertencia <img src="./assets/refresh-failure.png" width="5%"/>.  Esto facilita la identificación si algún bloque de datos contiene errores.
+Para comprobar si un bloque de datos se ha actualizado, consulte el icono de estado de la actualización.
+
+Un bloque de datos actualizado correctamente muestra una marca de verificación en un círculo verde: <img src="./assets/refresh-success.png" width="5%" alt="Círculo verde con icono de marca de verificación"/>.
+
+Un bloque de datos que no se ha podido actualizar muestra un icono de advertencia: <img src="./assets/refresh-failure.png" width="5%" alt="Triángulo rojo con signo de exclamación"/>.Esto facilita la identificación si algún bloque de datos contiene errores.
 
 
-![image](./assets/image512.png)
+![Administrador de bloques de datos que muestra el estado de actualización de cada bloque de datos enumerado.](./assets/image512.png)
 
 ## Eliminar un bloque de datos
 
@@ -81,13 +85,13 @@ Haga clic en el icono de la papelera para eliminar un bloque de datos selecciona
 
 Puede agrupar bloques de datos mediante el menú desplegable **Agrupar por** o bien puede hacer clic en un título de columna. Para ordenar los bloques de datos por columna, haga clic en el título de la columna. Para agrupar bloques de datos por grupos, seleccione un nombre de grupo en el menú desplegable **Agrupar por**. Por ejemplo, la captura de pantalla siguiente muestra bloques de datos agrupados por hoja. Muestra los bloques de datos agrupados por Hoja1 y Hoja2.  Esto resulta útil, por ejemplo, en el caso de uso de reemplazo de filtros. Si se han aplicado varios filtros a cada bloque de datos, resulta útil crear un grupo que contenga todos los bloques de datos que desea reemplazar. A continuación, puede seleccionarlos y editarlos fácilmente de una vez.
 
-![image](./assets/group-data-blocks.png)
+![Administrador de bloques de datos que muestra la lista Agrupar por hoja.](./assets/group-data-blocks.png)
 
 ## Modificar la vista del Administrador de bloques de datos
 
 Puede modificar qué columnas están visibles en la ventana Administrador de bloques de datos.
 
 
-Haga clic en el icono  <img src="./assets/image515.png" width="3%"/> de la lista de columnas para seleccionar qué columnas aparecen en el Administrador de bloques de datos. Seleccione un nombre de columna para mostrar la columna. Anule la selección del nombre de columna para quitar la columna de la vista.
+Haga clic en el icono  <img src="./assets/image515.png" width="3%" alt="Icono de lista de columnas"/> de la lista de columnas para seleccionar qué columnas aparecen en el Administrador de bloques de datos. Seleccione un nombre de columna para mostrar la columna. Anule la selección del nombre de columna para quitar la columna de la vista.
 
-![imagen](./assets/image516.png)
+![Administrador de bloques de datos que muestra la lista de columnas](./assets/image516.png)

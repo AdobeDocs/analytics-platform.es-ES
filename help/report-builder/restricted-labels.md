@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 60%
+source-wordcount: '341'
+ht-degree: 57%
 
 ---
 
@@ -34,10 +34,10 @@ En Customer Journey Analytics aparecen dos directivas definidas por el Adobe que
 
 Los componentes afectados por estas directivas aparecen atenuados. Cuando pasa el ratón sobre un componente que tiene una directiva aplicada, se muestra una nota para indicar lo siguiente: **Se han aplicado directivas a este campo que prohíben el uso de estos datos.** Para obtener más información, consulte [Etiquetas y directivas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html?lang=es).
 
-![](assets/rb-restricted-label.png)
+![La nota de política que indica el uso prohibido de los datos.](assets/rb-restricted-label.png)
 
 ## Actualización de informes que contengan datos restringidos
 
 En los casos en los que un usuario ha creado un informe de Report Builder con elementos de datos que se restrinjan posteriormente, cuando se actualiza el informe, se muestra un mensaje de error.
 
-![](assets/error-restricted-data.png)
+![El mensaje de error mostrado después de restringir los elementos de datos.](assets/error-restricted-data.png)

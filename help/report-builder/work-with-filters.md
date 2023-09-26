@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: 8b0a4b06a2ebed196bab37e9befb61e0bf0f8902
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 68%
+source-wordcount: '850'
+ht-degree: 60%
 
 ---
 
@@ -25,9 +25,7 @@ Para aplicar un filtro a todo el bloque de datos, haga doble clic en un filtro o
 
 Para aplicar filtros a métricas individuales, arrastre y suelte un filtro en una métrica de la tabla. También puede hacer clic en el botón **...** a la derecha de una métrica en el panel Tabla y, a continuación, seleccionar **Métrica de filtro**. Para ver los filtros aplicados, pase el ratón sobre una métrica o selecciónela en el panel Tabla. Las métricas con filtros aplicados muestran un icono de filtro.
 
-<!-- ![](./assets/image24.png) -->
-
-![](./assets/filter_by.png)
+![Pestaña Filtros que muestra las métricas.](./assets/filter_by.png)
 
 ## Filtros de edición rápida
 
@@ -39,11 +37,11 @@ Edición de filtros mediante el panel Edición rápida
 
 1. Seleccione un rango de celdas de uno o varios bloques de datos.
 
-   ![](./assets/select_multiple_dbs.png)
+   ![El panel de filtro Edición rápida muestra las opciones de filtro para vistas de datos, intervalos de fechas y filtros.](./assets/select_multiple_dbs.png)
 
 1. Haga clic en el vínculo Filtros para iniciar el panel Edición rápida - Filtros.
 
-   ![](./assets/quick_edit_filters.png)
+   ![el panel Filtros que muestra el campo Añadir filtro y las listas Filtros aplicados.](./assets/quick_edit_filters.png)
 
 ### Agregado o eliminación de un filtro
 
@@ -55,7 +53,7 @@ Puede añadir o quitar filtros utilizando las opciones Agregar o Quitar.
 
    Cuando hay varios filtros presentes en los bloques de datos seleccionados, puede buscar filtros específicos mediante el campo de búsqueda **Añadir filtro**.
 
-   ![](./assets/add_filter.png)
+   ![El campo Añadir filtro.](./assets/add_filter.png)
 
 1. Añadir filtros seleccionándolos en el menú desplegable **Añadir filtro**.
 
@@ -75,7 +73,7 @@ Puede reemplazar un filtro existente por otro para cambiar la forma en que se fi
 
 1. Seleccione la pestaña **Reemplazar** en el panel Edición rápida - Filtros.
 
-   ![](./assets/replace_filter.png)
+   ![Seleccione la pestaña Reemplazar.](./assets/replace_filter.png)
 
 1. Utilice el campo de búsqueda **Lista de búsqueda** para localizar filtros específicos.
 
@@ -85,7 +83,7 @@ Puede reemplazar un filtro existente por otro para cambiar la forma en que se fi
 
    Al seleccionar un filtro, se añade a la lista **Reemplazar con**...
 
-   ![](./assets/replace_screen_new.png)
+   ![La pestaña Reemplazar con el bloque de datos Personas en la aplicación seleccionado y la lista Reemplazar con actualizada que muestra Personas en la aplicación revisada.](./assets/replace_screen_new.png)
 
 1. Haga clic en **Aplicar**.
 
@@ -101,7 +99,7 @@ Para aplicar filtros desde una celda
 1. Haga clic en **Filtros** para definir los filtros.
 1. Clic **Crear filtro desde celda**.
 
-   ![](./assets/create-filter-from-cell.png)
+   ![Icono Crear filtro desde celda.](./assets/create-filter-from-cell.png)
 
 1. Seleccione la celda cuyos bloques de datos deben hacer referencia a un filtro.
 
@@ -109,13 +107,13 @@ Para aplicar filtros desde una celda
 
    Nota: Solo se puede seleccionar una opción para la celda determinada al mismo tiempo.
 
-   ![](./assets/select-filters.png)
+   ![La ventana Add filter from cell muestra los filtros incluidos.](./assets/select-filters.png)
 
 1. Clic **Aplicar** para crear la celda de referencia.
 
 1. Desde el **Filtros** pestaña, añada el filtro de celda de referencia recién creado al bloque de datos.
 
-   ![](./assets/reference-cell-filter.png)
+   ![Ficha Filters que muestra el filtro Sheet1!J1(All Data) añadido a la tabla.](./assets/reference-cell-filter.png)
 
 1. Haga clic en **Finalizar**.
 
@@ -127,10 +125,10 @@ Para aplicar filtros desde una celda
 
 1. Haga clic en el vínculo debajo de **Filtros de celda** en el menú Edición rápida.
 
-   ![](./assets/filters-from-cell-link.png)
+   ![Filtros del vínculo de celda que muestra Hoja1!J1 (Todos los datos)](./assets/filters-from-cell-link.png)
 
 1. Seleccione el filtro en el menú desplegable.
 
-   ![](./assets/filter-drop-down.png)
+   ![Menú desplegable Filtro](./assets/filter-drop-down.png)
 
 1. Haga clic en **Aplicar**.

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ La opción Desde celda permite hacer referencia a las fechas introducidas en las
 
 Tiene la opción de excluir hoy en cualquier intervalo de fechas seleccionado.
 
-![](./assets/image17.png)
+![Seleccione Excluir hoy.](./assets/image17.png)
 
 ## Usar el calendario
 
@@ -62,7 +62,7 @@ Para seleccionar fechas utilizando el calendario
 
 Para definir un intervalo de fechas al revés, haga clic primero en la fecha de finalización y, a continuación, haga clic en la fecha de inicio.
 
-![](./assets/image18.png)
+![Haga clic en la fecha de finalización y luego en la fecha de inicio.](./assets/image18.png)
 
 ### Menú desplegable de ajustes preestablecidos
 
@@ -76,7 +76,7 @@ La opción fechas móviles permite seleccionar un intervalo de fechas mediante f
 
 1. Seleccione una expresión móvil para la fecha de inicio o de finalización.
 
-   ![](./assets/image19.png)
+   ![Seleccione Usar fechas móviles y, a continuación, la expresión móvil.](./assets/image19.png)
 
    **Inicio de**: permite seleccionar el comienzo de un día, una semana, un mes, un trimestre o un año.
 
@@ -86,11 +86,11 @@ La opción fechas móviles permite seleccionar un intervalo de fechas mediante f
 
 1. Elija día, semana, mes, trimestre o año como período móvil.
 
-   ![](./assets/image20.png)
+   ![Elija el día actual.](./assets/image20.png)
 
 1. Añada o reste días, semanas, meses, trimestres o años a partir de la fecha móvil.
 
-   ![](./assets/image21.png)
+   ![Seleccione el día actual más 14 días.](./assets/image21.png)
 
 1. Haga clic en Siguiente para definir el intervalo de datos.
 
@@ -106,7 +106,7 @@ La opción de expresión personalizada permite cambiar el intervalo de fechas cr
 
    Al seleccionar la variable **Utilizar expresión personalizada**, los controles de intervalo de fechas móviles estándar están desactivados.
 
-   ![](./assets/custom_expression.png)
+   ![Seleccione Usar expresión personalizada que muestre tm-1m a td-1d.](./assets/custom_expression.png)
 
 1. Introduzca una expresión personalizada.
 
@@ -163,7 +163,7 @@ En la tabla siguiente se muestran ejemplos de expresiones de fecha.
 
 El intervalo de fechas se puede especificar en celdas de hoja de cálculo. Utilice la variable **Intervalo de fechas de la celda** para elegir las fechas de inicio y finalización del bloque de datos de las celdas seleccionadas. Al seleccionar la variable **Desde celda**, se muestran en el panel los campos **De** y **Hasta**, en los que se puede introducir una ubicación de celda.
 
-![](./assets/image23.png)
+![Seleccione Desde celda Hoja1!H4 hasta Hoja1!I4](./assets/image23.png)
 
 ## Excluir hoy
 

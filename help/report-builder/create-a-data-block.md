@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 74%
+source-wordcount: '649'
+ht-degree: 69%
 
 ---
 
@@ -23,7 +23,7 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
 1. Haga clic en **Crear bloque de datos**.
 
-   ![](./assets/create_db.png)
+   ![Captura de pantalla que muestra la opción Crear bloque de datos.](./assets/create_db.png)
 
 1. Configure las variables **Ubicación del bloque de datos**.
 
@@ -41,13 +41,9 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
 1. Haga clic en **Siguiente**.
 
-   ![](./assets/choose_date_data_view3.png)
+   ![Captura de pantalla que muestra la opción de intervalo de fechas y el botón Activo Siguiente.](./assets/choose_date_data_view3.png)
 
    Después de configurar el bloque de datos, puede seleccionar dimensiones, métricas y filtros para crear el bloque de datos. Las pestañas Dimensión, Métricas y Filtros se muestran encima del panel Generador de tablas.
-<!--
-    ![](./assets/image9.png)
-  -->
-
 
 ## Generación del bloque de datos
 
@@ -75,13 +71,13 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
    Cuando se añaden componentes a la tabla, se muestra una vista previa del bloque de datos en la ubicación del bloque de datos en la hoja de cálculo. El diseño de la vista previa del bloque de datos se actualiza automáticamente a medida que se añaden, mueven o eliminan elementos de la tabla.
 
-   ![](./assets/image10.png)
+   ![Captura de pantalla que muestra los componentes añadidos y la hoja de cálculo actualizada.](./assets/image10.png)
 
    **Mostrar u ocultar encabezados de fila y columna**
 
 1. Haga clic en **Tabla** icono de configuración.
 
-   ![imagen de marcador](./assets/table-settings.png){width="35%"}
+   ![Captura de pantalla que muestra la opción Configuración de tabla.](./assets/table-settings.png){width="35%"}
 
 1. Marque o desmarque la opción Mostrar encabezados de fila y columna. Los encabezados se muestran de forma predeterminada.
 
@@ -89,7 +85,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
 1. Haga clic en el icono de puntos suspensivos en las dimensiones o en los encabezados de columna para mostrar la configuración.
 
-   ![imagen de marcador](./assets/row-heading.png){width="35%"}
+   ![Icono de puntos suspensivos en la sección Fila.](./assets/row-heading.png){width="35%"}
 
 1. Haga clic en Ocultar o Mostrar para alternar las etiquetas de dimensión o los encabezados de columna. Todas las etiquetas se muestran de forma predeterminada.
 
@@ -97,8 +93,8 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
    Se muestra un mensaje de procesamiento mientras se recuperan los datos de los análisis.
 
-   ![](./assets/image11.png)
+   ![El mensaje de procesamiento.](./assets/image11.png)
 
    Report Builder recupera los datos y muestra el bloque de datos completado en la hoja de cálculo.
 
-   ![](./assets/image12.png)
+   ![El bloque de datos completado.](./assets/image12.png)

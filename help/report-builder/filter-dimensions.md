@@ -1,15 +1,15 @@
 ---
-title: Filtrar Dimension en el Report Builder
+title: Cómo filtrar dimensiones en Report Builder
 description: Describe cómo filtrar dimensiones en Report Builder para Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 98%
+source-wordcount: '988'
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ Para cambiar los elementos de dimensión devueltos para cada dimensión
 
 1. Haga clic en el icono **...** junto al nombre de un componente en la tabla.
 
-   ![](./assets/image27.png)
+   ![Las opciones del icono de los tres puntos.](./assets/image27.png)
 
 1. Seleccione **Dimensión del filtro** en el menú emergente para mostrar el panel **Dimensión del filtro**.
 
 1. Seleccione **El más popular** o **Específico**.
 
-   ![](./assets/image28.png)
+   ![La opción específica seleccionada en el panel Dimensión de filtro.](./assets/image28.png)
 
 1. Seleccione las opciones adecuadas en función del tipo de filtro elegido.
 
@@ -49,7 +49,7 @@ Existen dos formas de filtrar los elementos de dimensión: el más popular y esp
 
 La opción el más popular le permite filtrar dinámicamente los elementos de dimensión en función de los valores de las métricas. El filtrado por el más popular devuelve los elementos de dimensión de mayor clasificación en función de los valores de las métricas. De forma predeterminada, se muestran los 10 primeros elementos de dimensión, ordenados por la primera métrica añadida al bloque de datos.
 
-![archivos de imagen](./assets/image29.png)
+![La opción Más popular.](./assets/image29.png)
 
 
 ### Opciones de página y filas
@@ -92,7 +92,7 @@ Definición de criterios de filtrado
 
 1. Seleccione un operador en la lista desplegable.
 
-   ![](./assets/image31.png)
+   ![La lista de operadores.](./assets/image31.png)
 
 1. Escriba un valor en el campo de búsqueda.
 
@@ -114,14 +114,14 @@ Para cambiar la métrica utilizada para filtrar y ordenar el bloque de datos,
 
 2. Haga clic en la flecha de la métrica preferida. 
 
-   ![](./assets/image30.png)
+   ![El Generador de tablas y las métricas.](./assets/image30.png)
 
 
 ## Filtro específico
 
 La opción Específico permite crear una lista fija de elementos de dimensión para cada dimensión. Utilice el tipo de filtro **Específico** para especificar los elementos de dimensión exactos que se incluirán en el filtro. Puede seleccionar elementos de una lista o de un rango de celdas.
 
-![](./assets/image32.png)
+![Las Opciones específicas y los elementos seleccionados.](./assets/image32.png)
 
 ### De la lista
 
@@ -129,7 +129,7 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
    Al seleccionar la variable **De la lista**, la lista se rellena con elementos de dimensión con la mayoría de eventos primero.
 
-   ![](./assets/image33.png)
+   ![La opción De la lista y los elementos disponibles.](./assets/image33.png)
 
    La lista **Elementos disponibles** se ordena de elementos de dimensión con la mayor cantidad de eventos a aquellos con la menor cantidad.
 
@@ -137,9 +137,9 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
 1. Para buscar un elemento no incluido en los últimos 90 días de datos, haga clic en **Mostrar los elementos de los últimos 6 meses** para ampliar la búsqueda.
 
-   ![](./assets/image34.png)
+   ![La lista Mostrar elementos de los últimos 6 meses.](./assets/image34.png)
 
-   Después de cargar los datos de los últimos seis meses, Report Builder actualiza el vínculo a **Mostrar artículos de los últimos 18 meses**.
+   Después de cargar los datos de los últimos 6 meses, Report Builder actualiza el vínculo a **Mostrar artículos de los últimos 18 meses**.
 
 1. Seleccionar un elemento de dimensión.
 
@@ -151,7 +151,7 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
    Para mover un elemento en la lista, arrastre y suelte el elemento o haga clic en ... para mostrar el menú de mover.
 
-   ![](./assets/image36.png)
+   ![La lista de elementos de dimensión.](./assets/image36.png)
 
 1. Haga clic en **Aplicar**
 
@@ -161,7 +161,7 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
 Seleccione la opción **Desde el rango de celdas** para elegir un rango de celdas que contenga la lista de elementos de dimensiones que desea que coincidan.
 
-![](./assets/image37.png)
+![La opción Desde el rango de celdas y el campo para seleccionar un rango de celdas.](./assets/image37.png)
 
 Cuando seleccione un rango de celdas, tenga en cuenta las restricciones siguientes:
 
@@ -175,6 +175,6 @@ La selección puede contener celdas vacías o con valores que no coinciden con u
 
 En la pestaña **Dimensiones**, haga clic en el icono de cheurón situado junto al nombre de una dimensión para ver la lista de elementos que contiene.
 
-![](./assets/dimensions_chevron.png)
+![La pestaña Dimension y la lista de dimensiones.](./assets/dimensions_chevron.png)
 
 Puede arrastrar y soltar elementos en la **Tabla** o hacer doble clic en un nombre de elemento para añadirlo al Generador de **tablas**.

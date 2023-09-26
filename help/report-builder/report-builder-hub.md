@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: abdf9dc510ebf929be2ca6be02ea60a83785a6f7
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Utilice Report Builder Hub para crear, actualizar, eliminar y administrar bloque
 
 Report Builder Hub contiene los botones Crear y Administrar, la lista de COMANDOS y los paneles de EDICIÓN RÁPIDA.
 
-<img src="./assets/hub51.png" width="50%"/>
+<img src="./assets/hub51.png" width="50%" alt="Report Builder Hub"/>
 
 
 ## Botones Crear y Administrar
@@ -30,7 +30,7 @@ Utilice los botones Crear o Administrar para crear nuevos bloques de datos o par
 
 Utilice el panel COMANDOS para acceder a comandos compatibles con las celdas seleccionadas o con una acción anterior.
 
-![](./assets/hub1.png)
+![El panel Comandos de Report Builder Hub](./assets/hub1.png)
 
 ### Comandos
 
@@ -47,7 +47,7 @@ Utilice el panel COMANDOS para acceder a comandos compatibles con las celdas sel
 
 Cuando se seleccionan uno o varios bloques de datos en una hoja de cálculo, Report Builder muestra el panel EDICIÓN RÁPIDA. Puede utilizar el panel EDICIÓN RÁPIDA para cambiar parámetros en un solo bloque de datos o para cambiar parámetros en varios bloques de datos al mismo tiempo.
 
-![](./assets/hub2.png)
+![El panel Edición rápida en Report Builder](./assets/hub2.png)
 
 Los cambios realizados con las secciones Edición rápida se aplican a todos los bloques de datos seleccionados.
 
@@ -59,7 +59,7 @@ Al cambiar la vista de datos, todos los bloques de datos de la selección adopta
 
 Para cambiar la vista de datos, seleccione una nueva vista de datos en el menú desplegable.
 
-![](./assets/image16.png)
+![Concentrador de Report Builder que muestra el menú desplegable de vista de datos.](./assets/image16.png)
 
 ### Intervalo de fechas
 
