@@ -5,9 +5,9 @@ title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1626'
 ht-degree: 4%
 
 ---
@@ -69,7 +69,7 @@ Exportar los datos del Customer Journey Analytics a la nube le permite:
 
   Este tipo de datos se puede utilizar para detectar tendencias a largo plazo con el fin de obtener inteligencia empresarial y, en última instancia, conducir a una mejor toma de decisiones empresariales.
 
-* Exportar tablas completas que contengan miles o millones de filas. Otros métodos de exportación permiten un máximo de 50 000 filas.
+* Exportar tablas completas que contengan miles o millones de filas (3 millones, 30 millones o 150 millones de filas, según el tipo de licencia). Otros métodos de exportación permiten un máximo de 50 000 filas.
 
 * Incluya métricas calculadas en los datos de Customer Journey Analytics exportados.
 
@@ -108,7 +108,7 @@ Las siguientes funciones no son compatibles y se eliminan automáticamente de la
 
 Los siguientes componentes no son compatibles y Analysis Workspace le pide que los elimine de la tabla al realizar una exportación de tabla completa:
 
-* Métricas calculadas que utilizan funciones avanzadas en la definición de la métrica (consulte [Funciones avanzadas](/help/components/calc-metrics/cm-adv-functions.md) para obtener más información)
+* Métricas calculadas que utilizan funciones básicas o avanzadas en su definición (consulte [Funciones básicas](/help/components/calc-metrics/cm-functions.md) y [Funciones avanzadas](/help/components/calc-metrics/cm-adv-functions.md) para obtener más información)
 * Componentes que un administrador ha restringido para que no se exporten (consulte la *Filtro en políticas de gobernanza de datos en vistas de datos* sección en [Etiquetas y políticas](/help/data-views/data-governance.md) para obtener más información)
 * Más de 5 dimensiones y 5 métricas por informe (se admiten hasta 5 dimensiones y 5 métricas)
 * En columnas de la tabla:

@@ -5,10 +5,10 @@ title: Configuración de cuentas de exportación en la nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: b773af6878f16266cbc8a502ec2e66d1380e8210
 workflow-type: tm+mt
 source-wordcount: '1551'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -74,7 +74,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. Copie el contenido del [!UICONTROL **SAS**] al portapapeles. Utilice este token SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de AEP. Obtenga información sobre cómo acceder a sus datos&quot; |
 
-1. Seleccione [!UICONTROL **Cerrar**].
+1. Seleccionar [!UICONTROL **OK**].
 
 1. Continuar con [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
 
@@ -98,7 +98,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. Copie el contenido del [!UICONTROL **ARN del usuario**] al portapapeles. El ARN del usuario (nombre del recurso de Amazon) lo proporciona Adobe. Debe adjuntar este usuario a la directiva que creó en el ARN de la función de Amazon S3.
 
-1. Seleccione [!UICONTROL **Cerrar**].
+1. Seleccionar [!UICONTROL **OK**].
 
 1. Continuar con [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
 
@@ -122,7 +122,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. Copie el contenido del [!UICONTROL **Principal**] en el portapapeles y, a continuación, asegúrese de conceder permiso al principal para cargar archivos en este bloque en Google Cloud Platform. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleccione [!UICONTROL **Cerrar**].
+1. Seleccionar [!UICONTROL **OK**].
 
 1. Continuar con [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
 
@@ -150,7 +150,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. Si aún no lo ha hecho, asegúrese de conceder permisos al bloque en Azure SAS. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleccione [!UICONTROL **Cerrar**].
+1. Seleccionar [!UICONTROL **OK**].
 
 1. Continuar con [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
 
@@ -176,7 +176,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. Si aún no lo ha hecho, asegúrese de conceder permisos al bloque en Azure RBAC. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleccione [!UICONTROL **Cerrar**].
+1. Seleccionar [!UICONTROL **OK**].
 
 1. Continuar con [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
 
@@ -202,7 +202,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. Copie el contenido del [!UICONTROL **Clave pública**] al portapapeles. La clave pública la proporciona el Adobe. Utilice la clave pública en Snowflake para conectarse a su cuenta de Snowflake. Para obtener más información, consulte la [Página Autenticación de Par de Claves y Rotación de Par de Claves en la documentación del Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth). |
 
-1. Seleccione [!UICONTROL **Cerrar**].
+1. Seleccionar [!UICONTROL **OK**].
 
 1. Continuar con [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
 
