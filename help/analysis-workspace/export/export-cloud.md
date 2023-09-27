@@ -5,9 +5,9 @@ title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
+source-git-commit: b984241de42b2db2992e18c17cd60ca14cc725c7
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1853'
 ht-degree: 4%
 
 ---
@@ -18,11 +18,35 @@ Puede exportar tablas completas de Workspace desde Customer Journey Analytics y 
 
 También hay disponibles otros métodos para exportar informes de Customer Journey Analytics, como se describe en [Información general de exportación](/help/analysis-workspace/export/export-project-overview.md).
 
+## Explicación de la exportación de tabla completa
+
+Puede exportar tablas completas desde Analysis Workspace a proveedores de la nube como Google, Azure, Amazon y Adobe.
+
+[Ventajas de exportar tablas completas a la nube](#advantages-of-exporting-to-the-cloud) incluye la capacidad de exportar millones de filas, incluir métricas calculadas, datos de estructura de salida en valores concatenados, etc.
+
+Al exportar tablas completas, tenga en cuenta lo siguiente:
+
+* Antes de exportar a la nube, asegúrese de que las tablas, el entorno y los permisos cumplan los requisitos siguientes [requisitos de exportación](#export-requirements).
+
+* Algunos [características](#unsupported-features) y [componentes](#unsupported-components) no son compatibles al exportar tablas completas a la nube.
+
+Utilice el siguiente proceso al exportar tablas completas a la nube:
+
+1. [Configuración de una cuenta de nube](/help/components/exports/cloud-export-accounts.md)
+
+1. [Configurar una ubicación en la cuenta](/help/components/exports/cloud-export-locations.md)
+
+1. [Exportación de una tabla completa desde Workspace](#export-full-tables-from-analysis-workspace)
+
+1. [Acceder a datos en la nube](#view-exported-data-and-manifest-file) y [Administración de exportaciones en Adobe](/help/components/exports/manage-exports.md)
+
+![Proceso de exportación de tabla completa](assets/export-full-table-process.png)
+
 ## Exportar tablas completas desde Analysis Workspace
 
 >[!NOTE]
 >
->Antes de exportar los datos como se describe en esta sección, asegúrese de que la variable [Requisitos de exportación](#export-requirements) se cumplen.
+>Antes de exportar los datos como se describe en esta sección, obtenga más información sobre la exportación de tabla completa en la [Explicación de la exportación de tabla completa](#understand-full-table-export) sección anterior.
 
 Para exportar tablas completas desde Analysis Workspace:
 
@@ -58,6 +82,38 @@ Para exportar tablas completas desde Analysis Workspace:
    Los datos se envían a la cuenta de la nube especificada con la frecuencia especificada.
 
 1. (Opcional) Una vez creada la exportación, tanto si elige enviarla ahora como en una programación definida, puede verla y administrarla en el [Página Exportaciones](/help/components/exports/manage-exports.md) y visualícelo en el [Exportar registros](/help/components/exports/manage-export-logs.md).</p>
+
+## Administración de exportaciones
+
+Una vez exportados los datos desde Analysis Workspace, puede editarlos, volver a exportarlos, duplicarlos, etiquetarlos o eliminar los existentes, tal como se describe en [Administración de exportaciones](/help/components/exports/manage-exports.md).
+
+## Ver datos exportados y archivo de manifiesto
+
+### Datos exportados
+
+Los datos exportados están disponibles como archivo comprimido en el destino de nube que configuró, tal como se describe en [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md) y [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
+
+El nombre del archivo comprimido es el siguiente, en función de si eligió CSV o JSON como formato de archivo:
+
+* `cja-export-{reportInstanceId}-{idx}.csv.gz`
+
+* `cja-export-{reportInstanceId}-{idx}.json.gz`
+
+>[!NOTE]
+>
+>Elija el formato de archivo en la [!UICONTROL **Formato de archivo**] al exportar la tabla, tal como se describe en [Exportar tablas completas desde Analysis Workspace](#export-full-tables-from-analysis-workspace).
+
+### Archivo de manifiesto
+
+Un archivo de manifiesto con un nombre de archivo de `cja-export-{reportInstanceId}-{idx}.json.gz` se incluye con cualquier envío de exportación correcto que contenga al menos un archivo. El archivo de manifiesto le permite confirmar que todos los archivos se entregaron correctamente. Incluye la siguiente información:
+
+* Una lista de todos los archivos entregados
+
+* El tamaño de cada archivo
+
+* La marca de tiempo de cada archivo
+
+<!-- add in  what the file name, structure, and file format will be -->
 
 ## Ventajas de exportar a la nube
 
@@ -141,38 +197,6 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
   >[!NOTE]
   >
   >Los informes multidimensionales solo son compatibles al exportar datos a la nube, tal como se describe en este artículo.
-
-## Administración de exportaciones
-
-Una vez exportados los datos desde Analysis Workspace, puede editarlos, volver a exportarlos, duplicarlos, etiquetarlos o eliminar los existentes, tal como se describe en [Administración de exportaciones](/help/components/exports/manage-exports.md).
-
-## Ver datos exportados y archivo de manifiesto
-
-### Datos exportados
-
-Los datos exportados están disponibles como archivo comprimido en el destino de nube que configuró, tal como se describe en [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md) y [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
-
-El nombre del archivo comprimido es el siguiente, en función de si eligió CSV o JSON como formato de archivo:
-
-* `cja-export-{reportInstanceId}-{idx}.csv.gz`
-
-* `cja-export-{reportInstanceId}-{idx}.json.gz`
-
->[!NOTE]
->
->Elija el formato de archivo en la [!UICONTROL **Formato de archivo**] al exportar la tabla, tal como se describe en [Exportar tablas completas desde Analysis Workspace](#export-full-tables-from-analysis-workspace).
-
-### Archivo de manifiesto
-
-Un archivo de manifiesto con un nombre de archivo de `cja-export-{reportInstanceId}-{idx}.json.gz` se incluye con cualquier envío de exportación correcto que contenga al menos un archivo. El archivo de manifiesto le permite confirmar que todos los archivos se entregaron correctamente. Incluye la siguiente información:
-
-* Una lista de todos los archivos entregados
-
-* El tamaño de cada archivo
-
-* La marca de tiempo de cada archivo
-
-<!-- add in  what the file name, structure, and file format will be -->
 
 ## Comparación de la exportación de tabla completa (en Customer Journey Analytics) con la Data Warehouse (en Adobe Analytics)
 
