@@ -5,10 +5,10 @@ title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 5%
+source-wordcount: '383'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Ubicación**] pestaña.
+1. Seleccione el [!UICONTROL **Ubicaciones**] pestaña.
 
 1. Seleccione el **Filtrar** icono.
 
@@ -36,7 +36,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
    | Filtro | Descripción |
    |---------|----------|
-   | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos Adobe Experience Platform**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Cuenta**] | El nombre de la cuenta a la que está asociada la ubicación. |
    | [!UICONTROL **Creado por**] | La dirección de correo electrónico del usuario que creó la ubicación. |
 
@@ -46,7 +46,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Ubicación**] pestaña.
+1. Seleccione el [!UICONTROL **Ubicaciones**] pestaña.
 
 1. En la ficha de búsqueda, empiece a escribir la información asociada con la ubicación que está buscando. Puede buscar datos de cualquier columna disponible en la tabla.
 
@@ -54,7 +54,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Ubicación**] y, a continuación, seleccione la ubicación que desee editar.
+1. Seleccione el [!UICONTROL **Ubicaciones**] y, a continuación, seleccione la ubicación que desee editar.
 
    <!-- add screenshot? -->
 
@@ -74,7 +74,7 @@ Para eliminar una ubicación:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Ubicación**] y, a continuación, seleccione una o varias ubicaciones que desee eliminar.
+1. Seleccione el [!UICONTROL **Ubicaciones**] y, a continuación, seleccione una o varias ubicaciones que desee eliminar.
 
    <!-- add screenshot? -->
 

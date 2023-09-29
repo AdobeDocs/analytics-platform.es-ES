@@ -5,9 +5,9 @@ title: Configuración de ubicaciones de exportación de nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 2da2b4b2931f28dc373a2c634c38e9dfcbdd2788
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1415'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
    Continúe con la sección siguiente que corresponde al tipo de cuenta seleccionado en la [!UICONTROL **Cuenta de ubicación**] field.
 
-### Zona de aterrizaje de datos Adobe Experience Platform
+### Zona de aterrizaje de datos de AEP
 
 >[!IMPORTANT]
 >

@@ -5,10 +5,10 @@ title: Administración de registros de exportación
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 7%
+source-wordcount: '708'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Para encontrar la información que necesita, puede filtrar la lista de registros
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Registro**] pestaña.
+1. Seleccione el [!UICONTROL **Registros**] pestaña.
 
 1. Seleccione el **Filtrar** icono.
 
@@ -45,7 +45,7 @@ Para encontrar la información que necesita, puede filtrar la lista de registros
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Registro**] pestaña.
+1. Seleccione el [!UICONTROL **Registros**] pestaña.
 
 1. En la pestaña de búsqueda, empiece a escribir cualquier información asociada con el registro que está buscando. Puede buscar datos de cualquier columna disponible en la tabla.
 
@@ -69,25 +69,29 @@ Esta opción no está disponible cuando se seleccionan varios registros.
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Registros**] y, a continuación, seleccione un registro.
+1. Seleccione el [!UICONTROL **Registros**] pestaña.
 
-   <!-- add screenshot? -->
+1. Busque el registro asociado a la exportación que desea editar.
 
-1. Seleccione [!UICONTROL **Editar**].
+1. Seleccione el **Editar exportación** icono ![icono de registro de exportación](assets/export-icon.png) junto al registro.
+
+   o
+
+   Seleccione el registro y, a continuación, seleccione [!UICONTROL **Editar exportación**].
 
 ## Configuración de columnas
 
-Puede añadir o quitar columnas en la [!UICONTROL Registro] para configurar qué información se muestra.
+Puede añadir o quitar columnas en la [!UICONTROL Registros] para configurar qué información se muestra.
 
 Seleccione un encabezado de columna para ordenar los registros por esa columna. De forma predeterminada, los registros se ordenan por la fecha y la hora de inicio de la exportación.
 
-Para configurar columnas en [!UICONTROL Registro] pestaña:
+Para configurar columnas en [!UICONTROL Registros] pestaña:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Registro**] pestaña.
+1. Seleccione el [!UICONTROL **Registros**] pestaña.
 
-1. Seleccione el **Personalizar tabla** icono ![personalizar tabla](assets/customize-table-icon.png) en la parte superior derecha de la etiqueta [!UICONTROL Registro] página.
+1. Seleccione el **Personalizar tabla** icono ![personalizar tabla](assets/customize-table-icon.png) en la parte superior derecha de la etiqueta [!UICONTROL Registros] página.
 
    Las columnas disponibles son las siguientes:
 
@@ -108,7 +112,7 @@ Para configurar columnas en [!UICONTROL Registro] pestaña:
 
    {style="table-layout:auto"}
 
-1. Asegúrese de que todas las columnas que desee mostrar estén seleccionadas. Las columnas seleccionadas aparecen en la [!UICONTROL Registro] y mostrar la información relevante.
+1. Asegúrese de que todas las columnas que desee mostrar estén seleccionadas. Las columnas seleccionadas aparecen en la [!UICONTROL Registros] y mostrar la información relevante.
 
 ## Ver registros de auditoría
 

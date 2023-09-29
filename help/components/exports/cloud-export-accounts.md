@@ -5,9 +5,9 @@ title: Configuración de cuentas de exportación en la nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1600'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. En el [!UICONTROL **Descripción de cuenta de ubicación**] , proporcione una breve descripción de la cuenta para ayudar a diferenciarla de otras cuentas del mismo tipo de cuenta.
 
-1. En el [!UICONTROL **Tipo de cuenta**] , seleccione el tipo de cuenta de nube a la que está exportando. Los tipos de cuenta disponibles son Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake y Adobe Experience Platform Data Landing Zone.
+1. En el [!UICONTROL **Tipo de cuenta**] , seleccione el tipo de cuenta de nube a la que está exportando. Los tipos de cuenta disponibles son Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake y AEP Data Landing Zone.
 
 1. Continúe con la sección siguiente que corresponde a la [!UICONTROL **Tipo de cuenta**] ha seleccionado.
 
@@ -50,7 +50,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    * [Snowflake](#snowflake)
 
-### Zona de aterrizaje de datos Adobe Experience Platform
+### Zona de aterrizaje de datos de AEP
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    <!-- add screen shot -->
 
-1. Copie el contenido del [!UICONTROL **SAS**] al portapapeles. Utilice este token SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de AEP. Obtenga información sobre cómo acceder a sus datos&quot; |
+1. Copie el contenido del [!UICONTROL **SAS**] al portapapeles. Utilice este token SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de AEP. Más información acerca del acceso a sus datos&quot; |
 
 1. Seleccionar [!UICONTROL **OK**].
 

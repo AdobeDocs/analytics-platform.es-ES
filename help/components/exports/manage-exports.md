@@ -5,9 +5,9 @@ title: Administración de exportaciones
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a95be4cf8e11b7b62f6777abe8884779cfebf482
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '968'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ Para encontrar la información que necesita, puede filtrar la lista de exportaci
 
    | Filtro | Descripción |
    |---------|----------|
-   | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta al que está asociada la exportación. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos Adobe Experience Platform**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta al que está asociada la exportación. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Activo**]: indica que una exportación programada aún no ha caducado. </li><li>[!UICONTROL **Completado**]: indica que una exportación se ha exportado correctamente. En el caso de las exportaciones programadas, esto indica que la programación ha caducado.</li><li>[!UICONTROL **Fallido**]<p>Las siguientes situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado Error para ver los detalles del error. <ul><li>Caducidad de exportación programada</li><li>Se alcanzó el límite de filas para la exportación programada </li></ul> </p></li></ul> |
    | [!UICONTROL **Frecuencia**] | La frecuencia con la que se produce la exportación. Las frecuencias disponibles son las siguientes: <ul><li>[!UICONTROL **Una vez**]</li><li>[!UICONTROL **Diario**]</li><li>[!UICONTROL **Semanal**]</li><li>[!UICONTROL **Mensual**]</li><li>[!UICONTROL **Anual**]</li></ul> |
 
@@ -120,6 +120,8 @@ Puede eliminar las exportaciones desde la página Exportaciones. Las exportacion
 
 Puede añadir o quitar columnas en la [!UICONTROL Exportaciones] para configurar qué información se muestra.
 
+Seleccione un encabezado de columna para ordenar las exportaciones por esa columna. De forma predeterminada, las exportaciones se ordenan por la fecha y la hora de la última modificación de la exportación.
+
 1. Seleccione el **Personalizar tabla** icono ![personalizar tabla](assets/customize-table-icon.png) en la parte superior derecha de la etiqueta [!UICONTROL Exportaciones] página.
 
    Las columnas disponibles son las siguientes:
@@ -139,7 +141,7 @@ Puede añadir o quitar columnas en la [!UICONTROL Exportaciones] para configurar
    | Frecuencia | La frecuencia con la que se envía la exportación. Las opciones disponibles son [!UICONTROL Una vez], [!UICONTROL Diario], [!UICONTROL Semanalmente], [!UICONTROL Mensual por día de la semana], [!UICONTROL Mensual por día del mes], [!UICONTROL Anualmente por día del mes], y [!UICONTROL Anualmente por fecha específica]. |
    | Hora de envío | La hora a la que se envió la exportación. |
    | Enviado por última vez | La última vez que se envió la exportación. |
-   | Última modificación | La última vez que se modificó la exportación. |
+   | Última modificación | La última vez que se modificó la exportación. Los elementos de la página Exportaciones se ordenan por esta columna de forma predeterminada. |
    | Tipo de cuenta | El tipo de cuenta de nube donde se exportaron los datos. Los tipos de cuenta disponibles son [!UICONTROL ARN de la función de Amazon S3], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake], y [!UICONTROL Adobe Experience Platform]. |
    | Etiquetas | Muestra todas las etiquetas aplicadas a la exportación. Para obtener información sobre cómo aplicar etiquetas a una exportación, consulte [Etiquetado de una exportación](#tag-an-export). |
 
