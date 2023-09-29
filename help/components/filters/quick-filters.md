@@ -4,9 +4,9 @@ title: Filtros rápidos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+source-git-commit: 3d55105a7d4f4687ed0fc6d857c906eec707f6a6
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 38%
 
 ---
@@ -61,7 +61,7 @@ Para crear un filtro rápido:
    | Signo más (+) | Añadir otra regla |
    | Calificadores AND/OR | Puede agregar calificadores AND u OR a las reglas, pero no puede combinar AND y OR en una sola definición de filtro. |
    | [!UICONTROL Aplicar] | Aplique este filtro al panel. Si el filtro no contiene datos, se le preguntará si desea continuar. |
-   | [!UICONTROL Abrir creador] | Se abre el Generador de filtros. Después de guardar o aplicar el filtro en el Generador de filtros, ya no se considera un filtro rápido. Forma parte de la biblioteca de filtros de lista de componentes. <p>Para que el componente esté disponible en todos los proyectos y en el carril izquierdo, seleccione la opción [!UICONTROL **Haga que este filtro esté disponible para todos los proyectos y añádalo a la lista de componentes**].</p><p>Para obtener más información, consulte la sección [Guardar un filtro rápido como filtro de lista de componentes](#save-a-quick-filter-as-a-component-list-filter) en este artículo.</p><p>**Nota:** Solo los usuarios con el permiso de Creación de filtros en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=es#analytics-tools) Puede abrir el Generador de filtros.</p> |
+   | [!UICONTROL Abrir creador] | Se abre el Generador de filtros. Después de guardar o aplicar el filtro en el Generador de filtros, ya no se considera un filtro rápido. Forma parte de la biblioteca de filtros de lista de componentes. <p>Para que el componente esté disponible en todos los proyectos y en el carril izquierdo, seleccione la opción [!UICONTROL **Haga que este filtro esté disponible para todos los proyectos y añádalo a la lista de componentes**].</p><p>Para obtener más información, consulte la sección [Guardar un filtro rápido como filtro de lista de componentes](#save-a-quick-filter-as-a-component-list-filter) en este artículo.</p><p>**Nota:** Solo los usuarios con el permiso de Creación de segmentos en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=es) Puede abrir el Generador de filtros.</p> |
    | [!UICONTROL Cancelar] | Cancele este filtro rápido (no lo aplique). |
    | [!UICONTROL Intervalo de fechas] | El validador utiliza el intervalo de fechas del panel para la búsqueda de datos. Sin embargo, cualquier intervalo de fechas aplicado en un filtro rápido anula el intervalo de fechas del panel en la parte superior del panel. |
    | Vista previa (parte superior derecha) | Le permite ver si tiene un filtro válido y su amplitud. Representa el desglose del conjunto de datos que verá si aplica este filtro. Podría recibir un aviso que indique que este filtro no tiene datos. En este caso, puede continuar o cambiar la definición del filtro. |
@@ -83,7 +83,7 @@ Para crear un filtro rápido:
 >
 > Tenga en cuenta lo siguiente al guardar un filtro rápido:
 > 
-> * Para guardar un filtro rápido, necesita el permiso de Creación de filtros en la [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=es#analytics-tools).
+> * Para guardar un filtro rápido, necesita el permiso de Creación de segmentos en la [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=es).
 > 
 > * Después de guardar o aplicar el filtro, ya no se puede editar en el generador de filtros rápidos. En su lugar, debe utilizar el Generador de filtros normal.
 
