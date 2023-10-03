@@ -5,9 +5,10 @@ title: Configuración de cuentas de exportación en la nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1543'
 ht-degree: 5%
 
 ---
@@ -58,21 +59,13 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account), tal como se ha descrito anteriormente.
 
-1. En el [!UICONTROL **Propiedades de cuenta**] de la sección [!UICONTROL **Añadir cuenta**] , se muestra la siguiente información:
-
-   | Campo | Función |
-   |---------|----------|
-   | [!UICONTROL **ID de organización IMS**] | El Adobe proporciona el ID de organización de IMS. Esta información no suele ser necesaria. Puede resultar útil si tiene problemas con su cuenta y necesita ponerse en contacto con el Servicio de atención al cliente. |
-
-   {style="table-layout:auto"}
-
 1. Seleccione [!UICONTROL **Guardar**].
 
    El [!UICONTROL **Cuenta de exportación creada**] se muestra.
 
    <!-- add screen shot -->
 
-1. Copie el contenido del [!UICONTROL **SAS**] al portapapeles. Utilice este token SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de AEP. Más información acerca del acceso a sus datos&quot; |
+1. Copie el contenido del [!UICONTROL **SAS**] al portapapeles. Utilice este token SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de AEP.
 
 1. Seleccionar [!UICONTROL **OK**].
 
@@ -215,6 +208,3 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 1. Seleccionar [!UICONTROL **OK**].
 
 1. Continuar con [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md).
-
-
-

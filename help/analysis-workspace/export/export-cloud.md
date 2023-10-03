@@ -5,10 +5,11 @@ title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1928'
-ht-degree: 3%
+source-wordcount: '1924'
+ht-degree: 4%
 
 ---
 
@@ -110,9 +111,7 @@ Un archivo de manifiesto con un nombre de archivo de `cja-export-{reportInstance
 
 * Una lista de todos los archivos entregados
 
-* El tamaño de cada archivo
-
-* La marca de tiempo de cada archivo
+* La suma de comprobación MD5 de cada archivo
 
 <!-- add in  what the file name, structure, and file format will be -->
 
@@ -126,7 +125,7 @@ Exportar los datos del Customer Journey Analytics a la nube le permite:
 
   Este tipo de datos se puede utilizar para detectar tendencias a largo plazo con el fin de obtener inteligencia empresarial y, en última instancia, conducir a una mejor toma de decisiones empresariales.
 
-* Exportar tablas completas que contengan miles o millones de filas (3 millones, 30 millones o 150 millones de filas, según el tipo de licencia). Otros métodos de exportación permiten un máximo de 50 000 filas.
+* Exportar tablas completas que contengan miles o millones de filas (3 millones, 30 millones, 150 millones o 300 millones de filas, según el tipo de licencia). Otros métodos de exportación permiten un máximo de 50 000 filas.
 
 * Incluya métricas calculadas en los datos de Customer Journey Analytics exportados.
 

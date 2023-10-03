@@ -5,9 +5,10 @@ title: Configuración de ubicaciones de exportación de nube
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1376'
 ht-degree: 4%
 
 ---
@@ -58,8 +59,7 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **ID de organización IMS**] | El Adobe proporciona el ID de organización de IMS. Haga clic en el icono Copiar junto a la etiqueta [!UICONTROL **ID de organización IMS**] para copiar el contenido del campo y, a continuación, utilice el ID en su cuenta de Adobe Experience Platform. |
-   | [!UICONTROL **Prefijo**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
+   | [!UICONTROL **Prefijo**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra diagonal después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -78,7 +78,7 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
    | Campo | Función |
    |---------|----------|
    | [!UICONTROL **Cubo**] | El bloque de su cuenta de Amazon S3 al que desea enviar los datos de Adobe Analytics. Asegúrese de que el ARN del usuario proporcionado por el Adobe tiene acceso para cargar archivos en este bloque. |
-   | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
+   | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra diagonal después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -97,7 +97,7 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
    | Campo | Función |
    |---------|----------|
    | [!UICONTROL **Cubo**] | El bloque de su cuenta de GCP al que desea enviar los datos del Customer Journey Analytics. Asegúrese de haber concedido permiso al principal proporcionado por el Adobe para cargar archivos en este bloque. (La entidad de seguridad se proporciona cuando [configuración de la cuenta de Google Cloud Platform](/help/components/exports/cloud-export-accounts.md).) Para obtener información sobre la concesión de permisos, consulte [Añadir un principal a una política de nivel de bloque](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) en la documentación de Google Cloud. |
-   | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
+   | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra diagonal después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -114,7 +114,7 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
    | Campo | Función |
    |---------|----------|
    | [!UICONTROL **Nombre de contenedor**] | El contenedor de la cuenta que especificó a la que desea enviar los datos del Customer Journey Analytics. |
-   | [!UICONTROL **Prefijo**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
+   | [!UICONTROL **Prefijo**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra diagonal después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -131,7 +131,7 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
    | Campo | Función |
    |---------|----------|
    | [!UICONTROL **Contenedor**] | El contenedor de la cuenta que especificó a donde desea enviar los datos de Adobe Analytics. Asegúrese de conceder permisos para cargar archivos en la aplicación de Azure que creó anteriormente. |
-   | [!UICONTROL **Prefijo**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
+   | [!UICONTROL **Prefijo**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra diagonal después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
    | [!UICONTROL **Cuenta**] | La cuenta de almacenamiento de Azure. |
 
    {style="table-layout:auto"}
