@@ -3,9 +3,9 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2b8712506d68d89d41668fac32bb669055d94e91
+source-git-commit: e1254a5ecff0f638cbef1051564c1ce856f715bd
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '769'
 ht-degree: 51%
 
 ---
@@ -24,7 +24,7 @@ Estas notas de la versión abarcan el período de lanzamiento del 4 de octubre d
 | **Nuevas columnas disponibles al administrar componentes** | Las siguientes columnas nuevas ya están disponibles en el [Administrador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) y el [Administrador de filtros](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html) al administrar componentes:<ul><li>Utilizado en</li><li>Último uso</li></ul>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse. Puede utilizar el diccionario de datos junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización. | 23 de septiembre de 2023 | 4 de octubre de 2023 |
 | **Migrar proyectos de Adobe Analytics y cualquier componente incluido a Customer Journey Analytics** | Ahora puede migrar sus proyectos de Adobe Analytics a Customer Journey Analytics. Este proceso simplifica la transición de Adobe Analytics a Customer Journey Analytics. Al migrar proyectos a Customer Journey Analytics, los recursos se asignan de un grupo de informes de Adobe Analytics a una vista de datos de Customer Journey Analytics. **Los proyectos se migran al Customer Journey Analytics desde la interfaz de Adobe Analytics.** [Más información](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | N/A | 4 de octubre de 2023 |
 | **Adobe Product Analytics: Mostrar/ocultar serie** | Haga clic en la leyenda del gráfico o en las filas de la tabla para controlar la visibilidad de las series en las visualizaciones.  Más información (próximamente) | N/A | 4 de octubre de 2023 |
-| **Anotaciones en Adobe Product Analytics** | Los proyectos de análisis guiados ahora admiten la capacidad de ver anotaciones. Consulte cada tipo de vista en [Análisis guiado](/help/guided-analysis/overview.md) para obtener más información sobre cómo interactúa con las anotaciones. Más información (próximamente) | N/A | 4 de octubre de 2023 |
+| **Anotaciones en Adobe Product Analytics** | Los proyectos de análisis guiados ahora admiten la capacidad de ver anotaciones. Consulte cada tipo de vista en [Análisis guiado](/help/guided-analysis/overview.md) para obtener más información sobre cómo interactúa con las anotaciones. | N/A | 4 de octubre de 2023 |
 | **Administrador de actividades de creación de informes** | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada conexión de su organización. Proporciona a los administradores una visibilidad detallada del consumo de creación de informes para diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de la creación de informes. Entre las características principales del Administrador de actividades de creación de informes se incluyen:<ul><li>Cancelar las solicitudes de informes actuales (incluidas las solicitudes de análisis guiados y exportaciones de tabla completa)</li><li>Restringir solicitudes posteriores durante un período de tiempo definido</li></ul>Además de cancelar las solicitudes actuales, los administradores ahora pueden restringir las solicitudes durante un período de tiempo definido. Los administradores pueden restringir las solicitudes por solicitud, proyecto o usuario.  Más información (próximamente) | 17 de octubre de 2023 | 23 de octubre de 2023 |
 
 {style="table-layout:auto"}
