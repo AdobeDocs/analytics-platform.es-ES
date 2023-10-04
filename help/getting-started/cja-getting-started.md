@@ -4,10 +4,10 @@ description: Comprenda los requisitos previos y el flujo de trabajo necesarios p
 exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 8d3517c86743434aed345bf06b3bd3345490b0ee
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 82%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics está disponible para los clientes que
 
 | Tarea | Detalles |
 | --- | --- |
-| **Paso 1: Si está migrando de Adobe Analytics a Customer Journey Analytics, aprenda qué hacer.** | Consulte [Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md) y [Ingesta y uso de datos de Adobe Analytics tradicional](../data-ingestion/analytics.md). |
+| **Paso 1: Si está migrando de Adobe Analytics a Customer Journey Analytics, migre los datos y duplique los proyectos.** | Para obtener información sobre la migración de datos de Adobe Analytics a Customer Journey Analytics, consulte: <ul><li>[Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)</li><li>[Ingesta y uso de datos de Adobe Analytics tradicional](../data-ingestion/analytics.md)</li></ul><p>Para obtener información sobre la replicación de los proyectos de Adobe Analytics en Customer Journey Analytics, así como la asignación de componentes de proyecto de un grupo de informes de Adobe Analytics a una vista de datos de Customer Journey Analytics, consulte:</p><ul><li>[Migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html)</li></ul> |
 | **Paso 2: introducir otros datos en Adobe Experience Platform** | Este paso, realizado en Adobe Experience Platform, incluye varios subpasos:<ul><li>**Paso 2a: Preparar el esquema de datos**: Uso del modelo de datos de [Adobe Experience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) para estandarizar los datos de experiencia del cliente y [definir esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es) para la administración de experiencias del cliente.</li><li>**Paso 2b: Crear un conjunto de datos basado en el esquema**: Los datos de Platform constan de conjuntos de datos, como conjuntos de datos de correo electrónico, de CRM, de POS, de Adobe Analytics, etc. Cada conjunto de datos consta de un esquema y lotes de datos. Puede [crear un conjunto de datos en Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html?lang=es).</li><li>**Paso 2c: Ingesta de datos en Experience Platform**: Aquí tiene varias opciones.</li></ul> |
 | **Paso 3: crear conexiones entre conjuntos de datos de Platform y Customer Journey Analytics** | Una conexión le permite integrar conjuntos de datos de Adobe Experience Platform el Espacio de trabajo. Para informar sobre conjuntos de datos de Experience Platform, primero debe establecer una conexión entre conjuntos de datos en Experience Platform y Espacio de trabajo.<br>Consulte [Crear una conexión](/help/connections/create-connection.md). |
 | **Paso 4: crear vistas de datos** | Una vista de datos es una vista “filtrada” de los datos. Puede crear distintas vistas de datos para la misma conexión, con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Puede crear varias vistas de datos para un único conjunto de datos.<br>Consulte [Crear una vista de datos](/help/data-views/create-dataview.md). |
