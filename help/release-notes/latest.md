@@ -3,35 +3,35 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: aa7f4361b1353a86b87c36c3d08e99ddb8ffd049
-workflow-type: ht
-source-wordcount: '602'
-ht-degree: 100%
+source-git-commit: 2b8712506d68d89d41668fac32bb669055d94e91
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 51%
 
 ---
 
-# Notas actuales de la versión de Customer Journey Analytics (septiembre de 2023)
+# Notas de la versión actuales de Adobe Customer Journey Analytics (octubre de 2023)
 
-**Última actualización**: 13 de septiembre de 2023
+**Última actualización**: 4 de octubre de 2023
 
-Estas notas de la versión abarcan el periodo de lanzamiento del 13 de septiembre de 2023 al 3 de octubre de 2023. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el período de lanzamiento del 4 de octubre de 2023 al 24 de octubre de 2023. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Funciones nuevas o actualizadas
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Compatibilidad con clasificaciones A4T en el conector de origen de Analytics** | El campo `_experience.decisioning.propositions.scopeDetails.correlationID` ahora está disponible en el esquema del conector de origen de Adobe Analytics. Este campo se utiliza para clasificaciones de A4T y se rellenará a partir de septiembre de 2023. | | N/A | 12 de septiembre de 2023 |
-| **Actualizaciones en campos derivados** | Se han realizado las siguientes actualizaciones en la funcionalidad de campos derivados:<ul><li>Se ha cambiado el nombre de la función [!UICONTROL Búsqueda] a [!UICONTROL Clasificar], con opciones adicionales para cargar datos CSV. **(Versiones del 27 de septiembre de 2023)**</li><li>Hay funciones adicionales disponibles para utilizar al definir un campo derivado: [!UICONTROL Recortar], [!UICONTROL Minúsculas] y [!UICONTROL Búsqueda].</li><li>Las definiciones de campo derivado ahora también admiten campos de conjuntos de datos de [!UICONTROL Búsqueda] y [!UICONTROL Perfil].</li></ul>[Más información](/help/data-views/derived-fields/derived-fields.md) | N/A | 13 de septiembre de 2023 |
-| **Nuevas funciones en Adobe Product Analytics** | <ul><li>**Detección de anomalías**: Compare eventos con valores esperados derivados de tendencias históricas. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html?lang=es)</li><li>**Vista de frecuencia de uso de tendencias**: mida la adopción de las funciones por frecuencia de uso. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html?lang=es)</li><li>**Preferencias de usuario**: configure una serie de preferencias de usuario, como paletas de color y formato de número. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=es)</li></ul> | N/A | 18 de septiembre de 2023 |
-| **Búsquedas de dispositivo de Experience Edge** | Habilite la recopilación automática de datos de tipo de dispositivo a través de la red de Experience Platform Edge. Este servicio Experience Edge beneficia a Customer Journey Analytics junto con otras aplicaciones de Experience Platform. (Enlace de documentación a continuación) | N/A | 27 de septiembre de 2023 |
-| **Nuevas columnas disponibles al administrar componentes** | Las siguientes columnas nuevas ya están disponibles en el [Administrador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-manager.md) y el [Administrador de filtros](/help/components/filters/manage-filters.md) al administrar componentes:<ul><li>Utilizado en</li><li>Último uso</li></ul><p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse. Puede utilizar el diccionario de datos junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización.</p> | 20 de septiembre de 2023 | 4 de octubre de 2023 |
+| **Exportar tablas completas a la nube** | La exportación de tablas completas de Customer Journey Analytics le permite exportar millones de filas de Workspace a destinos de nube. La exportación de tablas completas ofrece un envío único o programado de tablas de datos diseñadas en Workspace con soporte para hasta cinco desgloses, cinco métricas, filtros y métricas calculadas, todo en una tabla concatenada. Es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad. Las opciones de exportación de nube incluyen:<ul><li>Zona de aterrizaje de datos Adobe Experience Platform</li><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>Para obtener más información, consulte [Exportar informes de Customer Journey Analytics a la nube](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). | 4 de octubre de 2023 | 19 de octubre de 2023 |
+| **Nuevas columnas disponibles al administrar componentes** | Las siguientes columnas nuevas ya están disponibles en el [Administrador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) y el [Administrador de filtros](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html) al administrar componentes:<ul><li>Utilizado en</li><li>Último uso</li></ul>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse. Puede utilizar el diccionario de datos junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización. | 23 de septiembre de 2023 | 4 de octubre de 2023 |
+| **Migrar proyectos de Adobe Analytics y cualquier componente incluido a Customer Journey Analytics** | Ahora puede migrar sus proyectos de Adobe Analytics a Customer Journey Analytics. Este proceso simplifica la transición de Adobe Analytics a Customer Journey Analytics. Al migrar proyectos a Customer Journey Analytics, los recursos se asignan de un grupo de informes de Adobe Analytics a una vista de datos de Customer Journey Analytics. **Los proyectos se migran al Customer Journey Analytics desde la interfaz de Adobe Analytics.** [Más información](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | N/A | 4 de octubre de 2023 |
+| **Adobe Product Analytics: Mostrar/ocultar serie** | Haga clic en la leyenda del gráfico o en las filas de la tabla para controlar la visibilidad de las series en las visualizaciones.  Más información (próximamente) | N/A | 4 de octubre de 2023 |
+| **Anotaciones en Adobe Product Analytics** | Los proyectos de análisis guiados ahora admiten la capacidad de ver anotaciones. Consulte cada tipo de vista en [Análisis guiado](/help/guided-analysis/overview.md) para obtener más información sobre cómo interactúa con las anotaciones. Más información (próximamente) | N/A | 4 de octubre de 2023 |
+| **Administrador de actividades de creación de informes** | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada conexión de su organización. Proporciona a los administradores una visibilidad detallada del consumo de creación de informes para diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de la creación de informes. Entre las características principales del Administrador de actividades de creación de informes se incluyen:<ul><li>Cancelar las solicitudes de informes actuales (incluidas las solicitudes de análisis guiados y exportaciones de tabla completa)</li><li>Restringir solicitudes posteriores durante un período de tiempo definido</li></ul>Además de cancelar las solicitudes actuales, los administradores ahora pueden restringir las solicitudes durante un período de tiempo definido. Los administradores pueden restringir las solicitudes por solicitud, proyecto o usuario.  Más información (próximamente) | 17 de octubre de 2023 | 23 de octubre de 2023 |
 
 {style="table-layout:auto"}
 
 ## Correcciones en Customer Journey Analytics
 
-AN-310972; AN-319509; AN-322245; AN-323411; AN-323719; AN-326101; AN-326125; AN-326888
-
+AN-325940; AN-326468; AN-328301; AN-328640; AN-329370
 
 ## Avisos importantes para los administradores de Customer Journey Analytics
 
