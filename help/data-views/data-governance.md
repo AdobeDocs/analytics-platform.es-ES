@@ -4,34 +4,34 @@ description: Descubra cómo las etiquetas y políticas de datos definidas en Ado
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 # Etiquetas y políticas
 
-Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es) para algunos o todos los elementos del conjunto de datos. Puede ver estas etiquetas y políticas en Customer Journey Analytics.
+Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas del uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es) para algunos o todos los elementos del conjunto de datos. Puede ver estas etiquetas y políticas en Customer Journey Analytics.
 
-Las siguientes etiquetas son de especial interés para el Customer Journey Analytics:
+Las siguientes etiquetas son de especial interés para Customer Journey Analytics:
 
-* La etiqueta`C8` **[!UICONTROL Sin medición]**. Esta etiqueta significa que los datos no se pueden usar para análisis en los sitios web o las aplicaciones de su organización.
+* La etiqueta`C8` **[!UICONTROL Sin medición]**. Esta etiqueta significa que los datos no se pueden usar para los análisis en los sitios web o las aplicaciones de su organización.
 
-* La etiqueta`C12` **[!UICONTROL Sin exportación de datos general]**. Los campos de esquema etiquetados de esta manera no se pueden exportar ni descargar desde el Customer Journey Analytics (a través de creación de informes, exportación, API, etc.)
+* La etiqueta`C12` **[!UICONTROL Sin exportación de datos general]**. Los campos de esquema etiquetados de esta manera no se pueden exportar ni descargar de Customer Journey Analytics (a través de la creación de informes, exportación, API, etc.)
 
 >[!NOTE]
 >
->Las etiquetas de uso de datos no se propagan automáticamente a los conjuntos de datos enlazados. Sin embargo, se pueden añadir manualmente.
+>Las etiquetas del uso de datos no se propagan automáticamente a los conjuntos de datos vinculados. Sin embargo, se pueden añadir manualmente.
 
-El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso se usan las políticas. Las políticas se crean mediante la variable [IU de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es) o a través de [API del servicio de directivas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=es) en Experience Platform.
+El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso sirven las políticas. Las políticas se crean mediante la [IU de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es) o la [API del servicio de políticas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=es) en Experience Platform.
 
-En Customer Journey Analytics aparecen dos políticas definidas por el Adobe que afectan a la creación de informes y a la descarga/uso compartido:
+En Customer Journey Analytics aparecen dos políticas definidas por Adobe que afectan a la creación de informes y a la descarga o al uso compartido:
 
 * **[!UICONTROL Aplicación de la política de Analytics]**
 * **[!UICONTROL Aplicación de la política de descarga]**
 
-## Visualización de rótulos de datos en vistas de datos de Customer Journey Analytics
+## Visualización de etiquetas de datos en las vistas de datos de Customer Journey Analytics
 
 Las etiquetas de datos que se crearon en Experience Platform se muestran en tres ubicaciones de la interfaz de usuario de vistas de datos:
 
@@ -45,7 +45,7 @@ Las etiquetas de datos que se crearon en Experience Platform se muestran en tres
 
 ## Filtro en las etiquetas de Gobernanza de datos en las vistas de datos
 
-En el editor de vistas de datos, haga clic en [!UICONTROL filter] en el carril izquierdo y filtre los componentes de vistas de datos por **[!UICONTROL Gobernanza de datos]** y tipo de **[!UICONTROL Etiqueta]**:
+En el editor de vistas de datos, haga clic en el icono [!UICONTROL Filtro] del carril izquierdo y filtre los componentes de vistas de datos por **[!UICONTROL Gobernanza de datos]** y tipo de **[!UICONTROL Etiqueta]**:
 
 ![](assets/filter-labels.png)
 
@@ -53,9 +53,9 @@ Haga clic en **[!UICONTROL Aplicar]** para ver qué componentes tienen etiquetas
 
 ## Filtro en políticas de Gobernanza de datos en vistas de datos
 
-Puede comprobar si hay una directiva activada que bloquee el uso de ciertos elementos de vista de datos de Customer Journey Analytics para análisis o exportación con fines específicos.
+Puede comprobar si hay una política activada que bloquee el uso de ciertos elementos de vista de datos de Customer Journey Analytics para análisis o exportación con fines específicos.
 
-De nuevo, haga clic en [!UICONTROL filter] en el carril izquierdo y debajo de **[!UICONTROL Gobernanza de datos]**, haga clic en **[!UICONTROL Políticas]**:
+De nuevo, haga clic en el icono [!UICONTROL filtro] en el carril izquierdo y, debajo de **[!UICONTROL Gobernanza de datos]**, en **[!UICONTROL Políticas]**:
 
 ![](assets/filter-policies.png)
 
@@ -75,6 +75,6 @@ Tampoco puede guardar una vista de datos que tenga campos bloqueados.
 >[Descarga de datos confidenciales](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
->[Qué son las etiquetas restringidas en Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=es)
+>[¿Qué son las etiquetas restringidas en Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=es)
 
 
