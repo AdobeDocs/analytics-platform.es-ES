@@ -3,9 +3,8 @@ description: Administración de registros para exportaciones existentes
 keywords: Analysis Workspace
 title: Solución de problemas de exportaciones fallidas
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 8%
@@ -13,6 +12,8 @@ ht-degree: 8%
 ---
 
 # Solución de problemas de exportaciones fallidas
+
+{{release-limited-testing}}
 
 Cuando usted [exportar tablas completas desde Analysis Workspace a destinos en la nube](/help/analysis-workspace/export/export-cloud.md), puede ver el estado de esas exportaciones desde el [Pestaña Exportaciones](/help/components/exports/manage-exports.md) y desde el [Pestaña Registros](/help/components/exports/manage-export-logs.md). Las exportaciones con errores muestran un estado de [!UICONTROL **Error**].
 

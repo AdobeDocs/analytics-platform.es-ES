@@ -3,9 +3,8 @@ description: Administración de registros para exportaciones existentes
 keywords: Analysis Workspace
 title: Administración de registros de exportación
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 6%
@@ -13,6 +12,8 @@ ht-degree: 6%
 ---
 
 # Administración de registros de exportación
+
+{{release-limited-testing}}
 
 Los registros de exportación proporcionan detalles sobre cada exportación y se generan cada vez que los datos de Analysis Workspace se exportan a la nube. (Para obtener información sobre cómo se pueden exportar datos a la nube, consulte [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md).)
 

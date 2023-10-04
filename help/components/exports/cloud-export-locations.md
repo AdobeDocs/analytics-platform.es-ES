@@ -3,10 +3,8 @@ description: Configure la ubicación de exportación de la nube a la que se pued
 keywords: Analysis Workspace
 title: Configuración de ubicaciones de exportación de nube
 feature: Components
-hide: true
-hidefromtoc: true
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 4%
@@ -14,6 +12,8 @@ ht-degree: 4%
 ---
 
 # Configuración de ubicaciones de exportación de nube
+
+{{release-limited-testing}}
 
 Antes de poder exportar informes de Customer Journey Analytics a un destino de nube, tal como se describe en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md), debe agregar y configurar la ubicación a la que desea enviar los datos.
 
