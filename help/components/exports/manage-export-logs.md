@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Administración de registros de exportación
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 708367159d00935bb77043e551dc915f79dd2584
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Para encontrar la información que necesita, puede filtrar la lista de registros
    |---------|----------|
    | [!UICONTROL **ID de exportación**] | Especifique el ID de exportación del registro de exportación que desea ver. |
    | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta con el que está asociado el registro. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Pendiente**]: se ha iniciado una instancia específica de una exportación, pero aún no se ha completado.<p>Si se vuelve a ejecutar una exportación con el estado Pendiente, se retrasará el proceso de exportación.</p></li><li>[!UICONTROL **Completar**]: una instancia específica de una exportación ha finalizado el procesamiento y está disponible en la cuenta de exportación.</li><li>[!UICONTROL **Fallido**]<p>Las siguientes situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado Error para ver los detalles del error. <ul><li>Caducidad de exportación programada</li><li>Se alcanzó el límite de filas para la exportación programada </li></ul> </p></li></ul> |
+   | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Pendiente**]: se ha iniciado una instancia específica de una exportación, pero aún no se ha completado.<p>Si se vuelve a ejecutar una exportación con el estado Pendiente, se retrasará el proceso de exportación.</p></li><li>[!UICONTROL **Completar**]: una instancia específica de una exportación ha finalizado el procesamiento y está disponible en la cuenta de exportación.</li><li>[!UICONTROL **Fallido**]<p>Varias situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado Error para ver los detalles del error.<p>Para obtener más información sobre los posibles motivos de un error, consulte [Solución de problemas de exportaciones fallidas](/help/components/exports/troubleshoot-exports.md).</p> |
 
    {style="table-layout:auto"}
 

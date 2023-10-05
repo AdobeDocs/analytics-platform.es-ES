@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Administración de exportaciones
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,6 +62,10 @@ Puede editar las propiedades, el formato, la programación y la información de 
    Esta opción no está disponible cuando se seleccionan varias exportaciones.
 
 1. Seleccione [!UICONTROL **Editar**].
+
+   El [!UICONTROL **Exportar tabla completa**] se muestra.
+
+1. Actualice cualquiera de las opciones disponibles. Para obtener información sobre cada opción, consulte [Exportar tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) in [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md).
 
 ## Duplicación de una exportación
 
