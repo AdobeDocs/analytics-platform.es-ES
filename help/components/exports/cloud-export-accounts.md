@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configuración de cuentas de exportación en la nube
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1573'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 1. Continúe con la sección siguiente que corresponde a la [!UICONTROL **Tipo de cuenta**] ha seleccionado.
 
-   * [Zona de aterrizaje de datos Adobe Experience Platform](#adobe-experience-platform)
+   * [Zona de aterrizaje de datos de AEP](#adobe-experience-platform)
 
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
 
@@ -63,9 +63,9 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    El [!UICONTROL **Cuenta de exportación creada**] se muestra.
 
-   <!-- add screen shot -->
+   ![Cuadro de diálogo Exportar cuenta AEP Data Landing Zone](assets/export-account-aep.png)
 
-1. Copie el contenido del [!UICONTROL **SAS**] al portapapeles. Utilice este URI SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de AEP.
+1. Copie el contenido del [!UICONTROL **URI de SAS**] al portapapeles. Utilice este URI SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de AEP.
 
 1. Seleccionar [!UICONTROL **OK**].
 
@@ -87,7 +87,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    El [!UICONTROL **Cuenta de exportación creada**] se muestra.
 
-   <!-- add screen shot -->
+   ![Cuadro de diálogo Exportar cuenta creada ARN de la función de Amazon S3](assets/export-account-amazons3.png)
 
 1. Copie el contenido del [!UICONTROL **ARN del usuario**] al portapapeles. El ARN del usuario (nombre del recurso de Amazon) lo proporciona Adobe. Debe adjuntar este usuario a la directiva que creó en el ARN de la función de Amazon S3.
 
@@ -111,7 +111,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    El [!UICONTROL **Cuenta de exportación creada**] se muestra.
 
-   <!-- add screen shot -->
+   ![Cuadro de diálogo Exportar cuenta creada](assets/export-account-gcp.png)
 
 1. Copie el contenido del [!UICONTROL **Principal**] en el portapapeles y, a continuación, asegúrese de conceder permiso al principal para cargar archivos en este bloque en Google Cloud Platform. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -139,7 +139,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    El [!UICONTROL **Cuenta de exportación creada**] se muestra.
 
-   <!-- add screen shot -->
+   ![Cuadro de diálogo Exportar cuenta creada](assets/export-account-azure.png)
 
 1. Si aún no lo ha hecho, asegúrese de conceder permisos al bloque en Azure SAS. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -165,7 +165,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    El [!UICONTROL **Cuenta de exportación creada**] se muestra.
 
-   <!-- add screen shot -->
+   ![Cuadro de diálogo Exportar cuenta creada](assets/export-account-azure.png)
 
 1. Si aún no lo ha hecho, asegúrese de conceder permisos al bloque en Azure RBAC. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -191,7 +191,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    El [!UICONTROL **Cuenta de exportación creada**] se muestra.
 
-   <!-- add screen shot -->
+   ![Cuadro de diálogo Exportar cuenta creada](assets/export-account-snowflake.png)
 
 1. Copie el contenido del [!UICONTROL **Clave pública**] al portapapeles. La clave pública la proporciona el Adobe.
 

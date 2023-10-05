@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 6%
+source-wordcount: '467'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
    | Filtro | Descripción |
    |---------|----------|
-   | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Cuenta**] | El nombre de la cuenta a la que está asociada la ubicación. |
    | [!UICONTROL **Creado por**] | La dirección de correo electrónico del usuario que creó la ubicación. |
 
@@ -49,7 +49,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. Seleccione el [!UICONTROL **Ubicaciones**] pestaña.
 
-1. En la ficha de búsqueda, empiece a escribir la información asociada con la ubicación que está buscando. Puede buscar datos de cualquier columna disponible en la tabla.
+1. En el campo de búsqueda, empiece a escribir cualquier información asociada con la ubicación que está buscando. Puede buscar datos de cualquier columna disponible en la tabla.
 
 ## Editar ubicaciones
 
@@ -57,7 +57,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. Seleccione el [!UICONTROL **Ubicaciones**] y, a continuación, seleccione la ubicación que desee editar.
 
-   <!-- add screenshot? -->
+   ![Editar ubicaciones](assets/locations-edit.png)
 
 1. Seleccione [!UICONTROL **Editar**].
 
@@ -77,7 +77,7 @@ Para eliminar una ubicación:
 
 1. Seleccione el [!UICONTROL **Ubicaciones**] y, a continuación, seleccione una o varias ubicaciones que desee eliminar.
 
-   <!-- add screenshot? -->
+   ![Editar ubicaciones](assets/locations-edit.png)
 
 1. Seleccionar [!UICONTROL **Eliminar**], luego seleccione [!UICONTROL **Eliminar**] de nuevo en el cuadro de diálogo de confirmación.
 
@@ -92,6 +92,20 @@ Para eliminar una ubicación:
 1. Seleccionar [!UICONTROL **Ver detalles**] en la cuenta que desee editar.
 
 1. Realice los cambios que desee y seleccione [!UICONTROL **Guardar**].
+
+## Ver claves de cuenta
+
+Después de crear una cuenta, puede ver todas las claves de cuenta asociadas a ella. Es posible que deba ver esta información si no ha terminado de configurar la cuenta con su proveedor de la nube [cuando configuró originalmente la cuenta](/help/components/exports/cloud-export-accounts.md).
+
+Para ver las claves asociadas a una cuenta de exportación:
+
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+
+1. Seleccione el [!UICONTROL **Cuentas de ubicación**] pestaña.
+
+   ![Página Cuentas](assets/account-page.png)
+
+1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Claves de cuenta**].
 
 ## Eliminar cuentas
 
