@@ -4,10 +4,10 @@ keywords: Uso compartido en Analysis Workspace
 title: Crear vínculos que se pueden compartir
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
-source-git-commit: 7889c9e7c55dadfe0966f03365eabc4929a32d7a
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 62%
+source-wordcount: '395'
+ht-degree: 57%
 
 ---
 
@@ -27,7 +27,7 @@ Puede compartir un vínculo de solo lectura a proyectos de Analysis Workspace co
 
 Para obtener más información, consulte &quot;Compartir un proyecto con alguien (no se requiere inicio de sesión)&quot; en el artículo [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
 
-## Obtener panel o vínculo de visualización {#panel-link}
+## Obtener un panel o un vínculo de visualización {#panel-link}
 
 También puede compartir un vínculo a una parte específica de un proyecto, como un panel o una visualización individual. Esto se denomina a veces intravínculos. Esto puede resultar útil para atraer la atención de los usuarios hacia perspectivas clave dentro del proyecto.
 
@@ -36,7 +36,7 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
 
-![](assets/get-viz-link.png)
+![Después de hacer clic con el botón derecho en el encabezado, el menú desplegable resalta el vínculo Obtener visualización.](assets/get-viz-link.png)
 
 ## Uso de vínculos en una tabla de contenido {#TOC}
 
@@ -44,4 +44,4 @@ Una sugerencia para aprovechar las distintas opciones de vínculos es incluir si
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=es) sobre cómo crear una tabla de contenido mediante vínculos y el editor de texto enriquecido de Workspace.
 
-![](assets/toc.png)
+![Tabla de contenido de un proyecto.](assets/toc.png)

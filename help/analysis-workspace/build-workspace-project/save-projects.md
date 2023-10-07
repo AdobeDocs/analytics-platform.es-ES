@@ -4,10 +4,10 @@ title: Guardar proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,7 @@ Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 min
 
    1. Vaya a la carpeta [!UICONTROL **Proyectos recuperados**] en la página de aterrizaje de Analysis Workspace.
 
-      ![](assets/recovered-folder.png)
+      ![La lista de carpetas que resaltan la carpeta Proyecto recuperado.](assets/recovered-folder.png)
 
    1. Abra el proyecto y guárdelo en la ubicación que desee.
 
@@ -63,13 +63,13 @@ Las opciones disponibles son las siguientes:
 * **Guardar como:** guarda los cambios más recientes como un nuevo proyecto. El proyecto original solo se guarda con los cambios más recientes guardados automáticamente.
 * **Descartar cambios:** descarta los cambios más recientes. El proyecto conserva los cambios más recientes guardados automáticamente.
 
-![](assets/existing-save.png)
+![Haga clic en Guardar para guardar los cambios realizados en un proyecto.](assets/existing-save.png)
 
 ### Salir o cerrar una pestaña
 
 Si sale de la página o cierra la pestaña del explorador mientras visualiza un proyecto con cambios que aún no se han guardado automáticamente, el explorador advierte que se perderán los cambios sin guardar. Puede elegir entre salir o cancelar.
 
-![](assets/browser-image.png)
+![Haga clic en Salir para abandonar el sitio o en Cancelar para desplazarse sin guardar los cambios. ](assets/browser-image.png)
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
 
@@ -81,7 +81,7 @@ Seleccione **Sí** para restaurar el proyecto a partir de la copia más reciente
 
 Seleccione **No** para eliminar la copia guardada automáticamente y abrir la última versión guardada por el usuario del proyecto.
 
-![](assets/project-recovery.png)
+![Cuadro de diálogo Recuperación del proyecto.](assets/project-recovery.png)
 
 Para **nuevos** proyectos que nunca se han guardado, los cambios sin guardar no se pueden recuperar.
 
@@ -91,7 +91,7 @@ Para abrir una versión anterior de un proyecto:
 
 1. Vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Abrir versión anterior]**
 
-   ![](assets/previous-versions.png)
+   ![La lista Versiones del proyecto guardadas anteriormente y las opciones para mostrar Todas las versiones o Solo las versiones con notas.](assets/previous-versions.png)
 
 1. Revise la lista de versiones anteriores disponibles.
    Se muestran la [!UICONTROL Marca de tiempo] y el [!UICONTROL Editor], así como las [!UICONTROL Notas] si es que se añadieron cuando el [!UICONTROL Editor] guardó. Las versiones sin notas se almacenan durante 90 días; las versiones con notas se almacenan durante 1 año.

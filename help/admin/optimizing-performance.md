@@ -3,9 +3,9 @@ description: Factores que afectan al rendimiento y las optimizaciones de Custome
 title: Optimizar el rendimiento de Customer Journey Analytics y Analysis Workspace
 feature: FAQ
 exl-id: ad00e476-6f19-462b-ba53-d72ddd949802
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 75%
 
 ---
@@ -50,7 +50,7 @@ Además, puede **Descargar como CSV** el contenido de rendimiento para compartir
 >
 >La información de la página Rendimiento varía cada vez que se abre el modal, ya que los factores están sujetos a cambios. Además, el Adobe seguirá perfeccionando las directrices proporcionadas a medida que se disponga de más datos.
 
-![](assets/performance-modal.png)
+![Rendimiento de Analysis Workspace que muestra el factor de red, el proyecto actual y la guía.](assets/performance-modal.png)
 
 ### Factores de red
 

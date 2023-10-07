@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 79%
+source-wordcount: '1035'
+ht-degree: 76%
 
 ---
 
@@ -36,12 +36,12 @@ Puede configurar el panel Visualizadores simultáneos de medios con esta configu
 
 ### Vista predeterminada
 
-![Vista predeterminada](assets/concurrent-viewers-default.png)
+![La vista predeterminada de los visualizadores simultáneos de medios.](assets/concurrent-viewers-default.png)
 
 
 ### Vista de desglose de series
 
-![vista de desglose de series](assets/concurrent-viewers-series-breakdown.png)
+![La vista de desglose Serie de visualizadores simultáneos de medios que muestra 7 de 10 dimensiones, segmentos o intervalos de fechas.](assets/concurrent-viewers-series-breakdown.png)
 
 ## Salida de panel {#Output}
 
@@ -51,7 +51,7 @@ En cualquier momento, puede editar y rediseñar el panel haciendo clic en el lá
 
 Si seleccionó el desglose de series, se mostrará una línea en el gráfico de líneas y un número de resumen para cada uno:
 
-![salida de visualizadores simultáneos](assets/concurrent-viewers-output.png)
+![Salida de visualizadores simultáneos de medios.](assets/concurrent-viewers-output.png)
 
 ### Fuente de datos
 
@@ -64,7 +64,7 @@ La única métrica que se puede usar en este panel es Visualizadores simultáneo
 No hay ninguna tabla de forma libre disponible en esta vista.  Para ver la fuente de datos, puede hacer clic con el botón derecho en el gráfico de líneas y descargarlo como archivo .csv.  Se incluirán los desgloses de serie.
 
 
-![salida de visualizadores simultáneos](assets/concurrent-viewers-download-csv.png)
+![Las opciones de salida de los visualizadores simultáneos con &quot;Descargar datos como CSV&quot; resaltadas.](assets/concurrent-viewers-download-csv.png)
 
 ## Preguntas frecuentes {#FAQ}
 

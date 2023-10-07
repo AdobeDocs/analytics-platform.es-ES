@@ -3,10 +3,10 @@ description: Puede descargar datos de Analysis Workspace copiándolos, o en los 
 title: Descargar datos del Customer Journey Analytics
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 58%
+source-wordcount: '1133'
+ht-degree: 55%
 
 ---
 
@@ -28,7 +28,7 @@ También están disponibles otros métodos para exportar datos del Customer Jour
 
      Elija esta opción si desea que el archivo descargado sea de texto sin formato.
 
-   ![](assets/download-project.png)
+   ![El menú desplegable Proyecto con las opciones Descargar CSV y Descargar PDF resaltadas.](assets/download-project.png)
 
 1. (Condicional) Si elige descargar un PDF, se muestra un mensaje después de que el proyecto esté listo para descargarse. Seleccione [!UICONTROL **Descargar**].
 
@@ -51,7 +51,7 @@ La opción del botón derecho **[!UICONTROL Copiar al portapapeles]** permite co
 >Puede utilizar la tecla de acceso directo `Ctrl+C` para copiar la selección en el portapapeles, utilice `Ctrl+V` para pegarlo en una herramienta de terceros.
 
 
-![](assets/copy-selection.png)
+![La opción Copiar selección al portapapeles. ](assets/copy-selection.png)
 
 ## Descargar como CSV {#download-data}
 
@@ -66,7 +66,7 @@ La opción del botón derecho **[!UICONTROL Descarga de datos como CSV]** permit
 
 * Dentro de una tabla, haga clic con el botón derecho y elija **[!UICONTROL Descargar selección como CSV]**. Solo la selección se descarga con esta opción, a diferencia de la tabla mostrada completa.
 
-![](assets/download-data-viz.png)
+![La opción Descargar datos como CSV.](assets/download-data-viz.png)
 
 ## Descargar elementos como CSV {#download-items}
 
@@ -78,7 +78,7 @@ Si desea analizar más de las 400 filas de datos visibles en una tabla, haga cli
 
 Puede realizar varias tareas dentro del proyecto e incluso desplazarse a un nuevo proyecto de Workspace en la misma pestaña mientras la descarga está en curso. La descarga se detiene si abre una nueva pestaña del explorador. La descarga se cancela si deja Workspace por completo o si cierra la pestaña del explorador.
 
-![](assets/download-items.png)
+![La opción Descargar elementos como CSV (página).](assets/download-items.png)
 
 ### Archivo de elementos descargados {#items-file}
 
@@ -90,7 +90,7 @@ Las funciones de la tabla se aplicarán al archivo descargado de la siguiente ma
 
 En el ejemplo anterior, los elementos de página se descargan con el filtro de panel (Clientes de nuevos visitantes) y los componentes anteriores (Canal de marketing = Correo electrónico) aplicados como filtros, y los componentes siguientes (Tipo de dispositivo móvil) se eliminan del CSV descargado.
 
-![](assets/downloaded-file.png)
+![El archivo .csv descargado se abrió en Excel.](assets/downloaded-file.png)
 
 ### Descarga de notificaciones {#notifications}
 
@@ -100,7 +100,7 @@ Una vez que el archivo se complete, verá una notificación de finalización y e
 
 Si solicita más de una descarga a la vez, recibirá una notificación avisando que cada descarga adicional se colocará en cola hasta que finalice la descarga anterior.
 
-![](assets/toast.png)
+![La notificación del estado de descarga muestra el porcentaje completado y un vínculo Cancelar descarga.](assets/toast.png)
 
 ## Descarga de datos confidenciales {#sensitive}
 

@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Quitar proyectos de carpetas
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 92%
 
 ---
 
@@ -25,19 +25,19 @@ Puede mover proyectos de una carpeta a otra que haya creado.
 
 1. En una carpeta de proyecto, seleccione los puntos suspensivos **...** junto al nombre del proyecto.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![Las opciones de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. Seleccione **Mover a** y, a continuación, una carpeta a la que mover el proyecto.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+   ![La ventana Seleccionar ubicación.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
 1. Haga clic en **Mover**.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+   ![Haga clic en Mover.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
    Un mensaje confirma que el proyecto se ha movido.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+   ![El mensaje de confirmación de movimiento. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
 ## Eliminación de un proyecto de una carpeta de proyecto {#delete-project-in-folder}
 
@@ -45,7 +45,7 @@ Al eliminar un proyecto de una carpeta, este se borra por completo.
 
 1. En una carpeta de proyecto, seleccione los puntos suspensivos **...** junto al nombre del proyecto.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![Las opciones de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. Seleccione **Eliminar**.
 

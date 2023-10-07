@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Eliminar carpetas en el Espacio de trabajo
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
-source-git-commit: 981dd31ef669251fd00b834afeafb5e396aa32da
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 90%
+source-wordcount: '122'
+ht-degree: 82%
 
 ---
 
@@ -25,11 +25,11 @@ Para eliminar carpetas en Workspace
 
 1. Haga clic en el icono de puntos suspensivos (**…**) en la parte superior derecha.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
+   ![Las opciones desplegables del icono de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
 
 2. Seleccione **Eliminar carpeta**.
 
    Una notificación de confirmación indica que la carpeta se ha eliminado.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/deleted-folder.png)
+   ![El mensaje de confirmación Eliminar carpeta.](/help/analysis-workspace/build-workspace-project/assets/deleted-folder.png)
 

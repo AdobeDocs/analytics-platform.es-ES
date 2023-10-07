@@ -1,12 +1,12 @@
 ---
-description: Exportar un proyecto de Analysis Workspace a una ubicación de la nube.
+description: Obtenga información sobre cómo exportar un proyecto de Analysis Workspace a una ubicación de la nube.
 keywords: Analysis Workspace
 title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Utilice el siguiente proceso al exportar tablas completas a la nube:
 
 1. [Acceder a datos en la nube](#view-exported-data-and-manifest-file) y [Administración de exportaciones en Adobe](/help/components/exports/manage-exports.md)
 
-![Proceso de exportación de tabla completa](assets/export-full-table-process.png)
+![El proceso de exportación de tabla completo descrito en los pasos 1 a 4.](assets/export-full-table-process.png)
 
 ## Exportar tablas completas desde Analysis Workspace
 
@@ -57,7 +57,7 @@ Para exportar tablas completas desde Analysis Workspace:
 
 1. Seleccionar [!UICONTROL **Exportar tabla completa**].
 
-   ![exportar tabla completa](assets/export-full-table.png)
+   ![Menú desplegable de la tabla de forma libre con Exportar tabla completa resaltada.](assets/export-full-table.png)
 
 1. En el [!UICONTROL **Nueva exportación de tabla completa**] , especifique la siguiente información:
 

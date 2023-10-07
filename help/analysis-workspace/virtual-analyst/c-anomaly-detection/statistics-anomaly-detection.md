@@ -3,10 +3,10 @@ description: La detección de anomalías de Analysis Workspace utiliza una serie
 title: Técnicas estadísticas utilizadas en la detección de anomalías
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Una vez se ha seleccionado el modelo y se han identificado los festivos en el ra
 
 Observe la drástica mejora en el rendimiento en el día de Navidad y en el día de Año Nuevo en el ejemplo siguiente:
 
-![](assets/anomaly_statistics.png)
+![Gráficos de dos líneas que muestran cambios de rendimiento con y sin rendimiento de vacaciones.](assets/anomaly_statistics.png)
 
 ## Detección de anomalías para la granularidad horaria
 

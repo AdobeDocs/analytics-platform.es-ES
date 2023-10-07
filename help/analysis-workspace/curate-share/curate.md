@@ -4,10 +4,10 @@ keywords: Revisión de Analysis Workspace
 title: Depurar proyectos de
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ Los componentes que se utilizan en el proyecto se añadirán automáticamente.
 
 La depuración también se puede aplicar desde el menú [!UICONTROL Compartir] haciendo clic en **[!UICONTROL Depurar y Compartir]**. Esta opción depura automáticamente el proyecto en los componentes que se utilizan en el proyecto. Puede agregar componentes adicionales siguiendo los pasos anteriores.
 
-![](assets/curation-field.png)
+![Ventana Depurar componentes que muestra los componentes que se utilizan en el proyecto.](assets/curation-field.png)
 
 ## Vista de un proyecto depurado
 
 Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurado de componentes que haya definido:
 
-![](assets/curate-project.png)
+![Un proyecto depurado compartido que muestra los componentes que ha definido.](assets/curate-project.png)
 
 ## Eliminar depuración del proyecto
 

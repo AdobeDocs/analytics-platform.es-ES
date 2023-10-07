@@ -3,10 +3,10 @@ title: Panel de Attribution
 description: Utilizar e interpretar el panel de atribución en Analysis Workspace.
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 82%
+source-wordcount: '534'
+ht-degree: 77%
 
 ---
 
@@ -30,17 +30,17 @@ Customer Journey Analytics mejora la atribución al permitir lo siguiente:
 1. Haga clic en el icono de panel situado en la izquierdo.
 1. Arrastre el panel [!UICONTROL Atribución] a su Proyecto de Analysis Workspace.
 
-   ![Nuevo panel de atribución](assets/Attribution_Panel_1.png)
+   ![Ventana Nuevo proyecto que resalta el panel Atribución.](assets/Attribution_Panel_1.png)
 
 1. Añada una métrica a la que desee atribuir y agregue cualquier dimensión para atribuirla. Algunos ejemplos son Canales de marketing o dimensiones personalizadas, como las promociones internas.
 
-   ![Seleccionar dimensión y métrica](assets/attribution_panel2.png)
+   ![La ventana del panel Atribución muestra varias dimensiones y métricas seleccionadas.](assets/attribution_panel2.png)
 
 1. Seleccione los modelos de atribución y la ventana retrospectiva que desee comparar.
 
 1. El panel Atribución devuelve un conjunto completo de datos y visualizaciones que comparan la atribución para la dimensión y métrica seleccionadas.
 
-   ![Visualizaciones de atribución](assets/attr_panel_vizs.png)
+   ![Las visualizaciones del panel Atribución que comparan métricas y dimensiones seleccionadas.](assets/attr_panel_vizs.png)
 
 ## Visualizaciones de atribución
 

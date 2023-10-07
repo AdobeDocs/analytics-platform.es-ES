@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Información general de carpetas
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ Existen dos tipos de carpetas en el Espacio de trabajo: la carpeta Compañía y 
 
 Cuando inicia sesión en el Espacio de trabajo, la página de inicio Proyectos muestra una lista de sus proyectos junto con la carpeta Compañía y las carpetas personales que haya creado.
 
-![](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![Página de inicio del proyecto que enumera sus proyectos y la carpeta Compañía.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
 ## Acerca de la carpeta Compañía {#company-folder}
 
@@ -38,11 +38,11 @@ Cuando un usuario inicia sesión en el Espacio de trabajo, la carpeta Compañía
 
 Los administradores tienen privilegios especiales asignados a la carpeta Compañía. Por ejemplo, solo los administradores pueden agregar o quitar carpetas o proyectos en la carpeta Compañía. Los usuarios sin acceso de administrador pueden ver el contenido de la carpeta Compañía.
 
-![](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
+![La página Proyectos muestra las opciones de administración.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
 Los usuarios que no son administradores tienen opciones limitadas.
 
-![](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![La página Proyectos muestra las opciones que no son de administración de las carpetas.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
 
 ### Directrices de la carpeta Compañía {#company-folder-guidelines}
 

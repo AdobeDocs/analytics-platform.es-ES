@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 75%
+source-wordcount: '924'
+ht-degree: 74%
 
 ---
 
@@ -55,7 +55,7 @@ Puede configurar el panel Tiempo invertido en la reproducción de contenido con 
 
 ## Vista predeterminada
 
-![Vista predeterminada](assets/mpts_default_view.png)
+![La vista predeterminada Tiempo invertido en el libro de reproducción de medios.](assets/mpts_default_view.png)
 
 ## Salida de panel {#Output}
 
@@ -65,7 +65,7 @@ En cualquier momento, puede editar y rediseñar el panel haciendo clic en el lá
 
 Si seleccionó el desglose de series, se mostrará una línea en el gráfico de líneas y un número de resumen para cada uno:
 
-![salida de tiempo invertido en la reproducción de contenido](assets/mpts_outputs1.png)
+![La salida Tiempo invertido en la reproducción de contenido que muestra un gráfico de líneas y un resumen.](assets/mpts_outputs1.png)
 
 ### Fuente de datos
 

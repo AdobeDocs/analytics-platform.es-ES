@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Guardado de proyectos en carpetas
 feature: Workspace Basics
 exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 75%
 
 ---
 
@@ -17,11 +17,11 @@ Para guardar un nuevo proyecto en una carpeta específica, seleccione el nombre 
 
 1. En el Espacio de trabajo, cree un nuevo proyecto.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+   ![Ventana de tabla de forma libre donde puede crear un nuevo proyecto.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
 1. En el cuadro de diálogo **Proyecto** > **Guardar**, seleccione un nombre de carpeta en el menú desplegable Carpeta.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+   ![Ventana Guardar en la que se guarda el nuevo proyecto en una carpeta.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
 
 1. Haga clic en **Guardar**.
 

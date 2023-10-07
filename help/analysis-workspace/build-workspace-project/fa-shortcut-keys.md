@@ -1,13 +1,13 @@
 ---
-description: Interacciones de teclado estándar, teclas de acceso directo y comportamientos de apuntar y hacer clic disponibles en Analysis Workspace.
+description: Obtenga información acerca de las interacciones de teclado, las teclas de método abreviado y los comportamientos de apuntar y hacer clic disponibles en Analysis Workspace.
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: Teclas de acceso directo (métodos abreviados)
+title: Cómo utilizar las teclas de acceso directo de Workspace
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 378098861bde949a2224a9b8c6376aa7b5e8ec27
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '293'
+ht-degree: 93%
 
 ---
 

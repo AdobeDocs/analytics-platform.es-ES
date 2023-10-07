@@ -4,9 +4,9 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: bf700355597760b36441864de36f460b5996a1fe
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1980'
 ht-degree: 36%
 
 ---
@@ -61,7 +61,7 @@ Para compartir una función de proyecto específica con usuarios o grupos de su 
 1. Vaya al proyecto que desee compartir y haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**.
 Si hay cambios sin guardar, se le pedirá primero que guarde el proyecto.
 
-   ![](assets/share-proj-modal.png)
+   ![La ventana Compartir proyecto.](assets/share-proj-modal.png)
 
    Para obtener información sobre cómo compartir varios proyectos simultáneamente, consulte [Compartir proyectos en el administrador de proyectos](#share-projects-in-the-project-manager).
 
@@ -99,7 +99,7 @@ Para compartir el vínculo del proyecto con los usuarios de su organización, ha
 
 1. Seleccionar **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**, luego seleccione **[!UICONTROL Copiar]** junto al **[!UICONTROL Compartir mediante vínculo]** field.
 
-   ![](assets/share-proj-modal.png)
+   ![El proyecto Compartir resalta el campo Compartir por vínculo.](assets/share-proj-modal.png)
 
 1. Comparta el vínculo con los usuarios de su organización. Por ejemplo, puede pegarlo en un correo electrónico, en un sitio web interno, etc.
 
@@ -145,7 +145,7 @@ Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
    Al seleccionar esta opción, se crea un vínculo al proyecto que se puede compartir con cualquier persona. Puede deshabilitar el acceso al proyecto en cualquier momento desactivando esta opción.
 
-   El propietario del proyecto también es el propietario de este vínculo. La propiedad de los vínculos solo se puede transferir a otro usuario cuando se transfiere la propiedad del proyecto, tal como se describe en [Transferir recursos de usuario o establecer caducidades de cuenta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) en la guía de administración de Analytics.
+   El propietario del proyecto también es el propietario de este vínculo. La propiedad de los vínculos solo se puede transferir a otro usuario cuando se transfiere la propiedad del proyecto, tal como se describe en [Transferir recursos de usuario o establecer caducidades de cuenta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=es) en la guía de administración de Analytics.
 
 1. Elija si desea activar la siguiente opción de seguridad (esta opción puede controlarla el administrador del Customer Journey Analytics):
 
@@ -183,7 +183,7 @@ Con el proyecto A y B seleccionado, los destinatarios 4 y 7 se agregan a las lis
 * Proyecto A: 1, 2, 3, 4, 7
 * Proyecto B: 4, 5, 6, 7
 
-![](assets/mult-proj-sharing.png)
+![La ventana Add recipients to multiple projects.](assets/mult-proj-sharing.png)
 
 ## Uso compartido de componentes incrustados
 

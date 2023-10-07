@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Audiencia media por minuto de
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 89%
+source-wordcount: '1331'
+ht-degree: 88%
 
 ---
 
@@ -82,7 +82,7 @@ El panel Audiencia media por minuto de medios devuelve lo siguiente:
 
 Para editar y reconstruir el panel en cualquier momento, haga clic en el lápiz de edición en la parte superior derecha.
 
-![Vista predeterminada](assets/specific-content-panel-output.png)
+![La vista predeterminada del panel Audiencia media por minuto.](assets/specific-content-panel-output.png)
 
 
 ### Fuente de datos de contenido específica
@@ -99,7 +99,7 @@ El panel Audiencia media por minuto de medios devuelve la audiencia media total 
 
 Para editar y reconstruir el panel en cualquier momento, haga clic en el lápiz de edición en la parte superior derecha.
 
-![salida de visualizadores simultáneos](assets/custom-time-period-panel-output.png)
+![Panel Audiencia media por minuto que muestra los datos de toda la selección.](assets/custom-time-period-panel-output.png)
 
 ### Fuente de datos de período de tiempo personalizado
 

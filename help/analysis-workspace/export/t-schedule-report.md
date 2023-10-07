@@ -5,10 +5,10 @@ title: Envío de datos del Customer Journey Analytics a otras personas por corre
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 62%
+source-wordcount: '1036'
+ht-degree: 58%
 
 ---
 
@@ -31,10 +31,10 @@ Para enviar un archivo inmediatamente a los destinatarios por correo electrónic
 1. (Opcional) Añada una descripción para incluirla en el correo electrónico y explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
 1. (Solo para clientes de Healthcare Shield) Proporcione una contraseña. Consulte la sección Proteger un informe programado con contraseña.
-1. Haga clic en **[!UICONTROL Enviar ahora]**.
 1. (Opcional) Haga clic en **[!UICONTROL Mostrar opciones de programación]** para especificar una programación de entregas.
+1. Haga clic en **[!UICONTROL Enviar ahora]**.
 
-![Enviar archivo ahora](assets/send-file-no-scheduling-options.JPG)
+![Ventana Enviar archivo y botón Enviar ahora.](assets/send-file-no-scheduling-options.JPG)
 
 ## Enviar archivo según lo programado {#schedule}
 
@@ -49,7 +49,7 @@ Para enviar un archivo en una programación recurrente a los destinatarios por c
 1. Especifique la frecuencia de entrega. Cada frecuencia permite diferentes personalizaciones.
 1. Haga clic en **[!UICONTROL Enviar según lo programado]**.
 
-![](assets/send-file.JPG)
+![Se muestran la ventana Enviar archivo y las opciones de programación para mostrar las opciones Fecha de inicio, Fecha de finalización y Frecuencia diaria.](assets/send-file.JPG)
 
 ## Administrador de proyectos programados {#manager}
 
@@ -98,7 +98,7 @@ Una vez que su empresa ha adquirido el SKU de Healthcare Shield y se ha habilita
 
 * Cuando un proyecto programado existente está a punto de enviarse. El proyecto programado actualmente está deshabilitado hasta que se establezca la protección con contraseña. El propietario del proyecto programado recibe un correo electrónico que le informa de este requisito.
 
-![protección de contraseña](assets/password.png)
+![La ventana Editar proyecto programado y la notificación de cifrado de contraseña indican que su organización requiere el cifrado de contraseña.](assets/password.png)
 
 ### Requisitos de contraseña
 
@@ -113,7 +113,7 @@ Los requisitos de la contraseña cumplen con los estándares de Adobe y requiere
 
 Antes de programar un proyecto, su propietario recibe un correo electrónico similar al siguiente:
 
-![email](assets/email-password.png)
+![Notificación por correo electrónico del Customer Journey Analytics que indica que su organización necesita cifrar la contraseña.](assets/email-password.png)
 
 1. Inicie sesión en el Customer Journey Analytics.
 1. Seleccionar **[!UICONTROL Ver proyecto programado]**.

@@ -4,10 +4,10 @@ description: Muestra dos métodos para calcular el uso y uno para administrarlo.
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 73%
+source-wordcount: '901'
+ht-degree: 74%
 
 ---
 
@@ -41,7 +41,7 @@ Es posible que necesite saber cuántas filas de datos de evento tiene actualment
 
 1. Agregue los **[!UICONTROL Registros de datos de evento disponibles]** para cada conexión que haya creado su organización. (Según el tamaño de la conexión, el número puede tardar un tiempo en aparecer).
 
-   ![datos de evento](./assets/event-data.png)
+   ![Registros de datos de evento disponibles.](./assets/event-data.png)
 
    >[!CAUTION]
    >
@@ -70,7 +70,7 @@ Este método le permite realizar un análisis más profundo de los datos de uso,
 
 1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde el **[!UICONTROL Métricas]** lista desplegable) hasta el primer viernes del mes, a partir del primer día del contrato de Customer Journey Analytics actual.
 
-   ![Eventos](./assets/events-usage.png)
+   ![Tabla de forma libre que muestra eventos.](./assets/events-usage.png)
 
    Esto le dará una buena idea de la tendencia de su uso mes a mes.
 
@@ -97,7 +97,7 @@ Para administrar su uso, la variable [IU de conexiones](/help/connections/create
 
 La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
 
-Si deja el valor predeterminado (sin marcar), el período de retención se sustituirá por la configuración de retención de datos de Adobe Experience Platform. Si tiene datos de 25 meses en Experience Platform, Customer Journey Analytics recibirá 25 meses de datos mediante el relleno. Si eliminara 10 de esos meses en Platform, Customer Journey Analytics conservaría los 15 meses restantes.
+Si deja el valor predeterminado (sin marcar), el período de retención se sustituirá por la configuración de retención de datos de Adobe Experience Platform. Si tiene datos de 25 meses en Experience Platform, Customer Journey Analytics recibirá 25 meses de datos mediante el relleno. Si eliminase 10 de esos meses en Platform, Customer Journey Analytics conservaría los 15 meses restantes.
 
 La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de ventana de datos móviles para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables. Si la conexión incluye perfiles o conjuntos de datos de búsqueda, ya que se unen a conjuntos de datos de evento, los datos se conservan en Customer Journey Analytics en función de la configuración de retención de datos en las marcas de tiempo del conjunto de datos de evento.
 

@@ -3,11 +3,11 @@ description: Obtenga información sobre cómo crear un proyecto en Analysis Work
 title: Crear proyectos
 feature: Workspace Basics
 role: User, Admin
-exl-id: f5ea0a1f-5dd6-4c73-b316-33c15ca5443c
-source-git-commit: c52dd6d8a22d2092f5f70aeb79d24ecf897e012e
+exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 4%
+source-wordcount: '602'
+ht-degree: 14%
 
 ---
 
@@ -44,7 +44,7 @@ Para agregar un panel:
 
 1. Seleccione el [!UICONTROL **Paneles**] en el carril izquierdo.
 
-   ![](assets/build-panels.png)
+   ![El icono Seleccionar paneles y la lista de paneles disponibles.](assets/build-panels.png)
 
 1. Busque el panel que desee agregar. Cuando aparezca en el carril izquierdo, arrástrelo al proyecto.
 
@@ -64,7 +64,7 @@ Para añadir una visualización:
 
 1. Seleccione el **[!UICONTROL Visualizaciones]** en el carril izquierdo.
 
-   ![](assets/build-visualizations.png)
+   ![El icono de Visualizaciones seleccionado y la lista de visualizaciones disponibles.](assets/build-visualizations.png)
 
 1. Busque la visualización que desee añadir. Cuando aparezca en el carril izquierdo, arrástrelo a un panel dentro del proyecto.
 
@@ -82,7 +82,7 @@ Para añadir un componente:
 
 1. Seleccione el **[!UICONTROL Componentes]** en el carril izquierdo.
 
-   ![](assets/build-components.png)
+   ![El icono Componentes seleccionados y la lista de dimensiones disponibles.](assets/build-components.png)
 
 1. Busque el componente que desee añadir. Cuando aparezca en el carril izquierdo, arrástrelo a un panel o a una visualización dentro del proyecto.
 
@@ -90,6 +90,6 @@ Para añadir un componente:
 
 ## Guarde y comparta el proyecto
 
-A medida que crea un análisis en Analysis Workspace, su trabajo es [guardado automáticamente](/help/analysis-workspace/build-workspace-project/save-projects.md).
+A medida que crea un análisis en Analysis Workspace, su trabajo se [guarda automáticamente](/help/analysis-workspace/build-workspace-project/save-projects.md).
 
-Cuando termine de crear el proyecto y recopile información procesable, el proyecto estará listo para que otros lo consuman. Puede compartir el proyecto con usuarios y grupos de su organización, o incluso con personas fuera de su organización. Para obtener información sobre cómo compartir un proyecto, consulte [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
+Cuando termine de crear el proyecto y recopile información procesable, el proyecto estará listo para que otros lo consuman. Puede compartir el proyecto con personas y grupos de su organización, o incluso con personas fuera de su organización. Para obtener información sobre cómo compartir un proyecto, consulte [Uso compartido de proyectos](/help/analysis-workspace/curate-share/share-projects.md).

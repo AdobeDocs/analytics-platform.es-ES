@@ -3,10 +3,10 @@ description: Aprenda a ajustar la densidad de la vista en Analysis Workspace.
 title: Ver densidad
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ Dispone de tres opciones al cambiar la densidad de la visualización mediante bo
 - **[!UICONTROL Cómoda]**: Deja algo más de espacio que la versión Compacta.
 - **[!UICONTROL Expandida]** (predeterminada): Esta es la vista habitual de Workspace.
 
-![](assets/view-density.png)
+![Las densidades de vistas Compactas, Cómodas y Expandidas.](assets/view-density.png)
 
 Para establecer la densidad de la visualización:
 

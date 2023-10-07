@@ -1,12 +1,12 @@
 ---
-description: Puede ver anomalías en una tabla o un gráfico de líneas.
+description: Obtenga información sobre cómo ver anomalías en una tabla o en un gráfico de líneas.
 title: Visualización de anomalías en Analysis Workspace
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ Puede ver anomalías en una tabla de forma libre de serie temporal.
 
 1. Haga clic fuera del menú de configuración para ver la tabla actualizada.
 
-   ![](assets/anomaly_detected.png)
+   ![Una notificación de detección de anomalías que indica un 15 % por debajo de lo esperado.](assets/anomaly_detected.png)
 
 1. Las anomalías se muestran en la tabla de la siguiente manera:
 
@@ -46,7 +46,7 @@ Para ver anomalías en un gráfico de líneas:
 
 1. Haga clic fuera del menú de configuración para ver el gráfico de líneas actualizado.
 
-   ![](assets/anomaly_linechart.png)
+   ![Un gráfico de líneas con un mensaje de anomalía detectada que indica un 15 % por encima de lo esperado.](assets/anomaly_linechart.png)
 
    Las anomalías se muestran en el gráfico de líneas de la siguiente manera:
 

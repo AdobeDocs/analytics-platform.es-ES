@@ -3,10 +3,10 @@ description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 51%
+source-wordcount: '1313'
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UI
 | [Panel de visualizadores simultáneos de medios](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
 | [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analice el tiempo invertido en la reproducción para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los descensos. |
 
-![](assets/panel-overview.png)
+![El panel Customer Journey Analytics enumera los tipos de panel disponibles.](assets/panel-overview.png)
 
 Los paneles [!UICONTROL Quick Insights], [!UICONTROL En blanco] y [!UICONTROL Forma libre] son buenos lugares para iniciar el análisis, mientras que [!UICONTROL Attribution IQ] se presta para análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
 
@@ -39,7 +39,7 @@ El calendario del panel controla el intervalo de la creación de informes de las
 
 Nota: Si se utiliza un componente de intervalo de fechas (púrpura) en una tabla, una visualización o en la zona desplegable de un panel, se anulará el calendario del panel.
 
-![](assets/panel-calendar.png)
+![La ventana del calendario que muestra el intervalo de fechas seleccionado.](assets/panel-calendar.png)
 
 Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel. Si realiza informes en un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo.
 
@@ -51,7 +51,7 @@ La zona de colocación del panel permite aplicar filtros y filtros desplegables 
 
 Arrastre y suelte cualquier filtro del carril izquierdo en la zona desplegable del panel para empezar a filtrar el panel.
 
-![](assets/segment-filter.png)
+![El carril izquierdo muestra las métricas disponibles y la métrica Cliente móvil arrastrada a la zona de colocación del panel.](assets/segment-filter.png)
 
 ### Filtros ad hoc
 
@@ -61,7 +61,7 @@ Los filtros ad hoc son un tipo de filtro rápido y son locales del proyecto. No 
 
 Para obtener más información, consulte [Filtros rápidos](/help/components/filters/quick-filters.md).
 
-![](assets/adhoc-segment-filter.png)
+![Filtros ad hoc que se hacen públicos y se sueltan en la zona de colocación.](assets/adhoc-segment-filter.png)
 
 ### Filtros desplegables estáticos
 
@@ -69,7 +69,7 @@ Los filtros desplegables permiten interactuar con los datos de forma controlada.
 
 Los filtros desplegables también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes filtros de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un filtro desplegable de país.
 
-![](assets/dropdown-filter-intro.png)
+![Filtros desplegables estáticos que muestran el filtro &quot;Directo&quot; del canal de mercado resaltado. ](assets/dropdown-filter-intro.png)
 
 Para crear un filtro desplegable estático:
 
@@ -79,7 +79,7 @@ Para crear un filtro desplegable estático:
 
 Seleccione una de las opciones de la lista desplegable para cambiar los datos del panel. También puede optar por no filtrar ninguno de los datos del panel seleccionando **[!UICONTROL Sin filtro]**.
 
-![](assets/create-dropdown.png)
+![La ventana Panel con el campo de segmento Cliente móvil disponible para soltar un filtro desplegable estático. ](assets/create-dropdown.png)
 
 Al hacer clic con el botón derecho en un filtro desplegable, se proporcionan las siguientes opciones:
 
@@ -109,7 +109,7 @@ Al hacer clic con el botón derecho en un filtro desplegable dinámico, se propo
 
 Para obtener más funcionalidades, haga clic con el botón derecho en el encabezado del panel.
 
-![](assets/right-click-menu.png)
+![Las opciones del botón derecho para un encabezado de panel.](assets/right-click-menu.png)
 
 Las configuraciones disponibles son las siguientes:
 

@@ -1,12 +1,12 @@
 ---
 title: Analista virtual
-description: Conozca las funciones de Customer Journey Analytics que componen Analista virtual.
+description: Obtenga información acerca de las funciones de Analista virtual en Customer Journey Analytics.
 feature: Anomaly Detection
 exl-id: 5fb6ac39-d09d-49f0-ae1f-13f223e20800
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
