@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
-workflow-type: ht
-source-wordcount: '2651'
-ht-degree: 100%
+source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
+workflow-type: tm+mt
+source-wordcount: '2662'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Octubre de 2023** | |
+| Funcionalidad adicional de campos derivados | Documentación actualizada para el nuevo [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) función. |
 | **Septiembre de 2023** | |
 | Estructura actualizada de los artículos del panel Tiempo empleado en la reproducción de medios | Se ha eliminado la carpeta denominada Tiempo empleado en la reproducción de medios y se ha combinado el contenido de la carpeta en un solo artículo: [Panel Tiempo empleado en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Este cambio está más en línea con la documentación de otros paneles.</p> |
 | Funcionalidad adicional de campos derivados | Documentación actualizada para las nuevas funciones [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) y [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) y para las funcionalidades CSV adicionales agregadas a la función [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify). |

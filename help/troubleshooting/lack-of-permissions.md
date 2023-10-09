@@ -4,13 +4,13 @@ description: Obtenga información sobre cómo solucionar problemas derivados de 
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
-source-git-commit: 1905e37b76843a7622af4e874a2d74aceff55384
+exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
+source-git-commit: 72d42123a3c9463514ada584530ad959e99d5c94
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
-
 
 # Falta de permisos
 
@@ -21,14 +21,14 @@ Por ejemplo, después de crear un [Conexión](../connections/overview.md) y [Vis
 
 >[!BEGINSHADEBOX]
 
-*[!UICONTROL Se ha producido un error y no se han podido cargar los campos de esquema. Inténtelo de nuevo.]*
+*[!UICONTROL Error al recuperar las directivas DULE. Compruebe los permisos, directivas o etiquetas de la cuenta. Mensaje: Prohibido.]*
 
 >[!ENDSHADEBOX]
 
 
 Para corregir este error, debe tener privilegios de administrador de sistemas o productos para una organización que tenga un producto de Experience Platform. Consulte [Información general de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) para obtener más información.
 
-1. Vaya a la IU de Adobe Experience Platform.
+1. Vaya a la interfaz de usuario de Adobe Experience Platform.
 
 1. Seleccionar **[!UICONTROL Permisos]** desde el carril izquierdo.
 
@@ -41,5 +41,3 @@ Para corregir este error, debe tener privilegios de administrador de sistemas o 
 1. Asegurar **[!UICONTROL Administrar políticas de uso de datos]** y **[!UICONTROL Ver directivas de uso de datos]** se añaden a **[!UICONTROL Gobernanza de datos]** contenedor.
 
 1. Seleccionar **[!UICONTROL Guardar]** para guardar los cambios.
-
-
