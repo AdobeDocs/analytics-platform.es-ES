@@ -3,14 +3,14 @@ description: Gracias al Creador de métricas calculadas, todo el mundo puede cre
 title: Métrica de participación
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: d55df4ea2086278a243af51b698a9822a9a04e04
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '182'
 ht-degree: 32%
 
 ---
 
-# Crear una métrica de &quot;participación&quot;
+# Generar una métrica de “participación”
 
 La siguiente información explica cómo crear una métrica que muestre qué páginas contribuyeron a sesiones que contenían un pedido (o participaron en ellas).
 
@@ -18,7 +18,7 @@ Este tipo de información podría ser útil para cualquier propietario de conten
 
 >[!NOTE]
 >
->Puede habilitar métricas de participación en las Herramientas de administración, pero solo para los eventos personalizados 1-100.
+>Los administradores también pueden crear métricas con otros modelos de atribución, como Participación, como parte de una [vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=es). El ejemplo siguiente muestra cómo los puede crear cualquier usuario con acceso al creador de métricas calculadas en Workspace.
 
 1. Comience a crear una métrica, tal como se describe en [Crear métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 1. En el Creador de métricas calculadas, asigne a la métrica el nombre &quot;Participación&quot; o algo similar
