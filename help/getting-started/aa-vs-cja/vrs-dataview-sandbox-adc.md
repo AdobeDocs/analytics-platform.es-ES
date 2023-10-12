@@ -3,10 +3,10 @@ title: Grupos de informes virtuales, vistas de datos, zonas protegidas de Adobe 
 description: Obtenga información sobre los entornos de informes virtuales y los de zonas protegidas.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '771'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe proporciona una variedad de medios para crear entornos de informes virtual
 * Vistas de datos de Customer Journey Analytics
 * Zonas protegidas de Adobe Experience Platform
 
-## Grupos de informes virtuales (VRS) de Adobe Analytics
+## Grupos de informes virtuales de Adobe Analytics
 
 Para obtener más información, consulte: [Resumen de los grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es).
 
@@ -28,10 +28,10 @@ Un grupo de informes virtuales:
 * Se puede aplicar a datos nuevos e históricos de una manera no destructiva.
 * Permite crear una o varias vistas virtuales sobre un grupo de informes de Adobe Analytics para que las utilicen distintos equipos empresariales.
 * Puede utilizarse para controlar el acceso a diferentes tipos de datos y depurarlos para diferentes usuarios en Adobe Analytics.
-* Proporciona capacidades opcionales de [procesamiento en tiempo de informe](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=es) para Adobe Analytics. En este caso, se puede utilizar un VRS para crear una definición personalizada de «visita».
+* Proporciona capacidades opcionales de [procesamiento en tiempo de informe](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=es) para Adobe Analytics. En este caso, se puede utilizar un grupo de informes virtuales para crear una definición personalizada de visita.
 * Se aplica durante el tiempo de ejecución del informe, de forma similar a la evaluación de segmentos. Esto es _después_ de que los datos se hayan recopilado y almacenado en Adobe Analytics.
 * Es necesario para el [análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) en Adobe Analytics.
-* Tiene disponible el mismo número de variables que un grupo de informes estándar de Analytics (250 eVars, 250 props y 1000 eventos), aunque la depuración de VRS puede limitar qué variables están expuestas a los usuarios.
+* Tiene disponible el mismo número de variables que un grupo de informes estándar de Analytics (250 eVars, 250 props y 1000 eventos), aunque la depuración de grupos de informes virtuales puede limitar qué variables están expuestas a los usuarios.
 * Admite opciones de calendario personalizadas.
 
 Un grupo de informes virtuales no es:

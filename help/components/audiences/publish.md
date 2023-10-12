@@ -3,10 +3,10 @@ title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 15853fe7f37b1f0a3088f8dc108d7c65f1ef470a
+source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 60%
+source-wordcount: '1613'
+ht-degree: 58%
 
 ---
 
@@ -59,7 +59,7 @@ Lea esto [descripción general](/help/components/audiences/audiences-overview.md
    | Ventana [!UICONTROL Vista previa de datos] | El intervalo de fecha de la audiencia. |
    | [!UICONTROL Personas totales] | Un número de resumen del total de personas en esta audiencia. Puede llegar a los 20 millones de personas. Si la audiencia supera los 20 millones de personas, debe reducir el tamaño de la audiencia para poder publicarla. |
    | [!UICONTROL Límite de tamaño de audiencia] | Muestra a qué distancia del límite de 20 millones está esta audiencia. |
-   | [!UICONTROL Retorno calculado de la audiencia] | Esta configuración es útil para volver a dirigirse a los clientes de esta audiencia que regresan al sitio. (En otras palabras, que se ven de nuevo en este conjunto de datos). <p>Aquí puede seleccionar el lapso de tiempo (7 días siguientes, 2 semanas siguientes, mes siguiente) para la cantidad estimada de clientes que es posible que regresen. |
+   | [!UICONTROL Retorno calculado de la audiencia] | Esta configuración es útil para volver a dirigirse a los clientes de esta audiencia que regresan al sitio, la aplicación móvil u otro canal (en otras palabras, que se ven de nuevo en este conjunto de datos). <p>Aquí puede seleccionar el lapso de tiempo (7 días siguientes, 2 semanas siguientes, mes siguiente) para la cantidad estimada de clientes que es posible que regresen. |
    | [!UICONTROL Cálculo de retorno] | Este número proporciona un número estimado de clientes que regresan durante el lapso de tiempo seleccionado en la lista desplegable. Para predecir este número, miramos la tasa de pérdida histórica para esta audiencia. |
    | [!UICONTROL Previsualizar métricas] | Esta configuración le permite mirar métricas concretas para ver si esta audiencia contribuye en una cantidad desproporcionada a esta métrica, como “[!UICONTROL Ingresos]” o “[!UICONTROL Promedio de tiempo en el sitio]”. Proporciona el recuento agregado de la métrica, así como el porcentaje del total que representa. Puede seleccionar cualquier métrica que esté disponible en la vista de datos. |
    | [!UICONTROL Espacios de nombres incluidos] | Los espacios de nombres específicos asociados a las personas de la audiencia. Algunos ejemplos son ECID, CRM ID, direcciones de correo electrónico, etc. |

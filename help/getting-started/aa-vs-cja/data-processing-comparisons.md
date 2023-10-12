@@ -3,14 +3,14 @@ title: Comparar el procesamiento de datos entre las funciones de creación de in
 description: Comprender las diferencias en el procesamiento de datos para las distintas funciones de creación de informes
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
-workflow-type: ht
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
 
 ---
 
-# Compare el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics.
+# Compare el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics
 
 A menudo necesita la capacidad de procesar datos antes de que sean útiles para la creación de informes. Puede procesar esos datos en varias etapas del recorrido, desde la recopilación de datos hasta la generación del informe o la visualización.
 

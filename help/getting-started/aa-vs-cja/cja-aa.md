@@ -4,14 +4,14 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: e77dbb491178ffbe26fcec21d8b456cc3befbd1d
-workflow-type: ht
-source-wordcount: '2140'
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+workflow-type: tm+mt
+source-wordcount: '2139'
 ht-degree: 100%
 
 ---
 
-# Compatibilidad con las funciones de Adobe Customer Journey Analytics
+# Compatibilidad con funciones de Customer Journey Analytics
 
 Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles, parcialmente o nada compatibles con Customer Journey Analytics, y qué funciones de Customer Journey Analytics no son compatibles o no están disponibles en Adobe Analytics. Estas listas cambiarán con el tiempo a medida que se añadan funciones a Customer Journey Analytics.
 
