@@ -4,10 +4,10 @@ keywords: Revisión de Analysis Workspace
 title: Depurar proyectos de
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: f2f85db4b670f1c4b1f6bc0954a5549c793edf5a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: '515'
+ht-degree: 92%
 
 ---
 
@@ -47,7 +47,7 @@ Para eliminar la depuración del proyecto y restaurar el conjunto completo de co
 
 En un proyecto depurado, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos]** los componentes en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
 
-* Nivel de permiso del usuario (administrador o no administrador)
+* El nivel de permiso del usuario (administrador o no administrador)
 * Función del proyecto (propietario/editor o no)
 * Tipo de depuración aplicada (en el nivel de proyecto)
 

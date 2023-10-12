@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bf1e14fc0ecfdab3ff7032133d05ab0f40f123d6
+source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 99%
@@ -20,7 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Octubre de 2023** | |
-| Comparación con Adobe Analytics | Se ha añadido una página de información general como introducción para comparar y comprender las diferencias entre Customer Journey Analytics y Adobe Analytics. |
+| Comparación con Adobe Analytics | Se ha añadido un [página de información general](../getting-started/aa-vs-cja/overview.md) como introducción para comparar y comprender las diferencias entre Customer Journey Analytics y Adobe Analytics. |
 | Funcionalidad adicional de campos derivados | Documentación actualizada para el nuevo [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) función. |
 | **Septiembre de 2023** | |
 | Estructura actualizada de los artículos del panel Tiempo empleado en la reproducción de medios | Se ha eliminado la carpeta denominada Tiempo empleado en la reproducción de medios y se ha combinado el contenido de la carpeta en un solo artículo: [Panel Tiempo empleado en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Este cambio está más en línea con la documentación de otros paneles.</p> |
