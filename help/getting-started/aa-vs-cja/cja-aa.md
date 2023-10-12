@@ -4,10 +4,10 @@ description: Customer Journey Analytics en comparación con las funciones de Ado
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+source-git-commit: 82e0fbb714852750963e08597b6b1606127e0ac6
 workflow-type: tm+mt
 source-wordcount: '2139'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,8 +42,8 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Acceso a la API de informes | Compatibilidad total. Disponible a través de la [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
 | Informes y proyectos programados | Compatibilidad total |
 | Segmentos | Compatibilidad total. Ahora se denominan “Filtros”: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
-| Grupos de informes virtuales | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
-| Revisión de componentes de grupo de informes virtuales | Compatibilidad total. Ahora forma parte de las Vistas de datos. |
+| Grupos de informes virtuales | Compatibilidad total. Ahora se llama [Vistas de datos](/help/data-views/create-dataview.md). |
+| Revisión de componentes de grupo de informes virtuales | Compatibilidad total. Ahora forma parte de las vistas de datos. |
 | Streaming de medios de Analytics | Los datos de medios están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |
 
 {style="table-layout:auto"}
