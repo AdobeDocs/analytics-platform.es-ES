@@ -4,7 +4,7 @@ description: Explique cómo introducir datos en Customer Journey Analytics a tra
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
-source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
+source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 60%
@@ -55,15 +55,17 @@ Para configurar el esquema:
 
 1. Seleccione **[!UICONTROL Crear esquema]**.
 .
-1. En el paso Seleccionar una clase del asistente Crear esquema, seleccione **[!UICONTROL Evento de experiencia]**.
+1. En el paso Seleccionar una clase del asistente Crear esquema:
 
-   ![Creación de un esquema](./assets/create-ee-schema-wizard-step-1.png)
+   1. Seleccionar **[!UICONTROL Evento de experiencia]**.
 
-   >[!INFO]
-   >
-   >    Se utiliza un esquema de Evento de experiencia para modelar el _comportamiento_ de un perfil (como nombre de la escena, botón para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      ![Creación de un esquema](./assets/create-ee-schema-wizard-step-1.png)
 
-   Seleccione **[!UICONTROL Siguiente]**.
+      >[!INFO]
+      >
+      >    Se utiliza un esquema de Evento de experiencia para modelar el _comportamiento_ de un perfil (como nombre de la escena, botón para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+
+   1. Seleccione **[!UICONTROL Siguiente]**.
 
 
 1. En el [!UICONTROL Nombre y paso de revisión] de la [!UICONTROL Crear esquema] asistente:
