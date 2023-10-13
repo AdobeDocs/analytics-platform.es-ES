@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configuración de cuentas de exportación en la nube
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 02174836d246e6e7c4bf2056a69b8cfeb35ed981
+source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1826'
 ht-degree: 4%
 
 ---
@@ -65,9 +65,9 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    ![Cuadro de diálogo Exportar cuenta AEP Data Landing Zone](assets/export-account-aep.png)
 
-1. Copie el contenido del [!UICONTROL **URI de SAS**] al portapapeles.
+1. Copie el contenido del [!UICONTROL **URI de SAS**] al portapapeles. Utilizará este URI de SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de datos de AEP.
 
-   Utilizará este URI de SAS para acceder a los datos exportados desde Analysis Workspace desde la zona de aterrizaje de datos de AEP.
+   Si este campo está vacío, se le debe otorgar permiso para acceder a Adobe Experience Platform.
 
 1. En Adobe Experience Platform, configure el contenedor de zona de aterrizaje de datos para que utilice el URI de SAS que ha copiado.
 
@@ -82,6 +82,11 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
       Puede omitir las tareas descritas en las secciones [Recuperación de las credenciales de la zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#retrieve-dlz-credentials) y [Actualizar credenciales de zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#update-dlz-credentials), porque el URI que ha copiado contiene estas credenciales.
 
    1. Al seguir la documentación de Adobe Experience Platform y llegar a la [!UICONTROL **URL SAS del contenedor de blob**] , pegue el URI SAS que copió en el paso 3.
+
+      >[!NOTE]
+      >
+      >Debe realizar esta acción cada 7 días, ya que el URI de SAS caduca 7 días después de crearse. Puede crear un script para automatizar este proceso.
+
 
       ![Campo de URL SAS](assets/blob-container-sas-uri.png)
 

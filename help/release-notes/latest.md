@@ -3,9 +3,9 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 49d91b513abd545ea73c7867817cd8724b460be4
-workflow-type: ht
-source-wordcount: '777'
+source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
+workflow-type: tm+mt
+source-wordcount: '775'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 4 de octubre de
 | **Migrar proyectos de Adobe Analytics y cualquier componente incluido a Customer Journey Analytics** | Ahora puede migrar sus proyectos de Adobe Analytics a Customer Journey Analytics. Este proceso simplifica la transición de Adobe Analytics a Customer Journey Analytics. <p>Al migrar proyectos a Customer Journey Analytics, los recursos se asignan de un grupo de informes de Adobe Analytics a una vista de datos de Customer Journey Analytics.</p> <p>Los proyectos se migran a Customer Journey Analytics desde la interfaz de Adobe Analytics. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=es)</p> | N/A | 9 de octubre de 2023 |
 | **Adobe Product Analytics: Mostrar/ocultar serie** | Haga clic en la leyenda del gráfico o en las filas de la tabla para controlar la visibilidad de las series en las visualizaciones.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html?lang=es) | N/A | 4 de octubre de 2023 |
 | **Anotaciones en Adobe Product Analytics** | El análisis guiado ahora admite la capacidad de ver anotaciones creadas en Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=es) | N/A | 4 de octubre de 2023 |
-| **Administrador de actividades de creación de informes** | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Proporciona a los administradores una visibilidad detallada del consumo de creación de informes para diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de creación de informes. Entre las características principales del Administrador de actividades de creación de informes se incluyen:<ul><li>Cancelar las solicitudes de creación de informes actuales (incluidas las solicitudes de análisis guiados y exportaciones de tabla completa)</li><li>Restringir solicitudes posteriores durante un período de tiempo definido</li></ul>Además de cancelar las solicitudes actuales, los administradores ahora pueden restringir las solicitudes durante un período de tiempo definido. Los administradores pueden restringir las solicitudes por solicitud, proyecto o usuario.  Más información (próximamente) | 17 de octubre de 2023 | 23 de octubre de 2023 |
+| **Administrador de actividades de creación de informes** | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Proporciona a los administradores una visibilidad detallada del consumo de creación de informes para diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de creación de informes. Entre las características principales del Administrador de actividades de creación de informes se incluyen:<ul><li>Cancelar las solicitudes de creación de informes actuales (incluidas las solicitudes de análisis guiados y exportaciones de tabla completa)</li><li>Restringir solicitudes posteriores durante un período de tiempo definido</li></ul>Además de cancelar las solicitudes actuales, los administradores ahora pueden restringir las solicitudes durante un período de tiempo definido. Los administradores pueden restringir las solicitudes por solicitud, proyecto o usuario.  [Más información](/help/reporting-activity-manager/reporting-activity-overview.md) | 17 de octubre de 2023 | 23 de octubre de 2023 |
 
 {style="table-layout:auto"}
 
