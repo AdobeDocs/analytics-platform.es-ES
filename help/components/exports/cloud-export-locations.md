@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configuración de ubicaciones de exportación de nube
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 3c1e256bb2197ed844d699e4a28076b014566b99
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1497'
 ht-degree: 4%
 
 ---
@@ -66,6 +66,21 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 1. Seleccione [!UICONTROL **Guardar**].
 
 1. Ahora puede exportar datos de Analysis Workspace a la cuenta y la ubicación configuradas. Para obtener información sobre cómo exportar datos a la nube, consulte [Exportación de datos del proyecto a la nube](/help/analysis-workspace/export/export-cloud.md).
+
+1. La forma más sencilla de acceder a sus datos en la zona de aterrizaje de datos de AEP es utilizar el Explorador de almacenamiento de Microsoft Azure. Es la misma herramienta que se utiliza en las instrucciones para configurar el [Cuenta de zona de aterrizaje de datos de AEP](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone).
+
+   1. Abra el [Explorador de almacenamiento de Microsoft Azure](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+
+   1. Ir a [!UICONTROL **Cuentas de almacenamiento**] > [!UICONTROL **(Contenedores adjuntos)**] > [!UICONTROL **Contenedores de blob**] > **[!UICONTROL cjaexport-_número_]**>*** your_container_name ***.
+
+      >[!NOTE]
+      >
+      >El nombre de la carpeta **[!UICONTROL cjaexport-_número_]**es el nombre predeterminado que proporciona el Explorador de almacenamiento de Azure. Si solo tiene una conexión asociada a su URI SAS (lo cual es normal), el nombre de esta carpeta será&#x200B;**[!UICONTROL cjaexport-1]**.
+
+
+      ![Acceder a archivos en el Explorador de almacenamiento de Azure](assets/azure-storage-explorer-access.png)
+
+   1. Seleccione la exportación que desee descargar y, a continuación, seleccione [!UICONTROL **Descargar**] para descargar.
 
 ### Amazon S3 Role ARN
 
