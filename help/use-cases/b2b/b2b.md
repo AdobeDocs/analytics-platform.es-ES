@@ -1,17 +1,17 @@
 ---
-title: (B2B) Adición de datos de nivel de cuenta como un conjunto de datos de consulta
+title: Añadir datos de nivel de cuenta como un conjunto de datos de consulta
 description: Obtenga información sobre cómo agregar datos basados en cuentas como un conjunto de datos de consulta al Customer Journey Analytics
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 647257322dc4b7e64e0e17fbfde27f626b1012a1
+source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '817'
 ht-degree: 74%
 
 ---
 
-# (B2B) Adición de datos de nivel de cuenta como un conjunto de datos de consulta
+# Añadir datos de nivel de cuenta como un conjunto de datos de consulta
 
 Este caso de uso de B2B se muestra cómo especificar los datos en cuanto a cuenta, en lugar de en cuanto a persona, para su análisis. El análisis a nivel de cuenta puede responder preguntas como
 
