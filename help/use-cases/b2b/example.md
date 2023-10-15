@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 980afb6d8344c04b431c596d39a8f0003b7201ba
+source-git-commit: 7b90ce212b6964fde6bdf2d47b2c751330e4f399
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 15%
@@ -302,7 +302,7 @@ Con los componentes correctamente definidos, ahora puede crear visualizaciones B
 
 A continuación se muestra un ejemplo de un proyecto del Espacio de trabajo que se basa en la conexión y la vista de datos descritas anteriormente. Consulte las descripciones de cada visualización para obtener más información.
 
-+++ Detalles
++++ Proyecto 
 
 ![Visualizaciones](assets/visualizations.png)
 
