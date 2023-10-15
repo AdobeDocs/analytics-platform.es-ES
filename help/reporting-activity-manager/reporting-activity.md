@@ -3,10 +3,10 @@ title: Ver la actividad de creación de informes en el Administrador de activida
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: dba42bedd14c4c6d958feab9a1ebdc137d489f32
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 17%
+source-wordcount: '1731'
+ht-degree: 16%
 
 ---
 
@@ -42,26 +42,26 @@ Para obtener más información sobre el Administrador de actividades de creació
 
    | Elemento de la IU | Descripción |
    | --- | --- |
-   | **[!UICONTROL conexión]** | La conexión cuya actividad de creación de informes está monitorizando. |
-   | **[!UICONTROL Grupos de informes virtuales]** | Muestra todos los grupos de informes virtuales que se alimentan de este grupo de informes base. Los grupos de informes virtuales añaden complejidad a las solicitudes de creación de informes debido a los niveles adicionales de filtrado y segmentación aplicados. Todas las solicitudes que provienen de los grupos de informes virtuales se combinan en el grupo de informes base.<p>Por ejemplo, si tiene 10 solicitudes procedentes de 5 grupos de informes virtuales, son 50 solicitudes en el grupo de informes base. De este modo, puede alcanzar la capacidad rápidamente. |
-   | **[!UICONTROL Utilización de la capacidad]** | El porcentaje de la capacidad de creación de informes del grupo de informes que se está utilizando en tiempo real. <p>**Nota** Una capacidad de uso del 100 % no sugiere necesariamente que deba empezar a cancelar inmediatamente las solicitudes de creación de informes. La capacidad de uso del 100% puede ser saludable si el tiempo de espera promedio es razonable. Por otro lado, una capacidad de uso del 100 % podría sugerir un problema si el número de solicitudes en cola también aumenta.</p> |
+   | **[!UICONTROL Conexión]** | La conexión cuya actividad de creación de informes está monitorizando. |
+   | **[!UICONTROL Vistas de datos]** | Muestra todas las vistas de datos que alimentan la conexión. Las vistas de datos añaden complejidad a las solicitudes de creación de informes debido a los niveles adicionales de filtrado y segmentación aplicados. Todas las solicitudes que provienen de la vista de datos se combinan en la conexión.<p>Por ejemplo, si tiene 10 solicitudes procedentes de 5 vistas de datos, son 50 solicitudes en la conexión. De este modo, puede alcanzar la capacidad rápidamente. |
+   | **[!UICONTROL Utilización de la capacidad]** | El porcentaje de la capacidad de creación de informes de la conexión que se está utilizando en tiempo real. <p>**Nota** Una capacidad de uso del 100 % no sugiere necesariamente que deba empezar a cancelar inmediatamente las solicitudes de creación de informes. La capacidad de uso del 100% puede ser saludable si el tiempo de espera promedio es razonable. Por otro lado, una capacidad de uso del 100 % podría sugerir un problema si el número de solicitudes en cola también aumenta.</p> |
    | **[!UICONTROL Solicitudes en cola]** | El número de solicitudes en espera de ser procesadas. <!-- ??? --> |
    | **[!UICONTROL Tiempo de espera en cola]** | Tiempo de espera promedio antes de que las solicitudes empiecen a procesarse. <!-- ???? --> |
-   | **[!UICONTROL Estado]** | Los estados posibles son: <ul><li>[!UICONTROL **Activo**] (azul): los informes se han ejecutado en el grupo de informes y se está monitorizando su actividad.</li><li>[!UICONTROL **Inactivo**] (gris): Nunca se han ejecutado informes en el grupo de informes. Este estado solo se muestra cuando se crean los grupos de informes por primera vez.</li></ul> |
+   | **[!UICONTROL Estado]** | Los estados posibles son: <ul><li>[!UICONTROL **Activo**] (azul): se han ejecutado informes sobre la conexión y se está monitorizando su actividad.</li><li>[!UICONTROL **Inactivo**] (gris): Nunca se han ejecutado informes en la conexión. Este estado solo se muestra cuando se crean conexiones por primera vez.</li></ul> |
 
    {style="table-layout:auto"}
 
-## Ver la actividad de informes de un solo grupo de informes
+## Ver la actividad de creación de informes de una sola conexión
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Herramientas**] > [!UICONTROL **Administrador de actividades de informes**].
 
-1. Seleccione el título vinculado del grupo de informes cuyos detalles desea ver.
+1. Seleccione el título vinculado de la conexión cuyos detalles desea ver.
 
-   Los datos de la actividad de creación de informes se muestran para el grupo de informes seleccionado.
+   Se muestran los datos de la actividad de creación de informes de la conexión seleccionada.
 
-   <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+   <!-- Need to update this screenshot: ![connection](assets/indiv-report-ste.png) -->
 
-1. Utilice los gráficos y las tablas disponibles para comprender la actividad de creación de informes en el grupo de informes.
+1. Utilice los gráficos y la tabla disponibles para comprender la actividad de creación de informes en la conexión.
 
    * [Visualización de gráficos](#view-graphs)
 
@@ -69,13 +69,13 @@ Para obtener más información sobre el Administrador de actividades de creació
 
 ### Visualización de gráficos
 
-Los siguientes gráficos están disponibles para ayudarle a comprender mejor la actividad que se produce en el grupo de informes.
+Los siguientes gráficos están disponibles para ayudarle a comprender mejor la actividad que se produce en la conexión.
 
 Si los gráficos no están visibles, seleccione la opción [!UICONTROL **Mostrar gráficos**] botón.
 
 #### Gráfico de utilización {#utilization}
 
-El gráfico Utilización muestra la utilización de los informes para el grupo de informes seleccionado durante las últimas 2 horas.
+El gráfico Utilización muestra la utilización de los informes para la conexión seleccionada en las últimas 2 horas.
 
 Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que el porcentaje de capacidad de uso fue mayor para ese minuto.
 
@@ -86,7 +86,7 @@ Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que el 
 
 #### Gráfico de usuarios distintos
 
-El gráfico Usuarios distintos muestra la actividad de creación de informes del grupo de informes seleccionado durante las últimas 2 horas.
+El gráfico Usuarios distintos muestra la actividad de creación de informes de la conexión seleccionada durante las últimas 2 horas.
 
 Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que la cantidad máxima de usuarios fue mayor durante ese minuto.
 
@@ -97,7 +97,7 @@ Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que la 
 
 #### Gráfico de solicitudes
 
-El gráfico Solicitudes muestra el número de solicitudes procesadas y completadas del grupo de informes seleccionado durante las últimas 2 horas.
+El gráfico Solicitudes muestra el número de solicitudes procesadas y completadas para la conexión seleccionada en las últimas 2 horas.
 
 Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que la cantidad máxima de solicitudes fue mayor en ese minuto.
 
@@ -108,7 +108,7 @@ Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que la 
 
 #### Gráfico de colas
 
-El gráfico En cola muestra el tiempo medio de espera de cola (en segundos) para las solicitudes de creación de informes del grupo de informes seleccionado durante las últimas 2 horas.
+El gráfico En cola muestra el tiempo medio de espera de cola (en segundos) para las solicitudes de informes de la conexión seleccionada durante las últimas 2 horas.
 
 Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que el tiempo de espera promedio máximo fue mayor para ese minuto.
 
@@ -215,11 +215,11 @@ The Summary Numbers show the following information:
 
 | Summary Number | Description |
 | --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
+| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this connection. |
 | [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
 | [!UICONTROL **Queries**] | The number of queries currently running. |
 | [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
+| [!UICONTROL **Usage Capacity**] | The current usage capacity for this connection. |
 
 {style="table-layout:auto"}
 

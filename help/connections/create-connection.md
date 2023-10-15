@@ -4,10 +4,10 @@ description: Describe cómo crear una conexión para un conjunto de datos de Pla
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
-workflow-type: ht
-source-wordcount: '2630'
-ht-degree: 100%
+source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
+workflow-type: tm+mt
+source-wordcount: '2797'
+ht-degree: 93%
 
 ---
 
@@ -60,9 +60,15 @@ Debe tener el paquete **Seleccionar** para añadir un número ilimitado de conju
 
 El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Platform al crear una conexión.
 
-1. En el cuadro de diálogo Configuración de conexión, haga clic en **[!UICONTROL Agregar conjuntos de datos]**.
+1. En el cuadro de diálogo Configuración de conexión, seleccione **[!UICONTROL Añadir conjuntos de datos]**.
 
-2. Seleccione uno o varios conjuntos de datos y haga clic en **[!UICONTROL Siguiente]**. Al menos un conjunto de datos de evento debe formar parte de la conexión.
+2. En el [!UICONTROL Seleccionar conjuntos de datos] paso, seleccione uno o varios conjuntos de datos y seleccione **[!UICONTROL Siguiente]**. Al menos un conjunto de datos de evento debe formar parte de la conexión.
+   * Para cambiar las columnas mostradas para la lista de conjuntos de datos, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) y seleccione las columnas que desea mostrar en la [!UICONTROL Personalizar tabla] diálogo.
+   * Para buscar un conjunto de datos específico, utilice el ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) campo de búsqueda.
+   * Para alternar entre mostrar u ocultar los conjuntos de datos seleccionados, seleccione ![Seleccionar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Ocultar seleccionados]** o **[!UICONTROL Mostrar seleccionados]**.
+   * Para quitar un conjunto de datos de la lista de conjuntos de datos seleccionados, utilice ![Cerrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Para eliminar todos los conjuntos de datos seleccionados, seleccione **[!UICONTROL Borrar todo]**.
+
+   ![Seleccionar conjuntos de datos](assets/select-datasets.png)
 
 3. Ahora configure los conjuntos de datos uno a uno.
 
@@ -70,8 +76,10 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
 
    | Configuración | Descripción |
    | --- | --- |
-   | **[!UICONTROL ID de la persona]** | Seleccione un ID de persona en la lista desplegable de identidades disponibles. Estas identidades se definieron en el esquema del conjunto de datos en Experience Platform. Consulte a continuación para obtener información sobre cómo usar el mapa de identidad como ID de persona.<p>Si no hay ID de persona para elegir, significa que uno o más ID de persona no se han definido en el esquema. Mire este vídeo sobre cómo definir una identidad en Experience Platform. |
+   | **[!UICONTROL ID de la persona]** | Solo disponible para conjuntos de datos de evento y perfil. Seleccione un ID de persona en la lista desplegable de identidades disponibles. Estas identidades se definieron en el esquema del conjunto de datos en Experience Platform. Consulte a continuación para obtener información sobre cómo usar el mapa de identidad como ID de persona.<p>Si no hay ID de persona para elegir, significa que uno o más ID de persona no se han definido en el esquema. Mire este vídeo sobre cómo definir una identidad en Experience Platform. |
    | **[!UICONTROL Marca de tiempo]** | Solo para conjuntos de datos de evento, esta configuración se establece automáticamente en el campo de marca de tiempo predeterminado de esquemas basados en eventos en Experience Platform. |
+   | **[!UICONTROL Clave]** | Solo disponible para conjuntos de datos de búsqueda. Clave que se utiliza para un conjunto de datos de búsqueda. |
+   | **[!UICONTROL Clave de coincidencia]** | Solo disponible para conjuntos de datos de búsqueda. La clave coincidente para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya agregado ni configurado ningún conjunto de datos de evento. |
    | **[!UICONTROL Tipo de fuente de datos]** | Seleccione un tipo de fuente de datos. <br/>Los tipos de fuentes de datos incluyen los siguientes: <ul><li>[!UICONTROL Datos web]</li><li>[!UICONTROL Datos de aplicación móvil]</li><li>[!UICONTROL Datos POS]</li><li>[!UICONTROL Datos CRM]</li><li>[!UICONTROL Datos de las encuestas]</li><li>[!UICONTROL Datos de centro de llamadas]</li><li>[!UICONTROL Datos del producto]</li><li> [!UICONTROL Datos de cuentas]</li><li> [!UICONTROL Datos de transacción]</li><li>[!UICONTROL Datos de valoraciones del cliente]</li><li> [!UICONTROL Otro]</li></ul>Este campo se utiliza para estudiar los tipos de fuentes de datos que se utilizan. |
    | **[!UICONTROL Importar datos nuevos]** | Seleccione esta opción si desea establecer una conexión continua de modo que los lotes de datos nuevos que se agregan a los conjuntos de datos de esta conexión se transfieran de manera automática a Workspace. Se puede configurar como [!UICONTROL Activado] o [!UICONTROL Desactivado]. |
    | **[!UICONTROL Relleno del conjunto de datos]** | Haga clic en **[!UICONTROL Solicitar relleno]** para rellenar datos históricos.<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Prioriza los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La latencia se ve afectada por la cantidad de datos históricos que tiene.</li><li>El conector de datos de Analytics importa hasta 13 meses de datos, independientemente de su tamaño, para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.</li></ul> |
@@ -81,7 +89,7 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
    | **[!UICONTROL Tamaño del conjunto de datos]** | El tamaño del conjunto de datos. |
    | **[!UICONTROL Esquema]** | Este es el esquema en función del cual se creó el conjunto de datos en Adobe Experience Platform. |
    | **[!UICONTROL Conjunto de datos]** | El nombre del conjunto de datos. |
-   | **[!UICONTROL Vista previa]**: `<dataset name>` | Previsualiza el conjunto de datos con columnas de fecha, mi ID e Identificador. |
+   | **[!UICONTROL Vista previa: *nombre del conjunto de datos *]** | Previsualiza el conjunto de datos con columnas de fecha, mi ID e Identificador. |
    | **[!UICONTROL Eliminar]** | Puede eliminar o quitar el conjunto de datos y cambiar el ID de persona sin eliminar toda la conexión. Eliminar o quitar reduce los costes que implica la ingesta de datos y el engorroso proceso de volver a crear toda la conexión y las vistas de datos asociadas. |
 
    {style="table-layout:auto"}

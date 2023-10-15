@@ -3,7 +3,7 @@ title: Información general del Administrador de actividades de creación de inf
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 34%
@@ -29,6 +29,8 @@ El Administrador de actividades de creación de informes ofrece las siguientes v
 * Permite restringir solicitudes futuras durante un período de tiempo especificado. Puede restringir solicitudes específicas o puede restringir todas las solicitudes de un usuario específico o las solicitudes asociadas a un proyecto específico.
 
 ## Permisos
+
+<!-- update for CJA -->
 
 Para administrar la actividad de creación de informes, debe tener el permiso de administrador de productos de Analytics en Adobe Admin Console.
 

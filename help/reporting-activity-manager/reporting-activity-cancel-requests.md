@@ -3,7 +3,7 @@ title: Cancelar solicitudes de creación de informes en el Administrador de acti
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 7%
@@ -132,6 +132,8 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
    Se muestra una notificación en Analysis Workspace que informa a los usuarios de que se ha cancelado la solicitud. Para obtener más información sobre cómo aparece esto en Analysis Workspace, consulte [Experiencia cuando los usuarios acceden a un informe cancelado](#experience-when-users-access-a-cancelled-report).
 
 ## Experiencia cuando los usuarios acceden a un informe cancelado
+
+<!-- Update for CJA and AA -->
 
 En Analysis Workspace, los usuarios ven el siguiente mensaje cuando intentan acceder a un informe cancelado por un administrador:
 
