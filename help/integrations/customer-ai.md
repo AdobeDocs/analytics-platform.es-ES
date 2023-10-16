@@ -4,8 +4,8 @@ title: Integración de datos de inteligencia artificial aplicada al cliente con 
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-feature: Platform Integration
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Experience Platform Integration
+source-git-commit: 2429c60cab701017702e3312770232aa329e303c
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 51%
