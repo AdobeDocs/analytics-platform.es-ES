@@ -3,7 +3,7 @@ title: Ver la actividad de creación de informes en el Administrador de activida
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
+source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 16%
@@ -171,7 +171,7 @@ Al seleccionar la variable [!UICONTROL **Proyecto**] , las siguientes columnas e
 
 | Columna | Descripción |
 | --- | --- |
-| [!UICONTROL **Proyecto**] | Proyecto en el que se iniciaron las consultas. |
+| [!UICONTROL **Proyecto**] | Proyecto en el que se iniciaron las solicitudes. |
 | [!UICONTROL **Número de solicitudes**] | El número de solicitudes asociadas con el proyecto. |
 | [!UICONTROL **Cantidad de usuarios**] | El número de usuarios asociados con el proyecto. <!-- ??? --> |
 | [!UICONTROL **Aplicación**] | Las aplicaciones compatibles con el [!UICONTROL Administrador de actividades de creación de informes] son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 1.4 o 2.0</li><li>Alertas inteligentes</li></ul> |
@@ -188,7 +188,7 @@ Al seleccionar la variable [!UICONTROL **Aplicación**] , las siguientes columna
 
 | Columna | Descripción |
 | --- | --- |
-| [!UICONTROL **Aplicación**] | Aplicación en la que se iniciaron las consultas. |
+| [!UICONTROL **Aplicación**] | La aplicación donde se iniciaron las solicitudes. |
 | [!UICONTROL **Número de solicitudes**] | El número de solicitudes asociadas con la aplicación. |
 | [!UICONTROL **Cantidad de usuarios**] | El número de usuarios asociados con la aplicación. <!--???--> |
 | [!UICONTROL **Número de proyectos**] | El número de proyectos asociados con la aplicación. <!--???--> |
@@ -198,29 +198,3 @@ Al seleccionar la variable [!UICONTROL **Aplicación**] , las siguientes columna
 | [!UICONTROL **Segmentos medios**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Más segmentos aumenta la complejidad de la solicitud. |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this connection. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this connection. |
-
-{style="table-layout:auto"}
-
--->

@@ -3,10 +3,10 @@ title: Información general del Administrador de actividades de creación de inf
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
+source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 34%
+source-wordcount: '289'
+ht-degree: 29%
 
 ---
 
@@ -24,7 +24,7 @@ El Administrador de actividades de creación de informes ofrece las siguientes v
 
 * Le permite supervisar y administrar la capacidad de creación de informes de cada conexión de su organización.
 * Le informa en tiempo real sobre la capacidad actual de creación de informes entre sus conexiones.
-* Proporciona información detallada de las consultas de creación de informes sobre solicitudes de creación de informes actuales, tanto si están en cola como en curso.
+* Proporciona información detallada del informe sobre las solicitudes de informes actuales, ya estén en cola o en curso.
 * Le permite optimizar la cola de creación de informes priorizando y cancelando solicitudes de creación de informes para liberar capacidad. Responde preguntas como: ¿es necesario este informe en este momento o puedo cancelarlo para darle prioridad a informes más urgentes?
 * Permite restringir solicitudes futuras durante un período de tiempo especificado. Puede restringir solicitudes específicas o puede restringir todas las solicitudes de un usuario específico o las solicitudes asociadas a un proyecto específico.
 
