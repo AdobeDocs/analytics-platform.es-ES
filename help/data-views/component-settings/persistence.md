@@ -4,10 +4,10 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 86%
+source-wordcount: '859'
+ht-degree: 81%
 
 ---
 
@@ -20,15 +20,11 @@ La [!UICONTROL persistencia] es la capacidad de un valor de dimensión determina
 
 * La **asignación** le permite determinar qué valor se conserva cuando más de un elemento de dimensión puede persistir a la vez en una sola columna.
 
-<!--
-
   >[!NOTE]
   >
-  >If you have a [non-default attribution model](/help/data-views/component-settings/attribution.md) set on a metric in a report, the attribution model ignores the allocation you set on the dimension for the same report.
+  >Si tiene un [modelo de atribución no predeterminado](/help/data-views/component-settings/attribution.md) configurado en una métrica de un informe, el modelo de atribución ignora la asignación configurada en la dimensión para el mismo informe.
   >
-  >However, when doing a [full table export](/help/analysis-workspace/export/export-cloud.md) that includes multiple dimensions, attribution retains the allocation models applied to each dimension.
-
--->
+  >Sin embargo, al hacer una [exportación de tabla completa](/help/analysis-workspace/export/export-cloud.md) que incluye varias dimensiones, la atribución conserva los modelos de asignación aplicados a cada dimensión.
 
 * La **caducidad** le permite determinar cuánto tiempo persiste un elemento de dimensión más allá del evento en el que está establecido.
 

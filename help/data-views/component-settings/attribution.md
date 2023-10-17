@@ -4,10 +4,10 @@ description: Permite establecer la atribución predeterminada para una métrica.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 37%
+source-wordcount: '1937'
+ht-degree: 35%
 
 ---
 
@@ -28,21 +28,17 @@ En algunos informes, es posible que desee atribuir el pedido a la búsqueda de p
 
 Puede establecer un modelo de atribución predeterminado para una métrica determinada actualizando la configuración de la métrica en la vista de datos. Al hacerlo, se anula el modelo de atribución de la métrica cada vez que se utiliza en Analysis Workspace.
 
-<!-- 
-
 >[!NOTE]
 >
->Consider the following when enabling attribution on a metric:
+>Tenga en cuenta lo siguiente al habilitar la atribución en una métrica:
 >
->* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>* **Al utilizar el componente en un informe con *una sola dimensión*:** La atribución del componente ignora el modelo de asignación cuando se utiliza un modelo de atribución no predeterminado.
 >
->* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>* **Al utilizar el componente en un informe con *varias dimensiones*:** La atribución del componente retiene el modelo de asignación cuando se utiliza un modelo de atribución no predeterminado.
 >
->   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>   Las dimensiones múltiples solo están disponibles cuando [exportación de datos a la nube](/help/analysis-workspace/export/export-cloud.md).
 >
-> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
-
--->
+> Para obtener más información sobre la asignación, consulte [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).
 
 Para actualizar el modelo de atribución predeterminado de un componente:
 
