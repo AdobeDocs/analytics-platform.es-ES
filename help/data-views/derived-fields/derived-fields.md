@@ -4,10 +4,10 @@ description: Un campo derivado especifica la manipulación en tiempo de informe 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
-source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
+source-git-commit: 7a96c6b1f093a534e473de3bde8dc3044564c450
 workflow-type: tm+mt
-source-wordcount: '5431'
-ht-degree: 15%
+source-wordcount: '5641'
+ht-degree: 14%
 
 ---
 
@@ -100,6 +100,22 @@ Cuando define una regla en el generador de reglas, utiliza la interfaz de reglas
 
    - Seleccionar **[!UICONTROL ** Guardar como **]** para guardar el campo derivado como un nuevo campo derivado. El nuevo campo derivado tiene el mismo nombre que el campo derivado editado original con `(copy)` se le ha añadido.
 
+Alternativamente, si ha utilizado un campo derivado como componente para dimensiones o métricas en la vista de datos:
+
+1. Seleccione el componente. Tenga en cuenta que el componente puede tener un nombre diferente al campo derivado.
+
+1. En el panel Componente, seleccione la opción ![Icono Editar](assets/Smock_Edit_18_N.svg) junto al campo derivado, debajo de Nombre del campo de esquema.
+
+1. Para editar el campo derivado, utilice el [!UICONTROL Editar campo derivado] interfaz. Consulte [Interfaz de campo derivada](#derived-field-interface).
+
+   - Seleccionar **[!UICONTROL ** Guardar **]** para guardar el campo derivado actualizado.
+
+   - Seleccionar **[!UICONTROL ** Cancelar **]** para cancelar los cambios realizados en el campo derivado.
+
+   - Seleccionar **[!UICONTROL ** Guardar como **]** para guardar el campo derivado como un nuevo campo derivado. El nuevo campo derivado tiene el mismo nombre que el campo derivado editado original con `(copy)` se le ha añadido.
+
+
+
 ## Eliminar un campo derivado
 
 1. Seleccione una vista de datos existente. Consulte [Vistas de datos](../data-views.md) para obtener más información.
@@ -112,7 +128,19 @@ Cuando define una regla en el generador de reglas, utiliza la interfaz de reglas
 
 5. Pase el ratón sobre el campo derivado que desee eliminar y seleccione ![Icono Editar](assets/Smock_Edit_18_N.svg).
 
-6. En el **[!UICONTROL ** Editar campo derivado **]** interfaz, seleccione Eliminar.
+6. En el [!UICONTROL Editar campo derivado] interfaz, seleccione **[!UICONTROL Eliminar]**.
+
+   A [!UICONTROL Eliminar componente] El cuadro de diálogo le pedirá que confirme la eliminación. Considere cualquier referencia externa que pueda existir al campo derivado fuera de la vista de datos.
+
+   - Seleccionar **[!UICONTROL ** Continuar **]** para eliminar el campo derivado.
+
+Alternativamente, si ha utilizado un campo derivado como componente para dimensiones o métricas en la vista de datos:
+
+1. Seleccione el componente. Tenga en cuenta que el componente puede tener un nombre diferente al campo derivado.
+
+1. En el panel Componente, seleccione la opción ![Icono Editar](assets/Smock_Edit_18_N.svg) junto al campo derivado, debajo de Nombre del campo de esquema.
+
+1. En el [!UICONTROL Editar campo derivado] interfaz, seleccione **[!UICONTROL Eliminar]**.
 
    A [!UICONTROL Eliminar componente] El cuadro de diálogo le pedirá que confirme la eliminación. Considere cualquier referencia externa que pueda existir al campo derivado fuera de la vista de datos.
 
