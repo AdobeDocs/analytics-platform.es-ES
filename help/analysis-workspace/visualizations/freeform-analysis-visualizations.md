@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
+source-git-commit: 0022df4fa6022d5b045e47b606f4a6d1687f7244
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 86%
+source-wordcount: '1285'
+ht-degree: 84%
 
 ---
 
@@ -20,24 +20,24 @@ Workspace oferta una serie de visualizaciones que le permiten generar representa
 Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
 | Nombre de la visualización | Descripción |
-| --- | --- |
-| [Área](/help/analysis-workspace/visualizations/area.md) | Es similar a un gráfico de líneas, pero incluye una zona coloreada bajo la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas. |
-| [Barra](/help/analysis-workspace/visualizations/bar.md) | Muestra las barras verticales que representan los distintos valores de una o varias métricas. |
-| [Gráfico de viñetas](/help/analysis-workspace/visualizations/bullet-graph.md) | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
-| [Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil para el análisis de retención, pérdida o latencia. |
-| [Anillo](/help/analysis-workspace/visualizations/donut.md) | Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. |
-| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
-| [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
-| [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabla de forma libre no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
-| [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a personas, visitas o eventos en bloques en función de un volumen de métrica. |
-| [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
-| [Líneas](/help/analysis-workspace/visualizations/line.md) | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
-| [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
-| [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | Muestra la celda seleccionada como 1 número grande. |
-| [Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | Muestra el cambio entre las celdas seleccionadas como 1 gran número/porcentaje. |
-| [Texto](/help/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario a Workspace. Útil para añadir contexto adicional a los análisis y perspectivas, además de aprovechar las descripciones de paneles/visualizaciones |
-| [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
-| [Venn](/help/analysis-workspace/visualizations/venn.md) | Utiliza círculos para mostrar la superposición de métricas de hasta 3 filtros. |
+| --- | --- | 
+| [Área](/help/analysis-workspace/visualizations/area.md)<p>![Icono de área](assets/Smock_GraphArea_18_N.svg)</p> | Es similar a un gráfico de líneas, pero incluye una zona coloreada bajo la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas. | Responde preguntas como: <ul><li> |
+| [Barra](/help/analysis-workspace/visualizations/bar.md) <p>![Icono de barra](assets/Smock_GraphBarVertical_18_N.svg)</p> | Muestra las barras verticales que representan los distintos valores de una o varias métricas. |
+| [Gráfico de viñetas](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![Icono de viñeta](assets/Smock_GraphBullet_18_N.svg)</p> | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
+| [Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Icono de tabla de cohorte](assets/Smock_TextNumbered_18_N.svg)</p> | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil para el análisis de retención, pérdida o latencia. |
+| [Anillo](/help/analysis-workspace/visualizations/donut.md) <p>![Icono Anillo](assets/Smock_GraphDonut_18_N.svg)</p> | Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. |
+| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icono de visitas en orden previsto](assets/Smock_ConversionFunnel_18_N.svg)</p> | Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
+| [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![Icono de flujo](assets/flow-icon.png)</p> | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
+| [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Icono de tabla de forma libre](assets/Smock_ViewTable_18_N.svg)</p> | Una tabla de forma libre no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
+| [Histograma](/help/analysis-workspace/visualizations/histogram.md)<p>![Icono de histograma](assets/Smock_GraphHistogram_18_N.svg)</p> | Un histograma agrupa a personas, visitas o eventos en bloques en función de un volumen de métrica. |
+| [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md)<p>![Icono de barra horizontal](assets//Smock_GraphBarHorizontal_18_N.svg)</p> | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
+| [Líneas](/help/analysis-workspace/visualizations/line.md)<p>![Icono de línea](assets/Smock_GraphTrend_18_N.svg)</p> | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
+| [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) <p>![Icono Diagrama de puntos](assets/Smock_GraphScatter_18_N.svg)</p> | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
+| [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![Icono de número de resumen](assets/summary-number-icon.png)</p> | Muestra la celda seleccionada como 1 número grande. |
+| [Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![Icono de cambio de resumen](assets/summary-change-icon.png)</p> | Muestra el cambio entre las celdas seleccionadas como 1 gran número/porcentaje. |
+| [Texto](/help/analysis-workspace/visualizations/text.md)<p>![Icono Diagrama de puntos](assets/Smock_Text_18_N.svg)</p> | Le permite agregar texto definido por el usuario a Workspace. Útil para añadir contexto adicional a los análisis y perspectivas, además de aprovechar las descripciones de paneles/visualizaciones |
+| [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md)<p>![Icono de gráfico de rectángulos](assets/Smock_GraphTree_18_N.svg)</p> | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
+| [Venn](/help/analysis-workspace/visualizations/venn.md)<p>![Icono de Venn](assets/venn-icon.png)</p> | Utiliza círculos para mostrar la superposición de métricas de hasta 3 filtros. |
 
 ## Adición de visualizaciones a un panel
 
