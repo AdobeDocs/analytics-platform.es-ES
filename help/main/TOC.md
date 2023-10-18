@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: debc0f4bc3521bbf547bfc287e7881b805863867
+source-git-commit: f6c874a96278cf593174f5ee79557b3a711a23e3
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 81%
 
 ---
@@ -190,18 +190,20 @@ ht-degree: 81%
 
 + Análisis guiado {#guided-analysis}
    + [Información general](../guided-analysis/overview.md)
-   + Impacto {#impact}
-      + [Vista de versión](../guided-analysis/types/release.md)
-      + [Vista de primer uso](../guided-analysis/types/first-use.md)
-   + Canal {#funnel}
-      + [Vista de fricción](../guided-analysis/types/friction.md)
-      + [Vista de tendencias de conversión](../guided-analysis/types/conversion-trends.md)
    + Crecimiento de usuarios {#user-growth}
       + [Vista activa](../guided-analysis/types/active.md)
       + [Vista de crecimiento neto](../guided-analysis/types/net-growth.md)
    + Tendencias {#trends}
       + [Vista de uso](../guided-analysis/types/usage.md)
       + [Vista de frecuencia](../guided-analysis/types/frequency.md)
+   + Canal {#funnel}
+      + [Vista de fricción](../guided-analysis/types/friction.md)
+      + [Vista de tendencias de conversión](../guided-analysis/types/conversion-trends.md)
+   + Impacto {#impact}
+      + [Vista de versión](../guided-analysis/types/release.md)
+      + [Vista de primer uso](../guided-analysis/types/first-use.md)
+   + Retención {#retention}
+      + [Tasas de retención](../guided-analysis/types/retention-rates.md)
    + [Casos de uso del sector](../guided-analysis/industry-use-cases.md)
    + [Preguntas más frecuentes](../guided-analysis/faq.md)
 
