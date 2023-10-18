@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 53cf026531ac5690a3e5a31acaa5654a52747b69
+source-git-commit: 69317871bae9ad2a0fecad6b1df1cc357094b05c
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Desea establecer una meta de ingresos mensuales para cada uno de sus canales de 
 
 ## Usar metas
 
-Para utilizar objetivos en el proyecto de Workspace, utilice la funcionalidad de métrica calculada para &quot;normalizar&quot; el campo derivado de nuevo a su valor estático original.
+Para utilizar objetivos en el proyecto de Workspace, utilice la funcionalidad de métrica calculada para &quot;normalizar&quot; el campo derivado a su valor estático original. Esta normalización es necesaria, ya que los valores estáticos establecidos para los campos derivados que definen metas se incrementan con cada evento.
 
 ### Objetivos de pedidos de certificados de regalo mensuales
 
