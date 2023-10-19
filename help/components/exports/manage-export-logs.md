@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Administración de registros de exportación
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '825'
 ht-degree: 7%
 
 ---
@@ -16,6 +16,26 @@ ht-degree: 7%
 Los registros de exportación proporcionan detalles sobre cada exportación y se generan cada vez que los datos de Analysis Workspace se exportan a la nube. (Para obtener información sobre cómo se pueden exportar datos a la nube, consulte [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md).)
 
 En el caso de las exportaciones programadas, los registros reflejan la configuración de exportación tal y como estaba cuando se envió el registro. No se pueden eliminar los registros.
+
+## Ver registros de exportación
+
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+
+1. Seleccione el [!UICONTROL **Registros**] pestaña.
+
+   ![Pestaña Exportar registros](assets/export-logs-tab.png)
+
+   Los detalles de cada registro se muestran en las columnas disponibles.
+
+1. Realice una de las siguientes acciones:
+
+   * [Personalizar las columnas](#configure-columns) que se muestran.
+
+   * Seleccione el **Icono de información** ![Icono de información](assets/information-icon.png) junto al nombre del registro para ver la exportación asociada al registro.
+
+   * Seleccione el **Editar icono de exportación** ![Icono de información](assets/edit-export-icon.png) junto al nombre del registro para editar la exportación asociada al registro.
+
+     Para obtener más información sobre cómo editar una exportación, consulte [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md).
 
 ## Filtrado y búsqueda de registros
 
