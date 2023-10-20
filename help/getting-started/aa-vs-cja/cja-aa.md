@@ -7,7 +7,7 @@ feature: Basics
 source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '2137'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -42,8 +42,8 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Acceso a la API de informes | Compatibilidad total. Disponible a través de la [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
 | Informes y proyectos programados | Compatibilidad total |
 | Segmentos | Compatibilidad total. Ahora se denominan “Filtros”: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
-| Grupos de informes virtuales | Compatibilidad total. Ahora se llama [Vistas de datos](/help/data-views/create-dataview.md). |
-| Revisión de componentes de grupo de informes virtuales | Compatibilidad total. Ahora forma parte de las vistas de datos. |
+| Grupos de informes virtuales | Compatibilidad total. Ahora se denominan [Vistas de datos](/help/data-views/create-dataview.md). |
+| Revisión de componentes de grupo de informes virtuales | Compatibilidad total. Ahora forma parte de Vistas de datos. |
 | Streaming de medios de Analytics | Los datos de medios están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |
 
 {style="table-layout:auto"}
