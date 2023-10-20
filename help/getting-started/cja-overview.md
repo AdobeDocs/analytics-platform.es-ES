@@ -5,9 +5,9 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Consulte el tema [Control de acceso](/help/admin/cja-access-control.md).
 Se ha cambiado el nombre de varias funciones de Customer Journey Analytics, en comparación con la versión clásica de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen lo siguiente:
 
 * Los segmentos ahora se conocen como “Filtros”.
-* Los grupos de informes virtuales ahora se conocen como Vistas de datos.
+* Los grupos de informes virtuales ahora se conocen como &#39;Vistas de datos&#39;.
 * Las clasificaciones ahora se conocen como “Conjuntos de datos de búsqueda”.
 * Los atributos del cliente ahora se conocen como “Conjuntos de datos de perfil”.
 * Los contenedores de visita individual ahora se conocen como contenedores de “Evento”.

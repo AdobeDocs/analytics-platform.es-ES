@@ -4,9 +4,9 @@ description: Obtenga información sobre los entornos de informes virtuales y los
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
 source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Un grupo de informes virtuales:
 * Se puede aplicar a datos nuevos e históricos de una manera no destructiva.
 * Permite crear una o varias vistas virtuales sobre un grupo de informes de Adobe Analytics para que las utilicen distintos equipos empresariales.
 * Puede utilizarse para controlar el acceso a diferentes tipos de datos y depurarlos para diferentes usuarios en Adobe Analytics.
-* Proporciona capacidades opcionales de [procesamiento en tiempo de informe](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=es) para Adobe Analytics. En este caso, se puede utilizar un grupo de informes virtuales para crear una definición personalizada de visita.
+* Proporciona capacidades opcionales de [procesamiento en tiempo de informe](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=es) para Adobe Analytics. En este caso, se puede utilizar un grupo de informes virtual para crear una definición personalizada de «visita».
 * Se aplica durante el tiempo de ejecución del informe, de forma similar a la evaluación de segmentos. Esto es _después_ de que los datos se hayan recopilado y almacenado en Adobe Analytics.
 * Es necesario para el [análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) en Adobe Analytics.
-* Tiene disponible el mismo número de variables que un grupo de informes estándar de Analytics (250 eVars, 250 props y 1000 eventos), aunque la depuración de grupos de informes virtuales puede limitar qué variables están expuestas a los usuarios.
+* Tiene disponible el mismo número de variables que un grupo de informes estándar de Analytics (250 eVars, 250 props y 1000 eventos), aunque la depuración del grupo de informes virtual puede limitar qué variables están expuestas a los usuarios.
 * Admite opciones de calendario personalizadas.
 
 Un grupo de informes virtuales no es:
