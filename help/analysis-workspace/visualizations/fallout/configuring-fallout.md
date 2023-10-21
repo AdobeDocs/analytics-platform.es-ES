@@ -3,10 +3,10 @@ description: Aprenda a especificar los puntos de contacto para crear una secuenc
 title: Configurar una visualización de abandonos
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 71%
+source-wordcount: '718'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Puede realizar el control de rutas en las eVars, incluidas las eVars de comercia
 
 1. Arrastre la dimensión Página en la tabla de forma libre y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar punto de contacto]** como el primer punto de contacto.
 
-   ![](assets/fallout1.png)
+   ![La lista desplegable Todas las visitas que muestra JJEsquire arrastrado al campo Agregar punto de contacto.](assets/fallout1.png)
 
    Pase el ratón sobre un punto de contacto para ver si las visitas en el orden previsto y otra información sobre ese nivel, como el nombre del punto de contacto o el recuento de personas en ese punto y consulte el índice de éxito para ese punto de contacto (además de comparar el índice de éxito con otros puntos de contacto).
 
@@ -40,11 +40,11 @@ Puede realizar el control de rutas en las eVars, incluidas las eVars de comercia
    >
    >Los filtros se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
 
-   ![](assets/multiple_obj_touchpoint.png)
+   ![Los puntos de contacto Página: CamerRoll o Página: Camera están resaltados.](assets/multiple_obj_touchpoint.png)
 
 1. También puede **constreñir puntos de contacto individuales al siguiente evento** (en contraposición a &quot;eventualmente&quot;) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones “Ruta eventual” y “Elemento siguiente”, como se muestra a continuación:
 
-   ![](assets/next-hit-eventually.png)
+   ![La vista Todas las visitas que muestra la opción Ruta final resaltada. ](assets/next-hit-eventually.png)
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 

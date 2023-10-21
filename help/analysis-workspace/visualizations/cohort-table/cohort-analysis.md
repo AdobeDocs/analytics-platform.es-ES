@@ -3,10 +3,10 @@ title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre el análisis de cohorte en Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 78%
+source-wordcount: '528'
+ht-degree: 68%
 
 ---
 
@@ -39,30 +39,30 @@ Las siguientes funciones permiten un control preciso de las cohortes que está c
 
 A [!UICONTROL Retención] informe de cohorte devuelve personas: cada celda de datos muestra el número sin procesar y el porcentaje de personas en la cohorte que realizó la acción durante ese período de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
 
-![](assets/retention-report.png)
+![Informe de cohorte de representación que muestra las unidades y el porcentaje de personas de la cohorte.](assets/retention-report.png)
 
 ### [!UICONTROL Tabla de pérdida]
 
 A [!UICONTROL Pérdida] cohorte es la inversa de una tabla de retención y muestra a las personas que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
 
-![](assets/churn-report.png)
+![Tabla de pérdida que muestra las unidades y el porcentaje de personas que no cumplen los criterios de regreso de una cohorte.](assets/churn-report.png)
 
 ### [!UICONTROL Cálculo móvil]
 
 Permite calcular la retención o la pérdida en función de la columna previa, no de la columna incluida.
 
-![](assets/cohort-rolling-calculation.png)
+![Informe de retención de cohorte que muestra cálculos basados en una columna de datos anterior.](assets/cohort-rolling-calculation.png)
 
 ### [!UICONTROL Tabla de latencia]
 
 Mide el tiempo transcurrido antes y después de ocurrir el evento de inclusión. Es una excelente herramienta para el análisis previo/posterior. La columna **[!UICONTROL Incluido]** está en el centro de la tabla y a ambos lados se muestran los periodos de tiempo antes y después del evento de inclusión.
 
-![](assets/cohort-latency.png)
+![Informe de cohorte que muestra el tiempo transcurrido antes y después de un evento.](assets/cohort-latency.png)
 
 ### Cohorte de [!UICONTROL dimensión personalizada]
 
 Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como [!UICONTROL canal de marketing], [!UICONTROL campaña], [!UICONTROL producto], [!UICONTROL página], [!UICONTROL región] o cualquier otra dimensión de Customer Journey Analytics para mostrar cómo cambia la retención en función de los distintos valores que adoptan.
 
-![](assets/cohort-customizable-cohort-row.png)
+![Un informe de cohorte que muestra un informe personalizado con dimensiones seleccionadas no es la cohorte predeterminada basada en el tiempo.](assets/cohort-customizable-cohort-row.png)
 
 Para obtener instrucciones sobre cómo se configura y ejecuta un informe de cohorte, visite [Configurar un informe de análisis de cohorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).

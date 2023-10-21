@@ -1,20 +1,20 @@
 ---
-description: Las visualizaciones de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
-title: Resumen de abandonos
+description: Obtenga información sobre los informes y visualizaciones de visitas en el orden previsto.
+title: Acerca de los informes y visualizaciones de visitas en el orden previsto
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 79%
+source-wordcount: '234'
+ht-degree: 80%
 
 ---
 
-# Resumen de abandonos
+# Resumen de visita en orden previsto
 
-Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
+Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
 
-Las visualizaciones de visitas en el orden previsto le permiten:
+Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Las visualizaciones de visitas en el orden previsto le permiten:
 
 * Realice comparaciones paralelas de dos filtros distintos en el mismo informe
 * Arrastrar, soltar y reorganizar pasos de embudo (puntos de contacto).

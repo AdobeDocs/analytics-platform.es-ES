@@ -3,10 +3,10 @@ title: Elementos de dimensión dinámicos o estáticos en tablas de forma libre
 description: Interacción con elementos de dimensión dinámicos y estáticos en tablas
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 88%
+source-wordcount: '555'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los el
 Los elementos de dimensión dinámicos tienen la opción de filtro de fila y los iconos X, y **no** tenga el icono de candado presente. <!--do they have the lock icon? --> Al hacer clic en la x junto a un elemento de dimensión dinámica, se aplica automáticamente un filtro. Para obtener más información sobre la aplicación de filtros a tablas, consulte [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
-![](assets/dynamic-items.png)
+![Una tabla de forma libre que resalta el icono de filtro.](assets/dynamic-items.png)
 
 ## Elementos de dimensión estáticos
 
@@ -40,13 +40,13 @@ Por ejemplo, cuando arrastra elementos específicos de Tipo de explorador como M
 
 Los elementos de dimensión estáticos **no** tienen la opción de filtro de fila. En cambio, los iconos de bloqueo y X están presentes en cada elemento. Haga clic en el icono X para eliminar ese elemento de dimensión de la tabla.
 
-![](assets/static-items.png)
+![Una tabla de forma libre que muestra el tipo de explorador y la fila de Microsoft con un icono de candado. Nota: Este elemento de dimensión es estático y no cambiará con el tiempo.](assets/static-items.png)
 
 ## Elementos de dimensión mixtos
 
 Los elementos de dimensión de diferentes dimensiones se pueden agregar a la misma tabla. En estos casos, el encabezado de fila indica “Dimensiones mixtas”. Estos elementos de dimensión son estáticos. Por ejemplo, si agrega elementos de dimensión específicos desde la dimensión Tipo de explorador y otros elementos de dimensión desde la dimensión Explorador.
 
-![](assets/mixed-dimensions.png)
+![Una tabla de forma libre que resalta la columna Dimension mixtos.](assets/mixed-dimensions.png)
 
 ## Filas totales improvisadas
 

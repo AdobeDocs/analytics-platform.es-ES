@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configuración de un informe de análisis de cohorte
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 91%
+source-wordcount: '1003'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
 
 1. En Analysis Workspace, haga clic en el icono **[!UICONTROL Visualizaciones]** en el panel izquierdo y, a continuación, arrastre una **[!UICONTROL tabla asociada]** al lienzo.
 
-   ![](assets/cohort-table.png)
+   ![Tabla de cohorte de ejemplo que muestra los criterios de inclusión y los criterios de retorno.](assets/cohort-table.png)
 
 1. Defina los **[!UICONTROL Criterios de inclusión]**, **[!UICONTROL Criterios de retorno]**, **[!UICONTROL Tipo de cohorte]** y la **[!UICONTROL Configuración]** tal y como se indica en la siguiente tabla.
 
@@ -40,7 +40,7 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
 
 1. Haga clic en **[!UICONTROL Generar]**.
 
-   ![Resultado](assets/cohort-report.png)
+   ![Vista de tabla de cohorte que muestra los criterios de inclusión y de retorno seleccionados. Haga clic en Generar.](assets/cohort-report.png)
 
    El informe muestra las personas que realizaron un pedido ( *`Included`* ) y que regresaron al sitio en visitas posteriores. La reducción en visitas durante el tiempo le permite identificar problemas y tomar medidas.
 1. (Opcional) Cree un filtro a partir de una selección.

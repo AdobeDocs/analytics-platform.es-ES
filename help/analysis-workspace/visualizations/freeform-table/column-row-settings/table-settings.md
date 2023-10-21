@@ -3,10 +3,10 @@ description: La configuración de filas varía en función del componente que ha
 title: Configuración de filas
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 93%
+source-wordcount: '463'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ Vea aquí un vídeo sobre la configuración de filas y columnas:
 
 La configuración de filas varía en función del componente que haya arrastrado a la tabla. Para obtener acceso a la configuración de fila de la tabla, haga clic en el icono [!UICONTROL Configuración] junto a una dimensión, filtro, métrica, período de tiempo o desglose dentro de cada uno de estos elementos:
 
-![](assets/row-settings.png)
+![Tabla de forma libre que resalta el icono Configuración para métricas](assets/row-settings.png)
 
 | Configuración | Descripción |
 | --- | --- |
@@ -33,6 +33,6 @@ Para cambiar el número de filas que se muestran:
 
 1. Haga clic en el número situado junto a [!UICONTROL Filas] en la parte superior de la tabla.
 
-   ![](assets/row-number.png)
+   ![Tabla de forma libre que muestra la lista desplegable de para el número de filas mostradas. 400 filas está seleccionado.](assets/row-number.png)
 
 1. En la lista desplegable, seleccione el número de filas que desee que muestre la tabla.

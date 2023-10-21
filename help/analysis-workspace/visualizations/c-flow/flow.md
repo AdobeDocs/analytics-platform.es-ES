@@ -1,12 +1,12 @@
 ---
-description: La función de flujo muestra las rutas del cliente en sus sitios web y aplicaciones.
+description: Obtenga información acerca de la función Flujo que muestra las rutas del cliente en sus sitios web y aplicaciones.
 title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 86%
 
 ---
 

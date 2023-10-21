@@ -1,13 +1,13 @@
 ---
-description: Utilice la visualización de flujo en un proyecto de Workspace.
+description: Aprenda a utilizar la visualización de flujo en un proyecto de Workspace.
 title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 558825dc4768372f232ddfb614442443c89e9a65
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 60%
+source-wordcount: '1581'
+ht-degree: 57%
 
 ---
 
@@ -17,7 +17,7 @@ Las visualizaciones de flujo le ayudan a comprender los recorridos que se deriva
 
 Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta que le interesa o analizar todas las rutas que fluyen a través de una dimensión o un elemento de dimensión.
 
-![nueva interfaz de usuario de flujo](assets/new-flow.png)
+![La pantalla de configuración de flujo muestra los campos Comienza con, Contiene y Termina con.](assets/new-flow.png)
 
 ## Crear una visualización de flujo {#configure}
 
@@ -45,11 +45,11 @@ Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta
 
 1. Si elige una métrica, también debe proporcionar un [!UICONTROL **Dimension de rutas**] para usarlo como ruta de acceso o de salida del componente seleccionado, como se muestra aquí. El valor predeterminado es [!UICONTROL **Página**].
 
-   ![dimensión de las rutas](assets/pathing-dim.png)
+   ![La dimensión Rutas.](assets/pathing-dim.png)
 
 1. (Opcional) Seleccione **[!UICONTROL Mostrar configuración avanzada]** para configurar cualquiera de las siguientes opciones:
 
-   ![configuración avanzada](assets/adv-settings.png)
+   ![Configuración avanzada con Opciones de visualización, Número de columnas y Contenedor de flujo.](assets/adv-settings.png)
 
    | Configuración | Descripción |
    | --- | --- |
@@ -80,7 +80,7 @@ Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta
 
 ## Ver y cambiar la salida del flujo {#output}
 
-![salida del flujo](assets/flow-output.png)
+![Ejemplo de salida de flujo que muestra las dimensiones Finaliza con visitas, Rutas: Página y Contenedor de flujo: Visitantes.](assets/flow-output.png)
 
 En la parte superior del diagrama aparece un resumen de la configuración de flujo. Las rutas del diagrama son proporcionales. Las rutas con más actividad se muestran más gruesas.
 
@@ -90,7 +90,7 @@ Para explorar en profundidad los datos, tiene varias opciones:
 
 * Cuando hace clic en un nodo en el diagrama, se muestran los detalles de dicho nodo. Haga clic de nuevo en el nodo para contraerlo.
 
-  ![detalles del nodo](assets/node-details.png)
+  ![Ejemplo de diagrama de flujo interactivo que muestra detalles del nodo.](assets/node-details.png)
 
 * Puede filtrar una columna para mostrar solo ciertos resultados, como incluir y excluir, especificar criterios, etc.
 

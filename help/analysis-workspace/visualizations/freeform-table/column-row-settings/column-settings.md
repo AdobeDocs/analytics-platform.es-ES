@@ -1,12 +1,12 @@
 ---
-description: La configuración de columna le permite configurar el formato de la columna, aunque algunas opciones de formato pueden ser condicionales.
+description: Aprenda a editar la configuración de columna para configurar el formato de columna, aunque algunas opciones de formato pueden ser condicionales.
 title: Configuración de columna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 84%
+source-wordcount: '806'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ Vea aquí un vídeo sobre la configuración de filas y columnas:
 
 Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla de forma libre al proyecto y, a continuación, haga clic en el icono de engranaje en el encabezado de la columna.
 
-![](assets/column_settings.png)
+![Vista previa de la configuración de Columna que muestra las celdas totales, las celdas de tabla y las celdas de tabla.](assets/column_settings.png)
 
 Puede editar la configuración **de varias columnas a la vez**. Basta con seleccionar varias columnas y hacer clic en el icono de configuración de cualquiera de ellas. Los cambios realizados se aplicarán a todas las columnas que tengan celdas seleccionadas.
 
@@ -42,7 +42,7 @@ Puede editar la configuración **de varias columnas a la vez**. Basta con selecc
 
 El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional (colores, etc.) en tablas de forma libre también está activada automáticamente en los desgloses, a menos que los límites “Personalizados” estén seleccionados.
 
-![](assets/conditional-formatting.png)
+![Las opciones de formato condicional con Personalizado seleccionado.](assets/conditional-formatting.png)
 
 | Elemento | Descripción |
 | --- | --- |
@@ -72,11 +72,11 @@ Para utilizar un modelo de atribución no predeterminado para una métrica en un
 
 1. Haga clic en el icono Configuración (engranaje) de una métrica en una columna de Tabla de forma libre.
 
-   ![Casilla de verificación de atribución](assets/attribution-checkbox.png)
+   ![Las opciones de Configuración de columna resaltan la opción Configuración de datos: Utilice un modo de atribución no predeterminado.](assets/attribution-checkbox.png)
 
 2. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. Para obtener más información sobre los diferentes modelos de atribución, consulte [Modelos de atribución](/help/data-views/component-settings/attribution.md).
 
-   ![Seleccionar modelo de atribución](assets/attribution-select.png)
+   ![Las opciones del modelo de atribución de columnas que muestran Lineal seleccionado.](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >

@@ -4,10 +4,10 @@ keywords: visitas en el orden previsto y filtros;filtros en el análisis de visi
 title: Aplicación de filtros en un análisis de visitas en orden previsto
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 87%
+source-wordcount: '467'
+ht-degree: 76%
 
 ---
 
@@ -27,11 +27,11 @@ Puede crear filtros a partir de un punto de contacto, añadir filtros como punto
 
 1. Cree un filtro a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda ser útil para su aplicación en otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear filtro a partir de un punto de contacto]**.
 
-   ![](assets/segment-from-touchpoint.png)
+   ![Menú desplegable de Touchpoint con la opción Crear segmento a partir de punto de contacto resaltada.](assets/segment-from-touchpoint.png)
 
    Cuando el Generador de filtros se abre, ya contiene el filtro secuencial creado previamente que concuerda con el punto de contacto seleccionado:
 
-   ![](assets/segment-builder.png)
+   ![El Generador de filtros muestra el filtro secuencial rellenado previamente y generado previamente.](assets/segment-builder.png)
 
 1. Asigne un título y una descripción al filtro y guárdelo.
 
@@ -41,7 +41,7 @@ Puede crear filtros a partir de un punto de contacto, añadir filtros como punto
 
 Si desea ver, por ejemplo, la tendencia de los usuarios de Estados Unidos y cómo afectan a las visitas en el orden previsto, solo tiene que arrastrar el filtro correspondiente a la visita en el orden previsto:
 
-![](assets/segment-touchpoint.png)
+![El filtro de usuarios de EE. UU. seleccionado y resaltado para arrastrarlo a la visita en el orden previsto.](assets/segment-touchpoint.png)
 
 O puede crear un punto de contacto AND arrastrando el filtro de usuarios de Estados Unidos a otro punto de comprobación.
 
@@ -52,10 +52,10 @@ Puede comparar una cantidad ilimitada de filtros en la visualización de visitas
 1. Seleccione los filtros que quiera comparar en el carril [!UICONTROL Filtros] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 filtros: usuarios de EE. UU. y usuarios fuera de EE. UU.
 1. Arrástrelos a la zona de colocación Filtro en la parte superior.
 
-   ![](assets/segment-drop.png)
+   ![La visualización de visitas en el orden previsto con filtros seleccionados y una flecha roja que señala a la zona de colocación Filtro.](assets/segment-drop.png)
 
 1. Opcional: puede mantener Todas las visitas como el contenedor predeterminado o eliminarlo.
 
-   ![](assets/seg-compare.png)
+   ![La visita en orden previsto muestra todas las visitas junto con los dos filtros arrastrados en el paso anterior.](assets/seg-compare.png)
 
 1. Ahora puede comparar las visitas en orden previsto de los dos filtros como, por ejemplo, cuando un filtro supera a otro u otra información.
