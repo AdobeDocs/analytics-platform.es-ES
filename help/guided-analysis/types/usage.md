@@ -1,12 +1,12 @@
 ---
 title: Vista de uso
 description: Medir la participación del usuario a lo largo del tiempo.
-exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
+exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
+source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '538'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Eventos]**: los eventos que desea medir. Cada evento seleccionado se representa como una línea de color o como un conjunto de barras, según el tipo de gráfico. Se agrega a la tabla una fila que representa el evento de tendencias. Se pueden incluir hasta cinco eventos.
 * **[!UICONTROL People]**: Los segmentos que desea medir. Cada segmento seleccionado duplica el número de líneas del gráfico y las filas de la tabla. Se pueden incluir hasta cinco segmentos.
+* **[!UICONTROL Desglose]**: cree una línea de tendencia independiente por elemento de dimensión. Se admite una sola dimensión de desglose.
 
 ## Ajustes del gráfico
 

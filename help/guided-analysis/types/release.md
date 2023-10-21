@@ -3,9 +3,10 @@ title: Vista de versión
 description: Comparar los resultados en periodos iguales antes y después de la liberación.
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
+source-git-commit: 02044961612a3d0f4f40bdc71c3f00585d702c92
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '484'
 ht-degree: 3%
 
 ---
@@ -21,7 +22,7 @@ El **[!UICONTROL Versión]** La vista muestra una comparación del rendimiento d
 Los casos de uso para este tipo de vista incluyen:
 
 * **Evaluación general del rendimiento:** La comparación de indicadores clave generales, como las medidas de participación, puede ayudarle a determinar si una versión determinada ha tenido éxito en general.
-* **Monitorización**: Si espera que haya ciertas medidas que permanezcan planas cuando se realicen cambios, como constantes vitales para la web como tiempo de carga o inicios de sesión, compárelas antes y después para asegurarse de que su lanzamiento no haya tenido consecuencias no deseadas.
+* **Monitorización**: Realice un seguimiento de las métricas vitales que, según lo esperado, permanecerán sin variación cuando se realicen cambios, como el tiempo de carga o el número de inicios de sesión. Utilice este tipo de análisis para compararlos antes y después de una publicación, y garantizar que no tenga consecuencias no deseadas.
 * **Adopción de funciones**: si una actualización de producto se centra en mejorar una determinada función, puede utilizar esta vista para comparar directamente el uso de esa función antes y después de la actualización del producto.
 * **Detección de errores**: El seguimiento del número de errores antes y después de una versión de puede proporcionar un indicador anticipado de los problemas de los clientes. Si observa un aumento de errores inmediatamente después de una versión, puede trabajar con equipos de ingeniería o desarrollo para identificar y corregir el problema, lo que evita un mayor impacto para los clientes.
 
@@ -38,7 +39,7 @@ El carril de consulta permite configurar los siguientes componentes:
 La vista Lanzamiento ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
 * **[!UICONTROL Métrica]**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Porcentaje de usuarios], [!UICONTROL Eventos], [!UICONTROL Sesiones], y [!UICONTROL Usuarios].
-* **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen Línea.
+* **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen [!UICONTROL Línea] y [!UICONTROL Barra].
 
 ## Intervalo de fechas
 
