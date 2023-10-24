@@ -3,7 +3,7 @@ title: Información general del Administrador de actividades de creación de inf
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 23%
@@ -11,8 +11,6 @@ ht-degree: 23%
 ---
 
 # Administrador de actividades de creación de informes información general
-
-{{release-limited-testing}}
 
 El [!UICONTROL Administrador de actividades de informes] está disponible para administradores.
 

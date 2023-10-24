@@ -3,7 +3,7 @@ title: Ver la actividad de creación de informes en el Administrador de activida
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 7760f2d5af131549b1ff2a6ad13b01bae81636f7
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 12%
@@ -11,8 +11,6 @@ ht-degree: 12%
 ---
 
 # Ver la actividad de creación de informes en el Administrador de actividades de informes
-
-{{release-limited-testing}}
 
 El [!UICONTROL Administrador de actividades de informes] permite a los administradores diagnosticar y corregir rápidamente los problemas de capacidad de creación de informes durante las horas de mayor actividad en los informes.
 

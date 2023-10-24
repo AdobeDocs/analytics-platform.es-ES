@@ -3,16 +3,14 @@ title: Cancelar solicitudes de creación de informes en el Administrador de acti
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 1680e6115a75a0dd78f07aa0bb409b19b3585a78
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
 # Cancelar solicitudes de creación de informes en el Administrador de actividades de creación de informes
-
-{{release-limited-testing}}
 
 El [!UICONTROL Administrador de actividades de informes] permite a los administradores diagnosticar y cancelar rápidamente las solicitudes de creación de informes a fin de corregir los problemas de capacidad de creación de informes durante las horas de mayor actividad en la creación de informes.
 
@@ -58,7 +56,7 @@ Puede cancelar solicitudes individuales que consuman una gran cantidad de capaci
 
       | Opción | Función |
       |---------|----------|
-      | [!UICONTROL **Usuario y proyecto**] | Los usuarios asociados con las solicitudes seleccionadas no podrán ejecutar solicitudes de informes en los proyectos asociados de forma temporal. |
+      | [!UICONTROL **Usuario y proyecto**] | Los usuarios asociados a las solicitudes seleccionadas tendrán restringida temporalmente la ejecución de solicitudes de creación de informes para los proyectos asociados. |
       | [!UICONTROL **Usuario**] | A los usuarios asociados a las solicitudes seleccionadas se les restringirá temporalmente la realización de solicitudes de creación de informes. |
       | [!UICONTROL **Proyecto**] | Los proyectos asociados a las solicitudes seleccionadas quedarán temporalmente restringidos de todas las solicitudes de creación de informes. |
       | [!UICONTROL **Restringido para**] | Elija cuánto tiempo se restringirán las solicitudes. Puede elegir 1 minuto (predeterminado), 5 minutos, 10 minutos, 15 minutos o 30 minutos. <!-- double-check this --><p>Una restricción no se puede eliminar antes de que se haya establecido.</p> |
@@ -99,9 +97,9 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
 
       | Opción | Función |
       |---------|----------|
-      | [!UICONTROL **Usuario y proyecto**] | Los usuarios seleccionados no podrán realizar solicitudes de informes para los proyectos asociados de forma temporal. <p>Esta es la opción menos restrictiva.</p> |
-      | [!UICONTROL **Usuario**] | Los usuarios seleccionados no podrán realizar ninguna solicitud de creación de informes de forma temporal. |
-      | [!UICONTROL **Proyecto**] | Los proyectos asociados con los usuarios seleccionados estarán restringidos de cualquier solicitud de creación de informes realizada por cualquier usuario. |
+      | [!UICONTROL **Usuario y proyecto**] | Se restringirá temporalmente a los usuarios seleccionados la posibilidad de realizar solicitudes de creación de informes para los proyectos asociados. <p>Esta es la opción menos restrictiva.</p> |
+      | [!UICONTROL **Usuario**] | Se restringirá temporalmente a los usuarios seleccionados la posibilidad de solicitar la creación de informes. |
+      | [!UICONTROL **Proyecto**] | Los proyectos asociados a los usuarios seleccionados estarán restringidos a cualquier solicitud de creación de informes realizada por cualquier usuario. |
       | [!UICONTROL **Restringido para**] | Elija cuánto tiempo se restringirán las solicitudes. Puede elegir 1 minuto (predeterminado), 5 minutos, 10 minutos, 15 minutos o 30 minutos. <!--double-check this--> <p>Una restricción no se puede eliminar antes de que se haya establecido.</p> |
 
       {style="table-layout:auto"}
@@ -140,8 +138,8 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
 
       | Opción | Función |
       |---------|----------|
-      | [!UICONTROL **Usuario y proyecto**] | Los proyectos seleccionados se restringirán temporalmente de cualquier solicitud de creación de informes realizada por los usuarios asociados.<p>Esta es la opción menos restrictiva.</p> |
-      | [!UICONTROL **Usuario**] | Los usuarios asociados con los proyectos seleccionados no podrán realizar solicitudes de informes. |
+      | [!UICONTROL **Usuario y proyecto**] | Los proyectos seleccionados quedarán temporalmente excluidos de cualquier solicitud de información realizada por los usuarios asociados.<p>Esta es la opción menos restrictiva.</p> |
+      | [!UICONTROL **Usuario**] | Se restringirá a los usuarios asociados a los proyectos seleccionados la posibilidad de solicitar la creación de informes. |
       | [!UICONTROL **Proyecto**] | Los proyectos seleccionados se restringirán temporalmente de cualquier solicitud de creación de informes realizada por cualquier usuario. |
       | [!UICONTROL **Restringido para**] | Elija cuánto tiempo se restringirán las solicitudes. Puede elegir 1 minuto (predeterminado), 5 minutos, 10 minutos, 15 minutos o 30 minutos. <!--double-check this--> <p>Una restricción no se puede eliminar antes de que se haya establecido.</p> |
 
