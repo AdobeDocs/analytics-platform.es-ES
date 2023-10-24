@@ -4,9 +4,9 @@ description: Descubra la forma en que Customer Journey Analytics le permite util
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
-workflow-type: ht
-source-wordcount: '993'
+source-git-commit: cd3747e0c9e041394db79d70fcd63294d0da9867
+workflow-type: tm+mt
+source-wordcount: '937'
 ht-degree: 100%
 
 ---
@@ -83,8 +83,7 @@ Desde la ingestión de datos hasta el acceso directo a SQL, varios componentes d
 
 * [Servicio de consulta de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es): utilice SQL estándar para recuperar datos de Adobe Experience Platform, como datos de soluciones de Adobe, datos de origen de clientes o cualquier otro dato de Platform. Se trata de una herramienta sin servidor que le permite unirse a cualquier conjunto de datos y capturar los resultados de la consulta como un nuevo conjunto de datos para usar en el sistema de informes, en Data Science Workspace o para su inserción en el servicio de perfil. Puede utilizar el servicio de consulta de Experience Platform para crear ecosistemas de análisis de datos creando una imagen de los consumidores en sus diversos canales de interacción. Estos canales pueden incluir sistemas de puntos de venta, web, móviles, CRM y demás.
 * [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es):
-* [Servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es):
-* [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=es) la opción “desarrollador”: puede utilizar inteligencia artificial (IA) prediseñada y modelos de aprendizaje automático en Adobe Experience Platform para influir en varios puntos del recorrido del cliente. Al descubrir perspectivas ocultas, puede hacer mejores predicciones en todo el viaje del cliente, sugerir los mejores pasos siguientes recomendados o automatizar procesos engorrosos.
+* [Servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es)
 
 ## Vídeos
 
