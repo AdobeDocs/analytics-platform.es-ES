@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2137'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Persistencia de la variable de comercialización | Asistencia total a través de [dimensiones de enlace y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) |
 | Atributos del cliente | Ahora denominados “conjuntos de datos del perfil”, no se importan de manera automática desde Experience Cloud, pero deben cargarse en Experience Platform antes de que estén disponibles en Customer Journey Analytics. |
 | Fuentes de datos | La exportación de datos de primera generación de conjuntos de datos está disponible a través de la [API de acceso a datos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=es) y mediante [Destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es). Estas opciones proporcionan una exportación a nivel de evento/fila de todos los datos recopilados o introducidos en el lago de datos de Experience Platform. Las columnas de datos de procesamiento posterior no están disponibles porque las columnas posteriores se calculan en el momento de la consulta. La exportación de columnas de publicación está disponible a través del sistema de creación de informes. |
-| Creación de informes de Data Warehouse | [Exportación de tabla completa de Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad. |
+| Creación de informes de Data Warehouse | La [Exportación de tablas completas de Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad. |
 | Métricas y dimensiones de entradas, salidas y tiempo empleado | Todas estas son ahora compatibles (las entradas y salidas ahora se denominan inicios de sesión y fines de sesión) y se calculan de forma ligeramente distinta. |
 | Configuración de persistencia de eVar | Las eVars ya no forman parte de Customer Journey Analytics. Sin embargo, la configuración de persistencia ahora forma parte de las Vistas de datos y está disponible para todas las dimensiones. Tenga en cuenta que la persistencia se basa en el procesamiento de intervalos del informe, no en el procesamiento de la recopilación de datos. Las dimensiones configuradas en las Vistas de datos se limitan a una persistencia máxima de 90 días y no admiten persistencia ilimitada. |
 | Dimensiones de segmentación geográfica | Toda la segmentación geográfica/geografía recopilada en Adobe Analytics se transfiere a Customer Journey Analytics a través del [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Las implementaciones que no utilizan el conector de origen de Analytics, pero que dependen del SDK web de Experience Platform para la recopilación de datos digitales, pueden utilizar el [Servicio de búsqueda geográfica de Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es). |

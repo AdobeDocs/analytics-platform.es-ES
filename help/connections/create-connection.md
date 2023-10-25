@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2797'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,13 +60,13 @@ Debe tener el paquete **Seleccionar** para añadir un número ilimitado de conju
 
 El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Platform al crear una conexión.
 
-1. En el cuadro de diálogo Configuración de conexión, seleccione **[!UICONTROL Añadir conjuntos de datos]**.
+1. En el cuadro de diálogo Configuración de conexión, haga clic en **[!UICONTROL Añadir conjuntos de datos]**.
 
-2. En el [!UICONTROL Seleccionar conjuntos de datos] paso, seleccione uno o varios conjuntos de datos y seleccione **[!UICONTROL Siguiente]**. Al menos un conjunto de datos de evento debe formar parte de la conexión.
-   * Para cambiar las columnas mostradas para la lista de conjuntos de datos, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) y seleccione las columnas que desea mostrar en la [!UICONTROL Personalizar tabla] diálogo.
-   * Para buscar un conjunto de datos específico, utilice el ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) campo de búsqueda.
+2. En el paso [!UICONTROL Seleccionar conjuntos de datos], seleccione uno o varios conjuntos de datos y seleccione **[!UICONTROL Siguiente]**. Al menos un conjunto de datos de evento debe formar parte de la conexión.
+   * Para cambiar las columnas mostradas para la lista de conjuntos de datos, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) y seleccione las columnas que desea mostrar en el cuadro de diálogo [!UICONTROL Personalizar tabla].
+   * Para buscar un conjunto de datos específico, utilice el campo de búsqueda ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
    * Para alternar entre mostrar u ocultar los conjuntos de datos seleccionados, seleccione ![Seleccionar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Ocultar seleccionados]** o **[!UICONTROL Mostrar seleccionados]**.
-   * Para quitar un conjunto de datos de la lista de conjuntos de datos seleccionados, utilice ![Cerrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Para eliminar todos los conjuntos de datos seleccionados, seleccione **[!UICONTROL Borrar todo]**.
+   * Para quitar un conjunto de datos de la lista de conjuntos de datos seleccionados, utilice ![Cerrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Para quitar todos los conjuntos de datos seleccionados, seleccione **[!UICONTROL Borrar todo]**.
 
    ![Seleccionar conjuntos de datos](assets/select-datasets.png)
 
