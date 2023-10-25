@@ -4,10 +4,10 @@ description: Descubra la forma en que Customer Journey Analytics le permite util
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cd3747e0c9e041394db79d70fcd63294d0da9867
+source-git-commit: 9aa40a708adecdce76b623aa1d5647bd60286ef8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 100%
+source-wordcount: '934'
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Experience Platform le permite centralizar y estandarizar los datos y el c
 
 Desde la ingestión de datos hasta el acceso directo a SQL, varios componentes de Experience Platform son fundamentales para Customer Journey Analytics y lo complementan:
 
-* [Servicio de consulta de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es): utilice SQL estándar para recuperar datos de Adobe Experience Platform, como datos de soluciones de Adobe, datos de origen de clientes o cualquier otro dato de Platform. Se trata de una herramienta sin servidor que le permite unirse a cualquier conjunto de datos y capturar los resultados de la consulta como un nuevo conjunto de datos para usar en el sistema de informes, en Data Science Workspace o para su inserción en el servicio de perfil. Puede utilizar el servicio de consulta de Experience Platform para crear ecosistemas de análisis de datos creando una imagen de los consumidores en sus diversos canales de interacción. Estos canales pueden incluir sistemas de puntos de venta, web, móviles, CRM y demás.
+* [Servicio de consulta de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es): utilice SQL estándar para recuperar datos de Adobe Experience Platform, como datos de soluciones de Adobe, datos de origen de clientes o cualquier otro dato de Platform. Se trata de una herramienta sin servidor que le permite unirse a cualquier conjunto de datos y capturar los resultados de la consulta como un nuevo conjunto de datos para usar en el sistema de informes o para su inserción en el servicio de perfil. Puede utilizar el servicio de consulta de Experience Platform para crear ecosistemas de análisis de datos creando una imagen de los consumidores en sus diversos canales de interacción. Estos canales pueden incluir sistemas de puntos de venta, web, móviles, CRM y demás.
 * [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es):
 * [Servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es)
 
