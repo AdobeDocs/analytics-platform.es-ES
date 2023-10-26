@@ -3,17 +3,17 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 8cbd71bf886ea73b7d04875e960c6a1d7a3be484
+source-git-commit: a5710e2d978661837016db5ed1bab5a53fb2d63e
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 77%
+source-wordcount: '475'
+ht-degree: 76%
 
 ---
 
 # Notas de la versión actuales de Adobe Customer Journey Analytics (octubre/noviembre de 2023)
 
 
-**Última actualización**: 25 de octubre de 2023
+**Última actualización**: 26 de octubre de 2023
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 16 de octubre de 2023 a finales de noviembre de 2023. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -23,7 +23,6 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 16 de octubre d
 | ----------- | ---------- | ------- | ---- |
 | **Nuevas funciones de [!UICONTROL Uso] ver en Adobe Product Analytics** | Se han añadido las siguientes funciones a la [Vista de uso](/help/guided-analysis/types/usage.md):<ul><li>**Líneas de tendencia**: ahora se admiten las líneas de tendencia. Clic [!UICONTROL Superposiciones] encima del gráfico para activarlos.</li><li>**Desgloses de consultas**: Ahora puede aplicar desgloses a este tipo de vista. Están disponibles como opción en el carril de la consulta.</li></ul> | N/A | 25 de octubre de 2023 |
 | **Documentación para la API de vistas de datos de CJA** | Consulte la [API de vistas de datos](https://developer.adobe.com/cja-apis/docs/endpoints/dataviews/) para obtener información sobre cómo crear, modificar o eliminar vistas de datos mediante programación. | N/A | 16 de octubre de 2023 |
-| **Métricas de recuento de filas para conjuntos de datos de perfil y búsqueda** | Anteriormente, estas métricas solo estaban disponibles para conjuntos de datos de evento. | N/A | 16 de octubre de 2023 |
 | **Exportar tablas completas a la nube** | La exportación de tablas completas de Customer Journey Analytics le permite exportar millones de filas de Workspace a destinos de nube. <p>La exportación de tablas completas ofrece un envío único o programado de tablas de datos diseñadas en Workspace con soporte para hasta cinco desgloses, cinco métricas, filtros y métricas calculadas, todo en una tabla concatenada. Es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad.</p><p> Las opciones de exportación a la nube incluyen:</p><ul><li>Zona de aterrizaje de datos de Adobe Experience Platform</li><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>Para obtener más información, consulte [Exportar informes de Customer Journey Analytics a la nube](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html?lang=es). | 4 de octubre de 2023 | 19 de octubre de 2023 |
 | **Administrador de actividades de creación de informes** | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Proporciona a los administradores una visibilidad detallada del consumo de creación de informes para diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de creación de informes. Entre las características principales del Administrador de actividades de creación de informes se incluyen:<ul><li>Cancelar las solicitudes de creación de informes actuales (incluidas las solicitudes de análisis guiados y exportaciones de tabla completa)</li><li>Restringir solicitudes posteriores durante un período de tiempo definido</li></ul>Además de cancelar las solicitudes actuales, los administradores ahora pueden restringir las solicitudes durante un período de tiempo definido. Los administradores pueden restringir las solicitudes por solicitud, proyecto o usuario.  [Más información](/help/reporting-activity-manager/reporting-activity-overview.md) | 17 de octubre de 2023 | 24 de octubre de 2023 |
 
