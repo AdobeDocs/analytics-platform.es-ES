@@ -5,9 +5,9 @@ title: Envío de datos del Customer Journey Analytics a otras personas por corre
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 58%
 
 ---
@@ -88,7 +88,7 @@ Para obtener más información, consulte [Proyectos programados](/help/component
 
 >[!NOTE]
 >
->La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido [Healthcare Shield](https://business.adobe.com/es/solutions/experience-cloud-for-healthcare.html) producto de complemento.
+>La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) producto de complemento.
 
 Adobe utiliza la contraseña para cifrar proyectos programados, independientemente de si se envían en formato .pdf o .csv.
 
