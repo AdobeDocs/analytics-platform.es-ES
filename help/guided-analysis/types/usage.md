@@ -4,9 +4,9 @@ description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
+source-git-commit: 713d70a444b3dba81a94d4f472b3ca7e0b39d742
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '621'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,10 @@ El [!UICONTROL Uso] La vista ofrece la siguiente configuración de gráfico, que
 Agregue datos adicionales al gráfico.
 
 * **[!UICONTROL Mostrar anomalías]**: Ejecuciones [detección de anomalías](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) en el análisis de tendencias. Los valores atípicos aparecen como puntos sobre los que puede situarse para obtener más información.
+* **[!UICONTROL Superposición de línea de tendencia]**: agrega una línea de tendencia al gráfico, lo que le permite ver la dirección general que toman los datos dentro del período de tiempo especificado.
+   * [!UICONTROL Lineal]: un modelo de regresión lineal. Recomendado para datos que aumentan o disminuyen a una velocidad constante.
+   * [!UICONTROL Logarítmico]: un modelo de regresión de línea curva. Recomendado para datos que se nivelan con el tiempo.
+   * [!UICONTROL Promedio móvil]: una línea suavizada que calcula el promedio del periodo anterior de cada punto. Recomendado para datos que tienen ciclos regulares. Los periodos medios móviles disponibles dependen del intervalo de fechas seleccionado.
 
 ## Aplicar comparación de tiempo
 
