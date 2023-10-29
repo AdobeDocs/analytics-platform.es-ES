@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
+source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
 workflow-type: tm+mt
-source-wordcount: '2894'
-ht-degree: 96%
+source-wordcount: '2919'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Octubre de 2023** | |
+| Usar un campo derivado para establecer metas/objetivos | Añadido [caso de uso](../use-cases/goals-using-derived-fields.md) artículo que ilustra cómo utilizar campos derivados para establecer metas/objetivos e informar sobre estos. |
 | Exportar tablas completas a la nube | Se ha añadido documentación sobre la exportación de tablas completas con millones de filas del Espacio de trabajo a destinos en la nube. <p>La exportación de tablas completas ofrece un envío único o programado de tablas de datos diseñadas en Workspace con soporte para hasta cinco desgloses, cinco métricas, filtros y métricas calculadas, todo en una tabla concatenada. Es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad.</p><p>Para obtener más información, consulte [Exportar informes de Customer Journey Analytics a la nube](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html?lang=es). | 4 de octubre de 2023 |
 | Administrador de actividades de creación de informes | Se ha agregado documentación para el Administrador de actividades de creación de informes. <p>El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Proporciona a los administradores una visibilidad detallada del consumo de creación de informes para diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de creación de informes.</p> <p>Se agregaron los siguientes artículos nuevos:<ul><li>[Información general del Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[Ver la actividad de creación de informes en el Administrador de actividades de informes](/help/reporting-activity-manager/reporting-activity.md)</li><li>[Cancelar solicitudes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | Nuevas columnas en páginas de administración | Se han documentado nuevas columnas que ahora están disponibles en la [Administrador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html?lang=es) y el [Administrador de filtros](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html?lang=es). |
