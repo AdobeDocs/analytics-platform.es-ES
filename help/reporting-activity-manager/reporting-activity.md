@@ -3,10 +3,11 @@ title: Ver la actividad de creación de informes en el Administrador de activida
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 9c76b7c9f5f99da70b5c097a11cfb4cfd1370e9f
+exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
+source-git-commit: 8e2605a18d7c8201122603c9f8ee381a2e97fb9f
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 13%
+source-wordcount: '1940'
+ht-degree: 11%
 
 ---
 
@@ -34,7 +35,7 @@ Para obtener más información sobre el Administrador de actividades de creació
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. Ver información de utilización de cada conexión. Puede seleccionar un encabezado de columna para ordenar la tabla por esa columna.
+1. Ver información de utilización de cada conexión. Los datos que se muestran en la tabla representan la actividad de creación de informes de la conexión en el momento en que se cargó la página por última vez.
 
    Las columnas disponibles son las siguientes:
 
@@ -45,7 +46,7 @@ Para obtener más información sobre el Administrador de actividades de creació
    | **[!UICONTROL Utilización de la capacidad]** | El porcentaje de la capacidad de creación de informes de la conexión que se está utilizando en tiempo real. <p>**Nota** Una capacidad de uso del 100 % no sugiere necesariamente que deba empezar a cancelar inmediatamente las solicitudes de creación de informes. La capacidad de uso del 100% puede ser saludable si el tiempo de espera promedio es razonable. Por otro lado, una capacidad de uso del 100 % podría sugerir un problema si el número de solicitudes en cola también aumenta.</p> |
    | **[!UICONTROL Solicitudes en cola]** | El número de solicitudes en espera de ser procesadas. <!-- ??? --> |
    | **[!UICONTROL Tiempo de espera en cola]** | Tiempo de espera promedio antes de que las solicitudes empiecen a procesarse. <!-- ???? --> |
-   | **[!UICONTROL Estado]** | Los estados posibles son: <ul><li>[!UICONTROL **Activo**] (azul): se han ejecutado informes sobre la conexión y se está monitorizando su actividad.</li><li>[!UICONTROL **Inactivo**] (gris): Nunca se han ejecutado informes en la conexión. Este estado solo se muestra cuando se crean conexiones por primera vez.</li></ul> |
+   | **[!UICONTROL Estado]** | Los estados posibles son: <ul><li>[!UICONTROL **Activo**] (azul): Los informes se han ejecutado en la conexión en las últimas 2 horas. Los datos que se muestran en la tabla representan la capacidad de creación de informes de la conexión en el momento en que se cargó la página por última vez.</li><li>[!UICONTROL **Inactivo**] (gris): Nunca se ha ejecutado ningún informe sobre la conexión en las últimas 2 horas, por lo que no se muestran datos para la conexión.</li></ul> |
 
    {style="table-layout:auto"}
 
