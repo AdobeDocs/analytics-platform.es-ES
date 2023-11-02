@@ -4,7 +4,7 @@ description: Configure el formato de una métrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 6945026bd452e1dabe90812f8d056f19aac71490
+source-git-commit: 387c787dba4caa9db82d46071e23a2131043c8c6
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 30%
@@ -80,7 +80,7 @@ Tras la creación del informe, el valor de la métrica y el código de moneda or
 
 +++ ¿Hasta dónde se mantienen las tasas de conversión diarias?
 
-¿Se han mantenido las tasas de conversión diarias durante los últimos cuatro años?
+Las tasas de conversión diarias se mantienen durante los últimos cuatro años.
 
 +++
 
