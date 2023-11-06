@@ -5,7 +5,7 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
+source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 100%
@@ -60,7 +60,6 @@ Análisis en canales múltiples es una función innovadora y sólida, pero tiene
 * El campo de ID transitorio debe contener un solo tipo de ID (es decir, ID de un solo espacio de nombres). Por ejemplo, el campo de ID transitorio no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
 * Si se producen varios eventos con la misma marca de tiempo en relación con el mismo ID persistente, pero con valores diferentes en el campo de ID transitorio, la identificación basada en campos decidirá en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro Ann, la identificación basada en campos elegirá Ann.
 * Si varias personas comparten un dispositivo y el número total de transiciones entre usuarios supera las 50 000, CCA deja de vincular datos para ese dispositivo.
-
 
 ## Habilitación de Análisis en canales múltiples
 
