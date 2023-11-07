@@ -4,10 +4,10 @@ description: Información general sobre la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
-source-git-commit: c83917d0d73c2a178d5479f2a0257bd3f400666c
+source-git-commit: 058b8d997c7cb2e4e73d3c2026a4b9bf29db26bd
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 23%
+source-wordcount: '1468'
+ht-degree: 21%
 
 ---
 
@@ -44,7 +44,7 @@ Antes de usar la vinculación, asegúrese de que su organización está preparad
    * Un **ID persistente**, un identificador presente en cada fila. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Cloud.
    * Un **ID transitorio**, un identificador presente solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que un visitante se autentica. Puede utilizar prácticamente cualquier identificador que desee. La configuración tendrá en cuenta este campo para contener la información de ID de persona real. Para obtener los mejores resultados de vinculación, se debe enviar un ID transitorio dentro de los eventos del conjunto de datos al menos una vez para cada ID persistente. Si planea incluir este conjunto de datos dentro de una conexión de Customer Journey Analytics, es preferible que los demás conjuntos de datos también tengan un identificador común similar.
 
-  Ambas columnas (ID persistente e ID transitorio) deben definirse como un campo de identidad con un área de nombres de identidad en el esquema subyacente al conjunto de datos que desea vincular.
+  Ambas columnas (ID persistente e ID transitorio) deben definirse como un campo de identidad con un área de nombres de identidad en el esquema subyacente al conjunto de datos que desea vincular. Cuando se utiliza la vinculación de identidad en Real-time Customer Data Platform con [grupo de campos identityMap](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#identity)Sin embargo, aún debe añadir campos de identidad con un área de nombres de identidad, ya que la vinculación de reproducción que se describe en esta sección no admite el grupo de campos identityMap. Cuando agregue un campo de identidad mientras utiliza la vinculación de identidad en Real-time Customer Data Platform en función del grupo de campos identityMap, haga lo siguiente *no* establezca el campo de identidad adicional como identidad principal, ya que esto interferirá con la vinculación de identidad basada en el grupo de campos identityMap en Real-time Customer Data Platform.
 
 * La vinculación incluye la combinación de datos de usuario autenticados y no autenticados. Asegúrese de cumplir las leyes y regulaciones aplicables, incluida la obtención de los permisos necesarios para el usuario final, antes de activar la vinculación en un conjunto de datos de evento. Consulte [Definición de campos de identidad en la IU](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#) para obtener más información.
 
