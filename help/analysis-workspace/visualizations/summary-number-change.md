@@ -3,9 +3,9 @@ description: Utilice las visualizaciones Número y cambio de resumen para mostra
 title: Número de resumen y cambio de resumen
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '458'
+source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -30,16 +30,7 @@ Haga clic en el icono de engranaje de **Configuración de la visualización** si
 | Valor abreviado | Elige abreviar los valores y mostrar hasta 3 decimales. |
 | Valor de resumen por | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
 
-
-Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Número de resumen:
-
-| Configuración | Definición |
-|--- |--- |
-| Porcentajes | Muestra porcentajes en lugar de números en bruto. |
-| Leyenda visible | Muestra información sobre la métrica mostrada. |
-| Valor abreviado | Elige abreviar los valores y mostrar hasta 3 decimales. |
-| Valor de resumen por | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
-
+{style="table-layout:auto"}
 
 ## Visualización Cambio de resumen {#summary-change}
 
