@@ -4,9 +4,9 @@ description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: 713d70a444b3dba81a94d4f472b3ca7e0b39d742
+source-git-commit: e39ab8af98e2bf2a4e63ef49e0ebce472cc1f45f
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '700'
 ht-degree: 2%
 
 ---
@@ -30,9 +30,9 @@ Los casos de uso para este tipo de vista incluyen:
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **[!UICONTROL Eventos]**: los eventos que desea medir. Cada evento seleccionado se representa como una línea de color o como un conjunto de barras, según el tipo de gráfico. Se agrega a la tabla una fila que representa el evento de tendencias. Se pueden incluir hasta cinco eventos.
-* **[!UICONTROL People]**: Los segmentos que desea medir. Cada segmento seleccionado duplica el número de líneas del gráfico y las filas de la tabla. Se pueden incluir hasta cinco segmentos.
-* **[!UICONTROL Desglose]**: cree una línea de tendencia independiente por elemento de dimensión. Se admite una sola dimensión de desglose.
+* **[!UICONTROL Eventos]**: los eventos que desea medir. Cada evento seleccionado se representa como una serie de gráficos y una fila de tabla. Se pueden incluir hasta cinco eventos.
+* **[!UICONTROL People]**: Los segmentos que desea medir. Cada segmento seleccionado duplica el número de series de gráficos y filas de tabla. Se pueden incluir hasta cinco segmentos.
+* **[!UICONTROL Desglose de propiedad]**: desglosa la serie de gráficos y las filas de tabla por los valores de la propiedad seleccionada. Se admite una sola propiedad de desglose. Los 20 valores principales aparecen en la tabla y se pueden ver hasta diez valores en el gráfico. Puede ocultar o exponer una fila del gráfico alternando la opción ![Mostrar icono de ocultar](../assets/hide-in-chart.png) icono.
 
 ## Ajustes del gráfico
 
@@ -43,13 +43,13 @@ El [!UICONTROL Uso] La vista ofrece la siguiente configuración de gráfico, que
 
 ## Superposiciones
 
-Agregue datos adicionales al gráfico.
+Agregue datos adicionales al gráfico. Cuando hay más de una serie visible en el gráfico, las superposiciones solo aparecen al pasar el ratón por encima.
 
-* **[!UICONTROL Mostrar anomalías]**: Ejecuciones [detección de anomalías](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) en el análisis de tendencias. Los valores atípicos aparecen como puntos sobre los que puede situarse para obtener más información.
-* **[!UICONTROL Superposición de línea de tendencia]**: agrega una línea de tendencia al gráfico, lo que le permite ver la dirección general que toman los datos dentro del período de tiempo especificado.
-   * [!UICONTROL Lineal]: un modelo de regresión lineal. Recomendado para datos que aumentan o disminuyen a una velocidad constante.
-   * [!UICONTROL Logarítmico]: un modelo de regresión de línea curva. Recomendado para datos que se nivelan con el tiempo.
-   * [!UICONTROL Promedio móvil]: una línea suavizada que calcula el promedio del periodo anterior de cada punto. Recomendado para datos que tienen ciclos regulares. Los periodos medios móviles disponibles dependen del intervalo de fechas seleccionado.
+* **[!UICONTROL Detección de anomalías]**: Ejecuciones [detección de anomalías](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) en el análisis de tendencias. Los valores atípicos aparecen como puntos sobre los que puede situarse para obtener más información.
+* **[!UICONTROL Superposición de línea de tendencia]**: añade una línea de tendencia al gráfico para mostrar un patrón más claro en los datos.
+   * [!UICONTROL Lineal]: crea una línea de regresión recta. Ideal para datos lineales simples que aumentan o disminuyen a una velocidad constante. Ecuación: `y = a + b * x`
+   * [!UICONTROL Logarítmico]: crea una línea de regresión curva. Ideal para datos que aumentan o disminuyen rápidamente y luego se vuelven más nivelados. Ecuación: `y = a + b * log(x)`
+   * [!UICONTROL Promedio móvil]: crea una línea de tendencia suave basada en un conjunto de promedios. Un promedio móvil utiliza una cantidad determinada de puntos de datos anteriores (definida por su selección), los promedia y utiliza el promedio como punto en la línea. Algunos ejemplos son un promedio móvil de siete días o un promedio móvil de cuatro semanas. Las opciones de promedio móvil disponibles dependen del intervalo y el intervalo de fechas seleccionados.
 
 ## Aplicar comparación de tiempo
 
