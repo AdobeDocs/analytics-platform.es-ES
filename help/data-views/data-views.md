@@ -4,10 +4,10 @@ description: Una vista de datos especifica cómo desea interpretar los elementos
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
+workflow-type: tm+mt
+source-wordcount: '1062'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,10 @@ Una vista de datos es un contenedor específico del Customer Journey Analytics q
 Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, puede crear vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, puede tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último contacto] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer contacto].
 
 Los proyectos del Espacio de trabajo en Customer Journey Analytics se basan en vistas de datos.
+
+>[!IMPORTANT]
+>
+>Se pueden agregar hasta 5000 métricas y 5000 dimensiones a una sola vista de datos.
 
 ## Funciones de vistas de datos {#capabilities}
 

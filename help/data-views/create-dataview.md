@@ -4,9 +4,9 @@ description: Todos los ajustes que se pueden ajustar para crear o editar una vis
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
+source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1431'
 ht-degree: 99%
 
 ---
@@ -77,6 +77,10 @@ Indica el formato de calendario que desea que siga la vista de datos. Puede tene
 ## Componentes
 
 A continuación, puede establecer los componentes de una vista de datos, lo que significa que puede crear métricas y dimensiones a partir de elementos de esquema. También puede utilizar componentes estándares.
+
+>[!IMPORTANT]
+>
+>Se pueden agregar hasta 5000 métricas y 5000 dimensiones a una sola vista de datos.
 
 1. Seleccione la pestaña **[!UICONTROL Componentes]**.
 
