@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: 15fbbf26b58b474f65e6585ac72bdf247fb1678d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2135'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Segmentos | Compatibilidad total. Ahora se denominan “Filtros”: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
 | Grupos de informes virtuales | Compatibilidad total. Ahora se denominan [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de grupo de informes virtuales | Compatibilidad total. Ahora forma parte de Vistas de datos. |
-| Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Admitido para ambos [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es)conjuntos de datos basados en y para conjuntos de datos generados por WebSDK. Consulte la [documentación sobre las variables de Analytics que se admiten a través de ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es).Si utiliza la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten el dispositivo y las dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. Para agregar búsquedas de dispositivos y exploradores al flujo de datos del SDK web, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es) |
+| Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Se admite para ambos conjuntos basados en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) y para conjuntos de datos generados por WebSDK. Consulte la [documentación sobre las variables de Analytics que se admiten a través de ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es).Si utiliza la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten el dispositivo y las dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. Para añadir búsquedas de dispositivos y exploradores al flujo de datos del SDK web, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es) |
 | Streaming de medios de Analytics | Los datos de medios están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |
 
 {style="table-layout:auto"}
@@ -69,7 +69,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Canales de marketing | Al utilizar el conector de origen de Analytics, los datos de los canales de marketing se incorporan a Customer Journey Analytics a través de ese conector. Las reglas del canal de marketing deben seguir configurándose en la versión tradicional de Adobe Analytics y algunas no son compatibles. Consulte [Canales de marketing de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html?lang=es) para obtener más información. <br/>Para implementaciones de WebSDK, las reglas de procesamiento de los canales de marketing en tiempo de informe son compatibles mediante [Campos derivados](../../data-views/derived-fields/derived-fields.md). |
 | Anulación de duplicación métrica | Ahora está configurado en métricas dentro de las vistas de datos. La anulación de duplicación de métricas se produce en el nivel de persona o sesión en lugar de en el nivel de conjunto de datos, vista de datos o conexión. |
 | Creación de informes de sesión nueva frente a repetida | Anteriormente, se realizaba mediante la dimensión Número de visita. Se admiten sesiones nuevas y repetidas [con una ventana retrospectiva de 13 meses](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=es). |
-| Reglas de procesamiento, reglas de VISTA, reglas de procesamiento de canales de marketing | Compatible mediante la funcionalidad de preparación de datos de Adobe Experience Platform, así como [campos derivados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/derived-fields.html?lang=es) para conjuntos de datos basados en WebSDK y datos del conector de origen de Analytics. |
+| Reglas de procesamiento, reglas de VISTA, reglas de procesamiento de canales de marketing | Se admite mediante la funcionalidad de preparación de datos de Adobe Experience Platform así como [campos derivados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/derived-fields.html?lang=es) tanto para conjuntos de datos basados en WebSDK como para datos del conector de origen de Analytics. |
 | Variable Productos | Dentro de Experience Platform, los usuarios pueden utilizar una matriz de objetos dentro de un esquema del conjunto de datos para satisfacer este caso práctico. Dentro de Customer Journey Analytics, los clientes tienen la capacidad de usar cualquier número de variables de producto y no están restringidos a una sola variable como en Adobe Analytics. |
 | Uso compartido de proyectos | El uso compartido de proyectos solo es compatible entre los usuarios de Customer Journey Analytics; no existe el uso compartido de proyectos entre Customer Journey Analytics y la versión tradicional de Analysis Workspace. |
 | Report Builder | Compatible con un nuevo complemento de Office 365 para Excel. |
@@ -136,6 +136,6 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | Acceso SQL | Con la opción Data Distiller, Customer Journey Analytics puede eliminar las limitaciones de los datos recopilados en el procesamiento back-end de Adobe. Puede modificar los datos con SQL, crear valores y conjuntos de datos únicos para su empresa y continuar explorando. Analytics no admite ningún tipo de acceso SQL a sus datos. |
 | Opciones mejoradas de seguridad y privacidad: preparación para HIPAA | Customer Journey Analytics está preparado para la HIPAA y ofrece opciones de seguridad adicionales para el cumplimiento de la normativa. Adobe Analytics no está preparado para la HIPAA. |
 | Capacidad para combinar conjuntos de datos (como grupos de informes de Adobe Analytics) | Customer Journey Analytics le permite combinar datos de varios grupos de informes como si fueran un único grupo en Adobe Analytics. |
-| Campos derivados | Los campos derivados permiten realizar transformaciones en el tiempo del informe de los datos. Los datos se pueden combinar, corregir o crear sobre la marcha y se aplican de forma retroactiva a todos los informes. |
+| Campos derivados | Los campos derivados permiten realizar transformaciones en el tiempo del informe de los datos. Los datos pueden combinarse, corregirse o crearse sobre la marcha y aplicarse de forma retroactiva a todos los informes. |
 
 {style="table-layout:auto"}
