@@ -3,14 +3,15 @@ description: Documentación que describe cómo filtrar y ordenar tablas en Analy
 title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 5469585897e483d721326fd6859ad74087407825
+source-git-commit: 2a60ed6dddf70b58c7c6e742eb01b9468cc2dd83
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 73%
+source-wordcount: '958'
+ht-degree: 67%
 
 ---
 
-# Filtrado y ordenación de tablas
+
+# Filtrar y ordenar tablas de forma libre
 
 Las tablas de forma libre en Analysis Workspace son la base del análisis interactivo de datos. Como tal, pueden contener miles de filas de información. Filtrar y ordenar los datos puede ser una parte fundamental para que la información más importante aparezca de forma eficaz.
 
@@ -18,13 +19,24 @@ Las tablas de forma libre en Analysis Workspace son la base del análisis intera
 
 >[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
-## Filtrado de tablas {#section_36E92E31442B4EBCB052073590C1F025}
+## Filtrado de tablas
 
 Los filtros de Analysis Workspace le ayudan a mostrar la información más importante.
 
 >[!NOTE]
 >
 > Solo se pueden filtrar los elementos de dimensión dinámicos como se describe en esta sección. Los elementos de dimensión estáticos no se pueden filtrar. Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## Filtrar filas de tabla de forma libre
+
+Puede utilizar varios métodos para filtrar filas de una tabla de forma libre. 
+
+- Haga clic en la &quot;X&quot; de la fila.
+- Haga clic con el botón derecho > Filas seleccionadas eliminadas
+- Filtros de tabla
+- Segmentación
+
+Asegúrese de leer el impacto de cada método [Totales de tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Excluir rápidamente filas específicas de una tabla
 
@@ -38,7 +50,14 @@ Para excluir rápidamente filas específicas de una tabla de forma libre:
 
 1. Pase el ratón sobre la fila que quiera excluir y luego seleccione el icono x.
 
-   Mantenga pulsada la tecla Mayús para seleccionar un rango de filas, o bien mantenga pulsada la tecla Comando (en Mac) o Ctrl (en Windows) para seleccionar varias filas.
+   Mantenga pulsada la tecla Mayús para seleccionar un rango de filas o la tecla Comando (en Mac) o Ctrl (en Windows) para seleccionar varias filas.
+
+### Haga clic con el botón derecho > Eliminar filas seleccionadas
+
+1. Seleccione una o más filas.
+1. Haga clic con el botón derecho y seleccione **[!UICONTROL Eliminar las filas seleccionadas]**.
+
+   Esta acción quitará las filas de la tabla y aplicará un filtro de tabla.
 
 ### Aplicar un filtro simple o avanzado a una tabla
 
@@ -59,7 +78,7 @@ Para filtrar datos en tablas de forma libre:
 
 1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Mostrar avanzadas**].
 
-   Las opciones disponibles son las siguientes
+   Estas son las opciones de filtro avanzadas disponibles:
 
    | Opción | Función |
    |---------|----------|
@@ -72,6 +91,10 @@ Para filtrar datos en tablas de forma libre:
 
    El icono de **filtro** de la ![Tabla filtrada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) se vuelve azul cuando se aplica un filtro a la tabla.
 
+### Filtros
+
+Consulte nuestra [Filtrado de documentación](/help/components/filters/filters-overview.md) para obtener más información.
+
 ## Orden de tablas
 
 Puede ordenar los datos de una tabla de forma libre por cualquier columna de Analysis Workspace que sea una dimensión o una métrica.
@@ -82,8 +105,8 @@ El icono de flecha hacia abajo en la ![columna de tabla ordenada](https://spectr
 
    Tenga en cuenta lo siguiente al ordenar:
 
-   * La flecha hacia abajo ordena en orden de bajada y la flecha hacia arriba (predeterminada) lo hace en orden de subida.
-   * Puede ordenar las dimensiones de manera alfabética o numérica. Por ejemplo, es posible que haya numerado los pasos de un flujo de trabajo y que desee ordenarlos por el número de paso. Puede ordenar una dimensión relacionada con la fecha por fecha. Asimismo, puede ordenar las fuentes de datos alfabéticamente como en la imagen siguiente.
+   - La flecha hacia abajo ordena en orden de bajada y la flecha hacia arriba (predeterminada) lo hace en orden de subida.
+   - Puede ordenar las dimensiones de manera alfabética o numérica. Por ejemplo, es posible que haya numerado los pasos de un flujo de trabajo y que desee ordenarlos por el número de paso. Puede ordenar una dimensión relacionada con la fecha por fecha. Asimismo, puede ordenar las fuentes de datos alfabéticamente como en la imagen siguiente.
 
    ![](assets/sort-dimensions.png)
 
