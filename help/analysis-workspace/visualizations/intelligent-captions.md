@@ -1,12 +1,12 @@
 ---
-description: Use subtítulos inteligentes para generar perspectivas en lenguaje natural y mostrar rápidamente las tendencias dentro de las visualizaciones.
+description: Utilice subtítulos inteligentes para generar perspectivas en lenguaje natural y mostrar rápidamente las tendencias dentro de las visualizaciones.
 title: Pies de ilustración inteligentes
 feature: Visualizations
 role: User, Admin
-exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Los subtítulos están disponibles para todos los usuarios de Customer Journey A
 
 Para iniciar subtítulos generados automáticamente para una visualización de líneas, haga clic en **[!UICONTROL Subtítulos inteligentes]** en la parte superior derecha de la visualización.
 
-![iniciar subtítulos inteligentes](assets/intell-caps-1.png)
+![Inicie la ventana de análisis que muestra los subtítulos inteligentes de la tendencia de vistas del producto. ](assets/intell-caps-1.png)
 
 Ahora se están generando perspectivas en lenguaje natural.
 
@@ -40,7 +40,7 @@ Ahora se están generando perspectivas en lenguaje natural.
 
 A continuación se muestra un ejemplo del aspecto que podrían tener los subtítulos:
 
-![Subtítulos](assets/captions.png)
+![Subtítulos inteligentes para la visualización de líneas, incluidos Estacionalidad, Mínimo, Máximo, Pico y Rechazar.](assets/captions.png)
 
 ## Copiar al portapapeles {#copy}
 
@@ -66,4 +66,4 @@ Puede **exportar subtítulos mediante PDF**, siempre que el proyecto se guarde c
 
 Si no desea que se generen subtítulos inteligentes, puede desactivar esta función en Preferencias de visualización y desmarcar **[!UICONTROL Mostrar subtítulos inteligentes]**.
 
-![configuración de subtítulos](assets/toggle-captions.png)
+![Opciones de visualización de líneas que muestran la opción para desactivar Mostrar subtítulos inteligentes.](assets/toggle-captions.png)

@@ -4,9 +4,9 @@ description: Obtenga más información sobre cómo utilizar el Administrador de 
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
-source-git-commit: 8e2605a18d7c8201122603c9f8ee381a2e97fb9f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1944'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ Para obtener más información sobre el Administrador de actividades de creació
 
    Se muestra una lista de las conexiones base habilitadas.
 
-   ![cola de informes](assets/reporting-activity1.png) 
+   ![Actividad de informes que muestra la cola de informes](assets/reporting-activity1.png)
 
 1. (Opcional) Puede buscar o filtrar la lista de conexiones:
 

@@ -1,12 +1,12 @@
 ---
 title: Preguntas frecuentes sobre análisis guiados
 description: Preguntas frecuentes sobre el análisis guiado.
-exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
+exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ While [Analysis Workspace](../analysis-workspace/home.md) y el análisis guiado 
 
 * **El análisis guiado es una experiencia centrada en eventos.** Cada análisis comienza seleccionando eventos. A continuación, se pueden añadir dimensiones y filtros para restringir los datos de evento.
 
-![Estructura](assets/structure.png)
+![Vistas de Analysis Workspace y de análisis guiado](assets/structure.png)
 
 Preste atención al siguiente ejemplo, en el que se centra en los datos de la página principal del sitio web. Los equipos hacen preguntas similares, pero el enfoque del análisis puede ser diferente.
 

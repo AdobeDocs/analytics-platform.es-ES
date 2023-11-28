@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configuración de ubicaciones de exportación de nube
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1502'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
    Seleccione el [!UICONTROL **Cuentas de ubicación**] , seleccione el icono de 3 puntos en una cuenta existente donde desee añadir una ubicación y, a continuación, seleccione [!UICONTROL **Añadir ubicación**].
 
-   ![Añadir ubicación a una cuenta existente](assets/add-location-existing-account.png)
+   ![Cuenta GCP y menú desplegable de elipsis que muestra la opción Añadir ubicación seleccionada](assets/add-location-existing-account.png)
 
    Se muestra el cuadro de diálogo Ubicación.
 

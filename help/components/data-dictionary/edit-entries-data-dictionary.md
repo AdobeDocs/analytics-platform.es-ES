@@ -4,10 +4,10 @@ title: Edición de entradas en el diccionario de datos
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 45%
+source-wordcount: '380'
+ht-degree: 69%
 
 ---
 
@@ -23,7 +23,7 @@ Para editar un componente en el diccionario de datos:
 
 Se muestra la ventana Diccionario de datos.
 
-![Vista de administrador del diccionario de datos](assets/data-dictionary-admin.png)
+![Vista del administrador del diccionario de datos que muestra el estado del diccionario](assets/data-dictionary-admin.png)
 
 1. Asegúrese de que está seleccionada la vista de datos correcta en el menú desplegable. De forma predeterminada, se muestra la vista de datos en la que ya se encuentra.
 
@@ -33,7 +33,7 @@ El tipo de componente se puede identificar mediante colores e iconos. **Dimensio
 
 {{dd-filter-criteria}}
 
-1. (Opcional) Seleccione la **Ordenar** icono ![Icono Ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), luego seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+1. (Opcional) Seleccione el icono de **Ordenar** ![icono de Ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
 
 {{components-sort-options}}
 

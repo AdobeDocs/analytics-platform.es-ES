@@ -4,10 +4,10 @@ description: Explicar cómo ingerir y utilizar datos mediante conectores de orig
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 87%
+source-wordcount: '1997'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,7 @@ Para configurar el esquema:
 
    1. Seleccionar **[!UICONTROL Perfil individual]**.
 
-      ![Creación de un esquema](./assets/create-pr-schema-wizard-step-1.png)
+      ![Crear una ventana de esquema con un perfil individual seleccionado](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -70,7 +70,7 @@ Para configurar el esquema:
 
    1. Introduzca una **[!UICONTROL Nombre para mostrar del esquema]** para su esquema y (opcional) un **[!UICONTROL Descripción]**.
 
-      ![Asignar un nombre al esquema](./assets/create-pr-schema-wizard-step-2.png)
+      ![Ventana Crear esquema que muestra los campos para asignar un nombre al esquema ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Seleccione **[!UICONTROL Finalizar]**.
 
@@ -78,7 +78,7 @@ Para configurar el esquema:
 
    1. Seleccione **[!UICONTROL + Agregar]** en [!UICONTROL Grupos de campos].
 
-      ![Agregar grupo de campos](./assets/add-field-group-button.png)
+      ![Ventana Crear esquema que muestra el grupo de campos Añadir](./assets/add-field-group-button.png)
 
       Los grupos de campos son una colección reutilizable de objetos y atributos que le permiten ampliar fácilmente sus esquemas.
 

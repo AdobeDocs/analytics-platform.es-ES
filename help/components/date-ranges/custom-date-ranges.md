@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Crear intervalos de fechas
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 85%
 
 ---
 
@@ -23,15 +23,15 @@ Se aplica un intervalo de fechas en el panel. Para agregar un intervalo de fecha
 
 El siguiente intervalo de fechas personalizado muestra un intervalo de fechas para “dos meses atrás”, con una visualización de cambio de resumen que muestra el cambio direccional.
 
-![](assets/date-range-two-months-ago.png)
+![Generador de intervalos de fechas que muestra las fechas móviles de uso de hace dos meses](assets/date-range-two-months-ago.png)
 
 El intervalo de fechas personalizado se muestra en la parte superior del panel de componente [!UICONTROL Intervalo de fechas] del proyecto:
 
-![](assets/date-range-panel-two-months-ago.png)
+![Panel de componente Intervalo de fechas con una flecha que señala a Hace dos meses.](assets/date-range-panel-two-months-ago.png)
 
 Puede arrastrar este intervalo de fechas personalizado en un columna a lo largo de un intervalo de fechas móvil mensual mediante el valor preestablecido Último mes para ver una comparación. Agregue una visualización de cambio de resumen y seleccione los totales de cada columna para mostrar un cambio direccional:
 
-![](assets/date-range-two-months-table.png)
+![Cambio de resumen que muestra un aumento del 14,45%.](assets/date-range-two-months-table.png)
 
 ## Usar un intervalo de fechas móvil de 7 días
 
@@ -41,7 +41,7 @@ En el Generador de intervalos de fechas, puede crear un intervalo de fechas pers
 
 Por ejemplo, puede crear un intervalo de fechas que especifica una ventana móvil de 7 días y que termina una semana atrás:
 
-![](assets/create_date_range.png)
+![Generador de intervalos de fechas que muestra un intervalo de fechas que especifica una ventana móvil de 7 días.](assets/create_date_range.png)
 
 Utilice *`rolling daily`*.
 
@@ -49,4 +49,4 @@ Utilice *`rolling daily`*.
 
 * La configuración de fin sería *`current day minus 7 days`*.
 
-Este intervalo de fechas puede ser un componente que arrastre en cualquier tabla improvisada.
+Este intervalo de fechas puede ser un componente que arrastre en cualquier tabla de forma libre.

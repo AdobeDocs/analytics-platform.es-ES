@@ -4,10 +4,10 @@ title: Resumen de calendario e intervalos de fechas
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 79%
+source-wordcount: '892'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,7 @@ Con el calendario, puede especificar fechas e intervalos de fechas o seleccionar
 
 Las selecciones de calendario se aplican a nivel de panel, pero tiene la opción de aplicarlas a todos los paneles. Al hacer clic en un intervalo de fechas en Workspace, la interfaz muestra el mes natural actual y el mes natural anterior. Puede ajustar estos dos calendarios haciendo clic en las flechas derecha e izquierda de cada esquina superior respectiva.
 
-![Calendario](assets/aw_calendar2.png){width="60%"}
+![Calendario que muestra octubre de 2022 y noviembre de 2022 con los días 1 a 30 de noviembre seleccionados.](assets/aw_calendar2.png){width="60%"}
 
 El primer clic en un calendario inicia una selección de intervalo de fechas. El segundo clic completa una selección de intervalo de fechas, que se resalta. Si la tecla `Shift` se mantiene pulsada (o se utiliza el clic derecho), se anexa al rango seleccionado actualmente.
 
@@ -48,12 +48,12 @@ Para usar intervalos de fechas relativos del panel
 Si se seleccionan fechas relativas, las fechas móviles se basarán en la fecha de inicio del calendario del panel y no en la fecha actual.
    * Si esta opción no está seleccionada, las fechas móviles se basarán en la fecha actual.
 
-   ![fechas relativas del panel](assets/relative-date-selected.png){width="60%"}
+   ![Calendario con la opción Crear componentes de intervalo de fechas en relación con el calendario del panel seleccionado](assets/relative-date-selected.png){width="60%"}
 
 1. Haga clic en **Aplicar**.
 Las fechas relativas se muestran en la esquina superior derecha.
 
-   ![fechas relativas en forma libre ](assets/relative-date-range1.png)
+   ![Tabla de forma libre con fechas relativas resaltadas y que muestran el mes pasado resaltado. ](assets/relative-date-range1.png)
 
 ## Pautas para intervalos de fechas relativos del panel {#guidelines}
 

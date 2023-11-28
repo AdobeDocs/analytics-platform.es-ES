@@ -1,18 +1,18 @@
 ---
-title: Administrar audiencias creadas en Customer Journey Analytics
+title: Obtenga información sobre cómo administrar las audiencias creadas en Customer Journey Analytics
 description: Descubra cómo administrar audiencias en Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 75%
+source-wordcount: '284'
+ht-degree: 70%
 
 ---
 
 # Administrar audiencias creadas en Customer Journey Analytics
 
-La administración de audiencias creadas anteriormente le permite
+La administración de audiencias creadas anteriormente le permite:
 
 * **Programar o desprogramar** actualizaciones automáticas de audiencias. La caducidad máxima de la programación es de 1 año.
 * **Renovar una programación de actualización de audiencia** cuando esté a punto de caducar. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la programación caduque.
@@ -22,7 +22,7 @@ La administración de audiencias creadas anteriormente le permite
 
 ## Interfaz de usuario de administración
 
-![](assets/manage.png)
+![Panel de ventana Audiencias que muestra varios filtros.](assets/manage.png)
 
 | Configuración de la interfaz de usuario | Definición |
 | --- | --- |

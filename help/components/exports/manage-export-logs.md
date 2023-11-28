@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Administración de registros de exportación
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '835'
 ht-degree: 7%
 
 ---
@@ -23,7 +23,7 @@ En el caso de las exportaciones programadas, los registros reflejan la configura
 
 1. Seleccione el [!UICONTROL **Registros**] pestaña.
 
-   ![Pestaña Exportar registros](assets/export-logs-tab.png)
+   ![Ventana de exportación que muestra la pestaña Logs](assets/export-logs-tab.png)
 
    Los detalles de cada registro se muestran en las columnas disponibles.
 
@@ -49,7 +49,7 @@ Para encontrar la información que necesita, puede filtrar la lista de registros
 
 1. Seleccione el **Filtrar** icono.
 
-   ![Filtrar información](assets/export-log-filters.png)
+   ![Ventana de exportaciones que muestra la lista de filtros por tipo de cuenta](assets/export-log-filters.png)
 
    Puede filtrar por los siguientes criterios:
 

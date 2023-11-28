@@ -3,15 +3,15 @@ description: Documentación que describe cómo filtrar y ordenar tablas en Analy
 title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 2a60ed6dddf70b58c7c6e742eb01b9468cc2dd83
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '966'
 ht-degree: 67%
 
 ---
 
 
-# Filtrar y ordenar tablas de forma libre
+# Filtrado y ordenación de tablas de forma libre
 
 Las tablas de forma libre en Analysis Workspace son la base del análisis interactivo de datos. Como tal, pueden contener miles de filas de información. Filtrar y ordenar los datos puede ser una parte fundamental para que la información más importante aparezca de forma eficaz.
 
@@ -67,7 +67,7 @@ Para filtrar datos en tablas de forma libre:
 
 1. Seleccione el icono de **Filtro** cuando aparezca.
 
-   ![Icono de filtro en una tabla](assets/table-filter-icon.png)
+   ![Tabla de forma libre que resalta el icono Filtro.](assets/table-filter-icon.png)
 
    Las opciones disponibles son las siguientes:
 
@@ -108,6 +108,6 @@ El icono de flecha hacia abajo en la ![columna de tabla ordenada](https://spectr
    - La flecha hacia abajo ordena en orden de bajada y la flecha hacia arriba (predeterminada) lo hace en orden de subida.
    - Puede ordenar las dimensiones de manera alfabética o numérica. Por ejemplo, es posible que haya numerado los pasos de un flujo de trabajo y que desee ordenarlos por el número de paso. Puede ordenar una dimensión relacionada con la fecha por fecha. Asimismo, puede ordenar las fuentes de datos alfabéticamente como en la imagen siguiente.
 
-   ![](assets/sort-dimensions.png)
+   ![Vista de fuentes de datos que resalta el icono de ordenación.](assets/sort-dimensions.png)
 
 

@@ -4,10 +4,10 @@ description: Explicar cómo ingerir datos de Adobe Analytics tradicional
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 86%
+source-wordcount: '1207'
+ht-degree: 82%
 
 ---
 
@@ -53,29 +53,29 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
 
 3. Seleccione **[!UICONTROL Configurar]** o **[!UICONTROL Agregar datos]** en el mosaico de Adobe Analytics.
 
-   ![Orígenes](./assets/sources-overview.png)
+   ![Ventana de Adobe Experience Platform con Orígenes seleccionados junto con aplicaciones de Adobe y Agregar datos resaltados.](./assets/sources-overview.png)
 
 4. Seleccione **[!UICONTROL Grupo de informes]**. En la lista de grupos de informes, seleccione el que quiera utilizar.
 
-   ![Grupos de informes](./assets/report-suites.png)
+   ![Ventana de Adobe Experience Platform que muestra la lista de grupos de informes](./assets/report-suites.png)
 
    Seleccione **[!UICONTROL Siguiente]**.
 
 5. Seleccione **[!UICONTROL Esquema predeterminado]** como [!UICONTROL Esquema de destino]. Adobe Experience Platform crea automáticamente el esquema y el conjunto de datos correspondiente para asignar todos los campos estándar del grupo de informes de Adobe Analytics seleccionado.
 
-   ![Esquema predeterminado](./assets/default-schema.png)
+   ![Ventana de Adobe Experience Platform con el esquema predeterminado seleccionado](./assets/default-schema.png)
 
    Seleccione **[!UICONTROL Siguiente]**.
 
 6. Asigne un nombre al flujo de datos y (opcionalmente) proporcione una descripción.
 
-   ![Detalles del flujo de datos](./assets/dataflow-detail.png)
+   ![Ventana de Adobe Experience Platform que resalta la sección de detalles Flujo de datos](./assets/dataflow-detail.png)
 
    Seleccione **[!UICONTROL Siguiente]**.
 
 7. Revise la conexión y seleccione **[!UICONTROL Finalizar]**.
 
-   ![Consulte](./assets/review.png)
+   ![Ventana de Adobe Experience Platform que resalta las secciones Conectar y Tipo de datos para su revisión](./assets/review.png)
 
 
 Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes. El flujo de datos ingiere hasta 13 meses de datos históricos para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.
@@ -111,7 +111,7 @@ Para crear la conexión:
 
    - Seleccione el conjunto de datos creado automáticamente por el conector de origen de Adobe Analytics y cualquier otro conjunto de datos que desee incluir en la conexión.
 
-     ![Añadir conjuntos de datos](./assets/cja-connections-2a.png)
+     ![Ventana Agregar conjuntos de datos](./assets/cja-connections-2a.png)
 
    - Seleccione **[!UICONTROL Siguiente]**.
 

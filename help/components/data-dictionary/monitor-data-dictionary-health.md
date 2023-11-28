@@ -4,16 +4,16 @@ title: Monitorización del estado del diccionario de datos
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
 # Monitorización del estado del diccionario de datos
 
-Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos saludable.
+Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos en buen estado.
 
 ## Características de un diccionario de datos correcto
 
@@ -37,9 +37,9 @@ Para identificar problemas de estado en el diccionario de datos:
 
    Se muestra la ventana Diccionario de datos.
 
-   ![Vista de administrador del diccionario de datos](assets/data-dictionary-admin.png)
+   ![Vista del administrador del diccionario de datos que muestra el estado del diccionario](assets/data-dictionary-admin.png)
 
-1. Asegúrese de que la vista de datos correcta está seleccionada en el menú desplegable.
+1. Asegúrese de que está seleccionada la vista de datos correcta en el menú desplegable.
 
 1. En la pestaña [!UICONTROL **Salud del diccionario**], seleccione [!UICONTROL **Ver**] junto a cualquiera de las siguientes opciones:
 

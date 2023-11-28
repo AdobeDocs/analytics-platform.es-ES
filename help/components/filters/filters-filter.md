@@ -2,10 +2,11 @@
 description: Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
 title: Filtrado de la lista de filtros
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 31%
+source-wordcount: '194'
+ht-degree: 30%
 
 ---
 
@@ -17,7 +18,7 @@ El filtrado facilita la búsqueda de filtros.
 
 1. En el Administrador de filtros, haga clic en **[!UICONTROL Filtros]** icono:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+   ![Administrador de filtros que muestra el icono Filtros y los filtros disponibles.](assets/filtering.png)
 
 2. Los filtros disponibles son los siguientes:
 

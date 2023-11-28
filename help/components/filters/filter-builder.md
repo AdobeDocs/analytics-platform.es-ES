@@ -3,10 +3,10 @@ description: El Generador de filtros proporciona un lienzo al que arrastrar y en
 title: Generar filtros
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 23%
+source-wordcount: '1261'
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ Puede acceder al Generador de filtros de cualquiera de las siguientes maneras:
 
 Puede agregar definiciones de reglas y contenedores para definir los filtros. (Para obtener información sobre el acceso al Generador de filtros, consulte [Acceso al Generador de filtros](#access-the-filter-builder).)
 
-![](assets/segment_builder_ui_2.png)
+![Generador de filtros que muestra las nuevas opciones de filtro descritas en esta sección.](assets/segment_builder_ui_2.png)
 
 | Elemento de la IU | Descripción |
 | --- | --- |

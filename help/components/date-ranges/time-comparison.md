@@ -3,10 +3,10 @@ description: La comparación de fechas de Analysis Workspace le permite tomar cu
 title: Comparación de fechas
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '638'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 87%
 
 ---
 
@@ -18,10 +18,10 @@ La comparación de fechas de Analysis Workspace le permite tomar cualquier colum
 
 El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna “diferencia” que muestra el porcentaje de cambio en comparación con un periodo de tiempo concreto.
 
-1. Cree una tabla improvisada con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
+1. Cree una tabla de forma libre con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
 1. Haga clic con el botón secundario en una fila de la tabla y seleccione **[!UICONTROL Comparar periodos de tiempo]**.
 
-   ![](assets/compare-time.png)
+   ![Fila de tabla con la opción Comparar periodos de tiempo seleccionada](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
@@ -41,13 +41,13 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
 1. La comparación resultante tiene este aspecto:
 
-   ![](assets/compare-time-result.png)
+   ![Tabla de forma libre que muestra una comparación de intervalos de fechas y un cambio porcentual.](assets/compare-time-result.png)
 
    Las filas en la columna Cambio porcentual aparecen en rojo para los valores negativos y en verde para los positivos.
 
 1. (Opcional) Como en cualquier otro proyecto de Workspace, puede crear visualizaciones basadas en estas comparaciones de tiempo. Por ejemplo, aquí tiene un gráfico de barras:
 
-   ![](assets/compare-time-barchart.png)
+   ![Gráfico de barras del proyecto de Workspace.](assets/compare-time-barchart.png)
 
    Fíjese en que, para mostrar el cambio porcentual en el gráfico de barras, debe tener marcado el ajuste [!UICONTROL Porcentajes] en la [!UICONTROL Configuración de visualización].
 
@@ -55,7 +55,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
 Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que permite agregar un periodo diferente al periodo en que está establecido el calendario. Esta es otra manera de comparar fechas.
 
-1. Haga clic con el botón secundario en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de periodo de tiempo]** ![](assets/add-time-period-column.png)
+1. Haga clic con el botón secundario en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de periodo de tiempo]** ![Lista de columnas de la tabla con la columna Agregar período de tiempo resaltada ](assets/add-time-period-column.png)
 
 1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
 
@@ -71,11 +71,11 @@ Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que per
 
 1. El periodo de tiempo se insertará en la parte superior de la columna seleccionada:
 
-   ![](assets/add-time-period-column2.png)
+   ![Tabla de forma libre que muestra las ocurrencias para el periodo del calendario actual y el mes natural anterior.](assets/add-time-period-column2.png)
 
 1. Puede agregar todas las columnas de tiempo que desee, así como combinar a voluntad distintos intervalos de fechas:
 
-   ![](assets/add-time-period-column4.png)
+   ![Tabla de forma libre que muestra las ocurrencias de este mes, del mes anterior, del mes anterior hace un año y de una semana del mes anterior hace un año.](assets/add-time-period-column4.png)
 
 1. Además, puede ordenar en función de cualquier columna, lo que cambiará el orden de los días, dependiendo de la columna elegida.
 
@@ -83,7 +83,7 @@ Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que per
 
 Un nuevo ajuste para todas las tablas le permite **[!UICONTROL Alinear fechas de cada columna para que todas empiecen en la misma fila (se aplica a toda la tabla)]**. “Se aplica a toda la tabla” significa que si, por ejemplo, realiza un desglose en la tabla y cambia este ajuste para el desglose, cambiará el ajuste en la tabla entera.
 
-![](assets/date-comparison-setting.png)
+![La ventana emergente Tabla de forma libre con Configuración de tabla muestra Alinear fechas de cada columna para que todas empiecen en la misma fila seleccionada.](assets/date-comparison-setting.png)
 
 >[!IMPORTANT]
 >
@@ -91,7 +91,7 @@ Un nuevo ajuste para todas las tablas le permite **[!UICONTROL Alinear fechas de
 
 Ejemplo: Cuando elija alinear las fechas, si realiza una comparación mes tras mes entre octubre y septiembre de 2016, la columna izquierda comenzará el 1 de octubre y la de la derecha comenzará el 1 de septiembre:
 
-![](assets/add-time-period-column3.png)
+![Comparación que muestra porcentajes mes tras mes.](assets/add-time-period-column3.png)
 
 <!-- 
 

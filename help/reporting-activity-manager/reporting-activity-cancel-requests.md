@@ -3,9 +3,10 @@ title: Cancelar solicitudes de creación de informes en el Administrador de acti
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1473'
 ht-degree: 14%
 
 ---
@@ -50,7 +51,7 @@ Puede cancelar solicitudes individuales que consuman una gran cantidad de capaci
 
    1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**].
 
-      ![Restringir las solicitudes posteriores](assets/restrict-subsequent-requests.png)
+      ![Cancelar 1 solicitud que muestra Restringir solicitudes subsiguientes seleccionadas y el mensaje de cancelación.](assets/restrict-subsequent-requests.png)
 
    1. Elija entre las siguientes opciones:
 
@@ -91,7 +92,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
 
    1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**]
 
-      ![Restringir solicitudes posteriores por usuario](assets/restrict-subsequent-requests-user.png)
+      ![Cancelar 1 solicitud que muestra la opción Restringir solicitudes posteriores del usuario seleccionado.](assets/restrict-subsequent-requests-user.png)
 
    1. Elija entre las siguientes opciones:
 
@@ -132,13 +133,13 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
 
    1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**].
 
-      ![Restringir solicitudes posteriores por proyecto](assets/restrict-subsequent-requests-project.png)
+      ![Cancelar 1 solicitud que muestra la opción Restringir solicitudes posteriores por proyecto](assets/restrict-subsequent-requests-project.png)
 
    1. Elija entre las siguientes opciones:
 
       | Opción | Función |
       |---------|----------|
-      | [!UICONTROL **Usuario y proyecto**] | Los proyectos seleccionados quedarán temporalmente excluidos de cualquier solicitud de información realizada por los usuarios asociados.<p>Esta es la opción menos restrictiva.</p> |
+      | [!UICONTROL **Usuario y proyecto**] | Los proyectos seleccionados quedarán temporalmente excluidos de cualquier solicitud de creación de informes realizada por los usuarios asociados.<p>Esta es la opción menos restrictiva.</p> |
       | [!UICONTROL **Usuario**] | Se restringirá a los usuarios asociados a los proyectos seleccionados la posibilidad de solicitar la creación de informes. |
       | [!UICONTROL **Proyecto**] | Los proyectos seleccionados se restringirán temporalmente de cualquier solicitud de creación de informes realizada por cualquier usuario. |
       | [!UICONTROL **Restringido para**] | Elija cuánto tiempo se restringirán las solicitudes. Puede elegir 1 minuto (predeterminado), 5 minutos, 10 minutos, 15 minutos o 30 minutos. <!--double-check this--> <p>Una restricción no se puede eliminar antes de que se haya establecido.</p> |
@@ -188,7 +189,7 @@ Para cancelar solicitudes por aplicación:
 
    1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**]
 
-      ![Restringir solicitudes posteriores por aplicación](assets/restrict-subsequent-requests-application.png)
+      ![Cancelar 1 solicitud que muestra Restringir solicitudes posteriores por aplicación seleccionada.](assets/restrict-subsequent-requests-application.png)
 
    1. Elija entre las siguientes opciones:
 

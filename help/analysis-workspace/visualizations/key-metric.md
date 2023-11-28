@@ -4,10 +4,10 @@ title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: 22cb88aa98576b70b8b089eda4a46f1e8963767a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 91%
+source-wordcount: '641'
+ht-degree: 85%
 
 ---
 
@@ -37,7 +37,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 
 1. Configure la visualización seleccionando una métrica, un intervalo de fechas principal, un intervalo de fechas de comparación y un filtro (si lo desea):
 
-   ![configuración de métricas clave](assets/key-metric-config.png)
+   ![Configuración de métricas clave que muestra las opciones de métrica, intervalo de fechas principal, intervalo de fechas de comparación y segmento.](assets/key-metric-config.png)
 
    | Ajuste de configuración | Definición |
    | --- | --- |
@@ -79,7 +79,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## Visualización del resultado
 
-![](assets/key-metric-output.png)
+![Resultado de métrica clave que muestra los gráficos de métrica, cambio de resumen, número de resumen y línea.](assets/key-metric-output.png)
 
 Tenga en cuenta:
 
@@ -89,13 +89,13 @@ Tenga en cuenta:
 
 * Desde aquí, puede pasar el ratón por encima de los gráficos de líneas para ver las estadísticas de los días individuales:
 
-![estadísticas](assets/key-metric-output2.png)
+![Estadísticas de visitas](assets/key-metric-output2.png)
 
 ## Configuración de visualización
 
 El resumen de métricas clave ofrece varias configuraciones flexibles para mejorar la creación de informes y la comunicación de métricas importantes. Se puede acceder a la configuración a través del icono de engranaje en la esquina superior derecha de la visualización.
 
-![](assets/key-metric-settings.png)
+![Configuración del resumen de métricas clave que muestra las opciones Tipo de visualización de resumen, General y Visualización.](assets/key-metric-settings.png)
 
 | Configuración | Descripción |
 | --- | --- |
@@ -116,7 +116,7 @@ Después de crear la visualización, aún puede editar la configuración origina
 
 1. Haga clic en el icono de lápiz en la esquina superior derecha de la visualización (junto al icono de engranaje de configuración).
 
-   ![editar](assets/edit-icon.png)
+   ![Icono de edición de visualización.es](assets/edit-icon.png)
 
    Ahora volverá a la vista de configuración original.
 

@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 100%
+source-wordcount: '1483'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Gran parte de lo que está familiarizado con los informes no ha cambiado.
 
 Tiene acceso a muchos más datos de canales cruzados para analizar. Por ejemplo, puede crear un proyecto en un espacio de trabajo que analice el rendimiento de varios canales, siempre que su organización incorpore estos conjuntos de datos y los incluya en las vistas de datos utilizadas por Customer Journey Analytics (consulte “Cambios en la arquitectura de datos” a continuación).
 
-![visualizaciones multicanal](assets/cross-channel.png)
+![Vista de fuentes de datos que muestra visualizaciones multicanal](assets/cross-channel.png)
 
 ## Cambios en la arquitectura de datos {#architecture}
 

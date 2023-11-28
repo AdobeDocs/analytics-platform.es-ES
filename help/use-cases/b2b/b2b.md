@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo agregar datos basados en cuentas c
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '821'
 ht-degree: 74%
 
 ---
@@ -33,7 +33,7 @@ Primero debe crear un esquema de consulta en Adobe Experience Platform y luego c
 
 Creación de su propio esquema para [búsqueda](/help/getting-started/cja-glossary.md) garantiza que el conjunto de datos utilizado estará disponible en Customer Journey Analytics con la configuración correcta (tipo de registro). La práctica recomendada es [crear una clase de esquema personalizada](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#create-new-class) llamada “Consulta”, vacía, que se puede reutilizar para todas las tablas de consulta.
 
-![](../assets/create-new-class.png)
+![Cuadro de diálogo Crear nueva clase.](../assets/create-new-class.png)
 
 ## 2. Crear conjunto de datos de consulta (Experience Platform)
 

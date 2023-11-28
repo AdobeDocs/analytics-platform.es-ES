@@ -3,10 +3,10 @@ title: Registros de auditoría
 description: Obtenga información sobre cómo ver y administrar registros de auditoría de Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 67%
+source-wordcount: '825'
+ht-degree: 64%
 
 ---
 
@@ -30,7 +30,7 @@ En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONT
 
 El registro de auditoría correspondiente al día de hoy y al día de ayer se muestra de forma predeterminada.
 
-![registro de auditoría](assets/audit_ui.png)
+![Resaltado del registro de auditoría hoy (14 de octubre de 2022) y ayer (13 de octubre de 2022). ](assets/audit_ui.png)
 
 Para seleccionar qué columnas están visibles, vaya al selector de columnas ubicado en la parte superior derecha.
 
@@ -38,7 +38,7 @@ Para seleccionar qué columnas están visibles, vaya al selector de columnas ubi
 
 Haga doble clic en el botón de información (i) junto a una descripción.
 
-![registro de auditoría](assets/info-button-audit.png)
+![Registro de auditoría que resalta el botón de información. ](assets/info-button-audit.png)
 
 Se muestran los siguientes elementos:
 
@@ -91,7 +91,7 @@ Se muestran los siguientes elementos:
 
 Seleccione el icono de canal (![filtro](assets/filter-icon.png)) para mostrar una lista de controles de filtro y ayudar a reducir los resultados. Solo se muestran los últimos 1000 registros, independientemente de los distintos filtros seleccionados.
 
-![filtros](assets/filters.png)
+![Registro de auditoría que muestra los filtros mostrados para el rango de datos.](assets/filters.png)
 
 Los siguientes filtros están disponibles para eventos de auditoría en la interfaz de usuario:
 

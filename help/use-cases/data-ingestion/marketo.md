@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo introducir datos de Marketo Engage
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 66%
+source-wordcount: '430'
+ht-degree: 63%
 
 ---
 
@@ -40,12 +40,12 @@ Los clientes con B2B/B2P CDP pueden realizar análisis de tipo B2C en Customer J
 
 1. Cree un [filtro](/help/components/filters/create-filters.md) para vistas de páginas web como se indica a continuación: Tipo de evento = web.webpagedetails.pageViews :
 
-   ![](../assets/marketo-filter.png)
+   ![Ventana de definición que muestra Evento y Tipo de evento](../assets/marketo-filter.png)
 
 1. En la tabla de forma libre, arrastre el filtro que ha creado: Vistas de página web y, a continuación, arrastre el intervalo de fechas Mes. Esto le proporciona visitas a la página web por posibles clientes cada mes:
 
-   ![](../assets/marketo-freeform.png)
+   ![Tabla de forma libre que muestra los eventos por mes.](../assets/marketo-freeform.png)
 
 1. O tire de las siguientes dimensiones: Clave de persona o Dirección de correo electrónico de trabajo. Esto le proporciona las visitas a la página web de cada posible cliente:
 
-   ![](../assets/marketo-freeform2.png)
+   ![Tabla de forma libre que muestra eventos y workEmail.Address y vistas de páginas web.](../assets/marketo-freeform2.png)

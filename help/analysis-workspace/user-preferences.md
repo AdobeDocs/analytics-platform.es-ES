@@ -4,10 +4,10 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3218'
-ht-degree: 84%
+source-wordcount: '3228'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ Puede administrar la configuración de Analysis Workspace y sus componentes rela
 
 1. En Customer Journey Analytics, vaya a [!UICONTROL **Proyectos**] página de aterrizaje y, a continuación, seleccione [!UICONTROL **Editar preferencias**].
 
-   ![Preferencias del usuario](assets/user-preferences.png)
+   ![La vista Proyectos de Workspace resalta las opciones de Editar preferencias que se describen en esta página.](assets/user-preferences.png)
 
    o
 
@@ -71,7 +71,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 | --- | --- | --- |
 | **Mostrar** | | |
 |  | [Ver densidad](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=es) | Elija cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacto</li><li>Cómodo</li><li>Expandido (predeterminado)</li></ul> |
-| | [Paleta de color](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es) | Elija las paletas de colores de visualización que se utilizan en Analysis Workspace y el análisis guiado. <ul><li> Paleta categórica: aplicada a muchas visualizaciones de Analysis Workspace y análisis guiado. Cada color representa un valor categórico distinto. Elija entre las opciones proporcionadas por el Adobe o introduzca una paleta personalizada definida por valores hexadecimales delimitados por comas.</li><li> Paleta divergente: se aplica a la tabla de cohorte en el análisis guiado por el crecimiento de Analysis Workspace y del usuario. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio.<li> Paleta secuencial: se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro.</li></ul> |
+| | [Paleta de color](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es) | Elija las paletas de colores de visualización que se utilizan en Analysis Workspace y el análisis guiado. <ul><li> Paleta categórica: aplicada a muchas visualizaciones de Analysis Workspace y análisis guiado. Cada color representa un valor categórico distinto. Elija entre las opciones que proporciona Adobe o introduzca una paleta personalizada definida por valores hexadecimales delimitados por comas.</li><li> Paleta divergente: se aplica a la tabla de cohorte en el análisis guiado por el crecimiento de Analysis Workspace y del usuario. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio.<li> Paleta secuencial: se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro.</li></ul> |
 | **Datos** | | |
 |  | [Vista de datos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es#report-suite) | Elija desde dónde las tablas y las visualizaciones obtienen sus datos. <ul><li>Más reciente (predeterminado)</li><li>Vista de datos específica seleccionada de una lista</li></ul> |
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es#calendar) | Seleccione de una lista de: <ul><li>Intervalos proporcionados por Adobe (el valor predeterminado es Este mes)</li><li>Intervalos definidos a medida</li></ul> |
@@ -111,7 +111,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | **[Fila](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Desglose por posición | Seleccione esta opción si desea que el desglose permanezca con la posición del elemento en lugar de con el propio elemento. Para obtener más información sobre los desgloses, consulte [Desglose de dimensiones](/help/components/dimensions/t-breakdown-fa.md). |
 | | Cálculo de porcentajes | <ul><li>Columna</li><li>Fila</li></ul> |
-| | Totales de columna (solo filas estáticas) | <ul><li>Mostrar suma de filas: muestra la suma de los elementos de línea individuales </li><li>Mostrar el total general: muestra la suma de filas deduplicadas.</li></ul> |
+| | Totales de columnas (solo filas estáticas) | <ul><li>Mostrar suma de filas: muestra la suma de los elementos de línea individuales </li><li>Mostrar el total general: muestra la suma de filas sin duplicar.</li></ul> |
 
 ## Preferencias de visualizaciones
 

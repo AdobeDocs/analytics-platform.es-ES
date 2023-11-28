@@ -3,10 +3,10 @@ title: Etiquetas y políticas
 description: Descubra cómo las etiquetas y políticas de datos definidas en Adobe Experience Platform afectan a las vistas de datos y a la creación de informes en Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ Puede comprobar si hay una política activada que bloquee el uso de ciertos elem
 
 De nuevo, haga clic en el icono [!UICONTROL filtro] en el carril izquierdo y, debajo de **[!UICONTROL Gobernanza de datos]**, en **[!UICONTROL Políticas]**:
 
-![](assets/filter-policies.png)
+![Filtrar los componentes incluidos por la lista que muestra la opción Aplicar Analytics seleccionada](assets/filter-policies.png)
 
 Haga clic en **[!UICONTROL Aplicar]** para ver qué políticas están habilitadas.
 
@@ -67,7 +67,7 @@ Si las políticas **[!UICONTROL Aplicar Analytics]** o **[!UICONTROL Aplicar des
 
 Estos componentes aparecen atenuados en la lista del carril izquierdo [!UICONTROL Campos de esquema]:
 
-![](assets/component-greyed.png)
+![Componentes atenuados y el mensaje Políticas que indica que se han aplicado políticas a este campo que restringen el uso de los datos](assets/component-greyed.png)
 
 Tampoco puede guardar una vista de datos que tenga campos bloqueados.
 

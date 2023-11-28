@@ -4,10 +4,10 @@ description: Explicar cómo ingerir datos en Customer Journey Analytics mediante
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3607'
-ht-degree: 86%
+source-wordcount: '3616'
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ Para configurar el esquema:
 
    1. Seleccionar **[!UICONTROL Evento de experiencia]**.
 
-      ![Creación de un esquema](./assets/create-ee-schema-wizard-step-1.png)
+      ![Creación de un esquema resaltando el evento de experiencia](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -72,7 +72,7 @@ Para configurar el esquema:
 
    1. Introduzca una **[!UICONTROL Nombre para mostrar del esquema]** para su esquema y (opcional) un **[!UICONTROL Descripción]**.
 
-      ![Asignar un nombre al esquema](./assets/create-ee-schema-wizard-step-2.png)
+      ![Ventana Crear esquema que muestra los campos Asignar nombre al esquema](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Seleccione **[!UICONTROL Finalizar]**.
 

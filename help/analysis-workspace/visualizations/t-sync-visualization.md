@@ -4,10 +4,10 @@ keywords: Analysis Workspace;Sincronizar visualización con fuente de datos
 title: Administración de fuentes de datos
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Al administrar una fuente de datos, puede mostrar la fuente de datos o bloquear 
 1. En la tabla de datos, seleccione las celdas (fuente de datos) que desee asociar con la visualización.
 1. En la visualización, haga clic en el punto al lado del título para que aparezca el cuadro de diálogo **[!UICONTROL Fuente de datos]**. Seleccione **[!UICONTROL Mostrar fuente de datos]** o **[!UICONTROL Bloquear selección]**.
 
-   ![](assets/manage-data-source.png)
+   ![El cuadro de diálogo de la opción Fuente de datos muestra las opciones descritas en la siguiente sección.](assets/manage-data-source.png)
 
    Al sincronizar una visualización con una celda de tabla, se crea una nueva tabla (oculta) y se codifica con colores la visualización sincronizada con esa tabla.
 
@@ -39,10 +39,10 @@ La diferencia de esta nueva arquitectura con respecto a la anterior es que Analy
 
 * Puede crear una visualización de resumen y bloquearla en una celda de la misma tabla en la que la creó. Al activar “Mostrar fuente de datos”, se muestra la procedencia exacta de esta información en la tabla. Los datos de origen aparecerán atenuados:
 
-   ![](assets/data-source2.png)>
+  ![Ubicación del origen de datos en una hoja de cálculo.](assets/data-source2.png)>
 * Puede agregar muchas visualizaciones cuyo origen sean diferentes celdas de una misma tabla, como se muestra aquí. Esta tabla es la misma que en el ejemplo anterior, pero la celda de origen (y la métrica) es diferente:
 
-   ![](assets/data-source3.png)>
+  ![Ubicación de la fuente de datos con visualizaciones agregadas procedentes de varias celdas](assets/data-source3.png)>
 * Puede ver si existen visualizaciones conectadas a una tabla improvisada o de cohorte haciendo clic en el punto superior izquierdo (Configuración de fuente de datos). Al pasar el ratón por encima, se resalta la visualización vinculada y, al hacer clic en ella, se abre.
 
-   ![](assets/linked-visualizations.png)>
+  ![Configuración de fuentes de datos que resalta una visualización vinculada para las vistas de páginas principales.](assets/linked-visualizations.png)>

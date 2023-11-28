@@ -3,10 +3,10 @@ title: Crear y publicar audiencias en el Perfil del cliente en tiempo real
 description: Obtenga información sobre cómo publicar audiencias desde Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 58%
+source-wordcount: '1641'
+ht-degree: 57%
 
 ---
 
@@ -32,7 +32,7 @@ Lea esto [descripción general](/help/components/audiences/audiences-overview.md
 
    Configure estos ajustes para poder publicar la audiencia.
 
-   ![Captura de pantalla de cómo crear una audiencia](assets/create-audience.png)
+   ![Captura de pantalla de la creación de una audiencia que muestra la configuración descrita en la siguiente sección.](assets/create-audience.png)
 
    | Configuración | Descripción |
    | --- | --- |
@@ -52,7 +52,7 @@ Lea esto [descripción general](/help/components/audiences/audiences-overview.md
 
    La vista previa de la audiencia aparece en el carril derecho. Permite realizar un análisis resumido de la audiencia que ha creado.
 
-   ![Captura de pantalla de la previsualización de datos](assets/data-preview.png)
+   ![Captura de pantalla de la vista previa de datos que muestra un análisis resumido de la audiencia.](assets/data-preview.png)
 
    | Configuración de la vista previa | Descripción |
    | --- | --- |
@@ -108,7 +108,7 @@ Para ver las audiencias de los Customer Journey Analytics en Platform, vaya a **
 
 Puede arrastrar audiencias de Customer Journey Analytics a la definición del segmento para segmentos de Adobe Experience Platform.
 
-![](assets/audiences-aep.png)
+![Adobe Resalte los segmentos en el panel izquierdo de la interfaz de usuario de Experience Platform y las audiencias de CJA en el panel principal.](assets/audiences-aep.png)
 
 ## Preguntas frecuentes {#faq}
 

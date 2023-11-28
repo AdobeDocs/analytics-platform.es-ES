@@ -3,10 +3,10 @@ title: Diagrama de dispersión
 description: Una visualización que muestra la relación entre hasta tres métricas.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,6 @@ La visualización del diagrama de dispersión muestra la relación entre los ele
 * La columna situada más a la izquierda (normalmente una métrica) representa la posición del punto en el eje Y (vertical).
 * La segunda columna representa la posición del punto en el eje X (horizontal).
 * La tercera columna determina el radio del punto.
-* La visualización del diagrama de dispersión ignora todas las columnas subsiguientes de una tabla improvisada.
+* La visualización del diagrama de dispersión ignora todas las columnas subsiguientes de una tabla de forma libre.
 
-![Diagrama de dispersión](assets/scatter.png)
+![Ejemplo de diagrama de dispersión que muestra varios elementos de dimensión ](assets/scatter.png)

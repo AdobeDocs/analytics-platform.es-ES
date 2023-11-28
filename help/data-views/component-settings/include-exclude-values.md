@@ -4,10 +4,10 @@ description: Incluya o excluya condicionalmente un elemento de dimensión según
 exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '303'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Incluir valores de exclusión permite crear reglas que dependen del valor de un elemento de dimensión. Los valores que no cumplen los criterios establecidos se tratan en Analysis Workspace como si nunca hubieran existido, aunque los datos aún existan en el conjunto de datos subyacente.
 
-![Incluir exclusión](../assets/include-exclude.png)
+![Ventana Vistas de datos que resalta los valores de exclusión Incluir](../assets/include-exclude.png)
 
 | Configuración | Descripción/caso de uso |
 | --- | --- |
@@ -26,4 +26,4 @@ Incluir valores de exclusión permite crear reglas que dependen del valor de un 
 | [!UICONTROL Operando de coincidencia] | Permite especificar el operando de coincidencia al que se debe aplicar el operador de coincidencia.<ul><li>**Cadena**: Campo de texto</li><li>**Doble/entero**: Campo de texto con flechas arriba/abajo para valores numéricos</li><li>**Fecha**: Selector de granularidad de día (calendario)</li><li>**Fecha y hora**: Selector de granularidad de fecha y hora</li></ul> |
 | [!UICONTROL Añadir regla] | Permite especificar un operador de coincidencia y un operador adicionales. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

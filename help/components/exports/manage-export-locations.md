@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 6%
+source-wordcount: '508'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. Seleccione el [!UICONTROL **Ubicaciones**] y, a continuación, seleccione la ubicación que desee editar.
 
-   ![Editar ubicaciones](assets/locations-edit.png)
+   ![Ventana de exportaciones que muestra la pestaña Ubicaciones y la lista de ubicaciones.](assets/locations-edit.png)
 
 1. Seleccione [!UICONTROL **Editar**].
 
@@ -71,7 +71,7 @@ Para eliminar una ubicación:
 
 1. Seleccione el [!UICONTROL **Ubicaciones**] y, a continuación, seleccione una o varias ubicaciones que desee eliminar.
 
-   ![Editar ubicaciones](assets/locations-edit.png)
+   ![Ventana de exportaciones que muestra la pestaña Ubicaciones y la lista de ubicaciones](assets/locations-edit.png)
 
 1. Seleccione [!UICONTROL **Eliminar**].
 
@@ -89,7 +89,7 @@ Para eliminar una ubicación:
 
 1. Seleccione el [!UICONTROL **Cuentas de ubicación**] pestaña.
 
-   ![Página Cuentas](assets/account-add.png)
+   ![Ventana de exportaciones que muestra la pestaña Cuentas de ubicación](assets/account-add.png)
 
 1. Seleccionar [!UICONTROL **Ver detalles**] en la cuenta que desee editar.
 
@@ -105,7 +105,7 @@ Para ver las claves asociadas a una cuenta de exportación:
 
 1. Seleccione el [!UICONTROL **Cuentas de ubicación**] pestaña.
 
-   ![Página Cuentas](assets/account-add.png)
+   ![Ventana de exportaciones que muestra la pestaña Cuentas de ubicación](assets/account-add.png)
 
 1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Claves de cuenta**].
 
@@ -115,7 +115,7 @@ Para ver las claves asociadas a una cuenta de exportación:
 
 1. Seleccione el [!UICONTROL **Cuentas de ubicación**] pestaña.
 
-   ![Página Cuentas](assets/account-add.png)
+   ![Ventana de exportaciones que muestra la pestaña Cuentas de ubicación](assets/account-add.png)
 
 1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Eliminar cuenta**].
 

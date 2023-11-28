@@ -3,10 +3,10 @@ description: Utilice las visualizaciones Número y cambio de resumen para mostra
 title: Número de resumen y cambio de resumen
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
-source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Esta visualización se comporta de las siguientes maneras:
 * Si se selecciona la columna, se compara el primer valor consigo mismo, lo que da como resultado un cambio de 0.
 
 
-![](assets/summary-change.png)
+![Visualización de cambio de resumen que muestra el delta entre dos números.](assets/summary-change.png)
 
 
 Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Cambio de resumen:

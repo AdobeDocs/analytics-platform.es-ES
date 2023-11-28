@@ -4,10 +4,10 @@ title: Visualización de gráficos combinados
 feature: Visualizations
 role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 95%
+source-wordcount: '843'
+ht-degree: 85%
 
 ---
 
@@ -33,7 +33,7 @@ Recuerde:
 
 1. En la lista desplegable Visualizaciones del carril izquierdo, arrastre la visualización [!UICONTROL Gráfico combinado] a un panel en blanco.
 
-   ![Versión](assets/combo-chart-build.png)
+   ![Gráfico combinado que muestra el eje X e Y y el campo de opciones](assets/combo-chart-build.png)
 
 1. En las listas desplegables, seleccione una dimensión para el eje X y una métrica para el eje Y.
 
@@ -41,9 +41,9 @@ Recuerde:
 
    | Tipo de comparación de líneas | Definición |
    | --- | --- |
-   | **[!UICONTROL Comparación del tiempo]** | El tipo de comparación más común: comparar este período de tiempo con hace cuatro semanas, por ejemplo. Si ha seleccionado [!UICONTROL Comparación temporal], realice una selección secundaria de qué período de tiempo quiere comparar.<p>![Período de tiempo](assets/combo-time-period.png) |
-   | **[!UICONTROL Función]** | Puede introducir una función como [!UICONTROL Promedio] en la comparación. Consulte la lista de funciones admitidas a continuación.<p>![Funciones](assets/combo-functions.png) |
-   | **[!UICONTROL Métrica secundaria]** | Por ejemplo, podría comparar [!UICONTROL Ingresos] con otra métrica.<p>![Dos métricas](assets/combo-2metrics.png) |
+   | **[!UICONTROL Comparación del tiempo]** | El tipo de comparación más común: comparar este período de tiempo con hace cuatro semanas, por ejemplo. Si ha seleccionado [!UICONTROL Comparación temporal], realice una selección secundaria de qué período de tiempo quiere comparar.<p>![Comparación de líneas con el periodo de tiempo seleccionado y el campo de selección secundario para el periodo de tiempo.](assets/combo-time-period.png) |
+   | **[!UICONTROL Función]** | Puede introducir una función como [!UICONTROL Promedio] en la comparación. Consulte la lista de funciones admitidas a continuación.<p>![Menú desplegable de comparación de líneas que muestra Funciones seleccionadas y una lista de funciones compatibles disponibles.](assets/combo-functions.png) |
+   | **[!UICONTROL Métrica secundaria]** | Por ejemplo, podría comparar [!UICONTROL Ingresos] con otra métrica.<p>![Gráfico combinado que compara dos métricas.](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ Recuerde:
 
    El resultado será similar al siguiente:
 
-   ![Output](assets/combo-output.png)
+   ![Gráfico combinado que muestra el período actual en un gráfico de barras y un período de comparación en el gráfico de líneas ](assets/combo-output.png)
 
    El período actual se muestra en el gráfico de barras y el período de comparación se representa mediante el gráfico de líneas. Los puntos en el gráfico de líneas se conocen como “marcadores”.
 
@@ -73,17 +73,17 @@ Si elige **[!UICONTROL Función]** como el [!UICONTROL Tipo de comparación de l
 
 Este es un ejemplo de la media acumulada de la métrica Ingresos:
 
-![Media acumulativa](assets/combo-cumul-avg.png)
+![Gráfico combinado que muestra el promedio acumulado](assets/combo-cumul-avg.png)
 
 Este es un ejemplo de un gráfico combinado con las funciones Media acumulada y Media:
 
-![Dos funciones](assets/combo-two-functions.png)
+![Gráfico combinado que muestra las funciones media acumulada y media.](assets/combo-two-functions.png)
 
 ## Configuración de gráficos combinados
 
 Haga clic en el icono de engranaje en la parte superior derecha de un gráfico combinado para cambiar su configuración.
 
-![Configuración](assets/combo-settings.png)
+![La vista Configuración del gráfico combinado muestra las opciones que se describen a continuación.](assets/combo-settings.png)
 
 | Configuración | Definición |
 | --- | --- |
@@ -94,7 +94,7 @@ Haga clic en el icono de engranaje en la parte superior derecha de un gráfico c
 | **[!UICONTROL Leyenda visible]** | Permite ocultar el texto de leyenda detallado para la visualización de gráficos combinados. |
 | **[!UICONTROL Límite máximo de elementos]** | Reduce el número de elementos en el eje X. Si tiene un conjunto de datos grande, solo puede mostrar los primeros 10 elementos (o el valor que elija). |
 | **[!UICONTROL Superposiciones]** | Muestre u oculte los marcadores en las líneas. |
-| **[!UICONTROL Eje]** |  |
+| **[!UICONTROL Eje]** | |
 | **[!UICONTROL Mostrar eje doble]** | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. El color del eje doble coincide con el color de la tabla, a menos que haya varias comparaciones. En ese caso, el color de todas las comparaciones es gris. |
 | **[!UICONTROL Normalización]** | Fuerza métricas para igualar proporciones. Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | **[!UICONTROL Mostrar eje X]** | Muestra u oculta el eje X. |

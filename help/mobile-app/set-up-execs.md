@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 76%
+source-wordcount: '717'
+ht-degree: 74%
 
 ---
 
@@ -51,7 +51,7 @@ Haga clic en el siguiente vínculo (también está disponible en Customer Journe
 
 Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Customer Journey Analytics; la aplicación es compatible con el Adobe y con los Enterprise/Federated ID.
 
-![Pantalla de bienvenida de la aplicación](assets/welcome.png)
+![Pantalla de bienvenida de paneles de Adobe Analytics](assets/welcome.png)
 
 ## Ayuda para que los ejecutivos accedan al informe de valoración que ha creado
 
@@ -74,7 +74,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
 Explique al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de resultados compartidos.
 
-![Explicación de los mosaicos](assets/newexplain.png)
+![Explicar los mosaicos, incluido el intervalo de fechas, el filtro de segmentos y las métricas y dimensiones seleccionadas](assets/newexplain.png)
 
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 

@@ -5,10 +5,10 @@ title: Desglose de dimensiones
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '347'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ Desglose los datos de forma ilimitada para sus necesidades específicas; genere 
 1. [Cree un proyecto](/help/analysis-workspace/home.md) con una tabla de datos.
 1. En la tabla de datos, haga clic con el botón secundario en un elemento de línea y seleccione **[!UICONTROL Desglosar]** > *`<item>`*.
 
-   ![Resultado](assets/fa_data_table_actions.png)
+   ![Resultado del paso que muestra Crear alerta a partir de la selección seleccionada.](assets/fa_data_table_actions.png)
 
    Puede desglosar métricas por elementos de dimensión o filtros de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 
@@ -41,7 +41,7 @@ Desglose los datos de forma ilimitada para sus necesidades específicas; genere 
 
 Cualquier desglose dentro de una tabla también puede tener aplicado cualquier modelo de atribución. Este modelo de atribución puede ser el mismo o diferente de la columna principal. Por ejemplo, puede analizar Pedidos lineales en su dimensión de Canales de marketing pero aplicar Pedidos en forma de U a los códigos de seguimiento específicos dentro de un Canal. Para editar el modelo de atribución aplicado a un desglose, simplemente sitúe el ratón encima del modelo de desglose y haga clic en **[!UICONTROL Editar]**:
 
-![Configuración del desglose](assets/breakdown_settings.png)
+![Comparación de atribución de pedidos que muestra la configuración de desglose](assets/breakdown_settings.png)
 
 Este es el comportamiento esperado al aplicar modelos de atribución a desgloses o editarlos:
 

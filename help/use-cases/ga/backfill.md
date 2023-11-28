@@ -4,10 +4,10 @@ description: Explica cómo utilizar Adobe Customer Journey Analytics para introd
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 91%
+source-wordcount: '634'
+ht-degree: 90%
 
 ---
 
@@ -81,7 +81,7 @@ En Google Cloud Platform, vaya a **Exportar > Exportar a GCS**. Una vez que los 
 
 Puede asignar los datos de evento de GA a un conjunto de datos existente que haya creado anteriormente, o crear uno, utilizando el esquema XDM que elija. Una vez que haya seleccionado el esquema, Experience Platform aplica el aprendizaje automático para asignar automáticamente previamente cada uno de los campos de los datos de Google Analytics a su [esquema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es#ui).
 
-![Mapa del esquema](../assets/schema-map.png)
+![Asignación de esquema que resalta los campos de datos de GA y las asignaciones de esquema de Target](../assets/schema-map.png)
 
 Una vez que haya terminado de asignar los campos al esquema XDM, puede programar esta importación de forma recurrente y aplicar la validación de errores durante el proceso de ingesta. Esta validación garantiza que no haya ningún problema con los datos importados.
 

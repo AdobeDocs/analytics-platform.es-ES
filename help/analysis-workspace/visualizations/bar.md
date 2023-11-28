@@ -3,10 +3,10 @@ description: La visualización de barras muestra barras verticales que represent
 title: Barra y barra apilada
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Esta visualización muestra las barras verticales que representan los distintos valores de una o varias métricas.
 
-![](assets/bar.png)
+![Visualización de barras verticales que muestran varias métricas, incluidas Vistas de página, Visitas, Entradas y Salidas.](assets/bar.png)
 
 Un menú desplegable de granularidad en la configuración de visualización le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc.
 
@@ -24,8 +24,8 @@ Un menú desplegable de granularidad en la configuración de visualización le p
 
 Esta visualización es similar a un gráfico de barras, pero con las barras de series apiladas en la parte superior de cada barra.
 
-![](assets/bar-stacked.png)
+![Gráfico de barras apiladas que muestra varias métricas.](assets/bar-stacked.png)
 
 Una nueva configuración en las visualizaciones de barras apiladas convierte el gráfico en una visualización apilada al 100 %:
 
-![](assets/stacked_100_percent.png)
+![Gráfico de barras apiladas al 100 %.](assets/stacked_100_percent.png)

@@ -3,10 +3,10 @@ description: El Administrador de métricas calculadas ofrece numerosas maneras d
 title: Administrador de métricas calculadas
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '705'
+ht-degree: 17%
 
 ---
 
@@ -16,7 +16,7 @@ La página Métricas calculadas ofrece numerosas maneras de conservar las métri
 
 El Administrador de métricas calculadas le muestra todos los filtros que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todas las métricas personalizadas de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de métricas calculadas.
 
-![](assets/calc-metric-manager.png)
+![Ventana de métricas calculadas que muestra los filtros disponibles.](assets/calc-metric-manager.png)
 
 ## Acceso al Administrador de métricas calculadas
 
@@ -28,7 +28,7 @@ En el Administrador de métricas calculadas, puede:
 
 * [Filtrar métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-filter.md)
 
-* [Marcar métricas calculadas como favoritas](/help/components/calc-metrics/cm-workflow/cm-favorite.md)
+* [Marcar una métrica calculada como favorita](/help/components/calc-metrics/cm-workflow/cm-favorite.md)
 
 * [Aprobar métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-approving.md)
 

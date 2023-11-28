@@ -4,9 +4,9 @@ description: Explica cómo gestiona Customer Journey Analytics las dimensiones c
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '526'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ Al utilizar una dimensión que contiene muchos valores únicos, el informe resul
 
 Cuando se solicita un informe con demasiados valores únicos, Analysis Workspace muestra un indicador en el encabezado de la dimensión que indica que no se incluyen todos los elementos de dimensión. Por ejemplo, &quot;Filas: 1-50 de más de 22 343 156&quot;. La palabra clave &quot;más que&quot; indica que se aplicó cierta optimización al informe para devolver los elementos de dimensión más importantes.
 
-![Previsualización de Workspace](assets/high-cardinality.png)
+![Tabla de forma libre en el espacio de trabajo que muestra la palabra clave &quot;más que&quot; para mostrar del 1 al 50 de más de 22 343 156](assets/high-cardinality.png)
 
 ## Determinación de los elementos de dimensión que se van a mostrar
 

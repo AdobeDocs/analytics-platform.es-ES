@@ -3,10 +3,10 @@ description: Utilice la visualización de líneas para representar conjuntos de 
 title: Líneas
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: 228578ceae27bb83645001fb959a614283dcca33
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 86%
+source-wordcount: '521'
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->La visualización Línea pronto estará presente [rótulos inteligentes](/help/analysis-workspace/visualizations/intelligent-captions.md).
+>La visualización Línea estará disponible próximamente [subtítulos inteligentes](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
 La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
 
@@ -36,7 +36,7 @@ Un menú desplegable de granularidad en la [configuración de visualización](fr
 
 En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar mín/máx]**, puede superponer una etiqueta de valor mínimo y máximo para resaltar rápidamente los picos y las bajas de una métrica. Nota: Los valores mínimo/máximo se derivan de los puntos de datos visibles en la visualización, no del conjunto completo de valores dentro de una dimensión.
 
-![Mostrar mín./máx.](assets/min-max-labels.png)
+![Una superposición con la etiqueta de valor mínimo y máximo.](assets/min-max-labels.png)
 
 ## Mostrar superposición de la línea de tendencia
 

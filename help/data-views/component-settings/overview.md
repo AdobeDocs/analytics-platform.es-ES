@@ -4,10 +4,10 @@ description: Vea la configuración principal de un componente de vista de datos.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 70%
+source-wordcount: '490'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 Configuración principal que utiliza un componente de vista de datos.
 
-![Configuración de componentes](../assets/component-settings.png)
+![La configuración de componentes se describe en esta sección](../assets/component-settings.png)
 
 | Configuración | Descripción/caso de uso |
 | --- | --- |

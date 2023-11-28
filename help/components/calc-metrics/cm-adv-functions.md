@@ -3,9 +3,9 @@ title: 'Referencia: funciones avanzadas'
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3123'
 ht-degree: 98%
 
 ---
@@ -61,11 +61,11 @@ El número aproximado de elementos distintos (eVar del ID del cliente) es un cas
 
 Definición para una nueva métrica calculada “Clientes aproximados”:
 
-![](assets/approx-count-distinct.png)
+![Nueva definición de dimensión aproximada del condado que muestra el ID del cliente (eVar 1)](assets/approx-count-distinct.png)
 
 Así es como se podría usar la métrica “Clientes aproximados” en un informe:
 
-![](assets/approx-customers.png)
+![Tabla de forma libre que muestra visitantes únicos y clientes aproximados ](assets/approx-customers.png)
 
 ## Se excedió la cantidad de valores exclusivos
 

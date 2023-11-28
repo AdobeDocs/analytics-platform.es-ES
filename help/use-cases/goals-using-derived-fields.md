@@ -4,9 +4,9 @@ description: Descubra cómo puede utilizar los campos derivados para informar so
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
-source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Desea establecer explícitamente objetivos para los pedidos de certificados de r
 
 1. Establezca valores estáticos, utilizando una REGLA CASE WHEN, para cada mes, estableciendo un **[!UICONTROL Valor numérico personalizado]**. Consulte la regla Objetivos de producto mensuales a continuación.
 
-   ![Objetivos del producto](assets/goals-derived-field-product-goals-1.png)
+   ![Metas mensuales del producto](assets/goals-derived-field-product-goals-1.png)
 
 
 ### Objetivos de ingresos del canal de marketing

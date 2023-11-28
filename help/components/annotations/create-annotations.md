@@ -4,10 +4,10 @@ description: Cómo crear anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 76%
+source-wordcount: '711'
+ht-degree: 75%
 
 ---
 
@@ -32,7 +32,7 @@ Sin embargo, los administradores pueden dar el permiso de [!UICONTROL Creación 
 
 1. Rellene los elementos del [!UICONTROL Creador de anotaciones.]
 
-   ![](assets/ann-builder.png)
+   ![Ventana de detalles de anotación que muestra los campos y las opciones descritas en la sección siguiente.](assets/ann-builder.png)
 
    | Elemento | Descripción |
    | --- | --- |

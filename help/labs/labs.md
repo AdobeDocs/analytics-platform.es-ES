@@ -4,10 +4,10 @@ description: Vista previa de proyectos de prototipo para Customer Journey Analyt
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 91%
+source-wordcount: '425'
+ht-degree: 89%
 
 ---
 
@@ -55,13 +55,13 @@ Para iniciar y evaluar un prototipo:
 
 1. Haga clic en **[!UICONTROL Enviar comentarios]** para proporcionar comentarios en el cuadro de mensaje en cualquier momento mientras trabaja con el prototipo.
 
-   ![feedback_box](assets/give_feedback.png)
+   ![Ventana de comentarios](assets/give_feedback.png)
 
 1. Haga clic en **[!UICONTROL Enviar]** para enviar sus comentarios.
 
 1. Para probar un prototipo diferente o salir del entorno de prototipo, haga clic en **[!UICONTROL Dejar prototipo]** en la parte superior derecha de la pantalla y complete la encuesta breve del prototipo. Cualquier cambio realizado en un proyecto prototipo se pierde al salir del entorno de prototipos.
 
-   ![new feedback box](assets/short-survey.png)
+   ![Ventana Comentarios sobre rutas inteligentes](assets/short-survey.png)
 
 1. Haga clic en **[!UICONTROL Enviar]** para volver al portal principal de vistas previas.
 

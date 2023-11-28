@@ -3,10 +3,10 @@ description: Muestra los cinco valores principales correspondientes a las dimens
 title: Previsualización de dimensiones en Customer Journey Analytics Workspace
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 95%
+source-wordcount: '212'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 Sitúe el ratón encima del icono de información (i) que encontrará junto a una dimensión. Se mostrarán los cinco valores principales correspondientes a las dimensiones que no sean temporales. En el caso de las dimensiones temporales, se mostrarán los 15 valores principales. Anteriormente estos valores solían ser estáticos, es decir, los cinco valores seleccionados no cambiaban nunca.
 
-![](assets/dimension-preview.png)
+![Los cinco valores principales para las dimensiones que no sean temporales.](assets/dimension-preview.png)
 
 Ahora, y de forma predeterminada, se mostrarán valores dinámicos en lugar de valores estáticos, con la opción de convertirlos en estáticos. Otros aspectos que considerar:
 
@@ -22,7 +22,7 @@ Ahora, y de forma predeterminada, se mostrarán valores dinámicos en lugar de v
 * Las columnas de dimensión dinámica que se copien o se muevan pasarán a ser de dimensión estática.
 * Al pasar el ratón por encima de una columna de dimensión estática, verá un icono de bloqueo que indicará que la dimensión es estática.
 
-![](assets/dimension_static.png)
+![Ventana emergente de la columna del Dimension que resalta el icono de bloqueo.](assets/dimension_static.png)
 
 ## Mostrar los elementos de la dimensión
 

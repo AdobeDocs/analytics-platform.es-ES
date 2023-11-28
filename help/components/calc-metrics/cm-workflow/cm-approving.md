@@ -3,10 +3,10 @@ description: En el Administrador de métricas calculadas, puede configurar un fl
 title: Aprobar métricas calculadas
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 19%
+source-wordcount: '245'
+ht-degree: 18%
 
 ---
 
@@ -34,6 +34,6 @@ Para marcar las métricas calculadas como aprobadas:
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
-   Fíjese en el icono de aprobación que aparece junto a la métrica calculada en la lista:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
+   Fíjese en el icono de aprobación que aparece junto a la métrica calculada en la lista:  ![Marca de verificación del icono de aprobación en un círculo.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
 1. (Opcional) Para filtrar la lista de métricas calculadas en el Administrador de métricas calculadas para mostrar solo las métricas aprobadas, seleccione la opción **Filtrar** icono, expandir **[!UICONTROL Otros filtros]**, luego seleccione **[!UICONTROL Aprobado]**.

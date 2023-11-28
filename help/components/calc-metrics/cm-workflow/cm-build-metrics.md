@@ -3,10 +3,10 @@ description: El Generador de métricas calculadas proporciona un lienzo en el qu
 title: Crear métricas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 61%
+source-wordcount: '1069'
+ht-degree: 60%
 
 ---
 
@@ -26,7 +26,7 @@ Puede empezar a crear una métrica calculada de cualquiera de las siguientes man
 
 La siguiente imagen y la tabla adjunta explican algunas de las áreas y características principales del Creador de métricas calculadas.
 
-![](assets/cm_builder_ui.png)
+![Nueva ventana de métricas calculadas que muestra las áreas y funciones principales descritas en esta sección.](assets/cm_builder_ui.png)
 
 | Campo | Descripción |
 | --- | --- |

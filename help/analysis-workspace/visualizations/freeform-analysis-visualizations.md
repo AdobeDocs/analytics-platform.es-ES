@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 0022df4fa6022d5b045e47b606f4a6d1687f7244
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 84%
+source-wordcount: '1323'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
    * En el carril izquierdo, seleccione **Visualizaciones** icono <!-- add icon -->A continuación, arrastre una visualización al panel donde desee agregarla.
 
-     ![](assets/viz-rail.png)
+     ![Panel de visualizaciones](assets/viz-rail.png)
 
    * En el panel donde desee añadir la visualización, seleccione **Plus** y, a continuación, elija el icono que representa la visualización que desea añadir. Pase el ratón sobre el icono de cada visualización para ver su nombre.
 
@@ -81,14 +81,14 @@ Puede personalizar la configuración de todas las visualizaciones que cree. Para
 
 Cada visualización tiene su propia configuración que puede administrar. Para acceder a [!UICONTROL Configuración de visualización], haga clic en el icono de engranaje [!UICONTROL Configuración de visualización].
 
-![Configuración](assets/settings.png)
+![Configuración de visualizaciones que muestra las opciones de configuración descritas en la siguiente sección.](assets/settings.png)
 
 | Configuración | Descripción |
 | --- | --- |
 | Tipo de visualización | Cambie el tipo de imagen que se utiliza para representar los datos. |
 | Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. Este cambio también se aplica a la tabla de fuente de datos. |
 | Porcentajes | Muestra valores en porcentajes. |
-| Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. Ejemplo: ![Apilada al 100 %](assets/stacked_100_percent.png) |
+| Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. Ejemplo: ![Gráfico de barras que muestra la vista de opciones Apiladas al 100 %.](assets/stacked_100_percent.png) |
 | Leyenda visible | Le permite ocultar el texto de detalles de la leyenda para la visualización de Número de resumen/Resumen del cambio. |
 | Límite máximo de elementos | Le permite limitar el número de elementos que se muestran en una visualización. |
 | Eje Y delimitador a cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
@@ -107,7 +107,7 @@ Para editar una etiqueta de leyenda:
 1. Haga clic con el botón derecho en una de las etiquetas de leyenda.
 1. Haga clic en **[!UICONTROL Editar etiqueta]**.
 
-   ![Editar etiqueta](assets/edit-label.png)
+   ![Una etiqueta de leyenda y la opción Editar etiqueta.](assets/edit-label.png)
 
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
@@ -116,7 +116,7 @@ Para editar una etiqueta de leyenda:
 
 Una funcionalidad adicional está disponible haciendo clic con el botón derecho en el encabezado de la visualización. La configuración variará según la visualización. Algunos de los ajustes disponibles son:
 
-![Clic con el botón derecho](assets/right-click.png)
+![Configuración de visualización adicional con las opciones mostradas al hacer clic con el botón derecho. Las opciones se describen en la siguiente sección.](assets/right-click.png)
 
 | Configuración | Descripción |
 | --- | --- |

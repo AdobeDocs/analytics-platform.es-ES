@@ -4,10 +4,10 @@ description: Describe cómo usar visualizaciones básicas para analizar datos en
 feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 90%
 
 ---
 
@@ -23,6 +23,6 @@ A continuación, verá un ejemplo de visualizaciones básicas el Espacio de trab
 
 * Indique el tamaño de la audiencia según las fuentes de datos, como los datos de impresiones de publicidad, los datos de Customer Journey Analytics, los datos de correo electrónico, del POS, del centro de llamadas y de las encuestas.
 
-![](assets/cja-basic-analysis.png)
+![Visualizaciones de ejemplo de gráficos básicos de análisis. ](assets/cja-basic-analysis.png)
 
-![](assets/cja-basic-analysis2.png)
+![Más ejemplos de visualizaciones de gráficos de análisis básicos](assets/cja-basic-analysis2.png)

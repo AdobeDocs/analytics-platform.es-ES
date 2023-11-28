@@ -4,10 +4,10 @@ description: Describe cómo realizar análisis avanzados de Customer Journey Ana
 feature: Workspace Basics
 exl-id: 17f50618-54eb-4d60-9f5e-62aab9a3c49b
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 100%
+source-wordcount: '52'
+ht-degree: 65%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 100%
 
 El análisis avanzado aprovecha características como los diagramas de [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md), [Attribution ](/help/analysis-workspace/c-panels/attribution.md), [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y [desgloses de dimensión](/help/components/dimensions/t-breakdown-fa.md).
 
-![Captura de pantalla del espacio de trabajo 1](assets/cja-adv-analysis1.png)
+![Análisis avanzado mostrado en un diagrama de flujo.](assets/cja-adv-analysis1.png)
 
-![Captura de pantalla del espacio de trabajo 2](assets/cja-adv-analysis2.png)
+![Varios ejemplos de visualización, como gráficos de barras circulares, Venn y apiladas.](assets/cja-adv-analysis2.png)

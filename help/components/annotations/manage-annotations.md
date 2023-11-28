@@ -4,10 +4,10 @@ description: Cómo administrar anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 85%
+source-wordcount: '692'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ El administrador [!UICONTROL Anotaciones] le muestra todas las anotaciones que p
 
 ## Interfaz de usuario del Administrador de anotaciones
 
-![](assets/annotation-mgr.png)
+![Las opciones de anotaciones, como compartir, etiquetar o copiar, que se describen en la siguiente sección.](assets/annotation-mgr.png)
 
 | Elemento de la IU | Descripción |
 | --- | --- | 

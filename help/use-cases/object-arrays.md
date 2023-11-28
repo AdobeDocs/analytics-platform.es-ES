@@ -1,10 +1,10 @@
 ---
 title: Usar matrices de objetos
-description: Comprender cómo Customer Journey Analytics informa sobre las jerarquías de datos.
+description: Obtenga información sobre cómo el Customer Journey Analytics informa sobre las jerarquías de datos.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 66%

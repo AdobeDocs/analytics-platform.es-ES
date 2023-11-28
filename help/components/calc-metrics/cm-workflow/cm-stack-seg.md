@@ -3,10 +3,10 @@ description: Muestra cómo apilar y sustituir filtros dentro del Generador de m�
 title: Apilado y reemplazo de filtros
 feature: Calculated Metrics
 exl-id: a396599c-2033-40a7-90b5-f9c84106c328
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 32%
+source-wordcount: '111'
+ht-degree: 24%
 
 ---
 
@@ -20,7 +20,7 @@ Puede apilar y reemplazar filtros dentro del Creador de métricas calculadas.
 
 1. En el lienzo Definición, suelte el nuevo filtro junto al existente:
 
-![](assets/cm_stack_seg.png)
+![El lienzo de definición que muestra la métrica Visitantes de EE. UU. se redujo junto a los Visitantes internacionales existentes.](assets/cm_stack_seg.png)
 
 ## Reemplazo de un filtro por otro {#replace-filter}
 
@@ -28,4 +28,4 @@ Puede apilar y reemplazar filtros dentro del Creador de métricas calculadas.
 
 1. En el lienzo Definición, suelte el nuevo filtro encima del existente:
 
-![](assets/cm_replace_seg.png)
+![El lienzo de definición que muestra los visitantes estadounidenses se situó sobre la métrica Visitantes internacionales.](assets/cm_replace_seg.png)

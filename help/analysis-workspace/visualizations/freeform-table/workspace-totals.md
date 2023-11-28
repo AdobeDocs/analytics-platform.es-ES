@@ -1,12 +1,12 @@
 ---
-description: Cálculo de totales de Workspace.
+description: Descubra cómo se calculan los totales de Workspace.
 title: Totales de Workspace
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 81%
+source-wordcount: '522'
+ht-degree: 76%
 
 ---
 
@@ -17,13 +17,13 @@ En las tablas de forma libre, aparece una fila total en cada nivel de desglose y
 * **[!UICONTROL Total general]** (número &quot;de&quot; gris): este total representa todos los eventos recopilados. Cuando se aplica un filtro en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todos los eventos que coinciden con los criterios de filtro.
 * **[!UICONTROL Total de tabla]** (número negro): Este total suele ser igual o un subconjunto del [!UICONTROL total general]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno].
 
-![](assets/total-row.png)
+![Tabla de forma libre que resalta el total general y el total de tabla.](assets/total-row.png)
 
 ## Mostrar configuración total
 
 En **[!UICONTROL Configuración de columna]** hay opciones para **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]**. Si esta configuración no está marcada, los totales se eliminarán de la tabla. Esto puede ser útil en casos en los que los totales no tengan sentido, por ejemplo, en ciertos [casos de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=es).
 
-![](assets/column-settings-total.png)
+![Opciones de configuración de columna que muestran marcas de verificación para Mostrar totales y Mostrar total de concesión.](assets/column-settings-total.png)
 
 ## Configuración total de fila estática
 
@@ -32,7 +32,7 @@ Los totales de [filas estáticas](/help/analysis-workspace/visualizations/freefo
 * **[!UICONTROL Mostrar la suma de las filas actuales como el total]** - esto muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no** anule la duplicación de métricas como visitas o personas.
 * **[!UICONTROL Mostrar total general]** : muestra una suma del lado del servidor, lo que significa que el total eliminará la duplicación de métricas como visitas o personas.
 
-![](assets/static-rows.png)
+![Configuración de fila que muestra Mostrar total general seleccionado.](assets/static-rows.png)
 
 ## Preguntas frecuentes
 

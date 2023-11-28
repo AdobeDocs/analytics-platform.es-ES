@@ -2,10 +2,11 @@
 description: Filtre por etiquetas, vista de datos, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
 title: Filtrar métricas calculadas
 feature: Calculated Metrics
-source-git-commit: 59b120022fcb149e6bfcab0039efc5a802995b92
+exl-id: 902da464-14de-45b9-bd92-d2db064cb095
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 29%
+source-wordcount: '216'
+ht-degree: 30%
 
 ---
 
@@ -19,7 +20,7 @@ El filtrado facilita la búsqueda de métricas calculadas en el carril del segme
 
 1. En el Administrador de métricas calculadas, haga clic en **[!UICONTROL Filtros]** icono:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+   ![Administrador de métricas calculadas que muestra el icono Filtros y los filtros disponibles, como Etiquetas, Grupo de informes y Propietarios.](assets/filtering.png)
 
 1. Los filtros disponibles son los siguientes:
 

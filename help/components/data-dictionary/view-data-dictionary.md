@@ -4,10 +4,10 @@ title: Visualización del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 48%
+source-wordcount: '362'
+ht-degree: 71%
 
 ---
 
@@ -23,7 +23,7 @@ Para ver información acerca de un componente en el diccionario de datos:
 
    Se muestra la ventana Diccionario de datos.
 
-   ![data-dictionary.png](assets/data-dictionary.png)
+   ![Ventana Diccionario de datos que muestra los filtros rápidos para Dimension, métricas, segmentos e intervalos de fechas](assets/data-dictionary.png)
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
@@ -35,7 +35,7 @@ Para ver información acerca de un componente en el diccionario de datos:
 
 {{dd-filter-criteria}}
 
-1. (Opcional) Seleccione la **Ordenar** icono ![Icono Ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), luego seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+1. (Opcional) Seleccione el icono de **Ordenar** ![icono de Ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
 
    {{components-sort-options}}
 
