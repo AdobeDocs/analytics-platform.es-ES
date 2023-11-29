@@ -4,7 +4,7 @@ description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: análisis de productos
-source-git-commit: e39ab8af98e2bf2a4e63ef49e0ebce472cc1f45f
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 2%
@@ -45,7 +45,7 @@ El [!UICONTROL Uso] La vista ofrece la siguiente configuración de gráfico, que
 
 Agregue datos adicionales al gráfico. Cuando hay más de una serie visible en el gráfico, las superposiciones solo aparecen al pasar el ratón por encima.
 
-* **[!UICONTROL Detección de anomalías]**: Ejecuciones [detección de anomalías](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) en el análisis de tendencias. Los valores atípicos aparecen como puntos sobre los que puede situarse para obtener más información.
+* **[!UICONTROL Detección de anomalías]**: Ejecuciones [detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) en el análisis de tendencias. Los valores atípicos aparecen como puntos sobre los que puede situarse para obtener más información.
 * **[!UICONTROL Superposición de línea de tendencia]**: añade una línea de tendencia al gráfico para mostrar un patrón más claro en los datos.
    * [!UICONTROL Lineal]: crea una línea de regresión recta. Ideal para datos lineales simples que aumentan o disminuyen a una velocidad constante. Ecuación: `y = a + b * x`
    * [!UICONTROL Logarítmico]: crea una línea de regresión curva. Ideal para datos que aumentan o disminuyen rápidamente y luego se vuelven más nivelados. Ecuación: `y = a + b * log(x)`

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 648acd49d6cc38531f50df0a7d78ec6dce533d01
+source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 81%
+source-wordcount: '1046'
+ht-degree: 82%
 
 ---
 
@@ -167,12 +167,10 @@ ht-degree: 81%
       + [Descargar](../analysis-workspace/export/download-send.md)
       + [Enviar a otras personas](../analysis-workspace/export/t-schedule-report.md)
       + [Exportación a la nube](../analysis-workspace/export/export-cloud.md)
-   + Analista virtual {#virtual-analyst}
-      + [Descripción general del analista virtual](../analysis-workspace/virtual-analyst/overview.md)
-      + Detección de anomalías {#anomaly-detection}
-         + [Resumen de la Detección de anomalías](../analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Visualización de anomalías en Analysis Workspace](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [Técnicas estadísticas utilizadas en la detección de anomalías](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + Detección de anomalías {#anomaly-detection}
+      + [Resumen de la Detección de anomalías](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Visualización de anomalías en Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Técnicas estadísticas utilizadas en la detección de anomalías](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Preferencias de usuario](../analysis-workspace/user-preferences.md)
    + Preguntas frecuentes sobre de Workspace {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)
@@ -252,7 +250,7 @@ ht-degree: 81%
          + [Apilado y reemplazo de filtros](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Métricas filtradas y ponderadas](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [Filtrar métricas calculadas](../components/calc-metrics/cm-workflow/cm-filter.md)
-         + [Marcar métricas calculadas como favoritas](../components/calc-metrics/cm-workflow/cm-favorite.md)
+         + [Marcar una métrica calculada como favorita](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [Copiar métricas calculadas](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [Uso de funciones](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [Etiquetar métricas calculadas](../components/calc-metrics/cm-workflow/cm-tagging.md)

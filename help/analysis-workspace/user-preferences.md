@@ -4,7 +4,7 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
 workflow-type: tm+mt
 source-wordcount: '3228'
 ht-degree: 87%
@@ -130,7 +130,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Mostrar doble eje (cuando corresponda) | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | | Normalización (cuando corresponda) | Fuerza métricas para igualar proporciones. Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | | Anclar el eje Y en cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
-| | Permitir que las anomalías escalen el eje Y | Si tiene varias métricas en un gráfico, debe pasar el ratón sobre cada anomalía para ver la banda de confianza de la métrica. Para que la visualización sea más legible, el intervalo de confianza de Detección de anomalías no escala automáticamente el eje Y. Esta opción permite que el intervalo de confianza escale la visualización. <p>Para obtener más información, consulte [Ver anomalías en Analysis Workspace](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md).</p> |
+| | Permitir que las anomalías escalen el eje Y | Si tiene varias métricas en un gráfico, debe pasar el ratón sobre cada anomalía para ver la banda de confianza de la métrica. Para que la visualización sea más legible, el intervalo de confianza de Detección de anomalías no escala automáticamente el eje Y. Esta opción permite que el intervalo de confianza escale la visualización. <p>Para obtener más información, consulte [Ver anomalías en Analysis Workspace](/help/analysis-workspace/c-anomaly-detection/view-anomalies.md).</p> |
 | **[Líneas](/help/analysis-workspace/visualizations/line.md)** | | |
 | | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Línea. |
 | | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización de línea. |
