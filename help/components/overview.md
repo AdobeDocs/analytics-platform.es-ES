@@ -4,10 +4,10 @@ description: Descubra qué componentes son las ofertas de los Customer Journey A
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 80%
+source-wordcount: '1146'
+ht-degree: 79%
 
 ---
 
@@ -36,7 +36,7 @@ Los componentes de Analysis Workspace están formados por métricas, dimensiones
 
 Para acceder al panel Componentes, haga clic en el icono **[!UICONTROL Componentes]** del carril izquierdo. Puede alternar entre paneles (Panel en blanco, [Panel de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Información rápida](/help/analysis-workspace/c-panels/quickinsight.md), o [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) panel), [Visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), y Componentes con los iconos del carril izquierdo o con [métodos abreviados de teclado](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
-![Icono Componentes](assets/components.png)
+![Panel de Workspace que resalta el icono Componentes en el carril izquierdo](assets/components.png)
 
 Consulte [Crear un proyecto](/help/analysis-workspace/home.md) para obtener información sobre el uso de Componentes en un proyecto.
 
@@ -75,7 +75,7 @@ Puede administrar componentes directamente en el carril izquierdo.
    >   Para seleccionar varios componentes, mantenga pulsada la tecla Mayús o Comando (en Mac) o Ctrl (en Windows).
 
 
-   ![Lista Acciones de componente](assets/component-actions.png)
+   ![Lista de acciones de componente que muestra Etiquetar, Favorito, aprobar, Compartir y Eliminar.](assets/component-actions.png)
 
    | Acción de componente | Descripción |
    |--- |--- |

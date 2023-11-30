@@ -3,7 +3,7 @@ title: Tabla de forma libre
 description: Las tablas de forma libre son la base del análisis de datos en Workspace
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 91%

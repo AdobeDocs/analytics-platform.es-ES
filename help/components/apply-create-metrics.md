@@ -3,10 +3,10 @@ description: Hay dos modos de utilizar métricas en Analysis Workspace.
 title: Métricas
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 51%
+source-wordcount: '397'
+ht-degree: 49%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 * **Plantillas de métricas calculadas**  <img src="./assets/adobe-logo.svg" width="18"> : métricas definidas por el Adobe que se comportan de manera similar a las métricas calculadas. Puede utilizarlas tal cual en los proyectos de Workspace o guardar una copia para personalizar su lógica.
 
 
-![Métricas en la IU de](assets/cja-metrics.png)
+![Panel de Workspace que resalta las métricas en el panel izquierdo.](assets/cja-metrics.png)
 
 Puede ver si una métrica está aprobada ![Icono de aprobado](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  o no. Si desea obtener más detalles sobre una métrica, pase el ratón sobre ella y seleccione ![Icono de información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg).
 
@@ -40,7 +40,7 @@ Puede seleccionar **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calcula
 
 Con el fin de facilitar la creación rápida de métricas calculadas, se ha añadido la opción **[!UICONTROL Crear métrica a partir de la selección]** al menú de columna que se abre al hacer clic con el botón secundario en las tablas improvisadas. Esta opción se muestra cuando se selecciona al menos una celda de columna de encabezado.
 
-![Crear desde selección](assets/create-metric-from-selection.png)
+![Resaltado del panel Espacio de trabajo Crear desde selección](assets/create-metric-from-selection.png)
 
 [Métricas calculadas: métricas sin implementación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=es) (3:42)
 
@@ -48,6 +48,6 @@ Con el fin de facilitar la creación rápida de métricas calculadas, se ha aña
 
 Si desea comparar rápida y fácilmente un modelo de atribución con otro, haga clic con el botón derecho en una métrica y seleccione **[!UICONTROL Comparar modelos de atribución]**:
 
-![Comparar atribución](assets/compare-attribution.png)
+![Resaltar el panel de Workspace Comparar modelos de atribución](assets/compare-attribution.png)
 
 Este método abreviado permite comparar rápida y fácilmente un modelo de atribución con otro sin tener que arrastrar una métrica y configurarla dos veces.
