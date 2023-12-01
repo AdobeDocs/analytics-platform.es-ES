@@ -3,10 +3,10 @@ description: Obtenga información acerca de las limitaciones conocidas en Adobe 
 title: Limitaciones conocidas en Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 84%
+source-wordcount: '320'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,6 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 * La creación de métricas a partir de una selección se desactiva cuando los filtros se utilizan como filas de una tabla. Además, la creación de una métrica a partir de una selección no debe aplicarse a columnas alineadas con la fecha.
 * El formato condicional de las filas de desglose no puede utilizar intervalos personalizados.
 * Las filas totales de la tabla no pueden incluir tendencias cuando se calculan los totales sumando la configuración de valores de fila (generalmente se utiliza con elementos de fila estáticos).
-* [!UICONTROL El análisis de contribución] se puede ejecutar _solo_ con la granularidad [!UICONTROL diaria]. No se puede ejecutar con datos [!UICONTROL por hora], [!UICONTROL semanales], etc.
 
 ## Visualizaciones
 

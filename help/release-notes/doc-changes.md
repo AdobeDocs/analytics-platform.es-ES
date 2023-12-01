@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
+source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
 workflow-type: tm+mt
-source-wordcount: '2919'
-ht-degree: 95%
+source-wordcount: '2966'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Diciembre de 2023** | |
+| Actualizaciones en la documentación de Detección de anomalías | Anteriormente, la documentación de Detección de anomalías se encontraba en una sección sobre Analista virtual. Se han realizado los siguientes cambios: <ul><li>El término Analista virtual se ha eliminado de la documentación.</li><li>La sección sobre [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) se ha movido directamente debajo de la sección Analysis Workspace.</li></ul> |
 | **Octubre de 2023** | |
 | Usar un campo derivado para establecer metas/objetivos | Añadido [caso de uso](../use-cases/goals-using-derived-fields.md) artículo que ilustra cómo utilizar campos derivados para establecer metas/objetivos e informar sobre estos. |
 | Exportar tablas completas a la nube | Se ha añadido documentación sobre la exportación de tablas completas con millones de filas del Espacio de trabajo a destinos en la nube. <p>La exportación de tablas completas ofrece un envío único o programado de tablas de datos diseñadas en Workspace con soporte para hasta cinco desgloses, cinco métricas, filtros y métricas calculadas, todo en una tabla concatenada. Es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad.</p><p>Para obtener más información, consulte [Exportar informes de Customer Journey Analytics a la nube](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html?lang=es). | 4 de octubre de 2023 |
