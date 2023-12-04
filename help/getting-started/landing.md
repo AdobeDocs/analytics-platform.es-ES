@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ La página de aterrizaje de Customer Journey Analytics resalta [!DNL Analysis Wo
 
 | Función | Descripción | Captura de pantalla |
 | --- | --- | --- |
-| Expandir la tabla de [!UICONTROL Proyectos] a pantalla completa | Para expandir la tabla, haga clic en el icono de menú de hamburguesa. Esta acción contraerá las pestañas del carril izquierdo. | ![Expandir la tabla seleccionada que muestra solo los Proyectos sin las pestañas del carril izquierdo](assets/landing-collapse2.png) |
-| Personalizar anchura de columna | Anteriormente, la anchura de la columna era fija. Ahora puede ajustarla arrastrando el separador de columnas. | ![Selectores de ancho de columna](assets/column-width.png) |
+| Expandir la tabla de [!UICONTROL Proyectos] a pantalla completa | Para expandir la tabla, haga clic en el icono de menú de hamburguesa. Esta acción contraerá las pestañas del carril izquierdo. | ![Expandir la tabla seleccionada que muestra solo los proyectos sin las pestañas del carril izquierdo](assets/landing-collapse2.png) |
+| Personalizar anchura de columna | Anteriormente, la anchura de la columna era fija. Ahora puede ajustarla arrastrando el separador de columnas. | ![Selectores de anchura de columna](assets/column-width.png) |
 | Reordenar elementos anclados | Para mover los elementos anclados hacia arriba y hacia abajo, haga clic en los puntos suspensivos junto al elemento anclado y seleccione **[!UICONTROL Subir]** o **[!UICONTROL Bajar]**. | ![Mover elementos anclados](assets/move-up-down.png) |
 | Nuevas columnas de tabla | Haga clic en el icono [!UICONTROL Personalizar tabla] en la parte superior derecha de la tabla. Las nuevas columnas de la tabla incluyen las siguientes: <ul><li>**[!UICONTROL Programado]**: establecer como [!UICONTROL Activado] cuando un proyecto está programado o [!UICONTROL Desactivado] cuando no lo está. Al hacer clic en el vínculo [!UICONTROL Activado], permite ver información sobre el proyecto programado. También puede [editar la programación del proyecto](/help/analysis-workspace/export/t-schedule-report.md) si es el propietario del proyecto.</li><li>**[!UICONTROL ID del proyecto]**: el ID de proyecto se puede usar para depurar proyectos.</li><li>**[!UICONTROL Intervalo de fecha más largo]**: los intervalos de fechas más largos aumentan la complejidad del proyecto y pueden aumentar los tiempos de procesamiento y carga. </li><li>**[!UICONTROL Número de consultas]**: el número total de solicitudes realizadas a Analytics cuando se carga el proyecto. Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. Estos datos solo están disponibles después de que se haya cargado un proyecto o de que se haya enviado un proyecto programado. </li></ul> | ![Nuevas columnas](assets/new-columns.png) |
 | Vuelve el modal **[!UICONTROL Crear proyecto]** | Al hacer clic en **[!UICONTROL Crear proyecto]** en el Espacio de trabajo, una vez más puede elegir entre un [!UICONTROL Proyecto en blanco] y un [!UICONTROL Cuadro de resultados móviles en blanco]. También puede elegir entre cualquier plantilla que haya creado su compañía. | ![Crear nuevo](assets/create-new.png) |
