@@ -6,8 +6,8 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
 source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
-workflow-type: tm+mt
-source-wordcount: '1649'
+workflow-type: ht
+source-wordcount: '1650'
 ht-degree: 100%
 
 ---
