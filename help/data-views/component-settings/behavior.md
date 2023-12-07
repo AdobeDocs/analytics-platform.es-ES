@@ -4,16 +4,16 @@ description: Especifique cómo se comporta una dimensión o métrica en la creac
 exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
 # Configuración de componentes de comportamiento
 
-La configuración de comportamiento está disponible tanto en dimensiones como en métricas. La configuración disponible depende del tipo de componente y del tipo de datos de esquema.
+La configuración de comportamiento está disponible tanto en dimensiones como en métricas. La disponibilidad de la configuración depende del tipo de componente y del tipo de datos de esquema.
 
 ![Configuración de comportamiento](../assets/behavior-settings.png)
 
@@ -25,11 +25,11 @@ La configuración de comportamiento está disponible tanto en dimensiones como e
 
 {style="table-layout:auto"}
 
-![Dimensión que distingue entre mayúsculas y minúsculas](../assets/case-sens-workspace.png)
-
 >[!NOTE]
 >
 >Si habilita las [!UICONTROL minúsculas] en una dimensión del conjunto de datos de consulta, pueden existir varios valores de búsqueda para el mismo identificador. Si se produce este conflicto, Customer Journey Analytics utiliza el primer valor de intercalación ASCII (los valores en mayúsculas preceden a los valores en minúsculas). Adobe recomienda evitar el uso de conjuntos de datos de búsqueda que contienen el mismo valor cuando las [!UICONTROL minúsculas] está habilitadas.
+
+![Dimensión que distingue entre mayúsculas y minúsculas](../assets/case-sens-workspace.png)
 
 ## Configuración del comportamiento de las métricas
 
