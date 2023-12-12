@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
+source-git-commit: 3d53fbcfea341f0cf9c1cf7da5296565eafff0f9
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 82%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -293,12 +293,12 @@ ht-degree: 82%
    + [Etiquetas restringidas](../report-builder/restricted-labels.md)
    + [Configuración de Report Builder](../report-builder/report-builder-settings.md)
 
-+ Administrador de actividades de creación de informes {#reporting-activity-manager}
++ Administrador de actividades de informes {#reporting-activity-manager}
    + [Información general](../reporting-activity-manager/reporting-activity-overview.md)
    + [Ver actividad de informes](../reporting-activity-manager/reporting-activity.md)
    + [Cancelar solicitudes de creación de informes](../reporting-activity-manager/reporting-activity-cancel-requests.md)
 
-+ Unión {#stitching}
++ Vinculación {#stitching}
    + [Información general](../stitching/overview.md)
    + [Cómo funciona la vinculación](../stitching/explained.md)
    + [Crear y administrar conjuntos de datos enlazados](../stitching/stitching-ui.md)
@@ -343,6 +343,7 @@ ht-degree: 82%
    + Datos de Adobe Analytics {#aa-data}
       + [Uso de dimensiones del canal de marketing](../use-cases/aa-data/marketing-channels.md)
       + [Combinación de grupos de informes con diferentes esquemas](../use-cases/aa-data/combine-report-suites.md)
+      + [Emulación de fuentes de datos](../use-cases/emulating-data-feeds.md)
    + Datos complejos {#complex-data}
       + [Usar matrices de objetos](../use-cases/object-arrays.md)
    + Campos derivados {#derived-fields}

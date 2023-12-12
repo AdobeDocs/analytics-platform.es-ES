@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d6e10a00bf9afb2788f99800e09a7e80fd31e489
+source-git-commit: a4d9272b1e813a34f11e4b42c3369129b57c6ef0
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 1%
@@ -396,9 +396,4 @@ En resumen, emular la funcionalidad de la fuente de datos de Adobe Analytics imp
 >[!IMPORTANT]
 >
 >En este caso de uso están involucrados dos programadores. Para garantizar el correcto funcionamiento de la funcionalidad de fuente de datos emulada, asegúrese de que las programaciones configuradas en el servicio de consulta y las exportaciones de datos no interfieran.
-
-
-
-
-
 
