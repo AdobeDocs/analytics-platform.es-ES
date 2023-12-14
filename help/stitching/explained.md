@@ -3,10 +3,11 @@ title: Cómo funciona la vinculación
 description: Comprensión del concepto de vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+exl-id: 506838a0-0fe3-4b5b-bb9e-2ff20feea8bc
+source-git-commit: 8ca11b37ebda952d95ae38473a9c0d62be007e79
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 24%
+source-wordcount: '1081'
+ht-degree: 21%
 
 ---
 
@@ -46,23 +47,33 @@ La vinculación en tiempo real intenta vincular cada evento tras la recopilació
 | 12 | 2023-05-12 12:12 | 81911 | - | **Bob** |
 | | | **3 dispositivos** | | **4 personas**:<br/>246, Bob, 3579, 81911 |
 
-{style="table-layout:auto"}
-
-<!--
-| Timestamp | Web dataset Persistent ID | Web dataset Transient ID | Stitched ID after live stitch | Call enter Person ID | Explanation of hit | People metric (cumulative) |
-| --- | --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | - | `246` | Bob visits your site on a desktop, unauthenticated | `1` (246) |
-| `2` | `246` | `Bob` | - | `Bob` | Bob logs in on desktop | `2` (246 and Bob) |
-| `3` | - | - | `Bob` | `Bob` | Bob calls customer service | `2` (246 and Bob) |
-| `4` | `3579` | - | - | `3579` | Bob accesses your site on a mobile device, unauthenticated | `3` (246, Bob, and 3579) |
-| `5` | `3579` | `Bob` | - | `Bob` | Bob logs in via mobile | `3` (246, Bob, and 3579) |
-| `6` | - | - | `Bob` | `Bob` | Bob calls customer service again | `3` (246, Bob, and 3579) |
-| `7` | `246` | - | - | `Bob` | Bob visits your site on a desktop again, unauthenticated | `3` (246, Bob, and 3579) |
--->
-
 Tanto los eventos no autenticados como los autenticados en los nuevos dispositivos se cuentan como personas independientes (temporalmente). Los eventos no autenticados en dispositivos reconocidos se vinculan en tiempo real.
 
 La atribución funciona cuando la variable personalizada de identificación se vincula a un dispositivo. En el ejemplo anterior, todos los eventos, excepto los eventos 1, 8, 9 y 10, se vinculan en tiempo real (todos utilizan el `Bob` identificador). La vinculación en tiempo real &quot;resuelve&quot; el ID vinculado para los eventos 4, 6 y 12.
+
+
+<!--
+
+### Delayed data
+
+When incoming data for 'Live' stitching is delayed and over 24 hours old, and when no identities in that delayed data can be matched against identities already considered for 'Live' stitching, that delayed data is not added to the data considered for 'Live' stitching.
+
+In the example below, the data in event 2 is delayed but will be part of 'Live' stitching.
+
+| Event | Timestamp | Persistent ID (Cookie ID) | Transient ID (Login ID) | Stitched ID (after live stitch) | 
+|---|---|---|---|---|
+| 1 | 2023-05-12 12:01 | 246 ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg)| - | **246** |
+| 2 | 2023-05-14 12:02 | 246 | Bob ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | Bob |
+
+In the example below, the data in event 2 is delayed and will NOT become part of 'Live' stitching.
+
+| Event | Timestamp | Persistent ID (Cookie ID) | Transient ID (Login ID) | Stitched ID (after live stitch) | 
+|---|---|---|---|---|
+| 1 | 2023-05-12 12:01 | 246 ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg)| - | **246** |
+| ~~2~~ | ~~2023-05-14 12:02~~ | ~~891~~ |  | (not considered for 'Live' stitching) |
+
+-->
+
 
 ## Paso 2: Reproducción de la vinculación
 

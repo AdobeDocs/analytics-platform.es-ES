@@ -3,10 +3,11 @@ title: Preguntas frecuentes sobre vinculación
 description: Preguntas frecuentes sobre la vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
+source-git-commit: 53d394feb7d1132ad6339bae0e980f32bfe2ee6f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 42%
+source-wordcount: '1269'
+ht-degree: 34%
 
 ---
 
@@ -49,7 +50,7 @@ El número de ID persistentes es irrelevante en favor del ID transitorio. Un sol
 
 +++
 
-+++**Tras contactar con el equipo de cuentas de Adobe y proporcionarle la información deseada, ¿cuánto tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?**
++++**Una vez que contacto con mi equipo de cuenta de Adobe y le proporciono la información deseada, ¿cuánto tiempo tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?**
 
 La vinculación en tiempo real está disponible aproximadamente una semana después de que el Adobe active la vinculación. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
 
@@ -63,13 +64,13 @@ El análisis en canales múltiples es un caso de uso específico de Customer Jou
 
 +++
 
-+++**¿Cómo gestiona la vinculación las solicitudes del RGPD y CCPA?**
++++**¿Cómo gestiona la vinculación las solicitudes de privacidad?**
 
-El Adobe gestiona las solicitudes del RGPD y CCPA de conformidad con las leyes locales e internacionales. Adobe ofrece el [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para enviar solicitudes de acceso a datos y de eliminación. Las solicitudes se aplican tanto a los conjuntos de datos originales como a aquellos cuyas claves se volvieron a generar.
+El Adobe gestiona las solicitudes de privacidad de acuerdo con las leyes locales e internacionales. Adobe ofrece el [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para enviar solicitudes de acceso a datos y de eliminación. Las solicitudes se aplican tanto a los conjuntos de datos originales como a aquellos cuyas claves se volvieron a generar.
 
 +++
 
-+++**¿Qué sucede si está vacío el campo ID persistente de uno o varios eventos?**
++++**¿Qué sucede si el campo ID persistente de uno o varios eventos está en blanco?**
 
 Si el campo ID persistente está en blanco en un evento de un conjunto de datos que se está vinculando, el ID vinculado para ese evento se determina de una de las dos maneras siguientes:
 

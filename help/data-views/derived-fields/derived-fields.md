@@ -4,10 +4,10 @@ description: Un campo derivado especifica la manipulación en tiempo de informe 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
-source-git-commit: 7a96c6b1f093a534e473de3bde8dc3044564c450
+source-git-commit: db61abfda71a26e4fae7134dfbb2f637b77e1e8c
 workflow-type: tm+mt
-source-wordcount: '5641'
-ht-degree: 14%
+source-wordcount: '5783'
+ht-degree: 12%
 
 ---
 
@@ -733,7 +733,7 @@ Valores de búsqueda que utilizan un campo de un conjunto de datos de búsqueda 
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para aplicar la búsqueda]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Buscar un conjunto de datos]</li><ul><li>Conjunto de datos</li></ul><li>[!UICONTROL Clave de coincidencia]<ul><li>Reglas</li><li>Campos</li></ul></li><li>Valores que se deben devolver<ul><li>Reglas</li><li>Campos</li></ul></li></ul> | <p>N/A</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo o valor derivado para un procesamiento posterior en la regla siguiente</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para aplicar la búsqueda]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Conjunto de datos de búsqueda]</li><ul><li>Conjunto de datos</li></ul><li>[!UICONTROL Clave de coincidencia]<ul><li>Reglas</li><li>Campos</li></ul></li><li>Valores que se deben devolver<ul><li>Reglas</li><li>Campos</li></ul></li></ul> | <p>N/A</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo o valor derivado para un procesamiento posterior en la regla siguiente</p> |
 
 {style="table-layout:auto"}
 
@@ -1089,7 +1089,7 @@ Recorta los espacios en blanco, los caracteres especiales o el número de caract
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Recortar espacios en blanco</li><li>Recortar caracteres especiales<ul><li>Entrada de caracteres especiales</li></ul></li><li>Recortar desde la izquierda<ul><li>De <ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>variables</li></ul></li></ul></li><li>Recortar desde la derecha<ul><li>De <ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>variables</li></ul></li></ul></li></ul> | <p>N/A</p> | <p>1 función por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Recortar espacios en blanco</li><li>Recortar caracteres especiales<ul><li>Entrada de caracteres especiales</li></ul></li><li>Recortar desde la izquierda<ul><li>Desde <ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>Longitud</li></ul></li></ul></li><li>Recortar desde la derecha<ul><li>Desde <ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>Longitud</li></ul></li></ul></li></ul> | <p>N/A</p> | <p>1 función por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1130,7 +1130,7 @@ Los datos sobre los nombres de páginas recopilados incluyen algunos caracteres 
 | Nombre | Eventos |
 |---|--:|
 | página principal# | 1 |
-| página principal? | 1 |
+| ¿página principal? | 1 |
 | página principal% | 1 |
 | página principal&amp; | 1 |
 | página principal/ | 1 |
@@ -1165,7 +1165,7 @@ Los datos se recopilan, incluido un ID de tienda. StoreID contiene el código de
 | UT123418 | 1 |
 | UT189021 | 1 |
 | ID028930 | 1 |
-| OR234223 | 1 |
+| O234223 | 1 |
 | NV22342 | 1 |
 
 {style="table-layout:auto"}
@@ -1281,6 +1281,12 @@ Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en g
 - Puede tener un máximo de 100 campos derivados por conexión de Customer Journey Analytics.
 
 ## Más información
+
+[`Trim`](#trim) y [`Lowercase`](#lowercase) Hay funciones disponibles en la configuración de componentes de [Vistas de datos](../component-settings/overview.md). El uso de campos derivados permite combinar estas funciones para realizar una transformación de datos más compleja directamente en Customer Journey Analytics. Por ejemplo, puede utilizar `Lowercase` para eliminar la distinción entre mayúsculas y minúsculas en un campo de evento y, a continuación, utilice [`Lookup`](#lookup) para hacer coincidir el nuevo campo en minúsculas con un conjunto de datos de búsqueda que solo tenga claves de búsqueda en minúsculas. O puede usar `Trim` para quitar caracteres antes de configurar `Lookup` en el nuevo campo.
+
+La compatibilidad con los campos de búsqueda y perfil en los campos derivados permite transformar los datos en función de búsquedas de eventos y atributos de perfil. Esto puede resultar especialmente útil en escenarios B2B con datos de nivel de cuenta en conjuntos de datos de perfil o búsqueda. Además, esta compatibilidad es útil para manipular los datos en campos comunes a partir de datos de búsqueda (como información de campaña y tipo de oferta) o de datos de perfil (como nivel de miembro y tipo de cuenta).
+
+Consulte para obtener más información básica sobre los campos derivados:
 
 - [Aprovechamiento al máximo de los datos: un marco para utilizar campos derivados en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
 
