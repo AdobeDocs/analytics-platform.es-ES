@@ -1,12 +1,12 @@
 ---
 title: Protecciones del Customer Journey Analytics
-description: Obtenga información acerca de las protecciones, los límites estáticos, las protecciones de rendimiento, los parámetros de ámbito y los derechos de Customer Journey Analytics
+description: Obtenga información acerca de las protecciones para Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: 2feea7e232f564b0bd72092ec6fd6d8a597ca716
+source-git-commit: 37cb4cc9ecb58f31fdcd53deaadbd124bf6e894c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1467'
 ht-degree: 10%
 
 ---
