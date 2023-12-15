@@ -3,10 +3,10 @@ title: Registros de auditoría
 description: Obtenga información sobre cómo ver y administrar registros de auditoría de Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 64%
+source-wordcount: '795'
+ht-degree: 65%
 
 ---
 
@@ -30,7 +30,7 @@ En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONT
 
 El registro de auditoría correspondiente al día de hoy y al día de ayer se muestra de forma predeterminada.
 
-![Resaltado del registro de auditoría hoy (14 de octubre de 2022) y ayer (13 de octubre de 2022). ](assets/audit_ui.png)
+![Registro de auditoría que resalta hoy y ayer. ](assets/audit_ui.png)
 
 Para seleccionar qué columnas están visibles, vaya al selector de columnas ubicado en la parte superior derecha.
 
