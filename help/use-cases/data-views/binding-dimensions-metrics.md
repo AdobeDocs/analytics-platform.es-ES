@@ -3,10 +3,10 @@ title: Uso de dimensiones y métricas de enlace en Customer Journey Analytics
 description: Atribuir dimensiones a matrices de objetos para un análisis de persistencia complejo.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 15660e1560ef8b1be510c0103e0f4818f1019c3e
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 84%
+source-wordcount: '1342'
+ht-degree: 83%
 
 ---
 
@@ -78,7 +78,7 @@ Si desea ver los ingresos por color sin una dimensión de enlace, la dimensión 
 | --- | --- |
 | naranja neón | 2099 |
 
-Puede entrar al administrador de vistas de datos y enlazar el color del producto con su nombre:
+Ir a **[!UICONTROL Vistas de datos]** y enlazar el [!DNL Product Color] dimensión a [!DNL Product Name]:
 
 ![Dimensión de enlace](../assets/binding-dimension.png)
 
@@ -251,7 +251,7 @@ Si ha utilizado [!UICONTROL Más reciente] Al asignar con la dimensión de térm
 
 Aunque este ejemplo incluye solo una persona, muchas personas que buscan cosas diferentes pueden atribuir de forma incorrecta términos de búsqueda a productos diferentes, lo que dificulta determinar cuáles son realmente los mejores resultados de búsqueda.
 
-Puede enlazar términos de búsqueda con nombres de producto siempre que la métrica Búsquedas esté presente para atribuir correctamente términos de búsqueda a ingresos.
+Ahora puede enlazar [!DNL Search Term] hasta [!DNL Product Name] siempre que la variable [!DNL Searches] está presente para atribuir correctamente el término de búsqueda a los ingresos.
 
 ![Métrica de enlace](../assets/binding-metric.png)
 
@@ -342,7 +342,7 @@ Si utiliza la asignación más reciente con caducidad de persona, el término de
 
 Sin embargo, si se enlaza el `search_term` al `ProfileID`, las búsquedas de cada perfil se aislarían a su propio perfil, atribuido a los programas correctos que buscan.
 
-![Enlace de visitantes](../assets/binding-visitor.png)
+![Enlace de visitantes](../assets/binding-profileid.png)
 
 Analysis Workspace atribuiría correctamente el segundo episodio de Orangey al término de búsqueda `"kids show"` sin tener en cuenta las búsquedas de otros perfiles.
 
@@ -435,3 +435,8 @@ Sin embargo, si se enlaza `product_finding_method` a la métrica Adiciones al ca
 | --- | --- |
 | búsqueda | 399,99 |
 | examinar | 19,99 |
+
+
+>[!MORELIKETHIS]
+>
+>[Dimension de enlace en vistas de datos](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=es) tutorial.
