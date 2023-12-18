@@ -4,7 +4,7 @@ description: Obtenga información acerca de las protecciones para Customer Journ
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: 37cb4cc9ecb58f31fdcd53deaadbd124bf6e894c
+source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 10%
@@ -191,7 +191,7 @@ Consulte también Experience Platform [Protecciones para la ingesta de datos](ht
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Filas por informe | 3 millones - 150 millones | Protección impuesta por el sistema | Número máximo de filas de informes por informe; valor basado en el paquete con licencia. |
+| Filas por informe | 3 millones - 300 millones | Protección impuesta por el sistema | Número máximo de filas de informes por informe; valor basado en el paquete con licencia. |
 | Desgloses por tabla | 5 | Protección impuesta por el sistema | Número máximo de desgloses por tabla. |
 | Métricas por tabla | 5 | Protección impuesta por el sistema | Número máximo de métricas por tabla. |
 | Frecuencia programada | 1 | Protección impuesta por el sistema | Las exportaciones se pueden programar una vez (1) al día o en un horario más largo (por ejemplo: una vez cada 2 días o semanalmente). |
