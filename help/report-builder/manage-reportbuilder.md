@@ -1,15 +1,15 @@
 ---
 title: Administración de bloques de datos mediante Report Builder en Customer Journey Analytics
 description: Describe cómo utilizar la función de administración en Report Builder
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -72,7 +72,7 @@ Para comprobar si un bloque de datos se ha actualizado, consulte el icono de est
 
 Un bloque de datos actualizado correctamente muestra una marca de verificación en un círculo verde: <img src="./assets/refresh-success.png" width="5%" alt="Círculo verde con icono de marca de verificación"/>.
 
-Un bloque de datos que no se ha podido actualizar muestra un icono de advertencia: <img src="./assets/refresh-failure.png" width="5%" alt="Triángulo rojo con signo de exclamación"/>.Esto facilita la identificación si algún bloque de datos contiene errores.
+Un bloque de datos que no se ha podido actualizar muestra un icono de advertencia: <img src="./assets/refresh-failure.png" width="5%" alt="Triángulo rojo con signo de exclamación"/>Esto facilita la identificación si algún bloque de datos contiene errores.
 
 
 ![Administrador de bloques de datos que muestra el estado de actualización de cada bloque de datos enumerado.](./assets/image512.png)

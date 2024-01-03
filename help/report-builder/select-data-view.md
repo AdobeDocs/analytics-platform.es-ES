@@ -1,15 +1,15 @@
 ---
 title: Cómo seleccionar una vista de datos en Report Builder
 description: Describe cómo seleccionar vistas de datos en Adobe Report Builder
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 3%
+source-wordcount: '357'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Puede seleccionar una vista de datos de la lista desplegable o seleccionar una vista de datos de una celda y actualizar automáticamente el bloque de datos con una nueva vista de datos.
 
-**Editar vista de datos de la celda**
+**Seleccionar vista de datos de la celda**
 
 Al seleccionar una vista de datos de una celda, es más fácil actualizar los bloques de datos con distintas vistas de datos. Si su organización tiene varias vistas de datos similares o idénticas entre sí en estructura, en lugar de crear informes completamente nuevos con bloques de datos independientes, puede actualizar los bloques de datos con una vista de datos seleccionada de una celda. Esto también resulta útil si tiene formatos de bloque de datos complicados que incluyen componentes y diseños personalizados.
 

@@ -1,12 +1,12 @@
 ---
 title: Cómo crear un bloque de datos con el Report Builder en Customer Journey Analytics
 description: Describe cómo crear un bloque de datos.
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 69%

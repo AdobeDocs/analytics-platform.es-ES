@@ -1,14 +1,14 @@
 ---
 title: Cómo seleccionar un rango de datos en el Report Builder de Customer Journey Analytics
 description: Describe cómo utilizar el calendario, las fechas móviles y las expresiones personalizadas en Report Builder for Customer Journey Analytics
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1091'
 ht-degree: 89%
 
 ---
@@ -157,7 +157,7 @@ En la tabla siguiente se muestran ejemplos de expresiones de fecha.
 | tm-1d | Último día del mes anterior |
 | td-52w | Mismo día hace 52 semanas |
 | tm-11m-1d | Último día del mismo mes del año pasado |
-| „2020-09-06“ | 9 de septiembre de 2020 |
+| &quot;2020-09-06&quot; | 9 de septiembre de 2020 |
 
 ## Intervalo de fechas de la celda
 
