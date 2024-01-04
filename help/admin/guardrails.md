@@ -4,9 +4,9 @@ description: Obtenga información acerca de las protecciones para Customer Journ
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
+source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1478'
 ht-degree: 10%
 
 ---
@@ -210,8 +210,9 @@ Consulte también Experience Platform [Protecciones para la ingesta de datos](ht
 | Conector de origen de Adobe Analytics al perfil del cliente en tiempo real (A4T no habilitado) | &lt; 2 minutos |
 | Conector de origen de Adobe Analytics al perfil del cliente en tiempo real (A4T activado) | &lt; 30 minutos |
 | Ingesta de datos en el lago de datos desde la red perimetral o la ingesta de transmisión | &lt; 60 minutos |
-| Ingesta de datos en el lago de datos desde el conector de origen de Adobe Analytics | &lt; 90 minutos |
+| Ingesta de datos en el lago de datos desde el conector de origen de Adobe Analytics | &lt; 2,25 horas |
 | Ingesta de datos en el Customer Journey Analytics desde Data Lake | &lt; 90 minutos |
+| Vinculación (función opcional; consulte [Información general de vinculación](../stitching/overview.md) para obtener más información) | &lt; 3,25 horas |
 | Relleno del conector de origen de Adobe Analytics de menos de 10 000 millones de eventos (máximo de 13 meses de datos históricos) | &lt; 4 semanas |
 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos. | ≈ 60 minutos |
 | Frecuencia de actualización para audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualice cada 4 horas, diariamente, semanalmente o mensualmente (la latencia va acompañada de la frecuencia de actualización). |
