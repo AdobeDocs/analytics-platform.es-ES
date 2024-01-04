@@ -4,10 +4,11 @@ description: Explique cómo introducir datos en Customer Journey Analytics media
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 61%
+source-wordcount: '3385'
+ht-degree: 60%
 
 ---
 
@@ -53,8 +54,7 @@ Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccione **[!UICONTROL Crear esquema]**.
-.
+1. Seleccionar **[!UICONTROL Crear esquema]**. .
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
    1. Seleccionar **[!UICONTROL Evento de experiencia]**.
@@ -101,6 +101,10 @@ Para configurar el esquema:
    ![Ejemplo de botón para agregar campo de esquema](./assets/example-mobileschema-plus.png)
 
 1. En el [!UICONTROL Propiedades del campo] panel, entrar `identification` como el [!UICONTROL Nombre de campo], **[!UICONTROL Identificación]** como el [!UICONTROL Nombre para mostrar], seleccione **[!UICONTROL Objeto]** como el [!UICONTROL Tipo] y seleccione **[!UICONTROL ExperienceEvent Core v2.1]** como el [!UICONTROL Grupo de campos].
+
+   >[!NOTE]
+   >
+   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [crear un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) y [añadir nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (like `ecid`, `crmId`y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
 
    ![Objeto de identificación](./assets/identification-field-mobile.png)
 
@@ -259,7 +263,7 @@ Añada la extensión de la red perimetral de la plataforma de Adobe a la etiquet
 
 Para crear y configurar la extensión del SDK de Adobe Experience Platform Mobile:
 
-1. Seleccione **[!UICONTROL Extensiones]** en el carril izquierdo. Verá que las extensiones Mobile Core y Profile ya están disponibles.
+1. Seleccionar **[!UICONTROL Extensiones]** en el carril izquierdo. Verá que las extensiones Mobile Core y Profile ya están disponibles.
 
 1. Seleccione **[!UICONTROL Catálogo]** en la barra superior.
 

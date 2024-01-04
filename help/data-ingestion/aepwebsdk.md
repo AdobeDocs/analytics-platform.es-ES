@@ -4,10 +4,11 @@ description: Explicar cómo ingerir datos en Customer Journey Analytics mediante
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '3616'
-ht-degree: 85%
+source-wordcount: '3603'
+ht-degree: 84%
 
 ---
 
@@ -53,8 +54,7 @@ Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccione **[!UICONTROL Crear esquema]**.
-.
+1. Seleccionar **[!UICONTROL Crear esquema]**. .
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
    1. Seleccionar **[!UICONTROL Evento de experiencia]**.
@@ -101,6 +101,10 @@ Para configurar el esquema:
    ![Ejemplo de botón para agregar campo de esquema](./assets/example-schema-plus.png)
 
 1. En el panel [!UICONTROL Propiedades de campo], introduzca `Identification` como nombre, **[!UICONTROL Identificación]** como [!UICONTROL Nombre para mostrar], seleccione **[!UICONTROL Objeto]** como [!UICONTROL Tipo] y seleccione **[!UICONTROL ExperienceEvent Core v2.1]** como [!UICONTROL Grupo de campos].
+
+   >[!NOTE]
+   >
+   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [crear un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) y [añadir nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (like `ecid`, `crmId`y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
 
    ![Objeto de identificación](./assets/identification-field.png)
 
@@ -228,7 +232,7 @@ Para configurar la secuencia de datos, debe hacer lo siguiente:
 
 La secuencia de datos ya está configurada para reenviar los datos recopilados de su sitio web a su conjunto de datos en Adobe Experience Platform.
 
-Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=es) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
+Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
 
 
 

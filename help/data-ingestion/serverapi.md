@@ -4,10 +4,11 @@ description: Explique cómo introducir datos en Customer Journey Analytics a tra
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 60%
+source-wordcount: '2351'
+ht-degree: 59%
 
 ---
 
@@ -53,8 +54,7 @@ Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccione **[!UICONTROL Crear esquema]**.
-.
+1. Seleccionar **[!UICONTROL Crear esquema]**. .
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
    1. Seleccionar **[!UICONTROL Evento de experiencia]**.
@@ -101,6 +101,10 @@ Para configurar el esquema:
    ![Ejemplo de botón para agregar campo de esquema](./assets/example-gamingschema-plus.png)
 
 1. En el [!UICONTROL Propiedades del campo] panel, entrar `identification` como el [!UICONTROL Nombre de campo], **[!UICONTROL Identificación]** como el [!UICONTROL Nombre para mostrar], seleccione **[!UICONTROL Objeto]** como el [!UICONTROL Tipo] y seleccione **[!UICONTROL ExperienceEvent Core v2.1]** como el [!UICONTROL Grupo de campos].
+
+   >[!NOTE]
+   >
+   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [crear un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) y [añadir nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (like `ecid`, `crmId`y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
 
    ![Objeto de identificación](./assets/identification-field-gaming.png)
 
@@ -228,7 +232,7 @@ Para configurar la secuencia de datos, debe hacer lo siguiente:
 
 La secuencia de datos ahora está configurada para reenviar los datos recopilados del juego a su conjunto de datos en Adobe Experience Platform.
 
-Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=es) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
+Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
 
 ## Usar la API del servidor de red perimetral
 
