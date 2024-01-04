@@ -4,7 +4,8 @@ description: Configure el formato de una métrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: cf9e8c90eec78658e470d3a7a56cb2e3414591d4
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 19%

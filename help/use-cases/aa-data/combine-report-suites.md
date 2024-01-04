@@ -3,10 +3,11 @@ title: Combinación de grupos de informes con diferentes esquemas
 description: Aprenda a utilizar la preparación de datos para combinar grupos de informes con distintos esquemas
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 59%
+source-wordcount: '1322'
+ht-degree: 57%
 
 ---
 

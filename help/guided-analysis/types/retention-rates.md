@@ -1,14 +1,16 @@
 ---
 title: Tasas de retención
-description: Mida cuántos usuarios siguen utilizando su producto.
+description: Mida cuántos usuarios siguen usando el producto.
 feature: Guided Analysis
 keywords: análisis de productos
 hide: true
 hidefromtoc: true
-source-git-commit: 1cadf9d863c18f590a99e22d7b0e79b1074bf29f
+exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 2%
+source-wordcount: '889'
+ht-degree: 1%
 
 ---
 
@@ -76,6 +78,6 @@ Si selecciona un intervalo de fechas cercano al día actual, no se incluyen los 
 * **Análisis de los usuarios que realizaron el evento de inicio en [Intervalo de fecha]**: Si un usuario interactúa con el evento dentro de este intervalo de fechas, se incluye en el análisis. Este intervalo de fechas garantiza a todos los usuarios tiempo suficiente para cumplir los requisitos de todos los bloques de duración. Este intervalo de fechas puede ser diferente al seleccionado si está cerca del día actual.
 * **Datos de [Intervalo de fecha] está reservado para completar el análisis**: Si un usuario se involucra por primera vez dentro de este período, lo está **no** incluido en el análisis. Para intervalos de fechas recientes, estos usuarios no tendrían la oportunidad de cumplir los requisitos de todos los bloques de duración. Para intervalos de fechas anteriores, estos usuarios estaban activos fuera del intervalo de fechas seleccionado.
 
-## Tabla de cohorte
+## Tabla de cohortes
 
 La tabla debajo del gráfico proporciona una vista agregada (similar a los datos del gráfico) y una tabla de cohorte completa. La tabla de cohorte completa proporciona detalles sobre cada intervalo de fecha individual y cuándo participan los usuarios.

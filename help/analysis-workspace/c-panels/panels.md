@@ -3,9 +3,10 @@ description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1306'
 ht-degree: 48%
 
 ---

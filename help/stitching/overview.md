@@ -4,10 +4,11 @@ description: Información general sobre la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
-source-git-commit: d0f7d5f2fe3cce869d413ca014d086e1a64665be
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 21%
+source-wordcount: '1428'
+ht-degree: 18%
 
 ---
 
@@ -58,7 +59,7 @@ Una vez que su organización cumpla todos los requisitos previos y comprenda los
 1. Póngase en contacto con Asistencia al cliente de Adobe con la siguiente información:
 
    * Una solicitud para habilitar la vinculación.
-   * El ID del conjunto de datos del conjunto de datos para el cual desea volver a generar la clave.
+   * ID del conjunto de datos para el que desea volver a escribir.
    * El nombre de columna del ID persistente del conjunto de datos deseado (identificador que aparece en cada fila).
    * El nombre de columna del ID transitorio del conjunto de datos deseado (el identificador de persona, que también actúa como vínculo entre conjuntos de datos en el contexto de una conexión).
    * Su preferencia de frecuencia de [repetición](explained.md) y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.

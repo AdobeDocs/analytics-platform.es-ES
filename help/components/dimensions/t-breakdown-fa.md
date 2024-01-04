@@ -5,9 +5,10 @@ title: Desglose de dimensiones
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '359'
 ht-degree: 95%
 
 ---
@@ -49,7 +50,7 @@ Este es el comportamiento esperado al aplicar modelos de atribución a desgloses
 
 * Si añade un desglose después de aplicar una atribución, utilizará el valor predeterminado para el desglose dado que se añadió (si esa dimensión tiene un valor predeterminado). De lo contrario, se utiliza el desglose de la columna principal. Algunas dimensiones tienen una asignación predeterminada. Por ejemplo, las dimensiones temporales y el remitente del reenvío utilizan el mismo contacto. La dimensión Producto utiliza Último contacto. Otras dimensiones no tienen un valor predeterminado y utilizarán la asignación de columna principal.
 
-* Si ya hay atribuciones en el árbol de columnas, cambiar la atribución solo afecta a la que esté editando.
+* Si ya hay atribuciones en el árbol de columnas, cambiar la atribución solo afecta al que esté editando.
 
 ## Vídeos
 

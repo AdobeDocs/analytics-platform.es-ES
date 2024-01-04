@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: servicio de consultas;servicio de consultas;sintaxis sql
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 68%
+source-wordcount: '839'
+ht-degree: 64%
 
 ---
 
@@ -49,7 +49,7 @@ Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siem
 
 >[!NOTE]
 >
->Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Análisis en canales múltiples](/help/cca/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en el Customer Journey Analytics es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en Adobe Analytics, especialmente si se ha activado la vinculación.
+>Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Vinculación](/help/stitching/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en el Customer Journey Analytics es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en Adobe Analytics, especialmente si se ha activado la vinculación.
 
 1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es), ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
 

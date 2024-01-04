@@ -4,9 +4,10 @@ description: Utilice búsquedas estándar para aumentar la creación de informes
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '371'
 ht-degree: 73%
 
 ---

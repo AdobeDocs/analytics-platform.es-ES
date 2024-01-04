@@ -3,10 +3,11 @@ description: El Generador de filtros proporciona un lienzo al que arrastrar y en
 title: Generar filtros
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 22%
+source-wordcount: '1255'
+ht-degree: 20%
 
 ---
 
@@ -36,13 +37,13 @@ Puede agregar definiciones de reglas y contenedores para definir los filtros. (P
 | **[!UICONTROL Descripción]** | Proporcione una descripción detallada para el filtro. |
 | **[!UICONTROL Etiquetas]** | [Etiquetado del filtro](/help/components/filters/manage-filters.md) para crear, seleccione una lista de etiquetas existentes o cree una etiqueta nueva. |
 | **[!UICONTROL Definiciones]** | Aquí es donde usted [generación y configuración de filtros](/help/components/filters/filters-overview.md), agregue reglas y anide y secuencie contenedores. |
-| **[!UICONTROL Inclusión]** | (Selector de contenedor superior.) Permite seleccionar el nivel superior [contenedor](/help/components/filters/filters-overview.md) ( [!UICONTROL Persona], [!UICONTROL Session], [!UICONTROL Evento]). El contenedor de nivel superior predeterminado es el contenedor Evento. |
+| **[!UICONTROL Inclusión]** | (Selector de contenedor superior). Permite seleccionar el nivel superior [contenedor](/help/components/filters/filters-overview.md) ( [!UICONTROL Persona], [!UICONTROL Session], [!UICONTROL Evento]). El contenedor de nivel superior predeterminado es el contenedor Evento. |
 | **[!UICONTROL Opciones]** | Icono (engranaje) | <ul><li>**[!UICONTROL + Agregar contenedor]**: le permite agregar un nuevo contenedor (debajo del contenedor de nivel superior) a la definición del filtro.</li><li>**[!UICONTROL Excluir]**: permite definir el filtro excluyendo una o más dimensiones, filtros o métricas.</li></ul> |
 | **[!UICONTROL Dimensiones]** | Los componentes se arrastran y sueltan desde la lista Dimension (barra lateral naranja). |
 | **[!UICONTROL Operador]** | Puede comparar y restringir valores utilizando una selección de operadores. (es igual a, no es igual a, contiene, contiene todo, etc.) |
 | **[!UICONTROL Valor]** | El valor introducido o seleccionado para la dimensión, el filtro o la métrica. |
 | **[!UICONTROL Modelos de atribución]** | Disponible solo para dimensiones, estos modelos determinan qué valores de una dimensión se filtran. Los modelos de Dimension son especialmente útiles en filtros secuenciales.<ul><li>**[!UICONTROL Repetido]** (por defecto): Incluye instancias y valores persistentes para la dimensión.</li><li>**[!UICONTROL Instancia]**: Incluye instancias para la dimensión.</li><li>**[!UICONTROL Instancia no repetida]**: Incluye instancias únicas (no repetitivas) para la dimensión. Este es el modelo aplicado en Flujo cuando se excluyen instancias repetidas.</li></ul>Para ver un ejemplo, consulte la sección &quot;Modelos de atribución&quot; a continuación. |
-| **[!UICONTROL Y/O/Entonces]** | Asigna los operadores [!UICONTROL Y/O/ENTONCES] entre contenedores o reglas. El operador ENTONCES le permite [definir filtros secuenciales](/help/components/filters/filters-overview.md). |
+| **[!UICONTROL Y/O/Entonces]** | Asigna los operadores [!UICONTROL Y/O/ENTONCES] entre contenedores o reglas. El operador THEN le permite [definir filtros secuenciales](/help/components/filters/filters-overview.md). |
 | **[!UICONTROL Métrica]** | (Barra lateral verde) Métrica que se arrastró y soltó desde la lista Métricas. |
 | **[!UICONTROL X]** | (Eliminar) Permite eliminar esta parte de la definición del filtro. |
 | **[!UICONTROL Crear audiencia a partir del filtro]** | La creación de una audiencia a partir de un filtro le permite compartir el filtro con Adobe Experience Platform para su activación. [Más información...](/help/components/audiences/audiences-overview.md) |
@@ -54,7 +55,7 @@ Puede agregar definiciones de reglas y contenedores para definir los filtros. (P
 | **[!UICONTROL Previsualización de filtro]** | Permite obtener una vista previa de las métricas clave para ver si tiene un filtro válido y su amplitud. Representa el desglose del conjunto de datos que verá si aplica este filtro. Muestra tres círculos concéntricos y una lista para indicar el número y el porcentaje de coincidencias [!UICONTROL People], [!UICONTROL Sesiones], y [!UICONTROL Ejecución de informes] para un filtro ejecutado con un conjunto de datos.<p>Este gráfico se actualiza inmediatamente después de crear o realizar cambios en la definición del filtro. |
 | **[!UICONTROL Guardar]** o **[!UICONTROL Cancelar]** | Guarda o cancela el filtro. Después de hacer clic **[!UICONTROL Guardar]**, se le redirigirá al Administrador de filtros, donde podrá administrar el filtro. |
 
-## Generar un filtro {#build-filters}
+## Creación de un filtro {#build-filters}
 
 1. Basta con arrastrar un Dimension, un filtro o un evento de métrica del panel izquierdo al [!UICONTROL Definiciones] field.
 

@@ -4,10 +4,11 @@ description: Muestra informes útiles sobre los datos de Google Analytics en Cus
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 86%
+source-wordcount: '690'
+ht-degree: 87%
 
 ---
 

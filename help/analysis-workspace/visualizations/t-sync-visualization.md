@@ -4,7 +4,8 @@ keywords: Analysis Workspace;Sincronizar visualización con fuente de datos
 title: Administración de fuentes de datos
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 93%

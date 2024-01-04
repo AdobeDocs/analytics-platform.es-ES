@@ -5,7 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f070f998758cead3709f6c48412b22b29de00164
+exl-id: 5c52986c-7ff3-45b5-9039-2bfb6529238c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 54%
@@ -223,4 +225,3 @@ Esta página incluye las direcciones IP que debe añadir a la lista de permitido
 `20.116.159.32/28`
 
 `20.116.158.240/28`
-

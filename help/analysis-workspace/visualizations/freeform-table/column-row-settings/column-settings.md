@@ -3,9 +3,10 @@ description: Aprenda a editar la configuración de columna para configurar el fo
 title: Configuración de columna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '813'
 ht-degree: 78%
 
 ---

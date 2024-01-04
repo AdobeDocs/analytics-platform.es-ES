@@ -3,10 +3,11 @@ title: ¿Qué es el análisis de cohorte?
 description: Obtenga información sobre el análisis de cohorte en Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 68%
+source-wordcount: '524'
+ht-degree: 64%
 
 ---
 
@@ -65,4 +66,4 @@ Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es e
 
 ![Un informe de cohorte que muestra un informe personalizado con dimensiones seleccionadas no es la cohorte predeterminada basada en el tiempo.](assets/cohort-customizable-cohort-row.png)
 
-Para obtener instrucciones sobre cómo se configura y ejecuta un informe de cohorte, visite [Configurar un informe de análisis de cohorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Para obtener instrucciones sobre cómo configurar y ejecutar un informe de cohorte, vaya a [Configurar un informe de análisis de cohorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).

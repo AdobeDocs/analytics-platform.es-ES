@@ -3,10 +3,11 @@ title: Información general de filtros
 description: Comprenda para qué filtros se utilizan y cómo crear un filtro simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 24%
+source-wordcount: '1172'
+ht-degree: 23%
 
 ---
 
@@ -83,7 +84,7 @@ El contenedor Persona incluye todas las visitas y vistas de página, la pantalla
 Los contenedores de persona pueden incluir valores basados en el historial general de una persona:
 
 - Días antes de la primera compra
-- Página de entrada original Pantalla principal de la aplicación móvil o
+- Página de entrada original o pantalla de inicio de la aplicación móvil
 - Dominios de referencia originales
 
 ### Contenedor de sesión {#session}
@@ -101,7 +102,7 @@ Los contenedores de sesión incluyen valores basados en la incidencia por sesió
 - Métricas de participación
 - Métricas asignadas linealmente
 
-Las vistas de datos de Customer Journey Analytics le permiten determinar la duración de una sesión, pero también cuándo se debe crear una nueva. Por ejemplo, puede definir una nueva sesión de aplicación móvil basada en cada vez que un usuario inicie la aplicación móvil. Consulte [Configuración de sesiones](/help/data-views/session-settings.md) para obtener más información.
+Las vistas de datos de Customer Journey Analytics le permiten determinar la duración de una sesión, pero también cuándo se debe crear una nueva. Por ejemplo, puede definir una nueva sesión de aplicación móvil basada en cada vez que un usuario inicie la aplicación móvil. Consulte [Configuración de sesión](/help/data-views/session-settings.md) para obtener más información.
 
 ### Contenedor de evento {#event}
 

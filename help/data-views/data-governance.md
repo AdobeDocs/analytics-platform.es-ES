@@ -3,9 +3,10 @@ title: Etiquetas y políticas
 description: Descubra cómo las etiquetas y políticas de datos definidas en Adobe Experience Platform afectan a las vistas de datos y a la creación de informes en Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
-workflow-type: ht
-source-wordcount: '530'
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '498'
 ht-degree: 100%
 
 ---

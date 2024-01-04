@@ -3,10 +3,11 @@ description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 96%
+source-wordcount: '605'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +23,7 @@ La accesibilidad se refiere a hacer que personas con discapacidades visuales, au
 
 La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a abajo e izquierda a derecha. Los siguientes elementos de navegación facilitan la accesibilidad:
 
-* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes en Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
+* El `Tab` Esta tecla habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
 * El movimiento `left/right arrows` entre elementos individuales después de que `Tab` lo haya resaltado.
 * El `F6` se desplaza al primer panel del proyecto y se mueve entre las visualizaciones de ese panel. A continuación, se desplaza al siguiente panel del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.

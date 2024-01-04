@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1974'
 ht-degree: 3%
 
 ---
@@ -59,7 +60,7 @@ Para exportar tablas completas desde Analysis Workspace:
 
 1. En el [!UICONTROL **Nueva exportación de tabla completa**] , especifique la siguiente información:
 
-   | Nombre del campo | Función |
+   | Nombre de campo | Función |
    |---------|----------|
    | Nombre | Especifique un nombre para la exportación. Este nombre se muestra en la lista de exportaciones. |
    | Etiquetas | Puede aplicar una etiqueta existente a la exportación o crear una nueva y aplicarla. <p>Para aplicar una etiqueta existente a la exportación, seleccione cualquier etiqueta del menú desplegable. Puede aplicar cualquier etiqueta de su empresa<!-- double-check this -->.</p> <p>Para crear una etiqueta nueva, escriba el nombre de la etiqueta nueva y pulse Entrar.</p><p>Tenga en cuenta lo siguiente al aplicar etiquetas a una exportación: <ul><li>Las etiquetas que aplique se pueden filtrar o buscar en la tabla de exportaciones.</li> <li>Las etiquetas aplicadas a un proyecto no se aplican automáticamente al exportar una tabla completa, como se describe en &quot;Configurar columnas en la página de exportaciones&quot; en [Administración de exportaciones](/help/components/exports/manage-exports.md). (Como alternativa, cuando [programar un proyecto completo para su exportación](/help/analysis-workspace/export/t-schedule-report.md), todas las etiquetas aplicadas al proyecto se aplicarán automáticamente a la exportación).  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |

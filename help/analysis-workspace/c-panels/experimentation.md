@@ -3,9 +3,10 @@ description: Obtenga información sobre cómo analizar los resultados de las pru
 title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1892'
 ht-degree: 58%
 
 ---

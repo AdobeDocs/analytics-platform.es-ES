@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Agregar carpetas en Workspace
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 76%
+source-wordcount: '286'
+ht-degree: 75%
 
 ---
 

@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Información general sobre Proyectos
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 72%
+source-wordcount: '1336'
+ht-degree: 69%
 
 ---
 
@@ -46,8 +47,8 @@ La página Proyectos contiene la siguiente información:
 | Compartido con | Usuarios con los que se ha compartido el proyecto. |
 | Última modificación | Fecha y hora de última modificación del proyecto. |
 | Última apertura | Fecha y hora de última apertura del proyecto. |
-| ID del proyecto | El ID del proyecto. |
-| El intervalo de fecha más largo | Intervalo de fecha más largo del proyecto. |
+| Identificador de proyecto | El ID del proyecto. |
+| Intervalo de fecha más largo | Intervalo de fecha más largo del proyecto. |
 | Cantidad de consultas | Número total de consultas contenidas en el proyecto. |
 | Ubicación | Carpeta en la que reside el proyecto. |
 
@@ -69,7 +70,7 @@ En un proyecto, el menú proporciona opciones para administrar el proyecto, agre
 
 ### Info y configuración del proyecto {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**  proporciona información a nivel de proyecto sobre el proyecto activo.
+**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Info y configuración del proyecto]** proporciona información a nivel de proyecto sobre el proyecto activo.
 
 ![La ventana Información y configuración del proyecto.](assets/projectinfo.png)
 
@@ -77,7 +78,7 @@ La configuración incluye lo siguiente:
 
 | Configuración | Descripción |
 |---|---|
-| Proyecto  Nombre | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
+| Nombre del proyecto | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
 | Creado por | Nombre del propietario del proyecto. |
 | Última modificación | Fecha de la última modificación del proyecto. |
 | Etiquetas | Enumera cualquier etiqueta aplicada a un proyecto para una ordenación por categorías más sencilla. |

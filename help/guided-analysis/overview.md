@@ -4,10 +4,11 @@ description: Un método de análisis de datos en Customer Journey Analytics que 
 keywords: análisis de productos
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
-source-git-commit: f99d1ce1881cd1ed3262fa3d2b2a9e16f84aa288
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 7%
+ht-degree: 2%
 
 ---
 
@@ -23,14 +24,14 @@ El análisis guiado clasifica los tipos de vista en **Tipos de análisis**. Est�
 
 | Tipo de análisis | Ver tipo | Descripción |
 | --- | --- | --- |
-| [!UICONTROL Impacto] | [Versión](types/release.md) | Comparar los resultados en periodos iguales antes y después de la liberación. |
-| [!UICONTROL Impacto] | [Primer uso](types/first-use.md) | Medir el impacto del uso de funciones por primera vez en indicadores clave. |
-| [!UICONTROL Canal] | [Fricción](types/friction.md) | Comparar tasas de conversión entre los pasos. |
-| [!UICONTROL Canal] | [Tendencias de conversión](types/conversion-trends.md) | Realizar un seguimiento de los cambios en las tasas de conversión a lo largo del tiempo. |
+| [!UICONTROL Impacto] | [Versión](types/release.md) | Compare el rendimiento en periodos iguales antes y después del lanzamiento. |
+| [!UICONTROL Impacto] | [Primer uso](types/first-use.md) | Mida el impacto del uso de la primera función en los indicadores clave. |
+| [!UICONTROL Embudo] | [Fricción](types/friction.md) | Compare las tasas de conversión entre pasos. |
+| [!UICONTROL Embudo] | [Tendencias de conversión](types/conversion-trends.md) | Rastree los cambios en las tasas de conversión a lo largo del tiempo. |
 | [!UICONTROL Crecimiento de usuarios] | [Activo](types/active.md) | Identifique quién es nuevo, retenido, que regresa o está inactivo. |
 | [!UICONTROL Crecimiento de usuarios] | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
-| [!UICONTROL Tendencias] | [Uso](types/usage.md) | Medir la participación del usuario a lo largo del tiempo. |
-| [!UICONTROL Tendencias] | [Frecuencia](types/frequency.md) | Medir la participación en función de la frecuencia de uso. |
+| [!UICONTROL Tendencias] | [Uso](types/usage.md) | Mida la participación del usuario con el tiempo. |
+| [!UICONTROL Tendencias] | [Frecuencia](types/frequency.md) | Mida la participación por frecuencia de uso. |
 
 {style="table-layout:auto"}
 

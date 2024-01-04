@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Eliminar carpetas en el Espacio de trabajo
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 82%
+ht-degree: 70%
 
 ---
 
@@ -19,7 +20,7 @@ Puede eliminar las carpetas que cree.
 **Directrices**
 
 * Al eliminar una carpeta, no se elimina su contenido. El contenido de una carpeta eliminada (proyectos o subcarpetas) se mueve a la carpeta inmediata anterior en la jerarquía de carpetas.
-* Los administradores pueden eliminar una carpeta dentro de la carpeta Compañía que otro administrador haya creado. Es posible que los administradores tengan que coordinarse con otros administradores para mantener la coherencia de las carpetas y el acceso al proyecto. Consulte [Acerca de las carpetas en Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+* Los administradores pueden eliminar una carpeta dentro de la carpeta Compañía que otro administrador haya creado. Es posible que los administradores tengan que coordinarse con otros administradores para mantener la coherencia del acceso a carpetas y proyectos. Consulte [Acerca de las carpetas en Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
 
 Para eliminar carpetas en Workspace
 

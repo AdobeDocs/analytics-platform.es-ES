@@ -1,10 +1,10 @@
 ---
 title: Guía del usuario de Labs
 description: Vista previa de proyectos de prototipo para Customer Journey Analytics
-role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 89%

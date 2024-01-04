@@ -2,7 +2,8 @@
 title: centros de datos de Customer Journey Analytics
 description: Obtenga información acerca de las ubicaciones de los centros de datos de CJA en todo el mundo.
 solution: Customer Journey Analytics
-source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

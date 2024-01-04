@@ -4,10 +4,11 @@ description: Explicar cómo ingerir datos de Adobe Analytics tradicional
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 82%
+source-wordcount: '1174'
+ht-degree: 81%
 
 ---
 

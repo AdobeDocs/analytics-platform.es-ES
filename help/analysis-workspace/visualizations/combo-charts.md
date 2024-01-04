@@ -2,11 +2,11 @@
 description: Permite visualizar fácilmente datos de comparación en Analysis Workspace, como comparaciones con el mes o el año pasado, etc.
 title: Visualización de gráficos combinados
 feature: Visualizations
-role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '847'
 ht-degree: 85%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 La visualización de [!UICONTROL gráficos combinados] facilita la creación rápida de una visualización de comparación sin tener que generar una tabla primero. Puede ver fácilmente las tendencias en sus datos en una combinación de líneas/barras.
 
-Utilice un [!UICONTROL Gráfico combinado] para lo siguiente::
+Utilice un [!UICONTROL Gráfico combinado] hasta:
 
 * Comparar los pedidos de esta semana con los del mismo período del mes pasado (y del año pasado), todo ello con unos pocos clics.
 * Analizar y comparar rápidamente varias métricas (por ejemplo, [!UICONTROL Visitantes únicos] e [!UICONTROL Ingresos]) en el mismo gráfico.

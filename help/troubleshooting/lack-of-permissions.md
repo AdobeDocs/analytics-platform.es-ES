@@ -1,14 +1,14 @@
 ---
 title: Falta de permisos
 description: Obtenga información sobre cómo solucionar problemas derivados de la falta de permisos
-role: Data Engineer, Data Architect, Admin
+role: Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
 exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
-source-git-commit: 788d1d32548ef510cf12376b244fcc0e090e189d
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 3%
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 

@@ -4,10 +4,11 @@ description: Comprender las distintas formas de ingerir datos en Customer Journe
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 675b3c24de2fdb47c8072d15fba168cc72feefbe
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 91%
+source-wordcount: '676'
+ht-degree: 89%
 
 ---
 

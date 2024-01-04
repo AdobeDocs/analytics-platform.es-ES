@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Casos de uso de análisis de cohorte
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '955'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +28,7 @@ Puede crear un [!UICONTROL análisis de cohorte] de seis meses:
 
 **Métrica de regreso**: sesiones o ejecuciones
 
-Los visitantes no cuentan como *`engaged`* en meses siguientes a menos que tengan una sesión o que, como mínimo, ejecuten la aplicación. El [!UICONTROL análisis de cohorte] entonces le mostraría patrones de uso donde *`App Install`* siempre ocurre en el Mes 0. Podría observar que el uso cae en el Mes 2, independientemente de cuándo instalaron la aplicación los usuarios (para quienes instalaron la aplicación en enero de 2015, el Mes 2 es marzo de 2015; para quienes instalaron la aplicación en febrero de 2015, el Mes 2 es abril de 2015, y así sucesivamente). Este análisis le permite enviar un correo electrónico o un mensaje insertado a todos los usuarios durante el segundo mes después de que instalan la aplicación para recordarles que usen la aplicación.
+Los visitantes no cuentan como *`engaged`* en meses siguientes, a menos que tengan una sesión o que, como mínimo, ejecuten la aplicación. El [!UICONTROL análisis de cohorte] entonces le mostraría patrones de uso donde *`App Install`* siempre ocurre en el Mes 0. Podría observar que el uso cae en el Mes 2, independientemente de cuándo instalaron la aplicación los usuarios (para quienes instalaron la aplicación en enero de 2015, el Mes 2 es marzo de 2015; para quienes instalaron la aplicación en febrero de 2015, el Mes 2 es abril de 2015, y así sucesivamente). Este análisis le permite enviar un correo electrónico o un mensaje insertado a todos los usuarios durante el segundo mes después de que instalan la aplicación para recordarles que usen la aplicación.
 
 ## Caso de uso de suscripción
 
@@ -61,6 +62,6 @@ Una empresa multimedia internacional utiliza campañas dirigidas para dirigir a 
 
 Un gran minorista de ropa cuenta con muchos filtros específicos de clientes que generan gran parte de los ingresos. Se diseñan y crean productos específicos para cada uno de esos filtros. Cuando se produce un lanzamiento, la empresa quiere saber en qué medida el nuevo producto potencia las ventas en varias cohortes a lo largo del tiempo. Mediante la nueva configuración de [!UICONTROL tablas de latencia] de los [!UICONTROL análisis de cohortes], se puede analizar el comportamiento y los ingresos de un filtro de clientes dados antes y después del lanzamiento. Esta información permite identificar qué productos producen nuevos ingresos y cuáles no llegan a calar en los clientes.
 
-## Permanencia individual: usuarios más fieles caso de uso
+## Permanencia individual: caso de uso para los usuarios más fieles
 
 Una gran línea aérea deriva la mayor parte de su éxito e ingresos de los clientes fieles que repiten. En muchos casos, estos viajeros fieles representan la mayoría de los ingresos, por lo que conservarlos es esencial para el éxito a largo plazo. A menudo no es sencillo identificar a los clientes más fieles y consistentes. Sin embargo, gracias a la nueva configuración de [!UICONTROL cálculo móvil] de los [!UICONTROL análisis de cohortes], la empresa pudo analizar los segmentos de clientes fieles y averiguar cuáles repiten reservas un mes tras otro. Con estos datos pudo dirigirse a estos viajeros con recompensas y beneficios por su fidelidad. Además, cambiando el tipo de cohorte de retención a pérdida, también pudo identificar qué clientes no repetían reservas un mes tras otro, y así dirigirse a estos filtros con promociones para reactivarlos y asegurar que, en el futuro, se conviertan en clientes leales.

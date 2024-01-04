@@ -4,10 +4,11 @@ description: Descubra cómo Customer Journey Analytics crea una conexión combin
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 61%
+source-wordcount: '581'
+ht-degree: 60%
 
 ---
 

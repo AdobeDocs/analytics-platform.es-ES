@@ -3,13 +3,14 @@ title: Configuración de sesión
 description: Configuración en una Vista de datos que puede utilizar para definir la duración de una sesión y el activador para iniciar una nueva
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: bb2061f9119b8391bf3cedce4029685537d1e239
-workflow-type: ht
-source-wordcount: '422'
+exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
-
 
 # Configuración de sesión
 
@@ -45,4 +46,3 @@ Para definir el contexto de una sesión para una vista de datos, haga lo siguien
 
 
 4. Seleccione **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y finalizar]** para guardar la definición de configuración de sesiones.
-

@@ -4,9 +4,10 @@ description: Combine valores numéricos en una dimensión.
 exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---

@@ -3,10 +3,11 @@ title: Operadores de filtro
 description: Determine cómo interactúa un componente con un valor dentro de un filtro.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 94%
+source-wordcount: '600'
+ht-degree: 93%
 
 ---
 

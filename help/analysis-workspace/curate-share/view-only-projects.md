@@ -4,10 +4,11 @@ keywords: Proyectos de solo de vista
 title: Proyectos de solo de vista
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 80%
+source-wordcount: '242'
+ht-degree: 79%
 
 ---
 

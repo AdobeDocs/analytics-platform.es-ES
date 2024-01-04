@@ -5,10 +5,11 @@ title: Envío de datos del Customer Journey Analytics a otras personas por corre
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 58%
+source-wordcount: '1018'
+ht-degree: 55%
 
 ---
 
@@ -67,7 +68,7 @@ En el Administrador de proyectos programados, puede editar y eliminar la program
 | [!UICONTROL Entregado a] | Las personas destinatarias de este proyecto programado. |
 | [!UICONTROL Fecha de caducidad] | Puede establecer la fecha de caducidad en un máximo de un año, independientemente de la frecuencia de programación. |
 | [!UICONTROL Frecuencia] | La frecuencia con la que desea que este proyecto programado se envíe a las personas destinatarias. |
-| [!UICONTROL Hora de ejecución] | A qué hora del día se envía este proyecto programado. |
+| [!UICONTROL Tiempo de ejecución] | A qué hora del día se envía este proyecto programado. |
 | [!UICONTROL Cantidad de consultas] | Número de consultas de este proyecto. |
 
 Las siguientes son acciones comunes en el administrador de proyectos programados:

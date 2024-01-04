@@ -3,10 +3,11 @@ title: Integración de Adobe Journey Optimizer con Customer Journey Analytics
 description: Incorpore datos generados por Adobe Journey Optimizer y analícelos con Analysis Workspace en Customer Journey Analytics.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 68%
+source-wordcount: '862'
+ht-degree: 64%
 
 ---
 
@@ -28,10 +29,10 @@ Seleccione y configure los siguientes conjuntos de datos:
 
 | Conjunto de datos | Tipo de conjunto de datos | Configuración de la conexión | Descripción |
 | --- | --- | --- | --- |
-| Conjunto de datos de evento de comentarios de mensajes AJO | Evento | ID de la persona: `IdentityMap` | Contiene eventos de envío de mensajes, como &#39;[!UICONTROL Envíos]&#39; y &#39;[!UICONTROL Devoluciones]&#39;. |
-| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO | Evento | ID de la persona: `IdentityMap` | Contiene eventos de seguimiento de correo electrónico como &#39;[!UICONTROL Aperturas]&#39;, &#39;[!UICONTROL Clics]&#39;, y &#39;[!UICONTROL Cancela la suscripción]&#39;. |
-| Conjunto de datos de evento de experiencia de seguimiento push AJO | Evento | ID de la persona: `IdentityMap` | Contiene eventos de seguimiento push como &#39;[!UICONTROL Lanzamientos de aplicaciones]&#39;. |
-| Eventos de paso de recorrido | Evento | ID de la persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventos que muestran qué perfiles participaron en cada nodo del recorrido. |
+| Conjunto de datos de evento de comentarios de mensajes AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de envío de mensajes, como &#39;[!UICONTROL Envíos]&#39; y &#39;[!UICONTROL Devoluciones]&#39;. |
+| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento de correo electrónico como &#39;[!UICONTROL Aperturas]&#39;, &#39;[!UICONTROL Clics]&#39;, y &#39;[!UICONTROL Cancela la suscripción]&#39;. |
+| Conjunto de datos de evento de experiencia de seguimiento push AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push como &#39;[!UICONTROL Lanzamientos de aplicaciones]&#39;. |
+| Eventos de paso de recorrido | Evento | ID de persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventos que muestran qué perfiles participaron en cada nodo del recorrido. |
 | Conjunto de datos de entidad AJO | Búsqueda | Clave: `_id`<br>Clave de coincidencia: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene clasificaciones que asocian metadatos de Recorridos y campañas a todos los datos de eventos de Adobe Journey Optimizer. |
 
 {style="table-layout:auto"}
@@ -75,7 +76,7 @@ Puede crear las métricas siguientes en una vista de datos para lograr una parid
 
 | Métrica | Descripción | Elemento de esquema | Configuración de componentes |
 | --- | --- | --- | --- |
-| Devoluciones | El número de mensajes que se rebotaron, incluidas las devoluciones inmediatas y las devoluciones después de la entrega. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir excluir valores: Si se cumplen algunos criterios<br>Igual a: `bounce`, Igual a: `denylist` |
+| Devoluciones | El número de mensajes que se rebotaron, incluidos los rechazos inmediatos y los rechazos después de la entrega. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir excluir valores: Si se cumplen algunos criterios<br>Igual a: `bounce`, Igual a: `denylist` |
 | Devoluciones después de la entrega | Algunos servicios de correo electrónico informan de correos electrónicos entregados y luego los devuelven. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `async` |
 | Clics en correos electrónicos | El recuento de clics dentro de los mensajes. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `click` |
 | Aperturas de correo electrónico | El número de mensajes abiertos. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `open` |

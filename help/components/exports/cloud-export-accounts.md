@@ -4,7 +4,8 @@ keywords: Analysis Workspace
 title: Configuración de cuentas de exportación en la nube
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 79dc75738638cfbda133c50019bacb501c0ffe89
+role: User, Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 3%

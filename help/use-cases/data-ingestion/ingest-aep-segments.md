@@ -4,10 +4,11 @@ description: Explica cómo introducir audiencias de Adobe Experience Platform en
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 52%
+source-wordcount: '968'
+ht-degree: 50%
 
 ---
 

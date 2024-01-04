@@ -4,16 +4,17 @@ description: Utilice el conector de origen de Analytics para incorporar reglas d
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 63%
+source-wordcount: '985'
+ht-degree: 61%
 
 ---
 
 # Uso de dimensiones de canal de marketing en Adobe Experience Platform
 
-Si su organización utiliza la variable [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) para llevar los datos del grupo de informes a Customer Journey Analytics, puede configurar una conexión en Customer Journey Analytics para informar sobre las dimensiones del canal de marketing.
+Si su organización utiliza el [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) para llevar los datos del grupo de informes a Customer Journey Analytics, puede configurar una conexión en Customer Journey Analytics para informar sobre las dimensiones del canal de marketing.
 
 ## Requisitos previos
 
@@ -54,7 +55,7 @@ La configuración del canal de marketing funciona de forma diferente entre los d
   ![Es la primera página de la visita](../assets/first-page-of-visit.png)
 
 * **Anular canal de último contacto**: esta configuración del Administrador de canal de marketing normalmente impide que determinados canales obtengan crédito de canal de último contacto. Platform ignora esta configuración, lo que permite que canales generales como Directo o Interno atribuyan métricas de formas potencialmente no deseadas. Adobe recomienda eliminar canales en los que tenga la opción Anular canal de último contacto desactivada.
-   * Puede eliminar el canal de marketing Directo en el Administrador de canales de marketing y, a continuación, basarse en el elemento de dimensión Sin valor de Customer Journey Analytics para ese canal. También puede cambiar el nombre de este elemento de dimensión a Directo o excluir por completo el elemento de dimensión al configurar una vista de datos.
+   * Puede eliminar el canal de marketing Directo en el Administrador de canales de marketing y, a continuación, basarse en el elemento de dimensión Sin valor del Customer Journey Analytics para ese canal. También puede cambiar el nombre de este elemento de dimensión a Directo o excluir por completo el elemento de dimensión al configurar una vista de datos.
    * También puede crear una clasificación de canal de marketing que clasifique cada valor en sí mismo excepto para los canales que desee excluir en Customer Journey Analytics. A continuación, puede utilizar esta dimensión de clasificación al crear una vista de datos en lugar de `channel.typeAtSource`.
 
   ![Anular canal de último toque](../assets/override-last-touch-channel.png)

@@ -4,10 +4,11 @@ description: Descubra qué componentes son las ofertas de los Customer Journey A
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 79%
+source-wordcount: '1068'
+ht-degree: 75%
 
 ---
 
@@ -25,10 +26,10 @@ Puede administrar los siguientes componentes:
 * [**Filtros**](filters/filters-overview.md): Cree, administre, comparta y aplique filtros de audiencia poderosos y centrados a sus informes. Los filtros le permiten identificar subconjuntos de personas en función de sus características o interacciones.
 * [**Métricas calculadas:**](calc-metrics/calc-metr-overview.md) usar las métricas y fórmulas como componentes nuevos para utilizarlas en sistemas de informes
 * [**Diccionario de datos**](/help/components/data-dictionary/data-dictionary-overview.md): ayuda a los usuarios y administradores a realizar un seguimiento de los componentes de su entorno de Analytics y a comprenderlos mejor.
-* [**Intervalos de fechas:**](date-ranges/create.md) personalizar y especificar las ofertas de Analysis Workspace en los intervalos de fechas.
+* [**Intervalos de fechas**](date-ranges/create.md): personalice y perfeccione los intervalos de fechas que ofrece Analysis Workspace.
 * [**Dimension**](/help/components/dimensions/view-dimensions.md): los Dimension son variables que generalmente contienen valores de cadena. Las dimensiones comunes incluyen Página y Dominio de referencia.
 * [**Métricas**](/help/components/apply-create-metrics.md): le permite cuantificar los puntos de datos en Analysis Workspace.
-* [**Proyectos:**](/help/analysis-workspace/home.md) organizar y mantener sus proyectos en Analysis Workspace.
+* [**Proyectos**](/help/analysis-workspace/home.md): organice y mantenga sus proyectos en Analysis Workspace.
 
 ## Componentes de Analysis Workspace
 
@@ -105,7 +106,7 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
 
 1. Seleccione el icono de **Componentes** ![icono de Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) en el carril izquierdo.
 
-2. Seleccione el icono de **Filtro** ![icono de Filtro del diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)).
+2. Seleccione el **Filtrar** icono ![Icono Filtro de diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)).
 
    o
 

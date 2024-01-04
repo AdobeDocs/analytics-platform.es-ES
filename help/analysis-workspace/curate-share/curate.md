@@ -4,9 +4,10 @@ keywords: Revisión de Analysis Workspace
 title: Depurar proyectos de
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: f2f85db4b670f1c4b1f6bc0954a5549c793edf5a
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '509'
 ht-degree: 92%
 
 ---

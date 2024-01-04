@@ -3,7 +3,8 @@ description: Le permite ver cómo se compara un valor que le interese con otros 
 title: Gráfico de viñetas
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 86%

@@ -4,10 +4,11 @@ description: Obtenga más información sobre cómo utilizar el Administrador de 
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 14%
+source-wordcount: '1498'
+ht-degree: 12%
 
 ---
 

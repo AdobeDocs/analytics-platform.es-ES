@@ -3,7 +3,8 @@ description: Las visitas en el orden previsto en Analysis Workspace le permiten 
 title: Abandonos entre dimensiones
 feature: Visualizations
 exl-id: 7975324c-4efc-4c36-bc83-dcde85d2febc
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 74%

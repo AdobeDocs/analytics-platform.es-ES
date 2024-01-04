@@ -3,10 +3,11 @@ description: Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, M
 title: Filtrado de la lista de filtros
 feature: Filters
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 30%
+source-wordcount: '187'
+ht-degree: 25%
 
 ---
 
@@ -31,5 +32,5 @@ El filtrado facilita la búsqueda de filtros.
    | Otros filtros > Míos | Muestra todos los filtros que posee. |
    | Otros filtros > Compartidos conmigo | Muestra todos los filtros que los demás [compartido](/help/components/filters/filters-share.md) con usted. |
    | Otros filtros > Favoritos | Muestra todos los filtros marcados como [Favoritos](/help/components/filters/filters-favorite.md). |
-   | Otros filtros > Aprobados | Muestra todos los segmentos oficialmente [aprobados](/help/components/filters/filters-approve.md). |
+   | Otros filtros > Aprobados | Muestra todos los segmentos oficialmente [aprobado](/help/components/filters/filters-approve.md) segmentos. |
    | Buscar segmentos | Le permite buscar segmentos por nombre. |

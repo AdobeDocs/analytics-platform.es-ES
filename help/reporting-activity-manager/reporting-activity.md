@@ -4,10 +4,11 @@ description: Obtenga más información sobre cómo utilizar el Administrador de 
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 11%
+source-wordcount: '1958'
+ht-degree: 7%
 
 ---
 
@@ -45,7 +46,7 @@ Para obtener más información sobre el Administrador de actividades de creació
    | **[!UICONTROL Vistas de datos]** | Muestra todas las vistas de datos que utilizan la conexión. La configuración de vistas de datos puede añadir complejidad a las solicitudes de creación de informes. |
    | **[!UICONTROL Utilización de la capacidad]** | El porcentaje de la capacidad de creación de informes de la conexión que se está utilizando en tiempo real. <p>**Nota** Una capacidad de uso del 100 % no sugiere necesariamente que deba empezar a cancelar inmediatamente las solicitudes de creación de informes. La capacidad de uso del 100% puede ser saludable si el tiempo de espera promedio es razonable. Por otro lado, una capacidad de uso del 100 % podría sugerir un problema si el número de solicitudes en cola también aumenta.</p> |
    | **[!UICONTROL Solicitudes en cola]** | El número de solicitudes en espera de ser procesadas. <!-- ??? --> |
-   | **[!UICONTROL Tiempo de espera en cola]** | Tiempo de espera promedio antes de que las solicitudes empiecen a procesarse. <!-- ???? --> |
+   | **[!UICONTROL Tiempo de espera de cola]** | Tiempo de espera promedio antes de que las solicitudes empiecen a procesarse. <!-- ???? --> |
    | **[!UICONTROL Estado]** | Los estados posibles son: <ul><li>[!UICONTROL **Activo**] (azul): Los informes se han ejecutado en la conexión en las últimas 2 horas. Los datos que se muestran en la tabla representan la capacidad de creación de informes de la conexión en el momento en que se cargó la página por última vez.</li><li>[!UICONTROL **Inactivo**] (gris): Nunca se ha ejecutado ningún informe sobre la conexión en las últimas 2 horas, por lo que no se muestran datos para la conexión.</li></ul> |
 
    {style="table-layout:auto"}
@@ -141,15 +142,15 @@ Al seleccionar la variable [!UICONTROL **Solicitud**] , las siguientes columnas 
 | Columna | Descripción |
 | --- | --- |
 | [!UICONTROL **ID de solicitud**] | Un ID único que se puede utilizar para solucionar problemas. Para copiar el ID, seleccione la solicitud y, a continuación, seleccione la opción, [!UICONTROL **Copiar ID de solicitud**]. |
-| [!UICONTROL **Tiempo de ejecución**] | Cuánto tiempo lleva ejecutándose la solicitud. |
+| [!UICONTROL **Ejecución de tiempo**] | Cuánto tiempo lleva ejecutándose la solicitud. |
 | [!UICONTROL **Hora de inicio**] | Cuando la solicitud comenzó a procesarse (según la hora local del administrador). |
 | [!UICONTROL **Tiempo de espera**] | El tiempo que la solicitud ha estado esperando antes de procesarse. Este valor suele estar en &quot;0&quot; cuando hay suficiente capacidad. |
 | [!UICONTROL **Aplicación**] | Las aplicaciones compatibles con el [!UICONTROL Administrador de actividades de creación de informes] son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 2.0</li><li>Alertas inteligentes<li>Exportación de tabla completa</li><li>Compartir vínculos con cualquiera</li><li>Análisis guiado</li><li>Cualquier otra aplicación que consulte el motor de informes de Analytics.</li></li></ul><p>**Nota:** Si el valor de esta columna es [!UICONTROL **Desconocido**], esto significa que los metadatos de la solicitud no están disponibles para el usuario.</p> |
 | [!UICONTROL **Usuario**] | El usuario que inició la solicitud. <p>**Nota:** Si el valor de esta columna es [!UICONTROL **Desconocido**], esto significa que los metadatos de la solicitud no están disponibles para el usuario.</p> |
 | [!UICONTROL **Proyecto**] | Nombres de proyectos de Workspace guardados, ID de informes de API, etc. (Los metadatos pueden variar entre distintas aplicaciones).<p>**Nota:** Si el valor de esta columna es [!UICONTROL **Desconocido**], esto significa que el proyecto no se ha guardado o que los metadatos de la solicitud no están disponibles para el usuario.</p> |
 | [!UICONTROL **Estado**] | Indicadores de estado: <ul><li>**Ejecución**: la solicitud está siendo procesada en este momento.</li><li>**Pendiente**: la solicitud está esperando a procesarse.</li></ul> |
-| [!UICONTROL **Complejidad**] | No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud. <p>Entre los posibles valores están:</p> <ul><li>[!UICONTROL **Bajo**]</li><li>[!UICONTROL **Medio**]</li><li>[!UICONTROL **Alto**]</li></ul>Este valor se ve influido por los valores de las siguientes columnas:<ul><li>[!UICONTROL **Límites mensuales**]</li><li>[!UICONTROL **Columnas**]</li><li>[!UICONTROL **Segmentos**]</li></ul> |
-| [!UICONTROL **Límites mensuales**] | El número de meses que se incluyen en una solicitud. Más límites de mes aumentan la complejidad de la solicitud. |
+| [!UICONTROL **Complejidad**] | No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud. <p>Entre los posibles valores están:</p> <ul><li>[!UICONTROL **Baja**]</li><li>[!UICONTROL **Mediana**]</li><li>[!UICONTROL **Alta**]</li></ul>Este valor se ve influido por los valores de las siguientes columnas:<ul><li>[!UICONTROL **Límites de mes**]</li><li>[!UICONTROL **Columnas**]</li><li>[!UICONTROL **Segmentos**]</li></ul> |
+| [!UICONTROL **Límites de mes**] | El número de meses que se incluyen en una solicitud. Más límites de mes aumentan la complejidad de la solicitud. |
 | [!UICONTROL **Columnas**] | El número de métricas y desgloses de la solicitud. Más columnas aumenta la complejidad de la solicitud. |
 | [!UICONTROL **Segmentos**] | El número de segmentos aplicados a la solicitud. Más segmentos aumenta la complejidad de la solicitud. |
 
@@ -165,10 +166,10 @@ Al seleccionar la variable [!UICONTROL **Usuario**] , las siguientes columnas es
 | [!UICONTROL **Número de solicitudes**] | Número de solicitudes iniciadas por el usuario. |
 | [!UICONTROL **Número de proyectos**] | El número de proyectos asociados con el usuario. <!-- ??? --> |
 | [!UICONTROL **Aplicación**] | Las aplicaciones compatibles con el [!UICONTROL Administrador de actividades de creación de informes] son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 2.0</li><li>Alertas inteligentes<li>Exportación de tabla completa</li><li>Compartir vínculos con cualquiera</li><li>Análisis guiado</li><li>Cualquier otra aplicación que consulte el motor de informes de Analytics.</li></li></ul> |
-| [!UICONTROL **Complejidad media**] | Complejidad promedio de las solicitudes iniciadas por el usuario. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p><ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Segmentos medios**]</li></ul> |
+| [!UICONTROL **Complejidad media**] | Complejidad promedio de las solicitudes iniciadas por el usuario. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p><ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Promedio de segmentos**]</li></ul> |
 | [!UICONTROL **Límites mensuales medios**] | Promedio de meses que se incluyen en las solicitudes. Más límites de mes aumentan la complejidad de la solicitud. |
 | [!UICONTROL **Columnas medias**] | Número promedio de métricas y desgloses en las solicitudes incluidas. Más columnas aumenta la complejidad de la solicitud. |
-| [!UICONTROL **Segmentos medios**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Más segmentos aumenta la complejidad de la solicitud. |
+| [!UICONTROL **Promedio de segmentos**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Más segmentos aumenta la complejidad de la solicitud. |
 
 {style="table-layout:auto"}
 
@@ -182,10 +183,10 @@ Al seleccionar la variable [!UICONTROL **Proyecto**] , las siguientes columnas e
 | [!UICONTROL **Número de solicitudes**] | El número de solicitudes asociadas con el proyecto. |
 | [!UICONTROL **Cantidad de usuarios**] | El número de usuarios asociados con el proyecto. <!-- ??? --> |
 | [!UICONTROL **Aplicación**] | Las aplicaciones compatibles con el [!UICONTROL Administrador de actividades de creación de informes] son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 2.0</li><li>Alertas inteligentes<li>Exportación de tabla completa</li><li>Compartir vínculos con cualquiera</li><li>Análisis guiado</li><li>Cualquier otra aplicación que consulte el motor de informes de Analytics.</li></li></ul> |
-| [!UICONTROL **Complejidad media**] | Complejidad media de las solicitudes incluidas en el proyecto. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p><ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Segmentos medios**]</li></ul> |
+| [!UICONTROL **Complejidad media**] | Complejidad media de las solicitudes incluidas en el proyecto. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p><ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Promedio de segmentos**]</li></ul> |
 | [!UICONTROL **Límites mensuales medios**] | Promedio de meses que se incluyen en las solicitudes. Más límites de mes aumentan la complejidad de la solicitud. |
 | [!UICONTROL **Columnas medias**] | Número promedio de métricas y desgloses en las solicitudes incluidas. Más columnas aumenta la complejidad de la solicitud. |
-| [!UICONTROL **Segmentos medios**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Más segmentos aumenta la complejidad de la solicitud. |
+| [!UICONTROL **Promedio de segmentos**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Más segmentos aumenta la complejidad de la solicitud. |
 
 {style="table-layout:auto"}
 
@@ -199,10 +200,10 @@ Al seleccionar la variable [!UICONTROL **Aplicación**] , las siguientes columna
 | [!UICONTROL **Número de solicitudes**] | El número de solicitudes asociadas con la aplicación. |
 | [!UICONTROL **Cantidad de usuarios**] | El número de usuarios asociados con la aplicación. <!--???--> |
 | [!UICONTROL **Número de proyectos**] | El número de proyectos asociados con la aplicación. <!--???--> |
-| [!UICONTROL **Complejidad media**] | Complejidad promedio de las solicitudes asociadas con la aplicación. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:<ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Segmentos medios**]</li></ul> |
+| [!UICONTROL **Complejidad media**] | Complejidad promedio de las solicitudes asociadas con la aplicación. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:<ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Promedio de segmentos**]</li></ul> |
 | [!UICONTROL **Límites mensuales medios**] | Promedio de meses que se incluyen en las solicitudes. Más límites de mes aumentan la complejidad de la solicitud. |
 | [!UICONTROL **Columnas medias**] | Número promedio de métricas y desgloses en las solicitudes incluidas. Más columnas aumenta la complejidad de la solicitud. |
-| [!UICONTROL **Segmentos medios**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Más segmentos aumenta la complejidad de la solicitud. |
+| [!UICONTROL **Promedio de segmentos**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Más segmentos aumenta la complejidad de la solicitud. |
 
 {style="table-layout:auto"}
 

@@ -4,9 +4,10 @@ description: Explicar cómo ingerir y utilizar datos por lotes en Customer Journ
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1948'
 ht-degree: 87%
 
 ---
@@ -48,8 +49,7 @@ Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccione **[!UICONTROL Crear esquema]**.
-.
+1. Seleccionar **[!UICONTROL Crear esquema]**. .
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
    1. Seleccionar **[!UICONTROL Perfil individual]**.

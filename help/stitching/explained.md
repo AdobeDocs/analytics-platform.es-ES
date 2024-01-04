@@ -4,7 +4,8 @@ description: Comprensión del concepto de vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 506838a0-0fe3-4b5b-bb9e-2ff20feea8bc
-source-git-commit: 2c650cf688112be1e6bf16c0863e743d61f9c35c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 20%

@@ -3,9 +3,10 @@ title: Crear filtros
 description: Comprenda la interfaz de usuario para la creación de filtros.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 55%
 
 ---

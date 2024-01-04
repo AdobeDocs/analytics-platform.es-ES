@@ -4,7 +4,8 @@ description: Permite establecer la atribución predeterminada para una métrica.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '2030'
 ht-degree: 28%

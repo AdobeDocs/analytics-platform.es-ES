@@ -5,9 +5,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: ec2778396f5090fb2ce71a991aa7a7bcaa913762
+exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1755'
 ht-degree: 15%
 
 ---
@@ -175,7 +177,7 @@ No se ha definido ningún componente de métrica como parte de este conjunto de 
 | Nombre del componente | Tipo de datos del esquema | Ruta de esquema | Configuración |
 |---|---|---|---|
 | Indicador cerrado | Booleano | `isClosed` | |
-| ID de compañía | Cadena | `opportunityID` | |
+| ID de empresa | Cadena | `opportunityID` | |
 | Categoría de pronóstico | Cadena | `forecastCategoryName` | |
 | Fecha de la última actividad | Fecha-hora | `lastActivityDate` | Formato de fecha y hora: **[!UICONTROL Día]** |
 | Origen del posible cliente | Cadena | `leadSource` | |
@@ -307,4 +309,3 @@ A continuación se muestra un proyecto de ejemplo que se basa en la conexión y 
 ![Visualizaciones](assets/visualizations.png)
 
 +++
-

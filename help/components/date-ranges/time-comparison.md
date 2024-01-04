@@ -3,10 +3,11 @@ description: La comparación de fechas de Analysis Workspace le permite tomar cu
 title: Comparación de fechas
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 87%
+source-wordcount: '740'
+ht-degree: 86%
 
 ---
 
@@ -55,7 +56,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
 Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que permite agregar un periodo diferente al periodo en que está establecido el calendario. Esta es otra manera de comparar fechas.
 
-1. Haga clic con el botón secundario en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de periodo de tiempo]** ![Lista de columnas de la tabla con la columna Agregar período de tiempo resaltada ](assets/add-time-period-column.png)
+1. Haga clic con el botón derecho en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de período de tiempo]** ![Lista de columnas de la tabla con la columna Agregar período de tiempo resaltada ](assets/add-time-period-column.png)
 
 1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
 

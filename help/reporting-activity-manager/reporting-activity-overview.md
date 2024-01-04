@@ -3,18 +3,20 @@ title: Información general del Administrador de actividades de creación de inf
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
-# Administrador de actividades de creación de informes información general
+# Información general del Administrador de actividades de creación de informes
 
 El [!UICONTROL Administrador de actividades de informes] está disponible para administradores.
 
-Si su organización experimenta una degradación en el rendimiento de los informes durante las horas de mayor actividad en este tipo de informes, el Administrador de actividades de creación de informes le permite autodiagnosticar y corregir los problemas de capacidad sin la intervención del Servicio de atención al cliente de Adobe. Puede administrar fácilmente las colas de creación de informes dentro de una sola interfaz y actuar inmediatamente para mejorar la experiencia de los usuarios.
+Si su organización experimenta una degradación en el rendimiento de los informes durante las horas de mayor actividad en este tipo de informes, el Administrador de actividades de creación de informes le permite autodiagnosticar y corregir los problemas de capacidad sin la intervención del Servicio de atención al cliente de Adobe. Puede administrar fácilmente las colas de creación de informes dentro de una sola interfaz y actuar &#x200B; inmediato &#x200B; mejorar la experiencia de los usuarios.
 
 ## Beneficios
 

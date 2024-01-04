@@ -4,9 +4,10 @@ description: Determina cómo persisten los valores de dimensión de un evento a 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '884'
 ht-degree: 80%
 
 ---
@@ -61,7 +62,7 @@ Detalles sobre la configuración de asignación disponible.
   | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
   | --- | --- | --- | --- | --- | --- |
   | Valores del conjunto de datos | A | B | C |  | A |
-  | Toda la asignación | A | A,B | A,B,C | A,B,C | A,B,C |
+  | Toda la asignación | A | A, B | A,B,C | A,B,C | A,B,C |
 
 * **[!UICONTROL Conocido por primera vez]** y **[!UICONTROL Último conocido]**: (19 de enero de 2022 ) estos dos modelos de asignación satisfacen los casos de uso de dimensiones “entrada” y “salida”. Toman el primer o el último valor observado para una dimensión dentro de un ámbito de persistencia especificado (sesión, persona o período de tiempo personalizado con retrospectiva) y lo aplican a todos los eventos dentro del ámbito especificado. Ejemplo:
 

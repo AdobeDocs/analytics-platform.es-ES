@@ -3,9 +3,10 @@ description: La configuración de filas varía en función del componente que ha
 title: Configuración de filas
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '476'
 ht-degree: 88%
 
 ---

@@ -6,10 +6,11 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 exl-id: 8820a093-e573-45f9-bcd2-0933e21c231b
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 2%
+source-wordcount: '726'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +74,7 @@ Para iniciar la vinculación, debe crear uno o varios conjuntos de datos vincula
 
         En el [!UICONTROL Experimentar con valores de muestra] , se muestra una tabla con un valor de muestra para [!UICONTROL timestamp], [!UICONTROL ID persistente], [!UICONTROL ID transitorio], [!UICONTROL ID con título (activo)], [!UICONTROL ID con título (reproducción de 1 día)], y [!UICONTROL ID vinculado (reproducción de 7 días)].
 
-            ![Experimento con valores de muestra](./assets/experiment-sample-values.png)
+            ![Experimente con valores de muestra](./assets/experiment-sample-values.png)
             
             1.  Introduzca un valor para la **[!UICONTROL **ID persistente**]**.
             
@@ -109,7 +110,7 @@ Puede ver el estado de la vinculación en la [!UICONTROL Conjuntos de datos enla
   | Valor | Explicación |
   |-----|-----|
   | **[!UICONTROL ** En cola **]** | La solicitud se recibe y se procesa pronto. |
-  | **[!UICONTROL ** Creación en curso **]** | Los recursos y el conjunto de datos recién enlazado están en creación. |
+  | **[!UICONTROL ** Creación **]** en curso | Los recursos y el conjunto de datos recién enlazado están en creación. |
   | **[!UICONTROL ** Vinculación en curso **]** | Existen los recursos y el conjunto de datos vinculado y la vinculación está en curso |
   | **[!UICONTROL ** Error **]** | Hay un problema con la vinculación. Tal vez haya cambiado un esquema entre el conjunto de datos de origen y el conjunto de datos vinculado, el volumen diario es demasiado grande o... (_**necesita más información aquí...**_) |
 

@@ -4,9 +4,10 @@ description: Explicar cómo ingerir y utilizar datos mediante conectores de orig
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1967'
 ht-degree: 86%
 
 ---
@@ -51,8 +52,7 @@ Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccione **[!UICONTROL Crear esquema]**.
-.
+1. Seleccionar **[!UICONTROL Crear esquema]**. .
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
    1. Seleccionar **[!UICONTROL Perfil individual]**.

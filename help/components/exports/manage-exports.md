@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Administración de exportaciones
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -35,9 +36,9 @@ Para encontrar la información que necesita, puede filtrar la lista de exportaci
 
    | Filtro | Descripción |
    |---------|----------|
-   | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta al que está asociada la exportación. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta al que está asociada la exportación. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función de Amazon S3**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Activo**]: indica que una exportación programada aún no ha caducado o que una exportación única aún no se ha completado. </li><li>[!UICONTROL **Completar**]: indica que una exportación se ha exportado correctamente. En el caso de las exportaciones programadas, esto indica que la programación ha caducado.</li><li>[!UICONTROL **Fallido**]<p>Las siguientes situaciones pueden provocar un error en la exportación. Pase el ratón sobre [!UICONTROL **Error**] el estado para ver los detalles del error. <ul><li>Caducidad de exportación programada</li><li>Se alcanzó el límite de filas para la exportación programada </li></ul> </p></li></ul> |
-   | [!UICONTROL **Frecuencia**] | La frecuencia con la que se produce la exportación. Las frecuencias disponibles son las siguientes: <ul><li>[!UICONTROL **Una vez**]</li><li>[!UICONTROL **Diario**]</li><li>[!UICONTROL **Semanal**]</li><li>[!UICONTROL **Mensual**]</li><li>[!UICONTROL **Anual**]</li></ul> |
+   | [!UICONTROL **Frecuencia**] | La frecuencia con la que se produce la exportación. Las frecuencias disponibles son las siguientes: <ul><li>[!UICONTROL **Una vez**]</li><li>[!UICONTROL **Diario**]</li><li>[!UICONTROL **Semanalmente**]</li><li>[!UICONTROL **Mensual**]</li><li>[!UICONTROL **Anual**]</li></ul> |
 
    {style="table-layout:auto"}
 

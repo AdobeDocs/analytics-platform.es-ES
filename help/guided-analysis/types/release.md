@@ -1,13 +1,14 @@
 ---
 title: Vista de versión
-description: Comparar los resultados en periodos iguales antes y después de la liberación.
+description: Compare el rendimiento en periodos iguales antes y después del lanzamiento.
 feature: Guided Analysis
 keywords: análisis de productos
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
-source-git-commit: 02044961612a3d0f4f40bdc71c3f00585d702c92
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 

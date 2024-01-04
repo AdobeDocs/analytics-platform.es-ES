@@ -3,7 +3,8 @@ description: Obtenga información acerca de las limitaciones conocidas en Adobe 
 title: Limitaciones conocidas en Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 83%

@@ -4,9 +4,10 @@ description: Glosario de Customer Journey Analytics.
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
-workflow-type: ht
-source-wordcount: '338'
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '317'
 ht-degree: 100%
 
 ---

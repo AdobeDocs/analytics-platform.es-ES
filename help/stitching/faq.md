@@ -4,7 +4,8 @@ description: Preguntas frecuentes sobre la vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
-source-git-commit: 53d394feb7d1132ad6339bae0e980f32bfe2ee6f
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 34%

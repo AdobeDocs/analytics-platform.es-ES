@@ -5,10 +5,11 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 hide: true
 hidefromtoc: true
-exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: 1b03689820c91a823cd7cf8ff42e3f5ee46083e5
-workflow-type: ht
-source-wordcount: '2938'
+exl-id: 1827a637-6c0f-43f2-862a-928089340d30
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '2789'
 ht-degree: 100%
 
 ---

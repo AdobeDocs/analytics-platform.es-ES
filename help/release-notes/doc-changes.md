@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9f48c2870cff0aac392de9b50c6acea9763553d7
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '2756'
 ht-degree: 91%
@@ -198,7 +198,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Fecha | Actualizar descripción |
 | --- | --- |
-| 13 de noviembre de 2020 | Nuevos temas sobre [Análisis en canales múltiples](/help/cca/overview.md), que le permite volver a escribir el ID de persona de un conjunto de datos y permite una combinación perfecta de varios conjuntos de datos. |
+| 13 de noviembre de 2020 | Temas nuevos sobre [Análisis en canales múltiples](/help/stitching/overview.md), que le permite volver a escribir el ID de persona de un conjunto de datos y permite una combinación perfecta de varios conjuntos de datos. |
 | 13 de noviembre de 2020 | Se ha añadido un nuevo caso de uso en [importación de centro de llamadas y datos web](/help/use-cases/cross-channel/call-center.md). |
 | 10 de noviembre de 2020 | Se ha añadido una sección sobre las implicaciones de eliminar componentes de datos en las [preguntas frecuentes](/help/getting-started/cja-faq.md). |
 | 2 de noviembre de 2020 | Actualizaciones a la página [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |

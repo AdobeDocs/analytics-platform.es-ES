@@ -4,10 +4,11 @@ keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 36%
+source-wordcount: '1966'
+ht-degree: 34%
 
 ---
 
@@ -59,7 +60,7 @@ Cuando comparta una función de proyecto específica con usuarios y grupos de su
 Para compartir una función de proyecto específica con usuarios o grupos de su organización, haga lo siguiente:
 
 1. Vaya al proyecto que desee compartir y haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**.
-Si hay cambios sin guardar, se le pedirá primero que guarde el proyecto.
+Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 
    ![La ventana Compartir proyecto.](assets/share-proj-modal.png)
 
@@ -149,7 +150,7 @@ Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
 1. Elija si desea activar la siguiente opción de seguridad (esta opción puede controlarla el administrador del Customer Journey Analytics):
 
-   * **[!UICONTROL Requiere autenticación de Experience Cloud]:**
+   * **[!UICONTROL Requerir autenticación de Experience Cloud]:**
 
      Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de Adobe Experience Cloud en la que se creó el proyecto que está compartiendo. Sin embargo, los usuarios con los que comparta no necesitan tener acceso a Adobe Analytics.
 

@@ -4,10 +4,11 @@ description: Obtenga información sobre cómo introducir datos de Marketo Engage
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 63%
+source-wordcount: '391'
+ht-degree: 60%
 
 ---
 

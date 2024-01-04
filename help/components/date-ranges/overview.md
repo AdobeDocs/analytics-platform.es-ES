@@ -3,8 +3,9 @@ title: Información general sobre los intervalos de fechas
 description: Aprenda qué son los intervalos de fechas y cómo puede utilizarlos en el sistema de informes.
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 100%
 

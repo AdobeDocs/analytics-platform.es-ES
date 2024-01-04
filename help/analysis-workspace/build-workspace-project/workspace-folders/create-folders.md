@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Creación de carpetas
 feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 76%
+ht-degree: 71%
 
 ---
 
@@ -43,7 +44,7 @@ Para crear una subcarpeta cuando tenga una carpeta existente abierta,
 
 1. Haga clic en **Crear una nueva carpeta**.
 
-   ![Haga clic en Crear una nueva carpeta.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+   ![Haga clic en Crear una carpeta nueva.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
 1. Introduzca un nombre de subcarpeta y agregue las etiquetas necesarias.
 

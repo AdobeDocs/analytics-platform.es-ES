@@ -3,9 +3,10 @@ description: La detección de anomalías de Analysis Workspace utiliza una serie
 title: Técnicas estadísticas utilizadas en la detección de anomalías
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '816'
 ht-degree: 98%
 
 ---

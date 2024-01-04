@@ -4,10 +4,11 @@ description: Aprenda a crear conjuntos de datos que vinculen los datos de sitios
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 98%
+source-wordcount: '1141'
+ht-degree: 95%
 
 ---
 
@@ -44,11 +45,11 @@ Al importar datos en Platform, estas sugerencias pueden ayudar a aumentar la per
 El Customer Journey Analytics requiere un identificador común para generar un [conjunto de datos combinado](/help/connections/combined-dataset.md).
 
 * Si los conjuntos de datos ya tienen un identificador común en cada evento de ambos conjuntos de datos, puede omitir este paso y continuar con la creación de una conexión.
-* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos con Análisis entre canales. Consulte [Información general de Análisis entre canales](/help/cca/overview.md) para ver los pasos que debe seguir para habilitar AEC para estos dos conjuntos de datos.
+* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede vincular los datos mediante [Vinculación](/help/stitching/overview.md) para ver los pasos que permiten el análisis en canales múltiples para estos dos conjuntos de datos.
 
 ## Crear una conexión en Customer Journey Analytics
 
-[Crear una conexión en Customer Journey Analytics.](/help/connections/create-connection.md)
+[Crear una conexión](/help/connections/create-connection.md) en Customer Journey Analytics.
 
 * Si se utiliza AEC, encontrará un nuevo conjunto de datos vinculado disponible para el uso. Utilice el campo de ID de vinculación recién creado como ID de persona.
 * De lo contrario, puede seleccionar los conjuntos de datos originales del sitio web y el centro de llamadas para utilizarlos en la conexión.

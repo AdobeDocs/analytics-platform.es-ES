@@ -3,10 +3,11 @@ title: Integración de Administración de decisiones de Adobe Journey Optimizer 
 description: Incorpore datos generados por la gestión de decisiones de Adobe Journey Optimizer y analícelos con Analysis Workspace en Customer Journey Analytics.
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 20%
+source-wordcount: '710'
+ht-degree: 17%
 
 ---
 
@@ -31,17 +32,17 @@ Seleccione y configure los siguientes conjuntos de datos:
 
 | Conjunto de datos | Tipo de conjunto de datos | Configuración de la conexión | Descripción |
 | --- | --- | --- | --- |
-| ODE DecisionEvents - _espacio aislado_ toma de decisiones | Evento | ID de la persona: `IdentityMap` | Contiene datos generados automáticamente para eventos de decisión de Administración de decisiones. _Sandbox_ hace referencia al nombre de zona protegida específico. |
-| Conjunto de datos de evento de comentarios de mensajes Adobe Journey Optimizer | Evento | ID de la persona: `IdentityMap` | Contiene eventos de envío de mensajes. |
-| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico Adobe Journey Optimizer | Evento | ID de la persona: `IdentityMap` | Contiene eventos de seguimiento de correo electrónico. |
-| Conjunto de datos de evento de experiencia de seguimiento push de Adobe Journey Optimizer | Evento | ID de la persona: `IdentityMap` | Contiene eventos de seguimiento push. |
+| ODE DecisionEvents - _espacio aislado_ toma de decisiones | Evento | ID de persona: `IdentityMap` | Contiene datos generados automáticamente para eventos de decisión de Administración de decisiones. _Sandbox_ hace referencia al nombre de zona protegida específico. |
+| Conjunto de datos de evento de comentarios de mensajes Adobe Journey Optimizer | Evento | ID de persona: `IdentityMap` | Contiene eventos de envío de mensajes. |
+| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico Adobe Journey Optimizer | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento de correo electrónico. |
+| Conjunto de datos de evento de experiencia de seguimiento push de Adobe Journey Optimizer | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push. |
 | Conjunto de datos de entidad Adobe Journey Optimizer | Búsqueda | Clave: `_id`<br>Clave de coincidencia: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene clasificaciones que asocian metadatos de Recorridos y campañas a todos los datos de eventos de Adobe Journey Optimizer. |
 
 {style="table-layout:auto"}
 
 ## Creación de una vista de datos
 
-Después de crear una conexión, puede crear una o más [Vistas de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) para configurar las dimensiones y métricas deseadas disponibles en Customer Journey Analytics.
+Después de crear una conexión, puede crear una o más [Vistas de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en) para configurar las dimensiones y métricas deseadas disponibles en Customer Journey Analytics.
 
 >[!NOTE]
 >

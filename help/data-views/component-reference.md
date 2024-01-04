@@ -4,10 +4,11 @@ description: Detalles e información sobre todos los componentes estándar que s
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 77647ddbd2deee402629104312db1620de4449e9
-workflow-type: ht
-source-wordcount: '1011'
-ht-degree: 100%
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '980'
+ht-degree: 99%
 
 ---
 

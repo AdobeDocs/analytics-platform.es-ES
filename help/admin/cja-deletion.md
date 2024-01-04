@@ -4,10 +4,11 @@ description: Qué sucede cuando se eliminan conexiones, conjuntos de datos o lot
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 49fa31b3dd23718f35a050d5548dce1b30e8ab9c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 73%
+source-wordcount: '377'
+ht-degree: 71%
 
 ---
 

@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: a67c12a7b5244b7802eba2cbcbfdb320802d088b
-workflow-type: ht
-source-wordcount: '1488'
-ht-degree: 100%
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '1394'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Algunos ejemplos de identidades pueden ser un ID de cliente, un ID de cuenta o u
 * El ID no contiene PII. Aplique la función resumen a cualquier cosa que pueda ser confidencial.
 * El ID utiliza el mismo formato en todas las fuentes (la misma longitud, el mismo método de función resumen, etc.)
 
-En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar Análisis en canales múltiples (anteriormente conocido como “vinculación basada en campos”) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es)
+En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar el análisis en canales múltiples (también conocido como &quot;vinculación&quot;) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). [Más información](../stitching/overview.md).
 
 ### 2. Alinee las variables {#variables}
 
@@ -71,7 +71,7 @@ Este método amplía considerablemente las posibilidades de recopilación de dat
 * Esquema flexible para definir cualquier campo que necesite
 * No depende de la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)
 * No existen limitaciones de caracteres (100 caracteres para props)
-* Disponibilidad de datos más rápida en Adobe Experience Platform para impulsar [casos de uso de personalización en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)
+* Disponibilidad de datos más rápida en Adobe Experience Platform para alimentar [casos de uso de personalización en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)
 * [ID de dispositivos de origen](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=es) para mejorar la precisión de la identificación del visitante
 
 **Inconvenientes de utilizar el SDK de Experience Platform**

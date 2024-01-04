@@ -1,10 +1,10 @@
 ---
 title: Visualización de anotaciones
 description: Cómo ver anotaciones en Espacio de trabajo.
-role: User, Admin
+role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 86%

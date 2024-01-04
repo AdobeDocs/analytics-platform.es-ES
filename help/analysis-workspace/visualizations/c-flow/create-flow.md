@@ -2,18 +2,18 @@
 description: Aprenda a utilizar la visualización de flujo en un proyecto de Workspace.
 title: Configuración de una visualización de flujo
 feature: Visualizations
-role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 57%
+source-wordcount: '1595'
+ht-degree: 56%
 
 ---
 
 # Configuración de una visualización de flujo
 
-Las visualizaciones de flujo le ayudan a comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que conducen a él. Traza una ruta a través de las dimensiones (y elementos de dimensión) o las métricas.
+Las visualizaciones de flujo le ayudan a comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que conducen a él. Traza una ruta a través de las dimensiones (y elementos de dimensión) o métricas.
 
 Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta que le interesa o analizar todas las rutas que fluyen a través de una dimensión o un elemento de dimensión.
 

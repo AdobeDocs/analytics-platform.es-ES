@@ -5,7 +5,8 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: b41adb3f3fa4abbfa7be491e5a1fbf81e1623598
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '2556'
 ht-degree: 4%
