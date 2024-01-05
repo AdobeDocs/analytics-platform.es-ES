@@ -6,9 +6,9 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2558'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ Como alternativa, puede utilizar `identityMap` para consultar identidades. Este 
 
 Los campos XDM que puede utilizar en la consulta dependen de la definición de esquema en la que se basen los conjuntos de datos. Asegúrese de comprender el esquema subyacente del conjunto de datos.
 
-Para facilitar la asignación entre las columnas de fuente de datos y los campos XDM, se debe tener en cuenta incluir los campos [Plantilla de Adobe Analytics ExperienceEvent](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) grupo de campos en el esquema de evento de experiencia. Consulte [Prácticas recomendadas para el modelado de datos](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) y más específicamente [grupos de campos de esquema de aplicación de Adobe](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+Para definir la asignación entre las columnas de fuente de datos y los campos XDM, debe considerar inspeccionar y potencialmente (reutilizar) algunos aspectos de la variable [Plantilla de Adobe Analytics ExperienceEvent](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) grupo de campos. Consulte [Prácticas recomendadas para el modelado de datos](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) y más específicamente [grupos de campos de esquema de aplicación de Adobe](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
 
 Por ejemplo, en caso de que desee utilizar *nombre de página* como parte de la fuente de datos:
 
