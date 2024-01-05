@@ -5,7 +5,7 @@ title: Administración de exportaciones
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
+source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 3%
@@ -137,7 +137,7 @@ Seleccione un encabezado de columna para ordenar las exportaciones por esa colum
    | Nombre | Nombre de la exportación. Los usuarios asignan un nombre a las exportaciones cuando las crean, tal como se describe en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md). |
    | ID | El ID asignado automáticamente a la exportación cuando se crea. <!-- True? --> |
    | Nombre de la vista de datos | Nombre de la vista de datos asociada con la exportación. Los usuarios pueden seleccionar la vista de datos cuando creen la exportación, tal como se describe en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md). |
-   | Estado | El estado de la exportación. Los estados disponibles son [!UICONTROL Activo], [!UICONTROL Completar], y [!UICONTROL Error].<p> **Nota:** Para obtener información sobre la resolución de problemas de exportaciones fallidas, consulte [Solución de problemas de exportaciones fallidas](/help/components/exports/troubleshoot-exports.md).</p> |
+   | Estado | El estado de la exportación. Los estados disponibles son [!UICONTROL Activo], [!UICONTROL Completado], y [!UICONTROL Error].<p> **Nota:** Para obtener información sobre la resolución de problemas de exportaciones fallidas, consulte [Solución de problemas de exportaciones fallidas](/help/components/exports/troubleshoot-exports.md).</p> |
    | Etiquetas | Muestra todas las etiquetas aplicadas a la exportación. Para obtener información sobre cómo aplicar etiquetas a una exportación, consulte [Etiquetado de una exportación](#tag-an-export). |
    | Tamaño de la tabla (último envío) | El tamaño de la exportación la última vez que se envió. |
    | Creado por | El usuario que creó la exportación. |
