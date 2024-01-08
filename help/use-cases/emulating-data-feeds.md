@@ -6,10 +6,10 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
+source-git-commit: a402c4b03c9d30235f2697e1b6ad5b1b22024c66
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 4%
+source-wordcount: '2537'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ La emulación de una fuente de datos de Adobe Analytics implica:
 Asegúrese de cumplir todos los requisitos antes de utilizar la funcionalidad descrita en este caso de uso:
 
 * Implementación de trabajo que recopila datos en el lago de datos de Experience Platform.
-* Acceda al complemento Data Distiller para asegurarse de que tiene derecho a ejecutar consultas por lotes. Consulte [Empaquetado del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) para obtener más información.
+* Acceso al complemento Data Distiller para asegurarse de que tiene derecho a ejecutar consultas por lotes. Consulte [Empaquetado del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) para obtener más información.
 * Acceso a la funcionalidad Exportar conjuntos de datos, disponible al adquirir el paquete Real-Time CDP Prime o Ultimate, Adobe Journey Optimizer o Customer Journey Analytics. Consulte [Exportar conjuntos de datos a destinos de almacenamiento en la nube](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es) para obtener más información.
 * Uno o más destinos (por ejemplo: Amazon S3, Google Cloud Storage) configurados para que pueda exportar los datos sin procesar de su fuente de datos.
 
@@ -57,7 +57,7 @@ Puede utilizar todas las funciones de ANSI SQL estándar para instrucciones SELE
 
 En Experience Platform, hay varias identidades disponibles. Al crear las consultas, asegúrese de que está consultando las identidades correctamente.
 
-A menudo, las identidades se encuentran en un grupo de campos independiente. En un ECID de implementación (`ecid`) se puede definir como parte de un grupo de campos con un `core` que forma parte de un objeto `identification` objeto. (por ejemplo: `_sampleorg.identification.core.ecid`). Los ECID pueden estar organizados de forma diferente en los esquemas.
+A menudo, las identidades se encuentran en un grupo de campos independiente. En un ECID de implementación (`ecid`) se puede definir como parte de un grupo de campos con un `core` que forma parte de un objeto `identification` objeto (por ejemplo: `_sampleorg.identification.core.ecid`). Los ECID pueden estar organizados de forma diferente en los esquemas.
 
 Como alternativa, puede utilizar `identityMap` para consultar identidades. Este objeto es de tipo `Map` y usa un [estructura de datos anidada](#nested-data-structure).
 
@@ -66,38 +66,38 @@ Como alternativa, puede utilizar `identityMap` para consultar identidades. Este 
 
 Los campos XDM que puede utilizar en la consulta dependen de la definición de esquema en la que se basen los conjuntos de datos. Asegúrese de comprender el esquema subyacente del conjunto de datos.
 
-Para definir la asignación entre las columnas de fuente de datos y los campos XDM, debe considerar inspeccionar y potencialmente (reutilizar) algunos aspectos de la variable [Plantilla de Adobe Analytics ExperienceEvent](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) grupo de campos. Consulte [Prácticas recomendadas para el modelado de datos](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) y más específicamente [grupos de campos de esquema de aplicación de Adobe](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+Para definir la asignación entre las columnas de fuente de datos y los campos XDM, se debe tener en cuenta inspeccionar y utilizar potencialmente (volver a) algunos aspectos de la variable [Plantilla de Adobe Analytics ExperienceEvent](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) grupo de campos. Consulte [Prácticas recomendadas para el modelado de datos](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) y más específicamente [grupos de campos de esquema de aplicación de Adobe](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
 
 Por ejemplo, en caso de que desee utilizar *nombre de página* como parte de la fuente de datos:
 
 * En la interfaz de usuario de la fuente de datos de Adobe Analytics, debe seleccionar **[!UICONTROL pagename]** como la columna que se agregará a la definición de fuente de datos.
 * En el servicio de consultas, incluye lo siguiente `web.webPageDetails.name` desde el `sample_event_dataset_for_website_global_v1_1` conjunto de datos (basado en el **Esquema de evento de muestra para el sitio web (Global v1.1)** experience event (esquema) en la consulta. Consulte la [grupo de campos de esquema de detalles web](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) para obtener más información.
 
-Para comprender la asignación entre columnas de fuentes de datos de Adobe Analytics anteriores y campos XDM en el conjunto de datos de evento de experiencia y el esquema subyacente, consulte [Asignación de campos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es) y el [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) para obtener más información.
+Para comprender la asignación entre columnas de fuentes de datos de Adobe Analytics y campos XDM en el conjunto de datos de evento de experiencia y el esquema subyacente, consulte [Asignación de campos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es) y [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) para obtener más información.
 
 Además, la [información recopilada automáticamente por el SDK web de Experience Platform (de forma predeterminada)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) puede ser relevante para identificar columnas para la consulta.
 
 #### Identificación y datos de nivel de visita individual
 
-En función de la implementación, los datos de nivel de visita recopilados tradicionalmente en Adobe Analytics ahora se almacenan como datos de evento con marca de tiempo en Experience Platform. La siguiente tabla se extrae de [Asignación de campos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en#generated-mapping-fields) y muestra ejemplos de cómo asignar columnas de fuentes de datos de Adobe Analytics específicas del nivel de visita con los campos XDM correspondientes en las consultas. La tabla también muestra ejemplos de cómo se identifican las visitas, las visitas y los visitantes mediante campos XDM.
+En función de la implementación, los datos de nivel de visita recopilados tradicionalmente en Adobe Analytics ahora se almacenan como datos de evento con marca de tiempo en Experience Platform. La siguiente tabla se extrae de [Asignación de campos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en#generated-mapping-fields) y muestra ejemplos de cómo asignar columnas de fuentes de datos de Adobe Analytics específicas del nivel de visita con los campos XDM correspondientes en las consultas. La tabla también muestra ejemplos de cómo se identifican las visitas individuales, las visitas y los visitantes mediante campos XDM.
 
 | Columna de fuente de datos | Campo XDM | Tipo | Descripción |
 |---|---|---|---|
 | hitid_high + hitid_low | _id | string | Un identificador único para identificar una visita. |
-| hitid_low | _id | string | Se utiliza junto con hitid_high para identificar una visita de forma exclusiva. |
-| hitid_high | _id | string | Se utiliza junto con hitid_high para identificar una visita de forma exclusiva. |
-| hit_time_gmt | receivedTimestamp | string | La marca de tiempo de la visita basada en la hora Unix. |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | string | Marca de tiempo de la primera visita del visitante en Tiempo Unix. |
-| cust_hit_time_gmt | timestamp | string | Esto solo se utiliza en conjuntos de datos con marca de tiempo habilitada. Esta es la marca de tiempo que se envía con la misma, en función de la hora Unix. |
+| hitid_low | _id | string | Se utiliza con hitid_high para identificar una visita de forma exclusiva. |
+| hitid_high | _id | string | Se utiliza con hitid_high para identificar una visita de forma exclusiva. |
+| hit_time_gmt | receivedTimestamp | string | La marca de tiempo de la visita basada en la hora de UNIX®. |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | string | Marca de tiempo de la primera visita del visitante en tiempo UNIX®. |
+| cust_hit_time_gmt | timestamp | string | Esto solo se utiliza en conjuntos de datos con marca de tiempo habilitada. Es la marca de tiempo que se envía con la visita en función de la hora de UNIX®. |
 | visid_high + visid_low | identityMap | objeto | Un identificador único de una visita. |
 | visid_high + visid_low | endUserID._experience.aaid.id | string | Un identificador único de una visita. |
-| visid_high | endUserID._experience.aaid.primary | booleano | Se utiliza junto con visid_low para identificar una visita de forma exclusiva. |
-| visid_high | endUserID._experience.aaid.namespace.code | string | Se utiliza junto con visid_low para identificar una visita de forma exclusiva. |
-| visid_low | identityMap | objeto | Se utiliza junto con visid_high para identificar una visita de forma exclusiva. |
+| visid_high | endUserID._experience.aaid.primary | booleano | Se utiliza con visid_low para identificar una visita de forma exclusiva. |
+| visid_high | endUserID._experience.aaid.namespace.code | string | Se utiliza con visid_low para identificar una visita de forma exclusiva. |
+| visid_low | identityMap | objeto | Se utiliza con visid_high para identificar una visita de forma exclusiva. |
 | cust_visid | identityMap | objeto | El ID de visitante del cliente |
 | cust_visid | endUserID._experience.aacustomid.id | objeto | El ID de visitante de cliente. |
 | cust_visid | endUserID._experience.aacustomid.primary | booleano | El código del área de nombres de ID de visitante de cliente. |
-| cust_visid | endUserID._experience.aacustomid.namespace.code | string | Se utiliza junto con visid_low para identificar de forma exclusiva el ID de visitante de cliente. |
+| cust_visid | endUserID._experience.aacustomid.namespace.code | string | Se utiliza con visid_low para identificar de forma exclusiva el ID de visitante de cliente. |
 | geo\_* | placeContext.geo.* | cadena, número | Datos de geolocalización, como país, región, ciudad y otros |
 | visit_page_num | _experience.analytics.session.depth | number | Variable utilizada en la dimensión Profundidad de visita. Este valor aumenta en 1 por cada visita que genera el usuario y se restablece después de cada visita. |
 | event_list | commerce.purchases, commerce.productViews, commerce.productListOpens, commerce.checkouts, commerce.productListAdds, commerce.productListRemovals, commerce.productListViews, \_experience.analytics.event101to200.*, ..., \_experience.analytics.event901_1000.\* | string | Eventos comerciales y personalizados estándar activados en la visita. |
@@ -106,7 +106,7 @@ En función de la implementación, los datos de nivel de visita recopilados trad
 | page_event_var_1 | web.webInteraction.URL | string | Variable que solo se utiliza en las solicitudes de imagen de seguimiento de vínculos. Esta variable contiene la dirección URL del vínculo de descarga, de salida o personalizado en el que se hizo clic. |
 | page_event_var_2 | web.webInteraction.name | string | Variable que solo se utiliza en las solicitudes de imagen de seguimiento de vínculos. Muestra el nombre personalizado del vínculo, si se especifica. |
 | first_hit_ref_type | _experience.analytics.endUser.firstWeb.webReferrer.type | string | El ID numérico, que representa el tipo de referente del primer referente del visitante. |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | entero | Marca de tiempo de la primera visita del visitante en Tiempo Unix. |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | entero | Marca de tiempo de la primera visita del visitante en tiempo UNIX®. |
 | paid_search | search.isPaid | booleano | Un indicador que se establece si la visita coincide con la detección de búsquedas de pago. |
 | ref_type | web.webReferrertype | string | Una ID numérica que representa el tipo de referente de la visita. |
 
@@ -114,7 +114,7 @@ En función de la implementación, los datos de nivel de visita recopilados trad
 
 Las fuentes de datos de Adobe Analytics utilizan el concepto de columnas con una `post_` prefijo, que son columnas que contienen datos después del procesamiento. Consulte [Preguntas frecuentes sobre fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#post) para obtener más información.
 
-Los datos recopilados en conjuntos de datos a través de la red perimetral de Experience Platform (SDK web, SDK móvil, API de servidor) no tienen concepto de `post_` campos, lo que explica por qué `post_` con el prefijo y *non* `post_` las columnas de fuentes de datos prefijadas en la asignación de campos de Analytics se asignan a los mismos campos XDM. Por ejemplo, ambas `page_url` y `post_page_url` las columnas de fuentes de datos se asignan al mismo `web.webPageDetails.URL` Campo XDM.
+Los datos recopilados en conjuntos de datos a través de la red perimetral de Experience Platform (SDK web, SDK móvil, API de servidor) no tienen concepto de `post_` campos. Como resultado, `post_` con el prefijo y *non*-`post_` las columnas de fuentes de datos prefijadas se asignan a los mismos campos XDM. Por ejemplo, ambas `page_url` y `post_page_url` las columnas de fuentes de datos se asignan al mismo `web.webPageDetails.URL` Campo XDM.
 
 Consulte [Comparar el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics.](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=es) para obtener una descripción general de las diferencias en el procesamiento de datos.
 
@@ -168,11 +168,11 @@ Consulte [Trabajar con estructuras de datos anidadas en el servicio de consultas
 
 #### Ejemplos
 
-Por ejemplo, las consultas que utilizan datos de conjuntos de datos en el lago de datos de Experience Platform, están tocando las capacidades adicionales de Funciones definidas por Adobe o Spark SQL y que ofrecerían resultados similares a los de una fuente de datos de Adobe Analytics equivalente, consulte
+Para consultas que utilizan datos de conjuntos de datos en el lago de datos de Experience Platform, están tocando las capacidades adicionales de Funciones definidas por Adobe o Spark SQL, y que ofrecerían resultados similares a una fuente de datos de Adobe Analytics equivalente, consulte
 
-* [exploración abandonada](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en),
-* [análisis de atribución](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en),
-* [filtrado de bots](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en),
+* [exploración abandonada](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)
+* [análisis de atribución](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)
+* [filtrado de bots](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)
 * y otros casos de uso de ejemplo en la guía del servicio de consultas.
 
 
@@ -238,7 +238,7 @@ También puede exportar y programar la exportación de conjuntos de datos de sal
 
 #### Introducción
 
-Asegúrese de que dispone de [permisos necesarios](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#permissions) para exportar conjuntos de datos de y que el destino al que desea enviar el conjunto de datos de salida admita la exportación de conjuntos de datos. Entonces, debe [recopilar los valores de los encabezados obligatorios y opcionales](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-values-headers) que utiliza en las llamadas API de, así como [identificar las especificaciones de conexión y los ID de especificación de flujo del destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-connection-spec-flow-spec) tiene intención de exportar conjuntos de datos a.
+Para exportar conjuntos de datos, asegúrese de que tiene [permisos necesarios](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#permissions). Compruebe también que el destino al que desea enviar el conjunto de datos de salida admite la exportación de conjuntos de datos. Entonces, debe [recopilar los valores de los encabezados obligatorios y opcionales](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-values-headers) que utiliza en las llamadas de API. También es necesario [identificar las especificaciones de conexión y los ID de especificación de flujo del destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-connection-spec-flow-spec) tiene intención de exportar conjuntos de datos a.
 
 #### Recuperar conjuntos de datos aptos
 
