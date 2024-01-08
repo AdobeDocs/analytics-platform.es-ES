@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1394'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Algunos ejemplos de identidades pueden ser un ID de cliente, un ID de cuenta o u
 * El ID no contiene PII. Aplique la función resumen a cualquier cosa que pueda ser confidencial.
 * El ID utiliza el mismo formato en todas las fuentes (la misma longitud, el mismo método de función resumen, etc.)
 
-En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar el análisis en canales múltiples (también conocido como &quot;vinculación&quot;) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). [Más información](../stitching/overview.md).
+En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar análisis en canales múltiples (también conocido como “vinculación”) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). [Más información](../stitching/overview.md).
 
 ### 2. Alinee las variables {#variables}
 

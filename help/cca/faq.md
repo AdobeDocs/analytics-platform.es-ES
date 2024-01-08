@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ La vinculación en tiempo real está disponible aproximadamente una semana despu
 
 [Análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) es una función específica de la versión tradicional de Adobe Analytics que le permite comprender cómo funcionan las personas en distintos dispositivos. Ofrece dos flujos de trabajo para vincular datos de dispositivos: vinculación basada en el campo y el gráfico del dispositivo.
 
-[Análisis en canales múltiples](/help/stitching/overview.md) es una función específica de Customer Journey Analytics que le permite comprender cómo funcionan las personas en ambos dispositivos y canales. Vuelve a codificar el ID de persona de un conjunto de datos, lo que permite que ese conjunto de datos se combine sin problemas con otros conjuntos de datos. Esta característica funciona de forma similar a la vinculación basada en el campo de CDA, pero la implementación es distinta debido a la diferente arquitectura de datos entre Adobe Analytics y Customer Journey Analytics.
+[Análisis en canales múltiples](/help/stitching/overview.md) es una funcionalidad específica de Customer Journey Analytics que permite comprender cómo funcionan las personas en ambos dispositivos y canales. Vuelve a codificar el ID de persona de un conjunto de datos, lo que permite que ese conjunto de datos se combine sin problemas con otros conjuntos de datos. Esta característica funciona de forma similar a la vinculación basada en el campo de CDA, pero la implementación es distinta debido a la diferente arquitectura de datos entre Adobe Analytics y Customer Journey Analytics.
 
 ## ¿Cómo gestiona Cross-Channel Analytics las solicitudes del RGPD y CCPA?
 
