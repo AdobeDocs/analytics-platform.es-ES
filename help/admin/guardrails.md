@@ -4,9 +4,9 @@ description: Obtenga información acerca de las protecciones para Customer Journ
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
+source-git-commit: 85aea47146d4079606ccdeb1bcc29d41bbf49837
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1480'
 ht-degree: 10%
 
 ---
@@ -76,7 +76,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 | Frecuencia de actualización de audiencia | 4 | Protección impuesta por el sistema | Frecuencia máxima en horas y [audiencia](../components/audiences/audiences-overview.md) se puede actualizar. | |
 | Ventana retrospectiva de actualización de audiencia | 90 | Protección impuesta por el sistema | Número máximo de días para actualizar la ventana retrospectiva. |
 | Actualizando fecha de caducidad de audiencia | 13 | Protección impuesta por el sistema | La audiencia deja de actualizarse durante un número máximo de meses a partir de la fecha de creación. Los clientes pueden prolongar esta duración otros 13 meses. |
-| Número de audiencias que se actualizan | 75, 100, 150 | Protección impuesta por el sistema | Número máximo de audiencias de actualización, el valor varía según el paquete. |
+| Número de audiencias que se actualizan | 75, 100 | Protección impuesta por el sistema | Número máximo de audiencias de actualización, el valor varía según el paquete (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
