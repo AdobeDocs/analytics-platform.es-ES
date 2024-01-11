@@ -4,16 +4,26 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 6ae65a3356df4ce1b72cd30b055d4db734488235
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 91%
+source-wordcount: '2781'
+ht-degree: 90%
 
 ---
 
 # Actualizaciones de la documentación de Customer Journey Analytics
 
 Se han realizado las siguientes actualizaciones en la documentación de Customer Journey Analytics desde su creación.
+
+## 2024
+
+| Función | Descripción |
+| --- | --- |
+| **Enero de 2024** | |
+| Campos derivados | Se ha añadido el resumen de función [limitaciones](/help/data-views/derived-fields/derived-fields.md#limitations) y explicación sobre cómo determinar el número de [operadores](/help/data-views/derived-fields/derived-fields.md#operators) se utiliza en una función. |
+
+{style="table-layout:auto"}
+
 
 ## 2023
 
@@ -94,6 +104,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Página de aterrizaje | Nuevas actualizaciones de la página de aterrizaje [página de aterrizaje](/help/getting-started/landing.md). |
 | Programar libros de trabajo | Página dedicada para describir cómo [Programar Workbooks](/help/report-builder/schedule-reportbuilder.md) en Report Builder. |
 | Soporte para matrices de objetos de conjuntos de datos de perfil y búsqueda | [Usar matrices de objetos](/help/use-cases/object-arrays.md) e [Ingesta de públicos de Adobe Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md) actualizados para reflejar la compatibilidad de matrices de objetos para conjuntos de datos de perfil y búsqueda. |
+
+{style="table-layout:auto"}
 
 ## 2022
 
