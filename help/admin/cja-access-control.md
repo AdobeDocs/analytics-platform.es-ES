@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 05bd88ea215d0b41c58221b42581a8fd09a019b3
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 81%
+source-wordcount: '969'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,7 @@ Además, analizamos formas más detalladas de limitar el acceso, como la depurac
 
 ## Función Administrador de productos
 
-Los administradores de productos tienen permisos para completar cualquier tarea necesaria dentro de Customer Journey Analytics. Debe estar añadido como Administrador de productos al **Perfil de producto de Customer Journey Analytics** en [Admin Console](https://adminconsole.adobe.com/enterprise/), en [!UICONTROL Customer Journey Analytics] > pestaña [!UICONTROL Administradores] > [!UICONTROL Agregar administrador]. Los administradores de productos tienen los siguientes permisos:
+Los administradores de productos tienen permisos para completar cualquier tarea necesaria dentro de Customer Journey Analytics. Debe estar añadido como Administrador de productos a **Perfil de producto del Customer Journey Analytics** en el [Admin Console](https://adminconsole.adobe.com/enterprise/) bajo [!UICONTROL Customer Journey Analytics] > [!UICONTROL Administradores] pestaña > [!UICONTROL Añadir administrador]. Los administradores de productos tienen los siguientes permisos:
 
 * Crear/actualizar/eliminar conexiones o Vistas de datos
 * Actualizar o eliminar proyectos, filtros, métricas calculadas, audiencias, anotaciones o filtros creados por otros usuarios
@@ -93,7 +93,7 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil de producto en 
 | **[!UICONTROL Acceso a registros de auditoría]** | Este permiso exige la comprobación de permisos en la [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) y en la interfaz de usuario de registros de auditoría. |
 | **[!UICONTROL Administración de creación de informes]** | Permite a los usuarios ver y eliminar cualquier informe que se ejecute en su compañía. |
 | **[!UICONTROL Vista del uso de creación de informes]** | Permite a los usuarios ver todas las solicitudes de creación de informes simultáneas. |
-| [!UICONTROL **Exportación de tabla completa**] | Permite a los usuarios [exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md). |
+| [!UICONTROL **Exportación de tabla completa**] | Permite a los usuarios [exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md). <p>Para obtener información sobre cómo añadir acceso de Destinos a los usuarios de Customer Journey Analytics en Adobe Experience Platform, consulte [Destinos y control de acceso](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls) in [Resumen de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en)</p> |
 | **[!UICONTROL Creación de métricas calculadas]** | Permite que los usuarios creen [métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md). |
 | **[!UICONTROL Creación de filtros]** | Permite que los usuarios creen [filtros](/help/components/filters/filters-overview.md). |
 | **[!UICONTROL Acceso a Labs]** | Permite a los usuarios acceder a [Labs](/help/labs/labs.md) pestaña en el Customer Journey Analytics. |
