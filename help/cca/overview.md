@@ -5,10 +5,10 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
-workflow-type: ht
-source-wordcount: '1166'
-ht-degree: 100%
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Una vez que su organización cumpla todos los requisitos previos y comprenda sus
    * Nombre de la zona protegida.
 1. La Asistencia al cliente de Adobe trabajará con el personal de ingeniería de Adobe para habilitar Análisis en canales múltiples cuando reciba la solicitud. Una vez habilitado, aparecerá en Adobe Experience Platform un nuevo conjunto de datos con clave con una nueva columna de ID de persona. La Asistencia al cliente de Adobe puede proporcionar el nuevo ID del conjunto de datos y el nombre de la columna de ID personal.
 1. Cuando se active por primera vez, Adobe proporcionará un relleno de datos identificados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, el ID efímero debe existir en los datos no identificados en ese momento.
-1. [Cree una conexión](/help/connections/create-connection.md) en Customer Journey Analytics usando el nuevo conjunto de datos recientemente generado y otros conjuntos de datos que desea incluir. Elija el ID personal correcto para cada conjunto de datos.
+1. [Crear o editar una conexión](/help/connections/create-connection.md) en un Customer Journey Analytics que utilice el conjunto de datos recién generado y otros conjuntos de datos que desee incluir. Elija el ID personal correcto para cada conjunto de datos.
 1. [Cree una vista de datos](/help/data-views/create-dataview.md) en función de la conexión.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->

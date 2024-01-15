@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo configurar la implementación para
 exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -21,4 +21,4 @@ La configuración de la recopilación de datos implica los siguientes pasos:
 1. Instale la [Extensión de la capa de datos de Google](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html?lang=es). Esta extensión actúa como una alternativa a la instalación de la extensión del SDK web, orientado específicamente a una capa de datos de Google.
 1. [Crear una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es) en la recopilación de datos de Adobe Experience Platform. Configure la secuencia de datos para enviar datos a Adobe Experience Platform. Actualmente, debe asignar cada objeto de capa de datos de Google a un campo XDM aplicable aquí. Adobe planea simplificar este flujo de trabajo de asignación en el futuro.
 
-Una vez que implemente y publique las etiquetas deseadas en el sitio, puede continuar con [Creación de una conexión](/help/connections/create-connection.md) y [Creación de una vista de datos](/help/data-views/create-dataview.md).
+Una vez que implemente y publique las etiquetas deseadas en el sitio, puede continuar con [crear una conexión](/help/connections/create-connection.md), entonces [creación de una vista de datos](/help/data-views/create-dataview.md).
