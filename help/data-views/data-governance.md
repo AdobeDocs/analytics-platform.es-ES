@@ -4,10 +4,10 @@ description: Descubra cómo las etiquetas y políticas de datos definidas en Ado
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '498'
-ht-degree: 100%
+source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Haga clic en **[!UICONTROL Aplicar]** para ver qué políticas están habilitada
 
 ## Cómo afectan las políticas habilitadas a las vistas de datos
 
-Si las políticas **[!UICONTROL Aplicar Analytics]** o **[!UICONTROL Aplicar descarga]** están activadas, los componentes de esquema que tienen determinadas etiquetas de datos (como C8 o C12) asociadas a ellas no se pueden añadir a las vistas de datos.
+Si la variable **[!UICONTROL Forzar Analytics]** está activada, los componentes de esquema que tienen determinadas etiquetas de datos (como C8) asociadas a ellas no se pueden añadir a las vistas de datos.
 
 Estos componentes aparecen atenuados en la lista del carril izquierdo [!UICONTROL Campos de esquema]:
 
