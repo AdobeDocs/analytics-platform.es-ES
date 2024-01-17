@@ -4,7 +4,7 @@ title: Resumen de métricas clave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 24c2ab4a49b87b11046317a40882dde72a2a49c1
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 85%

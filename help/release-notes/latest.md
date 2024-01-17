@@ -3,40 +3,43 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a5710e2d978661837016db5ed1bab5a53fb2d63e
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 3ed1c411781295d7137b52dea60cd2bf74a9824f
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 29%
 
 ---
 
-# Notas de la versión actual de Adobe Customer Journey Analytics (octubre/noviembre de 2023)
+# Notas de la versión actuales de Adobe Customer Journey Analytics (enero de 2024)
 
+**Última actualización**: sábado, 12 de enero de 2024
 
-**Última actualización**: 26 de octubre de 2023
-
-Estas notas de la versión abarcan el periodo de lanzamiento del 16 de octubre de 2023 a finales de noviembre de 2023. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el período de lanzamiento de finales de octubre de 2023 a enero de 2024. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Funciones nuevas o actualizadas
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Nuevas funciones en la vista [!UICONTROL Uso] en Adobe Product Analytics** | Se han añadido las siguientes funciones a la [vista Uso](/help/guided-analysis/types/usage.md):<ul><li>**Líneas de tendencia**: ahora se admiten las líneas de tendencia. Haga clic en [!UICONTROL Superposiciones] encima del gráfico para habilitarlas.</li><li>**Desgloses de consultas**: ahora puede aplicar desgloses a este tipo de vista. Están disponibles como opción en el carril de la consulta.</li></ul> | N/A | 25 de octubre de 2023 |
-| **Documentación para la API de vistas de datos en CJA** | Consulte la [API de vistas de datos](https://developer.adobe.com/cja-apis/docs/endpoints/dataviews/) para obtener información sobre cómo crear, modificar o eliminar vistas de datos mediante programación. | N/A | 16 de octubre de 2023 |
-| **Exportar tablas completas a la nube** | La exportación de tablas completas de Customer Journey Analytics le permite exportar millones de filas de Workspace a destinos de nube. <p>La exportación de tablas completas ofrece un envío único o programado de tablas de datos diseñadas en Workspace con soporte para hasta cinco desgloses, cinco métricas, filtros y métricas calculadas, todo en una tabla concatenada. Es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad.</p><p> Las opciones de exportación a la nube incluyen:</p><ul><li>Zona de aterrizaje de datos de Adobe Experience Platform</li><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>Para obtener más información, consulte [Exportar informes de Customer Journey Analytics a la nube](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html?lang=es). | 4 de octubre de 2023 | 19 de octubre de 2023 |
-| **Administrador de actividades de creación de informes** | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Proporciona a los administradores una visibilidad detallada del consumo de creación de informes para diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de creación de informes. Entre las características principales del Administrador de actividades de creación de informes se incluyen:<ul><li>Cancelar las solicitudes de creación de informes actuales (incluidas las solicitudes de análisis guiados y exportaciones de tabla completa)</li><li>Restringir solicitudes posteriores durante un período de tiempo definido</li></ul>Además de cancelar las solicitudes actuales, los administradores ahora pueden restringir las solicitudes durante un período de tiempo definido. Los administradores pueden restringir las solicitudes por solicitud, proyecto o usuario.  [Más información](/help/reporting-activity-manager/reporting-activity-overview.md) | 17 de octubre de 2023 | 24 de octubre de 2023 |
+| **Análisis guiado: tasas de retención** | Un nuevo tipo de vista que muestra el porcentaje de usuarios que regresan después de su participación inicial dentro del intervalo de fechas deseado. [Más información](../guided-analysis/types/retention-rates.md) | N/A | martes, 08 de enero de 2024 |
+| **Previsión de series temporales** | La previsión es una nueva función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). | N/A | jueves, 17 de enero de 2024 |
+| **Análisis guiado: líneas de tendencia** | Las superposiciones de líneas de tendencia ahora están disponibles en la [Uso](/help/guided-analysis/types/usage.md) , que ayuda a mostrar un patrón más claro en los datos. | N/A | jueves, 17 de enero de 2024 |
+| **Métricas de recuento de filas para conjuntos de datos de perfil y búsqueda** | Hasta esta versión, las métricas de recuento de filas solo estaban disponibles para conjuntos de datos de evento. Ahora, las métricas de recuento de filas también están disponibles para los conjuntos de datos de búsqueda y perfil. | N/A | jueves, 17 de enero de 2024 |
+| **Página Detalles de Conexiones: Registros Omitidos** | Ahora puede inspeccionar los motivos por los que se omiten los registros como parte de la definición de una conexión. [Más información](../connections/manage-connections.md) | N/A | jueves, 17 de enero de 2024 |
+| **Actualizaciones de la visualización Resumen de métricas clave** | Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija. [Más información](/help/analysis-workspace/visualizations/key-metric.md). | N/A | jueves, 17 de enero de 2024 |
+| **Análisis guiado: emisiones** | Un nuevo tipo de vista que le permite explorar flujos de eventos de usuario individuales. Este análisis le permite encontrar patrones de experiencia y contar mejores historias de usuario. | N/A | jueves, 31 de enero de 2024 |
+| **Análisis guiado: mejoras en el carril de consultas** | Algunos componentes y configuraciones ahora se incluyen en el carril de consultas, lo que mejora la facilidad de uso. | N/A | jueves, 31 de enero de 2024 |
 
 {style="table-layout:auto"}
 
 ## Correcciones en Customer Journey Analytics
 
-AN-327661, AN-329282, AN-329383, AN-329808, AN-331030, AN-331087, AN-331105
+AN-310972; AN-332774; AN-332793; AN-332796; AN-333157; AN-334067; AN-334134; AN-334968; AN-335315; AN-335518; AN-335533; AN-335736;
 
 ## Avisos importantes para los administradores de Customer Journey Analytics
 
 | Aviso | Aviso añadido o actualizado | Descripción |
 | --- | --- | --- |
-| N/A | N/A | N/A |
+| Adiciones de miembros de objeto de API de Adobe | jueves, 17 de enero de 2024 | El Adobe puede agregar miembros de solicitud y respuesta opcionales (pares de nombre/valor) a objetos de API existentes sin previo aviso ni cambios en el control de versiones. Estas adiciones deben ser cambios importantes para la implementación. El Adobe recomienda que consulte la documentación de la API de cualquier herramienta de terceros que integre con nuestras API para que dichas adiciones se ignoren en el procesamiento si no se comprenden. Adobe no eliminará los parámetros ni añadirá los parámetros necesarios sin antes proporcionar una notificación estándar mediante las notas de la versión. |
 
 {style="table-layout:auto"}
 
