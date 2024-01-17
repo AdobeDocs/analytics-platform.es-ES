@@ -5,8 +5,8 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 20f48259881bade1978909610055d6b20b894092
+workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
 
@@ -36,6 +36,9 @@ De forma predeterminada, estos componentes estándares necesarios se añaden a c
 | [!UICONTROL Mes] | Dimensión | Mes en el que se produjo un evento determinado. El primer elemento de dimensión es el primer mes del intervalo de fechas y el último elemento de dimensión es el último mes del intervalo de fechas. |
 | [!UICONTROL Trimestre] | Dimensión | El trimestre en el que se produjo un evento determinado. El primer elemento de dimensión es el primer trimestre del intervalo de fechas y el último elemento de dimensión es el último trimestre del intervalo de fechas. |
 | [!UICONTROL Año] | Dimensión | Año en el que se produjo un evento determinado. El primer elemento de dimensión es el primer año del intervalo de fechas y el último elemento de dimensión es el año más reciente del intervalo de fechas. |
+| [!UICONTROL La sesión finaliza] | Métrica | El número de eventos que fueron el primer evento de una sesión. Cuando se utiliza en una definición de filtro (por ejemplo, [!UICONTROL se inicia la sesión] existe), se filtra hasta el primer evento de cada sesión.<p>Este componente debe incluirse en la vista de datos para la siguiente [métrica calculada](/help/components/calc-metrics/default-calcmetrics.md) para que esté disponible en Workspace: <ul><li>Tasa de inicio de sesión</li></p> |
+| [!UICONTROL La sesión termina] | Métrica | El número de eventos que fueron el último evento de una sesión. De forma similar a [!UICONTROL Inicio de sesión], también se puede utilizar en una definición de filtro para filtrar cosas hasta el último evento de cada sesión.<p>Este componente debe incluirse en la vista de datos para lo siguiente [métrica calculada](/help/components/calc-metrics/default-calcmetrics.md) para que esté disponible en Workspace: <ul><li>Tasa de finalización de sesión</li></p> |
+| [!UICONTROL Tiempo empleado (segundos)] | Métrica | Suma el tiempo entre dos valores diferentes para una dimensión.<p>Este componente debe incluirse en la vista de datos para que las siguientes [métricas calculadas](/help/components/calc-metrics/default-calcmetrics.md) estén disponibles en Workspace: <ul><li>Tiempo empleado por persona </li><li>Tiempo empleado por sesión</li></p> |
 
 {style="table-layout:auto"}
 
@@ -59,10 +62,7 @@ Los componentes estándar opcionales están disponibles en la pestaña **[!UICON
 | [!UICONTROL Área de nombres de ID de persona] | Dimensión | De qué tipo de identificación consta el [!UICONTROL ID de persona]. Algunos ejemplos son los aiguientes: `email address`, `cookie ID`, `Analytics ID` |
 | [!UICONTROL Trimestre del año] | Dimensión de partición de tiempo | T1, T2, T3, T4 |
 | [!UICONTROL Repetir sesión] | Métrica | Número de sesiones que no fueron la primera sesión de una persona. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat) |
-| [!UICONTROL La sesión finaliza] | Métrica | El número de eventos que fueron el primer evento de una sesión. Cuando se utiliza en una definición de filtro (por ejemplo, [!UICONTROL se inicia la sesión] existe), se filtra hasta el primer evento de cada sesión.<p>Este componente debe incluirse en la vista de datos para la siguiente [métrica calculada](/help/components/calc-metrics/default-calcmetrics.md) para que esté disponible en Workspace: <ul><li>Tasa de inicio de sesión</li></p> |
-| [!UICONTROL La sesión termina] | Métrica | El número de eventos que fueron el último evento de una sesión. De forma similar a [!UICONTROL Inicio de sesión], también se puede utilizar en una definición de filtro para filtrar cosas hasta el último evento de cada sesión.<p>Este componente debe incluirse en la vista de datos para lo siguiente [métrica calculada](/help/components/calc-metrics/default-calcmetrics.md) para que esté disponible en Workspace: <ul><li>Tasa de finalización de sesión</li></p> |
-| [!UICONTROL Tipo de sesión] | Dimensión | Esta dimensión tiene dos valores: 1) [!UICONTROL Primera vez] y 2) Retorno. El elemento de línea [!UICONTROL Primera vez] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no formen parte de ninguna sesión, se incluirán en el bloque “No aplicable” para esta dimensión.  [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat) |
-| [!UICONTROL Tiempo empleado (segundos)] | Métrica | Suma el tiempo entre dos valores diferentes para una dimensión.<p>Este componente debe incluirse en la vista de datos para que las siguientes [métricas calculadas](/help/components/calc-metrics/default-calcmetrics.md) estén disponibles en Workspace: <ul><li>Tiempo empleado por persona </li><li>Tiempo empleado por sesión</li></p> |
+| [!UICONTROL Tipo de sesión] | Dimensión | Esta dimensión tiene dos valores: 1) [!UICONTROL Primera vez] y 2) Retorno. El elemento de línea [!UICONTROL Primera vez] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no formen parte de ninguna sesión, se incluirán en el bloque “No aplicable” para esta dimensión. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat) |
 | [!UICONTROL Tiempo empleado por evento] | Dimensión | Agrupa el [!UICONTROL Tiempo empleado] de la métrica en bloques de [!UICONTROL Eventos]. |
 | [!UICONTROL Tiempo empleado por sesión] | Dimensión | Agrupa el [!UICONTROL Tiempo empleado] de la métrica en bloques de [!UICONTROL Sesiones]. |
 | [!UICONTROL Tiempo empleado por persona] | Dimensión | Agrupa el [!UICONTROL Tiempo empleado] de la métrica en bloques de [!UICONTROL Personas]. |
