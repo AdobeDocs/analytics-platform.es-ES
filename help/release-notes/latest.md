@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3ed1c411781295d7137b52dea60cd2bf74a9824f
+source-git-commit: efae6138159820414004a21de7c05b4373257876
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 29%
+source-wordcount: '450'
+ht-degree: 31%
 
 ---
 
@@ -21,10 +21,9 @@ Estas notas de la versión abarcan el período de lanzamiento de finales de octu
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Análisis guiado: tasas de retención** | Un nuevo tipo de vista que muestra el porcentaje de usuarios que regresan después de su participación inicial dentro del intervalo de fechas deseado. [Más información](../guided-analysis/types/retention-rates.md) | N/A | martes, 08 de enero de 2024 |
-| **Previsión de series temporales** | La previsión es una nueva función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). | N/A | jueves, 17 de enero de 2024 |
+| **Previsión de series temporales** | La previsión es una nueva función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). | N/A | jueves, 31 de enero de 2024 |
 | **Análisis guiado: líneas de tendencia** | Las superposiciones de líneas de tendencia ahora están disponibles en la [Uso](/help/guided-analysis/types/usage.md) , que ayuda a mostrar un patrón más claro en los datos. | N/A | jueves, 17 de enero de 2024 |
-| **Métricas de recuento de filas para conjuntos de datos de perfil y búsqueda** | Hasta esta versión, las métricas de recuento de filas solo estaban disponibles para conjuntos de datos de evento. Ahora, las métricas de recuento de filas también están disponibles para los conjuntos de datos de búsqueda y perfil. | N/A | jueves, 17 de enero de 2024 |
-| **Página Detalles de Conexiones: Registros Omitidos** | Ahora puede inspeccionar los motivos por los que se omiten los registros como parte de la definición de una conexión. [Más información](../connections/manage-connections.md) | N/A | jueves, 17 de enero de 2024 |
+| **Página Detalles de Conexiones: Registros Omitidos** | Ahora puede inspeccionar los motivos por los que se omiten los registros como parte de la definición de una conexión. [Más información](../connections/manage-connections.md) | N/A | jueves, 31 de enero de 2024 |
 | **Actualizaciones de la visualización Resumen de métricas clave** | Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija. [Más información](/help/analysis-workspace/visualizations/key-metric.md). | N/A | jueves, 17 de enero de 2024 |
 | **Análisis guiado: emisiones** | Un nuevo tipo de vista que le permite explorar flujos de eventos de usuario individuales. Este análisis le permite encontrar patrones de experiencia y contar mejores historias de usuario. | N/A | jueves, 31 de enero de 2024 |
 | **Análisis guiado: mejoras en el carril de consultas** | Algunos componentes y configuraciones ahora se incluyen en el carril de consultas, lo que mejora la facilidad de uso. | N/A | jueves, 31 de enero de 2024 |
