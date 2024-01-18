@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0b41cc80310c49bd1b0c73f1323f86c8b280e15f
+source-git-commit: 852dbce716e151d5feee52e813c9db9d76d9ccea
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2485'
 ht-degree: 27%
 
 ---
@@ -118,17 +118,11 @@ Para ir a los detalles de una conexión, seleccione un nombre de conexión en la
 
 ![Ventana Todos los conjuntos de datos que muestra los widgets y la configuración](assets/conn-details.png)
 
-La pantalla de detalles de Conexiones proporciona una vista detallada del estado de una conexión. Puede realizar lo siguiente:
+La interfaz de detalles Conexiones proporciona una vista detallada del estado de una conexión. Puede realizar lo siguiente:
 
 * Compruebe el estado de los conjuntos de datos de la conexión y del proceso de ingesta.
 * Identifique los problemas de configuración que pueden provocar registros omitidos o eliminados.
 * Ver cuándo están disponibles los datos para los informes.
-
->[!IMPORTANT]
->
->Los datos introducidos antes del 13 de agosto de 2021 no se reflejan en este [!UICONTROL Conexiones] diálogo.
-
-### Detalles de conexión
 
 | Interfaz de usuario | Descripción |
 | --- | --- |
@@ -154,6 +148,10 @@ La pantalla de detalles de Conexiones proporciona una vista detallada del estado
 | Esquema | El esquema del Experience Platform en el que se basa el conjunto de datos. |
 | [!UICONTROL Importar datos nuevos] | Muestra el estado de la importación de nuevos datos para el conjunto de datos: <p><span style="color:green">●</span>   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar nuevos datos, y<p><span style="color:gray">●</span>   **[!UICONTROL _x desactivada_]** si el conjunto de datos está configurado para no importar nuevos datos importar. |
 | [!UICONTROL Datos de relleno] | Muestra el estado de los datos de relleno del conjunto de datos.<p><span style="color:red">●</span>   **[!UICONTROL _x _relleno fallido]**para el número de rellenos fallidos,<p><span style="color:orange">●</span>   **[!UICONTROL _x _procesamiento de rellenos]**para el número de rellenos procesados,<p><span style="color:green">●</span>   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p><span style="color:grey">●</span>   **[!UICONTROL _Desactivado_]** en caso de que no se configuren rellenos. |
+
+>[!IMPORTANT]
+>
+>Los datos introducidos antes del 13 de agosto de 2021 no se reflejan en la variable [!UICONTROL Conexiones] interfaz.
 
 ### Panel de conexión
 
