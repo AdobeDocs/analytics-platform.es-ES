@@ -5,15 +5,18 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 171eb52940fabd422288d0f4f9eae512aafe3308
+source-git-commit: ef46598db68372b8b3b58dc06aa7d5faacca6cc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 13%
+source-wordcount: '520'
+ht-degree: 19%
 
 ---
 
 # Guía de Customer Journey Analytics
 
+Esta guía de documentación técnica proporciona instrucciones para Customer Journey Analytics. Customer Journey Analytics le permite obtener los datos de clientes desde cualquier canal que elija (tanto en línea como sin conexión) e importarlos en Adobe Experience Platform y, a continuación, analizarlos del mismo modo que lo haría con los datos digitales actuales con Analysis Workspace.
+
+Customer Journey Analytics permite controlar cómo conectar los datos en línea y sin conexión en Analysis Workspace en cualquier ID de cliente común, lo que permite realizar procesos de atribución, filtración, flujo, visitas en orden previsto, etc. en los datos de sus clientes.
 
 ## Novedades
 
@@ -21,23 +24,23 @@ Eche un vistazo a las mejoras más recientes en el producto y la documentación 
 
 >[!BEGINTABS]
 
->[!TAB Workspace: Previsión de series temporales]
+>[!TAB Análisis guiado: tasas de retención]
 
-La previsión es una nueva función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). La previsión solo está disponible para datos relacionados con series temporales.
+Un nuevo tipo de vista que muestra el porcentaje de usuarios que regresan después de su participación inicial dentro del intervalo de fechas deseado
 
-[![image](assets/learn-more-button.svg)](../analysis-workspace/export/export-cloud.md)
+[![image](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
 
->[!TAB Conexiones: Registros omitidos]
+>[!TAB Análisis guiado: líneas de tendencia]
 
-Ahora puede inspeccionar los motivos por los que se omiten los registros de los conjuntos de datos de evento al definir una conexión. Puede obtener detalles sobre las razones por las que se omiten los registros, como ID de visitante vacíos, retenciones de datos y otros.
-
-[![image](assets/learn-more-button.svg)](/help/connections/manage-connections.md)
-
->[!TAB Product Analytics: Trendlines]
-
-Las superposiciones de líneas de tendencia ya están disponibles en la vista Uso del análisis guiado, lo que ayuda a mostrar un patrón más claro en los datos.
+Las superposiciones de líneas de tendencia ahora están disponibles en la vista Uso, lo que ayuda a mostrar un patrón más claro en los datos.
 
 [![image](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
+
+>[!TAB Visualización Resumen de métricas clave]
+
+Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija.
+
+[![image](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/key-metric.md)
 
 >[!ENDTABS]
 
