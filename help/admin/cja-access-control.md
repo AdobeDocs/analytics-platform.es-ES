@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 7021e4cfc9275402ce175bf8dfa8a3993ac438dd
+source-git-commit: ae968e46c5822c9209ecf78735df0914f33cb0d2
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 63%
+source-wordcount: '1099'
+ht-degree: 61%
 
 ---
 
@@ -60,7 +60,7 @@ Además de agregarse como Administrador de productos en la **Perfil de producto 
 
   >[!AVAILABILITY]
   >
-  >La funcionalidad descrita en este artículo se encuentra en la fase prueba limitada de la versión y es posible que no esté disponible aún en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener más información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Versiones de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
+  >La capacidad de exportar conjuntos de datos a la nube se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener más información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Versiones de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
 
   Para realizar esta tarea, los usuarios también necesitan los siguientes permisos de Experience Platform:
    * Administrar destinos
