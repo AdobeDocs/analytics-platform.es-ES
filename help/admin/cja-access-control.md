@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: ae968e46c5822c9209ecf78735df0914f33cb0d2
+source-git-commit: 5e4367c1e5dd8654ae888cf9b4258f9c06fe2961
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 61%
+source-wordcount: '1167'
+ht-degree: 58%
 
 ---
 
@@ -122,6 +122,9 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil de producto en 
 | **[!UICONTROL Vistas de datos]** | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que forman parte de este perfil de producto pueden ver todas las vistas de datos existentes y creadas recientemente. Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso. |
 | **[!UICONTROL Herramientas de creación de informes]**: |   |
 | **[!UICONTROL Acceso a registros de auditoría]** | Este permiso exige la comprobación de permisos en la [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) y en la interfaz de usuario de registros de auditoría. |
+| **[!UICONTROL Acceso a Analysis Workspace]** | Permite que los usuarios accedan a Analysis Workspace en Customer Journey Analytics. |
+| [!UICONTROL **Acceso guiado a análisis**] | Permite que los usuarios creen [Proyectos de análisis guiado](/help/guided-analysis/overview.md). |
+| [!UICONTROL **Previsión**] | Permite que los usuarios accedan a la función de previsión en Analysis Workspace |
 | **[!UICONTROL Administración de creación de informes]** | Permite a los usuarios ver y eliminar cualquier informe que se ejecute en su compañía. |
 | **[!UICONTROL Vista del uso de creación de informes]** | Permite a los usuarios ver todas las solicitudes de creación de informes simultáneas. |
 | [!UICONTROL **Exportación de tabla completa**] | Permite a los usuarios [exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md). |
@@ -131,5 +134,9 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil de producto en 
 | **[!UICONTROL Creación de anotaciones]** | Permite que los usuarios creen [anotaciones](/help/components/annotations/overview.md). |
 | **[!UICONTROL Creación de audiencias]** | Permite que los usuarios creen [audiencias](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Visualización de audiencias]** | Permite que los usuarios vean [audiencias](/help/components/audiences/audiences-overview.md). |
+| [!UICONTROL **Compartir Vínculos Del Proyecto Con Cualquiera**] | Permite a los usuarios [comparta proyectos con cualquiera.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=es#share-public-link) |
+| **[!UICONTROL Herramientas de vista de datos]**: |   |
+| [!UICONTROL **Exportación de tabla completa**] | Permite a los usuarios [exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md). |
+| [!UICONTROL **Acceso a SQL Query Service**] | Permite que los usuarios accedan [Servicio de consultas en AEP](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es). |
 
 {style="table-layout:auto"}
