@@ -5,9 +5,9 @@ title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b76f534a01326b911ffbf93f089d46c6fc860979
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1973'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ Para exportar tablas completas desde Analysis Workspace:
    | Ventana retroactiva | Seleccione el lapso de tiempo de la creación de informes que se incluirá en cada archivo de exportación. Las opciones incluyen [!UICONTROL **Hoy**], [!UICONTROL **Ayer**], [!UICONTROL **Últimos 7 días**], [!UICONTROL **Últimos 30 días**], [!UICONTROL **Esta semana**], y [!UICONTROL **Este mes**]. <p>Esta opción no se muestra cuando la variable [!UICONTROL **Frecuencia de exportación**] se establece en [!UICONTROL **Enviar ahora (solo una vez)**]. |
    | Tabla de datos | Muestra la tabla de forma libre que está exportando. Puede modificar la tabla de datos arrastrando componentes del carril izquierdo a la tabla. La tabla se actualiza dinámicamente a medida que se añaden componentes al lienzo.  <p>Cualquier segmento que se haya aplicado a la tabla completa del proyecto aparecerá en la parte superior de cada columna individual de la tabla.</p> |
    | Borrar | Borra el contenido de la tabla de datos. Esto le permite empezar a crear una nueva tabla directamente dentro del cuadro de diálogo de exportación Nueva tabla completa. |
-   | Frecuencia de exportación | Establezca la programación de la frecuencia con la que debe producirse la exportación. <p>Puede elegir [!UICONTROL **Enviar ahora (una vez)**] para enviar la exportación solo una vez. Al seleccionar esta opción, la exportación se inicia inmediatamente.<p>O bien, puede elegir enviar la exportación según una programación definida. Al enviar una programación, las opciones incluyen [!UICONTROL **Diario**], [!UICONTROL **Semanalmente**], [!UICONTROL **Mensual por día de la semana**], [!UICONTROL **Mensual por día del mes**], [!UICONTROL **Anualmente por día del mes**], y [!UICONTROL **Anualmente por fecha específica**]. </p><p>Al seleccionar una frecuencia de exportación, tenga en cuenta lo siguiente:</p><ul><li>Las opciones de la [!UICONTROL **Ventana retroactiva**] El campo cambia según lo que seleccione aquí.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>Los campos de configuración adicionales se muestran según la opción elegida.</li></ul> |
+   | Frecuencia de exportación | Establezca la programación de la frecuencia con la que debe producirse la exportación. <p>Puede elegir [!UICONTROL **Enviar ahora (solo una vez)**] para enviar la exportación solo una vez. Al seleccionar esta opción, la exportación se inicia inmediatamente.<p>O bien, puede elegir enviar la exportación según una programación definida. Al enviar una programación, las opciones incluyen [!UICONTROL **Diario**], [!UICONTROL **Semanalmente**], [!UICONTROL **Mensual por día de la semana**], [!UICONTROL **Mensual por día del mes**], [!UICONTROL **Anualmente por día del mes**], y [!UICONTROL **Anualmente por fecha específica**]. </p><p>Al seleccionar una frecuencia de exportación, tenga en cuenta lo siguiente:</p><ul><li>Las opciones de la [!UICONTROL **Ventana retroactiva**] El campo cambia según lo que seleccione aquí.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>Los campos de configuración adicionales se muestran según la opción elegida.</li></ul> |
    | Comienza el | El día y la hora en que debe comenzar la exportación programada. <p>Esta opción solo está disponible al elegir una frecuencia de exportación programada.</p> |
    | Finaliza el | El día y la hora en que caduca la exportación programada. La exportación programada ya no se ejecuta después de la fecha y la hora establecidas. <p>Esta opción solo está disponible al elegir una frecuencia de exportación programada.</p> |
    | Formato de archivo | Elija si los datos exportados deben estar en formato .csv o .json. |
@@ -130,7 +130,7 @@ Exportar los datos del Customer Journey Analytics a la nube le permite:
 
 * Estructurar la salida de datos como valores concatenados.
 
-* Exportación ad hoc o según una programación. (También disponible con [otras opciones de exportación](/help/analysis-workspace/export/export-project-overview.md).)
+* Exportar de una sola vez o según una programación. (También disponible con [otras opciones de exportación](/help/analysis-workspace/export/export-project-overview.md).)
 
 * Exporte archivos en formato CSV o JSON. (También disponible con [otras opciones de exportación](/help/analysis-workspace/export/export-project-overview.md).)
 
@@ -215,7 +215,7 @@ Si anteriormente ha utilizado Data Warehouse para exportar datos de Adobe Analyt
 | Métricas | Límite de 5 | Sin límite |
 | Creación de informes de filas | Límite de 3 millones, 30 millones, 150 millones o 300 millones, según el nivel | Sin límite |
 | Número de informes | Sin límite | Sin límite |
-| Envío ad hoc | Sí | Sí |
+| Envío ad hoc (único) | Sí | Sí |
 | Programar envío recurrente | Sí | Sí |
 | Envío de correo electrónico | No | Sí |
 | FTP/SFTP | No | Compatibilidad con versiones anteriores |

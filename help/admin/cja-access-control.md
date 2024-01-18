@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 75413a38b9291cc8c31de3f2389ae74a31e7b00c
+source-git-commit: 24d8d03867cf9619bbee1dd647b2a2a57a36492b
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 78%
+source-wordcount: '1047'
+ht-degree: 63%
 
 ---
 
@@ -21,21 +21,48 @@ Además, analizamos formas más detalladas de limitar el acceso, como la depurac
 
 ## Función Administrador de productos
 
-Los administradores de productos tienen permisos para completar cualquier tarea necesaria dentro de Customer Journey Analytics. Debe estar añadido como Administrador de productos a **Perfil de producto del Customer Journey Analytics** en el [Admin Console](https://adminconsole.adobe.com/enterprise/) bajo [!UICONTROL Customer Journey Analytics] > [!UICONTROL Administradores] pestaña > [!UICONTROL Añadir administrador]. Los administradores de productos tienen los siguientes permisos:
+De forma predeterminada, los usuarios a los que se asigna la función Administrador de productos tienen los permisos necesarios para realizar la mayoría de las tareas dentro de Customer Journey Analytics. Sin embargo, algunas tareas requieren permisos adicionales.
 
-* Crear/actualizar/eliminar conexiones o Vistas de datos
-* Actualizar o eliminar proyectos, filtros, métricas calculadas, audiencias, anotaciones o filtros creados por otros usuarios
+Para agregar un usuario como administrador de productos:
+
+1. Vaya a la [Admin Console](https://adminconsole.adobe.com/enterprise/).
+
+1. Seleccionar [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **Administradores**] pestaña > [!UICONTROL **Añadir administrador**].
+
+   Los usuarios que ha agregado reciben el [Permisos predeterminados del administrador de productos](#product-admin-default-permissions). También puede concederles el derecho de [permisos adicionales](#product-admin-additional-permissions) si es necesario.
+
+### Permisos predeterminados del administrador de productos
+
+Los administradores de productos tienen permisos para completar la mayoría de las tareas de Customer Journey Analytics.
+
+A los administradores de productos se les otorgan los permisos necesarios para realizar las siguientes tareas de forma predeterminada:
+
+* Creación, actualización y eliminación de vistas de datos
+* Actualizar y eliminar proyectos, filtros, métricas calculadas, audiencias, anotaciones o filtros creados por otros usuarios
 * Compartir proyectos de Workspace con todos los usuarios
 * Administrar la actividad de creación de informes en [Administrador de actividades de informes](/help/reporting-activity-manager/reporting-activity-overview.md)
 
-Convertirse en administrador de productos dentro de Customer Journey Analytics no es suficiente para crear, actualizar o eliminar una [conexión](/help/connections/overview.md). Para crear una conexión a un conjunto de datos de Experience Platform, también necesita permisos de Experience Platform. Específicamente, debe formar parte de un **perfil del producto Experience Platform** que le proporciona los siguientes permisos:
+### Permisos adicionales del administrador de productos
 
-* Modelado de datos: Esquemas de vista, Administrar esquemas
-* Administración de datos: Ver conjuntos de datos, Administrar conjuntos de datos
-* Ingesta de datos: Administrar fuentes
-* Ver espacios de nombres de identidad
+Además de agregarse como Administrador de productos en la **Perfil de producto del Customer Journey Analytics** en el [Admin Console](https://adminconsole.adobe.com/enterprise/), se requieren permisos adicionales para completar las siguientes tareas en Customer Journey Analytics:
 
-Para obtener más información sobre los permisos de Experience Platform, consulte [Control de acceso en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es).
+* Creación, actualización y eliminación de datos [Conexiones](/help/connections/overview.md)
+
+  Para realizar esta tarea, los usuarios deben formar parte de un **Perfil de producto del Experience Platform** que proporciona los siguientes permisos:
+   * Modelado de datos: Esquemas de vista, Administrar esquemas
+   * Administración de datos: Ver conjuntos de datos, Administrar conjuntos de datos
+   * Ingesta de datos: Administrar fuentes
+   * Ver espacios de nombres de identidad
+
+     Para obtener más información sobre los permisos de Experience Platform, consulte [Control de acceso en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es).
+
+* Exportación de conjuntos de datos desde destinos de AEP
+
+  Para realizar esta tarea, los usuarios también necesitan los siguientes permisos de Experience Platform:
+   * Administrar destinos
+   * Activar destinos
+
+     Para obtener más información sobre los permisos de Destinos de Experience Platform, consulte [Resumen de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es).
 
 ## Función Administrador de perfil de producto
 
