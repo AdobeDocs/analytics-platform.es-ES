@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9beeb2013eb3b94dc55fb721233096f1813e2bf3
+source-git-commit: 227e1ca7f9652730c849a03fcf4e87f1c9ba98d7
 workflow-type: tm+mt
-source-wordcount: '2792'
-ht-degree: 90%
+source-wordcount: '2809'
+ht-degree: 89%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Enero de 2024** | |
+| Permisos necesarios para exportar conjuntos de datos | Se ha añadido información que explica la [permisos necesarios](/help/admin/cja-access-control.md) para exportar conjuntos de datos a destinos de nube. |
 | Administrar conexiones | Se ha actualizado el [Administrar conexiones](../connections/manage-connections.md) artículo, basado en los comentarios de los clientes. |
 | Campos derivados | Se ha añadido el resumen de función [limitaciones](/help/data-views/derived-fields/derived-fields.md#limitations) y explicación sobre cómo determinar el número de [operadores](/help/data-views/derived-fields/derived-fields.md#operators) se utiliza en una función. |
 
