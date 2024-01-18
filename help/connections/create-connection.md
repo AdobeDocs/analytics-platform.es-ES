@@ -1,14 +1,14 @@
 ---
 title: Crear o editar una conexión
-description: Describe cómo crear o editar una conexión a un conjunto de datos de Experience Platform en Customer Journey Analytics.
+description: Describe cómo crear o editar una conexión para un conjunto de datos de Experience Platform en Customer Journey Analytics.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2748'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
