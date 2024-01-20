@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: análisis de productos
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 2%
 
 ---
@@ -32,14 +32,14 @@ Los casos de uso para este tipo de vista incluyen:
 El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Indicadores clave]**: los eventos que desea medir por usuario. Cada indicador clave seleccionado se representa como una línea de color. Se agrega a la tabla una fila que representa el evento. Se pueden incluir hasta tres eventos.
+* **[!UICONTROL Contabilizado como]**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Porcentaje de usuarios], [!UICONTROL Eventos], [!UICONTROL Sesiones], y [!UICONTROL Usuarios].
 * **[!UICONTROL Factores]**: La fecha que desea comparar antes y después de.
-* **[!UICONTROL People]**: El segmento que desea medir. El segmento seleccionado filtra los datos para centrarse únicamente en las personas que coinciden con los criterios del segmento.
+* **[!UICONTROL Segmentos]**: El segmento que desea medir. El segmento seleccionado filtra los datos para centrarse únicamente en las personas que coinciden con los criterios del segmento.
 
 ## Ajustes del gráfico
 
 La vista Lanzamiento ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
-* **[!UICONTROL Métrica]**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Porcentaje de usuarios], [!UICONTROL Eventos], [!UICONTROL Sesiones], y [!UICONTROL Usuarios].
 * **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen [!UICONTROL Línea] y [!UICONTROL Barra].
 
 ## Intervalo de fechas

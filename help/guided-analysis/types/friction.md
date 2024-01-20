@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -31,18 +31,21 @@ Los casos de uso para este tipo de vista incluyen:
 
 El carril de consulta permite configurar los siguientes componentes:
 
+* **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Tendencias de conversión](conversion-trends.md).
 * **[!UICONTROL Pasos]**: los puntos de contacto del evento que desea rastrear. Cada barra del gráfico representa un paso. Se pueden incluir hasta diez pasos.
-* **[!UICONTROL People]**: Los segmentos con los que desea comparar el canal. Cada segmento seleccionado divide cada paso en varias barras. Cada color representa un segmento diferente. Se pueden incluir hasta tres segmentos.
+* **[!UICONTROL Contabilizado como]**: el ámbito que desea aplicar al canal. Las opciones incluyen [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
+   * [!UICONTROL Sesiones]: todos los pasos deben realizarse dentro de la misma sesión para que se cuenten.
+   * [!UICONTROL Usuarios]: todos los pasos deben realizarse dentro de la ventana de creación de informes seleccionada para que se puedan contar.
+* **[!UICONTROL Segmentos]**: Los segmentos con los que desea comparar el canal. Cada segmento seleccionado divide cada paso en varias barras. Cada color representa un segmento diferente. Se pueden incluir hasta tres segmentos.
 
 ## Ajustes del gráfico
 
 La vista de fricción ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
-* **[!UICONTROL Métrica]**: el ámbito que desea aplicar al canal. Las opciones incluyen Sesiones y Usuarios. Al seleccionar sesiones, todos los pasos deben producirse dentro de la misma sesión para que se cuenten. Al seleccionar usuarios, todos los pasos deben realizarse dentro de la ventana de creación de informes seleccionada para ser contada.
-* **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen Pasos.
-* **[!UICONTROL Conversión de]**: Determina el cálculo de porcentaje de paso a paso. Las opciones incluyen el cálculo de la conversión desde el primer paso o el paso anterior.
+* **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen [!UICONTROL Pasos].
+* **[!UICONTROL Conversión de]**: Determina el cálculo de porcentaje de paso a paso. Las opciones incluyen calcular la conversión desde el [!UICONTROL Primer paso] o [!UICONTROL Paso anterior].
 
-## Aplicar comparación de tiempo
+## Comparación del tiempo
 
 {{apply-time-comparison}}
 

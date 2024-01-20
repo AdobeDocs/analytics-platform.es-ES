@@ -5,9 +5,9 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 60f1c20b4188b5363619af49b85373d081db6cc3
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -30,24 +30,25 @@ Todos los usuarios activos (nuevos + repetidos + devueltos) aparecen como un ton
 Los casos de uso para este tipo de vista incluyen:
 
 * **Retención y pérdida de usuarios:** Proporciona una visualización clara de los períodos de retención de usuarios alta o baja. Reconocer estos períodos de retención alta o baja puede ayudarle a tomar decisiones sobre productos para fomentar una retención alta o ayudar a minimizar la pérdida.
-* **Evaluación de campaña**: Ver una campaña específica puede ayudarle a comprender no solo cuánto tráfico generó, sino también en qué medida la campaña ayudó a los usuarios a seguir participando.
+* **Evaluación de campaña**: Ver una campaña específica puede ayudarle a comprender cuánto tráfico generó y en qué medida ayudó a los usuarios a seguir participando.
 * **Análisis del ciclo vital de usuario**: El análisis del crecimiento activo del usuario a lo largo del ciclo vital de este puede ayudar a identificar fases específicas en las que disminuye la participación del usuario. Por ejemplo, si hay una alta proporción de usuarios latentes para personas en una fase de incorporación, puede indicar problemas de uso o la necesidad de mejorar la orientación interna del producto.
 
 ## Carril de consulta
 
 El carril de consulta permite configurar los siguientes componentes:
 
+* **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Crecimiento neto](net-growth.md).
 * **[!UICONTROL Eventos]**: el evento que desea medir. Dado que este tipo de vista se basa en el usuario, cualquier usuario que interactúe con el evento una vez dentro del periodo se contará como un usuario activo. Puede incluir un evento en una consulta.
-* **[!UICONTROL People]**: El segmento que desea medir. Puede incluir un segmento en una consulta.
+* **[!UICONTROL Contabilizado como]**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Cantidad de usuarios] y [!UICONTROL Porcentaje de usuarios].
+* **[!UICONTROL Segmentos]**: Segmento por el que desea filtrar los datos. Puede incluir un segmento en una consulta.
 
 ## Ajustes del gráfico
 
 El [!UICONTROL Activo] La vista ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
-* **[!UICONTROL Métrica]**: La métrica que desea medir. Las opciones incluyen Número de usuarios y Porcentaje de usuarios.
-* **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen Barra apilada y Área apilada.
+* **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen [!UICONTROL Barra apilada] y [!UICONTROL Área apilada].
 
-## Aplicar comparación de tiempo
+## Comparación del tiempo
 
 {{apply-time-comparison}}
 

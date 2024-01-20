@@ -1,8 +1,8 @@
 ---
-source-git-commit: fb624689c91bfa25f9676a5823b800d918e24e18
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 # Fragmentos
@@ -74,7 +74,7 @@ ht-degree: 64%
 
 {style="table-layout:auto"}
 
-## Aplicar comparación de tiempo {#apply-time-comparison}
+## Comparación del tiempo {#apply-time-comparison}
 
 Puede comparar el período de tiempo actual con un período de tiempo anterior. Si selecciona una opción en este menú, cada punto de datos recibe un homólogo con líneas punteadas de color similar. Este homólogo representa la misma métrica en el intervalo de fechas anterior seleccionado. Al establecer esta opción, se duplica el número de elementos del gráfico y de las filas de la tabla.
 

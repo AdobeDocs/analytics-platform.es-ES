@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: análisis de productos
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -46,8 +46,14 @@ Los casos de uso para este tipo de vista incluyen:
 
 El carril de consulta permite configurar los siguientes componentes:
 
+* **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Activo](active.md).
 * **[!UICONTROL Eventos]**: el evento que desea medir. Dado que este tipo de vista se basa en el usuario, cualquier usuario que interactúe con el evento una vez dentro del periodo se contará como un usuario activo. Puede incluir un evento en una consulta.
-* **[!UICONTROL People]**: El segmento que desea medir. Puede incluir un segmento en una consulta.
+* **[!UICONTROL Contabilizado como]**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Cantidad de usuarios] y [!UICONTROL Porcentaje de usuarios].
+* **[!UICONTROL Segmentos]**: El segmento que desea medir. Puede incluir un segmento en una consulta.
+
+## Comparación del tiempo
+
+{{apply-time-comparison}}
 
 ## Intervalo de fechas
 

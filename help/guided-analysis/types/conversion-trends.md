@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: análisis de productos
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -30,22 +30,23 @@ Los casos de uso para este tipo de vista incluyen:
 
 El carril de consulta permite configurar los siguientes componentes:
 
+* **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Fricción](friction.md).
 * **[!UICONTROL Pasos]**: los puntos de contacto del evento que desea rastrear. Cada barra del gráfico representa un paso. Se pueden incluir hasta diez pasos.
-* **[!UICONTROL People]**: Los segmentos con los que desea comparar el canal. Cada segmento seleccionado divide cada paso en varias barras. Cada color representa un segmento diferente. Se pueden incluir hasta tres segmentos.
+* **[!UICONTROL Contabilizado como]**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Usuarios] y [!UICONTROL Sesiones].
+* **[!UICONTROL Segmentos]**: Los segmentos con los que desea comparar el canal. Cada segmento seleccionado divide cada paso en varias barras. Cada color representa un segmento diferente. Se pueden incluir hasta tres segmentos.
 
 ## Ajustes del gráfico
 
-La vista Tendencias de conversión ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
+El [!UICONTROL Tendencias de conversión] La vista ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
-* **[!UICONTROL Métrica]**: La métrica que desea medir. Las opciones incluyen Sesiones y Usuarios.
-* **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen Línea.
-* **[!UICONTROL Conversión de]**: Determina el cálculo de porcentaje de paso a paso. Las opciones incluyen el cálculo de la conversión desde el primer paso o el paso anterior.
+* **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen [!UICONTROL Línea].
+* **[!UICONTROL Conversión de]**: Determina el cálculo de porcentaje de paso a paso. Las opciones incluyen calcular la conversión desde el [!UICONTROL Primer paso] o [!UICONTROL Paso anterior].
 
 >[!NOTE]
 >
 >El **Media** de la tabla de vista Tendencias de conversión difiere de la columna **Total** en la columna [Vista de fricción](friction.md) tabla. La primera es una media de las columnas de intervalo (por ejemplo, la media de las tasas de conversión diarias), mientras que la segunda es un cálculo agregado en todo el intervalo de fechas.
 
-## Aplicar comparación de tiempo
+## Comparación del tiempo
 
 {{apply-time-comparison}}
 

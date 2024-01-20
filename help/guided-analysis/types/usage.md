@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Agregue datos adicionales al gráfico. Cuando hay más de una serie visible en e
    * [!UICONTROL Logarítmico]: crea una línea de regresión curva. Ideal para datos que aumentan o disminuyen rápidamente y luego se vuelven más nivelados. Ecuación: `y = a + b * log(x)`
    * [!UICONTROL Promedio móvil]: crea una línea de tendencia suave basada en un conjunto de promedios. Un promedio móvil utiliza una cantidad determinada de puntos de datos anteriores (definida por su selección), los promedia y utiliza el promedio como punto en la línea. Algunos ejemplos son un promedio móvil de siete días o un promedio móvil de cuatro semanas. Las opciones de promedio móvil disponibles dependen del intervalo y el intervalo de fechas seleccionados.
 
-## Aplicar comparación de tiempo
+## Comparación del tiempo
 
 {{apply-time-comparison}}
 
