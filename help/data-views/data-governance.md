@@ -5,9 +5,9 @@ exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
 source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Haga clic en **[!UICONTROL Aplicar]** para ver qué políticas están habilitada
 
 ## Cómo afectan las políticas habilitadas a las vistas de datos
 
-Si la variable **[!UICONTROL Forzar Analytics]** está activada, los componentes de esquema que tienen determinadas etiquetas de datos (como C8) asociadas a ellas no se pueden añadir a las vistas de datos.
+Si la política **[!UICONTROL Aplicar Analytics]** está activada, los componentes de esquema que tienen determinadas etiquetas de datos (como C8) asociadas a ellas no se pueden añadir a las vistas de datos.
 
 Estos componentes aparecen atenuados en la lista del carril izquierdo [!UICONTROL Campos de esquema]:
 
