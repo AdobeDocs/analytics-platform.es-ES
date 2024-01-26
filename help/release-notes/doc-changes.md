@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 227e1ca7f9652730c849a03fcf4e87f1c9ba98d7
+source-git-commit: c13dfaa5367210f48e419a3516d30f2c1fd5c24f
 workflow-type: tm+mt
-source-wordcount: '2809'
-ht-degree: 89%
+source-wordcount: '2879'
+ht-degree: 87%
 
 ---
 
@@ -20,6 +20,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Enero de 2024** | |
+| Nueva información de migración de componentes al migrar desde Adobe Analytics | Se ha añadido información a [Evolución desde Adobe Analytics](/help/getting-started/aa-to-cja.md) que hace referencia al nuevo [migración de componentes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=es) funciones que se documentan en la Guía de administración de Adobe Analytics. |
+| Se ha aclarado que cierta información solo está disponible para administradores | Se ha agregado información para indicar que las columnas &quot;Último uso&quot; y &quot;Utilizado en&quot; que se describen en [Administrador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-manager.md) y el [Administrador de filtros](/help/components/filters/manage-filters.md) solo están disponibles para los administradores del sistema. |
 | Permisos necesarios para exportar conjuntos de datos | Se ha añadido información que explica la [permisos necesarios](/help/admin/cja-access-control.md) para exportar conjuntos de datos a destinos de nube. |
 | Administrar conexiones | Se ha actualizado el [Administrar conexiones](../connections/manage-connections.md) artículo, basado en los comentarios de los clientes. |
 | Campos derivados | Se ha añadido el resumen de función [limitaciones](/help/data-views/derived-fields/derived-fields.md#limitations) y explicación sobre cómo determinar el número de [operadores](/help/data-views/derived-fields/derived-fields.md#operators) se utiliza en una función. |
