@@ -25,7 +25,7 @@ Estas notas de la versión abarcan el período comprendido entre finales de octu
 | **Actualizaciones de la visualización Resumen de métricas clave** | Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija. [Más información](/help/analysis-workspace/visualizations/key-metric.md). | N/A | 17 de enero de 2024 |
 | **Adobe Product Analytics - Transmisiones** | Stream es un nuevo análisis guiado que le permite explorar flujos de eventos de usuarios individuales. Este análisis le permite encontrar patrones de experiencia y contar mejores historias de usuario. | N/A | 31 de enero de 2024 |
 | **Adobe Product Analytics: mejoras del carril de consulta** | En el análisis guiado, algunos ajustes de componentes ahora se incluyen en el carril de la consulta, lo que mejora la facilidad de uso. | N/A | 31 de enero de 2024 |
-| **Previsión de series temporales** | La previsión es una nueva funcionalidad de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). | 31 de enero de 2024 | jueves, 21 de febrero de 2024 |
+| **Previsión de series temporales** | La previsión es una nueva funcionalidad de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). | 31 de enero de 2024 | 21 de febrero de 2024 |
 
 {style="table-layout:auto"}
 
