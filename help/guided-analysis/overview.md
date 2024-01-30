@@ -5,9 +5,9 @@ keywords: análisis de productos
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 6f80a1aa4ec9142d75fe1abb2f268dc60c7dd245
+source-git-commit: a5c2003a593917bce67346279a033a6041aff959
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1302'
 ht-degree: 2%
 
 ---
@@ -24,14 +24,15 @@ El análisis guiado clasifica los tipos de vista en **Tipos de análisis**. Est�
 
 | Tipo de análisis | Ver tipo | Descripción |
 | --- | --- | --- |
-| [!UICONTROL Impacto] | [Versión](types/release.md) | Compare el rendimiento en periodos iguales antes y después del lanzamiento. |
-| [!UICONTROL Impacto] | [Primer uso](types/first-use.md) | Mida el impacto del uso de la primera función en los indicadores clave. |
 | [!UICONTROL Embudo] | [Fricción](types/friction.md) | Compare las tasas de conversión entre pasos. |
 | [!UICONTROL Embudo] | [Tendencias de conversión](types/conversion-trends.md) | Rastree los cambios en las tasas de conversión a lo largo del tiempo. |
-| [!UICONTROL Crecimiento de usuarios] | [Activo](types/active.md) | Identifique quién es nuevo, retenido, que regresa o está inactivo. |
-| [!UICONTROL Crecimiento de usuarios] | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
+| [!UICONTROL Impacto] | [Versión](types/release.md) | Compare el rendimiento en periodos iguales antes y después del lanzamiento. |
+| [!UICONTROL Impacto] | [Primer uso](types/first-use.md) | Mida el impacto del uso de la primera función en los indicadores clave. |
+| [!UICONTROL Retención] | [Tasas de retención](types/retention-rates.md) | Mida los hábitos de retorno continuos de los usuarios. |
 | [!UICONTROL Tendencias] | [Uso](types/usage.md) | Mida la participación del usuario con el tiempo. |
 | [!UICONTROL Tendencias] | [Frecuencia](types/frequency.md) | Mida la participación por frecuencia de uso. |
+| [!UICONTROL Crecimiento de usuarios] | [Activo](types/active.md) | Identifique quién es nuevo, retenido, que regresa o está inactivo. |
+| [!UICONTROL Crecimiento de usuarios] | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
 
 {style="table-layout:auto"}
 
