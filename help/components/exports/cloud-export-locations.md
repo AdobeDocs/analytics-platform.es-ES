@@ -5,10 +5,10 @@ title: Configuración de ubicaciones de exportación de nube
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 3%
+source-wordcount: '1635'
+ht-degree: 4%
 
 ---
 
@@ -38,11 +38,18 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
    Se muestra el cuadro de diálogo Ubicación.
 
-1. Especifique la siguiente información: |Campo | Función | |---------|----------| | [!UICONTROL **Nombre**] | El nombre de la ubicación.  | | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta en la que desea crear la ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md). |
+1. Especifique la siguiente información: |Campo | Función | |---------|----------| | [!UICONTROL **Nombre**] | El nombre de la ubicación.  | | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la ubicación para diferenciarla de otras ubicaciones de la cuenta. | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta en la que desea crear la ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md). |
 
 1. En el [!UICONTROL **Propiedades de ubicación**] , especifique información específica para el tipo de cuenta de su cuenta de ubicación.
 
    Continúe con la sección siguiente que corresponde al tipo de cuenta seleccionado en la [!UICONTROL **Cuenta de ubicación**] field.
+
+   * [Zona de aterrizaje de datos de AEP](#aep-data-landing-zone)
+   * [Amazon S3 Role ARN](#amazon-s3-role-arn)
+   * [Google Cloud Platform](#google-cloud-platform)
+   * [Azure SAS](#azure-sas)
+   * [Azure RBAC](#azure-rbac)
+   * [Snowflake](#snowflake)
 
 ### Zona de aterrizaje de datos de AEP
 
@@ -50,7 +57,11 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 >
 >Al exportar informes de Customer Journey Analytics a la zona de aterrizaje de datos de Adobe Experience Platform, asegúrese de descargar los datos en un plazo de 7 días y, a continuación, elimínelos de la zona de aterrizaje de datos de AEP. Después de 7 días, los datos se eliminan automáticamente de la zona de aterrizaje de datos de AEP.
 
-1. [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. Comience a crear una ubicación de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de ubicación**] de la sección [!UICONTROL **Añadir ubicación**] , especifique la siguiente información para configurar una ubicación de zona de aterrizaje de datos de Adobe Experience Platform:
 
@@ -83,7 +94,11 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
 ### Amazon S3 Role ARN
 
-1. [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. Comience a crear una ubicación de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de ubicación**] de la sección [!UICONTROL **Añadir ubicación**] , especifique la siguiente información para configurar una ubicación ARN de la función de Amazon S3:
 
@@ -102,7 +117,11 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
 ### Google Cloud Platform
 
-1. [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. Comience a crear una ubicación de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de ubicación**] de la sección [!UICONTROL **Añadir ubicación**] , especifique la siguiente información para configurar una ubicación de Google Cloud Platform:
 
@@ -121,7 +140,11 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
 ### Azure SAS
 
-1. [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. Comience a crear una ubicación de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de ubicación**] de la sección [!UICONTROL **Añadir ubicación**] , especifique la siguiente información para configurar una ubicación SAS de Azure:
 
@@ -138,7 +161,11 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
 ### Azure RBAC
 
-1. [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. Comience a crear una ubicación de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de ubicación**] de la sección [!UICONTROL **Añadir ubicación**] , especifique la siguiente información para configurar una ubicación RBAC de Azure:
 
@@ -156,7 +183,11 @@ Para obtener información sobre cómo administrar ubicaciones existentes, inclui
 
 ### Snowflake
 
-1. [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. Comience a crear una ubicación de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Comience a crear una ubicación de exportación de nube](#begin-creating-a-cloud-export-location)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de ubicación**] de la sección [!UICONTROL **Añadir ubicación**] , especifique la siguiente información para configurar una ubicación de Snowflake:
 

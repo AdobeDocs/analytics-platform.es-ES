@@ -5,9 +5,9 @@ title: Configuración de cuentas de exportación en la nube
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: c60b48fa7bdc141e41a1df9ab9f9383cd2332713
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1877'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,11 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 >
 >Al exportar informes de Customer Journey Analytics a la zona de aterrizaje de datos de Adobe Experience Platform, asegúrese de descargar los datos en un plazo de 7 días y, a continuación, elimínelos de la zona de aterrizaje de datos de AEP. Después de 7 días, los datos se eliminan automáticamente de la zona de aterrizaje de datos de AEP.
 
-1. [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account), tal como se ha descrito anteriormente.
+1. Comience a crear una cuenta de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. Seleccione [!UICONTROL **Guardar**].
 
@@ -100,7 +104,11 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 ### Amazon S3 Role ARN
 
-1. [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account), tal como se ha descrito anteriormente.
+1. Comience a crear una cuenta de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de cuenta**] de la sección [!UICONTROL **Añadir cuenta**] , especifique la siguiente información:
 
@@ -124,7 +132,11 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 ### Google Cloud Platform
 
-1. [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account), tal como se ha descrito anteriormente.
+1. Comience a crear una cuenta de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de cuenta**] de la sección [!UICONTROL **Añadir cuenta**] , especifique la siguiente información:
 
@@ -148,7 +160,11 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 ### Azure SAS
 
-1. [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account), tal como se ha descrito anteriormente.
+1. Comience a crear una cuenta de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de cuenta**] de la sección [!UICONTROL **Añadir cuenta**] , especifique la siguiente información:
 
@@ -176,7 +192,11 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 ### Azure RBAC
 
-1. [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account), tal como se ha descrito anteriormente.
+1. Comience a crear una cuenta de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de cuenta**] de la sección [!UICONTROL **Añadir cuenta**] , especifique la siguiente información:
 
@@ -202,7 +222,11 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
 ### Snowflake
 
-1. [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account), tal como se ha descrito anteriormente.
+1. Comience a crear una cuenta de exportación en la nube de cualquiera de las siguientes maneras:
+
+   * En la página Exportaciones como se ha descrito anteriormente, en [Empiece a crear una cuenta de exportación de nube](#begin-creating-a-cloud-export-account)
+
+   * Cuándo [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. En el [!UICONTROL **Propiedades de cuenta**] de la sección [!UICONTROL **Añadir cuenta**] , especifique la siguiente información:
 
