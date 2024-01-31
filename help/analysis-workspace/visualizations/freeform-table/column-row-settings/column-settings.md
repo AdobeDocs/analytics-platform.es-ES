@@ -4,10 +4,10 @@ title: Configuración de columna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 49b165c4dfec99ff1c65d4aacf4a5ffbe65d4004
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 78%
+source-wordcount: '828'
+ht-degree: 74%
 
 ---
 
@@ -21,9 +21,9 @@ Vea aquí un vídeo sobre la configuración de filas y columnas:
 
 ## Editar [!UICONTROL configuración de columna] {#edit-column-settings}
 
-Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla de forma libre al proyecto y, a continuación, haga clic en el icono de engranaje en el encabezado de la columna.
+Para acceder a [!UICONTROL Configuración de columna], arrastre una tabla de forma libre al proyecto y haga clic en el icono de configuración ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en el encabezado de la columna.
 
-![Vista previa de la configuración de Columna que muestra las celdas totales, las celdas de tabla y las celdas de tabla.](assets/column_settings.png)
+<img src="./assets/column-settings.png" alt="Vista previa de la configuración de Columna que muestra las celdas totales, las celdas de tabla y las celdas de tabla." width="50%" />
 
 Puede editar la configuración **de varias columnas a la vez**. Basta con seleccionar varias columnas y hacer clic en el icono de configuración de cualquiera de ellas. Los cambios realizados se aplicarán a todas las columnas que tengan celdas seleccionadas.
 
@@ -31,7 +31,8 @@ Puede editar la configuración **de varias columnas a la vez**. Basta con selecc
 | --- | --- |
 | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila dividido por el total de visualizaciones de la página para la columna. Nota: Se pueden mostrar porcentajes superiores al 100 % para mejorar la precisión. También se ha he incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. |
-| Anomalías | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. |
+| Mostrar anomalías | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. |
+| Mostrar previsión | Determina si los valores de previsión se muestran en esta columna. |
 | Justificar el texto del encabezado | Permite justificar el texto del encabezado en las tablas de forma libre para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. Esto resulta útil en el procesamiento de archivos .pdf y en las métricas con nombres largos. Está activada de forma predeterminada. |
 | La interpretación de cero no tiene valor | Para las celdas con un valor de 0, determina si se va a mostrar un 0 o una celda en blanco. Esto es útil si desea analizar los datos de todos los días de un mes y todavía faltan algunos días.  En vez de mostrar 0 para las fechas futuras, se pueden mostrar celdas en blanco. Los gráficos también respetan estas opciones de configuración (por ejemplo, si esta opción de configuración está marcada, no muestran ninguna línea ni ninguna barra con el valor 0). |
 | Contexto | Determina si una celda muestra u oculta todo el formato de la celda, que incluye la gráfico de barras y el formato condicional. |
@@ -43,7 +44,7 @@ Puede editar la configuración **de varias columnas a la vez**. Basta con selecc
 
 El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional (colores, etc.) en tablas de forma libre también está activada automáticamente en los desgloses, a menos que los límites “Personalizados” estén seleccionados.
 
-![Las opciones de formato condicional con Personalizado seleccionado.](assets/conditional-formatting.png)
+<img src="./assets/conditional-formatting.png" alt="Las opciones de formato condicional con Personalizado seleccionado" width="50%" />
 
 | Elemento | Descripción |
 | --- | --- |

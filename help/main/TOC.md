@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 79%
+source-wordcount: '1053'
+ht-degree: 78%
 
 ---
 
@@ -171,6 +171,9 @@ ht-degree: 79%
       + [Resumen de la Detección de anomalías](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Visualización de anomalías en Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [Técnicas estadísticas utilizadas en la detección de anomalías](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+   + Previsión {#forecasting}
+      + [Resumen de previsión](../analysis-workspace/c-forecast/forecasting.md)
+      + [Ver previsiones en Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
    + [Preferencias de usuario](../analysis-workspace/user-preferences.md)
    + Preguntas frecuentes sobre de Workspace {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)

@@ -4,10 +4,10 @@ title: Líneas
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 30f3e24533ab0e03ee7f819c7f94592776603764
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 84%
+source-wordcount: '524'
+ht-degree: 81%
 
 ---
 
@@ -21,13 +21,14 @@ La visualización de línea representa las métricas con una línea para mostrar
 
 ![Visualización de líneas](assets/line-viz.png)
 
-Haga clic en el icono del engranaje en la parte superior derecha de la Visualización de líneas para acceder a la [**Configuración de la visualización**](freeform-analysis-visualizations.md) disponible. La configuración se clasifica en:
+Seleccione el icono de configuración ![Configuración](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en la barra superior de la visualización Línea para acceder a [Configuración de visualización](freeform-analysis-visualizations.md) disponible. La configuración se clasifica en:
+
+<img src="./assets/viz-settings-line.png" alt="Configuración de visualización" width="50%" />
 
 * **General**: Configuración común en los tipos de visualización
 * **Eje**: Configuración que afecta al eje x o y de la visualización de líneas
 * **Superposiciones**: Opciones para añadir contexto adicional a la serie que se muestra en la visualización de líneas.
 
-![Configuración de visualización](assets/viz-settings-modal.png)
 
 ## Cambiar la granularidad
 
