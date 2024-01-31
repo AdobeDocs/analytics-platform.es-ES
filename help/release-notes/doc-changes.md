@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: 7fdaf5868fd1aacbfec526749729be1fb5486cf7
 workflow-type: tm+mt
 source-wordcount: '2984'
 ht-degree: 84%

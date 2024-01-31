@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 66%
+source-wordcount: '445'
+ht-degree: 65%
 
 ---
 
@@ -20,7 +20,7 @@ Estas notas de la versión abarcan el período de lanzamiento de finales del 8 d
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Previsión de series temporales** | [Previsión](../analysis-workspace/c-forecast/forecasting.md) es una nueva función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). | 31 de enero de 2024 | 21 de febrero de 2024 |
+| **Previsión de series temporales** | [Previsión](../analysis-workspace/c-forecast/forecasting.md) es una nueva función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual) para tablas improvisada y gráficos de líneas. | 31 de enero de 2024 | 21 de febrero de 2024 |
 | **Actualizaciones de la visualización Resumen de métricas clave** | Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija. [Más información](/help/analysis-workspace/visualizations/key-metric.md). | N/A | 17 de enero de 2024 |
 | **Adobe Product Analytics: análisis de tasas de retención** | Las tasas de retención son un nuevo análisis guiado que le permite medir los hábitos de retorno continuos de los usuarios. [Más información](../guided-analysis/types/retention-rates.md) | N/A | 08 de enero de 2024 |
 | **Adobe Product Analytics - Superposición de línea de tendencia** | Líneas de tendencia es una nueva configuración de superposición disponible en la variable [Tendencias de uso](/help/guided-analysis/types/usage.md) ver y ayudar a mostrar un patrón más claro en los datos. | N/A | 17 de enero de 2024 |

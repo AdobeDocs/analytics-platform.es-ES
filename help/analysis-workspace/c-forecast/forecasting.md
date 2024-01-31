@@ -1,11 +1,11 @@
 ---
 description: Obtenga información sobre las previsiones en Analysis Workspace.
-title: Funcionamiento de la previsión
+title: Resumen de previsión
 feature: Visualizations
 role: User
-source-git-commit: d83c482be7af9829ab15644526673c83babedcca
+source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
