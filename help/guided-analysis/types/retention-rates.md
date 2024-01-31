@@ -5,18 +5,16 @@ feature: Guided Analysis
 keywords: análisis de productos
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: c5cc2a696ac1a5619b174163b2b6b87116e4f778
+source-git-commit: 715d6f33b3cd3f1188e0bd3e6aa3785346c4c302
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 # Tasas de retención
 
-{{release-limited-testing}}
-
-El **[!UICONTROL Tasas de retención]** La vista muestra el porcentaje de usuarios que regresan después de su participación inicial dentro del intervalo de fechas deseado. El eje horizontal representa el número de días desde la participación inicial de un usuario. El eje vertical representa el porcentaje de usuarios que vuelven a interactuar.
+El **[!UICONTROL Tasas de retención]** La vista muestra el porcentaje de usuarios que regresan después de su participación inicial dentro del intervalo de fechas deseado. El eje horizontal representa el número de días transcurridos desde la participación inicial de un usuario. El eje vertical representa el porcentaje de usuarios que vuelven a participar.
 
 Este análisis cuenta los usuarios en función de dos eventos importantes:
 
