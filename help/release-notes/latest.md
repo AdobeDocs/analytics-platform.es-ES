@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 90d91f07296f8c961d1b60ddbdc3d6b086958141
+source-git-commit: 1e024f7f84f96be446a2a922bd026bc70a6edf7e
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 75%
+source-wordcount: '439'
+ht-degree: 71%
 
 ---
 
@@ -20,12 +20,12 @@ Estas notas de la versión abarcan el período de lanzamiento de finales del 8 d
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobes Product Analytics: tasas de retención** | Las tasas de retención son un nuevo análisis guiado que muestra el porcentaje de usuarios que regresan después de su participación inicial dentro del intervalo de fechas deseado. [Más información](../guided-analysis/types/retention-rates.md) | N/A | 08 de enero de 2024 |
-| **Adobe Product Analytics - Líneas de tendencia** | Trendlines es un nuevo análisis guiado disponible en el [Uso](/help/guided-analysis/types/usage.md) , que ayuda a mostrar un patrón más claro en los datos. | N/A | 17 de enero de 2024 |
-| **Actualizaciones de la visualización Resumen de métricas clave** | Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija. [Más información](/help/analysis-workspace/visualizations/key-metric.md). | N/A | 17 de enero de 2024 |
-| **Adobe Product Analytics: flujos de usuario** | Flujos de usuario es un nuevo análisis guiado que le permite explorar flujos de eventos de usuario individuales. Este análisis le permite encontrar patrones de experiencia y contar mejores historias de usuario. | N/A | jueves, 07 de febrero de 2024 |
-| **Adobe Product Analytics: mejoras del carril de consulta** | En el análisis guiado, algunos ajustes de componentes ahora se incluyen en el carril de la consulta, lo que mejora la facilidad de uso. | N/A | 31 de enero de 2024 |
 | **Previsión de series temporales** | La previsión es una nueva funcionalidad de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). | 31 de enero de 2024 | 21 de febrero de 2024 |
+| **Actualizaciones de la visualización Resumen de métricas clave** | Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija. [Más información](/help/analysis-workspace/visualizations/key-metric.md). | N/A | 17 de enero de 2024 |
+| **Adobe Product Analytics: análisis de tasas de retención** | Las tasas de retención son un nuevo análisis guiado que le permite medir los hábitos de retorno continuos de los usuarios. [Más información](../guided-analysis/types/retention-rates.md) | N/A | 08 de enero de 2024 |
+| **Adobe Product Analytics - Superposición de línea de tendencia** | Líneas de tendencia es una nueva configuración de superposición disponible en la variable [Tendencias de uso](/help/guided-analysis/types/usage.md) ver y ayudar a mostrar un patrón más claro en los datos. | N/A | 17 de enero de 2024 |
+| **Adobe Product Analytics: mejoras del carril de consulta** | En el análisis guiado, el carril izquierdo de la consulta ahora incluye las opciones Tipo de vista y Contado como, disponibles anteriormente en Configuración de la visualización. | N/A | 31 de enero de 2024 |
+| **Adobe Product Analytics: análisis de flujo de usuario** | User Streams es un nuevo análisis guiado que le permite explorar flujos de eventos de usuarios individuales, lo que le ayuda a encontrar patrones de experiencia y contar mejores historias de usuarios. | N/A | jueves, 07 de febrero de 2024 |
 
 {style="table-layout:auto"}
 
