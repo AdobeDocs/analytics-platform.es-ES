@@ -4,10 +4,10 @@ title: Subtítulos inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 1%
+source-wordcount: '442'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,10 @@ Para iniciar subtítulos generados automáticamente para una visualización de l
 ![Inicie la ventana de análisis que muestra los subtítulos inteligentes de la tendencia de vistas del producto. ](assets/intell-caps-1.png)
 
 Ahora se están generando perspectivas en lenguaje natural.
+
+Tenga en cuenta que
+
+* Necesita un mínimo de 3 puntos de datos para que los subtítulos se generen correctamente. De lo contrario, podría recibir un error que dice &quot;No hay suficientes datos para analizar&quot;.
 
 * Los subtítulos se generan cada vez que los datos seleccionados subyacentes cambian en la tabla que alimenta la visualización.
 
