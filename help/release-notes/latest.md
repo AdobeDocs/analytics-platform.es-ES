@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
+source-git-commit: 9f60d83673591aebeffeb6442bf9f8b897ab2f20
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 65%
+source-wordcount: '470'
+ht-degree: 62%
 
 ---
 
@@ -20,6 +20,7 @@ Estas notas de la versión abarcan el período de lanzamiento de finales del 8 d
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Detalles de registros omitidos** | Puede recuperar detalles sobre por qué se omiten los registros al configurar una conexión. Consulte [Detalles de conexión](../connections/manage-connections.md#connection-details) para obtener más información. | martes, 05 de febrero de 2024 | martes, 05 de febrero de 2024 |
 | **Previsión de series temporales** | [Previsión](../analysis-workspace/c-forecast/forecasting.md) es una nueva función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual) para tablas improvisada y gráficos de líneas. | 31 de enero de 2024 | 21 de febrero de 2024 |
 | **Actualizaciones de la visualización Resumen de métricas clave** | Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija. [Más información](/help/analysis-workspace/visualizations/key-metric.md). | N/A | 17 de enero de 2024 |
 | **Adobe Product Analytics: análisis de tasas de retención** | Las tasas de retención son un nuevo análisis guiado que le permite medir los hábitos de retorno continuos de los usuarios. [Más información](../guided-analysis/types/retention-rates.md) | N/A | 08 de enero de 2024 |

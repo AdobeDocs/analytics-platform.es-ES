@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7fdaf5868fd1aacbfec526749729be1fb5486cf7
+source-git-commit: 85a921cf97efd33cc6264ce97c871f965f376a5a
 workflow-type: tm+mt
-source-wordcount: '2984'
-ht-degree: 84%
+source-wordcount: '3005'
+ht-degree: 85%
 
 ---
 
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Febrero de 2024** | |
+| Detalles de registro omitidos | Se ha añadido documentación sobre la funcionalidad de detalles de registros omitidos en Conexiones. Consulte [Detalles de conexión](../connections/manage-connections.md#connection-details) para obtener más información. |
 | **Enero de 2024** | |
 | Previsión | Se ha añadido documentación sobre [previsión](../analysis-workspace/c-forecast/forecasting.md), la nueva función de Analysis Workspace para pronosticar una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual) para tablas de forma libre y gráficos de líneas. |
 | Se ha actualizado la documentación para agregar cuentas y ubicaciones al exportar tablas completas | Se ha actualizado la documentación para reflejar actualizaciones menores de la interfaz al configurar una nueva cuenta o ubicación al [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>Un nuevo [!UICONTROL **Añadir cuenta**] ahora está disponible en la [!UICONTROL **Cuenta**] menú desplegable. El [!UICONTROL **Añadir ubicación**] que anteriormente estaba disponible como botón junto a la opción [!UICONTROL **Nombre de ubicación**] ahora, el menú desplegable está disponible dentro del propio menú. |
@@ -39,7 +41,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Centros de datos | Se ha añadido un artículo sobre Customer Journey Analytics [ubicaciones de alojamiento](../technotes/cja-datacenters.md). |
 | Mecanismos de protección | Se agregó el artículo listando al Customer Journey Analytics [barandas](../admin/guardrails.md). |
 | Actualizaciones de conversión de moneda | Se ha aclarado la documentación sobre cómo [configurar conversión de moneda](/help/data-views/component-settings/format.md). |
-| Actualizaciones en la documentación de Detección de anomalías | Anteriormente, la documentación de Detección de anomalías se encontraba en una sección sobre Analista virtual. Se han realizado los siguientes cambios: <ul><li>El término Analista virtual se ha eliminado de la documentación.</li><li>La sección sobre [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) se ha movido directamente debajo de la sección Analysis Workspace.</li></ul> |
+| Actualizaciones en la documentación de Detección de anomalías | Anteriormente, la documentación de Detección de anomalías se encontraba en una sección sobre Analista virtual. Se han realizado los siguientes cambios: <ul><li>El término Analista virtual se ha eliminado de la documentación.</li><li>La sección sobre [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) se ha movido directamente debajo de la sección Analysis Workspace.</li></ul> |
 | **Octubre de 2023** | |
 | Usar un campo derivado para establecer metas/objetivos | Añadido [caso de uso](../use-cases/goals-using-derived-fields.md) artículo que ilustra cómo utilizar campos derivados para establecer metas/objetivos e informar sobre estos. |
 | Exportar tablas completas a la nube | Se ha añadido documentación sobre la exportación de tablas completas con millones de filas del Espacio de trabajo a destinos en la nube. <p>La exportación de tablas completas ofrece un envío único o programado de tablas de datos diseñadas en Workspace con soporte para hasta cinco desgloses, cinco métricas, filtros y métricas calculadas, todo en una tabla concatenada. Es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad.</p><p>Para obtener más información, consulte [Exportar informes de Customer Journey Analytics a la nube](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html?lang=es). |
