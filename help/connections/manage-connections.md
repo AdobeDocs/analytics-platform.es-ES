@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a377c9bc4b58623e0b04da7f9ff1010572f7a610
+source-git-commit: f9f42f3c069177338fe62eb90cccf0e12f5b9d2a
 workflow-type: tm+mt
 source-wordcount: '2535'
 ht-degree: 25%
