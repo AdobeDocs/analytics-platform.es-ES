@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1056'
 ht-degree: 78%
 
 ---
@@ -191,12 +191,6 @@ ht-degree: 78%
 
 + Análisis guiado {#guided-analysis}
    + [Información general](../guided-analysis/overview.md)
-   + Crecimiento de usuarios {#user-growth}
-      + [Vista activa](../guided-analysis/types/active.md)
-      + [Vista de crecimiento neto](../guided-analysis/types/net-growth.md)
-   + Tendencias {#trends}
-      + [Vista de uso](../guided-analysis/types/usage.md)
-      + [Vista de frecuencia](../guided-analysis/types/frequency.md)
    + Canal {#funnel}
       + [Vista de fricción](../guided-analysis/types/friction.md)
       + [Vista de tendencias de conversión](../guided-analysis/types/conversion-trends.md)
@@ -205,6 +199,14 @@ ht-degree: 78%
       + [Vista de primer uso](../guided-analysis/types/first-use.md)
    + Retención {#retention}
       + [Tasas de retención](../guided-analysis/types/retention-rates.md)
+   + Tendencias {#trends}
+      + [Vista de uso](../guided-analysis/types/usage.md)
+      + [Vista de frecuencia](../guided-analysis/types/frequency.md)
+   + Crecimiento de usuarios {#user-growth}
+      + [Vista activa](../guided-analysis/types/active.md)
+      + [Vista de crecimiento neto](../guided-analysis/types/net-growth.md)
+   + Flujo de usuario {#streams}
+      + [Cronología](../guided-analysis/types/timeline.md)
    + [Casos de uso del sector](../guided-analysis/industry-use-cases.md)
    + [Preguntas más frecuentes](../guided-analysis/faq.md)
 

@@ -5,9 +5,9 @@ keywords: análisis de productos
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: a5c2003a593917bce67346279a033a6041aff959
+source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1310'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,7 @@ El análisis guiado clasifica los tipos de vista en **Tipos de análisis**. Est�
 | [!UICONTROL Tendencias] | [Frecuencia](types/frequency.md) | Mida la participación por frecuencia de uso. |
 | [!UICONTROL Crecimiento de usuarios] | [Activo](types/active.md) | Identifique quién es nuevo, retenido, que regresa o está inactivo. |
 | [!UICONTROL Crecimiento de usuarios] | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
+| [!UICONTROL Flujo de usuario] | [Cronología](types/timeline.md) | Explore los patrones de actividad de la sesión. |
 
 {style="table-layout:auto"}
 
