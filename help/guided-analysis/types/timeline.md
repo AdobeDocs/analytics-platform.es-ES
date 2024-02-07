@@ -4,16 +4,16 @@ description: Explore los patrones de actividad de la sesión.
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 5cd54973b08285badbedce273ac28371158f194c
+source-git-commit: ecdbe1b68aa0824bd9db4acefd3ef9059d9ac927
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL Cronología] vista
 
-El **[!UICONTROL Cronología]** Esta vista permite analizar sesiones individuales para determinar patrones de comportamiento. El carril derecho permite seleccionar un ID de persona para su análisis. El área central muestra la hora, el valor de la propiedad y la duración de esa persona.
+El **[!UICONTROL Cronología]** Esta vista permite analizar sesiones individuales para determinar patrones de comportamiento. El carril derecho le permite seleccionar el ID de persona que desea analizar. El área central muestra la hora, el valor de propiedad seleccionado y la duración de cada evento de esa persona.
 
 Este análisis requiere que agregue la variable **[!UICONTROL ID de persona]** componente estándar a la [vista de datos](/help/data-views/component-reference.md#optional). Si no tiene el [!UICONTROL ID de persona] componente añadido a la vista de datos, se muestra el siguiente mensaje:
 
@@ -47,5 +47,5 @@ El [!UICONTROL Cronología] La vista ofrece la siguiente configuración de gráf
 
 El intervalo de fechas deseado para el análisis. Esta configuración consta de dos componentes:
 
-* **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver los datos de tendencia. Esta configuración no afecta a las vistas sin tendencias como Frecuencia.
+* **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver los datos de tendencia. Esta configuración no afecta a las vistas sin tendencias, como Cronología.
 * **[!UICONTROL Fecha]**: la fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.
