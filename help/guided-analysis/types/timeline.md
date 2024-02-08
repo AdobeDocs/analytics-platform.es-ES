@@ -1,47 +1,50 @@
 ---
 title: Vista Cronología
-description: Explore los patrones de actividad de la sesión.
+description: Explore los patrones de experiencia y cuente mejores historias de usuario.
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: ecdbe1b68aa0824bd9db4acefd3ef9059d9ac927
+source-git-commit: 2836582b13ae9aa971b521db7ed1c54805eb0e94
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 2%
+source-wordcount: '536'
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Cronología] vista
 
-El **[!UICONTROL Cronología]** Esta vista permite analizar sesiones individuales para determinar patrones de comportamiento. El carril derecho le permite seleccionar el ID de persona que desea analizar. El área central muestra la hora, el valor de propiedad seleccionado y la duración de cada evento de esa persona.
+El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar a los valores de propiedad que desea transmitir y el carril derecho le permite seleccionar el ID de persona que desea analizar. El área central muestra el flujo por sesión, que consta de marca de tiempo, valores de propiedad y duración. Tenga en cuenta que la duración no está disponible para el último evento de una sesión determinada.
 
-Este análisis requiere que agregue la variable **[!UICONTROL ID de persona]** componente estándar a la [vista de datos](/help/data-views/component-reference.md#optional). Si no tiene el [!UICONTROL ID de persona] componente añadido a la vista de datos, se muestra el siguiente mensaje:
+>[!NOTE]
+>
+>La vista Cronología requiere que la variable **[!UICONTROL ID de persona]** componente estándar debe estar disponible en el [vista de datos](/help/data-views/component-reference.md#optional). La inclusión del ID de persona en una vista de datos la administra el administrador de datos de Adobe Analytics, lo que proporciona a las organizaciones un control de privacidad completo sobre quién puede acceder a estos datos. Si una vista de datos no tiene [!UICONTROL ID de persona] componente añadido, se muestra el siguiente mensaje:
 
-> La propiedad PersonID es necesaria para este análisis. Agregue PersonID a la vista de datos.
+* **Administradores**: Se requiere la propiedad PersonID para este análisis. Agregue PersonID a la vista de datos.
+* **No administradores**: Se requiere la propiedad PersonID para este análisis. Hable con el administrador de Adobe Analytics.
 
 ## Casos prácticos
 
 Los casos de uso para este tipo de vista incluyen:
 
-* **Exploración por fricción**: Si encuentra una caída pronunciada en el [Fricción](friction.md) , puede investigar las posibles causas de esa colocación mediante esta vista.
-* **Comportamiento del error**: Si los usuarios encuentran un error en el producto, puede explorar qué hacen antes o después de ver ese error.
-* **Validación de recopilación de datos**: los administradores de datos pueden filtrar esta vista para aislarse. Esta vista proporciona una forma sólida de asegurarse de que la implementación de su organización funciona según lo esperado.
+* **Exploración por fricción**: Si encuentra una caída pronunciada en el [Fricción](friction.md) , puede crear un segmento de esos usuarios y aplicarlo en esta vista para investigar posibles causas.
+* **Comportamiento del error**: Si los usuarios encuentran un error de producto, puede explorar qué estaban haciendo antes o después de ver ese error.
+* **Validación de recopilación de datos**: los administradores de datos pueden filtrar esta vista con su propio ID de persona y utilizarla para validar que la implementación de su organización funciona según lo esperado.
 
 ## Carril de consulta
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **[!UICONTROL Propiedad]**: propiedad para la que desea ver los valores. El análisis de sesión en el centro muestra los valores de la propiedad seleccionada aquí. También puede filtrar los datos por la propiedad seleccionada. Los operadores válidos para el filtro incluyen [!UICONTROL Igual a], [!UICONTROL No es igual a], [!UICONTROL Comienza por], [!UICONTROL Finaliza con], [!UICONTROL Contains], [!UICONTROL Does not contain], [!UICONTROL Existe], y [!UICONTROL No existe].
-* **[!UICONTROL Segmentos]**: El segmento que desea medir. El segmento seleccionado filtra los datos para centrarse únicamente en las personas que coinciden con los criterios del segmento. Se admite un segmento para esta vista.
+* **[!UICONTROL Propiedad]**: propiedad para la que desea ver los valores de flujo. La secuencia en el centro muestra los valores de la propiedad seleccionada. También puede aplicar filtros para reducir el flujo a datos más relevantes. Los operadores válidos para el filtro incluyen [!UICONTROL Igual a], [!UICONTROL No es igual a], [!UICONTROL Comienza por], [!UICONTROL Finaliza con], [!UICONTROL Contains], [!UICONTROL Does not contain], [!UICONTROL Existe], y [!UICONTROL No existe].
+* **[!UICONTROL Segmentos]**: El segmento que desea analizar. El segmento seleccionado filtra los datos para centrarse únicamente en las personas que coinciden con los criterios del segmento. Si desea reducir la vista a un ID de persona específico, puede filtrar a ese ID de persona aquí. Se admite un segmento para esta vista.
 
 ## Ajustes del gráfico
 
 El [!UICONTROL Cronología] La vista ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
 * **[!UICONTROL Mostrar como]**: Muestra los valores de propiedad deseados.
-   * [!UICONTROL Mostrar todo]
-   * [!UICONTROL Resaltar]
-   * [!UICONTROL Solo vista]
+   * [!UICONTROL Mostrar todo]: muestra todos los valores de propiedad en una sesión.
+   * [!UICONTROL Resaltar]: resalte visualmente los valores de propiedad en una sesión que coincidan con los filtros de consulta.
+   * [!UICONTROL Solo vista]: Mostrar solo los valores de propiedad en una sesión que coincidan con los filtros de consulta.
 
 ## Intervalo de fechas
 
