@@ -4,9 +4,9 @@ description: Explore los patrones de experiencia y cuente mejores historias de u
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 2836582b13ae9aa971b521db7ed1c54805eb0e94
+source-git-commit: d7e1092e1b2b4e9decd8d601c4b6415b13f1e02a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,11 @@ El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión 
 
 >[!NOTE]
 >
->La vista Cronología requiere que la variable **[!UICONTROL ID de persona]** componente estándar debe estar disponible en el [vista de datos](/help/data-views/component-reference.md#optional). La inclusión del ID de persona en una vista de datos la administra el administrador de datos de Adobe Analytics, lo que proporciona a las organizaciones un control de privacidad completo sobre quién puede acceder a estos datos. Si una vista de datos no tiene [!UICONTROL ID de persona] componente añadido, se muestra el siguiente mensaje:
+>La vista Cronología requiere que la variable **[!UICONTROL ID de persona]** componente estándar debe estar disponible en el [vista de datos](/help/data-views/component-reference.md#optional). La inclusión del ID de persona en una vista de datos la administra el administrador de datos de Adobe Analytics, lo que proporciona a las organizaciones un control de privacidad completo sobre quién puede acceder a estos datos.
 
-* **Administradores**: Se requiere la propiedad PersonID para este análisis. Agregue PersonID a la vista de datos.
-* **No administradores**: Se requiere la propiedad PersonID para este análisis. Hable con el administrador de Adobe Analytics.
+Si una vista de datos no tiene [!UICONTROL ID de persona] componente añadido, se muestra el siguiente mensaje:
+* **Administradores**: Se requiere la propiedad PersonID para este análisis. Añada un ID de persona a la vista de datos.
+* **No administradores**: Se requiere la propiedad PersonID para este análisis. Póngase en contacto con el administrador del Customer Journey Analytics para agregar el ID de persona a la vista de datos.
 
 ## Casos prácticos
 
