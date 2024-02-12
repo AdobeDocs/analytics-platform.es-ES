@@ -4,24 +4,27 @@ description: Explore los patrones de experiencia y cuente mejores historias de u
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: d7e1092e1b2b4e9decd8d601c4b6415b13f1e02a
+source-git-commit: fef60995e9241eaad99f6f536b1f329757ea0830
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Cronología] vista
 
-El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar a los valores de propiedad que desea transmitir y el carril derecho le permite seleccionar el ID de persona que desea analizar. El área central muestra el flujo por sesión, que consta de marca de tiempo, valores de propiedad y duración. Tenga en cuenta que la duración no está disponible para el último evento de una sesión determinada.
+El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar a los valores de propiedad que desee transmitir. El carril derecho le permite seleccionar el ID de persona que desea analizar. El área central muestra el flujo por sesión, que consta de marca de tiempo, valores de propiedad y duración. La duración no está disponible para el último evento de una sesión determinada.
 
 >[!NOTE]
 >
 >La vista Cronología requiere que la variable **[!UICONTROL ID de persona]** componente estándar debe estar disponible en el [vista de datos](/help/data-views/component-reference.md#optional). La inclusión del ID de persona en una vista de datos la administra el administrador de datos de Adobe Analytics, lo que proporciona a las organizaciones un control de privacidad completo sobre quién puede acceder a estos datos.
 
 Si una vista de datos no tiene [!UICONTROL ID de persona] componente añadido, se muestra el siguiente mensaje:
-* **Administradores**: Se requiere la propiedad PersonID para este análisis. Añada un ID de persona a la vista de datos.
-* **No administradores**: Se requiere la propiedad PersonID para este análisis. Póngase en contacto con el administrador del Customer Journey Analytics para agregar el ID de persona a la vista de datos.
+
+* **Administradores**: *La propiedad PersonID es necesaria para este análisis. Añada un ID de persona a la vista de datos.*
+* **No administradores**: *La propiedad PersonID es necesaria para este análisis. Póngase en contacto con el administrador del Customer Journey Analytics para agregar el ID de persona a la vista de datos.*
+
+![Captura de pantalla Cronología](../assets/timeline.png)
 
 ## Casos prácticos
 
@@ -29,7 +32,7 @@ Los casos de uso para este tipo de vista incluyen:
 
 * **Exploración por fricción**: Si encuentra una caída pronunciada en el [Fricción](friction.md) , puede crear un segmento de esos usuarios y aplicarlo en esta vista para investigar posibles causas.
 * **Comportamiento del error**: Si los usuarios encuentran un error de producto, puede explorar qué estaban haciendo antes o después de ver ese error.
-* **Validación de recopilación de datos**: los administradores de datos pueden filtrar esta vista con su propio ID de persona y utilizarla para validar que la implementación de su organización funciona según lo esperado.
+* **Validación de recopilación de datos**: los administradores de datos pueden filtrar esta vista con su propio ID de persona para validar que la implementación de su organización funciona según lo esperado.
 
 ## Carril de consulta
 
@@ -44,7 +47,7 @@ El [!UICONTROL Cronología] La vista ofrece la siguiente configuración de gráf
 
 * **[!UICONTROL Mostrar como]**: Muestra los valores de propiedad deseados.
    * [!UICONTROL Mostrar todo]: muestra todos los valores de propiedad en una sesión.
-   * [!UICONTROL Resaltar]: resalte visualmente los valores de propiedad en una sesión que coincidan con los filtros de consulta.
+   * [!UICONTROL Resaltar]: resalta visualmente los valores de propiedad en una sesión que coinciden con los filtros de consulta.
    * [!UICONTROL Solo vista]: Mostrar solo los valores de propiedad en una sesión que coincidan con los filtros de consulta.
 
 ## Intervalo de fechas
