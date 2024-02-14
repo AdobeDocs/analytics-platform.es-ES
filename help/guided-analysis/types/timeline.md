@@ -4,7 +4,7 @@ description: Observe los eventos de sesión a nivel de usuario a lo largo del ti
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
+source-git-commit: 2eeaedd1c478fb9ae7a264a0af4a35327268c499
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar el flujo por valores de propiedad y segmentos. El carril derecho le permite seleccionar de una lista aleatoria de usuarios que coincidan con los criterios de filtro. El área central muestra el flujo del usuario seleccionado por sesión, que incluye la marca de tiempo, los valores de propiedad y la duración. La duración no está disponible para el último evento de una sesión determinada.
 
+![Captura de pantalla Cronología](../assets/timeline.png)
+
 >[!NOTE]
 >
 >La vista Cronología requiere que la variable **[!UICONTROL ID de persona]** componente estándar debe estar disponible en el [vista de datos](/help/data-views/component-reference.md#optional). El administrador del Customer Journey Analytics administra la inclusión del ID de persona en una vista de datos, lo que proporciona a su organización un control de privacidad completo sobre quién puede acceder a estos datos.
@@ -23,8 +25,6 @@ Si una vista de datos no tiene [!UICONTROL ID de persona] componente añadido, s
 
 * **Administradores**: *La propiedad PersonID es necesaria para este análisis. Añada un ID de persona a la vista de datos.*
 * **No administradores**: *La propiedad PersonID es necesaria para este análisis. Póngase en contacto con el administrador del Customer Journey Analytics para agregar el ID de persona a la vista de datos.*
-
-![Captura de pantalla Cronología](../assets/timeline.png)
 
 ## Casos prácticos
 
