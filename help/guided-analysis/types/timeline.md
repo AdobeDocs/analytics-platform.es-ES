@@ -1,23 +1,23 @@
 ---
 title: Vista Cronología
-description: Explore los patrones de experiencia y cuente mejores historias de usuario.
+description: Observe los eventos de sesión a nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia.
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: fef60995e9241eaad99f6f536b1f329757ea0830
+source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Cronología] vista
 
-El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar a los valores de propiedad que desee transmitir. El carril derecho le permite seleccionar el ID de persona que desea analizar. El área central muestra el flujo por sesión, que consta de marca de tiempo, valores de propiedad y duración. La duración no está disponible para el último evento de una sesión determinada.
+El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar el flujo por valores de propiedad y segmentos. El carril derecho le permite seleccionar de una lista aleatoria de usuarios que coincidan con los criterios de filtro. El área central muestra el flujo del usuario seleccionado por sesión, que incluye la marca de tiempo, los valores de propiedad y la duración. La duración no está disponible para el último evento de una sesión determinada.
 
 >[!NOTE]
 >
->La vista Cronología requiere que la variable **[!UICONTROL ID de persona]** componente estándar debe estar disponible en el [vista de datos](/help/data-views/component-reference.md#optional). La inclusión del ID de persona en una vista de datos la administra el administrador de datos de Adobe Analytics, lo que proporciona a las organizaciones un control de privacidad completo sobre quién puede acceder a estos datos.
+>La vista Cronología requiere que la variable **[!UICONTROL ID de persona]** componente estándar debe estar disponible en el [vista de datos](/help/data-views/component-reference.md#optional). El administrador del Customer Journey Analytics administra la inclusión del ID de persona en una vista de datos, lo que proporciona a su organización un control de privacidad completo sobre quién puede acceder a estos datos.
 
 Si una vista de datos no tiene [!UICONTROL ID de persona] componente añadido, se muestra el siguiente mensaje:
 
