@@ -5,9 +5,9 @@ title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
+source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2210'
 ht-degree: 3%
 
 ---
@@ -147,6 +147,11 @@ Asegúrese de que las tablas, el entorno y los permisos cumplan los siguientes r
 * **Entorno:** Los administradores deben asegurarse de que las direcciones IP enumeradas en [Direcciones IP utilizadas por el Customer Journey Analytics](/help/admin/ip-addresses.md) se incluyen en la lista de permitidos del cortafuegos.
 
 * **Permisos:** En Adobe Admin Console, los usuarios deben tener asignado un perfil de producto que tenga la variable [!UICONTROL **Exportación de tabla completa**] permiso asignado para exportar tablas completas. Para obtener información sobre cómo asignar un permiso a un perfil de producto en el Admin Console, consulte [Permiso de Customer Journey Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+
+  >[!NOTE]
+  >
+  >  Usuarios asignados a [Función Administrador de productos](/help/admin/cja-access-control.md#product-admin-role) siempre tienen acceso para exportar tablas completas; estos usuarios no necesitan que se les asigne la variable [!UICONTROL **Exportación de tabla completa**] permiso.
+
 
 ### Funciones no admitidas
 
