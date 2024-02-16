@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b49db376cb62c0668b8433c5dc5f66481966c333
+source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
 workflow-type: tm+mt
-source-wordcount: '3065'
-ht-degree: 83%
+source-wordcount: '3106'
+ht-degree: 82%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Febrero de 2024** | |
+| Se han añadido requisitos de permiso para cargar archivos en los bloques de ARN de la función Amazon S3 y GCP al configurar ubicaciones de exportación en la nube | Se han añadido requisitos de permiso exactos para cargar archivos en los bloques de ARN de la función Amazon S3 y Google Cloud Platform al [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
 | Se ha aclarado que los administradores de productos siempre tienen acceso para exportar tablas completas | Se han realizado los siguientes cambios para aclarar que los usuarios asignados a la función Administrador de productos tienen acceso para exportar tablas completas desde Analysis Workspace de forma predeterminada: <ul><li>Se ha añadido una nueva viñeta a [Permisos predeterminados del administrador de productos](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>Se ha añadido una nota debajo de [requisitos mínimos para exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | Detalles de registro omitidos | Se ha añadido documentación sobre la funcionalidad de detalles de registros omitidos en Conexiones. Consulte [Detalles de conexión](../connections/manage-connections.md#connection-details) para obtener más información. |
 | **Enero de 2024** | |
