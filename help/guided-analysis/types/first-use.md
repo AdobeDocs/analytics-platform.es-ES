@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: análisis de productos
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: de78569389f5a9d74603870e72b4f3871ef4aa92
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Versión](release.md).
 * **[!UICONTROL Indicadores clave]**: los eventos que desea medir por usuario. Cada indicador clave seleccionado se representa como una línea de color. Se agrega a la tabla una fila que representa el evento. Se pueden incluir hasta tres eventos.
-* **[!UICONTROL Contabilizado como]**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Eventos], [!UICONTROL Sesiones], y [!UICONTROL Usuarios].
+* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Eventos], [!UICONTROL Sesiones], y [!UICONTROL Usuarios].
 * **[!UICONTROL Factores]**: Existen dos factores para esta vista:
    * **[!UICONTROL Fecha]**: Hasta dónde desea empezar a buscar el primer evento de uso que se produjo.
    * **[!UICONTROL Evento]**: evento en el que desea buscar el primer uso para centrar el análisis.

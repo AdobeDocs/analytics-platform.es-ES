@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 1d6a241766455a5da978b7e8401f1d7c0ba688d6
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Los casos de uso para este tipo de vista incluyen:
 El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Eventos y métricas]**: Los eventos o métricas que desea medir. Cada selección se representa como una serie de gráficos y una fila de tabla. Los eventos y las métricas no se pueden combinar en la consulta. Una vez que haya realizado la primera selección, las selecciones de consulta restantes deben ser del mismo tipo. Puede incluir hasta cinco selecciones.
-* **[!UICONTROL Contabilizado como]**: La métrica que desea medir. Las opciones incluyen Eventos, Sesiones, Usuarios, Porcentaje de usuarios, Eventos por sesión y Eventos por usuario. Las opciones Contadas como solo son aplicables a las consultas de evento y se eliminan para las consultas de métricas.
+* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen Eventos, Sesiones, Usuarios, Porcentaje de usuarios, Eventos por sesión y Eventos por usuario. Las opciones Contadas como solo son aplicables a las consultas de evento y se eliminan para las consultas de métricas.
 * **[!UICONTROL Segmentos]**: Los segmentos que desea medir. Cada segmento seleccionado duplica el número de series de gráficos y filas de tabla. Se pueden incluir hasta cinco segmentos.
 * **[!UICONTROL Desglose de propiedad]**: desglosa la serie de gráficos y las filas de tabla por los valores de la propiedad seleccionada. Se admite una sola propiedad de desglose. Los 20 valores principales aparecen en la tabla y se pueden ver hasta diez valores en el gráfico. Puede ocultar o exponer una fila del gráfico alternando la opción ![Mostrar icono de ocultar](../assets/hide-in-chart.png) icono.
 

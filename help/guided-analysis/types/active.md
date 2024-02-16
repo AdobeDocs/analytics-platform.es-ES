@@ -5,9 +5,9 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 60f1c20b4188b5363619af49b85373d081db6cc3
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Crecimiento neto](net-growth.md).
 * **[!UICONTROL Eventos]**: el evento que desea medir. Dado que este tipo de vista se basa en el usuario, cualquier usuario que interactúe con el evento una vez dentro del periodo se contará como un usuario activo. Puede incluir un evento en una consulta.
-* **[!UICONTROL Contabilizado como]**: La métrica que desea medir. Las opciones incluyen [!UICONTROL Cantidad de usuarios] y [!UICONTROL Porcentaje de usuarios].
+* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Cantidad de usuarios] y [!UICONTROL Porcentaje de usuarios].
 * **[!UICONTROL Segmentos]**: Segmento por el que desea filtrar los datos. Puede incluir un segmento en una consulta.
 
 ## Ajustes del gráfico
