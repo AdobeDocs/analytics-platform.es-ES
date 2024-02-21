@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '760'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,7 @@ Los casos de uso para este tipo de vista incluyen:
 
 El carril de consulta permite configurar los siguientes componentes:
 
+* **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Frecuencia](frequency.md).
 * **[!UICONTROL Eventos y métricas]**: Los eventos o métricas que desea medir. Cada selección se representa como una serie de gráficos y una fila de tabla. Los eventos y las métricas no se pueden combinar en la consulta. Una vez que haya realizado la primera selección, las selecciones de consulta restantes deben ser del mismo tipo. Puede incluir hasta cinco selecciones.
 * **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen Eventos, Sesiones, Usuarios, Porcentaje de usuarios, Eventos por sesión y Eventos por usuario. Las opciones Contadas como solo son aplicables a las consultas de evento y se eliminan para las consultas de métricas.
 * **[!UICONTROL Segmentos]**: Los segmentos que desea medir. Cada segmento seleccionado duplica el número de series de gráficos y filas de tabla. Se pueden incluir hasta cinco segmentos.
