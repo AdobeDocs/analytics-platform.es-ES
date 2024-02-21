@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 57%
+source-wordcount: '1247'
+ht-degree: 52%
 
 ---
 
@@ -79,7 +79,18 @@ Un perfil de producto es un conjunto de permisos. Los administradores de perfil 
 
 ## Acceso de nivel de usuario
 
-Los usuarios en Customer Journey Analytics no pueden crear, editar ni ver conexiones o vistas de datos. Los usuarios pueden crear filtros, proyectos, audiencias y métricas calculadas con permisos especiales en Admin Console.
+La siguiente matriz describe los permisos de acceso principales para diferentes funcionalidades de Customer Journey Analytics para administradores que no son administradores de productos y administradores de productos de CJA. Comprender estos permisos ayuda a los usuarios a navegar y utilizar CJA de forma eficaz en función de su función y responsabilidades dentro de la organización.
+
+| Funcionalidad del producto de CJA | No administradores de productos (usuarios) | Administradores de productos |
+| --- | --- | --- |
+| **Vistas de datos** | No se puede ver, actualizar, crear ni eliminar | Puede crear, actualizar o eliminar |
+| **Conexiones** | No se puede ver, actualizar, crear ni eliminar | Puede crear, actualizar o eliminar |
+| **Filtros** | Puede crear | Puede crear |
+| **Proyectos** | Puede crear | Puede crear, actualizar o eliminar |
+| **Públicos** | Puede crear con permisos especiales en Admin Console | Puede crear |
+| **Métricas calculadas** | Puede crear con permisos especiales en Admin Console | Puede crear |
+
+{style="table-layout:auto"}
 
 ## Depuración del proyecto de Workspace
 
