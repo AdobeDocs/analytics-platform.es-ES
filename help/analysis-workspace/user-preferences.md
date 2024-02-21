@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: b091606cefa79d5c6d46e2a4a70a77a4cb015c6e
+source-git-commit: 39486d83a446c8bcfe93824c06bee3c681922ff4
 workflow-type: tm+mt
 source-wordcount: '3259'
 ht-degree: 84%
@@ -22,7 +22,7 @@ Puede administrar la configuración de Analysis Workspace y sus componentes rela
 
    ![La vista Proyectos de Workspace resalta las opciones de Editar preferencias que se describen en esta página.](assets/user-preferences.png)
 
-   o
+   O
 
    Los administradores de productos pueden actualizar las preferencias de organización de IMS en [!UICONTROL **Componentes**] y, a continuación, seleccione [!UICONTROL **Preferencias**].
 
@@ -72,7 +72,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 | --- | --- | --- |
 | **Mostrar** | | |
 |  | [Ver densidad](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=es) | Elija cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacto</li><li>Cómodo</li><li>Expandido (predeterminado)</li></ul> |
-| | [Paleta de color](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es) | Elija las paletas de colores de visualización que se utilizan en Analysis Workspace y el análisis guiado. <ul><li> Paleta categórica: aplicada a muchas visualizaciones de Analysis Workspace y análisis guiado. Cada color representa un valor categórico distinto. Elija entre las opciones que proporciona Adobe o introduzca una paleta personalizada definida por valores hexadecimales delimitados por comas.</li><li> Paleta divergente: se aplica a la tabla de cohorte en el análisis guiado por el crecimiento de Analysis Workspace y del usuario. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio.<li> Paleta secuencial: se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro.</li></ul> |
+| | [Paleta de color](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es) | Elija las paletas de colores de visualización que se utilizan en Analysis Workspace y en el análisis guiado. <ul><li> Paleta categórica: se aplica a muchas visualizaciones de Analysis Workspace y al análisis guiado. Cada color representa un valor categórico distinto. Elija entre las opciones que proporciona Adobe o introduzca una paleta personalizada definida por valores hexadecimales delimitados por comas.</li><li> Paleta divergente: se aplica a la tabla de cohorte en el análisis guiado por el crecimiento de Analysis Workspace y del usuario. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio.<li> Paleta secuencial: se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro.</li></ul> |
 | **Datos** | | |
 |  | [Vista de datos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es#report-suite) | Elija desde dónde las tablas y las visualizaciones obtienen sus datos. <ul><li>Más reciente (predeterminado)</li><li>Vista de datos específica seleccionada de una lista</li></ul> |
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es#calendar) | Seleccione de una lista de: <ul><li>Intervalos proporcionados por Adobe (el valor predeterminado es Este mes)</li><li>Intervalos definidos a medida</li></ul> |
