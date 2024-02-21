@@ -5,7 +5,7 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 2%
@@ -38,9 +38,9 @@ Para permitir que los usuarios finales tengan más éxito con el análisis guiad
 
 +++
 
-+++**¿En qué se diferencia la terminología entre Análisis guiado y Analysis Workspace?**
++++**¿En qué se diferencia la terminología entre el análisis guiado y Analysis Workspace?**
 
-El análisis guiado utiliza términos que se utilizan con mayor frecuencia entre los equipos de productos. Puede hacer referencia a esta tabla al cambiar entre Análisis guiado y [Analysis Workspace](../analysis-workspace/home.md).
+El análisis guiado utiliza términos que se utilizan con mayor frecuencia entre los equipos de productos. Puede hacer referencia a esta tabla al cambiar entre el análisis guiado y [Analysis Workspace](../analysis-workspace/home.md).
 
 | Término del análisis guiado | Término de Analysis Workspace |
 | --- | --- |
@@ -56,22 +56,22 @@ El análisis guiado utiliza términos que se utilizan con mayor frecuencia entre
 
 +++**¿Cuáles son algunas diferencias en la forma en que el análisis guiado y el enfoque de Analysis Workspace aplican la creación de informes?**
 
-While [Analysis Workspace](../analysis-workspace/home.md) y el análisis guiado utilizan los mismos datos subyacentes; la forma en que cada herramienta permite formar consultas de esos datos es diferente.
+While [Analysis Workspace](../analysis-workspace/home.md) y el análisis guiado utiliza los mismos datos subyacentes, de modo que cada herramienta permite formar consultas de esos datos es diferente.
 
 * **Analysis Workspace es una experiencia centrada en las dimensiones.** Las tablas suelen consistir en filas dimensionales, mientras que las columnas suelen ser métricas. Los filtros se pueden aplicar tanto en filas como en columnas para obtener los datos deseados.
 
 * **El análisis guiado es una experiencia centrada en el evento y el usuario.** Cada análisis comienza seleccionando eventos. A continuación, se pueden añadir dimensiones y filtros para restringir los datos de evento.
 
-![Vistas de Analysis Workspace y de análisis guiado](assets/structure.png)
+![Analysis Workspace y vistas de análisis guiado](assets/structure.png){style="border:1px solid gray"}
 
 Preste atención al siguiente ejemplo, en el que se centra en los datos de la página principal del sitio web. Los equipos hacen preguntas similares, pero el enfoque del análisis puede ser diferente.
 
 * Un enfoque típico de Analysis Workspace centrado en las dimensiones sería, &quot;Veamos la página de inicio y cuántas vistas de página recibió&quot;.
 
-  ![centrado en Dimension](assets/dimension-centered.png)
+  ![centrado en Dimension](assets/dimension-centered.png){style="border:1px solid gray"}
 
 * Un enfoque típico de análisis guiado centrado en el usuario y el evento sería: &quot;¿Cuántos usuarios han visitado nuestra página principal?&quot;
 
-  ![Centrado en evento](assets/event-centered.png)
+  ![Centrado en evento](assets/event-centered.png){style="border:1px solid gray"}
 
 +++

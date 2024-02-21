@@ -4,7 +4,7 @@ description: Observe los eventos de sesión a nivel de usuario a lo largo del ti
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: 2eeaedd1c478fb9ae7a264a0af4a35327268c499
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar el flujo por valores de propiedad y segmentos. El carril derecho le permite seleccionar de una lista aleatoria de usuarios que coincidan con los criterios de filtro. El área central muestra el flujo del usuario seleccionado por sesión, que incluye la marca de tiempo, los valores de propiedad y la duración. La duración no está disponible para el último evento de una sesión determinada.
 
-![Captura de pantalla Cronología](../assets/timeline.png)
+![Captura de pantalla Cronología](../assets/timeline.png){style="border:1px solid gray"}
 
 >[!NOTE]
 >

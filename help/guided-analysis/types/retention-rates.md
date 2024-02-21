@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: análisis de productos
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 4%
@@ -29,7 +29,7 @@ Los bloques de duración posteriores cuentan el número de usuarios que regresar
 * Si un usuario se involucra con el evento varios días después de cumplir los requisitos iniciales para la inclusión en el análisis, aparece en el último bloque de duración correspondiente y en todos los bloques de duración previos al mismo. Este tipo de cálculo se denomina a veces &quot;retención ilimitada&quot;.
 * Si un usuario se involucra con el evento muchas veces durante el intervalo de fechas configurado, solo se incluyen en el análisis los eventos primero y último.
 
-![Captura de pantalla Tasas de retención](../assets/retention-rates.png)
+![Captura de pantalla Tasas de retención](../assets/retention-rates.png){style="border:1px solid gray"}
 
 ## Casos prácticos
 

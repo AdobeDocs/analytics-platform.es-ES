@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: análisis de productos
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 1%
@@ -50,7 +50,7 @@ El [!UICONTROL Tendencias de conversión] La vista ofrece la siguiente configura
 
 {{apply-time-comparison}}
 
-![Comparación temporal de tendencias de conversión](../assets/conversion-trends-compare.png)
+![Comparación temporal de tendencias de conversión](../assets/conversion-trends-compare.png){style="border:1px solid gray"}
 
 ## Intervalo de fechas
 

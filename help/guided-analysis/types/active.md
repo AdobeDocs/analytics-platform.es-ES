@@ -5,7 +5,7 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: análisis de productos
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 1%
@@ -52,7 +52,7 @@ El [!UICONTROL Activo] La vista ofrece la siguiente configuración de gráfico, 
 
 {{apply-time-comparison}}
 
-![Comparación del tiempo activo](../assets/active-compare.png)
+![Comparación del tiempo activo](../assets/active-compare.png){style="border:1px solid gray"}
 
 ## Intervalo de fechas
 
