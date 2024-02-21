@@ -4,10 +4,10 @@ description: Página de aterrizaje de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 94%
 
 ---
 
@@ -23,15 +23,20 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!BEGINTABS]
 
+>[!TAB Previsión]
+
+La previsión es una función de Analysis Workspace para prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). La previsión solo está disponible para datos relacionados con series temporales.
+
+[![image](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
+
+
 >[!TAB Análisis guiado* - Tasas de retención]
 
 Un nuevo tipo de vista que muestra el porcentaje de usuarios que regresan después de su participación inicial dentro del intervalo de fechas deseado. El eje horizontal representa el número de días transcurridos desde la participación inicial de un usuario. El eje vertical representa el porcentaje de usuarios que vuelven a participar.
 
-[![image](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
+[![image](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
 
 <span style="color:gray">*_El análisis guiado forma parte de Adobe Product Analytics, un complemento de pago de Customer Journey Analytics._</span>
-
-
 
 
 >[!TAB Análisis guiado* - Líneas de tendencia]
