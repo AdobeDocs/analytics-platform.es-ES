@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '2044'
-ht-degree: 100%
+source-git-commit: 2ed8f4c3768312bb8f6c108ef8b8b052acbfa574
+workflow-type: tm+mt
+source-wordcount: '2032'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Detección de anomalías | Compatibilidad total |
 | Attribution IQ | Compatibilidad total |
+| Detección de bots | *¡Muy pronto!* Para [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es)Conjuntos de datos basados en, se aplica el filtrado de bots. La lógica general de detección de bots para otros conjuntos de datos la realiza [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=en). |
 | Métricas calculadas  | Compatibilidad total. Las métricas calculadas existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
 | Eventos de calendario | Compatibilidad total. Los eventos de calendario se han implementado como [Anotaciones](/help/components/annotations/overview.md) en Workspace. |
 | Descarga de CSV | Compatibilidad total |
@@ -30,10 +31,11 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Intervalos de fechas | Se admite toda la funcionalidad de intervalo de fechas. |
 | Dimensiones | Compatibilidad total. Customer Journey Analytics utiliza XDM y admite dimensiones ilimitadas. Customer Journey Analytics no está vinculado a las eVars o props personalizadas de Adobe Analytics tradicional. |
 | Eliminación de RGPD | Compatibilidad total. Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics hereda los cambios de datos que [!UICONTROL Experience Platform] genera en los conjuntos de datos subyacentes. |
-| Creación de informes de alza y confianza | Asistencia total a través de [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) |
+| Creación de informes de alza y confianza | Compatibilidad total mediante [Panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md) |
 | Variables de lista/Propiedades de lista | Compatibilidad total. Customer Journey Analytics aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
-| eVars de comercialización | Asistencia total a través de [dimensiones de enlace y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) |
-| Métricas | Compatibilidad total; Customer Journey Analytics aprovecha Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Adobe Analytics tradicional. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Adobe Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
+| eVars de comercialización | Compatibilidad total mediante [dimensiones de enlace y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) |
+| Métricas | Compatibilidad total. Customer Journey Analytics utiliza el Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Adobe Analytics. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Adobe Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
+| Migración de proyectos, filtros y métricas calculadas de Adobe Analytics a Customer Journey Analytics | Compatibilidad total. |
 | Paneles y cuadros de resultados para móviles | Compatibilidad total |
 | Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. |
 | Exportación de PDF | Compatibilidad total |
@@ -75,7 +77,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Uso compartido de proyectos | El uso compartido de proyectos solo es compatible entre los usuarios de Customer Journey Analytics; no existe el uso compartido de proyectos entre Customer Journey Analytics y la versión tradicional de Analysis Workspace. |
 | Report Builder | Compatible con un nuevo complemento de Office 365 para Excel. |
 | Permisos de usuario/Controles de acceso de datos | Customer Journey Analytics distingue entre administradores de productos, administradores de perfiles de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es). Solo los administradores de productos pueden crear, actualizar o eliminar conexiones, proyectos, filtros o métricas calculadas creados por otros usuarios, mientras que los administradores de productos y los administradores de perfiles de productos pueden editar las vistas de datos. Hay disponibles permisos de usuario adicionales para tareas como crear métricas calculadas, filtros o anotaciones. |
-| Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
+| Visualizaciones | Todas las visualizaciones de Workspace son compatibles, excepto la visualización de Mapa. |
 | Vinculación entre dispositivos y canales | Compatible con conjuntos de datos que contienen información de identidad directamente (también conocida como vinculación “basada en campos”). La vinculación basada en gráficos aún no es compatible, pero está programada. Consulte [Vinculación](../../stitching/overview.md). |
 
 {style="table-layout:auto"}
@@ -84,7 +86,6 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
-| Filtros de bots | Para conjuntos de datos basados en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos no es realizada por [!UICONTROL Experience Platform] o Customer Journey Analytics. |
 | Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics for Target (A4T) no son compatibles. |
 | Analytics for Target (A4T) | Se proporciona soporte parcial mediante campos en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Se ha planificado la compatibilidad con los nombres descriptivos de A4T en las actividades y experiencias de Target. |
 
@@ -101,7 +102,6 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Creación de informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de ID de transacción | Se ha planificado lanzar una versión compatible. |
-| Migración de proyectos, filtros y métricas calculadas de Adobe Analytics a Customer Journey Analytics | Se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de nivel de resumen | Se ha planificado lanzar una versión compatible. |
 
 {style="table-layout:auto"}
@@ -118,9 +118,6 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 ## Nunca admitido {#never}
 
 * Métrica de personas que utiliza la cooperación entre dispositivos
-* Paneles de Reports &amp; Analytics
-* Marcadores de Reports &amp; Analytics
-* Destinatarios de Reports &amp; Analytics
 
 ## Funciones de Adobe Customer Journey Analytics no disponibles en Adobe Analytics {#cja-not-aa}
 
