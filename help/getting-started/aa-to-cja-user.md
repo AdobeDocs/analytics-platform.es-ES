@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
-workflow-type: ht
-source-wordcount: '1483'
-ht-degree: 100%
+source-git-commit: 9314aae4c62e5c7a21495beeea0a5d69c6e113a1
+workflow-type: tm+mt
+source-wordcount: '1455'
+ht-degree: 95%
 
 ---
 
@@ -66,11 +66,7 @@ Con esta flexibilidad, puede encontrarse con situaciones en las que un solo camp
 
 ## Cambios en el concepto de segmentos
 
-Adobe ha cambiado el nombre del componente “segmentos” a “filtros” para que se ajuste mejor a los estándares del sector y proporcione una mejor distinción con los segmentos de Adobe Experience Platform.
-
-[!UICONTROL Customer Journey Analytics] ya no utiliza eVars, props ni eventos y, en su lugar, utiliza el nombre de campo del esquema de Experience Platform al que se han asignado. Este cambio significa que ninguno de los segmentos existentes en Adobe Analytics es compatible con [!UICONTROL Customer Journey Analytics]. Si desea mover segmentos de Adobe Analytics existentes a Customer Journey Analytics, consulte el siguiente vídeo:
-
->[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
+Aunque técnicamente los segmentos no se migran de Adobe Analytics a Customer Journey Analytics, puede utilizar la herramienta de migración de componentes para volver a crear los segmentos de Adobe Analytics en Customer Journey Analytics. Los segmentos se vuelven a crear en Customer Journey Analytics en función de las dimensiones y métricas asignadas. Para obtener más información, consulte [Preparación para migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=es).
 
 Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL segmentos]) desde [!DNL Customer Journey Analytics] al perfil unificado de Experience Platform, esta funcionalidad está en desarrollo.
 

@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
+source-git-commit: d9a54eca27b41a7d52e61a75e18850608fc97e5e
 workflow-type: tm+mt
-source-wordcount: '3106'
-ht-degree: 82%
+source-wordcount: '3188'
+ht-degree: 80%
 
 ---
 
@@ -20,8 +20,10 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Febrero de 2024** | |
+| Requisitos de permiso añadidos para cargar archivos en Azure SAS y Azure RBAC al configurar ubicaciones de exportación en la nube | Se agregaron requisitos de permiso exactos para cargar archivos en Azure SAS y Azure RBAC al [configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md) y [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
 | Se han añadido requisitos de permiso para cargar archivos en los bloques de ARN de la función Amazon S3 y GCP al configurar ubicaciones de exportación en la nube | Se han añadido requisitos de permiso exactos para cargar archivos en los bloques de ARN de la función Amazon S3 y Google Cloud Platform al [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
 | Se ha aclarado que los administradores de productos siempre tienen acceso para exportar tablas completas | Se han realizado los siguientes cambios para aclarar que los usuarios asignados a la función Administrador de productos tienen acceso para exportar tablas completas desde Analysis Workspace de forma predeterminada: <ul><li>Se ha añadido una nueva viñeta a [Permisos predeterminados del administrador de productos](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>Se ha añadido una nota debajo de [requisitos mínimos para exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
+| Se ha aclarado que los segmentos se vuelven a crear durante la migración de componentes desde Adobe Analytics | En el [Guía del usuario para usuarios de Adobe Analytics](/help/getting-started/aa-to-cja-user.md), aclaró que los segmentos se vuelven a crear automáticamente en Adobe Analytics como parte del proceso de migración de componentes y no es necesario volver a crearlos manualmente. |
 | Detalles de registro omitidos | Se ha añadido documentación sobre la funcionalidad de detalles de registros omitidos en Conexiones. Consulte [Detalles de conexión](../connections/manage-connections.md#connection-details) para obtener más información. |
 | **Enero de 2024** | |
 | Previsión | Se ha añadido documentación sobre [previsión](../analysis-workspace/c-forecast/forecasting.md), la nueva función de Analysis Workspace para pronosticar una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual) para tablas de forma libre y gráficos de líneas. |
