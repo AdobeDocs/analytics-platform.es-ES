@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d9a54eca27b41a7d52e61a75e18850608fc97e5e
+source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
 workflow-type: tm+mt
-source-wordcount: '3188'
-ht-degree: 80%
+source-wordcount: '3214'
+ht-degree: 79%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Febrero de 2024** | |
+| Actualizaciones de la documentación para compartir proyectos | Se ha añadido información acerca de cómo [ver los proyectos compartidos con usted](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>También se ofrece información optimizada sobre [compartir proyectos individuales o múltiples](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Requisitos de permiso añadidos para cargar archivos en Azure SAS y Azure RBAC al configurar ubicaciones de exportación en la nube | Se agregaron requisitos de permiso exactos para cargar archivos en Azure SAS y Azure RBAC al [configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md) y [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
 | Se han añadido requisitos de permiso para cargar archivos en los bloques de ARN de la función Amazon S3 y GCP al configurar ubicaciones de exportación en la nube | Se han añadido requisitos de permiso exactos para cargar archivos en los bloques de ARN de la función Amazon S3 y Google Cloud Platform al [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
 | Se ha aclarado que los administradores de productos siempre tienen acceso para exportar tablas completas | Se han realizado los siguientes cambios para aclarar que los usuarios asignados a la función Administrador de productos tienen acceso para exportar tablas completas desde Analysis Workspace de forma predeterminada: <ul><li>Se ha añadido una nueva viñeta a [Permisos predeterminados del administrador de productos](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>Se ha añadido una nota debajo de [requisitos mínimos para exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
