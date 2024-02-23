@@ -6,7 +6,8 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: f062f8599dcc22b792369c310ceebcb283447d76
+exl-id: 71dd9e4e-1d71-424b-b984-492a3e39af5f
+source-git-commit: 744c8cfc903ed841dd39b29fd3fef68ef2e7b7cb
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 2%
@@ -128,7 +129,7 @@ Para buscar datos de otros conjuntos de datos, se utiliza la funcionalidad está
 
 #### Cálculos
 
-Para realizar cálculos en campos (columnas), utilice las funciones SQL estándar (por ejemplo `COUNT(*)` o el [operadores y funciones matemáticos y estadísticos](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) forma parte de Spark SQL. Además, [funciones de ventana](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) proporciona soporte para actualizar acumulaciones y devolver elementos únicos para cada fila en un subconjunto ordenado. Consulte [Ejemplos](#examples) sobre cómo utilizar estas funciones.
+Para realizar cálculos en campos (columnas), utilice las funciones SQL estándar (por ejemplo `COUNT(*)`), o el [operadores y funciones matemáticos y estadísticos](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) forma parte de Spark SQL. Además, [funciones de ventana](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) proporciona soporte para actualizar acumulaciones y devolver elementos únicos para cada fila en un subconjunto ordenado. Consulte [Ejemplos](#examples) sobre cómo utilizar estas funciones.
 
 #### Estructura de datos anidada
 
@@ -277,4 +278,3 @@ En resumen, emular la funcionalidad de la fuente de datos de Adobe Analytics imp
 >[!IMPORTANT]
 >
 >En este caso de uso están involucrados dos programadores. Para garantizar el correcto funcionamiento de la funcionalidad de fuente de datos emulada, asegúrese de que las programaciones configuradas en el servicio de consulta y las exportaciones de datos no interfieran.
-
