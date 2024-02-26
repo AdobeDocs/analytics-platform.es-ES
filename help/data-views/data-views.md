@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '1060'
-ht-degree: 100%
+source-git-commit: c1e6279d8e2f0b31a82c2588fce8b3c2e614e440
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 95%
 
 ---
 
@@ -61,6 +61,7 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 
 * Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform](/help/connections/create-connection.md).
 * Para crear o administrar una vista de datos, necesita un [conjunto de permisos en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#admin-access-permissions).
+* Si utiliza el complemento [Conector de origen de Adobe Analytics](/help/data-ingestion/analytics.md) Si tiene conocimientos de Adobe Analytics, es posible que desee comprender cómo se relacionan los campos de los esquemas y conjuntos de datos, parte de la conexión, con sus homólogos de Adobe Analytics. Consulte [Asignaciones de campos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es) para obtener más información.
 
 ## Configuración de vista de datos que se puede anular el Espacio de trabajo {#settings-override}
 
