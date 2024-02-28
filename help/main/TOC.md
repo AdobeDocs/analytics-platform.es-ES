@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
+source-git-commit: 53ce86d0009f2f5d7602ce55b938006c2600d2ca
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 78%
+source-wordcount: '1058'
+ht-degree: 79%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 78%
 
 + Notas de la versión {#releases}
    + [Última versión](../release-notes/latest.md)
+   + [Versiones de 2024](../release-notes/2024.md)
    + [Versiones de 2023](../release-notes/2023.md)
    + [Versiones de 2022](../release-notes/2022.md)
    + [Versiones de 2021](../release-notes/2021.md)
@@ -298,9 +299,9 @@ ht-degree: 78%
    + [Etiquetas restringidas](../report-builder/restricted-labels.md)
    + [Configuración de Report Builder](../report-builder/report-builder-settings.md)
 
-+ Administrador de actividades de informes {#reporting-activity-manager}
++ Administrador de actividades de creación de informes {#reporting-activity-manager}
    + [Información general](../reporting-activity-manager/reporting-activity-overview.md)
-   + [Ver actividad de informes](../reporting-activity-manager/reporting-activity.md)
+   + [Ver actividad de creación de informes](../reporting-activity-manager/reporting-activity.md)
    + [Cancelar solicitudes de creación de informes](../reporting-activity-manager/reporting-activity-cancel-requests.md)
 
 + Vinculación {#stitching}
