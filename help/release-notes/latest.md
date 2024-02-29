@@ -3,7 +3,7 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 70705430e578ad49a919bc8ad172adf7d28c4887
+source-git-commit: fd12f9b90c3240d10bf2fd5e22a2983b844051b5
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 80%
@@ -21,7 +21,7 @@ Estas notas de la versión abarcan el período de lanzamiento del final del 14 d
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Previsión de series temporales** | La [previsión](../analysis-workspace/c-forecast/forecasting.md) es una nueva función de Analysis Workspace que se utiliza para realizar una previsión de una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual) para tablas de forma libre y gráficos de líneas. | 31 de enero de 2024 | 21 de febrero de 2024 |
-| **Sistema de informes de Media Analytics: promedio de público por minuto (AMA)** | El panel Promedio de público por minuto ya está disponible en CJA. Los clientes de Media Analytics pueden utilizar el panel Promedio de público por minuto para comprender mejor el consumo medio de su contenido. La audiencia media por minuto permite comparar la programación de cualquier género o duración. Además, los clientes pueden comparar o anexar esta audiencia media por minuto digital a métricas de minuto promedio de televisión lineal. Este panel proporciona más flexibilidad para medir el promedio de público en periodos de tiempo personalizados, así como cuando la clasificación de duración se ha actualizado después del hecho. |  | Febrero de 2024 |
+| **Sistema de informes de Media Analytics: promedio de público por minuto (AMA)** | El panel Promedio de público por minuto ya está disponible en CJA. Los clientes de Media Analytics pueden utilizar el panel Promedio de público por minuto para comprender mejor el consumo medio de su contenido. La audiencia media por minuto permite comparar la programación de cualquier género o duración. Además, los clientes pueden comparar o anexar esta audiencia media por minuto digital a métricas de minuto promedio de televisión lineal. Este panel proporciona más flexibilidad para medir el promedio de público en periodos de tiempo personalizados, así como cuando la clasificación de duración se ha actualizado después del hecho. |  | Marzo de 2024 |
 | **Métricas de recuento de filas para datos de búsqueda y perfil** | Las métricas de recuento de filas para conjuntos de datos, configuradas como parte de una conexión, ahora incluyen registros añadidos, omitidos o eliminados de los conjuntos de datos de perfil y búsqueda. |  | 14 de febrero de 2024 |
 | **Detección de bots Experience Edge** | [Detección de bots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=es) permite identificar eventos generados por SDK web, SDK móvil y API de servidor como si fueran generados por arañas de web y bots conocidos. | | martes, 29 de abril de 2024 |
 | **Métricas de uso** | La interfaz de métricas de uso muestra el uso de filas ingeridas y notificables en todas las conexiones. Esta interfaz permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente. | 20 de febrero de 2024 | Principios de marzo de 2024 |
