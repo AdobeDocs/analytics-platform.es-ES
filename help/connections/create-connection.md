@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 2be283e0abd32229be1921b106d166f47fb410a8
+source-git-commit: 8303043d46365195d9ffde6eaa06f49c9d22101d
 workflow-type: tm+mt
-source-wordcount: '2763'
+source-wordcount: '2749'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,7 @@ Debe tener el **Seleccionar** para añadir un número ilimitado de conjuntos de 
    | **[!UICONTROL Clave]** | Solo para conjuntos de datos de búsqueda (como _id). |
    | **[!UICONTROL Clave de coincidencia]** | Solo para conjuntos de datos de búsqueda (como _id). |
    | **[!UICONTROL Importar datos nuevos]** | Establézcalo en Activado o Desactivado. |
-   | **[!UICONTROL Datos de relleno]** | Puede solicitar rellenar los datos en un conjunto de datos en función de marcas de tiempo de evento. Por ejemplo, puede solicitar que se rellenen los datos de los últimos 7 días, configurar el ID de persona correcto y probar la conexión para obtener la configuración correcta. Si todo parece correcto, puede rellenar fácilmente todos los datos restantes.<p>Además, puede habilitar la importación de nuevos datos por conjunto de datos. Por ejemplo, puede habilitar la importación de nuevos datos solo para los datos de búsqueda. |
+   | **[!UICONTROL Datos de relleno]** | Puede solicitar rellenar los datos en un conjunto de datos en función de marcas de tiempo de evento. Por ejemplo, puede solicitar que se rellenen los datos de los últimos 7 días, configurar el ID de persona correcto y probar la conexión para obtener la configuración correcta. Si todo parece correcto, puede rellenar fácilmente todos los datos restantes.<p>Además, puede habilitar la importación de nuevos datos por conjunto de datos. |
    | **[!UICONTROL Estado de relleno]** | Indica si se están procesando datos de relleno. |
 
    {style="table-layout:auto"}
