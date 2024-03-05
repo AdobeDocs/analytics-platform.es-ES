@@ -5,9 +5,9 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1078'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -321,4 +321,4 @@ A modo de ejemplo, suponga que tiene una columna de tres elementos:
 
 3
 
-El promedio de esta columna es 2. La variación de la columna será (1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
+El promedio de esta columna es 2. La variación de la columna será ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.

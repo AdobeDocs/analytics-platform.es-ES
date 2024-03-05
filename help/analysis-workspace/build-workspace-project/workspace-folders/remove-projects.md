@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o elimin
 
 Puede mover proyectos de una carpeta a otra que haya creado.
 
-1. En una carpeta de proyecto, seleccione los puntos suspensivos **...** junto al nombre del proyecto.
+1. En una carpeta de proyecto, seleccione los puntos suspensivos **…** junto al nombre del proyecto.
 
    ![Las opciones de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
@@ -34,7 +34,7 @@ Puede mover proyectos de una carpeta a otra que haya creado.
 
 1. Haga clic en **Mover**.
 
-   ![Haga clic en Mover.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+   ![Haga clic Mover.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
    Un mensaje confirma que el proyecto se ha movido.
 

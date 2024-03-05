@@ -5,9 +5,9 @@ feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La accesibilidad se refiere a hacer que personas con discapacidades visuales, au
 
 La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a abajo e izquierda a derecha. Los siguientes elementos de navegación facilitan la accesibilidad:
 
-* El `Tab` Esta tecla habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
+* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro del espacio de trabajo. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
 * El movimiento `left/right arrows` entre elementos individuales después de que `Tab` lo haya resaltado.
 * El `F6` se desplaza al primer panel del proyecto y se mueve entre las visualizaciones de ese panel. A continuación, se desplaza al siguiente panel del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.
@@ -70,7 +70,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | `[Ctrl + Shift + D]` | Nuevo intervalo de fechas |
 | `[Ctrl + Shift + E]` | Nuevo filtro |
 | `[Ctrl + Z]` | Deshacer |
-| `[Component drag + Shift]` | Creación de un filtro desplegable |
+| `[Component drag + Shift]` | Cree un filtro desplegable |
 
 #### Democratización
 
@@ -80,7 +80,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | `[Ctrl + Shift + G]` | Depurar |
 | `[Ctrl + G]` | Compartir |
 | `[Alt + Shift + S]` | Programación |
-| `[Alt + L]` | Obtener vínculo al proyecto |
+| `[Alt + L]` | Obtener vínculo del proyecto |
 | `[Ctrl + Shift + B]` | Descargar PDF |
 
 ## Compatibilidad con lectores de pantalla y ampliadores de pantalla

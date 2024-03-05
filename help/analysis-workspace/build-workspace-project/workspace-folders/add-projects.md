@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ También puede agregar proyectos desde dentro de una carpeta mediante el víncul
 
    ![La subcarpeta que no contiene ningún proyecto](/help/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Haga clic en el icono puntos suspensivos **...** en la parte superior derecha.
+1. Haga clic en el icono puntos suspensivos **…** en la parte superior derecha.
 
    ![Las opciones del menú desplegable de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 

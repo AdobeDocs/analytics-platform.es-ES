@@ -1,16 +1,16 @@
 ---
-title: Integración de soluciones de Adobe Analytics con Customer Journey Analytics
-description: Integración de soluciones de Adobe Analytics con Customer Journey Analytics
+title: Integración de Adobe Analytics con Customer Journey Analytics
+description: Integración de Adobe Analytics con Customer Journey Analytics
 exl-id: 0a9998df-a538-4a84-95a9-98706bd99ac1
 feature: Experience Platform Integration
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
 ht-degree: 100%
 
 ---
 
-# Integración de soluciones de Adobe Analytics con Customer Journey Analytics
+# Integración de Adobe Analytics con Customer Journey Analytics
 
 Los clientes de Adobe Analytics pueden aprovechar fácilmente sus grupos de informes en Adobe Experience Platform y Customer Journey Analytics mediante el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Para obtener más información, consulte [Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).

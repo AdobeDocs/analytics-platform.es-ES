@@ -5,15 +5,15 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1306'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # Resumen de paneles
 
-Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda de Workspace o desde una [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, vistas de datos o casos de uso de análisis.
+Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles en el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, vistas de datos o casos de uso de análisis.
 
 ## Tipos de panel
 
@@ -28,7 +28,7 @@ Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UI
 | [Panel de visualizadores simultáneos de medios](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
 | [Panel Tiempo invertido en la reproducción de medios](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analice el tiempo invertido en la reproducción para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los descensos. |
 
-![El panel Customer Journey Analytics enumera los tipos de panel disponibles.](assets/panel-overview.png)
+![Panel Customer Journey Analytics que enumera los tipos de paneles disponibles.](assets/panel-overview.png)
 
 Los paneles [!UICONTROL Quick Insights], [!UICONTROL En blanco] y [!UICONTROL Forma libre] son buenos lugares para iniciar el análisis, mientras que [!UICONTROL Attribution IQ] se presta para análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
 
@@ -56,7 +56,7 @@ Arrastre y suelte cualquier filtro del carril izquierdo en la zona desplegable d
 
 ### Filtros ad hoc
 
-Los componentes que no son filtros también se pueden arrastrar directamente a la zona de colocación para crear filtros ad hoc, lo que le ahorrará el tiempo y el tener que utilizar el Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de evento. Puede modificar esta definición haciendo clic en el icono de información (i) junto al filtro, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de filtros.
+Los componentes que no son filtros también se pueden arrastrar directamente a la zona de colocación para crear filtros ad hoc, lo que le ahorrará el tiempo y el tener que utilizar el Generador de filtros. Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al filtro, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de filtros.
 
 Los filtros ad hoc son un tipo de filtro rápido y son locales del proyecto. No aparecen en el carril izquierdo a menos que las haga públicas.
 
@@ -70,13 +70,13 @@ Los filtros desplegables permiten interactuar con los datos de forma controlada.
 
 Los filtros desplegables también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes filtros de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un filtro desplegable de país.
 
-![Filtros desplegables estáticos que muestran el filtro &quot;Directo&quot; del canal de mercado resaltado. ](assets/dropdown-filter-intro.png)
+![Filtros desplegables estáticos que muestran el filtro “Directo” del canal de mercado resaltado. ](assets/dropdown-filter-intro.png)
 
-Para crear un filtro desplegable estático:
+Para crear un filtro desplegable estático, haga lo siguiente:
 
-* Para filtros desplegables que utilizan elementos de dimensión, haga clic en el icono de flecha derecha junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccionar varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene`[Shift]`**.
-* Para filtros desplegables que utilizan otros componentes, como métricas, filtros o intervalos de fechas, seleccione varios componentes mediante `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras sostiene`[Shift]`**. Todos los tipos de componentes se tratan como filtros en este contexto.
-* Un solo filtro desplegable solo puede contener un solo tipo de componente. Si incluye varios tipos de componentes en la selección, se crea un filtro desplegable independiente por tipo de componente. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos filtros desplegables independientes. Un filtro desplegable incluye elementos de dimensión y el otro incluye métricas.
+* Para filtros desplegables que utilizan elementos de dimensión, haga clic en el icono de flecha derecha junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccione varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`; a continuación, suéltelos en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**.
+* Para filtros desplegables que utilizan otros componentes, como métricas, filtros o intervalos de fechas, seleccione varios componentes mediante `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**. Todos los tipos de componentes se tratan como filtros en este contexto.
+* Un solo filtro desplegable puede contener un solo tipo de componente. Si incluye varios tipos de componentes en la selección, se crea un filtro desplegable independiente por tipo de componente. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos filtros desplegables independientes. Un filtro desplegable incluye elementos de dimensión y el otro incluye métricas.
 
 Seleccione una de las opciones de la lista desplegable para cambiar los datos del panel. También puede optar por no filtrar ninguno de los datos del panel seleccionando **[!UICONTROL Sin filtro]**.
 
@@ -84,7 +84,7 @@ Seleccione una de las opciones de la lista desplegable para cambiar los datos de
 
 Al hacer clic con el botón derecho en un filtro desplegable, se proporcionan las siguientes opciones:
 
-* **[!UICONTROL Añadir etiqueta]**: Cuando se añade un filtro desplegable a un proyecto, se establece automáticamente una etiqueta en el nombre del componente. Si elimina la etiqueta, puede agregarla de nuevo con esta opción.
+* **[!UICONTROL Añadir etiqueta]**: cuando se añade un filtro desplegable a un proyecto, se establece automáticamente una etiqueta en el nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
 * **[!UICONTROL Eliminar etiqueta]**: elimine el texto situado encima de un filtro desplegable.
 * **[!UICONTROL Eliminar filtro desplegable]**: elimina el filtro desplegable del panel.
 
@@ -94,13 +94,13 @@ Al hacer clic con el botón derecho en un filtro desplegable, se proporcionan la
 
 Los filtros desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros filtros desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando las dimensiones Países y Ciudades. Al seleccionar un país de la lista desplegable UICONTROL Países, la lista desplegable Ciudades se ajusta dinámicamente para mostrar solo las ciudades de ese país.
 
-Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los filtros seleccionados del panel. Los elementos de Dimension seleccionados en los filtros desplegables estáticos afectan a los valores disponibles en los filtros desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de Dimension seleccionados en los filtros desplegables dinámicos no afectan a los valores disponibles en los filtros desplegables estáticos.
+Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los filtros seleccionados del panel. Los elementos de dimensión seleccionados en los filtros desplegables estáticos afectan a los valores disponibles en los filtros desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de dimensión seleccionados en los filtros desplegables dinámicos no afectan a los valores disponibles en los filtros desplegables estáticos.
 
-La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un filtro desplegable dinámico para que no contenga un valor, lo que permitirá que otros filtros desplegables dinámicos contengan más valores. Seleccionar **[!UICONTROL Restablecer todo]** para borrar la selección de todos los filtros desplegables de ese panel.
+La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un filtro desplegable dinámico para que no contenga un valor, lo que permitirá que otros filtros desplegables dinámicos contengan más valores. Seleccione **[!UICONTROL Restablecer todo]** para borrar la selección de todos los filtros desplegables de ese panel.
 
-Para crear un filtro desplegable dinámico:
+Para crear un filtro desplegable dinámico, haga lo siguiente:
 
-* Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras sostiene`[Shift]`**.
+* Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**.
 * Los filtros desplegables dinámicos no están disponibles para métricas, filtros o intervalos de fechas.
 * Haga clic con el botón derecho en un filtro desplegable y seleccione **[!UICONTROL Eliminar filtro]** para eliminarlo.
 
@@ -116,8 +116,8 @@ Las configuraciones disponibles son las siguientes:
 
 | Configuración | Descripción |
 | --- | --- |
-| [!UICONTROL Insertar panel copiado/visualización] | Permite pegar (&quot;insertar&quot;) un panel copiado o una visualización en otro lugar del proyecto, o en otro proyecto. |
-| [!UICONTROL Copiar panel] | Permite hacer clic con el botón derecho y copiar un panel para poder insertarlo en otro lugar del proyecto o en un proyecto diferente. |
+| [!UICONTROL Insertar panel copiado/visualización] | Permite pegar (“insertar”) un panel copiado o una visualización en otro lugar del proyecto, o en otro proyecto diferente. |
+| [!UICONTROL Copiar panel] | Permite hacer clic con el botón derecho y copiar un panel para poder insertarlo en otro lugar del proyecto o en un proyecto completamente diferente. |
 | [!UICONTROL Duplicar panel] | Crea un duplicado exacto del panel actual que podrá modificar a continuación. |
 | [!UICONTROL Contraer/expandir todos los paneles] | Contrae y expande todos los paneles del proyecto. |
 | [!UICONTROL Contraer/expandir todas las visualizaciones del panel] | Contrae y expande todas las visualizaciones del panel actual. |

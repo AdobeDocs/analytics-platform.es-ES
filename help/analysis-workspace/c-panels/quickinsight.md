@@ -5,9 +5,9 @@ feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Al empezar a usar [!UICONTROL Analysis Workspace], es posible que se pregunte qu
 
 Para ayudarle con esto, y en función del uso que haga su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace], [!UICONTROL Información rápida] utilizará un algoritmo que le presentará las dimensiones, métricas, filtros e intervalos de fechas más populares que utilice su compañía. De hecho, verá dimensiones, métricas y filtros etiquetados como [!UICONTROL Populares] en la lista desplegable, como se muestra a continuación:
 
-![El panel Quick Insights.](assets/popular-tag.png)
+![Panel de información rápida.](assets/popular-tag.png)
 
 [!UICONTROL Información rápida] le ayudará a lo siguiente:
 
@@ -46,9 +46,9 @@ A continuación se incluyen algunos de los términos básicos que debe conocer. 
 1. Inicie sesión en Customer Journey Analytics con las credenciales que se le han proporcionado.
 1. Vaya a [!UICONTROL Workspace], haga clic en **[!UICONTROL Crear nuevo proyecto]** y, a continuación, haga clic en **[!UICONTROL Información rápida]**. (También puede acceder a este panel desde el menú **[!UICONTROL Panel]** en el carril izquierdo).
 
-   ![La vista Todas las plantillas resalta la opción Quick Insights.](assets/qibuilder.png)
+   ![La vista Todas las plantillas resalta la opción de información rápida.](assets/qibuilder.png)
 
-   ![La lista Paneles resalta la opción Quick Insights.](assets/qi-panel.png)
+   ![La lista Paneles resalta la opción de información rápida.](assets/qi-panel.png)
 
 1. Cuando termine el inicio por primera vez, consulte el breve tutorial que le enseña algunos de los conceptos básicos del panel [!UICONTROL Información rápida]. O bien, haga clic en **[!UICONTROL Omitir tutorial]**.
 1. Seleccione los bloques de creación (también conocidos como componentes): dimensiones (naranja), métricas (verde), filtros (azul) o intervalos de fechas (púrpura) Debe seleccionar al menos una dimensión y una métrica para crear una tabla automáticamente.
@@ -80,13 +80,13 @@ En el [!UICONTROL Generador de información rápida], aparecerán otras sugerenc
 
 * En primer lugar, complete el tutorial **[!UICONTROL Más sugerencias]**: Acceda a ella a través de la Ayuda (?) junto al título de [!UICONTROL Información rápida]. Este tutorial se muestra 24 horas después de crear un proyecto con al menos una dimensión y una métrica.
 
-  ![La notificación del Panel de información rápida se muestra después de hacer clic en el icono Ayuda.](assets/qibuilder4.png)
+  ![La notificación del panel de información rápida se muestra después de hacer clic en el icono Ayuda.](assets/qibuilder4.png)
 
-* **Desglose por**: Puede usar hasta 3 niveles de desgloses en dimensiones para explorar en profundidad los datos que realmente necesita.
+* **Desglose por**: puede usar hasta tres niveles de desgloses en dimensiones para explorar en profundidad los datos que realmente necesita.
 
-  ![Subniveles de desglose.](assets/qibuilder5.png)
+  ![Número de desgloses.](assets/qibuilder5.png)
 
-* **Añadir más métricas**: Puede agregar hasta dos métricas más utilizando el operador AND para agregarlas a la tabla.
+* **Añadir más métricas**: puede agregar hasta dos métricas más utilizando el operador AND para agregarlas a la tabla.
 
   ![Varias métricas, incluidas Visitas y Dispositivos.](assets/qibuilder6.png)
 
@@ -98,7 +98,7 @@ En el [!UICONTROL Generador de información rápida], aparecerán otras sugerenc
 
 Si intenta editar directamente dentro de la tabla, el panel de [!UICONTROL Información rápida] no estará sincronizado. Puede restaurarla a la configuración anterior de [!UICONTROL Información rápida] haciendo clic en **[!UICONTROL Resincronizar generador]** en la parte superior derecha del panel.
 
-![El panel Quick Insights con la opción Resincronizar generador.](assets/qibuilder9.png)
+![El panel Información rápida con la opción Resincronizar generador.](assets/qibuilder9.png)
 
 Recibirá una advertencia antes de agregar cualquier cosa directamente a la tabla:
 

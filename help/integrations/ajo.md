@@ -1,13 +1,13 @@
 ---
 title: Integración de Adobe Journey Optimizer con Customer Journey Analytics
-description: Incorpore datos generados por Adobe Journey Optimizer y analícelos con Analysis Workspace en Customer Journey Analytics.
+description: Incorpore datos generados por Adobe Journey Optimizer y analícelos usando Analysis Workspace dentro de Customer Journey Analytics.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Adobe Experience Platform sirve como fuente de datos central y vínculo entre Jo
 
 ## Crear una conexión en Customer Journey Analytics
 
-Una vez que los datos de Journey Optimizer estén en Adobe Experience Platform, puede [Crear una conexión](/help/connections/create-connection.md) en función de sus conjuntos de datos de Journey Optimizer. O puede agregar conjuntos de datos de Journey Optimizer a una conexión existente.
+Una vez que los datos de Journey Optimizer están en Adobe Experience Platform, puede [Crear una conexión](/help/connections/create-connection.md) en función de su conjunto de datos de Journey Optimizer. O puede agregar conjuntos de datos de Journey Optimizer a una conexión existente.
 
 Seleccione y configure los siguientes conjuntos de datos:
 
 | Conjunto de datos | Tipo de conjunto de datos | Configuración de la conexión | Descripción |
 | --- | --- | --- | --- |
-| Conjunto de datos de evento de comentarios de mensajes AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de envío de mensajes, como &#39;[!UICONTROL Envíos]&#39; y &#39;[!UICONTROL Devoluciones]&#39;. |
-| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento de correo electrónico como &#39;[!UICONTROL Aperturas]&#39;, &#39;[!UICONTROL Clics]&#39;, y &#39;[!UICONTROL Cancela la suscripción]&#39;. |
-| Conjunto de datos de evento de experiencia de seguimiento push AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push como &#39;[!UICONTROL Lanzamientos de aplicaciones]&#39;. |
+| Conjunto de datos de evento de comentarios de mensajes AJO | Evento | ID de la persona: `IdentityMap` | Contiene eventos de envío de mensajes, como “[!UICONTROL Envíos]” y “[!UICONTROL Devoluciones]”. |
+| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento de correo electrónico como “[!UICONTROL Aperturas]”, “[!UICONTROL Clics]” y “[!UICONTROL Cancela la suscripción]”. |
+| Conjunto de datos de evento de experiencia de seguimiento push AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push como “[!UICONTROL Lanzamientos de aplicaciones]”. |
 | Eventos de paso de recorrido | Evento | ID de persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventos que muestran qué perfiles participaron en cada nodo del recorrido. |
-| Conjunto de datos de entidad AJO | Búsqueda | Clave: `_id`<br>Clave de coincidencia: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene clasificaciones que asocian metadatos de Recorridos y campañas a todos los datos de eventos de Adobe Journey Optimizer. |
+| Conjunto de datos de entidad de AJO | Búsqueda | Clave: `_id`<br>Clave de coincidencia: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene clasificaciones que asocian metadatos de Recorridos y campañas a todos los datos de eventos de Adobe Journey Optimizer. |
 
 {style="table-layout:auto"}
 
@@ -44,7 +44,7 @@ Después de crear una conexión, puede crear una o más [Vistas de datos](/help/
 
 >[!NOTE]
 >
->Las discrepancias de datos entre Adobe Journey Optimizer y Customer Journey Analytics suelen ser inferiores al 1-2 %. Es posible que las discrepancias sean mayores cuando los datos se hayan recopilado en las dos últimas horas. Utilice intervalos de fechas que excluyan hoy para mitigar las discrepancias que implican tiempo de procesamiento.
+>Las discrepancias de datos entre Adobe Journey Optimizer y Customer Journey Analytics suelen ser inferiores al 1-2 %. Es posible que las discrepancias sean mayores cuando los datos se hayan recopilado en las dos últimas horas. Utilice intervalos de fechas que excluyan hoy para mitigar las discrepancias que implican tiempo de procesamiento.
 
 
 ### Configuración de dimensiones en la vista de datos
@@ -76,7 +76,7 @@ Puede crear las métricas siguientes en una vista de datos para lograr una parid
 
 | Métrica | Descripción | Elemento de esquema | Configuración de componentes |
 | --- | --- | --- | --- |
-| Devoluciones | El número de mensajes que se rebotaron, incluidos los rechazos inmediatos y los rechazos después de la entrega. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir excluir valores: Si se cumplen algunos criterios<br>Igual a: `bounce`, Igual a: `denylist` |
+| Rechazos | El número de mensajes que se rebotaron, incluidos los rechazos inmediatos y los rechazos después de la entrega. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir excluir valores: Si se cumplen algunos criterios<br>Igual a: `bounce`, Igual a: `denylist` |
 | Devoluciones después de la entrega | Algunos servicios de correo electrónico informan de correos electrónicos entregados y luego los devuelven. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `async` |
 | Clics en correos electrónicos | El recuento de clics dentro de los mensajes. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `click` |
 | Aperturas de correo electrónico | El número de mensajes abiertos. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `open` |
@@ -84,12 +84,12 @@ Puede crear las métricas siguientes en una vista de datos para lograr una parid
 | Excluye | El número de mensajes excluidos. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `exclude` |
 | Enviados | Número de mensajes aceptados por los proveedores de correo electrónico. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `sent` |
 | Reclamaciones por correo no deseado | Recuento de quejas por correo no deseado. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `spam_complaint` |
-| Cancelación de suscripción | El número de bajas. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `unsubscribe` |
-| Edge Sends | Número de veces que la red perimetral envía un mensaje al SDK web o móvil | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.send` |
+| Cancelaciones de suscripción | El número de cancelaciones de suscripción. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `unsubscribe` |
+| Envíos de Edge | Número de veces que la red perimetral envía un mensaje al SDK web o móvil | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.send` |
 | Pantallas entrantes | El número de veces que se muestra un mensaje web o de aplicación al usuario | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.display` |
 | Clics entrantes | Recuento de clics en mensajes web o en la aplicación | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.interact` |
-| Déclencheur en la aplicación | El número de veces que el motor de decisión sugirió que se mostrara el mensaje. El SDK móvil podría anular la decisión de reducir el número de pantallas reales. | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.trigger` |
-| Revocaciones en la aplicación | El número de veces que el SDK elimina un mensaje de aplicación de la interfaz de usuario | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.dismiss` |
+| Activadores en la aplicación | El número de veces que el motor de decisión sugirió que se mostrara el mensaje. El SDK móvil podría anular la decisión de reducir el número de pantallas reales. | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.trigger` |
+| Revocaciones en la aplicación | El número de veces que el SDK elimina un mensaje de aplicación de la IU | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.dismiss` |
 
 {style="table-layout:auto"}
 

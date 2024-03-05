@@ -6,9 +6,9 @@ feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,21 +29,21 @@ Para obtener información sobre la creación de anotaciones, consulte [Crear ano
 
 1. Seleccione **[!UICONTROL Mostrar anotaciones]** para mostrar la anotación en los cuadros de resultados móviles.
 
-   ![Opciones de anotaciones móviles para cuadros de resultados.](assets/show-annotations.png)
+   ![Opciones de anotaciones para móviles para cuadros de resultados.](assets/show-annotations.png)
 
 1. Confirme que la opción mostrar anotaciones esté seleccionada y vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**.
 
-   ![Opciones de anotaciones móviles para la información y la configuración del proyecto que resaltan la opción Mostrar anotaciones.](assets/project-info-settings.png)
+   ![Opciones de anotaciones para móviles para la información y la configuración del proyecto que resaltan la opción Mostrar anotaciones.](assets/project-info-settings.png)
 
 ## Ver anotaciones en cuadros de resultados móviles
 
 Cuando las anotaciones están activadas, los iconos de anotación se pueden ver en el Generador de cuadros de resultados. Las anotaciones solo aparecen en los gráficos y tablas de la vista detallada. Las anotaciones no están visibles desde la vista de mosaico principal del cuadro de resultados.
 
-![Generador de cuadros de resultados que resalta los iconos de anotación.](assets/view-annotations.png)
+![Creador de cuadros de resultados que resalta los iconos de anotación.](assets/view-annotations.png)
 
-Cuando los iconos de anotación están visibles, no se puede ver ni interactuar con las anotaciones en el lienzo del generador. Utilice el modo de vista previa para ver e interactuar con anotaciones tal y como aparecen en la aplicación. ![Icono de previsualización](assets/preview-icon.png)
+Cuando los iconos de anotación están visibles, no se puede ver ni interactuar con las anotaciones en el lienzo del generador. Utilice el modo de vista previa para ver e interactuar con anotaciones tal y como aparecen en la aplicación. ![Icono de vista previa](assets/preview-icon.png)
 
-Los colores de anotación se seleccionan cuando la anotación se crea en el espacio de trabajo. Las anotaciones grises indicaban la presencia de más de una anotación. ![Iconos de anotación](assets/gray-annotations1.png) ![Cuadro de resultados móvil con el icono de anotación resaltado.](assets/gray-annotations2.png)
+Los colores de anotación se seleccionan cuando la anotación se crea en el espacio de trabajo. Las anotaciones grises indicaban la presencia de más de una anotación. ![Iconos de anotación](assets/gray-annotations1.png) ![Cuadro de resultados para móviles con el icono de anotación resaltado.](assets/gray-annotations2.png)
 
 ## Ver anotaciones de gráfico
 

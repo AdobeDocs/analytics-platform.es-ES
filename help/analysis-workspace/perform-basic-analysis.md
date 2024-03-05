@@ -6,9 +6,9 @@ exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ A continuación, verá un ejemplo de visualizaciones básicas el Espacio de trab
 
 * Indique el tamaño de la audiencia según las fuentes de datos, como los datos de impresiones de publicidad, los datos de Customer Journey Analytics, los datos de correo electrónico, del POS, del centro de llamadas y de las encuestas.
 
-![Visualizaciones de ejemplo de gráficos básicos de análisis. ](assets/cja-basic-analysis.png)
+![Ejemplos de visualización de gráficos de análisis básicos. ](assets/cja-basic-analysis.png)
 
 ![Más ejemplos de visualizaciones de gráficos de análisis básicos](assets/cja-basic-analysis2.png)

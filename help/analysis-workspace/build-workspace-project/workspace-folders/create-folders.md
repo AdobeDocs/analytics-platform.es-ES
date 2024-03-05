@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Para crear una nueva carpeta,
 
    La nueva carpeta se añade en la lista principal de proyectos y carpetas.
 
-   ![La página de aterrizaje Proyectos muestra la lista actualizada de proyectos y carpetas.](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
+   ![La página de aterrizaje Proyectos que muestra la lista actualizada de proyectos y carpetas.](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
 ## Creación de una subcarpeta {#create-subfolder}
 
@@ -44,11 +44,11 @@ Para crear una subcarpeta cuando tenga una carpeta existente abierta,
 
 1. Haga clic en **Crear una nueva carpeta**.
 
-   ![Haga clic en Crear una carpeta nueva.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+   ![Haga clic en Crear una nueva carpeta.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
 1. Introduzca un nombre de subcarpeta y agregue las etiquetas necesarias.
 
-   ![La ventana Crear nueva carpeta con el nuevo campo Nombre y Etiquetas.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+   ![Ventana Crear nueva carpeta con el nuevo nombre y el campo Etiquetas.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
 
 1. Haga clic en **Crear**.
 
@@ -58,6 +58,6 @@ Para crear una subcarpeta cuando tenga una carpeta existente abierta,
 
    >[!NOTE]
    >
-   >Puede crear hasta 10 niveles de subcarpetas en una sola carpeta.
+   >Puede crear hasta 10 niveles de subcarpetas en una sola.
 
    ![La lista desplegable de carpetas muestra todas las subcarpetas de la carpeta.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)

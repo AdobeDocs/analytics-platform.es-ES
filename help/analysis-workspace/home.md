@@ -1,19 +1,19 @@
 ---
 keywords: Analysis Workspace
-title: Información general de Analysis Workspace
+title: Información general sobre Analysis Workspace
 description: Información general sobre las capacidades de Analysis Workspace
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Información general de Analysis Workspace
+# Información general sobre Analysis Workspace
 
 Analysis Workspace le permite crear análisis rápidamente para recopilar información y luego compartirlas con otros. Mediante la interfaz del explorador arrastrar y soltar, puede crear su análisis, añadir visualizaciones para que los datos cobren vida, depurar un conjunto de datos, compartir y programar proyectos con cualquier persona de su organización.
 
@@ -25,14 +25,14 @@ El siguiente vídeo proporciona una breve descripción general con ejemplos de l
 
 En la siguiente imagen y en la tabla adjunta se explican algunas de las áreas principales de Analysis Workspace:
 
-![Ventana de Analysis Workspace que resalta el carril del extremo izquierdo y izquierdo, el lienzo y el menú desplegable de vista de datos.](assets/analysis-workspace-overvew.png)
+![Ventana de Analysis Workspace que resalta el extremo y el carril izquierdo, el lienzo y el menú desplegable de vista de datos.](assets/analysis-workspace-overvew.png)
 
 | Ubicación en la imagen | Nombre y función |
 |---------|----------|
 | A | **Carril extremo izquierdo:** contiene pestañas para añadir paneles, visualizaciones y componentes a Analysis Workspace. También contiene el icono de Diccionario de datos que se utiliza para abrir el diccionario de datos. |
 | B | **Carril izquierdo:** en función de la pestaña seleccionada en el carril del extremo izquierdo, esta área contiene paneles, visualizaciones o componentes individuales. |
 | C | **Lienzo:** es el área principal donde se arrastra contenido desde los carriles izquierdos para crear el proyecto. El proyecto se actualiza dinámicamente a medida que se añaden paneles, visualizaciones y componentes al lienzo. |
-| D | **Menú desplegable de vista de datos:** Para cada panel de Analysis Workspace, el menú desplegable de vista de datos le permite elegir la vista de datos que desea utilizar como fuente de datos. |
+| D | **Menú desplegable de vista de datos:** para cada panel de Analysis Workspace, el menú desplegable de vista de datos le permite elegir la vista de datos que desea utilizar como fuente de datos. |
 
 ## Funciones de Analysis Workspace {#analysis}
 

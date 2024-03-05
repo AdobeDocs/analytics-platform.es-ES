@@ -5,9 +5,9 @@ feature: Anomaly Detection
 exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 

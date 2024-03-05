@@ -5,9 +5,9 @@ feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ El administrador [!UICONTROL Anotaciones] le muestra todas las anotaciones que p
 
 ## Interfaz de usuario del Administrador de anotaciones
 
-![Las opciones de anotaciones, como compartir, etiquetar o copiar, que se describen en la siguiente sección.](assets/annotation-mgr.png)
+![Las opciones de anotaciones, como compartir, etiquetar o copiar, se describen en la siguiente sección.](assets/annotation-mgr.png)
 
 | Elemento de la IU | Descripción |
 | --- | --- | 
 | [!UICONTROL Título y descripción] | Aparecen en el Generador de anotaciones. Para editar el título y la descripción, haga clic en el vínculo del título. Se le redirigirá al Generador de anotaciones. |
-| [!UICONTROL Vista de datos] | Las vistas de datos a las que se aplica esta anotación. |
+| [!UICONTROL Vista de los datos] | Las vistas de datos a las que se aplica esta anotación. |
 | [!UICONTROL Propietario] | Indica a quién pertenece la anotación. Si no es el administrador, solo podrá ver las anotaciones que le pertenecen o que se han compartido con usted. |
 | [!UICONTROL Intervalo de fecha aplicado] | La fecha o el intervalo de fechas al que se aplica esta anotación. |
 | [!UICONTROL Compartido con] | Indica cuántos individuos o grupos han compartido la anotación. Haga clic para ver más detalles. |
@@ -58,7 +58,7 @@ Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con us
 
 ## Anotaciones y zonas horarias
 
-Todas las anotaciones se crean con una marca de tiempo, pero no con información de “hora” o “zona horaria”. En el momento del informe, siempre se aplica la zona horaria de la vista de datos del panel. Por lo tanto, una anotación creada para Navidad se produce el 25 de diciembre, sin importar la zona horaria de vista de datos en la que se encuentre.
+Todas las anotaciones se crean con una marca de tiempo, pero no con información de “hora” o “zona horaria”. En el momento del informe, siempre se aplica la zona horaria de la vista de datos del panel. Por lo tanto, una anotación creada para el día de Navidad se produce el 25 de diciembre, sin importar la zona horaria de la vista de datos en la que se encuentre.
 
 Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 22:00, hora de las montañas de EE. UU., la costa este de EE. UU. está preparando los fuegos artificiales porque ya son las 00:00 en el este.
 
@@ -71,7 +71,7 @@ Solo tiene que seleccionar una o varias anotaciones y aparecerá la barra de tar
 | Tarea | Descripción |
 | --- | --- |
 | Agregar | Le lleva al Generador de anotaciones, donde puede crear nuevas anotaciones. |
-| Etiqueta | Todos los usuarios pueden crear etiquetas para las anotaciones y aplicar una o más a una anotación. Sin embargo, solo verá las etiquetas de los filtros que sean suyos. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:<ul><li>Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil</li><li>Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada</li><li>Etiquetas de categorías: Para hombres o Área geográfica</li><li>Etiquetas de flujo de trabajo: Revisado para (unidad comercial específica); Aprobado</li></ul> |
+| Etiqueta | Todos los usuarios pueden crear etiquetas para las anotaciones y aplicar una o más a una anotación. Sin embargo, solo puede ver las etiquetas de estos filtros que posee. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:<ul><li>Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil</li><li>Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada</li><li>Etiquetas de categorías: Para hombres o Área geográfica</li><li>Etiquetas de flujo de trabajo: Revisado para (unidad comercial específica); Aprobado</li></ul> |
 | Eliminar | Al eliminar una anotación, esta se elimina de cualquier proyecto de su organización. |
 | Cambiar nombre | Al cambiar el nombre de una anotación, se le cambia el nombre en todos los proyectos a los que se ha aplicado. |
 | Copiar | Crea una copia distinta con su nuevo ID de anotación, pero con el mismo nombre y definición. |
