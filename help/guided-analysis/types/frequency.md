@@ -1,14 +1,14 @@
 ---
 title: Vista de frecuencia
-description: Mida la participación por frecuencia de uso.
-feature: Guided Analysis
-keywords: análisis de productos
+description: Mida la participación en función de la frecuencia de uso.
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ El carril de consulta permite configurar los siguientes componentes:
 * **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Uso](usage.md).
 * **[!UICONTROL Eventos]**: los eventos que desea medir. Cada evento seleccionado se representa como un gráfico independiente. Se agrega a la tabla una fila que representa el evento de tendencias. Se pueden incluir hasta cinco eventos.
 * **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Usuarios],  [!UICONTROL Sesiones],  [!UICONTROL Porcentaje de usuarios] y  [!UICONTROL Porcentaje de sesiones]. El denominador de las métricas basadas en porcentajes en esta vista son los usuarios o las sesiones que realizaron los eventos seleccionados, no todos los usuarios activos del producto.
-* **[!UICONTROL Segmentos]**: Los segmentos que desea medir. Cada segmento seleccionado duplica el número de barras del gráfico y las filas de la tabla. Se pueden incluir hasta cinco segmentos.
+* **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado duplica el número de barras del gráfico y las filas de la tabla. Se pueden incluir hasta cinco segmentos.
 
 ## Ajustes del gráfico
 

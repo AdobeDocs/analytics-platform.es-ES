@@ -1,14 +1,14 @@
 ---
 title: Vista de crecimiento neto
 description: ¿Está ganando o perdiendo usuarios?
-feature: Guided Analysis
-keywords: análisis de productos
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 

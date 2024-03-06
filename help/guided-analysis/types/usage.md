@@ -1,14 +1,14 @@
 ---
 title: Vista de uso
-description: Mida la participación del usuario con el tiempo.
+description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
-feature: Guided Analysis
-keywords: análisis de productos
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 role: User
-source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ El carril de consulta permite configurar los siguientes componentes:
 * **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Frecuencia](frequency.md).
 * **[!UICONTROL Eventos y métricas]**: Los eventos o métricas que desea medir. Cada selección se representa como una serie de gráficos y una fila de tabla. Los eventos y las métricas no se pueden combinar en la consulta. Una vez que haya realizado la primera selección, las selecciones de consulta restantes deben ser del mismo tipo. Puede incluir hasta cinco selecciones.
 * **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen Eventos, Sesiones, Usuarios, Porcentaje de usuarios, Eventos por sesión y Eventos por usuario. Las opciones Contadas como solo son aplicables a las consultas de evento y se eliminan para las consultas de métricas.
-* **[!UICONTROL Segmentos]**: Los segmentos que desea medir. Cada segmento seleccionado duplica el número de series de gráficos y filas de tabla. Se pueden incluir hasta cinco segmentos.
+* **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado duplica el número de series de gráficos y filas de tabla. Se pueden incluir hasta cinco segmentos.
 * **[!UICONTROL Desglose de propiedad]**: desglosa la serie de gráficos y las filas de tabla por los valores de la propiedad seleccionada. Se admite una sola propiedad de desglose. Los 20 valores principales aparecen en la tabla y se pueden ver hasta diez valores en el gráfico. Puede ocultar o exponer una fila del gráfico alternando la opción ![Mostrar icono de ocultar](../assets/hide-in-chart.png) icono.
 
 ## Ajustes del gráfico

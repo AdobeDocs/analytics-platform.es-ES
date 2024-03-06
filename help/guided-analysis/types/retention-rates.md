@@ -1,14 +1,14 @@
 ---
 title: Tasas de retención
 description: Mida cuántos usuarios siguen usando el producto.
-feature: Guided Analysis
-keywords: análisis de productos
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -45,7 +45,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Evento de inicio y retorno]**: los criterios de evento con los que debe interactuar un usuario para cumplir los requisitos de inclusión en el análisis. Se admite un evento, pero puede incluir filtros de propiedad.
 * **[!UICONTROL Contabilizado como]**: Método de contabilización que desea aplicar a los usuarios retenidos. Las opciones incluyen [!UICONTROL Usuarios retenidos] y [!UICONTROL Porcentaje de usuarios retenidos].
-* **[!UICONTROL Segmentos]**: Los segmentos que desea medir. Cada segmento seleccionado agrega una fila a la tabla de cohorte. Se pueden incluir hasta tres segmentos.
+* **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado agrega una fila a la tabla de cohorte. Se pueden incluir hasta tres segmentos.
 
 ## Ajustes del gráfico
 

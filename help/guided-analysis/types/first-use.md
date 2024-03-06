@@ -1,14 +1,14 @@
 ---
 title: Vista de primer uso
-description: Mida el impacto del uso de la primera función en los indicadores clave.
-feature: Guided Analysis
-keywords: análisis de productos
+description: Mida el impacto del uso de funciones por primera vez en indicadores clave.
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
