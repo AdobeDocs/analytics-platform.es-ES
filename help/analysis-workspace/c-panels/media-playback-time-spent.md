@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 1c9f3d1de499eda5aeeb4e6763871c8a2e7d075d
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 71%
+source-wordcount: '932'
+ht-degree: 67%
 
 ---
 
@@ -50,7 +50,7 @@ Puede configurar el panel Tiempo invertido en la reproducción de contenido con 
 | Granularidad | El valor predeterminado de granularidad es Minuto.<br>Esta visualización está limitada a 1440 filas de datos (por ejemplo, 24 horas con una granularidad por minuto). Si la combinación de intervalo de fechas y granularidad genera más de 1440 filas, la granularidad se actualiza automáticamente para dar cabida al intervalo de fechas completo. |
 | Números de resumen del panel | Para ver los detalles de fecha y hora del tiempo invertido en la reproducción, hay disponible un número de resumen. El Máximo muestra detalles para la concurrencia máxima. El Mínimo muestra los detalles de la emisión. Suma recoge el tiempo total de reproducción invertido para la selección. El panel predeterminado muestra Máximo solamente, pero puede cambiarlo para mostrar Mínimo, Suma o cualquier combinación de los tres.<br>Si utiliza desgloses, se muestra un número de resumen para cada uno. |
 | Desglose de serie | De forma opcional, puede desglosar la visualización por filtros, dimensiones, elementos de dimensión o intervalos de fechas.<p>: Puede ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel.</p><p>: Al arrastrar una dimensión, los elementos de dimensión principales se seleccionarán automáticamente en función del intervalo de fechas del panel seleccionado.</p>: Para comparar intervalos de fechas, arrastre 2 o más intervalos de fechas al filtro de desglose de series. |
-| Formato de hora | Puede ver el tiempo de reproducción transcurrido en horas:Minutes:segundos (predeterminado) o en minutos (que se muestra en números enteros redondeados a 0,5). |
+| Formato de hora | Puede ver el tiempo de reproducción empleado en `Hours:Minutes:Seconds` (predeterminado) o en `Minutes` (que se muestra en números enteros redondeados a 0,5). |
 | Visualización de la secuencia de fechas | Si ha colocado al menos dos filtros de intervalo de fechas como desgloses de serie, verá la opción para seleccionar superposición (predeterminada) o secuencial. La superposición mostrará las líneas con un inicio común del eje x para que se ejecuten en paralelo, mientras que la secuencial mostrará las líneas con su inicio específico del eje x. Si los datos se alinean (por ejemplo, el filtro 1 termina a las 8:44 p. m. y el filtro 2 comienza a las 8:45 p. m.), las líneas se mostrarán en secuencia. |
 
 ## Vista predeterminada
@@ -73,7 +73,7 @@ La única métrica que se puede usar en este panel es Tiempo invertido en la rep
 
 | Métrica | Descripción |
 |---|---|
-| Tiempo invertido en la reproducción | Total de horas:minutes:segundos (o minutos) de contenido visualizado durante la granularidad seleccionada, incluyendo pausas, búfer y tiempo para el inicio. |
+| Tiempo invertido en la reproducción | Total `hours:minutes:seconds` (o `minutes`) de contenido visualizado durante la granularidad seleccionada, incluida la pausa, el búfer y el tiempo para el inicio. |
 
 ## Preguntas frecuentes
 
