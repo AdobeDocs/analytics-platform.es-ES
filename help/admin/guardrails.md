@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: b945ae10d9107a760e32f5d111e5c14724898646
+source-git-commit: d6837178bccc1a80130ec3fc282d2b44858d06b1
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 8%
@@ -81,7 +81,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 
 {style="table-layout:auto"}
 
-Consulte también Experience Platform [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/Guardrails.html?lang=en).
+Consulte también Experience Platform [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en).
 
 
 ## Caducidad automatizada del conjunto de datos
@@ -126,7 +126,7 @@ Consulte también Experience Platform [Protecciones de Real-time Customer Data P
 
 {style="table-layout:auto"}
 
-Consulte también Experience Platform [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html?lang=en).
+Consulte también Experience Platform [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en).
 
 
 ## Zona de aterrizaje de datos
