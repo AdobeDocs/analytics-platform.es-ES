@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 42232ff87ee822ceccf624ad8655c2dce8776814
 workflow-type: tm+mt
 source-wordcount: '2766'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -26,16 +26,16 @@ La experiencia de flujo de trabajo de creación y edición de conexiones reúne 
 
 ## Requisitos previos
 
-El número máximo de conjuntos de datos que puede agregar a una conexión está limitado a 100. La combinación depende del paquete de Customer Journey Analytics que haya adquirido su empresa.
+El número máximo de conjuntos de datos que puede agregar a una conexión está limitado a 100. La combinación depende del paquete de Customer Journey Analytics que haya adquirido su compañía.
 
-| **Seleccionar** paquete | **Foundation** paquete |
+| Paquete **Seleccionar** | Paquete de **Foundation** |
 | --- | --- |
 | Cualquier combinación de conjuntos de datos de evento/perfil/búsqueda, que suman 100 | Un conjunto de datos de evento por conexión |
 |  | Hasta 99 conjuntos de datos de perfil o búsqueda por conexión |
 
 {style="table-layout:auto"}
 
-Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene&#x200B;
+Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
 ## Creación y configuración de la conexión {#create-connection}
 
@@ -61,7 +61,7 @@ Póngase en contacto con el administrador si no está seguro del paquete de Cust
    | **[!UICONTROL Clave]** | Solo para conjuntos de datos de búsqueda (como _id). |
    | **[!UICONTROL Clave de coincidencia]** | Solo para conjuntos de datos de búsqueda (como _id). |
    | **[!UICONTROL Importar datos nuevos]** | Establézcalo en Activado o Desactivado. |
-   | **[!UICONTROL Datos de relleno]** | Puede solicitar rellenar los datos en un conjunto de datos en función de marcas de tiempo de evento. Por ejemplo, puede solicitar que se rellenen los datos de los últimos 7 días, configurar el ID de persona correcto y probar la conexión para obtener la configuración correcta. Si todo parece correcto, puede rellenar fácilmente todos los datos restantes.<p>Además, puede habilitar la importación de nuevos datos por conjunto de datos. |
+   | **[!UICONTROL Datos de relleno]** | Puede solicitar rellenar los datos en un conjunto de datos en función de marcas de tiempo de evento. Por ejemplo, puede solicitar que se rellenen los datos de los últimos 7 días, configurar el ID de persona correcto y probar la conexión para obtener la configuración correcta. Si todo parece correcto, puede rellenar fácilmente todos los datos restantes.<p>Además, puede habilitar la importación de nuevos datos por el conjunto de datos.  |
    | **[!UICONTROL Estado de relleno]** | Indica si se están procesando datos de relleno. |
 
    {style="table-layout:auto"}
