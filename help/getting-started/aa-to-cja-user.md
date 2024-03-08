@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 9314aae4c62e5c7a21495beeea0a5d69c6e113a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Con esta flexibilidad, puede encontrarse con situaciones en las que un solo camp
 
 ## Cambios en el concepto de segmentos
 
-Aunque técnicamente los segmentos no se migran de Adobe Analytics a Customer Journey Analytics, puede utilizar la herramienta de migración de componentes para volver a crear los segmentos de Adobe Analytics en Customer Journey Analytics. Los segmentos se vuelven a crear en Customer Journey Analytics en función de las dimensiones y métricas asignadas. Para obtener más información, consulte [Preparación para migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=es).
+Aunque técnicamente los segmentos no se migran de Adobe Analytics a Customer Journey Analytics, puede utilizar la herramienta de migración de componentes para volver a crear los segmentos de Adobe Analytics en Customer Journey Analytics. Los segmentos se vuelven a crear en Customer Journey Analytics en función de las dimensiones y métricas asignadas. Para obtener más información, consulte [prepárese para migrar los componentes y proyectos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=es).
 
 Aunque todavía no puede compartir ni publicar [!UICONTROL filtros] ([!UICONTROL segmentos]) desde [!DNL Customer Journey Analytics] al perfil unificado de Experience Platform, esta funcionalidad está en desarrollo.
 

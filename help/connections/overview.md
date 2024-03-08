@@ -6,9 +6,9 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
 source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 

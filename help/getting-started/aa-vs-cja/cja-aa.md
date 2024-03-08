@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 2ed8f4c3768312bb8f6c108ef8b8b052acbfa574
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2032'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | --- | --- |
 | Detección de anomalías | Compatibilidad total |
 | Attribution IQ | Compatibilidad total |
-| Detección de bots | *¡Muy pronto!* Para [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es)Conjuntos de datos basados en, se aplica el filtrado de bots. La lógica general de detección de bots para otros conjuntos de datos la realiza [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=en). |
+| Detección de bots | *Próximamente* En el caso de los conjuntos de datos basados en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es), se aplica el filtrado de bots. La lógica general de filtrado de bots para otros conjuntos de datos la realiza [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=es). |
 | Métricas calculadas  | Compatibilidad total. Las métricas calculadas existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
 | Eventos de calendario | Compatibilidad total. Los eventos de calendario se han implementado como [Anotaciones](/help/components/annotations/overview.md) en Workspace. |
 | Descarga de CSV | Compatibilidad total |
@@ -30,11 +30,11 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Comparaciones de fechas | Compatibilidad total |
 | Intervalos de fechas | Se admite toda la funcionalidad de intervalo de fechas. |
 | Dimensiones | Compatibilidad total. Customer Journey Analytics utiliza XDM y admite dimensiones ilimitadas. Customer Journey Analytics no está vinculado a las eVars o props personalizadas de Adobe Analytics tradicional. |
-| Eliminación de RGPD | Compatibilidad total. Tenga en cuenta que el RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics hereda los cambios de datos que [!UICONTROL Experience Platform] genera en los conjuntos de datos subyacentes. |
-| Creación de informes de alza y confianza | Compatibilidad total mediante [Panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md) |
+| Eliminación de RGPD | Compatibilidad total; tenga en cuenta que RGPD ahora se gestiona en coordinación con [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics hereda los cambios de datos que [!UICONTROL Experience Platform] genera en los conjuntos de datos subyacentes. |
+| Creación de informes de alza y confianza | Compatibilidad total a través del [panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md) |
 | Variables de lista/Propiedades de lista | Compatibilidad total. Customer Journey Analytics aprovecha XDM y admite matrices de cadenas ilimitadas que pueden utilizarse de manera similar a listVars. |
-| eVars de comercialización | Compatibilidad total mediante [dimensiones de enlace y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) |
-| Métricas | Compatibilidad total. Customer Journey Analytics utiliza el Experience Data Model (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Adobe Analytics. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Adobe Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
+| eVars de comercialización | Compatibilidad total a través de [dimensiones de enlace y métricas de enlace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=es#binding-dimension) |
+| Métricas | Compatibilidad total; Customer Journey Analytic emplea el Modelo de datos de experiencia (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Adobe Analytics. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Adobe Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
 | Migración de proyectos, filtros y métricas calculadas de Adobe Analytics a Customer Journey Analytics | Compatibilidad total. |
 | Paneles y cuadros de resultados para móviles | Compatibilidad total |
 | Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. |
@@ -77,7 +77,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Uso compartido de proyectos | El uso compartido de proyectos solo es compatible entre los usuarios de Customer Journey Analytics; no existe el uso compartido de proyectos entre Customer Journey Analytics y la versión tradicional de Analysis Workspace. |
 | Report Builder | Compatible con un nuevo complemento de Office 365 para Excel. |
 | Permisos de usuario/Controles de acceso de datos | Customer Journey Analytics distingue entre administradores de productos, administradores de perfiles de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es). Solo los administradores de productos pueden crear, actualizar o eliminar conexiones, proyectos, filtros o métricas calculadas creados por otros usuarios, mientras que los administradores de productos y los administradores de perfiles de productos pueden editar las vistas de datos. Hay disponibles permisos de usuario adicionales para tareas como crear métricas calculadas, filtros o anotaciones. |
-| Visualizaciones | Todas las visualizaciones de Workspace son compatibles, excepto la visualización de Mapa. |
+| Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
 | Vinculación entre dispositivos y canales | Compatible con conjuntos de datos que contienen información de identidad directamente (también conocida como vinculación “basada en campos”). La vinculación basada en gráficos aún no es compatible, pero está programada. Consulte [Vinculación](../../stitching/overview.md). |
 
 {style="table-layout:auto"}
