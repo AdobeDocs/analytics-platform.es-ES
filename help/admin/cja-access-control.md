@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 52%
@@ -57,7 +57,7 @@ Además de agregarse como Administrador de productos en la **Perfil de producto 
 
      Para obtener más información sobre los permisos de Experience Platform, consulte [Control de acceso en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es).
 
-* Exportar conjuntos de datos a la nube [Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es)
+* Exportar conjuntos de datos a la nube [Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)
 
   >[!AVAILABILITY]
   >
@@ -67,7 +67,7 @@ Además de agregarse como Administrador de productos en la **Perfil de producto 
    * Administrar destinos
    * Activar destinos
 
-     Para obtener más información sobre los permisos de Destinos de Experience Platform, consulte [Resumen de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls).
+     Para obtener más información sobre los permisos de Destinos de Experience Platform, consulte [Resumen de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html#access-controls).
 
 ## Función Administrador de perfil de producto
 
@@ -146,7 +146,7 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil de producto en 
 | **[!UICONTROL Creación de anotaciones]** | Permite que los usuarios creen [anotaciones](/help/components/annotations/overview.md). |
 | **[!UICONTROL Creación de audiencias]** | Permite que los usuarios creen [audiencias](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Visualización de audiencias]** | Permite que los usuarios vean [audiencias](/help/components/audiences/audiences-overview.md). |
-| [!UICONTROL **Compartir Vínculos Del Proyecto Con Cualquiera**] | Permite a los usuarios [comparta proyectos con cualquiera.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=es#share-public-link) |
+| [!UICONTROL **Compartir Vínculos Del Proyecto Con Cualquiera**] | Permite a los usuarios [comparta proyectos con cualquiera.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html#share-public-link) |
 | **[!UICONTROL Herramientas de vista de datos]**: |   |
 | [!UICONTROL **Exportación de tabla completa**] | Permite a los usuarios [exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md). |
 | [!UICONTROL **Acceso a SQL Query Service**] | Permite que los usuarios accedan [Servicio de consultas en AEP](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es). |

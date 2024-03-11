@@ -4,16 +4,16 @@ description: Descubra cómo las etiquetas y políticas de datos definidas en Ado
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
-workflow-type: ht
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Etiquetas y políticas
 
-Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas del uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es) para algunos o todos los elementos del conjunto de datos. Puede ver estas etiquetas y políticas en Customer Journey Analytics.
+Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas del uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html) para algunos o todos los elementos del conjunto de datos. Puede ver estas etiquetas y políticas en Customer Journey Analytics.
 
 Las siguientes etiquetas son de especial interés para Customer Journey Analytics:
 
@@ -25,7 +25,7 @@ Las siguientes etiquetas son de especial interés para Customer Journey Analytic
 >
 >Las etiquetas del uso de datos no se propagan automáticamente a los conjuntos de datos vinculados. Sin embargo, se pueden añadir manualmente.
 
-El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso sirven las políticas. Las políticas se crean mediante la [IU de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es) o la [API del servicio de políticas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=es) en Experience Platform.
+El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso sirven las políticas. Las políticas se crean mediante la [IU de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html) o la [API del servicio de políticas](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html) en Experience Platform.
 
 En Customer Journey Analytics aparecen dos políticas definidas por Adobe que afectan a la creación de informes y a la descarga o al uso compartido:
 
@@ -76,6 +76,6 @@ Tampoco puede guardar una vista de datos que tenga campos bloqueados.
 >[Descarga de datos confidenciales](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
->[¿Qué son las etiquetas restringidas en Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=es)
+>[¿Qué son las etiquetas restringidas en Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html)
 
 

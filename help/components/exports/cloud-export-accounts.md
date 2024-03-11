@@ -5,7 +5,7 @@ title: Configuración de cuentas de exportación en la nube
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: dadb22558c93d0f528986dfc033b6668467d1c01
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 3%
@@ -81,9 +81,9 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
    1. Si aún no lo ha hecho, descargue el [Explorador de almacenamiento de Microsoft Azure](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-   1. En la documentación de Adobe Experience Platform, siga los pasos descritos en [Conecte el contenedor de la zona de aterrizaje de datos al Explorador de almacenamiento de Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+   1. En la documentación de Adobe Experience Platform, siga los pasos descritos en [Conecte el contenedor de la zona de aterrizaje de datos al Explorador de almacenamiento de Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
 
-      Puede omitir las tareas descritas en las secciones [Recuperación de las credenciales de la zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#retrieve-dlz-credentials) y [Actualizar credenciales de zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#update-dlz-credentials), porque el URI que ha copiado contiene estas credenciales.
+      Puede omitir las tareas descritas en las secciones [Recuperación de las credenciales de la zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) y [Actualizar credenciales de zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), porque el URI que ha copiado contiene estas credenciales.
 
    1. Al seguir la documentación de Adobe Experience Platform y llegar a la [!UICONTROL **URL SAS del contenedor de blob**] , pegue el URI SAS que copió en el paso 3.
 

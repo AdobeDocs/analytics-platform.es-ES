@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '3214'
+source-wordcount: '3208'
 ht-degree: 79%
 
 ---
@@ -70,8 +70,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Adobe Product Analytics | Adobe Product Analytics es una nueva forma de interactuar con los datos y las perspectivas en canales múltiples en Customer Journey Analytics. Estas nuevas funcionalidades permiten a los equipos de productos autogestionar datos y perspectivas sobre su experiencia con el producto mediante flujos de trabajo de [análisis guiados.](/help/guided-analysis/overview.md) |
 | Campos derivados | Un [campo derivado](/help/data-views/derived-fields/derived-fields.md) permite definir manipulaciones de datos (a menudo complejas) sobre la marcha, mediante un generador de reglas personalizable. |
 | Compatibilidad de búsqueda ampliada para datos de perfil y búsqueda | Proporciona la posibilidad de añadir conjuntos de datos como búsquedas de campos dentro de conjuntos de datos de perfil o de búsqueda. Anteriormente, solo se admitían conjuntos de datos de eventos. [Más información](/help/connections/create-connection.md) |
-| Mejoras de Report Builder | <ul><li>[Filtre desde la celda para varios bloques de datos](/help/report-builder/select-data-view.md)</li><li>[Muestre y oculte encabezados de fila y columna](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block?lang=es#build-the-data-block)</li></ul> |
-| Búsquedas geográficas de Experience Edge | [Adobe Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es) agrega un servicio de búsqueda geográfica que proporciona datos geográficos unificados a todos los usuarios de Experience Edge. |
+| Mejoras de Report Builder | <ul><li>[Filtre desde la celda para varios bloques de datos](/help/report-builder/select-data-view.md)</li><li>[Muestre y oculte encabezados de fila y columna](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html#build-the-data-block)</li></ul> |
+| Búsquedas geográficas de Edge Network | [Configuración de flujo de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es) cómo tiene un servicio de búsqueda geográfica que proporciona datos geográficos unificados. |
 | **Junio de 2023** | |
 | Vinculación y análisis en canales múltiples | En previsión de los próximos cambios para habilitar la vinculación y aclarar mejor cómo se puede elevar el análisis entre canales mediante la vinculación, la documentación relacionada con la funcionalidad de Análisis entre canales se edita para hacer referencia a [análisis en canales múltiples](../use-cases/cross-channel/cross-channel.md) como la capacidad de Customer Journey Analytics y el caso de uso, y [Vinculación](../stitching/overview.md) como una funcionalidad importante para lograrlo. |
 | Acceso de Power BI y Tableau a vistas de datos de Customer Journey Analytics | El conector SQL de Customer Journey Analytics habilita el acceso SQL a las vistas de datos que ha definido en Customer Journey Analytics. [Más información](/help/data-views/sql-connector.md) |
@@ -93,7 +93,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Abril de 2023** |  |
 | Vídeo sobre el uso de filtros como dimensiones | Se ha actualizado el vídeo sobre el uso de filtros como dimensión. <p>Este vídeo está vinculado desde la página [Crear filtros](/help/components/filters/create-filters.md).</p> <p>A continuación se muestra un vínculo directo al vídeo: [Usar filtros como dimensiones en Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html?lang=es).</p> |
 | Documentación del filtro | Se ha añadido un artículo sobre el uso del [Generador de filtros](/help/components/filters/filter-builder.md). <p>Documentación optimizada en [Crear filtros](/help/components/filters/create-filters.md) e [Información general de Filtros](/help/components/filters/filters-overview.md).</p> |
-| Actualización de la documentación del panel Experimentación | Se ha añadido una sección en [interpretación de dimensiones no aleatorias](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=es#non-randomized). |
+| Actualización de la documentación del panel Experimentación | Se ha añadido una sección en [interpretación de dimensiones no aleatorias](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html#non-randomized). |
 | Filtros de proyecto (filtros específicos y rápidos) | Se ha simplificado la documentación acerca de los filtros del proyecto y se ha eliminado la información duplicada. Los pasos para crear filtros ad hoc se combinan ahora con los pasos para [crear filtros rápidos](/help/components/filters/quick-filters.md). |
 | **Marzo de 2023** | |
 | Integración de datos de gestión de decisiones | Se ha añadido contenido que explica cómo [integrar datos de administración de decisiones de Adobe Journey Optimizer en Customer Journey Analytics](/help/integrations/ajo-od.md). |
@@ -104,7 +104,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Uso compartido de vínculos para proyectos (no se requiere inicio de sesión) | <p>Se ha actualizado la documentación existente para explicar cómo compartir un vínculo de solo lectura de un proyecto con personas que no tienen acceso a Analysis Workspace.</p> <p>La documentación de usuario actualizada incluye el [Uso compartido de proyectos](/help/analysis-workspace/curate-share/share-projects.md) y la [Creación de vínculos que se pueden compartir](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>Se han añadido opciones para administradores a [Preferencias](/help/analysis-workspace/user-preferences.md).</p> |
 | **Febrero de 2023** | |
 | Comparar soluciones de Customer Journey Analytics con las soluciones de BI | Nuevo documento sobre una [comparación](../getting-started/cja-vs-bi.md) de Customer Journey Analytics con las soluciones típicas de BI. |
-| Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency). |
+| Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency). |
 | Actualización de la documentación de Audiences | Después de crear un público, Adobe crea un segmento de streaming de Experience Platform [ para cada nuevo público de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#after-audience-created). |
 | Calendarios e intervalos de fechas del Espacio de trabajo | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos de fechas relativos del panel](/help/components/date-ranges/calendar.md#relative-panel-dates). |
 | Cuadros de resultados móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/mobile-app/create-scorecard.md#show-comparison-dates) en Customer Journey Analytics. |
@@ -131,8 +131,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Octubre de 2022 | Tema nuevo en [Claves administradas por el cliente](/help/privacy/cmk.md). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Octubre de 2022 | Tema nuevo sobre [Registro de auditoría de Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Octubre de 2022 | Tema nuevo sobre la visualización [Resumen de métricas clave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=es). |
-| Octubre de 2022 | Nueva sección sobre [funcionalidad de fecha y hora en las vistas de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#date) |
-| Octubre de 2022 | Aplicación móvil: Tema nuevo sobre [vistas de detalles personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#view-detail-slides). |
+| Octubre de 2022 | Nueva sección sobre [funcionalidad de fecha y hora en las vistas de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#date) |
+| Octubre de 2022 | Aplicación móvil: Tema nuevo sobre [vistas de detalles personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#view-detail-slides). |
 | Octubre de 2022 | Actualizaciones del tema [Soporte de funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
 | **Septiembre de 2022** | |
 | Septiembre de 2022 | Nuevo caso de uso en [Migración de datos de Google Analytics a Customer Journey Analytics](/help/use-cases/ga/overview.md). |
@@ -147,7 +147,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Julio de 2022** | |
 | Julio de 2022 | Documentación del [Panel Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=es). |
 | Julio de 2022 | Documentación del [Panel de visualizadores simultáneos de medios.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=es) |
-| Julio de 2022 | Documentación de creación de informes de [Primera sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=es#new-repeat). |
+| Julio de 2022 | Documentación de creación de informes de [Primera sesión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat). |
 | **Junio de 2022** | |
 | Junio de 2022 | Nuevo artículo sobre [AAID, ECID, AACUSTOMID y el conector de origen de Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=es) |
 | Junio de 2022 | Nuevo artículo sobre las [reglas de procesamiento de Adobe Analytics, VISTA y clasificaciones frente a la preparación de datos para el conector de origen de Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |

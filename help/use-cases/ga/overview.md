@@ -4,10 +4,10 @@ description: Conozca el flujo de trabajo general sobre cómo mover datos de Goog
 exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 87%
+source-wordcount: '311'
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,7 @@ Una vez que haya introducido correctamente los datos históricos en Platform, pu
 
 ## Configuración de una implementación de Google Analytics existente para Adobe Experience Platform {#configure}
 
-La ingesta de datos actuales (de streaming) implica el envío de datos a Adobe Experience Edge, que después reenvía esos datos a Adobe Experience Platform. Consulte [Configuración del streaming de datos de Google Analytics a Adobe Experience Platform](streaming.md).
+La ingesta de datos actuales (de streaming) implica el envío de datos a Adobe Experience Platform Edge Network, que luego reenvía esos datos a Adobe Experience Platform. Consulte [Configuración del streaming de datos de Google Analytics a Adobe Experience Platform](streaming.md).
 
 ## Configuración de una conexión y una vista de datos en Customer Journey Analytics
 

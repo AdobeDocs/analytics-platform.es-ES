@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '2521'
-ht-degree: 100%
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
+source-wordcount: '2523'
+ht-degree: 98%
 
 ---
 
@@ -140,7 +140,7 @@ Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Jo
 
 ## 5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
 
-La configuración [**[!UICONTROL Habilitar la ventana de datos móvil ]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
+La configuración [**[!UICONTROL Habilitar la ventana de datos móvil ]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
 
 La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
 
@@ -237,7 +237,7 @@ Obtenga más información sobre las [implicaciones de la eliminación de conjunt
 
 Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y las soluciones de Adobe y ajenas a Adobe se produzcan lo más cerca posible de los visitantes. Una vez que los datos se recopilan a nivel regional en un centro de recopilación de datos (DCC, también conocido como sitio perimetral, parte de la red de Platform Edge), se reenvían a través de una conexión segura a las soluciones relevantes en función de su secuencia de datos y/o el reenvío de eventos.
 
-![Flujo de datos mediante redes perimetrales](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png?lang=es)
+![Flujo de datos mediante redes perimetrales](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 El proceso de recopilación de datos regionales sigue los siguientes pasos:
 
@@ -267,5 +267,4 @@ Cuando los datos llegan al centro de datos regional, la configuración de la sec
 Customer Journey Analytics requiere conjuntos de datos de Adobe Experience Platform, por lo que su configuración de secuencia de datos/reenvío de eventos requiere que el servicio de Adobe Experience Platform enrute los datos desde el centro de datos regional al centro de datos donde se encuentra su instancia de Adobe Experience Platform. Customer Journey Analytics y sus servicios e infraestructura de soporte se implementan en la misma instancia de Adobe Experience Platform.
 
 
-Consulte [Resumen de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=es) para obtener más información sobre el proceso de recopilación de datos fuera de la red de Experience Edge y sus centros de datos regionales.
-
+Consulte [Resumen de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html) para obtener más información sobre el proceso de recopilación de datos fuera de Adobe Experience Platform Edge Network y sus centros de datos regionales.

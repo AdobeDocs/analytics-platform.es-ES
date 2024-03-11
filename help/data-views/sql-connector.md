@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
 source-wordcount: '2789'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ Actualmente, el conector SQL de Customer Journey Analytics solo es compatible y 
 
       2. Pegue el parámetro **[!UICONTROL ** Base de datos **]** de[!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Base de datos **]**.
 
-         Añada `?FLATTEN` al parámetro **[!UICONTROL ** Base de datos **]**, para que se vea como `prod:cja?FLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=es) para obtener más información.
+         Añada `?FLATTEN` al parámetro **[!UICONTROL ** Base de datos **]**, para que se vea como `prod:cja?FLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) para obtener más información.
 
       3. Cuando se le solicite el modo **[!UICONTROL ** Conectividad de datos **]**, seleccione **[!UICONTROL ** DirectQuery **]** para garantizar que las estructuras de datos se acoplen correctamente.
 
@@ -131,7 +131,7 @@ Actualmente, el conector SQL de Customer Journey Analytics solo es compatible y 
 
    Todas las dimensiones y métricas asociadas con una o más tablas seleccionadas aparecen en el panel derecho, listas para utilizarse en las visualizaciones.
 
-   Consulte [Conectar Power BI al servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html?lang=es) para obtener más información.
+   Consulte [Conectar Power BI al servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html) para obtener más información.
 
 +++
 
@@ -159,7 +159,7 @@ Actualmente, el conector SQL de Customer Journey Analytics solo es compatible y 
 
       3. Pegue el parámetro **[!UICONTROL ** base de datos **]** de [!UICONTROL credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** base de datos **]**.
 
-         Añada `%3FFLATTEN` al parámetro **[!UICONTROL ** base de datos **]**, para que se lea como `prod:cja%3FFLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=es) para obtener más información.
+         Añada `%3FFLATTEN` al parámetro **[!UICONTROL ** base de datos **]**, para que se lea como `prod:cja%3FFLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) para obtener más información.
 
       4. Seleccione **[!UICONTROL ** Nombre de usuario y contraseña **]** de la lista **[!UICONTROL ** Autenticación **]**.
 
@@ -175,11 +175,11 @@ Actualmente, el conector SQL de Customer Journey Analytics solo es compatible y 
 
    Ahora puede trabajar con los datos de las tablas de vista de datos para crear sus informes y visualizaciones.
 
-   Consulte [Conectar Tableau con el servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=es) para obtener más información.
+   Consulte [Conectar Tableau con el servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html) para obtener más información.
 
 +++
 
-Consulte [Conectar clientes al servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es) para obtener información general y más detallada sobre las distintas herramientas disponibles.
+Consulte [Conectar clientes al servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) para obtener información general y más detallada sobre las distintas herramientas disponibles.
 
 ## Funcionalidad
 
@@ -219,11 +219,11 @@ prod:all=> \dv
 
 ### Anidado frente al acoplamiento
 
-De forma predeterminada, el esquema de las vistas de datos utiliza estructuras anidadas, al igual que los esquemas XDM originales. La integración también admite la opción `FLATTEN`. Puede utilizar esta opción para forzar el acoplamiento del esquema de las vistas de datos (y de cualquier otra tabla de la sesión). El acoplamiento permite un uso más sencillo en herramientas de BI que no admiten esquemas estructurados. Consulte [Trabajar con estructuras de datos anidadas en el servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=es) para obtener más información.
+De forma predeterminada, el esquema de las vistas de datos utiliza estructuras anidadas, al igual que los esquemas XDM originales. La integración también admite la opción `FLATTEN`. Puede utilizar esta opción para forzar el acoplamiento del esquema de las vistas de datos (y de cualquier otra tabla de la sesión). El acoplamiento permite un uso más sencillo en herramientas de BI que no admiten esquemas estructurados. Consulte [Trabajar con estructuras de datos anidadas en el servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) para obtener más información.
 
 ### SQL compatible
 
-Consulte [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=es) para obtener la referencia completa sobre qué tipo de SQL se admite.
+Consulte [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html) para obtener la referencia completa sobre qué tipo de SQL se admite.
 
 Consulte la tabla siguiente para ver los ejemplos del SQL que puede utilizar.
 

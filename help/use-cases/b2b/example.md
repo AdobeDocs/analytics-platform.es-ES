@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 15%
@@ -37,7 +37,7 @@ Conjuntos de datos que puede considerar para agregar a su conexión:
 | Conjunto de datos de lista de marketing B2B | Esquema de lista de marketing B2B | Búsqueda | Lista de marketing XDM | La lista de marketing empresarial de XDM es una clase de modelo de datos de experiencia (XDM) estándar que captura las propiedades mínimas requeridas de una lista de marketing. Las listas de marketing le permiten priorizar los clientes potenciales que tienen más probabilidades de comprar su producto. |
 | Conjunto de datos de miembros de lista de marketing B2B | Esquema de miembros de lista de marketing B2B | Búsqueda | Miembros de lista de marketing XDM | Los miembros de la lista de marketing empresarial de XDM es una clase de modelo de datos de experiencia (XDM) estándar que describen miembros, personas o contactos asociados a una lista de marketing. |
 
-La relación entre los esquemas de búsqueda, el esquema de perfil y el esquema de evento se define en la configuración B2B dentro de Experience Platform. Consulte Esquemas en [Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html?lang=en) y [Defina una relación varios a uno entre dos esquemas en Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html?lang=en) para obtener más información.
+La relación entre los esquemas de búsqueda, el esquema de perfil y el esquema de evento se define en la configuración B2B dentro de Experience Platform. Consulte Esquemas en [Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) y [Defina una relación varios a uno entre dos esquemas en Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) para obtener más información.
 
 ![Relación entre esquemas B2B](assets/classes.png)
 
