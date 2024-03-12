@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 2380d1c176f2d0d6672714ee068ec198734bcdaf
+source-git-commit: 56b909a542915cd64251fb8849e55df920668025
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 8%
@@ -204,7 +204,7 @@ Consulte también Experience Platform [Protecciones para la ingesta de datos](ht
 
 >[!NOTE]
 >
->Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte el contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte el Experience Platform [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html) para obtener más información.
+>Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte el contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte el Experience Platform [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) para obtener más información.
 
 | Flujo de datos | Latencia esperada |
 |---|---|
