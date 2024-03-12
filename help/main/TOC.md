@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 53ce86d0009f2f5d7602ce55b938006c2600d2ca
+source-git-commit: a6dd3495b51edcb823431ccb87b283665ccd765d
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1063'
 ht-degree: 79%
 
 ---
@@ -154,6 +154,7 @@ ht-degree: 79%
       + [Panel en blanco](../analysis-workspace/c-panels/blank-panel.md)
       + [Panel Experimentación](../analysis-workspace/c-panels/experimentation.md)
       + [Panel de forma libre](../analysis-workspace/c-panels/freeform-panel.md)
+      + [Panel de audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Panel de información rápida](../analysis-workspace/c-panels/quickinsight.md)
       + [Panel Visualizadores simultáneos de medios](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Panel Tiempo invertido en la reproducción de contenido](../analysis-workspace/c-panels/media-playback-time-spent.md)
@@ -312,7 +313,7 @@ ht-degree: 79%
 
 + Integraciones de Adobe {#integrations}
    + [Integración de soluciones de Adobe con información general sobre Customer Journey Analytics](/help/integrations/overview.md)
-   + [Integración de soluciones de Adobe Analytics con Customer Journey Analytics](/help/integrations/aa.md)
+   + [Integración de Adobe Analytics con Customer Journey Analytics](/help/integrations/aa.md)
    + [Integración de datos de Journey Optimizer con Customer Journey Analytics](/help/integrations/ajo.md)
    + [Integración de datos de Administración de decisiones con Customer Journey Analytics](/help/integrations/ajo-od.md)
    + [Integración de Customer AI con Customer Journey Analytics](/help/integrations/customer-ai.md)
