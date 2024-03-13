@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
 workflow-type: tm+mt
-source-wordcount: '2766'
-ht-degree: 99%
+source-wordcount: '2888'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ El número máximo de conjuntos de datos que puede agregar a una conexión está
 
 {style="table-layout:auto"}
 
-Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
+Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene.
 
 ## Creación y configuración de la conexión {#create-connection}
 
@@ -185,3 +185,12 @@ Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
    En este ejemplo, “analytics_demo_data” es el nombre del conjunto de datos.
 
 2. Para mostrar todos los conjuntos de datos que existen en Adobe Experience Platform, realice la consulta `Show Tables`.
+
+
+## Eliminación algorítmica de conjuntos de datos de búsqueda grandes
+
+Al crear una conexión, puede agregar grandes conjuntos de datos para fines de búsqueda. Por ejemplo, un conjunto de datos que representa un catálogo de productos de modo que se pueda buscar información descriptiva del producto al crear informes y visualizaciones. Un conjunto de datos de consulta de este tamaño puede superar el máximo de 10 millones de búsquedas únicas implementadas actualmente como protección, lo que provoca que se omitan datos adicionales.
+
+Puede solicitar la eliminación algorítmica de un conjunto de datos de búsqueda tan grande. Esta limpieza solo cargará datos en el conjunto de datos de búsqueda para el que hay claves disponibles en la parte del conjunto de datos de evento de la conexión. El recuento de referencia utilizado en el algoritmo se remonta a 90 días y se actualiza una vez por semana.
+
+Póngase en contacto con el representante del Adobe para obtener más información.

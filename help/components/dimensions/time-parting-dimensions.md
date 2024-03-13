@@ -4,10 +4,10 @@ title: Dimensiones de partición de tiempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e3b80438f5bffc94efd24b80a93d2e4674906780
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 56%
+ht-degree: 55%
 
 ---
 
@@ -27,7 +27,7 @@ Las dimensiones de partición de tiempo se basan en la zona horaria de la vista 
 | Hora del día | 0-23 |
 | AM/PM | AM, PM |
 | Día de la semana | Lunes, martes, miércoles, jueves, viernes, sábado, domingo |
-| Fin de semana / Día de la semana | Fin de semana, día de la semana |
+| Día de la semana/Fin de semana | Día laborable, fin de semana |
 | Día del mes | 1-31 |
 | Mes del año | Enero-diciembre |
 | Día del año | 1-366 |

@@ -3,20 +3,19 @@ description: Obtenga información sobre las previsiones en Analysis Workspace.
 title: Resumen de previsión
 feature: Visualizations
 role: User
-source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
+exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
+source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
 # Resumen de previsión
 
-
-
 {{select-package}}
 
-La previsión es una función de Analysis Workspace para prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). La previsión solo está disponible para datos relacionados con series temporales.
+La previsión es una función de Analysis Workspace que ayuda a prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). La previsión solo está disponible para datos relacionados con series temporales.
 
 Puede aprovechar la previsión para:
 
@@ -25,5 +24,3 @@ Puede aprovechar la previsión para:
 * **Administración de riesgos**: Al anticipar eventos y tendencias futuros, puede tomar medidas proactivas para mitigar los riesgos y minimizar las pérdidas potenciales.
 * **Asignación de recursos**: Al predecir la demanda futura, puede asegurarse de que los recursos necesarios estén disponibles para satisfacer las necesidades de los clientes y evitar la falta de existencias o el exceso de existencias.
 * **Evaluación del rendimiento**: Al comparar los resultados reales con los previstos, puede identificar las áreas que deben mejorarse y realizar los ajustes necesarios.
-
-

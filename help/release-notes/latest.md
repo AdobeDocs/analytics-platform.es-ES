@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1b39449fa58157fb61d619de82235cba326ffe2c
+source-git-commit: 7f0a348738d2f3a53ec57558d321a3501afe8d00
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 55%
+source-wordcount: '841'
+ht-degree: 48%
 
 ---
 
 # Notas de la versión actuales de Adobe Customer Journey Analytics (marzo de 2024)
 
-**Última actualización**: sábado, 08 de marzo de 2024
+**Última actualización**: jueves, 13 de marzo de 2024
 
 Estas notas de la versión abarcan el período de lanzamiento de finales del 13 de marzo de 2024 a abril de 2024. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,9 +20,9 @@ Estas notas de la versión abarcan el período de lanzamiento de finales del 13 
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Nueva columna disponible en la página de aterrizaje Proyectos** | El **[!UICONTROL Último uso]** ahora está disponible al ver la pestaña Proyectos en la [Página de aterrizaje del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). Esta información puede ayudarle a determinar si un proyecto es valioso para los usuarios de su organización, ya que muestra la fecha y la hora en que se abrió por última vez. Anteriormente, la variable **[!UICONTROL Último uso]** solo estaba disponible en el Administrador de métricas calculadas, el Administrador de segmentos y el Administrador de alertas. |  | jueves, 13 de marzo de 2024 |
-| **Métricas de uso** | La interfaz de métricas de uso muestra el uso de filas ingeridas y notificables en todas las conexiones. Esta interfaz permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente. |  | jueves, 13 de marzo de 2024 |
-| **Sistema de informes de Media Analytics: promedio de público por minuto (AMA)** | El panel Promedio de público por minuto ya está disponible en CJA. Los clientes de Media Analytics pueden utilizar el panel Promedio de público por minuto para comprender mejor el consumo medio de su contenido. La audiencia media por minuto permite comparar la programación de cualquier género o duración. Además, los clientes pueden comparar o anexar esta audiencia media por minuto digital a métricas de minuto promedio de televisión lineal. Este panel proporciona más flexibilidad para medir el promedio de público en periodos de tiempo personalizados, así como cuando la clasificación de duración se ha actualizado después del hecho. |  | 12 de marzo de 2024 |
+| **Nueva columna disponible en la página de aterrizaje Proyectos** | El **[!UICONTROL Último uso]** ahora está disponible al ver la pestaña Proyectos en la [Página de aterrizaje del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). <p>Esta información puede ayudarle a determinar si un proyecto es valioso para los usuarios de su organización, ya que muestra la fecha y la hora en que se abrió por última vez. Anteriormente, la variable **[!UICONTROL Último uso]** solo estaba disponible en el Administrador de métricas calculadas, el Administrador de segmentos y el Administrador de alertas.</p> |  | jueves, 13 de marzo de 2024 |
+| **Métricas de uso** | El [interfaz de métricas de uso](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es) muestra el uso de filas ingeridas y notificables en todas las conexiones. Esta interfaz permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente. |  | jueves, 13 de marzo de 2024 |
+| **Sistema de informes de Media Analytics: promedio de público por minuto (AMA)** | El panel Promedio de público por minuto ya está disponible en CJA. Los clientes de Media Analytics pueden usar el panel Audiencia media por minuto de medios para comprender mejor el consumo promedio de su contenido. <p>La audiencia media por minuto permite comparar la programación de cualquier género o duración. Además, los clientes pueden comparar o anexar esta audiencia media por minuto digital a métricas de minuto promedio de televisión lineales.</p><p> Este panel proporciona más flexibilidad para medir el promedio de público en periodos de tiempo personalizados, así como cuando la clasificación de duración se ha actualizado después del hecho.</p><p>Para obtener más información, consulte [Panel Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md).</p> |  | 12 de marzo de 2024 |
 | **Transformación de esquemas B2B para persona a cuenta** | Permite transformar conjuntos de datos para que admitan mejor las búsquedas basadas en personas en escenarios de creación de informes B2B de Customer Journey Analytics. Esta capacidad está disponible para conjuntos de datos para esquemas B2B basados en las siguientes clases:<ul><li>Relación de persona de la cuenta XDM</li><li>Relación de persona de oportunidad empresarial de XDM</li><li>Miembros de lista de marketing empresarial de XDM</li><li>Miembros de campaña empresarial de XDM</li></ul> | | miércoles, 26 de marzo de 2024 |
 | **Adobe Product Analytics: comparar eventos dentro de un solo paso de canal** | En la vista Embudo: fricción, ahora puede comparar eventos dentro de un solo paso de embudo. Esto resulta especialmente útil cuando el recorrido tiene opciones de paso o un paso en el que se está ejecutando un experimento A/B. | sábado, 29 de marzo de 2024 | sábado, 12 de abril de 2024 |
 | **Los administradores pueden administrar todas las ubicaciones de su organización** | Una nueva opción de la página Ubicaciones permite a los administradores ver y administrar todas las ubicaciones de la organización. Anteriormente, los administradores solo podían ver y administrar las ubicaciones que habían creado. | | Abril de 2024 |

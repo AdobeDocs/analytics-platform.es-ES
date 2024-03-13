@@ -3,7 +3,8 @@ description: Obtenga información sobre cómo ver previsiones en una tabla o en 
 title: Visualización de previsiones en Analysis Workspace
 feature: Visualizations
 role: User
-source-git-commit: e52cee369be75785a99798d5acfa9cfc5aba2986
+exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
+source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 1%
@@ -16,7 +17,7 @@ Puede ver las previsiones en una tabla de forma libre o en un gráfico de línea
 
 ## Ver previsiones en una tabla
 
-Puede ver las previsiones en una tabla de forma libre de series temporales. Cuando Mostrar previsión está habilitado para la tabla de forma libre en [preferencias de usuario](../user-preferences.md)Sin embargo, la previsión se muestra automáticamente para la primera columna de métrica agregada a la tabla. Para cualquier columna adicional:
+Puede ver las previsiones en una tabla de forma libre de series temporales. Cuándo [!UICONTROL Mostrar previsión] está habilitado para tablas de forma libre en [preferencias de usuario](../user-preferences.md)Sin embargo, la previsión se muestra automáticamente para la primera columna de métrica agregada a la tabla. Para cualquier columna adicional:
 
 1. Seleccione el icono de configuración de columna ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en el encabezado de la columna, asegúrese de que **[!UICONTROL Mostrar previsión]** está seleccionado en la lista de opciones. Para obtener más información, consulte [Configuración de columna](../visualizations/freeform-table/column-row-settings/column-settings.md).
 
@@ -50,5 +51,4 @@ Las previsiones se muestran en el gráfico de líneas de la siguiente manera:
    * valor previsto para la métrica
    * límite superior del valor previsto para la métrica
    * límite inferior del valor previsto para la métrica
-* el área sombreada muestra la banda de confianza de la previsión.
-
+* El área sombreada muestra la banda de confianza del pronóstico.
