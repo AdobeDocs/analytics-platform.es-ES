@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17956f66d0bed46b876ba83aba8782c664fe2530
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 26%
+source-wordcount: '2764'
+ht-degree: 23%
 
 ---
 
@@ -24,9 +24,16 @@ Una vez que haya [ha creado o editado una o más conexiones](/help/connections/c
 * Ver todos los conjuntos de datos de una conexión.
 * Compruebe el estado de los conjuntos de datos de la conexión y el estado del proceso de ingesta. Por ejemplo, ¿cuándo están disponibles los datos para que pueda empezar con los informes y análisis en Analysis Workspace?
 * Identifique cualquier discrepancia en los datos debido a una configuración incorrecta. ¿Le faltan filas? En caso afirmativo, ¿qué filas faltan y por qué? ¿Configuró incorrectamente las conexiones y esto causó la falta de datos en el Customer Journey Analytics?
+* Obtenga información sobre el uso de filas ingeridas y notificables en todas las conexiones.
+
+[!UICONTROL Conexiones] tiene dos interfaces: [[!UICONTROL Lista]](#list) y [[!UICONTROL Uso]](#usage).
 
 
-En la tabla se muestran todas las conexiones disponibles. Puede buscar rápidamente una conexión utilizando la opción Buscar ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) cuadro.
+## Lista
+
+El [!UICONTROL Lista] interfaz es la interfaz predeterminada para Conexiones. Si no está seleccionada, seleccione la opción **[!UICONTROL Lista]** para acceder a la interfaz.
+
+El [!UICONTROL Lista] La interfaz de muestra una tabla con todas las conexiones disponibles. Puede buscar rápidamente una conexión utilizando la opción Buscar ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) cuadro.
 
 En la tabla están disponibles las siguientes columnas/iconos.
 
@@ -46,7 +53,7 @@ En la tabla están disponibles las siguientes columnas/iconos.
 
 Puede configurar qué columnas mostrar mediante ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). Esto muestra el **Personalizar tabla** que permite activar o desactivar columnas en la tabla.
 
-## Edición de una conexión
+### Edición de una conexión
 
 Permite a los administradores editar la conexión.
 
@@ -69,7 +76,7 @@ Al editar una conexión, puede:
 Consulte [Crear o editar una conexión](create-connection.md) para obtener más información.
 
 
-## Eliminar una conexión {#connections-delete}
+### Eliminar una conexión {#connections-delete}
 
 Permite a los administradores eliminar la conexión.
 
@@ -91,7 +98,7 @@ Seleccionar **[!UICONTROL Continuar]** para eliminar la conexión.
 Consulte [Eliminar implicaciones](/help/admin/cja-deletion.md) para obtener más información sobre las implicaciones de eliminar una conexión.
 
 
-## Creación de una vista de datos
+### Creación de una vista de datos
 
 Permite a los administradores crear una vista de datos para la conexión.
 
@@ -112,7 +119,7 @@ Como alternativa, puede:
 
 Consulte [Creación o edición de una vista de datos](/help/data-views/create-dataview.md) para obtener más información.
 
-## Detalles de conexión {#connection-detail}
+### Detalles de conexión {#connection-detail}
 
 Para ir a los detalles de una conexión, seleccione un nombre de conexión en la tabla de conexiones.
 
@@ -153,7 +160,7 @@ La interfaz de detalles Conexiones proporciona una vista detallada del estado de
 >
 >Los datos introducidos antes del 13 de agosto de 2021 no se reflejan en la variable [!UICONTROL Conexiones] interfaz.
 
-### Panel de conexión
+#### Panel de conexión
 
 Cuando no se selecciona ningún conjunto de datos en la tabla de conjuntos de datos, un panel a la derecha de la interfaz Conexiones muestra las opciones y los detalles de la conexión.
 
@@ -173,7 +180,7 @@ Cuando no se selecciona ningún conjunto de datos en la tabla de conjuntos de da
 | [!UICONTROL Última modificación] | Muestra la marca de tiempo del último cambio realizado en la conexión. |
 | [!UICONTROL Última modificación de:] | Muestra la persona que modificó la conexión por última vez. |
 
-### Panel Conjunto de datos
+#### Panel Conjunto de datos
 
 Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un panel a la derecha de la interfaz Conexiones muestra detalles del conjunto de datos seleccionado.
 
@@ -195,6 +202,31 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 | [!UICONTROL Tipo de conjunto de datos] | [!UICONTROL Evento], [!UICONTROL Búsqueda] o [!UICONTROL Perfil]. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#configure-dataset) |
 | [!UICONTROL Esquema] | Muestra el esquema del Experience Platform en el que se basa este conjunto de datos. |
 | [!UICONTROL ID de conjunto de datos] | Esta ID del conjunto de datos se genera en el Experience Platform. |
+
+
+## Uso
+
+El [!UICONTROL Uso] La interfaz de muestra el uso de filas introducidas y notificables en todas las conexiones. Esta interfaz le ayuda a determinar si el uso de su Customer Journey Analytics cumple con lo acordado en el contrato.
+
+Seleccione el **[!UICONTROL Uso]** para acceder a la interfaz.
+
+Para informar sobre el uso:
+
+1. Seleccione una **[!UICONTROL Intervalo de tiempo]**. Puede seleccionar entre **[!UICONTROL Últimos 6 meses]**, **[!UICONTROL Año hasta la fecha]**, o **[!UICONTROL Últimos 2 años]**.
+1. Seleccione un **[!UICONTROL Intervalo]**. Puede seleccionar entre **[!UICONTROL Mensual]** o **[!UICONTROL Trimestral]**.
+
+Para [!UICONTROL Filas ingeridas]:
+
+* un cuadro muestra la variable [!UICONTROL Total] número de filas introducidas.
+* un cuadro muestra el número de filas introducidas para la variable [!UICONTROL Mes pasado] y el cambio en % (indicado por <span style="color:green">▲</span> o <span style="color:c64545">▼</span>) del mes anterior.
+* un gráfico de líneas muestra la variable  <span style="color:53b2ad">◼︎</span> Filas introducidas acumulativas y <span style="color:4046c3">◼︎</span> Filas introducidas mensualmente.<br/>Puede pasar el ratón sobre cualquier punto de datos de cada línea del gráfico de líneas para ver una ventana emergente que muestre la fecha y el número de filas del punto de datos seleccionado.
+
+
+Para [!UICONTROL Filas reportables]:
+
+* se muestra un cuadro [!UICONTROL Total] número de filas sobre las que se puede informar.
+* un cuadro muestra el número de filas sobre las que se puede realizar un informe para el [!UICONTROL Mes pasado] y el cambio en % (indicado por <span style="color:green">▲</span> o <span style="color:c64545">▼</span>) del mes anterior.
+* un gráfico de líneas muestra la variable  <span style="color:53b2ad">◼︎</span> Filas acumulativas sobre las que se debe informar y <span style="color:4046c3">◼︎</span> Filas mensuales sobre las que se debe informar.<br/>Puede pasar el ratón sobre cualquier punto de datos de cada línea del gráfico de líneas para ver una ventana emergente que muestre la fecha y el número de filas del punto de datos seleccionado.
 
 
 >[!MORELIKETHIS]
