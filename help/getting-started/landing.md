@@ -4,10 +4,10 @@ title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 6bd4a0462547966342a52115eb9d45e7c1e1ad25
+source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 89%
+source-wordcount: '1388'
+ht-degree: 88%
 
 ---
 
@@ -55,7 +55,7 @@ Las columnas disponibles son:
 | [!UICONTROL **Compartido con**] | Muestra con quién se comparte actualmente el proyecto. |
 | [!UICONTROL **Última modificación**] | Fecha y hora de la última modificación del proyecto. |
 | [!UICONTROL **Última apertura**] | Identifica la fecha en la que el usuario que está viendo la página Proyectos abrió por última vez un proyecto. |
-| [!UICONTROL **Último uso**] | Ayuda a determinar si un proyecto es valioso para los usuarios de su organización, ya que muestra la fecha y la hora en que cualquier usuario de la organización abrió el proyecto por última vez.<p>Esta columna solo está disponible para administradores del sistema.</p> |
+| [!UICONTROL **Último uso**] | Ayuda a determinar si un proyecto es valioso para los usuarios de su organización, ya que muestra la fecha y la hora en que cualquier usuario de la organización abrió el proyecto por última vez.<p>Tenga en cuenta lo siguiente al ver esta columna:</p><ul><li>La información de uso está disponible a partir de septiembre de 2023.</li><li>Esta columna solo está disponible para administradores del sistema.</li></ul> |
 | [!UICONTROL **ID del proyecto**] | Se puede utilizar para depurar proyectos. |
 | [!UICONTROL **El intervalo de fecha más largo**] | Los intervalos de fechas más largos aumentan la complejidad del proyecto y pueden aumentar los tiempos de procesamiento y carga. |
 | [!UICONTROL **Cantidad de consultas**] | El número total de solicitudes realizadas a Analytics cuando se carga el proyecto. Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. Estos datos solo están disponibles después de que se haya cargado un proyecto o de que se haya enviado un proyecto programado. |

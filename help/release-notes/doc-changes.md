@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
 workflow-type: tm+mt
-source-wordcount: '3208'
-ht-degree: 79%
+source-wordcount: '3246'
+ht-degree: 78%
 
 ---
 
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Marzo de 2024** | |
+| La información de uso relativa a la columna &quot;Utilizado en&quot; solo está disponible a partir de septiembre de 2023. | Se ha aclarado que la información de uso relativa a **Utilizado en** en la columna [página de aterrizaje de proyectos](/help/getting-started/landing.md) solo se remonta hasta septiembre de 2023. |
 | **Febrero de 2024** | |
 | Actualizaciones de la documentación para compartir proyectos | Se ha añadido información acerca de cómo [ver los proyectos compartidos con usted](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>También se ofrece información optimizada sobre [compartir proyectos individuales o múltiples](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Requisitos de permiso añadidos para cargar archivos en Azure SAS y Azure RBAC al configurar ubicaciones de exportación en la nube | Se agregaron requisitos de permiso exactos para cargar archivos en Azure SAS y Azure RBAC al [configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md) y [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
