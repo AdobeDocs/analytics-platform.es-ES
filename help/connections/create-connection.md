@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
 workflow-type: tm+mt
 source-wordcount: '2888'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ La experiencia de flujo de trabajo de creación y edición de conexiones reúne 
 
 ## Requisitos previos
 
-El número máximo de conjuntos de datos que puede agregar a una conexión está limitado a 100. La combinación depende del paquete de Customer Journey Analytics que haya adquirido su compañía.
+El número máximo de conjuntos de datos que se pueden añadir a una conexión es de 100. La combinación depende del paquete de Customer Journey Analytics que haya adquirido su compañía.
 
 | Paquete **Seleccionar** | Paquete de **Foundation** |
 | --- | --- |
