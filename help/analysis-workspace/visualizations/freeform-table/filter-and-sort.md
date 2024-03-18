@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 772fa17f013ef0543027a7f60be780e9cf8f634a
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 67%
+source-wordcount: '924'
+ht-degree: 69%
 
 ---
 
@@ -53,12 +53,15 @@ Para excluir rápidamente filas específicas de una tabla de forma libre:
 
    Mantenga pulsada la tecla Mayús para seleccionar un rango de filas o la tecla Comando (en Mac) o Ctrl (en Windows) para seleccionar varias filas.
 
-### Haga clic con el botón derecho > Eliminar filas seleccionadas
+<!--### Right-click > Delete selected rows
 
-1. Seleccione una o más filas.
-1. Haga clic con el botón derecho y seleccione **[!UICONTROL Eliminar las filas seleccionadas]**.
+Note: this option does not seem to work. AN-338422
 
-   Esta acción quitará las filas de la tabla y aplicará un filtro de tabla.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
+
 
 ### Aplicar un filtro simple o avanzado a una tabla
 
