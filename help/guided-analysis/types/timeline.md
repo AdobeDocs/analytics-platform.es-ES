@@ -4,9 +4,10 @@ description: Observe los eventos de sesión a nivel de usuario a lo largo del ti
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
+source-git-commit: e9721eaf993175dd46e9d8edf9176d7c00308e8c
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 El **[!UICONTROL Cronología]** La vista de permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar el flujo por valores de propiedad y segmentos. El carril derecho le permite seleccionar de una lista aleatoria de usuarios que coincidan con los criterios de filtro. El área central muestra el flujo del usuario seleccionado por sesión, que incluye la marca de tiempo, los valores de propiedad y la duración. La duración no está disponible para el último evento de una sesión determinada.
 
-![Captura de pantalla Cronología](../assets/timeline.png){style="border:1px solid gray"}
+>[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
 
 >[!NOTE]
 >
