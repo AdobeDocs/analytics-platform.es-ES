@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: adb62f1a4c48955f890909d4f4b090786c3968d3
+source-git-commit: 20e99275a42312ed974ac4c1af28ede73180e748
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 44%
+source-wordcount: '957'
+ht-degree: 42%
 
 ---
 
 # Notas de la versión actuales de Adobe Customer Journey Analytics (marzo de 2024)
 
-**Última actualización**: jueves, 13 de marzo de 2024
+**Última actualización**: jueves, 20 de marzo de 2024
 
 Estas notas de la versión abarcan el período de lanzamiento de finales del 13 de marzo de 2024 a abril de 2024. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -26,7 +26,7 @@ Estas notas de la versión abarcan el período de lanzamiento de finales del 13 
 | **Transformación de esquemas B2B para persona a cuenta** | Permite transformar conjuntos de datos para que admitan mejor las búsquedas basadas en personas en escenarios de creación de informes B2B de Customer Journey Analytics. Esta capacidad está disponible para conjuntos de datos para esquemas B2B basados en las siguientes clases:<ul><li>Relación de persona de la cuenta XDM</li><li>Relación de persona de oportunidad empresarial de XDM</li><li>Miembros de lista de marketing empresarial de XDM</li><li>Miembros de campaña empresarial de XDM</li></ul> | | miércoles, 26 de marzo de 2024 |
 | **Uso del Report Builder incluido en la columna &quot;Utilizado en&quot; del Administrador de métricas calculadas y del Administrador de filtros** | Al ver el **Utilizado en** en el Administrador de métricas calculadas o en el Administrador de filtros, los datos de uso ya están disponibles para el Report Builder.<p>Anteriormente, los datos de uso del Administrador de filtros solo estaban disponibles para alertas, proyectos, proyectos programados y métricas calculadas; mientras que los datos de uso del Administrador de métricas calculadas solo estaban disponibles para alertas, proyectos y proyectos programados.</p> |  | A finales de marzo o principios de abril |
 | **Adobe Product Analytics: comparar eventos dentro de un solo paso de canal** | En la vista Embudo: fricción, ahora puede comparar eventos dentro de un solo paso de embudo. Esto resulta especialmente útil cuando el recorrido tiene opciones de paso o un paso en el que se está ejecutando un experimento A/B. | sábado, 29 de marzo de 2024 | sábado, 12 de abril de 2024 |
-| **Los administradores pueden administrar todas las ubicaciones de su organización** | Una nueva opción de la página Ubicaciones permite a los administradores ver y administrar todas las ubicaciones de la organización. Anteriormente, los administradores solo podían ver y administrar las ubicaciones que habían creado. | | Abril de 2024 |
+| **Los administradores pueden administrar todas las ubicaciones y cuentas de su organización** | Una nueva opción de la pestaña Ubicaciones (en la página Componentes > Exportaciones) permite a los administradores ver y administrar todas las ubicaciones de la organización. <p>Una nueva opción de la pestaña Cuentas de ubicación (en la página Componentes > Exportaciones ) permite a los administradores ver y administrar todas las cuentas de la organización.</p><p>Anteriormente, los administradores solo podían ver y administrar las ubicaciones y cuentas que habían creado.</p> | | Abril de 2024 |
 | **Las audiencias se publican en una nueva sección &quot;Audiencias&quot; en Experience Platform** | Las audiencias publicadas desde Customer Journey Analytics ahora están disponibles en la nueva sección &quot;Audiencias&quot; de Experience Platform. Anteriormente, las audiencias publicadas desde Customer Journey Analytics estaban disponibles en Platform en la sección &quot;Segmentos&quot;. Esta mejora ofrece las siguientes ventajas:<ul><li>Las audiencias ya no tienen un retraso de 1 hora antes de aparecer en Platform; están disponibles segundos después de su publicación.</li><li>Las audiencias se pueden ordenar en Platform mediante la columna &quot;Origen&quot;, que muestra la aplicación desde la que se publicó originalmente la audiencia.</li><li>Las opciones de filtro y ordenación de Platform le permiten encontrar más rápidamente las audiencias relevantes.</li></ul>Para obtener más información, consulte la sección [Usar audiencias de Customer Journey Analytics en Experience Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#audiences-aep). |  | Abril de 2024 |
 | **Detección de bots de Experience Edge** | [Detección de bots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=es) permite identificar eventos generados por SDK web, SDK móvil y API de servidor como si fueran generados por arañas de web y bots conocidos. | | 29 de abril de 2024 |
 
