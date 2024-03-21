@@ -4,9 +4,9 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cfaf29b8dd92325a4e5fdd2a960de798178db933
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3024'
 ht-degree: 98%
 
 ---
@@ -67,10 +67,6 @@ Definición para una nueva métrica calculada “Clientes aproximados”:
 Así es como se podría usar la métrica “Clientes aproximados” en un informe:
 
 ![Tabla de forma libre que muestra visitantes únicos y clientes aproximados ](assets/approx-customers.png)
-
-## Se excedió la cantidad de valores exclusivos
-
-Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=es). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
 ## Comparación de funciones de recuento
 
