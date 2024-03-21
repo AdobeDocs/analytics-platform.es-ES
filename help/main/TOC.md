@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: a6dd3495b51edcb823431ccb87b283665ccd765d
+source-git-commit: 05a2887d85dd523b09701242178fb6a0fd18ba69
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1064'
 ht-degree: 79%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 79%
       + [Subcadena](../data-views/component-settings/substring.md)
       + [Clasificación de valor](../data-views/component-settings/value-bucketing.md)
    + [Referencia de componente estándar](../data-views/component-reference.md)
-   + [Conector SQL](../data-views/sql-connector.md)
+   + [Extensión de CJA BI](../data-views/sql-connector.md)
    + [Campos derivados](../data-views/derived-fields/derived-fields.md)
    + [Etiquetas y políticas](../data-views/data-governance.md)
 
@@ -207,7 +207,7 @@ ht-degree: 79%
    + Crecimiento de usuarios {#user-growth}
       + [Vista activa](../guided-analysis/types/active.md)
       + [Vista de crecimiento neto](../guided-analysis/types/net-growth.md)
-   + Flujo de usuario {#streams}
+   + Flujo de usuarios {#streams}
       + [Cronología](../guided-analysis/types/timeline.md)
    + [Casos de uso del sector](../guided-analysis/industry-use-cases.md)
    + [Preguntas más frecuentes](../guided-analysis/faq.md)
