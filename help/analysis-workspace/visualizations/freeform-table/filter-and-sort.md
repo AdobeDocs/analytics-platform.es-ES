@@ -4,9 +4,9 @@ title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 772fa17f013ef0543027a7f60be780e9cf8f634a
+source-git-commit: 4c96089088560da635e2499e7ec770c19c3de0ab
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '920'
 ht-degree: 69%
 
 ---
@@ -33,7 +33,6 @@ Los filtros de Analysis Workspace le ayudan a mostrar la información más impor
 Puede utilizar varios métodos para filtrar filas de una tabla de forma libre. 
 
 - Haga clic en la &quot;X&quot; de la fila.
-- Haga clic con el botón derecho > Filas seleccionadas eliminadas
 - Filtros de tabla
 - Segmentación
 
