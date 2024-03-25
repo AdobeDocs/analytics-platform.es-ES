@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 9489868fdf8de416c061239de1c0719f263288d1
+source-git-commit: a932d0d364761d949831ee261907b923a79a1f56
 workflow-type: tm+mt
-source-wordcount: '2731'
-ht-degree: 77%
+source-wordcount: '2730'
+ht-degree: 75%
 
 ---
 
@@ -63,7 +63,7 @@ En Adobe Experience Platform:
 
 1. Seleccione ![Crear consulta](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** Crear consulta **]**.
 
-1. Seleccione el `"cja"` **[!UICONTROL ** Base de datos **]**.
+1. Seleccione el `cja` **[!UICONTROL ** Base de datos **]**.
 
 1. Para ejecutar la consulta, escriba la instrucción SQL y seleccione ![Reproducir](assets/Smock_Play_18_N.svg) botón (o pulse `[SHIFT]` + `[ENTER]`).
 
@@ -78,7 +78,7 @@ En Adobe Experience Platform:
 
    1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
-   1. Seleccione el `"cja"` **[!UICONTROL ** Base de datos **]**.
+   1. Seleccione el `cja` **[!UICONTROL ** Base de datos **]**.
 
    1. Para copiar la cadena de comandos, utilice ![Copiar](assets/Smock_Copy_18_N.svg) en el **[!UICONTROL ** comando PSQL **]** sección.
 
@@ -103,7 +103,7 @@ Actualmente, la variable [!DNL Customer Journey Analytics BI extension] es compa
 
    1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
-   1. Seleccione el `"cja"` **[!UICONTROL ** Base de datos **]**.
+   1. Seleccione el `cja` **[!UICONTROL ** Base de datos **]**.
 
    1. Utilice ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL host], [!UICONTROL Puerto], [!UICONTROL base de datos], [!UICONTROL nombre de usuario]y otros) cuando sea necesario en Power BI.
 
@@ -146,7 +146,7 @@ Actualmente, la variable [!DNL Customer Journey Analytics BI extension] es compa
 
    1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
-   1. Seleccione el &quot;cja&quot; **[!UICONTROL ** Base de datos **]**.
+   1. Seleccione el ` cja` **[!UICONTROL ** Base de datos **]**.
 
    1. Utilice ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL host], [!UICONTROL Puerto], [!UICONTROL base de datos], [!UICONTROL nombre de usuario] y otros) cuando sea necesario en Tableau.
 
@@ -233,7 +233,7 @@ Consulte la tabla siguiente para ver los ejemplos del SQL que puede utilizar.
 | <br/>Desgloses<br/> de varias dimensiones y superiores distintos | <pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1, dim2</pre><pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 1, 2<br/>ORDER BY 1, 2</pre><pre>SELECT DISTINCT dim1, dim2<br/>FROM dv1</pre> |
 | Subseleccionar:<br/>Filtrar adicionales<br/>resultados | <pre>SELECT dim1, m1<br/>FROM (<br/>  SELECT dim1, SUM(metric1) AS m1<br/>  FROM dv1<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</br>  GROUP BY dim1<br/>)<br/>WHERE dim1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
 | Subseleccionar:<br/>Realización de consultas<br/>vistas de datos | <pre>SELECT key, SUM(m1) AS total<br/>FROM (<br/>  SELECT dim1 AS key, SUM(metric1) AS m1<br/>  FROM dv1<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  GROUP BY dim1<br/><br/>  UNION<br/><br/>  SELECT dim2 AS key, SUM(m1) AS m1<br/>  FROM dv2<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  GROUP BY dim2<br/>GROUP BY key<br/>ORDER BY total</pre> |
-| Subseleccionar: <br/>Fuente con capas, <br/>filtrado, <br/>y agregación | Capas con subselecciones:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>FROM (<br/>  SELECT \_.dim1,\_.m1<br/>  FROM (<br/>    SELECT \* FROM dv1<br/>    WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rows<br/>GROUP BY 1<br/>ORDER BY total</pre><br/>Capas que utilizan CTE WITH:<br/><pre>WITH rows AS (<br/>  WITH \_ AS (<br/>    SELECT * FROM data_ares<br/>    WHERE \`timestamp\` BETWEEN &#39;2021-01-01&#39; AND &#39;2021-02-01&#39;<br/>  )<br/>  SELECT _.item, _.units FROM _<br/>  WHERE _.item IS NOT NULL<br/>)<br/>SELECT rows.item, SUM(rows.units) AS units<br/>FROM rows WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROUP BY rows.item</pre> |
+| Subseleccionar: <br/>Fuente con capas, <br/>filtrado, <br/>y agregación | Capas con subselecciones:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>FROM (<br/>  SELECT \_.dim1,\_.m1<br/>  FROM (<br/>    SELECT \* FROM dv1<br/>    WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rows<br/>GROUP BY 1<br/>ORDER BY total</pre><br/>Capas que utilizan CTE WITH:<br/><pre>WITH rows AS (<br/>  CON \_ COMO (<br/>    SELECT * FROM áreas_de_datos<br/>    DONDE \`timestamp\` ENTRE &#39;2021-01-01&#39; Y &#39;2021-02-01&#39;<br/>  )<br/>  SELECT \_.item, \_.units FROM \_<br/>  WHERE \_.item IS NOT NULL<br/>)<br/>SELECT filas.elemento, SUM(filas.unidades) AS unidades<br/>FROM filas WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROUP BY rows.item</pre> |
 | Selecciones donde <br/>las métricas van antes que <br/> o se mezclan con <br/>las dimensiones | <pre>SELECT SUM(metric1) AS m1, dim1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 2</pre> |
 
 {style="table-layout:auto"}
