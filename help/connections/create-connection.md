@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
+source-git-commit: 18f7f4ab3ef368afb73445c5b6dccc3c4f468ef7
 workflow-type: tm+mt
-source-wordcount: '2888'
-ht-degree: 95%
+source-wordcount: '2910'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ El número máximo de conjuntos de datos que se pueden añadir a una conexión e
 
 {style="table-layout:auto"}
 
-Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene.
+Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
 ## Creación y configuración de la conexión {#create-connection}
 
@@ -189,8 +189,8 @@ Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 
 ## Eliminación algorítmica de conjuntos de datos de búsqueda grandes
 
-Al crear una conexión, puede agregar grandes conjuntos de datos para fines de búsqueda. Por ejemplo, un conjunto de datos que representa un catálogo de productos de modo que se pueda buscar información descriptiva del producto al crear informes y visualizaciones. Un conjunto de datos de consulta de este tamaño puede superar el máximo de 10 millones de búsquedas únicas implementadas actualmente como protección, lo que provoca que se omitan datos adicionales.
+Al crear una conexión, puede añadir grandes conjuntos de datos para fines de búsqueda. Por ejemplo, un conjunto de datos que representa un catálogo de productos de modo que se pueda buscar información descriptiva del producto al crear informes y visualizaciones. Un conjunto de datos de consulta de este tamaño puede superar el máximo de 10 millones de búsquedas únicas implementadas actualmente como protección, lo que provoca que se omitan datos adicionales.
 
-Puede solicitar la eliminación algorítmica de un conjunto de datos de búsqueda tan grande. Esta limpieza solo cargará datos en el conjunto de datos de búsqueda para el que hay claves disponibles en la parte del conjunto de datos de evento de la conexión. El recuento de referencia utilizado en el algoritmo se remonta a 90 días y se actualiza una vez por semana.
+Puede solicitar una poda algorítmica de un conjunto de datos de búsqueda grande. Esta limpieza algorítmica solo mantiene los datos en el conjunto de datos de búsqueda que coincide con las claves del conjunto de datos de evento. De este modo, no es necesario cargar todo el conjunto de datos de búsqueda sin eliminar. Se eliminan los artículos antiguos o utilizados con menos frecuencia, lo que podría afectar ligeramente a los informes, pero trae beneficios significativos. El algoritmo se remonta 90 días y se actualiza semanalmente.
 
-Póngase en contacto con el representante del Adobe para obtener más información.
+Póngase en contacto con el equipo de soporte de Adobe para obtener más información y para habilitar esta capacidad.
