@@ -5,7 +5,7 @@ exl-id: 0a9998df-a538-4a84-95a9-98706bd99ac1
 feature: Experience Platform Integration
 role: User
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
 ht-degree: 100%
 

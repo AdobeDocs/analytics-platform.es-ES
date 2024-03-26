@@ -5,9 +5,9 @@ exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 99%
 
 La [gestión de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=es) de Adobe Journey Optimizer facilita la personalización con una biblioteca central de ofertas de marketing y un motor de decisión que aplica reglas y restricciones a perfiles enriquecidos en tiempo real creados por Adobe Experience Platform para ayudarle a enviar a sus clientes la oferta correcta en el momento adecuado.
 
-La gestión de decisiones forma parte de Adobe Journey Optimizer y está integrada en él. También se puede utilizar de forma independiente de los recorridos y campañas definidos en Adobe Journey Optimizer, utilizando su amplio soporte de [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html).
+La gestión de decisiones forma parte de Adobe Journey Optimizer y está integrada en él. También se puede utilizar de forma independiente de los recorridos y campañas definidos en Adobe Journey Optimizer, utilizando su amplio soporte de [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=es).
 
 Puede importar los datos generados por la gestión de decisiones para realizar análisis avanzados en Customer Journey Analytics al realizar los siguientes pasos:
 
 ## Envío de datos de la gestión de decisiones a Adobe Experience Platform
 
-Adobe Experience Platform sirve como fuente de datos central y vínculo entre Gestión de decisiones y Customer Journey Analytics. Los datos de la gestión de decisiones se recopilan en Experience Platform **automáticamente** o como parte de los **eventos de experiencia enviados explícitamente** (por ejemplo, impresiones o clics). Para obtener más información, consulte la [Introducción a la recopilación de datos](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html).
+Adobe Experience Platform sirve como fuente de datos central y vínculo entre Gestión de decisiones y Customer Journey Analytics. Los datos de la gestión de decisiones se recopilan en Experience Platform **automáticamente** o como parte de los **eventos de experiencia enviados explícitamente** (por ejemplo, impresiones o clics). Para obtener más información, consulte la [Introducción a la recopilación de datos](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=es).
 
 ## Crear una conexión
 
