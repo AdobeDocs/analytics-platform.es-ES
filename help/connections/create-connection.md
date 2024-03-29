@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 18f7f4ab3ef368afb73445c5b6dccc3c4f468ef7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2910'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -191,6 +191,6 @@ Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 
 Al crear una conexión, puede añadir grandes conjuntos de datos para fines de búsqueda. Por ejemplo, un conjunto de datos que representa un catálogo de productos de modo que se pueda buscar información descriptiva del producto al crear informes y visualizaciones. Un conjunto de datos de consulta de este tamaño puede superar el máximo de 10 millones de búsquedas únicas implementadas actualmente como protección, lo que provoca que se omitan datos adicionales.
 
-Puede solicitar una poda algorítmica de un conjunto de datos de búsqueda grande. Esta limpieza algorítmica solo mantiene los datos en el conjunto de datos de búsqueda que coincide con las claves del conjunto de datos de evento. De este modo, no es necesario cargar todo el conjunto de datos de búsqueda sin eliminar. Se eliminan los artículos antiguos o utilizados con menos frecuencia, lo que podría afectar ligeramente a los informes, pero trae beneficios significativos. El algoritmo se remonta 90 días y se actualiza semanalmente.
+Puede solicitar la eliminación algorítmica de un gran conjunto de datos de búsqueda. Esta limpieza algorítmica solo mantiene los datos en el conjunto de datos de búsqueda que coincide con las claves del conjunto de datos de evento. De este modo, no es necesario cargar todo el conjunto de datos de búsqueda sin eliminar. Se eliminan los artículos antiguos o utilizados con menos frecuencia, lo que podría afectar ligeramente a los informes, pero trae beneficios significativos. El algoritmo se remonta 90 días y se actualiza semanalmente.
 
 Póngase en contacto con el equipo de soporte de Adobe para obtener más información y para habilitar esta capacidad.
