@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
-source-wordcount: '1964'
-ht-degree: 100%
+source-git-commit: 5333034f70ca9ca8252af2874d443bd09e746384
+workflow-type: tm+mt
+source-wordcount: '1969'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Función | Notas |
 | --- | --- |
 | Paneles | El panel en blanco, el panel de atribución, el panel de forma libre y las perspectivas rápidas son totalmente compatibles. Los paneles Comparación de segmentos y Analytics for Target (A4T) no son compatibles. |
-| Analytics for Target (A4T) | Se proporciona soporte parcial mediante campos en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Se ha planificado la compatibilidad con los nombres descriptivos de A4T en las actividades y experiencias de Target. |
+| Analytics for Target (A4T) | Actualmente en fase beta. Se proporciona soporte parcial mediante campos en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). Se ha planificado la compatibilidad con los nombres descriptivos de A4T en las actividades y experiencias de Target. |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 
 {style="table-layout:auto"}
 
-## Nunca admitido {#never}
+## Nunca será compatible {#never}
 
 * Métrica de personas que utiliza la cooperación entre dispositivos
 
