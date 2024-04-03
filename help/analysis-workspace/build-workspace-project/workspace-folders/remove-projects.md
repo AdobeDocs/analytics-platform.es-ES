@@ -5,10 +5,10 @@ title: Quitar proyectos de carpetas
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: caf16a6971c4474516e116f8cb62e37f0bf6a06b
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 81%
 
 ---
 
@@ -42,9 +42,9 @@ Puede mover proyectos de una carpeta a otra que haya creado.
 
 ## Eliminación de un proyecto de una carpeta de proyecto {#delete-project-in-folder}
 
-Al eliminar un proyecto de una carpeta, este se borra por completo.
+Cuando se elimina un proyecto de una carpeta, se elimina del sistema pasados 180 días. Durante los 180 días posteriores a la eliminación, los usuarios aún pueden acceder a un proyecto a través de la interfaz web si tienen una URL directa al proyecto.
 
-1. En una carpeta de proyecto, seleccione los puntos suspensivos **...** junto al nombre del proyecto.
+1. En una carpeta de proyecto, seleccione los puntos suspensivos **…** junto al nombre del proyecto.
 
    ![Las opciones de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
