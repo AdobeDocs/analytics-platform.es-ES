@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 56b909a542915cd64251fb8849e55df920668025
+source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1523'
 ht-degree: 8%
 
 ---
@@ -121,7 +121,7 @@ Consulte también Experience Platform [Protecciones de Real-time Customer Data P
 |---|--:|---|---|
 | Campos | 10.000 | Protección impuesta por el sistema | Número máximo de propiedades o campos por fila en un conjunto de datos. |
 | Cadenas únicas | 10 millones | Protección impuesta por el sistema | Número máximo de claves únicas por conjunto de datos de búsqueda. |
-| Filas | 1 millón | Protección impuesta por el sistema | Número máximo de filas por ID único de persona dentro de una conexión. |
+| Filas | 1 millón | Protección impuesta por el sistema | Número máximo de filas por ID de persona único en un mes determinado dentro de una conexión. |
 | Tamaño de fila | 2 | Protección de rendimiento / Protección impuesta por el sistema | Tamaño medio en kilobytes por fila de datos introducidos en el Customer Journey Analytics (límite flexible). Las protecciones determinan un límite estático para el tamaño de fila para la ingesta de datos en Experience Platform. |
 
 {style="table-layout:auto"}
