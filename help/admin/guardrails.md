@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
+source-git-commit: 8af2c48c4895e6015c16e3973b6cd213aff38441
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1606'
 ht-degree: 8%
 
 ---
@@ -127,6 +127,18 @@ Consulte también Experience Platform [Protecciones de Real-time Customer Data P
 {style="table-layout:auto"}
 
 Consulte también Experience Platform [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+
+
+## Exportación de datos de destinos
+
+| Nombre | Valor | Tipo de límite | Descripción |
+|---|--:|---|---|
+| Exportación de datos | Almacenamiento total autorizado de Data Lake | Seguridad de rendimiento | El cliente puede utilizar la exportación del conjunto de datos de destino para exportar los datos del cliente en el lago de datos hasta el almacenamiento total autorizado del lago de datos. |
+| Conjuntos de datos disponibles | Perfil y evento | Protección forzada del sistema | Conjuntos de datos de perfil y evento de experiencia creados en la interfaz de usuario de Experience Platform después de la ingesta o recopilación de datos mediante fuentes, SDK web, SDK móvil, conector de datos de Analytics y Audience Manager. |
+
+{style="table-layout:auto"}
+
+Consulte también Experience Platform [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona de aterrizaje de datos
