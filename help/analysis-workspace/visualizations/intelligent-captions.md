@@ -1,17 +1,17 @@
 ---
 description: Utilice subtítulos inteligentes para generar perspectivas en lenguaje natural y mostrar rápidamente las tendencias dentro de las visualizaciones.
-title: Subtítulos inteligentes
+title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
+source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
-# Subtítulos inteligentes
+# Pies de ilustración inteligentes
 
 Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones de Workspace. La versión inicial proporciona perspectivas generadas automáticamente para el [Línea](line.md) visualización. (A continuación se muestran otras visualizaciones).
 
@@ -71,3 +71,7 @@ Puede **exportar subtítulos mediante PDF**, siempre que el proyecto se guarde c
 Si no desea que se generen subtítulos inteligentes, puede desactivar esta función en Preferencias de visualización y desmarcar **[!UICONTROL Mostrar subtítulos inteligentes]**.
 
 ![Opciones de visualización de líneas que muestran la opción para desactivar Mostrar subtítulos inteligentes.](assets/toggle-captions.png)
+
+## Subtítulos inteligentes en cuadros de resultados móviles
+
+Para obtener más información, consulte [Administrar cuadros de resultados](/help/mobile-app/manage-scorecard.md)

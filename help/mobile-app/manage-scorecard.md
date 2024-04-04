@@ -1,172 +1,20 @@
 ---
-description: Cómo crear y compartir cuadros de resultados de paneles de Analytics
-title: Crear y compartir cuadros de resultados
+description: Visualización y administración de los cuadros de resultados de los paneles de Analytics
+title: Administrar cuadros de resultados
 feature: Analytics Dashboards
 role: User, Admin
-exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
 workflow-type: tm+mt
-source-wordcount: '2659'
-ht-degree: 68%
+source-wordcount: '1648'
+ht-degree: 72%
 
 ---
 
-# Creación de un cuadro de resultados móvil
 
-La siguiente información enseña a los depuradores de datos de los Customer Journey Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Analytics:
+# Administrar cuadros de resultados
 
->[!VIDEO](https://video.tv.adobe.com/v/343458)
-
->[!NOTE]
->
->Las capturas de pantalla del cuadro de resultados de Analytics para esta página se tomaron en la interfaz de usuario de Adobe Analytics, no del Customer Journey Analytics. Las IU son casi idénticas.
-
-Un cuadro de resultados de Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
-
-![Ejemplo de informe de valoración de Analytics que muestra la demostración de informe de valoración móvil](assets/intro_scorecard.png)
-
-Como gestor de datos del cuadro de resultados, puede utilizar el generador del cuadro de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. A continuación, se muestra la interfaz del generador de cuadros de resultados:
-
-![Generador de cuadros de resultados que muestra la nueva ventana del cuadro de resultados móvil. ](assets/scorecard_builder.png)
-
-Para crear el informe de valoración, debe hacer lo siguiente:
-
-1. Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco].
-2. Configure el cuadro de resultados con datos y guárdelo.
-
-## Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco] {#template}
-
-Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blanco] al crear un nuevo proyecto o desde el menú Herramientas.
-
-### Creación de un nuevo proyecto {#create}
-
-1. Abra el Customer Journey Analytics y haga clic en **[!UICONTROL Workspace]** pestaña.
-1. Haga clic en **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL Informe de valoración móvil en blanco]**.
-1. Haga clic en **[!UICONTROL Crear]**.
-
-![Ventana Todas las plantillas con el informe de valoración móvil en blanco seleccionado.](assets/new_template.png)
-
-### Menú Herramientas
-
-1. En el menú **[!UICONTROL Herramientas]**, seleccione **[!UICONTROL Paneles de Analytics (aplicación móvil)]**.
-1. En la pantalla siguiente, haga clic en **[!UICONTROL Crear nuevo informe de valoración]**.
-
-## Configure el informe de valoración con datos y guárdelo {#configure}
-
-Para implementar la plantilla del informe de valoración:
-
-1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique una **[!UICONTROL Vista de datos de proyecto]**, cuyos datos quiera utilizar.
-
-   ![Nueva ventana del cuadro de resultados móvil que resalta la selección de vista de datos](assets/properties_save.png)
-
-1. Para agregar un nuevo mosaico al cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en el **[!UICONTROL Arrastre y suelte las métricas aquí]** zona. También puede insertar una métrica entre dos mosaicos del mismo modo.
-
-   ![Nueva ventana Cuadro de mandos móvil con una flecha que señala a una métrica (Nuevo KPI) colocada en el cuadro de mandos. ](assets/build_list.png)
-
-
-1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
-
-## Adición de dimensiones o métricas {#dimsmetrics}
-
-Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
-
-Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico. Los desgloses de dimensiones aparecen en la sección [!UICONTROL Profundizar en] (desglose) de las **[!UICONTROL Propiedades]** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
-
-![Nueva ventana del cuadro de resultados móvil con una flecha que señala desde la lista de dimensiones al panel Cuadro de resultados.](assets/layer_dimensions.png)
-
-## Aplicar filtros {#filters}
-
-Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en Customer Journey Analytics) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
-
-Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Usted [configuración y aplicación de filtros para los cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que en Customer Journey Analytics Workspace.
-
-![Selector desplegable de filtro que resalta los filtros de compilación](assets/segment_ui.png)
-
-## Adición de intervalos de fechas {#dates}
-
-Añada y quite combinaciones de intervalos de fechas que se puedan seleccionar en el cuadro de resultados seleccionando la lista desplegable de intervalo de fechas.
-
-![Nuevo informe de valoración móvil que destaca Ayer frente al mismo día de la semana pasada](assets/new_score_card.png)
-
-Cada nuevo cuadro de resultados comienza con 6 combinaciones de intervalo de fechas que se centran en los datos de hoy y ayer. Puede quitar intervalos de fechas innecesarios haciendo clic en la x o puede editar cada combinación de intervalos de fechas haciendo clic en el lápiz.
-
-![Nuevo cuadro de resultados móvil que resalta el icono de lápiz](assets/new_score_card2.png)
-
-Para crear o cambiar una fecha principal, utilice la lista desplegable para seleccionar entre intervalos de fechas disponibles o arrastre y suelte un componente de fecha del carril derecho en la zona de colocación.
-
-![Nuevo cuadro de resultados móvil que resalta los intervalos de fechas con la opción Fecha principal/Ayer seleccionada](assets/new_score_card3.png)
-
-Para crear una fecha de comparación, puede seleccionar entre cómodos preconjuntos para comparaciones de tiempo comunes en el menú desplegable. También puede arrastrar y soltar un componente de fecha desde el carril derecho.
-
-![Nuevo informe de valoración móvil que resalta los intervalos de fechas con la opción Fecha de comparación establecida en Mismo día la semana pasada seleccionada](assets/new_score_card4.png)
-
-Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo haciendo clic en el icono de calendario.
-
-![Icono de calendario](assets/new_score_card5.png)
-
-Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas.
-
-### Mostrar u ocultar intervalos de fechas de comparación {#show-comparison-dates}
-
-Para incluir intervalos de fechas de comparación, cambie la configuración de **Incluir fechas de comparación**.
-
-![Nuevo informe de valoración móvil que destaca Ayer frente al día anterior e Incluye fechas de comparación](assets/include-comparison-dates.png)
-
-La configuración está *activa* de forma predeterminada. Cambie a *desactivado* si no desea ver las fechas de comparación.
-
-![Nuevo informe de valoración móvil que destaca Ayer e Incluye fechas de comparación](assets/no-comparison-dates.png)
-
-## Aplicación de visualizaciones {#viz}
-
-Los paneles de Analytics ofrecen cuatro visualizaciones que le proporcionan buenos conocimientos de los elementos y las métricas de dimensión. Cambie a una visualización diferente al variar el [!UICONTROL tipo de gráfico] de las [!UICONTROL propiedades] de un mosaico. Seleccione el mosaico derecho y cambie el tipo de gráfico.
-
-![Propiedades del mosaico](assets/properties.png)
-
-O bien, haga clic en el botón [!UICONTROL Visualizaciones] en el carril izquierdo y arrastre y suelte la visualización derecha en el mosaico:
-
-![Visualizaciones](assets/vizs.png)
-
-### [!UICONTROL Número de resumen]
-
-Utilice la visualización Número de resumen para resaltar un número elevado que es importante en un proyecto.
-
-![Nuevo informe de valoración móvil con visualización de número de resumen en la que se destacan 13.300 visitas](assets/summary-number.png)
-
-### [!UICONTROL Anillo]
-
-Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de personas únicas:
-
-![Nuevo cuadro de resultados móvil que muestra una visualización Anillo](assets/donut-viz.png)
-
-### [!UICONTROL Líneas]
-
-La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas muestra las dimensiones a lo largo del tiempo, pero funciona con cualquier visualización. En este ejemplo se visualiza la dimensión de la categoría del producto.
-
-![Nuevo cuadro de resultados móvil con una visualización de Línea](assets/line.png)
-
-### [!UICONTROL Barra horizontal]
-
-Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas. Por ejemplo, para ver fácilmente cuáles son sus productos principales, utilice las [!UICONTROL Barras horizontales] para su visualización preferida.
-
-![Nuevo cuadro de resultados móvil con una barra horizontal](assets/horizontal.png)
-
-## Nombrar cuadros de resultados {#name}
-
-Para asignar un nombre al cuadro de mandos, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
-
-![Naming_Scorecards](assets/new_name.png)
-
-### Eliminar elemento de dimensión [!UICONTROL no especificado] {#remove-dims}
-
-Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los datos, haga lo siguiente:
-
-1. Seleccione el mosaico correcto.
-1. En el carril derecho, debajo de **[!UICONTROL Profundizar en]**, seleccione la flecha derecha junto al elemento de dimensión cuyos elementos **[!UICONTROL No especificados]** desea eliminar.
-
-   ![Propiedades con una flecha que señala a la flecha derecha junto al nombre de la dimensión.](assets/unspecified.png)
-
-1. Haga clic en el icono situado junto a **[!UICONTROL No especificado]** para eliminar los datos no especificados de los informes. También puede eliminar cualquier otro elemento de dimensión.
+En este tema se enseña a los depuradores de datos de Customer Journey Analytics cómo ver y administrar elementos del cuadro de resultados.
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
@@ -342,3 +190,24 @@ Para compartir un cuadro de resultados mediante un vínculo que se puede compart
 
    Si un destinatario no ha descargado la aplicación móvil, se le redirigirá a la lista de aplicaciones de la tienda de App Store o Google Play donde pueda descargarla.
 
+
+## Eliminar elemento de dimensión [!UICONTROL no especificado] {#remove-dims}
+
+Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los datos, haga lo siguiente:
+
+1. Seleccione el mosaico correcto.
+1. En el carril derecho, debajo de **[!UICONTROL Profundizar en]**, seleccione la flecha derecha junto al elemento de dimensión cuyos elementos **[!UICONTROL No especificados]** desea eliminar.
+
+   ![Propiedades con una flecha que señala a la flecha derecha junto al nombre de la dimensión.](assets/unspecified.png)
+
+1. Haga clic en el icono situado junto a **[!UICONTROL No especificado]** para eliminar los datos no especificados de los informes. También puede eliminar cualquier otro elemento de dimensión.
+
+## Ver subtítulos inteligentes en cuadros de resultados
+
+Los subtítulos inteligentes pueden ayudar a los no analistas a dar mejor sentido a sus datos sin la ayuda de los analistas. Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones.
+
+Para ver subtítulos inteligentes:
+
+1. Haga clic en un mosaico.
+
+1. more

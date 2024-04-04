@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: e8d55cfbb0bb50269e436bc3c38a88bc4830bed0
+source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1067'
 ht-degree: 79%
 
 ---
@@ -188,7 +188,8 @@ ht-degree: 79%
    + [Paneles de Analytics: Información general](../mobile-app/home.md)
    + [Tareas del gestor de datos](../mobile-app/curator.md)
    + [Creación de un cuadro de resultados móvil](../mobile-app/create-scorecard.md)
-   + [Configuración de ejecutivos para que utilicen paneles](../mobile-app/set-up-execs.md)
+   + [Administrar cuadros de resultados móviles](../mobile-app/manage-scorecard.md)
+   + [Configuración de ejecutivos para que utilicen tableros](../mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
 
 + Análisis guiado {#guided-analysis}
