@@ -5,9 +5,9 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '544'
 ht-degree: 6%
 
 ---
@@ -39,3 +39,4 @@ La mejor manera de dar cabida a las dimensiones de alta cardinalidad es limitar 
 * Utilice una dimensión del conjunto de datos de búsqueda. Las dimensiones del conjunto de datos de búsqueda combinan elementos de dimensión del conjunto de datos de evento, lo que limita el número de valores únicos devueltos.
 * Utilice el [Incluir/excluir](/help/data-views/component-settings/include-exclude-values.md) configuración de componentes en el administrador de vista de datos.
 * Reduzca el intervalo de fechas de la solicitud. Si muchos valores únicos se acumulan con el tiempo, acortar el intervalo de fechas del informe de Workspace puede limitar el número de valores únicos que deben procesar los servidores.
+* Considere utilizar [Exportación de tabla completa](/help/analysis-workspace/export/export-cloud.md) para devolver todas las filas de la tabla.

@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 12007130027d152038b1210070f6ebd5de15c762
+source-git-commit: dd4a2e4770e0ead4c7b4c578acd2ceacdfaa856c
 workflow-type: tm+mt
-source-wordcount: '3246'
+source-wordcount: '3277'
 ht-degree: 78%
 
 ---
@@ -19,8 +19,10 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Abril de 2024** | |
+| Se ha añadido información que recomienda la exportación de tabla completa para dimensiones de alta cardinalidad | Se ha añadido una viñeta en [Prácticas recomendadas para dimensiones de alta cardinalidad](/help/components/dimensions/high-cardinality.md) para recomendar el uso de Exportación de tabla completa para dimensiones de alta cardinalidad. |
 | **Marzo de 2024** | |
-| La información de uso relativa a la columna &quot;Utilizado en&quot; solo está disponible a partir de septiembre de 2023. | Se ha aclarado que la información de uso relativa a **Utilizado en** en la columna [página de aterrizaje de proyectos](/help/getting-started/landing.md) solo se remonta hasta septiembre de 2023. |
+| La información de uso relativa a la columna “Utilizado en” solo está disponible a partir de septiembre de 2023. | Se ha aclarado que la información de uso relativa a la columna **Utilizado en** en la [página de aterrizaje de proyectos](/help/getting-started/landing.md) solo se remonta hasta septiembre de 2023. |
 | **Febrero de 2024** | |
 | Actualizaciones de la documentación sobre proyectos compartidos | Se ha añadido información acerca de cómo [ver los proyectos compartidos con usted](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>También se ha simplificado la información sobre [uso compartido de proyectos individuales o múltiples](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Requisitos de permiso añadidos para cargar archivos en Azure SAS y Azure RBAC al configurar ubicaciones de exportación en la nube | Se agregaron requisitos de permiso exactos para cargar archivos en Azure SAS y Azure RBAC al [configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md) y [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
