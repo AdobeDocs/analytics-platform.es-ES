@@ -4,13 +4,13 @@ title: Administrar cuadros de resultados
 feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
+source-git-commit: 6149d2cf23eb31f0aaa37546d3150017e155053c
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 72%
+source-wordcount: '1792'
+ht-degree: 66%
 
 ---
-
 
 # Administrar cuadros de resultados
 
@@ -202,12 +202,30 @@ Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los dat
 
 1. Haga clic en el icono situado junto a **[!UICONTROL No especificado]** para eliminar los datos no especificados de los informes. También puede eliminar cualquier otro elemento de dimensión.
 
-## Ver subtítulos inteligentes en cuadros de resultados
+## Ver subtítulos inteligentes en cuadros de resultados {#captions}
 
 Los subtítulos inteligentes pueden ayudar a los no analistas a dar mejor sentido a sus datos sin la ayuda de los analistas. Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones.
 
-Para ver subtítulos inteligentes:
+Estos subtítulos recogen perspectivas estadísticas clave en los datos y las expresan en lenguaje natural, ayudando así a los no analistas a desarrollar su conocimiento de los datos.
 
-1. Haga clic en un mosaico.
+Los subtítulos inteligentes están disponibles para todas las visualizaciones de la aplicación móvil, como Línea, Anillo, Gráfico de barras y Número de resumen.
 
-1. more
+Para ver subtítulos inteligentes en un cuadro de resultados móvil:
+
+1. En un cuadro de resultados, haga clic en un mosaico. Por ejemplo, en este cuadro de resultados, haga clic en el gráfico de líneas de la parte inferior.
+
+   ![Cuadro de resultados con visualización de líneas](assets/caption1.png)
+
+1. Pulse el icono azul en la parte superior derecha para generar los subtítulos. Los subtítulos aparecerán debajo del gráfico de líneas.
+
+   ![Pie de ilustración inteligente en la visualización de líneas](assets/caption2.png)
+
+1. Deslice a la derecha para ver todos los subtítulos inteligentes.
+
+   Los subtítulos inteligentes pueden señalar a picos de datos, anomalías, tendencias, caídas, correlaciones y otros fenómenos.
+
+1. Pulse la bandera negra dentro de un pie de ilustración para informar de un problema, como contenido dañino o ilegal.
+
+   ![Informar de problemas con el pie de ilustración](assets/caption-report.png)
+
+1. Haga clic en la X para salir del **[!UICONTROL Resultados del informe]** diálogo.
