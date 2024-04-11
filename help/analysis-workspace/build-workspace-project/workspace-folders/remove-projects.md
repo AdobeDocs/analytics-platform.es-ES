@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
 source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Puede mover proyectos de una carpeta a otra que haya creado.
 
 ## Eliminación de un proyecto de una carpeta de proyecto {#delete-project-in-folder}
 
-Cuando se elimina un proyecto de una carpeta, se elimina del sistema pasados 180 días. Durante los 180 días posteriores a la eliminación, los usuarios aún pueden acceder a un proyecto eliminado a través de la interfaz web si tienen una URL directa al proyecto.
+Cuando se elimina un proyecto de una carpeta, se elimina del sistema pasados 180 días. Durante los 180 días posteriores a la eliminación, los usuarios podrán seguir accediendo a un proyecto eliminado a través de la interfaz web si tienen una dirección URL directa al proyecto.
 
 1. En una carpeta de proyecto, seleccione los puntos suspensivos **…** junto al nombre del proyecto.
 
