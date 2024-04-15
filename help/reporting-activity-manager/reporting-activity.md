@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: d6f2d7129b472b32edc30dadfeb2303a92d790de
+source-git-commit: 4cb3c61a518b93119d8ffd503fc8653076ad56a1
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2007'
 ht-degree: 7%
 
 ---
@@ -29,6 +29,8 @@ Para obtener más información sobre el Administrador de actividades de creació
 1. Para ver el número total de solicitudes de informe para todas las conexiones de la organización, expanda [!UICONTROL **Mostrar más**] para ver la [!UICONTROL **Solicitudes de informe mensuales**] gráfico.
 
    Puede ver el número de solicitudes de informes dentro de su organización para el mes actual y el mes anterior.
+
+   ![Actividad de informes que muestra la cola de informes](assets/reporting-activity-monthly.png)
 
 1. (Opcional) Puede buscar o filtrar la lista de conexiones:
 
