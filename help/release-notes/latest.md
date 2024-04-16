@@ -6,21 +6,21 @@ feature: Release Notes
 source-git-commit: 6057084f26c85929d307f2b7d750358dce590ca6
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
 # Notas actuales de la versión de Adobe Customer Journey Analytics (marzo de 2024)
 
-**Última actualización**: jueves, 10 de abril de 2024
+**Última actualización**: 10 de abril de 2024
 
-Estas notas de la versión abarcan el periodo de lanzamiento del jueves, 13 de marzo de 2024 a abril de 2024. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo de lanzamiento del 13 de marzo de 2024 a abril de 2024. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Funciones nuevas o actualizadas
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Subtítulos inteligentes en cuadros de resultados móviles** | [Subtítulos inteligentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) puede ayudar a los no analistas a dar mejor sentido a sus datos sin la ayuda de analistas. Ahora están disponibles en cuadros de resultados de Customer Journey Analytics. |  | 17 de abril de 2024 |
+| **Subtítulos inteligentes en cuadros de resultados móviles** | Los [subtítulos inteligentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) pueden ayudar a los que no son analistas a dar un mayor sentido a sus datos sin la ayuda de analistas. Ahora están disponibles en los cuadros de resultados de Customer Journey Analytics. |  | 17 de abril de 2024 |
 | **Cambio en el protocolo de eliminación de proyectos de Workspace** | Anteriormente, los proyectos de Workspace eliminados nunca se eliminaban del sistema. Ahora empezaremos a depurar los proyectos eliminados pasados 180 días. Durante los 180 días posteriores a la eliminación, los usuarios podrán seguir accediendo a un proyecto eliminado a través de la interfaz web si tienen una dirección URL al proyecto directo. | | 14 de marzo de 2024 |
 | **Nueva columna disponible en la página de aterrizaje Proyectos** | La columna **[!UICONTROL Último uso]** está disponible ahora al ver la pestaña Proyectos en la [página de aterrizaje del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=es). <p>Esta información puede ayudarle a determinar si un proyecto es valioso para los usuarios de su organización, ya que muestra la fecha y la hora en que se abrió por última vez. Anteriormente, la columna **[!UICONTROL Último uso]** solo estaba disponible en el Administrador de métricas calculadas, el Administrador de segmentos y el Administrador de alertas.</p> |  | 13 de marzo de 2024 |
 | **Documentación de casos de uso para las API de Media Edge** | Hay dos nuevos casos de uso disponibles para usar las API de Media Edge. El primer caso de uso describe cómo rastrear una sesión de medios que incluye [dos capítulos con una pausa publicitaria](https://developer.adobe.com/cja-apis/docs/use-cases/media-edge/chapters-with-ad-timeline/). El segundo caso de uso describe cómo rastrear una sesión de medios que incluye [estado de búfer y pausa](https://developer.adobe.com/cja-apis/docs/use-cases/media-edge/buffer-and-pause-timeline/). |  | 13 de marzo de 2024 |
