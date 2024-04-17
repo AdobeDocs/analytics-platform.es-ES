@@ -5,10 +5,10 @@ title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cdf99e31790f089950de8063445b6264158131dd
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 2%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
@@ -48,13 +48,19 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. Seleccione el [!UICONTROL **Ubicaciones**] pestaña.
 
+1. (Condicional) Si es administrador del sistema, puede habilitar la variable [!UICONTROL **Ver ubicaciones para todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+
 1. En el campo de búsqueda, empiece a escribir cualquier información asociada con la ubicación que está buscando. Puede buscar datos de cualquier columna disponible en la tabla.
 
 ## Editar ubicaciones
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Ubicaciones**] y, a continuación, seleccione la ubicación que desee editar.
+1. Seleccione el [!UICONTROL **Ubicaciones**] pestaña.
+
+1. (Condicional) Si es administrador del sistema, puede habilitar la variable [!UICONTROL **Ver ubicaciones para todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+
+1. Seleccione la ubicación que desee editar.
 
    ![Ventana de exportaciones que muestra la pestaña Ubicaciones y la lista de ubicaciones.](assets/locations-edit.png)
 
@@ -70,7 +76,11 @@ Para eliminar una ubicación:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione el [!UICONTROL **Ubicaciones**] y, a continuación, seleccione una o varias ubicaciones que desee eliminar.
+1. Seleccione el [!UICONTROL **Ubicaciones**] pestaña.
+
+1. (Condicional) Si es administrador del sistema, puede habilitar la variable [!UICONTROL **Ver ubicaciones para todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+
+1. Seleccione una o varias ubicaciones que desee eliminar.
 
    ![Ventana de exportaciones que muestra la pestaña Ubicaciones y la lista de ubicaciones](assets/locations-edit.png)
 
@@ -92,6 +102,8 @@ Para eliminar una ubicación:
 
    ![Ventana de exportaciones que muestra la pestaña Cuentas de ubicación](assets/account-add.png)
 
+1. (Condicional) Si es administrador del sistema, puede habilitar la variable [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+
 1. Seleccionar [!UICONTROL **Ver detalles**] en la cuenta que desee editar.
 
 1. Realice los cambios que desee y seleccione [!UICONTROL **Guardar**].
@@ -108,6 +120,8 @@ Para ver las claves asociadas a una cuenta de exportación:
 
    ![Ventana de exportaciones que muestra la pestaña Cuentas de ubicación](assets/account-add.png)
 
+1. (Condicional) Si es administrador del sistema, puede habilitar la variable [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+
 1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Claves de cuenta**].
 
 ## Eliminar cuentas
@@ -117,6 +131,8 @@ Para ver las claves asociadas a una cuenta de exportación:
 1. Seleccione el [!UICONTROL **Cuentas de ubicación**] pestaña.
 
    ![Ventana de exportaciones que muestra la pestaña Cuentas de ubicación](assets/account-add.png)
+
+1. (Condicional) Si es administrador del sistema, puede habilitar la variable [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
 
 1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Eliminar cuenta**].
 
