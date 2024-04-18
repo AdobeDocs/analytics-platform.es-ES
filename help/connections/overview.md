@@ -5,17 +5,18 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 55%
 
 ---
 
 # Información general sobre conexiones
 
-Las conexiones permiten a los administradores de productos de Customer Journey Analytics establecer conexiones con diferentes fuentes de datos de AEP, como conjuntos de datos de evento, búsqueda y perfil. Estas conexiones permiten la integración de datos de una Conexión a una Vista de datos derivada. Se recomienda restringir el acceso a la administración de Conexiones a un grupo de administración principal. Las configuraciones a nivel de conexión tienen implicaciones contractuales con respecto a las asignaciones de volumen para los datos introducidos en Customer Journey Analytics.
-Las conexiones son la base de CJA y se crean a partir de conjuntos de datos de origen de AEP. El acceso a Conexiones también permite ver el administrador de Conexiones, que le permite ver los conjuntos de datos subyacentes que componen la conexión, así como realizar selecciones críticas de edición y configuración.
+Las conexiones permiten a los administradores de productos de Customer Journey Analytics establecer conexiones con diferentes [!DNL Adobe Experience Platform] fuentes de datos, como eventos, búsquedas y conjuntos de datos de perfil. Estas conexiones permiten la integración de datos de una Conexión a una Vista de datos derivada. Las conexiones son la base de CJA y se crean desde [!DNL Experience Platform] conjuntos de datos de origen. El acceso a Conexiones también le permite ver el administrador de Conexiones, donde puede ver los conjuntos de datos subyacentes que componen la conexión, así como realizar selecciones críticas de edición y configuración.
+
+Se recomienda restringir el acceso a la administración de Conexiones a un grupo de administración principal. Las configuraciones a nivel de conexión tienen implicaciones contractuales con respecto a las asignaciones de volumen para los datos introducidos en Customer Journey Analytics.
 
 A continuación, se muestra un vídeo introductorio:
 

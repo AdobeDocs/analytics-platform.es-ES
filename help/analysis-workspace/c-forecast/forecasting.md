@@ -4,9 +4,9 @@ title: Resumen de previsión
 feature: Visualizations
 role: User
 exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
-source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 {{select-package}}
 
-La previsión es una función de Analysis Workspace que ayuda a prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). La previsión solo está disponible para datos relacionados con series temporales.
+La previsión incluye una predicción estadística de datos relacionados con series temporales basada en los datos históricos que ya existen en Customer Journey Analytics. Las previsiones pueden aparecer en tablas de forma libre y visualizaciones de gráficos de líneas. Los usuarios pueden controlar si la previsión se incluye automáticamente a través de sus preferencias de usuario en la interfaz de usuario de Customer Journey Analytics. También pueden activarlos y desactivarlos por columna dentro de la configuración de columna. Solo la primera columna añadida a una tabla ya tiene activada la previsión.
+
+La previsión está disponible en los niveles de licencia de Customer Journey Analytics Select y superiores.
 
 Puede aprovechar la previsión para:
 
