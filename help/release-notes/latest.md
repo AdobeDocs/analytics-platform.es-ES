@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 69566b840301f87a6362d6bd16b1e255a14d4e23
+source-git-commit: abaa747934ff2cdd0a3dab867165afb46fbc71db
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 48%
+source-wordcount: '945'
+ht-degree: 44%
 
 ---
 
@@ -32,6 +32,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 10 de abril de 
 | **Transformación de esquemas B2B para persona a cuenta** | Permite transformar conjuntos de datos para que admitan mejor las búsquedas basadas en personas en escenarios de creación de informes B2B de Customer Journey Analytics. Esta capacidad está disponible para conjuntos de datos para esquemas B2B basados en las siguientes clases:<ul><li>Relación de persona de cuenta empresarial de XDM</li><li>Relación de persona de oportunidad empresarial de XDM</li><li>Miembros de lista de marketing empresarial de XDM</li><li>Miembros de campaña empresarial de XDM</li></ul> | | jueves, 01 de mayo de 2024 |
 | **Detección de bots de Experience Edge** | [Detección de bots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=es) permite identificar eventos generados por SDK web, SDK móvil y API de servidor como si fueran generados por arañas de web y bots conocidos. | | jueves, 01 de mayo de 2024 |
 | **Campos derivados: Función Siguiente o Anterior** | Estas nuevas funciones le permiten tomar un campo como entrada e identificar el valor n-anterior o n-siguiente para obtener una mejor vista del recorrido del usuario. Esta funcionalidad también se puede combinar con otras funciones en [!UICONTROL Campos derivados], como [!UICONTROL Concatenar], para crear nuevas dimensiones. |  | jueves, 01 de mayo de 2024 |
+| **Los púbicos se publican en una nueva sección &quot;Públicos&quot; en Experience Platform** | Las audiencias publicadas desde Customer Journey Analytics ahora están disponibles en la nueva sección &quot;Audiencias&quot; de Adobe Experience Platform.<p>Anteriormente, las audiencias publicadas desde Customer Journey Analytics estaban disponibles en Experience Platform en la sección &quot;Segmentos&quot;.</p><p>Esta mejora ofrece las siguientes ventajas:</p><ul><li>Las audiencias ya no tienen un retraso de 1 hora antes de aparecer en Experience Platform; están disponibles segundos después de su publicación.</li><li>Las audiencias se pueden ordenar en Experience Platform mediante la columna &quot;Origen&quot;, que muestra la aplicación desde la que se publicó originalmente la audiencia.</li><li>Las opciones de filtro y ordenación de Experience Platform permiten encontrar más rápidamente las audiencias relevantes.</li></ul> |  | Mayo de 2024 |
 
 {style="table-layout:auto"}
 
