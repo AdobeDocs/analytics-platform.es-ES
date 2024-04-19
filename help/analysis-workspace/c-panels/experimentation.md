@@ -4,9 +4,9 @@ title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 68289e274c8ea985b6d07bca228f5e6654e05aa4
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1889'
 ht-degree: 58%
 
 ---
@@ -15,9 +15,7 @@ ht-degree: 58%
 
 El panel **[!UICONTROL Experimentación]** permite que los analistas comparen distintas variaciones de experiencia del usuario, marketing o mensajería para determinar cuál es la mejor opción a fin de obtener un resultado específico. Puede evaluar el alza y la confianza de cualquier experimento A/B desde cualquier plataforma de experimentación: en línea, sin conexión, desde soluciones de Adobe, Adobe Journey Optimizer e incluso datos propios.
 
->[!IMPORTANT]
->
->En este punto, [Adobe Analytics para Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) Datos de (A4T) *no puede* analizarse en el panel Experimentación.
+Más información sobre la [integración entre Adobe Customer Journey Analytics y Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja4t/cja4t).
 
 ## Control de acceso {#access}
 
@@ -33,7 +31,7 @@ El esquema de datos recomendado es que los datos del experimento estén en una [
 
 Después de añadir los datos del experimento [introducido](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es) en Adobe Experience Platform, [crear una conexión en el Customer Journey Analytics](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
 
-## Paso 2: Añadir etiquetas de contexto en vistas de datos {#contect-labels}
+## Paso 2: Añadir etiquetas de contexto en vistas de datos {#context-labels}
 
 En la configuración de vistas de datos del Customer Journey Analytics, los administradores pueden agregar lo siguiente [etiquetas de contexto](/help/data-views/component-settings/overview.md) a una dimensión o métrica y servicios de Customer Journey Analytics como [!UICONTROL Experimentación] El panel puede utilizar estas etiquetas para sus fines. Para el panel Experimentación se utilizan dos etiquetas predefinidas:
 
