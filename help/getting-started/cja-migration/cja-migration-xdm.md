@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 86ce60cf-b3c7-43b5-aa18-9e16fa942e54
-source-git-commit: 923dfac33fcde368392fe29c6530069cc0d8fb9d
+source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ La información de esta página cubre el paso 4, como se indica en la tabla sigu
 
 +++
 
-La siguiente tabla muestra los métodos de implementación que requieren que asigne datos al esquema XDM:
+No todos los métodos de migración requieren que asigne los datos de Adobe Analytics al esquema XDM. La siguiente tabla muestra qué métodos de implementación requieren la asignación de esquema XDM:
 
 
 | Método de migración | ¿Se requiere asignación XDM? | Más información |
