@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 5c5e526c6442c6ad1c749b6472a342590db2eff5
+source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2034'
 ht-degree: 96%
 
 ---
@@ -47,7 +47,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Segmentos | Compatibilidad total. Ahora se denominan “Filtros”: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
 | Grupos de informes virtuales | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de grupo de informes virtuales | Compatibilidad total. Ahora forma parte de Vistas de datos. |
-| Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Se admite para ambos conjuntos basados en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) y para conjuntos de datos generados por WebSDK. Consulta [Documentación sobre las variables de Analytics que se admiten mediante ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es). Si utilizas la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten dispositivos ni dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. Para añadir búsquedas de dispositivos y exploradores al flujo de datos del SDK web, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es) |
+| Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Se admite para ambos conjuntos basados en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) y para conjuntos de datos generados por WebSDK. Consulta [Documentación sobre las variables de Analytics que se admiten mediante ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es). Si utilizas la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten dispositivos ni dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. Para agregar búsquedas de dispositivos y exploradores a su flujo de datos del SDK web, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es) |
 | Streaming de medios de Analytics | Los datos de medios están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |
 
 {style="table-layout:auto"}

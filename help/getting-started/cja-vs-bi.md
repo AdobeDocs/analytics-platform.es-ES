@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
-workflow-type: ht
-source-wordcount: '1650'
-ht-degree: 100%
+source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
+workflow-type: tm+mt
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Customer Journey Analytics utiliza una potente arquitectura propietaria que dist
 
 * **Aplicación rápida de rutas y filtros complejos**: el motor de creación de informes trabaja sobre conjuntos de datos jerárquicos parcialmente ordenados (por ejemplo, persona -> sesiones -> eventos). Todos los datos de un objeto de nivel superior (perfiles individuales) residen en un único nodo de procesamiento para que los resultados sean precisos. Esta partición permite la aplicación rápida de rutas y filtros complejos. Las operaciones complejas, como la sesionización, la atribución, la persistencia de atributos de datos con estado y las opciones complejas de manipulación de datos, se ejecutan a escala con un tiempo de creación de informes rápido. En el mundo de BI, ese tipo de operaciones generalmente requieren la creación de nuevos cubos OLAP para cada caso de uso. El motor de creación de informes de Customer Journey Analytics permite acceder sin restricciones a todo el conjunto de datos en cada consulta, lo que da como resultado datos totalmente correlacionados sin necesidad de realizar ninguna cubicación previa.
 
-* **Consulta eficiente de flujos de datos complejos**: una de las mayores diferencias del motor de creación de informes con respecto a las bases de datos SQL y NoSQL tradicionales es su capacidad para determinar predicados basados en relaciones orientadas a secuencias a un nivel fundamental. Estas operaciones fundamentales de consulta pueden examinar el flujo de registros, que está formado por muchas secuencias intercaladas (e incluso anidadas). Realizan una consulta con todos estos flujos de datos entrelazados con la eficacia de una única operación de secuencia contigua.
+* **Consulta eficiente de flujos de datos complejos**: una de las principales diferencias del motor de creación de informes con respecto a las bases de datos SQL y NoSQL tradicionales es su capacidad para determinar predicados basados en relaciones orientadas a secuencias a un nivel fundamental. Estas operaciones fundamentales de consulta pueden examinar el flujo de registros, que está formado por muchas secuencias intercaladas (e incluso anidadas). Realizan una consulta con todos estos flujos de datos entrelazados con la eficacia de una única operación de secuencia contigua.
 
 * **Diseñado para responder rápidamente a consultas grandes**: el motor de creación de informes no tiene un propósito tan general como los sistemas tradicionales de big data. No obstante, está diseñado específicamente para responder a consultas que abarcan millones o incluso miles de millones de registros (datos de eventos / eventos de experiencia), generalmente en menos de un segundo. A diferencia de otros sistemas de big data, no lo hace muestreando los datos o precalculando las respuestas a todas las preguntas que cree que se le pueden plantear. En su lugar, es capaz de calcular las respuestas lo suficientemente rápido como para soportar casos de uso de consultas interactivas. Este diseño específico del motor de creación de informes de Customer Journey Analytics facilita la disponibilidad inmediata de los datos a alta velocidad para su análisis y exploración continuos, lo que le permite obtener perspectivas y una comprensión progresiva de los recorridos de los clientes.
 
