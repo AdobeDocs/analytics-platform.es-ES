@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 7bc4425f11980780ab64a201029cd63e4bd7849c
+source-git-commit: 6d4fdb464775967074547f8401de679f181d29d7
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '1965'
 ht-degree: 2%
 
 ---
@@ -137,16 +137,6 @@ La siguiente ruta de migración está disponible para las organizaciones que han
 
 +++
 
-## A continuación, asigne datos al esquema XDM
+## A continuación, envíe datos a Adobe Experience Platform
 
-Después de enviar datos a Experience Platform siguiendo los vínculos de la tabla anterior, es posible que tenga que hacer lo siguiente [asignación de datos al esquema XDM](/help/getting-started/cja-migration/cja-migration-xdm.md), según el método de implementación elegido.
-
-Los siguientes métodos de implementación requieren que asigne datos al esquema XDM:
-
-* Migración de la extensión de etiqueta de Adobe Analytics a la extensión de etiqueta del SDK web
-
-* Configure la implementación existente del SDK web de Adobe Analytics para enviar datos al Customer Journey Analytics
-
-Alternativamente, si elige realizar una nueva implementación del SDK web de Experience Platform, no es necesaria una asignación porque ya ha [configuración de un nuevo esquema XDM](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema) como parte de la nueva implementación de.
-
-Si eligió utilizar el conector de origen de Analytics para la migración, no se requiere una asignación porque el conector de origen de Analytics utiliza el esquema de Adobe Analytics existente en lugar del esquema XDM.
+Después de utilizar la información anterior para elegir una ruta de migración, aprenda a [envío de datos a Adobe Experience Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md) según la ruta de migración elegida.

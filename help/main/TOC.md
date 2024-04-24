@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
+source-git-commit: 366fc232fad278f6a6448d68cda6d0e1f05718f3
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 76%
+source-wordcount: '1091'
+ht-degree: 77%
 
 ---
 
@@ -46,12 +46,7 @@ ht-degree: 76%
       + [Introducción](/help/getting-started/cja-migration/cja-migration-getstarted.md)
       + [Elija una ruta de migración](/help/getting-started/cja-migration/cja-migration-path.md)
       + [Envío de datos a Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)
-      + [Asignación de datos a XDM](/help/getting-started/cja-migration/cja-migration-xdm.md)
       + [Conservar datos históricos](/help/getting-started/cja-migration/cja-migration-historical-data.md)
-      + [Planificar la incorporación del usuario](/help/getting-started/cja-migration/cja-migration-onboarding.md)
-      + [Uso de API de puerto](/help/getting-started/cja-migration/cja-migration-api.md)
-      + [Reemplazar fuentes de datos y Data Warehouse](/help/getting-started/cja-migration/cja-migration-export-options.md)
-      + [Migrar proyectos y componentes](/help/getting-started/cja-migration/cja-migration-projects.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
       + [Información general](../getting-started/aa-vs-cja/overview.md)
       + [Utilizar los datos de Adobe Analytics en Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
