@@ -4,10 +4,10 @@ title: Filtros rápidos
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 33%
+source-wordcount: '1170'
+ht-degree: 39%
 
 ---
 
@@ -17,9 +17,10 @@ Los filtros rápidos le permiten explorar fácilmente los datos de un proyecto d
 
 Tenga en cuenta lo siguiente al crear filtros rápidos:
 
-* Los filtros rápidos solo se aplican al proyecto en el que se crearon. No están disponibles en otros proyectos y no se pueden compartir con otros usuarios.
+* Los filtros rápidos solo se aplican al proyecto en el que se crearon. No están disponibles en otros proyectos y no se pueden compartir con otros usuarios. 
 * Se permite un máximo de 3 reglas.
 * No se admiten contenedores anidados ni reglas secuenciales.
+* Si comparte un proyecto con otros usuarios, estos pueden editar filtros rápidos y otros componentes solo de proyecto incrustados en el proyecto compartido.
 
 El siguiente vídeo muestra cómo utilizar filtros rápidos. (Nota: En este vídeo se utiliza el término &quot;segmentos rápidos&quot; en lugar de &quot;filtros rápidos&quot;.) Sin embargo, la funcionalidad es la misma.)
 
@@ -35,7 +36,7 @@ Para crear un filtro rápido:
 
    * **Ad hoc (arrastrar y soltar):** Desde el carril izquierdo, arrastre un componente a la zona de colocación situada junto a la etiqueta **Filtrar** en el encabezado del panel y, a continuación, seleccione **Editar** para ajustar el filtro.
 
-     ![Editar filtro ad hoc](assets/filter-adhoc-edit.png)
+     ![Edición de un filtro ad hoc](assets/filter-adhoc-edit.png)
 
      >[!NOTE]
      >
@@ -49,7 +50,7 @@ Para crear un filtro rápido:
 
      ![Filtro de segmento](assets/quick-seg1.png)
 
-1. Ajuste cualquiera de las siguientes opciones:
+1. Ajuste uno de los siguientes ajustes:
 
    | Configuración | Descripción |
    | --- | --- |
@@ -66,16 +67,16 @@ Para crear un filtro rápido:
    | [!UICONTROL Intervalo de fechas] | El validador utiliza el intervalo de fechas del panel para la búsqueda de datos. Sin embargo, cualquier intervalo de fechas aplicado en un filtro rápido anula el intervalo de fechas del panel en la parte superior del panel. |
    | Vista previa (parte superior derecha) | Le permite ver si tiene un filtro válido y su amplitud. Representa el desglose del conjunto de datos que verá si aplica este filtro. Podría recibir un aviso que indique que este filtro no tiene datos. En este caso, puede continuar o cambiar la definición del filtro. |
 
-1. Seleccionar [!UICONTROL **Aplicar**] para guardar los cambios.
+1. Seleccione [!UICONTROL **Aplicar**] para guardar los cambios.
 
 ## Edición de un filtro rápido {#edit}
 
 1. Pase el ratón sobre el filtro rápido que quiere editar y, a continuación, seleccione la opción **Editar** icono.
 
-   ![Editar filtro ad hoc](assets/filter-adhoc-edit.png)
+   ![Edición de un filtro ad hoc](assets/filter-adhoc-edit.png)
 
 1. Edite la definición del filtro o el nombre del filtro.
-1. Seleccionar [!UICONTROL **Aplicar**] para guardar los cambios.
+1. Seleccione [!UICONTROL **Aplicar**] para guardar los cambios.
 
 ## Guardar un filtro rápido como filtro de lista de componentes {#save}
 
@@ -97,7 +98,7 @@ Puede guardar filtros desde el generador de filtros rápidos o desde el [!UICONT
 ### Guardar en el generador de filtros rápidos {#save2}
 
 1. Después de aplicar el filtro rápido, pase el ratón sobre él y seleccione el icono de información (i).
-1. Seleccionar **[!UICONTROL Poner a disposición de todos los proyectos y añadirlos a la lista de componentes]**.
+1. Consulte **[!UICONTROL Poner a disposición de todos los proyectos y añadirlos a la lista de componentes]**.
 1. (Opcional) Cambie el nombre del filtro.
 1. Seleccione **[!UICONTROL Guardar]**.
 
@@ -117,7 +118,7 @@ Después de aplicar el filtro, puede elegir agregarlo a la lista de componentes 
 
 1. Pase el ratón sobre el filtro guardado y seleccione el icono de lápiz.
 
-1. Seleccionar [!UICONTROL **Abrir creador**].
+1. Seleccione [!UICONTROL **Abrir generador**].
 
 1. En la parte superior del Generador de filtros, observe este cuadro de diálogo:
 
