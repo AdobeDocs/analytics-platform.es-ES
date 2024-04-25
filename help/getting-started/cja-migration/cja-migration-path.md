@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 2d35e49ca9afe37ed53d7c5da5aafd31dd2da632
+source-git-commit: 7d17ef31053bbf0d480bfa923fc961aeba4fc15e
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 2%
@@ -109,13 +109,21 @@ A continuación se indican las rutas de migración disponibles para las organiza
 
 +++
 
-+++Migrar Adobe Analytics al SDK web | Ventajas | Desventajas | |----------|---------| | <ul><li>Permite pasar al SDK web sin afectar a los informes de Adobe Analytics existentes.</li><li>Conserva las reglas y los elementos de datos ya configurados en la implementación de Adobe Analytics (para organizaciones que utilizan la extensión de Analytics).</li><li>Proporciona flexibilidad para crear un esquema XDM para su organización más adelante: un esquema flexible para definir los campos que necesite y solo los campos relevantes.</br>No requiere el grupo Campo de evento de Adobe Analytics Experience en Adobe Experience Platform. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>No depende de la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)</li><li>No existen limitaciones de caracteres (100 caracteres para props)</li><li>Disponibilidad de datos y creación de informes de alto rendimiento gracias a que Adobe Experience Platform está diseñado para ofrecer potencia [casos de uso de personalización en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)</li><li>Preparado para el futuro (recibirá las últimas funciones y características)</li><li>Consolide las etiquetas para la recopilación de datos de Adobe Experience Cloud entre otros productos de Experience Cloud (AJO, RTCDP, etc.)</li><li>[ID de dispositivos de origen](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=es) para mejorar la precisión de la identificación del visitante</li></ul> | <ul><li>Debe ajustarse a un esquema XDM en algún momento futuro, utilizando la asignación de flujos de datos.</li><li>Incurre en alguna deuda técnica. Por ejemplo, el AppMeasurement heredado o el código de extensión de Analytics pueden permanecer. </li></ul> |
++++Migrar Adobe Analytics al SDK web
+
+| Ventajas | Desventajas |
+|----------|---------|
+| <ul><li>Permite pasar al SDK web sin afectar a los informes de Adobe Analytics existentes.</li><li>Conserva las reglas y los elementos de datos ya configurados en la implementación de Adobe Analytics (para organizaciones que utilizan la extensión de Analytics).</li><li>Proporciona flexibilidad para crear un esquema XDM para su organización más adelante: un esquema flexible para definir los campos que necesite y solo los campos relevantes.</br>No requiere el grupo Campo de evento de Adobe Analytics Experience en Adobe Experience Platform. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>No depende de la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)</li><li>No existen limitaciones de caracteres (100 caracteres para props)</li><li>Disponibilidad de datos y creación de informes de alto rendimiento gracias a que Adobe Experience Platform está diseñado para ofrecer potencia [casos de uso de personalización en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)</li><li>Preparado para el futuro (recibirá las últimas funciones y características)</li><li>Consolide las etiquetas para la recopilación de datos de Adobe Experience Cloud entre otros productos de Experience Cloud (AJO, RTCDP, etc.)</li><li>[ID de dispositivos de origen](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=es) para mejorar la precisión de la identificación del visitante</li></ul> | <ul><li>Debe ajustarse a un esquema XDM en algún momento futuro, utilizando la asignación de flujos de datos.</li><li>Incurre en alguna deuda técnica. Por ejemplo, el AppMeasurement heredado o el código de extensión de Analytics pueden permanecer. </li></ul> |
 
 {style="table-layout:auto"}
 
 +++
 
-+++Uso del conector de origen de Analytics | Ventajas | Desventajas | |----------|---------| | <ul><li>Ruta de migración menos laboriosa y exigente. <p>Los datos se migran rápidamente al Customer Journey Analytics con una inversión mínima</p></li></ul> | <ul><li>Los datos no se envían al Edge Network y no se pueden compartir con otras aplicaciones de Adobe Experience Platform; solo se limitan al Customer Journey Analytics<li>Es difícil pasar al SDK web en el futuro</li><li>Utiliza el grupo de campos Evento de experiencia de Analytics en el esquema.</br>Este grupo de campos añade muchos eventos de Adobe Analytics que no son necesarios en el esquema del Customer Journey Analytics.  Esto puede generar un esquema más complejo y desordenado que lo que se necesita de otro modo para Customer Journey Analytics.</li><li>Nivel máximo de [latencia](/help/admin/guardrails.md#latencies) en todos los métodos de implementación</li></ul> |
++++Uso del conector de origen de Analytics
+
+| Ventajas | Desventajas |
+|----------|---------|
+| <ul><li>Ruta de migración menos laboriosa y exigente. <p>Los datos se migran rápidamente al Customer Journey Analytics con una inversión mínima</p></li></ul> | <ul><li>Los datos no se envían al Edge Network y no se pueden compartir con otras aplicaciones de Adobe Experience Platform; solo se limitan al Customer Journey Analytics<li>Es difícil pasar al SDK web en el futuro</li><li>Utiliza el grupo de campos Evento de experiencia de Analytics en el esquema.</br>Este grupo de campos añade muchos eventos de Adobe Analytics que no son necesarios en el esquema del Customer Journey Analytics.  Esto puede generar un esquema más complejo y desordenado que lo que se necesita de otro modo para Customer Journey Analytics.</li><li>Nivel máximo de [latencia](/help/admin/guardrails.md#latencies) en todos los métodos de implementación</li></ul> |
 
 {style="table-layout:auto"}
 
