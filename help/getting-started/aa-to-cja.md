@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: d20655293a8248d26fed675d6f38e5a8a49a15c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ## Preparación de los datos existentes
 
-La preparación de los datos de Adobe Analytics para pasar sin problemas a Customer Journey Analytics es fundamental para la integridad de los datos y la coherencia del sistema de informes.
+La preparación de los datos de Adobe Analytics para pasar sin problemas a Customer Journey Analytics es esencial para la integridad de los datos y la coherencia del sistema de informes.
 
 ### Recopilar identidades
 
@@ -28,11 +28,11 @@ Algunos ejemplos de identidades pueden ser un ID de cliente, un ID de cuenta o u
 * El ID no contiene PII. Aplique la función resumen a cualquier cosa que pueda ser confidencial.
 * El ID utiliza el mismo formato en todas las fuentes (la misma longitud, el mismo método de función resumen, etc.)
 
-En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, [Análisis en canales múltiples (también conocido como &quot;vinculación&quot;)](/help/stitching/overview.md) se puede utilizar para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica).
+En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar [análisis en canales múltiples (también conocido como “vinculación”)](/help/stitching/overview.md) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica). 
 
 ### Alinee las variables
 
-El método más sencillo para transformar datos de Adobe Analytics en datos de Customer Journey Analytics es ingerir un [grupo de informes globales](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=es) en el Experience Platform mediante el [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es). Este conector asigna las variables de Adobe Analytics directamente a un esquema XDM y a un conjunto de datos en Experience Platform, que a su vez pueden conectarse fácilmente a Customer Journey Analytics.
+El método de transformación más directa de datos de Adobe Analytics a datos de Customer Journey Analytics es ingestar un [grupo de informes globales](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=es) en Experience Platform mediante el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es). Este conector asigna las variables de Adobe Analytics directamente a un esquema XDM y a un conjunto de datos en Experience Platform, que a su vez pueden conectarse fácilmente a Customer Journey Analytics.
 
 Es posible que no siempre sea factible una implementación de un grupo de informes globales completo. Si planea incluir varios grupos de informes en Customer Journey Analytics, tiene dos opciones:
 
