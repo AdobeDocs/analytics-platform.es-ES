@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c55daff7e2d96c96b985b0ec9609eb4db0370a45
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '3375'
 ht-degree: 76%
@@ -31,7 +31,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Actualizaciones de la documentación sobre proyectos compartidos | Se ha añadido información acerca de cómo [ver los proyectos compartidos con usted](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>También se ha simplificado la información sobre [uso compartido de proyectos individuales o múltiples](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Requisitos de permiso añadidos para cargar archivos en Azure SAS y Azure RBAC al configurar ubicaciones de exportación en la nube | Se agregaron requisitos de permiso exactos para cargar archivos en Azure SAS y Azure RBAC al [configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md) y [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
 | Se han añadido requisitos de permiso para cargar archivos en los bloques de ARN de la función Amazon S3 y GCP al configurar ubicaciones de exportación en la nube | Se han añadido requisitos de permiso exactos para cargar archivos en los bloques de ARN de la función Amazon S3 y Google Cloud Platform al [configuración de ubicaciones de exportación de cloud](/help/components/exports/cloud-export-locations.md). |
-| Se ha aclarado que los administradores de productos siempre tienen acceso para exportar tablas completas | Se han realizado los siguientes cambios para aclarar que los usuarios asignados a la función Administrador de productos tienen acceso para exportar tablas completas desde Analysis Workspace de forma predeterminada: <ul><li>Se ha añadido una nueva viñeta a [Permisos predeterminados del administrador de productos](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>Se ha añadido una nota debajo de [requisitos mínimos para exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
+| Se ha aclarado que los administradores de productos siempre tienen acceso para exportar tablas completas | Se han realizado los siguientes cambios para aclarar que los usuarios asignados a la función Administrador de productos tienen acceso para exportar tablas completas desde Analysis Workspace de forma predeterminada: <ul><li>Se ha añadido una nueva viñeta a [Permisos predeterminados del administrador de productos](/help/technotes/access-control.md#product-admin-default-permissions).</li><li>Se ha añadido una nota debajo de [requisitos mínimos para exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | Se ha aclarado que los segmentos se vuelven a crear durante la migración de componentes desde Adobe Analytics | En el [Guía del usuario para usuarios de Adobe Analytics](/help/getting-started/aa-to-cja-user.md), aclaró que los segmentos se vuelven a crear automáticamente en Adobe Analytics como parte del proceso de migración de componentes y no es necesario volver a crearlos manualmente. |
 | Detalles de registro omitidos | Se ha añadido documentación sobre la funcionalidad de detalles de registros omitidos en Conexiones. Consulte [Detalles de conexión](../connections/manage-connections.md#connection-details) para obtener más información. |
 | **Enero de 2024** | |
@@ -39,7 +39,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Se ha actualizado la documentación para agregar cuentas y ubicaciones al exportar tablas completas | Se ha actualizado la documentación para reflejar actualizaciones menores de la interfaz al configurar una nueva cuenta o ubicación al [exportación de tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>Un nuevo [!UICONTROL **Añadir cuenta**] ahora está disponible en la [!UICONTROL **Cuenta**] menú desplegable. El [!UICONTROL **Añadir ubicación**] que anteriormente estaba disponible como botón junto a la opción [!UICONTROL **Nombre de ubicación**] ahora, el menú desplegable está disponible dentro del propio menú. |
 | Nueva información de migración de componentes al migrar desde Adobe Analytics | Se ha añadido información a [Evolución desde Adobe Analytics](/help/getting-started/aa-to-cja.md) que hace referencia al nuevo [migración de componentes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=es) funciones que se documentan en la Guía de administración de Adobe Analytics. |
 | Se ha aclarado que cierta información solo está disponible para administradores | Se ha agregado información para indicar que las columnas &quot;Último uso&quot; y &quot;Utilizado en&quot; que se describen en [Administrador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-manager.md) y el [Administrador de filtros](/help/components/filters/manage-filters.md) solo están disponibles para los administradores del sistema. |
-| Permisos necesarios para exportar conjuntos de datos | Se ha añadido información que explica la [permisos necesarios](/help/admin/cja-access-control.md) para exportar conjuntos de datos a destinos de nube. |
+| Permisos necesarios para exportar conjuntos de datos | Se ha añadido información que explica la [permisos necesarios](/help/technotes/access-control.md) para exportar conjuntos de datos a destinos de nube. |
 | Administrar conexiones | Se ha actualizado el [Administrar conexiones](../connections/manage-connections.md) artículo, basado en los comentarios de los clientes. |
 | Campos derivados | Se ha añadido el resumen de función [limitaciones](/help/data-views/derived-fields/derived-fields.md#limitations) y explicación sobre cómo determinar el número de [operadores](/help/data-views/derived-fields/derived-fields.md#operators) se utiliza en una función. |
 
@@ -51,8 +51,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Diciembre de 2023** | |
-| Centros de datos | Se ha añadido un artículo sobre Customer Journey Analytics [ubicaciones de alojamiento](../technotes/cja-datacenters.md). |
-| Mecanismos de protección | Se agregó el artículo listando al Customer Journey Analytics [barandas](../admin/guardrails.md). |
+| Centros de datos | Se ha añadido un artículo sobre Customer Journey Analytics [ubicaciones de alojamiento](../technotes/data-centers.md). |
+| Mecanismos de protección | Se agregó el artículo listando al Customer Journey Analytics [barandas](../technotes/guardrails.md). |
 | Actualizaciones de conversión de moneda | Se ha aclarado la documentación sobre cómo [configurar conversión de moneda](/help/data-views/component-settings/format.md). |
 | Actualizaciones en la documentación de Detección de anomalías | Anteriormente, la documentación de Detección de anomalías se encontraba en una sección sobre Analista virtual. Se han realizado los siguientes cambios: <ul><li>El término Analista virtual se ha eliminado de la documentación.</li><li>La sección sobre [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) se ha movido directamente debajo de la sección Analysis Workspace.</li></ul> |
 | **Octubre de 2023** | |
@@ -90,7 +90,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Documentación sobre vinculación profunda (aplicación móvil) | Permite a los usuarios enviar vínculos a cuadros de resultados que los llevarán directamente al cuadro de resultados de la aplicación. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=es#share-scorecards-using-a-shareable-link) |
 | Documento sobre “Selección de vista de datos de la celda” en Report Builder | Esta función permite a los usuarios seleccionar la vista de datos para un bloque de datos de una celda. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=es) |
 | Documentación sobre la actualización de la pantalla de inicio de la aplicación de paneles de Analytics (aplicación móvil) | La nueva pantalla de inicio actualizada le permite ver todos los cuadros de resultados en una lista consolidada de cuadros de resultados. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html?lang=es#use-dashboards) |
-| Actualización de optimización | Artículo actualizado sobre [Optimización del rendimiento de Customer Journey Analytics](/help/admin/optimizing-performance.md) |
+| Actualización de optimización | Artículo actualizado sobre [Optimización del rendimiento de Customer Journey Analytics](/help/technotes/optimizing-performance.md) |
 | Información general de Analysis Workspace | Se ha actualizado la [información general de Analysis Workspace](/help/analysis-workspace/home.md) para incluir información más general y vínculos a contenido relevante. |
 | Crear proyectos | Se ha creado un nuevo artículo que explica en detalle cómo [Crear proyectos](/help/analysis-workspace/build-workspace-project/create-projects.md) en Analysis Workspace. |
 | Ordenar componentes en el carril izquierdo | Se ha añadido información sobre la ordenación de la lista de componentes en el carril izquierdo. Consulte la sección &quot;Buscar, filtrar y ordenar la lista de componentes&quot; en [Información general de componentes](/help/components/overview.md). |
@@ -133,7 +133,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Fecha | Actualizar descripción |
 | --- | --- |
 | **Diciembre de 2022** |  |
-| 16 de diciembre de 2022 | Tema nuevo acerca de la [medición y administración del uso de los datos de Customer Journey Analytics](/help/admin/estimate-usage.md). |
+| 16 de diciembre de 2022 | Tema nuevo acerca de la [medición y administración del uso de los datos de Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Octubre de 2022** | |
 | Octubre de 2022 | Tema nuevo en [protección de contraseña de proyectos programados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=es#password). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Octubre de 2022 | Tema nuevo en [Claves administradas por el cliente](/help/privacy/cmk.md). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
@@ -148,7 +148,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Septiembre de 2022 | Tema nuevo acerca del [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) en Workspace. |
 | **Agosto de 2022** | |
 | Agosto de 2022 | Artículo de Adobe Experience Platform sobre [compatibilidad entre regiones para el conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es). |
-| Agosto de 2022 | Artículo actualizado de forma significativa sobre [control de acceso de Customer Journey Analytics](/help/admin/cja-access-control.md). |
+| Agosto de 2022 | Artículo actualizado de forma significativa sobre [control de acceso de Customer Journey Analytics](/help/technotes/access-control.md). |
 | Agosto de 2022 | Nuevo artículo sobre [Compatibilidad con Customer Journey Analytics para etiquetas y políticas de gobernanza de datos](/help/data-views/data-governance.md). |
 | Agosto de 2022 | Nuevo artículo sobre [comparación de la terminología de los datos de Analytics obtenidos a través del conector de origen de Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
 | Agosto de 2022 | Nueva documentación sobre [publicación de audiencias en el Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=es). |

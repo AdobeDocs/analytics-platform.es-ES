@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2937'
 ht-degree: 21%
 
 ---
@@ -95,7 +95,7 @@ Al eliminar una conexión, una **[!UICONTROL Eliminar conexión]** el panel indi
 
 Seleccionar **[!UICONTROL Continuar]** para eliminar la conexión.
 
-Consulte [Eliminar implicaciones](/help/admin/cja-deletion.md) para obtener más información sobre las implicaciones de eliminar una conexión.
+Consulte [Implicaciones de eliminación](/help/technotes/deletion.md) para obtener más información sobre cómo eliminar una conexión.
 
 
 ### Creación de una vista de datos

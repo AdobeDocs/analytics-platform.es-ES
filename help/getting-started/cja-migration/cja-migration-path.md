@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 1c789264a9867279f58a3ad139207fec8db29c1b
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 0%
@@ -123,7 +123,7 @@ A continuación se indican las rutas de migración disponibles para las organiza
 
 | Ventajas | Desventajas |
 |----------|---------|
-| <ul><li>Ruta de migración menos laboriosa y exigente. <p>Los datos se migran rápidamente al Customer Journey Analytics con una inversión mínima</p></li></ul> | <ul><li>**Los datos no se envían al Edge Network**: <p>Esto causa las siguientes desventajas:</p><ul><li>Nivel máximo de [latencia](/help/admin/guardrails.md#latencies) en informes en todas las rutas de migración; no optimizado para casos de uso de personalización en tiempo real.</li><li>Los datos no se pueden compartir con otras aplicaciones de Adobe Experience Platform; están restringidos únicamente al Customer Journey Analytics</li><li>Se basa en la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)</li></ul><li>**Es difícil pasar al SDK web en el futuro**: </li><li>**Utiliza el grupo de campos Evento de experiencia de Analytics en el esquema**: Este grupo de campos añade muchos eventos de Adobe Analytics que no son necesarios en el esquema del Customer Journey Analytics.  Esto puede generar un esquema más complejo y desordenado que lo que se necesita de otro modo para Customer Journey Analytics.</li></ul> |
+| <ul><li>Ruta de migración menos laboriosa y exigente. <p>Los datos se migran rápidamente al Customer Journey Analytics con una inversión mínima</p></li></ul> | <ul><li>**Los datos no se envían al Edge Network**: <p>Esto causa las siguientes desventajas:</p><ul><li>Nivel máximo de [latencia](/help/technotes/guardrails.md#latencies) en informes en todas las rutas de migración; no optimizado para casos de uso de personalización en tiempo real.</li><li>Los datos no se pueden compartir con otras aplicaciones de Adobe Experience Platform; están restringidos únicamente al Customer Journey Analytics</li><li>Se basa en la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)</li></ul><li>**Es difícil pasar al SDK web en el futuro**: </li><li>**Utiliza el grupo de campos Evento de experiencia de Analytics en el esquema**: Este grupo de campos añade muchos eventos de Adobe Analytics que no son necesarios en el esquema del Customer Journey Analytics.  Esto puede generar un esquema más complejo y desordenado que lo que se necesita de otro modo para Customer Journey Analytics.</li></ul> |
 
 {style="table-layout:auto"}
 

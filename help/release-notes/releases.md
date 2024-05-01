@@ -1,16 +1,16 @@
 ---
 description: Explica la estrategia de lanzamiento continuo de funciones para Customer Journey Analytics
-title: Lanzamiento de funciones de Customer Journey Analytics
+title: estrategia de lanzamiento de funcionalidades Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 88%
 
 ---
 
-# Lanzamiento de funciones de Customer Journey Analytics
+# estrategia de lanzamiento de funcionalidades Customer Journey Analytics
 
 Las versiones de Customer Journey Analytics operan en un modelo de entrega continua que permite un enfoque escalable y gradual de la implementación de funciones.
 
@@ -28,7 +28,7 @@ Con cada versión de la funcionalidad, los plazos desde la fase de producción h
 
 ## Indicadores de características
 
-Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante el lanzamiento. Adobe recomienda añadir `app.launchdarkly.com` a la [lista de permitidos](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=es) del cortafuegos para disfrutar de una experiencia óptima durante el lanzamiento. Poco después de que se llegue a GA, se elimina el indicador.
+Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante el lanzamiento. El Adobe recomienda permitir `app.launchdarkly.com` a través del cortafuegos de su organización para disfrutar de una experiencia óptima durante las versiones de. Estos indicadores se eliminan después de que se libere una función a todos los usuarios. Consulte [Dominios utilizados por el Customer Journey Analytics](../technotes/domains.md) para obtener más información.
 
 Puede realizar la vista de los indicadores de funciones activas en cualquier momento en **Ayuda > Acerca de Espacio de trabajo > Indicadores de funciones activas**.
 

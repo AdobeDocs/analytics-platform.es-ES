@@ -6,7 +6,8 @@ feature: SQL Connector
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 98d99dd3a25b8e6f9d9366dd2f4ff44ca132ee9e
+exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 75%
@@ -43,7 +44,7 @@ Para utilizar esta funcionalidad, debe:
 
 * Use caducar con credenciales que no caduquen para conectar las herramientas de BI a [!DNL Customer Journey Analytics BI extension]. El [Guía de credenciales](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) proporciona más información sobre cómo configurar credenciales que caducan o que no caducan.
 
-Consulte [Control de acceso](../admin/cja-access-control.md) en la sección Administración de Customer Journey Analytics para obtener más información.
+Consulte [Control de acceso](../technotes/access-control.md) en la sección Administración de Customer Journey Analytics para obtener más información.
 
 
 ## Uso

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 4ab43b345adabb1add21294f5bf1f7858d08a11a
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 77%
+source-wordcount: '1081'
+ht-degree: 78%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 77%
    + [Versiones de 2022](../release-notes/2022.md)
    + [Versiones de 2021](../release-notes/2021.md)
    + [Versiones de 2020](../release-notes/2020.md)
-   + [Versiones del Customer Journey Analytics](../release-notes/releases.md)
-   + [Actualizaciones de la documentación de Customer Journey Analytics](../release-notes/doc-changes.md)
+   + [Estrategia de lanzamiento de funcionalidades](../release-notes/releases.md)
+   + [Actualizaciones de documentación](../release-notes/doc-changes.md)
 
 + Introducción {#cja-overview}
    + [Información general sobre Customer Journey Analytics](../getting-started/cja-overview.md)
@@ -358,15 +358,6 @@ ht-degree: 77%
    + Campos derivados {#derived-fields}
       + [Usar campos derivados para informar sobre objetivos](../use-cases/goals-using-derived-fields.md)
 
-
-+ Administración {#cja-admin}
-   + [Mecanismos de protección](../admin/guardrails.md)
-   + [Control de acceso](../admin/cja-access-control.md)
-   + [Ver y administrar el uso](../admin/estimate-usage.md)
-   + [Implicaciones de eliminación](../admin/cja-deletion.md)
-   + [Optimización del rendimiento del Customer Journey Analytics](../admin/optimizing-performance.md)
-   + [Direcciones IP](../admin/ip-addresses.md)
-
 + Labs {#labs}
    + [Guía del usuario de Labs](../labs/labs.md)
 
@@ -376,8 +367,14 @@ ht-degree: 77%
    + [Falta de permisos](../troubleshooting/lack-of-permissions.md)
 
 + Notas técnicas {#technotes}
-   + [centros de datos de Customer Journey Analytics](../technotes/cja-datacenters.md)
-
-+ [Glosario de Customer Journey Analytics](../getting-started/cja-glossary.md)
+   + [Control de acceso](../technotes/access-control.md)
+   + [Centros de datos](../technotes/data-centers.md)
+   + [Implicaciones de eliminación](../technotes/deletion.md)
+   + [Dominios](../technotes/domains.md)
+   + [Glosario](../technotes/glossary.md)
+   + [Mecanismos de protección](../technotes/guardrails.md)
+   + [Direcciones IP](../technotes/ip-addresses.md)
+   + [Optimización del rendimiento del Customer Journey Analytics](../technotes/optimizing-performance.md)
+   + [Ver y administrar el uso](../technotes/estimate-usage.md)
 
 + [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/)

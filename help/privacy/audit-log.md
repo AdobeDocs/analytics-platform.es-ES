@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo ver y administrar registros de aud
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 65%
@@ -23,7 +23,7 @@ Este tema cubre los registros de auditoría en Customer Journey Analytics, inclu
 
 Cuando la función está habilitada para su organización, los registros de auditoría se recopilan automáticamente a medida que se produce la actividad. No es necesario habilitar manualmente la recopilación de registros.
 
-Para ver y exportar los registros de auditoría, se debe contar con el permiso de control **[!UICONTROL Acceso a registros de auditoría]** en la consola de Adobe. Para obtener información sobre cómo administrar permisos individuales para funciones de Customer Journey Analytics, consulte la [documentación de control de acceso](../admin/cja-access-control.md).
+Para ver y exportar los registros de auditoría, se debe contar con el permiso de control **[!UICONTROL Acceso a registros de auditoría]** en la consola de Adobe. Para obtener información sobre cómo administrar permisos individuales para funciones de Customer Journey Analytics, consulte la [documentación de control de acceso](../technotes/access-control.md).
 
 ## Vista del registro de auditoría en la IU
 

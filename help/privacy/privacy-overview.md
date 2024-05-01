@@ -4,10 +4,10 @@ description: Describe cómo funciona la gobernanza de datos en Customer Journey 
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 74%
+source-wordcount: '375'
+ht-degree: 56%
 
 ---
 
@@ -29,7 +29,7 @@ Esta integración le permite administrar el cumplimiento de normas más fácilme
 
 ## RGPD
 
-Customer Journey Analytics no se suscribirá directamente al servicio central del Reglamento general de protección de datos (RGPD) y, en su lugar, heredará todos los cambios de conjuntos de datos realizados en Experience Platform. Platform Data Lake se encarga de aplicar las solicitudes de eliminación del RGPD y de notificarnos cuando se hayan completado en la canalización. Prestamos atención a la canalización y sincronizamos todos los cambios realizados en lotes afectados en Customer Journey Analytics para los conjuntos de datos implicados en el evento. Los conjuntos de datos de perfil y búsqueda afectados por las solicitudes de eliminación del RGPD se volverán a ingerir completamente después de cada solicitud de eliminación. Garantizamos que las solicitudes de eliminación se ejecutarán en un plazo de 7 días después del evento de eliminación en Data Lake.
+Customer Journey Analytics no se suscribirá directamente al servicio central del Reglamento general de protección de datos (RGPD) y, en su lugar, heredará todos los cambios de conjuntos de datos realizados en Experience Platform. El Customer Journey Analytics depende de Platform Data Lake para aplicar las solicitudes de eliminación del RGPD y notificar al Customer Journey Analytics cuando se completen las solicitudes. Todos los cambios realizados en los lotes afectados en el Customer Journey Analytics para conjuntos de datos de evento se sincronizan con los datos de Platform. Los conjuntos de datos de perfil y búsqueda afectados por las solicitudes de eliminación del RGPD se vuelven a ingerir completamente después de cada solicitud de eliminación. Las solicitudes de eliminación suelen finalizar en un plazo de 7 días después del evento de eliminación en Data Lake.
 
 ## CCPA
 

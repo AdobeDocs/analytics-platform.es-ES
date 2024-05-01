@@ -5,7 +5,7 @@ exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b4c77c3ef4d57aac6e914a2373b6a9169f4872df
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 73%
@@ -22,7 +22,7 @@ Este caso de uso de B2B se muestra cómo especificar los datos en cuanto a cuent
 * ¿Cómo funciona esta cuenta en su conjunto con respecto a una campaña de marketing específica, en comparación con otra cuenta?
 * ¿Hay funciones determinadas (como el administrador de TI) en una cuenta que se comportan de forma diferente a la misma función en una cuenta diferente?
 
-Todo esto se logra mediante la introducción de la información de nivel de cuenta como un conjunto de datos [lookup](/help/getting-started/cja-glossary.md).
+Todo esto se logra mediante la introducción de la información de nivel de cuenta como un conjunto de datos [lookup](/help/technotes/glossary.md).
 
 Primero debe crear un esquema de consulta en Adobe Experience Platform y luego crear un conjunto de datos de tabla de consulta mediante la ingesta de datos de nivel de cuenta basados en .csv. A continuación, se crea una conexión en Customer Journey Analytics (Customer Journey Analytics) que combina distintos conjuntos de datos, incluido el de búsqueda que se ha creado. A continuación, cree una vista de datos y, finalmente, podrá utilizar todos estos datos en Workspace.
 
@@ -32,7 +32,7 @@ Primero debe crear un esquema de consulta en Adobe Experience Platform y luego c
 
 ## 1. Crear esquema de consulta (Experience Platform)
 
-Creación de su propio esquema para [búsqueda](/help/getting-started/cja-glossary.md) garantiza que el conjunto de datos utilizado estará disponible en Customer Journey Analytics con la configuración correcta (tipo de registro). La práctica recomendada es [crear una clase de esquema personalizada](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#create-new-class) llamada “Consulta”, vacía, que se puede reutilizar para todas las tablas de consulta.
+Creación de su propio esquema para [búsqueda](/help/technotes/glossary.md) garantiza que el conjunto de datos utilizado estará disponible en Customer Journey Analytics con la configuración correcta (tipo de registro). La práctica recomendada es [crear una clase de esquema personalizada](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#create-new-class) llamada “Consulta”, vacía, que se puede reutilizar para todas las tablas de consulta.
 
 ![Cuadro de diálogo Crear nueva clase.](../assets/create-new-class.png)
 

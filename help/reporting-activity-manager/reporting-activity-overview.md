@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 15%
+source-wordcount: '272'
+ht-degree: 16%
 
 ---
 
@@ -32,9 +32,9 @@ El Administrador de actividades de creación de informes ofrece las siguientes v
 
 <!-- update for CJA -->
 
-Para administrar la actividad de creación de informes, debe tener la función Administrador de productos. Para obtener más información, consulte [Función Administrador de productos](/help/admin/cja-access-control.md#product-admin-role) in [Control de acceso de Customer Journey Analytics](/help/admin/cja-access-control.md).
+Para administrar la actividad de creación de informes, debe tener la función Administrador de productos. Para obtener más información, consulte [Control de acceso de Customer Journey Analytics](/help/technotes/access-control.md).
 
-## Ver actividad de informes
+## Ver actividad de creación de informes
 
 Para obtener información sobre la visualización de la actividad de creación de informes en el Administrador de actividades de creación de informes, consulte [Ver la actividad de creación de informes en el Administrador de actividades de informes](/help/reporting-activity-manager/reporting-activity.md).
 
