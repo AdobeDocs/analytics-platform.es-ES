@@ -5,10 +5,10 @@ title: Información general de carpetas
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Existen dos tipos de carpetas en el Espacio de trabajo: la carpeta Compañía y 
 
 Cuando inicia sesión en el Espacio de trabajo, la página de inicio Proyectos muestra una lista de sus proyectos junto con la carpeta Compañía y las carpetas personales que haya creado.
 
-![Página de inicio del proyecto que enumera sus proyectos y la carpeta Empresa.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![Página de inicio de Proyectos](../assets/landing-page2.png)
 
 ## Acerca de la carpeta Compañía {#company-folder}
 
@@ -34,7 +34,6 @@ Como administrador, puede compartir rápidamente proyectos con todos los usuario
 
 Cuando un usuario inicia sesión en el Espacio de trabajo, la carpeta Compañía se agrega automáticamente a su proyecto y lista de carpetas. No hay permisos específicos para proyectos contenidos en la carpeta Compañía.
 
-
 ### Opciones de administración {#admin-options}
 
 Los administradores tienen privilegios especiales asignados a la carpeta Compañía. Por ejemplo, solo los administradores pueden agregar o quitar carpetas o proyectos en la carpeta Compañía. Los usuarios sin acceso de administrador pueden ver el contenido de la carpeta Compañía.
@@ -43,7 +42,7 @@ Los administradores tienen privilegios especiales asignados a la carpeta Compañ
 
 Los usuarios que no son administradores tienen opciones limitadas.
 
-![La página Proyectos muestra las opciones no administrativas de las carpetas.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![La página Proyectos muestra las opciones no administrativas de las carpetas.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
 
 ### Directrices de la carpeta Compañía {#company-folder-guidelines}
 
@@ -53,6 +52,6 @@ Los usuarios que no son administradores tienen opciones limitadas.
 
 - Los administradores pueden eliminar una carpeta dentro de la carpeta Compañía que otro administrador haya creado. Es posible que los administradores tengan que coordinarse con otros administradores para mantener la coherencia de las carpetas y el acceso al proyecto.
 
-- Cuando un administrador mueve un proyecto a la carpeta Compañía, se comparte con todos aunque los privilegios compartidos originales estén restringidos.
+- Cuando un administrador mueve un proyecto a la carpeta Compañía, este se comparte con todos los usuarios de **Editar copia** función, incluso si los privilegios compartidos originales estaban restringidos.
 
 - Cuando un administrador mueve un proyecto fuera de la carpeta Compañía, se respetan los privilegios de uso compartido originales o anteriores.
