@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3d2ce208e468a68a45d900c4437639ad5145b8cb
+source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
 workflow-type: tm+mt
-source-wordcount: '3481'
-ht-degree: 74%
+source-wordcount: '3515'
+ht-degree: 73%
 
 ---
 
@@ -21,6 +21,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | --- | --- |
 | **Mayo de 2024** | |
 | Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta en función de la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor lo siguiente:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles en función de la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
+| Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con [crear intervalos de fechas personalizados](/help/components/date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
+| Información general sobre los Dimension | Se ha añadido información sobre [dimensiones](/help/components/dimensions/overview.md). |
 | **Abril de 2024** | |
 | Técnicas estadísticas de pronóstico | Se ha añadido un artículo que describe [técnicas estadísticas utilizadas en el servicio de pronóstico](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | Se ha añadido información que recomienda la exportación de tabla completa para dimensiones de alta cardinalidad | Se ha añadido una viñeta en [Prácticas recomendadas para dimensiones de alta cardinalidad](/help/components/dimensions/high-cardinality.md) para recomendar el uso de Exportación de tabla completa para dimensiones de alta cardinalidad. |
