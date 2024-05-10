@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
+source-git-commit: ea3ea6ad387300e2efcafb8e49efcafdfc011ba9
 workflow-type: tm+mt
-source-wordcount: '3515'
-ht-degree: 73%
+source-wordcount: '3544'
+ht-degree: 72%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Mayo de 2024** | |
+| Casos de uso de exportación de datos | Conjunto de nuevos artículos que describen [casos de uso de exportación de datos](/help/use-cases/data-export/overview.md) y cómo utilizar las funcionalidades de Experience Platform y Customer Journey Analytics para implementar estos casos de uso |
 | Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta en función de la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor lo siguiente:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles en función de la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con [crear intervalos de fechas personalizados](/help/components/date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | Información general sobre los Dimension | Se ha añadido información sobre [dimensiones](/help/components/dimensions/overview.md). |
