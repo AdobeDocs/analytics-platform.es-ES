@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: ad7f748fb7aa684d134cf110460a84d1b9ec3895
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2748'
 ht-degree: 75%
 
 ---
@@ -312,6 +312,11 @@ La columna especial `daterange` funciona de forma similar a `timestamp`, pero el
 El `daterange` Este campo también se puede utilizar en funciones de fecha y hora para analizar o truncar la fecha del evento.
 
 El `daterangeName` se puede utilizar una columna especial para filtrar la consulta utilizando un intervalo de fechas con nombre como `Last Quarter`.
+
+>[!NOTE]
+>
+>PowerBI no es compatible con `daterange` métricas de menos de un día (hora, 30 minutos, 5 minutos, etc.).
+
 
 #### Identificador de filtro
 
