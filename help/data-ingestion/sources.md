@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 84%
+source-wordcount: '2041'
+ht-degree: 78%
 
 ---
 
@@ -173,37 +173,45 @@ Consulte [Guía de la interfaz de usuario de conjuntos de datos](https://experie
 
 Según el origen de los datos de fidelidad, elija el conector de origen correspondiente disponible en Adobe Experience Platform.
 
+Puede introducir datos de una variedad de fuentes. A continuación se muestran solo algunas de las muchas fuentes disponibles:
+
+- Las aplicaciones de Adobe (conectores de origen) incluyen [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager), y más)
+
+- Almacenamiento en la nube (los conectores de origen incluyen [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob), y más)
+
+- Bases de datos (conectores de origen) [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server), y más)
+
 Para configurar un conector de origen, debe hacer lo siguiente:
 
-1. En la interfaz de usuario de Adobe Experience Platform, seleccione **[!UICONTROL Orígenes]** en [!UICONTROL CONEXIONES], en el carril izquierdo.
+1. En Adobe Experience Platform, seleccione **[!UICONTROL Fuentes]** de [!UICONTROL CONEXIONES] en el carril izquierdo.
 
-2. Seleccione el conector de origen de la lista de conectores de origen disponibles. Cada conector sigue un flujo de trabajo similar:
+1. Seleccione el conector de origen de la lista de conectores de origen disponibles.
 
-   - **[!UICONTROL Autenticación]**. Se proporcionan los detalles de autenticación para acceder al origen de los datos.
+   Cada conector sigue un flujo de trabajo similar:
 
-   - **[!UICONTROL Seleccionar datos]**: seleccione los datos de origen que quiera ingerir.
+   1. **[!UICONTROL Autenticación]**. Se proporcionan los detalles de autenticación para acceder al origen de los datos.
 
-   - **[!UICONTROL Detalles del flujo de datos]**: Proporciona detalles adicionales sobre el flujo de datos, por ejemplo el nombre y el conjunto de datos que se va a utilizar.
+   1. **[!UICONTROL Seleccionar datos]**: seleccione los datos de origen que quiera ingerir.
 
-   - **[!UICONTROL Asignación]**: los campos de datos de origen entrantes se asignan a atributos del esquema asociado al conjunto de datos seleccionado.
+   1. **[!UICONTROL Detalles del flujo de datos]**: Proporciona detalles adicionales sobre el flujo de datos, por ejemplo el nombre y el conjunto de datos que se va a utilizar.
 
-   - **[!UICONTROL Programación]**: si está disponible, permite programar la ingesta de datos.
+   1. **[!UICONTROL Asignación]**: los campos de datos de origen entrantes se asignan a atributos del esquema asociado al conjunto de datos seleccionado.
 
-   - **[!UICONTROL Revisar]**: presenta una revisión de la definición del conector de origen.
+   1. **[!UICONTROL Programación]**: si está disponible, permite programar la ingesta de datos.
 
-   Cada conector proporciona documentación detallada.
+   1. **[!UICONTROL Revisar]**: presenta una revisión de la definición del conector de origen.
 
-   Para acceder a esta documentación, debe hacer lo siguiente:
+1. Cada conector proporciona documentación detallada. Para acceder a esta documentación, debe hacer lo siguiente:
 
-   - En el mosaico del conector, seleccione la opción **[!UICONTROL ...]** junto a [!UICONTROL Configurar] o [!UICONTROL Agregar datos].
+   1. En el mosaico del conector, seleccione la opción **[!UICONTROL ...]** junto a [!UICONTROL Configurar] o [!UICONTROL Agregar datos].
 
-     ![Ver documentación](./assets/sourceconnector-documentation.png)
+      ![Ver documentación](./assets/sourceconnector-documentation.png)
 
-   - Seleccione **[!UICONTROL Ver documentación]**.
+   1. Seleccione **[!UICONTROL Ver documentación]**.
 
-Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md) para obtener información sobre cómo utilizar el conector de origen de Adobe Analytics.
+Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md) para obtener información acerca de cómo utilizar el conector de origen de Adobe Analytics.
 
-Consulte [Ingesta y uso de datos de streaming](./streaming.md) para obtener información sobre cómo utilizar el conector de origen de API HTTP.
+Consulte [Ingesta y uso de datos de flujo continuo](./streaming.md) para obtener información sobre cómo utilizar el conector de origen de la API HTTP.
 
 Consulte [Información general sobre conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) para obtener información general sobre los conectores de origen, incluidos vínculos a más información sobre cada conector.
 

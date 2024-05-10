@@ -5,16 +5,22 @@ feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 71%
 
 ---
 
 # Realizar análisis básico
 
-Después de crear conexiones y vistas de datos, analice los datos que ha introducido con la potencia y flexibilidad de Analysis Workspace. No dude en experimentar y arrastrar dimensiones y métricas, cambiar dimensiones y configuraciones de atribución de métricas, nombres prácticos, husos horarios, configuraciones de sesión, etc.
+Customer Journey Analytics le permite analizar los datos utilizando la potencia y flexibilidad de Analysis Workspace.
+
+>[!TIP]
+>
+>Si no hay datos disponibles en Analysis Workspace, asegúrese de seguir las [proceso de ingesta de datos](/help/data-ingestion/data-ingestion.md), que incluye lo siguiente:<ul><li>[Crear una conexión](/help/connections/create-connection.md#create-and-configure-the-connection) </br>Asegúrese de que la conexión está configurada para importar nuevos datos, datos de relleno o ambos.</li><li>[Añadir conjuntos de datos](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[Creación de vistas de datos](/help/data-views/create-dataview.md)</li></ul>
+
+No dude en experimentar y arrastrar dimensiones y métricas, cambiar dimensiones y configuraciones de atribución de métricas, nombres prácticos, husos horarios, configuraciones de sesión, etc.
 
 A continuación, verá un ejemplo de visualizaciones básicas el Espacio de trabajo. Por ejemplo, puede
 

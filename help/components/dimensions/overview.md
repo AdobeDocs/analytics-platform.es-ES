@@ -2,9 +2,10 @@
 title: Información general de dimensiones
 description: Descubra cuáles son las dimensiones y cómo se utilizan en Customer Journey Analytics
 feature: Dimensions
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 37%
 
 ---
@@ -29,7 +30,7 @@ Cada dimensión representa una parte o faceta diferente del sitio. Puede combina
 
 ## Creación de dimensiones
 
-Los administradores de Customer Journey Analytics pueden [crear dimensiones basadas en números dentro de una vista de datos](/help/data-views/create-dataview.md#components).
+Los administradores de Customer Journey Analytics pueden [creación de dimensiones dentro de una vista de datos](/help/data-views/create-dataview.md#components).
 
 ## Agregar descripciones de dimensión
 
