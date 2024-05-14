@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 3d090bd6fafe58f2e7024964a2b3ec91624c63cb
+source-git-commit: 77a2975d5f23516acb925c5cf90a2fbde7fbf3e2
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 75%
@@ -13,8 +13,6 @@ ht-degree: 75%
 ---
 
 # Extensión de Customer Journey Analytics BI
-
-{{release-limited-testing}}
 
 {{select-package}}
 
