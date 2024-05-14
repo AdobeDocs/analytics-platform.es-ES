@@ -3,11 +3,9 @@ title: Extensión de Customer Journey Analytics BI
 description: Descubra cómo puede utilizar el servicio de consultas, Power BI, Tableau u otras herramientas de BI y SQL para acceder a las vistas de datos mediante la extensión de BI de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: SQL Connector
-hide: true
-hidefromtoc: true
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: ad7f748fb7aa684d134cf110460a84d1b9ec3895
+source-git-commit: 3d090bd6fafe58f2e7024964a2b3ec91624c63cb
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 75%
