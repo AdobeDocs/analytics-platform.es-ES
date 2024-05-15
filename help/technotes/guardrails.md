@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: c3293e2ce93113dd22157bb6470a780b20813d80
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 8%
+source-wordcount: '1632'
+ht-degree: 7%
 
 ---
 
@@ -77,7 +77,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 | Frecuencia de actualización de audiencia | 4 | Protección impuesta por el sistema | Frecuencia máxima en horas y [audiencia](../components/audiences/audiences-overview.md) se puede actualizar. |
 | Ventana retrospectiva de actualización de audiencia | 90 | Protección impuesta por el sistema | Número máximo de días para actualizar la ventana retrospectiva. |
 | Actualizando fecha de caducidad de audiencia | 13 | Protección impuesta por el sistema | La audiencia deja de actualizarse durante un número máximo de meses a partir de la fecha de creación. Los clientes pueden prolongar esta duración otros 13 meses. |
-| Número de audiencias actualizadas | 75, 100 | Protección impuesta por el sistema | Número máximo de audiencias de actualización, el valor varía según el paquete (consulte la Descripción del producto). |
+| Número de audiencias actualizadas | 76, 150 | Protección impuesta por el sistema | Número máximo de audiencias de actualización, el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ Consulte también Experience Platform [Protecciones de Real-time Customer Data P
 | Descripción de anotación | 250 | Protección impuesta por el sistema | Número máximo de caracteres para una descripción de anotación. |
 | Campos de esquema | 10 | Protección impuesta por el sistema | Número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para una [campo derivado](../data-views/derived-fields/derived-fields.md). |
 | Campos de búsqueda/perfil | 3 | Protección impuesta por el sistema | Número máximo de campos de esquema de búsqueda o perfil dentro del número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para un campo derivado. |
-| Campos derivados | 100 | Protección impuesta por el sistema | Número máximo de campos derivados por conexión. |
+| Campos derivados | De 100 a 500 | Protección impuesta por el sistema | Número máximo de campos derivados por conexión; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
@@ -134,7 +134,7 @@ Consulte también Experience Platform [Protecciones para la ingesta de datos](ht
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
 | Exportación de datos | Almacenamiento total autorizado de Data Lake | Seguridad de rendimiento | El cliente puede utilizar la exportación del conjunto de datos de destino para exportar los datos del cliente en el lago de datos hasta el almacenamiento total autorizado del lago de datos. |
-| Conjuntos de datos disponibles | Perfil y evento | Protección forzada del sistema | Conjuntos de datos de perfil y evento de experiencia creados en la interfaz de usuario de Experience Platform después de la ingesta o recopilación de datos mediante fuentes, SDK web, SDK móvil, conector de datos de Analytics y Audience Manager. |
+| Conjuntos de datos disponibles | Perfil y evento | Protección forzada del sistema | Conjuntos de datos de evento, perfil o búsqueda creados en la interfaz de usuario de Experience Platform después de ingerir o recopilar datos mediante fuentes, SDK web, SDK móvil, conector de datos de Analytics y Audience Manager. |
 
 {style="table-layout:auto"}
 
@@ -155,8 +155,8 @@ Consulte también Experience Platform [Protecciones de exportación de conjuntos
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Conjuntos de datos vinculados | 10 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente; el valor varía según el paquete de Customer Journey Analytics aplicable (consulte la descripción del producto aplicable). |
-| Datos de relleno | 60 | Protección impuesta por el sistema | Número máximo de días de datos de relleno. |
+| Conjuntos de datos vinculados | De 5 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Datos de relleno | De 60 a 395 | Protección impuesta por el sistema | Cantidad máxima de días de datos de relleno; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
@@ -205,7 +205,7 @@ Consulte también Experience Platform [Protecciones de exportación de conjuntos
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Filas por informe | 3 millones - 300 millones | Protección impuesta por el sistema | Número máximo de filas de informes por informe; el valor varía según el paquete de Customer Journey Analytics aplicable (consulte la descripción del producto aplicable). |
+| Filas por informe | 3 millones - 300 millones | Protección impuesta por el sistema | Número máximo de filas de informes por informe; el valor varía según el paquete del Customer Journey Analytics (consulte Descripción del producto). |
 | Desgloses por tabla | 5 | Protección impuesta por el sistema | Número máximo de desgloses por tabla. |
 | Métricas por tabla | 5 | Protección impuesta por el sistema | Número máximo de métricas por tabla. |
 | Frecuencia de programación | 1 | Protección impuesta por el sistema | Las exportaciones se pueden programar una vez (1) al día o en un horario más largo (por ejemplo: una vez cada 2 días o semanalmente). |
@@ -229,6 +229,6 @@ Consulte también Experience Platform [Protecciones de exportación de conjuntos
 | Vinculación (función opcional; consulte [Información general de vinculación](../stitching/overview.md) para obtener más información) | &lt; 3,25 horas |
 | Relleno del conector de origen de Adobe Analytics de menos de 10 000 millones de eventos (un máximo de 13 meses de datos históricos) | &lt; 4 semanas |
 | Publicación de audiencias en el Perfil del cliente en tiempo real, lo que incluye la creación automática del segmento de flujo continuo y permite que el segmento esté listo para recibir los datos. | ≈ 60 minutos |
-| Actualizar la frecuencia de las audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualice cada 4 horas, diariamente, semanalmente o mensualmente (la latencia va acompañada de la frecuencia de actualización). |
+| Frecuencia de actualización para audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualice cada 4 horas, diariamente, semanalmente o mensualmente (la latencia va acompañada de la frecuencia de actualización). |
 
 {style="table-layout:auto"}
