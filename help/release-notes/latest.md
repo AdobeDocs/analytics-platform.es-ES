@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4ad92a72f0ced81f84198da744fef9fe4c0a6b0b
+source-git-commit: cc74a8fdb3e44c5fa46e82a5111619970f090870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 37%
+source-wordcount: '622'
+ht-degree: 40%
 
 ---
 
@@ -25,7 +25,6 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 15 de mayo de 2
 | **Asistente de IA para Customer Journey Analytics** | Permite realizar preguntas en lenguaje natural en la interfaz de usuario de Customer Journey Analytics y obtener respuestas basadas en la documentación de Customer Journey Analytics. (Enlace de documentación a continuación) | | viernes, 30 de mayo de 2024 |
 | **Medios de streaming: envíe datos web al Edge Network de Adobe Experience Platform con el SDK web** | Ahora puede utilizar el SDK web de Adobe Experience Platform para enviar datos web de medios de streaming a Adobe Experience Platform Edge Network, lo que le permite crear campañas más personalizadas y proporcionar contenido más personalizado, lo que da como resultado más datos de seguimiento sobre los que informar.<p>Esta mejora proporciona un método de recopilación unificado para implementaciones web en todas las soluciones de Platform, como Customer Journey Analytics, RT-CDP, AJO y reenvío de eventos. Anteriormente, la única manera de enviar datos web de medios de streaming a Edge Network era mediante la API de Media Edge. [Más información](https://experienceleague.adobe.com/es/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) | | 31 de mayo de 2024 |
 | **Campos derivados: función matemática** | Le permite hacer operadores matemáticos simples dentro de las vistas de datos para responder preguntas sobre los usuarios. Por ejemplo, puede combinar los ingresos del producto, la garantía y el envío. (Enlace de documentación a continuación) | | jueves, 05 de junio de 2024 |
-| **Campos derivados: función siguiente o anterior** | Permite ver cuál es el valor siguiente o anterior. Por ejemplo, ¿cuáles eran los canales de marketing anteriores con los que interactuó alguien antes del canal de marketing seleccionado? O bien, ¿con qué interactuaban los usuarios antes o después de la página seleccionada? ¿Con qué interactúan los usuarios de canal más populares antes de entrar en la tienda?  (Enlace de documentación a continuación) | | jueves, 12 de junio de 2024 |
 | **Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics** | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta en función de la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización. Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor lo siguiente:<ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles en función de la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li></ul>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | Disponible ahora |
 | **Nueva documentación sobre [Casos de uso de exportación de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/overview)** | Esta nueva sección describe casos de uso de exportación de datos como<ul><li>Data Backup</li><li>Validación de datos</li><li>Herramientas de Data Lake, Data Warehouse o BI</li><li>Preparación para AI/ML</li></ul> y cómo implementarlos mediante las funcionalidades de Experience Platform y Customer Journey Analytics. | | Disponible ahora |
 
