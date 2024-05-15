@@ -1,44 +1,49 @@
 ---
 title: Vista de participación
-description: Comprenda la amplitud y la anchura de la participación de las funciones.
+description: Comprenda la amplitud y profundidad de la participación de las funciones.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
+source-git-commit: fda9b262ff4f0f0804354e5307c1cf885032e781
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 4%
+source-wordcount: '726'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Participación] vista
 
-El **[!UICONTROL Participación]** La vista de proporciona una perspectiva de la frecuencia con la que se utiliza una función en comparación con la cantidad de personas que la utilizan. Este análisis funciona mejor cuando se comparan varias funciones entre sí.
+El **[!UICONTROL Participación]** La vista de proporciona una perspectiva de la frecuencia con la que se utiliza una función en comparación con la cantidad de personas que la utilizan. Este análisis funciona mejor cuando se comparan varias características entre sí y ayuda a impulsar las decisiones de inversión al comprender cuáles son sus características principales, de potencia, únicas y cuestionables.
 
-Las funciones que se representan en la parte superior de esta visualización indican que se visita con frecuencia entre las personas que la utilizan. Las características que se representan a la derecha de esta visualización indican que la mayor proporción de usuarios que interactúan con la característica. La mediana de veces que se utiliza una función divide el gráfico horizontalmente. El porcentaje medio de usuarios activos diarios divide el gráfico verticalmente.
+Las funciones que trazan hacia la parte superior de esta visualización indican que se utilizan con frecuencia entre usuarios comprometidos. Las funciones que se representan a la derecha de esta visualización indican que se adoptan ampliamente entre los usuarios activos. La mediana de veces que se utiliza una función divide el gráfico horizontalmente. El porcentaje medio de usuarios activos divide el gráfico verticalmente. Nota: Las medianas se calculan en función de los eventos seleccionados en la consulta, no de todos los datos.
 
-* Las funciones de la parte superior izquierda de la matriz significan que una función no se ha adoptado ampliamente. Sin embargo, entre las personas que lo utilizan, lo hacen con frecuencia.
-* Las funciones de la parte superior derecha de la matriz significan que una función se adopta ampliamente y se utiliza con frecuencia.
-* Las funciones de la parte inferior derecha de la matriz significan que una función se adopta ampliamente, pero no se utiliza con frecuencia.
-* Las funciones de la parte inferior izquierda de la matriz significan que una función no se adopta ampliamente ni se utiliza con frecuencia.
+* Las funciones de la parte superior izquierda de la matriz son las siguientes **poder** funciones; no se adoptan ampliamente, pero los utilizan con frecuencia usuarios comprometidos.
+* Las funciones de la parte superior derecha de la matriz son las siguientes **alto impacto** características; son ampliamente adoptados y utilizados con frecuencia.
+* Las funciones de la parte inferior izquierda de la matriz son las siguientes **bajo impacto** características; no se adoptan ampliamente, ni se utilizan con frecuencia.
+* Las funciones de la parte inferior derecha de la matriz son las siguientes **único** características; son ampliamente adoptados, pero no se utilizan con frecuencia.
 
 ## Casos prácticos
 
 Los casos de uso para este tipo de vista incluyen:
 
-* **Participación por función**: puede establecer una correlación directa entre la participación y la adopción de una función específica. Comprender qué funciones se utilizan más puede ayudar a determinar qué funciones priorizar para mejorar.
-* **Descubra las funciones infrautilizadas**: funciones con usuarios activos diarios bajos, pero un uso elevado, pueden indicar una función oculta, pero valiosa. Considere la posibilidad de exponer este tipo de funciones a más usuarios.
-* **Mejora de funciones populares**: las funciones con usuarios activos altos pero un uso bajo pueden indicar que una función es muy solicitada pero no se utiliza suficientemente. Considere la posibilidad de invertir en mejorar estas funciones para que se utilicen con más frecuencia.
-* **Creación de segmentos basados en funciones**: El análisis de la frecuencia con la que se utiliza una función respecto a la cantidad de usuarios que la adoptan puede ayudar a determinar los tipos de usuarios que adoptan una función determinada. Puede crear segmentos basados en usuarios que utilicen una función de forma informal o en usuarios que utilicen esa función con frecuencia.
-* **Prueba A/B de adopción de funciones**: Compare el uso de varias funciones mediante segmentos. Añada los segmentos de cada cohorte en el carril de consulta para determinar la diferencia en el uso de las funciones fácilmente.
+* **Participación por función**: puede establecer una correlación directa entre la participación y la adopción de una función específica. Comprender qué características se utilizan más puede ayudar a determinar en qué características invertir más.
+* **Descubra las funciones infrautilizadas**: las funciones con usuarios activos bajos, pero un uso alto, pueden indicar una función de energía que es valiosa, pero que no descubre ni utiliza la población en general. Considere la posibilidad de mejorar la capacidad de detección de estas funciones para que más usuarios las aprovechen.
+* **Mejora de funciones populares**: las funciones con usuarios activos altos pero un uso bajo pueden indicar que una función es muy solicitada pero no se utiliza suficientemente. Estos ofrecen oportunidades para obtener más información de los usuarios sobre las mejoras que podrían aportar a la función más valor para ellos.
+* **Creación de segmentos basados en funciones**: visualización del uso de funciones de esta manera para ofrecer oportunidades de análisis adicionales. Cree un segmento para cualquier punto del gráfico para profundizar en ese grupo de usuarios y aplicar esas lecciones a su estrategia de participación del usuario.
+* **Prueba A/B de adopción de funciones**: compare el uso de varias funciones entre diferentes grupos de usuarios. Añada segmentos en el carril de consulta a para determinar la diferencia en el uso de las funciones entre grupos de usuarios clave.
 
 ## Carril de consulta
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **[!UICONTROL Eventos]**: los eventos que desea medir. Estos eventos suelen representar el uso de una función determinada. Cada selección se representa como un punto dentro de la matriz. Se pueden incluir hasta diez eventos.
-* **[!UICONTROL Contabilizado como]**: determine los detalles de cómo cuenta los usuarios el eje x. Puede medir el porcentaje promedio de usuarios activos diarios, semanales, mensuales o trimestrales. El eje Y ajusta automáticamente el promedio de veces por usuario en función de la selección del eje X.
+* **[!UICONTROL Eventos]**: los eventos que desea medir, que representan el uso de una función determinada. Cada selección se representa como un punto dentro de la matriz. Se pueden incluir hasta diez eventos. La mediana se calcula en función de los eventos seleccionados.
+* **[!UICONTROL Contabilizado como]**: A lo largo del eje x, puede medir el porcentaje promedio de usuarios activos diarios, semanales, mensuales o trimestrales. El eje Y ajusta automáticamente el promedio de veces por usuario en función de la selección del eje X.
 * **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado duplica el número de puntos trazados en el gráfico y las filas de la tabla. Se pueden incluir hasta tres segmentos.
+
+>[!TIP]
+>
+>Si el uso de una función se representa mediante muchos eventos que se producen, puede derivar un nuevo evento que represente la función que se utilizó en las vistas de datos.
 
 ## Ajustes del gráfico
 
@@ -47,7 +52,7 @@ El [!UICONTROL Participación] La vista ofrece la siguiente configuración de gr
 * **[!UICONTROL Medianas]**: Determine dónde se muestran las líneas medias y cómo se relacionan los puntos trazados con esas medianas.
    * **[!UICONTROL Standard]**: Mostrar el valor absoluto de uso y participación.
    * **[!UICONTROL Normalizado]**: mostrar los cambios relativos de cada mediana.
-* **[!UICONTROL Superposición de eventos principales]**: vea el comportamiento de los eventos en comparación con los eventos más comunes.
+* **[!UICONTROL Superposición de eventos principales]**: vea el rendimiento de los eventos en comparación con los 20 eventos principales, en función de la actualización y relevancia de la empresa y el usuario (el mismo algoritmo aplicado al selector de eventos en el carril de consultas).
 
 ## Comparación del tiempo
 
