@@ -4,9 +4,9 @@ title: Asistente de IA para Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 02a0ad53d8c3ef0c10e2b9c2b11bb75a6a962cf0
+source-git-commit: 49f2c393bbd0bff28dd8bc166b3c60bc49d4df37
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,16 @@ El asistente de IA para Customer Journey Analytics está disponible para todos l
 >[!IMPORTANT]
 >
 >En este punto, el Asistente de IA para Customer Journey Analytics no responde a preguntas de uso sobre los objetos de datos de su organización.
+
+## Acceso a funciones
+
+En esta primera versión, el acceso a la función de asistente de IA se rige por los siguientes parámetros:
+
+* **Acceso a soluciones**: el asistente de IA está disponible en Customer Journey Analytics, pero no en Adobe Analytics. También está disponible en Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP y otras aplicaciones de Experience Platform.
+
+* **Acceso contractual**: el contrato de venta de Adobe debe incluir una cláusula que permita a Adobe utilizar los datos en el desarrollo del modelo AI/ML (cláusula 6.2).
+
+* **Permisos**: La [!UICONTROL Adobe Admin Console] [!UICONTROL Herramientas de informes] El permiso &quot;Documentación del asistente de IA&quot; determina el acceso a esta herramienta. Este permiso se agregará a la sección Herramientas de creación de informes a mediados de mayo. Debe asegurarse de crear un [perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) en Admin Console con este permiso concedido y agregue manualmente usuarios a este perfil.
 
 ## Acceso al Asistente de IA en la IU de Customer Journey Analytics
 
