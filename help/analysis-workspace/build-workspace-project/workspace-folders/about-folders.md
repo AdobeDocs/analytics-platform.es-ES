@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
 source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Existen dos tipos de carpetas en el Espacio de trabajo: la carpeta Compañía y 
 
 Cuando inicia sesión en el Espacio de trabajo, la página de inicio Proyectos muestra una lista de sus proyectos junto con la carpeta Compañía y las carpetas personales que haya creado.
 
-![Página de inicio de Proyectos](../assets/landing-page2.png)
+![Página de inicio de proyectos](../assets/landing-page2.png)
 
 ## Acerca de la carpeta Compañía {#company-folder}
 
@@ -52,6 +52,6 @@ Los usuarios que no son administradores tienen opciones limitadas.
 
 - Los administradores pueden eliminar una carpeta dentro de la carpeta Compañía que otro administrador haya creado. Es posible que los administradores tengan que coordinarse con otros administradores para mantener la coherencia de las carpetas y el acceso al proyecto.
 
-- Cuando un administrador mueve un proyecto a la carpeta Compañía, este se comparte con todos los usuarios de **Editar copia** función, incluso si los privilegios compartidos originales estaban restringidos.
+- Cuando un administrador mueve un proyecto a la carpeta Compañía, se comparte con todos con la función **Editar copia**, aunque los privilegios compartidos originales estén restringidos.
 
 - Cuando un administrador mueve un proyecto fuera de la carpeta Compañía, se respetan los privilegios de uso compartido originales o anteriores.

@@ -6,19 +6,19 @@ exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Realizar análisis básico
 
-Customer Journey Analytics le permite analizar los datos utilizando la potencia y flexibilidad de Analysis Workspace.
+Customer Journey Analytics le permite analizar datos utilizando la potencia y flexibilidad de Analysis Workspace.
 
 >[!TIP]
 >
->Si no hay datos disponibles en Analysis Workspace, asegúrese de seguir las [proceso de ingesta de datos](/help/data-ingestion/data-ingestion.md), que incluye lo siguiente:<ul><li>[Crear una conexión](/help/connections/create-connection.md#create-and-configure-the-connection) </br>Asegúrese de que la conexión está configurada para importar nuevos datos, datos de relleno o ambos.</li><li>[Añadir conjuntos de datos](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[Creación de vistas de datos](/help/data-views/create-dataview.md)</li></ul>
+>Si no hay datos disponibles en Analysis Workspace, asegúrese de seguir el [proceso de ingesta de datos](/help/data-ingestion/data-ingestion.md), que incluye lo siguiente:<ul><li>[Crear una conexión](/help/connections/create-connection.md#create-and-configure-the-connection) </br>Asegúrese de que la conexión está configurada para importar nuevos datos, datos de relleno o ambos.</li><li>[Añadir conjuntos de datos](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[Creación de vistas de datos](/help/data-views/create-dataview.md)</li></ul>
 
 No dude en experimentar y arrastrar dimensiones y métricas, cambiar dimensiones y configuraciones de atribución de métricas, nombres prácticos, husos horarios, configuraciones de sesión, etc.
 

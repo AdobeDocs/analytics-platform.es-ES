@@ -6,19 +6,19 @@ feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
 source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Configuración de sesión
 
-En Customer Journey Analytics, puede definir una sesión de cualquier manera para que coincida con la forma en que las personas interactúan con las experiencias digitales. La configuración de sesión se establece en una vista de datos.
+En Customer Journey Analytics, puede definir una sesión del mismo modo en que las personas interactúan con las experiencias digitales. La configuración de sesión se establece en una vista de datos.
 
 Las definiciones de configuración de sesiones son inofensivas y no modifican los datos subyacentes. Puede configurar varias vistas de datos (cada una con su definición de configuración de sesiones específica) como base para sus proyectos de Espacio de trabajo.
 
-Para definir el contexto de una sesión dentro de una vista de datos:
+Para definir el contexto de una sesión en una vista de datos:
 
 1. Seleccione **[!UICONTROL Vistas de datos]** en la interfaz de usuario de Customer Journey Analytics.
 
