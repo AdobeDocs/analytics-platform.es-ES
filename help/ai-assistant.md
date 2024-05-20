@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: d993f46821e6236f4536fea953585219ec8096b5
+source-git-commit: 9659ebfc267be769c7a87c01b129245c97b82a95
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ En esta primera versión, el acceso a la función de asistente de IA se rige por
 
 * **Acceso a soluciones**: el asistente de IA está disponible en Customer Journey Analytics, pero no en Adobe Analytics. También está disponible en Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP y otras aplicaciones de Experience Platform.
 
-* **Acceso contractual**: el contrato de venta de Adobe debe incluir la cláusula 6.2 que permite a Adobe utilizar los datos en el desarrollo de modelos de IA/ML.
+* **Acceso contractual**: si no puede utilizar el asistente de IA, póngase en contacto con el administrador de su organización o con el representante de cuentas de Adobe de. Antes de que AI Assistant pueda ser utilizado por su organización, su empresa debe aceptar ciertos términos legales relacionados con GenAI.
 
 * **Permisos**: La [!UICONTROL Adobe Admin Console] [!UICONTROL Herramientas de informes] El permiso &quot;Documentación del asistente de IA&quot; determina el acceso a esta herramienta. Este permiso se agregará a la sección Herramientas de creación de informes a mediados de mayo. Debe asegurarse de crear un [perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) en Admin Console con este permiso concedido y agregue manualmente usuarios a este perfil.
 
