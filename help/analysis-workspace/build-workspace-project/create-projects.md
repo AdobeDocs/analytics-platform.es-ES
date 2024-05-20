@@ -4,10 +4,10 @@ title: Creación de proyectos
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '602'
-ht-degree: 100%
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Los [proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md) en Analysis Workspace le permiten ver análisis críticos para el negocio que se pueden compartir con las partes interesadas dentro o fuera de su organización.
 
-Para obtener información general acerca de cómo empezar a utilizar Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).
+Para obtener información sobre cómo empezar a utilizar Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).
 
 En las siguientes secciones se describe cómo crear un proyecto y empezar a añadir los componentes básicos para cualquier proyecto de Analysis Workspace: paneles, visualizaciones y componentes.
 
@@ -36,55 +36,63 @@ En las siguientes secciones se describe cómo crear un proyecto y empezar a aña
 
 ## Añadir paneles al proyecto {#panels}
 
-[Paneles](/help/analysis-workspace/c-panels/panels.md) son la base de cualquier proyecto de Analysis Workspace. Los paneles se utilizan para organizar el contenido (visualizaciones y componentes) de un proyecto.
+Los [paneles](/help/analysis-workspace/c-panels/panels.md) son la base de cualquier proyecto de Analysis Workspace. Los paneles se utilizan para organizar el contenido (visualizaciones y componentes) de un proyecto.
 
 Muchos de los paneles que se proporcionan en Analysis Workspace generan un conjunto completo de análisis basados en unas pocas entradas de usuario. 
 
-Para añadir un panel, haga lo siguiente:
+Para añadir un panel:
 
 1. Seleccione el icono [!UICONTROL **Paneles**] en el carril izquierdo.
 
    ![El icono de selección de paneles y la lista de paneles disponibles.](assets/build-panels.png)
 
-1. Busque el panel que desea añadir. Cuando aparezca en la barra izquierda, arrástrelo a su proyecto.
+1. Busque el panel que desea añadir. Cuando aparezca en el carril izquierdo, arrástrelo al proyecto.
 
-1. Añada visualizaciones a su panel, tal como se describe en [Añadir visualizaciones al proyecto](#add-visualizations-to-the-project).
+1. Añada visualizaciones al panel tal como se describe en [Añadir visualizaciones al proyecto](#add-visualizations-to-the-project).
 
    También puede añadir componentes directamente a un panel, tal como se describe en [Añadir componentes al proyecto](#add-components-to-the-project).
 
 ## Añadir visualizaciones al proyecto
 
-Las [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), como una tabla de forma libre, un gráfico de barras o un gráfico de líneas, se pueden utilizar para que los datos cobren vida visualmente. 
+Las [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), como una tabla de forma libre o un gráfico de líneas se pueden utilizar para que los datos cobren vida visualmente. 
 
 >[!TIP]
 >
->Las tablas de forma libre son el tipo más común de visualización y constituyen la base del análisis interactivo de datos. Para más detalles sobre cómo trabajar con tablas de forma libre en Analysis Workspace, consulte [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>Las tablas de forma libre son el tipo de visualización más común y son la base del análisis de datos interactivo. Para obtener más información sobre cómo trabajar con tablas de forma libre en Analysis Workspace, consulte [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
-Para añadir una visualización, haga lo siguiente:
+Para añadir una visualización:
 
 1. Seleccione el icono **[!UICONTROL visualizaciones]** en el carril izquierdo.
 
    ![El icono Visualizaciones seleccionadas y la lista de visualizaciones disponibles.](assets/build-visualizations.png)
 
-1. Busque la visualización que desea añadir. Cuando aparezca en el carril izquierdo, arrástrela a un panel dentro de su proyecto.
+1. Busque la visualización que desea añadir. Cuando aparezca en el carril izquierdo, arrástrelo a un panel dentro del proyecto.
 
-1. Añada componentes a la visualización, tal como se describe en [Añadir componentes al proyecto](#add-components-to-the-project).
+1. Añada componentes a la visualización tal como se describe en [Añadir componentes al proyecto](#add-components-to-the-project).
 
 ## Añadir componentes al proyecto
 
-[Componentes](/help/components/overview.md) constituyen los datos reales de cualquier proyecto. Puede añadir componentes a las visualizaciones o a los paneles.
+Los [componentes](/help/components/overview.md) constituyen los datos reales de cualquier proyecto. Puede añadir componentes a las visualizaciones o a los paneles.
 
 >[!TIP]
 >
 >Para obtener información sobre cada componente, seleccione el icono de información situado junto al nombre del componente en el carril izquierdo o consulte la [ Información general sobre componentes](/help/components/overview.md).
 
-Para añadir un componente, haga lo siguiente:
+A continuación se proporciona información básica sobre cómo agregar un componente a un proyecto en Analysis Workspace. Para obtener información más detallada sobre cómo añadir los distintos tipos de componentes (dimensiones, métricas, filtros e intervalos de fechas), consulte [Uso de componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
+
+Para añadir un componente a un proyecto en Analysis Workspace:
 
 1. Seleccione el icono **[!UICONTROL Componentes]** en el carril izquierdo.
 
    ![El icono Componentes seleccionados y la lista de dimensiones disponibles.](assets/build-components.png)
 
-1. Busque el componente que desea añadir. Cuando aparezca en el carril izquierdo, arrástrela a un panel o visualización dentro de su proyecto.
+1. Desplácese hasta el componente que desee añadir o búsquelo y arrástrelo a un panel o a una visualización dentro del proyecto.
+
+   Por ejemplo, puede arrastrar un filtro a la zona de colocación de filtros en el encabezado de un panel.
+
+   ![soltar un filtro en la zona de colocación](assets/filter-dropzone.png)
+
+   Para obtener más información sobre cómo agregar componentes a proyectos, consulte [Uso de componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
 
 1. (Opcional) Comparta el proyecto tal como se describe en [Guardar y compartir el proyecto](#save-and-share-the-project).
 

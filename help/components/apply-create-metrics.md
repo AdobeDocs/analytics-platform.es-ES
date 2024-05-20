@@ -4,9 +4,9 @@ title: Métricas
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '407'
 ht-degree: 40%
 
 ---
@@ -32,6 +32,10 @@ Puede ver si una métrica está aprobada ![Icono de aprobado](https://spectrum.a
 
 
 Las métricas son flexibles en su uso dentro de Analysis Workspace. Arrastre una métrica a una tabla de forma libre vacía para ver las tendencias de esa métrica durante el período de fecha del proyecto. También puede arrastrar una métrica cuando una dimensión esté presente para verla comparada con cada elemento de dimensión. Al arrastrar una métrica sobre un encabezado de métrica existente, se reemplaza y al arrastrar una métrica junto a un encabezado, puede ver ambas métricas en paralelo.
+
+## Uso de métricas en Analysis Workspace
+
+Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. Para obtener información sobre cómo agregar métricas y otros tipos de componentes a Analysis Workspace, consulte [Uso de componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
 
 ## Métricas calculadas 
 
