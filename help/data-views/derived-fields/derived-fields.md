@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 17ffd1865c9d24a6ed99577b4679b72ef855e898
+source-git-commit: 09da072a3863a2d0a0ed7d90802f65b64f6f753c
 workflow-type: tm+mt
-source-wordcount: '5986'
+source-wordcount: '5987'
 ht-degree: 13%
 
 ---
@@ -1287,7 +1287,7 @@ Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en g
 | Función | Limitaciones |
 |---|---|
 | <p>Caso de que</p> | <ul><li>5 Caso Cuando las funciones por campo derivado</li><li>200 [operadores](#operators) por campo derivado</li></ul> |
-| <p>Clasificar</p> | <ul><li>5 Clasificar funciones por campo derivado</li><li>100 filas por función</li></ul> |
+| <p>Clasificar</p> | <ul><li>5 Clasificar funciones por campo derivado</li><li>200 [operadores](#operators) por campo derivado</li></ul> |
 | <p>Concatenar</p> | <ul><li>2 Concatenar funciones por campo derivado</li></ul> |
 | <p>Buscar y reemplazar</p> | <ul><li>2 Funciones Buscar y reemplazar por campo derivado</li></ul> |
 | <p>Búsqueda</p> | <ul><li>5 Funciones de búsqueda por campo derivado</li></ul> |
