@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 09da072a3863a2d0a0ed7d90802f65b64f6f753c
+source-git-commit: d9ec1dfe99ad77f7b995ef97b71eb31f28eafd35
 workflow-type: tm+mt
 source-wordcount: '5987'
 ht-degree: 13%
