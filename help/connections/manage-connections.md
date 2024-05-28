@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 73b9aa3bc7568c90c3e92b6fa8197577a904a6a2
+source-git-commit: 5ad3f9c85c583390e6c5ba933ee59c3d0b3f8c59
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '2996'
 ht-degree: 14%
 
 ---
@@ -32,6 +32,8 @@ Una vez que haya [ha creado o editado una o más conexiones](/help/connections/c
 ## Lista
 
 El [!UICONTROL Lista] interfaz es la interfaz predeterminada para Conexiones. Si no está seleccionada, seleccione la opción **[!UICONTROL Lista]** para acceder a la interfaz.
+
+![vista de lista](assets/list-view.png)
 
 El [!UICONTROL Lista] La interfaz de muestra una tabla con todas las conexiones disponibles. Puede buscar rápidamente una conexión utilizando la opción Buscar ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) cuadro.
 
@@ -202,6 +204,8 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 El [!UICONTROL Uso] La interfaz de muestra el uso de filas introducidas y notificables en todas las conexiones. Esta interfaz le permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente.
 
+![usage-view](assets/usage-view.png)
+
 Seleccione el **[!UICONTROL Uso]** para acceder a la interfaz.
 
 Para informar sobre el uso:
@@ -211,14 +215,14 @@ Para informar sobre el uso:
 
 Para [!UICONTROL Filas ingeridas]:
 
-* un panel muestra el total de filas introducidas que incluyen todos los datos de eventos en todas las conexiones actualizadas el segundo día de un mes. En el panel:
+* Un panel muestra el total de filas introducidas que incluyen todos los datos de eventos en todas las conexiones actualizadas el segundo día de un mes. En el panel:
    * un cuadro muestra el número de filas introducidas del último mes y el cambio en % (indicado por <span style="color:green">▲</span> o <span style="color:c64545">▼</span>) del mes anterior.
    * un gráfico de líneas muestra la variable <span style="color:53b2ad">◼︎</span> [!UICONTROL Filas introducidas mensualmente].<br/>Para ver una ventana emergente que muestra el número de filas introducidas mensualmente durante un mes, pase el ratón sobre cualquier punto de datos del gráfico de líneas.
 
 
 Para [!UICONTROL Filas reportables]:
 
-* un panel muestra el total de filas sobre las que se pueden realizar informes que incluyen todos los datos de eventos en todas las conexiones actualizadas el segundo día de un mes. En el panel:
+* Un panel muestra el total de filas sobre las que se pueden realizar informes que incluyen todos los datos de eventos en todas las conexiones actualizadas el segundo día de un mes. En el panel:
    * un cuadro muestra el número total acumulado de filas sobre las que se puede realizar un informe.
    * un cuadro muestra el número total de filas sobre las que se puede realizar un informe del último mes y el cambio en % (indicado por <span style="color:green">▲</span> o <span style="color:c64545">▼</span>) del mes anterior.
    * un gráfico de líneas muestra la variable <span style="color:53b2ad">◼︎</span> [!UICONTROL Filas informables mensuales].<br/>Para ver una ventana emergente que muestra el número de filas acumulativas sobre las que se puede realizar un informe para un mes específico, pase el ratón sobre cualquier punto de datos del gráfico de líneas.
