@@ -4,10 +4,10 @@ description: Incorpore datos generados por Gestión de decisiones de Adobe Journ
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 734751f94a5d066de80182eb1ca3668aa311a4c1
+source-git-commit: 027ff3983c67481dd8284667d97f59f427b18928
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Puede crear las siguientes métricas en una vista de datos para lograr una parid
 | Puntuación de opción de decisión de reserva | Valor calculado para una opción de decisión de reserva en el contexto de un solo ámbito. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | Tipo de componente: Métrica |
 | Ofertas descartadas | El número de ofertas descartadas o rechazadas sin ninguna otra interacción directa. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo de componente: Métrica |
 | Visualización de ofertas | Número de ofertas visualizadas en el perfil. | `_experience.decisioning.`<br/>`propositionEventType.display` | Tipo de componente: Métrica |
-| Interacción de ofertas | Número de ofertas visualizadas en el perfil. | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo de componente: Métrica |
+| Interacción de ofertas | El número de ofertas con las que interactuó el perfil. | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo de componente: Métrica |
 | Ofertas enviadas | Número de ofertas enviadas al perfil. | `_experience.decisioning.`<br/>`propositionEventType.send` | Tipo de componente: Métrica |
 | Activador de ofertas | El número de ofertas elegidas para ser mostradas por el SDK del cliente. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo de componente: Métrica |
 | Cancelación la suscripción de ofertas | El número de ofertas solicitadas por perfil que no se mostrarán en el futuro. | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | Tipo de componente: Métrica |
