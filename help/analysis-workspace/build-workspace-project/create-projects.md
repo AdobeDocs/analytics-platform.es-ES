@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Los [componentes](/help/components/overview.md) constituyen los datos reales de 
 >
 >Para obtener información sobre cada componente, seleccione el icono de información situado junto al nombre del componente en el carril izquierdo o consulte la [ Información general sobre componentes](/help/components/overview.md).
 
-A continuación se proporciona información básica sobre cómo agregar un componente a un proyecto en Analysis Workspace. Para obtener información más detallada sobre cómo añadir los distintos tipos de componentes (dimensiones, métricas, filtros e intervalos de fechas), consulte [Uso de componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
+A continuación se proporciona información básica sobre cómo añadir un componente a un proyecto en Analysis Workspace. Para obtener información más detallada sobre cómo añadir los distintos tipos de componentes (dimensiones, métricas, filtros e intervalos de fechas), consulte [Uso de componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
 
 Para añadir un componente a un proyecto en Analysis Workspace:
 
@@ -92,7 +92,7 @@ Para añadir un componente a un proyecto en Analysis Workspace:
 
    ![soltar un filtro en la zona de colocación](assets/filter-dropzone.png)
 
-   Para obtener más información sobre cómo agregar componentes a proyectos, consulte [Uso de componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
+   Para obtener más información sobre cómo añadir componentes a proyectos, consulte [Uso de componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
 
 1. (Opcional) Comparta el proyecto tal como se describe en [Guardar y compartir el proyecto](#save-and-share-the-project).
 
