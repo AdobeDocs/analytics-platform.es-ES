@@ -5,10 +5,10 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+source-git-commit: 63dd68d31a9f2b907419fa660904f1dfdacaa0b8
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 3%
+source-wordcount: '629'
+ht-degree: 2%
 
 ---
 
@@ -22,10 +22,11 @@ El **[!UICONTROL Fricción]** La vista de proporciona una representación visual
 
 Los casos de uso para este tipo de vista incluyen:
 
-* **Análisis de conversión**: Puede analizar las conversiones en cada fase del canal. Al rastrear el número de usuarios que progresan de un paso al siguiente, puede identificar cuellos de botella que tienen tasas de conversión inusuales o no deseadas. Esta información es valiosa para saber dónde puede mejorar el producto para obtener resultados inmediatos.
+* **Análisis de conversión**: Puede analizar las conversiones en cada fase del canal, por ejemplo, un cierre de compra minorista, el registro de una cuenta, el flujo de suscripción o cualquier otro recorrido crítico dentro de la experiencia del producto. Al rastrear el número de usuarios que progresan de un paso al siguiente, puede identificar cuellos de botella que tienen tasas de conversión inusuales o no deseadas. Esta información es valiosa para saber dónde puede mejorar el recorrido del producto para obtener resultados inmediatos.
+* **Análisis de experimentación**: puede comparar las tasas de conversión en un canal que tenga pasos opcionales o pasos en los que se esté ejecutando un experimento A/B. Esta información puede ayudarle a determinar qué variación del canal conduce a la tasa de conversión más alta, de modo que pueda animar a más usuarios en ese camino.
 * **Optimización de incorporación**: optimice el proceso de incorporación de su producto examinando el comportamiento del usuario en torno a los eventos clave. Puede identificar con qué pasos luchan los usuarios o no logran completarlos.
 * **Adopción y participación de funciones**: comprenda cómo los usuarios interactúan con funciones específicas del producto. El análisis de la progresión de los usuarios a través de pasos relacionados con las funciones le permite ver las tasas de adopción e identificar áreas en las que los usuarios podrían infrautilizar determinadas funciones. A continuación, puede utilizar esta información para centrarse en las mejoras de funciones y aumentar las tasas de adopción.
-* **Evaluación de campaña**: mida la eficacia de las campañas de marketing. Puede crear un segmento que se centre en los usuarios que han participado en una campaña determinada y comparar su proceso de conversión con otras campañas o con el producto en general.
+* **Eficacia del canal de marketing**: mida la eficacia de los canales de marketing. Puede crear un segmento centrado en usuarios que interactuaron con diferentes canales de marketing (por ejemplo, búsqueda de pago, visualización, búsqueda natural o directa) y luego comparar sus recorridos para ver qué canal ofrece los mejores resultados de producto.
 
 ## Carril de consulta
 
@@ -33,7 +34,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Ver]**: cambie entre este tipo de vista y [Tendencias de conversión](conversion-trends.md).
 * **[!UICONTROL Pasos]**: los puntos de contacto del evento que desea rastrear. Cada barra del gráfico representa un paso. Se pueden incluir hasta diez pasos.
-   * [!UICONTROL Comparar]: Cada paso proporciona una opción para comparar varios eventos en un solo paso de canal, lo que crea un &quot;embudo ramificado&quot;. Esta función le permite comparar la fricción de dos recorridos en paralelo sin crear dos análisis independientes.
+   * [!UICONTROL Comparar]: Cada paso proporciona una opción para comparar varios eventos en un solo paso de canal, lo que crea un &quot;embudo ramificado&quot;. Esta función le permite comparar la fricción de dos recorridos en paralelo sin crear dos análisis independientes. Resulta útil cuando hay opciones de paso o cuando se está ejecutando un experimento A/B dentro del canal.
 * **[!UICONTROL Contabilizado como]**: el ámbito que desea aplicar al canal. Las opciones incluyen [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
    * [!UICONTROL Sesiones]: todos los pasos deben realizarse dentro de la misma sesión para que se cuenten.
    * [!UICONTROL Usuarios]: todos los pasos deben realizarse dentro de la ventana de creación de informes seleccionada para que se puedan contar.
