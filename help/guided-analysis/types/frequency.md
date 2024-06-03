@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 481e52bbfe06268642522b908f9b7ac66c882433
+source-git-commit: 70c274819eaef46627bf66d05ef8f790f61906a4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 6%
+source-wordcount: '629'
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ El [!UICONTROL Frecuencia] La vista ofrece la siguiente configuración de gráfi
 
 ## Configuración del depósito
 
-Determina cómo se clasifica el evento en grupos.
+Determina cómo se clasifica el evento en grupos (contenedores). En la vista de tabla de tendencias, los usuarios se agrupan en función de la frecuencia de uso en total y en cada intervalo, lo que significa que 1 usuario puede contar hacia diferentes bloques en diferentes intervalos.
 
 * **[!UICONTROL Bloques automáticos]**: Identifique automáticamente el tamaño de bloque óptimo en función de la distribución de datos.
 * **[!UICONTROL Bloques personalizados]**: Personalice la forma en que los datos se agrupan en bloques.
@@ -60,5 +60,5 @@ Determina cómo se clasifica el evento en grupos.
 
 El intervalo de fechas deseado para el análisis. Esta configuración consta de dos componentes:
 
-* **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver los datos de tendencia. Esta configuración no afecta a las vistas sin tendencias como Frecuencia.
+* **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver los datos de tendencias. El gráfico y la tabla muestran los datos agregados de forma predeterminada, con la opción de expandir la tabla a una vista de tendencias. En la vista de tendencias, los usuarios se agrupan en función de la frecuencia de uso en total y en cada intervalo, lo que significa que 1 usuario puede contar hacia diferentes bloques en diferentes intervalos.
 * **[!UICONTROL Fecha]**: la fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.
