@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
+source-git-commit: fb9b0d2c8d2333aba83598ab1e1aea2370636002
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -32,6 +32,10 @@ Algunos ejemplos de preguntas conceptuales son:
 * ¿Para qué se utiliza Customer Journey Analytics?
 * ¿Cómo configuro una vista de datos?
 
+Las preguntas que no entran en el ámbito de Customer Journey Analytics, como las preguntas sobre otros productos de Adobe como Adobe Target y Adobe Creative Cloud Suite, no se pueden responder.
+
+El asistente de IA para Customer Journey Analytics está disponible para todos los niveles de productos.
+
 ## Conocimiento del producto {#knowledge}
 
 El modelo de recuperación del conocimiento del producto está formado en Customer Journey Analytics. Otras funciones, como el análisis de datos, se implementarán más adelante.
@@ -41,10 +45,6 @@ El modelo de recuperación del conocimiento del producto está formado en Custom
 | Aprendizaje puntual | <ul><li>¿Cuál es la diferencia entre Adobe Analytics y Customer Journey Analytics?</li><li>¿Cómo se crea una métrica calculada?</li></ul> |
 | Abrir detección | <ul><li>¿Cómo puedo exportar un proyecto de Workspace?</li><li>¿Cómo puedo encontrar componentes duplicados de Workspace?</li></ul> |
 | Resolución de problemas | <ul><li>¿Cuánto tiempo tardan los datos en entrar en CJA?</li><li>¿Cuántos campos derivados puedo tener en una conexión de Customer Journey Analytics?</li></ul> |
-
-Las preguntas que no entran en el ámbito de Customer Journey Analytics, como las preguntas sobre otros productos de Adobe como Adobe Target y Adobe Creative Cloud Suite, no se pueden responder.
-
-El asistente de IA para Customer Journey Analytics está disponible para todos los niveles de productos.
 
 ## Acceso a funciones
 
