@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d9ec1dfe99ad77f7b995ef97b71eb31f28eafd35
+source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
 workflow-type: tm+mt
-source-wordcount: '5987'
-ht-degree: 13%
+source-wordcount: '6717'
+ht-degree: 12%
 
 ---
 
@@ -160,13 +160,193 @@ Para crear rápidamente un campo derivado para casos de uso específicos, hay pl
 
 ### Canales de marketing
 
-Esta plantilla está configurada para utilizar el [Análisis de URL](#dnl-url-parse) y [Caso Cuándo](#dnl-case-when) funciona varias veces para obtener los valores adecuados de una dirección URL. A continuación, se aplica lógica a estos valores para asociar la URL a un canal de marketing específico.
+Esta plantilla de función utiliza una colección de reglas para crear canales de marketing.
 
 +++ Detalles
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
-![Captura de pantalla del generador de reglas de plantilla de canal de marketing](assets/marketing-channel-template.png)
+![Captura de pantalla del generador de reglas de plantilla de canal de marketing](assets/function-template-marketing-channel-template.png)
+
++++
+
+### Rechazos
+
+Esta plantilla de función utiliza una colección de reglas para identificar los rechazos del sitio.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de devoluciones](assets/function-template-bounces.png)
+
++++
+
+### Combinación multidimensional
+
+Esta plantilla de función combina dos valores en uno.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de combinación de varios Dimension](assets/function-template-multi-dimension-combine.png)
+
++++
+
+### Nombre descriptivo del conjunto de datos
+
+Esta plantilla de función proporciona un nombre de conjunto de datos legible.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas Nombre de conjunto de datos descriptivo](assets/function-template-friendly-dataset-name.png)
+
++++
+
+### Nombre de página de URL
+
+Esta plantilla de función crea un nombre de página simple.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del nombre de página del generador de reglas de URL](assets/function-template-page-name-from-url.png)
+
++++
+
+### Temporada de vacaciones
+
+Esta plantilla de función clasifica las horas clave del año.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de temporada de vacaciones](assets/function-template-holiday-season.png)
+
++++
+
+### Metas mensuales
+
+Esta plantilla de función establece objetivos mensuales personalizados.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de objetivos mensuales](assets/function-template-monthly-goals.png)
+
++++
+
+### Obtener todos los valores de la lista delimitada
+
+Esta plantilla de función convierte una lista limitada en una matriz.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas Obtener todos los valores de la lista delimitada](assets/function-template-get-all-values-in-delimited-list.png)
+
++++
+
+### Obtener el primer valor de la lista delimitada
+
+Esta plantilla de función obtiene el primer valor de una lista delimitada.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas Obtener primer valor en lista delimitada](assets/function-template-get-first-value-in-delimited-list.png)
+
++++
+
+### Obtener el último valor de la lista delimitada
+
+Esta plantilla de función obtiene el último valor de una lista delimitada.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas Obtener el último valor en lista delimitada](assets/function-template-get-last-value-in-delimited-list.png)
+
++++
+
+### Nombre de dominio
+
+Esta plantilla de función extrae el nombre de dominio mediante una expresión regular.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de nombre de dominio](assets/function-template-domain-name.png)
+
++++
+
+### Obtener parámetro de cadena de consulta
+
+Esta plantilla de función extrae valores de cadena de consulta.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas Obtener parámetro de cadena de consulta](assets/function-template-get-query-string-parameter.png)
+
++++
+
+### Campo de transición
+
+Esta plantilla de función cambia la creación de informes de un campo a otro.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de campo de transición](assets/function-template-transition-field.png)
+
++++
+
+### Detección de bots simples
+
+Esta plantilla de función implementa la identificación de bots ligeros.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de detección de bots simples](assets/function-template-simple-bot-detection.png)
+
++++
+
+### Vínculo de salida
+
+Esta plantilla de función identifica el último vínculo en el que se hizo clic en una sesión.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de Vínculo de salida](assets/function-template-exit-link.png)
+
++++
+
+### Vínculo de descarga
+
+Esta plantilla de función indica vínculos de descarga comunes.
+
++++ Detalles
+
+Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
+
+![Captura de pantalla del generador de reglas de Vínculo de descarga](assets/function-template-download-link.png)
 
 +++
 

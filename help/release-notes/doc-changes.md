@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: dcce03959018a34362d8f6cc1d3f44d4ffde916b
+source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
 workflow-type: tm+mt
-source-wordcount: '3667'
-ht-degree: 73%
+source-wordcount: '3711'
+ht-degree: 74%
 
 ---
 
@@ -19,10 +19,13 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Junio de 2024** | |
+| Transformar conjuntos de datos para búsquedas B2B | Documentación sobre la asistencia de [búsquedas basadas en personas en datos B2B](/help/connections//transform-datasets-b2b-lookups.md) (incluidas cuentas, oportunidades, listas de marketing y campañas), se requiere la transformación de los conjuntos de datos de búsqueda B2B. |
+| Plantillas de funciones de campo derivadas | Documentación sobre el [plantillas de función adicionales para campos derivados](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Mayo de 2024** | |
 | Integración de Target | Añadido [artículo a sección de integración de Adobe](/help/integrations/cja4t.md) sobre cómo integrar Target con Customer Journey Analytics. |
 | Información necesaria al exportar informes de Customer Journey Analytics a Google Cloud Platform mientras se utilizan restricciones de directivas de la organización | Se ha agregado el ID de organización de Google Cloud Platform propiedad del Adobe a la [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md) documentación para exportar informes de Customer Journey Analytics a Google Cloud Platform. <p>Esta información solo es necesaria para las organizaciones que utilizan [Restricciones de política de organización](https://cloud.google.com/storage/docs/org-policy-constraints) en Google Cloud Platform.</p> |
-| Documentación sobre la adición de componentes a proyectos | Se ha añadido información general acerca de cómo [agregue los distintos tipos de componentes a los proyectos en Analysis Workspace](/help/components/use-components-in-workspace.md). |
+| Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/components/use-components-in-workspace.md). |
 | Casos de uso de exportación de datos | Conjunto de nuevos artículos que describen [casos de uso de exportación de datos](/help/use-cases/data-export/overview.md) y cómo utilizar las funcionalidades de Experience Platform y Customer Journey Analytics para implementar estos casos de uso |
 | Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/components/date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
