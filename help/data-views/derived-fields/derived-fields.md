@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
+source-git-commit: 81554c8fd48d3aa34976347c0c0cc2e52f4db2ad
 workflow-type: tm+mt
-source-wordcount: '7147'
+source-wordcount: '7542'
 ht-degree: 12%
 
 ---
@@ -435,7 +435,7 @@ En caso de que el sitio reciba los siguientes eventos de muestra, que contienen 
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |  |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -1002,6 +1002,85 @@ Usted define un `Product Names` campo derivado. Utilice el [!UICONTROL MINÚSCUL
 
 +++
 
+<!-- MATH -->
+
+### Math
+
+Utilice operadores matemáticos básicos (sumar, restar, multiplicar, dividir y aumentar a una potencia) en campos numéricos.
+
++++ Detalles
+
+## Especificación {#math-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
+|---|---|---|---|---|
+| <ul><li>Numéricos</li></ul> | <ul><li>Uno o varios campos numéricos</li><li>Uno o varios operadores (sumar, restar, multiplicar, dividir, aumentar a una potencia)</li><li>Valor de entrada del usuario</li></ul> | <ul><li>`+` (añadir)</li><li>`-` (restar)</li><li>`*` (multiplicar)</li><li>`/` (dividir)</li><li>`^` (elevar a potencia)</li></ul> | <ul><li>25 operaciones por campo derivado</li><li>5 funciones matemáticas por campo derivado</li></ul> | <p>Nuevo campo derivado</p> |
+
+{style="table-layout:auto"}
+
+## Caso de uso {#math-uc}
+
+Debido a la inflación, desea corregir las cifras de ingresos de los datos CRM ingeridos con una inflación del 5 %.
+
+### Datos anteriores {#math-uc-databefore}
+
+| ID de CRM | Ingresos anuales |
+|---|---:|
+| 1234 | 35.070.000 |
+| 4133 | 7.500.000 |
+| 8110 | 10.980 |
+| 2201 | 42.620 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#math-uc-derivedfield}
+
+Usted define un `Corrected Annual Revenue` campo derivado. Utilice el [!UICONTROL MATEMÁTICAS] para definir una regla que multiplique el número de ingresos anuales original por 1,05.
+
+![Captura de pantalla de la regla matemática](assets/math.png)
+
+
+### Datos después de {#math-uc-dataafter}
+
+| ID de CRM | Ingresos anuales corregidos |
+|---|---:|
+| 1234 | 36.823.500 |
+| 4133 | 7.875.000 |
+| 8110 | 11,529,00 |
+| 2201 | 44.751 |
+
+{style="table-layout:auto"}
+
+## Más información {#math-more-info}
+
+Para crear una fórmula:
+
+1. Empiece a escribir en el campo Fórmula y los campos numéricos que coincidan con lo que escriba aparecerán en un menú emergente. También puede arrastrar y soltar un campo numérico desde los campos disponibles en el panel izquierdo.
+   ![Matemáticas Más información 1](assets/math-more-info-1.png)
+
+1. Añada el operando (por ejemplo, `*` para multiplicar) seguido de otro campo o un valor estático. Puede utilizar paréntesis para definir fórmulas más complejas.
+
+1. Para insertar un valor estático (por ejemplo, `1.05`), escriba el valor y seleccione **[!UICONTROL Añadir *x* como valor estático]** o **[!UICONTROL Agregar -*x* como valor estático negativo]** en el menú emergente.
+   ![Matemáticas Más información 2](assets/math-more-info-2.png)
+
+1. Una marca de verificación verde ![Marca de verificación](./assets/checkmark.svg)</span> indica si la fórmula matemática es válida; de lo contrario, verá una advertencia <span style="color:red">![Alerta](./assets/alert.svg)</span> y el mensaje <span style="color:#ea3829">[!UICONTROL Expresión de fórmula no válida].</span>
+   ![Matemáticas Más información 3](assets/math-more-info-3.png)
+
+Hay algunas consideraciones importantes al trabajar con números estáticos en [!UICONTROL MATEMÁTICAS] función:
+
+- Los valores estáticos deben asociarse con un campo. Por ejemplo, con el [!UICONTROL MATEMÁTICAS] no se admite la función con solo campos estáticos.
+- No se puede usar el operador de subida a potencia (`ˆ`) en un valor estático.
+- Si utiliza varios valores estáticos en una fórmula, estos valores estáticos deben agruparse con paréntesis para que la fórmula sea válida. Por ejemplo:
+
+   - Esta fórmula devuelve un error.
+     ![Matemáticas Más información 4](assets/math-more-info-4.png)
+
+   - Esta fórmula es válida.
+     ![Matemáticas Más información 5](assets/math-more-info-5.png)
+
++++
+
+
 <!-- MERGE FIELDS -->
 
 ### Combinar campos
@@ -1544,7 +1623,9 @@ Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en g
 | <p>Buscar y reemplazar</p> | <ul><li>2 Funciones Buscar y reemplazar por campo derivado</li></ul> |
 | <p>Búsqueda</p> | <ul><li>5 Funciones de búsqueda por campo derivado</li></ul> |
 | <p>Minúsculas</p> | <ul><li>2 Funciones en minúsculas por campo derivado</li></ul> |
+| <p>Math</p> | <ul><li>25 operaciones por campo derivado</li><li>5 funciones matemáticas por campo derivado</li></ul> |
 | <p>Combinar campos</p> | <ul><li>2 funciones Combinar campos por campo derivado</li></ul> |
+| <p>Siguiente o anterior</p> | <ul><li>3 Funciones Siguiente o Anterior por campo derivado</li></ul> |
 | <p>Reemplazar Regex</p> | <ul><li>1 función Regex Replace por campo derivado</li></ul> |
 | <p>Split</p> | <ul><li>5 Funciones divididas por campo derivado</li></ul> |
 | <p>Recortar</p> | <ul><li>1 función Recortar por campo derivado</li></ul> |
