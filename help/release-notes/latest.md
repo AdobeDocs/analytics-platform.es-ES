@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
+source-git-commit: c3fbf86e06e47583165a661683bc7490ecd1b17f
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '707'
 ht-degree: 99%
 
 ---
 
 # Notas actuales de la versión de Adobe Customer Journey Analytics (mayo de 2024)
 
-**Última actualización**: miércoles, 04 de junio de 2024
+**Última actualización**: viernes, 06 de junio de 2024
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 15 de mayo de 2024 a junio de 2024. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,9 +20,9 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 15 de mayo de 2
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Asistente de IA para Customer Journey Analytics** | Permite realizar preguntas en lenguaje natural en la interfaz de usuario de Customer Journey Analytics y obtener respuestas basadas en la documentación de Customer Journey Analytics. [Más información](/help/ai-assistant.md) | | viernes, 06 de junio de 2024 |
 | **Extensión de BI** | La extensión de BI habilita el acceso SQL a las vistas de datos que ha definido en Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/bi-extension) | | 15 de mayo de 2024 |
 | **Los púbicos se publican en una nueva sección “Públicos” en Experience Platform** | Los públicos publicados desde Customer Journey Analytics están ahora disponibles en la nueva sección “Públicos” de Experience Platform.<p>Anteriormente, los públicos publicados desde Customer Journey Analytics estaban disponibles en Experience Platform en la sección “Segmentos”.</p><p>Esta mejora ofrece las siguientes ventajas:</p><ul><li>Los públicos ya no tienen un retraso de 1 hora antes de aparecer en Experience Platform; están disponibles segundos tras su publicación.</li><li>Los públicos se pueden ordenar en Experience Platform mediante la columna “Origen”, que muestra la aplicación desde la que se publicó originalmente el público.</li><li>Las opciones de filtro y ordenación de Experience Platform le permiten encontrar más rápidamente los públicos relevantes.</li></ul> <p>(Vínculo a la documentación actualizada a continuación)</p> |  | De finales de mayo a principios de junio de 2024 |
-| **Asistente de IA para Customer Journey Analytics** | Permite realizar preguntas en lenguaje natural en la interfaz de usuario de Customer Journey Analytics y obtener respuestas basadas en la documentación de Customer Journey Analytics. <p>(Vínculo a la documentación actualizada a continuación)</p> | | viernes, 06 de junio de 2024 |
 | **Medios de streaming: envíe datos web a Edge Network de Adobe Experience Platform con SDK web** | Ahora puede utilizar SDK web de Adobe Experience Platform para enviar datos web de medios de streaming a Edge Network de Adobe Experience Platform, lo que le permite generar campañas más personalizadas y proporcionar contenido más personalizado, lo que proporciona más datos de seguimiento sobre los que informar.<p>Esta mejora proporciona un método de colección unificado para implementaciones web en todas las soluciones de Platform, como Customer Journey Analytics, RT-CDP, AJO y reenvío de eventos. Anteriormente, la única manera de enviar datos web de medios de streaming a Edge Network era mediante la API de Media Edge. <p>[Más información](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/edge-web-sdk)</p> | | jueves, 29 de mayo de 2024 |
 | **Campos derivados: función matemática** | Permite hacer operadores matemáticos simples dentro de las vistas de datos para responder preguntas sobre los usuarios. Por ejemplo, puede combinar los ingresos de producto, garantía y envío. <p>(Vínculo a la documentación actualizada a continuación)</p> | | 5 de junio de 2024 |
 | **Compartir cuentas y ubicaciones que se utilizan para exportar e importar** | Ahora, los usuarios pueden poner las cuentas y ubicaciones que creen a disposición de todos los usuarios de su organización. Los propietarios de cuentas y ubicaciones y los administradores del sistema son los únicos que pueden editar y eliminar cuentas y ubicaciones.<p>Anteriormente, las cuentas y ubicaciones solo las podía usar el usuario que las creaba.</p><p>Esta configuración está disponible cuando los usuarios configuran cuentas de exportación en la nube y configuran ubicaciones de exportación en la nube.</p> <p>(Vínculo a la documentación actualizada a continuación)</p> | jueves, 12 de junio de 2024 | lunes, 30 de junio de 2024 |

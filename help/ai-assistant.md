@@ -4,11 +4,9 @@ title: Asistente de IA para Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-hide: true
-hidefromtoc: true
-source-git-commit: f73e7e9be8593c3bbcad02925ab8b525694a4a15
+source-git-commit: c3fbf86e06e47583165a661683bc7490ecd1b17f
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -16,11 +14,7 @@ ht-degree: 0%
 
 # Asistente de IA para Adobe Customer Journey Analytics
 
->[!NOTE]
->
->El Asistente de IA para Customer Journey Analytics está actualmente en versión beta. La función y su documentación están sujetas a cambios.
-
-El asistente de IA es una experiencia conversacional que permite a los profesionales realizar tareas a un ritmo rápido, ya sea por su comprensión de conceptos, la resolución de problemas o la búsqueda a través de la información. También permite a los no expertos realizar tareas de expertos y aumenta la calidad general del trabajo.
+El asistente de IA es una experiencia conversacional que permite a los profesionales realizar tareas a un ritmo rápido, ya sea para comprender conceptos, solucionar problemas o buscar información. También permite a los no expertos realizar tareas de expertos y aumenta la calidad general del trabajo.
 
 El asistente de IA en Customer Journey Analytics está formado en su documentación de Adobe Experience League. Cuando se le hace una pregunta, AI Assistant responde con una respuesta útil que permite un aprendizaje rápido.
 
@@ -54,8 +48,7 @@ En esta primera versión, el acceso a la función de asistente de IA se rige por
 
 * **Acceso contractual**: si no puede utilizar el asistente de IA, póngase en contacto con el administrador de su organización o con el representante de cuentas de Adobe de. Antes de que AI Assistant pueda ser utilizado por su organización, su empresa debe aceptar ciertos términos legales relacionados con GenAI.
 
-* **Permisos**: en [!UICONTROL Adobe Admin Console], el [!UICONTROL Herramientas de informes] El permiso &quot;Asistente de IA: conocimiento del producto&quot; determina el acceso a esta herramienta.
-A [administrador de perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) debe seguir estos pasos en Admin Console:
+* **Permisos**: en [!UICONTROL Adobe Admin Console], el [!UICONTROL Herramientas de informes] El permiso &quot;Asistente de IA: conocimiento del producto&quot; determina el acceso a esta herramienta. A [administrador de perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) debe seguir estos pasos en Admin Console:
    1. Vaya a [!UICONTROL Admin Console] > [!UICONTROL Productos y servicios] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL Perfil del producto] > [!UICONTROL Permisos] > [!UICONTROL Editar herramientas de informes].
    1. Añada &quot;Asistente de IA: conocimiento del producto&quot;.
       ![Añadir permiso](assets/image.png)
