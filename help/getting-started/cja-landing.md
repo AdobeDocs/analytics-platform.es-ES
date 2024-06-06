@@ -4,10 +4,10 @@ description: Página de aterrizaje de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 6b5a9050d6c13e3c9d637a3ed992840a46058cee
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 344dfb2e4e5191fb30ff4dd4ed35e45fb7b6cfd1
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 86%
 
 ---
 
@@ -22,6 +22,24 @@ Customer Journey Analytics permite controlar cómo conectar los datos en línea 
 Eche un vistazo a las mejoras más recientes del producto y a la documentación de Customer Journey Analytics. Para obtener una lista completa de funciones, mejoras y correcciones, consulte los detalles de las [Notas de la versión](../release-notes/latest.md). Visite la [página de actualizaciones de documentación](../release-notes/doc-changes.md) para mantenerse al día de los cambios más recientes.
 
 >[!BEGINTABS]
+
+>[!TAB Asistente de IA]
+
+El asistente de IA es una experiencia conversacional que permite a los profesionales realizar tareas a un ritmo rápido, ya sea por su comprensión de conceptos, la resolución de problemas o la búsqueda a través de la información. También permite a los no expertos realizar tareas de expertos y aumenta la calidad general del trabajo.
+
+[![imagen](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB Búsquedas B2B]
+
+Como parte de la configuración de una conexión, puede transformar conjuntos de datos para esquemas de búsqueda B2B específicos para admitir mejor las búsquedas basadas en personas en los datos B2B.
+
+[![imagen](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
+
+>[!TAB Campos derivados]
+
+Hay disponibles nuevas funciones de campos derivados (Math, Next o Previous) y plantillas de función adicionales (por ejemplo, Devoluciones, Metas mensuales, Detección simple de bots y otras).
+
+[![imagen](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB Extensión de BI*]
 
@@ -41,35 +59,17 @@ Audiences that are published from Customer Journey Analytics are now available i
 
 -->
 
-
->[!TAB Nueva documentación]
-
-La nueva documentación ya está disponible en:<ul><li>Cómo actualizar de Adobe Analytics a Customer Journey Analytics.</li><li>Casos de uso de exportación de datos y las funcionalidades de Experience Platform y Customer Journey requeridas. </li></ul>Seleccione **[!UICONTROL Más información]** para esta y otras actualizaciones de la documentación.
-
-[![imagen](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
-
 >[!TAB Previsión]
 
 La previsión es una función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). La previsión solo está disponible para datos relacionados con series temporales.
 
 [![image](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
 
->[!TAB Análisis guiado* - Tasas de retención]
+>[!TAB Nueva documentación]
 
-Un nuevo tipo de vista que muestra el porcentaje de usuarios que regresan después de su participación inicial dentro del intervalo de fechas deseado. El eje horizontal representa el número de días transcurridos desde la participación inicial de un usuario. El eje vertical representa el porcentaje de usuarios que vuelven a participar.
+La nueva documentación ya está disponible en:<ul><li>Cómo actualizar de Adobe Analytics a Customer Journey Analytics.</li><li>Casos de uso de exportación de datos y las funcionalidades de Experience Platform y Customer Journey requeridas. </li></ul>Seleccione **[!UICONTROL Más información]** para esta y otras actualizaciones de la documentación.
 
-[![image](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
-
-<span style="color:gray">*_El análisis guiado forma parte de Adobe Product Analytics, un complemento de pago de Customer Journey Analytics._</span>
-
-
->[!TAB Análisis guiado* - Líneas de tendencia]
-
-Las superposiciones de líneas de tendencia están ahora disponibles en la vista Uso, que ayuda a mostrar un patrón más claro en los datos. Los tipos de líneas de tendencia disponibles son lineal, logarítmica y promedio móvil.
-
-[![image](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
-
-<span style="color:gray">*_El análisis guiado forma parte de Adobe Product Analytics, un complemento de pago de Customer Journey Analytics._</span>
+[![imagen](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
 >[!ENDTABS]
 
