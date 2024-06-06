@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
+source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
 workflow-type: tm+mt
-source-wordcount: '6717'
+source-wordcount: '7147'
 ht-degree: 12%
 
 ---
@@ -435,7 +435,7 @@ En caso de que el sitio reciba los siguientes eventos de muestra, que contienen 
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` | |
+| `https://google.com` |  |
 
 {style="table-layout:auto"}
 
@@ -1067,6 +1067,78 @@ Debe seleccionar el mismo tipo de campos dentro de una regla de campos combinado
 
 +++
 
+
+<!-- NEXT OR PREVIOUS -->
+
+### Siguiente o anterior
+
+Toma un campo como entrada y resuelve el valor siguiente o anterior de ese campo dentro del ámbito de la sesión o el uso. Esto solo se aplicará a los campos de tabla Visita y Evento.
+
++++ Detalles
+
+## Especificación {#prevornext-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
+|---|---|---|---|---|
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Método]:<ul><li>Valor anterior</li><li>Siguiente valor</li></ul></li><li>[!UICONTROL Ámbito]:<ul><li>Persona</li><li>Sesión</li></ul></li><li>[!UICONTROL Índice]:<ul><li>Numéricos</li></ul><li>[!UICONTROL Incluir repeticiones]:<ul><li>Booleano</li></ul></li><li>[!UICONTROL Incluir &quot;Sin valores&quot;]:<ul><li>Booleano</li></ul></li></ul> | <p>N/A</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+
+{style="table-layout:auto"}
+
+## Caso de uso {#prevornext-uc1}
+
+Le gustaría entender lo que **siguiente** o **anterior** El valor es uno de los datos que recibe, teniendo en cuenta los valores repetidos.
+
+### Datos {#prevornext-uc1-databefore}
+
+**Ejemplo 1: Gestión de repeticiones de inclusión**
+
+| Datos recibidos | Siguiente valor<br/>Session<br/>Índice = 1<br/>Incluir repeticiones | Siguiente valor<br/>Session<br/>Índice = 1<br/>NO incluir repeticiones | Valor anterior<br/>Session<br/>Índice = 1<br/>Incluir repeticiones | Valor anterior<br/>Session<br/>Índice = 1<br/>NO incluir repeticiones |
+|---|---|---|---|---|
+| Creative Cloud | Creative Cloud | búsqueda | *Sin valor* | *Sin valor* |
+| Creative Cloud | búsqueda | búsqueda | Creative Cloud | *Sin valor* |
+| búsqueda | búsqueda | información del producto | Creative Cloud | Creative Cloud |
+| búsqueda | información del producto | información del producto | búsqueda | Creative Cloud |
+| información del producto | búsqueda | búsqueda | búsqueda | búsqueda |
+| búsqueda | detalles del producto | información del producto | información del producto | información del producto |
+| información del producto | búsqueda | búsqueda | búsqueda | búsqueda |
+| búsqueda | búsqueda | *Sin valor* | información del producto | información del producto |
+| búsqueda | *Sin valor* | *Sin valor* | búsqueda | información del producto |
+
+{style="table-layout:auto"}
+
+**Ejemplo 2: Gestión de repeticiones de inclusión con valores en blanco en los datos recibidos**
+
+| Datos recibidos | Siguiente valor<br/>Session<br/>Índice = 1<br/>Incluir repeticiones | Siguiente valor<br/>Session<br/>Índice = 1<br/>NO incluir repeticiones | Valor anterior<br/>Session<br/>Índice = 1<br/>Incluir repeticiones | Valor anterior<br/>Session<br/>Índice = 1<br/>NO incluir repeticiones |
+|---|---|---|---|---|
+| Creative Cloud | Creative Cloud | búsqueda | *Sin valor* | *Sin valor* |
+| Creative Cloud | Creative Cloud | búsqueda | Creative Cloud | *Sin valor* |
+| Creative Cloud | búsqueda | búsqueda | Creative Cloud | *Sin valor* |
+| búsqueda | búsqueda | información del producto | Creative Cloud | Creative Cloud |
+|   |   |   |   |   |
+| búsqueda | búsqueda | información del producto | búsqueda | Creative Cloud |
+| búsqueda | información del producto | información del producto | búsqueda | Creative Cloud |
+| información del producto | *Sin valor* | *Sin valor* | búsqueda | búsqueda |
+|   |   |   |   |   |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#prevnext-uc1-derivedfield}
+
+Usted define un `Next Value` o `Previous value` campo derivado. Utilice el [!UICONTROL SIGUIENTE O ANTERIOR] para definir una regla que seleccione la función [!UICONTROL Datos recibidos] , seleccione [!UICONTROL Siguiente valor] o [!UICONTROL Valor anterior] as [!UICONTROL Método], [!UICONTROL Session] como Scope y establezca el valor de [!UICONTROL Índice] hasta `1`.
+
+![Captura de pantalla de la regla Combinar campos](assets/prevnext-next.png)
+
+## Más información {#prevnext-moreinfo}
+
+Solo puede seleccionar campos que pertenezcan a la tabla Visita o Evento.
+
+[!UICONTROL Incluir repeticiones] determina cómo gestionar valores repetidos para [!UICONTROL SIGUIENTE O ANTERIOR] función.
+
+- Incluya looks repetidos y los valores siguientes o anteriores. If [!UICONTROL Incluir repeticiones] está seleccionado, ignorará cualquier repetición secuencial de los valores siguientes o anteriores de la visita actual.
+
+- Las filas sin valores (en blanco) para un campo seleccionado no tendrán valores anteriores o siguientes devueltos como parte del [!UICONTROL SIGUIENTE O ANTERIOR] salida de función.
+
++++
 
 <!-- REGEX REPLACE -->
 
