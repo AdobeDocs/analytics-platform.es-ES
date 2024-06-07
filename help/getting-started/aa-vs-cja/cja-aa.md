@@ -8,7 +8,7 @@ role: User
 source-git-commit: 3acf29b703d52145d8679d60ed664cf794b5ee30
 workflow-type: tm+mt
 source-wordcount: '2255'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -56,7 +56,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
-| Analytics for Target (A4T) | El [Integración entre Adobe Customer Journey Analytics y Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización. |
+| Analytics for Target (A4T) | La [integración entre Adobe Customer Journey Analytics y Target](https://experienceleague.adobe.com/es/docs/target/using/integrate/cja/target-reporting-in-cja) proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización. |
 | Publicación del público | Compatible si tiene licencia con la plataforma de datos del cliente o los productos de Journey Optimizer de Adobe. [Publicación de audiencias](/help/components/audiences/audiences-overview.md) envía audiencias al perfil del cliente en tiempo real en Experience Platform. |
 | Clasificaciones | Ahora se denomina Conjuntos de datos de búsqueda. Las clasificaciones utilizadas en Analytics se pueden importar a Experience Platform y a Customer Journey Analytics mediante el conector de origen de clasificaciones de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en Experience Platform y estar disponibles en Customer Journey Analytics. |
 | Generador de reglas de clasificación | Admitido mediante [subcadenas](/help/data-views/component-settings/substring.md) en Customer Journey Analytics. Utiliza manipulaciones de cadenas en el tiempo del informe en lugar de conjuntos de datos de búsqueda. |
