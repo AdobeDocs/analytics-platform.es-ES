@@ -5,9 +5,9 @@ title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: cdf99e31790f089950de8063445b6264158131dd
+source-git-commit: 6e36885cfba60c808b9f069159670db6834fe41f
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -54,6 +54,10 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 ## Editar ubicaciones
 
+Una ubicación solo la puede editar el usuario que la creó o un administrador del sistema.
+
+Para editar una ubicación:
+
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione el [!UICONTROL **Ubicaciones**] pestaña.
@@ -95,6 +99,10 @@ Para eliminar una ubicación:
 1. Seleccionar [!UICONTROL **Eliminar**] de nuevo para confirmar.
 
 ## Editar cuentas
+
+Solamente el usuario que la creó o un administrador del sistema pueden editar una cuenta.
+
+Para editar una cuenta:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
