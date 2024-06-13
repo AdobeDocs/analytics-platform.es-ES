@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: f4a235d90ad44dbb192b74a03accc7ad4a39e986
+source-git-commit: 6b8d9abf7d807a1e19aa86386eb2dae9bb18f472
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1234'
 ht-degree: 2%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 2%
 
 El **[!UICONTROL Tasas de retención]** La vista de mide cómo los usuarios siguen usando su producto a lo largo del tiempo, lo que puede ayudarle a comprender el ajuste del mercado de su producto. El análisis cuenta los usuarios en función de dos eventos importantes:
 
-* Evento Start: la primera vez que un usuario participó con el evento Start dentro del intervalo de fechas
-* Evento de retorno: la hora más reciente en la que un usuario participó con el evento de retorno dentro del intervalo de fechas analizado
+* Evento Start: el evento utilizado para clasificar a los usuarios para incluirlos en el análisis.
+* Evento de retorno: los eventos con los que debe interactuar un usuario para contar como usuario que retorna en el análisis.
 
 En esta vista, el eje x del gráfico representa el tiempo desde el evento de inicio inicial de un usuario y el eje y representa el porcentaje de usuarios que se relacionan con los eventos de retorno. Puede ver tanto la retención como la pérdida en todas las duraciones, y las duraciones mostradas se pueden personalizar a través de la configuración de consulta. Debajo del gráfico, una tabla proporciona datos agregados con la opción de mostrar cohortes individuales, que son un grupo de personas que realizaron el evento de inicio en la misma fecha.
 
