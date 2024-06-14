@@ -10,16 +10,16 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: cf399df3a8043f5ec9fe723a531bf2f8af68799a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1093'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
-# Guía de Adobe Customer Journey Analytics {#using}
+# Guía de Adobe Customer Journey Analytics  {#using}
 
-+ [Guía de Adobe Customer Journey Analytics](../getting-started/cja-landing.md)
++ [Guía de Adobe Customer Journey Analytics ](../getting-started/cja-landing.md)
 + [Asistente de IA para Adobe Customer Journey Analytics](../ai-assistant.md)
 + Notas de la versión {#releases}
    + [Última versión](../release-notes/latest.md)
@@ -28,7 +28,7 @@ ht-degree: 76%
    + [Versiones de 2022](../release-notes/2022.md)
    + [Versiones de 2021](../release-notes/2021.md)
    + [Versiones de 2020](../release-notes/2020.md)
-   + [Estrategia de lanzamiento de funcionalidades](../release-notes/releases.md)
+   + [Estrategia de lanzamiento de funciones](../release-notes/releases.md)
    + [Actualizaciones de documentación](../release-notes/doc-changes.md)
 
 + Introducción {#cja-overview}
@@ -42,12 +42,12 @@ ht-degree: 76%
 + Customer Journey Analytics y Adobe Analytics {#compare-aa-cja}
    + Actualizar a Customer Journey Analytics {#upgrade-to-cja}
       + [Introducción](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
-      + [Elija la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
-      + [Envío de datos a Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
+      + [Elegir la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
+      + [Enviar datos a Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Conservar datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
       + [Información general](../getting-started/aa-vs-cja/overview.md)
-      + [Uso de datos de Adobe Analytics en Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [Uso de los datos de Adobe Analytics en Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Compatibilidad con las funciones de Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
       + [Comparación de la terminología de datos de Analytics transferidos a través del conector de origen de Analytics](../getting-started/aa-vs-cja/terminology.md)
       + [Compare el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -64,7 +64,7 @@ ht-degree: 76%
       + Adobe Experience Platform Edge Network {#edge-network}
          + [SDK web](../data-ingestion/aepwebsdk.md)
          + [SDK móvil](../data-ingestion/aepmobilesdk.md)
-         + [API de servidor](../data-ingestion/serverapi.md)
+         + [API de servidor ](../data-ingestion/serverapi.md)
       + [Datos por lotes](../data-ingestion/batch.md)
       + [Datos de streaming](../data-ingestion/streaming.md)
       + [Conectores de origen](../data-ingestion/sources.md)
@@ -171,18 +171,18 @@ ht-degree: 76%
       + [Crear vínculos que se pueden compartir](../analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de solo de vista](../analysis-workspace/curate-share/view-only-projects.md)
    + Exportar {#export}
-      + [Información general de exportación](../analysis-workspace/export/export-project-overview.md)
+      + [Información general sobre la exportación](../analysis-workspace/export/export-project-overview.md)
       + [Descargar](../analysis-workspace/export/download-send.md)
-      + [Enviar a otras personas](../analysis-workspace/export/t-schedule-report.md)
-      + [Exportación a la nube](../analysis-workspace/export/export-cloud.md)
+      + [Enviar a otros](../analysis-workspace/export/t-schedule-report.md)
+      + [Exportar a la nube](../analysis-workspace/export/export-cloud.md)
    + Detección de anomalías {#anomaly-detection}
       + [Resumen de la Detección de anomalías](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Visualización de anomalías en Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [Técnicas estadísticas utilizadas en la detección de anomalías](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + Previsión {#forecasting}
-      + [Resumen de previsión](../analysis-workspace/c-forecast/forecasting.md)
-      + [Ver previsiones en Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
-      + [Técnicas estadísticas utilizadas en el servicio de pronóstico](../analysis-workspace/c-forecast/statistics-forecasting.md)
+      + [Información general sobre la previsión](../analysis-workspace/c-forecast/forecasting.md)
+      + [Visualización de previsiones en Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
+      + [Técnicas estadísticas utilizadas en el servicio de previsión](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [Preferencias de usuario](../analysis-workspace/user-preferences.md)
    + Preguntas frecuentes sobre de Workspace {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)
@@ -195,7 +195,7 @@ ht-degree: 76%
    + [Paneles de Analytics: Información general](../mobile-app/home.md)
    + [Tareas del gestor de datos](../mobile-app/curator.md)
    + [Creación de un cuadro de resultados móvil](../mobile-app/create-scorecard.md)
-   + [Administrar cuadros de resultados móviles](../mobile-app/manage-scorecard.md)
+   + [Administración de cuadros de resultados móviles](../mobile-app/manage-scorecard.md)
    + [Configuración de ejecutivos para que utilicen tableros](../mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
 
@@ -207,12 +207,12 @@ ht-degree: 76%
       + [Vista de fricción](../guided-analysis/types/friction.md)
       + [Vista de tendencias de conversión](../guided-analysis/types/conversion-trends.md)
    + Impacto {#impact}
-      + [Vista de versión](../guided-analysis/types/release.md)
-      + [Vista de primer uso](../guided-analysis/types/first-use.md)
+      + [Vista de la versión](../guided-analysis/types/release.md)
+      + [Vista del primer uso](../guided-analysis/types/first-use.md)
    + Retención {#retention}
       + [Tasas de retención](../guided-analysis/types/retention-rates.md)
    + Tendencias {#trends}
-      + [Vista de uso](../guided-analysis/types/usage.md)
+      + [Vista del uso](../guided-analysis/types/usage.md)
       + [Vista de frecuencia](../guided-analysis/types/frequency.md)
    + Crecimiento de usuarios {#user-growth}
       + [Vista activa](../guided-analysis/types/active.md)
@@ -247,10 +247,10 @@ ht-degree: 76%
    + Filtros {#cja-filters}
       + [Información general de Filtros](../components/filters/filters-overview.md)
       + [Crear filtros](../components/filters/create-filters.md)
-      + [Creación de filtros secuenciales](../components/filters/seg-sequential-build.md)
+      + [Crear filtros secuenciales](../components/filters/seg-sequential-build.md)
       + [Compartir filtros](../components/filters/filters-share.md)
       + [Filtros de etiquetas](../components/filters/filters-tag.md)
-      + [Filtrado de la lista de filtros](../components/filters/filters-filter.md)
+      + [Filtrar la lista de filtros](../components/filters/filters-filter.md)
       + [Marcar filtros como favoritos](../components/filters/filters-favorite.md)
       + [Aprobar filtros](../components/filters/filters-approve.md)
       + [Copiar filtros](../components/filters/filters-copy.md)
@@ -265,7 +265,7 @@ ht-degree: 76%
          + [Buscar métricas](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Generar métricas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Tipo de métrica y atribución](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Crear una métrica de participación](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Generar una métrica de participación](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Métricas filtradas](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Apilado y reemplazo de filtros](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Métricas filtradas y ponderadas](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
@@ -288,8 +288,8 @@ ht-degree: 76%
       + [Comparación de fechas](../components/date-ranges/time-comparison.md)
    + Exportaciones {#exports}
       + [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md)
-      + [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md)
-      + [Administrar ubicaciones de exportación en la nube](/help/components/exports/manage-export-locations.md)
+      + [Configuración de ubicaciones de exportación en la nube](/help/components/exports/cloud-export-locations.md)
+      + [Administración de ubicaciones de exportación en la nube](/help/components/exports/manage-export-locations.md)
       + [Administración de exportaciones](/help/components/exports/manage-exports.md)
       + [Administración de registros de exportación](/help/components/exports/manage-export-logs.md)
       + [Resolución de problemas de exportaciones](/help/components/exports/troubleshoot-exports.md)
@@ -318,19 +318,19 @@ ht-degree: 76%
    + [Ver actividad de creación de informes](../reporting-activity-manager/reporting-activity.md)
    + [Cancelar solicitudes de creación de informes](../reporting-activity-manager/reporting-activity-cancel-requests.md)
 
-+ Vinculación {#stitching}
++ Identificación {#stitching}
    + [Información general](../stitching/overview.md)
-   + [Cómo funciona la vinculación](../stitching/explained.md)
-   + [Crear y administrar conjuntos de datos enlazados](../stitching/stitching-ui.md)
+   + [Funcionamiento de la identificación](../stitching/explained.md)
+   + [Creación y administración de conjuntos de datos identificados](../stitching/stitching-ui.md)
    + [Preguntas frecuentes](../stitching/faq.md)
 
 + Integraciones de Adobe {#integrations}
    + [Información general](/help/integrations/overview.md)
-   + [Integrar Adobe Analytics](/help/integrations/aa.md)
-   + [Integrar Target](/help/integrations/cja4t.md)
+   + [Integración de Adobe Analytics](/help/integrations/aa.md)
+   + [Integración de Target](/help/integrations/cja4t.md)
    + [Integración de datos de Journey Optimizer](/help/integrations/ajo.md)
    + [Integración de datos de gestión de decisiones](/help/integrations/ajo-od.md)
-   + [Integración de Customer AI](/help/integrations/customer-ai.md)
+   + [Integración de la inteligencia artificial aplicada al cliente](/help/integrations/customer-ai.md)
 
 + Gobierno de datos {#cja-privacy}
    + [Gobernanza de datos](../privacy/privacy-overview.md)
@@ -355,7 +355,7 @@ ht-degree: 76%
       + [Extensión de BI](../use-cases/data-export/bi-extension.md)
       + [Exportar conjuntos de datos](../use-cases/data-export/export-datasets.md)
       + [Exportar tabla completa](../use-cases/data-export/export-full-table.md)
-      + [Servicio de consultas y exportar conjuntos de datos](../use-cases/data-export/queryservice-export-datasets.md)
+      + [Servicio de consultas y exportación de conjuntos de datos](../use-cases/data-export/queryservice-export-datasets.md)
    + B2B {#b2b}
       + [Ejemplo de proyecto B2B](../use-cases/b2b/example.md)
       + [Añadir datos de nivel de cuenta como un conjunto de datos de consulta](../use-cases/b2b/b2b.md)
@@ -368,25 +368,25 @@ ht-degree: 76%
    + Datos complejos {#complex-data}
       + [Usar matrices de objetos](../use-cases/object-arrays.md)
    + Campos derivados {#derived-fields}
-      + [Usar campos derivados para informar sobre objetivos](../use-cases/goals-using-derived-fields.md)
+      + [Uso de campos derivados para informar sobre objetivos](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Guía del usuario de Labs](../labs/labs.md)
 
 + Resolución de problemas {#troubleshooting}
    + [Comparación de los datos de Adobe Analytics con los de Customer Journey Analytics](../troubleshooting/compare.md)
-   + [Coherencia de métricas y recuentos de miembros de audiencia entre Real-time CDP y Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
+   + [Coherencia de las métricas y los recuentos de miembros de audiencia entre Real-time CDP y Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
    + [Falta de permisos](../troubleshooting/lack-of-permissions.md)
 
 + Notas técnicas {#technotes}
    + [Control de acceso](../technotes/access-control.md)
    + [Centros de datos](../technotes/data-centers.md)
-   + [Implicaciones de eliminación](../technotes/deletion.md)
+   + [Implicaciones de la eliminación](../technotes/deletion.md)
    + [Dominios](../technotes/domains.md)
    + [Glosario](../technotes/glossary.md)
    + [Mecanismos de protección](../technotes/guardrails.md)
    + [Direcciones IP](../technotes/ip-addresses.md)
-   + [Optimización del rendimiento del Customer Journey Analytics](../technotes/optimizing-performance.md)
+   + [Optimización del rendimiento de Customer Journey Analytics](../technotes/optimizing-performance.md)
    + [Ver y administrar el uso](../technotes/estimate-usage.md)
 
 + [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/)

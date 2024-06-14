@@ -5,23 +5,23 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
-keywords: servicio de consultas;servicio de consultas;sintaxis sql
+keywords: servicio de consultas;Servicio de consultas;sintaxis sql
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Comparación de los datos de Adobe Analytics con los de Customer Journey Analytics
 
-A medida que su organización adopta Customer Journey Analytics, es posible que observe algunas diferencias en los datos entre Adobe Analytics y Customer Journey Analytics. Esto es normal y puede ocurrir por varios motivos. Customer Journey Analytics está diseñado para permitirle mejorar algunas de las limitaciones de sus datos en AA. Sin embargo, pueden producirse discrepancias inesperadas y no deseadas. Este artículo está diseñado para ayudarle a diagnosticar y solucionar esas diferencias, de modo que usted y su equipo puedan utilizar Customer Journey Analytics sin impedimentos por motivos de integridad de los datos.
+A medida que su organización adopta Customer Journey Analytics, es posible que observe algunas diferencias en los datos entre Adobe Analytics y Customer Journey Analytics. Esto es normal y puede ocurrir por varios motivos. Customer Journey Analytics está diseñado para permitirle mejorar algunas de las limitaciones de sus datos en AA. Sin embargo, pueden producirse discrepancias inesperadas y no deseadas. Este artículo está diseñado para ayudarle a diagnosticar y resolver esas diferencias, para que tanto usted como su equipo puedan utilizar Customer Journey Analytics sin impedimentos por preocupaciones sobre la integridad de los datos.
 
-Supongamos que ha ingerido datos de Adobe Analytics en Adobe Experience Platform a través de [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es)y, a continuación, creó una conexión de Customer Journey Analytics con este conjunto de datos.
+Supongamos que ha ingerido datos de Adobe Analytics en Adobe Experience Platform a través del [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) y, a continuación, ha creado una conexión de Customer Journey Analytics utilizando este conjunto de datos.
 
-![El flujo de datos de Adobe Analytics a través del conector de datos a Adobe Experience Platform y a Customer Recorrido Analytics mediante conexiones de CJA.](assets/compare.png)
+![El flujo de datos de Adobe Analytics a través del conector de datos a Adobe Experience Platform y a Customer Journey Analytics mediante conexiones de CJA.](assets/compare.png)
 
-A continuación, creó una vista de datos y, mientras informaba posteriormente de estos datos en Customer Journey Analytics, observó discrepancias con los resultados de los informes en Adobe Analytics.
+A continuación, ha creado una vista de datos y, mientras informaba posteriormente de estos datos en Customer Journey Analytics, ha detectado discrepancias con los resultados de los informes en Adobe Analytics.
 
 A continuación, se indican algunos pasos a seguir para comparar los datos originales de Adobe Analytics con los datos de Adobe Analytics que ahora están en Customer Journey Analytics.
 
@@ -41,7 +41,7 @@ La métrica [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/comp
 
 1. Guarde este proyecto para que pueda utilizarlo en la comparación.
 
-## Paso 2: Comparar los resultados con [!UICONTROL Registros totales por marcas de tiempo] en Customer Journey Analytics
+## Paso 2: Compare los resultados con el [!UICONTROL Total de registros por marcas de tiempo] en Customer Journey Analytics
 
 Ahora compare la [!UICONTROL Ocurrencias] en Analytics para el total de registros por marcas de tiempo en Customer Journey Analytics.
 
@@ -49,9 +49,9 @@ Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siem
 
 >[!NOTE]
 >
->Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos (a través de [Vinculación](/help/stitching/overview.md)). Tenga en cuenta que la contabilidad del ID de persona que se utiliza en el Customer Journey Analytics es crítica para hacer que la comparación funcione. Puede que no siempre sea fácil replicarlo en Adobe Analytics, especialmente si se ha activado la vinculación.
+>Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos identificados (a través de la [Identificación](/help/stitching/overview.md)). Tenga en cuenta que es fundamental tener en cuenta el ID de la persona que se utiliza en Customer Journey Analytics para que la comparación funcione. Puede que no siempre sea fácil de replicar en Adobe Analytics, especialmente si se ha activado la Identificación.
 
-1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es), ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
+1. En los [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es) de Adobe Experience Platform, ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
 
    ```sql
    SELECT
@@ -79,15 +79,15 @@ Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siem
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
-   Para obtener más información acerca de hit\_source, consulte [Referencia de columnas de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es). Para obtener más información acerca de page\_event, consulte [Búsqueda de eventos de página](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html).
+   Para obtener más información acerca de hit\_source, consulte [Referencia de columnas de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es). Para obtener más información acerca de page\_event, consulte [Búsqueda de eventos de página](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=es).
 
 1. Si el conector filtra filas, reste esas filas de la métrica [!UICONTROL Ocurrencias]. El número resultante debe coincidir con el número de eventos de los conjuntos de datos de Adobe Experience Platform.
 
-## Por qué se pueden filtrar o omitir registros durante la ingesta desde Adobe Experience Platform
+## Por qué se pueden filtrar u omitir registros durante la ingesta desde Adobe Experience Platform
 
-Customer Journey Analytics [Conexiones](/help/connections/create-connection.md) le permite unir varios conjuntos de datos en función de un ID de persona común en todos los conjuntos de datos. En el servidor, se aplica la anulación de duplicación: unión externa completa o unión en conjuntos de datos de evento basados en marcas de tiempo y, a continuación, unión interna en el perfil y el conjunto de datos de búsqueda, según el ID de persona.
+Las [Conexiones](/help/connections/create-connection.md) de Customer Journey Analytics le permiten unir varios conjuntos de datos en función de un ID de persona común en todos los conjuntos de datos. En el servidor, se aplica la anulación de duplicación: unión externa completa o unión en conjuntos de datos de evento basados en marcas de tiempo y, a continuación, unión interna en el perfil y el conjunto de datos de búsqueda, según el ID de persona.
 
-A continuación se indican algunas de las razones por las que se pueden omitir registros al ingerir datos de Adobe Experience Platform.
+A continuación, se indican algunas de las razones por las que se pueden omitir registros al introducir datos desde Adobe Experience Platform.
 
 * **Marcas de tiempo que faltan**: si faltan marcas de tiempo en los conjuntos de datos de evento, esos registros se ignorarán u omitirán por completo durante la ingesta.
 
