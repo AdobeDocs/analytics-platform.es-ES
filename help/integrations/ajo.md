@@ -4,8 +4,8 @@ description: Incorpore datos generados por Adobe Journey Optimizer y analícelos
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
+workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Puede crear las dimensiones siguientes en una vista de datos para lograr una par
 | --- | --- | --- |
 | Nombre del recorrido | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Tipo de componente: Dimensión |
 | Nombre y versión del recorrido | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | Tipo de componente: Dimensión |
-| Nombre de nodo del recorrido | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Tipo de componente: Dimensión |
+| Nombre de nodo del recorrido | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeName` | Tipo de componente: Dimensión |
 | Tipo de nodo del recorrido | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | Tipo de componente: Dimensión |
 | Nombre de la campaña | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | Tipo de componente: Dimensión |
 | Canal | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | Tipo de componente: Dimensión |
@@ -85,11 +85,11 @@ Puede crear las métricas siguientes en una vista de datos para lograr una parid
 | Enviados | Número de mensajes aceptados por los proveedores de correo electrónico. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `sent` |
 | Reclamaciones por correo no deseado | Recuento de quejas por correo no deseado. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `spam_complaint` |
 | Cancelaciones de suscripción | El número de cancelaciones de suscripción. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo de componente: Métrica<br>Incluir excluir valores: Igual a `unsubscribe` |
-| Envíos de Edge | Número de veces que la red perimetral envía un mensaje al SDK web o móvil | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.send` |
-| Pantallas entrantes | El número de veces que se muestra un mensaje web o de aplicación al usuario | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.display` |
-| Clics entrantes | Recuento de clics en mensajes web o en la aplicación | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.interact` |
-| Activadores en la aplicación | El número de veces que el motor de decisión sugirió que se mostrara el mensaje. El SDK móvil podría anular la decisión de reducir el número de pantallas reales. | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.trigger` |
-| Revocaciones en la aplicación | El número de veces que el SDK elimina un mensaje de aplicación de la IU | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.dismiss` |
+| Envíos de Edge | Número de veces que la red perimetral envía un mensaje al SDK web o móvil | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.send` | |
+| Pantallas entrantes | El número de veces que se muestra un mensaje web o de aplicación al usuario | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.display` | |
+| Clics entrantes | Recuento de clics en mensajes web o en la aplicación | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.interact` | |
+| Activadores en la aplicación | El número de veces que el motor de decisión sugirió que se mostrara el mensaje. El SDK móvil podría anular la decisión de reducir el número de pantallas reales. | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.trigger` | |
+| Revocaciones en la aplicación | El número de veces que el SDK elimina un mensaje de aplicación de la IU | Usar el elemento de cadena de esquema `_experience.decisioning.propositionEventType.dismiss` | |
 
 {style="table-layout:auto"}
 
