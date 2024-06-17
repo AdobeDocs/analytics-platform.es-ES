@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6a77107680b4882a64b01bf1606761d4f6d5a3d1
+source-git-commit: 6f99a732688f59e3950fc9b4336ad5b0434f24a7
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8377'
 ht-degree: 12%
 
 ---
@@ -593,7 +593,7 @@ Usted define un `Trip Duration (bucketed)` campo derivado. Puede crear lo siguie
 | [!DNL long trip] |
 
 
-## Más información
+## Más información {#casewhen-more-info}
 
 El Customer Journey Analytics utiliza una estructura de contenedor anidada, siguiendo el modelo de Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) (Modelo de datos de experiencia). Consulte [Contenedores](../create-dataview.md#containers) y [Filtrar contenedores](../../components/filters/filters-overview.md#filter-containers) para obtener más información. Este modelo de contenedor, aunque flexible por naturaleza, impone algunas restricciones al utilizar el generador de reglas.
 
@@ -841,6 +841,8 @@ Evita contar un valor varias veces.
 
 +++ Detalles
 
+{{release-limited-testing}}
+
 ## Especificaciones {#deduplicate-io}
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Output |
@@ -1022,7 +1024,7 @@ Usted define un `Activity Name` campo derivado. Utilice el [!UICONTROL BÚSQUEDA
 
 ![Captura de pantalla de la regla en minúsculas](assets/lookup.png)
 
-## Más información
+## Más información {#lookup-more-info}
 
 Puede insertar rápidamente un [!UICONTROL Búsqueda] función en el generador de reglas, que ya contiene una o más funciones.
 
@@ -1161,6 +1163,8 @@ Hay algunas consideraciones importantes al trabajar con números estáticos en [
 
    - Esta fórmula es válida.
      ![Matemáticas Más información 5](assets/math-more-info-5.png)
+
+Utilice la función Math para cálculos basados en el nivel de visita. Utilice el [Resumir](#summarize) función para cálculos basados en eventos, sesiones o personas.
 
 +++
 
@@ -1350,7 +1354,7 @@ Usted crea un `Page Identifier` campo derivado. Utilice el [!UICONTROL REGEX REP
 | customer-journey-analytics.html |
 | adobe-experience-platform.html |
 
-## Más información
+## Más información {#regex-replace-more-info}
 
 Customer Journey Analytics utiliza un subconjunto de la sintaxis regex de Perl. Se admiten las expresiones siguientes:
 
@@ -1492,6 +1496,75 @@ Usted crea un `Second Response` campo derivado para tomar el último valor de [!
 
 +++
 
+<!-- SUMMARIZE -->
+
+### Resumir
+
+Aplica funciones de tipo agregación a métricas o dimensiones en los niveles de evento, sesión y usuario.
+
++++ Detalles
+
+{{release-limited-testing}}
+
+## Especificación {#summarize-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
+|---|---|---|---|---|
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>Valor<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Métodos de resumen</li><li>Ámbito<ul><li>Evento</li><li>Sesión</li><li>Persona</li></ul></li></ul> | <ul><li>Numéricos<ul><li>MAX: devuelve el mayor valor de un conjunto de valores</li><li>MIN: devuelve el menor valor de un conjunto de valores</li><li>MEDIANA: devuelve la mediana para un conjunto de valores.</li><li>MEDIA: devuelve el promedio de un conjunto de valores.</li><li>SUM: devuelve la suma de un conjunto de valores.</li><li>COUNT - devuelve el número de valores recibidos</li><li>DISTINCT: devuelve un conjunto de valores distintos</li></ul></li><li>Cadenas<ul><li>DISTINCT: devuelve un conjunto de valores distintos</li><li>COUNT DISTINCT: devuelve el número de valores distintos</li><li>MÁS COMÚN: devuelve el valor de cadena que se recibe con más frecuencia</li><li>MENOS COMÚN: devuelve el valor de cadena que se recibe con menor frecuencia</li><li>PRIMERO: el primer valor recibido; solo aplicable a las tablas de sesión y evento</li><li>LAST: el último valor recibido; solo aplicable a las tablas de sesión y evento</li></ul></li><li>Fechas<ul><li>DISTINCT: devuelve un conjunto de valores distintos</li><li>COUNT DISTINCT: devuelve el número de valores distintos</li><li>MÁS COMÚN: devuelve el valor de cadena que se recibe con más frecuencia</li><li>MENOS COMÚN: devuelve el valor de cadena que se recibe con menor frecuencia</li><li>PRIMERO: el primer valor recibido; solo aplicable a las tablas de sesión y evento</li><li>LAST: el último valor recibido; solo aplicable a las tablas de sesión y evento</li><li>MÁS TEMPRANO: el valor más antiguo recibido (determinado por la hora); solo aplicable a las tablas de sesión y evento</li><li>ÚLTIMA: el último valor recibido (determinado por la hora); solo aplicable a las tablas de sesión y evento</li></ul></li></ul> | 3 funciones por campo derivado | Nuevo campo derivado |
+
+{style="table-layout:auto"}
+
+## Caso de uso {#summarize-uc}
+
+Desea categorizar los ingresos de Agregar al carro de compras en tres categorías diferentes: Pequeño, Medio y Grande. Esto le permite analizar e identificar las características de los clientes de alto valor.
+
+### Datos anteriores {#summarize-uc-databefore}
+
+Suposiciones:
+
+- Los ingresos de Agregar al carro de compras se recopilan como un campo numérico.
+
+Escenarios:
+
+- CustomerABC123 agrega 35 $ al carro de compras para ProductABC y, a continuación, agrega por separado ProductDEF al carro de compras por 75 $.
+- CustomerDEF456 añade 50 $ al carro de compras para ProductGHI y, a continuación, agrega por separado ProductJKL al carro de compras por 275 $.
+- CustomerGHI789 añade 500 $ al carro de compras para ProductMNO.
+
+Lógica:
+
+- Si el total de ingresos de un visitante por adición al carro de compras es inferior a 150 $, establézcalo en Pequeño.
+- Si el ingreso total de un visitante añadido al carro de compras es mayor que 150 dólares, pero menor que 500 dólares, establézcalo en Medio.
+- Si el total de ingresos de un visitante que se agregan al carro de compras es mayor o igual que 500 $, establézcalo en Grande.
+
+Resultados:
+
+- Total de ingresos por adición al carro de compras por 110 $ para CustomerABC123.
+- Total de ingresos por adición al carro de compras por 325 $ para CustomerDEF456.
+- Total de ingresos por $500 para CustomerGHI789.
+
+### Campo derivado {#summarize-uc-derivedfield}
+
+Usted crea un `Add To Cart Revenue Size` campo derivado. Utilice el [!UICONTROL RESUMIR] y la función [!UICONTROL Sum] [!UICONTROL Método de resumen] con [!UICONTROL Ámbito] establezca en [!UICONTROL Persona] para sumar los valores de [!UICONTROL cart_add] field. Entonces usa un segundo [!UICONTROL CASO CUÁNDO] para dividir el resultado en los tres tamaños de categoría.
+
+![Captura de pantalla de la regla de resumen 1](assets/summarize.png)
+
+
+
+### Datos después de {#summarize-uc-dataafter}
+
+| Tamaño de ingresos de añadir al carro | Visitantes |
+|---|--:|
+| Pequeño | 1 |
+| Medio | 1 |
+| Grande | 1 |
+
+{style="table-layout:auto"}
+
+## Más información {#summarize-more-info}
+
+Utilice la función Resumir para cálculos basados en eventos, sesiones o personas. Utilice el [Matemáticas](#math) para cálculos basados en el nivel de visita.
+
++++
 
 <!-- TRIM -->
 
@@ -1507,7 +1580,6 @@ Recorta los espacios en blanco, los caracteres especiales o el número de caract
 |---|---|---|---|---|
 | <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Recortar espacios en blanco</li><li>Recortar caracteres especiales<ul><li>Entrada de caracteres especiales</li></ul></li><li>Recortar desde la izquierda<ul><li>Desde <ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>Longitud</li></ul></li></ul></li><li>Recortar desde la derecha<ul><li>Desde <ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>Longitud</li></ul></li></ul></li></ul> | <p>N/A</p> | <p>1 función por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
-{style="table-layout:auto"}
 
 ## Caso de uso 1 {#trim-uc1}
 
@@ -1713,6 +1785,7 @@ Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en g
 | <p>Siguiente o anterior</p> | <ul><li>3 Funciones Siguiente o Anterior por campo derivado</li></ul> |
 | <p>Reemplazar Regex</p> | <ul><li>1 función Regex Replace por campo derivado</li></ul> |
 | <p>Split</p> | <ul><li>5 Funciones divididas por campo derivado</li></ul> |
+| <p>Resumir</p> | <ul><li>3 Funciones de resumen por campo derivado</li></ul> |
 | <p>Recortar</p> | <ul><li>1 función Recortar por campo derivado</li></ul> |
 | <p>Análisis de URL</p> | <ul><li>5 funciones de análisis de URL por campo derivado</li></ul> |
 
@@ -1733,7 +1806,7 @@ Por ejemplo, la regla Classify a continuación utiliza 3 operadores.
 ![Captura de pantalla de la regla de clasificación 1](assets/classify-1.png)
 
 
-## Más información
+## Más información {#trim-more-info}
 
 [`Trim`](#trim) y [`Lowercase`](#lowercase) Hay funciones disponibles en la configuración de componentes de [Vistas de datos](../component-settings/overview.md). El uso de campos derivados permite combinar estas funciones para realizar una transformación de datos más compleja directamente en Customer Journey Analytics. Por ejemplo, puede utilizar `Lowercase` para eliminar la distinción entre mayúsculas y minúsculas en un campo de evento y, a continuación, utilice [`Lookup`](#lookup) para hacer coincidir el nuevo campo en minúsculas con un conjunto de datos de búsqueda que solo tenga claves de búsqueda en minúsculas. O puede usar `Trim` para quitar caracteres antes de configurar `Lookup` en el nuevo campo.
 
