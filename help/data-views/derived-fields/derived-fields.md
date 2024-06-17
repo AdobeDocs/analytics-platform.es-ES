@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
+source-git-commit: 6a77107680b4882a64b01bf1606761d4f6d5a3d1
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7843'
 ht-degree: 12%
 
 ---
@@ -441,7 +441,7 @@ En caso de que el sitio reciba los siguientes eventos de muestra, que contienen 
 
 ### Campo derivado {#casewhen-uc1-derivedfield}
 
-Usted define una nueva `Marketing Channel` campo derivado. Utilice el [!UICONTROL CASO CUÁNDO] funciones para definir reglas que creen valores para en función de los valores existentes para `Page URL` y `Referring URL` field.
+Usted define un `Marketing Channel` campo derivado. Utilice el [!UICONTROL CASO CUÁNDO] funciones para definir reglas que creen valores para en función de los valores existentes para `Page URL` y `Referring URL` field.
 
 Observe el uso de la función [!UICONTROL ANÁLISIS DE URL] para definir reglas para recuperar los valores de `Page Url` y `Referring Url` antes del [!UICONTROL CASO CUÁNDO] se aplican las reglas de.
 
@@ -814,7 +814,7 @@ El informe deseado debería tener un aspecto similar al siguiente:
 
 ### Campo derivado {#concatenate-derivedfield}
 
-Usted define una nueva [!UICONTROL Origin - Destino] campo derivado. Utilice el [!UICONTROL CONCATENAR] función para definir una regla para concatenar el [!UICONTROL Original] y [!UICONTROL Destino] campos con el `-` [!UICONTROL Delimitador].
+Usted define un `Origin - Destination` campo derivado. Utilice el [!UICONTROL CONCATENAR] función para definir una regla para concatenar el [!UICONTROL Original] y [!UICONTROL Destino] campos con el `-` [!UICONTROL Delimitador].
 
 ![Captura de pantalla de la regla de concatenación](assets/concatenate.png)
 
@@ -827,6 +827,90 @@ Usted define una nueva [!UICONTROL Origin - Destino] campo derivado. Utilice el 
 | SLC-SEA |
 | SLC-SJO |
 | SLC-MCO |
+
+{style="table-layout:auto"}
+
++++
+
+
+<!-- DEDUPLICATE -->
+
+### Deduplicar
+
+Evita contar un valor varias veces.
+
++++ Detalles
+
+## Especificaciones {#deduplicate-io}
+
+| Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Output |
+|---|---|---|---|---|
+| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Valor]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul></li><li>[!UICONTROL Ámbito]:<ul><li>Persona</li><li>Sesión</li></ul></li><li>[!UICONTROL ID de anulación de duplicación]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul><li>[!UICONTROL Valor que mantener]:<ul><li>Mantener primera instancia</li><li>Mantener última instancia</li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+
+{style="table-layout:auto"}
+
+
+## Caso de uso 1 {#deduplicate-uc1}
+
+Desea evitar el recuento de ingresos duplicados cuando un usuario vuelve a cargar la página de confirmación de reserva. Utilice el ID de confirmación de reserva en el identificador para no volver a contar los ingresos cuando se reciban en el mismo evento.
+
+### Datos anteriores {#deduplicate-uc1-databefore}
+
+| ID de confirmación de reserva | Ingresos |
+|----|---:|
+| ABC123456789 | 359 |
+| ABC123456789 | 359 |
+| ABC123456789 | 359 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#deduplicate-uc1-derivedfield}
+
+Usted define un `Booking Confirmation` campo derivado. Utilice el [!UICONTROL DEDUPLICAR] función para definir una regla para deduplicar el [!UICONTROL Valor] [!DNL Booking] para [!UICONTROL Ámbito] [!DNL Person] usando [!UICONTROL ID de anulación de duplicación] [!UICONTROL ID de confirmación de reserva]. Usted selecciona [!UICONTROL Mantener primera instancia] as [!UICONTROL Valor que mantener].
+
+![Captura de pantalla de la regla de concatenación](assets/deduplicate-1.png)
+
+### Datos después de {#deduplicate-uc1-dataafter}
+
+| ID de confirmación de reserva | Ingresos |
+|----|---:|
+| ABC123456789 | 359 |
+| ABC123456789 | 0 |
+| ABC123456789 | 0 |
+
+{style="table-layout:auto"}
+
+## Caso de uso 2 {#deduplicate-uc2}
+
+Los eventos se utilizan como un proxy para las pulsaciones de campañas con campañas de marketing externas. Las recargas y redirecciones están ocasionando que la métrica de eventos esté inflada. Desea deduplicar la dimensión de código de seguimiento para que solo se recopile la primera y minimizar el recuento excesivo de eventos.
+
+### Datos anteriores {#deduplicate-uc2-databefore}
+
+| ID de visitante | Canal de marketing | Eventos |
+|----|---|---:|
+| ABC123 | búsqueda de pago | 1 |
+| ABC123 | búsqueda de pago | 1 |
+| ABC123 | búsqueda de pago | 1 |
+| DEF123 | email | 1 |
+| DEF123 | email | 1 |
+| JKL123 | búsqueda natural | 1 |
+| JKL123 | búsqueda natural | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivado {#deduplicate-uc2-derivedfield}
+
+Usted define una nueva `Tracking Code (deduplicated)` campo derivado. Utilice el [!UICONTROL DEDUPLICAR] función para definir una regla para deduplicar el [!UICONTROL Código de seguimiento] con un [!UICONTROL Ámbito de deduplicación] de [!UICONTROL Session] y [!UICONTROL Mantener primera instancia] como el [!UICONTROL Valor que mantener].
+
+![Captura de pantalla de la regla de concatenación](assets/deduplicate-2.png)
+
+### Datos después de {#deduplicate-uc2-dataafter}
+
+| ID de visitante | Canal de marketing | Eventos |
+|----|---|---:|
+| ABC123 | búsqueda de pago | 1 |
+| DEF123 | email | 1 |
+| JKL123 | búsqueda natural | 1 |
 
 {style="table-layout:auto"}
 
@@ -1620,6 +1704,7 @@ Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en g
 | <p>Caso de que</p> | <ul><li>5 Caso Cuando las funciones por campo derivado</li><li>200 [operadores](#operators) por campo derivado</li></ul> |
 | <p>Clasificar</p> | <ul><li>5 Clasificar funciones por campo derivado</li><li>200 [operadores](#operators) por campo derivado</li></ul> |
 | <p>Concatenar</p> | <ul><li>2 Concatenar funciones por campo derivado</li></ul> |
+| <p>Deduplicar</p> | <ul><li>5 Funciones de deduplicación por campo derivado</li></ul> |
 | <p>Buscar y reemplazar</p> | <ul><li>2 Funciones Buscar y reemplazar por campo derivado</li></ul> |
 | <p>Búsqueda</p> | <ul><li>5 Funciones de búsqueda por campo derivado</li></ul> |
 | <p>Minúsculas</p> | <ul><li>2 Funciones en minúsculas por campo derivado</li></ul> |
