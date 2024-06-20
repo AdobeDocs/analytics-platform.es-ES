@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 7280bd21882e2baa31e76dbb6f983ccaf1af8633
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 52%
+source-wordcount: '1195'
+ht-degree: 53%
 
 ---
 
@@ -59,11 +59,7 @@ Además de agregarse como Administrador de productos en la **Perfil de producto 
 
 * Exportar conjuntos de datos a la nube [Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es)
 
-  >[!AVAILABILITY]
-  >
-  >La capacidad de exportar conjuntos de datos a la nube se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener más información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Versiones de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
-
-  Para realizar esta tarea, los usuarios también necesitan los siguientes permisos de Experience Platform:
+  Para realizar esta tarea, los usuarios necesitan los siguientes permisos de Experience Platform:
    * Administrar destinos
    * Activar destinos
 
