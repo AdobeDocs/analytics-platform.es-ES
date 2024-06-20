@@ -4,13 +4,12 @@ title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 4c96089088560da635e2499e7ec770c19c3de0ab
+source-git-commit: 0300422b50cf6312c9148bbe38cd43003eb73bb2
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 69%
 
 ---
-
 
 # Filtrado y ordenación de tablas de forma libre
 
