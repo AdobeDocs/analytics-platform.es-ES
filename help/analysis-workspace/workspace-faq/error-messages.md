@@ -4,9 +4,9 @@ title: Mensajes de error comunes en Analysis Workspace
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: 51a20b0a1f003d2e6ce8baf4d7cec16bfa2fe5b3
-workflow-type: ht
-source-wordcount: '332'
+source-git-commit: caf53fe1727c77b4dcb5a9f7b67c368fade2f86c
+workflow-type: tm+mt
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Puede encontrar errores al interactuar con Analysis Workspace que también afect
 
 | Mensaje de error | ¿Por qué ocurre esto? | Optimización |
 | --- | --- | --- |
-| [!UICONTROL Actualmente, la vista de datos supera su capacidad de creación de informes. Simplifique la solicitud o inténtelo de nuevo más tarde.] | La solicitud de creación de informes es demasiado compleja y debe simplificarse. | Reduzca los criterios de informes y vuelva realizar la solicitud. |
+| [!UICONTROL Actualmente, la vista de datos supera su capacidad de creación de informes. Simplifique la solicitud o inténtelo de nuevo más tarde.] |   |   |
 | [!UICONTROL Se ha producido un error del sistema. Registre una solicitud del Servicio de atención al cliente en **[!UICONTROL Ayuda > Enviar ticket de asistencia técnica]** e incluya su código de error.] | Adobe está experimentando un problema que debe resolverse. | Envíe el código de error al Servicio de atención al cliente. |
 | [!UICONTROL Error 500: No se pudo cargar la página] | Los problemas con la red local, como la [configuración del firewall](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=es) de la compañía, son un factor que contribuye a este error. Además, es posible que el Adobe esté experimentando un problema que debe resolverse. | Intente iniciar sesión nuevamente después de varios minutos. Si el problema persiste, envíe el código de ID de instancia de EIM al Servicio de atención al cliente. |
 | [!UICONTROL Uno de los filtros o la búsqueda en esta visualización contiene una búsqueda de texto que arrojó demasiados resultados.] | Los criterios de filtro o el filtro del informe son demasiado amplios. | Reduzca los criterios del texto de búsqueda y vuelva realizar la solicitud. |
