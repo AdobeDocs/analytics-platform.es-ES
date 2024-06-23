@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: ca7e8db5f439d5447725473cb5c3a47c4d801ffa
+source-git-commit: a0515c68407b01dd39bed9f0bf9121b575d02dea
 workflow-type: tm+mt
-source-wordcount: '8377'
+source-wordcount: '8373'
 ht-degree: 12%
 
 ---
@@ -1247,7 +1247,7 @@ Toma un campo como entrada y resuelve el valor siguiente o anterior de ese campo
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Método]:<ul><li>Valor anterior</li><li>Siguiente valor</li></ul></li><li>[!UICONTROL Ámbito]:<ul><li>Persona</li><li>Sesión</li></ul></li><li>[!UICONTROL Índice]:<ul><li>Numéricos</li></ul><li>[!UICONTROL Incluir repeticiones]:<ul><li>Booleano</li></ul></li><li>[!UICONTROL Incluir &quot;Sin valores&quot;]:<ul><li>Booleano</li></ul></li></ul> | <p>N/A</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Método]:<ul><li>Valor anterior</li><li>Siguiente valor</li></ul></li><li>[!UICONTROL Ámbito]:<ul><li>Persona</li><li>Sesión</li></ul></li><li>[!UICONTROL Índice]:<ul><li>Numéricos</li></ul><li>[!UICONTROL Incluir repeticiones]:<ul><li>Booleano</li></ul></li></ul> | <p>N/A</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
