@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 172d80a832356b59df875336c15865c9bacdd837
+source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
 workflow-type: tm+mt
 source-wordcount: '2536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,14 +58,14 @@ Sí. La [vinculación](../stitching/overview.md) busca los datos de usuario de l
 
 +++**¿Cómo funciona la “repetición” en la vinculación?**
 
-La vinculación “reproduce” los datos en función de los identificadores únicos que ha aprendido. Reproducir pretende vincular eventos inicialmente no autenticados de dispositivos que se han identificado mientras tanto. [Más información](../stitching/explained.md)
+La vinculación “reproduce” los datos en función de los identificadores únicos que ha aprendido. Reproducir pretende vincular eventos inicialmente no autenticados de dispositivos que se han identificado mientras tanto. [Más información](../stitching/overview.md)
 
 +++
 
 
 +++**¿Cómo funciona la vinculación de datos históricos (relleno)?**
 
-Cuando se active por primera vez, Adobe proporcionará un relleno de datos vinculados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, los datos no vinculados en aquel momento deben tener un tipo de ID efímero. [Más información](../stitching/explained.md)
+Cuando se active por primera vez, Adobe proporcionará un relleno de datos vinculados que se remontarán hasta el comienzo del mes anterior (hasta 60 días). Para poder rellenar este campo, los datos no vinculados en aquel momento deben tener un tipo de ID efímero. [Más información](../stitching/overview.md)
 
 +++
 
@@ -174,9 +174,9 @@ Si tiene pensado incorporar datos de Adobe Analytics a través del [Conector de 
 
 ## 8. Componentes de [!UICONTROL Adobe Analytics]
 
-+++**¿Puedo compartir/publicar? [!UICONTROL audiencias] de [!DNL Customer Journey Analytics] a Experience Platform Real-Time CDP u otras aplicaciones de Experience Cloud?**
++++**¿Puedo compartir/publicar [!UICONTROL audiencias] de [!DNL Customer Journey Analytics] en Real-Time CDP de Experience Platform, o en otras aplicaciones de Experience Cloud?**
 
-Puede [crear y publicar audiencias](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish) identificado en Customer Journey Analytics al Perfil del cliente en tiempo real en Adobe Experience Platform para la segmentación y personalización de clientes.
+Ahora puede [crear y publicar las audiencias](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish) que haya identificado en Customer Journey Analytics (CJA) en el Perfil del cliente en tiempo real (RTCP) de Adobe Experience Platform para la segmentación y personalización de clientes. 
 
 +++
 
@@ -212,7 +212,7 @@ Depende de su caso práctico; consúltelo con su equipo de cuentas de Adobe. Pue
 
 ## 9. Cálculo del tamaño de la conexión {#estimate-size}
 
-Consulte [Estimar y administrar el uso](/help/technotes/estimate-usage.md).
+Consulte [Calcular y administrar el uso](/help/technotes/estimate-usage.md).
 
 ## 10. Con respecto a los excedentes de uso {#overage}
 

@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 81ad9a41f1fa323f2e0149ce634904ceb1bc3198
+source-git-commit: bad5e71a51d9bf5f2155ea5c711763fafebc1bcf
 workflow-type: tm+mt
-source-wordcount: '3731'
+source-wordcount: '3742'
 ht-degree: 73%
 
 ---
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Junio de 2024** | |
+| Vinculación basada en gráficos | Se ha actualizado la documentación de vinculación con la introducción de la vinculación basada en gráficos. |
 | Asistente de IA | Añadido [documentación](../ai-assistant.md) en el asistente de IA para Customer Journey Analytics. |
 | Transformar conjuntos de datos para búsquedas B2B | Se ha añadido documentación sobre cómo [búsquedas basadas en personas en datos B2B](/help/connections//transform-datasets-b2b-lookups.md) (incluidas cuentas, oportunidades, listas de marketing y campañas) mediante la transformación de conjuntos de datos de búsqueda B2B. |
 | Funciones de campo derivadas y plantillas de función | Documentación añadida sobre las funciones de campo derivadas adicionales ([Matemáticas](/help/data-views/derived-fields/derived-fields.md#math), [Siguiente o Anterior](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) y [plantillas de función](/help/data-views/derived-fields/derived-fields.md#function-templates). |

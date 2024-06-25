@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 34%
+source-wordcount: '1428'
+ht-degree: 29%
 
 ---
 
@@ -31,7 +31,7 @@ Puede utilizar un conjunto de datos de búsqueda si desea cambiar el nombre de l
 
 +++**¿Hasta dónde llega la vinculación a los visitantes de repetición?**
 
-La ventana retrospectiva para la regeneración de claves depende de la frecuencia deseada de [reproducción](explained.md) de los datos. Por ejemplo, si configura la vinculación para que reproduzca los datos una vez por semana, la ventana retrospectiva para la regeneración de claves será de siete días. Si configura la vinculación para que reproduzca datos todos los días, la ventana retrospectiva para la regeneración de claves será de un día.
+La ventana retrospectiva para la regeneración de claves depende de la frecuencia deseada de reproducción de los datos. Por ejemplo, si configura la vinculación para que reproduzca los datos una vez por semana, la ventana retrospectiva para la regeneración de claves será de siete días. Si configura la vinculación para que reproduzca datos todos los días, la ventana retrospectiva para la regeneración de claves será de un día.
 
 +++
 
@@ -47,7 +47,9 @@ El ID transitorio anula al ID persistente, por lo que los dispositivos compartid
 
 En algunas situaciones, un usuario individual puede asociarse con muchos ID persistentes. Un ejemplo es una persona que borra las cookies del explorador con frecuencia o que utiliza el modo privado/de incógnito del explorador.
 
-El número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad del Customer Journey Analytics para crear vínculos entre los distintos dispositivos.
+Para la vinculación basada en el campo, el número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad del Customer Journey Analytics para crear vínculos entre los distintos dispositivos.
+
+Para la vinculación basada en gráficos, una sola persona puede tener muchos ID persistentes en el gráfico de identidades. La vinculación basada en gráficos utiliza el ID persistente en función del área de nombres especificada. En caso de que haya ID más persistentes para el mismo área de nombres, se utiliza el primer ID persistente lexicográfico.
 
 +++
 
@@ -120,3 +122,21 @@ Otras métricas pueden ser similares en Customer Journey Analytics y Adobe Analy
 No, el Customer Journey Analytics no puede usar actualmente los campos del mapa de identidad para la vinculación.
 
 +++
+
++++**¿Será necesario volver a ingerir los datos para cambiar de la vinculación basada en el campo a la basada en gráficos?**
+No es necesario volver a ingerir los datos en Experience Platform, pero deberán volver a configurarse en Customer Journey Analytics. Siga estos pasos:
+
+1. Configure el nuevo conjunto de datos vinculado basado en gráficos.
+1. Configure el nuevo conjunto de datos como parte de una nueva conexión en Customer Journey Analytics.
+1. Cambie la vista de datos existente para utilizar la nueva conexión (y, como tal, el nuevo conjunto de datos vinculado basado en gráficos)
+1. Elimine la conexión antigua que estaba utilizando el conjunto de datos vinculado basado en el campo.
+
++++
+
++++**¿Se produciría alguna interrupción en los informes existentes?**
+
+No si sigue los pasos descritos anteriormente. De lo contrario, solicite asistencia adicional a la asesoría de Adobe.
+
++++
+
+
