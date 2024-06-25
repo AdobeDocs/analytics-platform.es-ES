@@ -1,14 +1,14 @@
 ---
 title: Vista de participación
-description: Comprenda la amplitud y profundidad de la participación de las funciones.
+description: Comprenda la amplitud y profundidad de la participación de la característica.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: a4c35466b225d44130bb55204e2fdb155fa7dee6
+source-git-commit: 670443a8caf6b71f49fc63a23b5328609864a9be
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 3%
+source-wordcount: '721'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Las funciones que trazan hacia la parte superior de esta visualización indican 
 * Las funciones de la parte inferior izquierda de la matriz son las siguientes **bajo impacto** características; no son ampliamente adoptados o utilizados con frecuencia.
 * Las funciones de la parte inferior derecha de la matriz son las siguientes **único** características; son ampliamente adoptados, pero no se utilizan con frecuencia.
 
-![Captura de pantalla Participación](../assets/feature-matrix.png)
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
 ## Casos prácticos
 
