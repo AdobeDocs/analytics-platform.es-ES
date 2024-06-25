@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 6e50e9341c2eedd6e4882cc3eb943cbcb8dfc332
+source-git-commit: eef9b420f1016254dece0a916b82bc99e2ca866e
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ Esta transformación solo está disponible para conjuntos de datos con datos par
 * [Relación de persona de oportunidad empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
 * [Miembros de lista de marketing empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
 * [Miembros de campaña empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+
+>[!NOTE]
+>
+>Hay un límite de no más de 10 000 elementos por cada ID. Esta limitación implica que para cualquier ID de persona solo puede tener 10 000 cuentas, 10 000 oportunidades, 10 000 listas de marketing o 10 000 campañas.
+
 
 Para habilitar la transformación para un conjunto de datos de este tipo:
 
@@ -44,7 +49,7 @@ Para habilitar la transformación para uno o varios conjuntos de datos que ya fo
 
 1. Elimine los conjuntos de datos de la conexión.
 1. Guarde la conexión.
-1. Agregue los conjuntos de datos a la conexión mientras activa la transformación de los conjuntos de datos
+1. Agregue los conjuntos de datos a la conexión mientras activa la transformación de los conjuntos de datos.
 
 ## Información básica
 
