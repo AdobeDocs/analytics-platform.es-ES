@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cfdbbacc1c6f280e8959513d8073cd17c8699962
+source-git-commit: 81ad9a41f1fa323f2e0149ce634904ceb1bc3198
 workflow-type: tm+mt
 source-wordcount: '3731'
 ht-degree: 73%
@@ -24,7 +24,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Transformar conjuntos de datos para búsquedas B2B | Se ha añadido documentación sobre cómo [búsquedas basadas en personas en datos B2B](/help/connections//transform-datasets-b2b-lookups.md) (incluidas cuentas, oportunidades, listas de marketing y campañas) mediante la transformación de conjuntos de datos de búsqueda B2B. |
 | Funciones de campo derivadas y plantillas de función | Documentación añadida sobre las funciones de campo derivadas adicionales ([Matemáticas](/help/data-views/derived-fields/derived-fields.md#math), [Siguiente o Anterior](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) y [plantillas de función](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Mayo de 2024** | |
-| Integración de Target | Añadido [artículo a sección de integración de Adobe](/help/integrations/cja4t.md) sobre cómo integrar Target con Customer Journey Analytics. |
+| Integración de Target | Añadido [artículo a sección de integración de Adobe](/help/integrations/at.md) sobre cómo integrar Target con Customer Journey Analytics. |
 | Información necesaria al exportar informes de Customer Journey Analytics a Google Cloud Platform mientras se utilizan restricciones de directivas de la organización | Se ha agregado el ID de organización de Google Cloud Platform propiedad del Adobe a la [Configuración de ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md) documentación para exportar informes de Customer Journey Analytics a Google Cloud Platform. <p>Esta información solo es necesaria para las organizaciones que utilizan [Restricciones de política de organización](https://cloud.google.com/storage/docs/org-policy-constraints) en Google Cloud Platform.</p> |
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/components/use-components-in-workspace.md). |
 | Casos de uso de exportación de datos | Conjunto de nuevos artículos que describen [casos de uso de exportación de datos](/help/use-cases/data-export/overview.md) y cómo utilizar las funcionalidades de Experience Platform y Customer Journey Analytics para implementar estos casos de uso |
