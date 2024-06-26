@@ -4,10 +4,10 @@ description: Página de aterrizaje de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 85%
 
 ---
 
@@ -29,6 +29,12 @@ El asistente de IA es una experiencia conversacional que permite a los profesion
 
 [![imagen](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
+>[!TAB Vinculación basada en gráficos]
+
+Mediante la vinculación basada en gráficos, puede utilizar el gráfico de identidad del servicio de identidad del Experience Platform para obtener una mejor vista del recorrido del cliente mediante: <ul><li>Unir conjuntos de datos con diferentes identificadores sin tener que extraer, transformar ni cargar datos adicionales para reflejar un solo identificador.</li> <li>Mejora de la cobertura de la identidad preferida o dorada para un único conjunto de datos compartiendo identidades entre conjuntos de datos,</li><li>Alineación de perfiles creados en Real-time Customer Data Platform y Journey Optimizer con personas de Customer Journey Analytics.</li></ul>
+
+[![imagen](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
+
 >[!TAB Búsquedas B2B]
 
 Como parte de la configuración de una conexión, puede transformar conjuntos de datos para esquemas de búsqueda B2B específicos para admitir mejor las búsquedas basadas en personas en datos B2B.
@@ -37,7 +43,7 @@ Como parte de la configuración de una conexión, puede transformar conjuntos de
 
 >[!TAB Campos derivados]
 
-Ya están disponibles las nuevas funciones de campos derivados (Matemáticas, Siguiente o Anterior) y plantillas de función adicionales (como devoluciones, nombre de conjunto de datos descriptivo, temporada de vacaciones, metas mensuales, detección simple de bots y otras).
+Ya están disponibles las nuevas funciones de campo derivadas (Matemáticas, Siguiente o Anterior, Resumir) y las plantillas de función adicionales (como Devoluciones, Nombre del conjunto de datos descriptivo, Temporada de vacaciones, Metas mensuales, Detección simple de bots y otras).
 
 [![imagen](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
