@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
 workflow-type: tm+mt
 source-wordcount: '3188'
 ht-degree: 14%
@@ -51,7 +51,7 @@ En la tabla están disponibles las siguientes columnas o iconos.
 | [!UICONTROL Importar datos nuevos] | Muestra el estado de la importación de nuevos datos para conjuntos de datos: <p>![Estado verde](assets/status-green.svg))    **[!UICONTROL _x _Activado]**para conjuntos de datos configurados para importar nuevos datos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x desactivada_]** para conjuntos de datos no configurados para importar datos nuevos. |
 | [!UICONTROL Fecha de creación] | La marca de tiempo cuando se creó la conexión. |
 | [!UICONTROL Última modificación] | La marca de tiempo de la última actualización de la conexión. |
-| [!UICONTROL Datos de relleno] | Muestra el estado de los datos de relleno entre conjuntos de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _relleno fallido]**para el número de rellenos fallidos entre conjuntos de datos,<p>![Estado naranja](assets/status-orange.svg)   **[!UICONTROL _x _procesamiento de rellenos]**para el número de rellenos de procesamiento entre conjuntos de datos,<p>![Estado verde](assets/status-green.svg))   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados para conjuntos de datos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se definan rellenos para los conjuntos de datos de la conexión. |
+| [!UICONTROL Datos de relleno] | Muestra el estado de los datos de relleno entre conjuntos de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _relleno fallido]**para el número de rellenos fallidos entre conjuntos de datos,<p>![Estado naranja](assets/status-orange.svg)   **[!UICONTROL _x _procesamiento de rellenos]**para el número de rellenos de procesamiento entre conjuntos de datos,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados para conjuntos de datos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se definan rellenos para los conjuntos de datos de la conexión. |
 
 Para configurar qué columnas mostrar, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), que muestra el **Personalizar tabla** que permiten activar o desactivar columnas en la tabla.
 
@@ -89,7 +89,7 @@ Como alternativa, puede:
 
 Al eliminar una conexión, una **[!UICONTROL Eliminar conexión]** el panel indica qué vistas de datos se eliminan y qué proyectos de workspace se ven afectados.
 
-<img src="./assets/delete-connection.png" alt="Eliminar conexión" width="400"/>
+![Eliminar conexión](assets/delete-connection.png)
 
 Seleccionar **[!UICONTROL Continuar]** para eliminar la conexión.
 
