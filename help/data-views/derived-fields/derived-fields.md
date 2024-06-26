@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '8075'
 ht-degree: 12%
@@ -607,9 +607,9 @@ Las siguientes restricciones se aplican y se aplican cuando *selección* y *conf
 
 |  | Restricciones |
 |:---:|----|
-| **<span style='color: red'>A</span>** | Valores que usted *select* dentro del mismo [!UICONTROL If], [!UICONTROL Else If] construcción (uso de [!UICONTROL Y] o [!UICONTROL O]) de una regla debe proceder del mismo contenedor y puede ser de cualquier tipo (cadena ![Cadena](assets/Smock_ABC_18_N.svg), numérico ![Numérico](assets/Smock_123_18_N.svg), etc.). <br/>![Captura de pantalla de la dependencia A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | Todos los valores que *set* en una regla debe ser del mismo contenedor y tener el mismo tipo o un valor derivado del mismo tipo. <br/> ![Captura de pantalla de Dependencia B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | Los valores que *select* horizontal [!UICONTROL If], [!UICONTROL Else If] las construcciones en la regla sí *no* deben proceder del mismo contenedor y deben *no* deben ser del mismo tipo. <br/> ![Captura de pantalla de Dependencia C](assets/dependency-c.png) |
+| **A** | Valores que usted *select* dentro del mismo [!UICONTROL If], [!UICONTROL Else If] construcción (uso de [!UICONTROL Y] o [!UICONTROL O]) de una regla debe proceder del mismo contenedor y puede ser de cualquier tipo (cadena ![Cadena](assets/Smock_ABC_18_N.svg), numérico ![Numérico](assets/Smock_123_18_N.svg), etc.). <br/>![Captura de pantalla de la dependencia A](assets/dependency-a.png) |
+| **B** | Todos los valores que *set* en una regla debe ser del mismo contenedor y tener el mismo tipo o un valor derivado del mismo tipo. <br/> ![Captura de pantalla de Dependencia B](assets/dependency-b.png) |
+| **C** | Los valores que *select* horizontal [!UICONTROL If], [!UICONTROL Else If] las construcciones en la regla sí *no* deben proceder del mismo contenedor y deben *no* deben ser del mismo tipo. <br/> ![Captura de pantalla de Dependencia C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -1151,7 +1151,7 @@ Para crear una fórmula:
 1. Para insertar un valor estático (por ejemplo, `1.05`), escriba el valor y seleccione **[!UICONTROL Añadir *x* como valor estático]** o **[!UICONTROL Agregar -*x* como valor estático negativo]** en el menú emergente.
    ![Matemáticas Más información 2](assets/math-more-info-2.png)
 
-1. Una marca de verificación verde ![Marca de verificación](./assets/checkmark.svg)</span> indica si la fórmula matemática es válida; de lo contrario, verá una advertencia <span style="color:red">![Alerta](./assets/alert.svg)</span> y el mensaje <span style="color:#ea3829">[!UICONTROL Expresión de fórmula no válida].</span>
+1. Una marca de verificación verde ![Marca de verificación](./assets/checkmark.svg)</span> indica si la fórmula matemática es válida; de lo contrario, verá una advertencia ![Alerta](./assets/alert.svg) y el mensaje [!UICONTROL Expresión de fórmula no válida].
    ![Matemáticas Más información 3](assets/math-more-info-3.png)
 
 Hay algunas consideraciones importantes al trabajar con números estáticos en [!UICONTROL MATEMÁTICAS] función:
@@ -1516,7 +1516,7 @@ Aplica funciones de tipo agregación a métricas o dimensiones en los niveles de
 
 ## Caso de uso {#summarize-uc}
 
-Desea categorizar los ingresos de Agregar al carro de compras en tres categorías diferentes: Pequeño, Medio y Grande. Esto le permite analizar e identificar las características de los clientes de alto valor.
+Desea clasificar los ingresos de los productos agregados al carro de compras en tres categorías diferentes: Pequeño, Medium y Grande. Esto le permite analizar e identificar las características de los clientes de alto valor.
 
 ### Datos anteriores {#summarize-uc-databefore}
 
@@ -1533,7 +1533,7 @@ Escenarios:
 Lógica:
 
 - Si el total de ingresos de un visitante por adición al carro de compras es inferior a 150 $, establézcalo en Pequeño.
-- Si el ingreso total de un visitante añadido al carro de compras es mayor que 150 dólares, pero menor que 500 dólares, establézcalo en Medio.
+- Si el total de ingresos de un visitante por adición al carro de compras es mayor que 150 dólares, pero menor que 500 dólares, se debe establecer en Medium.
 - Si el total de ingresos de un visitante que se agregan al carro de compras es mayor o igual que 500 $, establézcalo en Grande.
 
 Resultados:
