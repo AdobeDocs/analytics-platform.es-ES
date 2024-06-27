@@ -4,7 +4,7 @@ description: Incorpore datos generados por Adobe Journey Optimizer y analícelos
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5185c28c7a2cf1a0690e783633bbfbf851a1dcd1
+source-git-commit: 13c3f99dba7725553c775df4492803f759ebead5
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 52%
@@ -90,7 +90,7 @@ La vista de datos tiene el nombre **Habilitar vista de datos de AJO (*nombre de 
    - Todas las métricas y dimensiones que tienen [!UICONTROL (AJO)] anexados a su nombre se añaden automáticamente como parte de esta configuración automática.
    - Algunas de las métricas o dimensiones, que se han agregado automáticamente, se basan en campos derivados. Estos campos derivados se crean específicamente para esta integración. Por ejemplo, la métrica [!UICONTROL Clics en páginas de aterrizaje (AJO)] se basa en [!UICONTROL Clics en páginas de aterrizaje] campo derivado.
    - Algunas de las métricas o dimensiones tienen una configuración adicional. Por ejemplo, [!UICONTROL Queja de spam (AJO)] tiene [!UICONTROL Formato] y [!UICONTROL Incluir valores de exclusión] configuración aplicada.
-   - Todas las métricas y dimensiones agregadas automáticamente no tienen una etiqueta de contexto llamada `:`*`name_of_metric_or_dimension`*. Por ejemplo, la variable [!UICONTROL Clics en páginas de aterrizaje (AJO)] La métrica tiene la etiqueta de contexto `: Landing page clicks (AJO)`.
+   - Todas las métricas y dimensiones agregadas automáticamente no tienen una etiqueta de contexto llamada `:`*`name_of_metric_or_dimension`*. Por ejemplo, la variable [!UICONTROL Clics en páginas de aterrizaje (AJO)] La métrica tiene la etiqueta de contexto `:Landing page clicks (AJO)`.
 
 - En el **[!UICONTROL Configuración]** pestaña, no se aplican valores de configuración específicos
 
