@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear hipervínculos para elemento
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: e1e57eaa9445fc4d553aa7804c4038c03fbe65cd
+source-git-commit: a6eeb4d35e9cbface2d8e880f976b2ad0aaf74a7
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1737'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Esta funcionalidad es especialmente útil al crear hipervínculos para los sigui
 
 * Elementos de Dimension o desgloses que tienen valores que forman parte de una dirección URL a la que desea vincular (por ejemplo, una dimensión Nombre de página que forma parte de una dirección URL)
 
-+++Vea un vídeo de demostración de esta función.
++++  Vea un vídeo de demostración de esta función.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
 
