@@ -5,20 +5,20 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 2f2e4ac68f7a410b8046daae2f90af75ffdedab5
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 61%
+source-wordcount: '676'
+ht-degree: 41%
 
 ---
 
 
 # Conjuntos de datos de evento combinados
 
-Al crear una conexión, Customer Journey Analytics combina todos los esquemas y conjuntos de datos en un único conjunto de datos. Este &quot;conjunto de datos de evento combinado&quot; es lo que utiliza el Customer Journey Analytics para el sistema de informes. Cuando se incluyen varios esquemas o conjuntos de datos en una conexión:
+Al crear una conexión, Customer Journey Analytics combina todos los conjuntos de datos de evento en un único conjunto de datos. Este conjunto de datos de evento combinado es lo que utiliza el Customer Journey Analytics para el sistema de informes (junto con los conjuntos de datos de búsqueda y perfil). Cuando se incluyen varios conjuntos de datos de evento en una conexión:
 
-* Los esquemas están combinados. Se combinan los campos de esquema duplicados.
-* La columna &#39;ID de persona&#39; de cada conjunto de datos se combina en una sola columna, independientemente de su nombre. Esta columna es la base de la identificación de personas únicas en Customer Journey Analytics.
+* Los datos de los campos en conjuntos de datos basados en el **misma ruta de esquema** se combinan en una sola columna en el conjunto de datos combinado.
+* La columna ID de persona, especificada para cada conjunto de datos, se combina en una sola columna del conjunto de datos combinado, **independientemente de su nombre**. Esta columna es la base de la identificación de personas únicas en Customer Journey Analytics.
 * Las filas se procesan según la marca de tiempo.
 * Los eventos se resuelven en el nivel de milisegundos.
 
@@ -28,7 +28,7 @@ Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de eventos, cada
 
 >[!NOTE]
 >
->Adobe Experience Platform generalmente almacena la marca de hora en milisegundos de Unix. Para facilitar la lectura en este ejemplo, se utiliza la fecha y la hora.
+>Adobe Experience Platform generalmente almacena una marca de tiempo en milisegundos de UNIX®. Para facilitar la lectura en este ejemplo, se utilizan la fecha y la hora.
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
@@ -45,7 +45,12 @@ Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de eventos, cada
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
 
-Cuando se crea una conexión con estos dos conjuntos de datos de eventos, se utiliza la siguiente tabla para el sistema de informes.
+Cuando crea una conexión con estos dos conjuntos de datos de eventos, y ha identificado
+
+* `example_id` como ID de persona para el primer conjunto de datos y
+* `different_id` como ID de persona para el segundo conjunto de datos,
+
+el siguiente conjunto de datos combinado se utiliza para el sistema de informes.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -59,7 +64,9 @@ Cuando se crea una conexión con estos dos conjuntos de datos de eventos, se uti
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila; Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
+Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primero, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos de la ruta de esquema  `_experience.somethingelse.string_color`. En esta situación, los datos son **no** se combina en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado es dos `string_color` columnas en el conjunto de datos combinado.
+
+Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila. Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
 
 Este concepto también se aplica a la atribución. No importa de qué conjunto de datos proviene una fila; la atribución funciona exactamente como si todos los eventos procedieran de un único conjunto de datos. Ejemplo de uso de las tablas anteriores:
 
@@ -81,7 +88,7 @@ Sin embargo, si ha incluido ambas tablas en la conexión, la atribución cambia 
 
 ## Análisis en canales múltiples
 
-El siguiente nivel de combinación de conjuntos de datos es el análisis en canales múltiples, donde se combinan conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona). El análisis en canales múltiples puede beneficiarse de la funcionalidad de vinculación, que le permite volver a escribir el ID de persona de un conjunto de datos para que el conjunto de datos se actualice correctamente y permita una combinación perfecta de varios conjuntos de datos. La vinculación busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado.
+El siguiente nivel de combinación de conjuntos de datos es el análisis en canales múltiples, donde se combinan conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona). El análisis en canales múltiples puede beneficiarse de la funcionalidad de vinculación, que le permite volver a escribir el ID de persona de un conjunto de datos para que el conjunto de datos se actualice correctamente y se habilite una combinación perfecta de varios conjuntos de datos. La vinculación busca los datos de usuario de las sesiones autenticadas y no autenticadas para generar un ID vinculado.
 
 El análisis en canales múltiples le permite responder preguntas como las siguientes:
 
@@ -93,11 +100,11 @@ El análisis en canales múltiples le permite responder preguntas como las sigui
 * ¿En qué se diferencia el comportamiento de los usuarios con varios dispositivos de los usuarios con un único dispositivo?
 
 
-Para obtener más información sobre el análisis entre canales, consulte el caso de uso específico:
+Para obtener más información sobre el análisis en canales múltiples, consulte el caso de uso específico:
 
 * [Análisis en canales múltiples](../use-cases/cross-channel/cross-channel.md)
 
-Para obtener una funcionalidad de vinculación de discusión más detallada, vaya a:
+Para un análisis más detallado de la funcionalidad de la vinculación, vaya a:
 
 * [Información general de vinculación](/help/stitching/overview.md)
 * [Preguntas frecuentes ](/help/stitching/faq.md)
