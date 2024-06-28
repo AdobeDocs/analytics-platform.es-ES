@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
+source-git-commit: c0599526e6a6a9ac9788a4ce29bcf44256b6c4df
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3277'
 ht-degree: 14%
 
 ---
@@ -206,7 +206,12 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 ## Uso
 
-El [!UICONTROL Uso] La interfaz de muestra el uso de filas introducidas y notificables en todas las conexiones. Esta interfaz le permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente.
+El [!UICONTROL Uso] La interfaz de muestra el uso de filas introducidas y notificables en todas las conexiones. Esta interfaz le permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente. Además de los fines de monitorización, puede utilizar la interfaz de usuario de para planificar mejor la renovación de la licencia de Customer Journey Analytics.
+
+Puede seleccionar un intervalo de tiempo (entre los últimos 6 meses, el año hasta la fecha o los últimos 2 años) y un intervalo (entre mensual o trimestral) para monitorizar el uso del Customer Journey Analytics. La interfaz se divide en dos secciones:
+
+* Filas ingeridas: filas totales ingeridas/enviadas desde conjuntos de datos de evento en todas las conexiones de CJA, incluidos los registros omitidos durante la ingesta
+* Filas reportables: filas reportables totales que incluyen todos los datos de eventos en todas las conexiones de CJA
 
 ![usage-view](assets/usage-view.png)
 
