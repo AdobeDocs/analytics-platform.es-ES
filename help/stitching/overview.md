@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 328939daf3e4dfe7f586d6c3822ce331cf24b97d
+source-git-commit: 32f0da9ea54952dbe3a765661b800e061ac5f039
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3723'
 ht-degree: 12%
 
 ---
@@ -345,13 +345,13 @@ Una vez que su organización cumpla todos los requisitos [requisitos previos](#p
 
 ### Opciones
 
-Seleccione las opciones de vinculación. El paquete de Customer Journey Analytics determina las opciones disponibles para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación.
+Seleccione las opciones de vinculación. El paquete de Customer Journey Analytics determina las opciones disponibles para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [Descripción del producto del Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información.
 
 | | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
 | Duración de relleno de vinculación única | 13 meses | 13 meses | 25 meses |
 | Ventana retrospectiva y frecuencia de reproducción | <li>1 día, todos los días</li><li>hasta 7 días, semanales</li> | <li>1 día, todos los días</li><li>hasta 14 días, semanales</li> | <li>1 día, todos los días</li><li>hasta 30 días por semana</li> |
-| Número máximo de conjuntos de datos permitidos para la vinculación | 5 | 10 | 15 |
+| Número máximo de conjuntos de datos permitidos para la vinculación | 5 | 10 | 50 |
 
 ### Solicitar asistencia
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: ffa7899b8ece8c39079ed64401ec6cad111e9a84
+source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1747'
 ht-degree: 7%
 
 ---
@@ -58,8 +58,6 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 
 <!--
 ## Attribution AI
-
-
 
 | Name |  Value | Description | PD? |
 |---|--:|---|:---:|
@@ -158,9 +156,19 @@ Consulte también Experience Platform [Protecciones de exportación de conjuntos
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
 | Conjuntos de datos vinculados | De 5 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
-| Datos de relleno | De 60 a 395 | Protección impuesta por el sistema | Cantidad máxima de días de datos de relleno; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Longitud de relleno | De 6 a 25 | Protección impuesta por el sistema | Cantidad máxima de meses de datos de relleno; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días / Frecuencia de reproducción; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
+
+
+## Vinculación basada en gráficos
+
+| Nombre | Valor | Tipo de límite | Descripción |
+|---|--:|---|---|
+| Conjuntos de datos vinculados | De 10 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Longitud de relleno | De 13 a 25 | Protección impuesta por el sistema | Cantidad máxima de meses de datos de relleno; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días / Frecuencia de reproducción; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 
 ## Filtros y métricas calculadas
@@ -222,14 +230,14 @@ Consulte también Experience Platform [Protecciones de exportación de conjuntos
 
 | Flujo de datos | Latencia esperada |
 |---|---|
-| Conector de origen de Adobe Analytics a Adobe Analytics (A4T habilitado) | &lt; 30 minutos |
-| Conector de origen de Adobe Analytics al perfil del cliente en tiempo real (A4T no habilitado) | &lt; 2 minutos |
-| Conector de origen de Adobe Analytics al perfil del cliente en tiempo real (A4T activado) | &lt; 30 minutos |
-| Ingesta de datos en el lago de datos desde la red perimetral o la ingesta de streaming | &lt; 60 minutos |
-| Ingesta de datos en el lago de datos desde el conector de origen de Adobe Analytics | &lt; 2,25 horas |
+| Conector de Adobe Analytics a Adobe Analytics Source (A4T activado) | &lt; 30 minutos |
+| Conector de Adobe Analytics Source al perfil del cliente en tiempo real (A4T no habilitado) | &lt; 2 minutos |
+| Conector de Adobe Analytics Source al perfil del cliente en tiempo real (A4T activado) | &lt; 30 minutos |
+| Ingesta de datos en el lago de datos desde la ingesta de Edge Network o flujo | &lt; 60 minutos |
+| Ingesta de datos en el lago de datos desde el conector de Adobe Analytics Source | &lt; 2,25 horas |
 | Ingesta de datos en el Customer Journey Analytics desde Data Lake | &lt; 90 minutos |
 | Vinculación (función opcional; consulte [Información general de vinculación](../stitching/overview.md) para obtener más información) | &lt; 3,25 horas |
-| Relleno del conector de origen de Adobe Analytics de menos de 10 000 millones de eventos (un máximo de 13 meses de datos históricos) | &lt; 4 semanas |
+| Relleno de menos de 10 000 millones de eventos en el conector Source de Adobe Analytics (máximo de 13 meses de datos históricos) | &lt; 4 semanas |
 | Publicación de audiencias en el Perfil del cliente en tiempo real, lo que incluye la creación automática del segmento de flujo continuo y permite que el segmento esté listo para recibir los datos. | ≈ 60 minutos |
 | Frecuencia de actualización para audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualice cada 4 horas, diariamente, semanalmente o mensualmente (la latencia va acompañada de la frecuencia de actualización). |
 
