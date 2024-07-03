@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 805eb9dc9ab287934dd15eb56d3ac35187c979d7
+source-git-commit: 38bcb262023773763c0ff710a6aba4e06b864d01
 workflow-type: tm+mt
 source-wordcount: '3752'
 ht-degree: 11%
@@ -322,11 +322,11 @@ La siguiente tabla representa los mismos datos que los que hemos visto anteriorm
 Los siguientes requisitos previos se aplican específicamente a la vinculación basada en gráficos:
 
 - El conjunto de datos de evento de Adobe Experience Platform al que desee aplicar la vinculación debe tener una columna que identifique a un visitante en cada fila, la variable **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Cloud.
-- el gráfico de identidad del servicio de identidad de Experience Cloud debe tener un área de nombres (por ejemplo, `Email`, o `Phone`) que desee utilizar durante la vinculación para resolver el **ID transitorio**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) para obtener más información.
+- El gráfico de identidad del servicio de identidad del Experience Cloud debe tener un área de nombres (por ejemplo, `Email`, o `Phone`) que desee utilizar durante la vinculación para resolver el **ID transitorio**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) para obtener más información.
 
 >[!NOTE]
 >
->Tú sí **no** requiere una licencia de Real-time Customer Data Platform para la vinculación basada en gráficos. El **Seleccionar** Un paquete de Customer Journey Analytics o superior incluye los derechos necesarios del servicio de identidad del usuario.
+>Tú sí **no** requiere una licencia de Real-time Customer Data Platform para la vinculación basada en gráficos. El **Seleccionar** Los paquetes de Customer Journey Analytics o superiores incluyen los derechos necesarios del servicio de identidad del usuario.
 
 
 
