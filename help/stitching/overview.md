@@ -5,16 +5,19 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 38bcb262023773763c0ff710a6aba4e06b864d01
+source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
 workflow-type: tm+mt
-source-wordcount: '3752'
-ht-degree: 11%
+source-wordcount: '3793'
+ht-degree: 12%
 
 ---
 
 # Unión
 
-{{select-package}}
+>[!NOTE]
+>
+>Debe tener el **Seleccionar** paquete o superior (para vinculación basada en el campo) o **Prime** paquete o superior (para la vinculación basada en gráficos) para utilizar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
+
 
 La vinculación de identidad (o simplemente, la vinculación) es una práctica funcionalidad que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona).
 
@@ -189,7 +192,7 @@ Los siguientes requisitos previos se aplican específicamente a la vinculación 
 
 - El conjunto de datos de evento de Adobe Experience Platform al que desee aplicar la vinculación debe tener dos columnas que ayuden a identificar a los visitantes:
 
-   - A **ID persistente**, un identificador disponible en cada fila. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Cloud.
+   - A **ID persistente**, un identificador disponible en cada fila. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Platform.
    - A **ID transitorio**, un identificador disponible solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que un visitante se autentica. Puede utilizar prácticamente cualquier identificador que desee. La vinculación tiene en cuenta este campo para contener la información de ID de persona real. Para obtener los mejores resultados de vinculación, se debe enviar un ID transitorio dentro de los eventos del conjunto de datos al menos una vez para cada ID persistente. Si planea incluir este conjunto de datos dentro de una conexión de Customer Journey Analytics, es preferible que los demás conjuntos de datos también tengan un identificador común similar.
 
 - Ambas columnas (ID persistente e ID transitorio) deben definirse como un campo de identidad con un área de nombres de identidad en el esquema para el conjunto de datos que desea vincular. Cuando se utiliza la vinculación de identidad en Real-time Customer Data Platform, se puede usar la variable [`identityMap` grupo de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)Sin embargo, aún debe agregar campos de identidad con un área de nombres de identidad. Esta identificación de campos de identidad es obligatoria, ya que la vinculación de Customer Journey Analytics no admite la `identityMap` grupo de campos. Al añadir un campo de identidad en el esquema, mientras se utiliza también el `identityMap` grupo de campos, no establezca el campo de identidad adicional como identidad principal. La configuración de un campo de identidad adicional como identidad principal interfiere con el `identityMap` grupo de campos utilizado para Real-time Customer Data Platform.
@@ -321,13 +324,12 @@ La siguiente tabla representa los mismos datos que los que hemos visto anteriorm
 
 Los siguientes requisitos previos se aplican específicamente a la vinculación basada en gráficos:
 
-- El conjunto de datos de evento de Adobe Experience Platform al que desee aplicar la vinculación debe tener una columna que identifique a un visitante en cada fila, la variable **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Cloud.
-- El gráfico de identidad del servicio de identidad del Experience Cloud debe tener un área de nombres (por ejemplo, `Email`, o `Phone`) que desee utilizar durante la vinculación para resolver el **ID transitorio**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) para obtener más información.
+- El conjunto de datos de evento de Adobe Experience Platform al que desee aplicar la vinculación debe tener una columna que identifique a un visitante en cada fila, la variable **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Platform.
+- El gráfico de identidad del servicio de identidad del Experience Platform debe tener un área de nombres (por ejemplo, `Email`, o `Phone`) que desee utilizar durante la vinculación para resolver el **ID transitorio**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) para obtener más información.
 
 >[!NOTE]
 >
->Tú sí **no** requiere una licencia de Real-time Customer Data Platform para la vinculación basada en gráficos. El **Seleccionar** Los paquetes de Customer Journey Analytics o superiores incluyen los derechos necesarios del servicio de identidad del usuario.
-
+>Tú sí **no** requiere una licencia de Real-time Customer Data Platform para la vinculación basada en gráficos. El **Prime** Un paquete de o superior de Customer Journey Analytics incluye los derechos necesarios del servicio de ID de Experience Platform.
 
 
 ### Limitaciones
