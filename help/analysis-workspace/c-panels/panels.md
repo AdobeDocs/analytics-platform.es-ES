@@ -5,9 +5,9 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: 665dcd8edcfae6bbf3239c0812ce70843f2ce07c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1438'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración a
 
 ## Zona de colocación {#dropzone}
 
-La zona de colocación del panel permite aplicar filtros y filtros desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel.
+La zona de colocación del panel permite aplicar filtros y filtros desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel. 
 
 ### Filtros
 
@@ -66,19 +66,19 @@ Para obtener más información, consulte [Filtros rápidos](/help/components/fil
 
 ### Filtros desplegables estáticos
 
-Los filtros desplegables estáticos permiten interactuar con los datos de forma controlada. Por ejemplo, puede agregar un filtro desplegable para tipos de dispositivos móviles para poder filtrar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
+Los filtros desplegables permiten interactuar con los datos de forma controlada. Por ejemplo, puede añadir un filtro desplegable para tipos de dispositivos móviles para poder filtrar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
 
 Los filtros desplegables estáticos también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes filtros de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un filtro desplegable de país.
 
 ![Filtros desplegables estáticos que muestran el filtro “Directo” del canal de mercado resaltado. ](assets/dropdown-filter-intro.png)
 
-#### Creación de filtros desplegables estáticos
+#### Creación de filtros desplegables dinámicos
 
-* Para los filtros desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del carril izquierdo y suéltela en la zona desplegable del panel **mientras sostiene`[Shift]`**. Esto crea un filtro desplegable con todos los elementos de dimensión asociados a esa dimensión.
+* Para los filtros desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del carril izquierdo y suéltela en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**. Esto crea un filtro desplegable con todos los elementos de dimensión asociados a esa dimensión.
 
-  O bien, si desea que el filtro desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccionar varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene** `[Shift]`.
+  O bien, si desea que el filtro desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccione varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`; a continuación, suéltelos en la zona desplegable del panel **mientras mantiene pulsado** `[Shift]`.
 
-* Para los filtros desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, o solo filtros o solo métricas), seleccione varios elementos del mismo tipo en el carril izquierdo con `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene`[Shift]`**.
+* Para los filtros desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, solo filtros o solo métricas), seleccione varios elementos del mismo tipo en el carril izquierdo con `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**.
 
   Se crea un único filtro desplegable con los componentes seleccionados.
 
@@ -88,20 +88,20 @@ Los filtros desplegables estáticos también se pueden utilizar para consolidar 
 
 Al hacer clic con el botón derecho en un filtro desplegable, se proporcionan las siguientes opciones:
 
-* **[!UICONTROL Eliminar lista desplegable]**: elimina el filtro desplegable del panel.
+* **[!UICONTROL Eliminar filtro desplegable]**: elimina el filtro desplegable del panel.
 * **[!UICONTROL Eliminar etiqueta]**: elimine el texto situado encima de un filtro desplegable. Para modificar la etiqueta, seleccione el icono de lápiz.
 * **[!UICONTROL Añadir etiqueta]**: cuando se añade un filtro desplegable a un proyecto, se establece automáticamente una etiqueta en el nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
 * **[!UICONTROL Requerir selección]**: Requiere que se establezca un filtro en el panel.
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=es) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
 
-#### Usar filtros desplegables estáticos
+#### Filtros desplegables estáticos
 
 Los usuarios pueden utilizar el menú de filtro desplegable de cualquiera de las siguientes maneras para filtrar el panel:
 
 * Aplique un solo filtro al panel seleccionando el filtro en el filtro desplegable.
 
-* Aplique varios filtros al panel seleccionando más de un filtro en el filtro desplegable. El panel se filtra para incluir cualquiera de los filtros seleccionados.
+* Aplique varios filtros al panel seleccionando más de un filtro en el filtro desplegable. El panel se filtra para incluir cualquiera de los campos seleccionados.
 
   ![Seleccionar varios filtros](assets/dropdown-filter-multiselect.png)
 

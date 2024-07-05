@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ El asistente de IA es una experiencia conversacional que permite a los profesion
 
 >[!TAB Vinculación basada en gráficos]
 
-Mediante la vinculación basada en gráficos, puede utilizar el gráfico de identidad del servicio de identidad del Experience Platform para obtener una mejor vista del recorrido del cliente mediante: <ul><li>Unir conjuntos de datos con diferentes identificadores sin tener que extraer, transformar ni cargar datos adicionales para reflejar un solo identificador.</li> <li>Mejora de la cobertura de la identidad preferida o dorada para un único conjunto de datos compartiendo identidades entre conjuntos de datos,</li><li>Alineación de perfiles creados en Real-time Customer Data Platform y Journey Optimizer con personas de Customer Journey Analytics.</li></ul>
+Con la vinculación basada en gráficos, puede utilizar el gráfico de identidad del Servicio de identidad de Experience Platform para obtener una mejor vista del recorrido del cliente mediante: <ul><li>La unión de conjuntos de datos con diferentes identificadores sin tener que extraer, transformar ni cargar datos adicionales para reflejar un solo identificador.</li> <li>La mejora de la cobertura de la identidad preferida o dorada para un único conjunto de datos compartiendo identidades entre conjuntos de datos.</li><li>La alineación de perfiles creados en Real-Time Customer Data Platform y Journey Optimizer con personas de Customer Journey Analytics.</li></ul>
 
 [![imagen](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
@@ -43,7 +43,7 @@ Como parte de la configuración de una conexión, puede transformar conjuntos de
 
 >[!TAB Campos derivados]
 
-Ya están disponibles las nuevas funciones de campo derivadas (Matemáticas, Siguiente o Anterior, Resumir) y las plantillas de función adicionales (como Devoluciones, Nombre del conjunto de datos descriptivo, Temporada de vacaciones, Metas mensuales, Detección simple de bots y otras).
+Ya están disponibles las nuevas funciones de campos derivados (Matemáticas, Siguiente, Anterior, Resumir) y plantillas de función adicionales (como devoluciones, nombre de conjunto de datos descriptivo, temporada de vacaciones, metas mensuales, detección simple de bots y otras).
 
 [![imagen](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -53,7 +53,7 @@ La extensión de BI habilita el acceso SQL a las vistas de datos que ha definido
 
 [![imagen](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
-*_Debe tener el paquete Select o superior para utilizar la extensión BI._*
+*_Debe tener el paquete Select o superior para utilizar la extensión de BI._*
 
 
 <!--

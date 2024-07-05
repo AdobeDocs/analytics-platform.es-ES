@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
 ht-degree: 100%
 
