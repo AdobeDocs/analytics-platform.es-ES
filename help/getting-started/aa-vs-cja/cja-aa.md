@@ -8,7 +8,7 @@ role: User
 source-git-commit: f091dda08391bad3974493e93dce942b8a2fc4d3
 workflow-type: tm+mt
 source-wordcount: '2287'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Grupos de informes virtuales | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de grupo de informes virtuales | Compatibilidad total. Ahora forma parte de Vistas de datos. |
 | Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Se admite para ambos conjuntos basados en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) y para conjuntos de datos generados por WebSDK. Consulta [Documentación sobre las variables de Analytics que se admiten mediante ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es). Si utilizas la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten dispositivos ni dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. Para añadir búsquedas de dispositivos y exploradores a la secuencia de datos del SDK web, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es) |
-| El complemento de recopilación de medios de streaming | Los datos de medios de streaming están disponibles mediante el conector de origen de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios en Workspace. |
+| El complemento de Recopilación de medios de streaming | Los datos de medios de streaming están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |
 
 {style="table-layout:auto"}
 
