@@ -4,19 +4,25 @@ description: Utilizar e interpretar el panel de atribución en Analysis Workspac
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 4ed05334a3866ec784901d273fcb13bd24b2d449
+source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 75%
+source-wordcount: '620'
+ht-degree: 70%
 
 ---
 
 # Panel de Attribution {#attribution-panel}
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution"
+>id="cja_workspace_attribution_button"
 >title="Atribución"
 >abstract="Compare y visualice rápidamente cualquier número de modelos de atribución con cualquier dimensión y métrica de conversión"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="panel Attribution IQ"
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_attribution_panel"
+>title="Panel de Attribution"
+>abstract="Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión.<br/><br/>**Parámetros **<br/>**Canal**<br/> Dimensión con la que se va a atribuir. Pueden ser canales de marketing, campañas o cualquier otra dimensión.<br/>**Modelos**<br/> El modelo determina cómo se asigna crédito a los puntos de contacto.<br/>**Ventana retroactiva**<br/> Esta configuración determina la ventana de atribución de datos que se aplicará a cada conversión."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="panel Attribution IQ"
 
 
