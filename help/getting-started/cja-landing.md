@@ -4,10 +4,10 @@ description: Página de aterrizaje de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: 52021e557171754901fe6a64c7fa544243af70f1
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 98%
 
 ---
 
@@ -29,11 +29,13 @@ El asistente de IA es una experiencia conversacional que permite a los profesion
 
 [![imagen](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
->[!TAB Vinculación basada en gráficos]
+>[!TAB Vinculación basada en gráficos*]
 
 Con la vinculación basada en gráficos, puede utilizar el gráfico de identidad del Servicio de identidad de Experience Platform para obtener una mejor vista del recorrido del cliente mediante: <ul><li>La unión de conjuntos de datos con diferentes identificadores sin tener que extraer, transformar ni cargar datos adicionales para reflejar un solo identificador.</li> <li>La mejora de la cobertura de la identidad preferida o dorada para un único conjunto de datos compartiendo identidades entre conjuntos de datos.</li><li>La alineación de perfiles creados en Real-Time Customer Data Platform y Journey Optimizer con personas de Customer Journey Analytics.</li></ul>
 
 [![imagen](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
+
+*_Debe tener el paquete Prime para la vinculación basada en gráficos._*
 
 >[!TAB Búsquedas B2B]
 
