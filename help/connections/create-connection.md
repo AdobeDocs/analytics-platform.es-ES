@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3176be3fe1a117718cd675a4ed79df978d1f33f6
+source-git-commit: 8fe3fb966f559aa12f3203e02a1766436e45a24a
 workflow-type: tm+mt
-source-wordcount: '3174'
+source-wordcount: '3172'
 ht-degree: 95%
 
 ---
@@ -82,7 +82,7 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
    |---|---|
    | Conjunto de datos | Nombre del conjunto de datos. Seleccione el nombre para dirigirle al conjunto de datos en el Experience Platform. Seleccionar ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para mostrar una ventana emergente con más detalles para el conjunto de datos. En la ventana emergente, puede seleccionar **[!UICONTROL Editar en Platform]** para editar el conjunto de datos directamente en el Experience Platform. |
    | Tipo de conjunto de datos | El tipo de conjunto de datos: evento, perfil o búsqueda. |
-   | Número de registros | El número de registros disponibles en el último lote del conjunto de datos en Experience Platform. |
+   | Número de registros | El total de registros del mes anterior para el conjunto de datos en Experience Platform. |
    | Esquema | Esquema en el que se basa el conjunto de datos. Seleccione el nombre para dirigirle al esquema en Experience Platform. |
    | Último lote | El estado del último lote introducido en el Experience Platform. Consulte [Estados por lotes](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) más información. |
    | ID de conjunto de datos | El ID del conjunto de datos. |
