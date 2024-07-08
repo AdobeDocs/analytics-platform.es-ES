@@ -5,10 +5,10 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 2f2e4ac68f7a410b8046daae2f90af75ffdedab5
+source-git-commit: 3389c141105ff71ed26abe4384fe3bb930448d43
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 41%
+source-wordcount: '731'
+ht-degree: 35%
 
 ---
 
@@ -66,7 +66,7 @@ el siguiente conjunto de datos combinado se utiliza para el sistema de informes.
 
 Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primero, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos de la ruta de esquema  `_experience.somethingelse.string_color`. En esta situación, los datos son **no** se combina en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado es dos `string_color` columnas en el conjunto de datos combinado.
 
-Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila. Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un lapso de 30 minutos, se considerarán parte de la misma sesión.
+Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila. Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un plazo de 30 minutos, se considerarán parte de la misma sesión. Se combinan campos con rutas de esquema idénticas.
 
 Este concepto también se aplica a la atribución. No importa de qué conjunto de datos proviene una fila; la atribución funciona exactamente como si todos los eventos procedieran de un único conjunto de datos. Ejemplo de uso de las tablas anteriores:
 
@@ -85,6 +85,10 @@ Sin embargo, si ha incluido ambas tablas en la conexión, la atribución cambia 
 | Amarillo | 6 |
 | Azul | 3 |
 | Rojo | 2 |
+
+>[!NOTE]
+>
+>Si un campo combinado es una clave de búsqueda para un conjunto de datos de evento de la conexión, el conjunto de datos de búsqueda asociado se enriquecerá *todo* valores de ese campo. No importa de qué conjunto de datos de evento proviene una fila, ya que la relación de búsqueda está asociada a la ruta de esquema compartida.
 
 ## Análisis en canales múltiples
 
