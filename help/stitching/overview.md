@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
+source-git-commit: ca2387c2dd4c6c0ccdf6cec245c5d66ecea93bd5
 workflow-type: tm+mt
-source-wordcount: '3809'
+source-wordcount: '3817'
 ht-degree: 12%
 
 ---
@@ -350,9 +350,9 @@ Las siguientes limitaciones se aplican específicamente a la vinculación basada
 
 Una vez que su organización cumpla todos los requisitos [requisitos previos](#prerequisites) y comprende lo común [limitaciones](#limitations) y método de vinculación específico ([field-based](#limitations-1) y [basado en gráficos](#limitations-2)) limitaciones, puede seguir estos pasos para empezar a utilizar la vinculación en Customer Journey Analytics.
 
-### Opciones
+### Seleccionar opciones
 
-Seleccione las opciones de vinculación. El paquete de Customer Journey Analytics determina los métodos de vinculación disponibles, las opciones para la duración del relleno inicial, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [Descripción del producto del Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información.
+El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración del relleno inicial, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [Descripción del producto del Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de solicitar asistencia.
 
 | | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
