@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
+source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
 workflow-type: tm+mt
-source-wordcount: '3793'
+source-wordcount: '3809'
 ht-degree: 12%
 
 ---
@@ -211,7 +211,7 @@ Las siguientes limitaciones se aplican específicamente a la vinculación basada
 - Tenga cuidado con los escenarios donde los ID transitorios contienen valores de marcador de posición, por ejemplo `Undefined`. Consulte la [FAQ](faq.md) para obtener más información.
 
 
-## Vinculación basada en gráficos
+## Identificación basada en gráficos
 
 Puede especificar un conjunto de datos de evento, así como el ID persistente (cookie) y el área de nombres del ID transitorio (ID de persona) para ese conjunto de datos. La vinculación basada en gráficos crea una nueva columna para el ID vinculado en el nuevo conjunto de datos vinculado. Y, a continuación, utiliza el ID persistente para consultar el gráfico de identidades desde el servicio de identidad del Experience Platform, utilizando el área de nombres especificada para actualizar el ID vinculado.
 
@@ -325,7 +325,7 @@ La siguiente tabla representa los mismos datos que los que hemos visto anteriorm
 Los siguientes requisitos previos se aplican específicamente a la vinculación basada en gráficos:
 
 - El conjunto de datos de evento de Adobe Experience Platform al que desee aplicar la vinculación debe tener una columna que identifique a un visitante en cada fila, la variable **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Platform.
-- El gráfico de identidad del servicio de identidad del Experience Platform debe tener un área de nombres (por ejemplo, `Email`, o `Phone`) que desee utilizar durante la vinculación para resolver el **ID transitorio**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) para obtener más información.
+- El gráfico de identidad del servicio de identidad del Experience Platform debe tener un área de nombres (por ejemplo, `Email`, o `Phone`) que desee utilizar durante la vinculación para resolver el **ID transitorio**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) para obtener más información.
 
 >[!NOTE]
 >
@@ -352,10 +352,11 @@ Una vez que su organización cumpla todos los requisitos [requisitos previos](#p
 
 ### Opciones
 
-Seleccione las opciones de vinculación. El paquete de Customer Journey Analytics determina las opciones disponibles para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [Descripción del producto del Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información.
+Seleccione las opciones de vinculación. El paquete de Customer Journey Analytics determina los métodos de vinculación disponibles, las opciones para la duración del relleno inicial, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [Descripción del producto del Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información.
 
 | | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
+| Métodos de vinculación disponibles | <li>Vinculación basada en el campo</li> | <li>Vinculación basada en el campo</li><li>Identificación basada en gráficos</li> | <li>Vinculación basada en el campo</li><li>Identificación basada en gráficos</li> |
 | Duración de relleno de vinculación única | 13 meses | 13 meses | 25 meses |
 | Ventana retrospectiva y frecuencia de reproducción | <li>1 día, todos los días</li><li>hasta 7 días, semanales</li> | <li>1 día, todos los días</li><li>hasta 14 días, semanales</li> | <li>1 día, todos los días</li><li>hasta 30 días por semana</li> |
 | Número máximo de conjuntos de datos permitidos para la vinculación | 5 | 10 | 50 |
