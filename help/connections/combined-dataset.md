@@ -5,7 +5,7 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3389c141105ff71ed26abe4384fe3bb930448d43
+source-git-commit: 22f3519445564ebdb2092db04cc966001bda8b1c
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 35%
@@ -88,7 +88,7 @@ Sin embargo, si ha incluido ambas tablas en la conexión, la atribución cambia 
 
 >[!NOTE]
 >
->Si un campo combinado es una clave de búsqueda para un conjunto de datos de evento de la conexión, el conjunto de datos de búsqueda asociado se enriquecerá *todo* valores de ese campo. No importa de qué conjunto de datos de evento proviene una fila, ya que la relación de búsqueda está asociada a la ruta de esquema compartida.
+>Si un campo combinado es una clave de búsqueda para un conjunto de datos de evento de la conexión, el conjunto de datos de búsqueda asociado se enriquecerá **todo** valores de ese campo. No importa de qué conjunto de datos de evento proviene una fila, ya que la relación de búsqueda está asociada a la ruta de esquema compartida.
 
 ## Análisis en canales múltiples
 
