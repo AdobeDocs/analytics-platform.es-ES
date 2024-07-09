@@ -9,7 +9,7 @@ role: User
 source-git-commit: e766858a93f8dcfadda2e7518b0d74468ff1ae4b
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_fundamentals"
 >title="Aspectos básicos de Analysis Workspace"
->abstract="Siga el recorrido a continuación para conocer algunos de los aspectos básicos de Analysis Workspace, como crear una tabla, agregar una visualización, cambiar el intervalo de fechas y mucho más."
+>abstract="Siga el recorrido siguiente para conocer algunos de los aspectos básicos de Analysis Workspace, como crear una tabla, añadir una visualización, cambiar el intervalo de fechas y mucho más."
 >additional-url="https://images-tv.adobe.com/mpcv3/7381/7a0633f8-972f-4367-a2ed-b169981efa7b_1681135724.854x480at800_h264.mp4" text="Información general sobre Analysis Workspace"
 
 Analysis Workspace le permite crear análisis rápidamente para recopilar información y luego compartirlas con otros. Mediante la interfaz del explorador arrastrar y soltar, puede crear su análisis, añadir visualizaciones para que los datos cobren vida, depurar un conjunto de datos, compartir y programar proyectos con cualquier persona de su organización.
