@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 543443fa6483034f5604fca082fcb75f409006a1
 workflow-type: tm+mt
-source-wordcount: '8075'
+source-wordcount: '8068'
 ht-degree: 12%
 
 ---
@@ -381,9 +381,6 @@ Para cada función admitida, busque los detalles siguientes en:
 
 - restricciones (si procede).
 
->[!NOTE]
->
->Se cambió el nombre de la función de búsqueda a [Clasificar](#classify). Consulte la [Clasificar](#classify) para obtener más información.
 
 <!-- CASE WHEN -->
 
@@ -622,10 +619,6 @@ Las siguientes restricciones se aplican y se aplican cuando *selección* y *conf
 Define un conjunto de valores que se reemplazan por los valores correspondientes en un nuevo campo derivado.
 
 +++ Detalles
-
->[!NOTE]
->
->Esta función se denominó originalmente Búsqueda, pero se ha cambiado el nombre a Clasificar para dar cabida a la función Búsqueda con una funcionalidad diferente.
 
 ## Especificaciones {#classify-io}
 
@@ -1027,6 +1020,8 @@ Usted define un `Activity Name` campo derivado. Utilice el [!UICONTROL BÚSQUEDA
 ![Captura de pantalla de la regla en minúsculas](assets/lookup.png)
 
 ## Más información {#lookup-more-info}
+
+La función de búsqueda se aplica en el momento del informe a los datos recuperados por el Customer Journey Analytics del conjunto de datos de búsqueda que ha configurado como parte de la conexión.
 
 Puede insertar rápidamente un [!UICONTROL Búsqueda] función en el generador de reglas, que ya contiene una o más funciones.
 
