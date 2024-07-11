@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 466bcd2d790dae9eccb5d9114a375c5b9666c435
+source-git-commit: f0ff4abcfdb7361aed62bd35b50c4b014b223ec9
 workflow-type: tm+mt
-source-wordcount: '3810'
-ht-degree: 72%
+source-wordcount: '3824'
+ht-degree: 73%
 
 ---
 
@@ -19,9 +19,11 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Julio de 2024** | |
+| Mensajes de error comunes actualizados | Se han realizado actualizaciones menores en [mensajes de error comunes](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junio de 2024** | |
-| Se ha actualizado el nombre del producto que hace referencia a las funciones de medios de streaming | Se han reemplazado las instancias de &quot;Media Analytics&quot; y &quot;Streaming Media&quot; con el nombre de &quot;Complemento de recopilación de medios de streaming&quot; al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Customer Journey Analytics, así como en el [Documentación del complemento de recopilación de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
-| Vinculación basada en gráficos | Actualizado y reestructurado [documentación de vinculación](/help/stitching/overview.md) con la introducción de la vinculación basada en gráficos. |
+| Se ha actualizado el nombre del producto que hace referencia a las funciones de medios de streaming | Se han reemplazado las instancias de “Media Analytics” y “Streaming Media” por el nombre de “Complemento de colección Streaming Media” al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Customer Journey Analytics, así como en el [Documentación del complemento de recopilación de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
+| Identificación basada en gráficos | Actualizado y reestructurado [documentación de vinculación](/help/stitching/overview.md) con la introducción de la vinculación basada en gráficos. |
 | Asistente de IA | Añadido [documentación](../ai-assistant.md) en el asistente de IA para Customer Journey Analytics. |
 | Transformar conjuntos de datos para búsquedas B2B | Se ha añadido documentación sobre cómo [búsquedas basadas en personas en datos B2B](/help/connections//transform-datasets-b2b-lookups.md) (incluidas cuentas, oportunidades, listas de marketing y campañas) mediante la transformación de conjuntos de datos de búsqueda B2B. |
 | Funciones de campo derivadas y plantillas de función | Documentación añadida sobre las funciones de campo derivadas adicionales ([Matemáticas](/help/data-views/derived-fields/derived-fields.md#math), [Siguiente o Anterior](/help/data-views/derived-fields/derived-fields.md#next-or-previous), y [Resumir](/help/data-views/derived-fields/derived-fields.md#summarize)) y [plantillas de función](/help/data-views/derived-fields/derived-fields.md#function-templates). |
@@ -98,7 +100,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Junio de 2023** | |
 | Vinculación y análisis en canales múltiples | En previsión de los próximos cambios para habilitar la vinculación y aclarar mejor cómo se puede elevar el análisis entre canales mediante la vinculación, la documentación relacionada con la funcionalidad de Análisis entre canales se edita para hacer referencia a [análisis en canales múltiples](../use-cases/cross-channel/cross-channel.md) como la capacidad de Customer Journey Analytics y el caso de uso, y [Vinculación](../stitching/overview.md) como una funcionalidad importante para lograrlo. |
 | Acceso de Power BI y Tableau a vistas de datos de Customer Journey Analytics | La extensión de Customer Journey Analytics BI permite el acceso SQL a las vistas de datos definidas en Customer Journey Analytics. [Más información](/help/data-views/bi-extension.md) |
-| Vistas de datos de Adobe Journey Optimizer | Las personas administradoras de Customer Journey Analytics tienen acceso a algunas vistas de datos adicionales en Customer Journey Analytics, tituladas &quot;Vista de datos de AJO (nombre de zona protegida)&quot;. [Más información](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/reporting-configuration). |
+| Vistas de datos de Adobe Journey Optimizer | Las personas administradoras de Customer Journey Analytics tienen acceso a algunas vistas de datos adicionales en Customer Journey Analytics, tituladas &quot;Vista de datos de AJO (nombre de zona protegida)&quot;. [Más información](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/reporting-configuration). |
 | Conversión de moneda | Documentación actualizada para compatibilidad de [conversión de moneda](../data-views/component-settings/format.md#currency). |
 | Actualizaciones de métricas calculadas | Se han introducido las siguientes actualizaciones en la documentación de las métricas calculadas para alinearla con la funcionalidad actual de Customer Journey Analytics: <ul><li>Se ha actualizado la lista de [métricas calculadas predeterminadas](/help/components/calc-metrics/default-calcmetrics.md) disponible en Customer Journey Analytics</li><li>Capturas de pantalla y procedimientos actualizados en varios artículos de métricas calculadas </li></ul> |
 | **Mayo de 2023** | |
