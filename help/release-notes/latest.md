@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1534b628841a5b4588379b944822073f3288d710
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 2ea7c9ec4d02685164a10da3e3f3a38526fc9730
+workflow-type: tm+mt
+source-wordcount: '1232'
+ht-degree: 93%
 
 ---
 
 # Notas de la versión actual de Adobe Customer Journey Analytics (junio de 2024)
 
-**Última actualización**: 18 de junio de 2024
+**Última actualización**: sábado, 12 de julio de 2024
 
 Estas notas de la versión abarcan el periodo de publicación del 6 de junio de 2024 hasta julio de 2024. Las versiones de Customer Journey Analytics operan en un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,6 +20,7 @@ Estas notas de la versión abarcan el periodo de publicación del 6 de junio de 
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Configuración del administrador para controlar las cuentas y ubicaciones que se usan al exportar informes a la nube** | Una nueva ficha &quot;Configuración de administración&quot; de [ en el Administrador de ubicaciones](/help/components/exports/manage-export-locations.md#configure-company-wide-settings-administrators-only) proporciona a los administradores control sobre si los usuarios pueden crear y editar cuentas y ubicaciones.<p>Esta configuración se aplica cuando los usuarios [configuran cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md) y [configuran ubicaciones de exportación en la nube](/help/components/exports/cloud-export-locations.md).</p><p>Los administradores también pueden limitar los tipos de cuentas que los usuarios pueden crear y utilizar. Los tipos de cuenta incluyen Google Cloud Platform, Azure RBAC, Amazon S3, AEP Data Landing Zone, Snowflake, etc.</p><p>Anteriormente, cualquier usuario podía crear, editar y utilizar cuentas y ubicaciones para cualquier tipo de cuenta.</p> | viernes, 11 de julio de 2024 | sábado, 19 de julio de 2024 |
 | **Asistente de IA para Customer Journey Analytics** | Permite realizar preguntas en lenguaje natural en la interfaz de usuario de Customer Journey Analytics y obtener respuestas basadas en la documentación de Customer Journey Analytics. [Más información](/help/ai-assistant.md) | | 6 de junio de 2024 |
 | **Vinculación basada en gráficos** | Con la vinculación basada en gráficos, puede utilizar el gráfico de identidad del Servicio de identidad de Experience Platform para obtener una mejor vista del recorrido del cliente mediante:<ul><li>La unión de conjuntos de datos con diferentes identificadores sin tener que extraer, transformar ni cargar datos adicionales para reflejar un solo identificador.</li><li>La mejora de la cobertura de la identidad preferida o dorada para un único conjunto de datos compartiendo identidades entre conjuntos de datos.</li><li>La alineación de perfiles creados en Real-Time Customer Data Platform y Journey Optimizer con personas de Customer Journey Analytics.</li></ul>[Más información](/help/stitching/overview.md) |  | 28 de junio de 2024 |
 | **Transformación de esquemas B2B para persona a cuenta** | Para realizar búsquedas basadas en personas en datos B2B (incluidas cuentas, oportunidades, listas de marketing y campañas), puede transformar los conjuntos de datos de búsqueda B2B. Esta transformación solamente está disponible en conjuntos de datos para esquemas de búsqueda B2B basados en las siguientes clases:<ul><li>Relación de persona de cuenta empresarial de XDM</li><li>Relación de persona de oportunidad empresarial de XDM</li><li>Miembros de lista de marketing empresarial de XDM</li><li>Miembros de campaña empresarial de XDM</li></ul>[Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/transform-datasets-b2b-lookups) |  | 5 de junio de 2024 |
