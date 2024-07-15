@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 8fe3fb966f559aa12f3203e02a1766436e45a24a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3172'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
 
 1. En el cuadro de diálogo Configuración de conexión, haga clic en **[!UICONTROL Añadir conjuntos de datos]**.
 
-1. En el [!UICONTROL Seleccionar conjuntos de datos] paso, verá una lista de los conjuntos de datos de Experience Platform.
+1. En el paso [!UICONTROL Seleccionar conjuntos de datos], verá una lista de los conjuntos de datos de Experience Platform.
 
    ![Seleccionar conjuntos de datos](assets/select-datasets.png)
 
@@ -80,11 +80,11 @@ El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Pla
 
    | Columna | Descripción |
    |---|---|
-   | Conjunto de datos | Nombre del conjunto de datos. Seleccione el nombre para dirigirle al conjunto de datos en el Experience Platform. Seleccionar ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para mostrar una ventana emergente con más detalles para el conjunto de datos. En la ventana emergente, puede seleccionar **[!UICONTROL Editar en Platform]** para editar el conjunto de datos directamente en el Experience Platform. |
-   | Tipo de conjunto de datos | El tipo de conjunto de datos: evento, perfil o búsqueda. |
+   | Conjunto de datos | Nombre del conjunto de datos. Seleccione el nombre para dirigirle al conjunto de datos en Experience Platform. Seleccione ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para mostrar una ventana emergente con más detalles para el conjunto de datos. En la ventana emergente, puede seleccionar **[!UICONTROL Editar en Platform]** para editar el conjunto de datos directamente en Experience Platform. |
+   | Tipo de conjunto de datos | El tipo del conjunto de datos: evento, perfil o búsqueda. |
    | Número de registros | El total de registros del mes anterior para el conjunto de datos en Experience Platform. |
    | Esquema | Esquema en el que se basa el conjunto de datos. Seleccione el nombre para dirigirle al esquema en Experience Platform. |
-   | Último lote | El estado del último lote introducido en el Experience Platform. Consulte [Estados por lotes](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) más información. |
+   | Último lote | El estado del último lote ingerido en Experience Platform. Consulte [Estados de lotes](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) para ver más información. |
    | ID de conjunto de datos | El ID del conjunto de datos. |
    | Última actualización | La última marca de tiempo actualizada del conjunto de datos. |
 
