@@ -7,7 +7,7 @@ role: User
 source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_button"
 >title="Atribución"
->abstract="Compare y visualice rápidamente cualquier número de modelos de atribución con cualquier dimensión y métrica de conversión"
->additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="panel Attribution IQ"
+>abstract="Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Panel de Attribution IQ"
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_panel"
 >title="Panel de Attribution"
->abstract="Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión.<br/><br/>**Parámetros **<br/>**Canal**<br/> Dimensión con la que se va a atribuir. Pueden ser canales de marketing, campañas o cualquier otra dimensión.<br/>**Modelos**<br/> El modelo determina cómo se asigna crédito a los puntos de contacto.<br/>**Ventana retroactiva**<br/> Esta configuración determina la ventana de atribución de datos que se aplicará a cada conversión."
->additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="panel Attribution IQ"
+>abstract="Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión.<br/><br/>**Parámetros **<br/>**Canal**<br/> Dimensión con la que se va a atribuir. Pueden ser canales de marketing, campañas o cualquier otra dimensión.<br/>**Modelos**<br/> El modelo determina cómo se asigna crédito a puntos de contacto.<br/>**Ventana retroactiva**<br/> Este ajuste determina la ventana de atribución de datos que se aplicará a cada conversión."
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Panel de Attribution IQ"
 
 
 El panel [!UICONTROL Atribución] es una forma sencilla de generar un análisis comparando varios modelos de atribución. Es una función que le proporciona un espacio de trabajo dedicado para utilizar y comparar modelos de atribución.
@@ -48,13 +48,13 @@ Customer Journey Analytics mejora la atribución al permitir lo siguiente:
 
 1. Añada una métrica a la que desee atribuir y agregue cualquier dimensión para atribuirla. Algunos ejemplos son Canales de marketing o dimensiones personalizadas, como las promociones internas.
 
-   ![La ventana del panel Atribución muestra varias dimensiones y métricas seleccionadas.](assets/attribution_panel2.png)
+   ![Ventana del panel Atribución que muestra varias dimensiones y métricas seleccionadas.](assets/attribution_panel2.png)
 
 1. Seleccione los modelos de atribución y la ventana retrospectiva que desee comparar.
 
 1. El panel Atribución devuelve un conjunto completo de datos y visualizaciones que comparan la atribución para la dimensión y métrica seleccionadas.
 
-   ![Las visualizaciones del panel Atribución que comparan métricas y dimensiones seleccionadas.](assets/attr_panel_vizs.png)
+   ![Visualizaciones del panel Atribución que comparan métricas y dimensiones seleccionadas.](assets/attr_panel_vizs.png)
 
 ## Visualizaciones de atribución
 
@@ -64,4 +64,4 @@ Customer Journey Analytics mejora la atribución al permitir lo siguiente:
 * **Diagrama de superposición**: Un diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando una persona estuvo expuesta a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla de forma libre, se actualizará la visualización para reflejar su selección.
 * **Detalles de rendimiento**: Permite comparar visualmente hasta tres modelos de atribución mediante un diagrama de puntos.
 * **Rendimiento de tendencias**: Muestra la tendencia de las conversiones atribuidas para el elemento de dimensión principal. Si se seleccionan otras filas en la Tabla de forma libre, se actualizará la visualización para reflejar su selección.
-* **Flujo**: Permite ver en qué canales hay interacción con más frecuencia y en qué orden a lo largo del recorrido de una persona.
+* **Flujo**: Permite ver en qué canales hay interacción con más frecuencia y en qué orden a través del recorrido de una persona.
