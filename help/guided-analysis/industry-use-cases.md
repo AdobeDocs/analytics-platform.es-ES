@@ -5,16 +5,16 @@ feature: Guided Analysis
 keywords: Product Analytics
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: 2b503ba784762d60efe8581c9ee06587aed416eb
+source-git-commit: 5752d3952987f8447cd12f953a57921044fa3c65
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1483'
 ht-degree: 98%
 
 ---
 
 # Casos de uso del sector
 
-Esta página proporciona algunos ejemplos ilustrativos de lo que los equipos de productos de varios sectores pueden lograr con el análisis guiado.
+Esta página proporciona algunos ejemplos ilustrativos del sector de lo que los equipos de experiencia del cliente, desde analistas hasta equipos de producto y especialistas en marketing, pueden lograr con un análisis guiado.
 
 +++**Comercial**
 
