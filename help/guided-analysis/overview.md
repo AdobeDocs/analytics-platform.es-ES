@@ -5,20 +5,16 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: a55224d91dbcf7323ccd481b4a7469d5b80f12c4
-workflow-type: ht
-source-wordcount: '1397'
-ht-degree: 100%
+source-git-commit: 2addd3d17f62da69eb6636d987931fc21df07af5
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 92%
 
 ---
 
 # Información general sobre el análisis guiado
 
 El análisis guiado permite a los usuarios autogestionar los datos y las perspectivas de alta calidad sobre el recorrido del cliente mediante flujos de trabajo guiados, basados en los mismos datos entre canales de Customer Journey Analytics. Los equipos interfuncionales, desde el marketing hasta el producto, pueden conectarse en tiempo real para utilizar y comprender estos informes.
-
->[!NOTE]
->
-> El análisis guiado solo está disponible actualmente como parte de Adobe Product Analytics, un complemento de pago de Customer Journey Analytics. Si su organización desea empezar a utilizar este conjunto de funciones, póngase en contacto con el equipo de cuentas de Adobe.
 
 Al igual que Analysis Workspace y los cuadros de resultados para móviles, el análisis guiado utiliza datos de una [Vista de datos](../data-views/data-views.md), que hace referencia a los datos en Adobe Experience Platform a través de una [Conexión](../connections/overview.md). Muchos informes creados en análisis guiados se pueden transferir sin problemas a Analysis Workspace para realizar investigaciones adicionales.
 
@@ -72,9 +68,19 @@ El análisis guiado utiliza los siguientes elementos de la interfaz de usuario:
 
 ## Aprovisionamiento
 
-El análisis guiado forma parte de Adobe Product Analytics, que es un complemento de pago de Customer Journey Analytics. Si su organización desea empezar a utilizar este conjunto de funciones, póngase en contacto con el equipo de cuentas de Adobe.
+Las vistas de análisis guiado se incluyen en los paquetes de Customer Journey Analytics de la siguiente manera:
 
-Una vez que la organización esté aprovisionada para utilizar el análisis guiado, los administradores de perfil de producto pueden añadir o eliminar el acceso a él en Adobe Admin Console.
+| Paquete | Vistas disponibles |
+| --- | --- |
+| [!UICONTROL Complementos de CJA] | Tendencias: Uso, Tendencias: Frecuencia, Canal: Fricción, Canal: Tendencias de conversión, Retención: Tasas de retención, Crecimiento del usuario: Activo, Crecimiento del usuario: Crecimiento neto |
+| [!UICONTROL Fundamento de CJA] | Tendencias: Uso |
+| [!UICONTROL Selección de CJA] | Vistas de base + Tendencias: Frecuencia, Canal: Fricción, Canal: Tendencias de conversión, Retención: Tasas de retención, Crecimiento de usuarios: Activo, Crecimiento de usuarios: Crecimiento neto |
+| [!UICONTROL CJA Prime] | Seleccionar vistas + Flujo de usuario: Cronología, Matriz de funciones: Participación, Impacto: Versión, Impacto: Primer uso |
+| [!UICONTROL CJA Ultimate] | Vistas de Prime |
+
+{style="table-layout:auto"}
+
+Los administradores de perfil de producto pueden añadir o eliminar el acceso al análisis guiado en Adobe Admin Console.
 
 1. Inicie sesión en [Adobe Admin Console](https://adminconsole.adobe.com).
 1. Seleccione **[!UICONTROL Customer Journey Analytics]** en la lista de productos.
