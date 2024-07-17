@@ -5,20 +5,20 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: df00d954de5db89f0ccc40f7eb2474523d9e774e
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 71%
 
 ---
 
 # Preguntas frecuentes sobre el análisis guiado
 
-Preguntas frecuentes sobre el análisis guiado.
+Preguntas más frecuentes sobre el análisis guiado.
 
-+++**¿Cómo se puede aprovisionar a mi organización para el análisis guiado?**
++++**¿Tiene mi organización acceso al análisis guiado?**
 
-El análisis guiado forma parte de Adobe Product Analytics, un complemento de pago de Customer Journey Analytics. Si desea empezar a utilizar este complemento, póngase en contacto con el equipo de cuentas de Adobe.
+Las vistas de análisis guiado se incluyen en todos los paquetes de Customer Journey Analytics. Consulte la sección [aprovisionamiento](overview.md#provisioning) en la página de información general para obtener más información sobre las vistas que desbloquea el paquete de CJA.
 
 +++
 
@@ -26,7 +26,7 @@ El análisis guiado forma parte de Adobe Product Analytics, un complemento de pa
 
 Si ya utiliza Customer Journey Analytics hoy, no es necesario realizar cambios de implementación adicionales. El análisis guiado utiliza las mismas [Vistas de datos](../data-views/data-views.md) y [Conexiones](../connections/overview.md) que otras interfaces de CJA, como [Analysis Workspace](../analysis-workspace/home.md).
 
-Para permitir que los usuarios finales tengan más éxito con el análisis guiado, se recomienda tener un esquema de eventos y una estrategia de administración sólidos en Adobe Experience Platform y [Vistas de datos](../data-views/data-views.md).
+Para permitir que los usuarios finales tengan más éxito con el análisis guiado, se recomienda contar con un esquema de eventos y una estrategia de administración sólidos en Adobe Experience Platform y [Vistas de datos](../data-views/data-views.md).
 
 +++
 
@@ -38,7 +38,7 @@ El **análisis guiado** puede ayudar a los usuarios a obtener información de al
 
 +++
 
-+++**¿En qué se diferencia la terminología entre el análisis guiado y Analysis Workspace?**
++++**¿Cómo se compara la terminología entre el análisis guiado y Analysis Workspace?**
 
 El análisis guiado utiliza términos que se utilizan con mayor frecuencia entre los equipos de productos. Puede hacer referencia a esta tabla al cambiar entre el análisis guiado y [Analysis Workspace](../analysis-workspace/home.md).
 
@@ -54,7 +54,7 @@ El análisis guiado utiliza términos que se utilizan con mayor frecuencia entre
 
 +++
 
-+++**¿Cuáles son algunas diferencias en la forma en que el análisis guiado y Analysis Workspace plantean la creación de informes?**
++++**¿Cuáles son algunas diferencias en la forma en que el análisis guiado y el enfoque de Analysis Workspace aplican la creación de informes?**
 
 Mientras que [Analysis Workspace](../analysis-workspace/home.md) y el análisis guiado utilizan los mismos datos subyacentes, la forma en que cada herramienta permite formar consultas de esos datos es diferente.
 
@@ -70,7 +70,7 @@ Preste atención al siguiente ejemplo, en el que se centra en los datos en torno
 
   ![Centrado en la dimensión](assets/dimension-centered.png){style="border:1px solid gray"}
 
-* Un enfoque típico de análisis guiado centrado en el usuario y el evento sería: “¿Cuántos usuarios han visitado nuestra página principal?”
+* Un enfoque típico de análisis guiado centrado en el usuario y el evento sería: &quot;¿Cuántos usuarios han visitado la página principal?&quot;
 
   ![Centrado en el evento](assets/event-centered.png){style="border:1px solid gray"}
 
