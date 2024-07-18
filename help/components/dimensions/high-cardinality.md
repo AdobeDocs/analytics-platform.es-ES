@@ -18,7 +18,7 @@ Al utilizar una dimensión que contiene muchos valores únicos, el informe resul
 
 Cuando se solicita un informe con demasiados valores únicos, Analysis Workspace muestra un indicador en el encabezado de la dimensión que indica que no se incluyen todos los elementos de dimensión. Por ejemplo, &quot;Filas: 1-50 de más de 22 343 156&quot;. La palabra clave &quot;más que&quot; indica que se aplicó cierta optimización al informe para devolver los elementos de dimensión más importantes.
 
-![Tabla de forma libre en el espacio de trabajo que muestra la palabra clave &quot;más que&quot; para mostrar del 1 al 50 de más de 22 343 156](assets/high-cardinality.png)
+![Tabla de forma libre en Workspace que muestra la palabra clave &quot;más que&quot; para mostrar 1-50 de más de 22.343.156](assets/high-cardinality.png)
 
 ## Determinación de los elementos de dimensión que se van a mostrar
 
@@ -34,9 +34,9 @@ Aunque es posible que falten algunos elementos de dimensión individuales en los
 
 La mejor manera de dar cabida a las dimensiones de alta cardinalidad es limitar el número de elementos de dimensión que procesa un informe. Dado que todos los informes se procesan en el momento en que se solicitan, puede ajustar los parámetros del informe para obtener resultados inmediatos. El Adobe recomienda cualquiera de las siguientes optimizaciones para las dimensiones de alta cardinalidad:
 
-* Utilice un [Filtrar](/help/components/filters/create-filters.md). Los filtros se aplican en el momento en que cada servidor procesa un subconjunto de datos.
+* Usar un [filtro](/help/components/filters/create-filters.md). Los filtros se aplican en el momento en que cada servidor procesa un subconjunto de datos.
 * Utilice una búsqueda. Los elementos de Dimension excluidos del término de búsqueda se eliminan de los resultados del informe, lo que aumenta la probabilidad de que vea los elementos de dimensión deseados.
 * Utilice una dimensión del conjunto de datos de búsqueda. Las dimensiones del conjunto de datos de búsqueda combinan elementos de dimensión del conjunto de datos de evento, lo que limita el número de valores únicos devueltos.
-* Utilice el [Incluir/excluir](/help/data-views/component-settings/include-exclude-values.md) configuración de componentes en el administrador de vista de datos.
+* Use la configuración del componente [Incluir/excluir](/help/data-views/component-settings/include-exclude-values.md) en el administrador de vista de datos.
 * Reduzca el intervalo de fechas de la solicitud. Si muchos valores únicos se acumulan con el tiempo, acortar el intervalo de fechas del informe de Workspace puede limitar el número de valores únicos que deben procesar los servidores.
 * Considere utilizar [Exportación de tabla completa](/help/analysis-workspace/export/export-cloud.md) para devolver todas las filas de la tabla.

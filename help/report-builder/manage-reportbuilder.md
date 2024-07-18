@@ -24,7 +24,7 @@ Puede ver y administrar todos los bloques de datos de un libro mediante el Admin
 Haga clic en **Administrar** para ver una lista de todos los bloques de datos de un libro.
 
 
-![La opción Administrar para ver una lista de todos los bloques de datos.](./assets/image53.png)
+![Opción Administrar para ver una lista de todos los bloques de datos.](./assets/image53.png)
 
 El Administrador de bloques de datos muestra todos los bloques de datos presentes en un libro. 
 
@@ -36,13 +36,13 @@ Puede ordenar la lista de bloques de datos por una columna mostrada. Por ejemplo
 
 Para ordenar la lista de bloques de datos, haga clic en un encabezado de columna.
 
-![Clasificación de los bloques de datos.](./assets/image54.png)
+![Ordenando los bloques de datos.](./assets/image54.png)
 
 ## Buscar en la lista de bloques de datos
 
 Utilice el campo Buscar para localizar cualquier contenido en la tabla de bloques de datos. Por ejemplo, puede buscar métricas contenidas en los bloques de datos o la vista de datos. También puede buscar fechas que aparezcan en las columnas de intervalo de fechas, fecha de modificación o fecha de última ejecución.
 
-![Uso del campo Buscar para localizar cualquier elemento en la tabla de bloques de datos.](./assets/image55.png)
+![Usando el campo Buscar para localizar cualquier elemento en la tabla de bloques de datos.](./assets/image55.png)
 
 ## Editar bloques de datos
 
@@ -52,15 +52,15 @@ Por ejemplo, puede reemplazar un filtro existente con un nuevo filtro en uno o m
 
 1. Seleccione los bloques de datos que desea actualizar. Puede seleccionar la casilla de verificación de nivel superior para seleccionar todos los bloques de datos o puede seleccionar bloques de datos individuales.
 
-   ![El icono de edición de lápiz](./assets/image56.png)
+   ![Icono de edición a lápiz](./assets/image56.png)
 
 1. Haga clic en el icono de edición para mostrar la ventana de edición rápida.
 
-   ![La ventana de edición rápida](./assets/image58.png)
+   ![Ventana de edición rápida](./assets/image58.png)
 
 1. Seleccione un vínculo de filtro para actualizar vistas de datos, intervalos de fechas o filtros.
 
-   ![El campo Añadir segmento en la ventana de edición rápida](./assets/image59.png)
+   ![El campo Agregar segmento en la ventana de edición rápida](./assets/image59.png)
 
 ## Actualizar bloques de datos
 
@@ -72,7 +72,7 @@ Para comprobar si un bloque de datos se ha actualizado, consulte el icono de est
 
 Un bloque de datos actualizado correctamente muestra una marca de verificación en un círculo verde: <img src="./assets/refresh-success.png" width="5%" alt="Círculo verde con icono de marca de verificación"/>.
 
-Un bloque de datos que no se ha podido actualizar muestra un icono de advertencia: <img src="./assets/refresh-failure.png" width="5%" alt="Triángulo rojo con signo de exclamación"/>Esto facilita la identificación si algún bloque de datos contiene errores.
+Un bloque de datos que no se ha podido actualizar muestra un icono de advertencia: <img src="./assets/refresh-failure.png" width="5%" alt="Triángulo rojo con signo de exclamación"/>. Esto facilita la identificación si algún bloque de datos contiene errores.
 
 
 ![Administrador de bloques de datos que muestra el estado de actualización de cada bloque de datos enumerado.](./assets/image512.png)

@@ -44,7 +44,7 @@ Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 min
 
    1. Vaya a la carpeta [!UICONTROL **Proyectos recuperados**] en la página de aterrizaje de Analysis Workspace.
 
-      ![La lista de carpetas que resaltan la carpeta Proyecto recuperado.](assets/recovered-folder.png)
+      ![Lista de carpetas que resalta la carpeta Proyecto recuperado.](assets/recovered-folder.png)
 
    1. Abra el proyecto y guárdelo en la ubicación que desee.
 
@@ -69,7 +69,7 @@ Las opciones disponibles son las siguientes:
 
 Si sale de la página o cierra la pestaña del explorador mientras visualiza un proyecto con cambios que aún no se han guardado automáticamente, el explorador advierte que se perderán los cambios sin guardar. Puede elegir entre salir o cancelar.
 
-![Haga clic en Salir para abandonar el sitio o en Cancelar para desplazarse sin guardar los cambios. ](assets/browser-image.png)
+![Haga clic en Salir para abandonar el sitio o en Cancelar para navegar sin guardar los cambios. ](assets/browser-image.png)
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
 
@@ -91,7 +91,7 @@ Para abrir una versión anterior de un proyecto:
 
 1. Vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Abrir versión anterior]**
 
-   ![La lista Versiones del proyecto guardadas anteriormente y las opciones para mostrar Todas las versiones o Solo las versiones con notas.](assets/previous-versions.png)
+   ![La lista de versiones del proyecto guardadas anteriormente y las opciones para mostrar Todas las versiones o Solo las versiones con notas.](assets/previous-versions.png)
 
 1. Revise la lista de versiones anteriores disponibles.
    Se muestran la [!UICONTROL Marca de tiempo] y el [!UICONTROL Editor], así como las [!UICONTROL Notas] si es que se añadieron cuando el [!UICONTROL Editor] guardó. Las versiones sin notas se almacenan durante 90 días; las versiones con notas se almacenan durante 1 año.

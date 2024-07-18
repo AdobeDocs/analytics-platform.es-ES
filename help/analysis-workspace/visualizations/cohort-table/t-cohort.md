@@ -43,7 +43,7 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
 
    ![Vista de tabla de cohorte que muestra los criterios de inclusión y de retorno seleccionados. Haga clic en Generar.](assets/cohort-report.png)
 
-   El informe muestra las personas que realizaron un pedido ( *`Included`* ) y que regresaron al sitio en visitas posteriores. La reducción en visitas durante el tiempo le permite identificar problemas y tomar medidas.
+   El informe muestra las personas que realizaron un pedido (columna *`Included`*) y que regresaron al sitio en visitas posteriores. La reducción en visitas durante el tiempo le permite identificar problemas y tomar medidas.
 1. (Opcional) Cree un filtro a partir de una selección.
 
    Seleccione celdas (contiguas o no) y haga clic con el botón secundario en > **[!UICONTROL Crear filtro a partir de la selección]**.

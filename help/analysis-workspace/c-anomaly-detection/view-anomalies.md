@@ -23,7 +23,7 @@ Puede ver anomalías en una tabla de forma libre de serie temporal.
 
 1. Haga clic fuera del menú de configuración para ver la tabla actualizada.
 
-   ![Una notificación de detección de anomalías que indica un 15 % por debajo de lo esperado.](assets/anomaly_detected.png)
+   ![Notificación de detección de anomalías que indica un 15% por debajo de lo esperado.](assets/anomaly_detected.png)
 
 1. Las anomalías se muestran en la tabla de la siguiente manera:
 
@@ -47,7 +47,7 @@ Para ver anomalías en un gráfico de líneas:
 
 1. Haga clic fuera del menú de configuración para ver el gráfico de líneas actualizado.
 
-   ![Un gráfico de líneas con un mensaje de anomalía detectada que indica un 15 % por encima de lo esperado.](assets/anomaly_linechart.png)
+   ![Un gráfico de líneas con un mensaje de anomalía detectada que indica un 15% por encima de lo esperado.](assets/anomaly_linechart.png)
 
    Las anomalías se muestran en el gráfico de líneas de la siguiente manera:
 

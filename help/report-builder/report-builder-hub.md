@@ -30,7 +30,7 @@ Utilice los botones Crear o Administrar para crear nuevos bloques de datos o par
 
 Utilice el panel COMANDOS para acceder a comandos compatibles con las celdas seleccionadas o con una acción anterior.
 
-![El panel Comandos de Report Builder Hub](./assets/hub1.png)
+![El panel Comandos en Report Builder Hub](./assets/hub1.png)
 
 ### Comandos
 
@@ -47,7 +47,7 @@ Utilice el panel COMANDOS para acceder a comandos compatibles con las celdas sel
 
 Cuando se seleccionan uno o varios bloques de datos en una hoja de cálculo, Report Builder muestra el panel EDICIÓN RÁPIDA. Puede utilizar el panel EDICIÓN RÁPIDA para cambiar parámetros en un solo bloque de datos o para cambiar parámetros en varios bloques de datos al mismo tiempo.
 
-![El panel Edición rápida en Report Builder](./assets/hub2.png)
+![Panel de edición rápida del Report Builder](./assets/hub2.png)
 
 Los cambios realizados con las secciones Edición rápida se aplican a todos los bloques de datos seleccionados.
 
@@ -59,7 +59,7 @@ Al cambiar la vista de datos, todos los bloques de datos de la selección adopta
 
 Para cambiar la vista de datos, seleccione una nueva vista de datos en el menú desplegable.
 
-![Concentrador de Report Builder que muestra el menú desplegable de vista de datos.](./assets/image16.png)
+![Centro de Report Builder que muestra el menú desplegable de vista de datos.](./assets/image16.png)
 
 ### Intervalo de fechas
 

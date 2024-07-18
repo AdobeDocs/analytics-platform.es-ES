@@ -19,7 +19,7 @@ Puede añadir texto definido por el usuario a su proyecto de Workspace mediante 
 
 Al editar el cuadro de texto o la descripción, puede ajustar el tamaño de fuente (niveles de encabezado), el color, el estilo (negrita, cursiva, subrayado) y la alineación del texto seleccionado. También puede añadir listas numeradas y con viñetas.
 
-![Opciones de texto para un proyecto de Workspace que resalta la paleta de colores del texto.](assets/format.png)
+![Opciones de texto para un proyecto de Workspace que resalta la paleta de colores de texto.](assets/format.png)
 
 ## Adición de hipervínculos {#hyperlinks}
 

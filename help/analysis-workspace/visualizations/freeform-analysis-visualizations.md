@@ -26,19 +26,19 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Barra](/help/analysis-workspace/visualizations/bar.md) <p>![Icono de barra](assets/Smock_GraphBarVertical_18_N.svg)</p> | Muestra las barras verticales que representan los distintos valores de una o varias métricas. |
 | [Gráfico de viñetas](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![Icono de viñeta](assets/Smock_GraphBullet_18_N.svg)</p> | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
 | [Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Icono de tabla de cohorte](assets/Smock_TextNumbered_18_N.svg)</p> | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil para el análisis de retención, pérdida o latencia. |
-| [Anillo](/help/analysis-workspace/visualizations/donut.md) <p>![Icono Anillo](assets/Smock_GraphDonut_18_N.svg)</p> | Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. |
-| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icono de visitas en orden previsto](assets/Smock_ConversionFunnel_18_N.svg)</p> | Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
+| [Anillo](/help/analysis-workspace/visualizations/donut.md) <p>![Icono de anillo](assets/Smock_GraphDonut_18_N.svg)</p> | Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. |
+| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icono de visitas en el orden previsto](assets/Smock_ConversionFunnel_18_N.svg)</p> | Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
 | [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![Icono de flujo](assets/flow-icon.png)</p> | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
 | [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Icono de tabla de forma libre](assets/Smock_ViewTable_18_N.svg)</p> | Una tabla de forma libre no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
 | [Histograma](/help/analysis-workspace/visualizations/histogram.md)<p>![Icono de histograma](assets/Smock_GraphHistogram_18_N.svg)</p> | Un histograma agrupa a personas, visitas o eventos en bloques en función de un volumen de métrica. |
 | [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md)<p>![Icono de barra horizontal](assets//Smock_GraphBarHorizontal_18_N.svg)</p> | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
 | [Líneas](/help/analysis-workspace/visualizations/line.md)<p>![Icono de línea](assets/Smock_GraphTrend_18_N.svg)</p> | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
-| [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) <p>![Icono Diagrama de puntos](assets/Smock_GraphScatter_18_N.svg)</p> | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
+| [Diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) <p>![Icono de diagrama de dispersión](assets/Smock_GraphScatter_18_N.svg)</p> | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![Icono de número de resumen](assets/summary-number-icon.png)</p> | Muestra la celda seleccionada como 1 número grande. |
 | [Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![Icono de cambio de resumen](assets/summary-change-icon.png)</p> | Muestra el cambio entre las celdas seleccionadas como 1 gran número/porcentaje. |
-| [Texto](/help/analysis-workspace/visualizations/text.md)<p>![Icono Diagrama de puntos](assets/Smock_Text_18_N.svg)</p> | Le permite agregar texto definido por el usuario a Workspace. Útil para añadir contexto adicional a los análisis y perspectivas, además de aprovechar las descripciones de paneles/visualizaciones |
+| [Texto](/help/analysis-workspace/visualizations/text.md)<p>![Icono de diagrama de dispersión](assets/Smock_Text_18_N.svg)</p> | Le permite agregar texto definido por el usuario a Workspace. Útil para añadir contexto adicional a los análisis y perspectivas, además de aprovechar las descripciones de paneles/visualizaciones |
 | [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md)<p>![Icono de gráfico de rectángulos](assets/Smock_GraphTree_18_N.svg)</p> | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
-| [Venn](/help/analysis-workspace/visualizations/venn.md)<p>![Icono de Venn](assets/venn-icon.png)</p> | Utiliza círculos para mostrar la superposición de métricas de hasta 3 filtros. |
+| [Venn](/help/analysis-workspace/visualizations/venn.md)<p>![Icono Venn](assets/venn-icon.png)</p> | Utiliza círculos para mostrar la superposición de métricas de hasta 3 filtros. |
 
 ## Adición de visualizaciones a un panel
 
@@ -46,19 +46,19 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
 1. Utilice cualquiera de los siguientes métodos para añadir la visualización:
 
-   * En el carril izquierdo, seleccione **Visualizaciones** icono <!-- add icon -->A continuación, arrastre una visualización al panel donde desee agregarla.
+   * En el carril izquierdo, seleccione el icono **Visualizaciones** <!-- add icon --> y, a continuación, arrastre una visualización al panel donde desee agregarla.
 
      ![Panel de visualizaciones](assets/viz-rail.png)
 
-   * En el panel donde desee añadir la visualización, seleccione **Plus** y, a continuación, elija el icono que representa la visualización que desea añadir. Pase el ratón sobre el icono de cada visualización para ver su nombre.
+   * En el panel donde desea agregar la visualización, seleccione el icono **Más** y, a continuación, elija el icono que representa la visualización que desea agregar. Pase el ratón sobre el icono de cada visualización para ver su nombre.
 
-     ![Botón para añadir una visualización](assets/visualization-add-to-panel.png)
+     ![Botón para agregar una visualización](assets/visualization-add-to-panel.png)
 
-   * Añadir un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es)A continuación, elija la visualización que desee añadir.
+   * Agregue un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es) y, a continuación, elija la visualización que desee agregar.
 
      ![Panel en blanco](assets/blank_panel.png)
 
-   * Haga clic con el botón derecho en un panel existente del proyecto de Analysis Workspace y seleccione [!UICONTROL **Duplicar visualización**] o [!UICONTROL **Copiar visualización**].
+   * Haga clic con el botón derecho en un panel existente del proyecto de Analysis Workspace y, a continuación, seleccione [!UICONTROL **Duplicar visualización**] o [!UICONTROL **Copiar visualización**].
 
 ## Personalización de la configuración de visualización
 
@@ -89,7 +89,7 @@ Cada visualización tiene su propia configuración que puede administrar. Para a
 | Tipo de visualización | Cambie el tipo de imagen que se utiliza para representar los datos. |
 | Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. Este cambio también se aplica a la tabla de fuente de datos. |
 | Porcentajes | Muestra valores en porcentajes. |
-| Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. Ejemplo: ![Gráfico de barras que muestra la vista de opciones Apiladas al 100 %.](assets/stacked_100_percent.png) |
+| Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. Ejemplo: ![Gráfico de barras que muestra la vista de opciones Apiladas al 100%.](assets/stacked_100_percent.png) |
 | Leyenda visible | Le permite ocultar el texto de detalles de la leyenda para la visualización de Número de resumen/Resumen del cambio. |
 | Límite máximo de elementos | Le permite limitar el número de elementos que se muestran en una visualización. |
 | Eje Y delimitador a cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |

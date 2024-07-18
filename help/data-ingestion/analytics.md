@@ -54,7 +54,7 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
 
 3. Seleccione **[!UICONTROL Configurar]** o **[!UICONTROL Agregar datos]** en el mosaico de Adobe Analytics.
 
-   ![Ventana de Adobe Experience Platform con Orígenes seleccionados junto con aplicaciones de Adobe y Agregar datos resaltados.](./assets/sources-overview.png)
+   ![Ventana de Adobe Experience Platform con orígenes seleccionados junto con aplicaciones de Adobe y Agregar datos resaltados.](./assets/sources-overview.png)
 
 4. Seleccione **[!UICONTROL Grupo de informes]**. En la lista de grupos de informes, seleccione el que quiera utilizar.
 
@@ -70,13 +70,13 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
 
 6. Asigne un nombre al flujo de datos y (opcionalmente) proporcione una descripción.
 
-   ![Ventana de Adobe Experience Platform que resalta la sección de detalles Flujo de datos](./assets/dataflow-detail.png)
+   ![Ventana de Adobe Experience Platform que resalta la sección de detalles del flujo de datos](./assets/dataflow-detail.png)
 
    Seleccione **[!UICONTROL Siguiente]**.
 
 7. Revise la conexión y seleccione **[!UICONTROL Finalizar]**.
 
-   ![Ventana de Adobe Experience Platform que resalta las secciones Conectar y Tipo de datos para su revisión](./assets/review.png)
+   ![Ventana de Adobe Experience Platform que resalta las secciones Tipo de datos y Conexión para su revisión](./assets/review.png)
 
 
 Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes. El flujo de datos ingiere hasta 13 meses de datos históricos para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.
@@ -193,7 +193,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel] . Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel] Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 

@@ -18,7 +18,7 @@ Los proyectos de Workspace le permiten combinar componentes, tablas y visualizac
 
 ## Lista de proyectos {#project-list}
 
-La primera vez que acceda a **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, la página muestra todos los proyectos que posee o los que han compartido con usted. También es la página de aterrizaje de Adobe Analytics, a menos que haya establecido previamente una página de aterrizaje personalizada.
+La primera vez que accedas a **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, la página muestra todos los proyectos que posees o los que se han compartido contigo. También es la página de aterrizaje de Adobe Analytics, a menos que haya establecido previamente una página de aterrizaje personalizada.
 
 ![Página de aterrizaje del proyecto que muestra la lista de proyectos.](assets/sample-project.png)
 
@@ -26,21 +26,21 @@ La página Proyectos contiene la siguiente información:
 
 >[!NOTE]
 >
->Algunas columnas no se muestran de forma predeterminada. Para personalizar las columnas que ve, haga clic en **Personalizar tabla** icono ![Personalizar tabla](assets/projects-page-customize-columns-icon.png).
+>Algunas columnas no se muestran de forma predeterminada. Para personalizar las columnas que ve, haga clic en el icono **Personalizar tabla** ![Personalizar tabla](assets/projects-page-customize-columns-icon.png).
 
 | Elemento | Descripción |
 |---|---|
 | [Editar preferencias](/help/analysis-workspace/user-preferences.md) | Administre la configuración de Analysis Workspace y sus componentes relacionados para todos los proyectos o paneles nuevos que cree. |
 | [Crear carpeta](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Agregue una nueva carpeta o subcarpeta a la lista de proyectos y carpetas. |
 | [Crear proyecto](/help/analysis-workspace/build-workspace-project/create-projects.md) | Inicie un nuevo proyecto desde cero. |
-| Mostrar más | Muestra las opciones para crear un proyecto o un cuadro de resultados móvil en blanco. [ver tutoriales de formación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=es), o [ver notas de la versión](/help/release-notes/latest.md). |
+| Mostrar más | Muestra las opciones para crear un proyecto o cuadro de resultados móvil en blanco, [ver tutoriales de aprendizaje](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=es) o [ver notas de la versión](/help/release-notes/latest.md). |
 | Mostrar carpetas y proyectos | Elija si desea mostrar la estructura de carpetas de los proyectos. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Personalizar tabla (icono) | Permite personalizar la información que se muestra para cada proyecto en la página Proyectos. |
 | Nombre | Nombre del proyecto de Workspace. |
-| Tipo | Indica si se trata de un proyecto de Workspace, una carpeta o una [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=es). |
+| Tipo | Indica si se trata de un proyecto de Workspace, una carpeta o un [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=es). |
 | Etiquetas | Etiquetas aplicadas al proyecto. |
-| Programado | Indica si los proyectos están programados para enviarse por correo electrónico a los destinatarios según una programación. Consulte [Enviar datos de proyecto a otras personas](/help/analysis-workspace/export/t-schedule-report.md). |
-| Vínculo compartido (cualquiera) | Los proyectos se pueden compartir con cualquier persona, incluso con personas que no tengan acceso a Analysis Workspace. Esta columna muestra si los proyectos se han compartido de esta manera. Consulte [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
+| Programado | Indica si los proyectos están programados para enviarse por correo electrónico a los destinatarios según una programación. Ver [Enviar datos de proyecto a otras personas](/help/analysis-workspace/export/t-schedule-report.md). |
+| Vínculo compartido (cualquiera) | Los proyectos se pueden compartir con cualquier persona, incluso con personas que no tengan acceso a Analysis Workspace. Esta columna muestra si los proyectos se han compartido de esta manera. Vea [Compartir un proyecto con alguien (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
 | Vista de datos | La vista de datos a la que está asociado el proyecto. |
 | [Función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) | Indica la función en el proyecto: propietarios, edición, duplicado o vista. |
 | Propietario | Persona que ha creado el proyecto (usted mismo o alguien que haya compartido su proyecto). |
@@ -60,7 +60,7 @@ En un proyecto, el menú proporciona opciones para administrar el proyecto, agre
 
 | Elemento del menú | Descripción |
 |---|---|
-| Proyecto  | Incluye acciones comunes para la administración de proyectos, como Nuevo, Abrir, Guardar y Guardar como. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. [Descargar datos de proyecto](/help/analysis-workspace/export/download-send.md) Las opciones de permiten exportar datos desde Workspace. **Información y configuración del proyecto** (ver más abajo) ofrece muchas opciones para administrar el proyecto. |
+| Proyecto  | Incluye acciones comunes para la administración de proyectos, como Nuevo, Abrir, Guardar y Guardar como. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. Las opciones [Descargar datos de proyecto](/help/analysis-workspace/export/download-send.md) permiten exportar datos desde Workspace. **Información y configuración del proyecto** (ver más abajo) ofrece muchas opciones para administrar el proyecto. |
 | Editar | Deshacer o volver a hacer la última acción. Borrar todo restablecerá el proyecto a un punto de partida en blanco. |
 | Insertar | Inserte nuevos paneles o visualizaciones desde este menú. También puede insertar nuevos paneles y visualizaciones desde el carril izquierdo. |
 | [Componentes](/help/components/overview.md) | Cree nuevos componentes de filtro, métrica calculada, intervalo de fecha o alerta a partir del proyecto. También puede crear nuevos componentes desde el carril izquierdo. Si las definiciones de los componentes han cambiado recientemente, Actualizar componentes recuperará las definiciones más recientes. |
@@ -70,7 +70,7 @@ En un proyecto, el menú proporciona opciones para administrar el proyecto, agre
 
 ### Info y configuración del proyecto {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]** proporciona información a nivel de proyecto sobre el proyecto activo.
+**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]** proporciona información a nivel de proyecto sobre el proyecto activo actualmente.
 
 ![La ventana Información y configuración del proyecto.](assets/projectinfo.png)
 
@@ -93,17 +93,17 @@ Dentro de un proyecto, hay varios iconos disponibles en el carril izquierdo y ca
 
 * [Paneles](/help/analysis-workspace/c-panels/panels.md) ![icono de paneles](assets/panels-icon.png)
 
-* [Visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![icono de visualizaciones](assets/visualizations-icon.png)
+* [Icono de visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![visualizaciones](assets/visualizations-icon.png)
 
-* [Componentes](/help/components/overview.md)![icono de componentes](assets/components-icon.png)
+* [Icono de componentes](/help/components/overview.md)![componentes](assets/components-icon.png)
 
-* [Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md)![icono del diccionario de datos](assets/data-dictionary-icon.png)
+* [Icono del diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md)![2}](assets/data-dictionary-icon.png)
 
 * [Tabla de contenido](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![icono de tabla de contenido](assets/toc-icon.png)
 
 Los componentes (dimensiones, métricas, filtros e intervalos de fechas) del carril izquierdo están relacionados con la vista de datos del panel activo. El panel activo se identifica con el borde azul que lo rodea y la vista de datos activa se muestra en la parte superior del carril del componente.
 
-![Los componentes relacionados con la vista de datos del panel activo para la vista de datos de demostración entre industrias.](assets/left-rail.png)
+![Los componentes relacionados con la vista de datos del panel activo para la vista de datos de demostración entre sectores.](assets/left-rail.png)
 
 ## Lienzo del proyecto {#canvas}
 
@@ -113,15 +113,15 @@ Los paneles son útiles cuando desea organizar sus proyectos según períodos de
 
 Según el punto de partida que haya elegido para sus proyectos, tendrá una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md) en el lienzo para empezar. La forma más rápida de empezar a analizar es seleccionar uno o varios componentes y simplemente arrastrarlos y soltarlos en el lienzo del proyecto. Automáticamente, se mostrará una tabla de datos. [Obtenga más información](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) acerca de las diferentes opciones para crear una tabla o aproveche nuestros [tutoriales de aprendizaje](/help/analysis-workspace/home.md) para obtener más información acerca de cómo crear su primer proyecto.
 
-![Una tabla de forma libre para el proyecto.](assets/canvas.png)
+![Tabla de forma libre para el proyecto.](assets/canvas.png)
 
 ## Gestor de proyecto {#manager}
 
-Los proyectos de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos**. El Administrador de proyectos muestra los elementos que ha creado un usuario en particular. Puede transferir la propiedad del proyecto a un nuevo usuario en Administración > Usuarios y activos de Analytics > Transferir activos.
+Los proyectos de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos**. El Administrador de proyectos muestra los elementos que ha creado un usuario en particular. Puede transferir la propiedad del proyecto a un nuevo usuario en Administración > Usuarios y Assets de Analytics > Transferir Assets.
 
 En el Administrador de proyectos, puede agregar, etiquetar, compartir, duplicar/copiar, etc. Busque un proyecto en la barra de búsqueda o utilizando las opciones de filtro del carril izquierdo. Puede filtrar por etiqueta, propietarios, tipo de proyecto y más.
 
-![Campo de búsqueda de etiquetas de Project Manager y campo de búsqueda de título.](assets/project-manager.png)
+![Campo de búsqueda de etiquetas de Project Manager y Campo de búsqueda de título.](assets/project-manager.png)
 
 Las siguientes acciones comunes del administrador de proyectos se pueden llevar a cabo en uno o varios proyectos a la vez:
 

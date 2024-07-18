@@ -8,13 +8,13 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
 # Ingesta de audiencias de Adobe Experience Platform en Adobe Customer Journey Analytics
 
-Este caso de uso explora una forma provisional y manual de incorporar audiencias de Adobe Experience Platform (Adobe Experience Platform) a Customer Journey Analytics. Es posible que estas audiencias se hayan creado en el Generador de segmentos de Adobe Experience Platform, Adobe Audience Manager u otras herramientas, y se almacenen en el Perfil del cliente en tiempo real (RTCP). Las audiencias constan de un conjunto de ID de perfil, junto con cualquier atributo, evento, etc. aplicables y queremos incluirlos en Customer Journey Analytics Workspace para su análisis.
+Este caso de uso explora una forma provisional y manual de incorporar audiencias de Adobe Experience Platform (Adobe Experience Platform) a Customer Journey Analytics. Es posible que estas audiencias se hayan creado en el Generador de segmentos de Adobe Experience Platform, Adobe Audience Manager u otras herramientas, y se almacenen en el Perfil del cliente en tiempo real (RTCP). Las audiencias constan de un conjunto de ID de perfil, junto con cualquier atributo, evento, etc. aplicables y queremos incluirlos en Workspace de Customer Journey Analytics para su análisis.
 
 ## Requisitos previos
 
@@ -32,7 +32,7 @@ Es probable que ya tenga audiencias en RTCP que puedan provenir de varios oríge
 
 ## Paso 2: Creación de un conjunto de datos de unión de perfiles para la exportación
 
-Para exportar la audiencia a un conjunto de datos que finalmente se pueda agregar a una conexión en Customer Journey Analytics, debe crear un conjunto de datos cuyo esquema sea un perfil [Esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
+Para exportar la audiencia a un conjunto de datos que finalmente se pueda agregar a una conexión en Customer Journey Analytics, debe crear un conjunto de datos cuyo esquema sea un perfil [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
 
 Los esquemas de unión están compuestos por varios esquemas que comparten la misma clase y que se han habilitado para Perfil. El esquema de unión permite ver una amalgamación de todos los campos contenidos en esquemas que comparten la misma clase. El perfil del cliente en tiempo real utiliza el esquema de unión para crear una vista holística de cada cliente individual.
 
@@ -44,7 +44,7 @@ Puede crear un trabajo de exportación utilizando el ID de audiencia que elija y
 
 ## Paso 4: Editar la salida de exportación
 
-Los resultados del trabajo de exportación deben transformarse en un conjunto de datos de perfil independiente para poder ingerirse en Customer Journey Analytics.  Esta transformación se puede realizar con [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es)u otra herramienta de transformación de su elección. Solo necesitamos el ID de perfil (que coincidirá con el ID de persona en Customer Journey Analytics) y uno o más ID de audiencia para realizar los informes en Customer Journey Analytics.
+Los resultados del trabajo de exportación deben transformarse en un conjunto de datos de perfil independiente para poder ingerirse en Customer Journey Analytics.  Esta transformación se puede realizar con [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es) u otra herramienta de transformación de su elección. Solo necesitamos el ID de perfil (que coincidirá con el ID de persona en Customer Journey Analytics) y uno o más ID de audiencia para realizar los informes en Customer Journey Analytics.
 
 Sin embargo, el trabajo de exportación estándar contiene más datos y, por lo tanto, es necesario editar este resultado para eliminar datos superfluos, así como mover algunas cosas.  Además, primero debe crear un esquema/conjunto de datos antes de agregarle los datos transformados.
 
@@ -91,4 +91,4 @@ Ahora puede informar sobre `audienceMembershipId`, `audienceMembershipIdName` y 
    1. Realice este proceso para cada audiencia deseada en la colección de audiencias dentro de RTCP.
    1. El Customer Journey Analytics admite matrices/matrices de objetos en conjuntos de datos de perfil. El uso de una [matriz de objetos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=es) para audienceMembershipId o audienceMembershipIdName es la mejor opción.
    1. En la vista de datos, cree una nueva dimensión con la transformación de la subcadena en el campo `audienceMembershipId` para convertir la cadena de valores separados por comas en una matriz. NOTA: Actualmente hay un límite de 10 valores en la matriz.
-   1. Ahora puede crear informes sobre esta nueva dimensión `audienceMembershipIds` en Customer Journey Analytics Workspace.
+   1. Ahora puede generar informes sobre esta nueva dimensión `audienceMembershipIds` dentro de Customer Journey Analytics Workspace.

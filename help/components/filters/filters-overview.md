@@ -26,13 +26,13 @@ Los filtros se pueden basar en
 
 Puede crear y guardar filtros en el Generador de filtros o generar filtros a partir de una visualización de visitas en el orden previsto (en Workspace). Además, los filtros se pueden usar juntos como filtros apilados.
 
-El filtrado incluye [Generador de filtros](/help/components/filters/filter-builder.md) para construir filtros y ejecutar una prueba previa, y la variable [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
+El filtro incluye [Generador de filtros](/help/components/filters/filter-builder.md) para construir filtros y ejecutar una prueba previa, y [Administrador de filtros](/help/components/filters/manage-filters.md) para recopilar, etiquetar, aprobar, establecer la seguridad y compartir filtros en toda la organización.
 
 El número máximo de filtros que puede crear por cada organización de IMS es 50 000.
 
 ## Tipos de filtro {#types}
 
-Para obtener información sobre los tipos de filtros disponibles y cómo crearlos, consulte [Creación de filtros](/help/components/filters/create-filters.md).
+Para obtener información sobre los tipos de filtros disponibles y cómo crearlos, consulte [Crear filtros](/help/components/filters/create-filters.md).
 
 ## Filtros secuenciales {#sequential}
 
@@ -40,7 +40,7 @@ Los filtros secuenciales le permiten identificar a las personas en función de l
 
 >[!IMPORTANT]
 >
->Debe tener el **Seleccionar** para crear filtros secuenciales de canales cruzados. Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene.
+>Debe tener el paquete **Select** para crear filtros secuenciales entre canales. Póngase en contacto con el administrador si no está seguro del paquete de Customer Journey Analytics que tiene.
 
 Vea el siguiente ejemplo:
 

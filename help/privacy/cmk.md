@@ -13,7 +13,7 @@ ht-degree: 57%
 
 # Claves gestionadas por el cliente
 
-Adobe Customer Journey Analytics proporciona la opción para [Healthcare Shield](https://www.adobe.com/trust/compliance/hipaa-ready.html) y a los clientes de Privacy &amp; Security Shield para utilizar una clave gestionada por el cliente de Azure (CMK) que se aplicará a los datos del Customer Journey Analytics.  Tenga en cuenta que este proceso es independiente de la [configuración de Adobe Experience Platform CMK](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=es).
+Adobe Customer Journey Analytics proporciona la opción para que [Healthcare Shield](https://www.adobe.com/trust/compliance/hipaa-ready.html) y los clientes de Privacy &amp; Security Shield utilicen una clave gestionada por el cliente de Azure (CMK) que se aplicará a los datos de su Customer Journey Analytics.  Tenga en cuenta que este proceso es independiente de la [configuración de Adobe Experience Platform CMK](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=es).
 
 >[!NOTE]
 >

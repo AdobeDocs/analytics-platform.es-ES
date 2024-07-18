@@ -23,8 +23,8 @@ Las visitas en el orden previsto se actualizan de forma dinámica y le permiten 
 
 También puede añadir métricas a este conjunto. En este ejemplo, hemos añadido la métrica “Fotografía compartida” para complementar la ruta que han seguido los clientes:
 
-![La vista Todas las visitas que muestra la métrica añadida: &quot;Foto compartida&quot;.](assets/interdimensional-fallout2.png)
+![Vista Todas las visitas que muestra la métrica agregada: &quot;Foto compartida&quot;.](assets/interdimensional-fallout2.png)
 
 Además, puede combinar distintas dimensiones y métricas en puntos de comprobación AND. Simplemente, arrastre otra dimensión o métrica sobre una existente:
 
-![La vista Todas las visitas que muestra el Nombre de la acción agregado: Compartido Y Foto compartida.](assets/interdimensional-fallout3.png)
+![Vista Todas las visitas que muestra el nombre de la acción agregado: métrica de fotos compartidas Y compartidas.](assets/interdimensional-fallout3.png)

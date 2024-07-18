@@ -15,6 +15,6 @@ ht-degree: 86%
 
 Le permite ver cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos).
 
-![Ventana de configuración de visualización que muestra la opción Tipo de gráfico, las Opciones de viñeta y otras opciones de configuración del gráfico.](assets/bullet-image.png)
+![Ventana de configuración de visualización que muestra la opción Tipo de gráfico, las Opciones de viñetas y otras opciones de gráfico.](assets/bullet-image.png)
 
 El gráfico de bala presenta una única medida principal (por ejemplo, los ingresos anuales actuales hasta la fecha) y permite introducir intervalos cualitativos de rendimiento (por ejemplo, en comparación con los ingresos objetivo). Puede especificar alto, medio y bajo. Puede especificar intervalos objetivo en [!UICONTROL Configuración de visualización].

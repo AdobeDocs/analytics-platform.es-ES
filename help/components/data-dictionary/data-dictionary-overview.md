@@ -7,7 +7,7 @@ exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 67%
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a seguir los componentes de su entorno de Analytics y a comprenderlos mejor.
 
-Los administradores de Analytics son responsables de revisar información sobre cada componente del diccionario de datos para que esté disponible para los usuarios.
+Los administradores de Analytics son responsables de seleccionar la información sobre cada componente en el Diccionario de datos para ponerla a disposición de los usuarios.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
@@ -72,9 +72,9 @@ Para obtener información detallada sobre las distintas opciones disponibles en 
 
 ## Actualizar y depurar el diccionario de datos
 
-Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos en buen estado para su organización, tal como se describe en [Monitorizar estado del diccionario de datos](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos correcto para su organización, tal como se describe en [Supervisar el estado del diccionario de datos](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Como parte de este proceso, los administradores de Customer Journey Analytics pueden editar la información sobre cada componente del diccionario de datos, tal como se describe en [Editar entradas de componente en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+Como parte de este proceso, los administradores de Customer Journey Analytics pueden editar información sobre cada componente del diccionario de datos, tal como se describe en [Editar entradas de componentes en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Movimiento, minimización o cierre del diccionario de datos
 

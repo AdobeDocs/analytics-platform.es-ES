@@ -22,7 +22,7 @@ Desglose los datos de forma ilimitada para sus necesidades específicas; genere 
 1. [Cree un proyecto](/help/analysis-workspace/home.md) con una tabla de datos.
 1. En la tabla de datos, haga clic con el botón secundario en un elemento de línea y seleccione **[!UICONTROL Desglosar]** > *`<item>`*.
 
-   ![Resultado del paso que muestra Crear alerta a partir de la selección seleccionada.](assets/fa_data_table_actions.png)
+   ![Resultado del paso que muestra la selección de Crear alerta a partir de la selección.](assets/fa_data_table_actions.png)
 
    Puede desglosar métricas por elementos de dimensión o filtros de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 

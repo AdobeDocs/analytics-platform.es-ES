@@ -7,7 +7,7 @@ exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '712'
 ht-degree: 74%
 
 ---
@@ -39,13 +39,13 @@ Para garantizar que los usuarios ejecutivos tengan acceso a sus informes de valo
 
 **Para usuarios ejecutivos con iOS:**
 
-Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics en ) **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Para usuarios ejecutivos con Android:**
 
-Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics en ) **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Customer Journey Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
@@ -74,7 +74,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
 Explique al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de resultados compartidos.
 
-![Explicar los mosaicos, incluido el intervalo de fechas, el filtro de segmentos y las métricas y dimensiones seleccionadas](assets/newexplain.png)
+![Explicar mosaicos que incluyen el intervalo de fechas, el filtro de segmentos y las métricas y dimensiones seleccionadas](assets/newexplain.png)
 
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 

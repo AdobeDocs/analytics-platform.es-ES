@@ -23,7 +23,7 @@ Cuando se coloca una dimensión en una tabla de forma libre, se devuelven filas 
 
 Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) se devuelven de forma dinámica a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
 
-Los elementos de dimensión dinámicos tienen la opción de filtro de fila y los iconos X, y **no** tenga el icono de candado presente. <!--do they have the lock icon? --> Al hacer clic en la x junto a un elemento de dimensión dinámica, se aplica automáticamente un filtro. Para obtener más información sobre la aplicación de filtros a tablas, consulte [Filtrado y ordenación de tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Los elementos de dimensión dinámicos tienen la opción de filtro de fila y los iconos X, y **no** tienen presente el icono de bloqueo. <!--do they have the lock icon? --> Al hacer clic en la x junto a un elemento de dimensión dinámica, se aplica automáticamente un filtro. Para obtener más información sobre cómo aplicar filtros a las tablas, vea [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
 ![Una tabla de forma libre que resalta el icono de filtro.](assets/dynamic-items.png)
@@ -41,7 +41,7 @@ Por ejemplo, cuando arrastra elementos específicos de Tipo de explorador como M
 
 Los elementos de dimensión estáticos **no** tienen la opción de filtro de fila. En cambio, los iconos de bloqueo y X están presentes en cada elemento. Haga clic en el icono X para eliminar ese elemento de dimensión de la tabla.
 
-![Una tabla de forma libre que muestra el tipo de explorador y la fila de Microsoft con un icono de candado. Nota: Este elemento de dimensión es estático y no cambiará con el tiempo.](assets/static-items.png)
+![Una tabla de forma libre que muestra el tipo de explorador y la fila de Microsoft con un icono de candado. Nota: este elemento de dimensión es estático y no cambiará con el tiempo.](assets/static-items.png)
 
 ## Elementos de dimensión mixtos
 

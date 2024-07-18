@@ -8,7 +8,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -28,13 +28,13 @@ Los componentes que se utilizan en el proyecto se añadirán automáticamente.
 
 La depuración también se puede aplicar desde el menú [!UICONTROL Compartir] haciendo clic en **[!UICONTROL Depurar y Compartir]**. Esta opción depura automáticamente el proyecto en los componentes que se utilizan en el proyecto. Puede agregar componentes adicionales siguiendo los pasos anteriores.
 
-![Ventana Depurar componentes que muestra los componentes que se utilizan en el proyecto.](assets/curation-field.png)
+![Ventana Depurar componentes que muestra los componentes en uso en el proyecto.](assets/curation-field.png)
 
 ## Vista de un proyecto depurado
 
 Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurado de componentes que haya definido:
 
-![Un proyecto depurado compartido que muestra los componentes que ha definido.](assets/curate-project.png)
+![Proyecto revisado compartido que muestra los componentes que ha definido.](assets/curate-project.png)
 
 ## Eliminar depuración del proyecto
 
@@ -48,7 +48,7 @@ Para eliminar la depuración del proyecto y restaurar el conjunto completo de co
 
 En un proyecto depurado, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos]** los componentes en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
 
-* El nivel de permiso del usuario (administrador o no administrador)
+* Nivel de permiso del usuario (administrador o no administrador)
 * Función del proyecto (propietario/editor o no)
 * Tipo de depuración aplicada (en el nivel de proyecto)
 

@@ -3,15 +3,15 @@ description: La previsión en Analysis Workspace utiliza una serie de técnicas 
 title: Técnicas estadísticas utilizadas en las previsiones
 feature: Visualizations
 role: User
-source-git-commit: 1bd24ee1163e4615bf5626c51aec9f167352f2f6
+exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
+source-git-commit: accd7300c2dd6224e4d154cb6e3889f564e07a1a
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-
-# Técnicas estadísticas utilizadas en el servicio de pronóstico
+# Técnicas estadísticas utilizadas en el servicio de previsión
 
 El servicio de pronóstico actualmente es compatible con Prophet y se ha demostrado que funciona de manera eficiente y confiable para la mayoría de los datos. Prophet es un paquete de pronóstico de código abierto ampliamente utilizado desarrollado por Meta. Descompone los datos en componentes de tendencias, temporadas y eventos. El modelo Profeta es eficiente y se adapta bien a muchas aplicaciones de pronóstico. Además, el modelo funciona de forma robusta contra periféricos y datos faltantes.
 
@@ -54,7 +54,6 @@ El servicio no realiza suposiciones sobre los datos de usuario. Por ejemplo, el 
 
 ## Referencias
 
-1. Taylor, Sean J. y Benjamin Letham: *Previsión a escala.* Estadístico estadounidense 72.1 (2018): 37-45.
-1. Triebe, Oskar, et al.: *Neuralprophet: Pronóstico explicable a escala.* Preimpresión arXiv arXiv:2111.15397(2021).
-1. Zhang y Arbor: *Detección de anomalías de series temporales.* Aplicación de patente estadounidense #18/057883.
-
+1. Taylor, Sean J. y Benjamin Letham: *Pronóstico a escala.* El Estadístico Estadounidense 72.1 (2018): 37-45.
+1. Triebe, Oskar, et al.: *Neuralprophet: pronóstico explicable a escala.* pre-impresión arXiv:2111.15397(2021).
+1. Zhang y Arbor: *Detección de anomalías en series de tiempo.* #18/057883 de solicitud de patente de EE. UU.

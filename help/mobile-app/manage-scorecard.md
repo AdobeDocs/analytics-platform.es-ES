@@ -66,7 +66,7 @@ Para agregar texto a una diapositiva de detalles, seleccione un diseño que mues
 
 ## Eliminación de componentes {#remove}
 
-Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, quítelo haciendo clic en **x** que aparece al pasar el ratón por encima del componente, como se muestra a continuación para la variable **Visitas por primera vez**:
+Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, quítelo haciendo clic en el **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para **Visitas por primera vez**:
 
 ![Remove_components](assets/new_remove.png)
 
@@ -157,7 +157,7 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 1. Haga clic en el menú **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Compartir informe de valoración]**.
 
-1. En el **[!UICONTROL Compartir informe de valoración móvil]** , rellene los campos de la siguiente manera:
+1. En el formulario **[!UICONTROL Compartir informe de valoración móvil]**, rellene los campos con:
 
    * Proporción del nombre del cuadro de resultados
    * Proporción de la descripción del cuadro de resultados
@@ -184,7 +184,7 @@ Para compartir un cuadro de resultados mediante un vínculo que se puede compart
 
 1. Copie el vínculo y péguelo en un correo electrónico, documento o aplicación de mensajería instantánea.
 
-   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto de cuadro de resultados móvil se abrirá en Workspace.
+   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto del cuadro de resultados móvil se abrirá en Workspace.
 
    Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abre directamente en la aplicación de paneles de Adobe Analytics.
 
@@ -214,11 +214,11 @@ Para ver subtítulos inteligentes en un cuadro de resultados móvil:
 
 1. En un cuadro de resultados, haga clic en un mosaico. Por ejemplo, en este cuadro de resultados, haga clic en el gráfico de líneas de la parte inferior.
 
-   ![Cuadro de resultados con visualización de líneas](assets/caption1.png)
+   ![Cuadro de resultados con visualización de línea](assets/caption1.png)
 
 1. Pulse el icono azul en la parte superior derecha para generar los subtítulos. Los subtítulos aparecerán debajo del gráfico de líneas.
 
-   ![Pie de ilustración inteligente en la visualización de líneas](assets/caption2.png)
+   ![Visualización inteligente de subtítulos en la línea](assets/caption2.png)
 
 1. Deslice a la derecha para ver todos los subtítulos inteligentes.
 
@@ -226,6 +226,6 @@ Para ver subtítulos inteligentes en un cuadro de resultados móvil:
 
 1. Pulse la bandera negra dentro de un pie de ilustración para informar de un problema, como contenido dañino o ilegal.
 
-   ![Informar de problemas con el pie de ilustración](assets/caption-report.png)
+   ![Notificar problema con el pie de ilustración](assets/caption-report.png)
 
-1. Haga clic en la X para salir del **[!UICONTROL Resultados del informe]** diálogo.
+1. Haga clic en la X para salir del cuadro de diálogo **[!UICONTROL Resultados del informe]**.

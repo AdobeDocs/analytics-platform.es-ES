@@ -23,7 +23,7 @@ La información de esta página cubre el paso 3 del proceso de actualización, c
 |---------|----------|
 | **Paso 1: [Introducción a la actualización](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)** | Conozca las ventajas de actualizar a Customer Journey Analytics y el proceso de actualización básico. |
 | **Paso 2: [Elija la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | Hay varios métodos disponibles para actualizar a Customer Journey Analytics. Elija el método que mejor se adapte a su organización, en función del entorno de Adobe Analytics actual de su organización y los objetivos a largo plazo. |
-| <span class="preview">**Paso 3: Enviar datos a Adobe Experience Platform**</span> | <span class="preview">El proceso de envío de datos a Adobe Experience Platform difiere según la ruta de actualización elegida en el paso 2.</span> |
+| <span class="preview">**Paso 3: Enviar datos a Adobe Experience Platform**</span> | <span class="preview">El proceso de envío de datos a Adobe Experience Platform varía según la ruta de actualización elegida en el paso 2.</span> |
 | **Paso 4: [Conservar los datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | La mayoría de las organizaciones necesitan conservar sus datos históricos de Adobe Analytics durante un periodo de tiempo determinado. Hay varias opciones disponibles para hacerlo. |
 | **Paso 5: [Realizar tareas de implementación adicionales](/help/getting-started/cja-getting-started.md)** | En este punto del proceso de actualización, debe realizar varias tareas antes de que el entorno del Customer Journey Analytics esté listo para su uso.<p>Estas tareas adicionales se aplican a las actualizaciones desde Adobe Analytics, así como a las nuevas implementaciones de Customer Journey Analytics.</p><p>Esta tareas son:</p><ul><li>Incorporación de datos a Experience Platform</li><li>Creación de conexiones entre conjuntos de datos de Platform y Customer Journey Analytics</li><li>Creación de vistas de datos </li><li>Transferencia del uso de API de informes</li><li>Contabilidad de fuentes de datos y Data Warehouse</li><li>Migración de proyectos y componentes</li><li>Planificación de la incorporación del usuario</li></ul> <p>Para obtener más información, consulte [Introducción a Customer Journey Analytics](/help/getting-started/cja-getting-started.md). |
 
@@ -32,7 +32,7 @@ La información de esta página cubre el paso 3 del proceso de actualización, c
 +++
 
 
-Después de usted [elija la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md) para que esto sea lo mejor para su organización, puede empezar a enviar datos a Adobe Experience Platform para que estén disponibles en Customer Journey Analytics.
+Después de [elegir la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md) que sea mejor para su organización, puede empezar a enviar datos a Adobe Experience Platform para que estén disponibles en Customer Journey Analytics.
 
 A continuación, se muestra el proceso para enviar datos al Experience Platform para cada ruta de actualización. Siga los vínculos de la tabla para obtener información detallada sobre la configuración.
 

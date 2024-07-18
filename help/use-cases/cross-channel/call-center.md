@@ -45,11 +45,11 @@ Al importar datos en Platform, estas sugerencias pueden ayudar a aumentar la per
 El Customer Journey Analytics requiere un identificador común para generar un [conjunto de datos combinado](/help/connections/combined-dataset.md).
 
 * Si los conjuntos de datos ya tienen un identificador común en cada evento de ambos conjuntos de datos, puede omitir este paso y continuar con la creación de una conexión.
-* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede vincular los datos mediante [Vinculación](/help/stitching/overview.md) para ver los pasos que permiten el análisis en canales múltiples para estos dos conjuntos de datos.
+* Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos mediante [Vinculación](/help/stitching/overview.md) para ver los pasos que permiten el análisis en canales múltiples para estos dos conjuntos de datos.
 
 ## Crear una conexión en Customer Journey Analytics
 
-[Crear una conexión](/help/connections/create-connection.md) en Customer Journey Analytics.
+[Crear una conexión](/help/connections/create-connection.md) en el Customer Journey Analytics.
 
 * Si se utiliza AEC, encontrará un nuevo conjunto de datos vinculado disponible para el uso. Utilice el campo de ID de vinculación recién creado como ID de persona.
 * De lo contrario, puede seleccionar los conjuntos de datos originales del sitio web y el centro de llamadas para utilizarlos en la conexión.

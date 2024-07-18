@@ -14,18 +14,18 @@ ht-degree: 61%
 
 # Uso de dimensiones de canal de marketing en Adobe Experience Platform
 
-Si su organización utiliza el [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) para llevar los datos del grupo de informes a Customer Journey Analytics, puede configurar una conexión en Customer Journey Analytics para informar sobre las dimensiones del canal de marketing.
+Si su organización utiliza el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) para llevar los datos del grupo de informes a Customer Journey Analytics, puede configurar una conexión en Customer Journey Analytics para informar sobre las dimensiones del canal de marketing.
 
 ## Requisitos previos
 
-* Los datos del grupo de informes ya deben estar importados en Adobe Experience Platform mediante [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). No se admiten otras fuentes de datos, ya que los canales de marketing dependen de las reglas de procesamiento de un grupo de informes de Analytics.
-* Las reglas de procesamiento de canal de marketing ya deben estar configuradas. Consulte [Reglas de procesamiento de canales de marketing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html) en la guía Componentes de Adobe Analytics.
+* Los datos del grupo de informes ya deben estar importados en Adobe Experience Platform usando el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). No se admiten otras fuentes de datos, ya que los canales de marketing dependen de las reglas de procesamiento de un grupo de informes de Analytics.
+* Las reglas de procesamiento de canal de marketing ya deben estar configuradas. Consulte [Reglas de procesamiento para canales de marketing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=es) en la guía Componentes de Adobe Analytics.
 
 ## Elementos de esquema de canal de marketing
 
 Una vez que haya establecido el conector de origen de Analytics en un grupo de informes deseado, se creará un esquema XDM. Este esquema contiene todas las dimensiones y métricas de Analytics como datos sin procesar. Estos datos sin procesar no contienen atribución ni persistencia. En su lugar, cada evento se ejecuta mediante reglas de procesamiento de canal de marketing y registra la primera regla que coincide. Especifique la atribución y la persistencia al crear una vista de datos en Customer Journey Analytics.
 
-1. [Crear una conexión](/help/connections/create-connection.md) que incluye un conjunto de datos basado en el conector de origen de Analytics.
+1. [Cree una conexión](/help/connections/create-connection.md) que incluya un conjunto de datos basado en el conector de origen de Analytics.
 2. [Cree una vista de datos](/help/data-views/create-dataview.md) que incluya las siguientes dimensiones:
    * **`channel.typeAtSource`**: equivalente a la dimensión [Canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=es).
    * **`channel._id`**: equivalente a los [Detalles de canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html?lang=es)
@@ -36,7 +36,7 @@ Sus dimensiones de canal de marketing ya están disponibles para su uso en Analy
 
 >[!NOTE]
 >
-> El conector de origen de Analytics requiere que ambos `channel.typeAtSource` (Canal de marketing) y `channel._id` (Detalles del canal de marketing); de lo contrario, ninguno de los dos se transferirá a ExperienceEvent en XDM. Si el Detalle del canal de marketing está vacío en el grupo de informes de origen, el resultado es un en blanco `channel._id` y el conector de origen de Analytics dejará en blanco `channel.typeAtSource` y también. Esto puede provocar diferencias en la creación de informes entre Adobe Analytics y Customer Journey Analytics.
+> El conector de origen de Analytics requiere que `channel.typeAtSource` (canal de marketing) y `channel._id` (detalle del canal de marketing) se rellenen; de lo contrario, ninguno de los dos se transferirá a ExperienceEvent en XDM. Si el Detalle del canal de marketing está en blanco en el grupo de informes de origen, el resultado es un `channel._id` en blanco y el conector de origen de Analytics también dejará en blanco a `channel.typeAtSource`. Esto puede provocar diferencias en la creación de informes entre Adobe Analytics y Customer Journey Analytics.
 
 ## Diferencias de procesamiento y arquitectura
 
@@ -55,12 +55,12 @@ La configuración del canal de marketing funciona de forma diferente entre los d
   ![Es la primera página de la visita](../assets/first-page-of-visit.png)
 
 * **Anular canal de último contacto**: esta configuración del Administrador de canal de marketing normalmente impide que determinados canales obtengan crédito de canal de último contacto. Platform ignora esta configuración, lo que permite que canales generales como Directo o Interno atribuyan métricas de formas potencialmente no deseadas. Adobe recomienda eliminar canales en los que tenga la opción Anular canal de último contacto desactivada.
-   * Puede eliminar el canal de marketing Directo en el Administrador de canales de marketing y, a continuación, basarse en el elemento de dimensión Sin valor del Customer Journey Analytics para ese canal. También puede cambiar el nombre de este elemento de dimensión a Directo o excluir por completo el elemento de dimensión al configurar una vista de datos.
+   * Puede eliminar el canal de marketing Directo en el Administrador de canales de marketing y, a continuación, basarse en el elemento de dimensión Sin valor de Customer Journey Analytics para ese canal. También puede cambiar el nombre de este elemento de dimensión a Directo o excluir por completo el elemento de dimensión al configurar una vista de datos.
    * También puede crear una clasificación de canal de marketing que clasifique cada valor en sí mismo excepto para los canales que desee excluir en Customer Journey Analytics. A continuación, puede utilizar esta dimensión de clasificación al crear una vista de datos en lugar de `channel.typeAtSource`.
 
   ![Anular canal de último toque](../assets/override-last-touch-channel.png)
 
-* **Caducidad de canal de marketing**: esta configuración del período de participación determina el período de inactividad antes de que una persona pueda obtener un nuevo canal de primer contacto en los datos del grupo de informes. Platform utiliza su propia configuración de atribución, por lo que esta configuración se ignora por completo en Customer Journey Analytics.
+* **Caducidad de canal de mercadotecnia**: esta configuración del período de participación determina el período de inactividad antes de que una persona pueda obtener un nuevo canal de primer contacto en los datos del grupo de informes. Platform utiliza su propia configuración de atribución, por lo que esta configuración se ignora por completo en Customer Journey Analytics.
 
   ![Caducidad del canal de marketing](../assets/marketing-channel-expiration.png)
 

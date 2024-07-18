@@ -24,11 +24,11 @@ La siguiente información enseña a los depuradores de datos de los Customer Jou
 
 Un cuadro de resultados de Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
 
-![Ejemplo de informe de valoración de Analytics que muestra la demostración de informe de valoración móvil](assets/intro_scorecard.png)
+![Ejemplo de informe de valoración de Analytics que muestra la demostración del informe de valoración móvil](assets/intro_scorecard.png)
 
 Como gestor de datos del cuadro de resultados, puede utilizar el generador del cuadro de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. A continuación, se muestra la interfaz del generador de cuadros de resultados:
 
-![Generador de cuadros de resultados que muestra la nueva ventana del cuadro de resultados móvil. ](assets/scorecard_builder.png)
+![Generador de cuadro de resultados que muestra la nueva ventana de cuadro de resultados móvil. ](assets/scorecard_builder.png)
 
 Para crear el informe de valoración, debe hacer lo siguiente:
 
@@ -41,11 +41,11 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 
 ### Creación de un nuevo proyecto {#create}
 
-1. Abra el Customer Journey Analytics y haga clic en **[!UICONTROL Workspace]** pestaña.
+1. Abra el Customer Journey Analytics y haga clic en la ficha **[!UICONTROL Workspace]**.
 1. Haga clic en **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL Informe de valoración móvil en blanco]**.
 1. Haga clic en **[!UICONTROL Crear]**.
 
-![Ventana Todas las plantillas con el informe de valoración móvil en blanco seleccionado.](assets/new_template.png)
+![Ventana de todas las plantillas con el informe de valoración móvil en blanco seleccionado.](assets/new_template.png)
 
 ### Menú Herramientas
 
@@ -58,11 +58,11 @@ Para implementar la plantilla del informe de valoración:
 
 1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique una **[!UICONTROL Vista de datos de proyecto]**, cuyos datos quiera utilizar.
 
-   ![Nueva ventana del cuadro de resultados móvil que resalta la selección de vista de datos](assets/properties_save.png)
+   ![Nueva ventana de cuadro de resultados móvil que resalta la selección de vista de datos](assets/properties_save.png)
 
-1. Para agregar un nuevo mosaico al cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en el **[!UICONTROL Arrastre y suelte las métricas aquí]** zona. También puede insertar una métrica entre dos mosaicos del mismo modo.
+1. Para agregar un nuevo mosaico al cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
-   ![Nueva ventana Cuadro de mandos móvil con una flecha que señala a una métrica (Nuevo KPI) colocada en el cuadro de mandos. ](assets/build_list.png)
+   ![Nueva ventana de cuadro de resultados móvil con una flecha que señala a una métrica (Nuevo KPI) colocada en el cuadro de resultados. ](assets/build_list.png)
 
 
 1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
@@ -73,13 +73,13 @@ Para agregar una dimensión relacionada a una métrica, arrastre una dimensión 
 
 Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico. Los desgloses de dimensiones aparecen en la sección [!UICONTROL Profundizar en] (desglose) de las **[!UICONTROL Propiedades]** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
 
-![Nueva ventana del cuadro de resultados móvil con una flecha que señala desde la lista de dimensiones al panel Cuadro de resultados.](assets/layer_dimensions.png)
+![Nueva ventana del cuadro de resultados móvil con una flecha que señala desde la lista de dimensiones al panel del cuadro de resultados.](assets/layer_dimensions.png)
 
 ## Aplicar filtros {#filters}
 
 Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en Customer Journey Analytics) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Usted [configuración y aplicación de filtros para los cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que en Customer Journey Analytics Workspace.
+Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Usted [configura y aplica filtros para sus cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la misma manera que lo haría en Customer Journey Analytics Workspace.
 
 ![Selector desplegable de filtro que resalta los filtros de compilación](assets/segment_ui.png)
 
@@ -87,7 +87,7 @@ Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte
 
 Añada y quite combinaciones de intervalos de fechas que se puedan seleccionar en el cuadro de resultados seleccionando la lista desplegable de intervalo de fechas.
 
-![Nuevo informe de valoración móvil que destaca Ayer frente al mismo día de la semana pasada](assets/new_score_card.png)
+![Nuevo cuadro de resultados móvil que resalta ayer frente a mismo día de la semana pasada](assets/new_score_card.png)
 
 Cada nuevo cuadro de resultados comienza con 6 combinaciones de intervalo de fechas que se centran en los datos de hoy y ayer. Puede quitar intervalos de fechas innecesarios haciendo clic en la x o puede editar cada combinación de intervalos de fechas haciendo clic en el lápiz.
 
@@ -95,11 +95,11 @@ Cada nuevo cuadro de resultados comienza con 6 combinaciones de intervalo de fec
 
 Para crear o cambiar una fecha principal, utilice la lista desplegable para seleccionar entre intervalos de fechas disponibles o arrastre y suelte un componente de fecha del carril derecho en la zona de colocación.
 
-![Nuevo cuadro de resultados móvil que resalta los intervalos de fechas con la opción Fecha principal/Ayer seleccionada](assets/new_score_card3.png)
+![Nuevo cuadro de resultados móvil que resalta los intervalos de fechas con la fecha principal/ayer seleccionada](assets/new_score_card3.png)
 
 Para crear una fecha de comparación, puede seleccionar entre cómodos preconjuntos para comparaciones de tiempo comunes en el menú desplegable. También puede arrastrar y soltar un componente de fecha desde el carril derecho.
 
-![Nuevo informe de valoración móvil que resalta los intervalos de fechas con la opción Fecha de comparación establecida en Mismo día la semana pasada seleccionada](assets/new_score_card4.png)
+![Nuevo cuadro de resultados móvil que resalta los intervalos de fechas con la fecha de comparación establecida en Mismo día la semana pasada seleccionada](assets/new_score_card4.png)
 
 Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo haciendo clic en el icono de calendario.
 
@@ -111,11 +111,11 @@ Esto le llevará al generador de intervalos de fechas, donde puede crear y guard
 
 Para incluir intervalos de fechas de comparación, cambie la configuración de **Incluir fechas de comparación**.
 
-![Nuevo informe de valoración móvil que destaca Ayer frente al día anterior e Incluye fechas de comparación](assets/include-comparison-dates.png)
+![Nuevo cuadro de resultados móvil que resalta el día de ayer frente al día anterior e incluye fechas de comparación](assets/include-comparison-dates.png)
 
 La configuración está *activa* de forma predeterminada. Cambie a *desactivado* si no desea ver las fechas de comparación.
 
-![Nuevo informe de valoración móvil que destaca Ayer e Incluye fechas de comparación](assets/no-comparison-dates.png)
+![Nuevo cuadro de resultados móvil que resalta ayer e incluye fechas de comparación](assets/no-comparison-dates.png)
 
 ## Aplicación de visualizaciones {#viz}
 
@@ -131,25 +131,25 @@ O bien, haga clic en el botón [!UICONTROL Visualizaciones] en el carril izquier
 
 Utilice la visualización Número de resumen para resaltar un número elevado que es importante en un proyecto.
 
-![Nuevo informe de valoración móvil con visualización de número de resumen en la que se destacan 13.300 visitas](assets/summary-number.png)
+![Nuevo cuadro de resultados móvil con visualización de número de resumen que resalta 13.300 visitas](assets/summary-number.png)
 
 ### [!UICONTROL Anillo]
 
 Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de personas únicas:
 
-![Nuevo cuadro de resultados móvil que muestra una visualización Anillo](assets/donut-viz.png)
+![Nueva tarjeta de puntuación móvil que muestra una visualización de anillos](assets/donut-viz.png)
 
 ### [!UICONTROL Líneas]
 
 La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas muestra las dimensiones a lo largo del tiempo, pero funciona con cualquier visualización. En este ejemplo se visualiza la dimensión de la categoría del producto.
 
-![Nuevo cuadro de resultados móvil con una visualización de Línea](assets/line.png)
+![Nueva tarjeta de puntuación móvil que muestra una visualización de línea](assets/line.png)
 
 ### [!UICONTROL Barra horizontal]
 
 Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas. Por ejemplo, para ver fácilmente cuáles son sus productos principales, utilice las [!UICONTROL Barras horizontales] para su visualización preferida.
 
-![Nuevo cuadro de resultados móvil con una barra horizontal](assets/horizontal.png)
+![Nuevo cuadro de resultados móvil que muestra una barra horizontal](assets/horizontal.png)
 
 ## Nombrar cuadros de resultados {#name}
 
@@ -218,7 +218,7 @@ Para agregar texto a una diapositiva de detalles, seleccione un diseño que mues
 
 ## Eliminación de componentes {#remove}
 
-Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, quítelo haciendo clic en **x** que aparece al pasar el ratón por encima del componente, como se muestra a continuación para la variable **Visitas por primera vez**:
+Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, quítelo haciendo clic en el **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para **Visitas por primera vez**:
 
 ![Remove_components](assets/new_remove.png)
 
@@ -309,7 +309,7 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 1. Haga clic en el menú **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Compartir informe de valoración]**.
 
-1. En el **[!UICONTROL Compartir informe de valoración móvil]** , rellene los campos de la siguiente manera:
+1. En el formulario **[!UICONTROL Compartir informe de valoración móvil]**, rellene los campos con:
 
    * Proporción del nombre del cuadro de resultados
    * Proporción de la descripción del cuadro de resultados
@@ -336,7 +336,7 @@ Para compartir un cuadro de resultados mediante un vínculo que se puede compart
 
 1. Copie el vínculo y péguelo en un correo electrónico, documento o aplicación de mensajería instantánea.
 
-   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto de cuadro de resultados móvil se abrirá en Workspace.
+   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto del cuadro de resultados móvil se abrirá en Workspace.
 
    Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abre directamente en la aplicación de paneles de Adobe Analytics.
 

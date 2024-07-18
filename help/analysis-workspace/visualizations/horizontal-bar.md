@@ -23,8 +23,8 @@ Esta visualización muestra las barras horizontales que representan los distinto
 
 Esta visualización es similar al [!UICONTROL gráfico de barras horizontales], pero las barras de series aparecen apiladas.
 
-![Barra horizontal apilada que muestra Vistas de página, Visitas, Entradas y Salidas.](assets/horizontal-bar-stacked.png)
+![Barra horizontal apilada que muestra vistas de página, visitas, entradas y salidas.](assets/horizontal-bar-stacked.png)
 
 Una nueva configuración en las visualizaciones de [!UICONTROL barras apiladas horizontales] convierte el gráfico en una visualización apilada al 100%:
 
-![Barra horizontal apilada al 100 % que muestra visitas, vistas de página y visitantes únicos.](assets/horizstacked100.png)
+![Barra horizontal apilada al 100% que muestra visitas, vistas de páginas y visitantes únicos.](assets/horizstacked100.png)

@@ -1,6 +1,6 @@
 ---
-title: Ingesta de datos mediante la API del servidor de red perimetral de Adobe Experience Platform
-description: Explique cómo introducir datos en Customer Journey Analytics a través de la API del servidor de red perimetral de Adobe Experience Platform y la red perimetral
+title: Ingesta de datos mediante la API de Adobe Experience Platform Edge Network Server
+description: Explique cómo introducir datos en Customer Journey Analytics mediante la API de Adobe Experience Platform Edge Network Server y el Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
@@ -12,9 +12,9 @@ ht-degree: 59%
 
 ---
 
-# Ingesta de datos mediante la API del servidor de red perimetral de Adobe Experience Platform
+# Ingesta de datos mediante la API de Adobe Experience Platform Edge Network Server
 
-En esta guía de inicio rápido se explica cómo puede ingerir datos de seguimiento de dispositivos como dispositivos IoT, descodificadores, consolas de juegos y aplicaciones de escritorio directamente en Adobe Experience Platform mediante la API de servidor de red perimetral de Adobe Experience Platform y Edge Network. A continuación, utilice esos datos en Customer Journey Analytics.
+En esta guía de inicio rápido se explica cómo puede ingerir datos de seguimiento de dispositivos como dispositivos IoT, descodificadores, consolas de juegos y aplicaciones de escritorio directamente en Adobe Experience Platform mediante la API de Adobe Experience Platform Edge Network Server y Edge Network. A continuación, utilice esos datos en Customer Journey Analytics.
 
 Para lograr esto, debe:
 
@@ -22,7 +22,7 @@ Para lograr esto, debe:
 
 - **Configurar una secuencia de datos** para configurar Adobe Experience Platform Edge Network con el fin de enrutar los datos recopilados al conjunto de datos configurado en Adobe Experience Platform.
 
-- **Usar API de servidor** para enviar datos directamente desde la aplicación o el juego que se ejecuta en un equipo de escritorio, una consola de juegos, un dispositivo IoT o un decodificador al conjunto de datos.
+- **Use la API de servidor** para enviar datos directamente desde su aplicación o juego que se ejecuta en un escritorio, consola de juegos, dispositivo IoT o decodificador a su secuencia de datos.
 
 - **Implementar y validar**. Contar con un entorno en el que pueda iterar en el desarrollo y, una vez validado todo, publicarlo en directo en el entorno de producción.
 
@@ -54,23 +54,24 @@ Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccionar **[!UICONTROL Crear esquema]**. .
+1. Seleccione **[!UICONTROL Crear esquema]**.
+.
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
-   1. Seleccionar **[!UICONTROL Evento de experiencia]**.
+   1. Seleccione **[!UICONTROL Evento de experiencia]**.
 
       ![Creación de un esquema](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    Se utiliza un esquema de Evento de experiencia para modelar el _comportamiento_ de un perfil (como nombre de la escena, botón para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se usa un esquema de Experience Event para modelar el _comportamiento_ de un perfil (como el nombre de la escena, el botón secundario para agregar al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
 
-1. En el [!UICONTROL Nombre y paso de revisión] de la [!UICONTROL Crear esquema] asistente:
+1. En el [!UICONTROL paso Nombre y revisión] del asistente [!UICONTROL Crear esquema]:
 
-   1. Introduzca una **[!UICONTROL Nombre para mostrar del esquema]** para su esquema y (opcional) un **[!UICONTROL Descripción]**.
+   1. Escriba un **[!UICONTROL nombre para mostrar en el esquema]** y (opcional) una **[!UICONTROL Descripción]**.
 
       ![Asignar un nombre al esquema](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -84,27 +85,27 @@ Para configurar el esquema:
 
       Los grupos de campos son colecciones reutilizables de objetos y atributos que le permiten ampliar fácilmente su esquema.
 
-   1. En el [!UICONTROL Adición de campos y grupos] , seleccione la **[!UICONTROL Luz cegadora]** de la lista. Este grupo de campos se crea para rastrear el progreso del usuario al jugar un juego ficticio titulado Blinding Light on a console.
+   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos], seleccione el grupo de campos **[!UICONTROL Luz de ceguera]** de la lista. Este grupo de campos se crea para rastrear el progreso del usuario al jugar un juego ficticio titulado Blinding Light on a console.
 
       ![grupo de campos Luz cegadora](assets/schema-fieldgroup-blindinglight.png)
 
       Puede seleccionar el botón de vista previa para ver una vista previa de los campos que forman parte de este grupo de campos, como `scores > afterMatch`.
 
-      ![Previsualización del grupo de campos Luz cegadora](assets/schema-fieldgroup-blindinglight-preview.png)
+      ![Vista previa del grupo de campos Luz cegadora](assets/schema-fieldgroup-blindinglight-preview.png)
 
       Seleccione **[!UICONTROL Atrás]** para cerrar la vista previa.
 
    1. Seleccione **[!UICONTROL Agregar grupos de campos]**.
 
-1. Seleccionar **[!UICONTROL +]** junto al nombre del esquema.
+1. Seleccione **[!UICONTROL +]** junto al nombre del esquema.
 
    ![Ejemplo de botón para agregar campo de esquema](./assets/example-gamingschema-plus.png)
 
-1. En el [!UICONTROL Propiedades del campo] panel, entrar `identification` como el [!UICONTROL Nombre de campo], **[!UICONTROL Identificación]** como el [!UICONTROL Nombre para mostrar], seleccione **[!UICONTROL Objeto]** como el [!UICONTROL Tipo] y seleccione **[!UICONTROL ExperienceEvent Core v2.1]** como el [!UICONTROL Grupo de campos].
+1. En el panel [!UICONTROL Propiedades del campo], escriba `identification` como [!UICONTROL Nombre del campo], **[!UICONTROL Identificación]** como [!UICONTROL Nombre para mostrar], seleccione **[!UICONTROL Objeto]** como [!UICONTROL Tipo] y seleccione **[!UICONTROL ExperienceEvent Core v2.1]** como [!UICONTROL Grupo de campos].
 
    >[!NOTE]
    >
-   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [crear un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) y [añadir nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (like `ecid`, `crmId`y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
+   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [cree un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) y [agregue nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (como `ecid`, `crmId` y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
 
    ![Objeto de identificación](./assets/identification-field-gaming.png)
 
@@ -200,7 +201,7 @@ Consulte [Guía de la interfaz de usuario de conjuntos de datos](https://experie
 
 ## Configurar una secuencia de datos
 
-Un conjunto de datos representa la configuración del lado del servidor al implementar los SDK web y móvil de Adobe Experience Platform y la API del servidor de red perimetral de Adobe Experience Platform. Al recopilar datos con los SDK de Adobe Experience Platform y las API del servidor de red perimetral, los datos se envían a Adobe Experience Platform Edge Network. Es la secuencia de datos la que determina a qué servicios se reenvían los datos.
+Un conjunto de datos representa la configuración del lado del servidor al implementar los SDK web y móvil de Adobe Experience Platform y la API de servidor de Adobe Experience Platform Edge Network. Al recopilar datos con los SDK de Adobe Experience Platform y las API del servidor de Edge Network, los datos se envían al Edge Network de Adobe Experience Platform. Es la secuencia de datos la que determina a qué servicios se reenvían los datos.
 
 En su configuración, desea que los datos que recopila del juego se envíen a su conjunto de datos en Adobe Experience Platform.
 
@@ -234,9 +235,9 @@ La secuencia de datos ahora está configurada para reenviar los datos recopilado
 
 Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
 
-## Usar la API del servidor de red perimetral
+## Usar la API de Edge Network Server
 
-En el desarrollo del juego, puede agregar llamadas relevantes a la API del servidor de red perimetral de Adobe Experience Platform cuando corresponda.
+En el desarrollo del juego, puede agregar llamadas relevantes a la API de Adobe Experience Platform Edge Network Server cuando corresponda.
 
 Por ejemplo, para actualizar la puntuación del reproductor, utilizaría:
 
@@ -269,9 +270,9 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 }'
 ```
 
-En la solicitud del POST de ejemplo, `{DATASTREAM_ID}` apunta al identificador de la secuencia de datos de ejemplo que configuró anteriormente. `{sandbox}` es el nombre único de la zona protegida que identifica la ruta al grupo de campos Luz cegadora personalizado.
+En la solicitud del POST de ejemplo, `{DATASTREAM_ID}` señala al identificador de la secuencia de datos de ejemplo que configuró anteriormente. `{sandbox}` es el nombre único de su zona protegida que identifica la ruta al grupo de campos Luz cegadora personalizada.
 
-Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) para obtener más información acerca de cómo utilizar la API del servidor de red perimetral.
+Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) para obtener más información sobre cómo usar la API de Edge Network Server.
 
 ## Configurar una conexión
 
@@ -374,10 +375,10 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel].
+5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel].
 
 Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y compilar su análisis mediante componentes, visualizaciones y paneles.
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Comience por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform. Ha configurado una secuencia de datos en la red perimetral para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, utilizó la API del servidor de red perimetral para enviar esos datos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos del juego y otros datos. Su definición de vista de datos le permitió especificar qué dimensión y métricas utilizar y, finalmente, creó su primer proyecto visualizando y analizando los datos del juego.
+>Ha completado todos los pasos. Comience por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform. Ha configurado una secuencia de datos en el Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, utilizó la API de Edge Network Server para enviar esos datos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos del juego y otros datos. Su definición de vista de datos le permitió especificar qué dimensión y métricas utilizar y, finalmente, creó su primer proyecto visualizando y analizando los datos del juego.

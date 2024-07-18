@@ -47,7 +47,7 @@ Esta visualización se comporta de las siguientes maneras:
 * Si se selecciona la columna, se compara el primer valor consigo mismo, lo que da como resultado un cambio de 0.
 
 
-![Visualización de cambio de resumen que muestra el delta entre dos números.](assets/summary-change.png)
+![Visualización de cambio de resumen que muestra el delta entre dos números.s](assets/summary-change.png)
 
 
 Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Cambio de resumen:

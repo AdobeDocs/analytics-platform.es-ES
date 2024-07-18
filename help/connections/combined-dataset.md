@@ -17,7 +17,7 @@ ht-degree: 35%
 
 Al crear una conexión, Customer Journey Analytics combina todos los conjuntos de datos de evento en un único conjunto de datos. Este conjunto de datos de evento combinado es lo que utiliza el Customer Journey Analytics para el sistema de informes (junto con los conjuntos de datos de búsqueda y perfil). Cuando se incluyen varios conjuntos de datos de evento en una conexión:
 
-* Los datos de los campos en conjuntos de datos basados en el **misma ruta de esquema** se combinan en una sola columna en el conjunto de datos combinado.
+* Los datos de los campos de los conjuntos de datos basados en **la misma ruta de esquema** se combinan en una sola columna del conjunto de datos combinado.
 * La columna ID de persona, especificada para cada conjunto de datos, se combina en una sola columna del conjunto de datos combinado, **independientemente de su nombre**. Esta columna es la base de la identificación de personas únicas en Customer Journey Analytics.
 * Las filas se procesan según la marca de tiempo.
 * Los eventos se resuelven en el nivel de milisegundos.
@@ -64,7 +64,7 @@ el siguiente conjunto de datos combinado se utiliza para el sistema de informes.
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primero, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos de la ruta de esquema  `_experience.somethingelse.string_color`. En esta situación, los datos son **no** se combina en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado es dos `string_color` columnas en el conjunto de datos combinado.
+Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primer conjunto de datos, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos en la ruta de esquema `_experience.somethingelse.string_color`. En este escenario, los datos **no** se combinaron en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado son dos columnas `string_color` en el conjunto de datos combinado.
 
 Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila. Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un plazo de 30 minutos, se considerarán parte de la misma sesión. Se combinan campos con rutas de esquema idénticas.
 
@@ -88,7 +88,7 @@ Sin embargo, si ha incluido ambas tablas en la conexión, la atribución cambia 
 
 >[!NOTE]
 >
->Si un campo combinado es una clave de búsqueda para un conjunto de datos de evento de la conexión, el conjunto de datos de búsqueda asociado se enriquecerá **todo** valores de ese campo. No importa de qué conjunto de datos de evento proviene una fila, ya que la relación de búsqueda está asociada a la ruta de esquema compartida.
+>Si un campo combinado es una clave de búsqueda para un conjunto de datos de evento de la conexión, el conjunto de datos de búsqueda asociado enriquecerá **todos** los valores de ese campo. No importa de qué conjunto de datos de evento proviene una fila, ya que la relación de búsqueda está asociada a la ruta de esquema compartida.
 
 ## Análisis en canales múltiples
 

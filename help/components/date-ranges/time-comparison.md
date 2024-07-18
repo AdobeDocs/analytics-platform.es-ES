@@ -22,7 +22,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 1. Cree una tabla de forma libre con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
 1. Haga clic con el botón secundario en una fila de la tabla y seleccione **[!UICONTROL Comparar periodos de tiempo]**.
 
-   ![Fila de tabla con la opción Comparar periodos de tiempo seleccionada](assets/compare-time.png)
+   ![Fila de tabla con periodos de tiempo de comparación seleccionados](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
@@ -48,7 +48,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
 1. (Opcional) Como en cualquier otro proyecto de Workspace, puede crear visualizaciones basadas en estas comparaciones de tiempo. Por ejemplo, aquí tiene un gráfico de barras:
 
-   ![Gráfico de barras del proyecto de Workspace.](assets/compare-time-barchart.png)
+   ![Gráfico de barras del proyecto Workspace.](assets/compare-time-barchart.png)
 
    Fíjese en que, para mostrar el cambio porcentual en el gráfico de barras, debe tener marcado el ajuste [!UICONTROL Porcentajes] en la [!UICONTROL Configuración de visualización].
 
@@ -56,7 +56,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
 Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que permite agregar un periodo diferente al periodo en que está establecido el calendario. Esta es otra manera de comparar fechas.
 
-1. Haga clic con el botón derecho en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de período de tiempo]** ![Lista de columnas de la tabla con la columna Agregar período de tiempo resaltada ](assets/add-time-period-column.png)
+1. Haga clic con el botón derecho en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de período de tiempo]** ![Lista de columnas de la tabla con Agregar columna de período de tiempo resaltada ](assets/add-time-period-column.png)
 
 1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
 
@@ -72,11 +72,11 @@ Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que per
 
 1. El periodo de tiempo se insertará en la parte superior de la columna seleccionada:
 
-   ![Tabla de forma libre que muestra las ocurrencias para el periodo del calendario actual y el mes natural anterior.](assets/add-time-period-column2.png)
+   ![Tabla de forma libre que muestra ocurrencias para el período de calendario actual y el mes anterior.](assets/add-time-period-column2.png)
 
 1. Puede agregar todas las columnas de tiempo que desee, así como combinar a voluntad distintos intervalos de fechas:
 
-   ![Tabla de forma libre que muestra las ocurrencias de este mes, del mes anterior, del mes anterior hace un año y de una semana del mes anterior hace un año.](assets/add-time-period-column4.png)
+   ![Tabla de forma libre que muestra las ocurrencias de este mes, mes anterior, mes anterior hace un año y una semana del mes anterior hace un año.](assets/add-time-period-column4.png)
 
 1. Además, puede ordenar en función de cualquier columna, lo que cambiará el orden de los días, dependiendo de la columna elegida.
 
@@ -84,7 +84,7 @@ Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que per
 
 Un nuevo ajuste para todas las tablas le permite **[!UICONTROL Alinear fechas de cada columna para que todas empiecen en la misma fila (se aplica a toda la tabla)]**. “Se aplica a toda la tabla” significa que si, por ejemplo, realiza un desglose en la tabla y cambia este ajuste para el desglose, cambiará el ajuste en la tabla entera.
 
-![La ventana emergente Tabla de forma libre con Configuración de tabla muestra Alinear fechas de cada columna para que todas empiecen en la misma fila seleccionada.](assets/date-comparison-setting.png)
+![Ventana emergente de tabla de forma libre con configuración de tabla que muestra Alinear fechas de cada columna para que todas empiecen en la misma fila seleccionada.](assets/date-comparison-setting.png)
 
 >[!IMPORTANT]
 >

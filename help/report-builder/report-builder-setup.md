@@ -72,11 +72,11 @@ Para descargar e instalar el complemento de Report Builder
 
 Póngase en contacto con su equipo de TI o de seguridad para solicitar la aprobación del complemento de Report Builder. Una vez concedida la aprobación, en el cuadro de diálogo Complementos de Office, seleccione la pestaña Administración administrada.
 
-![La pestaña Administración administrada del cuadro de diálogo Complementos de Office.](./assets/image1.png)
+![La ficha Administración administrada del cuadro de diálogo Complementos de Office.](./assets/image1.png)
 
 Después de instalar el complemento de Report Builder, el icono de Report Builder se muestra en la cinta de Excel debajo de la pestaña Inicio.
 
-![El icono Report Builder en Excel](./assets/rb_app_icon.png)
+![El Report Builder de Excel](./assets/rb_app_icon.png)
 
 ## Inicio de sesión en Report Builder
 
@@ -104,7 +104,7 @@ La primera vez que inicie sesión, iniciará sesión en la organización predete
 
 1. Seleccione una organización de la lista de organizaciones disponibles. Solo aparecen en la lista las organizaciones a las que tiene acceso.
 
-   ![La lista de organizaciones a las que puede acceder.](./assets/image5.png)
+   ![Lista de organizaciones a las que puede tener acceso.](./assets/image5.png)
 
 ## Cerrar sesión
 

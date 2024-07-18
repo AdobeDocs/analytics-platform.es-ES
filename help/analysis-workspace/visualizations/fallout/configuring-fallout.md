@@ -19,7 +19,7 @@ Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es po
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
-Puede realizar el control de rutas en las eVars, incluidas las eVars de comercialización y [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) (variables que pueden tener varios valores por evento, como products, listVars, eVars de comercialización y props de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede realizar el control de rutas en eVars, incluidas las eVars de comercialización y [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) (variables que pueden tener varios valores por evento, como products, listVars, eVars de comercialización y props de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
@@ -41,11 +41,11 @@ Puede realizar el control de rutas en las eVars, incluidas las eVars de comercia
    >
    >Los filtros se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
 
-   ![Los puntos de contacto Página: CamerRoll o Página: Camera están resaltados.](assets/multiple_obj_touchpoint.png)
+   ![Página:CamerRoll o Página: puntos de contacto de la cámara resaltados.](assets/multiple_obj_touchpoint.png)
 
-1. También puede **constreñir puntos de contacto individuales al siguiente evento** (en contraposición a &quot;eventualmente&quot;) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones “Ruta eventual” y “Elemento siguiente”, como se muestra a continuación:
+1. También puede **restringir puntos de contacto individuales al siguiente evento** (a diferencia de &quot;eventualmente&quot;) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones “Ruta eventual” y “Elemento siguiente”, como se muestra a continuación:
 
-   ![La vista Todas las visitas que muestra la opción Ruta final resaltada. ](assets/next-hit-eventually.png)
+   ![La vista Todas las visitas que muestra la opción Ruta de acceso final resaltada. ](assets/next-hit-eventually.png)
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 

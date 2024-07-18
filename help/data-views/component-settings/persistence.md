@@ -23,9 +23,9 @@ La [!UICONTROL persistencia] es la capacidad de un valor de dimensión determina
 
   >[!NOTE]
   >
-  >Si tiene un [modelo de atribución no predeterminado](/help/data-views/component-settings/attribution.md) configurado en una métrica de un informe, el modelo de atribución ignora la asignación configurada en la dimensión para el mismo informe.
+  >Si tiene un [modelo de atribución no predeterminado](/help/data-views/component-settings/attribution.md) establecido en una métrica de un informe, el modelo de atribución ignorará la asignación que haya establecido en la dimensión para el mismo informe.
   >
-  >Sin embargo, al hacer una [exportación de tabla completa](/help/analysis-workspace/export/export-cloud.md) que incluye varias dimensiones, la atribución conserva los modelos de asignación aplicados a cada dimensión.
+  >Sin embargo, al realizar una [exportación de tabla completa](/help/analysis-workspace/export/export-cloud.md) que incluye varias dimensiones, la atribución conserva los modelos de asignación aplicados a cada dimensión.
 
 * La **caducidad** le permite determinar cuánto tiempo persiste un elemento de dimensión más allá del evento en el que está establecido.
 
@@ -80,13 +80,13 @@ Detalles sobre la configuración de caducidad disponible.
 * **Sesión**: caduca después de una sesión determinada. Ventana de caducidad predeterminada.
 * **Persona**: caduca al final de la ventana de creación de informes.
 * **Hora personalizada**: caduca después de un período de tiempo especificado (hasta 90 días). Esta opción de caducidad solo está disponible para los modelos de asignación Original y Más reciente. Al utilizar la caducidad basada en el tiempo, se tienen en cuenta los valores anteriores al inicio de la ventana de creación de informes (hasta 90 días).
-* **Métrica**: Cuando esta métrica se ve en un evento, caduca inmediatamente el valor persistente en la dimensión. Puede usar cualquier métrica como fin de caducidad para esta dimensión. Esta opción de caducidad solo está disponible para la configuración de asignación Original y Más reciente.
+* **Métrica**: cuando esta métrica se ve en un evento, caduca inmediatamente el valor persistente en la dimensión. Puede usar cualquier métrica como fin de caducidad para esta dimensión. Esta opción de caducidad solo está disponible para la configuración de asignación Original y Más reciente.
 
 ## [!UICONTROL Dimensión de enlace]
 
 Lista desplegable que permite enlazar la persistencia de un valor de dimensión a valores de dimensión de otra dimensión. Las opciones válidas incluyen otras dimensiones incluidas en la vista de datos.
 
-Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
+Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 

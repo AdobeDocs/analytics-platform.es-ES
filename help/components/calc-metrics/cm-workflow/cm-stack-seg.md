@@ -16,16 +16,16 @@ Puede apilar y reemplazar filtros dentro del Creador de métricas calculadas.
 
 ## Apilado de filtros {#stack-filter}
 
-1. Comience a crear una métrica, tal como se describe en [Crear métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. Comience a crear una métrica, tal como se describe en [Generar métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
 1. En el lienzo Definición, suelte el nuevo filtro junto al existente:
 
-![El lienzo de definición que muestra la métrica Visitantes de EE. UU. se redujo junto a los Visitantes internacionales existentes.](assets/cm_stack_seg.png)
+![El lienzo de definición que muestra la métrica Visitantes de EE. UU. se colocó junto a los Visitantes internacionales existentes.](assets/cm_stack_seg.png)
 
 ## Reemplazo de un filtro por otro {#replace-filter}
 
-1. Comience a crear una métrica, tal como se describe en [Crear métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. Comience a crear una métrica, tal como se describe en [Generar métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
 1. En el lienzo Definición, suelte el nuevo filtro encima del existente:
 
-![El lienzo de definición que muestra los visitantes estadounidenses se situó sobre la métrica Visitantes internacionales.](assets/cm_replace_seg.png)
+![El lienzo de definición que muestra los visitantes estadounidenses se coloca encima de la métrica Visitantes internacionales.](assets/cm_replace_seg.png)

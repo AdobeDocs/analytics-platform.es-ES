@@ -22,7 +22,7 @@ La [!UICONTROL subcadena] solo está disponible en dimensiones y es retroactiva 
 
 ## De izquierda a derecha
 
-Realice una parte de una cadena basada en su posición hasta el principio o el final de una cadena. **[!UICONTROL Desde la izquierda]** y **[!UICONTROL Desde la derecha]** Los métodos de proporcionan dos listas desplegables: **[!UICONTROL Desde]** (donde se inicia la salida) y **[!UICONTROL Hasta]** (donde termina la salida).
+Realice una parte de una cadena basada en su posición hasta el principio o el final de una cadena. Los métodos **[!UICONTROL Desde la izquierda]** y **[!UICONTROL Desde la derecha]** proporcionan dos listas desplegables: **[!UICONTROL Desde]** (donde se inicia la salida) y **[!UICONTROL Hasta]** (donde finaliza la salida).
 
 * **[!UICONTROL Inicio de cadena]**: Inicio de la cadena.
 * **[!UICONTROL Final de cadena]**: El final de la cadena.
@@ -31,7 +31,7 @@ Realice una parte de una cadena basada en su posición hasta el principio o el f
    * **[!UICONTROL Coincidencia]**: La cadena que debe coincidir. Si la entrada no coincide con este campo, se aplica [Sin opciones de valor](no-value-options.md).
    * **[!UICONTROL Índice]**: Los criterios de **[!UICONTROL Coincidencia]** se pueden presentar varias veces en una cadena. Este entero determina qué coincidencia debe comenzar o finalizar la salida, según el método. Por ejemplo, un índice de `1` representa la primera coincidencia. Si el índice es mayor que el número de coincidencias disponibles, se aplica [Sin opciones de valor](no-value-options.md).
    * **[!UICONTROL Incluir cadena]**: Una casilla de verificación que incluya la cadena **[!UICONTROL Coincidencia]** en la salida si está activada.
-* **[!UICONTROL Longitud]**: Un entero que especifica el recuento de caracteres que se va a incluir después de la posición inicial de la salida. Solo disponible en la **[!UICONTROL Hasta]** lista desplegable.
+* **[!UICONTROL Longitud]**: Un entero que especifica el recuento de caracteres que se va a incluir después de la posición inicial de la salida. Solo está disponible en la lista desplegable **[!UICONTROL Para]**.
 
 ## Delimitador
 

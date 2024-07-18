@@ -18,12 +18,12 @@ La administración de audiencias creadas anteriormente le permite:
 * **Programar o desprogramar** actualizaciones automáticas de audiencias. La caducidad máxima de la programación es de 1 año.
 * **Renovar una programación de actualización de audiencia** cuando esté a punto de caducar. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la programación caduque.
 * Consultar el **intervalo de actualización** y la **última vez que se actualizó una audiencia**
-* Obtenga información sobre **cantidad de tiempo que se tardó en producir una audiencia** del Customer Journey Analytics y la cantidad de tiempo que tardó la audiencia en aparecer en el Perfil del cliente en tiempo real con fines de activación.
-* Ver si las audiencias de Customer Journey Analytics son **que utiliza activamente el Perfil del cliente en tiempo real** o (idealmente) cualquier aplicación de Experience Platform que consuma las audiencias creadas por Customer Journey Analytics.
+* Obtenga información sobre la **cantidad de tiempo que se tardó en producir una audiencia** de Customer Journey Analytics y la cantidad de tiempo que tardó la audiencia en aparecer en el Perfil del cliente en tiempo real con fines de activación.
+* Vea si las audiencias de Customer Journey Analytics están **siendo utilizadas activamente por el Perfil del cliente en tiempo real** o (idealmente) cualquier aplicación de Experience Platform que consuma las audiencias creadas por Customer Journey Analytics.
 
 ## Interfaz de usuario de administración
 
-![Panel de ventana Audiencias que muestra varios filtros.](assets/manage.png)
+![Panel de ventana de audiencias que muestra varios filtros.](assets/manage.png)
 
 | Configuración de la interfaz de usuario | Definición |
 | --- | --- |

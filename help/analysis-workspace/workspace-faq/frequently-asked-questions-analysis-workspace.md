@@ -6,7 +6,7 @@ feature: FAQ
 exl-id: ea2ea8d6-8327-4168-b81a-f4945b572cbb
 role: Admin
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 

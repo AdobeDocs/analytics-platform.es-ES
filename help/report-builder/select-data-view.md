@@ -24,11 +24,11 @@ Al seleccionar una vista de datos de una celda, es más fácil actualizar los bl
 Para seleccionar una vista de datos de una celda, primero genere un bloque de datos y asigne varias vistas de datos a una celda fuera del bloque de datos. A continuación, utilice la vista de datos del panel de celdas para actualizar los bloques de datos de diferentes vistas de datos.
 
 1. Cree un bloque de datos.
-Para obtener información sobre la creación de un bloque de datos, consulte [Crear un bloque de datos](/help/report-builder/create-a-data-block.md).
+Para obtener información sobre cómo crear un bloque de datos, consulte [Crear un bloque de datos](/help/report-builder/create-a-data-block.md).
 
-1. Haga clic en *icono de celda* en el *Vistas de datos* sección.
+1. Haga clic en el *icono de celda* en la sección *Vistas de datos*.
 
-   ![Cree una nueva ventana de bloque de datos con el icono de celda resaltado.](/help/report-builder/assets/cell-icon.png)
+   ![Crear nueva ventana de bloque de datos con el icono de celda resaltado.](/help/report-builder/assets/cell-icon.png)
 
 1. Seleccione una ubicación de celda para agregar las vistas de datos a la celda seleccionada.
 
@@ -38,7 +38,7 @@ Para obtener información sobre la creación de un bloque de datos, consulte [Cr
 
 1. Seleccione las vistas de datos que desee asignar a la celda.
 
-   ![Report Builder Panel de edición rápida que muestra las vistas Seleccionar datos.](/help/report-builder/assets/select-data-view.png)
+   ![Panel de edición rápida del Report Builder que muestra las vistas Seleccionar datos.](/help/report-builder/assets/select-data-view.png)
 
 1. Haga clic en **Aplicar**.
 
@@ -52,7 +52,7 @@ Para obtener información sobre la creación de un bloque de datos, consulte [Cr
 
 1. Seleccione una vista de datos diferente en la lista desplegable.
 
-1. (Opcional) **Seleccione Actualizar bloques de datos** tras el cambio.
+1. (Opcional) **Seleccione Actualizar bloque(s) de datos** tras el cambio.
 
 1. Haga clic en **Aplicar**.
 

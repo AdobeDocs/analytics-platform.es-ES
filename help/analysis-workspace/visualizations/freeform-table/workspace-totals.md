@@ -30,10 +30,10 @@ En **[!UICONTROL Configuración de columna]** hay opciones para **[!UICONTROL Mo
 
 Los totales de [filas estáticas](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) se comportan de forma diferente y se controlan desde **[!UICONTROL Configuración de fila]**.
 
-* **[!UICONTROL Mostrar la suma de las filas actuales como el total]** - esto muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no** anule la duplicación de métricas como visitas o personas.
-* **[!UICONTROL Mostrar total general]** : muestra una suma del lado del servidor, lo que significa que el total eliminará la duplicación de métricas como visitas o personas.
+* **[!UICONTROL Mostrar la suma de las filas actuales como el total]**: muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no** eliminará las métricas duplicadas como visitas o personas.
+* **[!UICONTROL Mostrar total general]**: muestra una suma del lado del servidor, lo que significa que el total anulará la duplicación de métricas como visitas o personas.
 
-![Configuración de fila que muestra Mostrar total general seleccionado.](assets/static-rows.png)
+![Configuración de fila que muestra el total general seleccionado.](assets/static-rows.png)
 
 ## Preguntas frecuentes
 

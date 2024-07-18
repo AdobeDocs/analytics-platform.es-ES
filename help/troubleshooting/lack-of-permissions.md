@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Troubleshooting
 exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 

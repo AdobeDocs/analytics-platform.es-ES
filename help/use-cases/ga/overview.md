@@ -21,11 +21,11 @@ Los flujos de trabajo se proporcionan tanto para los datos históricos como para
 
 La ingesta de datos históricos (de relleno) implica la exportación de datos de Google y su importación en Adobe Experience Platform. Consulte [Ingesta de datos de Google Analytics en Adobe Experience Platform](backfill.md).
 
-Una vez que haya introducido correctamente los datos históricos en Platform, puede [Configuración del streaming de datos actuales](streaming.md)o empiece inmediatamente la creación de informes sobre los datos rellenados en Customer Journey Analytics de [Creación de una conexión](/help/connections/create-connection.md).
+Una vez que haya introducido correctamente los datos históricos en Platform, puede [Configurar la transmisión de datos actuales](streaming.md) o comenzar inmediatamente la creación de informes sobre los datos rellenados en Customer Journey Analytics [Creando una conexión](/help/connections/create-connection.md).
 
 ## Configuración de una implementación de Google Analytics existente para Adobe Experience Platform {#configure}
 
-La ingesta de datos actuales (de streaming) implica el envío de datos a Adobe Experience Platform Edge Network, que luego reenvía esos datos a Adobe Experience Platform. Consulte [Configuración del streaming de datos de Google Analytics a Adobe Experience Platform](streaming.md).
+La ingesta de datos actuales (de streaming) implica el envío de datos al Edge Network de Adobe Experience Platform, que luego reenvía esos datos a Adobe Experience Platform. Consulte [Configuración del streaming de datos de Google Analytics a Adobe Experience Platform](streaming.md).
 
 ## Configuración de una conexión y una vista de datos en Customer Journey Analytics
 

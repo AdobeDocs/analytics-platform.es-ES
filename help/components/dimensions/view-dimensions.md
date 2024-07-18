@@ -15,7 +15,7 @@ ht-degree: 90%
 
 Sitúe el ratón encima del icono de información (i) que encontrará junto a una dimensión. Se mostrarán los cinco valores principales correspondientes a las dimensiones que no sean temporales. En el caso de las dimensiones temporales, se mostrarán los 15 valores principales. Anteriormente estos valores solían ser estáticos, es decir, los cinco valores seleccionados no cambiaban nunca.
 
-![Los cinco valores principales para las dimensiones que no sean temporales.](assets/dimension-preview.png)
+![Valores principales de cinco dimensiones que no sean temporales.](assets/dimension-preview.png)
 
 Ahora, y de forma predeterminada, se mostrarán valores dinámicos en lugar de valores estáticos, con la opción de convertirlos en estáticos. Otros aspectos que considerar:
 
@@ -23,7 +23,7 @@ Ahora, y de forma predeterminada, se mostrarán valores dinámicos en lugar de v
 * Las columnas de dimensión dinámica que se copien o se muevan pasarán a ser de dimensión estática.
 * Al pasar el ratón por encima de una columna de dimensión estática, verá un icono de bloqueo que indicará que la dimensión es estática.
 
-![Ventana emergente de la columna del Dimension que resalta el icono de bloqueo.](assets/dimension_static.png)
+![ventana emergente de la columna del Dimension que resalta el icono de candado.](assets/dimension_static.png)
 
 ## Mostrar los elementos de la dimensión
 

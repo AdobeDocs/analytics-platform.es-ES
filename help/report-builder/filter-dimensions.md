@@ -25,7 +25,7 @@ Para cambiar los elementos de dimensión devueltos para cada dimensión
 
 1. Haga clic en el icono **...** junto al nombre de un componente en la tabla.
 
-   ![Las opciones del icono de los tres puntos.](./assets/image27.png)
+   ![Opciones del icono de los tres puntos.](./assets/image27.png)
 
 1. Seleccione **Dimensión del filtro** en el menú emergente para mostrar el panel **Dimensión del filtro**.
 
@@ -49,7 +49,7 @@ Existen dos formas de filtrar los elementos de dimensión: el más popular y esp
 
 La opción el más popular le permite filtrar dinámicamente los elementos de dimensión en función de los valores de las métricas. El filtrado por el más popular devuelve los elementos de dimensión de mayor clasificación en función de los valores de las métricas. De forma predeterminada, se muestran los 10 primeros elementos de dimensión, ordenados por la primera métrica añadida al bloque de datos.
 
-![La opción Más popular.](./assets/image29.png)
+![La opción más popular.](./assets/image29.png)
 
 
 ### Opciones de página y filas
@@ -114,14 +114,14 @@ Para cambiar la métrica utilizada para filtrar y ordenar el bloque de datos,
 
 2. Haga clic en la flecha de la métrica preferida. 
 
-   ![El Generador de tablas y las métricas.](./assets/image30.png)
+   ![Generador de tablas y métricas.](./assets/image30.png)
 
 
 ## Filtro específico
 
 La opción Específico permite crear una lista fija de elementos de dimensión para cada dimensión. Utilice el tipo de filtro **Específico** para especificar los elementos de dimensión exactos que se incluirán en el filtro. Puede seleccionar elementos de una lista o de un rango de celdas.
 
-![Las Opciones específicas y los elementos seleccionados.](./assets/image32.png)
+![Opciones específicas y elementos seleccionados.](./assets/image32.png)
 
 ### De la lista
 
@@ -139,7 +139,7 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
    ![La lista Mostrar elementos de los últimos 6 meses.](./assets/image34.png)
 
-   Después de cargar los datos de los últimos 6 meses, Report Builder actualiza el vínculo a **Mostrar artículos de los últimos 18 meses**.
+   Después de cargar los datos de los últimos 6 meses, el Report Builder actualiza el vínculo a **Mostrar elementos de los últimos 18 meses**.
 
 1. Seleccionar un elemento de dimensión.
 
@@ -175,6 +175,6 @@ La selección puede contener celdas vacías o con valores que no coinciden con u
 
 En la pestaña **Dimensiones**, haga clic en el icono de cheurón situado junto al nombre de una dimensión para ver la lista de elementos que contiene.
 
-![La pestaña Dimension y la lista de dimensiones.](./assets/dimensions_chevron.png)
+![La ficha Dimension y la lista de dimensiones.](./assets/dimensions_chevron.png)
 
 Puede arrastrar y soltar elementos en la **Tabla** o hacer doble clic en un nombre de elemento para añadirlo al Generador de **tablas**.

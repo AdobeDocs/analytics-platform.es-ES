@@ -7,13 +7,13 @@ role: User
 source-git-commit: 542cbb35d3870b8eef6fe252d1ac20962a1b2b8f
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 # Pies de ilustración inteligentes
 
-Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones de Workspace. La versión inicial proporciona perspectivas generadas automáticamente para el [Línea](line.md) visualización. (A continuación se muestran otras visualizaciones).
+Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones de Workspace. La versión inicial proporciona información generada automáticamente para la visualización [Line](line.md). (A continuación se muestran otras visualizaciones).
 
 Los subtítulos inteligentes están orientados a:
 
@@ -24,9 +24,9 @@ Los subtítulos están disponibles para todos los usuarios de Customer Journey A
 
 ## Iniciar subtítulos inteligentes {#launch}
 
-Para iniciar subtítulos generados automáticamente para una visualización de líneas, haga clic en **[!UICONTROL Subtítulos inteligentes]** en la parte superior derecha de la visualización.
+Para iniciar subtítulos generados automáticamente para una visualización de líneas, haga clic en el icono **[!UICONTROL Subtítulos inteligentes]** en la parte superior derecha de la visualización.
 
-![Inicie la ventana de análisis que muestra los subtítulos inteligentes de la tendencia de vistas del producto. ](assets/intell-caps-1.png)
+![Iniciar análisis con los subtítulos inteligentes para la tendencia de vistas de productos. ](assets/intell-caps-1.png)
 
 Ahora se están generando perspectivas en lenguaje natural.
 
@@ -44,17 +44,17 @@ Tenga en cuenta que
 
 A continuación se muestra un ejemplo del aspecto que podrían tener los subtítulos:
 
-![Subtítulos inteligentes para la visualización de líneas, incluidos Estacionalidad, Mínimo, Máximo, Pico y Rechazar.](assets/captions.png)
+![Subtítulos inteligentes para la visualización de líneas que incluyen Estacionalidad, Mínimo, Máximo, Pico y Rechazar.](assets/captions.png)
 
 ## Copiar al portapapeles {#copy}
 
-Puede copiar los subtítulos en un portapapeles y pegarlos en una herramienta Powerpoint u otra. Busque el **[!UICONTROL Copiar subtítulos en el portapapeles]** en la parte superior derecha del cuadro de diálogo subtítulos.
+Puede copiar los subtítulos en un portapapeles y pegarlos en una herramienta Powerpoint u otra. Busque el icono **[!UICONTROL Copiar subtítulos al portapapeles]** en la parte superior derecha del cuadro de diálogo de subtítulos.
 
 ## Editar subtítulos {#edit}
 
 Puede editar los subtítulos, como ocultar o mostrar una categoría particular de perspectivas. Por ejemplo, si no desea conocer el orden mínimo, puede ocultarlo y hacer clic en Aplicar para que no se vuelva a mostrar.
 
-1. Clic **[!UICONTROL Editar visualización de subtítulos inteligentes]** junto al icono del portapapeles.
+1. Haga clic en **[!UICONTROL Editar subtítulos inteligentes]** junto al icono del portapapeles.
 
 1. En el cuadro de diálogo de edición, haga clic en el icono del ojo junto a la perspectiva que desee ocultar.
 
@@ -64,14 +64,14 @@ Utilice el mismo proceso para mostrar los subtítulos.
 
 ## Exportar subtítulos {#export}
 
-Puede **exportar subtítulos mediante PDF**, siempre que el proyecto se guarde con los subtítulos generados.
+Puede **exportar subtítulos a través del PDF**, siempre y cuando el proyecto se guarde con los subtítulos generados.
 
 ## Alternar subtítulos desactivada {#toggle}
 
-Si no desea que se generen subtítulos inteligentes, puede desactivar esta función en Preferencias de visualización y desmarcar **[!UICONTROL Mostrar subtítulos inteligentes]**.
+Si no desea que se generen subtítulos inteligentes, puede desactivar esta característica si va a las Preferencias de visualización y desmarca **[!UICONTROL Mostrar subtítulos inteligentes]**.
 
-![Opciones de visualización de líneas que muestran la opción para desactivar Mostrar subtítulos inteligentes.](assets/toggle-captions.png)
+![Opciones de visualización de líneas que muestran la opción de desactivar Mostrar subtítulos inteligentes.](assets/toggle-captions.png)
 
 ## Subtítulos inteligentes en cuadros de resultados móviles
 
-Los subtítulos inteligentes también están disponibles en Customer Journey Analytics [cuadros de resultados móviles](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+Los subtítulos inteligentes también están disponibles en los [cuadros de resultados móviles](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) del Customer Journey Analytics.

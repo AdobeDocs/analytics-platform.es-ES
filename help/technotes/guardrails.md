@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Protecciones del Customer Journey Analytics
 
-Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [Descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) o el [Descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es).
+Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [Descripción del producto para el Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) o la [Descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es).
 
 ## Tipos de límite
 
@@ -74,14 +74,14 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 |---|--:|---|---|
 | Filtros de audiencia | 20 | Protección impuesta por el sistema | Número máximo de [filtros](../components/filters/filters-overview.md) por audiencia. |
 | Número de identidades de la audiencia | 20 millones | Protección impuesta por el sistema | Número máximo de identidades por audiencia. |
-| Frecuencia de actualización de audiencia | 4 | Protección impuesta por el sistema | Frecuencia máxima en horas y [audiencia](../components/audiences/audiences-overview.md) se puede actualizar. |
+| Frecuencia de actualización de audiencia | 4 | Protección impuesta por el sistema | Frecuencia máxima en horas que se puede actualizar una [audiencia](../components/audiences/audiences-overview.md). |
 | Ventana retrospectiva de actualización de audiencia | 90 | Protección impuesta por el sistema | Número máximo de días para actualizar la ventana retrospectiva. |
 | Actualizando fecha de caducidad de audiencia | 13 | Protección impuesta por el sistema | La audiencia deja de actualizarse durante un número máximo de meses a partir de la fecha de creación. Los clientes pueden prolongar esta duración otros 13 meses. |
 | Número de audiencias actualizadas | 76, 150 | Protección impuesta por el sistema | Número máximo de audiencias de actualización, el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
-Consulte también Experience Platform [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es).
+Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es) del Experience Platform.
 
 
 ## Caducidad automatizada del conjunto de datos
@@ -108,7 +108,7 @@ Consulte también Experience Platform [Protecciones de Real-time Customer Data P
 | Dimensiones | 5.000 | Protección impuesta por el sistema | Número máximo de dimensiones en una vista de datos. |
 | Título de anotación | 100 | Protección impuesta por el sistema | Número máximo de caracteres para un título de anotación. |
 | Descripción de anotación | 250 | Protección impuesta por el sistema | Número máximo de caracteres para una descripción de anotación. |
-| Campos de esquema | 10 | Protección impuesta por el sistema | Número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para una [campo derivado](../data-views/derived-fields/derived-fields.md). |
+| Campos de esquema | 10 | Protección impuesta por el sistema | Número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para un [campo derivado](../data-views/derived-fields/derived-fields.md). |
 | Campos de búsqueda/perfil | 3 | Protección impuesta por el sistema | Número máximo de campos de esquema de búsqueda o perfil dentro del número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para un campo derivado. |
 | Campos derivados | De 100 a 500 | Protección impuesta por el sistema | Número máximo de campos derivados por conexión; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
@@ -126,7 +126,7 @@ Consulte también Experience Platform [Protecciones de Real-time Customer Data P
 
 {style="table-layout:auto"}
 
-Consulte también Experience Platform [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+Consulte también las [protecciones del Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Exportación de datos de destinos
@@ -138,7 +138,7 @@ Consulte también Experience Platform [Protecciones para la ingesta de datos](ht
 
 {style="table-layout:auto"}
 
-Consulte también Experience Platform [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
+Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports) del Experience Platform
 
 
 ## Zona de aterrizaje de datos
@@ -162,7 +162,7 @@ Consulte también Experience Platform [Protecciones de exportación de conjuntos
 {style="table-layout:auto"}
 
 
-## Vinculación basada en gráficos
+## Identificación basada en gráficos
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
@@ -226,7 +226,7 @@ Consulte también Experience Platform [Protecciones de exportación de conjuntos
 
 >[!NOTE]
 >
->Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte el contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte el Experience Platform [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) para obtener más información.
+>Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte el contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte las [protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) del Experience Platform para obtener más información.
 
 | Flujo de datos | Latencia esperada |
 |---|---|
@@ -236,9 +236,9 @@ Consulte también Experience Platform [Protecciones de exportación de conjuntos
 | Ingesta de datos en el lago de datos desde la ingesta de Edge Network o flujo | &lt; 60 minutos |
 | Ingesta de datos en el lago de datos desde el conector de Adobe Analytics Source | &lt; 2,25 horas |
 | Ingesta de datos en el Customer Journey Analytics desde Data Lake | &lt; 90 minutos |
-| Vinculación (función opcional; consulte [Información general de vinculación](../stitching/overview.md) para obtener más información) | &lt; 3,25 horas |
+| Vinculación (característica opcional; consulte [Información general sobre la vinculación](../stitching/overview.md) para obtener más información) | &lt; 3,25 horas |
 | Relleno de menos de 10 000 millones de eventos en el conector Source de Adobe Analytics (máximo de 13 meses de datos históricos) | &lt; 4 semanas |
 | Publicación de audiencias en el Perfil del cliente en tiempo real, lo que incluye la creación automática del segmento de flujo continuo y permite que el segmento esté listo para recibir los datos. | ≈ 60 minutos |
-| Frecuencia de actualización para audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualice cada 4 horas, diariamente, semanalmente o mensualmente (la latencia va acompañada de la frecuencia de actualización). |
+| Frecuencia de actualización para audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualizar cada 4 horas, diaria, semanal o mensual (la latencia va de la mano con la frecuencia de actualización). |
 
 {style="table-layout:auto"}

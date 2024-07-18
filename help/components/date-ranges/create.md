@@ -39,7 +39,7 @@ Al hacer clic en el intervalo de fecha en la ventana modal, tiene varias opcione
 
 * **Calendario**: seleccione la fecha de inicio y la de finalización.
 * **Usar fechas móviles**: marque esta casilla si desea que el intervalo de fecha cambie con el transcurso del tiempo. No marque esta casilla si desea que el intervalo de fecha permanezca estático.
-* **Seleccionar ajuste preestablecido**: utilice esta selección desplegable si desea un intervalo de fechas personalizado basado en un intervalo que ofrezca el Adobe de forma predeterminada. Al seleccionar un ajuste preestablecido, puede personalizar aún más el intervalo de fecha para adaptarlo a sus necesidades. No afecta al ajuste preestablecido que ofrece Adobe.
+* **Seleccionar ajuste preestablecido**: utilice esta selección desplegable si desea un intervalo de fecha personalizado basado en un intervalo que ofrezca el Adobe de forma predeterminada. Al seleccionar un ajuste preestablecido, puede personalizar aún más el intervalo de fecha para adaptarlo a sus necesidades. No afecta al ajuste preestablecido que ofrece Adobe.
 
 ## Intervalos de fechas móviles
 

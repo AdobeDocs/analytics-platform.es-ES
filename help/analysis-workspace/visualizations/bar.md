@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Esta visualización muestra las barras verticales que representan los distintos valores de una o varias métricas.
 
-![Visualización de barras verticales que muestran varias métricas, incluidas Vistas de página, Visitas, Entradas y Salidas.](assets/bar.png)
+![Visualización de barra vertical que muestra varias métricas, incluidas Vistas de página, Visitas, Entradas y Salidas.](assets/bar.png)
 
 Un menú desplegable de granularidad en la configuración de visualización le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc.
 
@@ -29,4 +29,4 @@ Esta visualización es similar a un gráfico de barras, pero con las barras de s
 
 Una nueva configuración en las visualizaciones de barras apiladas convierte el gráfico en una visualización apilada al 100 %:
 
-![Gráfico de barras apiladas al 100 %.](assets/stacked_100_percent.png)
+![Gráfico de barras apiladas al 100%.](assets/stacked_100_percent.png)

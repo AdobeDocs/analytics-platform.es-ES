@@ -17,7 +17,7 @@ En términos generales, cualquier configuración relacionada con la gobernanza d
 
 ## Gobierno de datos
 
-La integración entre Adobe Customer Journey Analytics y [Gobernanza de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es) permite el etiquetado de datos confidenciales del Customer Journey Analytics y la aplicación de políticas de privacidad.
+La integración entre Adobe Customer Journey Analytics y [Gobernanza de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es) permite el etiquetado de datos confidenciales del Customer Journey Analytics y la aplicación de directivas de privacidad.
 
 Las etiquetas de privacidad y las políticas creadas en conjuntos de datos consumidos por Experience Platform se pueden ver en el flujo de trabajo de vistas de datos de Customer Journey Analytics. Estas etiquetas detienen o advierten a los usuarios que crean métricas o dimensiones a partir de campos confidenciales.
 

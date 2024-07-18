@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # Resumen de publicación de audiencia de Customer Journey Analytics
 
-Ahora puede crear y publicar audiencias descubiertas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes.
+Ahora puede crear y publicar audiencias que haya descubierto en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para personalización y segmentación de clientes.
 
 Las audiencias de publicación proporcionan una forma clara de activar y actuar en función de las perspectivas que se encuentran en Customer Journey Analytics. Estas acciones pueden incluir:
 
@@ -31,7 +31,7 @@ Las audiencias que cree en Customer Journey Analytics no tienen por qué basarse
 
 **Filtro**: conjunto de reglas que, al evaluarse con un conjunto de datos durante un período de tiempo, produce un subconjunto de datos. Se puede utilizar un filtro en el proceso de creación de una audiencia cuando se asocia con otros servicios de respaldo. Los filtros se definen y mantienen en el Customer Journey Analytics.
 
-**Filtros** frente **Segmentos**: El Customer Journey Analytics no utiliza el concepto de &quot;segmentos&quot;, sino que utiliza &quot;filtros&quot;. Aunque ambos son un conjunto de reglas que pueden contener una lógica similar, producen resultados diferentes. Un filtro se utiliza para reducir un conjunto de datos con fines de análisis. Un segmento se utiliza para producir una lista de identidades que se puede utilizar para la activación. Los segmentos producen audiencias en el Perfil del cliente en tiempo real, mientras que los filtros (por sí solos) no. La publicación de audiencias de Customer Journey Analytics es el proceso mediante el cual utilizamos un filtro de Customer Journey Analytics para crear una audiencia que pueda ser consumida por el Perfil del cliente en tiempo real.
+**Filtros** frente a **Segmentos**: El Customer Journey Analytics no utiliza el concepto de &quot;segmentos&quot;, sino que utiliza &quot;filtros&quot;. Aunque ambos son un conjunto de reglas que pueden contener una lógica similar, producen resultados diferentes. Un filtro se utiliza para reducir un conjunto de datos con fines de análisis. Un segmento se utiliza para producir una lista de identidades que se puede utilizar para la activación. Los segmentos producen audiencias en el Perfil del cliente en tiempo real, mientras que los filtros (por sí solos) no. La publicación de audiencias de Customer Journey Analytics es el proceso mediante el cual utilizamos un filtro de Customer Journey Analytics para crear una audiencia que pueda ser consumida por el Perfil del cliente en tiempo real.
 
 ## Permisos
 

@@ -29,15 +29,15 @@ Utilice el botón Programar tarea del centro de Report Builder para crear rápid
 
 1. Haga clic en el botón Programar en el centro del Report Builder.
 
-   ![Haga clic en el botón Programación para crear una programación.](./assets/schedule-button.png){width="55%"}
+   ![Haga clic en el botón Programar para crear una programación.](./assets/schedule-button.png){width="55%"}
 
 1. Haga clic en Programar libro o en el botón de signo más en la parte superior izquierda para crear un nuevo libro programado.
 
-   ![Ventana Programación de Libros.](./assets/schedule-workbook.png){width="55%"}
+   ![Ventana Programar libros.](./assets/schedule-workbook.png){width="55%"}
 
    El panel de programación muestra información predefinida sobre el libro, como el nombre del libro y la última fecha de modificación del libro.
 
-   ![El panel de programación.](./assets/schedule-pane.png){width="55%"}
+   ![Panel de programación.](./assets/schedule-pane.png){width="55%"}
 
 1. (Opcional) Introduzca un nombre de archivo.
 
@@ -57,7 +57,7 @@ Utilice el botón Programar tarea del centro de Report Builder para crear rápid
 
 1. Introduzca el **Asunto** del correo electrónico y una descripción para sus destinatarios. El asunto adopta como valor predeterminado el nombre de archivo del libro, pero puede modificarlo si es necesario. Puede agregar detalles en la sección de descripción.
 
-   ![Introduzca un asunto en el campo Subject.](./assets/recipients-subject.png){width="55%"}
+   ![Escriba un asunto en el campo Asunto.](./assets/recipients-subject.png){width="55%"}
 
 1. Configure las opciones de programación para establecer la fecha y la hora en que desea que el libro se envíe por correo electrónico a los destinatarios.
 
@@ -65,7 +65,7 @@ Utilice el botón Programar tarea del centro de Report Builder para crear rápid
 
    Elija la **Frecuencia** en el menú desplegable. Puede establecer que la frecuencia sea horaria, diaria, semanal, mensual o anual en un día específico. Por ejemplo, puede configurar una programación para enviar el libro el primer domingo por la noche del mes de modo que los destinatarios tengan el correo electrónico en su bandeja de entrada el lunes por la mañana.
 
-   ![Seleccione la frecuencia con la que desea programar el informe.](./assets/frequency.png){width="55%"}
+   ![Seleccione la frecuencia para programar el informe.](./assets/frequency.png){width="55%"}
 
 1. Después de configurar la programación, haga clic en **Enviar según lo programado**.
 
@@ -121,7 +121,7 @@ Puede filtrar el historial para ver solo el de un único libro programado. Para 
 
 También puede ver el historial de un libro específico desde la pestaña Libros. En la pestaña Libros, seleccione el libro y haga clic en el icono de historial.
 
-![El icono Historial de libros](./assets/history2.png){width="55%"}
+![Icono del historial de libros](./assets/history2.png){width="55%"}
 
 El filtro de libro aparece en la parte superior del historial. Para volver a ver el historial de todas las tareas programadas, haga clic en la X junto al filtro.
 

@@ -9,7 +9,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -19,29 +19,29 @@ Puede exportar informes de Customer Journey Analytics enviándolos a destinatari
 
 Todas las etiquetas aplicadas al proyecto se aplican automáticamente a la exportación.
 
-También están disponibles otros métodos para exportar datos del Customer Journey Analytics, como se describe en [Información general de exportación](/help/analysis-workspace/export/export-project-overview.md).
+También hay disponibles otros métodos para exportar datos de Customer Journey Analytics, como se describe en [Descripción general de la exportación](/help/analysis-workspace/export/export-project-overview.md).
 
 ## Enviar archivo ahora {#now}
 
 Para enviar un archivo inmediatamente a los destinatarios por correo electrónico:
 
-1. Clic **[!UICONTROL Compartir] > [!UICONTROL Exportar archivo]**.
+1. Haga clic en **[!UICONTROL Compartir] > [!UICONTROL Exportar archivo]**.
 1. Especifique el tipo de archivo:
    * [!UICONTROL **CSV**]: elija esta opción si desea datos de texto sin formato.
    * [!UICONTROL **PDF**]: elija esta opción si desea que el archivo descargado contenga todas las tablas y visualizaciones mostradas (visibles) en el proyecto.
-1. (Opcional) Añada una descripción para incluirla en el correo electrónico y explicar el archivo que se va a recibir.
+1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
 1. (Solo para clientes de Healthcare Shield) Proporcione una contraseña. Consulte la sección Proteger un informe programado con contraseña.
 1. (Opcional) Haga clic en **[!UICONTROL Mostrar opciones de programación]** para especificar una programación de entregas.
 1. Haga clic en **[!UICONTROL Enviar ahora]**.
 
-![Ventana Enviar archivo y botón Enviar ahora.](assets/send-file-no-scheduling-options.JPG)
+![La ventana Enviar archivo y el botón Enviar ahora.](assets/send-file-no-scheduling-options.JPG)
 
 ## Enviar archivo según lo programado {#schedule}
 
 Para enviar un archivo en una programación recurrente a los destinatarios por correo electrónico:
 
-1. Clic **[!UICONTROL Compartir] > [!UICONTROL Programar exportación de archivos]**.
+1. Haga clic en **[!UICONTROL Compartir] > [!UICONTROL Programar exportación de archivos]**.
 1. Especifique el tipo de archivo (CSV o PDF).
 1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
@@ -65,7 +65,7 @@ En el Administrador de proyectos programados, puede editar y eliminar la program
 | [!UICONTROL Título y descripción] | Título y descripción de este proyecto. |
 | [!UICONTROL Propietario] | La persona que creó el proyecto y es propietaria de él. |
 | [!UICONTROL Etiquetas] | (opcional) El etiquetado es una buena forma de organizar los proyectos. Todos los usuarios pueden crear etiquetas y aplicar una o más a un proyecto. Sin embargo, solo verá las etiquetas de los proyectos que sean suyos o que se hayan compartido con usted. |
-| [!UICONTROL Entregado a] | Las personas destinatarias de este proyecto programado. |
+| [!UICONTROL Se Entregó A] | Las personas destinatarias de este proyecto programado. |
 | [!UICONTROL Fecha de caducidad] | Puede establecer la fecha de caducidad en un máximo de un año, independientemente de la frecuencia de programación. |
 | [!UICONTROL Frecuencia] | La frecuencia con la que desea que este proyecto programado se envíe a las personas destinatarias. |
 | [!UICONTROL Tiempo de ejecución] | A qué hora del día se envía este proyecto programado. |
@@ -89,7 +89,7 @@ Para obtener más información, consulte [Proyectos programados](/help/component
 
 >[!NOTE]
 >
->La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) producto de complemento.
+>La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido el complemento [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html).
 
 Adobe utiliza la contraseña para cifrar proyectos programados, independientemente de si se envían en formato .pdf o .csv.
 
@@ -99,7 +99,7 @@ Una vez que su empresa ha adquirido el SKU de Healthcare Shield y se ha habilita
 
 * Cuando un proyecto programado existente está a punto de enviarse. El proyecto programado actualmente está deshabilitado hasta que se establezca la protección con contraseña. El propietario del proyecto programado recibe un correo electrónico que le informa de este requisito.
 
-![La ventana Editar proyecto programado y la notificación de cifrado de contraseña indican que su organización requiere el cifrado de contraseña.](assets/password.png)
+![La ventana Editar proyecto programado y la notificación de cifrado de contraseña indican que su organización requiere cifrado de contraseña.](assets/password.png)
 
 ### Requisitos de contraseña
 
@@ -107,16 +107,16 @@ Los requisitos de la contraseña cumplen con los estándares de Adobe y requiere
 
 ### Proteger con contraseña un proyecto programado nuevo
 
-1. Después de guardar el proyecto, vaya a **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo ahora]**, o **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo según lo programado]**.
+1. Después de guardar el proyecto, ve a **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo ahora]** o a **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo según lo programado]**.
 1. Siga las instrucciones anteriores, en [Enviar archivo ahora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=es#now) o [Enviar archivo según lo programado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=es#schedule).
 
 ### Proteger con contraseña un proyecto programado existente
 
 Antes de programar un proyecto, su propietario recibe un correo electrónico similar al siguiente:
 
-![Notificación por correo electrónico del Customer Journey Analytics que indica que su organización necesita cifrar la contraseña.](assets/email-password.png)
+![Notificación por correo electrónico del Customer Journey Analytics que indica que se requiere el cifrado con contraseña para su organización.](assets/email-password.png)
 
 1. Inicie sesión en el Customer Journey Analytics.
-1. Seleccionar **[!UICONTROL Ver proyecto programado]**.
+1. Seleccione **[!UICONTROL Ver proyecto programado]**.
 1. En el diálogo **[!UICONTROL Editar proyecto programado]**, introduzca una contraseña y vuelva a introducirla.
 1. Informe a los destinatarios del proyecto programado sobre esta contraseña. No distribuya la contraseña a personas que no sean destinatarios del proyecto programado.

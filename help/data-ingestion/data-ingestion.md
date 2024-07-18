@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: dca1cc33058ba57815c3534ab21da86d5247531a
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 63%
+ht-degree: 65%
 
 ---
 
@@ -22,7 +22,7 @@ Tiene varias opciones al ingerir datos en Customer Journey Analytics. En algunas
 
 Consulte la arquitectura de Customer Journey Analytics de nivel general mostrada anteriormente en [Información general](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es):
 
-![La arquitectura del Customer Journey Analytics se describe en esta sección](./assets/cja-architecture.png)
+![Arquitectura de Customer Journey Analytics descrita en esta sección](./assets/cja-architecture.png)
 
 El conjunto de datos de la arquitectura anterior puede proceder de varios orígenes:
 
@@ -46,13 +46,13 @@ Esta sección de la documentación proporciona guías de inicio rápido para var
 
 Puede introducir los datos de evento en Customer Journey Analytics en un plazo de 90 minutos (SLT), independientemente de si los datos tienen 24 horas, 48 horas o 7 días.
 
-Tenga en cuenta que esta capacidad difiere según el paquete de SKU que haya adquirido su empresa:
+Tenga en cuenta que esta posibilidad difiere según el paquete de SKU que haya adquirido su compañía:
 
-- Ingesta de prioridad básica: datos de 24 horas de antigüedad en un procesamiento SLT de 90 minutos (disponible para **Fundamentos de CJA** y **Selección de CJA**)
+- Ingesta de prioridad básica: datos de 24 horas de antigüedad en un procesamiento de SLT de 90 minutos (disponibles para **CJA Foundation** y **CJA Select**)
 
-- Ingesta de prioridad intermedia: datos de 72 horas dentro del procesamiento de SLT de 90 minutos (disponible para **CJA Prime**)
+- Ingesta de prioridad intermedia: datos de 72 horas dentro del procesamiento SLT de 90 minutos (disponible para **CJA Prime**)
 
-- Ingesta avanzada de prioridades: datos de una semana de antigüedad con un procesamiento de SLT de 90 minutos (disponible para **CJA Ultimate**)
+- Ingesta de prioridad avanzada: datos de una semana de antigüedad en un procesamiento de SLT de 90 minutos (disponible para **CJA Ultimate**)
 
 ## Ingesta y uso de datos de Adobe Analytics tradicional
 

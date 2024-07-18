@@ -31,7 +31,7 @@ Para acceder a [!UICONTROL Labs]:
 
 1. Si todavía no tiene acceso a [!UICONTROL Workspace] y [!UICONTROL Labs], solicite los permisos necesarios al administrador.
 
-1. En Customer Journey Analytics, haga clic en **[!UICONTROL Labs]** pestaña.
+1. En Customer Journey Analytics, haga clic en la ficha **[!UICONTROL Labs]**.
 
 ## Evaluación de un prototipo
 
@@ -65,7 +65,7 @@ Para iniciar y evaluar un prototipo:
 
 1. Para probar un prototipo diferente o salir del entorno de prototipo, haga clic en **[!UICONTROL Dejar prototipo]** en la parte superior derecha de la pantalla y complete la encuesta breve del prototipo. Cualquier cambio realizado en un proyecto prototipo se pierde al salir del entorno de prototipos.
 
-   ![Ventana Comentarios sobre rutas inteligentes](assets/short-survey.png)
+   ![Ventana de comentarios inteligentes sobre rutas](assets/short-survey.png)
 
 1. Haga clic en **[!UICONTROL Enviar]** para volver al portal principal de vistas previas.
 

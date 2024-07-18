@@ -20,7 +20,7 @@ Dispone de tres opciones al cambiar la densidad de la visualización mediante bo
 - **[!UICONTROL Cómoda]**: Deja algo más de espacio que la versión Compacta.
 - **[!UICONTROL Expandida]** (predeterminada): Esta es la vista habitual de Workspace.
 
-![Las densidades de vistas Compactas, Cómodas y Expandidas.](assets/view-density.png)
+![Las densidades de vistas compactas, cómodas y ampliadas.](assets/view-density.png)
 
 Para establecer la densidad de la visualización:
 

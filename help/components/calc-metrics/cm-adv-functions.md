@@ -62,7 +62,7 @@ El número aproximado de elementos distintos (eVar del ID del cliente) es un cas
 
 Definición para una nueva métrica calculada “Clientes aproximados”:
 
-![Nueva definición de dimensión aproximada del condado que muestra el ID del cliente (eVar 1)](assets/approx-count-distinct.png)
+![Nueva definición de dimensión aproximada de condado que muestra el ID de cliente (eVar 1)](assets/approx-count-distinct.png)
 
 Así es como se podría usar la métrica “Clientes aproximados” en un informe:
 

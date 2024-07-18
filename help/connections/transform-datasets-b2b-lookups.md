@@ -20,8 +20,8 @@ Esta transformación solo está disponible para conjuntos de datos con datos par
 
 * [Relación de persona de la cuenta XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
 * [Relación de persona de oportunidad empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [Miembros de lista de marketing empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [Miembros de campaña empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [Miembros de la lista de marketing empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [Miembros de XDM Business Campaign](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -32,11 +32,11 @@ Para habilitar la transformación para un conjunto de datos de este tipo:
 
 ![Habilitar conjunto de datos de transformación](assets/transform-dataset.gif)
 
-* Asegúrese de seleccionar el identificador adecuado para **[!UICONTROL Clave]** y **[!UICONTROL Clave de coincidencia]**, por ejemplo `personKey.sourceKey`.
+* Asegúrese de seleccionar el identificador adecuado para **[!UICONTROL Key]** y **[!UICONTROL Matching key]**, por ejemplo `personKey.sourceKey`.
 
 * Seleccione las opciones para importar nuevos datos y el relleno del conjunto de datos.
 
-* Seleccionar **[!UICONTROL Transformar conjunto de datos para búsquedas B2B]**.
+* Seleccione **[!UICONTROL Transformar conjunto de datos para búsquedas B2B]**.
 
   Esta opción transforma el conjunto de datos para que se pueda utilizar para búsquedas basadas en personas en escenarios B2B.
 

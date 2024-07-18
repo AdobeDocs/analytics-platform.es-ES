@@ -78,7 +78,7 @@ En Google Cloud Platform, vaya a **Exportar > Exportar a GCS**. Una vez que los 
 
 >[!TIP]
 >
->Si planea importar datos de Google Analytics de streaming activo e históricos, asegúrese de utilizar el mismo esquema para ambos conjuntos de datos. Puede combinar los conjuntos de datos en un Customer Journey Analytics mediante una [Conjunto de datos combinado](/help/connections/combined-dataset.md).
+>Si planea importar datos de Google Analytics de streaming activo e históricos, asegúrese de utilizar el mismo esquema para ambos conjuntos de datos. Puede combinar los conjuntos de datos en un Customer Journey Analytics usando un [Conjunto de datos combinado](/help/connections/combined-dataset.md).
 
 Puede asignar los datos de evento de GA a un conjunto de datos existente que haya creado anteriormente, o crear uno, utilizando el esquema XDM que elija. Una vez que haya seleccionado el esquema, Experience Platform aplica el aprendizaje automático para asignar automáticamente previamente cada uno de los campos de los datos de Google Analytics a su [esquema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es#ui).
 

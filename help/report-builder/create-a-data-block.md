@@ -41,7 +41,7 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
 1. Haga clic en **Siguiente**.
 
-   ![Captura de pantalla que muestra la opción de intervalo de fechas y el botón Activo Siguiente.](./assets/choose_date_data_view3.png)
+   ![Captura de pantalla que muestra la opción de intervalo de fechas y el botón Siguiente activo.](./assets/choose_date_data_view3.png)
 
    Después de configurar el bloque de datos, puede seleccionar dimensiones, métricas y filtros para crear el bloque de datos. Las pestañas Dimensión, Métricas y Filtros se muestran encima del panel Generador de tablas.
 
@@ -71,13 +71,13 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
    Cuando se añaden componentes a la tabla, se muestra una vista previa del bloque de datos en la ubicación del bloque de datos en la hoja de cálculo. El diseño de la vista previa del bloque de datos se actualiza automáticamente a medida que se añaden, mueven o eliminan elementos de la tabla.
 
-   ![Captura de pantalla que muestra los componentes añadidos y la hoja de cálculo actualizada.](./assets/image10.png)
+   ![Captura de pantalla que muestra los componentes agregados y la hoja de cálculo actualizada.](./assets/image10.png)
 
    **Mostrar u ocultar encabezados de fila y columna**
 
-1. Haga clic en **Tabla** icono de configuración.
+1. Haga clic en el icono de configuración **Tabla**.
 
-   ![Captura de pantalla que muestra la opción Configuración de tabla.](./assets/table-settings.png){width="35%"}
+   ![Captura de pantalla que muestra la opción de configuración de tabla.](./assets/table-settings.png){width="35%"}
 
 1. Marque o desmarque la opción Mostrar encabezados de fila y columna. Los encabezados se muestran de forma predeterminada.
 
@@ -97,4 +97,4 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
    Report Builder recupera los datos y muestra el bloque de datos completado en la hoja de cálculo.
 
-   ![El bloque de datos completado.](./assets/image12.png)
+   ![Bloque de datos completado.](./assets/image12.png)

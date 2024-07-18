@@ -15,19 +15,19 @@ ht-degree: 90%
 
 En Analysis Workspace, una tabla de forma libre es la base del análisis de datos interactivo. Puede arrastrar y soltar una combinación de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=es) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente para que pueda analizar rápidamente y explorar en mayor profundidad.
 
-![Tabla de forma libre que muestra los componentes en filas y columnas, incluidas las visitas y los pedidos en línea de varias páginas web.](assets/opening-section.png)
+![Tabla de forma libre que muestra componentes en filas y columnas, incluidas visitas y pedidos en línea de varias páginas web.](assets/opening-section.png)
 
 ## Tablas automatizadas
 
 La forma más rápida de crear una tabla es soltar componentes directamente en un proyecto, panel o tabla de forma libre en blanco. Se creará automáticamente una tabla de forma libre en un formato recomendado. [Vea el tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=es).
 
-![Un nuevo panel con el componente de visitas se coloca en el espacio de trabajo.](assets/automated-table.png)
+![Se colocó un nuevo panel con el componente de visitas en el espacio de trabajo.](assets/automated-table.png)
 
 ## Generador de tablas de forma libre
 
 Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas de forma libre. Con el generador habilitado, puede arrastrar y soltar varias dimensiones, desgloses, métricas y filtros para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Generar]**.
 
-![Un generador de tablas de forma libre que muestra ](assets/table-builder.png)
+![Generador de tablas de forma libre que muestra ](assets/table-builder.png)
 
 ## Interacciones de tabla
 
@@ -54,4 +54,4 @@ Obtenga más información sobre todas las [opciones de exportación](https://exp
 
 Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es) de datos de Analysis Workspace.
 
-![Tabla de forma libre que muestra las opciones de exportación y Copiar datos al portapapeles seleccionado.](assets/export-options.png)
+![Tabla de forma libre que muestra las opciones de exportación y los datos de copia al portapapeles seleccionados.](assets/export-options.png)

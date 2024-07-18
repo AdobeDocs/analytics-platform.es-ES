@@ -37,7 +37,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 
 1. Configure la visualización seleccionando una métrica, un intervalo de fechas principal, un intervalo de fechas de comparación y un filtro (si lo desea):
 
-   ![Configuración de métricas clave que muestra las opciones de métrica, intervalo de fechas principal, intervalo de fechas de comparación y segmento.](assets/key-metric-config.png)
+   ![Configuración de métrica clave que muestra las opciones de métrica, intervalo de fecha principal, intervalo de fecha de comparación y segmento.](assets/key-metric-config.png)
 
    | Ajuste de configuración | Definición |
    | --- | --- |
@@ -79,7 +79,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## Visualización del resultado
 
-![Resultado de métrica clave que muestra los gráficos de métrica, cambio de resumen, número de resumen y línea.](assets/key-metric-output.png)
+![Resultado de métrica clave que muestra la métrica, el cambio de resumen, el número de resumen y los gráficos de líneas.](assets/key-metric-output.png)
 
 Tenga en cuenta:
 
@@ -95,7 +95,7 @@ Tenga en cuenta:
 
 El resumen de métricas clave ofrece varias configuraciones flexibles para mejorar la creación de informes y la comunicación de métricas importantes. Se puede acceder a la configuración a través del icono de engranaje en la esquina superior derecha de la visualización.
 
-![Configuración del resumen de métricas clave que muestra las opciones Tipo de visualización de resumen, General y Visualización.](assets/key-metric-settings.png)
+![Configuración del resumen de métricas clave que muestra el tipo de visualización de resumen, las opciones generales y de visualización.](assets/key-metric-settings.png)
 
 | Configuración | Descripción |
 | --- | --- |

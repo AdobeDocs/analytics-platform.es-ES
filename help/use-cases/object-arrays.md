@@ -84,7 +84,7 @@ Al crear una vista de datos, están disponibles las siguientes dimensiones y mé
 
 ### Mismos ejemplos de eventos (comportamiento de informes)
 
-Solo con el evento anterior, las tablas siguientes muestran los informes del Espacio de trabajo con algunas combinaciones de dimensión y métrica.
+Solo con el evento anterior, las tablas siguientes muestran los informes de Workspace con algunas combinaciones de dimensión y métrica.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |

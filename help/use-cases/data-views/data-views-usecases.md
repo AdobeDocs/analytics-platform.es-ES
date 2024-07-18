@@ -21,11 +21,11 @@ Estos casos de uso muestran la flexibilidad y la potencia de las vistas de datos
 Por ejemplo, al crear una vista de datos, puede crear una métrica [!UICONTROL Pedidos] a partir de un campo de esquema [!UICONTROL pageTitle] que sea una cadena. A continuación se describen los pasos que debe seguir:
 
 1. En la ficha Componentes, arrastre [!UICONTROL pageTitle] a la sección [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
-   ![Campos de esquema con una flecha que señala a pageTitle en la lista Nombre del componente.](../assets/use-case1a.png)
+   ![Campos de esquema con una flecha que señala a pageTitle en la lista Nombre de componente.](../assets/use-case1a.png)
 1. Ahora, resalte la métrica que acaba de arrastrar y cambie el nombre a [!UICONTROL Configuración de componentes] a la derecha:
-   ![Campos de esquema que resaltan Pedidos en Configuración de componentes.](../assets/orders.png)
+   ![Campos de esquema que resaltan Pedidos en la Configuración de componentes.](../assets/orders.png)
 1. Abra el cuadro de diálogo [!UICONTROL Incluir/Excluir valores] a la derecha y especifique lo siguiente:
-   ![Incluir/Excluir valores con Establecer valores de inclusión/exclusión y la opción de distinción entre mayúsculas y minúsculas seleccionada.](../assets/orders2.png)
+   ![Incluir/Excluir valores con valores de inclusión/exclusión establecidos y con distinción de mayúsculas y minúsculas seleccionados.](../assets/orders2.png)
 
    La frase “confirmación” indica que se trata de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se contará un “1” para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Funciona con Attribution IQ, filtros y en cualquier otro lugar donde se pueden usar métricas estándares.
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con un [!UICONTROL Periodo de retroactividad] de [!UICONTROL Sesión].
@@ -43,7 +43,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en Custom
 
 1. Ahora puede agregar [!UICONTROL Clasificación de valor] para presentar esta dimensión en forma de agrupación en los informes. (Sin agrupar, cada instancia de esta dimensión aparecería como un elemento de línea en los informes de Workspace).
 
-   ![Agrupación de valores con valor de Agrupamiento seleccionado.](../assets/bucketing.png)
+   ![Clasificación de valor con valor de contenedor seleccionado.](../assets/bucketing.png)
 
 ## 3. Utilice dimensiones numéricas como “métricas” en diagramas de flujo {#numeric}
 
@@ -52,7 +52,7 @@ Puede utilizar una dimensión numérica para obtener “métricas” en la visua
 1. En la pestaña [Componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-component-settings) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 2. En los informes de Workspace, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
 
-![Flujo del canal de marketing desde correos electrónicos hasta salidas/pedidos.](../assets/flow.png)
+![Flujo de canal de mercadotecnia de correos electrónicos a pedidos de salida.](../assets/flow.png)
 
 ## 4. Filtre los subeventos {#sub-event}
 
@@ -83,7 +83,7 @@ Con la función [!UICONTROL Duplicar] de la parte superior derecha, cree una ser
 
 No olvide cambiar el nombre de cada métrica para reflejar las diferencias, como Ingresos algorítmicos:
 
-![Ingresos algorítmicos con valores de Recuento seleccionados en la lista Comportamiento.](../assets/algo-revenue.png)
+![Ingresos algorítmicos con valores de Recuento seleccionados en la lista de Comportamiento.](../assets/algo-revenue.png)
 
 Para obtener más información sobre otras configuraciones de vistas de datos, consulte [Creación de vistas de datos](/help/data-views/create-dataview.md).
 Para obtener una descripción general conceptual de las vistas de datos, consulte [Información general sobre las vistas de datos](/help/data-views/data-views.md).
@@ -133,5 +133,5 @@ Actualmente, se admiten fechas posteriores al 1 de enero de 1900 (con la única 
 * Fecha-hora: una empresa minorista está recopilando la hora de cada una de sus compras en el punto de venta (TPV). Para un mes determinado, les gustaría entender los períodos de compra más concurridos por [!UICONTROL Hora del día].
 
 >[!MORELIKETHIS]
->[Fecha y Fecha-hora en la configuración del componente Formato](/help/data-views/component-settings/format.md)
+>[Fecha y fecha-hora en la configuración del componente Formato](/help/data-views/component-settings/format.md)
 

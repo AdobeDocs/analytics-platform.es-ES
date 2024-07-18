@@ -79,7 +79,7 @@ Si desea ver los ingresos por color sin una dimensión de enlace, la dimensión 
 | --- | --- |
 | naranja neón | 2099 |
 
-Ir a **[!UICONTROL Vistas de datos]** y enlazar el [!DNL Product Color] dimensión a [!DNL Product Name]:
+Vaya a **[!UICONTROL Vistas de datos]** y enlace la dimensión [!DNL Product Color] a [!DNL Product Name]:
 
 ![Dimensión de enlace](../assets/binding-dimension.png)
 
@@ -238,13 +238,13 @@ Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido
    }
    ```
 
-Si utiliza un modelo de asignación que no incluya una dimensión de enlace con el término de búsqueda, los tres productos atribuirán los ingresos a un único término de búsqueda. Por ejemplo, si utilizó [!UICONTROL Original] asignación con la dimensión de término de búsqueda:
+Si utiliza un modelo de asignación que no incluya una dimensión de enlace con el término de búsqueda, los tres productos atribuirán los ingresos a un único término de búsqueda. Por ejemplo, si utilizó la asignación [!UICONTROL Original] con la dimensión de término de búsqueda:
 
 | search_term | ingresos |
 | --- | --- |
 | guantes de boxeo | 204,97 USD |
 
-Si ha utilizado [!UICONTROL Más reciente] Al asignar con la dimensión de término de búsqueda, los tres productos siguen atribuyendo ingresos a un único término de búsqueda:
+Si ha utilizado la asignación [!UICONTROL Más reciente] con la dimensión de término de búsqueda, los tres productos siguen atribuyendo ingresos a un único término de búsqueda:
 
 | search_term | ingresos |
 | --- | --- |
@@ -252,7 +252,7 @@ Si ha utilizado [!UICONTROL Más reciente] Al asignar con la dimensión de térm
 
 Aunque este ejemplo incluye solo una persona, muchas personas que buscan cosas diferentes pueden atribuir de forma incorrecta términos de búsqueda a productos diferentes, lo que dificulta determinar cuáles son realmente los mejores resultados de búsqueda.
 
-Ahora puede enlazar [!DNL Search Term] hasta [!DNL Product Name] siempre que la variable [!DNL Searches] está presente para atribuir correctamente el término de búsqueda a los ingresos.
+Ahora puede enlazar [!DNL Search Term] a [!DNL Product Name] siempre que la métrica [!DNL Searches] esté presente para atribuir correctamente el término de búsqueda a los ingresos.
 
 ![Métrica de enlace](../assets/binding-metric.png)
 

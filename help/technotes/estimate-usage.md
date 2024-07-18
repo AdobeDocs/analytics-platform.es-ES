@@ -15,7 +15,7 @@ ht-degree: 71%
 
 Para ver el uso del Customer Journey Analytics, puede utilizar varios métodos:
 
-* Agregue las filas de datos de evento para cada conexión. Consulte [Calcular tamaño de conexión](#estimate-connection-size) más abajo. Esta es una forma sencilla de ver los datos de fila de evento, por conexión, para una marca de tiempo específica.
+* Agregue las filas de datos de evento para cada conexión. Consulte [Tamaño estimado de la conexión](#estimate-connection-size) a continuación. Esta es una forma sencilla de ver los datos de fila de evento, por conexión, para una marca de tiempo específica.
 
 * Vea su uso de tres maneras, cada una de las cuales se describe con más detalle a continuación:
    * Utilizar Analysis Workspace para informar sobre los eventos del mes pasado.
@@ -69,7 +69,7 @@ Este método le permite realizar un análisis más profundo de los datos de uso,
 >
 >    No cree una nueva conexión que abarque todos los datos solo para medir el uso, ya que el resultado sería que duplicaría el uso.
 
-1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (desde el **[!UICONTROL Métricas]** lista desplegable) hasta el primer viernes del mes, a partir del primer día del contrato de Customer Journey Analytics actual.
+1. En Workspace, cree nuevos proyectos basados en cada una de las vistas de datos y extraiga todos los eventos (de la lista desplegable **[!UICONTROL Métricas]**) antes del primer viernes del mes, a partir del primer día del contrato de Customer Journey Analytics actual.
 
    ![Tabla de forma libre que muestra eventos.](./assets/events-usage.png)
 
@@ -83,7 +83,7 @@ En Report Builder, [cree un bloque de datos](/help/report-builder/create-a-data-
 
 ## Creación de un informe automatizado en la API de Customer Journey Analytics {#api-report}
 
-1. Utilice el [API de informes de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) para ejecutar un informe con todos los datos de evento, **para cada conexión**. Configúrelo para que el informe se ejecute
+1. Use la [API de informes del Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) para ejecutar un informe con todos sus datos de evento, **para cada conexión**. Configúrelo para que el informe se ejecute
 
    * cada primer viernes de cada mes.
    * volviendo al primer día de su contrato de Customer Journey Analytics actual.
@@ -94,7 +94,7 @@ En Report Builder, [cree un bloque de datos](/help/report-builder/create-a-data-
 
 ## Administre su uso definiendo una ventana de datos móviles {#rolling}
 
-Para administrar su uso, la variable [IU de conexiones](/help/connections/create-connection.md) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.
+Para administrar su uso, la [interfaz de usuario de conexiones](/help/connections/create-connection.md) le permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.
 
 La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
 

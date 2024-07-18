@@ -24,7 +24,7 @@ En el Administrador de proyectos programados, puede editar y eliminar la program
 | [!UICONTROL Título y descripción] | Título y descripción de este proyecto. |
 | [!UICONTROL Propietario] | La persona que creó el proyecto y es propietaria de él. |
 | [!UICONTROL Etiquetas] | (opcional) El etiquetado es una buena forma de organizar los proyectos. Todos los usuarios pueden crear etiquetas y aplicar una o más a un proyecto. Sin embargo, solo verá las etiquetas de los proyectos que sean suyos o que se hayan compartido con usted. |
-| [!UICONTROL Entregado a] | Las personas destinatarias de este proyecto programado. |
+| [!UICONTROL Se Entregó A] | Las personas destinatarias de este proyecto programado. |
 | [!UICONTROL Fecha de caducidad] | Puede establecer la fecha de caducidad en un máximo de un año, independientemente de la frecuencia de programación. |
 | [!UICONTROL Frecuencia] | La frecuencia con la que desea que este proyecto programado se envíe a las personas destinatarias. |
 | [!UICONTROL Tiempo de ejecución] | A qué hora del día se envía este proyecto programado. |

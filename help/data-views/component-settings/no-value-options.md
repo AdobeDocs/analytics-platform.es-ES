@@ -31,4 +31,4 @@ Ninguna opción de valor le permite determinar cómo gestiona Analysis Workspace
 
 ## Publicación de blog
 
-A continuación se muestra una publicación de blog relacionada sobre [tratamiento de &quot;sin valor&quot; en el Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+Esta es una publicación de blog relacionada sobre [el manejo de &quot;sin valor&quot; en el Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).

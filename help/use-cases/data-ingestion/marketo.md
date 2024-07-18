@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 57%
+ht-degree: 64%
 
 ---
 
@@ -41,7 +41,7 @@ Los clientes con B2B/B2P CDP pueden realizar análisis de tipo B2C en Customer J
 
 1. Cree un [filtro](/help/components/filters/create-filters.md) para vistas de páginas web como se indica a continuación: Tipo de evento = web.webpagedetails.pageViews :
 
-   ![Ventana de definición que muestra Evento y Tipo de evento](../assets/marketo-filter.png)
+   ![Ventana de definición que muestra el evento y el tipo de evento](../assets/marketo-filter.png)
 
 1. En la tabla de forma libre, arrastre el filtro que ha creado: Vistas de página web y, a continuación, arrastre el intervalo de fechas Mes. Esto le proporciona visitas a la página web por posibles clientes cada mes:
 

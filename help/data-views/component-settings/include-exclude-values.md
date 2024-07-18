@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Incluir valores de exclusión permite crear reglas que dependen del valor de un elemento de dimensión. Los valores que no cumplen los criterios establecidos se tratan en Analysis Workspace como si nunca hubieran existido, aunque los datos aún existan en el conjunto de datos subyacente.
 
-![Ventana Vistas de datos que resalta los valores de exclusión Incluir](../assets/include-exclude.png)
+![Ventana de vistas de datos que resalta los valores Incluir exclusión](../assets/include-exclude.png)
 
 | Configuración | Descripción/caso de uso |
 | --- | --- |

@@ -13,9 +13,9 @@ ht-degree: 57%
 
 # Crear y publicar audiencias
 
-En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics con [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes.
+En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes.
 
-Lea esto [descripción general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de Customer Journey Analytics.
+Lea esta [descripción general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de Customer Journey Analytics.
 
 ## Crear audiencias {#create}
 
@@ -93,7 +93,7 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 | No se muestra | Conector de origen de Adobe Analytics a Analytics (A4T) | Hasta 30 minutos |
 | 1 | Ingesta de datos en el lago de datos (desde el conector de origen de Analytics u otras fuentes) | Hasta 90 minutos |
 | 2 | Ingesta de datos del lago de datos de Experience Platform en Customer Journey Analytics | Hasta 90 minutos |
-| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos.<p>**Nota**: la audiencia se crea/define en el Experience Platform en un plazo de 1 a 2 minutos. Sin embargo, la audiencia tarda unos 60 minutos en recibir los ID según los criterios coincidentes y está lista para la activación. | Unos 60 minutos |
+| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos.<p>**Nota**: la audiencia se crea o define en el Experience Platform en un plazo de 1 a 2 minutos. Sin embargo, la audiencia tarda unos 60 minutos en recibir los ID según los criterios coincidentes y está lista para la activación. | Unos 60 minutos |
 | 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
 | 5 | Creación del destino en Adobe Experience Platform: Activación del nuevo segmento | 1 a 2 horas |
 
@@ -101,15 +101,15 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 
 ## Usar audiencias de Customer Journey Analytics en Experience Platform {#audiences-aep}
 
-Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). Customer Journey Analytics envía la audiencia al Experience Platform con la identidad principal establecida, según lo que se haya seleccionado como [!UICONTROL ID de persona] cuando se configuró la conexión.
+Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). El Customer Journey Analytics envía la audiencia al Experience Platform con la identidad principal establecida, según lo que se seleccionó como [!UICONTROL ID de persona] cuando se configuró la conexión.
 
-A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, <user@adobe.com> se pueden segmentar en todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
+A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
-Para ver las audiencias de los Customer Journey Analytics en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Creación de segmentos]** > **[!UICONTROL Audiencias]** pestaña > **[!UICONTROL Audiencias de CJA]**.
+Para ver las audiencias de los Customer Journey Analytics en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Crear segmentos]** > pestaña **[!UICONTROL Audiencias]** > **[!UICONTROL Audiencias de CJA]**.
 
 Puede arrastrar audiencias de Customer Journey Analytics a la definición del segmento para segmentos de Adobe Experience Platform.
 
-![Adobe Resalte los segmentos en el panel izquierdo de la interfaz de usuario de Experience Platform y las audiencias de CJA en el panel principal.](assets/audiences-aep.png)
+![Resaltar segmentos en el panel izquierdo y audiencias de CJA en el panel principal con la IU de Adobe Experience Platform.](assets/audiences-aep.png)
 
 ## Preguntas frecuentes {#faq}
 
@@ -133,7 +133,7 @@ Efectivamente.
 
 +++
 
-+++**¿Customer Journey Analytics envía los datos de audiencia como eventos de canalización o como archivo sin formato que también va al lago de datos?**
++++**¿El Customer Journey Analytics envía los datos de audiencia como eventos de canalización o como un archivo sin formato que también va al lago de datos?**
 
 Customer Journey Analytics transmite los datos a RTCP a través de la canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
 
@@ -141,7 +141,7 @@ Customer Journey Analytics transmite los datos a RTCP a través de la canalizaci
 
 +++**¿Qué identidades envía el Customer Journey Analytics?**
 
-Los pares de identidad/área de nombres especificados en la variable [Configuración de conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
+Los pares de identidad/área de nombres especificados en [Configuración de conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
 
 +++
 
@@ -151,7 +151,7 @@ Véase más arriba. Solo enviamos una identidad por &quot;persona&quot; Customer
 
 +++
 
-+++**¿Procesa RTCP también los mensajes del Customer Journey Analytics? ¿Puede Customer Journey Analytics añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias?**
++++**¿RTCP también procesa los mensajes del Customer Journey Analytics? ¿Puede el Customer Journey Analytics agregar identidades a un gráfico de identidades de perfil mediante el uso compartido de audiencias?**
 
 No. Solo enviamos una identidad por “persona”, por lo que no habría bordes de gráficos para que RTCP los consumiera.
 
@@ -163,7 +163,7 @@ El momento de la actualización se basa en el momento en el que se publicó la a
 
 +++
 
-+++**¿Pueden configurar los usuarios el tiempo de actualización diario, semanal y mensual?**
++++**¿Pueden los usuarios configurar el tiempo de actualización diario, semanal y mensual?**
 
 No, los usuarios no pueden configurarlas.
 

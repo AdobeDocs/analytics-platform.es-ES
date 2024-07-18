@@ -25,7 +25,7 @@ Para cambiar la configuración de Report Builder
 
 1. Haga clic en **Aplicar**.
 
-   ![Panel de intervalos de fechas del Report Builder que muestra el botón Cancelar y Aplicar.](./assets/image38.png)
+   ![Panel de intervalo de fechas del Report Builder que muestra el botón Cancelar y aplicar.](./assets/image38.png)
 
 ## Modo sin conexión
 

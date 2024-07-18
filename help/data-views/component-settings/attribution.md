@@ -16,7 +16,7 @@ ht-degree: 28%
 
 La atribución permite personalizar la forma en que los elementos de dimensión obtienen crédito por los eventos de éxito.
 
-![Ventana de vistas de datos que resalta la opción de atribución Set](../assets/attribution-settings.png)
+![Ventana de vistas de datos que resalta la opción Establecer atribución](../assets/attribution-settings.png)
 
 Por ejemplo:
 
@@ -33,13 +33,13 @@ Puede establecer un modelo de atribución predeterminado para una métrica deter
 >
 >Tenga en cuenta lo siguiente al habilitar la atribución en una métrica:
 >
->* **Al utilizar el componente en un informe con *una sola dimensión*:** La atribución del componente ignora el modelo de asignación cuando se utiliza un modelo de atribución no predeterminado.
+>* **Al usar el componente en un informe con *una sola dimensión*:** La atribución del componente ignora el modelo de asignación cuando se usa un modelo de atribución no predeterminado.
 >
->* **Al utilizar el componente en un informe con *varias dimensiones*:** La atribución del componente retiene el modelo de asignación cuando se utiliza un modelo de atribución no predeterminado.
+>* **Al usar el componente en un informe con *varias dimensiones*:** La atribución del componente retiene el modelo de asignación cuando se usa un modelo de atribución no predeterminado.
 >
->   Las dimensiones múltiples solo están disponibles cuando [exportación de datos a la nube](/help/analysis-workspace/export/export-cloud.md).
+>   Solo hay varias dimensiones disponibles cuando [se exportan datos a la nube](/help/analysis-workspace/export/export-cloud.md).
 >
-> Para obtener más información sobre la asignación, consulte [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).
+> Para obtener más información acerca de la asignación, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).
 
 Para actualizar el modelo de atribución predeterminado de un componente:
 
@@ -47,9 +47,9 @@ Para actualizar el modelo de atribución predeterminado de un componente:
 
 1. Seleccione el componente y, a continuación, expanda la sección Atribución en el lado derecho de la pantalla.
 
-   ![Ventana de vistas de datos que resalta la opción de atribución Set](../assets/attribution-settings.png)
+   ![Ventana de vistas de datos que resalta la opción Establecer atribución](../assets/attribution-settings.png)
 
-1. Seleccionar [!UICONTROL **Establecer atribución**], luego seleccione el modelo de atribución en la [!UICONTROL **Modelo de atribución**] menú desplegable.
+1. Seleccione [!UICONTROL **Establecer atribución**] y, a continuación, seleccione el modelo de atribución en el menú desplegable [!UICONTROL **Modelo de atribución**].
 
    Consulte [Modelos de atribución](#attribution-models) para obtener más información sobre cada modelo de atribución.
 
@@ -61,7 +61,7 @@ Para actualizar el modelo de atribución predeterminado de un componente:
 >
 > * Copie la métrica en la vista de datos con cada configuración de atribución deseada. Puede incluir la misma métrica varias veces en una vista de datos, lo que otorga a cada métrica una configuración diferente. Asegúrese de etiquetar cada métrica de forma adecuada para que los analistas comprendan la diferencia entre estas métricas al generar informes.
 >
-> * Anule la métrica en Analysis Workspace. En el [Configuración de columna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), seleccione **[!UICONTROL Uso de modelos de atribución no predeterminados]** para cambiar el modelo de atribución y la ventana retrospectiva de la métrica para ese informe específico.
+> * Anule la métrica en Analysis Workspace. En la [configuración de columna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) de una métrica, seleccione **[!UICONTROL Usar modelo de atribución no predeterminado]** para cambiar el modelo de atribución y la ventana retrospectiva de la métrica para ese informe específico.
 
 ## Modelos de atribución
 
@@ -79,7 +79,7 @@ Un modelo de atribución determina qué elementos de dimensión obtienen crédit
 | ![J inversa](../assets/attribution-models/inverse_j.png) | J inversa | Otorga un 60% de crédito al primer contacto, un 20% al último contacto y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 75% de crédito a la primera interacción y un 25% de crédito a la última. Similar a la Forma de J, este modelo de atribución favorece la primera y la última interacción, pero favorece más intensamente la primera interacción. |
 | ![Deterioro de tiempo](../assets/attribution-models/time_decay.png) | Deterioro de tiempo | Sigue un declive exponencial con un parámetro de semivida personalizado, con un valor predeterminado de 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2^(-t/halflife)`, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100%. Ideal para escenarios en los que desea medir la atribución con un evento específico e importante. Cuanto más tardía sea la conversión después de este evento, menor será el crédito. |
 | ![Personalizado](../assets/attribution-models/custom.png) | Personalizado | Permite especificar los pesos que desea dar al primer punto de contacto, al último punto de contacto y a cualquier punto de contacto intermedio. Los valores especificados se normalizan al 100% incluso si los números introducidos no suman 100. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. En el caso de interacciones con dos puntos de contacto, se omite el parámetro central. Los puntos de primer y último contacto se normalizan al 100% y el crédito se asigna en consecuencia. Este modelo es ideal para los analistas que desean un control total sobre su modelo de atribución y tienen necesidades específicas que otros modelos de atribución no satisfacen. |
-| ![Algorítmico](../assets/attribution-models/algorithmic.png) | Algorítmico | Utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.<br>En un nivel alto, la atribución se calcula como una coalición de actores a los que se debe distribuir equitativamente un excedente. La distribución del superávit de cada coalición se determina de acuerdo con el superávit creado previamente por cada subcoalición (o los elementos de dimensión que participaban antes) de manera recursiva. Para más detalles, vea los artículos originales de John Harsanyi y Lloyd Shapley:<br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). Un modelo de negociación simplificado para un juego cooperativo de n personas. *International Economic Review 4(2)*, 194-220. |
+| ![Algorítmico](../assets/attribution-models/algorithmic.png) | Algorítmico | Utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.<br>En un nivel superior, la atribución se calcula como una coalición de actores a los que debe distribuirse equitativamente un excedente. La distribución del superávit de cada coalición se determina de acuerdo con el superávit creado previamente por cada subcoalición (o los elementos de dimensión que participaban antes) de manera recursiva. Para obtener más información, vea los artículos originales de John Harsanyi y Lloyd Shapley: <br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). Un modelo de negociación simplificado para un juego cooperativo de n personas. *International Economic Review 4(2)*, 194-220. |
 
 {style="table-layout:auto"}
 
@@ -91,9 +91,9 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 * **30 días**: Busca hasta 30 días después de que se produjo la conversión.
 * **60 días**: Busca hasta 60 días después de que se produjo la conversión.
 * **90 días**: Busca hasta 90 días después de que se produjo la conversión.
-* **Session**: Busca hasta el principio de la sesión en la que se produjo una conversión. Las ventanas retrospectivas de sesión respetan el [Session timeout](../create-dataview.md#session-settings).
-* **Persona (ventana del Sistema de informes)**: Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de personas sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
-* **Tiempo personalizado:** Permite establecer una ventana retrospectiva personalizada desde el momento en que se produjo una conversión. Puede especificar el número de minutos, horas, días, semanas, meses o trimestres. Por ejemplo, si se produce una conversión el 20 de febrero, una ventana retrospectiva de cinco días evaluaría todos los puntos de contacto de la dimensión del 15 de febrero al 20 de febrero en el modelo de atribución.
+* **Sesión**: Busca hasta el principio de la sesión en la que se produjo una conversión. Las ventanas retrospectivas de sesión respetan el [tiempo de espera de sesión](../create-dataview.md#session-settings) modificado.
+* **Persona (ventana de informes)**: Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de personas sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
+* **Tiempo personalizado:** le permite establecer una ventana retrospectiva personalizada desde el momento en que se produjo una conversión. Puede especificar el número de minutos, horas, días, semanas, meses o trimestres. Por ejemplo, si se produce una conversión el 20 de febrero, una ventana retrospectiva de cinco días evaluaría todos los puntos de contacto de la dimensión del 15 de febrero al 20 de febrero en el modelo de atribución.
 
 ## Ejemplo
 
@@ -105,15 +105,15 @@ Consideremos el siguiente ejemplo:
 
 Según la ventana retrospectiva y el modelo de atribución, los canales reciben crédito diferente. Los siguientes son algunos ejemplos importantes:
 
-* Uso de **primer contacto** y una **ventana retrospectiva de sesión**, la atribución solo se fijará en la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue el primero, por lo que el correo electrónico recibe un 100% de crédito por la compra de 50 dólares.
-* Uso de **primer contacto** y una **ventana retrospectiva de personas**, la atribución se fijará en las tres visitas. La búsqueda de pago fue la primera, así que recibe un 100% de crédito por la compra de 50 dólares.
-* Uso de **linear** y una **ventana retrospectiva de sesión**, el crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 dólares.
-* Uso de **linear** y una **ventana retrospectiva de personas**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 dólares por esta compra.
-* Uso de **en forma de J** y una **ventana retrospectiva de personas**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización.
+* Con **primer contacto** y una **ventana retrospectiva de sesión**, la atribución solo se fijará en la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue el primero, por lo que el correo electrónico recibe un 100% de crédito por la compra de 50 dólares.
+* Con **primer contacto** y una **ventana retrospectiva de persona**, la atribución se fijará en las tres visitas. La búsqueda de pago fue la primera, así que recibe un 100% de crédito por la compra de 50 dólares.
+* Con **linear** y una ventana retrospectiva de **sesión**, el crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 dólares.
+* Con **linear** y una **ventana retrospectiva de persona**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 dólares por esta compra.
+* Con **J-shape** y una **ventana retrospectiva de persona**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización.
    * Se otorga un crédito del 60 % a la visualización, es decir, 30 dólares.
    * El 20 % de crédito se asigna a la búsqueda de pago, 10 dólares en este caso.
    * El 20% restante se divide entre el medio social y el correo electrónico, lo que otorga 5 dólares a cada uno.
-* Uso de **Deterioro de tiempo** y una **ventana retrospectiva de personas**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Con la semivida de 7 días predeterminada:
+* Con **Deterioro de tiempo** y una **ventana retrospectiva de persona**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Con la semivida de 7 días predeterminada:
    * Diferencia de cero días entre el punto de contacto de visualización y la conversión. `2^(-0/7) = 1`
    * Diferencia de cero días entre el punto de contacto del correo electrónico y la conversión. `2^(-0/7) = 1`
    * Diferencia de seis días entre el punto de contacto social y la conversión. `2^(-6/7) = 0.552`

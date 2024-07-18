@@ -8,13 +8,13 @@ role: Admin
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1498'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Cancelar solicitudes de creación de informes en el Administrador de actividades de creación de informes
 
-El [!UICONTROL Administrador de actividades de informes] permite a los administradores diagnosticar y cancelar rápidamente las solicitudes de creación de informes a fin de corregir los problemas de capacidad de creación de informes durante las horas de mayor actividad en la creación de informes.
+El [!UICONTROL Administrador de actividades de creación de informes] permite a los administradores diagnosticar y cancelar rápidamente las solicitudes de creación de informes con el fin de corregir los problemas de capacidad de creación de informes durante las horas de mayor actividad en la creación de informes.
 
 Tenga en cuenta lo siguiente al cancelar las solicitudes de creación de informes:
 
@@ -22,35 +22,35 @@ Tenga en cuenta lo siguiente al cancelar las solicitudes de creación de informe
 
 * Al cancelar las solicitudes, también puede optar por restringir las solicitudes posteriores durante un período de tiempo determinado.
 
-  Cuando restringe una solicitud posterior, la acción se registra en la variable [Registro de auditoría](/help/privacy/audit-log.md) con el nombre de acción EMBARGO.
+  Cuando restringe una solicitud posterior, la acción se registra en el [Registro de auditoría](/help/privacy/audit-log.md) con el nombre de acción EMBARGO.
 
-* No puede cancelar una solicitud si [!UICONTROL **Usuario**] de una solicitud se muestra como [!UICONTROL **No reconocido**]. Cuando esto sucede, significa que el usuario se encuentra en una empresa de inicio de sesión en la que no tiene permisos administrativos.
+* No puede cancelar una solicitud si la columna [!UICONTROL **Usuario**] de una solicitud se muestra como [!UICONTROL **No reconocido**]. Cuando esto sucede, significa que el usuario se encuentra en una empresa de inicio de sesión en la que no tiene permisos administrativos.
 
-Para obtener más información sobre el Administrador de actividades de creación de informes, incluidas las ventajas clave y los requisitos de permisos, consulte [Información general del Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-overview.md).
+Para obtener más información sobre el Administrador de actividades de creación de informes, incluidas las ventajas clave y los requisitos de permisos, consulte [Información general sobre el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Cancelar solicitudes específicas
 
 Puede cancelar solicitudes individuales que consuman una gran cantidad de capacidad de creación de informes. Al cancelar una solicitud, puede optar por restringirla aún más durante un período de tiempo determinado.
 
-1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de informes]**.
+1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de creación de informes]**.
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de informes](/help/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
-1. Seleccione el [!UICONTROL **Solicitudes**] y, a continuación, seleccione una o varias solicitudes.
+1. Seleccione la ficha [!UICONTROL **Solicitudes**] y, a continuación, seleccione una o varias solicitudes.
 
    <!-- add screenshot -->
 
 1. Seleccionar [!UICONTROL **Cancelar solicitudes**].
 
-   El [!UICONTROL **Cancelar _x_ solicitudes de informe**] aparece el cuadro de diálogo.
+   Aparece el cuadro de diálogo [!UICONTROL **Cancelar _x_ solicitudes de informe**].
 
 1. El campo Cancelación muestra el mensaje que se muestra a los usuarios cuando se cancelan sus solicitudes. Se proporciona un mensaje predeterminado. Puede actualizar el mensaje predeterminado para proporcionar detalles adicionales.
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**].
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**].
 
       ![Cancelar 1 solicitud que muestra Restringir solicitudes subsiguientes seleccionadas y el mensaje de cancelación.](assets/restrict-subsequent-requests.png)
 
@@ -65,7 +65,7 @@ Puede cancelar solicitudes individuales que consuman una gran cantidad de capaci
 
       {style="table-layout:auto"}
 
-1. Seleccionar [!UICONTROL **Continuar con la cancelación**].
+1. Seleccione [!UICONTROL **Continuar con la cancelación**].
 
    Se muestra una notificación en Analysis Workspace que informa a los usuarios de que se ha cancelado la solicitud. Para obtener más información sobre cómo aparece esto en Analysis Workspace, consulte [Experiencia cuando los usuarios acceden a un informe cancelado](#experience-when-users-access-a-cancelled-report).
 
@@ -73,27 +73,27 @@ Puede cancelar solicitudes individuales que consuman una gran cantidad de capaci
 
 Puede cancelar todas las solicitudes que estén asociadas con uno o más usuarios. Al cancelar las solicitudes asociadas a un usuario, puede optar por restringir aún más las solicitudes de ese usuario durante un período de tiempo determinado.
 
-1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de informes]**.
+1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de creación de informes]**.
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de informes](/help/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
-1. Seleccione el [!UICONTROL **Usuarios**] y, a continuación, seleccione uno o varios usuarios.
+1. Seleccione la ficha [!UICONTROL **Usuarios**] y, a continuación, seleccione uno o varios usuarios.
 
    <!-- add screenshot -->
 
 1. Seleccionar [!UICONTROL **Cancelar solicitudes**].
 
-   El [!UICONTROL **Cancelar _x_ solicitudes de informes de usuarios x**] aparece el cuadro de diálogo.
+   Se muestra el cuadro de diálogo [!UICONTROL **Cancelar solicitudes de informe _x_ de x usuarios**].
 
 1. El campo Cancelación muestra el mensaje que se muestra a los usuarios cuando se cancelan sus solicitudes. Se proporciona un mensaje predeterminado. Puede actualizar el mensaje predeterminado para proporcionar detalles adicionales.
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**]
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**]
 
-      ![Cancelar 1 solicitud que muestra la opción Restringir solicitudes posteriores del usuario seleccionado.](assets/restrict-subsequent-requests-user.png)
+      ![Cancelar 1 solicitud que muestra la solicitud Restringir solicitudes subsiguientes del usuario seleccionado.](assets/restrict-subsequent-requests-user.png)
 
    1. Elija entre las siguientes opciones:
 
@@ -106,7 +106,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
 
       {style="table-layout:auto"}
 
-1. Seleccionar [!UICONTROL **Continuar con la cancelación**].
+1. Seleccione [!UICONTROL **Continuar con la cancelación**].
 
    Se muestra una notificación en Analysis Workspace que informa a los usuarios de que se ha cancelado la solicitud. Para obtener más información sobre cómo aparece esto en Analysis Workspace, consulte [Experiencia cuando los usuarios acceden a un informe cancelado](#experience-when-users-access-a-cancelled-report).
 
@@ -114,27 +114,27 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
 
 Puede cancelar todas las solicitudes que estén asociadas con uno o más proyectos. Al cancelar las solicitudes asociadas a un proyecto, puede optar por restringir aún más las solicitudes asociadas a ese proyecto durante un período de tiempo determinado.
 
-1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de informes]**.
+1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de creación de informes]**.
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de informes](/help/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
-1. Seleccione el [!UICONTROL **Proyectos**] y, a continuación, seleccione uno o varios proyectos.
+1. Seleccione la ficha [!UICONTROL **Proyectos**] y, a continuación, seleccione uno o varios proyectos.
 
    <!-- add screenshot -->
 
 1. Seleccionar [!UICONTROL **Cancelar solicitudes**].
 
-   El [!UICONTROL **Cancelar _x_ solicitudes de informes de x proyectos**] aparece el cuadro de diálogo.
+   Se muestra el cuadro de diálogo [!UICONTROL **Cancelar solicitudes de informe _x_ de x proyectos**].
 
 1. El campo Cancelación muestra el mensaje que se muestra a los usuarios cuando se cancelan sus solicitudes. Se proporciona un mensaje predeterminado. Puede actualizar el mensaje predeterminado para proporcionar detalles adicionales.
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**].
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**].
 
-      ![Cancelar 1 solicitud que muestra la opción Restringir solicitudes posteriores por proyecto](assets/restrict-subsequent-requests-project.png)
+      ![Cancelar 1 solicitud que muestra las solicitudes Restringir subsiguientes del proyecto](assets/restrict-subsequent-requests-project.png)
 
    1. Elija entre las siguientes opciones:
 
@@ -147,7 +147,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
 
       {style="table-layout:auto"}
 
-1. Seleccionar [!UICONTROL **Continuar con la cancelación**].
+1. Seleccione [!UICONTROL **Continuar con la cancelación**].
 
    Se muestra una notificación en Analysis Workspace que informa a los usuarios de que se ha cancelado la solicitud. Para obtener más información sobre cómo aparece esto en Analysis Workspace, consulte [Experiencia cuando los usuarios acceden a un informe cancelado](#experience-when-users-access-a-cancelled-report).
 
@@ -163,34 +163,34 @@ Las aplicaciones incluyen lo siguiente:
 * IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.
 * Llamadas de API desde la API 2.0
 * Alertas inteligentes
-* Exportación de tabla completa
+* Exportación de tablas completas
 * Compartir vínculos con cualquiera
 * Análisis guiado
 * Cualquier otra aplicación que consulte el motor de informes de Analytics.
 
 Para cancelar solicitudes por aplicación:
 
-1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de informes]**.
+1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de creación de informes]**.
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de informes](/help/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
-1. Seleccione el [!UICONTROL **Aplicaciones**] y, a continuación, seleccione una o varias aplicaciones.
+1. Seleccione la ficha [!UICONTROL **Aplicaciones**] y, a continuación, seleccione una o varias aplicaciones.
 
    <!-- add screenshot -->
 
 1. Seleccionar [!UICONTROL **Cancelar solicitudes**].
 
-   El [!UICONTROL **Cancelar _x_ solicitudes de informes de x proyectos**] aparece el cuadro de diálogo.
+   Se muestra el cuadro de diálogo [!UICONTROL **Cancelar solicitudes de informe _x_ de x proyectos**].
 
 1. El campo Cancelación muestra el mensaje que se muestra a los usuarios cuando se cancelan sus solicitudes. Se proporciona un mensaje predeterminado. Puede actualizar el mensaje predeterminado para proporcionar detalles adicionales.
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**]
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**]
 
-      ![Cancelar 1 solicitud que muestra Restringir solicitudes posteriores por aplicación seleccionada.](assets/restrict-subsequent-requests-application.png)
+      ![Cancelar 1 solicitud que muestra la solicitud Restringir solicitudes subsiguientes por aplicación seleccionada.](assets/restrict-subsequent-requests-application.png)
 
    1. Elija entre las siguientes opciones:
 
@@ -203,7 +203,7 @@ Para cancelar solicitudes por aplicación:
 
       {style="table-layout:auto"}
 
-1. Seleccionar [!UICONTROL **Continuar con la cancelación**].
+1. Seleccione [!UICONTROL **Continuar con la cancelación**].
 
    Se muestra una notificación en la aplicación (como en Analysis Workspace) que informa a los usuarios de que la solicitud se ha cancelado. Para obtener más información sobre cómo aparece esto en Analysis Workspace, consulte [Experiencia cuando los usuarios acceden a un informe cancelado](#experience-when-users-access-a-cancelled-report).
 

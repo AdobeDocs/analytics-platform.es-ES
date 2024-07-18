@@ -27,4 +27,4 @@ Esta visualización es similar a un gráfico de áreas, pero cada serie comienza
 
 Una nueva configuración en las visualizaciones de áreas apiladas convierte el gráfico en una visualización apilada al 100 %.
 
-![Área apilada que muestra una visualización apilada al 100 %.](assets/areastacked100.png)
+![Área apilada que muestra una visualización apilada al 100%.](assets/areastacked100.png)

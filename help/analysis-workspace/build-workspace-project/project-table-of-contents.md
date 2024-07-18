@@ -26,7 +26,7 @@ Para ver la tabla de contenido de un proyecto:
 
 1. En Analysis Workspace, vaya al proyecto en el que desea ver la tabla de contenido.
 
-1. En la navegación izquierda, seleccione el icono de tabla de contenido ![icono de tabla de contenido](assets/toc-icon.png).
+1. En la barra de navegación izquierda, seleccione el icono de tabla de contenido ![icono de tabla de contenido](assets/toc-icon.png).
 
    Se muestra la tabla de contenido del proyecto y cada panel se expande de forma predeterminada.
 

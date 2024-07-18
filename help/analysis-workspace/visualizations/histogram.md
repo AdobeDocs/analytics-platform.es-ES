@@ -55,7 +55,7 @@ Para ajustar la configuración de su histograma, haga clic en el icono de Config
 
 Para ver o modificar los datos de origen de un gráfico de histograma, haga clic en el punto del encabezado de Histograma para ir a **[!UICONTROL Configuración de fuente de datos]** > **[!UICONTROL Mostrar fuente de datos]**.
 
-![Opciones de configuración de fuente de datos con las opciones Mostrar fuente de datos y Bloquear selección seleccionadas.](assets/manage-data-source.png)
+![Opciones de configuración de Data Source con la opción Mostrar Source de datos y Bloquear selección seleccionada.](assets/manage-data-source.png)
 
 Los filtros creados previamente que se muestran en la tabla son filtros internos y no aparecerán en el selector de filtros. Haga clic en el icono “i” junto al nombre del filtro y, a continuación, haga clic en **[!UICONTROL Hacer público]** para que el filtro sea público.
 
@@ -65,4 +65,4 @@ Para explorar más formas en las que administrar las tablas de datos de forma li
 
 ## Publicación de blog
 
-Consulte esta publicación de blog para obtener información sobre [uso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).
+Consulte esta publicación de blog acerca de información sobre [el uso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).

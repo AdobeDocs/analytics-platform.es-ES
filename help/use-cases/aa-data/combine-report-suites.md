@@ -13,9 +13,9 @@ ht-degree: 57%
 
 # Combinación de grupos de informes con diferentes esquemas
 
-El [Conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) incorpora datos de grupos de informes de Adobe Analytics en Adobe Experience Platform para su uso en aplicaciones de Adobe Experience Platform, como Real-time Customer Data Platform y Customer Journey Analytics (Customer Journey Analytics). Cada grupo de informes introducido en Adobe Experience Platform está configurado como flujo de datos de conexión de origen individual, y cada flujo de datos aterriza como un conjunto de datos dentro del lago de datos de Adobe Experience Platform. El conector de origen de Analytics crea un conjunto de datos por grupo de informes.
+El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) incorpora datos de grupos de informes de Adobe Analytics en Adobe Experience Platform para su uso en aplicaciones de Adobe Experience Platform, como Real-time Customer Data Platform y Customer Journey Analytics (Customer Journey Analytics). Cada grupo de informes introducido en Adobe Experience Platform está configurado como flujo de datos de conexión de origen individual, y cada flujo de datos aterriza como un conjunto de datos dentro del lago de datos de Adobe Experience Platform. El conector de origen de Analytics crea un conjunto de datos por grupo de informes.
 
-Los clientes de Customer Journey Analytics utilizan [conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) para integrar conjuntos de datos del lago de datos de Adobe Experience Platform en Customer Journey Analytics Analysis Workspace. Sin embargo, al combinar grupos de informes dentro de una conexión, las diferencias de esquema entre grupos de informes deben resolverse con Adobe Experience Platform [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) funcionalidad. El propósito es garantizar que las variables de Adobe Analytics, como las props y las eVars, tengan un significado coherente en Customer Journey Analytics.
+Los clientes de Customer Journey Analytics usan [conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) para integrar conjuntos de datos del lago de datos de Adobe Experience Platform en Customer Journey Analytics Analysis Workspace. Sin embargo, al combinar grupos de informes dentro de una conexión, las diferencias de esquema entre grupos de informes deben resolverse con la funcionalidad [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) de Adobe Experience Platform. El propósito es garantizar que las variables de Adobe Analytics, como las props y las eVars, tengan un significado coherente en Customer Journey Analytics.
 
 ## Las diferencias de esquema entre los grupos de informes son problemáticas
 
@@ -30,10 +30,10 @@ Para simplificar, supongamos que son las únicas eVars definidas para ambos grup
 
 Además, supongamos que realiza las siguientes acciones:
 
-- Crear una conexión de origen de Analytics (sin usar la preparación de datos) que ingrese **Grupo de informes A** en el lago de datos de Adobe Experience Platform como **Conjunto de datos A**.
-- Crear una conexión de origen de Analytics (sin usar la preparación de datos) que ingrese **Grupo de informes B** en el lago de datos de Adobe Experience Platform como **Conjunto de datos B**.
-- Crear un [conexión de Customer Journey Analytics](/help/connections/create-connection.md) llamado **Todos los grupos de informes** que combina los conjuntos de datos A y B.
-- Crear un [Vista de datos del Customer Journey Analytics](/help/data-views/create-dataview.md) llamado **Vista global** que se basa en la conexión Todos los grupos de informes.
+- Cree una conexión de origen de Analytics (sin usar la preparación de datos) que ingrese **Grupo de informes A** en el lago de datos de Adobe Experience Platform como **Conjunto de datos A**.
+- Cree una conexión de origen de Analytics (sin usar la preparación de datos) que ingrese **Grupo de informes B** en el lago de datos de Adobe Experience Platform como **Conjunto de datos B**.
+- Crear una [conexión de Customer Journey Analytics](/help/connections/create-connection.md) llamada **Todos los grupos de informes** que combina los conjuntos de datos A y B.
+- Cree una [vista de datos del Customer Journey Analytics](/help/data-views/create-dataview.md) llamada **Vista global** que esté basada en la conexión de Todos los grupos de informes.
 
 Sin el uso de la preparación de datos para resolver las diferencias de esquema entre los conjuntos de datos A y B, las eVars de la vista de datos global contendrán una mezcla de valores:
 
@@ -52,7 +52,7 @@ Esta situación resulta en informes sin sentido para eVar1 y eVar2:
 
 La funcionalidad Preparación de datos del Experience Platform está integrada con el conector de origen de Analytics y se puede utilizar para resolver las diferencias de esquema descritas en el escenario anterior. Esto da como resultado eVars con significados coherentes en la vista de datos del Customer Journey Analytics. (Las convenciones de nomenclatura que se utilizan a continuación se pueden personalizar para adaptarlas a sus necesidades).
 
-1. Antes de crear los flujos de datos de conexión de origen para los grupos de informes A y B, [Creación de un nuevo esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es) en Adobe Experience Platform (lo llamaremos **Esquema unificado** en nuestro ejemplo). Añada lo siguiente al esquema:
+1. Antes de crear los flujos de datos de conexión de origen para los grupos de informes A y B, [Cree un nuevo esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es) en Adobe Experience Platform (lo llamaremos **Esquema unificado** en nuestro ejemplo). Añada lo siguiente al esquema:
 
    | «Esquema unificado» |
    | --- |
@@ -85,9 +85,9 @@ La funcionalidad Preparación de datos del Experience Platform está integrada c
    | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;path>_.Business_unit |
    | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Search_term |
 
-1. Ahora cree un **Todos los grupos de informes** para el Customer Journey Analytics, combinando los conjuntos de datos A y B.
+1. Ahora cree una conexión de **Todos los grupos de informes** para el Customer Journey Analytics, combinando los conjuntos de datos A y B.
 
-1. Crear un **Vista global** vista de datos en Customer Journey Analytics. Ignore los campos de eVar originales e incluya solo los campos del grupo de campos Campos unificados.
+1. Crear una **vista global** vista de datos en el Customer Journey Analytics. Ignore los campos de eVar originales e incluya solo los campos del grupo de campos Campos unificados.
 
    **Vista global** vista de datos en el Customer Journey Analytics:
 

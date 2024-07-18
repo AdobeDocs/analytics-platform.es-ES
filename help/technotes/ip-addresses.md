@@ -16,7 +16,7 @@ ht-degree: 31%
 
 La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización.
 
-Esta página incluye las direcciones IP que debe añadir a la lista de permitidos para que los sistemas salientes funcionen, como [exportación de datos a un proveedor de la nube](/help/analysis-workspace/export/export-cloud.md).
+Esta página incluye las direcciones IP que debe agregar a la lista de permitidos para que funcionen los sistemas salientes, como [exportar datos a un proveedor de la nube](/help/analysis-workspace/export/export-cloud.md).
 
 >[!IMPORTANT]
 >

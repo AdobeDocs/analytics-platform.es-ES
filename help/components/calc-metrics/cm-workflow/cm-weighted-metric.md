@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 5e73ab52-627a-4064-bfb7-354c0ba1e4ee
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 78%
+source-wordcount: '190'
+ht-degree: 76%
 
 ---
 
@@ -26,10 +26,10 @@ Tenga en cuenta que esta fórmula depende de un plazo de tiempo constante. Si ej
 
 Este filtro muestra la frecuencia de rebotes para el principal 30 por ciento de las páginas, cuando se clasifica por visitas.
 
-![Si y, a continuación, filtre mostrando la Tasa de salida hacia otro sitio del 30 % principal de las páginas clasificadas por visitas.](assets/cm_wbr_2.png)
+![Si y luego el filtro muestran la Tasa de salida hacia otro sitio del 30% de las páginas principales clasificadas por visitas.](assets/cm_wbr_2.png)
 
 ## Métrica ponderada {#section_F2D16B14569948289CF1310F9E6E3FC2}
 
 Suponga que desea clasificar por la tasa de devoluciones en general, pero las páginas con un mayor número de visitas deben estar en una posición superior de la lista. Puede crear una frecuencia de rebotes ponderada similar a esta:
 
-![Resumen con definición para Visitas de frecuencia de rebote.](assets/cm_wbr.png)
+![Resumen con definición para las visitas de frecuencia de rebote.](assets/cm_wbr.png)

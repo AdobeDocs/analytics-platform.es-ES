@@ -21,7 +21,7 @@ Vea aquí un vídeo sobre la configuración de filas y columnas:
 
 ## Editar [!UICONTROL configuración de columna] {#edit-column-settings}
 
-Para acceder a [!UICONTROL Configuración de columna], arrastre una tabla de forma libre al proyecto y haga clic en el icono de configuración ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en el encabezado de la columna.
+Para obtener acceso a [!UICONTROL Configuración de columna], arrastre una tabla de forma libre al proyecto y, a continuación, haga clic en el icono de configuración ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en el encabezado de la columna.
 
 <img src="./assets/column-settings.png" alt="Vista previa de la configuración de Columna que muestra las celdas totales, las celdas de tabla y las celdas de tabla." width="50%" />
 
@@ -62,19 +62,19 @@ Permite anular el modelo de atribución predeterminado establecido en [Vistas de
 >
 >Tenga en cuenta lo siguiente al actualizar la atribución de un componente a un modelo de atribución no predeterminado:
 >
->* **Al utilizar el componente en un informe con *una sola dimensión*:** La atribución del componente ignora el modelo de asignación cuando se utiliza un modelo de atribución no predeterminado.
+>* **Al usar el componente en un informe con *una sola dimensión*:** La atribución del componente ignora el modelo de asignación cuando se usa un modelo de atribución no predeterminado.
 >
->* **Al utilizar el componente en un informe con *varias dimensiones*:** La atribución del componente retiene el modelo de asignación cuando se utiliza un modelo de atribución no predeterminado.
+>* **Al usar el componente en un informe con *varias dimensiones*:** La atribución del componente retiene el modelo de asignación cuando se usa un modelo de atribución no predeterminado.
 >
->   Las dimensiones múltiples solo están disponibles cuando [exportación de datos a la nube](/help/analysis-workspace/export/export-cloud.md).
+>   Solo hay varias dimensiones disponibles cuando [se exportan datos a la nube](/help/analysis-workspace/export/export-cloud.md).
 >
-> Para obtener más información sobre la asignación, consulte [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).
+> Para obtener más información acerca de la asignación, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).
 
 Para utilizar un modelo de atribución no predeterminado para una métrica en una Analysis Workspace:
 
 1. Haga clic en el icono Configuración (engranaje) de una métrica en una columna de Tabla de forma libre.
 
-   ![Las opciones de Configuración de columna resaltan la opción Configuración de datos: Utilice un modo de atribución no predeterminado.](assets/attribution-checkbox.png)
+   ![Las opciones de Configuración de columna que resaltan la opción Configuración de datos: utilice un modo de atribución no predeterminado.](assets/attribution-checkbox.png)
 
 2. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. Para obtener más información sobre los diferentes modelos de atribución, consulte [Modelos de atribución](/help/data-views/component-settings/attribution.md).
 

@@ -20,15 +20,15 @@ Para especificar el tipo de métrica al crear una métrica calculada:
 
 1. Seleccione el icono de engranaje situado junto a la métrica cuyo tipo desee seleccionar.
 
-   ![Icono de engranaje con ventana emergente que muestra un tipo de métrica igual a Estándar.](assets/cm_type_alloc.png)
+   ![Icono de engranaje con ventana emergente que muestra el tipo de métrica igual a Estándar.](assets/cm_type_alloc.png)
 
 1. Elija entre las siguientes opciones:
 
    | Tipo de métrica | Definición |
    |---|---|
    | Estándar | Estas métricas son las mismas métricas utilizadas en los informes de [!DNL Analytics] estándares. Si una fórmula consiste en una única métrica estándar, muestra datos idénticos a los de su métrica no calculada homóloga. Las métricas estándar son útiles para crear métricas calculadas específicas para cada elemento de línea individual. Por ejemplo, [Pedidos] / [Sesiones] toma pedidos para ese elemento de línea específico y lo divide por el número de sesiones para ese elemento de línea específico. |
-   | Total general | Utilice el total general para el período de informe de cada elemento de línea. Si una fórmula consiste en una única métrica de total general, muestra el mismo número de total general en cada elemento de línea. Las métricas de total general son útiles para crear métricas calculadas que se comparan con los datos totales. Por ejemplo, [Pedidos] / [Total de sesiones] muestra la proporción de pedidos en relación con TODAS las sesiones de un canal, no solo las sesiones del elemento de línea específico. |
+   | Total general | Utilice el total general para el período de informe de cada elemento de línea. Si una fórmula consiste en una única métrica de total general, muestra el mismo número de total general en cada elemento de línea. Las métricas de total general son útiles para crear métricas calculadas que se comparan con los datos totales. Por ejemplo, [Pedidos] / [Sesiones totales] muestra la proporción de pedidos en comparación con TODAS las sesiones de un canal, no solo las sesiones del elemento de línea específico. |
 
 ## Atribución
 
-Para obtener información sobre la atribución en Customer Journey Analytics, consulte [Configuración del componente de atribución](/help/data-views/component-settings/attribution.md).
+Para obtener información acerca de la atribución en Customer Journey Analytics, consulte [Configuración del componente Atribución](/help/data-views/component-settings/attribution.md).

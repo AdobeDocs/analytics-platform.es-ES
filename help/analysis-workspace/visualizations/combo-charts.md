@@ -15,7 +15,7 @@ ht-degree: 85%
 
 La visualización de [!UICONTROL gráficos combinados] facilita la creación rápida de una visualización de comparación sin tener que generar una tabla primero. Puede ver fácilmente las tendencias en sus datos en una combinación de líneas/barras.
 
-Utilice un [!UICONTROL Gráfico combinado] hasta:
+Use un [!UICONTROL gráfico combinado] para lo siguiente:
 
 * Comparar los pedidos de esta semana con los del mismo período del mes pasado (y del año pasado), todo ello con unos pocos clics.
 * Analizar y comparar rápidamente varias métricas (por ejemplo, [!UICONTROL Visitantes únicos] e [!UICONTROL Ingresos]) en el mismo gráfico.
@@ -41,8 +41,8 @@ Recuerde:
 
    | Tipo de comparación de líneas | Definición |
    | --- | --- |
-   | **[!UICONTROL Comparación del tiempo]** | El tipo de comparación más común: comparar este período de tiempo con hace cuatro semanas, por ejemplo. Si ha seleccionado [!UICONTROL Comparación temporal], realice una selección secundaria de qué período de tiempo quiere comparar.<p>![Comparación de líneas con el periodo de tiempo seleccionado y el campo de selección secundario para el periodo de tiempo.](assets/combo-time-period.png) |
-   | **[!UICONTROL Función]** | Puede introducir una función como [!UICONTROL Promedio] en la comparación. Consulte la lista de funciones admitidas a continuación.<p>![Menú desplegable de comparación de líneas que muestra Funciones seleccionadas y una lista de funciones compatibles disponibles.](assets/combo-functions.png) |
+   | **[!UICONTROL Comparación del tiempo]** | El tipo de comparación más común: comparar este período de tiempo con hace cuatro semanas, por ejemplo. Si ha seleccionado [!UICONTROL Comparación temporal], realice una selección secundaria de qué período de tiempo quiere comparar.<p>![Comparación lineal con el período de tiempo seleccionado y el campo de selección secundario para el período de tiempo.](assets/combo-time-period.png) |
+   | **[!UICONTROL Función]** | Puede introducir una función como [!UICONTROL Promedio] en la comparación. Consulte la lista de funciones admitidas a continuación.<p>![Menú desplegable de comparación de líneas que muestra las funciones seleccionadas y una lista de las funciones compatibles disponibles.](assets/combo-functions.png) |
    | **[!UICONTROL Métrica secundaria]** | Por ejemplo, podría comparar [!UICONTROL Ingresos] con otra métrica.<p>![Gráfico combinado que compara dos métricas.](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
@@ -77,13 +77,13 @@ Este es un ejemplo de la media acumulada de la métrica Ingresos:
 
 Este es un ejemplo de un gráfico combinado con las funciones Media acumulada y Media:
 
-![Gráfico combinado que muestra las funciones media acumulada y media.](assets/combo-two-functions.png)
+![Gráfico combinado que muestra las funciones media y media acumulativa.](assets/combo-two-functions.png)
 
 ## Configuración de gráficos combinados
 
 Haga clic en el icono de engranaje en la parte superior derecha de un gráfico combinado para cambiar su configuración.
 
-![La vista Configuración del gráfico combinado muestra las opciones que se describen a continuación.](assets/combo-settings.png)
+![Vista de configuración de gráfico combinado que muestra las opciones que se describen a continuación.](assets/combo-settings.png)
 
 | Configuración | Definición |
 | --- | --- |

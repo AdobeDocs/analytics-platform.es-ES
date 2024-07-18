@@ -8,7 +8,7 @@ role: User
 source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
 workflow-type: tm+mt
 source-wordcount: '895'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -18,7 +18,7 @@ Con el calendario, puede especificar fechas e intervalos de fechas o seleccionar
 
 Las selecciones de calendario se aplican a nivel de panel, pero tiene la opción de aplicarlas a todos los paneles. Al hacer clic en un intervalo de fechas en Workspace, la interfaz muestra el mes natural actual y el mes natural anterior. Puede ajustar estos dos calendarios haciendo clic en las flechas derecha e izquierda de cada esquina superior respectiva.
 
-![Calendario que muestra octubre de 2022 y noviembre de 2022 con los días 1 a 30 de noviembre seleccionados.](assets/aw_calendar2.png){width="60%"}
+![Calendario que muestra octubre de 2022 y noviembre de 2022 con los días del 1 al 30 de noviembre seleccionados.](assets/aw_calendar2.png){width="60%"}
 
 El primer clic en un calendario inicia una selección de intervalo de fechas. El segundo clic completa una selección de intervalo de fechas, que se resalta. Si la tecla `Shift` se mantiene pulsada (o se utiliza el clic derecho), se anexa al rango seleccionado actualmente.
 
@@ -49,12 +49,12 @@ Para usar intervalos de fechas relativos del panel
 Si se seleccionan fechas relativas, las fechas móviles se basarán en la fecha de inicio del calendario del panel y no en la fecha actual.
    * Si esta opción no está seleccionada, las fechas móviles se basarán en la fecha actual.
 
-   ![Calendario con la opción Crear componentes de intervalo de fechas en relación con el calendario del panel seleccionado](assets/relative-date-selected.png){width="60%"}
+   ![Calendario con los componentes Hacer intervalo de fechas relativo al calendario del panel seleccionado](assets/relative-date-selected.png){width="60%"}
 
 1. Haga clic en **Aplicar**.
 Las fechas relativas se muestran en la esquina superior derecha.
 
-   ![Tabla de forma libre con fechas relativas resaltadas y que muestran el mes pasado resaltado. ](assets/relative-date-range1.png)
+   ![Tabla de forma libre con fechas relativas resaltadas y que muestra el mes pasado resaltado. ](assets/relative-date-range1.png)
 
 ## Pautas para intervalos de fechas relativos del panel {#guidelines}
 
@@ -62,7 +62,7 @@ Tenga en cuenta las siguientes directrices cuando utilice intervalos de fechas r
 
 ### Fórmulas e intervalos de fechas relativos {#formula-relative-dates}
 
-Si tiene fechas relativas seleccionadas, todas las fórmulas de fecha utilizarán la fecha de inicio del panel como punto de partida.
+Si tiene seleccionadas fechas relativas, todas las fórmulas de fecha utilizarán la fecha de inicio del panel como punto de partida.
 
 ### Calendarios personalizados e intervalos de fechas relativos {#custom-calendar-formulas}
 
@@ -70,7 +70,7 @@ Cuando se usa un calendario personalizado basado en semanas y se añaden meses o
 
 ### Acerca de los filtros que utilizan fechas móviles e intervalos de fechas relativos en el panel {#segments-relative-dates}
 
-Si genera un filtro o utiliza un filtro con una fecha móvil, por ejemplo, los últimos 7 días o las últimas 2 semanas, y hace clic en la previsualización del filtro, la fecha móvil comenzará desde *Hoy* en lugar de la fecha de inicio del panel. Como resultado, la vista previa del filtro no coincidirá cuando realmente utilice el filtro en la tabla. La vista previa se ve afectada, no el filtro en sí.
+Si genera un filtro o usa un filtro con una fecha móvil, por ejemplo, los últimos 7 días o las últimas 2 semanas, y hace clic en la vista previa del filtro, comenzará la fecha móvil a partir de *Hoy* en lugar de la fecha de inicio del panel. Como resultado, la vista previa del filtro no coincidirá cuando realmente utilice el filtro en la tabla. La vista previa se ve afectada, no el filtro en sí.
 
 ## Directrices para los intervalos de fechas del panel y las vistas previas {#guidelines-panel-dates}
 

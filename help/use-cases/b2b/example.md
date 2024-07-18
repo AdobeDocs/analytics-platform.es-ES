@@ -10,7 +10,7 @@ role: User
 source-git-commit: 9c60c00818e82a6ca891ab9d90260922437c6cca
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -44,9 +44,9 @@ La relación entre los esquemas de búsqueda, el esquema de perfil y el esquema 
 
 ![Relación entre esquemas B2B](assets/classes.png)
 
-Para cada conjunto de datos de búsqueda que agregue a su conexión, debe definir explícitamente la relación con un conjunto de datos de evento mediante **[!UICONTROL Clave]** y **[!UICONTROL Clave de coincidencia]** en el **[!UICONTROL Editar conjunto de datos]** diálogo. Por ejemplo:
+Para cada conjunto de datos de búsqueda que agregue a su conexión, debe definir explícitamente la relación con un conjunto de datos de evento mediante **[!UICONTROL Key]** y **[!UICONTROL Matching key]** en el cuadro de diálogo **[!UICONTROL Editar conjunto de datos]**. Por ejemplo:
 
-![Clave: clave de coincidencia](assets/key-matchingkey.png)
+![Clave - Clave de coincidencia](assets/key-matchingkey.png)
 
 Se utilizan cuatro esquemas explícitamente para conectar el esquema Person a otros esquemas relevantes: Cuenta, Oportunidad, Campaña y Lista de marketing. Estos esquemas se basan en las siguientes clases de esquema:
 
@@ -55,9 +55,9 @@ Se utilizan cuatro esquemas explícitamente para conectar el esquema Person a ot
 * Miembros de lista de marketing empresarial de XDM
 * Miembros de campaña empresarial de XDM
 
-Para cada conjunto de datos de búsqueda, para un esquema basado en una clase de esquema de este tipo, también puede habilitar **[!UICONTROL Transformar conjunto de datos]** para garantizar que los datos se transformen en búsquedas basadas en personas. Consulte [Transformar conjuntos de datos para búsquedas B2B](/help/connections/transform-datasets-b2b-lookups.md) para obtener más información.
+Para cada conjunto de datos de búsqueda, para un esquema basado en una clase de esquema de este tipo, también habilita **[!UICONTROL Transformar conjunto de datos]** para garantizar que los datos se transformen para búsquedas basadas en personas. Consulte [Transformación de conjuntos de datos para búsquedas B2B](/help/connections/transform-datasets-b2b-lookups.md) para obtener más información.
 
-La siguiente tabla proporciona un ejemplo de la [!UICONTROL ID de persona], [!UICONTROL Clave], y [!UICONTROL Clave de coincidencia] valores para cada uno de los conjuntos de datos.
+La tabla siguiente proporciona un ejemplo de información general de los valores de [!UICONTROL ID de persona], [!UICONTROL clave] y [!UICONTROL clave coincidente] para cada uno de los conjuntos de datos.
 
 
 | Conjunto de datos | ID de la persona | Clave | Clave de coincidencia (en el conjunto de datos de evento) |
@@ -71,12 +71,12 @@ La siguiente tabla proporciona un ejemplo de la [!UICONTROL ID de persona], [!UI
 
 {style="table-layout:auto"}
 
-Consulte [Adición y configuración de conjuntos de datos](../../connections/create-connection.md) para obtener más información sobre cómo configurar los ajustes de un conjunto de datos.
+Consulte [Agregar y configurar conjuntos de datos](../../connections/create-connection.md) para obtener más información sobre cómo establecer la configuración de un conjunto de datos.
 
 
 ## Vista de datos
 
-Para tener acceso a dimensiones y métricas B2B relevantes al crear el proyecto de Workspace, debe definir la vista de datos en consecuencia.
+Para tener acceso a dimensiones y métricas B2B relevantes al crear su proyecto de Workspace, debe definir la vista de datos en consecuencia.
 
 Puede añadir los siguientes componentes como dimensiones a la vista de datos para asegurarse de que puede informar a nivel personal sobre los datos B2B. Los nombres de los componentes se modifican para una mayor claridad.
 
@@ -298,11 +298,11 @@ No metric components are defined as part of this dataset.
 
 ## Workspace
 
-Con los componentes correctamente definidos en la vista de datos, ahora puede crear informes y visualizaciones B2B específicos en el proyecto de Workspace.
+Con los componentes correctamente definidos en la vista de datos, ahora puede crear informes y visualizaciones B2B específicos en su proyecto de Workspace.
 
 A continuación se muestra un proyecto de ejemplo que se basa en la conexión y la vista de datos descritas anteriormente.
 
-![Proyecto de ejemplo](assets/sample-project.png)
+![Proyecto de muestra](assets/sample-project.png)
 
 <!-- See the descriptions for each visualization for more details.
 

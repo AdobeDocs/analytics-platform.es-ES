@@ -32,7 +32,7 @@ Puede crear filtros a partir de un punto de contacto, añadir filtros como punto
 
    Cuando el Generador de filtros se abre, ya contiene el filtro secuencial creado previamente que concuerda con el punto de contacto seleccionado:
 
-   ![El Generador de filtros muestra el filtro secuencial rellenado previamente y generado previamente.](assets/segment-builder.png)
+   ![El Generador de filtros muestra el filtro secuencial generado y rellenado previamente.](assets/segment-builder.png)
 
 1. Asigne un título y una descripción al filtro y guárdelo.
 
@@ -53,10 +53,10 @@ Puede comparar una cantidad ilimitada de filtros en la visualización de visitas
 1. Seleccione los filtros que quiera comparar en el carril [!UICONTROL Filtros] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 filtros: usuarios de EE. UU. y usuarios fuera de EE. UU.
 1. Arrástrelos a la zona de colocación Filtro en la parte superior.
 
-   ![La visualización de visitas en el orden previsto con filtros seleccionados y una flecha roja que señala a la zona de colocación Filtro.](assets/segment-drop.png)
+   ![Visualización de visitas en el orden previsto con filtros seleccionados y una flecha roja que señala a la zona de colocación Filtro.](assets/segment-drop.png)
 
 1. Opcional: puede mantener Todas las visitas como el contenedor predeterminado o eliminarlo.
 
-   ![La visita en orden previsto muestra todas las visitas junto con los dos filtros arrastrados en el paso anterior.](assets/seg-compare.png)
+   ![Secuelas que muestran todas las visitas junto con los dos filtros arrastrados en el paso anterior.](assets/seg-compare.png)
 
 1. Ahora puede comparar las visitas en orden previsto de los dos filtros como, por ejemplo, cuando un filtro supera a otro u otra información.

@@ -16,7 +16,7 @@ ht-degree: 57%
 
 Puede crear intervalos de fechas personalizados en Analysis Workspace y guardarlos como componentes de tiempo.
 
-Para obtener información sobre cómo agregar intervalos de fechas existentes a un proyecto, consulte [Resumen de calendario e intervalos de fechas](/help/components/date-ranges/calendar.md).
+Para obtener información acerca de cómo agregar intervalos de fechas existentes a un proyecto, vea [Resumen de calendario e intervalos de fechas](/help/components/date-ranges/calendar.md).
 
 Para crear un intervalo de fechas personalizado:
 
@@ -24,7 +24,7 @@ Para crear un intervalo de fechas personalizado:
 
    ![página de intervalo de fecha](assets/date-ranges.png)
 
-1. Seleccionar [!UICONTROL **Crear nuevo intervalo de fechas**].
+1. Seleccione [!UICONTROL **Crear nuevo intervalo de fechas**].
 
 1. En el Generador de intervalos de fechas, especifique la siguiente información:
 
@@ -34,7 +34,7 @@ Para crear un intervalo de fechas personalizado:
    | [!UICONTROL **Descripción**] | Una descripción para el intervalo de fechas. |
    | [!UICONTROL **Etiquetas**] | Las etiquetas que desee aplicar al intervalo de fechas. |
    | [!UICONTROL **Intervalo de fecha**] | Permite elegir un intervalo de fechas personalizado. De forma predeterminada, se seleccionan los últimos 30 días. |
-   | [!UICONTROL **Preestablecido**] | Elija entre una lista de intervalos de fechas preestablecidos, como [!UICONTROL **Ayer**], [!UICONTROL **Últimos 7 días**], [!UICONTROL **Últimos 30 días**], etc. |
+   | [!UICONTROL **Ajuste preestablecido**] | Elija de una lista de intervalos de fechas preestablecidos, como [!UICONTROL **Ayer**], [!UICONTROL **Últimos 7 días**], [!UICONTROL **Últimos 30 días**], etc. |
    | [!UICONTROL **Hora de inicio**] | Hora del día a la que comienza el intervalo de fechas. |
    | [!UICONTROL **Hora de finalización**] | Hora del día a la que finaliza el intervalo de fechas. |
    | [!UICONTROL **Usar fechas móviles**] | Las fechas móviles le permiten generar un informe dinámico que observa un periodo de tiempo anterior o posterior basándose en el momento en el que ejecuta el informe. Por ejemplo, si desea un informe sobre todos los pedidos realizados el “último mes” (basándose en el campo Fecha de creación) y se ejecuta dicho informe en diciembre, verá los pedidos realizados en noviembre. Si ejecutara ese mismo informe en enero, vería los pedidos realizados en diciembre.<ul><li>**[!UICONTROL Vista previa de fecha]**: indica qué periodo de tiempo incluye el calendario móvil.</li><li>**[!UICONTROL Inicio]**: puede elegir entre el día, la semana, el mes, el trimestre o el año actuales.</li><li>**[!UICONTROL Fin]**: puede elegir entre el día, la semana, el mes, el trimestre o el año actuales.</li></ul><br>Seleccionado de forma predeterminada. |
@@ -61,7 +61,7 @@ Puede crear un intervalo de fechas que especifique una ventana móvil de 7 días
 
 ![](assets/create_date_range.png)
 
-Uso *`rolling daily`*.
+Usar *`rolling daily`*.
 
 * La configuración de inicio sería *`current day minus 6 days`*.
 

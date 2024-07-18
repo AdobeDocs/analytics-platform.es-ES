@@ -3,7 +3,8 @@ description: El Generador de filtros proporciona un lienzo al que arrastrar y en
 title: Generar filtros
 feature: Filters
 role: User
-source-git-commit: c19309488e0a541b522ca6925c7ca2bdb90f2390
+exl-id: 160021f1-6942-4682-9114-d375307d9912
+source-git-commit: e1f1e37293f1a18616b11fea685d372ec499c407
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 20%
@@ -12,31 +13,31 @@ ht-degree: 20%
 
 # Generador de filtros
 
-El [!UICONTROL Generador de filtros] permite generar filtros simples o complejos que identifican atributos y acciones de personas en visitas y eventos. Proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los eventos u otros filtros para filtrar a las personas en función de la lógica, las reglas y los operadores de la jerarquía.
+El [!UICONTROL Generador de filtros] le permite generar filtros simples o complejos que identifican atributos y acciones de personas en visitas y eventos. Proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los eventos u otros filtros para filtrar a las personas en función de la lógica, las reglas y los operadores de la jerarquía.
 
-Para obtener información sobre cómo crear filtros rápidos que se apliquen únicamente al proyecto en el que se han creado, consulte [Filtros rápidos](/help/components/filters/quick-filters.md).
+Para obtener información sobre cómo crear filtros rápidos que se apliquen solamente al proyecto donde se crearon, consulte [Filtros rápidos](/help/components/filters/quick-filters.md).
 
 ## Acceso al Generador de filtros
 
 Puede acceder al Generador de filtros de cualquiera de las siguientes maneras:
 
-* **Navegación superior**: haga clic en **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]**.
+* **Navegación superior**: Haga clic en **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]**.
 * **[!UICONTROL Analysis Workspace]**: Con un proyecto abierto en Analysis Workspace, seleccione **[!UICONTROL + Componentes]** > **[!UICONTROL Crear filtro]**.
-* **[!UICONTROL Report Builder]**: [Trabajo con filtros en el Report Builder](/help/report-builder/work-with-filters.md).
+* **[!UICONTROL Report Builder]**: [Trabaje con filtros en el Report Builder](/help/report-builder/work-with-filters.md).
 
 ## Resumen de criterios del generador {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-Puede agregar definiciones de reglas y contenedores para definir los filtros. (Para obtener información sobre el acceso al Generador de filtros, consulte [Acceso al Generador de filtros](#access-the-filter-builder).)
+Puede agregar definiciones de reglas y contenedores para definir los filtros. (Para obtener información sobre el acceso al Generador de filtros, consulte [Acceso al Generador de filtros](#access-the-filter-builder)).
 
-![Generador de filtros que muestra las nuevas opciones de filtro descritas en esta sección.](assets/segment_builder_ui_2.png)
+![Generador de filtros que muestra las nuevas opciones de filtros descritas en esta sección.](assets/segment_builder_ui_2.png)
 
 | Elemento de la IU | Descripción |
 | --- | --- |
 | **[!UICONTROL Título]** | Asigne un nombre al filtro |
 | **[!UICONTROL Descripción]** | Proporcione una descripción detallada para el filtro. |
-| **[!UICONTROL Etiquetas]** | [Etiquetado del filtro](/help/components/filters/manage-filters.md) para crear, seleccione una lista de etiquetas existentes o cree una etiqueta nueva. |
-| **[!UICONTROL Definiciones]** | Aquí es donde usted [generación y configuración de filtros](/help/components/filters/filters-overview.md), agregue reglas y anide y secuencie contenedores. |
-| **[!UICONTROL Inclusión]** | (Selector de contenedor superior). Permite seleccionar el nivel superior [contenedor](/help/components/filters/filters-overview.md) ( [!UICONTROL Persona], [!UICONTROL Session], [!UICONTROL Evento]). El contenedor de nivel superior predeterminado es el contenedor Evento. |
+| **[!UICONTROL Etiquetas]** | [Etiquete el filtro](/help/components/filters/manage-filters.md) que está creando eligiendo de una lista de etiquetas existentes o creando una etiqueta nueva. |
+| **[!UICONTROL Definiciones]** | Aquí es donde [genera y configura filtros](/help/components/filters/filters-overview.md), agrega reglas y anida y secuencie contenedores. |
+| **[!UICONTROL Inclusión]** | (Selector de contenedor superior). Le permite seleccionar el [contenedor](/help/components/filters/filters-overview.md) de nivel superior ([!UICONTROL Persona], [!UICONTROL Sesión], [!UICONTROL Evento]). El contenedor de nivel superior predeterminado es el contenedor Evento. |
 | **[!UICONTROL Opciones]** | Icono (engranaje) | <ul><li>**[!UICONTROL + Agregar contenedor]**: le permite agregar un nuevo contenedor (debajo del contenedor de nivel superior) a la definición del filtro.</li><li>**[!UICONTROL Excluir]**: permite definir el filtro excluyendo una o más dimensiones, filtros o métricas.</li></ul> |
 | **[!UICONTROL Dimensiones]** | Los componentes se arrastran y sueltan desde la lista Dimension (barra lateral naranja). |
 | **[!UICONTROL Operador]** | Puede comparar y restringir valores utilizando una selección de operadores. (es igual a, no es igual a, contiene, contiene todo, etc.) |
@@ -51,12 +52,12 @@ Puede agregar definiciones de reglas y contenedores para definir los filtros. (P
 | **[!UICONTROL Métricas]** | La lista de métricas que puede incluir en el filtro. Haga clic en el encabezado para ampliarlo. |
 | **[!UICONTROL Filtros]** | La lista de filtros existentes que puede incluir en el filtro. Haga clic en el encabezado para ampliarlo. |
 | **[!UICONTROL Selector de vista de datos]** | Permite seleccionar el grupo de informes en el que se guardará este filtro. Puede seguir utilizando el filtro en todas las vistas de datos. |
-| **[!UICONTROL Previsualización de filtro]** | Permite obtener una vista previa de las métricas clave para ver si tiene un filtro válido y su amplitud. Representa el desglose del conjunto de datos que verá si aplica este filtro. Muestra tres círculos concéntricos y una lista para indicar el número y el porcentaje de coincidencias [!UICONTROL People], [!UICONTROL Sesiones], y [!UICONTROL Ejecución de informes] para un filtro ejecutado con un conjunto de datos.<p>Este gráfico se actualiza inmediatamente después de crear o realizar cambios en la definición del filtro. |
-| **[!UICONTROL Guardar]** o **[!UICONTROL Cancelar]** | Guarda o cancela el filtro. Después de hacer clic **[!UICONTROL Guardar]**, se le redirigirá al Administrador de filtros, donde podrá administrar el filtro. |
+| **[!UICONTROL Vista previa de filtro]** | Permite obtener una vista previa de las métricas clave para ver si tiene un filtro válido y su amplitud. Representa el desglose del conjunto de datos que verá si aplica este filtro. Muestra tres círculos concéntricos y una lista para indicar el número y el porcentaje de coincidencias de [!UICONTROL Personas], [!UICONTROL Sesiones] y [!UICONTROL Informes ejecutados] para un filtro ejecutado en un conjunto de datos.<p>Este gráfico se actualiza inmediatamente después de crear o realizar cambios en la definición del filtro. |
+| **[!UICONTROL Guardar]** o **[!UICONTROL Cancelar]** | Guarda o cancela el filtro. Después de hacer clic en **[!UICONTROL Guardar]**, se le redirigirá al Administrador de filtros, donde podrá administrar el filtro. |
 
 ## Creación de un filtro {#build-filters}
 
-1. Basta con arrastrar un Dimension, un filtro o un evento de métrica del panel izquierdo al [!UICONTROL Definiciones] field.
+1. Basta con arrastrar un Dimension, un filtro o un evento de métrica del panel izquierdo al campo [!UICONTROL Definiciones].
 
    ![](assets/drag_n_drop_dimension.png)
 
@@ -64,18 +65,18 @@ Puede agregar definiciones de reglas y contenedores para definir los filtros. (P
 1. Introduzca o seleccione un valor para el elemento seleccionado.
 1. Agregue contenedores adicionales si es necesario, utilizando las reglas **[!UICONTROL AND]**, **[!UICONTROL OR]** o **[!UICONTROL THEN]**.
 1. Después de colocar los contenedores y configurar las reglas, consulte los resultados del filtro en la tabla de validación, en la parte superior derecha. El validador indica el porcentaje y el número absoluto de vistas de página, visitas y personas únicas que coinciden con el filtro que ha creado.
-1. En **[!UICONTROL Etiquetas]**, [etiqueta](/help/components/filters/filters-tag.md) Seleccione el contenedor seleccionando una etiqueta existente o creando una nueva.
-1. Clic **[!UICONTROL Guardar]** para guardar el filtro.
+1. En **[!UICONTROL Etiquetas]**, [etiqueta](/help/components/filters/filters-tag.md) el contenedor seleccionando una etiqueta existente o creando una nueva.
+1. Haga clic en **[!UICONTROL Guardar]** para guardar el filtro.
 
-   Se le redirige a la [Administrador de filtros](/help/components/filters/manage-filters.md), donde puede etiquetar, compartir y administrar el filtro de varias formas.
+   Se le redirigirá al [administrador de filtros](/help/components/filters/manage-filters.md), donde podrá etiquetar, compartir y administrar el filtro de varias formas.
 
 ## Añadir contenedores {#containers}
 
 Puede [generar un marco de contenedores](/help/components/filters/filters-overview.md) y luego colocar reglas lógicas y operadores entre medias.
 
-1. Clic **[!UICONTROL Opciones > Agregar contenedor]**.
+1. Haga clic en **[!UICONTROL Opciones > Agregar contenedor]**.
 
-   Un nuevo [!UICONTROL **Evento**] el contenedor se abre sin un [!UICONTROL **Evento**] (Vista de página) identificados.
+   Se abre un nuevo contenedor [!UICONTROL **Event**] sin que se haya identificado [!UICONTROL **Event**] (Page View).
 
    ![](assets/new_container.png)
 
@@ -93,7 +94,7 @@ Puede generar filtros que contengan intervalos de fechas móviles para responder
 
 Por ejemplo, puede crear fácilmente un filtro que incluya a &quot;todas las personas que hayan realizado una compra en los últimos 60 días&quot;.
 
-Cree un contenedor de sesión y, dentro de él, agregue [!UICONTROL Últimos 60 días] intervalo de tiempo y métrica [!UICONTROL Pedidos superiores o iguales a 1], con un operador AND.
+Usted crea un contenedor de sesión y, dentro del mismo, agrega el intervalo de tiempo [!UICONTROL Últimos 60 días] y la métrica [!UICONTROL Pedidos es mayor o igual que 1], con un operador AND.
 
 Aquí tiene un vídeo sobre el uso de intervalos de fechas móviles en los filtros:
 
@@ -124,7 +125,7 @@ Al utilizar el apilamiento de filtros, puede reducir el recuento de filtros a 22
 
 1. Proporcione un título y una descripción para el filtro.
 
-1. Clic **[!UICONTROL Mostrar filtros]** para que aparezca la lista de filtros en el panel de navegación izquierdo.
+1. Haga clic en **[!UICONTROL Mostrar filtros]** para que aparezca la lista de filtros en el panel de navegación izquierdo.
 
 1. Arrastre los filtros que desee apilar al lienzo de definición del filtro.
 

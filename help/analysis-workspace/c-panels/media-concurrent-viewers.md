@@ -36,12 +36,12 @@ Puede configurar el panel Visualizadores simultáneos de medios con esta configu
 
 ### Vista predeterminada
 
-![La vista predeterminada de los visualizadores simultáneos de medios.](assets/concurrent-viewers-default.png)
+![Vista predeterminada de los visualizadores simultáneos de medios.](assets/concurrent-viewers-default.png)
 
 
 ### Vista de desglose de series
 
-![La vista de desglose Serie de visualizadores simultáneos de medios que muestra 7 de 10 dimensiones, segmentos o intervalos de fechas.](assets/concurrent-viewers-series-breakdown.png)
+![La vista de desglose de la serie de visualizadores simultáneos de medios que muestra 7 de 10 dimensiones, segmentos o intervalos de fechas.](assets/concurrent-viewers-series-breakdown.png)
 
 ## Salida de panel {#Output}
 

@@ -30,7 +30,7 @@ El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de
 
 >[!IMPORTANT]
 >
->[!UICONTROL Análisis de cohorte] no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden utilizar las métricas que se pueden usar en filtros en [!UICONTROL Análisis de cohorte], y solo se pueden incrementar de 1 en 1.
+>[!UICONTROL Análisis de cohorte] no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden usar las métricas de los filtros en [!UICONTROL Análisis de cohorte], y solamente se pueden incrementar de uno en uno.
 
 ## Capacidades del análisis de cohorte
 
@@ -38,15 +38,15 @@ Las siguientes funciones permiten un control preciso de las cohortes que está c
 
 ### Tabla de [!UICONTROL retención]
 
-A [!UICONTROL Retención] informe de cohorte devuelve personas: cada celda de datos muestra el número sin procesar y el porcentaje de personas en la cohorte que realizó la acción durante ese período de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
+Un informe de cohorte [!UICONTROL Retención] devuelve personas: cada celda de datos muestra el número sin procesar y el porcentaje de personas en la cohorte que realizó la acción durante ese período de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
 
 ![Informe de cohorte de representación que muestra las unidades y el porcentaje de personas de la cohorte.](assets/retention-report.png)
 
 ### [!UICONTROL Tabla de pérdida]
 
-A [!UICONTROL Pérdida] cohorte es la inversa de una tabla de retención y muestra a las personas que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
+Una cohorte [!UICONTROL Pérdida] es la inversa de una tabla de retención y muestra a las personas que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 filtros.
 
-![Tabla de pérdida que muestra las unidades y el porcentaje de personas que no cumplen los criterios de regreso de una cohorte.](assets/churn-report.png)
+![Tabla de pérdida que muestra las unidades y el porcentaje de personas que no cumplen los criterios de regreso para una cohorte.](assets/churn-report.png)
 
 ### [!UICONTROL Cálculo móvil]
 
@@ -66,4 +66,4 @@ Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es e
 
 ![Un informe de cohorte que muestra un informe personalizado con dimensiones seleccionadas no es la cohorte predeterminada basada en el tiempo.](assets/cohort-customizable-cohort-row.png)
 
-Para obtener instrucciones sobre cómo configurar y ejecutar un informe de cohorte, vaya a [Configurar un informe de análisis de cohorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Para obtener instrucciones sobre cómo configurar y ejecutar un informe de cohorte, ve a [Configurar un informe de análisis de cohorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).

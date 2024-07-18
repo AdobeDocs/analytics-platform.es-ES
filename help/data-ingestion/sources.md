@@ -52,25 +52,26 @@ Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccionar **[!UICONTROL Crear esquema]**. .
+1. Seleccione **[!UICONTROL Crear esquema]**.
+.
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
-   1. Seleccionar **[!UICONTROL Perfil individual]**.
+   1. Seleccione **[!UICONTROL Perfil individual]**.
 
       ![Crear una ventana de esquema con un perfil individual seleccionado](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    Se utiliza un esquema de Evento de experiencia para modelar el _comportamiento_ de un perfil (como nombre de la escena, botón para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se usa un esquema de Experience Event para modelar el _comportamiento_ de un perfil (como el nombre de la escena, el botón secundario para agregar al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
 
-1. En el [!UICONTROL Nombre y paso de revisión] de la [!UICONTROL Crear esquema] asistente:
+1. En el [!UICONTROL paso Nombre y revisión] del asistente [!UICONTROL Crear esquema]:
 
-   1. Introduzca una **[!UICONTROL Nombre para mostrar del esquema]** para su esquema y (opcional) un **[!UICONTROL Descripción]**.
+   1. Escriba un **[!UICONTROL nombre para mostrar en el esquema]** y (opcional) una **[!UICONTROL Descripción]**.
 
-      ![Ventana Crear esquema que muestra los campos para asignar un nombre al esquema ](./assets/create-pr-schema-wizard-step-2.png)
+      ![Crear ventana de esquema que muestra los campos para asignar un nombre al esquema ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Seleccione **[!UICONTROL Finalizar]**.
 
@@ -78,7 +79,7 @@ Para configurar el esquema:
 
    1. Seleccione **[!UICONTROL + Agregar]** en [!UICONTROL Grupos de campos].
 
-      ![Ventana Crear esquema que muestra el grupo de campos Añadir](./assets/add-field-group-button.png)
+      ![Ventana Crear esquema que muestra el grupo Agregar campo](./assets/add-field-group-button.png)
 
       Los grupos de campos son una colección reutilizable de objetos y atributos que le permiten ampliar fácilmente sus esquemas.
 
@@ -175,11 +176,11 @@ Según el origen de los datos de fidelidad, elija el conector de origen correspo
 
 Puede introducir datos de una variedad de fuentes. A continuación se muestran solo algunas de las muchas fuentes disponibles:
 
-- Las aplicaciones de Adobe (conectores de origen) incluyen [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager), y más)
+- Aplicaciones de Adobe (los conectores de origen incluyen [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) y más)
 
-- Almacenamiento en la nube (los conectores de origen incluyen [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob), y más)
+- Almacenamiento en la nube (los conectores de origen incluyen [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) y más)
 
-- Bases de datos (conectores de origen) [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server), y más)
+- Bases de datos (los conectores de origen incluyen [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server) y más)
 
 Para configurar un conector de origen, debe hacer lo siguiente:
 
@@ -193,7 +194,7 @@ Para configurar un conector de origen, debe hacer lo siguiente:
 
    1. **[!UICONTROL Seleccionar datos]**: seleccione los datos de origen que quiera ingerir.
 
-   1. **[!UICONTROL Detalles del flujo de datos]**: Proporciona detalles adicionales sobre el flujo de datos, por ejemplo el nombre y el conjunto de datos que se va a utilizar.
+   1. **[!UICONTROL Detalle del flujo de datos]**: proporciona detalles adicionales sobre el flujo de datos, por ejemplo, el nombre y el conjunto de datos que se va a utilizar.
 
    1. **[!UICONTROL Asignación]**: los campos de datos de origen entrantes se asignan a atributos del esquema asociado al conjunto de datos seleccionado.
 
@@ -209,9 +210,9 @@ Para configurar un conector de origen, debe hacer lo siguiente:
 
    1. Seleccione **[!UICONTROL Ver documentación]**.
 
-Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md) para obtener información acerca de cómo utilizar el conector de origen de Adobe Analytics.
+Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md) para obtener información sobre cómo usar el conector de origen de Adobe Analytics.
 
-Consulte [Ingesta y uso de datos de flujo continuo](./streaming.md) para obtener información sobre cómo utilizar el conector de origen de la API HTTP.
+Consulte [Ingesta y uso de datos de flujo continuo](./streaming.md) para obtener información sobre cómo usar el conector de origen de la API HTTP.
 
 Consulte [Información general sobre conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) para obtener información general sobre los conectores de origen, incluidos vínculos a más información sobre cada conector.
 
@@ -262,7 +263,7 @@ Para crear la conexión:
 
    1. Seleccione **[!UICONTROL Guardar]**.
 
-Después de crear una [conexión](/help/connections/overview.md), puede realizar varias tareas de administración, como las siguientes [selección y combinación de conjuntos de datos](/help/connections/combined-dataset.md), [comprobación del estado de los conjuntos de datos de una conexión y del estado de la ingesta de datos](/help/connections/manage-connections.md), y más.
+Después de crear una [conexión](/help/connections/overview.md), puede realizar diversas tareas de administración, como [seleccionar y combinar conjuntos de datos](/help/connections/combined-dataset.md), [comprobar el estado de los conjuntos de datos de una conexión y el estado de la ingesta de datos](/help/connections/manage-connections.md), etc.
 
 ## Configurar una vista de datos
 
@@ -323,7 +324,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel] . Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel] Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 

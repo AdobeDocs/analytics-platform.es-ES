@@ -1,6 +1,6 @@
 ---
 title: Ingesta de datos mediante el SDK para móviles de Adobe Experience Platform
-description: Explique cómo introducir datos en Customer Journey Analytics mediante el SDK para móviles de Adobe Experience Platform y la red perimetral
+description: Explique cómo introducir datos en Customer Journey Analytics mediante el SDK para móviles de Adobe Experience Platform y el Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 # Ingesta de datos mediante el SDK para móviles de Adobe Experience Platform
 
-En esta guía de inicio rápido se explica cómo puede ingerir datos de seguimiento de aplicaciones móviles directamente en Adobe Experience Platform mediante el SDK de Adobe Experience Platform Mobile y la red perimetral. A continuación, utilice esos datos en Customer Journey Analytics.
+En esta guía de inicio rápido se explica cómo puede introducir datos de seguimiento de aplicaciones móviles directamente en Adobe Experience Platform mediante el SDK y el Edge Network de Adobe Experience Platform Mobile. A continuación, utilice esos datos en Customer Journey Analytics.
 
 Para lograrlo, debe llevar a cabo lo siguiente:
 
@@ -22,7 +22,7 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 - **Configurar una secuencia de datos** para configurar Adobe Experience Platform Edge Network con el fin de enrutar los datos recopilados al conjunto de datos configurado en Adobe Experience Platform.
 
-- **Uso de etiquetas** para configurar fácilmente reglas y elementos de datos con respecto a los datos de la aplicación móvil. A continuación, asegúrese de que los datos se envíen a la secuencia de datos configurada en Adobe Experience Platform Edge Network.
+- **Use etiquetas** para configurar fácilmente reglas y elementos de datos con los datos de su aplicación móvil. A continuación, asegúrese de que los datos se envíen a la secuencia de datos configurada en Adobe Experience Platform Edge Network.
 
 - **Implementar y validar**. Debe disponer de un entorno donde pueda iterar el desarrollo de etiquetas y, una vez validado todo, publicarlo en su entorno de producción.
 
@@ -54,23 +54,24 @@ Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccionar **[!UICONTROL Crear esquema]**. .
+1. Seleccione **[!UICONTROL Crear esquema]**.
+.
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
-   1. Seleccionar **[!UICONTROL Evento de experiencia]**.
+   1. Seleccione **[!UICONTROL Evento de experiencia]**.
 
       ![Creación de un esquema](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    Se utiliza un esquema de Evento de experiencia para modelar el _comportamiento_ de un perfil (como nombre de la escena, botón para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se usa un esquema de Experience Event para modelar el _comportamiento_ de un perfil (como el nombre de la escena, el botón secundario para agregar al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
 
-1. En el [!UICONTROL Nombre y paso de revisión] de la [!UICONTROL Crear esquema] asistente:
+1. En el [!UICONTROL paso Nombre y revisión] del asistente [!UICONTROL Crear esquema]:
 
-   1. Introduzca una **[!UICONTROL Nombre para mostrar del esquema]** para su esquema y (opcional) un **[!UICONTROL Descripción]**.
+   1. Escriba un **[!UICONTROL nombre para mostrar en el esquema]** y (opcional) una **[!UICONTROL Descripción]**.
 
       ![Asignar un nombre al esquema](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -84,13 +85,13 @@ Para configurar el esquema:
 
       Los grupos de campos son colecciones reutilizables de objetos y atributos que le permiten ampliar fácilmente su esquema.
 
-   1. En el [!UICONTROL Adición de campos y grupos] , seleccione la **[!UICONTROL ExperienceEvent del SDK móvil de AEP]** de la lista.
+   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos], seleccione el grupo de campos **[!UICONTROL ExperienceEvent]** del SDK de AEP Mobile de la lista.
 
-      ![Grupo de campos Detalles del ciclo de vida móvil AEP](./assets/select-aepmobilesdk-experienceevent.png)
+      ![Grupo de campos Detalles del ciclo de vida móvil de AEP](./assets/select-aepmobilesdk-experienceevent.png)
 
       Puede seleccionar el botón de vista previa para ver una vista previa de los campos que forman parte de este grupo de campos, como `application > name`.
 
-      ![Vista previa del grupo de campos Detalles del ciclo vital móvil AEP](./assets/aepmobilesdk-experienceevent-preview.png)
+      ![Vista previa del grupo de campos Detalles del ciclo de vida móvil de AEP](./assets/aepmobilesdk-experienceevent-preview.png)
 
       Seleccione **[!UICONTROL Atrás]** para cerrar la vista previa.
 
@@ -100,11 +101,11 @@ Para configurar el esquema:
 
    ![Ejemplo de botón para agregar campo de esquema](./assets/example-mobileschema-plus.png)
 
-1. En el [!UICONTROL Propiedades del campo] panel, entrar `identification` como el [!UICONTROL Nombre de campo], **[!UICONTROL Identificación]** como el [!UICONTROL Nombre para mostrar], seleccione **[!UICONTROL Objeto]** como el [!UICONTROL Tipo] y seleccione **[!UICONTROL ExperienceEvent Core v2.1]** como el [!UICONTROL Grupo de campos].
+1. En el panel [!UICONTROL Propiedades del campo], escriba `identification` como [!UICONTROL Nombre del campo], **[!UICONTROL Identificación]** como [!UICONTROL Nombre para mostrar], seleccione **[!UICONTROL Objeto]** como [!UICONTROL Tipo] y seleccione **[!UICONTROL ExperienceEvent Core v2.1]** como [!UICONTROL Grupo de campos].
 
    >[!NOTE]
    >
-   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [crear un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) y [añadir nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (like `ecid`, `crmId`y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
+   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [cree un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) y [agregue nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (como `ecid`, `crmId` y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
 
    ![Objeto de identificación](./assets/identification-field-mobile.png)
 
@@ -254,30 +255,30 @@ Para implementar código en el sitio para recopilar datos, utilice la función E
 
 Después de crear la etiqueta, debe configurarla con las extensiones correctas y configurar los elementos de datos y las reglas según cómo quiera rastrear el sitio y enviar datos a Adobe Experience Platform.
 
-Para configurarla, seleccione la etiqueta recién creada en la lista de [!UICONTROL Propiedades de etiqueta].
+Para configurarla, seleccione la etiqueta recién creada en la lista de [!UICONTROL Propiedades de la etiqueta].
 
 
 #### **Extensiones**
 
-Añada la extensión de la red perimetral de la plataforma de Adobe a la etiqueta para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos).
+Añada la extensión del Edge Network de Adobe Platform a la etiqueta para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos).
 
 Para crear y configurar la extensión del SDK de Adobe Experience Platform Mobile:
 
-1. Seleccionar **[!UICONTROL Extensiones]** en el carril izquierdo. Verá que las extensiones Mobile Core y Profile ya están disponibles.
+1. Seleccione **[!UICONTROL Extensiones]** en el carril izquierdo. Verá que las extensiones Mobile Core y Profile ya están disponibles.
 
 1. Seleccione **[!UICONTROL Catálogo]** en la barra superior.
 
-1. Busque o desplácese hasta el **[!UICONTROL Adobe Experience Platform Edge Network]** extensión y seleccione **[!UICONTROL Instalar]** en el panel derecho para instalarlo.
+1. Busque o desplácese hasta la extensión **[!UICONTROL Edge Network de Adobe Experience Platform]** y seleccione **[!UICONTROL Instalar]** en el panel derecho para instalarla.
 
 1. Seleccione la zona protegida y la secuencia de datos que ha creado anteriormente para su [!UICONTROL Entorno de producción], (opcionalmente) su [!UICONTROL Entorno de ensayo] y su [!UICONTROL Entorno de desarrollo].
 
-   ![Configuración de la extensión SDK de AEP Mobile](./assets/aepmobilesdk-extension-datastream.png)
+   ![Configuración de la extensión del SDK móvil de AEP](./assets/aepmobilesdk-extension-datastream.png)
 
-1. Introduzca su **[!UICONTROL Dominio de red perimetral]** debajo [!UICONTROL Configuración del dominio]. Normalmente se utiliza `<organizationName>.data.adobedc.net`.
+1. Escriba su **[!UICONTROL dominio de Edge Network]** debajo de [!UICONTROL Configuración de dominio]. Normalmente se utiliza `<organizationName>.data.adobedc.net`.
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-Consulte [Configuración de la extensión de Adobe Experience Platform Edge Network](https://developer.adobe.com/client-sdks/documentation/edge-network) para obtener más información.
+Consulte [Configuración de la extensión de Edge Network de Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/edge-network) para obtener más información.
 
 También desea configurar las siguientes extensiones adicionales del catálogo:
 
@@ -285,7 +286,7 @@ También desea configurar las siguientes extensiones adicionales del catálogo:
 - Garantía de AEP.
 - Consentimiento.
 
-Consulte [Configuración de una propiedad de etiqueta](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=es) en el Tutorial de aplicaciones móviles para Experience Platform para obtener mucha más información sobre las extensiones y su configuración.
+Consulte [Configurar una propiedad de etiqueta](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=es) en el tutorial de la aplicación móvil para Experience Platform para obtener más información sobre las extensiones y su configuración.
 
 #### **Elementos de datos**
 
@@ -303,9 +304,9 @@ Para definir un elemento de datos de nombre de operador:
 
    - Asigne un nombre al elemento de datos como, por ejemplo, `Carrier Name`.
 
-   - Seleccionar **[!UICONTROL Mobile Core]** desde el [!UICONTROL Extensión] lista.
+   - Seleccione **[!UICONTROL Mobile Core]** de la lista [!UICONTROL Extension].
 
-   - Seleccionar **[!UICONTROL Nombre del operador]** desde el [!UICONTROL Tipo de elemento de datos] lista.
+   - Seleccione **[!UICONTROL Nombre de operador]** de la lista [!UICONTROL Tipo de elemento de datos].
 
 
      ![Crear un elemento de fecha mediante información de página](./assets/create-dataelement-mobile.png)
@@ -317,7 +318,7 @@ Puede crear tantos elementos de datos como desee y utilizarlos en reglas.
 
 #### **Reglas**
 
-Las etiquetas de Adobe Experience Platform siguen un sistema basado en reglas. Buscan la interacción de usuarios y datos asociados. Cuando se cumplen los criterios descritos en las reglas, la regla activa la extensión, script o el código del lado del cliente identificados. Puede utilizar reglas para enviar datos (como un objeto XDM) a Adobe Experience Platform mediante la extensión Adobe Experience Platform Edge Network.
+Las etiquetas de Adobe Experience Platform siguen un sistema basado en reglas. Buscan la interacción de usuarios y datos asociados. Cuando se cumplen los criterios descritos en las reglas, la regla activa la extensión, script o el código del lado del cliente identificados. Puede utilizar reglas para enviar datos (como un objeto XDM) a Adobe Experience Platform mediante la extensión de Edge Network de Adobe Experience Platform.
 
 Por ejemplo, desea enviar datos de evento cuando se utiliza la aplicación móvil (en primer plano) y cuando no se utiliza la aplicación móvil (devuelta al segundo plano).
 
@@ -335,25 +336,25 @@ Para definir una regla, debe hacer lo siguiente:
 
    - En el cuadro de diálogo [!UICONTROL Configuración de evento], haga lo siguiente:
 
-      - Seleccionar **[!UICONTROL Mobile Core]** desde el [!UICONTROL Extensión] lista.
+      - Seleccione **[!UICONTROL Mobile Core]** de la lista [!UICONTROL Extension].
 
-      - Seleccionar **[!UICONTROL Primer plano]** desde el [!UICONTROL Tipo de evento] lista.
-
-      - Seleccione **[!UICONTROL Conservar cambios]**.
-
-   - Clic ![Plus](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) junto a [!UICONTROL Mobile Core - Primer plano].
-
-      - Seleccionar **[!UICONTROL Mobile Core]** desde el [!UICONTROL Extensión] lista.
-
-      - Seleccionar **[!UICONTROL Fondo]** desde el [!UICONTROL Tipo de evento] lista.
+      - Seleccione **[!UICONTROL Primer plano]** de la lista [!UICONTROL Tipo de evento].
 
       - Seleccione **[!UICONTROL Conservar cambios]**.
 
-   - Clic ![Plus](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) Agregar debajo [!UICONTROL ACCIONES]. En el cuadro de diálogo [!UICONTROL Configuración de acción], haga lo siguiente:
+   - Haz clic en ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) junto a [!UICONTROL Núcleo móvil - Primer plano].
 
-      - Seleccionar **[!UICONTROL Adobe Experience Platform Edge Network]** desde el [!UICONTROL Extensión] lista.
+      - Seleccione **[!UICONTROL Mobile Core]** de la lista [!UICONTROL Extension].
 
-      - Seleccionar **[!UICONTROL Reenviar evento a Edge Network]** desde el [!UICONTROL Tipo de acción] lista.
+      - Seleccione **[!UICONTROL Background]** de la lista [!UICONTROL Event Type].
+
+      - Seleccione **[!UICONTROL Conservar cambios]**.
+
+   - Haga clic en ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) Agregar debajo de [!UICONTROL ACCIONES]. En el cuadro de diálogo [!UICONTROL Configuración de acción], haga lo siguiente:
+
+      - Seleccione **[!UICONTROL Edge Network de Adobe Experience Platform]** de la lista [!UICONTROL Extension].
+
+      - Seleccione **[!UICONTROL Reenviar evento al Edge Network]** de la lista [!UICONTROL Tipo de acción].
 
       - Seleccione **[!UICONTROL Conservar cambios]**.
 
@@ -395,7 +396,7 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
 4. Puede seleccionar **[!UICONTROL ...]** para recompilar la biblioteca o moverla a un entorno de ensayo o producción.
 
-Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deben adaptarse a la implementación de Adobe Experience Platform Edge Network.
+Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deben adaptarse a la implementación del Edge Network de Adobe Experience Platform.
 
 Consulte la [Información general de la publicación](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration) para obtener más información.
 
@@ -408,9 +409,9 @@ Para obtener instrucciones de código que expliquen cómo configurar la aplicaci
 
 1. Seleccione **[!UICONTROL Entornos]** en el carril izquierdo.
 
-2. En la lista de entornos, seleccione la instalación correcta ![Box](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) botón.
+2. En la lista de entornos, seleccione el botón ![Box](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) de instalación correcto.
 
-   En el [!UICONTROL Instrucciones de instalación de Mobile] , seleccione la plataforma adecuada ([!UICONTROL iOS], [!UICONTROL Android]). A continuación, utilice la copia ![Copiar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) junto a cada uno de los fragmentos de código relevantes que desee utilizar para configurar e inicializar su aplicación móvil:
+   En el cuadro de diálogo [!UICONTROL Instrucciones de instalación móvil], seleccione la plataforma adecuada ([!UICONTROL iOS], [!UICONTROL Android]). A continuación, utilice el botón Copiar ![Copiar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) situado junto a cada uno de los fragmentos de código relevantes que desee utilizar para configurar e inicializar su aplicación móvil:
 
    ![Entorno](./assets/environment-mobile.png)
 
@@ -535,7 +536,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Para crear el primer informe, comience a arrastrar y soltar dimensiones y métricas en la [!UICONTROL Tabla de forma libre] en el [!UICONTROL Panel] . Por ejemplo, arrastre `Events` como métricas y `Push Title` como dimensión, desglosada por `Event Type` para obtener una descripción general de las notificaciones push para su aplicación móvil y de lo que les ha sucedido.
+5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel] Por ejemplo, arrastre `Events` como métricas y `Push Title` como dimensión, desglosado por `Event Type` para obtener una descripción general de las notificaciones push para su aplicación móvil y de lo que les ha sucedido.
 
    ![Workspace - Primer informe](./assets/cja-projects-5-mobile.png)
 
@@ -543,4 +544,4 @@ Consulte [Información general de Analysis Workspace](../analysis-workspace/home
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Empezando por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform, ha configurado una secuencia de datos en Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, definió e implementó la etiqueta de que contenía las extensiones (Adobe Experience Platform Edge Network y otras), los elementos de datos y las reglas para capturar datos de la aplicación móvil y enviarlos a la secuencia de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento de notificaciones push de su aplicación móvil y otros datos. La definición de la vista de datos le permitió especificar qué dimensión y métricas utilizar y, finalmente, creó el primer proyecto que visualizó y analizó los datos de la aplicación móvil.
+>Ha completado todos los pasos. Empezando por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform, ha configurado una secuencia de datos en Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, definió e implementó la etiqueta de que contenía las extensiones (Adobe Experience Platform Edge Network y otras), los elementos de datos y las reglas para capturar datos de la aplicación móvil y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento de notificaciones push de su aplicación móvil y otros datos. La definición de la vista de datos le permitió especificar qué dimensión y métricas utilizar y, finalmente, creó el primer proyecto que visualizó y analizó los datos de la aplicación móvil.

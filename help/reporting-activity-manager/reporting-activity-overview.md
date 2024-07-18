@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # Información general del Administrador de actividades de creación de informes
 
-El [!UICONTROL Administrador de actividades de informes] está disponible para administradores.
+[!UICONTROL Administrador de actividades de creación de informes] está disponible para los administradores.
 
 Si su organización experimenta una degradación en el rendimiento de los informes durante las horas de mayor actividad en este tipo de informes, el Administrador de actividades de creación de informes le permite autodiagnosticar y corregir los problemas de capacidad sin la intervención del Servicio de atención al cliente de Adobe. Puede administrar fácilmente las colas de creación de informes dentro de una sola interfaz y actuar &#x200B; inmediato &#x200B; mejorar la experiencia de los usuarios.
 
@@ -32,12 +32,12 @@ El Administrador de actividades de creación de informes ofrece las siguientes v
 
 <!-- update for CJA -->
 
-Para administrar la actividad de creación de informes, debe tener la función Administrador de productos. Para obtener más información, consulte [Control de acceso de Customer Journey Analytics](/help/technotes/access-control.md).
+Para administrar la actividad de creación de informes, debe tener la función Administrador de productos. Para obtener más información, vea [Control de acceso de Customer Journey Analytics](/help/technotes/access-control.md).
 
 ## Ver actividad de creación de informes
 
-Para obtener información sobre la visualización de la actividad de creación de informes en el Administrador de actividades de creación de informes, consulte [Ver la actividad de creación de informes en el Administrador de actividades de informes](/help/reporting-activity-manager/reporting-activity.md).
+Para obtener información sobre cómo ver la actividad de creación de informes en el Administrador de actividades de creación de informes, consulte [Ver actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
 ## Cancelar solicitudes de creación de informes
 
-Para obtener información sobre la cancelación de solicitudes de creación de informes en el Administrador de actividades de creación de informes, consulte [Cancelar solicitudes de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).
+Para obtener información sobre cómo cancelar solicitudes de informes en el Administrador de actividades de creación de informes, consulte [Cancelar solicitudes de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).

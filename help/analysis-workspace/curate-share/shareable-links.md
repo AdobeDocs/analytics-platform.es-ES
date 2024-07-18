@@ -8,7 +8,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 55%
+ht-degree: 79%
 
 ---
 
@@ -20,13 +20,13 @@ Analysis Workspace ofrece varias formas de compartir un proyecto con los usuario
 
 Para compartir un vínculo a un proyecto, vaya al proyecto que desee compartir y, a continuación, seleccione ir a [!UICONTROL **Compartir**] > [!UICONTROL **Obtener vínculo del proyecto**] (o **Compartir**] > [!UICONTROL **Compartir con usuarios de Workspace**] > [!UICONTROL **Compartir mediante vínculo**). Los usuarios con los que comparte el vínculo deben iniciar sesión.
 
-Si no se ha asignado un al destinatario del vínculo [función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores reciben **[!UICONTROL Editar original]** y los usuarios que no son administradores reciben **[!UICONTROL Editar copia]** experiencias.
+Si no se ha asignado al destinatario del vínculo una [función de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores reciben **[!UICONTROL Editar original]**  y los que no son administradores reciben las experiencias **[!UICONTROL Editar copia]**.
 
 ## Obtener un vínculo de solo lectura para compartir con cualquier persona
 
 Puede compartir un vínculo de solo lectura a proyectos de Analysis Workspace con personas que no tengan acceso a Customer Journey Analytics.
 
-Para obtener más información, consulte &quot;Compartir un proyecto con alguien (no se requiere inicio de sesión)&quot; en el artículo [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
+Para obtener más información, consulte “Compartir un proyecto con alguien (no se requiere inicio de sesión)” en el artículo [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## Obtener un panel o un vínculo de visualización {#panel-link}
 
@@ -37,7 +37,7 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
 
-![Después de hacer clic con el botón derecho en el encabezado, el menú desplegable resalta el vínculo Obtener visualización.](assets/get-viz-link.png)
+![Menú desplegable después de hacer clic con el botón secundario en el encabezado con el vínculo Obtener visualización resaltado.](assets/get-viz-link.png)
 
 ## Uso de vínculos en una tabla de contenido {#TOC}
 
