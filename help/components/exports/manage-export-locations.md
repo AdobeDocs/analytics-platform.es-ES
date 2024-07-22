@@ -5,7 +5,7 @@ title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 9f3182ed33fc5ad537b05e9effbdd25caf4e87d7
+source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 1%
@@ -147,8 +147,6 @@ Para ver las claves asociadas a una cuenta de exportación:
 1. Vuelva a seleccionar [!UICONTROL **Eliminar**] en el cuadro de diálogo de confirmación.
 
 ## Configuración en toda la empresa (solo administradores)
-
-{{release-limited-testing-section}}
 
 Los administradores del sistema pueden restringir la creación de cuentas y ubicaciones por parte de los usuarios, o bien pueden limitar los tipos de cuentas que los usuarios pueden crear y utilizar.
 
