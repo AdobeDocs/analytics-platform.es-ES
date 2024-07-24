@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
+source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
 workflow-type: tm+mt
-source-wordcount: '3836'
-ht-degree: 73%
+source-wordcount: '3940'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Julio de 2024** | |
+| Se ha añadido información sobre las métricas calculadas rápidas | Se ha actualizado la información de [Métricas](/help/components/apply-create-metrics.md) para aclarar la diferencia entre [las métricas calculadas que se crean en el creador de métricas calculadas](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) y [las que se crean como métricas calculadas rápidas dentro de un solo proyecto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). También se han añadido más detalles acerca de los que se usan para crear métricas calculadas rápidas.<p>Las métricas calculadas que se crean en el creador de métricas calculadas están disponibles en la lista de componentes y se pueden aplicar a proyectos de toda la organización, mientras que las métricas calculadas que se crean como métricas calculadas rápidas solo están disponibles dentro del proyecto en el que se crearon.</p><p>También se ha actualizado la información en [Generar métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) para hacer aclaraciones similares.</p> |
 | Función de deduplicación de campo derivada | Se ha agregado documentación sobre la función [deduplicar](/help/data-views/derived-fields/derived-fields.md#deduplicate) del campo derivado. |
 | Mensajes de error comunes actualizados | Se han realizado actualizaciones menores de los [mensajes de error comunes](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junio de 2024** | |
