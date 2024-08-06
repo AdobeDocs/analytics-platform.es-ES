@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2273'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Report Builder | Compatible con un nuevo complemento de Office 365 para Excel. |
 | Permisos de usuario/Controles de acceso de datos | Customer Journey Analytics distingue entre administradores de productos, administradores de perfiles de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es). Solo los administradores de productos pueden crear, actualizar o eliminar conexiones, proyectos, filtros o métricas calculadas creados por otros usuarios, mientras que los administradores de productos y los administradores de perfiles de productos pueden editar las vistas de datos. Hay disponibles permisos de usuario adicionales para tareas como crear métricas calculadas, filtros o anotaciones. |
 | Visualizaciones | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
-| Vinculación entre dispositivos y canales | Admitido para conjuntos de datos de evento que contienen información de identidad. Consulte [Vinculación](../../stitching/overview.md). |
+| Vinculación entre dispositivos y canales | Admitido para conjuntos de datos de eventos que contienen información de identidad. Consulte [Vinculación](../../stitching/overview.md). |
 
 {style="table-layout:auto"}
 

@@ -5,7 +5,7 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: c3d97fe2353011f4747d0c1742e49189cc91b85c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1388'
 ht-degree: 100%
 
