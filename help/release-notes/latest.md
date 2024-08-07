@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4f228dbe58a9efbe988f274c071c61ec5e36d321
-workflow-type: ht
-source-wordcount: '776'
+source-git-commit: 466b4e22ba39197208a191a7298bf37a0b3e36c8
+workflow-type: tm+mt
+source-wordcount: '777'
 ht-degree: 100%
 
 ---
 
 # Notas actuales de la versión de Customer Journey Analytics (julio de 2024)
 
-**Última actualización**: 29 de julio de 2024
+**Última actualización**: jueves, 07 de agosto de 2024
 
 Estas notas de la versión cubren el periodo comprendido entre el 17 de julio de 2024 y agosto de 2024. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -26,7 +26,7 @@ Estas notas de la versión cubren el periodo comprendido entre el 17 de julio de
 | **Campos derivados: función de deduplicación** | La [función de deduplicación](/help/data-views/derived-fields/derived-fields.md#deduplicate) de los campos derivados le ayuda a evitar que se cuente un valor varias veces. |  | 17 de julio de 2024 |
 | **Aprovisionamiento del análisis guiado para clientes de CJA** | El análisis guiado permite a los usuarios autoabastecerse de datos e información de alta calidad sobre el recorrido del cliente mediante flujos de trabajo guiados, basados en los datos en canales múltiples de Customer Journey Analytics. <p>Los equipos interfuncionales, desde el marketing hasta el producto, pueden conectarse en tiempo real para utilizar y comprender estos informes.</p><p>Ahora hay disponibles hasta 11 vistas de análisis guiado dentro de los paquetes de CJA. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/guided-analysis/overview)</p> |  | 17 de julio de 2024 |
 | **Compartir cuentas y ubicaciones que se utilizan para exportar e importar** | Ahora, los usuarios pueden poner las cuentas y ubicaciones que creen a disposición de todos los usuarios de su organización. Solo los propietarios de cuentas y ubicaciones, y los administradores del sistema pueden editar y eliminar cuentas y ubicaciones. Antes, las cuentas y ubicaciones solo las podía utilizar el usuario que las había creado. Esta configuración está disponible cuando los usuarios [configuran cuentas de exportación en la nube](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts) y [configuran ubicaciones de exportación en la nube](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/exports/cloud-export-locations). | 12 de junio de 2024 | 19 de julio de 2024 |
-| **Los púbicos se publican en una nueva sección “Públicos” en Experience Platform** | Los públicos publicados desde Customer Journey Analytics están ahora disponibles en la nueva sección “Públicos” de Experience Platform.<p>Anteriormente, los públicos publicados desde Customer Journey Analytics estaban disponibles en Experience Platform en la sección “Segmentos”.</p><p>Esta mejora ofrece las siguientes ventajas:</p><ul><li>Los públicos ya no tienen un retraso de 1 hora antes de aparecer en Experience Platform; están disponibles segundos tras su publicación.</li><li>Los públicos se pueden ordenar en Experience Platform mediante la columna “Origen”, que muestra la aplicación desde la que se publicó originalmente el público.</li><li>Las opciones de filtro y ordenación de Experience Platform le permiten encontrar más rápidamente los públicos relevantes.</li></ul> <p>(Vínculo a la documentación a continuación)</p> |  | Por determinar |
+| **Los púbicos se publican en una nueva sección “Públicos” en Experience Platform** | Los públicos publicados desde Customer Journey Analytics están ahora disponibles en la nueva sección “Públicos” de Experience Platform.<p>Anteriormente, los públicos publicados desde Customer Journey Analytics estaban disponibles en Experience Platform en la sección “Segmentos”.</p><p>Esta mejora ofrece las siguientes ventajas:</p><ul><li>Los públicos ya no tienen un retraso de 1 hora antes de aparecer en Experience Platform; están disponibles segundos tras su publicación.</li><li>Los públicos se pueden ordenar en Experience Platform mediante la columna “Origen”, que muestra la aplicación desde la que se publicó originalmente el público.</li><li>Las opciones de filtro y ordenación de Experience Platform le permiten encontrar más rápidamente los públicos relevantes.</li></ul> <p>(Vínculo a la documentación a continuación)</p> | jueves, 14 de agosto de 2024 | viernes, 22 de agosto de 2024 |
 
 {style="table-layout:auto"}
 
