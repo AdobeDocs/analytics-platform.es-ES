@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 252ddfd3a321d94d14fbe2593b942ac36bf932a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2547'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ La vinculación “reproduce” los datos en función de los identificadores ún
 
 +++**¿Cómo funciona la vinculación de datos históricos (relleno)?**
 
-Cuando se activa por primera vez, el Adobe proporciona un relleno de datos identificados que se remontan hasta el momento seleccionado por usted (hasta un máximo de 25 meses, según el paquete de Customer Journey Analytics al que esté autorizado). Para poder rellenar este campo, los datos no vinculados en aquel momento deben tener un tipo de ID efímero. [Más información](../stitching/overview.md)
+Cuando se activa por primera vez, Adobe proporciona un relleno de datos vinculados que se remontan hasta el momento que seleccione (hasta un máximo de 25 meses, según el paquete de Customer Journey Analytics que le hayan asignado). Para poder rellenar este campo, los datos no vinculados en aquel momento deben tener un tipo de ID efímero. [Más información](../stitching/overview.md)
 
 +++
 
