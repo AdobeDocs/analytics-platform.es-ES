@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 91ab1d3160db83979e1550f8f1b5135065cc6707
+source-git-commit: c384c4cdd1a63fd26e6eff0ff3394a089105275c
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 57%
+source-wordcount: '1697'
+ht-degree: 53%
 
 ---
 
@@ -17,9 +17,9 @@ En este tema se explica cómo crear y publicar audiencias identificadas en Custo
 
 Lea esta [descripción general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de Customer Journey Analytics.
 
-## Crear audiencias {#create}
+## Creación y publicación de una audiencia {#create}
 
-1. Para crear audiencias, tiene tres maneras de empezar:
+1. Para empezar a crear y publicar una audiencia, siga uno de estos procedimientos:
 
    | Método de creación | Detalles |
    | --- | --- |
@@ -74,26 +74,26 @@ Lea esta [descripción general](/help/components/audiences/audiences-overview.md
 
 1. Haga clic en **[!UICONTROL Ver la audiencia en AEP]** dentro del mismo mensaje y se le redirigirá a la [Interfaz de usuario de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
 
-## ¿Qué sucede después de crear una audiencia? {#after-audience-created}
+## ¿Qué sucede después de crear y publicar una audiencia? {#after-audience-created}
 
-Después de crear una audiencia, Adobe crea un segmento de flujo continuo de Experience Platform para cada nueva audiencia de Customer Journey Analytics. Solo se creará un segmento de streaming de Adobe Experience Platform si su organización está configurada para la segmentación de streaming.
+Después de crear y publicar una audiencia en Customer Journey Analytics, esta estará disponible en Experience Platform. Solo se creará un segmento de streaming de Adobe Experience Platform si su organización está configurada para la segmentación de streaming.
 
-* El segmento de Adobe Experience Platform comparte el mismo nombre/descripción que la audiencia del Customer Journey Analytics, pero el nombre se adjuntará con el ID de audiencia del Customer Journey Analytics para garantizar que sea único.
-* Si el nombre/descripción de la audiencia del Customer Journey Analytics cambia, el nombre/descripción del segmento de Adobe Experience Platform también refleja ese cambio.
-* Si un usuario elimina una audiencia de Customer Journey Analytics, el segmento de Adobe Experience Platform NO se elimina. El motivo es que la audiencia del Customer Journey Analytics puede recuperarse más adelante.
+* La audiencia de Platform comparte el nombre o la descripción de la audiencia del Customer Journey Analytics, pero al nombre se le agregará el ID de audiencia del Customer Journey Analytics para garantizar que sea única.
+* Cualquier cambio realizado en el nombre o la descripción de la audiencia en Customer Journey Analytics se reflejará en Platform.
+* Si una audiencia se elimina en Customer Journey Analytics, esta permanecerá disponible en Platform.
 
 ## Consideraciones de latencia {#latency}
 
 En varios puntos antes, durante y después de la publicación de audiencias, se pueden producir latencias. A continuación se muestra una información general de las posibles latencias.
 
-![Latencias en la publicación de audiencias como se describe en esta sección.](/help/components/audiences/assets/latency-diagram.png)
+![Latencias en la publicación de audiencias como se describe en esta sección.](assets/latency-diagram.svg)
 
 | # | Punto de latencia | Duración de la latencia |
 | --- | --- | --- |
 | No se muestra | Conector de origen de Adobe Analytics a Analytics (A4T) | Hasta 30 minutos |
 | 1 | Ingesta de datos en el lago de datos (desde el conector de origen de Analytics u otras fuentes) | Hasta 90 minutos |
 | 2 | Ingesta de datos del lago de datos de Experience Platform en Customer Journey Analytics | Hasta 90 minutos |
-| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos.<p>**Nota**: la audiencia se crea o define en el Experience Platform en un plazo de 1 a 2 minutos. Sin embargo, la audiencia tarda unos 60 minutos en recibir los ID según los criterios coincidentes y está lista para la activación. | Unos 60 minutos |
+| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos. | Unos segundos |
 | 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
 | 5 | Creación del destino en Adobe Experience Platform: Activación del nuevo segmento | 1 a 2 horas |
 
@@ -103,13 +103,32 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 
 Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). El Customer Journey Analytics envía la audiencia al Experience Platform con la identidad principal establecida, según lo que se seleccionó como [!UICONTROL ID de persona] cuando se configuró la conexión.
 
-A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agregará el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Ahora, por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
+A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agrega el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
-Para ver las audiencias de los Customer Journey Analytics en Platform, vaya a **[!UICONTROL Segmentos]** > **[!UICONTROL Crear segmentos]** > pestaña **[!UICONTROL Audiencias]** > **[!UICONTROL Audiencias de CJA]**.
+Para ver audiencias de Customer Journey Analytics en Platform:
 
-Puede arrastrar audiencias de Customer Journey Analytics a la definición del segmento para segmentos de Adobe Experience Platform.
+>[!AVAILABILITY]
+>
+>La funcionalidad descrita en los siguientes pasos se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Si estos pasos no coinciden con lo que ve en su entorno, siga estos pasos en su lugar: Vaya a [!UICONTROL **Segmentos**] > [!UICONTROL **Crear segmentos**] > pestaña [!UICONTROL **Audiencias**] > [!UICONTROL **Audiencias de CJA**].
+>
+>Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información acerca del proceso de lanzamiento de Customer Journey Analytics, consulte [lanzamientos de características de Customer Journey Analytics](/help/release-notes/releases.md).
 
-![Resaltar segmentos en el panel izquierdo y audiencias de CJA en el panel principal con la IU de Adobe Experience Platform.](assets/audiences-aep.png)
+1. Expanda [!UICONTROL **Cliente**] en el carril izquierdo y, a continuación, seleccione [!UICONTROL **Audiencias**]. <!-- is there a folder called "Customer Journey Analytics? -->
+
+1. Seleccione la ficha [!UICONTROL **Examinar**].
+
+   Opción ![Audiencias en el panel izquierdo](assets/audiences-aep.png)
+
+1. Para localizar la audiencia que ha publicado desde Customer Journey Analytics, realice una de las siguientes acciones:
+
+   * Ordene la tabla por la columna [!UICONTROL **Origin**] para ver las audiencias que muestran [!UICONTROL **Customer Journey Analytics**] como origen.
+
+   * Seleccione el icono de filtro.
+
+   * Utilice el campo de búsqueda.
+
+Para obtener más información sobre el uso de Audiences en Platform, consulte la sección [Audiencias](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#audiences) en la [Guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html) en la documentación del Experience Platform.
+
 
 ## Preguntas frecuentes {#faq}
 
