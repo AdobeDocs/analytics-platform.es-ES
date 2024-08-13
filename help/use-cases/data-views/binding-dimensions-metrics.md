@@ -4,19 +4,19 @@ description: Atribuir dimensiones a matrices de objetos para un análisis de per
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 83%
+ht-degree: 70%
 
 ---
 
 
-# Uso de dimensiones y métricas de enlace en Customer Journey Analytics
+# Uso de dimensiones y métricas de enlace
 
 Customer Journey Analytics ofrece varias formas de mantener los valores de dimensión más allá de la visita en la que están configurados. Uno de los métodos de persistencia que ofrece Adobe se conoce como Enlace. En versiones anteriores de Adobe Analytics, este concepto se conocía como comercialización.
 
-Aunque puede utilizar dimensiones de enlace con datos de evento de nivel superior, este concepto se utiliza mejor cuando se trabaja con [Matrices de objetos](/help/use-cases/object-arrays.md). Puede atribuir una dimensión a una parte de una matriz de objetos sin aplicarla a todos los atributos de un evento determinado. Por ejemplo, puede atribuir un término de búsqueda a un producto de la matriz de objetos del carro de compras sin enlazar ese término de búsqueda al evento completo.
+Aunque puede utilizar dimensiones de enlace con datos de evento de nivel superior, este concepto se utiliza mejor cuando se trabaja con [Matrices de objetos](/help/use-cases/object-arrays.md). Puede atribuir una dimensión a una parte de una matriz de objetos sin aplicar la dimensión a todos los atributos de un evento determinado. Por ejemplo, puede atribuir un término de búsqueda a un producto de la matriz de objetos del carro de compras sin enlazar ese término de búsqueda al evento completo.
 
 ## Ejemplo 1: Utilice dimensiones de enlace para atribuir atributos de producto adicionales a una compra
 
@@ -83,18 +83,18 @@ Vaya a **[!UICONTROL Vistas de datos]** y enlace la dimensión [!DNL Product Col
 
 ![Dimensión de enlace](../assets/binding-dimension.png)
 
-Cuando se establece este modelo de persistencia, el Customer Journey Analytics toma nota del nombre del producto cada vez que se establece su color. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para esta persona, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con su nombre tendrían un aspecto similar al siguiente:
+Cuando se establece este modelo de persistencia, Customer Journey Analytics toma nota del nombre del producto cada vez que se establece su color. Cuando reconoce el mismo nombre de producto en un evento subsiguiente para esta persona, también se aprecia el color del producto. Los mismos datos cuando se vincula el color del producto con su nombre tendrían un aspecto similar al siguiente:
 
 | product.color | ingresos |
 | --- | --- |
 | blanco | 1600 |
 | naranja neón | 499 |
 
-## Ejemplo 2: Utilice métricas de enlace para unir el término de búsqueda con una compra de producto
+## Ejemplo 2: Utilice métricas de enlace para unir un término de búsqueda con una compra de producto
 
-Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido enlazar un término de búsqueda a un producto para que cada término de búsqueda obtenga crédito por su producto apropiado. Piense en el siguiente recorrido del cliente:
+Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido enlazar un término de búsqueda a un producto para que cada término de búsqueda obtenga crédito por su producto adecuado. Piense en el siguiente recorrido del cliente:
 
-1. Un visitante llega a su sitio y busca “guantes de boxeo”. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
+1. Un visitante llega a su sitio y busca `boxing gloves`. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
 
    ```json
    {
@@ -131,7 +131,7 @@ Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido
    }
    ```
 
-3. A continuación, el visitante busca “raqueta de tenis”. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
+3. El visitante busca `tennis racket`. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
 
    ```json
    {
@@ -171,7 +171,7 @@ Uno de los métodos de comercialización más comunes en Adobe Analytics ha sido
    }
    ```
 
-5. El visitante busca por tercera vez: “zapatos”. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
+5. El visitante busca por tercera vez `shoes`. La métrica de búsquedas aumenta en uno y se muestran los tres resultados de búsqueda principales.
 
    ```json
    {
@@ -250,9 +250,9 @@ Si ha utilizado la asignación [!UICONTROL Más reciente] con la dimensión de t
 | --- | --- |
 | zapatos | 204,97 USD |
 
-Aunque este ejemplo incluye solo una persona, muchas personas que buscan cosas diferentes pueden atribuir de forma incorrecta términos de búsqueda a productos diferentes, lo que dificulta determinar cuáles son realmente los mejores resultados de búsqueda.
+Aunque este ejemplo incluye solo una persona, muchas personas que buscan cosas diferentes pueden atribuir de forma incorrecta términos de búsqueda a productos diferentes. Si hay varias personas que buscan cosas diferentes, es difícil determinar cuáles son realmente los mejores resultados de búsqueda.
 
-Ahora puede enlazar [!DNL Search Term] a [!DNL Product Name] siempre que la métrica [!DNL Searches] esté presente para atribuir correctamente el término de búsqueda a los ingresos.
+Ahora puede enlazar [!DNL Search Term] a [!DNL Product Name] siempre que la métrica [!DNL Searches] esté presente para atribuir el término de búsqueda correctamente a los ingresos.
 
 ![Métrica de enlace](../assets/binding-metric.png)
 
@@ -268,11 +268,11 @@ Customer Journey Analytics detecta automáticamente la relación entre la dimens
 
 Al establecer la dimensión de término de búsqueda en este modelo de persistencia, se ejecuta la siguiente lógica:
 
-* Cuando se establezca la dimensión de término de búsqueda, compruebe la presencia del nombre del producto.
+* Cuando se establezca la dimensión de término de búsqueda, compruebe la presencia de un nombre de producto.
 * Si el nombre del producto no está allí, no haga nada.
 * Si el nombre del producto está allí, compruebe la presencia de la métrica Búsquedas.
 * Si la métrica Búsquedas no está allí, no haga nada.
-* Si la métrica Búsquedas está allí, vincule el término de búsqueda a todos los nombres de productos del evento. Se copia hasta el mismo nivel que el nombre del producto para ese evento. En este ejemplo, se trata como product.search_term.
+* Si la métrica Búsquedas está allí, vincule el término de búsqueda a todos los nombres de productos del evento. Se copia hasta el mismo nivel que el nombre del producto para ese evento. En este ejemplo, se trata como `product.search_term`.
 * Si se ve el mismo nombre de producto en un evento posterior, el término de búsqueda enlazado también se transfiere a ese evento.
 
 ## Ejemplo 3: Enlace el término de búsqueda de vídeo al perfil del usuario
@@ -334,7 +334,7 @@ Puede enlazar un término de búsqueda a un perfil de usuario para que la persis
    }
    ```
 
-Si utiliza la asignación más reciente con caducidad de persona, el término de búsqueda `"grownup movie"` se atribuye a la última vista del programa del niño.
+Si utiliza la asignación más reciente con caducidad de persona, el término de búsqueda `grownup movie` se atribuye a la última vista del programa del niño.
 
 | Término de búsqueda | Inicios de vídeo |
 | --- | --- |
@@ -345,7 +345,7 @@ Sin embargo, si se enlaza el `search_term` al `ProfileID`, las búsquedas de cad
 
 ![Enlace de visitantes](../assets/binding-profileid.png)
 
-Analysis Workspace atribuiría correctamente el segundo episodio de Orangey al término de búsqueda `"kids show"` sin tener en cuenta las búsquedas de otros perfiles.
+Analysis Workspace atribuye el segundo episodio de Orangey al término de búsqueda `kids show` sin tener en cuenta las búsquedas de otros perfiles.
 
 | Término de búsqueda | Inicios de vídeo |
 | --- | --- |
@@ -356,7 +356,7 @@ Analysis Workspace atribuiría correctamente el segundo episodio de Orangey al t
 
 Puede enlazar valores a dimensiones establecidas en eventos anteriores. Cuando se establece una variable con una dimensión de enlace, Customer Journey Analytics tiene en cuenta el valor persistente. Si no desea este comportamiento, puede ajustar la configuración de persistencia de la dimensión de enlace. Consideremos el siguiente ejemplo donde `product_finding_method` se configura en un evento y luego se vincula a la métrica Adiciones al carro de compras en el siguiente evento.
 
-1. Un visitante busca `"camera"`. Tenga en cuenta que no hay productos configurados en esta página.
+1. Un visitante busca `camera`. Tenga en cuenta que no hay productos configurados en esta página.
 
    ```json
    {

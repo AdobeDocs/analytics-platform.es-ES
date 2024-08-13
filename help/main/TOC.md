@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 6d4dd1cd0e2c9b89ed37ca713ecc6d5db7d9e745
+source-git-commit: 9c022dba63fd837aee28393aceb4eac851a993ec
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 98%
 
 ---
 
@@ -91,10 +91,12 @@ ht-degree: 100%
       + [Sin opciones de valor](../data-views/component-settings/no-value-options.md)
       + [Persistencia](../data-views/component-settings/persistence.md)
       + [Subcadena](../data-views/component-settings/substring.md)
+      + [Grupo de datos de resumen](../data-views/component-settings/summary-data-group.md)
       + [Clasificación de valor](../data-views/component-settings/value-bucketing.md)
    + [Referencia de componente estándar](../data-views/component-reference.md)
    + [Extensión de BI](../data-views/bi-extension.md)
    + [Campos derivados](../data-views/derived-fields/derived-fields.md)
+   + [Datos de resumen](../data-views/summary-data.md)
    + [Etiquetas y políticas](../data-views/data-governance.md)
 
 + Proyectos de Workspace {#cja-workspace}
@@ -346,11 +348,12 @@ ht-degree: 100%
       + [Configuración del streaming de los datos de Google Analytics a Platform](../use-cases/ga/streaming.md)
       + [Informar sobre los datos de Google Analytics en Customer Journey Analytics](../use-cases/ga/report.md)
    + Ingesta de datos {#data-ingestion}
-      + [Ingesta de datos de Marketo Engage en Adobe Experience Platform e informes en Customer Journey Analytics](../use-cases/data-ingestion/marketo.md)
-      + [Ingesta de audiencias de Adobe Experience Platform en Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Ingesta y uso de datos de Marketo Engage](../use-cases/data-ingestion/marketo.md)
+      + [Ingesta y uso de audiencias de Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Vistas de datos {#data-views}
       + [Casos de uso de vistas de datos](../use-cases/data-views/data-views-usecases.md)
       + [Uso de dimensiones y métricas de enlace](../use-cases/data-views/binding-dimensions-metrics.md)
+      + [Usar datos de resumen](../use-cases/data-views/summary-data.md)
    + Exportación de datos {#data-export}
       + [Información general](../use-cases/data-export/overview.md)
       + [Extensión de BI](../use-cases/data-export/bi-extension.md)
