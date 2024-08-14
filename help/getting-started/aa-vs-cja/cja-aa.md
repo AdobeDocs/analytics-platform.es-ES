@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
-workflow-type: ht
-source-wordcount: '2273'
-ht-degree: 100%
+source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,6 +45,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Acceso a la API de informes | Compatibilidad total. Disponible a través de la [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
 | Informes y proyectos programados | Compatibilidad total |
 | Segmentos | Compatibilidad total. Ahora se denominan “Filtros”: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
+| Fuentes de datos de nivel de resumen | Compatibilidad total |
 | Grupos de informes virtuales | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | Revisión de componentes de grupo de informes virtuales | Compatibilidad total. Ahora forma parte de Vistas de datos. |
 | Dimensiones del Dispositivo, Explorador, Referente, Tecnología | Se admite para ambos conjuntos basados en el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) y para conjuntos de datos generados por WebSDK. Consulta [Documentación sobre las variables de Analytics que se admiten mediante ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=es). Si utilizas la recopilación de datos del SDK web de Experience Platform, actualmente no se admiten dispositivos ni dimensiones basadas en la búsqueda de dispositivos. Está planificada la compatibilidad futura. Para añadir búsquedas de dispositivos y exploradores a la secuencia de datos del SDK web, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es) |
@@ -103,7 +104,6 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 | Creación de informes en tiempo real | Se ha planificado lanzar una versión compatible. |
 | IQ de segmento | Se ha planificado lanzar una versión compatible. |
 | Fuentes de datos de ID de transacción | Se ha planificado lanzar una versión compatible. |
-| Fuentes de datos de nivel de resumen | Se ha planificado lanzar una versión compatible. |
 
 {style="table-layout:auto"}
 
