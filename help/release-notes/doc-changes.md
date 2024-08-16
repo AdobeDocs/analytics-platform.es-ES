@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3568aad27001b322da77f5d1fb762db5ba6d433d
+source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
 workflow-type: tm+mt
-source-wordcount: '3990'
-ht-degree: 73%
+source-wordcount: '4026'
+ht-degree: 72%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | Agosto de 2024 | |
+| Ejemplo de proyecto B2B | Se ha agregado un [caso de uso](/help/use-cases/b2b/example.md) que documenta cómo configurar y generar informes sobre datos B2B basados en el nivel de perfil (persona) en Customer Journey Analytics, usando la nueva funcionalidad [transformar conjuntos de datos para búsquedas B2B](/help/connections/transform-datasets-b2b-lookups.md). |
 | Casos de uso de exportación de datos actualizados | Se han agregado ejemplos de consultas más detallados a [Servicio de consultas (Data Distiller) y exportar conjuntos de datos](/help/use-cases/data-export/queryservice-export-datasets.md) para ilustrar cómo aplicar correctamente la atribución entre sesiones mediante una ventana retrospectiva. |
 | Datos de resumen | Se agregó documentación sobre [datos de resumen](/help/data-views/summary-data.md), [configuración del componente de grupo de datos de resumen](/help/data-views/component-settings/summary-data-group.md) y un [caso de uso de datos de resumen](/help/use-cases/data-views/summary-data.md). |
 | **Julio de 2024** | |
