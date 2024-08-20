@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
+source-git-commit: a80b20eb2e0395445e8f2e7fd0e76e2eef40522a
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1760'
 ht-degree: 7%
 
 ---
@@ -77,7 +77,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 | Frecuencia de actualización de audiencia | 4 | Protección impuesta por el sistema | Frecuencia máxima en horas que se puede actualizar una [audiencia](../components/audiences/audiences-overview.md). |
 | Ventana retrospectiva de actualización de audiencia | 90 | Protección impuesta por el sistema | Número máximo de días para actualizar la ventana retrospectiva. |
 | Actualizando fecha de caducidad de audiencia | 13 | Protección impuesta por el sistema | La audiencia deja de actualizarse durante un número máximo de meses a partir de la fecha de creación. Los clientes pueden prolongar esta duración otros 13 meses. |
-| Número de audiencias actualizadas | 76, 150 | Protección impuesta por el sistema | Número máximo de audiencias de actualización, el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Número de audiencias actualizadas | 76, 150 | Protección impuesta por el sistema | Número máximo de audiencias de actualización. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
@@ -100,7 +100,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 |---|--:|---|---|
 | Proyectos | 50 000 | Protección impuesta por el sistema | Número máximo de proyectos para una organización. |
 | Vistas de datos | 2.000 | Protección impuesta por el sistema | Número máximo de [vistas de datos](../data-views/data-views.md) para una organización. |
-| Vistas de datos | 50 | Protección impuesta por el sistema | Número máximo de vistas de datos para una conexión |
+| Vistas de datos | 500-1000 | Protección impuesta por el sistema | Número máximo de vistas de datos para una conexión. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 | Conjuntos de datos | 100 | Protección impuesta por el sistema | Número máximo de [conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es) por conexión. |
 | Conexiones | 1000 | Protección impuesta por el sistema | Número máximo de [conexiones](../connections/overview.md) para una organización. |
 | Título de conexión | 500 | Protección impuesta por el sistema | Número máximo de caracteres para un título de conexión. |
@@ -110,7 +110,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 | Descripción de anotación | 250 | Protección impuesta por el sistema | Número máximo de caracteres para una descripción de anotación. |
 | Campos de esquema | 10 | Protección impuesta por el sistema | Número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para un [campo derivado](../data-views/derived-fields/derived-fields.md). |
 | Campos de búsqueda/perfil | 3 | Protección impuesta por el sistema | Número máximo de campos de esquema de búsqueda o perfil dentro del número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para un campo derivado. |
-| Campos derivados | De 100 a 500 | Protección impuesta por el sistema | Número máximo de campos derivados por conexión; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Campos derivados | De 100 a 500 | Protección impuesta por el sistema | Número máximo de campos derivados por conexión. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
@@ -155,9 +155,9 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Conjuntos de datos vinculados | De 5 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
-| Longitud de relleno | De 6 a 25 | Protección impuesta por el sistema | Cantidad máxima de meses de datos de relleno; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
-| Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días / Frecuencia de reproducción; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Conjuntos de datos vinculados | De 5 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Longitud de relleno | De 6 a 25 | Protección impuesta por el sistema | Número máximo de meses de datos de relleno. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días/frecuencia de reproducción. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
@@ -166,9 +166,9 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Conjuntos de datos vinculados | De 10 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
-| Longitud de relleno | De 13 a 25 | Protección impuesta por el sistema | Cantidad máxima de meses de datos de relleno; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
-| Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días / Frecuencia de reproducción; el valor varía según el paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Conjuntos de datos vinculados | De 10 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Longitud de relleno | De 13 a 25 | Protección impuesta por el sistema | Número máximo de meses de datos de relleno. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
+| Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días/frecuencia de reproducción. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 
 
 ## Filtros y métricas calculadas
@@ -215,7 +215,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Filas por informe | 3 millones - 300 millones | Protección impuesta por el sistema | Número máximo de filas de informes por informe; el valor varía según el paquete del Customer Journey Analytics (consulte Descripción del producto). |
+| Filas por informe | 3 millones - 300 millones | Protección impuesta por el sistema | Número máximo de filas de informes por informe. El valor varía en función del paquete del Customer Journey Analytics (consulte la Descripción del producto). |
 | Desgloses por tabla | 5 | Protección impuesta por el sistema | Número máximo de desgloses por tabla. |
 | Métricas por tabla | 5 | Protección impuesta por el sistema | Número máximo de métricas por tabla. |
 | Frecuencia de programación | 1 | Protección impuesta por el sistema | Las exportaciones se pueden programar una vez (1) al día o en un horario más largo (por ejemplo: una vez cada 2 días o semanalmente). |
