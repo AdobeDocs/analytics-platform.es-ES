@@ -6,12 +6,13 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hide-from-toc: true
 role: Admin
-source-git-commit: f17d2ebdf9a45ebb3a4e923a34c4b9b3d629f038
+source-git-commit: e4e1209ee4f3db7c625770f3e6baa60a74cd45ab
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 6%
 
 ---
+
 
 # Dispositivos compartidos
 
