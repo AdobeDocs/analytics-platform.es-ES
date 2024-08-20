@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hide-from-toc: true
 role: Admin
-source-git-commit: 97fcb5f16962b85aa4f95bfbe2f16295d8bb3452
+source-git-commit: f17d2ebdf9a45ebb3a4e923a34c4b9b3d629f038
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '993'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ La configuración puede atribuir datos de dispositivo compartidos mediante atrib
 
 #### Atribución de última autenticación
 
-La última autenticación atribuye toda la actividad desconocida de un dispositivo compartido al usuario que se autenticó por última vez. Última autenticación se utiliza en Audience Manager y es el método preferido para los casos de uso del Perfil de datos del cliente en tiempo real. El servicio de identidad del Experience Platform crea el gráfico en función de la atribución de última autenticación y, como tal, se utiliza en la vinculación basada en gráficos.
+La última autenticación atribuye toda la actividad desconocida de un dispositivo compartido al usuario que se autenticó por última vez. Última autenticación se utiliza en Audience Manager y es el método preferido para los casos de uso del Perfil de datos del cliente en tiempo real. El servicio de identidad del Experience Platform crea el gráfico en función de la atribución de última autenticación y, como tal, se utiliza en la vinculación basada en gráficos. Consulte [Introducción a las reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) para obtener más información.
 
 Cuando se utiliza la atribución de última autenticación en la vinculación, los ID vinculados se resuelven como se muestra en la tabla siguiente.
 
@@ -65,7 +65,7 @@ Cuando se utiliza la atribución de última autenticación en la vinculación, l
 
 #### Device-split
 
-La división del dispositivo atribuye la actividad anónima de un dispositivo compartido al usuario más próximo a la actividad anónima. La división de dispositivos es el enfoque preferido para los casos de uso analíticos, ya que la división de dispositivos da crédito por la actividad no autenticada y autenticada a la persona conocida más cercana. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo.
+La división del dispositivo atribuye la actividad anónima de un dispositivo compartido al usuario más próximo a la actividad anónima. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo. La división de dispositivos es el enfoque preferido para los casos de uso analíticos, ya que la división de dispositivos da crédito por la actividad no autenticada y autenticada a la persona conocida más cercana. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo.
 
 Cuando se utiliza la atribución dividida por el dispositivo en la vinculación, los ID vinculados se resuelven como se muestra en la tabla siguiente.
 
