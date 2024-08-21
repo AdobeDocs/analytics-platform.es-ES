@@ -4,9 +4,9 @@ description: Explicación de cómo gestionar dispositivos compartidos mediante l
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 hide: true
-hide-from-toc: true
+hidefromtoc: true
 role: Admin
-source-git-commit: e4e1209ee4f3db7c625770f3e6baa60a74cd45ab
+source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 6%
