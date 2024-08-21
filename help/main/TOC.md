@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -349,11 +349,11 @@ ht-degree: 98%
       + [Informar sobre los datos de Google Analytics en Customer Journey Analytics](../use-cases/ga/report.md)
    + Ingesta de datos {#data-ingestion}
       + [Ingesta y uso de datos de Marketo Engage](../use-cases/data-ingestion/marketo.md)
-      + [Ingesta y uso de audiencias de Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Ingesta y uso de públicos de Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Vistas de datos {#data-views}
       + [Casos de uso de vistas de datos](../use-cases/data-views/data-views-usecases.md)
       + [Uso de dimensiones y métricas de enlace](../use-cases/data-views/binding-dimensions-metrics.md)
-      + [Usar datos de resumen](../use-cases/data-views/summary-data.md)
+      + [Uso de datos de resumen](../use-cases/data-views/summary-data.md)
    + Exportación de datos {#data-export}
       + [Información general](../use-cases/data-export/overview.md)
       + [Extensión de BI](../use-cases/data-export/bi-extension.md)
