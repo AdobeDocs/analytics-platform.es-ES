@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
+source-git-commit: c1ed707f63db87566331783ea24f33cc69721af9
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 7%
+source-wordcount: '930'
+ht-degree: 5%
 
 ---
 
@@ -26,11 +26,11 @@ Cuando dos personas utilizan el mismo dispositivo y ambas realizan una compra, l
 
 | Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico |
 |---|---|---|---|
-| 2023-05-12 12:01 | Página de inicio | 1234 | |
-| 2023-05-12 12:02 | Página de producto | 1234 | |
-| 2023-05-12 12:03 | Pedido realizado correctamente | 1234 | <ryan@a.com> |
-| 2023-05-12 12:07 | Página de producto | 1234 | |
-| 2023-05-12 12:08 | Pedido realizado correctamente | 1234 | <cassidy@a.com> |
+| 2023-05-12 12:01 | Página de inicio | `1234` | |
+| 2023-05-12 12:02 | Página de producto | `1234` | |
+| 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` |
+| 2023-05-12 12:07 | Página de producto | `1234` | |
+| 2023-05-12 12:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` |
 
 Los eventos de éxito del pedido (compra) asignan los datos con precisión al correo electrónico correcto. El impacto de esta asignación en el análisis depende de cómo realice el análisis:
 
@@ -56,12 +56,12 @@ Cuando se utiliza la atribución de última autenticación en la vinculación, l
 
 | Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico | ID vinculado |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Página de inicio | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:02 | Página de producto | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:03 | Pedido realizado correctamente | 1234 | <ryan@a.com> | <cassidy@a.com> |
-| 2023-05-12 12:07 | Página de producto | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:08 | Pedido realizado correctamente | 1234 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:08 | Página de inicio | 1234 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Página de inicio | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:02 | Página de producto | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` | `cassidy@a.com` |
+| 2023-05-12 12:07 | Página de producto | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Página de inicio | `1234` | | `cassidy@a.com` |
 
 
 #### Device-split
@@ -72,12 +72,12 @@ Cuando se utiliza la atribución dividida por el dispositivo en la vinculación,
 
 | Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico | ID vinculado |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Página de inicio | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:02 | Página de producto | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:03 | Pedido realizado correctamente | 1234 | <ryan@a.com> | <ryan@a.com> |
-| 2023-05-12 12:07 | Página de producto | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:08 | Pedido realizado correctamente | 1234 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:08 | Página de inicio | 1234 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Página de inicio | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:02 | Página de producto | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 2023-05-12 12:07 | Página de producto | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Página de inicio | `1234` | | `cassidy@a.com` |
 
 
 ### Restablecimiento de ECID
@@ -89,12 +89,12 @@ Cuando se utiliza el restablecimiento de ECID, los ID conectados se resuelven co
 
 | Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico | ID vinculado |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Página de inicio | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:02 | Página de producto | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:03 | Pedido realizado correctamente | 1234 | <ryan@a.com> | <ryan@a.com> |
-| 2023-05-12 12:07 | Página de producto | 5678 | | <cassidy@a.com> |
-| 2023-05-12 12:08 | Pedido realizado correctamente | 5678 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:08 | Página de inicio | 5678 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Página de inicio | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:02 | Página de producto | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 2023-05-12 12:07 | Página de producto | 5678 | | `cassidy@a.com` |
+| 2023-05-12 12:08 | Pedido realizado correctamente | 5678 | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Página de inicio | 5678 | | `cassidy@a.com` |
 
 ## Exposición de dispositivo compartido
 
