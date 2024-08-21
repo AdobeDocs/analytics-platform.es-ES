@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
+source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 6%
+source-wordcount: '950'
+ht-degree: 7%
 
 ---
 
@@ -102,7 +102,9 @@ Tenga en cuenta varios factores para comprender correctamente la omnipresencia d
 
 Para comprender la exposición del dispositivo compartido, puede pensar en realizar las siguientes consultas.
 
-1. Número de dispositivos compartidos. Puede utilizar una consulta que cuente los ID de dispositivo que tienen dos o más ID de persona asociados al ID de dispositivo. Una consulta de ejemplo podría tener el siguiente aspecto:
+1. **Identificar dispositivos compartidos**
+
+   Para comprender el número de dispositivos compartidos, realice una consulta que cuente los ID de dispositivo con dos o más ID de persona asociados. Esto ayuda a identificar los dispositivos utilizados por varias personas.
 
    ```sql
    SELECT COUNT(*)
@@ -116,7 +118,9 @@ Para comprender la exposición del dispositivo compartido, puede pensar en reali
    ```
 
 
-2. En el caso de los dispositivos compartidos, como resultado de la primera consulta, debe comprender cuántos eventos del total de eventos se pueden atribuir a estos dispositivos compartidos. Esta atribución le da una mejor idea del impacto de los dispositivos compartidos en los datos y del impacto cuando realiza el análisis. Una consulta de ejemplo podría tener el siguiente aspecto:
+2. **Atribución de eventos a dispositivos compartidos**
+
+   En el caso de los dispositivos compartidos identificados, determine cuántos eventos del total pueden atribuirse a estos dispositivos. Esto proporciona una perspectiva del impacto que los dispositivos compartidos tienen en los datos y las implicaciones para el análisis.
 
    ```sql
    SELECT COUNT(*) AS total_events,
@@ -141,7 +145,9 @@ Para comprender la exposición del dispositivo compartido, puede pensar en reali
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-3. Para los eventos atribuidos a dispositivos compartidos (el resultado de la segunda consulta), debe comprender cuántos de estos eventos NO tienen un ID de persona. De lo contrario, ¿cuántos eventos de dispositivos compartidos son eventos anónimos? En última instancia, el algoritmo (última autenticación, división del dispositivo, restablecimiento de ECID) que seleccione para mejorar la calidad de los datos afecta a estos eventos anónimos de dispositivos compartidos. Una consulta de ejemplo podría tener el siguiente aspecto:
+3. **Identificar eventos anónimos en dispositivos compartidos**
+
+   Entre los eventos atribuidos a dispositivos compartidos, identifique cuántos carecen de un ID de persona, lo que indica eventos anónimos. El algoritmo que elija (por ejemplo, last-auth, device-split o ECID-reset) para mejorar la calidad de los datos afectará estos eventos anónimos.
 
    ```sql
    SELECT COUNT(IF(shared_persistent_ids.persistent_id IS NOT NULL, 1, null)) shared_persistent_ids_events,
@@ -166,7 +172,9 @@ Para comprender la exposición del dispositivo compartido, puede pensar en reali
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-4. Por último, desea comprender la exposición que cada cliente experimentaría debido a la clasificación errónea de eventos. Para obtener esta exposición, debe calcular, para cada dispositivo compartido, el porcentaje de eventos anónimos relacionados con el número total de eventos. Una consulta de ejemplo podría tener el siguiente aspecto:
+4. **Calcular exposición de clasificación errónea de eventos**
+
+   Por último, evalúe la exposición a la que podría enfrentarse cada cliente debido a una clasificación errónea de los eventos. Calcule el porcentaje de eventos anónimos sobre el total de eventos para cada dispositivo compartido. Esto ayuda a comprender el impacto potencial en la precisión de los datos de los clientes.
 
    ```sql
    SELECT COUNT(*) AS total_events,
