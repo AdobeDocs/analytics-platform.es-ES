@@ -4,17 +4,15 @@ description: Detalles e información sobre cómo utilizar y configurar datos de 
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9517d698acf41a25fa972ced32faa75de540a080
+source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
 
 # Datos de resumen
-
-{{release-limited-testing}}
 
 Los datos de resumen son datos de series temporales que no están vinculados a un ID de persona individual. Los datos de resumen representan datos agregados en un nivel diferente de agregación, por ejemplo campañas. Puede utilizar estos datos en Customer Journey Analytics para admitir varios casos de uso. Por ejemplo, datos que contengan una fecha y un único valor de métrica, o datos que contengan varias dimensiones y métricas.
 
