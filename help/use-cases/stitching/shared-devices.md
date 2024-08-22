@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: c1ed707f63db87566331783ea24f33cc69721af9
+source-git-commit: 1a5646700dba6362a35158890f2917fc472fbddd
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 5%
+source-wordcount: '977'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Los eventos de éxito del pedido (compra) asignan los datos con precisión al co
 
 ## Mejorar el análisis centrado en las personas
 
-Para mejorar el análisis centrado en las personas de los dispositivos compartidos, tiene dos opciones: puede utilizar la vinculación o puede implementar la funcionalidad de restablecimiento de ECID. Ambos enfoques se analizan con más detalle en las secciones siguientes.
+Los datos de ejemplo son una combinación de actividad autenticada y no autenticada para el mismo dispositivo. El desafío consiste en asignar una persona al tráfico no autenticado, de modo que pueda realizar un análisis centrado en la persona e impedir que Customer Recorrido Analytics elimine las actividades que no tienen un valor de ID de persona. Para resolver este desafío, tiene dos opciones: puede utilizar la vinculación o puede implementar la funcionalidad de restablecimiento de ECID. Ambas opciones se analizan con más detalle en las secciones siguientes.
 
 ### Unión
 
