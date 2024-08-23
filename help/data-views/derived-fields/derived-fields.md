@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 0a046a89e1742d3470a78ebad4f93cb3b4ea7f4c
+source-git-commit: 1fddf0e8421b35021a1f1641a684cacbc0ec1f0d
 workflow-type: tm+mt
 source-wordcount: '8366'
 ht-degree: 12%
@@ -26,7 +26,7 @@ Algunos casos de uso son:
 
 - Defina un campo de canal de marketing derivado que determine el canal de marketing adecuado en función de una o varias condiciones (por ejemplo, parámetro de URL, dirección URL de página, nombre de página).
 
-## Interfaz de campo derivada
+## Interfaz de campo derivada {#interface}
 
 Cuando se crea o edita un campo derivado, se utiliza la interfaz de campo derivado.
 
@@ -42,7 +42,7 @@ Cuando se crea o edita un campo derivado, se utiliza la interfaz de campo deriva
 
 {style="table-layout:auto"}
 
-## Asistente de plantilla de campo
+## Asistente de plantilla de campo {#wizard}
 
 Cuando accede a la interfaz de campos derivados por primera vez, se muestra el asistente [!UICONTROL Comenzar con una plantilla de campo].
 
@@ -51,7 +51,7 @@ Cuando accede a la interfaz de campos derivados por primera vez, se muestra el a
 
 El cuadro de diálogo de campo derivado se rellena con reglas (y funciones) necesarias o útiles para el tipo de campo seleccionado. Consulte [Plantillas de funciones](#function-templates) para obtener más información sobre las plantillas disponibles.
 
-## Interfaz de regla
+## Interfaz de regla {#rules}
 
 Cuando define una regla en el generador de reglas, utiliza la interfaz de reglas.
 
@@ -66,7 +66,7 @@ Cuando define una regla en el generador de reglas, utiliza la interfaz de reglas
 
 {style="table-layout:auto"}
 
-## Crear un campo derivado
+## Crear un campo derivado {#create}
 
 1. Seleccione una vista de datos existente o cree una vista de datos. Consulte [Vistas de datos](../data-views.md) para obtener más información.
 
@@ -81,7 +81,7 @@ Cuando define una regla en el generador de reglas, utiliza la interfaz de reglas
 5. El nuevo campo derivado se agregará al contenedor [!UICONTROL Campos derivados >] como parte de **[!UICONTROL ** Campos de esquema **]** en el carril izquierdo de la vista de datos.
 
 
-## Editar un campo derivado
+## Editar un campo derivado {#edit}
 
 1. Seleccione una vista de datos existente. Consulte [Vistas de datos](../data-views.md) para obtener más información.
 
@@ -117,7 +117,7 @@ Alternativamente, si ha utilizado un campo derivado como componente para dimensi
 
 
 
-## Eliminar un campo derivado
+## Eliminar un campo derivado {#delete}
 
 1. Seleccione una vista de datos existente. Consulte [Vistas de datos](../data-views.md) para obtener más información.
 
@@ -153,12 +153,12 @@ Alternativamente, si ha utilizado un campo derivado como componente para dimensi
 
 
 
-## Plantillas de funciones
+## Plantillas de funciones {#templates}
 
 Para crear rápidamente un campo derivado para casos de uso específicos, hay plantillas de función disponibles. Se puede acceder a estas plantillas de función desde el área de selector de la interfaz de campo derivada o se presentan al utilizarlas por primera vez en el asistente [!UICONTROL Comenzar con una plantilla de campo].
 
 
-### Canales de marketing
+### Canales de marketing {#mchannel}
 
 Esta plantilla de función utiliza una colección de reglas para crear canales de marketing.
 
@@ -170,7 +170,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Rechazos
+### Rechazos {#bounces}
 
 Esta plantilla de función utiliza una colección de reglas para identificar los rechazos del sitio.
 
@@ -182,7 +182,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Combinación multidimensional
+### Combinación multidimensional {#multi-dim}
 
 Esta plantilla de función combina dos valores en uno.
 
@@ -194,7 +194,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Nombre descriptivo del conjunto de datos
+### Nombre descriptivo del conjunto de datos {#friendlyname}
 
 Esta plantilla de función proporciona un nombre de conjunto de datos legible.
 
@@ -206,7 +206,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Nombre de página de URL
+### Nombre de página de URL {#pagename}
 
 Esta plantilla de función crea un nombre de página simple.
 
@@ -218,7 +218,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Temporada de vacaciones
+### Temporada de vacaciones {#holiday}
 
 Esta plantilla de función clasifica las horas clave del año.
 
@@ -230,7 +230,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Metas mensuales
+### Metas mensuales {#goals}
 
 Esta plantilla de función establece objetivos mensuales personalizados.
 
@@ -242,7 +242,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Obtener todos los valores de la lista delimitada
+### Obtener todos los valores de la lista delimitada {#allvalues}
 
 Esta plantilla de función convierte una lista limitada en una matriz.
 
@@ -254,7 +254,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Obtener el primer valor de la lista delimitada
+### Obtener el primer valor de la lista delimitada {#firstvalue}
 
 Esta plantilla de función obtiene el primer valor de una lista delimitada.
 
@@ -266,7 +266,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Obtener el último valor de la lista delimitada
+### Obtener el último valor de la lista delimitada {#lastvalue}
 
 Esta plantilla de función obtiene el último valor de una lista delimitada.
 
@@ -278,7 +278,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Nombre de dominio
+### Nombre de dominio {#domain}
 
 Esta plantilla de función extrae el nombre de dominio mediante una expresión regular.
 
@@ -290,7 +290,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Obtener parámetro de cadena de consulta
+### Obtener parámetro de cadena de consulta {#querystring}
 
 Esta plantilla de función extrae valores de cadena de consulta.
 
@@ -302,7 +302,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Campo de transición
+### Campo de transición {#transition}
 
 Esta plantilla de función cambia la creación de informes de un campo a otro.
 
@@ -314,7 +314,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Detección de bots simples
+### Detección de bots simples {#botdetection}
 
 Esta plantilla de función implementa la identificación de bots ligeros.
 
@@ -326,7 +326,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Vínculo de salida
+### Vínculo de salida {#exit}
 
 Esta plantilla de función identifica el último vínculo en el que se hizo clic en una sesión.
 
@@ -338,7 +338,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 +++
 
-### Vínculo de descarga
+### Vínculo de descarga {#download}
 
 Esta plantilla de función indica vínculos de descarga comunes.
 
@@ -361,7 +361,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 -->
 
-## Referencia de función
+## Referencia de función {#functionref}
 
 {{select-package}}
 
@@ -384,7 +384,7 @@ Para cada función admitida, busque los detalles siguientes en:
 
 <!-- CASE WHEN -->
 
-### Caso de que
+### Caso de que {#casewhen}
 
 Aplica condicionales, según los criterios definidos en uno o varios campos. Estos criterios se utilizan para definir los valores en un nuevo campo derivado, según la secuencia de las condiciones.
 
@@ -614,7 +614,7 @@ Las siguientes restricciones se aplican y se aplican al *seleccionar* y *estable
 
 <!-- CLASSIFY -->
 
-### Clasificar
+### Clasificar {#classify}
 
 Define un conjunto de valores que se reemplazan por los valores correspondientes en un nuevo campo derivado.
 
@@ -749,7 +749,7 @@ La siguiente funcionalidad adicional está disponible en la interfaz de reglas d
 
 <!-- CONCATENATE -->
 
-### Concatenar
+### Concatenar {#concatenate}
 
 Combina valores de campo en un único campo derivado nuevo con delimitadores definidos.
 
@@ -826,7 +826,7 @@ Usted define un campo derivado de `Origin - Destination`. Utiliza la función [!
 +++
 
 
-### Deduplicar
+### Deduplicar {#dedup}
 
 Evita contar un valor varias veces.
 
@@ -911,7 +911,7 @@ Usted define un nuevo campo derivado de `Tracking Code (deduplicated)`. Utiliza 
 
 <!-- FIND AND REPLACE -->
 
-### Buscar y reemplazar
+### Buscar y reemplazar {#find-replace}
 
 Busca todos los valores de un campo seleccionado y reemplaza esos valores por un valor diferente en un nuevo campo derivado.
 
@@ -981,7 +981,7 @@ Usted define un campo derivado de `Email Marketing (updated)`. Utiliza la funci�
 
 <!-- LOOKUP -->
 
-### Búsqueda
+### Búsqueda {#lookup}
 
 Valores de búsqueda que utilizan un campo de un conjunto de datos de búsqueda y devuelven un valor en un nuevo campo derivado o para un procesamiento de reglas adicional.
 
@@ -1032,7 +1032,7 @@ Puede insertar rápidamente una función [!UICONTROL Lookup] en el generador de 
 
 <!-- LOWERCASE -->
 
-### Minúsculas
+### Minúsculas {#lowercase}
 
 Convierte los valores de un campo a minúsculas y los almacena en un nuevo campo derivado.
 
@@ -1083,7 +1083,7 @@ Usted define un campo derivado de `Product Names`. Utilice la función [!UICONTR
 
 <!-- MATH -->
 
-### Math
+### Math {#math}
 
 Utilice operadores matemáticos básicos (sumar, restar, multiplicar, dividir y aumentar a una potencia) en campos numéricos.
 
@@ -1164,7 +1164,7 @@ Utilice la función Math para cálculos basados en el nivel de visita. Utilice l
 
 <!-- MERGE FIELDS -->
 
-### Combinar campos
+### Combinar campos {#merge}
 
 Combina valores de dos campos diferentes en un nuevo campo derivado.
 
@@ -1230,7 +1230,7 @@ Debe seleccionar el mismo tipo de campos dentro de una regla de campos combinado
 
 <!-- NEXT OR PREVIOUS -->
 
-### Siguiente o anterior
+### Siguiente o anterior {#next-previous}
 
 Toma un campo como entrada y resuelve el valor siguiente o anterior de ese campo dentro del ámbito de la sesión o el uso. Esto solo se aplicará a los campos de tabla Visita y Evento.
 
@@ -1302,7 +1302,7 @@ Solo puede seleccionar campos que pertenezcan a la tabla Visita o Evento.
 
 <!-- REGEX REPLACE -->
 
-### Reemplazar Regex
+### Reemplazar Regex {#regex-replace}
 
 Reemplaza un valor de un campo mediante una expresión regular en un nuevo campo derivado.
 
@@ -1399,7 +1399,7 @@ Puede utilizar estas secuencias en el [!UICONTROL Formato de salida] cualquier n
 
 <!-- SPLIT -->
 
-### Split
+### Split {#split}
 
 Divide un valor de un campo en un nuevo campo derivado.
 
@@ -1491,7 +1491,7 @@ Cree un campo derivado de `Second Response` para tomar el último valor del camp
 
 <!-- SUMMARIZE -->
 
-### Resumir
+### Resumir {#summarize}
 
 Aplica funciones de tipo agregación a métricas o dimensiones en los niveles de evento, sesión y usuario.
 
