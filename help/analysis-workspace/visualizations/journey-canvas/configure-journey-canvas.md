@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: e06793a0ce73fa8d6aa9b798209bfc044e696931
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4138'
 ht-degree: 1%
 
 ---
@@ -220,6 +220,12 @@ La lógica que se aplica a los nodos cuando se combinan difiere según los tipos
 ### Conectar nodos
 
 Puede conectar nodos que ya están en el lienzo o puede conectar un nodo al agregarlo al lienzo.
+
+#### Lógica al conectar nodos
+
+Cuando se conectan nodos en lienzo de Recorrido, se conectan mediante el operador THEN. Esto también se conoce como [filtrado secuencial](/help/components/filters/seg-sequential-build.md).
+
+Para ver la lógica de los nodos conectados, haga clic con el botón secundario en el nodo y seleccione [!UICONTROL **Crear filtro a partir del nodo**]. La lógica se muestra en la sección [!UICONTROL **Definición**].
 
 #### Conectar nodos existentes
 

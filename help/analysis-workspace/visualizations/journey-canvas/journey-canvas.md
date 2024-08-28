@@ -5,10 +5,10 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: fb2a24d6f7a93e941a76db0d10c515381c476c31
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 3%
+source-wordcount: '1193'
+ht-degree: 2%
 
 ---
 
@@ -94,16 +94,25 @@ El lienzo de recorrido proporciona un análisis profundo y exhaustivo que no es 
 
 El uso del lienzo de Recorrido para analizar los recorridos creados en Journey Optimizer ofrece varias ventajas:
 
-| Funcionalidad | Ventaja |
-|---------|----------|
-| **Creación de eventos** | Cree eventos fácilmente mediante dimensiones, métricas o filtros de Customer Journey Analytics. <p>En Journey Optimizer, un usuario técnico debe crear un evento para poder añadirlo a un recorrido.</p> |
-| **Crear audiencias a partir de nodos personalizados** | Cree audiencias basadas en un nodo personalizado que cree en el recorrido dentro de la visualización del lienzo de Recorrido. (Inicia el generador de audiencias de Customer Journey Analytics). <p>En Journey Optimizer, solo puede crear audiencias para actividades predefinidas.</p> |
-| **Abandonos y abandonos** | B3 |
-| **Desglosar eventos** | B3 |
-| **Cambiar nombre de eventos** | B3 |
-| **Eliminar eventos** | B3 |
-| **Combinar eventos** | B3 |
-| **Conectar eventos** | B3 |
+* Cree eventos mediante dimensiones, métricas, filtros o intervalos de fechas de Customer Journey Analytics.
+
+  En Journey Optimizer, un usuario técnico debe crear un evento para poder añadirlo a un recorrido.
+
+* Cree audiencias en función de un nodo personalizado que haya creado (inicia el generador de audiencias de Customer Journey Analytics).
+
+  En Journey Optimizer, solo puede crear audiencias para actividades predefinidas.
+
+* Analizar visitas en el orden previsto y abandonos
+
+* Desglose de eventos con cualquier dimensión
+
+* Combinación de eventos
+
+* Conectar eventos
+
+* Cambiar nombre y eliminar eventos
+
+* Mucho más
 
 ### Sincronización entre Journey Optimizer y el lienzo de Recorrido
 
@@ -144,8 +153,6 @@ Ciertos términos que significan una cosa en Journey Optimizer significan otra e
 | Término | Lienzo de recorrido | Journey Optimizer |
 |---------|----------|---------|
 | **Evento** | Una de las varias métricas estándar que están disponibles en Customer Journey Analytics. Esta métrica cuenta cosas como ingresos, suscripciones o posibles clientes generados. | Categoría de actividad que almacena en déclencheur un recorrido personalizado, como una compra en línea. |
-| A2 | B2 | C2 |
-| A3 | B3 | C3 |
 
 ### Analizar un recorrido de Journey Optimizer en lienzo de Recorrido
 
