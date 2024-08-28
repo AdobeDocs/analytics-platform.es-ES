@@ -5,10 +5,10 @@ title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 80%
+source-wordcount: '1344'
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Gráfico de viñetas](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![Icono de viñeta](assets/Smock_GraphBullet_18_N.svg)</p> | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
 | [Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Icono de tabla de cohorte](assets/Smock_TextNumbered_18_N.svg)</p> | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil para el análisis de retención, pérdida o latencia. |
 | [Anillo](/help/analysis-workspace/visualizations/donut.md) <p>![Icono de anillo](assets/Smock_GraphDonut_18_N.svg)</p> | Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. |
-| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icono de visitas en el orden previsto](assets/Smock_ConversionFunnel_18_N.svg)</p> | Los informes de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
+| [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icono de visitas en el orden previsto](assets/Smock_ConversionFunnel_18_N.svg)</p> | <!-- Similar to Journey canvas, -->Las visualizaciones de visitas en el orden previsto muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas. Las visualizaciones de visitas en el orden previsto se pueden establecer en secuencias posibles o exactas. <p><!-- Unlike Journey canvas, -->Las visualizaciones de visitas en el orden previsto solo proporcionan análisis para recorridos lineales que tienen un único principio y un único final conocidos.</p> |
 | [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![Icono de flujo](assets/flow-icon.png)</p> | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
 | [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Icono de tabla de forma libre](assets/Smock_ViewTable_18_N.svg)</p> | Una tabla de forma libre no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
 | [Histograma](/help/analysis-workspace/visualizations/histogram.md)<p>![Icono de histograma](assets/Smock_GraphHistogram_18_N.svg)</p> | Un histograma agrupa a personas, visitas o eventos en bloques en función de un volumen de métrica. |
@@ -39,6 +39,8 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Texto](/help/analysis-workspace/visualizations/text.md)<p>![Icono de diagrama de dispersión](assets/Smock_Text_18_N.svg)</p> | Le permite agregar texto definido por el usuario a Workspace. Útil para añadir contexto adicional a los análisis y perspectivas, además de aprovechar las descripciones de paneles/visualizaciones |
 | [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md)<p>![Icono de gráfico de rectángulos](assets/Smock_GraphTree_18_N.svg)</p> | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md)<p>![Icono Venn](assets/venn-icon.png)</p> | Utiliza círculos para mostrar la superposición de métricas de hasta 3 filtros. |
+
+<!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
 ## Adición de visualizaciones a un panel
 

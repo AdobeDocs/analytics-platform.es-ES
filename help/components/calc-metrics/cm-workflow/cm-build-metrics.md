@@ -3,10 +3,10 @@ description: El Generador de métricas calculadas proporciona un lienzo en el qu
 title: Crear métricas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
+source-git-commit: 7cdd81c9e38219d2d17decd5b9c3e987b814fc53
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 50%
+source-wordcount: '1214'
+ht-degree: 48%
 
 ---
 
@@ -30,6 +30,18 @@ Acceda al creador de métricas calculadas para empezar a crear una métrica calc
 
 ## Áreas del creador de métricas calculadas
 
+<!-- 
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_viz_product_compatibility"
+>title="Product compatibility"
+>abstract="Indicates where in Customer Journey Analytics this calculated metric can be used, such as in Analysis Workspace, Report Builder, and so forth."  
+>"Some calculated metrics cannot be used with experimentation. Calculated metrics that are not compatible with experimentation have the following value: "Everywhere in Customer Journey Analytics (excluding experimentation)" "
+>"Various factors affect whether a calculated metric is compatible with experimentation. Learn more (https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation) ."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Use calculated metrics in experimentation"
+
+-->
+
 La siguiente imagen y la tabla adjunta explican algunas de las áreas y características principales del Creador de métricas calculadas.
 
 ![Nueva ventana de métricas calculadas que muestra las áreas y características principales descritas en esta sección.](assets/cm_builder_ui.png)
@@ -47,7 +59,7 @@ La siguiente imagen y la tabla adjunta explican algunas de las áreas y caracter
 | Definición | Aquí es donde arrastra las métricas/métricas calculadas, filtros o funciones para crear la métrica calculada. <ul><li>Si arrastra una métrica calculada, ampliará su definición de métrica automáticamente. </li> <li>Puede anidar definiciones en contenedores. Sin embargo, a diferencia de los contenedores de filtro, estos contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. </li> </ul> |
 | Operador | Dividido entre ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) es el operador predeterminado, además de los operadores +, - y x. |
 | Vista previa | Proporciona una lectura rápida de cualquier posible error. La vista previa abarca los últimos 90 días. Esta es una forma de calibrar inicialmente si ha seleccionado los componentes adecuados para su métrica. Un resultado inesperado significaría que debe volver a revisar la definición de la métrica. |
-| Compatibilidad del producto | Para cualquier métrica calculada que cree en Customer Journey Analytics, este valor siempre se muestra como [!UICONTROL **Datos completamente procesados**]. Las métricas calculadas solo pueden incluir datos de conjuntos de datos de evento. |
+| Compatibilidad del producto | Indica en qué Customer Journey Analytics se puede utilizar esta métrica calculada. <p>Los valores posibles son:</p><ul><li>[!UICONTROL **En cualquier lugar del Customer Journey Analytics**]: la métrica calculada se puede usar en todos los Customer Journey Analytics, incluso en Analysis Workspace, Report Builder, etc.</li><li>[!UICONTROL **En cualquier lugar del Customer Journey Analytics (excluida la experimentación)**]: la métrica calculada se puede usar en todo el Customer Journey Analytics, excepto en el panel Experimentación.</li> <p>Para obtener información acerca de los criterios que determinan si se puede usar una métrica calculada con experimentación, consulte [Usar métricas calculadas en el panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel) en [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md).</p></ul> |
 | Agregue | Puede añadir contenedores y números estáticos a la definición de todos los tipos de métricas calculadas. Para obtener métricas calculadas avanzadas, también puede añadir filtros y funciones.<ul><li>Los contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. Así, cualquier cosa que se encuentre en un contenedor se procesará antes de la operación siguiente.</li><li>Al arrastrar un filtro a un contenedor, se filtra todo lo que hay en dicho contenedor. (solo métricas calculadas avanzadas).</li><li>Puede apilar múltiples filtros en un contenedor.</li></ul> |
 | Icono de engranaje (Tipo de métrica, Atribución) | Si selecciona el icono de engranaje junto a una métrica, puede especificar el tipo de métrica y los modelos de atribución. <p>**Nota:** Tenga en cuenta lo siguiente al actualizar la atribución de un componente a un modelo de atribución no predeterminado:</p><ul><li>**Al usar el componente en un informe con *una sola dimensión*:** La atribución del componente ignora el modelo de asignación cuando se usa un modelo de atribución no predeterminado.</li><li>**Al usar el componente en un informe con *varias dimensiones*:** La atribución del componente retiene el modelo de asignación cuando se usa un modelo de atribución no predeterminado.</li><li>Solo hay varias dimensiones disponibles cuando [se exportan datos a la nube](/help/analysis-workspace/export/export-cloud.md).</li></ul> <p>Para obtener más información acerca de la asignación, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).</p> |
 | Icono de signo más (+) | Le permite crear un nuevo componente, como un nuevo filtro (que le dirige al Generador de segmentos). |
