@@ -5,14 +5,17 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
+exl-id: 53984934-6fba-4f15-aeeb-d91039260553
+source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4276'
 ht-degree: 1%
 
 ---
 
 # Configuración de una visualización de lienzo de Recorrido
+
+{{release-limited-testing}}
 
 La visualización del lienzo de Recorrido le permite analizar y obtener perspectivas profundas sobre los recorridos que proporciona a sus usuarios y clientes.
 
@@ -78,9 +81,9 @@ Necesita [empezar a crear una visualización de lienzo de Recorrido](#begin-buil
    | Configuración | Función |
    |---------|----------|
    | [!UICONTROL **Tipo de nodo**] | Permite configurar qué tipos de nodos se muestran en la visualización. Para ocultar un tipo de nodo de la visualización, seleccione la (x) junto al tipo de nodo o anule su selección en el menú desplegable. Para mostrar un tipo de nodo oculto, selecciónelo en el menú desplegable. <p>Según el contenido de la visualización, los tipos de nodo posibles incluyen:</p><ul><li>[!UICONTROL **Leer segmento**]</li><li>[!UICONTROL **Fin**]</li><li>[!UICONTROL **Dimensión**]</li><li>[!UICONTROL **Métrica**]</li></ul><p>**Nota**: tenga en cuenta lo siguiente al utilizar este campo:</p><ul><li>Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la vista de datos seleccionada en el panel Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Después de modificar un recorrido de Journey Optimizer en Lienzo de Recorrido, esta opción ya no está disponible. Para obtener más información, vea [Diferencias visuales después de modificar un recorrido en lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
-   | [!UICONTROL **Valor porcentual**] | Elija entre las siguientes opciones: <ul><li>[!UICONTROL **Porcentaje del total**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel.</li><li>[!UICONTROL **Porcentaje del nodo de inicio**]: El porcentaje de todas las personas incluidas en el nodo de inicio.<p>Esta opción solo está disponible si tiene un solo nodo de inicio. Está oculta si tiene varios nodos de inicio.</p></li></ul> |
+   | [!UICONTROL **Valor porcentual**] | Elija entre las siguientes opciones: <ul><li>[!UICONTROL **Porcentaje del total**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel.</li><li>[!UICONTROL **Porcentaje del nodo de inicio**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel que también cumplen los criterios del nodo de inicio del recorrido. (Esta opción solo está disponible en recorridos con un solo nodo de inicio; está desactivada en recorridos con varios nodos de inicio. Un nodo de inicio se define como cualquier nodo que no tiene una conexión entrante).</li></ul> |
    | [!UICONTROL **Configuración de flecha**] | Elija entre las siguientes opciones:<ul><li>[!UICONTROL **Ninguno**]: </li><li>[!UICONTROL **Condición**]: </li><li>[!UICONTROL **Todas las etiquetas**]: </li></ul><p>**Nota**: Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</p> |
-   | [!UICONTROL **Mostrar visitas en el orden previsto**] | Muestra los datos de visitas en el orden previsto de cada nodo, con el número y el porcentaje de personas que abandonaron el recorrido en un nodo determinado. |
+   | [!UICONTROL **Mostrar visitas en el orden previsto**] | Muestra los datos de visitas en el orden previsto de cada nodo. Muestra el número y el porcentaje de personas que abandonaron el recorrido en un nodo determinado. <p>Las personas que no siguieron el recorrido podrían haber realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos por el siguiente nodo del recorrido.</p> |
 
 1. Continuar con [Agregar un nodo](#add-a-node).
 
@@ -92,7 +95,7 @@ Para añadir un nodo a una visualización de lienzo de Recorrido:
 
 1. En Analysis Workspace, abra una visualización de lienzo de Recorrido existente o [empiece a crear una nueva](#begin-building-a-journey-canvas-visualization).
 
-1. Arrastre métricas, dimensiones, elementos de dimensión, filtros o intervalos de fechas desde el carril izquierdo al lienzo. No se admiten las métricas calculadas. Además, no se admite ninguna métrica o dimensión basada en un [conjunto de datos de resumen](/help/data-views/summary-data.md).
+1. Arrastre métricas, dimensiones, elementos de dimensión, filtros o intervalos de fechas desde el carril izquierdo al lienzo. Se admiten las métricas basadas en un [campo derivado](/help/data-views/derived-fields/derived-fields.md). Sin embargo, no se admiten las métricas calculadas ni las métricas o dimensiones basadas en un [conjunto de datos de resumen](/help/data-views/summary-data.md).
 
    Para seleccionar varios componentes en el carril izquierdo, mantenga pulsada la tecla Mayús o Comando (en Mac) o Ctrl (en Windows).
 
@@ -221,15 +224,25 @@ La lógica que se aplica a los nodos cuando se combinan difiere según los tipos
 
 Puede conectar nodos que ya están en el lienzo o puede conectar un nodo al agregarlo al lienzo.
 
+#### Flechas entre nodos
+
+Los nodos se conectan mediante una flecha. Tanto la dirección de la flecha como la anchura tienen significado:
+
+* **Dirección**: indica la secuencia de eventos del recorrido
+
+* **Anchura**: indica el volumen porcentual de un nodo a otro
+
 #### Lógica al conectar nodos
 
 Cuando se conectan nodos en lienzo de Recorrido, se conectan mediante el operador THEN. Esto también se conoce como [filtrado secuencial](/help/components/filters/seg-sequential-build.md).
+
+Los nodos están conectados como una &quot;ruta eventual&quot;, lo que significa que los visitantes se cuentan siempre y cuando finalmente se muevan de un nodo a otro, independientemente de los eventos que se produzcan entre los 2 nodos.
 
 Para ver la lógica de los nodos conectados, haga clic con el botón secundario en el nodo y seleccione [!UICONTROL **Crear filtro a partir del nodo**]. La lógica se muestra en la sección [!UICONTROL **Definición**].
 
 #### Conectar nodos existentes
 
-La flecha entre los nodos del lienzo de Recorrido determina la secuencia de eventos del recorrido.
+Los recorridos no pueden ser circulares, y se pueden volver a conectar con nodos previamente conectados.
 
 Para conectar nodos en lienzo de Recorrido:
 
@@ -239,7 +252,7 @@ Para conectar nodos en lienzo de Recorrido:
 
 1. Arrastre cualquiera de los 4 puntos azules a cualquiera de los 4 lados del nodo al que desee conectarse.
 
-   Aparece una flecha que conecta los 2 nodos. La flecha indica la dirección en la que las personas se mueven a través del recorrido.
+   Aparece una flecha que conecta los 2 nodos. Vea [Flechas entre nodos](#arrows-between-nodes) para obtener más información.
 
 #### Conectar nodos al añadir un nodo
 
@@ -249,7 +262,7 @@ Para obtener más información, consulte [Agregar un nodo](#add-a-node).
 
 ### Cambiar el color de un nodo o una flecha
 
-Puede cambiar el color de un nodo o una flecha en el lienzo.
+Puede personalizar visualmente un recorrido cambiando el color de cualquier nodo o flecha del lienzo. Por ejemplo, puede ajustar los colores para indicar un evento deseable o no deseable.
 
 La opción para cambiar el color está disponible para los siguientes objetos del lienzo:
 
@@ -339,7 +352,7 @@ Para crear una audiencia:
 
 ### Ver datos de tendencia
 
-Los datos de tendencia se pueden ver en un gráfico de líneas para los objetos del lienzo de Recorrido. &lt;!—, con algunos datos de detección de anomalías generados previamente (esta es la definición en Visitas en el orden previsto)>
+Los datos de tendencia se pueden ver en un gráfico de líneas para los objetos del lienzo de Recorrido. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 La opción tendencia está disponible para los siguientes objetos del lienzo:
 
@@ -474,4 +487,3 @@ Para eliminar flechas entre nodos en lienzo de Recorrido:
 En Journey Optimizer, abra el recorrido que desee analizar en el lienzo del Recorrido.
 
 1. Seleccione [!UICONTROL **Analizar en CJA**]. <!-- ?? -->
-
