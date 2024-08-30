@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 483f74408cfb81f2cbbbb25df9402aa829be09b1
+source-git-commit: 79efab0baf9c44603a7aad7383f42a9d9c0b63cb
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 68%
+source-wordcount: '2931'
+ht-degree: 65%
 
 ---
 
@@ -192,6 +192,19 @@ La configuración relacionada con la gobernanza de datos en Customer Journey Ana
 
 Las etiquetas de privacidad y las políticas creadas en conjuntos de datos consumidos por Experience Platform se pueden ver en el flujo de trabajo de vistas de datos de Customer Journey Analytics. Por lo tanto, los datos consultados con [!DNL Customer Journey Analytics BI extension] muestran advertencias o errores adecuados cuando no cumplen con las etiquetas y directivas de privacidad definidas.
 
+#### Valores predeterminados y limitaciones
+
+Por motivos de control de datos, se aplican los siguientes valores predeterminados y limitaciones adicionales.
+
+* La extensión de BI requiere un límite de filas para los resultados de la consulta. El valor predeterminado es 50, pero puede invalidarlo en SQL con `LIMIT n`, donde `n` es 1 - 50000.
+* La extensión de BI requiere un intervalo de fechas para limitar las filas utilizadas en los cálculos. El valor predeterminado son los últimos 30 días, pero puede invalidarlo en la cláusula SQL `WHERE` con las columnas especiales [`timestamp`](#timestamp) o [`daterange`](#date-range) (consulte la documentación adicional).
+* La extensión de BI requiere consultas agregadas. No puede usar SQL como `SELECT * FROM ...` para obtener las filas subyacentes sin procesar. En un nivel superior, las consultas agregadas deben utilizar:
+   * Seleccionar totales usando `SUM` y/o `COUNT`.<br/> Por ejemplo, `SELECT SUM(metric1), COUNT(*) FROM ...`
+   * Seleccione las métricas desglosadas por una dimensión. <br/>Por ejemplo, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
+   * Seleccione valores de métrica distintos.<br/>Por ejemplo, `SELECT DISTINCT dimension1 FROM ...`
+
+     Consulte para obtener más información [SQL compatible](#supported-sql).
+
 ### Enumerar vistas de datos
 
 En la CLI estándar de PostgreSQL, puede enumerar las vistas mediante `\dv`
@@ -310,7 +323,7 @@ La columna especial `daterangeName` se puede usar para filtrar la consulta usand
 >[!NOTE]
 >
 >Power BI no admite `daterange` métricas con menos de un día (hora, 30 minutos, 5 minutos, etc.).
-
+>
 
 #### Identificador de filtro
 
