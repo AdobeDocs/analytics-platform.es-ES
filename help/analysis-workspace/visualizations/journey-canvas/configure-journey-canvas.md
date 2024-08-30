@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
 workflow-type: tm+mt
-source-wordcount: '4276'
+source-wordcount: '4359'
 ht-degree: 1%
 
 ---
@@ -65,16 +65,20 @@ Consulte [descripción general del lienzo de Recorrido](/help/analysis-workspace
 
    <!-- add screen shot -->
 
-1. Tanto si está creando un nuevo análisis a partir de un lienzo en blanco como si está analizando un recorrido de Journey Optimizer, puede configurar el recorrido como se describe en [Configuración de una visualización de lienzo de Recorrido](#begin-building-a-journey-canvas-visualization).
+1. Tanto si está creando un nuevo análisis a partir de un lienzo en blanco como si está analizando un recorrido de Journey Optimizer, puede configurar el recorrido tal como se describe en [Configuración de la visualización](#configure-visualization-settings).
 
 
-## Configuración de una visualización de lienzo de Recorrido
+## Configuración de visualización
 
-Necesita [empezar a crear una visualización de lienzo de Recorrido](#begin-building-a-journey-canvas-visualization) para poder configurarla como se describe en las secciones siguientes.
+Hay varias opciones de configuración disponibles en el encabezado del lienzo de Recorrido.
 
-### Configurar opciones
+Para definir la configuración de la visualización del lienzo de Recorrido:
 
 1. En Analysis Workspace, abra una visualización de lienzo de Recorrido existente o [empiece a crear una nueva](#begin-building-a-journey-canvas-visualization).
+
+   Las opciones que le permiten configurar la visualización del lienzo de Recorrido están disponibles en el encabezado:
+
+   ![opciones de encabezado de lienzo de Recorrido](assets/journey-canvas-header.png)
 
 1. Configure cualquiera de las siguientes opciones que se muestran en la parte superior de la visualización:
 
@@ -83,15 +87,17 @@ Necesita [empezar a crear una visualización de lienzo de Recorrido](#begin-buil
    | [!UICONTROL **Tipo de nodo**] | Permite configurar qué tipos de nodos se muestran en la visualización. Para ocultar un tipo de nodo de la visualización, seleccione la (x) junto al tipo de nodo o anule su selección en el menú desplegable. Para mostrar un tipo de nodo oculto, selecciónelo en el menú desplegable. <p>Según el contenido de la visualización, los tipos de nodo posibles incluyen:</p><ul><li>[!UICONTROL **Leer segmento**]</li><li>[!UICONTROL **Fin**]</li><li>[!UICONTROL **Dimensión**]</li><li>[!UICONTROL **Métrica**]</li></ul><p>**Nota**: tenga en cuenta lo siguiente al utilizar este campo:</p><ul><li>Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la vista de datos seleccionada en el panel Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Después de modificar un recorrido de Journey Optimizer en Lienzo de Recorrido, esta opción ya no está disponible. Para obtener más información, vea [Diferencias visuales después de modificar un recorrido en lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
    | [!UICONTROL **Valor porcentual**] | Elija entre las siguientes opciones: <ul><li>[!UICONTROL **Porcentaje del total**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel.</li><li>[!UICONTROL **Porcentaje del nodo de inicio**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel que también cumplen los criterios del nodo de inicio del recorrido. (Esta opción solo está disponible en recorridos con un solo nodo de inicio; está desactivada en recorridos con varios nodos de inicio. Un nodo de inicio se define como cualquier nodo que no tiene una conexión entrante).</li></ul> |
    | [!UICONTROL **Configuración de flecha**] | Elija entre las siguientes opciones:<ul><li>[!UICONTROL **Ninguno**]: </li><li>[!UICONTROL **Condición**]: </li><li>[!UICONTROL **Todas las etiquetas**]: </li></ul><p>**Nota**: Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</p> |
-   | [!UICONTROL **Mostrar visitas en el orden previsto**] | Muestra los datos de visitas en el orden previsto de cada nodo. Muestra el número y el porcentaje de personas que abandonaron el recorrido en un nodo determinado. <p>Las personas que no siguieron el recorrido podrían haber realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos por el siguiente nodo del recorrido.</p> |
+   | [!UICONTROL **Mostrar visitas en el orden previsto**] | Muestra los datos de visitas en el orden previsto de cada nodo. Muestra el número y el porcentaje de personas que abandonaron el recorrido después de un nodo determinado. <p>Las personas que no siguieron el recorrido podrían haber realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos por el siguiente nodo del recorrido.</p> |
 
-1. Continuar con [Agregar un nodo](#add-a-node).
+1. Continúe con [Agregar nodos](#add-nodes).
 
-### Añadir un nodo
+## Agregar nodos
 
-Los nodos de una visualización de lienzo de Recorrido representan los eventos o las acciones de un recorrido de usuario. Los nodos se crean arrastrando los componentes de Workspace del carril izquierdo al lienzo.
+Los nodos de una visualización de lienzo de Recorrido representan los eventos o las acciones de un recorrido de usuario.
 
-Para añadir un nodo a una visualización de lienzo de Recorrido:
+Los nodos se crean arrastrando los componentes de Workspace del carril izquierdo al lienzo, permitiendo que el lienzo de Recorrido elija los nodos superiores siguientes o anteriores en función de los nodos existentes, o duplicando los nodos existentes.
+
+### Arrastre componentes desde el carril izquierdo
 
 1. En Analysis Workspace, abra una visualización de lienzo de Recorrido existente o [empiece a crear una nueva](#begin-building-a-journey-canvas-visualization).
 
@@ -180,6 +186,24 @@ Puede agregar los 3 nodos principales que se encuentran entre 2 nodos existentes
 
    Los 3 nodos principales se agregan entre los 2 nodos existentes y cada uno de ellos se conecta como una rama independiente.
 
+### Duplicar nodos
+
+La opción de duplicado está disponible para los siguientes objetos del lienzo:
+
+* Varios nodos
+
+Para duplicar nodos:
+
+1. Seleccione varios nodos que desee duplicar.
+
+1. Haga clic con el botón derecho en uno de los nodos seleccionados y, a continuación, seleccione [!UICONTROL **Duplicar**].
+
+## Diseño del recorrido
+
+El orden de los nodos y las conexiones entre ellos afectan a los datos del lienzo de Recorrido. Los recorridos deben reflejar de forma visual y precisa la secuencia de eventos de los que desee informar.
+
+Una vez añadidos los nodos al lienzo, puede reorganizarlos, combinarlos, conectarlos y añadir restricciones de tiempo entre ellos.
+
 ### Reorganizar nodos
 
 Los recorridos del lienzo de Recorrido constan de un gráfico flexible de nodos y flechas que representan cualquier combinación de eventos, elementos de dimensión y filtros.
@@ -260,6 +284,27 @@ Al agregar un nodo al lienzo, puede colocarlo entre dos nodos conectados. El nod
 
 Para obtener más información, consulte [Agregar un nodo](#add-a-node).
 
+### Agregar una restricción de tiempo entre nodos
+
+Puede establecer una restricción de tiempo entre nodos. Cuando se establece una restricción de tiempo, si una persona sigue el recorrido definido pero tarda más tiempo del asignado en moverse entre los nodos, se considera que ha salido del recorrido.
+
+La opción para añadir una restricción de tiempo está disponible para los siguientes objetos del lienzo:
+
+* La flecha entre los nodos
+
+Para añadir una restricción de tiempo:
+
+1. Haga clic con el botón derecho en la flecha entre 2 nodos y, a continuación, seleccione [!UICONTROL **Agregar restricción de tiempo**].
+
+<!-- 
+
+from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
+1. Choose from the following options: 
+
+-->
+
+## Administración de nodos o flechas
+
 ### Cambiar el color de un nodo o una flecha
 
 Puede personalizar visualmente un recorrido cambiando el color de cualquier nodo o flecha del lienzo. Por ejemplo, puede ajustar los colores para indicar un evento deseable o no deseable.
@@ -310,7 +355,7 @@ La opción para aplicar un desglose a los datos está disponible para los siguie
 
 * Varias flechas entre nodos
 
-### Aplicar un desglose a uno o varios nodos o flechas
+#### Aplicar un desglose a uno o varios nodos o flechas
 
 1. Seleccione uno o varios nodos a los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
@@ -320,7 +365,7 @@ La opción para aplicar un desglose a los datos está disponible para los siguie
 
 1. Seleccionar [!UICONTROL **desglose**].
 
-### Aplicación de un desglose a un nodo individual
+#### Aplicación de un desglose a un nodo individual
 
 Puede arrastrar una dimensión desde el carril izquierdo al nodo del lienzo en el que desea aplicar el desglose.
 
@@ -374,37 +419,6 @@ Para ver datos de tendencia:
 
 1. Seleccione [!UICONTROL **Tendencia**].
 
-### Duplicar nodos
-
-La opción de duplicado está disponible para los siguientes objetos del lienzo:
-
-* Varios nodos
-
-Para duplicar nodos:
-
-1. Seleccione varios nodos que desee duplicar.
-
-1. Haga clic con el botón derecho en uno de los nodos seleccionados y, a continuación, seleccione [!UICONTROL **Duplicar**].
-
-
-### Agregar una restricción de tiempo entre nodos
-
-Puede establecer una restricción de tiempo entre nodos. Cuando se establece una restricción de tiempo, si una persona sigue el recorrido definido pero tarda más tiempo del asignado en moverse entre los nodos, se considera que ha salido del recorrido.
-
-La opción para añadir una restricción de tiempo está disponible para los siguientes objetos del lienzo:
-
-* La flecha entre los nodos
-
-Para añadir una restricción de tiempo:
-
-1. Haga clic con el botón derecho en la flecha entre 2 nodos y, a continuación, seleccione [!UICONTROL **Agregar restricción de tiempo**].
-
-<!-- 
-
-from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
-1. Choose from the following options: 
-
--->
 
 ### Creación de un filtro basado en un nodo o una flecha
 
