@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 81bde9f61f208fd01b3ba1c3df57609104109800
+source-git-commit: 27749382a311330e6ece76c663f4c610ef20d8c1
 workflow-type: tm+mt
 source-wordcount: '2928'
 ht-degree: 65%
@@ -192,19 +192,6 @@ La configuración relacionada con la gobernanza de datos en Customer Journey Ana
 
 Las etiquetas de privacidad y las políticas creadas en conjuntos de datos consumidos por Experience Platform se pueden ver en el flujo de trabajo de vistas de datos de Customer Journey Analytics. Por lo tanto, los datos consultados con [!DNL Customer Journey Analytics BI extension] muestran advertencias o errores adecuados cuando no cumplen con las etiquetas y directivas de privacidad definidas.
 
-#### Valores predeterminados y limitaciones
-
-Por motivos de control de datos, se aplican los siguientes valores predeterminados y limitaciones adicionales.
-
-* La extensión de BI requiere un límite de filas para los resultados de la consulta. El valor predeterminado es 50, pero puede invalidarlo en SQL con `LIMIT n`, donde `n` es 1 - 50000.
-* La extensión de BI requiere un intervalo de fechas para limitar las filas utilizadas en los cálculos. El valor predeterminado son los últimos 30 días, pero puede invalidarlo en la cláusula SQL `WHERE` con las columnas especiales [`timestamp`](#timestamp) o [`daterange`](#date-range).
-* La extensión de BI requiere consultas agregadas. No puede usar SQL como `SELECT * FROM ...` para obtener las filas subyacentes sin procesar. En un nivel superior, las consultas agregadas deben utilizar:
-   * Seleccionar totales usando `SUM` y/o `COUNT`.<br/> Por ejemplo, `SELECT SUM(metric1), COUNT(*) FROM ...`
-   * Seleccione las métricas desglosadas por una dimensión. <br/>Por ejemplo, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
-   * Seleccione valores de métrica distintos.<br/>Por ejemplo, `SELECT DISTINCT dimension1 FROM ...`
-
-     Consulte para obtener más información [SQL compatible](#supported-sql).
-
 ### Enumerar vistas de datos
 
 En la CLI estándar de PostgreSQL, puede enumerar las vistas mediante `\dv`
@@ -221,6 +208,21 @@ prod:all=> \dv
 ### Anidado frente al acoplamiento
 
 De forma predeterminada, el esquema de las vistas de datos utiliza estructuras anidadas, al igual que los esquemas XDM originales. La integración también admite la opción `FLATTEN`. Puede utilizar esta opción para forzar el acoplamiento del esquema de las vistas de datos (y de cualquier otra tabla de la sesión). El acoplamiento permite un uso más sencillo en herramientas de BI que no admiten esquemas estructurados. Consulte [Trabajar con estructuras de datos anidadas en el servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
+
+
+### Valores predeterminados y limitaciones
+
+Al usar la extensión de BI, se aplican los siguientes valores predeterminados y limitaciones adicionales:
+
+* La extensión de BI requiere un límite de filas para los resultados de la consulta. El valor predeterminado es 50, pero puede invalidarlo en SQL con `LIMIT n`, donde `n` es 1 - 50000.
+* La extensión de BI requiere un intervalo de fechas para limitar las filas utilizadas en los cálculos. El valor predeterminado son los últimos 30 días, pero puede invalidarlo en la cláusula SQL `WHERE` con las columnas especiales [`timestamp`](#timestamp) o [`daterange`](#date-range).
+* La extensión de BI requiere consultas de agregado. No puede usar SQL como `SELECT * FROM ...` para obtener las filas subyacentes sin procesar. En un nivel superior, las consultas agregadas deben utilizar:
+   * Seleccionar totales usando `SUM` y/o `COUNT`.<br/> Por ejemplo, `SELECT SUM(metric1), COUNT(*) FROM ...`
+   * Seleccione las métricas desglosadas por una dimensión. <br/>Por ejemplo, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
+   * Seleccione valores de métrica distintos.<br/>Por ejemplo, `SELECT DISTINCT dimension1 FROM ...`
+
+     Consulte para obtener más información [SQL compatible](#supported-sql).
+
 
 ### SQL compatible
 
