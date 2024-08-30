@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
+source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4484'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Consulte [descripción general del lienzo de Recorrido](/help/analysis-workspace
    |---------|----------|
    | [!UICONTROL **Métrica principal**] | La métrica principal afecta a los siguientes aspectos de la visualización del lienzo de Recorrido:  <ul><li>Define cómo se mueven las personas a través del recorrido.</li><li>El número total que se muestra en cada nodo.<p>Por ejemplo, si Personas es la métrica principal, cada nodo muestra el número de personas que llegaron a ese nodo en el recorrido.</p></li><li>El porcentaje que se muestra en cada nodo. (Una vez creada la visualización, puede elegir mostrar el porcentaje del total o del nodo de inicio).</li><p>Por ejemplo, si Personas es la métrica principal, cada nodo muestra el porcentaje de personas que llegaron a ese nodo en el recorrido (el porcentaje del total o del nodo de inicio).</p></li><li>Cuando se añade una dimensión a la visualización, se añaden los 3 nodos principales de la visualización en función de la métrica principal.</li></ul> |
    | [!UICONTROL **Métrica secundaria**] | La métrica secundaria es opcional. Cuando se selecciona uno, se muestra la siguiente información en cada nodo debajo de la métrica principal: <ul><li>El número total<p>Por ejemplo, si Sesiones es la métrica secundaria, cada nodo muestra el número de sesiones que llegaron a ese nodo en el recorrido.</p></li><li>El porcentaje (una vez creada la visualización, puede elegir mostrar el porcentaje del total o del nodo de inicio).</li><p>Por ejemplo, si Sesiones es la métrica secundaria, cada nodo muestra el porcentaje de sesiones que alcanzaron ese nodo en el recorrido (el porcentaje del total o del nodo de inicio).</p></li></ul> |
-   | [!UICONTROL **recorrido Journey Optimizer**]<!-- name? --> | Seleccione el recorrido de Journey Optimizer que desee utilizar como base para el análisis en lienzo de Recorrido. (Como alternativa, puede dejar esta opción en blanco si desea un lienzo en blanco desde el que generar el análisis en Analysis Workspace).</p> <p>Cuando se analiza un recorrido de Journey Optimizer en lienzo de Recorrido, el recorrido se muestra con el mismo orden, secuencia y estructura que en Journey Optimizer. Para obtener más información, consulte [Analizar recorridos de Journey Optimizer](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) en [descripción general del lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).</p><p>**Nota**: Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **recorrido Journey Optimizer**]<!-- name? --> | Seleccione el recorrido de Journey Optimizer que desee utilizar como base para el análisis en lienzo de Recorrido. (Como alternativa, puede dejar esta opción en blanco si desea un lienzo en blanco desde el que generar el análisis en Analysis Workspace).</p> <p>Cuando se analiza un recorrido de Journey Optimizer en lienzo de Recorrido, el recorrido se muestra con el mismo orden, secuencia y estructura que en Journey Optimizer. Para obtener más información, consulte [Analizar recorridos de Journey Optimizer](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) en [descripción general del lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).</p><p>**Nota**: esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</p> |
 
 1. (Opcional) Seleccione [!UICONTROL **Mostrar configuración avanzada**] y, a continuación, especifique la siguiente información:
 
@@ -84,10 +84,11 @@ Para definir la configuración de la visualización del lienzo de Recorrido:
 
    | Configuración | Función |
    |---------|----------|
-   | [!UICONTROL **Tipo de nodo**] | Permite configurar qué tipos de nodos se muestran en la visualización. Para ocultar un tipo de nodo de la visualización, seleccione la (x) junto al tipo de nodo o anule su selección en el menú desplegable. Para mostrar un tipo de nodo oculto, selecciónelo en el menú desplegable. <p>Según el contenido de la visualización, los tipos de nodo posibles incluyen:</p><ul><li>[!UICONTROL **Leer segmento**]</li><li>[!UICONTROL **Fin**]</li><li>[!UICONTROL **Dimensión**]</li><li>[!UICONTROL **Métrica**]</li></ul><p>**Nota**: tenga en cuenta lo siguiente al utilizar este campo:</p><ul><li>Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la vista de datos seleccionada en el panel Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Después de modificar un recorrido de Journey Optimizer en Lienzo de Recorrido, esta opción ya no está disponible. Para obtener más información, vea [Diferencias visuales después de modificar un recorrido en lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
+   | [!UICONTROL **Tipo de nodo**] | Permite configurar qué tipos de nodos se muestran en la visualización. Para ocultar un tipo de nodo de la visualización, seleccione la (x) junto al tipo de nodo o anule su selección en el menú desplegable. Para mostrar un tipo de nodo oculto, selecciónelo en el menú desplegable. <p>Según el contenido de la visualización, los tipos de nodo posibles incluyen:</p><ul><li>[!UICONTROL **Leer segmento**]</li><li>[!UICONTROL **Fin**]</li><li>[!UICONTROL **Dimensión**]</li><li>[!UICONTROL **Métrica**]</li></ul><p>**Nota**: tenga en cuenta lo siguiente al utilizar este campo:</p><ul><li>Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Después de modificar un recorrido de Journey Optimizer en Lienzo de Recorrido, esta opción ya no está disponible. Para obtener más información, vea [Diferencias visuales después de modificar un recorrido en lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
    | [!UICONTROL **Valor porcentual**] | Elija entre las siguientes opciones: <ul><li>[!UICONTROL **Porcentaje del total**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel.</li><li>[!UICONTROL **Porcentaje del nodo de inicio**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel que también cumplen los criterios del nodo de inicio del recorrido. (Esta opción solo está disponible en recorridos con un solo nodo de inicio; está desactivada en recorridos con varios nodos de inicio. Un nodo de inicio se define como cualquier nodo que no tiene una conexión entrante).</li></ul> |
-   | [!UICONTROL **Configuración de flecha**] | Elija entre las siguientes opciones:<ul><li>[!UICONTROL **Ninguno**]: </li><li>[!UICONTROL **Condición**]: </li><li>[!UICONTROL **Todas las etiquetas**]: </li></ul><p>**Nota**: Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **Configuración de flecha**] | Elija entre las siguientes opciones:<ul><li>[!UICONTROL **Ninguno**]: </li><li>[!UICONTROL **Condición**]: </li><li>[!UICONTROL **Todas las etiquetas**]: </li></ul><p>**Nota**: esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</p> |
    | [!UICONTROL **Mostrar visitas en el orden previsto**] | Muestra los datos de visitas en el orden previsto de cada nodo. Muestra el número y el porcentaje de personas que abandonaron el recorrido después de un nodo determinado. <p>Las personas que no siguieron el recorrido podrían haber realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos por el siguiente nodo del recorrido.</p> |
+   | **Controles de zoom** | Los siguientes controles de zoom están disponibles en la esquina superior derecha del lienzo:<ul><li>**Acercar** ![icono de acercar](assets/zoom-in-icon.png): amplía áreas específicas de la visualización.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</p></li><li>**Alejar** ![icono de alejar](assets/zoom-out-icon.png): Reduce la visualización para permitir más espacio en el lienzo.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</p></li><li>**Ajustar pantalla** ![ajustar icono de pantalla](assets/fill-screen-icon.png): Ajusta la configuración actual de zoom y desplazamiento para llenar la pantalla con la visualización completa.</li></ul><p>Para desplazarse por el lienzo después de ampliar o reducir, haga clic con el ratón y arrastre a la ubicación deseada.</p> |
 
 1. Continúe con [Agregar nodos](#add-nodes).
 
@@ -208,7 +209,9 @@ Una vez añadidos los nodos al lienzo, puede reorganizarlos, combinarlos, conect
 
 Los recorridos del lienzo de Recorrido constan de un gráfico flexible de nodos y flechas que representan cualquier combinación de eventos, elementos de dimensión y filtros.
 
-Puede arrastrar nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia.
+Puede arrastrar nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. Para seleccionar varios nodos, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+
+A medida que reorganiza el orden de los nodos en la recorrido, los datos se actualizan en consecuencia.
 
 ### Combinar nodos
 
@@ -282,7 +285,7 @@ Para conectar nodos en lienzo de Recorrido:
 
 Al agregar un nodo al lienzo, puede colocarlo entre dos nodos conectados. El nodo se agrega al flujo del recorrido entre los 2 nodos existentes.
 
-Para obtener más información, consulte [Agregar un nodo](#add-a-node).
+Para obtener más información, consulte [Agregar nodos](#add-nodes).
 
 ### Agregar una restricción de tiempo entre nodos
 
@@ -369,7 +372,7 @@ La opción para aplicar un desglose a los datos está disponible para los siguie
 
 Puede arrastrar una dimensión desde el carril izquierdo al nodo del lienzo en el que desea aplicar el desglose.
 
-Para obtener más información, consulte [Agregar un nodo](#add-a-node).
+Para obtener más información, consulte [Agregar nodos](#add-nodes).
 
 ### Crear un público
 
