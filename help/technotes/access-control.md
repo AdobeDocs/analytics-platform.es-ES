@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: fb106077949cc5a1a2fbaf7702bd0c872152499f
+source-git-commit: 30133a5d825c3623a5f46a972e787cf60626edf3
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1463'
 ht-degree: 14%
 
 ---
@@ -110,7 +110,7 @@ La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en el 
 
 | Categoría | Permiso | Descripción |
 | --- | --- | ---|
-| [!UICONTROL Vistas de datos] | *nombre de una vista de datos* | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que forman parte de este perfil de producto pueden ver todas las vistas de datos existentes y creadas recientemente. Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso. |
+| [!UICONTROL Vistas de datos] | *nombre de vista de datos* | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que forman parte de este perfil de producto pueden ver todas las vistas de datos existentes y creadas recientemente. Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a Analysis Workspace] | Permitir que los usuarios tengan acceso a [Analysis Workspace](/help/analysis-workspace/home.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso guiado a análisis] | Permitir que los usuarios tengan acceso a [Análisis guiado](/help/guided-analysis/overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de métricas calculadas] | Permitir que los usuarios creen [métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar, cambiar el nombre, aprobar o desaprobar las métricas calculadas que hayan creado o las métricas calculadas compartidas con ellos. |
