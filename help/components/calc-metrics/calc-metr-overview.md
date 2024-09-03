@@ -4,16 +4,16 @@ description: Obtenga información sobre las métricas filtradas que se derivan d
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 96%
 
 ---
 
 # Información general sobre las métricas calculadas
 
-Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que puede crear a partir de métricas existentes. Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Como expertos en marketing, gestores de productos y analistas, les permite plantear preguntas acerca de los datos sin tener que cambiar su implementación.  
+Las métricas calculadas y calculadas avanzadas son métricas personalizadas que se pueden crear a partir de métricas existentes. Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Como expertos en marketing, gestores de productos y analistas, les permite plantear preguntas acerca de los datos sin tener que cambiar su implementación.  
 
 Puede
 
@@ -25,7 +25,7 @@ Puede
 
 A continuación se muestra una comparación de las competencias de las métricas calculadas y las métricas calculadas avanzadas:
 
-| Opciones del creador | Métricas calculadas | Métricas calculadas avanzadas (derivadas) |
+| Opciones del creador | Métricas calculadas | Métricas calculadas avanzadas |
 |---|---|---|
 | Tipos de formato (decimal, tiempo, porcentaje, moneda) | Sí | Sí |
 | Cambios de atribución (predeterminado, lineal, de participación, etc.) | Sí | Sí |
