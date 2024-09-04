@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
-source-wordcount: '4484'
+source-wordcount: '4526'
 ht-degree: 1%
 
 ---
@@ -145,6 +145,10 @@ Los nodos se crean arrastrando los componentes de Workspace del carril izquierdo
 
 ### Agregar los nodos principales en función de los nodos existentes
 
+>[!AVAILABILITY]
+>
+>Esta función aún no está disponible.
+
 Puede añadir automáticamente los nodos principales en función de los nodos que ya están en el lienzo.
 
 Esta opción está disponible para los siguientes objetos del lienzo:
@@ -188,6 +192,10 @@ Puede agregar los 3 nodos principales que se encuentran entre 2 nodos existentes
    Los 3 nodos principales se agregan entre los 2 nodos existentes y cada uno de ellos se conecta como una rama independiente.
 
 ### Duplicar nodos
+
+>[!AVAILABILITY]
+>
+>Esta función aún no está disponible.
 
 La opción de duplicado está disponible para los siguientes objetos del lienzo:
 
@@ -289,6 +297,10 @@ Para obtener más información, consulte [Agregar nodos](#add-nodes).
 
 ### Agregar una restricción de tiempo entre nodos
 
+>[!AVAILABILITY]
+>
+>Esta función aún no está disponible.
+
 Puede establecer una restricción de tiempo entre nodos. Cuando se establece una restricción de tiempo, si una persona sigue el recorrido definido pero tarda más tiempo del asignado en moverse entre los nodos, se considera que ha salido del recorrido.
 
 La opción para añadir una restricción de tiempo está disponible para los siguientes objetos del lienzo:
@@ -310,6 +322,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ### Cambiar el color de un nodo o una flecha
 
+>[!AVAILABILITY]
+>
+>Esta función aún no está disponible.
+
 Puede personalizar visualmente un recorrido cambiando el color de cualquier nodo o flecha del lienzo. Por ejemplo, puede ajustar los colores para indicar un evento deseable o no deseable.
 
 La opción para cambiar el color está disponible para los siguientes objetos del lienzo:
@@ -329,6 +345,10 @@ Para cambiar el color de un nodo o una flecha:
    Los colores siguientes están disponibles: <!--look into this interaction and color list-->
 
 ### Cambiar el nombre de un nodo o flecha
+
+>[!AVAILABILITY]
+>
+>Esta función aún no está disponible.
 
 Al arrastrar un componente a una visualización de lienzo de Recorrido, se crea un nodo con el mismo nombre que el nombre del componente. Puede cambiar el nombre del nodo para que coincida mejor con el paso del recorrido que representa el nodo.
 
@@ -359,6 +379,10 @@ La opción para aplicar un desglose a los datos está disponible para los siguie
 * Varias flechas entre nodos
 
 #### Aplicar un desglose a uno o varios nodos o flechas
+
+>[!AVAILABILITY]
+>
+>Esta función aún no está disponible.
 
 1. Seleccione uno o varios nodos a los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
@@ -400,6 +424,10 @@ Para crear una audiencia:
 
 ### Ver datos de tendencia
 
+>[!AVAILABILITY]
+>
+>Esta función aún no está disponible.
+
 Los datos de tendencia se pueden ver en un gráfico de líneas para los objetos del lienzo de Recorrido. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 La opción tendencia está disponible para los siguientes objetos del lienzo:
@@ -421,7 +449,6 @@ Para ver datos de tendencia:
    Seleccione una o más flechas entre 2 nodos para los que desee ver datos de tendencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
 
 1. Seleccione [!UICONTROL **Tendencia**].
-
 
 ### Creación de un filtro basado en un nodo o una flecha
 

@@ -6,7 +6,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 2%
@@ -133,13 +133,13 @@ Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, 
 
 #### Diferencias de procesamiento de datos
 
-Después de modificar un recorrido de Journey Optimizer en Lienzo de Recorrido, es posible que observe cambios en los datos si el recorrido contiene métricas que tienen modelos de atribución no predeterminados.
+Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, es posible que observe cambios en los datos si el recorrido contiene métricas que tienen modelos de atribución no predeterminados.
 
 Esto se debe a que, a diferencia de Journey Optimizer, el lienzo de Recorrido permite aplicar varias dimensiones dentro de un solo recorrido. Esta capacidad significa que no se admite la atribución de [métricas](/help/data-views/component-settings/attribution.md).
 
 #### Diferencias de características
 
-Después de modificar un recorrido de Journey Optimizer en el lienzo de Recorrido, el campo desplegable [!UICONTROL **Tipo de nodo**] ya no está disponible.
+Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, el campo desplegable [!UICONTROL **Tipo de nodo**] ya no está disponible.
 
 Para obtener más información sobre este campo, consulte [Configurar opciones](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
@@ -147,7 +147,7 @@ Para obtener más información sobre este campo, consulte [Configurar opciones](
 
 Los cambios realizados en un recorrido en Journey Optimizer se sincronizan con el lienzo de Recorrido solo si el recorrido permanece sin modificar en el lienzo de Recorrido.
 
-Después de modificar un recorrido de Journey Optimizer en Lienzo de Recorrido, los cambios que realice en el recorrido en Journey Optimizer no se reflejarán en el lienzo de Recorrido. Para ver los cambios reflejados en el lienzo de Recorrido, puede eliminar y [volver a crear el recorrido en el lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, los cambios realizados en el recorrido en Journey Optimizer no se reflejarán en el lienzo de Recorrido. Para ver los cambios reflejados en el lienzo de Recorrido, puede eliminar y [volver a crear el recorrido en el lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 ### Diferencias terminológicas entre Journey Optimizer y Customer Journey Analytics
 
