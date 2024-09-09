@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
+source-git-commit: c94544baf4c934b16b2fc9ce837dd41e07a3dcac
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '5141'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Consulte [descripción general del lienzo de Recorrido](/help/analysis-workspace
 
    O
 
-   Agregue una visualización del lienzo de Recorrido de cualquiera de las formas descritas en la sección [Agregar visualizaciones a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) de [Información general sobre visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+   Agregue una visualización de lienzo de Recorrido de cualquiera de las formas descritas en la sección [Agregar visualizaciones a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) de [Información general sobre visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Especifique la siguiente información básica:
 
@@ -65,7 +65,7 @@ Consulte [descripción general del lienzo de Recorrido](/help/analysis-workspace
 
    <!-- add screen shot -->
 
-1. Tanto si está creando un nuevo análisis a partir de un lienzo en blanco como si está analizando un recorrido de Journey Optimizer, puede configurar el recorrido tal como se describe en [Configuración de la visualización](#configure-visualization-settings).
+1. Tanto si está creando un nuevo análisis a partir de un lienzo en blanco como si está analizando un recorrido de Journey Optimizer, puede configurar el recorrido como se describe en [Configuración de la visualización](#configure-visualization-settings).
 
 
 ## Configuración de visualización
@@ -84,9 +84,9 @@ Para definir la configuración de la visualización del lienzo de Recorrido:
 
    | Configuración | Función |
    |---------|----------|
-   | [!UICONTROL **Tipo de nodo**] | Permite configurar qué tipos de nodos se muestran en la visualización. Para ocultar un tipo de nodo de la visualización, seleccione la (x) junto al tipo de nodo o anule su selección en el menú desplegable. Para mostrar un tipo de nodo oculto, selecciónelo en el menú desplegable. <p>Según el contenido de la visualización, los tipos de nodo posibles incluyen:</p><ul><li>[!UICONTROL **Leer segmento**]</li><li>[!UICONTROL **Fin**]</li><li>[!UICONTROL **Dimensión**]</li><li>[!UICONTROL **Métrica**]</li></ul><p>**Nota**: tenga en cuenta lo siguiente al utilizar este campo:</p><ul><li>Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Después de modificar un recorrido de Journey Optimizer en Lienzo de Recorrido, esta opción ya no está disponible. Para obtener más información, vea [Diferencias visuales después de modificar un recorrido en lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
+   | [!UICONTROL **Tipo de nodo**] | Permite configurar qué tipos de nodos se muestran en la visualización. Para ocultar un tipo de nodo de la visualización, seleccione la (x) junto al tipo de nodo o anule su selección en el menú desplegable. Para mostrar un tipo de nodo oculto, selecciónelo en el menú desplegable. <p>Según el contenido de la visualización, los tipos de nodo posibles incluyen:</p><ul><li>[!UICONTROL **Leer segmento**]</li><li>[!UICONTROL **Fin**]</li><li>[!UICONTROL **Dimensión**]</li><li>[!UICONTROL **Métrica**]</li></ul><p>**Nota**: tenga en cuenta lo siguiente al utilizar este campo:</p><ul><li>Esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, esta opción ya no está disponible. Para obtener más información, vea [Diferencias visuales después de modificar un recorrido en lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li><li>Los nodos no se eliminan del recorrido cuando se ocultan. Para obtener información acerca de cómo eliminar un nodo, vea [Eliminar nodos](#delete-nodes).</li></ul></p> |
    | [!UICONTROL **Valor porcentual**] | Elija entre las siguientes opciones: <ul><li>[!UICONTROL **Porcentaje del total**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel.</li><li>[!UICONTROL **Porcentaje del nodo de inicio**]: El porcentaje de todas las personas incluidas en la vista de datos dentro del intervalo de fechas del panel que también cumplen los criterios del nodo de inicio del recorrido. (Esta opción solo está disponible en recorridos con un solo nodo de inicio; está desactivada en recorridos con varios nodos de inicio. Un nodo de inicio se define como cualquier nodo que no tiene una conexión entrante).</li></ul> |
-   | [!UICONTROL **Configuración de flecha**] | Elija entre las siguientes opciones:<ul><li>[!UICONTROL **Ninguno**]: </li><li>[!UICONTROL **Condición**]: </li><li>[!UICONTROL **Todas las etiquetas**]: </li></ul><p>**Nota**: esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **Configuración de flecha**] | Las flechas que aparecen entre los nodos del lienzo de Recorrido pueden contener nombres personalizados, rótulos de Journey Optimizer y condiciones de Journey Optimizer. Elija entre las siguientes opciones para determinar cuáles se muestran:<ul><li>[!UICONTROL **Ninguno**]: no se muestran nombres personalizados, etiquetas de Journey Optimizer ni condiciones de Journey Optimizer en las flechas del lienzo de Recorrido. </li><li>[!UICONTROL **Condición**]: todas las etiquetas de condición configuradas en Journey Optimizer se muestran en las flechas del lienzo de Recorrido. No se muestran nombres personalizados u otras etiquetas de Journey Optimizer.</li><li>[!UICONTROL **Todas las etiquetas**]: si una flecha contiene un nombre, una etiqueta o una condición personalizados, se muestra en la flecha del lienzo de Recorrido. Solo se muestra un nombre, etiqueta o condición por flecha, en el siguiente orden de preferencia: <ol><li>Se agregó un nombre personalizado desde el lienzo de Recorrido (como se describe en [Cambiar el nombre de un nodo o una flecha](#rename-a-node-or-arrow))</li><li>Una etiqueta de Journey Optimizer</li><li>Una condición de Journey Optimizer</li></ol></li></ul><p>**Nota**: esta opción solo se muestra cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md).</p> |
    | [!UICONTROL **Mostrar visitas en el orden previsto**] | Muestra los datos de visitas en el orden previsto de cada nodo. Muestra el número y el porcentaje de personas que abandonaron el recorrido después de un nodo determinado. <p>Las personas que no siguieron el recorrido podrían haber realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos por el siguiente nodo del recorrido.</p> |
    | **Controles de zoom** | Los siguientes controles de zoom están disponibles en la esquina superior derecha del lienzo:<ul><li>**Acercar** ![icono de acercar](assets/zoom-in-icon.png): amplía áreas específicas de la visualización.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</p></li><li>**Alejar** ![icono de alejar](assets/zoom-out-icon.png): Reduce la visualización para permitir más espacio en el lienzo.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</p></li><li>**Ajustar pantalla** ![ajustar icono de pantalla](assets/fill-screen-icon.png): Ajusta la configuración actual de zoom y desplazamiento para llenar la pantalla con la visualización completa.</li></ul><p>Para desplazarse por el lienzo después de ampliar o reducir, haga clic con el ratón y arrastre a la ubicación deseada.</p> |
 
@@ -114,7 +114,7 @@ Los nodos se crean arrastrando los componentes de Workspace del carril izquierdo
    | Métrica | Un nodo existente | El componente se combina automáticamente con el nodo existente. (Consulte [Combinar nodos](#combine-nodes) para obtener más información).</p> |
    | Métrica | Una flecha entre 2 nodos existentes | El nodo se muestra entre los dos nodos existentes donde se colocó el componente y está conectado a ambos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p> |
    | Dimensión | Área en blanco del lienzo | Se crean 3 nodos para los 3 elementos de dimensión principales en los que se soltó el componente, sin conexión con ningún nodo existente. (**Nota:** Si solo se muestran 1 o 2 nodos, significa que los datos solo están disponibles para 1 o 2 de los elementos de dimensión. Si no se muestran nodos, significa que no hay datos disponibles para ninguno de los elementos de dimensión. En este caso, intente agregarla a un punto diferente del recorrido, ajustar el intervalo de fechas de la visualización o elegir una dimensión diferente).<p>Mantenga pulsada la tecla Mayús cuando suelte la dimensión en el lienzo para añadirla como un solo nodo con 3 elementos de dimensión.</p><p></p> |
-   | Dimensión | Un nodo existente | Se aplica automáticamente un desglose al nodo con los 5 elementos de dimensión principales mostrados.<!--what happens if you hold Shift?--> |
+   | Dimensión | Un nodo existente | Se aplica automáticamente un desglose al nodo con los 5 elementos de dimensión principales mostrados.<!--what happens if you hold Shift?--><p>Para ver el desglose en una nueva visualización de tabla de forma libre, seleccione el vínculo [!UICONTROL **Abrir en una tabla de forma libre**] en el nodo.</p> |
    | Dimensión | Una flecha que conecta 2 nodos existentes | Se crean 3 nodos para los 3 elementos de dimensión principales que siguen al primer evento después del primer nodo (de personas/sesiones que finalmente llegan al segundo nodo). Los nodos se muestran entre los dos nodos existentes en los que se soltó el componente y cada nodo está conectado a los dos nodos existentes. (**Nota:** Si solo se muestran 1 o 2 nodos, significa que los datos solo están disponibles para 1 o 2 de los elementos de dimensión. Si no se muestran nodos, significa que no hay datos disponibles para ninguno de los elementos de dimensión. En este caso, intente agregarla a un punto diferente del recorrido, ajustar el intervalo de fechas de la visualización o elegir una dimensión diferente).<p>Mantenga pulsada la tecla Mayús cuando suelte la dimensión en el lienzo para añadirla como un solo nodo con 3 elementos de dimensión. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p> |
    | Elemento de dimensión | Área en blanco del lienzo | El nodo muestra dónde se colocó el componente, sin conexión con ningún nodo existente. |
    | Elemento de dimensión | Un nodo existente | El componente se combina automáticamente con el nodo existente. |
@@ -125,9 +125,9 @@ Los nodos se crean arrastrando los componentes de Workspace del carril izquierdo
    | Intervalo de fechas | Área en blanco del lienzo | El nodo muestra dónde se colocó el componente, sin conexión con ningún otro nodo.<p>El número y el porcentaje que aparecen en el nodo incluyen el total de la métrica principal, filtrada por el intervalo de fechas seleccionado.</p> <p>Por ejemplo, si se selecciona Personas como métrica principal para el recorrido y, a continuación, se agrega un intervalo de fechas de Este mes a un área en blanco del lienzo para mostrar todas las personas que tuvieron un evento durante el mes actual.</p> |
    | Intervalo de fechas | Un nodo existente | Aplica el intervalo de fechas al nodo existente. |
    | Intervalo de fechas | Una flecha que conecta 2 nodos | El nodo se muestra entre los dos nodos existentes donde se colocó el componente y está conectado a ambos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p><p>Aplica el intervalo de fechas al punto de la ruta en el que se soltó el componente.</p> |
-   | Varios componentes | Un área en blanco del lienzo | **Si ninguno de los componentes es una dimensión:**<p>Cada componente se muestra como un nodo independiente donde se soltaron los componentes, sin conexión con ningún nodo existente.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. </p><p>**Si alguno de los componentes que está agregando son dimensiones:**</p><p>Cada componente se muestra como un nodo independiente donde se soltaron los componentes, sin conexión con ningún nodo existente.</p><p>Solo se puede agregar una dimensión a la vez y se crean 3 nodos para los 3 elementos de dimensión principales en los que se soltó el componente.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. Los 3 elementos de dimensión principales se combinan con cada nodo. (Consulte [Combinar nodos](#combine-nodes) para obtener más información).</p> |
+   | Varios componentes | Un área en blanco del lienzo | **Si ninguno de los componentes es una dimensión:**<p>Cada componente se muestra como un nodo independiente donde se soltaron los componentes, sin conexión con ningún nodo existente.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. </p><p>**Si alguno de los componentes que está agregando son dimensiones:**</p><p>Cada componente se muestra como un nodo independiente donde se soltaron los componentes, sin conexión con ningún nodo existente.</p><p>Solo se puede añadir una dimensión a la vez. Cuando se añade la dimensión, se crean 3 nodos para los 3 elementos de dimensión principales en los que se soltó el componente.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. Los 3 elementos de dimensión principales se combinan con cada nodo. (Consulte [Combinar nodos](#combine-nodes) para obtener más información).</p> |
    | Varios componentes | Un nodo existente | Todos los componentes se combinan con el nodo existente.<p>Si alguno de los componentes que está agregando es una dimensión, los 3 elementos de dimensión principales se combinan con el nodo.</p> <p>Solo se puede añadir una dimensión a la vez.</p> |
-   | Varios componentes | Una flecha que conecta 2 nodos existentes | **Si ninguno de los componentes es una dimensión:**<p>Cada componente se muestra como un nodo independiente donde los componentes se soltaron y cada nodo está conectado a ambos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. (Los componentes deben ser del mismo tipo para combinarse en un solo nodo). (Consulte [Combinar nodos](#combine-nodes) para obtener más información).</p><p>**Si alguno de los componentes que está agregando son dimensiones:**</p><p>Cada componente se muestra como un nodo independiente donde los componentes se soltaron y cada nodo está conectado a ambos nodos existentes.</p><p>Solo se puede agregar una dimensión a la vez y se crean 3 nodos para los 3 elementos principales de la dimensión que siguen al primer evento después del primer nodo (de personas/sesiones que finalmente llegan al segundo nodo). Cada nodo está conectado a los dos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. Los 3 elementos de dimensión principales se combinan con cada nodo y cada nodo está conectado a los dos nodos existentes. (Consulte [Combinar nodos](#combine-nodes) para obtener más información).</p> |
+   | Varios componentes | Una flecha que conecta 2 nodos existentes | **Si ninguno de los componentes es una dimensión:**<p>Cada componente se muestra como un nodo independiente donde los componentes se soltaron y cada nodo está conectado a ambos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. (Los componentes deben ser del mismo tipo para combinarse en un solo nodo). (Consulte [Combinar nodos](#combine-nodes) para obtener más información).</p><p>**Si alguno de los componentes que está agregando son dimensiones:**</p><p>Cada componente se muestra como un nodo independiente donde los componentes se soltaron y cada nodo está conectado a ambos nodos existentes.</p><p>Solo se puede añadir una dimensión a la vez. Cuando se agrega la dimensión, se crean 3 nodos para los 3 elementos principales de la dimensión que siguen al primer evento después del primer nodo (de personas/sesiones que finalmente llegan al segundo nodo). Cada nodo está conectado a los dos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. Los 3 elementos de dimensión principales se combinan con cada nodo y cada nodo está conectado a los dos nodos existentes. (Consulte [Combinar nodos](#combine-nodes) para obtener más información).</p> |
 
    Los nodos se muestran como un cuadro rectangular con la siguiente información:
 
@@ -143,13 +143,13 @@ Los nodos se crean arrastrando los componentes de Workspace del carril izquierdo
 
 1. Siga personalizando el recorrido como se describe en las secciones siguientes. Puede conectar nodos, cambiar el nombre de nodos, aplicar desgloses, crear audiencias, añadir restricciones de tiempo y mucho más.
 
-### Agregar los nodos principales en función de los nodos existentes
+### Mostrar los nodos principales en función de los nodos existentes
 
 >[!AVAILABILITY]
 >
 >Esta función aún no está disponible.
 
-Puede añadir automáticamente los nodos principales en función de los nodos que ya están en el lienzo.
+Puede mostrar automáticamente los nodos principales en función de los nodos que ya están en el lienzo. Puede agregar los nodos principales al lienzo de Recorrido o verlos en una tabla de forma libre.
 
 Esta opción está disponible para los siguientes objetos del lienzo:
 
@@ -157,39 +157,63 @@ Esta opción está disponible para los siguientes objetos del lienzo:
 
 * La flecha entre los nodos
 
-#### Agregar nodos principales después de un nodo existente
+#### Mostrar nodos principales después de un nodo existente
 
-Puede seleccionar un nodo y agregar los 3 nodos principales que le siguen en el recorrido.
+Puede seleccionar un nodo y mostrar en el recorrido los elementos de dimensión principales que le siguen. Puede agregar los 3 elementos de dimensión principales al lienzo de Recorrido como nodos independientes o puede ver todos los elementos de dimensión principales en una tabla de forma libre.
 
-1. Haga clic con el botón derecho en el nodo en el que desee agregar los 3 nodos principales que le siguen en el recorrido.
+1. Haga clic con el botón derecho en el nodo en el que desee mostrar los elementos de dimensión principales que le siguen en el recorrido.
 
-   Este nodo no puede tener ningún nodo existente saliendo de él en la recorrido.
+   El nodo no puede tener ningún nodo existente saliendo de él en la recorrido.
 
-1. Seleccione [!UICONTROL **Agregar nodos principales después de este nodo**].
+1. Seleccione [!UICONTROL **Mostrar nodos principales después de este nodo**].
 
-   Los 3 nodos principales que aparecen después de este nodo en el recorrido se agregan y cada uno de ellos está conectado al nodo seleccionado como una rama independiente.
+1. Seleccione dónde desea mostrar los elementos de dimensión:
 
-#### Agregar nodos principales antes de un nodo existente
+   * [!UICONTROL **En lienzo de Recorrido**]: agrega los 3 nodos principales al lienzo que va después de este nodo en el recorrido. Cada nodo está conectado al nodo seleccionado como una rama independiente en el lienzo.
 
-Puede agregar los 3 nodos principales que aparecen antes de un nodo existente en el recorrido.
+   * [!UICONTROL **En una tabla de forma libre**]: crea una visualización de tabla de forma libre que muestra todos los elementos de dimensión principales que van después de este nodo en el recorrido.
 
-1. Haga clic con el botón derecho en el nodo en el que desee agregar los 3 nodos principales que le preceden en el recorrido.
+1. Seleccione la dimensión que desee en la lista de dimensiones.
+
+   Según lo que haya elegido en el paso anterior, los 3 elementos de dimensión principales se añaden al lienzo como 3 nodos independientes o todos los elementos de dimensión principales se muestran en una tabla de forma libre.
+
+#### Mostrar nodos principales antes de un nodo existente
+
+Puede seleccionar un nodo y mostrar en el recorrido los elementos de dimensión principales que le preceden. Puede agregar los 3 elementos de dimensión principales al lienzo de Recorrido como nodos independientes o puede ver todos los elementos de dimensión principales en una tabla de forma libre.
+
+1. Haga clic con el botón derecho en el nodo en el que desee mostrar los elementos de dimensión principales que le preceden en el recorrido.
 
    Este nodo no puede tener ningún nodo existente entrando en él en el recorrido.
 
-1. Seleccione [!UICONTROL **Agregar nodos principales antes de este nodo**].
+1. Seleccione [!UICONTROL **Mostrar nodos principales antes de este nodo**].
 
-   Se agregan los tres nodos principales que preceden a este nodo en el recorrido y cada uno de ellos está conectado al nodo seleccionado como rama independiente.
+1. Seleccione dónde desea mostrar los elementos de dimensión:
 
-#### Agregar nodos principales entre nodos existentes
+   * [!UICONTROL **En lienzo de Recorrido**]: agrega los 3 nodos principales al lienzo que precede a este nodo en el recorrido. Cada nodo está conectado al nodo seleccionado como una rama independiente en el lienzo.
 
-Puede agregar los 3 nodos principales que se encuentran entre 2 nodos existentes:
+   * [!UICONTROL **En una tabla de forma libre**]: crea una visualización de tabla de forma libre que muestra todos los elementos de dimensión principales que preceden a este nodo en el recorrido.
 
-1. Haga clic con el botón derecho en la flecha entre los 2 nodos donde desee agregar los 3 nodos principales del recorrido.
+1. Seleccione la dimensión que desee en la lista de dimensiones.
 
-1. Seleccione [!UICONTROL **Agregar nodos principales**].<!-- I don't think this should have the word "next" in the UI option, because it's both next and previous. It's in between. Just "Get top nodes" sounds better to me.-->
+   Según lo que haya elegido en el paso anterior, los 3 elementos de dimensión principales se añaden al lienzo como 3 nodos independientes o todos los elementos de dimensión principales se muestran en una tabla de forma libre.
 
-   Los 3 nodos principales se agregan entre los 2 nodos existentes y cada uno de ellos se conecta como una rama independiente.
+#### Mostrar nodos principales entre nodos existentes
+
+Puede seleccionar una flecha y mostrar los elementos de dimensión principales que se encuentran entre 2 nodos existentes en el recorrido. Puede agregar los 3 elementos de dimensión principales al lienzo de Recorrido como nodos independientes o puede ver todos los elementos de dimensión principales en una tabla de forma libre.
+
+1. Haga clic con el botón derecho en la flecha entre los 2 nodos donde desea mostrar los elementos de dimensión principales.
+
+1. Seleccione [!UICONTROL **Mostrar nodos principales entre estos nodos**].
+
+1. Seleccione dónde desea mostrar los elementos de dimensión:
+
+   * [!UICONTROL **En lienzo de Recorrido**]: agrega los 3 nodos principales al lienzo que se encuentra entre los 2 nodos existentes. Cada nodo está conectado a los nodos adyacentes como una rama independiente en el lienzo.
+
+   * [!UICONTROL **En una tabla de forma libre**]: crea una visualización de tabla de forma libre que muestra todos los elementos de dimensión principales que se encuentran entre los 2 nodos existentes.
+
+1. Seleccione la dimensión que desee en la lista de dimensiones.
+
+   Según lo que haya elegido en el paso anterior, los 3 elementos de dimensión principales se añaden al lienzo como 3 nodos independientes o todos los elementos de dimensión principales se muestran en una tabla de forma libre.
 
 ### Duplicar nodos
 
@@ -301,7 +325,7 @@ Para obtener más información, consulte [Agregar nodos](#add-nodes).
 >
 >Esta función aún no está disponible.
 
-Puede establecer una restricción de tiempo entre nodos. Cuando se establece una restricción de tiempo, si una persona sigue el recorrido definido pero tarda más tiempo del asignado en moverse entre los nodos, se considera que ha salido del recorrido.
+Puede establecer una restricción de tiempo entre nodos. Cuando se establece una restricción de tiempo, se considera que las personas han salido del recorrido si siguen el recorrido definido, pero tardan más tiempo del asignado en moverse entre los nodos.
 
 La opción para añadir una restricción de tiempo está disponible para los siguientes objetos del lienzo:
 
@@ -378,6 +402,16 @@ La opción para aplicar un desglose a los datos está disponible para los siguie
 
 * Varias flechas entre nodos
 
+Al aplicar un desglose, tenga en cuenta lo siguiente:
+
+* Los desgloses se aplican a la métrica principal. La métrica secundaria no se ve afectada.
+
+* La aplicación de un desglose no cambia el recorrido. En su lugar, simplemente muestra un desglose de los datos del nodo donde se aplican.
+
+* Si un nodo ya tiene un desglose, la aplicación de un nuevo desglose sustituye al existente.
+
+* Los datos de desglose se actualizan si los cambios se realizan en un punto anterior del recorrido.
+
 #### Aplicar un desglose a uno o varios nodos o flechas
 
 >[!AVAILABILITY]
@@ -391,6 +425,14 @@ La opción para aplicar un desglose a los datos está disponible para los siguie
    Seleccione una o más flechas entre 2 nodos donde desee aplicar el desglose y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
 
 1. Seleccionar [!UICONTROL **desglose**].
+
+<!-- 1. Choose where you want to view the breakdown:
+
+        * [!UICONTROL **In Journey canvas**]
+
+        * [!UICONTROL **In a freeform table**]
+
+-->
 
 #### Aplicación de un desglose a un nodo individual
 
@@ -410,6 +452,8 @@ La opción para crear una audiencia está disponible para los siguientes objetos
 
 * Varias flechas entre nodos
 
+Cuando se crea una audiencia a partir de varios nodos o flechas, estos se unen al operador OR.
+
 Para crear una audiencia:
 
 1. Seleccione uno o varios nodos donde desee crear una audiencia y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
@@ -419,6 +463,14 @@ Para crear una audiencia:
    Seleccione una o más flechas entre 2 nodos donde desee crear una audiencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
 
 1. Seleccione [!UICONTROL **Crear audiencia**].
+
+<!-- 1. Choose where you want to create the audience:
+
+        * [!UICONTROL **In Journey canvas**]
+
+        * [!UICONTROL **In a freeform table**]
+
+-->
 
 1. Siga creando y publicando la audiencia tal como se describe en [Crear y publicar audiencias](/help/components/audiences/publish.md).
 
@@ -454,7 +506,7 @@ Para ver datos de tendencia:
 
 Puede crear un nuevo filtro basado en un nodo o una flecha dentro de un recorrido. Una vez creado el filtro, puede utilizarlo en cualquier lugar de Analysis Workspace.
 
-Los filtros creados a partir de lienzo de Recorrido utilizan [filtrado secuencial](/help/components/filters/seg-sequential-build.md). Esto significa que el filtro utiliza el operador THEN para vincular la secuencia de eventos (es decir, el recorrido) por los que fluyeron las personas, hasta llegar al nodo o la flecha seleccionados. Todos los eventos que coinciden con el nodo o la flecha seleccionados se incluyen en el filtro.
+Los filtros creados a partir de lienzo de Recorrido utilizan [filtrado secuencial](/help/components/filters/seg-sequential-build.md). Esto significa que el filtro utiliza el operador THEN para vincular la secuencia de eventos (el recorrido) por los que fluyeron las personas, hasta el nodo o la flecha seleccionados. Todos los eventos que coinciden con el nodo o la flecha seleccionados se incluyen en el filtro.
 
 Si crea un filtro basado en un nodo que tiene varias rutas que fluyen a él, todas las rutas se incluyen en el filtro. Las rutas independientes se unen con el operador OR.
 
@@ -470,7 +522,7 @@ Para crear un filtro:
 
 1. Seleccione [!UICONTROL **Guardar**] para guardar el filtro.
 
-### Eliminación de nodos
+### Eliminar nodos
 
 Puede eliminar uno o varios nodos a la vez dentro de un recorrido. Cuando se elimina un nodo que está conectado entre dos nodos dentro del recorrido, los dos nodos restantes se conectan directamente.
 
