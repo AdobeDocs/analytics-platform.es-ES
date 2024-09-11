@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 91e28c2919ab5ace21ae9407ca758288370c7eca
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: f25c6e2bb7a9644a7356b3a1fc42a3b383d6f5e6
+workflow-type: tm+mt
+source-wordcount: '1128'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
    + [Guía para usuarios de Adobe Analytics](../getting-started/aa-to-cja-user.md)
 
 + Ingesta de datos {#cja-data-ingestion}
-   + [Información general sobre la ingesta de datos](../data-ingestion/data-ingestion.md)
+   + [Resumen de ingesta de datos](../data-ingestion/data-ingestion.md)
    + Guías de inicio rápido de ingesta y uso{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Adobe Experience Platform Edge Network {#edge-network}
@@ -190,6 +190,12 @@ ht-degree: 100%
       + [Información general sobre la previsión](../analysis-workspace/c-forecast/forecasting.md)
       + [Visualización de previsiones en Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Técnicas estadísticas utilizadas en el servicio de previsión](../analysis-workspace/c-forecast/statistics-forecasting.md)
+   + Alertas inteligentes {#alerts}
+      + [Resumen de las alertas inteligentes](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
+      + [Diferencias en el Customer Journey Analytics](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [Creación de alertas](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)
+      + [Administración de alertas](/help/analysis-workspace/c-intelligent-alerts/alert-manager.md)
+      + [Casos prácticos](/help/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Preferencias de usuario](../analysis-workspace/user-preferences.md)
    + Preguntas frecuentes sobre de Workspace {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)

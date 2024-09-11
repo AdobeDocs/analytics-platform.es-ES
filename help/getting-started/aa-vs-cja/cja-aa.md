@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 75edfb09e3d2d4673d4c7f86b53eb5a620e77cbc
+source-git-commit: 789e461bf45f272e4c93ea5aa77e5bcaf4ee6a29
 workflow-type: tm+mt
-source-wordcount: '2260'
-ht-degree: 98%
+source-wordcount: '2307'
+ht-degree: 96%
 
 ---
 
@@ -57,6 +57,7 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
+| Alertas | El proceso de [uso de alertas inteligentes en Customer Journey Analytics](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md) es casi idéntico al uso de alertas inteligentes en Adobe Analytics. <p>Sin embargo, debido al tiempo que tarda la recopilación de datos en Customer Journey Analytics, las alertas horarias no están disponibles. En Customer Journey Analytics, las alertas se pueden configurar para alertas diarias, semanales o mensuales.</p> |
 | Analytics for Target (A4T) | La [integración entre Adobe Customer Journey Analytics y Target](https://experienceleague.adobe.com/es/docs/target/using/integrate/cja/target-reporting-in-cja) proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización. |
 | Publicación del público | Compatible si tiene licencia con la plataforma de datos del cliente o los productos de Journey Optimizer de Adobe. [Publicación de audiencias](/help/components/audiences/audiences-overview.md) envía audiencias al perfil del cliente en tiempo real en Experience Platform. |
 | Clasificaciones | Ahora se denomina Conjuntos de datos de búsqueda. Las clasificaciones utilizadas en Analytics se pueden importar a Experience Platform y a Customer Journey Analytics mediante el conector de origen de clasificaciones de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en Experience Platform y estar disponibles en Customer Journey Analytics. |
@@ -97,7 +98,6 @@ Las siguientes tablas indican qué funciones de Adobe Analytics son compatibles,
 
 | Función | Notas |
 | --- | --- |
-| Alertas | Se ha planificado lanzar una versión compatible. |
 | Análisis de contribución | Se ha planificado lanzar una versión compatible. |
 | Plantillas de proyecto | Se ha planificado lanzar una versión compatible. |
 | Creación de informes en tiempo real | Se ha planificado lanzar una versión compatible. |
