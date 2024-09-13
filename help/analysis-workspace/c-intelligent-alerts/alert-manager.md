@@ -3,7 +3,7 @@ description: Crear, editar o eliminar alertas.
 title: Administrador de alertas (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 2dbd2dd614decb6b72c667297bba24f949197aa9
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 7%
@@ -11,8 +11,6 @@ ht-degree: 7%
 ---
 
 # Administración de alertas
-
-{{release-limited-testing}}
 
 Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
 
