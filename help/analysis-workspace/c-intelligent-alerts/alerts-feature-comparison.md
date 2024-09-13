@@ -3,9 +3,9 @@ description: Descubra cómo las alertas inteligentes difieren en Customer Journe
 title: Customer Journey Analytics de comparación de funciones de alertas inteligentes y Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: d6f800a6e3e79556026291387e984a35949b3c46
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Para tener en cuenta este retraso en el tiempo de ingesta, las alertas tienen un
 
 Puede ajustar el retraso predeterminado de 9 horas a cualquier valor entre 0 y 24 horas. Sin embargo, si se reduce el retraso por debajo de 9 horas, puede significar que está generando informes con datos incompletos, lo que da como resultado información de alerta inexacta.
 
-Para obtener más información acerca de cómo ajustar la demora y los factores que debe tener en cuenta al hacerlo, vea <!--add link -->.
+Para obtener más información sobre cómo ajustar la demora y los factores que debe tener en cuenta al hacerlo, consulte [Crear alertas](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
