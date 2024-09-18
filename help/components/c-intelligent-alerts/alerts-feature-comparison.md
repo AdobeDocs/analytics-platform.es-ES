@@ -1,18 +1,18 @@
 ---
-description: Descubra cómo las alertas inteligentes difieren en Customer Journey Analytics de Adobe Analytics
-title: Customer Journey Analytics de comparación de funciones de alertas inteligentes y Adobe Analytics
+description: Descubra cómo difieren las alertas en el Customer Journey Analytics de Adobe Analytics
+title: Customer Journey Analytics de comparación de funciones de alertas y Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 3%
+source-wordcount: '566'
+ht-degree: 0%
 
 ---
 
-# Comparación de funciones de alertas inteligentes: Customer Journey Analytics y Adobe Analytics
+# Comparación de funciones de alertas: Customer Journey Analytics y Adobe Analytics
 
-El proceso de utilización de las Alertas inteligentes en Customer Journey Analytics es casi idéntico al de las Alertas inteligentes en Adobe Analytics. Sin embargo, hay diferencias importantes.
+El proceso de uso de alertas en Customer Journey Analytics es casi idéntico al uso de alertas en Adobe Analytics. Sin embargo, hay diferencias importantes.
 
 Las siguientes secciones describen las diferencias clave.
 

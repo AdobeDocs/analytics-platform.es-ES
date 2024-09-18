@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1497'
 ht-degree: 13%
 
 ---
@@ -162,7 +162,7 @@ Las aplicaciones incluyen lo siguiente:
 * Report Builder
 * IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.
 * Llamadas de API desde la API 2.0
-* Alertas inteligentes
+* Alertas
 * Exportación de tablas completas
 * Compartir vínculos con cualquiera
 * Análisis guiado

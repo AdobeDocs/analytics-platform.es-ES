@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 8017754adfde8a7d6ecea6d17138368d5430c1a6
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1123'
 ht-degree: 99%
 
 ---
@@ -293,7 +293,7 @@ ht-degree: 99%
       + [Administrar intervalos de fechas](../components/date-ranges/manage.md)
       + [Crear intervalos de fechas](../components/date-ranges/custom-date-ranges.md)
       + [Comparación de fechas](../components/date-ranges/time-comparison.md)
-   + Alertas inteligentes {#alerts}
+   + Alertas {#alerts}
       + [Información general](/help/components/c-intelligent-alerts/intelligent-alerts.md)
       + [Diferencias en el Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [Crear](/help/components/c-intelligent-alerts/alert-builder.md)

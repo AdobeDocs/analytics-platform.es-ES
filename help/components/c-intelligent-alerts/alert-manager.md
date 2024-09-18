@@ -3,7 +3,7 @@ description: Crear, editar o eliminar alertas.
 title: Administrador de alertas (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 7%
