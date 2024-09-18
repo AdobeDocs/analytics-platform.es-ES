@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 64a05e72f512bc68cfd324ab20810ade8c0c5f66
+source-git-commit: 22ae84479142d45f400f6ae39fe1416c9aaf7229
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2567'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,7 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 
 Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Journey Analytics:
 
-<ul><li>Los datos de evento del día "actual" se transmiten como datos activos. Cualquier dato con una hora de evento anterior a 11:59:59 (23:59:59) del día anterior se tratará como un relleno.</li><li>Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.</li></ul>
+<ul><li>Los datos de evento del día "actual" se transmiten como datos activos. Cualquier dato con una hora de evento anterior a las 11:59:59 pm(23:59:59) del día anterior se trata como un relleno.</li><li>Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.</li></ul>
 
 ## 5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
 
@@ -150,7 +150,7 @@ Para la eliminación de datos, debe preocuparse por seis tipos de componentes: z
 
 | Si usted... | Esto sucede... |
 | --- | --- |
-| Eliminar una zona protegida en [!UICONTROL Adobe Experience Platform] | Al eliminar una zona protegida, se detendrá el flujo de datos a cualquier conexión de [!UICONTROL Customer Journey Analytics] a conjuntos de datos de dicha zona protegida. Actualmente, [!UICONTROL Conexiones] en Customer Journey Analytics asociadas a la zona protegida eliminada no se eliminan automáticamente. |
+| Eliminar una zona protegida en [!UICONTROL Adobe Experience Platform] | Al eliminar una zona protegida, se detendrá el flujo de datos a cualquier conexión de [!UICONTROL Customer Journey Analytics] a conjuntos de datos de dicha zona protegida. También se eliminarán conexiones, vistas de datos, métricas y dimensiones relacionadas con esta zona protegida eliminada. | |
 | Elimina un esquema en [!UICONTROL Adobe Experience Platform], pero no los conjuntos de datos asociados a dicho esquema | [!UICONTROL Adobe Experience Platform] no permite la eliminación de [!UICONTROL esquemas] que tienen uno o varios [!UICONTROL conjuntos de datos] asociados. Sin embargo, un administrador que tenga el conjunto de derechos adecuado podrá eliminar primero los conjuntos de datos y, a continuación, el esquema. |
 | Eliminar un conjunto de datos en el lago de datos de [!UICONTROL Adobe Experience Platform] | Al eliminar un conjunto de datos en el lago de datos de Adobe Experience Platform, se detiene el flujo de datos desde dicho conjunto de datos a cualquier conexión de Customer Journey Analytics que incluya el conjunto de datos. Los datos de ese conjunto de datos no se eliminan automáticamente de las conexiones con Customer Journey Analytics asociadas. |
 | Eliminar un conjunto de datos en [!UICONTROL Customer Journey Analytics] | Póngase en contacto con el equipo de cuentas de Adobe para poner en marcha el proceso de eliminación de un conjunto de datos dentro de una conexión que se ha guardado. |
