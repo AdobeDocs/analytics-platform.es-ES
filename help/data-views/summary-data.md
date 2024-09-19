@@ -4,13 +4,13 @@ description: Detalles e información sobre cómo utilizar y configurar datos de 
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
+exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
+source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 8%
+source-wordcount: '1137'
+ht-degree: 7%
 
 ---
-
 
 # Datos de resumen
 
@@ -75,6 +75,14 @@ La combinación de los datos de evento resumidos y los datos del flujo de navega
 | def456 | 775 | 650 $ | 775 | 1.250 $ | 1,92 |
 | ghi789 | 500 | 500 $ | 500 | 750 $ | 1,50 |
 
+
+### Búsqueda de datos
+
+Si desea crear un informe con una dimensión definida en un conjunto de datos de búsqueda adicional (por ejemplo, el nombre de la campaña), debe seguir estos pasos adicionales:
+
+1. Cree un nuevo campo derivado que utilice la función [Lookup](/help/data-views/derived-fields/derived-fields.md#lookup) para buscar el nombre de campaña del conjunto de datos de búsqueda. En la definición de la función [Lookup](/help/data-views/derived-fields/derived-fields.md#lookup) se usa la coincidencia entre el código de campaña y el código de seguimiento para buscar el nombre de la campaña.
+1. Agregue el campo derivado recién creado como un componente de dimensión a la vista de datos.
+1. Configure el componente de dimensión de nombre de campaña (del conjunto de datos de búsqueda) para que tenga una agrupación de datos de resumen con el campo derivado recién creado.
 
 Consulte el caso de uso [Ingesta e informe de datos resumidos](/help/use-cases/data-views/summary-data.md) para ver un artículo detallado sobre cómo usar, informar y analizar datos resumidos en Customer Journey Analytics.
 

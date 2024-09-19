@@ -4,14 +4,15 @@ description: Se utiliza para explicar todos los detalles sobre cómo llevar los 
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
+exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
+source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
 workflow-type: tm+mt
-source-wordcount: '4974'
+source-wordcount: '5187'
 ht-degree: 8%
 
 ---
 
-# Usar datos de resumen
+# Uso de datos de resumen
 
 Este caso de uso sirve para ayudarle a comprender cómo utilizar los datos de resumen en los informes y análisis. El caso de uso detalla todos los pasos necesarios para utilizar los datos de resumen en Customer Journey Analytics:
 
@@ -487,6 +488,26 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
             1. Seleccione la dimensión **[!UICONTROL ID de campaña]** en la lista **[!UICONTROL Dimension]**.
             1. Observará que **[!UICONTROL Ocultar componente en los informes]** en **[!UICONTROL Configuración de componentes]** ahora se habilita automáticamente.
 
+      1. Cree un nuevo campo derivado, por ejemplo `Campaign Name (Lookup Derived Field)`, para asegurarse de que puede informar en Workspace utilizando la dimensión Nombre de campaña (búsqueda) del conjunto de datos Ejemplo de búsqueda.
+
+         ![Campo derivado para el nombre de campaña](../aa-data/../assets/summary-derived-field.png)
+
+         1. Seleccione **[!UICONTROL campaign_id]** para **[!UICONTROL Value]**.
+         1. Seleccione **[!UICONTROL Ejemplo de conjunto de datos de búsqueda]** en el menú desplegable **[!UICONTROL Conjunto de datos de búsqueda]**.
+         1. Seleccione **[!UICONTROL tracking_code]** en el menú desplegable **[!UICONTROL Clave de coincidencia]**.
+         1. Seleccione **[!UICONTROL campaign_name]** en el menú desplegable **[!UICONTROL Valores que devolver]**.
+         1. Seleccione **[!UICONTROL Guardar]**.
+
+      1. Agregue el campo derivado recién creado **[!UICONTROL Nombre de campaña (campo derivado de búsqueda)]** a la lista de componentes **[!UICONTROL Dimension]**.
+
+      1. Seleccione la dimensión **[!UICONTROL Nombre de campaña (búsqueda)]** en la lista **[!UICONTROL Dimension]**. En el panel de componentes:
+
+         ![Grupo de datos de resumen de campo derivado](../assets/derived-field-summary-data-group.png)
+
+         1. Despliegue ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Grupo de datos de resumen]**.
+         1. Habilitar **[!UICONTROL Crear agrupación]**.
+         1. Seleccione **[!UICONTROL Nombre de campaña (campo derivado de búsqueda)]** de la lista desplegable **[!UICONTROL Dimension]**. Este paso garantiza que el nombre de la campaña (búsqueda) del conjunto de datos de búsqueda de ejemplo se pueda usar de forma segura en los informes (consulte [Workspace](#workspace)).
+
       1. Seleccione la métrica **[!UICONTROL Ingresos]** de la lista **[!UICONTROL Métricas]**. En el panel de componentes:
 
          ![Datos de resumen de ingresos](../assets/revenue-summary-data.png)
@@ -566,6 +587,14 @@ Añada las métricas calculadas al informe.
          1. Seleccione una **[!UICONTROL paleta de formato condicional]** preferida.
    1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
 
+Si desea informar sobre el nombre de la campaña en lugar del código de seguimiento (evento), siga estos pasos:
+
+1. Duplique la visualización de tabla de forma libre **[!UICONTROL Informe de datos de resumen]**.
+1. Cambie el nombre de la visualización duplicada a `Summary Data Report (using Campaign Name)`.
+1. Reemplace ![Switch](/help/assets/icons/Switch.svg) la dimensión **[!UICONTROL Código de seguimiento (evento)]** con la dimensión **[!UICONTROL Nombre de campaña (búsqueda)]**.
+
+Puede crear informes correctamente sobre el nombre de la campaña (Búsqueda) debido al campo derivado que ha creado y a la configuración del componente de grupo de datos de resumen para el nombre de la campaña (Búsqueda). Ver [Vista de datos](#data-view).
+
 El proyecto final debería ser similar al que se muestra a continuación.
 
 ![Proyecto de ejemplo que usa datos de resumen y muestra el panel de datos de resumen con el informe de datos de resumen](../assets/summary-workspace.png)
@@ -575,4 +604,3 @@ El proyecto final debería ser similar al que se muestra a continuación.
 >
 >[Datos de resumen](/help/data-views/summary-data.md)
 >[Configuración del componente del grupo de datos de resumen ](/help/data-views/component-settings/summary-data-group.md)
-
