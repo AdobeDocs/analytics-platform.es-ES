@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 9314aae4c62e5c7a21495beeea0a5d69c6e113a1
+source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 100%
+source-wordcount: '1442'
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ También puede tener varias vistas de datos basadas en la misma conexión. Por e
 
 ## Cambios en el concepto de clasificaciones
 
-Las “clasificaciones” ahora se conocen como “Conjuntos de datos de búsqueda”. Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto. Consulte [Agregar datos de nivel de cuenta como un conjunto de datos de búsqueda](/help/use-cases/b2b/b2b.md) para ver un ejemplo de uso.
+Las &quot;clasificaciones&quot; ahora se conocen como *conjuntos de datos de búsqueda*. Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto.
 
 ## Cambios en el concepto de atributos del cliente
 
