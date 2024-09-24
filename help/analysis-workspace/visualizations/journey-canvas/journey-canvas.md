@@ -1,19 +1,19 @@
 ---
-description: información general sobre lienzo de recorrido
+description: Información general del lienzo de recorrido
 title: Lienzo de recorrido
 feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
+source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1300'
 ht-degree: 2%
 
 ---
 
-# información general sobre lienzo de recorrido
+# Información general del lienzo de recorrido
 
 {{release-limited-testing}}
 
@@ -127,6 +127,16 @@ Además, los cambios realizados en un recorrido en Journey Optimizer se sincroni
 
 Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, pueden producirse cambios en el procesamiento de datos, las funciones disponibles y el comportamiento de sincronización.
 
+Si realiza una modificación significativa en un recorrido de Journey Optimizer en lienzo de Recorrido, pueden producirse cambios en el procesamiento de datos, las funciones disponibles y el comportamiento de sincronización. Una modificación significativa incluye cualquiera de las siguientes opciones:
+
+* Adición o eliminación de un nodo
+
+* Adición o eliminación de una flecha entre nodos
+
+* Cambio de los componentes de un nodo
+
+Si realiza otros cambios en un recorrido de Journey Optimizer en lienzo de Recorrido, como arrastrar un nodo o agregar un desglose, no se aplicarán las diferencias que se describen en las secciones siguientes.
+
 >[!NOTE]
 >
 >Para devolver el recorrido a su estado original, puede presionar Ctrl+z después de realizar el primer cambio en el lienzo de Recorrido. O bien, puede eliminar y [volver a crear el recorrido en lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
@@ -139,9 +149,13 @@ Esto se debe a que, a diferencia de Journey Optimizer, el lienzo de Recorrido pe
 
 #### Diferencias de características
 
-Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, el campo desplegable [!UICONTROL **Tipo de nodo**] ya no está disponible.
+Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, la funcionalidad puede cambiar para las siguientes funciones, según las modificaciones:
 
-Para obtener más información sobre este campo, consulte [Configurar opciones](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+* Los valores mostrados en el campo [!UICONTROL **Tipo de nodo**] cambian.
+
+* Las opciones disponibles en el campo desplegable [!UICONTROL **Configuración de flecha**] cambian.
+
+Para obtener más información acerca de estos campos, vea [Configurar opciones](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 #### Diferencias de sincronización
 
