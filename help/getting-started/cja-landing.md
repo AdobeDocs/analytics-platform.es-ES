@@ -4,10 +4,10 @@ description: Página de aterrizaje de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: a9dd06a7b9d7c1ee6d5be5b944564e971cfe5192
+source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 90%
+source-wordcount: '878'
+ht-degree: 96%
 
 ---
 
@@ -29,12 +29,18 @@ El asistente de IA es una experiencia conversacional que permite a los profesion
 
 [![imagen](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
+>[!TAB Alertas]
+
+Las alertas permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos. Puede obtener una vista previa de la frecuencia con la que se generará un déclencheur, enviarlo por correo electrónico o SMS, crear alertas apiladas y mucho más.
+
+[![imagen](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
 >[!TAB Datos de resumen]
 
-Permiten introducir datos de series temporales que no tienen un ID de persona. Estos datos de series temporales se pueden utilizar para varios casos de uso, como
+Permiten introducir datos de series temporales que no tienen un ID de persona. Estos datos de series temporales se pueden utilizar para admitir varios casos de uso, como
 
-- Presentación de indicadores de rendimiento de alto nivel como parte de los datos de nivel de evento o junto a ellos.
-- Cargar objetivos por hora o por día y, a continuación, colocarlos en métricas de nivel de evento.
+- Presentar indicadores de rendimiento de alto nivel como parte de los datos de nivel de evento o junto a ellos. 
+- Cargar objetivos o metas por hora o por día y, a continuación, colocarlos en métricas de nivel de evento. 
 
 [![imagen](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
 
@@ -139,7 +145,7 @@ Comprenda cómo se compara Customer Journey Analytics con Adobe Analytics. Y có
     </td>
      <td>
       <img src="./assets/dataviews.svg" width="35px"><br/>
-      <strong>Vistas de datos</strong><br/><a href="/help/data-views/data-views.md">Información general</a> - <a href="/help/data-views/create-dataview.md">Crear o editar</a> - <a href="/help/data-views/session-settings.md">Configuración de sesión</a> - <a href="/help/data-views/derived-fields/derived-fields.md">Campos derivados</a> - <a href="/help/data-views/summary-data.md">Datos de resumen</a> - <a href="/help/data-views/component-reference.md">Referencia de componente</a>
+      <strong>Vistas de datos</strong><br/><a href="/help/data-views/data-views.md">Información general</a> - <a href="/help/data-views/create-dataview.md">Crear o editar</a> - <a href="/help/data-views/session-settings.md">Configuración de sesión</a> - <a href="/help/data-views/derived-fields/derived-fields.md">Campos derivados</a> - <a href="/help/data-views/summary-data.md">Datos de resumen</a> - <a href="/help/data-views/component-reference.md">Referencia de componentes</a>
     </td>
 
 </tr>
@@ -154,7 +160,7 @@ Comprenda cómo se compara Customer Journey Analytics con Adobe Analytics. Y có
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
-      <strong>Compartir, exportar, integrar</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">Proyectos</a> - <a href="/help/mobile-app/home.md">Paneles de Analytics</a> - <a href="/help/report-builder/report-buider-overview.md">Report Builder</a> - <a href="/help/components/exports/manage-exports.md">Exportación en la nube</a> - <a href="/help/integrations/overview.md">Integraciones</a>
+      <strong>Compartir, exportar, integrar</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">Proyectos</a> - <a href="/help/mobile-app/home.md">Paneles de Analytics</a> - <a href="/help/report-builder/report-buider-overview.md">Report Builder</a>  - <a href="/help/components/exports/manage-exports.md">Exportación en la nube</a> - <a href="/help/integrations/overview.md">Integraciones</a>
     </td>
   </tr>
 </table>
