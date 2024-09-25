@@ -4,7 +4,7 @@ description: Obtenga información sobre el concepto de publicación de audiencia
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 4d71aaaaa0ac0162588dd6767e6c6209676dfc18
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 50%

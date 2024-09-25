@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
+source-git-commit: 7d21f6816412b45b795d223d351d4b48bd679c6d
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
@@ -95,7 +95,7 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 | No se muestra | Conector de origen de Adobe Analytics a Analytics (A4T) | Hasta 30 minutos |
 | 1 | Ingesta de datos en el lago de datos (desde el conector de origen de Analytics u otras fuentes) | Hasta 90 minutos |
 | 2 | Ingesta de datos del lago de datos de Experience Platform en Customer Journey Analytics | Hasta 90 minutos |
-| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de streaming y que permite que el segmento esté listo para recibir los datos. | Unos segundos |
+| 3 | Publicación de audiencias en el Perfil del cliente en tiempo real, incluida la creación automática del segmento de flujo continuo y que permite que el segmento esté listo para recibir los datos. | Unos segundos |
 | 4 | Frecuencia de actualización para audiencias | <ul><li>Actualización única (latencia inferior a 5 minutos)</li><li>Actualizar cada 4 horas, diariamente, semanalmente, mensualmente (la latencia va de la mano con la velocidad de actualización) |
 | 5 | Creación del destino en Adobe Experience Platform: Activación del nuevo segmento | 1 a 2 horas |
 
