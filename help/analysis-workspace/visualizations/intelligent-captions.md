@@ -4,10 +4,10 @@ title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: dae2282717d5d84862259d5b056fbfeb2d068cce
+source-git-commit: 6a193f2fd179809afac6808f3fb958c020f53a8d
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 4%
+source-wordcount: '646'
+ht-degree: 5%
 
 ---
 
@@ -32,38 +32,40 @@ Ahora se están generando perspectivas en lenguaje natural.
 
 Tenga en cuenta que
 
-* Necesita un mínimo de 3 puntos de datos para generar subtítulos correctamente. De lo contrario, podría recibir un error que dice &quot;No hay suficientes datos para analizar&quot;.
+* Necesita un mínimo de 3 puntos de datos para generar subtítulos correctamente. De lo contrario, podría recibir un error como **[!UICONTROL No hay suficientes datos para analizar]**.
 
 * Los subtítulos se generan cada vez que los datos seleccionados subyacentes cambian en la tabla que alimenta la visualización.
 
 * Si hay varias métricas en la tabla, los subtítulos solo se generan para la primera métrica o la métrica seleccionada actualmente por el usuario.
 
-* Si guarda el proyecto en este punto y lo vuelve a cargar más adelante, los subtítulos se actualizan automáticamente con nuevos datos. Lo mismo se aplica a los proyectos programados y a los archivos de PDF exportados desde este proyecto.
+* Si guarda el proyecto en un punto específico y lo vuelve a cargar más adelante, los subtítulos se actualizan automáticamente con nuevos datos. Lo mismo se aplica a los proyectos programados y a los archivos de PDF exportados desde un proyecto.
 
-## Ver e interpretar subtítulos {#view}
-
-A continuación se muestra un ejemplo del aspecto que podrían tener los subtítulos:
+A continuación se muestra un ejemplo del aspecto que podrían tener los subtítulos inteligentes:
 
 ![Subtítulos inteligentes para la visualización de líneas que incluyen Estacionalidad, Mínimo, Máximo, Pico y Rechazar.](assets/captions.png)
 
-## Copiar al portapapeles {#copy}
+## Acciones
+
+Puede realizar las siguientes acciones en los subtítulos inteligentes:
+
+### Copiar al portapapeles {#copy}
 
 Puede copiar los subtítulos en un portapapeles y pegarlos en un PowerPoint u otras herramientas. Seleccione ![Copiar subtítulos al portapapeles](/help/assets/icons/Copy.svg) en la parte superior derecha del cuadro de diálogo de subtítulos.
 
-## Editar subtítulos {#edit}
+### Editar pantalla {#edit}
 
-Puede editar los subtítulos, como ocultar o mostrar una categoría particular de perspectivas. Por ejemplo, si no desea conocer el orden mínimo, puede ocultar esa información y hacer clic en Aplicar. y no se volverá a mostrar.
+Puede editar la visualización de subtítulos, como ocultar o mostrar una categoría particular de perspectivas.
 
 1. Seleccione ![Editar subtítulos inteligentes](/help/assets/icons/EditInLight.svg) en el cuadro de diálogo Subtítulos inteligentes.
 
-1. Alterne entre ![Visibilidad](/help/assets/icons/Visibility.svg) para mostrar una perspectiva específica (como **[!UICONTROL Mín]**) o ![Visibilidad desactivada](/help/assets/icons/VisibilityOff.svg) para ocultar una perspectiva específica (como **[!UICONTROL Pico]**).
+1. Alterne entre ![Visibilidad](/help/assets/icons/Visibility.svg) para mostrar una perspectiva específica (como **[!UICONTROL Mín.]**) o ![Visibilidad desactivada](/help/assets/icons/VisibilityOff.svg) para ocultar una perspectiva específica (como **[!UICONTROL Pico]**).
 
    ![Editar subtítulos inteligentes](assets/edit-intelligent-captions.png)
 
 1. Seleccione **[!UICONTROL Aplicar]**.
 
 
-## Proporcionar comentarios
+### Proporcionar comentarios
 
 Puede proporcionar comentarios sobre los subtítulos inteligentes generados.
 
@@ -73,13 +75,13 @@ Puede proporcionar comentarios sobre los subtítulos inteligentes generados.
 
 1. En el cuadro de diálogo **[!UICONTROL Gracias por sus comentarios]**, proporcione sus comentarios y seleccione **[!UICONTROL Enviar]** para enviar los comentarios.
 
-## Exportar subtítulos {#export}
+### Exportar {#export}
 
-Puede **exportar subtítulos a través del PDF**, siempre y cuando el proyecto se guarde con los subtítulos generados.
+Puede exportar subtítulos inteligentes como parte de un PDF, siempre y cuando el proyecto se guarde con los subtítulos inteligentes generados.
 
-## Alternar subtítulos desactivada {#toggle}
+### Alternar desactivado {#toggle}
 
-Si prefiere no mostrar subtítulos inteligentes, puede desactivar esta función.
+Si prefiere no mostrar subtítulos inteligentes, puede desactivar la función.
 
 1. Vaya a [Preferencias de visualizaciones](/help/analysis-workspace/user-preferences.md#visualizations-preferences).
 1. Desmarque **[!UICONTROL Mostrar subtítulos inteligentes]**.
@@ -87,9 +89,6 @@ Si prefiere no mostrar subtítulos inteligentes, puede desactivar esta función.
    ![Opciones de visualización de líneas que muestran la opción de desactivar Mostrar subtítulos inteligentes.](assets/toggle-captions.png)
 
 1. Seleccione **[!UICONTROL Guardar]** para guardar la preferencia.
-
-
-
 
 
 ## Subtítulos inteligentes en cuadros de resultados móviles
