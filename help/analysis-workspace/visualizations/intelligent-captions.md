@@ -4,9 +4,9 @@ title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 6a193f2fd179809afac6808f3fb958c020f53a8d
+source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '632'
 ht-degree: 5%
 
 ---
@@ -19,8 +19,6 @@ Los subtítulos inteligentes están orientados a:
 
 * Analistas que necesitan narrativas para compartir con otros usuarios. Los analistas necesitan estas perspectivas para poder proporcionar contexto a sus usuarios.
 * Usuarios empresariales que deseen descubrir rápidamente los consejos de alto nivel.
-
-Los subtítulos están disponibles para todos los usuarios de Customer Journey Analytics y no requieren permisos especiales.
 
 ## Iniciar subtítulos inteligentes {#launch}
 
@@ -101,7 +99,7 @@ Los siguientes parámetros rigen el acceso a los subtítulos inteligentes:
 
 * **Acceso a la solución**: la característica Subtítulos inteligentes está disponible en Customer Journey Analytics, pero no en Adobe Analytics.
 
-* **Acceso contractual**: Si no puedes usar subtítulos inteligentes, ponte en contacto con el administrador de tu organización o con el representante de cuentas de Adobe. Antes de poder usar Intelligent en su organización, debe aceptar ciertos términos legales relacionados con GenAI.
+* **Acceso contractual**: Si no puede usar subtítulos inteligentes, póngase en contacto con el administrador de su organización o con el representante de cuentas de Adobe. Antes de poder usar subtítulos inteligentes en su organización, debe aceptar ciertos términos legales relacionados con GenAI.
 
 * **Permisos**: en [!UICONTROL Adobe Admin Console], el permiso de [!UICONTROL Herramientas de informes] **[!UICONTROL Subtítulos inteligentes]** determina el acceso. Un [administrador de perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) debe seguir estos pasos en el [!UICONTROL Admin Console]:
    1. Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos y servicios]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Perfiles de productos]**.
