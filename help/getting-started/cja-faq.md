@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 22ae84479142d45f400f6ae39fe1416c9aaf7229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 
 Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Journey Analytics:
 
-<ul><li>Los datos de evento del día "actual" se transmiten como datos activos. Cualquier dato con una hora de evento anterior a las 11:59:59 pm(23:59:59) del día anterior se trata como un relleno.</li><li>Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.</li></ul>
+<ul><li>Los datos de evento del día “actual” se transmiten como datos activos. Cualquier dato con una hora de evento anterior a las 11:59:59 pm (23:59:59) del día anterior se trata como un relleno.</li><li>Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.</li></ul>
 
 ## 5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
 
