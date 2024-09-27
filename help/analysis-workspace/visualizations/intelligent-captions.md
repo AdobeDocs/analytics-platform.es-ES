@@ -4,7 +4,7 @@ title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
+source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 5%
@@ -17,8 +17,8 @@ Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA gene
 
 Los subtítulos inteligentes están orientados a:
 
-* Analistas que necesitan narrativas para compartir con otros usuarios. Los analistas necesitan estas perspectivas para poder proporcionar contexto a sus usuarios.
-* Usuarios empresariales que deseen descubrir rápidamente los consejos de alto nivel.
+* Analistas, que necesitan narrativas para compartir con otros usuarios. Los analistas necesitan estas perspectivas para poder proporcionar contexto a sus usuarios.
+* Usuarios empresariales que deseen descubrir rápidamente los principales conocimientos.
 
 ## Iniciar subtítulos inteligentes {#launch}
 
