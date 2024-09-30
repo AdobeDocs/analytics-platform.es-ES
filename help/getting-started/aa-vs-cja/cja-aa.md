@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
-workflow-type: ht
-source-wordcount: '2315'
-ht-degree: 100%
+source-git-commit: 6820adc70412f6abeae81bf8389227999d13f0d5
+workflow-type: tm+mt
+source-wordcount: '2306'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Opciones mejoradas de seguridad y privacidad**: preparación para la HIPAA | Customer Journey Analytics está preparado para la HIPAA y ofrece [opciones de seguridad adicionales](/help/privacy/cmk.md) para el cumplimiento de la normativa. Adobe Analytics no está preparado para la HIPAA. |
 | **Análisis de experimentación** | Customer Journey Analytics puede evaluar [el alza y la confianza de cualquier experimento](/help/analysis-workspace/c-panels/experimentation.md) de cualquier fuente de datos definida como parte de una conexión. Esta evaluación le permite comprender las relaciones de causa y efecto entre las interacciones de los clientes que abarcan cualquier canal. Analytics se limita al análisis de experimentación mediante A4T. |
 | **Previsión** | La [Previsión](/help/analysis-workspace/c-forecast/forecasting.md) es una función de inteligencia artificial/aprendizaje automático que incluye una predicción estadística de datos relacionados con series temporales basada en los datos históricos que ya existen en Customer Journey Analytics. Las previsiones pueden aparecer en tablas de forma libre y visualizaciones de gráficos de líneas. |
-| **Análisis guiado** | El [Análisis guiado](/help/guided-analysis/overview.md) es un formato de creación de informes que permite a los usuarios autoabastecer rápidamente sus necesidades de datos para que puedan obtener perspectivas de alta calidad rápidamente y tomar más decisiones basadas en datos. El análisis guiado forma parte de Adobe Product Analytics. |
+| **Análisis guiado** | El [análisis guiado](/help/guided-analysis/overview.md) permite que los usuarios se proporcionen datos de alta calidad y perspectivas sobre el recorrido del cliente a través de flujos de trabajo guiados, basados en los datos de canales cruzados de Customer Journey Analytics. |
 | **Pies de ilustración inteligentes** | Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones de Workspace. La versión inicial proporciona perspectivas generadas automáticamente para la visualización de [Línea](/help/analysis-workspace/visualizations/line.md). |
 | **Transformaciones de tiempo de informes** | Las [Vistas de datos](/help/data-views/data-views.md) de Customer Journey Analytics le permiten interpretar aún más los datos de una conexión. Puede modificar o quitar datos sin cambiar su implementación, utilizar subcadenas para manipular dimensiones, crear métricas a partir de cualquier valor o filtrar subeventos. Todas estas transformaciones se realizan de manera no destructiva. Adobe Analytics proporciona funciones limitadas a través de grupos de informes virtuales y longitud de sesión personalizada. |
 | **Extensión de BI** | La [Extensión de BI](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) le permite conectar CJA directamente a herramientas de visualización de BI populares, como Power BI o Tableau. Con esta extensión, puede hacer que los informes de BI coincidan con precisión con lo que ve en Analysis Workspace y otras interfaces del sistema de informes CJA. Esta es una forma mucho más sencilla de obtener informes de BI para CJA sin necesidad de volver a crear informes/métricas a partir de datos sin procesar. |
