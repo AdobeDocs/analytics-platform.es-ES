@@ -4,78 +4,114 @@ description: Cómo administrar anotaciones en Espacio de trabajo.
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '763'
+ht-degree: 6%
 
 ---
 
 # Administración de anotaciones
 
-El administrador [!UICONTROL Componentes] > [!UICONTROL Anotaciones] ofrece numerosas maneras de conservar las anotaciones, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
+Puede compartir, filtrar, etiquetar, aprobar, copiar, eliminar anotaciones y marcar anotaciones como favoritas desde una interfaz de administración central de [!UICONTROL Anotaciones]. Para administrar anotaciones:
 
-El administrador [!UICONTROL Anotaciones] le muestra todas las anotaciones que posee que se han asignado a todos sus proyectos y que se han compartido con usted.
+* Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Anotaciones]**.
+
 
 >[!NOTE]
 >
->Las [!UICONTROL anotaciones] que haya creado únicamente para un proyecto específico no aparecen en el administrador.
+>Las anotaciones que cree en un proyecto específico de Workspace no aparecerán en el administrador de [!UICONTROL Anotaciones], a menos que haya puesto la anotación a disposición de todos los proyectos.
+>
 
-## Interfaz de usuario del Administrador de anotaciones
+## Administrador de anotaciones
 
-![Las opciones de anotaciones, como compartir, etiquetar o copiar, se describen en la siguiente sección.](assets/annotation-mgr.png)
+El administrador Anotaciones tiene los siguientes elementos de interfaz:
 
-| Elemento de la IU | Descripción |
+![Interfaz de anotaciones](assets/annotations-manager.png)
+
+### Lista de anotaciones
+
+La lista de anotaciones ➊ muestra todas las anotaciones que posee, las anotaciones que se han asignado a todos los proyectos y las anotaciones que se han compartido con usted. La lista tiene las columnas siguientes:
+
+| Columna | Descripción |
 | --- | --- | 
-| [!UICONTROL Título y descripción] | Aparecen en el Generador de anotaciones. Para editar el título y la descripción, haga clic en el vínculo del título. Se le redirigirá al Generador de anotaciones. |
-| [!UICONTROL Vista de los datos] | Las vistas de datos a las que se aplica esta anotación. |
-| [!UICONTROL Propietario] | Indica a quién pertenece la anotación. Si no es el administrador, solo podrá ver las anotaciones que le pertenecen o que se han compartido con usted. |
-| [!UICONTROL Intervalo de fecha aplicado] | La fecha o el intervalo de fechas al que se aplica esta anotación. |
-| [!UICONTROL Compartido con] | Indica cuántos individuos o grupos han compartido la anotación. Haga clic para ver más detalles. |
-| [!UICONTROL Fecha de modificación] | Muestra la fecha y la hora de la última modificación de la anotación. |
+| ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o para anular el favor de ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) de una anotación. |
+| **[!UICONTROL Título y descripción]** | Aparecen en el Generador de anotaciones. Para editar el título y la descripción, seleccione el vínculo del título: abre el [Generador de anotaciones](/help/components/annotations/create-annotations.md#annotation-builder). Se indica una anotación compartida con ![Share](/help/assets/icons/ShareLight.svg). |
+| **[!UICONTROL Vista de datos]** | Las vistas de datos a las que se aplica esta anotación. |
+| **[!UICONTROL Propietario]** | El propietario de la anotación. Como usuario, solo verá las anotaciones que le pertenecen o las anotaciones que se han compartido con usted. |
+| **[!UICONTROL Intervalo de fecha aplicado]** | La fecha o el intervalo de fechas al que se aplica esta anotación. |
+| **[!UICONTROL Etiquetas]** | Las etiquetas de esta anotación. |
+| **[!UICONTROL Compartido con]** | Las personas o grupos con los que compartió la anotación. Seleccione para abrir el cuadro de diálogo **[!UICONTROL Compartir componente]**. |
+| **[!UICONTROL Fecha de modificación]** | Muestra la fecha y la hora de la última modificación de la anotación. |
 
 {style="table-layout:auto"}
+
+Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué columnas desea mostrar.
+
+### Barra de acciones
+
+Puede realizar acciones en las anotaciones mediante el ➋ de barra de acciones. La barra de acciones contiene las siguientes acciones:
+
+| Acción | Descripción |
+|---|---|
+| ![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Agregar]** | Agregue otra anotación con el [Generador de anotaciones](create-annotations.md#annotation-builder). |
+| ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar por título*] | Cuando no se selecciona ninguna anotación en la lista, busque anotaciones mediante este campo de búsqueda. |
+| ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Etiqueta]** | Etiquetar las anotaciones seleccionadas. En el cuadro de diálogo **[!UICONTROL Componente de etiqueta]**, seleccione o anule la selección de las etiquetas para las anotaciones seleccionadas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de las anotaciones seleccionadas. |
+| ![Compartir](/help/assets/icons/ShareLight.svg) **[!UICONTROL Compartir]** | Compartir las anotaciones seleccionadas. En el cuadro de diálogo **[!UICONTROL Compartir componente]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de las anotaciones seleccionadas. Consulte [Compartir anotaciones](#share-annotations) para obtener más información. |
+| ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Eliminar las anotaciones seleccionadas. Se le pedirá una confirmación. |
+| ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Cambiar nombre]** | Cambiar el nombre de una sola anotación seleccionada. Cuando se selecciona, puede cambiar el nombre de la anotación en línea. |
+| ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** | Copie las anotaciones seleccionadas. Las nuevas anotaciones se crean con el mismo nombre y sufijo (Copiar) |
+| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** | Exportar las anotaciones a un archivo de `Annotations List.csv`. |
+
+### Barra de filtro activa
+
+La ➌ de la barra de filtros muestra los filtros activos (si los hay). Puede quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puede quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
+
+### Panel Filtro
+
+Puede filtrar anotaciones mediante el ➍ del panel izquierdo **[!UICONTROL Filtrar]**. El panel Filtro muestra el tipo de filtro y el número de anotaciones que lo respetan. Seleccione ![Filter](/help/assets/icons/Filter.svg) para alternar la visualización del panel de filtros.
+
+Para filtrar la lista de filtros:
+
+1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesita más espacio para la lista Filtros, puede seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
+1. Puede filtrar las anotaciones mediante cualquiera de las [secciones de filtro](#filter-sections) disponibles.
+
+   >[!INFO]
+   >
+   >*Elementos* hacen referencia a los elementos de anotación mostrados en la [lista de anotaciones](manage-annotations.md#annotations-list).
+   > 
+
+#### Filtrar secciones
+
+{{tagfiltersection}}
+{{dataviewfiltersection}}
+{{ownerfiltersection}}
+{{daterangefiltersection}}
+{{otherfiltersfiltersection}}
+
+
+La [lista de anotaciones](manage-annotations.md#annotations-list) se actualiza automáticamente según la configuración del filtro. Puede ver los filtros configurados en la [barra de filtros activa](manage-annotations.md#active-filter-bar).
+
 
 ## Edición de anotaciones
 
-Editar una anotación significa que puede ajustar intervalos de fechas, colores, ámbito o si se aplica o no a todas las vistas de datos o proyectos. Puede editar las anotaciones de dos formas:
+Puede editar una anotación de dos formas:
 
-* En un gráfico de líneas, pase el ratón sobre la anotación y haga clic en el icono de lápiz dentro de la ventana emergente.
+* En un proyecto de Workspace, use el icono [Información del componente](/help/components/use-components-in-workspace.md#component-info).
 
-* En el [!UICONTROL Administrador de anotaciones], haga clic en el título de la anotación.
+* En la lista [[!UICONTROL Anotaciones]](#annotations-list), seleccione el título de la anotación.
 
-Ambas opciones le permiten volver a acceder al Generador de anotaciones. Aquí puede realizar los ajustes necesarios y guardar la nueva versión.
+Utiliza el [Generador de anotaciones](/help/components/annotations/create-annotations.md#annotation-builder) para editar la anotación.
 
 ## Compartir anotaciones
 
-Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con usted, tenga esto en cuenta:
+Lo siguiente se aplica cuando se comparten anotaciones o se trabaja con anotaciones compartidas con usted:
 
-* Supongamos que crea un proyecto con anotaciones solo de proyecto y luego comparte el proyecto con otro usuario. Se mostrarán estas anotaciones, pero ninguna persona con la que comparta el proyecto puede editarlas o eliminarlas.
+* Las anotaciones solo de proyecto de un proyecto que comparta con otros usuarios se mostrarán para esos usuarios. Los usuarios no pueden editar ni eliminar estas anotaciones solo de proyecto.
+* Si guarda una anotación y la comparte directamente con un usuario, ese usuario solo puede editarla y eliminarla si tiene derechos de administrador.
 
-* Si guarda una anotación y la comparte directamente con un usuario, solo podrá editarla o eliminarla si tiene derechos de administrador.
-
-* Para recapitular, si el proyecto se comparte con usted, solo se mostrará en ese proyecto. Si la anotación se comparte directamente con usted, aparecerá en todos los proyectos en los que se pueda mostrar.
+* Si se comparte un proyecto con usted, las anotaciones creadas en ese proyecto solo se mostrarán en ese proyecto. Si una anotación se comparte directamente con usted, la anotación se muestra en todos los proyectos en los que se puede mostrar.
 
 ## Anotaciones y zonas horarias
 
-Todas las anotaciones se crean con una marca de tiempo, pero no con información de “hora” o “zona horaria”. En el momento del informe, siempre se aplica la zona horaria de la vista de datos del panel. Por lo tanto, una anotación creada para el día de Navidad se produce el 25 de diciembre, sin importar la zona horaria de la vista de datos en la que se encuentre.
-
-Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 22:00, hora de las montañas de EE. UU., la costa este de EE. UU. está preparando los fuegos artificiales porque ya son las 00:00 en el este.
-
-## Otras tareas de anotaciones
-
-El Administrador de anotaciones permite a los administradores editar, añadir, etiquetar, eliminar, cambiar el nombre, aprobar, copiar, exportar y filtrar anotaciones. No es visible para los usuarios que no son administradores.
-
-Solo tiene que seleccionar una o varias anotaciones y aparecerá la barra de tareas.
-
-| Tarea | Descripción |
-| --- | --- |
-| Agregar | Le lleva al Generador de anotaciones, donde puede crear nuevas anotaciones. |
-| Etiqueta | Todos los usuarios pueden crear etiquetas para las anotaciones y aplicar una o más a una anotación. Sin embargo, solo puede ver las etiquetas de estos filtros que posee. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:<ul><li>Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil</li><li>Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada</li><li>Etiquetas de categorías: Para hombres o Área geográfica</li><li>Etiquetas de flujo de trabajo: Revisado para (unidad comercial específica); Aprobado</li></ul> |
-| Eliminar | Al eliminar una anotación, esta se elimina de cualquier proyecto de su organización. |
-| Cambiar nombre | Al cambiar el nombre de una anotación, se le cambia el nombre en todos los proyectos a los que se ha aplicado. |
-| Copiar | Crea una copia distinta con su nuevo ID de anotación, pero con el mismo nombre y definición. |
-| Exportar a CSV | Exporte la definición de la anotación a un archivo .csv. |
-| Filtro (carril izquierdo) | Filtre por etiquetas, vista de datos, propietarios y otros filtros (Míos, Aprobados, Favoritos, Compartidos conmigo y Mostrar todo). |
-
-{style="table-layout:auto"}
+Todas las anotaciones se crean con una marca de tiempo, pero no con información de hora o zona horaria. En el momento del informe, se utiliza la zona horaria de la vista de datos configurada para el panel.
