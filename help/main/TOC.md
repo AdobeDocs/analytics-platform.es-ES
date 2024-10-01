@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 0e627d536682f62b499f7f6d477c1d906de13f24
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1054'
 ht-degree: 92%
 
 ---
@@ -148,6 +148,10 @@ ht-degree: 92%
          + [Resumen de flujos](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuración de un flujo](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flujos interdimensionales](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + Lienzo de recorrido {#journey-canvas}
+         + [Información general del lienzo de recorrido](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + [Configuración de una visualización de lienzo de recorrido](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + [solución de problemas de lienzo de recorrido](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [Área (apilada)](../analysis-workspace/visualizations/area.md)
       + [Barra (apilada)](../analysis-workspace/visualizations/bar.md)
       + [Viñeta](../analysis-workspace/visualizations/bullet-graph.md)

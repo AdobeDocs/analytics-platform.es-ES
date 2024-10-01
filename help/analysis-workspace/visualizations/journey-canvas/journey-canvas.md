@@ -3,12 +3,10 @@ description: Información general del lienzo de recorrido
 title: Lienzo de recorrido
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
+source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1318'
 ht-degree: 2%
 
 ---
@@ -35,7 +33,7 @@ Las características clave de la visualización del lienzo de Recorrido incluyen
 
 ## Perspectivas potenciales
 
-A continuación se muestran algunos ejemplos de los tipos de lienzo de Recorrido de perspectivas que puede ayudar a proporcionar. Puede elegir si estas perspectivas se basan en todas las personas de la vista de datos o en todas las personas que iniciaron el recorrido.
+A continuación se muestran algunos ejemplos de los tipos de lienzo de Recorrido de perspectivas que puede ayudar a proporcionar. Puede elegir si estas perspectivas se basan en todas las personas de la vista de datos, todas las personas que iniciaron el recorrido o todas las personas del nodo anterior del recorrido.
 
 **Visitas en orden previsto**
 
@@ -47,7 +45,7 @@ A continuación se muestran algunos ejemplos de los tipos de lienzo de Recorrido
 
 **Visita en orden previsto**
 
-* Los puntos (nodos) del recorrido en los que las personas salen del recorrido con mayor frecuencia
+* Los puntos (nodos) del recorrido en los que las personas salieron del recorrido con mayor frecuencia (nunca llegaron a ninguno de los siguientes nodos inmediatos)
 
 **Otro**
 
