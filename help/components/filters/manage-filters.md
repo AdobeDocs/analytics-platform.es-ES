@@ -1,70 +1,77 @@
 ---
-title: Administrador de filtros
-description: descubra cómo administrar filtros en Customer Journey Analytics
+title: Administrar filtros
+description: Obtenga información sobre cómo administrar filtros en Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: e994a53934ae25802fb16e912d0fdee32d5ea524
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 19%
+source-wordcount: '884'
+ht-degree: 4%
 
 ---
 
-# Administrador de filtros
+# Administrar filtros
 
-El administrador de filtros ofrece numerosas maneras de conservar los filtros, como compartir, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 
-El administrador de filtros le muestra todos los filtros que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los filtros de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del administrador de filtros.
+Puede [compartir](filters-share.md), [filtrar](filters-filter.md), [etiquetar](filters-tag.md), [aprobar](filters-approve.md), cambiar el nombre, [copiar](filters-copy.md), eliminar, exportar filtros y marcar filtros como [favoritos](filters-favorite.md) desde una interfaz de administración central de [!UICONTROL Filtros]. Para administrar filtros:
 
-![](assets/filter-manager-ui.png)
+* Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Filtros]**.
 
-## Acceso al administrador de filtros
 
-1. En el Customer Journey Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Filtros]**.
+>[!NOTE]
+>
+>Los filtros rápidos que cree en un proyecto específico de Workspace no aparecerán en el administrador de [!UICONTROL Filtros], a menos que haya puesto el filtro a disposición de todos sus proyectos.
+>
 
-## Acciones disponibles en el administrador de filtros
+## Administrador de filtros
 
-En el Administrador de filtros, puede:
+El administrador de filtros tiene los siguientes elementos de interfaz:
 
-* [Filtrar la lista de filtros](/help/components/filters/filters-filter.md)
+![Interfaz de filtros](assets/filters-manager.png)
 
-* [Marcar filtros como favoritos](/help/components/filters/filters-favorite.md)
+### Lista de filtros
 
-* [Aprobar filtros](/help/components/filters/filters-approve.md)
+La lista de filtros ➊ muestra todos los filtros que posee, los filtros con ámbito en todos sus proyectos y los filtros que se han compartido con usted. La lista tiene las columnas siguientes:
 
-* [Filtros de etiquetas](/help/components/filters/filters-tag.md)
+| Columna | Descripción |
+| --- | --- | 
+| ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) | Seleccione un filtro para favorecer a ![Estrella](/help/assets/icons/Star.svg) o para anular la preferencia de ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg). Ver [Marcar filtro como favorito](/help/components/filters/filters-favorite.md) |
+| **[!UICONTROL Título y descripción]** | Para editar el filtro, seleccione el vínculo del título, que abre el [Generador de filtros](filter-builder.md). Se ha indicado un filtro compartido con ![Compartir](/help/assets/icons/ShareLight.svg). |
+| **[!UICONTROL Vista de datos]** | Las vistas de datos a las que se aplica este filtro. |
+| **[!UICONTROL Propietario]** | El propietario del filtro. Como usuario, solo verá los filtros que le pertenecen o las anotaciones que se han compartido con usted. |
+| **[!UICONTROL Etiquetas]** | Las etiquetas de este filtro. |
+| **[!UICONTROL Compartido con]** | El número de individuos o grupos con los que compartió el filtro. Seleccione para abrir el cuadro de diálogo **[!UICONTROL Compartir componente]**. Consulte [Compartir filtros](filters-share.md) para obtener más información. |
+| **[!UICONTROL Fecha de modificación]** | Fecha y hora de la última modificación del filtro. |
+| **[!UICONTROL Utilizado en]** | Mostrar dónde se están utilizando los filtros actualmente y cuántas veces se están utilizando en cada área. <p>Por ejemplo, si el filtro se está utilizando en 40 proyectos y 2 alertas, el valor de esta columna se muestra como [!UICONTROL **42 componentes**].</p> <p>Seleccione el valor de esta columna para ver el desglose de dónde se están utilizando los filtros (por ejemplo, [!UICONTROL **Proyectos (40)**], [!UICONTROL **Cuadros de resultados móviles (2)**]). Además, puede ver la lista de elementos en los que se utilizan los filtros. Por ejemplo, para ver la lista de proyectos donde se están usando, seleccione el vínculo [!UICONTROL **Proyectos (40)**].</p><p>Cada una de las siguientes áreas muestra el número de instancias de filtros que se están utilizando en esa área:</p>  <ul><li>[!UICONTROL **Proyectos**]<p>Contiene filtros que se [crearon en el generador de filtros](/help/components/filters/filter-builder.md#) y que están disponibles para todos los proyectos.</p></li><li>[!UICONTROL **Componentes ad hoc**]<p>Contiene filtros que se [crearon como filtros rápidos](/help/components/filters/quick-filters.md) y que están disponibles solamente dentro de un solo proyecto.</p></li><li>[!UICONTROL **Proyectos programados**]</li><li>[!UICONTROL **Cuadros de resultados móviles**]</li><li>[!UICONTROL **Anotaciones**]</li><li>[!UICONTROL **Métricas calculadas**]</li><li>[!UICONTROL **Report Builder**]<p>Al seleccionar esta opción, se descarga un archivo CSV con las siguientes columnas de datos:</p><ul><li>Nombre del Report Builder</li><li>Último acceso</li><li>Identificador de usuario de IMS de último acceso</li><li>Último nombre de usuario accedido</li></ul></li></ul><p>Esta información le ayuda a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Tenga en cuenta lo siguiente cuando vea esta columna:</p><ul><li>Esta información solo está disponible para los administradores del sistema.</li><li>La columna [!UICONTROL **Utilizada en**] no se muestra de manera predeterminada. Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar la visualización de esta columna.</li><li>Esta información no incluye el uso de la API o la Data Warehouse.</li><li>Si no hay datos en esta columna para un componente determinado pero el componente tiene una fecha de [!UICONTROL **Último uso**], es posible que el componente se haya utilizado en un análisis sin que se haya guardado.</li><li>La información de uso está disponible a partir de septiembre de 2023.</li></ul><p>Puede usar el [Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md) junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización.</p> |
+| **[!UICONTROL Último uso]** | La última vez que se utilizó el filtro. |
 
-* [Compartir filtros](/help/components/filters/filters-share.md)
+{style="table-layout:auto"}
 
-* Exporte un filtro a un archivo CSV.
+Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué columnas desea mostrar.
 
-* [Copiar filtros](/help/components/filters/filters-copy.md)
+### Barra de acciones
 
-* Eliminar filtros
+Puede realizar acciones en los filtros mediante el ➋ de barra de acciones. La barra de acciones contiene las siguientes acciones:
 
-## Configuración de columnas
+| Acción | Descripción |
+|---|---|
+| ![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Agregar]** | Agregue otro filtro con el [Generador de filtros](filter-builder.md). |
+| ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar por título*] | Cuando no se selecciona ningún filtro en la lista, busque filtros utilizando este campo de búsqueda. |
+| ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Etiqueta]** | Etiquete los filtros seleccionados. En el cuadro de diálogo **[!UICONTROL Filtro de etiquetas]**, seleccione o anule la selección de las etiquetas de los filtros seleccionados. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los filtros seleccionados. Consulte [Filtros de etiquetas](/help/components/filters/filters-tag.md) para obtener más información. |
+| ![Compartir](/help/assets/icons/ShareLight.svg) **[!UICONTROL Compartir]** | Compartir los filtros seleccionados. En el cuadro de diálogo **[!UICONTROL Compartir filtro]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de los filtros seleccionados. Consulte [Compartir filtros](filters-share.md) para obtener más información. |
+| ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Eliminar los filtros seleccionados. Se le pedirá una confirmación. |
+| ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Cambiar nombre]** | Cambie el nombre de un solo filtro seleccionado. Cuando se selecciona, puede cambiar el nombre del filtro en línea. |
+| ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Aprobar]** | Apruebe los filtros seleccionados. Consulte [Aprobar filtros](filters-approve.md) para obtener más información. |
+| ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** | Copie el filtro seleccionado. Los nuevos filtros se crean con el mismo nombre y sufijo `(Copy)`. |
+| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** | Exportar los filtros a un archivo de `Filters List.csv`. |
 
-Puede configurar la información mostrada para cada filtro en el administrador de filtros configurando las columnas que se muestran.
+### Barra de filtro activa
 
-Para configurar las columnas visibles en el administrador de filtros:
+La ➌ de la barra de filtros muestra los filtros activos aplicados desde el panel de filtros a la lista de filtros (si los hay). Puede quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puede quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
 
-1. En Customer Journey Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Filtros]**.
+### Panel Filtro
 
-1. En el Administrador de filtros, seleccione el icono **Personalizar columnas** ![Personalizar icono de columnas](assets/customize-columns-icon.png) y, a continuación, seleccione las columnas que desea que se muestren en el Administrador de filtros.
+Puede filtrar la lista de filtros mediante el ➍ del panel izquierdo ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]**. El panel Filtro muestra el tipo de filtro y el número de filtros que respetan el filtro específico. Seleccione ![Filter](/help/assets/icons/Filter.svg) para alternar la visualización del panel de filtros.
 
-   Las columnas disponibles son las siguientes:
-
-   | Título de columna | Descripción |
-   |---|---|
-   | Título y descripción | Estos valores se proporcionan en el Generador de filtros. Para editar el título y la descripción, seleccione el vínculo del título para abrir el Generador de filtros. |
-   | Favoritos | Muestra iconos de estrella junto a cada filtro, lo que permite marcar los filtros como favoritos. Para obtener más información, consulte [Marcar filtros como favoritos](/help/components/filters/filters-favorite.md). |
-   | Vista de datos | Esta columna indica en qué vista de datos se guardó por última vez el filtro. |
-   | Propietario | Indica a quién pertenece el filtro. Si no es el administrador, solo podrá ver los filtros que le pertenecen o que compartieron con usted. |
-   | Etiquetas (la columna no aparece porque no está marcada en el selector de columnas) | Etiquetas que se aplicaron al filtro, tanto por su parte como por parte de las personas que compartieron el filtro con usted. |
-   | Compartido con | Enumera las personas o los grupos (solo administrador) o todos (solo administrador) con los que compartió el filtro. <p>Cuando usted o con usted comparten un filtro, aparece un icono de uso compartido junto al nombre del filtro.</p> |
-   | Fecha de modificación | Muestra la última fecha de modificación del filtro. |
-   | Utilizado en | Muestra dónde se están utilizando actualmente los filtros y cuántas veces se están utilizando en cada área. <p>Por ejemplo, si el filtro se está utilizando en 40 proyectos y 2 alertas, el valor de esta columna se muestra como [!UICONTROL **42 componentes**].</p> <p>Seleccione el valor de esta columna para ver el desglose de dónde se están utilizando los filtros (por ejemplo, [!UICONTROL **Proyectos (40)**], [!UICONTROL **Cuadros de resultados móviles (2)**]). Además, puede ver la lista de elementos en los que se utilizan los filtros. Por ejemplo, para ver la lista de proyectos donde se están usando, seleccione el vínculo [!UICONTROL **Proyectos (40)**].</p><p>Cada una de las siguientes áreas muestra el número de instancias de filtros que se están utilizando en esa área:</p>  <ul><li>[!UICONTROL **Proyectos**]<p>Contiene filtros que se [crearon en el generador de filtros](/help/components/filters/filter-builder.md#) y que están disponibles para todos los proyectos.</p></li><li>[!UICONTROL **Componentes ad hoc**]<p>Contiene filtros que se [crearon como filtros rápidos](/help/components/filters/quick-filters.md) y que están disponibles solamente dentro de un solo proyecto.</p></li><li>[!UICONTROL **Proyectos programados**]</li><li>[!UICONTROL **Cuadros de resultados móviles**]</li><li>[!UICONTROL **Anotaciones**]</li><li>[!UICONTROL **Métricas calculadas**]</li><li>[!UICONTROL **Report Builder**]<p>Al seleccionar esta opción, se descarga un archivo CSV con las siguientes columnas de datos:</p><ul><li>Nombre del Report Builder</li><li>Último acceso</li><li>Identificador de usuario de IMS de último acceso</li><li>Último nombre de usuario accedido</li></ul></li><p>Cuando se visualiza la información de Report Builder, la información de uso está disponible a partir de septiembre de 2024.</p></ul><p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Tenga en cuenta lo siguiente cuando vea esta columna:</p><ul><li>Esta información solo está disponible para los administradores del sistema.</li><li>La columna [!UICONTROL **Utilizada en**] no se muestra de manera predeterminada. [Configure columnas](#configure-columns) para mostrarlas.</li><li>Si un filtro incluye otro filtro en su definición, cualquier uso de ese filtro no se muestra en la columna [!UICONTROL **Utilizado en**]. Si se incluye un filtro en la definición de otro tipo de componente (como una métrica calculada), entonces el uso se muestra en la columna [!UICONTROL **Utilizado en**].</li><li>Esta información no incluye el uso de la API o la Data Warehouse.</li><li>Si no hay datos en esta columna para un componente determinado pero tiene una fecha de [!UICONTROL **Último uso**], es posible que el componente se haya utilizado en un análisis sin que se haya guardado.</li><li>La información de uso está disponible a partir de septiembre de 2023.</li></ul><p>Puede usar el [Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md) junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización.</p> |
-   | Último uso | Muestra la fecha en la que se utilizó por última vez el filtro en cualquiera de los siguientes tipos de componentes: <ul><li>Métricas calculadas </li><li>Proyectos</li><li>Proyectos programados</li><li>Filtros</li></ul> <p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización o si se debe eliminar.</p><p>Tenga en cuenta lo siguiente cuando vea esta columna:</p><ul><li>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</li><li>Para algunos componentes, es posible que esta columna no contenga datos si el componente se utilizó por última vez antes de septiembre de 2023.</li><li>Esta información solo está disponible para los administradores del sistema.</li></ul><p>Puede usar el [Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md) junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización. |
-
-   {style="table-layout:auto"}
+Ver [Filtrar la lista de filtros](filters-filter.md) para obtener más información.

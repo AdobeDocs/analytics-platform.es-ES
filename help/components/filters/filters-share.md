@@ -4,35 +4,40 @@ title: Compartir filtros
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 96%
+source-wordcount: '297'
+ht-degree: 10%
 
 ---
 
-# Compartir filtros {#share}
+# Compartir filtros
 
-En función de sus permisos, puede compartir filtros con toda su organización, con grupos o con usuarios individuales.
+En el [Administrador de filtros](manage-filters.md), puede compartir filtros. En función de sus permisos, puede compartir filtros con toda su organización, con grupos o con usuarios individuales:
 
-| Administrador | No administrador |
-|---|---|
-| Puede compartir filtros con Todos, con Grupos y con Usuarios. Consulte la [Documentación de Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-products-and-profiles.html) para obtener más información. | Puede compartir filtros únicamente con usuarios individuales. |
+* **Administradores**: Los administradores pueden compartir filtros con toda la organización, con grupos dentro de una organización y con usuarios individuales. Consulte la [Documentación de Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-products.html) para obtener más información.
+* **No administradores**: Los no administradores solo pueden compartir los filtros que han creado y solo con usuarios individuales. |
 
-¿Cuándo debe compartir filtros con toda la compañía en vez de con un grupo de usuarios o personas? A continuación se indica una serie de prácticas recomendadas seguir:
+Para compartir uno o más filtros:
 
-* Como administrador, comparta un filtro con Todos si resulta útil para toda la compañía y si todos se sienten cómodos al utilizarla. En este caso, debe considerar la posibilidad de marcarla como filtro aprobado.
+1. En el [Administrador de filtros](manage-filters.md), seleccione uno o varios de los filtros que desee compartir.
+1. En la barra de acciones, seleccione ![Compartir](/help/assets/icons/ShareLight.svg) **[!UICONTROL Compartir]**.
+1. En el diálogo **[!UICONTROL Compartir filtros]**:
 
-* Como Administrador, comparta un filtro con un Perfil de producto específico si el filtro aporta valor empresarial al equipo. No apruebe oficialmente este tipo de filtros.
+   ![Cuadro de diálogo Compartir filtros](assets/share-filter-dialog.png)
 
-* Como Administrador o usuario individual, comparta un filtro con otras personas para examinar y validar un filtro. Si finalmente no resulta útil, descártela. No apruebe oficialmente este tipo de filtros.
+   1. (Opcionalmente) use ![Buscar](/help/assets/icons/Search.svg) para *Buscar personas o grupos* y limitar la lista de grupos o personas con los que desea compartir el filtro.
 
-Para compartir un filtro:
+   1. Seleccione una o más opciones de la sección **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**, o busque y seleccione una o más personas. Las opciones disponibles dependen de la función que tenga.
 
-1. En el Administrador de filtros, marque la casilla que aparece junto al filtro que desea compartir.
+   1. Seleccione **[!UICONTROL Guardar]** para compartir los filtros. Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
-1. En la barra de herramientas de administración de filtros, haga clic en **[!UICONTROL Compartir]**.
+## Prácticas recomendadas
 
-1. Si es administrador, puede seleccionar Todos o elegir entre Grupos y Usuarios de su organización. Si no es administrador, solo verá usuarios individuales. Utilice el campo Buscar para buscar grupos o usuarios. Haga clic en **[!UICONTROL Compartir]**. El icono Compartido aparece junto al filtro: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+A continuación se describen algunas prácticas recomendadas sobre cuándo debe compartir filtros y con quién debe compartirlos.
 
-1. Puede filtrar los filtros que se han compartido con usted accediendo a Filtros > Otros filtros > Compartido conmigo.
+* Como administrador, comparta un filtro únicamente con Todos si está convencido de que cualquier persona de su organización se siente cómoda utilizando los filtros. También puede considerar favorecer estos filtros. Consulte [Marcar un filtro como favorito](filters-favorite.md) para obtener más información.
+
+* Como administrador, comparta un filtro con un grupo específico si ese filtro proporciona valor empresarial para los usuarios que forman parte de ese grupo
+
+* Como administrador o usuario individual, comparta un filtro con una o más personas para validar un filtro. Si los filtros no resultan útiles, puede eliminarlos.
