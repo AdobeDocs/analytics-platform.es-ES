@@ -5,14 +5,24 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '2659'
-ht-degree: 68%
+source-wordcount: '2672'
+ht-degree: 67%
 
 ---
 
-# Creación de un cuadro de resultados móvil
+# Creación de un cuadro de resultados móvil {#create-a-mobile-scorecard}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_mobilescorecard_annotations"
+>title="Anotaciones"
+>abstract="Las anotaciones se pueden crear en el administrador de componentes de dentro de un proyecto de Workspace."
+
+<!-- markdownlint-enable MD034 -->
+
 
 La siguiente información enseña a los depuradores de datos de los Customer Journey Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Analytics:
 
@@ -135,7 +145,7 @@ Utilice la visualización Número de resumen para resaltar un número elevado qu
 
 ### [!UICONTROL Anillo]
 
-Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de personas únicas:
+Similar a un gráfico circular, esta visualización muestra los datos como partes o filtros de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, desea ver qué plataforma de publicidad contribuyó al número total de personas únicas:
 
 ![Nueva tarjeta de puntuación móvil que muestra una visualización de anillos](assets/donut-viz.png)
 

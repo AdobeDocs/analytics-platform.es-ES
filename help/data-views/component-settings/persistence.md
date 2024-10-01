@@ -5,15 +5,26 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 80%
+source-wordcount: '900'
+ht-degree: 81%
 
 ---
 
 
-# Configuración de componentes de [!UICONTROL persistencia]
+# Configuración de componentes de [!UICONTROL persistencia] {#persistence-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_persistence"
+>title="Persistencia"
+>abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes de los filtros en la creación de informes."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 La [!UICONTROL persistencia] es la capacidad de un valor de dimensión determinado para relacionarse con una métrica más allá del evento en el que está establecido. Utiliza una combinación de asignación y caducidad.
 

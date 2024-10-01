@@ -4,29 +4,57 @@ title: Barra y barra apilada
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 79%
+source-wordcount: '167'
+ht-degree: 16%
 
 ---
 
 # Barra y barra apilada
 
-## Barra {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+## Barra {#bar}
 
-Esta visualización muestra las barras verticales que representan los distintos valores de una o varias métricas.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_bar_button"
+>title="Barra"
+>abstract="Cree una visualización de barras para representar varios valores en una o varias métricas."
+
+<!-- markdownlint-enable MD034 -->
+
+
+La visualización ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** muestra barras verticales que representan varios valores en una o más métricas.
 
 ![Visualización de barra vertical que muestra varias métricas, incluidas Vistas de página, Visitas, Entradas y Salidas.](assets/bar.png)
 
-Un menú desplegable de granularidad en la configuración de visualización le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc.
+Un menú desplegable de granularidad en la configuración de visualización le permite cambiar una visualización de tendencias (por ejemplo, una línea o una barra) de diaria a semanal, mensual, etc.
 
-## Barra apilada {#section_9EA83779AE964635907EE5031A785A49}
+## Barra apilada {#bar-stacked}
 
-Esta visualización es similar a un gráfico de barras, pero con las barras de series apiladas en la parte superior de cada barra.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_barstacked_button"
+>title="Barra apilada"
+>abstract="Crea una visualización de barras para representar varios valores en una o varias métricas apiladas."
+
+<!-- markdownlint-enable MD034 -->
+
+
+La visualización ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Barra apilada]** es similar a un gráfico de barras, pero con las barras de series apiladas una encima de la otra.
 
 ![Gráfico de barras apiladas que muestra varias métricas.](assets/bar-stacked.png)
 
-Una nueva configuración en las visualizaciones de barras apiladas convierte el gráfico en una visualización apilada al 100 %:
+Use la opción **[!UICONTROL 100% apilado]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100%.
 
-![Gráfico de barras apiladas al 100%.](assets/stacked_100_percent.png)
+![Gráfico de barras apiladas al 100%.](assets/bar-stacked100.png)
+
+>[!MORELIKETHIS]
+>
+>[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

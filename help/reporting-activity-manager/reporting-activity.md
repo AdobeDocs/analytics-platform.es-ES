@@ -5,20 +5,30 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 7%
+source-wordcount: '2016'
+ht-degree: 8%
 
 ---
 
-# Ver la actividad de creación de informes en el Administrador de actividades de informes
+# Ver actividad de creación de informes {#view-reporting-activity}
 
 El [!UICONTROL Administrador de actividades de creación de informes] permite a los administradores diagnosticar y corregir rápidamente los problemas de capacidad de creación de informes durante las horas de mayor actividad en la creación de informes.
 
 Para obtener más información sobre el Administrador de actividades de creación de informes, incluidas las ventajas clave y los requisitos de permisos, consulte [Información general sobre el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-overview.md).
 
-## Ver actividad de creación de informes para todas las conexiones {#view-all-report-suites}
+## Para todas las conexiones {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="Conexiones"
+>abstract="Esta tabla muestra las conexiones para las que tiene derechos para gestionar la actividad de creación de informes. La información sobre cada conexión está disponible en cada columna de la tabla."
+
+<!-- markdownlint-enable MD034 -->
+
 
 1. En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de actividades de creación de informes]**.
 
@@ -36,7 +46,7 @@ Para obtener más información sobre el Administrador de actividades de creació
 
    * Utilice el campo de búsqueda para buscar una conexión específica. Empiece a escribir el nombre o ID de la conexión y la lista de conexiones se actualizará a medida que escriba.
 
-   * Seleccione el icono [!UICONTROL **Filter**] ![Filter icon](assets/filter-icon.png) para expandir la lista de opciones de filtro. Puede filtrar por [!UICONTROL **Favoritos**] o [!UICONTROL **Estado**].
+   * Seleccione ![Filter](/help/assets/icons/Filter.svg) para expandir la lista de opciones de filtro. Puede filtrar por [!UICONTROL **Favoritos**] o [!UICONTROL **Estado**].
 
      Para marcar una conexión como favorita, seleccione el icono de estrella a la izquierda del nombre de la conexión.
 
@@ -57,7 +67,7 @@ Para obtener más información sobre el Administrador de actividades de creació
 
    {style="table-layout:auto"}
 
-## Ver la actividad de creación de informes de una sola conexión
+## Para una sola conexión
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Herramientas**] > [!UICONTROL **Administrador de actividades de creación de informes**].
 

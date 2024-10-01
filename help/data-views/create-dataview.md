@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f6b0088522a821a006d1c7fb4c55b4b2e11ff310
+source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 100%
+source-wordcount: '1832'
+ht-degree: 96%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 100%
 
 La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándares. La mayoría de los elementos de esquema pueden ser una dimensión o una métrica según los requisitos de la empresa. Una vez arrastrado un elemento de esquema a una vista de datos, las opciones aparecen a la derecha, donde puede ajustar el funcionamiento de la dimensión o métrica en Customer Journey Analytics.
 
-A continuación se muestra un vídeo sobre este tema:
++++ Vea un vídeo para ilustrar las vistas de datos en Customer Journey Analytics
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
+
++++
 
 Creación o edición de una vista de datos:
 
@@ -26,7 +28,17 @@ Creación o edición de una vista de datos:
 1. Para crear una vista de datos, seleccione **[!UICONTROL Crear nueva vista de datos]**. También puede seleccionar una vista de datos existente de la lista de vistas de datos para editarla.
 
 
-## Configuración
+## Configuración {#configure}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_externalid"
+>title="ID externo"
+>abstract="El cambio del ID externo puede afectar a la forma en que el nombre de la vista de datos aparece en fuentes externas, como las herramientas de inteligencia empresarial."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Para configurar una vista de datos nueva o existente, haga lo siguiente:
 
@@ -50,9 +62,20 @@ Proporciona una configuración general para la vista de datos.
 
 {style="table-layout:auto"}
 
-### Compatibilidad
+### Compatibilidad {#compatibility}
 
 {{release-limited-testing-section}}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_dataviewsinadobejourneyoptimizer"
+>title="Vistas de datos en Journey Optimizer"
+>abstract="Journey Optimizer necesita utilizar una vista de datos configurada con Customer Journey Analytics.<br/>Active esta opción para que sea la vista de datos predeterminada que se usa en los informes de Adobe Journey Optimizer."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="Qué componentes y conjuntos de datos se añaden."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Proporciona la configuración que se aplica al usar Adobe Journey Optimizer además de Customer Journey Analytics.
 

@@ -5,14 +5,60 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '3300'
-ht-degree: 99%
+source-wordcount: '3507'
+ht-degree: 97%
 
 ---
 
-# Crear o editar una conexión
+# Crear o editar una conexión {#create-or-edit-a-connection}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsadded"
+>title="Registros añadidos"
+>abstract="El número de registros (filas) agregados a una Conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsskipped"
+>title="Registros omitidos"
+>abstract="El número de registros (filas) omitidos durante la transferencia de datos para una Conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsdeleted"
+>title="Registros eliminados"
+>abstract="El número de registros (filas) eliminados de una conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_lastadded"
+>title="Última incorporación"
+>abstract="La marca de tiempo del último lote de cualquier conjunto de datos se ha transferido a una conexión."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_enablerollingdatawindow"
+>title="Habilitar la ventana de datos acumulados"
+>abstract="Defina la retención de datos como una ventana móvil en meses con respecto a la conexión."
+
+<!-- markdownlint-enable MD034 -->
+
 
 La experiencia de flujo de trabajo de creación y edición de conexiones reúne todos los ajustes de configuración del conjunto de datos y la conexión al centro de la pantalla con un flujo de trabajo de asistencia. Proporciona una experiencia detallada de selección, configuración y revisión de conjuntos de datos. Y permite especificar información crítica como el tipo de conjunto de datos, el tamaño, el esquema, el identificador del conjunto de datos, el estado del lote, el estado de relleno, los ID de persona y mucho más para reducir el riesgo de configurar incorrectamente la conexión. A continuación se muestra una descripción general de las funciones:
 
@@ -22,7 +68,11 @@ La experiencia de flujo de trabajo de creación y edición de conexiones reúne 
 * Puede editar conjuntos de datos, por ejemplo, para solicitar otro relleno.
 * Puede importar los datos existentes por conjunto de datos.
 
++++ Vídeo para ilustrar la creación y edición de una experiencia de conexión
+
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+
++++
 
 ## Requisitos previos
 
@@ -70,6 +120,42 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
    {style="table-layout:auto"}
 
 ## Agregar y configurar conjuntos de datos {#add-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_matchingkey"
+>title="Clave de correspondencia"
+>abstract="Seleccione un campo para unirse a uno de los conjuntos de datos de eventos. Si esta lista está vacía, probablemente no haya agregado ni configurado ningún conjunto de datos de eventos."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_importnewdata"
+>title="Importar datos nuevos"
+>abstract="Los lotes nuevos que se agreguen al conjunto de datos de Experience Platform se agregarán automáticamente a esta conexión y estarán disponibles para su análisis."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_datasetbackfill"
+>title="Relleno del conjunto de datos"
+>abstract="Esta opción rellenará los datos (históricos) existentes de Experience Platform para este conjunto de datos en la conexión."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_transformdataset"
+>title="Transformar conjunto de datos"
+>abstract="Esta opción transformará el conjunto de datos para que pueda utilizarse para búsquedas basadas en personas en escenarios B2B. Una vez activada, la transformación del conjunto de datos es irreversible."
+
+<!-- markdownlint-enable MD034 -->
 
 El nuevo flujo de trabajo permite agregar un conjunto de datos de Experience Platform al crear una conexión.
 

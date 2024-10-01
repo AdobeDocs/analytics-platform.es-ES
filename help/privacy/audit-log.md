@@ -4,14 +4,33 @@ description: Obtenga información sobre cómo ver y administrar registros de aud
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 65%
+source-wordcount: '837'
+ht-degree: 66%
 
 ---
 
-# Registros de auditoría
+# Registros de auditoría {#audit-logs}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_userid"
+>title="ID de usuario"
+>abstract="El ID de usuario se puede encontrar pulsando el botón de información en una entrada de registro donde aparezca el usuario en cuestión."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_componentid"
+>title="ID de componente"
+>abstract="El ID de componente se puede encontrar pulsando el botón de información en una entrada de registro que contenga el componente en cuestión."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, Adobe Customer Journey Analytics le permite auditar la actividad del usuario para varios servicios y funcionalidades en forma de &quot;registros de auditoría&quot;. Estos registros forman una pista de auditoría que puede ser útil en la resolución de problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Portability and Accountability Act).
 

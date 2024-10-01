@@ -4,20 +4,37 @@ title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 80%
+source-wordcount: '564'
+ht-degree: 69%
 
 ---
 
-# Información general del diccionario de datos
+# Información general del diccionario de datos {#data-dictionary-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_datadictionary"
+>title="Diccionario de datos"
+>abstract="El diccionario de datos ayuda tanto a los usuarios como a los administradores de y a realizar un seguimiento de los componentes de su entorno de Analytics y a entenderlos mejor. <br/>Los administradores de Analytics son responsables de revisar información acerca de cada componente del diccionario de datos para los usuarios."
+
+<!-- markdownlint-enable MD034 -->
+
 
 El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a seguir los componentes de su entorno de Analytics y a comprenderlos mejor.
 
 Los administradores de Analytics son responsables de seleccionar la información sobre cada componente en el Diccionario de datos para ponerla a disposición de los usuarios.
 
+
++++ Vea un vídeo para mostrar el diccionario de datos
+
 >[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
+
+{{videoaa}}
+
++++
 
 ## Ventajas para los usuarios
 
@@ -57,16 +74,14 @@ A continuación se indican algunas de las formas en que los administradores de A
 
 Puede acceder al diccionario de datos de cualquiera de las siguientes maneras en Analysis Workspace:
 
-* Desde el icono del **diccionario de datos** en el carril izquierdo.
+![Icono del diccionario de datos en el panel izquierdo](assets/data-dictionary-access.png)
 
-  ![Icono del diccionario de datos en el carril izquierdo](assets/data-dictionary-access-icon.png)
+* De ![Marcador](/help/assets/icons/Bookmark.svg) en el panel de botones.
 
-* Desde el icono del **diccionario de datos** dentro de la ventana emergente de información de un componente.
 
-  ![Icono del diccionario de datos en la ventana emergente de información](assets/data-dictionary-access-infopopover.png)
-  <!--update screenshot; this was taken from a mock-->
 
-* Desde el menú: [!UICONTROL **Ayuda**] > [!UICONTROL **Diccionario de datos**].
+* De ![Marcador](/help/assets/icons/Bookmark.svg) en la ventana emergente de información de un componente.
+
 
 Para obtener información detallada sobre las distintas opciones disponibles en el diccionario de datos, consulte [Ver información del componente en el diccionario de datos](/help/components/data-dictionary/view-data-dictionary.md).
 

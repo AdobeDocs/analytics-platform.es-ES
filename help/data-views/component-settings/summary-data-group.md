@@ -4,14 +4,25 @@ description: Detalles y configuración de dimensiones de conjuntos de datos para
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cba5904191b0602557903b5b9f32a2b793c8207d
+exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 9%
+source-wordcount: '343'
+ht-degree: 17%
 
 ---
 
-# [!UICONTROL Configuración del componente del grupo de datos de resumen]
+# [!UICONTROL Configuración del componente del grupo de datos de resumen] {#summary-data-group-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_summarydatagroup"
+>title="Grupo de datos de resumen"
+>abstract="Un grupo de datos resumidos crea una asociación entre todas las dimensiones de la agrupación y se utiliza para combinar dimensiones de conjuntos de datos resumidos con otras dimensiones para la creación de informes."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Un grupo de datos resumidos crea una asociación entre todas las dimensiones de la agrupación y se utiliza para combinar dimensiones de conjuntos de datos resumidos con otras dimensiones para la creación de informes.
 
@@ -40,5 +51,3 @@ Es posible que los valores de `tracking_code` se muestren como diferentes de `ca
 >
 >Asegúrese de realizar la agrupación de dimensiones solo desde una dimensión y no aplique la agrupación desde varias dimensiones. Por ejemplo, si crea una agrupación agregando la dimensión `campaign_name` a la dimensión `tracking_code`, no cree también una agrupación para la dimensión `campaign_name`.
 >
-
-

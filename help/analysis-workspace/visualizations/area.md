@@ -4,27 +4,56 @@ title: Área y área apilada
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 75%
+source-wordcount: '168'
+ht-degree: 17%
 
 ---
 
 # Área y área apilada
 
-## Área {#Area}
+## Área {#area}
 
-Esta visualización de es similar a un gráfico de líneas, pero incluye una zona coloreada bajo la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas.
+<!-- markdownlint-disable MD034 -->
 
-![Visualización de área que muestra varias métricas, incluidas Vistas de página, Visitas, Visitantes únicos y Tasa de devoluciones.](assets/area.png)
+>[!CONTEXTUALHELP]
+>id="cja_workspace_area_button"
+>title="Gráfico de áreas"
+>abstract="Cree una visualización de gráfico de áreas para representar la intersección de varias métricas."
 
-## Área apilada {#stacked}
+<!-- markdownlint-enable MD034 -->
 
-Esta visualización es similar a un gráfico de áreas, pero cada serie comienza en la parte superior de la serie anterior.
+
+La visualización ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** es similar a un gráfico de líneas, pero incluye un área coloreada bajo la línea. Añada un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas.
+
+![Visualización de área que muestra varias métricas](assets/area.png)
+
+## Área apilada {#area-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_areastacked_button"
+>title="Área apilada"
+>abstract="Crea una visualización de gráfico de áreas para representar el apilamiento de varias métricas."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
+
+La visualización ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Área apilada]** es como un área, pero cada serie comienza en la parte superior de la serie anterior.
 
 ![Área apilada que muestra cada serie en la parte superior de la serie anterior.](assets/area-stacked.png)
 
-Una nueva configuración en las visualizaciones de áreas apiladas convierte el gráfico en una visualización apilada al 100 %.
+Use la opción **[!UICONTROL 100% apilado]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100%.
 
-![Área apilada que muestra una visualización apilada al 100%.](assets/areastacked100.png)
+![Área apilada que muestra una visualización apilada al 100%.](assets/area-stacked100.png)
+
+>[!MORELIKETHIS]
+>
+>[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

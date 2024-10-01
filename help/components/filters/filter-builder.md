@@ -4,141 +4,207 @@ title: Generar filtros
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: e1f1e37293f1a18616b11fea685d372ec499c407
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 20%
+source-wordcount: '1450'
+ht-degree: 4%
 
 ---
 
-# Generador de filtros
+# Generar filtros {#build-filters}
 
-El [!UICONTROL Generador de filtros] le permite generar filtros simples o complejos que identifican atributos y acciones de personas en visitas y eventos. Proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los eventos u otros filtros para filtrar a las personas en función de la lógica, las reglas y los operadores de la jerarquía.
+<!-- markdownlint-disable MD034 -->
 
-Para obtener información sobre cómo crear filtros rápidos que se apliquen solamente al proyecto donde se crearon, consulte [Filtros rápidos](/help/components/filters/quick-filters.md).
+>[!CONTEXTUALHELP]
+>id="cja_components_filters_createaudience"
+>title="Crear audiencia"
+>abstract="Las audiencias se pueden crear a partir de un filtro y compartir con Adobe Experience Platform para su activación."
 
-## Acceso al Generador de filtros
+<!-- markdownlint-enable MD034 -->
 
-Puede acceder al Generador de filtros de cualquiera de las siguientes maneras:
 
-* **Navegación superior**: Haga clic en **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Filtros]**.
-* **[!UICONTROL Analysis Workspace]**: Con un proyecto abierto en Analysis Workspace, seleccione **[!UICONTROL + Componentes]** > **[!UICONTROL Crear filtro]**.
-* **[!UICONTROL Report Builder]**: [Trabaje con filtros en el Report Builder](/help/report-builder/work-with-filters.md).
+El cuadro de diálogo **[!UICONTROL Generador de filtros]** se usa para crear filtros nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo filtro]** o **[!UICONTROL Editar filtro]** para los filtros que crea o administra desde el administrador de [[!UICONTROL Filtros]](/help/components/filters/manage-filters.md).
 
-## Resumen de criterios del generador {#section_F61C4268A5974C788629399ADE1E6E7C}
+>[!BEGINTABS]
 
-Puede agregar definiciones de reglas y contenedores para definir los filtros. (Para obtener información sobre el acceso al Generador de filtros, consulte [Acceso al Generador de filtros](#access-the-filter-builder)).
+>[!TAB Generador de filtros]
 
-![Generador de filtros que muestra las nuevas opciones de filtros descritas en esta sección.](assets/segment_builder_ui_2.png)
+![Ventana de detalles del filtro que muestra los campos y las opciones descritos en la sección siguiente.](assets/filter-builder.png)
 
-| Elemento de la IU | Descripción |
-| --- | --- |
-| **[!UICONTROL Título]** | Asigne un nombre al filtro |
-| **[!UICONTROL Descripción]** | Proporcione una descripción detallada para el filtro. |
-| **[!UICONTROL Etiquetas]** | [Etiquete el filtro](/help/components/filters/manage-filters.md) que está creando eligiendo de una lista de etiquetas existentes o creando una etiqueta nueva. |
-| **[!UICONTROL Definiciones]** | Aquí es donde [genera y configura filtros](/help/components/filters/filters-overview.md), agrega reglas y anida y secuencie contenedores. |
-| **[!UICONTROL Inclusión]** | (Selector de contenedor superior). Le permite seleccionar el [contenedor](/help/components/filters/filters-overview.md) de nivel superior ([!UICONTROL Persona], [!UICONTROL Sesión], [!UICONTROL Evento]). El contenedor de nivel superior predeterminado es el contenedor Evento. |
-| **[!UICONTROL Opciones]** | Icono (engranaje) | <ul><li>**[!UICONTROL + Agregar contenedor]**: le permite agregar un nuevo contenedor (debajo del contenedor de nivel superior) a la definición del filtro.</li><li>**[!UICONTROL Excluir]**: permite definir el filtro excluyendo una o más dimensiones, filtros o métricas.</li></ul> |
-| **[!UICONTROL Dimensiones]** | Los componentes se arrastran y sueltan desde la lista Dimension (barra lateral naranja). |
-| **[!UICONTROL Operador]** | Puede comparar y restringir valores utilizando una selección de operadores. (es igual a, no es igual a, contiene, contiene todo, etc.) |
-| **[!UICONTROL Valor]** | El valor introducido o seleccionado para la dimensión, el filtro o la métrica. |
-| **[!UICONTROL Modelos de atribución]** | Disponible solo para dimensiones, estos modelos determinan qué valores de una dimensión se filtran. Los modelos de Dimension son especialmente útiles en filtros secuenciales.<ul><li>**[!UICONTROL Repetido]** (por defecto): Incluye instancias y valores persistentes para la dimensión.</li><li>**[!UICONTROL Instancia]**: Incluye instancias para la dimensión.</li><li>**[!UICONTROL Instancia no repetida]**: Incluye instancias únicas (no repetitivas) para la dimensión. Este es el modelo aplicado en Flujo cuando se excluyen instancias repetidas.</li></ul>Para ver un ejemplo, consulte la sección &quot;Modelos de atribución&quot; a continuación. |
-| **[!UICONTROL Y/O/Entonces]** | Asigna los operadores [!UICONTROL Y/O/ENTONCES] entre contenedores o reglas. El operador THEN le permite [definir filtros secuenciales](/help/components/filters/filters-overview.md). |
-| **[!UICONTROL Métrica]** | (Barra lateral verde) Métrica que se arrastró y soltó desde la lista Métricas. |
-| **[!UICONTROL X]** | (Eliminar) Permite eliminar esta parte de la definición del filtro. |
-| **[!UICONTROL Crear audiencia a partir del filtro]** | La creación de una audiencia a partir de un filtro le permite compartir el filtro con Adobe Experience Platform para su activación. [Más información...](/help/components/audiences/audiences-overview.md) |
-| **[!UICONTROL Componente de búsqueda]** | Busca en la lista de dimensiones, filtros o métricas. |
-| **[!UICONTROL Dimensiones]** | (Lista) La lista de dimensiones que se pueden incluir en el filtro. Haga clic en el encabezado para ampliarlo. |
-| **[!UICONTROL Métricas]** | La lista de métricas que puede incluir en el filtro. Haga clic en el encabezado para ampliarlo. |
-| **[!UICONTROL Filtros]** | La lista de filtros existentes que puede incluir en el filtro. Haga clic en el encabezado para ampliarlo. |
-| **[!UICONTROL Selector de vista de datos]** | Permite seleccionar el grupo de informes en el que se guardará este filtro. Puede seguir utilizando el filtro en todas las vistas de datos. |
-| **[!UICONTROL Vista previa de filtro]** | Permite obtener una vista previa de las métricas clave para ver si tiene un filtro válido y su amplitud. Representa el desglose del conjunto de datos que verá si aplica este filtro. Muestra tres círculos concéntricos y una lista para indicar el número y el porcentaje de coincidencias de [!UICONTROL Personas], [!UICONTROL Sesiones] y [!UICONTROL Informes ejecutados] para un filtro ejecutado en un conjunto de datos.<p>Este gráfico se actualiza inmediatamente después de crear o realizar cambios en la definición del filtro. |
-| **[!UICONTROL Guardar]** o **[!UICONTROL Cancelar]** | Guarda o cancela el filtro. Después de hacer clic en **[!UICONTROL Guardar]**, se le redirigirá al Administrador de filtros, donde podrá administrar el filtro. |
+>[!TAB Crear o editar filtro]
 
-## Creación de un filtro {#build-filters}
+![Ventana de detalles del filtro que muestra los campos y las opciones descritos en la sección siguiente.](assets/create-edit-filter.png)
 
-1. Basta con arrastrar un Dimension, un filtro o un evento de métrica del panel izquierdo al campo [!UICONTROL Definiciones].
+>[!ENDTABS]
 
-   ![](assets/drag_n_drop_dimension.png)
+1. Especifique los siguientes detalles (![Necesario](/help/assets/icons/Required.svg) es obligatorio):
 
-1. Establezca el [operador](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=es) en el menú desplegable.
-1. Introduzca o seleccione un valor para el elemento seleccionado.
-1. Agregue contenedores adicionales si es necesario, utilizando las reglas **[!UICONTROL AND]**, **[!UICONTROL OR]** o **[!UICONTROL THEN]**.
-1. Después de colocar los contenedores y configurar las reglas, consulte los resultados del filtro en la tabla de validación, en la parte superior derecha. El validador indica el porcentaje y el número absoluto de vistas de página, visitas y personas únicas que coinciden con el filtro que ha creado.
-1. En **[!UICONTROL Etiquetas]**, [etiqueta](/help/components/filters/filters-tag.md) el contenedor seleccionando una etiqueta existente o creando una nueva.
-1. Haga clic en **[!UICONTROL Guardar]** para guardar el filtro.
+   | Elemento | Descripción |
+   | --- | --- |
+   | **[!UICONTROL Vista de datos]** | Puede seleccionar la vista de datos para el filtro.  El filtro que defina estará disponible como filtro en la ficha [Configuración](/help/data-views/create-dataview.md#settings-filters) de una vista de datos. |
+   | **[!UICONTROL Filtro solo de proyecto]** | Un cuadro de información para explicar que el filtro solo está visible en el proyecto en el que se crea y que el filtro no se agregará a la lista de componentes. Habilite **[!UICONTROL Ponga este filtro a disposición de todos sus proyectos y agréguelo a la lista de componentes]** para cambiar esa configuración. Este cuadro de información solo está visible cuando crea un [filtro rápido](quick-filters.md) y convierte la información de filtro rápido en un filtro normal mediante **[!UICONTROL Abrir generador]** desde la interfaz de [!UICONTROL Filtro rápido]. |
+   | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre al filtro, por ejemplo, `Last month mobile customers`. |
+   | **[!UICONTROL Descripción]** | Proporcione una descripción para el filtro, por ejemplo, `Filter to define the mobile customers for the last month`. |
+   | **[!UICONTROL Etiquetas]** | Organice el filtro creando o aplicando una o más etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O presione **[!UICONTROL ENTRAR]** para agregar una etiqueta nueva. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
+   | **[!UICONTROL Definición]** ![Requerida](/help/assets/icons/Required.svg) | Defina su filtro con el [generador de definiciones](#definition-builder). |
 
-   Se le redirigirá al [administrador de filtros](/help/components/filters/manage-filters.md), donde podrá etiquetar, compartir y administrar el filtro de varias formas.
+   {style="table-layout:auto"}
 
-## Añadir contenedores {#containers}
+1. Para comprobar si la definición del filtro es correcta, utilice la previsualización constantemente actualizada de los resultados del filtro en la parte superior derecha.
+1. Para crear una audiencia a partir del filtro y compartirla con el Experience Platform, selecciona **[!UICONTROL Crear audiencia a partir del filtro]**. Consulte [Crear y publicar audiencias](/help/components/audiences/publish.md) para obtener más información.
+1. Seleccionar:
+   * **[!UICONTROL Guardar]** para guardar el filtro.
+   * **[!UICONTROL Guardar como]** para guardar una copia del filtro.
+   * **[!UICONTROL Eliminar]** para eliminar el filtro.
+   * **[!UICONTROL Cancelar]** para cancelar los cambios realizados en el filtro o para cancelar la creación de un nuevo filtro.
 
-Puede [generar un marco de contenedores](/help/components/filters/filters-overview.md) y luego colocar reglas lógicas y operadores entre medias.
 
-1. Haga clic en **[!UICONTROL Opciones > Agregar contenedor]**.
+## Generador de definiciones
 
-   Se abre un nuevo contenedor [!UICONTROL **Event**] sin que se haya identificado [!UICONTROL **Event**] (Page View).
+Utilice el Generador de definiciones para crear la definición del filtro. En esa construcción, se utilizan componentes, contenedores, operadores y lógica.
 
-   ![](assets/new_container.png)
+Puede configurar el tipo y el ámbito de la definición:
 
-1. Cambie el tipo de contenedor según sea necesario.
-1. Arrastre un Dimension, un filtro o un evento desde el panel izquierdo al contenedor.
-1. Siga agregando nuevos contenedores desde el botón **[!UICONTROL Opciones]** > **[!UICONTROL Agregar contenedor]** del nivel superior situado en la parte superior de la definición, o agregue contenedores desde dentro de un contenedor para anidar la lógica.
+1. Para especificar el tipo de definición, especifique si desea que la generación incluya o excluya una definición. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]** y en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]**.
+1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Evento]**, **[!UICONTROL Sesión]** o **[!UICONTROL Persona]**.
 
-   **OR**
+Siempre puede cambiar esta configuración más adelante.
 
-   Seleccione una o más reglas y luego haga clic en **[!UICONTROL Opciones]** > **[!UICONTROL Agregar contenedor de selección]**. Esto convierte su selección en un contenedor separado.
+### Componentes
 
-## Usar intervalos de fechas {#date-ranges}
+Una parte vital de la creación de la definición del filtro es el uso de dimensiones, métricas, filtros existentes e intervalos de fechas. Todos estos componentes están disponibles en el panel de componentes del Generador de filtros.
 
-Puede generar filtros que contengan intervalos de fechas móviles para responder a preguntas sobre campañas o eventos en curso.
+![Empiece a crear una definición](assets/start-building-filter.gif){width=100%}
 
-Por ejemplo, puede crear fácilmente un filtro que incluya a &quot;todas las personas que hayan realizado una compra en los últimos 60 días&quot;.
+Para añadir un componente:
 
-Usted crea un contenedor de sesión y, dentro del mismo, agrega el intervalo de tiempo [!UICONTROL Últimos 60 días] y la métrica [!UICONTROL Pedidos es mayor o igual que 1], con un operador AND.
+1. Arrastre y suelte un componente del panel Componentes en **[!UICONTROL Arrastre y suelte las métricas, los filtros o los Dimension aquí]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+1. Especifique los detalles del componente. Por ejemplo, seleccione un valor de **[!UICONTROL Seleccionar valor]**. O introduzca un valor. El hecho de especificar uno o varios valores y cómo hacerlo dependen del componente y del operador.
+1. Si lo desea, modifique el operador predeterminado. Por ejemplo, de **[!UICONTROL igual a]** a **[!UICONTROL es igual a cualquiera de]**. Consulte [Operadores](operators.md) para obtener una descripción detallada de los operadores disponibles.
 
-Aquí tiene un vídeo sobre el uso de intervalos de fechas móviles en los filtros:
+Para editar un componente:
+
+* Seleccione un operador nuevo para el componente en el menú desplegable del operador.
+* Seleccione o especifique un valor diferente para el operador, si procede.
+* Si el tipo de componente es una dimensión, puede definir el modelo de atribución. Consulte [Modelo de atribución](#attribution-models) para obtener más información.
+
+Para eliminar un componente:
+
+* Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) en un componente.
+
+### Contenedores
+
+Puede agrupar varios componentes en uno o más contenedores y definir la lógica dentro de los contenedores y entre ellos. Los contenedores le permiten crear definiciones complejas para su filtro.
+
+![Agregar un contenedor](assets/add-container.gif){Width=100%}
+
+* Para agregar un contenedor, selecciona **[!UICONTROL Agregar contenedor]** de ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]**.
+* Para agregar un componente existente al contenedor, arrastre y suelte el componente en el contenedor.
+* Para agregar otro componente al contenedor, arrastre y suelte un componente del panel de componentes en el contenedor. Utilice la línea de inserción azul como guía.
+* Para agregar otro componente fuera del contenedor, arrastre y suelte un componente desde el panel del componente fuera del contenedor, pero dentro del contenedor de definición principal. Utilice la línea de inserción azul como guía.
+* Para modificar la lógica entre los componentes de un contenedor, entre contenedores o entre un contenedor y un componente, seleccione los **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** adecuados. Al seleccionar Entonces, convierta el filtro en un filtro secuencial. Consulte [Crear filtro secuencial](seg-sequential-build.md) para obtener más información.
+* Para cambiar el nivel de contenedor, seleccione ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Evento]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Sesión]** o ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Persona]**.
+
+Puede usar ![Setting](/help/assets/icons/Setting.svg) en un contenedor para las siguientes acciones:
+
+| Acción de contenedor | Descripción |
+|---|---|
+| **[!UICONTROL Agregar contenedor]** | Agregue un contenedor anidado al contenedor. |
+| **[!UICONTROL Exclusión]** | Excluya el resultado del contenedor en la definición del filtro. Una fina barra izquierda roja identifica un contenedor de exclusión. |
+| **[!UICONTROL Inclusión]** | Incluya el resultado del contenedor en la definición del filtro. Incluir es la opción predeterminada. Una delgada barra izquierda gris identifica un contenedor de inclusión. |
+| **[!UICONTROL Contenedor de nombres]** | Cambie el nombre del contenedor desde la descripción predeterminada. Escriba un nombre en el campo de texto. Si no proporciona ninguna entrada, se utiliza la descripción predeterminada. |
+| **[!UICONTROL Eliminar contenedor]** | Elimine el contenedor de la definición. |
+
+
+## Intervalos de fechas
+
+Puede generar filtros que contengan intervalos de fechas móviles. Por lo tanto, puede responder preguntas sobre campañas o eventos en curso. Por ejemplo, puede generar un filtro que incluya a *todas las personas que hayan realizado una compra en línea en los últimos 60 días*.
+
+![Filtro con intervalo de fechas móvil](assets/filter-rolling-date-range.gif)
+
++++ Aquí tiene un vídeo sobre el uso de intervalos de fechas móviles en los filtros
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
+{{videoaa}}
+
++++
+
 ## Apilado de filtros {#stack}
 
-El apilamiento de filtros funciona mediante la combinación de criterios en cada filtro utilizando un operador &quot;and&quot;, y luego aplicando los criterios combinados. Esto se puede hacer directamente en un proyecto de Workspace o en el Generador de filtros.
+Puede crear un filtro mediante filtros. Cuando utiliza filtros en un filtro, puede optimizarlo y reducir la complejidad.
 
-Por ejemplo, apilar un filtro &quot;usuarios de teléfonos móviles&quot; y un filtro &quot;geografía de Estados Unidos&quot; devolvería datos solo para usuarios de teléfonos móviles en Estados Unidos.
+Imagine que desea filtrar la combinación de tipo de dispositivo (2) y estados de EE. UU. (50). Puede crear 100 filtros, cada uno para la combinación única de tipo de dispositivo (teléfono móvil frente a tableta) y estado de EE. UU. Para obtener los usuarios de tabletas de California, debe utilizar uno de los 100 filtros:
 
-Piense en estos filtros como bloques de creación o módulos que puede incluir en una biblioteca de filtros para que los usuarios los utilicen como les parezca adecuado. De este modo, puede reducir drásticamente el número de filtros necesarios. Por ejemplo, supongamos que tiene 40 filtros:
+![Filtro simple para CA y tableta](assets/filter-ca-tablet-single.png)
 
-* 20 para usuarios de teléfonos móviles en diferentes países (EEUU_móvil, Alemania_móvil, Francia_móvil, Brasil_móvil, etc.).
-* 20 para usuarios de tabletas en diferentes países (EEUU_tableta, Alemania_tableta, Francia_tableta, Brasil_tableta, etc.).
+O bien, puede definir 52 filtros: 50 filtros para los estados de Estados Unidos, uno para el teléfono móvil y otro para la tableta. Y luego apilar los filtros para obtener los mismos resultados. Para obtener los usuarios de tabletas californianos, apilaría dos filtros:
 
-Al utilizar el apilamiento de filtros, puede reducir el recuento de filtros a 22 y apilarlos según sea necesario. Debe crear estos filtros:
+![Filtro apilado para CA y tableta](assets/filter-ca-tablet-stacked.png)
 
-* un filtro para usuarios móviles
-* un filtro para usuarios de tablet
-* 20 filtros para las diferentes regiones geográficas
 
->[!NOTE]
->
->Al apilar dos filtros, se unen de forma predeterminada con una instrucción AND. No es posible cambiarlo a una instrucción OR.
+## Atribución {#attribution}
 
-1. Vaya al Generador de filtros.
+<!-- markdownlint-disable MD034 -->
 
-1. Proporcione un título y una descripción para el filtro.
+>[!CONTEXTUALHELP]
+>id="cja_components_filters_attribution_repeating"
+>title="Repetido"
+>abstract="Incluye instancias y valores persistentes para la dimensión."
 
-1. Haga clic en **[!UICONTROL Mostrar filtros]** para que aparezca la lista de filtros en el panel de navegación izquierdo.
+<!-- markdownlint-enable MD034 -->
 
-1. Arrastre los filtros que desee apilar al lienzo de definición del filtro.
+<!-- markdownlint-disable MD034 -->
 
-1. Seleccione [!UICONTROL **Guardar**].
+>[!CONTEXTUALHELP]
+>id="cja_components_filters_attribution_instance"
+>title="Instancia"
+>abstract="Incluye instancias y valores persistentes para la dimensión."
 
-## Modelos de atribución {#attribution}
+<!-- markdownlint-enable MD034 -->
 
-![](assets/attribution-models.jpg)
+<!-- markdownlint-disable MD034 -->
 
-**Ejemplo: Filtro de eventos donde eVar 1 = A**
+>[!CONTEXTUALHELP]
+>id="cja_components_filters_attribution_nonrepeatinginstance"
+>title="Instancia no repetida"
+>abstract="Incluye instancias únicas (no repetitivas) para la dimensión."
 
-| Ejemplo | A | A | A (persistió) | B | A | C |
-|---|---|---|---|---|---|---|
-| Repetido | X | X | X | - | X | - |
-| Instancia | X | X | - | - | X | - |
-| Instancia no repetida | X | - | - | - | X | - |
+<!-- markdownlint-enable MD034 -->
+
+
+
+Cuando se utiliza una dimensión en el Generador de filtros, se tienen las opciones para especificar el modelo de atribución para esa dimensión. El modelo de atribución que seleccione determina si los datos cumplen los requisitos para la condición especificada para el componente de dimensión.
+
+Seleccione ![Setting](/help/assets/icons/Setting.svg) dentro del componente de dimensión y seleccione uno de los modelos de atribución en la ventana emergente:
+
+| Modelos | Descripción |
+|---|---|
+| **[!UICONTROL Modelo repetitivo (predeterminado)]** | Incluya valores de instancia y persistentes para la dimensión para determinar la calificación. |
+| **[!UICONTROL Instancia]** | Incluya solo valores de instancia para la dimensión para determinar la calificación. |
+| **[!UICONTROL Instancia no repetida]** | Incluya valores de instancia únicos (no repetitivos) para la dimensión para determinar la calificación. |
+
+
+![Modelo de atribución en la dimensión al crear un filtro](assets/filter-dimension-attribution.png)
+
+### Ejemplo
+
+Como parte de una definición de filtro, ha especificado la siguiente condición: Nombre de página es igual a Mujeres. Similar al ejemplo anterior. Repita esta definición de filtro con los otros dos modelos de atribución. Por lo tanto, tiene tres filtros, cada uno con su propio modelo de atribución:
+
+* Página Mujer - Atribución - Repetición (predeterminada)
+* Página de mujeres - Atribución - Instancia
+* Página Mujeres - Atribución - Instancia no repetida
+
+
+La tabla siguiente explica, para cada modelo de atribución, qué eventos entrantes se clasifican como ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) para esa condición.
+
+
+| Página de mujeres - Atribución - <br/>*modelo de atribución* | Evento 1:<br/>Nombre de página igual a<br/>Mujeres | Evento 2:<br/>Nombre de página igual a<br/>Hombres | Evento 3:<br/>Nombre de página igual a<br/>Mujer | Evento 4:<br/>Nombre de página igual a<br/>Mujer<br/>(persistió) | Evento 5:<br/>Nombre de página igual a<br/>Cierre de compra | Evento 6:<br/>Nombre de página igual a<br/>Mujeres | Evento 7:<br/>Nombre de página igual a<br/>Inicio |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
+| Repetido (predeterminado) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) |
+| Instancia | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) |
+| Instancia no repetida | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) |
+
+Un informe de ejemplo sobre los eventos que utilizan los tres filtros tiene este aspecto:
+
+![Filtrar resultados del modelo de atribución](assets/filter-dimension-attribution-results.png)

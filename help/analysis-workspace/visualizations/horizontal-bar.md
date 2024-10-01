@@ -4,27 +4,56 @@ title: Barras horizontales y barras horizontales apiladas
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 68%
+source-wordcount: '153'
+ht-degree: 12%
 
 ---
 
 # Barras horizontales y barras horizontales apiladas
 
-## Barra horizontal {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
+## Barra horizontal {#horizontal-bar}
 
-Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas.
+<!-- markdownlint-disable MD034 -->
 
-![Barra horizontal que muestra métricas como Vistas de página, Velocidad de página, Visitas, Entradas y Salidas.](assets/horizontal_bar.png)
+>[!CONTEXTUALHELP]
+>id="cja_workspace_horizontalbar_button"
+>title="Barra horizontal"
+>abstract="Cree una visualización de barras horizontales para representar varios valores en una o varias métricas."
 
-## Barras horizontales apiladas {#section_50C08E9E20A94024A6553BC352ADB597}
+<!-- markdownlint-enable MD034 -->
 
-Esta visualización es similar al [!UICONTROL gráfico de barras horizontales], pero las barras de series aparecen apiladas.
+
+Esta visualización de ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** muestra barras horizontales que representan varios valores en una o más métricas.
+
+![Barra horizontal que muestra métricas como Vistas de página, Velocidad de página, Visitas, Entradas y Salidas.](assets/horizontal-bar.png)
+
+## Barra horizontal apilada {#horizontal-bar-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_horizontalbarstacked_button"
+>title="Barra horizontal apilada"
+>abstract="Cree una visualización de barras horizontales para representar varios valores en una o varias métricas apiladas."
+
+<!-- markdownlint-enable MD034 -->
+
+
+La visualización ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL Barra horizontal apilada]** es como la [!UICONTROL Barra horizontal], pero las barras de serie aparecen apiladas.
 
 ![Barra horizontal apilada que muestra vistas de página, visitas, entradas y salidas.](assets/horizontal-bar-stacked.png)
 
-Una nueva configuración en las visualizaciones de [!UICONTROL barras apiladas horizontales] convierte el gráfico en una visualización apilada al 100%:
+Use la opción **[!UICONTROL 100% apilado]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100%.
 
-![Barra horizontal apilada al 100% que muestra visitas, vistas de páginas y visitantes únicos.](assets/horizstacked100.png)
+![Barra horizontal apilada al 100%](assets/horizontal-bar-stacked100.png)
+
+
+>[!MORELIKETHIS]
+>
+>[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

@@ -4,14 +4,34 @@ title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 29%
+source-wordcount: '2169'
+ht-degree: 23%
 
 ---
 
-# Panel Experimentación
+# Panel Experimentación {#experimentation-panel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_experimentation_button"
+>title="Experimentación"
+>abstract="Cree un panel para comparar diferentes variaciones de experiencias de usuario, marketing o mensajería. Y determinar qué variación es la mejor para impulsar un resultado específico."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_experimentation_panel"
+>title="Experimentación"
+>abstract="Compare diferentes variaciones de experiencias de usuario, marketing o mensajería para determinar cuál es la mejor manera de impulsar un resultado específico.<br/><br/>**Parámetros **<br/>**Experimento**: El experimento que se analizará.<br>**Variante de control**: variante de control del experimento seleccionado.<br/>**Métrica de éxito**: Hasta 5 métricas de éxito estándar (no calculadas) con las que analizar el experimento.<br/>**Métrica de normalización**: Personas, sesiones o eventos. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. Esta métrica también afecta a la forma en que se agregan los datos antes de que se aplique el cálculo de confianza."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 El panel **[!UICONTROL Experimentación]** permite que los analistas comparen distintas variaciones de experiencia del usuario, marketing o mensajería para determinar cuál es la mejor opción a fin de obtener un resultado específico. Puede evaluar el alza y la confianza de cualquier experimento A/B desde cualquier plataforma de experimentación: en línea, sin conexión, desde soluciones de Adobe como Target o Journey Optimizer, e incluso sus propios datos.
 
@@ -19,60 +39,76 @@ Más información sobre la [integración entre Adobe Customer Journey Analytics 
 
 ## Control de acceso {#access}
 
-El panel Experimentación está disponible para su uso por parte de todos los usuarios de Customer Journey Analytics. No se requieren derechos de administrador ni otros permisos. Sin embargo, la configuración (pasos 1 y 2 a continuación) exige acciones que solo los administradores pueden realizar.
+El panel Experimentación está disponible para su uso por parte de todos los usuarios de Customer Journey Analytics. No se requieren derechos de administrador ni otros permisos. Sin embargo, los [requisitos previos](#prerequisites) requieren acciones que solo los administradores pueden realizar.
 
-## Nuevas funciones en las métricas calculadas {#functions}
+## Nuevas funciones en las métricas calculadas
 
-Se agregaron dos nuevas funciones avanzadas: [!UICONTROL Alza] y [!UICONTROL Confianza]. Para obtener más información, consulte [Referencia: funciones avanzadas](/help/components/calc-metrics/cm-adv-functions.md).
+Se agregaron dos nuevas funciones avanzadas: Alza y Confianza. Para obtener más información, consulte [Referencia: funciones avanzadas](/help/components/calc-metrics/cm-adv-functions.md).
 
-## Paso 1: Crear una conexión a conjuntos de datos del experimento {#connection}
+## Requisitos previos
+
+Para utilizar el panel de experimentación, asegúrese de seguir estos requisitos previos:
+
+### Crear conexión con conjuntos de datos del experimento
 
 El esquema de datos recomendado es que los datos del experimento estén en una [Matriz de objetos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) que contiene el experimento y los datos de variante en dos dimensiones independientes. Ambas dimensiones deben estar en una matriz de objetos **single**. Si tiene los datos del experimento en una sola dimensión (con datos de experimento y de variante en una cadena delimitada), puede usar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividir la dimensión en dos y usarla en el panel.
 
 Una vez que se hayan [ingerido](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) los datos del experimento en Adobe Experience Platform, [cree una conexión en Customer Journey Analytics](/help/connections/create-connection.md) a uno o más conjuntos de datos del experimento.
 
-## Paso 2: Añadir etiquetas de contexto en vistas de datos {#context-labels}
+### Agregar etiquetas de contexto en vistas de datos
 
 En la configuración de vistas de datos de Customer Journey Analytics, los administradores pueden agregar [etiquetas de contexto](/help/data-views/component-settings/overview.md) a una dimensión o métrica y los servicios de Customer Journey Analytics como el panel [!UICONTROL Experimentación] pueden usarlas para sus fines. Para el panel Experimentación se utilizan dos etiquetas predefinidas:
 
 * [!UICONTROL Experimento de experimentación]
 * [!UICONTROL Variante de experimento]
 
-En la vista de datos que contiene datos de experimentación, elija dos dimensiones, una con los datos de experimentación y otra con los de variante. A continuación, etiquete esas dimensiones con **[!UICONTROL Experimento]** y **[!UICONTROL Variante]**.
+En la vista de datos que contiene datos de experimentación, elija dos dimensiones, una con los datos de experimentación y otra con los de variante. Luego etiquete esas dimensiones con las etiquetas **[!UICONTROL Experimento de experimentación]** y **[!UICONTROL Variante de experimentación]**.
 
 ![Opciones de etiqueta de contexto para Experimentación y Variante de experimento.](assets/context-label.png)
 
 Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no hay experimentos con los que trabajar.
 
-## Paso 3: Configuración del panel Experimentación {#configure}
+## En su lugar, utilice 
 
-1. En Analysis Workspace en Customer Journey Analytics, añada el panel Experimentación a un proyecto. Para obtener más información sobre cómo agregar paneles a un proyecto, vea [Agregar paneles al proyecto](/help/analysis-workspace/build-workspace-project/create-projects.md#add-panels-to-the-project) en [Crear proyectos](/help/analysis-workspace/build-workspace-project/create-projects.md).
+Para usar un panel **[!UICONTROL Experimentación]**:
+
+1. Crear un panel de **[!UICONTROL Experimentación]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
+
+
+1. Especifique [input](#panel-input) para el panel.
+
+1. Observe la [salida](#panel-output) del panel.
 
    ![El panel Experimento se arrastró a un proyecto.](assets/experiment.png)
 
    >[!IMPORTANT]
    >
-   >Si no se ha completado la configuración necesaria en las vistas de datos del Customer Journey Analytics, recibirá este mensaje antes de continuar: &quot;[!UICONTROL Configure el experimento y las dimensiones de variante en las vistas de datos]&quot;.
+   >Si no se ha completado la configuración necesaria en las vistas de datos del Customer Journey Analytics, recibirá este mensaje antes de continuar: [!UICONTROL Configure el experimento y las dimensiones de variante en las vistas de datos].
    >
 
-1. Ajuste la configuración de entrada del panel.
+### Entrada de panel
+
+Para usar el panel Experimentación:
+
+1. Configure las opciones de entrada del panel:
 
    | Configuración | Definición |
    | --- | --- |
-   | **[!UICONTROL Experimento]** | Un conjunto de variaciones de una experiencia que se expusieron a los usuarios finales para determinar cuál es mejor mantener de forma perpetua. Un experimento está formado por dos o más variantes, una de las cuales se considera la de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con **[!UICONTROL Experimento]** en las vistas de datos y con los datos de los últimos tres meses del experimento. |
-   | **[!UICONTROL Variante de control]** | Una de las dos o más alteraciones en la experiencia de un usuario final que se comparan con el fin de identificar la mejor alternativa. Se debe seleccionar una variante como control, y solo una puede considerarse la de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con **[!UICONTROL Variante]** en las vistas de datos. Esta configuración extrae los datos de variante asociados con este experimento. |
-   | **[!UICONTROL Métricas de éxito]** | La métrica o métricas con las que un usuario compara variantes. La variante con el resultado más deseable para las métricas de conversión (ya sea la más alta o la más baja) se declara como la “variante con mejor rendimiento” de un experimento. Se pueden añadir hasta cinco filtros. <p>También se pueden utilizar métricas calculadas que cumplan los criterios necesarios. Para obtener más información, consulte [Usar métricas calculadas en el panel Experimentación](#use-calculated-metrics-in-the-experimentation-panel).</p> |
+   | **[!UICONTROL Intervalo de fecha]** | El intervalo de fechas del panel Experimentación se establece automáticamente, en función del primer evento recibido en Customer Journey Analytics para el experimento seleccionado. Puede restringir o expandir el intervalo de fecha a un periodo de tiempo más específico si es necesario. |
+   | **[!UICONTROL Experimento]** | Un conjunto de variaciones de una experiencia que se expusieron a los usuarios finales para determinar cuál es mejor mantener de forma perpetua. Un experimento está formado por dos o más variantes, una de las cuales se considera la de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con la etiqueta **[!UICONTROL Experimento]** en las vistas de datos y con los datos de los últimos tres meses del experimento. |
+   | **[!UICONTROL Variante de control]** | Una de las dos o más alteraciones en la experiencia de un usuario final que se comparan con el fin de identificar la mejor alternativa. Se debe seleccionar una variante como control, y solo una puede considerarse la de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con la etiqueta **[!UICONTROL Variant]** en las vistas de datos. Esta configuración extrae los datos de variante asociados con este experimento. |
+   | **[!UICONTROL Métricas de éxito]** | La métrica o métricas con las que un usuario compara variantes. La variante con el resultado más deseable para las métricas de conversión (ya sea la más alta o la más baja) se declara como la “variante con mejor rendimiento” de un experimento. Se pueden añadir hasta cinco filtros. |
    | **[!UICONTROL Métrica de normalización]** | La base ([!UICONTROL Personas], [!UICONTROL Sesiones] o [!UICONTROL Eventos]) en la que se ejecuta una prueba. Por ejemplo, una prueba puede comparar las tasas de conversión de varias variaciones en las que **[!UICONTROL Tasa de conversión]** se calcula como **[!UICONTROL Conversiones por sesión]** o **[!UICONTROL Conversiones por persona]**. |
-   | [!UICONTROL **Incluir límites superior/inferior de confianza**] |  |
-   | **[!UICONTROL Intervalo de fecha]** | El intervalo de fechas se establece automáticamente, en función del primer evento recibido en Customer Journey Analytics para el experimento seleccionado. Puede restringir o expandir el intervalo de fecha a un periodo de tiempo más específico si es necesario. |
+   | **[!UICONTROL Incluir límites superior/inferior de confianza]** | Active esta opción para mostrar los límites superior e inferior de los niveles de confianza. |
+
 
 1. Seleccione **[!UICONTROL Generar]**.
 
-## Paso 4: Ver el resultado del panel {#view}
+### Salida de panel
 
 El panel Experimentación devuelve un completo conjunto de datos y visualizaciones para ayudarle a comprender mejor el rendimiento de sus experimentos. En la parte superior del panel, se proporciona una línea de resumen para recordarle la configuración del panel seleccionada. En cualquier momento, puede editar el panel seleccionando el lápiz de edición en la parte superior derecha.
 
-También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. La conclusión se basa en la relevancia estadística. (Consulte Metodología estadística más adelante). Puede ver los números de resúmenes de la variante con mejor rendimiento, con el alza y la confianza más altas.
+También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. La conclusión se basa en la relevancia estadística (consulte [Metodología estadística](#adobes-statistical-methodology)). Puede ver los números de resúmenes de la variante con mejor rendimiento, con el alza y la confianza más altas.
 
 Para cada métrica de éxito seleccionada, se muestra una tabla de forma libre y una tendencia de tasa de conversión.
 
@@ -86,17 +122,17 @@ El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL
 >
 >Actualmente, este panel no admite el análisis de pruebas A/A.
 
-## Paso 5: Interpretar los resultados {#interpret}
+#### Interpretación de los resultados
 
-1. **El experimento es concluyente**: cada vez que visualiza el informe de experimentación, se analizan los datos que se han acumulado en el experimento hasta este momento. Y declara que un experimento es &quot;concluyente&quot; cuando la confianza válida en cualquier momento cruza el umbral del 95 % para *al menos una* de las variantes (con una corrección de Benjamini-Hochberg aplicada cuando hay más de dos ramas, para corregir las pruebas de hipótesis múltiples).
+1. **El experimento es concluyente**: cada vez que visualiza el informe de experimentación, se analizan los datos que se han acumulado en el experimento hasta este momento. El análisis declara que un experimento es concluyente cuando la confianza válida en cualquier momento cruza el umbral del 95 % para *al menos una* de las variantes. Con más de dos brazos, se aplica una corrección de Benjamini-Hochberg para corregir las pruebas de hipótesis múltiples.
 
-2. **Variante de mejor rendimiento**: cuando se declara que un experimento es concluyente, la variante con la tasa de conversión más alta se identifica como la “variante con mejor rendimiento”. Tenga en cuenta que esta variante debe ser la de control o de línea de base, o una de las variantes que cruce el umbral de confianza válida en cualquier momento del 95 % (con correcciones de Benjamini-Hochberg aplicadas).
+2. **Variante con mejor rendimiento**: cuando se declara que un experimento es concluyente, la variante con la tasa de conversión más alta se etiqueta como la variante con mejor rendimiento. Tenga en cuenta que esta variante debe ser la de control o de línea de base, o una de las variantes que cruce el umbral de confianza válida en cualquier momento del 95 % (con correcciones de Benjamini-Hochberg aplicadas).
 
 3. **Tasa de conversión**: La tasa de conversión que se muestra es una relación entre el valor de la métrica de éxito y el valor de la métrica de normalización. Tenga en cuenta que este valor a veces puede ser mayor que 1, si la métrica no es binaria (1 o 0 para cada unidad en el experimento)
 
 4. **Alza**: el resumen del informe de experimento muestra el alza sobre la línea de base, que es una medida de la mejora porcentual en la tasa de conversión de una variante determinada respecto a la línea de base. Definida con precisión, es la diferencia de rendimiento entre una variante determinada y la línea de base, dividida por el rendimiento de la línea de base, expresada como porcentaje.
 
-5. **Confianza**: La confianza válida en cualquier momento que se muestra es una medida probabilística de cuánta evidencia existe de que una variante determinada es la misma que la de control. Una mayor confianza indica menos evidencia para el supuesto de que la variante de control y la que no es de control tienen un rendimiento igual. Más precisamente, la confianza que se muestra es una probabilidad (expresada como porcentaje) de que habría observado una diferencia menor en las tasas de conversión entre una variante determinada y la de control, si en realidad no hay diferencia en las tasas de conversión subyacentes reales. En términos de valores *p*, la confianza mostrada es 1 - valor *p*.
+5. **Confianza**: La confianza válida en cualquier momento que se muestra es una medida probabilística de cuánta evidencia existe de que una variante determinada es la misma que la de control. Una mayor confianza indica menos evidencia para el supuesto de que la variante de control y la que no es de control tienen un rendimiento igual. La confianza es una probabilidad (expresada como porcentaje) de que habría observado una diferencia menor en las tasas de conversión entre una variante determinada y la de control. Aunque en realidad no hay diferencia en las tasas de conversión subyacentes reales. En términos de valores *p*, la confianza mostrada es 1 - valor *p*.
 
 >[!NOTE]
 >
@@ -106,21 +142,21 @@ El gráfico de [!UICONTROL líneas] le proporciona el rendimiento de [!UICONTROL
 
 A fin de facilitar la interpretación y la seguridad de la inferencia estadística, Adobe ha adoptado una metodología estadística basada en [Secuencias de confianza válidas en cualquier momento](https://arxiv.org/abs/2103.06476).
 
-Una secuencia de confianza es un análogo *secuencial* de un intervalo de confianza. Para comprender la secuencia de confianza, imagine que repite los experimentos cien veces y calcula una estimación de la métrica empresarial media (por ejemplo, la tasa de apertura de un correo electrónico) y su secuencia de confianza del 95 % asociada para *cada nuevo usuario* que entra en el experimento.
+Una secuencia de confianza es un análogo *secuencial* de un intervalo de confianza. Para entender qué es una secuencia de confianza, imaginemos que repiten sus experimentos cien veces. Y calcule una estimación de la métrica empresarial media (por ejemplo, la tasa de apertura de un correo electrónico) y su secuencia de confianza del 95 % asociada para *cada nuevo usuario* que entre en el experimento.
 
 Una secuencia de confianza del 95 % incluye el valor &quot;verdadero&quot; de la métrica empresarial en 95 de los 100 experimentos que ejecutó. (Un intervalo de confianza del 95 % solo se podía calcular una vez por experimento para dar la misma garantía de cobertura del 95 %; no con cada nuevo usuario). Por lo tanto, las secuencias de confianza le permiten monitorizar los experimentos continuamente, sin aumentar las tasas de error de los falsos positivos, es decir, permiten &quot;asomarse&quot; a los resultados.
 
 ## Interpretación de dimensiones no aleatorias {#non-randomized}
 
-El Customer Journey Analytics permite a los analistas seleccionar cualquier dimensión como &quot;experimento&quot;. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como experimento no es aquella para la que se aleatorizan las personas?
+El Customer Journey Analytics permite a los analistas seleccionar cualquier dimensión como experimento. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como experimento no es aquella para la que se aleatorizan las personas?
 
-Por ejemplo, considere un anuncio que vea una persona. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar las personas &quot;anuncio B&quot; en lugar de &quot;anuncio A&quot;. El efecto causal de mostrar el anuncio B en lugar del anuncio A es de importancia fundamental para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio en toda la población, si se sustituye el status quo de mostrar el anuncio A por la estrategia alternativa de mostrar el anuncio B.
+Por ejemplo, considere un anuncio que vea una persona. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar las personas *ad B* en lugar de *ad A*. El efecto causal de mostrar el anuncio B, en lugar del anuncio A, es de importancia central para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio en toda la población, si se sustituye el status quo de mostrar el anuncio A por la estrategia alternativa de mostrar el anuncio B.
 
 Las pruebas A/B son el estándar de oro dentro de la industria para medir de manera objetiva los efectos de este tipo de intervenciones. La razón crítica por la que una prueba A/B da lugar a una estimación causal se debe a la aleatorización de las personas para recibir una de las posibles variantes.
 
-Ahora, consideremos una dimensión que no se logra mediante la aleatorización, por ejemplo, el estado de EE. UU. de la persona. Digamos que las personas provienen principalmente de dos estados, Nueva York y California. Los ingresos promedio de las ventas de una marca de ropa de invierno pueden ser diferentes en los dos estados debido a las diferencias en el clima regional. En tal situación, el clima puede ser el verdadero factor causal detrás de las ventas de ropa de invierno, y no el hecho de que los estados geográficos de las personas son diferentes.
+Ahora, consideremos una dimensión que no se logra mediante la aleatorización, por ejemplo, el estado de EE. UU. de la persona. Las personas provienen principalmente de dos estados, Nueva York y California. Los ingresos promedio de las ventas de una marca de ropa de invierno pueden ser diferentes en los dos estados debido a las diferencias en el clima regional. En tal situación, el clima puede ser el verdadero factor causal detrás de las ventas de ropa de invierno, y no el hecho de que los estados geográficos de las personas son diferentes.
 
-El panel Experimentación en Customer Journey Analytics le permite analizar los datos como una diferencia de ingresos promedio por estados de las personas. En tal situación, el resultado no tiene una interpretación causal. Sin embargo, dicho análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos medios por estados de las personas.  Este valor también se denomina &quot;Prueba de hipótesis estadística&quot;. El resultado de este análisis puede ser interesante, pero no necesariamente procesable, ya que las personas no se han asignado aleatoriamente a uno de los valores posibles de la dimensión y, a veces, no se pueden asignar.
+El panel de experimentación en Customer Journey Analytics permite analizar los datos como una diferencia de ingresos promedio por estados de las personas. En tal situación, el resultado no tiene una interpretación causal. Sin embargo, dicho análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos medios por estados de las personas.  Este valor también se conoce como *Prueba de hipótesis estadística*. El resultado de este análisis puede ser interesante, pero no necesariamente procesable. Simplemente porque no ha aleatorizado y a veces no puede aleatorizar a las personas a uno de los valores posibles de la dimensión.
 
 La siguiente ilustración contrasta estas situaciones:
 

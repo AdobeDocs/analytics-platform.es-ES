@@ -1,21 +1,21 @@
 ---
 description: Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega.
 keywords: Analysis Workspace
-title: Envío de datos del Customer Journey Analytics a otras personas por correo electrónico
+title: Enviar informes a otras personas por correo electrónico
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 61%
+source-wordcount: '1034'
+ht-degree: 58%
 
 ---
 
-# Enviar datos del Customer Journey Analytics a otras personas por correo electrónico
+# Enviar archivos a otros usuarios
 
-Puede exportar informes de Customer Journey Analytics enviándolos a destinatarios seleccionados por correo electrónico. Puede enviar archivos ad hoc o configurar los archivos para que se envíen según una programación. Los archivos se pueden enviar en formato CSV o PDF.
+Puede enviar informes de Customer Journey Analytics como archivos a los usuarios seleccionados por correo electrónico. Puede enviar archivos ad hoc o configurar los archivos para que se envíen según una programación. Los archivos se pueden enviar en formato CSV o PDF.
 
 Todas las etiquetas aplicadas al proyecto se aplican automáticamente a la exportación.
 
@@ -56,7 +56,7 @@ Para enviar un archivo en una programación recurrente a los destinatarios por c
 
 Los proyectos programados de Analysis Workspace se pueden administrar en **[!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Proyectos programados]**.
 
-En el Administrador de proyectos programados, puede editar y eliminar la programación recurrente de proyectos. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro en el carril izquierdo. Puede filtrar por etiqueta, programaciones aprobadas, propietarios, etc.
+En el Administrador de proyectos programados, puede editar y eliminar la programación recurrente de proyectos. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro del panel izquierdo. Puede filtrar por etiqueta, programaciones aprobadas, propietarios, etc.
 
 | Campo | Descripción |
 | --- | --- |
@@ -78,14 +78,24 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 | **[!UICONTROL Editar programación]** | Haga clic en el título de la programación para actualizar su configuración de entrega. |
 | **[!UICONTROL Eliminar programación]** | Seleccione el proyecto programado en la lista y, a continuación, haga clic en Eliminar en el menú. Esto eliminará la programación seleccionada para el proyecto; el proyecto en sí no se eliminará. |
 | **[!UICONTROL Añadir etiquetas]** | Seleccione el proyecto programado en la lista y, a continuación, elija “Etiqueta” o “Aprobar” para organizar las programaciones y facilitar su búsqueda. |
-| **[!UICONTROL Ver las programaciones fallidas]** | Vaya al carril izquierdo > Otros filtros > No se han podido ver las programaciones que han fallado. |
-| **[!UICONTROL Ver las programaciones caducadas]** | Vaya al carril izquierdo > Otros filtros > Caducado para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de envío. |
+| **[!UICONTROL Ver las programaciones fallidas]** | Vaya al panel izquierdo > Otros filtros > No se han podido ver las programaciones que han fallado. |
+| **[!UICONTROL Ver las programaciones caducadas]** | Vaya al panel izquierdo > Otros filtros > Caducado para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de envío. |
 | **[!UICONTROL Ver el ID de programación]** | Vaya a las opciones de columna en la parte superior derecha y añada la columna ID de programación a la tabla. El ID de programación suele ser útil para la depuración. |
 
 El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta de usuario está desactivada en la aplicación, se detienen todos los envíos programados.
 Para obtener más información, consulte [Proyectos programados](/help/components/scheduled-projects-manager.md).
 
 ## Proteger un proyecto programado con contraseña {#password}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_sendfile_password"
+>title="Cifrado de contraseña"
+>abstract="La contraseña suministrada se utilizará para cifrar el archivo para el proyecto programado. Los requisitos de seguridad de su organización requieren cifrado de contraseña."
+
+<!-- markdownlint-enable MD034 -->
+
 
 >[!NOTE]
 >

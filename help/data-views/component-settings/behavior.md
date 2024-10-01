@@ -5,14 +5,24 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 90%
+source-wordcount: '340'
+ht-degree: 82%
 
 ---
 
-# Configuración de componentes de comportamiento
+# Configuración de componentes de comportamiento {#behavior-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_behavior"
+>title="Comportamiento"
+>abstract="Determine cómo se agregan los elementos de línea de esta dimensión.<br/><br/>**Parámetros **<br/>**Minúsculas**: Permite especificar si los valores de cadena del campo deben estar en minúsculas."
+
+<!-- markdownlint-enable MD034 -->
+
 
 La configuración de comportamiento está disponible tanto en dimensiones como en métricas. La disponibilidad de la configuración depende del tipo de componente y del tipo de datos de esquema.
 

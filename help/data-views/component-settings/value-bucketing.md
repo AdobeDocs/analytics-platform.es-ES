@@ -5,14 +5,24 @@ exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '208'
 ht-degree: 100%
 
 ---
 
-# Configuración del componente de [!UICONTROL agrupamiento de valores]
+# Configuración del componente de [!UICONTROL agrupamiento de valores] {#value-bucketing-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_valuebucketing"
+>title="Clasificación de valor"
+>abstract="Agrupe los valores en intervalos específicos. Estos intervalos aparecerán como elementos de dimensión en los informes."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Al crear o editar una vista de datos, la agrupación de valores permite combinar valores numéricos basados en un rango. Solo está disponible para dimensiones que utilizan tipos de datos de esquema entero o doble.
 
