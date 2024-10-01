@@ -3,16 +3,18 @@ title: Configuración de exclusión del uso del producto
 description: Administre la configuración de exclusión para usuarios individuales dentro de su organización.
 hide: true
 hidefromtoc: true
-source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
+source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 # Configuración de exclusión del uso del producto {#product-usage-opt-out-settings}
 
-La página _Configuración de exclusión_ le permite excluir o volver a incluir usuarios de su organización del seguimiento del uso de productos.
+{{release-limited-testing}}
+
+La página _Configuración de exclusión_ le permite excluir o volver a incluir usuarios de su organización del seguimiento del uso de productos. Solo están visibles para los administradores de productos.
 
 **Customer Journey Analytics** > **[!UICONTROL Herramientas]** > **[!UICONTROL Uso del producto]** > **[!UICONTROL Configuración de exclusión]**
 

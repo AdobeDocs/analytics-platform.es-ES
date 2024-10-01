@@ -3,7 +3,7 @@ title: Información general de uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
 hide: true
 hidefromtoc: true
-source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
+source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 7%
@@ -11,6 +11,8 @@ ht-degree: 7%
 ---
 
 # Información general de uso del producto
+
+{{release-limited-testing}}
 
 El uso del producto permite a su organización ver datos de análisis sobre cómo utiliza su organización Customer Journey Analytics. Está disponible para todas las organizaciones que utilizan Customer Journey Analytics. Una vez activados, los siguientes componentes de Adobe Experience Platform se crean y conectan automáticamente:
 
