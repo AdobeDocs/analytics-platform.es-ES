@@ -5,10 +5,10 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: cfc48aea3f474fedece022898f224ee68fb2b649
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 99%
+source-wordcount: '1435'
+ht-degree: 91%
 
 ---
 
@@ -20,19 +20,19 @@ Al igual que Analysis Workspace y los cuadros de resultados para móviles, el an
 
 Están disponibles las siguientes vistas de análisis guiado: 
 
-| Tipo de análisis | Ver tipo | Descripción |
-| --- | --- | --- |
-| [!UICONTROL Matriz de características] | [Participación](types/engagement.md) | Comprenda la amplitud y profundidad de la participación de la característica. |
-| [!UICONTROL Canal] | [Fricción](types/friction.md) | Compare las tasas de conversión entre pasos. |
-| [!UICONTROL Embudo] | [Tendencias de conversión](types/conversion-trends.md) | Haga un seguimiento de los cambios en las tasas de conversión a lo largo del tiempo. |
-| [!UICONTROL Impacto] | [Versión](types/release.md) | Compare el rendimiento en períodos iguales antes y después de la publicación. |
-| [!UICONTROL Impacto] | [Primer uso](types/first-use.md) | Mida el impacto del uso de funciones por primera vez en indicadores clave. |
-| [!UICONTROL Retención] | [Tasas de retención](types/retention-rates.md) | Mida los hábitos de retorno continuo de sus usuarios. |
-| [!UICONTROL Tendencias] | [Uso](types/usage.md) | Medir la participación del usuario a lo largo del tiempo. |
-| [!UICONTROL Tendencias] | [Frecuencia](types/frequency.md) | Mida la participación en función de la frecuencia de uso. |
-| [!UICONTROL Crecimiento de usuarios] | [Activo](types/active.md) | Identifique quién es nuevo, retenido, retornado o inactivo. |
-| [!UICONTROL Crecimiento de usuarios] | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
-| [!UICONTROL Flujo de usuarios] | [Cronología](types/timeline.md) | Explore patrones en la actividad de la sesión. |
+| Ver tipo | Descripción |
+| --- | --- |
+| [Participación](types/engagement.md) | Comprenda la amplitud y profundidad de la participación de la característica. |
+| [Fricción](types/friction.md) | Compare las tasas de conversión entre pasos. |
+| [Tendencias de conversión](types/conversion-trends.md) | Haga un seguimiento de los cambios en las tasas de conversión a lo largo del tiempo. |
+| [Versión](types/release.md) | Compare el rendimiento en períodos iguales antes y después de la publicación. |
+| [Primer uso](types/first-use.md) | Mida el impacto del uso de funciones por primera vez en indicadores clave. |
+| [Tasas de retención](types/retention-rates.md) | Mida los hábitos de retorno continuo de sus usuarios. |
+| [Uso](types/usage.md) | Medir la participación del usuario a lo largo del tiempo. |
+| [Frecuencia](types/frequency.md) | Mida la participación en función de la frecuencia de uso. |
+| [Activo](types/active.md) | Identifique quién es nuevo, retenido, retornado o inactivo. |
+| [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
+| [Cronología](types/timeline.md) | Explore patrones en la actividad de la sesión. |
 
 {style="table-layout:auto"}
 
@@ -40,15 +40,27 @@ Están disponibles las siguientes vistas de análisis guiado:
 
 Puede acceder al análisis guiado desde la página principal del Customer Journey Analytics.
 
-1. Haga clic en **[!UICONTROL Análisis guiado]** en la página de inicio, que le lleva directamente a la [vista de tendencias de uso](types/usage.md).
+1. Seleccione **[!UICONTROL Análisis guiado]** de la página principal, que lo lleva directamente a la [vista Tendencias de uso](types/usage.md).
 
    ![Mosaico de página de aterrizaje](assets/landing-page-tile.png){style="border:1px solid gray"}
 
-1. Haga clic en **[!UICONTROL Crear nuevo]** para ver las distintas opciones de vista y elegir un punto de partida diferente para el análisis.
+1. Seleccione **[!UICONTROL Crear nuevo]** para ver las diferentes opciones de vista y elegir un punto de partida diferente para su análisis.
 
    ![Creación de un nuevo modal](assets/create-new-modal.png){style="border:1px solid gray"}
 
-Si su organización aún no se ha aprovisionado para el análisis guiado, póngase en contacto con el equipo de cuentas de Adobe.
+También puede acceder al análisis guiado desde un proyecto de Analysis Workspace.
+
+1. Seleccione **[!UICONTROL Proyecto en blanco]** de la página principal para crear un proyecto de Workspace vacío.
+
+   ![Crear proyecto en blanco](assets/blank-project.png){style="border:1px solid gray"}
+
+1. Seleccione ![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg) **[!UICONTROL Análisis guiado]** en el carril izquierdo.
+
+   ![Carril izquierdo de Workspace](assets/workspace-left-rail.png){style="border:1px solid gray"}
+
+1. Arrastre cualquier tipo de vista al lienzo de Workspace y, a continuación, seleccione el botón **[!UICONTROL Crear]** para generar el análisis deseado. También puede arrastrar un análisis existente al lienzo de Workspace desde la sección **[!UICONTROL Guardado]**.
+
+   ![Crear panel](assets/create-panel.png)
 
 ## Interfaz
 

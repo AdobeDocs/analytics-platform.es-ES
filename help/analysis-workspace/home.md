@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: cfc48aea3f474fedece022898f224ee68fb2b649
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1493'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,6 @@ Analysis Workspace le permite generar análisis rápidamente para recopilar pers
 
 {{videoaa}}
 
-
 +++
 
 ## Interfaz
@@ -36,7 +35,7 @@ En la siguiente imagen y la tabla adjunta se explican los elementos principales 
 | Ubicación | Nombre y función |
 |:---------:|----------|
 | ?? | Contiene el nombre del proyecto, una estructura de menú para tener acceso a la funcionalidad, un botón ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) para volver a la lista de proyectos y un botón **[!UICONTROL Compartir]** para compartir el proyecto de Workspace. <br/>Seleccione el nombre del proyecto (por ejemplo: Proyecto de ejemplo) en cualquier momento para cambiarlo. <br/>Selecciona ![StarOutline](/help/assets/icons/StarOutline.svg) para agregar tu proyecto como favorito ![Star](/help/assets/icons/Star.svg). |
-| ?? | **Panel Botón:** Contiene botones para acceder a las [características](#features) clave de Analysis Workspace: ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Paneles]**, ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Visualizaciones]** y ![Depurar](/help/assets/icons/Curate.svg) **[!UICONTROL Componentes]** de su proyecto en Analysis Workspace. El panel también contiene un botón ![VerLista](/help/assets/icons/ViewList.svg) **[!UICONTROL Tabla de contenido]** y ![Marcador](/help/assets/icons/Bookmark.svg) **[!UICONTROL Diccionario de datos]** para abrir el diccionario de datos. |
+| ?? | **Panel de botones:** Contiene botones para acceder a las [características](#features) clave de Analysis Workspace:<br/>![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Paneles]**<br/>![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg)**[!UICONTROL  Análisis guiado]**<br/>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Visualizaciones]**<br/>![Depurar](/help/assets/icons/Curate.svg)**[!UICONTROL  Componentes]**<br/>![VerLista](/help/assets/icons/ViewList.svg) **[!UICONTROL Tabla de contenido]**<br/>![Marcador](/help/assets/icons/Bookmark.svg)**[!UICONTROL  Diccionario de datos ]**2} |
 | ?? | **Panel izquierdo:** Esta área contiene paneles, visualizaciones, componentes o listas individuales. El contenido depende del botón seleccionado en el panel de botones. |
 | ?? | **Lienzo:** Área principal donde arrastra contenido desde el panel izquierdo para generar el proyecto. El proyecto se actualiza dinámicamente a medida que se añaden paneles, visualizaciones a los paneles y componentes a las visualizaciones. Puede crear varios paneles y, dentro de cada panel, puede crear varias visualizaciones.<br/>Cada panel se basa en una vista de datos seleccionada. La vista de datos seleccionada determina los componentes disponibles, como las métricas y las dimensiones. Vea [Paneles - Vista de datos](/help/analysis-workspace/c-panels/panels.md#data-view) para obtener más información. |
 
@@ -46,11 +45,12 @@ Las funciones principales de Analysis Workspace están disponibles a través del
 
 | Icono | Función | Descripción |
 |:---:|---|---|
-| ![PáginaWeb](/help/assets/icons/WebPage.svg) | **[!UICONTROL Paneles]** | Los paneles se utilizan para organizar el análisis dentro de un proyecto y pueden contener muchas tablas y visualizaciones. Muchos de los paneles que se proporcionan en Analysis Workspace generan un conjunto completo de análisis basados en unas pocas entradas del usuario. En el panel Botón, seleccione ![WebPage](/help/assets/icons/WebPage.svg) para ver una lista completa de paneles disponibles.<br/>Para obtener más información acerca de los paneles, consulte [Información general sobre paneles](/help/analysis-workspace/c-panels/panels.md). |
-| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizaciones]** | Las visualizaciones, como una barra o un gráfico de líneas, se pueden utilizar para dar vida visualmente a los datos. En el panel del extremo izquierdo, seleccione el icono **[!UICONTROL Visualizaciones]** del medio para ver la lista completa de visualizaciones disponibles. <br/>Para obtener más información acerca de las visualizaciones, consulte [Información general sobre las visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
-| ![Depurar](/help/assets/icons/Curate.svg) | **[!UICONTROL Componentes]** | Los componentes de Analysis Workspace son los siguientes:<ul><li>![Dimension](/help/assets/icons/Dimensions.svg) [Dimension](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [Métricas](/help/components/apply-create-metrics.md)</li><li>![Segmentación](/help/assets/icons/Segmentation.svg) [Filtros](/help/components/filters/filters-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalos de fechas](/help/components/date-ranges/overview.md)</li></ul>Para obtener más información acerca de cada uno de estos tipos de componentes, vea la [Descripción general de los componentes](/help/components/overview.md). |
-| ![VerLista](/help/assets/icons/ViewList.svg) | **[!UICONTROL Tabla de contenido]** | La tabla de contenido organiza todos los paneles y visualizaciones en una lista contraíble, lo que le permite acceder rápidamente a un panel o visualización específicos. |
-| ![Marcador](/help/assets/icons/Bookmark.svg) | **Diccionario de datos** | El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a realizar un seguimiento y comprender mejor los componentes de su entorno de Analytics.<br/>Para obtener más información acerca del diccionario de datos, consulte la [descripción general del diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md). |
+| ![PáginaWeb](/help/assets/icons/WebPage.svg) | **[!UICONTROL Paneles]** | [Los paneles](/help/analysis-workspace/c-panels/panels.md) se utilizan para organizar el análisis dentro de un proyecto y pueden tener muchas tablas y visualizaciones. Muchos de los paneles que se proporcionan en Analysis Workspace generan un conjunto completo de análisis basados en unas pocas entradas del usuario. En el panel Botón, seleccione ![WebPage](/help/assets/icons/WebPage.svg) para ver una lista completa de paneles disponibles. |
+| ![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL Análisis guiado]** | El [análisis guiado](../guided-analysis/overview.md) le permite ofrecer datos de alta calidad y perspectivas sobre el recorrido del cliente a través de flujos de trabajo guiados. Puede crear un análisis para incluirlo en su proyecto de Workspace o incluir un análisis existente guardado anteriormente. |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizaciones]** | [Las visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), como un gráfico de barras o de líneas, se pueden usar para dar vida visualmente a los datos. En el panel del extremo izquierdo, seleccione el icono **[!UICONTROL Visualizaciones]** del medio para ver la lista completa de visualizaciones disponibles. |
+| ![Depurar](/help/assets/icons/Curate.svg) | **[!UICONTROL Componentes]** | [Los componentes](/help/components/overview.md) incluyen los siguientes elementos:<ul><li>![Dimension](/help/assets/icons/Dimensions.svg) [Dimension](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [Métricas](/help/components/apply-create-metrics.md)</li><li>![Segmentación](/help/assets/icons/Segmentation.svg) [Filtros](/help/components/filters/filters-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalos de fechas](/help/components/date-ranges/overview.md)</li></ul> |
+| ![VerLista](/help/assets/icons/ViewList.svg) | **[!UICONTROL Tabla de contenido]** | La tabla de contenido organiza todos los paneles y visualizaciones incluidos en el proyecto en una lista contraíble, lo que le permite acceder rápidamente a un panel o visualización específicos. |
+| ![Marcador](/help/assets/icons/Bookmark.svg) | **Diccionario de datos** | El [diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md) ayuda tanto a los usuarios como a los administradores a realizar un seguimiento de los componentes de su entorno de Analytics y a comprenderlos mejor. |
 
 
 ## Menú
