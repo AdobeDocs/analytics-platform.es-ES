@@ -3,9 +3,9 @@ description: Obtenga información sobre el tipo de métrica y la atribución
 title: Tipo de métrica y atribución
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '947'
 ht-degree: 23%
 
 ---
@@ -148,8 +148,8 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_custom"
->title="Deterioro de tiempo"
->abstract="Los valores de Dimension más cercanos en el tiempo a una conversión obtienen la mayor cantidad de crédito."
+>title="Personalizado"
+>abstract="Defina su propia ponderación de atribución basada en la posición."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -161,7 +161,6 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >abstract="El crédito se determina dinámicamente mediante un algoritmo estadístico."
 
 <!-- markdownlint-enable MD034 -->
-
 
 
 {{attribution-models-details}}

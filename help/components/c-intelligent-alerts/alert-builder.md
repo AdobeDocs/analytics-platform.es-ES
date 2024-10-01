@@ -3,14 +3,24 @@ description: Obtenga alertas cuando los componentes del proyecto alcancen cierto
 title: Creación de alertas (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '993'
 ht-degree: 19%
 
 ---
 
 # Creación de alertas {#create-alerts}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_alerts_timegranularity"
+>title="Granularidad de tiempo"
+>abstract="La granularidad de tiempo hace referencia a la frecuencia con la que se comprobará la alerta y a lo que se incluirá"
+
+<!-- markdownlint-enable MD034 -->
+
 
 >[!NOTE]
 >
