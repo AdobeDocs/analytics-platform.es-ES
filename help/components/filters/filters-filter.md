@@ -4,33 +4,53 @@ title: Filtrar la lista de filtros
 feature: Filters
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 30%
+source-wordcount: '177'
+ht-degree: 7%
 
 ---
 
 # Filtrar la lista de filtros
 
-Filtre la lista de filtros en el Administrador de filtros por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
+Puede filtrar la lista de filtros. El uso de un filtro en los filtros facilita la búsqueda de los filtros que están disponibles para usted y la administración de filtros desde el [Administrador de filtros](manage-filters.md).
 
-El filtrado facilita la búsqueda de filtros.
+>[!NOTE]
+>
+>La lista de filtros hace referencia a la [lista de filtros](manage-filters.md#filters-list) como parte de [Administrador de filtros](manage-filters.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [y parte de ese mismo [Administrador de filtros](manage-filters.md).](manage-filters.md#filter-panel)
+>
 
-1. En el Administrador de filtros, haga clic en el icono **[!UICONTROL Filtros]**: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![Administrador de filtros que muestra el icono Filtros y los filtros disponibles.](assets/filtering.png)
+Para filtrar la lista de filtros:
 
-2. Los filtros disponibles son los siguientes:
+1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesita más espacio para la lista Filtros, puede seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
+1. Seleccione filtros de cualquiera de las [secciones de filtros](#filter-sections) disponibles.
 
-   | Nombre del filtro | Descripción |
-   |---|---|
-   | Etiquetas | Le permite filtrar la lista de filtros con [etiquetas](/help/components/filters/filters-tag.md) específicas. La columna Etiquetas se muestra de manera predeterminada. |
-   | Propietarios | Permite filtrar la lista de filtros por propietario. |
-   | Vista de datos | Le permite filtrar por vista de datos. |
-   | Otros filtros > Mostrar todo | **(Solo administrador)** Muestra todos los filtros, su propietario y la última fecha de modificación. |
-   | Otros filtros > Míos | Muestra todos los filtros que posee. |
-   | Otros filtros > Compartidos conmigo | Muestra todos los filtros que otros [compartieron](/help/components/filters/filters-share.md) con usted. |
-   | Otros filtros > Favoritos | Muestra todos los filtros que ha marcado como [Favoritos](/help/components/filters/filters-favorite.md). |
-   | Otros filtros > Aprobados | Muestra todos los [segmentos aprobados](/help/components/filters/filters-approve.md) oficialmente. |
-   | Buscar segmentos | Le permite buscar segmentos por nombre. |
+   >[!INFO]
+   >
+   >*Elementos* hacen referencia a los elementos de filtro mostrados en la [lista de filtros](manage-filters.md#filters-list).
+   > 
+
+## Filtrar secciones
+
+Las secciones de filtro disponibles son las siguientes:
+
+### Etiquetas
+
+{{tagfiltersection}}
+
+### Vista de datos
+
+{{dataviewfiltersection}}
+
+### Propietario
+
+{{ownerfiltersection}}
+
+
+### Otros filtros
+
+{{otherfiltersfiltersection}}
+
+
+La [lista de filtros](manage-filters.md#filters-list) se actualiza automáticamente según la configuración del filtro. Puede ver los filtros configurados en la [barra de filtros activa](manage-filters.md#active-filter-bar).

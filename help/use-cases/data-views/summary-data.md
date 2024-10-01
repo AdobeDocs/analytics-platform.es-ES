@@ -1,13 +1,13 @@
 ---
 title: Uso de datos resumidos en Customer Journey Analytics
-description: Se utiliza para explicar todos los detalles sobre cómo llevar los datos de resumen a Customer Journey Analytics
+description: Caso de uso que explica todos los detalles sobre cómo llevar datos de resumen a Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
 workflow-type: tm+mt
-source-wordcount: '5187'
+source-wordcount: '5188'
 ht-degree: 8%
 
 ---
@@ -512,7 +512,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
 
          ![Datos de resumen de ingresos](../assets/revenue-summary-data.png)
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Atribución]**.
-            1. Seleccione ![AttributionLastTouch](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL Último toque]** de la lista desplegable **[!UICONTROL Modelo de atribución]**.
+            1. Seleccione ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Último contacto]** de la lista desplegable **[!UICONTROL Modelo de atribución]**.
             1. Seleccione **[!UICONTROL 30 día]** en la lista desplegable de la ventana retrospectiva **[!UICONTROL 3}.]**
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **Formato**.
             1. Seleccione **[!UICONTROL Moneda]** de la lista desplegable **[!UICONTROL Formato]**.
@@ -522,7 +522,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
 
          ![Datos de resumen de pedidos](../assets/orders-summary-data.png)
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Atribución]**.
-            1. Seleccione ![AttributionLastTouch](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL Último toque]** de la lista desplegable **[!UICONTROL Modelo de atribución]**.
+            1. Seleccione ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Último contacto]** de la lista desplegable **[!UICONTROL Modelo de atribución]**.
             1. Seleccione **[!UICONTROL 30 día]** en la lista desplegable de la ventana retrospectiva **[!UICONTROL 3}.]**
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Formato]**.
             1. Seleccione **[!UICONTROL Decimal]** de la lista desplegable **[!UICONTROL Formato]**.

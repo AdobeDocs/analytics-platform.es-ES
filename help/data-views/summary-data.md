@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1135'
 ht-degree: 7%
 
 ---
@@ -153,4 +153,4 @@ Asegúrese de que la configuración de los componentes de un grupo de datos de r
 
 >[!MORELIKETHIS]
 >
->Consulte el artículo [Ingesta y uso de datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un ejemplo de uso detallado sobre cómo usar y crear informes sobre datos de resumen.
+>Consulte el artículo [Usar datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un ejemplo de uso detallado sobre cómo usar datos de resumen e informar sobre ellos.

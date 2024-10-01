@@ -6,43 +6,42 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 95%
+source-wordcount: '520'
+ht-degree: 58%
 
 ---
 
 # Desglose de dimensiones en Workspace
 
-Desglose de dimensiones y elementos de dimensión en Analysis Workspace.
+Puede desglosar los datos ilimitadamente para sus necesidades específicas; crear consultas con métricas, dimensiones, filtros, líneas de tiempo y otros valores de desglose de análisis relevantes.
 
-Desglose los datos de forma ilimitada para sus necesidades específicas; genere consultas con métricas, dimensiones, filtros, líneas de tiempo y otros valores de desglose de análisis relevantes.
+1. En una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), en el menú contextual de una o más filas seleccionadas, seleccione **[!UICONTROL Desglose]** ![ChevronRight](/help/assets/icons/ChevronRight.svg).
 
-1. [Cree un proyecto](/help/analysis-workspace/home.md) con una tabla de datos.
-1. En la tabla de datos, haga clic con el botón secundario en un elemento de línea y seleccione **[!UICONTROL Desglosar]** > *`<item>`*.
+   ![Resultado del paso que muestra la selección de Crear alerta a partir de la selección.](assets/breakdown.png)
 
-   ![Resultado del paso que muestra la selección de Crear alerta a partir de la selección.](assets/fa_data_table_actions.png)
+1. En el submenú, seleccione **[!UICONTROL Dimension]**, **[!UICONTROL Métricas]**, **[!UICONTROL Filtros]** o **[!UICONTROL Intervalos de datos]** y, a continuación, seleccione un elemento.
 
-   Puede desglosar métricas por elementos de dimensión o filtros de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
+Puede desglosar métricas por elementos de dimensión o filtros de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 
-   >[!NOTE]
-   >
-   >El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumenta para la exportación de desgloses.
+>[!NOTE]
+>
+>El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumenta para la exportación de desgloses.
 
-**Vídeo: Dimensiones en Analysis Workspace**
+## Desglose por posición
 
->[!VIDEO](https://video.tv.adobe.com/v/23971)
+De forma predeterminada, los desgloses se corrigen a elementos de fila estáticos. Por ejemplo, imagine que desglosa los 3 elementos de dimensión de página principales (página principal, resultados de búsqueda, cierre de compra) por canal de marketing. Después abandona el proyecto y regresa dos semanas más tarde. Al volver a abrir el proyecto, las 3 páginas principales han cambiado, y ahora la página principal, los resultados de búsqueda y el cierre de compra son las 4 o 6 páginas principales. De forma predeterminada, los desgloses del canal de marketing siguen apareciendo en la página principal, los resultados de búsqueda y el cierre de compra, aunque ahora se encuentren en las filas 4-6.
 
-**Vídeo: Desgloses de dimensiones**
+Por el contrario, **Desglose por posición**, siempre desglosa los 3 elementos principales, independientemente de cuáles sean. En referencia al ejemplo anterior, cuando vuelva a abrir el proyecto, los desgloses de canal de marketing se vinculan a las 3 páginas principales de la tabla. Y no a la página principal, los resultados de búsqueda y el cierre de compra, que ahora están en las filas 4-6. Consulte [Configuración de fila](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) para obtener información sobre cómo configurar esta opción.
 
->[!VIDEO](https://video.tv.adobe.com/v/23969)
+
 
 ## Aplicar modelos de atribución a desgloses
 
-Cualquier desglose dentro de una tabla también puede tener aplicado cualquier modelo de atribución. Este modelo de atribución puede ser el mismo o diferente de la columna principal. Por ejemplo, puede analizar Pedidos lineales en su dimensión de Canales de marketing pero aplicar Pedidos en forma de U a los códigos de seguimiento específicos dentro de un Canal. Para editar el modelo de atribución aplicado a un desglose, simplemente sitúe el ratón encima del modelo de desglose y haga clic en **[!UICONTROL Editar]**:
+Cualquier desglose dentro de una tabla también puede tener aplicado cualquier modelo de atribución. Este modelo de atribución puede ser el mismo o diferente de la columna principal. Por ejemplo, puede analizar Pedidos lineales en su dimensión de Canales de marketing pero aplicar Pedidos en forma de U a los códigos de seguimiento específicos dentro de un Canal. Para editar el modelo de atribución aplicado a un desglose, pase el ratón sobre el modelo de desglose y seleccione **[!UICONTROL Editar]**.
 
-![Comparación de atribución de pedidos que muestra la configuración de desglose](assets/breakdown_settings.png)
+![Comparación de atribución de pedidos que muestra la configuración de desglose](assets/breakdown-attribution.png)
 
 Este es el comportamiento esperado al aplicar modelos de atribución a desgloses o editarlos:
 
@@ -52,7 +51,15 @@ Este es el comportamiento esperado al aplicar modelos de atribución a desgloses
 
 * Si ya hay atribuciones en el árbol de columnas, cambiar la atribución solo afecta al que esté editando.
 
-## Vídeos
++++ Ver vídeos que ilustran desgloses
+
+Dimension en Analysis Workspace
+
+>[!VIDEO](https://video.tv.adobe.com/v/23971)
+
+desgloses de Dimension
+
+>[!VIDEO](https://video.tv.adobe.com/v/23969)
 
 Adición de dimensiones y métricas al proyecto en Analysis Workspace:
 
@@ -65,3 +72,7 @@ Trabajo con dimensiones en una tabla de forma libre:
 Desgloses de dimensiones por posición:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033)
+
+{{videoaa}}
+
++++

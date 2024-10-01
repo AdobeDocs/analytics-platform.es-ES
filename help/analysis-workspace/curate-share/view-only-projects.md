@@ -5,10 +5,10 @@ title: Proyectos de solo de vista
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ Puede compartir proyectos como “Solo consulta” a destinatarios a través del
 
 Las interacciones desactivadas en un proyecto de Solo consulta incluyen:
 
-* Barra izquierda oculta
+* Panel izquierdo oculto
 * Intervalo de fechas del calendario del panel. Nota: Si desea otorgar el control del calendario a los destinatarios, agregue un [filtro desplegable con intervalos de fechas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es).
 * Filtro improvisado
 * N.º de filas visibles improvisado

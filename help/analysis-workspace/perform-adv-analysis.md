@@ -5,16 +5,16 @@ feature: Workspace Basics
 exl-id: 17f50618-54eb-4d60-9f5e-62aab9a3c49b
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 100%
+source-wordcount: '71'
+ht-degree: 73%
 
 ---
 
 # Realizar análisis avanzado
 
-Antes de realizar el análisis avanzado como se describe a continuación, asegúrese de comprender el [análisis básico](/help/analysis-workspace/perform-basic-analysis.md).
+Antes de empezar a generar informes y visualizaciones de análisis avanzados, como se describe a continuación, asegúrese de comprender [análisis básico](/help/analysis-workspace/perform-basic-analysis.md).
 
 El análisis avanzado aprovecha características como los diagramas de [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md), [atribución](/help/analysis-workspace/c-panels/attribution.md), [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y [desgloses de dimensión](/help/components/dimensions/t-breakdown-fa.md).
 

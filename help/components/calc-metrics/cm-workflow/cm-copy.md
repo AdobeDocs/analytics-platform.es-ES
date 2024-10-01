@@ -3,23 +3,20 @@ description: Describe cómo copiar una métrica calculada en el Administrador de
 title: Copiar métricas calculadas
 feature: Calculated Metrics
 exl-id: b1cc1171-aebf-4b97-99db-9bbcef5ea9d7
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '100'
 ht-degree: 6%
 
 ---
 
 # Copiar métricas calculadas
 
-Al crear una nueva métrica calculada, a veces es más fácil copiar una métrica calculada existente que esté cerca de la métrica calculada que desea crear y, a continuación, modificar la versión que ha copiado.
+Al crear una nueva métrica calculada, no tiene que empezar desde cero. Puede copiar una métrica calculada existente que ya proporcione una definición adecuada desde la que comenzar y, a continuación, modificar la versión copiada.
 
-Para copiar una métrica calculada en el Administrador de métricas calculadas:
+Para copiar una métrica calculada en el [administrador de métricas calculadas](cm-manager.md):
 
-1. En Customer Journey Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Métricas calculadas]**.
+1. En [Administrador de métricas calculadas](cm-manager.md), seleccione una o varias de las métricas calculadas que desee copiar.
+1. En la barra de acciones, seleccione ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]**.
 
-1. En el Administrador de métricas calculadas, seleccione la métrica calculada que desee copiar.
-
-   Aparecerá la barra de herramientas de administración de métricas calculadas.
-
-1. Seleccione **[!UICONTROL Copiar]**.
+Las nuevas métricas calculadas se crean con el mismo nombre y sufijo `(Copy)`.

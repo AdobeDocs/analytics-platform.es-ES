@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 0300422b50cf6312c9148bbe38cd43003eb73bb2
+source-git-commit: a9976a053021b2b0ac26daaad2cfe89f8af61a96
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 69%
+source-wordcount: '847'
+ht-degree: 42%
 
 ---
 
@@ -27,27 +27,25 @@ Los filtros de Analysis Workspace le ayudan a mostrar la información más impor
 >
 > Solo se pueden filtrar los elementos de dimensión dinámicos como se describe en esta sección. Los elementos de dimensión estáticos no se pueden filtrar. Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
-## Filtrar filas de tabla de forma libre
+Puede utilizar varios métodos para filtrar filas de una tabla de forma libre.
 
-Puede utilizar varios métodos para filtrar filas de una tabla de forma libre. 
-
-- Haga clic en la &quot;X&quot; de la fila.
-- Filtros de tabla
-- Segmentación
+- Excluir filas específicas de una tabla
+- Aplicación de filtros a una tabla
+- Uso de filtros de audiencia
 
 Asegúrese de leer cómo afecta cada método a [Totales de tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
-### Excluir rápidamente filas específicas de una tabla
+### Excluir filas específicas de una tabla
 
-Puede excluir rápidamente filas específicas de la tabla sin necesidad de abrir el cuadro de diálogo Filtro.
+Puede excluir rápidamente filas específicas de la tabla sin necesidad de usar ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]**.
 
 >[!NOTE]
 >
->Cuando excluye filas como se describe en esta sección, se aplica automáticamente una regla [!UICONTROL **Excluir elementos siempre**] en el cuadro de diálogo de filtro avanzado. (Puede ver la regla aplicada seleccionando el icono Filtro y luego [**[!UICONTROL Mostrar avanzadas]**](#apply-a-simple-or-advanced-filter-to-a-table)).
+>Cuando excluye filas como se describe en esta sección, se agrega automáticamente una regla [!UICONTROL Excluir elementos siempre] en el cuadro de diálogo de filtro [!UICONTROL Avanzado]. Para ver la regla aplicada, selecciona el icono ![Filtro](/help/assets/icons/Filter.svg) Filtro y luego [**[!UICONTROL Mostrar avanzado]**](#apply-a-simple-or-advanced-filter-to-a-table).
 
-Para excluir rápidamente filas específicas de una tabla de forma libre:
+Para excluir filas específicas de una tabla de forma libre:
 
-1. Pase el ratón sobre la fila que quiera excluir y luego seleccione el icono x.
+1. Pase el ratón sobre la fila que quiera excluir y luego seleccione ![Cerrar](/help/assets/icons/Close.svg).
 
    Mantenga pulsada la tecla Mayús para seleccionar un rango de filas o la tecla Comando (en Mac) o Ctrl (en Windows) para seleccionar varias filas.
 
@@ -67,49 +65,41 @@ Para filtrar datos en tablas de forma libre:
 
 1. Pase el ratón sobre la columna que contiene los datos que desea filtrar. <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
-1. Seleccione el icono de **Filtro** cuando aparezca.
+1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) **Filtro** cuando aparezca.
 
    ![Tabla de forma libre que resalta el icono Filtro.](assets/table-filter-icon.png)
 
-   Las opciones disponibles son las siguientes:
+   Las siguientes opciones están disponibles en el cuadro de diálogo **[!UICONTROL Buscar]**:
+
+   ![Filtro simple](assets/filter-simple.png){width="500"}
 
    | Opción | Función |
    |---------|----------|
+   | [!UICONTROL **Incluir &quot;Sin valor&quot;**] | Seleccione esta opción para mostrar una fila **[!UICONTROL Sin valor]** en la tabla para datos que no tengan ningún valor para la dimensión seleccionada. Desmarque esta opción para ocultar la fila **[!UICONTROL Sin valor]**. |
    | [!UICONTROL **Palabra o frase de búsqueda**] | Especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada. |
-   | [!UICONTROL **Incluir no especificado (ninguno)**] | Seleccione esta opción para mostrar los datos de la tabla que no estén dentro de ninguna de sus dimensiones. <!--what is this?--> |
+
 
 1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Mostrar avanzadas**].
 
    Estas son las opciones de filtro avanzadas disponibles:
 
+   ![Filtro simple](assets/filter-advanced.png){width=500}
+
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Incluir no especificado (ninguno)**] | Seleccione esta opción para mostrar los datos de la tabla que no estén dentro de ninguna de sus dimensiones. <!--what is this?--> |
-   | [!UICONTROL **Coincidencias**] | <p>Seleccione [!UICONTROL **Si se cumplen todos los criterios**] para mostrar solo los datos que cumplan todos los criterios especificados. Esta opción suele dar como resultado datos más precisos.</p> <p>Seleccione [!UICONTROL **Si se cumplen algunos criterios**] para mostrar los datos que cumplan cualquiera de los criterios de filtro especificados. Esta opción suele dar como resultado datos menos precisos.</p> |
-   | [!UICONTROL **Criterios**] | <p>Seleccione entre las siguientes opciones de filtro:</p><p>(Seleccione [!UICONTROL **Agregar fila**] para añadir varios criterios de filtro. La opción que seleccione en la sección [!UICONTROL **Coincidencia**] determina si se deben cumplir todos o cualquiera de los criterios agregados).</p><ul><li><p>[!UICONTROL **Contiene la frase**]: en los resultados filtrados solo se incluyen los datos que contienen la frase exacta especificada. Las palabras deben estar en el orden especificado en el [!UICONTROL **campo Buscar palabra o frase**].<p>Esta es la configuración predeterminada al realizar una búsqueda simple.</p></p></li><li><p>[!UICONTROL **Contiene cualquier término**]: en los resultados filtrados solo se incluyen los datos que contienen una o más palabras de la frase especificada. </p></li><li><p>[!UICONTROL **Contiene todos los términos**]: en los resultados filtrados solo se incluyen los datos que contienen todas las palabras de la frase especificada. Las palabras no tienen que estar en el orden especificado en el [!UICONTROL **campo Buscar palabra o frase**].</p></li><li><p>[!UICONTROL **No contiene ningún término**]: en los resultados filtrados solo se incluyen los datos que no contienen ninguna de las palabras de la frase especificada. </p></li><li><p>[!UICONTROL **No contiene la frase**]: en los resultados filtrados solo se incluyen los datos que no contienen la frase exacta especificada. Las palabras deben estar en el orden especificado en el [!UICONTROL **campo Buscar palabra o frase**].</p></li><li><p>[!UICONTROL **Es igual a**]: en los resultados filtrados solo se incluyen los datos que coinciden exactamente con la frase especificada. </p></li><li><p>[!UICONTROL **No es igual a**]: en los resultados filtrados solo se incluyen los datos que no coinciden exactamente con la frase especificada. </p></li><li><p>[!UICONTROL **Comienza con**]: en los resultados filtrados solo se incluyen los datos que comienzan con la palabra o frase exacta que especifique. </p></li><li><p>[!UICONTROL **Finaliza con**]: en los resultados filtrados solo se incluyen los datos que terminan con la palabra o frase exacta que especifique. </p></li></ul> |
+   | [!UICONTROL **Incluir &quot;Sin valor&quot;**] | Seleccione esta opción para mostrar una fila **[!UICONTROL Sin valor]** en la tabla para datos que no tengan ningún valor para la dimensión seleccionada. Desmarque esta opción para ocultar la fila **[!UICONTROL Sin valor]**. |
+   | [!UICONTROL **Coincidencias**] | Seleccione [!UICONTROL **Si se cumplen todos los criterios**] para mostrar solo los datos que cumplan todos los criterios especificados. Esta opción suele dar como resultado datos más precisos.<br/><br/>Elija [!UICONTROL **Si se cumple algún criterio**] para mostrar datos que cumplan cualquiera de los criterios de filtro especificados. Esta opción suele dar como resultado datos menos precisos. |
+   | [!UICONTROL **Criterios**] | Seleccione entre las siguientes opciones de filtro:<br/><ul><li>[!UICONTROL **Contiene la frase**] (predeterminada): En los resultados filtrados solo se incluyen los datos que contienen la frase exacta especificada. Las palabras deben estar en el orden especificado en el [!UICONTROL **campo Buscar palabra o frase**].</li><li>[!UICONTROL **Contiene cualquier término**]: en los resultados filtrados solo se incluyen los datos que contienen una o más palabras de la frase especificada. </li><li>[!UICONTROL **Contiene todos los términos**]: en los resultados filtrados solo se incluyen los datos que contienen todas las palabras de la frase especificada. Las palabras no tienen que estar en el orden especificado en el [!UICONTROL **campo Buscar palabra o frase**].</li><li>[!UICONTROL **No contiene ningún término**]: en los resultados filtrados solo se incluyen los datos que no contienen ninguna de las palabras de la frase especificada. </li><li>[!UICONTROL **No contiene la frase**]: en los resultados filtrados solo se incluyen los datos que no contienen la frase exacta especificada. Las palabras deben estar en el orden especificado en el [!UICONTROL **campo Buscar palabra o frase**].</li><li>[!UICONTROL **Es igual a**]: En los resultados filtrados solo se incluyen los datos que coinciden exactamente con la frase especificada. </li><li>[!UICONTROL **No es igual a**]: en los resultados filtrados solo se incluyen los datos que no coinciden exactamente con la frase especificada. </li><li>[!UICONTROL **Comienza con**]: en los resultados filtrados solo se incluyen los datos que comienzan con la palabra o frase exacta que especifique. </li><li>[!UICONTROL **Finaliza con**]: en los resultados filtrados solo se incluyen los datos que terminan con la palabra o frase exacta que especifique. </li></ul>Seleccione ![Agregar](/help/assets/icons/Add.svg) [!UICONTROL **Agregar fila**] para agregar varios criterios de filtro. La opción que seleccione para [!UICONTROL **Coincidencia**] determina **[!UICONTROL Si se cumplen todos los criterios]** o **[!UICONTROL Si se cumplen los criterios]**. |
    | [!UICONTROL **Excluir artículos siempre**] | Especifique el nombre de cualquier elemento que desee excluir de los datos filtrados. |
 
-1. Seleccione [!UICONTROL **Aplicar**] para filtrar los datos.
+1. Seleccione **[!UICONTROL Aplicar]** para filtrar los datos. Seleccione **[!UICONTROL Borrar]** para borrar toda la entrada. Seleccione **[!UICONTROL Cancelar]** para cancelar y cerrar el cuadro de diálogo. <br/>Un icono ![Filter](/help/assets/icons/FilterColored.svg) **Filter** de color indica y muestra detalles cuando se aplica un filtro a la tabla.
 
-   El icono de **filtro** de la ![Tabla filtrada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) se vuelve azul cuando se aplica un filtro a la tabla.
+### Uso de filtros de audiencia
 
-### Filtros
-
-Consulte nuestra [documentación de filtrado](/help/components/filters/filters-overview.md) para obtener más información.
+Consulte [Resumen de filtros](/help/components/filters/filters-overview.md) para obtener más información.
 
 ## Orden de tablas
 
-Puede ordenar los datos de una tabla de forma libre por cualquier columna de Analysis Workspace que sea una dimensión o una métrica.
+Puede ordenar los datos de una tabla de forma libre por cualquier columna de Analysis Workspace que sea una dimensión o una métrica. Una flecha indica cómo se ordenan los datos (**↓** para descendente o **↑** para ascendente).
 
-El icono de flecha hacia abajo en la ![columna de tabla ordenada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) es visible en el encabezado de la columna por la que se ordenan actualmente los datos.
-
-1. En cualquier tabla de forma libre de Analysis Workspace, haga clic en la flecha situada junto al nombre de la dimensión o métrica.
-
-   Tenga en cuenta lo siguiente al ordenar:
-
-   - La flecha hacia abajo ordena en orden de bajada y la flecha hacia arriba (predeterminada) lo hace en orden de subida.
-   - Puede ordenar las dimensiones de manera alfabética o numérica. Por ejemplo, es posible que haya numerado los pasos de un flujo de trabajo y que desee ordenarlos por el número de paso. Puede ordenar una dimensión relacionada con la fecha por fecha. Asimismo, puede ordenar las fuentes de datos alfabéticamente como en la imagen siguiente.
-
-   ![Vista de fuentes de datos que resalta el icono de ordenación.](assets/sort-dimensions.png)
-
-
+![Ordenando](assets/sorting.gif)

@@ -1,12 +1,12 @@
 ---
-description: Utilice subtítulos inteligentes para generar perspectivas en lenguaje natural y mostrar tendencias rápidamente en las visualizaciones.
+description: Utilice subtítulos inteligentes para generar perspectivas en lenguaje natural y mostrar tendencias dentro de las visualizaciones.
 title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
+source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,13 @@ Los subtítulos inteligentes están orientados a:
 
 ## Iniciar subtítulos inteligentes {#launch}
 
-Para iniciar subtítulos generados automáticamente para una visualización de líneas, haga clic en el icono **[!UICONTROL Subtítulos inteligentes]** en la parte superior derecha de la visualización.
+Para iniciar subtítulos generados automáticamente para una visualización de línea, seleccione ![AEMcreen](/help/assets/icons/AI.svg) **[!UICONTROL Subtítulos inteligentes]** en la parte superior derecha de la visualización.
 
 ![Iniciar análisis con los subtítulos inteligentes para la tendencia de vistas de productos. ](assets/intell-caps-1.png)
 
 Ahora se están generando perspectivas en lenguaje natural.
 
-Tenga en cuenta que
+Tenga en cuenta que:
 
 * Necesita un mínimo de 3 puntos de datos para generar subtítulos correctamente. De lo contrario, podría recibir un error como **[!UICONTROL No hay suficientes datos para analizar]**.
 

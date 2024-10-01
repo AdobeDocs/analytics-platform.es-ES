@@ -5,10 +5,10 @@ title: Creación de carpetas
 feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '113'
+ht-degree: 41%
 
 ---
 
@@ -16,48 +16,21 @@ ht-degree: 100%
 
 Puede agregar una carpeta nueva o una subcarpeta a la lista de proyectos y carpetas de la página de aterrizaje de Workspace.
 
-## Crear una nueva carpeta {#create-new-folder}
+## Crear una nueva carpeta
 
 Para crear una nueva carpeta,
 
-1. Haga clic en **Crear nuevo**.
+1. Asegúrese de haber seleccionado [Mostrar carpetas y proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector).
 
-1. Introduzca un Nombre para la nueva carpeta.
+1. Asegúrese de que el [área de título](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) y la [lista de proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) muestren la carpeta en la que desea crear una carpeta nueva.
 
-1. Seleccione etiquetas en el menú desplegable o agregue nuevas etiquetas.
+1. Haga clic en **Crear carpeta**.
 
-   ![Ventana Crear nueva carpeta que muestra el nuevo nombre de la carpeta y la lista de etiquetas disponibles.](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
+1. En el cuadro de diálogo **[!UICONTROL Crear nueva carpeta]**, escriba un Nombre para la nueva carpeta. Por ejemplo: `Second Week Reports`.
 
-1. Haga clic en **Crear**.
+1. Seleccione etiquetas o escriba nuevas etiquetas en la lista desplegable **[!UICONTROL Etiquetas]**.
 
-   ![Haga clic en Crear.](/help/analysis-workspace/build-workspace-project/assets/create.png)
-
-   La nueva carpeta se añade en la lista principal de proyectos y carpetas.
-
-   ![La página de aterrizaje Proyectos que muestra la lista actualizada de proyectos y carpetas.](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
-
-## Creación de una subcarpeta {#create-subfolder}
-
-Las subcarpetas permiten proporcionar niveles adicionales de organización y administración de proyectos.
-
-Para crear una subcarpeta cuando tenga una carpeta existente abierta,
-
-1. Haga clic en **Crear una nueva carpeta**.
-
-   ![Haga clic en Crear una nueva carpeta.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
-
-1. Introduzca un nombre de subcarpeta y agregue las etiquetas necesarias.
-
-   ![Ventana Crear nueva carpeta con el nuevo nombre y el campo Etiquetas.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+   ![Crear nueva carpeta](../assets/create-new-folder.png)
 
 1. Haga clic en **Crear**.
-
-   La nueva subcarpeta se agrega a la lista de proyectos y subcarpetas.
-
-   ![Haga clic en Crear.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
-
-   >[!NOTE]
-   >
-   >Puede crear hasta 10 niveles de subcarpetas en una sola.
-
-   ![La lista desplegable de carpetas muestra todas las subcarpetas de la carpeta.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+La nueva carpeta se agrega a la carpeta actual.

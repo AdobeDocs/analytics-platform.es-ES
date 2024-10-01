@@ -5,10 +5,10 @@ title: Depurar proyectos de
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 94%
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ La depuración permite limitar los componentes (dimensiones, métricas, filtros 
 
 1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
 Los componentes que se utilizan en el proyecto se añadirán automáticamente.
-1. (Opcional) Para agregar más componentes, arrastre los componentes que desee compartir desde el carril izquierdo al campo [!UICONTROL Depurar componentes].
+1. (Opcional) Para agregar más componentes, arrastre los componentes que desee compartir desde el panel izquierdo al campo [!UICONTROL Depurar componentes].
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
 La depuración también se puede aplicar desde el menú [!UICONTROL Compartir] haciendo clic en **[!UICONTROL Depurar y Compartir]**. Esta opción depura automáticamente el proyecto en los componentes que se utilizan en el proyecto. Puede agregar componentes adicionales siguiendo los pasos anteriores.
@@ -38,7 +38,7 @@ Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurad
 
 ## Eliminar depuración del proyecto
 
-Para eliminar la depuración del proyecto y restaurar el conjunto completo de componentes en el carril izquierdo:
+Para eliminar la depuración del proyecto y restaurar el conjunto completo de componentes en el panel izquierdo:
 
 1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
 1. Haga clic en **[!UICONTROL Eliminar depuración]**.
@@ -46,7 +46,7 @@ Para eliminar la depuración del proyecto y restaurar el conjunto completo de co
 
 ## Opciones de depuración de componentes
 
-En un proyecto depurado, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos]** los componentes en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
+En un proyecto depurado, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos]** los componentes en el panel izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
 
 * Nivel de permiso del usuario (administrador o no administrador)
 * Función del proyecto (propietario/editor o no)

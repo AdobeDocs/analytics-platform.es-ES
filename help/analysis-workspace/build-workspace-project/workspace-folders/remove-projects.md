@@ -1,24 +1,21 @@
 ---
-description: Obtenga información acerca de cómo quitar proyectos de carpetas
+description: Obtenga información sobre cómo cambiar el nombre de proyectos desde carpetas
 keywords: Analysis Workspace
 title: Quitar proyectos de carpetas
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
+source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
-# Quitar un proyecto de una carpeta
+# Eliminar proyectos
 
-Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o eliminarlo.
+<!-- Is this article still needed -->
 
->[!NOTE]
->
->Cuando un administrador mueve un proyecto a la carpeta Compañía, esta se comparte con todos aunque los privilegios compartidos originales estén restringidos. Cuando un administrador mueve un proyecto fuera de la carpeta Compañía, se respetan los privilegios de uso compartido originales o anteriores.
 
 ## Traslado de un proyecto {#move-project-in-folder}
 

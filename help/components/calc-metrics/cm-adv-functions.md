@@ -4,16 +4,16 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: cfaf29b8dd92325a4e5fdd2a960de798178db933
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '3024'
-ht-degree: 98%
+source-wordcount: '3036'
+ht-degree: 97%
 
 ---
 
 # Referencia: funciones avanzadas
 
-Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
+Para obtener acceso a estas funciones, seleccione **[!UICONTROL Mostrar todo]** debajo de la lista ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL Funciones]** en el panel Componentes. Desplácese hacia abajo para ver la lista de funciones avanzadas.
 
 ## Funciones de tabla en comparación con funciones de fila
 
@@ -26,6 +26,7 @@ Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa 
 Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métrica Vistas de página al informe, de repente hay más filas para sus ingresos todas con valor de cero. Probablemente no desea que esto afecte a ningún valor MEAN, MIN, QUARTILE, etc. los cálculos que tiene en la columna de ingresos. En este caso, debería marcar el parámetro para incluir ceros.
 
 Por otra parte, si tiene dos métricas en las que está interesado, puede que no sea justo afirmar que una tiene una media superior o mínima porque algunas de sus filas eran ceros, por lo que no debería marcar el parámetro para incluir ceros.
+
 
 ## AND
 
@@ -56,7 +57,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimensión* | Dimensión de la que se quiere obtener el número aproximado de elementos distintos. |
 
-## Caso práctico de ejemplo
+### Caso práctico de ejemplo
 
 El número aproximado de elementos distintos (eVar del ID del cliente) es un caso práctico común para esta función.
 
@@ -68,7 +69,7 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ![Tabla de forma libre que muestra visitantes únicos y clientes aproximados ](assets/approx-customers.png)
 
-## Comparación de funciones de recuento
+### Comparación de funciones de recuento
 
 La función Approximate Count Distinct() es una mejora de las funciones Count() y RowCount() porque la métrica que se crea puede usarse en cualquier informe dimensional para representar un número aproximado de elementos para una dimensión distinta. Por ejemplo, un recuento de los ID de cliente que se usan en un informe sobre tipos de dispositivos móviles.
 

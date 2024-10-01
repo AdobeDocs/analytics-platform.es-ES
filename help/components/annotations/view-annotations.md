@@ -4,10 +4,10 @@ description: Cómo ver anotaciones en Espacio de trabajo.
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e04f07ba674ed55c53888d5c606ecb4d4aa5ffe5
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 21%
 
 ---
 
@@ -17,26 +17,16 @@ Las anotaciones se manifiestan de forma ligeramente diferente, en función de si
 
 ## Visualización de anotaciones en gráficos de líneas o tablas
 
-| Fecha | Aspecto |
+| Tipo <br/>de visualización | Descripción |
 | --- | --- |
-| **Día único** | ![Visualización de gráfico de líneas con la anotación resaltada](assets/single-day.png)<p>Cuando pasa el ratón por encima de la anotación, puede ver sus detalles, puede editarla seleccionando el icono de la pluma o puede eliminarla:<p> ![Detalles de anotaciones con la opción para editar o eliminar la anotación.](assets/hover.png) |
-| **Intervalo de fechas** | El icono cambia y, cuando pasa el ratón por encima, aparece el intervalo de fechas.<p>![Icono de anotación de intervalo de fecha](assets/multi-day.png)<p>Cuando lo selecciona en el gráfico de líneas, aparecen los metadatos de la anotación y puede editarlos o eliminarlos:![](assets/multi-hover.png)<p>En una tabla, aparece un icono en cada fecha del intervalo de fechas.<p>![](assets/multi-day-table.png) |
-| **Anotaciones superpuestas** | En los días que tengan más de una anotación vinculada a ellos, el icono será de color gris.<p>![Detalles de anotaciones superpuestas](assets/grey.png)<p>Cuando pasa el ratón por encima del icono gris, aparecen todas las anotaciones superpuestas:<p>![](assets/overlap.png) |
+| **Línea **<br/>**Un solo día** | Cuando selecciona ![Anotar](/help/assets/icons/Annotate.svg) en una visualización de líneas, verá una ventana emergente con los detalles de la anotación.<br/>![Día único de anotación](assets/annotation-single-day.png)<br/>Para editar y editar la anotación en el [Creador de anotaciones](create-annotations.md#annotation-builder), seleccione ![Editar](/help/assets/icons/Edit.svg). Para eliminar la anotación, seleccione ![Eliminar](/help/assets/icons/Delete.svg). |
+| **Línea **<br/>**Intervalo de fecha** | Al seleccionar ![AnnotateRange](/help/assets/icons/AnnotateRange.svg), verá una ventana emergente con los detalles de la anotación y una línea en la parte inferior que indica el intervalo de fechas.<br/>![Rango de anotaciones](assets/annotation-range.png)Para editar o editar la anotación en el [Generador de anotaciones](create-annotations.md#annotation-builder), seleccione ![Editar](/help/assets/icons/Edit.svg). Para eliminar la anotación, seleccione ![Eliminar](/help/assets/icons/Delete.svg). |
+| **Tabla de forma libre** | En una tabla de forma libre, puede acceder a todas las anotaciones desde el botón Anotaciones en la parte superior derecha de la visualización. Seleccione ![Anotar](/help/assets/icons/Annotate.svg) para ver una (lista de desplazamiento) de todas las anotaciones.<br/>![Tabla de anotaciones](assets/annotations-table.png)<br/>Para cada anotación, puede seleccionar ![Editar](/help/assets/icons/Edit.svg) para editar la anotación en el [Generador de anotaciones](create-annotations.md#annotation-builder) y ![Eliminar](/help/assets/icons/Delete.svg) para eliminar la anotación. |
 
 {style="table-layout:auto"}
 
-## Visualización de anotaciones en un archivo .pdf
+## Visualización de anotaciones en un PDF
 
-Dado que no puede pasar el ratón sobre los iconos de un archivo .pdf, este archivo (tras la exportación) proporciona notas de explicaciones en la parte inferior de un panel. Vea el siguiente ejemplo:
+Cuando se descarga el proyecto como PDF o se envía el proyecto como PDF, las anotaciones se resumen en PDF en la sección Resumen de anotaciones.
 
-![Vista resaltada de un archivo .pdf que muestra explicaciones de las anotaciones.](assets/ann-pdf.png)
-
-## Ver anotaciones con datos de tendencias
-
-A veces, las anotaciones se muestran con datos sin tendencias, pero vinculados a una dimensión específica. En ese caso, solo aparecen en una anotación de resumen en la esquina inferior derecha. Vea el siguiente ejemplo:
-
-![](assets/non-date.png)
-
-El gráfico de resumen aparece en todos los tipos de visualización de la esquina, no solo en tablas improvisadas sin tendencias y números de resumen. También aparece en visualizaciones como [!UICONTROL Anillos], [!UICONTROL Flujo], [!UICONTROL Visita en el orden previsto], [!UICONTROL Cohorte], etc.
-
-![Gráfico de resumen en visualizaciones](assets/ann-summary.png)
+![Vista resaltada de un archivo .pdf que muestra explicaciones de las anotaciones.](assets/annotations-pdf.png)

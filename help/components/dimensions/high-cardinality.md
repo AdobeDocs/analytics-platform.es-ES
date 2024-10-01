@@ -5,7 +5,7 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Al utilizar una dimensión que contiene muchos valores únicos, el informe resultante puede contener demasiados elementos de dimensión únicos para mostrar o calcular. Los resultados se truncan al eliminar los elementos de dimensión que se consideran menos importantes. Estas optimizaciones se realizan para mantener el rendimiento del proyecto y del producto.
 
-Cuando se solicita un informe con demasiados valores únicos, Analysis Workspace muestra un indicador en el encabezado de la dimensión que indica que no se incluyen todos los elementos de dimensión. Por ejemplo, &quot;Filas: 1-50 de más de 22 343 156&quot;. La palabra clave &quot;más que&quot; indica que se aplicó cierta optimización al informe para devolver los elementos de dimensión más importantes.
+Cuando se solicita un informe con demasiados valores únicos, Analysis Workspace muestra un indicador en el encabezado de la dimensión que indica que no se incluyen todos los elementos de dimensión. Por ejemplo, **[!UICONTROL Filas: 1-50 de más de 22.343.156]**. La palabra clave **[!UICONTROL more than]** indica que se aplicó alguna optimización al informe para devolver los elementos de dimensión más importantes.
 
 ![Tabla de forma libre en Workspace que muestra la palabra clave &quot;más que&quot; para mostrar 1-50 de más de 22.343.156](assets/high-cardinality.png)
 

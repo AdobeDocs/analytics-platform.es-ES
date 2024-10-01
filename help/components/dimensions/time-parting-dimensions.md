@@ -4,10 +4,10 @@ title: Dimensiones de partición de tiempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: e3b80438f5bffc94efd24b80a93d2e4674906780
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 55%
+ht-degree: 52%
 
 ---
 
@@ -24,11 +24,11 @@ Las dimensiones de partición de tiempo se basan en la zona horaria de la vista 
 
 | Dimensión | Valores de ejemplo |
 |--- |--- |
-| Hora del día | 0-23 |
-| AM/PM | AM, PM |
-| Día de la semana | Lunes, martes, miércoles, jueves, viernes, sábado, domingo |
-| Día de la semana/Fin de semana | Día laborable, fin de semana |
-| Día del mes | 1-31 |
-| Mes del año | Enero-diciembre |
-| Día del año | 1-366 |
-| Trimestre del año | T1, T2, T3, T4 |
+| **[!UICONTROL Hora del día]** | 0-23 |
+| **[!UICONTROL a. m./p. m.]** | AM, PM |
+| **[!UICONTROL Día de la semana]** | lunes, martes, miércoles, jueves, viernes, sábado, domingo |
+| **[!UICONTROL Día de la semana/Fin de semana]** | Día laborable, fin de semana |
+| **[!UICONTROL Día del mes]** | 1-31 |
+| **[!UICONTROL Mes del año]** | Enero-diciembre |
+| **[!UICONTROL Día del año]** | 1-366 |
+| **[!UICONTROL Trimestre del año]** | T1, T2, T3, T4 |

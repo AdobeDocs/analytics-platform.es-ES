@@ -5,16 +5,16 @@ title: Crear vínculos que se pueden compartir
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 79%
+source-wordcount: '381'
+ht-degree: 67%
 
 ---
 
 # Crear vínculos que se pueden compartir
 
-Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en Adobe Analytics antes de acceder al proyecto, mientras que otros no.
+Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en el Customer Journey Analytics antes de acceder al proyecto, mientras que otros no.
 
 ## Obtener un vínculo de proyecto para compartir con otros usuarios de Workspace {#project-link}
 
@@ -32,8 +32,8 @@ Para obtener más información, consulte “Compartir un proyecto con alguien (n
 
 También puede compartir un vínculo a una parte específica de un proyecto, como un panel o una visualización individual. Esto se denomina a veces intravínculos. Esto puede resultar útil para atraer la atención de los usuarios hacia perspectivas clave dentro del proyecto.
 
-* Desde cualquier encabezado del panel, haga clic con el botón derecho en **[!UICONTROL Obtener vínculo del panel]**
-* Desde cualquier tabla o encabezado de visualización, haga clic con el botón derecho en **[!UICONTROL Obtener vínculo de visualización]**
+* En el menú contextual del encabezado de un panel, seleccione **[!UICONTROL Obtener vínculo del panel]**
+* En el menú contextual de un encabezado de visualización, seleccione **[!UICONTROL Obtener vínculo de visualización]**
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
 

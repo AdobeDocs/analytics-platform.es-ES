@@ -4,10 +4,10 @@ description: Descubra cómo administrar audiencias en Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ La administración de audiencias creadas anteriormente le permite:
 
 | Configuración de la interfaz de usuario | Definición |
 | --- | --- |
-| Ocultar/Mostrar filtros | Permite mostrar u ocultar los siguientes filtros del carril izquierdo: <ul><li>[!UICONTROL Vista de datos]</li><li>[!UICONTROL Propietario]</li><li>[!UICONTROL Frecuencia de actualización]</li><li>[!UICONTROL Etiquetas]</li></ul> |
+| Ocultar/Mostrar filtros | Permite mostrar u ocultar los siguientes filtros del panel izquierdo: <ul><li>[!UICONTROL Vista de datos]</li><li>[!UICONTROL Propietario]</li><li>[!UICONTROL Frecuencia de actualización]</li><li>[!UICONTROL Etiquetas]</li></ul> |
 | [!UICONTROL Título y descripción] | El título y la descripción que se dieron a la audiencia cuando se creó. |
 | [!UICONTROL Vista de datos] | La vista de datos en la que se creó esta audiencia. |
 | [!UICONTROL Tamaño de la audiencia] | El número total de personas en esta audiencia. |

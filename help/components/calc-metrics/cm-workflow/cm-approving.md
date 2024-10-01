@@ -3,37 +3,26 @@ description: En el Administrador de métricas calculadas, puede configurar un fl
 title: Aprobar métricas calculadas
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 14%
+source-wordcount: '145'
+ht-degree: 22%
 
 ---
 
 # Aprobar métricas calculadas
 
-En el Administrador de métricas calculadas, los administradores pueden configurar un flujo de trabajo que incluya la aprobación de métricas en varios niveles de aplicación y para departamentos o grupos específicos.
+En el [Administrador de métricas calculadas](cm-manager.md), puede aprobar y desaprobar filtros. Solo los administradores pueden aprobar métricas calculadas.
 
->[!NOTE]
->
->Los administradores también pueden aprobar métricas calculadas (y otros componentes) del diccionario de datos, tal como se describe en [Editar entradas de componente en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).
->
->Cualquier métrica calculada que se apruebe en el diccionario de datos se reflejará en el Administrador de métricas calculadas. Del mismo modo, las métricas aprobadas en el Administrador de métricas calculadas se reflejan en el diccionario de datos.
+Para aprobar métricas calculadas:
 
-Para marcar las métricas calculadas como aprobadas:
+1. En el [Administrador de métricas calculadas](cm-approving.md), seleccione una o varias de las métricas calculadas que desee aprobar.
+1. En la barra de acciones, seleccione ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. Las métricas calculadas aprobadas se indican con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
+Para desaprobar métricas calculadas:
 
-1. En el Administrador de métricas calculadas, active la casilla que hay a la izquierda de las métricas que desee marcar como aprobadas.
+1. En el [Administrador de filtros](cm-approving.md), seleccione una o varias de las métricas calculadas que desee desaprobar.
+1. En la barra de acciones, seleccione ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Desaprobar]**.
 
-1. Seleccione **[!UICONTROL Aprobar]** en la tarea de administración en la parte superior de la página.
 
-   Para quitar una métrica de la lista de métricas aprobadas, seleccione **[!UICONTROL Desaprobar]**.
-
-1. (Opcional) Comparta la métrica con otros usuarios de su organización, tal como se describe en [Compartir métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
-
-1. Haga clic en **[!UICONTROL Aceptar]**.
-
-   Fíjese en el icono de aprobación que aparece junto a la métrica calculada en la lista: ![Icono de aprobación, marca de verificación en un círculo.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
-
-1. (Opcional) Para filtrar la lista de métricas calculadas en el Administrador de métricas calculadas con el fin de mostrar solo las métricas aprobadas, seleccione el icono **Filtrar**, expanda **[!UICONTROL Otros filtros]** y, a continuación, seleccione **[!UICONTROL Aprobado]**.
+Puede filtrar la lista de métricas calculadas por métricas calculadas aprobadas. Seleccione **[!UICONTROL Otros filtros]** del panel ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** y seleccione **[!UICONTROL Aprobado]**. Ver [Filtrar la lista de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-filter.md) para obtener más información.

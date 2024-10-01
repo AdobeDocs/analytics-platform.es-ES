@@ -3,68 +3,94 @@ description: El filtrado en métricas individuales le permite realizar comparaci
 title: Métricas filtradas
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 53%
+source-wordcount: '487'
+ht-degree: 1%
 
 ---
 
 # Métricas filtradas
 
-En el Generador de métricas calculadas, puede aplicar filtros dentro de su definición de métrica. Esto es útil si desea derivar nuevas métricas para usarlas en el análisis. Tenga en cuenta que las definiciones de filtros se pueden actualizar a través del Generador de filtros. Si se realizan cambios, el filtro se actualizará automáticamente en cualquier lugar donde se aplique, incluso si forma parte de una definición de métrica calculada.
+En el [Creador de métricas calculadas](cm-build-metrics.md#definition-builder), puede aplicar filtros dentro de su definición de métrica. La aplicación de filtros es útil si desea utilizar métricas para un subconjunto de los datos en el análisis.
 
-![Resumen y definición de filtros para países = Alemania y visitantes únicos](assets/german-visitors.png)
+>[!NOTE]
+>
+>Las definiciones de filtros se actualizan a través de [Generador de filtros](/help/components/filters/filter-builder.md). Si realiza un cambio en un filtro, este se actualiza automáticamente en todos los lugares en los que se utiliza, incluso si el filtro forma parte de una definición de métrica calculada.
+>
 
-## Creación de una métrica filtrada {#create}
+Desea comparar las métricas de los alemanes que interactúan con su marca con las de otros fuera de Alemania. Por lo tanto, puede responder preguntas como:
 
-Digamos que desea comparar distintos aspectos de los filtros de “Visitantes alemanes” para aquellos de un filtro en “Visitantes internacionales”. Puede crear métricas que le proporcionarán información como:
+1. ¿Cuántas personas alemanas o internacionales están visitando tus [páginas más populares](#popular-pages)?
+1. ¿Cuántas personas alemanas versus internacionales en [total](#totals) han interactuado en línea con su marca este mes?
+1. ¿Cuáles son los [porcentajes](#percentages) de alemanes y personas internacionales que han visitado tus páginas populares?
 
-* ¿De qué forma se compara el contenido de navegación ente los dos grupos? Otro ejemplo sería: ¿De qué forma se compara la tasa de conversión entre los dos filtros?
-* Como porcentaje del total de personas, ¿cuántas personas alemanas navegan por determinadas páginas en comparación con las personas internacionales?
-* ¿Cuáles son las principales diferencias en términos de a qué contenido se accede desde estos filtros diferentes?
+Consulte las secciones siguientes para ilustrar cómo las métricas filtradas pueden ayudarle a responder a estas preguntas. Si procede, se hace referencia a documentación más detallada.
 
-Cree y guarde una métrica llamada &quot;Visitantes alemanes&quot; y una métrica llamada &quot;Visitantes internacionales&quot;:
+## Páginas populares
 
-1. Cree un filtro ad hoc en el Creador de métricas calculadas llamado &quot;Visitantes alemanes&quot;, donde &quot;Países&quot; es igual a &quot;Alemania&quot;. Arrastre la dimensión Países al lienzo Definición y seleccione [!UICONTROL **Alemania**] como valor:
+1. [Cree una métrica calculada](cm-workflow.md) a partir de un proyecto de Workspace, denominado `German people`.
+1. Desde el [Creador de métricas calculadas](cm-build-metrics.md), [cree un filtro](/help/components/filters/filter-builder.md), con el título `Germany`, que use el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
 
-   ![Filtro ad hoc que muestra Países iguales a Alemania](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >También puede hacerlo en [Generador de filtros](/help/components/filters/create-filters.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el Creador de métricas calculadas. &quot;Ad hoc&quot; significa que el filtro no está visible en la lista **[!UICONTROL Filtros]** del carril izquierdo. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
+   >En el Creador de métricas calculadas, puede crear un filtro directamente mediante el panel Componentes.
+   >   
 
-1. Arrastre el filtro de Alemania al lienzo Definición y arrastre la métrica Visitantes únicos dentro de este:
+   El filtro podría tener el aspecto siguiente.
 
-   ![Resumen y definición de países iguales a Alemania y visitantes únicos](assets/german-visitors.png)
+   ![Filtrar Alemania](assets/filter-germany.png)
 
-1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica calculada.
+1. De nuevo en el Creador de métricas calculadas, utilice el filtro para actualizar la métrica calculada.
 
-1. Cree un filtro ad hoc en el Creador de métricas calculadas llamado &quot;Visitantes internacionales&quot;, donde &quot;Países&quot; no es igual a &quot;Alemania&quot;.
+   ![Métrica calculada Alemania](assets/calculated-metric-germany.png)
 
-   Arrastre la dimensión Países al lienzo Definición, seleccione [!UICONTROL **Alemania**] como valor y, a continuación, seleccione [!UICONTROL **no es igual que**] como operador.
+Repita los pasos anteriores para la versión internacional de la métrica calculada.
 
-1. Arrastre la métrica Visitantes únicos dentro.
+1. Cree una métrica calculada a partir del proyecto de Workspace, con el título `International people`.
+1. Desde el Creador de métricas calculadas, cree un filtro, con el título `Not Germany`, que use el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
 
-1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica calculada.
+   El filtro debe tener el aspecto siguiente:.
 
-1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de forma libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
+   ![Filtrar Alemania](assets/filter-not-germany.png)
 
-   ![Tabla de forma libre que muestra la dimensión Página para visitantes alemanes y visitantes internacionales](assets/workspace-pages.png)
+1. De nuevo en el Creador de métricas calculadas, utilice el filtro para actualizar la métrica calculada.
 
-A continuación, se muestra un vídeo introductorio:
+   ![Métrica calculada Alemania](assets/calculated-metric-notgermany.png)
+
+
+1. Cree un proyecto en Analysis Workspace, donde vea las páginas visitadas por personas alemanas e internacionales.
+
+   ![Visualización de tabla de forma libre de Workspace que muestra personas alemanas frente a internacionales](assets/workspace-german-vs-international.png)
+
+
+## Totales
+
+1. Cree dos nuevos filtros basados en el Total general. Abra todos los filtros creados anteriormente, cambie el nombre del filtro, establezca el **[!UICONTROL Tipo de métrica]** para **[!UICONTROL Personas]** en **[!UICONTROL Total general]** y use **[!UICONTROL Guardar como]** para guardar el filtro con el nuevo nombre. Por ejemplo:
+
+   ![Métrica total para Alemania](assets/calculated-metric-germany-total.png)
+
+1. Agregue una nueva visualización de tabla de forma libre a su proyecto de Workspace, que muestra las páginas totales de este mes.
+
+   ![Visualización de tabla de forma libre de Workspace que muestra personas en alemán frente a personas en total internacionales](assets/workspace-german-vs-international-totals.png)
+
+
+## Porcentajes
+
+1. Cree dos nuevas métricas calculadas que calculen un porcentaje a partir de las métricas calculadas creadas anteriormente.
+
+   ![Visualización de tabla de forma libre de Workspace que muestra el porcentaje de personas en alemán frente al total internacional](assets/calculated-metric-germany-total-percentage.png)
+
+
+1. Actualice el proyecto de Workspace.
+
+   ![Visualización de tabla de forma libre de Workspace que muestra personas en alemán frente a personas en total internacionales](assets/workspace-german-vs-international-totals-percentage.png)
+
+
++++ Este es un vídeo que ilustra cómo utilizar una métrica calculada filtrada como métrica sin implementación.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
-## Porcentaje del total de métricas {#percent-total}
+{{videoaa}}
 
-Puede llevar el ejemplo anterior un paso más allá comparando el filtro con una población total. Para ello, cree dos métricas: “% de visitantes alemanes totales” y “% de visitantes internacionales totales”.
-
-1. Coloque el filtro de Visitantes alemanes (o internacionales) en el lienzo.
-1. Coloque otro segmento de Visitantes alemanes (o internacionales) a continuación. Sin embargo, en esta ocasión, haga clic en el icono de configuración (el engranaje) para seleccionar “Total” como Tipo de métrica. El formato debe ser “Porcentaje”. El operador debe ser “dividido por”. Al final, tendrá esta definición de métrica:
-
-   ![Países es igual a Alemania y Total de visitantes únicos](assets/cm_metric_total.png)
-
-1. Aplique esta métrica a su proyecto:
-
-   ![Tabla de forma libre con página y % del total de visitantes alemanes](assets/cm_percent_total.png)
++++

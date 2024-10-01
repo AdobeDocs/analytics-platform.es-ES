@@ -4,38 +4,48 @@ title: Filtros de etiquetas
 feature: Filters
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 96%
+source-wordcount: '193'
+ht-degree: 2%
 
 ---
 
-# Filtros de etiquetas {#tag}
+# Filtros de etiquetas
 
-En el Administrador de filtros, el etiquetado de filtros le permite organizarlos. Todos los usuarios pueden crear etiquetas para los filtros y aplicar una o más a un filtro. Sin embargo, solo verá las etiquetas de los filtros que sean suyos o que se hayan compartido con usted.
+En el [Administrador de filtros](manage-filters.md), puede usar etiquetas para organizar los filtros. Los administradores pueden etiquetar todos los filtros. Los usuarios que no son administradores pueden etiquetar solo los filtros que crean o que se han compartido con ellos.
 
-¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:
+Para etiquetar uno o varios filtros:
 
-* Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil.
+1. En el [Administrador de filtros](manage-filters.md), seleccione uno o varios de los filtros que desee etiquetar.
+1. En la barra de acciones, seleccione ![Etiquetas](/help/assets/icons/Labels.svg) **[!UICONTROL Etiqueta]**.
+1. En el diálogo **[!UICONTROL Filtros de etiquetas]**:
 
-* Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada.
+   ![Cuadro de diálogo Filtros de etiquetas](assets/tag-filter-dialog.png)
 
-* Etiquetas de categorías: Para hombres o Área geográfica.
+   1. (opcionalmente) use ![Buscar](/help/assets/icons/Search.svg) para buscar y limitar la lista de etiquetas.
 
-* Etiquetas de flujo de trabajo: pendiente de aprobación, conservado para (una unidad empresarial específica).
+   2. Según la lista de etiquetas:
 
-Para etiquetar un filtro:
+      * seleccione una o varias etiquetas existentes de la lista, o bien
+      * escriba una etiqueta nueva y presione **[!UICONTROL ENTRAR]**. Repita el proceso para agregar más de una etiqueta nueva.
 
-1. En el Administrador de filtros, marque la casilla que aparece junto al filtro que desea etiquetar. Aparecerá la barra de herramientas para la administración de filtros.
+1. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas del filtro. Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
-1. Haga clic en **[!UICONTROL Etiqueta]** y:
+Una vez guardadas, las etiquetas se enumeran en el campo [!UICONTROL Etiqueta] para los filtros seleccionados en el [Generador de filtros](filter-builder.md).
 
-   * Seleccione una de las etiquetas existentes, o bien
 
-   * introduzca un nuevo nombre de etiqueta y pulse **[!UICONTROL Intro]**.
+## Sugerencias
 
-1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar el filtro.
+A continuación se presentan algunas sugerencias para organizar las etiquetas en función de:
 
-La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
-También puede filtrar las etiquetas accediendo a **[!UICONTROL Filtros > Etiquetas]**.
+* **Equipo**: Por ejemplo, Marketing social, Marketing móvil.
+
+* **Proyecto**: por ejemplo, análisis de página de entrada.
+
+* **Categoría**:. Por ejemplo, Hombres, Mujeres, Niños.
+
+* **Área geográfica**: Por ejemplo: Estados Unidos, California.
+
+* **Flujo de trabajo**: Por ejemplo: Para aprobar, Revisado
+

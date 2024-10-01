@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: c6800f1fa36298f3d2aa53c36c78398d9d3fd670
+source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1461'
 ht-degree: 14%
 
 ---
@@ -146,7 +146,7 @@ Puede proporcionar acceso de administración de perfil de producto a un líder d
 
 ### Control de acceso de nivel de fila
 
-Supongamos que desea que los usuarios tengan acceso a los datos de un solo día. Así se limita el acceso a esas filas específicas:
+Desea que los usuarios tengan acceso a los datos de un solo día. Así se limita el acceso a esas filas específicas:
 
 1. Cree un filtro en [!UICONTROL Configuración] de una vista de datos específica, donde [!UICONTROL Día] es igual a la fecha en la que desea que tengan acceso a los datos. Consulte [Crear vista de datos](/help/data-views/create-dataview.md#settings-filters) para obtener más información.
 1. Guarde la vista de datos, que aplica el filtro a la parte de datos de los conjuntos de datos de la conexión subyacente. Las filas que no se ajusten a la definición del filtro se excluyen automáticamente de la vista de datos y no están disponibles para Analysis Workspace al utilizar esta vista de datos.

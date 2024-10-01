@@ -1,73 +1,57 @@
 ---
-description: Aprenda a agregar carpetas en Workspace
+description: Obtenga información sobre cómo agregar o mover carpetas en Workspace
 keywords: Analysis Workspace
-title: Agregar carpetas en Workspace
+title: Agregar o mover carpetas
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 22%
 
 ---
 
-# Agregar proyectos a carpetas
+# Agregar o mover proyectos a carpetas
 
-Puede agregar proyectos a una carpeta en la vista de tabla o desde una carpeta.
+Puede agregar o mover proyectos a una carpeta directamente desde la [lista de proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-## Desde la vista de tabla {#table-view}
+## Mover proyectos a una carpeta
 
-Agregue proyectos a una carpeta desde la vista de tabla de la página principal.
+>[!NOTE]
+>
+>Cuando un administrador mueve un proyecto a la carpeta Compañía, esta se comparte con todos aunque los privilegios compartidos existentes estén restringidos. Cuando un administrador mueve un proyecto fuera de la carpeta de la compañía, los privilegios compartidos existentes se vuelven a aplicar.
+>
 
-1. Seleccione uno o varios proyectos que desee agregar a una carpeta.
+Para mover proyectos a una carpeta desde la [lista de proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list):
 
-   ![Vista de tabla de proyectos que muestra tres proyectos seleccionados.](/help/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) uno o más proyectos que desee mover a una carpeta.
 
-1. Seleccione **Mover a**. Se muestra el cuadro de diálogo Seleccionar carpeta.
+1. Seleccione ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **Mover a** de la lista de posibles [acciones](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions). Se muestra el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**.
 
-1. Seleccione un nombre de carpeta en el menú desplegable.
+1. Seleccione un nombre de carpeta en el menú desplegable **[!UICONTROL Carpeta]**. La lista desplegable permite recorrer la jerarquía de carpetas para seleccionar una subcarpeta en cualquier nivel.
 
-   ![La vista Seleccionar carpeta muestra el menú desplegable y las subcarpetas disponibles.](/help/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
+   ![La vista Seleccionar carpeta muestra el menú desplegable y las subcarpetas disponibles.](/help/analysis-workspace/build-workspace-project/assets/add-projects.png)
 
-1. Haga clic en **Agregar**.
+1. Seleccione **[!UICONTROL Mover]**.
 
-   ![Haga clic en Agregar.](/help/analysis-workspace/build-workspace-project/assets/move-add.png)
 
    Los proyectos seleccionados se agregan a la carpeta.
 
-   ![La subcarpeta seleccionada muestra los tres proyectos que se movieron.](/help/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
-   La página de aterrizaje de Workspace ahora muestra la carpeta que contiene (3) proyectos.
+## Agregar proyectos a una carpeta
 
-   ![La lista de la página de inicio de Proyectos actualizada muestra la subcarpeta con tres proyectos.](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+Para agregar proyectos a una carpeta desde la [lista de proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list):
 
-## Desde dentro de una carpeta {#inside-folder}
+1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) la carpeta a la que desee agregar proyectos.
 
-También puede agregar proyectos desde dentro de una carpeta mediante el vínculo de puntos suspensivos.
+1. Seleccione ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **Add Projects** de la lista de posibles [acciones](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions). Se muestra el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**.
 
-1. Seleccione y abra una carpeta desde la vista de tabla.
+1. Seleccione uno o más proyectos de [!UICONTROL *Seleccionar proyectos para agregar a la carpeta*].
 
-   ![La subcarpeta que no contiene ningún proyecto](/help/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+   ![La vista Seleccionar carpeta muestra el menú desplegable y las subcarpetas disponibles.](/help/analysis-workspace/build-workspace-project/assets/add-projects-folder.png)
 
-1. Haga clic en el icono puntos suspensivos **…** en la parte superior derecha.
-
-   ![Las opciones del menú desplegable de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   Un menú desplegable muestra la opción para agregar proyectos a la carpeta. Las opciones adicionales le permiten cambiar el nombre de la carpeta, moverla o eliminarla, así como administrar los permisos de la carpeta.
-
-1. Seleccione **Agregar proyectos** y seleccione el proyecto que desee agregar en la lista desplegable.
-
-   ![La lista Agregar proyectos.](/help/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
-
-   Se pueden agregar varios proyectos a la carpeta.
-
-   ![Se agrega la ventana Agregar proyectos que muestra tres proyectos](/help/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
-
-1. Haga clic en **Agregar** para agregar los proyectos a la carpeta.
-
-   ![Haga clic en Agregar.](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
+1. Seleccione **[!UICONTROL Agregar]**.
 
 >[!NOTE]
 >

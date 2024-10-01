@@ -5,7 +5,7 @@ title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 3%
@@ -67,7 +67,7 @@ Para exportar tablas completas desde Analysis Workspace:
    | Descripción | Añada una descripción a la exportación. Puede elegir ver las descripciones como una columna en la [página Exportaciones](/help/components/exports/manage-exports.md) al ver las exportaciones. |
    | Vista de datos | Seleccione la vista de datos que contiene los componentes que desea incluir en la exportación. El menú desplegable Vista de datos se encuentra en la esquina superior izquierda del cuadro de diálogo y se puede identificar mediante el icono de vista de datos![icono de vista de datos](assets/data-view-icon.png).  <p>**Nota:** Si elige una vista de datos a la que le faltan componentes que ya están incluidos en la tabla de datos, se le pedirá que borre la tabla de datos y la vuelva a crear utilizando componentes incluidos en la vista de datos seleccionada. </p> |
    | Ventana retroactiva | Seleccione el lapso de tiempo de la creación de informes que se incluirá en cada archivo de exportación. Las opciones incluyen [!UICONTROL **Hoy**], [!UICONTROL **Ayer**], [!UICONTROL **Últimos 7 días**], [!UICONTROL **Últimos 30 días**], [!UICONTROL **Esta semana**] y [!UICONTROL **Este mes**]. <p>Esta opción no se muestra cuando [!UICONTROL **Frecuencia de exportación**] está establecida en [!UICONTROL **Enviar ahora (solo una vez)**]. |
-   | Tabla de datos | Muestra la tabla de forma libre que está exportando. Puede modificar la tabla de datos arrastrando componentes del carril izquierdo a la tabla. La tabla se actualiza dinámicamente a medida que se añaden componentes al lienzo.  <p>Cualquier segmento que se haya aplicado a la tabla completa del proyecto aparecerá en la parte superior de cada columna individual de la tabla.</p> |
+   | Tabla de datos | Muestra la tabla de forma libre que está exportando. Puede modificar la tabla de datos arrastrando componentes del panel izquierdo a la tabla. La tabla se actualiza dinámicamente a medida que se añaden componentes al lienzo.  <p>Cualquier segmento que se haya aplicado a la tabla completa del proyecto aparecerá en la parte superior de cada columna individual de la tabla.</p> |
    | Borrar | Borra el contenido de la tabla de datos. Esto le permite empezar a crear una nueva tabla directamente dentro del cuadro de diálogo de exportación Nueva tabla completa. |
    | Frecuencia de exportación | Establezca la programación de la frecuencia con la que debe producirse la exportación. <p>Puede elegir [!UICONTROL **Enviar ahora (solo una vez)**] para enviar la exportación solo una vez. Al seleccionar esta opción, la exportación se inicia inmediatamente.<p>O bien, puede elegir enviar la exportación según una programación definida. Al enviar una programación, las opciones incluyen [!UICONTROL **Diario**], [!UICONTROL **Semanal**], [!UICONTROL **Mensual por día de la semana**], [!UICONTROL **Mensual por día del mes**], [!UICONTROL **Anual por día del mes**] y [!UICONTROL **Anual por fecha específica**]. </p><p>Al seleccionar una frecuencia de exportación, tenga en cuenta lo siguiente:</p><ul><li>Las opciones del campo [!UICONTROL **Ventana retrospectiva**] cambian según lo que seleccione aquí.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>Los campos de configuración adicionales se muestran según la opción elegida.</li></ul> |
    | Comienza el | El día y la hora en que debe comenzar la exportación programada. <p>Esta opción solo está disponible al elegir una frecuencia de exportación programada.</p> |
@@ -211,7 +211,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
 Si anteriormente ha utilizado Data Warehouse para exportar datos de Adobe Analytics, la siguiente tabla puede ayudarle a comprender las diferencias entre exportar tablas completas en Customer Journey Analytics y exportar datos con Data Warehouse en Adobe Analytics.
 
 
-| Funcionalidad | Exportación de tabla completa en Customer Journey Analytics | Data Warehouse en Adobe Analytics |
+| Función | Exportación de tabla completa en Customer Journey Analytics | Data Warehouse en Adobe Analytics |
 |---------|----------|---------|
 | Creación de un informe personalizado | Sí | Sí |
 | Métricas calculadas  | Sí | No |

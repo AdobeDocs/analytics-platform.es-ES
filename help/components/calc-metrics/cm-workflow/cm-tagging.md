@@ -3,54 +3,80 @@ description: En el Administrador de métricas calculadas, el etiquetado de segme
 title: Etiquetar métricas calculadas
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 12%
+source-wordcount: '171'
+ht-degree: 10%
 
 ---
 
 # Etiquetar métricas calculadas
 
-En el Administrador de métricas calculadas, puede organizar los filtros etiquetándolos.
 
-Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar una o más a una métrica. Sin embargo, solo verá las etiquetas de las métricas calculadas que sean suyas o que se hayan compartido con usted.
+En [Administrador de métricas calculadas](cm-manager.md), puede usar etiquetas para organizar las métricas calculadas. Los administradores pueden etiquetar todas las métricas calculadas. Los usuarios que no son administradores pueden etiquetar solo las métricas calculadas que han creado o que se han compartido con ellos.
+
+Para etiquetar una o más métricas calculadas:
+
+1. En el [Administrador de métricas calculadas](cm-manager.md), seleccione una o varias de las métricas calculadas que desee etiquetar.
+1. En la barra de acciones, seleccione ![Etiquetas](/help/assets/icons/Labels.svg) **[!UICONTROL Etiqueta]**.
+1. En el diálogo **[!UICONTROL Etiquetar métricas calculadas]**
+
+   ![Cuadro de diálogo de métrica calculada de etiqueta](assets/tag-calculated-metric-dialog.png)
+
+   1. (opcionalmente) use ![Buscar](/help/assets/icons/Search.svg) para buscar y limitar la lista de etiquetas.
+
+   2. Según la lista de etiquetas:
+
+      * seleccione una o varias etiquetas existentes de la lista, o bien
+      * escriba una etiqueta nueva y presione **[!UICONTROL ENTRAR]**. Repita el proceso para agregar más de una etiqueta nueva.
+
+1. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de las métricas calculadas. Seleccione **[!UICONTROL Cancelar]** para cancelar.
+
+Una vez guardadas, las etiquetas se enumeran en el campo [!UICONTROL Etiqueta] para la métrica calculada seleccionada en el [Creador de métricas calculadas](cm-tagging.md).
+
+<!--
+
+In the Calculated metric manager, you can organize filters by tagging them.
+
+All users can create tags for calculated metrics and apply one or more tags to a metric. However, you can see tags only for those calculated metrics that you own or that have been shared with you. 
 
 >[!TIP]
 >
->Los tipos de etiquetas más útiles suelen ser las que se basan en los siguientes criterios:
+>The most useful types of tags are usually tags that are based on the following criteria:
 >
->* **Nombres de equipos**, como Marketing social o Marketing móvil.
->* **Proyecto** (etiquetas de análisis), como análisis de página de entrada.
->* **Categorías**, como de mujer o geografía.
->* **Flujos de trabajo**, como Para aprobar o Depurar para (una unidad empresarial específica).
+>* **Team names**, such as Social Marketing or Mobile Marketing.
+>* **Project** (analysis tags), such as Entry-page analysis.
+>* **Categories**, such as Women's or Geography.
+>* **Workflows**, such as To be approved or Curated for (a specific business unit).
 
-## Aplicación de etiquetas a una métrica calculada
+## Apply tags to a calculated metric
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
+1. In Customer Journey Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
 
-1. En el Administrador de métricas calculadas, active la casilla que hay junto a las métricas que desea etiquetar.
+1. In the Calculated metrics manager, select the checkbox next to any metrics that you want to tag.
 
-   ![Lista de métricas calculadas de etiquetas con marketing móvil seleccionado.](assets/cm_add_tags.png)
+   ![Tag Calculated metric list with Mobile marketing selected.](assets/cm_add_tags.png)
 
-1. En el cuadro de diálogo [!UICONTROL **Etiqueta Métrica calculada**]:
+1. In the [!UICONTROL **Tag Calculated metric**] dialog box: 
 
-   * Añada una etiqueta nueva. Escriba el nombre en el campo **[!UICONTROL Agregar etiquetas]** y, a continuación, presione Entrar.
-   * Seleccione una o varias etiquetas existentes para aplicarlas a las métricas seleccionadas.
+   * Add a new tag. Type the name in the **[!UICONTROL Add tags]** field, then press Enter.
+   * Select one or more existing tags to apply to the selected metrics.
 
-1. Seleccione [!UICONTROL **Guardar**] para aplicar las etiquetas.
+1. Select [!UICONTROL **Save**] to apply the tags.
 
-## Ver etiquetas aplicadas
+## View applied tags
 
-1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
+1. In Customer Journey Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-1. En el Administrador de métricas calculadas, las etiquetas aparecen en la columna [!UICONTROL **Etiquetas**]. (Haga clic en el icono de engranaje en la parte superior derecha para administrar las columnas.)
+1. In the Calculated metrics manager, tags appear in the [!UICONTROL **Tags**] column. (Click the gear icon on the top-right to manage your columns.)
 
-## Filtrado de métricas por etiquetas
+## Filter metrics by tags
 
-1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
+1. In Customer Journey Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-1. En el Administrador de métricas calculadas, seleccione el icono **Filtro** y, a continuación, las etiquetas por las que desea filtrar.
+1. In the Calculated metrics manager, select the **Filter** icon, then select the tags that you want to filter by. 
 
-   Solo se muestran las métricas que tienen el filtro seleccionado.
+   Only metrics that have the filter you select are shown.
+
+-->
 

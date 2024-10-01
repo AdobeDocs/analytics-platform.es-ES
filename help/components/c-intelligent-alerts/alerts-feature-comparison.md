@@ -3,18 +3,16 @@ description: Descubra cómo difieren las alertas en el Customer Journey Analytic
 title: Customer Journey Analytics de comparación de funciones de alertas y Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 0%
+source-wordcount: '560'
+ht-degree: 5%
 
 ---
 
-# Comparación de funciones de alertas: Customer Journey Analytics y Adobe Analytics
+# Comparación de características de alertas
 
-El proceso de uso de alertas en Customer Journey Analytics es casi idéntico al uso de alertas en Adobe Analytics. Sin embargo, hay diferencias importantes.
-
-Las siguientes secciones describen las diferencias clave.
+El proceso de utilización de alertas en Customer Journey Analytics es casi idéntico al de las alertas en Adobe Analytics. Sin embargo, hay diferencias importantes. Las siguientes secciones describen las diferencias clave.
 
 ## Las alertas horarias no están disponibles en el Customer Journey Analytics
 

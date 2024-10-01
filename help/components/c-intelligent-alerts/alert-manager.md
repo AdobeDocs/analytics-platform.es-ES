@@ -1,110 +1,121 @@
 ---
 description: Crear, editar o eliminar alertas.
-title: Administrador de alertas (Analysis Workspace)
+title: Administrar alertas
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 7%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
 # Administración de alertas
 
-Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
+
+Puede filtrar, etiquetar, eliminar, cambiar el nombre, copiar, habilitar, deshabilitar, renovar y exportar alertas desde una interfaz de administración central de [!UICONTROL Alerts]. Para administrar alertas:
+
+* Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Alertas]**.
 
 El Administrador de alertas tiene una estructura muy similar al [Administrador de filtros](/help/components/filters/manage-filters.md) y al [Administrador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
-## Creación de alertas
 
-Para crear alertas desde el Administrador de alertas:
+## Administrador de alertas
 
-1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en el Customer Journey Analytics.
+El Administrador de alertas tiene los siguientes elementos de interfaz:
 
-   ![](assets/alert-manager.png)
+![Interfaz de filtros](assets/alerts-manager.png)
 
-1. Seleccione [!UICONTROL **Agregar**] (o [!UICONTROL **Crear nueva alerta**] si no tiene ninguna alerta existente).
+### Lista de alertas
 
-1. Continúe con [Crear alertas](/help/components/c-intelligent-alerts/alert-builder.md) para obtener más información sobre cómo crear alertas.
+La lista de alertas ➊ muestra todas las alertas que posee, las alertas que se han asignado a todos sus proyectos y las alertas que se han compartido con usted. La lista tiene las columnas siguientes:
 
-## Administrar alertas existentes
+| Columna | Descripción |
+|---|---|
+| ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Star](/help/assets/icons/Star.svg) o para anular la preferencia de ![StarOutline](/help/assets/icons/StarOutline.svg) sobre una alerta. |
+| **[!UICONTROL Título y descripción]** | Para editar la alerta, seleccione el vínculo del título, que abre el [Generador de alertas](alert-builder.md#alert-builder). |
+| **[!UICONTROL Tipo]** | Muestra si se trata de una alerta de datos del Customer Journey Analytics o de una alerta de uso de llamadas al servidor. |
+| **[!UICONTROL Habilitado]** | Indica si la alerta está habilitada o deshabilitada. |
+| **[!UICONTROL Vista de datos]** | Las vistas de datos a las que se aplica esta alerta. |
+| **[!UICONTROL Propietario]** | El propietario de la alerta. Si no es el administrador, solo verá las alertas que le pertenecen o que han compartido con usted. |
+| **[!UICONTROL Etiquetas]** | Las etiquetas de esta alerta. |
+| **[!UICONTROL Fecha de caducidad]** | La fecha y hora en que la alerta está configurada para caducar. |
+| **[!UICONTROL Fecha de modificación]** | La fecha y la hora de la última modificación de la alerta. |
 
-Para administrar las alertas existentes en el Administrador de alertas:
+<!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
 
-1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en el Customer Journey Analytics.
+Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué columnas desea mostrar.
 
-   ![](assets/alert-manager.png)
+### Barra de acciones
 
-1. Seleccione una o varias alertas que desee administrar.
+Puede realizar acciones en las alertas mediante el ➋ de la barra de acciones. La barra de acciones contiene las siguientes acciones:
 
-   ![](assets/alert-manager-tasks.png)
+| Acción | Descripción |
+|---|---|
+| ![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Agregar]** | Agregue otra alerta con el [Generador de alertas](alert-builder.md#alert-builder). |
+| ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar por título*] | Cuando no se selecciona ninguna alerta en la lista, buscar alertas mediante este campo de búsqueda. |
+| ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Etiqueta]** | Etiquetar las alertas seleccionadas. En el cuadro de diálogo **[!UICONTROL Alerta de etiqueta]**, seleccione o anule la selección de las etiquetas de las alertas seleccionadas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de las alertas seleccionadas. |
+| ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Eliminar las alertas seleccionadas. Se le pedirá una confirmación. |
+| ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Cambiar nombre]** | Cambiar el nombre de una alerta seleccionada. Cuando se selecciona, puede cambiar el nombre de la alerta en línea. |
+| ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** | Copiar la alerta seleccionada. Las nuevas alertas se crean con el mismo nombre y sufijo `(Copy)`. |
+| ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Habilitar]** o **[!UICONTROL Deshabilitar]** | Activar o desactivar las alertas seleccionadas. |
+| ![Actualizar](/help/assets/icons/Refresh.svg) **[!UICONTROL Renovar]** | Renueva la fecha de caducidad de la alerta. La fecha de caducidad se extiende 1 año a partir del día en que seleccione esta opción, independientemente de la fecha de caducidad original. |
+| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** | Exportar las alertas a un archivo de `Alerts List.csv`. |
 
-1. En la barra de acciones, seleccione cualquiera de las siguientes opciones:
 
-   | Acción | Función |
-   |---------|----------|
-   | [!UICONTROL **Etiqueta**] | Aplicar una etiqueta a una alerta. Esto le ayuda a organizar las alertas para facilitar su uso. |
-   | [!UICONTROL **Eliminar**] | Elimina la alerta. |
-   | [!UICONTROL **Cambiar el nombre**] | Cambia el nombre de la alerta. |
-   | [!UICONTROL **Aprobar**] | Marcar la alerta como Aprobada. |
-   | [!UICONTROL **Copiar**] | Crea una copia (duplicado) de la alerta. |
-   | [!UICONTROL **Deshabilitar**] | Deshabilita una alerta que está habilitada actualmente. |
-   | [!UICONTROL **Activar**] | Habilita una alerta que está deshabilitada actualmente. |
-   | [!UICONTROL **Renovar**] | Renueva la fecha de caducidad de la alerta. Esto amplía la fecha de caducidad a 1 año a partir del día en que seleccionó esta opción, independientemente de la fecha de caducidad original. |
-   | [!UICONTROL **Exportar a CSV**] | Exporta la alerta a un archivo .CSV. |
+### Barra de filtro activa
 
-## Editar una alerta
+La ➌ de la barra de filtros muestra los filtros activos aplicados desde el panel de filtros a la lista de alertas (si los hay). Puede quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puede quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
 
-Para editar una alerta existente:
 
-1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en Adobe Analytics.
+### Panel Filtro
 
-   ![](assets/alert-manager.png)
+Puede filtrar la lista de alertas con el ➍ del panel izquierdo ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]**. El panel Filtro muestra el tipo de filtro y el número de alertas que respetan el filtro específico.
 
-1. Seleccione el nombre de la alerta en la columna [!UICONTROL **Título y descripción**].
+{{filterspanel}}
 
-1. Edite la alerta como desee.
 
-   A continuación se indican algunas de las acciones que puede realizar al editar una alerta:
+#### Sección de filtro de etiquetas
 
-   * Agregar alertas a otros grupos de informes
-   * Cambiar el propietario
-   * Actualización de los filtros
-   * Actualizar la fecha de caducidad
+{{tagfiltersection}}
 
-1. Edite la alerta y, a continuación, seleccione [!UICONTROL **Guardar**].
 
-## Configuración de columnas
+#### Sección Filtro de vista de datos
 
-Puede configurar la información mostrada para cada alerta en el Administrador de alertas configurando las columnas que se muestran.
+{{dataviewfiltersection}}
 
-Para configurar las columnas visibles en el Administrador de alertas:
 
-1. En Adobe Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Alertas]**.
+#### Sección de filtro Propietarios
 
-1. En el Administrador de alertas, seleccione el icono **Personalizar columnas** ![Personalizar icono de columnas](assets/customize-columns-icon.png) y, a continuación, seleccione las columnas que desea que se muestren en el Administrador de alertas.
+{{ownerfiltersection}}
 
-   Las columnas disponibles son las siguientes:
 
-   | Título de columna | Descripción |
-   |---|---|
-   | Título y descripción | Estos valores se proporcionan en el Generador de alertas. Para editar el título y la descripción, seleccione el vínculo del título para abrir el Generador de alertas. |
-   | Favoritos | Muestra iconos de estrella junto a cada alerta, lo que permite marcar las alertas como favoritas. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | Tipo | Muestra si la alerta es una alerta de datos de Analytics o una alerta de uso de llamadas al servidor. |
-   | Habilitado | Muestra si la alerta está habilitada o deshabilitada actualmente. |
-   | Grupo de informes | Indica en qué grupo de informes se guardó por última vez la alerta. |
-   | Propietario | Indica a quién pertenece la alerta. Si no es el administrador, solo podrá ver las alertas que le pertenecen o que compartieron con usted. |
-   | Etiquetas | Muestra las etiquetas aplicadas a la alerta, tanto por su parte como por parte de las personas que han compartido la alerta con usted. |
-   | Fecha de caducidad | Muestra la fecha y la hora en que la alerta está configurada para caducar. |
-   | Fecha de modificación | Indica la fecha de la última modificación de la alerta. |
+#### Sección de filtro de estado habilitado
 
-   {style="table-layout:auto"}
+{{enabledstatusfiltersection}}
 
-   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+
+#### Escriba la sección de filtro
+
+{{typefiltersection}}
+
+
+#### Otros filtros, sección de filtro
+
+{{otherfiltersfiltersection}}
+
+
+
+## Editar alertas
+
+Puede editar una alerta
+
+* En la lista [[!UICONTROL Alerta]](#alerts-list), seleccione el título de la alerta.
+
+Utiliza el [Generador de alertas](alert-builder.md#alert-builder) para editar la alerta.
 
 ## Solución de problemas de una alerta
 
-Cuando solucione un problema con una alerta, proporcione el número JID (ID de instancia de trabajo) a Asistencia técnica de Adobe. El número JID se encuentra en la parte inferior de la notificación de alerta por correo electrónico que ha recibido.
+Cuando solucione un problema con una alerta, proporcione el número JID (ID de instancia de trabajo) a Asistencia técnica de Adobe. El número JID se encuentra en la parte inferior de la notificación de alerta por correo electrónico que recibe.
 
 ![Correo electrónico de alerta](assets/alerts-email.PNG)

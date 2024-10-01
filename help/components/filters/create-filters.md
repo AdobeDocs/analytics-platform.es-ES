@@ -4,31 +4,32 @@ description: Comprenda la interfaz de usuario para la creación de filtros.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 55%
+source-wordcount: '262'
+ht-degree: 3%
 
 ---
 
 # Crear filtros
 
-Puede crear diferentes tipos de filtros en Workspace, en función de su complejidad, si solo deben aplicarse al proyecto actual o a todos los proyectos, etc.
+Puede crear diferentes tipos de filtros en Customer Journey Analytics.  El tipo que seleccione dependerá de la complejidad de los filtros y de si solo deben aplicarse al proyecto de Workspace actual o a todos los proyectos. Puede crear filtros directamente en la interfaz principal de Customer Journey Analytics o cuando trabaje en un proyecto de Workspace.
 
-A continuación se muestra un resumen de los tipos de filtros disponibles, con vínculos a información sobre cómo crearlos:
+De forma predeterminada, solo los administradores pueden crear filtros. Los usuarios tienen derechos para ver filtros, de forma similar a como ven otros componentes (como anotaciones, métricas calculadas, etc.).
 
-| Tipo de filtro | ¿Creado dónde? | ¿Dónde se aplica? | Uso |
-| --- | --- | --- | --- |
-| Filtro de lista de componentes | Haga clic en +, que le lleva al [Generador de filtros](/help/components/filters/filter-builder.md) | Todos los proyectos de Workspace | Para filtros más complejos, filtros secuenciales |
-| Filtro rápido | [Generador de filtros rápidos](/help/components/filters/quick-filters.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Se puede utilizar para filtros ad hoc de una sola regla (con arrastrar y soltar) o para agregar o editar varias reglas (haciendo clic en el icono Filtro ) |
-| Filtros en un análisis de visitas en orden previsto | [Visualización de visitas en orden previsto](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) en Analysis Workspace | Para visualizaciones de visitas en el orden previsto individuales | Cree filtros a partir de un punto de contacto, añada filtros como punto de contacto y compare flujos de trabajo clave entre distintos filtros |
-| Filtro basado en métricas calculadas | [Generador de métricas calculadas](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) | Para métricas calculadas individuales | Aplicar filtros dentro de su definición de métrica |
+Sin embargo, los administradores pueden dar permiso a **[!UICONTROL Creación de filtros]** para **[!UICONTROL Herramientas de creación de informes]** en **[!UICONTROL Editar permisos para el acceso a Workspace de CJA]** a los usuarios a través del [Admin Console](/help/technotes/access-control.md#user-level-access).
 
-Al aplicar filtros a un proyecto de forma libre, también están disponibles varios métodos más:
+Puede crear un filtro de las siguientes maneras:
 
-| Acción | Descripción |
-| --- | --- |
-| Crear filtro desde la selección | Cree un filtro en línea. Este filtro se aplica solamente al proyecto abierto y no se guarda como filtro de Customer Journey Analytics.<p> 1. Seleccione qué filas de tabla desea que formen parte del filtro.  2. Haga clic con el botón secundario en la selección.  3. Haga clic en *Crear filtro de selección*. |
-| Espacio de trabajo [!UICONTROL Componentes] > [!UICONTROL Nuevo filtro] | Se abre el Generador de filtros. Consulte el [Generador de filtros](/help/components/filters/filter-builder.md) para obtener más información acerca de la creación de filtros. |
-| Compartir > Compartir proyecto o Compartir > Depurar datos del proyecto | En [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) o [Depurar proyectos](/help/analysis-workspace/curate-share/curate.md), descubra cómo los filtros que aplica al proyecto están disponibles en el análisis compartido para el destinatario. |
-| Usar filtros como dimensiones | El siguiente vídeo muestra cómo utilizar filtros como dimensiones:  <p>[Uso de filtros como dimensiones en Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html?lang=es)</p> |
+![Formas de crear un filtro](assets/create-filter.png)
+
+* ?? En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Filtros]**. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] del administrador de [[!UICONTROL Filtros]](/help/components/filters/manage-filters.md).
+* ?? En un proyecto de Workspace, en el panel izquierdo Componentes, seleccione ![Agregar](/help/assets/icons/Add.svg) en ![Segmento](/help/assets/icons/Segmentation.svg) **Filtros**.
+* ?? En un proyecto de Workspace, en el menú contextual de una visualización, seleccione **[!UICONTROL Crear filtro a partir de la selección]**.
+* ?? En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú y seleccione **[!UICONTROL Crear filtro]**.
+* ?? En un proyecto de Workspace, use el acceso directo **[!UICONTROL mayús+cmd+e]** (macOS) o **[!UICONTROL mayús+ctrl+e]** (Windows).
+* ?? Seleccione ![Agregar](/help/assets/icons/Add.svg) en ***Colocar un filtro aquí (o en cualquier otro componente)*** zona de colocación. Esta acción crea un filtro solo de proyecto.
+
+Para definir el nuevo filtro, usa el [Generador de filtros](/help/components/filters/filter-builder.md).
+
+Cuando se encuentra en un proyecto de Workspace, también puede crear un filtro rápidamente mediante [Filtro rápido](/help/components/filters/quick-filters.md).

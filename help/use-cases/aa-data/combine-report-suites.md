@@ -4,10 +4,10 @@ description: Aprenda a utilizar la preparación de datos para combinar grupos de
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 57%
+source-wordcount: '1321'
+ht-degree: 55%
 
 ---
 

@@ -4,51 +4,38 @@ description: Obtenga información sobre las métricas filtradas que se derivan d
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 96%
+source-wordcount: '214'
+ht-degree: 12%
 
 ---
 
 # Información general sobre las métricas calculadas
 
-Las métricas calculadas y calculadas avanzadas son métricas personalizadas que se pueden crear a partir de métricas existentes. Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Como expertos en marketing, gestores de productos y analistas, les permite plantear preguntas acerca de los datos sin tener que cambiar su implementación.  
+Las métricas calculadas son métricas personalizadas que se pueden crear a partir de métricas existentes. Las métricas calculadas ofrecen una forma flexible de crear, administrar y depurar métricas personalizadas que le permiten analizar los datos sin tener que cambiar la implementación.
 
-Puede
++++ Consulte este vídeo para ver una introducción sobre cómo utilizar las métricas calculadas.
 
-* Crear métricas filtradas que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Estas pueden verse en el historial, ya que se basan en filtros.
-* (Solo métricas calculadas avanzadas) Filtrar métricas. Por ejemplo, puede crear una métrica para “Personas nuevas”, con un recuento de las personas para las cuales esta es la primera sesión. 
-* (Solo métricas calculadas avanzadas) Incorporar funciones estadísticas para ayudar a describir mejor los datos. Por ejemplo, puede contar el número de elementos de un informe o agregar el número de desviaciones estándar para cada elemento.
+>[!VIDEO](https://video.tv.adobe.com/v/31787/?learn=on)
 
-## Métricas calculadas en comparación con métricas calculadas avanzadas
++++
 
-A continuación se muestra una comparación de las competencias de las métricas calculadas y las métricas calculadas avanzadas:
+Un flujo de trabajo típico para las métricas calculadas consiste en estas tareas
 
-| Opciones del creador | Métricas calculadas | Métricas calculadas avanzadas |
-|---|---|---|
-| Tipos de formato (decimal, tiempo, porcentaje, moneda) | Sí | Sí |
-| Cambios de atribución (predeterminado, lineal, de participación, etc.) | Sí | Sí |
-| Tipos de métrica (estándar, total) | Sí | Sí |
-| Operadores básicos (sumar, restar, multiplicar, dividir) | Sí | Sí |
-| Aplicar filtros | No | Sí |
-| [Funciones básicas (recuento, valor absoluto, media, etc.)](/help/components/calc-metrics/cm-functions.md) | No | Sí |
-| [Funciones avanzadas (regresión, si/entonces, unidad tipificada, etc.)](/help/components/calc-metrics/cm-adv-functions.md) | No | Sí |
-
-## Herramientas
-
-| Herramienta | Competencias |
-|--- |--- |
-| Generador de métricas calculadas | <ul><li>Cree métricas calculadas avanzadas con modelos de asignación avanzados.</li><li>Añadir filtros en línea a fórmulas métricas.</li><li>Comparar filtros en el mismo informe. Por ejemplo, comparar los visitantes locales con los internacionales.</li><li>Utilizar funciones estadísticas.</li><li> Proporcionar descripciones de métricas detalladas (mostrar qué hace, dónde utilizarla y para qué NO utilizarla).</li><li>Copiar definiciones en métricas nuevas.</li><li>Proporcionar una vista previa de métricas en línea.</li><li>Establecer la polaridad de una métrica, lo cual indica si es bueno o malo que un evento personalizado predeterminado (métrica) vaya al alza.</li><li>Etiquetar métricas.</li></ul> |
-| Administrador de métricas calculadas | <ul><li>Compartir métricas con otros.</li><li>Aprobar y ajustar métricas.</li><li>Organizar (etiquetar) sus métricas para que los demás puedan encontrarlas.</li><li>Eliminar métricas.</li><li>Cambiar el nombre de métricas.</li></ul> |
-| API para métricas calculadas | Parte del conjunto de API de Customer Journey Analytics. |
-
-## Plantillas de métricas calculadas en Customer Journey Analytics
-
-| Nombre de métrica calculada | Descripción de métrica calculada |
+| Tarea | Descripción |
 | --- | --- |
-| Sesiones por persona | Número promedio de sesiones por persona |
-| Tasa de inicio de sesión | Porcentaje de tiempo que un elemento de dimensión tuvo lugar en el primer evento de una sesión. |
-| Tasa de finalización de sesión | Porcentaje de tiempo que cualquier elemento de dimensión se produjo en el último evento de una sesión. |
-| Tiempo empleado por persona | Promedio de tiempo que una persona ha invertido en un elemento de dimensión determinado. |
-| Tiempo empleado por sesión | Promedio de tiempo que una persona ha invertido por sesión en un elemento de dimensión determinado. |
+| Planificar | En especial, para las métricas que se van a aprobar oficialmente ![Marca de verificación](/help/assets/icons/Checkmark.svg), planifique y estructure cuidadosamente las métricas calculadas que anticipa que se utilicen con frecuencia. |
+| [Versión](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | Cree, modifique y guarde métricas calculadas. |
+| [Aplicar](/help/components/use-components-in-workspace.md) | Aplique métricas calculadas directamente dentro de sus proyectos de Workspace. |
+| [Administrar](/help/components/calc-metrics/cm-workflow/cm-manager.md) | Administrar métricas calculadas. Puedes [etiquetar](/help/components/calc-metrics/cm-workflow/cm-tagging.md), [aprobar](/help/components/calc-metrics/cm-workflow/cm-approving.md), [desaprobar](/help/components/calc-metrics/cm-workflow/cm-approving.md), [filtrar](/help/components/calc-metrics/cm-workflow/cm-filter.md), [favorecer](/help/components/calc-metrics/cm-workflow/cm-favorite.md) o [desfavorecer](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [compartir](/help/components/calc-metrics/cm-workflow/cm-sharing.md) o [copiar](/help/components/calc-metrics/cm-workflow/cm-copy.md) una o más métricas calculadas. |
+
+Consulte [Crear métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-workflow.md) para ver las distintas opciones disponibles para crear métricas calculadas. Usted genera, modifica y guarda la definición de las métricas calculadas en el [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md).
+
+Las métricas calculadas se utilizan directamente en Analysis Workspace. Ver [Usar componentes en Analysis Workspace](/help/components/use-components-in-workspace.md)
+
+Administre las métricas calculadas en [Administrador de métricas calculadas](cm-workflow/cm-manager.md).
+
+## Métricas calculadas predeterminadas
+
+El Adobe proporciona varias métricas calculadas predeterminadas que se han identificado en ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg). Consulte [Métricas calculadas predeterminadas](/help/components/calc-metrics/default-calcmetrics.md) para obtener más información.

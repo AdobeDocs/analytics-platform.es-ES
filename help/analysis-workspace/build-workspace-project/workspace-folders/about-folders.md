@@ -5,53 +5,56 @@ title: Información general de carpetas
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 5%
 
 ---
 
-# Acerca de las carpetas en Analytics
+# Acerca de las carpetas
 
-Carpetas en Analytics es un sistema de administración de carpetas que se muestra en la página de aterrizaje de Adobe Analytics y cuando se selecciona **Espacio de trabajo** > **Proyectos**.
+Las carpetas de Customer Journey Analytics están disponibles en la página de aterrizaje de Workspace cuando ha seleccionado [Mostrar carpetas y proyectos](../freeform-overview.md#show-selector).
 
-Carpetas en el Espacio de trabajo ayuda a los usuarios a organizar y clasificar sus proyectos para facilitar su consulta y acceso. Además, una carpeta Compañía compartida permite a los administradores crear y compartir contenido fácilmente con todos los usuarios del Espacio de trabajo.
+Las carpetas de Workspace le ayudan a organizar y clasificar sus proyectos. Con la funcionalidad de carpetas, puede crear carpetas y subcarpetas para administrar sus proyectos.
 
-Cuando tiene una larga lista de proyectos, navegar a uno específico presenta desafíos. Con la funcionalidad de carpetas, puede crear carpetas y subcarpetas para administrar sus proyectos, lo que facilita la búsqueda cuando los necesita.
+Existen dos tipos de carpetas en Workspace: la carpeta Compañía y las carpetas personales. Una carpeta Compañía compartida permite a los administradores crear y compartir contenido con todos los usuarios de Workspace.
 
-Existen dos tipos de carpetas en el Espacio de trabajo: la carpeta Compañía y las carpetas personales.
+Cuando seleccionó [Mostrar carpetas y proyectos](../freeform-overview.md#show-selector), la página de inicio de Proyectos muestra una lista de sus proyectos junto con la carpeta Compañía y las carpetas personales que haya creado. De lo contrario, solo verá una lista de sus proyectos.
 
-Cuando inicia sesión en el Espacio de trabajo, la página de inicio Proyectos muestra una lista de sus proyectos junto con la carpeta Compañía y las carpetas personales que haya creado.
 
-![Página de inicio de proyectos](../assets/landing-page2.png)
-
-## Acerca de la carpeta Compañía {#company-folder}
+## Carpeta de empresa
 
 La carpeta Compañía es una carpeta de acceso compartido para proyectos que los administradores pueden compartir con todos los usuarios.
 
-Como administrador, puede compartir rápidamente proyectos con todos los usuarios y agruparlos en subcarpetas para un grupo de usuarios. Por ejemplo, si tiene un conjunto de proyectos que desea que utilicen sus especialistas en marketing para iniciar su investigación, puede crear una carpeta Marketing dentro de la carpeta Compañía y, a continuación, colocarlos dentro de ella. Esto proporciona rápidamente acceso directo a los proyectos compartidos y facilita al equipo de marketing saber dónde buscar archivos comunes.
+Como administrador, puede compartir rápidamente proyectos con todos los usuarios y agruparlos en subcarpetas para un grupo de usuarios. Por ejemplo: tiene un conjunto de proyectos que desea que utilicen sus especialistas en marketing para iniciar su investigación. A continuación, puede crear una carpeta de marketing dentro de la carpeta Compañía y luego colocar los proyectos seleccionados dentro de la carpeta de marketing. Esta carpeta proporciona acceso directo a los proyectos compartidos y facilita al equipo de marketing saber dónde buscar proyectos comunes.
 
-Cuando un usuario inicia sesión en el Espacio de trabajo, la carpeta Compañía se agrega automáticamente a su proyecto y lista de carpetas. No hay permisos específicos para proyectos contenidos en la carpeta Compañía.
+Al iniciar sesión en Workspace, la carpeta Compañía se agrega automáticamente al proyecto y a la lista de carpetas. No hay permisos específicos para proyectos contenidos en la carpeta Compañía.
 
-### Opciones de administración {#admin-options}
+### Opciones de administrador
 
-Los administradores tienen privilegios especiales asignados a la carpeta Compañía. Por ejemplo, solo los administradores pueden agregar o quitar carpetas o proyectos en la carpeta Compañía. Los usuarios sin acceso de administrador pueden ver el contenido de la carpeta Compañía.
+Los administradores tienen privilegios especiales asignados a la carpeta Compañía. Por ejemplo, solo los administradores pueden agregar o quitar carpetas o proyectos en la carpeta Compañía. Los usuarios sin control de acceso de administración pueden ver el contenido de la carpeta Compañía.
 
-![La página Proyectos muestra las opciones de administración.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
+<!--
+![The Projects page showing the admin options.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
-Los usuarios que no son administradores tienen opciones limitadas.
+Non-Admins have limited options.
 
-![La página Proyectos muestra las opciones no administrativas de las carpetas.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
+![The Projects page showing the non-admin options for folders.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
 
-### Directrices de la carpeta Compañía {#company-folder-guidelines}
+-->
 
-- Los administradores pueden agregar proyectos a la carpeta Compañía o crear uno nuevo y guardarlo en ella. Los usuarios que no son administradores pueden ver el contenido de la carpeta Compañía.
+### Directrices
+
+A continuación se ofrecen algunas directrices para trabajar con la carpeta Compañía:
+
+- Los administradores pueden agregar proyectos a la carpeta Compañía o crear un nuevo proyecto y guardarlo en ella. Los usuarios que no son administradores pueden ver el contenido de la carpeta Compañía.
 
 - Los administradores pueden crear subcarpetas dentro de la carpeta Compañía.
 
-- Los administradores pueden eliminar una carpeta dentro de la carpeta Compañía que otro administrador haya creado. Es posible que los administradores tengan que coordinarse con otros administradores para mantener la coherencia de las carpetas y el acceso al proyecto.
+- Los administradores pueden eliminar una carpeta dentro de la carpeta Compañía que otro administrador haya creado. Es posible que los administradores tengan que coordinarse con otros administradores para mantener la coherencia del acceso a carpetas y proyectos.
 
-- Cuando un administrador mueve un proyecto a la carpeta Compañía, se comparte con todos con la función **Editar copia**, aunque los privilegios compartidos originales estén restringidos.
+- Cuando un administrador mueve un proyecto a la carpeta Compañía, esta se comparte con todos aunque los privilegios compartidos originales estén restringidos.
+- Cuando un administrador mueve un proyecto fuera de la carpeta Compañía, se respetan los privilegios de uso compartido originales o anteriores.
 
 - Cuando un administrador mueve un proyecto fuera de la carpeta Compañía, se respetan los privilegios de uso compartido originales o anteriores.

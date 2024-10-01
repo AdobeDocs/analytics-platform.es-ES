@@ -4,16 +4,17 @@ description: El Creador de métricas calculadas permite aplicar funciones estad�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1071'
+ht-degree: 97%
 
 ---
 
 # Referencia: funciones básicas
 
-El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
+
+El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) le permite aplicar funciones estadísticas y matemáticas.
 
 Aquí se encuentra una lista alfabética de las funciones y sus definiciones.
 
@@ -21,9 +22,12 @@ Aquí se encuentra una lista alfabética de las funciones y sus definiciones.
 >
 >Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [!DNL MAXV(metrics)] también permite [!DNL MAXV(PageViews + Visits).]
 
+
 ## Funciones de tabla en comparación con funciones de fila
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
+
+
 
 ## Valor absoluto (Fila)
 
@@ -101,9 +105,9 @@ EXP(metric)
 
 Operador de potencia
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y veces)
-</pre>
+
+pow(x,y) = x<sup>y</sup> = x *x* x*... (y veces)
+
 
 ## Media (Tabla)
 
@@ -313,7 +317,7 @@ Para calcular una varianza para ver una columna entera de números. A partir de 
 
 Cuando repita la operación sobre toda la columna, obtendrá un único total. A continuación, divida el total entre el número de elementos de la columna. El número resultante es la varianza de la columna. Esta es un número único, aunque aparece como una columna de números.
 
-A modo de ejemplo, suponga que tiene una columna de tres elementos:
+En el caso de una columna de tres elementos:
 
 1
 

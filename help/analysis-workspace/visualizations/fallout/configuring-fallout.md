@@ -4,10 +4,10 @@ title: Configurar una visualización de abandonos
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 67%
+source-wordcount: '711'
+ht-degree: 36%
 
 ---
 
@@ -15,64 +15,73 @@ ht-degree: 67%
 
 Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página de su sitio web. Sin embargo, los puntos de contacto no están limitados a páginas. Por ejemplo, puede agregar eventos, como unidades, así como personas únicas y visitas recurrentes. También puede añadir dimensiones, como categoría, tipo de navegador o término de búsqueda interno.
 
-Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es posible que desee comparar filtros como los usuarios de iOS y Android. Arrastre los filtros deseados sobre las visitas en el orden previsto y la información acerca de esos filtros se añadirá al informe de visitas en el orden previsto. Si desea mostrar únicamente esos filtros, puede eliminar la línea de base de Todas las visitas.
+Incluso puede añadir filtros dentro de un punto de contacto. Por ejemplo, es posible que desee comparar filtros como los usuarios de iOS y Android™. Arrastre los filtros deseados sobre las visitas en el orden previsto y la información acerca de esos filtros se añadirá al informe de visitas en el orden previsto. Si desea mostrar solo esos filtros, puede quitar la línea de base de Todas las visitas.
 
-No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
+No hay limitación en el número de pasos que se pueden añadir o en el número de dimensiones utilizadas.
 
-Puede realizar el control de rutas en eVars, incluidas las eVars de comercialización y [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) (variables que pueden tener varios valores por evento, como products, listVars, eVars de comercialización y props de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede realizar el control de rutas en dimensiones, métricas y filtros. Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
-1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
+## En su lugar, utilice 
 
-1. Arrastre la dimensión Página en la tabla de forma libre y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar punto de contacto]** como el primer punto de contacto.
+1. Agregar una visualización de ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandonos]**. Consulte [Agregar una visualización a un panel](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Arrastre una página, por ejemplo, inicio, desde la dimensión Página al menú desplegable *Agregar punto de contacto*.
 
-   ![La lista desplegable Todas las visitas que muestra JJEsquire arrastrado al campo Agregar punto de contacto.](assets/fallout1.png)
+   ![La página de inicio de la dimensión Página de inicio se arrastró al campo Agregar punto de contacto.](assets/fallout-drag.png)
 
-   Pase el ratón sobre un punto de contacto para ver si las visitas en el orden previsto y otra información sobre ese nivel, como el nombre del punto de contacto o el recuento de personas en ese punto y consulte el índice de éxito para ese punto de contacto (además de comparar el índice de éxito con otros puntos de contacto).
+   Pase el ratón sobre un punto de contacto para ver si las visitas en el orden previsto y otra información sobre ese nivel, como el nombre del punto de contacto y el recuento de personas en ese punto. Y vea la tasa de éxito para ese punto de contacto (así como comparar la tasa de éxito con otros puntos de contacto).
 
-   Los números dentro de un círculo en la parte gris de la barra muestran la visita en el orden previsto entre puntos de contacto (no la visita en el orden previsto total hasta ese punto). El porcentaje de puntos de contacto muestra la visita en orden imprevisto desde el paso anterior al actual en el informe de visita en el orden previsto.
+   Los números dentro de un círculo en la parte gris de la barra muestran la visita en el orden previsto entre puntos de contacto (no la visita en el orden previsto total hasta ese punto). El **[!UICONTROL punto de contacto %]** muestra el recorrido correcto desde el paso anterior al paso actual en el informe de visitas en el orden previsto.
 
-   También puede agregar una única página al informe de visitas en el orden previsto, en vez de toda la dimensión. Haga clic en la flecha derecha “>” en la dimensión de página para elegir la página específica que desea agregar al informe de visitas en el orden previsto.
+   También puede agregar una única página al informe de visitas en el orden previsto, en vez de toda la dimensión. Haga clic en la flecha derecha ![ChevronRight](/help/assets/icons/ChevronRight.svg) de la dimensión de página para seleccionar una página específica y agregarla al informe de visitas en el orden previsto.
 
 1. Siga añadiendo puntos de contacto hasta que la secuencia se haya completado.
 
-   Puede **combinar varios puntos de contacto** arrastrando uno o varios más a un punto de contacto.
+   Puede **combinar varios puntos de contacto** arrastrando uno o más componentes adicionales a un punto de contacto.
 
    >[!NOTE]
    >
    >Los filtros se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
 
-   ![Página:CamerRoll o Página: puntos de contacto de la cámara resaltados.](assets/multiple_obj_touchpoint.png)
+   ![Página:CamerRoll o Página: puntos de contacto de la cámara resaltados.](assets/fallout-or.png)
 
-1. También puede **restringir puntos de contacto individuales al siguiente evento** (a diferencia de &quot;eventualmente&quot;) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones “Ruta eventual” y “Elemento siguiente”, como se muestra a continuación:
+1. También puede **restringir puntos de contacto individuales al siguiente evento** (a diferencia de *eventualmente*) dentro de la ruta. Debajo de cada punto de contacto hay un selector con las opciones **[!UICONTROL Ruta de acceso eventual]** y **[!UICONTROL Siguiente evento]**, como se muestra a continuación:
 
-   ![La vista Todas las visitas que muestra la opción Ruta de acceso final resaltada. ](assets/next-hit-eventually.png)
+   ![La vista Todas las visitas que muestra la opción Ruta de acceso final resaltada. ](assets/fallout-nexthit.png)
 
-<table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Ruta eventual </p> <p>(Predeterminado) </p> </td> 
-   <td colname="col2"> <p>Se cuentan los visitantes que "eventualmente" se dirijan a la siguiente página de la ruta, pero no necesariamente al siguiente evento. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visita siguiente </p> </td> 
-   <td colname="col2"> <p>Se cuentan los visitantes que aterrizan en la siguiente página de la ruta en el siguiente evento. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   | Opción | Descripción |
+   |---|---|
+   | **[!UICONTROL Ruta de acceso final]** (predeterminada) | Se cuentan las personas que *eventualmente* aterrizarán en la siguiente página de la ruta, pero no necesariamente en el siguiente evento. |
+   | **[!UICONTROL Siguiente evento]** | Se cuentan los que aterrizarán en la siguiente página de la ruta en el siguiente evento. |
 
-## Ajustes de abandonos {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
-| Configuración | Descripción |
+## Configuración
+
+Como parte de la visualización, hay disponibles ajustes específicos.
+
+| Contenedor de visitas en el orden previsto | Descripción |
 |--- |--- |
-| Contenedor de visitas en el orden previsto <ul><li>Visita</li><li>Visitante</li></ul> | Le permite alternar entre visitas y visitantes para analizar las rutas seguidas por las personas. La opción predeterminada es Visitante.  Esta configuración le ayuda a comprender el compromiso de la persona en el nivel de persona (a lo largo de visitas) o a restringir el análisis a una sola visita. |
+| **[!UICONTROL Sesión]** o **[!UICONTROL Persona]** | Cambie entre [!UICONTROL Sesión] y [!UICONTROL Persona] para analizar las rutas de las personas. El valor predeterminado es [!UICONTROL Persona]. Esta configuración le permite comprender el compromiso de la persona a nivel de persona (a lo largo de las sesiones) o restringir el análisis a una única sesión. |
 
-Al hacer **clic con el botón derecho en un punto de contacto**, se muestran las siguientes opciones:
+
+## Menú contextual
+
+Como parte de la visualización, hay opciones específicas de menú contextual disponibles.
+
+![Opciones de visitas en el orden previsto](assets/fallout-options.png)
 
 | Opción | Descripción |
 |--- |--- |
-| Tendencia del punto de contacto | Consulte los datos de tendencia para un punto de contacto en un gráfico de líneas en el cual se hayan incorporado previamente algunos datos de detección de anomalías. |
-| Tendencia del punto de contacto (%) | Realiza la tendencia del porcentaje total de visitas en el orden previsto. |
-| Tendencia de todos los puntos de contacto (%) | Realiza la tendencia de todos los porcentajes de puntos de contacto en las visitas en el orden previsto (excepto “Todas las visitas”, si se incluye) en el mismo gráfico. |
-| Desglosar visitas en el orden previsto en este punto de contacto | Vea qué hicieron las personas entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Así se crea una tabla improvisada que muestra sus dimensiones. Puede sustituir las dimensiones y otros elementos de la tabla. |
-| Desglosar visitas en orden previsto en este punto de contacto | Vea qué han hecho las personas que no han seguido el embudo inmediatamente tras el paso seleccionado. |
-| Crear filtro desde punto de contacto | Cree un nuevo filtro a partir de un punto de contacto seleccionado. |
+| **[!UICONTROL Punto de contacto de tendencia]** | Consulte los datos de tendencia para un punto de contacto en un gráfico de líneas en el cual se hayan incorporado previamente algunos datos de detección de anomalías. |
+| **[!UICONTROL Punto de contacto de tendencia (%)]** | Realiza la tendencia del porcentaje total de visitas en el orden previsto. |
+| **[!UICONTROL Tendencia de todos los puntos de contacto (%)]** | Obtiene la tendencia de todos los porcentajes de puntos de contacto en la visita en el orden previsto (excepto **[!UICONTROL Todas las personas]**, si se incluye) en el mismo gráfico. |
+| **[!UICONTROL Desglosar visitas en orden previsto en este punto de contacto]** | Vea qué hicieron las personas entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Así se crea una tabla improvisada que muestra sus dimensiones. Puede sustituir las dimensiones y otros elementos de la tabla. |
+| **[!UICONTROL Desglosar visitas en orden previsto en este punto de contacto]** | Vea qué han hecho las personas que no han seguido el embudo inmediatamente tras el paso seleccionado. |
+| **[!UICONTROL Crear filtro a partir del punto de contacto]** | Cree un nuevo filtro a partir de un punto de contacto seleccionado. |
+
+>[!MORELIKETHIS]
+>
+>[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

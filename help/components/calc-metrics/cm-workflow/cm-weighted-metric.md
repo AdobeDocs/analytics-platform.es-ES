@@ -1,35 +1,64 @@
 ---
-description: Muestra ejemplos de métricas filtradas y ponderadas.
-title: Métricas filtradas y ponderadas
+description: Muestra ejemplos de métricas calculadas.
+title: Ejemplos de métricas calculadas
 feature: Calculated Metrics
 exl-id: 5e73ab52-627a-4064-bfb7-354c0ba1e4ee
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 76%
+source-wordcount: '235'
+ht-degree: 5%
 
 ---
 
-# Métricas filtradas y ponderadas
+# Ejemplos de métricas calculadas
 
-Muestra ejemplos de métricas filtradas y ponderadas.
+Este artículo muestra ejemplos de cómo definir métricas calculadas más avanzadas.
 
-## Frecuencia de rebotes filtrados {#section_D42F2452E4464948934063EB6F2DAAB4}
+## Porcentaje de rebote
 
-Esta sencilla métrica filtrada muestra la frecuencia de rebotes únicamente para aquellas páginas con más de 100 visitas:
+Desea calcular la tasa de salida hacia otro sitio.
 
-![Ventana de resumen que muestra las métricas aplicadas a la columna 1 (Visitas) y a la columna 2 (100) junto con la Tasa de devoluciones. ](assets/cm_fbr.png)
++++ Detalles
 
-Tenga en cuenta que esta fórmula depende de un plazo de tiempo constante. Si ejecuta un informe para un solo día, vale la pena observar cualquier página con más de 20 visitas. Si la ejecuta para un mes, es posible que desee el filtro para incluir más visitas.
+La definición de una devolución está sujeta a otra discusión, pero en este ejemplo se define un filtro de Eventos rechazados en el que Inicio de sesión es igual a 1 y Fin de sesión es igual a 1. Utilice este filtro para definir la tasa de sesiones devueltas a las sesiones.
 
-## Frecuencia de rebotes filtrados con percentil {#section_4F3E6D33A1FD438A932FA662B3510552}
 
-Este filtro muestra la frecuencia de rebotes para el principal 30 por ciento de las páginas, cuando se clasifica por visitas.
+### Filtro
 
-![Si y luego el filtro muestran la Tasa de salida hacia otro sitio del 30% de las páginas principales clasificadas por visitas.](assets/cm_wbr_2.png)
+![Eventos de rebote](assets/example-bounce-bouncedevents.png)
 
-## Métrica ponderada {#section_F2D16B14569948289CF1310F9E6E3FC2}
+### Métrica calculada
 
-Suponga que desea clasificar por la tasa de devoluciones en general, pero las páginas con un mayor número de visitas deben estar en una posición superior de la lista. Puede crear una frecuencia de rebotes ponderada similar a esta:
+![Porcentaje de rebote](assets/example-bounce-rate.png)
 
-![Resumen con definición para las visitas de frecuencia de rebote.](assets/cm_wbr.png)
+
+### Campos derivados
+
+También puede definir una [tasa de salida hacia otro sitio usando campos derivados](/help/data-views/derived-fields/derived-fields.md#bounces).
+
+Los campos derivados forman parte de una vista de datos que tiene la ventaja de que no todos los usuarios pueden anular o modificar la definición de una métrica de Tasa de salida hacia otro sitio. Esa ventaja también introdujo una limitación. Los usuarios que no tienen acceso a una vista de datos no pueden utilizar campos derivados y tienen que recurrir a filtros y métricas calculadas para definir una tasa de salida hacia otro sitio.
+
+Consulte para obtener más información sobre cómo calcular las devoluciones y la tasa de devoluciones en Customer Journey Analytics, esta [publicación de blog](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446).
+
++++
+
+
+## Vistas de página condicionales
+
+Desea definir una métrica calculada que calcule solamente las vistas de página de las páginas que se han visitado en más de 100 sesiones.
+
++++ Detalles
+
+![Vistas de página condicionales](assets/conditional-page-views.png)
+
++++
+
+## Vistas de página de las principales sesiones del 30 %
+
+Desea definir una métrica calculada que calcule solamente las vistas de página de las sesiones del 30 % principales.
+
++++ Detalles
+
+![Vistas de página del 30 % principales](assets/top30-page-views.png)
+
++++

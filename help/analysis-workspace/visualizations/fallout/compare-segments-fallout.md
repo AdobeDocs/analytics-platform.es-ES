@@ -5,10 +5,10 @@ title: Aplicación de filtros en un análisis de visitas en orden previsto
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 76%
+source-wordcount: '462'
+ht-degree: 45%
 
 ---
 
@@ -18,45 +18,44 @@ Puede crear filtros a partir de un punto de contacto, añadir filtros como punto
 
 >[!IMPORTANT]
 >
->Los filtros utilizados como puntos de comprobación en visitas en orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización Visita en orden previsto. Con las visitas en orden previsto respectivas a las personas, los filtros utilizados como puntos de comprobación deben ser filtros basados en visitas o eventos. Con las visitas en orden previsto respectivas a las visitas, los filtros utilizados como puntos de comprobación deben ser filtros basados en eventos. Si utiliza una combinación no válida, el resultado de visitas en orden previsto será del 100 %. Se ha añadido una advertencia a la visualización de visitas en orden previsto que se mostrará cuando añada un filtro incompatible como punto de contacto. Determinadas combinaciones de contenedores de filtros no válidas producirán diagramas de visitas en orden previsto no válidos, como:
+>Los filtros utilizados como puntos de comprobación en visitas en orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización Visita en orden previsto. Con las visitas en orden previsto respectivas a las personas, los filtros utilizados como puntos de comprobación deben ser filtros basados en visitas o eventos. Con las visitas en orden previsto respectivas a las visitas, los filtros utilizados como puntos de comprobación deben ser filtros basados en eventos. Si utiliza una combinación no válida, el resultado de visitas en orden previsto es del 100 %. Verá una advertencia en la visualización de abandonos cuando añada un filtro incompatible como punto de contacto. Determinadas combinaciones de contenedores de filtros no válidas generan diagramas de visitas en orden previsto no válidos, como:
 
 * Cuando se usa un filtro basado en personas como punto de contacto dentro de una visualización de abandonos de persona.
 * Cuando se usa un filtro basado en personas como punto de contacto dentro de una visualización de abandonos de visitas.
 * Cuando se usa un filtro basado en visitas como punto de contacto dentro de una visualización de visitas en orden previsto de visitas.
 
-## Creación de filtros a partir de un punto de contacto {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## Creación de filtros a partir de un punto de contacto
 
-1. Cree un filtro a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda ser útil para su aplicación en otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear filtro a partir de un punto de contacto]**.
+1. Cree un filtro a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda ser útil para su aplicación en otros informes. Haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear filtro a partir del punto de contacto]**.
 
-   ![Menú desplegable de Touchpoint con la opción Crear segmento a partir de punto de contacto resaltada.](assets/segment-from-touchpoint.png)
+   ![Menú desplegable de Touchpoint con la opción Crear segmento a partir de punto de contacto resaltada.](assets/fallout-createfilter.png)
 
-   Cuando el Generador de filtros se abre, ya contiene el filtro secuencial creado previamente que concuerda con el punto de contacto seleccionado:
+   Se abre el generador de filtros [!UICONTROL Filter Builder], previamente completado con el filtro secuencial generado previamente que coincide con el punto de contacto seleccionado:
 
-   ![El Generador de filtros muestra el filtro secuencial generado y rellenado previamente.](assets/segment-builder.png)
+   ![El Generador de filtros muestra el filtro secuencial generado y rellenado previamente.](assets/fallout-definefilter.png)
 
 1. Asigne un título y una descripción al filtro y guárdelo.
 
    Ahora puede utilizar este filtro en cualquier proyecto que desee.
 
-## Añadir un filtro como punto de contacto {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## Añadir un filtro como punto de contacto
 
 Si desea ver, por ejemplo, la tendencia de los usuarios de Estados Unidos y cómo afectan a las visitas en el orden previsto, solo tiene que arrastrar el filtro correspondiente a la visita en el orden previsto:
 
-![El filtro de usuarios de EE. UU. seleccionado y resaltado para arrastrarlo a la visita en el orden previsto.](assets/segment-touchpoint.png)
+![El filtro de usuarios de EE. UU. seleccionado y resaltado para arrastrarlo a la visita en el orden previsto.](assets/fallout-addfilter.png)
 
 O puede crear un punto de contacto AND arrastrando el filtro de usuarios de Estados Unidos a otro punto de comprobación.
 
-## Comparación de filtros en visitas en orden previsto {#section_E0B761A69B1545908B52E05379277B56}
+## Comparación de filtros en visitas en orden previsto
 
 Puede comparar una cantidad ilimitada de filtros en la visualización de visitas en el orden previsto.
 
-1. Seleccione los filtros que quiera comparar en el carril [!UICONTROL Filtros] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 filtros: usuarios de EE. UU. y usuarios fuera de EE. UU.
-1. Arrástrelos a la zona de colocación Filtro en la parte superior.
+1. Seleccione los filtros que quiera comparar en el panel [!UICONTROL Filtro] de la izquierda. En el ejemplo, se seleccionaron tres filtros: *Detalles del vuelo: Versión de página A*, *Detalles del vuelo: Versión de página B* y *Detalles del vuelo: Versión de página C*.
+1. Los tres filtros se arrastran a la zona de colocación Filtro en la parte superior de la visualización.
 
-   ![Visualización de visitas en el orden previsto con filtros seleccionados y una flecha roja que señala a la zona de colocación Filtro.](assets/segment-drop.png)
 
-1. Opcional: puede mantener Todas las visitas como el contenedor predeterminado o eliminarlo.
+1. Opcional: puede mantener *Todas las visitas* como el contenedor predeterminado o eliminar el contenedor.
 
-   ![Secuelas que muestran todas las visitas junto con los dos filtros arrastrados en el paso anterior.](assets/seg-compare.png)
+   ![Secuelas que muestran todas las visitas junto con los dos filtros arrastrados en el paso anterior.](assets/fallout-multiplefilters.png)
 
-1. Ahora puede comparar las visitas en orden previsto de los dos filtros como, por ejemplo, cuando un filtro supera a otro u otra información.
+1. Ahora puede comparar las visitas en el orden previsto de los tres filtros como, por ejemplo, cuando un filtro supera a otro u otra información.

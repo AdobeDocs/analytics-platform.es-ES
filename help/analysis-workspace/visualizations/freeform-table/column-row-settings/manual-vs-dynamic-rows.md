@@ -4,14 +4,14 @@ description: Interacción con elementos de dimensión dinámicos y estáticos en
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388042e24a7b9d33ac88e05a68689308e6258339
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
-# Elementos de dimensión dinámicos o estáticos en tablas de forma libre
+# Elementos de dimensión dinámicos y estáticos en tablas de forma libre
 
 En las tablas improvisadas, las filas y columnas pueden contener varios valores de componente. Estos valores pueden ser dinámicos (cambian con el tiempo) o estáticos (no cambian con el tiempo), según el análisis que desee generar.
 
