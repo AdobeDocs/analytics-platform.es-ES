@@ -3,9 +3,9 @@ title: Configuración de datos de uso del producto
 description: Habilite, deshabilite o configure las opciones de uso del producto.
 hide: true
 hidefromtoc: true
-source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
+source-git-commit: 40b761928697d1d55e1177aa7b2b3c056739ecc9
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ La página _Configuración de datos_ administra la configuración de uso del pro
 Las siguientes configuraciones están disponibles en esta página:
 
 * **Habilitar el uso del producto**: cambia la disponibilidad de la recopilación de datos de uso del producto. Si habilita el uso del producto y luego lo deshabilita en el futuro, el conjunto de datos, la conexión y la vista de datos no se eliminarán. El seguimiento está desactivado globalmente para su organización cuando está desactivado.
-* **Entorno aislado**: Determina el entorno aislado de Adobe Experience Platform en el que se crearon el esquema y el conjunto de datos. La zona protegida que elija no afecta a la recopilación de datos de uso del producto. Si cambia esta configuración de zona protegida, se crea un conjunto de datos, una conexión y una vista de datos independientes. Los datos históricos permanecen en la zona protegida anterior.
-* **Anular período de retención de datos**: cada conjunto de datos tiene un período de retención de datos predeterminado. Si esta configuración está deshabilitada, el uso del producto sigue ese período de tiempo predeterminado. Puede habilitar esta configuración si desea reducir el tiempo que se conservan los datos. No puede ampliar la retención de datos más allá del período de retención de datos predeterminado del conjunto de datos.
+* **Entorno aislado**: Determina el entorno aislado de Adobe Experience Platform en el que se crearon el esquema y el conjunto de datos. La zona protegida que elija no afecta a la recopilación de datos de uso del producto. Si cambia esta configuración de zona protegida, se eliminarán todos los datos existentes. Se crea un nuevo conjunto de datos, conexión y vista de datos en el entorno limitado seleccionado.
+* **Anular período de retención de datos**: cada conjunto de datos tiene un período de retención de datos predeterminado. Si esta configuración está deshabilitada, el uso del producto sigue ese período de tiempo predeterminado. Puede habilitar esta configuración si desea reducir el tiempo que se conservan los datos. Reducir el período de retención de datos, ayudar a reducir los costes y permitirle cumplir con las directrices de privacidad específicas de cada empleado. No puede ampliar la retención de datos más allá del período de retención de datos predeterminado del conjunto de datos.
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_sandbox"
@@ -36,4 +36,4 @@ Las siguientes configuraciones están disponibles en esta página:
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_data_retention"
 >title="Anular período de retención de datos"
->abstract="Reduzca la disponibilidad de los datos de uso del producto para ayudar a reducir los costes."
+>abstract="Reduzca la disponibilidad de los datos de uso del producto para ayudar a reducir los costes o cumplir con las directrices de privacidad."
