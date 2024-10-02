@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo administrar filtros en Customer Jo
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 4%
@@ -37,7 +37,7 @@ La lista de filtros ➊ muestra todos los filtros que posee, los filtros con ám
 | Columna | Descripción |
 | --- | --- | 
 | ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) | Seleccione un filtro para favorecer a ![Estrella](/help/assets/icons/Star.svg) o para anular la preferencia de ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg). Ver [Marcar filtro como favorito](/help/components/filters/filters-favorite.md) |
-| **[!UICONTROL Título y descripción]** | Para editar el filtro, seleccione el vínculo del título, que abre el [Generador de filtros](filter-builder.md). Se ha indicado un filtro compartido con ![Compartir](/help/assets/icons/ShareLight.svg). |
+| **[!UICONTROL Título y descripción]** | Para editar el filtro, seleccione el vínculo del título, que abre el [Generador de filtros](filter-builder.md). Se ha indicado un filtro compartido con ![Compartir](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Vista de datos]** | Las vistas de datos a las que se aplica este filtro. |
 | **[!UICONTROL Propietario]** | El propietario del filtro. Como usuario, solo verá los filtros que le pertenecen o las anotaciones que se han compartido con usted. |
 | **[!UICONTROL Etiquetas]** | Las etiquetas de este filtro. |
@@ -59,7 +59,7 @@ Puede realizar acciones en los filtros mediante el ➋ de barra de acciones. La 
 | ![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Agregar]** | Agregue otro filtro con el [Generador de filtros](filter-builder.md). |
 | ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar por título*] | Cuando no se selecciona ningún filtro en la lista, busque filtros utilizando este campo de búsqueda. |
 | ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Etiqueta]** | Etiquete los filtros seleccionados. En el cuadro de diálogo **[!UICONTROL Filtro de etiquetas]**, seleccione o anule la selección de las etiquetas de los filtros seleccionados. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los filtros seleccionados. Consulte [Filtros de etiquetas](/help/components/filters/filters-tag.md) para obtener más información. |
-| ![Compartir](/help/assets/icons/ShareLight.svg) **[!UICONTROL Compartir]** | Compartir los filtros seleccionados. En el cuadro de diálogo **[!UICONTROL Compartir filtro]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de los filtros seleccionados. Consulte [Compartir filtros](filters-share.md) para obtener más información. |
+| ![Compartir](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Compartir]** | Compartir los filtros seleccionados. En el cuadro de diálogo **[!UICONTROL Compartir filtro]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de los filtros seleccionados. Consulte [Compartir filtros](filters-share.md) para obtener más información. |
 | ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Eliminar los filtros seleccionados. Se le pedirá una confirmación. |
 | ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Cambiar nombre]** | Cambie el nombre de un solo filtro seleccionado. Cuando se selecciona, puede cambiar el nombre del filtro en línea. |
 | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Aprobar]** | Apruebe los filtros seleccionados. Consulte [Aprobar filtros](filters-approve.md) para obtener más información. |

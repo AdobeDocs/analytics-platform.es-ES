@@ -4,7 +4,7 @@ description: Cómo administrar anotaciones en Espacio de trabajo.
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 6%
@@ -36,7 +36,7 @@ La lista de anotaciones ➊ muestra todas las anotaciones que posee, las anotaci
 | Columna | Descripción |
 | --- | --- | 
 | ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o para anular el favor de ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) de una anotación. |
-| **[!UICONTROL Título y descripción]** | Aparecen en el Generador de anotaciones. Para editar el título y la descripción, seleccione el vínculo del título: abre el [Generador de anotaciones](/help/components/annotations/create-annotations.md#annotation-builder). Se indica una anotación compartida con ![Share](/help/assets/icons/ShareLight.svg). |
+| **[!UICONTROL Título y descripción]** | Aparecen en el Generador de anotaciones. Para editar el título y la descripción, seleccione el vínculo del título: abre el [Generador de anotaciones](/help/components/annotations/create-annotations.md#annotation-builder). Se indica una anotación compartida con ![Share](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Vista de datos]** | Las vistas de datos a las que se aplica esta anotación. |
 | **[!UICONTROL Propietario]** | El propietario de la anotación. Como usuario, solo verá las anotaciones que le pertenecen o las anotaciones que se han compartido con usted. |
 | **[!UICONTROL Intervalo de fecha aplicado]** | La fecha o el intervalo de fechas al que se aplica esta anotación. |
@@ -57,7 +57,7 @@ Puede realizar acciones en las anotaciones mediante el ➋ de barra de acciones.
 | ![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Agregar]** | Agregue otra anotación con el [Generador de anotaciones](create-annotations.md#annotation-builder). |
 | ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar por título*] | Cuando no se selecciona ninguna anotación en la lista, busque anotaciones mediante este campo de búsqueda. |
 | ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Etiqueta]** | Etiquetar las anotaciones seleccionadas. En el cuadro de diálogo **[!UICONTROL Componente de etiqueta]**, seleccione o anule la selección de las etiquetas para las anotaciones seleccionadas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de las anotaciones seleccionadas. |
-| ![Compartir](/help/assets/icons/ShareLight.svg) **[!UICONTROL Compartir]** | Compartir las anotaciones seleccionadas. En el cuadro de diálogo **[!UICONTROL Compartir componente]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de las anotaciones seleccionadas. Consulte [Compartir anotaciones](#share-annotations) para obtener más información. |
+| ![Compartir](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Compartir]** | Compartir las anotaciones seleccionadas. En el cuadro de diálogo **[!UICONTROL Compartir componente]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de las anotaciones seleccionadas. Consulte [Compartir anotaciones](#share-annotations) para obtener más información. |
 | ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Eliminar las anotaciones seleccionadas. Se le pedirá una confirmación. |
 | ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Cambiar nombre]** | Cambiar el nombre de una sola anotación seleccionada. Cuando se selecciona, puede cambiar el nombre de la anotación en línea. |
 | ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** | Copie las anotaciones seleccionadas. Las nuevas anotaciones se crean con el mismo nombre y sufijo (Copiar) |

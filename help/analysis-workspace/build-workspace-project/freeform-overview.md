@@ -5,7 +5,7 @@ title: Información general sobre Proyectos
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 6%
@@ -52,7 +52,7 @@ La lista de proyectos ➋ muestra todos los proyectos que posee y que han compar
 | --- | --- | 
 | ![SeleccionarCuadro](/help/assets/icons/SelectBox.svg) | Cuando se seleccionan uno o más proyectos, aparece una barra de acciones azul en la parte inferior de la interfaz de proyecto. Consulte [Acciones](#actions) para obtener más información. |
 | ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer ![Estrella](/help/assets/icons/Star.svg) o para anular el favor de ![Contorno de estrella](/help/assets/icons/StarOutline.svg) en un proyecto. |
-| **[!UICONTROL Título y descripción]** | Para editar el proyecto, seleccione el vínculo del título, que abre el [proyecto de Workspace](/help/analysis-workspace/home.md). Los proyectos compartidos con usted se indican con ![Compartir](/help/assets/icons/ShareLight.svg). Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar un menú emergente con más detalles sobre el proyecto. Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual con acciones. Consulte [Acciones](#actions) para obtener más información. |
+| **[!UICONTROL Título y descripción]** | Para editar el proyecto, seleccione el vínculo del título, que abre el [proyecto de Workspace](/help/analysis-workspace/home.md). Los proyectos compartidos con usted se indican con ![Compartir](/help/assets/icons/ShareAlt.svg). Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar un menú emergente con más detalles sobre el proyecto. Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual con acciones. Consulte [Acciones](#actions) para obtener más información. |
 | **[!UICONTROL Tipo]** | Un proyecto de Workspace, una carpeta ![FolderUser](/help/assets/icons/FolderUser.svg) o un [informe de valoración móvil](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
 | **[!UICONTROL Etiquetas]** | Las etiquetas aplicadas al proyecto. |
 | Programado | Si un proyecto está programado para enviarse por correo electrónico a los destinatarios. Las opciones son ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Ver [Enviar datos de proyecto a otras personas](/help/analysis-workspace/export/t-schedule-report.md). |
@@ -82,7 +82,7 @@ Puede realizar acciones en uno o más proyectos mediante el menú contextual ![M
 |---|---|
 | ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *seleccionado]** | Anule la selección de los proyectos y carpetas seleccionados y elimine la barra de acciones azul. |
 | ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Elimine uno o varios proyectos o carpetas. Se le pedirá una confirmación. |
-| ![Compartir](/help/assets/icons/ShareLight.svg) **[!UICONTROL Compartir]** | Compartir un proyecto. Consulte [Compartir un proyecto](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
+| ![Compartir](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Compartir]** | Compartir un proyecto. Consulte [Compartir un proyecto](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
 | ![Editar](/help/assets/icons/Edit.svg) cambio de nombre | Cambie el nombre de un proyecto. Abre un cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de proyecto *]**. Escriba un nombre nuevo y seleccione**[!UICONTROL Guardar ]**. |
 | ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** | Copie uno o varios proyectos. Project no obtiene el mismo nombre y sufijo `(Copy)`. |
 | ![PinOn](/help/assets/icons/PinOff.svg) **[!UICONTROL Pin]** o **[!UICONTROL Unpin]** | Anclar o desanclar uno o más proyectos o carpetas. Los proyectos y carpetas anclados aparecen en la parte superior de la lista e ignoran el orden de clasificación especificado. |

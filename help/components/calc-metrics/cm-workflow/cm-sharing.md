@@ -3,7 +3,7 @@ description: En función de sus permisos, puede compartir métricas con toda su 
 title: Compartir métricas calculadas
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 10%
@@ -20,7 +20,7 @@ En [Administrador de métricas calculadas](cm-manager.md), puede compartir métr
 Para compartir una o más métricas calculadas:
 
 1. En [Administrador de métricas calculadas](cm-manager.md), seleccione una o varias de las métricas calculadas que desee compartir.
-1. En la barra de acciones, seleccione ![Compartir](/help/assets/icons/ShareLight.svg) **[!UICONTROL Compartir]**.
+1. En la barra de acciones, seleccione ![Compartir](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Compartir]**.
 1. En el diálogo **[!UICONTROL Compartir métrica calculada]**:
 
    ![Cuadro de diálogo Compartir métricas calculadas](assets/share-calculated-metrics-dialog.png)
