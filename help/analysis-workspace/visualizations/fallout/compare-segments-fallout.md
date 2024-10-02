@@ -5,10 +5,10 @@ title: Aplicación de filtros en un análisis de visitas en orden previsto
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
@@ -18,11 +18,11 @@ Puede crear filtros a partir de un punto de contacto, añadir filtros como punto
 
 >[!IMPORTANT]
 >
->Los filtros utilizados como puntos de comprobación en visitas en orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización Visita en orden previsto. Con las visitas en orden previsto respectivas a las personas, los filtros utilizados como puntos de comprobación deben ser filtros basados en visitas o eventos. Con las visitas en orden previsto respectivas a las visitas, los filtros utilizados como puntos de comprobación deben ser filtros basados en eventos. Si utiliza una combinación no válida, el resultado de visitas en orden previsto es del 100 %. Verá una advertencia en la visualización de abandonos cuando añada un filtro incompatible como punto de contacto. Determinadas combinaciones de contenedores de filtros no válidas generan diagramas de visitas en orden previsto no válidos, como:
-
-* Cuando se usa un filtro basado en personas como punto de contacto dentro de una visualización de abandonos de persona.
-* Cuando se usa un filtro basado en personas como punto de contacto dentro de una visualización de abandonos de visitas.
-* Cuando se usa un filtro basado en visitas como punto de contacto dentro de una visualización de visitas en orden previsto de visitas.
+>Los filtros utilizados como puntos de comprobación en visitas en orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización Visita en orden previsto. Con las visitas en orden previsto respectivas a las personas, los filtros utilizados como puntos de comprobación deben ser filtros basados en sesiones o eventos. Con los abandonos respectivos a las sesiones, los filtros utilizados como puntos de comprobación deben ser filtros basados en eventos. Si utiliza una combinación no válida, el resultado de visitas en orden previsto es del 100 %. Verá una advertencia en la visualización de abandonos cuando añada un filtro incompatible como punto de contacto. Determinadas combinaciones de contenedores de filtros no válidas generan diagramas de visitas en orden previsto no válidos, como:
+>
+>* Cuando se usa un filtro basado en personas como punto de contacto dentro de una visualización de abandonos de persona.
+>* Cuando se usa un filtro basado en personas como punto de contacto dentro de una visualización de abandonos de sesión.
+>* Cuando se usa un filtro basado en sesión como punto de contacto dentro de una visualización de abandonos de sesión.
 
 ## Creación de filtros a partir de un punto de contacto
 

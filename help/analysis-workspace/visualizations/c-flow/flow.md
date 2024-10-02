@@ -4,7 +4,7 @@ title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 30%
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 
 
-La visualización ![GraphPathing](/help/assets/icons/GraphPathing.svg) [!UICONTROL Flow] muestra las rutas del cliente en sus sitios web y aplicaciones.
+La visualización ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** muestra las rutas del cliente en sus sitios web y aplicaciones.
 
 Con la visualización puede:
 
@@ -37,7 +37,7 @@ Con la visualización puede:
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida.
 * Creación de filtros mediante la designación de un punto específico en una ruta elegida
 
-+++ Vea un vídeo de demostración de la visualización [!UICONTROL Flow].
++++ Vea un vídeo de demostración de la visualización Flujo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
 

@@ -4,7 +4,7 @@ title: Acerca de los informes y visualizaciones de visitas en el orden previsto
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: b38e9052618f7326cd5ea22b6cda8b96624a3f84
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 46%
@@ -23,7 +23,7 @@ ht-degree: 46%
 <!-- markdownlint-enable MD034 -->
 
 
-Una visualización de ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) [!UICONTROL Abandonos] muestra dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
+Una visualización de ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandonos]** muestra dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
 
 +++ Vea un vídeo de demostración de la [!UICONTROL visualización de visitas en el orden previsto].
 

@@ -3,10 +3,10 @@ description: Crear, editar o eliminar alertas.
 title: Administrar alertas
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 4%
+source-wordcount: '567'
+ht-degree: 7%
 
 ---
 
@@ -50,17 +50,17 @@ Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué
 
 Puede realizar acciones en las alertas mediante el ➋ de la barra de acciones. La barra de acciones contiene las siguientes acciones:
 
-| Acción | Descripción |
-|---|---|
-| ![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Agregar]** | Agregue otra alerta con el [Generador de alertas](alert-builder.md#alert-builder). |
-| ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar por título*] | Cuando no se selecciona ninguna alerta en la lista, buscar alertas mediante este campo de búsqueda. |
-| ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Etiqueta]** | Etiquetar las alertas seleccionadas. En el cuadro de diálogo **[!UICONTROL Alerta de etiqueta]**, seleccione o anule la selección de las etiquetas de las alertas seleccionadas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de las alertas seleccionadas. |
-| ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Eliminar las alertas seleccionadas. Se le pedirá una confirmación. |
-| ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Cambiar nombre]** | Cambiar el nombre de una alerta seleccionada. Cuando se selecciona, puede cambiar el nombre de la alerta en línea. |
-| ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** | Copiar la alerta seleccionada. Las nuevas alertas se crean con el mismo nombre y sufijo `(Copy)`. |
-| ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Habilitar]** o **[!UICONTROL Deshabilitar]** | Activar o desactivar las alertas seleccionadas. |
-| ![Actualizar](/help/assets/icons/Refresh.svg) **[!UICONTROL Renovar]** | Renueva la fecha de caducidad de la alerta. La fecha de caducidad se extiende 1 año a partir del día en que seleccione esta opción, independientemente de la fecha de caducidad original. |
-| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** | Exportar las alertas a un archivo de `Alerts List.csv`. |
+| Icono | Acción | Descripción |
+|:---:|---|---|
+| ![AgregarCírculo](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otra alerta con el [Generador de alertas](alert-builder.md#alert-builder). |
+| ![Buscar](/help/assets/icons/Search.svg) | [!UICONTROL *Buscar por título*] | Cuando no se selecciona ninguna alerta en la lista, buscar alertas mediante este campo de búsqueda. |
+| ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las alertas seleccionadas. En el cuadro de diálogo **[!UICONTROL Alerta de etiqueta]**, seleccione o anule la selección de las etiquetas de las alertas seleccionadas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de las alertas seleccionadas. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar las alertas seleccionadas. Se le pedirá una confirmación. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de una alerta seleccionada. Cuando se selecciona, puede cambiar el nombre de la alerta en línea. |
+| ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copiar la alerta seleccionada. Las nuevas alertas se crean con el mismo nombre y sufijo `(Copy)`. |
+| ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Habilitar]** o **[!UICONTROL Deshabilitar]** | Activar o desactivar las alertas seleccionadas. |
+| ![Actualizar](/help/assets/icons/Refresh.svg) | **[!UICONTROL Renovar]** | Renueva la fecha de caducidad de la alerta. La fecha de caducidad se extiende 1 año a partir del día en que seleccione esta opción, independientemente de la fecha de caducidad original. |
+| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar las alertas a un archivo de `Alerts List.csv`. |
 
 
 ### Barra de filtro activa

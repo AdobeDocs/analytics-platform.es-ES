@@ -4,10 +4,10 @@ title: Visualización de gráficos combinados
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 42%
+source-wordcount: '579'
+ht-degree: 41%
 
 ---
 
@@ -50,7 +50,7 @@ Tenga en cuenta que:
    | Tipo de comparación de líneas | Definición |
    | --- | --- |
    | **[!UICONTROL Comparación del tiempo]** | El tipo de comparación más común: comparar este período de tiempo con hace cuatro semanas, por ejemplo. Si ha seleccionado [!UICONTROL Comparación temporal], realice una selección secundaria de qué período de tiempo quiere comparar.<p>![Comparación lineal con el período de tiempo seleccionado y el campo de selección secundario para el período de tiempo.](assets/combo-time-period.png) |
-   | **[!UICONTROL Función]** | Puede introducir una función como [!UICONTROL Promedio] en la comparación. Consulte la lista de funciones admitidas a continuación.<p>![Menú desplegable de comparación de líneas que muestra las funciones seleccionadas y una lista de las funciones compatibles disponibles.](assets/combo-functions.png) |
+   | **[!UICONTROL Función]** | Puede introducir una función como [!UICONTROL Promedio] en la comparación. Ver la lista de [funciones compatibles](#supported-functions).<p>![Menú desplegable de comparación de líneas que muestra las funciones seleccionadas y una lista de las funciones compatibles disponibles.](assets/combo-functions.png) |
    | **[!UICONTROL Métrica secundaria]** | Por ejemplo, podría comparar [!UICONTROL Ingresos] con otra métrica.<p>![Gráfico combinado que compara dos métricas.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}

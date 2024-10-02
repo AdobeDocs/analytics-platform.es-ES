@@ -1,12 +1,12 @@
 ---
 description: Casos de uso de alertas.
-title: 'Alertas: Casos de uso'
+title: Casos de uso de alertas
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 38%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,9 @@ Puede crear alertas tal como se describe en [Crear alertas](/help/components/c-i
 
 Las secciones siguientes ilustran ejemplos de casos de uso que se deben tener en cuenta al crear alertas.
 
-## Crear una alerta simple filtrada mediante dos filtros {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Filtrar alertas
+
+Puede crear alertas simples mediante filtros. Por ejemplo, defina una alerta sobre el número de sesiones para las personas que visitan la página de inicio a través de una sesión de aplicación móvil.
 
 <!-- 
 
@@ -24,12 +26,12 @@ Update screenshots for better readability.
 
  -->
 
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## Consolidar las alertas (apilar) en lugar de crear múltiples alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Apilar alertas
 
-El apilado de alertas garantiza que las alertas se combinen y que no obtenga diversas alertas independientes.
+Puede consolidar (apilar) alertas en lugar de crear múltiples alertas. El apilado de alertas garantiza que las alertas se combinen y que no obtenga varias alertas independientes. En el ejemplo siguiente, se envía una alerta cuando se activa cualquiera de los umbrales de métrica.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

@@ -4,9 +4,9 @@ title: Uso de componentes en Analysis Workspace
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '952'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ Consulte la [Descripción general de componentes](/help/components/overview.md) 
 
 >[!TIP]
 >
->Para obtener información sobre cada componente, seleccione el icono ![InfoOutline](/help/assets/icons/InfoOutline.svg) junto al nombre del componente.
+>Para obtener información acerca de cada componente, use ![InfoOutline](/help/assets/icons/InfoOutline.svg). Consulte [Información de componente](#component-info) para obtener más información
 
 ## Añadir componentes a un proyecto
 

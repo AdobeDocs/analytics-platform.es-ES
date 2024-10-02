@@ -4,9 +4,9 @@ title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a9976a053021b2b0ac26daaad2cfe89f8af61a96
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 42%
 
 ---
@@ -47,7 +47,7 @@ Para excluir filas específicas de una tabla de forma libre:
 
 1. Pase el ratón sobre la fila que quiera excluir y luego seleccione ![Cerrar](/help/assets/icons/Close.svg).
 
-   Mantenga pulsada la tecla Mayús para seleccionar un rango de filas o la tecla Comando (en Mac) o Ctrl (en Windows) para seleccionar varias filas.
+   Mantenga presionado ***mayús*** para seleccionar un rango de filas, o bien mantenga presionada la tecla ***cmd*** (en Mac) o la tecla ***ctrl*** (en Windows) para seleccionar varias filas.
 
 <!--### Right-click > Delete selected rows
 

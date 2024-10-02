@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 0e627d536682f62b499f7f6d477c1d906de13f24
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 92%
+source-wordcount: '1052'
+ht-degree: 90%
 
 ---
 
@@ -174,10 +174,10 @@ ht-degree: 92%
       + [Experimentación](../analysis-workspace/c-panels/experimentation.md)
       + [de forma libre](../analysis-workspace/c-panels/freeform-panel.md)
       + [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Espectadores simultáneos de contenidos](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Espectadores simultáneos de medios](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Tiempo invertido en la reproducción de contenido](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento siguiente o anterior](../analysis-workspace/c-panels/next-previous.md)
-      + [Acceso rápido a información](../analysis-workspace/c-panels/quickinsight.md)
+      + [Quick insights](../analysis-workspace/c-panels/quickinsight.md)
    + Depuración, uso compartido y programación de proyectos {#curate-share}
       + [Menú Compartir](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](../analysis-workspace/curate-share/curate.md)
@@ -257,7 +257,7 @@ ht-degree: 92%
       + [Vista preliminar de dimensiones](../components/dimensions/view-dimensions.md)
       + [Desglose de dimensiones](../components/dimensions/t-breakdown-fa.md)
       + [Dimensiones de partición de tiempo](../components/dimensions/time-parting-dimensions.md)
-      + [Dimensión con muy alta cardinalidad](../components/dimensions/high-cardinality.md)
+      + [Dimensiones de alta cardinalidad](../components/dimensions/high-cardinality.md)
    + [Métricas](../components/apply-create-metrics.md)
    + Filtros {#cja-filters}
       + [Información general de Filtros](../components/filters/filters-overview.md)

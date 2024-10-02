@@ -4,9 +4,9 @@ title: Configuración de columna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '882'
 ht-degree: 19%
 
 ---
@@ -51,7 +51,7 @@ Puede editar la configuración de varias columnas a la vez. Seleccione varias co
 
 El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional en tablas improvisadas también está habilitada automáticamente en los desgloses, a menos que los límites [!UICONTROL Personalizados] estén seleccionados.
 
-<img src="./assets/conditional-formatting.png" alt="Las opciones de formato condicional con Personalizado seleccionado" width="40%" />
+![Formato condicional](./assets/conditional-formatting.png)
 
 | Opciones de formato condicional | Descripción |
 | --- | --- |
@@ -67,9 +67,19 @@ El formato condicional aplica formato que puede definir a los límites superior,
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="Uso de modelos de atribución no predeterminados"
->abstract="Habilite un modelo de atribución no predeterminado para las columnas seleccionadas"
+>abstract="Habilite un modelo de atribución no predeterminado para las columnas seleccionadas."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>title="Uso de modelos de atribución no predeterminados"
+>abstract="El modo de atribución no predeterminado no está disponible para esta métrica."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 Puede anular el modelo de atribución predeterminado configurado en [Vistas de datos](/help/data-views/component-settings/attribution.md).
