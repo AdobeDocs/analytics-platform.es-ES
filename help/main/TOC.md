@@ -17,9 +17,9 @@ ht-degree: 90%
 ---
 
 
-# Guía de Adobe Customer Journey Analytics  {#using}
+# Guía de Adobe Customer Journey Analytics {#using}
 
-+ [Guía de Adobe Customer Journey Analytics ](../getting-started/cja-landing.md)
++ [Guía de Adobe Customer Journey Analytics](../getting-started/cja-landing.md)
 + [Asistente de IA para Adobe Customer Journey Analytics](../ai-assistant.md)
 + Notas de la versión {#releases}
    + [Última versión](../release-notes/latest.md)
@@ -64,7 +64,7 @@ ht-degree: 90%
       + Adobe Experience Platform Edge Network {#edge-network}
          + [SDK web](../data-ingestion/aepwebsdk.md)
          + [SDK móvil](../data-ingestion/aepmobilesdk.md)
-         + [API de servidor ](../data-ingestion/serverapi.md)
+         + [API de servidor](../data-ingestion/serverapi.md)
       + [Datos por lotes](../data-ingestion/batch.md)
       + [Datos de streaming](../data-ingestion/streaming.md)
       + [Conectores de origen](../data-ingestion/sources.md)
