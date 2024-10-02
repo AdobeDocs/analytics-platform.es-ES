@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
+source-git-commit: 905d8e0bfe2e0dbc9c6a03d9eb9a6efd4926fbbf
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 51%
+source-wordcount: '1767'
+ht-degree: 48%
 
 ---
 
@@ -42,12 +42,10 @@ Lea esta [descripción general](/help/components/audiences/audiences-overview.md
    | Método de creación | Detalles |
    | --- | --- |
    | Desde el menú principal **[!UICONTROL Componentes] > [!UICONTROL Audiencias]** | Se abre la página Administrador de audiencias. Haga clic en **[!UICONTROL Crear audiencia]** para que se abra el [!UICONTROL Generador de audiencias]. |
-   | Desde una tabla de forma libre | Haga clic con el botón derecho en un elemento de una tabla de forma libre y seleccione **[!UICONTROL Crear audiencia a partir de la selección]**. Mediante este método se rellena previamente el filtro con la dimensión o el elemento de dimensión que haya seleccionado en la tabla. |
+   | Desde una visualización en Analysis Workspace | Muchas visualizaciones de Analysis Workspace le permiten crear una audiencia utilizando el menú del botón derecho. Por ejemplo, puede hacer clic con el botón secundario en un elemento de una tabla de forma libre, o bien hacer clic con el botón secundario en un nodo de lienzo de Recorrido y seleccionar **[!UICONTROL Crear audiencia]**. <p>Mediante este método se rellena previamente el filtro con la dimensión o el elemento de dimensión que haya seleccionado en la tabla.</p><p>Las siguientes visualizaciones le permiten crear una audiencia utilizando el menú contextual:</p><ul><li>Cohorte</li><li>Visita en orden previsto</li><li>Flujo</li><li>Tabla de forma libre</li><li>Lienzo de recorrido</li><li>Venn</li></ul><p>**Nota:** Las audiencias no pueden incluir métricas calculadas. Si intenta crear una audiencia que contenga una métrica calculada, esta no se incluirá en la definición de la audiencia.</p> |
    | Desde la interfaz de usuario de creación/edición de filtros | Marque la casilla que dice **[!UICONTROL Crear una audiencia a partir de este filtro]**. Mediante este método se rellena previamente el filtro. |
 
    {style="table-layout:auto"}
-
-   <!-- add beneath the Freeform table row above: | From within a Journey canvas visualization | Right-click a node in a Journey canvas visualization and select **[!UICONTROL Create audience]**. Using this method pre-populates the filter with the dimension or dimension item you selected in the table. | -->
 
 1. Cree la audiencia.
 
@@ -64,7 +62,7 @@ Lea esta [descripción general](/help/components/audiences/audiences-overview.md
    | Fecha de caducidad | Cuando la audiencia deje de actualizarse. El valor predeterminado es 1 año a partir de la fecha de creación. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la audiencia caduque. |
    | Actualizar ventana de retrospección | Especifica cuánto tiempo en la ventana de datos va a retroceder al crear la audiencia. El máximo es de 90 días. |
    | [!UICONTROL Intervalo de fecha único] | Intervalo de fecha en el que desea que se publique la audiencia única. |
-   | [!UICONTROL Filtro] | Los filtros son la entrada principal a la audiencia. Se pueden agregar hasta 20 filtros. Estos filtros se pueden unir con los operadores `And` o `Or`. |
+   | [!UICONTROL Filtro] | Los filtros son la entrada principal a la audiencia. Se pueden agregar hasta 20 filtros. Estos filtros se pueden unir con los operadores `And` o `Or`.<p>Al crear una audiencia a partir de una visualización en Analysis Workspace (como una tabla de forma libre o un lienzo de Recorrido), se conservan los filtros aplicados al panel o a la columna. Puede eliminar cualquier filtro que se aplique automáticamente.</p> |
    | [!UICONTROL Ver ID de muestra] | Una muestra de los ID de esta audiencia. Utilice la barra de búsqueda para buscar ID de ejemplo. |
 
    {style="table-layout:auto"}
