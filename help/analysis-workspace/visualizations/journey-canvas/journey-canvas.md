@@ -4,9 +4,9 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 2%
 La visualización del lienzo de Recorrido le permite analizar y obtener perspectivas profundas sobre los recorridos que proporciona a sus usuarios y clientes. Permite definir un recorrido desde cero o ver uno desde Journey Optimizer y, a continuación, ver cómo abandonaron el recorrido o cómo continuaron en él.
 
 Puede [generar análisis de recorridos de usuario](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) utilizando cualquier combinación de eventos, elementos de dimensión, filtros e intervalos de fechas para crear nodos de recorrido. Conecte los nodos para crear el flujo del recorrido e incluya varias rutas y puntos de decisión. Arrastre nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. Los datos se actualizan en tiempo real a medida que realiza cambios.
+
+[Los nodos están conectados](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) como una &quot;ruta final&quot;, lo que significa que los visitantes se cuentan siempre y cuando se muevan de un nodo al otro, independientemente de los eventos que se produzcan entre los dos nodos. El tiempo asignado para que los usuarios se muevan por la ruta viene determinado por la configuración del contenedor.
+
+![lienzo de Recorrido](assets/journey-canvas.png)
 
 ## Funciones principales
 
@@ -39,13 +43,13 @@ A continuación se muestran algunos ejemplos de los tipos de lienzo de Recorrido
 
 * Número y porcentaje de personas que completaron el recorrido (llegaron al nodo final)
 
-* Número y porcentaje de personas que llegaron a un punto determinado (nodo) del recorrido
+* Número y porcentaje de personas que llegaron a un nodo determinado del recorrido
 
-* El paso más común que se produjo después o antes de un punto determinado (nodo) del recorrido
+* El paso más común que se produjo después o antes de un nodo determinado del recorrido
 
 **Visita en orden previsto**
 
-* Los puntos (nodos) del recorrido en los que las personas salieron del recorrido con mayor frecuencia (nunca llegaron a ninguno de los siguientes nodos inmediatos)
+* Los nodos del recorrido donde las personas cayeron con mayor frecuencia del recorrido (nunca llegaron a ninguno de los nodos inmediatamente siguientes)
 
 **Otro**
 

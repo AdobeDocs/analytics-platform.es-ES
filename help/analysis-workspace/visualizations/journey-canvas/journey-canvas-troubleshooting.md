@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 057c9f4a0e8fb163bfb23cea1870f949ad4ae1c0
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -41,10 +41,23 @@ Por ejemplo, si utiliza Persona como contenedor con Sesión como métrica princi
 
 Las siguientes configuraciones pueden dar como resultado nodos que muestran porcentajes que superan el 100%:
 
-* Cuando el campo **[!UICONTROL Valor porcentual]** está establecido en **[!UICONTROL Porcentaje del total]**, y se selecciona una métrica principal que genera menos datos para el nodo de inicio que para los nodos subsiguientes.
+* Cuando el campo **[!UICONTROL Valor porcentual]** está establecido en **[!UICONTROL Porcentaje del total]** o **[!UICONTROL Porcentaje del nodo de inicio]**, y se selecciona una métrica principal que genera menos datos para el nodo de inicio que en los nodos subsiguientes.
 
   Por ejemplo, si se seleccionan los ingresos como métrica principal y no se obtienen ingresos en la métrica principal, en cualquier nodo en el que se obtengan ingresos se muestran como superiores al 100%.
 
+## Nodos que tienen un porcentaje o valor mayor que los nodos anteriores
+
+## Nodos que tienen un porcentaje o valor mayor que los nodos anteriores
+
+## Los nodos que se producen más adelante en el recorrido tienen un porcentaje o valor mayor que los que se producen más temprano
+
+## Nodo con un porcentaje o valor mayor que los nodos que lo preceden en el recorrido
+
+## Nodos con un porcentaje o valor mayor que los nodos anteriores
+
+## Nodos
+
+## Un porcentaje o valor mayor en los nodos siguientes
 
 ## Un recorrido sin forma de embudo
 

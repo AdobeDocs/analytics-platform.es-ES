@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 49%
+source-wordcount: '1651'
+ht-degree: 51%
 
 ---
 
@@ -126,12 +126,6 @@ Customer Journey Analytics toma todas las combinaciones de área de nombres e ID
 A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agrega el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
 Para ver audiencias de Customer Journey Analytics en Platform:
-
->[!AVAILABILITY]
->
->La funcionalidad descrita en los siguientes pasos se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Si estos pasos no coinciden con lo que ve en su entorno, siga estos pasos en su lugar: Vaya a [!UICONTROL **Segmentos**] > [!UICONTROL **Crear segmentos**] > pestaña [!UICONTROL **Audiencias**] > [!UICONTROL **Audiencias de CJA**].
->
->Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información acerca del proceso de lanzamiento de Customer Journey Analytics, consulte [lanzamientos de características de Customer Journey Analytics](/help/release-notes/releases.md).
 
 1. Expanda [!UICONTROL **Cliente**] en el panel izquierdo y, a continuación, seleccione [!UICONTROL **Audiencias**]. <!-- is there a folder called "Customer Journey Analytics? -->
 
