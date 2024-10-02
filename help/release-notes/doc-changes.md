@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d0dbdcb6fa1402bce73584d1dd9165c1b3f00b33
+source-git-commit: 51d4f05d7d28befed0a5c0d1b47b53c2e045f7f7
 workflow-type: tm+mt
-source-wordcount: '4064'
+source-wordcount: '4090'
 ht-degree: 71%
 
 ---
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Octubre de 2024** | |
+| Workspace y componentes | Se ha actualizado la documentación sobre proyectos de Workspace (proyectos, visualizaciones y paneles) y componentes (anotaciones, dimensiones, métricas (calculadas), filtros, intervalos de fechas y alertas). |
 | **Septiembre de 2024** | |
 | Actualización de datos de resumen | Se han actualizado los artículos de datos de resumen con información sobre cómo usar correctamente [datos de búsqueda](/help/data-views/summary-data.md#lookup-data) al informar sobre datos de resumen. |
 | Actualización de extensión de BI | Se ha agregado la sección [valores predeterminados y limitaciones](/help/data-views/bi-extension.md#defaults-and-limitations) a la documentación de la extensión de BI. |
