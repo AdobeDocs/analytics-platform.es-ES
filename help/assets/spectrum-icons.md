@@ -5,7 +5,7 @@ role: User, Admin
 feature: Basics
 hide: true
 hide-from-toc: true
-source-git-commit: f1677fbaabb9b56893542f5143b4c7077a97f2e1
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 13%
@@ -733,7 +733,7 @@ Vea [Página Wiki](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+
 | Compartir | `![Share](/help/assets/icons/Share.svg]` | ![Compartir](/help/assets/icons/Share.svg) |
 | ShareAndroid | `![ShareAndroid](/help/assets/icons/ShareAndroid.svg]` | ![Compartir Android](/help/assets/icons/ShareAndroid.svg) |
 | ShareCheck | `![ShareCheck](/help/assets/icons/ShareCheck.svg]` | ![ShareCheck](/help/assets/icons/ShareCheck.svg) |
-| ShareLight | `![ShareLight](/help/assets/icons/ShareLight.svg]` | ![ShareLight](/help/assets/icons/ShareLight.svg) |
+| ShareLight | `![ShareLight](/help/assets/icons/ShareAlt.svg]` | ![ShareLight](/help/assets/icons/ShareAlt.svg) |
 | ShareWindow | `![ShareWindow](/help/assets/icons/ShareWindow.svg]` | ![CompartirVentana](/help/assets/icons/ShareWindow.svg) |
 | Enfoque | `![Sharpen](/help/assets/icons/Sharpen.svg]` | ![Enfoque](/help/assets/icons/Sharpen.svg) |
 | Escudo | `![Shield](/help/assets/icons/Shield.svg]` | ![Escudo](/help/assets/icons/Shield.svg) |
