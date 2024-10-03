@@ -4,9 +4,9 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 3b9f477001747a96359f77f2e48baf7589b7a1e4
 workflow-type: tm+mt
-source-wordcount: '6593'
+source-wordcount: '6391'
 ht-degree: 1%
 
 ---
@@ -149,10 +149,6 @@ Los nodos se crean de las siguientes maneras: arrastrando componentes de Workspa
 
 ### Mostrar los nodos principales en función de los nodos existentes
 
->[!AVAILABILITY]
->
->Esta función aún no está disponible.
-
 Puede mostrar automáticamente los nodos principales en función de los nodos que ya están en el lienzo. Puede agregar los nodos principales al lienzo de Recorrido o verlos en una tabla de forma libre.
 
 Esta opción está disponible para los siguientes objetos del lienzo:
@@ -221,17 +217,17 @@ Puede seleccionar una flecha y mostrar los elementos de dimensión principales q
 
 ### Duplicar nodos
 
->[!AVAILABILITY]
->
->Esta función aún no está disponible.
-
 La opción de duplicado está disponible para los siguientes objetos del lienzo:
+
+* Nodos individuales
 
 * Varios nodos
 
 Para duplicar nodos:
 
-1. Seleccione varios nodos que desee duplicar.
+1. Seleccione uno o varios nodos que desee duplicar.
+
+   Para seleccionar varios nodos, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
 1. Haga clic con el botón derecho en uno de los nodos seleccionados y, a continuación, seleccione [!UICONTROL **Duplicar**].
 
@@ -263,7 +259,7 @@ Puede realizar cualquiera de las siguientes acciones para combinar nodos en lien
 
 * Desde el carril izquierdo, arrastre varios componentes simultáneamente a una zona en blanco del lienzo mientras mantiene pulsada la tecla Mayús.
 
-* En el lienzo, seleccione los nodos que desea combinar, haga clic con el botón secundario en uno de los nodos seleccionados y, a continuación, seleccione **Combinar**.<!--Is there a limit on how many you can combine? -->
+<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
 
 #### Lógica al combinar nodos
 
@@ -304,7 +300,7 @@ Los nodos se conectan mediante una flecha. Tanto la dirección de la flecha como
 
 Cuando se conectan nodos en lienzo de Recorrido, se conectan mediante el operador THEN. Esto también se conoce como [filtrado secuencial](/help/components/filters/seg-sequential-build.md).
 
-Los nodos están conectados como una &quot;ruta eventual&quot;, lo que significa que los visitantes se cuentan siempre y cuando finalmente se muevan de un nodo a otro, independientemente de los eventos que se produzcan entre los 2 nodos. El tiempo asignado para que los usuarios se muevan por la ruta viene determinado por la configuración del contenedor. También se puede controlar [agregando una restricción de tiempo](#add-a-time-constraint-between-nodes).
+Los nodos están conectados como una &quot;ruta eventual&quot;, lo que significa que los visitantes se cuentan siempre y cuando finalmente se muevan de un nodo a otro, independientemente de los eventos que se produzcan entre los 2 nodos. El tiempo asignado para que los usuarios se muevan por la ruta viene determinado por la configuración del contenedor. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
 Para ver la lógica de los nodos conectados, haga clic con el botón secundario en el nodo y seleccione [!UICONTROL **Crear filtro a partir del nodo**]. La lógica se muestra en la sección [!UICONTROL **Definición**].
 
@@ -328,23 +324,23 @@ Al agregar un nodo al lienzo, puede colocarlo entre dos nodos conectados. El nod
 
 Para obtener más información, consulte [Agregar nodos](#add-nodes).
 
-### Agregar una restricción de tiempo entre nodos
+<!--
+
+### Add a time constraint between nodes
 
 >[!AVAILABILITY]
 >
->Esta función aún no está disponible.
+>This feature is not yet available.
 
-Puede establecer una restricción de tiempo entre nodos. Cuando se establece una restricción de tiempo, se considera que las personas han salido del recorrido si siguen el recorrido definido, pero tardan más tiempo del asignado en moverse entre los nodos.
+You can set a time constraint between nodes. When a time constraint is in place, people are considered to have fallen out of the journey if they follow the defined journey but take longer than the allotted time period to move between the nodes.
 
-La opción para añadir una restricción de tiempo está disponible para los siguientes objetos del lienzo:
+The option to add a time constraint is available for the following objects on the canvas:
 
-* La flecha entre los nodos
+* The arrow between nodes
 
-Para añadir una restricción de tiempo:
+To add a time constraint:
 
-1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en la flecha entre 2 nodos y, a continuación, seleccione [!UICONTROL **Agregar restricción de tiempo**].
-
-<!-- 
+1. In a Journey canvas visualization, right-click the arrow between 2 nodes, then select [!UICONTROL **Add time constraint**].
 
 from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
 1. Choose from the following options: 
@@ -353,35 +349,35 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ## Administración de nodos o flechas
 
-### Cambiar el color de un nodo o una flecha
+<!--
+
+### Change the color of a node or arrow
 
 >[!AVAILABILITY]
 >
->Esta función aún no está disponible.
+>This feature is not yet available.
 
-Puede personalizar visualmente un recorrido cambiando el color de cualquier nodo o flecha del lienzo. Por ejemplo, puede ajustar los colores para indicar un evento deseable o no deseable.
+You can visually customize a journey by changing the color of any node or arrow on the canvas. For example, you could adjust colors to indicate a desirable or undesirable event.
 
-La opción para cambiar el color está disponible para los siguientes objetos del lienzo:
+The option to change the color is available for the following objects on the canvas:
 
-* Nodos individuales
+* Individual nodes
 
-* La flecha entre los nodos
+* The arrow between nodes
 
-Para cambiar el color de un nodo o una flecha:
+To change the color of a node or arrow:
 
-1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en el nodo o la flecha cuyo color desee cambiar.
+1. In a Journey canvas visualization, right-click the node or arrow whose color you want to change.
 
-1. Seleccionar [!UICONTROL **Cambiar color**]. <!--make sure "color" isn't capitalized. It is in the req doc-->
+1. Select [!UICONTROL **Change color**]. 
 
-1. Seleccione el color que desee.
+1. Select the desired color. 
 
-   Los colores siguientes están disponibles: <!--look into this interaction and color list-->
+   The following colors are available: 
+
+-->
 
 ### Cambiar el nombre de un nodo
-
->[!AVAILABILITY]
->
->Esta función aún no está disponible.
 
 Al arrastrar un componente a una visualización de lienzo de Recorrido, se crea un nodo con el mismo nombre que el nombre del componente. Puede cambiar el nombre del nodo para que coincida mejor con el paso del recorrido que representa el nodo.
 
@@ -453,15 +449,13 @@ Al aplicar un desglose, tenga en cuenta lo siguiente:
 
 #### Aplicar un desglose a uno o varios nodos o flechas
 
->[!AVAILABILITY]
->
->Esta función aún no está disponible.
-
 1. En una visualización del lienzo del Recorrido, seleccione uno o varios nodos en los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
    O
 
    En una visualización de lienzo de Recorrido, seleccione una o más flechas entre 2 nodos donde desee aplicar el desglose y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+
+   Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
 1. Seleccionar [!UICONTROL **desglose**].
 
@@ -513,6 +507,8 @@ Para crear una audiencia:
 
    En una visualización de lienzo de Recorrido, seleccione una o más flechas entre 2 nodos donde desee crear una audiencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
 
+   Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+
    >[!NOTE]
    >
    >Las audiencias no pueden incluir métricas calculadas ni métricas basadas en un [conjunto de datos de resumen](/help/data-views/summary-data.md). Si intenta crear una audiencia a partir de cualquier área del lienzo de Recorrido que contenga una métrica calculada o una métrica basada en un conjunto de datos de resumen, la métrica calculada no se incluirá en la definición de audiencia.
@@ -522,10 +518,6 @@ Para crear una audiencia:
 1. Siga creando y publicando la audiencia tal como se describe en [Crear y publicar audiencias](/help/components/audiences/publish.md).
 
 ### Ver datos de tendencia
-
->[!AVAILABILITY]
->
->Esta función aún no está disponible.
 
 Los datos de tendencia se pueden ver en un gráfico de líneas para los objetos del lienzo de Recorrido. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
@@ -546,6 +538,8 @@ Para ver datos de tendencia:
    O
 
    En una visualización de lienzo de Recorrido, seleccione una o más flechas entre 2 nodos para los que desee ver datos de tendencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+
+   Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
 1. Seleccione [!UICONTROL **Tendencia**].
 
