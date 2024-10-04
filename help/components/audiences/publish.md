@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 905d8e0bfe2e0dbc9c6a03d9eb9a6efd4926fbbf
+source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 48%
+source-wordcount: '1931'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="cja_components_audiences_refreshfrequency"
 >title="Frecuencia de actualización"
->abstract="Vea la frecuencia con la que se reevaluará la membresía de una audiencia.<br/>Las audiencias únicas solo se evalúan una vez."
+>abstract="Vea la frecuencia con la que se reevalúa la membresía de una audiencia.<br/>Las audiencias únicas solo se evalúan una vez."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,74 +31,102 @@ ht-degree: 48%
 
 <!-- markdownlint-enable MD034 -->
 
-En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_audiences_refreshlookbackwindow"
+>title="Actualizar ventana de retrospección"
+>abstract="Defina el número de días de retrospectiva a partir de hoy en los que se evaluará a una audiencia."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_audiences_audiencesizelimit"
+>title="Límite de tamaño de audiencia"
+>abstract="Las audiencias no pueden exceder un tamaño de 20 millones de miembros."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_audiences_namespacesincluded"
+>title="Espacios de nombres incluidos"
+>abstract="Las identidades en esta audiencia se comprenden en los espacios de nombres a continuación."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
+
+En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) en Adobe Experience Platform para la segmentación y personalización de clientes.
 
 Lea esta [descripción general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de Customer Journey Analytics.
 
 ## Creación y publicación de una audiencia {#create}
 
-1. Para empezar a crear y publicar una audiencia, siga uno de estos procedimientos:
+1. Para crear y publicar una audiencia, siga uno de estos procedimientos:
 
    | Método de creación | Detalles |
    | --- | --- |
-   | Desde el menú principal **[!UICONTROL Componentes] > [!UICONTROL Audiencias]** | Se abre la página Administrador de audiencias. Haga clic en **[!UICONTROL Crear audiencia]** para que se abra el [!UICONTROL Generador de audiencias]. |
-   | Desde una visualización en Analysis Workspace | Muchas visualizaciones de Analysis Workspace le permiten crear una audiencia utilizando el menú del botón derecho. Por ejemplo, puede hacer clic con el botón secundario en un elemento de una tabla de forma libre, o bien hacer clic con el botón secundario en un nodo de lienzo de Recorrido y seleccionar **[!UICONTROL Crear audiencia]**. <p>Mediante este método se rellena previamente el filtro con la dimensión o el elemento de dimensión que haya seleccionado en la tabla.</p><p>Las siguientes visualizaciones le permiten crear una audiencia utilizando el menú contextual:</p><ul><li>Cohorte</li><li>Visita en orden previsto</li><li>Flujo</li><li>Tabla de forma libre</li><li>Lienzo de recorrido</li><li>Venn</li></ul><p>**Nota:** Las audiencias no pueden incluir métricas calculadas. Si intenta crear una audiencia que contenga una métrica calculada, esta no se incluirá en la definición de la audiencia.</p> |
-   | Desde la interfaz de usuario de creación/edición de filtros | Marque la casilla que dice **[!UICONTROL Crear una audiencia a partir de este filtro]**. Mediante este método se rellena previamente el filtro. |
+   | Desde la interfaz **[!UICONTROL Audiencias]**. | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias]** en el menú principal del Customer Journey Analytics. Se muestra la interfaz Audiencias. Seleccione **[!UICONTROL Crear audiencia]** para que se abra [!UICONTROL el generador de audiencias]. |
+   | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear una audiencia utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear audiencia]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el filtro del Generador de audiencias con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear una audiencia utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Las audiencias no pueden incluir métricas calculadas. Si intenta crear una audiencia que contenga una métrica calculada, esta no se incluye en la definición de la audiencia.</p> |
+   | Desde la interfaz de usuario de creación/edición de filtros | Marque la casilla que dice **[!UICONTROL Crear una audiencia a partir de este filtro]**. Mediante este método se rellena previamente el filtro. Consulte [Crear filtros](/help/components/filters/create-filters.md) para obtener más información. |
 
    {style="table-layout:auto"}
 
-1. Cree la audiencia.
+1. Genere la audiencia con [Audience Builder](#audience-builder).
 
-   Configure estos ajustes para poder publicar la audiencia.
+1. Interprete los datos con el panel [Vista previa de fecha](#data-preview).
 
-   ![Captura de pantalla de la creación de una audiencia que muestra la configuración descrita en la siguiente sección.](assets/create-audience.png)
+1. Seleccione **[!UICONTROL [!UICONTROL Ver ID de muestra]]** para ver una muestra de los ID de esta audiencia. En el cuadro de diálogo **[!UICONTROL ID de muestra]** puede usar ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar ID de muestra*] para buscar ID de muestra.
 
-   | Configuración | Descripción |
-   | --- | --- |
-   | [!UICONTROL Nombre] | El nombre de la audiencia. |
-   | [!UICONTROL Etiquetas] | Las etiquetas que quiera asignar a la audiencia con fines organizativos. Puede utilizar una etiqueta preexistente o introducir una nueva. |
-   | [!UICONTROL Descripción] | Agregue una buena descripción de la audiencia para diferenciarla de otras. |
-   | [!UICONTROL Frecuencia de actualización] | La frecuencia con la que desea actualizar la audiencia.<ul><li>Puede elegir crear una audiencia única (opción predeterminada) que no necesite ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas concretas.</li><li>Puede seleccionar otros intervalos de actualización. Para la frecuencia de actualización de 4 horas, existe un límite de 75 a 150 actualizaciones de audiencia, según los derechos del Customer Journey Analytics.</li></ul> |
-   | Fecha de caducidad | Cuando la audiencia deje de actualizarse. El valor predeterminado es 1 año a partir de la fecha de creación. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la audiencia caduque. |
-   | Actualizar ventana de retrospección | Especifica cuánto tiempo en la ventana de datos va a retroceder al crear la audiencia. El máximo es de 90 días. |
-   | [!UICONTROL Intervalo de fecha único] | Intervalo de fecha en el que desea que se publique la audiencia única. |
-   | [!UICONTROL Filtro] | Los filtros son la entrada principal a la audiencia. Se pueden agregar hasta 20 filtros. Estos filtros se pueden unir con los operadores `And` o `Or`.<p>Al crear una audiencia a partir de una visualización en Analysis Workspace (como una tabla de forma libre o un lienzo de Recorrido), se conservan los filtros aplicados al panel o a la columna. Puede eliminar cualquier filtro que se aplique automáticamente.</p> |
-   | [!UICONTROL Ver ID de muestra] | Una muestra de los ID de esta audiencia. Utilice la barra de búsqueda para buscar ID de ejemplo. |
+1. Comprueba la configuración de tu audiencia y selecciona **[!UICONTROL Publish]**.
+Recibirá un mensaje de confirmación que indica que la audiencia se ha publicado. La publicación tarda solo uno o dos minutos en mostrarse en Experience Platform.
 
-   {style="table-layout:auto"}
+1. Seleccione **[!UICONTROL Ver la audiencia en AEP]** dentro del mismo mensaje y se le redirigirá a la [IU del segmento](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
 
-1. Interprete la vista previa de datos.
+## Generador de audiencias
 
-   La vista previa de la audiencia aparece en el panel derecho. Permite realizar un análisis resumido de la audiencia que ha creado.
+Configure estas opciones para definir o actualizar la audiencia.
 
-   ![Captura de pantalla de la vista previa de datos que muestra un análisis resumido de la audiencia.](assets/data-preview.png)
+![Captura de pantalla de la creación de una audiencia que muestra la configuración descrita en la siguiente sección.](assets/create-audience.png)
 
-   | Configuración de la vista previa | Descripción |
-   | --- | --- |
-   | Ventana [!UICONTROL Vista previa de datos] | El intervalo de fecha de la audiencia. |
-   | [!UICONTROL Personas totales] | Un número de resumen del total de personas en esta audiencia. Puede llegar a los 20 millones de personas. Si la audiencia supera los 20 millones de personas, debe reducir el tamaño de la audiencia para poder publicarla. |
-   | [!UICONTROL Límite de tamaño de audiencia] | Muestra a qué distancia del límite de 20 millones está esta audiencia. |
-   | [!UICONTROL Retorno calculado de la audiencia] | Esta configuración es útil para volver a dirigirse a los clientes de esta audiencia que regresan al sitio, la aplicación móvil u otro canal (en otras palabras, que se ven de nuevo en este conjunto de datos). <p>Aquí puede seleccionar el lapso de tiempo (7 días siguientes, 2 semanas siguientes, mes siguiente) para la cantidad estimada de clientes que es posible que regresen. |
-   | [!UICONTROL Cálculo de retorno] | Este número proporciona un número estimado de clientes que regresan durante el lapso de tiempo seleccionado en la lista desplegable. Para predecir este número, miramos la tasa de pérdida histórica para esta audiencia. |
-   | [!UICONTROL Previsualizar métricas] | Esta configuración le permite mirar métricas concretas para ver si esta audiencia contribuye en una cantidad desproporcionada a esta métrica, como “[!UICONTROL Ingresos]” o “[!UICONTROL Promedio de tiempo en el sitio]”. Proporciona el recuento agregado de la métrica, así como el porcentaje del total que representa. Puede seleccionar cualquier métrica que esté disponible en la vista de datos. |
-   | [!UICONTROL Espacios de nombres incluidos] | Los espacios de nombres específicos asociados a las personas de la audiencia. Algunos ejemplos son ECID, CRM ID, direcciones de correo electrónico, etc. |
-   | [!UICONTROL Zona protegida] | La [zona protegida de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) en la que reside esta audiencia. Cuando publica esta audiencia en Platform, solo puede trabajar con ella dentro de los límites de esta zona protegida. |
+| Configuración | Descripción |
+| --- | --- |
+| ![Datos](/help/assets/icons/Data.svg) | Seleccione una vista de datos para utilizarla en la creación de audiencias. |
+| **[!UICONTROL Nombre]** | Nombre de la audiencia. Por ejemplo, `Really Interested in Potential Car Buyers` |
+| **[!UICONTROL Etiquetas]** | Las etiquetas que quiera asignar a la audiencia con fines organizativos. Puede seleccionar una o varias etiquetas preexistentes o introducir una nueva. |
+| **[!UICONTROL Descripción]** | Una descripción de la audiencia para diferenciarla de otras. Por ejemplo, `Build an audience of really interested potential car buyers` |
+| **[!UICONTROL Frecuencia de actualización]** | La frecuencia con la que desea actualizar la audiencia.<p/>Puede elegir entre <ul><li>**[!UICONTROL Audiencia única]**: audiencia (predeterminada) que no necesita ninguna actualización. Por ejemplo, esta opción podría resultar útil para campañas únicas específicas.<br/>Debe especificar un **[!UICONTROL intervalo de fecha único]**. Puede usar ![Calendario](/help/assets/icons/Calendar.svg) para especificar un intervalo de fechas.</li><li>Una audiencia refrescante. Puede seleccionar las siguientes opciones:<ul><li>**[!UICONTROL Cada 4 horas]** s: una audiencia que se actualiza cada 4 horas.</li><li>**[!UICONTROL Diario]**: una audiencia que se actualiza diariamente</li><li>**[!UICONTROL Semanal]**: una audiencia que se actualiza semanalmente.</li><li>**[!UICONTROL Mensual]**: una audiencia que se actualiza mensualmente</li></ul></li><br/>Para actualizar audiencias, debe especificar:<ul><li>**[!UICONTROL Actualizar ventana retrospectiva]**. Defina el número de días de retrospectiva a partir de hoy en los que se evaluará una audiencia. Puede seleccionar entre las opciones o definir un Tiempo personalizado. El máximo es de 90 días.</li><li>**[!UICONTROL Fecha de caducidad]**: defina cuándo la audiencia deja de actualizar. Puede usar ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar una fecha. El valor predeterminado es 1 año a partir de la fecha de creación. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan. El administrador recibe un correo electrónico un mes antes de que la audiencia caduque.</li></ul> Tenga en cuenta que hay un límite de 75 a 150 actualizaciones de audiencia, según los derechos de Customer Journey Analytics.</li></ul> |
+| **[!UICONTROL Filtro]** | Los filtros son la entrada principal a la audiencia. Arrastre y suelte uno o más filtros del panel ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filtro]** izquierdo en el área de Filtro. Puede usar ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Filtros de búsqueda*] para buscar filtros. Se pueden agregar hasta 20 filtros. Los filtros se pueden unir con los operadores **[!UICONTROL And]** o **[!UICONTROL Or]**.<p>Al crear una audiencia a partir de una visualización en Analysis Workspace (como una tabla de forma libre o un lienzo de Recorrido), se conservan los filtros aplicados al panel o a la columna. Puede eliminar cualquier filtro que se aplique automáticamente.</p> |
+| **[!UICONTROL Vista previa de datos]** | Seleccione ![Información](/help/assets/icons/Info.svg) para mostrar u ocultar la [Vista previa de datos](#data-preview) para el intervalo de fechas seleccionado. |
 
-   {style="table-layout:auto"}
+## Previsualización de datos
 
-1. Compruebe la configuración de la audiencia y haga clic en **[!UICONTROL Publicar]**.
+El panel Vista previa de datos proporciona la siguiente información.
 
-   Si todo salió bien, recibirá un mensaje de confirmación conforme se ha publicado la audiencia. La audiencia solo tardará un minuto o dos en mostrarse en Experience Platform. (Incluso las audiencias con millones de miembros deberían tardar menos de 5 minutos).
+| Elemento | Descripción |
+| --- | --- |
+| **[!UICONTROL Personas totales]** | Un número de resumen del total de personas en esta audiencia. El tamaño máximo es de 20 millones de personas. Si la audiencia supera los 20 millones de personas, debe reducir el tamaño de la audiencia para poder publicar. |
+| **[!UICONTROL Límite de tamaño de audiencia]** | Visualización para mostrar a qué distancia del límite de 20 millones está esta audiencia. |
+| **[!UICONTROL Retorno calculado de la audiencia]** | Puede utilizar este valor para redirigirse a las personas de esta audiencia que regresen a su sitio, aplicación móvil u otro canal.<p>Puede seleccionar el lapso de tiempo (**[!UICONTROL Próximos 7 días]**, **[!UICONTROL Próximas 2 semanas]** o **[!UICONTROL Próximo mes]**) para el número estimado de clientes que pueden regresar. |
+| **[!UICONTROL Cálculo de retorno]** | Este número proporciona un número estimado de clientes que regresan durante el lapso de tiempo seleccionado. Este número se predice usando la tasa de pérdida histórica para esta audiencia. |
+| **[!UICONTROL Previsualizar métricas]** | Puede seleccionar una métrica específica para ver cómo se basan los datos de esa métrica en la audiencia que defina.  Cada métrica de Vista previa muestra un total para la métrica en función de la audiencia. Y un porcentaje de la métrica basada en audiencia del total general de la métrica, según lo definido por la vista de datos. Por ejemplo, 381 personas (la métrica que seleccionó) son el resultado de su definición de audiencia, que es el 5 % del total de personas disponibles en la vista de datos. Puede seleccionar cualquier métrica que esté disponible en la vista de datos. |
+| **[!UICONTROL Espacios de nombres incluidos]** | Los espacios de nombres específicos asociados a las personas de la audiencia. Algunos ejemplos son ECID, CRM ID, direcciones de correo electrónico, etc. |
+| **[!UICONTROL Zona protegida]** | La [zona protegida de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home) en la que reside esta audiencia. Cuando publica esta audiencia en Platform, solo puede trabajar con la audiencia dentro de los límites de esta zona protegida. |
 
-1. Haga clic en **[!UICONTROL Ver la audiencia en AEP]** dentro del mismo mensaje y se le redirigirá a la [Interfaz de usuario de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
+{style="table-layout:auto"}
 
 ## ¿Qué sucede después de crear y publicar una audiencia? {#after-audience-created}
 
-Después de crear y publicar una audiencia en Customer Journey Analytics, esta estará disponible en Experience Platform. Solo se creará un segmento de streaming de Adobe Experience Platform si su organización está configurada para la segmentación de streaming.
+Después de crear y publicar una audiencia en Customer Journey Analytics, esta estará disponible en Experience Platform. Un segmento de streaming de Adobe Experience Platform solo se crea si su organización está configurada para la segmentación de streaming.
 
-* La audiencia de Platform comparte el nombre o la descripción de la audiencia del Customer Journey Analytics, pero al nombre se le agregará el ID de audiencia del Customer Journey Analytics para garantizar que sea única.
-* Cualquier cambio realizado en el nombre o la descripción de la audiencia en Customer Journey Analytics se reflejará en Platform.
-* Si una audiencia se elimina en Customer Journey Analytics, esta permanecerá disponible en Platform.
+* La audiencia de Platform comparte el mismo nombre y la misma descripción que la audiencia del Customer Journey Analytics. El nombre se adjunta con el ID de audiencia del Customer Journey Analytics para garantizar que la audiencia sea única.
+* Cualquier cambio realizado en el nombre o la descripción de la audiencia en Customer Journey Analytics se reflejará en Experience Platform.
+* Si una audiencia se elimina en Customer Journey Analytics, seguirá estando disponible en Experience Platform.
 
 ## Consideraciones de latencia {#latency}
 
@@ -106,7 +134,7 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 
 ![Latencias en la publicación de audiencias como se describe en esta sección.](assets/latency-diagram.svg)
 
-| # | Punto de latencia | Duración de la latencia |
+|  | Punto de latencia | Duración de la latencia |
 | --- | --- | --- |
 | No se muestra | Conector de origen de Adobe Analytics a Analytics (A4T) | Hasta 30 minutos |
 | 1 | Ingesta de datos en el lago de datos (desde el conector de origen de Analytics u otras fuentes) | Hasta 90 minutos |
@@ -139,7 +167,7 @@ Para ver audiencias de Customer Journey Analytics en Platform:
 
    * Utilice el campo de búsqueda.
 
-Para obtener más información sobre el uso de Audiences en Platform, consulte la sección [Audiencias](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#audiences) en la [Guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html) en la documentación del Experience Platform.
+Para obtener más información sobre el uso de Audiences en Platform, consulte la sección [Audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la [guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la documentación del Experience Platform.
 
 
 ## Preguntas frecuentes {#faq}
@@ -154,11 +182,11 @@ En este caso, se envía un evento de salida al Experience Platform desde el Cust
 
 +++**¿Qué sucede si se elimina una audiencia en Customer Journey Analytics?**
 
-Cuando se elimina una audiencia de Customer Journey Analytics, esta ya no aparecerá en la interfaz de usuario de Experience Platform. Sin embargo, en Platform no se eliminan perfiles asociados a esa audiencia.
+Cuando se elimina una audiencia de Customer Journey Analytics, esta ya no se muestra en la interfaz de usuario de Experience Platform. Sin embargo, los perfiles asociados a esa audiencia no se eliminan en Experience Platform.
 
 +++
 
-+++**Si no existe un perfil correspondiente en RTCDP, ¿se creará un perfil nuevo?**
++++**Si no existe un perfil correspondiente en RTCDP, ¿se crea un perfil nuevo?**
 
 Efectivamente.
 
@@ -172,19 +200,19 @@ Customer Journey Analytics transmite los datos a RTCP a través de la canalizaci
 
 +++**¿Qué identidades envía el Customer Journey Analytics?**
 
-Los pares de identidad/área de nombres especificados en [Configuración de conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como “ID de persona”.
+Los pares de identidad/área de nombres especificados en [Configuración de conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como ID de persona.
 
 +++
 
 +++**¿Qué ID se elige como identidad principal?**
 
-Véase más arriba. Solo enviamos una identidad por &quot;persona&quot; Customer Journey Analytics.
+Véase más arriba. Solo se envía una identidad por cada persona Customer Journey Analytics.
 
 +++
 
 +++**¿RTCP también procesa los mensajes del Customer Journey Analytics? ¿Puede el Customer Journey Analytics agregar identidades a un gráfico de identidades de perfil mediante el uso compartido de audiencias?**
 
-No. Solo enviamos una identidad por “persona”, por lo que no habría bordes de gráficos para que RTCP los consumiera.
+No. Solo se envía una identidad por persona, por lo que no habría bordes de gráfico para que los RTCP los consuman.
 
 +++
 
@@ -194,9 +222,9 @@ El momento de la actualización se basa en el momento en el que se publicó la a
 
 +++
 
-+++**¿Pueden los usuarios configurar el tiempo de actualización diario, semanal y mensual?**
++++**¿Puede configurar el tiempo de actualización diario, semanal y mensual?**
 
-No, los usuarios no pueden configurarlas.
+No, los usuarios no pueden configurar la hora de la actualización.
 
 +++
 
