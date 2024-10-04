@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 04a95b6e502a8a1c1e686738d490d2a40936e738
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 92%
+source-wordcount: '964'
+ht-degree: 86%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 92%
    + [Información general sobre la ingesta de datos](../data-ingestion/data-ingestion.md)
    + Guías de inicio rápido de ingesta y uso{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Adobe Experience Platform Edge Network {#edge-network}
+      + Edge Network Experience Platform {#edge-network}
          + [SDK web](../data-ingestion/aepwebsdk.md)
          + [SDK móvil](../data-ingestion/aepmobilesdk.md)
          + [API de servidor](../data-ingestion/serverapi.md)
@@ -115,7 +115,7 @@ ht-degree: 92%
       + [Abrir proyectos](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
       + Carpetas en Workspace {#workspace-folders}
-         + [Acerca de las carpetas en Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Acerca de las carpetas](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creación de carpetas y subcarpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Administración de carpetas](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Agregar o mover proyectos a carpetas](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -132,7 +132,7 @@ ht-degree: 92%
          + Configuración de columna y fila {#column-row-settings}
             + [Configuración de columna](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [Elementos dinámicos vs. estáticos](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+            + [Elementos dinámicos y estáticos](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Filtrado y ordenación de tablas](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totales de Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
@@ -191,20 +191,20 @@ ht-degree: 92%
       + [Exportar a la nube](../analysis-workspace/export/export-cloud.md)
    + Detección de anomalías {#anomaly-detection}
       + [Información general](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [Visualización de anomalías en Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [Técnicas estadísticas utilizadas en la detección de anomalías](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [Ver anomalías](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Técnicas estadísticas](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + Previsión {#forecasting}
       + [Información general](../analysis-workspace/c-forecast/forecasting.md)
-      + [Visualización de previsiones en Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
-      + [Técnicas estadísticas utilizadas en el servicio de previsión](../analysis-workspace/c-forecast/statistics-forecasting.md)
-      + [Índice ](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [Ver previsiones](../analysis-workspace/c-forecast/view-forecasts.md)
+      + [Técnicas estadísticas](../analysis-workspace/c-forecast/statistics-forecasting.md)
+   + [Índice ](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [Preferencias de usuario](../analysis-workspace/user-preferences.md)
-   + Preguntas frecuentes sobre de Workspace {#workspace-faq}
+   + Preguntas frecuentes sobre Workspace y más {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)
       + [Mensajes de error](../analysis-workspace/workspace-faq/error-messages.md)
-      + [Limitaciones de Analysis Workspace](../analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Limitaciones](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos de administración](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accesibilidad en Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Accesibilidad](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Paneles de Analytics {#cja-dashboards}
    + [Paneles de Analytics: Información general](../mobile-app/home.md)
@@ -360,10 +360,10 @@ ht-degree: 92%
 + Casos prácticos {#cja-usecases}
    + [Casos de uso de Customer Journey Analytics](../use-cases/cja-usecases.md)
    + Datos de Google Analytics {#ga}
-      + [Información general sobre la migración de datos de Google Analytics a Customer Journey Analytics](../use-cases/ga/overview.md)
-      + [Ingesta de datos históricos de Google Analytics en Platform](../use-cases/ga/backfill.md)
-      + [Configuración del streaming de los datos de Google Analytics a Platform](../use-cases/ga/streaming.md)
-      + [Informar sobre los datos de Google Analytics en Customer Journey Analytics](../use-cases/ga/report.md)
+      + [Migración de datos de Google Analytics](../use-cases/ga/overview.md)
+      + [Ingesta de datos históricos de Google Analytics](../use-cases/ga/backfill.md)
+      + [Configuración de datos de Google Analytics de streaming](../use-cases/ga/streaming.md)
+      + [Informar sobre datos de Google Analytics](../use-cases/ga/report.md)
    + Ingesta de datos {#data-ingestion}
       + [Ingesta y uso de datos de Marketo Engage](../use-cases/data-ingestion/marketo.md)
       + [Ingesta y uso de públicos de Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
@@ -390,14 +390,14 @@ ht-degree: 92%
    + Identificación {#stitching}
       + [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md)
    + Campos derivados {#derived-fields}
-      + [Uso de campos derivados para informar sobre objetivos](../use-cases/goals-using-derived-fields.md)
+      + [Informar sobre objetivos](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Guía del usuario de Labs](../labs/labs.md)
 
 + Resolución de problemas {#troubleshooting}
-   + [Comparación de los datos de Adobe Analytics con los de Customer Journey Analytics](../troubleshooting/compare.md)
-   + [Coherencia de las métricas y los recuentos de miembros de audiencia entre Real-time CDP y Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
+   + [Comparar datos](../troubleshooting/compare.md)
+   + [Coherencia de métricas y audiencias](../troubleshooting/consistency-rcdp-cja.md)
    + [Falta de permisos](../troubleshooting/lack-of-permissions.md)
 
 + Notas técnicas {#technotes}
@@ -408,7 +408,7 @@ ht-degree: 92%
    + [Glosario](../technotes/glossary.md)
    + [Mecanismos de protección](../technotes/guardrails.md)
    + [Direcciones IP](../technotes/ip-addresses.md)
-   + [Optimización del rendimiento de Customer Journey Analytics](../technotes/optimizing-performance.md)
+   + [Optimización del rendimiento](../technotes/optimizing-performance.md)
    + [Ver y administrar el uso](../technotes/estimate-usage.md)
 
 + [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/)

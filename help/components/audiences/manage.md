@@ -4,9 +4,9 @@ description: Descubra cómo administrar audiencias en Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 20%
 
 ---
@@ -24,6 +24,8 @@ La administración de audiencias creadas anteriormente le permite:
 * Vea si las audiencias de Customer Journey Analytics están **siendo utilizadas activamente por Real-time Customer Platform**. O (idealmente) cualquier aplicación de Experience Platform que consuma las audiencias creadas por Customer Journey Analytics.
 
 Si no cuenta con acceso para [Vista de audiencia](/help/technotes/access-control.md#user-level-access), podrá ver las audiencias. Si cuenta con acceso para [Crear audiencia](/help/technotes/access-control.md#user-level-access), puede editar y eliminar audiencias. La [lista de audiencias](#audiences-list) muestra las audiencias.
+
+![Administrador de audiencias](assets/audiences-manager.png)
 
 ## Lista de audiencias
 

@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '1931'
-ht-degree: 17%
+source-wordcount: '1952'
+ht-degree: 16%
 
 ---
 
@@ -147,25 +147,25 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 
 ## Usar audiencias de Customer Journey Analytics en Experience Platform {#audiences-aep}
 
-Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite al Perfil del cliente en tiempo real (RTCP). El Customer Journey Analytics envía la audiencia al Experience Platform con la identidad principal establecida, según lo que se seleccionó como [!UICONTROL ID de persona] cuando se configuró la conexión.
+Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite a Real-time Customer Data Platform El Customer Journey Analytics envía la audiencia al Experience Platform con la identidad principal establecida, según lo que se seleccionó como [!UICONTROL ID de persona] cuando se configuró la conexión.
 
-A continuación, el RTCP examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agrega el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
+A continuación, Real-time Customer Data Platform examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agrega el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
 Para ver audiencias de Customer Journey Analytics en Platform:
 
-1. Expanda [!UICONTROL **Cliente**] en el panel izquierdo y, a continuación, seleccione [!UICONTROL **Audiencias**]. <!-- is there a folder called "Customer Journey Analytics? -->
+1. Expanda **[!UICONTROL Cliente]** en el panel izquierdo y, a continuación, seleccione **[!UICONTROL Audiencias]**. <!-- is there a folder called "Customer Journey Analytics? -->
 
-1. Seleccione la ficha [!UICONTROL **Examinar**].
-
-   Opción ![Audiencias en el panel izquierdo](assets/audiences-aep.png)
+1. Seleccione la ficha **[!UICONTROL Examinar]**.
 
 1. Para localizar la audiencia que ha publicado desde Customer Journey Analytics, realice una de las siguientes acciones:
 
-   * Ordene la tabla por la columna [!UICONTROL **Origin**] para ver las audiencias que muestran [!UICONTROL **Customer Journey Analytics**] como origen.
+   Opción ![Audiencias en el panel izquierdo](assets/aep-audiences.png)
 
-   * Seleccione el icono de filtro.
+   * Ordene la tabla por la columna **[!UICONTROL Origin]** para ver las audiencias que muestran [!UICONTROL **Customer Journey Analytics**] como origen.
 
-   * Utilice el campo de búsqueda.
+   * Filtra ![Filter](/help/assets/icons/Filter.svg) por **[!UICONTROL Origin]** y selecciona **[!UICONTROL Customer Journey Analytics]**.
+
+   * Utilice el campo de búsqueda ![Buscar](/help/assets/icons/Search.svg).
 
 Para obtener más información sobre el uso de Audiences en Platform, consulte la sección [Audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la [guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la documentación del Experience Platform.
 
@@ -186,7 +186,7 @@ Cuando se elimina una audiencia de Customer Journey Analytics, esta ya no se mue
 
 +++
 
-+++**Si no existe un perfil correspondiente en RTCDP, ¿se crea un perfil nuevo?**
++++**Si no existe un perfil correspondiente en Real-time Customer Data Platform, ¿se crea un perfil nuevo?**
 
 Efectivamente.
 
@@ -194,7 +194,7 @@ Efectivamente.
 
 +++**¿El Customer Journey Analytics envía los datos de audiencia como eventos de canalización o como un archivo sin formato que también va al lago de datos?**
 
-Customer Journey Analytics transmite los datos a RTCP a través de la canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
+Customer Journey Analytics transmite los datos a Real-time Customer Data Platform a través de la canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
 
 +++
 
@@ -210,9 +210,9 @@ Véase más arriba. Solo se envía una identidad por cada persona Customer Journ
 
 +++
 
-+++**¿RTCP también procesa los mensajes del Customer Journey Analytics? ¿Puede el Customer Journey Analytics agregar identidades a un gráfico de identidades de perfil mediante el uso compartido de audiencias?**
++++**¿Real-time Customer Data Platform también procesa los mensajes del Customer Journey Analytics? ¿Puede el Customer Journey Analytics agregar identidades a un gráfico de identidades de perfil mediante el uso compartido de audiencias?**
 
-No. Solo se envía una identidad por persona, por lo que no habría bordes de gráfico para que los RTCP los consuman.
+No. Solo se envía una identidad por persona, por lo que Real-time Customer Data Platform no tendría extremos de gráfico que consumir.
 
 +++
 

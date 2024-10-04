@@ -5,7 +5,7 @@ title: Ejemplo de intervalos de fechas personalizados
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 4%
@@ -40,7 +40,7 @@ Desea definir un intervalo de fechas que define el período entre el día actual
 +++
 
 <!--
-## Example: Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Example: Use a 7-day rolling date range
 
 You can create a date range that specifies a 7-day rolling window that ends one week ago:
 

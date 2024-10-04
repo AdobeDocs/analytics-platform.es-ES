@@ -1,18 +1,18 @@
 ---
 description: Explica qué factores influyen en la coherencia de las métricas y los recuentos de miembros de audiencia entre Real-time Customer Data Platform (Real-time CDP) y Customer Journey Analytics.
-title: Coherencia de las métricas y los recuentos de miembros de audiencia entre Real-time CDP y Customer Journey Analytics
+title: Coherencia de las métricas y pertenencia a audiencias
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 97%
 
 ---
 
 
-# Coherencia de las métricas y los recuentos de miembros de audiencia entre Real-time CDP y Adobe Customer Journey Analytics
+# Coherencia de las métricas y pertenencia a audiencias
 
 En situaciones reales, no se puede garantizar la coherencia de las métricas y los recuentos de miembros de audiencia en Real-time Customer Data Platform (Real-time CDP) y Customer Journey Analytics. Este documento explica por qué.
 

@@ -1,17 +1,17 @@
 ---
-title: Creación de hipervínculos en una tabla de forma libre en Analysis Workspace
+title: Creación de hipervínculos en una tabla de forma libre
 description: Obtenga información sobre cómo crear hipervínculos para elementos de dimensión en una tabla de forma libre en Analysis Workspace
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: bc03cd75c03d41c5d0f8c2bc54bedc115b723211
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1602'
 ht-degree: 1%
 
 ---
 
-# Creación de hipervínculos para dimensiones en una tabla de forma libre
+# Creación de hipervínculos en una tabla de forma libre
 
 Puede crear hipervínculos para elementos de dimensión a fin de que se pueda hacer clic en ellos dentro de una tabla de forma libre en Analysis Workspace.
 
@@ -31,9 +31,9 @@ Esta funcionalidad es especialmente útil al crear hipervínculos para los sigui
 
 +++
 
-## Creación de hipervínculos para uno o varios elementos de dimensión
+## Creación de hipervínculos
 
-Tenga en cuenta lo siguiente al crear hipervínculos para elementos de dimensión:
+Tenga en cuenta lo siguiente al crear hipervínculos para uno o varios elementos de dimensión:
 
 * Los hipervínculos que cree se almacenarán en la tabla de forma libre del proyecto de Analysis Workspace. Los hipervínculos no persisten cuando se utilizan los mismos elementos de dimensión o dimensión en otra tabla o proyecto.
 

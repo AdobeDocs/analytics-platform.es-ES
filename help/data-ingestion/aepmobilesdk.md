@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3382'
 ht-degree: 60%
 
 ---
 
-# Ingesta de datos mediante el SDK para móviles de Adobe Experience Platform
+# Ingesta de datos mediante el SDK para móviles
 
 En esta guía de inicio rápido se explica cómo puede introducir datos de seguimiento de aplicaciones móviles directamente en Adobe Experience Platform mediante el SDK y el Edge Network de Adobe Experience Platform Mobile. A continuación, utilice esos datos en Customer Journey Analytics.
 
@@ -283,7 +283,7 @@ Consulte [Configuración de la extensión de Edge Network de Adobe Experience Pl
 También desea configurar las siguientes extensiones adicionales del catálogo:
 
 - Identidad.
-- Garantía de AEP.
+- Assurance de AEP.
 - Consentimiento.
 
 Consulte [Configurar una propiedad de etiqueta](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=es) en el tutorial de la aplicación móvil para Experience Platform para obtener más información sobre las extensiones y su configuración.
