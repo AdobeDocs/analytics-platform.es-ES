@@ -4,10 +4,10 @@ title: Métricas
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 25%
+source-wordcount: '784'
+ht-degree: 15%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 25%
 
 Los proyectos programados de Analysis Workspace se pueden administrar en Customer Journey Analytics mediante **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos programados]**.
 
-En **[!UICONTROL proyectos programados]**, puede editar y eliminar programaciones de proyectos recurrentes. Busque una programación usando ![Buscar](/help/assets/icons/Search.svg) en el campo de búsqueda. O use las opciones de filtro ![Filter](/help/assets/icons/Filter.svg) del panel izquierdo. Puedes filtrar por **[!UICONTROL Etiqueta]**, **[!UICONTROL Propietarios]** y **[!UICONTROL Otros filtros]**.
+En **[!UICONTROL Proyectos programados]**, puede editar y eliminar la programación recurrente de proyectos.  La [lista de proyectos programados](#scheduled-project-list) muestra los elementos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detendrán todos los envíos programados.
 
-La lista Proyectos programados muestra columnas para:
+![Interfaz de proyectos programados](assets/scheduled-projects.png)
 
-| Campo | Descripción |
+## Lista de proyectos programados
+
+La lista Proyectos programados ➊ muestra columnas para:
+
+| Columna | Descripción |
 | --- | --- |
-| ![Estrella](/help/assets/icons/Star.svg) | Seleccionar ![Estrella](/help/assets/icons/Star.svg) hace que esta programación sea tu favorita. |
+| ![SeleccionarCuadro](/help/assets/icons/SelectBox.svg) | Cuando se seleccionan uno o más proyectos programados, aparece una barra de acciones azul en la parte inferior de la interfaz Proyectos programados. Consulte [Acciones](#actions) para obtener más información. |
+| ![Estrella](/help/assets/icons/Star.svg) | Seleccione para favorecer a ![Star](/help/assets/icons/Star.svg) o para anular el favor de ![StarOutline](/help/assets/icons/StarOutline.svg) en un proyecto programado. |
 | **[!UICONTROL ID de programación]** | ID que se utiliza principalmente con fines de depuración. |
-| [!UICONTROL Nombre] | Nombre de este proyecto.<br/>Seleccione ![EsquemaDeInformación](/help/assets/icons/InfoOutline.svg) para ver más detalles del proyecto programado.<br/>Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual. Desde este menú puede:<ul><li>![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** un proyecto programado.</li><li>![Etiquetas](/help/assets/icons/Labels.svg) **[!UICONTROL Etiquetar]** un proyecto programado.</li><li>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Apruebe]** un proyecto programado.</li><li>![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar CSV]**: exporte un proyecto programado a un archivo CSV.</li></ul> |
+| **[!UICONTROL Nombre]** | Nombre de este proyecto.<br/>Seleccione ![EsquemaDeInformación](/help/assets/icons/InfoOutline.svg) para ver más detalles del proyecto programado.<br/>Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual. Desde este menú puede:<ul><li>![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** un proyecto programado.</li><li>![Etiquetas](/help/assets/icons/Labels.svg) **[!UICONTROL Etiquetar]** un proyecto programado.</li><li>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Apruebe]** un proyecto programado.</li><li>![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar CSV]**: exporte un proyecto programado a un archivo CSV.</li></ul> |
 | **[!UICONTROL Propietario]** | La persona que creó el proyecto y es propietaria de él. |
 | **[!UICONTROL Etiquetas]** | (opcional) El etiquetado es una buena forma de organizar los proyectos. Todos los usuarios pueden crear etiquetas y aplicar una o más a un proyecto. Sin embargo, solo verá las etiquetas de los proyectos que sean suyos o que se hayan compartido con usted. |
 | **[!UICONTROL Entregado a]** | Destinatarios de este proyecto programado. |
@@ -34,27 +39,55 @@ La lista Proyectos programados muestra columnas para:
 | **[!UICONTROL El intervalo de fecha más largo]** | Intervalo de fecha más largo definido para el proyecto programado. Este valor puede ser relevante para investigar los problemas de rendimiento. Consulte [Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-overview.md) para obtener más información. |
 | **[!UICONTROL Cantidad de consultas]** | Número de consultas ejecutadas para el proyecto programado. Este valor puede ser relevante para investigar los problemas de rendimiento. Consulte [Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity-overview.md) para obtener más información. |
 
+
 Puede usar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar qué columnas mostrar.
 
-Proyectos programados muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detendrán todos los envíos programados.
+Busque un proyecto programado con ![Buscar](/help/assets/icons/Search.svg). También puede ver si se aplica algún filtro desde el panel Filtros. Para quitar un filtro, seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para un filtro. Para quitar todos los filtros, seleccione **[!UICONTROL Borrar todo]**.
+
+Para editar un proyecto programado, seleccione su título. Utilice el cuadro de diálogo **[!UICONTROL Editar proyecto programado]** para actualizar los detalles de la programación.
+
+![Editar proyecto programado](assets/edit-scheduled-project.png)
+
+Seleccione **[!UICONTROL Actualizar]** para actualizar la programación.
+
 
 
 
 ## Acciones
 
-Las siguientes son acciones comunes en el administrador de proyectos programados. Puede seleccionar acciones en el menú contextual o en la barra de acciones azul al seleccionar más de un proyecto programado.
+Las siguientes son acciones comunes en el administrador de proyectos programados. Puede seleccionar acciones en el menú contextual o en la barra de acciones azul al seleccionar uno o varios proyectos programados.
 
-| Acción | Descripción |
+| Icono | Acción | Descripción |
+|:---:|---|---|
+| ![Cerrar](/help/assets/icons/Close.svg) | **[!UICONTROL *x *seleccionado]** | Seleccione para anular la selección de los proyectos programados seleccionados. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar los proyectos programados seleccionados para el proyecto; los proyectos no se eliminan. |
+| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquete los proyectos programados seleccionados. En **[!UICONTROL Etiquetar proyectos programados]**, seleccione las etiquetas y seleccione **[!UICONTROL Guardar]** para guardar. |
+| ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprobar]** | Apruebe los proyectos programados seleccionados. |
+| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar los proyectos programados seleccionados a un archivo denominado `Export Scheduled Projects List.csv`. |
+
+
+## Filtro
+
+Puede filtrar los proyectos programados [Lista de proyectos programados](#scheduled-project-list) mediante el ➌ del panel de filtro. Para mostrar u ocultar el panel de filtro, use ![Filtro](/help/assets/icons/Filter.svg).
+
+El panel de filtro consta de las siguientes secciones.
+
+### Etiquetas
+
+| Etiquetas | Descripción |
 |---|---|
-| **[!UICONTROL Aprobar]** | Apruebe el proyecto programado. |
-| **[!UICONTROL Editar]** | Haga clic en el título de la programación para actualizar su configuración de entrega. |
-| **[!UICONTROL Eliminar]** | Eliminar la programación seleccionada para el proyecto; el proyecto en sí no se elimina. |
-| **[!UICONTROL Etiqueta]** | Etiquete el proyecto programado para que sea más fácil encontrar los proyectos. |
+| ![Etiquetas](/help/components/assets/scheduledprojects-filter-tags.png){width="300"} | La sección **[!UICONTROL Etiquetas]** le permite filtrar las etiquetas. <ul><li>Usa ![Buscar](/help/assets/icons/Search.svg) **[!UICONTROL Buscar etiquetas]** para buscar las etiquetas que desea usar para filtrar.</li><li>Puede seleccionar más de una etiqueta. Las etiquetas disponibles dependen de las selecciones realizadas en otras secciones del panel de filtro.</li><li>Los números indican:<ul><li>7︎⃣: número de proyectos programados asociados con la etiqueta específica.</li></ul></li></ul> |
 
-Con el filtro ![Filter](/help/assets/icons/Filter.svg), también puede realizar las siguientes acciones:
 
-| Acción | Descripción |
+### Propietarios
+
+| Propietario | Descripción |
 |---|---|
-| **[!UICONTROL Ver las programaciones fallidas]** | Vaya a **[!UICONTROL Otros filtros]** y seleccione **[!UICONTROL Error]** para ver las programaciones que han fallado. |
-| **[!UICONTROL Ver las programaciones caducadas]** | Vaya a **[!UICONTROL Otros filtros]** y seleccione **[!UICONTROL Caducado]** para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de entrega. |
+| ![Propietarios](/help/components/assets/scheduledprojects-filter-owners.png){width="300"} | La sección **[!UICONTROL Propietario]** le permite filtrar por propietarios. <ul><li>Usa ![Buscar](/help/assets/icons/Search.svg) *Buscar propietarios* para buscar los propietarios que desea usar para filtrar.</li><li>Puede seleccionar más de un propietario. Los propietarios disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican:<ul><li>4︎⃣: número de proyectos programados asociados con el propietario específico.</li></ul></li></ul> |
 
+
+### Otros filtros
+
+| Otros filtros | Descripción |
+|---|---|
+| ![Otros filtros](/help/components/assets/scheduledprojects-filter-otherfilters.png){width="300"} | La sección **[!UICONTROL Otros filtros]** le permite filtrar otros filtros predefinidos.<ul><li>Puede seleccionar una o varias de las siguientes opciones:<ul><li> **[!UICONTROL Caducado]**: filtro en proyectos programados caducados.</li><li>**[!UICONTROL Error]**: filtro en proyectos programados para los que la programación ha fallado.</li></ul>Lo que puede seleccionar depende de la función y los permisos.</li><li>Puede seleccionar más de un filtro. Los demás filtros disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican:<ul><li>4︎⃣: número de proyectos programados asociados con el otro filtro específico.</li></ul></li></ul> |

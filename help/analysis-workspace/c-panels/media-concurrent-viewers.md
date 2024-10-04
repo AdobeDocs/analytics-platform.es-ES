@@ -4,7 +4,7 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 36%

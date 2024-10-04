@@ -5,10 +5,10 @@ title: Información general sobre Proyectos
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 6%
+source-wordcount: '1628'
+ht-degree: 7%
 
 ---
 
@@ -78,21 +78,21 @@ Pase el ratón sobre cualquier encabezado de columna para ver ![ChevronDown](/he
 
 Puede realizar acciones en uno o más proyectos mediante el menú contextual ![Más](/help/assets/icons/More.svg) o la barra de acciones azul.
 
-| Acción | Descripción |
-|---|---|
-| ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *seleccionado]** | Anule la selección de los proyectos y carpetas seleccionados y elimine la barra de acciones azul. |
-| ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Elimine uno o varios proyectos o carpetas. Se le pedirá una confirmación. |
-| ![Compartir](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Compartir]** | Compartir un proyecto. Consulte [Compartir un proyecto](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
-| ![Editar](/help/assets/icons/Edit.svg) cambio de nombre | Cambie el nombre de un proyecto. Abre un cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de proyecto *]**. Escriba un nombre nuevo y seleccione**[!UICONTROL Guardar ]**. |
-| ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** | Copie uno o varios proyectos. Project no obtiene el mismo nombre y sufijo `(Copy)`. |
-| ![PinOn](/help/assets/icons/PinOff.svg) **[!UICONTROL Pin]** o **[!UICONTROL Unpin]** | Anclar o desanclar uno o más proyectos o carpetas. Los proyectos y carpetas anclados aparecen en la parte superior de la lista e ignoran el orden de clasificación especificado. |
-| ![Flecha arriba](/help/assets/icons/ArrowUp.svg) **[!UICONTROL Mover arriba]** | Mueva un proyecto o una carpeta anclados hacia arriba en la lista de proyectos. |
-| ![FlechaAbajo](/help/assets/icons/ArrowDown.svg) **[!UICONTROL Bajar]** | Mueva un proyecto o una carpeta anclados hacia abajo en la lista de proyectos. |
-| ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Etiqueta]** | Etiquete uno o varios proyectos o carpetas. Se muestra el cuadro de diálogo **[!UICONTROL Componentes de etiqueta]** para seleccionar una o más etiquetas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los proyectos o carpetas seleccionados. |
-| ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Aprobar]** o **[!UICONTROL Desaprobar]** | Aprobar o desaprobar un proyecto. Solo los administradores pueden aprobar proyectos. |
-| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar CSV]** | Exportar los proyectos seleccionados a un archivo CSV con el nombre `Project List.csv`. |
-| ![ProyectoAgregar](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL Agregar proyectos]** | Agregue uno o más proyectos a una carpeta seleccionada. En **[!UICONTROL Agregar proyectos]** puede seleccionar uno o más proyectos. Seleccione **[!UICONTROL Agregar]** para agregar los proyectos a la carpeta. Consulte [Agregar proyectos a carpetas](workspace-folders/add-projects.md#from-inside-a-folder) para obtener más información. |
-| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **[!UICONTROL Mover a]** | Mueva uno o más proyectos seleccionados a una carpeta. En **[!UICONTROL Seleccionar carpeta]**, seleccione la carpeta a la que desea mover el proyecto seleccionado y seleccione **[!UICONTROL Mover]**. Consulte [Agregar proyectos a carpetas](workspace-folders/add-projects.md#from-the-project-list) para obtener más información. |
+| Icono | Acción | Descripción |
+|:---:| ---|---|
+| ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *seleccionado]** | Anule la selección de los proyectos y carpetas seleccionados y elimine la barra de acciones azul. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Elimine uno o varios proyectos o carpetas. Se le pedirá una confirmación. |
+| ![Compartir](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Compartir]** | Compartir un proyecto. Consulte [Compartir un proyecto](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambie el nombre de un proyecto. Abre un cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de proyecto *]**. Escriba un nombre nuevo y seleccione**[!UICONTROL Guardar ]**. |
+| ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copie uno o varios proyectos. Project no obtiene el mismo nombre y sufijo `(Copy)`. |
+| ![PinOn](/help/assets/icons/PinOff.svg) | **[!UICONTROL Anclar]** o **[!UICONTROL Desanclar]** | Anclar o desanclar uno o más proyectos o carpetas. Los proyectos y carpetas anclados aparecen en la parte superior de la lista e ignoran el orden de clasificación especificado. |
+| ![Flecha arriba](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL Subir]** | Mueva un proyecto o una carpeta anclados hacia arriba en la lista de proyectos. |
+| ![Flecha abajo](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL Bajar]** | Mueva un proyecto o una carpeta anclados hacia abajo en la lista de proyectos. |
+| ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquete uno o varios proyectos o carpetas. Se muestra el cuadro de diálogo **[!UICONTROL Componentes de etiqueta]** para seleccionar una o más etiquetas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los proyectos o carpetas seleccionados. |
+| ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprobar]** o **[!UICONTROL Desaprobar]** | Aprobar o desaprobar un proyecto. Solo los administradores pueden aprobar proyectos. |
+| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar CSV]** | Exportar los proyectos seleccionados a un archivo CSV con el nombre `Project List.csv`. |
+| ![Agregar proyecto](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL Agregar proyectos]** | Agregue uno o más proyectos a una carpeta seleccionada. En **[!UICONTROL Agregar proyectos]** puede seleccionar uno o más proyectos. Seleccione **[!UICONTROL Agregar]** para agregar los proyectos a la carpeta. Consulte [Agregar proyectos a carpetas](workspace-folders/add-projects.md#from-inside-a-folder) para obtener más información. |
+| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL Mover a]** | Mueva uno o más proyectos seleccionados a una carpeta. En **[!UICONTROL Seleccionar carpeta]**, seleccione la carpeta a la que desea mover el proyecto seleccionado y seleccione **[!UICONTROL Mover]**. Consulte [Agregar proyectos a carpetas](workspace-folders/add-projects.md#from-the-project-list) para obtener más información. |
 
 
 

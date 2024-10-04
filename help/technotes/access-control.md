@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 664576605b8be098a751609536e388c304c65513
+source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 14%
+source-wordcount: '1469'
+ht-degree: 15%
 
 ---
 
@@ -117,6 +117,7 @@ La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en el 
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de filtros] | Permitir que los usuarios creen [filtros](/help/components/filters/filters-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar, cambiar el nombre, aprobar o desaprobar los filtros que hayan creado o los filtros compartidos con ellos. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a Labs] | Permita que los usuarios tengan acceso a la ficha [Labs](/help/labs/labs.md) del Customer Journey Analytics. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de anotaciones] | Permitir que los usuarios creen [anotaciones](/help/components/annotations/overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar y cambiar el nombre de las anotaciones que creen o de las anotaciones compartidas con ellos. |
+| [!UICONTROL Herramientas de informes] | [!UICONTROL Visualización de audiencias] | Permitir que los usuarios vean [audiencias](/help/components/audiences/audiences-overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de audiencias] | Permitir que los usuarios creen [audiencias](/help/components/audiences/audiences-overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a registros de auditoría] | Aplicar la comprobación de permisos en la [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) y la interfaz de usuario de registros de auditoría. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Compartir Vínculos De Proyecto Con Cualquiera] | Permitir que los usuarios [compartan proyectos con cualquiera.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
