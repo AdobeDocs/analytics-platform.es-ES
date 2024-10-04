@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 82f8ba3fb04b50e352b76fd1ce866c0615971335
+source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -48,21 +48,21 @@ El recorrido utilizado en los siguientes casos se configura con la siguiente con
 
 #### Escenario 1: el usuario A sigue la ruta de recorrido en la primera sesión y solo después los nodos en una sesión posterior
 
-Supongamos que el usuario A visita el sitio y sigue la ruta del recorrido (Nodo 1: Visitar sitio > Nodo 2: Ver producto A > Nodo 3: Desproteger). En esta situación, se cuenta un evento en cada nodo del recorrido.
+Supongamos que el usuario A visita el sitio y completa el recorrido (Nodo 1: &quot;Visitar sitio&quot; > Nodo 2: &quot;Ver producto A&quot; > Nodo 3: &quot;Desproteger&quot;). Como el usuario A ha completado el recorrido, se cuenta un evento en cada nodo del recorrido.
 
-Ahora supongamos que el usuario A vuelve a visitar el sitio en una sesión posterior. Dado que el usuario A ya cumplía los requisitos del recorrido al seguir la ruta de recorrido en una sesión anterior, esto significa que cada vez que el usuario A retira un evento, incluso si el usuario A no ha seguido la ruta del recorrido en su sesión actual, se cuenta un evento en el tercer nodo del recorrido, &quot;Desproteger&quot;. Esto da como resultado un porcentaje y un número mayores en el nodo &quot;Desproteger&quot; que en el nodo anterior, &quot;Ver producto A&quot;.
+Ahora, supongamos que el usuario A vuelve a visitar el sitio en una sesión posterior. Dado que el usuario A ya completó el recorrido en una sesión anterior siguiendo la ruta de recorrido, esto significa que cada vez que el usuario A tiene un evento que coincide con cualquier nodo del recorrido (incluso si el usuario A no ha seguido la ruta del recorrido en su sesión actual), se cuenta un evento en el nodo correspondiente del recorrido. Por ejemplo, si el usuario A retira, un evento se cuenta en el nodo &quot;Desproteger&quot;. Esto puede dar como resultado un porcentaje y un número mayores en el nodo &quot;Desproteger&quot; que en el nodo anterior, &quot;Ver producto A&quot;.
 
-En este ejemplo, la configuración del contenedor del recorrido desempeña un papel fundamental a la hora de determinar si el evento del tercer nodo (&quot;Desproteger&quot;) se cuenta en la sesión siguiente.
+En este ejemplo, la configuración del contenedor del recorrido de &quot;Persona&quot; desempeña un papel fundamental para determinar que el evento del tercer nodo (&quot;Desproteger&quot;) se cuente en la sesión posterior.
 
-Alternativamente, si Sesión se hubiera establecido como contenedor (en lugar de Persona), el evento que se produjo solo en el tercer nodo de la visita posterior no se habría contabilizado en el recorrido, ya que las estadísticas que se muestran en el recorrido se restringirían a una sola sesión definida para una persona determinada. Para obtener más información acerca de la configuración del contenedor, consulte [Comenzar a crear una visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) en el artículo [Configurar una visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+Alternativamente, si la configuración del contenedor se hubiera establecido en &quot;Sesión&quot;, el evento que se produjo solo en el tercer nodo de la visita posterior no se habría contabilizado en el recorrido, ya que las estadísticas que se muestran en el recorrido se restringirían a una sola sesión definida para una persona determinada. Para obtener más información acerca de la configuración del contenedor, consulte [Comenzar a crear una visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) en el artículo [Configurar una visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
 #### Escenario 2: el usuario B se cae del recorrido
 
-Supongamos que el usuario B visita el sitio y no sigue la ruta del recorrido (visita el sitio, ve el producto B y luego cierra la compra), que se cuenta un evento para el nodo de inicio del recorrido, &quot;Visitar sitio&quot;, pero un evento no se cuenta para los nodos restantes y el usuario B queda fuera del recorrido. Aunque el usuario B haya cerrado la compra, un evento no se cuenta en el tercer nodo, &quot;Finalizar compra&quot;, porque el usuario B no siguió la ruta del recorrido viendo el producto A.
+Supongamos que el usuario B visita el sitio y no completa el recorrido (visita el sitio, ve el producto B y luego cierra la compra). En este caso, se cuenta un evento para el nodo de inicio del recorrido, &quot;Visita al sitio&quot;, pero un evento no se cuenta para los nodos restantes y el usuario B queda fuera de la recorrido. Aunque el usuario B haya cerrado la compra, un evento no se cuenta en el tercer nodo (&quot;Cierre&quot;) porque el usuario B no completó el recorrido consultando el producto A antes de cerrar la compra.
 
-Esto se debe a que los eventos se cuentan para cada nodo solo cuando las personas siguen la &quot;ruta final&quot; del recorrido, lo que significa que los eventos se cuentan siempre que la persona se mueva de un nodo al otro, independientemente de los eventos que se produzcan entre los 2 nodos.
+Esto se debe a que los eventos se cuentan para cada nodo solo cuando las personas siguen la &quot;ruta final&quot; del recorrido, lo que significa que los eventos se cuentan solo si la persona se mueve finalmente de un nodo a otro, independientemente de los eventos que se produzcan entre los 2 nodos.
 
 ### El recorrido tiene varias rutas que convergen en un solo nodo
 
