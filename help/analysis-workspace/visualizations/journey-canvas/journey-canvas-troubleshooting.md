@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
+source-git-commit: cbe713c08269fd3cc4e1076181020ff3fdc947b3
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,15 @@ Dado que el lienzo de Recorrido le permite utilizar cualquier métrica como mét
 
 ![Recorrido con nodos con un porcentaje mayor que el nodo anterior](assets/journey-canvas-higher-percentage.png)
 
-El recorrido utilizado en los siguientes casos se configura con la siguiente configuración:
+El recorrido utilizado en los siguientes casos se configura con esta configuración:
 
 * **[!UICONTROL Persona]** se ha establecido como contenedor
 
 * **[!UICONTROL Evento]** se ha establecido como métrica principal
 
-#### Escenario 1: el usuario A sigue la ruta de recorrido en la primera sesión y solo después los nodos en una sesión posterior
+#### Escenario 1: el usuario A sigue la ruta del recorrido en la primera sesión. En una sesión posterior, el usuario tiene un evento que coincide únicamente con un nodo posterior.
 
-Supongamos que el usuario A visita el sitio y completa el recorrido (Nodo 1: &quot;Visitar sitio&quot; > Nodo 2: &quot;Ver producto A&quot; > Nodo 3: &quot;Desproteger&quot;). Como el usuario A ha completado el recorrido, se cuenta un evento en cada nodo del recorrido.
+Supongamos que el usuario A visita el sitio y completa el recorrido (Nodo 1: &quot;Visitar sitio&quot; > Nodo 2: &quot;Ver producto A&quot; > Nodo 3: &quot;Desproteger&quot;). Dado que el usuario A tenía un evento que coincidía con cada nodo del recorrido en orden, se cuenta un evento en cada nodo del recorrido.
 
 Ahora, supongamos que el usuario A vuelve a visitar el sitio en una sesión posterior. Dado que el usuario A ya completó el recorrido en una sesión anterior siguiendo la ruta de recorrido, esto significa que cada vez que el usuario A tiene un evento que coincide con cualquier nodo del recorrido (incluso si el usuario A no ha seguido la ruta del recorrido en su sesión actual), se cuenta un evento en el nodo correspondiente del recorrido. Por ejemplo, si el usuario A retira, un evento se cuenta en el nodo &quot;Desproteger&quot;. Esto puede dar como resultado un porcentaje y un número mayores en el nodo &quot;Desproteger&quot; que en el nodo anterior, &quot;Ver producto A&quot;.
 
@@ -62,7 +62,7 @@ Alternativamente, si la configuración del contenedor se hubiera establecido en 
 
 Supongamos que el usuario B visita el sitio y no completa el recorrido (visita el sitio, ve el producto B y luego cierra la compra). En este caso, se cuenta un evento para el nodo de inicio del recorrido, &quot;Visita al sitio&quot;, pero un evento no se cuenta para los nodos restantes y el usuario B queda fuera de la recorrido. Aunque el usuario B haya cerrado la compra, un evento no se cuenta en el tercer nodo (&quot;Cierre&quot;) porque el usuario B no completó el recorrido consultando el producto A antes de cerrar la compra.
 
-Esto se debe a que los eventos se cuentan para cada nodo solo cuando las personas siguen la &quot;ruta final&quot; del recorrido, lo que significa que los eventos se cuentan solo si la persona se mueve finalmente de un nodo a otro, independientemente de los eventos que se produzcan entre los 2 nodos.
+Esto se debe a que los eventos se cuentan para cada nodo solo cuando las personas siguen la &quot;ruta final&quot; del recorrido. Esto significa que los eventos se cuentan solo si la persona se ha movido de un nodo al otro, independientemente de los eventos que se produzcan entre los dos nodos.
 
 ### El recorrido tiene varias rutas que convergen en un solo nodo
 
