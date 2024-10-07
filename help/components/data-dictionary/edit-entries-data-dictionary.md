@@ -1,17 +1,17 @@
 ---
 description: El diccionario de datos de Analysis Workspace permite a los usuarios catalogar y seguir los distintos componentes de Analysis Workspace, incluido su uso previsto, cuáles están aprobados, cuáles son duplicados, etc.
-title: Edición de entradas en el diccionario de datos
+title: Editar entradas de componente
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 60%
+source-wordcount: '317'
+ht-degree: 57%
 
 ---
 
-# Edición de entradas de componentes en el diccionario de datos
+# Editar entradas de componente
 
 Los administradores de Customer Journey Analytics pueden editar las entradas de los componentes del diccionario de datos para una vista de datos determinada. Todos los usuarios de la vista de datos pueden ver los cambios realizados.
 

@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '950'
 ht-degree: 86%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 86%
    + [Realizar análisis básico](../analysis-workspace/perform-basic-analysis.md)
    + [Realizar análisis avanzado](../analysis-workspace/perform-adv-analysis.md)
    + Proyectos {#build-workspace-project}
-      + [Información general sobre Proyectos](../analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Información general](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Crear proyectos](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Abrir proyectos](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
@@ -123,7 +123,7 @@ ht-degree: 86%
       + [Paletas de color](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Ver densidad](../analysis-workspace/build-workspace-project/view-density.md)
    + Visualizaciones {#visualizations}
-      + [Resumen de las visualizaciones](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [Información general](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Administración de fuentes de datos](../analysis-workspace/visualizations/t-sync-visualization.md)
       + [Pies de ilustración inteligentes](../analysis-workspace/visualizations/intelligent-captions.md)
       + Tabla de forma libre {#freeform-table}
@@ -179,7 +179,7 @@ ht-degree: 86%
       + [Elemento siguiente o anterior](../analysis-workspace/c-panels/next-previous.md)
       + [Quick insights](../analysis-workspace/c-panels/quickinsight.md)
    + Depuración, uso compartido y programación de proyectos {#curate-share}
-      + [Menú Compartir](../analysis-workspace/curate-share/send-schedule-files.md)
+      + [Información general](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](../analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](../analysis-workspace/curate-share/share-projects.md)
       + [Crear vínculos que se pueden compartir](../analysis-workspace/curate-share/shareable-links.md)
@@ -207,9 +207,9 @@ ht-degree: 86%
       + [Accesibilidad](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Paneles de Analytics {#cja-dashboards}
-   + [Paneles de Analytics: Información general](../mobile-app/home.md)
+   + [Información general](../mobile-app/home.md)
    + [Tareas del gestor de datos](../mobile-app/curator.md)
-   + [Creación de un cuadro de resultados móvil](../mobile-app/create-scorecard.md)
+   + [Crear cuadros de resultados móviles](../mobile-app/create-scorecard.md)
    + [Administración de cuadros de resultados móviles](../mobile-app/manage-scorecard.md)
    + [Configuración de ejecutivos para que utilicen tableros](../mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
@@ -238,7 +238,7 @@ ht-degree: 86%
    + [Preguntas más frecuentes](../guided-analysis/faq.md)
 
 + Componentes {#cja-components}
-   + [Resumen de componentes](../components/overview.md)
+   + [Información general](../components/overview.md)
    + [Uso de componentes en Analysis Workspace](../components/use-components-in-workspace.md)
    + [Adición de descripciones de componentes](../components/add-component-descriptions.md)
    + Anotaciones {#annotations}
@@ -260,7 +260,7 @@ ht-degree: 86%
       + [Dimensiones de alta cardinalidad](../components/dimensions/high-cardinality.md)
    + [Métricas](../components/apply-create-metrics.md)
    + Filtros {#cja-filters}
-      + [Información general de Filtros](../components/filters/filters-overview.md)
+      + [Información general](../components/filters/filters-overview.md)
       + [Crear filtros](../components/filters/create-filters.md)
       + [Generar filtros](../components/filters/filter-builder.md)
       + [Filtros rápidos](../components/filters/quick-filters.md)
@@ -274,7 +274,7 @@ ht-degree: 86%
       + [Administrar filtros](../components/filters/manage-filters.md)
       + [Operadores](../components/filters/operators.md)
    + Métricas calculadas {#cja-calcmetrics}
-      + [Información general sobre las métricas calculadas](../components/calc-metrics/calc-metr-overview.md)
+      + [Información general](../components/calc-metrics/calc-metr-overview.md)
       + Flujo de trabajo de las métricas calculadas {#cm-workflow}
          + [Creación de métricas calculadas](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Crear métricas calculadas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
@@ -315,13 +315,13 @@ ht-degree: 86%
       + [Administración de registros de exportación](/help/components/exports/manage-export-logs.md)
       + [Resolución de problemas de exportaciones](/help/components/exports/troubleshoot-exports.md)
    + Diccionario de datos {#data-dictionary}
-      + [Información general del diccionario de datos](../components/data-dictionary/data-dictionary-overview.md)
+      + [Información general](../components/data-dictionary/data-dictionary-overview.md)
       + [Visualización de información de componentes en el diccionario de datos](../components/data-dictionary/view-data-dictionary.md)
       + [Edición de entradas de componentes en el diccionario de datos](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [Monitorización del estado del diccionario de datos](../components/data-dictionary/monitor-data-dictionary-health.md)
 
 + Report Builder {#cja-reportbuilder}
-   + [Información general de Report Builder](../report-builder/report-buider-overview.md)
+   + [Información general](../report-builder/report-buider-overview.md)
    + [Configuración de Report Builder](../report-builder/report-builder-setup.md)
    + [Creación de un bloque de datos](../report-builder/create-a-data-block.md)
    + [Report Builder Hub](../report-builder/report-builder-hub.md)

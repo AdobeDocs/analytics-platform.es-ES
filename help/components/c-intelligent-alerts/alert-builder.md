@@ -1,11 +1,11 @@
 ---
 description: Obtenga alertas cuando los componentes del proyecto alcancen ciertos umbrales.
-title: Creación de alertas (Analysis Workspace)
+title: Creación de alertas
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '991'
 ht-degree: 19%
 
 ---

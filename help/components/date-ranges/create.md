@@ -1,17 +1,17 @@
 ---
-title: Crear un intervalo de fecha
+title: Crear intervalos de fechas
 description: Crear un intervalo de fecha para utilizarlo en los informes.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 6%
+source-wordcount: '513'
+ht-degree: 4%
 
 ---
 
-# Crear un intervalo de fecha
+# Crear intervalos de fechas
 
 
 Cualquiera puede crear un intervalo de fechas personalizado. Puede crear un intervalo de fecha de las siguientes maneras:
