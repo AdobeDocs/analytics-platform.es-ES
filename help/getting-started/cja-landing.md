@@ -4,9 +4,9 @@ description: Página de aterrizaje de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
+source-git-commit: ba7b16bd7bae75c3ecb72797236405519d361921
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '820'
 ht-degree: 96%
 
 ---
@@ -29,9 +29,16 @@ El asistente de IA es una experiencia conversacional que permite a los profesion
 
 [![imagen](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
+
+>[!TAB Análisis guiado]
+
+El análisis guiado ya está disponible directamente desde Analysis Workspace, lo que permite a los usuarios crear paneles con información completa de paneles, visualizaciones y análisis guiados.
+
+[![imagen](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
+
 >[!TAB Alertas]
 
-Las alertas permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos. Puede obtener una vista previa de la frecuencia con la que se generará un déclencheur, enviarlo por correo electrónico o SMS, crear alertas apiladas y mucho más.
+Las alertas permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos. Puede obtener una vista previa de la frecuencia con la que se activará una alerta, se enviará por correo electrónico o SMS, se crearán alertas apiladas y mucho más.
 
 [![imagen](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
@@ -39,8 +46,8 @@ Las alertas permiten recibir notificaciones basadas en porcentajes modificados o
 
 Permiten introducir datos de series temporales que no tienen un ID de persona. Estos datos de series temporales se pueden utilizar para admitir varios casos de uso, como
 
-- Presentar indicadores de rendimiento de alto nivel como parte de los datos de nivel de evento o junto a ellos. 
-- Cargar objetivos o metas por hora o por día y, a continuación, colocarlos en métricas de nivel de evento. 
+- Presentar indicadores de rendimiento de alto nivel como parte de los datos de nivel de evento o junto a ellos.
+- Cargar objetivos o metas por hora o por día y, a continuación, colocarlos en métricas de nivel de evento.
 
 [![imagen](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
 
@@ -73,27 +80,6 @@ La extensión de BI habilita el acceso SQL a las vistas de datos que ha definido
 *_Debe tener el paquete Select o superior para utilizar la extensión de BI._*
 
 
-<!--
->[!TAB Improved Audience Publising] 
-
-Audiences that are published from Customer Journey Analytics are now available in the new **Audiences** section in Adobe Experience Platform. Audiences are now available in Experience Platform seconds after they are published from Customer Journey Analytics. Improved sorting and filter options in Experience Platform for Customer Journey Analytics audiences. 
-
-[![image](assets/learn-more-button.svg)](/help/components/audiences/publish.md)
-
--->
-
->[!TAB Previsión]
-
-La previsión es una función de Analysis Workspace que permite prever una métrica estándar o calculada con cualquier granularidad de tiempo admitida (por hora, diario, semanal, mensual y anual). La previsión solo está disponible para datos relacionados con series temporales.
-
-[![image](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
-
->[!TAB Nueva documentación]
-
-Ya están disponibles nuevas secciones de documentación sobre:<ul><li>Caso de uso de datos de resumen y caso de uso de ejemplo B2B.</li><li>Cómo actualizar de Adobe Analytics a Customer Journey Analytics.</li><li>Casos de uso de exportación de datos y las funcionalidades de Experience Platform y Customer Journey requeridas. </li></ul>Seleccione **[!UICONTROL Más información]** para esta y otras actualizaciones de la documentación.
-
-[![imagen](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
-
 >[!ENDTABS]
 
 ## Empiece con lo básico
@@ -112,7 +98,7 @@ Empiece por leer el material de los vínculos siguientes para familiarizarse con
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
-    <div><strong>Análisis guiado</strong><br/>Aprenda a utilizar los flujos de trabajo para obtener datos e información sobre la experiencia del cliente con el producto. Product Analytics mediante análisis guiado...
+    <div><strong>Análisis guiado</strong><br/>Aprenda a utilizar los flujos de trabajo para obtener datos e información sobre la experiencia del cliente con el producto. Product Analytics mediante análisis guiado…
     </div>
     </td>
     <td>
