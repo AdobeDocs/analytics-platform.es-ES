@@ -3,16 +3,16 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e45b57ca3ec55493c252336ac0b78fef97e03b36
+source-git-commit: 5f4c24f624c5cd22f1a440a4acfb4307960f6d1c
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '514'
 ht-degree: 50%
 
 ---
 
 # Notas actuales de la versión de Adobe Customer Journey Analytics (octubre de 2024)
 
-**Última actualización**: jueves, 02 de octubre de 2024
+**Última actualización**: jueves, 09 de octubre de 2024
 
 Estas notas de la versión abarcan el período de lanzamiento del 2 de octubre de 2024 al 22 de octubre de 2024. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -21,7 +21,7 @@ Estas notas de la versión abarcan el período de lanzamiento del 2 de octubre d
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Análisis guiado: incrustar en Workspace** | El [análisis guiado](https://experienceleague.adobe.com/es/docs/analytics-platform/using/guided-analysis/overview) ya está disponible directamente en Analysis Workspace, lo que permite a los usuarios crear paneles con información exhaustiva de paneles, visualizaciones y análisis guiados. Desde una nueva sección del carril izquierdo, puede crear nuevos análisis guiados para añadirlos a sus proyectos. También puede acceder a análisis guiados guardados que se pueden reutilizar como componentes básicos en muchos proyectos. | 2 de octubre de 2024 | 31 de octubre de 2024 |
-| **Uso del producto** | Consulte cómo utiliza su organización Customer Journey Analytics. Al habilitar esta función, se crea un conjunto de datos en Adobe Experience Platform que recopila datos cuando cualquier persona de su organización utiliza Analysis Workspace. También se crean automáticamente una conexión y una vista de datos, lo que le permite acceder a dimensiones como los tipos de proyecto principales, los usuarios más activos y los componentes más populares que se utilizan en los proyectos. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) | viernes, 03 de octubre de 2024 | jueves, 23 de octubre de 2024 |
+| **Uso del producto** | Consulte cómo utiliza su organización Customer Journey Analytics. Al habilitar esta función, se crea un conjunto de datos en Adobe Experience Platform que recopila datos cuando cualquier persona de su organización utiliza Analysis Workspace. También se crean automáticamente una conexión y una vista de datos, lo que le permite acceder a dimensiones como los tipos de proyecto principales, los usuarios más activos y los componentes más populares que se utilizan en los proyectos. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) | jueves, 23 de octubre de 2024 | Enero de 2025 |
 | **Visualización de lienzo de Recorrido** | El lienzo de recorrido es una visualización en Analysis Workspace que le permite analizar cómo las personas pasan o salen de un recorrido definido. Genere análisis de los recorridos de los usuarios creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre los nodos por el lienzo para reorganizar los eventos y las condiciones del recorrido. Al hacerlo, los datos se actualizan en consecuencia.<p>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos existentes de Journey Optimizer.<p>Para obtener más información acerca de los lienzos de Recorrido, vea [Descripción general de los lienzos de Recorrido](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas).<p>Para aprender a crear una visualización de lienzo de Recorrido, consulte [Configuración de lienzo de Recorrido](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas). | 2 de octubre de 2024 | martes, 14 de octubre de 2024 |
 | **Ahora se incluyen filtros de panel y filtros de columna al crear una audiencia** | Al crear una audiencia a partir de una visualización en Analysis Workspace, los filtros de panel y los filtros de columna ahora se incluyen como criterios adicionales. Si los filtros no son necesarios, se pueden eliminar antes de publicar la audiencia. Anteriormente, los filtros aplicados al panel o a la columna de una visualización en Analysis Workspace se ignoraban al crear una audiencia.<p>Para obtener información sobre cómo crear una audiencia a partir de Customer Journey Analytics, consulte [Crear y publicar audiencias](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish). |  | 2 de octubre de 2024 |
 | **Transferencia de recursos** | Permite transferir la propiedad de componentes como proyectos, filtros y métricas calculadas a otros usuarios para garantizar la continuidad y el acceso adecuado. | Octubre de 15 | Octubre de 22 |
