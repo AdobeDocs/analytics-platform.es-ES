@@ -1,29 +1,33 @@
 ---
-title: 'Referencia: funciones avanzadas'
+title: Funciones avanzadas
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '3100'
+source-wordcount: '3126'
 ht-degree: 19%
 
 ---
 
-# Referencia: funciones avanzadas
+# Funciones avanzadas
 
-Para obtener acceso a estas funciones, seleccione **[!UICONTROL Mostrar todo]** debajo de la lista ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL Funciones]** en el panel Componentes. Desplácese hacia abajo para ver la lista de funciones avanzadas.
+El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) le permite aplicar funciones estadísticas y matemáticas. Este artículo documenta la lista alfabética de las funciones avanzadas y sus definiciones.
+
+Para obtener acceso a estas funciones, seleccione **[!UICONTROL Mostrar todo]** debajo de la lista ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL Funciones]** en el panel Componentes. Desplácese hacia abajo para ver la lista de **[!UICONTROL funciones avanzadas]**.
 
 ## Funciones de tabla frente a funciones de fila
 
-Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es aquella en la que el resultado es diferente para cada fila de la tabla. Si procede y es relevante, una función se anota con el tipo de función.
+Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
+
+Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"}[!BADGE Fila]{type="Neutral"}
 
 ## ¿Qué significa el parámetro include-zeros?
 
 Indica si se incluyen ceros en el cálculo. A veces cero significa *nada*, pero a veces es importante.
 
-Por ejemplo, si tiene una métrica Ingresos y luego agrega una métrica Vistas de página al informe, de repente hay más filas para los ingresos, que son todas cero. Probablemente no quiera que esa métrica adicional afecte a ningún [MEDIA](cm-functions.md#mean), [MÍN](cm-functions.md#row-min), [CUARTIL](cm-functions.md#quartile) y más cálculos que tenga en la columna de ingresos. En este caso, comprobaría el parámetro `include-zeros`.
+Por ejemplo, si tiene una métrica Ingresos y luego agrega una métrica Vistas de página al informe, de repente hay más filas para los ingresos, que son todas cero. Probablemente no quiera que esa métrica adicional afecte a ningún **[MEDIA](cm-functions.md#mean)**, **[MÍNIMO DE FILA](cm-functions.md#row-min)**, **[CUARTIL](cm-functions.md#quartile)** y más cálculos que tenga en la columna de ingresos. En este caso, comprobaría el parámetro `include-zeros`.
 
 Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros.  En ese caso, puede optar por no marcar el parámetro para incluir ceros.
 
@@ -918,13 +922,13 @@ El valor de retorno es la probabilidad de ver la estadística test x dados los g
 
 **Ejemplos:**
 
-1. Úselo para buscar periféricos:
+1. Utilice la función para buscar periféricos:
 
    ```
    T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-1. Combínelo con **[IF](#if)** para ignorar tasas de devolución muy altas o bajas y cuente las sesiones en todo lo demás:
+1. Combine la función con **[IF](#if)** para omitir las tasas de devolución muy altas o bajas y cuente las sesiones en todo lo demás:
 
    ```
    IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )

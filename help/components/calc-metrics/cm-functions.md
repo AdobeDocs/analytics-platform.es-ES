@@ -1,31 +1,41 @@
 ---
-title: 'Referencia: funciones básicas'
+title: Funciones básicas
 description: El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 31%
+source-wordcount: '1185'
+ht-degree: 29%
 
 ---
 
-# Referencia: funciones básicas
+# Funciones básicas
 
 
-El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) le permite aplicar funciones estadísticas y matemáticas.
-
-Aquí se encuentra una lista alfabética de las funciones y sus definiciones.
+El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) le permite aplicar funciones estadísticas y matemáticas. Este artículo documenta la lista alfabética de las funciones y sus definiciones.
 
 >[!NOTE]
 >
 >Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [COLUMN MAXIMUM(metrics)](#column-maximum) también permite [COLUMN MAXIMUM(PageViews + Visits)](#column-maximum).
 
 
+
 ## Funciones de tabla frente a funciones de fila
 
-Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es aquella en la que el resultado es diferente para cada fila de la tabla. Si procede y es relevante, una función se anota con el tipo de función.
+Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
+
+Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"}[!BADGE Fila]{type="Neutral"}
+
+## ¿Qué significa el parámetro include-zeros?
+
+Indica si se incluyen ceros en el cálculo. A veces cero significa *nada*, pero a veces es importante.
+
+Por ejemplo, si tiene una métrica Ingresos y luego agrega una métrica Vistas de página al informe, de repente hay más filas para los ingresos, que son todas cero. Probablemente no quiera que esa métrica adicional afecte a ningún **[MEDIA](cm-functions.md#mean)**, **[MÍNIMO DE FILA](cm-functions.md#row-min)**, **[CUARTIL](cm-functions.md#quartile)** y más cálculos que tenga en la columna de ingresos. En este caso, comprobaría el parámetro `include-zeros`.
+
+Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros.  En ese caso, puede optar por no marcar el parámetro para incluir ceros
+
 
 
 ## Valor absoluto
