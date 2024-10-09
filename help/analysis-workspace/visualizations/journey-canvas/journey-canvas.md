@@ -4,9 +4,9 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 7a8c1dd1135f827acfe09f39823c6fbefbcd444d
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1697'
 ht-degree: 2%
 
 ---
@@ -37,9 +37,36 @@ Las características clave de la visualización del lienzo de Recorrido incluyen
 
 ## Perspectivas potenciales
 
-A continuación se muestran algunos ejemplos de los tipos de lienzo de Recorrido de perspectivas que puede ayudar a proporcionar. Puede elegir si estas perspectivas se basan en todas las personas de la vista de datos, todas las personas que iniciaron el recorrido o todas las personas del nodo anterior del recorrido.
+El lienzo de recorrido proporciona perspectivas procesables para los recorridos más complejos.
 
-**Visitas en orden previsto**
+### Ruta con la tasa de conversión más alta {#conversion-rate-caption}
+
+La perspectiva más destacada en el lienzo de Recorrido se muestra como un pie de ilustración en la parte superior del lienzo.
+
+Este pie de ilustración resume cuál de todas las rutas de la recorrido tuvo la tasa de conversión más alta.
+
+![pie de ilustración del lienzo de Recorrido](assets/journey-canvas-caption.png)
+
+Tenga en cuenta lo siguiente al interpretar este pie de ilustración:
+
+* Una _ruta_ se define como un nodo de inicio que está conectado mediante flechas a un nodo final, con cualquier número de nodos conectados entre ellos.
+
+* El cálculo de la tasa de conversión depende del tipo de recorrido (el número de nodos iniciales y finales que contiene el recorrido y si las rutas se cruzan entre ellos).
+
+  En la tabla siguiente se describe cómo se calculan las tasas de conversión en función del tipo de recorrido:
+
+  | tipo de recorrido | Cálculo de tasa de conversión | Ejemplo |
+  |---------|----------|---------|
+  | **Un solo nodo inicial y un solo nodo final** | La tasa de conversión se calcula dividiendo el número del nodo final por el del nodo inicial. | ![Recorrido con varios inicios que convergen en un nodo común](assets/journey-canvas-single-path.png) |
+  | **Un solo nodo inicial y varios nodos finales** | La tasa de conversión se calcula buscando el nodo final con el número más alto y dividiendo ese número por el del nodo inicial. | ![Recorrido con varios inicios que convergen en un nodo común](assets/journey-canvas-singlestart-multiend.png) |
+  | **Varias rutas independientes, cada una de las cuales contiene un solo nodo de inicio y un solo nodo de finalización** | La tasa de conversión se calcula dividiendo el número del nodo final por el del nodo inicial. La ruta con la tasa de conversión más alta se describe en el pie de ilustración. | ![Recorrido con varios inicios que convergen en un nodo común](assets/journey-canvas-multi-start-separate.png) |
+  | **Varios nodos de inicio que en cualquier punto del recorrido convergen en un nodo común** | La tasa de conversión se calcula buscando el nodo final con el número más alto y dividiendo ese número por el del nodo inicial con el número más bajo. | ![Recorrido con varios inicios que convergen en un nodo común](assets/journey-canvas-multi-start-converge.png) |
+
+### Abandonos, Abandonos y mucho más
+
+A continuación se muestran algunos ejemplos de otras perspectivas que el lienzo de Recorrido puede ayudar a proporcionar. Puede elegir si estas perspectivas se basan en todas las personas de la vista de datos, todas las personas que iniciaron el recorrido o todas las personas del nodo anterior del recorrido.
+
+#### Visita en orden imprevisto
 
 * Número y porcentaje de personas que completaron el recorrido (llegaron al nodo final)
 
@@ -47,14 +74,13 @@ A continuación se muestran algunos ejemplos de los tipos de lienzo de Recorrido
 
 * El paso más común que se produjo después o antes de un nodo determinado del recorrido
 
-**Visita en orden previsto**
+#### Visita en orden previsto
 
 * Los nodos del recorrido donde las personas cayeron con mayor frecuencia del recorrido (nunca llegaron a ninguno de los nodos inmediatamente siguientes)
 
-**Otro**
+#### Datos adicionales para cada nodo
 
-* Datos adicionales para cualquier nodo del recorrido (añadiendo una dimensión de desglose para el nodo)
-
+* Añada una dimensión de desglose en cualquier nodo del recorrido para ver datos adicionales de ese nodo específico
 
 ## Elija entre lienzo de Recorrido y visualizaciones de visitas en el orden previsto
 
