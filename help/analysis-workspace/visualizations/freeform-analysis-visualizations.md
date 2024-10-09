@@ -5,9 +5,9 @@ title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 714e37433b12713e45a66ebd64771c050edb89a5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1617'
 ht-degree: 15%
 
 ---
@@ -35,6 +35,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Histograma](/help/analysis-workspace/visualizations/histogram.md) | Una visualización de histograma agrupa a personas, visitas o eventos en bloques en función de un volumen de métrica. |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) | Una visualización de barras horizontales muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra horizontal apilada](/help/analysis-workspace/visualizations/horizontal-bar.md) | Una visualización de barras horizontales apiladas muestra barras horizontales que representan varios valores en una o varias métricas. |
+| ![Rama3](/help/assets/icons/Branch3.svg) | [lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Una visualización de lienzo de recorrido le ayuda a analizar y obtener perspectivas sobre los recorridos que proporciona a sus usuarios y clientes. |
 | ![Métricas clave](/help/assets/icons/KeyMetrics.svg) | [Resumen de métricas clave](/help/analysis-workspace/visualizations/key-metric.md) | Una visualización de resumen de métricas clave combina las visualizaciones de líneas, resumen de cambios y resumen de números. |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analysis-workspace/visualizations/line.md) | Una visualización de líneas representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [Dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | Una visualización de diagrama de dispersión muestra la relación entre los elementos de dimensión y hasta tres métricas. |
