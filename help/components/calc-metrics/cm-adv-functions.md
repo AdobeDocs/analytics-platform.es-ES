@@ -4,7 +4,7 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
 source-wordcount: '3126'
 ht-degree: 19%
@@ -168,7 +168,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIANZA(contenedor de normalización, métrica de éxito, control, umbral de relevancia)]**
 
-Calcule la confianza válida en cualquier momento **lower** utilizando el método WASKR como se describe en [Teoría del límite central uniforme en el tiempo y secuencias de confianza asintótica](http://arxiv.org/pdf/2103.06476).
+Calcule la confianza válida en cualquier momento **lower** utilizando el método WASKR como se describe en [Teoría del límite central uniforme en el tiempo y secuencias de confianza asintótica](https://arxiv.org/pdf/2103.06476).
 
 La confianza es una medida probabilística de cuánta evidencia existe de que una variante determinada es la misma que la de control. Una mayor confianza indica menos evidencia para el supuesto de que la variante de control y la que no es de control tienen un rendimiento igual.
 
@@ -183,7 +183,7 @@ La confianza es una medida probabilística de cuánta evidencia existe de que un
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIANZA(contenedor de normalización, métrica de éxito, control, umbral de relevancia)]**
 
-Calcule la confianza válida en cualquier momento **upper** utilizando el método WASKR como se describe en [Teoría del límite central uniforme en el tiempo y secuencias de confianza asintótica](http://arxiv.org/pdf/2103.06476).
+Calcule la confianza válida en cualquier momento **upper** utilizando el método WASKR como se describe en [Teoría del límite central uniforme en el tiempo y secuencias de confianza asintótica](https://arxiv.org/pdf/2103.06476).
 
 La confianza es una medida probabilística de cuánta evidencia existe de que una variante determinada es la misma que la de control. Una mayor confianza indica menos evidencia para el supuesto de que la variante de control y la que no es de control tienen un rendimiento igual.
 

@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 216783872bf4dd26fe2137dffe8994d03193b604
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '649'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Vista]**: cambie entre este tipo de vista y [Tendencias de conversión](conversion-trends.md).
 * **[!UICONTROL Pasos]**: Los puntos de contacto del evento que desea rastrear. Cada barra del gráfico representa un paso. Se pueden incluir hasta diez pasos.
-   * [!UICONTROL Comparar]: Cada paso proporciona una opción para comparar varios eventos en un solo paso de embudo y crear un &quot;embudo ramificado&quot;. Esta función le permite comparar la fricción de dos recorridos en paralelo sin crear dos análisis independientes. Resulta útil cuando hay opciones de paso o cuando se está ejecutando un experimento A/B dentro del canal. Consulte [Análisis de fricción de canal](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel/funnel-friction-analysis) en tutoriales de Customer Journey Analytics para ver un vídeo que explica cómo comparar canales.
+   * [!UICONTROL Comparar]: Cada paso proporciona una opción para comparar varios eventos en un solo paso de embudo y crear un &quot;embudo ramificado&quot;. Esta función le permite comparar la fricción de dos recorridos en paralelo sin crear dos análisis independientes. Resulta útil cuando hay opciones de paso o cuando se está ejecutando un experimento A/B dentro del canal. Consulte [Embudo](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) en los tutoriales de Customer Journey Analytics para ver un vídeo que explica cómo comparar embudos.
 * **[!UICONTROL Contado como]**: El ámbito que desea aplicar al canal. Las opciones incluyen [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
    * [!UICONTROL Sesiones]: todos los pasos deben realizarse dentro de la misma sesión para que se contabilicen.
    * [!UICONTROL Usuarios]: todos los pasos deben realizarse dentro de la ventana de informes seleccionada para ser contabilizados.
