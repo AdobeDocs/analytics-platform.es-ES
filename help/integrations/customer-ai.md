@@ -1,18 +1,18 @@
 ---
 description: Descubra cómo los datos de la inteligencia artificial aplicada al cliente de Adobe Experience Platform se integran con el espacio de trabajo de Customer Journey Analytics.
-title: Integración de datos de inteligencia artificial aplicada al cliente con Customer Journey Analytics
+title: Integración de datos de Customer AI
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: c26829d7a53e9ba8d5faf731a8a1dca2e741bf21
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 100%
+source-wordcount: '959'
+ht-degree: 99%
 
 ---
 
-# Integración de datos de inteligencia artificial aplicada al cliente con Adobe Customer Journey Analytics
+# Integración de datos de Customer AI
 
 {{release-limited-testing}}
 
