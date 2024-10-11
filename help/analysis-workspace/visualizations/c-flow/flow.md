@@ -4,10 +4,10 @@ title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 30%
+source-wordcount: '362'
+ht-degree: 21%
 
 ---
 
@@ -56,3 +56,22 @@ Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y su
 >[Configurar una visualización de flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
+## Elija entre las visualizaciones de flujo, visitas en el orden previsto o lienzo de Recorrido
+
+La visualización de flujo tiene similitudes con la [visualización de visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y la [visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), pero con diferencias importantes.
+
+### Comprender las diferencias
+
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
+
+{{journey-visualization-comparisons}}
+
+### Cuándo usar Flujo
+
+Las visualizaciones de flujo son las más adecuadas para:
+
+* Análisis exploratorio y ad hoc para el siguiente punto de contacto inmediato en la ruta. (Utilice lienzo de Recorrido para los recorridos con una secuencia de páginas predefinidas o los que utilicen una ruta final).
+
+* Recorridos no lineales con varios puntos de entrada y rutas. (Utilice lienzo de Recorrido para recorridos con una secuencia de páginas predefinidas).
+
+Use [la tabla anterior](#understand-the-differences) para comprender las diferencias entre el flujo, las visitas en el orden previsto y el lienzo de Recorrido.

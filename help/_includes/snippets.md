@@ -1,8 +1,8 @@
 ---
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '3646'
-ht-degree: 34%
+source-wordcount: '3977'
+ht-degree: 32%
 
 ---
 # Fragmentos
@@ -227,3 +227,23 @@ Con **linear** y una **ventana retrospectiva de persona**, el crédito se divide
 
 Los eventos de conversión que generalmente tienen números enteros se dividen si el crédito pertenece a más de un canal. Por ejemplo, si dos canales contribuyen a un pedido mediante un modelo de atribución lineal, ambos canales obtienen 0,5 de ese pedido. Estas métricas parciales se suman en todas las personas y luego se redondean al entero más cercano para los informes.
 
+## Comparaciones de visualización de recorrido {#journey-visualization-comparisons}
+
+Varias visualizaciones en Customer Recorrido Analytics están diseñadas para analizar los recorridos que proporciona a sus clientes.
+
+Utilice la siguiente información para elegir la visualización que mejor se adapte a sus necesidades.
+
+| Función | Lienzo de recorrido | Visita en orden previsto | Flujo |
+|---------|----------|---------|---------|
+| **Secuencia predefinida de páginas** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Sí</br>La ruta puede ser una ruta final o puede restringirse al siguiente punto de contacto | No |
+| **Secuencia exploratoria de páginas (Ad Hoc Analysis)** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Limitado</br>Permite hacer clic con el botón secundario y ver los abandonos inmediatos en una tabla de forma libre. | Sí</br>Sólo análisis exploratorio. Cada nodo muestra el siguiente punto de contacto inmediato (no eventual) a lo largo de la ruta. |
+| **Muestra dónde abandonaron las personas (abandonaron) y continuaron (abandonaron)** | Sí</br>Muestra recorridos predefinidos y exploratorios | Sí</br>Muestra recorridos predefinidos | Sí</br>Muestra recorridos exploratorios |
+| **recorridos lineales** | Sí | Sí | No |
+| **recorridos no lineales con múltiples puntos de entrada y rutas** | Sí | No | Sí |
+| **Métrica principal** | Cualquier métrica, incluidas las métricas calculadas | Solo sesión o persona | Solo ocurrencias |
+| **Métrica secundaria** | Sí<p>Cualquier métrica, incluidas las métricas calculadas</p> | No | No |
+| **Compatibilidad con componentes en nodos o puntos de contacto** | Cualquier componente para todos los nodos, incluidas las métricas, las métricas calculadas, las dimensiones, los elementos de dimensión, los filtros y los intervalos de fechas. | Cualquier componente para todos los nodos, incluidas las métricas, las métricas calculadas, las dimensiones, los elementos de dimensión, los filtros y los intervalos de fechas. | Solo elementos de dimensión (excepto el punto de contacto inicial y final) |
+| **Comparar filtros** | No | Sí<p>Realice comparaciones paralelas de dos filtros distintos en el mismo informe</p> | No |
+| **recorridos Adobe Journey Optimizer** | Sí</br>Abrir recorridos de Journey Optimizer para un análisis y una personalización más profundos | No | No |
+
+{style="table-layout:auto"}

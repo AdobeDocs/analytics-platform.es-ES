@@ -4,10 +4,10 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 7a8c1dd1135f827acfe09f39823c6fbefbcd444d
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 2%
+source-wordcount: '1606'
+ht-degree: 1%
 
 ---
 
@@ -82,32 +82,31 @@ A continuación se muestran algunos ejemplos de otras perspectivas que el lienzo
 
 * Añada una dimensión de desglose en cualquier nodo del recorrido para ver datos adicionales de ese nodo específico
 
-## Elija entre lienzo de Recorrido y visualizaciones de visitas en el orden previsto
+## Elija entre visualizaciones de lienzo de Recorrido, Visitas en el orden previsto o Flujo
 
-Las visualizaciones de lienzo de recorrido son similares a las [visualizaciones de visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), ya que ambas visualizaciones muestran dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
-
-Sin embargo, hay diferencias importantes.
+La visualización del lienzo de Recorrido tiene similitudes con la [visualización de visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y la [visualización de flujo](/help/analysis-workspace/visualizations/c-flow/flow.md), pero con diferencias importantes.
 
 ### Comprender las diferencias
 
-La siguiente tabla muestra los tipos de análisis admitidos en la visualización del lienzo de Recorrido y la visualización de abandonos:
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
 
-| Función | Visualización de lienzo de recorrido | Visualización de visitas en el orden previsto |
-|---------|----------|---------|
-| Recorridos lineales | Sí | Sí |
-| Recorridos no lineales con varios puntos de entrada y rutas | Sí | No |
-| Adobe Journey Optimizer recorrido | Sí | No |
-| Métrica principal | Cualquier métrica, incluidas las métricas calculadas | Solo se pueden usar las métricas de Sesión o Usuario |
-| Métrica secundaria | Sí<p>Cualquier métrica, incluidas las métricas calculadas</p> | No |
-| Comparar filtros | No | Sí<p>Comparar un número ilimitado de filtros [1](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md#compare-filters-in-fallout)</p> |
+{{journey-visualization-comparisons}}
 
-### Elija la visualización que desea utilizar
+### Cuándo se debe utilizar el lienzo de Recorrido
 
-Antes de elegir entre usar lienzo de Recorrido o Visitas en el orden previsto, asegúrese de [comprender las diferencias entre los dos](#understand-the-differences).
+El lienzo de recorrido es esencial para lo siguiente:
 
-Si el análisis de visitas en el orden previsto implica solamente un recorrido lineal que tiene un único principio y un único final conocidos, considere la posibilidad de usar una [visualización de visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) como una opción más sencilla para estos recorridos de usuario más directos.
+* Análisis de abandonos que implica recorridos con varios puntos de entrada y rutas.
 
-El lienzo de recorrido es esencial para el análisis de abandonos que implican recorridos con varios puntos de entrada y rutas o para analizar los recorridos creados en Journey Optimizer.
+* Recorridos no lineales con varios puntos de entrada y rutas, con una secuencia predefinida de páginas.
+
+* Análisis exploratorio y ad hoc basado en un recorrido predefinido.
+
+* Análisis que requiere una métrica principal distinta de Sesión, Persona u Ocurrencias.
+
+* Análisis más profundo de los recorridos que se originaron en Adobe Journey Optimizer.
+
+Use [la tabla anterior](#understand-the-differences) para comprender las diferencias entre las visualizaciones de lienzo de Recorrido, Visitas en el orden previsto y Flujo.
 
 ## Analizar Journey Optimizer recorrido
 
