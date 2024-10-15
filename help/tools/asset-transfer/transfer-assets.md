@@ -3,9 +3,9 @@ title: Transferir recursos
 description: Obtenga información sobre cómo transferir componentes de un usuario a otro
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: faa9545fa3928a19aeaaf7285a9643e7dc253cea
+source-git-commit: 9663a24c2430d3822cb83876ea048b6423405215
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Los Assets suelen estar vinculados a un propietario individual y, en algunos cas
 
 ## Permisos
 
-La transferencia de recursos requiere permisos de administrador de productos para Customer Journey Analytics.
+La transferencia de recursos requiere el permiso de administrador de productos para Customer Journey Analytics.
 
 ## Transferir recursos
 
@@ -44,7 +44,14 @@ La transferencia de recursos requiere permisos de administrador de productos par
 
 1. Ahora, revise las carpetas de cada componente en la navegación izquierda para seleccionar componentes individuales o todos los recursos de una carpeta que desea transferir.
 
-   Tenga en cuenta que la transferencia de recursos de un administrador a un no administrador no actualiza el destinatario a un administrador.
+   >[!NOTE]
+   >
+   >La transferencia de recursos de un administrador a un no administrador no actualiza el destinatario a un administrador.
+
+
+   >[!NOTE]
+   >
+   >    Al transferir recursos que hacen referencia a otros componentes (por ejemplo, proyectos que hacen referencia a otros filtros y métricas calculadas), los componentes que no sean propiedad del propietario actual del proyecto solo se compartirán con el destinatario. La propiedad de todos los demás componentes se transferirá al destinatario.
 
 1. Para seleccionar _todos_ los recursos de una carpeta, marque la casilla junto a **[!UICONTROL Nombre]** en la parte superior de la tabla.
 
@@ -58,17 +65,31 @@ La transferencia de recursos requiere permisos de administrador de productos par
    >
    >No cierre la pantalla durante la transferencia para evitar el aborto del proceso. Esto garantiza una experiencia de transferencia sin problemas.
 
+## Transferir resultados
+
+Hay tres posibles resultados para una transferencia:
+
+- **Éxito de transferencia**: &quot;Assets se transfirió correctamente&quot;.
+
+- **Éxito parcial**: &quot;Algunos recursos se transfirieron correctamente&quot;.
+
+- **Error de transferencia**: &quot;No se pudieron transferir los recursos. Inténtelo de nuevo&quot;.
+
 ## Transferencia de recursos durante la actualización de Adobe Analytics a Customer Journey Analytics
 
 Uno de los principales casos de uso de la transferencia de recursos es durante la actualización de Adobe Analytics a Customer Journey Analytics.
 
 La característica [Migración de componentes](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) de Adobe Analytics le permite migrar proyectos de propiedad del administrador a otros administradores. Todos los componentes que componen estos proyectos se vuelven a crear en Customer Journey Analytics y el administrador de destinatarios es propietario de todos esos componentes, independientemente de quién los haya creado.
 
-Posteriormente, esta herramienta de transferencia de recursos permite a los administradores reasignar componentes a sus legítimos propietarios.
+Posteriormente, esta herramienta de transferencia de recursos permite a los administradores reasignar componentes a sus propietarios legítimos, tanto si son administradores como si no.
+
+>[!IMPORTANT]
+>
+>Aunque puede transferir componentes con esta herramienta, usted como administrador debe asegurarse de que el destinatario tenga acceso a las vistas de datos necesarias para ver o utilizar estos componentes. Puede ver y asignar permisos en el [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
 ## Exportar a CSV
 
-Puede exportar una lista de recursos transferidos de un usuario a otro a un archivo .csv.
+La opción **[!UICONTROL Exportar a CSV]** solo permite a los administradores descargar una lista de usuarios mostrados en un archivo .csv. No les permite exportar una lista de recursos transferidos a un archivo .csv.
 
 <!---## Unknown users
 
