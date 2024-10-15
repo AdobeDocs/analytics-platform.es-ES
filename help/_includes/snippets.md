@@ -1,5 +1,5 @@
 ---
-source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
+source-git-commit: a6f543d3b6aab06593d9fa40a5d3d6bbf4aa7c32
 workflow-type: tm+mt
 source-wordcount: '3977'
 ht-degree: 32%
@@ -236,14 +236,15 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | Función | Lienzo de recorrido | Visita en orden previsto | Flujo |
 |---------|----------|---------|---------|
 | **Secuencia predefinida de páginas** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Sí</br>La ruta puede ser una ruta final o puede restringirse al siguiente punto de contacto | No |
-| **Secuencia exploratoria de páginas (Ad Hoc Analysis)** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Limitado</br>Permite hacer clic con el botón secundario y ver los abandonos inmediatos en una tabla de forma libre. | Sí</br>Sólo análisis exploratorio. Cada nodo muestra el siguiente punto de contacto inmediato (no eventual) a lo largo de la ruta. |
+| **Secuencia exploratoria de páginas (Ad Hoc Analysis)** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Limitado</br>Permite hacer clic con el botón secundario y ver los abandonos inmediatos en una tabla de forma libre. | Sí</br>Sólo análisis exploratorio. Siempre dentro de una instancia de dimensión entre nodos. Esto significa que cada nodo muestra el siguiente punto de contacto inmediato (no eventual) a lo largo de la ruta. |
 | **Muestra dónde abandonaron las personas (abandonaron) y continuaron (abandonaron)** | Sí</br>Muestra recorridos predefinidos y exploratorios | Sí</br>Muestra recorridos predefinidos | Sí</br>Muestra recorridos exploratorios |
 | **recorridos lineales** | Sí | Sí | No |
 | **recorridos no lineales con múltiples puntos de entrada y rutas** | Sí | No | Sí |
-| **Métrica principal** | Cualquier métrica, incluidas las métricas calculadas | Solo sesión o persona | Solo ocurrencias |
+| **Métrica principal** | Cualquier métrica, incluidas las métricas calculadas | Solo sesión o persona | Solo ocurrencias (vistas de ruta) |
 | **Métrica secundaria** | Sí<p>Cualquier métrica, incluidas las métricas calculadas</p> | No | No |
-| **Compatibilidad con componentes en nodos o puntos de contacto** | Cualquier componente para todos los nodos, incluidas las métricas, las métricas calculadas, las dimensiones, los elementos de dimensión, los filtros y los intervalos de fechas. | Cualquier componente para todos los nodos, incluidas las métricas, las métricas calculadas, las dimensiones, los elementos de dimensión, los filtros y los intervalos de fechas. | Solo elementos de dimensión (excepto el punto de contacto inicial y final) |
+| **Compatibilidad con componentes en nodos o puntos de contacto** | Métricas, elementos de dimensión, filtros e intervalos de fechas. | Métricas, elementos de dimensión, filtros e intervalos de fechas. | Solo elementos de dimensión (excepto el punto de contacto inicial y final) |
 | **Comparar filtros** | No | Sí<p>Realice comparaciones paralelas de dos filtros distintos en el mismo informe</p> | No |
+| **Interacción de arrastrar y soltar** | Sí | Sí | No |
 | **recorridos Adobe Journey Optimizer** | Sí</br>Abrir recorridos de Journey Optimizer para un análisis y una personalización más profundos | No | No |
 
 {style="table-layout:auto"}

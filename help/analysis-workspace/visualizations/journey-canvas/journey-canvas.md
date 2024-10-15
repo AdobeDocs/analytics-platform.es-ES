@@ -4,7 +4,7 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
+source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 1%

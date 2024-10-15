@@ -4,7 +4,7 @@ title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
+source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 21%
