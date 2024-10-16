@@ -3,9 +3,9 @@ title: Configuración de datos de uso del producto
 description: Habilite, deshabilite o configure las opciones de uso del producto.
 hide: true
 hidefromtoc: true
-source-git-commit: 40b761928697d1d55e1177aa7b2b3c056739ecc9
+source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 La página _Configuración de datos_ administra la configuración de uso del producto. Puede utilizar esta página para habilitar o deshabilitar el uso del producto para su organización. También puede configurar en qué entorno limitado de Adobe Experience Platform se crea el conjunto de datos y anular el período de retención de datos si lo desea. Solo están visibles para los administradores de productos.
 
-**Customer Journey Analytics** > **Herramientas** > **Uso del producto** > **Configuración de datos**
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Uso del producto]** > **[!UICONTROL Configuración de datos]**
 
 >[!IMPORTANT]
 >
->Al habilitar esta función, debe aceptar los términos y condiciones antes de utilizarla. Cuando acepta estos términos y condiciones, lo hace en nombre de toda la organización.
+>Al habilitar esta función, debe aceptar los términos y condiciones antes de utilizarla. Cuando acepta estos términos y condiciones, lo hace en nombre de toda la organización. La persona que acepta estos términos y condiciones posee la vista de datos creada automáticamente cuando se habilita esta función.
 
 Las siguientes configuraciones están disponibles en esta página:
 
-* **Habilitar el uso del producto**: cambia la disponibilidad de la recopilación de datos de uso del producto. Si habilita el uso del producto y luego lo deshabilita en el futuro, el conjunto de datos, la conexión y la vista de datos no se eliminarán. El seguimiento está desactivado globalmente para su organización cuando está desactivado.
-* **Entorno aislado**: Determina el entorno aislado de Adobe Experience Platform en el que se crearon el esquema y el conjunto de datos. La zona protegida que elija no afecta a la recopilación de datos de uso del producto. Si cambia esta configuración de zona protegida, se eliminarán todos los datos existentes. Se crea un nuevo conjunto de datos, conexión y vista de datos en el entorno limitado seleccionado.
-* **Anular período de retención de datos**: cada conjunto de datos tiene un período de retención de datos predeterminado. Si esta configuración está deshabilitada, el uso del producto sigue ese período de tiempo predeterminado. Puede habilitar esta configuración si desea reducir el tiempo que se conservan los datos. Reducir el período de retención de datos, ayudar a reducir los costes y permitirle cumplir con las directrices de privacidad específicas de cada empleado. No puede ampliar la retención de datos más allá del período de retención de datos predeterminado del conjunto de datos.
+* **[!UICONTROL Habilitar el uso del producto]**: cambia la disponibilidad de la recopilación de datos de uso del producto. Si habilita el uso del producto y lo deshabilita en el futuro, el conjunto de datos, la conexión y la vista de datos no se eliminarán. El seguimiento está desactivado globalmente para su organización cuando está desactivado.
+* **[!UICONTROL Entorno aislado]**: Determina el entorno aislado de Adobe Experience Platform en el que se crearon el esquema y el conjunto de datos. La zona protegida que elija no afecta a la recopilación de datos de uso del producto. Si cambia esta configuración de zona protegida, se eliminarán todos los datos existentes. Se crea un nuevo conjunto de datos, conexión y vista de datos en el entorno limitado seleccionado.
+* **[!UICONTROL Anular período de retención de datos]**: cada conjunto de datos tiene un período de retención de datos predeterminado. Si esta configuración está deshabilitada, el uso del producto sigue ese período de tiempo predeterminado. Puede habilitar esta configuración si desea reducir el tiempo que se conservan los datos. Reducir el período de retención de datos, ayudar a reducir los costes y permitirle cumplir con las directrices de privacidad específicas de cada empleado. No puede ampliar la retención de datos más allá del período de retención de datos predeterminado del conjunto de datos.
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_sandbox"
