@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
+source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
 workflow-type: tm+mt
-source-wordcount: '3919'
-ht-degree: 12%
+source-wordcount: '4009'
+ht-degree: 13%
 
 ---
 
@@ -84,9 +84,11 @@ La vinculación realiza un mínimo de dos pasadas de datos en un conjunto de dat
 
 - **Vinculación en tiempo real**: intenta vincular cada visita (evento) conforme se va produciendo. Las visitas de dispositivos que son &quot;nuevos&quot; para el conjunto de datos (nunca se han autenticado) no suelen vincularse en este nivel. Las visitas de dispositivos ya reconocidos se vinculan inmediatamente.
 
-- **Vinculación de repetición**: &quot;reproduce&quot; datos basados en identificadores únicos (ID transitorios) que ha aprendido. En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan (a ID transitorios). Adobe ofrece dos intervalos de reproducción:
+- **Vinculación de repetición**: &quot;reproduce&quot; datos basados en identificadores únicos (ID transitorios) que ha aprendido. En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan (a ID transitorios). El Adobe ofrece los siguientes intervalos de reproducción:
    - **Diario**: los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las repeticiones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
-   - **Semanal**: los datos se reproducen una vez a la semana con la ventana retrospectiva seleccionada (consulte [opciones](#select-options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+   - **Semanal**: los datos se reproducen una vez a la semana con la ventana retrospectiva (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+   - **Cada dos semanas**: los datos se reproducen una vez cada dos semanas con la ventana retrospectiva (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de dos semanas de antigüedad no se vuelven a procesar hasta la siguiente reproducción quincenal.
+   - **Mensual**: los datos se reproducen una vez al mes con la ventana retrospectiva (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no identificados con menos de un mes de antigüedad no se vuelven a procesar hasta la reproducción del mes siguiente.
 
 - **Privacidad**: cuando se reciben solicitudes relacionadas con la privacidad, además de eliminar la identidad solicitada, se debe deshacer cualquier vinculación de esa identidad entre eventos no autenticados.
 
@@ -223,11 +225,11 @@ La vinculación realiza un mínimo de dos pasadas de datos en un conjunto de dat
 
 - **Vinculación en tiempo real**: intenta vincular cada visita (evento) conforme se va produciendo, utilizando el ID persistente para buscar el ID transitorio del área de nombres seleccionada consultando el gráfico de identidades. Si el ID transitorio está disponible desde la búsqueda, este ID transitorio se vincula inmediatamente.
 
-- **Reproducir vinculación**: &quot;reproduce&quot; datos basados en identidades actualizadas del gráfico de identidades. En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan a medida que el gráfico de identidad ha resuelto la identidad de un área de nombres. Adobe ofrece dos intervalos de reproducción:
+- **Reproducir vinculación**: &quot;reproduce&quot; datos basados en identidades actualizadas del gráfico de identidades. En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan a medida que el gráfico de identidad ha resuelto la identidad de un área de nombres. El Adobe ofrece los siguientes intervalos de reproducción:
    - **Diario**: los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las repeticiones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
    - **Semanal**: los datos se reproducen una vez a la semana con la ventana retrospectiva (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
    - **Cada dos semanas**: los datos se reproducen una vez cada dos semanas con la ventana retrospectiva (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de dos semanas de antigüedad no se vuelven a procesar hasta la siguiente reproducción quincenal.
-   - **Mensual**: los datos se reproducen una vez al mes con la ventana retrospectiva (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+   - **Mensual**: los datos se reproducen una vez al mes con la ventana retrospectiva (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no identificados con menos de un mes de antigüedad no se vuelven a procesar hasta la reproducción del mes siguiente.
 
 - **Privacidad**: cuando se reciben solicitudes relacionadas con la privacidad, además de quitar la identidad solicitada del conjunto de datos de origen, se debe deshacer cualquier vinculación de esa identidad entre eventos no autenticados. Además, la identidad debe eliminarse del gráfico de identidad para evitar una vinculación futura basada en gráficos para esa identidad específica.
 

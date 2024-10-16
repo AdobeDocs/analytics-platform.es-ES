@@ -5,10 +5,10 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 22f3519445564ebdb2092db04cc966001bda8b1c
+source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 35%
+source-wordcount: '919'
+ht-degree: 33%
 
 ---
 
@@ -30,20 +30,20 @@ Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de eventos, cada
 >
 >Adobe Experience Platform generalmente almacena una marca de tiempo en milisegundos de UNIX®. Para facilitar la lectura en este ejemplo, se utilizan la fecha y la hora.
 
-| `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
-| --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | |
-| `user_310` | `1 Jan 7:04 AM` | | | `2` |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` | | `3` |
-| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | `4` |
-| `user_847` | `2 Jan 12:44 PM` | | | `2` |
+| example_id | timestamp | string_color | string_animal | metric_a |
+| --- | --- | --- | --- | ---: |
+| user_310 | 1 de enero a las 7:02 | Rojo | Zorro | |
+| user_310 | 1 de enero a las 7:04 | | | 2 |
+| user_310 | 1 de enero a las 7:08 | Azul | | 3 |
+| user_847 | 2 de enero, 12:31 p.m. | | Tortuga | 4 |
+| user_847 | 2 ene 12:44 p.m. | | | 2 |
 
-| `different_id` | `timestamp` | `string_color` | `string_shape` | `metric_b` |
-| --- | --- | --- | --- | --- |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` | `Circle` | `8.5` |
-| `user_847` | `2 Jan 1:01 PM` | `Red` | | |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
+| different_id | timestamp | string_color | string_shape | metric_b |
+| --- | --- | --- | --- | ---: |
+| user_847 | 2 de enero, 12:26 p.m. | Amarillo | Círculo | 8,5 |
+| user_847 | 2 de enero, 1:01 p.m. | Rojo | | |
+| alternateid_656 | 2 de enero a las 8:58 p.m. | Rojo | Cuadrado | 4.2 |
+| alternateid_656 | 2 de enero, 9:03 p. m. | | Triángulo | 3,1 |
 
 Cuando crea una conexión con estos dos conjuntos de datos de eventos, y ha identificado
 
@@ -52,19 +52,31 @@ Cuando crea una conexión con estos dos conjuntos de datos de eventos, y ha iden
 
 el siguiente conjunto de datos combinado se utiliza para el sistema de informes.
 
-| `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
-| --- | --- | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | | | |
-| `user_310` | `1 Jan 7:04 AM` | | | | `2` | |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` | | | `3` | |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` | | `Circle` | | `8.5` |
-| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | | `4` | |
-| `user_847` | `2 Jan 12:44 PM` | | | | `2` | |
-| `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
+| id | timestamp | string_color | string_animal | string_shape | metric_a | metric_b |
+| --- | --- | --- | --- | --- | ---: | ---: |
+| user_310 | 1 de enero a las 7:02 | Rojo | Zorro | | | |
+| user_310 | 1 de enero a las 7:04 | | | | 2 | |
+| user_310 | 1 de enero a las 7:08 | Azul | | | 3 | |
+| user_847 | 2 de enero, 12:26 p.m. | Amarillo | | Círculo | | 8,5 |
+| user_847 | 2 de enero, 12:31 p.m. | | Tortuga | | 4 | |
+| user_847 | 2 ene 12:44 p.m. | | | | 2 | |
+| user_847 | 2 de enero, 1:01 p.m. | Rojo | | | | |
+| alternateid_656 | 2 de enero a las 8:58 p.m. | Rojo | | Cuadrado | | 4.2 |
+| alternateid_656 | 2 de enero, 9:03 p. m. | | | Triángulo | | 3,1 |
 
-Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primer conjunto de datos, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos en la ruta de esquema `_experience.somethingelse.string_color`. En este escenario, los datos **no** se combinaron en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado son dos columnas `string_color` en el conjunto de datos combinado.
+Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primer conjunto de datos, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos en la ruta de esquema `_experience.somethingelse.string_color`. En este escenario, los datos **no** se combinaron en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado son dos columnas `string_color` en el conjunto de datos combinado:
+
+| id | timestamp | _experience.<br/>lo que sea.<br/>color_cadena | experiencia.<br/>algo más.<br/>color_cadena | string_animal | string_shape | metric_a | metric_b |
+| --- | --- | --- | --- | --- | --- | ---: | ---:|
+| user_310 | 1 de enero a las 7:02 | Rojo | | Zorro | | | |
+| user_310 | 1 de enero a las 7:04 | | | | | 2 | |
+| user_310 | 1 de enero a las 7:08 | Azul | | | | 3 | |
+| user_847 | 2 de enero, 12:26 p.m. | | Amarillo | | Círculo | | 8,5 |
+| user_847 | 2 de enero, 12:31 p.m. | | | Tortuga |  | 4 | |
+| user_847 | 2 ene 12:44 p.m. | | | | | 2 | |
+| user_847 | 2 de enero, 1:01 p.m. | | Rojo | | | | |
+| alternateid_656 | 2 de enero a las 8:58 p.m. | | Rojo | | Cuadrado | | 4.2 |
+| alternateid_656 | 2 de enero, 9:03 p. m. | | | | Triángulo | | 3,1 |
 
 Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila. Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un plazo de 30 minutos, se considerarán parte de la misma sesión. Se combinan campos con rutas de esquema idénticas.
 
@@ -73,7 +85,7 @@ Este concepto también se aplica a la atribución. No importa de qué conjunto d
 Si la conexión solo incluía la primera tabla y no la segunda, al extraer un informe con la `string_color` dimensión y la métrica `metric_a` mediante atribución de último contacto, se mostraría:
 
 | string_color | metric_a |
-| --- | --- |
+| --- | ---: |
 | No especificado | 6 |
 | Azul | 3 |
 | Rojo | 2 |
@@ -81,7 +93,7 @@ Si la conexión solo incluía la primera tabla y no la segunda, al extraer un in
 Sin embargo, si ha incluido ambas tablas en la conexión, la atribución cambia porque `user_847` está en ambos conjuntos de datos. Una fila de los atributos del segundo conjunto de datos `metric_a` a &#39;Amarillo&#39; donde no se habían especificado antes:
 
 | string_color | metric_a |
-| --- | --- |
+| --- | ---: |
 | Amarillo | 6 |
 | Azul | 3 |
 | Rojo | 2 |
