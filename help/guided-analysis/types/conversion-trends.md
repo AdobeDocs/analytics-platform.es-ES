@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL Vista de tendencias de conversión]
 
-La vista **[!UICONTROL Tendencias de conversión]** proporciona una visualización de tendencias de las tasas de conversión a lo largo del tiempo. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical representa la tasa de conversión.
+La vista ![Tendencias de conversión](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Tendencias de conversión]** proporciona una visualización de tendencias de las tasas de conversión a lo largo del tiempo. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical representa la tasa de conversión.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 
@@ -22,7 +22,7 @@ La vista **[!UICONTROL Tendencias de conversión]** proporciona una visualizaci�
 
 Los casos de uso para este tipo de vista incluyen:
 
-* **Rastrear esfuerzos de optimización**: después de identificar los cuellos de botella clave que desea mejorar mediante [Fricción](friction.md), puede usar esta vista para rastrear cómo esas optimizaciones afectan la tasa de conversión a lo largo del tiempo.
+* **Rastrear esfuerzos de optimización**: después de identificar los cuellos de botella clave que desea mejorar mediante [Fricción](funnel.md), puede usar esta vista para rastrear cómo esas optimizaciones afectan la tasa de conversión a lo largo del tiempo.
 * **Evaluación de pruebas A/B**: Evalúe la eficacia de pruebas A/B o experimentos realizados en el contexto de un embudo. Al comparar las tasas de conversión entre diferentes variaciones, puede determinar fácilmente qué pruebas proporcionan tasas de conversión más altas, lo que lleva a decisiones basadas en datos sobre qué variaciones implementar de forma permanente.
 * **Evaluación de campañas a lo largo del tiempo**: mida la eficacia de las campañas de marketing a lo largo del tiempo. Puede crear un segmento que se centre en los usuarios que hayan utilizado una campaña determinada y comparar sus tasas de conversión con las de otras campañas. También puede comparar las tasas de conversión actuales con campañas similares que se ejecutaron en el pasado.
 
@@ -30,7 +30,7 @@ Los casos de uso para este tipo de vista incluyen:
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **[!UICONTROL Vista]**: cambie entre este tipo de vista y [Fricción](friction.md).
+* **[!UICONTROL Vista]**: cambie entre este tipo de vista y [Fricción](funnel.md).
 * **[!UICONTROL Pasos]**: Los puntos de contacto del evento que desea rastrear. Cada barra del gráfico representa un paso. Se pueden incluir hasta diez pasos.
 * **[!UICONTROL Contado como]**: El método de conteo que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Usuarios] y [!UICONTROL Sesiones].
 * **[!UICONTROL Segmentos]**: Los segmentos con los que desea comparar el canal. Cada segmento seleccionado divide cada paso en varias barras. Cada color representa un segmento diferente. Se pueden incluir hasta tres segmentos.
@@ -44,7 +44,7 @@ La vista [!UICONTROL Tendencias de conversión] ofrece la siguiente configuraci�
 
 >[!NOTE]
 >
->La columna **Average** de la tabla de vista de tendencias de conversión difiere de la columna **Total** de la tabla [Vista de fricción](friction.md). La primera es una media de las columnas de intervalo (por ejemplo, la media de las tasas de conversión diarias), mientras que la segunda es un cálculo agregado en todo el intervalo de fechas.
+>La columna **Average** de la tabla de vista de tendencias de conversión difiere de la columna **Total** de la tabla [Vista de fricción](funnel.md). La primera es una media de las columnas de intervalo (por ejemplo, la media de las tasas de conversión diarias), mientras que la segunda es un cálculo agregado en todo el intervalo de fechas.
 
 ## Comparación del tiempo
 

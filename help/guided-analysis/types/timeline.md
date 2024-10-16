@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: e9721eaf993175dd46e9d8edf9176d7c00308e8c
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
 
 # Vista de [!UICONTROL escala de tiempo]
 
-La vista **[!UICONTROL Cronología]** le permite observar eventos de sesión de nivel de usuario a lo largo del tiempo para encontrar patrones de experiencia y contar mejores historias de usuario. El carril izquierdo le permite filtrar el flujo por valores de propiedad y segmentos. El carril derecho le permite seleccionar de una lista aleatoria de usuarios que coincidan con los criterios de filtro. El área central muestra el flujo del usuario seleccionado por sesión, que incluye la marca de tiempo, los valores de propiedad y la duración. La duración no está disponible para el último evento de una sesión determinada.
+La vista ![Cronología](/help/assets/icons/Timeline.svg) **[!UICONTROL Cronología]** le permite observar eventos de sesión a nivel de usuario con el paso del tiempo para encontrar patrones de experiencia y contar mejores historias de usuarios. El carril izquierdo le permite filtrar el flujo por valores de propiedad y segmentos. El carril derecho le permite seleccionar de una lista aleatoria de usuarios que coincidan con los criterios de filtro. El área central muestra el flujo del usuario seleccionado por sesión, que incluye la marca de tiempo, los valores de propiedad y la duración. La duración no está disponible para el último evento de una sesión determinada.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
 
@@ -31,7 +31,7 @@ Si una vista de datos no tiene agregado el componente [!UICONTROL ID de persona]
 
 Los casos de uso para este tipo de vista incluyen:
 
-* **Exploración de fricción**: Si encuentra una caída pronunciada en la vista [Fricción](friction.md), puede crear un segmento de esos usuarios y aplicar el segmento en esta vista para investigar posibles causas.
+* **Exploración de fricción**: Si encuentra una caída pronunciada en la vista [Fricción](funnel.md), puede crear un segmento de esos usuarios y aplicar el segmento en esta vista para investigar posibles causas.
 * **Comportamiento del error**: Si los usuarios encuentran un error en el producto, puede explorar qué hacían antes o después de ver ese error.
 * **Validación de recopilación de datos**: los administradores de datos pueden filtrar esta vista a su propio ID de persona para validar que la implementación de su organización funcione según lo esperado.
 

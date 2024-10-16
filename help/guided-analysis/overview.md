@@ -5,9 +5,9 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 6497a73aaf7ab7ab597d7a9b00315d126ce402f8
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1393'
 ht-degree: 72%
 
 ---
@@ -18,19 +18,19 @@ El análisis guiado permite a los usuarios, desde marketing hasta productos y an
 
 Los siguientes análisis guiados están disponibles:
 
-| Análisis | Descripción |
-| --- | --- |
-| [Crecimiento activo](types/active.md) | Identifique quién es nuevo, retenido, retornado o inactivo. |
-| [Tendencias de conversión](types/conversion-trends.md) | Haga un seguimiento de los cambios en las tasas de conversión a lo largo del tiempo. |
-| [Participación](types/engagement.md) | Comprenda la amplitud y profundidad de la participación de la característica. |
-| [Impacto de primer uso](types/first-use.md) | Mida el impacto del uso de funciones por primera vez en indicadores clave. |
-| [Frecuencia](types/frequency.md) | Mida la participación en función de la frecuencia de uso. |
-| [Canal](types/friction.md) | Compare las tasas de conversión entre pasos. |
-| [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
-| [Impacto de la versión](types/release.md) | Compare el rendimiento en períodos iguales antes y después de la publicación. |
-| [Retención](types/retention-rates.md) | Mida los hábitos de retorno continuo de sus usuarios. |
-| [Cronología](types/timeline.md) | Explore patrones en la actividad de la sesión. |
-| [Tendencias](types/usage.md) | Medir la participación del usuario a lo largo del tiempo. |
+| Icono | Análisis | Descripción |
+| :----:|--- | --- |
+| ![GrupoPersonas](/help/assets/icons/PeopleGroup.svg) | [Crecimiento activo](types/active-growth.md) | Identifique quién es nuevo, retenido, retornado o inactivo. |
+| ![Tendencias de conversión](/help/assets/icons/ConversionTrends.svg) | [Tendencias de conversión](types/conversion-trends.md) | Haga un seguimiento de los cambios en las tasas de conversión a lo largo del tiempo. |
+| ![Gráfico de participación](/help/assets/icons/EngagementGraph.svg) | [Participación](types/engagement.md) | Comprenda la amplitud y profundidad de la participación de la característica. |
+| ![PrimerUso](/help/assets/icons/FirstUse.svg) | [Impacto de primer uso](types/first-use-impact.md) | Mida el impacto del uso de funciones por primera vez en indicadores clave. |
+| ![Histograma](/help/assets/icons/Histogram.svg) | [Frecuencia](types/frequency.md) | Mida la participación en función de la frecuencia de uso. |
+| ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) | [Canal](types/funnel.md) | Compare las tasas de conversión entre pasos. |
+| ![NetGrowth](/help/assets/icons/NetGrowth.svg) | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
+| ![Versión](/help/assets/icons/Release.svg) | [Impacto de la versión](types/release-impact.md) | Compare el rendimiento en períodos iguales antes y después de la publicación. |
+| ![Retención](/help/assets/icons/Retention.svg) | [Retención](types/retention.md) | Mida los hábitos de retorno continuo de sus usuarios. |
+| ![Cronología](/help/assets/icons/Timeline.svg) | [Cronología](types/timeline.md) | Explore patrones en la actividad de la sesión. |
+| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Tendencias](types/trends.md) | Medir la participación del usuario a lo largo del tiempo. |
 
 {style="table-layout:auto"}
 
@@ -38,7 +38,7 @@ Los siguientes análisis guiados están disponibles:
 
 Puede acceder al análisis guiado desde la página principal del Customer Journey Analytics.
 
-1. Seleccione **[!UICONTROL Análisis guiado]** de la página principal, que lo lleva directamente a la [vista Tendencias de uso](types/usage.md).
+1. Seleccione **[!UICONTROL Análisis guiado]** de la página principal, que lo lleva directamente a la [vista Tendencias de uso](types/trends.md).
 
    ![Mosaico de página de aterrizaje](assets/landing-page-tile.png){style="border:1px solid gray"}
 

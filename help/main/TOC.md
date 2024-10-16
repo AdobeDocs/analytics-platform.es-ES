@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 1a0422144b795be7f129b13208e93f8d3645a8e7
+source-git-commit: 2311e216eb2bc4aa2150bdb0771ab3e71bf1b8c5
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '938'
 ht-degree: 85%
 
 ---
@@ -218,24 +218,17 @@ ht-degree: 85%
 
 + Análisis guiado {#guided-analysis}
    + [Información general](../guided-analysis/overview.md)
-   + Matriz de características {#feature-matrix}
-      + [Participación](../guided-analysis/types/engagement.md)
-   + Canal {#funnel}
-      + [Vista de fricción](../guided-analysis/types/friction.md)
-      + [Vista de tendencias de conversión](../guided-analysis/types/conversion-trends.md)
-   + Impacto {#impact}
-      + [Vista de la versión](../guided-analysis/types/release.md)
-      + [Vista del primer uso](../guided-analysis/types/first-use.md)
-   + Retención {#retention}
-      + [Tasas de retención](../guided-analysis/types/retention-rates.md)
-   + Tendencias {#trends}
-      + [Vista del uso](../guided-analysis/types/usage.md)
-      + [Vista de frecuencia](../guided-analysis/types/frequency.md)
-   + Crecimiento de usuarios {#user-growth}
-      + [Vista activa](../guided-analysis/types/active.md)
-      + [Vista de crecimiento neto](../guided-analysis/types/net-growth.md)
-   + Flujo de usuarios {#streams}
-      + [Cronología](../guided-analysis/types/timeline.md)
+   + [Crecimiento activo](../guided-analysis/types/active-growth.md)
+   + [Tendencias de conversión](../guided-analysis/types/conversion-trends.md)
+   + [Participación](../guided-analysis/types/engagement.md)
+   + [Impacto del primer uso](../guided-analysis/types/first-use-impact.md)
+   + [Frecuencia](../guided-analysis/types/frequency.md)
+   + [Canal](../guided-analysis/types/funnel.md)
+   + [Crecimiento neto](../guided-analysis/types/net-growth.md)
+   + [Impacto de versión](../guided-analysis/types/release-impact.md)
+   + [Retención](../guided-analysis/types/retention.md)
+   + [Cronología](../guided-analysis/types/timeline.md)
+   + [Tendencias](../guided-analysis/types/trends.md)
    + [Casos de uso del sector](../guided-analysis/industry-use-cases.md)
    + [Preguntas más frecuentes](../guided-analysis/faq.md)
 
