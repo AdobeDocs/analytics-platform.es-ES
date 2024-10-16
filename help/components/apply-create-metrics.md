@@ -4,16 +4,23 @@ title: Métricas
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: d317f6bb9892d0d13fc7723f7e8c2d9ba2ce4f63
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Métricas
 
 Las métricas permiten cuantificar los puntos de datos en Analysis Workspace. Normalmente se utilizan como columnas en una visualización y están vinculadas a las dimensiones.
+
+## Uso de métricas en Analysis Workspace
+
+Las métricas son flexibles en su uso dentro de Analysis Workspace. Arrastre una métrica a una tabla de forma libre vacía para ver las tendencias de esa métrica durante el período de fecha del proyecto. También puede arrastrar una métrica cuando una dimensión esté presente para verla comparada con cada elemento de dimensión. Al arrastrar una métrica sobre un encabezado de métrica existente, se reemplaza y al arrastrar una métrica junto a un encabezado, puede ver ambas métricas en paralelo.
+
+Para obtener información acerca de cómo agregar métricas y otros tipos de componentes a Analysis Workspace, vea [Usar componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
+
 
 ## Tipos de métricas
 
@@ -22,19 +29,19 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
 * **Métricas estándar**: Algunas métricas estándar son Personas, Sesiones y Eventos.
 
+  A diferencia de Adobe Analytics, Customer Journey Analytics permite definir métricas estándar de forma flexible dentro del ámbito de una conexión y una vista de datos.
+
+   * **Personas**: La métrica Personas del Customer Journey Analytics es el recuento distinto de los ID de persona. Según lo que elija como ID de persona al configurar conjuntos de datos en la conexión, la métrica Personas puede significar cosas diferentes.
+   * **Sesiones**: La métrica Sesiones de Customer Journey Analytics es lo que define como parte de la configuración de Sesiones en la vista de datos. Consulte [Configuración de la sesión](/help/data-views/session-settings.md).
+   * **Eventos**: la métrica Eventos de Customer Journey Analytics está compuesta por los eventos que forman parte de cualquier conjunto de datos de evento que haya configurado como parte de su conexión.
+
 * **Métricas calculadas** ![Calculadora](/help/assets/icons/Calculator.svg): Métricas definidas por el usuario que se basan en métricas estándar, números estáticos o funciones algorítmicas.
 
-* **Plantillas de métricas calculadas** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : Métricas definidas por Adobes que se comportan de manera similar a las métricas calculadas. Puede utilizarlos tal cual en los proyectos de Workspace o guardar una copia para personalizar la lógica.
+* **Plantillas de métricas calculadas** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : Métricas definidas por Adobes que se comportan de manera similar a las métricas calculadas. Puede utilizarlos tal cual en los proyectos de Workspace o guardar una copia para personalizar la lógica. Ver [métricas calculadas predeterminadas](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
 Puede ver si una métrica está aprobada ![Icono aprobado](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) o no. Si desea obtener más detalles sobre una métrica, pase el ratón sobre ella y seleccione ![Icono de información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Consulte [Información del componente](use-components-in-workspace.md#component-info) para obtener más información.
 
 
-
-## Uso de métricas en Analysis Workspace
-
-Las métricas son flexibles en su uso dentro de Analysis Workspace. Arrastre una métrica a una tabla de forma libre vacía para ver las tendencias de esa métrica durante el período de fecha del proyecto. También puede arrastrar una métrica cuando una dimensión esté presente para verla comparada con cada elemento de dimensión. Al arrastrar una métrica sobre un encabezado de métrica existente, se reemplaza y al arrastrar una métrica junto a un encabezado, puede ver ambas métricas en paralelo.
-
-Para obtener información acerca de cómo agregar métricas y otros tipos de componentes a Analysis Workspace, vea [Usar componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
 
 ## Métricas calculadas 
 
