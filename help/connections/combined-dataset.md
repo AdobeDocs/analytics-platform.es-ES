@@ -5,7 +5,7 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 8241bcc4a2653da456c1577eb95d5504ca118cd9
+source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 33%
@@ -67,7 +67,7 @@ el siguiente conjunto de datos combinado se utiliza para el sistema de informes.
 Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primer conjunto de datos, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos en la ruta de esquema `_experience.somethingelse.string_color`. En este escenario, los datos **no** se combinaron en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado son dos columnas `string_color` en el conjunto de datos combinado:
 
 | id | timestamp | _experience.<br/>lo que sea.<br/>color_cadena | _experience.<br/>algo más.<br/>color_cadena | string_animal | string_shape | metric_a | metric_b |
-| --- | --- | --- | --- | --- | --- | ---: | ---:|
+|---|---|---|---|---|---|---:|---:|
 | user_310 | 1 de enero a las 7:02 | Rojo | | Zorro | | | |
 | user_310 | 1 de enero a las 7:04 | | | | | 2 | |
 | user_310 | 1 de enero a las 7:08 | Azul | | | | 3 | |
