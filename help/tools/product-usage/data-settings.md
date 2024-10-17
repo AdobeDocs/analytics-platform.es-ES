@@ -3,10 +3,10 @@ title: Configuración de los datos de uso del producto
 description: Habilite, deshabilite o configure las opciones de uso del producto.
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 13%
+source-wordcount: '318'
+ht-degree: 14%
 
 ---
 
@@ -19,8 +19,7 @@ La página _Configuración de datos_ administra la configuración de uso del pro
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Uso del producto]** > **[!UICONTROL Configuración de datos]**
 
 >[!IMPORTANT]
->
->Al habilitar esta función, debe aceptar los términos y condiciones antes de utilizarla. Cuando acepta estos términos y condiciones, lo hace en nombre de toda la organización. La persona que acepta estos términos y condiciones posee la vista de datos creada automáticamente cuando se habilita esta función.
+>Al habilitar esta función, debe aceptar los términos y condiciones antes de utilizarla. Cuando acepta estos términos y condiciones, lo hace en nombre de toda la organización.
 
 Las siguientes configuraciones están disponibles en esta página:
 

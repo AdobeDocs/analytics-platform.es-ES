@@ -3,9 +3,9 @@ title: Información general de uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '336'
 ht-degree: 6%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 6%
 
 {{release-limited-testing}}
 
-El uso del producto permite a su organización ver datos de análisis sobre cómo utiliza su organización Customer Journey Analytics. Está disponible para todas las organizaciones que utilizan Customer Journey Analytics. Una vez activados, los siguientes componentes de Adobe Experience Platform se crean y conectan automáticamente:
+El uso del producto permite a su organización ver datos de análisis sobre cómo utiliza su organización Customer Journey Analytics. Está disponible para todas las organizaciones que utilizan Customer Journey Analytics. Una vez activados, los siguientes componentes de Adobe Experience Platform se crean y conectan automáticamente. Todos estos componentes son de propiedad del sistema, de solo lectura y no se pueden editar.
 
-* Un esquema en Adobe Experience Platform. Este esquema es de propiedad del sistema, de solo lectura y no se puede editar.
-* Un conjunto de datos en Adobe Experience Platform. Este conjunto de datos es de propiedad del sistema, de solo lectura y no se puede editar.
-* Una conexión en Customer Journey Analytics. Esta conexión es de propiedad del sistema, de solo lectura y no se puede editar.
-* Una vista de datos en Customer Journey Analytics. Puede editar esta vista de datos o crear más vistas de datos utilizando la conexión anterior. El propietario de la vista de datos es la persona que habilita el Uso del producto para su organización.
+* Un esquema en Adobe Experience Platform
+* Un conjunto de datos en Adobe Experience Platform
+* Una conexión en el Customer Journey Analytics
+* Una vista de datos en Customer Journey Analytics
 
 Toda la recopilación y configuración de datos se configura automáticamente una vez que se ha activado. Cada vez que un usuario realiza una acción en Analysis Workspace, esta se rastrea y está disponible para la creación de informes.
 
@@ -29,7 +29,7 @@ Toda la recopilación y configuración de datos se configura automáticamente un
 
 ## Dimensiones disponibles
 
-Al habilitar Uso del producto, están disponibles las siguientes dimensiones:
+Al habilitar Uso del producto, están disponibles las siguientes dimensiones. Si desea cambiar cualquier configuración de dimensión, cree una copia de la vista de datos propiedad del sistema y utilice la vista de datos copiada en Analysis Workspace.
 
 | Dimensión | Descripción |
 | --- | --- |
