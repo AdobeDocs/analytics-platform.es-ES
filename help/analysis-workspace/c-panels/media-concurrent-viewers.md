@@ -7,18 +7,18 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 36%
+ht-degree: 44%
 
 ---
 
-# Panel de visualizadores simultáneos de medios {#media-concurrent-viewers-panel}
+# Panel Visualizadores simultáneos de medios {#media-concurrent-viewers-panel}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaconcurrentviewers_button"
 >title="Espectadores simultáneos de medios"
->abstract="Cree un panel para analizar la audiencia media por minuto de contenido específico o durante un período de tiempo específico."
+>abstract="Cree un panel para analizar el público medio por minuto de contenido específico o durante un período de tiempo específico."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaconcurrentviewers_panel"
 >title="Espectadores simultáneos de medios"
->abstract="Analice los visualizadores simultáneos a lo largo del tiempo, vea la concurrencia máxima o desglose y compare.<br/><br>**Granularidad**: seleccione el período de tiempo en el que desea ver los visualizadores simultáneos.<br/>**Números de resumen del panel**:<br/>Opción para mostrar números de resumen con detalles de fecha u hora para cada línea. Máximo mostrará detalles para la concurrencia máxima. El mínimo mostrará detalles de la emisión.<br/>**Desglose de serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel."
+>abstract="Analice los visualizadores simultáneos a lo largo del tiempo, vea la concurrencia máxima o desglose y compare.<br/><br>**Granularidad**: seleccione el período de tiempo en el que desea ver los visualizadores simultáneos.<br/>**Números de resumen del panel**:<br/>opción para mostrar números de resumen con detalles de fecha u hora para cada línea. Máximo mostrará detalles para la concurrencia máxima. Mínimo mostrará los detalles de la emisión. <br/>**Desglose por serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Puede ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel."
 
 <!-- markdownlint-enable MD034 -->
 

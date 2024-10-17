@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 17%
+ht-degree: 32%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_area_button"
->title="Gráfico de áreas"
->abstract="Cree una visualización de gráfico de áreas para representar la intersección de varias métricas."
+>title="Gráfica de áreas"
+>abstract="Cree una visualización de gráfica de áreas para representar la intersección de varias métricas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ La visualización ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL A
 >[!CONTEXTUALHELP]
 >id="cja_workspace_areastacked_button"
 >title="Área apilada"
->abstract="Cree una visualización de gráfico de áreas para representar el apilamiento de varias métricas."
+>abstract="Cree una visualización de gráfica de áreas para representar el apilado de varias métricas."
 
 <!-- markdownlint-enable MD034 -->
 

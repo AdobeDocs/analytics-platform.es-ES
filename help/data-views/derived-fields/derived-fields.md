@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '8842'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields"
 >title="Campos derivados"
->abstract="Un campo derivado le permite definir manipulaciones de datos sobre la marcha, a través de un generador de reglas personalizable. A continuación, puede utilizar ese campo derivado como un componente (métrica o dimensión) en el espacio de trabajo o incluso definirlo como un componente en la vista de datos."
+>abstract="Un campo derivado permite definir manipulaciones de datos sobre la marcha, mediante un generador de reglas personalizable. A continuación, puede usar ese campo derivado como componente (métrica o dimensión) en Workspace o incluso definirlo como componente en la vista Datos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -403,7 +403,7 @@ Para cada función admitida, busque los detalles siguientes en:
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_casewhen"
 >title="Caso de que"
->abstract="Esta función proporciona la posibilidad de aplicar condicionales basados en los criterios definidos de uno o más campos. A continuación, estos criterios se utilizarán para definir los valores en el nuevo campo derivado basándose en la secuencia de las condiciones."
+>abstract="Esta función proporciona la capacidad de aplicar condiciones basadas en criterios definidos de uno o varios campos. Estos criterios se utilizan para definir los valores del nuevo campo derivado en función de la secuencia de las condiciones."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -643,7 +643,7 @@ Las siguientes restricciones se aplican y se aplican al *seleccionar* y *estable
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_classify"
 >title="Clasificar"
->abstract="Esta función proporciona la posibilidad de definir un conjunto de valores que se sustituyen por los valores correspondientes mediante la entrada de texto."
+>abstract="Esta función proporciona la capacidad de definir un conjunto de valores que se sustituyen por los valores correspondientes mediante la entrada de texto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -788,7 +788,7 @@ La siguiente funcionalidad adicional está disponible en la interfaz de reglas d
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_concatenate"
 >title="Concatenar"
->abstract="Esta función proporciona la posibilidad de combinar dos o más campos, campos derivados o valores introducidos por el usuario en un solo campo con delimitadores definidos"
+>abstract="Esta función proporciona la capacidad de combinar dos o más campos, campos derivados o valores de cadena introducidos por el usuario en un único campo con delimitadores definidos"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -875,7 +875,7 @@ Usted define un campo derivado de `Origin - Destination`. Utiliza la función [!
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_deduplicate"
 >title="Deduplicar"
->abstract="Esta función permite configurar un campo para que solo cuente valores de forma no repetitiva, ya sea en el ámbito de una sesión o de una persona. Además, se puede utilizar un ID de anulación de duplicación para garantizar que, en función de un ID determinado (como un ID de compra), solo se utilice un valor (ya sea la primera instancia o la última)."
+>abstract="Esta función proporciona la capacidad de configurar un campo para que solo cuente los valores de forma no repetitiva en el nivel de sesión o de persona. Además, se puede utilizar un ID de anulación de duplicación para garantizar que, en función de un ID determinado (como un ID de compra), solo se emplee un valor (la primera instancia o la última)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -970,7 +970,7 @@ Usted define un nuevo campo derivado de `Tracking Code (deduplicated)`. Utiliza 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_findandreplace"
 >title="Buscar y reemplazar"
->abstract="Esta función proporciona la posibilidad de buscar todos los valores de un campo seleccionado y reemplazar esos valores por un valor diferente en un nuevo campo derivado."
+>abstract="Esta función proporciona la capacidad de buscar todos los valores de un campo seleccionado y reemplazarlos con un valor diferente en un nuevo campo derivado."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1050,7 +1050,7 @@ Usted define un campo derivado de `Email Marketing (updated)`. Utiliza la funci�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_lookup"
 >title="Búsqueda"
->abstract="Esta función ofrece la posibilidad de utilizar campos de un conjunto de datos de búsqueda usando una clave de correspondencia entre conjuntos de datos."
+>abstract="Esta función proporciona la capacidad de utilizar campos de un conjunto de datos de búsqueda mediante una clave coincidente entre conjuntos de datos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1172,7 +1172,7 @@ Usted define un campo derivado de `Product Names`. Utilice la función [!UICONTR
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_math"
 >title="Math"
->abstract="Esta función permite realizar operaciones matemáticas en un campo. La función puede utilizarse para realizar operaciones aritméticas básicas, como sumas, restas, multiplicaciones y divisiones."
+>abstract="Esta función proporciona la capacidad de realizar operaciones matemáticas en un campo. La función se puede aprovechar para realizar operaciones aritméticas básicas, como suma, resta, multiplicación y división."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1263,7 +1263,7 @@ Utilice la función Math para cálculos basados en el nivel de visita. Utilice l
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_mergefields"
 >title="Combinar campos"
->abstract="Esta función proporciona la posibilidad de tomar valores de dos campos diferentes e incluir sus valores respectivos en una sola dimensión. La primera regla comprueba si se ha establecido el primer valor. En caso contrario, usará el segundo valor y así sucesivamente."
+>abstract="Esta función proporciona la capacidad de tomar valores de dos campos diferentes e incluir sus valores respectivos en una sola dimensión. La regla comprueba primero si se ha establecido el primer valor. Si no, utilizará el segundo valor y así sucesivamente."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1414,14 +1414,14 @@ Solo puede seleccionar campos que pertenezcan a la tabla Visita o Evento.
 
 <!-- REGEX REPLACE -->
 
-### Reemplazar Regex {#regex-replace}
+### Reemplazo de regex {#regex-replace}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_regexreplace"
->title="Reemplazar Regex"
->abstract="Esta función permite extraer partes de una cadena utilizando expresiones regulares."
+>title="Reemplazo de regex"
+>abstract="Esta función proporciona la capacidad de extraer partes de una cadena mediante expresiones regulares."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1528,7 +1528,7 @@ Puede utilizar estas secuencias en el [!UICONTROL Formato de salida] cualquier n
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_split"
 >title="Split"
->abstract="Esta función permite dividir un campo en varios campos en función de un delimitador."
+>abstract="Esta función proporciona la capacidad de dividir un campo en varios campos en función de un delimitador."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1630,7 +1630,7 @@ Cree un campo derivado de `Second Response` para tomar el último valor del camp
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_summarize"
 >title="Resumir"
->abstract="Esta función permite agregar valores en el ámbito de un evento, una sesión o una persona. Dependiendo del tipo de campo correspondiente al campo de selección, estarán disponibles diferentes opciones."
+>abstract="Esta función proporciona la capacidad de acumular valores en el nivel de evento, sesión o persona. Según el tipo de campo del campo seleccionado, habrá diferentes opciones disponibles."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1708,7 +1708,7 @@ Utilice la función Resumir para cálculos basados en eventos, sesiones o person
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_trim"
 >title="Recortar"
->abstract="Esta función ofrece la posibilidad de recortar espacios en blanco o caracteres especiales del principio o del final de una cadena. También ofrece la posibilidad de especificar el número de caracteres que se utilizarán para el valor devuelto, ya sea del principio o del final de la cadena."
+>abstract="Esta función proporciona la capacidad de recortar espacios en blanco o caracteres especiales desde el principio o el final de una cadena. También la capacidad de especificar el número de caracteres que se utilizarán para el valor devuelto, ya sea desde el principio o el final de la cadena."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1830,7 +1830,7 @@ Crea un campo derivado de `Store Identifier`. Utiliza la función [!UICONTROL TR
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_urlparse"
 >title="Análisis de URL"
->abstract="Esta función proporciona la capacidad de analizar diferentes partes de una URL, incluidos los parámetros de host, ruta o consulta."
+>abstract="Esta función proporciona la capacidad de analizar diferentes partes de una URL, incluidos el host, la ruta o los parámetros de consulta."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1936,7 +1936,7 @@ Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en g
 | <p>Math</p> | <ul><li>25 operaciones por campo derivado</li><li>5 funciones matemáticas por campo derivado</li></ul> |
 | <p>Combinar campos</p> | <ul><li>2 funciones Combinar campos por campo derivado</li></ul> |
 | <p>Siguiente o anterior</p> | <ul><li>3 Funciones Siguiente o Anterior por campo derivado</li></ul> |
-| <p>Reemplazar Regex</p> | <ul><li>1 función Regex Replace por campo derivado</li></ul> |
+| <p>Reemplazo de regex</p> | <ul><li>1 función Regex Replace por campo derivado</li></ul> |
 | <p>Split</p> | <ul><li>5 Funciones divididas por campo derivado</li></ul> |
 | <p>Resumir</p> | <ul><li>3 Funciones de resumen por campo derivado</li></ul> |
 | <p>Recortar</p> | <ul><li>1 función Recortar por campo derivado</li></ul> |

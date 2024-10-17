@@ -7,7 +7,7 @@ exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_project_addnotes"
->title="Agregar notas"
->abstract="Agregue notas sobre la versión del proyecto que está guardando. Estas notas se almacenarán con la versión y se podrá acceder a ellas desde el menú **[!UICONTROL Proyecto]** > **[!UICONTROL Abrir versión anterior]**."
+>title="Adición de notas"
+>abstract="Añada notas sobre la versión del proyecto que guarda. Estas notas se almacenarán con la versión y se podrá acceder a ellas desde el menú **[!UICONTROL Proyecto]** > **[!UICONTROL Abrir versión anterior]**."
 
 <!-- markdownlint-enable MD034 -->
 

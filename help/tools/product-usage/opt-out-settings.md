@@ -6,7 +6,7 @@ hidefromtoc: true
 source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -28,4 +28,4 @@ El Adobe de utiliza una combinación de seguimiento del lado del cliente y del l
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_opt_out_settings"
 >title="Exclusión de usuarios"
->abstract="Excluir usuarios del seguimiento del uso del producto."
+>abstract="Excluya usuarios del seguimiento del uso del producto."

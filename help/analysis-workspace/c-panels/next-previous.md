@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 6%
+ht-degree: 31%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_nextorpreviousitem_panel"
->title="Anidar o elemento anterior"
->abstract="Analice cuáles son los lugares más comunes de los que salieron o de los que visitaron anteriormente.<br/><br/>**Dimension**: seleccione una dimensión. Por ejemplo **Página**.<br/>**elemento de Dimension**: seleccione un elemento de dimensión específico. Por ejemplo **Página principal**.<br/>**Dirección**: Seleccione **Siguiente** para ver los elementos de dimensión que aparecen inmediatamente después del elemento de dimensión seleccionado. Seleccione **Anterior** para ver los elementos de dimensión que conducen al elemento de dimensión seleccionado.<br/>**Contenedor**: seleccione **Sesión** para ver los elementos de dimensión siguientes o anteriores de la misma sesión, o seleccione **Persona** para ver el elemento de dimensión siguiente o anterior de la misma persona."
+>title="Elemento siguiente o anterior"
+>abstract="Analice cuáles son los lugares más habituales de los que proceden o a los que se dirigen los visitantes.<br/><br/>**Dimensión**: seleccione una dimensión. Por ejemplo, **Página**.<br/>**Elemento de dimensión**: seleccione un elemento de dimensión específico. Por ejemplo, **Página principal**.<br/>**Dirección**: seleccione **Siguiente** para ver los elementos de dimensión que aparecen justo después del elemento de dimensión seleccionado. Seleccione **Anterior** para ver los elementos de dimensión que conducen al elemento de dimensión seleccionado.<br/>**Contenedor**: seleccione **Sesión** para ver los elementos de dimensión siguientes o anteriores de la misma sesión, o **Persona** para ver el elemento de dimensión siguiente o anterior de la misma persona."
 
 <!-- markdownlint-enable MD034 -->
 

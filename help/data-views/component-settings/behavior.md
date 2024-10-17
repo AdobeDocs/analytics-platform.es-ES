@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_behavior"
 >title="Comportamiento"
->abstract="Determine cómo se agregan los elementos de línea de esta dimensión.<br/><br/>**Parámetros **<br/>**Minúsculas**: Permite especificar si los valores de cadena del campo deben estar en minúsculas."
+>abstract="Determine cómo se añaden los elementos de línea de esta dimensión.<br/><br/>**Parámetros **<br/>**Minúsculas**: permite especificar si los valores de cadena del campo deben estar en minúsculas."
 
 <!-- markdownlint-enable MD034 -->
 

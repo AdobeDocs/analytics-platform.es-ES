@@ -8,7 +8,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '3466'
-ht-degree: 73%
+ht-degree: 77%
 
 ---
 
@@ -45,7 +45,7 @@ Las preferencias generales se aplican a su experiencia de Customer Journey Analy
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_shareonlyworkspace"
 >title="Permitir compartir solo con usuarios de Workspace"
->abstract="Cuando está habilitada, la opción **[!UICONTROL Compartir con cualquiera]** ya no está disponible para los usuarios cuando comparten un proyecto de Analysis Workspace. Las personas que anteriormente recibieron acceso a un proyecto mediante esta opción de uso compartido ya no pueden acceder al proyecto."
+>abstract="Cuando está habilitada, la opción **[!UICONTROL Compartir con cualquiera]** ya no está disponible para los usuarios cuando comparten un proyecto de Analysis Workspace. Las personas que recibieron con anterioridad acceso a un proyecto mediante esta opción de uso compartido ya no pueden acceder a él."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,7 +54,7 @@ Las preferencias generales se aplican a su experiencia de Customer Journey Analy
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_requireexperiencecloudauth"
 >title="Requiere autenticación de Experience Cloud"
->abstract="Cuando está habilitado, las personas que reciban acceso a un proyecto desde la opción Compartir con cualquiera de Analysis Workspace deben autenticarse con sus credenciales de Experience Cloud."
+>abstract="Cuando está habilitada, las personas que tienen acceso a un proyecto desde la opción Compartir con cualquiera de Analysis Workspace deben autenticarse mediante sus credenciales de Experience Cloud."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +65,7 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 | --- | --- | --- |
 | **Uso compartido de proyectos** | | |
 | | Permitir compartir solo con usuarios de Workspace | Si se habilita esta opción, los usuarios de su organización no podrán ver la opción **[!UICONTROL Compartir con nadie]** en el menú **[!UICONTROL Compartir]**. Esto significa que no se pueden compartir proyectos con personas que no tengan una cuenta de Analysis Workspace en su organización tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).<br/>Esta opción está deshabilitada de manera predeterminada para todas las organizaciones (lo que significa que los usuarios pueden compartir proyectos con personas fuera de la organización) excepto para los clientes que tengan licencia de Healthcare Shield. <p>Tenga en cuenta lo siguiente al activar o desactivar esta opción:<ul><li>Cuando habilita esta opción, las personas que anteriormente recibieron acceso a un proyecto a través de la opción de uso compartido [!UICONTROL Compartir con cualquiera] ya no podrán obtener acceso al proyecto.</li><li>Si esta opción está habilitada (para permitir el uso compartido solo con usuarios de Workspace) y luego deshabilitada (para permitir el uso compartido con cualquier persona), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con cualquiera] no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que compartió el proyecto debe habilitar la opción [!UICONTROL **Vínculo activo**] que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquier persona]**), tal como se describe en [Compartir un proyecto con cualquier persona (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).</li><li>**Para los clientes que tengan licencia de Healthcare Shield:** esta opción está habilitada de forma predeterminada y no se puede deshabilitar. Antes de deshabilitar esta opción para que los usuarios puedan usar la opción para compartir [!UICONTROL Compartir con cualquiera], primero debe agregar el permiso [!UICONTROL Compartir vínculos de proyectos con cualquiera] (ubicado en [!UICONTROL Herramientas de informes]) en Adobe Admin Console. Una vez añadido el permiso, puede deshabilitar esta opción y aceptar el aviso legal resultante. Para obtener información sobre cómo añadir un permiso en Admin Console, consulte [Administración de permisos de productos en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Requiere autenticación de Experience Cloud | Cuando está habilitado, las personas que reciban acceso a un proyecto desde la opción Compartir con cualquiera de Analysis Workspace deben autenticarse con sus credenciales de Experience Cloud.<p>Una vez habilitada esta opción, cada vez que un usuario comparta un proyecto con la opción de uso compartido [!UICONTROL Compartir con alguien], se habilitará la opción [!UICONTROL Requerir autenticación de Experience Cloud] en el cuadro de diálogo de uso compartido y el usuario que comparte el proyecto no podrá deshabilitarla. Para obtener información sobre cómo los usuarios pueden compartir proyectos con cualquiera, vea [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md). <p> <p>Tenga en cuenta lo siguiente al habilitar esta opción: <ul><li>Cuando habilita esta opción, se desactivan todos los proyectos que se compartieron anteriormente con la opción de uso compartido [!UICONTROL Compartir con cualquiera] y que no tienen habilitada la opción [!UICONTROL Requerir autenticación de Experience Cloud].<p>Si esta opción está habilitada (para requerir autenticación de Experience Cloud) y luego deshabilitada (para permitir que cualquier persona con el vínculo tenga acceso al proyecto), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con cualquiera] no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que compartió el proyecto debe habilitar la opción [!UICONTROL El vínculo está activo]*que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]** > **[!UICONTROL El vínculo está activo]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulte [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).</p><p>Si SSO está configurado para su organización, compruebe si se ha implementado algún tipo de creación de cuenta automática en la consola. Normalmente, un administrador del sistema configuraría esto, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/es/enterprise/using/automatic-account-creation.html).</li><li>Si su organización dispone de licencias para Healthcare Shield, esta opción está habilitada de forma predeterminada y no se puede deshabilitar.</li></ul> |
+| | Requiere autenticación de Experience Cloud | Cuando está habilitada, las personas que tienen acceso a un proyecto desde la opción Compartir con cualquiera de Analysis Workspace deben autenticarse mediante sus credenciales de Experience Cloud.<p>Una vez habilitada esta opción, cada vez que un usuario comparta un proyecto con la opción de uso compartido [!UICONTROL Compartir con alguien], se habilitará la opción [!UICONTROL Requerir autenticación de Experience Cloud] en el cuadro de diálogo de uso compartido y el usuario que comparte el proyecto no podrá deshabilitarla. Para obtener información sobre cómo los usuarios pueden compartir proyectos con cualquiera, vea [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md). <p> <p>Tenga en cuenta lo siguiente al habilitar esta opción: <ul><li>Cuando habilita esta opción, se desactivan todos los proyectos que se compartieron anteriormente con la opción de uso compartido [!UICONTROL Compartir con cualquiera] y que no tienen habilitada la opción [!UICONTROL Requerir autenticación de Experience Cloud].<p>Si esta opción está habilitada (para requerir autenticación de Experience Cloud) y luego deshabilitada (para permitir que cualquier persona con el vínculo tenga acceso al proyecto), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con cualquiera] no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que compartió el proyecto debe habilitar la opción [!UICONTROL El vínculo está activo]*que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]** > **[!UICONTROL El vínculo está activo]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulte [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).</p><p>Si SSO está configurado para su organización, compruebe si se ha implementado algún tipo de creación de cuenta automática en la consola. Normalmente, un administrador del sistema configuraría esto, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/es/enterprise/using/automatic-account-creation.html).</li><li>Si su organización dispone de licencias para Healthcare Shield, esta opción está habilitada de forma predeterminada y no se puede deshabilitar.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -77,7 +77,7 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_categoricalpalette"
 >title="Paleta categórica"
->abstract="Se aplica a numerosas visualizaciones de Analysis Workspace y análisis guiado. Cada color representa un valor categórico distinto."
+>abstract="Se aplica a muchas visualizaciones de Analysis Workspace y al análisis guiado. Cada color representa un valor categórico distinto. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -86,7 +86,7 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_divergingpalette"
 >title="Paleta divergente"
->abstract="Se aplica a la tabla Cohorte de Analysis Workspace y análisis guiado por el crecimiento del usuario. Esta paleta tiene un significado numérico con dos extremos y una línea de base en el medio."
+>abstract="Se aplica a la tabla de cohortes en Analysis Workspace y al análisis guiado de crecimiento de usuarios. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_sequentialpalette"
 >title="Paleta secuencial"
->abstract="Se aplica al análisis guiado por Tendencias de frecuencia (barra apilada). Esta paleta tiene un significado numérico de claro a oscuro."
+>abstract="Se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -126,7 +126,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_showanomalies"
 >title="Mostrar anomalías"
->abstract="Si se selecciona **[!UICONTROL Mostrar anomalías]**, se ejecutará automáticamente la detección de anomalías en la primera columna de métrica agregada a una visualización de tabla de forma libre de series temporales."
+>abstract="Si se selecciona **[!UICONTROL Mostrar anomalías]**, se ejecutará automáticamente la detección de anomalías en la primera columna de métrica añadida a una visualización de tabla de forma libre de una serie temporal."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -135,7 +135,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_showforecast"
 >title="Mostrar previsión"
->abstract="Si se selecciona **[!UICONTROL Mostrar previsión]**, se pronosticará automáticamente la primera columna de métrica agregada a una visualización de tabla de forma libre de series temporales."
+>abstract="Si se selecciona **[!UICONTROL Mostrar previsión]**, se pronosticará automáticamente la primera columna de métrica añadida a una visualización de tabla de forma libre de una serie temporal."
 
 <!-- markdownlint-enable MD034 -->
 

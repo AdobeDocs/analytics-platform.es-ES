@@ -7,7 +7,7 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 11%
+ht-degree: 36%
 
 ---
 
@@ -31,13 +31,13 @@ Esta visualización de ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizont
 
 ![Barra horizontal que muestra métricas como Vistas de página, Velocidad de página, Visitas, Entradas y Salidas.](assets/horizontal-bar.png)
 
-## Barra horizontal apilada {#horizontal-bar-stacked}
+## Barras horizontales apiladas {#horizontal-bar-stacked}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_horizontalbarstacked_button"
->title="Barra horizontal apilada"
+>title="Barras horizontales apiladas"
 >abstract="Cree una visualización de barras horizontales para representar varios valores en una o varias métricas apiladas."
 
 <!-- markdownlint-enable MD034 -->

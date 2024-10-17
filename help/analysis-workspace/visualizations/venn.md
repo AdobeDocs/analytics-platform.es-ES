@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 17%
+ht-degree: 30%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_venn_button"
 >title="Venn"
->abstract="Cree una visualización de gráfico de Venn para comparar rápidamente visualmente dos elementos y el tamaño de su superposición."
+>abstract="Cree una visualización de gráfico de Venn para comparar de forma rápida y visual dos elementos y el tamaño de su superposición."
 
 <!-- markdownlint-enable MD034 -->
 

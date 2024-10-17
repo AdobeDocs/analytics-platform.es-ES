@@ -7,7 +7,7 @@ role: User
 source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 21%
+ht-degree: 53%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_flow_panel"
 >title="Flujo"
->abstract="Analice el flujo de visitas o visitantes de un punto de contacto al siguiente.<br/><br/>**Parámetros **<br/>**Comienza con**: Agregue una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales después de la aparición del componente seleccionado.<br/>**Contiene**: agregue una dimensión o elemento de dimensión para ver los puntos de contacto principales antes y después de la aparición del componente seleccionado.<br/>**Termina con**: agregue una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales antes de la aparición del componente seleccionado.<br/>**Dimensión de las rutas**: Agregue una dimensión para usarla como ruta de acceso o de salida del componente seleccionado."
+>abstract="Analice el flujo de visitas o visitantes de un punto de contacto al siguiente.<br/><br/>**Parámetros **<br/>**Comienza por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales después de la ocurrencia del componente seleccionado.<br/>**Contiene**: añada una dimensión o elemento de dimensión para ver los puntos de contacto principales antes y después de la ocurrencia del componente seleccionado.<br/>**Acaba por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales antes de la ocurrencia del componente seleccionado.<br/>**Dimensión de las rutas**: añada una dimensión para usarla como ruta de acceso o de salida del componente seleccionado."
 
 <!-- markdownlint-enable MD034 -->
 

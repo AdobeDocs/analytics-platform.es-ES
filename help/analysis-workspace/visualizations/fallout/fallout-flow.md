@@ -7,7 +7,7 @@ role: User
 source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_fallout_button"
 >title="Visita en orden previsto"
->abstract="Crea una visualización para ver cómo se accede correctamente a los puntos de comprobación deseados."
+>abstract="Crea una visualización para ver cómo se accede de forma correcta a los puntos de comprobación deseados."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 23%
+ht-degree: 64%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_goalvalue"
 >title="Valor de meta"
->abstract="**[!UICONTROL Meta alta]** es el objetivo principal que busca. **[!UICONTROL Meta baja]** y **[!UICONTROL Meta media]** crean intervalos por debajo de la [!UICONTROL Meta alta]. Nota: cuando la opción **[!UICONTROL Porcentajes]** esté marcada, escribe las metas como números enteros. Por ejemplo: `20` si su objetivo es el veinte por ciento."
+>abstract="**[!UICONTROL Meta alta]** es el objetivo principal que busca. **[!UICONTROL Meta baja]** y **[!UICONTROL Meta media]** crean intervalos por debajo de la [!UICONTROL Meta alta]. Nota: Cuando la opción **[!UICONTROL Porcentajes]** esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ Puede definir una configuración específica para una visualización de [!UICONT
 
 | Configuración | Descripción |
 |---|---|
-| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta ]**es el objetivo principal que busca.**[!UICONTROL  Meta baja ]**y**[!UICONTROL  Meta media ]**crean intervalos por debajo de la Meta alta. Nota: cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escribe las metas como números enteros. Por ejemplo: `20` si su objetivo es el veinte por ciento. |
+| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta ]**es el objetivo principal que busca.**[!UICONTROL  Meta baja ]**y**[!UICONTROL  Meta media ]**crean intervalos por debajo de la Meta alta. Nota: Cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
 
 >[!MORELIKETHIS]
 >

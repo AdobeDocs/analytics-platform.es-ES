@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_settings"
 >title="Configuración de componentes"
->abstract="Vea y configure el nombre, la descripción y otras configuraciones relacionadas con un componente.<br/><br/>**Parámetros **<br/>**Ocultar componente en informes**: si activa esta casilla, se ocultará este componente a los usuarios que no sean administradores en los informes. Los administradores aún pueden acceder a él seleccionando **[!UICONTROL Mostrar todos los componentes]** en un proyecto de Workspace."
+>abstract="Vea y configure el nombre, la descripción y otras opciones de configuración relacionadas con un componente.<br/><br/>**Parámetros **<br/>**Ocultar componente en informes**: si activa esta casilla, se ocultará este componente a los usuarios que no sean administradores en la creación de informes. Los administradores aún pueden acceder a él haciendo clic en **[!UICONTROL Mostrar todos los componentes]** en un proyecto de Workspace."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_contextlabels"
 >title="Etiquetas de contexto"
->abstract="La eliminación de una etiqueta de contexto puede afectar a paneles o informes específicos donde se requiera el componente."
+>abstract="La eliminación de una etiqueta de contexto puede afectar a paneles o informes específicos donde se requiere el componente."
 
 <!-- markdownlint-enable MD034 -->
 

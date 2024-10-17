@@ -7,7 +7,7 @@ role: User
 source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
 source-wordcount: '1948'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_components_audiences_refreshfrequency"
 >title="Frecuencia de actualización"
->abstract="Vea la frecuencia con la que se reevalúa la membresía de una audiencia.<br/>Las audiencias únicas solo se evalúan una vez."
+>abstract="Vea la frecuencia con la que se reevalúa el abono de un público.<br/>Los públicos únicos solo se evalúan una vez."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="cja_components_audiences_audiencelimit"
->title="Límite de audiencia"
->abstract="Las audiencias actualizadas están limitadas a la frecuencia con la que se actualizan."
+>title="Límite de público"
+>abstract="Los públicos actualizados están limitados a la frecuencia con la que se actualizan."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_component_audiences_refreshlookbackwindow"
 >title="Actualizar ventana de retrospección"
->abstract="Defina el número de días de retrospectiva a partir de hoy en los que se evaluará a una audiencia."
+>abstract="Defina el número de días de retrospectiva a partir de hoy en los que se evaluará a un público."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,8 +44,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="cja_component_audiences_audiencesizelimit"
->title="Límite de tamaño de audiencia"
->abstract="Las audiencias no pueden exceder un tamaño de 20 millones de miembros."
+>title="Límite de tamaño de público"
+>abstract="Los públicos no pueden exceder un tamaño de 20 millones de miembros."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,7 +54,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_component_audiences_namespacesincluded"
 >title="Espacios de nombres incluidos"
->abstract="Las identidades en esta audiencia se comprenden en los espacios de nombres a continuación."
+>abstract="Las identidades de este público se comprenden en los espacios de nombres a continuación."
 
 <!-- markdownlint-enable MD034 -->
 

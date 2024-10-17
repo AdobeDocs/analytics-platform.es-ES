@@ -1,5 +1,5 @@
 ---
-title: Resumen de tabla de cohorte
+title: Información general sobre la tabla de cohortes
 description: Aprenda a utilizar una tabla de cohorte para el análisis de cohorte en Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
@@ -7,18 +7,18 @@ role: User
 source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 25%
+ht-degree: 37%
 
 ---
 
-# Resumen de tabla de cohorte {#cohort-table-overview}
+# Información general sobre la tabla de cohortes {#cohort-table-overview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_cohorttable_button"
 >title="Tabla de cohortes"
->abstract="Cree una visualización de cohorte para agrupar usuarios en función de la finalización de un evento, y analice la participación en curso y la pérdida a lo largo del tiempo."
+>abstract="Cree una visualización de cohorte para agrupar usuarios en función de la finalización de un evento y analice la participación en curso y las cancelaciones a lo largo del tiempo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_cohorttable_panel"
 >title="Tabla de cohortes"
->abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación actual y la pérdida a lo largo del tiempo.<br/><br/>**Parámetros **<br/>**Criterios de inclusión**: Los componentes utilizados para definir las cohortes de visitantes iniciales.<br/>**Criterios de retorno**: Los componentes utilizados para determinar si un visitante ha regresado."
+>abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación actual y las cancelaciones a lo largo del tiempo.<br/><br/>**Parámetros **<br/>**Criterios de inclusión**: los componentes utilizados para definir las cohortes de visitantes iniciales.<br/>**Criterios de retorno**: los componentes utilizados para determinar si un visitante ha regresado."
 
 <!-- markdownlint-enable MD034 -->
 

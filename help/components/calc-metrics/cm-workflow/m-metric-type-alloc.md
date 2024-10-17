@@ -6,7 +6,7 @@ exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 23%
+ht-degree: 39%
 
 ---
 
@@ -86,7 +86,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_linear"
 >title="Lineal"
->abstract="El crédito se distribuye uniformemente en todos los valores de dimensión."
+>abstract="El crédito se distribuye de manera uniforme en todos los valores de dimensión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_participation"
 >title="Participación"
->abstract="100% de crédito a cada valor de dimensión visto por un visitante.<br/>Los totales de columna están sobreestimados."
+>abstract="100 % de crédito a cada valor de dimensión visto por un visitante.<br/>Los totales de columna están sobreestimados."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,7 +112,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_ushaped"
->title="En forma de U"
+>title="Forma de U"
 >abstract="40 % de crédito al primer valor de dimensión, 40 % al último, 20 % compartido por el medio."
 
 <!-- markdownlint-enable MD034 -->
@@ -140,7 +140,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_timedecay"
 >title="Deterioro de tiempo"
->abstract="Los valores de Dimension más cercanos en el tiempo a una conversión obtienen la mayor cantidad de crédito."
+>abstract="Los valores de dimensión más cercanos en el tiempo a una conversión obtienen la mayor cantidad de crédito."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -158,7 +158,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_algorithmic"
 >title="Algorítmico"
->abstract="El crédito se determina dinámicamente mediante un algoritmo estadístico."
+>abstract="El crédito se determina de forma dinámica mediante un algoritmo estadístico."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -173,7 +173,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_lookbackwindow"
 >title="Ventana retroactiva"
->abstract="Esta configuración determina la ventana de atribución de datos que se aplicará a cada conversión."
+>abstract="Este ajuste determina la ventana de atribución de datos que se aplicará a cada conversión."
 
 <!-- markdownlint-enable MD034 -->
 

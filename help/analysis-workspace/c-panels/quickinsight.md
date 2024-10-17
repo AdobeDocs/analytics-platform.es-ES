@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_quickinsights_button"
->title="Quick insights"
->abstract="Cree un panel para crear rápidamente una tabla de forma libre y una visualización adjunta para analizar y descubrir información de manera más rápida."
+>title="Información rápida"
+>abstract="Cree un panel para generar con rapidez una tabla de forma libre y una visualización adjunta para analizar y descubrir información de manera más rápida."
 
 <!-- markdownlint-enable MD034 -->
 

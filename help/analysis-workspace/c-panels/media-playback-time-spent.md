@@ -7,7 +7,7 @@ role: User
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 41%
+ht-degree: 54%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 41%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaplaybacktimespent_button"
->title="Tiempo invertido en la reproducción de contenido"
+>title="Tiempo invertido en la reproducción de medios"
 >abstract="Cree un panel para analizar el consumo de vídeo a lo largo del tiempo, con varios niveles de granularidad, y la capacidad de realizar desgloses y comparaciones."
 
 <!-- markdownlint-enable MD034 -->
@@ -26,8 +26,8 @@ ht-degree: 41%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaplaybacktimespent_panel"
->title="Tiempo invertido en la reproducción de contenido"
->abstract="Analice el consumo de vídeo a lo largo del tiempo, seleccione varias granularidades, desglose y compare.<br/><br/>**Granularidad**: seleccione el período de tiempo en el que desea ver los visualizadores simultáneos.<br/>**Números de resumen del panel (opcional)**: opción para mostrar números de resumen con detalles de fecha u hora para cada línea. El máximo mostrará detalles del tiempo máximo de reproducción consumido. El mínimo mostrará detalles de la emisión. La suma muestra detalles de la suma total de tiempo de reproducción transcurrido.<br/>**Desglose de serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel.<br/>**Formato de hora**: opción para mostrar el formato de hora de las visualizaciones en horas o minutos."
+>title="Tiempo invertido en la reproducción de medios"
+>abstract="Analice el consumo de vídeo a lo largo del tiempo, seleccione varias granularidades, desglose y compare.<br/><br/>**Granularidad**: seleccione el período de tiempo en el que desea ver los visualizadores simultáneos.<br/>**Números de resumen del panel (opcional)**: opción para mostrar números de resumen con detalles de fecha u hora para cada línea. Máximo mostrará detalles del tiempo máximo de reproducción consumido. Mínimo mostrará los detalles de la emisión. La suma muestra detalles de la suma total de tiempo de reproducción transcurrido.<br/>**Desglose por serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Puede ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel.<br/>**Formato de hora**: opción para mostrar el formato de hora de las visualizaciones en horas o minutos."
 
 <!-- markdownlint-enable MD034 -->
 

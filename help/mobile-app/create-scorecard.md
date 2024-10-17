@@ -8,7 +8,7 @@ solution: Customer Journey Analytics
 source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
 source-wordcount: '2672'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="cja_mobilescorecard_annotations"
 >title="Anotaciones"
->abstract="Las anotaciones se pueden crear en el administrador de componentes de dentro de un proyecto de Workspace."
+>abstract="Las anotaciones se pueden crear en el administrador de componentes de dentro de un proyecto de espacio de trabajo."
 
 <!-- markdownlint-enable MD034 -->
 

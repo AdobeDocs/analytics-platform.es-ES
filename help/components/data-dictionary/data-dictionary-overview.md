@@ -7,7 +7,7 @@ exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 69%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="cja_component_datadictionary"
 >title="Diccionario de datos"
->abstract="El diccionario de datos ayuda tanto a los usuarios como a los administradores de y a realizar un seguimiento de los componentes de su entorno de Analytics y a entenderlos mejor. <br/>Los administradores de Analytics son responsables de revisar información acerca de cada componente del diccionario de datos para los usuarios."
+>abstract="El diccionario de datos ayuda tanto a los usuarios como a los administradores a hacer un seguimiento de los componentes en su entorno de Analytics y a comprenderlos mejor. <br/>Los administradores de Analytics son responsables de seleccionar la información sobre cada componente en el Diccionario de datos para los usuarios."
 
 <!-- markdownlint-enable MD034 -->
 

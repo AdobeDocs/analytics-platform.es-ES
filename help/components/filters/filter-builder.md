@@ -1,24 +1,24 @@
 ---
 description: El Generador de filtros proporciona un lienzo al que arrastrar y en el que soltar los Dimension de métricas, los filtros y los eventos para filtrar a las personas en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar filtros simples o complejos que identifican atributos y acciones de personas en visitas y eventos.
-title: Generar filtros
+title: Generación de filtros
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
 source-wordcount: '1450'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Generar filtros {#build-filters}
+# Generación de filtros {#build-filters}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_createaudience"
->title="Crear audiencia"
->abstract="Las audiencias se pueden crear a partir de un filtro y compartir con Adobe Experience Platform para su activación."
+>title="Creación de públicos"
+>abstract="Los públicos se pueden crear a partir de un filtro y compartirse con Adobe Experience Platform para su activación."
 
 <!-- markdownlint-enable MD034 -->
 

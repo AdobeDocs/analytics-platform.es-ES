@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_includeexcludevalues"
 >title="Incluir/excluir valores"
->abstract="Limite una dimensión para incluir solo valores que coincidan con criterios específicos. Las inclusiones y exclusiones ocurren antes de la asignación y los filtros en los informes.<br/><br/>**Parámetros **<br/>**Distinguen entre mayúsculas y minúsculas**: determine si la lógica de filtro siguiente distingue entre mayúsculas y minúsculas."
+>abstract="Limite una dimensión para incluir solo valores que coincidan con criterios específicos. Las inclusiones y exclusiones ocurren antes de la asignación y los filtros en los informes.<br/><br/>**Parámetros **<br/>**Con distinción de mayúsculas y minúsculas**: determine si la lógica de filtro siguiente distingue entre mayúsculas y minúsculas."
 
 <!-- markdownlint-enable MD034 -->
 

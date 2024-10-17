@@ -19,7 +19,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_substring"
 >title="Subcadena"
->abstract="Extraer partes de una cadena utilizando reglas o expresiones regulares."
+>abstract="Extraiga partes de una cadena utilizando reglas o expresiones regulares."
 
 <!-- markdownlint-enable MD034 -->
 

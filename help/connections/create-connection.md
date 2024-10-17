@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '3526'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsadded"
 >title="Registros añadidos"
->abstract="El número de registros (filas) agregados a una Conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
+>abstract="El número de registros (filas) añadidos a una Conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connection_lastadded"
 >title="Última incorporación"
->abstract="La marca de tiempo del último lote de cualquier conjunto de datos se ha transferido a una conexión."
+>abstract="La marca de tiempo del último lote de cualquier conjunto de datos transferido a una Conexión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,8 +54,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_enablerollingdatawindow"
->title="Habilitar la ventana de datos acumulados"
->abstract="Defina la retención de datos como una ventana móvil en meses con respecto a la conexión."
+>title="Activar la ventana de datos móviles"
+>abstract="Defina la retención de datos como un período de tiempo variable en meses en el nivel de conexión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,8 +63,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_averagenumberofdailyuses"
->title="Promedio del número de usos diarios"
->abstract="Seleccione un rango para la cantidad de eventos diarios previstos para toda la conexión."
+>title="Cantidad promedio de usos diarios"
+>abstract="Seleccione un rango para la cantidad de eventos diarios esperados para toda la conexión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -135,8 +135,8 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
->title="Clave de correspondencia"
->abstract="Seleccione un campo para unirse a uno de los conjuntos de datos de eventos. Si esta lista está vacía, probablemente no haya agregado ni configurado ningún conjunto de datos de eventos."
+>title="Clave de coincidencia"
+>abstract="Seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya agregado ni configurado ningún conjunto de datos de evento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,7 +145,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
 >title="Importar datos nuevos"
->abstract="Los lotes nuevos que se agreguen al conjunto de datos de Experience Platform se agregarán automáticamente a esta conexión y estarán disponibles para su análisis."
+>abstract="Los lotes nuevos que se añadan al conjunto de datos de Experience Platform se sumarán automáticamente a esta conexión y estarán disponibles para su análisis."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -162,8 +162,8 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
->title="Transformar conjunto de datos"
->abstract="Esta opción transformará el conjunto de datos para que pueda utilizarse para búsquedas basadas en personas en escenarios B2B. Una vez activada, la transformación del conjunto de datos es irreversible."
+>title="Transformación de un conjunto de datos"
+>abstract="Esta opción transformará el conjunto de datos para que pueda emplearse para búsquedas basadas en personas en escenarios B2B. Una vez activada, la transformación del conjunto de datos es irreversible."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 40%
+ht-degree: 45%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_project_countrepeatinstances"
 >title="Contar instancias repetidas"
->abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/><br/>Nota: esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
+>abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/><br/>Nota: Esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,7 +61,7 @@ Ahora que ha creado un proyecto de Workspace en blanco, asegúrese de estar fami
 >[!CONTEXTUALHELP]
 >id="cja_workspace_project_repeatinstances"
 >title="Contar instancias repetidas"
->abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/>Nota: esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
+>abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/>Nota: Esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
 
 <!-- markdownlint-enable MD034 -->
 

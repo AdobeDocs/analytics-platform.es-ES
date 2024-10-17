@@ -91,8 +91,8 @@ Para obtener más información, consulte [Proyectos programados](/help/component
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_sendfile_password"
->title="Cifrado de contraseña"
->abstract="La contraseña suministrada se utilizará para cifrar el archivo para el proyecto programado. Los requisitos de seguridad de su organización requieren cifrado de contraseña."
+>title="Cifrado con contraseña"
+>abstract="La contraseña proporcionada se utilizará para cifrar el archivo del proyecto programado. Los requisitos de seguridad para su organización requieren el cifrado con contraseña."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -1,5 +1,5 @@
 ---
-title: Resumen de tabla de forma libre
+title: Información general sobre tablas de forma libre
 description: Las tablas de forma libre son la base del análisis de datos en Workspace
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
@@ -7,18 +7,18 @@ role: User
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
-# Resumen de tabla de forma libre {#freeform-table-overview}
+# Información general sobre tablas de forma libre {#freeform-table-overview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_button"
 >title="Tabla de forma libre"
->abstract="Cree una visualización de tabla de forma libre vacía que pueda crear con dimensiones, segmentos, métricas e intervalos de fechas. Puede utilizar la tabla de forma libre como base para otras visualizaciones."
+>abstract="Cree una visualización de tabla de forma libre vacía que pueda elaborar con dimensiones, segmentos, métricas e intervalos de fechas. Puede utilizar la tabla de forma libre como base para otras visualizaciones."
 
 <!-- markdownlint-enable MD034 -->
 

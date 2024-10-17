@@ -20,7 +20,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="Persistencia"
->abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes de los filtros en la creación de informes."
+>abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes de los filtros en el sistema de informes."
 
 <!-- markdownlint-enable MD034 -->
 

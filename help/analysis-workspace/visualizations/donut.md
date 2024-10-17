@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_donut_button"
 >title="Anillo"
->abstract="Cree una visualización de anillo para comparar porcentajes de un total, normalmente con un número reducido de elementos."
+>abstract="Cree una visualización de anillo para comparar porcentajes de un total, por lo general con un número reducido de elementos."
 
 <!-- markdownlint-enable MD034 -->
 

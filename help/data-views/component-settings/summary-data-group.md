@@ -8,23 +8,23 @@ exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
-# [!UICONTROL Configuración del componente del grupo de datos de resumen] {#summary-data-group-component-settings}
+# Configuración del componente [!UICONTROL Grupo de datos de resumen] {#summary-data-group-component-settings}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_summarydatagroup"
 >title="Grupo de datos de resumen"
->abstract="Un grupo de datos resumidos crea una asociación entre todas las dimensiones de la agrupación y se utiliza para combinar dimensiones de conjuntos de datos resumidos con otras dimensiones para la creación de informes."
+>abstract="Un grupo de datos de resumen crea una asociación entre todas las dimensiones de la agrupación y se utiliza para combinar dimensiones de conjuntos de datos de resumen con otras dimensiones para la creación de informes."
 
 <!-- markdownlint-enable MD034 -->
 
 
-Un grupo de datos resumidos crea una asociación entre todas las dimensiones de la agrupación y se utiliza para combinar dimensiones de conjuntos de datos resumidos con otras dimensiones para la creación de informes.
+Un grupo de datos de resumen crea una asociación entre todas las dimensiones de la agrupación y se utiliza para combinar dimensiones de conjuntos de datos de resumen con otras dimensiones para la creación de informes.
 
 ![Configuración del componente de grupo de datos de resumen](/help/data-views/assets/summary-data-group.png)
 
