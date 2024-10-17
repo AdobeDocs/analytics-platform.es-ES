@@ -3,10 +3,10 @@ description: El Generador de métricas calculadas proporciona un lienzo en el qu
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 37209097327ffb142068b5df184c07c7c8021442
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,8 +67,8 @@ El cuadro de diálogo **[!UICONTROL Creador de métricas calculadas]** se usa pa
 1. Para comprobar si la definición de la métrica calculada es correcta, use la **[!UICONTROL Vista previa]** actualizada constantemente de los resultados de la métrica calculada. La **[!UICONTROL vista previa]** abarca los últimos 90 días y evalúa la definición de su métrica calculada de manera continua.
 
    La **[!UICONTROL compatibilidad del producto]** indica si la métrica calculada se puede usar en experimentación. Los valores posibles son:
-   * **[!UICONTROL En cualquier lugar del Customer Journey Analytics]**: la métrica calculada se puede usar en todo el Customer Journey Analytics, excepto en el panel Experimentación.
-   * **[!UICONTROL En cualquier lugar del Customer Journey Analytics (excluida la experimentación)]**: la métrica calculada se puede utilizar en todo el Customer Journey Analytics.
+   * **[!UICONTROL En cualquier lugar del Customer Journey Analytics]**: la métrica calculada se puede usar en todo el Customer Journey Analytics.
+   * **[!UICONTROL En cualquier lugar del Customer Journey Analytics (excluida la experimentación)]**: la métrica calculada se puede usar en todo el Customer Journey Analytics, excepto en el panel Experimentación.
 
 1. Seleccionar:
    * **[!UICONTROL Guardar]** para guardar la métrica calculada.

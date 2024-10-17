@@ -4,9 +4,9 @@ title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
+source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2144'
 ht-degree: 16%
 
 ---
@@ -168,12 +168,11 @@ Cuando se desea medir el impacto de la intervención X en el resultado Y, es pos
 >
 >Para organizaciones que utilizan Customer Journey Analytics y Adobe Journey Optimizer, la información de esta sección también se aplica a las funciones de experimentación de Journey Optimizer.
 
-
 No todas las métricas calculadas son compatibles con el panel Experimentación.
 
 Las métricas calculadas que incluyen cualquiera de las siguientes métricas o constantes no son compatibles con el panel Experimentación:
 
-* Métricas base de un conjunto de datos de resumen <!--add link to Rob's "Summary data" doc when it's published -->
+* Métricas base de un [conjunto de datos de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)
 * Métricas base divididas entre sí o multiplicadas juntas (por ejemplo, `Revenue`/`Orders`)
 * Constantes que se agregan o restan de una métrica base (por ejemplo, `Revenue+50`)
 * Cualquiera de las siguientes métricas base:
