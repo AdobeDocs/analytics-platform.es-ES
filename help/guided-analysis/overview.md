@@ -5,7 +5,7 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
+source-git-commit: a7545c5a197bd318212328ef6344245b2026d401
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 72%
@@ -32,7 +32,7 @@ Los siguientes análisis guiados están disponibles:
 | ![Cronología](/help/assets/icons/Timeline.svg) | [Cronología](types/timeline.md) | Explore patrones en la actividad de la sesión. |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Tendencias](types/trends.md) | Medir la participación del usuario a lo largo del tiempo. |
 
-{style="table-layout:auto"}
+
 
 ## Acceso
 
