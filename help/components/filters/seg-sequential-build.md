@@ -3,16 +3,16 @@ description: Los filtros secuenciales son filtros que utilizan el operador THEN 
 title: Filtros secuenciales
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: d6ea541de7c8b97151f16a01f61a002c5b877e7c
+source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 2%
+source-wordcount: '2459'
+ht-degree: 3%
 
 ---
 
 # Filtros secuenciales
 
-Puede crear filtros secuenciales utilizando el operador lógico Then entre componentes, contenedores y componentes o contenedores. El operador lógico Then implica que se produce una condición de filtro, seguida de otra.
+Puede crear filtros secuenciales utilizando el operador lógico [!UICONTROL Then] entre componentes, contenedores y componentes o contenedores. El operador lógico [!UICONTROL Then] implica que se produce una condición de filtro, seguida de otra.
 
 +++ Este es un vídeo que muestra la segmentación secuencial.
 
@@ -21,7 +21,6 @@ Puede crear filtros secuenciales utilizando el operador lógico Then entre compo
 {{videoaa}}
 
 +++
-
 
 Un filtro secuencial tiene [funcionalidad básica](#basics) y opciones adicionales que puede configurar para agregar más complejidad al filtro secuencial:
 
@@ -42,7 +41,7 @@ Un filtro secuencial tiene [funcionalidad básica](#basics) y opciones adicional
 
 
 
-Los conceptos básicos para crear un filtro secuencial no son diferentes a crear un filtro normal con el [Generador de filtros](filter-builder.md). Utiliza el [generador de definiciones](filter-builder.md#definition-builder) para construir tu definición de filtro. En esa construcción, se utilizan componentes, contenedores, operadores y lógica. Un filtro normal se convierte automáticamente en un filtro secuencial en cuanto se selecciona el operador **[!UICONTROL Then]** en la definición principal o en cualquiera de los contenedores que se usan en el [generador de definiciones](filter-builder.md#definition-builder).
+Los conceptos básicos para crear un filtro secuencial no son diferentes a crear un filtro normal con el [Generador de filtros](filter-builder.md). Puede usar el [generador de definiciones](filter-builder.md#definition-builder) para crear su definición de filtro. En esa construcción, se utilizan componentes, contenedores, operadores y lógica. Un filtro normal se convierte automáticamente en un filtro secuencial en cuanto se selecciona el operador **[!UICONTROL Then]** en la definición principal o en cualquiera de los contenedores que se usan en el [generador de definiciones](filter-builder.md#definition-builder).
 
 ### Ejemplos
 
@@ -79,7 +78,7 @@ Identifique todas las sesiones en las que una persona visita una página antes d
 
 ![Secuencia anidada](assets/sequence-nested.png)
 
-## Después y en
+## [!UICONTROL Después] y [!UICONTROL Dentro]
 
 Puede usar el operador ![Reloj](/help/assets/icons/Clock.svg) **[!UICONTROL Después]** y ![Reloj](/help/assets/icons/Clock.svg) **[!UICONTROL Dentro]** del operador **[!UICONTROL Entonces]** para definir [restricciones de tiempo](#time-constraints) o [restricciones adicionales para Eventos, Sesiones o Dimension](#event-session-and-dimension-constraints).
 
@@ -99,7 +98,7 @@ La tabla siguiente explica con más detalle los operadores de restricción de ti
 | Operadores | Descripción |
 |--- |--- |
 | **[!UICONTROL Después]** | El operador [!UICONTROL After] se usa para especificar un límite mínimo de tiempo entre dos puntos de comprobación. Al establecer los valores de After, el límite de tiempo comienza cuando se aplica el filtro. Por ejemplo, si el operador [!UICONTROL After] se configura en un contenedor para identificar a las personas que visitan la página A, pero no regresan a la página B hasta después de un día, ese día empezará cuando el visitante abandone la página A.  Para que el visitante se incluya en el filtro, debe transcurrir un mínimo de 1440 minutos (un día) desde que se salió de la página A para ver la página B. |
-| **[!UICONTROL En]** | El operador [!UICONTROL Within] se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador [!UICONTROL Within] se configura en un contenedor para identificar a las personas que visitan la página A y luego regresan para visitar la página B en un día, ese día comienza cuando la persona abandona la página A. Para ser incluido en el filtro, la persona tiene un tiempo máximo de un día antes de abrir la página B. Para que la persona se incluya en el filtro, la apertura de la página B debe realizarse en un máximo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
+| **[!UICONTROL En]** | El operador [!UICONTROL En] se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador [!UICONTROL Within] se configura en un contenedor para identificar a las personas que visitan la página A y luego regresan para visitar la página B en un día, ese día comienza cuando la persona abandona la página A. Para ser incluido en el filtro, la persona tiene un tiempo máximo de un día antes de abrir la página B. Para que la persona se incluya en el filtro, la apertura de la página B debe realizarse en un máximo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
 | **[!UICONTROL Después pero dentro de]** | Al usar los operadores [!UICONTROL After] y [!UICONTROL Within], ambos operadores comienzan y finalizan en paralelo, no en secuencia. <br/>Por ejemplo, genera un filtro con el contenedor establecido en: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>Las condiciones para identificar a los visitantes en este filtro se cumplen solamente entre una y dos semanas. Ambas condiciones se aplican desde el momento de la primera vista de página. |
 
 
@@ -107,7 +106,7 @@ La tabla siguiente explica con más detalle los operadores de restricción de ti
 
 Algunos ejemplos de uso de las restricciones de tiempo.
 
-##### Operador After
+##### Operador [!UICONTROL After]
 
 Identifique a las personas que visitaron una página y luego otra página solo después de dos semanas. Por ejemplo, las personas que visitaron la página de inicio, pero las | La página de zapatos solo después de dos semanas.
 
@@ -115,7 +114,7 @@ Identifique a las personas que visitaron una página y luego otra página solo d
 
 Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 00:01 horas, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre que la vista de esa página se produzca después del 15 de junio de 2024 a las 00:01.
 
-##### Operador Within
+##### Operador [!UICONTROL Within]
 
 Identifique a las personas que visitaron una página y luego otra en un plazo de cinco minutos. Por ejemplo, las personas que visitaron la página de inicio y luego la sección Mujer | Zapatos de la página en 5 minutos.
 
@@ -123,7 +122,7 @@ Identifique a las personas que visitaron una página y luego otra en un plazo de
 
 Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 12:01, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre que la vista de esa página se produzca antes del 15 de junio de 2024 a las 12:16.
 
-##### Operador After pero Within
+##### [!UICONTROL Después de] pero [!UICONTROL Dentro de] operador
 
 Identifique a las personas que visitaron una página y luego visitaron otra después de dos semanas pero dentro del plazo de un mes. Por ejemplo, las personas que visitaron la página de inicio y luego, después de dos semanas y dentro del plazo de un mes, las mujeres | Página de zapatos.
 
@@ -132,7 +131,7 @@ Identifique a las personas que visitaron una página y luego visitaron otra desp
 Cualquier persona que acceda a la página de inicio el 1 de junio de 2024 y que vuelva a visitar a las mujeres | La página de zapatos después del 15 de junio de 2019 a las 00:01 horas, pero antes del 1 de julio de 2019, cumple los requisitos para el segmento.
 
 
-### Restricciones de eventos, sesiones y Dimension
+### Restricciones de [!UICONTROL Event], [!UICONTROL Session] y [!UICONTROL Dimension]
 
 Las restricciones ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** y ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** le permiten no solo especificar una restricción de tiempo, sino también una restricción de evento, sesión o dimensión. Seleccione **[!UICONTROL Evento(s)]**, **[!UICONTROL Sesión(es)]** o **[!UICONTROL Otras dimensiones]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Nombre del Dimension *]**. Puede usar el campo [!UICONTROL *Buscar*] para buscar una dimensión.
 
@@ -149,15 +148,15 @@ Las siguientes secuencias de ejemplo coinciden o no coinciden:
 | Página `Women \| Shoes` seguida de página `Checkout \| Thank You` | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
 | Página `Women \| Shoes` seguida de página `Women \| Tops` seguida de página `Checkout \| Thank You` | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) |
 
-## Inclusión
+## [!UICONTROL Inclusión]
 
 Puede especificar qué datos desea incluir en el filtro secuencial o en un contenedor secuencial que forme parte del filtro secuencial.
 
-### Todos {#include_everyone}
+### [!UICONTROL Todos] {#include_everyone}
 
 Para crear un filtro secuencial que incluya a todos, seleccione la opción ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**.
 
-El filtro secuencial identifica los datos que coinciden con el patrón determinado en su conjunto.  A continuación se muestra un ejemplo de filtro de secuencia básico que busca personas que visitaron una página de categoría de producto (Mujer) | Zapatos), seguido de una página de pago (Checkout) | Gracias). El filtro se ha establecido en ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**.
+El filtro secuencial identifica los datos que coinciden con el patrón determinado en su conjunto.  A continuación se muestra un ejemplo de un filtro de secuencia básico que busca personas que visitaron una página de categoría de producto (mujeres) | Zapatos), seguido de una página de pago (Checkout) | Gracias). El filtro se ha establecido en ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**.
 
 ![El filtro secuencial incluye a todos](assets/sequence-include-everyone.png)
 
@@ -169,7 +168,7 @@ Las siguientes secuencias de ejemplo coinciden o no coinciden:
 | 2 | `Women \| Shoes` entonces `Men \| Shoes` entonces `Checkout \| Thank You` (en diferentes sesiones) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
 | 3 | `Checkout \| Thank You` entonces `Women \| Shoes` | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) |
 
-### Solo Antes de la Secuencia y Solo Después de la Secuencia
+### [!UICONTROL Solo antes de la secuencia] y [!UICONTROL Solo después de la secuencia]
 
 Las opciones ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** y ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** filtran los datos a un subconjunto antes o después de la secuencia especificada.
 
@@ -203,7 +202,7 @@ Al crear informes sobre secciones del sitio que utilizan estos tres filtros, el 
 
 ![Informe de filtro secuencial](assets/sequential-filter-freeform-table.png)
 
-## Exclusión
+## [!UICONTROL Exclusión]
 
 Las definiciones de filtros incluyen todos los datos a menos que excluya específicamente los datos de ![Usuario](/help/assets/icons/User.svg) [!UICONTROL Persona], ![Visita](/help/assets/icons/Visit.svg) [!UICONTROL Sesión] o ![Página web](/help/assets/icons/WebPage.svg) [!UICONTROL Evento] con **[!UICONTROL Excluir]**.
 
@@ -215,7 +214,7 @@ Ejemplo de definiciones de exclusión:
 * **Exclusión de dominios de referencia**. Utilice una definición que incluya solo los dominios de referencia de Google.com y excluya todos los demás.
 * **Identificación de los no compradores**. Identifique cuándo los pedidos son superiores a cero y luego excluya a [!UICONTROL Persona].
 
-[!UICONTROL Excluir] se puede usar para identificar una secuencia en la que las sesiones o eventos específicos no son realizados por la persona. [!UICONTROL Excluir] también se puede incluir dentro de un [!UICONTROL grupo lógico] (ver a continuación).
+[!UICONTROL Excluir] se puede usar para identificar una secuencia en la que las personas no forman parte de sesiones específicas o no realizan eventos específicos. [!UICONTROL Excluir] también se puede incluir dentro de un [!UICONTROL grupo lógico] (ver a continuación).
 
 Puede excluir contenedores, no componentes.
 
@@ -223,28 +222,28 @@ Puede excluir contenedores, no componentes.
 
 Vea a continuación algunos ejemplos del uso de [!UICONTROL Excluir].
 
-#### Excluir en
+#### [!UICONTROL Excluir] dentro de
 
 Identifique a las personas que visitaron una página, no visitaron otra página y luego visitaron otra página. Excluye el contenedor mediante ![Setting](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Un contenedor excluido se identifica con una fina barra roja a la izquierda.
 
 ![Excluir secuencia](assets/sequence-exclude.png)
 
 
-#### Excluir al inicio
+#### [!UICONTROL Excluir] al inicio
 
 Identificar a las personas que visitaron una página sin ir nunca a otra. Por ejemplo, las personas que comprobaron una compra sin haber visitado nunca la página principal.
 
 ![Inicio de exclusión de secuencia](assets/sequence-exclude-start.png)
 
 
-#### Excluir al final
+#### [!UICONTROL Excluir] al final
 
 Identificar a las personas que visitaron una página pero nunca visitaron otras. Por ejemplo, las personas que visitaron su página de inicio pero nunca ninguna de las páginas de cierre de compra.
 
 ![Fin de exclusión de secuencia](assets/sequence-exclude-end.png)
 
 
-## grupo lógico
+## [!UICONTROL Grupo lógico]
 
 >[!NOTE]
 >
@@ -283,13 +282,13 @@ Identifique a las personas que visitaron una página u otra página y luego visi
 
 ![Ejemplo de uso de la primera coincidencia con el grupo lógico](assets/logicgroup-example-firstmatch.png)
 
-#### Excluir y
+#### [!UICONTROL Excluir] [!UICONTROL Y]
 
 Identifique a las personas que visitaron una página y luego no visitaron explícitamente un conjunto de otras páginas, pero sí visitaron otra página. Por ejemplo, las personas que visitaron la página de inicio, no visitaron la página para hombres ni para mujeres, pero sí la página para niños.
 
 ![Excluir grupo lógico y](assets/logicgroup-exclude-and.png)
 
-#### Excluir o
+#### [!UICONTROL Excluir] [!UICONTROL O]
 
 Identifique a las personas que visitaron una página y luego no visitaron explícitamente ninguna página de un conjunto de páginas, pero sí visitaron otra página. Por ejemplo, las personas que visitaron la página de inicio, no visitaron la página Hombres y mujeres, pero sí la página Niños.
 

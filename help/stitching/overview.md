@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
+source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
 workflow-type: tm+mt
 source-wordcount: '4009'
 ht-degree: 13%
@@ -17,7 +17,6 @@ ht-degree: 13%
 >[!NOTE]
 >
 >Debe tener el paquete **Select** o superior (para vinculación basada en el campo) o el paquete **Prime** o superior (para vinculación basada en gráficos) para utilizar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
-
 
 La vinculación de identidad (o simplemente, la vinculación) es una práctica funcionalidad que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona).
 
