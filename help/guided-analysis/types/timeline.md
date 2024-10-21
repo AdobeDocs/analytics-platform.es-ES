@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
@@ -25,14 +25,9 @@ El análisis ![Cronología](/help/assets/icons/Timeline.svg) **[!UICONTROL Crono
 >* **Administradores**: *La propiedad PersonID es necesaria para este análisis. Agregue el ID de persona a la vista de datos.*
 >* **No administradores**: *La propiedad PersonID es necesaria para este análisis. Trabaje con el administrador del Customer Journey Analytics para agregar el ID de persona a la vista de datos.*
 
-
-+++ Vídeo de demostración
-
 >[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
 
-+++
 
-![Cronología](../assets/timeline-new.png)
 
 ## Casos prácticos
 
@@ -68,3 +63,10 @@ El intervalo de fechas deseado para el análisis. Esta configuración consta de 
 
 * **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver datos de tendencia. Esta configuración no afecta a los análisis sin tendencias, como Cronología.
 * **[!UICONTROL Fecha]**: La fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.
+
+
+## Ejemplo
+
+Consulte a continuación un ejemplo del análisis.
+
+![Cronología](../assets/timeline-new.png)

@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '661'
 ht-degree: 4%
 
 ---
@@ -16,13 +16,8 @@ ht-degree: 4%
 
 El análisis ![PrimerUso](/help/assets/icons/FirstUse.svg) **[!UICONTROL Impacto en el primer uso]** muestra una comparación del rendimiento de los indicadores clave antes y después de que un usuario use una característica del producto por primera vez. El eje horizontal de este informe es un intervalo de tiempo relativo antes y después del evento, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa el día 0 para el momento en que un usuario determinado utiliza por primera vez una función. Dado que los usuarios no siempre adoptan funciones en el mismo día y que los despliegues pueden producirse potencialmente durante varios días, el día 0 puede significar algo diferente para cada usuario individual.
 
-+++ Vídeo de demostración
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421661/?learn=on)
-
-+++
-
-![Impacto de primer uso](../assets/first-use-impact.png)
 
 
 ## Casos prácticos
@@ -66,3 +61,12 @@ Las selecciones de fecha en el análisis [!UICONTROL Primer uso del impacto] fun
 
 * **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver los datos de tendencias. Las opciones válidas incluyen [!UICONTROL Diario], [!UICONTROL Semanal], [!UICONTROL Mensual] y [!UICONTROL Trimestral]. Cambiar el intervalo afecta a las opciones disponibles para los periodos Antes y Después.
 * **[!UICONTROL Antes y después del período]**: Cantidad de tiempo que se debe analizar antes y después del primer evento de uso especificado en el carril de consultas. Las opciones disponibles dependen de la selección de [!UICONTROL Intervalo].
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![First use impact](../assets/first-use-impact.png)
+
+-->

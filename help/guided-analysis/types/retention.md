@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1259'
 ht-degree: 2%
 
 ---
@@ -21,13 +21,8 @@ El análisis ![Retención](/help/assets/icons/Retention.svg) **[!UICONTROL Reten
 
 En este análisis, el eje x del gráfico representa el tiempo desde el evento de inicio inicial de un usuario y el eje y representa el porcentaje de usuarios que se relacionan con uno o más eventos de retorno. Puede ver tanto la retención como la pérdida en todas las duraciones, y las duraciones mostradas se pueden personalizar a través de la configuración de consulta. Debajo del gráfico, una tabla proporciona datos agregados con la opción de mostrar cohortes individuales, que son un grupo de personas que realizaron el evento de inicio en la misma fecha.
 
-+++ Vídeo de demostración
-
 >[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
 
-+++
-
-![Retención](../assets/retention.png)
 
 ## Casos prácticos
 
@@ -78,3 +73,9 @@ Si selecciona un intervalo de fechas cercano al día actual, no se incluyen los 
 
 * **[!UICONTROL Análisis de usuarios que realizaron el evento de inicio en [Intervalo de fecha]]**: Si un usuario se involucra con el evento dentro de este intervalo de fecha, se incluyen en el análisis. Este intervalo de fechas garantiza a todos los usuarios tiempo suficiente para cumplir los requisitos de todos los bloques de duración. Este intervalo de fechas puede ser diferente al seleccionado si está cerca del día actual.
 * **[!UICONTROL Los datos del [intervalo de fecha] están reservados para completar el análisis]**: Si un usuario se involucra por primera vez dentro de este período, **no** se incluyen en el análisis. Para intervalos de fechas recientes, estos usuarios no tendrían la oportunidad de cumplir los requisitos de todos los bloques de duración. Para intervalos de fechas anteriores, estos usuarios estaban activos fuera del intervalo de fechas seleccionado.
+
+## Ejemplo
+
+Consulte a continuación un ejemplo del análisis.
+
+![Retención](../assets/retention.png)
