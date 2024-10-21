@@ -1,20 +1,20 @@
 ---
-title: Vista de crecimiento neto
+title: Análisis del crecimiento neto
 description: ¿Está ganando o perdiendo usuarios?
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '673'
 ht-degree: 2%
 
 ---
 
-# Vista de [!UICONTROL crecimiento neto]
+# Análisis de [!UICONTROL crecimiento neto]
 
-El tipo de vista ![NetGrowth](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net Growth]** proporciona información sobre la velocidad a la que se consiguen o se pierden usuarios durante un período específico. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical es la medida del crecimiento.
+El análisis ![NetGrowth](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Crecimiento neto]** proporciona información sobre la velocidad a la que se consiguen o se pierden usuarios durante un período específico. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical es la medida del crecimiento.
 
 Cada punto de datos representa el crecimiento neto, que se calcula mediante la siguiente fórmula:
 
@@ -22,7 +22,7 @@ Cada punto de datos representa el crecimiento neto, que se calcula mediante la s
 
 El resultado de esta fórmula es una proporción. Un crecimiento neto de `1` representa un equilibrio; el producto ganó el mismo número de usuarios que perdió. Un crecimiento neto mayor que `1` representa un crecimiento positivo; había más usuarios nuevos y con retorno que usuarios inactivos. Del mismo modo, un crecimiento neto menor de `1` representa una pérdida; había más usuarios inactivos que los nuevos usuarios + que regresan.
 
-Al igual que el tipo de vista [Activo](active-growth.md), los usuarios se definen de la siguiente manera:
+De manera similar al análisis [Activo](active-growth.md), los usuarios se definen de la siguiente manera:
 
 * **[!UICONTROL Nuevo]**: el usuario estaba activo durante el período actual, pero no anteriormente. Vea hasta qué punto el análisis retrocede para determinar un nuevo usuario pasando el puntero sobre &#39;[!UICONTROL Nuevos usuarios]&#39; en la leyenda del gráfico. El intervalo de retrospectiva se determina dinámicamente en función del intervalo de fechas y del intervalo seleccionados.
 * **[!UICONTROL Devolver]**: el usuario estaba activo en el período actual y no estaba activo en el período inmediatamente anterior, pero anteriormente estaba activo en algún momento. Vea hasta dónde retrocede el análisis para determinar un usuario devuelto pasando el puntero sobre &#39;[!UICONTROL Devolver usuarios]&#39; en la leyenda del gráfico. El intervalo de retrospectiva se determina dinámicamente en función del intervalo de fechas y del intervalo seleccionados.
@@ -32,30 +32,40 @@ Al igual que el tipo de vista [Activo](active-growth.md), los usuarios se define
 >
 >Los usuarios repetidos no se tienen en cuenta en este cálculo, ya que no representan ninguna ganancia o pérdida de usuarios.
 
++++ Vídeo de demostración
+
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
+
++++
+
+![Comparación del crecimiento neto](../assets/net-growth-compare.png)
 
 ## Casos prácticos
 
-Los casos de uso para este tipo de vista incluyen:
+Los casos de uso de este análisis incluyen:
 
 * **Evaluación del rendimiento**: Permite evaluar el rendimiento general del producto en cuanto a la adquisición de nuevos usuarios. Al rastrear las tendencias de crecimiento, puede comprender mejor si su producto atrae y retiene a los usuarios a un ritmo deseado.
 * **Análisis de adquisición de usuarios**: le permite evaluar la eficacia de sus estrategias de adquisición de usuarios. El análisis de las fuentes de crecimiento de los usuarios, como motores de búsqueda, campañas u otros canales de marketing, permite identificar las fuentes de crecimiento más significativas para poder asignar los recursos en consecuencia.
 * **Análisis de pérdida**: el crecimiento neto incluye la desgaste en su fórmula (usuarios inactivos). Puede evaluar el estado general de su base de usuarios a lo largo del tiempo. Si el crecimiento neto es consistentemente inferior a `1`, indica una alta cantidad de desgaste que podría provocar la implementación de estrategias de retención.
 
-## Carril de consulta
+## Interfaz
+
+Consulte [Interfaz](../overview.md#interface) para obtener una descripción general de la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+
+### Carril de consulta
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **[!UICONTROL Vista]**: cambie entre este tipo de vista y [Activo](active-growth.md).
-* **[!UICONTROL Eventos]**: El evento que desea medir. Dado que este tipo de vista se basa en el usuario, cualquier usuario que interactúe con el evento una vez dentro del periodo se contará como un usuario activo. Puede incluir un evento en una consulta.
+* **[!UICONTROL Vista]**: cambie entre este análisis y [Crecimiento activo](active-growth.md).
+* **[!UICONTROL Eventos]**: El evento que desea medir. Dado que este análisis se basa en el usuario, un usuario que interactúa con el evento una vez dentro del periodo se cuenta como un usuario activo. Puede incluir un evento en una consulta.
 * **[!UICONTROL Contado como]**: El método de conteo que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Número de usuarios] y [!UICONTROL Porcentaje de usuarios].
 * **[!UICONTROL Segmentos]**: El segmento que desea medir. Puede incluir un segmento en una consulta.
 
-## Comparación del tiempo
+### Comparación del tiempo
 
 {{apply-time-comparison}}
 
-## Intervalo de fechas
+### Intervalo de fechas
 
 El intervalo de fechas deseado para el análisis. Esta configuración consta de dos componentes:
 

@@ -1,38 +1,48 @@
 ---
-title: Retención
+title: Análisis de retención
 description: Mida cuántos usuarios siguen utilizando su producto.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 8592d6d5d4a9d7b8ac6a40963059d386ec5ee804
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1252'
 ht-degree: 2%
 
 ---
 
-# Retención
+# Análisis de retención
 
-La vista ![Retención](/help/assets/icons/Retention.svg) **[!UICONTROL Retención]** mide cómo los usuarios siguen usando tu producto a lo largo del tiempo, lo que puede ayudarte a comprender el ajuste del mercado de tu producto. El análisis cuenta los usuarios en función de dos eventos importantes:
+El análisis ![Retención](/help/assets/icons/Retention.svg) **[!UICONTROL Retención]** mide cómo los usuarios siguen usando tu producto a lo largo del tiempo, lo que puede ayudarte a comprender el ajuste del mercado de tu producto. El análisis cuenta los usuarios en función de dos eventos importantes:
 
 * Evento Start: el evento utilizado para clasificar a los usuarios para incluirlos en el análisis.
 * Evento de retorno: uno o más eventos con los que debe interactuar un usuario para contar como usuario que regresa en el análisis.
 
-En esta vista, el eje x del gráfico representa el tiempo desde el evento de inicio inicial de un usuario y el eje y representa el porcentaje de usuarios que se relacionan con uno o más eventos de retorno. Puede ver tanto la retención como la pérdida en todas las duraciones, y las duraciones mostradas se pueden personalizar a través de la configuración de consulta. Debajo del gráfico, una tabla proporciona datos agregados con la opción de mostrar cohortes individuales, que son un grupo de personas que realizaron el evento de inicio en la misma fecha.
+En este análisis, el eje x del gráfico representa el tiempo desde el evento de inicio inicial de un usuario y el eje y representa el porcentaje de usuarios que se relacionan con uno o más eventos de retorno. Puede ver tanto la retención como la pérdida en todas las duraciones, y las duraciones mostradas se pueden personalizar a través de la configuración de consulta. Debajo del gráfico, una tabla proporciona datos agregados con la opción de mostrar cohortes individuales, que son un grupo de personas que realizaron el evento de inicio en la misma fecha.
+
++++ Vídeo de demostración
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
 
++++
+
+![Retención](../assets/retention.png)
+
 ## Casos prácticos
 
-Los casos de uso para este tipo de vista incluyen:
+Los casos de uso de este análisis incluyen:
 
 * **Análisis de cohorte**: agrupe a los usuarios en cohortes en función de las acciones que realicen, como suscripciones o compras. Puede comparar el rendimiento de estos grupos y determinar cómo abordar la mejora de la experiencia de usuario de cada grupo.
 * **Ajuste del mercado del producto**: mida el uso regular del producto y visualícelo como curvas de retención. Una mayor retención significa un mejor ajuste al mercado del producto, y el lugar donde la curva se aplana indica cuánto tiempo se tarda en alcanzar el ajuste. Vea este análisis a nivel general o desglose por funciones de producto individuales para obtener información más detallada.
 * **Análisis del servicio de suscripción**: si el producto emplea una suscripción u otro tipo de modelo de ingresos recurrentes, puede ver el porcentaje de usuarios que aprovechan al máximo el producto. Puede identificar ciertas cualidades y comportamientos que muestran estos usuarios.
 * **Participación del usuario**: Evalúe cómo se relacionan ciertos tipos de usuarios con su producto y compare en paralelo la frecuencia con la que regresan. Un segmento determinado con una retención menor que otros puede proporcionarle una perspectiva sobre la mejora de las posibles experiencias inferiores que podrían tener.
 
-## Carril de consulta
+## Interfaz
+
+Consulte [Interfaz](../overview.md#interface) para obtener una descripción general de la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+
+### Carril de consulta
 
 El carril de consulta permite configurar los siguientes componentes:
 
@@ -51,13 +61,13 @@ El carril de consulta permite configurar los siguientes componentes:
       * **[!UICONTROL Duraciones personalizadas]** le permiten personalizar los cuatro bloques de duración que se muestran en el gráfico y la tabla.
 * **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado agrega una fila a la tabla de cohorte. Se pueden incluir hasta tres segmentos.
 
-## Ajustes del gráfico
+### Ajustes del gráfico
 
-La vista [!UICONTROL Tasas de retención] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
+El análisis [!UICONTROL Retención] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
 * **[!UICONTROL Tipo de gráfico]**: El tipo de visualización que desea utilizar. Las opciones incluyen [!UICONTROL Barra] y [!UICONTROL Línea].
 
-## Intervalo de fechas
+### Intervalo de fechas
 
 El intervalo de fechas deseado para el análisis. Esta configuración consta de dos componentes:
 

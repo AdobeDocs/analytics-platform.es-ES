@@ -1,49 +1,59 @@
 ---
-title: Vista del uso
+title: Análisis de tendencias
 description: Medir la participación del usuario a lo largo del tiempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '779'
 ht-degree: 3%
 
 ---
 
-# Vista de [!UICONTROL tendencias]
+# Análisis [!UICONTROL Tendencias]
 
-La vista ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** proporciona una valiosa perspectiva del rendimiento de su producto o del comportamiento de los usuarios a lo largo del tiempo. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los eventos deseados.
+El análisis ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** proporciona información valiosa sobre el rendimiento del producto o el comportamiento de los usuarios a lo largo del tiempo. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los eventos deseados.
+
++++ Vídeo de demostración
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
 
++++
+
+![Comparación de tendencias](../assets/trends-compare.png){style="border:1px solid gray"}
+
 ## Casos prácticos
 
-Los casos de uso para este tipo de vista incluyen:
+Los casos de uso de este análisis incluyen:
 
 * **Evaluar el rendimiento del producto**: Las tendencias permiten evaluar el rendimiento general del producto durante un período determinado. Al analizar métricas como la participación del usuario, la adopción o las tasas de conversión, puede identificar si el rendimiento del producto mejora, se estanca o disminuye.
 * **Adopción de características**: las tendencias le permiten comprender cómo adoptan los usuarios las nuevas características o actualizaciones que usted publique. Puede determinar qué funciones son populares y qué funciones requieren mejora. Esta información le permite tomar decisiones basadas en datos sobre qué funciones priorizar los esfuerzos de desarrollo.
-* **Comportamiento del usuario**: las tendencias pueden proporcionar una perspectiva del comportamiento del usuario a lo largo del tiempo. Al examinar las acciones específicas que realizan los usuarios, puede identificar patrones en los que estos pueden abandonarlos. Puede combinar información de esta vista con [Fricción](funnel.md) para obtener aún más información sobre el comportamiento.
+* **Comportamiento del usuario**: las tendencias pueden proporcionar una perspectiva del comportamiento del usuario a lo largo del tiempo. Al examinar las acciones específicas que realizan los usuarios, puede identificar patrones en los que estos pueden abandonarlos. Puede combinar información de este análisis con [Embudo](funnel.md) para obtener aún más información sobre el comportamiento.
 * **Pruebas A/B y experimentación**: si ejecuta pruebas A/B en su producto, puede usar Tendencias para medir qué pruebas son las más exitosas a lo largo del tiempo.
 
-## Carril de consulta
+## Interfaz
+
+Consulte [Interfaz](../overview.md#interface) para obtener una descripción general de la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+
+### Carril de consulta
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **[!UICONTROL Vista]**: cambie entre este tipo de vista y [Frecuencia](frequency.md).
+* **[!UICONTROL Vista]**: cambie entre este análisis y [Frecuencia](frequency.md).
 * **[!UICONTROL Eventos y métricas]**: Los eventos o métricas que desea medir. Cada selección se representa como una serie de gráficos y una fila de tabla. Los eventos y las métricas no se pueden combinar en la consulta. Una vez que haya realizado la primera selección, las selecciones de consulta restantes deben ser del mismo tipo. Puede incluir hasta cinco selecciones.
 * **[!UICONTROL Contado como]**: El método de conteo que desea aplicar a los eventos seleccionados. Las opciones incluyen Eventos, Sesiones, Usuarios, Porcentaje de usuarios, Eventos por sesión y Eventos por usuario. Las opciones Contadas como solo son aplicables a las consultas de evento y se eliminan para las consultas de métricas.
 * **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado duplica el número de series de gráficos y filas de tabla. Se pueden incluir hasta cinco segmentos.
 * **[!UICONTROL Breakdown property]**: desglosa la serie de gráficos y las filas de tabla según los valores de la propiedad seleccionada. Se admite una sola propiedad de desglose. Los 20 valores principales aparecen en la tabla y se pueden ver hasta diez valores en el gráfico. Puede ocultar o exponer una fila del gráfico alternando el icono ![Mostrar u ocultar](../assets/hide-in-chart.png).
 
-## Ajustes del gráfico
+### Ajustes del gráfico
 
-La vista [!UICONTROL Uso] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
+El análisis [!UICONTROL Tendencias] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
 * **[!UICONTROL Tipo de gráfico]**: El tipo de visualización que desea utilizar. Las opciones incluyen Línea, Barra, Barra apilada y Área apilada.
 
-## Superposiciones
+### Superposiciones
 
 Agregue datos adicionales al gráfico. Cuando hay más de una serie visible en el gráfico, las superposiciones solo aparecen al pasar el ratón por encima.
 
@@ -53,15 +63,15 @@ Agregue datos adicionales al gráfico. Cuando hay más de una serie visible en e
    * [!UICONTROL Logarítmico]: Crea una línea de regresión curva. Ideal para datos que aumentan o disminuyen rápidamente y luego se vuelven más nivelados. Ecuación: `y = a + b * log(x)`
    * [!UICONTROL Promedio móvil]: Crea una línea de tendencia suave basada en un conjunto de promedios. Un promedio móvil utiliza una cantidad determinada de puntos de datos anteriores (definida por su selección), los promedia y utiliza el promedio como punto en la línea. Algunos ejemplos son un promedio móvil de siete días o un promedio móvil de cuatro semanas. Las opciones de promedio móvil disponibles dependen del intervalo y el intervalo de fechas seleccionados.
 
-## Comparación del tiempo
+### Comparación del tiempo
 
 {{apply-time-comparison}}
 
-![Comparación del tiempo de uso](../assets/usage-compare.png){style="border:1px solid gray"}
 
-## Intervalo de fechas
+### Intervalo de fechas
 
 El intervalo de fechas deseado para el análisis. Esta configuración consta de dos componentes:
 
 * **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver los datos de tendencias. Las opciones válidas incluyen Por hora, Diario, Semanal, Mensual y Trimestral. El mismo intervalo de fechas puede tener diferentes intervalos que afectan al número de puntos de datos del gráfico y al número de columnas de la tabla. Por ejemplo, si se ve un análisis que abarca tres días con granularidad diaria, solo se mostrarían tres puntos de datos, mientras que un análisis que abarca tres días con granularidad horaria, mostraría 72 puntos de datos.
 * **[!UICONTROL Fecha]**: La fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.
+

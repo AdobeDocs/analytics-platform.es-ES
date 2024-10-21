@@ -1,20 +1,20 @@
 ---
-title: Vista de participación
+title: Análisis de participación
 description: Comprenda la amplitud y profundidad de la participación de la característica.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# Vista de [!UICONTROL participación]
+# Análisis de [!UICONTROL participación]
 
-La vista ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** proporciona información sobre la frecuencia con la que se usa una característica en comparación con la cantidad de personas que la usan. Este análisis funciona mejor cuando se comparan varias funciones entre sí. Ayuda a impulsar las decisiones de inversión al comprender cuáles son su núcleo, su potencia, sus características únicas y cuestionables.
+El análisis ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** proporciona una perspectiva de la frecuencia con la que se usa una característica en comparación con la cantidad de personas que la usan. Este análisis funciona mejor cuando se comparan varias funciones entre sí. Ayuda a impulsar las decisiones de inversión al comprender cuáles son su núcleo, su potencia, sus características únicas y cuestionables.
 
 Las funciones que trazan hacia la parte superior de esta visualización indican que se utilizan con frecuencia entre usuarios comprometidos. Las funciones que se representan a la derecha de esta visualización indican que se adoptan ampliamente entre los usuarios activos. La mediana de veces que se utiliza una función divide el gráfico horizontalmente. El porcentaje medio de usuarios activos divide el gráfico verticalmente. Las medianas se calculan en función de los eventos seleccionados en la consulta, no de todos los datos.
 
@@ -23,11 +23,17 @@ Las funciones que trazan hacia la parte superior de esta visualización indican 
 * Las características de la parte inferior izquierda de la matriz son las características de **bajo impacto**; no se adoptan ampliamente ni se utilizan con frecuencia.
 * Las características de la parte inferior derecha de la matriz son las características de **una sola vez**; se han adoptado ampliamente, pero no se utilizan con frecuencia.
 
++++ Vídeo de demostración
+
 >[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
+
++++
+
+![Comparación de la participación](../assets/engagement-compare.png)
 
 ## Casos prácticos
 
-Los casos de uso para este tipo de vista incluyen:
+Los casos de uso de este análisis incluyen:
 
 * **Participación por característica**: puede establecer una correlación directa entre la participación y la adopción de una característica específica. Comprender qué características se utilizan más puede ayudar a determinar en qué características invertir más.
 * **Descubrir características que no se utilizan suficientemente**: Las características con usuarios activos bajos pero un uso alto pueden indicar una característica de energía, que es valiosa pero que no ha sido descubierta ni utilizada por la población en general. Considere la posibilidad de mejorar la capacidad de detección de estas funciones para que más usuarios las aprovechen.
@@ -35,7 +41,11 @@ Los casos de uso para este tipo de vista incluyen:
 * **Crear segmentos basados en características**: Ver el uso de características de esta manera para solicitar oportunidades de análisis adicionales. Cree un segmento para cualquier punto del gráfico para profundizar en ese grupo de usuarios y aplicar esas lecciones a su estrategia de participación del usuario.
 * **Prueba A/B de adopción de características**: compare el uso de varias características en diferentes grupos de usuarios. Añada segmentos al carril de la consulta para determinar la diferencia en el uso de las funciones entre grupos de usuarios clave.
 
-## Carril de consulta
+## Interfaz
+
+Consulte [Interfaz](../overview.md#interface) para obtener una descripción general de la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+
+### Carril de consulta
 
 El carril de consulta permite configurar los siguientes componentes:
 
@@ -47,22 +57,22 @@ El carril de consulta permite configurar los siguientes componentes:
 >
 >Si varios eventos representan el uso de una sola función, puede derivar un nuevo evento que represente la función en Vistas de datos.
 
-## Ajustes del gráfico
+### Ajustes del gráfico
 
-La vista [!UICONTROL Participación] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
+El análisis [!UICONTROL Participación] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
 * **[!UICONTROL Medianas]**: Determine dónde se muestran las líneas medias y cómo se relacionan los puntos trazados con esas medianas.
    * **[!UICONTROL Estándar]**: mostrar el valor absoluto de uso y participación.
    * **[!UICONTROL Normalizado]**: mostrar los cambios relativos de cada mediana.
 * **[!UICONTROL Superposición de eventos principales]**: vea el rendimiento de los eventos en comparación con los 20 eventos principales, según la actualización y relevancia de la empresa y el usuario (el mismo algoritmo aplicado al selector de eventos en el carril de consultas).
 
-## Comparación del tiempo
+### Comparación del tiempo
 
 {{apply-time-comparison}}
 
-## Intervalo de fechas
+### Intervalo de fechas
 
 El intervalo de fechas deseado para el análisis. Esta configuración consta de dos componentes:
 
-* **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver datos de tendencia. Este tipo de vista trata [!UICONTROL Intervalo] de manera similar a [!UICONTROL Contado como] en el carril de consultas. No se admiten usuarios activos por hora.
+* **[!UICONTROL Intervalo]**: La granularidad de fecha por la que desea ver datos de tendencia. Este análisis trata [!UICONTROL Intervalo] de manera similar a [!UICONTROL Contado como] en el carril de consultas. No se admiten usuarios activos por hora.
 * **[!UICONTROL Fecha]**: La fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.
