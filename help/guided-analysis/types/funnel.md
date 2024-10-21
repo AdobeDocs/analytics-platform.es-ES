@@ -5,7 +5,7 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: f71abfb76a22171004a6f2a501c8ec70d8485478
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 2%
@@ -22,7 +22,7 @@ El análisis ![ConversionEmbudo](/help/assets/icons/ConversionFunnel.svg)**[!UIC
 
 +++
 
-![Comparación de tiempo de canal](../assets/funnel-compare.png){style="border:1px solid gray"}
+![Comparación de tiempo de canal](../assets/funnel-compare.png)
 
 ## Casos prácticos
 

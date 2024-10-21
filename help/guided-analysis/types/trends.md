@@ -5,7 +5,7 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: f71abfb76a22171004a6f2a501c8ec70d8485478
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 3%
@@ -22,7 +22,7 @@ El análisis ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Tren
 
 +++
 
-![Comparación de tendencias](../assets/trends-compare.png){style="border:1px solid gray"}
+![Comparación de tendencias](../assets/trends-compare.png)
 
 ## Casos prácticos
 
