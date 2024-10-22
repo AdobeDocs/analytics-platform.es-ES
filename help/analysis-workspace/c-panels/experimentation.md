@@ -7,7 +7,7 @@ role: User
 source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
 workflow-type: tm+mt
 source-wordcount: '2144'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_panel"
 >title="Experimentación"
->abstract="Compare distintas variaciones de experiencia del usuario, marketing o mensajería para determinar cuál es la mejor opción a fin de obtener un resultado específico.<br/><br/>**Parámetros **<br/>**Experimento**: El experimento que se analiza.<br>**Variante de control**: variante de control del experimento seleccionado.<br/>**Métrica de éxito**: hasta 5 métricas de éxito estándar (no calculadas) con las que analizar el experimento.<br/>**Métrica de normalización**: Personas, sesiones o eventos. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. Esta métrica también afecta a la manera en que se añaden los datos antes de que se calcule la confianza."
+>abstract="Compare distintas variaciones de experiencia del usuario, marketing o mensajería para determinar cuál es la mejor opción a fin de obtener un resultado específico.<br/><br/>**Parámetros **<br/>**Experimento**: el experimento que se analiza.<br>**Variante de control**: variante de control del experimento seleccionado.<br/>**Métrica de éxito**: hasta 5 métricas de éxito estándar (no calculadas) con las que analizar el experimento.<br/>**Métrica de normalización**: personas, sesiones o eventos. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. Esta métrica también afecta a la manera en que se añaden los datos antes de que se calcule la confianza."
 
 <!-- markdownlint-enable MD034 -->
 
