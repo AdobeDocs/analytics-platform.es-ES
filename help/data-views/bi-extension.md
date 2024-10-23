@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
+source-git-commit: e5d66bfbc39d3b20b2833b6a83485b106b3d4231
 workflow-type: tm+mt
-source-wordcount: '3078'
+source-wordcount: '3091'
 ht-degree: 62%
 
 ---
@@ -34,16 +34,22 @@ A continuación se muestran pasos adicionales para configurar los permisos de CJ
 
 ### Credenciales que caducan
 
-* Se ha concedido acceso al Experience Platform y al Customer Journey Analytics.
-* Se ha concedido acceso de administrador de producto a Customer Journey Analytics para que pueda ver, editar, actualizar o eliminar conexiones y vistas de datos.
-* O BIEN
-* Se ha concedido acceso a las vistas de datos a las que desea acceder.
-* Se ha concedido acceso a la extensión de CJA BI.
+Para utilizar credenciales que caducan, puede:
+
+* Conceder acceso al Experience Platform y al Customer Journey Analytics.
+* Conceder acceso de administrador de producto a Customer Journey Analytics para que pueda ver, editar, actualizar o eliminar conexiones y vistas de datos.
+
+O bien puede:
+
+* Conceda acceso a las vistas de datos a las que desee acceder.
+* Conceder acceso a la extensión de BI de Customer Journey Analytics.
 
 ### Credenciales que no caducan
 
-* Cree credenciales que no caduquen en la plataforma de experiencia de Adobe.
-* Conceda acceso a las credenciales que no caducan siguiendo los mismos pasos mencionados en [Credenciales que caducan](#Expiring-credentials).
+Para usar credenciales que no caduquen:
+
+* Cree credenciales que no caduquen en Experience Platform.
+* Conceda acceso a las credenciales que no caducan siguiendo los pasos mencionados en [Credenciales que caducan](#Expiring-credentials).
 
 Consulte [Control de acceso con Recorrido del cliente](../technotes/access-control.md) para obtener más información, en concreto los [permisos adicionales de administrador de productos](../technotes/access-control.md#product-admin-additional-permissions) y los [permisos de Customer Journey Analytics en el Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
