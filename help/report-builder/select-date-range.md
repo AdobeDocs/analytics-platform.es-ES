@@ -1,15 +1,15 @@
 ---
-title: Cómo seleccionar un rango de datos en el Report Builder de Customer Journey Analytics
+title: Cómo seleccionar un intervalo de fecha en el Report Builder de Customer Journey Analytics
 description: Describe cómo utilizar el calendario, las fechas móviles y las expresiones personalizadas en Report Builder for Customer Journey Analytics
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -40,7 +40,7 @@ Tiene la opción de excluir hoy en cualquier intervalo de fechas seleccionado.
 
 ## Usar el calendario
 
-Al usar la variable **Calendario**, el campo intervalo de fechas muestra el intervalo de fechas actual para la solicitud de bloque de datos. Puede introducir fechas directamente en el campo de intervalo de fechas o utilizar una opción de selección de intervalo de datos.
+Al usar la variable **Calendario**, el campo intervalo de fechas muestra el intervalo de fechas actual para la solicitud de bloque de datos. Puede introducir fechas directamente en el campo de intervalo de fechas o utilizar una opción de selección de intervalo de fechas.
 
 ### Campo de intervalo de fechas
 
@@ -92,7 +92,7 @@ La opción fechas móviles permite seleccionar un intervalo de fechas mediante f
 
    ![panel de intervalo de fechas del Report Builder que muestra el día actual más 14 días seleccionados.](./assets/image21.png)
 
-1. Haga clic en Siguiente para definir el intervalo de datos.
+1. Haga clic en Next para definir el intervalo de fechas.
 
    Utilice la vista previa de fecha para confirmar que el intervalo de fecha resultante es el deseado.
 

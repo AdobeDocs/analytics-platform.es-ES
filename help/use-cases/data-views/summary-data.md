@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '5188'
 ht-degree: 8%
@@ -430,7 +430,7 @@ Después de un tiempo, compruebe que los datos de los conjuntos de datos se carg
 1. Seleccione **[!UICONTROL Customer Journey Analytics]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
 1. Seleccione **[!UICONTROL Conexiones]** en el menú superior.
 1. Seleccione su conexión, por ejemplo **[!UICONTROL Ejemplo de conexión con datos de resumen]**.
-1. Seleccione un rango de datos apropiado en los detalles de **[!UICONTROL Conexión]** > **[!UICONTROL Ejemplo de conexión con datos de resumen]**.
+1. Seleccione un intervalo de fechas adecuado en los detalles de **[!UICONTROL Conexión]** > **[!UICONTROL Ejemplo de conexión con datos de resumen]**.
    1. Seleccione ![Calendario](/help/assets/icons/Calendar.svg) y, a continuación, **[!UICONTROL Últimos 7 días]**.
    1. Seleccione **[!UICONTROL Aplicar]**.
 
@@ -550,7 +550,7 @@ Para informar sobre los datos de resumen, cree un nuevo proyecto en Analysis Wor
 Verá un lienzo vacío con un panel [!UICONTROL Forma libre], que consta de una [!UICONTROL tabla de forma libre] vacía.
 
 1. Asegúrese de que la vista de datos seleccionada para el panel haga referencia a la vista de datos que contiene la configuración de los datos de resumen. Por ejemplo, **[!UICONTROL Vista de datos de ejemplo que usa datos de resumen.]**
-1. Asegúrese de que el rango de datos sea válido para los datos sobre los que desea informar. Por ejemplo: **[!UICONTROL Últimos 2 meses completos]**.
+1. Asegúrese de que el intervalo de fechas sea válido para los datos sobre los que desea informar. Por ejemplo: **[!UICONTROL Últimos 2 meses completos]**.
 1. Arrastre **[!UICONTROL Código de seguimiento (evento)]** de **[!UICONTROL Dimension]** y suelte la dimensión en la tabla de forma libre vacía.
 1. Arrastre **[!UICONTROL Pedidos]** desde **[!UICONTROL Métricas]** y suelte la métrica en la columna **[!UICONTROL Eventos]** para reemplazar esa columna en la tabla de forma libre.
 1. Arrastre **[!UICONTROL Ingresos]** de **[!UICONTROL Métricas]** y suelte la métrica para agregarla como una columna adicional a la tabla de forma libre.

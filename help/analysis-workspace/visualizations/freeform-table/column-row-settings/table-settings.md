@@ -4,7 +4,7 @@ title: Configuración de filas
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 347ab5b400fb8a5fddc02878f779be7112d693ab
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 15%
@@ -80,8 +80,8 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | Opción | Descripción |
 |---|---|
 | **[!UICONTROL Crear métrica a partir de la selección]** | Cree una nueva métrica a partir de la métrica seleccionada. La métrica puede ser Media, Media, Máximo de columna, Mínimo de columna y Suma de columna. También puede seleccionar Abrir en el creador de métricas calculadas para crear una métrica calculada. |
-| **[!UICONTROL Añadir columna de periodo de tiempo]** | Agregue una columna Periodo de tiempo. Se le ofrecen varias opciones, donde el intervalo de calendario del panel determina el *intervalo de fecha*: <li>**[!UICONTROL Intervalo de fechas *anterior a este intervalo de datos]***</li><li>**[!UICONTROL Estos *intervalos de fechas* a este intervalo de fechas]**.</li><li>**[!UICONTROL Intervalo de datos personalizado a este intervalo de fechas]**. Abre el **[!UICONTROL Generador de intervalos de fechas]** para especificar el intervalo de fechas.</li>Consulte [Comparación de fechas](/help/components/date-ranges/time-comparison.md) para obtener más información. |
-| **[!UICONTROL Comparar periodos de tiempo]** | Agrega columnas de período de tiempo de comparación. Solo está disponible cuando la dimensión no está basada en el tiempo. Se le ofrecen varias opciones para determinar el *intervalo de fechas*: <li>**[!UICONTROL Intervalo de fechas *anterior a este intervalo de datos]***</li><li>**[!UICONTROL Intervalo de datos personalizado a este intervalo de fechas]**. Abre el **[!UICONTROL Generador de intervalos de fechas]** para especificar el intervalo de fechas.</li>Consulte [Comparación de fechas](/help/components/date-ranges/time-comparison.md) para obtener más información. |
+| **[!UICONTROL Añadir columna de periodo de tiempo]** | Agregue una columna Periodo de tiempo. Se le ofrecen varias opciones, donde el intervalo de calendario del panel determina el *intervalo de fecha*: <li>**[!UICONTROL Intervalo de fechas *anterior a este intervalo de fechas]***</li><li>**[!UICONTROL Estos *intervalos de fechas* a este intervalo de fechas]**.</li><li>**[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]**. Abre el **[!UICONTROL Generador de intervalos de fechas]** para especificar el intervalo de fechas.</li>Consulte [Comparación de fechas](/help/components/date-ranges/time-comparison.md) para obtener más información. |
+| **[!UICONTROL Comparar periodos de tiempo]** | Agrega columnas de período de tiempo de comparación. Solo está disponible cuando la dimensión no está basada en el tiempo. Se le ofrecen varias opciones para determinar el *intervalo de fechas*: <li>**[!UICONTROL Intervalo de fechas *anterior a este intervalo de fechas]***</li><li>**[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]**. Abre el **[!UICONTROL Generador de intervalos de fechas]** para especificar el intervalo de fechas.</li>Consulte [Comparación de fechas](/help/components/date-ranges/time-comparison.md) para obtener más información. |
 | **[!UICONTROL Modificar modelos de atribución]** | Modifique el modelo de atribución para la columna. |
 | **[!UICONTROL Comparar modelo de atribución]** | Especifique un nuevo modelo de atribución y compárelo con el modelo de atribución de la columna seleccionada. Se agrega una nueva columna con las nuevas métricas del modelo de atribución. Además, se agrega una columna Cambio porcentual para la comparación. |
 | **[!UICONTROL Restablecer anchos de columna]** | Restablezca el ancho de columna predeterminado. |

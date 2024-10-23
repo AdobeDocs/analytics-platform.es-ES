@@ -4,7 +4,7 @@ title: Panel de información rápida
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 26%
@@ -77,7 +77,7 @@ Seleccione los componentes básicos:
 * **[!UICONTROL Analizar]** - especifique una dimensión (naranja)
 * **[!UICONTROL por]**: especifique una métrica (verde)
 * **[!UICONTROL filtrar por]** - especificar un filtro (azul)
-* **[!UICONTROL en]** - especifique un intervalo de datos (púrpura).
+* **[!UICONTROL el]** - especifique un intervalo de fecha (púrpura).
 
 Debe seleccionar al menos una dimensión y una métrica para que la visualización funcione correctamente.
 
@@ -114,7 +114,7 @@ Aparecen otras sugerencias útiles en [!UICONTROL Quick Insights Builder], algun
 
   ![Se muestra la notificación del Panel de información rápida después de seleccionar el icono Ayuda.](assets/qibuilder4.png)
 
-* Puede analizar varias dimensiones y métricas, combinar o comparar filtros y especificar un rango de datos:
+* Puede analizar varias dimensiones y métricas, combinar o comparar filtros y especificar un intervalo de fechas:
 
   ![Resultado del Generador de Quick Insights](assets/qibuilder-result.png)
 
@@ -124,7 +124,7 @@ Aparecen otras sugerencias útiles en [!UICONTROL Quick Insights Builder], algun
 
    * **[!UICONTROL filtrar por]**: puede agregar hasta dos filtros más. Por ejemplo, agregue Reservas como filtro y combínelo con los filtros Reservas frecuentes y Prospectos que compare. Consulte ➏, ➐ y ➑.
 
-   * activado: puede especificar el rango de datos. Consulte ➒.
+   * Activado: se puede especificar el intervalo de fechas. Consulte ➒.
 
 ## Limitaciones conocidas
 

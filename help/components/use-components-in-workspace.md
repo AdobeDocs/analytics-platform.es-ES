@@ -4,7 +4,7 @@ title: Uso de componentes en Analysis Workspace
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 7%
@@ -120,7 +120,7 @@ Cada panel incluye un intervalo de fechas de forma predeterminada. Existen varia
 
      ![Colocar un intervalo de fecha](assets/add-date-range.gif)
 
-   * Una métrica o dimensión en una visualización de tabla de forma libre. Consulte [Usar intervalos de datos](/help/components/date-ranges/overview.md#use-date-ranges) para obtener más información.
+   * Una métrica o dimensión en una visualización de tabla de forma libre. Consulte [Usar intervalos de fechas](/help/components/date-ranges/overview.md#use-date-ranges) para obtener más información.
 
 Para obtener más información sobre cómo usar y administrar intervalos de fechas en Analysis Workspace, consulte [Información general sobre los intervalos de fechas](/help/components/date-ranges/overview.md).
 

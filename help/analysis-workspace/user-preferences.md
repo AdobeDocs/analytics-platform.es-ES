@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 77%
@@ -229,7 +229,7 @@ Seleccione los títulos de las secciones vinculadas para obtener más informaci�
 | **Gráficos apilados** | | |
 | | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. <p>Para obtener más información, consulte [Barra y barra apilada](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analysis-workspace/visualizations/histogram.md)** | | |
-| | Número de contenedores | Elija el número de intervalos de datos (contenedores) en la visualización. El número máximo de contenedores es 50. <p>Para obtener más información, consulte [Histograma](/help/analysis-workspace/visualizations/histogram.md).</p> |
+| | Número de contenedores | Elija el número de intervalos de fechas (contenedores) en la visualización. El número máximo de contenedores es 50. <p>Para obtener más información, consulte [Histograma](/help/analysis-workspace/visualizations/histogram.md).</p> |
 | | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Sesión</li><li>Persona</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, puede elegir las vistas de página por persona, las vistas de página por visita o por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
 | **[Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio porcentual</li><li>Diferencia en bruto</li></ul> |

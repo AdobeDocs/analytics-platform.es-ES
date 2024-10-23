@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo ver y administrar registros de aud
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 66%
@@ -18,7 +18,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="cja_tools_auditlog_userid"
 >title="ID de usuario"
->abstract="El ID de usuario se puede encontrar pulsando el botón de información en una entrada de registro donde aparezca el usuario en cuestión."
+>abstract="El ID de usuario se puede encontrar pulsando el botón de información en una entrada de registro que contenga el usuario en cuestión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -111,7 +111,7 @@ Se muestran los siguientes elementos:
 
 Seleccione el icono de canal (![filtro](assets/filter-icon.png)) para mostrar una lista de controles de filtro y ayudar a reducir los resultados. Solo se muestran los últimos 1000 registros, independientemente de los distintos filtros seleccionados.
 
-![Registro de auditoría que muestra los filtros mostrados para el intervalo de datos.](assets/filters.png)
+![Registro de auditoría que muestra los filtros mostrados para el intervalo de fechas.](assets/filters.png)
 
 Los siguientes filtros están disponibles para eventos de auditoría en la interfaz de usuario:
 
