@@ -4,9 +4,9 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
+source-git-commit: 27c76e5090e4dfcfc00fd11c7a67574dc6af1c63
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,13 @@ La perspectiva más destacada en el lienzo de Recorrido se muestra como un pie d
 
 Este pie de ilustración resume cuál de todas las rutas de la recorrido tuvo la tasa de conversión más alta.
 
+Cuando el recorrido contiene varios nodos de inicio, el pie de ilustración tiene este aspecto:
+
 ![pie de ilustración del lienzo de Recorrido](assets/journey-canvas-caption.png)
+
+Cuando el recorrido contiene un solo nodo de inicio, el pie de ilustración tiene este aspecto:
+
+![nodo de inicio único de descripción de lienzo de Recorrido](assets/journey-canvas-caption-singlestart.png)
 
 Tenga en cuenta lo siguiente al interpretar este pie de ilustración:
 
@@ -176,13 +182,9 @@ Esto se debe a que, a diferencia de Journey Optimizer, el lienzo de Recorrido pe
 
 #### Diferencias de características
 
-Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, la funcionalidad puede cambiar para las siguientes funciones, según las modificaciones:
+Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, las opciones disponibles en el campo desplegable [!UICONTROL **Configuración de flecha**] cambian según las modificaciones que realice. Para obtener más información, consulte [Configurar opciones](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
-* Los valores mostrados en el campo [!UICONTROL **Tipo de nodo**] cambian.
-
-* Las opciones disponibles en el campo desplegable [!UICONTROL **Configuración de flecha**] cambian.
-
-Para obtener más información acerca de estos campos, vea [Configurar opciones](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+El campo [!UICONTROL **Tipo de nodo**] solo está disponible en Journey Optimizer. No está disponible cuando se ve un recorrido de Journey Optimizer en lienzo de Recorrido, independientemente de si se realizan modificaciones en el recorrido en lienzo de Recorrido.
 
 #### Diferencias de sincronización
 
