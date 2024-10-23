@@ -5,9 +5,9 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 1e7d61f05a8351a1bd9e4d289c9d31906676f909
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1806'
 ht-degree: 28%
 
 ---
@@ -15,11 +15,6 @@ ht-degree: 28%
 # Información general sobre el análisis guiado
 
 El análisis guiado permite a los usuarios, desde marketing hasta productos y analistas, ofrecer datos de alta calidad y perspectivas sobre el recorrido del cliente a través de flujos de trabajo guiados, basados en los datos de canales cruzados de Customer Journey Analytics. Al igual que los cuadros de resultados de Analysis Workspace y Mobile, el análisis guiado usa datos de [Data view](/help/data-views/data-views.md), que hace referencia a los datos de Adobe Experience Platform a través de una [conexión](../connections/overview.md). Muchos informes creados en Guided analysis pueden transferirse sin problemas a Analysis Workspace para realizar investigaciones adicionales.
-
->[!NOTE]
->
->Consulte las [preguntas más frecuentes](faq.md) para ver las diferencias terminológicas (segmentos, filtros y más) entre Análisis guiado y Analysis Workspace.
-
 
 Los siguientes análisis guiados están disponibles:
 
