@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: b2e165e5bb2c15fecaba1c8b14daeb727c0cead5
+source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
-source-wordcount: '3044'
-ht-degree: 63%
+source-wordcount: '3078'
+ht-degree: 62%
 
 ---
 
@@ -28,15 +28,22 @@ Las principales ventajas son las siguientes:
 
 ## Requisitos previos
 
-Para utilizar esta funcionalidad, debe tener:
-
+Para usar esta funcionalidad, puede usar credenciales que caduquen o no caduquen para conectar las herramientas de BI a [!DNL Customer Journey Analytics BI extension]. La [Guía de credenciales](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) proporciona más información sobre cómo configurar credenciales que caducan o que no caducan.
+A continuación se muestran pasos adicionales para configurar los permisos de CJA
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
+
+### Credenciales que caducan
 
 * Se ha concedido acceso al Experience Platform y al Customer Journey Analytics.
 * Se ha concedido acceso de administrador de producto a Customer Journey Analytics para que pueda ver, editar, actualizar o eliminar conexiones y vistas de datos.
+* O BIEN
 * Se ha concedido acceso a las vistas de datos a las que desea acceder.
 * Se ha concedido acceso a la extensión de CJA BI.
-* Use las credenciales que no caducan para conectar las herramientas de BI a [!DNL Customer Journey Analytics BI extension]. La [Guía de credenciales](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) proporciona más información sobre cómo configurar credenciales que caducan o que no caducan.
+
+### Credenciales que no caducan
+
+* Cree credenciales que no caduquen en la plataforma de experiencia de Adobe.
+* Conceda acceso a las credenciales que no caducan siguiendo los mismos pasos mencionados en [Credenciales que caducan](#Expiring-credentials).
 
 Consulte [Control de acceso con Recorrido del cliente](../technotes/access-control.md) para obtener más información, en concreto los [permisos adicionales de administrador de productos](../technotes/access-control.md#product-admin-additional-permissions) y los [permisos de Customer Journey Analytics en el Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 

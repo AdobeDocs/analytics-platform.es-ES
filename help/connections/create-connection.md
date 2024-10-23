@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ea95b576a9d8309d2c6c2aeba589db1fd28ce499
+source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 95%
+source-wordcount: '3747'
+ht-degree: 94%
 
 ---
 
@@ -194,6 +194,16 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 >abstract="Seleccione un ID de grupo de compra (el identificador único de un grupo de compra) entre las identidades disponibles definidas en el esquema del conjunto de datos en el Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_matchingkey"
+>title="Clave de coincidencia"
+>abstract="Seleccione cómo desea unirse: en función de una clave coincidente o de un contenedor coincidente.<br/><br/>**[!UICONTROL Clave de coincidencia ]**: seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya agregado ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Contenedor coincidente]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 <!-- markdownlint-disable MD034 -->
