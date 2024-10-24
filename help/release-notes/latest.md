@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3db41390781517932447ab5e67cf9ba8fe02d774
+source-git-commit: 0920203cc40cdf234186851a931492843182cf5c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 58%
+source-wordcount: '377'
+ht-degree: 50%
 
 ---
 
@@ -23,6 +23,7 @@ Estas notas de la versión abarcan el período de lanzamiento del 15 de octubre 
 | **Transferencia de recursos** | Permite transferir la propiedad de componentes como proyectos, filtros y métricas calculadas a otros usuarios para garantizar la continuidad y el acceso adecuado. [Más información](/help/tools/asset-transfer/transfer-assets.md) |  | Octubre de 15 |
 | **Análisis guiado: incrustar en Workspace** | El [análisis guiado](https://experienceleague.adobe.com/es/docs/analytics-platform/using/guided-analysis/overview) ya está disponible directamente en Analysis Workspace, lo que permite a los usuarios crear paneles con información exhaustiva de paneles, visualizaciones y análisis guiados. Desde una nueva sección del carril izquierdo, puede crear nuevos análisis guiados para añadirlos a sus proyectos. También puede acceder a análisis guiados guardados que se pueden reutilizar como componentes básicos en muchos proyectos. | 2 de octubre de 2024 | jueves, 23 de octubre de 2024 |
 | **Uso del producto** | Consulte cómo utiliza su organización Customer Journey Analytics. Al habilitar esta función, se crea un conjunto de datos en Adobe Experience Platform que recopila datos cuando cualquier persona de su organización utiliza Analysis Workspace. También se crean automáticamente una conexión y una vista de datos, lo que le permite acceder a dimensiones como los tipos de proyecto principales, los usuarios más activos y los componentes más populares que se utilizan en los proyectos. [Vínculo a la documentación próximamente] | jueves, 23 de octubre de 2024 | Enero de 2025 |
+| **Nueva información sobre los factores de solicitud en el rendimiento de Analysis Workspace** | Ahora hay disponible una nueva sección &quot;Factores de solicitud&quot; al analizar el rendimiento en Analysis Workspace. Para obtener más información sobre cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento, consulte &quot;Factores de solicitud&quot; en [Optimizar el rendimiento de Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/optimizing-performance#request-factors). |  | miércoles, 01 de octubre de 2024 |
 
 
 ## Correcciones en Customer Journey Analytics
