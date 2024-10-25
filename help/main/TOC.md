@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
+source-git-commit: 925eae6eb1b23e761432081f0dbcdcada9ce9be4
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 85%
+source-wordcount: '942'
+ht-degree: 92%
 
 ---
 
@@ -47,13 +47,13 @@ ht-degree: 85%
       + [Conservar datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
       + [Información general](../getting-started/aa-vs-cja/overview.md)
-      + [Uso de datos de Adobe Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [Utilizar datos en Adobe Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Compatibilidad de funciones](../getting-started/aa-vs-cja/cja-aa.md)
       + [Comparar terminología](../getting-started/aa-vs-cja/terminology.md)
       + [Comparar procesamiento de datos](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Entornos](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Procesamiento de Analytics frente a preparación de datos](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [Identidades de Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [ID de Analytics:](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Evolución desde Adobe Analytics](../getting-started/aa-to-cja.md)
    + [Guía para usuarios de Adobe Analytics](../getting-started/aa-to-cja-user.md)
 
@@ -92,7 +92,7 @@ ht-degree: 85%
       + [Persistencia](../data-views/component-settings/persistence.md)
       + [Subcadena](../data-views/component-settings/substring.md)
       + [Grupo de datos de resumen](../data-views/component-settings/summary-data-group.md)
-      + [Clasificación de valor](../data-views/component-settings/value-bucketing.md)
+      + [Creación de depósitos](../data-views/component-settings/value-bucketing.md)
    + [Referencia de componente estándar](../data-views/component-reference.md)
    + [Extensión de BI](../data-views/bi-extension.md)
    + [Campos derivados](../data-views/derived-fields/derived-fields.md)
@@ -130,7 +130,7 @@ ht-degree: 85%
       + [Pies de ilustración inteligentes](../analysis-workspace/visualizations/intelligent-captions.md)
       + Tabla de forma libre {#freeform-table}
          + [Información general](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [Creación de hipervínculos](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Crear hipervínculo](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Configuración de columna y fila {#column-row-settings}
             + [Configuración de columna](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
@@ -164,7 +164,7 @@ ht-degree: 85%
       + [Resumen de métricas clave](../analysis-workspace/visualizations/key-metric.md)
       + [Línea](../analysis-workspace/visualizations/line.md)
       + [Dispersión](../analysis-workspace/visualizations/scatterplot.md)
-      + [Número y cambio de resumen](../analysis-workspace/visualizations/summary-number-change.md)
+      + [Número de resumen y cambio](../analysis-workspace/visualizations/summary-number-change.md)
       + [Encabezado de sección](/help/analysis-workspace/visualizations/section-header.md)
       + [Texto](../analysis-workspace/visualizations/text.md)
       + [Mapa de árbol](../analysis-workspace/visualizations/treemap.md)
@@ -174,12 +174,12 @@ ht-degree: 85%
       + [Panel en blanco](../analysis-workspace/c-panels/blank-panel.md)
       + [Atribución](../analysis-workspace/c-panels/attribution.md)
       + [Experimentación](../analysis-workspace/c-panels/experimentation.md)
-      + [de forma libre](../analysis-workspace/c-panels/freeform-panel.md)
+      + [De forma libre](../analysis-workspace/c-panels/freeform-panel.md)
       + [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Espectadores simultáneos de medios](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Tiempo invertido en la reproducción de contenido](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Tiempo invertido en la reproducción de medios](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento siguiente o anterior](../analysis-workspace/c-panels/next-previous.md)
-      + [Quick insights](../analysis-workspace/c-panels/quickinsight.md)
+      + [Acceso rápido a información](../analysis-workspace/c-panels/quickinsight.md)
    + Depuración, uso compartido y programación de proyectos {#curate-share}
       + [Información general](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](../analysis-workspace/curate-share/curate.md)
@@ -271,7 +271,7 @@ ht-degree: 85%
    + Métricas calculadas {#cja-calcmetrics}
       + [Información general](../components/calc-metrics/calc-metr-overview.md)
       + Flujo de trabajo de las métricas calculadas {#cm-workflow}
-         + [Creación de métricas calculadas](../components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [Crear métricas calculadas](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Crear métricas calculadas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Buscar métricas](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Tipo de métrica y atribución](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
@@ -363,9 +363,10 @@ ht-degree: 85%
       + [Ingesta y uso de datos de Marketo Engage](../use-cases/data-ingestion/marketo.md)
       + [Ingesta y uso de públicos de Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Vistas de datos {#data-views}
-      + [Casos de uso de vistas de datos](../use-cases/data-views/data-views-usecases.md)
-      + [Uso de dimensiones y métricas de enlace](../use-cases/data-views/binding-dimensions-metrics.md)
-      + [Uso de datos de resumen](../use-cases/data-views/summary-data.md)
+      + [Casos de uso de vistas de datos](/help/use-cases/data-views/data-views-usecases.md)
+      + [Uso de dimensiones y métricas de enlace](/help/use-cases/data-views/binding-dimensions-metrics.md)
+      + [Uso de datos de resumen](/help/use-cases/data-views/summary-data.md)
+      + [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md)
    + Exportación de datos {#data-export}
       + [Información general](../use-cases/data-export/overview.md)
       + [Extensión de BI](../use-cases/data-export/bi-extension.md)

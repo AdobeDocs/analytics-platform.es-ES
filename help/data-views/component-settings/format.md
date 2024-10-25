@@ -5,10 +5,10 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: bd89162aa81648133cbf05357fb7f8911ba91002
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 21%
+source-wordcount: '737'
+ht-degree: 22%
 
 ---
 
@@ -19,9 +19,19 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_format"
 >title="Formato"
->abstract="Especifique cómo se muestra un componente al usarlo en los informes."
+>abstract="Determine cómo se muestra un componente cuando se utiliza en los informes."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_format_currencyconversion"
+>title="Conversión de moneda"
+>abstract="Seleccione una dimensión de código de moneda para configurar y mostrar la moneda en un tipo de moneda seleccionado."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 El formato le permite determinar cómo se muestra una métrica determinada cuando se utiliza en los informes.
