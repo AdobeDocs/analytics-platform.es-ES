@@ -1,9 +1,7 @@
 ---
 title: Configuración de los datos de uso del producto
 description: Habilite, deshabilite o configure las opciones de uso del producto.
-hide: true
-hidefromtoc: true
-source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
+source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 14%
