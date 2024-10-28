@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bd89162aa81648133cbf05357fb7f8911ba91002
+source-git-commit: bab067f50e04b7eb1a211d8767cd2cd7a2acd9c5
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 97%
@@ -63,8 +63,6 @@ Proporciona una configuración general para la vista de datos.
 {style="table-layout:auto"}
 
 ### Compatibilidad {#compatibility}
-
-{{release-limited-testing-section}}
 
 <!-- markdownlint-disable MD034 -->
 
