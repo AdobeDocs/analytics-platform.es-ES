@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 2%
+source-wordcount: '1259'
+ht-degree: 3%
 
 ---
 
-# Análisis de retención
+# Análisis de retención {#retention}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_retention_button"
+>title="Retención"
+>abstract="Mida cuántos usuarios siguen utilizando su producto."
+
+<!-- markdownlint-enable MD034 -->
 
 El análisis ![Retención](/help/assets/icons/Retention.svg) **[!UICONTROL Retención]** mide cómo los usuarios siguen usando tu producto a lo largo del tiempo, lo que puede ayudarte a comprender el ajuste del mercado de tu producto. El análisis cuenta los usuarios en función de dos eventos importantes:
 

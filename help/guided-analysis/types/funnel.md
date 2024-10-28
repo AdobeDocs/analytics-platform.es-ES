@@ -5,14 +5,23 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Análisis de [!UICONTROL canal]
+# Análisis de [!UICONTROL canal] {#funnel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_funnel_button"
+>title="Canal"
+>abstract="Compare las tasas de conversión entre pasos."
+
+<!-- markdownlint-enable MD034 -->
 
 El análisis ![ConversionEmbudo](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Embudo ]**proporciona una representación visual de un recorrido de usuario crítico en su producto. El eje horizontal representa cada paso que debe pasar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
 
