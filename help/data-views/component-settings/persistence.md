@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 81%
+source-wordcount: '913'
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="Persistencia"
->abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes de los filtros en el sistema de informes."
+>abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes de los filtros en los informes. Consulte para obtener más información [configuración de asignación](/help/data-views/component-settings/persistence.md#allocation-settings), [configuración de caducidad](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensión de enlace](/help/data-views/component-settings/persistence.md#binding-dimension) y métricas de enlace."
 
 <!-- markdownlint-enable MD034 -->
 

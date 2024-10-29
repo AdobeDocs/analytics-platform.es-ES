@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bab067f50e04b7eb1a211d8767cd2cd7a2acd9c5
+source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 97%
@@ -30,16 +30,6 @@ Creación o edición de una vista de datos:
 
 ## Configuración {#configure}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_dataview_externalid"
->title="ID externo"
->abstract="El cambio del ID externo puede afectar a la forma en que el nombre de la vista de datos aparece en fuentes externas, como las herramientas de inteligencia empresarial."
-
-<!-- markdownlint-enable MD034 -->
-
-
 Para configurar una vista de datos nueva o existente, haga lo siguiente:
 
 1. Seleccione la pestaña **[!UICONTROL Configurar]** (si no está activa).
@@ -49,7 +39,16 @@ Para configurar una vista de datos nueva o existente, haga lo siguiente:
 1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
 
 
-### Configuración
+### Configuración {#settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_externalid"
+>title="ID externo"
+>abstract="El cambio del ID externo puede afectar a la forma en que el nombre de la vista de datos aparece en fuentes externas, como las herramientas de inteligencia empresarial."
+
+<!-- markdownlint-enable MD034 -->
 
 Proporciona una configuración general para la vista de datos.
 
