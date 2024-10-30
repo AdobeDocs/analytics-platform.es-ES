@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1973'
 ht-degree: 18%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 18%
 
 
 
-En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) en Adobe Experience Platform para la segmentación y personalización de clientes.
+En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home) en Adobe Experience Platform para la segmentación y personalización de clientes.
 
 Lea esta [descripción general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de Customer Journey Analytics.
 
@@ -126,7 +126,7 @@ Después de crear y publicar una audiencia en Customer Journey Analytics, esta e
 
 * La audiencia de Platform comparte el mismo nombre y la misma descripción que la audiencia del Customer Journey Analytics. El nombre se adjunta con el ID de audiencia del Customer Journey Analytics para garantizar que la audiencia sea única.
 * Cualquier cambio realizado en el nombre o la descripción de la audiencia en Customer Journey Analytics se reflejará en Experience Platform.
-* Si una audiencia se elimina en Customer Journey Analytics, seguirá estando disponible en Experience Platform.
+* Si una audiencia se elimina en Customer Journey Analytics, esta permanecerá disponible en Experience Platform hasta que caduque el perfil al que pertenece. La pertenencia al perfil caduca pasados 420 días en el caso de audiencias únicas y después de 16 días en el de audiencias recurrentes.
 
 ## Consideraciones de latencia {#latency}
 
