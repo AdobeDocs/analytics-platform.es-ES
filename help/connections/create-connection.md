@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
 source-wordcount: '3747'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsadded"
 >title="Registros añadidos"
->abstract="El número de registros (filas) añadidos a una Conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
+>abstract="El número de registros/filas añadidos a una conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsskipped"
 >title="Registros omitidos"
->abstract="El número de registros (filas) omitidos durante la transferencia de datos para una Conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
+>abstract="El número de registros/filas omitidas durante la transferencia de datos de una conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,7 +37,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsdeleted"
 >title="Registros eliminados"
->abstract="El número de registros (filas) eliminados de una conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados"
+>abstract="El número de registros/filas eliminados de una conexión durante el intervalo de tiempo seleccionado para los conjuntos de datos seleccionados."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -46,7 +46,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_lastadded"
 >title="Última incorporación"
->abstract="La marca de tiempo del último lote de cualquier conjunto de datos transferido a una Conexión."
+>abstract=" La marca de tiempo del último lote de cualquier conjunto de datos se ha transferido a una conexión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,8 +54,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_enablerollingdatawindow"
->title="Activar la ventana de datos móviles"
->abstract="Defina la retención de datos como un período de tiempo variable en meses en el nivel de conexión."
+>title="Habilitar la ventana de datos acumulados"
+>abstract="Defina la retención de datos como una ventana móvil en meses con respecto a la conexión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,8 +63,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_averagenumberofdailyuses"
->title="Cantidad promedio de usos diarios"
->abstract="Seleccione un rango para la cantidad de eventos diarios esperados para toda la conexión."
+>title="Promedio del número de eventos diarios"
+>abstract="Seleccione un rango para la cantidad de eventos diarios previstos para toda la conexión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -136,7 +136,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 >[!CONTEXTUALHELP]
 >id="cja_connection_primaryID"
 >title="ID principal"
->abstract="Seleccione el ID principal adecuado para la conexión: Persona para un escenario B2C. Cuenta para un escenario B2B."
+>abstract="Selecciona el ID principal adecuado para la conexión: persona para un escenario B2C. Cuenta para un escenario B2B."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -146,7 +146,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalContainers"
 >title="Contenedores opcionales"
->abstract="Seleccione contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
+>abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -155,7 +155,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 >[!CONTEXTUALHELP]
 >id="cja_connection_personID"
 >title="ID de la persona"
->abstract="Seleccione un ID de persona de las identidades disponibles del esquema del conjunto de datos en Experience Platform."
+>abstract="Selecciona un ID de persona entre las identidades disponibles de los esquemas del conjunto de datos en Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -164,7 +164,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountID"
 >title="ID de cuenta"
->abstract="Seleccione un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos en el Experience Platform."
+>abstract="Selecciona un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -172,8 +172,8 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_globalAccountID"
->title="ID de cuenta global"
->abstract="Seleccione un ID de cuenta global (el identificador único de una cuenta global) de las identidades disponibles definidas en el esquema del conjunto de datos en el Experience Platform."
+>title="ID de compañía global"
+>abstract="Selecciona un ID de cuenta global (el identificador único de una cuenta global) de las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -181,8 +181,8 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_opportunityID"
->title="ID de oportunidad"
->abstract="Seleccione un ID de oportunidad (el identificador único de una oportunidad) entre las identidades disponibles definidas en el esquema del conjunto de datos en el Experience Platform."
+>title="Identificación de oportunidad"
+>abstract="Selecciona un ID de oportunidad (el identificador único de una oportunidad) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -190,8 +190,8 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_buyingGroupID"
->title="ID del grupo de compra"
->abstract="Seleccione un ID de grupo de compra (el identificador único de un grupo de compra) entre las identidades disponibles definidas en el esquema del conjunto de datos en el Experience Platform."
+>title="ID del grupo de compras"
+>abstract="Selecciona un ID de grupo de compras (el identificador único de un grupo de compras) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -199,8 +199,8 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
->title="Clave de coincidencia"
->abstract="Seleccione cómo desea unirse: en función de una clave coincidente o de un contenedor coincidente.<br/><br/>**[!UICONTROL Clave de coincidencia ]**: seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya agregado ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Contenedor coincidente]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
+>title="Clave de correspondencia"
+>abstract="Seleccione cómo desea unirse: mediante una clave de coincidencia o un contenedor de coincidencia.<br/><br/>**[!UICONTROL Clave de coincidencia ]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya agregado ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Contenedor de coincidencia]**: seleccione un contenedor para utilizarlo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -211,7 +211,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
 >title="Importar datos nuevos"
->abstract="Los lotes nuevos que se añadan al conjunto de datos de Experience Platform se sumarán automáticamente a esta conexión y estarán disponibles para su análisis."
+>abstract="Cualquier lote nuevo que se añada al conjunto de datos de Experience Platform se añadirá automáticamente a esta conexión y estará disponible para su análisis."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -228,8 +228,8 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
->title="Transformación de un conjunto de datos"
->abstract="Esta opción transformará el conjunto de datos para que pueda emplearse para búsquedas basadas en personas en escenarios B2B. Una vez activada, la transformación del conjunto de datos es irreversible."
+>title="Transformar conjunto de datos"
+>abstract="Esta opción transformará el conjunto de datos para que pueda utilizarse para búsquedas basadas en personas en escenarios B2B. Una vez activada, la transformación del conjunto de datos es irreversible."
 
 <!-- markdownlint-enable MD034 -->
 
