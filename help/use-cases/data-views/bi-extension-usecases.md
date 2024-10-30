@@ -6,10 +6,10 @@ feature: Data Views
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: b111a75041743e14a71d0df56b04c85ed4bae7b8
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 4%
+source-wordcount: '2575'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +38,9 @@ Los siguientes casos de uso están documentados:
 Para cada caso de uso, hay instrucciones disponibles para las siguientes herramientas de BI en la sección **Detalles**:
 
 * Power BI Desktop (versión 2.136.1478.0 de 64 bits (septiembre de 2024))
-* Tableau Desktop (versión 2022.3.5 (20223.23.0310) de 64 bits)
+* Tableau Desktop (versión 2024.1.5 (20241.24.0705.0334) de 64 bits)
 
-Las instrucciones hacen referencia a una vista de datos de ejemplo denominada **[!UICONTROL public.ares_sql_validation]**, dos dimensiones de ejemplo (**[!UICONTROL Product Name]** y **[!UICONTROL Product Category]**) y dos métricas de ejemplo (**[!UICONTROL Purchases]** e **[!UICONTROL Purchase Revenue]**). Cuando siga las instrucciones, modifique estos objetos de ejemplo para su entorno específico cuando corresponda.
+Las instrucciones hacen referencia a una vista de datos de ejemplo llamada **[!UICONTROL public.cc_data_view]**, dos dimensiones de ejemplo (**[!UICONTROL Product Name]** y **[!UICONTROL Product Category]**) y dos métricas de ejemplo (**[!UICONTROL Purchases]** e **[!UICONTROL Purchase Revenue]**). Cuando siga las instrucciones, modifique estos objetos de ejemplo para su entorno específico cuando corresponda.
 
 
 ## Conexión y lista de vistas de datos
@@ -81,13 +81,13 @@ Este caso de uso configura la conexión de la herramienta BI al Customer Journey
    1. Seleccione **[!UICONTROL Conectar]**.
 1. En el cuadro de diálogo **[!UICONTROL Navegador]**, se recuperan las vistas de datos. Esta recuperación puede tardar un poco. Una vez recuperado:
    Power BI ![Datos de carga del servidor de escritorio](assets/powerbi-navigator-load.png)
-   1. Seleccione **[!UICONTROL public.ares_sql_validation]** en la lista del panel izquierdo.
+   1. Seleccione **[!UICONTROL public.cc_data_view]** de la lista del panel izquierdo.
    1. Seleccione **[!UICONTROL Cargar]**.
 1. Después de un tiempo, las métricas y dimensiones disponibles se mostrarán en el panel **[!UICONTROL Datos]**.
    Power BI ![Datos Del Servidor De Escritorio Cargados](assets/powerbi-navigator-loaded.png)
 
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 1. Acceda a las credenciales y los parámetros necesarios desde la interfaz de usuario del servicio de consultas de Experience Platform.
 
@@ -118,8 +118,8 @@ Este caso de uso configura la conexión de la herramienta BI al Customer Journey
    * Nombre de la base de datos, debajo de **[!UICONTROL Database]**.
    * Una lista de tablas, debajo de **[!UICONTROL Tabla]**.
      ![Tableau conectado](assets/tableau-connected.png)
-   1. Arrastre la entrada **[!UICONTROL ares_sql_validation]** y suéltela en la vista principal que dice **[!UICONTROL Arrastrar tablas]** aquí.
-1. La ventana principal ahora muestra detalles de la vista de datos **[!UICONTROL ares_sql_validation]**.
+   1. Arrastre la entrada **[!UICONTROL cc_data_view]** y suéltela en la vista principal que dice **[!UICONTROL Arrastrar tablas]** aquí.
+1. La ventana principal ahora muestra detalles de la vista de datos **[!UICONTROL cc_data_view]**.
    ![Tableau conectado](assets/tableau-validation.png)
 
 >[!ENDTABS]
@@ -132,6 +132,11 @@ Este caso de uso configura la conexión de la herramienta BI al Customer Journey
 En este caso de uso, desea mostrar una tabla y una visualización de línea simple que muestre una tendencia diaria de ocurrencias desde el 1 de enero de 2023 hasta el 31 de enero de 2023.
 
 +++ Detalles
+
+>[!PREREQUISITES]
+>
+>Asegúrese de que ha validado una conexión correcta [y de que puede enumerar las vistas de datos](#connect-and-list-data-views) de la herramienta de BI para la que desea probar este caso de uso.
+>
 
 >[!BEGINTABS]
 
@@ -169,7 +174,7 @@ En este caso de uso, desea mostrar una tabla y una visualización de línea simp
 
    ![Visualización de tendencias diarias finales del caso de uso 2 del escritorio de Power BI](assets/uc2-pbi-filter-final.png)
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 1. Seleccione la ficha **[!UICONTROL Hoja 1]** en la parte inferior para cambiar de **[!UICONTROL Fuente de datos]**. En la vista **[!UICONTROL Hoja 1]**:
    1. Arrastre la entrada **[!UICONTROL Daterange]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suéltela en el estante **[!UICONTROL Filtros]**.
@@ -196,11 +201,11 @@ En este caso de uso, desea mostrar una tabla y una visualización de línea simp
    1. Arrastre **[!UICONTROL DAY(Daterangeday)]** de **[!UICONTROL Columnas]** a **[!UICONTROL Filas]**.
    1. Modifique **[!UICONTROL Estándar]** a **[!UICONTROL Vista completa]** desde el menú desplegable de la barra de herramientas.
 
-      La vista de **[!UICONTROL Day]** debería ser similar a la siguiente.
+      La vista de **[!UICONTROL Datos]** debe ser similar a la siguiente.
 
       ![Datos de escritorio Tableau](assets/uc2-tableau-data.png)
 
-1. Seleccione la ficha **[!UICONTROL Tablero]** para crear una nueva vista de **[!UICONTROL Tablero 1]**. En la vista **[!UICONTROL Panel 1]**:
+1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
    1. Arrastre y suelte la hoja **[!UICONTROL Graph]** del estante **[!UICONTROL Sheets]** en la vista **[!UICONTROL Dashboard 1]** que dice *Colocar hojas aquí*.
    1. Arrastre y suelte la hoja **[!UICONTROL Data]** del estante **[!UICONTROL Sheets]** debajo de la hoja **[!UICONTROL Graph]** en la vista **[!UICONTROL Dashboard 1]**.
    1. Seleccione la hoja **[!UICONTROL Data]** en la vista y modifique **[!UICONTROL Toda la vista]** a **[!UICONTROL Anchura de la corrección]**.
@@ -209,7 +214,6 @@ En este caso de uso, desea mostrar una tabla y una visualización de línea simp
 
       ![Tablero de escritorio Tableau 1](assets/uc2-tableau-dashboard.png)
 
-
 >[!ENDTABS]
 
 +++
@@ -217,19 +221,61 @@ En este caso de uso, desea mostrar una tabla y una visualización de línea simp
 
 ## Tendencia horaria
 
-Resumen del caso de uso
+En este caso de uso, desea mostrar una tabla y una visualización de línea simple que muestre una tendencia horaria de ocurrencias para el 1 de enero de 2023.
 
 +++ Detalles
+
+>[!PREREQUISITES]
+>
+>Asegúrese de que ha validado una conexión correcta [y de que puede enumerar las vistas de datos](#connect-and-list-data-views) de la herramienta de BI para la que desea probar este caso de uso.
+>
 
 >[!BEGINTABS]
 
 >[!TAB Escritorio de Power BI]
 
-Pasos
+El Power BI ![Alert](/help/assets/icons/Alert.svg) no entiende **cómo manejar las columnas de fecha y hora, por lo que no se admiten dimensiones como**[!UICONTROL  daterangehour ]**y**[!UICONTROL  daterangeminute ]**.**
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
-Pasos
+1. Seleccione la ficha **[!UICONTROL Hoja 1]** en la parte inferior para cambiar de **[!UICONTROL Fuente de datos]**. En la vista **[!UICONTROL Hoja 1]**:
+   1. Arrastre la entrada **[!UICONTROL Daterange]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suéltela en el estante **[!UICONTROL Filtros]**.
+   1. En el cuadro de diálogo **[!UICONTROL Filtros de campo \[Intervalo de fechas\]]**, seleccione **[!UICONTROL Intervalo de fechas]** y seleccione **[!UICONTROL Siguiente >]**.
+   1. En el cuadro de diálogo **[!UICONTROL Filtrar \[Daterange]]**, seleccione **[!UICONTROL Intervalo de fechas]** y especifique un período de `01/01/2023` - `02/01/2023`.
+
+      ![Filtro Tableau para escritorio](assets/uc3-tableau-filter.png)
+
+   1. Arrastre y suelte **[!UICONTROL Daterangehour]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]**.
+      * Seleccione **[!UICONTROL Más]** > **[!UICONTROL Horas]** del menú desplegable **[!UICONTROL Daterangeday]**, para que el valor se actualice a **[!UICONTROL HOUR(Daterangeday)]**.
+   1. Arrastre y suelte **[!UICONTROL Ocurrencias]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**.
+      * Los valores se convierten automáticamente a **[!UICONTROL SUM(Occurrences)]**.
+   1. Modifique **[!UICONTROL Estándar]** a **[!UICONTROL Vista completa]** desde el menú desplegable de la barra de herramientas.
+
+      La vista Hoja 1 debería ser similar a la siguiente.
+
+      ![Tableau Desktop Graph](assets/uc3-tableau-graph.png)
+
+1. Seleccione **[!UICONTROL Duplicate]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para crear una segunda hoja.
+1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para cambiar el nombre de la hoja a `Graph`.
+1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1 (2)]** para cambiar el nombre de la hoja a `Data`.
+1. Asegúrese de que la hoja **[!UICONTROL Data]** esté seleccionada. En la vista Datos:
+   1. Seleccione **[!UICONTROL Mostrarme]** en la parte superior derecha y seleccione **[!UICONTROL Tabla de texto]** (visualización superior izquierda superior) para modificar el contenido de la vista de datos a una tabla.
+   1. Arrastre **[!UICONTROL HOUR(Daterangeday)]** de **[!UICONTROL Columnas]** a **[!UICONTROL Filas]**.
+   1. Modifique **[!UICONTROL Estándar]** a **[!UICONTROL Vista completa]** desde el menú desplegable de la barra de herramientas.
+
+      La vista de **[!UICONTROL Datos]** debe ser similar a la siguiente.
+
+      ![Datos de escritorio Tableau](assets/uc3-tableau-data.png)
+
+1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
+   1. Arrastre y suelte la hoja **[!UICONTROL Graph]** del estante **[!UICONTROL Sheets]** en la vista **[!UICONTROL Dashboard 1]** que dice *Colocar hojas aquí*.
+   1. Arrastre y suelte la hoja **[!UICONTROL Data]** del estante **[!UICONTROL Sheets]** debajo de la hoja **[!UICONTROL Graph]** en la vista **[!UICONTROL Dashboard 1]**.
+   1. Seleccione la hoja **[!UICONTROL Data]** en la vista y modifique **[!UICONTROL Toda la vista]** a **[!UICONTROL Anchura de la corrección]**.
+
+      La vista del **[!UICONTROL panel 1]** debería ser similar a la siguiente.
+
+      ![Tablero de escritorio Tableau 1](assets/uc3-tableau-dashboard.png)
+
 
 >[!ENDTABS]
 
@@ -238,19 +284,90 @@ Pasos
 
 ## Tendencia mensual
 
-Resumen del caso de uso
+En este caso de uso, desea mostrar una tabla y una visualización de línea simple que muestre una tendencia mensual de ocurrencias entre el 1 de enero de 2023 y el 1 de enero de 2024.
 
 +++ Detalles
+
+>[!PREREQUISITES]
+>
+>Asegúrese de que ha validado una conexión correcta [y de que puede enumerar las vistas de datos](#connect-and-list-data-views) de la herramienta de BI para la que desea probar este caso de uso.
+>
 
 >[!BEGINTABS]
 
 >[!TAB Escritorio de Power BI]
 
-Pasos
+1. En el panel **[!UICONTROL Datos]**:
+   1. Seleccione la dimensión **[!UICONTROL daterangemonth]**.
+   1. Seleccione la métrica **[!UICONTROL ocurrencias]**.
 
->[!TAB Tableau]
+   Verá una tabla que muestra las ocurrencias del mes actual. Para obtener una mejor visibilidad, amplíe la visualización de tabla.
 
-Pasos
+1. En el panel **[!UICONTROL Filtros]**:
+
+   1. Seleccione **[!UICONTROL daterangemonth is (All)]** de **[!UICONTROL Filtros en este elemento visual]**.
+   1. Seleccione **[!UICONTROL Filtro avanzado]** como **[!UICONTROL Tipo de filtro]**.
+   1. Defina el filtro para **[!UICONTROL Mostrar elementos cuando el valor]** **[!UICONTROL esté en]** `1/1/2023` **[!UICONTROL y]** **[!UICONTROL esté antes de]** `1/1/2024.`. Puede usar el icono del calendario para elegir y seleccionar fechas.
+   1. Seleccione **[!UICONTROL Aplicar filtro]**.
+
+   Verá la tabla actualizada con el filtro **[!UICONTROL daterangeday]** aplicado.
+
+1. En el panel **[!UICONTROL Visualizaciones]**:
+
+   1. Seleccione la visualización **[!UICONTROL Gráfico de líneas]**.
+
+   Una visualización de gráfico de líneas reemplaza la tabla mientras utiliza los mismos datos que la tabla.
+
+   ![Filtro de intervalo de fechas del caso de uso 2 del escritorio de Power BI](assets/uc4-pbi-filter-daterange.png)
+
+1. En la visualización del gráfico de líneas:
+
+   1. Seleccione ![Más](/help/assets/icons/More.svg).
+   1. En el menú contextual, seleccione **[!UICONTROL Mostrar como tabla]**.
+
+   La vista principal se actualiza para mostrar una visualización de líneas y una tabla.
+
+   ![Visualización de tendencias diarias finales del caso de uso 2 del escritorio de Power BI](assets/uc4-pbi-filter-final.png)
+
+>[!TAB Escritorio Tableau]
+
+1. Seleccione la ficha **[!UICONTROL Hoja 1]** en la parte inferior para cambiar de **[!UICONTROL Fuente de datos]**. En la vista **[!UICONTROL Hoja 1]**:
+   1. Arrastre la entrada **[!UICONTROL Daterange]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suéltela en el estante **[!UICONTROL Filtros]**.
+   1. En el cuadro de diálogo **[!UICONTROL Filtros de campo \[Intervalo de fechas\]]**, seleccione **[!UICONTROL Intervalo de fechas]** y seleccione **[!UICONTROL Siguiente >]**.
+   1. En el cuadro de diálogo **[!UICONTROL Filtrar \[Daterange]]**, seleccione **[!UICONTROL Intervalo de fechas]** y especifique un período de `01/01/2023` - `01/01/2024`.
+
+      ![Filtro Tableau para escritorio](assets/uc4-tableau-filter.png)
+
+   1. Arrastre y suelte **[!UICONTROL Daterangeday]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]**.
+      * Seleccione **[!UICONTROL MONTH]** en el menú desplegable **[!UICONTROL Daterangeday]**, para que el valor se actualice a **[!UICONTROL MONTH(Daterangeday)]**.
+   1. Arrastre y suelte **[!UICONTROL Ocurrencias]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**.
+      * Los valores se convierten automáticamente a **[!UICONTROL SUM(Occurrences)]**.
+   1. Modifique **[!UICONTROL Estándar]** a **[!UICONTROL Vista completa]** desde el menú desplegable de la barra de herramientas.
+
+      La vista Hoja 1 debería ser similar a la siguiente.
+
+      ![Tableau Desktop Graph](assets/uc4-tableau-graph.png)
+
+1. Seleccione **[!UICONTROL Duplicate]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para crear una segunda hoja.
+1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para cambiar el nombre de la hoja a `Graph`.
+1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1 (2)]** para cambiar el nombre de la hoja a `Data`.
+1. Asegúrese de que la hoja **[!UICONTROL Data]** esté seleccionada. En la vista Datos:
+   1. Seleccione **[!UICONTROL Mostrarme]** en la parte superior derecha y seleccione **[!UICONTROL Tabla de texto]** (visualización superior izquierda superior) para modificar el contenido de la vista de datos a una tabla.
+   1. Arrastre **[!UICONTROL MONTH(Daterangeday)]** de **[!UICONTROL Columnas]** a **[!UICONTROL Filas]**.
+   1. Modifique **[!UICONTROL Estándar]** a **[!UICONTROL Vista completa]** desde el menú desplegable de la barra de herramientas.
+
+      La vista de **[!UICONTROL Datos]** debe ser similar a la siguiente.
+
+      ![Datos de escritorio Tableau](assets/uc4-tableau-data.png)
+
+1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
+   1. Arrastre y suelte la hoja **[!UICONTROL Graph]** del estante **[!UICONTROL Sheets]** en la vista **[!UICONTROL Dashboard 1]** que dice *Colocar hojas aquí*.
+   1. Arrastre y suelte la hoja **[!UICONTROL Data]** del estante **[!UICONTROL Sheets]** debajo de la hoja **[!UICONTROL Graph]** en la vista **[!UICONTROL Dashboard 1]**.
+   1. Seleccione la hoja **[!UICONTROL Data]** en la vista y modifique **[!UICONTROL Toda la vista]** a **[!UICONTROL Anchura de la corrección]**.
+
+      La vista del **[!UICONTROL panel 1]** debería ser similar a la siguiente.
+
+      ![Tablero de escritorio Tableau 1](assets/uc4-tableau-dashboard.png)
 
 >[!ENDTABS]
 
@@ -263,13 +380,18 @@ Resumen del caso de uso
 
 +++ Detalles
 
+>[!PREREQUISITES]
+>
+>Asegúrese de que ha validado una conexión correcta [y de que puede enumerar las vistas de datos](#connect-and-list-data-views) de la herramienta de BI para la que desea probar este caso de uso.
+>
+
 >[!BEGINTABS]
 
 >[!TAB Escritorio de Power BI]
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -290,7 +412,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -311,7 +433,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -333,7 +455,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -355,7 +477,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -377,7 +499,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -399,7 +521,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -421,7 +543,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -443,7 +565,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -465,7 +587,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
@@ -487,7 +609,7 @@ Resumen del caso de uso
 
 Pasos
 
->[!TAB Tableau]
+>[!TAB Escritorio Tableau]
 
 Pasos
 
