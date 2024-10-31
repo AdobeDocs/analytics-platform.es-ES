@@ -5,10 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: fc82690c63e7ab46746569a995578951809b43bc
+source-git-commit: 4927fbcaa8d0d0ea251c2827fd6c17c2d55c9f11
 workflow-type: tm+mt
-source-wordcount: '8295'
-ht-degree: 5%
+source-wordcount: '10210'
+ht-degree: 4%
 
 ---
 
@@ -140,8 +140,8 @@ Para acceder a todas las plantillas creadas previamente disponibles:
 
 >[!CONTEXTUALHELP]
 >id="cja_template_desc_pages"
->title="Plantilla Páginas"
->abstract="Identificar las páginas más populares y menos populares. <br/>**Esto puede ayudarte** a entender mejor a tu audiencia y el tipo de información que más les interesa.<br/>**En función de lo que aprendas, puedes** hacer cualquier cosa, como ajustar los metadatos de la página para aumentar la visibilidad en páginas menos vistas o dedicar tiempo a mejorar el contenido de tus páginas más vistas.<br/>Esta plantilla usa la dimensión Página y la métrica Vistas de página."
+>title="Identificar las páginas más populares y menos populares."
+>abstract="**Esto puede ayudarte** a entender mejor a tu audiencia y el tipo de información que más les interesa.<br/>**En función de lo que aprendas, puedes** hacer cualquier cosa, como ajustar los metadatos de la página para aumentar la visibilidad en páginas menos vistas o dedicar tiempo a mejorar el contenido de tus páginas más vistas.<br/>Esta plantilla usa la dimensión Página y la métrica Vistas de página."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -149,8 +149,8 @@ Para acceder a todas las plantillas creadas previamente disponibles:
 
 >[!CONTEXTUALHELP]
 >id="cja_template_desc_page_views"
->title="Plantilla de vistas de página"
->abstract="Ver el número total de vistas de página. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores. <br/>**Esto puede ayudarte** a comprender mejor cómo el tráfico del sitio puede aumentar o disminuir con el tiempo.<br/>**Según lo que sepa, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando el tráfico del sitio antes y después del lanzamiento de la campaña. O puede comparar el tráfico de días festivos año tras año.<br/>Esta plantilla usa la dimensión Día y la métrica Vistas de página."
+>title="Ver el número total de vistas de página. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores. "
+>abstract="**Esto puede ayudarte** a comprender mejor cómo el tráfico del sitio puede aumentar o disminuir con el tiempo.<br/>**Según lo que sepa, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando el tráfico del sitio antes y después del lanzamiento de la campaña. O puede comparar el tráfico de días festivos año tras año.<br/>Esta plantilla usa la dimensión Día y la métrica Vistas de página."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -158,8 +158,8 @@ Para acceder a todas las plantillas creadas previamente disponibles:
 
 >[!CONTEXTUALHELP]
 >id="cja_template_desc_web_visits"
->title="Plantilla de visitas web"
->abstract="Ver el número total de visitas. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores. <br/>**Esto puede ayudarte** a comprender mejor cómo el tráfico del sitio puede aumentar o disminuir con el tiempo.<br/>**Según lo que sepa, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando el tráfico del sitio antes y después del lanzamiento de la campaña. O puede comparar el tráfico de días festivos año tras año.<br/>Esta plantilla usa la dimensión Día y la métrica Visitas."
+>title="Ver el número total de visitas. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores."
+>abstract="**Esto puede ayudarte** a comprender mejor cómo el tráfico del sitio puede aumentar o disminuir con el tiempo.<br/>**Según lo que sepa, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando el tráfico del sitio antes y después del lanzamiento de la campaña. O puede comparar el tráfico de días festivos año tras año.<br/>Esta plantilla usa la dimensión Día y la métrica Visitas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -185,12 +185,82 @@ Para acceder a todas las plantillas creadas previamente disponibles:
 
 >[!CONTEXTUALHELP]
 >id="cja_template_desc_key_metrics"
->title="Plantilla de métricas clave"
->abstract="Vea un informe que muestra en paralelo las métricas de vistas de página, visitas y visitantes únicos. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores. <br/>**Esto puede ayudarle** a comparar estas métricas importantes para obtener una imagen más completa del número de personas únicas que visitan el sitio, el número de veces que se visitaron las páginas y el número de sesiones.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como evaluar el número promedio de páginas que vio cada persona al visitar el sitio en una semana o mes determinados, y cómo cambió eso durante ciertas épocas del año o antes y después de ejecutar las campañas de marketing. <br/>Esta plantilla usa la dimensión Día, la métrica Vistas de página, la métrica Visitas y la métrica Visitantes únicos."
+>title="Vea un informe que muestra en paralelo las métricas de vistas de página, visitas y visitantes únicos. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores."
+>abstract="**Esto puede ayudarle** a comparar estas métricas importantes para obtener una imagen más completa del número de personas únicas que visitan el sitio, el número de veces que se visitaron las páginas y el número de sesiones.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como evaluar el número promedio de páginas que vio cada persona al visitar el sitio en una semana o mes determinados, y cómo cambió eso durante ciertas épocas del año o antes y después de ejecutar las campañas de marketing. <br/>Esta plantilla usa la dimensión Día, la métrica Vistas de página, la métrica Visitas y la métrica Visitantes únicos."
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
 
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_site_sections"
+>title="Vea las secciones más populares o de mayor rendimiento del sitio."
+>abstract="**Esto puede ayudarte** a comprender mejor qué secciones del sitio son las más visitadas.<br>**En función de lo que aprenda, podría** hacer muchas cosas, como evaluar qué productos o servicios proporciona generan el mayor interés.<br/>Esta plantilla usa la dimensión Sección del sitio y la métrica Visitas."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_next_previous_page"
+>title="Ver los lugares más comunes a los que van las personas inmediatamente después de visitar o inmediatamente antes de visitar un lugar determinado."
+>abstract="**Esto puede ayudarle** a comprender cómo se mueve el tráfico de una página determinada a otras partes del sitio, así como las rutas que siguen los usuarios para llegar a una página determinada.<br/>**En función de lo que aprendas, podrías** hacer muchas cosas, como evaluar si el diseño de la página podría optimizarse para dirigir a las personas a páginas más deseables, como una página para hacer una compra o dejar una revisión. O evalúe si es probable que la información de la página actual proporcione la dirección o las acciones que las personas buscan a medida que llegan desde páginas anteriores. O puede evaluar si las páginas que no aparecen como páginas anteriores necesitan vínculos más destacados a la página actual.<br/>Esta plantilla usa el panel Elemento siguiente o anterior."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_campaigns"
+>title="Vea los vínculos que generaron más tráfico en el sitio."
+>abstract="**Esto puede ayudarte** a comprender mejor qué códigos de seguimiento (y los vínculos con los que están asociados) se utilizaron más para obtener acceso al sitio.<br/>**Según lo que sepa, podría** hacer muchas cosas, como ajustar su estrategia para agregar vínculos a su sitio.<br/>Esta plantilla usa la dimensión Código de seguimiento y la métrica Visitas."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_products"
+>title="Ver el número de pedidos por producto. Los datos se muestran durante un período de tiempo."
+>abstract="**Esto puede ayudarle** a comprender qué productos tienen la demanda más alta o más baja.<br/>**Según lo que sepa, podría** hacer muchas cosas, como ajustar sus estrategias de marketing para promocionar productos de alto rendimiento o para mejorar o dejar de utilizar productos de bajo rendimiento. También puede ajustar el inventario de productos en función de su análisis de los datos.<br/>Esta plantilla usa la dimensión Producto y la métrica Pedidos."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_last_touch"
+>title="Vea los canales de marketing más recientes con los que coinciden los visitantes durante su periodo de participación (de forma predeterminada, 30 días)."
+>abstract="**Esto puede ayudarle** a comprender qué canales de marketing fueron los más eficaces para atraer a usuarios a un sitio y generar así conversiones.<br/>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos a canales de alto rendimiento o asignar menos recursos a canales de bajo rendimiento.<br/>Esta plantilla usa la dimensión Canal de último contacto y la métrica Visitantes únicos."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_last_touch_detail"
+>title="Vea detalles sobre los canales de marketing más recientes con los que coinciden los visitantes durante su periodo de participación (de forma predeterminada, 30 días)."
+>abstract="**Esto puede ayudarle** a comprender no solo qué canales de marketing fueron los más eficaces para atraer a usuarios a un sitio con conversiones, sino también detalles sobre esos canales de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.<br/>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos a canales de alto rendimiento o asignar menos recursos a canales de bajo rendimiento.<br/>Esta plantilla usa la dimensión Detalle del canal de último contacto y la métrica Visitantes únicos. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_revenue"
+>title="Ver la cantidad monetaria de productos comprados dentro de todos los pedidos. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores."
+>abstract="**Esto puede ayudarte** a comprender cómo los ingresos aumentan o disminuyen con el tiempo. Puede combinar esta métrica con cualquier dimensión para conocer qué elementos de dimensión contribuyeron a los ingresos.<br/>**Según lo que sepa, podría** hacer muchas cosas, como generar ingresos futuros basados en tendencias anteriores. También puede agregar otra dimensión, como la dimensión Código de seguimiento, para conocer qué campañas generan la mayor cantidad de ingresos.<br/>Esta plantilla usa la dimensión Día y la métrica Ingresos."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_desc_orders"
+>title="Ver el número total de eventos de compra. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores."
+>abstract="**Esto puede ayudarte** a comprender mejor cómo el interés en tus productos y servicios aumenta o disminuye con el tiempo. Puede aplicar un segmento para conocer qué clientes o regiones geográficas realizan la mayor cantidad de pedidos y cómo son las tendencias de dichos pedidos a lo largo del tiempo.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando pedidos antes y después del lanzamiento de la campaña. O puede comparar pedidos de vacaciones año tras año.<br/>Esta plantilla usa la dimensión Día y la métrica Pedidos."
+
+<!-- markdownlint-enable MD034 -->
 
 Las plantillas disponibles son las siguientes:
 
@@ -210,10 +280,64 @@ Las plantillas disponibles son las siguientes:
 | [!UICONTROL **Productos**] | Ver el número de pedidos por producto. Los datos se muestran durante un período de tiempo. <p>**Esto puede ayudarle** a comprender qué productos tienen la demanda más alta o más baja.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como ajustar sus estrategias de marketing para promocionar productos de alto rendimiento o para mejorar o dejar de utilizar productos de bajo rendimiento. También puede ajustar el inventario de productos en función de su análisis de los datos.</p><p>Esta plantilla utiliza la dimensión Producto y la métrica Pedidos.</p> |
 | [!UICONTROL **Canal de marketing de último toque**] | Vea los canales de marketing más recientes con los que coinciden los visitantes durante su periodo de participación (de forma predeterminada, 30 días).<p>**Esto puede ayudarle** a comprender qué canales de marketing fueron los más eficaces para atraer a usuarios a un sitio y generar así conversiones.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos a canales de alto rendimiento o asignar menos recursos a canales de bajo rendimiento.</p><p>Esta plantilla utiliza la dimensión Canal de último contacto y la métrica Visitantes únicos.</p> |
 | [!UICONTROL **Detalles de canal de marketing de último toque**] | Vea detalles sobre los canales de marketing más recientes con los que coinciden los visitantes durante su periodo de participación (de forma predeterminada, 30 días).<p>**Esto puede ayudarle** a comprender no solo qué canales de marketing fueron los más eficaces para atraer a usuarios a un sitio con conversiones, sino también detalles sobre esos canales de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos a canales de alto rendimiento o asignar menos recursos a canales de bajo rendimiento.</p><p>Esta plantilla utiliza la dimensión Detalle del canal de último contacto y la métrica Visitantes únicos.</p> |
-| [!UICONTROL **Ingresos**] | Ver la cantidad monetaria de productos comprados dentro de todos los pedidos. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores.<p>**Esto puede ayudarte** a comprender cómo los ingresos aumentan o disminuyen con el tiempo. Puede combinar esta métrica con cualquier dimensión para conocer qué elementos de dimensión contribuyeron a los ingresos.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como generar ingresos futuros basados en tendencias anteriores. También puede agregar otra dimensión, como la dimensión Código de seguimiento, para conocer qué campañas generan la mayor cantidad de ingresos.</p><p>Esta plantilla utiliza la dimensión Día y la métrica Ingresos.</p> |
-| [!UICONTROL **Pedidos**] | Ver el número total de eventos de compra. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores. <p>**Esto puede ayudarte** a comprender mejor cómo el interés en tus productos y servicios aumenta o disminuye con el tiempo. Puede aplicar un segmento para conocer qué clientes o regiones geográficas realizan la mayor cantidad de pedidos y cómo son las tendencias de dichos pedidos a lo largo del tiempo.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando pedidos antes y después del lanzamiento de la campaña. O puede comparar pedidos de vacaciones año tras año.</p><p>Esta plantilla utiliza la dimensión Día y la métrica Pedidos.</p> |
+| [!UICONTROL **Ingresos**] | <!--duplicated in Web Conversion section-->Ver la cantidad monetaria de productos comprados dentro de todos los pedidos. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores.<p>**Esto puede ayudarte** a comprender cómo los ingresos aumentan o disminuyen con el tiempo. Puede combinar esta métrica con cualquier dimensión para conocer qué elementos de dimensión contribuyeron a los ingresos.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como generar ingresos futuros basados en tendencias anteriores. También puede agregar otra dimensión, como la dimensión Código de seguimiento, para conocer qué campañas generan la mayor cantidad de ingresos.</p><p>Esta plantilla utiliza la dimensión Día y la métrica Ingresos.</p> |
+| [!UICONTROL **Pedidos**] | <!--duplicated in Web Conversion section-->Ver el número total de eventos de compra. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores. <p>**Esto puede ayudarte** a comprender mejor cómo el interés en tus productos y servicios aumenta o disminuye con el tiempo. Puede aplicar un segmento para conocer qué clientes o regiones geográficas realizan la mayor cantidad de pedidos y cómo son las tendencias de dichos pedidos a lo largo del tiempo.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando pedidos antes y después del lanzamiento de la campaña. O puede comparar pedidos de vacaciones año tras año.</p><p>Esta plantilla utiliza la dimensión Día y la métrica Pedidos.</p> |
 
-### Web: participación
+### Web: participación {#web-engagement}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_time_spent"
+>title="Ver el tiempo promedio que los visitantes pasan en el sitio durante cada visita, así como el tiempo promedio que los usuarios pasan antes de un evento de éxito. Los datos se muestran a lo largo de un período de tiempo y se comparan con períodos anteriores."
+>abstract="**Esto puede ayudarte** a comprender mejor los niveles de participación de los visitantes y cuánto tiempo tardan los visitantes en realizar una acción deseada, como realizar una compra.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como evaluar si los cambios en el sitio mejoran la capacidad de los visitantes para llegar rápidamente a un evento de éxito.<br/>Esta plantilla usa la dimensión Día y la métrica Tiempo empleado por visita (segundos), la dimensión Día y la métrica Tiempo empleado por visita (segundos)."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_web_content_consumption"
+>title="Vea qué contenido web se consume más y resulta más atractivo para los usuarios."
+>abstract="**Esto puede ayudarte** a comprender mejor a dónde van las personas al entrar por primera vez al sitio, qué secciones del sitio visitan con mayor frecuencia y qué páginas tienen más probabilidades de expulsar a personas del sitio.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como evaluar qué rutas del sitio llevan a los usuarios a las páginas más importantes y qué páginas tienen más probabilidades de sacar a los usuarios del sitio.<br/>Esta plantilla usa las métricas Página y Vistas de página, Visitas, Visitantes únicos, Tasa de entrada, Tasa de salida, Tasa de salida y Velocidad del contenido. También utiliza visualizaciones de flujo para las secciones de entrada, salida y superior."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_media_content_consumption"
+>title="Vea qué contenido multimedia se consume más y resulta más atractivo para los usuarios."
+>abstract="**Esto puede ayudarte** a comprender mejor a dónde van las personas al entrar por primera vez al sitio, qué secciones del sitio visitan con mayor frecuencia y qué páginas tienen más probabilidades de expulsar a personas del sitio.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como evaluar qué rutas del sitio llevan a los usuarios a las páginas más importantes y qué páginas tienen más probabilidades de sacar a los usuarios del sitio.<br/>Esta plantilla usa las métricas Página y Vistas de página, Visitas, Visitantes únicos, Tasa de entrada, Tasa de salida, Tasa de salida y Velocidad del contenido. También utiliza visualizaciones de flujo para secciones de entrada, salida y principales; una visualización de diagrama de puntos que muestra las vistas de página de las páginas más comunes; una visualización de barras que muestra las vistas de página por tiempo agrupado; y una visualización de línea que muestra una vista de tendencias del tiempo promedio empleado en el sitio."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_page_summary"
+>title="Ver información clave sobre cualquier página de las propiedades. Muestra vistas de página, una línea de tendencia, una visualización de flujo y mucho más."
+>abstract="**Esto puede ayudarte** a comprender mejor cómo interactúan las personas con una página determinada.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como analizar el rendimiento de la página durante un período de tiempo o comprender mejor qué genera tráfico en la página.<br/>Esta plantilla usa la métrica Vistas de página. También utiliza la visualización Línea y la visualización Flujo."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_entry_pages"
+>title="Ver las páginas principales a las que acceden los usuarios al visitar el sitio por primera vez."
+>abstract="**Esto puede ayudarte** a comprender mejor qué páginas dirigen la mayor cantidad de tráfico al sitio o a comprender mejor las primeras impresiones que los visitantes tienen en el sitio.<br/>**Según lo que sepa, podría** hacer muchas cosas, como optimizar la experiencia inicial que obtienen los usuarios en el sitio o asegurarse de que las páginas que ven los usuarios por primera vez al entrar en el sitio sean acogedoras y proporcionen los vínculos necesarios a otras áreas del sitio.<br/>Esta plantilla usa la métrica Sesiones. También utiliza la visualización de barras y la visualización de tabla de forma libre."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_exit_pages"
+>title="Vea las páginas principales a las que los usuarios acceden inmediatamente antes de abandonar el sitio."
+>abstract="**Esto puede ayudarte** a comprender mejor qué páginas están alejando a la gente del sitio. <br/>**En función de lo que sepas, podrías** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en tu sitio.<br/>Esta plantilla usa la métrica Sesiones. También utiliza la visualización de barras y la visualización de tabla de forma libre."
+
+<!-- markdownlint-enable MD034 -->
 
 Las plantillas disponibles son las siguientes:
 
@@ -228,12 +352,84 @@ Las plantillas disponibles son las siguientes:
 | [!UICONTROL **Secciones del sitio**] | <!--duplicated in Most popular section-->Vea las secciones más populares o de mayor rendimiento del sitio. <p>**Esto puede ayudarte** a comprender mejor qué secciones del sitio son las más visitadas.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como evaluar qué productos o servicios proporciona generan el mayor interés.</p> <p>Esta plantilla utiliza la dimensión Sección del sitio y la métrica Visitas.</p> |
 | [!UICONTROL **Consumo de contenido web**] | Vea qué contenido web se consume más y resulta más atractivo para los usuarios.<p>**Esto puede ayudarte** a comprender mejor a dónde van las personas al entrar por primera vez al sitio, qué secciones del sitio visitan con mayor frecuencia y qué páginas tienen más probabilidades de expulsar a personas del sitio.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como evaluar qué rutas del sitio llevan a los usuarios a las páginas más importantes y qué páginas tienen más probabilidades de sacar a los usuarios del sitio <!-- not sure about these takeaways... -->.</p> <p>Esta plantilla utiliza las métricas Página y Vistas de página, Visitas, Visitantes únicos, Tasa de entrada, Tasa de salida, Tasa de salida y Velocidad del contenido. También utiliza visualizaciones de flujo para las secciones de entrada, salida y superior.</p> |
 | [!UICONTROL **Consumo de contenido multimedia**] | Vea qué contenido multimedia se consume más y resulta más atractivo para los usuarios.<p>**Esto puede ayudarte** a comprender mejor a dónde van las personas al entrar por primera vez al sitio, qué secciones del sitio visitan con mayor frecuencia y qué páginas tienen más probabilidades de expulsar a personas del sitio.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como evaluar qué rutas del sitio llevan a los usuarios a las páginas más importantes y qué páginas tienen más probabilidades de sacar a los usuarios del sitio <!-- not sure about these takeaways... -->.</p> <p>Esta plantilla utiliza las métricas Página y Vistas de página, Visitas, Visitantes únicos, Tasa de entrada, Tasa de salida, Tasa de salida y Velocidad del contenido. También utiliza visualizaciones de flujo para secciones de entrada, salida y principales; una visualización de diagrama de puntos que muestra las vistas de página de las páginas más comunes; una visualización de barras que muestra las vistas de página por tiempo agrupado; y una visualización de línea que muestra una vista de tendencias del tiempo promedio empleado en el sitio.</p> |
-| [!UICONTROL **Página siguiente y anterior**] | Ver los lugares más comunes a los que van las personas antes o después de visitar un lugar determinado.<p>**Esto puede ayudarte** a comprender mejor a dónde van las personas al entrar por primera vez al sitio, qué secciones del sitio visitan más los usuarios y qué páginas tienen más probabilidades de ser visitadas antes de salir del sitio.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como evaluar qué rutas del sitio llevan a los usuarios a las páginas más importantes y qué páginas tienen más probabilidades de sacar a los usuarios del sitio<!-- not sure about these takeaways... -->.</p> <p>Esta plantilla utiliza las métricas Página, Vistas de página, Visitas, Visitantes únicos, Tasa de entrada, Tasa de salida, Tasa de salida y Velocidad del contenido. También utiliza visualizaciones de flujo para secciones de entrada, salida y principales; una visualización de diagrama de dispersión que muestra las vistas de página de las páginas más comunes; una visualización de barras que muestra las vistas de página por tiempo agrupado; y una visualización de línea que muestra una vista de tendencias del tiempo promedio empleado en el sitio.</p> |
+| [!UICONTROL **Página siguiente y anterior**] | <!--duplicated in Most popular section-->Ver los lugares más comunes a los que van las personas antes o después de visitar un lugar determinado.<p>**Esto puede ayudarte** a comprender mejor a dónde van las personas al entrar por primera vez al sitio, qué secciones del sitio visitan más los usuarios y qué páginas tienen más probabilidades de ser visitadas antes de salir del sitio.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como evaluar qué rutas del sitio llevan a los usuarios a las páginas más importantes y qué páginas tienen más probabilidades de sacar a los usuarios del sitio<!-- not sure about these takeaways... -->.</p> <p>Esta plantilla utiliza las métricas Página, Vistas de página, Visitas, Visitantes únicos, Tasa de entrada, Tasa de salida, Tasa de salida y Velocidad del contenido. También utiliza visualizaciones de flujo para secciones de entrada, salida y principales; una visualización de diagrama de dispersión que muestra las vistas de página de las páginas más comunes; una visualización de barras que muestra las vistas de página por tiempo agrupado; y una visualización de línea que muestra una vista de tendencias del tiempo promedio empleado en el sitio.</p> |
 | **Resumen de página** | Ver información clave sobre cualquier página de las propiedades. Muestra vistas de página, una línea de tendencia, una visualización de flujo y mucho más.  <p>**Esto puede ayudarte** a comprender mejor cómo interactúan las personas con una página determinada.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como analizar el rendimiento de la página durante un período de tiempo o comprender mejor qué genera tráfico en la página.</p><p>Esta plantilla utiliza la métrica Vistas de página. También utiliza la visualización Línea y la visualización Flujo.</p> |
 | **Páginas de entrada** | Ver las páginas principales a las que acceden los usuarios al visitar el sitio por primera vez. <p>**Esto puede ayudarte** a comprender mejor qué páginas dirigen la mayor cantidad de tráfico al sitio o a comprender mejor las primeras impresiones que los visitantes tienen en el sitio.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como optimizar la experiencia inicial que obtienen los usuarios en el sitio o asegurarse de que las páginas que ven los usuarios por primera vez al entrar en el sitio sean acogedoras y proporcionen los vínculos necesarios a otras áreas del sitio.</p><p>Esta plantilla utiliza la métrica Sesiones. También utiliza la visualización de barras y la visualización de tabla de forma libre.</p> |
 | **Páginas de salida** | Vea las páginas principales a las que los usuarios acceden inmediatamente antes de abandonar el sitio.<p>**Esto puede ayudarte** a comprender mejor qué páginas están alejando a la gente del sitio. </p><p>**En función de lo que sepas, podrías** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en tu sitio.</p><p>Esta plantilla utiliza la métrica Sesiones. También utiliza la visualización de barras y la visualización de tabla de forma libre.</p> |
 
-### Web: conversión
+### Web: conversión {#web-conversion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_product_conversion_funnel"
+>title="Plantilla de canal de conversión de productos"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_product_performance"
+>title="Vea qué productos tienen el mayor rendimiento."
+>abstract="**Esto puede ayudarte** a comprender mejor qué productos tienen más éxito.<br/>**Según lo que aprendas, podrías** hacer muchas cosas, como aumentar los fondos para productos exitosos y disminuir los fondos para productos menos exitosos.<br/>Esta plantilla usa las métricas Vistas del producto, Adiciones al carro de compras, Pedidos, Ingresos y Unidades. También utiliza la dimensión Producto."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_cart_conversion_funnels"
+>title="Ver la cantidad de veces que las personas realizaron eventos clave de cierre de compra, como agregar artículos al carro de compras, ver el carro de compras, quitar artículos del carro de compras y cerrar la compra."
+>abstract="**Esto puede ayudarle** a comprender mejor qué partes del canal del proceso de cierre de compra generan conversión y cuáles son las más propensas al abandono del carro de compras.<br/>**Según lo que aprendas, podrías** hacer muchas cosas, como reducir la fricción en ciertos pasos del proceso de pago.<br/>Esta plantilla usa el"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_carts"
+>title="Ver el número de personas que agregaron un producto al carro de compras."
+>abstract="**Esto puede ayudarte** a comprender mejor el número de personas que agregan un producto al carro de compras, a diferencia del número total de productos que se agregan al carro de compras.<br/>**Según lo que sepa, podría** hacer muchas cosas, como medir la efectividad de las páginas de productos.<br/>Esta plantilla usa la métrica Carros de compras."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_cart_views"
+>title="Ver la cantidad de veces que las personas vieron el carro de compras."
+>abstract="**Esto puede ayudarte** a comprender mejor la experiencia de cierre de compra en un esfuerzo por reducir las tasas de abandono del carro de compras o a analizar el tiempo entre adiciones al carro de compras y cierres de compras entre diferentes productos.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como ofrecer promociones de productos que permanezcan en carros durante más tiempo y que corran el mayor riesgo de ser abandonados.<br/>Esta plantilla usa la métrica Vistas del carro de compras."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_cart_additions"
+>title="Ver la cantidad de veces que las personas agregaron algo al carro de compras."
+>abstract="**Esto puede ayudarte** a comprender mejor la parte del canal de conversión en la que el interés del cliente en un producto es lo suficientemente alto como para agregarlo al carro de compras.<br/>**Según lo que sepa, podría** hacer muchas cosas, como mejorar las recomendaciones de productos para todos los clientes. Esto se puede hacer analizando qué productos se agregan con frecuencia a los mismos carros de compras y sugiriendo productos relacionados en función de los artículos que ya están en el carro de compras."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_cart_removals"
+>title="Ver la cantidad de veces que las personas han eliminado algo del carro de compras."
+>abstract="**Esto puede ayudarte** a entender mejor la parte del canal de conversión en la que los clientes ya no están interesados en un producto, o puede ayudarte a entender dónde pueden existir problemas en el proceso de cierre de compra.<br/>**Según lo que hayas aprendido, podrías** hacer cualquier cosa, como eliminar cualquier posible barrera que pueda existir en el proceso de pago, como una experiencia de usuario complicada.<br/>Esta plantilla usa la métrica Eliminaciones del carro de compras."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_template_purchase_conversion_funnel"
+>title="Plantilla Canal de conversión de compra"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
 
 Las plantillas disponibles son las siguientes:
 
@@ -248,8 +444,8 @@ Las plantillas disponibles son las siguientes:
 | **Adiciones al carro de compras** | Ver la cantidad de veces que las personas agregaron algo al carro de compras. <p>**Esto puede ayudarte** a comprender mejor la parte del canal de conversión en la que el interés del cliente en un producto es lo suficientemente alto como para agregarlo al carro de compras.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como mejorar las recomendaciones de productos para todos los clientes. Esto se puede hacer analizando qué productos se agregan con frecuencia a los mismos carros de compras y sugiriendo productos relacionados en función de los artículos que ya están en el carro de compras. |
 | **Eliminaciones del carro de compras** | Ver la cantidad de veces que las personas han eliminado algo del carro de compras.<p>**Esto puede ayudarte** a entender mejor la parte del canal de conversión en la que los clientes ya no están interesados en un producto, o puede ayudarte a entender dónde pueden existir problemas en el proceso de cierre de compra.</p><p>**Según lo que hayas aprendido, podrías** hacer cualquier cosa, como eliminar cualquier posible barrera que pueda existir en el proceso de pago, como una experiencia de usuario complicada.</p><p>Esta plantilla utiliza la métrica Eliminaciones del carro de compras. |
 | **Canal de conversión de compra** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Ingresos** | Ver la cantidad monetaria de productos comprados dentro de todos los pedidos.<p>**Esto puede ayudarle** a comprender mejor qué elementos de dimensión contribuyeron a los ingresos, combinando la métrica Ingresos con cualquier dimensión. Por ejemplo, puede ver las campañas principales (usando la dimensión Código de seguimiento ) que contribuyeron a los ingresos. </p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como ajustar campañas que no cumplan con los objetivos de ingresos que esperaría.</p><p>Esta plantilla utiliza la métrica Ingresos. |
-| **Pedidos** | Ver la cantidad total de eventos de compra realizados en el sitio. <p>**Esto puede ayudarle** a comprender mejor qué elementos de dimensión contribuyeron a un pedido, combinando la métrica Pedidos con cualquier dimensión. Por ejemplo, puede ver las campañas principales (usando la dimensión Código de seguimiento ) que contribuyeron a las compras.</p><p>**En función de lo que sepas, podrías** hacer cualquier cosa, como ajustar campañas que no cumplan los objetivos de compra que esperarías. </p><p>Esta plantilla utiliza la métrica Pedidos. |
+| **Ingresos** | <!--duplicated in Most popular section-->Ver la cantidad monetaria de productos comprados dentro de todos los pedidos.<p>**Esto puede ayudarle** a comprender mejor qué elementos de dimensión contribuyeron a los ingresos, combinando la métrica Ingresos con cualquier dimensión. Por ejemplo, puede ver las campañas principales (usando la dimensión Código de seguimiento ) que contribuyeron a los ingresos. </p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como ajustar campañas que no cumplan con los objetivos de ingresos que esperaría.</p><p>Esta plantilla utiliza la métrica Ingresos. |
+| **Pedidos** | <!--duplicated in Most popular section-->Ver la cantidad total de eventos de compra realizados en el sitio. <p>**Esto puede ayudarle** a comprender mejor qué elementos de dimensión contribuyeron a un pedido, combinando la métrica Pedidos con cualquier dimensión. Por ejemplo, puede ver las campañas principales (usando la dimensión Código de seguimiento ) que contribuyeron a las compras.</p><p>**En función de lo que sepas, podrías** hacer cualquier cosa, como ajustar campañas que no cumplan los objetivos de compra que esperarías. </p><p>Esta plantilla utiliza la métrica Pedidos. |
 
 ### Web: Audiencia
 
