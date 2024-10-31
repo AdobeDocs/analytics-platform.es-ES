@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 1442aa9be5e6a6dc283ba559a2ff6c46de862425
+source-git-commit: e723339831bf835b43096affd4e0f15f41462f54
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 3%
+source-wordcount: '1058'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Funciones fuera de ámbito:
 | Función no admitida | Descripción |
 | --- | --- |
 | Resumen en línea o respuesta | El asistente de IA no puede responder en línea en el carril de chat con una respuesta de resumen de una petición de datos del usuario.Ejemplo de peticiones de datos fuera de ámbito:<ul><li>*Dame un resumen de los datos de mi última solicitud.*</li><li>*Resumir los elementos destacados de la visualización de líneas.*</li></ul> |
-| Aclaración de preguntas | Las preguntas de aclaración se limitan a componentes y elementos de dimensión. El asistente de IA no puede aclarar vistas de datos, visualizaciones, granularidad de datos, comparación, ámbito, etc. Sin aclarar preguntas, el asistente toma de forma predeterminada lo que el usuario solicita con mayor probabilidad. Si devuelve una visualización o una granularidad de datos inesperada, el usuario puede utilizar la capacidad de varias vueltas y actualizaciones para ajustar la visualización y los datos. |
+| Aclaración de preguntas | Las preguntas de aclaración se limitan a componentes y elementos de dimensión. El asistente de IA no puede aclarar vistas de datos, visualizaciones, granularidad de datos, comparación, ámbito, etc. Sin aclarar preguntas, el Ayudante toma como valor predeterminado lo que es más probable que pida. Si devuelve una visualización o una granularidad de datos inesperada, puede utilizar la capacidad de varias vueltas y actualizaciones para ajustar la visualización y los datos. |
 | Acciones y capacidades de Workspace | El asistente de IA no puede realizar acciones para un usuario en Workspace aparte de crear y actualizar visualizaciones. Por ejemplo, no puede realizar ninguna de las siguientes acciones:<ul><li>Botones de la interfaz de usuario de la acción contextual (añadir a gráfico, nuevo panel, nueva tabla)</li><li>Compartir</li><li>Exportar</li><li>Descargar</li><li>Administrar preferencias de usuario</li><li>Depurar</li><li>Administrar vista de datos</li><li>Aplicación de paneles de Analytics</li><li>Atribución</li></ul> |
 | Tipos de visualización no admitidos | <ul><li>Flujo</li><li>Visita en orden previsto</li><li>Tabla de cohortes</li><li>Área, área apilada</li><li>Barra apilada</li><li>Viñeta</li><li>Combo</li><li>Histograma</li><li>Barras horizontales, barras horizontales apiladas</li><li>Resumen de métricas clave</li><li>Dispersión</li><li>Cambio de resumen</li><li>Texto</li><li>Gráfico de rectángulos</li><li>Venn</li></ul> |
 | Explicación y verificabilidad | Descripción o cita transparente de cómo el asistente de IA generó una respuesta y le proporciona una forma de confirmar que la respuesta es correcta. |
@@ -67,22 +67,40 @@ También está disponible en Adobe Experience Platform, Adobe Journey Optimizer,
 
 Consulte [Control de acceso](/help/technotes/access-control.md#access-control) para obtener más información.
 
-## Acceso al Data Analysis AI Assistant
+## Acceso y uso del Data Analysis AI Assistant
 
+1. Vaya a este vínculo para abrir Workspace en la organización IMS de Labs (en fase) e inicie sesión con su Adobe ID.
 
+1. Haga clic en **[!UICONTROL Proyecto en blanco]** en el banner situado en la parte superior de la página de proyectos para abrir un nuevo proyecto en blanco.
 
+1. Haga clic en el icono de chat del Ayudante de IA en la parte superior derecha.
 
-## Uso del asistente de Data Analysis AI
+   ![icono del Asistente de IA](/help/assets/ai-asst-icon.png)
 
-1. En Customer Journey Analytics, vaya a la zona protegida aprovisionada.
+1. En el cuadro de diálogo **[!UICONTROL Preguntar por el Customer Journey Analytics]** de la parte inferior, haga su primera pregunta de análisis de datos en el asistente de IA.
 
-1. Abra un proyecto de Workspace.
+   Por ejemplo, supongamos que le interesan los pedidos que recibió su empresa en julio. Para poder introducir &quot;Mostrar pedidos en julio&quot;.
+
+   ![petición de datos de IA](/help/assets/ai-asst-prompt1.png)
 
 
 ## Ejemplo de solicitudes de análisis de datos
 
 A continuación, se muestran algunos ejemplos de cómo el asistente de IA responde a las solicitudes y a las visualizaciones esperadas:
 
+| Mensaje de ejemplo | Visualización esperada |
+| --- | --- |
+| Mostrar mis ganancias en [Mes] | Línea<p>Si se solicita una tendencia o métrica en un intervalo de tiempo determinado, se devolverá una visualización de línea de forma predeterminada. |
+| Tendencia de pedidos en [Mes] | Línea |
+| Mostrar ingresos por región en [mes] | Barra |
+| Porcentaje de ingresos por categoría de producto | Anillo |
+| Pedidos por día de la semana de enero a mayo | Barra |
+| Mostrar pedidos por sexo de marzo a junio | Barra |
+| ¿Cuál es el beneficio entre SKU de febrero a mayo? | Barra |
+| Ingresos por nombre de tienda en [Mes] | Barra |
+| ¿Cuáles fueron mis 10 SKU principales por beneficio en [Mes]? | Barra |
+| Proporción de compras por mes del año | Anillo |
+| Beneficio total en [mes] | Número de resumen<p>Solicitar el &quot;total&quot; de una métrica en un intervalo de tiempo determinado debe devolver una visualización de Número de resumen. |
 
 
 ## Impulso de las prácticas recomendadas
@@ -91,7 +109,7 @@ Por determinar
 
 ## Expectativas de prueba del Alpha y comentarios solicitados
 
-TB D
+Por determinar
 
 ## Preguntas y contacto
 
