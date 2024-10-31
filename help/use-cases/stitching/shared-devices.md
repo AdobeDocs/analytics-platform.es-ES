@@ -6,17 +6,17 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 1a5646700dba6362a35158890f2917fc472fbddd
+exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
+source-git-commit: c0dae5f1255a986df5ab2551aabdf1bd0727e949
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 4%
+source-wordcount: '683'
+ht-degree: 6%
 
 ---
 
-
 # Dispositivos compartidos
 
-Este artículo proporciona contexto sobre dispositivos compartidos, cómo gestionar y mitigar los datos de dispositivos compartidos mediante la vinculación y comprender la exposición de dispositivos compartidos en sus datos mediante el servicio de consulta.
+Este artículo proporciona contexto sobre dispositivos compartidos, cómo manejar y mitigar los datos de dispositivos compartidos mediante la vinculación [stitching](/help/stitching/overview.md) y comprender la exposición de dispositivos compartidos en sus datos mediante el servicio de consulta.
 
 ## ¿Qué es un dispositivo compartido?
 
@@ -24,33 +24,34 @@ Un dispositivo compartido es aquel que utiliza más de una persona. Los escenari
 
 Cuando dos personas utilizan el mismo dispositivo y ambas realizan una compra, los datos de evento de muestra pueden tener el siguiente aspecto:
 
-| Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico |
-|---|---|---|---|
-| 2023-05-12 12:01 | Página de inicio | `1234` | |
-| 2023-05-12 12:02 | Página de producto | `1234` | |
-| 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` |
-| 2023-05-12 12:07 | Página de producto | `1234` | |
-| 2023-05-12 12:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` |
+| Evento | Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico |
+|--:|---|---|---|---|
+| 1 | 2023-05-12 12:01 | Página de inicio | `1234` | |
+| 2 | 2023-05-12 12:02 | Página de producto | `1234` | |
+| 3 | 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` |
+| 4 | 2023-05-12 12:07 | Página de producto | `1234` | |
+| 5 | 2023-05-12 12:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` |
 
-Los eventos de éxito del pedido (compra) asignan los datos con precisión al correo electrónico correcto. El impacto de esta asignación en el análisis depende de cómo realice el análisis:
+Como puede ver en esta tabla, una vez que la autenticación se produce en los eventos 3 y 5, comienza a formarse un vínculo entre un ID de dispositivo y un ID de persona. Para comprender el impacto de cualquier esfuerzo de marketing en el nivel de persona, estos eventos no autenticados deben atribuirse a la persona correcta.
 
-- Enfoque centrado en el dispositivo: análisis realizado con el ID del dispositivo. Con este enfoque, los datos autenticados y no autenticados se incluyen en el análisis. Sin embargo, este enfoque no permite un análisis más basado en personas.
-- Enfoque centrado en la persona: análisis realizado mediante la dirección de correo electrónico u otro identificador de persona. Con este método, solo se incluyen en el análisis los eventos autenticados. Este método no proporciona una imagen completa del recorrido del cliente, incluida la adquisición
+<!--
+The order success (purchase) events assign the data accurately to the correct email. How this assignment impacts your analysis depends on how you perform analysis:
+
+- Device centric approach: analysis performed using the Device ID. With this approach, both authenticated and unauthenticated data are included in analysis. However, this approach does not allow for a more person based analysis. 
+- Person centric approach: analysis performed using the email address or other person identifier. With this approach, only authenticated events are included in the analysis. This approach doesn't provide a complete picture of the customer journey, including acquisition
+
+-->
 
 ## Mejorar el análisis centrado en las personas
 
-Los datos de ejemplo son una combinación de actividad autenticada y no autenticada para el mismo dispositivo. El desafío consiste en asignar una persona al tráfico no autenticado, de modo que pueda realizar un análisis centrado en la persona e impedir que Customer Recorrido Analytics elimine las actividades que no tienen un valor de ID de persona. Para resolver este desafío, tiene dos opciones: puede utilizar la vinculación o puede implementar la funcionalidad de restablecimiento de ECID. Ambas opciones se analizan con más detalle en las secciones siguientes.
+El proceso de vinculación soluciona este problema de atribución añadiendo el identificador de persona seleccionado (en los datos de ejemplo, el correo electrónico) a eventos en los que ese identificador no existe. La configuración aprovecha una asignación entre ID de dispositivo e ID de persona para garantizar que el tráfico autenticado y no autenticado se pueda utilizar en el análisis, manteniéndolo centrado en la persona. Consulte [Vinculación](/help/stitching/overview.md) para obtener más información.
 
-### Unión
-
-El proceso de vinculación aborda las deficiencias del enfoque centrado en la persona. La vinculación agrega el identificador de persona seleccionado (en los datos de ejemplo, el correo electrónico) a los eventos en los que ese identificador no existe. La configuración aprovecha una asignación entre ID de dispositivo e ID de persona para garantizar que el tráfico autenticado y no autenticado se pueda utilizar en el análisis, manteniéndolo centrado en la persona. Consulte [Vinculación](/help/stitching/overview.md) para obtener más información.
-
-La configuración puede atribuir datos de dispositivo compartidos mediante atribución de última autenticación o atribución de división del dispositivo. Sin embargo, los cambios de implementación mediante el restablecimiento de ECID también pueden abordar dispositivos compartidos.
+La configuración puede atribuir datos de dispositivo compartidos mediante atribución de última autenticación o atribución de división del dispositivo. Todos los intentos de vincular eventos no autenticados a un usuario conocido no son deterministas.
 
 
-#### Atribución de última autenticación
+### Atribución de última autenticación
 
-La última autenticación atribuye toda la actividad desconocida de un dispositivo compartido al usuario que se autenticó por última vez. Última autenticación se utiliza en Audience Manager y es el método preferido para los casos de uso del Perfil de datos del cliente en tiempo real. El servicio de identidad del Experience Platform crea el gráfico en función de la atribución de última autenticación y, como tal, se utiliza en la vinculación basada en gráficos. Consulte [Introducción a las reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) para obtener más información.
+La última autenticación atribuye toda la actividad desconocida de un dispositivo compartido al usuario que se autenticó por última vez. El servicio de identidad del Experience Platform crea el gráfico en función de la atribución de última autenticación y, como tal, se utiliza en la vinculación basada en gráficos. Consulte [Introducción a las reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) para obtener más información.
 
 Cuando se utiliza la atribución de última autenticación en la vinculación, los ID vinculados se resuelven como se muestra en la tabla siguiente.
 
@@ -64,9 +65,9 @@ Cuando se utiliza la atribución de última autenticación en la vinculación, l
 | 2023-05-13 11:08 | Página de inicio | `1234` | | `cassidy@a.com` |
 
 
-#### Device-split
+### Device-split
 
-La división del dispositivo atribuye la actividad anónima de un dispositivo compartido al usuario más próximo a la actividad anónima. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo. La división de dispositivos es el enfoque preferido para los casos de uso analíticos, ya que la división de dispositivos da crédito por la actividad no autenticada y autenticada a la persona conocida más cercana. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo.
+La división del dispositivo atribuye la actividad anónima de un dispositivo compartido al usuario más próximo a la actividad anónima. La división de dispositivos es el enfoque preferido para los casos de uso analíticos, ya que la división de dispositivos da crédito por la actividad no autenticada y autenticada a la persona conocida más cercana. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo.
 
 Cuando se utiliza la atribución dividida por el dispositivo en la vinculación, los ID vinculados se resuelven como se muestra en la tabla siguiente.
 
@@ -80,21 +81,25 @@ Cuando se utiliza la atribución dividida por el dispositivo en la vinculación,
 | 2023-05-13 11:08 | Página de inicio | `1234` | | `cassidy@a.com` |
 
 
-### Restablecimiento de ECID
+<!--
 
-Como su nombre indica, el restablecimiento de ECID implementa una funcionalidad que restablece el ECID en un déclencheur predeterminado, en la mayoría de los casos un evento de inicio de sesión o cierre de sesión. Con esta implementación, un solo dispositivo obtiene un nuevo ECID cada vez que se activa el déclencheur predeterminado. Básicamente, este restablecimiento fuerza al dispositivo a convertirse en *nuevo dispositivo* una y otra vez desde la perspectiva de los datos. El restablecimiento de ECID también ayuda a evitar que los dispositivos compartidos se muestren en los datos. No se requieren algoritmos adicionales, pero usted tiene la responsabilidad de implementar la señal de restablecimiento de ECID como parte de su implementación de recopilación de datos de Adobe.
+### ECID reset 
+
+As the name implies, ECID reset implements functionality that resets the ECID on a predetermined trigger, in most cases a login or logout event. With this implementation, a single device gets a new ECID every time the predetermined trigger fires. Essentially, this reset forces the device to become a *new device* over and again from a data perspective. The ECID reset also helps to prevent shared devices from even showing up in the data. No additional algorithms are required, but you have the responsibility to implement the ECID reset signal as part of your Adobe data collection implementation.
 
 
-Cuando se utiliza el restablecimiento de ECID, los ID conectados se resuelven como se muestra en la tabla siguiente.
+When using ECID reset, Stitched IDs resolve as shown in the table below. 
 
-| Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico | ID vinculado |
+| Timestamp | Page name | Device ID | Email | Stitched ID |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Página de inicio | `1234` | | `ryan@a.com` |
-| 2023-05-12 12:02 | Página de producto | `1234` | | `ryan@a.com` |
-| 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` | `ryan@a.com` |
-| 2023-05-12 12:07 | Página de producto | 5678 | | `cassidy@a.com` |
-| 2023-05-12 12:08 | Pedido realizado correctamente | 5678 | `cassidy@a.com` | `cassidy@a.com` |
-| 2023-05-13 11:08 | Página de inicio | 5678 | | `cassidy@a.com` |
+| 2023-05-12 12:01 | Home page | `1234` | | `ryan@a.com`| 
+| 2023-05-12 12:02 | Product page  | `1234` | |`ryan@a.com` | 
+| 2023-05-12 12:03 | Order success | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 2023-05-12 12:07 | Product page  | 5678  | | `cassidy@a.com` | 
+| 2023-05-12 12:08 | Order success | 5678 |  `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Home page | 5678 | | `cassidy@a.com` |
+
+-->
 
 ## Exposición de dispositivo compartido
 
@@ -120,7 +125,7 @@ Para comprender la exposición del dispositivo compartido, puede pensar en reali
 
 2. **Atribución de eventos a dispositivos compartidos**
 
-   En el caso de los dispositivos compartidos identificados, determine cuántos eventos del total pueden atribuirse a estos dispositivos. Esto proporciona una perspectiva del impacto que los dispositivos compartidos tienen en los datos y las implicaciones para el análisis.
+   En el caso de los dispositivos compartidos identificados, determine cuántos eventos del total pueden atribuirse a estos dispositivos. Esta atribución proporciona una perspectiva del impacto que los dispositivos compartidos tienen en los datos y las implicaciones para el análisis.
 
    ```sql
    SELECT COUNT(*) AS total_events,
@@ -147,7 +152,7 @@ Para comprender la exposición del dispositivo compartido, puede pensar en reali
 
 3. **Identificar eventos anónimos en dispositivos compartidos**
 
-   Entre los eventos atribuidos a dispositivos compartidos, identifique cuántos carecen de un ID de persona, lo que indica eventos anónimos. El algoritmo que elija (por ejemplo, last-auth, device-split o ECID-reset) para mejorar la calidad de los datos afectará estos eventos anónimos.
+   Entre los eventos atribuidos a dispositivos compartidos, identifique cuántos carecen de un ID de persona, lo que indica eventos anónimos. El algoritmo que elija (por ejemplo, last-auth, device-split o ECID-reset) para mejorar la calidad de los datos afecta a estos eventos anónimos.
 
    ```sql
    SELECT COUNT(IF(shared_persistent_ids.persistent_id IS NOT NULL, 1, null)) shared_persistent_ids_events,
@@ -198,5 +203,3 @@ Para comprender la exposición del dispositivo compartido, puede pensar en reali
    ) shared_persistent_ids 
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
-
-
