@@ -3,13 +3,11 @@ title: Dispositivos compartidos
 description: Explicación de cómo gestionar dispositivos compartidos mediante la vinculación y otras técnicas.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-hide: true
-hidefromtoc: true
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: c0dae5f1255a986df5ab2551aabdf1bd0727e949
+source-git-commit: 81d1c6abbda63c4ac8cdcc96d1b730974b137ad9
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
@@ -67,7 +65,7 @@ Cuando se utiliza la atribución de última autenticación en la vinculación, l
 
 ### Device-split
 
-La división del dispositivo atribuye la actividad anónima de un dispositivo compartido al usuario más próximo a la actividad anónima. La división de dispositivos es el enfoque preferido para los casos de uso analíticos, ya que la división de dispositivos da crédito por la actividad no autenticada y autenticada a la persona conocida más cercana. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo.
+La división del dispositivo atribuye la actividad anónima de un dispositivo compartido al usuario más próximo a la actividad anónima. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo.
 
 Cuando se utiliza la atribución dividida por el dispositivo en la vinculación, los ID vinculados se resuelven como se muestra en la tabla siguiente.
 

@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fc3aee031808d7a6c12ed2a2cbcad8f7ae6caa82
+source-git-commit: 8ff3a1c874a0eb67e4b7a6edda6156c4d07edc9f
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4173'
 ht-degree: 70%
 
 ---
@@ -20,7 +20,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Octubre de 2024** | |
-| Nueva información sobre los factores de solicitud en el rendimiento de Analysis Workspace | Una nueva sección [Factores de solicitud](/help/technotes/optimizing-performance.md#request-factors) en el artículo [Optimizar el rendimiento de Analysis Workspace](/help/technotes/optimizing-performance.md) explica cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento. |
+| Dispositivos compartidos | Se ha añadido un artículo de caso de uso que proporciona contexto en dispositivos compartidos, cómo gestionar y mitigar los datos de dispositivos compartidos mediante la vinculación y comprender la exposición de dispositivos compartidos en sus datos mediante el servicio de consulta. |
+| Nueva información sobre Factores de solicitud en el rendimiento de Analysis Workspace | Una nueva sección [Factores de solicitud](/help/technotes/optimizing-performance.md#request-factors) del artículo [Optimizar rendimiento de Analysis Workspace](/help/technotes/optimizing-performance.md) explica cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento. |
 | Workspace y componentes | Se ha actualizado la documentación sobre proyectos de Analysis Workspace (proyectos, visualizaciones y paneles) y componentes (anotaciones, dimensiones, métricas (calculadas), filtros, intervalos de fechas, alertas, proyectos programados y audiencias). |
 | Análisis guiado | Se ha actualizado la documentación con la disponibilidad de [Análisis guiado](/help/guided-analysis/overview.md) desde Analysis Workspace. |
 | **Septiembre de 2024** | |
