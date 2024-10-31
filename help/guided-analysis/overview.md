@@ -8,7 +8,7 @@ role: User
 source-git-commit: 1e7d61f05a8351a1bd9e4d289c9d31906676f909
 workflow-type: tm+mt
 source-wordcount: '1806'
-ht-degree: 28%
+ht-degree: 32%
 
 ---
 
@@ -42,21 +42,21 @@ Puede acceder a Análisis guiado desde la página principal del Customer Journey
 
    ![Mosaico de página de aterrizaje](assets/landing-page-tile.png){style="border:1px solid gray"}
 
-1. Seleccione **[!UICONTROL Crear nuevo]** para ver las diferentes opciones de vista y elegir un punto de partida diferente para su análisis.
+1. Haz clic en **[!UICONTROL Crear nuevo]** para ver las distintas opciones de vista y elegir un punto de partida diferente para tu análisis.
 
    ![Creación de un nuevo modal](assets/create-new-modal.png){style="border:1px solid gray"}
 
 También puede acceder al análisis guiado desde un proyecto de Analysis Workspace.
 
-1. Seleccione **[!UICONTROL Proyecto en blanco]** de la página principal para crear un proyecto de Workspace vacío.
+1. Selecciona **[!UICONTROL Proyecto en blanco]** de la página principal para crear un proyecto de Workspace vacío.
 
-   ![Crear proyecto en blanco](assets/blank-project.png){style="border:1px solid gray"}
+   ![Crear un proyecto en blanco](assets/blank-project.png){style="border:1px solid gray"}
 
-1. Seleccione ![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg) **[!UICONTROL Análisis guiado]** en el carril izquierdo.
+1. Selecciona ![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg) **[!UICONTROL Análisis guiado]** en el panel izquierdo.
 
-   ![Carril izquierdo de Workspace](assets/workspace-left-rail.png){style="border:1px solid gray"}
+   ![Panel izquierdo de Workspace](assets/workspace-left-rail.png){style="border:1px solid gray"}
 
-1. Arrastre cualquier nuevo análisis al lienzo de Workspace y, a continuación, seleccione **[!UICONTROL Crear]** para generar el análisis deseado (por ejemplo: **[!UICONTROL Crear tendencias]**). También puede arrastrar un análisis existente al lienzo de Workspace desde la sección **[!UICONTROL Guardado]**.
+1. Arrastre cualquier nuevo análisis al lienzo de Workspace y, a continuación, seleccione **[!UICONTROL Crear]** para generar el análisis deseado (por ejemplo: **[!UICONTROL Crear tendencias]**). También puedes arrastrar un análisis existente al lienzo de Workspace desde la sección **[!UICONTROL Guardado]**.
 
    ![Crear panel](assets/create-guided-analysis-panel.gif)
 
