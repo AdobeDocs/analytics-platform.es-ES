@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
+source-git-commit: 64df8670418524be8879aa6362bb8b7c229025b6
 workflow-type: tm+mt
-source-wordcount: '8842'
+source-wordcount: '8841'
 ht-degree: 17%
 
 ---
@@ -43,7 +43,6 @@ Cuando se crea o edita un campo derivado, se utiliza la interfaz de campo deriva
 ![Captura de pantalla del cuadro de diálogo Campo derivado](assets/derived-field-dialog.png)
 
 
-![Descripción general del programa](/help/assets/icons/ProgramOverview.svg)
 
 |  | Nombre | Descripción |
 |---------|----------|--------|
@@ -188,6 +187,8 @@ Esta plantilla de función utiliza una colección de reglas para identificar los
 
 +++ Detalles
 
+{{select-package}}
+
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
 ![Captura de pantalla del generador de reglas de devoluciones](assets/function-template-bounces.png)
@@ -199,6 +200,8 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 Esta plantilla de función combina dos valores en uno.
 
 +++ Detalles
+
+{{select-package}}
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
@@ -212,6 +215,8 @@ Esta plantilla de función proporciona un nombre de conjunto de datos legible.
 
 +++ Detalles
 
+{{select-package}}
+
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
 ![Captura de pantalla del generador de reglas Nombre de conjunto de datos descriptivo](assets/function-template-friendly-dataset-name.png)
@@ -223,6 +228,8 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 Esta plantilla de función crea un nombre de página simple.
 
 +++ Detalles
+
+{{select-package}}
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
@@ -236,6 +243,8 @@ Esta plantilla de función clasifica las horas clave del año.
 
 +++ Detalles
 
+{{select-package}}
+
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
 ![Captura de pantalla del generador de reglas para la temporada de vacaciones](assets/function-template-holiday-season.png)
@@ -247,6 +256,8 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 Esta plantilla de función establece objetivos mensuales personalizados.
 
 +++ Detalles
+
+{{select-package}}
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
@@ -260,6 +271,8 @@ Esta plantilla de función convierte una lista limitada en una matriz.
 
 +++ Detalles
 
+{{select-package}}
+
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
 ![Captura de pantalla del generador de reglas Obtener todos los valores en lista delimitada](assets/function-template-get-all-values-in-delimited-list.png)
@@ -271,6 +284,8 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 Esta plantilla de función obtiene el primer valor de una lista delimitada.
 
 +++ Detalles
+
+{{select-package}}
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
@@ -284,6 +299,8 @@ Esta plantilla de función obtiene el último valor de una lista delimitada.
 
 +++ Detalles
 
+{{select-package}}
+
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
 ![Captura de pantalla del generador de reglas Obtener el último valor de la lista delimitada](assets/function-template-get-last-value-in-delimited-list.png)
@@ -295,6 +312,8 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 Esta plantilla de función extrae el nombre de dominio mediante una expresión regular.
 
 +++ Detalles
+
+{{select-package}}
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
@@ -308,6 +327,8 @@ Esta plantilla de función extrae valores de cadena de consulta.
 
 +++ Detalles
 
+{{select-package}}
+
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
 ![Captura de pantalla del generador de reglas del parámetro de cadena de consulta Get](assets/function-template-get-query-string-parameter.png)
@@ -319,6 +340,8 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 Esta plantilla de función cambia la creación de informes de un campo a otro.
 
 +++ Detalles
+
+{{select-package}}
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
@@ -332,6 +355,8 @@ Esta plantilla de función implementa la identificación de bots ligeros.
 
 +++ Detalles
 
+{{select-package}}
+
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
 ![Captura de pantalla del generador de reglas de detección de bots simples](assets/function-template-simple-bot-detection.png)
@@ -344,6 +369,8 @@ Esta plantilla de función identifica el último vínculo en el que se hizo clic
 
 +++ Detalles
 
+{{select-package}}
+
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
 ![Captura de pantalla del generador de reglas de Vínculo de salida](assets/function-template-exit-link.png)
@@ -355,6 +382,8 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 Esta plantilla de función indica vínculos de descarga comunes.
 
 +++ Detalles
+
+{{select-package}}
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
