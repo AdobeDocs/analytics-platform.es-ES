@@ -7,12 +7,12 @@ keywords: Product Analytics
 role: User
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '670'
+ht-degree: 3%
 
 ---
 
-# Análisis de [!UICONTROL canal] {#funnel}
+# Análisis del [!UICONTROL canal] {#funnel}
 
 <!-- markdownlint-disable MD034 -->
 

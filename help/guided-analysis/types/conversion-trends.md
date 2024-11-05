@@ -7,18 +7,18 @@ exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '536'
+ht-degree: 4%
 
 ---
 
-# Análisis de [!UICONTROL tendencias de conversión] {#conversion-trends}
+# Análisis de [!UICONTROL tendencias de frecuencia] {#conversion-trends}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_guidedanalysis_conversiontrends_button"
->title="Tendencias de conversión"
+>title="Tendencias de la conversión"
 >abstract="Haga un seguimiento de los cambios en las tasas de conversión a lo largo del tiempo."
 
 <!-- markdownlint-enable MD034 -->

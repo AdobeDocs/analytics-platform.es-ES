@@ -7,12 +7,12 @@ role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '748'
+ht-degree: 6%
 
 ---
 
-# Análisis de [!UICONTROL participación] {#engagement}
+# Análisis de la [!UICONTROL participación] {#engagement}
 
 <!-- markdownlint-disable MD034 -->
 

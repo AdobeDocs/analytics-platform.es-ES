@@ -7,12 +7,12 @@ keywords: Product Analytics
 role: User
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '781'
+ht-degree: 4%
 
 ---
 
-# Análisis [!UICONTROL Tendencias] {#trends}
+# Análisis de [!UICONTROL tendencias] {#trends}
 
 <!-- markdownlint-disable MD034 -->
 

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
 workflow-type: tm+mt
 source-wordcount: '1884'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Proporciona una configuración general para la vista de datos.
 >[!CONTEXTUALHELP]
 >id="cja_dataview_dataviewsinadobejourneyoptimizer"
 >title="Vistas de datos en Adobe Journey Optimizer"
->abstract="Customer Journey Analytics necesita utilizar una conexión y una vista de datos que sean compatibles con Adobe Journey Optimizer. De forma predeterminada, se crean automáticamente una conexión y una vista de datos para este fin.<br/>También puede habilitar esta opción para que sea la vista de datos predeterminada que se usa en los informes de Adobe Journey Optimizer. Cuando se habilita, todos los componentes necesarios para Journey Optimizer se agregan a esta vista de datos y todos los conjuntos de datos de Journey Optimizer necesarios se agregan a la conexión asociada con esta vista de datos."
+>abstract="Customer Journey Analytics debe utilizar una conexión y una vista de datos que sean compatibles con Adobe Journey Optimizer. De forma predeterminada, se crea automáticamente una conexión y una vista de datos para este fin.<br/>Como alternativa puede habilitar esta opción para que sea la vista de datos predeterminada que se utilice en la creación de informes de Adobe Journey Optimizer. Cuando se habilita, todos los componentes necesarios para Journey Optimizer se añaden a esta vista de datos y todos los conjuntos de datos de Journey Optimizer necesarios se añaden a la conexión asociada con esta vista de datos."
 >additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo#connection" text="Qué componentes y conjuntos de datos se añaden."
 
 <!-- markdownlint-enable MD034 -->

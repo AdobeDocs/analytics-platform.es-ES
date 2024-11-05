@@ -7,19 +7,19 @@ role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 3%
 
 ---
 
-# Análisis de [!UICONTROL escala de tiempo] {#timeline}
+# Análisis de la [!UICONTROL cronología] {#timeline}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_guidedanalysis_timeline_button"
 >title="Cronología"
->abstract="Observe los eventos de sesión en el nivel de usuario a lo largo del tiempo."
+>abstract="Observe los eventos a nivel de la sesión a lo largo del tiempo."
 
 <!-- markdownlint-enable MD034 -->
 
