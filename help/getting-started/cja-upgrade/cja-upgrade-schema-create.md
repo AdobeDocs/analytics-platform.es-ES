@@ -6,22 +6,20 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 56%
+source-wordcount: '987'
+ht-degree: 52%
 
 ---
 
 # Crear un esquema XDM para utilizarlo con el Customer Journey Analytics
 
 >[!NOTE]
->
->Esta documentación se debe usar después de completar el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 > 
->Siga los pasos de esta página solo después de completar todos los pasos anteriores generados dinámicamente para su organización.
+>Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
->Después de completar los pasos de esta página, continúe siguiendo los pasos de actualización que se generaron dinámicamente para su organización desde el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
 
 >[!IMPORTANT]
 >
@@ -62,13 +60,13 @@ Para crear un esquema:
 
    1. Seleccione **[!UICONTROL Finalizar]**.
 
-1. En la pestaña Estructura del esquema de ejemplo:
+1. En la ficha [!UICONTROL **Estructura**] del esquema:
 
-   1. Seleccione **[!UICONTROL + Agregar]** en [!UICONTROL Grupos de campos].
-
-      ![Agregar grupo de campos](assets/add-field-group-button.png)
+   1. En la sección **[!UICONTROL Grupos de campos]**, seleccione **[!UICONTROL + Agregar]**.
 
       Los grupos de campos son colecciones reutilizables de objetos y atributos que le permiten ampliar fácilmente su esquema.
+
+      ![Agregar grupo de campos](assets/add-field-group-button.png)
 
    1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos], seleccione el grupo de campos **[!UICONTROL ExperienceEvent del SDK web de AEP]** en la lista.
 
@@ -116,7 +114,7 @@ Para crear un esquema:
 
    Seleccione **[!UICONTROL Guardar]**.
 
-1. Seleccione el elemento raíz del esquema que muestra el nombre del esquema y, a continuación, seleccione el conmutador **[!UICONTROL Perfil]**.
+1. (Opcional) Si desea integrar Customer Journey Analytics con RTCDP, seleccione el elemento raíz del esquema que muestra el nombre del esquema y, a continuación, seleccione el conmutador **[!UICONTROL Perfil]**.
 
    Se le pedirá que habilite el esquema para el perfil. Tras la habilitación, cuando los datos se incorporan en conjuntos de datos basados en este esquema, los datos se combinan en el perfil del cliente en tiempo real.
 
@@ -124,7 +122,7 @@ Para crear un esquema:
 
    >[!IMPORTANT]
    >
-   >    Una vez guardado un esquema habilitado para perfil, ya no se puede deshabilitar para perfil.
+   >Después de habilitar un esquema para el perfil, no se puede deshabilitar para el perfil.
 
    ![Habilitar esquema para perfil](./assets/enable-for-profile.png)
 
@@ -148,5 +146,5 @@ Para crear un esquema:
 
    Consulte [Crear y editar esquemas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es) para obtener más información sobre cómo agregar y quitar grupos de campos y campos individuales a un esquema.
 
-1. Continúe siguiendo los pasos de actualización generados dinámicamente para su organización desde el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
 

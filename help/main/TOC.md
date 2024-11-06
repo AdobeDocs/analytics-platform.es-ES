@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 64662195842ae799d2020c226ca34293905d13ae
+source-git-commit: dcb01aa4ca885e00c5fe8b4c3373f0b57bace1e4
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 89%
+source-wordcount: '1003'
+ht-degree: 88%
 
 ---
 
@@ -47,6 +47,9 @@ ht-degree: 89%
       + [Enviar datos a Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Conservar datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Proceso recomendado](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [Comprender la implementación de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
+      + [Crear conjuntos de datos de búsqueda para clasificaciones](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+      + [Uso de etiquetas para actualizar](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
       + [Arquitectura del esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [Cree su esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [Usar el esquema existente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
@@ -232,13 +235,13 @@ ht-degree: 89%
 + Análisis guiado {#guided-analysis}
    + [Información general](../guided-analysis/overview.md)
    + [Crecimiento activo](../guided-analysis/types/active-growth.md)
-   + [Tendencias de conversión](../guided-analysis/types/conversion-trends.md)
+   + [Tendencias de la conversión](../guided-analysis/types/conversion-trends.md)
    + [Participación](../guided-analysis/types/engagement.md)
    + [Impacto del primer uso](../guided-analysis/types/first-use-impact.md)
    + [Frecuencia](../guided-analysis/types/frequency.md)
    + [Canal](../guided-analysis/types/funnel.md)
    + [Crecimiento neto](../guided-analysis/types/net-growth.md)
-   + [Impacto de versión](../guided-analysis/types/release-impact.md)
+   + [Impacto de la versión](../guided-analysis/types/release-impact.md)
    + [Retención](../guided-analysis/types/retention.md)
    + [Cronología](../guided-analysis/types/timeline.md)
    + [Tendencias](../guided-analysis/types/trends.md)
