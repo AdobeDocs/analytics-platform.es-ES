@@ -1,5 +1,5 @@
 ---
-title: Integrar Adobe Journey Optimizer
+title: Integración de Journey Optimizer
 description: Incorpore datos generados por Adobe Journey Optimizer y analícelos usando Analysis Workspace dentro de Customer Journey Analytics.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
@@ -11,7 +11,7 @@ ht-degree: 99%
 
 ---
 
-# Integrar Journey Optimizer
+# Integración de Journey Optimizer
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/get-started) le ayuda a ofrecer experiencias conectadas, contextualizadas y personalizadas. Esto ayuda a exponer a los clientes al siguiente paso de su recorrido del cliente.
 
@@ -104,7 +104,7 @@ En las secciones siguientes se describe cómo puede utilizar manualmente los dat
 
 Adobe Experience Platform sirve como fuente de datos central y vínculo entre Journey Optimizer y Customer Journey Analytics. Consulte [Introducción a los conjuntos de datos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/data-management/datasets/get-started-datasets) en la guía del usuario de Journey Optimizer para ver los pasos sobre cómo enviar datos de Journey Optimizer a Experience Platform como un conjunto de datos.
 
-### Crear una conexión
+### Crea una conexión
 
 Una vez que los datos de Journey Optimizer están en Adobe Experience Platform, puede [Crear una conexión](/help/connections/create-connection.md) en función de su conjunto de datos de Journey Optimizer. O puede agregar conjuntos de datos de Journey Optimizer a una conexión existente.
 

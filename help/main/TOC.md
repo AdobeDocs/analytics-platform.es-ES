@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: dcb01aa4ca885e00c5fe8b4c3373f0b57bace1e4
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -50,15 +50,15 @@ ht-degree: 88%
       + [Comprender la implementación de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [Crear conjuntos de datos de búsqueda para clasificaciones](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [Uso de etiquetas para actualizar](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
-      + [Arquitectura del esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
-      + [Cree su esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
-      + [Usar el esquema existente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
+      + [Diseña tu esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
+      + [Crea tu etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
+      + [Usa el esquema existente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
       + [Crear un conjunto de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
       + [Crear un flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
-      + [Agregar Platform como servicio](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
-      + [Crear una conexión](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
-      + [Creación de una vista de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
-      + [Validar flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
+      + [Añade Platform como servicio](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + [Crea una conexión](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
+      + [Crea una vista de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
+      + [Valida el flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [Acceso directo de actualización: Migrar a SDK web](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
       + [Información general](../getting-started/aa-vs-cja/overview.md)
@@ -76,7 +76,7 @@ ht-degree: 88%
    + [Información general sobre la ingesta de datos](../data-ingestion/data-ingestion.md)
    + Guías de inicio rápido de ingesta y uso{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Edge Network Experience Platform {#edge-network}
+      + Experience Platform Edge Network {#edge-network}
          + [SDK web](../data-ingestion/aepwebsdk.md)
          + [SDK móvil](../data-ingestion/aepmobilesdk.md)
          + [API de servidor](../data-ingestion/serverapi.md)
@@ -115,7 +115,7 @@ ht-degree: 88%
    + [Etiquetas y políticas](../data-views/data-governance.md)
 
 + Herramientas {#tools}
-   + Transferencia de recursos {#asset-transfer}
+   + Transferencia de recurso {#asset-transfer}
       + [Transferir recursos](../tools/asset-transfer/transfer-assets.md)
    + Uso del producto {#product-usage}
       + [Información general](../tools/product-usage/usage-overview.md)
@@ -227,7 +227,7 @@ ht-degree: 88%
 + Paneles de Analytics {#cja-dashboards}
    + [Información general](../mobile-app/home.md)
    + [Tareas del gestor de datos](../mobile-app/curator.md)
-   + [Crear cuadros de resultados móviles](../mobile-app/create-scorecard.md)
+   + [Creación de cuadros de resultados móviles](../mobile-app/create-scorecard.md)
    + [Administración de cuadros de resultados móviles](../mobile-app/manage-scorecard.md)
    + [Configuración de ejecutivos para que utilicen tableros](../mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
@@ -235,13 +235,13 @@ ht-degree: 88%
 + Análisis guiado {#guided-analysis}
    + [Información general](../guided-analysis/overview.md)
    + [Crecimiento activo](../guided-analysis/types/active-growth.md)
-   + [Tendencias de la conversión](../guided-analysis/types/conversion-trends.md)
+   + [Tendencias de conversión](../guided-analysis/types/conversion-trends.md)
    + [Participación](../guided-analysis/types/engagement.md)
    + [Impacto del primer uso](../guided-analysis/types/first-use-impact.md)
    + [Frecuencia](../guided-analysis/types/frequency.md)
    + [Canal](../guided-analysis/types/funnel.md)
    + [Crecimiento neto](../guided-analysis/types/net-growth.md)
-   + [Impacto de la versión](../guided-analysis/types/release-impact.md)
+   + [Impacto de versión](../guided-analysis/types/release-impact.md)
    + [Retención](../guided-analysis/types/retention.md)
    + [Cronología](../guided-analysis/types/timeline.md)
    + [Tendencias](../guided-analysis/types/trends.md)
@@ -373,8 +373,8 @@ ht-degree: 88%
    + Datos de Google Analytics {#ga}
       + [Migración de datos de Google Analytics](../use-cases/ga/overview.md)
       + [Ingesta de datos históricos de Google Analytics](../use-cases/ga/backfill.md)
-      + [Configuración de datos de Google Analytics de streaming](../use-cases/ga/streaming.md)
-      + [Informar sobre datos de Google Analytics](../use-cases/ga/report.md)
+      + [Configuración del streaming de datos de Google Analytics](../use-cases/ga/streaming.md)
+      + [Informe sobre datos de Google Analytics](../use-cases/ga/report.md)
    + Ingesta de datos {#data-ingestion}
       + [Ingesta y uso de datos de Marketo Engage](../use-cases/data-ingestion/marketo.md)
       + [Ingesta y uso de públicos de Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
@@ -402,7 +402,7 @@ ht-degree: 88%
    + Identificación {#stitching}
       + [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md)
    + Campos derivados {#derived-fields}
-      + [Informar sobre objetivos](../use-cases/goals-using-derived-fields.md)
+      + [Informe sobre metas](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Guía del usuario de Labs](../labs/labs.md)
