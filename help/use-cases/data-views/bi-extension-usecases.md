@@ -7,16 +7,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: adc9e888eece72031ed234e634b206475d1539d7
+source-git-commit: 7fc625fcca51deebf860829ac67ca1b88b64cd1a
 workflow-type: tm+mt
-source-wordcount: '9056'
+source-wordcount: '9048'
 ht-degree: 1%
 
 ---
 
 # Casos de uso de extensión de BI
 
-Este artículo explica cómo realizar una serie de casos de uso mediante la extensión de BI de Customer Journey Analytics. En cada caso de uso, se explica la funcionalidad del Customer Journey Analytics, seguida de detalles para cada una de las herramientas de BI admitidas:
+Este artículo explica cómo realizar una serie de casos de uso mediante la extensión de BI de Customer Journey Analytics. En cada caso de uso se explica la funcionalidad del Customer Journey Analytics, seguida de detalles para cada una de las herramientas de BI admitidas:
 
 * **Escritorio de Power BI**. La versión utilizada es 2.137.1102.0 de 64 bits (octubre de 2024).
 * **Escritorio Tableau**. La versión utilizada es 2024.1.5 (20241.24.0705.0334) de 64 bits.
@@ -1470,21 +1470,21 @@ Las dimensiones de intervalo de fechas de Customer Journey Analytics, como **[!U
 Las métricas del Customer Journey Analytics se identifican con el [!UICONTROL ID de componente]. El [!UICONTROL ID de componente] está definido en la vista de datos del Customer Journey Analytics. Por ejemplo, la métrica **[!UICONTROL Ingresos de compra]** del Customer Journey Analytics tiene un [!UICONTROL ID de componente] **[!UICONTROL purchase_revenue]**, que es el nombre de la métrica en Power BI Desktop. Un **[!UICONTROL ∑]** indica las métricas. Cuando se usa una métrica en cualquier visualización, se cambia el nombre de la métrica a **[!UICONTROL Suma de *métrica *]**.
 
 **Filtros**
-Los filtros que ha definido en Customer Journey Analytics están disponibles como parte del campo **[!UICONTROL filterName]**. Cuando usa un campo **[!UICONTROL filterName]** en Power BI Desktop, puede especificar qué filtro utilizar.
+Los filtros que defina en Customer Journey Analytics están disponibles como parte del campo **[!UICONTROL filterName]**. Cuando usa un campo **[!UICONTROL filterName]** en Power BI Desktop, puede especificar qué filtro utilizar.
 
 **Métricas calculadas**
-Las métricas calculadas que defina en Customer Journey Analytics se identificarán con la [!UICONTROL ID externa] que haya definido para la métrica calculada. Por ejemplo, la métrica calculada **[!UICONTROL Product Name (Count Distinct)]** tiene [!UICONTROL ID externo] **[!UICONTROL product_name_count_distinct]** y se muestra como **[!UICONTROL cm_product_name_count_distinct]**t en el escritorio de Power BI.
+Las métricas calculadas que define en Customer Journey Analytics se identifican con el [!UICONTROL ID externo] que ha definido para la métrica calculada. Por ejemplo, la métrica calculada **[!UICONTROL Product Name (Count Distinct)]** tiene [!UICONTROL ID externo] **[!UICONTROL product_name_count_distinct]** y se muestra como **[!UICONTROL cm_product_name_count_distinct]**t en el escritorio de Power BI.
 
 **Intervalos de fechas**
-Los intervalos de fechas que ha definido en Customer Journey Analytics están disponibles como parte del campo **[!UICONTROL intervaloDeFechas]**. Cuando usa un campo **[!UICONTROL daterangeName]**, puede especificar qué intervalo de fecha usar.
+Los intervalos de fechas que defina en Customer Journey Analytics están disponibles como parte del campo **[!UICONTROL intervaloDeFechas]**. Cuando usa un campo **[!UICONTROL daterangeName]**, puede especificar qué intervalo de fecha usar.
 
 **Transformaciones personalizadas**
-Power BI Desktop proporciona funcionalidad de transformación personalizada mediante [expresiones de análisis de datos (DAX)](https://learn.microsoft.com/en-us/dax/dax-overview). Por ejemplo, desea ejecutar el caso de uso de clasificación de dimensión única con nombres de producto en minúsculas. Para ello:
+Power BI Desktop proporciona funcionalidad de transformación personalizada mediante [expresiones de análisis de datos (DAX)](https://learn.microsoft.com/en-us/dax/dax-overview). Por ejemplo, desea ejecutar el caso de uso de clasificación de dimensión única con nombres de producto en minúsculas.
 
 1. En la vista Informe, seleccione la visualización de barras.
 1. Seleccione product_name en el panel Datos.
 1. Seleccione Nueva columna en la barra de herramientas.
-1. En el editor de fórmulas defina una nueva columna denominada `product_name_lower`, como `product_name_lower = LOWER('public.cc_data_view[product_name])`.
+1. En el editor de fórmulas, defina una nueva columna denominada `product_name_lower`, como `product_name_lower = LOWER('public.cc_data_view[product_name])`.
    ![Transformación de escritorio de Power BI a inferior](assets/uc14-powerbi-transformation.png)
 1. Asegúrese de seleccionar la nueva columna product_name_lower en el panel de datos en lugar de la columna product_name.
 1. Seleccione Informe como tabla de ![Más](/help/assets/icons/More.svg) en la visualización de tabla.
@@ -1545,16 +1545,16 @@ Las dimensiones de intervalo de fechas de Customer Journey Analytics, como **[!U
 Las métricas del Customer Journey Analytics se identifican con el [!UICONTROL Nombre del componente]. El [!UICONTROL Nombre de componente] está definido en la vista de datos del Customer Journey Analytics. Por ejemplo, la métrica **[!UICONTROL Ingresos de compra]** del Customer Journey Analytics tiene un [!UICONTROL Nombre de componente] **[!UICONTROL Ingresos de compra]**, que es el nombre de la métrica en Tableau. **[!UICONTROL #]** identifica todas las métricas. Cuando usa una métrica en cualquier visualización, se cambia el nombre de la métrica a **[!UICONTROL Sum(*metric*)]**.
 
 **Filtros**
-Los filtros que ha definido en Customer Journey Analytics están disponibles como parte del campo **[!UICONTROL Nombre del filtro]**. Cuando usa un campo **[!UICONTROL Nombre del filtro]** en Tableau, puede especificar qué filtro utilizar.
+Los filtros que defina en Customer Journey Analytics están disponibles como parte del campo **[!UICONTROL Nombre del filtro]**. Cuando usa un campo **[!UICONTROL Nombre del filtro]** en Tableau, puede especificar qué filtro utilizar.
 
 **Métricas calculadas**
-Las métricas calculadas que ha definido en Customer Journey Analytics se identifican con el [!UICONTROL Título] que ha definido para la métrica calculada. Por ejemplo, la métrica calculada **[!UICONTROL Product Name (Count Distinct)]** tiene [!UICONTROL Title] **[!UICONTROL Product Name (Count Distinct)]** y se muestra como **[!UICONTROL Cm Product Name Count Distinct]** en Tableau.
+Las métricas calculadas que defina en Customer Journey Analytics se identificarán con el [!UICONTROL Título] que haya definido para la métrica calculada. Por ejemplo, la métrica calculada **[!UICONTROL Product Name (Count Distinct)]** tiene [!UICONTROL Title] **[!UICONTROL Product Name (Count Distinct)]** y se muestra como **[!UICONTROL Cm Product Name Count Distinct]** en Tableau.
 
 **Intervalos de fechas**
-Los intervalos de fechas que ha definido en Customer Journey Analytics están disponibles como parte del campo **[!UICONTROL Nombre del intervalo de fechas]**. Cuando usa un campo **[!UICONTROL Nombre del intervalo de fechas]**, puede especificar qué intervalo de fechas utilizar.
+Los intervalos de fechas que defina en Customer Journey Analytics están disponibles como parte del campo **[!UICONTROL Nombre del intervalo de fechas]**. Cuando usa un campo **[!UICONTROL Nombre del intervalo de fechas]**, puede especificar qué intervalo de fechas utilizar.
 
 **Transformaciones personalizadas**
-Tableau Desktop proporciona funcionalidad de transformación personalizada mediante [Campos calculados](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Por ejemplo, desea ejecutar el caso de uso de clasificación de dimensión única con nombres de producto en minúsculas. Para ello:
+Tableau Desktop proporciona funcionalidad de transformación personalizada mediante [Campos calculados](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Por ejemplo, desea ejecutar el caso de uso de clasificación de dimensión única con nombres de producto en minúsculas.
 
 1. Seleccione **[!UICONTROL Análisis]** > **[!UICONTROL Crear campo calculado]** en el menú principal.
    1. Defina **[!UICONTROL Nombre de producto en minúsculas]** con la función `LOWER([Product Name])`.
@@ -1622,7 +1622,7 @@ Las siguientes visualizaciones de Customer Journey Analytics se encuentran en un
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra horizontal apilada](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Gráfico de barras apiladas y gráfico de barras apiladas al 100%](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
 | ![Rama3](/help/assets/icons/Branch3.svg) | [lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [Árbol de descomposición](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
 | ![Métricas clave](/help/assets/icons/KeyMetrics.svg) | [Resumen de métricas clave](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analysis-workspace/visualizations/line.md) | [Gráfico de líneas](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
+| ![TendenciaGráfico](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analysis-workspace/visualizations/line.md) | [Gráfico de líneas](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [Dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | [Gráfico de dispersión](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#scatter) |
 | ![ReglaDePágina](/help/assets/icons/PageRule.svg) | [Encabezado de sección](/help/analysis-workspace/visualizations/section-header.md) | [Cuadro de texto](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | [Tarjeta](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
@@ -1653,7 +1653,7 @@ Las siguientes visualizaciones de Customer Journey Analytics se encuentran en un
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra horizontal apilada](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Gráfico de barras](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
 | ![Rama3](/help/assets/icons/Branch3.svg) | [lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
 | ![Métricas clave](/help/assets/icons/KeyMetrics.svg) | [Resumen de métricas clave](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analysis-workspace/visualizations/line.md) | [Gráfico de líneas](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
+| ![TendenciaGráfico](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analysis-workspace/visualizations/line.md) | [Gráfico de líneas](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [Dispersión](/help/analysis-workspace/visualizations/scatterplot.md) | [Diagrama de puntos](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) |
 | ![ReglaDePágina](/help/assets/icons/PageRule.svg) | [Encabezado de sección](/help/analysis-workspace/visualizations/section-header.md) |  |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) | |
