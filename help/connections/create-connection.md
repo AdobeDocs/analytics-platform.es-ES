@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3747'
 ht-degree: 100%
 
@@ -200,7 +200,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="Clave de correspondencia"
->abstract="Seleccione cómo desea unirse: mediante una clave de coincidencia o un contenedor de coincidencia.<br/><br/>**[!UICONTROL Clave de coincidencia ]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya agregado ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Contenedor de coincidencia]**: seleccione un contenedor para utilizarlo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
+>abstract="Seleccione cómo desea unirse: mediante una clave de coincidencia o un contenedor de coincidencia.<br/><br/>**[!UICONTROL Clave de coincidencia ]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Contenedor de coincidencia]**: seleccione un contenedor para utilizarlo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
 
 <!-- markdownlint-enable MD034 -->
 

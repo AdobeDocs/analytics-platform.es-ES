@@ -5,9 +5,9 @@ feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
 source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Selecciona tus bloques de creación
 * **[!UICONTROL Analizar]**: especifica una dimensión (naranja)
 * **[!UICONTROL por]**: especifica una métrica (verde)
 * **[!UICONTROL filtrar por]**:especifica un filtro (azul)
-* **[!UICONTROL el]** - especifique un intervalo de fecha (púrpura).
+* **[!UICONTROL en]**: especifica un intervalo de fechas (púrpura).
 
 Debes seleccionar al menos una dimensión y una métrica para que la visualización funcione correctamente.
 
@@ -114,7 +114,7 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
   ![La notificación del panel Quick Insights se muestra después de hacer clic en el icono Ayuda.](assets/qibuilder4.png)
 
-* Puede analizar varias dimensiones y métricas, combinar o comparar filtros y especificar un intervalo de fechas:
+* Puede analizar varias dimensiones y métricas, combinar o comparar filtros y especificar un rango de fechas:
 
   ![Generador de perspectivas rápidas](assets/qibuilder-result.png)
 
@@ -124,7 +124,7 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
    * **[!UICONTROL filtrar por]**: puedes agregar hasta dos filtros más. Por ejemplo, agrega Reservas como filtro y combínalo con los filtros Viajeros frecuentes y Viajeros por primera vez que compares. Consulta ➏, ➐ y ➑.
 
-   * Activado: se puede especificar el intervalo de fechas. Consulta ➒.
+   * activado: puede especificar el rango de fechas. Consulta ➒.
 
 ## Limitaciones conocidas
 

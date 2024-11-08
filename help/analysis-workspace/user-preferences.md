@@ -6,13 +6,13 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3466'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Preferencias del usuario
+# Preferencias de usuario
 
 Puede administrar la configuración de Analysis Workspace y sus componentes relacionados para todos los proyectos o paneles nuevos que cree. Los proyectos y paneles existentes no se ven afectados.
 

@@ -5,24 +5,24 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 # Funciones básicas
 
 
-El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) le permite aplicar funciones estadísticas y matemáticas. Este artículo documenta la lista alfabética de las funciones y sus definiciones.
+El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) permite aplicar funciones estadísticas y matemáticas. Este artículo recoge una lista alfabética de las funciones y sus definiciones.
 
 >[!NOTE]
 >
->Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [COLUMN MAXIMUM(metrics)](#column-maximum) también permite [COLUMN MAXIMUM(PageViews + Visits)](#column-maximum).
+>Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [COLUMNA MÁXIMA(métricas)](#column-maximum) también permite [COLUMNA MÁXIMA(Visitas a la página + Visitas)](#column-maximum).
 
 
 
-## Funciones de tabla frente a funciones de fila
+## Funciones de tabla en comparación con funciones de fila
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
@@ -30,11 +30,11 @@ Cuando sea aplicable y relevante, una función se anota con el tipo de función:
 
 ## ¿Qué significa el parámetro include-zeros?
 
-Indica si se incluyen ceros en el cálculo. A veces cero significa *nada*, pero a veces es importante.
+Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa *nada*, pero en ocasiones es importante.
 
-Por ejemplo, si tiene una métrica Ingresos y luego agrega una métrica Vistas de página al informe, de repente hay más filas para los ingresos, que son todas cero. Probablemente no quiera que esa métrica adicional afecte a ningún **[MEDIA](cm-functions.md#mean)**, **[MÍNIMO DE FILA](cm-functions.md#row-min)**, **[CUARTIL](cm-functions.md#quartile)** y más cálculos que tenga en la columna de ingresos. En este caso, comprobaría el parámetro `include-zeros`.
+Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métrica Vistas de página al informe, de repente hay más filas para sus ingresos, todas con valor de cero. Probablemente, no quiera que esa métrica adicional afecte a ninguna **[MEDIA](cm-functions.md#mean)**, **[MÍNIMO DE FILA](cm-functions.md#row-min)**, **[CUARTIL](cm-functions.md#quartile)** y más cálculos que tenga en la columna de ingresos. En este caso, comprobaría el parámetro `include-zeros`.
 
-Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros.  En ese caso, puede optar por no marcar el parámetro para incluir ceros
+Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros. En ese caso, puede optar por no marcar el parámetro para incluir ceros
 
 
 
@@ -46,7 +46,7 @@ Un escenario alternativo es que tiene dos métricas de interés y una tiene un p
 
 | Argumento | Descripción |
 |---|---|
-| metric | La métrica para la que desea calcular el valor absoluto. |
+| métrica | La métrica para la cual desea calcular el valor absoluto. |
 
 
 ## Máximo de columna
@@ -57,7 +57,7 @@ Devuelve el mayor valor en un conjunto de elementos de una dimensión para una c
 
 | Argumento | Descripción |
 |---|---|
-| metric | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
+| métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
@@ -69,7 +69,7 @@ Devuelve el menor valor en un conjunto de elementos de una dimensión para una c
 
 | Argumento | Descripción |
 |---|---|
-| metric | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
+| métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
@@ -81,7 +81,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 | Argumento | Descripción |
 |---|---|
-| metric | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
+| métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 
 
 ## Recuento
@@ -92,7 +92,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 | Argumento | Descripción |
 |---|---|
-| metric | La métrica que desea contar. |
+| métrica | La métrica que desea contar. |
 
 
 ## Exponente
@@ -103,7 +103,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 | Argumento | Descripción |
 |---|---|
-| metric | El exponente aplicado a la base e. |
+| métrica | El exponente aplicado a la base e. |
 
 
 ## Media
@@ -114,7 +114,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 | Argumento | Descripción |
 |---|---|
-| metric | La métrica para la que desea calcular el promedio. |
+| métrica | La métrica para la cual desea calcular la media. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
@@ -126,7 +126,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 | Argumento | Descripción |
 |---|---|
-| metric | La métrica para la que desea calcular la mediana. |
+| métrica | La métrica para la cual desea calcular la mediana. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
@@ -134,7 +134,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MÓDULO(metric_X, metric_Y)]**
 
-Devuelve el resto después de dividir x por y utilizando la división euclidiana.
+Devuelve el resto tras dividir x entre y utilizando la división euclídea.
 
 | Argumento | Descripción |
 |---|---|
@@ -151,7 +151,7 @@ MODULO(-4,3) = -1
 MODULO(-3,3) = 0
 ```
 
-Para asegurarse de que siempre obtiene un número positivo, utilice
+Para obtener siempre un número positivo, utilice
 
 ```
 MODULO(MODULO(x,y)+y,y)
@@ -165,7 +165,7 @@ MODULO(MODULO(x,y)+y,y)
 
 | Argumento | Descripción |
 |---|---|
-| metric | El valor en porcentaje dentro del rango de 0 a 100, ambos incluidos. |
+| métrica | El valor en porcentaje dentro del rango de 0 a 100, ambos incluidos. |
 | k | La columna de métrica que define la posición relativa. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
@@ -191,8 +191,8 @@ Devuelve x elevado a la potencia y.
 
 | Argumento | Descripción |
 |---|---|
-| metric | La métrica para la que desea calcular el valor del cuartil. |
-| cuartil | Indica el valor de cuartil que se va a devolver. |
+| métrica | La métrica para la cual desea el valor de cuartil. |
+| cuartil | Indica qué valor de cuartil se devolverá. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
@@ -200,12 +200,12 @@ Devuelve x elevado a la potencia y.
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL REDONDEO(métrica, número)]**
 
-Redondear sin un parámetro *number* es lo mismo que redondear con un parámetro *number* de 0, es decir, redondear al entero más próximo.  Con un parámetro *number*, ROUND devuelve los dígitos *number* a la derecha del decimal.  Si *number* es negativo, devuelve ceros a la izquierda del separador decimal.
+Redondear sin un parámetro de *número* es lo mismo que redondear con un parámetro de *número* de 0, es decir, redondear al número entero más próximo.  Con un parámetro de *número*, REDONDEAR devuelve los dígitos de *número* a la derecha del decimal. Si *número* es negativo, devuelve ceros a la izquierda del decimal.
 
 | Argumento | Descripción |
 |---|---|
-| metric | La métrica que desee redondear. |
-| number | Cuántos dígitos a la derecha del decimal que desea devolver. (Si es negativo, devuelve ceros a la izquierda del decimal). |
+| métrica | La métrica que desee redondear. |
+| número | Cuántos dígitos a la derecha del decimal se devolverán. (Si es negativo devuelve ceros a la izquierda del decimal). |
 
 ### Ejemplos
 
@@ -221,7 +221,7 @@ ROUND( 314.15, -2) = 300
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL RECUENTO DE FILAS()]**
 
-Devuelve el recuento de filas de una columna en concreto (el número de elementos únicos registrados en una dimensión). *Excesos en la cantidad de valores exclusivos* se cuentan como 1.
+Devuelve el recuento de filas de una columna en concreto (el número de elementos únicos registrados en una dimensión). *Se han superado los límites* se cuenta como 1.
 
 
 ## Máximo de fila
@@ -232,7 +232,7 @@ Máximo de las columnas de cada fila.
 
 | Argumento | Descripción |
 |---|---|
-| metric | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
+| métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 ## Mínimo de fila
@@ -243,7 +243,7 @@ Mínimo de las columnas de cada fila.
 
 | Argumento | Descripción |
 |---|---|
-| metric | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
+| métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
@@ -256,7 +256,7 @@ Suma de las columnas de cada fila.
 
 | Argumento | Descripción |
 |---|---|
-| metric | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
+| métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 
 
 ## Raíz cuadrada
@@ -267,7 +267,7 @@ Suma de las columnas de cada fila.
 
 | Argumento | Descripción |
 |---|---|
-| metric | La métrica para la que desea calcular la raíz cuadrada. |
+| métrica | La métrica para la cual desea la raíz cuadrada. |
 
 
 ## Desviación estándar
@@ -278,11 +278,11 @@ Suma de las columnas de cada fila.
 
 | Argumento | Descripción |
 |---|---|
-| | La métrica para la que desea calcular la desviación estándar. |
+| | La métrica para la cual desea la desviación estándar. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-## Desviación
+## Varianza
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA(métrica, include_zeros)]**
 
@@ -290,18 +290,18 @@ Suma de las columnas de cada fila.
 
 | Argumento | Descripción |
 |---|---|
-| metric | La métrica para la que desea calcular la varianza. |
+| métrica | La métrica para la cual desea la varianza. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-La ecuación de VARIANCE es:
+La ecuación de VARIANZA es:
 
 ![](assets/variance_eq.png){width="100"}
 
-Donde *x* es la media de la muestra, [MEDIA(*métrica*)](#mean) y *n* es el tamaño de la muestra.
+Donde *x* es la media de la muestra, [MEDIA(*métrica*)](#mean), y *n* es el tamaño de la muestra.
 
 
-Para calcular una varianza, se observa una columna entera de números. A partir de una lista de números, calcule primero el promedio. Una vez que tenga el promedio, revise cada entrada y haga lo siguiente:
+Para calcular una varianza, se considera una columna entera de números. A partir de una lista de números, calcule primero el promedio. Cuando tenga el promedio, examine cada entrada y realice lo siguiente:
 
 1. Reste el promedio del número.
 
@@ -309,7 +309,7 @@ Para calcular una varianza, se observa una columna entera de números. A partir 
 
 1. Súmelo al total.
 
-Una vez que haya iterado en toda la columna, tendrá un solo total. A continuación, divida el total entre el número de elementos de la columna. El número resultante es la varianza de la columna. Esta es un número único, aunque aparece como una columna de números.
+Cuando repita la operación sobre toda la columna, obtendrá un total único. A continuación, divida el total entre el número de elementos de la columna. El número resultante es la varianza de la columna. Esta es un número único, aunque aparece como una columna de números.
 
 En el ejemplo de la siguiente columna de tres elementos:
 
@@ -319,7 +319,7 @@ En el ejemplo de la siguiente columna de tres elementos:
 | 2 |
 | 3 |
 
-El promedio de esta columna es 2. La varianza de la columna es ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3.
+El promedio de esta columna es 2. La varianza de la columna es ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3.
 
 
 

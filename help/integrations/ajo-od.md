@@ -5,13 +5,13 @@ exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Integrar Administración de decisiones
+# Integración de gestión de decisiones
 
 
 La [gestión de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=es) de Adobe Journey Optimizer facilita la personalización con una biblioteca central de ofertas de marketing y un motor de decisión que aplica reglas y restricciones a perfiles enriquecidos en tiempo real creados por Adobe Experience Platform para ayudarle a enviar a sus clientes la oferta correcta en el momento adecuado.
@@ -24,7 +24,7 @@ Puede importar los datos generados por la gestión de decisiones para realizar a
 
 Adobe Experience Platform sirve como fuente de datos central y vínculo entre Gestión de decisiones y Customer Journey Analytics. Los datos de la gestión de decisiones se recopilan en Experience Platform **automáticamente** o como parte de los **eventos de experiencia enviados explícitamente** (por ejemplo, impresiones o clics). Para obtener más información, consulte la [Introducción a la recopilación de datos](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=es).
 
-## Crear una conexión
+## Crea una conexión
 
 Una vez que los datos de la gestión de decisiones están en Adobe Experience Platform, puede crear una [conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) en función de su conjunto de datos de la gestión de decisiones. O puede añadir conjuntos de datos de gestión de decisiones a una conexión existente.
 
@@ -40,7 +40,7 @@ Seleccione y configure los siguientes conjuntos de datos:
 
 {style="table-layout:auto"}
 
-## Creación de una vista de datos
+## Crea una vista de datos
 
 Después de crear una conexión, puede crear una o más [Vistas de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) para configurar las dimensiones y métricas deseadas disponibles en Customer Journey Analytics.
 
