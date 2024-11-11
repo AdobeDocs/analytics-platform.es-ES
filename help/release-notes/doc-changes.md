@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b9fd070c03df2947947227feb2de9cc7a5baf2c7
+source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
 workflow-type: tm+mt
-source-wordcount: '4173'
-ht-degree: 99%
+source-wordcount: '4195'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Noviembre de 2024** | |
+| Vinculación y solicitudes de privacidad | Se agregó un aviso sobre [próximos cambios en el proceso de desvinculación](/help/stitching/faq.md#frequently-asked-questions) que son el resultado de solicitudes de privacidad. |
 | **Octubre de 2024** | |
 | Dispositivos compartidos | Se ha agregado un [artículo de caso de uso](/help/use-cases/stitching/shared-devices.md) que proporciona contexto en dispositivos compartidos, cómo manejar y mitigar datos de dispositivos compartidos mediante la vinculación y comprender la exposición de dispositivos compartidos en sus datos mediante el servicio de consulta. |
 | Nueva información sobre Factores de solicitud en el rendimiento de Analysis Workspace | Una nueva sección [Factores de solicitud](/help/technotes/optimizing-performance.md#request-factors) del artículo [Optimizar rendimiento de Analysis Workspace](/help/technotes/optimizing-performance.md) explica cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento. |

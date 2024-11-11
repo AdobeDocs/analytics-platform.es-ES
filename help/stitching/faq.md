@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 059a091fb41efee6f508b4260b1d943f881f5087
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 29%
+source-wordcount: '1871'
+ht-degree: 26%
 
 ---
 
@@ -70,6 +70,80 @@ El análisis en canales múltiples es un caso de uso específico de Customer Jou
 +++**¿Cómo gestiona la vinculación las solicitudes de privacidad?**
 
 El Adobe gestiona las solicitudes de privacidad de acuerdo con las leyes locales e internacionales. Adobe ofrece el [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para enviar solicitudes de acceso a datos y de eliminación. Las solicitudes se aplican tanto a los conjuntos de datos originales como a aquellos cuyas claves se volvieron a generar.
+
+>[!IMPORTANT]
+>
+>El proceso de desvinculación, como parte de las solicitudes de privacidad, cambia a principios de 2025. El proceso actual de desvinculación revincula los eventos con la última versión de identidades conocidas. Esta reasignación de eventos a otra identidad podría tener consecuencias legales indeseables. Para solucionar estos problemas, a partir de 2025, el nuevo proceso de desvinculación actualiza los eventos que están sujetos a la solicitud de privacidad con el ID persistente.
+> 
+
+Para ilustrar, imagine los siguientes datos para identidades, eventos antes y después de la vinculación.
+
+| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+|---|---|---|---|---|---|---|
+|  | 1 | ts1 | 123 | ecid | Bob | CustId |
+|  | 2 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| | 2 | ts1 | 123 | ecid | Bob | CustId |
+| | 3 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
+|---|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | Bob | CustId |
+| | 2 | ts1 | 123 | ecid | Bob | CustId | Bob | CustId |
+| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
+
+
+**Proceso actual para solicitud de privacidad**
+
+Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se eliminan las filas con entradas tachadas. Otros eventos se vuelven a vincular mediante el mapa de identidad. Por ejemplo, el primer ID vinculado del conjunto de datos vinculado se actualiza a **Alex**.
+
+| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+|:---:|---|---|---|---|---|---|
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
+|  | 2 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+|:---:|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
+| | 3 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
+|:---:|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | **Alex** | CustId |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ | ~~Bob~~ | ~~ID de cliente~~ |
+| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
+
+
+**Nuevo proceso para solicitud de privacidad**
+
+Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se eliminan las filas con entradas tachadas. Otros eventos se vuelven a vincular con el ID persistente. Por ejemplo, el primer ID vinculado en el conjunto de datos vinculado se actualiza a **123**.
+
+| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+|:---:|---|---|---|---|---|---|
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
+|  | 2 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+|:---:|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
+| | 3 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
+|:---:|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | **123** | ecid |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ | ~~Bob~~ | ~~ID de cliente~~ |
+| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
 
 +++
 
