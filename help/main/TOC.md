@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
+source-git-commit: 261396f3a63e3356f100b860324b2e8bb9702800
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 97%
+source-wordcount: '1036'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,10 @@ ht-degree: 97%
       + [Comprender la implementación de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [Crear conjuntos de datos de búsqueda para clasificaciones](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [Crear un campo derivado de canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [Uso de etiquetas para actualizar](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
+      + [Implementación de la etiqueta de carga para la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)
+      + [Cree una etiqueta para su propiedad](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
+      + [Añadir la extensión del SDK web a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+      + [Añadir la lógica de recopilación de datos XDM a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [Diseña tu esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [Crea tu etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [Usa el esquema existente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
