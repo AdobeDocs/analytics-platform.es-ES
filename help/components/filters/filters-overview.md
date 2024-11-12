@@ -4,9 +4,9 @@ description: Comprenda para qué filtros se utilizan y cómo crear un filtro sim
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1423'
 ht-degree: 8%
 
 ---
@@ -174,9 +174,13 @@ Al crear contenedores dentro de otros contenedores, en realidad está creando un
 2. Aplicar la definición del filtro anidado a los datos restantes. La definición del filtro anidado NO se aplica a ningún dato que la primera definición haya descartado.
 3. Repita el proceso hasta que se hayan calculado todas las definiciones de filtro de contenedor anidadas. Los datos restantes se incluyen en el resultado y se utilizan para la creación de informes.
 
+>[!NOTE]
+>
+>Cuando anida un filtro dentro de un filtro (por ejemplo, arrastra un filtro desde el panel Componentes a la definición del filtro), se crea un contenedor con una copia (no una referencia) de la definición del filtro arrastrado.
 
 <!--
 You can use nesting between containers and between conditions within a container. Here is what you can nest in each container:
+
 
 | Container | What container you can nest inside |
 | Event | Only event conditions |
