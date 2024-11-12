@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 552b7fe20759036a0919fa622019e87b2722bb31
+source-git-commit: 749fbd5ae370995d772b6880c9949cf14042ed8c
 workflow-type: tm+mt
 source-wordcount: '9752'
 ht-degree: 1%
@@ -89,35 +89,35 @@ Cuando revise los casos de uso, reemplace estos objetos de ejemplo por objetos a
    1. Seleccione la ficha **[!UICONTROL Credenciales]** en la interfaz de **[!UICONTROL Consultas]**.
    1. Seleccione `prod:cja` del menú desplegable **[!UICONTROL Base de datos]**.
 
-      ![Credenciales del servicio de consulta](assets/queryservice-credentials.png){width="100" zoomable="yes"}
+      ![Credenciales del servicio de consulta](assets/queryservice-credentials.png){zoomable="yes"}
 
 1. Inicie Power BI Desktop.
    1. En la interfaz principal, seleccione **[!UICONTROL Obtener datos de otras fuentes]**.
    1. En el diálogo **[!UICONTROL Obtener datos]**:
-      ![Base de datos PostgreSQL de Power BI](assets/powerbi-postgresql.png)
+      ![Base de datos PostgreSQL de Power BI](assets/powerbi-postgresql.png){zoomable="yes"}
       1. Busque y seleccione **[!UICONTROL base de datos PostgreSQL]**.
       1. Seleccione **[!UICONTROL Conectar]**.
    1. En el diálogo **[!UICONTROL Base de datos PostgreSQL]**:
-      ![Configuración de base de datos y servidor de escritorio de PowerBI](assets/powerbi-serverdatabase.png)
+      ![Configuración de base de datos y servidor de escritorio de PowerBI](assets/powerbi-serverdatabase.png){zoomable="yes"}
       1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar los valores de **[!UICONTROL Host]** y **[!UICONTROL Puerto]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** del Experience Platform, separados por `:` como valor de **[!UICONTROL Servidor]**. Por ejemplo: `examplecompany.platform-query.adobe.io:80`.
       1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar el valor **[!UICONTROL Base de datos]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** del Experience Platform. Agregue `?FLATTEN` al valor que pegue. Por ejemplo, `prod:cja?FLATTEN`.
       1. Seleccione **[!UICONTROL DirectQuery]** como **[!UICONTROL modo de conectividad de datos]**.
       1. Seleccione **[!UICONTROL Aceptar]**.
    1. En el cuadro de diálogo **[!UICONTROL Base de datos PostgreSQL]** - **[!UICONTROL Base de datos]**:
-      ![Usuario y contraseña de PowerBI Desktop](assets/powerbi-userpassword.png)
+      ![Usuario y contraseña de PowerBI Desktop](assets/powerbi-userpassword.png){zoomable="yes"}
       1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar los valores de **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** del Experience Platform en los campos **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]**. Si usa una [credencial que no caduca](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), use la contraseña de la credencial que no caduca.
       1. Asegúrese de que el menú desplegable de **[!UICONTROL Seleccione el nivel en el que aplicar esta configuración a]** esté establecido en el **[!UICONTROL Servidor]** que ha definido anteriormente.
       1. Seleccione **[!UICONTROL Conectar]**.
    1. En el cuadro de diálogo **[!UICONTROL Navegador]**, se recuperan las vistas de datos. Esta recuperación puede tardar un poco. Una vez recuperado, verá lo siguiente en Power BI Desktop.
-      ![Datos de carga de escritorio de Power BI](assets/powerbi-navigator-load.png)
+      ![Datos de carga de escritorio de Power BI](assets/powerbi-navigator-load.png){zoomable="yes"}
       1. Seleccione **[!UICONTROL public.cc_data_view]** de la lista del panel izquierdo.
       1. Existen dos opciones:
          1. Seleccione **[!UICONTROL Cargar]** para continuar y finalizar la instalación.
          1. Seleccione **[!UICONTROL Transformar datos]**. Verá un cuadro de diálogo en el que, opcionalmente, puede aplicar transformaciones como parte de la configuración.
-            ![Datos de transformación de escritorio de Power BI](assets/powerbi-transform-data.png)
+            ![Datos de transformación de escritorio de Power BI](assets/powerbi-transform-data.png){zoomable="yes"}
             * Seleccione **[!UICONTROL Cerrar y aplicar]**.
    1. Después de un tiempo, **[!UICONTROL public.cc_data_view]** se mostrará en el panel **[!UICONTROL Datos]**. Seleccione ![ChevronRight](/help/assets/icons/ChevronRight.svg) para mostrar dimensiones y métricas.
-      Power BI ![Datos Del Servidor De Escritorio Cargados](assets/powerbi-navigator-loaded.png)
+      Power BI ![Datos Del Servidor De Escritorio Cargados](assets/powerbi-navigator-loaded.png){zoomable="yes"}
 
 
 >[!TAB Escritorio Tableau]
@@ -133,9 +133,9 @@ Cuando revise los casos de uso, reemplace estos objetos de ejemplo por objetos a
 
 1. Inicie Tableau.
    1. Seleccione **[!UICONTROL PostgreSQL]** del carril izquierdo debajo de **[!UICONTROL A un servidor]**. Si no está disponible, seleccione **[!UICONTROL Más...]** y seleccione **[!UICONTROL PostgreSQL]** de los **[!UICONTROL Conectores instalados]**.
-      ![Conectores Tableau](assets/tableau-connectors.png)
+      ![Conectores Tableau](assets/tableau-connectors.png){zoomable="yes"}
    1. En el cuadro de diálogo **[!UICONTROL PostgreSQL]**, en la ficha **[!UICONTROL General]**:
-      ![Cuadro de diálogo de inicio de sesión en Tableau](assets/tableau-signin.png)
+      ![Cuadro de diálogo de inicio de sesión en Tableau](assets/tableau-signin.png){zoomable="yes"}
       1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar el **[!UICONTROL host]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** del Experience Platform en el **[!UICONTROL Servidor]**.
       1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar el **[!UICONTROL puerto]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** del Experience Platform en el **[!UICONTROL puerto]**.
       1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar la **[!UICONTROL base de datos]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** del Experience Platform en la **[!UICONTROL base de datos]**. Agregue `%3FFLATTEN` al valor que pegue. Por ejemplo: `prod:cja%3FFLATTEN`.
@@ -150,10 +150,10 @@ Cuando revise los casos de uso, reemplace estos objetos de ejemplo por objetos a
       * Nombre de la conexión, debajo de **[!UICONTROL Connections]**.
       * Nombre de la base de datos, debajo de **[!UICONTROL Database]**.
       * Una lista de tablas, debajo de **[!UICONTROL Tabla]**.
-        ![Tableau conectado](assets/tableau-connected.png)
+        ![Tableau conectado](assets/tableau-connected.png){zoomable="yes"}
       1. Arrastre la entrada **[!UICONTROL cc_data_view]** y suéltela en la vista principal que dice **[!UICONTROL Arrastrar tablas]** aquí.
    1. La ventana principal muestra detalles de la vista de datos **[!UICONTROL cc_data_view]**.
-      ![Tableau conectado](assets/tableau-validation.png)
+      ![Tableau conectado](assets/tableau-validation.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -172,7 +172,7 @@ Customer Journey Analytics proporciona información sobre cómo conectarse en la
 1. Seleccione la ficha **[!UICONTROL Credenciales]** en la interfaz de **[!UICONTROL Consultas]**.
 1. Seleccione `prod:cja` del menú desplegable **[!UICONTROL Base de datos]**.
 
-![Credenciales del servicio de consulta](assets/queryservice-credentials.png)
+![Credenciales del servicio de consulta](assets/queryservice-credentials.png){zoomable="yes"}
 
 
 +++
@@ -219,7 +219,7 @@ En este caso de uso, desea mostrar una tabla y una visualización de línea simp
 
 Un ejemplo del panel **[!UICONTROL Tendencia diaria]** para el caso de uso:
 
-![Panel de tendencias diarias de Customer Journey Analytics](assets/cja_daily_trend.png)
+![Panel de tendencias diarias de Customer Journey Analytics](assets/cja_daily_trend.png){zoomable="yes"}
 
 +++
 
@@ -253,7 +253,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia diaria]** para el caso de uso:
 
    Una visualización de gráfico de líneas reemplaza la tabla mientras utiliza los mismos datos que la tabla. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Filtro de intervalo de fechas del caso de uso 2 del escritorio de Power BI](assets/uc2-pbi-daterange.png)
+   ![Filtro de intervalo de fechas del caso de uso 2 del escritorio de Power BI](assets/uc2-pbi-daterange.png){zoomable="yes"}
 
 1. En la visualización del gráfico de líneas:
 
@@ -262,7 +262,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia diaria]** para el caso de uso:
 
    La vista principal se actualiza para mostrar una visualización de líneas y una tabla. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Visualización de tendencias diarias finales del caso de uso 2 del escritorio de Power BI](assets/uc2-pbi-final.png)
+   ![Visualización de tendencias diarias finales del caso de uso 2 del escritorio de Power BI](assets/uc2-pbi-final.png){zoomable="yes"}
 
 >[!TAB Escritorio Tableau]
 
@@ -271,7 +271,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia diaria]** para el caso de uso:
    1. En el cuadro de diálogo **[!UICONTROL Filtros de campo \[Intervalo de fechas\]]**, seleccione **[!UICONTROL Intervalo de fechas]** y seleccione **[!UICONTROL Siguiente >]**.
    1. En el cuadro de diálogo **[!UICONTROL Filtrar \[Daterange]]**, seleccione **[!UICONTROL Intervalo de fechas]** y especifique un período de `01/01/2023` - `01/02/2023`.
 
-      ![Filtro Tableau para escritorio](assets/uc2-tableau-filter.png)
+      ![Filtro Tableau para escritorio](assets/uc2-tableau-filter.png){zoomable="yes"}
 
    1. Arrastre y suelte **[!UICONTROL Daterangeday]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]**.
       * Seleccione **[!UICONTROL Día]** del menú desplegable **[!UICONTROL Daterangeday]**, para que el valor se actualice a **[!UICONTROL DAY(Daterangeday)]**.
@@ -281,7 +281,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia diaria]** para el caso de uso:
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Tableau Desktop Graph](assets/uc2-tableau-graph.png)
+      ![Tableau Desktop Graph](assets/uc2-tableau-graph.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Duplicate]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para crear una segunda hoja.
 1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para cambiar el nombre de la hoja a `Graph`.
@@ -293,7 +293,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia diaria]** para el caso de uso:
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Datos de escritorio Tableau](assets/uc2-tableau-data.png)
+      ![Datos de escritorio Tableau](assets/uc2-tableau-data.png){zoomable="yes"}
 
 1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
    1. Arrastre y suelte la hoja **[!UICONTROL Graph]** del estante **[!UICONTROL Sheets]** en la vista **[!UICONTROL Dashboard 1]** que dice *Colocar hojas aquí*.
@@ -302,7 +302,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia diaria]** para el caso de uso:
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Tablero de escritorio Tableau 1](assets/uc2-tableau-dashboard.png)
+      ![Tablero de escritorio Tableau 1](assets/uc2-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -317,7 +317,7 @@ En este caso de uso, desea mostrar una tabla y una visualización de línea simp
 
 Un ejemplo del panel **[!UICONTROL Tendencia horaria]** para el caso de uso:
 
-![Visualizaciones de tendencias por hora de Customer Journey Analytics](assets/cja_hourly_trend.png)
+![Visualizaciones de tendencias por hora de Customer Journey Analytics](assets/cja_hourly_trend.png){zoomable="yes"}
 
 +++
 
@@ -341,7 +341,7 @@ El Power BI ![AlertRed](/help/assets/icons/AlertRed.svg) no entiende **cómo man
    1. En el cuadro de diálogo **[!UICONTROL Filtros de campo \[Intervalo de fechas\]]**, seleccione **[!UICONTROL Intervalo de fechas]** y seleccione **[!UICONTROL Siguiente >]**.
    1. En el cuadro de diálogo **[!UICONTROL Filtrar \[Daterange]]**, seleccione **[!UICONTROL Intervalo de fechas]** y especifique un período de `01/01/2023` - `02/01/2023`.
 
-      ![Filtro Tableau para escritorio](assets/uc3-tableau-filter.png)
+      ![Filtro Tableau para escritorio](assets/uc3-tableau-filter.png){zoomable="yes"}
 
    1. Arrastre y suelte **[!UICONTROL Daterangehour]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]**.
       * Seleccione **[!UICONTROL Más]** > **[!UICONTROL Horas]** del menú desplegable **[!UICONTROL Daterangeday]**, para que el valor se actualice a **[!UICONTROL HOUR(Daterangeday)]**.
@@ -351,7 +351,7 @@ El Power BI ![AlertRed](/help/assets/icons/AlertRed.svg) no entiende **cómo man
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Tableau Desktop Graph](assets/uc3-tableau-graph.png)
+      ![Tableau Desktop Graph](assets/uc3-tableau-graph.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Duplicate]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para crear una segunda hoja.
 1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para cambiar el nombre de la hoja a `Graph`.
@@ -363,7 +363,7 @@ El Power BI ![AlertRed](/help/assets/icons/AlertRed.svg) no entiende **cómo man
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Datos de escritorio Tableau](assets/uc3-tableau-data.png)
+      ![Datos de escritorio Tableau](assets/uc3-tableau-data.png){zoomable="yes"}
 
 1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
    1. Arrastre y suelte la hoja **[!UICONTROL Graph]** del estante **[!UICONTROL Sheets]** en la vista **[!UICONTROL Dashboard 1]** que dice *Colocar hojas aquí*.
@@ -372,7 +372,7 @@ El Power BI ![AlertRed](/help/assets/icons/AlertRed.svg) no entiende **cómo man
 
       La vista del **[!UICONTROL panel 1]** debería ser similar a la siguiente.
 
-      ![Tablero de escritorio Tableau 1](assets/uc3-tableau-dashboard.png)
+      ![Tablero de escritorio Tableau 1](assets/uc3-tableau-dashboard.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -388,7 +388,7 @@ En este caso de uso, desea mostrar una tabla y una visualización de línea simp
 
 Un ejemplo del panel **[!UICONTROL Tendencia mensual]** para el caso de uso:
 
-![Visualización de tendencias mensuales de Customer Journey Analytics](assets/cja_monthly_trend.png)
+![Visualización de tendencias mensuales de Customer Journey Analytics](assets/cja_monthly_trend.png){zoomable="yes"}
 
 +++
 
@@ -424,7 +424,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia mensual]** para el caso de uso:
 
    Una visualización de gráfico de líneas reemplaza la tabla mientras utiliza los mismos datos que la tabla. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Filtro de intervalo de fechas del caso de uso 2 del escritorio de Power BI](assets/uc4-pbi-filter-daterange.png)
+   ![Filtro de intervalo de fechas del caso de uso 2 del escritorio de Power BI](assets/uc4-pbi-filter-daterange.png){zoomable="yes"}
 
 1. En la visualización del gráfico de líneas:
 
@@ -433,7 +433,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia mensual]** para el caso de uso:
 
    La vista principal se actualiza para mostrar una visualización de líneas y una tabla. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Visualización de tendencias diarias finales del caso de uso 2 del escritorio de Power BI](assets/uc4-pbi-filter-final.png)
+   ![Visualización de tendencias diarias finales del caso de uso 2 del escritorio de Power BI](assets/uc4-pbi-filter-final.png){zoomable="yes"}
 
 >[!TAB Escritorio Tableau]
 
@@ -442,7 +442,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia mensual]** para el caso de uso:
    1. En el cuadro de diálogo **[!UICONTROL Filtros de campo \[Intervalo de fechas\]]**, seleccione **[!UICONTROL Intervalo de fechas]** y seleccione **[!UICONTROL Siguiente >]**.
    1. En el cuadro de diálogo **[!UICONTROL Filtrar \[Daterange]]**, seleccione **[!UICONTROL Intervalo de fechas]** y especifique un período de `01/01/2023` - `01/01/2024`.
 
-      ![Filtro Tableau para escritorio](assets/uc4-tableau-filter.png)
+      ![Filtro Tableau para escritorio](assets/uc4-tableau-filter.png){zoomable="yes"}
 
    1. Arrastre y suelte **[!UICONTROL Daterangeday]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]**.
       * Seleccione **[!UICONTROL MONTH]** en el menú desplegable **[!UICONTROL Daterangeday]**, para que el valor se actualice a **[!UICONTROL MONTH(Daterangeday)]**.
@@ -452,7 +452,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia mensual]** para el caso de uso:
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Tableau Desktop Graph](assets/uc4-tableau-graph.png)
+      ![Tableau Desktop Graph](assets/uc4-tableau-graph.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Duplicate]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para crear una segunda hoja.
 1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para cambiar el nombre de la hoja a `Graph`.
@@ -464,7 +464,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia mensual]** para el caso de uso:
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Datos de escritorio Tableau](assets/uc4-tableau-data.png)
+      ![Datos de escritorio Tableau](assets/uc4-tableau-data.png){zoomable="yes"}
 
 1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
    1. Arrastre y suelte la hoja **[!UICONTROL Graph]** del estante **[!UICONTROL Sheets]** en la vista **[!UICONTROL Dashboard 1]** que dice *Colocar hojas aquí*.
@@ -473,7 +473,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia mensual]** para el caso de uso:
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Tablero de escritorio Tableau 1](assets/uc4-tableau-dashboard.png)
+      ![Tablero de escritorio Tableau 1](assets/uc4-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -488,7 +488,7 @@ En este caso de uso, desea mostrar una tabla y una visualización de barra simpl
 
 Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para el caso de uso:
 
-![Visualización de clasificación de dimensión única de Customer Journey Analytics](assets/cja-single-dimension-ranked.png)
+![Visualización de clasificación de dimensión única de Customer Journey Analytics](assets/cja-single-dimension-ranked.png){zoomable="yes"}
 +++
 
 +++ Herramientas de BI
@@ -528,7 +528,7 @@ Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para e
 
    1. Seleccione **[!UICONTROL Sum of purchase_revenue]** para ordenar los nombres de los productos en orden descendente de ingresos de compra. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Estado de la tabla del caso de uso 5 del escritorio de Power BI](assets/uc5-pbi-table.png)
+   ![Estado de la tabla del caso de uso 5 del escritorio de Power BI](assets/uc5-pbi-table.png){zoomable="yes"}
 
 1. En el panel **[!UICONTROL Filtros]**:
 
@@ -550,7 +550,7 @@ Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para e
 
    Se actualiza el gráfico de líneas y columnas apiladas. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Gráfico del caso de uso 5 del escritorio de Power BI](assets/uc5-pbi-chart.png)
+   ![Gráfico del caso de uso 5 del escritorio de Power BI](assets/uc5-pbi-chart.png){zoomable="yes"}
 
 1. Visualización del gráfico de columnas apiladas y líneas:
 
@@ -559,7 +559,7 @@ Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para e
 
    La vista principal se actualiza para mostrar una visualización de líneas y una tabla.
 
-   ![Visualización de tendencias diarias finales del caso de uso 2 del escritorio de Power BI](assets/uc5-pbi-final.png)
+   ![Visualización de tendencias diarias finales del caso de uso 2 del escritorio de Power BI](assets/uc5-pbi-final.png){zoomable="yes"}
 
 >[!TAB Escritorio Tableau]
 
@@ -568,7 +568,7 @@ Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para e
    1. En el cuadro de diálogo **[!UICONTROL Filtros de campo \[Intervalo de fechas\]]**, seleccione **[!UICONTROL Intervalo de fechas]** y seleccione **[!UICONTROL Siguiente >]**.
    1. En el cuadro de diálogo **[!UICONTROL Filtrar \[Daterange]]**, seleccione **[!UICONTROL Intervalo de fechas]** y especifique un período de `01/01/2023` - `31/12/2024`. Seleccione **[!UICONTROL Aplicar]** y **[!UICONTROL Aceptar]**.
 
-      ![Filtro Tableau para escritorio](assets/uc5-tableau-filter.png)
+      ![Filtro Tableau para escritorio](assets/uc5-tableau-filter.png){zoomable="yes"}
 
    1. Arrastre y suelte **[!UICONTROL Product Name]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**.
    1. Arrastre y suelte **[!UICONTROL Purchases]** de la lista **[!UICONTROL Tables (*Measure Names*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Rows]**.
@@ -585,7 +585,7 @@ Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para e
 
    El escritorio Tableau debe tener el aspecto siguiente.
 
-   ![Tableau Desktop Graph](assets/uc5-tableau-graph.png)
+   ![Tableau Desktop Graph](assets/uc5-tableau-graph.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Duplicate]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para crear una segunda hoja.
 1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para cambiar el nombre de la hoja a `Data`.
@@ -597,7 +597,7 @@ Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para e
 
    El escritorio Tableau debe tener el aspecto siguiente.
 
-   ![Datos de escritorio Tableau](assets/uc5-tableau-data.png)
+   ![Datos de escritorio Tableau](assets/uc5-tableau-data.png){zoomable="yes"}
 
 1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
    1. Arrastre y suelte la hoja **[!UICONTROL Graph]** del estante **[!UICONTROL Sheets]** en la vista **[!UICONTROL Dashboard 1]** que dice *Colocar hojas aquí*.
@@ -606,7 +606,7 @@ Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para e
 
    La vista del **[!UICONTROL panel 1]** debería ser similar a la siguiente.
 
-   ![Tablero de escritorio Tableau 1](assets/uc5-tableau-dashboard.png)
+   ![Tablero de escritorio Tableau 1](assets/uc5-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -621,7 +621,7 @@ En este caso de uso, desea mostrar una tabla que desglose los ingresos de compra
 
 Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el caso de uso:
 
-![Panel de varios Dimension de Customer Journey Analytics](assets/cja-multiple-dimension-ranked.png)
+![Panel de varios Dimension de Customer Journey Analytics](assets/cja-multiple-dimension-ranked.png){zoomable="yes"}
 
 +++
 
@@ -663,7 +663,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
 1. Para desglosar cada categoría en la tabla, seleccione **[!UICONTROL +]** en el nivel de categoría de producto. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Tabla de matrices clasificadas de varios Dimension de escritorio de Power BI](assets/uc6-powerbi-data.png)
+   ![Tabla de matrices clasificadas de varios Dimension de escritorio de Power BI](assets/uc6-powerbi-data.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Página principal]** en el menú superior y seleccione **[!UICONTROL Nuevo elemento visual]**. Se agrega una nueva imagen al informe.
 
@@ -677,7 +677,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
    El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Diagrama de clasificación de varios Dimension de escritorio de Power BI](assets/uc6-powerbi-treemap.png)
+   ![Diagrama de clasificación de varios Dimension de escritorio de Power BI](assets/uc6-powerbi-treemap.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Página principal]** en el menú superior y seleccione **[!UICONTROL Nuevo elemento visual]**. Se agrega una nueva imagen al informe.
 
@@ -694,7 +694,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
    El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Varios Dimension de escritorio de Power BI clasificados como finales](assets/uc6-powerbi-final.png)
+   ![Varios Dimension de escritorio de Power BI clasificados como finales](assets/uc6-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB Escritorio Tableau]
@@ -706,7 +706,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Filtro de varios Dimension de escritorio Tableau](assets/uc6-tableau-filter.png)
+      ![Filtro de varios Dimension de escritorio Tableau](assets/uc6-tableau-filter.png){zoomable="yes"}
 
    1. Arrastre **[!UICONTROL Product Category]** y suéltelo junto a **[!UICONTROL Columns]**.
    1. Arrastre **[!UICONTROL Ingresos de compra]** y suéltelo junto a **[!UICONTROL Filas]**. El valor cambia a **[!UICONTROL SUM(Purchase Revenue)]**.
@@ -719,7 +719,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Categoría Clasificada De Varios Dimension De Tableau Desktop](assets/uc6-tableau-category.png)
+      ![Categoría Clasificada De Varios Dimension De Tableau Desktop](assets/uc6-tableau-category.png){zoomable="yes"}
 
 1. Cambie el nombre de la hoja **[!UICONTROL Hoja 1]** actual a `Category`.
 1. Seleccione **[!UICONTROL Nueva hoja de cálculo]** para crear una hoja nueva y renómbrala a `Data`.
@@ -738,7 +738,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Datos de clasificación de varios Dimension en Tableau Desktop](assets/uc6-tableau-data.png)
+      ![Datos de clasificación de varios Dimension en Tableau Desktop](assets/uc6-tableau-data.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Nueva hoja de cálculo]** para crear una nueva hoja y cambiarle el nombre a **[!UICONTROL Diagrama de árbol]**.
    1. Arrastre la entrada **[!UICONTROL Daterange]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suéltela en el estante **[!UICONTROL Filtros]**.
@@ -755,7 +755,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Datos de clasificación de varios Dimension en Tableau Desktop](assets/uc6-tableau-treemap.png)
+      ![Datos de clasificación de varios Dimension en Tableau Desktop](assets/uc6-tableau-treemap.png){zoomable="yes"}
 
 1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
    1. Arrastre y suelte la hoja **[!UICONTROL Category]** del estante **[!UICONTROL Sheets]** en la vista **[!UICONTROL Dashboard 1]** que dice *Drop sheets here*.
@@ -765,7 +765,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
    La vista del **[!UICONTROL panel 1]** debería ser similar a la siguiente.
 
-   ![Tablero de escritorio Tableau 1](assets/uc6-tableau-final.png)
+   ![Tablero de escritorio Tableau 1](assets/uc6-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -780,11 +780,11 @@ Desea obtener el número distinto de nombres de productos sobre los que se ha in
 
 Para informar sobre un recuento distinto de nombres de productos, configuró una métrica calculada en Customer Journey Analytics, con **[!UICONTROL Title]** `Product Name (Count Distinct)` y **[!UICONTROL External Id]** `product_name_count_distinct`.
 
-![Métrica calculada Nombre de producto de Customer Journey Analytics (recuento de distintivos)](assets/cja-calc-metric-distinct-count-product-names.png)
+![Métrica calculada Nombre de producto de Customer Journey Analytics (recuento de distintivos)](assets/cja-calc-metric-distinct-count-product-names.png){zoomable="yes"}
 
 A continuación, puede usar esa métrica en un ejemplo del panel **[!UICONTROL Contar valores de Dimension distintos]** para el caso de uso:
 
-![Valores de Recuento Distintos Customer Journey Analytics](assets/cja-count-distinct-dimension-values.png)
+![Valores de Recuento Distintos Customer Journey Analytics](assets/cja-count-distinct-dimension-values.png){zoomable="yes"}
 
 +++
 
@@ -813,7 +813,7 @@ A continuación, puede usar esa métrica en un ejemplo del panel **[!UICONTROL C
 
    El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Tabla de recuento múltiple de escritorio de Power BI](assets/uc7-powerbi-table.png)
+   ![Tabla de recuento múltiple de escritorio de Power BI](assets/uc7-powerbi-table.png){zoomable="yes"}
 
 1. Seleccione la visualización de tabla. En el menú contextual, seleccione **[!UICONTROL Copiar]** > **[!UICONTROL Copiar elemento visual]**.
 1. Pegue la visualización mediante **[!UICONTROL ctrl-v]**. La copia exacta de la visualización se superpone con la original. Muévalo a la derecha en el área del informe.
@@ -821,7 +821,7 @@ A continuación, puede usar esa métrica en un ejemplo del panel **[!UICONTROL C
 
    El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Tabla de recuento múltiple de escritorio de Power BI](assets/uc7-powerbi-final.png)
+   ![Tabla de recuento múltiple de escritorio de Power BI](assets/uc7-powerbi-final.png){zoomable="yes"}
 
 >[!TAB Escritorio Tableau]
 
@@ -837,7 +837,7 @@ A continuación, puede usar esa métrica en un ejemplo del panel **[!UICONTROL C
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Filtro de varios Dimension de escritorio Tableau](assets/uc7-tableau-data.png)
+      ![Filtro de varios Dimension de escritorio Tableau](assets/uc7-tableau-data.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Duplicate]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para crear una segunda hoja.
 1. Seleccione **[!UICONTROL Rename]** del menú contextual de la ficha **[!UICONTROL Hoja 1]** para cambiar el nombre de la hoja a `Data`.
@@ -852,7 +852,7 @@ A continuación, puede usar esa métrica en un ejemplo del panel **[!UICONTROL C
 
    El escritorio Tableau debe tener el aspecto siguiente.
 
-   ![Filtro de varios Dimension de escritorio Tableau](assets/uc7-tableau-card.png)
+   ![Filtro de varios Dimension de escritorio Tableau](assets/uc7-tableau-card.png){zoomable="yes"}
 
 1. Seleccione el botón de pestaña **[!UICONTROL Nuevo panel]** (en la parte inferior) para crear una nueva vista de **[!UICONTROL panel 1]**. En la vista **[!UICONTROL Panel 1]**:
    1. Arrastre y suelte la hoja **[!UICONTROL Tarjeta]** del estante **[!UICONTROL Hojas]** en la vista **[!UICONTROL Panel 1]** que dice *Colocar hojas aquí*.
@@ -860,7 +860,7 @@ A continuación, puede usar esa métrica en un ejemplo del panel **[!UICONTROL C
 
    La vista del **[!UICONTROL panel 1]** debería ser similar a la siguiente.
 
-   ![Tablero de escritorio Tableau 1](assets/uc7-tableau-final.png)
+   ![Tablero de escritorio Tableau 1](assets/uc7-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -876,11 +876,11 @@ Desea utilizar un intervalo de fechas que haya definido en Customer Journey Anal
 
 Para informar usando un intervalo de fechas, configuró un intervalo de fechas en Customer Journey Analytics, con **[!UICONTROL Título]** `Last Year 2023`.
 
-![Customer Journey Analytics: use nombres de intervalo de fechas para filtrar](assets/cja-daterange.png)
+![Customer Journey Analytics: use nombres de intervalo de fechas para filtrar](assets/cja-daterange.png){zoomable="yes"}
 
 A continuación, puede usar ese intervalo de fechas en un ejemplo **[!UICONTROL Uso del panel Nombres de intervalo de fechas para filtrar]** para el caso de uso:
 
-![Valores de Recuento Distintos Customer Journey Analytics](assets/cja-using-date-range-filter-names-to-filter.png)
+![Valores de Recuento Distintos Customer Journey Analytics](assets/cja-using-date-range-filter-names-to-filter.png){zoomable="yes"}
 
 Observe cómo el intervalo de fechas definido en la visualización de tabla de forma libre anula el intervalo de fechas aplicado al panel.
 
@@ -913,7 +913,7 @@ Observe cómo el intervalo de fechas definido en la visualización de tabla de f
 
    Verá la tabla actualizada con el filtro **[!UICONTROL daterangeName]** aplicado. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc8-powerbi-final.png)
+   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc8-powerbi-final.png){zoomable="yes"}
 
 >[!TAB Escritorio Tableau]
 
@@ -928,7 +928,7 @@ Observe cómo el intervalo de fechas definido en la visualización de tabla de f
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Filtro de varios Dimension de escritorio Tableau](assets/uc8-tableau-final.png)
+      ![Filtro de varios Dimension de escritorio Tableau](assets/uc8-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -944,11 +944,11 @@ Desea utilizar un filtro existente para la categoría de productos de pesca, que
 
 Inspect utiliza el filtro que desea utilizar en Customer Journey Analytics.
 
-![El Customer Journey Analytics Usa Nombres De Filtro Para Filtrar](assets/cja-fishing-products.png)
+![El Customer Journey Analytics Usa Nombres De Filtro Para Filtrar](assets/cja-fishing-products.png){zoomable="yes"}
 
 A continuación, puede usar ese filtro en un ejemplo **[!UICONTROL Uso de nombres de intervalo de fechas para filtrar]** panel para el caso de uso:
 
-![Valores de Recuento Distintos Customer Journey Analytics](assets/cja-using-filter-names-to-filter.png)
+![Valores de Recuento Distintos Customer Journey Analytics](assets/cja-using-filter-names-to-filter.png){zoomable="yes"}
 
 +++
 
@@ -984,7 +984,7 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
 
    Verá la tabla actualizada con el filtro **[!UICONTROL filterName]** aplicado. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc9-powerbi-final.png)
+   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc9-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB Escritorio Tableau]
@@ -1002,7 +1002,7 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Filtro de varios Dimension de escritorio Tableau](assets/uc9-tableau-final.png)
+      ![Filtro de varios Dimension de escritorio Tableau](assets/uc9-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1017,11 +1017,11 @@ Se crea un nuevo filtro en Customer Journey Analytics que filtra los productos d
 
 Cree un nuevo Customer Journey Analytics con **[!UICONTROL Title]** `Hunting Products` en.
 
-![El Customer Journey Analytics Usa Valores De Dimension Para Filtrar](assets/cja-hunting-products.png)
+![El Customer Journey Analytics Usa Valores De Dimension Para Filtrar](assets/cja-hunting-products.png){zoomable="yes"}
 
 A continuación, puede usar ese filtro en un ejemplo **[!UICONTROL Uso de valores de Dimension para filtrar]** panel para el caso de uso:
 
-![Valores de Recuento Distintos Customer Journey Analytics](assets/cja-using-dimension-values-to-filter.png)
+![Valores de Recuento Distintos Customer Journey Analytics](assets/cja-using-dimension-values-to-filter.png){zoomable="yes"}
 
 +++
 
@@ -1058,7 +1058,7 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
 
    Verá la tabla actualizada con el filtro **[!UICONTROL filterName]** aplicado. El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc10-powerbi-final.png)
+   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc10-powerbi-final.png){zoomable="yes"}
 
 
 
@@ -1078,7 +1078,7 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Filtro de varios Dimension de escritorio Tableau](assets/uc10-tableau-final.png)
+      ![Filtro de varios Dimension de escritorio Tableau](assets/uc10-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1094,7 +1094,7 @@ Desea informar sobre los ingresos de compra y las compras de nombres de producto
 
 Un ejemplo del panel **[!UICONTROL Ordenar]** para el caso de uso:
 
-![Panel de orden de Customer Journey Analytics](assets/cja-sort.png)
+![Panel de orden de Customer Journey Analytics](assets/cja-sort.png){zoomable="yes"}
 
 +++
 
@@ -1128,7 +1128,7 @@ Un ejemplo del panel **[!UICONTROL Ordenar]** para el caso de uso:
 
    El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc11-powerbi-final.png)
+   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc11-powerbi-final.png){zoomable="yes"}
 
 La consulta ejecutada por el escritorio de Power BI mediante la extensión BI no incluye una instrucción `sort`. La falta de una instrucción `sort` implica que la ordenación se ejecuta en el lado del cliente.
 
@@ -1234,7 +1234,7 @@ limit 1000001
 
       El escritorio Tableau debe tener el aspecto siguiente.
 
-      ![Orden de escritorio Tableau](assets/uc11-tableau-final.png)
+      ![Orden de escritorio Tableau](assets/uc11-tableau-final.png){zoomable="yes"}
 
 La consulta ejecutada por Tableau Desktop con la extensión BI no incluye una instrucción `sort`. La falta de esta instrucción `sort` implica que la ordenación se ejecuta en el lado del cliente.
 
@@ -1260,7 +1260,7 @@ Desea informar sobre las 5 ocurrencias principales de nombres de productos duran
 
 Un ejemplo del panel **[!UICONTROL Límite]** para el caso de uso:
 
-![Panel de límite de Customer Journey Analytics](assets/cja-limit.png)
+![Panel de límite de Customer Journey Analytics](assets/cja-limit.png){zoomable="yes"}
 
 +++
 
@@ -1296,7 +1296,7 @@ Un ejemplo del panel **[!UICONTROL Límite]** para el caso de uso:
 
    El escritorio de Power BI debe tener el aspecto siguiente.
 
-   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc12-powerbi-final.png)
+   ![Escritorio De Power BI Que Usa Nombres De Intervalo De Fechas Para Filtrar](assets/uc12-powerbi-final.png){zoomable="yes"}
 
 La consulta ejecutada por el escritorio de Power BI mediante la extensión de BI incluye una instrucción `limit`, pero no la esperada. Power BI Desktop aplica el límite de las 5 ocurrencias principales utilizando resultados de nombres de productos explícitos.
 
@@ -1407,7 +1407,7 @@ limit 1000001
 
          El escritorio Tableau debe tener el aspecto siguiente.
 
-         ![Límites de Tableau Desktop](assets/uc12-tableau-final.png)
+         ![Límites de Tableau Desktop](assets/uc12-tableau-final.png){zoomable="yes"}
 
 Como se muestra más arriba, esta consulta ejecutada por Tableau Desktop, al definir un filtro de las 5 ocurrencias principales en los nombres de productos, falla.
 
@@ -1489,12 +1489,12 @@ Power BI Desktop proporciona funcionalidad de transformación personalizada medi
 1. Seleccione product_name en el panel Datos.
 1. Seleccione Nueva columna en la barra de herramientas.
 1. En el editor de fórmulas, defina una nueva columna denominada `product_name_lower`, como `product_name_lower = LOWER('public.cc_data_view[product_name])`.
-   ![Transformación de escritorio de Power BI a inferior](assets/uc14-powerbi-transformation.png)
+   ![Transformación de escritorio de Power BI a inferior](assets/uc14-powerbi-transformation.png){zoomable="yes"}
 1. Asegúrese de seleccionar la nueva columna product_name_lower en el panel de datos en lugar de la columna product_name.
 1. Seleccione Informe como tabla de ![Más](/help/assets/icons/More.svg) en la visualización de tabla.
 
    El escritorio de Power BI debe tener el aspecto siguiente.
-   ![Final de transformación de escritorio de Power BI](assets/uc14-powerbi-final.png)
+   ![Final de transformación de escritorio de Power BI](assets/uc14-powerbi-final.png){zoomable="yes"}
 
 El resultado de la transformación personalizada es una actualización de las consultas SQL. Consulte el uso de la función `lower` en el siguiente ejemplo de SQL:
 
@@ -1562,7 +1562,7 @@ Tableau Desktop proporciona funcionalidad de transformación personalizada media
 
 1. Seleccione **[!UICONTROL Análisis]** > **[!UICONTROL Crear campo calculado]** en el menú principal.
    1. Defina **[!UICONTROL Nombre de producto en minúsculas]** con la función `LOWER([Product Name])`.
-      ![Campo calculado Tableau](assets/uc14-tableau-calculated-field.png)
+      ![Campo calculado Tableau](assets/uc14-tableau-calculated-field.png){zoomable="yes"}
    1. Seleccione **[!UICONTROL Aceptar]**.
 1. Seleccione la hoja **[!UICONTROL Data]**.
    1. Arrastre **[!UICONTROL Nombre de producto en minúsculas]** de **[!UICONTROL Tablas]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**.
@@ -1571,7 +1571,7 @@ Tableau Desktop proporciona funcionalidad de transformación personalizada media
 
 El escritorio Tableau debe tener el aspecto siguiente.
 
-![Tableau Desktop después de la transformación](assets/uc14-tableau-final.png)
+![Tableau Desktop después de la transformación](assets/uc14-tableau-final.png){zoomable="yes"}
 
 El resultado de la transformación personalizada es una actualización de las consultas SQL. Consulte el uso de la función `LOWER` en el siguiente ejemplo de SQL:
 
@@ -1642,11 +1642,11 @@ Para la mayoría de las visualizaciones de Customer Journey Analytics, Power BI 
 
 Power BI admite [modo de obtención de detalles](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) para explorar detalles en profundidad sobre determinadas visualizaciones. En el siguiente ejemplo, se analizan los ingresos por compras para categorías de productos. En el menú contextual de una barra que representa una categoría de producto, puede seleccionar **[!UICONTROL Profundizar]**.
 
-![explorar en profundidad de Power BI](assets/uc15-powerbi-drilldown.png)
+![explorar en profundidad de Power BI](assets/uc15-powerbi-drilldown.png){zoomable="yes"}
 
 Profundizar actualizará la visualización con los ingresos de compra de los productos dentro de la categoría de producto seleccionada.
 
-![aumentar detalle de Power BI](assets/uc15-powerbi-drillup.png)
+![aumentar detalle de Power BI](assets/uc15-powerbi-drillup.png){zoomable="yes"}
 
 El desglose genera la siguiente consulta SQL que utiliza una cláusula `WHERE`:
 
@@ -1725,11 +1725,11 @@ Para la mayoría de las visualizaciones Customer Journey Analytics, Tableau ofre
 
 Tableau admite [modo de obtención de detalles](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) a través de [jerarquías](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). En el ejemplo siguiente, se crea una jerarquía al seleccionar el campo Nombre del producto en las tablas y arrastrarlo sobre Categoría del producto. A continuación, en el menú contextual de una barra que representa una categoría de producto, puede seleccionar **[!UICONTROL + Explorar en profundidad]**.
 
-![Exploración en profundidad de Tableau](assets/uc15-tableau-drilldown.png)
+![Exploración en profundidad de Tableau](assets/uc15-tableau-drilldown.png){zoomable="yes"}
 
 Profundizar actualizará la visualización con los ingresos de compra de los productos dentro de la categoría de producto seleccionada.
 
-![Exploración en profundidad de Tableau](assets/uc15-tableau-drillup.png)
+![Exploración en profundidad de Tableau](assets/uc15-tableau-drillup.png){zoomable="yes"}
 
 El desglose genera la siguiente consulta SQL que utiliza una cláusula GROUP BY:
 
@@ -1745,11 +1745,11 @@ GROUP BY 1,
 
 La consulta **no** limita los resultados a la categoría de producto seleccionada; solo la visualización muestra la categoría de producto seleccionada.
 
-![Exploración en profundidad de Tableau](assets/uc15-tableau-drillup2.png)
+![Exploración en profundidad de Tableau](assets/uc15-tableau-drillup2.png){zoomable="yes"}
 
 También puede crear un tablero de aumento de detalle en el que un elemento visual sea el resultado de la selección en otro elemento visual. En el ejemplo siguiente, la visualización **[!UICONTROL Categorías de productos]** se usa como filtro para actualizar la tabla **[!UICONTROL Nombres de productos]**. Este filtro de visualización es solo de cliente y no genera una consulta SQL adicional.
 
-![Filtro de visualización Tableau](assets/uc15-tableau-visualizationfilter.png)
+![Filtro de visualización Tableau](assets/uc15-tableau-visualizationfilter.png){zoomable="yes"}
 
 
 >[!ENDTABS]
