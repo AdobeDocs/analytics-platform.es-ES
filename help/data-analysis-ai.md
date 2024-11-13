@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: d0507dab387b9174aa3a119bdb22139edd0e8ca4
+source-git-commit: 6f264ffd30bb1308f95a913a16fb587f36d95a04
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1637'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 4. Asegúrese de que la vista de datos seleccionada para el panel sea la vista de datos habilitada para el uso del Asistente de IA para las pruebas de Alpha (póngase en contacto con en el canal de Slack del Alpha si no está seguro)
 
-5. Haga clic en el icono de chat del Ayudante de IA en la parte superior derecha.
+5. Haga clic en el icono de chat del Ayudante de IA en la parte superior derecha. Nota: si no ve el icono de chat en la parte superior derecha, póngase en contacto con su administrador y pídale que siga [estas instrucciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/ai-assistant#feature-access) para habilitar el &quot;AI Assistant: Product Knowledge&quot; y el &quot;AI Assistant: Data Analysis&quot; en Admin Console.
 
    ![icono del Asistente de IA](/help/assets/ai-asst-icon.png)
 
