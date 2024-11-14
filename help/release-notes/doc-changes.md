@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
+source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
 workflow-type: tm+mt
-source-wordcount: '4195'
+source-wordcount: '4216'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Noviembre de 2024** | |
+| Casos de uso de extensión de BI | Documentación de varios [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para herramientas de BI como Power BI Desktop y Tableau Desktop. |
 | Vinculación y solicitudes de privacidad | Se agregó un aviso sobre [próximos cambios en el proceso de desvinculación](/help/stitching/faq.md#frequently-asked-questions) que son el resultado de solicitudes de privacidad. |
 | **Octubre de 2024** | |
 | Dispositivos compartidos | Se ha agregado un [artículo de caso de uso](/help/use-cases/stitching/shared-devices.md) que proporciona contexto en dispositivos compartidos, cómo manejar y mitigar datos de dispositivos compartidos mediante la vinculación y comprender la exposición de dispositivos compartidos en sus datos mediante el servicio de consulta. |

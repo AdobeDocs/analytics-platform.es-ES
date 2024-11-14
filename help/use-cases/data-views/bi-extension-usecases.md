@@ -4,12 +4,10 @@ description: Casos de uso múltiple que muestran cómo utilizar la extensión de
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: d6d6777f3d40a979eefecea6ab6d4bd818be2401
+source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
 workflow-type: tm+mt
-source-wordcount: '9736'
+source-wordcount: '9747'
 ht-degree: 1%
 
 ---
@@ -260,8 +258,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia diaria]** para el caso de uso:
 
    1. Arrastre y suelte **[!UICONTROL Daterangeday]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]**.
       * Seleccione **[!UICONTROL Día]** del menú desplegable **[!UICONTROL Daterangeday]**, para que el valor se actualice a **[!UICONTROL DAY(Daterangeday)]**.
-   1. Arrastre y suelte **[!UICONTROL Ocurrencias]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**.
-      * Los valores se convierten automáticamente a **[!UICONTROL SUM(Occurrences)]**.
+   1. Arrastre y suelte **[!UICONTROL Ocurrencias]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**. El valor se convierte automáticamente a **[!UICONTROL SUM(Occurrences)]**.
    1. Modifique **[!UICONTROL Estándar]** a **[!UICONTROL Vista completa]** desde el menú desplegable **[!UICONTROL Ajustar]** de la barra de herramientas.
 
       El escritorio Tableau debe tener el aspecto siguiente.
@@ -330,8 +327,7 @@ El Power BI ![AlertRed](/help/assets/icons/AlertRed.svg) no entiende **cómo man
 
    1. Arrastre y suelte **[!UICONTROL Daterangehour]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]**.
       * Seleccione **[!UICONTROL Más]** > **[!UICONTROL Horas]** del menú desplegable **[!UICONTROL Daterangeday]**, para que el valor se actualice a **[!UICONTROL HOUR(Daterangeday)]**.
-   1. Arrastre y suelte **[!UICONTROL Ocurrencias]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**.
-      * Los valores se convierten automáticamente a **[!UICONTROL SUM(Occurrences)]**.
+   1. Arrastre y suelte **[!UICONTROL Ocurrencias]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**. El valor se convierte automáticamente a **[!UICONTROL SUM(Occurrences)]**.
    1. Modifique **[!UICONTROL Estándar]** a **[!UICONTROL Vista completa]** desde el menú desplegable **[!UICONTROL Ajustar]** de la barra de herramientas.
 
       El escritorio Tableau debe tener el aspecto siguiente.
@@ -431,8 +427,7 @@ Un ejemplo del panel **[!UICONTROL Tendencia mensual]** para el caso de uso:
 
    1. Arrastre y suelte **[!UICONTROL Daterangeday]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]**.
       * Seleccione **[!UICONTROL MONTH]** en el menú desplegable **[!UICONTROL Daterangeday]**, para que el valor se actualice a **[!UICONTROL MONTH(Daterangeday)]**.
-   1. Arrastre y suelte **[!UICONTROL Ocurrencias]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**.
-      * Los valores se convierten automáticamente a **[!UICONTROL SUM(Occurrences)]**.
+   1. Arrastre y suelte **[!UICONTROL Ocurrencias]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**. El valor se convierte automáticamente a **[!UICONTROL SUM(Occurrences)]**.
    1. Modifique **[!UICONTROL Estándar]** a **[!UICONTROL Vista completa]** desde el menú desplegable **[!UICONTROL Ajustar]** de la barra de herramientas.
 
       El escritorio Tableau debe tener el aspecto siguiente.
@@ -556,10 +551,8 @@ Un ejemplo del panel **[!UICONTROL Clasificación de un solo Dimension]** para e
       ![Filtro Tableau para escritorio](assets/uc5-tableau-filter.png){zoomable="yes"}
 
    1. Arrastre y suelte **[!UICONTROL Product Name]** de la lista **[!UICONTROL Tablas]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Filas]**.
-   1. Arrastre y suelte **[!UICONTROL Purchases]** de la lista **[!UICONTROL Tables (*Measure Names*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Rows]**.
-      * Los valores se convierten automáticamente a **[!UICONTROL SUM(Purchases)]**.
-   1. Arrastre y suelte **[!UICONTROL Ingresos de compra]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]** y a la izquierda de **[!UICONTROL SUM(Compras)]**.
-      * Los valores se convierten automáticamente a **[!UICONTROL SUM(Purchase Revenue)]**.
+   1. Arrastre y suelte **[!UICONTROL Purchases]** de la lista **[!UICONTROL Tables (*Measure Names*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Rows]**. El valor se convierte automáticamente a **[!UICONTROL SUM(Purchases)]**.
+   1. Arrastre y suelte **[!UICONTROL Ingresos de compra]** de la lista **[!UICONTROL Tablas (*Nombres de medida*)]** en el panel **[!UICONTROL Datos]** y suelte la entrada en el campo junto a **[!UICONTROL Columnas]** y a la izquierda de **[!UICONTROL SUM(Compras)]**. El valor se convierte automáticamente a **[!UICONTROL SUM(Purchase Revenue)]**.
    1. Para ordenar ambos gráficos en orden descendente de ingresos de compra, pase el ratón sobre el título **[!UICONTROL Ingresos de compra]** y seleccione el icono de ordenación.
    1. Para limitar el número de entradas en los gráficos, seleccione **[!UICONTROL SUM(Purchase Revenue)]** en **[!UICONTROL Filas]** y en el menú desplegable seleccione **[!UICONTROL Filtro]**.
    1. En el cuadro de diálogo **[!UICONTROL Filtrar \[Ingresos de compra\]]**, seleccione **[!UICONTROL Rango de valores]** e introduzca los valores apropiados. Por ejemplo: `1,000,000` - `2,000,000`. Seleccione **[!UICONTROL Aplicar]** y **[!UICONTROL Aceptar]**.
@@ -759,7 +752,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples Dimension clasificados]** para el 
 
 ## Contar valores de dimensión distintos
 
-Desea obtener el número distinto de nombres de productos sobre los que se ha informado durante enero de 2023.
+En este caso de uso, desea obtener el número distinto de nombres de productos de los que se ha informado durante enero de 2023.
 
 +++ Customer Journey Analytics
 
@@ -872,7 +865,7 @@ También puede utilizar la funcionalidad de recuento distinto de Tableau Desktop
 
 ## Usar nombres de intervalo de fechas para filtrar
 
-Desea utilizar un intervalo de fechas que haya definido en Customer Journey Analytics para filtrar e informar sobre ocurrencias (eventos) durante el último año.
+En este caso de uso, debe utilizar un intervalo de fechas que haya definido en Customer Journey Analytics para filtrar e informar sobre ocurrencias (eventos) durante el último año.
 
 +++ Customer Journey Analytics
 
@@ -940,7 +933,7 @@ Observe cómo el intervalo de fechas definido en la visualización de tabla de f
 
 ## Usar nombres de filtro para filtrar
 
-Desea utilizar un filtro existente para la categoría de productos de pesca, que ha definido en Customer Journey Analytics, para filtrar e informar sobre los nombres de productos y las ocurrencias (eventos) durante enero de 2023.
+En este caso de uso, desea utilizar un filtro existente para la categoría de productos de pesca, que ha definido en Customer Journey Analytics, para filtrar e informar sobre los nombres de productos y las ocurrencias (eventos) durante enero de 2023.
 
 +++ Customer Journey Analytics
 
@@ -1090,7 +1083,7 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
 
 ## Ordenar
 
-Desea informar sobre los ingresos de compra y las compras de nombres de productos durante enero de 2023, ordenados en orden descendente de ingresos de compra.
+En este caso de uso, desea informar sobre los ingresos de compra y las compras para nombres de productos durante enero de 2023, ordenados en orden descendente de ingresos de compra.
 
 +++ Customer Journey Analytics
 
@@ -1256,7 +1249,7 @@ GROUP BY 1
 
 ## Límites
 
-Desea informar sobre las 5 ocurrencias principales de nombres de productos durante 2023.
+En este caso de uso, desea informar sobre las 5 ocurrencias principales de nombres de productos durante 2023.
 
 +++ Customer Journey Analytics
 
@@ -1595,7 +1588,7 @@ HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM(
 
 ## Visualizaciones
 
-En este caso de uso, quiero comprender cómo se pueden crear de manera similar las visualizaciones, disponibles en Customer Journey Analytics, mediante las visualizaciones disponibles en las herramientas de BI.
+Desea comprender cómo se pueden crear de forma similar las visualizaciones, disponibles en Customer Journey Analytics, mediante las visualizaciones disponibles en las herramientas de BI.
 
 +++ Customer Journey Analytics
 
@@ -1642,11 +1635,11 @@ Para la mayoría de las visualizaciones de Customer Journey Analytics, Power BI 
 
 ### Explorar en profundidad
 
-Power BI admite [modo de obtención de detalles](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) para explorar detalles en profundidad sobre determinadas visualizaciones. En el siguiente ejemplo, se analizan los ingresos por compras para categorías de productos. En el menú contextual de una barra que representa una categoría de producto, puede seleccionar **[!UICONTROL Profundizar]**.
+Power BI admite un [modo de obtención de detalles](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) para explorar detalles en profundidad sobre determinadas visualizaciones. En el siguiente ejemplo, se analizan los ingresos por compras para categorías de productos. En el menú contextual de una barra que representa una categoría de producto, puede seleccionar **[!UICONTROL Profundizar]**.
 
 ![explorar en profundidad de Power BI](assets/uc15-powerbi-drilldown.png){zoomable="yes"}
 
-Profundizar actualizará la visualización con los ingresos de compra de los productos dentro de la categoría de producto seleccionada.
+Profundizar en actualiza la visualización con los ingresos de compra de los productos dentro de la categoría de productos seleccionada.
 
 ![aumentar detalle de Power BI](assets/uc15-powerbi-drillup.png){zoomable="yes"}
 
@@ -1725,7 +1718,7 @@ Para la mayoría de las visualizaciones Customer Journey Analytics, Tableau ofre
 
 ### Explorar en profundidad
 
-Tableau admite [modo de obtención de detalles](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) a través de [jerarquías](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). En el ejemplo siguiente, se crea una jerarquía al seleccionar el campo Nombre del producto en las tablas y arrastrarlo sobre Categoría del producto. A continuación, en el menú contextual de una barra que representa una categoría de producto, puede seleccionar **[!UICONTROL + Explorar en profundidad]**.
+Tableau admite [modo de obtención de detalles](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) a través de [jerarquías](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). En el ejemplo siguiente, crea una jerarquía al seleccionar el campo **[!UICONTROL Nombre del producto]** en **[!UICONTROL Tablas]** y arrastrarlo sobre **[!UICONTROL Categoría del producto]**. A continuación, en el menú contextual de una barra que representa una categoría de producto, puede seleccionar **[!UICONTROL + Explorar en profundidad]**.
 
 ![Exploración en profundidad de Tableau](assets/uc15-tableau-drilldown.png){zoomable="yes"}
 
@@ -1769,18 +1762,18 @@ Cada una de las herramientas de BI admitidas tiene algunas advertencias para tra
 
 >[!TAB Escritorio de Power BI]
 
-* El filtrado avanzado de intervalos de fechas de Power BI Desktop es exclusivo.  Para la fecha de finalización, debe seleccionar una fecha posterior al día en el que desee generar el informe. Por ejemplo **[!UICONTROL es el]** `1/1/2023` **[!UICONTROL y antes]** `1/2/2023` o después.
+* El filtrado avanzado de intervalos de fechas de Power BI Desktop es exclusivo.  Para la fecha de finalización, debe seleccionar una fecha posterior al día en el que desee crear el informe. Por ejemplo **[!UICONTROL es el]** `1/1/2023` **[!UICONTROL y antes]** `1/2/2023` o después.
 * El valor predeterminado de Power BI Desktop es **[!UICONTROL Importar]** al crear una conexión. Asegúrese de usar **[!UICONTROL Direct Query]**.
-* Power BI Desktop expone las transformaciones de datos a través de Power Query.  Power Query funciona principalmente con conexiones de tipo Import, por lo que muchas transformaciones que se aplican, como funciones de fecha o cadena, generarán un error que indica que debe cambiar a una conexión de tipo Import.  Si necesita transformar los datos en el momento de la consulta, debe utilizar dimensiones y métricas derivadas para que Power BI no necesite realizar las transformaciones en sí.
+* Power BI Desktop expone las transformaciones de datos a través de Power Query.  Power Query funciona principalmente con conexiones de tipo Import, por lo que muchas transformaciones que se aplican, como funciones de fecha o cadena, generan un error que indica que debe cambiar a una conexión de tipo Import.  Si necesita transformar los datos en el momento de la consulta, debe utilizar dimensiones y métricas derivadas para que Power BI no necesite realizar las transformaciones en sí.
 * Power BI Desktop no entiende cómo gestionar columnas de tipo fecha-hora, por lo que las dimensiones **[!UICONTROL daterange *X *]**como**[!UICONTROL daterangehour ]**y**[!UICONTROL daterangeminute ]**no son compatibles.
-* De forma predeterminada, Power BI Desktop intenta realizar varias conexiones con un máximo de sesiones de Query Service.  Debe entrar en la configuración de Power BI del proyecto y desactivar las consultas paralelas.
-* Power BI Desktop realiza todas las operaciones de ordenación y limitación en el lado del cliente, y también tiene una semántica diferente para el filtrado superior *X* que incluye valores vinculados, de modo que no puede crear exactamente la misma ordenación y limitación que en Analysis Workspace.
+* De forma predeterminada, Power BI Desktop intenta realizar varias conexiones con un máximo de sesiones de Query Service.  Vaya a la configuración de Power BI del proyecto y deshabilite las consultas paralelas.
+* Power BI Desktop realiza todas las operaciones de ordenación y limitación del lado del cliente. Power BI Desktop también tiene una semántica diferente para el filtrado superior *X* que incluye valores vinculados. Por lo tanto, no se puede crear la misma ordenación y limitación que en Analysis Workspace.
 * Las versiones anteriores del lanzamiento de octubre de 2024 de Power BI Desktop rompen las fuentes de datos de PostgreSQL. Asegúrese de utilizar la versión mencionada en este artículo.
 
 >[!TAB Escritorio Tableau]
 
-* El filtrado Tableau Desktop Range of Dates es exclusivo. Para la fecha de finalización, debe seleccionar una fecha posterior al día en el que desee generar el informe.
-* De manera predeterminada, cuando se agrega una dimensión de fecha y hora como **[!UICONTROL Daterangemonth]** a las filas de una hoja, Tableau Desktop ajustará el campo en una función **[!UICONTROL YEAR()]**.  Para obtener lo que desea, debe seleccionar esa dimensión y en el menú desplegable, seleccionar la función de fecha que desee utilizar.  Por ejemplo, cambie **[!UICONTROL Year]** a **[!UICONTROL Month]** cuando intente usar **[!UICONTROL Daterangemonth]**.
+* El filtrado Tableau Desktop Range of Dates es exclusivo. Para la fecha de finalización, debe seleccionar una fecha posterior al día en el que desee crear el informe.
+* De manera predeterminada, cuando se agrega una dimensión de fecha y hora como **[!UICONTROL Daterangemonth]** a las filas de una hoja, Tableau Desktop ajusta el campo en una función **[!UICONTROL YEAR()]**.  Para obtener lo que desea, debe seleccionar esa dimensión y en el menú desplegable, seleccionar la función de fecha que desee utilizar.  Por ejemplo, cambie **[!UICONTROL Year]** a **[!UICONTROL Month]** cuando intente usar **[!UICONTROL Daterangemonth]**.
 * Limitar los resultados a los *X* principales no es obvio en Tableau Desktop. Puede limitar los resultados explícitamente o mediante un campo calculado y la función **[!UICONTROL INDEX()]**.  Agregar un filtro *X* superior a una dimensión genera SQL complejo mediante una combinación interna no compatible.
 
 >[!ENDTABS]

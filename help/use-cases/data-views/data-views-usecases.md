@@ -5,10 +5,10 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 62779154e889158c62e4713a951fb3633c16d5e1
+source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 35%
+source-wordcount: '1372'
+ht-degree: 33%
 
 ---
 
@@ -20,9 +20,13 @@ Estos casos de uso ilustran la flexibilidad y la potencia de las vistas de datos
 
 Consulte el caso de uso [Usar métricas de dimensiones de enlace](binding-dimensions-metrics.md) para obtener más información.
 
-## Usar datos de resumen
+## Uso de datos de resumen
 
 Consulte el caso de uso [Usar datos de resumen](summary-data.md) para obtener más información.
+
+## Casos de uso de extensión de BI
+
+Consulte los [casos de uso de extensión de BI](bi-extension-usecases.md) sobre cómo realizar una serie de casos de uso con la extensión de BI de Customer Journey Analytics.
 
 ## Creación de una métrica a partir de un campo de esquema de cadena {#string}
 
