@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: ae2f9220829c897c8f1e0425ec192035dcf0097d
+source-git-commit: dbeb3cabeaa7586e8a024a46e7ae42984e9c1c09
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1499'
 ht-degree: 7%
 
 ---
@@ -90,9 +90,13 @@ Cada paso proporciona una explicación de alto nivel de un proceso más detallad
 
 1. (Opcional) Si desea integrar Customer Journey Analytics con Adobe Journey Optimizer, utilice el objeto de personalización en la implementación para utilizarlo en Adobe Journey Optimizer.
 
-1. (Opcional) Incluya datos históricos de Adobe Analytics mediante el conector de origen de Analytics.
+1. (Opcional) Traer datos históricos de Adobe Analytics mediante el conector de origen de Analytics:
 
-   Para obtener más información, consulte [Usar un conector de origen](/help/data-ingestion/sources.md#use-a-source-connector) en [Ingesta y uso de datos mediante conectores de origen](/help/data-ingestion/sources.md).
+   1. [Cree un esquema para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+
+   1. [Cree el conector de origen de Analytics y asigne campos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   1. [Agregue el conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
 
 1. Expanda la sección que describe cómo desea implementar el SDK web de Experience Platform para la implementación de Customer Journey Analytics y, a continuación, complete los pasos asociados:
 
@@ -106,7 +110,7 @@ Cada paso proporciona una explicación de alto nivel de un proceso más detallad
 
    +++Etiquetas
 
-   1. [Implemente la etiqueta de carga en su sitio](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md).
+   1. [Implemente la etiqueta de carga en su sitio](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
 
    1. [Cree una propiedad de etiquetas y agregue la extensión del SDK web de Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md).
 

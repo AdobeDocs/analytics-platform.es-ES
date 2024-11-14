@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
+exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
+source-git-commit: ef6afb2872b88c82801ceb279dd757e6e1f5e78c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 5%
 
 ---
@@ -47,3 +48,4 @@ Para utilizar canales de marketing en Customer Journey Analytics al utilizar el 
 
    El nuevo campo derivado se agrega al contenedor Campos derivados > como parte de los Campos de esquema en el carril izquierdo de la vista Datos.
 
+1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).

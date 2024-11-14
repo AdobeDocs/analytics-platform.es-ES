@@ -6,14 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
+source-git-commit: ce19cf00d70220b6d7dcdfaeb1d4c9ec5c14e5dd
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 52%
+source-wordcount: '1072'
+ht-degree: 48%
 
 ---
 
-# Crear un esquema XDM para utilizarlo con el Customer Journey Analytics
+# Creación de un esquema XDM para utilizarlo con la implementación del SDK web de Customer Journey Analytics
 
 >[!NOTE]
 > 
@@ -39,7 +40,7 @@ Para crear un esquema:
 
 1. Seleccione **[!UICONTROL Crear esquema]**.
 
-1. En el paso Seleccionar una clase del asistente Crear esquema:
+1. En el paso **[!UICONTROL Seleccionar una clase]** del asistente Crear esquema:
 
    1. Seleccione **[!UICONTROL Evento de experiencia]**.
 
@@ -60,11 +61,11 @@ Para crear un esquema:
 
    1. Seleccione **[!UICONTROL Finalizar]**.
 
-1. En la ficha [!UICONTROL **Estructura**] del esquema:
+1. Agregue todos los grupos de campos que contengan cualquier campo que desee incluir en el esquema.
+
+   Los grupos de campos son colecciones reutilizables de objetos y atributos que le permiten ampliar fácilmente su esquema.
 
    1. En la sección **[!UICONTROL Grupos de campos]**, seleccione **[!UICONTROL + Agregar]**.
-
-      Los grupos de campos son colecciones reutilizables de objetos y atributos que le permiten ampliar fácilmente su esquema.
 
       ![Agregar grupo de campos](assets/add-field-group-button.png)
 
@@ -78,7 +79,19 @@ Para crear un esquema:
 
       Seleccione **[!UICONTROL Atrás]** para cerrar la vista previa.
 
+   1. (Opcional) Seleccione los grupos de campos adicionales que desee incluir.
+
    1. Seleccione **[!UICONTROL Agregar grupos de campos]**.
+
+1. (Opcional) Si tiene campos personalizados que desea incluir en el esquema, cree un grupo de campos personalizados y agréguelos al grupo de campos.
+
+   1. En la sección **[!UICONTROL Grupos de campos]**, seleccione **[!UICONTROL + Agregar]**.
+
+      ![Agregar grupo de campos](assets/add-field-group-button.png)
+
+   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos], seleccione **[!UICONTROL Crear nuevo grupo de campos]**.
+
+   1. Especifique un nombre para mostrar y una descripción opcional y, a continuación, seleccione **[!UICONTROL Agregar grupos de campos]**.
 
 1. Seleccione **[!UICONTROL +]** junto al nombre del esquema en el panel [!UICONTROL Estructura].
 
@@ -147,4 +160,3 @@ Para crear un esquema:
    Consulte [Crear y editar esquemas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es) para obtener más información sobre cómo agregar y quitar grupos de campos y campos individuales a un esquema.
 
 1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
-
