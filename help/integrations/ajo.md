@@ -5,9 +5,9 @@ exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: d5e8c75f1e3a207b625421a13219674f8da6c3f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3020'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Puede configurar los datos generados por Journey Optimizer para realizar anális
 
 ## Configuración automática de la integración con Journey Optimizer
 
-Journey Optimizer admite el uso de Customer Journey Analytics como motor de creación de informes. Consulte [Introducción a la nueva interfaz de creación de informes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) en la documentación de Journey Optimizer.
+Journey Optimizer admite el uso de Customer Journey Analytics como motor de creación de informes. Consulte [Introducción a la nueva interfaz de creación de informes](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) en la documentación de Journey Optimizer.
 
 Cuando haya habilitado la creación de informes de Customer Journey Analytics para Journey Optimizer, se crean automáticamente una [conexión](/help/connections/overview.md) y [vista de datos](/help/data-views/data-views.md) para la zona protegida específica.
 
