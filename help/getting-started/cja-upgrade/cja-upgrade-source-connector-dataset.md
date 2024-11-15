@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d30a1a7cbe441529f5b094215c0ea1131c1f67fc
+exl-id: 424485a3-a076-4656-83b6-733f16cc2326
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 37%
+source-wordcount: '818'
+ht-degree: 25%
 
 ---
 
@@ -20,6 +21,30 @@ ht-degree: 37%
 >Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+
+>[!NOTE]
+>
+>La información de esta página supone lo siguiente:
+>
+>* Está actualizando de Adobe Analytics a Customer Journey Analytics.
+>* Está utilizando el SDK web para la recopilación de datos futura de Customer Journey Analytics.
+>* Desea utilizar el conector de origen de Analytics para llevar los datos de análisis de Adobe históricos a Customer Journey Analytics.
+
+## Descubra cómo el conector de origen de Analytics puede llevar datos históricos a Customer Journey Analytics
+
+Puede utilizar el conector de origen de Analytics para incorporar datos del grupo de informes de Adobe Analytics a Adobe Experience Platform. Estos datos se pueden utilizar como datos históricos en Customer Journey Analytics.
+
+Este proceso supone que desea [crear un esquema XDM al actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones específicas de Platform que utiliza.
+
+Para utilizar el conector de origen de Analytics para llevar los datos históricos a Customer Journey Analytics, debe:
+
+1. [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+1. [Creación del conector de origen de Analytics y campos de asignación](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+
+1. Agregue el conjunto de datos del conector de origen de Analytics a la conexión, como se describe a continuación.
+
+## Añadir el conjunto de datos del conector de origen de Analytics a la conexión
 
 Después de [crear un conector de origen de Analytics para los datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md), se crea automáticamente un conjunto de datos para los datos de Analytics.
 
@@ -68,7 +93,7 @@ Para agregar el conjunto de datos creado automáticamente a la misma conexión c
 
 1. Defina el período que desea que incluya el relleno introduciendo las fechas de inicio y finalización o seleccionando el icono de calendario ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).
 
-   El conector de origen de Analytics importa hasta 13 meses de datos, independientemente de su tamaño, para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.
+   El conector de origen de Analytics importa 13 meses de datos (independientemente de su tamaño) para zonas protegidas de producción. El relleno en zonas protegidas que no son de producción es de 3 meses.
 
    >[!IMPORTANT]
    >
@@ -83,4 +108,3 @@ Para agregar el conjunto de datos creado automáticamente a la misma conexión c
 1. Seleccione **[!UICONTROL Agregar conjuntos de datos]** y, a continuación, seleccione **[!UICONTROL Guardar]** para guardar la conexión.
 
 1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
-
