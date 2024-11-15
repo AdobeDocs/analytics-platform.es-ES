@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
 workflow-type: tm+mt
 source-wordcount: '4216'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Casos de uso de extensión de BI | Documentación de varios [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para herramientas de BI como Power BI Desktop y Tableau Desktop. |
 | Vinculación y solicitudes de privacidad | Se agregó un aviso sobre [próximos cambios en el proceso de desvinculación](/help/stitching/faq.md#frequently-asked-questions) que son el resultado de solicitudes de privacidad. |
 | **Octubre de 2024** | |
-| Dispositivos compartidos | Se ha agregado un [artículo de caso de uso](/help/use-cases/stitching/shared-devices.md) que proporciona contexto en dispositivos compartidos, cómo manejar y mitigar datos de dispositivos compartidos mediante la vinculación y comprender la exposición de dispositivos compartidos en sus datos mediante el servicio de consulta. |
+| Dispositivos compartidos | Se ha añadido un [artículo de caso de uso](/help/use-cases/stitching/shared-devices.md) que proporciona contexto en dispositivos compartidos, cómo manejar y mitigar datos de dispositivos compartidos mediante la identificación y comprender la exposición de dispositivos compartidos en sus datos mediante el Servicio de consultas. |
 | Nueva información sobre Factores de solicitud en el rendimiento de Analysis Workspace | Una nueva sección [Factores de solicitud](/help/technotes/optimizing-performance.md#request-factors) del artículo [Optimizar rendimiento de Analysis Workspace](/help/technotes/optimizing-performance.md) explica cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento. |
 | Workspace y componentes | Se ha actualizado la documentación sobre proyectos de Analysis Workspace (proyectos, visualizaciones y paneles) y componentes (anotaciones, dimensiones, métricas (calculadas), filtros, intervalos de fechas, alertas, proyectos programados y audiencias). |
 | Análisis guiado | Se ha actualizado la documentación con la disponibilidad de [Análisis guiado](/help/guided-analysis/overview.md) desde Analysis Workspace. |
@@ -118,7 +118,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Junio de 2023** | |
 | Vinculación y análisis en canales múltiples | En previsión de los próximos cambios para habilitar la vinculación y aclarar mejor cómo se puede elevar el análisis entre canales mediante la vinculación, la documentación relacionada con la funcionalidad de Análisis entre canales se edita para hacer referencia a [análisis en canales múltiples](../use-cases/cross-channel/cross-channel.md) como la capacidad de Customer Journey Analytics y el caso de uso, y [Vinculación](../stitching/overview.md) como una funcionalidad importante para lograrlo. |
 | Acceso de Power BI y Tableau a vistas de datos de Customer Journey Analytics | La extensión BI de Customer Journey Analytics habilita el acceso SQL a las vistas de datos que ha definido en Customer Journey Analytics. [Más información](/help/data-views/bi-extension.md) |
-| Vistas de datos de Adobe Journey Optimizer | Las personas administradoras de Customer Journey Analytics tienen acceso a algunas vistas de datos adicionales en Customer Journey Analytics, tituladas &quot;Vista de datos de AJO (nombre de zona protegida)&quot;. [Más información](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting-configuration). |
+| Vistas de datos de Adobe Journey Optimizer | Las personas administradoras de Customer Journey Analytics tienen acceso a algunas vistas de datos adicionales en Customer Journey Analytics, tituladas &quot;Vista de datos de AJO (nombre de zona protegida)&quot;. [Más información](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/reporting-configuration). |
 | Conversión de moneda | Documentación actualizada para compatibilidad de [conversión de moneda](../data-views/component-settings/format.md#currency). |
 | Actualizaciones de métricas calculadas | Se han introducido las siguientes actualizaciones en la documentación de las métricas calculadas para alinearla con la funcionalidad actual de Customer Journey Analytics: <ul><li>Se ha actualizado la lista de [métricas calculadas predeterminadas](/help/components/calc-metrics/default-calcmetrics.md) disponible en Customer Journey Analytics</li><li>Capturas de pantalla y procedimientos actualizados en varios artículos de métricas calculadas </li></ul> |
 | **Mayo de 2023** | |
