@@ -1,33 +1,49 @@
 ---
-title: Crear un esquema para el Customer Journey Analytics
-description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
+title: Elija el esquema para el Customer Journey Analytics
+description: Obtenga información acerca de las opciones disponibles al elegir un esquema para Customer Journey Analytics y las ventajas y desventajas de cada una
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 59%
+source-wordcount: '387'
+ht-degree: 54%
 
 ---
 
-# Uso del esquema de Adobe Analytics con Customer Journey Analytics
+# Elija el esquema para el Customer Journey Analytics
 
 >[!NOTE]
 >
 >Esta documentación se debe usar como parte del [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-<!-- this page exists as the "Learn more" link in the info icon for the option "I am comfortable using my Adobe Analytics schema as a basis" -->
+<!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-La opción de usar un esquema de Adobe Analytics existente con Customer Journey Analytics solo está disponible si la implementación de Adobe Analytics está configurada con el SDK web de Adobe Experience Platform. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
+Al actualizar a Customer Journey Analytics, Adobe recomienda crear un nuevo esquema XDM para alinearlo mejor con las necesidades de su organización a medida que empiece a utilizar otros servicios de Platform. También puede elegir utilizar el esquema de Adobe Analytics existente.
 
-Considere las siguientes ventajas y desventajas de utilizar el esquema de Adobe Analytics con Customer Journey Analytics:
+Considere las ventajas y desventajas de cada uno.
+
+## Cree un esquema XDM adaptado a su organización (recomendado)
+
+Adobe recomienda crear un nuevo esquema XDM al actualizar a Customer Journey Analytics.
+
+| Ventajas | Desventajas |
+|----------|---------|
+| <ul><p>Las ventajas de actualizar a su propio esquema XDM son:</p><ul><li>Un esquema optimizado que se adapta a las necesidades de su organización y a las aplicaciones de Platform específicas que utiliza.</li><p>Cuando es necesario realizar cambios en el esquema, no es necesario rebuscar entre miles de campos no utilizados para encontrar el campo que requiere actualización.</p></ul> | <p>Las desventajas de actualizar a su propio esquema XDM son:</p><ul><li>La actualización del esquema es un proceso laborioso que es necesario realizar antes de empezar a enviar datos a Platform.</li></ul> |
+
+## Usar el esquema de Adobe Analytics existente
+
+La opción de usar el esquema de Adobe Analytics existente con Customer Journey Analytics solo está disponible si la implementación de Adobe Analytics está configurada con el SDK web de Adobe Experience Platform. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
 
 | Ventajas | Desventajas |
 |----------|---------|
 | <p>Las ventajas de utilizar el esquema de Adobe Analytics son:</p><ul><li>Facilidad de actualización<p>Si ya está enviando datos a Adobe Analytics con el SDK web de Adobe Experience Platform, puede añadir un servicio adicional a la secuencia de datos para que envíe los datos a Adobe Experience Platform (que luego se podrán utilizar en la configuración de Customer Journey Analytics).</p></li></ul> | <p>Las desventajas de utilizar el esquema de Adobe Analytics son:</p><ul><li>Aunque el uso del esquema de Adobe Analytics no le limita en términos de cómo se puede utilizar con otras aplicaciones de Platform, sí da lugar a un esquema más complejo de lo que podría ser. Esto se debe a que el esquema de Adobe Analytics contiene muchos objetos específicos de Adobe Analytics que es poco probable que su organización utilice.<p>Cuando es necesario realizar cambios en el esquema, hay que rebuscar entre miles de campos no utilizados para encontrar el campo que requiere actualización.</p></li></ul> |
+
+
+
 
 <!-- Not sure about any of this: 
 

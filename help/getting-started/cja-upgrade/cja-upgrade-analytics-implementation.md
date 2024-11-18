@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 18%
+source-wordcount: '590'
+ht-degree: 19%
 
 ---
 
@@ -18,13 +18,11 @@ ht-degree: 18%
 
 >[!NOTE]
 > 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+>Use la información de esta página para responder preguntas en la [lista de comprobación de actualización de Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-Existen varias formas de actualizar a Customer Journey Analytics, pero no todas las rutas de actualización están disponibles para cada tipo de implementación de Adobe Analytics. Sin embargo, la ruta de actualización recomendada está disponible independientemente de cómo se implemente Adobe Analytics en su organización.
+Adobe Analytics se puede implementar de varias formas. Al actualizar a Customer Journey Analytics, no todas las rutas de actualización están disponibles para todas las implementaciones de Adobe Analytics. Sin embargo, la ruta de actualización recomendada está disponible independientemente de cómo se implemente Adobe Analytics en su organización.
 
-Utilice la información siguiente para comprender mejor su implementación actual de Adobe Analytics y las rutas de actualización disponibles para su organización.
+Utilice la información siguiente para obtener más información sobre la implementación actual de Adobe Analytics y las rutas de actualización disponibles para su organización.
 
 Póngase en contacto con el representante del Adobe si necesita asesoramiento, ayuda o asistencia más específicos.
 
