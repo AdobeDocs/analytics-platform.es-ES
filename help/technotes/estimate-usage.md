@@ -4,10 +4,10 @@ description: Muestra dos métodos para calcular el uso y uno para administrarlo.
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 400dc032be5d491cade84b0e98d88ff8a5949a2f
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 71%
+source-wordcount: '875'
+ht-degree: 69%
 
 ---
 
@@ -46,7 +46,7 @@ Es posible que necesite saber cuántas filas de datos de evento tiene actualment
 
    >[!CAUTION]
    >
-   >   Este recuento se aplica solo a los datos de evento, no a los datos de perfil o búsqueda. Si tiene datos de perfil y búsqueda, el recuento será ligeramente mayor. Sin embargo, actualmente no hay forma de informar sobre el uso de los datos de perfil y búsqueda en la interfaz de usuario. Esta funcionalidad está prevista para 2023.
+   >   Este recuento se aplica solo a los datos de evento, no a los datos de perfil o búsqueda. Si tiene datos de perfil y búsqueda, el recuento será ligeramente mayor. Sin embargo, actualmente no hay forma de informar sobre el uso de perfiles y datos de búsqueda en la interfaz de usuario.
 
 1. Una vez que tenga una suma de todas las filas de datos de evento, busque la asignación “Filas de datos” en el contrato de Customer Journey Analytics que su empresa firmó con Adobe.
 
