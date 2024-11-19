@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
+source-git-commit: a1feb2e8458169ed208da2c42fab62d25e1015bb
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -33,17 +34,17 @@ A continuación se muestra un proceso de alto nivel para pasar del conector de o
 
 1. Cree una implementación de SDK web, tal como se describe en [Pasos detallados de la actualización recomendada](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) en el artículo [Actualizar de Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 
-   Una vez configurada la implementación del SDK web, continúe con el siguiente paso.
+   Una vez configurada la implementación del SDK web, continúe con los siguientes pasos.
 
 1. Decida si utilizará el esquema de Adobe Analytics o un esquema XDM en la implementación del SDK web.
 
    Para obtener más información, consulte [Elegir el esquema para el Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
-1. (Condicional) Si planea utilizar el esquema de Adobe Analytics, agregue el conjunto de datos creado automáticamente por el conector de origen de Analytics a la conexión de Customer Journey Analytics.
+1. (Condicional) Si planea utilizar el esquema de Adobe Analytics con la implementación del SDK web, agregue el conjunto de datos creado automáticamente por el conector de origen de Analytics a la conexión de Customer Journey Analytics.
 
    Para obtener más información, consulte [Agregar el conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
 
-1. (Condicional) Si planea crear un esquema XDM:
+1. (Condicional) Si planea crear un esquema XDM para utilizarlo con la implementación del SDK web:
 
    1. [Cree un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
 
@@ -54,11 +55,3 @@ A continuación se muestra un proceso de alto nivel para pasar del conector de o
    1. Elimine el conector de origen original de Analytics. <!-- need to add steps somewhere about how to do this -->
 
    1. [Cree un nuevo conector de origen de Analytics y asigne campos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
-
-
-
-
-
-
-
-
