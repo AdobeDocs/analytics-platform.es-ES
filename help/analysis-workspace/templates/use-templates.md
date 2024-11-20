@@ -5,10 +5,11 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9f2f79e264d9cdd460751c50fe252bb7237682fd
+exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
+source-git-commit: 1345981ac78272935ffa8bfc50de8c41223a132f
 workflow-type: tm+mt
-source-wordcount: '13206'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -523,14 +524,14 @@ Las plantillas disponibles son las siguientes:
 
 | Nombre de plantilla | Por qué usar esta plantilla <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Usuarios primero frente a repetidos**] | Vea una comparación de los visitantes nuevos que repiten visita. <p>**Esto puede ayudarle** a comprender mejor la eficacia de su sitio para conservar la lealtad de sus clientes o la velocidad a la que está adquiriendo nuevos clientes.</p><p>**En función de lo que sepas, podrías** hacer muchas cosas, como ofrecer incentivos para futuras compras a los visitantes nuevos con el fin de animarlos a que regresen.</p><p>Esta plantilla utiliza el </p> |
-| **Id./Área De Nombres De La Persona** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el  </p> |
-| **Información general de ubicación** | Puede ver una descripción general de la ubicación de los visitantes en una visualización de mapa.<p>**Esto puede ayudarte** a comprender mejor dónde se encuentran los visitantes que visitan el sitio. </p><p>**En función de lo que sepa, podría** hacer muchas cosas, como enfocar los recursos de marketing en las ubicaciones donde vea el mayor interés y oportunidad.</p><p>Esta plantilla utiliza el  </p> |
+| [!UICONTROL **Usuarios primero frente a repetidos**] | Vea una comparación de los visitantes nuevos que repiten visita. <p>**Esto puede ayudarle** a comprender mejor la eficacia de su sitio para conservar la lealtad de sus clientes o la velocidad a la que está adquiriendo nuevos clientes.</p><p>**En función de lo que sepas, podrías** hacer muchas cosas, como ofrecer incentivos para futuras compras a los visitantes nuevos con el fin de animarlos a que regresen.</p><!-- This template uses the --> |
+| **Id./Área De Nombres De La Persona** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><!-- This template uses the --> |
+| **Información general de ubicación** | Puede ver una descripción general de la ubicación de los visitantes en una visualización de mapa.<p>**Esto puede ayudarte** a comprender mejor dónde se encuentran los visitantes que visitan el sitio. </p><p>**En función de lo que sepa, podría** hacer muchas cosas, como enfocar los recursos de marketing en las ubicaciones donde vea el mayor interés y oportunidad.</p><!-- This template uses the --> |
 | **Países geográficos** | Vea el país desde el que se originaron las personas que visitaron el sitio.<p>**Esto puede ayudarte** a comprender mejor de qué países provienen los visitantes más populares del sitio.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing en estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.</p><p>Esta plantilla utiliza la dimensión Países. </p> |
 | **Estados de EE. UU. geográficos** | Vea el estado (en Estados Unidos) desde el que se originaron las personas que visitaron el sitio. Esto es similar a la plantilla Regiones geográficas, excepto que es específica de Estados Unidos.<p>**Esto puede ayudarte** a comprender mejor los estados de EE. UU. más populares de los que proceden los visitantes que visitan el sitio.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en los esfuerzos de marketing en estos estados.</p><p>Esta plantilla utiliza la dimensión Estados de EE. UU. </p> |
 | **Regiones geográficas** | Vea la región geográfica desde la que se originaron las personas que visitaron el sitio. Una región es un área geográfica más pequeña que un país, pero más grande que una ciudad. En algunos países, una región es un estado, una provincia o una prefectura. En otras áreas, es un país constituyente, departamento o región metropolitana. <p>**Esto puede ayudarte** a entender mejor las regiones más populares de las que proceden los visitantes que visitan el sitio.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en los esfuerzos de marketing en estas regiones o asegurarse de que la experiencia del sitio sea óptima en regiones que tienen diferentes idiomas principales. </p><p>Esta plantilla utiliza las dimensiones ID (variables/país geográfico) y Regiones. </p> |
-| **Ciudades geográficas** | Vea la ciudad desde la que se originaron las personas que visitaron el sitio. <p>**Esto puede ayudarte** a entender mejor las ciudades más populares de las que proceden los visitantes que visitan el sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como usar los datos para centrarse en los esfuerzos de marketing en estas ciudades. </p><p>Esta plantilla utiliza la dimensión Cities </p> |
-| **DMA de EE. UU. geográfico** | Vea las áreas de marketing designadas (DMA) dentro de los Estados Unidos desde las que se originaron las personas que visitaron el sitio.<p>**Esto puede ayudarte** a entender mejor las regiones más populares de las que proceden los visitantes que visitan el sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como usar los datos para centrarse en los esfuerzos de marketing en las regiones de mayor éxito. </p><p>Esta plantilla utiliza el </p> |
+| **Ciudades geográficas** | Vea la ciudad desde la que se originaron las personas que visitaron el sitio. <p>**Esto puede ayudarte** a entender mejor las ciudades más populares de las que proceden los visitantes que visitan el sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como usar los datos para centrarse en los esfuerzos de marketing en estas ciudades. </p><p>Esta plantilla utiliza la dimensión Cities. </p> |
+| **DMA de EE. UU. geográfico** | Vea las áreas de marketing designadas (DMA) dentro de los Estados Unidos desde las que se originaron las personas que visitaron el sitio.<p>**Esto puede ayudarte** a entender mejor las regiones más populares de las que proceden los visitantes que visitan el sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como usar los datos para centrarse en los esfuerzos de marketing en las regiones de mayor éxito. </p><!-- This template uses the --> |
 | **Idiomas** | Vea los idiomas principales en los que los visitantes prefieren ver el contenido. <p>**Esto puede ayudarte** a comprender mejor los idiomas de los visitantes que se prefieren con más frecuencia.</p><p>**En función de lo que hayas aprendido, puedes** hacer muchas cosas, como enfocar los esfuerzos de localización o de marketing en los idiomas más populares.</p><p>Esta plantilla utiliza la dimensión Idioma.</p> |
 | **Información general sobre tecnología** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el </p> |
 | **Exploradores** | Ver el nombre y la versión de los exploradores principales que usan los visitantes para acceder al sitio.<p>**Esto puede ayudarte** a comprender mejor los exploradores más comunes que usan los visitantes.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como mejorar la calidad del sitio probando nuevas versiones del sitio con los exploradores principales. Al hacerlo, se pueden maximizar los esfuerzos de control de calidad.</p><p>Esta plantilla utiliza la dimensión Explorador. </p> |
@@ -708,12 +709,14 @@ Las plantillas disponibles son las siguientes:
 
 ### Móvil: aplicación móvil {#mobile-app}
 
+<!-- add contextual help for Mobile app screens and mobile app actions -->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-lifecycle-metrics-app-usage-template"
->title="Uso de aplicaciones móviles"
->abstract=""
+>title="Vea la cantidad de usuarios, inicios e inicios por primera vez en la aplicación, así como la longitud promedio de sesión."
+>abstract="**Esto puede ayudarte** a comprender mejor cuánto se está usando tu aplicación. <br/>**En función de lo que sepa, podría** hacer muchas cosas, como mejorar el rendimiento de la aplicación para que se pueda escalar según la cantidad de uso."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -721,8 +724,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-journeys"
->title="Recorridos de aplicaciones móviles"
->abstract=""
+>title="Vea los patrones de uso más destacados de su aplicación móvil."
+>abstract="**Esto puede ayudarte** a comprender mejor cómo usan tu aplicación los usuarios. <br/>**Según lo que hayas aprendido, podrías** hacer muchas cosas, como mejorar la forma en que las personas pueden pasar de una pantalla a otra para dirigirse a los flujos de trabajo más comunes."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -730,8 +733,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-key-metrics"
->title="Métricas de aplicación móvil"
->abstract=""
+>title="Vea algunas de las métricas más comunes de aplicaciones móviles."
+>abstract="**Esto puede ayudarte** a comprender mejor el rendimiento básico de tu aplicación móvil.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como evaluar el estado general y el rendimiento de su aplicación."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -739,8 +742,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-messaging"
->title="Mensajería de aplicación móvil"
->abstract=""
+>title="Vea los datos de rendimiento de la mensajería en la aplicación y la mensajería push para su aplicación."
+>abstract="**Esto puede ayudarte** a comprender mejor cómo usan las personas las funcionalidades de mensajería en la aplicación, así como la eficacia con la que las notificaciones push conducen el tráfico a tu aplicación.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como mejorar la experiencia de notificación push de mensajería en la aplicación."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -748,8 +751,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-performance-template"
->title="Rendimiento de aplicación móvil"
->abstract=""
+>title="Vea el rendimiento de su aplicación y dónde experimentan problemas los usuarios."
+>abstract="**Esto puede ayudarte** a comprender mejor si las personas que usan tu aplicación experimentan lentitud o un rendimiento degradado. <br/>**Según lo que sepa, podría** hacer cualquier cosa, como corregir problemas existentes o mejorar el rendimiento de la aplicación antes de que ocurran problemas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -757,8 +760,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-retention"
->title="Retención de aplicaciones móviles"
->abstract=""
+>title="Vea qué usuarios son los más fieles a su aplicación y qué hacen dentro de la aplicación."
+>abstract="**Esto puede ayudarte** a comprender mejor cómo utilizan tu aplicación los usuarios más fieles.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como mejorar sus esfuerzos de marketing para las características que utilizan sus usuarios más fieles."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -766,14 +769,14 @@ Las plantillas disponibles son las siguientes:
 
 | Nombre de plantilla | Por qué usar esta plantilla <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Screens de aplicación móvil**] | Ver información sobre las pantallas móviles que usan los visitantes al acceder al sitio, como el tamaño, el ancho y el alto de la pantalla. <p>**Esto puede ayudarte** a comprender mejor cómo experimentan tu sitio los usuarios.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como optimizar la representación del sitio para los tamaños de pantalla más comunes.</p><p>Esta plantilla utiliza el |
-| **Acciones de aplicación móvil** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Uso de aplicaciones móviles** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Recorridos de aplicaciones móviles** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Métricas de aplicación móvil** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Mensajería de aplicación móvil** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Rendimiento de aplicación móvil** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Retención de aplicación móvil** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
+| [!UICONTROL **Screens de aplicación móvil**] | Vea el número de eventos, sesiones y personas asociadas con cada pantalla en la aplicación móvil.<p>**Esto puede ayudarte** a comprender mejor qué pantallas del sitio son las más populares.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como mejorar el contenido en las pantallas más populares.</p><p>Esta plantilla utiliza las métricas de cambio Eventos, Sesiones, Personas y Porcentaje. También utiliza la dimensión Título de la página.</p> |
+| **Acciones de aplicación móvil** | Vea las acciones que realizan las personas en la aplicación móvil. <p>**Esto puede ayudarte** a comprender mejor cómo usan tu aplicación las personas y el valor que obtienen de ella.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar y desarrollar características que complementen o mejoren las que sean más populares.</p><p>Esta plantilla utiliza las métricas de cambio Eventos, Sesiones, Personas y Porcentaje. |
+| **Uso de aplicaciones móviles** | Vea la cantidad de usuarios, inicios e inicios por primera vez en la aplicación, así como la longitud promedio de sesión.<p>**Esto puede ayudarte** a comprender mejor cuánto se está usando tu aplicación. </p><p>**En función de lo que sepa, podría** hacer muchas cosas, como mejorar el rendimiento de la aplicación para que se pueda escalar según la cantidad de uso.</p><!-- This template uses the --> |
+| **Recorridos de aplicaciones móviles** | Vea los patrones de uso más destacados de su aplicación móvil. <p>**Esto puede ayudarte** a comprender mejor cómo usan tu aplicación los usuarios. </p><p>**Según lo que hayas aprendido, podrías** hacer muchas cosas, como mejorar la forma en que las personas pueden pasar de una pantalla a otra para dirigirse a los flujos de trabajo más comunes. </p><!-- This template uses the --> |
+| **Métricas de aplicación móvil** | Vea algunas de las métricas más comunes de aplicaciones móviles. <p>**Esto puede ayudarte** a comprender mejor el rendimiento básico de tu aplicación móvil.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como evaluar el estado general y el rendimiento de su aplicación.</p><!-- This template uses the --> |
+| **Mensajería de aplicación móvil** | Vea los datos de rendimiento de la mensajería en la aplicación y la mensajería push para su aplicación.<p>**Esto puede ayudarte** a comprender mejor cómo usan las personas las funcionalidades de mensajería en la aplicación, así como la eficacia con la que las notificaciones push conducen el tráfico a tu aplicación.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como mejorar la experiencia de notificación push de mensajería en la aplicación.</p><!-- This template uses the --> |
+| **Rendimiento de aplicación móvil** | Vea el rendimiento de su aplicación y dónde experimentan problemas los usuarios. <p>**Esto puede ayudarte** a comprender mejor si las personas que usan tu aplicación experimentan lentitud o un rendimiento degradado. </p><p>**Según lo que sepa, podría** hacer cualquier cosa, como corregir problemas existentes o mejorar el rendimiento de la aplicación antes de que ocurran problemas.</p><!-- This template uses the --> |
+| **Retención de aplicación móvil** | Vea qué usuarios son los más fieles a su aplicación y qué hacen dentro de la aplicación. <p>**Esto puede ayudarte** a comprender mejor cómo utilizan tu aplicación los usuarios más fieles.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como mejorar sus esfuerzos de marketing para las características que utilizan sus usuarios más fieles.</p><!-- This template uses the --> |
 
 ### Móvil: información de dispositivo móvil {#mobile-devices}
 
@@ -822,45 +825,170 @@ Las plantillas disponibles son las siguientes:
 | **Tipo de dispositivo móvil** | Vea los tipos de dispositivos móviles que usan los usuarios para acceder al sitio, como teléfonos y tabletas.<p>**Esto puede ayudarte** a comprender mejor los distintos tipos de dispositivos móviles que se usan para acceder al sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como optimizar el sitio para los tipos de dispositivos móviles que más se usan.</p><p>Esta plantilla utiliza la dimensión Tipo de dispositivo móvil.</p> |
 | **Fabricante** | Vea qué fabricantes producen los dispositivos móviles que usan los usuarios para acceder al sitio, como Apple y Samsung.<p>**Esto puede ayudarte** a entender mejor qué fabricantes son los más populares entre tu base de usuarios.</p><p>**En función de lo que aprendas, puedes** hacer cualquier cosa, como adaptar tu entrega de contenido en función de las capacidades de diferentes fabricantes para garantizar una experiencia de usuario sin problemas.</p><p>Esta plantilla utiliza la dimensión Fabricante móvil.</p> |
 
-### Partición de tiempo
+### Partición de tiempo {#time-parting}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--minuteOfHour"
+>title="Ver el número de eventos, sesiones y personas del sitio, desglosado por minuto. Por ejemplo, si tiene un informe con un periodo de tiempo de creación de informes de un solo día, el primer minuto de cada hora del día se agrupa en el mismo elemento de dimensión."
+>abstract="**Esto puede ayudarte** a entender mejor las tendencias a nivel granular.<br/>**En función de lo que aprenda, podría** hacer cualquier cosa, como optimizar recursos para las horas de mayor actividad, hasta el minuto.<br/>Esta plantilla usa la dimensión Minuto de hora."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--hourOfDay"
+>title="Ver eventos, sesiones y personas del sitio, desglosados por hora del día. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, la primera hora de cada día se agrupa en el mismo elemento de dimensión."
+>abstract="**Esto puede ayudarte** a comprender mejor a qué hora del día se visita el sitio con mayor frecuencia y menor frecuencia.<br/>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos informáticos al sitio durante las horas de mucho tráfico.<br/>Esta plantilla usa la dimensión Hora del día."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--am-pm"
+>title="Ver eventos, sesiones y personas del sitio, desglosados por AM y PM. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, las horas a.m. de cada día se agrupan en el mismo elemento de dimensión."
+>abstract="***Esto puede ayudarle** a comprender mejor la hora del día en que el sitio se visita con mayor frecuencia y menor frecuencia.<br/>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos informáticos al sitio durante las horas de mucho tráfico.<br/>Esta plantilla usa la dimensión AM/PM."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfWeek"
+>title="Ver eventos, sesiones y personas del sitio, desglosados por día de la semana. Por ejemplo, si tiene un informe que abarca el mes de enero, cada día de la semana se agrupa en el mismo elemento de dimensión."
+>abstract="**Esto puede ayudarte** a comprender mejor qué días de la semana se visitan con mayor frecuencia y con menor frecuencia en tu sitio.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.<br/>Esta plantilla usa la dimensión Día de la semana."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfMonth"
+>title="Ver eventos, sesiones y personas del sitio, desglosados por día del mes. Por ejemplo, si tiene un informe que abarca un año completo, cada día del mes se agrupa en el mismo elemento de dimensión."
+>abstract="**Esto puede ayudarte** a entender mejor qué días de cada mes se visitan con mayor frecuencia y con menor frecuencia en tu sitio.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.<br/>Esta plantilla usa la dimensión Día del mes."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfYear"
+>title="Vea eventos, sesiones y personas del sitio, desglosados por día del año. Por ejemplo, si tiene un informe que abarca varios años, cada día del año se agrupa en el mismo elemento de dimensión."
+>abstract="**Esto puede ayudarte** a comprender mejor qué días del año se visitan con mayor frecuencia y con menor frecuencia.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.<br/>Esta plantilla usa la dimensión Día del año."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--weekdayWeekend"
+>title="Ver eventos, sesiones y personas del sitio, desglosados por días entre semana y fines de semana. Por ejemplo, si tiene un informe que abarca el mes de enero, los días de la semana y los fines de semana se agrupan en elementos de dimensión independientes."
+>abstract="**Esto puede ayudarte** a comprender mejor las diferencias en el tráfico del sitio entre semana en comparación con los fines de semana.<br/>**Según lo que sepas, puedes** hacer muchas cosas, como trabajar en el centro de llamadas más intensamente los fines de semana, si el informe indica que los fines de semana son más ajetreados que los días laborables.<br/>Esta plantilla usa la dimensión Día de la semana/Fin de semana."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--weekOfYear"
+>title="Vea eventos, sesiones y personas del sitio, desglosados por semana del año. Por ejemplo, si tiene un informe que abarca varios años, cada semana se agrupa en el mismo elemento de dimensión."
+>abstract="**Esto puede ayudarte** a comprender mejor qué semanas del año tu sitio es el más visitado y el menos visitado.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para las semanas de mucho tráfico, por ejemplo durante los días festivos.<br/>Esta plantilla usa la dimensión Semana del año."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--monthOfYear"
+>title="Vea eventos, sesiones y personas del sitio, desglosados por mes del año. Por ejemplo, si tiene un informe que abarca varios años, cada mes se agrupa en el mismo elemento de dimensión."
+>abstract="**Esto puede ayudarte** a comprender mejor qué meses se visita el sitio con mayor frecuencia y con menor frecuencia.<br/>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los meses de mucho tráfico, como durante los días festivos.<br/>Esta plantilla usa la dimensión Mes del año."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--quarterOfYear"
+>title="Vea eventos, sesiones y personas del sitio, desglosados por trimestre del año. Por ejemplo, si tiene un informe que abarca varios años, cada trimestre se agrupa en el mismo elemento de dimensión."
+>abstract="**Esto puede ayudarte** a comprender mejor qué trimestres del sitio se visitan con mayor frecuencia y con menor frecuencia.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como tiempo para el lanzamiento de productos con el fin de impulsar trimestres con poco tráfico histórico.<br/>Esta plantilla usa la dimensión Trimestre del año."
+
+<!-- markdownlint-enable MD034 -->
 
 Las plantillas disponibles son las siguientes:
 
 | Nombre de plantilla | Por qué usar esta plantilla <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Minuto de la hora**] | Ver el número de eventos, sesiones y personas del sitio, desglosado por minuto. Por ejemplo, si tiene un informe con un periodo de tiempo de creación de informes de un solo día, el primer minuto de cada hora del día se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a entender mejor las tendencias a nivel granular.</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza la dimensión Minuto de hora. |
-| **Hora del día** | Ver eventos, sesiones y personas del sitio, desglosados por hora del día. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, la primera hora de cada día se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor a qué hora del día se visita el sitio con mayor frecuencia y menor frecuencia.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos informáticos al sitio durante las horas de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión Hora del día. |
-| **a. m./p. m.** | Ver eventos, sesiones y personas del sitio, desglosados por AM y PM. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, las horas a.m. de cada día se agrupan en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor a qué hora del día se visita el sitio con mayor frecuencia y menor frecuencia.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos informáticos al sitio durante las horas de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión AM/PM. |
-| **Día de la semana** | Ver eventos, sesiones y personas del sitio, desglosados por día de la semana. Por ejemplo, si tiene un informe que abarca el mes de enero, cada día de la semana se agrupa en el mismo elemento de dimensión. <p>**Esto puede ayudarte** a comprender mejor qué días de la semana se visitan con mayor frecuencia y con menor frecuencia en tu sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión Día de la semana. |
-| **Día del mes** | Ver eventos, sesiones y personas del sitio, desglosados por día del mes. Por ejemplo, si tiene un informe que abarca un año completo, cada día del mes se agrupa en el mismo elemento de dimensión. <p>**Esto puede ayudarte** a entender mejor qué días de cada mes se visitan con mayor frecuencia y con menor frecuencia en tu sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión Día del mes. |
-| **Día del año** | Vea eventos, sesiones y personas del sitio, desglosados por día del año. Por ejemplo, si tiene un informe que abarca varios años, cada día del año se agrupa en el mismo elemento de dimensión. <p>**Esto puede ayudarte** a comprender mejor qué días del año se visitan con mayor frecuencia y con menor frecuencia.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión Día del año. |
-| **Día de la semana/Fin de semana** | Ver eventos, sesiones y personas del sitio, desglosados por días entre semana y fines de semana. Por ejemplo, si tiene un informe que abarca el mes de enero, los días de la semana y los fines de semana se agrupan en elementos de dimensión independientes. <p>**Esto puede ayudarte** a comprender mejor las diferencias en el tráfico del sitio entre semana en comparación con los fines de semana.</p><p>**Según lo que sepas, puedes** hacer muchas cosas, como trabajar en el centro de llamadas más intensamente los fines de semana, si el informe indica que los fines de semana son más ajetreados que los días laborables.</p><p>Esta plantilla utiliza la dimensión Día de la semana/Fin de semana. |
-| **Semana del año** | Vea eventos, sesiones y personas del sitio, desglosados por semana del año. Por ejemplo, si tiene un informe que abarca varios años, cada semana se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor qué semanas del año tu sitio es el más visitado y el menos visitado.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para las semanas de mucho tráfico, por ejemplo durante los días festivos.</p><p>Esta plantilla utiliza la dimensión Semana del año. |
-| **Mes del año** | Vea eventos, sesiones y personas del sitio, desglosados por mes del año. Por ejemplo, si tiene un informe que abarca varios años, cada mes se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor qué meses se visita el sitio con mayor frecuencia y con menor frecuencia.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los meses de mucho tráfico, como durante los días festivos.</p><p>Esta plantilla utiliza la dimensión Mes del año. |
-| **Trimestre del año** | Vea eventos, sesiones y personas del sitio, desglosados por trimestre del año. Por ejemplo, si tiene un informe que abarca varios años, cada trimestre se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor qué trimestres del sitio se visitan con mayor frecuencia y con menor frecuencia.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como tiempo para el lanzamiento de productos con el fin de impulsar trimestres con poco tráfico histórico.</p><p>Esta plantilla utiliza la dimensión Trimestre del año. |
+| [!UICONTROL **Minuto de la hora**] | Ver el número de eventos, sesiones y personas del sitio, desglosado por minuto. Por ejemplo, si tiene un informe con un periodo de tiempo de creación de informes de un solo día, el primer minuto de cada hora del día se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a entender mejor las tendencias a nivel granular.</p><p>**En función de lo que aprenda, podría** hacer cualquier cosa, como optimizar recursos para las horas de mayor actividad, hasta el minuto.</p><p>Esta plantilla utiliza la dimensión Minuto de hora.</p> |
+| **Hora del día** | Ver eventos, sesiones y personas del sitio, desglosados por hora del día. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, la primera hora de cada día se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor a qué hora del día se visita el sitio con mayor frecuencia y menor frecuencia.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos informáticos al sitio durante las horas de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión Hora del día.</p> |
+| **a. m./p. m.** | Ver eventos, sesiones y personas del sitio, desglosados por AM y PM. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, las horas a.m. de cada día se agrupan en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor a qué hora del día se visita el sitio con mayor frecuencia y menor frecuencia.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos informáticos al sitio durante las horas de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión AM/PM.</p> |
+| **Día de la semana** | Ver eventos, sesiones y personas del sitio, desglosados por día de la semana. Por ejemplo, si tiene un informe que abarca el mes de enero, cada día de la semana se agrupa en el mismo elemento de dimensión. <p>**Esto puede ayudarte** a comprender mejor qué días de la semana se visitan con mayor frecuencia y con menor frecuencia en tu sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión Día de la semana.</p> |
+| **Día del mes** | Ver eventos, sesiones y personas del sitio, desglosados por día del mes. Por ejemplo, si tiene un informe que abarca un año completo, cada día del mes se agrupa en el mismo elemento de dimensión. <p>**Esto puede ayudarte** a entender mejor qué días de cada mes se visitan con mayor frecuencia y con menor frecuencia en tu sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión Día del mes.</p> |
+| **Día del año** | Vea eventos, sesiones y personas del sitio, desglosados por día del año. Por ejemplo, si tiene un informe que abarca varios años, cada día del año se agrupa en el mismo elemento de dimensión. <p>**Esto puede ayudarte** a comprender mejor qué días del año se visitan con mayor frecuencia y con menor frecuencia.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los días de mucho tráfico.</p><p>Esta plantilla utiliza la dimensión Día del año.&lt;/> |
+| **Día de la semana/Fin de semana** | Ver eventos, sesiones y personas del sitio, desglosados por días entre semana y fines de semana. Por ejemplo, si tiene un informe que abarca el mes de enero, los días de la semana y los fines de semana se agrupan en elementos de dimensión independientes. <p>**Esto puede ayudarte** a comprender mejor las diferencias en el tráfico del sitio entre semana en comparación con los fines de semana.</p><p>**Según lo que sepas, puedes** hacer muchas cosas, como trabajar en el centro de llamadas más intensamente los fines de semana, si el informe indica que los fines de semana son más ajetreados que los días laborables.</p><p>Esta plantilla utiliza la dimensión Día de la semana/Fin de semana.</p> |
+| **Semana del año** | Vea eventos, sesiones y personas del sitio, desglosados por semana del año. Por ejemplo, si tiene un informe que abarca varios años, cada semana se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor qué semanas del año tu sitio es el más visitado y el menos visitado.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para las semanas de mucho tráfico, por ejemplo durante los días festivos.</p><p>Esta plantilla utiliza la dimensión Semana del año.</p> |
+| **Mes del año** | Vea eventos, sesiones y personas del sitio, desglosados por mes del año. Por ejemplo, si tiene un informe que abarca varios años, cada mes se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor qué meses se visita el sitio con mayor frecuencia y con menor frecuencia.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como asignar personal a su centro de llamadas más apropiado para los meses de mucho tráfico, como durante los días festivos.</p><p>Esta plantilla utiliza la dimensión Mes del año.</p> |
+| **Trimestre del año** | Vea eventos, sesiones y personas del sitio, desglosados por trimestre del año. Por ejemplo, si tiene un informe que abarca varios años, cada trimestre se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarte** a comprender mejor qué trimestres del sitio se visitan con mayor frecuencia y con menor frecuencia.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como tiempo para el lanzamiento de productos con el fin de impulsar trimestres con poco tráfico histórico.</p><p>Esta plantilla utiliza la dimensión Trimestre del año.</p> |
 
-### Cross-Channel
+### Cross-Channel {#cross-channel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--multiChannelOverview"
+>title="Ver la distribución del tráfico en varios canales."
+>abstract="**Esto puede ayudarte** a comprender mejor qué canales están impulsando el tráfico y la participación con mayor éxito. <br/>**En función de lo que sepa, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en los canales que logren el mayor retorno de la inversión.<br/>Esta plantilla usa las métricas de usuario, sesión y evento."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--callCenterDeflection"
+>title="Ver cómo afecta el tráfico web al tráfico del centro de llamadas."
+>abstract="**Esto puede ayudarte** a comprender mejor el éxito con que el contenido de autoservicio de tu sitio web está desviando el tráfico a tu centro de llamadas.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el contenido de autoservicio para reducir el tráfico al centro de llamadas o medir el retorno de la inversión del contenido de autoservicio calculando la cantidad ahorrada mediante menos llamadas de soporte.<br/>Esta plantilla usa las métricas Sesiones web, Sesiones de aplicación móvil y Sesiones en canales múltiples de Web+App."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--webAppTemplate"
+>title="Ver tráfico web y tráfico móvil juntos."
+>abstract="**Esto puede ayudarte** a comprender mejor la distribución del tráfico web y móvil al sitio.<br/>**Según lo que hayas aprendido, podrías** hacer muchas cosas, como dedicar más recursos a tu experiencia de aplicación móvil cuando llega a un cierto nivel de tráfico.<br/>Esta plantilla usa las métricas Sesiones web, Sesiones de aplicación móvil y Sesiones en canales múltiples de Web+App."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--onlineOffline"
+>title="Ver juntos el tráfico en línea y sin conexión."
+>abstract="**Esto puede ayudarte** a entender mejor la distribución del tráfico en línea y sin conexión a tu sitio.<br/>**En función de lo que aprendas, puedes** hacer muchas cosas, como dedicar más recursos a tu experiencia en línea cuando llega a cierto nivel de tráfico."
+
+<!-- markdownlint-enable MD034 -->
 
 Las plantillas disponibles son las siguientes:
 
 | Nombre de plantilla | Por qué usar esta plantilla <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Información general de varios canales**] | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Comparación entre canales** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Desviación del centro de llamadas (Web+Centro de llamadas)** | Ver cómo afecta el tráfico web al tráfico del centro de llamadas.<p>**Esto puede ayudarte** a comprender mejor el éxito con que el contenido de autoservicio de tu sitio web está desviando el tráfico a tu centro de llamadas.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el contenido de autoservicio para reducir el tráfico al centro de llamadas o medir el retorno de la inversión del contenido de autoservicio calculando la cantidad ahorrada mediante menos llamadas de soporte.</p><p>Esta plantilla utiliza el |
-| **Web+aplicación** | Ver tráfico web y tráfico móvil juntos.<p>**Esto puede ayudarte** a comprender mejor la distribución del tráfico web y móvil al sitio.</p><p>**Según lo que hayas aprendido, podrías** hacer muchas cosas, como dedicar más recursos a tu experiencia de aplicación móvil cuando llega a un cierto nivel de tráfico.</p><p>Esta plantilla utiliza el |
-| **En línea/Sin conexión** | Ver juntos el tráfico en línea y sin conexión.<p>**Esto puede ayudarte** a entender mejor la distribución del tráfico en línea y sin conexión a tu sitio.</p><p>**En función de lo que aprendas, puedes** hacer muchas cosas, como dedicar más recursos a tu experiencia en línea cuando llega a cierto nivel de tráfico.</p><p>Esta plantilla utiliza el |
+| [!UICONTROL **Información general de varios canales**] | Ver la distribución del tráfico en varios canales. <p>**Esto puede ayudarte** a comprender mejor qué canales están impulsando el tráfico y la participación con mayor éxito. </p><p>**En función de lo que sepa, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en los canales que logren el mayor retorno de la inversión.</p><p>Esta plantilla utiliza las métricas de usuario, sesión y evento.</p> |
+| **Desviación del centro de llamadas (Web+Centro de llamadas)** | Ver cómo afecta el tráfico web al tráfico del centro de llamadas.<p>**Esto puede ayudarte** a comprender mejor el éxito con que el contenido de autoservicio de tu sitio web está desviando el tráfico a tu centro de llamadas.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el contenido de autoservicio para reducir el tráfico al centro de llamadas o medir el retorno de la inversión del contenido de autoservicio calculando la cantidad ahorrada mediante menos llamadas de soporte.</p><p>Esta plantilla utiliza las métricas Sesiones web, Sesiones de aplicación móvil y Sesiones multicanal Web+App.</p> |
+| **Web+aplicación** | Ver tráfico web y tráfico móvil juntos.<p>**Esto puede ayudarte** a comprender mejor la distribución del tráfico web y móvil al sitio.</p><p>**Según lo que hayas aprendido, podrías** hacer muchas cosas, como dedicar más recursos a tu experiencia de aplicación móvil cuando llega a un cierto nivel de tráfico.</p><p>Esta plantilla utiliza las métricas Sesiones web, Sesiones de aplicación móvil y Sesiones multicanal Web+App.</p> |
+| **En línea/Sin conexión** | Ver juntos el tráfico en línea y sin conexión.<p>**Esto puede ayudarte** a entender mejor la distribución del tráfico en línea y sin conexión a tu sitio.</p><p>**En función de lo que aprendas, puedes** hacer muchas cosas, como dedicar más recursos a tu experiencia en línea cuando llega a cierto nivel de tráfico.</p><!-- This template uses the ... --> |
 
-### Otros canales
+### Otros canales {#other-channels}
 
 Las plantillas disponibles son las siguientes:
 
 | Nombre de plantilla | Por qué usar esta plantilla <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
 | [!UICONTROL **Panel del centro de llamadas**] | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **POS/Sin conexión** | Ver datos de transacciones sin conexión y puntos de venta (TPV).<p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
+| **POS/Sin conexión** | Ver datos de transacciones del punto de venta (TPV), incluidos los ingresos obtenidos, los pedidos realizados y las unidades vendidas. Esta plantilla también incluye visualizaciones que muestran información sobre las principales tiendas, los principales productos y las principales categorías de productos, así como las ventas en línea frente a las ventas sin conexión. <p>**Esto puede ayudarte** a comprender mejor cuáles son tus productos más vendidos en la tienda y en línea.</p><p>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos de marketing a los productos y canales de mayor rendimiento.</p><p>Esta plantilla utiliza las métricas Usuarios, Ingresos y Pedidos.</p> |
 | **Correo electrónico/AJO** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
-| **Encuesta** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el |
+| **Encuesta** | Vea la participación del usuario en sus encuestas. Vea el número de inicios y finalizaciones, las preguntas y respuestas principales y el número de participantes primeros frente a repetidos.<p>**Esto puede ayudarte** a comprender mejor los niveles de participación y la tasa de éxito de tus encuestas.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ajustar encuestas futuras para obtener una mejor participación.</p><p>Esta plantilla utiliza las métricas Usuarios, Eventos, Inicios de encuesta, Finalizaciones de encuesta y Tasa de finalización de encuesta.</p> |
 
 ### AJO {#AJO-templates}
 
@@ -868,8 +996,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-campaign"
->title="Campañas de AJO"
->abstract=""
+>title="Vea métricas esenciales para sus campañas de Journey Optimizer, incluidas campañas de correo electrónico, experimentación, en la aplicación, SMS y más."
+>abstract="**Esto puede ayudarle** a comprender mejor detalles como el recuento de clics y la cantidad de mensajes enviados, lo que ofrece una perspectiva completa de la eficacia y el nivel de participación de su campaña.<br/>**En función de lo que aprendas, puedes** hacer cualquier cosa, como ajustar tus campañas en función de los niveles de participación de tu audiencia objetivo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -877,8 +1005,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-journey"
->title="Recorridos de AJO"
->abstract=""
+>title="Vea métricas esenciales para sus recorridos de Journey Optimizer, incluidos recorridos de correo electrónico, experimentación, en la aplicación, SMS y más."
+>abstract="**Esto puede ayudarle** a comprender mejor detalles como el recuento de clics y la cantidad de mensajes enviados, lo que ofrece una perspectiva completa de la efectividad y el nivel de participación de su recorrido.<br/>**En función de lo que aprendas, puedes** hacer cualquier cosa, como ajustar tus campañas en función de los niveles de participación de tu audiencia objetivo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -886,8 +1014,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-landing-page"
->title="Páginas de aterrizaje de AJO"
->abstract=""
+>title="Vea el comportamiento del usuario, los patrones de participación, las tasas de conversión y otras métricas clave."
+>abstract="**Esto puede ayudarte** a comprender mejor la efectividad de tu página de aterrizaje. <br/>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el rendimiento de su página de aterrizaje."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -895,8 +1023,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-channel"
->title="Informe de información general de AJO"
->abstract=""
+>title="Vea un resumen completo de las métricas de tráfico y participación para todas las campañas y recorridos dentro de su entorno."
+>abstract="**Esto puede ayudarte** a comprender mejor la efectividad de alto nivel de tus campañas y recorridos. <br/>**En función de lo que aprendas, puedes** hacer cualquier cosa, como ajustar tus campañas y recorridos según los niveles de participación de tu audiencia objetivo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -904,8 +1032,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-subscription"
->title="Suscripciones a AJO"
->abstract=""
+>title="Ver las suscripciones y bajas de suscripción de perfiles asociadas a listas concretas."
+>abstract="**Esto puede ayudarte** a comprender mejor la efectividad de las diferentes campañas e iniciativas de suscripción para impulsar la participación y las conversiones.<br/>**En función de lo que sepas, puedes** hacer muchas cosas, como ajustar tus campañas de suscripción en función de los niveles de participación de la audiencia objetivo."
 
 <!-- markdownlint-enable MD034 -->
 
