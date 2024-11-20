@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: a5425eccff643cd45fd630172b0113e646b2a9cc
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -50,11 +50,11 @@ ht-degree: 92%
       + [Comprender la implementación de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [Creación de conjuntos de datos de búsqueda para clasificaciones](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [Monitorizar ingesta de conjuntos de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + [Crear un campo derivado de canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
+      + [Creación de un campo derivado de canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Implementación de la etiqueta de carga para la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
-      + [Cree una etiqueta para su propiedad](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
-      + [Añadir la extensión del SDK web a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
-      + [Añadir la lógica de recopilación de datos XDM a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
+      + [Creación de una etiqueta para su propiedad](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
+      + [Adición de la extensión del SDK web a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+      + [Adición de la lógica de recopilación de datos XDM a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [Diseña tu esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [Crea tu etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [Usa el esquema existente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
@@ -66,8 +66,8 @@ ht-degree: 92%
       + [Valida el flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [Método abreviado de actualización: migrar a SDK web](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
       + [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
-      + [Creación del conector de origen de Analytics y campos de asignación](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
-      + [Añadir el conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+      + [Creación del conector de origen de Analytics y asignación de campos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+      + [Adición del conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [Usar el conector de origen de Analytics exclusivamente](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
       + [Cambio del conector de origen de Analytics al SDK web](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
