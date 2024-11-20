@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4216'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | --- | --- |
 | **Noviembre de 2024** | |
 | Casos de uso de extensión de BI | Documentación de varios [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para herramientas de BI como Power BI Desktop y Tableau Desktop. |
-| Vinculación y solicitudes de privacidad | Se agregó un aviso sobre [próximos cambios en el proceso de desvinculación](/help/stitching/faq.md#frequently-asked-questions) que son el resultado de solicitudes de privacidad. |
+| Vinculación y solicitudes de privacidad | Se ha añadido un aviso sobre [próximos cambios en el proceso de desvinculación](/help/stitching/faq.md#frequently-asked-questions) que son el resultado de solicitudes de privacidad. |
 | **Octubre de 2024** | |
 | Dispositivos compartidos | Se ha añadido un [artículo de caso de uso](/help/use-cases/stitching/shared-devices.md) que proporciona contexto en dispositivos compartidos, cómo manejar y mitigar datos de dispositivos compartidos mediante la identificación y comprender la exposición de dispositivos compartidos en sus datos mediante el Servicio de consultas. |
 | Nueva información sobre Factores de solicitud en el rendimiento de Analysis Workspace | Una nueva sección [Factores de solicitud](/help/technotes/optimizing-performance.md#request-factors) del artículo [Optimizar rendimiento de Analysis Workspace](/help/technotes/optimizing-performance.md) explica cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento. |

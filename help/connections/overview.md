@@ -6,9 +6,9 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
 source-git-commit: 2f78905c2a1e94174a52269becc15474baf59f71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -24,20 +24,20 @@ A continuación, se muestra un vídeo introductorio:
 
 ## Permisos necesarios
 
-Para crear una conexión de Customer Journey Analytics, necesita los siguientes permisos. Para obtener más información sobre los permisos, consulte la documentación de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) y [Permisos de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).
+Para crear una conexión de Customer Journey Analytics, necesita los siguientes permisos: Para obtener más información sobre los permisos, consulte la documentación de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) y los [permisos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home).
 
 ### En Adobe Admin Console:
 
-* Customer Journey Analytics: Product Admin
-* Adobe Experience Platform: Se agregó al perfil de producto denominado *AEP-Default-All-Users*
+* Customer Journey Analytics: Administrador de productos
+* Adobe Experience Platform: se ha añadido al perfil de producto denominado *AEP-Default-All-Users*
 
-### Dentro de los permisos de Adobe Experience Platform:
+### En los permisos de Adobe Experience Platform:
 
 * Modelado de datos: Esquemas de vista, Administrar esquemas
 * Administración de datos: Ver conjuntos de datos, Administrar conjuntos de datos
 * Ingesta de datos: Administrar fuentes
-* Identity Management: Ver áreas de nombres de identidad
-* Zonas protegidas: Zonas protegidas utilizadas en conexiones de Customer Journey Analytics relacionadas
+* Identity Management: ver áreas de nombres de identidad
+* Zonas protegidas: zonas protegidas utilizadas en conexiones de Customer Journey Analytics relacionadas
 
 >[!IMPORTANT]
 >
