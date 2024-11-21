@@ -3,10 +3,11 @@ description: Cómo realizar preguntas de análisis de datos acerca de la documen
 title: Data Analysis AI Assistant en Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
+feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: cc743d74a98dae9029654add65d3e685320fe9f3
+source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
 workflow-type: tm+mt
 source-wordcount: '1637'
 ht-degree: 3%
@@ -150,7 +151,7 @@ Estos son algunos ejemplos de indicadores comunes y de la visualización que uti
 
 ## Impulso de las prácticas recomendadas
 
-El asistente de IA procesa el contexto proporcionado por cada mensaje de usuario e intenta responder de forma inteligente con la visualización más adecuada, así como con los componentes de una tabla de forma libre. Sin embargo, la respuesta del asistente de IA puede variar en función de las palabras y frases específicas utilizadas en un mensaje, de modo que los ligeros cambios de idioma pueden dar lugar a resultados diferentes. A continuación se indica cómo aprovecharlo al máximo: <ul><li>Sea específico: incluya términos exactos (como &quot;ventas del mes pasado en California&quot;) para reducir la respuesta.</li><li>Usar métricas y filtros claros: al agregar métricas específicas (como &quot;Ingresos&quot;), dimensiones (por ejemplo, &quot;nombre del sitio web&quot;), filtros (por ejemplo, &quot;usuarios de iPhone&quot;) e intervalos de fechas (por ejemplo, &quot;últimos tres meses&quot;), el asistente de IA se centra en los datos correctos.</li><li>Formulación de preguntas directas: preguntas directas, como &quot;¿Cuál es el ingreso promedio por categoría de producto este año?&quot; facilita que el asistente de IA proporcione perspectivas claras y relevantes.</li></ul>
+El asistente de IA procesa el contexto proporcionado por cada mensaje de usuario e intenta responder de forma inteligente con la visualización más adecuada, así como con los componentes de una tabla de forma libre. Sin embargo, la respuesta del asistente de IA puede variar en función de las palabras y frases específicas utilizadas en un mensaje, de modo que los ligeros cambios de idioma pueden dar lugar a resultados diferentes. A continuación se muestra cómo aprovechar al máximo: <ul><li>Sea específico: incluya términos exactos (como &quot;ventas del mes pasado en California&quot;) para reducir la respuesta.</li><li>Usar métricas y filtros claros: al agregar métricas específicas (como &quot;Ingresos&quot;), dimensiones (por ejemplo, &quot;nombre del sitio web&quot;), filtros (por ejemplo, &quot;usuarios de iPhone&quot;) e intervalos de fechas (por ejemplo, &quot;últimos tres meses&quot;), el asistente de IA se centra en los datos correctos.</li><li>Formulación de preguntas directas: preguntas directas, como &quot;¿Cuál es el ingreso promedio por categoría de producto este año?&quot; facilita que el asistente de IA proporcione perspectivas claras y relevantes.</li></ul>
 
 Consulte la siguiente tabla de términos y frases de ejemplo que puede utilizar en las solicitudes con visualización de datos en el asistente de IA, junto con los tipos de respuesta que puede esperar. Estos ejemplos están diseñados para ayudarle a familiarizarse con cómo palabras o estructuras específicas pueden influir en la salida del asistente de IA, lo que garantiza perspectivas más precisas y valiosas. Tenga en cuenta que el asistente de IA utiliza IA generativa, por lo que las visualizaciones de los datos seleccionados pueden variar ligeramente en indicaciones similares.
 

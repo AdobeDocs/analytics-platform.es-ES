@@ -3,8 +3,9 @@ description: Cómo hacer preguntas sobre la documentación de Customer Journey A
 title: Asistente de IA para Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
+feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: dae2282717d5d84862259d5b056fbfeb2d068cce
+source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 2%
