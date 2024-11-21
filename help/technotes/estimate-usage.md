@@ -4,10 +4,10 @@ description: Muestra dos métodos para calcular el uso y uno para administrarlo.
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 400dc032be5d491cade84b0e98d88ff8a5949a2f
+source-git-commit: 191d1b7a4b851e93a44487dad4794709cbbd0374
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 69%
+source-wordcount: '856'
+ht-degree: 68%
 
 ---
 
@@ -29,10 +29,6 @@ Para administrar el uso del Customer Journey Analytics:
 ## Cálculo del tamaño de la conexión {#estimate-size}
 
 Es posible que necesite saber cuántas filas de datos de evento tiene actualmente en [!UICONTROL Customer Journey Analytics]. Para obtener una cuenta precisa del uso de los registros de datos de evento (filas de datos) de su organización, haga lo siguiente **para cada una de las conexiones creadas por su organización**.
-
->[!NOTE]
->
->Hágalo el primer viernes de cada mes, ya que Adobe ejecuta su último informe de uso ese día.
 
 1. En [!UICONTROL Customer Journey Analytics], haga clic en la pestaña **[!UICONTROL Conexiones]**.
 
