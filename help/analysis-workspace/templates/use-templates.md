@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 1345981ac78272935ffa8bfc50de8c41223a132f
+source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
 workflow-type: tm+mt
-source-wordcount: '15295'
+source-wordcount: '15373'
 ht-degree: 58%
 
 ---
@@ -33,9 +33,17 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
 1. En Analysis Workspace, seleccione la pestaña [!UICONTROL **Espacio de trabajo**].
 
-1. Seleccione [!UICONTROL **Plantillas**].
+   ![Fichas de plantillas](assets/view-prebuilt-templates.png)
 
-   ![Pestaña de informes](assets/view-prebuilt-reports.png)
+1. En la sección [!UICONTROL **Plantillas**], seleccione cualquiera de las siguientes fichas:
+
+   * **[!UICONTROL plantillas de Adobe]**: muestra todas las plantillas proporcionadas por Adobe.
+
+   * **[!UICONTROL _login_company_name _templates]**: Muestra todas las plantillas de empresa que se han creado para en su organización.
+
+     Solo un administrador puede crear plantillas de empresa.
+
+1. Elija si desea ver las plantillas en una vista de columna o en una vista de tarjeta seleccionando la vista de columna ![icono de vista de columna](assets/column-view-icon.png) o un icono de vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png).
 
 1. En el campo de búsqueda, empiece a escribir el nombre de la plantilla que desea buscar y, a continuación, selecciónela en la lista de plantillas.
 
@@ -61,19 +69,19 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
 1. Seleccione la plantilla para crear un informe basado en la plantilla elegida.
 
-## Personalizar y guardar una plantilla {#use-reports}
+## Creación de un proyecto basado en una plantilla {#use-reports}
 
-Puede que una plantilla no se ajuste exactamente a sus necesidades, pero puede acercarle. En estos casos, puede utilizar la plantilla como punto de partida y, a continuación, personalizarla para adaptarla mejor a sus fines específicos.
+Puede que una plantilla no se ajuste exactamente a sus necesidades, pero puede acercarle. En estos casos, puede utilizar la plantilla como punto de partida para el proyecto y, a continuación, personalizarla para adaptarla mejor a sus fines específicos.
 
 Si se aleja de una plantilla después de realizar cambios, se le pedirá que guarde o descarte los cambios. Al guardar los cambios en una plantilla, se guarda la plantilla como un nuevo proyecto.
 
-Para personalizar y guardar una plantilla:
+Para personalizar una plantilla y guardarla como proyecto:
 
 1. En Adobe Analytics, seleccione la pestaña [!UICONTROL **Espacio de trabajo**].
 
 1. Seleccione la ficha [!UICONTROL **Plantillas**].
 
-1. Seleccione la plantilla que desee ver. Por ejemplo, en [!UICONTROL **El más popular**], seleccione el informe [!UICONTROL **Páginas**].
+1. Seleccione la plantilla que desee ver. Por ejemplo, en [!UICONTROL **Más popular**], seleccione la plantilla [!UICONTROL **Páginas**].
 
    La plantilla Páginas, tal como se muestra en Analysis Workspace, muestra dos [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Gráfico de barras](/help/analysis-workspace/visualizations/bar.md) y [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)) y una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). La métrica utilizada es Ocurrencias.
 
@@ -82,7 +90,7 @@ Para personalizar y guardar una plantilla:
 1. Realice una de las siguientes acciones:
 
    * Vea la plantilla.
-   * Puede arrastrar uno o más segmentos a la zona de colocación de Segmento en la parte superior. Por ejemplo, arrastre el segmento [!UICONTROL **Clientes móviles**] y vea los resultados.
+   * Arrastre uno o varios filtros a la zona desplegable Filtro en la parte superior. Por ejemplo, arrastre el filtro [!UICONTROL **Clientes móviles**] y vea los resultados.
    * Para cambiar el intervalo de fecha, vaya al calendario en la parte superior derecha.
    * Añada desgloses de dimensión, arrastre otras métricas y, por lo general, personalice la plantilla para adaptarla a sus necesidades.
 
