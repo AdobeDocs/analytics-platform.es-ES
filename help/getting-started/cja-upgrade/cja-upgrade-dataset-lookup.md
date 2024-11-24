@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 2%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Al utilizar el conector de origen de Analytics, algunos conjuntos de datos de b�
 
 Para clasificar los datos en Customer Journey Analytics al utilizar el SDK web de Experience Platform, debe crear un esquema XDM y un conjunto de datos de búsqueda para cada dimensión que contenga datos que desee clasificar.
 
-## Creación de un esquema XDM
+## Crear un esquema XDM para utilizarlo con el conjunto de datos de consulta
 
 Cree un nuevo esquema XDM para cada dimensión que contenga datos que desee clasificar en Customer Journey Analytics. Cuando cree el conjunto de datos de búsqueda en un paso posterior, hará referencia a este esquema.
 
@@ -120,9 +120,9 @@ Para agregar el conjunto de datos de búsqueda a la conexión en Customer Journe
 
 1. Seleccione **[!UICONTROL Agregar conjuntos de datos]** y luego seleccione **[!UICONTROL Guardar]**.
 
+   <!-- is there a step right in between here where you select the dataset -->
+
 1. Usando el campo **[!UICONTROL Clave]** y el campo **[!UICONTROL Clave coincidente]**, cree una correlación entre el campo del conjunto de datos de búsqueda y el del conjunto de datos de resumen o evento.
 
 1. Una vez que todos los conjuntos de datos de búsqueda se hayan agregado a su conexión en Customer Journey Analytics, continúe siguiendo los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
-
-1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
 

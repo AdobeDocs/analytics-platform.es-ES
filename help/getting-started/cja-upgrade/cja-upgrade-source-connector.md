@@ -1,5 +1,5 @@
 ---
-title: Creación del conector de origen de Analytics y campos de asignación
+title: Creación del conector de origen de Analytics y asignación de campos
 description: Obtenga información sobre cómo crear el conector de origen de Analytics y asignar campos
 role: Admin
 solution: Customer Journey Analytics
@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 2%
+source-wordcount: '689'
+ht-degree: 8%
 
 ---
 
-# Creación del conector de origen de Analytics y campos de asignación
+# Creación del conector de origen de Analytics y asignación de campos
 
 >[!NOTE]
 > 
@@ -32,11 +32,15 @@ Para utilizar el conector de origen de Analytics para llevar los datos históric
 
 1. [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. Cree el conector de origen de Analytics y asigne los campos como se describe a continuación.
+1. Si aún no tiene un conector de origen de Analytics, cree el conector de origen de Analytics y asigne campos de al esquema XDM, como se describe a continuación.
 
-1. [Añadir el conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+   O
 
-## Creación del conector de origen de Analytics y campos de asignación
+   Si ya tiene un conector de origen de Analytics, [asigne campos del conector de origen al esquema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+
+1. [Adición del conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+
+## Creación del conector de origen de Analytics y asignación de campos
 
 Con el esquema XDM creado, debe crear el conector de origen de Adobe Analytics para utilizarlo con los datos históricos. (Para obtener instrucciones generales más completas sobre cómo crear un conector de origen, consulte [Crear una conexión de origen de Adobe Analytics en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es)).
 
@@ -69,6 +73,8 @@ Para crear un conector de origen de Adobe Analytics para utilizarlo con datos hi
    ![asignar campos de esquema](assets/schema-mapping.png)
 
    1. En el **[!UICONTROL campo Source]**, seleccione un campo Adobe Analytics del grupo de campos Plantilla de Adobe Analytics ExperienceEvent. A continuación, en el **[!UICONTROL campo de destino]**, seleccione el campo XDM al que desea asignarlo.
+
+      No todos los campos de Adobe Analytics tienen un campo correspondiente en XDM debido a las diferencias de arquitectura inherentes entre AppMeasurement y XDM.
 
    1. Repita este proceso para cada campo del grupo de campos Plantilla de Adobe Analytics ExperienceEvent que esté utilizando para recopilar datos en Adobe Analytics.
 

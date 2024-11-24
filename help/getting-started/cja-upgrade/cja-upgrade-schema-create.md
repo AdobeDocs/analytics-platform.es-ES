@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: ce19cf00d70220b6d7dcdfaeb1d4c9ec5c14e5dd
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1073'
 ht-degree: 48%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 48%
 >
 >Antes de empezar a crear el esquema XDM, trabaje con su equipo de datos y otras partes interesadas de toda la organización para identificar el diseño de esquema ideal de su organización para Customer Journey Analytics y las demás aplicaciones de Adobe Experience Platform que utilice. Para obtener más información, vea [Arquitectar su esquema para utilizarlo con el Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
-Adobe recomienda crear un esquema del Modelo de datos de experiencia (XDM) al actualizar a Customer Journey Analytics. Un esquema XDM permite un esquema optimizado que se adapta a las necesidades de su organización y a las aplicaciones de Platform específicas que utiliza. Cuando es necesario realizar cambios en el esquema, no es necesario rebuscar entre miles de campos no utilizados para encontrar el campo que requiere actualización.
+Adobe recomienda crear un esquema de modelo de datos de experiencia (XDM) personalizado al actualizar a Customer Journey Analytics. Un esquema personalizado permite un esquema optimizado que se adapta a las necesidades de su organización y a las aplicaciones de Platform específicas que utiliza. Cuando es necesario realizar cambios en el esquema, no es necesario rebuscar entre miles de campos no utilizados para encontrar el campo que requiere actualización.
 
 ## Creación del esquema
 
 El esquema XDM definido representa el modelo de los datos que recopila en Adobe Experience Platform.
 
-Para crear un esquema:
+Para crear un esquema personalizado:
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
