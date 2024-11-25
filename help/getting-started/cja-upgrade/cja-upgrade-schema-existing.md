@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 54%
+source-wordcount: '389'
+ht-degree: 49%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 54%
 
 <!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-Al actualizar a Customer Journey Analytics, Adobe recomienda crear un nuevo esquema XDM para alinearlo mejor con las necesidades de su organización a medida que empiece a utilizar otros servicios de Platform. También puede elegir utilizar el esquema de Adobe Analytics existente.
+Al actualizar a Customer Journey Analytics, Adobe recomienda crear un esquema de modelo de datos de experiencia (XDM) personalizado para que se ajuste mejor a las necesidades de su organización a medida que comienza a utilizar otros servicios de Platform. También puede elegir utilizar el esquema de Adobe Analytics existente.
 
 Considere las ventajas y desventajas de cada uno.
 
-## Cree un esquema XDM adaptado a su organización (recomendado)
+## Crear un esquema personalizado adaptado a su organización (recomendado)
 
-Adobe recomienda crear un nuevo esquema XDM al actualizar a Customer Journey Analytics.
+Adobe recomienda crear un esquema personalizado al actualizar a Customer Journey Analytics.
 
 | Ventajas | Desventajas |
 |----------|---------|
-| <ul><p>Las ventajas de actualizar a su propio esquema XDM son:</p><ul><li>Un esquema optimizado que se adapta a las necesidades de su organización y a las aplicaciones de Platform específicas que utiliza.</li><p>Cuando es necesario realizar cambios en el esquema, no es necesario rebuscar entre miles de campos no utilizados para encontrar el campo que requiere actualización.</p></ul> | <p>Las desventajas de actualizar a su propio esquema XDM son:</p><ul><li>La actualización del esquema es un proceso laborioso que es necesario realizar antes de empezar a enviar datos a Platform.</li></ul> |
+| <ul><p>Las ventajas de actualizar a su propio esquema personalizado incluyen:</p><ul><li>Un esquema optimizado que se adapta a las necesidades de su organización y a las aplicaciones de Platform específicas que utiliza.</li><p>Cuando es necesario realizar cambios en el esquema, no es necesario rebuscar entre miles de campos no utilizados para encontrar el campo que requiere actualización.</p></ul> | <p>Las desventajas de actualizar a su propio esquema personalizado incluyen:</p><ul><li>La actualización del esquema es un proceso laborioso que es necesario realizar antes de empezar a enviar datos a Platform.</li></ul> |
 
 ## Usar el esquema de Adobe Analytics existente
 

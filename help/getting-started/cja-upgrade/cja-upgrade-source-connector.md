@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 8%
+source-wordcount: '700'
+ht-degree: 7%
 
 ---
 
@@ -26,23 +26,23 @@ ht-degree: 8%
 
 Puede utilizar el conector de origen de Analytics para incorporar datos del grupo de informes de Adobe Analytics a Adobe Experience Platform. Estos datos se pueden utilizar como datos históricos en Customer Journey Analytics.
 
-Este proceso supone que desea [crear un esquema XDM al actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones específicas de Platform que utiliza.
+Este proceso supone que desea [crear un esquema personalizado para utilizarlo con la implementación del SDK web de Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones específicas de Platform que utiliza.
 
 Para utilizar el conector de origen de Analytics para llevar los datos históricos a Customer Journey Analytics, debe:
 
-1. [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [Creación de un esquema personalizado para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. Si aún no tiene un conector de origen de Analytics, cree el conector de origen de Analytics y asigne campos de al esquema XDM, como se describe a continuación.
+1. Si aún no tiene un conector de origen de Analytics, cree el conector de origen de Analytics y asigne campos de al esquema del SDK web personalizado, como se describe a continuación.
 
    O
 
-   Si ya tiene un conector de origen de Analytics, [asigne campos del conector de origen al esquema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   Si ya tiene un conector de origen de Analytics, [asigne campos del conector de origen al esquema personalizado del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. [Adición del conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
 ## Creación del conector de origen de Analytics y asignación de campos
 
-Con el esquema XDM creado, debe crear el conector de origen de Adobe Analytics para utilizarlo con los datos históricos. (Para obtener instrucciones generales más completas sobre cómo crear un conector de origen, consulte [Crear una conexión de origen de Adobe Analytics en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es)).
+Con el esquema personalizado creado, debe crear el conector de origen de Adobe Analytics para utilizarlo con los datos históricos. (Para obtener instrucciones generales más completas sobre cómo crear un conector de origen, consulte [Crear una conexión de origen de Adobe Analytics en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es)).
 
 Para crear un conector de origen de Adobe Analytics para utilizarlo con datos históricos:
 
@@ -60,11 +60,11 @@ Para crear un conector de origen de Adobe Analytics para utilizarlo con datos hi
 
 1. Seleccione **[!UICONTROL Siguiente]** en la esquina superior derecha de la pantalla.
 
-1. Seleccione **[!UICONTROL Esquema personalizado]** y, a continuación, seleccione el esquema que creó en [Crear un esquema XDM que incluya el grupo de campos Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md). <!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
+1. Seleccione **[!UICONTROL Esquema personalizado]** y, a continuación, seleccione el esquema que creó en [Crear un esquema personalizado que incluya el grupo de campos de Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md). <!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
 
    <!-- add screenshot -->
 
-1. Asigne cada dimensión de Adobe Analytics a una dimensión de esquema XDM personalizada.
+1. Asigne cada dimensión de Adobe Analytics a una dimensión de esquema personalizada.
 
    1. En la sección **[!UICONTROL Asignar campos estándar]**, seleccione la pestaña **[!UICONTROL Personalizado]**.
 
@@ -72,7 +72,7 @@ Para crear un conector de origen de Adobe Analytics para utilizarlo con datos hi
 
    ![asignar campos de esquema](assets/schema-mapping.png)
 
-   1. En el **[!UICONTROL campo Source]**, seleccione un campo Adobe Analytics del grupo de campos Plantilla de Adobe Analytics ExperienceEvent. A continuación, en el **[!UICONTROL campo de destino]**, seleccione el campo XDM al que desea asignarlo.
+   1. En el **[!UICONTROL campo Source]**, seleccione un campo Adobe Analytics del grupo de campos Plantilla de Adobe Analytics ExperienceEvent. A continuación, en el **[!UICONTROL campo de destino]**, seleccione el campo personalizado en el esquema XDM al que desea asignarlo.
 
       No todos los campos de Adobe Analytics tienen un campo correspondiente en XDM debido a las diferencias de arquitectura inherentes entre AppMeasurement y XDM.
 
