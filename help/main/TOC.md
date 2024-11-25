@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 97%
       + [Proceso recomendado](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + [Comprender la implementación de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [Creación de conjuntos de datos de búsqueda para clasificaciones](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
-      + [Monitorizar ingesta de conjuntos de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
+      + [Monitorización de la ingesta de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
       + [Creación de un campo derivado de canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Implementación de la etiqueta de carga para la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
       + [Creación de una etiqueta para su propiedad](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
@@ -68,8 +68,8 @@ ht-degree: 97%
       + [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
       + [Creación del conector de origen de Analytics y asignación de campos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
       + [Adición del conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
-      + [Usar el conector de origen de Analytics exclusivamente](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
-      + [Cambio del conector de origen de Analytics al SDK web](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
+      + [Uso del conector de origen de Analytics de manera exclusiva](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
+      + [Movimiento desde el conector de origen de Analytics al SDK web](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
       + [Deshabilitar la recopilación de datos de AppMeasurement](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
       + [Información general](../getting-started/aa-vs-cja/overview.md)
