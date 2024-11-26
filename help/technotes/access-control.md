@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: 354bdb440e36dc990f54d887908f9fb9c0a50110
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 15%
+source-wordcount: '1549'
+ht-degree: 14%
 
 ---
 
@@ -65,6 +65,16 @@ Además de agregarse como administrador de productos en el **Perfil de productos
   | [!UICONTROL Identity Management] | [!UICONTROL Ver áreas de nombres de identidad] | Acceso de solo lectura para áreas de nombres de identidad. |
 
   Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
+
+
+* Si Adobe Journey Optimizer se ha integrado con CJA donde existen conexiones de AJO, también se deben añadir permisos de Recorrido para acceder a las conexiones:
+
+  | Categoría | Permiso | Descripción |
+  |---|---|---|
+  | [!UICONTROL Recorridos] | [!UICONTROL Ver eventos, fuentes de datos y acciones de Recorridos] | Acceso de solo lectura a eventos de recorrido, acciones personalizadas de recorrido y fuentes de datos de recorrido. |
+  | [!UICONTROL Recorridos] | [!UICONTROL Administrar eventos, fuentes de datos y acciones de Recorrido] | Leer, crear, editar y eliminar eventos, fuentes o acciones. |
+  | [!UICONTROL Recorridos] | [!UICONTROL Ver Recorridos] | Acceso de solo lectura a recorrido. |
+  | [!UICONTROL Recorridos] | [!UICONTROL Administrar Recorridos] | Leer, crear, editar y eliminar recorridos. |
 
 * Exportar conjuntos de datos a [destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)
 
