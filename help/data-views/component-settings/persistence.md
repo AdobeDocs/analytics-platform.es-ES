@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: ce1f27b00b55d5c3780907c50107b081264000bd
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="Persistencia"
->abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes que los filtros en el sistema de informes. Consulte para obtener más información [configuración de asignación](/help/data-views/component-settings/persistence.md#allocation-settings), [configuración de caducidad](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensión de enlace](/help/data-views/component-settings/persistence.md#binding-dimension) y [métricas de enlace](/help/data-views/component-settings/persistence.md#binding-metric)."
+>abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes que los filtros en el sistema de informes. Para obtener más información consulte [configuración de la asignación](/help/data-views/component-settings/persistence.md#allocation-settings), [configuración de la caducidad](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensión del enlace](/help/data-views/component-settings/persistence.md#binding-dimension) y [métricas de enlace](/help/data-views/component-settings/persistence.md#binding-metric)."
 
 <!-- markdownlint-enable MD034 -->
 
