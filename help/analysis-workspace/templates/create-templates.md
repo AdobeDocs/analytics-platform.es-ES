@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 96844fae07734e979e9dd4689d5eded6a7a3b926
+exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
+source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '573'
 ht-degree: 4%
 
 ---
@@ -20,15 +21,13 @@ Las personas de la compañía de inicio de sesión pueden usar estas plantillas 
 
 ## Creación de una plantilla
 
-<!-- is this only admins? -->
-
 Para crear una nueva plantilla que puedan utilizar los usuarios de su empresa de inicio de sesión:
 
 1. En Analysis Workspace, genere un proyecto con el estado que desee.
 
 1. Seleccione [!UICONTROL **Proyecto**] > **[!UICONTROL Guardar como plantilla...]**.
 
-   ![Informe de la compañía](assets/company-template-save.png)
+   ![Plantilla de la compañía](assets/company-template-save.png)
 
 1. Especifique la siguiente información en el cuadro de diálogo [!UICONTROL Guardar como plantilla]:
 
@@ -45,11 +44,37 @@ Para crear una nueva plantilla que puedan utilizar los usuarios de su empresa de
 
 Para obtener información sobre cómo los usuarios pueden crear un proyecto basado en una plantilla, consulte [Crear un proyecto basado en una plantilla](/help/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) en [Usar plantillas](/help/analysis-workspace/templates/use-templates.md).
 
-## Administrar plantillas de empresa
+## Editar o eliminar plantillas
 
-Los administradores pueden eliminar, cambiar el nombre, etiquetar y aprobar plantillas de empresa.
+Los administradores pueden editar o eliminar las plantillas de empresa.
 
-Para mostrar y administrar plantillas de empresa:
+1. En Analysis Workspace, seleccione la ficha [!UICONTROL **Workspace**] y, a continuación, seleccione **[!UICONTROL _login_company_name _templates]**.
+
+1. Si está viendo plantillas en una vista de columna ![icono de vista de columna](assets/column-view-icon.png):
+
+   1. Vaya a la plantilla que desee editar o eliminar y seleccione el icono de información junto al nombre de la plantilla.
+
+      ![Información de plantilla de la compañía](assets/company-template-info.png)
+
+   1. Seleccionar **[!UICONTROL vista previa]**.
+
+   1. Seleccione el icono Más y luego seleccione **[!UICONTROL Editar]** o **[!UICONTROL Eliminar]**.
+
+      ![Editar o eliminar plantilla](assets/company-template-edit-delete.png)
+
+1. Si está viendo plantillas en una vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png):
+
+   1. Busque la plantilla que desee editar o eliminar.
+
+      ![Vista de tarjeta de plantilla de compañía](assets/company-template-cards.png)
+
+   1. Seleccione el icono Más y luego seleccione **[!UICONTROL Editar]** o **[!UICONTROL Eliminar]**.
+
+      ![Editar o eliminar tarjeta de plantilla de compañía](assets/company-template-card-edit-delete.png)
+
+## Cambiar nombre, etiquetar o aprobar plantillas
+
+Los administradores pueden cambiar el nombre, etiquetar y aprobar plantillas de empresa.
 
 1. En Analysis Workspace, selecciona la pestaña [!UICONTROL **Workspace**] y, a continuación, selecciona la pestaña **[!UICONTROL Proyectos]** en el carril izquierdo.
 
@@ -61,24 +86,20 @@ Para mostrar y administrar plantillas de empresa:
 
    Las plantillas de empresa se pueden identificar mediante el ![icono de plantillas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) que precede al nombre de la plantilla.
 
-   <!-- Update screenshot -->
-
-   ![Mostrar filtros de plantillas de empresa](assets/company-reports-filter.png)
-
-1. En la lista de plantillas, seleccione una o varias plantillas de empresa.
+   ![Mostrar filtros de plantillas de empresa](assets/company-templates-filter.png)
 
 1. Haga clic en el icono de tres puntos **...** junto a una plantilla para ver las opciones disponibles.
 
-   <!-- Update screenshot -->
+   ![Acciones de plantilla de compañía](assets/company-templates-actions.png)
 
-   ![Acciones de plantilla de compañía](assets/company-reports-actions.png)
+1. Seleccione **[!UICONTROL Cambiar nombre]**, **[!UICONTROL Etiqueta]** o **[!UICONTROL Aprobar]**.
 
-1. Seleccione **[!UICONTROL Eliminar]**, **[!UICONTROL Cambiar nombre]**, **[!UICONTROL Etiqueta]** o **[!UICONTROL Aprobar]**).
+   También puede eliminar una plantilla, o bien puede eliminar una plantilla como se describe en [Editar o eliminar plantillas](#edit-or-delete-templates).
 
 1. (Opcional) Para volver a la vista normal, en el carril de filtro, anule la selección de **[!UICONTROL Plantillas de empresa]**.
 
 ## Acceso a una plantilla de empresa
 
-Al igual que con las plantillas que proporciona Adobe, puede acceder a las plantillas que han creado los usuarios de su organización.
+Al igual que con las plantillas que proporciona el Adobe, los usuarios de la organización pueden acceder a las plantillas que crean los administradores.
 
 Para obtener información sobre cómo obtener acceso a una plantilla de empresa, vea [Obtener acceso y ejecutar una plantilla](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) en [Usar plantillas](/help/analysis-workspace/templates/use-templates.md).
