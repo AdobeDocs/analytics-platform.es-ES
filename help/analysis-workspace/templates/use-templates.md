@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
+source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
 workflow-type: tm+mt
-source-wordcount: '15383'
-ht-degree: 79%
+source-wordcount: '15449'
+ht-degree: 78%
 
 ---
 
@@ -43,7 +43,11 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
      Solo un administrador puede crear plantillas de empresa. Para obtener información acerca de cómo crear una plantilla de empresa, vea [Crear y administrar plantillas](/help/analysis-workspace/templates/create-templates.md).
 
-1. Elija si desea ver las plantillas en una vista de columna o en una vista de tarjeta seleccionando la vista de columna ![icono de vista de columna](assets/column-view-icon.png) o el icono de vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png).
+1. Utilice cualquiera de las siguientes opciones para cambiar la forma en que ve las plantillas disponibles:
+
+   * Elija si desea ver las plantillas en una vista de columna o en una vista de tarjeta seleccionando la vista de columna ![icono de vista de columna](assets/column-view-icon.png) o el icono de vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png).
+
+   * Al usar la vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png), elija entre los siguientes órdenes de clasificación: **[!UICONTROL Utilizado más recientemente]**, **[!UICONTROL Más popular]**, **[!UICONTROL Alfabético]**, **[!UICONTROL Categórico]**.
 
 1. En el campo de búsqueda, empiece a escribir el nombre de la plantilla que desea buscar y, a continuación, selecciónela en la lista de plantillas.
 
@@ -57,17 +61,23 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
    Para obtener una lista de las plantillas disponibles, consulte la sección [Plantillas disponibles](#available-templates) más abajo.
 
-1. (Opcional) Vea y utilice plantillas que contienen componentes que no están disponibles en la vista de datos. (De forma predeterminada, las únicas plantillas que se muestran son las que utilizan componentes disponibles en la vista de datos).
+1. (Opcional) Vea y utilice plantillas que contienen componentes que no están disponibles en la vista de datos. (De forma predeterminada, las plantillas solo se muestran si utilizan componentes disponibles en la vista de datos).
 
-   1. Seleccionar (¿nombre de la opción de filtro?) para mostrar las plantillas que requieren componentes adicionales.
+   1. Seleccione el icono de filtro.
 
-      <!-- add screenshot -->
+   1. Seleccione **[!UICONTROL No listo para usar]** para mostrar las plantillas que requieren componentes adicionales.
 
-   1. Seleccione la plantilla que desee utilizar.
-
-   1. Si la plantilla contiene componentes que no están disponibles en la vista de datos, se muestra un mensaje que indica qué componentes faltan. Haga clic en (¿botón?) para ir a la vista de datos, donde puede crearlos automáticamente. <!--how do you do this? Walk through the process -->
+      ![Usar una plantilla que no contiene componentes](assets/template-not-ready.png)
 
 1. Seleccione la plantilla para crear un informe basado en la plantilla elegida.
+
+1. (Condicional) Si la plantilla contiene componentes que no están disponibles en la vista de datos, se muestra el cuadro de diálogo Vista de datos incompatible, que indica que la vista de datos es incompatible con la plantilla y muestra qué componentes faltan.
+
+   Realice una de las acciones siguientes:
+
+   * Elija otra vista de datos en el menú desplegable **[!UICONTROL Cambiar vista de datos]**.
+
+   * Seleccione **[!UICONTROL Continuar de todas formas]** para ver la plantilla con los componentes que faltan.
 
 ## Creación de un proyecto basado en una plantilla {#use-reports}
 
