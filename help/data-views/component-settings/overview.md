@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: ht
+source-git-commit: 1158064d46e09435ec2507c47e6e484306ac5a53
+workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ La siguiente información describe la configuración que utiliza un componente d
 | [!UICONTROL Nombre del componente] | Requerido. Permite especificar el nombre descriptivo que aparecerá en Analysis Workspace. Puede cambiar el nombre de un componente para darle un nombre específico para la vista de datos. |
 | [!UICONTROL Descripción] | Opcional, pero recomendada. Proporciona información sobre el componente a otros usuarios. |
 | [!UICONTROL Etiquetas] | Opcional. Le permite etiquetar el componente con etiquetas personalizadas o listas para usar para facilitar la búsqueda y el filtrado en la IU de Analysis Workspace. |
-| [!UICONTROL Etiquetas de contexto] | Opcional. Lista desplegable de etiquetas disponibles definidas por el sistema que se pueden aplicar a un componente. Estas etiquetas pueden ser necesarias para definir un conjunto de componentes que puede utilizar en los informes de experimentación con el [panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) en los proyectos de Analysis Workspace. Consulte [Integración con Journey Optimizer](/help/integrations/ajo.md#data-view) e [Creación de informes de Target](/help/integrations/at.md) para obtener más información. |
+| [!UICONTROL Etiquetas de contexto] | Opcional. Lista desplegable de etiquetas disponibles definidas por el sistema que se pueden aplicar a un componente. Estas etiquetas pueden ser necesarias para definir un conjunto de componentes que puede utilizar en los informes de experimentación con el [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) en los proyectos de Analysis Workspace. Consulte [Integración con Journey Optimizer](/help/integrations/ajo.md#data-view) e [Creación de informes de Target](/help/integrations/at.md) para obtener más información. |
 | [!UICONTROL Nombre del campo de esquema] | Nombre del campo de esquema. |
 | [!UICONTROL Tipo de conjunto de datos] | Requerido. Campo no editable que muestra el tipo de conjunto de datos (evento, búsqueda o perfil) del que procede el componente. |
 | [!UICONTROL Conjunto de datos] | Campo no editable que muestra el conjunto de datos desde el que se originó el componente. Este campo puede contener varios conjuntos de datos. |
