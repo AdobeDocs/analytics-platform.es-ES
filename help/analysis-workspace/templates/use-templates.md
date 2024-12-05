@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: bf3eb96ac3c764c73f4131b8ddd05809994f08df
 workflow-type: tm+mt
-source-wordcount: '15449'
+source-wordcount: '15490'
 ht-degree: 78%
 
 ---
@@ -61,7 +61,11 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
    Para obtener una lista de las plantillas disponibles, consulte la sección [Plantillas disponibles](#available-templates) más abajo.
 
-1. (Opcional) Vea y utilice plantillas que contienen componentes que no están disponibles en la vista de datos. (De forma predeterminada, las plantillas solo se muestran si utilizan componentes disponibles en la vista de datos).
+1. (Opcional) Puede ver las plantillas que contienen componentes que no están disponibles en la vista de datos. (De forma predeterminada, las plantillas solo se muestran si utilizan componentes disponibles en la vista de datos).
+
+   >[!NOTE]
+   >
+   >   Antes de poder utilizar estas plantillas, un administrador debe agregar primero las etiquetas de contexto necesarias para estos componentes que faltan a la vista de datos. Para obtener más información, consulte [Agregar componentes que faltan a la vista de datos para una plantilla determinada](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) en [Usar plantillas](/help/analysis-workspace/templates/create-templates.md).
 
    1. Seleccione el icono de filtro.
 
@@ -527,7 +531,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="cja-template--browserRankedReport"
 >title="Ver el nombre y la versión de los exploradores principales que usan los visitantes para acceder al sitio."
->abstract="**Esto puede ayudarle** a comprender mejor los exploradores más comunes que usan los visitantes.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar la calidad del sitio probando nuevas versiones del sitio con los exploradores principales. Al hacerlo, se pueden maximizar los esfuerzos de control de calidad.<br/>Esta plantilla usa la dimensión Explorador."
+>abstract="**Esto puede ayudarle** a comprender mejor los exploradores más comunes que usan los visitantes.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar la calidad del sitio probando nuevas versiones del sitio con los exploradores principales. De este modo se pueden maximizar los esfuerzos de control de calidad.<br/>Esta plantilla usa la dimensión Explorador."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -554,8 +558,8 @@ Las plantillas disponibles son las siguientes:
 | **DMA de EE. UU. geográfico** | Ver las áreas de marketing designadas (DMA) dentro de los Estados Unidos desde las que proceden las personas que visitaron el sitio.<p>**Esto puede ayudarle** a entender mejor las regiones más populares de las que proceden los visitantes que visitan el sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como usar los datos para centrarse en los esfuerzos de marketing en las regiones de mayor éxito. </p><!-- This template uses the --> |
 | **Idiomas** | Ver los idiomas principales en los que los visitantes prefieren ver el contenido.  <p>**Esto puede ayudarle** a comprender mejor los idiomas que los visitantes prefieren con más frecuencia.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como enfocar los esfuerzos de localización o de marketing en los idiomas más populares.</p><p>Esta plantilla utiliza la dimensión Idioma.</p> |
 | **Información general sobre tecnología** | <p>**Esto puede ayudarte** a entender mejor</p><p>**Según lo que aprendas, podrías** hacer muchas cosas, como </p><p>Esta plantilla utiliza el </p> |
-| **Exploradores** | Ver el nombre y la versión de los exploradores principales que usan los visitantes para acceder al sitio.<p>**Esto puede ayudarle** a comprender mejor los exploradores más comunes que usan los visitantes.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar la calidad del sitio probando nuevas versiones del sitio con los exploradores principales. Al hacerlo, se pueden maximizar los esfuerzos de control de calidad.</p><p>Esta plantilla utiliza la dimensión Explorador. </p> |
-| **Tipos de explorador** | Ver los nombres de las organizaciones que crearon los exploradores principales que los usuarios utilizaron para acceder al sitio. Esto se diferencia de la plantilla Explorador en que no enumera diferentes versiones del mismo explorador como elementos de dimensión separados.<p>**Esto puede ayudarte** a comprender mejor los exploradores más comunes que usan los visitantes</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar la calidad del sitio probando nuevas versiones del sitio con los exploradores principales. Al hacerlo, se pueden maximizar los esfuerzos de control de calidad. </p><p>Esta plantilla utiliza la dimensión Tipo de explorador. </p> |
+| **Exploradores** | Ver el nombre y la versión de los exploradores principales que usan los visitantes para acceder al sitio.<p>**Esto puede ayudarle** a comprender mejor los exploradores más comunes que usan los visitantes.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar la calidad del sitio probando nuevas versiones del sitio con los exploradores principales. De este modo se pueden maximizar los esfuerzos de control de calidad.</p><p>Esta plantilla utiliza la dimensión Explorador. </p> |
+| **Tipos de explorador** | Ver los nombres de las organizaciones que crearon los exploradores principales que los usuarios utilizaron para acceder al sitio. Esto se diferencia de la plantilla Explorador en que no enumera diferentes versiones del mismo explorador como elementos de dimensión separados.<p>**Esto puede ayudarte** a comprender mejor los exploradores más comunes que usan los visitantes</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar la calidad del sitio probando nuevas versiones del sitio con los exploradores principales. De este modo se pueden maximizar los esfuerzos de control de calidad. </p><p>Esta plantilla utiliza la dimensión Tipo de explorador. </p> |
 
 ### Web: adquisición {#web-acquisition}
 

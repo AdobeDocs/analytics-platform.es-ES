@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: d1aee7ccdcea2794efd9db5d6dbf46cba4087030
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 4%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Para obtener información sobre cómo los usuarios pueden crear un proyecto basa
 
 Los administradores pueden editar o eliminar las plantillas de empresa.
 
-1. En Analysis Workspace, seleccione la ficha [!UICONTROL **Workspace**] y, a continuación, seleccione **[!UICONTROL _login_company_name _templates]**.
+1. En Analysis Workspace, seleccione la ficha [!UICONTROL **Workspace**] y, a continuación, en **[!UICONTROL Plantillas]**, en el carril izquierdo, seleccione **[!UICONTROL _nombre_empresa_inicio_sesión _plantillas]**.
 
 1. Si está viendo plantillas en una vista de columna ![icono de vista de columna](assets/column-view-icon.png):
 
@@ -67,6 +67,8 @@ Los administradores pueden editar o eliminar las plantillas de empresa.
    1. Busque la plantilla que desee editar o eliminar.
 
       ![Vista de tarjeta de plantilla de compañía](assets/company-template-cards.png)
+
+   1. Pase el ratón sobre la plantilla y luego seleccione **[!UICONTROL Vista previa]**.
 
    1. Seleccione el icono Más y luego seleccione **[!UICONTROL Editar]** o **[!UICONTROL Eliminar]**.
 
@@ -97,6 +99,73 @@ Los administradores pueden cambiar el nombre, etiquetar y aprobar plantillas de 
    También puede eliminar una plantilla, o bien puede eliminar una plantilla como se describe en [Editar o eliminar plantillas](#edit-or-delete-templates).
 
 1. (Opcional) Para volver a la vista normal, en el carril de filtro, anule la selección de **[!UICONTROL Plantillas de empresa]**.
+
+## Adición de los componentes que faltan a la vista de datos para una plantilla determinada
+
+De forma predeterminada, algunas plantillas proporcionadas por Adobe no funcionarán porque contienen componentes que no están en la vista de datos.
+
+Para cada componente que falta, hay una etiqueta de contexto coincidente disponible en la vista de datos. Debe agregar la etiqueta de contexto coincidente a un componente que ya está en la vista de datos o agregar un componente nuevo a la vista de datos y agregarle la etiqueta de contexto.
+
+Para añadir componentes que faltan a una plantilla:
+
+1. En Analysis Workspace, seleccione la ficha [!UICONTROL **Workspace**] y, a continuación, en **[!UICONTROL Plantillas]** en el carril izquierdo, seleccione **[!UICONTROL Plantillas de Adobe]**.
+
+1. Seleccione el icono de filtro para filtrar la lista de plantillas.
+
+1. Seleccione **[!UICONTROL No listo para usar]** para mostrar las plantillas que requieren componentes que no están en la vista de datos.
+
+   ![Usar una plantilla que no contiene componentes](assets/template-not-ready.png)
+
+1. Busque una plantilla que aún no esté lista para utilizarse con la vista de datos.
+
+1. Realice una de las acciones siguientes:
+
+   * **Si está viendo plantillas en una vista de columna** ![icono de vista de columna](assets/column-view-icon.png):
+
+      1. Vaya a la plantilla que aún no esté lista para usarla con la vista de datos y, a continuación, seleccione el icono de información junto al nombre de la plantilla.
+
+         ![Información de plantilla de la compañía](assets/company-template-info.png)
+
+      1. Seleccionar **[!UICONTROL vista previa]**.
+
+         ![Página de vista previa de plantilla](assets/template-preview.png)
+
+   * **Si está viendo plantillas en una vista de tarjeta** ![icono de vista de tarjeta](assets/card-view-icon.png):
+
+      1. Busque la plantilla que aún no esté lista para utilizarse con la vista de datos.
+
+         ![Vista de tarjeta de plantilla de compañía](assets/company-template-cards.png)
+
+      1. Pase el ratón sobre la plantilla y luego seleccione **[!UICONTROL Vista previa]**.
+
+         ![Página de vista previa de plantilla](assets/template-preview.png)
+
+1. En la sección **[!UICONTROL Componentes que faltan]**, se muestra una lista de los componentes que faltan en la vista de datos. Seleccione **[!UICONTROL Agregar estos componentes a su vista de datos]**.
+
+   La página de configuración de la vista de datos se muestra en una nueva pestaña.
+
+1. Seleccione la ficha **[!UICONTROL Componentes]** para la vista de datos.
+
+   ![Pestaña Componentes de vista de datos](assets/template-dataview.png)
+
+1. Para cada componente que se enumeró como ausente de la plantilla, realice una de las acciones siguientes en la ficha **[!UICONTROL Componentes]**:
+
+   * En la sección **[!UICONTROL Componentes incluidos]**, seleccione un componente que ya esté incluido en la vista de datos que desee usar para el componente que falta.
+
+   * Agregue un nuevo componente a la vista de datos que desee utilizar para el componente que falta y, a continuación, seleccione el componente.
+
+     Para agregar un componente nuevo a la vista de datos, busque en la lista de campos de esquema y arrástrelo a la sección **[!UICONTROL Componentes incluidos]**.
+
+1. Con el componente seleccionado, busque el menú desplegable **[!UICONTROL Etiquetas contextuales]** en la columna derecha.
+
+   ![Pestaña Componentes de vista de datos](assets/template-dataview-context-label.png)
+
+1. En el menú desplegable **[!UICONTROL Etiquetas contextuales]**, seleccione la etiqueta contextual que tenga el mismo nombre que el componente que falta.
+
+1. Seleccione **[!UICONTROL Guardar y continuar]**.
+
+1. Para cada componente que falte, repita el proceso de agregar la etiqueta de contexto coincidente a un componente en la vista de datos.
+
 
 ## Acceso a una plantilla de empresa
 
