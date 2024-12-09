@@ -4,10 +4,10 @@ title: Texto
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 25%
+source-wordcount: '242'
+ht-degree: 29%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 25%
 
 Para agregar texto enriquecido definido por el usuario a su proyecto de Workspace, puede usar una visualización ![Texto](/help/assets/icons/Text.svg) **[!UICONTROL Texto]** o usar descripciones para una visualización y un panel.
 
-## En su lugar, utilice 
+## Utiliza
 
 Puede utilizar la visualización Texto de las siguientes maneras:
 
@@ -45,7 +45,7 @@ Al editar el cuadro de texto o la descripción, puede ajustar el tamaño de fuen
 
 ## Adición de hipervínculos {#hyperlinks}
 
-Para agregar un hipervínculo, resalte el texto y seleccione ![Vínculo](/help/assets/icons/Link.svg) en el menú. Puede utilizar hipervínculos para proporcionar más asistencia a los destinatarios del proyecto. Los hipervínculos pueden vincularse a sitios web externos, páginas de documentación, [proyectos, paneles o visualizaciones de Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links), etc.
+Para agregar un hipervínculo, resalte el texto y seleccione ![Vínculo](/help/assets/icons/Link.svg) en el menú. Puede utilizar hipervínculos para proporcionar más asistencia a los destinatarios del proyecto. Los hipervínculos pueden vincularse a sitios web externos, páginas de documentación, [proyectos, paneles o visualizaciones de Workspace](/help/analysis-workspace/curate-share/shareable-links.md), etc.
 
 ![Opciones de texto con el icono de vínculo resaltado.](assets/hyperlink.png)
 

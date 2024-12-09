@@ -5,7 +5,7 @@ feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
 source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 

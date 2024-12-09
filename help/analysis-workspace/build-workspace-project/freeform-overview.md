@@ -5,10 +5,10 @@ title: Información general sobre Proyectos
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 7%
+source-wordcount: '1627'
+ht-degree: 8%
 
 ---
 
@@ -46,14 +46,14 @@ Desde el área de título ➊ puede crear un proyecto, crear una carpeta, editar
 ## Lista de proyectos
 
 
-La lista de proyectos ➋ muestra todos los proyectos que posee y que han compartido con usted. La lista tiene las columnas siguientes:
+La lista de proyectos ➋ muestra todos los proyectos que posee y que han compartido con usted. La lista tiene las siguientes columnas:
 
 | Columna | Descripción |
 | --- | --- | 
 | ![SeleccionarCuadro](/help/assets/icons/SelectBox.svg) | Cuando se seleccionan uno o más proyectos, aparece una barra de acciones azul en la parte inferior de la interfaz de proyecto. Consulte [Acciones](#actions) para obtener más información. |
-| ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer ![Estrella](/help/assets/icons/Star.svg) o para anular el favor de ![Contorno de estrella](/help/assets/icons/StarOutline.svg) en un proyecto. |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer ![Estrella](/help/assets/icons/Star.svg) o para anular el favor de ![Contorno de estrella](/help/assets/icons/StarOutline.svg) en un proyecto. |
 | **[!UICONTROL Título y descripción]** | Para editar el proyecto, seleccione el vínculo del título, que abre el [proyecto de Workspace](/help/analysis-workspace/home.md). Los proyectos compartidos con usted se indican con ![Compartir](/help/assets/icons/ShareAlt.svg). Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar un menú emergente con más detalles sobre el proyecto. Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual con acciones. Consulte [Acciones](#actions) para obtener más información. |
-| **[!UICONTROL Tipo]** | Un proyecto de Workspace, una carpeta ![FolderUser](/help/assets/icons/FolderUser.svg) o un [informe de valoración móvil](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
+| **[!UICONTROL Tipo]** | Un proyecto de Workspace, una carpeta ![FolderUser](/help/assets/icons/FolderUser.svg) o un [informe de valoración móvil](/help/mobile-app/home.md). |
 | **[!UICONTROL Etiquetas]** | Las etiquetas aplicadas al proyecto. |
 | Programado | Si un proyecto está programado para enviarse por correo electrónico a los destinatarios. Las opciones son ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Ver [Enviar datos de proyecto a otras personas](/help/analysis-workspace/export/t-schedule-report.md). |
 | **[!UICONTROL Vínculo compartido (cualquiera)]** | Si un proyecto se comparte con alguien, incluso con personas que no tienen acceso a Analysis Workspace. Las opciones son ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Activo]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inactivo]**. Vea [Compartir un proyecto con alguien (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
@@ -81,7 +81,7 @@ Puede realizar acciones en uno o más proyectos mediante el menú contextual ![M
 | Icono | Acción | Descripción |
 |:---:| ---|---|
 | ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *seleccionado]** | Anule la selección de los proyectos y carpetas seleccionados y elimine la barra de acciones azul. |
-| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Elimine uno o varios proyectos o carpetas. Se le pedirá una confirmación. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Elimine uno o varios proyectos o carpetas. Se te pedirá una confirmación. |
 | ![Compartir](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Compartir]** | Compartir un proyecto. Consulte [Compartir un proyecto](/help/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
 | ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambie el nombre de un proyecto. Abre un cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de proyecto *]**. Escriba un nombre nuevo y seleccione**[!UICONTROL Guardar ]**. |
 | ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copie uno o varios proyectos. Project no obtiene el mismo nombre y sufijo `(Copy)`. |
@@ -90,7 +90,7 @@ Puede realizar acciones en uno o más proyectos mediante el menú contextual ![M
 | ![Flecha abajo](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL Bajar]** | Mueva un proyecto o una carpeta anclados hacia abajo en la lista de proyectos. |
 | ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquete uno o varios proyectos o carpetas. Se muestra el cuadro de diálogo **[!UICONTROL Componentes de etiqueta]** para seleccionar una o más etiquetas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los proyectos o carpetas seleccionados. |
 | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprobar]** o **[!UICONTROL Desaprobar]** | Aprobar o desaprobar un proyecto. Solo los administradores pueden aprobar proyectos. |
-| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar CSV]** | Exportar los proyectos seleccionados a un archivo CSV con el nombre `Project List.csv`. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar CSV]** | Exportar los proyectos seleccionados a un archivo CSV con el nombre `Project List.csv`. |
 | ![Agregar proyecto](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL Agregar proyectos]** | Agregue uno o más proyectos a una carpeta seleccionada. En **[!UICONTROL Agregar proyectos]** puede seleccionar uno o más proyectos. Seleccione **[!UICONTROL Agregar]** para agregar los proyectos a la carpeta. Consulte [Agregar proyectos a carpetas](workspace-folders/add-projects.md#from-inside-a-folder) para obtener más información. |
 | ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL Mover a]** | Mueva uno o más proyectos seleccionados a una carpeta. En **[!UICONTROL Seleccionar carpeta]**, seleccione la carpeta a la que desea mover el proyecto seleccionado y seleccione **[!UICONTROL Mover]**. Consulte [Agregar proyectos a carpetas](workspace-folders/add-projects.md#from-the-project-list) para obtener más información. |
 

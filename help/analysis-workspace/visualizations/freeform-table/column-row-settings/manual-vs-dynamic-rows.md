@@ -4,10 +4,10 @@ description: Interacción con elementos de dimensión dinámicos y estáticos en
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 49%
+source-wordcount: '542'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ Los elementos de dimensión dinámicos cambian con el tiempo y dependen de la m�
 
 Cuando se coloca una dimensión en una tabla de forma libre, se devuelven filas dinámicas. Las filas dinámicas representan los elementos principales que corresponden a la dimensión de una métrica y un período de tiempo determinados. También puede colocar una dimensión en columnas de tabla de forma libre y esta se expande automáticamente a los 5 elementos de dimensión principales.
 
-Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) se devuelven de forma dinámica a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
+Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) vuelven dinámicamente a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
 
 Los elementos de dimensión dinámicos tienen la opción de filtro de fila ![Filter](/help/assets/icons/Filter.svg) y ![Close](/help/assets/icons/Close.svg), y **not** tienen un bloqueo ![LockClosed](/help/assets/icons/LockClosed.svg). <!--do they have the lock icon? --> Al hacer clic en ![Cerrar](/help/assets/icons/Close.svg) junto a un elemento de dimensión dinámica, se aplica automáticamente un filtro. Para obtener más información sobre cómo aplicar filtros a las tablas, vea [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
@@ -53,4 +53,4 @@ Los elementos de dimensión de diferentes dimensiones se pueden agregar a la mis
 Las filas dinámicas y estáticas se comportan de forma diferente en la fila total improvisada. De forma predeterminada:
 
 * Las filas dinámicas se suman a las métricas del lado del servidor y a las duplicadas, como sesiones o personas.
-* Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es)
+* Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)

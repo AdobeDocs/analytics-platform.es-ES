@@ -5,10 +5,10 @@ title: Crear vínculos que se pueden compartir
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 67%
+source-wordcount: '379'
+ht-degree: 61%
 
 ---
 
@@ -18,9 +18,9 @@ Analysis Workspace ofrece varias formas de compartir un proyecto con los usuario
 
 ## Obtener un vínculo de proyecto para compartir con otros usuarios de Workspace {#project-link}
 
-Para compartir un vínculo a un proyecto, vaya al proyecto que desee compartir y, a continuación, seleccione ir a [!UICONTROL **Compartir**] > [!UICONTROL **Obtener vínculo del proyecto**] (o **Compartir**] > [!UICONTROL **Compartir con usuarios de Workspace**] > [!UICONTROL **Compartir mediante vínculo**). Los usuarios con los que comparte el vínculo deben iniciar sesión.
+Para compartir un vínculo a un proyecto, ve al proyecto que deseas compartir y, a continuación, selecciona ir a **[!UICONTROL Compartir]** > **[!UICONTROL Obtener vínculo del proyecto]** (o **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]** > **[!UICONTROL Compartir por vínculo]**). Los usuarios con los que comparte el vínculo deben iniciar sesión.
 
-Si no se ha asignado al destinatario del vínculo una [función de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores reciben **[!UICONTROL Editar original]**  y los que no son administradores reciben las experiencias **[!UICONTROL Editar copia]**.
+Si el destinatario del vínculo no se ha asignado a [función de proyecto](/help/analysis-workspace/curate-share/share-projects.md), los administradores recibirán **[!UICONTROL Editar original]** y los usuarios que no sean administradores recibirán experiencias de **[!UICONTROL Editar copia]**.
 
 ## Obtener un vínculo de solo lectura para compartir con cualquier persona
 

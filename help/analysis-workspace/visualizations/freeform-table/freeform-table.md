@@ -1,17 +1,17 @@
 ---
-title: Información general sobre tablas de forma libre
+title: Descripción general del generador de tablas de forma libre
 description: Las tablas de forma libre son la base del análisis de datos en Workspace
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '754'
 ht-degree: 26%
 
 ---
 
-# Información general sobre tablas de forma libre {#freeform-table-overview}
+# Descripción general del generador de tablas de forma libre {#freeform-table-overview}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -23,7 +23,7 @@ ht-degree: 26%
 <!-- markdownlint-enable MD034 -->
 
 
-En Analysis Workspace, una visualización de ![Tabla](/help/assets/icons/Table.svg) **[!UICONTROL tabla de forma libre]** es la base del análisis de datos interactivo. Puede arrastrar y soltar una combinación de [componentes](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente para que pueda analizar rápidamente y explorar en mayor profundidad.
+En Analysis Workspace, una visualización de ![Tabla](/help/assets/icons/Table.svg) **[!UICONTROL tabla de forma libre]** es la base del análisis de datos interactivo. Puede arrastrar y soltar una combinación de [componentes](/help/components/overview.md) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente para que pueda analizar rápidamente y explorar en mayor profundidad.
 
 ![Tabla de forma libre que muestra componentes en filas y columnas, incluidas visitas y pedidos en línea de varias páginas web.](assets/opening-section.png)
 
@@ -54,16 +54,16 @@ Puede interactuar con una tabla de forma libre y personalizarla de diversas mane
 ### Filas
 
 * Puede [crear rápidamente una nueva visualización](../freeform-analysis-visualizations.md#visualize) a partir de una o más filas usando ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg).
-* Puede visualizar más filas en una sola pantalla ajustando la [densidad de vista](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) del proyecto.
+* Puede visualizar más filas en una sola pantalla ajustando la [densidad de vista](/help/analysis-workspace/build-workspace-project/view-density.md) del proyecto.
 * Cada fila de dimensión puede mostrar hasta 400 filas antes de que se produzca la paginación. Seleccione el número que hay junto a **[!UICONTROL Filas]** en el encabezado de la primera columna para mostrar más filas en una página. Vaya a otra página con ![ChevronRight](/help/assets/icons/ChevronRight.svg) en el encabezado de la primera columna.
-* Puede desglosar filas por componentes adicionales. Para desglosar muchas filas a la vez, seleccione varias filas y, a continuación, arrastre el siguiente componente sobre las filas seleccionadas. Obtenga más información sobre los [desgloses](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa).
-* Las filas se pueden [filtrar](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort) para mostrar un conjunto reducido de elementos. Hay opciones de configuración adicionales disponibles en [Configuración de fila](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings).
+* Puede desglosar filas por componentes adicionales. Para desglosar muchas filas a la vez, seleccione varias filas y, a continuación, arrastre el siguiente componente sobre las filas seleccionadas. Obtenga más información sobre los [desgloses](/help/components/dimensions/t-breakdown-fa.md).
+* Las filas se pueden [filtrar](/help/components/filters/filters-overview.md) para mostrar un conjunto reducido de elementos. Hay opciones de configuración adicionales disponibles en [Configuración de fila](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
 ### Columnas
 
 * Los componentes se pueden apilar en columnas para crear métricas filtradas, análisis entre pestañas, etcétera.
-* La vista de cada columna se ajusta en la [configuración de columna](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings).
-* Hay varias acciones disponibles a través del [menú contextual](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/right-click-for-workspace-efficiency). El menú proporciona diferentes acciones en función de si selecciona el encabezado de tabla, las filas o las columnas.
+* La vista de cada columna se ajusta en la [configuración de columna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+* Hay varias acciones disponibles a través del [menú contextual](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). El menú proporciona diferentes acciones en función de si selecciona el encabezado de tabla, las filas o las columnas.
 
 
 ## Configuración
