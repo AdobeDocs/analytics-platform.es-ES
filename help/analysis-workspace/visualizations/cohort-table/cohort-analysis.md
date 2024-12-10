@@ -1,17 +1,17 @@
 ---
-title: Información general sobre la tabla de cohortes
+title: Configuración de la tabla de cohortes
 description: Aprenda a utilizar una tabla de cohorte para el análisis de cohorte en Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c16ad9f490abed1e15e1012a5a9347e2628b7642
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 37%
+source-wordcount: '641'
+ht-degree: 34%
 
 ---
 
-# Información general sobre la tabla de cohortes {#cohort-table-overview}
+# Configuración de la tabla de cohortes {#cohort-table-overview}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -56,6 +56,8 @@ Ejemplos de lo que puede hacer con una [!UICONTROL tabla de cohorte]:
 >[!IMPORTANT]
 >
 >[!UICONTROL Análisis de cohorte] no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden usar las métricas de los filtros en [!UICONTROL Análisis de cohorte], y solamente se pueden incrementar de uno en uno.
+
+Las tablas de cohorte de Customer Journey Analytics admiten métricas de doble base (o numéricas). Por ejemplo, Purchase.Value (un valor doble) se puede utilizar como Métrica de inclusión/devolución. Además, todas las métricas que se pasan a Adobe Experience Platform a través del conector de Source de Analytics también son dobles.
 
 ## Funcionalidades de tabla de cohorte
 
