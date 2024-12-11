@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
-source-git-commit: 40e4c3bd8f3c37e9a6143200b85ffe0ac4bcb2ca
+source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 0%
+source-wordcount: '766'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ En general, la exportación de datos admite varios casos de uso. Cada caso de us
 
 | Casos de uso de exportación de datos | Funciones de Experience Platform y Customer Journey Analytics |
 |---|---|
-| **Copia de seguridad de datos**<br/> Conserva una copia completa de tus datos digitales para fines regulatorios o de cumplimiento normativo. | **Experience Platform**: [**Exportar conjuntos de datos**](export-datasets.md)<br/> Exportar datos recopilados en Experience Platform directamente a destinos en la nube en una programación o ad hoc.<br/>*Actualmente se espera una versión limitada, versión completa para los clientes de Customer Journey Analytics en junio de 2024.* |
+| **Copia de seguridad de datos**<br/> Conserva una copia completa de tus datos digitales para fines regulatorios o de cumplimiento normativo. | **Experience Platform**: [**Exportar conjuntos de datos**](export-datasets.md)<br/> Exportar datos recopilados en Experience Platform directamente a destinos en la nube en una programación o ad hoc. |
 | **Validación de datos**<br/> Evalúe los datos del flujo de navegación para comprobar su precisión. | **Experience Platform**: [**Servicio de consultas (Data Distiller) y exportar conjuntos de datos**](queryservice-export-datasets.md)<br/> Interfaz interactiva de PostgreSQL para ejecutar consultas SQL ad hoc utilizando su herramienta SQL favorita para validar los datos de sus conjuntos de datos.<br/><br/>**Customer Journey Analytics**: [**Exportar tabla completa**](export-full-table.md)<br/> Validar datos procesados de CJA con atribución y sesionización aplicadas. |
 | **Herramientas de Data Warehouse, BI o lago de datos**<br/> Incluya datos digitales en sus propias herramientas de BI o lago de datos para usarlos con conjuntos de datos adicionales. | **Customer Journey Analytics**: [**Extensión de BI**](bi-extension.md)<br/> Agregue métricas procesadas de Customer Journey Analytics a herramientas de visualización de datos como Power BI y combinar con datos adicionales para informes personalizados <br/><br/>**Experience Platform**: [**Servicio de consultas (Distiller de datos) y exportar conjuntos de datos**](queryservice-export-datasets.md)<br> Genere datos personalizados del flujo de navegación usando SQL para enviarlos a destinos en la nube. |
 | **Preparación para inteligencia artificial/aprendizaje automático**<br/> Mejore los modelos y las tareas de inteligencia artificial/aprendizaje automático con datos de Customer Journey Analytics. | **Customer Journey Analytics**: [**Exportar tabla completa**](export-full-table.md)<br/> Exportar dimensiones y métricas procesadas de Customer Journey Analytics a destinos de nube de una vez o recurrentes, incluidas las métricas calculadas y la segmentación.<br/><br/>**Experience Platform**: [**Servicio de consultas (Distiller de datos) y conjuntos de datos de exportación**](queryservice-export-datasets.md)<br/> Generar datos personalizados del flujo de navegación usando SQL para enriquecer los modelos AI/ML. |

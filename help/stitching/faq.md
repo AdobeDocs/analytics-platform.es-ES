@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 059a091fb41efee6f508b4260b1d943f881f5087
+source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
 workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 26%
+source-wordcount: '1910'
+ht-degree: 28%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 26%
 
 Estas son algunas de las preguntas más frecuentes sobre la vinculación:
 
-+++**¿Cómo puedo usar la vinculación para ver cómo se mueven las personas de un canal a otro?**
+## Desplazamiento entre canales
+
++++ ¿Cómo puedo usar la vinculación para ver cómo se mueve la gente de un canal a otro?
 
 Puede utilizar una visualización de flujo con la dimensión ID de conjunto de datos.
 
@@ -29,13 +31,17 @@ Puede utilizar un conjunto de datos de búsqueda si desea cambiar el nombre de l
 
 +++
 
-+++**¿Hasta dónde llega la vinculación a los visitantes?**
+### Reproducir
+
++++ ¿Hasta dónde llega la vinculación a los visitantes de repetición?
 
 La ventana retrospectiva para la regeneración de claves depende de la frecuencia deseada de reproducción de los datos. Por ejemplo, si configura la vinculación para que reproduzca los datos una vez por semana, la ventana retrospectiva para la regeneración de claves será de siete días. Si configura la vinculación para que reproduzca datos todos los días, la ventana retrospectiva para la regeneración de claves será de un día.
 
 +++
 
-+++**¿Cómo se gestionan los dispositivos compartidos?**
+## Dispositivos compartidos
+
++++ ¿Cómo se gestionan los dispositivos compartidos?
 
 En algunas situaciones, es posible que varias personas inicien sesión desde el mismo dispositivo. Algunos ejemplos son un dispositivo compartido en casa, un equipo compartido en una biblioteca o un quiosco en un punto de venta minorista.
 
@@ -43,7 +49,9 @@ El ID transitorio anula al ID persistente, por lo que los dispositivos compartid
 
 +++
 
-+++**¿Cómo gestiona la vinculación las situaciones en las que una sola persona tiene muchos ID persistentes?**
+## Muchos ID persistentes
+
++++ ¿Cómo gestiona la vinculación las situaciones en las que una sola persona tiene muchos ID persistentes?
 
 En algunas situaciones, un usuario individual puede asociarse con muchos ID persistentes. Un ejemplo es una persona que borra las cookies del explorador con frecuencia o que utiliza el modo privado/de incógnito del explorador.
 
@@ -53,13 +61,17 @@ Para la vinculación basada en gráficos, una sola persona puede tener muchos ID
 
 +++
 
-+++**Una vez que me pongo en contacto con el equipo de cuenta de Adobe y le proporciono la información deseada, ¿cuánto tiempo tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?**
+## Proceso de vinculación
+
++++ Tras contactar con el equipo de cuentas de Adobe y proporcionarle la información deseada, ¿cuánto tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?
 
 La vinculación en tiempo real está disponible aproximadamente una semana después de que el Adobe active la vinculación. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
 
 +++
 
-+++**¿Cuál es la diferencia entre el análisis entre dispositivos (una función tradicional de Analytics) y el análisis entre canales?**
+## Análisis entre dispositivos y análisis entre canales
+
++++ ¿Cuál es la diferencia entre el análisis entre dispositivos (una función tradicional de Analytics) y el análisis entre canales?
 
 [Análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) es una característica específica de la versión tradicional de Adobe Analytics que te permite comprender cómo funcionan las personas entre dispositivos. Ofrece dos flujos de trabajo para vincular datos de dispositivos: vinculación basada en el campo y el gráfico del dispositivo.
 
@@ -67,7 +79,9 @@ El análisis en canales múltiples es un caso de uso específico de Customer Jou
 
 +++
 
-+++**¿Cómo gestiona la vinculación las solicitudes de privacidad?**
+## Privacidad
+
++++ ¿Cómo gestiona la vinculación las solicitudes de privacidad?
 
 El Adobe gestiona las solicitudes de privacidad de acuerdo con las leyes locales e internacionales. Adobe ofrece el [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para enviar solicitudes de acceso a datos y de eliminación. Las solicitudes se aplican tanto a los conjuntos de datos originales como a aquellos cuyas claves se volvieron a generar.
 
@@ -147,7 +161,9 @@ Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se 
 
 +++
 
-+++**¿Qué sucede si el campo ID persistente de uno o más eventos está en blanco?**
+## Valores de ID persistentes en blanco
+
++++ ¿Qué sucede si está vacío el campo ID persistente de uno o varios eventos?
 
 Si el campo ID persistente está en blanco en un evento de un conjunto de datos que se está vinculando, el ID vinculado para ese evento se determina de una de las dos maneras siguientes:
 
@@ -157,7 +173,9 @@ Si el campo ID persistente está en blanco en un evento de un conjunto de datos 
 +++
 
 
-+++**¿Qué sucede si el campo ID transitorio de uno o más eventos tiene valores de marcador de posición, como &quot;No definido&quot;?**
+## Valores de ID transitorios no definidos
+
++++ ¿Qué sucede si el campo ID transitorio de uno o más eventos tiene valores de marcador de posición, como `Undefined`?
 
 Tenga cuidado con el &quot;colapso de persona&quot;, que se produce cuando se aplica la vinculación a datos que utilizan valores de marcador de posición para ID transitorios. En la tabla de ejemplo siguiente, los ID de persona no definidos procedentes de un conjunto de datos procedentes de un sistema CRM se rellenan con el valor &quot;No definido&quot;, lo que da como resultado una representación incorrecta de las personas.
 
@@ -177,7 +195,9 @@ Tenga cuidado con el &quot;colapso de persona&quot;, que se produce cuando se ap
 
 +++
 
-+++**¿En qué se parecen las métricas de los conjuntos de datos enlazados por el Customer Journey Analytics y las de los conjuntos de datos no enlazados por el Customer Journey Analytics y las de Adobe Analytics?**
+## Comparación de métricas
+
++++ ¿En qué se parecen las métricas de los conjuntos de datos enlazados por el Customer Journey Analytics y las de los conjuntos de datos no enlazados por el Customer Journey Analytics y las de Adobe Analytics?
 
 Ciertas métricas en Customer Journey Analytics son similares a las métricas en la versión tradicional de Analytics, pero otras son diferentes, según lo que esté comparando. La siguiente tabla compara varias métricas comunes:
 
@@ -191,13 +211,18 @@ Otras métricas pueden ser similares en Customer Journey Analytics y Adobe Analy
 
 +++
 
-+++**¿Puede el Customer Journey Analytics usar los campos del mapa de identidad?**
+## Mapa de identidad
+
++++ ¿Puede el Customer Journey Analytics utilizar los campos del mapa de identidad?
 
 No, el Customer Journey Analytics no puede usar actualmente los campos del mapa de identidad para la vinculación.
 
 +++
 
-+++**¿Será necesario volver a ingerir los datos para cambiar de la vinculación basada en el campo a la vinculación basada en gráficos?**
+## Cambiar a vinculación basada en gráficos
+
++++ ¿Será necesario volver a ingerir los datos para cambiar de la vinculación basada en el campo a la basada en el gráfico?
+
 No es necesario volver a ingerir los datos en Experience Platform, pero deberán volver a configurarse en Customer Journey Analytics. Siga estos pasos:
 
 1. Configure el nuevo conjunto de datos vinculado basado en gráficos.
@@ -207,7 +232,9 @@ No es necesario volver a ingerir los datos en Experience Platform, pero deberán
 
 +++
 
-+++**¿Habría alguna interrupción en los informes existentes?**
+## Interrupción en la creación de informes
+
++++ ¿Se produciría alguna interrupción en los informes existentes?
 
 No si sigue los pasos descritos anteriormente. De lo contrario, solicite asistencia adicional a Adobe Consulting.
 
