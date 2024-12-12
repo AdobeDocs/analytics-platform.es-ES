@@ -1,19 +1,20 @@
 ---
-title: Añadir la lógica de recopilación de datos XDM a la etiqueta
+title: Adición de la lógica de recopilación de datos XDM a la etiqueta
 description: Aprenda a añadir la lógica de recopilación de datos XDM a la etiqueta
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ccc6df56771cd9f83bbd7a8570e32d7ed63a0ced
+exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '1224'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
-# Añadir la lógica de recopilación de datos XDM a la etiqueta
+# Adición de la lógica de recopilación de datos XDM a la etiqueta
 
 >[!NOTE]
 > 
@@ -21,7 +22,7 @@ ht-degree: 48%
 >
 >Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
 
-Después de [crear la etiqueta y agregar la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), debe configurarla con elementos de datos y reglas, según cómo desee realizar el seguimiento del sitio y enviar datos a Adobe Experience Platform. Después de configurar los elementos de datos y las reglas para la etiqueta, puede crearlos y publicarlos.
+Después de [crear la etiqueta y agregar la extensión Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), debe configurarla con elementos de datos y reglas, según cómo desee realizar el seguimiento del sitio y enviar datos a Adobe Experience Platform. Después de configurar los elementos de datos y las reglas para la etiqueta, puede crearlos y publicarlos.
 
 ## Configuración de elementos de datos
 
@@ -113,7 +114,7 @@ Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
 
    * **[!UICONTROL Nombre]**: El nombre del elemento de datos. Por ejemplo `XDM - Page View`.
 
-   * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** de la lista.
+   * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL Adobe Experience Platform Web SDK]** de la lista.
 
    * **[!UICONTROL Tipo de elemento de datos]**: seleccione **[!UICONTROL Objeto XDM]** de la lista.
 
@@ -174,7 +175,7 @@ Para definir una regla, debe hacer lo siguiente:
 
    * **[!UICONTROL Acciones]**: Seleccione **[!UICONTROL + Agregar]**. A continuación, en el cuadro de diálogo [!UICONTROL Configuración de la acción], especifique la siguiente información. Cuando haya terminado, seleccione **[!UICONTROL Conservar cambios]**.
 
-      * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** de la lista.
+      * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL Adobe Experience Platform Web SDK]** de la lista.
 
       * **[!UICONTROL Tipo de acción]**: Seleccione **[!UICONTROL Enviar evento]** de la lista.
 
@@ -194,7 +195,7 @@ Para definir una regla, debe hacer lo siguiente:
 
 Después de definir los elementos de datos y las reglas, debe generar y publicar la etiqueta. Al crear una compilación de biblioteca, debe asignarla a un entorno. Las extensiones, reglas y elementos de datos de la compilación se compilan y colocan en el entorno asignado. Cada entorno proporciona un código incrustado único que le permite integrar su compilación asignada en el sitio.
 
-Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deben adaptarse a la implementación del SDK web de Adobe Experience Platform. Consulte la [Información general de la publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es) para obtener más información.
+Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deben adaptarse a la implementación de Adobe Experience Platform Web SDK. Consulte la [Información general de la publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es) para obtener más información.
 
 Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
@@ -220,9 +221,8 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
 1. Seleccione **[!UICONTROL Guardar y compilar para desarrollo]**.
 
-   La etiqueta se guardará y se compilará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
+   La etiqueta se guardará y se creará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
 
 1. Puede seleccionar **[!UICONTROL ...]** para recompilar la biblioteca o moverla a un entorno de ensayo o producción.
 
    ![Publicar - Compilar biblioteca](assets/build-library.png)
-

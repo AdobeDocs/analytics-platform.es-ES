@@ -1,20 +1,20 @@
 ---
-title: Transición del conector de origen de Analytics al SDK web para Customer Journey Analytics
-description: Obtenga información sobre cómo realizar la transición al SDK web desde el conector de origen de Analytics al actualizar a Customer Journey Analytics
+title: Transición del conector de origen de Analytics a Web SDK para Customer Journey Analytics
+description: Obtenga información sobre cómo realizar la transición a Web SDK desde el conector de origen de Analytics al actualizar a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
-# Transición del conector de origen de Analytics al SDK web para Customer Journey Analytics
+# Transición del conector de origen de Analytics a Web SDK para Customer Journey Analytics
 
 >[!NOTE]
 > 
@@ -22,23 +22,23 @@ ht-degree: 0%
 
 El uso del conector de origen de Analytics como única implementación para Customer Journey Analytics presenta desventajas inherentes.
 
-Si su organización ya ha actualizado a Customer Journey Analytics utilizando solo la implementación del conector de origen de Analytics, debe considerar la transición a una implementación que utilice el conector de origen de Analytics (para traer datos históricos), junto con una nueva implementación del SDK web (para la recopilación continua de datos).
+Si su organización ya se ha actualizado a Customer Journey Analytics utilizando solo la implementación del conector de origen de Analytics, Adobe recomienda realizar la transición a una implementación que utilice el conector de origen de Analytics (para datos históricos), junto con una nueva implementación de Web SDK (para la recopilación continua de datos).
 
 ## Comprenda las ventajas y desventajas de utilizar el conector de origen de Analytics exclusivamente
 
 Para obtener información acerca de las ventajas y desventajas de usar el conector de origen de Analytics, vea [Usar el conector de origen de Analytics exclusivamente para actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md).
 
-## Transición del conector de origen de Analytics al SDK web
+## Transición del conector de origen de Analytics a Web SDK
 
-A continuación se muestra un proceso de alto nivel para pasar de utilizar exclusivamente el conector de origen de Analytics a una implementación compuesta tanto por el conector de origen de Analytics como por una implementación de SDK web:
+A continuación se muestra un proceso de alto nivel para la transición de utilizar exclusivamente el conector de origen de Analytics a una implementación compuesta tanto por el conector de origen de Analytics como por una implementación de Web SDK:
 
-1. Cree una implementación de SDK web, tal como se describe en [Pasos detallados de la actualización recomendada](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) en el artículo [Actualizar de Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
+1. Cree una implementación de Web SDK, tal como se describe en [Pasos detallados de la actualización recomendada](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) en el artículo [Actualizar de Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 
-   Una vez configurada la implementación del SDK web, continúe con los siguientes pasos.
+   Una vez configurada la implementación de Web SDK, continúe con los siguientes pasos.
 
 1. [Cree un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
 
-1. Asigne cada dimensión de Adobe Analytics desde el conector de origen de Analytics a la dimensión en el esquema del SDK web.
+1. Asigne cada dimensión de Adobe Analytics desde el conector de origen de Analytics a la dimensión del esquema de Web SDK.
 
    1. 
       <!-- how do you get here -->

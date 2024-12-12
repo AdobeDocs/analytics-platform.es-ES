@@ -1,18 +1,18 @@
 ---
-title: Ingesta de datos mediante el SDK web de Adobe Experience Platform
+title: Ingesta de datos mediante Adobe Experience Platform Web SDK
 description: Explicar cómo ingerir datos en Customer Journey Analytics mediante el SDK web de Adobe Experience Platform y Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '3543'
 ht-degree: 83%
 
 ---
 
-# Ingesta de datos mediante el SDK web
+# Ingesta de datos mediante Web SDK
 
 Esta guía de inicio rápido explica cómo puede ingerir datos de seguimiento de sitios web directamente en Adobe Experience Platform mediante el SDK web de Adobe Experience Platform y Edge Network y, a continuación, utilizar esos datos en Customer Journey Analytics.
 
@@ -260,7 +260,7 @@ Seleccione la etiqueta recién creada de la lista de [!UICONTROL Propiedades de 
 
 #### **Extensiones**
 
-Para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos), agregue la extensión SDK para web de Adobe Platform a la etiqueta.
+Para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos), agregue la extensión SDK web de Adobe Platform a la etiqueta.
 
 Para crear y configurar la extensión del SDK web de Adobe Experience Platform, debe hacer lo siguiente:
 
@@ -280,7 +280,7 @@ Para crear y configurar la extensión del SDK web de Adobe Experience Platform, 
 
 Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) para obtener más información.
 
-El SDK web incluye el [!UICONTROL servicio Adobe Experience Cloud ID] de forma nativa, por lo que no es necesario que agregue la extensión del servicio de ID a la etiqueta.
+Web SDK incluye el [!UICONTROL servicio Adobe Experience Cloud ID] de forma nativa, por lo que no es necesario que agregue la extensión del servicio de ID a la etiqueta.
 
 #### **Elementos de datos**
 
@@ -444,7 +444,7 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Guardar y compilar para desarrollo]**.
 
-   La etiqueta se guardará y se compilará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
+   La etiqueta se guardará y se creará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
 
 4. Puede seleccionar **[!UICONTROL ...]** para recompilar la biblioteca o moverla a un entorno de ensayo o producción.
 

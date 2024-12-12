@@ -1,20 +1,20 @@
 ---
-title: Ingesta de datos mediante el SDK para móviles de Adobe Experience Platform
-description: Explique cómo introducir datos en Customer Journey Analytics mediante el SDK para móviles de Adobe Experience Platform y el Edge Network
+title: Ingesta de datos mediante Adobe Experience Platform Mobile SDK
+description: Explique cómo introducir datos en Customer Journey Analytics a través de Adobe Experience Platform Mobile SDK y Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '3382'
 ht-degree: 60%
 
 ---
 
-# Ingesta de datos mediante el SDK para móviles
+# Ingesta de datos mediante Mobile SDK
 
-En esta guía de inicio rápido se explica cómo puede introducir datos de seguimiento de aplicaciones móviles directamente en Adobe Experience Platform mediante el SDK y el Edge Network de Adobe Experience Platform Mobile. A continuación, utilice esos datos en Customer Journey Analytics.
+En esta guía de inicio rápido se explica cómo puede ingerir datos de seguimiento de aplicaciones móviles directamente en Adobe Experience Platform mediante Adobe Experience Platform Mobile SDK y Edge Network. A continuación, utilice esos datos en Customer Journey Analytics.
 
 Para lograrlo, debe llevar a cabo lo siguiente:
 
@@ -85,7 +85,7 @@ Para configurar el esquema:
 
       Los grupos de campos son colecciones reutilizables de objetos y atributos que le permiten ampliar fácilmente su esquema.
 
-   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos], seleccione el grupo de campos **[!UICONTROL ExperienceEvent]** del SDK de AEP Mobile de la lista.
+   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos], seleccione el grupo de campos **[!UICONTROL AEP Mobile SDK ExperienceEvent]** de la lista.
 
       ![Grupo de campos Detalles del ciclo de vida móvil de AEP](./assets/select-aepmobilesdk-experienceevent.png)
 
@@ -239,7 +239,7 @@ Consulte la [Información general sobre secuencias de datos](https://experiencel
 
 ## Usar etiquetas
 
-Para implementar código en el sitio para recopilar datos, utilice la función Etiquetas de Adobe Experience Platform. Esta solución de administración de etiquetas le permite implementar código de junto con otros requisitos de etiquetado. Las etiquetas ofrecen una integración perfecta con Adobe Experience Platform mediante la extensión del SDK móvil de Adobe Experience Platform.
+Para implementar código en el sitio para recopilar datos, utilice la función Etiquetas de Adobe Experience Platform. Esta solución de administración de etiquetas le permite implementar código de junto con otros requisitos de etiquetado. Las etiquetas ofrecen una integración perfecta con Adobe Experience Platform mediante la extensión Adobe Experience Platform Mobile SDK.
 
 ### Crear una etiqueta
 
@@ -262,7 +262,7 @@ Para configurarla, seleccione la etiqueta recién creada en la lista de [!UICONT
 
 Añada la extensión del Edge Network de Adobe Platform a la etiqueta para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos).
 
-Para crear y configurar la extensión del SDK de Adobe Experience Platform Mobile:
+Para crear y configurar la extensión de Adobe Experience Platform Mobile SDK:
 
 1. Seleccione **[!UICONTROL Extensiones]** en el carril izquierdo. Verá que las extensiones Mobile Core y Profile ya están disponibles.
 
@@ -272,7 +272,7 @@ Para crear y configurar la extensión del SDK de Adobe Experience Platform Mobil
 
 1. Seleccione la zona protegida y la secuencia de datos que ha creado anteriormente para su [!UICONTROL Entorno de producción], (opcionalmente) su [!UICONTROL Entorno de ensayo] y su [!UICONTROL Entorno de desarrollo].
 
-   ![Configuración de la extensión del SDK móvil de AEP](./assets/aepmobilesdk-extension-datastream.png)
+   ![Configuración de la extensión AEP Mobile SDK](./assets/aepmobilesdk-extension-datastream.png)
 
 1. Escriba su **[!UICONTROL dominio de Edge Network]** debajo de [!UICONTROL Configuración de dominio]. Normalmente se utiliza `<organizationName>.data.adobedc.net`.
 
@@ -392,7 +392,7 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Guardar y compilar para desarrollo]**.
 
-   La etiqueta se guardará y se compilará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
+   La etiqueta se guardará y se creará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
 
 4. Puede seleccionar **[!UICONTROL ...]** para recompilar la biblioteca o moverla a un entorno de ensayo o producción.
 
@@ -417,7 +417,7 @@ Para obtener instrucciones de código que expliquen cómo configurar la aplicaci
 
 3. Seleccione **[!UICONTROL Cerrar]**.
 
-En lugar del código para el entorno de desarrollo, podría haber seleccionado otro entorno (ensayo, producción) en función de dónde se encuentre en el proceso de implementación del SDK móvil de Adobe Experience Platform.
+En lugar del código para el entorno de desarrollo, podría haber seleccionado otro entorno (ensayo, producción) en función de dónde se encuentre en el proceso de implementación de Adobe Experience Platform Mobile SDK.
 
 Consulte [Entornos](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=es) para obtener más información.
 
