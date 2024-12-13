@@ -4,10 +4,10 @@ title: Histograma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 42%
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 42%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_histogram_button"
+>id="workspace_histogram_button"
 >title="Histograma"
 >abstract="Cree una visualización de histograma para representar la distribución de datos numéricos en grupos de intervalos."
 
@@ -25,7 +25,7 @@ ht-degree: 42%
 
 La visualización ![Histograma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histograma]** es similar a una visualización de [!UICONTROL Barra], pero agrupa números en rangos (contenedores). Analytics automatiza la creación de contenedores de números en rangos, pero puede modificar la configuración en [Configuración avanzada](#advanced-settings).
 
-## En su lugar, utilice 
+## Utiliza
 
 Para crear un histograma:
 
@@ -49,7 +49,7 @@ Como parte de la visualización, hay disponibles ajustes específicos de histogr
 | Configuración de histograma | Descripción |
 |---|---|
 | **[!UICONTROL Iniciando el depósito]** | Determina por qué contenedor empieza el histograma. La opción predeterminada es “1”. Puede ajustar los números iniciales de 0 hasta el infinito (sin números negativos). |
-| **[!UICONTROL Contenedores de métricas]** | Le permite aumentar/disminuir el número de rangos de fecha (contenedores). El número máximo de contenedores es 50. |
+| **[!UICONTROL Contenedores de métricas]** | Le permite aumentar/disminuir el número de rangos de datos (contenedores). El número máximo de contenedores es 50. |
 | **[!UICONTROL Tamaño del contenedor de métricas]** | Le permite establecer el tamaño de cada contenedor. Por ejemplo, puede cambiar el tamaño del contenedor de 1 vista de página a 2 vistas de página. |
 | **[!UICONTROL Método de recuento]** | Seleccione entre **[!UICONTROL Persona]**, **[!UICONTROL Sesión]** o **[!UICONTROL Evento]**. Por ejemplo, vistas de página por sesión o vistas de página por persona o vistas de página por evento. |
 

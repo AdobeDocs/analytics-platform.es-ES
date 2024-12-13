@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_button"
+>id="workspace_mediaconcurrentviewers_button"
 >title="Espectadores simultáneos de medios"
 >abstract="Cree un panel para analizar el público medio por minuto de contenido específico o durante un período de tiempo específico."
 
@@ -25,7 +25,7 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_panel"
+>id="workspace_mediaconcurrentviewers_panel"
 >title="Espectadores simultáneos de medios"
 >abstract="Analice los visualizadores simultáneos a lo largo del tiempo, vea la concurrencia máxima o desglose y compare.<br/><br>**Granularidad**: seleccione el período de tiempo en el que desea ver los visualizadores simultáneos.<br/>**Números de resumen del panel**:<br/>opción para mostrar números de resumen con detalles de fecha u hora para cada línea. Máximo mostrará detalles para la concurrencia máxima. Mínimo mostrará los detalles de la emisión. <br/>**Desglose por serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Puede ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel."
 
@@ -55,17 +55,17 @@ En Analysis Workspace, la métrica Visualizadores simultáneos es la cantidad de
 
 +++
 
-## En su lugar, utilice 
+## Utiliza
 
 Para usar un panel de **[!UICONTROL Espectadores simultáneos de medios]**:
 
-1. Cree un panel de **[!UICONTROL Espectadores simultáneos de medios]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
+1. Cree un panel de **[!UICONTROL Espectadores simultáneos de medios]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
 1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados del complemento de recopilación de medios de streaming.
 
-1. Especifique [input](#panel-input) para el panel.
+1. Especifica la [entrada](#panel-input) para el panel.
 
-1. Observe la [salida](#panel-output) del panel.
+1. Observa la [salida](#panel-output) del panel.
 
 ### Entrada de panel
 

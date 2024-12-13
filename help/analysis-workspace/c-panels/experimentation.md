@@ -4,7 +4,7 @@ title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '2144'
 ht-degree: 20%
@@ -16,7 +16,7 @@ ht-degree: 20%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_button"
+>id="workspace_experimentation_button"
 >title="Experimentación"
 >abstract="Cree un panel para comparar diferentes variaciones de experiencias de usuario, marketing o mensajería. Y determinar qué variación es la mejor para lograr un resultado específico."
 
@@ -25,9 +25,9 @@ ht-degree: 20%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_panel"
+>id="workspace_experimentation_panel"
 >title="Experimentación"
->abstract="Compare distintas variaciones de experiencia del usuario, marketing o mensajería para determinar cuál es la mejor opción a fin de obtener un resultado específico.<br/><br/>**Parámetros **<br/>**Experimento**: el experimento que se analiza.<br>**Variante de control**: variante de control del experimento seleccionado.<br/>**Métrica de éxito**: hasta 5 métricas de éxito estándar (no calculadas) con las que analizar el experimento.<br/>**Métrica de normalización**: personas, sesiones o eventos. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. Esta métrica también afecta a la manera en que se añaden los datos antes de que se calcule la confianza."
+>abstract="Compare diferentes variaciones de experiencias de usuario, marketing o mensajería para determinar cuál es la mejor manera de impulsar un resultado específico.<br/><br/>**Parámetros **<br/>**Experimento**: el experimento que se analiza.<br>**Variante de control**: variante de control del experimento seleccionado.<br/>**Métrica de éxito**: hasta 5 métricas de éxito estándar (no calculadas) con las que analizar el experimento.<br/>**Métrica de normalización**: personas, sesiones o eventos. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. Esta métrica también afecta a la manera en que se añaden los datos antes de que se calcule la confianza."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -69,16 +69,16 @@ En la vista de datos que contiene datos de experimentación, elija dos dimension
 
 Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no hay experimentos con los que trabajar.
 
-## En su lugar, utilice 
+## Utiliza
 
 Para usar un panel **[!UICONTROL Experimentación]**:
 
-1. Crear un panel de **[!UICONTROL Experimentación]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
+1. Crear un panel de **[!UICONTROL Experimentación]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
 
-1. Especifique [input](#panel-input) para el panel.
+1. Especifica la [entrada](#panel-input) para el panel.
 
-1. Observe la [salida](#panel-output) del panel.
+1. Observa la [salida](#panel-output) del panel.
 
    >[!IMPORTANT]
    >
@@ -109,7 +109,7 @@ Para usar el panel Experimentación:
 
 El panel Experimentación devuelve un completo conjunto de datos y visualizaciones para ayudarle a comprender mejor el rendimiento de sus experimentos. En la parte superior del panel, se proporcionan visualizaciones de [cambio de resumen](../visualizations/summary-number-change.md) para recordarle la configuración del panel que ha seleccionado. En cualquier momento, puede editar el panel seleccionando el lápiz de edición en la parte superior derecha.
 
-También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. La conclusión se basa en la relevancia estadística (consulte [Metodología estadística](#adobes-statistical-methodology)). Puede ver los números de resúmenes de la variante con mejor rendimiento, con el alza y la confianza más altas.
+También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. La conclusión se basa en la relevancia estadística (consulte [Metodología estadística](#adobes-statistical-methodology).) Puede ver los números de resumen de la variante con mejor rendimiento, con el alza y la confianza más altas.
 
 Para cada métrica de éxito seleccionada, se muestra una visualización de [tabla de forma libre](../visualizations/freeform-table/freeform-table.md) y una visualización de tasa de conversión [línea](../visualizations/line.md).
 

@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 54%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaplaybacktimespent_button"
+>id="workspace_mediaplaybacktimespent_button"
 >title="Tiempo invertido en la reproducción de medios"
 >abstract="Cree un panel para analizar el consumo de vídeo a lo largo del tiempo, con varios niveles de granularidad, y la capacidad de realizar desgloses y comparaciones."
 
@@ -25,7 +25,7 @@ ht-degree: 54%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaplaybacktimespent_panel"
+>id="workspace_mediaplaybacktimespent_panel"
 >title="Tiempo invertido en la reproducción de medios"
 >abstract="Analice el consumo de vídeo a lo largo del tiempo, seleccione varias granularidades, desglose y compare.<br/><br/>**Granularidad**: seleccione el período de tiempo en el que desea ver los visualizadores simultáneos.<br/>**Números de resumen del panel (opcional)**: opción para mostrar números de resumen con detalles de fecha u hora para cada línea. Máximo mostrará detalles del tiempo máximo de reproducción consumido. Mínimo mostrará los detalles de la emisión. La suma muestra detalles de la suma total de tiempo de reproducción transcurrido.<br/>**Desglose por serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Puede ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel.<br/>**Formato de hora**: opción para mostrar el formato de hora de las visualizaciones en horas o minutos."
 
@@ -57,17 +57,17 @@ El tiempo invertido en la reproducción puede ayudarle a comprender lo siguiente
 
 +++
 
-## En su lugar, utilice 
+## Utiliza
 
 Para usar un panel **[!UICONTROL Tiempo invertido en la reproducción de contenido]**:
 
-1. Crear un panel **[!UICONTROL Tiempo invertido en la reproducción de contenido]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
+1. Crear un panel **[!UICONTROL Tiempo invertido en la reproducción de contenido]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
 1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados del complemento de recopilación de medios de streaming.
 
-1. Especifique [input](#panel-input) para el panel.
+1. Especifica la [entrada](#panel-input) para el panel.
 
-1. Observe la [salida](#panel-output) del panel.
+1. Observa la [salida](#panel-output) del panel.
 
 
 ### Entrada de panel

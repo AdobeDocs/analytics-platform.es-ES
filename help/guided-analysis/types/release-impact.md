@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 7%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_releaseimpact_button"
->title="Impacto de la versión"
+>id="workspace_guidedanalysis_releaseimpact_button"
+>title="Impacto de versión"
 >abstract="Compare el rendimiento en períodos iguales antes y después de la publicación."
 
 <!-- markdownlint-enable MD034 -->
@@ -46,7 +46,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Vista]**: cambiar entre este análisis y [Primer impacto de uso](first-use-impact.md).
 * **[!UICONTROL Indicadores clave]**: Los eventos que desea medir por usuario. Cada indicador clave seleccionado se representa como una línea de color. Se agrega a la tabla una fila que representa el evento. Se pueden incluir hasta tres eventos.
-* **[!UICONTROL Contado como]**: El método de conteo que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Porcentaje de usuarios], [!UICONTROL Eventos], [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
+* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Porcentaje de usuarios], [!UICONTROL Eventos], [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
 * **[!UICONTROL Factores]**: La fecha que desea comparar antes y después de.
 * **[!UICONTROL Segmentos]**: El segmento que desea medir. El segmento seleccionado filtra los datos para centrarse únicamente en las personas que coinciden con los criterios del segmento.
 

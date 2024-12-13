@@ -4,10 +4,10 @@ title: Barras horizontales y barras horizontales apiladas
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
@@ -20,7 +20,7 @@ La visualización de barras horizontales tiene una opción estándar y apilada.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_horizontalbar_button"
+>id="workspace_horizontalbar_button"
 >title="Barra horizontal"
 >abstract="Cree una visualización de barras horizontales para representar varios valores en una o varias métricas."
 
@@ -36,7 +36,7 @@ Esta visualización de ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizont
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_horizontalbarstacked_button"
+>id="workspace_horizontalbarstacked_button"
 >title="Barras horizontales apiladas"
 >abstract="Cree una visualización de barras horizontales para representar varios valores en una o varias métricas apiladas."
 

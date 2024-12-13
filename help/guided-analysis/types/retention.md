@@ -1,11 +1,11 @@
 ---
 title: Análisis de retención
-description: Mida cuántos usuarios siguen utilizando su producto.
+description: Mida cuántos usuarios siguen usando el producto.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 3%
@@ -17,9 +17,9 @@ ht-degree: 3%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_retention_button"
+>id="workspace_guidedanalysis_retention_button"
 >title="Retención"
->abstract="Mida cuántos usuarios siguen utilizando su producto."
+>abstract="Mida cuántos usuarios siguen usando el producto."
 
 <!-- markdownlint-enable MD034 -->
 

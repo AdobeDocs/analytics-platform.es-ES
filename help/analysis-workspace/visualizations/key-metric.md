@@ -4,10 +4,10 @@ title: Resumen de métricas clave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 35%
+ht-degree: 41%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 35%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_keymetricsummary_button"
+>id="workspace_keymetricsummary_button"
 >title="Resumen de métricas clave"
 >abstract="Cree una visualización que sea una combinación de los gráficos de líneas, resumen de cambios y resumen de números. Utilice esta visualización para comparar la tendencia de las métricas importantes entre dos períodos de tiempo."
 
@@ -39,7 +39,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 
 * Un ejecutivo que quiere entender cómo han variado las nuevas reservas de este trimestre al último.
 
-## En su lugar, utilice 
+## Utiliza
 
 1. Agregue una visualización de ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL resumen de métricas clave]**. Consulte [Agregar una visualización a un panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 

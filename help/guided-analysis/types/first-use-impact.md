@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_firstuseimpact_button"
+>id="workspace_guidedanalysis_firstuseimpact_button"
 >title="Impacto del primer uso"
 >abstract="Mida el impacto del uso de funciones por primera vez en indicadores clave."
 
@@ -52,7 +52,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Vista]**: cambie entre este análisis y [Versión](release-impact.md).
 * **[!UICONTROL Indicadores clave]**: Los eventos que desea medir por usuario. Cada indicador clave seleccionado se representa como una línea de color. Se agrega a la tabla una fila que representa el evento. Se pueden incluir hasta tres eventos.
-* **[!UICONTROL Contado como]**: El método de conteo que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Eventos], [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
+* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Eventos], [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
 * **[!UICONTROL Factores]**: Hay dos factores para este análisis:
    * **[!UICONTROL Fecha]**: ¿Hasta dónde quiere empezar a buscar la primera vez que se produjo el evento de uso?
    * **[!UICONTROL Evento]**: el evento en el que desea buscar el primer uso, para centrar el análisis.
