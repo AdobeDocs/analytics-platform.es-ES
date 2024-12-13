@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1127'
 ht-degree: 56%
 
 ---
@@ -63,7 +63,7 @@ Para usar un panel **[!UICONTROL Tiempo invertido en la reproducción de conteni
 
 1. Crear un panel **[!UICONTROL Tiempo invertido en la reproducción de contenido]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
-1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados del complemento de recopilación de medios de streaming.
+1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados de la recopilación de medios de streaming.
 
 1. Especifica la [entrada](#panel-input) para el panel.
 

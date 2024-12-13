@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 221b73ef8dc0f7d28d13b8571955792367519849
-workflow-type: ht
-source-wordcount: '2320'
-ht-degree: 100%
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
+workflow-type: tm+mt
+source-wordcount: '2319'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Acceso a la API creación de informes** | Compatibilidad total. Disponible a través de la [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
 | **Informes y proyectos programados** | Compatibilidad total |
 | **Segmentos** | Compatibilidad total. Ahora se denominan “Filtros”: tenga en cuenta que los segmentos existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
-| **Complemento de colección de medios de streaming** | Los datos de medios de streaming están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |
+| **Colección de medios de streaming** | Los datos de medios de streaming están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |
 | **Fuentes de datos de nivel de resumen** | Compatibilidad total |
 | **Grupos de informes virtuales** | Compatibilidad total. Ahora se denomina [Vistas de datos](/help/data-views/create-dataview.md). |
 | **Depuración de componentes de grupo de informes virtuales** | Compatibilidad total. Ahora forma parte de Vistas de datos. |

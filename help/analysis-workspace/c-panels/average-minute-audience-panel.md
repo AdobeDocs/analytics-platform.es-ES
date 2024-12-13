@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Audiencia media por minuto de
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1787'
 ht-degree: 30%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->El panel **[!UICONTROL Audiencia media por minuto de medios]** solo está disponible para los clientes que hayan comprado el complemento Recopilación de medios de streaming para Customer Journey Analytics.
+>El panel **[!UICONTROL Audiencia media por minuto de medios]** solo está disponible para los clientes que hayan adquirido la recopilación de medios de streaming para Customer Journey Analytics.
 >
 >Póngase en contacto con el representante de ventas de Adobe o con el equipo de cuenta de Adobe para obtener más información.
 >
@@ -62,8 +62,7 @@ Para usar un panel de **[!UICONTROL Audiencia media por minuto de medios]**:
 
 1. Crear un panel de **[!UICONTROL audiencia media por minuto de medios]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
-1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados del complemento de recopilación de medios de streaming.
-
+1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados de la recopilación de medios de streaming.
 
 1. Especifica la [entrada](#panel-input) para el panel.
 

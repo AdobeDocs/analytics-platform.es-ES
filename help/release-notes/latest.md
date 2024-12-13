@@ -3,10 +3,10 @@ title: Ver las notas de la versión de Customer Journey Analytics actuales
 description: Últimas notas de la versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1fffde84a332a7ae2911b8d8e8bb62717e5f2043
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 98%
 
 ---
 
@@ -40,11 +40,10 @@ Report Builder: AN-361022
 | --- | --- | --- |
 | N/A | | |
 
-
 ## Recursos relacionados
 
 * [Notas de la versión anteriores de Customer Journey Analytics de 2024](/help/release-notes/2024.md)
 * [Notas de la versión de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
-* [Notas de la versión del complemento de recopilación de medios de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
+* [Notas de la versión de Streaming Media Collection](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
 * [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
 * [Actualizaciones de la documentación de Customer Journey Analytics](/help/release-notes/doc-changes.md)

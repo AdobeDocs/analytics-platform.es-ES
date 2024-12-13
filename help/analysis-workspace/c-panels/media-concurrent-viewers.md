@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1207'
 ht-degree: 47%
 
 ---
@@ -61,7 +61,7 @@ Para usar un panel de **[!UICONTROL Espectadores simultáneos de medios]**:
 
 1. Cree un panel de **[!UICONTROL Espectadores simultáneos de medios]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
-1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados del complemento de recopilación de medios de streaming.
+1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados de la recopilación de medios de streaming.
 
 1. Especifica la [entrada](#panel-input) para el panel.
 

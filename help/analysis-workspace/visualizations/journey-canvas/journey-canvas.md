@@ -4,9 +4,9 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1657'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ Use [la tabla anterior](#understand-the-differences) para comprender las diferen
 
 El análisis de recorridos de Journey Optimizer en lienzo de Recorrido proporciona perspectivas profundas y procesables sobre cómo las personas interactúan con un recorrido.
 
-Cuando se analiza un recorrido de Journey Optimizer en lienzo de Recorrido, el recorrido se muestra con el mismo orden, secuencia y estructura que en Journey Optimizer. Si puede realizar cambios en un recorrido dentro del lienzo de Recorrido, [los cambios ya no se sincronizan desde Journey Optimizer](#synchronization-between-journey-optimizer-and-journey-canvas).
+Cuando se analiza un recorrido de Journey Optimizer en lienzo de Recorrido, el recorrido se muestra con el mismo orden, secuencia y estructura que en Journey Optimizer. Si realiza cambios significativos en un recorrido dentro del lienzo de Recorrido, [los cambios ya no se sincronizan desde Journey Optimizer](#synchronization-between-journey-optimizer-and-journey-canvas).
 
 ### Ventajas del análisis de recorridos de Journey Optimizer con lienzo de Recorrido
 
@@ -152,7 +152,7 @@ El uso del lienzo de Recorrido para analizar los recorridos creados en Journey O
 
 Después de crear un análisis de un recorrido de Journey Optimizer en lienzo de Recorrido, los datos se sincronizan en una sola dirección, de Journey Optimizer a lienzo de Recorrido. Esto significa que los cambios realizados en un recorrido en lienzo de Recorrido nunca se reflejan en Journey Optimizer.
 
-Además, los cambios realizados en un recorrido en Journey Optimizer se sincronizan con el lienzo de Recorrido solo si el recorrido permanece sin modificar en el lienzo de Recorrido. Después de modificar un recorrido en lienzo de Recorrido, los cambios realizados en el recorrido en Journey Optimizer no se reflejarán en el lienzo de Recorrido. Para ver los cambios reflejados en el lienzo de Recorrido, puede eliminar y [volver a crear el recorrido en el lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Además, los cambios realizados en un recorrido de Journey Optimizer se sincronizan con el lienzo de Recorrido [sólo si el recorrido no se ha modificado significativamente en el lienzo de Recorrido](#differences-after-modifying-a-journey-in-journey-canvas). Después de modificar un recorrido en lienzo de Recorrido, los cambios realizados en el recorrido en Journey Optimizer no se reflejarán en el lienzo de Recorrido. Para ver los cambios reflejados en el lienzo de Recorrido, puede eliminar y [volver a crear el recorrido en el lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 ### Diferencias después de modificar un recorrido en lienzo de Recorrido {#differences-after-modifying}
 

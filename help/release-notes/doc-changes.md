@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
-workflow-type: ht
-source-wordcount: '4216'
-ht-degree: 100%
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
+workflow-type: tm+mt
+source-wordcount: '4219'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función de deduplicación de campos derivados | Se ha añadido documentación sobre la función [deduplicar](/help/data-views/derived-fields/derived-fields.md#deduplicate) del campo derivado. |
 | Mensajes de error comunes actualizados | Se han realizado actualizaciones menores de los [mensajes de error comunes](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junio de 2024** | |
-| Se ha actualizado el nombre del producto que hace referencia a las funciones de medios de streaming | Se han reemplazado las instancias de “Media Analytics” y “Streaming Media” por el nombre de “Complemento de colección Streaming Media” al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Customer Journey Analytics, así como en la [Documentación del Complemento de colección Streaming Media](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
+| Se ha actualizado el nombre del producto que hace referencia a las funciones de medios de streaming | Se han reemplazado las instancias de &quot;Media Analytics&quot; y &quot;Streaming Media&quot; con el nombre &quot;Streaming Media Collection Add-on&quot; y &quot;Streaming Media Collection&quot; al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación del Customer Journey Analytics, así como en [la recopilación de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
 | Identificación basada en gráficos | Se ha actualizado y reestructurado la [documentación de vinculación](/help/stitching/overview.md) con la introducción de la vinculación basada en gráficos. |
 | Asistente de IA | Se agregó [documentación](../ai-assistant.md) en el Asistente de IA para Customer Journey Analytics. |
 | Transformar el conjunto de datos para búsquedas B2B | Se ha añadido documentación sobre cómo admitir [búsquedas basadas en personas en datos B2B](/help/connections//transform-datasets-b2b-lookups.md) (incluidas cuentas, oportunidades, listas de marketing y campañas) mediante la transformación de conjuntos de datos de búsqueda B2B. |
