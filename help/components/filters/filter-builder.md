@@ -1,17 +1,17 @@
 ---
 description: El Generador de filtros proporciona un lienzo al que arrastrar y en el que soltar los Dimension de métricas, los filtros y los eventos para filtrar a las personas en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar filtros simples o complejos que identifican atributos y acciones de personas en visitas y eventos.
-title: Generación de filtros
+title: Generar filtros
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 8772f2dcd5f9c20ca9d366b8c172218f45e4713c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 6%
+source-wordcount: '1494'
+ht-degree: 7%
 
 ---
 
-# Generación de filtros {#build-filters}
+# Generar filtros {#build-filters}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -21,6 +21,16 @@ ht-degree: 6%
 >abstract="Los públicos se pueden crear a partir de un filtro y compartirse con Adobe Experience Platform para su activación."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_filter_datapreview"
+>title="Previsualización de datos"
+>abstract="Compara los datos de este filtro con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de **últimos 90 días**.<br><br/>Si no se carga la vista previa, es posible que la conexión se esté llenando de nuevo."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 El cuadro de diálogo **[!UICONTROL Generador de filtros]** se usa para crear filtros nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo filtro]** o **[!UICONTROL Editar filtro]** para los filtros que crea o administra desde el administrador de [[!UICONTROL Filtros]](/help/components/filters/manage-filters.md).
@@ -37,7 +47,7 @@ El cuadro de diálogo **[!UICONTROL Generador de filtros]** se usa para crear fi
 
 >[!ENDTABS]
 
-1. Especifique los siguientes detalles (![Necesario](/help/assets/icons/Required.svg) es obligatorio):
+1. Especifica los siguientes detalles (![Necesario](/help/assets/icons/Required.svg) es obligatorio):
 
    | Elemento | Descripción |
    | --- | --- |
@@ -45,7 +55,7 @@ El cuadro de diálogo **[!UICONTROL Generador de filtros]** se usa para crear fi
    | **[!UICONTROL Filtro solo de proyecto]** | Un cuadro de información para explicar que el filtro solo está visible en el proyecto en el que se crea y que el filtro no se agregará a la lista de componentes. Habilite **[!UICONTROL Ponga este filtro a disposición de todos sus proyectos y agréguelo a la lista de componentes]** para cambiar esa configuración. Este cuadro de información solo está visible cuando crea un [filtro rápido](quick-filters.md) y convierte la información de filtro rápido en un filtro normal mediante **[!UICONTROL Abrir generador]** desde la interfaz de [!UICONTROL Filtro rápido]. |
    | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre al filtro, por ejemplo, `Last month mobile customers`. |
    | **[!UICONTROL Descripción]** | Proporcione una descripción para el filtro, por ejemplo, `Filter to define the mobile customers for the last month`. |
-   | **[!UICONTROL Etiquetas]** | Organice el filtro creando o aplicando una o más etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O presione **[!UICONTROL ENTRAR]** para agregar una etiqueta nueva. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
+   | **[!UICONTROL Etiquetas]** | Organice el filtro creando o aplicando una o más etiquetas. Empieza a escribir para buscar las etiquetas existentes que puedes seleccionar. O presione **[!UICONTROL ENTRAR]** para agregar una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
    | **[!UICONTROL Definición]** ![Requerida](/help/assets/icons/Required.svg) | Defina su filtro con el [generador de definiciones](#definition-builder). |
 
    {style="table-layout:auto"}
