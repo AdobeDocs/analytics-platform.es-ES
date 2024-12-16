@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3364'
 ht-degree: 14%
 
 ---
@@ -121,7 +121,7 @@ Para ir a los detalles de una conexión, seleccione un nombre de conexión en la
 
 ![Ventana de todos los conjuntos de datos que muestra los widgets y la configuración](assets/conn-details.png)
 
-La interfaz de detalles Conexiones proporciona una vista detallada del estado de una conexión. Puede realizar lo siguiente:
+La interfaz de detalles Conexiones proporciona una vista detallada del estado de una conexión. Puedes realizar lo siguiente:
 
 * Compruebe el estado de los conjuntos de datos de la conexión y del proceso de ingesta.
 * Identifique los problemas de configuración que pueden provocar registros omitidos o eliminados.
@@ -205,6 +205,46 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 
 ## Uso
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_keyusagemetrics"
+>title="Métricas de uso clave"
+>abstract="Proporcione datos mensuales y totales para las filas principales e históricas sobre las que se debe informar."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyingestedrows"
+>title="Filas ingeridas mensualmente"
+>abstract="Mide el número total de registros agregados al sistema cada mes para proporcionar información sobre el crecimiento de los datos y las tasas de ingesta."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyreportablerows"
+>title="Filas que es posible notificar mensualmente"
+>abstract="Registra el número de filas disponibles para la creación de informes. Las filas reportables son las filas ingeridas menos las filas que se omiten y eliminan durante la ingesta. Las filas notificables sirven como métrica clave para la facturación y el uso de datos."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_detailbreakdown"
+>title="Desglose por detalle."
+>abstract="Puede ver métricas detalladas por conexión, conjunto de datos, zona protegida y etiquetas, con la opción de descargar un archivo CSV de los datos."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 La interfaz [!UICONTROL Uso] muestra el uso de filas ingeridas y notificables en todas las conexiones. Esta interfaz le permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente. Además de supervisar, puede utilizar la interfaz de usuario de para planificar la renovación de su licencia de Customer Journey Analytics.
 
