@@ -4,7 +4,7 @@ description: El Creador de métricas calculadas permite aplicar funciones estad�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 93%
@@ -191,7 +191,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_median"
+>id="calcmetrics_function_median"
 >title="Mediana"
 >abstract="Devuelve la mediana de una métrica en una columna. La mediana es el número situado en medio de un conjunto de números. Es decir, la mitad de los números tienen valores mayores o iguales a la mediana y la mitad son menores o iguales a la mediana."
 
@@ -426,7 +426,7 @@ Suma de las columnas de cada fila.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_square_root"
+>id="calcmetrics_function_square_root"
 >title="Raíz cuadrada"
 >abstract="Devuelve la raíz cuadrada positiva de un número. La raíz cuadrada de un número es el valor de dicho número elevado a la potencia de 1/2."
 
