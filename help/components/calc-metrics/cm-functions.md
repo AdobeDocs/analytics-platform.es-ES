@@ -4,10 +4,10 @@ description: El Creador de métricas calculadas permite aplicar funciones estad�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
-workflow-type: ht
-source-wordcount: '1185'
-ht-degree: 100%
+source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+workflow-type: tm+mt
+source-wordcount: '1636'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,17 @@ Un escenario alternativo es que tiene dos métricas de interés y una tiene un p
 
 
 
-## Valor absoluto
+## Valor absoluto {#absolute-value}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_absolute_value"
+>title="Valor absoluto"
+>abstract="Devuelve el valor absoluto de un número. El valor absoluto de un número es el número con un valor positivo."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VALOR ABSOLUTO(métrica)]**
 
@@ -49,7 +59,16 @@ Un escenario alternativo es que tiene dos métricas de interés y una tiene un p
 | métrica | La métrica para la cual desea calcular el valor absoluto. |
 
 
-## Máximo de columna
+## Máximo de columna {#column-maximum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_maximum"
+>title="Máximo de columna"
+>abstract="Devuelve el mayor valor en un conjunto de elementos de una dimensión para una columna de métrica. MAXV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MÁXIMO DE COLUMNA(métrica, include_zeros)]**
 
@@ -61,7 +80,17 @@ Devuelve el mayor valor en un conjunto de elementos de una dimensión para una c
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-## Mínimo de columna
+## Mínimo de columna {#column-minimum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_minimum"
+>title="Mínimo de columna"
+>abstract="Devuelve el menor valor en un conjunto de elementos de una dimensión para una columna de métrica. MINV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MÍNIMO DE COLUMNA(métrica, include_zeros)]**
 
@@ -73,7 +102,17 @@ Devuelve el menor valor en un conjunto de elementos de una dimensión para una c
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-## Suma de columna
+## Suma de columna {#column-sum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_sum"
+>title="Suma de columna"
+>abstract="Suma todos los valores numéricos de una métrica dentro de una columna (entre los elementos de una dimensión)."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL SUMA DE COLUMNA(métrica)]**
 
@@ -84,7 +123,17 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 | métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 
 
-## Recuento
+## Recuento {#count}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_count"
+>title="Recuento"
+>abstract="Devuelve un número, o recuento, de valores distintos de cero para una métrica dentro de una columna (el número de elementos únicos incluidos dentro de una dimensión)."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL RECUENTO(métrica)]**
 
@@ -95,7 +144,16 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 | métrica | La métrica que desea contar. |
 
 
-## Exponente
+## Exponente {#exponent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_exponent"
+>title="Exponente"
+>abstract="Devuelve e elevado a la potencia de un número determinado. La constante e es igual a 2,71828182845904, la base del logaritmo natural. EXPONENT es la inversa de LN, el logaritmo natural de un número."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTE(métrica)]**
 
@@ -106,7 +164,17 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 | métrica | El exponente aplicado a la base e. |
 
 
-## Media
+## Media {#mean}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_mean"
+>title="Media"
+>abstract="Devuelve la media aritmética o el promedio de una métrica de una columna"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIA(métrica, include_zeros)]**
 
@@ -118,7 +186,17 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-## Mediana
+## Mediana {#median}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_funcion_median"
+>title="Mediana"
+>abstract="Devuelve la mediana de una métrica en una columna. La mediana es el número situado en medio de un conjunto de números. Es decir, la mitad de los números tienen valores mayores o iguales a la mediana y la mitad son menores o iguales a la mediana."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIANA(métrica, include_zeros)]**
 
@@ -130,7 +208,17 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-## Módulo
+## Módulo {#modulo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_modulo"
+>title="Módulo"
+>abstract="Devuelve el resto tras dividir x entre y utilizando la división euclídea. "
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MÓDULO(metric_X, metric_Y)]**
 
@@ -157,7 +245,17 @@ Para obtener siempre un número positivo, utilice
 MODULO(MODULO(x,y)+y,y)
 ```
 
-## Percentil
+## Percentil {#percentile}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_percentile"
+>title="Percentil"
+>abstract="Devuelve el percentil número n, que es un valor entre 0 y 100. Cuando n &lt; 0, la función utiliza cero. Cuando n > 100, la función devuelve 100."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTIL(métrica, k, include_zeros)]**
 
@@ -171,7 +269,16 @@ MODULO(MODULO(x,y)+y,y)
 
 
 
-## Operador de potencia
+## Operador de potencia {#power-operator}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_power_operator"
+>title="Operador de potencia"
+>abstract="Devuelve x elevado a la potencia y."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL OPERADOR DE ENERGÍA(metric_X, metrix_Y)]**
 
@@ -183,7 +290,17 @@ Devuelve x elevado a la potencia y.
 | metric_Y | La potencia a la que le gustaría aumentar metric_X. |
 
 
-## Cuartil
+## Cuartil {#quartile}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_quartile"
+>title="Cuartil"
+>abstract="Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles se pueden utilizar para encontrar el 25 % de productos que genera la mayor cantidad de ingresos."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL CUARTIL(métrica, cuartil, include_zeros)]**
 
@@ -196,7 +313,16 @@ Devuelve x elevado a la potencia y.
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-## Ronda
+## Ronda {#round}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_round"
+>title="Ronda"
+>abstract="Redondear sin un parámetro de *número* es lo mismo que redondear con un parámetro de *número* de 0, es decir, redondear al número entero más próximo.  Con un parámetro de *número*, REDONDEAR devuelve los dígitos de *número* a la derecha del decimal. Si *número* es negativo, devuelve ceros a la izquierda del decimal."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL REDONDEO(métrica, número)]**
 
@@ -216,15 +342,32 @@ ROUND( 314.15, -1) = 310
 ROUND( 314.15, -2) = 300
 ```
 
+## Recuento de fila {#row-count}
 
-## Recuento de fila
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_count"
+>title="Recuento de fila"
+>abstract="Devuelve el recuento de filas de una columna en concreto (el número de elementos únicos registrados en una dimensión). *Se han superado los límites* se cuenta como 1."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL RECUENTO DE FILAS()]**
 
 Devuelve el recuento de filas de una columna en concreto (el número de elementos únicos registrados en una dimensión). *Se han superado los límites* se cuenta como 1.
 
 
-## Máximo de fila
+## Máximo de fila {#row-max}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_max"
+>title="Máximo de fila"
+>abstract="Máximo de las columnas de cada fila."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MAX DE FILA(métrica, include_zeros)]**
 
@@ -235,7 +378,17 @@ Máximo de las columnas de cada fila.
 | métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
-## Mínimo de fila
+
+## Mínimo de fila {#row-min}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_min"
+>title="Mínimo de fila"
+>abstract="Mínimo de las columnas de cada fila."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL FILA MÍN(métrica, include_zeros)]**
 
@@ -248,7 +401,16 @@ Mínimo de las columnas de cada fila.
 
 
 
-## Suma de fila
+## Suma de fila {#row-sum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_sum"
+>title="Suma de fila"
+>abstract="Suma de las columnas de cada fila."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL SUMA DE FILA(métrica, include_zeros)]**
 
@@ -259,7 +421,17 @@ Suma de las columnas de cada fila.
 | métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 
 
-## Raíz cuadrada
+## Raíz cuadrada {#square-root}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_funcion_square_root"
+>title="Raíz cuadrada"
+>abstract="Devuelve la raíz cuadrada positiva de un número. La raíz cuadrada de un número es el valor de dicho número elevado a la potencia de 1/2."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL RAÍZ CUADRADA(métrica, include_zeros)]**
 
@@ -270,7 +442,16 @@ Suma de las columnas de cada fila.
 | métrica | La métrica para la cual desea la raíz cuadrada. |
 
 
-## Desviación estándar
+## Desviación estándar {#standard-deviation}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_standard_deviation"
+>title="Desviación estándar"
+>abstract="Devuelve la desviación estándar, o la raíz cuadrada de la varianza, de una recopilación de datos de muestra."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL DESVIACIÓN ESTÁNDAR(métrica, include_zeros)]**
 
@@ -282,7 +463,16 @@ Suma de las columnas de cada fila.
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-## Varianza
+## Varianza {#variance}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_variance"
+>title="Varianza"
+>abstract="Devuelve la varianza de una recopilación de datos de muestra."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA(métrica, include_zeros)]**
 
@@ -320,9 +510,6 @@ En el ejemplo de la siguiente columna de tres elementos:
 | 3 |
 
 El promedio de esta columna es 2. La varianza de la columna es ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3.
-
-
-
 
 <!--
 
