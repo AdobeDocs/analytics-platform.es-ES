@@ -10,9 +10,9 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 06e4346effcde3e2bec66cfdba801fc2420dcc81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -365,7 +365,7 @@ ht-degree: 99%
 
 + Identificación {#stitching}
    + [Información general](/help/stitching/overview.md)
-   + [Vinculación basada en el campo](/help/stitching/fbs.md)
+   + [Vinculación basada en campos](/help/stitching/fbs.md)
    + [Vinculación basada en gráficos](/help/stitching/gbs.md)
    + [Usar vinculación](/help/stitching/use-stitching.md)
    + [Creación y administración de conjuntos de datos identificados](/help/stitching/stitching-ui.md)
