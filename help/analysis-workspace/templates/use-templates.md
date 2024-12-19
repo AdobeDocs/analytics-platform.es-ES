@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3ae10f81cb38500c035811542bc761f06688a130
+source-git-commit: 34b94eeeeb501f6c0deb982351b7c65e0a97bc68
 workflow-type: tm+mt
-source-wordcount: '17969'
+source-wordcount: '18106'
 ht-degree: 81%
 
 ---
@@ -1347,6 +1347,24 @@ Las plantillas disponibles son las siguientes:
 | **En línea/Sin conexión** | Vea conjuntamente el tráfico en línea y sin conexión.<p>**Esto puede ayudarle** a comprender mejor la distribución del tráfico en línea y sin conexión a su sitio.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como asignar más recursos a su experiencia en línea cuando alcanza un determinado nivel de tráfico.</p><!-- This template uses the ... --> |
 
 ### Otros canales {#other-channels}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--pointOfSale"
+>title="Ver datos de transacciones del punto de venta (TPV), incluidos los ingresos obtenidos, los pedidos realizados y las unidades vendidas. Esta plantilla también incluye visualizaciones que muestran información sobre las principales tiendas, los principales productos y las principales categorías de productos, así como las ventas en línea frente a las ventas sin conexión."
+>abstract="**Esto puede ayudarte** a comprender mejor cuáles son tus productos más vendidos en la tienda y en línea.<br/>**Según lo que sepa, podría** hacer muchas cosas, como asignar más recursos de marketing a los productos y canales de mayor rendimiento."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--survey"
+>title="Vea la participación del usuario en sus encuestas. Vea el número de inicios y finalizaciones, las preguntas y respuestas principales y el número de participantes primeros frente a repetidos."
+>abstract="**Esto puede ayudarte** a comprender mejor los niveles de participación y la tasa de éxito de tus encuestas.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como ajustar encuestas futuras para obtener una mejor participación."
+
+<!-- markdownlint-enable MD034 -->
 
 Las plantillas disponibles son las siguientes:
 
