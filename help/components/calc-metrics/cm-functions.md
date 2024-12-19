@@ -4,7 +4,7 @@ description: El Creador de métricas calculadas permite aplicar funciones estad�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 93%
@@ -43,7 +43,7 @@ Un escenario alternativo es que tiene dos métricas de interés y una tiene un p
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_absolute_value"
+>id="functions-abs"
 >title="Valor absoluto"
 >abstract="Devuelve el valor absoluto de un número. El valor absoluto de un número es el número con un valor positivo."
 
@@ -64,7 +64,7 @@ Un escenario alternativo es que tiene dos métricas de interés y una tiene un p
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_maximum"
+>id="functions-col-max"
 >title="Máximo de columna"
 >abstract="Devuelve el mayor valor en un conjunto de elementos de una dimensión para una columna de métrica. MAXV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión."
 
@@ -85,7 +85,7 @@ Devuelve el mayor valor en un conjunto de elementos de una dimensión para una c
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_minimum"
+>id="functions-col-min"
 >title="Mínimo de columna"
 >abstract="Devuelve el menor valor en un conjunto de elementos de una dimensión para una columna de métrica. MINV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión."
 
@@ -107,7 +107,7 @@ Devuelve el menor valor en un conjunto de elementos de una dimensión para una c
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_sum"
+>id="functions-col-sum"
 >title="Suma de columna"
 >abstract="Suma todos los valores numéricos de una métrica dentro de una columna (entre los elementos de una dimensión)."
 
@@ -128,7 +128,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_count"
+>id="functions-count"
 >title="Recuento"
 >abstract="Devuelve un número, o recuento, de valores distintos de cero para una métrica dentro de una columna (el número de elementos únicos incluidos dentro de una dimensión)."
 
@@ -149,7 +149,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponent"
+>id="functions-exp"
 >title="Exponente"
 >abstract="Devuelve e elevado a la potencia de un número determinado. La constante e es igual a 2,71828182845904, la base del logaritmo natural. EXPONENT es la inversa de LN, el logaritmo natural de un número."
 
@@ -169,7 +169,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_mean"
+>id="functions-mean"
 >title="Media"
 >abstract="Devuelve la media aritmética o el promedio de una métrica de una columna"
 
@@ -191,7 +191,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_median"
+>id="functions-median"
 >title="Mediana"
 >abstract="Devuelve la mediana de una métrica en una columna. La mediana es el número situado en medio de un conjunto de números. Es decir, la mitad de los números tienen valores mayores o iguales a la mediana y la mitad son menores o iguales a la mediana."
 
@@ -213,7 +213,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_modulo"
+>id="functions-modulo"
 >title="Módulo"
 >abstract="Devuelve el resto tras dividir x entre y utilizando la división euclídea. "
 
@@ -250,7 +250,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_percentile"
+>id="functions-percentile"
 >title="Percentil"
 >abstract="Devuelve el percentil número n, que es un valor entre 0 y 100. Cuando n &lt; 0, la función utiliza cero. Cuando n > 100, la función devuelve 100."
 
@@ -274,7 +274,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_operator"
+>id="functions-pow"
 >title="Operador de potencia"
 >abstract="Devuelve x elevado a la potencia y."
 
@@ -295,7 +295,7 @@ Devuelve x elevado a la potencia y.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quartile"
+>id="functions-quartile"
 >title="Cuartil"
 >abstract="Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles se pueden utilizar para encontrar el 25 % de productos que genera la mayor cantidad de ingresos."
 
@@ -318,7 +318,7 @@ Devuelve x elevado a la potencia y.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_round"
+>id="functions-round"
 >title="Ronda"
 >abstract="Redondear sin un parámetro de *número* es lo mismo que redondear con un parámetro de *número* de 0, es decir, redondear al número entero más próximo.  Con un parámetro de *número*, REDONDEAR devuelve los dígitos de *número* a la derecha del decimal. Si *número* es negativo, devuelve ceros a la izquierda del decimal."
 
@@ -347,7 +347,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_count"
+>id="functions-count-rows"
 >title="Recuento de fila"
 >abstract="Devuelve el recuento de filas de una columna en concreto (el número de elementos únicos registrados en una dimensión). *Se han superado los límites* se cuenta como 1."
 
@@ -363,7 +363,7 @@ Devuelve el recuento de filas de una columna en concreto (el número de elemento
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_max"
+>id="functions-row-max"
 >title="Máximo de fila"
 >abstract="Máximo de las columnas de cada fila."
 
@@ -384,7 +384,7 @@ Máximo de las columnas de cada fila.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_min"
+>id="functions-row-min"
 >title="Mínimo de fila"
 >abstract="Mínimo de las columnas de cada fila."
 
@@ -406,7 +406,7 @@ Mínimo de las columnas de cada fila.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_sum"
+>id="functions-row-sum"
 >title="Suma de fila"
 >abstract="Suma de las columnas de cada fila."
 
@@ -426,7 +426,7 @@ Suma de las columnas de cada fila.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_square_root"
+>id="functions-sqrt"
 >title="Raíz cuadrada"
 >abstract="Devuelve la raíz cuadrada positiva de un número. La raíz cuadrada de un número es el valor de dicho número elevado a la potencia de 1/2."
 
@@ -447,7 +447,7 @@ Suma de las columnas de cada fila.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_standard_deviation"
+>id="functions-stdev"
 >title="Desviación estándar"
 >abstract="Devuelve la desviación estándar, o la raíz cuadrada de la varianza, de una recopilación de datos de muestra."
 
@@ -468,7 +468,7 @@ Suma de las columnas de cada fila.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_variance"
+>id="functions-variance"
 >title="Varianza"
 >abstract="Devuelve la varianza de una recopilación de datos de muestra."
 
