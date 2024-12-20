@@ -6,8 +6,8 @@ exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -151,7 +151,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="Exponente"
->abstract="Devuelve e elevado a la potencia de un número determinado. La constante e es igual a 2,71828182845904, la base del logaritmo natural. EXPONENT es la inversa de LN, el logaritmo natural de un número."
+>abstract="Devuelve e elevado a la potencia de un número determinado. La constante e es igual a 2,71828182845904, la base del logaritmo natural. EXPONENTE es el inverso de LN, el logaritmo natural de un número."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -171,7 +171,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 >[!CONTEXTUALHELP]
 >id="functions-mean"
 >title="Media"
->abstract="Devuelve la media aritmética o el promedio de una métrica de una columna"
+>abstract="Devuelve la media aritmética, o el promedio, de una métrica en una columna."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -215,14 +215,14 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 >[!CONTEXTUALHELP]
 >id="functions-modulo"
 >title="Módulo"
->abstract="Devuelve el resto tras dividir x entre y utilizando la división euclídea. "
+>abstract="Devuelve el resto tras dividir x por y utilizando la división euclídea. "
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MÓDULO(metric_X, metric_Y)]**
 
-Devuelve el resto tras dividir x entre y utilizando la división euclídea.
+Devuelve el resto tras dividir x por y utilizando la división euclídea.
 
 | Argumento | Descripción |
 |---|---|
@@ -297,7 +297,7 @@ Devuelve x elevado a la potencia y.
 >[!CONTEXTUALHELP]
 >id="functions-quartile"
 >title="Cuartil"
->abstract="Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles se pueden utilizar para encontrar el 25 % de productos que genera la mayor cantidad de ingresos."
+>abstract="Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles se pueden utilizar para encontrar el 25 % de productos que genera la mayor cantidad de ingresos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -313,13 +313,13 @@ Devuelve x elevado a la potencia y.
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
 
-## Ronda {#round}
+## Redondeo {#round}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-round"
->title="Ronda"
+>title="Redondeo"
 >abstract="Redondear sin un parámetro de *número* es lo mismo que redondear con un parámetro de *número* de 0, es decir, redondear al número entero más próximo.  Con un parámetro de *número*, REDONDEAR devuelve los dígitos de *número* a la derecha del decimal. Si *número* es negativo, devuelve ceros a la izquierda del decimal."
 
 <!-- markdownlint-enable MD034 -->
@@ -342,13 +342,13 @@ ROUND( 314.15, -1) = 310
 ROUND( 314.15, -2) = 300
 ```
 
-## Recuento de fila {#row-count}
+## Recuento de filas {#row-count}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-count-rows"
->title="Recuento de fila"
+>title="Recuento de filas"
 >abstract="Devuelve el recuento de filas de una columna en concreto (el número de elementos únicos registrados en una dimensión). *Se han superado los límites* se cuenta como 1."
 
 <!-- markdownlint-enable MD034 -->
@@ -365,13 +365,13 @@ Devuelve el recuento de filas de una columna en concreto (el número de elemento
 >[!CONTEXTUALHELP]
 >id="functions-row-max"
 >title="Máximo de fila"
->abstract="Máximo de las columnas de cada fila."
+>abstract="Número máximo de las columnas de cada fila."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MAX DE FILA(métrica, include_zeros)]**
 
-Máximo de las columnas de cada fila.
+Número máximo de las columnas de cada fila.
 
 | Argumento | Descripción |
 |---|---|
@@ -386,13 +386,13 @@ Máximo de las columnas de cada fila.
 >[!CONTEXTUALHELP]
 >id="functions-row-min"
 >title="Mínimo de fila"
->abstract="Mínimo de las columnas de cada fila."
+>abstract="Número mínimo de las columnas de cada fila."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL FILA MÍN(métrica, include_zeros)]**
 
-Mínimo de las columnas de cada fila.
+Número mínimo de las columnas de cada fila.
 
 | Argumento | Descripción |
 |---|---|
