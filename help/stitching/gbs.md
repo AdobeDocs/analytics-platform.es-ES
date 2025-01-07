@@ -4,9 +4,10 @@ description: Explicación de la vinculación basada en gráficos
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
+source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1385'
 ht-degree: 7%
 
 ---
@@ -146,7 +147,7 @@ Los siguientes requisitos previos se aplican específicamente a la vinculación 
 Las siguientes limitaciones se aplican específicamente a la vinculación basada en gráficos:
 
 - Las marcas de tiempo no se tienen en cuenta al consultar el ID transitorio mediante el área de nombres especificada. Por lo tanto, es posible que un ID persistente se vincule con un ID transitorio de un registro que tenga una marca de tiempo anterior.
-- No es compatible con dispositivos compartidos. Cuando se devuelven varias identidades, al consultar el gráfico de identidades mediante un área de nombres, se utiliza la primera identidad lexicográfica.
+- En escenarios de dispositivos compartidos, donde el área de nombres del gráfico contiene varias identidades, se utiliza la primera identidad lexicográfica. Si los límites y prioridades del área de nombres se configuran como parte de la publicación de reglas de vinculación de gráficos, se utiliza la última identidad del usuario autenticado. Consulte [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md) para obtener más información.
 - Hay un límite estricto de tres meses para rellenar identidades en el gráfico de identidades. Se utilizan identidades de relleno en caso de que no se utilice una aplicación Experience Platform, como Real-time Customer Data Platform, para rellenar el gráfico de identidades.
 - Se aplican las [protecciones del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails). Vea, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits) siguientes:
    - Número máximo de identidades en un gráfico: 50.

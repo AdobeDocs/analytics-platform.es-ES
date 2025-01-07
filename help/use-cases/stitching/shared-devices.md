@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: 81d1c6abbda63c4ac8cdcc96d1b730974b137ad9
+source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ Este artículo proporciona contexto sobre dispositivos compartidos, cómo maneja
 
 ## ¿Qué es un dispositivo compartido?
 
-Un dispositivo compartido es aquel que utiliza más de una persona. Los escenarios comunes son dispositivos como tabletas, dispositivos utilizados en quioscos o equipos informáticos compartidos por agentes en centros de llamadas.
+Un dispositivo compartido es aquel que utiliza más de una persona. Los escenarios comunes son dispositivos como tabletas, dispositivos utilizados en quioscos o equipos informáticos compartidos por agentes en un centro de llamadas.
 
 Cuando dos personas utilizan el mismo dispositivo y ambas realizan una compra, los datos de evento de muestra pueden tener el siguiente aspecto:
 
@@ -49,7 +49,7 @@ La configuración puede atribuir datos de dispositivo compartidos mediante atrib
 
 ### Atribución de última autenticación
 
-La última autenticación atribuye toda la actividad desconocida de un dispositivo compartido al usuario que se autenticó por última vez. El servicio de identidad del Experience Platform crea el gráfico en función de la atribución de última autenticación y, como tal, se utiliza en la vinculación basada en gráficos. Consulte [Introducción a las reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) para obtener más información.
+La última autenticación atribuye toda la actividad desconocida de un dispositivo compartido al usuario que se autenticó por última vez. El servicio de identidad del Experience Platform crea el gráfico en función de la atribución de última autenticación y, como tal, se utiliza en la vinculación basada en gráficos. Consulte [Reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details) para obtener más información.
 
 Cuando se utiliza la atribución de última autenticación en la vinculación, los ID vinculados se resuelven como se muestra en la tabla siguiente.
 
@@ -65,7 +65,7 @@ Cuando se utiliza la atribución de última autenticación en la vinculación, l
 
 ### Device-split
 
-La división del dispositivo atribuye la actividad anónima de un dispositivo compartido al usuario más próximo a la actividad anónima. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo.
+La división del dispositivo atribuye la actividad anónima de un dispositivo compartido al usuario conocido más reciente que ve en el pasado. La división del dispositivo se utiliza actualmente en la vinculación basada en el campo.
 
 Cuando se utiliza la atribución dividida por el dispositivo en la vinculación, los ID vinculados se resuelven como se muestra en la tabla siguiente.
 
