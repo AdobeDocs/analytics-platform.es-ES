@@ -4,10 +4,10 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: acbe705647e508bbc85f596c3165b1acd8cb15bb
+source-git-commit: 05e1b5e26d5a1dc1e46a675131185f0927c65f22
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 3%
+source-wordcount: '1759'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="Lienzo de recorrido"
->abstract="De forma similar a Visita en orden previsto, esta visualización muestra cómo las personas avanzan o abandonan una serie de puntos de contacto. Utilice el lienzo de Journey para recorridos con varios puntos de entrada y rutas, o para analizar recorridos creados en Journey Optimizer."
+>abstract="Muestra cómo se superan o abandonan una serie de puntos de contacto. Se utiliza para recorridos con varios puntos de entrada y rutas, o para analizar recorridos creados en Journey Optimizer."
 
 <!-- markdownlint-enable MD034 -->
 
