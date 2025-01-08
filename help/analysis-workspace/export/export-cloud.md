@@ -5,9 +5,9 @@ title: Exportar informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 18a1cfcddfc8b2d1c70af57518c0b8d848b4ca5d
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2226'
 ht-degree: 3%
 
 ---
@@ -178,6 +178,7 @@ Los siguientes componentes no son compatibles y Analysis Workspace le pide que l
    * Se creó a partir de un campo que forma parte de una [matriz de objetos](/help/use-cases/object-arrays.md) (similar a las variables de varios valores en Adobe Analytics)
    * Tiene [habilitada la persistencia](/help/data-views/component-settings/persistence.md)
    * No está usando una [dimensión de enlace](/help/use-cases/data-views/binding-dimensions-metrics.md)
+* Varias dimensiones que proceden de campos que hacen referencia a diferentes [matrices de objetos](/help/use-cases/object-arrays.md). (Se permiten varias dimensiones que hagan referencia a la misma matriz de objetos).
 * Más de 5 dimensiones y 5 métricas por informe (se admiten hasta 5 dimensiones y 5 métricas)
 * En columnas de la tabla:
    * Intervalos de fechas
