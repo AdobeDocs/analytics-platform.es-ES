@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 78803a2062b38b0f4a80837d18dbf3e9cc609cc8
+source-git-commit: 02026709480872216ee76e842045517822c59bff
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 28%
+source-wordcount: '1919'
+ht-degree: 27%
 
 ---
 
@@ -46,6 +46,8 @@ La ventana retrospectiva para la regeneración de claves depende de la frecuenci
 En algunas situaciones, es posible que varias personas inicien sesión desde el mismo dispositivo. Algunos ejemplos son un dispositivo compartido en casa, un equipo compartido en una biblioteca o un quiosco en un punto de venta minorista.
 
 El ID transitorio anula al ID persistente, por lo que los dispositivos compartidos se consideran personas independientes (incluso si se originan en el mismo dispositivo).
+
+Consulte el caso de uso [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md) para obtener más información.
 
 +++
 
