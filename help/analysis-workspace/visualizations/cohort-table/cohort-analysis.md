@@ -4,7 +4,7 @@ description: Aprenda a utilizar una tabla de cohorte para el análisis de cohort
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 4fac7b05f8972028df5c06a40394dc0527b22208
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 34%
