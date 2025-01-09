@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
+source-git-commit: d7d16dbef202db9fdac08796dacc3368e0119456
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 60%
+source-wordcount: '3176'
+ht-degree: 59%
 
 ---
 
@@ -70,7 +70,7 @@ En Adobe Experience Platform:
 
 1. Seleccione ![Crear consulta](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** Crear consulta **]**.
 
-1. Seleccione la `cja` **[!UICONTROL ** base de datos **]**.
+1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
 1. Para ejecutar la consulta, escriba la instrucción SQL y seleccione el botón ![Reproducir](assets/Smock_Play_18_N.svg) (o presione `[SHIFT]` + `[ENTER]`).
 
@@ -85,7 +85,7 @@ En Adobe Experience Platform:
 
    1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
-   1. Seleccione la `cja` **[!UICONTROL ** base de datos **]**.
+   1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
    1. Para copiar la cadena de comandos, use ![Copiar](assets/Smock_Copy_18_N.svg) en la sección **[!UICONTROL ** Comando PSQL **]**.
 
@@ -110,7 +110,7 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
-   1. Seleccione la `cja` **[!UICONTROL ** base de datos **]**.
+   1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
    1. Utilice ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL host], [!UICONTROL Puerto], [!UICONTROL base de datos], [!UICONTROL nombre de usuario]y otros) cuando sea necesario en Power BI.
 
@@ -153,7 +153,7 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
-   1. Seleccione la ` cja` **[!UICONTROL ** base de datos **]**.
+   1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
    1. Use ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Puerto], [!UICONTROL Base de datos], [!UICONTROL Nombre de usuario] y otros) cuando sea necesario en Tableau Desktop.
 

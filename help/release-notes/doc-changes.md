@@ -4,16 +4,24 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
-workflow-type: ht
-source-wordcount: '4219'
-ht-degree: 100%
+source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
+workflow-type: tm+mt
+source-wordcount: '4256'
+ht-degree: 99%
 
 ---
 
 # Actualizaciones de la documentación de Customer Journey Analytics
 
 Se han realizado las siguientes actualizaciones en la documentación de Customer Journey Analytics desde su creación.
+
+## 2025
+
+| Función | Descripción |
+| --- | --- |
+| **Enero de 2025** |  |
+| Métricas de uso | Se ha actualizado la documentación sobre la interfaz [métricas de uso](/help/connections/manage-connections.md#usage) mejorada. |
+
 
 ## 2024
 
@@ -23,6 +31,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Casos de uso de extensión de BI | Documentación de varios [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para herramientas de BI como Power BI Desktop y Tableau Desktop. |
 | Vinculación y solicitudes de privacidad | Se ha añadido un aviso sobre [próximos cambios en el proceso de desvinculación](/help/stitching/faq.md#frequently-asked-questions) que son el resultado de solicitudes de privacidad. |
 | **Octubre de 2024** | |
+| Interfaz de uso mejorada | Se ha actualizado el artículo sobre la interfaz mejorada para mostrar su [uso de filas ingeridas y sobre las que se puede informar en todas las conexiones](/help/connections/manage-connections.md#usage) |
 | Dispositivos compartidos | Se ha añadido un [artículo de caso de uso](/help/use-cases/stitching/shared-devices.md) que proporciona contexto en dispositivos compartidos, cómo manejar y mitigar datos de dispositivos compartidos mediante la identificación y comprender la exposición de dispositivos compartidos en sus datos mediante el Servicio de consultas. |
 | Nueva información sobre Factores de solicitud en el rendimiento de Analysis Workspace | Una nueva sección [Factores de solicitud](/help/technotes/optimizing-performance.md#request-factors) del artículo [Optimizar rendimiento de Analysis Workspace](/help/technotes/optimizing-performance.md) explica cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento. |
 | Workspace y componentes | Se ha actualizado la documentación sobre proyectos de Analysis Workspace (proyectos, visualizaciones y paneles) y componentes (anotaciones, dimensiones, métricas (calculadas), filtros, intervalos de fechas, alertas, proyectos programados y audiencias). |

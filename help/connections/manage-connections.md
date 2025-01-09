@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
+source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3749'
 ht-degree: 13%
 
 ---
@@ -135,7 +135,7 @@ La interfaz de detalles Conexiones proporciona una vista detallada del estado de
 | [!UICONTROL Registros de datos de eventos disponibles] | Número total de filas del conjunto de datos de evento disponibles para el sistema de informes, **para toda la conexión**. Este recuento es independiente de cualquier configuración de calendario. El recuento cambia si selecciona un conjunto de datos del selector de conjuntos de datos o en la tabla. Una vez añadidos los datos, existe una latencia de una a dos horas para que los datos aparezcan en los informes. |
 | [!UICONTROL Métricas] | Resuma los registros de evento, búsqueda, perfil y conjunto de datos de resumen que se agregan, omiten y eliminan, y el número de lotes agregados. Estas métricas se basan en **el conjunto de datos y el intervalo de fechas que ha seleccionado**.<p>Seleccione **[!UICONTROL Comprobar detalles]** para mostrar la ventana emergente **[!UICONTROL Comprobar detalles omitidos]**. La ventana emergente enumera el número de registros omitidos y el motivo de todos los conjuntos de datos de evento o conjuntos de datos seleccionados.<p><img src="./assets/skipped-records.png" width="500"/><p>Seleccione la ventana emergente ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) con más información. Por algunas razones omitidas, como [!UICONTROL ID de visitante vacío], la ventana emergente muestra PSQL de muestra para EQS (Experience Platform para el servicio de consultas) que puede usar en [servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/home) para consultar los registros omitidos en el conjunto de datos. Seleccione ![Copiar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copiar PSQL de muestra para EQS]** para copiar el SQL. |
 | [!UICONTROL Registros añadidos] | Indica cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada diez minutos. |
-| [!UICONTROL Registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona o no es válido, etc. Se actualiza cada diez minutos. <p>ID de persona no válidos (como `undefined` o `00000000`, o cualquier combinación de números y letras en un [!UICONTROL ID de persona] que aparece en un evento más de 1 millón de veces en un mes determinado) son ID que no se pueden atribuir a ningún usuario o persona en particular. Estas filas no se pueden ingerir en el sistema, y conlleva a la creación de informes e ingestas propensas a errores. Para corregir ID de persona no válidos, tiene tres opciones:<ul><li>Use [Configuración](/help/stitching/overview.md) para rellenar los identificadores de usuario sin definir o todos cero con identificadores de usuario válidos.</li><li>Vacíe el ID de usuario, que luego se omiten durante la ingesta (preferible a los ID de usuario no válidos o todos cero).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul> |
+| [!UICONTROL Registros omitidos] | Indica cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona o no es válido, etc. Se actualiza cada diez minutos. <p>ID de persona no válidos (como `undefined` o `00000000`, o cualquier combinación de números y letras en un [!UICONTROL ID de persona] que aparecen en un evento más de 1 millón de veces en un mes determinado) son ID que no se pueden atribuir a ningún usuario o persona en particular. Estas filas no se pueden ingerir en el sistema, y conlleva a la creación de informes e ingestas propensas a errores. Para corregir ID de persona no válidos, tiene tres opciones:<ul><li>Use [Configuración](/help/stitching/overview.md) para rellenar los identificadores de usuario sin definir o todos cero con identificadores de usuario válidos.</li><li>Vacíe el ID de usuario, que luego se omiten durante la ingesta (preferible a los ID de usuario no válidos o todos cero).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul> |
 | [!UICONTROL Registros] eliminados | Indica cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en [!DNL Experience Platform], por ejemplo. Se actualiza cada diez minutos.<p>En algunos casos, este valor también puede incluir registros reemplazados, como con la vinculación o algunas actualizaciones del conjunto de datos de búsqueda. Consideremos este ejemplo:</p><ul><li>Se carga un registro a un conjunto de datos de perfil individual de XDM, cuyo Customer Journey Analytics está configurado para introducir como datos de búsqueda de perfil. En los detalles de la conexión, este conjunto de datos mostraría 1 registro añadido.</li><li>Puede cargar un duplicado del registro original en el mismo conjunto de datos de AEP, que ahora contiene dos registros. Customer Journey Analytics ingiere el registro adicional del conjunto de datos de búsqueda de perfiles. Al ver que ya ha introducido un registro de perfil en la conexión para ese ID de persona, Customer Journey Analytics elimina su versión anterior y agrega los nuevos datos de perfil. En los detalles de la conexión, esta acción representaría 1 registro añadido y 1 registro eliminado, ya que Customer Journey Analytics solo conserva los datos de búsqueda de perfil más recientes para cualquier ID de persona introducido.</li><li>En total, el conjunto de datos de AEP contiene dos registros que son idénticos. Por separado, los detalles de conexión del Customer Journey Analytics muestran el estado de sus datos introducidos: 2 registros añadidos y 1 registro eliminado para este conjunto de datos de perfil. </li></ul> |
 | ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _Buscar nombre o ID del conjunto de datos_ | Campo de búsqueda de conjunto de datos. Puede buscar en la tabla de conjuntos de datos por nombre de conjunto de datos o [!UICONTROL ID de conjunto de datos]. |
 | [!UICONTROL Tabla de conjuntos de datos] | Los conjuntos de datos que forman parte de la conexión. |
@@ -151,9 +151,9 @@ La interfaz de detalles Conexiones proporciona una vista detallada del estado de
 | Esquema | El esquema del Experience Platform en el que se basa el conjunto de datos. |
 | [!UICONTROL Importar datos nuevos] | Estado de importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _en]**si el conjunto de datos está configurado para importar datos nuevos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar nueva importación de datos. |
 | [!UICONTROL Transformar datos] | El estado de transformación de los conjuntos de datos de consulta B2B aplicables. Consulte [Transformación de conjuntos de datos para búsquedas B2B](transform-datasets-b2b-lookups.md) para obtener más información.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _en]**para conjuntos de datos aplicables habilitados para transformación, <p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para conjuntos de datos aplicables no habilitados para transformación, y<p>**[!UICONTROL N/A]** para todos los demás conjuntos de datos, no aplicable para la transformación. |
-| [!UICONTROL Datos de relleno] | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos procesando]**para el número de rellenos procesando,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado los rellenos. |
+| [!UICONTROL Datos de relleno] | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos procesando]**para el número de rellenos procesados,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado los rellenos. |
 | [!UICONTROL Importar datos nuevos] | Estado de importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _en]**si el conjunto de datos está configurado para importar datos nuevos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-| [!UICONTROL Datos de relleno] | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos procesando]**para el número de rellenos procesando,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+| [!UICONTROL Datos de relleno] | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos procesando]**para el número de rellenos procesados,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
 >[!IMPORTANT]
 >
@@ -195,16 +195,16 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 | [!UICONTROL Registros eliminados] | Cuántos registros se eliminaron durante el período de tiempo seleccionado. |
 | [!UICONTROL Lotes añadidos] | Cuántos lotes de datos se añadieron a este conjunto de datos. |
 | [!UICONTROL Registros omitidos] | Cuántas filas se omitieron durante la ingesta en el período de tiempo seleccionado.<p>Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona o no es válido, etc. Se actualiza cada diez minutos.<p>ID de persona no válidos (como `undefined` o `00000000`, o cualquier combinación de números y letras en un [!UICONTROL ID de persona] que aparece en un evento más de 1 millón de veces en un mes determinado) son ID que no se pueden atribuir a ningún usuario o persona en particular. Estas filas no se pueden ingerir en el sistema, y conlleva a la creación de informes e ingestas propensas a errores. Para corregir ID de persona no válidos, tiene tres opciones:<ul><li>Use [Configuración](/help/stitching/overview.md) para rellenar los identificadores de usuario sin definir o todos cero con identificadores de usuario válidos.</li><li>Vacíe el ID de usuario, que luego se omitirá durante la ingesta (preferible a los ID de usuario no válidos o todos cero).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul> |
-| [!UICONTROL Última incorporación] | Cuando se añadió el último lote. |
+| [!UICONTROL Última incorporación] | La marca de tiempo del último lote añadido. |
 | [!UICONTROL Importar datos nuevos] | Estado de importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _en]**si el conjunto de datos está configurado para importar datos nuevos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-| [!UICONTROL Datos de relleno] | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos procesando]**para el número de rellenos procesando,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos.<p>Para mostrar un cuadro de diálogo con una descripción general de los rellenos anteriores para el conjunto de datos, seleccione <img src="./assets/pastbackfill.svg" alt="Rellenos anteriores" width="15"/> **[!UICONTROL Rellenos anteriores]**. |
+| [!UICONTROL Datos de relleno] | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos procesando]**para el número de rellenos procesados,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos.<p>Para mostrar un cuadro de diálogo con una descripción general de los rellenos anteriores para el conjunto de datos, seleccione <img src="./assets/pastbackfill.svg" alt="Rellenos anteriores" width="15"/> **[!UICONTROL Rellenos anteriores]**. |
 | [!UICONTROL Tipo de fuente de datos] | Tipo de origen de datos definido al agregar el conjunto de datos a la conexión. |
 | [!UICONTROL Tipo de conjunto de datos] | [!UICONTROL Evento], [!UICONTROL Perfil], [!UICONTROL Búsqueda] o [!UICONTROL Resumen]. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) |
 | [!UICONTROL Esquema] | El esquema del Experience Platform en el que se basa este conjunto de datos. |
 | [!UICONTROL ID de conjunto de datos] | Esta ID del conjunto de datos se genera en el Experience Platform. |
 
 
-## Uso
+## Uso {#connections-usage}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -212,7 +212,6 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >id="cja_connections_usage_keyusagemetrics"
 >title="Métricas de uso clave"
 >abstract="Proporcione datos mensuales y totales para las filas principales e históricas sobre las que se debe informar."
-
 <!-- markdownlint-enable MD034 -->
 
 
@@ -222,7 +221,6 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >id="cja_connections_usage_monthlyingestedrows"
 >title="Filas ingeridas mensualmente"
 >abstract="Mide el número total de registros agregados al sistema cada mes para proporcionar información sobre el crecimiento de los datos y las tasas de ingesta."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -231,7 +229,6 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >id="cja_connections_usage_monthlyreportablerows"
 >title="Filas que es posible notificar mensualmente"
 >abstract="Registra el número de filas disponibles para la creación de informes. Las filas reportables son las filas ingeridas menos las filas que se omiten y eliminan durante la ingesta. Las filas notificables sirven como métrica clave para la facturación y el uso de datos."
-
 <!-- markdownlint-enable MD034 -->
 
 
@@ -241,7 +238,6 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >id="cja_connections_usage_detailbreakdown"
 >title="Desglose por detalle."
 >abstract="Puede ver métricas detalladas por conexión, conjunto de datos, zona protegida y etiquetas, con la opción de descargar un archivo CSV de los datos."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -249,8 +245,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_otherdatasets"
 >title="Otros conjuntos de datos"
->abstract="En los meses anteriores a septiembre de 2024, los datos se recopilaban en el nivel de conjunto de datos y se muestran como *Otros conjuntos de datos* para una mayor claridad. A partir de septiembre de 2024, los datos se recopilarán en un nivel de conjunto de datos granular y *Otros conjuntos de datos* dejarán de aparecer."
-
+>abstract="Para los meses anteriores a septiembre de 2024, los datos se recopilaron en el nivel de conjunto de datos y se muestran como *Otros conjuntos de datos* para una mayor claridad. A partir de septiembre de 2024, los datos se recopilarán en un nivel de conjunto de datos granular y *Otros conjuntos de datos* dejarán de aparecer."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -259,7 +254,6 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >id="cja_connections_usage_unknowndatasetsorconnections"
 >title="Conjuntos de datos o conexiones desconocidos"
 >abstract="Los conjuntos de datos o conexiones desconocidos se muestran con sus ID."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -268,7 +262,6 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >id="cja_connections_usage_datanotavailable"
 >title="Datos no disponibles"
 >abstract="Los datos históricos anteriores a septiembre de 2024 no están disponibles debido a limitaciones del sistema. Las métricas se recopilan y muestran a partir de septiembre de 2024. El gráfico muestra los últimos 18 meses en la cronología y los datos futuros aparecerán a medida que los datos estén disponibles."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -277,7 +270,6 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >id="cja_connections_corereportablerows"
 >title="Filas notificables de datos principales"
 >abstract="Muestra el número total de filas disponibles durante los últimos 13 meses. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -286,41 +278,94 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >id="cja_connections_historicalreportablerows"
 >title="Filas notificables de datos históricos"
 >abstract="Muestra el número total de filas disponibles para el período anterior a 13 meses. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023."
-
 <!-- markdownlint-enable MD034 -->
 
 
-La interfaz [!UICONTROL Uso] muestra el uso de filas ingeridas y notificables en todas las conexiones. Esta interfaz le permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente. Además de supervisar, puede utilizar la interfaz de usuario de para planificar la renovación de su licencia de Customer Journey Analytics.
+La interfaz [!UICONTROL Uso] muestra el uso de filas ingeridas y notificables en todas las conexiones. Si no está seleccionado, seleccione la ficha **[!UICONTROL Uso]** para tener acceso a la interfaz.
 
-Puede seleccionar un intervalo de tiempo (entre los últimos 6 meses, el año hasta la fecha o los últimos 2 años) y un intervalo (entre mensual o trimestral) para monitorizar el uso del Customer Journey Analytics. La interfaz se divide en dos secciones:
+Esta interfaz le permite determinar si el uso del Customer Journey Analytics cumple con lo acordado contractualmente. Además de supervisar, puede utilizar la interfaz de uso para planificar la renovación de su licencia de Customer Journey Analytics.
 
-* Filas ingeridas: filas totales ingeridas/enviadas desde conjuntos de datos de evento en todas las conexiones de Customer Journey Analytics, incluidos los registros omitidos durante la ingesta
-* Filas reportables: filas reportables totales que incluyen todos los datos de eventos en todas las conexiones de Customer Journey Analytics
+La interfaz de uso utiliza las siguientes métricas
 
-![vista de uso](assets/usage-view.png)
+| Nombre de la métrica | Descripción |
+|---|---|
+| Filas notificables de datos históricos | Recuento de filas para el periodo superior a 13 meses. |
+| Filas notificables de datos principales | Recuento de filas en los últimos 13 meses. |
+| Filas ingeridas | Cantidad de filas introducidas para el periodo específico. |
+| Filas notificables | ¿Cuántas filas de datos tiene como parte de la conexión durante el período específico? |
+| Filas acumuladas | Cuántas filas se incorporan hasta el mes específico. |
 
-Seleccione la ficha **[!UICONTROL Uso]** para tener acceso a la interfaz.
-
-### Informe de uso
-
-1. Seleccione un **[!UICONTROL intervalo de tiempo]**. Puede seleccionar entre **[!UICONTROL últimos 6 meses]**, **[!UICONTROL año hasta la fecha]** o **[!UICONTROL últimos 2 años]**.
-1. Seleccionar un **[!UICONTROL intervalo]**. Puede seleccionar entre **[!UICONTROL mensual]** o **[!UICONTROL trimestral]**.
-
-Para [!UICONTROL filas ingeridas]:
-
-* Un panel muestra el total de filas introducidas que incluyen todos los datos de eventos en todas las conexiones actualizadas el segundo día de un mes. En el panel:
-   * un cuadro muestra el número de filas introducidas del último mes y el cambio en % (indicado por ▲ o ▼) con respecto al mes anterior.
-   * un gráfico de líneas muestra las [!UICONTROL filas ingeridas mensualmente] ◼︎.<br/>Para ver una ventana emergente que muestra el número de filas introducidas mensualmente durante un mes, pase el ratón sobre cualquier punto de datos del gráfico de líneas.
+>[!NOTE]
+>
+>A partir de julio de 2024, se recopilan los datos de los registros principal, histórico y total. Póngase en contacto con el administrador de su cuenta para obtener datos históricos anteriores.
+>
 
 
-Para [!UICONTROL filas reportables]:
 
-* Un panel muestra el total de filas sobre las que se pueden realizar informes que incluyen todos los datos de eventos en todas las conexiones actualizadas el segundo día de un mes. En el panel:
-   * un cuadro muestra el número total acumulado de filas sobre las que se puede realizar un informe.
-   * un cuadro muestra el número total de filas sobre las que se puede realizar un informe del último mes y el cambio en % (indicado por ▲ o ▼) con respecto al mes anterior.
-   * un gráfico de líneas muestra las ◼︎ [!UICONTROL filas mensuales de las que se debe informar].<br/>Para ver una ventana emergente que muestra el número de filas notificables acumulativas de un mes específico, pase el ratón sobre cualquier punto de datos del gráfico de líneas.
-   * un gráfico de líneas muestra las [!UICONTROL filas acumulativas sobre las que se puede generar informe] ◼︎.<br/>Para ver una ventana emergente que muestra el número de filas mensuales sobre las que se puede realizar un informe durante un mes, pase el ratón sobre cualquier punto de datos del gráfico de líneas.
+La interfaz de uso consta de dos paneles:
 
+* Panel **[!UICONTROL Métricas de uso de claves]**: proporciona filas de informes de datos principales e históricos. El panel también realiza un seguimiento de los cambios porcentuales en comparación con el mes anterior, tanto para las filas de datos principales como para las históricas.
+
+  El panel se muestra en una visualización:
+
+   * **[!UICONTROL Filas de datos principales de las que se puede informar]**.
+
+     ¿Cuántas filas notificables ha tenido en los últimos 13 meses? El número de resumen es el número de filas principales sobre las que se puede realizar informes (por ejemplo, 741M) en el último mes (por ejemplo, diciembre de 2024).
+
+   * **[!UICONTROL Filas de datos históricos para notificar]**.
+
+     ¿Cuántas filas notificables tiene para el período anterior a 13 meses? El número de resumen es el número de filas históricas de las que se puede realizar un informe (por ejemplo, 127 millones) en el último mes (por ejemplo, diciembre de 2024).
+
+  Cuando pasa el ratón sobre cualquier barra apilada de la visualización, una ventana emergente muestra el número de filas de esa parte específica de la barra (por ejemplo).
+
+
+  ![Métricas de uso de claves](assets/usage-key-usage-metrics.png)
+
+* Un panel combinado que muestra tres subpaneles para:
+
++++ Filas ingeridas
+
+  El subpanel **[!UICONTROL Filas ingeridas]** mide el número total de registros agregados al sistema cada mes, lo que proporciona una perspectiva del crecimiento de los datos y las tasas de ingesta. El subpanel proporciona un resumen del total de filas introducidas de este mes y el cambio con respecto al mes anterior.
+
+  ![Filas ingeridas](assets/usage-ingested-rows.png)
+
+  Puede situarse sobre los puntos de datos en la visualización para mostrar una ventana emergente con más detalles.
+
++++
+
++++ Filas notificables
+
+  La visualización de **[!UICONTROL filas reportables]** realiza un seguimiento del número de filas disponibles para el sistema de informes al restar las filas omitidas y eliminadas de las filas ingeridas, lo que sirve como métrica clave para la facturación y el uso de datos. El subpanel proporciona dos resúmenes:
+
+   * **[!UICONTROL Total del último mes]**: Un resumen del total de filas sobre las que se debe informar hasta este mes.
+   * **[!UICONTROL Este mes]**: Un resumen del total de filas de este mes sobre las que se puede realizar un informe y el cambio con respecto al mes anterior.
+
+  ![Filas transportables](assets/usage-reportable-rows.png)
+
+  Puede situarse sobre los puntos de datos en las visualizaciones para mostrar una ventana emergente con más detalles.
+
++++
+
++++ Desglose de detalles
+
+  Puede usar la tabla **[!UICONTROL Detalle del desglose]** para ver las métricas detalladas por conexión, conjunto de datos, zona protegida y etiquetas. Los conjuntos de datos se comunican utilizando ID en lugar de nombres, ya que los nombres de los conjuntos de datos se pueden modificar durante un período de informe. Se informa de conjuntos de datos o conexiones desconocidos mediante identificadores.
+
+  Para los meses anteriores a septiembre de 2024, los datos se recopilaron en el nivel de conjunto de datos y se muestran como [!UICONTROL Otros conjuntos de datos] para una mayor claridad. A partir de septiembre de 2024, los datos se recopilarán en un nivel de conjunto de datos granular y [!UICONTROL Otros conjuntos de datos] ya no aparecerá.
+
+   * Para cambiar el desglose, selecciona una combinación para **[!UICONTROL Ver por]** y **[!UICONTROL Desglosar por]**.
+
+     | **[!UICONTROL Ver por]** opciones | **[!UICONTROL Desglose por]** opciones |
+     |---|---|
+     | **[!UICONTROL Conexión]** | **[!UICONTROL -]** y **[!UICONTROL Conjunto de datos]** |
+     | **[!UICONTROL Conjunto de datos]** | **[!UICONTROL -]** |
+     | **[!UICONTROL Zona protegida]** | **[!UICONTROL Conexión]** |
+     | **[!UICONTROL Etiqueta]** | **[!UICONTROL Conexión]** |
+
+  ![Desglose por detalle](assets/usage-detail-breakdown.png)
+
++++
+
+  Puede definir un **[!UICONTROL intervalo de tiempo]** en meses para generar el informe. Use ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar el intervalo de tiempo.
 
 >[!MORELIKETHIS]
 >
