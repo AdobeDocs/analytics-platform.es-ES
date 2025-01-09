@@ -4,14 +4,20 @@ title: Gráfico de viñetas
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 9d2df264659341252c0ad02705eb4db04337ab0c
+source-git-commit: 7980286bed4f08b2ca23c0930538adb6c694344e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 63%
+source-wordcount: '236'
+ht-degree: 62%
 
 ---
 
 # Viñeta {#bullet}
+
+<!-- markdownlint-disable MD034 -->
+
+[!BADGE Versión de Adobe Analytics]{type=Informative url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html"}
+
+<!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -20,9 +26,6 @@ ht-degree: 63%
 >title="Valor de meta"
 >abstract="**[!UICONTROL Meta alta]** es el objetivo principal que busca. **[!UICONTROL Meta baja]** y **[!UICONTROL Meta media]** crean intervalos por debajo de la [!UICONTROL Meta alta]. Nota: Cuando la opción **[!UICONTROL Porcentajes]** esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento."
 >additional-url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" text="Viñeta (Adobe Analytics)"
-
-<!-- markdownlint-enable MD034 -->
-
 
 <!-- markdownlint-enable MD034 -->
 
