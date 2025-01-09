@@ -1,9 +1,10 @@
 ---
 title: Información general de uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
+source-git-commit: 9e29a16fc8d2cfe9a7a2e926b5f592280b2c1c7a
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '367'
 ht-degree: 6%
 
 ---
@@ -24,6 +25,12 @@ Toda la recopilación y configuración de datos se configura automáticamente un
 >[!IMPORTANT]
 >
 >Esta función cuenta para los límites de filas contractuales en Adobe Experience Platform. Asegúrese de que su organización puede admitir los datos generados por esta función antes de habilitarla.
+
+## Habilitar el uso del producto
+
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Uso del producto]**
+
+Si navega a esta sección de la interfaz en Customer Journey Analytics, accederá a [Configuración de datos](data-settings.md), donde podrá habilitar esta característica.
 
 ## Dimensiones disponibles
 
