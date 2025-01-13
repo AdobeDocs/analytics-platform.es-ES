@@ -6,7 +6,7 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 27ce8f565688dc23a3f069a10078de55cd6da395
+source-git-commit: 15b278261cc24da46b209d1ce23f38745c06030b
 workflow-type: tm+mt
 source-wordcount: '1576'
 ht-degree: 2%
@@ -87,7 +87,7 @@ Los administradores pueden editar o eliminar las plantillas de empresa.
    | **[!UICONTROL Nombre]** | Proporcione un nombre descriptivo para la plantilla. |
    | **[!UICONTROL Descripción]** | Proporcione una breve descripción para la plantilla que describa sus usos previstos. |
    | **[!UICONTROL Por qué usar esta plantilla]** | Proporcione una breve explicación para informar a los miembros de la organización sobre cómo se puede utilizar esta plantilla. Esta explicación se muestra en la página Vista previa de la plantilla. |
-   | **[!UICONTROL Canales]** | Elija cualquier canal aplicable que se aplique a esta plantilla. Puede seleccionar varios canales: **[!UICONTROL web]**, **[!UICONTROL móvil]**, **[!UICONTROL canal cruzado]**, **[!UICONTROL centro de llamadas]** y **[!UICONTROL en tienda]**. Si no se selecciona ningún canal, la plantilla se incluirá en todos los canales.<p>Las selecciones que elija determinan dónde se muestra la plantilla y qué filtros se aplican a los usuarios que acceden a ella desde la página Plantillas de Organización.</p> |
+   | **[!UICONTROL Canales]** | Elija cualquier canal aplicable que se aplique a esta plantilla. Puede seleccionar varios canales: **[!UICONTROL web]**, **[!UICONTROL móvil]**, **[!UICONTROL canal cruzado]**, **[!UICONTROL centro de llamadas]** y **[!UICONTROL en tienda]**. Si no se selecciona ningún canal, la plantilla se incluye con todos los canales.<p>Las selecciones que elija determinan dónde se muestra la plantilla y qué filtros se aplican a los usuarios que acceden a ella desde la página Plantillas de Organización.</p> |
    | **[!UICONTROL Casos de uso]** | Elija cualquier caso de uso que se aplique a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL participación]**, **[!UICONTROL conversión]**, **[!UICONTROL audiencia]**, **[!UICONTROL adquisición]** y **[!UICONTROL Journey Optimizer]**. <p>Las opciones seleccionadas determinan la ubicación de la plantilla en la página Plantillas de Organización. Los usuarios pueden navegar a la plantilla o filtrar la lista por caso de uso. </p><p>**Nota:** Si elige **[!UICONTROL Journey Optimizer]**, la plantilla también estará disponible en Adobe Journey Optimizer. En Journey Optimizer, hay disponible un menú desplegable en la página **[!UICONTROL Informes]** que permite a los usuarios seleccionar esta plantilla o la plantilla predeterminada. Para obtener más información, consulte [Introducción a la experiencia de generación de informes actualizada](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) en la documentación de Journey Optimizer. |
    | **[!UICONTROL Tipo de actividad de Journey Optimizer]** | Elija el tipo de actividad de Journey Optimizer que se asociará con esta plantilla: **[!UICONTROL Campañas]**, **[!UICONTROL Recorridos]**, **[!UICONTROL Páginas de aterrizaje]**, **[!UICONTROL Informes]** o **[!UICONTROL Suscripciones]**. <p>Deje este campo en blanco si desea que esta plantilla se asocie a todos los tipos de actividades.</p><p>Este campo solo se muestra si **[!UICONTROL Journey Optimizer]** está seleccionado en el campo **[!UICONTROL Casos de uso]**.</p> |
    | **[!UICONTROL Actividad de Journey Optimizer]** | Seleccione la actividad de Journey Optimizer que desea asociar con esta plantilla. <p>Deje este campo en blanco si desea que esta plantilla se asocie a todas las actividades del tipo de actividad seleccionado.</p><p>Este campo solo se muestra si **[!UICONTROL Journey Optimizer]** está seleccionado en el campo **[!UICONTROL Casos de uso]**.</p> |
@@ -123,7 +123,7 @@ Los administradores pueden cambiar el nombre, etiquetar y aprobar plantillas de 
 
 ## Adición de los componentes que faltan a la vista de datos para una plantilla determinada
 
-De forma predeterminada, algunas plantillas proporcionadas por Adobe no funcionarán porque contienen componentes que no están en la vista de datos.
+De forma predeterminada, algunas plantillas proporcionadas por Adobe no se pueden usar porque contienen componentes que no están en la vista de datos.
 
 Para cada componente que falta, hay una etiqueta de contexto coincidente disponible en la vista de datos. Debe agregar la etiqueta de contexto coincidente a un componente que ya está en la vista de datos o agregar un componente nuevo a la vista de datos y agregarle la etiqueta de contexto.
 
