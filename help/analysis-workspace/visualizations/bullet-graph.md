@@ -4,7 +4,7 @@ title: Gráfico de viñetas
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 9494d13d0f2d0205d2929796f5f0d8299fdefbc5
+source-git-commit: 59b0462f114ca98289b4f7de92478d031d97fd31
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 59%
@@ -31,7 +31,11 @@ ht-degree: 59%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
+
 *Este artículo documenta la visualización de viñetas en **Customer Journey Analytics**. Consulte [Viñeta](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para la versión de **Adobe Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 La visualización ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** muestra cómo una métrica se compara con, o mide en, rangos de rendimiento (objetivos).
 
