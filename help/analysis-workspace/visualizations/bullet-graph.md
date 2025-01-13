@@ -4,11 +4,10 @@ title: Gráfico de viñetas
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-badgePremium: label="Versión de Adobe Analytics" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="Seleccione para ver la versión de Adobe Analytics de este artículo."
-source-git-commit: 896c7be6f1cfa4b0b714eb08ac47c1b89edecb79
+source-git-commit: 9494d13d0f2d0205d2929796f5f0d8299fdefbc5
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 60%
+source-wordcount: '249'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +19,6 @@ ht-degree: 60%
 >id="workspace_bullet_goalvalue"
 >title="Valor de meta"
 >abstract="**[!UICONTROL Meta alta]** es el objetivo principal que busca. **[!UICONTROL Meta baja]** y **[!UICONTROL Meta media]** crean intervalos por debajo de la [!UICONTROL Meta alta]. Nota: Cuando la opción **[!UICONTROL Porcentajes]** esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento."
->additional-url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" text="Viñeta (Adobe Analytics)"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,6 +30,8 @@ ht-degree: 60%
 >abstract="Cree una visualización de gráfico de viñetas para mostrar cómo se compara una métrica con intervalos de rendimiento (objetivos) o se compara con ellos."
 
 <!-- markdownlint-enable MD034 -->
+
+*Este artículo documenta la visualización de viñetas en **Customer Journey Analytics**. Consulte [Viñeta](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para la versión de **Adobe Analytics**de este artículo.*
 
 La visualización ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** muestra cómo una métrica se compara con, o mide en, rangos de rendimiento (objetivos).
 
