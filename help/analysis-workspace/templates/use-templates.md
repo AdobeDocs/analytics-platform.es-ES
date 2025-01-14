@@ -3,12 +3,10 @@ description: Información general sobre cómo utilizar plantillas predeterminada
 title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
 workflow-type: tm+mt
-source-wordcount: '19285'
+source-wordcount: '19294'
 ht-degree: 71%
 
 ---
@@ -65,7 +63,9 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
    >[!NOTE]
    >
-   >   Antes de poder utilizar estas plantillas, un administrador debe agregar primero las etiquetas de contexto necesarias para estos componentes que faltan a la vista de datos. Para obtener más información, consulte [Agregar componentes que faltan a la vista de datos para una plantilla determinada](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) en [Usar plantillas](/help/analysis-workspace/templates/create-templates.md).
+   >Antes de poder utilizar estas plantillas, un administrador debe agregar primero las etiquetas de contexto necesarias para estos componentes que faltan a la vista de datos. Para obtener más información, consulte [Agregar componentes que faltan a la vista de datos para una plantilla determinada](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) en [Usar plantillas](/help/analysis-workspace/templates/create-templates.md).
+   >
+   >Para obtener más información acerca de las etiquetas de contexto, vea [Configuración de componentes](/help/data-views/component-settings/overview.md).
 
    1. Seleccione el icono de filtro.
 
