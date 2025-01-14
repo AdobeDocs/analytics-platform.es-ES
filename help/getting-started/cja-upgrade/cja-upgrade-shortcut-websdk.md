@@ -1,5 +1,5 @@
 ---
-title: Actualizar acceso directo Migrar una implementación de extensión de AppMeasurement o Analytics para utilizar el SDK web
+title: Actualizar acceso directo Migrar una implementación de extensión de AppMeasurement o Analytics para utilizar Web SDK
 description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 56%
+source-wordcount: '690'
+ht-degree: 58%
 
 ---
 
@@ -29,13 +29,22 @@ ht-degree: 56%
 
 <!-- markdownlint-enable MD034 -->
 
-Al actualizar a Customer Journey Analytics, el Adobe [recomienda una nueva implementación del SDK web de Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Sin embargo, dependiendo de varios factores, como el calendario y las restricciones de recursos, los pasos de actualización recomendados podrían no ser prácticos para su organización.
+<!-- markdownlint-disable MD034 -->
 
-Si la implementación de Adobe Analytics es de AppMeasurement para la extensión de Analytics, hay disponible un método abreviado de actualización que le permite migrar la implementación de Adobe Analytics para utilizar el SDK web de Adobe Experience Platform para comenzar a enviar datos a Edge Network y Adobe Analytics, antes de enviarlos a Customer Journey Analytics.
+>[!CONTEXTUALHELP]
+>id="migrate_aa_to_websdk"
+>title="Migrar la implementación de Adobe Analytics para utilizar el SDK web"
+>abstract="En lugar de enviar datos a través de un objeto XDM, puede enviar todas las variables en formato de AppMeasurement a través del objeto de datos. Este método abreviado le permite seguir utilizando la lógica de AppMeasurement para enviar datos a Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+Al actualizar al Customer Journey Analytics, el Adobe [recomienda una nueva implementación de Experience Platform Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Sin embargo, dependiendo de varios factores, como el calendario y las restricciones de recursos, los pasos de actualización recomendados podrían no ser prácticos para su organización.
+
+Si la implementación de Adobe Analytics es de AppMeasurement para la extensión de Analytics, hay disponible un método abreviado de actualización que le permite migrar la implementación de Adobe Analytics para utilizar Adobe Experience Platform Web SDK y comenzar a enviar datos a Edge Network y Adobe Analytics, antes de enviarlos a Customer Journey Analytics.
 
 ## Ventajas y desventajas
 
-Considere las siguientes ventajas y desventajas del método abreviado de actualización para migrar la implementación de extensión de AppMeasurement o Analytics y utilizar el SDK web:
+Considere las siguientes ventajas y desventajas del método abreviado de actualización para migrar la implementación de extensión de AppMeasurement o Analytics y utilizar Web SDK:
 
 | Ventajas | Desventajas |
 |----------|---------|
@@ -45,9 +54,9 @@ Considere las siguientes ventajas y desventajas del método abreviado de actuali
 
 ## Pasos básicos
 
-Si decide utilizar el acceso directo de actualización para migrar la implementación de extensión de AppMeasurement o Analytics con el fin de utilizar el SDK web, se agrega un nuevo paso a los pasos generados dinámicamente para su organización en el cuestionario de actualización [Adobe Analytics to Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+Si decide utilizar el acceso directo de actualización para migrar la implementación de extensión de AppMeasurement o Analytics con el fin de utilizar Web SDK, se agrega un nuevo paso a los pasos generados dinámicamente para su organización en el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-Los pasos básicos para migrar una implementación de extensión de AppMeasurement o Analytics para utilizar el SDK web son los siguientes:
+Los pasos básicos para migrar una implementación de extensión de AppMeasurement o Analytics para utilizar Web SDK son los siguientes:
 
 1. Comience a enviar datos a Platform.
 

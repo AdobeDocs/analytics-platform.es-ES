@@ -4,7 +4,7 @@ title: Generar filtros
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 388708526204f0854b486643fa58d1f8504575aa
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 8%
@@ -16,7 +16,7 @@ ht-degree: 8%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_createaudience"
+>id="components_filters_createaudience"
 >title="Creación de públicos"
 >abstract="Los públicos se pueden crear a partir de un filtro y compartirse con Adobe Experience Platform para su activación."
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_datapreview"
+>id="components_filters_datapreview"
 >title="Previsualización de datos"
 >abstract="Compara los datos de este filtro con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
 
@@ -158,7 +158,7 @@ O bien, puede definir 52 filtros: 50 filtros para los estados de Estados Unidos,
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_repeating"
+>id="components_filters_attribution_repeating"
 >title="Repetido"
 >abstract="Incluye instancias y valores persistentes para la dimensión."
 
@@ -167,7 +167,7 @@ O bien, puede definir 52 filtros: 50 filtros para los estados de Estados Unidos,
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_instance"
+>id="components_filters_attribution_instance"
 >title="Instancia"
 >abstract="Incluye instancias y valores persistentes para la dimensión."
 
@@ -176,7 +176,7 @@ O bien, puede definir 52 filtros: 50 filtros para los estados de Estados Unidos,
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_nonrepeatinginstance"
+>id="components_filters_attribution_nonrepeatinginstance"
 >title="Instancia no repetida"
 >abstract="Incluye instancias únicas (no repetitivas) para la dimensión."
 

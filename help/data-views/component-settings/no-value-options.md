@@ -5,7 +5,7 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 93%
@@ -17,9 +17,9 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_novalueoptions"
+>id="dataview_component_dimension_novalueoptions"
 >title="Sin opciones de valor"
->abstract="Configure el comportamiento predeterminado para cuando no haya valores en una dimensión."
+>abstract="Configure el comportamiento predeterminado para cuando no haya ningún valor presente en una dimensión."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -4,10 +4,10 @@ description: Crear un intervalo de fecha para utilizarlo en los informes.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 7%
+ht-degree: 39%
 
 ---
 
@@ -36,7 +36,7 @@ Para definir la anotación, utilice el [[!UICONTROL Generador de intervalos de f
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_dateranges_endtime"
+>id="components_dateranges_endtime"
 >title="Hora de finalización"
 >abstract="Las horas de finalización siempre incluyen 59 segundos."
 
@@ -52,27 +52,27 @@ El cuadro de diálogo **[!UICONTROL Nuevo intervalo de fechas]** o **[!UICONTROL
 
 1. Especifique un **[!UICONTROL Título]** para el intervalo de fechas. Por ejemplo, **[!UICONTROL trimestral]**.
 1. Opcionalmente, especifique **[!UICONTROL Descripción]**.
-1. Organice el filtro creando o aplicando una o más **[!UICONTROL Etiquetas]**. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O presione **[!UICONTROL ENTRAR]** para agregar una etiqueta nueva. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
+1. Organice el filtro creando o aplicando una o más **[!UICONTROL Etiquetas]**. Empieza a escribir para buscar las etiquetas existentes que puedes seleccionar. O presione **[!UICONTROL ENTRAR]** para agregar una etiqueta nueva. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
 1. Seleccione un **[!UICONTROL intervalo de fechas]** seleccionando primero la fecha de inicio y luego la fecha de finalización.
-También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
+También puedes seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
 
-1. De manera opcional, seleccione **[!UICONTROL Mostrar configuración avanzada]** para:
+1. De manera opcional, selecciona **[!UICONTROL Mostrar configuración avanzada]** para:
 
-   * Especifique **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]** distintas de las `12:00 AM` (`0:00`) y `11:59 PM` (`23:59`) predeterminadas. Los tiempos de finalización siempre incluyen 59 segundos. Para un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día del intervalo de fechas y la hora de finalización se aplica al último día del intervalo de fechas. Use **[!UICONTROL (Restablecer valores de tiempo)]** para restablecer los valores predeterminados de las horas de inicio y finalización.
+   * Especifica **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]** distintas de las `12:00 AM` (`0:00`) y `11:59 PM` (`23:59`) predeterminadas. Los tiempos de finalización siempre incluyen 59 segundos. Para un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día del intervalo de fechas y la hora de finalización se aplica al último día del intervalo de fechas. Usa **[!UICONTROL (Restablecer valores de tiempo)]** para restablecer los valores predeterminados de las horas de inicio y finalización.
    * **[!UICONTROL Usar fechas móviles]**. Si se habilita, los intervalos de fechas preestablecidos como **[!UICONTROL últimos 7 días completos]** se actualizarán dinámicamente como el progreso actual de fecha y hora. Si está desactivado, estos ajustes preestablecidos no se actualizan una vez aplicados.
 
      Puede seleccionar el texto entre corchetes (por ejemplo **[!UICONTROL inicio fijo - desplazamiento trimestral]**) para ampliar el panel y especificar detalles para **[!UICONTROL Inicio]** y **[!UICONTROL Final]**.
 
      ![Fechas de lanzamiento](assets/rolliing-dates.png)
 
-      1. Seleccione **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
-      1. Cuando haya seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puede generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL trimestre actual]** **[!UICONTROL minus]** `20` **[!UICONTROL días]**. Elija el valor apropiado para cada parte individual de la expresión.
-         * Seleccione un valor para actual. Por ejemplo, **[!UICONTROL trimestre actual]**.
-         * Seleccione un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL minus]**.
+      1. Selecciona **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
+      1. Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL trimestre actual]** **[!UICONTROL minus]** `20` **[!UICONTROL días]**. Elige el valor apropiado para cada parte individual de la expresión.
+         * Selecciona valor para actual. Por ejemplo, **[!UICONTROL trimestre actual]**.
+         * Selecciona un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL minus]**.
          * Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `20`.
          * Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL días]**.
 
-     Seleccione **[!UICONTROL Ocultar detalles]** para ocultar los detalles del cálculo de fechas móviles.
+     Selecciona **[!UICONTROL Ocultar detalles]** para ocultar los detalles del cálculo de fechas móviles.
 
 1. Seleccione :
    * **[!UICONTROL Guardar]** para guardar el intervalo de fechas.

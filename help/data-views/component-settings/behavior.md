@@ -5,7 +5,7 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 90%
@@ -17,7 +17,7 @@ ht-degree: 90%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_behavior"
+>id="dataview_component_dimension_behavior"
 >title="Comportamiento"
 >abstract="Determine cómo se añaden los elementos de línea de esta dimensión.<br/><br/>**Parámetros **<br/>**Minúsculas**: permite especificar si los valores de cadena del campo deben estar en minúsculas."
 

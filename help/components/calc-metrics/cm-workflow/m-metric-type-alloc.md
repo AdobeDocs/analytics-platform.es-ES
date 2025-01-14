@@ -3,7 +3,7 @@ description: Obtenga información sobre el tipo de métrica y la atribución
 title: Tipo de métrica y atribución
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 39%
@@ -48,7 +48,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_nondefaultattributionmodel"
+>id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Uso de modelos de atribución no predeterminados"
 >abstract="Habilite un modelo de atribución no predeterminado para la métrica seleccionada."
 
@@ -57,7 +57,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attributionmodel"
+>id="components_calculatedmetrics_attributionmodel"
 >title="Modelo"
 >abstract="Seleccione un modelo de atribución para la métrica."
 
@@ -66,7 +66,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_lasttouch"
+>id="components_calculatedmetrics_attribution_lasttouch"
 >title="Último contacto"
 >abstract="El 100 % del crédito se destina al último valor de dimensión visto por un visitante."
 
@@ -75,7 +75,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_firsttouch"
+>id="components_calculatedmetrics_attribution_firsttouch"
 >title="Primer contacto"
 >abstract="El 100 % del crédito se destina al primer valor de dimensión visto por un visitante."
 
@@ -84,7 +84,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_linear"
+>id="components_calculatedmetrics_attribution_linear"
 >title="Lineal"
 >abstract="El crédito se distribuye de manera uniforme en todos los valores de dimensión."
 
@@ -93,7 +93,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_participation"
+>id="components_calculatedmetrics_attribution_participation"
 >title="Participación"
 >abstract="100 % de crédito a cada valor de dimensión visto por un visitante.<br/>Los totales de columna están sobreestimados."
 
@@ -102,7 +102,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_sametouch"
+>id="components_calculatedmetrics_attribution_sametouch"
 >title="Mismo contacto"
 >abstract="El crédito se otorga solo a los valores de dimensión que se producen en el mismo evento que la conversión."
 
@@ -111,7 +111,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_ushaped"
+>id="components_calculatedmetrics_attribution_ushaped"
 >title="Forma de U"
 >abstract="40 % de crédito al primer valor de dimensión, 40 % al último, 20 % compartido por el medio."
 
@@ -120,7 +120,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_jcurve"
+>id="components_calculatedmetrics_attribution_jcurve"
 >title="Curva J"
 >abstract="60 % de crédito al último valor de dimensión, 20 % al primero y 20 % compartido por el medio."
 
@@ -129,7 +129,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_inversej"
+>id="components_calculatedmetrics_attribution_inversej"
 >title="J inversa"
 >abstract="60 % de crédito al primer valor de dimensión, 20 % al último, 20 % compartido por el medio."
 
@@ -138,7 +138,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_timedecay"
+>id="components_calculatedmetrics_attribution_timedecay"
 >title="Deterioro de tiempo"
 >abstract="Los valores de dimensión más cercanos en el tiempo a una conversión obtienen la mayor cantidad de crédito."
 
@@ -147,7 +147,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_custom"
+>id="components_calculatedmetrics_attribution_custom"
 >title="Personalizado"
 >abstract="Defina su propia ponderación de atribución basada en la posición."
 
@@ -156,7 +156,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_algorithmic"
+>id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algorítmico"
 >abstract="El crédito se determina de forma dinámica mediante un algoritmo estadístico."
 
@@ -171,7 +171,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_lookbackwindow"
+>id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Ventana retroactiva"
 >abstract="Este ajuste determina la ventana de atribución de datos que se aplicará a cada conversión."
 

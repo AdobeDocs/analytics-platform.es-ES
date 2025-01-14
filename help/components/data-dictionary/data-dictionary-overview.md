@@ -4,7 +4,7 @@ title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 76%
@@ -16,7 +16,7 @@ ht-degree: 76%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_datadictionary"
+>id="component_datadictionary"
 >title="Diccionario de datos"
 >abstract="El diccionario de datos ayuda tanto a los usuarios como a los administradores a hacer un seguimiento de los componentes en su entorno de Analytics y a comprenderlos mejor. <br/>Los administradores de Analytics son responsables de seleccionar la información sobre cada componente en el Diccionario de datos para los usuarios."
 

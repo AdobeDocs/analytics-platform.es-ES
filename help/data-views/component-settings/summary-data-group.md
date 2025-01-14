@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: ad446f55855696cf7721f34f779883792b7958fa
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 25%
@@ -17,7 +17,7 @@ ht-degree: 25%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_summarydatagroup"
+>id="dataview_component_dimension_summarydatagroup"
 >title="Grupo de datos de resumen"
 >abstract="Un grupo de datos de resumen crea una asociación entre todas las dimensiones de la agrupación y se utiliza para combinar dimensiones de conjuntos de datos de resumen con otras dimensiones para la creación de informes."
 
@@ -26,7 +26,7 @@ ht-degree: 25%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_summarydatagroup_hideinreporting"
+>id="dataview_component_dimension_summarydatagroup_hideinreporting"
 >title="Ocultar en la creación de informes"
 >abstract="Si selecciona esta opción, se activará **[!UICONTROL Ocultar componente en la creación de informes]** para esa dimensión y se evitará que el componente se muestre en Analysis Workspace y otras herramientas de creación de informes de Customer Journey Analytics."
 

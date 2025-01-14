@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_audiences_refreshfrequency"
+>id="components_audiences_refreshfrequency"
 >title="Frecuencia de actualización"
 >abstract="Vea la frecuencia con la que se reevalúa el abono de un público.<br/>Los públicos únicos solo se evalúan una vez."
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_audiences_audiencelimit"
+>id="components_audiences_audiencelimit"
 >title="Límite de público"
 >abstract="Los públicos actualizados están limitados a la frecuencia con la que se actualizan."
 
@@ -34,7 +34,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_refreshlookbackwindow"
+>id="component_audiences_refreshlookbackwindow"
 >title="Actualizar ventana de retrospección"
 >abstract="Defina el número de días de retrospectiva a partir de hoy en los que se evaluará a un público."
 
@@ -43,7 +43,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_audiencesizelimit"
+>id="component_audiences_audiencesizelimit"
 >title="Límite de tamaño de público"
 >abstract="Los públicos no pueden exceder un tamaño de 20 millones de miembros."
 
@@ -52,7 +52,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_namespacesincluded"
+>id="component_audiences_namespacesincluded"
 >title="Espacios de nombres incluidos"
 >abstract="Las identidades de este público se comprenden en los espacios de nombres a continuación."
 

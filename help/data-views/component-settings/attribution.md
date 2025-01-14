@@ -5,7 +5,7 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 29%
@@ -17,7 +17,7 @@ ht-degree: 29%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_attribution"
+>id="dataview_component_metric_attribution"
 >title="Atribución"
 >abstract="Configure el modelo de atribución predeterminado aplicado a una métrica en los informes."
 
@@ -78,7 +78,7 @@ Para actualizar el modelo de atribución predeterminado de un componente:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataviews_component_attribution_attributionmodels"
+>id="dataviews_component_attribution_attributionmodels"
 >title="Modelo"
 >abstract="Seleccione un modelo de atribución para la métrica."
 

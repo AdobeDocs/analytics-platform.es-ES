@@ -5,8 +5,8 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 1158064d46e09435ec2507c47e6e484306ac5a53
-workflow-type: ht
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_settings"
+>id="dataview_component_settings"
 >title="Configuración de componentes"
 >abstract="Vea y configure el nombre, la descripción y otras configuraciones relacionadas con un componente.<br/><br/>**Parámetros **<br/>**Ocultar componente en informes**: si activas esta casilla, se ocultará este componente a los usuarios que no sean administradores en los informes. Los administradores aún pueden acceder a él haciendo clic en **[!UICONTROL Mostrar todos los componentes]** en un proyecto de Workspace."
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_contextlabels"
+>id="dataview_component_contextlabels"
 >title="Etiquetas de contexto"
 >abstract="La eliminación de una etiqueta de contexto puede afectar a paneles o informes específicos donde se requiera el componente."
 

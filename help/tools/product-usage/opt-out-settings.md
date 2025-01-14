@@ -1,10 +1,11 @@
 ---
 title: Configuración de exclusión del uso del producto
 description: Administre la configuración de exclusión para usuarios individuales dentro de su organización.
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 0ea24582-bab8-4a76-ac00-7c265423e8bb
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 7%
+source-wordcount: '222'
+ht-degree: 11%
 
 ---
 
@@ -25,5 +26,10 @@ El Adobe de utiliza una combinación de seguimiento del lado del cliente y del l
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_opt_out_settings"
+>title="Exclusión de usuarios"
+>abstract="Excluya usuarios del seguimiento del uso del producto."
+
+>[!CONTEXTUALHELP]
+>id="product_usage_opt_out_settings"
 >title="Exclusión de usuarios"
 >abstract="Excluya usuarios del seguimiento del uso del producto."
