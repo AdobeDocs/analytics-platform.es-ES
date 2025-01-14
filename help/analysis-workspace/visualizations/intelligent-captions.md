@@ -4,14 +4,77 @@ title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
+source-git-commit: de0eca21fa1b4ac71a8273676e851b596cf911a8
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 5%
+source-wordcount: '771'
+ht-degree: 20%
 
 ---
 
-# Pies de ilustración inteligentes
+# Pies de ilustración inteligentes {#intelligent-captions}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_area"
+>title="Subtítulos inteligentes: Área"
+>abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_bar"
+>title="Subtítulos inteligentes: Barra"
+>abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_donut"
+>title="Subtítulos inteligentes: Anillo"
+>abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_horizontalbar"
+>title="Subtítulos inteligentes: Barra horizontal"
+>abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_line"
+>title="Subtítulos inteligentes: Línea"
+>abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_fallout"
+>title="Subtítulos inteligentes: Visitas en el orden previsto"
+>abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_flow"
+>title="Subtítulos inteligentes: Flujo"
+>abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+
+<!-- markdownlint-enable MD034 -->
 
 Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones de Workspace. La versión inicial proporciona información generada automáticamente para la visualización [Line](line.md). A continuación, se muestran otras visualizaciones.
 
@@ -46,7 +109,7 @@ A continuación se muestra un ejemplo del aspecto que podrían tener los subtít
 
 Puede realizar las siguientes acciones en los subtítulos inteligentes:
 
-### Copiar al portapapeles {#copy}
+### Copiar en el portapapeles {#copy}
 
 Puede copiar los subtítulos en un portapapeles y pegarlos en un PowerPoint u otras herramientas. Seleccione ![Copiar subtítulos al portapapeles](/help/assets/icons/Copy.svg) en la parte superior derecha del cuadro de diálogo de subtítulos.
 
