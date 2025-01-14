@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
 workflow-type: tm+mt
 source-wordcount: '4260'
 ht-degree: 99%
@@ -187,7 +187,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_primaryID"
+>id="cja_connection_primaryid"
 >title="ID principal"
 >abstract="Selecciona el ID principal adecuado para la conexión: persona para un escenario B2C. Cuenta para un escenario B2B."
 
@@ -196,7 +196,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_optionalContainers"
+>id="cja_connection_optionalcontainers"
 >title="Contenedores opcionales"
 >abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
 
@@ -205,7 +205,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_personID"
+>id="cja_connection_personid"
 >title="ID de la persona"
 >abstract="Selecciona un ID de persona entre las identidades disponibles de los esquemas del conjunto de datos en Experience Platform."
 
@@ -214,7 +214,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountID"
+>id="cja_connection_accountid"
 >title="ID de cuenta"
 >abstract="Selecciona un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
@@ -223,7 +223,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountField"
+>id="cja_connection_accountfield"
 >title="Campo de cuenta"
 >abstract="Seleccione un campo que represente el ID de cuenta (el identificador único de una cuenta)."
 
@@ -233,7 +233,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_globalAccountID"
+>id="cja_connection_globalaccountid"
 >title="ID de compañía global"
 >abstract="Selecciona un ID de cuenta global (el identificador único de una cuenta global) de las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
@@ -242,7 +242,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_opportunityID"
+>id="cja_connection_opportunityid"
 >title="Identificación de oportunidad"
 >abstract="Selecciona un ID de oportunidad (el identificador único de una oportunidad) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
@@ -251,7 +251,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_buyingGroupID"
+>id="cja_connection_buyinggroupid"
 >title="ID del grupo de compras"
 >abstract="Selecciona un ID de grupo de compras (el identificador único de un grupo de compras) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
@@ -305,7 +305,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_primaryID"
+>id="connection_primaryid"
 >title="ID principal"
 >abstract="Selecciona el ID principal adecuado para la conexión: persona para un escenario B2C. Cuenta para un escenario B2B."
 
@@ -314,7 +314,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_optionalContainers"
+>id="connection_optionalcontainers"
 >title="Contenedores opcionales"
 >abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
 
@@ -323,7 +323,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_personID"
+>id="connection_personid"
 >title="ID de la persona"
 >abstract="Selecciona un ID de persona entre las identidades disponibles de los esquemas del conjunto de datos en Experience Platform."
 
@@ -332,14 +332,14 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountID"
+>id="connection_accountid"
 >title="ID de cuenta"
 >abstract="Selecciona un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountField"
+>id="connection_accountfield"
 >title="Campo de cuenta"
 >abstract="Seleccione un campo que represente el ID de cuenta (el identificador único de una cuenta)."
 
@@ -348,7 +348,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_globalAccountID"
+>id="connection_globalaccountid"
 >title="ID de compañía global"
 >abstract="Selecciona un ID de cuenta global (el identificador único de una cuenta global) de las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
@@ -357,7 +357,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_opportunityID"
+>id="connection_opportunityid"
 >title="Identificación de oportunidad"
 >abstract="Selecciona un ID de oportunidad (el identificador único de una oportunidad) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 
@@ -366,7 +366,7 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_buyingGroupID"
+>id="connection_buyinggroupid"
 >title="ID del grupo de compras"
 >abstract="Selecciona un ID de grupo de compras (el identificador único de un grupo de compras) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform."
 

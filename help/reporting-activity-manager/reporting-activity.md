@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
 workflow-type: tm+mt
-source-wordcount: '2016'
-ht-degree: 8%
+source-wordcount: '2043'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,16 @@ Para obtener más información sobre el Administrador de actividades de creació
 >[!CONTEXTUALHELP]
 >id="cja_tools_reportingactivitymanager_connections"
 >title="Conexiones"
->abstract="Esta tabla muestra las conexiones para las que tiene derechos para gestionar la actividad de creación de informes. La información sobre cada conexión está disponible en cada columna de la tabla."
+>abstract="Esta tabla muestra las conexiones para las que tiene derechos para administrar la actividad de creación de informes. La información sobre cada conexión está disponible en cada columna de la tabla."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="Conexiones"
+>abstract="Esta tabla muestra las conexiones para las que tiene derechos para administrar la actividad de creación de informes. La información sobre cada conexión está disponible en cada columna de la tabla."
 
 <!-- markdownlint-enable MD034 -->
 
