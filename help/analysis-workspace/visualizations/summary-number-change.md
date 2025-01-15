@@ -4,9 +4,9 @@ title: Número de resumen y cambio de resumen
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 48%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta la visualización de Número de resumen y Cambio de resumen en **Customer Journey Analytics**. Ver [Número de resumen y Cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) para la versión de **Adobe Analytics**de este artículo.*
+*Este artículo documenta el número de resumen y la visualización de cambio de resumen en ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Ver [Número de resumen y cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) para la versión de ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**de este artículo.*
 
 >[!ENDSHADEBOX]
 
