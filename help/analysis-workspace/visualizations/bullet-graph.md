@@ -4,10 +4,10 @@ title: Gráfico de viñetas
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 58%
+source-wordcount: '249'
+ht-degree: 59%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 58%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta la visualización de viñetas en ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Ver [Viñeta](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para la versión de ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**de este artículo.*
+*Este artículo documenta la visualización de viñetas en **Customer Journey Analytics**.<br/>Ver [Viñeta](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para la versión de **Adobe Analytics**de este artículo.*
 
 >[!ENDSHADEBOX]
 

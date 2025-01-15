@@ -4,7 +4,7 @@ description: Una visualización que inserta un encabezado de sección en el proy
 feature: Visualizations
 role: User
 exl-id: 7f815879-2b08-4650-a9ce-c55ca5824288
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 18%
@@ -27,7 +27,7 @@ ht-degree: 18%
 >[!BEGINSHADEBOX]
 
 
-*This article documents the Section header visualization in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**.<br/>See [Section header](...) for the ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics** version of this article.*
+*This article documents the Section header visualization in **Customer Journey Analytics**.<br/>See [Section header](...) for the **Adobe Analytics** version of this article.*
 
 >[!ENDSHADEBOX]
 

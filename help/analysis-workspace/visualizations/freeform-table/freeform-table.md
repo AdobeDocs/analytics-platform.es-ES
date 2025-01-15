@@ -4,9 +4,9 @@ description: Las tablas de forma libre son la base del análisis de datos en Wor
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '777'
 ht-degree: 25%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 25%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta la visualización de tabla de forma libre en ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulte [Tabla de forma libre](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) para la versión de ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**de este artículo.*
+*Este artículo documenta la visualización de tabla de forma libre en **Customer Journey Analytics**.<br/>Consulte [Tabla de forma libre](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) para la versión de **Adobe Analytics**de este artículo.*
 
 >[!ENDSHADEBOX]
 

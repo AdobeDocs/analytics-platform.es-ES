@@ -4,10 +4,10 @@ title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 25%
+source-wordcount: '157'
+ht-degree: 26%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 25%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta la visualización Venn en ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Ver [Venn](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) para la versión de ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**de este artículo.*
+*Este artículo documenta la visualización Venn en **Customer Journey Analytics**.<br/>Ver [Venn](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) para la versión de **Adobe Analytics**de este artículo.*
 
 >[!ENDSHADEBOX]
 

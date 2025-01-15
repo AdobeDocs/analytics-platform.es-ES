@@ -4,9 +4,9 @@ title: Panel de información rápida
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1151'
 ht-degree: 97%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta el panel Quick Insights en ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulte [Panel de información rápida](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**de este artículo.*
+*Este artículo documenta el panel Quick Insights en **Customer Journey Analytics**.<br/>Consulte [Panel de información rápida](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de **Adobe Analytics**de este artículo.*
 
 >[!ENDSHADEBOX]
 

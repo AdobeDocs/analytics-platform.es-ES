@@ -4,9 +4,9 @@ title: Lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: ca76f5ff27f11ccd1963709b57cc1bdf5fa7dbbe
+source-git-commit: c7828617d45991f9f3ba946fc12e248ac172141d
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1880'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,12 @@ ht-degree: 1%
 >abstract="Analizar cómo se superan o se abandonan los criterios de un recorrido definido. Cree análisis de los recorridos de usuario creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos de Journey Optimizer existentes"
 
 <!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización del lienzo de Recorrido en **Customer Journey Analytics**.<br/>No hay ninguna visualización equivalente en **Adobe Analytics**.*
+
+>[!ENDSHADEBOX]
 
 La visualización del lienzo de Recorrido le permite analizar y obtener perspectivas profundas sobre los recorridos que proporciona a sus usuarios y clientes. Permite definir un recorrido desde cero o ver uno desde Journey Optimizer y, a continuación, ver cómo abandonaron el recorrido o cómo continuaron en él.
 
