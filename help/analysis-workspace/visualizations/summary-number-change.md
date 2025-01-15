@@ -4,10 +4,10 @@ title: Número de resumen y cambio de resumen
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 51%
+source-wordcount: '496'
+ht-degree: 48%
 
 ---
 
@@ -23,6 +23,14 @@ ht-degree: 51%
 >abstract="Cree una visualización que muestre los totales y subtotales."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización de Número de resumen y Cambio de resumen en **Customer Journey Analytics**. Ver [Número de resumen y Cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) para la versión de **Adobe Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
+
 
 Utilice la visualización ![Resumir](/help/assets/icons/123.svg) **[!UICONTROL Número de resumen]** para resaltar un número elevado que sea importante en un proyecto. Esta visualización se comporta de las siguientes maneras, utilizando la fuente de datos asociada:
 

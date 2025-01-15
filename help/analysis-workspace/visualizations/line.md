@@ -4,10 +4,10 @@ title: Líneas
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 23%
+source-wordcount: '529'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 23%
 >abstract="Cree una visualización de líneas que muestre cómo cambian los valores con el paso del tiempo. Una visualización de líneas solo se puede usar cuando se utiliza el tiempo como dimensión."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización de Línea en **Customer Journey Analytics**. Ver [Línea](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) para la versión de **Adobe Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 
 La visualización ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Line]** representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Una visualización de líneas solo se puede utilizar cuando se utiliza el tiempo como dimensión.

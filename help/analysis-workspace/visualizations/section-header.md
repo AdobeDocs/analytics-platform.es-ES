@@ -4,7 +4,7 @@ description: Una visualización que inserta un encabezado de sección en el proy
 feature: Visualizations
 role: User
 exl-id: 7f815879-2b08-4650-a9ce-c55ca5824288
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 18%
@@ -21,6 +21,17 @@ ht-degree: 18%
 >abstract="Añada un encabezado de sección a un panel."
 
 <!-- markdownlint-enable MD034 -->
+
+
+<!-- uncomment when section header page in AA is available.
+>[!BEGINSHADEBOX]
+
+
+*This article documents the Section header visualization in **Customer Journey Analytics**. See [Section header](...) for the **Adobe Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
+
+-->
 
 
 Para identificar y articular secciones dentro de un panel, puede insertar una visualización ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL Encabezado de sección]** en cualquier lugar dentro de un panel.

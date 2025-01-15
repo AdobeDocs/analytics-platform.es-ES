@@ -4,22 +4,30 @@ title: Panel de forma libre
 feature: Panels
 exl-id: 4e1d5d72-da59-419a-835e-a3c90f1362b4
 role: User
-source-git-commit: 44e703ca66f8cbb7cf98472d92b3c294542a2db2
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 13%
+source-wordcount: '112'
+ht-degree: 24%
 
 ---
 
 # Panel de forma libre
 
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta el panel de forma libre en **Customer Journey Analytics**. Ver [Panel de forma libre](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) para la versión de **Adobe Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
+
+
 Un **[!UICONTROL panel improvisado]** es un panel en blanco con una visualización de [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) como estado inicial predeterminado.
 
-## En su lugar, utilice 
+## Utiliza
 
 Para usar un **[!UICONTROL panel improvisado]**:
 
-1. Crear un **[!UICONTROL panel improvisado]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
+1. Crear un **[!UICONTROL panel improvisado]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
    ![Panel improvisado predeterminado que muestra un panel en blanco con una tabla de forma libre.](assets/freeform-panel.png)
 

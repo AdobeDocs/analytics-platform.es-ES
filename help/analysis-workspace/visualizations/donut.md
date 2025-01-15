@@ -4,10 +4,10 @@ title: Anillo
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 32%
+source-wordcount: '117'
+ht-degree: 26%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 32%
 >abstract="Cree una visualización de anillo para comparar porcentajes de un total, por lo general con un número reducido de elementos."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización Anillo en **Customer Journey Analytics**. Ver [Anillo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut) para la versión de **Adobe Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 
 Similar a un gráfico circular, la visualización ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** muestra los datos como partes o filtros de un todo. Utilice una visualización de anillo para comparar porcentajes de un total, normalmente con un número reducido de elementos.

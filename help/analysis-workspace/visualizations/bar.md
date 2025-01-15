@@ -4,10 +4,10 @@ title: Barra y barra apilada
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 30%
+source-wordcount: '201'
+ht-degree: 26%
 
 ---
 
@@ -25,6 +25,13 @@ La visualización de barras tiene una opción estándar y apilada.
 >abstract="Cree una visualización de barras para representar varios valores en una o varias métricas."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta las visualizaciones de barras y barras apiladas en **Customer Journey Analytics**. Ver [Barra y barra apilada](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) para la versión de **Adobe Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 
 La visualización ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** muestra barras verticales que representan varios valores en una o más métricas.

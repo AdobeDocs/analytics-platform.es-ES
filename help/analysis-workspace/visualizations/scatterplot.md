@@ -4,10 +4,10 @@ description: Una visualización que muestra la relación entre hasta tres métri
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 77%
+source-wordcount: '166'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 77%
 >abstract="Cree una visualización de dispersión que muestre la relación entre los elementos de dimensión y hasta tres métricas."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización de dispersión en **Customer Journey Analytics**. Ver [Dispersión](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) para la versión de **Adobe Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 
 La visualización ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** muestra la relación entre los elementos de dimensión y hasta tres métricas. Requiere tres componentes y admite la visualización de hasta cuatro componentes.
