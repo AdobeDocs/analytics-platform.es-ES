@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 0e4e4621abe02c022981e458282543908b2396c2
-workflow-type: ht
+source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
+workflow-type: tm+mt
 source-wordcount: '1078'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Los proyectos del Espacio de trabajo en Customer Journey Analytics se basan en v
 Las vistas de datos le permiten cambiar espontáneamente la configuración del elemento de esquema sin tener que variar el esquema en Adobe Experience Platform ni volver a implementar el entorno de Customer Journey Analytics.
 
 * Puede cambiar un componente de una métrica a una dimensión y viceversa. Puede crear métricas a partir de campos de cadena o crear dimensiones a partir de campos numéricos. Esta funcionalidad facilita las cosas, ya que no tiene que crear un campo numérico en el esquema XDM para cada métrica que desee. En su lugar, puede crearlo de manera espontánea en el cuadro de diálogo de vistas de datos. Estos son algunos ejemplos:
-   * **Cree una o varias dimensiones a partir de un único campo de esquema**. Se trata de una relación de uno a varios. Por ejemplo, puede crear una o más métricas de ingresos o una o más dimensiones de ingresos desde un único campo de esquema.
+   * **Cree una o más métricas o dimensiones a partir de un único campo de esquema**. Se trata de una relación de uno a varios. Por ejemplo, puede crear una o más métricas de ingresos o una o más dimensiones de ingresos desde un único campo de esquema.
    * **Utilice un campo de cadena como métrica**: Al rellenar un esquema en Experience Platform con un conjunto de datos, es posible que no sepa por adelantado qué elementos de esquema necesita. Por ejemplo, es posible que no se haya dado cuenta de que necesitaba una métrica para *Errores de una página*. Como resultado, no se ha creado ningún elemento de esquema numérico a este efecto. Al utilizar un elemento de cadena como métrica, ahora puede utilizar la configuración de vistas de datos para especificar que cada vez que una cadena contenga la palabra `error`, se pueda utilizar como métrica.
    * **Utilizar un campo numérico como dimensión**: por ejemplo, si desea extraer la métrica Ingresos de la dimensión Ingresos, la dimensión Ingresos debería mostrar cada valor como un elemento de dimensión; y el número de instancias para cada elemento de dimensión como una métrica. 
 
@@ -46,7 +46,7 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 * Puede ver más información relacionada con el esquema sobre los componentes. Por ejemplo:
 
    * de qué tipo de conjunto de datos (evento, perfil, consulta, resumen) se origina el componente,
-   * de qué tipo de esquema (cadena, entero, etc.) se origina, y
+   * de qué tipo de esquema (cadena, entero, etc.) procede, y
    * la ruta del esquema (el campo XDM en el que se basa).
 
 * Puede etiquetar un componente para que le resulte más fácil buscarlo en Workspace.
