@@ -4,14 +4,22 @@ title: Área y área apilada
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 27%
+source-wordcount: '202'
+ht-degree: 26%
 
 ---
 
 # Área (apilada)
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta las visualizaciones de áreas y áreas apiladas en **Customer Journey Analytics**.<br/>Ver [Área y área apilada](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) para la versión de **Adobe Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
+
+La visualización de áreas tiene una opción estándar y apilada.
 
 ## Área {#area}
 
@@ -25,11 +33,7 @@ ht-degree: 27%
 <!-- markdownlint-enable MD034 -->
 
 
->[!BEGINSHADEBOX]
 
-*Este artículo documenta las visualizaciones de áreas y áreas apiladas en **Customer Journey Analytics**.<br/>Ver [Área y área apilada](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) para la versión de **Adobe Analytics**de este artículo.*
-
->[!ENDSHADEBOX]
 
 
 La visualización ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** es similar a un gráfico de líneas, pero incluye un área coloreada bajo la línea. Añada un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas.
