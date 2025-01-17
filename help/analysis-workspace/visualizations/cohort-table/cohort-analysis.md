@@ -4,10 +4,10 @@ description: Aprenda a utilizar una tabla de cohorte para el análisis de cohort
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 353993c14103906553d87738ed3f7fc0926e123c
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 33%
+source-wordcount: '687'
+ht-degree: 30%
 
 ---
 
@@ -68,7 +68,9 @@ Las tablas de cohorte de Customer Journey Analytics admiten métricas de doble b
 
 ## Funcionalidades de tabla de cohorte
 
-Las siguientes funciones permiten un control preciso de las cohortes que está creando:
+Las secciones siguientes describen las funciones de análisis de cohorte que permiten un control preciso de las cohortes que está creando.
+
+Para obtener información más detallada sobre cómo crear una cohorte y ejecutar un informe de [!UICONTROL Análisis de cohorte], consulte [Configurar una tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### Tabla [!UICONTROL Retención]
 
