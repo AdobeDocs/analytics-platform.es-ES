@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 5b440a8029aab392739e573a680123d0bd8a1318
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 49%
+source-wordcount: '1612'
+ht-degree: 32%
 
 ---
 
@@ -26,25 +26,39 @@ Después de [crear la etiqueta y agregar la extensión Web SDK](/help/getting-st
 
 ## Configuración de elementos de datos
 
-Los Data Elements son los componentes básicos del diccionario de datos (o mapa de datos). Utilice Data Elements para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad. Los elementos de datos de la etiqueta se configuran para que se lean en la capa de datos y se puedan utilizar para enviar datos a Adobe Experience Platform.
+Los Data Elements son los componentes básicos del diccionario de datos (o mapa de datos). Utilice Data Elements para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad. Puede configurar elementos de datos en la etiqueta de que se lean desde la capa de datos y se puedan utilizar para enviar datos a Adobe Experience Platform. (Para obtener más información sobre los elementos de datos, consulte [Elementos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) en la documentación de etiquetas).
 
-Existen diferentes tipos de elementos de datos. En primer lugar, configure un elemento de datos para capturar el nombre de página que las personas están viendo en el sitio. A continuación, configure un elemento de datos que haga referencia al ID de Experience Cloud. Finalmente, defina un elemento de datos de objeto XDM.
+Las secciones siguientes describen elementos de datos sugeridos y otros elementos de datos comunes que puede configurar.
 
-### Elemento de datos Page name
+Existen varios tipos de elementos de datos. Dos elementos de datos comunes que puede que desee configurar son: uno que captura el nombre de página que las personas están viendo en el sitio y otro que captura el ID de Experience Cloud de cada persona que visita el sitio.
 
-Para definir un elemento de datos de nombre de página, debe hacer lo siguiente:
+Después de configurar estos dos elementos de datos, puede configurar elementos de datos adicionales para los datos específicos que desea capturar.
+
+Finalmente, después de definir todos los elementos de datos deseados, debe asignar los elementos de datos al [esquema que creó](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) anteriormente. Para ello, defina un elemento de datos XDM, que proporciona una representación del esquema XDM.
+
+<!-- Assigning data elements to an XDM object. All of the available XDM objects are based on the schema -->
+
+### Creación de elementos de datos sugeridos
+
+Las secciones siguientes describen cómo crear elementos de datos comunes que se aplican a la mayoría de las organizaciones.
+
+#### Elemento de datos Page name
+
+Un elemento de datos común que se aplica a la mayoría de las organizaciones es un elemento de datos que captura el nombre de página que están viendo las personas.
+
+Para crear un elemento de datos de nombre de página:
 
 1. Inicie sesión en experience.adobe.com con sus credenciales de Adobe ID.
 
 1. En Adobe Experience Platform, vaya a **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Etiquetas]**.
 
-1. Seleccione la etiqueta recién creada de la lista de [!UICONTROL Propiedades de la etiqueta] para abrirla.
+1. En la página **[!UICONTROL Propiedades de la etiqueta]**, seleccione la etiqueta recién creada en la lista de propiedades para abrirla.
 
 1. Seleccione **[!UICONTROL Elementos de datos]** en el carril izquierdo.
 
 1. Seleccione **[!UICONTROL Agregar elemento de datos]**.
 
-1. En el cuadro de diálogo [!UICONTROL Crear elemento de datos], especifique la siguiente información:
+1. En el cuadro de diálogo **[!UICONTROL Crear elemento de datos]**, especifique la siguiente información:
 
    * **[!UICONTROL Nombre]**: El nombre del elemento de datos. Por ejemplo `Page Name`.
 
@@ -66,9 +80,11 @@ Para definir un elemento de datos de nombre de página, debe hacer lo siguiente:
 
 1. Continuar con [elemento de datos ECID](#ecid-data-element).
 
-### Elemento de datos ECID
+#### Elemento de datos ECID
 
-Para definir un elemento de datos ECID, debe hacer lo siguiente:
+Un elemento de datos común que se aplica a la mayoría de las organizaciones es un elemento de datos que captura el ID de Experience Cloud de cada persona que visita el sitio.
+
+Para crear un elemento de datos ECID:
 
 1. Inicie sesión en experience.adobe.com con sus credenciales de Adobe ID.
 
@@ -76,11 +92,23 @@ Para definir un elemento de datos ECID, debe hacer lo siguiente:
 
 1. Seleccione la etiqueta recién creada de la lista de [!UICONTROL Propiedades de la etiqueta] para abrirla.
 
+1. (Condicional) Instale la extensión del Servicio de ID de Experience Cloud si aún no está instalada:
+
+   1. Seleccione **[!UICONTROL Extensiones]** en el carril izquierdo.
+
+   1. La ficha **[!UICONTROL Instalado]** está seleccionada de forma predeterminada. Si el mosaico **[!UICONTROL Servicio de ID de Experience Cloud]** aparece en la lista, vaya al paso 5.
+
+   1. Si el mosaico **[!UICONTROL Servicio de ID de Experience Cloud]** no aparece en la lista, seleccione la pestaña **[!UICONTROL Catálogo]**.
+
+   1. En el campo de búsqueda, busque **[!UICONTROL Servicio de ID de Experience Cloud]** y, a continuación, seleccione el mosaico cuando aparezca
+
+   1. Seleccione **[!UICONTROL Instalar]** > **[!UICONTROL Guardar]**.
+
 1. Seleccione **[!UICONTROL Elementos de datos]** en el carril izquierdo.
 
 1. Seleccione **[!UICONTROL Agregar elemento de datos]**.
 
-1. En el cuadro de diálogo [!UICONTROL Crear elemento de datos], especifique la siguiente información:
+1. En el cuadro de diálogo **[!UICONTROL Crear elemento de datos]**, especifique la siguiente información:
 
    * **[!UICONTROL Nombre]**: El nombre del elemento de datos. Por ejemplo `ECID`.
 
@@ -92,11 +120,45 @@ Para definir un elemento de datos ECID, debe hacer lo siguiente:
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-1. Continuar con [elemento de datos de objeto XDM](#xdm-object-data-element).
+1. Continuar con [Crear elementos de datos adicionales](#create-additional-data-elements).
+
+### Creación de elementos de datos adicionales
+
+Cree un elemento de datos para cada tipo de datos que desee recopilar. Utilice el mismo proceso descrito en [Elemento de datos de nombre de página](#page-name-data-element) y [elemento de datos ECID](#ecid-data-element) para crear cada elemento de datos adicional.
+
+Los elementos de datos que cree deben tener un campo correlativo en el esquema.
+
+Los elementos de datos comunes varían según los requisitos del sector y de la empresa. Considere los siguientes elementos de datos comunes, organizados por sector:
+
+**Elementos de datos comerciales**
+
+* Productos
+
+* Adiciones al carro de compras
+
+* Cierres de compra
+
+**Elementos de datos financieros**
+
+* ID de transacción
+
+* Fecha de transacción
+
+* Tipo de servicio
+
+**Elementos de datos de atención médica**
+
+* Identificador de proveedor
+
+* Fecha de visita
+
+* Tipo de tratamiento
+
+Después de crear todos los elementos de datos requeridos por su organización para la implementación, continúe con [elemento de datos de objeto XDM](#xdm-object-data-element).
 
 ### Elemento de datos del objeto XDM
 
-Por último, ahora desea asignar cualquiera de los elementos de datos específicos al esquema definido anteriormente. Puede definir otro elemento de datos que proporcione una representación del esquema XDM.
+Por último, ahora desea asignar cualquier elemento de datos que haya creado al [esquema que creó](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) anteriormente. Para ello, defina un elemento de datos de objeto XDM que proporcione una representación del esquema XDM.
 
 Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
 
@@ -110,7 +172,7 @@ Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
 
 1. Seleccione **[!UICONTROL Agregar elemento de datos]**.
 
-1. En el cuadro de diálogo [!UICONTROL Crear elemento de datos], especifique la siguiente información:
+1. En el cuadro de diálogo **[!UICONTROL Crear elemento de datos]**, especifique la siguiente información:
 
    * **[!UICONTROL Nombre]**: El nombre del elemento de datos. Por ejemplo `XDM - Page View`.
 
@@ -127,7 +189,6 @@ Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
    ![Seleccionar un elemento de datos ECID](assets/pick-ecid-dataelement.png)
 
    ![Asignar un elemento de datos ECID](assets/map-ecid.png)
-
 
 1. Asigne el atributo `web > webPageDetails > name`, definido en el esquema, al elemento de datos Nombre de página.
 
@@ -159,13 +220,13 @@ Para definir una regla, debe hacer lo siguiente:
 
 1. Seleccione **[!UICONTROL Reglas]** en el carril izquierdo.
 
-1. Seleccione **[!UICONTROL Crear nueva regla]**.
+1. Seleccione **[!UICONTROL Agregar regla]**.
 
-1. En el cuadro de diálogo [!UICONTROL Crear regla], especifique la siguiente información:
+1. En el cuadro de diálogo **[!UICONTROL Crear regla]**, especifique la siguiente información:
 
    * **[!UICONTROL Nombre]**: El nombre de la regla. Por ejemplo `Page View`.
 
-   * **[!UICONTROL Eventos]**: selecciona **[!UICONTROL + Agregar]**. A continuación, en el cuadro de diálogo [!UICONTROL Configuración de eventos], especifique la siguiente información. Cuando haya terminado, seleccione **[!UICONTROL Conservar cambios]**.
+   * **[!UICONTROL Eventos]**: selecciona **[!UICONTROL + Agregar]**. A continuación, en el cuadro de diálogo **[!UICONTROL Configuración de eventos]**, especifique la siguiente información. Cuando haya terminado, seleccione **[!UICONTROL Conservar cambios]**.
 
       * **[!UICONTROL Extensión]**: selecciona **[!UICONTROL Core]** de la lista.
 
@@ -177,9 +238,9 @@ Para definir una regla, debe hacer lo siguiente:
 
       * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL Adobe Experience Platform Web SDK]** de la lista.
 
-      * **[!UICONTROL Tipo de acción]**: Seleccione **[!UICONTROL Enviar evento]** de la lista.
+      * **[!UICONTROL Tipo de acción]**: selecciona **[!UICONTROL Enviar evento]** de la lista.
 
-      * **[!UICONTROL Tipo]**: seleccione **[!UICONTROL web.webpagedetails.pageViews]** de la lista.
+      * **[!UICONTROL Tipo]**: seleccione **[!UICONTROL Vistas de página de detalles de páginas web]** de la lista.
 
       * **[!UICONTROL Datos XDM]**: Seleccione el icono del cilindro y, a continuación, seleccione **[!UICONTROL XDM - Vista de página]** de la lista de elementos de datos.
 
@@ -190,6 +251,12 @@ Para definir una regla, debe hacer lo siguiente:
         ![Crear regla](assets/rule-pageview.png)
 
 1. Seleccione **[!UICONTROL Guardar]**.
+
+1. Repita este proceso para cada regla que desee agregar al sitio.
+
+   Para obtener más información sobre las reglas, consulte [Reglas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) en la documentación de etiquetas.
+
+1. Continúa con [Crea y publica tu etiqueta](#build-and-publish-your-tag).
 
 ## Cree y publique su etiqueta
 
@@ -207,9 +274,9 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
 1. Seleccione **[!UICONTROL Flujo de publicación]** en el carril izquierdo.
 
-1. Seleccione **[!UICONTROL Seleccionar una biblioteca de trabajo]**, seguido de **[!UICONTROL Agregar biblioteca…]**.
+1. Seleccione **[!UICONTROL Agregar biblioteca]**.
 
-1. En el cuadro de diálogo [!UICONTROL Crear biblioteca], especifique la siguiente información:
+1. En el cuadro de diálogo **[!UICONTROL Crear biblioteca]**, especifique la siguiente información:
 
    * **[!UICONTROL Nombre]**: El nombre de la biblioteca.
 

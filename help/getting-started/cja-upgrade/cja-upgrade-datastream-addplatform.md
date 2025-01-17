@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
+source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 31%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 31%
 
 Debe existir una secuencia de datos antes de completar los pasos de esta sección. El momento y el modo en que se creó el conjunto de datos dependen de la implementación de Adobe Analytics, de la siguiente manera:
 
-* Si la implementación de Adobe Analytics utiliza el SDK web o la extensión del SDK web, el conjunto de datos estaba disponible para el entorno de Adobe Analytics antes del proceso de actualización.
+* Si la implementación de Adobe Analytics utiliza Web SDK o la extensión Web SDK, el conjunto de datos estaba disponible para el entorno de Adobe Analytics antes del proceso de actualización.
 
 * Para otras implementaciones de Adobe Analytics, la creación de un conjunto de datos forma parte del proceso de actualización, tal como se describe en [Crear un conjunto de datos para utilizarlo con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
 

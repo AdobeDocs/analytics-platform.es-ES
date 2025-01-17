@@ -1,16 +1,16 @@
 ---
 title: Implementación de la etiqueta de carga para la extensión del SDK web
-description: Obtenga información sobre cómo implementar la etiqueta de carga para la extensión del SDK web
+description: Obtenga información sobre cómo implementar la etiqueta de carga para la extensión Web SDK
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: 937a7f31361027438929194f8ccc5aee83c33bc0
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 34%
+source-wordcount: '285'
+ht-degree: 36%
 
 ---
 
@@ -27,6 +27,12 @@ Debe instalar la etiqueta en el sitio web que desee rastrear, lo que implica col
 El siguiente proceso describe cómo obtener el código que hace referencia a la etiqueta. Para obtener información adicional, consulte las [Guías de implementación para etiquetas y reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides) en la documentación del Experience Platform.
 
 Para obtener el código que hace referencia a la etiqueta, debe hacer lo siguiente:
+
+1. Inicie sesión en experience.adobe.com con sus credenciales de Adobe ID.
+
+1. En Adobe Experience Platform, vaya a **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Etiquetas]**.
+
+1. En la página **[!UICONTROL Propiedades de la etiqueta]**, seleccione la etiqueta recién creada en la lista de propiedades para abrirla.
 
 1. Seleccione **[!UICONTROL Entornos]** en el carril izquierdo.
 
