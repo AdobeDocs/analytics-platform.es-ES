@@ -4,14 +4,20 @@ title: Barras horizontales y barras horizontales apiladas
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: c0c02b8ae1a614f3e623642a8671bb25d8a26f4f
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 31%
 
 ---
 
 # Barra horizontal (apilada)
+
+>[!BEGINSHADEBOX]
+
+_Este artículo documenta las visualizaciones de barras horizontales y barras horizontales apiladas en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/>Ver [barras horizontales y barras horizontales apiladas](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) para la _![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**de este artículo._
+
+>[!ENDSHADEBOX]
 
 La visualización de barras horizontales tiene una opción estándar y apilada.
 
@@ -25,13 +31,6 @@ La visualización de barras horizontales tiene una opción estándar y apilada.
 >abstract="Cree una visualización de barras horizontales para representar varios valores en una o varias métricas."
 
 <!-- markdownlint-enable MD034 -->
-
-
->[!BEGINSHADEBOX]
-
-*Este artículo documenta las visualizaciones de barras horizontales y barras horizontales apiladas en **Customer Journey Analytics**.<br/>Ver [barras horizontales y barras horizontales apiladas](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) para la versión de **Adobe Analytics**de este artículo.*
-
->[!ENDSHADEBOX]
 
 
 Esta visualización de ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** muestra barras horizontales que representan varios valores en una o más métricas.
