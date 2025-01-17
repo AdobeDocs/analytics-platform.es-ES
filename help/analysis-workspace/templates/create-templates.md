@@ -4,7 +4,7 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 198d2670b2008cb669433753d5bfedd90f71c220
+source-git-commit: 50d46d5b2d663e6f0b3951006db34bff0193417e
 workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 2%
