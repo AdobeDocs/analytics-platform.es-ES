@@ -4,7 +4,7 @@ title: Área y área apilada
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
+source-git-commit: 834296485a1e21cf15fb5d8162e421d28e2fcd21
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 26%
@@ -18,6 +18,7 @@ ht-degree: 26%
 *Este artículo documenta las visualizaciones de áreas y áreas apiladas en **Customer Journey Analytics**.<br/>Ver [Área y área apilada](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) para la versión de **Adobe Analytics**de este artículo.*
 
 >[!ENDSHADEBOX]
+
 
 La visualización de áreas tiene una opción estándar y apilada.
 
