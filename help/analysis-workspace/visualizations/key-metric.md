@@ -4,9 +4,9 @@ title: Resumen de métricas clave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '959'
 ht-degree: 36%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 36%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta la visualización Resumen de métricas clave en **Customer Journey Analytics**.<br/>Consulte [Resumen de métricas clave](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) para la versión de **Adobe Analytics**de este artículo.*
+_Este artículo documenta la visualización Resumen de métricas clave en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Resumen de métricas clave](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 

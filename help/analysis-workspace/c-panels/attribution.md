@@ -4,9 +4,9 @@ description: Utilizar e interpretar el panel de atribución en Analysis Workspac
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 47%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta el panel Atribución en **Customer Journey Analytics**.<br/>Vea [Panel de atribución](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/attribution) para la versión de **Adobe Analytics**de este artículo.*
+_Este artículo documenta el panel Atribución en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Vea [Panel de atribución](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/attribution) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
