@@ -5,9 +5,9 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2159'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -149,15 +149,15 @@ Los componentes que no son filtros también se pueden arrastrar directamente a l
 
 Para obtener más información, consulte [Filtros rápidos](/help/components/filters/quick-filters.md).
 
-![Filtros ad hoc que se hacen públicos y se colocan en la zona de colocación](assets/adhoc-segment-filter.png)
+![Filtros ad hoc que se hacen públicos y se sueltan en la zona de colocación](assets/adhoc-segment-filter.png)
 
 ### Filtros desplegables
 
 >[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
 
-Este vídeo muestra la funcionalidad mediante Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las siguientes diferencias terminológicas.
+En este vídeo se demuestra la funcionalidad utilizando Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las siguientes diferencias en terminología.
 
-| Adobe Analytics | Análisis del Recorrido del cliente |
+| Adobe Analytics | Customer Journey Analytics |
 | --- | --- |
 | Segmentos  | Filtros |
 | Visitante | Persona |

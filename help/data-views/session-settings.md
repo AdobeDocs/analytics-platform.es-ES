@@ -6,7 +6,7 @@ feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
 ht-degree: 100%
 
