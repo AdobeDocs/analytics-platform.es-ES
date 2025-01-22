@@ -4,9 +4,9 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 50d46d5b2d663e6f0b3951006db34bff0193417e
+source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
 workflow-type: tm+mt
-source-wordcount: '19294'
+source-wordcount: '19288'
 ht-degree: 71%
 
 ---
@@ -31,7 +31,7 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
 1. En Analysis Workspace, seleccione la pestaña [!UICONTROL **Espacio de trabajo**].
 
-   ![Fichas de plantillas](assets/view-prebuilt-templates.png)
+   ![Fichas de plantillas](assets/view-prebuilt-templates-full.png)
 
 1. En la sección [!UICONTROL **Plantillas**], seleccione cualquiera de las siguientes fichas:
 
@@ -43,9 +43,9 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
 1. Utilice cualquiera de las siguientes opciones para cambiar la forma en que ve las plantillas disponibles:
 
-   * Elija si desea ver las plantillas en una vista de columna o en una vista de tarjeta seleccionando la vista de columna ![icono de vista de columna](assets/column-view-icon.png) o el icono de vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png).
+   * Elija si desea ver las plantillas en una vista de columna o de tarjeta seleccionando la vista de columna ![ViewColumn](/help/assets/icons/ViewColumn.svg) o el icono de vista de tarjeta ![Tarjeta](/help/assets/icons/Card.svg).
 
-   * Al usar la vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png), elija entre los siguientes órdenes de clasificación: **[!UICONTROL Utilizado más recientemente]**, **[!UICONTROL Más popular]**, **[!UICONTROL Alfabético]**, **[!UICONTROL Categórico]**.
+   * Al usar la vista de tarjeta ![Tarjeta](/help/assets/icons/Card.svg), elija entre los siguientes órdenes de clasificación: **[!UICONTROL Utilizada más recientemente]**, **[!UICONTROL Más popular]**, **[!UICONTROL Alfabética]**, **[!UICONTROL Categórica]**.
 
 1. En el campo de búsqueda, empiece a escribir el nombre de la plantilla que desea buscar y, a continuación, selecciónela en la lista de plantillas.
 
