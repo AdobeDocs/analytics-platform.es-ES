@@ -4,7 +4,7 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
+source-git-commit: 75a6db5fde167235a86241cb6065602d7157c390
 workflow-type: tm+mt
 source-wordcount: '19288'
 ht-degree: 71%
@@ -1548,4 +1548,3 @@ Las plantillas disponibles son las siguientes:
 | **Páginas de aterrizaje de Journey Optimizer** | Vea el comportamiento del usuario, los patrones de participación, las tasas de conversión y otras métricas clave.<p>**Esto puede ayudarte** a comprender mejor la efectividad de tu página de aterrizaje. </p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como optimizar el rendimiento de su página de aterrizaje.</p> |
 | **informe de información general de Journey Optimizer** | Vea un resumen completo de las métricas de tráfico y participación para todas las campañas y recorridos dentro de su entorno.<p>**Esto puede ayudarte** a comprender mejor la efectividad de alto nivel de tus campañas y recorridos. </p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como ajustar sus campañas y recorridos en función de los niveles de participación de su público destinatario.</p> |
 | **Suscripciones de Journey Optimizer** | Vea las suscripciones y bajas de perfiles asociadas a listas concretas.<p>**Esto puede ayudarle** a comprender mejor la efectividad de las diferentes campañas e iniciativas de suscripción para impulsar la participación y las conversiones.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como ajustar sus campañas de suscripción en función de los niveles de participación de su público destinatario.</p> |
-

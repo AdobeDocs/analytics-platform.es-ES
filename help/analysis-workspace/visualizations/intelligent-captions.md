@@ -4,10 +4,10 @@ title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: de0eca21fa1b4ac71a8273676e851b596cf911a8
+source-git-commit: 7d103e9d709ec076519360a4b43af44f061171e9
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 20%
+source-wordcount: '868'
+ht-degree: 16%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 20%
 
 <!-- markdownlint-enable MD034 -->
 
-Los subtítulos inteligentes utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones de Workspace. La versión inicial proporciona información generada automáticamente para la visualización [Line](line.md). A continuación, se muestran otras visualizaciones.
+La funcionalidad Subtítulos inteligentes utiliza IA generativa avanzada para proporcionar perspectivas clave para las visualizaciones de Workspace utilizadas con más frecuencia en lenguaje natural.
 
 Los subtítulos inteligentes están orientados a:
 
@@ -85,11 +85,10 @@ Los subtítulos inteligentes están orientados a:
 
 ## Iniciar subtítulos inteligentes {#launch}
 
-Para iniciar subtítulos generados automáticamente para una visualización de línea, seleccione ![AEMcreen](/help/assets/icons/AI.svg) **[!UICONTROL Subtítulos inteligentes]** en la parte superior derecha de la visualización.
+Para iniciar subtítulos inteligentes generados automáticamente para una visualización, seleccione ![Subtítulos inteligentes](/help/assets/icons/AI.svg) en la parte superior derecha de la visualización. Esta selección genera perspectivas en lenguaje natural.
 
-![Iniciar análisis con los subtítulos inteligentes para la tendencia de vistas de productos. ](assets/intell-caps-1.png)
+![Iniciar análisis con los subtítulos inteligentes para la tendencia de vistas de productos. ](assets/intelligent-captions.gif)
 
-Ahora se están generando perspectivas en lenguaje natural.
 
 Tenga en cuenta que:
 
@@ -97,13 +96,28 @@ Tenga en cuenta que:
 
 * Los subtítulos se generan cada vez que los datos seleccionados subyacentes cambian en la tabla que alimenta la visualización.
 
-* Si hay varias métricas en la tabla, los subtítulos solo se generan para la primera métrica o la métrica seleccionada actualmente por el usuario.
+* Si hay varias métricas en una tabla de forma libre asociada, los subtítulos solo se generan para la primera métrica o la métrica seleccionada actualmente por el usuario. Sin embargo, se pueden generar subtítulos para varias métricas en las visualizaciones de líneas y áreas.
 
 * Si guarda el proyecto en un punto específico y lo vuelve a cargar más adelante, los subtítulos se actualizan automáticamente con nuevos datos. Lo mismo se aplica a los proyectos programados y a los archivos de PDF exportados desde un proyecto.
 
-A continuación se muestra un ejemplo del aspecto que podrían tener los subtítulos inteligentes:
 
-![Subtítulos inteligentes para la visualización de líneas que incluyen Estacionalidad, Mínimo, Máximo, Pico y Rechazar.](assets/captions.png)
+## Visualizaciones {#visualizations}
+
+Los subtítulos inteligentes son compatibles con las siguientes visualizaciones:
+
+* [Línea](line.md) (incluyendo multilínea)
+* [Barra](bar.md)
+* [Barra horizontal](horizontal-bar.md)
+* [Área](area.md) (incluidas varias líneas de área)
+* [Anillo](donut.md)
+* [Visita en orden previsto](fallout/fallout-flow.md)
+* [Flujo](c-flow/flow.md)
+
+<!--
+Here is an example of what intelligent captions could look like:
+
+![Intelligent captions for Line visualization including Seasonality, Min, Max, Spike, and Decline.](assets/captions.png)
+-->
 
 ## Acciones
 
@@ -111,15 +125,24 @@ Puede realizar las siguientes acciones en los subtítulos inteligentes:
 
 ### Copiar en el portapapeles {#copy}
 
-Puede copiar los subtítulos en un portapapeles y pegarlos en un PowerPoint u otras herramientas. Seleccione ![Copiar subtítulos al portapapeles](/help/assets/icons/Copy.svg) en la parte superior derecha del cuadro de diálogo de subtítulos.
+Puede copiar los subtítulos en un portapapeles y pegarlos en un PowerPoint u otras herramientas. Puede copiar títulos individuales en la vista uno por uno, o bien puede copiar todos los títulos a la vez en la vista de títulos expandidos.
+
+* Para copiar los subtítulos, seleccione ![Copiar subtítulos al portapapeles](/help/assets/icons/Copy.svg) en la parte superior derecha del cuadro de diálogo de subtítulos.
+
+### Mostrar todos los subtítulos inteligentes o cada uno  {#show-all-or-individual}
+
+Puede mostrar todos los subtítulos inteligentes a la vez en una vista expandida, o bien puede mostrar subtítulos inteligentes individuales en una vista uno por uno.
+
+* Para mostrar todos los subtítulos inteligentes, seleccione ![Mostrar todos los subtítulos inteligentes](/help/assets/icons/Maximize.svg).
+* Para mostrar subtítulos inteligentes individuales, uno por uno, seleccione ![Mostrar subtítulos inteligentes individuales](/help/assets/icons/Minimize.svg).
 
 ### Editar pantalla {#edit}
 
 Puede editar la visualización de subtítulos, como ocultar o mostrar una categoría particular de perspectivas.
 
-1. Seleccione ![Editar subtítulos inteligentes](/help/assets/icons/EditInLight.svg) en el cuadro de diálogo Subtítulos inteligentes.
+1. Seleccione ![Editar visibilidad de subtítulos inteligentes](/help/assets/icons/EditInLight.svg) en el cuadro de diálogo Subtítulos inteligentes.
 
-1. Alterne entre ![Visibilidad](/help/assets/icons/Visibility.svg) para mostrar una perspectiva específica (como **[!UICONTROL Mín.]**) o ![Visibilidad desactivada](/help/assets/icons/VisibilityOff.svg) para ocultar una perspectiva específica (como **[!UICONTROL Pico]**).
+1. Alterne entre ![Alternar visibilidad](/help/assets/icons/Visibility.svg) para mostrar una perspectiva específica (como **[!UICONTROL Min]**) o ![Alternar visibilidad](/help/assets/icons/VisibilityOff.svg) para ocultar una perspectiva específica (como **[!UICONTROL Spike]**).
 
    ![Editar subtítulos inteligentes](assets/edit-intelligent-captions.png)
 
@@ -128,7 +151,7 @@ Puede editar la visualización de subtítulos, como ocultar o mostrar una catego
 
 ### Proporcionar comentarios
 
-Puede proporcionar comentarios sobre los subtítulos inteligentes generados.
+Puede proporcionar comentarios sobre los subtítulos inteligentes generados (solo se pueden proporcionar comentarios en la vista de subtítulos expandidos).
 
 1. Seleccione ![Más acciones](/help/assets/icons/More.svg) en el cuadro de diálogo Subtítulos inteligentes.
 
@@ -162,7 +185,7 @@ Los siguientes parámetros rigen el acceso a los subtítulos inteligentes:
 
 * **Acceso a la solución**: la característica Subtítulos inteligentes está disponible en Customer Journey Analytics, pero no en Adobe Analytics.
 
-* **Acceso contractual**: Si no puede usar subtítulos inteligentes, póngase en contacto con el administrador de su organización o con el representante de cuentas de Adobe. Antes de poder usar subtítulos inteligentes en su organización, debe aceptar ciertos términos legales relacionados con GenAI.
+* **Acceso contractual**: Si no puede usar subtítulos inteligentes, póngase en contacto con el administrador de su organización o con el representante de cuentas de Adobe (administrador). Antes de poder utilizar subtítulos inteligentes en su organización, debe aceptar determinados términos legales relacionados con la inteligencia artificial aplicada a la generación.
 
 * **Permisos**: en [!UICONTROL Adobe Admin Console], el permiso de [!UICONTROL Herramientas de informes] **[!UICONTROL Subtítulos inteligentes]** determina el acceso. Un [administrador de perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) debe seguir estos pasos en el [!UICONTROL Admin Console]:
    1. Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos y servicios]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Perfiles de productos]**.
