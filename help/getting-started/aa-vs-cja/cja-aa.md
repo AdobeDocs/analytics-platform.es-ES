@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8c4b42c0046068ba45a47ecd9c7eab2ed89028e5
+source-git-commit: 55da4faa73d708a450274c2b4d44c246ef5feb49
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 95%
+source-wordcount: '2417'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,8 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Previsión** | La [Previsión](/help/analysis-workspace/c-forecast/forecasting.md) es una función de inteligencia artificial/aprendizaje automático que incluye una predicción estadística de datos relacionados con series temporales basada en los datos históricos que ya existen en Customer Journey Analytics. Las previsiones pueden aparecer en tablas de forma libre y visualizaciones de gráficos de líneas. |
 | **Análisis guiado** | El [análisis guiado](/help/guided-analysis/overview.md) permite a los usuarios autoabastecerse de datos e información de alta calidad sobre el recorrido del cliente mediante flujos de trabajo guiados, basados en los datos en canales múltiples de Customer Journey Analytics. |
 | **Pies de ilustración inteligentes** | [Subtítulos inteligentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones de Workspace. Los subtítulos inteligentes son compatibles con las siguientes visualizaciones: Línea, Varias líneas, Barra, Barra horizontal, Anillo, Área, Flujo y Visitas en el orden previsto. |
-| **Uso del producto** | [Uso del producto]https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview() muestra el uso que hace su organización de Customer Journey Analytics. |
+| **Lienzo de Recorrido** | [Lienzo de Recorrido](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en) es una visualización en Analysis Workspace que te permite analizar cómo las personas salen de un recorrido definido. |
+| **Uso del producto** | [Uso del producto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview()) muestra cómo usa su organización Customer Journey Analytics. |
 | **Transformaciones de tiempo de informes** | Las [Vistas de datos](/help/data-views/data-views.md) de Customer Journey Analytics le permiten interpretar aún más los datos de una conexión. Puede modificar o quitar datos sin cambiar su implementación, utilizar subcadenas para manipular dimensiones, crear métricas a partir de cualquier valor o filtrar subeventos. Todas estas transformaciones se realizan de manera no destructiva. Adobe Analytics proporciona funciones limitadas a través de grupos de informes virtuales y longitud de sesión personalizada. |
 | **Acceso SQL** | Con la opción Data Distiller, Customer Journey Analytics puede eliminar las limitaciones de los datos recopilados en el procesamiento back-end de Adobe. Puede modificar los datos con SQL, crear valores y conjuntos de datos únicos para su empresa y continuar explorando. Analytics no admite ningún tipo de acceso SQL a sus datos. |
 | **Unión** | [Vinculación](/help/stitching/overview.md) es una potente función que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes de varios conjuntos de datos de diferentes canales sin problemas, en función de un identificador común (ID de persona). |
@@ -46,6 +47,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | Función Adobe Analytics | Notas sobre asistencia de CJA |
 | --- | --- |
 | **Detección de anomalías** | Compatibilidad total |
+| **Transferencia de recursos** | Compatibilidad total |
 | **Attribution IQ** | Compatibilidad total |
 | **Detección de bots** | [Compatibilidad total](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=es) |
 | **Métricas calculadas** | Compatibilidad total. Las métricas calculadas existentes en la versión tradicional de Analysis Workspace no se transfieren a Customer Journey Analytics. |
