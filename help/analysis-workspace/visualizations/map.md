@@ -6,7 +6,7 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
+source-git-commit: 00c57793846d997dbfd80b413f3cf3b78a96097b
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 19%
@@ -47,4 +47,3 @@ ht-degree: 19%
 _Actualmente no hay ninguna visualización de mapas disponible en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vea [Map](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para obtener la documentación sobre la visualización de mapas en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]
-
