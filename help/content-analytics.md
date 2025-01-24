@@ -6,10 +6,11 @@ feature: Data Views
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9e2cc59ed89546ff1ceeacda92fb4fd63399d5b3
+exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
+source-git-commit: 8b11178b85a80e17510215b3520e2b8f5c1d9a43
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 12%
+source-wordcount: '326'
+ht-degree: 7%
 
 ---
 
@@ -38,17 +39,12 @@ En esta sección se describe la incorporación.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_button"
 >title="Detalles"
->abstract="Proporcione un nombre para la conexión, seleccione una zona protegida y especifique si desea recopilar experiencias."
+>abstract="Proporcione un nombre para la conexión. En las secciones **[!UICONTROL Vista de datos]**, **[!UICONTROL Captura y definición de experiencias]** y **[!UICONTROL Recopilación de datos]**, proporciona más detalles para garantizar que Análisis de contenido se pueda configurar correctamente."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="Detalles"
->abstract="Proporcione un nombre para esta configuración de análisis de contenido."
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_details_sandbox_header"
->title="Detalles"
->abstract="Seleccione un simulador para pruebas que desee utilizar para esta configuración de análisis de contenido."
+>abstract="Esta guía establece los requisitos necesarios para configurar el análisis de contenido. Proporcione un nombre para esta configuración"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -58,14 +54,41 @@ En esta sección se describe la incorporación.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
+>id="ac_onboarding_dataview_button"
+>title="Vista de datos"
+>abstract="Para la configuración de Análisis de contenido, debe seleccionar una vista de datos existente con la que desee combinar los datos de análisis de contenido."
+
+>[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Vista de datos"
->abstract="Seleccione una vista de datos existente del Customer Journey Analytics con la que desee combinar los datos de análisis de contenido.<br/>[Más información](/help/data-views/data-views.md)"
+>abstract="Seleccione una vista de datos existente del Customer Journey Analytics con la que desee combinar los datos de análisis de contenido<br/>[Más información](/help/data-views/data-views.md)"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="Vista de datos"
->abstract="Seleccione una vista de datos existente del Customer Journey Analytics con la que desee combinar los datos de análisis de contenido con<br/>."
+>abstract="Seleccione una vista de datos existente del Customer Journey Analytics con la que desee combinar los datos de análisis de contenido <br/>"
+
+<!-- markdownlint-enable MD034 -->
+
+
+### Captura y definición de experiencias
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_experiences_button"
+>title="Captura y definición de experiencias"
+>abstract="Puede seleccionar incluir Experiencias en los datos que recopila con Análisis de contenido. Cuando se selecciona, debe definir una o más combinaciones de una regex y parámetros de consulta para definir para qué URL desea incluir experiencias."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_experiences_header"
+>title="Captura y definición de experiencias"
+>abstract="Recopilar experiencias en análisis de contenido"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_experiences_url_header"
+>title="Captura y definición de experiencias"
+>abstract="Especifique las direcciones URL a las que se aplican los parámetros siguientes"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -75,24 +98,34 @@ En esta sección se describe la incorporación.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_button"
+>title="Recopilación de datos"
+>abstract="Defina qué propiedad de etiqueta desea utilizar o cree una nueva. Y defina las páginas y los recursos que desea incluir o excluir mediante expresiones regulares."
+
+>[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
 >title="Recopilación de datos"
->abstract="Proporcione una propiedad Tag."
+>abstract="Proporcionar una propiedad de etiqueta"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_pages_excluded_boldheader"
+>title="Recopilación de datos"
+>abstract="**Páginas para incluir/excluir**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_header"
 >title="Recopilación de datos"
->abstract="Indique qué páginas deben **excluirse** al recopilar datos para el análisis de contenido."
+>abstract="Indique qué páginas deben **incluirse** o **excluirse** al recopilar datos para el análisis de contenido"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_assets_excluded_boldheader"
+>title="Recopilación de datos"
+>abstract="**Assets para incluir/excluir**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
 >title="Recopilación de datos"
->abstract="Indique qué recursos deben **excluirse** al recopilar datos para el análisis de contenido."
+>abstract="Indique qué recursos deben **incluirse** o **excluirse** al recopilar datos para el análisis de contenido"
 
->[!CONTEXTUALHELP]
->id="aca_onboarding_datacollection_content_rendered_header"
->title="Recopilación de datos"
->abstract="Especifique los parámetros que determinan cómo se procesa el contenido en el sitio web."
 
 <!-- markdownlint-enable MD034 -->
-
