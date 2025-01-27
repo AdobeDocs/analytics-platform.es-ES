@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo ver y administrar registros de aud
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 66%
+source-wordcount: '932'
+ht-degree: 60%
 
 ---
 
@@ -63,22 +63,22 @@ Haga doble clic en el botón de información (i) junto a una descripción.
 Se muestran los siguientes elementos:
 
 * **[!UICONTROL Nombre de la acción]**: Acción realizada. Entre los posibles valores están:
-   * API_REQUEST
-   * APROBAR
-   * CREAR
-   * DELETE
-   * EDITAR
-   * EMBARGO
-   * EXPORTAR
-   * ORG_CHANGE
-   * ACTUALIZAR
-   * SHARE
-   * TRANSFERIR
-   * DESAPROBAR
-   * DEJAR DE COMPARTIR
+   * API_REQUEST: Cualquier acción almacena en déclencheur una solicitud de API del servidor. Se muestran detalles sobre cuál era la solicitud de API.
+   * APROBAR: Se realizó una acción de &quot;aprobación&quot;.
+   * CREATE: Se ha realizado una acción &quot;create&quot;.
+   * DELETE: Se ha realizado una acción de &quot;eliminación&quot;.
+   * EDICIÓN: Se ha realizado una acción de &quot;edición&quot;.
+   * EMBARGO:
+   * EXPORTAR: Se realizó una acción de &quot;exportación&quot;.
+   * ORG_CHANGE: Se ha realizado una acción de cambio de organización.
+   * ACTUALIZAR: Se ha realizado una acción de &quot;actualización&quot;.
+   * COMPARTIR: Se realizó una acción de &quot;compartir&quot;.
+   * TRANSFERIR: Se realizó una acción de transferencia.
+   * UNAPPROVE: se realizó una acción &quot;desaprobar&quot;.
+   * DEJAR DE COMPARTIR: Se realizó una acción para dejar de compartir.
 * **[!UICONTROL Fecha de creación]**: La fecha y la hora en que se realizó la acción.
 * **[!UICONTROL Descripción]**: Un resumen de la acción.
-* **[!UICONTROL Nombre de usuario]**: El usuario que realizó la acción.
+* **[!UICONTROL Nombre de usuario]**: El usuario que realizó la acción. En ocasiones, es posible que falte el nombre de usuario. Considere utilizar la característica [Uso del producto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/tools/product-usage/usage-overview), ya que siempre incluye el nombre de usuario de inicio de sesión.
 * **[!UICONTROL Correo electrónico]**: La dirección de correo electrónico del usuario que realizó la acción.
 * **[!UICONTROL Nombre de componente]**: Componente sobre el que el usuario realizó una acción.
 * **[!UICONTROL Tipo de componente]**: El tipo de componente. Entre los posibles valores están:
@@ -94,7 +94,7 @@ Se muestran los siguientes elementos:
    * FILTRO
    * IMS_ORG
    * MÓVIL
-   * PROYECTO
+   * PROYECTO (Workspace)
    * INFORME
    * PROYECTO_PROGRAMADO
    * USUARIO
