@@ -6,14 +6,22 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 987d09a10da9cf972947fae99e5b88bfc8da135d
+source-git-commit: 4438f4f7bd2794f459a1f771b1685f2501838b5f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 1%
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
 # Uso del objeto de personalización para su uso con Adobe Journey Optimizer
+
+El resultado del objeto de personalización termina en un conjunto de datos. El resultado de la experimentación. Cuando un cliente ha utilizado AA con Target, esto termina en un espacio completamente diferente al de cuando migra a CJA y va a utilizar CJA con Adobe Target.
+
+Target era la forma antigua de configurar una prueba O experimentación A/B. Después, asegurarse de que los resultados de esas pruebas en Target terminaran en AA para la creación de informes. Ahora, si está utilizando Target, en lugar de decir que desea los datos en Target, puede seleccionar CJA como fuente de informes para una actividad de Adobe Target. Por lo tanto, si un cliente está haciendo esto en AA y desea pasar a CJA, ...
+
+Si un cliente tiene AJO y utiliza Ofertas en AJO, puede configurar ofertas y eso también crea conjuntos de datos en Platform... Pero eso no es relevante con la actualización, exactamente.
+
+
 
 Preguntas que debemos responder:
 
@@ -29,6 +37,8 @@ Procesar contenido manualmente o Procesar contenido automáticamente.
 
 ## Implementación manual de Web SDK
 
+
+## Implementación de Mobile SDK
 
 
 

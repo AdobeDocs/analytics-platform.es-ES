@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
+source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
-# Transición del conector de origen de Analytics a Web SDK para Customer Journey Analytics
+# Transición del conector de origen de Analytics a Web SDK para Customer Journey Analytics {#transition-from-source-connector}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector"
+>title="Implementación del conector de origen de Analytics"
+>abstract="El conector de origen de Analytics le permite obtener fácilmente valor de Customer Journey Analytics, pero requiere que pague tanto por Adobe Analytics como por Customer Journey Analytics. Esta guía puede ayudarle a pasar a una implementación independiente de Web SDK."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

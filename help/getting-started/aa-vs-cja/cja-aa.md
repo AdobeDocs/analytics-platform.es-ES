@@ -5,16 +5,16 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
+source-git-commit: 0e3f15abbc904786c359160749d62754a9ebbe50
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 94%
+source-wordcount: '2418'
+ht-degree: 93%
 
 ---
 
 # Compatibilidad con funciones de Customer Journey Analytics
 
-Las siguientes tablas indican qué funciones son únicas de Customer Journey Analytics y qué funciones de Adobe Analytics son compatibles, parcialmente compatibles o no compatibles con Customer Journey Analytics. Estas listas cambiarán con el tiempo a medida que se añadan funciones a Customer Journey Analytics.
+Las siguientes tablas indican qué funciones son únicas de Customer Journey Analytics y qué funciones de Adobe Analytics son compatibles, parcialmente o no con Customer Journey Analytics. Estas listas cambiarán con el tiempo a medida que se añadan funciones a Customer Journey Analytics.
 
 ## Funciones únicas de Adobe Customer Journey Analytics {#cja-not-aa}
 
