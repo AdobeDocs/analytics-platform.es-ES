@@ -5,7 +5,7 @@ exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 86%

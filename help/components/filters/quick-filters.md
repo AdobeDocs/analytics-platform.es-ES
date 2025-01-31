@@ -4,7 +4,7 @@ title: Filtros rápidos
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 2%

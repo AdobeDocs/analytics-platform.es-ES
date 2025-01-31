@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 92%
@@ -47,7 +47,7 @@ Una conexión le permite a su administrador de Analytics integrar conjuntos de d
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/){target=&#34;_blank&#34;} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

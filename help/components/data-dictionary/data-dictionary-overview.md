@@ -4,7 +4,7 @@ title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 131b216f5b5f30048516d4b78e5f270701eb14d3
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 76%
