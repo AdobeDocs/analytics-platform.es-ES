@@ -2,7 +2,7 @@
 title: Configuración de los datos de uso del producto
 description: Habilite, deshabilite o configure las opciones de uso del producto.
 exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # Configuración de los datos de uso del producto {#product-usage-data-settings}
-
-{{release-limited-testing}}
 
 La página _Configuración de datos_ administra la configuración de uso del producto. Puede utilizar esta página para habilitar o deshabilitar el uso del producto para su organización. También puede configurar en qué entorno limitado de Adobe Experience Platform se crea el conjunto de datos y anular el período de retención de datos si lo desea. Solo están visibles para los administradores de productos.
 

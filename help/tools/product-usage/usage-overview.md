@@ -2,10 +2,10 @@
 title: Información general de uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: dbf4ff28f693085320c3e496ea99eede2ddb17d2
+source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 12%
+source-wordcount: '523'
+ht-degree: 13%
 
 ---
 
@@ -98,7 +98,6 @@ Al habilitar Uso del producto, están disponibles las siguientes dimensiones. Si
    * `workspace-projects`
    * `guided-analysis`
    * `mobile-scorecard-builder`
-* **[!UICONTROL ID de usuario]**: El ID de usuario que activó el evento.
 * **[!UICONTROL Visualización utilizada]**: La visualización que se agregó, eliminó o modificó. Los elementos de Dimension incluyen:
    * [!UICONTROL Tabla de forma libre]
    * [!UICONTROL Tabla de cohorte]
