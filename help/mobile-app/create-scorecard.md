@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '2672'
-ht-degree: 68%
+source-wordcount: '2703'
+ht-degree: 67%
 
 ---
 
@@ -26,7 +26,13 @@ ht-degree: 68%
 
 La siguiente información enseña a los depuradores de datos de los Customer Journey Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/343458)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear un cuadro de resultados móvil](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >
@@ -202,7 +208,14 @@ Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la 
 
 Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [vistas de detalles personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable.
 
@@ -240,7 +253,15 @@ Por ejemplo: si se centra en el tráfico web, la métrica más importante pueden
 
 Vea el vídeo para obtener más información acerca de la creación de historias basadas en datos en los proyectos de cuadro de resultados móviles en Analysis Workspace.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 **Para crear una historia de datos** {#data-story-create}
 

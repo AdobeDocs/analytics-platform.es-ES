@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1160'
 ht-degree: 55%
 
 ---
@@ -57,11 +57,15 @@ El tiempo invertido en la reproducción puede ayudarle a comprender lo siguiente
 
 * Dónde se produjeron los descensos.
 
-+++ Vea un vídeo de demostración de esta funcionalidad.
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+>[!BEGINSHADEBOX]
 
-+++
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tiempo invertido en la reproducción de contenido](https://video.tv.adobe.com/v/338699){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## Utiliza
 

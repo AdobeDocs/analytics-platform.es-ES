@@ -5,7 +5,7 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 3%
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 El análisis ![ConversionEmbudo](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Embudo ]**proporciona una representación visual de un recorrido de usuario crítico en su producto. El eje horizontal representa cada paso que debe pasar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on){width="90%"}
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on){width="90%"}
 
 ## Casos prácticos
 

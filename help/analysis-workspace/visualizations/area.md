@@ -4,7 +4,7 @@ title: Área y área apilada
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 5655c951422c4abbd7bd12686027968efea5c6ea
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 25%
@@ -51,8 +51,6 @@ La visualización ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL A
 >abstract="Cree una visualización de gráfica de áreas para representar el apilado de varias métricas."
 
 <!-- markdownlint-enable MD034 -->
-
-
 
 
 La visualización ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Área apilada]** es como un área, pero cada serie comienza en la parte superior de la serie anterior.

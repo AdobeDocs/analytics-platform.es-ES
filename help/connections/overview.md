@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 2f78905c2a1e94174a52269becc15474baf59f71
-workflow-type: ht
-source-wordcount: '224'
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,15 @@ Las conexiones permiten a los administradores de productos de Customer Journey A
 
 Se recomienda restringir el acceso a la administración de Conexiones a un grupo de administración principal. Las configuraciones a nivel de Conexión tienen implicaciones contractuales con respecto a las asignaciones de volumen para los datos introducidos en Customer Journey Analytics.
 
-A continuación, se muestra un vídeo introductorio:
+<!-- Outdated interface 
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/v/35111/?quality=12&learn=on){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+-->
 
 ## Permisos necesarios
 

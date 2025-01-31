@@ -5,10 +5,10 @@ title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '2042'
-ht-degree: 64%
+source-wordcount: '2053'
+ht-degree: 62%
 
 ---
 
@@ -40,13 +40,15 @@ Puede compartir un proyecto de Analysis Workspace con los siguientes tipos de pe
 
 Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se verá reflejada cuando los destinatarios abran el proyecto.
 
-+++ Vea un vídeo que muestra cómo utilizar el uso compartido de proyectos.
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Compartir con usuarios y grupos de Customer Journey Analytics de su organización {#Add}
 
@@ -153,9 +155,13 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 >
 >* La función [!UICONTROL Compartir con cualquiera] está bloqueada tanto para las licencias Escudo de atención sanitaria como para las licencias Escudo de privacidad y seguridad.
 
-La siguiente demostración en vídeo y la documentación adjunta describen las opciones asociadas con el uso compartido de un vínculo con cualquier persona:
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
@@ -203,9 +209,16 @@ Cuando alguien comparte un proyecto con usted compartiendo un vínculo (desde la
 
 ## Uso compartido de componentes incrustados
 
-A continuación se muestra un vídeo sobre este tema:
+Puede compartir los componentes incrustados que forman parte del proyecto.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## Preguntas frecuentes {#FAQs}
 

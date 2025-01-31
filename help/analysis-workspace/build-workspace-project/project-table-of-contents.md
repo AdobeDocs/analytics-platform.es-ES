@@ -1,13 +1,13 @@
 ---
 description: Información sobre la funcionalidad de la tabla de contenido en un proyecto de Workspace
 keywords: Analysis Workspace
-title: Índice
+title: 'Índice '
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: 9d32100f28e8806cc30aaf52e30216cbce1a38b0
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '186'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,12 @@ ht-degree: 4%
 
 Puede ver una tabla de contenido para un proyecto en Analysis Workspace, lo que le permite moverse rápidamente entre cualquier panel y visualización que exista en el proyecto. La tabla de contenido es especialmente útil cuando se ven proyectos de mayor tamaño que contienen muchos paneles y visualizaciones.
 
-+++ Vea un vídeo de demostración de esta funcionalidad.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una tabla de contenido](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!TIP]
 >

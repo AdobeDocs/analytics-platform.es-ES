@@ -4,10 +4,10 @@ title: Métricas
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: d317f6bb9892d0d13fc7723f7e8c2d9ba2ce4f63
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '441'
+ht-degree: 14%
 
 ---
 
@@ -88,7 +88,7 @@ To create a calculated metric for a single project:
 [Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
 
 +++
 

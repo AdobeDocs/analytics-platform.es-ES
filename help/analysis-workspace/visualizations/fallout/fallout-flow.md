@@ -4,9 +4,9 @@ title: Acerca de los informes y visualizaciones de visitas en el orden previsto
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '357'
 ht-degree: 30%
 
 ---
@@ -31,13 +31,15 @@ _Este artículo documenta la visualización de abandonos en_ ![CustomerJourney A
 
 Una visualización de ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandonos]** muestra dónde abandonaron las personas y continuaron en una secuencia de páginas predefinidas.
 
-+++ Vea un vídeo de demostración de la [!UICONTROL visualización de visitas en el orden previsto].
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear un informe de visualización de visitas en el orden previsto](https://video.tv.adobe.com/v/345883/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 Las visualizaciones de visitas en el orden previsto le permiten:
 

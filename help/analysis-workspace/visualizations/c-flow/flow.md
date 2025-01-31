@@ -4,10 +4,10 @@ title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 49%
+source-wordcount: '387'
+ht-degree: 46%
 
 ---
 
@@ -41,15 +41,17 @@ Con la visualización puede:
 
 * Visualice el recorrido del cliente a través de su sitio web o aplicación.
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida.
-* Creación de filtros mediante la designación de un punto específico en una ruta elegida
+* Cree filtros designando un punto específico en una ruta elegida.
 
-+++ Vea un vídeo de demostración de la visualización Flujo.
 
->[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una visualización de flujo](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Flujos interdimensionales
 

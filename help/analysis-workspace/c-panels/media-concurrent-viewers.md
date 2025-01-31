@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 46%
 
 ---
@@ -53,13 +53,13 @@ Puede analizar los visualizadores simultáneos para comprender dónde se produjo
 En Analysis Workspace, la métrica Visualizadores simultáneos es la cantidad de personas únicas que visualizan sus flujos de medios en un momento específico, independientemente de la cantidad de sesiones.
 
 
-+++ Vea un vídeo de demostración de esta funcionalidad.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
 
 ## Utiliza
 

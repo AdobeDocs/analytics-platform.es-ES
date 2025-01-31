@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 6149d2cf23eb31f0aaa37546d3150017e155053c
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 66%
+source-wordcount: '1813'
+ht-degree: 65%
 
 ---
 
@@ -40,7 +40,12 @@ Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la 
 
 Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [vistas de detalles personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable.
 
@@ -78,7 +83,13 @@ Por ejemplo: si se centra en el tráfico web, la métrica más importante pueden
 
 Vea el vídeo para obtener más información acerca de la creación de historias basadas en datos en los proyectos de cuadro de resultados móviles en Analysis Workspace.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para proyectos de cuadros de resultados móviles](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 **Para crear una historia de datos** {#data-story-create}
 

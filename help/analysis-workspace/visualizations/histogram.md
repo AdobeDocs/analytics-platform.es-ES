@@ -4,10 +4,10 @@ title: Histograma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 34%
+source-wordcount: '344'
+ht-degree: 36%
 
 ---
 
@@ -47,7 +47,7 @@ Para crear un histograma:
 
 En el ejemplo siguiente, se utiliza un histograma para agrupar las sesiones por el número de personas. El histograma muestra que la mayoría de las personas tienen entre 16 y 21 sesiones para el intervalo de fechas seleccionado.
 
-![](assets/histogram.png)
+![Histograma](assets/histogram.png)
 
 ## Configuración avanzada
 
@@ -74,9 +74,5 @@ Como parte de la visualización, hay disponibles ajustes específicos de histogr
 >[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->
+>[Usando histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
-
-## Publicación de blog
-
-Consulte esta publicación de blog acerca de información sobre [el uso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).

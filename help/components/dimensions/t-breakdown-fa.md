@@ -6,10 +6,10 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 58%
+source-wordcount: '540'
+ht-degree: 52%
 
 ---
 
@@ -51,28 +51,49 @@ Este es el comportamiento esperado al aplicar modelos de atribución a desgloses
 
 * Si ya hay atribuciones en el árbol de columnas, cambiar la atribución solo afecta al que esté editando.
 
-+++ Vea vídeos que ilustran dimensiones y desgloses de dimensión
+>[!BEGINSHADEBOX]
 
-Dimension en Analysis Workspace
-
->[!VIDEO](https://video.tv.adobe.com/v/23971)
-
-desgloses de Dimension
-
->[!VIDEO](https://video.tv.adobe.com/v/23969)
-
-Adición de dimensiones y métricas al proyecto en Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/30606)
-
-Trabajo con dimensiones en una tabla de forma libre:
-
->[!VIDEO](https://video.tv.adobe.com/v/40179)
-
-Desgloses de dimensiones por posición:
-
->[!VIDEO](https://video.tv.adobe.com/v/24033)
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension en Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [desgloses de Dimension](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar dimensiones y métricas](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajo con dimensiones en una tabla de forma libre](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [desglose del Dimension por posición](https://video.tv.adobe.com/v/24033){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+

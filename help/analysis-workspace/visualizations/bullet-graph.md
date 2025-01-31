@@ -4,10 +4,10 @@ title: Gráfico de viñetas
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 58%
+source-wordcount: '263'
+ht-degree: 56%
 
 ---
 
@@ -39,9 +39,18 @@ _Este artículo documenta la visualización de viñetas en_ ![CustomerJourneyAna
 
 La visualización ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** muestra cómo una métrica se compara con, o mide en, rangos de rendimiento (objetivos).
 
-![](assets/bullet.png)
+![Visualización de gráfico de viñetas](assets/bullet.png)
 
 El gráfico de bala presenta una única medida principal (por ejemplo, los ingresos anuales actuales hasta la fecha) y permite introducir intervalos cualitativos de rendimiento (por ejemplo, en comparación con los ingresos objetivo). Puede especificar intervalos de objetivos altos, medios y bajos. Puede especificar intervalos objetivo en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]**.
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de gráfico de viñetas](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## Configuración
 

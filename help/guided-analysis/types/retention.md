@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 3%
@@ -30,7 +30,7 @@ El análisis ![Retención](/help/assets/icons/Retention.svg) **[!UICONTROL Reten
 
 En este análisis, el eje x del gráfico representa el tiempo desde el evento de inicio inicial de un usuario y el eje y representa el porcentaje de usuarios que se relacionan con uno o más eventos de retorno. Puede ver tanto la retención como la pérdida en todas las duraciones, y las duraciones mostradas se pueden personalizar a través de la configuración de consulta. Debajo del gráfico, una tabla proporciona datos agregados con la opción de mostrar cohortes individuales, que son un grupo de personas que realizaron el evento de inicio en la misma fecha.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
 
 
 ## Casos prácticos

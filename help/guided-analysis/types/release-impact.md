@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 10%
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 El análisis ![Versión](/help/assets/icons/Release.svg) **[!UICONTROL Impacto de la versión]** muestra una comparación del rendimiento de los indicadores clave antes y después de una fecha determinada. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa la fecha que desea comparar antes y después de. Esta fecha suele representar un cambio notable en el producto con el que desea medir, como una actualización del producto o un lanzamiento de campaña.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421665/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421665/?quality=12&learn=on)
 
 ## Casos prácticos
 

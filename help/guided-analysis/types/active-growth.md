@@ -5,7 +5,7 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 7%
@@ -34,7 +34,7 @@ El análisis ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Cr
 Todos los usuarios activos (nuevos + repetidos + devueltos) aparecen como un tono de verde azulado encima del eje horizontal, mientras que todos los usuarios inactivos aparecen en naranja debajo del eje horizontal.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421667/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
 
 ## Casos prácticos
 

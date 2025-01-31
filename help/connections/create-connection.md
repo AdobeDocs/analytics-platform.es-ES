@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
-workflow-type: ht
-source-wordcount: '4260'
-ht-degree: 100%
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '4261'
+ht-degree: 99%
 
 ---
 
@@ -131,11 +131,13 @@ La experiencia de flujo de trabajo de creación y edición de conexiones reúne 
 * Puede editar conjuntos de datos, por ejemplo, para solicitar otro relleno.
 * Puede importar los datos existentes por conjunto de datos.
 
-+++ Vídeo para ilustrar la creación y edición de una experiencia de conexión
 
->[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear y editar una conexión](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Requisitos previos
 

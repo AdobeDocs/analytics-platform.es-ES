@@ -4,7 +4,7 @@ title: Líneas
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 22%
@@ -31,14 +31,6 @@ _Este artículo documenta la visualización de Línea en_ ![CustomerJourneyAnaly
 
 
 La visualización ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Line]** representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Una visualización de líneas solo se puede utilizar cuando se utiliza el tiempo como dimensión.
-
-<!--
->[!NOTE]
->
->The Line visualization soon feature [intelligent captions](/help/analysis-workspace/visualizations/intelligent-captions.md).
-
-The Line visualization represents metrics using a line to show how values change over a period of time. A line chart can be used only when time is used as a dimension.
--->
 
 ![Visualización de líneas](assets/line-viz.png)
 

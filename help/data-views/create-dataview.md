@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '1899'
-ht-degree: 100%
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '1900'
+ht-degree: 99%
 
 ---
 
@@ -16,11 +16,13 @@ ht-degree: 100%
 
 La creación de una vista de datos implica crear métricas y dimensiones a partir de elementos de esquema o utilizar componentes estándares. La mayoría de los elementos de esquema pueden ser una dimensión o una métrica según los requisitos de la empresa. Una vez arrastrado un elemento de esquema a una vista de datos, las opciones aparecen a la derecha, donde puede ajustar el funcionamiento de la dimensión o métrica en Customer Journey Analytics.
 
-+++ Consulta un vídeo para ilustrar las vistas de datos en Customer Journey Analytics
 
->[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Creación o edición de una vista de datos:
 

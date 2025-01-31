@@ -3,9 +3,9 @@ description: Los filtros secuenciales son filtros que utilizan el operador THEN 
 title: Filtros secuenciales
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2460'
 ht-degree: 3%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 3%
 
 Puede crear filtros secuenciales utilizando el operador lógico [!UICONTROL Then] entre componentes, contenedores y componentes o contenedores. El operador lógico [!UICONTROL Then] implica que se produce una condición de filtro, seguida de otra.
 
-+++ Este es un vídeo que muestra la segmentación secuencial.
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
 
 Un filtro secuencial tiene [funcionalidad básica](#basics) y opciones adicionales que puede configurar para agregar más complejidad al filtro secuencial:
 

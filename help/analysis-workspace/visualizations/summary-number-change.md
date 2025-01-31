@@ -4,14 +4,26 @@ title: Número de resumen y cambio de resumen
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 48%
+source-wordcount: '510'
+ht-degree: 47%
 
 ---
 
 # Número de resumen y Cambio de resumen
+
+>[!BEGINSHADEBOX]
+
+_Este artículo documenta las visualizaciones Número de resumen y Cambio de resumen en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Número de resumen y cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Número de resumen y visualización de cambio de resumen](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 ## Número de resumen {#summary-number}
 
@@ -23,14 +35,6 @@ ht-degree: 48%
 >abstract="Cree una visualización que muestre los totales y subtotales."
 
 <!-- markdownlint-enable MD034 -->
-
-
->[!BEGINSHADEBOX]
-
-_Este artículo documenta las visualizaciones Número de resumen y Cambio de resumen en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Número de resumen y cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
-
->[!ENDSHADEBOX]
-
 
 Utilice la visualización ![Resumir](/help/assets/icons/123.svg) **[!UICONTROL Número de resumen]** para resaltar un número elevado que sea importante en un proyecto. Esta visualización se comporta de las siguientes maneras, utilizando la fuente de datos asociada:
 

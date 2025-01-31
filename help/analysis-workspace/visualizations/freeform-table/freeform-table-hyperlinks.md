@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear hipervínculos para elemento
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -17,21 +17,21 @@ Puede crear hipervínculos para elementos de dimensión a fin de que se pueda ha
 
 Esta funcionalidad es especialmente útil al crear hipervínculos para los siguientes tipos de elementos de dimensión:
 
-* Elementos de Dimension que tienen valores de URL (por ejemplo, una dimensión URL de página)
+* Elementos de Dimension que tienen valores de URL (por ejemplo, una dimensión URL de página).
 
-* Elementos de Dimension que contienen desgloses con valores de URL (por ejemplo, una dimensión Nombre de página que tiene un desglose de una dimensión URL de página)
+* Elementos de Dimension que contienen desgloses con valores de URL (por ejemplo, una dimensión Nombre de página que tiene un desglose de una dimensión URL de página).
 
-* Elementos de Dimension o desgloses que tienen valores que forman parte de una dirección URL (por ejemplo, una dimensión Nombre de página que forma parte de una dirección URL)
+* Elementos de Dimension o desgloses que tienen valores que forman parte de una dirección URL (por ejemplo, una dimensión Nombre de página que forma parte de una dirección URL).
 
-+++ Vea un vídeo de demostración de esta funcionalidad.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear hipervínculos en una tabla de forma libre](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
-+++
+>[!ENDSHADEBOX]
 
-## Creación de hipervínculos
+
+## Crear hipervínculo
 
 Tenga en cuenta lo siguiente al crear hipervínculos para uno o varios elementos de dimensión:
 

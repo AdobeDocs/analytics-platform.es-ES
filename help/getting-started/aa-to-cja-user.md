@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 99%
+source-wordcount: '1454'
+ht-degree: 92%
 
 ---
 
@@ -40,9 +40,19 @@ Los datos del cliente en Experience Platform se almacenan como conjuntos de dato
 
 El administrador de Customer Journey Analytics establece [conexiones](/help/connections/create-connection.md) con los conjuntos de datos en Experience Platform. Luego construye las [vistas de datos](/help/data-views/data-views.md) usando esas conexiones. Conceptualmente, las vistas de datos son similares a los grupos de informes virtuales y son la base de la creación de informes en Customer Journey Analytics. Dado que Experience Platform obtiene todos los datos para la creación de informes, los grupos de informes ya no existen como contenedores de datos.
 
-Una conexión le permite a su administrador de Analytics integrar conjuntos de datos de Adobe Experience Platform en Customer Journey Analytics, incluidos en el siguiente vídeo:
+Una conexión le permite a su administrador de Analytics integrar conjuntos de datos de Adobe Experience Platform en Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
+
+<!-- Outdated UI
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+-->
+
 
 Adobe ofrece varias formas de introducir datos en Adobe Experience Platform, incluidos los datos de grupos de informes a través del conector de origen de Adobe Analytics o del SDK web. Las implementaciones existentes de varios grupos de informes se pueden combinar en Experience Platform. Las conexiones y vistas de datos basadas en estos conjuntos de datos pueden combinar datos que existían anteriormente en grupos de informes separados.
 
@@ -78,9 +88,14 @@ Además del concepto de cambiar segmentos, también se actualizan los contenedor
 
 ## Cambios en el concepto de métricas calculadas
 
-Las métricas calculadas tienen un nombre similar entre Adobe Analytics y Customer Journey Analytics. Sin embargo, [!UICONTROL Customer Journey Analytics] ya no utiliza eVars, props ni eventos y, en su lugar, utiliza cualquier elemento de esquema de Experience Platform. Este cambio fundamental significa que ninguna de las métricas calculadas existentes es compatible con [!UICONTROL Customer Journey Analytics]. Si desea mover las métricas calculadas de Adobe Analytics a Customer Journey Analytics, consulte el siguiente vídeo:
+Las métricas calculadas tienen un nombre similar entre Adobe Analytics y Customer Journey Analytics. Sin embargo, [!UICONTROL Customer Journey Analytics] ya no utiliza eVars, props ni eventos y, en su lugar, utiliza cualquier elemento de esquema de Experience Platform. Este cambio fundamental significa que ninguna de las métricas calculadas existentes es compatible con [!UICONTROL Customer Journey Analytics].
 
->[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Movimiento de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración sobre cómo mover métricas calculadas.
+
+>[!ENDSHADEBOX]
 
 ## Cambios en la atribución de variables y la configuración de caducidad
 
@@ -92,7 +107,7 @@ También puede tener varias vistas de datos basadas en la misma conexión. Por e
 
 ## Cambios en el concepto de clasificaciones
 
-Las &quot;clasificaciones&quot; ahora se conocen como *conjuntos de datos de búsqueda*. Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto.
+Las “clasificaciones” ahora se conocen como *Conjuntos de datos de búsqueda*. Los conjuntos de datos de búsqueda se utilizan para buscar valores o claves encontrados en los datos de Evento o de Perfil. Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a los nombres de producto.
 
 ## Cambios en el concepto de atributos del cliente
 
@@ -100,9 +115,14 @@ Los “atributos del cliente” ahora se conocen como “Conjuntos de datos de p
 
 ## Cambios en la forma en que el Adobe identifica a los visitantes
 
-Customer Journey Analytics amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar la [Vinculación](../stitching/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto de Workspace en Customer Journey Analytics debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en Customer Journey Analytics:
+Customer Journey Analytics amplía los conceptos de identidades más allá de los ECID para incluir cualquier ID que desee utilizar, incluidos el ID de cliente, el ID de cookie, el ID de título, el ID de usuario, el código de seguimiento, etc. Usar un ID de área de nombres común en conjuntos de datos o usar la [Vinculación](../stitching/overview.md) ayuda a vincular a las personas en diferentes conjuntos de datos. Cualquier usuario que configure un proyecto de Workspace en Customer Journey Analytics debe comprender los ID utilizados en los conjuntos de datos. Consulte el siguiente vídeo que resalta el uso de identidades en Customer Journey Analytics
 
->[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando la identidad en el Customer Journey Analytics](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 ## Cambios en el concepto de elemento de dimensión de poco tráfico
 

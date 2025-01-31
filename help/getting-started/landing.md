@@ -4,10 +4,10 @@ title: Página de aterrizaje de Customer Journey Analytics
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 373d0c9989fb692da23efe371c65344093801140
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 52%
+source-wordcount: '501'
+ht-degree: 97%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 52%
 
 La página de aterrizaje de Customer Journey Analytics resalta [!DNL Analysis Workspace] e incluye una página de inicio del administrador de proyectos y una sección de aprendizaje para ayudarle a empezar de forma más eficaz.
 
-+++ Consulte el vídeo para ver una introducción.
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de aterrizaje en Analysis Workspace](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 La página de aterrizaje de Customer Journey Analytics consta de las siguientes subpestañas: proyectos y aprendizaje.
 
@@ -44,7 +46,7 @@ La pestaña **[!UICONTROL Aprendizaje]** contiene tutoriales y recorridos en ví
 
 ## Proyectos
 
-[!UICONTROL Proyectos] sirve como página de inicio de [!UICONTROL Workspace]. La pestaña **[!UICONTROL Proyectos]** muestra la carpeta Compañía, las carpetas personales que haya creado, los proyectos de Workspace y los cuadros de resultados móviles. Utilice esta página para ver, crear y modificar carpetas, proyectos e informes de valoración móviles. Consulte [Proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md) para obtener más información.
+[!UICONTROL Proyectos] sirve como página de inicio de [!UICONTROL Workspace]. La pestaña **[!UICONTROL Proyectos]** muestra la carpeta Compañía, las carpetas personales que has creado, los proyecto del Espacio de trabajo y los informes de valoración móviles. Utilice esta página para ver, crear y modificar carpetas, proyectos e informes de valoración móviles. Consulta [Datos de resumen](/help/analysis-workspace/build-workspace-project/freeform-overview.md) para obtener más información.
 
 
 **[!UICONTROL Proyectos]** son diseños personalizados que combinan componentes de datos, tablas y visualizaciones que ha creado o que alguien más ha creado y compartido con usted. [!UICONTROL Proyectos] también hace referencia a proyectos y cuadros de resultados móviles en blanco.
@@ -53,7 +55,7 @@ La pestaña **[!UICONTROL Aprendizaje]** contiene tutoriales y recorridos en ví
 >
 >Varias de las siguientes opciones de configuración persisten durante la sesión y entre sesiones. Por ejemplo, la pestaña seleccionada, los filtros seleccionados, las columnas seleccionadas y la dirección de clasificación de las columnas. Los resultados de la búsqueda no son persistentes.
 
-Consulte [Proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md) para obtener más información.
+Consulta [Proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md) para obtener más información.
 
 <!--
 
@@ -122,18 +124,18 @@ Para acceder al contenido de aprendizaje:
 
 ### Funciones
 
-La página de aprendizaje ofrece las siguientes funciones
+La página de Aprendizaje ofrece las siguientes funciones:
 
-* **Filtrar contenido:** Use ![Filter](/help/assets/icons/Filter.svg) para filtrar el contenido de aprendizaje por **[!UICONTROL Tipo]** (**[!UICONTROL Documento]**, **[!UICONTROL Vídeo]** y **[!UICONTROL Recorridos y tutoriales]**) y **[!UICONTROL Nivel de experiencia]** (**[!UICONTROL Principiante]**, **[!UICONTROL Intermedio]** o **[!UICONTROL Avanzado]**).
-* **Seguimiento del progreso:** Después de seleccionar un fragmento de contenido, aparece la etiqueta ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Viewed]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar la etiqueta ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Viewed]** para quitarla de un fragmento de contenido.
-* **Ver contenido adicional:** Mientras ve cualquier vídeo, seleccione **[!UICONTROL Más información]** para ver el contenido de la documentación relacionada en el Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
+* **Filtrar contenido:** Usar ![filtro](/help/assets/icons/Filter.svg) para filtrar el contenido de aprendizaje por **[!UICONTROL Tipo]** (**[!UICONTROL Documento]**, **[!UICONTROL Vídeo]** y **[!UICONTROL Recorridos y tutoriales]**) y **[!UICONTROL Nivel de experiencia]** (**[!UICONTROL Principiante]**, **[!UICONTROL Intermedio]** o **[!UICONTROL Avanzado]**).
+* **Seguimiento del progreso:** después de seleccionar un fragmento de contenido, aparece una etiqueta ![CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puedes seleccionar la etiqueta ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Visto]** para quitarla de un fragmento de contenido.
+* **Ver contenido adicional:** mientras ve cualquier vídeo, seleccione la opción **[!UICONTROL Más información]** para ver el contenido de la documentación relacionada sobre Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
    * **[!UICONTROL Visite YouTube]:** vea la lista de reproducción completa de Analysis Workspace de YouTube.
-   * [!UICONTROL **Visitar Experience League**]: vea el conjunto completo de documentación de Customer Journey Analytics en Experience League.
-* **Aspectos básicos para usuarios nuevos:** Se recomienda el recorrido de [!UICONTROL Aspectos básicos del aprendizaje de Workspace] para usuarios nuevos. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. Este recorrido también se puede reiniciar en cualquier momento en Workspace a través de la información sobre herramientas del encabezado [Panel de forma libre](/help/analysis-workspace/c-panels/freeform-panel.md) o [Panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md).
+   * [!UICONTROL **Visitar Experience League**]: consulta el conjunto completo de documentación de Adobe Analytics sobre Experience League.
+* **Aspectos básicos para nuevos usuarios:** se recomienda la visita guiada [!UICONTROL Aspectos básicos de Workspace] para los usuarios nuevos. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. Esta visita guiada también se puede reiniciar en cualquier momento directamente en Workspace a través de las herramientas del encabezado [Panel de forma libre](/help/analysis-workspace/c-panels/freeform-panel.md) o [Panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md).
 
 ## Página de aterrizaje preferida
 
-Puede establecer su página de aterrizaje preferida. Consulte [Preferencias de usuario](/help/analysis-workspace/user-preferences.md#general-preferences) para obtener más información.
+Puedes establecer tu página de aterrizaje preferida. Consulta[Preferencias de usuario](/help/analysis-workspace/user-preferences.md#general-preferences) para obtener más información.
 
 <!--
 ## Landing page FAQ {#landing-faq}

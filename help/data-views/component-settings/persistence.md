@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 81%
+source-wordcount: '921'
+ht-degree: 80%
 
 ---
 
@@ -99,7 +99,13 @@ Lista desplegable que permite enlazar la persistencia de un valor de dimensión 
 
 Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
 
->[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones de enlace](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## [!UICONTROL Métrica de enlace]
 

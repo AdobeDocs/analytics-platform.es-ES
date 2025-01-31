@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
-workflow-type: ht
-source-wordcount: '2159'
-ht-degree: 100%
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 99%
 
 ---
 
@@ -153,16 +153,13 @@ Para obtener más información, consulte [Filtros rápidos](/help/components/fil
 
 ### Filtros desplegables
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-En este vídeo se demuestra la funcionalidad utilizando Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las siguientes diferencias en terminología.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
-| Adobe Analytics | Customer Journey Analytics |
-| --- | --- |
-| Segmentos  | Filtros |
-| Visitante | Persona |
-| Visita | Sesión |
-| Visita individual | Evento |
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 
 #### Filtros desplegables estáticos

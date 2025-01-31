@@ -4,9 +4,9 @@ description: Aprenda a utilizar una tabla de cohorte para el análisis de cohort
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '692'
 ht-degree: 30%
 
 ---
@@ -52,13 +52,15 @@ Ejemplos de lo que puede hacer con una [!UICONTROL tabla de cohorte]:
 
 [!UICONTROL La tabla de cohorte] está disponible para todos los clientes Customer Journey Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
 
-+++ Vea un vídeo de demostración de la tabla de cohorte.
 
->[!VIDEO](https://video.tv.adobe.com/v/23990/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de cohorte en Analysis Workspace](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!IMPORTANT]
 >

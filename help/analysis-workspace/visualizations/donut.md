@@ -4,10 +4,10 @@ title: Anillo
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 26%
+source-wordcount: '122'
+ht-degree: 25%
 
 ---
 
@@ -34,13 +34,15 @@ Similar a un gráfico circular, la visualización ![GraphDonut](/help/assets/ico
 
 ![Gráfico de anillo que muestra los datos como partes o filtros de un todo.](assets/donut.png)
 
-+++ Vea un vídeo de demostración de esta funcionalidad.
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar una visualización de anillo](https://video.tv.adobe.com/v/334309/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >
