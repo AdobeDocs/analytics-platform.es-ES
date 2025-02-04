@@ -6,15 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 0e3f15abbc904786c359160749d62754a9ebbe50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2418'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Compatibilidad con funciones de Customer Journey Analytics
 
-Las siguientes tablas indican qué funciones son únicas de Customer Journey Analytics y qué funciones de Adobe Analytics son compatibles, parcialmente o no con Customer Journey Analytics. Estas listas cambiarán con el tiempo a medida que se añadan funciones a Customer Journey Analytics.
+Las siguientes tablas indican qué funciones de Customer Journey Analytics son únicas y qué funciones de Adobe Analytics son compatibles, parcialmente compatibles o no compatibles con Customer Journey Analytics. Estas listas cambiarán con el tiempo a medida que se añadan funciones a Customer Journey Analytics.
 
 ## Funciones únicas de Adobe Customer Journey Analytics {#cja-not-aa}
 
@@ -32,13 +32,13 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Análisis de experimentación** | Customer Journey Analytics puede evaluar [el alza y la confianza de cualquier experimento](/help/analysis-workspace/c-panels/experimentation.md) de cualquier fuente de datos definida como parte de una conexión. Esta evaluación le permite comprender las relaciones de causa y efecto entre las interacciones de los clientes que abarcan cualquier canal. Analytics se limita al análisis de experimentación mediante A4T. |
 | **Previsión** | La [Previsión](/help/analysis-workspace/c-forecast/forecasting.md) es una función de inteligencia artificial/aprendizaje automático que incluye una predicción estadística de datos relacionados con series temporales basada en los datos históricos que ya existen en Customer Journey Analytics. Las previsiones pueden aparecer en tablas de forma libre y visualizaciones de gráficos de líneas. |
 | **Análisis guiado** | El [análisis guiado](/help/guided-analysis/overview.md) permite a los usuarios autoabastecerse de datos e información de alta calidad sobre el recorrido del cliente mediante flujos de trabajo guiados, basados en los datos en canales múltiples de Customer Journey Analytics. |
-| **Pies de ilustración inteligentes** | [Subtítulos inteligentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) utilizan aprendizaje automático avanzado e IA generativa para proporcionar información valiosa en lenguaje natural para las visualizaciones de Workspace. Los subtítulos inteligentes son compatibles con las siguientes visualizaciones: Línea, Varias líneas, Barra, Barra horizontal, Anillo, Área, Flujo y Visitas en el orden previsto. |
-| **Lienzo de Recorrido** | [Lienzo de Recorrido](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en) es una visualización en Analysis Workspace que te permite analizar cómo las personas salen de un recorrido definido. |
+| **Pies de ilustración inteligentes** | Los [pies de ilustración inteligentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) utilizan el aprendizaje automático avanzado y la IA generativa para suministrar información valiosa en lenguaje natural para las visualizaciones de Workspace. Los pies de ilustración inteligentes son compatibles con las siguientes visualizaciones: Línea, Multilínea, Barra, Barra horizontal, Anillo, Área, Flujo y Visita en orden previsto. |
+| **Lienzo del recorrido** | El [Lienzo del recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en) es una visualización de Analysis Workspace que permite analizar cómo las personas pasan o salen de un recorrido definido.  |
 | **Uso del producto** | [Uso del producto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/tools/product-usage/usage-overview) le muestra cómo su organización utiliza Customer Journey Analytics. |
 | **Transformaciones de tiempo de informes** | Las [Vistas de datos](/help/data-views/data-views.md) de Customer Journey Analytics le permiten interpretar aún más los datos de una conexión. Puede modificar o quitar datos sin cambiar su implementación, utilizar subcadenas para manipular dimensiones, crear métricas a partir de cualquier valor o filtrar subeventos. Todas estas transformaciones se realizan de manera no destructiva. Adobe Analytics proporciona funciones limitadas a través de grupos de informes virtuales y longitud de sesión personalizada. |
 | **Acceso SQL** | Con la opción Data Distiller, Customer Journey Analytics puede eliminar las limitaciones de los datos recopilados en el procesamiento back-end de Adobe. Puede modificar los datos con SQL, crear valores y conjuntos de datos únicos para su empresa y continuar explorando. Analytics no admite ningún tipo de acceso SQL a sus datos. |
 | **Unión** | [Vinculación](/help/stitching/overview.md) es una potente función que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes de varios conjuntos de datos de diferentes canales sin problemas, en función de un identificador común (ID de persona). |
-| **Plantillas en Adobe Journey Optimizer** | Personalice la nueva interfaz de informes en Adobe Journey Optimizer creando o editando una [plantilla](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en) en el Customer Journey Analytics y, a continuación, guardando la plantilla para usarla en la página Informes en Journey Optimizer. |
+| **Plantillas de Adobe Journey Optimizer** | Personalice la nueva interfaz de informes en Adobe Journey Optimizer creando o editando una [plantilla](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en) en Customer Journey Analytics y, a continuación, guardando la plantilla para usarla en la página Informes de Journey Optimizer. |
 | **Métricas y dimensiones de clientes ilimitadas** | Las dimensiones de Customer Journey Analytics son ilimitadas; los valores pueden ser numéricos, de texto, de objetos, de listas o de mezclas de todos. Las dimensiones pueden estar anidadas o ser jerárquicas. <br/>Por el contrario, Adobe Analytics admite hasta un máximo de 75 props y 250 eVars. |
 | **Valores únicos ilimitados** | Customer Journey Analytics admite valores únicos ilimitados o elementos de dimensión que se pueden registrar dentro de una sola dimensión. <p>No hay [límites de cardinalidad en una dimensión](/help/components/dimensions/high-cardinality.md), lo que permite que aparezca y se cuente cualquier valor único.</p><p>Este enfoque quita las limitaciones en la creación de informes y los análisis que pueden existir en implementaciones de Adobe Analytics a gran escala, lo que da como resultado etiquetas de [!UICONTROL Poco tráfico].</p><p>En Customer Journey Analytics, es posible ver una etiqueta [!UICONTROL Excesos en la cantidad de valores exclusivos], pero estos se producen con mucha menos frecuencia y se pueden mitigar aplicando un filtro o segmento a los datos.</p> |
 
@@ -68,7 +68,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Exportación de PDF** | Compatibilidad total |
 | **Revisión del proyecto** | Compatibilidad total |
 | **Vinculación de proyectos** | Compatibilidad total |
-| **Plantillas de producto** | Incluye [plantillas prediseñadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates) y [plantillas de la compañía](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#access-a-company-template). |
+| **Plantillas de producto** | Incluye [plantillas creadas previamente](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates) y [plantillas de la compañía](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/create-templates#access-a-company-template). |
 | **Procesamiento de tiempo de los informes** | Compatibilidad total; Customer Journey Analytics depende exclusivamente del Procesamiento de tiempo de los informes. |
 | **Acceso a la API creación de informes** | Compatibilidad total. Disponible a través de la [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
 | **Informes y proyectos programados** | Compatibilidad total |
