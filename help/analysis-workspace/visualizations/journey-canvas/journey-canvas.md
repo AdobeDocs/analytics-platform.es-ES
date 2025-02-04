@@ -1,13 +1,13 @@
 ---
 description: Información general del lienzo de recorrido
-title: Lienzo de recorrido
+title: 'Lienzo del recorrido '
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
 source-wordcount: '1881'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
->title="Lienzo de recorrido"
->abstract="Muestra cómo se superan o abandonan una serie de puntos de contacto. Se utiliza para recorridos con varios puntos de entrada y rutas, o para analizar recorridos creados en Journey Optimizer."
+>title="Lienzo del recorrido "
+>abstract="Muestra cómo las personas avanzan o abandonan en una serie de puntos de contacto. Se utiliza para recorridos con varios puntos de entrada y rutas, o para analizar recorridos creados en Journey Optimizer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
->title="Lienzo de recorrido"
->abstract="Analizar cómo se superan o se abandonan los criterios de un recorrido definido. Cree análisis de los recorridos de usuario creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos de Journey Optimizer existentes"
+>title="Lienzo del recorrido "
+>abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Genere análisis de los recorridos de los usuarios creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre los nodos por el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos existentes de Journey Optimizer"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -35,8 +35,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button"
->title="Lienzo de recorrido"
->abstract="Muestra cómo se superan o abandonan una serie de puntos de contacto. Se utiliza para recorridos con varios puntos de entrada y rutas, o para analizar recorridos creados en Journey Optimizer."
+>title="Lienzo del recorrido "
+>abstract="Muestra cómo las personas avanzan o abandonan en una serie de puntos de contacto. Se utiliza para recorridos con varios puntos de entrada y rutas, o para analizar recorridos creados en Journey Optimizer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,8 +44,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
->title="Lienzo de recorrido"
->abstract="Analizar cómo se superan o se abandonan los criterios de un recorrido definido. Cree análisis de los recorridos de usuario creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos de Journey Optimizer existentes"
+>title="Lienzo del recorrido "
+>abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Genere análisis de los recorridos de los usuarios creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre los nodos por el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos existentes de Journey Optimizer"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -236,7 +236,7 @@ Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, 
 
 Ciertos términos que significan una cosa en Journey Optimizer significan otra en Customer Journey Analytics. Cuando se utiliza lienzo de Recorrido, se utilizan los términos de Customer Journey Analytics.
 
-| Término | Lienzo de recorrido | Journey Optimizer |
+| Término | Lienzo del recorrido  | Journey Optimizer |
 |---------|----------|---------|
 | **Evento** | Una de las varias métricas estándar que están disponibles en Customer Journey Analytics. Esta métrica cuenta cosas como ingresos, suscripciones o posibles clientes generados. | Categoría de actividad que almacena en déclencheur un recorrido personalizado, como una compra en línea. |
 

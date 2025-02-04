@@ -9,7 +9,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: 00c57793846d997dbfd80b413f3cf3b78a96097b
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 19%
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="Burbujas"
->abstract="Trazar eventos con burbujas."
+>abstract="Trace eventos con burbujas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,8 +37,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
->title="Mapa de calor"
->abstract="Trazar eventos con un mapa de calor."
+>title="Mapa térmico"
+>abstract="Trace eventos con un mapa térmico."
 
 <!-- markdownlint-enable MD034 -->
 

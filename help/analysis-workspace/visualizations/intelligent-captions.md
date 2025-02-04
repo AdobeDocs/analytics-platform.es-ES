@@ -7,7 +7,7 @@ role: User
 source-git-commit: 4d566411778774d21be04c4f3d6cf2ffabed6db2
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_area"
->title="Subtítulos inteligentes: Área"
->abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+>title="Pies de ilustración inteligentes: área"
+>abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_bar"
->title="Subtítulos inteligentes: Barra"
->abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+>title="Pies de ilustración inteligentes: barra"
+>abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -35,8 +35,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_donut"
->title="Subtítulos inteligentes: Anillo"
->abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+>title="Pies de ilustración inteligentes: anillo"
+>abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,8 +44,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_horizontalbar"
->title="Subtítulos inteligentes: Barra horizontal"
->abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+>title="Pies de ilustración inteligentes: barra horizontal"
+>abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,8 +53,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_line"
->title="Subtítulos inteligentes: Línea"
->abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+>title="Pies de ilustración inteligentes: línea"
+>abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -62,8 +62,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_fallout"
->title="Subtítulos inteligentes: Visitas en el orden previsto"
->abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+>title="Pies de ilustración inteligentes: visita en orden previsto"
+>abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,8 +71,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_flow"
->title="Subtítulos inteligentes: Flujo"
->abstract="Genere información en forma de lenguaje natural para ayudarle a comprender e interpretar los datos más fácilmente para esta visualización."
+>title="Pies de ilustración inteligentes: flujo"
+>abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
 
 <!-- markdownlint-enable MD034 -->
 

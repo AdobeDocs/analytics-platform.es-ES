@@ -7,7 +7,7 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Previsualización de datos"
->abstract="Compara los datos de este filtro con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
+>abstract="Compara los datos de este filtro con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
 
 <!-- markdownlint-enable MD034 -->
 

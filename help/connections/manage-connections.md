@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '4023'
-ht-degree: 12%
+ht-degree: 26%
 
 ---
 
@@ -211,7 +211,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_keyusagemetrics"
 >title="Métricas de uso clave"
->abstract="Proporcione datos mensuales y totales para las filas principales e históricas sobre las que se debe informar."
+>abstract="Proporcione datos mensuales y totales para las filas principales e históricas notificables."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -219,16 +219,16 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_monthlyingestedrows"
->title="Filas ingeridas mensualmente"
->abstract="Mide el número total de registros agregados al sistema cada mes para proporcionar información sobre el crecimiento de los datos y las tasas de ingesta."
+>title="Filas introducidas mensualmente"
+>abstract="Mide el número total de registros añadidos al sistema cada mes para proporcionar información sobre el crecimiento de los datos y las tasas de ingesta."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_monthlyreportablerows"
->title="Filas que es posible notificar mensualmente"
->abstract="Registra el número de filas disponibles para la creación de informes. Las filas reportables son las filas ingeridas menos las filas que se omiten y eliminan durante la ingesta. Las filas notificables sirven como métrica clave para la facturación y el uso de datos."
+>title="Filas mensuales notificables"
+>abstract="Realiza el seguimiento del número de filas disponibles para la creación de informes. Las filas notificables son las filas introducidas menos las filas que se omiten y eliminan durante la ingesta. Las filas notificables sirven como métrica clave para la facturación y el uso de datos."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -236,7 +236,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_detailbreakdown"
->title="Desglose por detalle."
+>title="Desglose detallado."
 >abstract="Puede ver métricas detalladas por conexión, conjunto de datos, zona protegida y etiquetas, con la opción de descargar un archivo CSV de los datos."
 <!-- markdownlint-enable MD034 -->
 
@@ -245,7 +245,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_otherdatasets"
 >title="Otros conjuntos de datos"
->abstract="Para los meses anteriores a septiembre de 2024, los datos se recopilaron en el nivel de conjunto de datos y se muestran como *Otros conjuntos de datos* para una mayor claridad. A partir de septiembre de 2024, los datos se recopilarán en un nivel de conjunto de datos granular y *Otros conjuntos de datos* dejarán de aparecer."
+>abstract="Para los meses anteriores a septiembre de 2024, los datos se recopilaron en el nivel de conjunto de datos y se muestran como *Otros conjuntos de datos* para una mayor claridad. A partir de septiembre de 2024, los datos se recopilan en un nivel de conjunto de datos granular y *Otros conjuntos de datos* dejan de aparecer."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -268,7 +268,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_corereportablerows"
->title="Filas notificables de datos principales"
+>title="Filas principales notificables"
 >abstract="Muestra el número total de filas disponibles durante los últimos 13 meses. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
 <!-- markdownlint-enable MD034 -->
 
@@ -276,7 +276,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_historicalreportablerows"
->title="Filas notificables de datos históricos"
+>title="Filas históricas notificables"
 >abstract="Muestra el número total de filas disponibles para el período anterior a 13 meses. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023."
 
 <!-- markdownlint-enable MD034 -->
@@ -286,7 +286,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >[!CONTEXTUALHELP]
 >id="connections_usage_keyusagemetrics"
 >title="Métricas de uso clave"
->abstract="Proporcione datos mensuales y totales para las filas principales e históricas sobre las que se debe informar."
+>abstract="Proporcione datos mensuales y totales para las filas principales e históricas notificables."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -294,16 +294,16 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_monthlyingestedrows"
->title="Filas ingeridas mensualmente"
->abstract="Mide el número total de registros agregados al sistema cada mes para proporcionar información sobre el crecimiento de los datos y las tasas de ingesta."
+>title="Filas introducidas mensualmente"
+>abstract="Mide el número total de registros añadidos al sistema cada mes para proporcionar información sobre el crecimiento de los datos y las tasas de ingesta."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_monthlyreportablerows"
->title="Filas que es posible notificar mensualmente"
->abstract="Registra el número de filas disponibles para la creación de informes. Las filas reportables son las filas ingeridas menos las filas que se omiten y eliminan durante la ingesta. Las filas notificables sirven como métrica clave para la facturación y el uso de datos."
+>title="Filas mensuales notificables"
+>abstract="Realiza el seguimiento del número de filas disponibles para la creación de informes. Las filas notificables son las filas introducidas menos las filas que se omiten y eliminan durante la ingesta. Las filas notificables sirven como métrica clave para la facturación y el uso de datos."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -311,7 +311,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_detailbreakdown"
->title="Desglose por detalle."
+>title="Desglose detallado."
 >abstract="Puede ver métricas detalladas por conexión, conjunto de datos, zona protegida y etiquetas, con la opción de descargar un archivo CSV de los datos."
 <!-- markdownlint-enable MD034 -->
 
@@ -320,7 +320,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >[!CONTEXTUALHELP]
 >id="connections_usage_otherdatasets"
 >title="Otros conjuntos de datos"
->abstract="Para los meses anteriores a septiembre de 2024, los datos se recopilaron en el nivel de conjunto de datos y se muestran como *Otros conjuntos de datos* para una mayor claridad. A partir de septiembre de 2024, los datos se recopilarán en un nivel de conjunto de datos granular y *Otros conjuntos de datos* dejarán de aparecer."
+>abstract="Para los meses anteriores a septiembre de 2024, los datos se recopilaron en el nivel de conjunto de datos y se muestran como *Otros conjuntos de datos* para una mayor claridad. A partir de septiembre de 2024, los datos se recopilan en un nivel de conjunto de datos granular y *Otros conjuntos de datos* dejan de aparecer."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -343,7 +343,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 >[!CONTEXTUALHELP]
 >id="connections_corereportablerows"
->title="Filas notificables de datos principales"
+>title="Filas principales notificables"
 >abstract="Muestra el número total de filas disponibles durante los últimos 13 meses. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
 <!-- markdownlint-enable MD034 -->
 
@@ -351,7 +351,7 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 
 >[!CONTEXTUALHELP]
 >id="connections_historicalreportablerows"
->title="Filas notificables de datos históricos"
+>title="Filas históricas notificables"
 >abstract="Muestra el número total de filas disponibles para el período anterior a 13 meses. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023."
 
 <!-- markdownlint-enable MD034 -->
@@ -365,8 +365,8 @@ La interfaz de uso utiliza las siguientes métricas
 
 | Nombre de la métrica | Descripción |
 |---|---|
-| Filas notificables de datos históricos | Recuento de filas para el periodo superior a 13 meses. |
-| Filas notificables de datos principales | Recuento de filas en los últimos 13 meses. |
+| Filas históricas notificables | Recuento de filas para el periodo superior a 13 meses. |
+| Filas principales notificables | Recuento de filas en los últimos 13 meses. |
 | Filas ingeridas | Cantidad de filas introducidas para el periodo específico. |
 | Filas notificables | ¿Cuántas filas de datos tiene como parte de la conexión durante el período específico? |
 | Filas acumuladas | Cuántas filas se incorporan hasta el mes específico. |

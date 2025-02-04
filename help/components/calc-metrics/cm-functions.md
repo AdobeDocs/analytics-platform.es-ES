@@ -66,13 +66,13 @@ Un escenario alternativo es que tiene dos métricas de interés y una tiene un p
 >[!CONTEXTUALHELP]
 >id="functions-col-max"
 >title="Máximo de columna"
->abstract="Devuelve el mayor valor en un conjunto de elementos de una dimensión para una columna de métrica. MAXV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión."
+>abstract="Devuelve el mayor valor en un conjunto de elementos de una dimensión para una columna de métrica. MAXV se evalúa verticalmente dentro de una sola columna (métrica) entre elementos de dimensión."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MÁXIMO DE COLUMNA(métrica, include_zeros)]**
 
-Devuelve el mayor valor en un conjunto de elementos de una dimensión para una columna de métrica. MAXV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión.
+Devuelve el mayor valor en un conjunto de elementos de una dimensión para una columna de métrica. MAXV se evalúa verticalmente dentro de una sola columna (métrica) entre elementos de dimensión.
 
 | Argumento | Descripción |
 |---|---|
@@ -87,14 +87,14 @@ Devuelve el mayor valor en un conjunto de elementos de una dimensión para una c
 >[!CONTEXTUALHELP]
 >id="functions-col-min"
 >title="Mínimo de columna"
->abstract="Devuelve el menor valor en un conjunto de elementos de una dimensión para una columna de métrica. MINV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión."
+>abstract="Devuelve el valor más pequeño en un conjunto de elementos de una dimensión para una columna de métrica. MINV se evalúa verticalmente dentro de una sola columna (métrica) entre elementos de dimensión."
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MÍNIMO DE COLUMNA(métrica, include_zeros)]**
 
-Devuelve el menor valor en un conjunto de elementos de una dimensión para una columna de métrica. MINV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión.
+Devuelve el valor más pequeño en un conjunto de elementos de una dimensión para una columna de métrica. MINV se evalúa verticalmente dentro de una sola columna (métrica) entre elementos de dimensión.
 
 | Argumento | Descripción |
 |---|---|
@@ -428,7 +428,7 @@ Suma de las columnas de cada fila.
 >[!CONTEXTUALHELP]
 >id="functions-sqrt"
 >title="Raíz cuadrada"
->abstract="Devuelve la raíz cuadrada positiva de un número. La raíz cuadrada de un número es el valor de dicho número elevado a la potencia de 1/2."
+>abstract="Devuelve la raíz cuadrada positiva de un número. La raíz cuadrada de un número es el valor de ese número elevado a la potencia de 1/2."
 
 <!-- markdownlint-enable MD034 -->
 
