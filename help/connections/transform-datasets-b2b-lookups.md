@@ -1,18 +1,18 @@
 ---
-title: Transformar conjuntos de datos para búsquedas B2B
+title: Transformar el conjunto de datos para búsquedas B2B
 description: Describe cómo transformar datos en conjuntos de datos de esquemas de búsqueda B2B específicos
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: eef9b420f1016254dece0a916b82bc99e2ca866e
+source-git-commit: 32678fdedf1b384afce1998880af04f1af077943
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 2%
 
 ---
 
-# Transformar conjuntos de datos para búsquedas B2B
+# Transformar el conjunto de datos para búsquedas B2B
 
 Para admitir búsquedas basadas en personas en datos B2B (incluidas cuentas, oportunidades, listas de marketing y campañas), es necesaria la transformación de los conjuntos de datos de búsqueda B2B.
 
@@ -30,9 +30,12 @@ Esta transformación solo está disponible para conjuntos de datos con datos par
 
 Para habilitar la transformación para un conjunto de datos de este tipo:
 
-![Habilitar conjunto de datos de transformación](assets/transform-dataset.gif)
+![Habilitar conjunto de datos de transformación](/help/connections/assets/transform.gif)
 
-* Asegúrese de seleccionar el identificador adecuado para **[!UICONTROL Key]** y **[!UICONTROL Matching key]**, por ejemplo `personKey.sourceKey`.
+* Compruebe para cada conjunto de datos los valores sugeridos para **[!UICONTROL Key]** y **[!UICONTROL Matching key]**. Si cambia los valores de los valores sugeridos, verá una advertencia que le pedirá que continúe. Debe estar seguro de que:
+
+   * El valor que seleccionó para **Clave** se basa en el tipo de datos de ID de persona.
+   * El valor que seleccione para **Clave de coincidencia** se define como el campo de identidad principal para el conjunto de datos de evento.
 
 * Seleccione las opciones para importar nuevos datos y el relleno del conjunto de datos.
 
@@ -43,7 +46,7 @@ Para habilitar la transformación para un conjunto de datos de este tipo:
 
   >[!IMPORTANT]
   >
-  >Una vez activada y guardada la conexión, la transformación es irreversible. No puede modificar la configuración de transformación de un conjunto de datos una vez guardada una conexión, más allá de quitar y agregar el conjunto de datos una vez más a la conexión.
+  >Una vez activada y guardada la conexión, la transformación es irreversible. No puede modificar la configuración Clave, Clave de coincidencia y Transformar conjunto de datos. Solo puede quitar, agregar y volver a configurar el conjunto de datos.
 
 Para habilitar la transformación para uno o varios conjuntos de datos que ya forman parte de una conexión existente:
 
