@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 0e3f15abbc904786c359160749d62754a9ebbe50
-workflow-type: ht
-source-wordcount: '1113'
-ht-degree: 100%
+source-git-commit: 0c4741a003954a739c4ce85cf04badeeb502193c
+workflow-type: tm+mt
+source-wordcount: '1120'
+ht-degree: 99%
 
 ---
 
@@ -240,6 +240,13 @@ ht-degree: 100%
       + [Requisitos de administración](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
++ Análisis de contenido {#content-analytics}
+   + [Información general](/help/content-analytics/content-analytics.md)
+   + Configuración {#configuration}
+      + [Información general](/help/content-analytics/config/configuration.md)
+      + [Configuración guiada](/help/content-analytics/config/guided.md)
+      + [Configuración manual](/help/content-analytics/config/manual.md)
+
 + Paneles de Analytics {#cja-dashboards}
    + [Información general](../mobile-app/home.md)
    + [Tareas del gestor de datos](../mobile-app/curator.md)
@@ -443,4 +450,3 @@ ht-degree: 100%
    + [Ver y administrar el uso](../technotes/estimate-usage.md)
 
 + [API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/)
-+ [Análisis de contenido](/help/content-analytics.md)
