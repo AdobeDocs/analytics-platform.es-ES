@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: edbe0a1b3354b17defb9aef90564f2e36586b181
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 99%
+source-wordcount: '2583'
+ht-degree: 98%
 
 ---
 
@@ -132,7 +132,7 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 >[!NOTE]
 >No hay un tamaño de datos fijo en Customer Journey Analytics y, por lo tanto, Adobe no puede comprometerse con un tiempo de ingesta estándar. Adobe está trabajando activamente para reducir estas latencias a través de las nuevas actualizaciones y la optimización de la ingesta.
 
-<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.)</li><li>Rellenos secundarios pequeños: en un plazo de siete días<li>Rellenos de fondo grandes: en 30 días</li></ul>
+<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.) **Nota:** Si la vinculación está habilitada, la ingesta puede tardar hasta 3,25 horas. Consulte [protecciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails) para obtener más información.</li><li>Rellenos secundarios pequeños: en un plazo de siete días<li>Rellenos de fondo grandes: en 30 días</li></ul>
 
 Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Journey Analytics:
 
@@ -218,7 +218,7 @@ Consulte [Calcular y administrar el uso](/help/technotes/estimate-usage.md).
 
 Adobe supervisa y aplica los límites de uso con regularidad. “Filas de datos” hace referencia a las filas medias diarias de datos disponibles para su análisis dentro de Customer Journey Analytics.
 
-Por ejemplo, el contrato le da derecho a un millón de filas de datos. Supongamos que en el día 1 del uso de Customer Journey Analytics se cargan dos millones de filas de datos. El día 2, usted elimina 1 millón de filas y mantiene el uso en el máximo comprometido (es decir, un millón de filas de datos) durante el resto del Término de licencia. Según las condiciones contractuales, es posible que siga incurriendo en cargos por sobreutilización prorrateados para el día 1, ya que ha superado el derecho de licencia de “filas de datos”.
+Por ejemplo, supongamos que tu contrato te da derecho a un millón de filas de datos. Supongamos que en el día 1 del uso de Customer Journey Analytics se cargan dos millones de filas de datos. El día 2, usted elimina 1 millón de filas y mantiene el uso en el máximo comprometido (es decir, un millón de filas de datos) durante el resto del Término de licencia. Según las condiciones contractuales, es posible que siga incurriendo en cargos por sobreutilización prorrateados para el día 1, ya que ha superado el derecho de licencia de “filas de datos”.
 
 ## 11. Diagnóstico de discrepancias de datos {#discrepancies}
 
