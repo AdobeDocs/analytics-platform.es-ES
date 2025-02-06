@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 36%
+source-wordcount: '362'
+ht-degree: 28%
 
 ---
 
-# Implementación de la etiqueta de carga para la extensión del SDK web
+# Implementación de la etiqueta de carga para la extensión del SDK web {#upgrade-tag-loader}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-loader"
+>title="Implementación de la etiqueta de carga en el sitio"
+>abstract="Trabaje con el equipo de desarrollo del sitio web para instalar la etiqueta de carga en cada página del sitio.<br><br>El tiempo de finalización de esta tarea depende en gran medida del tiempo de respuesta del equipo de ingeniería con el que trabaje para implementar el código. Algunas organizaciones que tienen equipos de ingeniería altamente adaptables pueden completar este paso en días, mientras que los equipos de ingeniería con un registro de tareas pendientes extenso pueden tardar un mes o más."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

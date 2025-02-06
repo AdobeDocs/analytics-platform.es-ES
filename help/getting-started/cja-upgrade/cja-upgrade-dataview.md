@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 23%
+source-wordcount: '475'
+ht-degree: 20%
 
 ---
 
-# Creación de una vista de datos en Customer Journey Analytics
+# Creación de una vista de datos en Customer Journey Analytics {#upgrade-create-dataview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataview"
+>title="Creación de una vista de datos en Customer Journey Analytics"
+>abstract="Una vista de datos es un contenedor específico del Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión.<br><br>Aunque la creación inicial de la vista de datos tarda unos minutos, la configuración de cada dimensión y métrica con la configuración de componente deseada puede tardar varios días. El ajuste de esta configuración se aplica de forma retroactiva, por lo que su organización puede refinarla con el tiempo."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -56,4 +66,3 @@ Para crear una vista de datos:
 1. Una vez especificada toda la configuración deseada, seleccione **[!UICONTROL Guardar y finalizar]**.
 
 1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
-

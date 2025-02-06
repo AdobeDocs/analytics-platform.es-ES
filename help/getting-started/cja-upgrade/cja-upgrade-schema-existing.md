@@ -7,14 +7,32 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 49%
+source-wordcount: '493'
+ht-degree: 38%
 
 ---
 
-# Elija el esquema para el Customer Journey Analytics
+# Elija el esquema para el Customer Journey Analytics {#choose-schema}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-tailored"
+>title="Usar un esquema personalizado"
+>abstract="(Recomendado) La personalización del esquema permite a la organización realizar un seguimiento únicamente de lo que necesita y evitar la sobrecarga vinculada a campos confusos e innecesarios. Esta opción incluye grupos de campos agregados por Web SDK y grupos de campos personalizados para su organización."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-default"
+>title="Usar el esquema predeterminado"
+>abstract="(No recomendado) El esquema de Adobe Analytics contiene más de mil campos, lo que puede generar esquemas desordenados y complejos. Su organización se vería obligada a seguir adhiriendo al concepto de props y eVars, que es un concepto heredado que no se utiliza en Customer Journey Analytics. La integración con otros servicios de Adobe Experience Platform es más difícil."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
@@ -36,7 +54,7 @@ Adobe recomienda crear un esquema personalizado al actualizar a Customer Journey
 
 ## Usar el esquema de Adobe Analytics existente
 
-La opción de usar el esquema de Adobe Analytics existente con Customer Journey Analytics solo está disponible si la implementación de Adobe Analytics está configurada con el SDK web de Adobe Experience Platform. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
+La opción de usar el esquema de Adobe Analytics existente con Customer Journey Analytics solo está disponible si la implementación de Adobe Analytics está configurada con Adobe Experience Platform Web SDK. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
 
 | Ventajas | Desventajas |
 |----------|---------|

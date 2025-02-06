@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: ef6afb2872b88c82801ceb279dd757e6e1f5e78c
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 4%
 
 ---
 
-# Crear un campo derivado de canal de marketing para Customer Journey Analytics
+# Crear un campo derivado de canal de marketing para Customer Journey Analytics {#create-marketing-channel-derived-field}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-marketing-channel"
+>title="Crear un campo derivado de canal de marketing"
+>abstract="Los campos derivados se crean dentro de una vista de datos.<br><br>El uso de una configuración de canal de marketing predeterminada solo lleva unos minutos; la creación de una configuración de canal de marketing altamente personalizada puede tardar varias horas."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -24,7 +33,7 @@ ht-degree: 5%
 
 Al utilizar el conector de origen de Analytics, los datos de los canales de marketing fluyen a Customer Journey Analytics a través de ese conector. Las reglas del canal de marketing deben seguir configurándose en la versión tradicional de Adobe Analytics y algunas no son compatibles. Para obtener más información, consulte [Usar dimensiones del canal de marketing](/help/use-cases/aa-data/marketing-channels.md).
 
-Para utilizar canales de marketing en Customer Journey Analytics al utilizar el SDK web de Experience Platform, puede utilizar campos derivados en una vista de datos para volver a crear los mismos canales de marketing y reglas de procesamiento para Customer Journey Analytics.
+Para utilizar canales de marketing en Customer Journey Analytics al utilizar Experience Platform Web SDK, puede utilizar campos derivados en una vista de datos para volver a crear los mismos canales de marketing y reglas de procesamiento para Customer Journey Analytics.
 
 1. En Customer Journey Analytics, seleccione la vista de datos donde desee agregar canales de marketing.
 

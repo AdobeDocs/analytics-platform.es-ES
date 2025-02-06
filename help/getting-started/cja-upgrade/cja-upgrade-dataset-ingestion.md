@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
-source-git-commit: f71f5b863a024d882a116a5fd3bf0fc433e5fe99
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Monitorizar la ingesta de conjuntos de datos al actualizar a Customer Journey Analytics
+# Monitorizar la ingesta de conjuntos de datos al actualizar a Customer Journey Analytics {#monitor-ingestion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataset-validate"
+>title="Validación de datos en el conjunto de datos"
+>abstract="Ahora que ha configurado la implementación de Web SDK, puede utilizar el administrador de actividades de conjuntos de datos para ver los lotes ingeridos y los que han dado error. Si ve lotes ingeridos principalmente, este paso ha finalizado. Si ve principalmente lotes con errores o sin lotes, compruebe la implementación de Web SDK para asegurarse de que envía correctamente los datos al Adobe.<br><br>Si todo se hizo correctamente y sin problemas, este paso se puede realizar en menos de un día. Si hay varios problemas de recopilación de datos, la resolución de estos puede tardar mucho más."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

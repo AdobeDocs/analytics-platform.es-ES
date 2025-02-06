@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 22d3e7b8-4a4d-48a8-a98d-5172a9876286
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 89%
+source-wordcount: '1708'
+ht-degree: 87%
 
 ---
 
-# Crear y configurar una conexión para utilizarla con Customer Journey Analytics
+# Crear y configurar una conexión para utilizarla con Customer Journey Analytics {#upgrade-create-connection}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-connection"
+>title="Crear una conexión en Customer Journey Analytics"
+>abstract="Una conexión le permite traducir datos de Adobe Experience Platform a un formato optimizado para la creación de informes de Customer Journey Analytics. La creación de una conexión en Customer Journey Analytics es sencilla y solo tarda unos minutos en completarse."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -116,4 +126,3 @@ Puede agregar un conjunto de datos de Experience Platform al crear una conexión
    {style="table-layout:auto"}
 
 1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
-

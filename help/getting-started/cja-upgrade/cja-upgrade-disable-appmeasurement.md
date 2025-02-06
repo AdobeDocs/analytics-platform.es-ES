@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 8%
+source-wordcount: '182'
+ht-degree: 9%
 
 ---
 
-# Deshabilitar la recopilación de datos de AppMeasurement
+# Deshabilitación de la recopilación de datos de AppMeasurement {#disable-appmeasurement}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-appmeasurement"
+>title="Deshabilitación de la recopilación de datos de AppMeasurement"
+>abstract="Con los datos de Web SDK completamente funcionales, trabaje con su equipo de desarrolladores para eliminar AppMeasurement.js de su sitio web o propiedad.<br><br>El acto de quitar el AppMeasurement de un sitio web tarda sólo unos minutos, pero requiere tiempo del equipo de ingeniería para completarlo. Sin embargo, asegúrese de que los usuarios de Analytics utilicen Customer Journey Analytics y no Adobe Analytics; este proceso de anuncio para mover a todos puede tardar mucho más si aún no lo ha hecho."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,5 +36,3 @@ ht-degree: 8%
 * **Etiquetas:** Deshabilitar la extensión de Adobe Analytics
 
 * **AppMeasurement:** Reemplace la biblioteca AppMeasurement.js s s=newobject
-
-

@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 33%
+source-wordcount: '298'
+ht-degree: 29%
 
 ---
 
-# Crear un conjunto de datos para utilizarlo con un Customer Journey Analytics
+# Crear un conjunto de datos para utilizarlo con un Customer Journey Analytics {#upgrade-create-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataset-create"
+>title="Crear un conjunto de datos en Adobe Experience Platform"
+>abstract="Un conjunto de datos es una ubicación en la que residen los datos recopilados. Cree esta ubicación en Adobe Experience Platform.<br><br>Crear un conjunto de datos con un esquema en mente toma solo unos minutos."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -58,4 +68,3 @@ Para crear un conjunto de datos:
    Consulte [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es) para obtener mucha más información sobre cómo ver, previsualizar, crear y eliminar un conjunto de datos. También puede aprender a habilitar un conjunto de datos para el perfil del cliente en tiempo real.
 
 1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
-

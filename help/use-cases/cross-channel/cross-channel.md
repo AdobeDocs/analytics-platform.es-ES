@@ -5,14 +5,23 @@ exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 61%
+source-wordcount: '582'
+ht-degree: 51%
 
 ---
 
-# Análisis en canales múltiples
+# Análisis en canales múltiples {#cross-channel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-additional-datasets"
+>title="Añadir conjuntos de datos adicionales a la conexión"
+>abstract="Una vez que haya agregado datos a un conjunto de datos en Adobe Experience Platform, puede agregarlos a su conexión en Customer Journey Analytics. Asegúrese de que, al añadir datos de otros canales, se adhieran al esquema que utiliza su organización.<br><br>Cada conjunto de datos que agregue requiere una gran cantidad de trabajo, especialmente para garantizar que el identificador único exista para cada evento y para garantizar que la estructura de datos general se ajuste al esquema personalizado de su organización. El establecimiento de este flujo de trabajo puede llevar varios meses coordinar muchos equipos de la organización."
+
+<!-- markdownlint-enable MD034 -->
 
 El análisis en canales múltiples permite una sola vista consolidada del comportamiento de los clientes en varios canales mediante la unificación de datos de varias propiedades web, móviles y sin conexión. Por ejemplo, puede utilizar esta vista consolidada para analizar las interacciones de los clientes en equipos de escritorio y dispositivos móviles, a fin de comprender el comportamiento de los clientes y extraer perspectivas para optimizar las experiencias de los clientes digitales. También puede analizar las interacciones de los clientes entre canales, incluidos los canales digitales y sin conexión, como las interacciones de soporte y las compras en la tienda, para comprender y optimizar mejor el recorrido del cliente.
 

@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
-source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 31%
+source-wordcount: '353'
+ht-degree: 26%
 
 ---
 
-# Añadir Platform como servicio al conjunto de datos
+# Añadir Platform como servicio al conjunto de datos {#upgrade-addplatform-datastream}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-addplatform-datastream"
+>title="Añadir Adobe Experience Platform como servicio al conjunto de datos"
+>abstract="Un conjunto de datos necesita uno o más servicios para enviar datos a. Configure Adobe Experience Platform como servicio en el conjunto de datos.<br><br>Agregar servicios a una secuencia de datos es un proceso sencillo que sólo tarda unos minutos en completarse."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

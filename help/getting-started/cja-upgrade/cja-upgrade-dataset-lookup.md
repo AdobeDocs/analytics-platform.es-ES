@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
 
-# Crear conjuntos de datos de búsqueda para clasificar datos en Customer Journey Analytics
+# Crear conjuntos de datos de búsqueda para clasificar datos en Customer Journey Analytics {#upgrade-lookup-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-lookup-dataset-create"
+>title="Cree un conjunto de datos de búsqueda para cada dimensión que contenga datos de clasificación"
+>abstract="De forma similar a los datos de clasificaciones en Adobe Analytics, los conjuntos de datos de búsqueda son el método para clasificar datos en Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,7 +35,7 @@ De forma similar a los datos de clasificaciones en Adobe Analytics, los conjunto
 
 Al utilizar el conector de origen de Analytics, algunos conjuntos de datos de búsqueda estándar se aplican automáticamente en el momento del informe. Para obtener más información, consulte [Agregar búsquedas estándar a sus conjuntos de datos](/help/connections/standard-lookups.md).
 
-Para clasificar los datos en Customer Journey Analytics al utilizar el SDK web de Experience Platform, debe crear un esquema personalizado y un conjunto de datos de búsqueda para cada dimensión que contenga los datos que desea clasificar.
+Para clasificar los datos en Customer Journey Analytics al utilizar Experience Platform Web SDK, debe crear un esquema personalizado y un conjunto de datos de búsqueda para cada dimensión que contenga los datos que desea clasificar.
 
 ## Crear un esquema personalizado para utilizarlo con el conjunto de datos de consulta
 

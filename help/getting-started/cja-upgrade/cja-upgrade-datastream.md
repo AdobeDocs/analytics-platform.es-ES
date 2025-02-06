@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f76d098d-d223-40e4-be81-d28e7581396b
-source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 23%
+source-wordcount: '300'
+ht-degree: 20%
 
 ---
 
-# Crear un flujo de datos para utilizarlo con Customer Journey Analytics
+# Crear un flujo de datos para utilizarlo con Customer Journey Analytics {#upgrade-create-datastream}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-datastream-create"
+>title="Creación de una secuencia de datos en Adobe Experience Platform"
+>abstract="Un conjunto de datos es una ubicación intermedia que pasa los datos a todos los servicios configurados. Cree esta ubicación en Adobe Experience Platform.<br><br>La creación inicial de un conjunto de datos en la interfaz de Platform tarda sólo unos minutos."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
