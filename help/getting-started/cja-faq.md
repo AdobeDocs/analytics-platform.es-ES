@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: edbe0a1b3354b17defb9aef90564f2e36586b181
+source-git-commit: 408773de0fd157edf0cd7b8edc8a8873eff00eb0
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2582'
 ht-degree: 98%
 
 ---
@@ -132,7 +132,7 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 >[!NOTE]
 >No hay un tamaño de datos fijo en Customer Journey Analytics y, por lo tanto, Adobe no puede comprometerse con un tiempo de ingesta estándar. Adobe está trabajando activamente para reducir estas latencias a través de las nuevas actualizaciones y la optimización de la ingesta.
 
-<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.) **Nota:** Si la vinculación está habilitada, la ingesta puede tardar hasta 3,25 horas. Consulte [protecciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails) para obtener más información.</li><li>Rellenos secundarios pequeños: en un plazo de siete días<li>Rellenos de fondo grandes: en 30 días</li></ul>
+<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.) Si la vinculación está habilitada, la ingesta puede tardar hasta 3,25 horas.<p>Consulte [protecciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails) para obtener más información.</li><li>Rellenos secundarios pequeños: en un plazo de siete días<li>Rellenos de fondo grandes: en 30 días</li></ul>
 
 Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Journey Analytics:
 
