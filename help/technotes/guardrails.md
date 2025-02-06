@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a80b20eb2e0395445e8f2e7fd0e76e2eef40522a
+source-git-commit: 2dd215b0fe689c9370e9f5867fd1bd5fdee83d42
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -134,7 +134,7 @@ Consulte también las [protecciones del Experience Platform para la ingesta de d
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
 | Exportación de datos | Almacenamiento total autorizado de Data Lake | Seguridad de rendimiento | El cliente puede utilizar la exportación del conjunto de datos de destino para exportar los datos del cliente en el lago de datos hasta el almacenamiento total autorizado del lago de datos. |
-| Conjuntos de datos disponibles | Perfil y evento | Protección forzada del sistema | Conjuntos de datos de evento, perfil o búsqueda creados en la interfaz de usuario de Experience Platform después de ingerir o recopilar datos mediante fuentes, SDK web, SDK móvil, conector de datos de Analytics y Audience Manager. |
+| Conjuntos de datos disponibles | Perfil y evento | Protección forzada del sistema | Conjuntos de datos de evento, perfil o búsqueda creados en la interfaz de usuario de Experience Platform después de ingerir o recopilar datos a través de fuentes, SDK web, SDK móvil, Conector de datos de Analytics y Audience Manager. |
 
 {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 | Ingesta de datos en el lago de datos desde la ingesta de Edge Network o flujo | &lt; 60 minutos |
 | Ingesta de datos en el lago de datos desde el conector de Adobe Analytics Source | &lt; 2,25 horas |
 | Ingesta de datos en el Customer Journey Analytics desde Data Lake | &lt; 90 minutos |
-| Vinculación (característica opcional; consulte [Información general sobre la vinculación](../stitching/overview.md) para obtener más información) | &lt; 3,25 horas |
+| Vinculación (característica opcional; consulte [Información general sobre la vinculación](../stitching/overview.md) para obtener más información) | 4 horas |
 | Relleno de menos de 10 000 millones de eventos en el conector Source de Adobe Analytics (máximo de 13 meses de datos históricos) | &lt; 4 semanas |
 | Publicación de audiencias en el Perfil del cliente en tiempo real, lo que incluye la creación automática del segmento de flujo continuo y permite que el segmento esté listo para recibir los datos. | ≈ 60 minutos |
 | Frecuencia de actualización para audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualizar cada 4 horas, diaria, semanal o mensual (la latencia va de la mano con la frecuencia de actualización). |
