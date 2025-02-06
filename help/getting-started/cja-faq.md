@@ -5,7 +5,7 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 408773de0fd157edf0cd7b8edc8a8873eff00eb0
+source-git-commit: 1c02405994deec1950aca7601658017d9cf8c74c
 workflow-type: tm+mt
 source-wordcount: '2582'
 ht-degree: 98%
@@ -122,7 +122,8 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 
 +++**¿Cuáles son los límites para la ingesta de fechas/marcas de tiempo pasadas o futuras en conjuntos de datos de eventos de Customer Journey Analytics?**
 
-<ul><li>Con respecto a las fechas y marcas de tiempo anteriores: datos de eventos de hasta diez años.</li><li>Con respecto a las fechas y marcas de hora futuras: datos de eventos (predictivos) hasta un mes en el futuro.</li></ul>
+* Con respecto a las fechas y marcas de tiempo anteriores: datos de eventos de hasta diez años.
+* Con respecto a las fechas y marcas de hora futuras: datos de eventos (predictivos) hasta un mes en el futuro.
 
 +++
 
@@ -130,13 +131,17 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 ## 4. Consideraciones sobre la latencia {#latency}
 
 >[!NOTE]
+>
 >No hay un tamaño de datos fijo en Customer Journey Analytics y, por lo tanto, Adobe no puede comprometerse con un tiempo de ingesta estándar. Adobe está trabajando activamente para reducir estas latencias a través de las nuevas actualizaciones y la optimización de la ingesta.
 
-<ul><li>Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote &gt; 50 millones de filas: más de 90 minutos.) Si la vinculación está habilitada, la ingesta puede tardar hasta 3,25 horas.<p>Consulte [protecciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails) para obtener más información.</li><li>Rellenos secundarios pequeños: en un plazo de siete días<li>Rellenos de fondo grandes: en 30 días</li></ul>
+* Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote > 50 millones de filas: más de 90 minutos.) Si la vinculación está habilitada, la ingesta puede tardar hasta 3,25 horas. Consulte [protecciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails) para obtener más información.
+* Rellenos secundarios pequeños: en un plazo de siete días
+* Rellenos de fondo grandes: en 30 días
 
 Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Journey Analytics:
 
-<ul><li>Los datos de evento del día “actual” se transmiten como datos activos. Cualquier dato con una hora de evento anterior a las 11:59:59 pm (23:59:59) del día anterior se trata como un relleno.</li><li>Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.</li></ul>
+* Los datos de evento del día “actual” se transmiten como datos activos. Cualquier dato con una hora de evento anterior a las 11:59:59 pm (23:59:59) del día anterior se trata como un relleno.
+* Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.
 
 ## 5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
 
