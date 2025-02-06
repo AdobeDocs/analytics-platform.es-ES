@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
+source-git-commit: 171520c961fe1c77b4fa8466523e10a810074910
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1696'
 ht-degree: 11%
 
 ---
@@ -92,7 +92,7 @@ Cada configuración requiere un nombre único. Por ejemplo, `Example Content Ana
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Vista de datos"
->abstract="Seleccione una vista de datos existente del Customer Journey Analytics con la que desee combinar los datos de análisis de contenido.<br/>[Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target=\"_blank\"}"
+>abstract="Seleccione una vista de datos existente del Customer Journey Analytics con la que desee combinar los datos de análisis de contenido."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -119,7 +119,7 @@ Si edita una configuración existente, la lista solo muestra las vistas de datos
 Una vista de datos está vinculada a una conexión de Customer Journey Analytics [Connection](/help/connections/overview.md). Y una conexión se basa en una zona protegida dentro de su organización. Una vez guardada la configuración, **[!UICONTROL espacio aislado]** se rellena automáticamente con el nombre correcto del espacio aislado, según la vista de datos seleccionada.
 
 
-### Captura y definición de experiencias
+### Captura y definición de experiencias {#onboarding-experiences}
 
 <!-- markdownlint-disable MD034 -->
 
