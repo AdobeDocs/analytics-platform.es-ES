@@ -2,11 +2,12 @@
 title: Configuración manual de Content Analytics
 description: Cómo configurar Análisis de contenido manualmente
 solution: Customer Journey Analytics
-feature: Data Views
+feature: Content Analytics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 164d67748f8af066b603dcabeecf6d7cfca0f947
+exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
+source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 0%
