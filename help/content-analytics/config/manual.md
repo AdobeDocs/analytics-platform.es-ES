@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
+source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -24,3 +24,8 @@ ht-degree: 0%
 {#release-limited-testing}
 
 *Y ahora para algo completamente diferente...*
+
+>[!MORELIKETHIS]
+>
+>[Configuración guiada de análisis de contenido](guided.md)
+>

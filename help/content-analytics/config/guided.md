@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 171520c961fe1c77b4fa8466523e10a810074910
+source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1715'
 ht-degree: 11%
 
 ---
@@ -283,3 +283,9 @@ Cuando ha creado o editado una configuración, están disponibles las siguientes
       1. Si Web SDK no está configurado para la propiedad Tags, se crea una nueva configuración de Web SDK para enviar únicamente eventos de Content Analytics.
       1. Si Web SDK está configurado para esta propiedad Tag, no se realizan cambios en la configuración existente de Web SDK.
 * **[!UICONTROL Guardar]**: los cambios realizados en una configuración implementada se guardan y la implementación se actualiza.
+* **[!UICONTROL Salir]**. Sale de la configuración guiada. Todos los cambios realizados en una configuración implementada se descartan.
+
+>[!MORELIKETHIS]
+>
+>[Configuración manual de análisis de contenido](manual.md)
+>

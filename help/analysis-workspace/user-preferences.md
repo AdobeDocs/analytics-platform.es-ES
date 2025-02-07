@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
+source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
-source-wordcount: '3498'
-ht-degree: 99%
+source-wordcount: '3562'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Métrica predeterminada de tabla"
->abstract="Seleccione la métrica o el contenedor predeterminado que se utilizará para las tablas improvisadas. Si la vista de datos seleccionada no contiene la métrica o el contenedor predeterminados seleccionados, la tabla cambiará automáticamente a otra métrica principal."
+>abstract="Seleccione la métrica predeterminada que se utilizará en las tablas improvisadas. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambiará automáticamente a otra métrica principal."
 
 
 <!-- markdownlint-enable MD034 -->
@@ -181,7 +181,17 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Cálculo de porcentajes | <ul><li>Columna</li><li>Fila</li></ul> |
 | | Totales de columnas (solo filas estáticas) | <ul><li>Mostrar suma de filas: muestra la suma de los elementos de línea individuales </li><li>Mostrar el total general: muestra la suma de filas sin duplicar.</li></ul> |
 
-### Preferencias de visualizaciones
+### Preferencias de visualizaciones {#visalization-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultflowcontainer"
+>title="Métrica predeterminada de tabla"
+>abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones de flujo. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización de flujo cambiará automáticamente a otro contenedor principal."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultfalloutcontainer"
+>title="Métrica predeterminada de tabla"
+>abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones de visitas en el orden previsto. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización de visitas en el orden previsto cambiará automáticamente a otro contenedor principal."
 
 Puede actualizar las preferencias de visualización para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
 
