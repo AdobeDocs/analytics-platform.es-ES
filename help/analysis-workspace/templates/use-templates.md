@@ -35,7 +35,7 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
 1. En la sección [!UICONTROL **Plantillas**], seleccione cualquiera de las siguientes fichas:
 
-   * **[!UICONTROL plantillas de Adobe]**: muestra todas las plantillas proporcionadas por Adobe.
+   * **[!UICONTROL Plantillas de Adobe]**: Muestra todas las plantillas proporcionadas por Adobe.
 
    * **[!UICONTROL _login_company_name _templates]**: Muestra todas las plantillas de empresa que se han creado para su organización.
 
@@ -528,7 +528,7 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="template--productUsageOverviewReport"
->title="Vea cómo se utiliza el producto de Customer Journey Analytics en su organización."
+>title="Vea cómo se utiliza el producto Customer Journey Analytics en su organización."
 >abstract="**Esto puede ayudarte** a comprender mejor cuántas personas están usando Customer Journey Analytics, con qué frecuencia lo usan y las tendencias de uso a lo largo del tiempo. También puede ver el número de proyectos que se crean y los detalles sobre esos proyectos (como qué componentes, visualizaciones y paneles se utilizan más comúnmente), así como muchas otras estadísticas de uso.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como eliminar proyectos o componentes que no use, o proporcionar formación al usuario para las funciones más populares."
 
 <!-- markdownlint-enable MD034 -->
@@ -550,7 +550,7 @@ Las plantillas disponibles son las siguientes:
 | **Resumen de página** | Ver información clave sobre cualquier página de sus propiedades. Muestra vistas de página, la línea de tendencia, la visualización de flujo y mucho más.  <p>**Esto puede ayudarle** a comprender mejor cómo interactúan las personas con una página determinada.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como analizar el rendimiento de la página durante un período de tiempo o comprender mejor qué genera tráfico en la página.</p><p>Esta plantilla utiliza la métrica Vistas de página. También utiliza la visualización Línea y la visualización Flujo.</p> |
 | **Páginas de entrada** | Ver las páginas principales a las que acceden los usuarios al visitar el sitio por primera vez. <p>**Esto puede ayudarle** a comprender mejor qué páginas dirigen la mayor cantidad de tráfico al sitio o a comprender mejor las primeras impresiones que los visitantes tienen en el sitio.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como optimizar la experiencia inicial que obtienen los usuarios en el sitio o asegurarse de que las páginas que ven los usuarios por primera vez al entrar en el sitio sean acogedoras y proporcionen los vínculos necesarios a otras áreas del sitio.</p><p>Esta plantilla utiliza la métrica Sesiones. También utiliza la visualización de barras y de tabla de forma libre.</p> |
 | **Páginas de salida** | Ver las páginas principales a las que los usuarios acceden inmediatamente antes de abandonar el sitio.<p>**Esto puede ayudarte** a comprender mejor qué páginas están alejando a la gente del sitio. </p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.</p><p>Esta plantilla utiliza la métrica Sesiones. También utiliza la visualización de barras y de tabla de forma libre.</p> |
-| **Descripción general del uso del producto** (próximamente) | Vea cómo se utiliza el producto de Customer Journey Analytics en su organización. <p>**Esto puede ayudarte** a comprender mejor cuántas personas están usando Customer Journey Analytics, con qué frecuencia lo usan y las tendencias de uso a lo largo del tiempo. También puede ver el número de proyectos que se crean y los detalles sobre esos proyectos (como qué componentes, visualizaciones y paneles se utilizan más comúnmente), así como muchas otras estadísticas de uso.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como eliminar proyectos o componentes que no use, o proporcionar formación al usuario para las funciones más populares.</p> |
+| **Descripción general del uso del producto** (próximamente) | Vea cómo se utiliza el producto Customer Journey Analytics en su organización. <p>**Esto puede ayudarte** a comprender mejor cuántas personas están usando Customer Journey Analytics, con qué frecuencia lo usan y las tendencias de uso a lo largo del tiempo. También puede ver el número de proyectos que se crean y los detalles sobre esos proyectos (como qué componentes, visualizaciones y paneles se utilizan más comúnmente), así como muchas otras estadísticas de uso.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como eliminar proyectos o componentes que no use, o proporcionar formación al usuario para las funciones más populares.</p> |
 
 ### Web: conversión {#web-conversion}
 

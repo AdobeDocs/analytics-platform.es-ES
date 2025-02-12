@@ -30,7 +30,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
 >title="Creación del conector de origen de Analytics y asignación de campos de esquema"
->abstract="El conector de origen necesita saber cómo asignar campos de Adobe Analytics al esquema de la organización. Utilice esta interfaz para proporcionar al conector de origen esa asignación. Este paso forma parte de la adición de datos históricos al Customer Journey Analytics.<br><br>El tiempo que tarda este paso depende en gran medida del número de dimensiones y métricas que debe asignar. Este paso no es tan difícil como tedioso y repetitivo. Se espera que la asignación de flujos de datos tarde aproximadamente una semana en completarse."
+>abstract="El conector de origen necesita saber cómo asignar campos de Adobe Analytics al esquema de la organización. Utilice esta interfaz para proporcionar al conector de origen esa asignación. Este paso forma parte de la adición de datos históricos a Customer Journey Analytics.<br><br>El tiempo que tarda este paso depende en gran medida del número de dimensiones y métricas que debe asignar. Este paso no es tan difícil como tedioso y repetitivo. Se espera que la asignación de flujos de datos tarde aproximadamente una semana en completarse."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,9 +44,9 @@ ht-degree: 6%
 
 Puede utilizar el conector de origen de Analytics para incorporar datos del grupo de informes de Adobe Analytics a Adobe Experience Platform. Estos datos se pueden utilizar como datos históricos en Customer Journey Analytics.
 
-Este proceso supone que desea [crear un esquema personalizado para utilizarlo con la implementación de Web SDK de su Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones de Platform específicas que utiliza.
+Este proceso supone que desea [crear un esquema personalizado para utilizarlo con su implementación de Customer Journey Analytics Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones específicas de Platform que utiliza.
 
-Para utilizar el conector de origen de Analytics para llevar los datos históricos a Customer Journey Analytics, debe:
+Para utilizar el conector de origen de Analytics para introducir datos históricos en Customer Journey Analytics, debe:
 
 1. [Creación de un esquema personalizado para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
@@ -110,6 +110,6 @@ Para crear un conector de origen de Adobe Analytics para utilizarlo con datos hi
 
    Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes. El flujo de datos ingiere hasta 13 meses de datos históricos para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.
 
-   Si está utilizando el conector de origen de Analytics para incorporar datos históricos a la implementación de Customer Journey Analytics Web SDK, debe agregar este conjunto de datos creado automáticamente a la conexión que creó para la implementación de Web SDK.
+   Si utiliza el conector de origen de Analytics para incorporar datos históricos a la implementación de Customer Journey Analytics Web SDK, debe agregar este conjunto de datos creado automáticamente a la conexión que creó para la implementación de Web SDK.
 
 1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).

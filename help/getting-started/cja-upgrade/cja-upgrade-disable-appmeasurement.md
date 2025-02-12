@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-appmeasurement"
 >title="Deshabilitación de la recopilación de datos de AppMeasurement"
->abstract="Con los datos de Web SDK completamente funcionales, trabaje con su equipo de desarrolladores para eliminar AppMeasurement.js de su sitio web o propiedad.<br><br>El acto de quitar el AppMeasurement de un sitio web tarda sólo unos minutos, pero requiere tiempo del equipo de ingeniería para completarlo. Sin embargo, asegúrese de que los usuarios de Analytics utilicen Customer Journey Analytics y no Adobe Analytics; este proceso de anuncio para mover a todos puede tardar mucho más si aún no lo ha hecho."
+>abstract="Con los datos de Web SDK completamente funcionales, colabore con su equipo de desarrolladores para eliminar AppMeasurement.js de su sitio web o propiedad.<br><br>El acto de quitar AppMeasurement de un sitio web tarda unos minutos, pero el equipo de ingeniería debe detenerse para completarlo. Sin embargo, asegúrese de que los usuarios de Analytics usen Customer Journey Analytics y no Adobe Analytics; este proceso de anuncio para mover a todos puede tardar mucho más si aún no lo ha hecho."
 
 <!-- markdownlint-enable MD034 -->
 

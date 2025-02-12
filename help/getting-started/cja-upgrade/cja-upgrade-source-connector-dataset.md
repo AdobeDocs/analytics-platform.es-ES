@@ -21,7 +21,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-dataset"
 >title="Añadir el conjunto de datos del conector de origen de Analytics a la conexión"
->abstract="Ahora que los datos históricos del grupo de informes de Analytics se encuentran en Adobe Experience Platform, agregue ese conjunto de datos a la conexión existente que creó al configurar inicialmente Customer Journey Analytics. Una vez completado este paso, los datos históricos en Customer Journey Analytics están disponibles.<br><br>Agregar un conjunto de datos a una conexión en Customer Journey Analytics es sencillo y tarda sólo unos minutos en completarse."
+>abstract="Ahora que los datos históricos del grupo de informes de Analytics se encuentran en Adobe Experience Platform, agregue ese conjunto de datos a la conexión existente que creó al configurar inicialmente Customer Journey Analytics. Una vez completado este paso, los datos históricos de Customer Journey Analytics están disponibles.<br><br>Agregar un conjunto de datos a una conexión en Customer Journey Analytics es sencillo y tarda solo unos minutos en completarse."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -35,9 +35,9 @@ ht-degree: 25%
 
 Puede utilizar el conector de origen de Analytics para incorporar datos del grupo de informes de Adobe Analytics a Adobe Experience Platform. Estos datos se pueden utilizar como datos históricos en Customer Journey Analytics.
 
-Este proceso supone que desea [crear un esquema XDM al actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones específicas de Platform que utiliza.
+Este proceso supone que desea [crear un esquema XDM al actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones de Platform específicas que utiliza.
 
-Para utilizar el conector de origen de Analytics para llevar los datos históricos a Customer Journey Analytics, debe:
+Para utilizar el conector de origen de Analytics para introducir datos históricos en Customer Journey Analytics, debe:
 
 1. [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
@@ -53,7 +53,7 @@ Para utilizar el conector de origen de Analytics para llevar los datos históric
 
 Después de [crear un conector de origen de Analytics para los datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md), se crea automáticamente un conjunto de datos para los datos de Analytics.
 
-Debe agregar este conjunto de datos creado automáticamente a la misma conexión que creó para su implementación de Web SDK. Al hacerlo, los datos de Analytics se llevan a la misma vista de datos en Customer Journey Analytics que los datos de Web SDK.
+Debe agregar este conjunto de datos creado automáticamente a la misma conexión que creó para su implementación de Web SDK. Al hacerlo, los datos de Analytics pasan a la misma vista de datos en Customer Journey Analytics que los datos de SDK web.
 
 Para agregar el conjunto de datos creado automáticamente a la misma conexión creada para la implementación de Web SDK:
 
@@ -96,7 +96,7 @@ Para agregar el conjunto de datos creado automáticamente a la misma conexión c
 
 1. En la sección **[!UICONTROL Relleno de conjuntos de datos]**, seleccione **[!UICONTROL Solicitar relleno]**.
 
-1. Defina el período que desea que incluya el relleno de conexión en el Customer Journey Analytics introduciendo las fechas de inicio y finalización o seleccionando el icono de calendario ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).
+1. Defina el período que desea que incluya el relleno de conexión en Customer Journey Analytics introduciendo las fechas de inicio y finalización o seleccionando el icono de calendario ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).
 
    Sea explícito al especificar las fechas que solicita para el relleno. Según varios factores, es posible que desee realizar cualquiera de las siguientes acciones:
 
@@ -114,7 +114,7 @@ Para agregar el conjunto de datos creado automáticamente a la misma conexión c
 
 1. Seleccione **[!UICONTROL Agregar conjuntos de datos]** y, a continuación, seleccione **[!UICONTROL Guardar]** para guardar la conexión.
 
-1. (Condicional) Si utiliza conjuntos de datos de búsqueda, debe crear el conjunto de datos de búsqueda y agregarlo a la conexión. Para obtener más información, consulte [Crear conjuntos de datos de búsqueda para clasificar datos en el Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
+1. (Condicional) Si utiliza conjuntos de datos de búsqueda, debe crear el conjunto de datos de búsqueda y agregarlo a la conexión. Para obtener más información, consulte [Crear conjuntos de datos de búsqueda para clasificar datos en Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
 
    Esto solo es necesario si aún no lo ha hecho al configurar la implementación de Web SDK.
 

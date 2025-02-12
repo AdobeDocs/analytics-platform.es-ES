@@ -1,7 +1,7 @@
 ---
 description: Obtenga información sobre cómo exportar un proyecto de Analysis Workspace a una ubicación de la nube.
 keywords: Analysis Workspace
-title: Exportar informes de Customer Journey Analytics a la nube
+title: Exportación de informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# Exportar informes de Customer Journey Analytics a la nube {#full-table-export}
+# Exportación de informes de Customer Journey Analytics a la nube {#full-table-export}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-full-table-export"
->title="Crear exportaciones de tabla completas similares a Data Warehouse"
+>title="Cree exportaciones de tabla completas similares a Data Warehouse"
 >abstract="Las exportaciones de tabla completas están disponibles en cuanto ve los datos en Analysis Workspace. Puede crear o programar exportaciones de tabla completa según lo permitan las necesidades.<br><br>La creación de exportaciones de tabla completa tarda unos minutos en completarse si ya sabe qué datos incluir en la exportación."
 
 <!-- markdownlint-enable MD034 -->
@@ -47,7 +47,7 @@ Utilice el siguiente proceso al exportar tablas completas a la nube:
 
 1. [Exportación de una tabla completa desde Workspace](#export-full-tables-from-analysis-workspace)
 
-1. [Acceder a datos en la nube](#view-exported-data-and-manifest-file) y [Administrar exportaciones en el Adobe](/help/components/exports/manage-exports.md)
+1. [Acceder a datos en la nube](#view-exported-data-and-manifest-file) y [Administrar exportaciones en Adobe](/help/components/exports/manage-exports.md)
 
 ![Proceso de exportación de tabla completo descrito en los pasos del 1 al 4.](assets/export-full-table-process.png)
 
@@ -125,7 +125,7 @@ Se incluye un archivo de manifiesto con un nombre de archivo de `cja-export-{rep
 
 ## Ventajas de exportar a la nube
 
-Exportar los datos del Customer Journey Analytics a la nube le permite:
+Exportar los datos de Customer Journey Analytics a la nube le permite:
 
 * Exporte a una ubicación compartida, como Adobe Experience Platform Data Landing Zone, Google Cloud Platform, Microsoft Azure, Amazon S3 o Snowflake.
 
@@ -153,9 +153,9 @@ Asegúrese de que las tablas, el entorno y los permisos cumplan los siguientes r
 
 * **Tablas:** Todas las tablas deben incluir al menos una dimensión en la fila y una métrica en cada columna para ser compatibles con una exportación de tabla completa.
 
-* **Entorno:** Asegúrese de que las [direcciones IP](/help/technotes/ip-addresses.md) y los [dominios](/help/technotes/domains.md) utilizados por el Customer Journey Analytics tengan permiso para pasar a través del firewall de su organización.
+* **Entorno:** Asegúrese de que las [direcciones IP](/help/technotes/ip-addresses.md) y los [dominios](/help/technotes/domains.md) utilizados por Customer Journey Analytics tengan permiso para pasar a través del firewall de su organización.
 
-* **Permisos:** En Adobe Admin Console, a los usuarios se les debe asignar un perfil de producto que tenga asignado el permiso [!UICONTROL **Exportación de tabla completa**] para exportar tablas completas. Para obtener información sobre cómo asignar un permiso a un perfil de producto en el Admin Console, consulte [Permiso de Customer Journey Analytics en el Admin Console](/help/technotes/access-control.md).
+* **Permisos:** En Adobe Admin Console, a los usuarios se les debe asignar un perfil de producto que tenga asignado el permiso [!UICONTROL **Exportación de tabla completa**] para exportar tablas completas. Para obtener información sobre cómo asignar un permiso a un perfil de producto en Admin Console, consulte [Permiso de Customer Journey Analytics en Admin Console](/help/technotes/access-control.md).
 
   >[!NOTE]
   >
@@ -174,7 +174,7 @@ Las siguientes funciones no son compatibles y se eliminan automáticamente de la
 * Dimensiones dinámicas
 
   Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
-* Los Dimension del primer desglose se convierten y añaden como dimensión secundaria en la fila de la tabla exportada; cualquier otro desglose no se incluye en la tabla
+* Las dimensiones del primer desglose se convierten y añaden como dimensiones secundarias en la fila de la tabla exportada; cualquier otro desglose no se incluye en la tabla
 * La mayoría de los conjuntos de datos no admiten la ordenación; es posible que los datos se ordenen para conjuntos de datos pequeños
 
 ### Componentes no compatibles
@@ -216,9 +216,9 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
   >
   >Los informes multidimensionales solo son compatibles al exportar datos a la nube, tal como se describe en este artículo.
 
-## Comparación de la exportación de tabla completa (en Customer Journey Analytics) con la Data Warehouse (en Adobe Analytics)
+## Comparación de la exportación de tablas completas (en Customer Journey Analytics) con Data Warehouse (en Adobe Analytics)
 
-Si anteriormente ha utilizado Data Warehouse para exportar datos de Adobe Analytics, la siguiente tabla puede ayudarle a comprender las diferencias entre exportar tablas completas en Customer Journey Analytics y exportar datos con Data Warehouse en Adobe Analytics.
+Si anteriormente utilizó Data Warehouse para exportar datos de Adobe Analytics, la siguiente tabla puede ayudarle a comprender las diferencias entre exportar tablas completas en Customer Journey Analytics y exportar datos con Data Warehouse en Adobe Analytics.
 
 
 | Función | Exportación de tabla completa en Customer Journey Analytics | Data Warehouse en Adobe Analytics |

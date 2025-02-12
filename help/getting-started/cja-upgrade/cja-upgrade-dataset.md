@@ -1,5 +1,5 @@
 ---
-title: Crear un esquema para el Customer Journey Analytics
+title: Creación de un esquema para Customer Journey Analytics
 description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -14,7 +14,7 @@ ht-degree: 29%
 
 ---
 
-# Crear un conjunto de datos para utilizarlo con un Customer Journey Analytics {#upgrade-create-dataset}
+# Crear un conjunto de datos para utilizarlo con Customer Journey Analytics {#upgrade-create-dataset}
 
 <!-- markdownlint-disable MD034 -->
 

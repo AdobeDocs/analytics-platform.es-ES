@@ -21,7 +21,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-xdm"
 >title="Adición de la lógica de recopilación de datos XDM a la etiqueta"
->abstract="Con la etiqueta de carga instalada en el sitio, puede añadir reglas y elementos de datos para rellenar un objeto XDM y enviarlo al Adobe. Adobe recomienda mantener un documento de diseño de solución para realizar un seguimiento de la configuración de las etiquetas.<br><br>Este paso es mucho trabajo, ya que implica configurar toda la lógica de Analytics para su propiedad. Espere dedicar un mes o más a establecer las reglas de etiquetas correctas, probarlas e implementarlas en el sitio."
+>abstract="Con la etiqueta de carga instalada en el sitio, puede añadir reglas y elementos de datos para rellenar un objeto XDM y enviarlo a Adobe. Adobe recomienda mantener un documento de diseño de solución para realizar un seguimiento de la configuración de las etiquetas.<br><br>Este paso es mucho trabajo, ya que implica configurar toda la lógica de Analytics para su propiedad. Espere dedicar un mes o más a establecer las reglas de etiquetas correctas, probarlas e implementarlas en el sitio."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -91,7 +91,7 @@ Para crear un elemento de datos de nombre de página:
 
 #### Elemento de datos ECID
 
-Un elemento de datos común que se aplica a la mayoría de las organizaciones es un elemento de datos que captura el ID de Experience Cloud de cada persona que visita el sitio.
+Un elemento de datos común que se aplica a la mayoría de las organizaciones es un elemento de datos que captura el Experience Cloud ID de cada persona que visita el sitio.
 
 Para crear un elemento de datos ECID:
 
@@ -101,15 +101,15 @@ Para crear un elemento de datos ECID:
 
 1. Seleccione la etiqueta recién creada de la lista de [!UICONTROL Propiedades de la etiqueta] para abrirla.
 
-1. (Condicional) Instale la extensión del Servicio de ID de Experience Cloud si aún no está instalada:
+1. (Condicional) Instale la extensión del Servicio de Experience Cloud ID si aún no está instalada:
 
    1. Seleccione **[!UICONTROL Extensiones]** en el carril izquierdo.
 
-   1. La ficha **[!UICONTROL Instalado]** está seleccionada de forma predeterminada. Si el mosaico **[!UICONTROL Servicio de ID de Experience Cloud]** aparece en la lista, vaya al paso 5.
+   1. La ficha **[!UICONTROL Instalado]** está seleccionada de forma predeterminada. Si el mosaico **[!UICONTROL Servicio de Experience Cloud ID]** aparece en la lista, vaya al paso 5.
 
-   1. Si el mosaico **[!UICONTROL Servicio de ID de Experience Cloud]** no aparece en la lista, seleccione la pestaña **[!UICONTROL Catálogo]**.
+   1. Si el mosaico **[!UICONTROL Servicio de Experience Cloud ID]** no aparece en la lista, seleccione la pestaña **[!UICONTROL Catálogo]**.
 
-   1. En el campo de búsqueda, busque **[!UICONTROL Servicio de ID de Experience Cloud]** y, a continuación, seleccione el mosaico cuando aparezca
+   1. En el campo de búsqueda, busque **[!UICONTROL Servicio de Experience Cloud ID]** y, a continuación, seleccione el mosaico cuando aparezca
 
    1. Seleccione **[!UICONTROL Instalar]** > **[!UICONTROL Guardar]**.
 
@@ -121,7 +121,7 @@ Para crear un elemento de datos ECID:
 
    * **[!UICONTROL Nombre]**: El nombre del elemento de datos. Por ejemplo `ECID`.
 
-   * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL Servicio de ID de Experience Cloud]** de la lista.
+   * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL Servicio de Experience Cloud ID]** de la lista.
 
    * **[!UICONTROL Tipo de elemento de datos]**: seleccione **[!UICONTROL ECID]** de la lista.
 

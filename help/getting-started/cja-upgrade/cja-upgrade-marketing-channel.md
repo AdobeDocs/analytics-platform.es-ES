@@ -1,5 +1,5 @@
 ---
-title: Crear un campo derivado de canal de marketing para Customer Journey Analytics
+title: Cree un campo derivado de canal de marketing para Customer Journey Analytics
 description: Obtenga información sobre cómo crear un campo derivado de canal de marketing para Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 ---
 
-# Crear un campo derivado de canal de marketing para Customer Journey Analytics {#create-marketing-channel-derived-field}
+# Cree un campo derivado de canal de marketing para Customer Journey Analytics {#create-marketing-channel-derived-field}
 
 <!-- markdownlint-disable MD034 -->
 

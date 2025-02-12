@@ -1,5 +1,5 @@
 ---
-title: Explicación de las funciones exclusivas de Customer Journey Analytics
+title: Comprender las funciones exclusivas de Customer Journey Analytics
 description: Obtenga información sobre las funciones exclusivas de Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -13,7 +13,7 @@ ht-degree: 27%
 
 ---
 
-# Explicación de las funciones exclusivas de Customer Journey Analytics {#feature-support-upgrade}
+# Comprender las funciones exclusivas de Customer Journey Analytics {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -39,9 +39,9 @@ ht-degree: 27%
 
 La siguiente lista muestra solo las funciones de Customer Journey Analytics que deben tenerse en cuenta durante el proceso de actualización. Para obtener una lista completa que muestre qué características de Adobe Analytics son totalmente compatibles, parcialmente compatibles o no compatibles con Customer Journey Analytics, consulte [Compatibilidad con características de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 
-Considere cuál de las siguientes funciones de Customer Journey Analytics desea adoptar al actualizar a Customer Journey Analytics:
+Tenga en cuenta cuál de las siguientes funciones de Customer Journey Analytics desea adoptar al actualizar a Customer Journey Analytics:
 
-| función de Customer Journey Analytics | Función |
+| Función Customer Journey Analytics | Función |
 |---------|----------|
 | [Asocie datos web con datos de otros canales, como los datos del centro de llamadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics se combina con la capacidad de Experience Platform para albergar todo tipo de esquemas y datos. Con [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es), los datos se pueden representar y organizar de forma uniforme, listos para la combinación y exploración. Adobe Analytics se centra principalmente en los datos de análisis web y móviles con algunas funcionalidades para [importar datos](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=es). |
 | [Unir visitas de otros conjuntos de datos usando una dimensión personalizada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics le permite [combinar datos](/help/connections/combined-dataset.md) de varios grupos de informes como si fueran un único grupo de informes de Adobe Analytics. |

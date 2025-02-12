@@ -1,5 +1,5 @@
 ---
-title: Crear un esquema personalizado para el Customer Journey Analytics
+title: Creación de un esquema personalizado para Customer Journey Analytics
 description: Obtenga información sobre cómo crear un esquema personalizado para Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -14,14 +14,14 @@ ht-degree: 37%
 
 ---
 
-# Cree un esquema personalizado para utilizarlo con la implementación de Customer Journey Analytics Web SDK {#create-custom-schema}
+# Cree un esquema personalizado para utilizarlo con su implementación de Customer Journey Analytics Web SDK {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create"
 >title="Cree el esquema personalizado deseado en Adobe Experience Platform"
->abstract="Utilice la interfaz de usuario de Adobe Experience Platform para crear un esquema y que el Adobe conozca el formato correcto para almacenar los datos.<br><br>Este paso implica la creación real del esquema acordado por su organización. El tiempo estimado para crear el esquema en la interfaz de Adobe Experience Platform es de aproximadamente una semana, según el número de dimensiones y métricas que se deban crear."
+>abstract="Utilice la interfaz de usuario de Adobe Experience Platform para crear un esquema y que Adobe conozca el formato correcto para almacenar los datos.<br><br>Este paso implica la creación real del esquema acordado por su organización. El tiempo estimado para crear el esquema en la interfaz de Adobe Experience Platform es de aproximadamente una semana, según el número de dimensiones y métricas que se deban crear."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
 >title="Habilite el esquema para el perfil"
->abstract="Habilite el perfil en su esquema para utilizarlo en CDP en tiempo real de Adobe. Este paso aparece porque ha seleccionado el deseo de integración con CDP en tiempo real de Adobe.<br><br>Dado que este paso implica hacer clic en un solo cuadro, este paso solo dura unos minutos."
+>abstract="Habilite el perfil en su esquema para utilizarlo en Adobe Real-time CDP. Este paso aparece porque ha seleccionado el deseo de integración con Adobe Real-time CDP.<br><br>Dado que este paso implica hacer clic en un solo cuadro, este paso solo dura unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -51,7 +51,7 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->Antes de empezar a crear el esquema personalizado, trabaje con el equipo de datos y otras partes interesadas de toda la organización para identificar el diseño de esquema ideal de la organización para Customer Journey Analytics y las demás aplicaciones de Adobe Experience Platform que utilice. Para obtener más información, vea [Arquitectar su esquema para utilizarlo con el Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
+>Antes de empezar a crear el esquema personalizado, colabore con el equipo de datos y otras partes interesadas de toda la organización para identificar el diseño de esquema ideal para Customer Journey Analytics y las demás aplicaciones de Adobe Experience Platform que utilice. Para obtener más información, vea [Arquitectar su esquema para utilizarlo con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
 En las secciones siguientes se describe cómo crear un esquema que se pueda utilizar con Customer Journey Analytics. Estas son las opciones de esquema disponibles:
 
@@ -59,7 +59,7 @@ En las secciones siguientes se describe cómo crear un esquema que se pueda util
 
 * **El esquema de Adobe Analytics que usa el grupo de campos Adobe Analytics ExperienceEvent:** Requiere la adición de miles de campos innecesarios. Cualquier cambio futuro requerido es más difícil.
 
-Para obtener más información acerca de estas opciones de esquema, vea [Elegir el esquema para el Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
+Para obtener más información sobre estas opciones de esquema, consulte [Elegir el esquema para Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
 ## Creación del esquema
 
@@ -116,7 +116,7 @@ Para crear un esquema personalizado:
 
       Si elige utilizar el esquema de Adobe Analytics predeterminado en lugar de crear un esquema XDM personalizado, ahora puede agregar el grupo de campos Adobe Analytics ExperienceEvent. Sin embargo, Adobe recomienda crear un esquema XDM personalizado en lugar de añadir este grupo de campos.
 
-      Para obtener más información acerca de estas opciones de esquema, vea [Elegir el esquema para el Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
+      Para obtener más información sobre estas opciones de esquema, consulte [Elegir el esquema para Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
    1. Seleccione **[!UICONTROL Agregar grupos de campos]**.
 
@@ -142,7 +142,7 @@ Para crear un esquema personalizado:
 
    ![Objeto de identificación](assets/identification-field.png)
 
-   El objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante el ID de Experience Cloud y la dirección de correo electrónico. Hay muchos otros atributos disponibles para rastrear la identificación de su persona (por ejemplo, ID de cliente, ID de fidelidad).
+   El objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante el Experience Cloud ID y la dirección de correo electrónico. Hay muchos otros atributos disponibles para rastrear la identificación de su persona (por ejemplo, ID de cliente, ID de fidelidad).
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -190,7 +190,7 @@ Para crear un esquema personalizado:
 
    * Agregar un objeto de identificación basado en el grupo de campos Profile Core v2.
 
-   * Defina el ID de Experience Cloud como identificador principal y el correo electrónico como identificador.
+   * Defina el Experience Cloud ID como identificador principal y el correo electrónico como identificador.
 
    * Habilitar el esquema para el perfil
 

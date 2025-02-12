@@ -1,5 +1,5 @@
 ---
-title: Elija el esquema para el Customer Journey Analytics
+title: Elija su esquema para Customer Journey Analytics
 description: Obtenga información acerca de las opciones disponibles al elegir un esquema para Customer Journey Analytics y las ventajas y desventajas de cada una
 role: Admin
 solution: Customer Journey Analytics
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 ---
 
-# Elija el esquema para el Customer Journey Analytics {#choose-schema}
+# Elija su esquema para Customer Journey Analytics {#choose-schema}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -30,13 +30,13 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
 >title="Usar el esquema predeterminado"
->abstract="(No recomendado) El esquema de Adobe Analytics contiene más de mil campos, lo que puede generar esquemas desordenados y complejos. Su organización se vería obligada a seguir adhiriendo al concepto de props y eVars, que es un concepto heredado que no se utiliza en Customer Journey Analytics. La integración con otros servicios de Adobe Experience Platform es más difícil."
+>abstract="(No recomendado) El esquema de Adobe Analytics contiene más de mil campos, lo que puede generar esquemas desordenados y complejos. Su organización se vería obligada a seguir adhiriendo al concepto de props y eVars, que es un concepto heredado no utilizado en Customer Journey Analytics. La integración con otros servicios de Adobe Experience Platform es más difícil."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
->Esta documentación se debe usar como parte del [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Esta documentación debe usarse como parte del [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
 <!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 

@@ -21,7 +21,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataview"
 >title="Creación de una vista de datos en Customer Journey Analytics"
->abstract="Una vista de datos es un contenedor específico del Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión.<br><br>Aunque la creación inicial de la vista de datos tarda unos minutos, la configuración de cada dimensión y métrica con la configuración de componente deseada puede tardar varios días. El ajuste de esta configuración se aplica de forma retroactiva, por lo que su organización puede refinarla con el tiempo."
+>abstract="Una vista de datos es un contenedor específico de Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión.<br><br>Aunque la creación inicial de la vista de datos tarda unos minutos, la configuración de cada dimensión y métrica con la configuración de componente deseada puede tardar varios días. El ajuste de esta configuración se aplica de forma retroactiva, por lo que su organización puede refinarla con el tiempo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +53,7 @@ Para crear una vista de datos:
 
    ![Pestaña Componentes](assets/dataview-components.png)
 
-1. En la pestaña [!UICONTROL **Componentes**], arrastre elementos de esquema desde el carril izquierdo a la sección [!UICONTROL **Métricas**] o a la sección [!UICONTROL **Dimension**]. Los elementos de esquema que agregue se convertirán en métricas o dimensiones en la vista de datos.
+1. En la ficha [!UICONTROL **Componentes**], arrastre elementos de esquema desde el carril izquierdo a la sección [!UICONTROL **Métricas**] o a la sección [!UICONTROL **Dimensiones**]. Los elementos de esquema que agregue se convertirán en métricas o dimensiones en la vista de datos.
 
    Para obtener información detallada sobre las opciones disponibles al agregar componentes a una vista de datos, consulte [Componentes](/help/data-views/create-dataview.md#components) en [Crear o editar una vista de datos](/help/data-views/create-dataview.md).
 
