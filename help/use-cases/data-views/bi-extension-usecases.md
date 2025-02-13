@@ -4,10 +4,8 @@ description: Casos de uso múltiple que muestran cómo utilizar la extensión de
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: d0bea7f5f23322c1b20729400c19f5dda6a0712c
+source-git-commit: ffa5bcbe246696a8364ff312bff1b7cc1256ff2c
 workflow-type: tm+mt
 source-wordcount: '13056'
 ht-degree: 1%
