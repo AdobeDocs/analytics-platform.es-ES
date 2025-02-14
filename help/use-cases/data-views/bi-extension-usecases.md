@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 5fbda947c847c803f95e5c3f412219b0af927d12
+source-git-commit: e2063ee571f78558c487f80041f9d28616138c61
 workflow-type: tm+mt
-source-wordcount: '14688'
+source-wordcount: '14697'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,8 @@ Este artículo describe cómo realizar una serie de casos de uso con la extensi�
 * **Escritorio de Power BI**. La versión utilizada es 2.137.1102.0 de 64 bits (octubre de 2024).
 * **Escritorio Tableau**. La versión utilizada es 2024.1.5 (20241.24.0705.0334) de 64 bits.
 * **Buscador**. Versión en línea 25.0.23, disponible a través de [looker.com](https://looker.com){target="_blank"}
-* **Jupyter Notebook**. La versión utilizada es 7.3.2
+* **Jupyter Notebook**. La versión utilizada es la 7.3.2.
+* **EstudioRS**. La versión utilizada es 2024.12.0, compilación 467.
 
 Los siguientes casos de uso están documentados:
 
