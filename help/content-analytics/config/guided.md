@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
+source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 10%
@@ -273,7 +273,7 @@ Una vez que haya proporcionado todos los detalles necesarios, un resumen proporc
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="Advertencia de implementación de incorporación"
->abstract="Esto configurará el análisis de contenido en función parcialmente de la entrada proporcionada en este flujo de trabajo. Otras configuraciones se eligen automáticamente en función de lo que suele resultar útil para el análisis de contenido. Se le recomienda revisar la configuración de cada artefacto para confirmar que cumpla con sus requisitos y directrices. <br/>Tenga en cuenta que no se recopilarán datos hasta que la biblioteca de etiquetas asociada con esta configuración se publique manualmente.<br/>Tenga en cuenta también que, para derivar atributos de imágenes y texto, Adobe recuperará estos atributos mediante la dirección URL capturada en el momento de la visita de los usuarios según la configuración de recopilación de datos implementada."
+>abstract="Esto configurará el análisis de contenido en función parcialmente de la entrada proporcionada en este flujo de trabajo. Otras configuraciones se eligen automáticamente en función de lo que suele resultar útil para el análisis de contenido. Se le recomienda revisar la configuración de cada artefacto para confirmar que cumpla con sus requisitos y directrices. <br/><br/>Tenga en cuenta que no se recopilarán datos hasta que la biblioteca de etiquetas asociada con esta configuración se publique manualmente.<br/><br/>Tenga en cuenta también que, para derivar atributos de imágenes y texto, Adobe recuperará estos atributos mediante la dirección URL capturada en el momento de la visita de los usuarios según la configuración de recopilación de datos implementada."
 
 <!-- markdownlint-enable MD034 -->
 
