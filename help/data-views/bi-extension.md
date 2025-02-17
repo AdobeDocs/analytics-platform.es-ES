@@ -1,14 +1,14 @@
 ---
 title: Extensión de Customer Journey Analytics BI
-description: Descubra cómo puede utilizar Power BI o Tableau Desktop para acceder a las vistas de datos mediante la extensión de BI de Customer Journey Analytics.
+description: Descubra cómo puede utilizar Power BI o Tableau Desktop para acceder a las vistas de datos mediante la extensión de Customer Journey Analytics BI.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: d7d16dbef202db9fdac08796dacc3368e0119456
+source-git-commit: 30e3df15aecec0bab180cd06e0ae7c79f58cdf44
 workflow-type: tm+mt
-source-wordcount: '3176'
-ht-degree: 59%
+source-wordcount: '3620'
+ht-degree: 53%
 
 ---
 
@@ -36,13 +36,13 @@ A continuación se muestran pasos adicionales para configurar los permisos de CJ
 
 Para utilizar credenciales que caducan, puede:
 
-* Conceder acceso al Experience Platform y al Customer Journey Analytics.
-* Conceder acceso de administrador de producto a Customer Journey Analytics para que pueda ver, editar, actualizar o eliminar conexiones y vistas de datos.
+* Conceder acceso a Experience Platform y Customer Journey Analytics.
+* Conceda acceso de administrador de productos a Customer Journey Analytics para que pueda ver, editar, actualizar o eliminar conexiones y vistas de datos.
 
 O bien puede:
 
 * Conceda acceso a las vistas de datos a las que desee acceder.
-* Conceder acceso a la extensión de BI de Customer Journey Analytics.
+* Conceder acceso a la extensión de Customer Journey Analytics BI.
 
 ### Credenciales que no caducan
 
@@ -51,7 +51,7 @@ Para usar credenciales que no caduquen:
 * Cree credenciales que no caduquen en Experience Platform.
 * Conceda acceso a las credenciales que no caducan siguiendo los pasos mencionados en [Credenciales que caducan](#Expiring-credentials).
 
-Consulte [Control de acceso con Recorrido del cliente](../technotes/access-control.md) para obtener más información, en concreto los [permisos adicionales de administrador de productos](../technotes/access-control.md#product-admin-additional-permissions) y los [permisos de Customer Journey Analytics en el Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
+Consulte [Control de acceso de Recorrido del cliente](../technotes/access-control.md) para obtener más información, en concreto los [permisos adicionales de administrador de productos](../technotes/access-control.md#product-admin-additional-permissions) y los [permisos de Customer Journey Analytics en Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## Uso
@@ -124,7 +124,7 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. En el cuadro de diálogo **[!UICONTROL ** Base de datos de PostgressSQL **]**:
 
-      1. Pegue el parámetro **[!UICONTROL ** Host **]** de las consultas de Experience Platform [!UICONTROL Credentials] en el campo de texto **[!UICONTROL ** Server **]**.
+      1. Pegue el parámetro **[!UICONTROL ** Host **]** de las consultas de Experience Platform [!UICONTROL Credenciales] en el campo de texto **[!UICONTROL ** Servidor **]**.
 
       1. Pegue el parámetro **[!UICONTROL ** Database **]** de las consultas de Experience Platform [!UICONTROL Credentials] en el campo de texto **[!UICONTROL ** Database **]**.
 
@@ -135,13 +135,13 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
       1. Se le solicitará el **[!UICONTROL nombre de usuario]** y la **[!UICONTROL contraseña]**. Utilice los parámetros equivalentes de las [!UICONTROL credenciales] de consultas de Experience Platform.
 
 
-   1. Después de iniciar sesión correctamente, las tablas de vista de datos del Customer Journey Analytics aparecen en Power BI **[!UICONTROL ** Navigator **]**.
+   1. Después de iniciar sesión correctamente, las tablas de vista de datos de Customer Journey Analytics aparecen en Power BI **[!UICONTROL ** Navigator **]**.
 
    1. Seleccione las tablas de vista de datos que desee utilizar y seleccione **[!UICONTROL ** cargar **]**.
 
    Todas las dimensiones y métricas asociadas con una o más tablas seleccionadas aparecen en el panel derecho, listas para utilizarse en las visualizaciones.
 
-   Consulte [Conectar Power BI al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi) para obtener más información.
+   Consulte [Conectar Power BI al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi) para obtener más información. Consulte también [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
 
 +++
 
@@ -181,19 +181,94 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
       1. Seleccione **[!UICONTROL ** Iniciar sesión **]**.
 
-   1. Las vistas de datos del Customer Journey Analytics se muestran como tablas en la lista **[!UICONTROL ** Tabla **]**.
+   1. Las vistas de datos de Customer Journey Analytics se muestran como tablas en la lista **[!UICONTROL ** Tabla **]**.
 
    1. Arrastre las tablas que desee utilizar en el lienzo.
 
    Ahora puede trabajar con los datos de las tablas de vista de datos para crear sus informes y visualizaciones.
 
-   Consulte [Conectar Tableau con el servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau) para obtener más información.
+   Consulte [Conectar Tableau al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau) para obtener más información. Consulte también [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
+
++++
+
++++ Buscador
+
+1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
+
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
+
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
+
+   1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
+
+   1. Use ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Puerto], [!UICONTROL Base de datos], [!UICONTROL Nombre de usuario] y otros) cuando sea necesario en Looker.
+
+1. En Buscador:
+
+   1. Seleccione **[!UICONTROL Admin]** en el carril izquierdo.
+   1. Seleccione **[!UICONTROL Conexiones]**.
+   1. Seleccione **[!UICONTROL Agregar conexión]**.
+   1. En la pantalla **[!UICONTROL Conectar la base de datos al buscador]**, pegue los valores apropiados al configurar la nueva conexión. Asegúrese de seleccionar **[!UICONTROL PostgreSQL 9.5+]** como dialecto.
+   1. Seleccione **[!UICONTROL Probar]** para probar la conexión.
+   1. Si lo consigue, seleccione **[!UICONTROL Actualizar]** para guardar la conexión.
+
+   Ahora puede trabajar con los datos de las tablas de vista de datos para crear sus informes y visualizaciones.
+
+   Consulte [Conectar buscador al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/looker) para obtener más información. Consulte también [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
+
++++
+
++++ Jupyter Notebook
+
+1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
+
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
+
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
+
+   1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
+
+   1. Use ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Puerto], [!UICONTROL Base de datos], [!UICONTROL Nombre de usuario] y otros) cuando sea necesario en Jupyter Notebook.
+
+1. En Jupyter Notebook:
+
+   1. Asegúrese de utilizar las bibliotecas necesarias.
+   1. Utilice los valores adecuados al configurar y ejecutar la conexión.
+   1. Pruebe la conexión ejecutando una consulta relevante.
+
+   Si tiene éxito, puede trabajar con los datos para crear sus informes y visualizaciones.
+
+   Consulte [Conectar Jupyter Notebook al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/jupyter-notebook) para obtener más información. Consulte también [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
+
++++
+
++++ RStudio
+
+1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
+
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
+
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
+
+   1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
+
+   1. Use ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Puerto], [!UICONTROL Base de datos], [!UICONTROL Nombre de usuario] y otros) cuando sea necesario en Jupyter Notebook.
+
+1. En RStudio:
+
+   1. Asegúrese de utilizar las bibliotecas necesarias.
+   1. Utilice los valores adecuados al configurar y ejecutar la conexión.
+   1. Pruebe la conexión ejecutando una consulta relevante.
+
+   Si tiene éxito, puede trabajar con los datos para crear sus informes y visualizaciones.
+
+   Consulte [Conectar RStudio al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/rstudio) para obtener más información. Consulte también [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado (que utiliza el paquete RPostgres en su lugar).
 
 +++
 
 Consulte [Conectar clientes al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview) para obtener información general y más detallada sobre las distintas herramientas disponibles.
 
-Consulte [Casos de uso](/help/use-cases/data-views/bi-extension-usecases.md) sobre cómo realizar una serie de casos de uso con la extensión de BI de Customer Journey Analytics
+Consulte [Casos de uso](/help/use-cases/data-views/bi-extension-usecases.md) sobre cómo realizar una serie de casos de uso con la extensión de Customer Journey Analytics BI.
 
 ## Funcionalidad
 
@@ -386,7 +461,7 @@ ORDER BY -metric1 DESC
 
 {style="table-layout:auto"}
 
-### Compatibilidad con funciones de Dimension
+### Compatibilidad con funciones Dimension
 
 Estas funciones se pueden usar en dimensiones de la cláusula `SELECT`, `WHERE` o en métricas condicionales.
 
