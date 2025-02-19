@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8d14bb23283107402332106df36e8f7898ea5d30
+exl-id: 92053109-f80d-47ab-b011-c28a5411149c
+source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 31%
+ht-degree: 59%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-migrate-projects"
 >title="Componentes y proyectos"
->abstract="Los componentes de Adobe Analytics incluyen: Proyectos (con sus tablas y visualizaciones de forma libre asociadas), segmentos y métricas calculadas."
+>abstract="Los componentes de Adobe Analytics incluyen: proyectos (con sus tablas y visualizaciones de forma libre asociadas), segmentos y métricas calculadas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,7 +30,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-activity-map"
 >title="Superposición de Activity Map y seguimiento de vínculos"
->abstract="Extensión de explorador que permite ver los datos de seguimiento de vínculos como una superposición en el sitio."
+>abstract="Una extensión del explorador que permite ver los datos de seguimiento de vínculos como una superposición en el sitio."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +39,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-classification"
 >title="Datos de clasificación"
->abstract="Agrupe o categorice los datos como dimensiones independientes."
+>abstract="Agrupe o clasfiique los datos como dimensiones independientes."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,7 +57,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds"
 >title="Fuentes de datos"
->abstract="Exportar datos sin procesar de Adobe Analytics para utilizarlos en herramientas y procesos externos."
+>abstract="Exporte datos sin procesar de Adobe Analytics para utilizarlos en herramientas y procesos externos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +66,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-warehouse"
 >title="Data Warehouse"
->abstract="Exportar datos procesados de Adobe Analytics en formato de hoja de cálculo."
+>abstract="Exporte datos procesados de Adobe Analytics en formato de hoja de cálculo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -74,7 +75,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="Datos de medios de streaming"
->abstract="Un complemento de Adobe Analytics que se especializa en la recopilación de datos de medios, como audio, vídeo o contenido transmitido."
+>abstract="Un complemento de Adobe Analytics que está especializado en la recopilación de datos de medios, como audio, vídeo o contenido transmitido."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -86,13 +87,12 @@ La siguiente lista muestra solo las funciones de Adobe Analytics que deben tener
 
 Tenga en cuenta cuál de las siguientes funciones de Adobe Analytics desea seguir utilizando al actualizar a Customer Journey Analytics:
 
-| Función Adobe Analytics | Función correspondiente en el Customer Journey Analytics |
+| Función Adobe Analytics | Función correspondiente en Customer Journey Analytics |
 |---------|----------|
-| [Componentes y proyectos de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [Migrar proyectos y sus componentes asociados al Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration). |
+| [Componentes y proyectos de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [Migrar proyectos y sus componentes asociados a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration). |
 | [Superposición de Activity Map y seguimiento de vínculos](https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/overview) | Aún no está disponible |
 | [Datos de clasificación](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/c-classifications) | Los conjuntos de datos de búsqueda son el método para clasificar datos en Customer Journey Analytics.<p>[Cree un conjunto de datos de búsqueda para cada dimensión que contenga datos de clasificación.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
 | [Canales de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | Los campos derivados se crean dentro de una vista de datos. <p>[Crear un campo derivado de canal de marketing.](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
 | [Archivos de fuentes de datos](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | La exportación de datos de primera generación de conjuntos de datos está disponible a través de la [API de acceso a datos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=es) y mediante [Destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es). Estas opciones proporcionan una exportación a nivel de evento/fila de todos los datos recopilados o introducidos en el lago de datos de Experience Platform. Las columnas de datos de procesamiento posterior no están disponibles porque las columnas posteriores se calculan en el momento de la consulta. La exportación de columnas de publicación está disponible a través del sistema de creación de informes. |
 | [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | La [Exportación de tablas completas de Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad. |
 | [Datos de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview) | Los datos de medios de streaming están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |
-

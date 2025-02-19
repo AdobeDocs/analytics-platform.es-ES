@@ -1,5 +1,5 @@
 ---
-title: Comprenda su implementación de Adobe Analytics y cómo afecta a su actualización a Customer Journey Analytics
+title: Conozca su implementación de Adobe Analytics y cómo afecta a la actualización a Customer Journey Analytics
 description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 12%
+ht-degree: 31%
 
 ---
 
-# Comprenda su implementación de Adobe Analytics y cómo afecta a su actualización a Customer Journey Analytics {#implementation-affects-upgrade}
+# Conozca su implementación de Adobe Analytics y cómo afecta a la actualización a Customer Journey Analytics {#implementation-affects-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement"
 >title="AppMeasurement (archivo JS manual)"
->abstract="Implementación de JavaScript que carga AppMeasurement.js en una página y envía datos a Adobe mediante el objeto s (por ejemplo, s.eVar1)."
+>abstract="Una implementación de JavaScript que carga AppMeasurement.js en una página y envía datos a Adobe mediante el objeto s (por ejemplo, s.eVar 1)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-analyticsextension"
 >title="Extensión de Adobe Analytics (etiquetas)"
->abstract="Implementación de etiquetas que carga la recopilación de datos de Adobe Experience Platform (anteriormente conocida como Launch). La etiqueta tiene instalada la extensión de Adobe Analytics."
+>abstract="Una implementación de etiquetas que carga la recopilación de datos de Adobe Experience Platform (anteriormente conocida como Launch). La etiqueta tiene instalada la extensión de Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk"
 >title="SDK web (alloy.js)"
->abstract="Implementación de JavaScript que carga la biblioteca SDK web (alloy.js) en una página y envía datos a Adobe mediante una carga útil JSON."
+>abstract="Una implementación de JavaScript que carga la biblioteca del SDK web (alloy.js) en una página y envía datos a Adobe mediante una carga útil JSON."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,8 +47,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdkextension"
->title="Extensión de Web SDK (etiquetas)"
->abstract="Implementación de etiquetas que carga la recopilación de datos de Adobe Experience Platform (anteriormente conocida como Launch). La etiqueta tiene instalada la extensión Web SDK."
+>title="Extensión del SDK web (etiquetas)"
+>abstract="Una implementación de etiquetas que carga la recopilación de datos de Adobe Experience Platform (anteriormente conocida como Launch). La etiqueta tiene instalada la extensión del SDK web."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-api"
 >title="API de inserción de datos"
->abstract="Implementación que utiliza la API de inserción de datos o la API de inserción de datos en lote."
+>abstract="Una implementación que utiliza la API de inserción de datos o la API de inserción de datos en lote."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-mobilesdk"
 >title="SDK móvil"
->abstract="Implementación que utiliza Adobe Experience Platform Mobile SDK."
+>abstract="Una implementación que utiliza el SDK móvil de Adobe Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 

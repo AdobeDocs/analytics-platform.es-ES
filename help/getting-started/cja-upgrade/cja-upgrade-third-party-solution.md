@@ -10,7 +10,7 @@ exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 87df2fb92f238ce051ac5f6cc90e218737279471
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
 >title="Un producto de análisis de terceros"
->abstract="Implementación que recopila datos para un producto de análisis de terceros, como Google Analytics. Al seleccionar esta opción, se deshabilitan varias opciones del cuestionario que no se aplican al actualizar a Customer Journey Analytics desde un producto de análisis de terceros."
+>abstract="Una implementación que recopila datos para un producto de análisis de terceros, como Google Analytics. Al seleccionar esta opción, se desactivan varias opciones del cuestionario que no se aplican cuando se actualiza Customer Journey Analytics desde un producto de análisis de terceros."
 
 <!-- markdownlint-enable MD034 -->
 
