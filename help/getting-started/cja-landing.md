@@ -4,10 +4,10 @@ description: Página de aterrizaje de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
-workflow-type: ht
-source-wordcount: '824'
-ht-degree: 100%
+source-git-commit: c29b1b8678579b58c42fce2fc02fffd81c1a633f
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 92%
 
 ---
 
@@ -35,6 +35,13 @@ El asistente de IA es una experiencia conversacional que permite a los profesion
 El análisis guiado ya está disponible directamente desde Analysis Workspace, lo que permite a los usuarios crear paneles con información completa de paneles, visualizaciones y análisis guiados.
 
 [![imagen](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
+
+
+>[!TAB Subtítulos inteligentes v2]
+
+Ahora se admiten subtítulos inteligentes, con mejoras adicionales en la interfaz, para las visualizaciones [Línea](/help/analysis-workspace/visualizations/line.md) (incluidas las de varias líneas), [Barra](/help/analysis-workspace/visualizations/bar.md), [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md), [Área](/help/analysis-workspace/visualizations/area.md) (incluidas las de varias líneas de área), [Anillo](/help/analysis-workspace/visualizations/donut.md), [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md).
+
+[![imagen](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
 >[!TAB Alertas]
 
@@ -73,7 +80,7 @@ Ya están disponibles las nuevas funciones de campos derivados (matemáticas, si
 
 >[!TAB Extensión de BI*]
 
-La extensión de BI habilita el acceso SQL a las vistas de datos que ha definido en Customer Journey Analytics. Ahora puede usar su herramienta de BI favorita para crear informes y tableros basados en las mismas vistas de datos que los usuarios de Customer Journey Analytics utilizan con sus proyectos de Analysis Workspace. Se han proporcionado [casos de uso](/help/use-cases/data-views/bi-extension-usecases.md).
+La extensión de BI habilita el acceso SQL a las vistas de datos que ha definido en Customer Journey Analytics. Ahora puede utilizar su herramienta de BI favorita (Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook y RStudio) para crear informes y paneles basados en las mismas vistas de datos que los usuarios de Customer Journey Analytics utilizan con sus proyectos de Analysis Workspace. Se han proporcionado [casos de uso](/help/use-cases/data-views/bi-extension-usecases.md).
 
 [![imagen](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
