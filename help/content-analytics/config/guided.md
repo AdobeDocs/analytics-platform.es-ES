@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
+source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1911'
 ht-degree: 10%
 
 ---
@@ -148,13 +148,16 @@ Una vista de datos está vinculada a una conexión [Connection](/help/connection
 >title="Captura y definición de experiencias"
 >abstract="Puede editar la configuración en la extensión de Adobe Content Analytics en la propiedad Etiqueta, asociada a la configuración seleccionada."
 
-
-
 <!-- markdownlint-enable MD034 -->
 
 En esta sección, puede seleccionar incluir Experiencias en los datos que recopila con Análisis de contenido.  Una experiencia es todo el texto de una página web que se puede reproducir con la URL utilizada por el usuario inicial que visitó esa página web.
 
 De manera predeterminada, **[!UICONTROL Incluir experiencias]** está desactivado. Al seleccionarlo, debe definir para qué direcciones URL desea incluir experiencias.
+
+Considere la posibilidad de incluir experiencias únicamente cuando se aplique lo siguiente:
+
+* El contenido del sitio se administra únicamente mediante una dirección URL.
+* Las páginas del sitio deben poder reproducirse utilizando la dirección URL de la página.
 
 Para incluir experiencias en una configuración nueva o no implementada:
 
@@ -286,6 +289,7 @@ Cuando ha creado o editado una configuración, están disponibles las siguientes
    * Configuración de **[!UICONTROL Adobe Experience Platform]**:
       1. La creación de esquemas para modelar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
       1. La creación de conjuntos de datos para recopilar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
+      1. Creación de un flujo de datos que utiliza el servicio de personalización para generar y actualizar atributos de contenido a partir de eventos de Content Analytics.
    * Configuración de **[!UICONTROL análisis de contenido]**:
       * Configuración de un proceso de ensamblador de funciones basado en la configuración.
    * Configuración de **[!UICONTROL Customer Journey Analytics]**:
