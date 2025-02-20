@@ -3,16 +3,16 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 419676a446bd04a1d0f7a96ffc564e439db48f54
+source-git-commit: e6f86bf3dee81d70300cb26a1593d0e40966a63b
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 65%
+source-wordcount: '255'
+ht-degree: 67%
 
 ---
 
 # Notas actuales de la versión de Adobe Customer Journey Analytics (febrero de 2025)
 
-**Última actualización**: jueves, 19 de febrero de 2025
+**Última actualización**: viernes, 20 de febrero de 2025
 
 Estas notas de la versión abarcan el periodo de lanzamiento del sábado, 24 de enero de 2025 al miércoles, 18 de marzo de 2025. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,7 +20,9 @@ Estas notas de la versión abarcan el periodo de lanzamiento del sábado, 24 de 
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Extensión de BI: compatibilidad con buscadores** | La extensión de Customer Journey Analytics BI ahora admite [Looker, Jupyter Notebook y R Studio](/help/data-views/bi-extension.md). Los [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) se han actualizado para reflejar las herramientas adicionales admitidas. |   | sábado, 24 de enero de 2025 |
+| **Extensión de BI: compatibilidad ampliada** | La extensión de Customer Journey Analytics BI ahora [admite Looker, Jupyter Notebook y R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases). |   | sábado, 24 de enero de 2025 |
+| **Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de creación de informes de medios** | El conector de origen de Analytics asignará automáticamente los datos de medios de streaming en Adobe Analytics a los mismos campos utilizados por el SDK web. Anteriormente, los datos se asignaban tanto a las ubicaciones antiguas como a las nuevas, pero solo se utilizará la nueva en el futuro. [Más información](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 30 de enero de 2025 |
+
 
 ## Correcciones en Customer Journey Analytics
 
