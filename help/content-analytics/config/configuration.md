@@ -55,12 +55,11 @@ Antes de configurar Análisis de contenido, asegúrese de que se cumplen los sig
    * Tiene una comprensión clara de qué recursos (tipo de) desea capturar el análisis y las perspectivas de participación en el contenido.
 
 
->>
-[!MORELIKETHIS]
->>
-* [Configuración guiada](guided.md)
-* [Configuración manual](manual.md)
-* [Control de acceso](/help/technotes/access-control.md)
+>[!MORELIKETHIS]
+>
+>* [Configuración guiada](guided.md)
+>* [Configuración manual](manual.md)
+>* [Control de acceso](/help/technotes/access-control.md)
 >
 
 
