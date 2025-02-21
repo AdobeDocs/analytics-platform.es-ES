@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
+source-git-commit: 20214cbebd9867a269c96f25f1a2c8b3bfa26a35
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 0%
+source-wordcount: '125'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,16 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-*Y ahora para algo completamente diferente...*
+Este artículo detalla las acciones de configuración manual que puede necesitar para realizar cambios en la implementación de Análisis de contenido. En general, debería usar el [asistente de configuración guiada](guided.md) para realizar cambios en la implementación, pero no todos los cambios se pueden realizar mediante ese asistente de configuración.
+
+Las siguientes acciones de configuración manual están disponibles:
+
+## Publicar
+
+Para activar una configuración de análisis de contenido, debe publicar la propiedad de etiqueta asociada.
+
+
+## Modificar
 
 >[!MORELIKETHIS]
 >
