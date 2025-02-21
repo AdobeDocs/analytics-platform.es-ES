@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
+source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 10%
+source-wordcount: '1991'
+ht-degree: 9%
 
 ---
 
@@ -103,6 +103,11 @@ Cada configuración requiere un nombre único. Por ejemplo, `Example Content Ana
 >id="aca_onboarding_dataview_header_alt"
 >title="Vista de datos"
 >abstract="Seleccione una vista de datos existente de Customer Journey Analytics con la que desee combinar los datos de análisis de contenido.<br/>"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_change"
+>title="Seleccionar vista de datos"
+>abstract="La selección de una nueva vista de datos dará como resultado una actualización de dicha vista de datos para incluir las métricas y dimensiones de Content Analytics. Si es necesario, la conexión asociada también se actualiza para incluir conjuntos de datos de Content Analytics. La conexión y la vista de datos configuradas actualmente para Análisis de contenido no se modifican."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -276,7 +281,7 @@ Una vez que haya proporcionado todos los detalles necesarios, un resumen proporc
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="Advertencia de implementación de incorporación"
->abstract="Esto configurará el análisis de contenido en función parcialmente de la entrada proporcionada en este flujo de trabajo. Otras configuraciones se eligen automáticamente en función de lo que suele resultar útil para el análisis de contenido. Se le recomienda revisar la configuración de cada artefacto para confirmar que cumpla con sus requisitos y directrices. <br/><br/>Tenga en cuenta que no se recopilarán datos hasta que la biblioteca de etiquetas asociada con esta configuración se publique manualmente.<br/><br/>Tenga en cuenta también que, para derivar atributos de imágenes y texto, Adobe recuperará estos atributos mediante la dirección URL capturada en el momento de la visita de los usuarios según la configuración de recopilación de datos implementada."
+>abstract="Si selecciona **[!UICONTROL Implementar]**, configurará Análisis de contenido en función de la entrada proporcionada en este flujo de trabajo. Varias configuraciones se eligen de forma predeterminada en función de lo que generalmente resulta útil para el análisis de contenido, pero usted (como responsable del tratamiento de datos) debe revisar la configuración de cada artefacto para confirmar que la configuración se implementa de acuerdo con su política de privacidad, sus derechos y obligaciones contractuales y los requisitos de consentimiento según la legislación aplicable.<br/><br/>Tenga en cuenta que no se recopilarán datos hasta que la biblioteca de etiquetas asociada con esta configuración se publique manualmente.<br/><br/>Para derivar atributos de imágenes y texto, Adobe recuperará los atributos mediante:<ol><li>La dirección URL capturada en el momento de la visita al sitio del usuario, según la configuración de recopilación de datos y</li><li>Dirección URL donde se aloja la imagen.</li></ol>No debe etiquetar imágenes alojadas en sitios de terceros."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -285,27 +290,25 @@ Cuando ha creado o editado una configuración, están disponibles las siguientes
 
 * **[!UICONTROL Descartar]**: se descartarán todos los cambios realizados al crear una configuración nueva o al editar una existente.
 * **[!UICONTROL Guardar para más tarde]**: se guardan los cambios realizados en una configuración nueva o en una configuración existente que aún no se ha implementado. Puede volver a consultar la configuración en una fase posterior para realizar más cambios o implementar la configuración.
-* **[!UICONTROL Implementar]**: Los cambios realizados en una configuración nueva o en una configuración existente que aún no se ha implementado se guardan e implementan. La implementación consiste en:
+* **[!UICONTROL Implementar]**: La configuración o los cambios realizados en una configuración nueva o en una configuración existente que aún no se ha implementado se guardarán e implementarán. La implementación consiste en:
    * Configuración de **[!UICONTROL Adobe Experience Platform]**:
-      1. La creación de esquemas para modelar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
-      1. La creación de conjuntos de datos para recopilar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
-      1. Creación de un flujo de datos que utiliza el servicio de personalización para generar y actualizar atributos de contenido a partir de eventos de Content Analytics.
-   * Configuración de **[!UICONTROL análisis de contenido]**:
-      * Configuración de un proceso de ensamblador de funciones basado en la configuración.
-   * Configuración de **[!UICONTROL Customer Journey Analytics]**:
-      1. La vista de datos seleccionada se actualiza para incluir la dimensión y las métricas de Análisis de contenido.
-      1. La Conexión asociada a la vista de datos seleccionada se modifica para incluir los conjuntos de datos de atributos y eventos de Content Analytics.
-      1. Las plantillas de informes de Análisis de contenido se añaden a Workspace.
+      * La creación de esquemas para modelar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
+      * La creación de conjuntos de datos para recopilar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
+      * Creación de un flujo de datos que utiliza el servicio de personalización para generar y actualizar atributos de contenido a partir de eventos de Content Analytics.
    * Configuración de **[!UICONTROL recopilación de datos]**:
-      1. La propiedad de etiquetas nueva o existente está configurada para admitir la recopilación de datos de Content Analytics. Esta configuración implica la inclusión de la extensión de Adobe Content Analytics para etiquetas.
-      1. Se crea una secuencia de datos para los eventos de análisis de contenido.
-      1. La extensión de Adobe Content Analytics está configurada para garantizar que los eventos de Content Analytics se envíen al conjunto de datos de Content Analytics.
-      1. Si Web SDK no está configurado para la propiedad Tags, se crea una nueva configuración de Web SDK para enviar únicamente eventos de Content Analytics.
-      1. Si Web SDK está configurado para esta propiedad Tag, no se realizan cambios en la configuración existente de Web SDK.
+      * La propiedad de etiquetas nueva o existente está configurada para admitir la recopilación de datos de Content Analytics. Esta configuración implica la inclusión de la extensión de Adobe Content Analytics para etiquetas.
+      * Se crea una secuencia de datos para los eventos de análisis de contenido.
+      * La extensión de Adobe Content Analytics está configurada para garantizar que los eventos de Content Analytics se envíen al conjunto de datos de Content Analytics.
+      * Si Web SDK no está configurado para la propiedad Tags, se crea una nueva configuración de Web SDK para enviar únicamente eventos de Content Analytics.
+      * Si Web SDK está configurado para esta propiedad Tag, no se realizan cambios en la configuración existente de Web SDK.
+   * Configuración de **[!UICONTROL Customer Journey Analytics]**:
+      * La vista de datos seleccionada se actualiza para incluir la dimensión y las métricas de Análisis de contenido.
+      * La Conexión asociada a la vista de datos seleccionada se modifica para incluir los conjuntos de datos de atributos y eventos de Content Analytics.
+      * Se agrega una plantilla de informes de Análisis de contenido a Workspace.
 * **[!UICONTROL Guardar]**: los cambios realizados en una configuración implementada se guardan y la implementación se actualiza.
 * **[!UICONTROL Salir]**. Sale de la configuración guiada. Todos los cambios realizados en una configuración implementada se descartan.
 
 >[!MORELIKETHIS]
 >
->[Configuración manual de análisis de contenido](manual.md)
+>[Configuración manual](manual.md)
 >
