@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
-workflow-type: ht
-source-wordcount: '4402'
-ht-degree: 100%
+source-git-commit: 1283b285ff49225835abb8e7d8103f34aad686b1
+workflow-type: tm+mt
+source-wordcount: '4649'
+ht-degree: 95%
 
 ---
 
@@ -19,10 +19,17 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Febrero de 2025** |  |
+| Recopilación de medios: actualizaciones del conector de Adobe Source para el nuevo XDM de creación de informes de medios | El Conector de Source de Analytics [asigna automáticamente los datos de medios de streaming de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) a los mismos campos que usa el SDK web. Anteriormente, los datos se asignaban tanto a las ubicaciones antiguas como a las nuevas, pero solo se utilizará la nueva en el futuro. |
+| Extensión de BI: compatibilidad ampliada | La extensión de Customer Journey Analytics BI ahora admite [Looker, Jupyter Notebook y R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en). |
 | **Enero de 2025** |  |
+| Experiencia de uso de Conexiones actualizada | La pestaña [Uso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage) de Connection ahora proporciona visualizaciones mejoradas para estos tipos de filas de informes: datos principales, ingeridos e históricos. También puede ver y desglosar los datos de uso por conexión, conjunto de datos, zona protegida o etiqueta. |
 | Métricas de uso | Se ha actualizado la documentación sobre la interfaz de [métricas de uso](/help/connections/manage-connections.md#usage) mejorada. |
 | Uso del producto | [Uso del producto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/tools/product-usage/usage-overview) le muestra cómo su organización utiliza Customer Journey Analytics. |
 | Análisis guiado | Se ha actualizado la documentación con la disponibilidad de [Análisis guiado](/help/guided-analysis/overview.md) desde el Análisis guiado. |
+| Documentación sobre el uso de plantillas personalizadas de Customer Journey Analytics en la página Informes de Journey Optimizer | Ahora puede personalizar la nueva interfaz de generación de informes en Adobe Journey Optimizer [creando o editando una plantilla en Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en) y, a continuación, guardando la plantilla para usarla en la página Informes en Journey Optimizer. Anteriormente, la nueva interfaz de informes de Adobe Journey Optimizer no se podía personalizar. |
+| Plantillas en Analysis Workspace | [Las plantillas creadas previamente](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates) y [las plantillas de empresa](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/create-templates) ya están disponibles en Customer Journey Analytics. |
+| Subtítulos inteligentes v2 | [Ahora se admiten subtítulos inteligentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en) para las siguientes visualizaciones: Multilínea, Barra, Barra horizontal, Anillo, Área, Flujo y Visitas en el orden previsto. Puede seleccionar mostrar todos los subtítulos inteligentes a la vez en una vista expandida o puede mostrar subtítulos inteligentes individuales en una vista uno a uno. |
 
 ## 2024
 
