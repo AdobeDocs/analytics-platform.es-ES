@@ -4,10 +4,10 @@ title: Métricas
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 17d3e8ed5986348bb4ba50822dfd9bb43d5a7570
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 14%
+source-wordcount: '858'
+ht-degree: 8%
 
 ---
 
@@ -29,70 +29,17 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
 * **Métricas estándar**: Algunas métricas estándar son Personas, Sesiones y Eventos.
 
-  A diferencia de Adobe Analytics, Customer Journey Analytics permite definir métricas estándar de forma flexible dentro del ámbito de una conexión y una vista de datos.
+  Al contrario que Adobe Analytics, Customer Journey Analytics permite definir métricas estándar de forma flexible dentro del ámbito de una conexión y una vista de datos.
 
-   * **Personas**: La métrica Personas del Customer Journey Analytics es el recuento distinto de los ID de persona. Según lo que elija como ID de persona al configurar conjuntos de datos en la conexión, la métrica Personas puede significar cosas diferentes.
-   * **Sesiones**: La métrica Sesiones de Customer Journey Analytics es lo que define como parte de la configuración de Sesiones en la vista de datos. Consulte [Configuración de la sesión](/help/data-views/session-settings.md).
-   * **Eventos**: la métrica Eventos de Customer Journey Analytics está compuesta por los eventos que forman parte de cualquier conjunto de datos de evento que haya configurado como parte de su conexión.
+   * **Personas**: La métrica Personas en Customer Journey Analytics es el recuento distinto de los ID de persona. Según lo que elija como ID de persona al configurar conjuntos de datos en la conexión, la métrica Personas puede significar cosas diferentes.
+   * **Sesiones**: La métrica Sesiones de Customer Journey Analytics es lo que define como parte de la configuración de las Sesiones en la vista de datos. Consulte [Configuración de la sesión](/help/data-views/session-settings.md).
+   * **Eventos**: la métrica Eventos de Customer Journey Analytics consta de los eventos que forman parte de cualquier conjunto de datos de evento que haya configurado como parte de su conexión.
 
 * **Métricas calculadas** ![Calculadora](/help/assets/icons/Calculator.svg): Métricas definidas por el usuario que se basan en métricas estándar, números estáticos o funciones algorítmicas.
 
-* **Plantillas de métricas calculadas** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : Métricas definidas por Adobes que se comportan de manera similar a las métricas calculadas. Puede utilizarlos tal cual en los proyectos de Workspace o guardar una copia para personalizar la lógica. Ver [métricas calculadas predeterminadas](calc-metrics/cm-workflow/../default-calcmetrics.md).
+* **Plantillas de métricas calculadas** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : Métricas definidas por Adobe que se comportan de manera similar a las métricas calculadas. Puede utilizarlos tal cual en los proyectos de Workspace o guardar una copia para personalizar la lógica. Ver [métricas calculadas predeterminadas](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
 Puede ver si una métrica está aprobada ![Icono aprobado](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) o no. Si desea obtener más detalles sobre una métrica, pase el ratón sobre ella y seleccione ![Icono de información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Consulte [Información del componente](use-components-in-workspace.md#component-info) para obtener más información.
-
-
-
-## Métricas calculadas 
-
-Las métricas calculadas permiten configurar fácilmente cómo se relacionan entre sí las métricas mediante operadores simples o funciones estadísticas. Consulte [Resumen de métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md) para obtener más información.
-
-<!--
-
-There are several ways to create calculated metrics. See [Create calculated metrics]()
-
-### Create calculated metrics for all projects
-
-You can use the calculated metric builder to create calculated metrics. When created in this way, calculated metrics are available in the component list and can then be used in projects throughout your organization. 
-
-For information about how to access the calculated metrics builder, see [Build metrics](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
-
-### Create calculated metrics for a single project
-
-You can create quick calculated metrics that are available only for the project where they were created.
-
-To create a calculated metric for a single project:
-
-1. In Analysis Workspace, open the project where you want to create the calculated metric.
-
-1. In a freeform table, select **[!UICONTROL Create metric from selection]** from the context menu in a column header.
-
-   ![Workspace panel highlighting Create from selection](assets/create-metric-from-selection.png)
-
-1. To create a calculated metric for this project only, choose from the following options:
-
-   * [!UICONTROL **Divide**]
-   
-   * [!UICONTROL **Subtract**]
-
-   * [!UICONTROL **Add**]
-
-   * [!UICONTROL **Multiply**]
-
-   Or, to open the calculated metric builder and create the calculated metric for all projects, select [!UICONTROL **Open in Calculated Metric Builder**], then continue with [Build metrics](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
-
-
-<!-- This video really shows an AA example using hits, etc.  Not suitable for CJA... >
-+++ See the following video on how to create an implementation-less calculated metric from within Analysis Workspace.
-
-[Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
-
-
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
-
-+++
-
--->
 
 ## Comparar métricas con diferentes modelos de atribución
 
@@ -101,3 +48,63 @@ Si quiere comparar rápida y fácilmente un modelo de atribución con otro para 
 ![Resaltar el panel de Workspace Comparar modelos de atribución](assets/compare-attribution.png)
 
 Este método abreviado permite comparar rápida y fácilmente modelos de atribución.
+
+## Crear métricas calculadas
+
+Las métricas calculadas permiten configurar fácilmente cómo se relacionan entre sí las métricas, mediante operadores simples o funciones estadísticas. Consulte [Resumen de métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md) para obtener más información.
+
+Existen varias formas de crear métricas calculadas. El método que elija determina si la métrica calculada está disponible en la lista de componentes de todos los proyectos o solo en el proyecto en el que se creó.
+
+### Crear métricas calculadas para todos los proyectos
+
+Puede usar el creador de métricas calculadas para crear métricas calculadas. Cuando se crean de esta manera, las métricas calculadas están disponibles en la lista de componentes y, a continuación, se pueden utilizar en proyectos de toda la organización.
+
+Para obtener información sobre cómo acceder al creador de métricas calculadas, consulte [Crear métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-workflow.md).
+
+### Crear métricas calculadas para un solo proyecto
+
+Puede crear métricas calculadas rápidas que solo estén disponibles para el proyecto en el que se crearon.
+
+Para crear una métrica calculada para un solo proyecto:
+
+1. En Analysis Workspace, abra el proyecto en el que desea crear la métrica calculada.
+
+1. En una tabla de forma libre, haga clic con el botón secundario en el encabezado de columna de una sola columna.
+
+   O
+
+   Seleccione dos columnas mientras mantiene pulsada la tecla Mayús y, a continuación, haga clic con el botón derecho en una de las columnas seleccionadas.
+
+1. Seleccionar **[!UICONTROL Crear métrica a partir de la selección]**
+
+   ![Panel de Workspace resaltando Crear a partir de la selección](assets/create-metric-from-selection.png)
+
+1. Para crear una métrica calculada solo para este proyecto, elija entre las opciones disponibles.
+
+   Cuando se selecciona una sola columna, están disponibles las siguientes opciones:
+
+   * [!UICONTROL **Media**]: crea una nueva columna que muestra el valor medio en el conjunto de elementos de dimensión de la columna. Utiliza la función [Mean](/help/components/calc-metrics/cm-functions.md#mean).
+
+   * [!UICONTROL **Mediana**]: crea una nueva columna que muestra el valor de mediana en el conjunto de elementos de dimensión de la columna. Utiliza la función [Median](/help/components/calc-metrics/cm-functions.md#median).
+
+   * [!UICONTROL **Máximo de columna**]: Crea una nueva columna que muestra el valor más alto del conjunto de elementos de dimensión de la columna. Utiliza la función [Máximo de columna](/help/components/calc-metrics/cm-functions.md#column-maximum).
+
+   * [!UICONTROL **Columna mín.**]: crea una nueva columna que muestra el valor más pequeño del conjunto de elementos de dimensión para la columna. Utiliza la función [Mínimo de columna](/help/components/calc-metrics/cm-functions.md#column-minimum).
+
+   * [!UICONTROL **Suma de columna**]: Crea una nueva columna que agrega todos los valores numéricos de una métrica dentro de una columna (en los elementos de una dimensión). Utiliza la función [Suma de columna](/help/components/calc-metrics/cm-functions.md#column-sum).
+
+   Cuando se seleccionan dos columnas, están disponibles las siguientes opciones:
+
+   * [!UICONTROL **Dividir**]: crea una nueva columna que divide los valores de las dos columnas seleccionadas.
+
+   * [!UICONTROL **Restar**]: crea una nueva columna que resta los valores de las dos columnas seleccionadas.
+
+   * [!UICONTROL **Agregar**]: crea una nueva columna que agrega los valores de las dos columnas seleccionadas.
+
+   * [!UICONTROL **Multiplicar**]: crea una nueva columna que multiplica los valores de las dos columnas seleccionadas.
+
+   * [!UICONTROL **Cambio porcentual**]: crea una nueva columna que muestra el cambio porcentual de las dos columnas seleccionadas.
+
+[Métricas calculadas: métricas sin implementación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=es) (3:42)
+
+
