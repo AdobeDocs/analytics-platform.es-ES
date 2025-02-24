@@ -3,9 +3,9 @@ description: El Generador de métricas calculadas proporciona un lienzo en el qu
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1501'
 ht-degree: 11%
 
 ---
@@ -51,7 +51,7 @@ El cuadro de diálogo **[!UICONTROL Creador de métricas calculadas]** se usa pa
    | Elemento | Descripción |
    | --- | --- |
    | **[!UICONTROL Vista de datos]** | Puede seleccionar la vista de datos de la métrica calculada.  La métrica calculada que defina estará disponible en los proyectos de Workspace en función de la vista de datos seleccionada. |
-   | **[!UICONTROL Métrica solo de proyecto]** | Un cuadro de información para explicar que la métrica solo es visible en el proyecto en el que se crea y que la métrica no se agregará a la lista de componentes. Habilite **[!UICONTROL Ponga esta métrica a disposición de todos sus proyectos y agréguela a su lista de componentes]** para cambiar esa configuración. Este cuadro de información solo está visible cuando crea una métrica en Workspace usando **[!UICONTROL Crear métrica a partir de la selección]** y ha seleccionado una función (como **[!UICONTROL Media]** o **[!UICONTROL Mediana]**). Y más tarde usar la [información de componente](/help/components/use-components-in-workspace.md#component-info) para editar esa métrica creada. |
+   | **[!UICONTROL Métrica solo de proyecto]** | Aparece un cuadro de información en la parte superior de este cuadro de diálogo cuando edita una métrica calculada que se creó para un solo proyecto, como se describe en [Crear métricas calculadas para un solo proyecto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>Si desea que esta métrica calculada esté disponible para todos los proyectos, seleccione la opción **[!UICONTROL Poner esta métrica a disposición de todos los proyectos y agregarla a la lista de componentes]**.</p> |
    | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre a la métrica calculada, por ejemplo, `Conversion Rate`. |
    | **[!UICONTROL ID externo]** ![Requerido](/help/assets/icons/Required.svg) | Nombre de la métrica calculada al utilizar una herramienta de BI externa y la extensión de BI. El valor se define automáticamente como `undefined_xxx` a menos que reemplace el valor. |
    | **[!UICONTROL Descripción]** | Proporcione una descripción para el filtro, por ejemplo, `Calculated metric to define the conversion rate.`. No es necesario describir la fórmula para la métrica calculada, ya que la fórmula ya está disponible automáticamente en [!UICONTROL Resumen]. |
@@ -67,8 +67,8 @@ El cuadro de diálogo **[!UICONTROL Creador de métricas calculadas]** se usa pa
 1. Para comprobar si la definición de la métrica calculada es correcta, use la **[!UICONTROL Vista previa]** actualizada constantemente de los resultados de la métrica calculada. La **[!UICONTROL vista previa]** abarca los últimos 90 días y evalúa la definición de su métrica calculada de manera continua.
 
    La **[!UICONTROL compatibilidad del producto]** indica si la métrica calculada se puede usar en experimentación. Los valores posibles son:
-   * **[!UICONTROL En cualquier lugar del Customer Journey Analytics]**: la métrica calculada se puede usar en todo el Customer Journey Analytics.
-   * **[!UICONTROL En cualquier lugar del Customer Journey Analytics (excluida la experimentación)]**: la métrica calculada se puede usar en todo el Customer Journey Analytics, excepto en el panel Experimentación.
+   * **[!UICONTROL En cualquier lugar de Customer Journey Analytics]**: la métrica calculada se puede usar en todo Customer Journey Analytics.
+   * **[!UICONTROL En cualquier lugar de Customer Journey Analytics (excepto en experimentación)]**: la métrica calculada se puede usar en todo Customer Journey Analytics, excepto en el panel Experimentación.
 
 1. Seleccionar:
    * **[!UICONTROL Guardar]** para guardar la métrica calculada.
@@ -78,7 +78,7 @@ El cuadro de diálogo **[!UICONTROL Creador de métricas calculadas]** se usa pa
 
 ## Generador de definiciones
 
-Puede usar el Generador de definiciones para arrastrar y soltar dimensiones, métricas, filtros y funciones para crear métricas personalizadas basadas en lógica, reglas y operadores de jerarquía de contenedor. En esa construcción, puede utilizar métricas estándar, métricas definidas por Adobes, métricas calculadas, filtros, dimensiones y funciones. Todos estos componentes están disponibles en el panel de componentes del Creador de métricas calculadas. Además, puede utilizar operadores y contenedores en la definición.
+Puede usar el Generador de definiciones para arrastrar y soltar dimensiones, métricas, filtros y funciones para crear métricas personalizadas basadas en lógica, reglas y operadores de jerarquía de contenedor. En esa construcción, puede utilizar métricas estándar, métricas definidas por Adobe, métricas calculadas, filtros, dimensiones y funciones. Todos estos componentes están disponibles en el panel de componentes del Creador de métricas calculadas. Además, puede utilizar operadores y contenedores en la definición.
 
 ![Crear métrica calculada](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
 
@@ -138,8 +138,8 @@ Utiliza el concepto de contenedor de filtros para crear una [métrica filtrada](
 
 * Para agregar un contenedor de filtro desde una dimensión:
 
-   1. Arrastre y suelte un componente ![Dimension](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimension]** del panel Componentes en **[!UICONTROL Arrastre y suelte aquí métricas, dimensiones, elementos de dimensión, filtros o funciones]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
-   1. En la ventana emergente **[!UICONTROL Crear filtro a partir del Dimension]**, defina la condición para el filtro. Seleccione en la lista de operadores y seleccione un valor o introduzca un valor. Por ejemplo, **[!UICONTROL Mes]** **[!UICONTROL es igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+   1. Arrastre y suelte un componente ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** del panel de componentes en **[!UICONTROL Arrastre y suelte aquí métricas, dimensiones, elementos de dimensión, filtros o funciones]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+   1. En la ventana emergente **[!UICONTROL Crear filtro a partir de Dimension]**, defina la condición del filtro. Seleccione en la lista de operadores y seleccione un valor o introduzca un valor. Por ejemplo, **[!UICONTROL Mes]** **[!UICONTROL es igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
    1. Seleccione **[!UICONTROL Listo]**. Se agregó un contenedor de filtro a **[!UICONTROL Definition]**.
 
 
