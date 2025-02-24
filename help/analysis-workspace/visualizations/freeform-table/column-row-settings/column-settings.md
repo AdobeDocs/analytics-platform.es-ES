@@ -4,7 +4,7 @@ title: Configuración de columna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 21%
@@ -57,7 +57,7 @@ El formato condicional aplica formato que puede definir a los límites superior,
 
 | Opciones de formato condicional | Descripción |
 | --- | --- |
-| **[!UICONTROL límites porcentuales de uso]** | Cambie el rango de límite en función de los porcentajes, no en función de los valores absolutos. El rango de límite de porcentaje funciona para métricas que solo están basadas en porcentajes (como la Tasa de salida hacia otro sitio) y para métricas que tienen un recuento y un porcentaje (como las Vistas de la página). |
+| **[!UICONTROL Usar límites porcentuales]** | Cambie el rango de límite en función de los porcentajes, no en función de los valores absolutos. El rango de límite de porcentaje funciona para métricas que solo están basadas en porcentajes (como la Tasa de salida hacia otro sitio) y para métricas que tienen un recuento y un porcentaje (como las Vistas de la página). |
 | **[!UICONTROL Generado automáticamente]** | Calcule automáticamente los límites superior/medio/inferior en función de los datos. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
 | **[!UICONTROL Personalizado]** | Asigne manualmente **[!UICONTROL límite superior]**, **[!UICONTROL punto medio]** y **[!UICONTROL límite inferior]**. Los límites proporcionan la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
 | **[!UICONTROL Paleta de formato condicional]** | Aplique un conjunto de colores preconfigurado a las celdas. En función de cuál de los cuatro esquemas de color disponibles seleccione, se asignan distintos colores a valores altos, valores medios y valores bajos. <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
