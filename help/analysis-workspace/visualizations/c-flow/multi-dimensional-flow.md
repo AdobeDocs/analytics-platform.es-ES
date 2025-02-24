@@ -4,7 +4,7 @@ title: Flujos interdimensionales
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
 role: User
-source-git-commit: 80522177d5258e4b5046b3872483ce2b482ae77d
+source-git-commit: 1eeba4dc9de52f2890cf25794e767f199a4aa04c
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 7%
@@ -37,7 +37,7 @@ Para explorar la interacción entre pantallas y tipos de eventos (como agregar a
 
   ![Flujo que muestra la dimensión Página arrastrada al espacio en blanco al final.](assets/flowapp-add.png)
 
-La visualización de flujo siguiente muestra el resultado de agregar la dimensión **[!UICONTROL tipos de eventos]**. La visualización proporciona perspectivas sobre cómo los usuarios de aplicaciones móviles se mueven por varias pantallas de la aplicación antes de añadir productos al carro de compras, cerrar la aplicación, presentar una oferta y mucho más.
+La siguiente visualización de flujo muestra el resultado de agregar la dimensión **[!UICONTROL Tipos de eventos]**. La visualización proporciona perspectivas sobre cómo los usuarios de aplicaciones móviles se mueven por varias pantallas de la aplicación antes de añadir productos al carro de compras, cerrar la aplicación, presentar una oferta y mucho más.
 
 ![Un valor fLow que muestra los resultados de la dimensión Página en la parte superior de la lista.](assets/flowapp-result.png)
 
