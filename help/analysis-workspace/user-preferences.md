@@ -143,7 +143,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
->title="Métrica predeterminada de tabla"
+>title="Métrica predeterminada de la tabla"
 >abstract="Seleccione la métrica predeterminada que se utilizará en las tablas improvisadas. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambiará automáticamente a otra métrica principal."
 
 
@@ -161,7 +161,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | --- | --- | --- |
 | **Tabla** | | |
 | | Tipo de tabla | <ul><li>De forma libre</li><li>Generador de tablas</li></ul> |
-| | Métrica predeterminada de tabla | <ul><li>Ocurrencias</li><li>Visitantes únicos</li><li>Visitas</li></ul> |
+| | Métrica predeterminada de la tabla | <ul><li>Ocurrencias</li><li>Visitantes únicos</li><li>Visitas</li></ul> |
 | | Dimensión predeterminada de tabla | Elija entre Minuto, Hora, Día, Semana, Mes, Trimestre o Año. |
 | | Alinear fechas | Seleccione esta opción para alinear fechas de cada columna con todas a partir de la misma fila. |
 | **[Columna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
@@ -185,12 +185,12 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
->title="Métrica predeterminada de tabla"
+>title="Métrica predeterminada de la tabla"
 >abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones de flujo. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización de flujo cambiará automáticamente a otro contenedor principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
->title="Métrica predeterminada de tabla"
+>title="Métrica predeterminada de la tabla"
 >abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones de visitas en el orden previsto. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización de visitas en el orden previsto cambiará automáticamente a otro contenedor principal."
 
 Puede actualizar las preferencias de visualización para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
