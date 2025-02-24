@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 023e7dda53cc60096076599d30a8dd78db1bfbd7
+source-git-commit: 4650718a067f68d4edfad3db71e822898f661648
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 9%
@@ -284,7 +284,6 @@ Una vez que haya proporcionado todos los detalles necesarios, un resumen proporc
 >abstract="Si selecciona **[!UICONTROL Implementar]**, configurará Análisis de contenido en función de la entrada proporcionada en este flujo de trabajo. Varias configuraciones se eligen de forma predeterminada en función de lo que generalmente resulta útil para el análisis de contenido, pero usted (como responsable del tratamiento de datos) debe revisar la configuración de cada artefacto para confirmar que la configuración se implementa de acuerdo con su política de privacidad, sus derechos y obligaciones contractuales y los requisitos de consentimiento según la legislación aplicable.<br/><br/>Tenga en cuenta que no se recopilarán datos hasta que la biblioteca de etiquetas asociada con esta configuración se publique manualmente.<br/><br/>Para derivar atributos de imágenes y texto, Adobe recuperará los atributos mediante:<ol><li>La dirección URL capturada en el momento de la visita al sitio del usuario, según la configuración de recopilación de datos y</li><li>Dirección URL donde se aloja la imagen.</li></ol>No debe etiquetar imágenes alojadas en sitios de terceros."
 
 <!-- markdownlint-enable MD034 -->
-
 
 Cuando ha creado o editado una configuración, están disponibles las siguientes acciones.
 
