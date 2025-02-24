@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 59%
+source-wordcount: '482'
+ht-degree: 53%
 
 ---
 
@@ -31,6 +31,15 @@ ht-degree: 59%
 >id="cja-upgrade-activity-map"
 >title="Superposición de Activity Map y seguimiento de vínculos"
 >abstract="Una extensión del explorador que permite ver los datos de seguimiento de vínculos como una superposición en el sitio."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-activity-map-support"
+>title="La compatibilidad con la superposición de Activity Map aún no está disponible"
+>abstract="La compatibilidad con superposiciones de Activity Map aún no está disponible en Customer Journey Analytics. Está previsto que esté disponible en el futuro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -76,6 +85,15 @@ ht-degree: 59%
 >id="cja-upgrade-streaming-media"
 >title="Datos de medios de streaming"
 >abstract="Un complemento de Adobe Analytics que está especializado en la recopilación de datos de medios, como audio, vídeo o contenido transmitido."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-component-migration"
+>title="Migrar proyectos y componentes"
+>abstract="Lleve los proyectos de Adobe Analytics y sus componentes asociados a Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

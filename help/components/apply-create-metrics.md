@@ -4,9 +4,9 @@ title: Métricas
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
+source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '864'
 ht-degree: 8%
 
 ---
@@ -43,11 +43,11 @@ Puede ver si una métrica está aprobada ![Icono aprobado](https://spectrum.adob
 
 ## Comparar métricas con diferentes modelos de atribución
 
-Si quiere comparar rápida y fácilmente un modelo de atribución con otro para una métrica, seleccione **[!UICONTROL Comparar modelos de atribución]** en el menú contextual de una métrica.
+Para comparar rápidamente un modelo de atribución con otro para una métrica, seleccione **[!UICONTROL Comparar modelos de atribución]** en el menú contextual de una métrica.
 
 ![Resaltar el panel de Workspace Comparar modelos de atribución](assets/compare-attribution.png)
 
-Este método abreviado permite comparar rápida y fácilmente modelos de atribución.
+Este método abreviado permite comparar un modelo de atribución con otro sin tener que arrastrar una métrica y configurarla dos veces.
 
 ## Crear métricas calculadas
 

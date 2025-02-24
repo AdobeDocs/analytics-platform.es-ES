@@ -5,9 +5,9 @@ exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
-source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 51%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
 >title="Añadir conjuntos de datos adicionales a la conexión"
->abstract="Una vez que haya agregado datos a un conjunto de datos en Adobe Experience Platform, puede agregarlos a su conexión en Customer Journey Analytics. Asegúrese de que, al añadir datos de otros canales, se adhieran al esquema que utiliza su organización.<br><br>Cada conjunto de datos que agregue requiere una gran cantidad de trabajo, especialmente para garantizar que el identificador único exista para cada evento y para garantizar que la estructura de datos general se ajuste al esquema personalizado de su organización. El establecimiento de este flujo de trabajo puede llevar varios meses coordinar muchos equipos de la organización."
+>abstract="Después de agregar datos a un conjunto de datos en Adobe Experience Platform, puede agregarlo a su conexión en Customer Journey Analytics. Asegúrese de que, al añadir datos de otros canales, se adhieran al esquema que utiliza su organización.<br><br>Cada conjunto de datos que agregue requiere una gran cantidad de trabajo, especialmente para garantizar que el identificador único exista para cada evento y para garantizar que la estructura de datos general se ajuste al esquema personalizado de su organización. El establecimiento de este flujo de trabajo puede llevar varios meses coordinar muchos equipos de la organización."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ El análisis en canales múltiples permite una sola vista consolidada del compor
 
 1. [Cree esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es) para introducir los datos.
 1. [Cree conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para incorporar los datos.
-1. [Ingresar datos en el Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=es):
+1. [Ingesta de datos en Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=es):
    1. Datos basados en eventos ![event](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) del sitio web o la aplicación móvil a través del conector de origen de Edge Network o Analytics.
    2. Datos de perfil ![perfil](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (por ejemplo, de un sistema CRM, aplicación de centro de llamadas, aplicación de fidelidad).
    3. Datos de búsqueda ![lookup](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (por ejemplo, nombre de producto, categoría de un sistema de información de productos).
@@ -40,7 +40,7 @@ El análisis en canales múltiples permite una sola vista consolidada del compor
 1. Realice cualquier preparación de datos personalizada para asegurarse de que se incorpora una clave común en los conjuntos de datos de series temporales en Customer Journey Analytics.
 1. Asigne un ID principal a los datos de búsqueda que pueda unirse a un campo en los datos de evento. Cuenta como filas en licencias.
 1. Establezca el mismo ID principal para los datos de perfil que el ID principal de los datos de evento.
-1. [Cree una conexión](../../connections/overview.md) para introducir los conjuntos de datos relevantes de Experience Platform a Customer Journey Analytics.
+1. [Cree una conexión](../../connections/overview.md) para ingerir los conjuntos de datos relevantes de Experience Platform a Customer Journey Analytics.
 1. [Cree una vista de datos](/help/data-views/create-dataview.md) con la conexión para seleccionar las dimensiones y métricas específicas que se incluirán en la vista. La configuración de atribución y asignación también se configura en la vista de datos. Estas configuraciones se calculan en el momento del informe.
 1. [Cree un proyecto](/help/analysis-workspace/home.md) para configurar tableros e informes en Analysis Workspace.
 

@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
+source-git-commit: 892dffd831abd46c44c12bd6743a358e3cbd741d
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 15%
@@ -35,7 +35,7 @@ Si su organización ya ha actualizado a Customer Journey Analytics utilizando ú
 
 ## Comprenda las ventajas y desventajas de utilizar el conector de origen de Analytics exclusivamente
 
-Para obtener información acerca de las ventajas y desventajas de usar el conector de origen de Analytics, vea [Usar el conector de origen de Analytics exclusivamente para actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md).
+Para obtener información acerca de las ventajas y desventajas de usar el conector de origen de Analytics, vea [Usar el conector de origen de Analytics exclusivamente para actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md).
 
 ## Transición del conector de origen de Analytics a Web SDK
 

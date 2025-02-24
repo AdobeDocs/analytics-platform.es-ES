@@ -7,21 +7,21 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
+source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
-# Evalúe cuánto tiempo necesita Adobe Analytics después de actualizar a Customer Journey Analytics {#evaluate-aa-needs}
+# Evaluar cuándo deshabilitar Adobe Analytics después de actualizar a Customer Journey Analytics {#evaluate-aa-needs}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-fully-move"
 >title="Cambio total a Customer Journey Analytics"
->abstract="(Recomendado) Customer Journey Analytics pretende ser la principal herramienta de análisis de su organización. Sin embargo, es posible que su organización siga necesitando Adobe Analytics si depende en gran medida de funciones exclusivas de la herramienta y esos flujos de trabajo no se pueden modificar."
+>abstract="(Recomendado) Adobe recomienda realizar la transición completa de Adobe Analytics a Customer Journey Analytics. Durante el período de transición, debe planificar la ejecución de Adobe Analytics junto con Customer Journey Analytics para realizar comparaciones de datos en paralelo. Cuando se sienta cómodo con los datos, puede deshabilitar Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
