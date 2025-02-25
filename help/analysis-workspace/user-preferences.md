@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: ef93e386e3c3e64a022805dcf8674b7fddf361a5
+source-git-commit: 827ab36b27eee1b0af46ff1c653f13b1accfe105
 workflow-type: tm+mt
-source-wordcount: '3635'
+source-wordcount: '3632'
 ht-degree: 95%
 
 ---
@@ -185,22 +185,22 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
->title="Métrica predeterminada de la tabla"
+>title="Contenedor predeterminado"
 >abstract="Seleccione el contenedor predeterminado que se usará para las visualizaciones [!UICONTROL Flujo]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización [!UICONTROL Flujo] cambiará automáticamente a otro contenedor principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
->title="Métrica predeterminada de la tabla"
+>title="Contenedor predeterminado"
 >abstract="Seleccione el contenedor predeterminado que se usará para las visualizaciones de [!UICONTROL visitas en el orden previsto]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización [!UICONTROL Visitas en el orden previsto] cambiará automáticamente a otro contenedor principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulthistogramcountingmethod"
->title="Métrica predeterminada de la tabla"
+>title="Método de recuento predeterminado"
 >abstract="Seleccione el método de recuento predeterminado que se usará para las visualizaciones de [!UICONTROL Histograma]. Si la vista de datos seleccionada no contiene el método de contabilización predeterminado seleccionado, la visualización [!UICONTROL Histograma] cambiará automáticamente a otro método de contabilización principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultjourneycanvascontainer"
->title="Métrica predeterminada de la tabla"
+>title="Contenedor predeterminado"
 >abstract="Seleccione el contenedor predeterminado que se usará para las visualizaciones [!UICONTROL lienzo de Recorrido]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización [!UICONTROL lienzo de Recorrido] cambiará automáticamente a otro contenedor principal."
 
 
