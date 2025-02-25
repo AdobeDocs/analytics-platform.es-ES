@@ -4,10 +4,10 @@ title: Coherencia de las métricas y abono a públicos
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 7c906e30d54362713f5013c8661ee523938d4b0f
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,8 @@ Al comparar los recuentos de miembros de audiencia entre Real-time CDP y Custome
 
 Real-time CDP y Customer Journey Analytics no comparten la misma definición de una persona en la actualidad. Real-time CDP se basa completamente en la información del [gráfico de identidad](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=es) para crear un perfil combinado.
 
-Customer Journey Analytics se puede configurar para usar la [Identificación](../stitching/overview.md), que extrae identificadores de conjuntos de datos en el lago de datos y aplica lógica personalizada para vincularlos juntos.
+Customer Journey Analytics se puede configurar para usar [vinculación](../stitching/overview.md). Si usa [Vinculación basada en el campo](/help/stitching/fbs.md) como mecanismo de vinculación, especifique un identificador de un conjunto de datos en el lago de datos para vincular los datos de ese conjunto de datos con el propósito de elevar el conjunto de datos con perfiles combinados mejorados. Si usas [vinculación basada en gráficos](/help/stitching/gbs.md) como mecanismo de vinculación, un proceso similar está usando el gráfico de identidad, basado en un área de nombres de identidad especificada.
 
-En el futuro, Customer Journey Analytics podrá utilizar el gráfico de identidad.
 
 ## Diferencias en la configuración del conjunto de datos
 
