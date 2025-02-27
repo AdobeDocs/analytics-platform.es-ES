@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 6%
+source-wordcount: '758'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create"
->title="Creación del conector de origen de Analytics"
+>title="Cree el conector de origen de Analytics"
 >abstract="Utilice el conector de origen de Analytics para introducir datos de grupos de informes y utilizarlos en Customer Journey Analytics.<br><br>La creación del conector de origen de Analytics tarda unos minutos con la configuración predeterminada."
 
 <!-- markdownlint-enable MD034 -->
@@ -34,11 +34,7 @@ ht-degree: 6%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+{{upgrade-note-step}}
 
 ## Descubra cómo el conector de origen de Analytics puede llevar datos históricos a Customer Journey Analytics
 

@@ -1,5 +1,5 @@
 ---
-title: Crear un esquema para el Customer Journey Analytics
+title: Creación de un esquema para Customer Journey Analytics
 description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 26%
+source-wordcount: '287'
+ht-degree: 36%
 
 ---
 
@@ -20,16 +20,12 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-addplatform-datastream"
->title="Añadir Adobe Experience Platform como servicio al conjunto de datos"
+>title="Añadir Adobe Experience Platform como servicio a la secuencia de datos"
 >abstract="Un conjunto de datos necesita uno o más servicios para enviar datos a. Configure Adobe Experience Platform como servicio en el conjunto de datos.<br><br>Agregar servicios a una secuencia de datos es un proceso sencillo que sólo tarda unos minutos en completarse."
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+{{upgrade-note-step}}
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
@@ -37,7 +33,7 @@ Debe existir una secuencia de datos antes de completar los pasos de esta secció
 
 * Si la implementación de Adobe Analytics utiliza Web SDK o la extensión Web SDK, el conjunto de datos estaba disponible para el entorno de Adobe Analytics antes del proceso de actualización.
 
-* Para otras implementaciones de Adobe Analytics, la creación de un conjunto de datos forma parte del proceso de actualización, tal como se describe en [Crear un conjunto de datos para utilizarlo con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
+* Para otras implementaciones de Adobe Analytics, la creación de un conjunto de datos forma parte del proceso de actualización, tal como se describe en [Crear un conjunto de datos para usar con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
 
 Con la secuencia de datos disponible, debe agregar Platform como servicio:
 

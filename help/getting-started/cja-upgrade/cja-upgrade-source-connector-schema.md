@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '561'
 ht-degree: 3%
 
 ---
@@ -25,19 +25,15 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+{{upgrade-note-step}}
 
 ## Descubra cómo el conector de origen de Analytics puede llevar datos históricos a Customer Journey Analytics
 
 Puede utilizar el conector de origen de Analytics para incorporar datos del grupo de informes de Adobe Analytics a Adobe Experience Platform. Estos datos se pueden utilizar como datos históricos en Customer Journey Analytics.
 
-Este proceso supone que desea [crear un esquema personalizado para utilizarlo con la implementación de Web SDK de su Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones de Platform específicas que utiliza.
+Este proceso supone que desea [crear un esquema personalizado para utilizarlo con su implementación de Customer Journey Analytics Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), ya que desea un esquema optimizado que se adapte a las necesidades de su organización y a las aplicaciones específicas de Platform que utiliza.
 
-Para utilizar el conector de origen de Analytics para llevar los datos históricos a Customer Journey Analytics, debe:
+Para utilizar el conector de origen de Analytics para introducir datos históricos en Customer Journey Analytics, debe:
 
 1. Cree un esquema personalizado para el conector de origen de Analytics, como se describe a continuación.
 
@@ -51,7 +47,7 @@ Para utilizar el conector de origen de Analytics para llevar los datos históric
 
 ## Creación de un esquema personalizado para el conector de origen de Analytics
 
-Ya debería haber [creado un nuevo esquema personalizado](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) para su implementación de Experience Platform Web SDK para utilizarlo con Customer Journey Analytics. Este esquema debe contener cualquier grupo de campos para los campos en los que planee recopilar datos.
+Ya debería haber [creado un nuevo esquema personalizado](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) para su implementación de Experience Platform Web SDK para usarlo con Customer Journey Analytics. Este esquema debe contener cualquier grupo de campos para los campos en los que planee recopilar datos.
 
 Ahora debe utilizar esos mismos grupos de campos del esquema de Web SDK y agregarlos a un nuevo esquema que pueda utilizar con el conector de origen de Analytics.
 
@@ -63,7 +59,7 @@ Este esquema para el conector de origen de Analytics debe contener:
 
 Para crear el esquema personalizado que se utilizará con el conector de origen de Analytics:
 
-1. En Adobe Experience Platform, empiece a crear un nuevo esquema personalizado como se describe en [Cree un esquema personalizado para utilizarlo con la implementación de Customer Journey Analytics Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+1. En Adobe Experience Platform, empiece a crear un nuevo esquema personalizado como se describe en [Cree un esquema personalizado para utilizarlo con su implementación de Customer Journey Analytics Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
 
 1. Añada todos los grupos de campos (incluidos los grupos de campos personalizados) que se incluyen en el esquema creado para la implementación de Web SDK.
 

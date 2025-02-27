@@ -1,5 +1,5 @@
 ---
-title: Crear un esquema para el Customer Journey Analytics
+title: Creación de un esquema para Customer Journey Analytics
 description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f76d098d-d223-40e4-be81-d28e7581396b
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 20%
+source-wordcount: '234'
+ht-degree: 28%
 
 ---
 
@@ -20,16 +20,12 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-datastream-create"
->title="Creación de una secuencia de datos en Adobe Experience Platform"
+>title="Crear una secuencia de datos en Adobe Experience Platform"
 >abstract="Un conjunto de datos es una ubicación intermedia que pasa los datos a todos los servicios configurados. Cree esta ubicación en Adobe Experience Platform.<br><br>La creación inicial de un conjunto de datos en la interfaz de Platform tarda sólo unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+{{upgrade-note-step}}
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 

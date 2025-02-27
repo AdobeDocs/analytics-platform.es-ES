@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -42,11 +42,13 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-El proceso recomendado para actualizar de Adobe Analytics a Customer Journey Analytics es una nueva implementación de Experience Platform Web SDK, que es el método de recopilación de datos preferido de Customer Journey Analytics.
+{{upgrade-note}}
+
+El proceso recomendado para actualizar de Adobe Analytics a Customer Journey Analytics es una nueva implementación de Experience Platform Web SDK, que es el método de recopilación de datos preferido para Customer Journey Analytics.
 
 Existen tres formas compatibles de utilizar Adobe Experience Platform Web SDK:
 
-* [Extensión de etiquetas Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/extension): El Adobe recomienda utilizar este método. Instale un cargador de etiquetas en el sitio y, a continuación, utilice la IU de recopilación de datos de Adobe Experience Platform para configurar la implementación.
+* [Extensión de etiquetas Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/extension): Adobe recomienda utilizar este método. Instale un cargador de etiquetas en el sitio y, a continuación, utilice la IU de recopilación de datos de Adobe Experience Platform para configurar la implementación.
 
 * [Biblioteca Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library): Haga referencia a un archivo de biblioteca alojado en CDN o aloje el archivo de biblioteca utilizando su propia infraestructura. Realice llamadas a la biblioteca dentro del código del sitio.
 

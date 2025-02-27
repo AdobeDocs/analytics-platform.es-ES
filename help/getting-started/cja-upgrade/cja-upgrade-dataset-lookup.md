@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 3%
 
 ---
 
@@ -20,16 +20,12 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-lookup-dataset-create"
->title="Cree un conjunto de datos de búsqueda para cada dimensión que contenga datos de clasificación"
+>title="Crear un conjunto de datos de consulta para cada dimensión que contenga datos de clasificación"
 >abstract="De forma similar a los datos de clasificaciones en Adobe Analytics, los conjuntos de datos de búsqueda son el método para clasificar datos en Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+{{upgrade-note-step}}
 
 De forma similar a los datos de clasificaciones en Adobe Analytics, los conjuntos de datos de búsqueda son el método para clasificar datos en Customer Journey Analytics.
 
@@ -71,7 +67,7 @@ Después de [crear un esquema personalizado](#create-a-custom-schema-to-use-with
 
 Repita este proceso para cada dimensión que contenga datos que desee clasificar.
 
-Para crear un conjunto de datos de consulta para utilizarlo con un esquema en el Customer Journey Analytics:
+Para crear un conjunto de datos de consulta para utilizarlo con un esquema en Customer Journey Analytics:
 
 >[!NOTE]
 >
@@ -101,13 +97,13 @@ Para crear un conjunto de datos de consulta para utilizarlo con un esquema en el
 
    Platform proporciona automáticamente recomendaciones inteligentes para campos asignados automáticamente en función del esquema o el conjunto de datos de destino seleccionado. Puede ajustar manualmente las reglas de asignación para adaptarlas a sus casos de uso.
 
-   Para obtener más información sobre el proceso de asignación, consulte [Asignar un archivo CSV a un esquema XDM existente](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) en la documentación de Experience Platform.
+   Para obtener más información sobre el proceso de asignación, consulte [Asignación de un archivo CSV a un esquema XDM existente](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) en la documentación de Experience Platform.
 
 1. Seleccione **[!UICONTROL Finalizar]**.
 
-1. Continúe con [Agregue el conjunto de datos de búsqueda a su conexión en el Customer Journey Analytics](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics).
+1. Continúe con [Agregue el conjunto de datos de búsqueda a su conexión en Customer Journey Analytics](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics).
 
-## Agregue el conjunto de datos de búsqueda a la conexión en Customer Journey Analytics
+## Añadir el conjunto de datos de búsqueda a la conexión en Customer Journey Analytics
 
 Después de [crear un esquema personalizado](#create-a-custom-schema-to-use-with-the-lookup-dataset) y [crear un conjunto de datos de consulta](#create-a-lookup-dataset), debe agregar el conjunto de datos de consulta a su conexión en Customer Journey Analytics.
 
@@ -125,7 +121,7 @@ Para agregar el conjunto de datos de búsqueda a la conexión en Customer Journe
 
 1. En el cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]**, seleccione el conjunto de datos de búsqueda que ha creado y, a continuación, seleccione **[!UICONTROL Siguiente]**.
 
-1. En el campo **[!UICONTROL ID de persona]**, seleccione un ID de persona de las identidades disponibles definidas en el esquema del conjunto de datos que configuró en Experience Platform. <!-- fill out other fields? -->
+1. En el campo **[!UICONTROL ID de persona]**, seleccione un ID de persona de las identidades disponibles definidas en el esquema de su conjunto de datos que configuró en Experience Platform. <!-- fill out other fields? -->
 
 1. Seleccione **[!UICONTROL Agregar conjuntos de datos]** y luego seleccione **[!UICONTROL Guardar]**.
 

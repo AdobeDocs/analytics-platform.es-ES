@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 2b66e2db9b22bab5304fe981e58828d4ae9fabbd
+exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '833'
 ht-degree: 19%
 
 ---
@@ -24,9 +25,7 @@ ht-degree: 19%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Use la información de esta página para responder preguntas en la [lista de comprobación de actualización de Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 Al actualizar a Customer Journey Analytics, Adobe [recomienda una nueva implementación de Experience Platform Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Sin embargo, dependiendo de varios factores, como el calendario y las restricciones de recursos, los pasos de actualización recomendados podrían no ser prácticos para su organización.
 
@@ -73,4 +72,3 @@ Los pasos básicos para migrar una implementación de Adobe Analytics (ya sea Ap
    1. Utilice la asignación de secuencia de datos para asignar todos los campos del objeto de datos al esquema XDM.
 
       Para obtener más información, consulte [Asignación](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) en [Preparación de datos para la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) en la documentación de Experience Platform.
-

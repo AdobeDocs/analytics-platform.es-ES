@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
+source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 37%
+source-wordcount: '1265'
+ht-degree: 40%
 
 ---
 
-# Cree un esquema personalizado para utilizarlo con su implementación de Customer Journey Analytics Web SDK {#create-custom-schema}
+# Crear un esquema personalizado para utilizarlo con Customer Journey Analytics {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -38,16 +38,12 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
->title="Habilite el esquema para el perfil"
+>title="Habilitar el esquema para el perfil"
 >abstract="Habilite el perfil en su esquema para utilizarlo en Adobe Real-time CDP. Este paso aparece porque ha seleccionado el deseo de integración con Adobe Real-time CDP.<br><br>Dado que este paso implica hacer clic en un solo cuadro, este paso solo dura unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+{{upgrade-note-step}}
 
 >[!IMPORTANT]
 >

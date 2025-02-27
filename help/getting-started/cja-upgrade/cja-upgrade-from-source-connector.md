@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 892dffd831abd46c44c12bd6743a358e3cbd741d
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '445'
 ht-degree: 15%
 
 ---
@@ -25,13 +25,11 @@ ht-degree: 15%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Use la información de esta página para responder preguntas en la [lista de comprobación de actualización de Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 El uso del conector de origen de Analytics como única implementación para Customer Journey Analytics presenta desventajas inherentes.
 
-Si su organización ya ha actualizado a Customer Journey Analytics utilizando únicamente la implementación del conector de origen de Analytics, Adobe recomienda realizar la transición a una implementación que utilice el conector de origen de Analytics (para datos históricos), junto con una nueva implementación de Web SDK (para la recopilación continua de datos).
+Si su organización ya ha actualizado a Customer Journey Analytics utilizando únicamente la implementación del conector de origen de Analytics, Adobe recomienda realizar la transición a una nueva implementación de Web SDK para la recopilación de datos continua y utilizar el conector de origen de Analytics solo para los datos históricos.
 
 ## Comprenda las ventajas y desventajas de utilizar el conector de origen de Analytics exclusivamente
 

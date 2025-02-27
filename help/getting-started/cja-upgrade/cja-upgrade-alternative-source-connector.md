@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
-source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 22%
+source-wordcount: '413'
+ht-degree: 23%
 
 ---
 
@@ -25,9 +25,7 @@ ht-degree: 22%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Use la información de esta página para responder preguntas en la [lista de comprobación de actualización de Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 Aunque no se recomienda, puede utilizar el conector de origen de Analytics como la única ruta de implementación para Customer Journey Analytics. Sin embargo, debido a las desventajas inherentes asociadas con este tipo de actualización, Adobe recomienda utilizar el conector de origen de Analytics junto con una nueva implementación de Experience Platform Web SDK. Para obtener más información sobre esta ruta de actualización recomendada, consulte [Ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 

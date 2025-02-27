@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 28%
+source-wordcount: '296'
+ht-degree: 37%
 
 ---
 
@@ -20,20 +20,16 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-loader"
->title="Implementación de la etiqueta de carga en el sitio"
+>title="Implemente la etiqueta de carga en su sitio"
 >abstract="Trabaje con el equipo de desarrollo del sitio web para instalar la etiqueta de carga en cada página del sitio.<br><br>El tiempo de finalización de esta tarea depende en gran medida del tiempo de respuesta del equipo de ingeniería con el que trabaje para implementar el código. Algunas organizaciones que tienen equipos de ingeniería altamente adaptables pueden completar este paso en días, mientras que los equipos de ingeniería con un registro de tareas pendientes extenso pueden tardar un mes o más."
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.
+{{upgrade-note-step}}
 
 Debe instalar la etiqueta en el sitio web que desee rastrear, lo que implica colocar un código en la etiqueta de encabezado de la plantilla del sitio web.
 
-El siguiente proceso describe cómo obtener el código que hace referencia a la etiqueta. Para obtener información adicional, consulte las [Guías de implementación para etiquetas y reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides) en la documentación del Experience Platform.
+El siguiente proceso describe cómo obtener el código que hace referencia a la etiqueta. Para obtener información adicional, consulte las [Guías de implementación para etiquetas y reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides) en la documentación de Experience Platform.
 
 Para obtener el código que hace referencia a la etiqueta, debe hacer lo siguiente:
 

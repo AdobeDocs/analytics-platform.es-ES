@@ -1,7 +1,7 @@
 ---
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3184'
 ht-degree: 23%
 
 ---
@@ -11,13 +11,13 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->La funcionalidad descrita en este artículo se encuentra en la fase prueba limitada de la versión y es posible que no esté disponible aún en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información acerca del proceso de lanzamiento de Customer Journey Analytics, consulte [lanzamientos de características de Customer Journey Analytics](/help/release-notes/releases.md).
+>La funcionalidad descrita en este artículo se encuentra en la fase prueba limitada de la versión y es posible que no esté disponible aún en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [lanzamientos de características de Customer Journey Analytics](/help/release-notes/releases.md).
 
 ## Sección de prueba limitada de fase de lanzamiento {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->La funcionalidad descrita en esta sección se encuentra en la fase prueba limitada de la versión y es posible que no esté disponible aún en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información acerca del proceso de lanzamiento de Customer Journey Analytics, consulte [lanzamientos de características de Customer Journey Analytics](/help/release-notes/releases.md).
+>La funcionalidad descrita en esta sección se encuentra en la fase prueba limitada de la versión y es posible que no esté disponible aún en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [lanzamientos de características de Customer Journey Analytics](/help/release-notes/releases.md).
 
 ## Seleccionar paquete {#select-package}
 
@@ -57,7 +57,7 @@ Las opciones de comparación de tiempo disponibles incluyen el periodo anterior,
 
 ## Vídeo de demostración de Adobe Analytics {#videoaa}
 
-*Este vídeo muestra la funcionalidad mediante Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las diferencias terminológicas entre Adobe Analytics y el Customer Journey Analytics (por ejemplo, segmentos frente a filtros o visitas frente a sesiones).*
+*Este vídeo muestra la funcionalidad mediante Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las diferencias terminológicas entre Adobe Analytics y Customer Journey Analytics (por ejemplo, segmentos frente a filtros o visitas frente a sesiones).*
 
 
 ## Panel Filtros {#filterspanel}
@@ -186,7 +186,7 @@ Varias visualizaciones en Customer Recorrido Analytics están diseñadas para an
 
 Utilice la siguiente información para elegir la visualización que mejor se adapte a sus necesidades.
 
-| Función | Lienzo de recorrido | Visita en orden previsto | Flujo |
+| Función | Lienzo del recorrido  | Visita en orden previsto | Flujo |
 |---------|----------|---------|---------|
 | **Secuencia predefinida de páginas** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Sí</br>La ruta puede ser una ruta final o puede restringirse al siguiente punto de contacto | No |
 | **Secuencia exploratoria de páginas (Ad Hoc Analysis)** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Limitado</br>Permite hacer clic con el botón secundario y ver los abandonos inmediatos en una tabla de forma libre. | Sí</br>Sólo análisis exploratorio. Siempre dentro de una instancia de dimensión entre nodos. Esto significa que cada nodo muestra el siguiente punto de contacto inmediato (no eventual) a lo largo de la ruta. |
@@ -201,3 +201,17 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | **recorridos Adobe Journey Optimizer** | Sí</br>Abrir recorridos de Journey Optimizer para un análisis y una personalización más profundos | No | No |
 
 {style="table-layout:auto"}
+
+## Actualizar nota de lista de comprobación {#upgrade-note}
+
+>[!NOTE]
+> 
+>Use la información de esta página para responder preguntas en la [lista de comprobación de actualización de Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+
+## Actualización de lista de comprobación: paso siguiente {#upgrade-note-step}
+
+>[!NOTE]
+> 
+>Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), o puede seguir los pasos de actualización que se generaron dinámicamente para su organización con el [cuestionario de actualización de Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>
+>Después de completar los pasos de esta página, siga los pasos de actualización recomendados o los pasos de actualización generados dinámicamente.

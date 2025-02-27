@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 0dd3dcc819b6e4a7b13fb4601322d94fd5db179a
+source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 94%
+source-wordcount: '1165'
+ht-degree: 93%
 
 ---
 
@@ -68,6 +68,7 @@ ht-degree: 94%
       + [Crea una vista de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Creación de un campo derivado de canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Valida el flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
+      + [Configuración de la colección de medios de streaming](/help/getting-started/cja-upgrade/cja-upgrade-streaming-media.md)
       + Conservar datos históricos con el conector de origen de Analytics {#historical-data-source-connector}
          + [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
          + [Creación del conector de origen de Analytics y asignación de campos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)

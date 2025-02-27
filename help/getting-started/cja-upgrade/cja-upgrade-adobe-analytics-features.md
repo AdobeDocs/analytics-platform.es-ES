@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+source-git-commit: 4f6b5531578fbc4ae0eef5dc4fb46c3c1b548417
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 53%
+source-wordcount: '469'
+ht-degree: 50%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="Datos de medios de streaming"
->abstract="Un complemento de Adobe Analytics que está especializado en la recopilación de datos de medios, como audio, vídeo o contenido transmitido."
+>abstract="Complemento de Adobe Analytics y Customer Journey Analytics especializado en la recopilación de datos de contenidos, como audio, vídeo o contenido transmitido."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -97,9 +97,7 @@ ht-degree: 53%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Use la información de esta página para responder preguntas en la [lista de comprobación de actualización de Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-note}}
 
 La siguiente lista muestra solo las funciones de Adobe Analytics que deben tenerse en cuenta durante el proceso de actualización a Customer Journey Analytics. Para obtener una lista completa que muestre qué características de Adobe Analytics son totalmente compatibles, parcialmente compatibles o no compatibles con Customer Journey Analytics, consulte [Compatibilidad con características de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 

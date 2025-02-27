@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e444474d9f859f59613caa8fad06998372cdf742
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 18%
@@ -61,7 +61,7 @@ ht-degree: 18%
 
 
 
-En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics a [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home) en Adobe Experience Platform para la segmentación y personalización de clientes.
+En este tema se explica cómo crear y publicar audiencias identificadas en Customer Journey Analytics en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home) en Adobe Experience Platform para la segmentación y personalización de clientes.
 
 Lea esta [descripción general](/help/components/audiences/audiences-overview.md) para familiarizarse con el concepto de audiencias de Customer Journey Analytics.
 
@@ -71,7 +71,7 @@ Lea esta [descripción general](/help/components/audiences/audiences-overview.md
 
    | Método de creación | Detalles |
    | --- | --- |
-   | Desde la interfaz **[!UICONTROL Audiencias]**. | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias]** en el menú principal del Customer Journey Analytics. Se muestra la interfaz Audiencias. Seleccione **[!UICONTROL Crear audiencia]** para que se abra [!UICONTROL el generador de audiencias]. |
+   | Desde la interfaz **[!UICONTROL Audiencias]**. | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Audiencias. Seleccione **[!UICONTROL Crear audiencia]** y se abrirá [!UICONTROL el generador de audiencias]. |
    | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear una audiencia utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear audiencia]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el filtro del Generador de audiencias con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear una audiencia utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Las audiencias no pueden incluir métricas calculadas. Si intenta crear una audiencia que contenga una métrica calculada, esta no se incluye en la definición de la audiencia.</p> |
    | Desde la interfaz de usuario de creación/edición de filtros | Marque la casilla que dice **[!UICONTROL Crear una audiencia a partir de este filtro]**. Mediante este método se rellena previamente el filtro. Consulte [Crear filtros](/help/components/filters/create-filters.md) para obtener más información. |
 
@@ -83,10 +83,10 @@ Lea esta [descripción general](/help/components/audiences/audiences-overview.md
 
 1. Seleccione **[!UICONTROL [!UICONTROL Ver ID de muestra]]** para ver una muestra de los ID de esta audiencia. En el cuadro de diálogo **[!UICONTROL ID de muestra]** puede usar ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar ID de muestra*] para buscar ID de muestra.
 
-1. Comprueba la configuración de tu audiencia y selecciona **[!UICONTROL Publish]**.
+1. Compruebe la configuración de la audiencia y seleccione **[!UICONTROL Publicar]**.
 Recibirá un mensaje de confirmación que indica que la audiencia se ha publicado. La publicación tarda solo uno o dos minutos en mostrarse en Experience Platform.
 
-1. Seleccione **[!UICONTROL Ver la audiencia en AEP]** dentro del mismo mensaje y se le redirigirá a la [IU del segmento](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
+1. Seleccione **[!UICONTROL Ver la audiencia en AEP]** dentro del mismo mensaje y se le redirigirá a la [interfaz de usuario del segmento](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
 
 ## Generador de audiencias
 
@@ -124,9 +124,9 @@ El panel Vista previa de datos proporciona la siguiente información.
 
 Después de crear y publicar una audiencia en Customer Journey Analytics, esta estará disponible en Experience Platform. Un segmento de streaming de Adobe Experience Platform solo se crea si su organización está configurada para la segmentación de streaming.
 
-* La audiencia de Platform comparte el mismo nombre y la misma descripción que la audiencia del Customer Journey Analytics. El nombre se adjunta con el ID de audiencia del Customer Journey Analytics para garantizar que la audiencia sea única.
+* La audiencia de Platform comparte el mismo nombre y la misma descripción que la audiencia de Customer Journey Analytics. El nombre se adjunta con el ID de audiencia de Customer Journey Analytics para garantizar que la audiencia sea única.
 * Cualquier cambio realizado en el nombre o la descripción de la audiencia en Customer Journey Analytics se reflejará en Experience Platform.
-* Si una audiencia se elimina en Customer Journey Analytics, esta permanecerá disponible en Experience Platform hasta que caduque el perfil al que pertenece. La pertenencia al perfil caduca pasados 420 días en el caso de audiencias únicas y después de 16 días en el de audiencias recurrentes.
+* Si se elimina una audiencia en Customer Journey Analytics, esta permanecerá disponible en Experience Platform hasta que caduque el perfil al que pertenece la audiencia. La pertenencia al perfil caduca pasados 420 días en el caso de audiencias únicas y después de 16 días en el de audiencias recurrentes.
 
 ## Consideraciones de latencia {#latency}
 
@@ -145,29 +145,29 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 
 {style="table-layout:auto"}
 
-## Usar audiencias de Customer Journey Analytics en Experience Platform {#audiences-aep}
+## Uso de audiencias de Customer Journey Analytics en Experience Platform {#audiences-aep}
 
-Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite a Real-time Customer Data Platform El Customer Journey Analytics envía la audiencia al Experience Platform con la identidad principal establecida, según lo que se seleccionó como [!UICONTROL ID de persona] cuando se configuró la conexión.
+Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite a Real-Time Customer Data Platform Customer Journey Analytics envía la audiencia a Experience Platform con la identidad principal establecida, según lo que se seleccionó como [!UICONTROL ID de persona] cuando se configuró la conexión.
 
-A continuación, Real-time Customer Data Platform examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agrega el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
+A continuación, Real-Time Customer Data Platform examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agrega el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
-Para ver audiencias de Customer Journey Analytics en Platform:
+Para ver las audiencias de Customer Journey Analytics en Platform:
 
 1. Expanda **[!UICONTROL Cliente]** en el panel izquierdo y, a continuación, seleccione **[!UICONTROL Audiencias]**. <!-- is there a folder called "Customer Journey Analytics? -->
 
 1. Seleccione la ficha **[!UICONTROL Examinar]**.
 
-1. Para localizar la audiencia que ha publicado desde Customer Journey Analytics, realice una de las siguientes acciones:
+1. Para localizar la audiencia publicada desde Customer Journey Analytics, realice una de las siguientes acciones:
 
    Opción ![Audiencias en el panel izquierdo](assets/aep-audiences.png)
 
-   * Ordene la tabla por la columna **[!UICONTROL Origin]** para ver las audiencias que muestran [!UICONTROL **Customer Journey Analytics**] como origen.
+   * Ordene la tabla por la columna **[!UICONTROL Origen]** para ver las audiencias que muestran [!UICONTROL **Customer Journey Analytics**] como origen.
 
    * Filtra ![Filter](/help/assets/icons/Filter.svg) por **[!UICONTROL Origin]** y selecciona **[!UICONTROL Customer Journey Analytics]**.
 
    * Utilice el campo de búsqueda ![Buscar](/help/assets/icons/Search.svg).
 
-Para obtener más información sobre el uso de Audiences en Platform, consulte la sección [Audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la [guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la documentación del Experience Platform.
+Para obtener más información sobre el uso de Audiences en Platform, consulte la sección [Audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la [guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la documentación de Experience Platform.
 
 
 ## Preguntas frecuentes {#faq}
@@ -176,7 +176,7 @@ Preguntas más frecuentes sobre la publicación de audiencias.
 
 +++**¿Qué sucede si un usuario ya no es miembro de una audiencia en Customer Journey Analytics?**
 
-En este caso, se envía un evento de salida al Experience Platform desde el Customer Journey Analytics.
+En este caso, se envía un evento de salida a Experience Platform desde Customer Journey Analytics.
 
 +++
 
@@ -186,19 +186,19 @@ Cuando se elimina una audiencia de Customer Journey Analytics, esta ya no se mue
 
 +++
 
-+++**Si no existe un perfil correspondiente en Real-time Customer Data Platform, ¿se crea un perfil nuevo?**
++++**Si no existe un perfil correspondiente en Real-Time Customer Data Platform, ¿se crea un perfil nuevo?**
 
 Efectivamente.
 
 +++
 
-+++**¿El Customer Journey Analytics envía los datos de audiencia como eventos de canalización o como un archivo sin formato que también va al lago de datos?**
++++**¿Customer Journey Analytics envía los datos de audiencia como eventos de canalización o como un archivo sin formato que también va al lago de datos?**
 
-Customer Journey Analytics transmite los datos a Real-time Customer Data Platform a través de la canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
+Customer Journey Analytics transmite los datos a Real-Time Customer Data Platform a través de la canalización y estos datos también se recopilan en un conjunto de datos del sistema en el lago de datos.
 
 +++
 
-+++**¿Qué identidades envía el Customer Journey Analytics?**
++++**¿Qué identidades envía Customer Journey Analytics?**
 
 Los pares de identidad/área de nombres especificados en [Configuración de conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection). Específicamente, el paso cuando un usuario selecciona el campo que desea utilizar como ID de persona.
 
@@ -206,13 +206,13 @@ Los pares de identidad/área de nombres especificados en [Configuración de cone
 
 +++**¿Qué ID se elige como identidad principal?**
 
-Véase más arriba. Solo se envía una identidad por cada persona Customer Journey Analytics.
+Véase más arriba. Solo se envía una identidad por cada persona de Customer Journey Analytics.
 
 +++
 
-+++**¿Real-time Customer Data Platform también procesa los mensajes del Customer Journey Analytics? ¿Puede el Customer Journey Analytics agregar identidades a un gráfico de identidades de perfil mediante el uso compartido de audiencias?**
++++**¿Real-Time Customer Data Platform también procesa los mensajes de Customer Journey Analytics? ¿Puede Customer Journey Analytics agregar identidades a un gráfico de identidades de perfil mediante el uso compartido de audiencias?**
 
-No. Solo se envía una identidad por persona, por lo que Real-time Customer Data Platform no tendría extremos de gráfico que consumir.
+No. Solo se envía una identidad por persona, por lo que Real-Time Customer Data Platform no tendría extremos de gráfico que consumir.
 
 +++
 
