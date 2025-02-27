@@ -4,9 +4,9 @@ title: 'Lienzo del recorrido '
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -170,7 +170,7 @@ El lienzo de recorrido proporciona un análisis profundo y exhaustivo que no es 
 
 El uso del lienzo de Recorrido para analizar los recorridos creados en Journey Optimizer ofrece varias ventajas:
 
-* Cree eventos mediante dimensiones, métricas, filtros o intervalos de fechas de Customer Journey Analytics.
+* Cree eventos utilizando cualquier dimensión, métrica, filtro o intervalo de fechas de Customer Journey Analytics.
 
   En Journey Optimizer, un usuario técnico debe crear un evento para poder añadirlo a un recorrido.
 
@@ -238,7 +238,7 @@ Ciertos términos que significan una cosa en Journey Optimizer significan otra e
 
 | Término | Lienzo del recorrido  | Journey Optimizer |
 |---------|----------|---------|
-| **Evento** | Una de las varias métricas estándar que están disponibles en Customer Journey Analytics. Esta métrica cuenta cosas como ingresos, suscripciones o posibles clientes generados. | Categoría de actividad que almacena en déclencheur un recorrido personalizado, como una compra en línea. |
+| **Evento** | Una de las varias métricas estándar disponibles en Customer Journey Analytics. Esta métrica cuenta cosas como ingresos, suscripciones o posibles clientes generados. | Categoría de actividad que almacena en déclencheur un recorrido personalizado, como una compra en línea. |
 
 ### Analizar un recorrido de Journey Optimizer en lienzo de Recorrido
 
@@ -247,3 +247,9 @@ Para obtener información sobre cómo analizar un recorrido de Journey Optimizer
 ## Generar análisis en lienzo de Recorrido
 
 Puede crear análisis en lienzo de Recorrido basados en cualquier dimensión o métrica disponible en Analysis Workspace. O bien, puede analizar los recorridos creados en Journey Optimizer. Para obtener más información, consulte [Configuración de una visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+
+
+>[!MORELIKETHIS]
+>
+> * [Guía para la visualización del lienzo de Recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+

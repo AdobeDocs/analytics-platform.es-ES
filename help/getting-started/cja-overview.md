@@ -5,10 +5,10 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 93%
+source-wordcount: '991'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ La arquitectura de Customer Journey Analytics de alto nivel se muestra aquí:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis del Recorrido del cliente: Analytics para Experience Business](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"} para ver un vídeo introductorio para el Customer Journey Analytics.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis del recorrido del cliente: análisis de la experiencia empresarial](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"} para ver un vídeo introductorio de Customer Journey Analytics.
 
 >[!ENDSHADEBOX]
 
@@ -92,10 +92,9 @@ Desde la ingestión de datos hasta el acceso directo a SQL, varios componentes d
 
 ## Vídeos
 
-
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajar con datos en el Customer Journey Analytics](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"} para ver un vídeo introductorio sobre cómo trabajar con datos en el Customer Journey Analytics.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajar con datos en Customer Journey Analytics](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"} para ver un vídeo introductorio sobre cómo trabajar con datos en Customer Journey Analytics.
 
 >[!ENDSHADEBOX]
 
@@ -105,4 +104,8 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arquitectur
 
 >[!ENDSHADEBOX]
 
+* [Curso de Adobe Customer Journey Analytics para analistas](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
 
+* [Optimizando su mentalidad y flujo de trabajo de Adobe Customer Journey Analytics: modelos de equipo para organizaciones de todos los tamaños](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+
+* [Creación de preparación para la organización: guía para aumentar la escala de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
