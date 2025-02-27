@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 20214cbebd9867a269c96f25f1a2c8b3bfa26a35
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Las siguientes acciones de configuración manual están disponibles:
 
 ## Publicar
 
-Para activar una configuración de análisis de contenido, debe publicar la propiedad de etiqueta asociada.
+Para activar una configuración de análisis de contenido, debe [publicar](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} la propiedad de etiqueta asociada. Solo al publicar la propiedad de etiquetas de análisis de contenido, se recopilan datos de análisis de contenido para los dominios, la experiencia y los recursos que ha configurado
 
 
 ## Modificar
@@ -37,4 +37,5 @@ Para activar una configuración de análisis de contenido, debe publicar la prop
 >[!MORELIKETHIS]
 >
 >[Configuración guiada](guided.md)
+>[Resumen de publicación de etiquetas de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
 >

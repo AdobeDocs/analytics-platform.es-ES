@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Para empezar a crear informes de Análisis de contenido desde cero:
 
 1. [Cree un nuevo](/help/analysis-workspace/build-workspace-project/create-projects.md) o [abra un proyecto existente](/help/analysis-workspace/build-workspace-project/open-projects.md) en Workspace.
 1. Arrastre una visualización ![Tabla](/help/assets/icons/Table.svg) [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) al lienzo.
-1. Use dimensiones y métricas específicas de Content Analytics y otros [componentes](/help/components/overview.md) genéricos (como filtros, intervalos de fechas, anotaciones) para generar perspectivas de análisis de contenido.
+1. Use [componentes específicos de análisis de contenido](components.md) y otros [componentes](/help/components/overview.md) genéricos (como filtros, intervalos de fechas, anotaciones) para generar perspectivas de análisis de contenido.
 
 ## Miniaturas
 
@@ -49,7 +49,7 @@ Para abrir la vista previa con los siguientes detalles:
   |---|---|
   | ![Vista previa de la experiencia de análisis de contenido](../assets/aca-experience-preview.png) | ![Vista previa del recurso de análisis de contenido](../assets/aca-asset-preview.png) |
   | **[!UICONTROL Nombre de la experiencia]** | **[!UICONTROL Nombre del recurso]** |
-  | **[!UICONTROL Impresiones (todas las veces)]**: Número de impresiones de la experiencia. | **[!UICONTROL Impresiones (todas las veces)]**: número de impresiones del recurso. |
+  | **[!UICONTROL Impresiones (todas las veces)]**: Número de impresiones de la experiencia. | **[!UICONTROL Impresiones (todas las mes)]**: Número de impresiones del recurso. |
   | **[!UICONTROL Assets]**: número de recursos que contiene esta experiencia. Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) para inspeccionar los recursos. | **[!UICONTROL Experiencias]**: Número de experiencias en las que se muestra este recurso. [Desglose](/help/assets/icons/Breakdown.svg) para inspeccionar los recursos. |
   | **[!UICONTROL Primera impresión]**: Fecha de la primera impresión de la experiencia. | **[!UICONTROL Primera impresión]**: Fecha de la primera impresión del recurso. |
   | **[!UICONTROL impresión más reciente]**: Fecha de la impresión más reciente de la experiencia. | **[!UICONTROL Impresión más reciente]**: Fecha de la impresión más reciente del recurso. |

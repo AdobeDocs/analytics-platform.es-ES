@@ -7,25 +7,21 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 8c257279353112df583b46d87ea17749a75867e2
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # Resumen de análisis de contenido
 
-<!-- 
-This is a placeholder article for upcoming Content Analytics documentation. Currently used to set up contextual help entries for developer working on onboarding UI and workspace UI 
--->
-
 >[!WARNING]
 >
 >Este artículo es una versión preliminar no oficial del borrador de una próxima versión final y forma parte de la documentación de Análisis de contenido. Todo el contenido está sujeto a cambios y no se puede derivar ninguna obligación legal de la versión actual de este artículo.
 >
 
-{#release-limited-testing}
+{{release-limited-testing}}
 
 El análisis de contenido ayuda a los especialistas en marketing a comprender cómo afecta el contenido a los indicadores de rendimiento clave que ha definido una empresa. Además de los datos de comportamiento, Content Analytics recopila datos sobre cómo se consume el contenido y cómo afecta a las unidades de contenido. Por ejemplo, ¿responden mejor los clientes a un tono de voz específico, a un pallet de color específico o a temas específicos? Esta información, junto con plantillas y flujos de trabajo de creación de informes diseñados específicamente, puede ayudarle a realizar un análisis aún mejor y a obtener perspectivas más profundas de los datos de recorrido del cliente en Customer Journey Analytics.
 
@@ -63,6 +59,12 @@ El análisis de contenido utiliza datos de vista de imágenes web recopilados en
 1. El servicio de ensamblador de funciones y el servicio de identidad procesan los datos visitados.
 1. Los resultados de estos servicios (componentes, atributos e identidades) se utilizan para actualizar los conjuntos de datos específicos de análisis de contenido relevantes en Experience Platform.
 1. Los datos de análisis de contenido, junto con los datos de comportamiento y otros conjuntos de datos de búsqueda, se pueden utilizar en una configuración de Customer Journey Analytics (conexión, vista de datos y Workspace). Esa configuración proporciona la base para las perspectivas únicas a nivel de macro sobre el contenido.
+
+>[!NOTE]
+>
+>El análisis de contenido aprovecha AI/ML. Los resultados (para la caracterización de experiencias y recursos) pueden ser inexactos.
+>
+
 
 >[!MORELIKETHIS]
 >
