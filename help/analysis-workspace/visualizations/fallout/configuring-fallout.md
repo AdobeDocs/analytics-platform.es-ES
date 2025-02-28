@@ -4,14 +4,15 @@ title: Configurar una visualización de abandonos
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 36%
+source-wordcount: '734'
+ht-degree: 38%
 
 ---
 
-# Configurar una visualización de abandonos
+# Configurar una visualización de abandonos {#configure-fallout-visualization}
+
 
 Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página de su sitio web. Sin embargo, los puntos de contacto no están limitados a páginas. Por ejemplo, puede agregar eventos, como unidades, así como personas únicas y visitas recurrentes. También puede añadir dimensiones, como categoría, tipo de navegador o término de búsqueda interno.
 
@@ -21,7 +22,7 @@ No hay limitación en el número de pasos que se pueden añadir o en el número 
 
 Puede realizar el control de rutas en dimensiones, métricas y filtros. Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
-## En su lugar, utilice 
+## Utiliza
 
 1. Agregar una visualización de ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandonos]**. Consulte [Agregar una visualización a un panel](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 1. Arrastre una página, por ejemplo, inicio, desde la dimensión Página al menú desplegable *Agregar punto de contacto*.
@@ -54,7 +55,12 @@ Puede realizar el control de rutas en dimensiones, métricas y filtros. Por ejem
    | **[!UICONTROL Siguiente evento]** | Se cuentan los que aterrizarán en la siguiente página de la ruta en el siguiente evento. |
 
 
-## Configuración
+## Configuración {#settings}
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_container"
+>title="Contenedor de visitas en el orden previsto"
+>abstract="Seleccione un contenedor para analizar las rutas. Esta selección le ayuda a comprender la participación y limita el análisis al contenedor seleccionado."
 
 Como parte de la visualización, hay disponibles ajustes específicos.
 
@@ -80,7 +86,7 @@ Como parte de la visualización, hay opciones específicas de menú contextual d
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

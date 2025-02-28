@@ -4,10 +4,10 @@ title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 46%
+source-wordcount: '326'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flujo"
->abstract="Analice el flujo de visitas o visitantes de un punto de contacto al siguiente.<br/><br/>**Parámetros **<br/>**Comienza por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales después de la ocurrencia del componente seleccionado.<br/>**Contiene**: añada una dimensión o elemento de dimensión para ver los puntos de contacto principales antes y después de la ocurrencia del componente seleccionado.<br/>**Acaba por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales antes de la ocurrencia del componente seleccionado.<br/>**Dimensión de las rutas**: añada una dimensión para usarla como ruta de acceso o de salida del componente seleccionado."
+>abstract="Analice el flujo de visitas o visitantes de un punto de contacto al siguiente. Especifique un componente (métrica, dimensión o elemento) con el que comenzar y con el que finalizar. De forma opcional, puede definir la configuración avanzada para configurar aún más la visualización."
 
 <!-- markdownlint-enable MD034 -->
 

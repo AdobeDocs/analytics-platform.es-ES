@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,9 @@ Para abrir la vista previa con los siguientes detalles:
 ## Plantilla
 
 Detalles acerca de las plantillas...
+
+
+>[!MORELIKETHIS]
+>
+>[Componentes de análisis de contenido](components.md)
+>

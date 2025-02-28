@@ -4,10 +4,10 @@ title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: dbf0ef92069778f6c805fa4315864b2c2c4a6622
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '2183'
-ht-degree: 20%
+source-wordcount: '2141'
+ht-degree: 16%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="Experimentación"
->abstract="Compare diferentes variaciones de experiencias de usuario, marketing o mensajería para determinar cuál es la mejor manera de impulsar un resultado específico.<br/><br/>**Parámetros **<br/>**Experimento**: el experimento que se analiza.<br>**Variante de control**: variante de control del experimento seleccionado.<br/>**Métrica de éxito**: hasta 5 métricas de éxito estándar (no calculadas) con las que analizar el experimento.<br/>**Métrica de normalización**: personas, sesiones o eventos. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. Esta métrica también afecta a la manera en que se añaden los datos antes de que se calcule la confianza."
+>abstract="Compare diferentes variaciones de experiencias de usuario, marketing o mensajería para determinar cuál es la mejor manera de impulsar un resultado específico. Especifique el experimento, la variante de control con la que comparar, la métrica de éxito y la métrica de normalización. De forma opcional, establezca los límites superior e inferior para mantener la confianza."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -60,7 +60,7 @@ Para utilizar el panel de experimentación, asegúrese de seguir estos requisito
 El esquema de datos recomendado es que los datos de experimentación estén en una [Matriz de objetos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) que contiene el experimento y los datos de variante en dos dimensiones independientes. Ambas dimensiones deben estar en una matriz de objetos **single**. Si tiene los datos de experimentación en una sola dimensión (con datos de experimento y de variante en una cadena delimitada), puede usar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividir la dimensión en dos y usarla en el panel.
 
 
-Después de [ingerir](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) los datos de experimentación en Adobe Experience Platform, [cree una conexión en el Customer Journey Analytics](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
+Después de [ingerir](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) los datos de experimentación en Adobe Experience Platform, [cree una conexión en Customer Journey Analytics](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
 
 ### Agregar etiquetas de contexto en vistas de datos
 
@@ -88,7 +88,7 @@ Para usar un panel **[!UICONTROL Experimentación]**:
 
    >[!IMPORTANT]
    >
-   >Si no se ha completado la configuración necesaria en las vistas de datos del Customer Journey Analytics, recibirá este mensaje antes de continuar: [!UICONTROL Configure el experimento y las dimensiones de variante en las vistas de datos].
+   >Si no se ha completado la configuración necesaria en las vistas de datos de Customer Journey Analytics, recibirá este mensaje antes de continuar: [!UICONTROL Configure el experimento y las dimensiones de variante en las vistas de datos].
    >
 
 ### Entrada de panel
@@ -152,7 +152,7 @@ Una secuencia de confianza del 95 % incluye el valor &quot;verdadero&quot; de la
 
 ## Interpretación de dimensiones no aleatorias {#non-randomized}
 
-El Customer Journey Analytics permite a los analistas seleccionar cualquier dimensión como experimento. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como experimento no es aquella para la que se aleatorizan las personas?
+Customer Journey Analytics permite a los analistas seleccionar cualquier dimensión como experimento. Pero, ¿cómo interpreta un análisis en el que la dimensión elegida como experimento no es aquella para la que se aleatorizan las personas?
 
 Por ejemplo, considere un anuncio que vea una persona. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar las personas *ad B* en lugar de *ad A*. El efecto causal de mostrar el anuncio B, en lugar del anuncio A, es de importancia central para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio en toda la población, si se sustituye el status quo de mostrar el anuncio A por la estrategia alternativa de mostrar el anuncio B.
 
@@ -160,7 +160,7 @@ Las pruebas A/B son el estándar de oro dentro de la industria para medir de man
 
 Ahora, consideremos una dimensión que no se logra mediante la aleatorización, por ejemplo, el estado de EE. UU. de la persona. Las personas provienen principalmente de dos estados, Nueva York y California. Los ingresos promedio de las ventas de una marca de ropa de invierno pueden ser diferentes en los dos estados debido a las diferencias en el clima regional. En tal situación, el clima puede ser el verdadero factor causal detrás de las ventas de ropa de invierno, y no el hecho de que los estados geográficos de las personas son diferentes.
 
-El panel de experimentación en Customer Journey Analytics permite analizar los datos como una diferencia de ingresos promedio por estados de las personas. En tal situación, el resultado no tiene una interpretación causal. Sin embargo, dicho análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos medios por estados de las personas.  Este valor también se conoce como *Prueba de hipótesis estadística*. El resultado de este análisis puede ser interesante, pero no necesariamente procesable. Simplemente porque no ha aleatorizado y a veces no puede aleatorizar a las personas a uno de los valores posibles de la dimensión.
+El panel de experimentación de Customer Journey Analytics le permite analizar los datos como una diferencia de ingresos promedio por estados de las personas. En tal situación, el resultado no tiene una interpretación causal. Sin embargo, dicho análisis puede seguir siendo de interés. Proporciona una estimación (junto con medidas de incertidumbre) de la diferencia en los ingresos medios por estados de las personas.  Este valor también se conoce como *Prueba de hipótesis estadística*. El resultado de este análisis puede ser interesante, pero no necesariamente procesable. Simplemente porque no ha aleatorizado y a veces no puede aleatorizar a las personas a uno de los valores posibles de la dimensión.
 
 La siguiente ilustración contrasta estas situaciones:
 
@@ -172,7 +172,7 @@ Cuando se desea medir el impacto de la intervención X en el resultado Y, es pos
 
 >[!NOTE]
 >
->Para organizaciones que utilizan Customer Journey Analytics y Adobe Journey Optimizer, la información de esta sección también se aplica a las funciones de experimentación de Journey Optimizer.
+>Para organizaciones que utilizan Customer Journey Analytics y Adobe Journey Optimizer, la información de esta sección también se aplica a las funciones de experimentación dentro de Journey Optimizer.
 
 No todas las métricas calculadas son compatibles con el panel Experimentación.
 
@@ -184,7 +184,7 @@ Las métricas calculadas que incluyen cualquiera de las siguientes métricas o c
 * Cualquiera de las siguientes métricas base:
    * Personas
 
-Las métricas calculadas que no son compatibles con el panel Experimentación tienen el valor [!UICONTROL **En todas partes del Customer Journey Analytics (excluida la experimentación)**] en el campo [!UICONTROL **Compatibilidad del producto**] al crear la métrica calculada. Para obtener información sobre cómo crear una métrica calculada, consulte [Generar métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+Las métricas calculadas que no son compatibles con el panel Experimentación tienen el valor [!UICONTROL **En todas partes en Customer Journey Analytics (excluida la experimentación)**] en el campo [!UICONTROL **Compatibilidad del producto**] al crear la métrica calculada. Para obtener información sobre cómo crear una métrica calculada, consulte [Generar métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
 ## Uso de métricas calculadas en el panel Experimentación
 

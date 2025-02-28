@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Audiencia media por minuto de
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 29%
+source-wordcount: '1677'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Audiencia media por minuto de medios"
->abstract="Muestra el rendimiento de contenido de medios específicos o durante un período de tiempo personalizado.<br/><br/>**Parámetros generales **<br/>**Calcular métrica para**: seleccione la métrica que se usará en el panel. Seleccione **Contenido específico** para analizar el público medio por minuto de contenido o evento específico en función de la duración del contenido. **Seleccione Período de tiempo personalizado** para analizar cómo cambia el público medio por minuto durante un período de tiempo personalizado seleccionado.<br/>**Dimensión de creación de informes**: seleccione para informar por **Nombre de vídeo** de la dimensión **ID de contenido**. Solo está disponible cuando ha seleccionado Contenido específico como métrica.<br/>**Granularidad**: seleccione la granularidad para la creación de informes. Solo está disponible cuando ha seleccionado Período de tiempo personalizado como métrica.<br/>**Filtrar contenido por (opcional)**: seleccione un programa, temporada, episodio o una dimensión personalizada para filtrar el contenido.<br/><br/>**Ajustes avanzados **<br/>**Configuración de tabla**: seleccione si desea mostrar valores de cálculo en la tabla.<br/>**Métrica de tiempo empleado**: seleccione la métrica de tiempo empleado que desee usar para el cálculo de contenido específico. Solo está disponible cuando ha seleccionado Contenido específico como métrica."
+>abstract="Muestra el rendimiento de contenido multimedia específico o el rendimiento durante un período de tiempo personalizado. Especifique la dimensión de la creación de informes y, opcionalmente, filtre el contenido."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ _Este artículo documenta el panel Audiencia media por minuto de medios en_ ![Cu
 
 >[!NOTE]
 >
->El panel **[!UICONTROL Audiencia media por minuto de medios]** solo está disponible para los clientes que hayan adquirido la recopilación de medios de streaming para Customer Journey Analytics.
+>El panel **[!UICONTROL Audiencia media por minuto de medios]** solo está disponible para los clientes que hayan comprado Streaming Media Collection para Customer Journey Analytics.
 >
 >Póngase en contacto con el representante de ventas de Adobe o con el equipo de cuenta de Adobe para obtener más información.
 >

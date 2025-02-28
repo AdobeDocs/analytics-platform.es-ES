@@ -4,10 +4,10 @@ title: Panel de elemento siguiente o anterior
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 36%
+source-wordcount: '420'
+ht-degree: 19%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 36%
 >title="Elemento siguiente o anterior"
 >abstract="Cree un panel para comprender las dimensiones anteriores de las que provienen las personas o la siguiente dimensión a la que se dirigen."
 
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Elemento siguiente o anterior"
->abstract="Analice cuáles son los lugares más habituales de los que proceden o a los que se dirigen los visitantes.<br/><br/>**Dimensión**: seleccione una dimensión. Por ejemplo, **Página**.<br/>**Elemento de dimensión**: seleccione un elemento de dimensión específico. Por ejemplo, **Página principal**.<br/>**Dirección**: seleccione **Siguiente** para ver los elementos de dimensión que aparecen justo después del elemento de dimensión seleccionado. Seleccione **Anterior** para ver los elementos de dimensión que conducen al elemento de dimensión seleccionado.<br/>**Contenedor**: seleccione **Sesión** para ver los elementos de dimensión siguientes o anteriores de la misma sesión, o **Persona** para ver el elemento de dimensión siguiente o anterior de la misma persona."
+>abstract="Analice cuáles son los lugares más comunes de los que salieron o de los que visitaron anteriormente. Especifique la dimensión, el elemento de dimensión, la dirección y el contenedor que se utilizará para la visualización."
+
+
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +37,12 @@ _Este artículo documenta el panel Elemento siguiente o anterior en_ ![CustomerJ
 
 El panel **[!UICONTROL Elemento siguiente o anterior]** contiene varias tablas y visualizaciones para identificar el elemento de dimensión siguiente o anterior de una dimensión específica. Por ejemplo, es posible que desee explorar a qué páginas fueron más a menudo los clientes después de visitar la página de inicio.
 
-## Utiliza
+## Utiliza {#use}
+
+>[!CONTEXTUALHELP]
+>id="workspace_nextorpreviousitem_container"
+>title="Contenedor"
+>abstract="Seleccione el contenedor para determinar el ámbito de la consulta."
 
 Para usar un panel **[!UICONTROL Elemento siguiente o anterior]**:
 

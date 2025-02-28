@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 46%
+source-wordcount: '1174'
+ht-degree: 40%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="Espectadores simultáneos de medios"
->abstract="Cree un panel para analizar el público medio por minuto de contenido específico o durante un período de tiempo específico."
+>abstract="Cree un panel para analizar los visualizadores simultáneos durante un período de tiempo específico."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Espectadores simultáneos de medios"
->abstract="Analice los visualizadores simultáneos a lo largo del tiempo, vea la concurrencia máxima o desglose y compare.<br/><br>**Granularidad**: seleccione el período de tiempo en el que desea ver los visualizadores simultáneos.<br/>**Números de resumen del panel**:<br/>opción para mostrar números de resumen con detalles de fecha u hora para cada línea. Máximo mostrará detalles para la concurrencia máxima. Mínimo mostrará los detalles de la emisión. <br/>**Desglose por serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Puede ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel."
+>abstract="Analice los visualizadores simultáneos a lo largo del tiempo, vea la concurrencia máxima y, opcionalmente, desglose y compare mediante filtros, dimensiones, elementos de dimensión o intervalos de fechas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,7 +41,7 @@ _Este artículo documenta el panel de visualizadores simultáneos de medios en_ 
 
 >[!NOTE]
 >
->El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento Colección de medios de streaming para Customer Journey Analytics.
+>El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento Recopilación de medios de streaming para Customer Journey Analytics.
 >
 >Póngase en contacto con el representante de ventas de Adobe o con el equipo de cuenta de Adobe para obtener más información.
 >

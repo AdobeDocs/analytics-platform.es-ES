@@ -4,10 +4,10 @@ description: Aprenda a utilizar una tabla de cohorte para el análisis de cohort
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 30%
+source-wordcount: '705'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Tabla de cohortes"
->abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación actual y las cancelaciones a lo largo del tiempo.<br/><br/>**Parámetros **<br/>**Criterios de inclusión**: los componentes utilizados para definir las cohortes de visitantes iniciales.<br/>**Criterios de retorno**: los componentes utilizados para determinar si un visitante ha regresado."
+>abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación actual y la pérdida a lo largo del tiempo. Especifique ajustes adicionales como granularidad, tipo de análisis de cohorte y si desea utilizar o no el cálculo móvil. Puede establecer opciones avanzadas para crear una tabla de latencia o una cohorte de dimensión personalizada basada en una dimensión seleccionada."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +50,7 @@ Ejemplos de lo que puede hacer con una [!UICONTROL tabla de cohorte]:
 * Reconoce cuándo finalizar una prueba o una oferta para maximizar el valor.
 * Obtener ideas para pruebas A/B en áreas como precios, ruta de actualización, etc.
 
-[!UICONTROL La tabla de cohorte] está disponible para todos los clientes Customer Journey Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
+[!UICONTROL La tabla de cohorte] está disponible para todos los clientes de Customer Journey Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
 
 
 >[!BEGINSHADEBOX]
@@ -66,7 +66,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis d
 >
 >[!UICONTROL Análisis de cohorte] no admite métricas no filtrables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias. Solo se pueden usar las métricas de los filtros en [!UICONTROL Análisis de cohorte], y solamente se pueden incrementar de uno en uno.
 
-Las tablas de cohorte de Customer Journey Analytics admiten métricas de doble base (o numéricas). Por ejemplo, Purchase.Value (un valor doble) se puede utilizar como Métrica de inclusión/devolución. Además, todas las métricas que se pasan a Adobe Experience Platform a través del conector de Source de Analytics también son dobles.
+Las tablas de cohorte de Customer Journey Analytics admiten métricas basadas en doble base (o en cualquier métrica numérica). Por ejemplo, Purchase.Value (un valor doble) se puede utilizar como Métrica de inclusión/devolución. Además, todas las métricas que se pasan a Adobe Experience Platform a través del conector de Source de Analytics también son dobles.
 
 ## Funcionalidades de tabla de cohorte
 

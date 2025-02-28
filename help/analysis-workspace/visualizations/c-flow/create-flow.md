@@ -4,14 +4,20 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1446'
 ht-degree: 37%
 
 ---
 
-# Configuración de una visualización de flujo
+# Configuración de una visualización de flujo {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Contenedor de flujo"
+>abstract="Seleccione el contenedor que desea utilizar para mostrar (números para) las rutas."
+
 
 Las visualizaciones de flujo le ayudan a comprender los recorridos que se originan a partir de un evento de conversión específico en el sitio web o la aplicación. O que conducen a un evento de conversión específico. La visualización traza una ruta a través de las dimensiones (y elementos de dimensión) o métricas.
 
@@ -19,7 +25,7 @@ Puede configurar el inicio o el final de la ruta que le interese. O bien, analic
 
 ![Pantalla de configuración de flujo que muestra los campos Comienza con, Contiene y Finaliza con.](assets/new-flow.png)
 
-## En su lugar, utilice 
+## Utiliza
 
 1. Agregue una visualización ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]**. Consulte [Agregar una visualización a un panel](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
@@ -39,7 +45,7 @@ Puede configurar el inicio o el final de la ruta que le interese. O bien, analic
    >
    >No se pueden usar las métricas calculadas en los campos **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]**.
 
-1. Si elige una métrica, también debe proporcionar un [!UICONTROL **Dimension de rutas**] que utilizará como ruta de acceso o de origen del componente seleccionado, como se muestra a continuación. El valor predeterminado es [!UICONTROL **Página**].
+1. Si elige una métrica, también debe proporcionar un [!UICONTROL **Dimension de rutas**] para utilizarlo como ruta de acceso o de origen del componente seleccionado, como se muestra aquí. El valor predeterminado es [!UICONTROL **Página**].
 
    ![Configuración de flujo](assets/flow-configure.png)
 
@@ -146,7 +152,7 @@ En el ejemplo siguiente, se incluyen **todas** las ocurrencias de *categoría pr
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

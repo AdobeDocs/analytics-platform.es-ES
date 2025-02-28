@@ -5,10 +5,10 @@ exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 74%
+source-wordcount: '356'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="Incluir/excluir valores"
->abstract="Limite una dimensión para incluir solo valores que coincidan con criterios específicos. Las inclusiones y exclusiones ocurren antes de la asignación y los filtros en los informes.<br/><br/>**Parámetros **<br/>**Con distinción de mayúsculas y minúsculas**: determine si la lógica de filtro siguiente distingue entre mayúsculas y minúsculas."
+>abstract="Limite una dimensión para incluir solo valores que coincidan con criterios específicos. Las inclusiones y exclusiones ocurren antes de la asignación y los filtros en los informes. Determine si la lógica de filtro especificada distingue entre mayúsculas y minúsculas."
 
 <!-- markdownlint-enable MD034 -->
 
