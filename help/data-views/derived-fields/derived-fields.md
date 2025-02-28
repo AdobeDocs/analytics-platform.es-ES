@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
 workflow-type: tm+mt
-source-wordcount: '8841'
+source-wordcount: '8844'
 ht-degree: 17%
 
 ---
@@ -160,7 +160,7 @@ Alternativamente, si ha utilizado un campo derivado como componente para dimensi
 
 >[!NOTE]
 >
->Los campos derivados se administran en el nivel de Conexión en Customer Journey Analytics. Cualquier cambio realizado en un campo derivado en cualquiera de las vistas de datos asociadas con esa conexión se aplica a todas estas vistas de datos asociadas.
+>Los campos derivados se administran en el nivel de conexión en Customer Journey Analytics. Cualquier cambio realizado en un campo derivado en cualquiera de las vistas de datos asociadas con esa conexión se aplica a todas estas vistas de datos asociadas.
 
 
 
@@ -205,7 +205,7 @@ Esta plantilla de función combina dos valores en uno.
 
 Para utilizar la plantilla, debe especificar los parámetros correctos para cada función enumerada como parte de las reglas de la plantilla. Consulte [Referencia de función](#function-reference) para obtener más información.
 
-![Captura de pantalla del generador de reglas de combinación de varios Dimension](assets/function-template-multi-dimension-combine.png)
+![Captura de pantalla del generador de reglas de combinación de varias Dimension](assets/function-template-multi-dimension-combine.png)
 
 +++
 
@@ -643,7 +643,7 @@ Usted define un campo derivado de `Trip Duration (bucketed)`. Cree la siguiente 
 
 ## Más información {#casewhen-more-info}
 
-El Customer Journey Analytics utiliza una estructura de contenedor anidada, que sigue el modelo de Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) (modelo de datos de experiencia). Consulte [Contenedores](../create-dataview.md#containers) y [Contenedores de filtro](../../components/filters/filters-overview.md#filter-containers) para obtener más información. Este modelo de contenedor, aunque flexible por naturaleza, impone algunas restricciones al utilizar el generador de reglas.
+Customer Journey Analytics usa una estructura de contenedor anidada, siguiendo el modelo de Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) (modelo de datos de experiencia). Consulte [Contenedores](../create-dataview.md#containers) y [Contenedores de filtro](../../components/filters/filters-overview.md#filter-containers) para obtener más información. Este modelo de contenedor, aunque flexible por naturaleza, impone algunas restricciones al utilizar el generador de reglas.
 
 Customer Journey Analytics utiliza el siguiente modelo de contenedor predeterminado:
 
@@ -1118,7 +1118,7 @@ Usted define un campo derivado de `Activity Name`. La función [!UICONTROL BUSCA
 
 ## Más información {#lookup-more-info}
 
-La función de búsqueda se aplica en el momento del informe a los datos recuperados por el Customer Journey Analytics del conjunto de datos de búsqueda que ha configurado como parte de la conexión.
+La función de búsqueda se aplica en el momento del informe a los datos recuperados por Customer Journey Analytics del conjunto de datos de búsqueda que ha configurado como parte de la conexión.
 
 Puede insertar rápidamente una función [!UICONTROL Lookup] en el generador de reglas, que ya contiene una o más funciones.
 
@@ -1994,8 +1994,9 @@ Por ejemplo, la regla Classify a continuación utiliza 3 operadores.
 
 La compatibilidad con los campos de búsqueda y perfil en los campos derivados permite transformar los datos en función de búsquedas de eventos y atributos de perfil. Esto puede resultar especialmente útil en escenarios B2B con datos de nivel de cuenta en conjuntos de datos de perfil o búsqueda. Además, esta compatibilidad es útil para manipular los datos en campos comunes a partir de datos de búsqueda (como información de campaña y tipo de oferta) o de datos de perfil (como nivel de miembro y tipo de cuenta).
 
-Consulte para obtener más información básica sobre los campos derivados:
+>[!MORELIKETHIS]
+>
+>- [Blog: Aprovechando al máximo sus datos: un marco para usar campos derivados en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [Blog: Casos de uso de campos derivados para Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [Blog: Mejoras en los campos derivados de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 
-- [Aprovechar al máximo sus datos: un marco para usar campos derivados en el Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
-
-- [Casos de uso de campos derivados para el Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)

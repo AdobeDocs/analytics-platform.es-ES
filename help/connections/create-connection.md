@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
 workflow-type: tm+mt
-source-wordcount: '4261'
+source-wordcount: '4276'
 ht-degree: 99%
 
 ---
@@ -134,7 +134,7 @@ La experiencia de flujo de trabajo de creación y edición de conexiones reúne 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear y editar una conexión](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear y editar una conexión](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -182,7 +182,6 @@ Póngase en contacto con el administrador si no sabe qué paquete de Customer Jo
    | **[!UICONTROL Datos de relleno]** | Puede solicitar el relleno de los datos de un conjunto de datos. Por ejemplo, puede solicitar que se rellenen los datos de los últimos 7 días. Configure el conjunto de datos correctamente y pruebe la conexión. Si todo parece correcto, puede rellenar fácilmente todos los datos restantes.<p>Además, puede habilitar la importación de nuevos datos por el conjunto de datos. |
    | **[!UICONTROL Estado de relleno]** | Este estado indica si se están procesando datos de relleno. |
 
-   {style="table-layout:auto"}
 
 ## Agregar y configurar conjuntos de datos {#add-dataset}
 
@@ -501,7 +500,9 @@ Existen diferentes tipos de conjuntos de datos: datos de [!UICONTROL Evento], da
 | **[!UICONTROL Perfil]** | Datos que se aplican a sus personas, usuarios o clientes en los datos de [!UICONTROL Evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/A | Cualquier esquema integrado o personalizado basado en la clase “XDM Individual Perfil”. | Puede elegir qué ID de persona desea incluir. Cada conjunto de datos (excepto los de resumen) definido en [!DNL Experience Platform] tiene su propio conjunto de uno o más ID de persona definidos. Por ejemplo, ID de cookie, ID vinculado, ID de usuario, código de seguimiento, etc.<br>![ID de persona ](assets/person-id.png)**Nota**: Si crea una conexión que incluye conjuntos de datos con distintos ID, el sistema de informes lo reflejará. Para combinar conjuntos de datos, es necesario usar el mismo ID de persona. |
 | **Resumen** | Datos de series temporales que no están vinculadas a un ID de persona individual. Los datos de resumen representan datos agregados en un nivel diferente de agregación, por ejemplo campañas. Puede utilizar estos datos en Customer Journey Analytics para admitir varios casos de uso. Consulte [Datos de resumen](/help/data-views/summary-data.md) para obtener más información. | Se establece automáticamente en el campo de marca de tiempo predeterminado a partir de los esquemas de métricas de resumen basados en eventos en Experience Platform. Solo se admite la granularidad por hora o por día. | Cualquier esquema integrado o personalizado basado en la clase «Métricas de resumen de XDM». | N/A |
 
-{style="table-layout:auto"}
+>[!MORELIKETHIS]
+>
+>Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ## Usar campos numéricos como claves y valores de búsqueda {#numeric}
 
