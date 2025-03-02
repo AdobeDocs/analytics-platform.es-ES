@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 32678fdedf1b384afce1998880af04f1af077943
+source-git-commit: 4ce2eb397e15dcb081f7b9695ba2332a3eb17659
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 2%
+source-wordcount: '468'
+ht-degree: 4%
 
 ---
 
@@ -27,8 +27,19 @@ Esta transformación solo está disponible para conjuntos de datos con datos par
 >
 >Hay un límite de no más de 10 000 elementos por cada ID. Esta limitación implica que para cualquier ID de persona solo puede tener 10 000 cuentas, 10 000 oportunidades, 10 000 listas de marketing o 10 000 campañas.
 
+>[!PREREQUISITES]
+>
+>Para que la ingesta funcione correctamente, debe validar que los conjuntos de datos de búsqueda B2B tengan datos rellenados para los siguientes campos (tal como se definen en los esquemas de búsqueda B2B):
+>
+>| Conjunto de datos que contiene datos que se ajustan al esquema | Campo rellenado con datos |
+>|---|---|
+>| Relación de persona de cuenta empresarial de XDM | `accountPersonID` |
+>| Persona de oportunidad empresarial de XDM | `opportunityPersonID` |
+>| Lista de marketing empresarial de XDM | `marketingListMemberID` |
+>| Miembros de campaña empresarial de XDM | `campaign.sourceKey` |
+>
 
-Para habilitar la transformación para un conjunto de datos de este tipo:
+Para habilitar la transformación para un conjunto de datos de búsqueda B2B:
 
 ![Habilitar conjunto de datos de transformación](/help/connections/assets/transform.gif)
 
