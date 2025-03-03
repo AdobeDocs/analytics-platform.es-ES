@@ -10,7 +10,7 @@ exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 37%
+ht-degree: 60%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-loader"
->title="Implemente la etiqueta de carga en su sitio"
->abstract="Trabaje con el equipo de desarrollo del sitio web para instalar la etiqueta de carga en cada página del sitio.<br><br>El tiempo de finalización de esta tarea depende en gran medida del tiempo de respuesta del equipo de ingeniería con el que trabaje para implementar el código. Algunas organizaciones que tienen equipos de ingeniería altamente adaptables pueden completar este paso en días, mientras que los equipos de ingeniería con un registro de tareas pendientes extenso pueden tardar un mes o más."
+>title="Implementación de la etiqueta del cargador en el sitio"
+>abstract="Trabaje con el equipo de desarrollo del sitio web para instalar la etiqueta del cargador en cada página del sitio.<br><br>El tiempo de finalización de esta tarea depende en gran medida del tiempo de respuesta del equipo de ingeniería con el que trabaje para implementar el código. Algunas organizaciones que tienen equipos de ingeniería muy adaptables pueden completar este paso en días, mientras que los equipos de ingeniería con un registro de asuntos pendientes extenso pueden tardar un mes o más."
 
 <!-- markdownlint-enable MD034 -->
 

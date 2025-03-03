@@ -1,5 +1,5 @@
 ---
-title: Utilice exclusivamente el conector de origen de Analytics para actualizar a Customer Journey Analytics
+title: Uso exclusivo del conector de origen de Analytics para actualizar a Customer Journey Analytics
 description: Obtenga información sobre cómo crear el conector de origen de Analytics y asignar campos
 role: Admin
 solution: Customer Journey Analytics
@@ -10,7 +10,7 @@ exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 

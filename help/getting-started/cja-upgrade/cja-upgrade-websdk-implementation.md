@@ -1,5 +1,5 @@
 ---
-title: Comprender las opciones de implementación de Web SDK al actualizar a Customer Journey Analytics
+title: Descripción de las opciones de implementación del SDK web al actualizar a Customer Journey Analytics
 description: Obtenga información acerca de las opciones de implementación de Web SDK al actualizar a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -9,18 +9,18 @@ hidefromtoc: true
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 43%
 
 ---
 
-# Comprender las opciones de implementación de Web SDK al actualizar a Customer Journey Analytics {#web-sdk-implementation-options}
+# Descripción de las opciones de implementación del SDK web al actualizar a Customer Journey Analytics {#web-sdk-implementation-options}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-js"
->title="Biblioteca JavaScript de Web SDK (alloy.js)"
->abstract="Incluya la biblioteca de SDK web (alloy.js) en todas las páginas del sitio."
+>title="Biblioteca JavaScript del SDK web (alloy.js)"
+>abstract="Incluya la biblioteca del SDK web (alloy.js) en todas las páginas del sitio."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-tags"
->title="Extensión de etiqueta de Web SDK"
->abstract="(Recomendado) Si aún no utiliza Etiquetas, instale el cargador de etiquetas en su sitio. Si ya está utilizando etiquetas, puede añadir la extensión Web SDK a la propiedad de etiquetas. Esta opción incluye implementaciones que utilizan etiquetas en la recopilación de datos de Adobe Experience Platform y sistemas de administración de etiquetas de terceros."
+>title="Extensión de la etiqueta del SDK web"
+>abstract="(Recomendado) Si aún no utiliza Etiquetas, instale el cargador de etiquetas en su sitio. Si ya está utilizando etiquetas, puede añadir la extensión del SDK web a la propiedad de etiqueta. Esta opción incluye implementaciones que utilizan etiquetas en la recopilación de datos de Adobe Experience Platform y sistemas de administración de etiquetas de terceros."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-api"
 >title="Paquete NPM"
->abstract="Utilice la API de recopilación de datos para enviar datos directamente a un conjunto de datos. Se admiten los tipos no autenticados (cliente a servidor) y autenticados (servidor a servidor)."
+>abstract="Utilice la API de recopilación de datos para enviar datos directamente a una secuencia de datos. Se admiten los tipos no autenticados (cliente a servidor) y autenticados (servidor a servidor)."
 
 <!-- markdownlint-enable MD034 -->
 

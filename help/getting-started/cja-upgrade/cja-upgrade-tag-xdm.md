@@ -10,7 +10,7 @@ exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '1631'
-ht-degree: 32%
+ht-degree: 37%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-xdm"
 >title="Adición de la lógica de recopilación de datos XDM a la etiqueta"
->abstract="Con la etiqueta de carga instalada en el sitio, puede añadir reglas y elementos de datos para rellenar un objeto XDM y enviarlo a Adobe. Adobe recomienda mantener un documento de diseño de solución para realizar un seguimiento de la configuración de las etiquetas.<br><br>Este paso es mucho trabajo, ya que implica configurar toda la lógica de Analytics para su propiedad. Espere dedicar un mes o más a establecer las reglas de etiquetas correctas, probarlas e implementarlas en el sitio."
+>abstract="Con la etiqueta de cargador instalada en el sitio, puede añadir reglas y elementos de datos para rellenar un objeto XDM y enviarlo a Adobe. Adobe recomienda mantener un documento de diseño de solución para realizar un seguimiento de la configuración de las etiquetas.<br><br>Este paso conlleva mucho trabajo, ya que implica configurar toda la lógica de Analytics para su propiedad. Tenga previsto dedicar un mes o más a establecer las reglas de etiquetas correctas, probarlas e implementarlas en el sitio."
 
 <!-- markdownlint-enable MD034 -->
 

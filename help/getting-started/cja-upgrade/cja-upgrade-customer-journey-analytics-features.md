@@ -1,5 +1,5 @@
 ---
-title: Comprender las funciones exclusivas de Customer Journey Analytics
+title: Descripción de las funciones exclusivas de Customer Journey Analytics
 description: Obtenga información sobre las funciones exclusivas de Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 19%
+ht-degree: 35%
 
 ---
 
-# Comprender las funciones exclusivas de Customer Journey Analytics {#feature-support-upgrade}
+# Descripción de las funciones exclusivas de Customer Journey Analytics {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tie-data"
->title="Vinculación de datos de distintas fuentes"
->abstract="(Recomendado) La capacidad de combinar datos de análisis de otros canales es el caso de uso principal de Customer Journey Analytics."
+>title="Vincular datos de distintas fuentes"
+>abstract="(Recomendado) La posibilidad de combinar datos de análisis de otros canales es el caso de uso principal de Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-datasets"
->title="Unir visitas de varios conjuntos de datos"
->abstract="Si alguno de los conjuntos de datos no comparte un identificador principal (como un ID de Experience Cloud), aún puede unir esos datos mediante otra dimensión, como el nombre de usuario de inicio de sesión o la dirección de correo electrónico."
+>title="Unir resultados de varios conjuntos de datos"
+>abstract="Si alguno de los conjuntos de datos no comparte un identificador principal (como, por ejemplo, un ID de Experience Cloud), aún puede unir esos datos mediante otra dimensión, como el nombre de usuario de inicio de sesión o la dirección de correo electrónico."
 
 <!-- markdownlint-enable MD034 -->
 

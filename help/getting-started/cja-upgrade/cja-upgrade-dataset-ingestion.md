@@ -10,7 +10,7 @@ exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 0%
+ht-degree: 40%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-validate"
->title="Validación de datos en el conjunto de datos"
->abstract="Ahora que ha configurado la implementación de Web SDK, puede utilizar el administrador de actividades de conjuntos de datos para ver los lotes ingeridos y los que han dado error. Si ve lotes ingeridos principalmente, este paso ha finalizado. Si ve principalmente lotes con errores o sin lotes, compruebe la implementación de Web SDK para asegurarse de que envía correctamente los datos a Adobe.<br><br>Si todo se hizo correctamente y sin problemas, este paso se puede realizar en menos de un día. Si hay varios problemas de recopilación de datos, la resolución de estos puede tardar mucho más."
+>title="Validar datos en el conjunto de datos"
+>abstract="Ahora que ha configurado la implementación del SDK web, puede utilizar el administrador de actividades de conjuntos de datos para ver los lotes ingeridos y los que han dado error. Si ve principalmente lotes ingeridos, este paso está completado. Si ve principalmente lotes con errores o ningún lote, compruebe la implementación del SDK web para asegurarse de que está enviando correctamente los datos a Adobe.<br><br>Si todo se ha realizado correctamente y sin problemas, este paso se puede realizar en menos de un día. Si aparecen varios problemas de recopilación de datos, solucionarlos puede llevar considerablemente más tiempo."
 
 <!-- markdownlint-enable MD034 -->
 

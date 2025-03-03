@@ -10,7 +10,7 @@ exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create-schema"
 >title="Creación de un esquema para el conector de origen de Analytics"
->abstract="Este esquema es una combinación del grupo de campos Adobe Analytics ExperienceEvent con todos los grupos de campos que conforman el esquema personalizado de su organización. Permite asignar los campos utilizados por el conector de origen de Analytics al esquema de su organización y solo se utiliza para los datos históricos.<br><br>Aunque es de naturaleza técnica, la creación de este esquema se puede completar en horas, posiblemente más rápido si sabe exactamente qué grupos de campos conforman el esquema personalizado de su organización."
+>abstract="Este esquema es una combinación del grupo de campos Adobe Analytics ExperienceEvent con todos los grupos de campos que conforman el esquema personalizado de su organización. Permite asignar los campos utilizados por el conector de origen de Analytics al esquema de su organización y solo se utiliza para los datos históricos.<br><br>Aunque es de tipo técnico, la creación de este esquema puede completarse en horas, posiblemente más rápido si sabe exactamente qué grupos de campos conforman el esquema personalizado de su organización."
 
 <!-- markdownlint-enable MD034 -->
 

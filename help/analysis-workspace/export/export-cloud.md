@@ -8,7 +8,7 @@ role: User
 source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-full-table-export"
->title="Cree exportaciones de tabla completas similares a Data Warehouse"
->abstract="Las exportaciones de tabla completas están disponibles en cuanto ve los datos en Analysis Workspace. Puede crear o programar exportaciones de tabla completa según lo permitan las necesidades.<br><br>La creación de exportaciones de tabla completa tarda unos minutos en completarse si ya sabe qué datos incluir en la exportación."
+>title="Creación de exportaciones de tablas completas similares a Data Warehouse"
+>abstract="Las exportaciones de tablas completas están disponibles en cuanto se ven los datos en Analysis Workspace. Puede crear o programar exportaciones de tablas completas en función de las necesidades.<br><br>Crear exportaciones de tablas completas solo lleva unos minutos si ya sabe qué datos incluir en la exportación."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -1,5 +1,5 @@
 ---
-title: Cree un campo derivado de canal de marketing para Customer Journey Analytics
+title: Creación de un campo derivado del canal de marketing para Customer Journey Analytics
 description: Obtenga información sobre cómo crear un campo derivado de canal de marketing para Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 5%
+ht-degree: 24%
 
 ---
 
-# Cree un campo derivado de canal de marketing para Customer Journey Analytics {#create-marketing-channel-derived-field}
+# Creación de un campo derivado del canal de marketing para Customer Journey Analytics {#create-marketing-channel-derived-field}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channel"
->title="Crear un campo derivado de canal de marketing"
->abstract="Los campos derivados se crean dentro de una vista de datos.<br><br>El uso de una configuración de canal de marketing predeterminada solo lleva unos minutos; la creación de una configuración de canal de marketing altamente personalizada puede tardar varias horas."
+>title="Creación de un campo derivado del canal de marketing"
+>abstract="Los campos derivados se crean dentro de una vista de datos.<br><br>Utilizar una configuración de canal de marketing predeterminada solo lleva unos minutos; crear una configuración de canal de marketing muy personalizada puede llevar varias horas."
 
 <!-- markdownlint-enable MD034 -->
 

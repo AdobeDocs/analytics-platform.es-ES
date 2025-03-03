@@ -10,7 +10,7 @@ exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
 workflow-type: tm+mt
 source-wordcount: '1265'
-ht-degree: 40%
+ht-degree: 52%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create"
->title="Cree el esquema personalizado deseado en Adobe Experience Platform"
->abstract="Utilice la interfaz de usuario de Adobe Experience Platform para crear un esquema y que Adobe conozca el formato correcto para almacenar los datos.<br><br>Este paso implica la creación real del esquema acordado por su organización. El tiempo estimado para crear el esquema en la interfaz de Adobe Experience Platform es de aproximadamente una semana, según el número de dimensiones y métricas que se deban crear."
+>title="Creación del esquema personalizado deseado en Adobe Experience Platform"
+>abstract="Utilice la interfaz de usuario de Adobe Experience Platform para crear un esquema y que Adobe conozca el formato correcto para almacenar los datos.<br><br>Este paso implica la creación real del esquema acordado por su organización. El tiempo estimado para crear el esquema en la interfaz de Adobe Experience Platform es de aproximadamente una semana, según el número de dimensiones y métricas que haya que crear."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
->title="Creación de un esquema con el grupo de campos Adobe Analytics ExperienceEvent"
->abstract="Utilice el grupo de campos &quot;Adobe Analytics ExperienceEvent&quot; para crear un esquema en Adobe Experience Platform que contenga todos los campos utilizados por Adobe Analytics.<br><br>Crear un esquema basado en el grupo de campos Adobe Analytics ExperienceEvent es sencillo y tarda solo unos minutos en completarse."
+>title="Creación de un esquema utilizando el grupo de campos Adobe Analytics ExperienceEvent"
+>abstract="Utilice el grupo de campos &quot;Adobe Analytics ExperienceEvent&quot; para crear un esquema en Adobe Experience Platform que contenga todos los campos utilizados por Adobe Analytics.<br><br>Crear un esquema basado en el grupo de campos Adobe Analytics ExperienceEvent es sencillo y solo lleva unos minutos completarlo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,8 +38,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
->title="Habilitar el esquema para el perfil"
->abstract="Habilite el perfil en su esquema para utilizarlo en Adobe Real-time CDP. Este paso aparece porque ha seleccionado el deseo de integración con Adobe Real-time CDP.<br><br>Dado que este paso implica hacer clic en un solo cuadro, este paso solo dura unos minutos."
+>title="Habilitación del esquema para el perfil"
+>abstract="Habilite el perfil en su esquema para utilizarlo en Adobe Real-time CDP. Este paso aparece porque ha seleccionado el deseo de integrarse con Adobe Real-time CDP.<br><br>Dado que este paso implica hacer clic en un solo cuadro, este paso solo dura unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 

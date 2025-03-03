@@ -10,7 +10,7 @@ exl-id: f96565a2-f556-4b45-b88e-984613614d2e
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 7%
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create"
->title="Cree el conector de origen de Analytics"
->abstract="Utilice el conector de origen de Analytics para introducir datos de grupos de informes y utilizarlos en Customer Journey Analytics.<br><br>La creación del conector de origen de Analytics tarda unos minutos con la configuración predeterminada."
+>title="Creación del conector de origen de Analytics"
+>abstract="Utilice el conector de origen de Analytics para la ingesta de datos de grupos de informes para su uso en Customer Journey Analytics.<br><br>La creación del conector de origen de Analytics solo tarda unos minutos con la configuración predeterminada."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
->title="Creación del conector de origen de Analytics y asignación de campos de esquema"
->abstract="El conector de origen necesita saber cómo asignar campos de Adobe Analytics al esquema de la organización. Utilice esta interfaz para proporcionar al conector de origen esa asignación. Este paso forma parte de la adición de datos históricos a Customer Journey Analytics.<br><br>El tiempo que tarda este paso depende en gran medida del número de dimensiones y métricas que debe asignar. Este paso no es tan difícil como tedioso y repetitivo. Se espera que la asignación de flujos de datos tarde aproximadamente una semana en completarse."
+>title="Creación del conector de origen de Analytics y asignación de campos del esquema"
+>abstract="El conector de origen necesita saber cómo asignar campos de Adobe Analytics al esquema de la organización. Utilice esta interfaz para proporcionar al conector de origen esa asignación. Este paso forma parte de la incorporación de datos históricos a Customer Journey Analytics.<br><br>El tiempo que tarda este paso depende en gran medida del número de dimensiones y métricas que debe asignar. Este paso no es tan difícil pero sí tedioso y repetitivo. Se espera que la asignación de la secuencia de datos tarde aproximadamente una semana en completarse."
 
 <!-- markdownlint-enable MD034 -->
 

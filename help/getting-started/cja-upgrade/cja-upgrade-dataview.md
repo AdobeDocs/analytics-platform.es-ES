@@ -1,5 +1,5 @@
 ---
-title: Cree una vista de datos en Customer Journey Analytics
+title: Creación de una vista de datos en Customer Journey Analytics
 description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 29%
+ht-degree: 44%
 
 ---
 
-# Cree una vista de datos en Customer Journey Analytics {#upgrade-create-dataview}
+# Creación de una vista de datos en Customer Journey Analytics {#upgrade-create-dataview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataview"
->title="Cree una vista de datos en Customer Journey Analytics"
->abstract="Una vista de datos es un contenedor específico de Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión.<br><br>Aunque la creación inicial de la vista de datos tarda unos minutos, la configuración de cada dimensión y métrica con la configuración de componente deseada puede tardar varios días. El ajuste de esta configuración se aplica de forma retroactiva, por lo que su organización puede refinarla con el tiempo."
+>title="Creación de una vista de datos en Customer Journey Analytics"
+>abstract="Una vista de datos es un contenedor específico de Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión. <br><br>Aunque la creación inicial de la vista de datos tarda unos minutos, la configuración de cada dimensión y métrica con la configuración de componente deseada puede tardar varios días. Esta configuración se aplica de forma retroactiva, por lo que su organización puede perfeccionarla con el tiempo."
 
 <!-- markdownlint-enable MD034 -->
 

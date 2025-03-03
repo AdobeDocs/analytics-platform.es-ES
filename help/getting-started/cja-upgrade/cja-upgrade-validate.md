@@ -10,18 +10,18 @@ exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 38%
 
 ---
 
-# Validar que los datos fluyen a Customer Journey Analytics. {#validate-data}
+# Validar que los datos fluyen a Customer Journey Analytics {#validate-data}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-validate"
->title="Validar que los datos estén fluyendo"
->abstract="Utilice los detalles de conexión para validar si los datos fluyen a Customer Journey Analytics.<br><br>Si todo se hizo correctamente y sin problemas, este paso se puede realizar en menos de un día. Si hay varios problemas de recopilación de datos, la resolución de estos puede tardar mucho más."
+>title="Validar que los datos están fluyendo"
+>abstract="Utilice los detalles de conexión para validar si los datos fluyen a Customer Journey Analytics.<br><br>Si todo se ha realizado correctamente y sin problemas, este paso se puede realizar en menos de un día. Si aparecen varios problemas de recopilación de datos, solucionarlos puede llevar considerablemente más tiempo."
 
 <!-- markdownlint-enable MD034 -->
 

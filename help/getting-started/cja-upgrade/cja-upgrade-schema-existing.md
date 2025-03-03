@@ -1,5 +1,5 @@
 ---
-title: Elija su esquema para Customer Journey Analytics
+title: Elección del esquema para Customer Journey Analytics
 description: Obtenga información acerca de las opciones disponibles al elegir un esquema para Customer Journey Analytics y las ventajas y desventajas de cada una
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 40%
+ht-degree: 65%
 
 ---
 
-# Elija su esquema para Customer Journey Analytics {#choose-schema}
+# Elección del esquema para Customer Journey Analytics {#choose-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-tailored"
->title="Usar un esquema personalizado"
->abstract="(Recomendado) La personalización del esquema permite a la organización realizar un seguimiento únicamente de lo que necesita y evitar la sobrecarga vinculada a campos confusos e innecesarios. Esta opción incluye grupos de campos agregados por Web SDK y grupos de campos personalizados para su organización."
+>title="Uso de un esquema personalizado"
+>abstract="(Recomendado) La personalización del esquema permite a la organización realizar un seguimiento únicamente de lo que necesita y evitar la sobrecarga vinculada a campos confusos e innecesarios. Esta opción incluye grupos de campos añadidos por el SDK web y grupos de campos personalizados para su organización."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
->title="Usar el esquema predeterminado"
->abstract="(No recomendado) El esquema de Adobe Analytics contiene más de mil campos, lo que puede generar esquemas desordenados y complejos. Su organización se vería obligada a seguir adhiriendo al concepto de props y eVars, que es un concepto heredado no utilizado en Customer Journey Analytics. La integración con otros servicios de Adobe Experience Platform es más difícil."
+>title="Uso del esquema predeterminado"
+>abstract="(No recomendado) El esquema de Adobe Analytics contiene más de mil campos, lo que puede generar esquemas desordenados y complejos. Su organización se vería obligada a seguir adhiriéndose al concepto de props y eVars, que es un concepto heredado no utilizado en Customer Journey Analytics. La integración con otros servicios de Adobe Experience Platform es más difícil."
 
 <!-- markdownlint-enable MD034 -->
 

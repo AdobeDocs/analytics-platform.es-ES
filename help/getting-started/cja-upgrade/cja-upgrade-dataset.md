@@ -10,18 +10,18 @@ exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 40%
+ht-degree: 56%
 
 ---
 
-# Crear un conjunto de datos para utilizarlo con Customer Journey Analytics {#upgrade-create-dataset}
+# Creación de un conjunto de datos para utilizarlo con Customer Journey Analytics {#upgrade-create-dataset}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-create"
 >title="Creación de un conjunto de datos en Adobe Experience Platform"
->abstract="Un conjunto de datos es una ubicación en la que residen los datos recopilados. Cree esta ubicación en Adobe Experience Platform.<br><br>Crear un conjunto de datos con un esquema en mente toma solo unos minutos."
+>abstract="Un conjunto de datos es una ubicación en la que residen los datos recopilados. Cree esta ubicación en Adobe Experience Platform.<br><br>Crear un conjunto de datos con un esquema en mente solo lleva unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 

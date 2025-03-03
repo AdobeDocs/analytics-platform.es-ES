@@ -10,7 +10,7 @@ exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 27%
+ht-degree: 40%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-extension"
->title="Añada la extensión de Platform Web SDK a la propiedad de etiquetas"
->abstract="Agregue la extensión Adobe Experience Platform Web SDK a la propiedad de etiquetas. Añadir la extensión Web SDK a la propiedad de etiquetas es más sencillo y tarda solo unos minutos en completarse."
+>title="Añadir la extensión del SDK web de Platform a la propiedad de etiqueta"
+>abstract="Añada la extensión del SDK web de Adobe Experience Platform a la propiedad de etiqueta. Añadir la extensión del SDK web a la propiedad de etiqueta es más sencillo y solo tarda unos minutos en completarse."
 
 <!-- markdownlint-enable MD034 -->
 

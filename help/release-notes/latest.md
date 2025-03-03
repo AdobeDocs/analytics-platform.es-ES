@@ -4,7 +4,7 @@ description: Visualización de las notas de la última versión de Customer Jour
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: f61e3c1563187a4852734fcca5ffbd21b70849f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 

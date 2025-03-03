@@ -8,7 +8,7 @@ role: User
 source-git-commit: 827ab36b27eee1b0af46ff1c653f13b1accfe105
 workflow-type: tm+mt
 source-wordcount: '3632'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -144,7 +144,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Métrica predeterminada de la tabla"
->abstract="Seleccione la métrica predeterminada que se utilizará en las tablas improvisadas. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambiará automáticamente a otra métrica principal."
+>abstract="Seleccione la métrica predeterminada que se utilizará en las tablas de forma libre. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambiará automáticamente a otra métrica principal."
 
 
 <!-- markdownlint-enable MD034 -->

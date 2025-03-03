@@ -1,5 +1,5 @@
 ---
-title: Evalúe cuánto tiempo necesita Adobe Analytics después de actualizar a Customer Journey Analytics
+title: Evalúe durante cuánto tiempo necesita Adobe Analytics después de actualizar a Customer Journey Analytics
 description: Obtenga información sobre cómo evaluar cuánto tiempo necesita Adobe Analytics después de actualizar a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,7 +10,7 @@ exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-keep-aa"
 >title="Mantener ambos productos de análisis"
->abstract="(No recomendado) Si selecciona esta opción, el contrato con Adobe incluye tanto Adobe Analytics como Customer Journey Analytics, lo que puede resultar más caro para su organización a lo largo del tiempo."
+>abstract="(No recomendado) Si selecciona esta opción, el contrato con Adobe incluye tanto Adobe Analytics como Customer Journey Analytics, lo que puede resultar más caro para su organización con el tiempo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,8 +56,8 @@ A la hora de decidir si su organización debe deshabilitar Adobe Analytics y cu�
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-appmeasurement-third-pary"
->title="Desactivar un sistema de administración de etiquetas de terceros"
->abstract="Con los datos de Web SDK completamente funcionales, colabore con su administrador de etiquetas para eliminar la biblioteca de AppMeasurement de su sistema de administración de etiquetas de terceros.<br><br>El tiempo estimado para realizar este paso depende de la facilidad con que se deshabilite AppMeasurement del producto de administración de etiquetas, así como del ciclo de lanzamiento que emplee su organización para implementar y administrar el código de etiquetas."
+>title="Deshabilitación de un sistema de administración de etiquetas de terceros"
+>abstract="Con los datos del SDK web completamente funcionales, colabore con su administrador de etiquetas para quitar la biblioteca de AppMeasurement de su sistema de administración de etiquetas de terceros.<br><br>El tiempo estimado para realizar este paso depende de la facilidad con que se deshabilite AppMeasurement del producto de administración de etiquetas, así como del ciclo de lanzamiento que emplee su organización para implementar y administrar el código de etiquetas."
 
 <!-- markdownlint-enable MD034 -->
 

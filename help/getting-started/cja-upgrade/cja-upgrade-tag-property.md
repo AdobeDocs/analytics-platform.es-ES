@@ -10,7 +10,7 @@ exl-id: 156df830-541d-4c92-9c49-98f346e040a7
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 28%
+ht-degree: 43%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-property"
->title="Cree una propiedad de etiqueta en la recopilación de datos de Adobe Experience Platform"
->abstract="El uso de etiquetas es el estándar típico para la recopilación de datos. Cree una etiqueta en la interfaz de Adobe Experience Platform para poder actualizar las variables de recopilación de datos en cualquier momento.<br><br>La creación de una propiedad de etiqueta puede completarse en varios clics y tardar unos minutos."
+>title="Creación de una propiedad de etiqueta en la recopilación de datos de Adobe Experience Platform"
+>abstract="Usar etiquetas es el estándar típico para la recopilación de datos. Cree una etiqueta en la interfaz de Adobe Experience Platform para poder actualizar las variables de recopilación de datos en cualquier momento.<br><br>La creación de una propiedad de etiqueta puede completarse con varios clics y tardar solamente unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 

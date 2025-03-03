@@ -1,5 +1,5 @@
 ---
-title: Crear conjuntos de datos de búsqueda para clasificar datos en Customer Journey Analytics
+title: Creación de conjuntos de datos de búsqueda para clasificar datos en Customer Journey Analytics
 description: Obtenga información sobre cómo crear conjuntos de datos de búsqueda para clasificar datos en Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,17 +10,17 @@ exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
-# Crear conjuntos de datos de búsqueda para clasificar datos en Customer Journey Analytics {#upgrade-lookup-dataset}
+# Creación de conjuntos de datos de búsqueda para clasificar datos en Customer Journey Analytics {#upgrade-lookup-dataset}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-lookup-dataset-create"
->title="Crear un conjunto de datos de consulta para cada dimensión que contenga datos de clasificación"
+>title="Creación de un conjunto de datos de búsqueda para cada dimensión que contenga datos de clasificación"
 >abstract="De forma similar a los datos de clasificaciones en Adobe Analytics, los conjuntos de datos de búsqueda son el método para clasificar datos en Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
