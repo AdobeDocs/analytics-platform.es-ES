@@ -4,10 +4,10 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
+source-git-commit: 180129837fa326f600ebc3dc5a2a54fd6c3372cb
 workflow-type: tm+mt
-source-wordcount: '4438'
-ht-degree: 56%
+source-wordcount: '4542'
+ht-degree: 54%
 
 ---
 
@@ -418,8 +418,8 @@ Igual. El resultado es 0 (falso) o 1 (verdadero).
 
 | Argumento | Descripción |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La métrica que desea utilizar para comparar. |
+| metric_Y | La métrica con la que desea comparar. |
 
 ### Ejemplo
 
@@ -557,8 +557,8 @@ El resultado es 0 (falso) o 1 (verdadero).
 
 | Argumento | Descripción |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La métrica base que desea utilizar para comparar. |
+| metric_Y | La métrica con la que desea comparar. |
 
 ### Ejemplo
 
@@ -582,8 +582,8 @@ Mayor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 
 | Argumento | Descripción |
 |---|---|
-| metric_X |  |
-| metric_Y |  |
+| metric_X | La métrica base que desea utilizar para comparar. |
+| metric_Y | La métrica con la que desea comparar. |
 
 ### Ejemplo
 
@@ -695,8 +695,8 @@ El resultado es 0 (falso) o 1 (verdadero).
 
 | Argumento | Descripción |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La métrica que desea utilizar para comparar. |
+| metric_Y | La métrica con la que desea comparar. |
 
 ### Ejemplo
 
@@ -720,8 +720,8 @@ Menor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 
 | Argumento | Descripción |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La métrica que desea utilizar para comparar. |
+| metric_Y | La métrica con la que desea comparar. |
 
 ### Ejemplo
 
@@ -1019,8 +1019,8 @@ No es igual. El resultado es 0 (falso) o 1 (verdadero).
 
 | Argumento | Descripción |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La métrica que desea utilizar para comparar. |
+| metric_Y | La métrica con la que desea comparar. |
 
 ### Ejemplo
 
