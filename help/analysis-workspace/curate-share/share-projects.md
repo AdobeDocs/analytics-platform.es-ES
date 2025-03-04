@@ -5,9 +5,9 @@ title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: d47fabb35e6674b8accb6ce3b56cb13c334f4d96
+source-git-commit: 100fe0c9bf5dd1db78ae8188e8de1f8ea53123dc
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2069'
 ht-degree: 62%
 
 ---
