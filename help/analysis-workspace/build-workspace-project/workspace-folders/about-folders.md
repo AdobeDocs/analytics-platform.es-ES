@@ -5,9 +5,9 @@ title: Información general de carpetas
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: ht
-source-wordcount: '435'
+source-git-commit: 8571fbcfddd18658306e264cef88a3f10861e069
+workflow-type: tm+mt
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -49,12 +49,7 @@ Non-Admins have limited options.
 A continuación se ofrecen algunas directrices para trabajar con la carpeta de compañía:
 
 - Los administradores pueden agregar proyectos a la carpeta de la compañía o crear uno nuevo y guardarlo en ella. Los usuarios que no son administradores pueden ver el contenido de la carpeta de compañía.
-
 - Los administradores pueden crear subcarpetas dentro de la carpeta de compañía.
-
 - Los administradores pueden eliminar una carpeta dentro de la carpeta de compañía que otro administrador haya creado. Es posible que los administradores tengan que coordinarse con otros administradores para mantener la coherencia de las carpetas y el acceso al proyecto.
-
 - Cuando un administrador mueve un proyecto a la carpeta de la compañía, la carpeta se comparte con todos, aunque los privilegios compartidos originales estén restringidos. 
-- Cuando un administrador mueve un proyecto fuera de la carpeta de compañía, se respetan los privilegios de uso compartido originales o anteriores.
-
 - Cuando un administrador mueve un proyecto fuera de la carpeta de compañía, se respetan los privilegios de uso compartido originales o anteriores.

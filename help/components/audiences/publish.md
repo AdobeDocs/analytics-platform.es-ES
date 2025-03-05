@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: e444474d9f859f59613caa8fad06998372cdf742
+source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 18%
@@ -71,7 +71,7 @@ Lea esta [descripción general](/help/components/audiences/audiences-overview.md
 
    | Método de creación | Detalles |
    | --- | --- |
-   | Desde la interfaz **[!UICONTROL Audiencias]**. | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Audiencias. Seleccione **[!UICONTROL Crear audiencia]** y se abrirá [!UICONTROL el generador de audiencias]. |
+   | Desde la interfaz **[!UICONTROL Audiencias]** | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Audiencias. Seleccione **[!UICONTROL Crear audiencia]** y se abrirá [!UICONTROL el generador de audiencias]. |
    | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear una audiencia utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear audiencia]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el filtro del Generador de audiencias con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear una audiencia utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Las audiencias no pueden incluir métricas calculadas. Si intenta crear una audiencia que contenga una métrica calculada, esta no se incluye en la definición de la audiencia.</p> |
    | Desde la interfaz de usuario de creación/edición de filtros | Marque la casilla que dice **[!UICONTROL Crear una audiencia a partir de este filtro]**. Mediante este método se rellena previamente el filtro. Consulte [Crear filtros](/help/components/filters/create-filters.md) para obtener más información. |
 
@@ -147,7 +147,7 @@ En varios puntos antes, durante y después de la publicación de audiencias, se 
 
 ## Uso de audiencias de Customer Journey Analytics en Experience Platform {#audiences-aep}
 
-Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite a Real-Time Customer Data Platform Customer Journey Analytics envía la audiencia a Experience Platform con la identidad principal establecida, según lo que se seleccionó como [!UICONTROL ID de persona] cuando se configuró la conexión.
+Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite a Real-Time Customer Data Platform. Customer Journey Analytics envía la audiencia a Experience Platform con la identidad principal establecida, según lo que se seleccionó como [!UICONTROL ID de persona] cuando se configuró la conexión.
 
 A continuación, Real-Time Customer Data Platform examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, agrega el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia a un segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
