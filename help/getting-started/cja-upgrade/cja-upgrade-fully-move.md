@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 14%
+source-wordcount: '1067'
+ht-degree: 12%
 
 ---
 
@@ -31,6 +31,15 @@ ht-degree: 14%
 >id="cja-upgrade-keep-aa"
 >title="Mantener ambos productos de análisis"
 >abstract="(No recomendado) Si selecciona esta opción, el contrato con Adobe incluye tanto Adobe Analytics como Customer Journey Analytics, lo que puede resultar más caro para su organización con el tiempo."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-source-connector"
+>title="Deshabilite el conector de origen de Analytics para utilizar datos exclusivamente desde Web SDK"
+>abstract="El conector de origen de Analytics se utiliza para proporcionar una comparación de datos en paralelo, datos históricos y acceso a algunas funciones que no están totalmente disponibles en Customer Journey Analytics. Cuando ya no necesite Adobe Analytics para estos fines, puede deshabilitar el conector de origen de Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -58,6 +67,24 @@ A la hora de decidir si su organización debe deshabilitar Adobe Analytics y cu�
 >id="cja-upgrade-disable-appmeasurement-third-pary"
 >title="Deshabilitación de un sistema de administración de etiquetas de terceros"
 >abstract="Con los datos del SDK web completamente funcionales, colabore con su administrador de etiquetas para quitar la biblioteca de AppMeasurement de su sistema de administración de etiquetas de terceros.<br><br>El tiempo estimado para realizar este paso depende de la facilidad con que se deshabilite AppMeasurement del producto de administración de etiquetas, así como del ciclo de lanzamiento que emplee su organización para implementar y administrar el código de etiquetas."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-tags"
+>title="Desactivación de la extensión de Analytics en etiquetas"
+>abstract="Con los datos de Web SDK completamente funcionales, colabore con su administrador de etiquetas para eliminar la extensión de Adobe Analytics de la propiedad de etiquetas. Antes de hacerlo, asegúrese de que los usuarios hayan realizado la transición del uso de Adobe Analytics a Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-api"
+>title="Desactivar la recopilación de datos de API para Adobe Analytics"
+>abstract="Con los datos de Web SDK completamente funcionales, colabore con el equipo de ingeniería correspondiente para eliminar el código Adobe Analytics del proyecto. Antes de hacerlo, asegúrese de que los usuarios hayan realizado la transición del uso de Adobe Analytics a Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

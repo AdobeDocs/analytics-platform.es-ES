@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 15%
+source-wordcount: '538'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 15%
 >id="cja-upgrade-source-connector"
 >title="Disponibilidad del conector de origen de Analytics"
 >abstract="El conector de origen de Analytics permite obtener fácilmente valor con Customer Journey Analytics, pero requiere que se pague tanto por Adobe Analytics como por Customer Journey Analytics. Esta guía puede ayudarle a avanzar hacia una implementación independiente del SDK web."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-delete"
+>title="Eliminar el conector de origen de Analytics existente"
+>abstract="El conector de origen de Analytics que tiene actualmente no es compatible con el esquema personalizado de su organización. Sin embargo, los datos aún existen en el grupo de informes de Analytics. Este paso elimina el conector de origen actual de Analytics para que pueda volver a crearlo con el esquema correcto en un paso posterior.<br><br>Antes de eliminar el conector de origen, es posible que desee coordinarse con otros usuarios de su organización para asegurarse de que la eliminación del conector de origen no afecte a la creación de informes dentro de su organización. Esta coordinación puede tardar varias semanas en completarse."
 
 <!-- markdownlint-enable MD034 -->
 

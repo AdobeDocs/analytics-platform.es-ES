@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 16%
+source-wordcount: '132'
+ht-degree: 21%
 
 ---
 
@@ -20,40 +20,48 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
 >title="Uso del objeto de personalización para Adobe Journey Optimizer"
->abstract="Utilice el objeto de personalización en la implementación para utilizarlo en Adobe Journey Optimizer."
+>abstract="Al aprovechar las tecnologías de vanguardia en aprendizaje automático supervisado y aprendizaje profundo, la optimización personalizada permite a un usuario empresarial (experto en marketing) definir los objetivos comerciales y utiliza los datos de sus clientes para formar modelos orientados a la empresa que proporcionen ofertas personalizadas y maximicen los KPI."
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note}}
 
-El resultado del objeto de personalización termina en un conjunto de datos. El resultado de la experimentación. Cuando un cliente ha utilizado AA con Target, esto termina en un espacio completamente diferente al de cuando migra a CJA y va a utilizar CJA con Adobe Target.
+Al aprovechar las tecnologías de vanguardia en aprendizaje automático supervisado y aprendizaje profundo, la optimización personalizada permite a un usuario empresarial (experto en marketing) definir los objetivos comerciales y utiliza los datos de sus clientes para formar modelos orientados a la empresa que proporcionen ofertas personalizadas y maximicen los KPI.
 
-Target era la forma antigua de configurar una prueba O experimentación A/B. Después, asegurarse de que los resultados de esas pruebas en Target terminaran en AA para la creación de informes. Ahora, si está utilizando Target, en lugar de decir que desea los datos en Target, puede seleccionar CJA como fuente de informes para una actividad de Adobe Target. Por lo tanto, si un cliente está haciendo esto en AA y desea pasar a CJA, ...
+Para obtener más información, consulte [Modelo de optimización personalizado](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) en la Guía de Journey Optimizer.
 
-Si un cliente tiene AJO y utiliza Ofertas en AJO, puede configurar ofertas y eso también crea conjuntos de datos en Platform... Pero eso no es relevante con la actualización, exactamente.
+<!--
 
+The result of the personalization object ends up in a dataset. The result of experimentation. When a customer has used AA with Target, that ends up in a complete different space than when they're migrating to CJA and they're going to use CJA with Adobe Target. 
 
+Target was the old way of setting up an A/B test or experimentation. Then ensuring the results of those tests in Target ended up in AA for reporting. Now if you're using Target, instead of saying that you want the data in Target, you can now select CJA as your reporting source for an Adobe Target activity. So if a customer is doing this in AA and they want to move to CJA, ...
 
-Preguntas que debemos responder:
-
-1. ¿Cómo determinamos los criterios de personalización? (Rojo para el usuario A y azul para el usuario B)
-
-1. ¿Qué implementamos en el sitio para determinar el objeto rojo / azul?
-
-
-2 formas en que podemos hacerlo:
-
-Procesar contenido manualmente o Procesar contenido automáticamente.
-
-
-## Implementación manual de Web SDK
-
-
-## Implementación de Mobile SDK
+If a customer has AJO, and is using Offers in AJO, then they can set up offers, and that also creates datasets in Platform... But that's not relevant with upgrade, exactly.
 
 
 
+Questions we need to answer:
+
+1. How do we determine the personalization criteria (Red for user A and blue for User B)
+
+1. What do we implement on the site to determine the red / blue object?
 
 
-## Etiquetas
+2 ways we can do it:
+
+Manually rendering content or Automatically rendering content. 
+
+
+## Manual implementation of the Web SDK
+
+
+## Mobile SDK implementation 
+
+
+
+
+
+## Tags
+
+-->
 

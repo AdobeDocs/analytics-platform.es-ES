@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 87b2927735834d253fa8a35ba106c1ed720a4ced
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 92%
+source-wordcount: '1193'
+ht-degree: 91%
 
 ---
 
@@ -59,12 +59,12 @@ ht-degree: 92%
          + [Crear un conjunto de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
          + [Creación de conjuntos de datos de búsqueda para clasificaciones](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
          + [Monitorización de la ingesta de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + Crear etiquetas {#create-tags}
+      + Implementar Web SDK con etiquetas {#create-tags}
          + [Creación de una etiqueta para su propiedad](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
          + [Adición de la extensión del SDK web a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
          + [Implementación de la etiqueta de carga para la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
          + [Adición de la lógica de recopilación de datos XDM a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
-      + [Implementación manual de Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
+      + [Implementar Web SDK manualmente](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
       + [Implementar Web SDK con la API](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
       + [Crea una conexión](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [Crea una vista de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
@@ -88,6 +88,8 @@ ht-degree: 92%
          + [Comprender la implementación de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
          + [Compatibilidad con funciones de Adobe Analytics al actualizar](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
          + [Funciones de Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-customer-journey-analytics-features.md)
+         + [Opciones de implementación de Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-websdk-implementation.md)
+         + [Configuración de Adobe Analytics Web SDK para Platform](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)
    + Comparación con Adobe Analytics {#cja-aa-comparison}
       + [Información general](../getting-started/aa-vs-cja/overview.md)
       + [Utilizar datos en Adobe Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
