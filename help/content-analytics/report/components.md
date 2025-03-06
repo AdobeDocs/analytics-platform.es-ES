@@ -6,7 +6,8 @@ feature: Content Analytics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
+exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
+source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 17%
@@ -49,6 +50,9 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 | Profundidad de píxeles horizontales de la experiencia | Valor cuantificable de la profundidad de píxel horizontal de la experiencia. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Profundidad de píxeles verticales de la experiencia | Valor cuantificable de la profundidad de píxel vertical de la experiencia. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 
+{style="table-layout:fixed"}
+
+
 
 ## Atributos de la experiencia
 
@@ -68,6 +72,8 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 | Recuento de palabras de la experiencia | ![IA generada](/help/assets/icons/AI.svg) Número de palabras para la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 | Recuento de palabras por frase de la experiencia | ![IA generada](/help/assets/icons/AI.svg) Número de palabras por frase para la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 
+{style="table-layout:fixed"}
+
 
 ## Eventos de experiencia
 
@@ -75,6 +81,8 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 |---|---|---|---|
 | Vistas de experiencias | Medida cuantificable del número de vistas de la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 | Clics de experiencia | Medida cuantificable del número de clics de la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
+
+{style="table-layout:fixed"}
 
 
 ## Metadatos de recursos
@@ -96,6 +104,8 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 | Fecha de creación del recurso | Fecha de creación del recurso. | Dimensión | \| Más reciente Session |
 | Última actualización del recurso por | Identificador para la actualización de recursos. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Fecha de última actualización del recurso | Fecha de actualización del recurso. | Dimensión | \| Más reciente Session |
+
+{style="table-layout:fixed"}
 
 
 ## Atributos del recurso
@@ -119,6 +129,8 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 | Condiciones de iluminación del recurso | ![IA generada](/help/assets/icons/AI.svg) Condición de iluminación del recurso. Los valores posibles son: hora dorada, hora azul, mediodía, nublado, noche, clave alta, clave baja, luz diurna, incandescente, fluorescente, colorido y estudio. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Configuración de cámara del recurso | ![IA generada](/help/assets/icons/AI.svg) Configuración de cámara del recurso. Los valores posibles son: velocidad de obturación rápida, exposición prolongada. desenfoque de bokeh, desenfoque de movimiento, desenfoque de inclinación-cambio, flash, gran angular, blanco y negro, surrealista, doble exposición, macro y modo normal. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 
+{style="table-layout:fixed"}
+
 
 ## Eventos de recursos
 
@@ -126,6 +138,8 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 |---|---|---|---|
 | Vistas de recursos | Medida cuantificable del número de vistas del recurso. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 | Clics en recursos | Medida cuantificable del número de clics del recurso. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
+
+{style="table-layout:fixed"}
 
 
 <!--
@@ -137,6 +151,8 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 | Experience Path Root | Root path to the experience. | Derived Field | |
 | Asset Location | Location of the asset. | Derived Field | |
 | Asset Percenption ID + Asset ID | Combiination of asset perception identifier and asset identifier | Derived Field | |
+
+{style="table-layout:fixed"}
 -->
 
 ## Métricas calculadas 
@@ -145,3 +161,5 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 |---|---|---|---|
 | Tasa de clics en recursos | Clics en recursos/Vistas de recursos | Métrica calculada | |
 | tasa de clics de experiencia | Clics en experiencias/Vistas de experiencias | Métrica calculada | |
+
+{style="table-layout:fixed"}

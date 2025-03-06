@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 596e54a559bac69214e1de3ea37da6177f110b7a
+source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 2%
@@ -39,10 +39,11 @@ La configuración de Análisis de contenido consiste en los siguientes pasos:
    * Recopilación de datos
       * Se crea un conjunto de datos y se configura un servicio de Experience Platform dentro del conjunto de datos para transmitir datos al conjunto de datos de evento de experiencia de Content Analytics.
       * Se crea una propiedad Tag con la extensión de Adobe Content Analytics configurada para la zona protegida, la secuencia de datos y otras opciones de configuración correctas del asistente de configuración.
-1. Solo cuando publica manualmente la propiedad Etiqueta, el Análisis de contenido se implementa y activa de forma eficaz.
+1. Solo cuando [publique](manual.md) manualmente la propiedad Etiqueta, el Análisis de contenido se implementará y activará de manera efectiva.
+
 1. Solo puede realizar algunos cambios limitados en una configuración implementada mediante el asistente de [configuración guiada](guided.md). Por ejemplo, cambie la [vista de datos](/help/data-views/data-views.md).
 1. Puede realizar otros cambios en una configuración implementada mediante la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) en la propiedad de etiquetas asociada.
-1. Solo cuando vuelve a publicar manualmente la propiedad Tag, las modificaciones de configuración de los pasos 4 y 5 se implementan y activan de forma eficaz.
+1. Solo cuando [vuelva a publicar](manual.md) manualmente la propiedad Tag, las modificaciones de configuración de los pasos 4 y 5 se implementarán y activarán de manera efectiva.
 
 
 Antes de configurar Análisis de contenido, asegúrese de que se cumplen los siguientes requisitos previos:

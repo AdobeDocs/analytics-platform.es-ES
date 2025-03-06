@@ -5,10 +5,10 @@ exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 5807700b9fe10769bf86f5c4020dd7c23df6e616
+source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 73%
+source-wordcount: '430'
+ht-degree: 47%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 73%
 
 Las búsquedas estándar (también conocidas como búsquedas suministradas por Adobe) mejoran la capacidad de Customer Journey Analytics para informar sobre algunas dimensiones o atributos que no son útiles por sí mismos, pero que sí lo son cuando se unen con otros datos. Algunos ejemplos son los atributos de los dispositivos móviles y de las dimensiones del sistema operativo y del explorador, como, por ejemplo, los números de versión del explorador. Una &quot;búsqueda estándar&quot; es similar a un conjunto de datos de búsqueda. Sin embargo, las búsquedas estándar son aplicables en todas las organizaciones con Experience Cloud. Se aplican automáticamente a todos los conjuntos de datos de evento que contienen determinados campos de esquema XDM (consulte la información sobre campos específicos a continuación). Existe un conjunto de datos de búsqueda estándar para cada ubicación de esquema que Adobe clasifica.
 
-En Adobe Analytics tradicional, estas dimensiones aparecen por sí solas, mientras que en Customer Journey Analytics hay que incluir activamente estas dimensiones al crear vistas de datos. En el flujo de trabajo Conexiones, seleccione un conjunto de datos que esté marcado con una clave para la búsqueda estándar. La IU de vistas de datos sabe automáticamente que debe incluir todas las dimensiones de búsqueda estándar que estén disponibles para la creación de informes. Los archivos de búsqueda se mantienen actualizados automáticamente y están disponibles en todas las regiones y todas las cuentas. Se almacenan en organizaciones específicas de la región asociadas con el cliente.
+En la versión tradicional de Adobe Analytics, estas dimensiones aparecen por sí solas, mientras que en Customer Journey Analytics hay que incluir activamente estas dimensiones al crear las vistas de datos. En el flujo de trabajo Conexiones, seleccione un conjunto de datos que esté marcado con una clave para la búsqueda estándar. La IU de vistas de datos sabe automáticamente que debe incluir todas las dimensiones de búsqueda estándar que estén disponibles para la creación de informes. Los archivos de búsqueda se mantienen actualizados automáticamente y están disponibles en todas las regiones y todas las cuentas. Se almacenan en organizaciones específicas de la región asociadas con el cliente.
 
 ## Uso de búsquedas estándar con conjuntos de datos del conector de origen de Analytics
 
@@ -75,10 +75,15 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 ## Informe sobre dimensiones de búsqueda estándar
 
-Para informar sobre las dimensiones de búsqueda estándar, debe añadirlas al crear una vista de datos en Customer Journey Analytics:
+Para informar sobre las dimensiones de búsqueda estándar de Adobe, debes agregar una o más de estas dimensiones al crear una [vista de datos](/help/data-views/data-views.md) en Customer Journey Analytics. En **[!UICONTROL Vista de datos]** > **[!UICONTROL Componentes]**:
 
-![Crear una vista de datos que muestre la lista Agregar componentes](assets/global-lookup.png)
+1. Seleccione **[!UICONTROL Campos de esquema]** en el menú desplegable del carril izquierdo.
+1. Seleccione **[!UICONTROL búsquedas de Adobe]** de la lista de contenedores de campos de esquema.
+1. Explore en profundidad **[!UICONTROL Explorador]**, **[!UICONTROL Móvil]** o **[!UICONTROL Sistema operativo]** hasta que encuentre la dimensión que desee agregar.
+1. Arrastre la dimensión a la tabla **[!UICONTROL Métricas]** o **[!UICONTROL Dimensiones]** dentro de **[!UICONTROL Componentes incluidos]**.
 
-A continuación, podrá ver los datos de búsqueda el Espacio de trabajo:
+   ![Crear una vista de datos que muestre la lista Agregar componentes](assets/add-standard-lookup-dimension.gif)
+
+A continuación, puede utilizar los datos de búsqueda en Workspace:
 
 ![Tabla de forma libre que muestra los datos](assets/gl-reporting.png)
