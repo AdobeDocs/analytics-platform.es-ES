@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1283b285ff49225835abb8e7d8103f34aad686b1
-workflow-type: ht
-source-wordcount: '4649'
-ht-degree: 100%
+source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
+workflow-type: tm+mt
+source-wordcount: '4664'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Marzo de 2025** | |
+| Casos de uso de métricas cuánticas | Se han agregado casos de uso para recopilar datos de [Métrica cuántica](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
 | **Febrero de 2025** |  |
 | Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de informes de medios | El conector de origen de Analytics [asigna automáticamente los datos de medios de streaming en Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=es) a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero solo se utilizará la nueva en el futuro.  |
 | Extensión de BI: compatibilidad ampliada | La extensión de Customer Journey Analytics BI admite ahora [Looker, Jupyter Notebook y R Studio](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=es). |
@@ -199,7 +201,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Octubre de 2022 | Aplicación móvil: Tema nuevo sobre [vistas de detalles personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#view-detail-slides). |
 | Octubre de 2022 | Actualizaciones del tema [Soporte de funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
 | **Septiembre de 2022** | |
-| Septiembre de 2022 | Nuevo caso de uso en [Migración de datos de Google Analytics a Customer Journey Analytics](/help/use-cases/ga/overview.md). |
+| Septiembre de 2022 | Nuevo caso de uso en [Migración de datos de Google Analytics a Customer Journey Analytics](/help/use-cases/third-party/ga/overview.md). |
 | Septiembre de 2022 | Tema nuevo acerca de los [Gráficos combinados](/help/analysis-workspace/visualizations/combo-charts.md) en Workspace. |
 | Septiembre de 2022 | Tema nuevo acerca del [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) en Workspace. |
 | **Agosto de 2022** | |
@@ -269,7 +271,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Abril de 2021 | Nuevo tema sobre [persistencia](/help/data-views/component-settings/persistence.md). |
 | Abril de 2021 | Nueva documentación sobre la compatibilidad con proyectos programados en Workspace. |
 | Abril de 2021 | Temas nuevos sobre la experiencia [Vistas de datos mejorada](/help/data-views/data-views.md). |
-| Abril de 2021 | Temas nuevos sobre [ingesta de datos de Google Analytics](/help/use-cases/ga/overview.md) y [análisis de esos datos](/help/use-cases/ga/report.md). |
+| Abril de 2021 | Temas nuevos sobre [ingesta de datos de Google Analytics](/help/use-cases/third-party/ga/overview.md) y [análisis de esos datos](/help/use-cases/third-party/ga/report.md). |
 | Abril de 2021 | Se ha añadido un tema sobre [informes programados](/help/analysis-workspace/export/t-schedule-report.md) en Workspace. |
 | Abril de 2021 | Tema nuevo sobre [dimensiones de alta cardinalidad en Customer Journey Analytics](/help/components/dimensions/high-cardinality.md). |
 | **Marzo de 2021** | |
