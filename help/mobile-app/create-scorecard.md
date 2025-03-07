@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2689'
 ht-degree: 67%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 67%
 <!-- markdownlint-enable MD034 -->
 
 
-La siguiente información enseña a los depuradores de datos de los Customer Journey Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Analytics:
+La siguiente información enseña a los depuradores de datos de Customer Journey Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Analytics:
 
 
 >[!BEGINSHADEBOX]
@@ -36,7 +36,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear un cuadro 
 
 >[!NOTE]
 >
->Las capturas de pantalla del cuadro de resultados de Analytics para esta página se tomaron en la interfaz de usuario de Adobe Analytics, no del Customer Journey Analytics. Las IU son casi idénticas.
+>Las capturas de pantalla del cuadro de resultados de Analytics para esta página se tomaron en la interfaz de usuario de Adobe Analytics, no de Customer Journey Analytics. Las IU son casi idénticas.
 
 Un cuadro de resultados de Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
 
@@ -57,7 +57,7 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 
 ### Creación de un nuevo proyecto {#create}
 
-1. Abra el Customer Journey Analytics y haga clic en la ficha **[!UICONTROL Workspace]**.
+1. Abra Customer Journey Analytics y haga clic en la ficha **[!UICONTROL Workspace]**.
 1. Haga clic en **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL Informe de valoración móvil en blanco]**.
 1. Haga clic en **[!UICONTROL Crear]**.
 
@@ -91,13 +91,13 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 ![Nueva ventana del cuadro de resultados móvil con una flecha que señala desde la lista de dimensiones al panel del cuadro de resultados.](assets/layer_dimensions.png)
 
-## Aplicar filtros {#filters}
+## Aplicar segmentos {#segments}
 
-Para aplicar filtros a mosaicos individuales, arrastre un filtro (los segmentos son filtros en Customer Journey Analytics) desde el panel izquierdo y suéltelo directamente sobre el mosaico.
+Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-Si desea aplicar el filtro a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar filtros seleccionando filtros en el menú de filtro debajo de los intervalos de fechas. Usted [configura y aplica filtros para sus cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la misma manera que lo haría en Customer Journey Analytics Workspace.
+Si desea aplicar el segmento a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar segmentos seleccionándolos en el menú de segmentos debajo de los intervalos de fechas. Usted [configura y aplica segmentos para sus cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la misma manera que lo haría en Customer Journey Analytics Workspace.
 
-![Selector desplegable de filtro que resalta los filtros de compilación](assets/segment_ui.png)
+![Selector desplegable de segmento que resalta los segmentos de compilación](assets/segment_ui.png)
 
 ## Adición de intervalos de fechas {#dates}
 
@@ -186,7 +186,7 @@ Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los dat
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
-Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando filtros. Los segmentos son filtros en el Customer Journey Analytics.
+Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando segmentos.
 
 ![Mosaico de propiedades](assets/properties-tile-new.png)
 
@@ -281,7 +281,7 @@ Para eliminar una diapositiva, pulse el icono de papelera.
 
 ### Personalización de una historia basada en datos {#customize-data-story}
 
-Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para agregar filtros, mostrar desgloses, cambiar el diseño y modificar las visualizaciones.
+Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para añadir segmentos, mostrar desgloses, cambiar el diseño y cambiar las visualizaciones.
 
 **Para personalizar mosaicos**
 

@@ -5,20 +5,20 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 65%
+source-wordcount: '1806'
+ht-degree: 64%
 
 ---
 
 # Administrar cuadros de resultados
 
-En este tema se enseña a los depuradores de datos de Customer Journey Analytics cómo ver y administrar elementos del cuadro de resultados.
+En este tema se enseña a los depuradores de datos de Customer Journey Analytics cómo ver y administrar elementos de cuadro de resultados.
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
-Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando filtros. Los segmentos son filtros en el Customer Journey Analytics.
+Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando segmentos.
 
 ![Mosaico de propiedades](assets/properties-tile-new.png)
 
@@ -109,7 +109,7 @@ Para eliminar una diapositiva, pulse el icono de papelera.
 
 ### Personalización de una historia basada en datos {#customize-data-story}
 
-Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para agregar filtros, mostrar desgloses, cambiar el diseño y modificar las visualizaciones.
+Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para añadir segmentos, mostrar desgloses, cambiar el diseño y cambiar las visualizaciones.
 
 **Para personalizar mosaicos**
 

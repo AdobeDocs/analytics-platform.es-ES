@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1297'
 ht-degree: 73%
 
 ---
@@ -42,7 +42,7 @@ Para descargar e instalar la aplicación, siga los pasos que correspondan al sis
 
 >[!NOTE]
 >
->Aunque la aplicación móvil se denomina tablero de Adobe Analytics en la tienda de aplicaciones, se puede utilizar de la misma manera que los cuadros de resultados móviles de los Customer Journey Analytics.
+>Aunque la aplicación móvil se denomina tablero de Adobe Analytics en la tienda de aplicaciones, se puede utilizar de la misma manera que los cuadros de resultados móviles de Customer Journey Analytics.
 
 **Para usuarios ejecutivos con iOS:**
 
@@ -56,9 +56,9 @@ Haga clic en el siguiente vínculo (también está disponible en Customer Journe
 
 [Vínculo de Android](https://bit.ly/2LM38Oo)
 
-Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Customer Journey Analytics existentes.
+Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Customer Journey Analytics.
 
-![Pantalla de bienvenida de la aplicación del Customer Journey Analytics](assets/welcome.png)
+![Pantalla de bienvenida de la aplicación Customer Journey Analytics](assets/welcome.png)
 
 ## Usar los paneles {#use-dashboards}
 
@@ -82,7 +82,7 @@ Para usar los paneles:
 
    Si inicia sesión y ve un mensaje que indica que no se ha compartido nada, compruebe lo siguiente con su gestor de datos:
 
-   * Puede iniciar sesión en la zona protegida del Customer Journey Analytics derecho.
+   * Puede iniciar sesión en la zona protegida de Customer Journey Analytics correcta.
    * El informe de valoración se ha compartido con usted.
 
    ![No se ha compartido nada](assets/nothing.png)
@@ -120,11 +120,11 @@ Para usar los paneles:
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-1. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la aplicación funcionan del mismo modo que en Workspace.
+1. Para aplicar un segmento a su informe de valoración, pulse la lista desplegable de segmentos y seleccione un segmento que haya configurado el depurador. [Los segmentos](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la aplicación funcionan del mismo modo que en Workspace.
 
-   ![Filtro de segmento](assets/segment_filter.png)
+   ![Segmento](assets/segment_filter.png)
 
-1. Obtener actualizaciones del informe de valoración. Si un informe de valoración no incluye todas las métricas o desgloses que le interesen, póngase en contacto con el equipo del Customer Journey Analytics para actualizar el informe de valoración. Una vez hecho, puede arrastrar el informe de valoración hacia abajo para actualizarlo, lo cual hará que se carguen los datos agregados recientemente.
+1. Obtener actualizaciones de [!UICONTROL informe de valoración]. Si un [!UICONTROL informe de valoración] no incluye todas las métricas o desgloses que te interesen, ponte en contacto con el equipo de Customer Journey Analytics para actualizar el informe de valoración. Una vez hecho, puede arrastrar el informe de valoración hacia abajo para actualizarlo, lo cual hará que se carguen los datos agregados recientemente.
 
 1. Para dejar comentarios sobre esta aplicación:
 

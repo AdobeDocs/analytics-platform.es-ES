@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 74%
+source-wordcount: '711'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicion
 Para garantizar que los usuarios ejecutivos tengan acceso a sus informes de valoración en la aplicación, asegúrese de que:
 
 * El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior.
-* Tengan unas credenciales de inicio de sesión válidas para el Customer Journey Analytics.
+* Tengan unas credenciales de inicio de sesión válidas para Customer Journey Analytics.
 * Haya creado y compartido correctamente los informes de valoración móviles de los usuarios.
 * Los usuarios tengan acceso a los componentes que se incluyen en el cuadro de resultados. Tenga en cuenta que, al compartir los cuadros de resultados, puede seleccionar la opción **[!UICONTROL Compartir los componentes incrustados]**.
 
@@ -35,7 +35,7 @@ Para garantizar que los usuarios ejecutivos tengan acceso a sus informes de valo
 
 >[!NOTE]
 >
->Aunque la aplicación móvil se denomina tablero de Adobe Analytics en la tienda de aplicaciones, se puede utilizar de la misma manera que los cuadros de resultados móviles de los Customer Journey Analytics.
+>Aunque la aplicación móvil se denomina tablero de Adobe Analytics en la tienda de aplicaciones, se puede utilizar de la misma manera que los cuadros de resultados móviles de Customer Journey Analytics.
 
 **Para usuarios ejecutivos con iOS:**
 
@@ -49,7 +49,7 @@ Haga clic en el siguiente vínculo (también está disponible en Customer Journe
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Customer Journey Analytics; la aplicación es compatible con el Adobe y con los Enterprise/Federated ID.
+Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Customer Journey Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
 
 ![Pantalla de bienvenida de paneles de Adobe Analytics](assets/welcome.png)
 
@@ -74,7 +74,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
 Explique al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de resultados compartidos.
 
-![Explicar mosaicos que incluyen el intervalo de fechas, el filtro de segmentos y las métricas y dimensiones seleccionadas](assets/newexplain.png)
+![Explicar mosaicos que incluyen el intervalo de fechas, el segmento, las métricas y las dimensiones seleccionadas](assets/newexplain.png)
 
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 
@@ -112,7 +112,7 @@ Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha c
 
 ![No se ha compartido nada](assets/nothing.png)
 
-* Es posible que el usuario ejecutivo haya seleccionado una zona protegida de Customer Journey Analytics incorrecta, o
+* El usuario ejecutivo puede haber seleccionado una zona protegida de Customer Journey Analytics incorrecta, o
 * Es posible que el cuadro de resultados no se haya compartido con el usuario ejecutivo.
 
-Compruebe que el usuario ejecutivo puede iniciar sesión en la zona protegida del Customer Journey Analytics correcto y que se ha compartido el cuadro de resultados.
+Compruebe que el usuario ejecutivo puede iniciar sesión en el simulador para pruebas de Customer Journey Analytics correcto y que se ha compartido el cuadro de resultados.
