@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 71%
+ht-degree: 57%
 
 ---
 
@@ -32,7 +32,7 @@ El Administrador de bloques de datos muestra todos los bloques de datos presente
 
 ## Ordenar la lista de bloques de datos
 
-Puede ordenar la lista de bloques de datos por una columna mostrada. Por ejemplo, puede ordenar la lista de bloqueados de datos por vistas de datos, filtros, intervalo de fechas y otras variables.
+Puede ordenar la lista de bloques de datos por una columna mostrada. Por ejemplo, puede ordenar la lista de bloqueados de datos por vistas de datos, segmentos, intervalo de fechas y otras variables.
 
 Para ordenar la lista de bloques de datos, haga clic en un encabezado de columna.
 
@@ -46,9 +46,9 @@ Utilice el campo Buscar para localizar cualquier contenido en la tabla de bloque
 
 ## Editar bloques de datos
 
-Puede editar la vista de datos, el intervalo de fechas o los filtros aplicados a uno o varios bloques de datos.
+Puede editar la vista de datos, el intervalo de fechas o los segmentos aplicados a uno o varios bloques de datos.
 
-Por ejemplo, puede reemplazar un filtro existente con un nuevo filtro en uno o más bloques de datos.
+Por ejemplo, puede reemplazar un segmento existente con un nuevo segmento en uno o más bloques de datos.
 
 1. Seleccione los bloques de datos que desea actualizar. Puede seleccionar la casilla de verificación de nivel superior para seleccionar todos los bloques de datos o puede seleccionar bloques de datos individuales.
 
@@ -58,7 +58,7 @@ Por ejemplo, puede reemplazar un filtro existente con un nuevo filtro en uno o m
 
    ![Ventana de edición rápida](./assets/image58.png)
 
-1. Seleccione un vínculo de filtro para actualizar vistas de datos, intervalos de fechas o filtros.
+1. Seleccione un vínculo de segmento para actualizar vistas de datos, intervalos de fechas o segmentos.
 
    ![El campo Agregar segmento en la ventana de edición rápida](./assets/image59.png)
 
@@ -83,7 +83,7 @@ Haga clic en el icono de la papelera para eliminar un bloque de datos selecciona
 
 ## Agrupar bloques de datos
 
-Puede agrupar bloques de datos mediante el menú desplegable **Agrupar por** o bien puede hacer clic en un título de columna. Para ordenar los bloques de datos por columna, haga clic en el título de la columna. Para agrupar bloques de datos por grupos, seleccione un nombre de grupo en el menú desplegable **Agrupar por**. Por ejemplo, la captura de pantalla siguiente muestra bloques de datos agrupados por hoja. Muestra los bloques de datos agrupados por Hoja1 y Hoja2.  Esto resulta útil, por ejemplo, en el caso de uso de reemplazo de filtros. Si se han aplicado varios filtros a cada bloque de datos, resulta útil crear un grupo que contenga todos los bloques de datos que desea reemplazar. A continuación, puede seleccionarlos y editarlos fácilmente de una vez.
+Puede agrupar bloques de datos mediante el menú desplegable **Agrupar por** o bien puede hacer clic en un título de columna. Para ordenar los bloques de datos por columna, haga clic en el título de la columna. Para agrupar bloques de datos por grupos, seleccione un nombre de grupo en el menú desplegable **Agrupar por**. Por ejemplo, la captura de pantalla siguiente muestra bloques de datos agrupados por hoja. Muestra los bloques de datos agrupados por Hoja1 y Hoja2.  Esto resulta útil, por ejemplo, en el caso de uso de reemplazo de segmentos. Si se han aplicado varios segmentos a cada bloque de datos, resulta útil crear un grupo que contenga todos los bloques de datos que desea reemplazar. A continuación, puede seleccionarlos y editarlos fácilmente de una vez.
 
 ![Administrador de bloques de datos que muestra la lista Agrupar por hoja.](./assets/group-data-blocks.png)
 

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,7 @@ Utilice el panel COMANDOS para acceder a comandos compatibles con las celdas sel
 
 Cuando se seleccionan uno o varios bloques de datos en una hoja de cálculo, Report Builder muestra el panel EDICIÓN RÁPIDA. Puede utilizar el panel EDICIÓN RÁPIDA para cambiar parámetros en un solo bloque de datos o para cambiar parámetros en varios bloques de datos al mismo tiempo.
 
-![Panel de edición rápida del Report Builder](./assets/hub2.png)
+![Panel de edición rápida de Report Builder](./assets/hub2.png)
 
 Los cambios realizados con las secciones Edición rápida se aplican a todos los bloques de datos seleccionados.
 
@@ -59,12 +59,12 @@ Al cambiar la vista de datos, todos los bloques de datos de la selección adopta
 
 Para cambiar la vista de datos, seleccione una nueva vista de datos en el menú desplegable.
 
-![Centro de Report Builder que muestra el menú desplegable de vista de datos.](./assets/image16.png)
+![El concentrador de Report Builder que muestra el menú desplegable de vista de datos.](./assets/image16.png)
 
 ### Intervalo de fechas
 
 **Intervalo de fechas** muestra el intervalo de fechas para los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios intervalos de fechas, el vínculo **Intervalo de fechas** se muestra como *Múltiple*.
 
-### Filtros
+### Segmentos 
 
-El vínculo **Filtros** muestra una lista resumida de los filtros utilizados por los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios filtros aplicados, el vínculo **Filtros** se muestra como *Múltiple*.
+El vínculo **Segmentos** muestra una lista resumida de los segmentos utilizados por los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios segmentos aplicados, el vínculo **Segmentos** muestra *Varios*.
