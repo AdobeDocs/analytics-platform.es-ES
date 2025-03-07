@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '800'
 ht-degree: 10%
 
 ---
@@ -129,5 +129,7 @@ Para agregar el conjunto de datos de búsqueda a la conexión en Customer Journe
 
 1. Usando el campo **[!UICONTROL Clave]** y el campo **[!UICONTROL Clave coincidente]**, cree una correlación entre el campo del conjunto de datos de búsqueda y el del conjunto de datos de resumen o evento.
 
-1. Una vez que todos los conjuntos de datos de búsqueda se hayan agregado a su conexión en Customer Journey Analytics, continúe siguiendo los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
+1. Repita este proceso hasta que todos los conjuntos de datos de búsqueda se agreguen a la conexión en Customer Journey Analytics.
+
+{{upgrade-final-step}}
 

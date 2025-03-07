@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 38%
+source-wordcount: '139'
+ht-degree: 41%
 
 ---
 
@@ -39,6 +39,6 @@ Puede validar que la conexión está activa y que los datos fluyen a las vistas 
 
 1. Consulte [Detalles de conexión](/help/connections/manage-connections.md#manage-connections) en [Administrar conexiones](/help/connections/manage-connections.md) para obtener información acerca de los detalles disponibles sobre cada conexión.
 
-1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-final-step}}
 
 <!-- Should we duplicate the content here or single source it with /help/connections/manage-connections.md -->

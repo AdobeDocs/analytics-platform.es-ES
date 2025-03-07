@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 40%
+source-wordcount: '302'
+ht-degree: 42%
 
 ---
 
@@ -55,4 +55,4 @@ Para agregar la extensión Web SDK a la etiqueta:
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-final-step}}

@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8fdc90ff3392b5d6884872d191a40a762cad6a3f
+exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 52%
+source-wordcount: '998'
+ht-degree: 53%
 
 ---
 
@@ -71,8 +72,4 @@ Considere las siguientes ventajas y desventajas de configurar la implementación
 
    Para obtener más información, consulte [Asignación](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) en [Preparación de datos para la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) en la documentación de Experience Platform.
 
-1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los [pasos de actualización generados dinámicamente](https://gigazelle.github.io/cja-ttv/).
-
-
-
-
+{{upgrade-final-step}}

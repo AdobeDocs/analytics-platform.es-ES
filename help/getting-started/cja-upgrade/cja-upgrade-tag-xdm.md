@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 37%
@@ -298,3 +298,6 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 1. Puede seleccionar **[!UICONTROL ...]** para recompilar la biblioteca o moverla a un entorno de ensayo o producción.
 
    ![Publicar - Compilar biblioteca](assets/build-library.png)
+
+{{upgrade-final-step}}
+
