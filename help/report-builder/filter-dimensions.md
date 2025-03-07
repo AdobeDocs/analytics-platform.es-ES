@@ -1,12 +1,12 @@
 ---
-title: Cómo filtrar dimensiones en Report Builder
+title: Filtrado de dimensiones en Report Builder
 description: Describe cómo filtrar dimensiones en Report Builder para Customer Journey Analytics
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: cbb48623212c2f3d8968dc6daca491761e2f4a9e
+source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 88%
@@ -21,7 +21,7 @@ Para cambiar los elementos de dimensión devueltos para cada dimensión
 
 1. Seleccione un bloque de datos y haga clic en Editar bloque de datos en el panel COMANDOS.
 
-1. Haga clic en Siguiente para mostrar la pestaña Dimensiones.
+1. Haga clic en **[!UICONTROL Siguiente]** para mostrar la ficha Dimensiones.
 
 1. Haga clic en el icono **...** junto al nombre de un componente en la tabla.
 
@@ -139,7 +139,7 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
    ![La lista Mostrar elementos de los últimos 6 meses.](./assets/image34.png)
 
-   Después de cargar los datos de los últimos 6 meses, el Report Builder actualiza el vínculo a **Mostrar elementos de los últimos 18 meses**.
+   Después de cargar los datos de los últimos 6 meses, Report Builder actualiza el vínculo a **Mostrar elementos de los últimos 18 meses**.
 
 1. Seleccionar un elemento de dimensión.
 
@@ -175,6 +175,6 @@ La selección puede contener celdas vacías o con valores que no coinciden con u
 
 En la pestaña **Dimensiones**, haga clic en el icono de cheurón situado junto al nombre de una dimensión para ver la lista de elementos que contiene.
 
-![La ficha Dimension y la lista de dimensiones.](./assets/dimensions_chevron.png)
+![La ficha Dimensiones y la lista de dimensiones.](./assets/dimensions_chevron.png)
 
 Puede arrastrar y soltar elementos en la **Tabla** o hacer doble clic en un nombre de elemento para añadirlo al Generador de **tablas**.

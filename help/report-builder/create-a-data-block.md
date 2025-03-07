@@ -1,15 +1,15 @@
 ---
-title: Cómo crear un bloque de datos con el Report Builder en Customer Journey Analytics
+title: Cómo crear un bloque de datos con Report Builder en Customer Journey Analytics
 description: Describe cómo crear un bloque de datos.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 68%
+ht-degree: 61%
 
 ---
 
@@ -43,13 +43,13 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
    ![Captura de pantalla que muestra la opción de intervalo de fechas y el botón Siguiente activo.](./assets/choose_date_data_view3.png)
 
-   Después de configurar el bloque de datos, puede seleccionar dimensiones, métricas y filtros para crear el bloque de datos. Las pestañas Dimensión, Métricas y Filtros se muestran encima del panel Generador de tablas.
+   Después de configurar el bloque de datos, puede seleccionar dimensiones, métricas y segmentos para crear el bloque de datos. Las pestañas Dimensión, Métricas y Segmentos se muestran encima del panel Generador de tablas.
 
 ## Generación del bloque de datos
 
 Para generar el bloque de datos, seleccione los componentes del informe y, a continuación, personalice el diseño.
 
-1. Añada dimensiones, métricas y filtros.
+1. Añada dimensiones, métricas y segmentos.
 
    Desplácese por las listas de componentes o utilice el campo **búsqueda** para localizar componentes. Arrastre y suelte los componentes en el panel Tabla o haga doble clic en un nombre de componente de la lista para añadirlo automáticamente al panel Tabla.
 
@@ -57,7 +57,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
    - Los componentes de Dimensión se añaden a la sección Fila o a la sección Columna si ya tiene una dimensión en las columnas.
    - Los componentes de fecha se añaden a la sección Columna.
-   - Los componentes de filtro se añaden a la sección Filtros.
+   - Los componentes del segmento se añaden a la sección Segmentos.
 
    **Fecha de inicio como Dimension**
 
