@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '587'
 ht-degree: 23%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 23%
 >id="cja-upgrade-source-connector-create-schema"
 >title="Creación de un esquema para el conector de origen de Analytics"
 >abstract="Este esquema es una combinación del grupo de campos Adobe Analytics ExperienceEvent con todos los grupos de campos que conforman el esquema personalizado de su organización. Permite asignar los campos utilizados por el conector de origen de Analytics al esquema de su organización y solo se utiliza para los datos históricos.<br><br>Aunque es de tipo técnico, la creación de este esquema puede completarse en horas, posiblemente más rápido si sabe exactamente qué grupos de campos conforman el esquema personalizado de su organización."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-historical"
+>title="Cree el conector de origen de Analytics para datos históricos"
+>abstract="Puede utilizar el conector de origen de Analytics para incorporar datos del grupo de informes de Adobe Analytics a Adobe Experience Platform. Estos datos se pueden utilizar como datos históricos en Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
