@@ -4,9 +4,8 @@ description: Aprenda a utilizar el objeto de personalización para utilizarlo co
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+exl-id: 5086ac6e-5bee-4f0f-b7e5-a3d9bd8a1332
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 21%
@@ -66,4 +65,3 @@ Manually rendering content or Automatically rendering content.
 ## Tags
 
 -->
-

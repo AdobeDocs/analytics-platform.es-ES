@@ -4,10 +4,8 @@ description: Obtenga información sobre cómo crear un esquema personalizado par
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 23%

@@ -4,10 +4,8 @@ description: Obtenga información acerca de los métodos alternativos al actuali
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 44%

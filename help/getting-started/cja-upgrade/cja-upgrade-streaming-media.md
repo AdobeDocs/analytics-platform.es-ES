@@ -4,10 +4,8 @@ description: Obtenga información sobre cómo configurar la recopilación de med
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
-source-git-commit: f7b06838bbe5b1a5e304c6d0da6d34635391a90b
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 20%

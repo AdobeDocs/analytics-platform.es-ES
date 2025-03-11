@@ -4,10 +4,8 @@ description: Obtenga información acerca de la compatibilidad con funciones de A
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 7a5414745f065ec29b59172dee4f723c0ce72e68
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 55%

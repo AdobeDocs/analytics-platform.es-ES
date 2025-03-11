@@ -4,10 +4,8 @@ description: Obtenga información sobre cómo configurar la implementación de A
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 53%

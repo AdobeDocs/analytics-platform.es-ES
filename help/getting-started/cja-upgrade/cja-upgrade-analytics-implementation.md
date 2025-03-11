@@ -4,13 +4,11 @@ description: Obtenga información acerca de la ruta recomendada al actualizar de
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: ff951b6ca03fc5be4d24651b8b8e4bdd06216274
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 28%
+ht-degree: 31%
 
 ---
 
@@ -92,8 +90,8 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-determine-implementation"
->title="Determine el tipo de implantación existente"
->abstract="Trabaje internamente dentro de su organización para determinar qué tipo de implementación utiliza actualmente para enviar datos a Adobe Analytics. Al asociarse con la persona o el equipo que sabe que esta información es probable, cuando esté listo para migrar a Customer Journey Analytics.<br><br>Después de determinar el tipo de implementación que utiliza su organización, modifique la respuesta en el cuestionario."
+>title="Determine el tipo de implementación existente"
+>abstract="Trabaje internamente dentro de su organización para determinar qué tipo de implementación utiliza actualmente para enviar datos a Adobe Analytics. A medida que actualice a Customer Journey Analytics, asocie con la persona o el equipo que conozca esta información.<br><br>Después de determinar el tipo de implementación que utiliza su organización, modifique la respuesta en la Guía de actualización de Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

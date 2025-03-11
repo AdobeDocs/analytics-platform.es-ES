@@ -4,13 +4,11 @@ description: Obtenga información sobre la actualización de una solución de an
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 32%
+source-wordcount: '238'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
 >title="Un producto distinto de Adobe Analytics"
->abstract="Una implementación que recopila datos para un producto distinto de Adobe Analytics, como Google Analytics. Al seleccionar esta opción, se desactivarán varias opciones del cuestionario que no se aplican cuando se actualiza Customer Journey Analytics desde un producto distinto de Adobe Analytics."
+>abstract="Una implementación que recopila datos para un producto distinto de Adobe Analytics, como Google Analytics. Al seleccionar esta opción, se desactivan varias opciones de la guía de actualización que no se aplican a la actualización a Customer Journey Analytics desde un producto que no es de Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
