@@ -10,11 +10,11 @@ exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
 source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 25%
+ht-degree: 41%
 
 ---
 
-# Alternativa de actualización: Utilice exclusivamente el conector de origen de Analytics para actualizar a Customer Journey Analytics {#use-source-connector-exclusively}
+# Alternativa de actualización: uso exclusivo del conector de origen de Analytics para actualizar a Customer Journey Analytics {#use-source-connector-exclusively}
 
 <!-- markdownlint-disable MD034 -->
 

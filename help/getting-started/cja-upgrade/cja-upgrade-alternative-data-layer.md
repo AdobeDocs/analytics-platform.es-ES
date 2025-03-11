@@ -10,18 +10,18 @@ exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 9%
+ht-degree: 44%
 
 ---
 
-# Alternativa de actualización: Envíe la capa de datos a Customer Journey Analytics {#data-collection-data-layer}
+# Alternativa de actualización: envíe la capa de datos a Customer Journey Analytics {#data-collection-data-layer}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-layer"
 >title="Envío de la capa de datos a Adobe"
->abstract="En lugar de enviar datos a través de un objeto XDM, puede enviar toda la capa de datos a Adobe a través del objeto de datos.<br><br>Esta opción ahorra tiempo de implementación al permitirle asignar la capa de datos a XDM, en lugar de rellenar un objeto XDM desde cero. Sin embargo, esta asignación supone una gran cantidad de trabajo porque habrá una cantidad significativa de datos que Adobe no puede interpretar fácilmente. Esta opción también introduce una complejidad adicional a lo largo del tiempo, ya que cualquier campo que añada a los datos más adelante debe asignarse a XDM en la secuencia de datos."
+>abstract="En lugar de enviar datos a través de un objeto XDM, puede enviar toda la capa de datos a través del objeto de datos.<br><br>Esta opción ahorra tiempo de implementación al permitirle asignar la capa de datos a XDM, en lugar de rellenar un objeto XDM desde cero. Sin embargo, esta asignación supone una gran cantidad de trabajo porque habrá una cantidad significativa de datos que Adobe no puede interpretar fácilmente. Esta opción también introduce una complejidad adicional a lo largo del tiempo, ya que cualquier campo que añada a los datos más adelante debe asignarse a XDM en la secuencia de datos."
 
 <!-- markdownlint-enable MD034 -->
 

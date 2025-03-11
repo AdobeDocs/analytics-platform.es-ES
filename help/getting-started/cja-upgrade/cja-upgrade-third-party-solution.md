@@ -10,7 +10,7 @@ exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 15%
+ht-degree: 32%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
->title="Un producto que no sea Adobe Analytics"
->abstract="Implementación que recopila datos para un producto distinto de Adobe Analytics, como Google Analytics. Al seleccionar esta opción, se desactivan varias opciones del cuestionario que no se aplican a la actualización a Customer Journey Analytics desde un producto que no es de Adobe Analytics."
+>title="Un producto distinto de Adobe Analytics"
+>abstract="Una implementación que recopila datos para un producto distinto de Adobe Analytics, como Google Analytics. Al seleccionar esta opción, se desactivarán varias opciones del cuestionario que no se aplican cuando se actualiza Customer Journey Analytics desde un producto distinto de Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

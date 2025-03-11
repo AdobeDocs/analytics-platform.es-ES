@@ -10,7 +10,7 @@ exl-id: 92053109-f80d-47ab-b011-c28a5411149c
 source-git-commit: 7a5414745f065ec29b59172dee4f723c0ce72e68
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 38%
+ht-degree: 55%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-activity-map-support"
->title="La compatibilidad con la superposición de Activity Map aún no está disponible"
+>title="La compatibilidad con superposiciones de Activity Map aún no está disponible"
 >abstract="La compatibilidad con superposiciones de Activity Map aún no está disponible en Customer Journey Analytics. Está previsto que esté disponible en el futuro."
 
 <!-- markdownlint-enable MD034 -->
@@ -84,7 +84,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="Datos de medios de streaming"
->abstract="Complemento de Adobe Analytics y Customer Journey Analytics especializado en la recopilación de datos de contenidos, como audio, vídeo o contenido transmitido."
+>abstract="Un complemento de Adobe Analytics y Customer Journey Analytics que está especializado en la recopilación de datos de medios, como audio, vídeo o contenido transmitido."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -93,7 +93,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-component-migration"
 >title="Migrar proyectos y componentes"
->abstract="Lleve los proyectos de Adobe Analytics y sus componentes asociados a Customer Journey Analytics."
+>abstract="Incluya proyectos de Adobe Analytics y sus componentes asociados a Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

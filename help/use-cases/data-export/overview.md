@@ -8,7 +8,7 @@ exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 source-git-commit: efb961c571ddcde1017e6bf2080fc2a97c28bb13
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds-step"
->title="Utilice funciones de exportación similares a las Fuentes de datos"
->abstract="Todavía no hay un reemplazo exacto para las fuentes de datos en Customer Journey Analytics. Sin embargo, se puede lograr una funcionalidad similar con capacidades como la exportación de tabla completa, la exportación de conjuntos de datos de Platform, la integración de herramientas de BI y la API de informes."
+>title="Uso de funciones de exportación similares a las fuentes de datos"
+>abstract="Aún no hay disponible un reemplazo exacto de las fuentes de datos en Customer Journey Analytics. Sin embargo, se puede lograr una funcionalidad similar con capacidades como la exportación de tabla completa, la exportación de conjuntos de datos de Platform, la integración de herramientas de BI y la API de creación de informes."
 
 <!-- markdownlint-enable MD034 -->
 

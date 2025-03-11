@@ -8,7 +8,7 @@ role: User
 source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
 >title="Añadir conjuntos de datos adicionales a la conexión"
->abstract="Después de agregar datos a un conjunto de datos en Adobe Experience Platform, puede agregarlo a su conexión en Customer Journey Analytics. Asegúrese de que, al añadir datos de otros canales, siguen el esquema que utiliza su organización.<br><br>Cada conjunto de datos que añada requiere una gran cantidad de trabajo, especialmente para garantizar que el identificador único exista para cada evento y para garantizar que la estructura de datos general se ajuste al esquema personalizado de su organización. Establecer este flujo de trabajo puede llevar varios meses de coordinación de muchos equipos en su organización."
+>abstract="Cuando haya añadido datos a un conjunto de datos de Adobe Experience Platform, podrá añadir ese conjunto de datos a su conexión en Customer Journey Analytics. Asegúrese de que, al añadir datos de otros canales, siguen el esquema que utiliza su organización.<br><br>Cada conjunto de datos que añada requiere una gran cantidad de trabajo, especialmente para garantizar que el identificador único exista para cada evento y para garantizar que la estructura de datos general se ajuste al esquema personalizado de su organización. Establecer este flujo de trabajo puede llevar varios meses de coordinación de muchos equipos en su organización."
 
 <!-- markdownlint-enable MD034 -->
 

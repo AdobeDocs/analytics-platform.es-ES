@@ -7,7 +7,7 @@ exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Elemento siguiente o anterior"
->abstract="Analice cuáles son los lugares más comunes de los que salieron o de los que visitaron anteriormente. Especifique la dimensión, el elemento de dimensión, la dirección y el contenedor que se utilizará para la visualización."
+>abstract="Analice cuáles son los lugares más habituales de los que proceden o a los que se dirigen los visitantes. Especifique la dimensión, el elemento de dimensión, la dirección y el contenedor que se utilizará para la visualización."
 
 
 

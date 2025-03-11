@@ -7,7 +7,7 @@ exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Audiencia media por minuto de medios"
->abstract="Muestra el rendimiento de contenido multimedia específico o el rendimiento durante un período de tiempo personalizado. Especifique la dimensión de la creación de informes y, opcionalmente, filtre el contenido."
+>abstract="Muestra el rendimiento de contenido de medios específicos o el rendimiento durante un período de tiempo personalizado. Especifique la dimensión de la creación de informes y, opcionalmente, filtre el contenido."
 
 <!-- markdownlint-enable MD034 -->
 

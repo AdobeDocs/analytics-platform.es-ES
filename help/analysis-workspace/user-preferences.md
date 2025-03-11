@@ -8,7 +8,7 @@ role: User
 source-git-commit: 827ab36b27eee1b0af46ff1c653f13b1accfe105
 workflow-type: tm+mt
 source-wordcount: '3632'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -186,22 +186,22 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="Contenedor predeterminado"
->abstract="Seleccione el contenedor predeterminado que se usará para las visualizaciones [!UICONTROL Flujo]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización [!UICONTROL Flujo] cambiará automáticamente a otro contenedor principal."
+>abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones del [!UICONTROL flujo]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización del [!UICONTROL flujo] cambiará automáticamente a otro contenedor principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="Contenedor predeterminado"
->abstract="Seleccione el contenedor predeterminado que se usará para las visualizaciones de [!UICONTROL visitas en el orden previsto]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización [!UICONTROL Visitas en el orden previsto] cambiará automáticamente a otro contenedor principal."
+>abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones de [!UICONTROL visitas en orden previsto]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización de [!UICONTROL visitas en orden previsto] cambiará automáticamente a otro contenedor principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulthistogramcountingmethod"
 >title="Método de recuento predeterminado"
->abstract="Seleccione el método de recuento predeterminado que se usará para las visualizaciones de [!UICONTROL Histograma]. Si la vista de datos seleccionada no contiene el método de contabilización predeterminado seleccionado, la visualización [!UICONTROL Histograma] cambiará automáticamente a otro método de contabilización principal."
+>abstract="Seleccione el método de recuento predeterminado que se utilizará para las visualizaciones del [!UICONTROL Histograma]. Si la vista de datos seleccionada no contiene el método de recuento predeterminado seleccionado, la visualización de [!UICONTROL Histograma] cambiará automáticamente a otro contenedor principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultjourneycanvascontainer"
 >title="Contenedor predeterminado"
->abstract="Seleccione el contenedor predeterminado que se usará para las visualizaciones [!UICONTROL lienzo de Recorrido]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización [!UICONTROL lienzo de Recorrido] cambiará automáticamente a otro contenedor principal."
+>abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones del [!UICONTROL Lienzo del recorrido]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización del [!UICONTROL lienzo del recorrido] cambiará automáticamente a otro contenedor principal."
 
 
 Puede actualizar las preferencias de visualización para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="Comportamiento"
->abstract="Determine cómo se agregan los elementos de línea de esta dimensión. Especifique si los valores de cadena del campo deben estar en minúsculas."
+>abstract="Determine cómo se añaden los elementos de línea de esta dimensión. Especifique si los valores de cadena del campo deben estar en minúsculas."
 
 <!-- markdownlint-enable MD034 -->
 

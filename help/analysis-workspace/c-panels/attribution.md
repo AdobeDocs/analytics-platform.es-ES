@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1709bb2e262759376b0b0bb78444253968f9dac4
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 38%
+ht-degree: 45%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="Atribución"
->abstract="Compare y visualice rápidamente cualquier número de modelos de atribución mediante métricas de éxito, canales y ventanas retrospectivas."
+>abstract="Compare y visualice rápidamente cualquier número de los modelos de atribución utilizando la métrica de éxito, el canal y la ventana retroactiva."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Panel de Attribution IQ"
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Panel de Attribution"
->abstract="Compare y visualice rápidamente los modelos de atribución de una métrica de éxito. Seleccione el canal (dimensión), los modelos que desea incluir y la ventana retrospectiva."
+>abstract="Compare y visualice rápidamente cualquier número de los modelos de atribución de una métrica de éxito. Seleccione el canal (dimensión), los modelos que desea incluir y la ventana retrospectiva."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Panel de Attribution IQ"
 
 <!-- markdownlint-enable MD034 -->

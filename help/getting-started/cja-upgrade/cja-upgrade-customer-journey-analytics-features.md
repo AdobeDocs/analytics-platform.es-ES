@@ -10,7 +10,7 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: d745e0c3bc75ba6f9d29aedcdbaaae9aa17d6ab8
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 27%
+ht-degree: 46%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-target"
->title="Integración temporal con Adobe Target"
+>title="Integrar temporalmente con Adobe Target"
 >abstract="Adobe recomienda integrar con Adobe Journey Optimizer para casos de uso de personalización. La integración con Adobe Target es posible, pero una solución a corto plazo."
 
 <!-- markdownlint-enable MD034 -->
@@ -65,8 +65,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-ajo"
->title="Integración con Journey Optimizer"
->abstract="Ofrezca experiencias conectadas, contextuales y personalizadas a los clientes."
+>title="Integrar con Journey Optimizer"
+>abstract="Ofrezca a sus clientes experiencias conectadas, contextuales y personalizadas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -74,7 +74,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-aam"
->title="Integración temporal con Adobe Audience Manager"
+>title="Integrar temporalmente con Adobe Audience Manager"
 >abstract="Adobe recomienda integrar con Adobe Real-time CDP para casos de uso basados en audiencias. La integración con Audience Manager es posible, pero una solución a corto plazo."
 
 <!-- markdownlint-enable MD034 -->

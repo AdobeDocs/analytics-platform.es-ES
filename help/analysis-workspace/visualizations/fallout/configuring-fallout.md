@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -59,12 +59,12 @@ Puede realizar el control de rutas en dimensiones, métricas y filtros. Por ejem
 
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
->title="Contenedor de visitas en el orden previsto"
+>title="Contenedor de visitas en orden previsto"
 >abstract="Seleccione un contenedor para analizar las rutas. Esta selección le ayuda a comprender la participación y limita el análisis al contenedor seleccionado."
 
 Como parte de la visualización, hay disponibles ajustes específicos.
 
-| Contenedor de visitas en el orden previsto | Descripción |
+| Contenedor de visitas en orden previsto | Descripción |
 |--- |--- |
 | **[!UICONTROL Sesión]** o **[!UICONTROL Persona]** | Cambie entre [!UICONTROL Sesión] y [!UICONTROL Persona] para analizar las rutas de las personas. El valor predeterminado es [!UICONTROL Persona]. Esta configuración le permite comprender el compromiso de la persona a nivel de persona (a lo largo de las sesiones) o restringir el análisis a una única sesión. |
 
