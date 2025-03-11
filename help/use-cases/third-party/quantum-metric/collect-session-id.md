@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
+source-git-commit: 2d6c5d5b546ef8ba952d4ba4397d897ed4566283
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 1%
+source-wordcount: '422'
+ht-degree: 0%
 
 ---
 
@@ -51,23 +52,4 @@ Edite la vista de datos existente para añadir el ID de sesión como una dimensi
 1. En el panel derecho, establezca la configuración [persistencia](/help/data-views/component-settings/persistence.md) en &#39;Sesión&#39;.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Paso 4: Configuración de Workspace para que se ajuste a la dimensión de ID de sesión
 
-Cree una tabla de forma libre en Workspace y configúrela para que los valores de ID de sesión sean vínculos directamente a la métrica cuántica.
-
-1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com).
-1. Vaya a Customer Journey Analytics y seleccione **[!UICONTROL Workspace]** en el menú superior.
-1. Seleccione un proyecto existente o cree un proyecto.
-1. Crear [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
-1. Arrastre la dimensión ID de sesión al lienzo de Workspace.
-1. Haga clic con el botón secundario en el encabezado de columna de dimensión y, a continuación, seleccione **[!UICONTROL Crear hipervínculos para todos los elementos de dimensión]**.
-1. Seleccione **[!UICONTROL Crear una dirección URL personalizada]**.
-1. Pegue la siguiente estructura de URL:
-
-   ```
-   https://adobe.quantummetric.com/#/replay/cookie:$value
-   ```
-
-1. Haga clic en **[!UICONTROL Crear]**.
-
-Ahora, cada ID de sesión es un vínculo en el que puede hacer clic. Estos vínculos le llevan a Métrica cuántica en una nueva pestaña, lo que le permite analizar esa sesión en particular con más detalle. Consulte [Crear hipervínculos en una tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) para obtener más información sobre cómo agregar hipervínculos a elementos de dimensión de Analysis Workspace.
