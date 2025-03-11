@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
 workflow-type: tm+mt
-source-wordcount: '2689'
-ht-degree: 67%
+source-wordcount: '2698'
+ht-degree: 66%
 
 ---
 
@@ -48,7 +48,7 @@ Como gestor de datos del cuadro de resultados, puede utilizar el generador del c
 
 Para crear el informe de valoración, debe hacer lo siguiente:
 
-1. Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco].
+1. Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco] en Workspace.
 2. Configure el cuadro de resultados con datos y guárdelo.
 
 ## Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco] {#template}
@@ -58,6 +58,7 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 ### Creación de un nuevo proyecto {#create}
 
 1. Abra Customer Journey Analytics y haga clic en la ficha **[!UICONTROL Workspace]**.
+1. En el carril izquierdo, haga clic en **[!UICONTROL Proyectos]**.
 1. Haga clic en **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL Informe de valoración móvil en blanco]**.
 1. Haga clic en **[!UICONTROL Crear]**.
 
@@ -72,7 +73,7 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 
 Para implementar la plantilla del informe de valoración:
 
-1. En **[!UICONTROL Propiedades]** (en el carril derecho), especifique una **[!UICONTROL Vista de datos de proyecto]**, cuyos datos quiera utilizar.
+1. En **[!UICONTROL Propiedades del informe de valoración]** (en el carril derecho), especifique una **[!UICONTROL vista de datos del proyecto]** cuyos datos quiera utilizar.
 
    ![Nueva ventana de cuadro de resultados móvil que resalta la selección de vista de datos](assets/properties_save.png)
 
