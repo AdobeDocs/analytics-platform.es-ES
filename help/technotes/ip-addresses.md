@@ -1,18 +1,18 @@
 ---
-title: Direcciones IP utilizadas por el Customer Journey Analytics
+title: Direcciones IP utilizadas por Customer Journey Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5c52986c-7ff3-45b5-9039-2bfb6529238c
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 0e4ea634a604a65484a57f5af8021badb86a865a
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 31%
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
-# Direcciones IP utilizadas por el Customer Journey Analytics
+# Direcciones IP utilizadas por Customer Journey Analytics
 
 La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización.
 
@@ -20,9 +20,9 @@ Esta página incluye las direcciones IP que debe agregar a la lista de permitido
 
 >[!IMPORTANT]
 >
->Aunque Adobe hace todo lo posible para mantener este documento actualizado, no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicios de Internet deja de funcionar.
+>Aunque Adobe hace todo lo posible para mantener este documento actualizado, no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP de Adobe o un proveedor de servicio de Internet deja de funcionar.
 
-## VA7: Clientes de EE. UU. y América
+## Clientes de EE. UU. y América
 
 | Bloque IP (notación CIDR) |
 | --- |
@@ -47,8 +47,9 @@ Esta página incluye las direcciones IP que debe agregar a la lista de permitido
 | `52.254.106.208/28` |
 | `20.186.185.227` |
 | `52.254.107.0/28` |
+| `66.117.18.0/24` |
 
-## NLD2: Europa
+## Europa
 
 | Bloque IP (notación CIDR) |
 | --- |
@@ -76,7 +77,7 @@ Esta página incluye las direcciones IP que debe agregar a la lista de permitido
 | `40.74.7.208/28` |
 | `40.74.6.112/28` |
 
-## AUS5: Australia
+## Australia
 
 | Bloque IP (notación CIDR) |
 | --- |
@@ -108,7 +109,7 @@ Esta página incluye las direcciones IP que debe agregar a la lista de permitido
 | `20.193.56.128/28` |
 | `20.227.32.175` |
 
-## CAN2: Canadá
+## Canadá
 
 | Bloque IP (notación CIDR) |
 | --- |
@@ -141,6 +142,6 @@ Esta página incluye las direcciones IP que debe agregar a la lista de permitido
 
 >[!MORELIKETHIS]
 >
->[Dominios utilizados por el Customer Journey Analytics](domains.md)
+>[Dominios utilizados por Customer Journey Analytics](domains.md)
 >
 >[Direcciones IP utilizadas por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
