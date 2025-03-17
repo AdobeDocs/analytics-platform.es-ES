@@ -7,16 +7,16 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: a0f82948895f3eac86cf00df1dec8abc2f723fc2
+source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # Uso de mapas de calor de métricas cuánticas con Customer Journey Analytics
 
-La vinculación de la asignación de calor de métricas cuánticas a datos de CJA le permite comprender mejor la participación a nivel de página y optimizar las páginas en función del comportamiento de los consumidores. Workspace se puede utilizar para comprender los flujos de usuarios consumidores y ver qué rutas siguen los consumidores de una página a otra. A continuación, puede hacer clic en las URL de la página con hipervínculos para crear un mapa de calor visual de cómo los usuarios interactúan con el contenido.
+La vinculación de la asignación de calor de métricas cuánticas a datos de CJA le permite comprender mejor la participación a nivel de página y optimizar las páginas en función del comportamiento de los consumidores. Workspace se puede utilizar para comprender los flujos de usuarios consumidores y ver qué rutas siguen los consumidores de una página a otra. A continuación, puede hacer clic en las URL de la página con hipervínculos para crear un mapa de calor visual de cómo los usuarios interactúan con el contenido.  Al vincular la asignación de calor de métrica cuántica a CJA, ahora puede asociar interacciones a nivel de página con resultados empresariales, llevando el análisis al siguiente nivel.
 
 La tabla muestra todas las sesiones de ese segmento y puede hacer clic en cualquiera de ellas para explorarlas más en QM.  Obtenga más información acerca de la reproducción de la sesión de métricas cuánticas en https://www.quantummetric.com/platform/session-replay
 
@@ -48,6 +48,6 @@ Debe tener derecho al paquete **Operaciones de experiencia de usuario** de Quant
 
 ## Visualización de mapas de calor haciendo clic en los vínculos de Customer Journey Analytics
 
-Una vez que haya encontrado una página para la que desee explorar la asignación de calor, puede aplicarla al panel en el que se encuentra su URL. La tabla muestra una dirección URL que le permite explorar los mapas de calor de la página en cuestión, la profundidad de desplazamiento y las zonas clave para la interacción.  Obtenga más información sobre los mapas de calor de métricas cuánticas en https://www.quantummetric.com/platform/interaction-heatmaps
+Una vez que haya encontrado una página para la que desee explorar la asignación de calor, puede aplicarla al panel en el que se encuentra su URL. La tabla muestra una dirección URL que le permite explorar los mapas de calor de la página en cuestión, la profundidad de desplazamiento y las zonas clave para la interacción.  Obtenga más información acerca de los mapas de calor de métricas cuánticas en [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)
 
 
