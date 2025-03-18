@@ -1,5 +1,5 @@
 ---
-title: Componentes de análisis de contenido
+title: Componentes de Content Analytics
 description: Detalles sobre los componentes específicos de Content Analytics, como dimensiones, métricas (calculadas) y campos derivados
 solution: Customer Journey Analytics
 feature: Content Analytics
@@ -7,18 +7,18 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1390'
 ht-degree: 17%
 
 ---
 
-# Componentes de análisis de contenido
+# Componentes de Content Analytics
 
 >[!WARNING]
 >
->Este artículo es una versión preliminar no oficial del borrador de una próxima versión final y forma parte de la documentación de Análisis de contenido. Todo el contenido está sujeto a cambios y no se puede derivar ninguna obligación legal de la versión actual de este artículo.
+>Este artículo es una versión preliminar no oficial del borrador de una próxima versión final y forma parte de la documentación de Content Analytics. Todo el contenido está sujeto a cambios y no se puede derivar ninguna obligación legal de la versión actual de este artículo.
 >
 
 {{release-limited-testing}}
@@ -63,7 +63,7 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 | Estrategias de persuasión de la experiencia | ![AI generó](/help/assets/icons/AI.svg) estrategias de persuasión presentes en la experiencia dada. Los valores posibles son: Identidad social, Prueba social, Autoridad, Concreción, Pie en la puerta, Superación de la reacción, Reciprocidad, Anclaje y comparación, Impacto social, Escasez y Antropomorfismo. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Narrativas de la experiencia | ![IA generó](/help/assets/icons/AI.svg) narrativas que la experiencia está generando en función de la relevancia desde el punto de vista de un experto en marketing. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Tonos de la experiencia | ![IA generó](/help/assets/icons/AI.svg) tonos que la experiencia está creando según la relevancia desde el punto de vista de un experto en marketing | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| Emociones de marketing de la experiencia | ![IA generada](/help/assets/icons/AI.svg) La emoción invocada en el lector al leer la experiencia: Urgencia, Exclusividad, Aliento, Desafío, Curiosidad, Logro, Confianza, Simplicidad y Fascinación. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
+| Emociones de marketing de la experiencia | ![IA generada](/help/assets/icons/AI.svg): la emoción invocada en el lector al leer el texto utilizado como parte de la experiencia: urgencia, exclusividad, estímulo, desafío, curiosidad, logro, confianza, simplicidad y fascinación. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Recuento de emojis de la experiencia | ![IA generó](/help/assets/icons/AI.svg) número de emojis para la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 | Recuento de Experience Hashtags | ![IA generó](/help/assets/icons/AI.svg) número de hashtags para la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 | Recuento de frases de la experiencia | ![IA generada](/help/assets/icons/AI.svg) Número de frases para la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
@@ -163,3 +163,4 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un va
 | tasa de clics de experiencia | Clics en experiencias/Vistas de experiencias | Métrica calculada | |
 
 {style="table-layout:fixed"}
+
