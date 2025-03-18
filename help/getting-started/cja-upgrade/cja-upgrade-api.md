@@ -8,24 +8,24 @@ exl-id: 13b413fd-2103-427a-b251-5b3a19046bdb
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 4%
+ht-degree: 60%
 
 ---
 
-# Instalación de Platform Web SDK con la API de Edge Network {#upgrade-manual}
+# Instalación del SDK web de Platform con la API de Edge Network {#upgrade-manual}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-api-implementation"
 >title="Añada alloy.js a su sitio"
->abstract="Puede instalar Platform Web SDK instalando el paquete NPM para controlar el proceso de compilación de Adobe Experience Platform Web SDK JavaScript."
+>abstract="Puede instalar el SDK web de Platform instalando el paquete NPM para poder controlar el proceso de compilación de JavaScript del SDK web de Adobe Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note-step}}
 
-Puede instalar Platform Web SDK instalando el paquete NPM para controlar el proceso de compilación de Adobe Experience Platform Web SDK JavaScript.
+Puede instalar el SDK web de Platform instalando el paquete NPM para poder controlar el proceso de compilación de JavaScript del SDK web de Adobe Experience Platform.
 
 1. Siga la información de la sección [Opción 3: usar el paquete NPM](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-3-using-the-npm-package) en [Instalar Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk) en la Guía de Web SDK.
 

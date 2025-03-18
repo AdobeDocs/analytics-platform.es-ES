@@ -8,7 +8,7 @@ exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-no-selection"
->title="Implemente el SDK web para su propiedad determinada"
+>title="Implementar el SDK web para una propiedad determinada"
 >abstract="Seleccione el tipo de implementación deseado en la guía de actualización para obtener instrucciones más detalladas."
 
 <!-- markdownlint-enable MD034 -->
@@ -54,8 +54,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-third-party"
->title="Añada la biblioteca de SDK web a su sistema de administración de etiquetas de terceros"
->abstract="Trabaje con el administrador sobre el sistema de administración de etiquetas para agregar la biblioteca de Web SDK al sitio.<br><br>El tiempo de finalización de esta tarea depende en gran medida de la capacidad de respuesta de la persona responsable de su sistema de administración de etiquetas. La adición de la biblioteca Web SDK puede agruparse con la lógica de implementación asociada e implementarse durante los ciclos de lanzamiento estándar de su organización."
+>title="Añadir la biblioteca del SDK web al sistema de administración de etiquetas de terceros"
+>abstract="Trabaje con el administrador sobre el sistema de administración de etiquetas para añadir la biblioteca del SDK web al sitio.<br><br>El tiempo de finalización de esta tarea depende en gran medida de la capacidad de respuesta de la persona responsable de su sistema de administración de etiquetas. La adición de la biblioteca del SDK web puede incluirse con la lógica de implementación asociada e implementarse durante los ciclos de lanzamiento estándar de su organización."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 46%
+ht-degree: 57%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tie-data"
 >title="Vincular datos de distintas fuentes"
->abstract="(Recomendado) Asocie datos de varias propiedades web, móviles y sin conexión para crear una única vista consolidada del comportamiento de los clientes. Esta capacidad para combinar datos de análisis de otros canales es el caso de uso principal de Customer Journey Analytics."
+>abstract="(Recomendado) Vincule datos de varias propiedades web, móviles y sin conexión para crear una única vista consolidada del comportamiento de los clientes. La posibilidad de combinar datos de análisis de otros canales es el caso de uso principal de Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-target"
 >title="Integrar temporalmente con Adobe Target"
->abstract="Adobe recomienda integrar con Adobe Journey Optimizer para casos de uso de personalización. La integración con Adobe Target es posible, pero una solución a corto plazo."
+>abstract="Adobe recomienda integrar con Adobe Journey Optimizer para casos de uso de personalización. La integración con Adobe Target es posible, pero es una solución temporal."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -73,7 +73,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-aam"
 >title="Integrar temporalmente con Adobe Audience Manager"
->abstract="Adobe recomienda integrar con Adobe Real-time CDP para casos de uso basados en audiencias. La integración con Audience Manager es posible, pero una solución a corto plazo."
+>abstract="Adobe recomienda integrar con Adobe Real-time CDP para casos de uso basados en audiencias. La integración con Audience Manager es posible, pero es una solución temporal."
 
 <!-- markdownlint-enable MD034 -->
 

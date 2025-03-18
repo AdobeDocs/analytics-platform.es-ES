@@ -8,7 +8,7 @@ exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '1302'
-ht-degree: 47%
+ht-degree: 50%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic-step"
->title="Cambie la lógica de AppMeasurement para que apunte a SDK web"
->abstract="Este paso aparece porque ha elegido tomar un atajo de implementación. Copie o cambie la lógica de AppMeasurement para rellenar el objeto de datos en lugar del objeto s. Por ejemplo, cambie la asignación de s.eVar1 a data.__adobe.analytics.eVar1 y repetir para todas las variables de Analytics."
+>title="Cambiar la lógica de AppMeasurement para que apunte al SDK web"
+>abstract="Este paso aparece porque ha elegido tomar un método abreviado de implementación. Copie o cambie la lógica de AppMeasurement para rellenar el objeto de datos en lugar del objeto s. Por ejemplo, cambie la asignación de s.eVar1 a data.__adobe.analytics.eVar1 y repita para todas las variables de Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

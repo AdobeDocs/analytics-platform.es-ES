@@ -8,7 +8,7 @@ exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 23%
+ht-degree: 33%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-historical"
->title="Cree el conector de origen de Analytics para datos históricos"
+>title="Creación del conector de origen de Analytics para datos históricos"
 >abstract="Puede utilizar el conector de origen de Analytics para incorporar datos del grupo de informes de Adobe Analytics a Adobe Experience Platform. Estos datos se pueden utilizar como datos históricos en Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->

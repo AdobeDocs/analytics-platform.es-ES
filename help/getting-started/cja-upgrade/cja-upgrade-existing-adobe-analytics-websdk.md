@@ -1,5 +1,5 @@
 ---
-title: Configure la implementación de Adobe Analytics Web SDK existente para enviar datos a Platform
+title: Configure la implementación del SDK web de Adobe Analytics existente para enviar datos a Platform
 description: Obtenga información sobre cómo configurar la implementación de Adobe Analytics Web SDK existente
 role: Admin
 solution: Customer Journey Analytics
@@ -8,18 +8,18 @@ exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 53%
+ht-degree: 59%
 
 ---
 
-# Configure la implementación de Adobe Analytics Web SDK existente para enviar datos a Platform {#existing-websdk-implementation}
+# Configure la implementación del SDK web de Adobe Analytics existente para enviar datos a Platform {#existing-websdk-implementation}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-remove-aa-from-datastream"
->title="Quitar Adobe Analytics como servicio de la secuencia de datos"
->abstract="Con los datos de Web SDK completamente funcionales, colabore con el administrador de la plataforma para quitar Adobe Analytics como servicio del conjunto de datos. Antes de hacerlo, asegúrese de que los usuarios hayan realizado la transición del uso de Adobe Analytics a Customer Journey Analytics."
+>title="Eliminar Adobe Analytics como servicio de la secuencia de datos"
+>abstract="Con los datos del SDK web totalmente funcionales, colabore con su administrador de Platform para eliminar Adobe Analytics como servicio de la secuencia de datos. Antes de hacerlo, asegúrese de que los usuarios hayan realizado la transición del uso de Adobe Analytics a Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
