@@ -4,10 +4,10 @@ title: Panel de elemento siguiente o anterior
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 2c28d9658165baf4de9519733c321d47c71f2bda
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
