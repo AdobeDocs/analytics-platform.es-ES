@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 61b27e14386aaba1612844f3e00692edd38cba17
+source-git-commit: 5eb9136107ed872639b02df2549a2f81dee83e76
 workflow-type: tm+mt
 source-wordcount: '3295'
 ht-degree: 13%
@@ -192,7 +192,7 @@ Para incluir experiencias en una configuración nueva o no implementada:
 ![Captura y definición de la experiencia de configuración de Content Analytics](../assets/aca-configuration-experience.png)
 
 1. Habilitar **[!UICONTROL Incluir experiencias]**.
-1. Opcionalmente. especifique cómo se procesa el contenido en el sitio web. Los parámetros son cero o más combinaciones de una **[!UICONTROL expresión regular de dominio]** y **[!UICONTROL parámetros de consulta]**.
+1. Opcionalmente. especifique los parámetros de cómo se procesa el contenido en el sitio web. Los parámetros son cero o más combinaciones de una **[!UICONTROL expresión regular de dominio]** y **[!UICONTROL parámetros de consulta]**.
    1. Escriba una **[!UICONTROL expresión regular de dominio]**, por ejemplo `/^(?!.*\b(store|help|admin)\b)/`. Asegúrese de omitir las expresiones regulares usando `/`.
    1. Especifique una lista separada por comas de **[!UICONTROL parámetros de consulta,]**; por ejemplo, `outdoors, patio, kitchen`.
 1. Seleccione **[!UICONTROL Remove]** si desea quitar una combinación de parámetros de consulta y expresión regular de dominio.
