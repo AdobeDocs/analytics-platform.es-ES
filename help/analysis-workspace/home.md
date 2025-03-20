@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,10 +31,10 @@ En la siguiente imagen y la tabla adjunta se explican los elementos principales 
 
 | Ubicación | Nombre y función |
 |:---------:|----------|
-| ?? | Contiene el nombre del proyecto, una estructura de menú para acceder a la funcionalidad, un botón ![Botón Atrás](/help/assets/icons/ChevronLeft.svg) para volver a la lista de proyectos y un botón **[!UICONTROL Compartir]** para [compartir el proyecto de Workspace](/help/analysis-workspace/curate-share/share-projects.md). <br/>Selecciona el nombre del proyecto (por ejemplo: Nuevo proyecto) en cualquier momento para cambiarlo. <br/>Selecciona ![Desfavorecer](/help/assets/icons/StarOutline.svg) para marcar tu proyecto como favorito ![Favor](/help/assets/icons/Star.svg). |
-| ?? | **Panel Botón:** Contiene botones para acceder a las [características](#features) clave de Analysis Workspace:<ul><li>![Página Web](/help/assets/icons/WebPage.svg) [[!UICONTROL Paneles]](/help/analysis-workspace/c-panels/panels.md)</li><li>![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL Análisis guiado]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizaciones]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Depurar](/help/assets/icons/Curate.svg) [[!UICONTROL componentes]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL Índice]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Marcador](/help/assets/icons/Bookmark.svg) [[!UICONTROL Diccionario de datos]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
-| ?? | **Panel izquierdo:** esta área contiene paneles, visualizaciones, componentes o listas individuales. El contenido depende del botón seleccionado en el panel Botón. |
-| ?? | **Lienzo:** es el área principal donde se arrastra contenido desde los carriles izquierdos para crear el proyecto. El proyecto se actualiza dinámicamente a medida que se añaden paneles, visualizaciones a los paneles y componentes a las visualizaciones. Puedes crear varios paneles y, dentro de cada panel, puedes crear varias visualizaciones.<br/>Cada panel se basa en una vista de datos seleccionada. La vista de datos seleccionada determina los componentes disponibles, como las métricas y las dimensiones. Consulta [Paneles - Visualización de datos](/help/analysis-workspace/c-panels/panels.md#data-view) para obtener más información. |
+| A | Contiene el nombre del proyecto, una estructura de menús para acceder a las funciones, un botón ![Atrás](/help/assets/icons/ChevronLeft.svg) para volver a la lista de Proyectos, y un botón **[!UICONTROL Compartir]** para [compartir su proyecto de Workspace](/help/analysis-workspace/curate-share/share-projects.md). <br/>Seleccione el nombre del proyecto (por ejemplo: Nuevo proyecto) en cualquier momento para cambiarlo. <br/>Seleccione ![Desfavorecer](/help/assets/icons/StarOutline.svg) para añadir su proyecto como un proyecto ![Favorecer](/help/assets/icons/Star.svg) favorito. |
+| B | **Panel Botón:** Contiene botones para acceder a las [características](#features) clave de Analysis Workspace:<ul><li>![Página Web](/help/assets/icons/WebPage.svg) [[!UICONTROL Paneles]](/help/analysis-workspace/c-panels/panels.md)</li><li>![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL Análisis guiado]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizaciones]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Depurar](/help/assets/icons/Curate.svg) [[!UICONTROL componentes]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL Índice]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Marcador](/help/assets/icons/Bookmark.svg) [[!UICONTROL Diccionario de datos]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| C | **Panel izquierdo:** esta área contiene paneles, visualizaciones, componentes o listas individuales. El contenido depende del botón seleccionado en el panel Botón. |
+| D | **Lienzo:** es el área principal donde se arrastra contenido desde los carriles izquierdos para crear el proyecto. El proyecto se actualiza dinámicamente a medida que se añaden paneles, visualizaciones a los paneles y componentes a las visualizaciones. Puedes crear varios paneles y, dentro de cada panel, puedes crear varias visualizaciones.<br/>Cada panel se basa en una vista de datos seleccionada. La vista de datos seleccionada determina los componentes disponibles, como las métricas y las dimensiones. Consulta [Paneles - Visualización de datos](/help/analysis-workspace/c-panels/panels.md#data-view) para obtener más información. |
 
 ## Funciones
 

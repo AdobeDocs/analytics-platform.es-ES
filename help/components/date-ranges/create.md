@@ -4,10 +4,10 @@ description: Crear un intervalo de fecha para utilizarlo en los informes.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 2ed18bcf2767d513265f909690ea53fdbd90a2b5
+source-git-commit: a6295d550e0e357569d530b72fe50a58d7ecfbbe
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 39%
+source-wordcount: '533'
+ht-degree: 37%
 
 ---
 
@@ -18,11 +18,12 @@ Cualquiera puede crear un intervalo de fechas personalizado. Puede crear un inte
 
 ![Crear una anotación](assets/create-date-range.png)
 
-* (A) En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Intervalo de fecha]**. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** del administrador de [[!UICONTROL intervalo de fechas]](/help/components/date-ranges/manage.md).
-* (B) En un proyecto de Workspace, en el menú contextual de una visualización, seleccione **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]**.
-* (C) En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú y seleccione **[!UICONTROL Crear intervalo de fechas]**
-* (D) En un proyecto de Workspace, use el acceso directo **[!UICONTROL ctrl+mayús+d]** (Windows) o **[!UICONTROL mayús+comando+d]** (macOS).
-* (E) En un proyecto de Workspace, en el panel izquierdo Componentes, seleccione ![Agregar](/help/assets/icons/Add.svg) en ![Calendario](/help/assets/icons/Calendar.svg) **Intervalos de fechas**.
+* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Intervalo de fecha]**. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** del administrador de [[!UICONTROL intervalo de fechas]](/help/components/date-ranges/manage.md).
+* **B**. En un proyecto de Workspace, en el menú contextual de una visualización, seleccione **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]**.
+* **C**. En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú y seleccione **[!UICONTROL Crear intervalo de fechas]**
+* **D**. En un proyecto de Workspace, use el acceso directo **[!UICONTROL ctrl+mayús+d]** (Windows) o **[!UICONTROL mayús+comando+d]** (macOS).
+* **E**. En un proyecto de Workspace, en el panel izquierdo Componentes, seleccione ![Agregar](/help/assets/icons/Add.svg) en ![Calendario](/help/assets/icons/Calendar.svg) **Intervalos de fechas**.
+* F. En una visualización compatible, como una visualización de línea, desde el menú contextual de un punto de datos, seleccione **[!UICONTROL Anotar selección]**.
 
 Para definir la anotación, utilice el [[!UICONTROL Generador de intervalos de fechas]](#annotation-builder):
 

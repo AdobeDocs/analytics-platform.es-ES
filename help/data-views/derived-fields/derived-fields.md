@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
 workflow-type: tm+mt
 source-wordcount: '8844'
 ht-degree: 17%
@@ -1570,7 +1570,7 @@ Divide un valor de un campo en un nuevo campo derivado.
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Output |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul><ul><li>[!UICONTROL Método]:</li><ul><li>Desde la izquierda</li><li>Desde la derecha</li><li>Convertir en matriz</li></ul></li><li>Para el delimitador:<ul><li>Cadena</li></ul><li>Para el índice:<ul><li>Numéricos</li></ul></li> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul><ul><li>[!UICONTROL Método]:</li><ul><li>Desde la izquierda</li><li>Desde la derecha</li><li>Convertir en matriz</li></ul></li><li>Para el delimitador:<ul><li>Cadena</li></ul><li>Para el índice:<ul><li>Numéricos</li></ul></li> | <p>N/A</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1966,7 +1966,7 @@ Las siguientes limitaciones se aplican a la funcionalidad de campo Derivado en g
 | <p>Combinar campos</p> | <ul><li>2 funciones Combinar campos por campo derivado</li></ul> |
 | <p>Siguiente o anterior</p> | <ul><li>3 Funciones Siguiente o Anterior por campo derivado</li></ul> |
 | <p>Reemplazo de regex</p> | <ul><li>1 función Regex Replace por campo derivado</li></ul> |
-| <p>Split</p> | <ul><li>5 Funciones divididas por campo derivado</li></ul> |
+| <p>Split</p> | <ul><li>2 Funciones divididas por campo derivado</li></ul> |
 | <p>Resumir</p> | <ul><li>3 Funciones de resumen por campo derivado</li></ul> |
 | <p>Recortar</p> | <ul><li>1 función Recortar por campo derivado</li></ul> |
 | <p>Análisis de URL</p> | <ul><li>5 funciones de análisis de URL por campo derivado</li></ul> |

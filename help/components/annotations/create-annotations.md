@@ -4,10 +4,10 @@ description: Cómo crear anotaciones en Espacio de trabajo.
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '872'
-ht-degree: 100%
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 91%
 
 ---
 
@@ -21,11 +21,11 @@ Puedes crear una anotación de las siguientes maneras:
 
 ![Crear una anotación](assets/create-annotation.png)
 
-* En la interfaz principal, selecciona **[!UICONTROL Componentes]** y selecciona **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL  Anotaciones]](/help/components/annotations/manage-annotations.md).
-* En un proyecto de Workspace, en el menú contextual de una visualización, selecciona **[!UICONTROL Crear anotación a partir de la selección]**.
-* En un proyecto de Workspace, en el menú contextual de un gráfico de líneas, selecciona **[!UICONTROL Anotar selección]**.
-* En un proyecto de Workspace, selecciona **[!UICONTROL Componentes]** en el menú y selecciona **[!UICONTROL Crear anotación]**.
-* En un proyecto de Workspace, usa el método abreviado **[!UICONTROL ctrl+shift+o]** (Windows) o **[!UICONTROL shift+comando+o]** (macOS)
+* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL  Anotaciones]](/help/components/annotations/manage-annotations.md).
+* **B**. En un proyecto de Workspace, en el menú contextual de una visualización, seleccione **[!UICONTROL Crear anotación a partir de la selección]**.
+* **C**. En un proyecto de Workspace, en el menú contextual de un gráfico de líneas, seleccione **[!UICONTROL Anotar selección]**.
+* **D**. En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú y seleccione **[!UICONTROL Crear anotación]**.
+* **E**.  En un proyecto de Workspace, use el acceso directo **[!UICONTROL ctrl+mayús+o]** (Windows) o **[!UICONTROL mayús+comando+o]** (macOS)
 
 Para definir la anotación, utiliza el [[!UICONTROL Generador de anotaciones]](#annotation-builder):
 
