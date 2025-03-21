@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 07487061881cacd6e4f79bd46581d179aca99347
+source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Para utilizar la plantilla:
 1. En el cuadro de diálogo **[!UICONTROL Configurar la plantilla]**, seleccione una métrica del cuadro de diálogo **[!UICONTROL Seleccionar una métrica de conversión]**. Por ejemplo, **[!UICONTROL Asset CTR]**.
 1. Seleccione **[!UICONTROL Continuar]**.
 
-Se abre un proyecto de **[!UICONTROL Información general de Content Analytics]** en Workspace. El proyecto consta de cuatro paneles, donde cada panel proporciona tablas de forma libre y visualizaciones para responder a una pregunta específica:
+Se abre un proyecto de **[!UICONTROL Información general de Content Analytics]** en [Analysis Workspace](/help/analysis-workspace/home.md). El proyecto consta de cuatro [paneles](/help/analysis-workspace/c-panels/panels.md), donde cada panel proporciona [tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) y [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para responder a una pregunta específica:
 
 * **¿Qué contenido tiene el mejor rendimiento?**
 Este panel le ayuda a comprender qué experiencias y qué recursos de esas experiencias impulsan la participación y la conversión. Las experiencias son una página web completa que se captura en un momento específico. Una experiencia puede contener texto y varios recursos de imagen individuales. Un recurso es una imagen individual.
@@ -85,9 +85,9 @@ Este panel le ayuda a comprender qué experiencias y qué recursos de esas exper
 
    * **Experiencias**
 
-      * **Experience CTR**: una visualización de cambio de resumen que muestra Experience CTR.
-      * **Experiencias de conversión principales**: Una visualización de gráfico de barras horizontal que muestra las experiencias de conversión principales en función de la métrica de conversión seleccionada.
-      * **Experiencias de mayor rendimiento**: Una tabla de forma libre (que incluye miniaturas y vistas previas) para las experiencias de mayor rendimiento.
+      * **Experience CTR**: una visualización de [cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) que muestra Experience CTR.
+      * **Experiencias de conversión principales**: Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra las experiencias de conversión principales en función de la métrica de conversión seleccionada.
+      * **Experiencias de mejor rendimiento**: Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (que incluye [miniaturas](#thumbnails) y [vistas previas](#previews)) para las experiencias de mejor rendimiento.
 
    * **Recursos**
 
