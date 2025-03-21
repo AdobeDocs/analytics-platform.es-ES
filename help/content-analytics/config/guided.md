@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: e8ba272d2deb535374a47b61c22d58c4168ff50c
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -262,7 +262,7 @@ En una nueva configuración, debe definir si desea utilizar una propiedad de eti
 
   ![Etiqueta existente de recopilación de datos de Content Analytics](../assets/aca-configuration-datacollection-existingtag.png)
 
-   1. Seleccione **[!UICONTROL Existente]**.
+   1. Seleccione **[!UICONTROL Elegir]** existente.
    2. Seleccione una propiedad existente del menú desplegable **[!UICONTROL Propiedad de etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles.
 
 * Para crear una nueva propiedad Etiquetas:
@@ -271,16 +271,15 @@ En una nueva configuración, debe definir si desea utilizar una propiedad de eti
 
    1. Seleccione **[!UICONTROL Crear nuevo]**.
    1. Especifique un **[!UICONTROL nombre de etiqueta]**, por ejemplo `ACA Test for Documentation`.
-  <!--1. Specify **[!UICONTROL Domains]**, for example, `example.com`. -->
-   1. Seleccione **[!UICONTROL Añadir]**.
+   1. Especifique **[!UICONTROL dominios]**, por ejemplo, `example.com`.
 
 * Si ha seleccionado incluir experiencias, indique qué páginas deben incluirse o excluirse al recopilar datos para Content Analytics.
 
-   * Especifique una expresión regular para **[!UICONTROL Experience]**. Por ejemplo: `/^(?!.*documentation).*/` para excluir todas las páginas de documentación de Content Analytics. Asegúrese de omitir las expresiones regulares usando `/`.
+   * Especifique una cadena de expresión regular para que **[!UICONTROL Pages incluya/excluya]**. Por ejemplo: `/^(?!.*documentation).*/` para excluir todas las páginas de documentación de Content Analytics. Asegúrese de omitir las expresiones regulares usando `/`.
 
 * Indique qué recursos deben incluirse o excluirse al recopilar datos para Content Analytics.
 
-   * Especifique una expresión regular para **[!UICONTROL Asset]**. Por ejemplo: `/^(?!.*(logo\.jpg|\.svg)).*$/` para excluir todas las imágenes de logotipo de JPEG y SVG de Content Analytics. Asegúrese de omitir las expresiones regulares usando `/`.
+   * Especifique una cadena de expresión regular para **[!UICONTROL Assets para incluir/excluir]**. Por ejemplo: `/^(?!.*(logo\.jpg|\.svg)).*$/` para excluir todas las imágenes de logotipo de JPEG y SVG de Content Analytics. Asegúrese de omitir las expresiones regulares usando `/`.
 
 
 #### Configuración existente {#existing-configuration}
