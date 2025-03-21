@@ -7,43 +7,30 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---
 
 # Configuración de Content Analytics
 
->[!WARNING]
->
->Este artículo es una versión preliminar no oficial del borrador de una próxima versión final y forma parte de la documentación de Content Analytics. Todo el contenido está sujeto a cambios y no se puede derivar ninguna obligación legal de la versión actual de este artículo.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
 La configuración de Content Analytics consta de los siguientes pasos:
 
-![Configuración de Content Analytics](../assets/aca-configuration.svg)
+![Configuración de Content Analytics](../assets/aca-configuration.svg){zoomable="yes"}
 
-1. Utilice el asistente de Content Analytics [configuración guiada](guided.md) para guiarle por todos los pasos necesarios para establecer los requisitos previos de una configuración de Content Analytics. Puede guardar las configuraciones y volver más tarde.
-1. Una vez que se sienta cómodo con los valores de configuración, puede implementar la configuración. Esta implementación crea todos los artefactos necesarios en función de lo que haya configurado en el asistente. Se crean, actualizan o seleccionan los siguientes artefactos:
-   * Customer Journey Analytics
-      * Se ha seleccionado [una vista de datos](/help/data-views/data-views.md).
-      * Se seleccionó una [conexión](/help/connections/overview.md), que se deriva automáticamente de la vista de datos seleccionada.
-   * Experience Platform
-      * La zona protegida está seleccionada, derivada automáticamente de la conexión. Los flujos de trabajo y servicios necesarios están habilitados en la zona protegida.
-      * Los esquemas de Content Analytics se seleccionan en la zona protegida. Si no está disponible, se crean los esquemas necesarios.
-      * Los conjuntos de datos de Content Analytics están seleccionados en la zona protegida. Si no está disponible, se crean los conjuntos de datos necesarios.
-   * Recopilación de datos
-      * Se crea un conjunto de datos y se configura un servicio de Experience Platform dentro del conjunto de datos para transmitir datos al conjunto de datos de evento de experiencia de Content Analytics.
-      * Se crea una propiedad Tags con la extensión Adobe Content Analytics configurada para la zona protegida, la secuencia de datos y otras opciones de configuración correctas desde el asistente de configuración.
+1. Utilice el asistente de Content Analytics [configuración guiada](guided.md) para guiarle por todos los pasos necesarios para establecer los requisitos previos de una configuración de Content Analytics. Puede guardar las configuraciones en cualquier momento y volver más tarde.
+1. Una vez que se sienta cómodo con los valores de configuración, puede implementar la configuración. Esta implementación crea todos los artefactos necesarios en función de lo que haya configurado en el asistente.
 1. Solo cuando [publique](manual.md) manualmente la propiedad Etiquetas, la configuración de Content Analytics se implementará y activará de manera efectiva.
 
 1. Solo puede realizar algunos cambios menores en una configuración implementada mediante el asistente de [configuración guiada](guided.md). Por ejemplo, cambie la [Vista de datos](/help/data-views/data-views.md).
-1. Puede realizar otros cambios en una configuración implementada. Use la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) en la propiedad de etiquetas asociada.
-1. Solo cuando [vuelva a publicar](manual.md) manualmente la propiedad Etiquetas, las modificaciones de configuración de los pasos 4 y 5 se implementarán y activarán de manera efectiva.
+1. Puede realizar otros cambios en una configuración implementada usando la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) en la propiedad Tags asociada.
+1. Solo cuando [vuelva a publicar](manual.md) manualmente la propiedad Etiquetas, las modificaciones de configuración se implementarán y activarán de manera efectiva.
 
 
 ## Requisitos previos

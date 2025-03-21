@@ -7,30 +7,27 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: df3a877feed82f6cbd181561da68837373bdafb8
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
 
 # Resumen de informes de Content Analytics
 
->[!WARNING]
->
->Este artículo es una versión preliminar no oficial del borrador de una próxima versión final y forma parte de la documentación de Content Analytics. Todo el contenido está sujeto a cambios y no se puede derivar ninguna obligación legal de la versión actual de este artículo.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
-Los informes sobre Content Analytics se realizan en Analysis Workspace. Hay disponible una [plantilla](#template) de Workspace específica para que pueda acceder inmediatamente a un proyecto de Workspace previamente completado con información de contenido relevante.
+Realiza informes, realiza análisis y obtiene información sobre Content Analytics en [Analysis Workspace](/help/analysis-workspace/home.md). Hay disponible una [plantilla](#template) de Workspace específica para que pueda acceder inmediatamente a un proyecto de Workspace previamente completado con información de contenido relevante.
 
 Para empezar a crear informes en Content Analytics desde cero:
 
 1. [Cree un nuevo](/help/analysis-workspace/build-workspace-project/create-projects.md) o [abra un proyecto existente](/help/analysis-workspace/build-workspace-project/open-projects.md) en Workspace.
 1. Asegúrese de [seleccionar una vista de datos](/help/analysis-workspace/c-panels/panels.md#data-view) para los informes de Content Analytics. Los informes de Content Analytics solo están disponibles para las vistas de datos [configuradas](/help/content-analytics/config/configuration.md) para Content Analytics.
 1. Arrastre una visualización ![Tabla](/help/assets/icons/Table.svg) [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) al lienzo.
-1. Use [componentes específicos de Content Analytics](components.md) y otros [componentes](/help/components/overview.md) genéricos (como filtros, intervalos de fechas, anotaciones) para generar sus datos de análisis de contenido. También puede usar la [plantilla de análisis de contenido](#template).
+1. Use [componentes específicos de Content Analytics](components.md) y otros [componentes](/help/components/overview.md) genéricos (como filtros, intervalos de fechas, anotaciones) para generar sus datos de análisis de contenido.
 
 ## Miniaturas
 
@@ -38,9 +35,16 @@ En función de las dimensiones específicas de Content Analytics que utilice en 
 
 ![miniaturas de Content Analytics](../assets/aca-thumbnails.png)
 
+Para configurar la visualización de miniaturas para una dimensión de Content Analytics:
+
+* Pase el ratón sobre una fila de encabezado para una dimensión de Content Analytics. Por ejemplo, **[!UICONTROL Nombre de recurso]** o **[!UICONTROL ID de experiencia]**.
+* Seleccione ![Configuración](/help/assets/icons/Setting.svg).
+* En la ventana emergente **[!UICONTROL Configuración de fila]**, debajo de **[!UICONTROL Configuración]**, marque o desmarque **[!UICONTROL Mostrar miniaturas]**.
+
+
 ## Previsualizaciones
 
-Para las dimensiones que tienen miniaturas (como Nombre del recurso, Nombre de la experiencia y otras), puede abrir una ventana emergente de vista previa.
+Para las filas de una dimensión de Content Analytics que muestran miniaturas, puede abrir una ventana emergente de vista previa.
 
 Para abrir la vista previa con los siguientes detalles:
 
@@ -50,11 +54,11 @@ Para abrir la vista previa con los siguientes detalles:
   |---|---|
   | ![Vista previa de Content Analytics Experience](../assets/aca-experience-preview.png) | ![Vista previa de recursos Content Analytics](../assets/aca-asset-preview.png) |
   | **[!UICONTROL Nombre de la experiencia]** | **[!UICONTROL Nombre del recurso]** |
-  | **[!UICONTROL Impresiones (todas las veces)]**: Número de impresiones de la experiencia. | **[!UICONTROL Impresiones (todas las veces)]**: número de impresiones del recurso. |
-  | **[!UICONTROL Assets]**: número de recursos que contiene esta experiencia. Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** para inspeccionar los recursos. | **[!UICONTROL Experiencias]**: Número de experiencias en las que se muestra este recurso. ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** para inspeccionar los recursos. |
+  | **[!UICONTROL Impresiones (todo el tiempo)]**: Número de impresiones de la experiencia. | **[!UICONTROL Impresiones (todas las veces)]**: número de impresiones del recurso. |
+  | **[!UICONTROL Assets]**: número de recursos que contiene esta experiencia. <br/>Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** para inspeccionar los recursos. | **[!UICONTROL Experiencias]**: Número de experiencias en las que se muestra este recurso. <br/>Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** para inspeccionar los recursos. |
   | **[!UICONTROL Primera impresión]**: Fecha de la primera impresión de la experiencia. | **[!UICONTROL Primera impresión]**: Fecha de la primera impresión del recurso. |
   | **[!UICONTROL impresión más reciente]**: Fecha de la impresión más reciente de la experiencia. | **[!UICONTROL Impresión más reciente]**: Fecha de la impresión más reciente del recurso. |
-  | **[!UICONTROL Atributos de experiencia]**: Los atributos de la experiencia. | **[!UICONTROL Atributos de recurso]**: Los atributos del recurso. |
+  | **[!UICONTROL Atributos de experiencia]**: Los [atributos](/help/content-analytics/report/components.md#experience-attributes) de la experiencia. | **[!UICONTROL Atributos de recurso]**: Los [atributos](/help/content-analytics/report/components.md#asset-attributes) del recurso. |
 
 
 ## Plantilla
@@ -72,7 +76,7 @@ Para utilizar la plantilla:
 1. En el cuadro de diálogo **[!UICONTROL Configurar la plantilla]**, seleccione una métrica del cuadro de diálogo **[!UICONTROL Seleccionar una métrica de conversión]**. Por ejemplo, **[!UICONTROL Asset CTR]**.
 1. Seleccione **[!UICONTROL Continuar]**.
 
-Se abre un proyecto de **[!UICONTROL Información general de Content Analytics]** en Workspace. El proyecto consta de cuatro paneles, cada uno de los cuales responde a preguntas específicas:
+Se abre un proyecto de **[!UICONTROL Información general de Content Analytics]** en Workspace. El proyecto consta de cuatro paneles, donde cada panel proporciona tablas de forma libre y visualizaciones para responder a una pregunta específica:
 
 * **¿Qué contenido tiene el mejor rendimiento?**
 Este panel le ayuda a comprender qué experiencias y qué recursos de esas experiencias impulsan la participación y la conversión. Las experiencias son una página web completa que se captura en un momento específico. Una experiencia puede contener texto y varios recursos de imagen individuales. Un recurso es una imagen individual.
@@ -129,18 +133,18 @@ Una visualización de [línea](/help/analysis-workspace/visualizations/line.md) 
 Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las palabras clave de experiencia principales en función de la métrica de conversión seleccionada.
 
 * **¿Dónde aparecen los recursos en mi sitio?**
-Panel que consta de una tabla de forma libre que detalla dónde aparecen la mayoría de los recursos de vistas en el sitio.
+Panel que consta de una tabla de forma libre que detalla dónde aparecen los recursos más vistos en el sitio.
 
   El panel consta de una visualización:
 
    * **¿Dónde aparecen los recursos más vistos?**
-Puede desglosar cualquier ID de recurso por dimensiones que le ayuden a comprender mejor dónde aparece esa imagen.
+Puede desglosar cualquier recurso por dimensiones para comprender mejor dónde aparece esa imagen.
 
-     En este ejemplo [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluidas [miniaturas](#thumbnails) y [vistas previas](#previews)), se usa [!UICONTROL *ID de percepción de recursos*] en lugar de [!UICONTROL *ID de recursos*]. A veces, la misma imagen se puede duplicar en el sitio con una dirección URL de imagen diferente. El atributo [!UICONTROL _Asset Perception_] ayuda a agrupar estos duplicados en un solo ID. Dado que los recursos pueden cambiar en una página, cada recurso se desglosa en [!UICONTROL _Experience ID_] para identificar en qué versión de esa página apareció ese recurso.
+     En el ejemplo [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluidas [miniaturas](#thumbnails) y [vistas previas](#previews)), se usa **[!UICONTROL ID de percepción de recursos]** en lugar de [!UICONTROL ID de recursos]. A veces, la misma imagen se puede duplicar en el sitio con una dirección URL de imagen diferente. El atributo [!UICONTROL Asset Perception ID] ayuda a agrupar estos duplicados en un único ID.
 
-     Puede reemplazar [!UICONTROL _Experience ID_] con otras dimensiones que le ayudarán a comprender la ubicación de un recurso en su sitio. Por ejemplo: [!UICONTROL _Nombre de página_], [!UICONTROL _URL de página_] o [!UICONTROL _Sección del sitio_].
+     Dado que los recursos pueden cambiar en una página, cada recurso se desglosa en **[!UICONTROL Experience Id]** para identificar en qué versión de esa página apareció el recurso. Puede reemplazar [!UICONTROL Experience Id] por otras dimensiones que le ayuden a comprender la ubicación de un recurso en su sitio. Por ejemplo: [!UICONTROL Nombre de página], [!UICONTROL URL de página] o [!UICONTROL Sección del sitio].
 
-     También puede intercambiar [!UICONTROL _ID de percepción_] por [!UICONTROL _ID de recurso_] para obtener un registro de dónde se hace referencia a las URL de imágenes específicas.
+     También puede intercambiar [!UICONTROL ID de percepción de recursos] por [!UICONTROL ID de recursos] para obtener un registro de dónde se hace referencia a las URL de imágenes específicas.
 
 
 >[!MORELIKETHIS]

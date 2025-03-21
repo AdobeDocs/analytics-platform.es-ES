@@ -1,8 +1,8 @@
 ---
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '3333'
-ht-degree: 22%
+source-wordcount: '3384'
+ht-degree: 21%
 
 ---
 # Fragmentos
@@ -217,3 +217,11 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 ## Paso final de la lista de comprobación de actualización {#upgrade-final-step}
 
 1. Siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los pasos de actualización generados dinámicamente en la Guía de actualización de Customer Journey Analytics. Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.
+
+
+## Documentación del borrador de Content Analytics {#draft-aca}
+
+>[!WARNING]
+>
+>Este artículo forma parte del borrador de la documentación de Content Analytics. Todo el borrador de la documentación de Content Analytics sigue estando sujeto a cambios y no se puede derivar ninguna obligación legal de la versión actual de este artículo o de cualquier otro artículo que forme parte de la documentación de Content Analytics.
+>
