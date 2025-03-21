@@ -4,9 +4,9 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 180129837fa326f600ebc3dc5a2a54fd6c3372cb
+source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
-source-wordcount: '4542'
+source-wordcount: '4659'
 ht-degree: 54%
 
 ---
@@ -729,7 +729,7 @@ Menor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 
 
 
-## Alza (#lift)
+## Alza {#lift}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -739,6 +739,10 @@ Menor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 >abstract="El alza de la proporción comparada con el valor de control."
 
 <!-- markdownlint-enable MD034 -->
+
+![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL ALZA(contenedor de normalización, métrica de éxito, control)]**
+
+El alza de la proporción comparada con el valor de control.
 
 | Argumento | Descripción |
 | --- | --- |
@@ -1338,6 +1342,27 @@ Devuelve Pi: 3,14159...
 | metric_Y | Una métrica que le gustaría designar como datos independientes |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos |
 
+
+
+## Varianza de muestra
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-variance-estimate"
+>title="Varianza de muestra"
+>abstract="Calcula una estimación de la varianza de muestra mediante la fórmula (suma(métrica^2) / (N - 1)) - (suma(métrica))^2/(N*(N-1)). donde N es el recuento del contenedor de normalización. <br/>Esto se usa como parte de *cálculos de confianza en cualquier momento válidos*. Por lo general, esta función no es útil por sí sola, pero se puede usar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
+
+![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIACIÓN DE MUESTRA(contenedor de normalización, métrica de éxito)]**
+
+Calcula una estimación de la varianza de la muestra.
+
+| Argumento | Descripción |
+| --- | --- |
+| normalizing-container | La base (Personas, Sesiones o Eventos) en que se ejecuta una prueba. |
+| métrica de éxito | La métrica o métricas con las que un usuario compara variantes. |
+
+<!-- markdownlint-enable MD034 -->
 
 
 
