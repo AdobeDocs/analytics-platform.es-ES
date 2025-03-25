@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 94dad68426a08ffa34ded7905567fbea307b1de4
+source-git-commit: 82d7702c57fdff86fa1f4b70d75e7ff7f019ec86
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -46,5 +46,5 @@ Ahora, cada ID de sesión es un vínculo en el que puede hacer clic. Estos vínc
 ## Paso 2: Visualización de sesiones de Customer Journey Analytics
 
 Una vez creado el informe de Workspace con vínculos en los que se puede hacer clic, puede utilizar Filtros en Customer Journey Analytics para identificar sesiones interesantes que pueda analizar más a fondo en Métricas cuánticas.
-La tabla muestra todas las sesiones de ese segmento y puede hacer clic en cualquiera de ellas para explorarlas más en QM.  Obtenga más información acerca de la reproducción de la sesión de la métrica cuántica en [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)
+La tabla muestra todas las sesiones de ese segmento y puede hacer clic en cualquiera de ellas para explorarlas más en QM.  Obtenga más información acerca de la reproducción de la sesión de la métrica cuántica en [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay). Para obtener recursos adicionales, comuníquese con el representante de atención al cliente de Quantum Metric o envíe una solicitud a través del [Portal de solicitudes de clientes](https://community.quantummetric.com/s/public-support-page) de Quantum Metric.
 
