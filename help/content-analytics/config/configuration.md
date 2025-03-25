@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 17a7a9a602b92693b2ad6db10f60d3e77fef9724
+source-git-commit: d8d433be07c8cf97e5cf07338f1af6a04a25179f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 2%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -39,19 +39,9 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
 
 * Ha incluido en la lista de permitidos el agente de usuario y la dirección IP para el servicio de funcionalidad que se utiliza en Content Analytics. La cadena del agente de usuario que se va a configurar es: <code>AdobeFeaturization/1.0</code>.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y vistas de datos.
-* Tiene los permisos de Experience Platform necesarios:
-
-  | Categoría | Permiso | Descripción |
-  |---|---|---|
-  | [!UICONTROL Recopilación de datos] | Ver flujos de datos | Acceso de solo lectura a flujos de datos. |
-  | [!UICONTROL Recopilación de datos] | Administrar flujos de datos | Acceso para leer, crear, editar y eliminar flujos de datos. |
-  | [!UICONTROL Modelado de datos] | [!UICONTROL Esquemas de vista] | Acceso de solo lectura a esquemas y recursos relacionados. |
-  | [!UICONTROL Modelado de datos] | [!UICONTROL Administrar esquemas] | Acceso para leer, crear, editar y eliminar esquemas y recursos relacionados. |
-  | [!UICONTROL Administración de datos] | [!UICONTROL Ver conjuntos de datos] | Acceso de solo lectura para conjuntos de datos y esquemas. |
-  | [!UICONTROL Administración de datos] | [!UICONTROL Administrar conjuntos de datos] | Acceso para leer, crear, editar y eliminar conjuntos de datos. Acceso de solo lectura para esquemas. |
-  | [!UICONTROL Ingesta de datos] | [!UICONTROL Administrar orígenes] | Acceso para leer, crear, editar y deshabilitar orígenes. |
-  | [!UICONTROL Identity Management] | [!UICONTROL Ver áreas de nombres de identidad] | Acceso de solo lectura para áreas de nombres de identidad. |
-
+* Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}. Estos permisos constan de:
+   * [Permisos de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [Permisos de recopilación de datos de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank" }
 * Ha considerado detenidamente las siguientes opciones de configuración importantes:
 
    * Su sitio es adecuado para los informes de experiencias. Un sistema de informes de experiencia adecuado solo es posible cuando se cumplen las siguientes condiciones:
