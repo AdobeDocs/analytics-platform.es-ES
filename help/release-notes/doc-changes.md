@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4664'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Marzo de 2025** | |
-| Casos de uso de métricas cuánticas | Se han agregado casos de uso para recopilar datos de [Métrica cuántica](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
+| Casos de uso de métrica cuántica | Se han añadido casos de uso para recopilar datos de [la métrica cuántica](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
 | **Febrero de 2025** |  |
 | Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de informes de medios | El conector de origen de Analytics [asigna automáticamente los datos de medios de streaming en Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=es) a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero solo se utilizará la nueva en el futuro.  |
 | Extensión de BI: compatibilidad ampliada | La extensión de Customer Journey Analytics BI admite ahora [Looker, Jupyter Notebook y R Studio](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=es). |
