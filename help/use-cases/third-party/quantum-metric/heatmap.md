@@ -7,10 +7,10 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
+source-git-commit: b82a345fbae1a0ab2debf2c4eb580422745db473
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '407'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +48,6 @@ Debe tener derecho al paquete **Operaciones de experiencia de usuario** de Quant
 
 ## Visualización de mapas de calor haciendo clic en los vínculos de Customer Journey Analytics
 
-Una vez que haya encontrado una página para la que desee explorar la asignación de calor, puede aplicarla al panel en el que se encuentra su URL. La tabla muestra una dirección URL que le permite explorar los mapas de calor de la página en cuestión, la profundidad de desplazamiento y las zonas clave para la interacción.  Obtenga más información acerca de los mapas de calor de métricas cuánticas en [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)
+Una vez que haya encontrado una página para la que desee explorar la asignación de calor, puede aplicarla al panel en el que se encuentra su URL. La tabla muestra una dirección URL que le permite explorar los mapas de calor de la página en cuestión, la profundidad de desplazamiento y las zonas clave para la interacción.  Obtenga más información acerca de los mapas de calor de métricas cuánticas en [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps).  Para obtener recursos adicionales, comuníquese con el representante de atención al cliente de Quantum Metric o envíe una solicitud a través del [Portal de solicitudes de clientes](https://community.quantummetric.com/s/public-support-page) de Quantum Metric.
 
 
