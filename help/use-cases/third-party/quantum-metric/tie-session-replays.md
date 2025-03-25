@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 82d7702c57fdff86fa1f4b70d75e7ff7f019ec86
+source-git-commit: 752e8564c341cf02b5378a12a820f52ca6164a3d
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -41,10 +41,11 @@ Cree una tabla de forma libre en Workspace y configúrela para que los valores d
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-Ahora, cada ID de sesión es un vínculo en el que puede hacer clic. Estos vínculos le llevan a Métrica cuántica en una nueva pestaña, lo que le permite analizar esa sesión en particular con más detalle. Consulte [Crear hipervínculos en una tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) para obtener más información sobre cómo agregar hipervínculos a elementos de dimensión de Analysis Workspace.
+Ahora, cada ID de sesión es un vínculo en el que puede hacer clic. Consulte [Crear hipervínculos en una tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) para obtener más información sobre cómo agregar hipervínculos a elementos de dimensión de Analysis Workspace.
 
 ## Paso 2: Visualización de sesiones de Customer Journey Analytics
 
-Una vez creado el informe de Workspace con vínculos en los que se puede hacer clic, puede utilizar Filtros en Customer Journey Analytics para identificar sesiones interesantes que pueda analizar más a fondo en Métricas cuánticas.
-La tabla muestra todas las sesiones de ese segmento y puede hacer clic en cualquiera de ellas para explorarlas más en QM.  Obtenga más información acerca de la reproducción de la sesión de la métrica cuántica en [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay). Para obtener recursos adicionales, comuníquese con el representante de atención al cliente de Quantum Metric o envíe una solicitud a través del [Portal de solicitudes de clientes](https://community.quantummetric.com/s/public-support-page) de Quantum Metric.
+Una vez que haya encontrado un segmento interesante para el que desee explorar las repeticiones de sesión, puede aplicarlo al panel que incluye los vínculos del ID de sesión y filtrar por segmento. La tabla devuelve todas las sesiones de ese segmento y puede hacer clic en cualquiera de ellas para explorarlas más detalladamente en Métrica cuántica.
+
+Obtenga más información acerca de la reproducción de la sesión de la métrica cuántica en [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay). Para obtener recursos adicionales, comuníquese con el representante de atención al cliente de Quantum Metric o envíe una solicitud a través del [Portal de solicitudes de clientes](https://community.quantummetric.com/s/public-support-page) de Quantum Metric.
 
