@@ -8,7 +8,7 @@ exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 14%
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-validate"
 >title="Validar datos en el conjunto de datos"
->abstract="Ahora que ha configurado la implementación, puede utilizar el administrador de actividades del conjunto de datos para ver los lotes ingeridos y los que han dado error. Si ve principalmente lotes ingeridos, este paso está completado. Si ve principalmente lotes con errores o sin lotes, compruebe la implementación para asegurarse de que envía correctamente los datos a Adobe."
+>abstract="Ahora que ha configurado la implementación, puede utilizar el administrador de actividades del conjuntos de datos para ver los lotes ingeridos y los que han dado error. Si ve principalmente lotes ingeridos, este paso está completado. Si ve principalmente lotes con errores o ningún lote, compruebe la implementación para asegurarse de que está enviando correctamente los datos a Adobe."
 
 <!-- markdownlint-enable MD034 -->
 
