@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 752e8564c341cf02b5378a12a820f52ca6164a3d
+source-git-commit: 9563b13da52963eaf7b17050fb9a7cb3a47ef1ed
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Al vincular las reproducciones de sesiones de métricas cuánticas con los datos de CJA, los clientes pueden comprender mejor &quot;el por qué&quot; detrás de &quot;el qué&quot;.  Workspace se puede utilizar para detectar sesiones con fricción. A continuación, puede hacer clic en los ID de sesión con hipervínculos para explorar la reproducción de la sesión en la métrica cuántica.  Estos datos permiten ver el comportamiento dentro de una sesión y comprender mejor qué es lo que impulsa la fricción del consumidor.  A través de las reproducciones de sesión vinculadas con CJA, puede capturar el contexto crítico en torno al comportamiento de los clientes en su experiencia.
 
-## Requisitos previos
+## Requisitos previos:
 
 Este caso de uso requiere que recopile el ID de sesión de la métrica cuántica junto con el resto de la implementación. Consulte [Recopilar ID de sesión de métricas cuánticas en Customer Journey Analytics](collect-session-id.md) para obtener información sobre cómo modificar la implementación.
 
