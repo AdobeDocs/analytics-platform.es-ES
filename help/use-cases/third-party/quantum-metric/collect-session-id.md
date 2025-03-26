@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
-source-git-commit: 255f06ba504a0fa189a02966c5d3c63e1a4fadfd
+source-git-commit: ae88ab16e85bd1274990f8c4d04771398293fe09
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -18,11 +18,13 @@ ht-degree: 0%
 
 Algunos casos de uso, como [vinculación de repeticiones de sesión de métrica cuántica](tie-session-replays.md) o [uso de mapas de calor de métrica cuántica](heatmap.md) requieren que modifique la implementación para recopilar el ID de sesión de métrica cuántica. Esta página describe ese proceso para incorporar correctamente esos datos en la implementación existente.
 
-## Requisitos previos
+## Requisitos previos:
 
 En estos pasos se da por hecho que utiliza etiquetas en la recopilación de datos de Adobe Experience Platform. Puede adaptar estos métodos de recopilación de datos a una implementación manual de Web SDK si su organización no utiliza etiquetas.
 
-### Paso 1: Recopilar el ID de sesión de métrica cuántica con la extensión de etiquetas de métrica cuántica
+Consulte la documentación de la [extensión de etiqueta de métrica cuántica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) para obtener más información.
+
+## Paso 1: Recopilar el ID de sesión de métrica cuántica con la extensión de etiquetas de métrica cuántica
 
 Siga estos pasos para anexar el ID de sesión de métrica cuántica a los datos que envía a Adobe Experience Platform.
 
@@ -37,13 +39,11 @@ Siga estos pasos para anexar el ID de sesión de métrica cuántica a los datos 
 >[!NOTE]
 >A veces, Web SDK se ejecuta más rápido que el código de métrica cuántica. En estos casos, el ID de sesión se envía en la visita posterior. Si un visitante regresa, el ID de sesión no se recopila en estas instancias.
 
-Consulte la documentación de la [extensión de etiqueta de métrica cuántica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) para obtener más información.
-
-### Paso 2: Confirmar los campos del conjunto de datos incluidos
+## Paso 2: Confirmar los campos del conjunto de datos incluidos
 
 Confirme que los conjuntos de datos de la conexión ahora tienen el ID de sesión de métrica cuántica en el conjunto de datos deseado.
 
-### Paso 3: Añadir el ID de sesión de métrica cuántica como dimensión disponible
+## Paso 3: Añadir el ID de sesión de métrica cuántica como dimensión disponible
 
 Edite la vista de datos existente para añadir el ID de sesión como una dimensión disponible en Customer Journey Analytics.
 
