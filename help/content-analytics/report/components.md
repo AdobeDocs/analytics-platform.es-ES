@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 18%
+source-wordcount: '1194'
+ht-degree: 17%
 
 ---
 
@@ -44,8 +44,6 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un pa
 | URL de miniatura de la experiencia | URL de la miniatura de la experiencia. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Profundidad porcentual horizontal de la experiencia | Valor cuantificable de la profundidad porcentual horizontal de la experiencia. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Profundidad porcentual vertical de la experiencia | Valor cuantificable de la profundidad porcentual vertical de la experiencia. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| Profundidad de píxeles horizontales de la experiencia | Valor cuantificable de la profundidad de píxel horizontal de la experiencia. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| Profundidad de píxeles verticales de la experiencia | Valor cuantificable de la profundidad de píxel vertical de la experiencia. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 
 {style="table-layout:fixed"}
 
@@ -55,7 +53,6 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un pa
 
 | Título | Descripción | Tipo | Configuración |
 |---|---|---|---|
-| Puntuación de legibilidad de la experiencia | ![AI generó](/help/assets/icons/AI.svg) puntuación de legibilidad para la experiencia. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Palabras clave de la experiencia | ![IA generó](/help/assets/icons/AI.svg) palabras clave para la experiencia. | Campo derivado de Dimension<br> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Estrategias de persuasión de la experiencia | ![AI generó](/help/assets/icons/AI.svg) estrategias de persuasión presentes en la experiencia dada. Los valores posibles son: Identidad social, Prueba social, Autoridad, Concreción, Pie en la puerta, Superación de la reacción, Reciprocidad, Anclaje y comparación, Impacto social, Escasez y Antropomorfismo. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Narrativas de la experiencia | ![IA generó](/help/assets/icons/AI.svg) narrativas que la experiencia está generando en función de la relevancia desde el punto de vista de un experto en marketing. | Campo derivado de Dimension<br/> | Mostrar \| Sin valor<br/>Más reciente \| Session |
@@ -76,8 +73,8 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un pa
 
 | Título | Descripción | Tipo | Configuración |
 |---|---|---|---|
-| Vistas de experiencias | Medida cuantificable del número de vistas de la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
-| Clics de experiencia | Medida cuantificable del número de clics de la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
+| Vistas de la experiencia | Medida cuantificable del número de vistas de la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
+| Clics de la experiencia | Medida cuantificable del número de clics de la experiencia. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 
 {style="table-layout:fixed"}
 
@@ -88,19 +85,12 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un pa
 |---|---|---|---|
 | Origen de recursos | URL de origen pública y accesible para el recurso. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | ID del recurso | Identificador único del recurso. El binario de recursos determina la exclusividad. Si el binario del recurso cambia, el ID sí cambia. El ID único puede ser la dirección URL, pero también puede ser un hash creado. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| Nombre del recurso | Nombre del recurso. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| Tipo de recurso | Tipo de recurso. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| URL de miniatura del recurso | URL de la miniatura del recurso. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Ruta HTML del recurso | Ruta de HTML concatenada para el recurso. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | URL de vínculo del recurso | Anclaje de página más cercano del recurso. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Anchura de visualización del recurso | Anchura de visualización del recurso de contenido. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Altura de visualización del recurso | Altura de visualización del recurso de contenido. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Resto absoluto de recurso | Resto absoluto del recurso de contenido. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
 | Máximo absoluto del recurso | Máximo absoluto del recurso de contenido. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| Recurso creado por | Identificador para la creación de recursos. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| Fecha de creación del recurso | Fecha de creación del recurso. | Dimensión | \| Más reciente Session |
-| Última actualización del recurso por | Identificador para la actualización de recursos. | Dimensión | Mostrar \| Sin valor<br/>Más reciente \| Session |
-| Fecha de última actualización del recurso | Fecha de actualización del recurso. | Dimensión | \| Más reciente Session |
 
 {style="table-layout:fixed"}
 
@@ -133,7 +123,7 @@ En las tablas siguientes, ![IA generada](/help/assets/icons/AI.svg) indica un pa
 
 | Título | Descripción | Tipo | Configuración |
 |---|---|---|---|
-| Vistas de recursos | Medida cuantificable del número de vistas del recurso. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
+| Vistas de recurso | Medida cuantificable del número de vistas del recurso. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 | Clics en recursos | Medida cuantificable del número de clics del recurso. | Métrica | Contar valores<br/>Decimal \| Lugares decimales: 0 |
 
 {style="table-layout:fixed"}

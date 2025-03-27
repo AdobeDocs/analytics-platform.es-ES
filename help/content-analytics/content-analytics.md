@@ -7,9 +7,9 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -39,10 +39,10 @@ Content Analytics proporciona valor en un nivel creciente:
 
 Content Analytics utiliza los siguientes términos clave:
 
-![Assets y experiencias](/help/content-analytics/assets//content-analytics-experience-asset.png)
+![Assets y experiencias](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
-* **Experiencia**: una experiencia es todo texto de una página web que se puede reproducir con la URL que usó el usuario inicial que visitó la página web. Cada experiencia obtiene un identificador único.
-* **Recurso**: un recurso es un fragmento de contenido individual y único, como una imagen. Cada recurso también obtiene un identificador único.
+* **Experiencia**: una experiencia es todo texto de una página web que se puede reproducir con la URL que usó el usuario inicial que visitó la página web. Cada experiencia obtiene un identificador único. Los cambios en la página que producen cambios en el HTML de la página resultan en una nueva experiencia.
+* **Recurso**: un recurso es un fragmento de contenido individual y único, como una imagen. Cada recurso también obtiene un identificador único y un ID perceptual. Un ID perceptual es un identificador que se comparte con recursos que son visualmente idénticos. Los ID perceptuales ayudan a deduplicar recursos que pueden tener una URL de recurso diferente y, por lo tanto, un ID de recurso diferente, pero que son perceptualmente idénticos.
 * **Atributo**: un atributo es un elemento de metadatos descriptivo asociado a una experiencia o recurso. Algunos ejemplos de un atributo son: estilo de fotografía, legibilidad, estrategia de persuasión, color de objeto, color de fondo.
 
 ## Funcionamiento
@@ -52,7 +52,7 @@ Content Analytics utiliza datos de vista de imágenes web recopilados en conjunt
 ![Content Analytics - Cómo funciona](assets/aca-overview.gif)
 
 
-1. Cuando un usuario visita un sitio [configurado para Content Analytics](config/configuration.md), Experience Platform Web SDK registra las interacciones con el contenido.
+1. Cuando un usuario visita un sitio [configurado para Content Analytics](config/configuration.md), Experience Platform Web SDK registra las impresiones y las interacciones con el contenido.
 1. El servicio de identidad y características procesa estas interacciones. Ese proceso consiste en un rastreador que vuelve a visitar las versiones públicas de las direcciones URL configuradas que definen las interacciones. Para todas estas direcciones URL rastreadas, el servicio de identidad identifica de forma exclusiva las experiencias y los recursos. Además, el servicio de personalización aplica servicios de IA/ML para descubrir experiencias, recursos, metadatos y atributos.
 1. Los resultados de estos servicios ([componentes, atributos e identidades](/help/content-analytics/report/components.md)) se utilizan para actualizar los conjuntos de datos de análisis de contenido específicos relevantes en Experience Platform.
 1. Los datos de análisis de contenido, junto con los datos de comportamiento y otros datos de búsqueda, se pueden usar en una configuración de Customer Journey Analytics ([Conexión](/help/connections/overview.md), [Vista de datos](/help/data-views/data-views.md) y [Workspace](/help/analysis-workspace/home.md)). Esa configuración proporciona la base para obtener información única a nivel de macro sobre el contenido. <br/>Puede iniciar sus informes y análisis de Content Analytics con la [plantilla de Content Analytics](/help/content-analytics/report/report.md#template).

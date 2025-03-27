@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: d8d433be07c8cf97e5cf07338f1af6a04a25179f
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ La configuración de Content Analytics consta de los siguientes pasos:
 
 1. Utilice el asistente de Content Analytics [configuración guiada](guided.md) para guiarle por todos los pasos necesarios para establecer los requisitos previos de una configuración de Content Analytics. Puede guardar las configuraciones en cualquier momento y volver más tarde.
 1. Una vez que se sienta cómodo con los valores de configuración, puede implementar la configuración. Esta implementación crea todos los artefactos necesarios en función de lo que haya configurado en el asistente.
-1. Solo cuando [publique](manual.md) manualmente la propiedad Etiquetas, la configuración de Content Analytics se implementará y activará de manera efectiva.
+1. Solo cuando [publique](manual.md) manualmente la propiedad Tags, la configuración de Content Analytics se implementará de manera efectiva y se iniciará la recopilación de datos.
 
 1. Solo puede realizar algunos cambios menores en una configuración implementada mediante el asistente de [configuración guiada](guided.md). Por ejemplo, cambie la [Vista de datos](/help/data-views/data-views.md).
 1. Puede realizar otros cambios en una configuración implementada usando la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) en la propiedad Tags asociada.
-1. Solo cuando [vuelva a publicar](manual.md) manualmente la propiedad Etiquetas, las modificaciones de configuración se implementarán y activarán de manera efectiva.
+1. Solo cuando [vuelva a publicar](manual.md) manualmente la propiedad Etiquetas, las modificaciones de configuración se implementarán de manera efectiva y se iniciará la recopilación de datos en función de los cambios.
 
 
 ## Requisitos previos

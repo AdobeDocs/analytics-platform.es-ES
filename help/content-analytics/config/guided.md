@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ba386bf8055498ba1cecdd49890194dd2a7d69f9
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '3335'
-ht-degree: 21%
+source-wordcount: '2428'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ La configuración guiada le ayuda a configurar Content Analytics de forma rápid
 
 Para acceder a la configuración de Content Analytics
 
-* Seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Content Analytics]** en el menú principal de Customer Journey Analytics.
+* Seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Configuración de Content Analytics]** en el menú principal de Customer Journey Analytics.
 
 En la pantalla **[!UICONTROL Configuraciones de Content Analytics]**, verá una tabla de configuraciones de Content Analytics existentes.
 
@@ -42,7 +42,7 @@ Para cada configuración, están disponibles los siguientes detalles:
 | **[!UICONTROL Creado el]** | La marca de tiempo cuando se creó la configuración. |
 | **[!UICONTROL Modificado el]** | La marca de tiempo de la última modificación de la configuración. |
 | **[!UICONTROL Zona protegida]** | La zona protegida dentro de la organización en la que se ha configurado e implementado Content Analytics (que está previsto). |
-| **[!UICONTROL Estado]** | El estado de la configuración. El estado puede ser:<br/>![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Borrador]**: la configuración se guardó para más tarde y no se implementó.<br/>![StatusRed](/help/assets/icons/StatusRed.svg) **[!UICONTROL Error]**: la configuración ha fallado. Debe editar la configuración y realizar los cambios necesarios.<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Completo]**: la configuración se completó e implementó correctamente. |
+| **[!UICONTROL Estado]** | El estado de la configuración. El estado puede ser:<br/>![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Borrador]**: la configuración se guardó para más tarde y no se implementó.<br/>![StatusRed](/help/assets/icons/StatusRed.svg) **[!UICONTROL Error]**: la configuración ha fallado. Puede seleccionar **[!UICONTROL Editar]** para obtener información sobre el error. Adobe aborda de forma proactiva cualquier implementación fallida. Póngase en contacto con el Servicio de atención al cliente para obtener más información.<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Completo]**: la configuración se completó e implementó correctamente. |
 
 Puede usar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para personalizar la tabla. Seleccione qué columnas mostrar en el cuadro de diálogo **[!UICONTROL Personalizar tabla]** y seleccione **[!UICONTROL Aplicar]** para aplicar los cambios.
 
@@ -134,7 +134,7 @@ Su configuración requiere la selección de una [vista de datos](/help/data-view
 
    ![Configuración de Content Analytics de una vista de datos: tabla de vistas de datos](../assets/aca-configuration-dataview-dialog.png)
 
-   Para una configuración nueva, la lista solo muestra las vistas de datos asociadas con zonas protegidas que no tienen una configuración activa.
+   Para una configuración nueva, la lista solo muestra las vistas de datos asociadas con zonas protegidas que no tienen una configuración activa. Además, solo verá las vistas de datos asociadas con los entornos limitados a los que tiene acceso y las conexiones para las que tiene derechos de modificación.
 
    Si edita una configuración existente, la lista solo muestra las vistas de datos disponibles en la zona protegida ya asociada a la configuración existente.
 
@@ -191,8 +191,8 @@ Para incluir experiencias en una configuración nueva o no implementada:
 ![Captura y definición de la experiencia de configuración de Content Analytics](../assets/aca-configuration-experience.png)
 
 1. Habilitar **[!UICONTROL Incluir experiencias]**.
-1. Opcionalmente. especifique los parámetros para cómo se procesa el contenido en el sitio web. Los parámetros son cero o más combinaciones de una **[!UICONTROL expresión regular de dominio]** y **[!UICONTROL parámetros de consulta]**.
-   1. Escriba una **[!UICONTROL expresión regular de dominio]**, por ejemplo `/^(?!.*\b(store|help|admin)\b)/`. Asegúrese de omitir las expresiones regulares usando `/`.
+1. De forma opcional, especifique los parámetros para el modo en que se procesa el contenido en el sitio web. Los parámetros son cero o más combinaciones de una **[!UICONTROL expresión regular de dominio]** y **[!UICONTROL parámetros de consulta]**. Los parámetros de consulta indican qué parámetros afectan al contenido de la página. Esta entrada permite a Content Analytics ignorar cualquier parámetro que no afecte al contenido de la página al definir una experiencia única.
+   1. Escriba una **[!UICONTROL expresión regular de dominio]**, por ejemplo `/^(?!.*\b(store|help|admin)\b)/`. Asegúrese de omitir las expresiones regulares usando `/`. La expresión regular de dominio indica a qué direcciones URL se aplican estos parámetros. Por ejemplo, puede tener varios sitios y, para cada sitio, distintos parámetros controlan el contenido. Si los parámetros de consulta se aplican a todas las páginas, puede usar `.*` para indicar todas las páginas.
    1. Especifique una lista separada por comas de **[!UICONTROL parámetros de consulta,]**; por ejemplo, `outdoors, patio, kitchen`.
 1. Seleccione **[!UICONTROL Remove]** si desea quitar una combinación de parámetros de consulta y expresión regular de dominio.
 1. Seleccione **[!UICONTROL Agregar regex]** si desea agregar otra combinación de una expresión regular y parámetros de consulta.
@@ -201,7 +201,8 @@ Para editar experiencias existentes o incluir nuevas en una configuración imple
 
 ![Captura y definición de la experiencia de configuración de Content Analytics](../assets/aca-configuration-experience-edit.png)
 
-* Seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** para editar la configuración de la recopilación de experiencias en Content Analytics. Se le redirigirá a la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) en la propiedad Tags asociada con la configuración actual.
+* Alterne **[!UICONTROL Incluir experiencias]** para habilitar o deshabilitar la disponibilidad de componentes, visualizaciones y paneles de experiencia en Analysis Workspace.
+* Seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** para editar la configuración de la recopilación de datos para las experiencias en Content Analytics. Se le redirigirá a la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) en la propiedad Tags asociada con la configuración actual.
 
 
 
@@ -322,322 +323,12 @@ Cuando ha creado o editado una configuración, están disponibles las siguientes
       * La Conexión asociada a la vista de datos seleccionada se modifica para incluir eventos de Content Analytics y conjuntos de datos de atributos.
       * Se agrega una plantilla de informes de Content Analytics a Workspace.
 
-+++ Detalles
-
-     Se proporcionan detalles para los siguientes casos:
-
-      * La propiedad **Tags** existe **✓** o no existe **✕**.
-      * La extensión **Web SDK** para la propiedad Tags existe **✓** o no existe **✕**.
-      * La extensión de Adobe **Content Analytics** para la propiedad Tag existe **✓** o no existe **✕**.
-
-     <table style="table-layout:fixed">
-      <tr>
-        <th></th>
-        <th colspan="4">Escenarios:</th>
-      </tr>
-      <tr>
-        <th>
-          <strong>Configuración</strong>
-        </th>
-        <th>
-          <strong>✓ Etiquetas<br>✓ Web SDK<br/>✓ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✓ Etiquetas<br>✓ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✓Etiquetas<br>✕ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✕ Etiquetas<br>✕ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-      </tr>
-      <tbody>
-        <tr>
-          <td>Plantilla de informe</td>
-          <td colspan="4">Hay disponible una plantilla de informe</td>
-        </tr>
-        <tr>
-          <td>Vista de datos</td>
-          <td colspan="4">Modificado/creado para tener dimensiones y métricas de ACA</td>
-        </tr>
-        <tr>
-          <td>Conexión</td>
-          <td colspan="4">Se ha modificado para incluir conjuntos de datos de ACA (eventos de ACA, atributos de recursos, atributos de experiencia)</td>
-        </tr>
-      </tbody>
-    </table>
-
-+++
 
    * Configuración de **[!UICONTROL Adobe Experience Platform]**:
       * La creación de esquemas para modelar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
       * La creación de conjuntos de datos para recopilar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
       * Creación de un flujo de datos que utilice el servicio de personalización para generar y actualizar atributos de contenido a partir de eventos de Content Analytics.
 
-+++ Detalles
-
-     Se proporcionan detalles para los siguientes casos:
-
-      * La propiedad **Tags** existe **✓** o no existe **✕**.
-      * La extensión **Web SDK** para la propiedad Tags existe **✓** o no existe **✕**.
-      * La extensión de Adobe **Content Analytics** para la propiedad Tag existe **✓** o no existe **✕**.
-
-     <table style="table-layout:fixed">
-      <tr>
-        <th></th>
-        <th colspan="4">Escenarios:</th>
-      </tr>
-      <tr>
-        <th>
-          <strong>Configuración</strong>
-        </th>
-        <th>
-          <strong>✓ Etiquetas<br>✓ Web SDK<br/>✓ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✓ Etiquetas<br>✓ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✓Etiquetas<br>✕ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✕ Etiquetas<br>✕ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-      </tr>
-      <tbody>
-        <tr>
-          <td colspan="5"><strong><br/>Esquema de eventos de Content Analytics</strong></td>
-        </tr>
-        <tr>
-          <td style="margin-left: 160.0px;">Nombre</td>
-          <td>Eventos de Content Analytics</td>
-          <td>Eventos de Content Analytics</td>
-          <td>Eventos de Content Analytics</td>
-          <td>Eventos de Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Descripción</td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Perfil activado</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Conjunto de datos de eventos Content Analytics</strong></td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td>Eventos de Content Analytics</td>
-          <td>Eventos de Content Analytics</td>
-          <td>Eventos de Content Analytics</td>
-          <td>Eventos de Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Esquema</td>
-          <td>Evento de Content Analytics</td>
-          <td>Evento de Content Analytics</td>
-          <td>Evento de Content Analytics</td>
-          <td>Evento de Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Descripción</td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Etiquetas</td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-        </tr>
-        <tr>
-          <td>Conjunto de datos del sistema</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Perfil activado</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <td>Gobernanza de datos (etiquetas DULE)</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Esquema de atributos de recursos Content Analytics</strong></td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Descripción</td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Perfil activado</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Conjunto de datos Atributos de Content Analytics Assets</strong></td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Esquema</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-          <td>Atributos del recurso Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Descripción</td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Etiquetas</td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-        </tr>
-        <tr>
-          <td>Conjunto de datos del sistema</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Perfil activado</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <td>Gobernanza de datos (etiquetas DULE)</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Esquema de atributos de Content Analytics Experience</strong></td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Descripción</td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Perfil activado</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Conjunto de datos Atributos de Content Analytics Experience</strong></td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Esquema</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-          <td>Atributos de experiencia de Content Analytics</td>
-        </tr>
-        <tr>
-          <td>Descripción</td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-          <td><i>tbd predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Etiquetas</td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-          <td><i>¿vacío?</i></td>
-        </tr>
-        <tr>
-          <td>Conjunto de datos del sistema</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Perfil activado</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <td>Gobernanza de datos (etiquetas DULE)</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-      </tbody>
-    </table>
-
-+++
 
    * Configuración de **[!UICONTROL recopilación de datos]**:
       * La propiedad de etiquetas nueva o existente está configurada para admitir la recopilación de datos de Content Analytics. Esta configuración implica la inclusión de la extensión de Adobe Content Analytics para etiquetas.
@@ -646,340 +337,6 @@ Cuando ha creado o editado una configuración, están disponibles las siguientes
       * Si Web SDK no está configurado para la propiedad Tags, se crea una nueva configuración de Web SDK para enviar sólo eventos de Content Analytics.
       * Si Web SDK está configurado para esta propiedad Tags, no se realizan cambios en la configuración existente de Web SDK.
 
-+++ Detalles
-
-     Se proporcionan detalles para los siguientes casos:
-
-      * La propiedad **Tags** existe **✓** o no existe **✕**.
-      * La extensión **Web SDK** para la propiedad Tags existe **✓** o no existe **✕**.
-      * La extensión de Adobe **Content Analytics** para la propiedad Tag existe **✓** o no existe **✕**.
-
-     <table style="table-layout:fixed">
-      <tr>
-        <th></th>
-        <th colspan="4">Escenarios:</th>
-      </tr>
-      <tr>
-        <th>
-          <strong>Configuración</strong>
-        </th>
-        <th>
-          <strong>✓ Etiquetas<br>✓ Web SDK<br/>✓ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✓ Etiquetas<br>✓ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✓Etiquetas<br>✕ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-        <th>
-          <strong>✕ Etiquetas<br>✕ Web SDK<br/>✕ Content Analytics</strong>
-        </th>
-      </tr>
-      <tbody>
-        <tr>
-          <td colspan="5"><strong><br/>Datastream</strong></td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td><i>valor existente</i></td>
-          <td>Análisis de contenido</td>
-          <td>Análisis de contenido</td>
-          <td>Análisis de contenido</td>
-        </tr>
-        <tr>
-          <td>Descripción</td>
-          <td><i>valor existente</i></td>
-          <td><i>predeterminado</i></td>
-          <td><i>predeterminado</i></td>
-          <td><i>predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Esquema de asignación</td>
-          <td><i>valor existente</i></td>
-          <td><i>predeterminado</i></td>
-          <td><i>predeterminado</i></td>
-          <td><i>predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Geolocalización y búsqueda de red</td>
-          <td><i>valores existentes</i></td>
-          <td>Todas las opciones desactivadas</td>
-          <td>Todas las opciones desactivadas</td>
-          <td>Todas las opciones desactivadas</td>
-        </tr>
-        <tr>
-          <td>Búsqueda de dispositivos</td>
-          <td><i>valor existente</i></td>
-          <td>No recopilar información de ningún dispositivo</td>
-          <td>No recopilar información de ningún dispositivo</td>
-          <td>No recopilar información de ningún dispositivo</td>
-        </tr>
-        <tr>
-          <td>Confusión de IP</td>
-          <td><i>valor existente</i></td>
-          <td>Ninguna</td>
-          <td>Ninguna</td>
-          <td>Ninguna</td>
-        </tr>
-        <tr>
-          <td>Cookie de ID de origen</td>
-          <td><i>valor existente</i></td>
-          <td>Off</td>
-          <td>Off</td>
-          <td>Off</td>
-        </tr>
-        <tr>
-          <td>Sincronización de ID de terceros</td>
-          <td><i>valor existente</i></td>
-          <td>Off</td>
-          <td>Off</td>
-          <td>Off</td>
-        </tr>
-        <tr>
-          <td>Tipo de acceso</td>
-          <td><i>valor existente</i></td>
-          <td>Autenticación mixta</td>
-          <td>Autenticación mixta</td>
-          <td>Autenticación mixta</td>
-        </tr>
-        <tr>
-          <td>Media Analytics</td>
-          <td><i>valor existente</i></td>
-          <td>Off</td>
-          <td>Off</td>
-          <td>Off</td>
-        </tr>
-            <tr>
-          <td>Detección de bots</td>
-          <td><i>valor existente</i></td>
-          <td>Off</td>
-          <td>Off</td>
-          <td>Off</td>
-        </tr>
-        <tr>
-          <td>Asignación</td>
-          <td><i>valor existente</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Propiedad Tags</strong><br/>Propiedad existente o nueva. El nombre y el dominio los proporciona el usuario.</td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td><i>usuario proporcionado</i> (predeterminado "Content Analytics")</td>
-        </tr>
-        <tr>
-          <td>Dominio</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td ><i>predeterminado</i></td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Biblioteca de etiquetas</strong></td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>
-            <br/>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Extensión de Web SDK</strong></td>
-        </tr>
-        <tr>
-          <td>Nombre</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Content Analytics - Web SDK</td>
-          <td>Content Analytics - Web SDK</td>
-        </tr>
-        <tr>
-          <td>Organización de IMS</td>
-          <td><i>rellenado automáticamente</i></td>
-          <td><i>rellenado automáticamente</i></td>
-          <td><i>rellenado automáticamente</i></td>
-          <td><i>rellenado automáticamente</i></td>
-        </tr>
-        <tr>
-          <td>Dominio de Edge</td>
-          <td><i>el valor existente <br/>puede requerir una actualización para que coincida con la implementación de AppMeasurement</i></td>
-          <td><i>el valor existente <br/>puede requerir una actualización para que coincida con la implementación de AppMeasurement</i></td>
-          <td>
-            <a href="http://edge.adobedc.net">edge.adobedc.net</a>
-          </td>
-          <td>
-            <a href="http://edge.adobedc.net">edge.adobedc.net</a>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Secuencias de datos</strong></td>
-        </tr>
-        <tr>
-          <td>Producción</td>
-          <td><i>valor existente <br/>Anulación de secuencia de datos usada para enviar a una secuencia de datos diferente</i></td>
-          <td><i>valor existente <br/>Anulación de secuencia de datos usada para enviar a una secuencia de datos diferente</i></td>
-          <td><i>usuario proporcionado</i>?</td>
-          <td><i>usuario proporcionado</i>?</td>
-        </tr>
-        <tr>
-          <td>Ensayo</td>
-          <td><i>valor existente <br/>Anulación de secuencia de datos usada para enviar a una secuencia de datos diferente</i></td>
-          <td><i>valor existente <br/>Anulación de secuencia de datos usada para enviar a una secuencia de datos diferente</i></td>
-          <td><i>usuario proporcionado</i>?</td>
-          <td><i>usuario proporcionado</i>?</td>
-        </tr>
-        <tr>
-          <td>Desarrollo</td>
-          <td><i>valor existente <br/>Anulación de secuencia de datos usada para enviar a una secuencia de datos diferente</i></td>
-          <td><i>valor existente <br/>Anulación de secuencia de datos usada para enviar a una secuencia de datos diferente</i></td>
-          <td><i>usuario proporcionado</i>?</td>
-          <td><i>usuario proporcionado</i>?</td>
-        </tr>
-        <tr>
-          <td>Privacidad</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>¿Adentro?</td>
-          <td>¿Adentro?</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Identidad</strong></td>
-        </tr>
-        <tr>
-          <td>Migrar ECID</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Comprobado</td>
-          <td>Comprobado</td>
-        </tr>
-        <tr>
-          <td>Uso de cookies de terceros</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Comprobado</td>
-          <td>Comprobado</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Personalización</strong></td>
-        </tr>
-        <tr>
-          <td>Migración de Target de at.js a Web SDK</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Desactivado</td>
-          <td>Desactivado</td>
-        </tr>
-        <tr>
-          <td>Habilitar almacenamiento de personalización</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Desactivado</td>
-          <td>Desactivado</td>
-        </tr>
-        <tr>
-          <td>Colección de clics automáticos para Adobe Journey Optimizer</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Siempre</td>
-          <td>Siempre</td>
-        </tr>
-        <tr>
-          <td>Colección de clics automáticos para Adobe Target</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Nunca</td>
-          <td>Nunca</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Recopilación de datos</strong></td>
-        </tr>
-        <tr>
-          <td>Recopilar clics en vínculos internos</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Desactivado</td>
-          <td>Desactivado</td>
-        </tr>
-        <tr>
-          <td>Recopilación de clics en vínculos externos</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Desactivado</td>
-          <td>Desactivado</td>
-        </tr>
-        <tr>
-          <td>Recopilar clics en vínculos de descarga</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Desactivado</td>
-          <td>Desactivado</td>
-        </tr>
-        <tr>
-          <td>Al enviar datos de evento, incluir automáticamente</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Toda la información de contexto predeterminada</td>
-          <td>Toda la información de contexto predeterminada</td>
-        </tr>
-        <tr>
-          <td>Medios de streaming</td>
-          <td><i>valores existentes</i></td>
-          <td><i>valores existentes</i></td>
-          <td>Valores en blanco</td>
-          <td>Valores en blanco</td>
-        </tr>
-        <tr>
-          <td>Anulaciones de configuración de flujo de datos</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>Coincidir configuración de flujo de datos</td>
-          <td>Coincidir configuración de flujo de datos</td>
-        </tr>
-        <tr>
-          <td>Configuración avanzada: ruta base de Edge</td>
-          <td><i>valor existente</i></td>
-          <td><i>valor existente</i></td>
-          <td>ee</td>
-          <td>ee</td>
-        </tr>
-        <tr>
-          <td colspan="5"><strong><br/>Extensión de Content Analytics</strong></td>
-        </tr>
-        <tr>
-          <td>Secuencias de datos</td>
-          <td><i>valor existente</i></td>
-          <td><i>predeterminado</i></td>
-          <td><i>predeterminado</i></td>
-          <td><i>predeterminado</i></td>
-        </tr>
-        <tr>
-          <td>Captura y definición de experiencias</td>
-          <td><i>valor existente</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-        </tr>
-        <tr>
-          <td>Filtrado de eventos</td>
-          <td><i>valor existente</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-          <td><i>proporcionado por el usuario</i></td>
-        </tr>
-      </tbody>
-    </table>
-
-+++
 
 * **[!UICONTROL Guardar]**: los cambios realizados en una configuración implementada se guardan y la implementación se actualiza.
 * **[!UICONTROL Salir]**. Sale de la configuración guiada. Todos los cambios realizados en una configuración implementada se descartan.
@@ -987,7 +344,7 @@ Cuando ha creado o editado una configuración, están disponibles las siguientes
 
 ## Publicación {#publish}
 
-Para activar la configuración de Content Analytics, debes [publicar manualmente](manual.md) la propiedad Tags que se creó después de seleccionar **[!UICONTROL Implementar]**.
+Para empezar a recopilar datos para la configuración de Content Analytics, debes [publicar manualmente](manual.md) la propiedad Etiquetas que se creó después de seleccionar **[!UICONTROL Implementar]**.
 
 
 >[!MORELIKETHIS]
