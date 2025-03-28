@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 20767a4672319602d35435aeedb76749a245e691
+source-git-commit: bb9b9850368796fe6cf2c4945ff3ef93b881b363
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 17%
@@ -15,8 +15,6 @@ ht-degree: 17%
 ---
 
 # Componentes de Content Analytics
-
-{{draft-aca}}
 
 {{release-limited-testing}}
 

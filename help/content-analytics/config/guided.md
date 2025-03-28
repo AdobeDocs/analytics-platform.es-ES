@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 20767a4672319602d35435aeedb76749a245e691
+source-git-commit: bb9b9850368796fe6cf2c4945ff3ef93b881b363
 workflow-type: tm+mt
 source-wordcount: '2428'
 ht-degree: 25%
@@ -15,8 +15,6 @@ ht-degree: 25%
 ---
 
 # Configuración guiada por Content Analytics
-
-{{draft-aca}}
 
 {{release-limited-testing}}
 
