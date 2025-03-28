@@ -1,13 +1,13 @@
 ---
 title: Registros de auditoría
-description: Obtenga información sobre cómo ver y administrar registros de auditoría de Customer Journey Analytics.
+description: Obtenga información sobre cómo ver y administrar los registros de auditoría de Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
+source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 60%
+source-wordcount: '953'
+ht-degree: 58%
 
 ---
 
@@ -46,7 +46,7 @@ Para ver y exportar los registros de auditoría, se debe contar con el permiso d
 
 ## Vista del registro de auditoría en la IU
 
-En el Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Registros de auditoría]**.
+En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Registros de auditoría]**.
 
 El registro de auditoría correspondiente al día de hoy y al día de ayer se muestra de forma predeterminada.
 
@@ -68,7 +68,7 @@ Se muestran los siguientes elementos:
    * CREATE: Se ha realizado una acción &quot;create&quot;.
    * DELETE: Se ha realizado una acción de &quot;eliminación&quot;.
    * EDICIÓN: Se ha realizado una acción de &quot;edición&quot;.
-   * EMBARGO:
+   * EMBARGO: cuando restringe una solicitud en [Administrador de actividades de creación de informes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), la acción se registra en el registro de auditoría en EMBARGO.
    * EXPORTAR: Se realizó una acción de &quot;exportación&quot;.
    * ORG_CHANGE: Se ha realizado una acción de cambio de organización.
    * ACTUALIZAR: Se ha realizado una acción de &quot;actualización&quot;.
