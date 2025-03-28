@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 0e3f15abbc904786c359160749d62754a9ebbe50
-workflow-type: ht
-source-wordcount: '2418'
-ht-degree: 100%
+source-git-commit: 916afd0d70f2690df61dde70f46f63e78d62b21a
+workflow-type: tm+mt
+source-wordcount: '2459'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Capacidad para combinar conjuntos de datos (como grupos de informes de Adobe Analytics)** | Customer Journey Analytics le permite [combinar datos](/help/connections/combined-dataset.md) de varios grupos de informes como si fueran un único grupo de informes de Adobe Analytics. |
 | **Alojamiento para cualquier tipo de datos** | Customer Journey Analytics se combina con la capacidad de Experience Platform para albergar todo tipo de esquemas y datos. Con [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es), los datos se pueden representar y organizar de forma uniforme, listos para la combinación y exploración. Adobe Analytics se centra principalmente en los datos de análisis web y móviles con algunas funcionalidades para [importar datos](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=es). |
 | **Extensión de BI** | La [Extensión de BI](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) le permite conectar CJA directamente a herramientas de visualización de BI populares, como Power BI o Tableau. Con esta extensión, puede hacer que los informes de BI coincidan con precisión con lo que ve en Analysis Workspace y otras interfaces del sistema de informes CJA. Esta es una forma mucho más sencilla de obtener informes de BI para CJA sin necesidad de volver a crear informes/métricas a partir de datos sin procesar. |
+| **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics) ayuda a los especialistas en mercadotecnia a comprender cómo afecta el contenido a los indicadores de rendimiento clave que ha definido una empresa. Además de los datos de comportamiento, Content Analytics recopila datos sobre cómo se consume el contenido y cómo afecta a las unidades de contenido. |
 | **Análisis entre dispositivos** | Customer Journey Analytics admite la combinación perfecta de conjuntos de datos específicos del dispositivo desde sesiones no autenticadas y autenticadas. Customer Journey Analytics ofrece rellenar los datos históricos en dispositivos conocidos. En Adobe Analytics, esta posibilidad se limita a un único grupo de informes y al uso de un gráfico de dispositivos. |
 | **Mejoras de dimensión** | Customer Journey Analytics proporciona mayor flexibilidad al utilizar las dimensiones: <ul><li>**Dimensiones personalizadas basadas en números**: [cree sus propias dimensiones basadas en números dentro de una vista de datos](/help/data-views/create-dataview.md#components).</li><li>**Ordenar dimensiones basadas en cadenas**: [ordene alfabéticamente las dimensiones basadas en cadenas en una tabla de forma libre.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>En Adobe Analytics, solo había disponibles unas cuantas dimensiones numéricas integradas y no era posible ordenar por dimensiones basadas en cadenas.</p> |
 | **Campos derivados** | Los [Campos derivados](/help/data-views/derived-fields/derived-fields.md) permiten realizar transformaciones durante el tiempo del informe en los datos. Los datos se pueden combinar, corregir o crear sobre la marcha y aplicar estas transformaciones de forma retroactiva a todos los informes. |
