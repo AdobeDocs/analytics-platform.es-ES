@@ -4,10 +4,8 @@ description: Información general sobre Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
-hide: true
-hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: bb9b9850368796fe6cf2c4945ff3ef93b881b363
+source-git-commit: a7bed5bdab20c1a995ccaf4294a5f9ba5918f43d
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%

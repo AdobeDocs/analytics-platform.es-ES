@@ -4,10 +4,8 @@ description: Creación de informes sobre Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: bb9b9850368796fe6cf2c4945ff3ef93b881b363
+source-git-commit: b4325135ec05737a75027ded70e96f599eb0220c
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

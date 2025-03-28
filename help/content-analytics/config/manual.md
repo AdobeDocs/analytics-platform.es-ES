@@ -4,10 +4,8 @@ description: Cómo configurar Content Analytics manualmente
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: bb9b9850368796fe6cf2c4945ff3ef93b881b363
+source-git-commit: cf8b14590a99573815c95e863fd26ae5b4244754
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%

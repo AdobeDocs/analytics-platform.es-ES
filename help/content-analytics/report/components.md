@@ -4,10 +4,8 @@ description: Detalles sobre los componentes específicos de Content Analytics, c
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: bb9b9850368796fe6cf2c4945ff3ef93b881b363
+source-git-commit: cd35ba31d528e83c4e4aa3bd5fa167eba85ef5f1
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 17%

@@ -4,10 +4,8 @@ description: Configuración de Content Analytics mediante una configuración gui
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: bb9b9850368796fe6cf2c4945ff3ef93b881b363
+source-git-commit: ceb6ac97686165c2883ad8057730bb09e4d7ad16
 workflow-type: tm+mt
 source-wordcount: '2428'
 ht-degree: 25%
