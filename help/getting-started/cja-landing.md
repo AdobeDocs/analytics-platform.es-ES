@@ -4,10 +4,10 @@ description: Página de aterrizaje de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: c29b1b8678579b58c42fce2fc02fffd81c1a633f
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 92%
+source-wordcount: '836'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,12 @@ Customer Journey Analytics permite controlar cómo conectar los datos en línea 
 Eche un vistazo a las mejoras más recientes del producto y a la documentación de Customer Journey Analytics. Para obtener una lista completa de funciones, mejoras y correcciones, consulte los detalles de las [Notas de la versión](../release-notes/latest.md). Visite la [página de actualizaciones de documentación](../release-notes/doc-changes.md) para mantenerse al día de los cambios más recientes.
 
 >[!BEGINTABS]
+
+>[!TAB Content Analytics]
+
+Adobe Content Analytics le permite investigar rápida y fácilmente grandes volúmenes de datos de contenido para descubrir tendencias, detectar anomalías, identificar la fatiga del contenido y obtener información de la exposición al contenido.
+
+[![imagen](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
 >[!TAB Asistente de IA]
 
@@ -65,18 +71,6 @@ Con la vinculación basada en gráficos, puede utilizar el gráfico de identidad
 [![imagen](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 *_Debe tener el paquete Prime para la vinculación basada en gráficos._*
-
->[!TAB Búsquedas B2B]
-
-Como parte de la configuración de una conexión, puede transformar conjuntos de datos para esquemas de búsqueda B2B específicos para admitir mejor las búsquedas basadas en personas en datos B2B.
-
-[![imagen](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
-
->[!TAB Campos derivados]
-
-Ya están disponibles las nuevas funciones de campos derivados (matemáticas, siguiente, anterior, resumir, deduplicar) y plantillas de función adicionales (como devoluciones, nombre de conjunto de datos descriptivo, temporada de vacaciones, objetivos mensuales, detección simple de bots y otras).
-
-[![imagen](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB Extensión de BI*]
 
