@@ -4,7 +4,7 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 32d7d2f21e2f906e25d0dfccd92d0be2f515d781
+source-git-commit: 004804eace69ec72f824603ec0d7b82470b19041
 workflow-type: tm+mt
 source-wordcount: '19662'
 ht-degree: 85%
@@ -538,7 +538,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Descubra qué contenido y atributos de contenido tienen el mejor rendimiento."
->abstract="**Esto puede ayudarte** a conocer el rendimiento de tu contenido a nivel granular. Puede observar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza IA para generar atributos automáticamente y etiquetar el contenido con ellos. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics){target="_blank"}.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como promocionar recursos de alto rendimiento en su página de inicio, personalizar el contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
+>abstract="**Esto puede ayudarte** a conocer el rendimiento de tu contenido a nivel granular. Puede observar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza IA para generar atributos automáticamente y etiquetar el contenido con ellos. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics)<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como promocionar recursos de alto rendimiento en su página de inicio, personalizar el contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
 
 <!-- markdownlint-enable MD034 -->
 
