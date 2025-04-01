@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
 source-wordcount: '4659'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -1351,7 +1351,7 @@ Devuelve Pi: 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="Varianza de muestra"
->abstract="Calcula una estimación de la varianza de muestra mediante la fórmula (suma(métrica^2) / (N - 1)) - (suma(métrica))^2/(N*(N-1)). donde N es el recuento del contenedor de normalización. <br/>Esto se usa como parte de *cálculos de confianza en cualquier momento válidos*. Por lo general, esta función no es útil por sí sola, pero se puede usar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
+>abstract="Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)).  donde N es el recuento del contenedor de normalización. <br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIACIÓN DE MUESTRA(contenedor de normalización, métrica de éxito)]**
 
