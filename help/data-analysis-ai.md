@@ -7,9 +7,9 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: bc0573b2d75a18aaaac4f5d171579e9763f2f8e0
+source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1900'
 ht-degree: 3%
 
 ---
@@ -45,32 +45,28 @@ El uso del agente de perspectivas de datos para responder preguntas centradas en
 | **Acciones/capacidades de Workspace** | El agente de perspectivas de datos no puede realizar acciones para un usuario en Workspace aparte de crear y actualizar visualizaciones. Por ejemplo, no puede realizar ninguna de las siguientes acciones:<ul><li>Botones de la interfaz de usuario de la acción contextual (añadir a gráfico, nuevo panel, nueva tabla)</li><li>Compartir</li><li>Exportar</li><li>Descargar</li><li>Administrar preferencias de usuario</li><li>Depurar</li><li>Administrar vista de datos</li><li>Aplicación de paneles de Analytics</li><li>Atribución</li></ul> |
 | **Tipos de visualización no compatibles** | <ul><li>Flujo</li><li>Visita en orden previsto</li><li>Tabla de cohortes</li><li>Área, área apilada</li><li>Barra apilada</li><li>Viñeta</li><li>Combo</li><li>Histograma</li><li>Barras horizontales, barras horizontales apiladas</li><li>Resumen de métricas clave</li><li>Dispersión</li><li>Cambio de resumen</li><li>Texto</li><li>Gráfico de rectángulos</li><li>Venn</li></ul> |
 
-<!---## Feature access in the Customer Journey Analytics UI
+## Administración del acceso al agente de Data Insights en Customer Journey Analytics
 
-[Do we even need this section for the Alpha?]
+Los siguientes parámetros rigen el acceso al Agente de Data Insights en Customer Journey Analytics:
 
-The following parameters govern access to Data visualization in AI Assistant:
+* **Acceso a la solución**: el agente de Data Insights está disponible para los clientes de Customer Journey Analytics Prime y Ultimate. No está disponible en Adobe Analytics.
 
-* **Solution access**: Data visualization in AI Assistant is available for Customer Journey Analytics Prime and Ultimate customers. It is not available in Adobe Analytics. 
+* **Acceso contractual**: Si no puede usar el agente de Data Insights en el asistente de IA, póngase en contacto con el administrador de su organización o con el representante de cuentas de Adobe. Antes de que su organización pueda utilizar Data Insights Agent en el asistente de IA, debe aceptar ciertos términos legales relacionados con GenAI.
 
-It is also available in Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP and additional Experience Platform apps.
+* **Permisos**: en [!UICONTROL Adobe Admin Console], el permiso de [!UICONTROL Herramientas de informes] **[!UICONTROL Asistente de IA: visualización de datos]** determina el acceso a esta herramienta. Un [administrador de perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) debe seguir estos pasos en [!UICONTROL Admin Console]:
+   1. Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos y servicios]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Perfiles de productos]**
+   1. Seleccione el título del perfil de producto para el que desea proporcionar acceso a [!UICONTROL AI Assistant: Product Knowledge].
+   1. En el perfil de producto específico, seleccione **[!UICONTROL Permisos]**.
+   1. Seleccione ![Editar](/help/assets/icons/Edit.svg) para editar **[!UICONTROL Herramientas de informes]**.
+   1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) para agregar **Asistente de IA: visualización de datos** a **[!UICONTROL Elementos de permiso incluidos]**.
 
-* **Contractual access**: If you are not able to use AI Assistant, please contact your organization's administrator or Adobe Account Representative. Before your organization can use Data visualization in AI Assistant, your must agree to certain GenAI-related legal terms.
+      ![Agregar permiso](assets/ai-assistant-permissions.png).
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** permission determines access to this tool. A [product profile admin](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) needs to follow these steps in the [!UICONTROL Admin Console]:
-   1. Navigate to **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
-   1. Select the title of the product profile for which you want to provide access to [!UICONTROL AI Assistant: Product Knowledge].
-   1. In the specific product profile, select **[!UICONTROL Permissions]**.
-   1. Select ![Edit](/help/assets/icons/Edit.svg) to edit **[!UICONTROL Reporting Tools]**.
-   1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) to add **AI Assistant: Data visualization** to **[!UICONTROL Included permission items]**.
-   
-      ![Add permission](assets/ai-assistant-permissions.png).
+   1. Seleccione **[!UICONTROL Guardar]** para guardar los permisos.
 
-   1. Select **[!UICONTROL Save]** to save the permissions.
+Consulte [Control de acceso](/help/technotes/access-control.md#access-control) para obtener más información.
 
-See [Access control](/help/technotes/access-control.md#access-control) for more information.--->
-
-## Acceso y el agente de Data Insights en el asistente de IA
+## Acceso al agente de Data Insights en el asistente de IA
 
 1. Vaya a [experience.adobe.com](https://experience.adobe.com/) e inicie sesión con su Adobe ID.
 

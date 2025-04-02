@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 20%

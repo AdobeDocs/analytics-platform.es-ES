@@ -5,9 +5,9 @@ title: Exportación de informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
+source-git-commit: a7bd67894b02174d980a730086f89df97b524356
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2285'
 ht-degree: 6%
 
 ---
@@ -171,6 +171,7 @@ Las siguientes funciones no son compatibles y se eliminan automáticamente de la
 * Filtrado de búsqueda
 * Filas estáticas
 * Alineación de fechas
+* Métricas de conjuntos de datos de resumen
 * Dimensiones dinámicas
 
   Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
