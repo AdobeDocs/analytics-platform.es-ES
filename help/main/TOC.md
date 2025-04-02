@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: cd0ff5f6c805dc75fc07cee87e104b84d411abc9
+source-git-commit: d835411beba3d40f67d2f93ee76aa5eda6f45041
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 89%
+source-wordcount: '1219'
+ht-degree: 90%
 
 ---
 
@@ -70,13 +70,13 @@ ht-degree: 89%
       + [Crea una vista de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Creación de un campo derivado de canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Valida el flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
-      + [Configuración de la colección de medios de streaming](/help/getting-started/cja-upgrade/cja-upgrade-streaming-media.md)
+      + [Configurar la colección de medios de streaming](/help/getting-started/cja-upgrade/cja-upgrade-streaming-media.md)
       + Conservar datos históricos con el conector de origen de Analytics {#historical-data-source-connector}
          + [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
          + [Creación del conector de origen de Analytics y asignación de campos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
          + [Adición del conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [Evaluar cuándo deshabilitar Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
-      + [Deshabilitar Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
+      + [Deshabilitación de Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
       + Métodos de actualización alternativos {#alternative-upgrade-methods}
          + [Uso de la recopilación de datos de AppMeasurement](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)
          + [Enviar capa de datos](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)
@@ -267,6 +267,7 @@ ht-degree: 89%
       + [Información general](/help/content-analytics/config/configuration.md)
       + [Configuración guiada](/help/content-analytics/config/guided.md)
       + [Configuración manual](/help/content-analytics/config/manual.md)
+      + [Recopilación de datos](/help/content-analytics/config/datacollection.md)
 
 + Paneles de Analytics {#cja-dashboards}
    + [Información general](../mobile-app/home.md)

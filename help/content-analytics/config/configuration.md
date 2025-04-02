@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 40739525db8061f32a4cef1a27177fedad9bc458
+source-git-commit: c01fbe7b991da9c21a598ebac551775afd7deeed
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ La configuración de Content Analytics consta de los siguientes pasos:
 Antes de configurar Content Analytics, asegúrese de que se cumplen los siguientes requisitos previos:
 
 * Ha incluido en la lista de permitidos el agente de usuario y la dirección IP para el servicio de funcionalidad que se utiliza en Content Analytics. La cadena del agente de usuario que se va a configurar es: <code>AdobeFeaturization/1.0</code>.
+* Si implementa [Web SDK mediante JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"}, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> para la biblioteca JavaScript de.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y vistas de datos.
 * Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}. Estos permisos constan de:
    * [Permisos de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
