@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ceb6ac97686165c2883ad8057730bb09e4d7ad16
+source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2469'
 ht-degree: 25%
 
 ---
@@ -249,6 +249,11 @@ En esta sección, puede configurar cómo recopilar los datos de análisis de con
 >title="Recopilación de datos"
 >abstract="Puede editar la configuración de los recursos en la extensión de Adobe Content Analytics en la propiedad Etiqueta, asociada a la configuración seleccionada."
 
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_tags_disabled_description "
+>title="Propiedad de etiquetas deshabilitada"
+>abstract="La extensión de Content Analytics ya está activa."
+
 <!-- markdownlint-enable MD034 -->
 
 #### Nueva configuración {#new-configuration}
@@ -277,6 +282,11 @@ En una nueva configuración, debe definir si desea utilizar una propiedad de eti
 * Indique qué recursos deben incluirse o excluirse al recopilar datos para Content Analytics.
 
    * Especifique una cadena de expresión regular para **[!UICONTROL Assets para incluir/excluir]**. Por ejemplo: `/^(?!.*(logo\.jpg|\.svg)).*$/` para excluir todas las imágenes de logotipo de JPEG y SVG de Content Analytics. Asegúrese de omitir las expresiones regulares usando `/`.
+
+>[!IMPORTANT]
+>
+>Si tiene una implementación de Web SDK existente que utiliza JavaScript y no utiliza etiquetas, debe quitar manualmente la extensión de Web SDK incluida automática de la propiedad de etiquetas recién creada.
+
 
 
 #### Configuración existente {#existing-configuration}
