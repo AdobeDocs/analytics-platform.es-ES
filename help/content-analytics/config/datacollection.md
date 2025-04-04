@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 89f7d8b388ab8c742712d748813520a51c736003
+source-git-commit: 02d24416bd1f56417005dfa1b693964073fb8a59
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -23,20 +23,20 @@ Este artículo explica en detalle cómo Analytics de contenido recopila datos
 
 En el contexto de este artículo se utilizan las definiciones siguientes:
 
-* **Experiencia**: Una experiencia se define como el contenido de texto de toda una página web. Para la recopilación de datos, Content Analytics registra el Experience ID que se basa en la dirección URL de la página. Posteriormente, el texto de la página se captura mediante el servicio de recuperación.
-* **Experience ID**: Una combinación única de la dirección URL relevante (dirección URL base más cualquier parámetro que dirija el contenido de la página) y [versión de experiencia](manual.md#versioning).
+* **Experiencia**: Una experiencia se define como el texto contenido en todo un Página web. Por recopilación de datos, el Analytics de contenido registra el ID de experiencia que se basa en la URL Página. Posteriormente, el texto del Página se captura mediante el servicio de recuperación.
+* **ID** de experiencia: una combinación única de URL relevantes (URL base más cualquier parámetro que dirigir contenido en el Página) y [experiencia versión](manual.md#versioning).
    * Usted especifica, como parte de la [configuración](configuration.md), qué parámetros son relevantes para cualquier URL completa dada.
    * Puede definir el [identificador de versión](manual.md#versioning) que se usa.
-* **Recurso**: Una imagen. Content Analytics registra la dirección URL del recurso.
-* **ID de recurso**: La dirección URL del recurso.
-* **URL relevante**: La URL base más cualquier parámetro que dirija el contenido de la página.
+* **Recurso**: Una imagen. El Analytics de contenido registra el URL recurso.
+* **ID del recurso**: el URL del recurso.
+* **URL** relevante: La URL base más los parámetros que dirigir contenido en el Página.
 
 
 ## Funcionalidad
 
-La biblioteca Content Analytics recopila datos cuando:
+El biblioteca Content Analytics recopila datos cuando:
 
-* Content Analytics se incluye en la biblioteca de etiquetas que se carga en la página.
+* El contenido Analytics se incluye en el biblioteca Tags que se carga en el Página.
 * La dirección URL de la página está configurada en la [extensión Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, que forma parte de la biblioteca de etiquetas incluida.
 
 
@@ -55,23 +55,23 @@ Un evento de Content Analytics consta de:
 
 Los eventos de Content Analytics se recopilan como una secuencia de:
 
-1. [Clic o vista grabada](#recorded-view-or-click).
-1. [Un evento regular o específico (de comportamiento)](#regular-or-specific-behaviorial-event).
+1. [Un vista o clic](#recorded-view-or-click) registrado.
+1. [Un evento](#regular-or-specific-behaviorial-event) regular o específico (conductual).
 
-Content Analytics recopila datos de esta manera para reflejar esa secuencia, en lugar de recopilar una vista o un clic por separado para no recopilar el evento inmediatamente posterior a esa vista o clic. Esta forma de recopilar datos de análisis de contenido también reduce la cantidad de datos recopilados. recopilación de datos.
+Content Analytics recopila datos de esta manera para reflejar esa secuencia, en lugar de recopilar una vista o un clic por separado para no recopilar el evento inmediatamente posterior a esa vista o clic. Esta forma de recopilar datos de análisis de contenido también reduce la cantidad de datos recopilados.
 
 ### Vista grabada o clic
 
 Se registra una vista de recursos cuando:
 
 * El recurso no se ha excluido por la configuración de la extensión de Content Analytics.
-* El recurso está al 75% en la vista.
-* Ese recurso aún no se ha registrado para esta página.
+* El recurso es del 75% en vista.
+* Ese recurso no se ha registrado ya para este Página.
 
-Se registra un clic en el recurso cuando:
+Un clic recurso se registra cuando:
 
 * Se ha visto el recurso.
-* El recurso no se ha excluido por la configuración de la extensión de ACA.
+* El recurso no se ha excluido por la configuración de la extensión de Content Analytics.
 * Un clic directamente en el recurso, que es un vínculo, que lleva a otra página.
 
 Se registra una vista de experiencia cuando:
@@ -83,19 +83,19 @@ Se registra un clic en la experiencia cuando:
 * Cualquier clic se produce en un vínculo de la página para la que las experiencias están habilitadas.
 
 
-### Evento regular o específico (conductual)
+### evento regulares o específicos (conductuales)
 
-Los déclencheur para activar un evento normal o específico (de comportamiento) en el contexto de Content Analytics son los siguientes:
+Los activadores para activar un evento regular o específico (conductual) en el contexto de la Analytics de contenido son:
 
-* Web SDK o AppMeasurement envían un evento.
-* La visibilidad cambia a oculta, por ejemplo:
+* Web SDK o AppMeasurements envía un evento.
+* Visibilidad cambios en oculta, por ejemplo:
    * Descargas de página
-   * Pestaña Cambiar
+   * Cambiar pestaña
    * Minimizar explorador
    * Cerrar explorador
-   * Bloquear pantalla
-* La dirección URL cambia, lo que da como resultado una dirección URL relevante modificada.
-* Las vistas de recursos superan el límite de lotes de 32.
+   * Pantalla de bloqueo
+* El URL cambia, lo que da como resultado una modificación del URL relevante.
+* Las vistas de recursos grabadas y listas para enviar superan el número de 32.
 
 
 ## Esquemas
