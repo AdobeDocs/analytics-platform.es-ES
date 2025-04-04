@@ -7,14 +7,16 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 795116d41e40bf89ebf31572fb718e2bcb58a6c8
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
 
 # Recopilación de datos de Content Analytics
+
+{{release-limited-testing}}
 
 Este artículo explica en detalle cómo Analytics de contenido recopila datos
 
@@ -23,8 +25,8 @@ Este artículo explica en detalle cómo Analytics de contenido recopila datos
 
 En el contexto de este artículo se utilizan las definiciones siguientes:
 
-* **Experiencia**: Una experiencia se define como el contenido de texto de toda una página web. Para la recopilación de datos, Content Analytics registra el Experience ID. Content Analytics no registra el texto de la página.
-* **Experience ID**: Una combinación única de la URL y la versión de la experiencia relevantes.
+* **Experiencia**: Una experiencia se define como el contenido de texto de toda una página web. Para la recopilación de datos, Content Analytics registra el Experience ID que se basa en la dirección URL de la página. Posteriormente, el texto de la página se captura mediante el servicio de recuperación.
+* **Experience ID**: Una combinación única de la dirección URL relevante (dirección URL base más cualquier parámetro que dirija el contenido de la página) y [versión de experiencia](manual.md#versioning).
    * Usted especifica, como parte de la [configuración](configuration.md), qué parámetros son relevantes para cualquier URL completa dada.
    * Puede definir el [identificador de versión](manual.md#versioning) que se usa.
 * **Recurso**: Una imagen. Content Analytics registra la dirección URL del recurso.
@@ -64,7 +66,7 @@ Content Analytics recopila datos de esta manera para reflejar esa secuencia, en 
 
 Se registra una vista de recursos cuando:
 
-* El recurso no se ha excluido por la configuración de la extensión de ACA.
+* El recurso no se ha excluido por la configuración de la extensión de Content Analytics.
 * El recurso está al 75% en la vista.
 * Ese recurso aún no se ha registrado para esta página.
 
@@ -100,7 +102,7 @@ Los déclencheur para activar un evento normal o específico (de comportamiento)
 
 ## Esquemas
 
-Los datos de Content Analytics se recopilan en conjuntos de datos en Experience Platform, según esquemas de Content Analytics específicos. Los esquemas de referencia están disponibles públicamente y se utilizan en una implementación predeterminada de Content Analytics.
+Los datos de Content Analytics se recopilan en conjuntos de datos en Experience Platform, según esquemas de Content Analytics específicos. Los esquemas de referencia están disponibles públicamente:
 
 * [Esquema de recursos digitales](https://github.com/adobe/xdm/blob/master/components/classes/digital-asset.schema.json)
 * [Esquema de experiencia digital](https://github.com/adobe/xdm/blob/master/components/classes/digital-experience.schema.json)

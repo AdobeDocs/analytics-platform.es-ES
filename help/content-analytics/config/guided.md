@@ -5,16 +5,17 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
+source-git-commit: 6f077ada9df1604b86fde21aa6b11b12160aeaa7
 workflow-type: tm+mt
-source-wordcount: '2469'
-ht-degree: 25%
+source-wordcount: '2493'
+ht-degree: 24%
 
 ---
 
 # Configuración guiada por Content Analytics
 
 {{release-limited-testing}}
+
 
 La configuración guiada le ayuda a configurar Content Analytics de forma rápida y sencilla. La configuración guiada utiliza un asistente para configurar los requisitos de Content Analytics automáticamente para su organización. En la pantalla **[!UICONTROL Configuración]**, puede crear una configuración nueva o editar una existente.
 
@@ -179,15 +180,20 @@ De manera predeterminada, **[!UICONTROL Incluir experiencias]** está desactivad
 
 Considere la posibilidad de incluir experiencias únicamente cuando se aplique lo siguiente:
 
-* Solo puede acceder al contenido del sitio mediante direcciones URL públicas. El acceso al sitio no requiere tokens personalizados, cookies u otros mecanismos no disponibles a través de la URL.
 * Las páginas del sitio deben poder reproducirse utilizando la dirección URL de la página.
+* El contenido de texto que ve un usuario determinado se puede reproducir mediante la dirección URL de la página y no depende de las cookies u otros mecanismos de personalización.
 
 Para incluir experiencias en una configuración nueva o no implementada:
 
 ![Captura y definición de la experiencia de configuración de Content Analytics](../assets/aca-configuration-experience.png)
 
-1. Habilitar **[!UICONTROL Incluir experiencias]**.
-1. De forma opcional, especifique los parámetros para el modo en que se procesa el contenido en el sitio web. Los parámetros son cero o más combinaciones de una **[!UICONTROL expresión regular de dominio]** y **[!UICONTROL parámetros de consulta]**. Los parámetros de consulta indican qué parámetros afectan al contenido de la página. Esta entrada permite a Content Analytics ignorar cualquier parámetro que no afecte al contenido de la página al definir una experiencia única.
+1. Habilitar **[!UICONTROL Incluir experiencias]**. El cambio para habilitar experiencias afecta a lo siguiente:
+
+   * Recopilación de datos en la extensión de Content Analytics
+   * Proceso que genera atributos de experiencia a partir de datos de evento de Content Analytics
+   * La plantilla de informes de Customer Journey Analytics.
+
+1. Especifique los parámetros para la representación del contenido en el sitio web. Los parámetros son cero o más combinaciones de una **[!UICONTROL expresión regular de dominio]** y **[!UICONTROL parámetros de consulta]**. Los parámetros de consulta indican qué parámetros afectan al contenido de la página. Esta entrada permite a Content Analytics ignorar cualquier parámetro que no afecte al contenido de la página al definir una experiencia única.
    1. Escriba una **[!UICONTROL expresión regular de dominio]**, por ejemplo `/^(?!.*\b(store|help|admin)\b)/`. Asegúrese de omitir las expresiones regulares usando `/`. La expresión regular de dominio indica a qué direcciones URL se aplican estos parámetros. Por ejemplo, puede tener varios sitios y, para cada sitio, distintos parámetros controlan el contenido. Si los parámetros de consulta se aplican a todas las páginas, puede usar `.*` para indicar todas las páginas.
    1. Especifique una lista separada por comas de **[!UICONTROL parámetros de consulta,]**; por ejemplo, `outdoors, patio, kitchen`.
 1. Seleccione **[!UICONTROL Remove]** si desea quitar una combinación de parámetros de consulta y expresión regular de dominio.
@@ -197,10 +203,9 @@ Para editar experiencias existentes o incluir nuevas en una configuración imple
 
 ![Captura y definición de la experiencia de configuración de Content Analytics](../assets/aca-configuration-experience-edit.png)
 
-* Alterne **[!UICONTROL Incluir experiencias]** para habilitar o deshabilitar la disponibilidad de componentes, visualizaciones y paneles de experiencia en Analysis Workspace.
-* Seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** para editar la configuración de la recopilación de datos para las experiencias en Content Analytics. Se le redirigirá a la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) en la propiedad Tags asociada con la configuración actual.
+* Alterne **[!UICONTROL Incluir experiencias]** para habilitar o deshabilitar la disponibilidad de componentes de experiencia, visualizaciones, paneles y plantillas en Analysis Workspace.
 
-
+* Seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** para editar aún más la configuración de la recopilación de datos para las experiencias en Content Analytics. Se le redirigirá a la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering) en la propiedad Tags asociada con la configuración actual.
 
 
 ### Recopilación de datos {#onboarding-data-collection}
@@ -265,7 +270,8 @@ En una nueva configuración, debe definir si desea utilizar una propiedad de eti
   ![Etiqueta existente de recopilación de datos de Content Analytics](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. Seleccione **[!UICONTROL Elegir]** existente.
-   2. Seleccione una propiedad existente del menú desplegable **[!UICONTROL Propiedad de etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles.
+   2. Seleccione una propiedad existente del menú desplegable **[!UICONTROL Propiedad de etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles. No puede seleccionar una propiedad Etiquetas que ya esté siendo utilizada por otra configuración implementada de Content Analytics.
+
 
 * Para crear una nueva propiedad Etiquetas:
 
@@ -275,13 +281,13 @@ En una nueva configuración, debe definir si desea utilizar una propiedad de eti
    1. Especifique un **[!UICONTROL nombre de etiqueta]**, por ejemplo `ACA Test for Documentation`.
    1. Especifique **[!UICONTROL dominios]**, por ejemplo, `example.com`.
 
-* Si ha seleccionado incluir experiencias, indique qué páginas deben incluirse o excluirse al recopilar datos para Content Analytics.
+* Indique qué páginas deben incluirse o excluirse al recopilar datos para Content Analytics.
 
-   * Especifique una cadena de expresión regular para que **[!UICONTROL Pages incluya/excluya]**. Por ejemplo: `/^(?!.*documentation).*/` para excluir todas las páginas de documentación de Content Analytics. Asegúrese de omitir las expresiones regulares usando `/`.
+  Especifique una cadena de expresión regular para que **[!UICONTROL Pages incluya/excluya]**. <br/>Por ejemplo: `^(?!.*documentation).*` para excluir todas las páginas de documentación de Content Analytics.
 
 * Indique qué recursos deben incluirse o excluirse al recopilar datos para Content Analytics.
 
-   * Especifique una cadena de expresión regular para **[!UICONTROL Assets para incluir/excluir]**. Por ejemplo: `/^(?!.*(logo\.jpg|\.svg)).*$/` para excluir todas las imágenes de logotipo de JPEG y SVG de Content Analytics. Asegúrese de omitir las expresiones regulares usando `/`.
+  Especifique una cadena de expresión regular para **[!UICONTROL Assets para incluir/excluir]**. <br/>Por ejemplo: `^(?!.*(logo\.jpg|\.svg)).*$` para excluir todas las imágenes de logotipo de JPEG y SVG de Content Analytics.
 
 >[!IMPORTANT]
 >
@@ -318,11 +324,11 @@ Una vez que haya proporcionado todos los detalles necesarios, un resumen proporc
 
 <!-- markdownlint-enable MD034 -->
 
-Cuando ha creado o editado una configuración, están disponibles las siguientes acciones.
+Al crear o editar una configuración, tiene estas opciones:
 
-* **[!UICONTROL Descartar]**: se descartarán todos los cambios realizados al crear una configuración nueva o al editar una existente.
-* **[!UICONTROL Guardar para más tarde]**: se guardan los cambios realizados en una configuración nueva o en una configuración existente que aún no se ha implementado. Puede volver a consultar la configuración en una fase posterior para realizar más cambios o implementar la configuración.
-* **[!UICONTROL Implementar]**: La configuración o los cambios realizados en una configuración nueva o en una configuración existente que aún no se ha implementado se guardarán e implementarán. La implementación consiste en:
+* **[!UICONTROL Descartar]**: todos los cambios realizados como parte de la configuración se descartarán.
+* **[!UICONTROL Guardar para más tarde]**: los cambios realizados en una configuración se guardarán. Puede volver a consultar la configuración en una fase posterior para realizar más cambios o implementar la configuración. Solo se requiere un valor para [!UICONTROL Name] para guardar una configuración.
+* **[!UICONTROL Implementar]**: La configuración o los cambios realizados en una configuración se han guardado e implementado. Todos los campos marcados como ![Obligatorio](/help/assets/icons/Required.svg) que se requieren deben tener los valores adecuados. La implementación consiste en:
 
    * Configuración de **[!UICONTROL Customer Journey Analytics]**:
       * La vista de datos seleccionada se actualiza para incluir la dimensión y las métricas de Content Analytics.
