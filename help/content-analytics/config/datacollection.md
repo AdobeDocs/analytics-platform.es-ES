@@ -3,11 +3,9 @@ title: Recopilación de datos de Content Analytics
 description: Información general sobre cómo se recopilan los datos en Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
-hide: true
-hidefromtoc: true
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
+source-git-commit: 89f7d8b388ab8c742712d748813520a51c736003
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 1%
