@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: 7f2f2fc92c188c4cdfba7d87b7b64458daf2f0a6
 workflow-type: tm+mt
 source-wordcount: '4143'
-ht-degree: 25%
+ht-degree: 28%
 
 ---
 
@@ -121,7 +121,7 @@ Para ir a los detalles de una conexión, seleccione un nombre de conexión en la
 
 ![Ventana de todos los conjuntos de datos que muestra los widgets y la configuración](assets/conn-details.png)
 
-La interfaz de detalles Conexiones proporciona una vista detallada del estado de una conexión. Puedes realizar lo siguiente:
+La interfaz de detalles Conexiones proporciona una vista detallada del estado de una conexión. Puede realizar lo siguiente:
 
 * Compruebe el estado de los conjuntos de datos de la conexión y del proceso de ingesta.
 * Identifique los problemas de configuración que pueden provocar registros omitidos o eliminados.
@@ -361,17 +361,17 @@ Cuando se selecciona un conjunto de datos en la tabla de conjuntos de datos, un 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="Filas principales notificables"
->abstract="Las filas principales sobre las que se puede informar son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Si un cliente selecciona de enero a marzo, los valores reflejarán la instantánea de marzo."
+>abstract="Las filas principales notificables son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Si un cliente selecciona de enero a marzo, los valores reflejarán la instantánea de marzo."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="Filas históricas notificables"
->abstract="Las filas históricas de las que se puede realizar un informe son valores instantáneos, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Si un cliente selecciona de enero a marzo, los valores reflejarán la instantánea de marzo."
+>abstract="Las filas históricas notificables son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Si un cliente selecciona de enero a marzo, los valores reflejarán la instantánea de marzo."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
->title="Filas acumulativas disponibles para creación de informes"
->abstract="Las filas acumulativas sobre las que se puede generar informes son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Si un cliente selecciona de enero a marzo, los valores reflejarán la instantánea de marzo."
+>title="Filas notificables acumulativas"
+>abstract="Las filas notificables acumulativas son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Si un cliente selecciona de enero a marzo, los valores reflejarán la instantánea de marzo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -421,7 +421,7 @@ La interfaz de uso consta de dos paneles:
 
 +++ Filas ingeridas
 
-  El subpanel **[!UICONTROL Filas ingeridas]** mide el número total de registros agregados al sistema cada mes, lo que proporciona una perspectiva del crecimiento de los datos y las tasas de ingesta. El subpanel proporciona un resumen del total de filas introducidas de este mes y el cambio con respecto al mes anterior.
+  El subpanel **[!UICONTROL Filas ingeridas]** mide el número total de registros agregados al sistema cada mes, lo que proporciona insight en el crecimiento de los datos y las tasas de ingesta. El subpanel proporciona un resumen del total de filas introducidas de este mes y el cambio con respecto al mes anterior.
 
   ![Filas ingeridas](assets/usage-ingested-rows.png)
 
