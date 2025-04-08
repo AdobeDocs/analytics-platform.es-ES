@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: d835411beba3d40f67d2f93ee76aa5eda6f45041
+source-git-commit: 3bdde8181ec2a0e507dae907acb3da2b702f5578
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 90%
+source-wordcount: '1216'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 + [Guía de Adobe Customer Journey Analytics](../getting-started/cja-landing.md)
 
-+ Notas de la versión {#releases}
++ Notas de la versión  {#releases}
    + [Última versión](../release-notes/latest.md)
    + [Versiones de 2025](../release-notes/2025.md)
    + [Versiones de 2024](../release-notes/2024.md)
@@ -32,34 +32,38 @@ ht-degree: 90%
    + [Actualizaciones de documentación](../release-notes/doc-changes.md)
 
 + Introducción {#cja-overview}
-   + [Información general sobre Customer Journey Analytics](../getting-started/cja-overview.md)
-   + [Guía de inicio rápido](../getting-started/cja-getting-started.md)
-   + [Página de aterrizaje](../getting-started/landing.md)
-   + [Página de aterrizaje (antigua)](../getting-started/cja-landing-old.md)
-   + [Preguntas frecuentes](../getting-started/cja-faq.md)
-   + [Comparar soluciones de Customer Journey Analytics con las soluciones de BI](../getting-started/cja-vs-bi.md)
-   + [Asistente de IA para Adobe Customer Journey Analytics](../ai-assistant.md)
-   + [Asistente de IA de análisis de datos para Customer Journey Analytics](../data-analysis-ai.md)
+   + Customer Journey Analytics {#cja-b2c-overview}
+      + [Información general](../getting-started/cja-overview.md)
+      + [Guía de inicio rápido](../getting-started/cja-getting-started.md)
+      + [Página de aterrizaje](../getting-started/landing.md)
+      + [Preguntas frecuentes](../getting-started/cja-faq.md)
+      + [Comparar con soluciones de BI](../getting-started/cja-vs-bi.md)
+      + [Asistente de IA](../ai-assistant.md)
+      + [Agente de Data Insights](../data-analysis-ai.md)
+   + Customer Journey Analytics B2B edition {#cja-b2b}
+      + [Información general](/help/getting-started/cja-b2b-edition.md)
+      + [Conceptos y funciones de B2B](/help/getting-started/cja-b2b-concepts-features.md)
+      + [Guía de inicio rápido](/help/getting-started/cja-b2b-quick-start-guide.md)
 
-+ Customer Journey Analytics y Adobe Analytics {#compare-aa-cja}
++ CUSTOMER JOURNEY ANALYTICS y ADOBE ANALYTICS {#compare-aa-cja}
    + Actualizar a Customer Journey Analytics {#upgrade-to-cja}
       + [Introducción](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
       + [Elegir la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Enviar datos a Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Conservar datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Proceso de actualización recomendado](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + Arquitecto y cree un esquema {#schema}
+      + Arquitecto y creación de un esquema {#schema}
          + [Diseña tu esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
          + [Crea tu etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
          + [Usa el esquema existente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
-      + Crear una secuencia de datos {#create-datastream}
+      + Crear un flujo de datos {#create-datastream}
          + [Crear un flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
          + [Añade Platform como servicio](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
       + Crear conjuntos de datos {#create-datasets}
          + [Crear un conjunto de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
          + [Creación de conjuntos de datos de búsqueda para clasificaciones](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
          + [Monitorización de la ingesta de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + Implementar Web SDK con etiquetas {#create-tags}
+      + Implementación de Web SDK con etiquetas {#create-tags}
          + [Creación de una etiqueta para su propiedad](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
          + [Adición de la extensión del SDK web a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
          + [Implementación de la etiqueta de carga para la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
@@ -71,7 +75,7 @@ ht-degree: 90%
       + [Creación de un campo derivado de canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Valida el flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [Configurar la colección de medios de streaming](/help/getting-started/cja-upgrade/cja-upgrade-streaming-media.md)
-      + Conservar datos históricos con el conector de origen de Analytics {#historical-data-source-connector}
+      + Conservación de datos históricos con el conector de origen de Analytics {#historical-data-source-connector}
          + [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
          + [Creación del conector de origen de Analytics y asignación de campos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
          + [Adición del conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
@@ -105,7 +109,7 @@ ht-degree: 90%
 
 + Ingesta de datos {#cja-data-ingestion}
    + [Información general sobre la ingesta de datos](../data-ingestion/data-ingestion.md)
-   + Guías de inicio rápido de ingesta y uso{#ingest-use-guides}
+   + Ingesta y uso de guías de inicio rápido{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Experience Platform Edge Network {#edge-network}
          + [SDK web](../data-ingestion/aepwebsdk.md)
@@ -186,7 +190,7 @@ ht-degree: 90%
             + [Elementos dinámicos y estáticos](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Filtrado y ordenación de tablas](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totales de Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + Tabla de cohorte {#cohort-table}
+      + Tabla de cohortes {#cohort-table}
          + [Información general](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuración](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casos prácticos](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
@@ -199,7 +203,7 @@ ht-degree: 90%
          + [Información general](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuración](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flujos interdimensionales](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + Lienzo de recorrido {#journey-canvas}
+      + Lienzo del recorrido  {#journey-canvas}
          + [Información general](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [Configuración](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [Solucionar problemas](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
@@ -291,7 +295,7 @@ ht-degree: 90%
    + [Cronología](../guided-analysis/types/timeline.md)
    + [Tendencias](../guided-analysis/types/trends.md)
    + [Casos de uso del sector](../guided-analysis/industry-use-cases.md)
-   + [Preguntas más frecuentes](../guided-analysis/faq.md)
+   + [Preguntas frecuentes](../guided-analysis/faq.md)
 
 + Componentes {#cja-components}
    + [Información general](../components/overview.md)
@@ -329,7 +333,7 @@ ht-degree: 90%
       + [Copiar filtros](../components/filters/filters-copy.md)
       + [Administrar filtros](../components/filters/manage-filters.md)
       + [Operadores](../components/filters/operators.md)
-   + Métricas calculadas {#cja-calcmetrics}
+   + Métricas calculadas  {#cja-calcmetrics}
       + [Información general](../components/calc-metrics/calc-metr-overview.md)
       + Flujo de trabajo de las métricas calculadas {#cm-workflow}
          + [Crear métricas calculadas](../components/calc-metrics/cm-workflow/cm-workflow.md)
@@ -395,7 +399,7 @@ ht-degree: 90%
    + [Ver actividad de creación de informes](../reporting-activity-manager/reporting-activity.md)
    + [Cancelar solicitudes de creación de informes](../reporting-activity-manager/reporting-activity-cancel-requests.md)
 
-+ Identificación {#stitching}
++ Unión {#stitching}
    + [Información general](/help/stitching/overview.md)
    + [Vinculación basada en campos](/help/stitching/fbs.md)
    + [Vinculación basada en gráficos](/help/stitching/gbs.md)
@@ -411,7 +415,7 @@ ht-degree: 90%
    + [Integración de datos de gestión de decisiones](/help/integrations/ajo-od.md)
    + [Integración de la inteligencia artificial aplicada al cliente](/help/integrations/customer-ai.md)
 
-+ Gobierno de datos {#cja-privacy}
++ Gobernanza de datos {#cja-privacy}
    + [Gobernanza de datos](../privacy/privacy-overview.md)
    + [Registro de auditoría](../privacy/audit-log.md)
    + [Claves gestionadas por el cliente](../privacy/cmk.md)
@@ -448,7 +452,7 @@ ht-degree: 90%
       + [Servicio de consultas y exportación de conjuntos de datos](../use-cases/data-export/queryservice-export-datasets.md)
    + B2B {#b2b}
       + [Ejemplo de proyecto B2B](../use-cases/b2b/example.md)
-   + Datos multicanal {#cross-channel}
+   + Datos en canales múltiples {#cross-channel}
       + [Analizar datos en varios canales](../use-cases/cross-channel/cross-channel.md)
       + [Importación de datos web y de centros de llamadas](../use-cases/cross-channel/call-center.md)
    + Datos de Adobe Analytics {#aa-data}
@@ -456,7 +460,7 @@ ht-degree: 90%
       + [Combinación de grupos de informes con diferentes esquemas](../use-cases/aa-data/combine-report-suites.md)
    + Datos complejos {#complex-data}
       + [Usar matrices de objetos](../use-cases/object-arrays.md)
-   + Identificación {#stitching}
+   + Unión {#stitching}
       + [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md)
    + Campos derivados {#derived-fields}
       + [Informe sobre metas](../use-cases/goals-using-derived-fields.md)
