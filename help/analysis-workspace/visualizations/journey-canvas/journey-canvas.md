@@ -4,10 +4,10 @@ title: 'Lienzo del recorrido '
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
+source-git-commit: d86396a5c02be682c784e0acd4387de3796bda96
 workflow-type: tm+mt
 source-wordcount: '1893'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="Lienzo del recorrido "
->abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Genere análisis de los recorridos de los usuarios creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre los nodos por el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos existentes de Journey Optimizer"
+>abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Genere análisis de los recorridos de los usuarios creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre los nodos por el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos de Journey Optimizer existentes."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="Lienzo del recorrido "
->abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Genere análisis de los recorridos de los usuarios creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre los nodos por el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos existentes de Journey Optimizer"
+>abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Genere análisis de los recorridos de los usuarios creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y filtros. Arrastre los nodos por el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos de Journey Optimizer existentes."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -81,17 +81,17 @@ El lienzo de recorrido proporciona perspectivas procesables para los recorridos 
 
 ### Ruta con la tasa de conversión más alta {#conversion-rate-caption}
 
-La perspectiva más destacada en el lienzo de Recorrido se muestra como un pie de ilustración en la parte superior del lienzo.
+El insight más destacado en el lienzo de Recorrido se muestra como un pie de ilustración en la parte superior del lienzo.
 
 Este pie de ilustración resume cuál de todas las rutas de la recorrido tuvo la tasa de conversión más alta.
 
 Cuando el recorrido contiene varios nodos de inicio, el pie de ilustración tiene este aspecto:
 
-![pie de ilustración del lienzo de Recorrido](assets/journey-canvas-caption.png)
+![pie de ilustración insight en lienzo de Recorrido](assets/journey-canvas-caption.png)
 
 Cuando el recorrido contiene un solo nodo de inicio, el pie de ilustración tiene este aspecto:
 
-![nodo de inicio único de descripción de lienzo de Recorrido](assets/journey-canvas-caption-singlestart.png)
+![Nodo de inicio único de subtítulos insight en lienzo de Recorrido](assets/journey-canvas-caption-singlestart.png)
 
 Tenga en cuenta lo siguiente al interpretar este pie de ilustración:
 
