@@ -1,12 +1,12 @@
 ---
-description: El Generador de filtros proporciona un lienzo al que arrastrar y en el que soltar los Dimension de métricas, los filtros y los eventos para filtrar a las personas en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar filtros simples o complejos que identifican atributos y acciones de personas en visitas y eventos.
+description: El Generador de filtros proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los filtros y los eventos para filtrar a las personas en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar filtros simples o complejos que identifican atributos y acciones de personas en visitas y eventos.
 title: Generar filtros
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1570'
 ht-degree: 10%
 
 ---
@@ -61,7 +61,7 @@ El cuadro de diálogo **[!UICONTROL Generador de filtros]** se usa para crear fi
    {style="table-layout:auto"}
 
 1. Para comprobar si la definición del filtro es correcta, utilice la previsualización constantemente actualizada de los resultados del filtro en la parte superior derecha.
-1. Para crear una audiencia a partir del filtro y compartirla con el Experience Platform, selecciona **[!UICONTROL Crear audiencia a partir del filtro]**. Consulte [Crear y publicar audiencias](/help/components/audiences/publish.md) para obtener más información.
+1. Para crear una audiencia a partir del filtro y compartirla con Experience Platform, selecciona **[!UICONTROL Crear audiencia a partir del filtro]**. Consulte [Crear y publicar audiencias](/help/components/audiences/publish.md) para obtener más información.
 1. Seleccionar:
    * **[!UICONTROL Guardar]** para guardar el filtro.
    * **[!UICONTROL Guardar como]** para guardar una copia del filtro.
@@ -76,7 +76,7 @@ Utilice el Generador de definiciones para crear la definición del filtro. En es
 Puede configurar el tipo y el ámbito de la definición:
 
 1. Para especificar el tipo de definición, especifique si desea que la generación incluya o excluya una definición. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]** y en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]**.
-1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Evento]**, **[!UICONTROL Sesión]** o **[!UICONTROL Persona]**.
+1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Evento]**, **[!UICONTROL Sesión]**, **[!UICONTROL Persona]**, **[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, o **[!UICONTROL Grupo comprador]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 Siempre puede cambiar esta configuración más adelante.
 
@@ -88,7 +88,7 @@ Una parte vital de la creación de la definición del filtro es el uso de dimens
 
 Para añadir un componente:
 
-1. Arrastre y suelte un componente del panel Componentes en **[!UICONTROL Arrastre y suelte las métricas, los filtros o los Dimension aquí]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+1. Arrastre y suelte un componente del panel Componentes en **[!UICONTROL Arrastre y suelte las métricas, los filtros o las dimensiones aquí]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
 1. Especifique los detalles del componente. Por ejemplo, seleccione un valor de **[!UICONTROL Seleccionar valor]**. O introduzca un valor. El hecho de especificar uno o varios valores y cómo hacerlo dependen del componente y del operador.
 1. Si lo desea, modifique el operador predeterminado. Por ejemplo, de **[!UICONTROL igual a]** a **[!UICONTROL es igual a cualquiera de]**. Consulte [Operadores](operators.md) para obtener una descripción detallada de los operadores disponibles.
 
@@ -113,14 +113,14 @@ Puede agrupar varios componentes en uno o más contenedores y definir la lógica
 * Para agregar otro componente al contenedor, arrastre y suelte un componente del panel de componentes en el contenedor. Utilice la línea de inserción azul como guía.
 * Para agregar otro componente fuera del contenedor, arrastre y suelte un componente desde el panel del componente fuera del contenedor, pero dentro del contenedor de definición principal. Utilice la línea de inserción azul como guía.
 * Para modificar la lógica entre los componentes de un contenedor, entre contenedores o entre un contenedor y un componente, seleccione los **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** adecuados. Al seleccionar Entonces, convierta el filtro en un filtro secuencial. Consulte [Crear filtro secuencial](seg-sequential-build.md) para obtener más información.
-* Para cambiar el nivel de contenedor, seleccione ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Evento]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Sesión]** o ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Persona]**.
+* Para cambiar el nivel de contenedor, selecciona ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![Cuenta](/help/assets/icons/Account.svg) **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![Oportunidad](/help/assets/icons/Opportunity.svg) **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![Grupo de compra](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Grupo de compra]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Evento]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Sesión]** o ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Persona]**.
 
 Puede usar ![Setting](/help/assets/icons/Setting.svg) en un contenedor para las siguientes acciones:
 
 | Acción de contenedor | Descripción |
 |---|---|
 | **[!UICONTROL Agregar contenedor]** | Agregue un contenedor anidado al contenedor. |
-| **[!UICONTROL Exclusión]** | Excluya el resultado del contenedor en la definición del filtro. Una fina barra izquierda roja identifica un contenedor de exclusión. |
+| **[!UICONTROL Excluir]** | Excluya el resultado del contenedor en la definición del filtro. Una fina barra izquierda roja identifica un contenedor de exclusión. |
 | **[!UICONTROL Inclusión]** | Incluya el resultado del contenedor en la definición del filtro. Incluir es la opción predeterminada. Una delgada barra izquierda gris identifica un contenedor de inclusión. |
 | **[!UICONTROL Contenedor de nombres]** | Cambie el nombre del contenedor desde la descripción predeterminada. Escriba un nombre en el campo de texto. Si no proporciona ninguna entrada, se utiliza la descripción predeterminada. |
 | **[!UICONTROL Eliminar contenedor]** | Elimine el contenedor de la definición. |
@@ -135,7 +135,7 @@ Puede generar filtros que contengan intervalos de fechas móviles. Por lo tanto,
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -159,7 +159,7 @@ O bien, puede definir 52 filtros: 50 filtros para los estados de Estados Unidos,
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
->title="Repetido"
+>title="Repetida"
 >abstract="Incluye instancias y valores persistentes para la dimensión."
 
 <!-- markdownlint-enable MD034 -->

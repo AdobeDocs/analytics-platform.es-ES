@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 80%
+source-wordcount: '1001'
+ht-degree: 73%
 
 ---
 
@@ -84,14 +84,20 @@ Detalles sobre la configuración de asignación disponible.
   | Primero conocido | C | C | C | C | C |
   | Último conocido | A | A | A | A | A |
 
+
 ## Configuración de [!UICONTROL caducidad]
 
 Detalles sobre la configuración de caducidad disponible.
 
 * **Sesión**: caduca después de una sesión determinada. Ventana de caducidad predeterminada.
-* **Persona**: caduca al final de la ventana de creación de informes.
+* **Ventana de informes de personas**: Caduca al final de la ventana de informes.
+* **Ventana de informes de cuenta global** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
+* **Ventana de informes de cuenta** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
+* **Ventana de informes de oportunidad** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
+* **Ventana de informes del grupo de compra** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
 * **Hora personalizada**: caduca después de un período de tiempo especificado (hasta 90 días). Esta opción de caducidad solo está disponible para los modelos de asignación Original y Más reciente. Al utilizar la caducidad basada en el tiempo, se tienen en cuenta los valores anteriores al inicio de la ventana de creación de informes (hasta 90 días).
 * **Métrica**: cuando esta métrica se ve en un evento, caduca inmediatamente el valor persistente en la dimensión. Puede usar cualquier métrica como fin de caducidad para esta dimensión. Esta opción de caducidad solo está disponible para la configuración de asignación Original y Más reciente.
+
 
 ## [!UICONTROL Dimensión de enlace]
 

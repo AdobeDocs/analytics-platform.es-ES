@@ -4,10 +4,10 @@ title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 7e32ae7aa757a8ca47732416f0f883033611ea94
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 16%
+source-wordcount: '2179'
+ht-degree: 18%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 16%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Experimentación en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte el panel [Analytics for Target](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obtener información sobre cómo analizar las actividades y experiencias de Adobe Target en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
+_Este artículo documenta el panel Experimentación en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte el panel [Analytics for Target](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obtener información sobre cómo analizar las actividades y experiencias de Adobe Target en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -75,11 +75,11 @@ En la vista de datos que contiene datos de experimentación, elija dos dimension
 
 Sin estas etiquetas presentes, el panel Experimento no funciona, ya que no hay experimentos con los que trabajar.
 
-## Utiliza
+## Usar
 
 Para usar un panel **[!UICONTROL Experimentación]**:
 
-1. Crear un panel de **[!UICONTROL Experimentación]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
+1. Crear un panel de **[!UICONTROL Experimentación]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
 
 
 1. Especifica la [entrada](#panel-input) para el panel.
@@ -105,7 +105,7 @@ Para usar el panel Experimentación:
    | **[!UICONTROL Experimento]** | Un conjunto de variaciones de una experiencia que se expusieron a los usuarios finales para determinar cuál es mejor mantener de forma perpetua. Un experimento está formado por dos o más variantes, una de las cuales se considera la de control. Esta configuración está rellenada previamente con las dimensiones que se han etiquetado con la etiqueta **[!UICONTROL Experimento]** en las vistas de datos y con los datos de experimentación de los últimos tres meses. |
    | **[!UICONTROL Variante de control]** | Una de las dos o más alteraciones en la experiencia de un usuario final que se comparan con el fin de identificar la mejor alternativa. Se debe seleccionar una variante como control, y solo una puede considerarse la de control. Esta configuración se rellena previamente con las dimensiones que se han etiquetado con la etiqueta **[!UICONTROL Variant]** en las vistas de datos. Esta configuración extrae los datos de variante asociados con este experimento. |
    | **[!UICONTROL Métricas de éxito]** ➊ | La métrica o métricas con las que un usuario compara variantes. La variante con el resultado más deseable para la métrica de conversión (ya sea la más alta o la más baja) se declara como la *variante con mejor rendimiento* de un experimento. Se pueden añadir hasta cinco filtros. |
-   | **[!UICONTROL Métrica de normalización]** ➋ | La base ([!UICONTROL Personas], [!UICONTROL Sesiones] o [!UICONTROL Eventos]) en la que se ejecuta una prueba. Por ejemplo, una prueba puede comparar las tasas de conversión de varias variaciones en las que **[!UICONTROL Tasa de conversión]** se calcula como Vista de página |
+   | **[!UICONTROL Métrica de normalización]** ➋ | La base (**[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Grupo de compra]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Personas]**, **[!UICONTROL Sesiones]** o **[!UICONTROL Eventos]**) en la que se ejecuta una prueba. Por ejemplo, una prueba puede comparar las tasas de conversión de varias variaciones en las que **[!UICONTROL Tasa de conversión]** se calcula como Vista de página. |
    | **[!UICONTROL Incluir límites superior/inferior de confianza]** | Active esta opción para mostrar los límites superior e inferior de los niveles de confianza. |
 
 

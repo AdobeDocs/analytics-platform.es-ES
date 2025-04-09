@@ -4,10 +4,10 @@ title: Panel de elemento siguiente o anterior
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: 2c28d9658165baf4de9519733c321d47c71f2bda
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 26%
+source-wordcount: '457'
+ht-degree: 82%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Elemento siguiente o anterior en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Ver [panel de elemento siguiente o anterior](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_This article documents the Next or previous item panel in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_See [Next or previous item panel](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/next-previous) for the_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
 El panel **[!UICONTROL Elemento siguiente o anterior]** contiene varias tablas y visualizaciones para identificar el elemento de dimensión siguiente o anterior de una dimensión específica. Por ejemplo, es posible que desee explorar a qué páginas fueron más a menudo los clientes después de visitar la página de inicio.
 
-## Utiliza {#use}
+## Usar {#use}
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_container"
@@ -46,7 +46,7 @@ El panel **[!UICONTROL Elemento siguiente o anterior]** contiene varias tablas y
 
 Para usar un panel **[!UICONTROL Elemento siguiente o anterior]**:
 
-1. Crear un panel de **[!UICONTROL elemento siguiente o anterior]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
+1. Cree un panel de **[!UICONTROL elemento siguiente o anterior]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
@@ -54,7 +54,7 @@ Para usar un panel **[!UICONTROL Elemento siguiente o anterior]**:
 
 ### Entrada de panel
 
-Puede configurar el panel [!UICONTROL Elemento siguiente o anterior] con esta configuración de entrada:
+Puede configurar el panel [!UICONTROL Elemento siguiente o anterior] utilizando estos ajustes de entrada:
 
 ![Panel de elemento siguiente o anterior](assets/next-or-previous-item.png)
 
@@ -63,7 +63,7 @@ Puede configurar el panel [!UICONTROL Elemento siguiente o anterior] con esta co
 | **[!UICONTROL Dimensión]** | Seleccione la dimensión para la que desea explorar los elementos siguientes o anteriores. |
 | **[!UICONTROL Elemento de dimensión]** | Seleccione el elemento de dimensión específico en el centro de la consulta siguiente/anterior. |
 | **[!UICONTROL Dirección]** | Especifique si está buscando el elemento de dimensión [!UICONTROL Siguiente] o [!UICONTROL Anterior]. |
-| **[!UICONTROL Contenedor]** | Seleccione el contenedor [!UICONTROL Sesión] o [!UICONTROL Persona] (predeterminado) para determinar el ámbito de la consulta. |
+| **[!UICONTROL Contenedor]** | Select the container, **[!UICONTROL Global Account]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Account]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Session]** or **[!UICONTROL Person]**, to determine the scope of your inquiry. |
 
 {style="table-layout:auto"}
 
@@ -79,7 +79,7 @@ El panel [!UICONTROL Elemento siguiente o anterior] devuelve un conjunto complet
 
 | Visualización | Descripción |
 | --- | --- |
-| **[!UICONTROL Barra horizontal]** | Enumera los elementos siguientes (o anteriores) en función del elemento de dimensión seleccionado. Al pasar el ratón por encima de una barra individual, se resalta el elemento correspondiente de la tabla de forma libre. |
+| **[!UICONTROL Barra horizontal]** | Enumera los elementos siguientes (o anteriores) en función del elemento de dimensión seleccionado. Al pasar el cursor sobre una barra individual, se resalta el elemento correspondiente en la tabla de forma libre. |
 | **[!UICONTROL Número de resumen]** | Número de resumen de alto nivel de todas las ocurrencias de elementos de dimensión siguientes o anteriores para el mes actual (hasta ahora). |
 | **[!UICONTROL Tabla de forma libre]** | Enumera los elementos siguientes (o anteriores) en función del elemento de dimensión seleccionado, en formato de tabla. Por ejemplo, cuáles eran las páginas más populares (por ocurrencias) a las que se dirigían los visitantes después (o antes) de la página principal o de la página de Workspace. |
 

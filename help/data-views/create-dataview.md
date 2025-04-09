@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 99%
+source-wordcount: '2120'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,22 @@ Creación o edición de una vista de datos:
 
 Para configurar una vista de datos nueva o existente, haga lo siguiente:
 
+>[!BEGINTABS]
+
+>[!TAB Estándar]
+
+![Configuración de una vista de datos](assets/dataview-configure.png)
+
+>[!TAB B2B Edition]
+
+![Configure data view B2B](assets/dataview-configure-b2b.png)
+
+>[!ENDTABS]
+
+
 1. Seleccione la pestaña **[!UICONTROL Configurar]** (si no está activa).
 
-   ![Configuración de una vista de datos](assets/dataview-configure.png)
+
 1. Especificar datos de [!UICONTROL Configuración], [!UICONTROL Contenedor] y [!UICONTROL Calendario] (consulte más abajo).
 1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
 
@@ -56,10 +69,10 @@ Proporciona una configuración general para la vista de datos.
 
 | Configuración | Descripción |
 | --- | --- |
-| [!UICONTROL **Conexión**] | Este campo vincula la vista de datos con la conexión establecida anteriormente, que tiene uno o varios conjuntos de datos de Adobe Experience Platform. |
-| [!UICONTROL **Nombre**] | Requerido. Nombre de la vista de datos. Este valor aparece en la lista desplegable superior derecha de Analysis Workspace. |
-| [!UICONTROL **ID externo**] | Requerido. El nombre de la vista de datos que se puede utilizar en fuentes externas, como herramientas de inteligencia empresarial. El valor predeterminado es `unspecified`. Si no especifica un ID externo, el nombre se generará a partir del nombre de la vista de datos y reemplazando los espacios por guiones bajos. |
-| [!UICONTROL **Descripción**] | Opcional. Adobe recomienda una descripción detallada para que los usuarios entiendan por qué existe la vista de datos y para quién está diseñada. |
+| **[!UICONTROL Conexión]** | Este campo vincula la vista de datos con la conexión establecida anteriormente, que tiene uno o varios conjuntos de datos de Adobe Experience Platform. |
+| **[!UICONTROL Nombre]** | Requerido. Nombre de la vista de datos. Este valor aparece en la lista desplegable superior derecha de Analysis Workspace. |
+| **[!UICONTROL ID externo]** | Requerido. El nombre de la vista de datos que se puede utilizar en fuentes externas, como herramientas de inteligencia empresarial. El valor predeterminado es `unspecified`. Si no especifica un ID externo, el nombre se generará a partir del nombre de la vista de datos y reemplazando los espacios por guiones bajos. |
+| **[!UICONTROL Descripción]** | Opcional. Adobe recomienda una descripción detallada para que los usuarios entiendan por qué existe la vista de datos y para quién está diseñada. |
 
 {style="table-layout:auto"}
 
@@ -92,9 +105,13 @@ Designa el nombre de los contenedores para la vista de datos. Los nombres de con
 
 | Configuración | Descripción |
 | --- | --- |
-| [!UICONTROL **Nombre de contenedor de persona**] | [!UICONTROL Persona] (valor predeterminado). El contenedor [!UICONTROL Persona] incluye todas las sesiones y eventos de las personas en un lapso de tiempo específico. Si su organización utiliza un término diferente (por ejemplo, visitante o usuario), puede cambiar el nombre del contenedor aquí. |
-| [!UICONTROL **Nombre de contenedor de sesión**] | [!UICONTROL Sesión] (valor predeterminado). El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiar el nombre de este contenedor a Visita o a cualquier otro término que prefiera. |
-| [!UICONTROL **Nombre de contenedor de evento**] | [!UICONTROL Evento] (valor predeterminado). El contenedor [!UICONTROL Evento] define eventos individuales en un conjunto de datos. Si su organización utiliza un término diferente (por ejemplo, Visitas individuales o Vistas de página), puede cambiar el nombre del contenedor aquí. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Global Account container name ]** | `Global Account` (default). The [!UICONTROL Global Account] container includes every session and event for globa accounts within the specified time frame. If your organization uses a different term, you can rename the container here. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Account container name ]** | `Account` (default). El contenedor [!UICONTROL Account] incluye todas las sesiones y eventos de cuentas dentro del lapso de tiempo especificado. If your organization uses a different term, you can rename the container here. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nombre de contenedor de oportunidad ]** | `Opportunity` (default). The [!UICONTROL Opportunity] container includes every session and event for opportunities within the specified time frame. If your organization uses a different term, you can rename the container here. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Buying group container name ]** | `Buying Group` (default). The [!UICONTROL Buying group] container includes every session and event for buying groups within the specified time frame. If your organization uses a different term, you can rename the container here. |
+| **[!UICONTROL Nombre de contenedor de persona]** | `Person` (default). El contenedor [!UICONTROL Persona] incluye todas las sesiones y eventos de las personas en un lapso de tiempo específico. Si su organización utiliza un término diferente (por ejemplo, visitante o usuario), puede cambiar el nombre del contenedor aquí. |
+| **[!UICONTROL Nombre de contenedor de sesión]** | `Session` (predeterminado). El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiar el nombre de este contenedor a Visita o a cualquier otro término que prefiera. |
+| **[!UICONTROL Nombre de contenedor de evento]** | `Event` (default). El contenedor [!UICONTROL Evento] define eventos individuales en un conjunto de datos. Si su organización utiliza un término diferente (por ejemplo, Visitas individuales o Vistas de página), puede cambiar el nombre del contenedor aquí. |
 
 {style="table-layout:auto"}
 
@@ -179,5 +196,11 @@ Puede agregar filtros que se apliquen a toda la vista de datos. Este filtro se a
 ### Configuración de sesión
 
 Determine el período de inactividad entre los eventos antes de que caduque una sesión y se inicie una nueva. Se requiere un período de tiempo. Opcionalmente, también puede forzar el inicio de una nueva sesión cuando un evento contenga una métrica determinada. Consulte [Configuración de sesión](session-settings.md) para obtener más información.
+
+### Previsualización de datos
+
+The data preview compares (for the various containers) the data of this data view with data of the connection. The preview percentage is based on the total number in the connection from the last 90 days.
+
+If the preview is not loading, your connection could still be backfilling.
 
 Una vez especificada toda la configuración deseada, haga clic en **[!UICONTROL Guardar y finalizar]**.
