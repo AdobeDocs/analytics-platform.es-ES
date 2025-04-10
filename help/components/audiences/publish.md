@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 20ccc42c902cbcadb509147352a5681fab9e44e0
+source-git-commit: dab355e2934689afc06b9228ac5caf357b4ae4e6
 workflow-type: tm+mt
-source-wordcount: '2350'
-ht-degree: 15%
+source-wordcount: '1973'
+ht-degree: 18%
 
 ---
 
@@ -169,38 +169,38 @@ Para ver las audiencias de Customer Journey Analytics en Platform:
 
 Para obtener más información sobre el uso de Audiences en Platform, consulte la sección [Audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la [guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la documentación de Experience Platform.
 
-### Comprender las discrepancias en los recuentos de audiencias entre Customer Journey Analytics y Real-Time Customer Data Platform
+<!---### Understand discrepancies in audience counts between Customer Journey Analytics and Real-Time Customer Data Platform
 
-Pueden producirse discrepancias en los recuentos de audiencias entre Customer Journey Analytics y Real-Time Customer Data Platform. Los puntos siguientes proporcionan una explicación detallada de estas diferencias:
+Discrepancies in audience counts may occur between Customer Journey Analytics and Real-Time Customer Data Platform. The points below provide a detailed explanation of these differences:
 
-![Infografía sobre diferencias de audiencia entre Customer Journey Analytics y Real-Time CDP.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
+![Infographic on audience differences between Customer Journey Analytics and Real-Time CDP.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
 
-**Recuentos probabilísticos versus determinísticos**
+**Probabilistic versus deterministic counts**
 
-La metodología mediante la cual se calculan los números de miembros de audiencia difiere entre las dos aplicaciones, como se describe a continuación.
+The methodology by which audience membership numbers are being calculated differs between the two apps, as described below.
 
-* **Customer Journey Analytics**: La métrica **[!UICONTROL Total de personas]** de Customer Journey Analytics es un valor estimado. Esto significa que el recuento es una estimación basada en las reglas de la audiencia y que puede cambiar entre intervalos de actualización.
-* **Real-Time Customer Data Platform**: el recuento en Real-Time Customer Data Platform es determinista, se basa en los trabajos de evaluación diarios y se corrigió en el momento en que la audiencia termina de publicar en el portal de audiencias.
+*  **Customer Journey Analytics**: The **[!UICONTROL Total People]** metric in Customer Journey Analytics is an estimated value. This means that the count is an estimate based on the rules of the audience and it can change between refresh intervals.
+*  **Real-Time Customer Data Platform**: The count in Real-Time Customer Data Platform is deterministic, based on daily evaluation jobs, and fixed at the time the audience finishes publishing into the audience portal. 
 
-**Intervalo y velocidad de publicación**
+**Publishing interval and rate**
 
-Las audiencias publican en Real-Time Customer Data Platform a una velocidad de 1500 registros por segundo (RPS). Por ejemplo, una audiencia de 20 millones de miembros tardará aproximadamente 3,7 horas en publicarse completamente (20 millones/1500 RPS/3600 segundos por hora). Durante este tiempo, es probable que haya diferencias en la pertenencia a audiencias entre las dos aplicaciones.
+Audiences publish to Real-Time Customer Data Platform at a rate of 1500 records per second (RPS). For example, an audience of 20 million members will take approximately 3.7 hours to fully publish (20M / 1500 RPS / 3600 seconds per hour). During this time, differences in audience membership between the two apps are likely.
 
-**Fragmentación de perfiles**
+**Profile fragmentation**
 
-Si los perfiles importados de Customer Journey Analytics ya existen en Real-Time Customer Data Platform, no se cuentan como perfiles nuevos. Esto puede provocar recuentos de perfiles inferiores a los esperados en Real-Time Customer Data Platform.
+If profiles imported from Customer Journey Analytics already exist in Real-Time Customer Data Platform, they are not counted as new profiles. This can lead to lower-than-expected profile counts in Real-Time Customer Data Platform.
 
-**Audiencias por lotes y de streaming**
+**Batch versus streaming audiences**
 
-Las audiencias de Customer Journey Analytics no se incluyen en el trabajo de evaluación por lotes diario y permanecen fijas hasta el siguiente intervalo de publicación. Por el contrario, otras audiencias por lotes en Real-Time Customer Data Platform se reevalúan cada 24 horas.
+Customer Journey Analytics audiences are not included in the daily batch evaluation job and remain fixed until the next publish interval. In contrast, other batch audiences in Real-Time Customer Data Platform are re-evaluated every 24 hours.
 
-### Aspectos clave que recordar
+### Key takeaways to remember
 
-* **Recuentos estimados en Customer Journey Analytics**: Comprenda que el recuento de **[!UICONTROL Personas totales]** en Customer Journey Analytics es una estimación y puede variar debido a la transmisión de datos y a los comportamientos de identidad.
-* **Recuentos determinísticos en Real-Time Customer Data Platform**: el recuento de Real-Time Customer Data Platform es fijo y no cambia hasta el siguiente intervalo de publicación.
-* **Fragmentación de perfiles**: tenga en cuenta que los perfiles existentes en Real-Time Customer Data Platform pueden no contribuir a nuevos recuentos de perfiles al importar desde Customer Journey Analytics.
+* **Estimated counts in Customer Journey Analytics**: Understand that the **[!UICONTROL Total People]** count in Customer Journey Analytics is an estimate and can vary due to streaming data and identity behaviors.
+* **Deterministic counts in Real-Time Customer Data Platform**: The count in Real-Time Customer Data Platform is fixed and does not change until the next publish interval.
+* **Profile Fragmentation**: Be aware that existing profiles in Real-Time Customer Data Platform may not contribute to new profile counts when importing from Customer Journey Analytics.
 
-Al diferenciar claramente estos aspectos, puede comprender y administrar mejor los datos de audiencia en Customer Journey Analytics y Real-Time Customer Data Platform.
+By clearly differentiating these aspects, you can better understand and manage your audience data across Customer Journey Analytics and Real-Time Customer Data Platform.--->
 
 ## Preguntas frecuentes {#faq}
 
