@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
+source-git-commit: 20ccc42c902cbcadb509147352a5681fab9e44e0
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 18%
+source-wordcount: '2350'
+ht-degree: 15%
 
 ---
 
@@ -169,6 +169,38 @@ Para ver las audiencias de Customer Journey Analytics en Platform:
 
 Para obtener más información sobre el uso de Audiences en Platform, consulte la sección [Audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la [guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en la documentación de Experience Platform.
 
+### Comprender las discrepancias en los recuentos de audiencias entre Customer Journey Analytics y Real-Time Customer Data Platform
+
+Pueden producirse discrepancias en los recuentos de audiencias entre Customer Journey Analytics y Real-Time Customer Data Platform. Los puntos siguientes proporcionan una explicación detallada de estas diferencias:
+
+![Infografía sobre diferencias de audiencia entre Customer Journey Analytics y Real-Time CDP.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
+
+**Recuentos probabilísticos versus determinísticos**
+
+La metodología mediante la cual se calculan los números de miembros de audiencia difiere entre las dos aplicaciones, como se describe a continuación.
+
+* **Customer Journey Analytics**: La métrica **[!UICONTROL Total de personas]** de Customer Journey Analytics es un valor estimado. Esto significa que el recuento es una estimación basada en las reglas de la audiencia y que puede cambiar entre intervalos de actualización.
+* **Real-Time Customer Data Platform**: el recuento en Real-Time Customer Data Platform es determinista, se basa en los trabajos de evaluación diarios y se corrigió en el momento en que la audiencia termina de publicar en el portal de audiencias.
+
+**Intervalo y velocidad de publicación**
+
+Las audiencias publican en Real-Time Customer Data Platform a una velocidad de 1500 registros por segundo (RPS). Por ejemplo, una audiencia de 20 millones de miembros tardará aproximadamente 3,7 horas en publicarse completamente (20 millones/1500 RPS/3600 segundos por hora). Durante este tiempo, es probable que haya diferencias en la pertenencia a audiencias entre las dos aplicaciones.
+
+**Fragmentación de perfiles**
+
+Si los perfiles importados de Customer Journey Analytics ya existen en Real-Time Customer Data Platform, no se cuentan como perfiles nuevos. Esto puede provocar recuentos de perfiles inferiores a los esperados en Real-Time Customer Data Platform.
+
+**Audiencias por lotes y de streaming**
+
+Las audiencias de Customer Journey Analytics no se incluyen en el trabajo de evaluación por lotes diario y permanecen fijas hasta el siguiente intervalo de publicación. Por el contrario, otras audiencias por lotes en Real-Time Customer Data Platform se reevalúan cada 24 horas.
+
+### Aspectos clave que recordar
+
+* **Recuentos estimados en Customer Journey Analytics**: Comprenda que el recuento de **[!UICONTROL Personas totales]** en Customer Journey Analytics es una estimación y puede variar debido a la transmisión de datos y a los comportamientos de identidad.
+* **Recuentos determinísticos en Real-Time Customer Data Platform**: el recuento de Real-Time Customer Data Platform es fijo y no cambia hasta el siguiente intervalo de publicación.
+* **Fragmentación de perfiles**: tenga en cuenta que los perfiles existentes en Real-Time Customer Data Platform pueden no contribuir a nuevos recuentos de perfiles al importar desde Customer Journey Analytics.
+
+Al diferenciar claramente estos aspectos, puede comprender y administrar mejor los datos de audiencia en Customer Journey Analytics y Real-Time Customer Data Platform.
 
 ## Preguntas frecuentes {#faq}
 
