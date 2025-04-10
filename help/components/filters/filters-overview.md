@@ -4,7 +4,7 @@ description: Comprenda para qué filtros se utilizan y cómo crear un filtro sim
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
+source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 8%
@@ -24,7 +24,7 @@ Los filtros se pueden basar en:
 - variables personalizadas (campo de formulario, categorías definidas, ID de cliente),
 - y otros criterios.
 
-Consulte [Crear filtros](/help/components/filters/create-filters.md) para ver las distintas opciones disponibles para crear filtros. A continuación, genere, modifique y guarde la definición de un filtro en el [Generador de filtros](filter-builder.md). También puede crear filtros rápidos usando el [Generador de filtros rápidos](quick-filters.md). Y también puede generar filtros a partir de visualizaciones en Workspace, por ejemplo, usando la visualización [Visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu).
+Consulte [Crear filtros](/help/components/filters/create-filters.md) para ver las distintas opciones disponibles para crear filtros. A continuación, genere, modifique y guarde la definición de un filtro en el [Generador de filtros](filter-builder.md). También puede crear filtros rápidos con el [Generador de filtros rápidos](quick-filters.md). Y también puede generar filtros a partir de visualizaciones en Workspace, por ejemplo, usando la visualización [Visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu).
 
 Utiliza el [administrador de filtros](manage-filters.md) para administrar filtros.
 
@@ -41,7 +41,7 @@ En especial, como administrador, la planificación adecuada de los filtros mejor
 
 - **Componentes**: decida qué componentes incluirá en la definición del filtro y con qué valores se validarán las condiciones.
 
-- **Proceso**: considere un proceso de aprobación para su filtro. No hay ningún flujo de trabajo de aprobación en Customer Journey Analytics, pero aún puede organizar un proceso para determinar si aprueba o no un .
+- **Proceso**: considere un proceso de aprobación para su filtro. No hay ningún flujo de trabajo de aprobación en Customer Journey Analytics, pero aún puede organizar un proceso para determinar si aprueba o no un filtro.
 
 - **Modularity**: defina filtros con la modularidad en mente. Por lo tanto, los usuarios de tus filtros pueden [apilar filtros](filter-builder.md#stack-filters) fácilmente para crear nuevos filtros poderosos.
 
@@ -146,7 +146,7 @@ Los contenedores de sesión incluyen valores basados en eventos por sesión:
 - Métricas de participación.
 - Métricas asignadas linealmente.
 
-Las vistas de datos de Customer Journey Analytics permiten determinar la duración de una sesión, pero también cuándo se debe crear una nueva. Por ejemplo, puede definir una nueva sesión de aplicación móvil basada en cada vez que un usuario inicie la aplicación móvil. Consulte [Configuración de sesión](/help/data-views/session-settings.md) para obtener más información.
+Las vistas de datos de Customer Journey Analytics le permiten determinar la duración de una sesión, pero también cuándo se debe crear una nueva. Por ejemplo, puede definir una nueva sesión de aplicación móvil basada en cada vez que un usuario inicie la aplicación móvil. Consulte [Configuración de sesión](/help/data-views/session-settings.md) para obtener más información.
 
 ### Contenedor de evento
 
