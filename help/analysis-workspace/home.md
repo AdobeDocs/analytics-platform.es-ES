@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 
 | **[!UICONTROL Componentes]** | Acceso directo a Mac | Acceso directo a Windows | Descripción |
 |---|---|---|---|
-| **[!UICONTROL Crear filtro...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Crear un nuevo [filtro](/help/components/filters/create-filters.md). |
+| **[!UICONTROL Crear segmento...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Crear un nuevo [segmento](/help/components/filters/create-filters.md). |
 | **[!UICONTROL Crear métrica...]** | **[!UICONTROL *shift+cmd+c *]** | **[!UICONTROL *shift+ctrl+c *]** | Crear una nueva [métrica calculada](/help/components/calc-metrics/calc-metr-overview.md). |
 | **[!UICONTROL Crear intervalo de fechas...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Creación de un nuevo [intervalo de fechas](/help/components/date-ranges/overview.md). |
 | **[!UICONTROL Crear anotación...]** | **[!UICONTROL *shift+cmd+o *]** | **[!UICONTROL *shift+ctrl+o *]** | Crear una [nueva anotación](/help/components/annotations/overview.md). |

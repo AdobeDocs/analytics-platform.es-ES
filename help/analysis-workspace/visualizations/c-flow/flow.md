@@ -4,10 +4,10 @@ title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 25%
+ht-degree: 38%
 
 ---
 
@@ -41,7 +41,7 @@ Con la visualización puede:
 
 * Visualice el recorrido del cliente a través de su sitio web o aplicación.
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida.
-* Cree filtros designando un punto específico en una ruta elegida.
+* Cree segmentos mediante la designación de un punto específico en una ruta elegida.
 
 
 >[!BEGINSHADEBOX]
@@ -61,7 +61,7 @@ Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y su
 
 >[!MORELIKETHIS]
 >
->[Configurar una visualización de flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Configuración de una visualización de flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 ## Elija entre las visualizaciones de flujo, visitas en el orden previsto o lienzo de Recorrido

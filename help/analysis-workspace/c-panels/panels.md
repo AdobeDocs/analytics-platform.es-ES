@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 305ae20c48ddf0f2032b8f92a016eb92427016ed
 workflow-type: tm+mt
 source-wordcount: '2129'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Para crear un panel:
 
   ![Crear un panel](assets/create-panel.png)
 
-Puedes realizar lo siguiente:
+Puede realizar lo siguiente:
 
 * Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **en** cualquier panel para agregar otra visualización. Aparece una ventana emergente que te permite seleccionar una visualización.
 
@@ -56,7 +56,7 @@ Puedes realizar lo siguiente:
   | Seleccionar… | Para crear un filtro: |
   |---|---|
   | ![Tabla](/help/assets/icons/Table.svg) | [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
-  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analysis-workspace/visualizations/line.md) |
+  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Línea](/help/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barra](/help/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Texto](/help/assets/icons/Text.svg) | [Texto](/help/analysis-workspace/visualizations/text.md) |
@@ -85,7 +85,7 @@ Al crear un panel nuevo, la vista de datos predeterminada se basa en la vista de
 
 >[!IMPORTANT]
 >
->La vista de datos seleccionada determina qué dimensiones, métricas y filtros están disponibles para crear visualizaciones en un panel.
+>La vista de datos seleccionada determina qué dimensiones, métricas y segmentos están disponibles para crear visualizaciones en un panel.
 >
 >
 >Al cambiar una vista de datos de un panel, es posible que algunos de los componentes no estén disponibles en esa nueva vista de datos. Este cambio puede provocar que la visualización no se represente correctamente. Puedes ver advertencias como las siguientes:
@@ -100,7 +100,7 @@ El calendario del panel controla el intervalo de la creación de informes de las
 
 >[!NOTE]
 >
->Si se usa un componente de intervalo de fechas ![Calendario](/help/assets/icons/Calendar.svg) en una visualización o panel (por ejemplo, como filtro), el componente de intervalo de fechas anula el calendario del panel.
+>Si se utiliza un componente de intervalo de fechas ![Calendario](/help/assets/icons/Calendar.svg) dentro de una visualización o panel (por ejemplo, como segmento), el componente de intervalo de fechas anula el calendario del panel.
 >
 
 
@@ -134,85 +134,85 @@ Selecciona **[!UICONTROL Aplicar a todos los paneles]** para aplicar el interval
 
 ## Zona de colocación {#dropzone}
 
-La zona de colocación del panel permite aplicar filtros de segmentos y desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel. 
+La zona de colocación del panel permite aplicar segmentos y segmentos desplegables a todas las tablas y visualizaciones de un panel. Puede aplicar uno o varios segmentos a un panel.
 
 ### Filtros
 
-Arrastra y suelta cualquier filtro del panel izquierdo en la zona desplegable del panel para empezar a filtrar el panel. Repita este proceso para agregar filtros adicionales al panel. Los filtros aparecen uno al lado del otro en la parte superior del panel.
+Arrastre y suelte cualquier segmento del panel izquierdo en la zona de colocación del panel para empezar a segmentar el panel. Repita este proceso para añadir segmentos adicionales al panel. Los filtros aparecen uno al lado del otro en la parte superior del panel.
 
 ![El panel izquierdo muestra las métricas disponibles y la métrica Cliente móvil arrastrada a la zona de colocación del panel.](assets/segment-filter.png)
 
-#### Filtros rápidos
+#### Segmentos rápidos
 
-Los componentes que no son filtros también se pueden arrastrar directamente a la zona de colocación para crear filtros específicos, lo que te ahorrará el tiempo y el tener que utilizar el [Generador de filtros](/help/components/filters/filter-builder.md). Los filtros creados de esta manera se definen automáticamente como filtros de nivel de visita individual. Esta definición se puede modificar rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del filtro.
+Los componentes que no son segmentos también pueden arrastrarse directamente a la zona de colocación para crear segmentos rápidos, lo que le ahorrará el tiempo y el esfuerzo de ir al [Generador de segmentos](/help/components/filters/filter-builder.md). Los filtros creados de esta manera se definen automáticamente como segmentos de nivel de evento. Esta definición puede modificarse rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del segmento.
 
 
-Para obtener más información, consulte [Filtros rápidos](/help/components/filters/quick-filters.md).
+Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
 
-![Filtros ad hoc que se hacen públicos y se sueltan en la zona de colocación](assets/adhoc-segment-filter.png)
+![Segmentos ad hoc que se hacen públicos y se colocan en la zona de colocación](assets/adhoc-segment-filter.png)
 
 ### Filtros desplegables
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-#### Filtros desplegables estáticos
+#### Segmentos desplegables estáticos
 
-Los filtros desplegables permiten interactuar con los datos de forma controlada. Por ejemplo, puede añadir un filtro desplegable para tipos de dispositivos móviles para poder filtrar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
+Los segmentos desplegables estáticos permiten interactuar con los datos de forma controlada. Por ejemplo, puede añadir un segmento desplegable para Tipos de dispositivos móviles, de modo que pueda segmentar el panel por tabletas, teléfonos móviles o equipos de escritorio.
 
-Los filtros desplegables estáticos también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes filtros de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un filtro desplegable de país.
+Los segmentos desplegables estáticos también pueden utilizarse para consolidar muchos proyectos en uno solo. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un segmento desplegable de país.
 
-![Filtros desplegables estáticos que muestran el filtro “Directo” del canal de mercado resaltado. ](assets/dropdown-filter-intro.png)
+![Segmentos desplegables estáticos que muestran el segmento &quot;Directo&quot; de Market Channel resaltado. ](assets/dropdown-filter-intro.png)
 
-##### Creación de filtros desplegables dinámicos
+##### Creación de segmentos desplegables dinámicos
 
-* Para los filtros desplegables que utilizan elementos de dimensión, selecciona una sola dimensión del panel izquierdo y suéltala en la zona desplegable del panel mientras mantiene pulsado ⇧ (*shift*). Esto crea un filtro desplegable con todos los elementos de dimensión asociados a esa dimensión.
+* Para los segmentos desplegables que utilizan elementos de dimensión, selecciona una sola dimensión del panel izquierdo y suéltala en la zona desplegable del panel mientras mantiene pulsado ⇧ (*mayús*).  Esta acción crea un segmento desplegable con todos los elementos de dimensión que están asociados con esa dimensión.
 
-  O bien, si deseas que el filtro desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haz clic en el icono de flecha derecha situado junto a la dimensión deseada en el panel izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Selecciona varios elementos de dimensión de esta lista usando ⇧+![Select](/help/assets/icons/Select.svg) (*shift* + *select*) o ^+![Select](/help/assets/icons/Select.svg) (*control* + *select*) y, a continuación, suéltalos en la zona de colocación del panel **mientras mantienes presionado** ⇧.
+  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el panel izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Selecciona varios elementos de dimensión de esta lista usando ⇧+![Select](/help/assets/icons/Select.svg) (*shift* + *select*) o ^+![Select](/help/assets/icons/Select.svg) (*control* + *select*) y, a continuación, suéltalos en la zona de colocación del panel **mientras mantienes presionado** ⇧.
 
-* Para los filtros desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, solo filtros o solo métricas), selecciona varios elementos del mismo tipo en el panel izquierdo utilizando ⇧+![Select](/help/assets/icons/Select.svg) o ^+![Select](/help/assets/icons/Select.svg). A continuación, suelta los elementos en la zona de colocación del panel **mientras mantienes** ⇧.
+* Para los segmentos desplegables que utilizan un único tipo de componente (por ejemplo, solo dimensiones, o solo segmentos, o solo métricas), seleccione varios elementos del mismo tipo en el panel izquierdo mediante ⇧+![Seleccionar](/help/assets/icons/Select.svg) o ^+![Seleccionar](/help/assets/icons/Select.svg). A continuación, suelte los elementos en la zona de colocación del panel **mientras mantiene** ⇧.
 
-  Se crea un único filtro desplegable con los componentes seleccionados.
+  Se crea un único segmento desplegable con los componentes seleccionados.
 
-* Para filtros desplegables que utilizan una combinación de tipos de componentes (como 2 métricas y 3 filtros), selecciona varios componentes co n⇧+![Select](/help/assets/icons/Select.svg) o ^+![Select](/help/assets/icons/Select.svg). Coloca la selección en la zona desplegable del panel **mientras mantienes pulsado** ⇧. En este contexto, todos los tipos de componentes se tratan como filtros desplegables independientes. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos filtros desplegables independientes: un filtro desplegable incluye elementos de dimensión y el otro métricas.
+* Para los segmentos desplegables que utilizan una mezcla de tipos de componentes (como 2 métricas y 3 segmentos), seleccione varios componentes utilizando ⇧+![Seleccionar](/help/assets/icons/Select.svg) o ^+![Seleccionar](/help/assets/icons/Select.svg). Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado** ⇧. En este contexto, todos los tipos de componentes se tratan como segmentos desplegables independientes. Por ejemplo, si incluye tanto elementos de métrica como de dimensión en su selección, se crearán dos segmentos desplegables separados: un segmento desplegable incluirá elementos de dimensión y el otro incluirá métricas.
 
-Un filtro desplegable proporciona las siguientes opciones de menú contextual:
+Un segmento desplegable proporciona las siguientes opciones de menú contextual:
 
-* **[!UICONTROL Eliminar filtro desplegable]**: elimina el filtro desplegable del panel.
-* **[!UICONTROL Eliminar etiqueta]**: elimina el texto situado encima de un filtro desplegable. Para modificar la etiqueta, pasa el ratón sobre la etiqueta y selecciona ![Editar etiqueta del filtro desplegable](/help/assets/icons/Edit.svg).
-* **[!UICONTROL Añadir etiqueta]**: cuando se añade un filtro desplegable a un proyecto, se establece automáticamente una etiqueta en el nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
-* **[!UICONTROL Requerir selección]**: Requiere que se establezca un filtro en el panel.
+* **[!UICONTROL Eliminar desplegable]**: Elimina el segmento desplegable del panel.
+* **[!UICONTROL Eliminar etiqueta]**: Elimina el texto que aparece sobre un segmento desplegable. Para modificar la etiqueta, desplácese sobre ella y seleccione ![Editar etiqueta del segmento desplegable](/help/assets/icons/Edit.svg).
+* **[!UICONTROL Añadir etiqueta]**: Cuando añade un segmento desplegable a un proyecto, se establece automáticamente una etiqueta con el nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
+* **[!UICONTROL Requiere selección]**: Requiere que se fije un segmento en el panel.
 
-##### Filtros desplegables estáticos
+##### Utilizar segmentos desplegables estáticos
 
-Los usuarios pueden utilizar el menú de filtro desplegable de cualquiera de las siguientes maneras para filtrar el panel:
+Los usuarios pueden utilizar el menú desplegable de segmentos de cualquiera de las siguientes formas para segmentar el panel:
 
-* Aplique un solo filtro al panel seleccionando el filtro en el filtro desplegable.
+* Aplique un único segmento al panel seleccionando el segmento en el segmento desplegable.
 
-* Aplique varios filtros al panel seleccionando más de un filtro en el filtro desplegable. El panel se filtra para incluir cualquiera de los campos seleccionados.
+* Aplique varios segmentos al panel seleccionando más de uno en el segmento desplegable. El panel se segmenta para incluir cualquiera de los segmentos seleccionados.
 
 
-#### Filtros desplegables dinámicos
+#### Segmentos desplegables dinámicos
 
-Los filtros desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros filtros desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando las dimensiones Países y Ciudades. Al seleccionar un país en la lista desplegable **[!UICONTROL Países]**, la lista desplegable **[!UICONTROL Ciudades]** se ajusta dinámicamente para mostrar solo las ciudades de ese país.
+Los segmentos desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros segmentos desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando las dimensiones Países y Ciudades. Al seleccionar un país en la lista desplegable **[!UICONTROL Países]**, la lista desplegable **[!UICONTROL Ciudades]** se ajusta dinámicamente para mostrar solo las ciudades de ese país.
 
-Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los filtros seleccionados del panel. Los elementos de dimensión seleccionados en los filtros desplegables estáticos afectan a los valores disponibles en los filtros desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de dimensión seleccionados en los filtros desplegables dinámicos no afectan a los valores disponibles en los filtros desplegables estáticos.
+Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los segmentos seleccionados del panel. Los elementos de dimensión seleccionados en los segmentos desplegables estáticos afectan a los valores disponibles en los segmentos desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de dimensión seleccionados en los segmentos desplegables dinámicos no afectan a los valores disponibles en los segmentos desplegables estáticos.
 
-La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un filtro desplegable dinámico para que no contenga un valor, lo que permitirá que otros filtros desplegables dinámicos contengan más valores. Seleccione **[!UICONTROL Restablecer todo]** para borrar la selección de todos los filtros desplegables de ese panel.
+La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un segmento desplegable dinámico para que no contenga un valor, lo que permitirá que otros segmentos desplegables dinámicos contengan más valores. Seleccione **[!UICONTROL Restablecer todo]** para borrar la selección de todos los segmentos desplegables de ese panel.
 
-Para crear un filtro desplegable dinámico, haga lo siguiente:
+Para crear un segmento desplegable dinámico, haga lo siguiente:
 
-* Arrastra y suelta una sola dimensión en la zona desplegable del panel **mientras mantienes pulsado** ⇧.
+* Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras mantiene pulsado** ⇧.
 
-Los filtros desplegables dinámicos no están disponibles para métricas, filtros o intervalos de fechas.
+Tenga en cuenta que los segmentos desplegables dinámicos no están disponibles para métricas, segmentos o intervalos de fechas.
 
-Al hacer clic con el botón derecho en un filtro desplegable dinámico, se proporcionan las mismas opciones que en los filtros desplegables estáticos.
+Al hacer clic con el botón derecho en un segmento desplegable dinámico, se proporcionan las mismas opciones que en los segmentos desplegables estáticos.
 
 
 ## Menú contextual

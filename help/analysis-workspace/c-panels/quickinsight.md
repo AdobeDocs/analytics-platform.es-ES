@@ -4,14 +4,14 @@ title: Panel de información rápida
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
-# Panel Información rápida {#quick-insights-panel}
+# Panel de información rápida {#quick-insights-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Quick Insights en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte [Panel de información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel Información rápida en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte [Panel Información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -37,10 +37,10 @@ La primera vez que empieces a usar este [!UICONTROL Analysis Workspace], es posi
 * qué visualizaciones serían más útiles,
 * qué dimensiones y métricas pueden facilitar las perspectivas,
 * dónde arrastrar y soltar elementos,
-* dónde crear un filtro,
+* dónde crear un segmento,
 * y más
 
-Para ayudarte con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que te presenta las dimensiones, métricas, filtros e intervalos de fechas más populares que usa tu compañía. Este algoritmo se basa en el uso que hace tu propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verás dimensiones, métricas y filtros etiquetados como [!UICONTROL POPULAR] en la lista desplegable, como se muestra a continuación:
+Para ayudarlo con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que le presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa su compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y segmentos etiquetados con [!UICONTROL POPULAR] en la lista desplegable, como se muestra a continuación:
 
 ![Panel de información rápida.](assets/popular-tag.png)
 
@@ -48,7 +48,7 @@ Para ayudarte con estas preguntas,[!UICONTROL Información rápida] aprovecha un
 
 * Crear correctamente una tabla de datos y una visualización adjunta en [!UICONTROL Analysis Workspace].
 * Conocer la terminología y el vocabulario para componentes básicos y partes de [!UICONTROL Analysis Workspace].
-* Realizar desgloses simples de dimensiones, añadir varias métricas o comparar filtros es fácil dentro de una [!UICONTROL tabla de forma libre].
+* Realizar desgloses simples de dimensiones, agregar varias métricas o comparar segmentos fácilmente dentro de una [!UICONTROL tabla de forma libre].
 * Cambiar o probar varios tipos de visualización para encontrar la herramienta de búsqueda para su análisis de forma rápida e intuitiva.
 
 ## Terminología clave básica
@@ -62,9 +62,9 @@ A continuación se incluyen algunos de los términos básicos que debes conocer.
 | [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad de la persona, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
 | **[!UICONTROL Visualización]** | Workspace ofrece [varias visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para generar representaciones visuales de tus datos. Como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | **[!UICONTROL Desglose de dimensiones]** | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. Por ejemplo, puedes desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado. O puedes desglosar Dispositivos móviles por Tipos de dispositivos móviles, por Regiones, por Campañas internas y más. |
-| **[!UICONTROL Filtro]** | Los filtros te permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puedes generar filtros de [!UICONTROL Personas] basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: personas de Facebook, una página de aterrizaje definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
+| **[!UICONTROL Filtro]** | Los filtros te permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar [!UICONTROL Personas] segmentos basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: personas de Facebook, una página de aterrizaje definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
 
-## Utiliza
+## Usar
 
 Para usar un panel de **[!UICONTROL Información rápida]**:
 
@@ -83,7 +83,7 @@ Selecciona tus bloques de creación
 
 * **[!UICONTROL Analizar]**: especifica una dimensión (naranja)
 * **[!UICONTROL por]**: especifica una métrica (verde)
-* **[!UICONTROL filtrar por]**:especifica un filtro (azul)
+* **[!UICONTROL segmentar por]** - especificar un segmento (azul)
 * **[!UICONTROL en]**: especifica un intervalo de fechas (púrpura).
 
 Debes seleccionar al menos una dimensión y una métrica para que la visualización funcione correctamente.
@@ -105,7 +105,7 @@ Selecciona **[!UICONTROL Borrar]** para borrar todos los campos de entrada.
 
    ![La tabla de forma libre que muestra la dimensión verticalmente y la métrica horizontalmente.](assets/quick-insights-output.png)
 
-   * Una tabla de forma libre con la dimensión (código de país) y métrica (sesiones), filtradas por sesiones web durante los últimos 12 meses.
+   * Una tabla de forma libre con la dimensión (código de país) y métrica (sesiones), segmentadas por sesiones web durante los últimos 12 meses.
 
    * Una visualización adjunta, en este caso un [gráfico de barras](/help/analysis-workspace/visualizations/bar.md). La visualización que se genera se basa en el tipo de datos agregados a la tabla. Cualquier dato basado en el tiempo (como [!UICONTROL Sesiones] por día/mes) tiene un [!UICONTROL gráfico de líneas] predeterminado. Cualquier dato no basado en el tiempo (como [!UICONTROL Sesiones] por [!UICONTROL dispositivo]) tiene el valor predeterminado de un [!UICONTROL gráfico de barras]. Puede cambiar el tipo de visualización haciendo clic en la flecha desplegable situada junto al tipo de visualización.
 
@@ -121,7 +121,7 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
   ![La notificación del panel Quick Insights se muestra después de hacer clic en el icono Ayuda.](assets/qibuilder4.png)
 
-* Puede analizar varias dimensiones y métricas, combinar o comparar filtros y especificar un rango de fechas:
+* Puede analizar varias dimensiones y métricas, combinar o comparar segmentos y especificar un intervalo de fechas:
 
   ![Generador de perspectivas rápidas](assets/qibuilder-result.png)
 
@@ -129,7 +129,7 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
    * Agregar más métricas **[!UICONTROL por]**: puedes agregar hasta dos métricas más. Consulta ➍ y ➎.
 
-   * **[!UICONTROL filtrar por]**: puedes agregar hasta dos filtros más. Por ejemplo, agrega Reservas como filtro y combínalo con los filtros Viajeros frecuentes y Viajeros por primera vez que compares. Consulta ➏, ➐ y ➑.
+   * **[!UICONTROL segmentar por]**: puede agregar hasta dos segmentos más. Por ejemplo, añada Reservas como segmento y combine ese segmento con los segmentos de Viajeros frecuentes y Viajeros por primera vez que compare. Consulta ➏, ➐ y ➑.
 
    * activado: puede especificar el rango de fechas. Consulta ➒.
 

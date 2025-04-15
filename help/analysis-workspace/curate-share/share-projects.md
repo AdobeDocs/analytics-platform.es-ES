@@ -5,7 +5,7 @@ title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 100fe0c9bf5dd1db78ae8188e8de1f8ea53123dc
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 62%
@@ -103,7 +103,7 @@ Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 
 1. (Condicional) Si comparte un solo proyecto, elija si desea habilitar las siguientes opciones al compartir el proyecto:
 
-   * **Compartir componentes del proyecto incrustados:** Comparte filtros, métricas calculadas e intervalos de fechas con todos los destinatarios. Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes del espacio de trabajo del destinatario. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
+   * **Compartir componentes del proyecto incrustados:** comparta segmentos, métricas calculadas e intervalos de fechas con todos los destinatarios. Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes del espacio de trabajo del destinatario. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
 
    * **Establecer como página de aterrizaje para destinatarios:** establece esta página como página de aterrizaje para destinatarios. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
 
@@ -147,7 +147,7 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 >
 >* Los proyectos con más de 50 visualizaciones expandidas no se pueden compartir con personas que no tengan acceso a Customer Journey Analytics.
 >
->* Los usuarios con los que compartes pueden ver los filtros que se aplicaron al proyecto durante la [revisión](curate.md).
+>* Los usuarios con los que compartes pueden ver cualquier segmento que se haya aplicado al proyecto durante la [depuración](curate.md).
 > 
 >* Los usuarios con los que comparte puede cambiar el intervalo de fechas del proyecto. El intervalo de fechas que ha establecido para el proyecto se muestra de forma predeterminada.
 >

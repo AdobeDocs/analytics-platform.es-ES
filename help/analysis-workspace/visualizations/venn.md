@@ -1,13 +1,13 @@
 ---
-description: La visualización Venn le permite arrastrar hasta tres filtros (de Componentes) y una métrica para elaborar un diagrama de Venn.
+description: La visualización Venn le permite arrastrar hasta tres segmentos (de Componentes) y una métrica para generar un diagrama de Venn.
 title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 24%
+ht-degree: 59%
 
 ---
 
@@ -30,11 +30,11 @@ _Este artículo documenta la visualización Venn en_ ![CustomerJourneyAnalytics]
 >[!ENDSHADEBOX]
 
 
-La visualización ![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** le permite arrastrar hasta tres filtros y una métrica (del panel Componentes) para generar un diagrama de Venn.
+La visualización ![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** le permite arrastrar hasta tres segmentos y una métrica (del panel Componentes) para generar un diagrama de Venn.
 
-![Visualización Venn que incluye tres filtros.](assets/venn.png)
+![Visualización Venn que incluye tres segmentos.](assets/venn.png)
 
-Puede pasar el ratón sobre los filtros para obtener más información sobre los porcentajes y más.
+Puede situarse sobre los segmentos para obtener más insight en porcentajes y más.
 
 Para generar una [!UICONTROL tabla de forma libre] a partir de la visualización [!UICONTROL Venn], seleccione el ![StatusOrange](/help/assets/icons/StatusOrange.svg) de color junto al encabezado **[!UICONTROL Venn]** y seleccione **[!UICONTROL Mostrar fuente de datos]**. Verá una tabla de forma libre con **[!UICONTROL datos Venn]** y los datos usados para crear la visualización [!UICONTROL Venn].
 
@@ -48,15 +48,15 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización Venn](https://video.tv.adobe.com/v/335798/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de Venn](https://video.tv.adobe.com/v/335798/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

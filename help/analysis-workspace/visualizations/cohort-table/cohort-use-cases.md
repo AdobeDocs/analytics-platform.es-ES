@@ -5,10 +5,10 @@ title: Casos de uso de análisis de cohorte
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 role: User
-source-git-commit: 388042e24a7b9d33ac88e05a68689308e6258339
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '973'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
@@ -44,11 +44,11 @@ Con [!UICONTROL Análisis de cohorte], podría ver, por ejemplo, que cualquier l
 
 No quiere perder clientes potenciales en el mes tres. Por lo tanto, se configura una campaña de correo electrónico diseñada para que salga a mediados del tercer mes para una muestra de usuarios. Ofrecer un cupón de 50 $ a los usuarios que aún no hayan actualizado.
 
-Vuelva a consultar los informes de análisis de cohorte unos meses más tarde. Para las cohortes formadas después del inicio de la campaña, la conversión a suscripciones de Creative Cloud de pago en el mes tres aumentó de un 4 % y 5 % a un 13 % y 14 %. Este aumento en la conversión resulta en cientos de miles de dólares por cohorte, para cada cohorte mensual que llega al mes tres a partir de ese momento.
+Vuelva a consultar los informes de análisis de cohorte unos meses más tarde. Para las cohortes formadas después del lanzamiento de la campaña, la conversión a suscripciones a Creative Cloud de pago en el mes tres aumentó de un 4 % y 5 % a un 13 % y 14 %. Este aumento en la conversión resulta en cientos de miles de dólares por cohorte, para cada cohorte mensual que llega al mes tres a partir de ese momento.
 
-## Caso de uso de filtros en una cohorte compleja
+## Caso de uso de segmentos de cohorte complejos
 
-Una gran cadena hotelera dirige sus promociones a varios grupos de clientes y realiza un seguimiento del rendimiento. Para identificar los mejores grupos de cohortes de usuarios a los que dirigirse, quieren crear grupos de cohortes muy específicos. Con los criterios aumentados de [!UICONTROL Inclusión] y [!UICONTROL Regreso] en las tablas de [!UICONTROL cohorte], la cadena de hoteles puede definir las agrupaciones de cohortes exactas con múltiples métricas y filtros. Por lo tanto, la cadena hotelera puede identificar grupos de clientes de bajo rendimiento para dirigirse a los clientes con promociones y ofertas para aumentar las reservas.
+Una gran cadena hotelera dirige sus promociones a varios grupos de clientes y realiza un seguimiento del rendimiento. Para identificar los mejores grupos de cohortes de usuarios a los que dirigirse, quieren crear grupos de cohortes muy específicos. Con los criterios aumentados de [!UICONTROL Inclusión] y [!UICONTROL Regreso] en las tablas de [!UICONTROL cohorte], la cadena de hoteles puede definir las agrupaciones de cohortes exactas, con múltiples métricas y segmentos. Por lo tanto, la cadena hotelera puede identificar grupos de clientes de bajo rendimiento para dirigirse a los clientes con promociones y ofertas para aumentar las reservas.
 
 ## Caso de uso de adopción de versión de una aplicación
 
@@ -56,12 +56,12 @@ Una gran compañía de seguros aumenta la participación de los clientes mediant
 
 ## Caso de uso de permanencia en Campaign
 
-Una empresa multimedia internacional utiliza campañas dirigidas para dirigir a los usuarios a sus distintas plataformas y así fomentar la participación. Los ingresos publicitarios por plataforma se basan en la participación de los clientes y la retención; por tanto, el éxito de las campañas es esencial para el éxito del negocio. Usan la nueva característica de cohorte [!UICONTROL Dimension personalizado] en las tablas de [!UICONTROL cohorte] para comparar varias campañas e identificar cuáles son las más efectivas a la hora de obtener y retener usuarios, y así aumentar la participación. De ese modo puede identificar qué aspectos hacen que una campaña tenga éxito y aplicarlos a las demás, y así aumentar la participación en las distintas plataformas.
+Una empresa multimedia internacional utiliza campañas dirigidas para dirigir a los usuarios a sus distintas plataformas y así fomentar la participación. Los ingresos publicitarios por plataforma se basan en la participación de los clientes y la retención; por tanto, el éxito de las campañas es esencial para el éxito del negocio. Usan la nueva característica de cohorte [!UICONTROL Dimension] personalizada en las tablas [!UICONTROL Cohorte] para comparar varias campañas e identificar cuáles son las más efectivas a la hora de obtener y retener usuarios para aumentar la participación. De ese modo puede identificar qué aspectos hacen que una campaña tenga éxito y aplicarlos a las demás, y así aumentar la participación en las distintas plataformas.
 
 ## Caso de uso de lanzamiento de productos
 
-Un gran minorista de ropa cuenta con muchos filtros específicos de clientes que generan gran parte de los ingresos. Se diseñan y crean productos específicos para cada uno de esos filtros. Cuando se produce un lanzamiento, la empresa quiere saber en qué medida el nuevo producto potencia las ventas en varias cohortes a lo largo del tiempo. Mediante la nueva configuración de [!UICONTROL tablas de latencia] de los [!UICONTROL análisis de cohortes], se puede analizar el comportamiento y los ingresos de un filtro de clientes dados antes y después del lanzamiento. Esta información permite identificar qué productos producen nuevos ingresos y cuáles no llegan a calar en los clientes.
+Un gran minorista de accesorios cuenta con muchos segmentos específicos de clientes que generan gran parte de los ingresos. Se diseñan y crean productos específicos para cada uno de esos segmentos. Cuando se produce un lanzamiento, la empresa quiere saber en qué medida el nuevo producto potencia las ventas en varias cohortes a lo largo del tiempo. Mediante la nueva configuración de [!UICONTROL tablas de latencia] de los [!UICONTROL análisis de cohortes], se puede analizar el comportamiento y los ingresos de un segmento de clientes dados antes y después del lanzamiento. Esta información permite identificar qué productos producen nuevos ingresos y cuáles no llegan a calar en los clientes.
 
-## Permanencia individual: caso de uso para los usuarios más fieles
+## Permanencia individual: caso de uso de los usuarios más fieles
 
-Una gran línea aérea deriva la mayor parte de su éxito e ingresos de los clientes fieles que repiten. En muchos casos, estos viajeros fieles representan la mayoría de los ingresos, por lo que conservarlos es esencial para el éxito a largo plazo. A menudo no es sencillo identificar a los clientes más fieles y consistentes. Sin embargo, con la nueva configuración de [!UICONTROL Cálculo móvil] en [!UICONTROL Análisis de cohorte], la aerolínea puede analizar los filtros de clientes fieles y averiguar cuáles repiten reservas un mes tras otro. La aerolínea también puede dirigirse a estos viajeros con recompensas y beneficios por su fidelidad. Además, cambiando el tipo de cohorte de retención a pérdida, la aerolínea puede identificar qué clientes no repiten reservas un mes tras otro, y así dirigirse a esos clientes con promociones. Por lo tanto, la aerolínea puede volver a interactuar con estos clientes y asegurarse de que sigan siendo clientes leales en el futuro.
+Una gran línea aérea deriva la mayor parte de su éxito e ingresos de los clientes fieles que repiten. En muchos casos, estos viajeros fieles representan la mayoría de los ingresos, por lo que conservarlos es esencial para el éxito a largo plazo. A menudo no es sencillo identificar a los clientes más fieles y consistentes. Sin embargo, gracias a la nueva configuración de [!UICONTROL Cálculo móvil] en el [!UICONTROL Análisis de cohorte], la aerolínea puede analizar los segmentos de clientes fieles y averiguar cuáles repiten reservas un mes tras otro. La aerolínea también puede dirigirse a estos viajeros con recompensas y beneficios por su fidelidad. Además, cambiando el tipo de cohorte de retención a pérdida, la aerolínea puede identificar qué clientes no repiten reservas un mes tras otro, y así dirigirse a esos clientes con promociones. Por lo tanto, la aerolínea puede volver a interactuar con estos clientes y asegurarse de que sigan siendo clientes leales en el futuro.

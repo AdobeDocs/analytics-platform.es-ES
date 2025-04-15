@@ -7,7 +7,7 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: a9ad08ea053b1213ac98d3e77be3d4816c0999bf
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 3%
@@ -31,7 +31,7 @@ El uso de Data Insights Agent para responder preguntas centradas en los datos en
 | **Generar y actualizar visualizaciones** | Genera una tabla de forma libre y una visualización asociada (como una línea, una barra, un anillo, etc.).<p>Ejemplo: *¿Cuál es el beneficio entre SKU de febrero a mayo?* |
 | **Tipos de visualización compatibles** | <ul><li>Línea</li><li>De varias líneas</li><li>Tabla de forma libre</li><li>Barra</li><li>Anillo</li><li>Número de resumen</li></ul> |
 | **Detección de mensajes fuera del ámbito** | Si envía un mensaje que está fuera de ámbito, como &quot;exportar este proyecto&quot;, Data Insights Agent le responde indicando que la pregunta está fuera de ámbito. |
-| **aclarando preguntas** | Si hace una pregunta que no tiene contexto suficiente para que Data Insights Agent responda o es demasiado genérica, Data Insights Agent responde con una pregunta aclaratoria o con opciones sugeridas. Ejemplos: <p>**Componentes**<ul><li>Métrica: *¿A qué métrica de &quot;ingresos&quot; se refería?*</li><li>Dimension: *¿En cuál de las siguientes &quot;regiones&quot; desea centrarse?*</li><li>Filtro: *¿Qué filtro de &quot;cuenta&quot; quería aplicar?*</li><li>Intervalo de fechas: *Por &quot;mes pasado&quot;, ¿se refería al último mes completo o a los últimos 30 días?*</li></ul>**elementos de Dimension**: ¿a qué &quot;nombre de tienda&quot; se refería? (Por ejemplo, Almacenar #5274, Almacenar #2949, etc.). |
+| **aclarando preguntas** | Si hace una pregunta que no tiene contexto suficiente para que Data Insights Agent responda o es demasiado genérica, Data Insights Agent responde con una pregunta aclaratoria o con opciones sugeridas. Ejemplos: <p>**Componentes**<ul><li>Métrica: *¿A qué métrica de &quot;ingresos&quot; se refería?*</li><li>Dimension: *¿En cuál de las siguientes &quot;regiones&quot; desea centrarse?*</li><li>Filtro: *¿Qué segmento de &quot;cuenta&quot; quería aplicar?*</li><li>Intervalo de fechas: *Por &quot;mes pasado&quot;, ¿se refería al último mes completo o a los últimos 30 días?*</li></ul>**elementos de Dimension**: ¿a qué &quot;nombre de tienda&quot; se refería? (Por ejemplo, Almacenar #5274, Almacenar #2949, etc.). |
 | **Giro múltiple** | Data Insights Agent responde a una solicitud con el contexto de cualquier solicitud anterior, lo que permite a los usuarios actualizar las visualizaciones y hacer preguntas de seguimiento. Ejemplo: <ul><li>Preguntar 1: *Eventos de tendencia de marzo.*</li><li>Mensaje 2: *Mostrarme los datos de marzo a abril*</li></ul> |
 | **Verificabilidad** | La verificabilidad y corrección de los datos se puede confirmar mediante la tabla de forma libre y la visualización de datos generadas. Por ejemplo, si un usuario pregunta *Tendencia de pedidos el mes pasado*, puede confirmar que la métrica (&quot;pedidos&quot;) y el intervalo de fechas (&quot;el mes pasado&quot;) correctos se seleccionaron en el panel, la visualización de datos y la tabla de forma libre recién generados. |
 | **Comentarios** | <ul><li>Pulgares hacia arriba</li><li>Pulgar hacia abajo</li><li>Indicador</li></ul> |
@@ -167,7 +167,7 @@ Para obtener los mejores resultados, tenga en cuenta las siguientes directrices:
 
 * Sea específico: incluya términos exactos para reducir la respuesta. A continuación se muestra un ejemplo de un mensaje específico: &quot;Ventas del mes pasado en California&quot;
 
-* Utilice métricas y filtros claros: Añadir métricas específicas (como &quot;Ingresos&quot;), dimensiones (como &quot;nombre del sitio web&quot;), filtros (como &quot;usuarios de iPhone&quot;) e intervalos de fechas (como &quot;últimos tres meses&quot;) ayuda a Data Insights Agent a centrarse en los datos correctos.
+* Utilice métricas y segmentos claros: Añadir métricas específicas (como &quot;Ingresos&quot;), dimensiones (como &quot;nombre del sitio web&quot;), segmentos (como &quot;usuarios de iPhone&quot;) e intervalos de fechas (como &quot;últimos tres meses&quot;) ayuda a Data Insights Agent a centrarse en los datos correctos.
 
 * Formule preguntas directas: La formulación de preguntas directamente facilita que Data Insights Agent proporcione perspectivas claras y relevantes. A continuación se muestra un ejemplo de cómo hacer una pregunta directa en un mensaje: &quot;¿Cuál es el ingreso promedio por categoría de producto este año?&quot;
 
@@ -193,7 +193,7 @@ Tenga en cuenta lo siguiente al evaluar una respuesta desde Data Insights Agent:
 
 * Visualización/gráfico: evalúe la visualización. ¿Es la visualización adecuada o esperada para su pregunta, o habría esperado una visualización diferente?
 
-* Tabla de forma libre: Evalúe la tabla de forma libre. ¿Son correctos los datos de la tabla de forma libre? ¿Se desglosan los datos donde se solicitan? ¿Los filtros aplicados son los solicitados o los esperados?
+* Tabla de forma libre: Evalúe la tabla de forma libre. ¿Son correctos los datos de la tabla de forma libre? ¿Se desglosan los datos donde se solicitan? ¿Los segmentos aplicados son los solicitados o los esperados?
 
 * Mensaje de error / Fuera de ámbito: si se proporciona un mensaje de error genérico que indica que la pregunta está fuera de ámbito, proporcione comentarios sobre si cree que el mensaje fuera de ámbito es adecuado, en función de su pregunta. ¿El mensaje estaba realmente en el ámbito?
 

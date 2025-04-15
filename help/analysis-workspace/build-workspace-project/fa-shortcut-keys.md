@@ -5,8 +5,8 @@ feature: Workspace Basics
 title: Cómo usar las teclas de acceso directo de Workspace
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: a757ea4fc9bf8b13a8ce3001cf8639245d213e1c
-workflow-type: ht
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 | Crear una alerta | **[!UICONTROL *cmd+mayús+a *]** | **[!UICONTROL *ctrl+mayús+a *]** |
 | Crear métrica calculada | **[!UICONTROL *cmd+shift+c *]** | **[!UICONTROL *ctrl+mayús+c *]** |
 | Crear un intervalo de fechas | **[!UICONTROL *cmd+mayús+d *]** | **[!UICONTROL *ctrl+mayús+d *]** |
-| Creación de un filtro | **[!UICONTROL *cmd+mayús+e *]** | **[!UICONTROL *ctrl+mayús+e *]** |
+| Creación de segmentos | **[!UICONTROL *cmd+mayús+e *]** | **[!UICONTROL *ctrl+mayús+e *]** |
 | Borrar todo | **[!UICONTROL *alt + w *]** | **[!UICONTROL *opt+w *]** |
 | Copiar | **[!UICONTROL *cmd+c *]** | **[!UICONTROL *ctrl + c *]** |
 | Rehacer | **[!UICONTROL *cmd+mayús+z *]** | **[!UICONTROL *ctrl+mayús+z *]** |

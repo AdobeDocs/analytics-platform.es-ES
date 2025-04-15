@@ -1,20 +1,20 @@
 ---
-description: Puede crear filtros a partir de un punto de contacto, añadir filtros como punto de contacto y comparar flujos de trabajo clave entre diversos filtros en Analysis Workspace.
-keywords: visitas en el orden previsto y filtros;filtros en el análisis de visitas en el orden previsto;comparar filtros en visitas en el orden previsto
-title: Aplicación de filtros en un análisis de visitas en orden previsto
+description: Puede crear segmentos a partir de un punto de contacto, añadir segmentos como punto de contacto y comparar flujos de trabajo clave entre diversos segmentos en Analysis Workspace.
+keywords: abandonos y segmentos;segmentos en el análisis de abandonos;comparar segmentos en abandonos
+title: Aplicación de segmentos en el análisis de abandonos
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 43%
+ht-degree: 36%
 
 ---
 
-# Aplicación de filtros en un análisis de visitas en orden previsto
+# Aplicación de segmentos en el análisis de abandonos
 
-Puede crear filtros a partir de un punto de contacto, añadir filtros como punto de contacto y comparar flujos de trabajo clave entre diversos filtros en Analysis Workspace.
+Puede crear segmentos a partir de un punto de contacto, añadir filtros como punto de contacto y comparar flujos de trabajo clave entre diversos filtros en Analysis Workspace.
 
 >[!IMPORTANT]
 >

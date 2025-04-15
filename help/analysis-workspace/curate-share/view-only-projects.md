@@ -5,10 +5,10 @@ title: Proyectos de solo de vista
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 79%
+ht-degree: 70%
 
 ---
 
@@ -23,11 +23,11 @@ Puede compartir proyectos como “Solo consulta” a destinatarios a través del
 Las interacciones desactivadas en un proyecto de Solo consulta incluyen:
 
 * Panel izquierdo oculto
-* Intervalo de fechas del calendario del panel. Nota: Si desea otorgar el control del calendario a los destinatarios, agregue un [filtro desplegable con intervalos de fechas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es).
-* Filtro improvisado
+* Intervalo de fechas del calendario del panel. Nota: Si desea otorgar el control del calendario a los destinatarios, agregue un [segmento desplegable con intervalos de fechas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es).
+* Segmentación de forma libre
 * N.º de filas visibles improvisado
 * Configuración de fila, columna o visualización improvisada
-* Filtros del panel
+* Segmentos de panel
 * Menús Editar, Insertar y Componente
 * Sugerencias de Workspace
 
@@ -39,5 +39,5 @@ Algunas de las interacciones habilitadas más notables en un proyecto de Solo co
 | --- | --- |
 | Tablas improvisadas | <ul><li>Paginación y ordenación</li><li>Pasar el cursor por las opciones</li><li>Seleccionar celdas que actualizan las visualizaciones vinculadas</li><li>Haga clic con el botón derecho > Obtener vínculo de visualización</li><li>Haga clic con el botón derecho > Copiar al portapapeles</li></ul> |
 | Visualizaciones | <ul><li>Hacer clic para activar o desactivar la leyenda</li><li>Pasar el cursor por las opciones</li><li>Haga clic con el botón derecho > Obtener vínculo de visualización</li><li>Contraer/expandir</li><li>Flujo: expandir nodos de flujo</li><li>Mapa: zoom</li></ul> |
-| Paneles | <ul><li>Filtros desplegables interactivos</li><li>Haga clic con el botón derecho > Obtener vínculo del panel</li><li>Contraer/expandir</li></ul> |
+| Paneles | <ul><li>Segmentos desplegables interactivos</li><li>Haga clic con el botón derecho > Obtener vínculo del panel</li><li>Contraer/expandir</li></ul> |
 | Proyecto | <ul><li>Inspección de todos los iconos de información</li><li>Menú Proyecto: Nuevo, Abrir, Definir como página principal, Actualizar, Descargar CSV/PDF, Información y configuración limitadas del proyecto</li><li>Menú Compartir: Obtener vínculo del proyecto, Enviar archivo ahora</li><li>Menú Ayuda: Todas las acciones excepto Sugerencias y opciones de Debugger</li></ul> |

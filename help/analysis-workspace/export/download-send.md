@@ -1,35 +1,35 @@
 ---
 description: Puede descargar datos de Analysis Workspace copiándolos, o en los formatos PDF y CSV.
-title: Descargar datos del Customer Journey Analytics
+title: Descargar datos de Customer Journey Analytics
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: cd4722cc2eb95d7d5e4000361c8f96a30a3589e9
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
-# Descargar datos del Customer Journey Analytics
+# Descargar datos de Customer Journey Analytics
 
-Puede descargar datos del Customer Journey Analytics en su estación de trabajo personal. Esto puede realizarse en forma de datos copiados, CSV o PDF. Normalmente, se prefiere un PDF si desea que las visualizaciones se incluyan en el archivo descargado. Se prefieren los datos CSV y copiados si simplemente desea datos de texto sin formato.
+Puede descargar datos de Customer Journey Analytics en su estación de trabajo personal. Esto puede realizarse en forma de datos copiados, CSV o PDF. Normalmente, se prefiere una PDF si desea que las visualizaciones se incluyan en el archivo descargado. Se prefieren los datos CSV y copiados si simplemente desea datos de texto sin formato.
 
 También hay disponibles otros métodos para exportar datos de Customer Journey Analytics, como se describe en [Descripción general de la exportación](/help/analysis-workspace/export/export-project-overview.md).
 
-## Descargar como CSV o como PDF {#download-project}
+## Descargar como CSV o PDF {#download-project}
 
 Tenga en cuenta lo siguiente al descargar proyectos:
 
 * Al descargar proyectos como CSV o PDF, el proyecto se puede guardar o no guardar cuando se solicita una descarga de proyecto. Sin embargo, solo los proyectos guardados pueden [programarse](/help/analysis-workspace/export/t-schedule-report.md).
 
-* Al descargar proyectos como PDF:
-   * Las descargas pueden tardar varios minutos en exportarse, ya que el proyecto se vuelve a ejecutar en los servidores de Adobe antes de procesarse en formato de PDF. Se recomienda no abandonar el proyecto hasta que el PDF se descargue en el explorador. Sin embargo, puede seguir realizando cambios en el proyecto mientras espera. Si un PDF tarda más de 5 minutos en procesarse, se le pedirá que lo envíe por correo electrónico.
+* Al descargar proyectos as a PDF:
+   * Las descargas pueden tardar varios minutos en exportarse, ya que el proyecto se vuelve a ejecutar en los servidores de Adobe antes de procesarse en formato PDF. Se recomienda no abandonar el proyecto hasta que el PDF se descargue en el explorador. Sin embargo, puede seguir realizando cambios en el proyecto mientras espera. Si un PDF tarda más de 5 minutos en procesarse, se le pedirá que lo envíe por correo electrónico.
    * Las descargas se representan como una sola página sin paginación aplicada.
-   * Las representaciones de PDF contienen lo que hay en la página en Workspace. Si un proyecto tiene paneles y visualizaciones de tamaño personalizado, deberá cambiarlos a tamaño automático (mediante el botón que hay en la esquina superior derecha) para que no se trunque el contenido.
+   * Las renderizaciones de PDF contienen lo que hay en la página en Workspace. Si un proyecto tiene paneles y visualizaciones de tamaño personalizado, deberá cambiarlos a tamaño automático (mediante el botón que hay en la esquina superior derecha) para que no se trunque el contenido.
    * Los [hipervínculos](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) que existen en las tablas de forma libre no funcionan en el PDF descargado.
 
-Para descargar un proyecto como archivo CSV o de PDF:
+Para descargar un proyecto como archivo CSV o PDF:
 
 1. Realice una de las siguientes acciones, en función del formato en el que desee que esté la descarga:
 
@@ -47,7 +47,7 @@ Para descargar un proyecto como archivo CSV o de PDF:
 
 ## Copiar al portapapeles (tecla de acceso directo: Ctrl + C) {#copy-data}
 
-La opción **[!UICONTROL Copiar al portapapeles]**, que aparece al hacer clic con el botón derecho, le permite copiar rápidamente datos del Customer Journey Analytics de Workspace y pegarlos en una herramienta de terceros.
+La opción **[!UICONTROL Copiar al portapapeles]**, que aparece al hacer clic con el botón derecho, le permite copiar rápidamente datos de Customer Journey Analytics de Workspace y pegarlos en una herramienta de terceros.
 
 * Si desea que se copie la tabla mostrada, haga clic con el botón derecho en el encabezado de la tabla y seleccione **Copiar datos al portapapeles**.
 * Si desea que se copie un subconjunto de datos, realice una selección en la tabla y, a continuación, haga clic con el botón derecho > **Copiar selección al portapapeles**.
@@ -63,7 +63,7 @@ La opción **[!UICONTROL Copiar al portapapeles]**, que aparece al hacer clic co
 
 La opción **[!UICONTROL Descargar datos como CSV]** del botón secundario le permite descargar una tabla de datos de Customer Journey Analytics o la fuente de datos de cualquier visualización como CSV.
 
-* Desde el encabezado de cualquier tabla o visualización, haga clic con el botón derecho y seleccione **[!UICONTROL Descargar datos como CSV]**. Esto descarga los datos del Customer Journey Analytics mostrados en la tabla o la fuente de datos subyacente para una visualización como CSV.
+* Desde el encabezado de cualquier tabla o visualización, haga clic con el botón derecho y seleccione **[!UICONTROL Descargar datos como CSV]**. Esto descarga los datos de Customer Journey Analytics mostrados en la tabla o la fuente de datos subyacente para una visualización como CSV.
 
   >[!NOTE]
   >
@@ -80,7 +80,7 @@ Si desea analizar más de las 400 filas de datos visibles en una tabla, haga cli
 
 >[!TIP]
 >
-> Si la dimensión supera los 50 000 elementos, descargue el archivo con diferentes métricas de ordenación aplicadas o aplique un filtro. Por ejemplo, ordenar de forma descendente por Visitas en una descarga y, a continuación, ascendente por Visitas en una segunda descarga. Esta sugerencia puede ayudarle a recuperar elementos de mayor longitud.
+> Si la dimensión supera los 50 000 elementos, descargue el archivo con diferentes métricas de ordenación aplicadas o aplique un segmento. Por ejemplo, ordenar de forma descendente por Visitas en una descarga y, a continuación, ascendente por Visitas en una segunda descarga. Esta sugerencia puede ayudarle a recuperar elementos de mayor longitud.
 
 Puede realizar varias tareas dentro del proyecto e incluso desplazarse a un nuevo proyecto de Workspace en la misma pestaña mientras la descarga está en curso. La descarga se detendrá si abre una nueva pestaña del explorador. La descarga se cancelará si deja Workspace por completo o si cierra la pestaña del explorador.
 
@@ -90,7 +90,7 @@ Puede realizar varias tareas dentro del proyecto e incluso desplazarse a un nuev
 
 Las funciones de la tabla se aplicarán al archivo descargado de la siguiente manera:
 
-* Todos los filtros del panel se aplican como filtros.
+* Todos los segmentos del panel se aplican como filtros.
 * Los desgloses **superiores** a la dimensión seleccionada en la tabla se aplican como filtros encima de cada columna.
 * Los desgloses **inferiores** a las dimensiones seleccionadas en la tabla se eliminan.
 
@@ -110,7 +110,7 @@ Si solicita más de una descarga a la vez, recibirá una notificación avisando 
 
 ## Descarga de datos confidenciales {#sensitive}
 
-Si la **[!UICONTROL Aplicar descarga]** [directiva de control de datos](/help/data-views/data-governance.md) está activada en la vista de datos sobre la que está informando, cualquier descarga (como enviar por correo electrónico o compartir archivos de PDF) de proyectos de Workspace hará un hash de los campos de datos etiquetados como confidenciales. Puede seguir analizando estos campos en el espacio de trabajo, pero, si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como vacíos en el archivo .pdf o .csv.
+Si la **[!UICONTROL Aplicar descarga]** [directiva de control de datos](/help/data-views/data-governance.md) está activada en la vista de datos sobre la que crea informes, cualquier descarga (como enviar por correo electrónico o compartir archivos PDF) de proyectos de Workspace hará un hash de los campos de datos etiquetados como confidenciales. Puede seguir analizando estos campos en el espacio de trabajo, pero, si intenta enviar un correo electrónico o compartir un proyecto de otro modo, los campos bloqueados aparecerán como vacíos en el archivo .pdf o .csv.
 
 Si algún campo de datos etiquetado como confidencial se incluye en la [!UICONTROL vista de datos], la opción para seleccionar y copiar datos de la pantalla está restringida para todos los datos de la [!UICONTROL vista de datos].
 

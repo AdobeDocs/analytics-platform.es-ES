@@ -4,10 +4,10 @@ title: Técnicas estadísticas utilizadas en la detección de anomalías
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ En función de la granularidad de fecha utilizada en el informe, se utilizan 3 t
 
 ## Detección de anomalías para la granularidad diaria
 
-Para los informes de granularidad diaria, el algoritmo considera distintos factores importantes para ofrecer los resultados más precisos posibles. En primer lugar, el algoritmo determina qué tipo de modelo se aplica en función de los datos disponibles que seleccionamos entre uno de los dos casos: un modelo basado en series temporales o un modelo de detección de externos (llamado filtrado funcional).
+Para los informes de granularidad diaria, el algoritmo considera distintos factores importantes para ofrecer los resultados más precisos posibles. En primer lugar, el algoritmo determina qué tipo de modelo se aplica en función de los datos disponibles que seleccionamos entre una de las dos clases: un modelo basado en series temporales o un modelo de detección de externos (llamado segmentación funcional).
 
 El modelo de selección de series temporales se basa en las siguientes combinaciones por tipo de error, tendencia o temporada (ETS) como se describe en [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). En concreto, el algoritmo prueba las siguientes combinaciones:
 
@@ -29,7 +29,7 @@ El modelo de selección de series temporales se basa en las siguientes combinaci
 1. MNA (error multiplicativo, sin tendencia, temporada acumulativa)
 1. AAN (error acumulativo, tendencia acumulativa, sin temporada)
 
-Las pruebas de idoneidad del algoritmo de cada una de ellas mediante la selección de la que tiene mejor error de porcentaje absoluto promedio (MAPE). Si el MAPE del mejor modelo de serie temporal es superior al 15 % sin embargo, se aplica el filtrado funcional. Normalmente, los datos con un grado de repetición alto (como semana a semana o mes a mes) son la mejor opción con un modelo de serie temporal.
+Las pruebas de idoneidad del algoritmo de cada una de ellas mediante la selección de la que tiene mejor error de porcentaje absoluto promedio (MAPE). Sin embargo, si el MAPE del mejor modelo de serie temporal es mayor del 15 %, se aplica la segmentación funcional. Normalmente, los datos con un grado de repetición alto (como semana a semana o mes a mes) son la mejor opción con un modelo de serie temporal.
 
 Tras la selección de modelo, a continuación, el modelo ajusta los resultados en función de los festivos y las temporadas año a año. Durante las vacaciones, el algoritmo comprueba si alguno de los festivos está presente en el rango de fechas de la generación de informes:
 

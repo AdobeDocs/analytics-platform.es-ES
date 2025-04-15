@@ -1,13 +1,13 @@
 ---
-description: La visualización Anillo muestra los datos como partes o filtros de un todo.
+description: La visualización Anillo muestra los datos como partes o segmentos de un todo.
 title: Anillo
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 25%
+ht-degree: 47%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 25%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de anillos en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Anillo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización Anillo en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Anillo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 
-Similar a un gráfico circular, la visualización ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** muestra los datos como partes o filtros de un todo. Utilice una visualización de anillo para comparar porcentajes de un total, normalmente con un número reducido de elementos.
+Similar a un gráfico circular, la visualización ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** muestra los datos como partes o segmentos de un todo. Utilice una visualización de anillo para comparar porcentajes de un total, normalmente con un número reducido de elementos.
 
-![Gráfico de anillo que muestra los datos como partes o filtros de un todo.](assets/donut.png)
+![Gráfico de anillo que muestra los datos como partes o segmentos de un todo.](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar una visualización de anillo](https://video.tv.adobe.com/v/334309/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Añadir una visualización de anillo](https://video.tv.adobe.com/v/334309/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -46,8 +46,8 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar una visu
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

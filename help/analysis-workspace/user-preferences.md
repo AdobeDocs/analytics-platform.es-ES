@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 827ab36b27eee1b0af46ff1c653f13b1accfe105
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '3632'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -166,8 +166,8 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Alinear fechas | Seleccione esta opción para alinear fechas de cada columna con todas a partir de la misma fila. |
 | **[Columna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
 | | Justificar el texto del encabezado | Permite justificar el texto del encabezado en las tablas de forma libre para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. Esto resulta útil en el procesamiento de archivos .pdf y en las métricas con nombres largos. Está activada de forma predeterminada. |
-| | Mostrar totales | Este total suele ser igual o un subconjunto del [!UICONTROL Total general]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
-| | Mostrar totales generales | Este total representa todos los eventos que se han recopilado, a veces denominados “total de vista de datos”. Cuando se aplica un filtro en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todos los eventos que coincidan con los criterios de filtro. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
+| | Mostrar totales | Este total suele ser igual o un subconjunto del [!UICONTROL Total general]. Refleja cualquier segmento de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
+| | Mostrar totales generales | Este total representa todos los eventos que se han recopilado, a veces denominados “total de vista de datos”. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todos los eventos que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Mostrar minigráfico | Muestre u oculte gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas. |
 | | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila dividido por el total de visualizaciones de la página para la columna. Nota: Se pueden mostrar porcentajes superiores al 100 % para mejorar la precisión. También se ha he incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. |
