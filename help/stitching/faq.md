@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 1a003b38ef26eb811b19cd091c6e089f33ddb6f6
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1918'
 ht-degree: 28%
 
 ---
@@ -18,7 +18,7 @@ Estas son algunas de las preguntas más frecuentes sobre la vinculación:
 
 ## Desplazamiento entre canales
 
-+++ ¿Cómo puedo usar la vinculación para ver cómo se mueve la gente de un canal a otro?
++++ ¿Cómo puedo usar la costura para ver cómo las personas se mueven de una canal a otra?
 
 Puede utilizar una visualización de flujo con la dimensión ID de conjunto de datos.
 
@@ -53,25 +53,25 @@ Consulte el caso de uso [Dispositivos compartidos](/help/use-cases/stitching/sha
 
 ## Muchos ID persistentes
 
-+++ ¿Cómo gestiona la vinculación las situaciones en las que una sola persona tiene muchos ID persistentes?
++++ ¿Cómo gestiona la costura situaciones en las que una sola persona tiene muchos ID persistentes?
 
-En algunas situaciones, un usuario individual puede asociarse con muchos ID persistentes. Un ejemplo es una persona que borra las cookies del explorador con frecuencia o que utiliza el modo privado/de incógnito del explorador.
+En algunas situaciones, un usuario individual puede asociarse con muchos ID persistentes. Un ejemplo es el de una persona que borra frecuentemente las cookies de explorador o utiliza el modo privado o incógnito del explorador.
 
-Para la vinculación basada en el campo, el número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de Customer Journey Analytics para crear vínculos entre los distintos dispositivos.
+Para la vinculación basada en el campo, el número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a cualquier número de dispositivos sin afectar la capacidad de Customer Journey Analytics para coser a través de dispositivos.
 
 Para la vinculación basada en gráficos, una sola persona puede tener muchos ID persistentes en el gráfico de identidades. La vinculación basada en gráficos utiliza el ID persistente en función del área de nombres especificada. En caso de que haya ID más persistentes para el mismo área de nombres, se utiliza el primer ID persistente lexicográfico.
 
 +++
 
-## Proceso de vinculación
+## Proceso de costura
 
 +++ Tras contactar con el equipo de cuentas de Adobe y proporcionarle la información deseada, ¿cuánto tarda en estar disponible el conjunto de datos cuya clave se ha vuelto a generar?
 
-La vinculación en tiempo real está disponible aproximadamente una semana después de que Adobe active la vinculación. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
+La costura en vivo está disponible aproximadamente una semana después de Adobe Systems permite la costura. La disponibilidad del relleno depende de la cantidad de datos existentes. Los conjuntos de datos pequeños (menos de 1 millón de eventos por día) suelen tardar un par de días, mientras que los grandes conjuntos de datos (1000 millones de eventos por día) pueden tardar una semana o más.
 
 +++
 
-## Análisis entre dispositivos y análisis entre canales
+## análisis de dispositivos cruzada frente a análisis en canales múltiples
 
 +++ ¿Cuál es la diferencia entre el análisis entre dispositivos (una función tradicional de Analytics) y el análisis entre canales?
 
@@ -96,22 +96,22 @@ Para ilustrar, imagine los siguientes datos para identidades, eventos antes y de
 
 | Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
 |---|---|---|---|---|---|---|
-|  | 1 | ts1 | 123 | ecid | Bob | CustId |
+|  | 1 | TS1 | 123 | ecid | Bob | CustId |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Eventos conjunto de datos | Identificación | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
 |---|---|---|---|---|---|---|
-| | 1 | ts0 | 123 | ecid | | |
-| | 2 | ts1 | 123 | ecid | Bob | CustId |
-| | 3 | ts2 | 123 | ecid | Alex | CustId |
+| | 1 | TS0 | 123 | ecid | | |
+| | 2 | TS1 | 123 | ECID | Bob | CustId |
+| | 3 | TS2 | 123 | ECID | Alex | CustId |
 
 
-| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
+| Conjunto de datos vinculado | Identificación | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
 |---|---|---|---|---|---|---|---|---|
-| | 1 | ts0 | 123 | ecid | | | Bob | CustId |
+| | 1 | TS0 | 123 | ECID | | | Bob | CustId |
 | | 2 | ts1 | 123 | ecid | Bob | CustId | Bob | CustId |
-| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
+| | 3 | TS2 | 123 | ECID | Alex | CustId | Alex | CustId |
 
 
 **Proceso actual para solicitud de privacidad**
@@ -120,46 +120,46 @@ Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se 
 
 | Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
 |:---:|---|---|---|---|---|---|
-| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
-|  | 2 | ts2 | 123 | ecid | Alex | CustId |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ECID~~ | ~~Bob~~ | ~~ID de cliente~~ |
+|  | 2 | TS2 | 123 | ecid | Alex | CustId |
 
 
-| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Conjunto de datos de eventos | Identificación | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
 |:---:|---|---|---|---|---|---|
-| | 1 | ts0 | 123 | ecid | | |
-| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
-| | 3 | ts2 | 123 | ecid | Alex | CustId |
+| | 1 | TS0 | 123 | ecid | | |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~TS1~~ | ~~123~~ | ~~ECID~~ | ~~Bob~~ | ~~ID de cliente~~ |
+| | 3 | TS2 | 123 | ECID | Alex | CustId |
 
 
 | Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **Alex** | CustId |
-| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ | ~~Bob~~ | ~~ID de cliente~~ |
-| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ECID~~ | ~~Bob~~ | ~~ID de cliente~~ | ~~Bob~~ | ~~ID de cliente~~ |
+| | 3 | TS2 | 123 | ECID | Alex | CustId | Alex | CustId |
 
 
-**Nuevo proceso para solicitud de privacidad**
+**Nuevo proceso para la solicitud de privacidad**
 
 Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se eliminan las filas con entradas tachadas. Otros eventos se vuelven a vincular con el ID persistente. Por ejemplo, el primer ID vinculado en el conjunto de datos vinculado se actualiza a **123**.
 
 | Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
 |:---:|---|---|---|---|---|---|
-| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
-|  | 2 | ts2 | 123 | ecid | Alex | CustId |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~TS1~~ | ~~123~~ | ~~ECID~~ | ~~Bob~~ | ~~ID de cliente~~ |
+|  | 2 | TS2 | 123 | ECID | Alex | CustId |
 
 
-| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Conjunto de datos de eventos | Identificación | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
 |:---:|---|---|---|---|---|---|
-| | 1 | ts0 | 123 | ecid | | |
-| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
-| | 3 | ts2 | 123 | ecid | Alex | CustId |
+| | 1 | TS0 | 123 | ECID | | |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~TS1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
+| | 3 | TS2 | 123 | ECID | Alex | CustId |
 
 
-| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
+| Conjunto de datos vinculado | Id | timestamp | ID persistente | Espacio de nombres persistente | ID transitoria | Espacio de nombres transitorio | ID vinculado | Área de nombres vinculada |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **123** | ecid |
-| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ | ~~Bob~~ | ~~ID de cliente~~ |
-| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
+| ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~TS1~~ | ~~123~~ | ~~ECID~~ | ~~Bob~~ | ~~ID de cliente~~ | ~~Bob~~ | ~~ID de cliente~~ |
+| | 3 | TS2 | 123 | ecid | Alex | CustId | Alex | CustId |
 
 +++
 
@@ -186,14 +186,14 @@ Tenga cuidado con el &quot;colapso de persona&quot;, que se produce cuando se ap
 | 1 | 2023-05-12 12:01 | 123 | - | **Cory** |
 | 2 | 2023-05-12 12:02 | 123 | Cory | **Cory** |
 | 3 | 2023-05-12 12:03 | 456 | Indefinido | **Sin definir** |
-| 4 | 2023-05-12 12:04 | 456 | - | **Sin definir** |
+| 4 | 2023-05-12 12:04 | 456 | - | **Indefinido** |
 | 5 | 2023-05-12 12:05 | 789 | Indefinido | **Sin definir** |
 | 6 | 2023-05-12 12:06 | 012 | Indefinido | **Sin definir** |
 | 7 | 2023-05-12 12:07 | 012 | - | **Sin definir** |
 | 8 | 2023-05-12 12:03 | 789 | Indefinido | **Sin definir** |
 | 9 | 2023-05-12 12:09 | 456 | - | **Sin definir** |
 | 10 | 2023-05-12 12:02 | 123 | - | **Cory** |
-| | | **4 dispositivos** | **2 personas**:<br/>Se perdieron los eventos 1, 4, 7, 9, 10 | **2 personas**:<br/>Cory, sin autenticar (se ha contraído a una persona) |
+| | | **4 dispositivos** | **2 personas**:<br/>Eventos 1, 4, 7, 9, 10 abandonados | **2 personas**:<br/>Cory, sin autenticar (se ha contraído a una persona) |
 
 +++
 
@@ -207,17 +207,17 @@ Ciertas métricas en Customer Journey Analytics son similares a las métricas en
 | ----- | ----- | ----- | ----- |
 | **Personas** = Recuento de ID de persona diferentes donde el ID vinculado se elige como ID de persona. **Las personas** pueden ser superiores o inferiores a los **visitantes únicos** en Adobe Analytics tradicional, según el resultado del proceso de identificación entre dispositivos. | **Personas** = Recuento de ID de persona diferentes según la columna seleccionada como ID de persona. **Personas** en los conjuntos de datos del conector de origen de Analytics es similar a **Visitantes únicos** en la versión tradicional de Adobe Analytics si `endUserIDs._experience.aaid.id` se usa como ID de persona en Customer Journey Analytics. | **Visitantes únicos** = Recuento de ID de visitantes diferentes. **Visitantes únicos** pueden no ser los mismos que el recuento de **ECID** distintos. | Consulte [Personas](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=es). |
 | **Sesiones**: se define en función de la configuración de sesiones en la vista de datos de Customer Journey Analytics. El proceso de identificación entre dispositivos puede combinar sesiones individuales de varios dispositivos en una sola sesión. | **Sesiones**: se define en función de la configuración de sesiones especificada en la vista de datos de Customer Journey Analytics. | **Visitas**: consulte [Visitas](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es). | **Visitas**: se define en función de la configuración de sesiones especificada en el [grupo de informes virtuales de CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=es). |
-| **Eventos** = recuento de filas en los datos enlazados en Customer Journey Analytics. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. Sin embargo, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con un ID persistente en blanco. | **Eventos** = recuento de filas en los datos no enlazados en Customer Journey Analytics. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. Sin embargo, tenga en cuenta que si algún evento tiene un ID de persona en blanco en los datos no enlazados en el lago de datos de Experience Platform, estos eventos no se incluyen en Customer Journey Analytics. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). |
+| **Eventos** = recuento de filas en los datos enlazados en Customer Journey Analytics. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. Sin embargo, tenga en cuenta las preguntas más frecuentes anteriores sobre las filas con ID persistente en blanco. | **Eventos** = recuento de filas en los datos no enlazados en Customer Journey Analytics. Esta métrica suele estar cerca de **Ocurrencias** en Adobe Analytics tradicional. Sin embargo, tenga en cuenta que si algún evento tiene un ID de persona en blanco en los datos no enlazados en el lago de datos de Experience Platform, estos eventos no se incluyen en Customer Journey Analytics. | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). | **Ocurrencias**: consulte [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es). |
 
-Otras métricas pueden ser similares en Customer Journey Analytics y Adobe Analytics. Por ejemplo, el recuento total de [eventos personalizados](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=es) 1-100 de Adobe Analytics es comparable entre Adobe Analytics tradicional y Customer Journey Analytics (ya se haya vinculado o no). [Diferencias en las capacidades](/help/getting-started/aa-vs-cja/cja-aa.md)), como la deduplicación de eventos entre Customer Journey Analytics y Adobe Analytics, puede causar discrepancias entre los dos productos.
+Otras métricas pueden ser similares en Customer Journey Analytics y Adobe Analytics. Por ejemplo, el recuento total para Adobe Analytics [eventos personalizados 1-100 es comparable entre los Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=es) tradicionales y los Customer Journey Analytics (ya estén unidos o no). [Las diferencias en las capacidades](/help/getting-started/aa-vs-cja/cja-aa.md)), como evento la deduplicación entre Customer Journey Analytics y Adobe Analytics, pueden causar discrepancias entre los dos productos.
 
 +++
 
 ## Mapa de identidad
 
-+++ ¿Customer Journey Analytics puede utilizar los campos del mapa de identidad?
++++ ¿Customer Journey Analytics pueden utilizar campos de mapa de identidad?
 
-No, actualmente Customer Journey Analytics no puede utilizar los campos del mapa de identidad para la vinculación.
+No, actualmente no Customer Journey Analytics puede utilizar campos de mapa de identidad para la unión.
 
 +++
 
@@ -229,7 +229,7 @@ No es necesario volver a ingerir los datos en Experience Platform, pero deberán
 
 1. Configure el nuevo conjunto de datos vinculado basado en gráficos.
 1. Configure el nuevo conjunto de datos como parte de una nueva conexión en Customer Journey Analytics.
-1. Cambie la vista de datos existente para utilizar la nueva conexión (y, como tal, el nuevo conjunto de datos vinculado basado en gráficos)
+1. Cambie su Ver de datos existente para utilizar la nueva conexión (y, como tal, la nueva conjunto de datos de segmentación basada en gráficos
 1. Elimine la conexión antigua que estaba utilizando el conjunto de datos vinculado basado en el campo.
 
 +++
