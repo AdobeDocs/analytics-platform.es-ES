@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 1bea6a1bc7d2070f01a60ef859675a0f9d03c86d
-workflow-type: ht
-source-wordcount: '2582'
-ht-degree: 100%
+source-git-commit: 13f2bdb9753c0f4252262c595061ed9b54c38a3c
+workflow-type: tm+mt
+source-wordcount: '2580'
+ht-degree: 99%
 
 ---
 
@@ -217,7 +217,7 @@ Depende de su caso práctico; consúltelo con su equipo de cuentas de Adobe. Pue
 
 ## 9. Cálculo del tamaño de la conexión {#estimate-size}
 
-Consulte [Calcular y administrar el uso](/help/technotes/estimate-usage.md).
+Consulte [Uso de conexiones](/help/connections/manage-connections.md#usage).
 
 ## 10. Con respecto a los excedentes de uso {#overage}
 
