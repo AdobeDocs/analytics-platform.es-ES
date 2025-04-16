@@ -3,40 +3,45 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 916afd0d70f2690df61dde70f46f63e78d62b21a
+source-git-commit: 04a681df29438de8d7c48fba394f607819997578
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 99%
+source-wordcount: '772'
+ht-degree: 46%
 
 ---
 
-# Notas actuales de la versión de Adobe Customer Journey Analytics (marzo de 2025)
+# Notas actuales de la versión de Adobe Customer Journey Analytics (abril de 2025)
 
+**Última actualización**: jueves, 16 de abril de 2025
 
-**Última actualización**: sábado, 28 de marzo de 2025
-
-Estas notas de la versión cubren el período comprendido entre el 5 de marzo de 2025 y el 14 de abril de 2025. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo de lanzamiento del 27 de marzo al 15 de mayo de 2025. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Funciones nuevas o actualizadas
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Plantilla de uso del producto** | Una nueva plantilla de Workspace le permite ver cómo se utiliza el producto de Customer Journey Analytics en su organización. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates). |  | 5 de marzo de 2025 |
-| **Guía de actualización de Customer Journey Analytics** | Le permite generar una guía paso a paso para actualizar de Adobe Analytics a Customer Journey Analytics. Esta guía está adaptada a su organización y tiene en cuenta su entorno Adobe Analytics actual, los usos previstos para Customer Journey Analytics y cualquier cambio que su organización desee hacer para ahorrar tiempo.<p>Para empezar a generar su guía personalizada, inicie sesión en [!DNL Customer Journey Analytics] y, a continuación, seleccione **[!UICONTROL Actualizar a Customer Journey Analytics]** en la pestaña **[!UICONTROL Workspace]**.<p>[Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 11 de marzo de 2025 |
 | **Actualizaciones del elemento de línea &quot;Sin valor&quot; en dimensiones numéricas** | Para las dimensiones numéricas, esta actualización le permite<ul><li>Utilizar el elemento de dimensión &quot;Sin valor&quot; en un filtro.</li><li>Realizar un desglose en un informe sobre el elemento de línea &quot;Sin valor&quot;.</li></ul> [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) | 27 de marzo de 2025 |
-| **Adobe Product Analytics** | Adobe Content Analytics le permite investigar rápida y fácilmente grandes volúmenes de datos de contenido para descubrir tendencias, detectar anomalías, identificar la fatiga del contenido y obtener información de la exposición al contenido.<p>De forma predeterminada, puede ahorrar tiempo con las plantillas de creación de informes generadas previamente y nuevas funciones como el Inspector de recursos. Esta función le permite no solo visualizar el recurso en línea con los datos, sino también abrir cada recurso para obtener detalles resumidos, entre ellos, ellos el rendimiento, ubicaciones, atributos y mucho más.<p>Puede investigar este nuevo conjunto de datos de contenido dentro del contexto del recorrido completo del cliente para responder a preguntas comerciales importantes, evaluar el rendimiento del contenido, mejorar la segmentación, identificar oportunidades de optimización y definir nuevos públicos para la activación.<p>El análisis de contenido es un complemento de Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics) |  | 27 de marzo de 2025 |
+| **Adobe Product Analytics** | Adobe Content Analytics le permite investigar rápida y fácilmente grandes volúmenes de datos de contenido para descubrir tendencias, detectar anomalías, identificar la fatiga del contenido y obtener información de la exposición al contenido.<p>De forma predeterminada, puede ahorrar tiempo con las plantillas de creación de informes generadas previamente y nuevas funciones como el Inspector de recursos. Esta función le permite no solo visualizar el recurso en línea con los datos, sino también abrir cada recurso para obtener detalles resumidos, entre ellos, ellos el rendimiento, ubicaciones, atributos y mucho más.<p>Puede investigar este nuevo conjunto de datos de contenido dentro del contexto del recorrido completo del cliente para responder a preguntas comerciales importantes, evaluar el rendimiento del contenido, mejorar la segmentación, identificar oportunidades de optimización y definir nuevos públicos para la activación.<p>El análisis de contenido es un complemento de Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics) |  | 27 de marzo de 2025 |
 | **Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de creación de informes de medios** | El conector de origen de Analytics asigna automáticamente los datos de medios de streaming en Adobe Analytics a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero solo se utilizará la nueva en el futuro. [Más información](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 31 de marzo de 2025 |
+| **Campos XDM actualizados para recopilar datos de medios de streaming en Adobe Experience Platform** | Hay disponible un nuevo grupo de campos XDM, `mediaReporting`, para recopilar datos de medios de streaming en Adobe Experience Platform. El nuevo grupo de campos `mediaReporting` reemplaza el grupo de campos `media.mediaTimed` que se utilizó anteriormente.<p>Durante un período transitorio de tres meses, la ingesta de datos en `media.mediaTimed` campos continuará. Sin embargo, a finales de julio de 2025, `the media.mediaTimed` campos quedarán totalmente obsoletos y dejarán de ser visibles en la interfaz de usuario del esquema de Adobe Experience Platform, y los datos solo se enviarán mediante los campos `mediaReporting`.<p>Los clientes que hayan implementado el conector de origen de Analytics para recopilar datos de medios de streaming en Platform antes del 22 de abril de 2025, deben migrar sus configuraciones existentes para enviar datos mediante el nuevo grupo de campos. Esta migración debe completarse para finales de julio de 2025. Póngase en contacto con los servicios de Adobe Consulting o con el equipo de la cuenta para obtener ayuda sobre la migración. No se requiere ninguna acción para los clientes que implementan el conector de origen de Analytics después del 22 de abril de 2025. |  | miércoles, 22 de abril de 2025 |
+| **Cambio de terminología: &quot;Filtros&quot; a &quot;Segmentos&quot;** | Anteriormente, Adobe Customer Journey Analytics se refería a los segmentos como &quot;filtros&quot;. Esta terminología se ha adaptado a Adobe Analytics. Los &quot;filtros&quot; ahora se denominan &quot;segmentos&quot;. (Obviamente, los filtros de búsqueda aún se denominan &quot;filtros&quot;). La interfaz de usuario se ha actualizado y la documentación se está actualizando. |  | jueves, 16 de abril de 2025 |
+| **Vinculación: recuperar ID persistentes y transitorios de IdentityMap XDM** | Esta función proporciona compatibilidad para utilizar identidades almacenadas en el identityMap XDM en el proceso de vinculación. El identityMap se puede utilizar para el ID persistente o transitorio para la vinculación basada en el campo y se puede utilizar para el ID persistente para la vinculación basada en gráficos.  Puede utilizar un área de nombres específica o la identidad principal desde el identityMap. (Vínculo a la documentación a continuación) |  | sábado, 25 de abril de 2025 |
+| **Métricas y dimensiones compartidas en vistas de datos** | Permite aplicar la configuración de dimensiones y métricas en varias vistas de datos. Los cambios realizados en una dimensión o métrica compartida se aplican a todas las instancias de esa dimensión o métrica en todas las vistas de datos aplicables. Esta interfaz permite a los administradores de Customer Journey Analytics administrar más fácilmente los componentes cuando se utilizan muchas vistas de datos. (Vínculo a la documentación a continuación) |  | jueves, 30 de abril de 2025 |
 
 
 ## Correcciones en Customer Journey Analytics
 
-**Alertas**: AN-368098
-**Analysis Workspace**: AN-333301; AN-365796; AN-368023
-**Registro de auditoría**: AN-368100
-**Vistas de datos**: AN-369504
-**Filtros**: AN-369037
-**Exportación de tabla completa**: AN-369330
-**Aplicación móvil**: AN-369365
+**Admin Console**: AN-370228
+**Analysis Workspace**: AN-371933; AN-371933; AN-371979
+**Audiencias**: AN-373032
+**Configuración de componentes**: AN-367400
+**Campos derivados**: AN-370614; AN-370959
+**Ubicaciones de exportación**: AN-371670
+**Exportación de tabla completa**: AN-360492; AN-369204; AN-370755;AN-372294; AN-372363; AN-372754; AN-373040; AN-373081; AN-373168
+**Lienzo de Recorrido**: AN-373294
+**Aplicación móvil**: AN-363169; AN-368496; AN-371766
+**Uso del producto**: AN-369501
+**Informes**: AN-369085; AN-371094; AN-372580
 
 
 ## Avisos importantes para los administradores de Customer Journey Analytics
