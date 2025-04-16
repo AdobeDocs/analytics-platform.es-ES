@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 60074b300cb5fa07ed3b2d6bb2e4501881909984
+source-git-commit: 04586de02765ddeba72aca3132b9eca5d22aced7
 workflow-type: tm+mt
-source-wordcount: '3810'
-ht-degree: 77%
+source-wordcount: '3931'
+ht-degree: 74%
 
 ---
 
@@ -40,16 +40,10 @@ Las preferencias generales se aplican a su experiencia de Customer Journey Analy
 
 ### Preferencias de organización de IMS {#ims-organization-preferences}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_shareonlyworkspace"
 >title="Permitir compartir solo con usuarios de Workspace"
 >abstract="Cuando está habilitada, la opción **[!UICONTROL Compartir con cualquiera]** ya no está disponible para los usuarios cuando comparten un proyecto de Analysis Workspace. Las personas que anteriormente recibieron acceso a un proyecto mediante esta opción de uso compartido ya no pueden acceder al proyecto."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
@@ -58,47 +52,41 @@ Las preferencias generales se aplican a su experiencia de Customer Journey Analy
 
 <!-- markdownlint-enable MD034 -->
 
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="Permitir comentarios sobre proyectos"
+>abstract="Cuando se habilita, hay un área de comentarios disponible en el carril derecho de cada proyecto en Analysis Workspace."
+
+<!-- markdownlint-enable MD034 -->
 
 Puede actualizar las preferencias de la compañía que se aplican a todas las personas y proyectos de su organización. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
 
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Uso compartido de proyectos** | | |
-| | Permitir compartir solo con usuarios de Workspace | Cuando esta opción está habilitada, las personas de su organización no pueden ver la opción **[!UICONTROL Compartir con cualquiera]** en el menú **[!UICONTROL Compartir]**. Esto significa que no se pueden compartir proyectos con personas que no tengan una cuenta de Analysis Workspace en su organización, tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).<br/>Esta opción está deshabilitada de forma predeterminada para todas las organizaciones (lo que significa que los usuarios pueden compartir proyectos con personas externas a la organización) excepto para los clientes que tengan licencia de Healthcare Shield. <p>Tenga en cuenta lo siguiente al activar o desactivar esta opción:<ul><li>Cuando se activa esta opción, las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con cualquiera] ya no pueden acceder al proyecto.</li><li>Si esta opción está habilitada (para permitir el uso compartido solo con usuarios de Workspace) y luego deshabilitada (para permitir el uso compartido con cualquier persona), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con cualquiera] no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que ha compartido el proyecto debe habilitar la opción **[!UICONTROL El vínculo está activo]** que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).</li><li>**Para los clientes que tengan licencia de Healthcare Shield:** esta opción está habilitada de forma predeterminada y no se puede deshabilitar. Antes de deshabilitar esta opción para que los usuarios puedan usar la opción de uso compartido [!UICONTROL Compartir con cualquiera], debe añadir primero el permiso [!UICONTROL Compartir vínculos de proyectos con cualquiera] (que se encuentra en [!UICONTROL Herramientas de creación de informes]) en Adobe Admin Console. Una vez añadido el permiso, puede deshabilitar esta opción y aceptar el aviso legal resultante. Para obtener información sobre cómo añadir un permiso en Admin Console, consulte [Administración de permisos de productos en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Requiere autenticación de Experience Cloud | Cuando está habilitada, las personas que tienen acceso a un proyecto desde la opción Compartir con cualquiera de Analysis Workspace deben autenticarse mediante sus credenciales de Experience Cloud.<p>Después de habilitar esta opción, cada vez que se comparta un proyecto con la opción de uso compartido [!UICONTROL Compartir con alguien], se habilitará la opción [!UICONTROL Requiere autenticación de Experience Cloud] en el cuadro de diálogo de uso compartido y la persona que comparte el proyecto no podrá deshabilitarla. Para obtener información sobre cómo se pueden compartir proyectos con cualquier persona, consulte [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en[Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md). <p> <p>Ten en cuenta lo siguiente al habilitar esta opción: <ul><li>Al habilitar esta opción, se desactivan todos los proyectos que se compartieron anteriormente con la opción de uso compartido [!UICONTROL Compartir con cualquiera] y que no tienen activada la opción [!UICONTROL Se requiere autenticación de Experience Cloud].<p>Si esta opción está habilitada (se requiere autenticación de Experience Cloud) y luego se deshabilita (para permitir que cualquier persona con el vínculo acceda al proyecto), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con alguien] no recuperan automáticamente su acceso al proyecto. En este caso, el usuario o la usuaria que compartió el proyecto debe habilitar la opción [!UICONTROL El vínculo está activo] que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]** > **[!UICONTROL El vínculo está activo]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulta [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).</p><p>Si SSO está configurado para su organización, compruebe si se ha implementado algún tipo de creación de cuenta automática en la consola. Normalmente, un administrador del sistema lo configuraría, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/es/enterprise/using/automatic-account-creation.html).</li><li>Si su organización dispone de licencias para Healthcare Shield, esta opción está habilitada de forma predeterminada y no se puede deshabilitar.</li></ul> |
+| | Permitir compartir solo con usuarios de Workspace | Cuando esta opción está habilitada, las personas de su organización no pueden ver la opción **[!UICONTROL Compartir con cualquiera]** en el menú **[!UICONTROL Compartir]**. Esto significa que no se pueden compartir proyectos con personas que no tengan una cuenta de Analysis Workspace en su organización, tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).<br/>Esta opción está deshabilitada de forma predeterminada para todas las organizaciones (lo que significa que los usuarios pueden compartir proyectos con personas externas a la organización) excepto para los clientes que tengan licencia de Healthcare Shield. <p>Tenga en cuenta lo siguiente al activar o desactivar esta opción:<ul><li>Cuando se activa esta opción, las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con cualquiera] ya no pueden acceder al proyecto.</li><li>Si esta opción está habilitada (para permitir el uso compartido solo con usuarios de Workspace) y luego deshabilitada (para permitir el uso compartido con cualquier persona), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con cualquiera] no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que ha compartido el proyecto debe habilitar la opción [!UICONTROL **El vínculo está activo**] que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).</li><li>**Para los clientes que tengan licencia de Healthcare Shield:** esta opción está habilitada de forma predeterminada y no se puede deshabilitar. Antes de deshabilitar esta opción para que los usuarios puedan usar la opción de uso compartido [!UICONTROL Compartir con cualquiera], debe añadir primero el permiso [!UICONTROL Compartir vínculos de proyectos con cualquiera] (que se encuentra en [!UICONTROL Herramientas de creación de informes]) en Adobe Admin Console. Una vez añadido el permiso, puede deshabilitar esta opción y aceptar el aviso legal resultante. Para obtener información sobre cómo añadir un permiso en Admin Console, consulte [Administración de permisos de productos en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
+| | Requiere autenticación de Experience Cloud | Cuando esta opción está habilitada, las personas a las que se les da acceso a un proyecto desde la opción Compartir con cualquiera de Analysis Workspace deben autenticarse con sus credenciales de Experience Cloud.<p>Después de habilitar esta opción, cada vez que se comparta un proyecto con la opción de uso compartido [!UICONTROL Compartir con alguien], se habilitará la opción [!UICONTROL Requiere autenticación de Experience Cloud] en el cuadro de diálogo de uso compartido y la persona que comparte el proyecto no podrá deshabilitarla. Para obtener información sobre cómo se pueden compartir proyectos con cualquier persona, consulte [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en[Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md). <p> <p>Ten en cuenta lo siguiente al habilitar esta opción: <ul><li>Al habilitar esta opción, se desactivan todos los proyectos que se compartieron anteriormente con la opción de uso compartido [!UICONTROL Compartir con cualquiera] y que no tienen activada la opción [!UICONTROL Se requiere autenticación de Experience Cloud].<p>Si esta opción está habilitada (se requiere autenticación de Experience Cloud) y luego se deshabilita (para permitir que cualquier persona con el vínculo acceda al proyecto), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido [!UICONTROL Compartir con alguien] no recuperan automáticamente su acceso al proyecto. En este caso, el usuario o la usuaria que compartió el proyecto debe habilitar la opción [!UICONTROL El vínculo está activo] que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]** > **[!UICONTROL El vínculo está activo]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulta [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).</p><p>Si SSO está configurado para su organización, compruebe si se ha implementado algún tipo de creación de cuenta automática en la consola. Normalmente, un administrador del sistema lo configuraría, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/es/enterprise/using/automatic-account-creation.html).</li><li>Si su organización dispone de licencias para Healthcare Shield, esta opción está habilitada de forma predeterminada y no se puede deshabilitar.</li></ul> |
+| **Comentario de proyecto** | | |
+| | Permitir comentarios sobre proyectos | Cuando esta opción está habilitada, hay un área de comentarios disponible en el carril derecho de cada proyecto en Analysis Workspace. <p>Los propietarios del proyecto pueden deshabilitar el área de comentarios de un proyecto determinado, tal como se describe en [Crear proyectos](/help/analysis-workspace/build-workspace-project/create-projects.md).</p> <p>Para obtener más información acerca de los comentarios en proyectos de Analysis Workspace, vea [Agregar y administrar comentarios en proyectos](/help/analysis-workspace/build-workspace-project/comment-projects.md).</p> |
 
 {style="table-layout:auto"}
 
 ### Preferencias de proyectos y análisis {#project-and-analysis-preferences}
-
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_categoricalpalette"
 >title="Paleta categórica"
 >abstract="Se aplica a numerosas visualizaciones de Analysis Workspace y análisis guiado. Cada color representa un valor categórico distinto."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_divergingpalette"
 >title="Paleta divergente"
 >abstract="Se aplica a la tabla Cohorte de Analysis Workspace y análisis guiado por el crecimiento del usuario. Esta paleta tiene un significado numérico con dos extremos y una línea de base en el medio."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_sequentialpalette"
 >title="Paleta secuencial"
 >abstract="Se aplica al análisis guiado por Tendencias de frecuencia (barra apilada). Esta paleta tiene un significado numérico de claro a oscuro."
-
-<!-- markdownlint-enable MD034 -->
-
 
 Puede personalizar estas preferencias para todos los nuevos proyectos de Analysis Workspace, nuevos paneles de Analysis Workspace y nuevos análisis guiados. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
 
@@ -121,34 +109,21 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 
 ### Preferencias de tabla de forma libre {#freeform-table-preferences}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"
 >title="Mostrar anomalías"
 >abstract="Al seleccionar **[!UICONTROL Mostras anomalías]** se ejecutará automáticamente la Detección de anomalías en la primera columna de métrica añadida a una tabla de forma libre de series temporales."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showforecast"
 >title="Mostrar previsión"
 >abstract="Al seleccionar **[!UICONTROL Mostrar previsión]**, se ejecutará automáticamente la previsión en la primera columna de métrica añadida a una tabla de forma libre de series temporales."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Métrica predeterminada de la tabla"
->abstract="Seleccione la métrica predeterminada que se utilizará en las tablas de forma libre. Si el vista de datos seleccionado no contiene el Métrica predeterminado seleccionado, la tabla cambia automáticamente a otro Métrica principal."
-
-
-<!-- markdownlint-enable MD034 -->
-
+>abstract="Seleccione la métrica predeterminada que se utilizará en las tablas de forma libre. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambia automáticamente a otra métrica principal."
 
 
 Puede personalizar las preferencias de tabla de forma libre para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
@@ -166,14 +141,14 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Alinear fechas | Seleccione esta opción para alinear fechas de cada columna con todas a partir de la misma fila. |
 | **[Columna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
 | | Justificar el texto del encabezado | Permite justificar el texto del encabezado en las tablas de forma libre para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. Esto resulta útil en el procesamiento de archivos .pdf y en las métricas con nombres largos. Está activada de forma predeterminada. |
-| | Mostrar totales | Este número de totales suele ser igual o un subconjunto de [!UICONTROL Total general]. Refleja cualquier segmento de tabla aplicado dentro de la tabla de forma libre, incluida la [!UICONTROL opción No incluir ninguno] . |
-| | Mostrar totales generales | Este número de totales representa todos los eventos que se han recopilado, a veces denominados *datos vista total*. Cuando un segmento se aplica a nivel de panel o dentro de la tabla improvisada, este total se ajusta para reflejar todos los eventos que coinciden con los criterios de segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
+| | Mostrar totales | Este número de totales suele ser igual o un subconjunto de [!UICONTROL Total general]. Refleja cualquier segmento de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
+| | Mostrar totales generales | Este número total representa todos los eventos que se han recopilado, a veces denominados *total de vista de datos*. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todos los eventos que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Mostrar minigráfico | Muestre u oculte gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas. |
 | | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es vistas de página, el valor porcentual es el número de vistas de página para el elemento de fila dividido por el total de vistas de página para la columna.  Nota: Puede mostrar porcentajes superiores al 100% para mejorar la precisión. También puede mover el límite superior al 1000% para asegurarse de que las columnas pueden aumentar demasiado de anchura. |
 | | Mostrar anomalías <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. |
 | | Mostrar previsión | Determina si los valores de previsión se muestran automáticamente para la primera columna de métrica en cualquier tabla de forma libre de series temporales que cree. |
-| | La interpretación de cero no tiene valor | Para las celdas con un valor de 0, determina si se va a mostrar un 0 o una celda en blanco. Esto es útil si desea analizar los datos de todos los días de un mes y todavía faltan algunos días.  En vez de mostrar 0 para las fechas futuras, se pueden mostrar celdas en blanco. Los gráficos también respetan esta configuración (por ejemplo, los carros de compras no muestran una línea o barra con valores 0 cuando se marca esta configuración). |
+| | La interpretación de cero no tiene valor | Para las celdas con un valor de 0, determina si se va a mostrar un 0 o una celda en blanco. Esto es útil si desea analizar los datos de todos los días de un mes y todavía faltan algunos días.  En vez de mostrar 0 para las fechas futuras, se pueden mostrar celdas en blanco. Los gráficos también respetan esta configuración (por ejemplo, los carros de compras no muestran una línea o barra con 0 valores cuando se activa esta configuración). |
 | | Contexto | Determina si una celda muestra u oculta todo el formato de la celda, que incluye la gráfico de barras y el formato condicional <ul><li>Gráfico de barras</li> Muestra un gráfico de barras horizontal que representa el valor de la celda con relación al total de la columna. <li>Formato condicional</li>Para obtener más información sobre el formato condicional, consulte “Formato condicional” en [Configuración de columna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)</ul> |
 | | Vista previa de celda | Muestra una vista previa del aspecto de cada una de las celdas con las opciones de formato seleccionadas actualmente aplicadas. |
 | **[Fila](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
@@ -186,12 +161,12 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="Contenedor predeterminado"
->abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones del [!UICONTROL flujo]. Si el vista de datos seleccionado no contiene el contenedor predeterminado seleccionado, la visualización de [!UICONTROL Flujo] cambia automáticamente a otro contenedor principal."
+>abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones del [!UICONTROL flujo]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización [!UICONTROL Flujo] cambiará automáticamente a otro contenedor principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="Contenedor predeterminado"
->abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones de [!UICONTROL visitas en orden previsto]. Si el vista de datos seleccionado no contiene el contenedor predeterminado seleccionado, la [!UICONTROL visualización de abandonos] cambia automáticamente a otro contenedor principal."
+>abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones de [!UICONTROL visitas en orden previsto]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización [!UICONTROL Visitas en el orden previsto] cambiará automáticamente a otro contenedor principal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulthistogramcountingmethod"
@@ -215,7 +190,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | **Valores generales predeterminados** | | |
 | | Porcentajes | Muestra valores en porcentajes para todas las visualizaciones. |
 | | Leyenda visible | Permite ocultar el texto de leyenda detallado para todas las visualizaciones. |
-| | Límite máximo de elementos | Reduce el número de elementos en el eje X para todas las visualizaciones. Esta preferencia puede resultar útil si tiene una conjunto de datos grande. |
+| | Límite máximo de elementos | Reduce el número de elementos en el eje X para todas las visualizaciones. Esta preferencia puede resultar útil si tiene un conjunto de datos grande. |
 | | Mostrar doble eje (cuando corresponda) | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esta preferencia es útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | | Normalización (cuando corresponda) | Fuerza métricas para igualar proporciones. Esta preferencia es útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | | Anclar el eje Y en cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico actualiza de forma predeterminada la parte inferior del eje Y a NO CERO. Si marca esta casilla, el eje Y se fuerza en cero (y vuelve a dibujar el gráfico). |
@@ -223,16 +198,16 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | **[Líneas](/help/analysis-workspace/visualizations/line.md)** | | |
 | | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Línea. |
 | | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización de línea. |
-| | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización de línea. Esta preferencia puede resultar útil si tiene una conjunto de datos grande. |
-| | Mostrar doble eje (cuando corresponda) | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esta preferencia es útil cuando las métricas graficadas son de muy distintas magnitudes. |
+| | Límite máximo de elementos | Reduce el número de elementos en el eje X de la visualización de línea. Esta preferencia puede resultar útil si tiene un conjunto de datos grande. |
+| | Mostrar doble eje (cuando corresponda) | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esta preferencia es útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | | Normalización (cuando corresponda) | Fuerza métricas para igualar proporciones. Esta preferencia es útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | | Mostrar el eje X | Muestra el eje X en el gráfico de líneas. |
 | | Mostrar el eje Y | Muestra el eje Y en el gráfico de líneas. |
 | | Anclar eje Y | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico muestra de forma predeterminada la parte inferior del eje Y distinta a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
 | | Permitir que las anomalías escalen el eje Y | Si tiene varias métricas en un gráfico, debe pasar el ratón sobre cada anomalía para ver la banda de confianza de la métrica. Para que la visualización sea más legible, el intervalo de confianza de Detección de anomalías no escala automáticamente el eje Y. Esta configuración permite que el intervalo de confianza escale la visualización. <p>Para obtener más información, consulte [Visualización de anomalías en Analysis Workspace](/help/analysis-workspace/c-anomaly-detection/view-anomalies.md).</p> |
-| | Deje que la previsión se ajuste al eje Y | Si tiene valores pronóstico que están fuera del límite superior e inferior de los valores históricos, el eje y no escala automáticamente estos valores previstos. Cuando se activa, esta opción escala correctamente el eje y para los valores previstos. |
+| | Deje que la previsión se ajuste al eje Y | Si tiene valores de previsión que están fuera de los límites superior e inferior de los valores históricos, el eje Y no escala automáticamente estos valores previstos. Cuando se activa, esta opción no escala correctamente el eje Y para los valores pronosticados. |
 | | Mostrar mínimo | Superponga una etiqueta de valor mínimo para resaltar rápidamente los valores de una métrica. Nota: Los valores mínimos se derivan de los puntos de datos visibles en la visualización, no del conjunto completo de valores dentro de una dimensión. |
-| | Mostrar máximo | superposición una etiqueta de valor máximo para resaltar rápidamente los picos de un Métrica. Nota: Los valores máximos se derivan de los puntos de datos visibles en la visualización, no del conjunto completo de valores dentro de una dimensión. |
+| | Mostrar máximo | superponga una etiqueta de valor máximo para resaltar rápidamente los picos de una métrica. Nota: Los valores máximos se derivan de los puntos de datos visibles en la visualización, no del conjunto completo de valores dentro de una dimensión. |
 | | Mostrar línea de tendencia | Se muestra una línea de tendencia promedio móvil o una regresión en la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos. |
 | **[Cohorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
 | | Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (Día, Semana, Mes, Trimestre o Año). Este cambio también se aplica a la tabla de fuente de datos. |
@@ -250,21 +225,21 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Mostrar comparación | Se muestran datos de comparación. Cuando están ocultos, el gráfico de líneas de comparación y los objetos de cambio de resumen no se ven. |
 | | Opciones de valor numérico | En la sección [!UICONTROL **Resumen de métricas clave**] <ul><li>Mostrar cambio de porcentaje</li><li>Mostrar diferencia en bruto</li>Diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario</ul> |
 | **[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | Contenedor | Permite alternar entre **[!UICONTROL Sesión y**[!UICONTROL  Persona ]**]** para analizar Rutas. Esta configuración le ayuda a comprender cuenta participación en varios B2B niveles [!BADGE de contenedor B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, participación de persona en el nivel de persona (entre sesiones) o restricción el análisis a una sola sesión. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Cuentas [!BADGE Globales B2B Edición]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Edición B2B Customer Journey Analytics"}</li><li>Cuentas [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Edición B2B Customer Journey Analytics"}</li><li>Comprando grupos [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Oportunidades [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sesión</li><li>Persona</li></ul> |
+| | Contenedor | Seleccione el contenedor preferido para analizar las rutas. El contenedor preferido le ayuda a comprender la participación de la cuenta en varios niveles de contenedor B2B [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, la participación de la persona en el nivel de persona (entre sesiones) o a restringir el análisis a una sola sesión. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Cuentas globales [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Cuentas [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Comprando grupos [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Oportunidades [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sesión</li><li>Persona</li></ul> |
 | **[Flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
-| | Contenedor | En la sección **[!UICONTROL Flujo]**: <ul><li>Cuentas globales [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Cuentas [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Comprando grupos [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Edición B2B Oportunidades [!BADGE ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sesión</li><li>Persona</li></ul> |
+| | Contenedor | Seleccione el contenedor preferido para analizar. El contenedor preferido le ayuda a comprender la participación de la cuenta en varios niveles de contenedor B2B [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, la participación de la persona en el nivel de persona (entre sesiones) o a restringir el análisis a una sola sesión. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Cuentas globales [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Cuentas [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Comprando grupos [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Oportunidades [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sesión</li><li>Persona</li></ul> |
 | | Etiquetas de ajustes | Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla. Valor predeterminado = sin marcar. |
 | | Incluir instancias de repetición | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. Valor predeterminado = sin marcar. |
 | | Mostrar información sobre herramientas | Determina si se muestra la información de objeto, que contiene datos de nodo, al pasar el ratón por encima de nodos individuales dentro de una visualización de flujo. |
 | | Número de columnas | Determina cuántas columnas desea incluir en el diagrama de flujo. |
 | | Elementos expandidos por columna | Cuántos elementos desea incluir en cada columna. |
 | **[lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
-| | Contenedor | Le permite alternar entre **[!UICONTROL Sesión]** y **[!UICONTROL Persona]** para analizar las rutas. El valor predeterminado es **[!UICONTROL Persona]**. Esta configuración le ayuda a comprender la participación de la cuenta en varios niveles de contenedor B2B [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Edición B2B Customer Journey Analytics"}, la participación de la persona en el nivel de persona (entre sesiones) o a restringir el análisis a una sola sesión. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Cuentas [!BADGE Globales B2B Edición]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Cuentas [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Comprando grupos [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Edición B2B Customer Journey Analytics"}</li><li>Oportunidades [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Edición B2B Customer Journey Analytics"}</li><li>Sesión</li><li>Persona</li></ul> |
+| | Contenedor | Seleccione el contenedor preferido para analizar las rutas. El contenedor preferido le ayuda a comprender la participación de la cuenta en varios niveles de contenedor B2B [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, la participación de la persona en el nivel de persona (entre sesiones) o a restringir el análisis a una sola sesión. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Cuentas globales [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Cuentas [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Comprando grupos [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Oportunidades [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sesión</li><li>Persona</li></ul> |
 | **Gráficos apilados** | | |
 | | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. <p>Para obtener más información, consulte [Barra y barra apilada](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analysis-workspace/visualizations/histogram.md)** | | |
 | | Número de contenedores | Elija el número de intervalos de fechas (contenedores) en la visualización. El número máximo de contenedores es 50. <p>Para obtener más información, consulte [Histograma](/help/analysis-workspace/visualizations/histogram.md).</p> |
-| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Sesión</li><li>Persona</li></ul> <p>Por ejemplo, cuando se utiliza con vistas Página, puede elegir Página vistas por persona, vistas Página por visita o vistas Página por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
+| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Sesión</li><li>Persona</li></ul> <p>Por ejemplo, cuando se utiliza con vistas de página, puede elegir vistas de página por persona, vistas de página por visita o vistas de página por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
 | **[Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio porcentual</li><li>Diferencia en bruto</li></ul> |
 | | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Cambio de resumen. |
@@ -305,5 +280,5 @@ Si prefiere tener un fondo oscuro para la interfaz de usuario de Customer Journe
 
    ![dark-theme](assets/dark-theme.png)
 
-1. Habilitar **[!UICONTROL tema]** oscuro.
+1. Habilitar **[!UICONTROL tema oscuro]**.
 
