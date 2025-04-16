@@ -3,10 +3,11 @@ description: Casos de uso de alertas.
 title: Casos de uso de alertas
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+exl-id: 3aa5e38e-fa19-40aa-a537-d4da529e1bc7
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -18,7 +19,7 @@ Las secciones siguientes ilustran ejemplos de casos de uso que se deben tener en
 
 ## Filtrar alertas
 
-Puede crear alertas simples mediante filtros. Por ejemplo, defina una alerta sobre el número de sesiones para las personas que visitan la página de inicio a través de una sesión de aplicación móvil.
+Puede crear alertas simples mediante segmentos. Por ejemplo, defina una alerta sobre el número de sesiones para las personas que visitan la página de inicio a través de una sesión de aplicación móvil.
 
 
 ![](assets/alerts-example1.png)

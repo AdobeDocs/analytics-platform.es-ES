@@ -1,12 +1,13 @@
 ---
-description: Descubra cómo difieren las alertas en el Customer Journey Analytics de Adobe Analytics
-title: Customer Journey Analytics de comparación de funciones de alertas y Adobe Analytics
+description: Descubra las diferencias entre las alertas en Customer Journey Analytics y Adobe Analytics
+title: Comparación de funciones de alertas entre Customer Journey Analytics y Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -14,15 +15,15 @@ ht-degree: 5%
 
 El proceso de utilización de alertas en Customer Journey Analytics es casi idéntico al de las alertas en Adobe Analytics. Sin embargo, hay diferencias importantes. Las siguientes secciones describen las diferencias clave.
 
-## Las alertas horarias no están disponibles en el Customer Journey Analytics
+## Las alertas horarias no están disponibles en Customer Journey Analytics
 
 Las alertas horarias no están disponibles en Customer Journey Analytics como lo están en Adobe Analytics. En Customer Journey Analytics, las alertas se pueden configurar para alertas diarias, semanales o mensuales.
 
 Esto se debe a las distintas formas en que se pueden ingerir los datos en Adobe Experience Platform antes de notificarlos en Customer Journey Analytics. La integridad y disponibilidad de los datos no se pueden lograr de forma fiable en una hora, lo que hace que las alertas horarias no sean prácticas debido al alto potencial de datos incompletos. Para obtener más información, consulte [Los tiempos de ingesta de datos varían](#data-ingestion-times-vary-in-customer-journey-analytics).
 
-## Los tiempos de ingesta de datos varían en el Customer Journey Analytics
+## Los tiempos de ingesta de datos varían en Customer Journey Analytics
 
-El tiempo necesario antes de que los datos se completen y estén disponibles para su notificación en Customer Journey Analytics varía según la organización.
+El tiempo necesario antes de que los datos se completen y estén disponibles para la creación de informes en Customer Journey Analytics varía según la organización.
 
 Esto se debe a las siguientes razones:
 
@@ -34,7 +35,7 @@ Esto se debe a las siguientes razones:
 
   Aunque es posible que algunos datos estén disponibles para generar informes antes, todos los [datos por lotes se incorporan a un conjunto de datos de Platform](/help/data-ingestion/data-ingestion.md#ingest-and-use-batch-data.), que generalmente oscila entre 3 y 9 horas después del tiempo del evento de datos. Para que las alertas sean precisas, la ingesta de datos debe ser completa, con todos los datos por lotes disponibles en el conjunto de datos. <!--3 to 9 hours is a sweet spot, what we are suggesting.  -->
 
-Por estos motivos, la ingesta de datos para los distintos tipos de datos de evento que se pueden introducir se completa solo después de algún retraso, normalmente en un intervalo de 3 a 9 horas después del tiempo de evento de datos. Para que las alertas sean precisas, los datos de evento de un intervalo de eventos determinado deben estar completos, lo que significa que el Adobe ya no recibe datos de evento para el intervalo de eventos especificado.
+Por estos motivos, la ingesta de datos para los distintos tipos de datos de evento que se pueden introducir se completa solo después de algún retraso, normalmente en un intervalo de 3 a 9 horas después del tiempo de evento de datos. Para que las alertas sean precisas, los datos de evento de un intervalo de eventos determinado deben estar completos, lo que significa que Adobe ya no recibe datos de evento para el intervalo de eventos especificado.
 
 Para tener en cuenta este retraso en el tiempo de ingesta, las alertas tienen un retraso predeterminado de 9 horas antes de enviarse.
 
@@ -52,15 +53,8 @@ En Adobe Analytics, están disponibles las siguientes opciones:
 
 * Seleccione uno o más elementos de línea en una tabla de forma libre, luego haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**.
 
-  De este modo, se rellena instantáneamente el generador de alertas para crear una alerta con las métricas y los filtros correctos.
+  De este modo, se rellena instantáneamente el Generador de alertas para crear una alerta con las métricas y los segmentos correctos.
 
 * Abra un proyecto en Analysis Workspace y seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Crear alerta]**.
 
 * Abra un proyecto en Analysis Workspace y, a continuación, utilice el acceso directo siguiente: **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) o**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]** (macOS).
-
-
-
-
-
-
-

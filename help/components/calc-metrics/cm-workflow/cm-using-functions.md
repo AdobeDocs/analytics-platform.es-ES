@@ -3,7 +3,7 @@ description: Las funciones le permiten filtrar y clasificar sus datos, y realiza
 title: Uso de funciones
 feature: Calculated Metrics
 exl-id: 7a41aa4e-90c6-4242-a801-2eef6b524cfe
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 23%
@@ -20,7 +20,7 @@ Para obtener una lista de todas las funciones, consulte [Funciones básicas](/he
 
 >[!NOTE]
 >
->Cuando se incluyen funciones en la Definición del creador de métricas calculadas, aplique siempre la función antes de arrastrar métricas o filtros.
+>Cuando se incluyen funciones en la Definición del creador de métricas calculadas, aplique siempre la función antes de arrastrar métricas o segmentos.
 >
 
 

@@ -1,13 +1,13 @@
 ---
 title: Información general sobre las métricas calculadas
-description: Obtenga información sobre las métricas filtradas que se derivan del tiempo de ejecución del informe.
+description: Obtenga información sobre las métricas segmentadas que se derivan del tiempo de ejecución de un informe.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ Un flujo de trabajo típico para las métricas calculadas consiste en estas tare
 | Planificar | En especial, para las métricas que se van a aprobar oficialmente ![Marca de verificación](/help/assets/icons/Checkmark.svg), planifica y estructura cuidadosamente las métricas calculadas que preveas que se van a utilizar con frecuencia. |
 | [Versión](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | Crea, modifica y guarda métricas calculadas. |
 | [Aplicar](/help/components/use-components-in-workspace.md) | Aplica métricas calculadas directamente dentro de tus proyectos de Workspace. |
-| [Administrar](/help/components/calc-metrics/cm-workflow/cm-manager.md) | Administrar métricas calculadas. Puedes [etiquetar](/help/components/calc-metrics/cm-workflow/cm-tagging.md), [aprobar](/help/components/calc-metrics/cm-workflow/cm-approving.md), [desaprobar](/help/components/calc-metrics/cm-workflow/cm-approving.md), [filtrar](/help/components/calc-metrics/cm-workflow/cm-filter.md), [favorecer](/help/components/calc-metrics/cm-workflow/cm-favorite.md) o [desfavorecer](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [compartir](/help/components/calc-metrics/cm-workflow/cm-sharing.md) o [copiar](/help/components/calc-metrics/cm-workflow/cm-copy.md) una o más métricas calculadas. |
+| [Administrar](/help/components/calc-metrics/cm-workflow/cm-manager.md) | Administrar métricas calculadas. Puedes [etiquetar](/help/components/calc-metrics/cm-workflow/cm-tagging.md), [aprobar](/help/components/calc-metrics/cm-workflow/cm-approving.md), [desaprobar](/help/components/calc-metrics/cm-workflow/cm-approving.md), [segmento](/help/components/calc-metrics/cm-workflow/cm-filter.md), [favor](/help/components/calc-metrics/cm-workflow/cm-favorite.md) o [desfavorecer](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [compartir](/help/components/calc-metrics/cm-workflow/cm-sharing.md) o [copiar](/help/components/calc-metrics/cm-workflow/cm-copy.md) una o más métricas calculadas. |
 
 Consulta [Crear métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-workflow.md) para ver las distintas opciones disponibles para crear métricas calculadas. Generas, modificas y guardas la definición de las métricas calculadas en el [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md).
 

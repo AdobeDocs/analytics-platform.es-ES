@@ -3,7 +3,7 @@ description: Aprenda a crear métricas calculadas.
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Crear métricas calculadas
 
-De forma predeterminada, solo los administradores pueden crear métricas calculadas. Los usuarios tienen derechos para ver las métricas calculadas, de forma similar a como ven otros componentes (como filtros, anotaciones, etc.).
+De forma predeterminada, solo los administradores pueden crear métricas calculadas. Los usuarios tienen derechos para ver las métricas calculadas, de forma similar a como ven otros componentes (como segmentos, anotaciones, etc.).
 
 Sin embargo, los administradores pueden dar permiso a **[!UICONTROL Creación de métricas calculadas]** para **[!UICONTROL Herramientas de informes]** en **[!UICONTROL Editar permisos para CJA Workspace Access]** a los usuarios a través de [Admin Console](/help/technotes/access-control.md#user-level-access).
 
