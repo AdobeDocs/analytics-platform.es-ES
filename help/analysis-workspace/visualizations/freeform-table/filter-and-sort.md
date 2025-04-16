@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 42%
+source-wordcount: '844'
+ht-degree: 43%
 
 ---
 
@@ -94,7 +94,7 @@ Para filtrar datos en tablas de forma libre:
 
 1. Seleccione **[!UICONTROL Aplicar]** para filtrar los datos. Seleccione **[!UICONTROL Borrar]** para borrar toda la entrada. Seleccione **[!UICONTROL Cancelar]** para cancelar y cerrar el cuadro de diálogo. <br/>Un icono ![Filter](/help/assets/icons/FilterColored.svg) **Filter** de color indica y muestra detalles cuando se aplica un filtro a la tabla.
 
-### Uso de filtros de audiencia
+### Usar segmentos de audiencia
 
 Consulte [Resumen de filtros](/help/components/filters/filters-overview.md) para obtener más información.
 

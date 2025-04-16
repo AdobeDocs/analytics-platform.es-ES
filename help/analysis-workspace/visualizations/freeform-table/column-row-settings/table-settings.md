@@ -4,10 +4,10 @@ title: Configuración de filas
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 1a003b38ef26eb811b19cd091c6e089f33ddb6f6
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuraci
 
 >[!ENDSHADEBOX]
 
-La configuración de filas varía en función del componente que haya arrastrado a la tabla. Para acceder a la configuración de las filas de la tabla, seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** junto a una dimensión, un filtro, una métrica, un periodo de tiempo o un desglose dentro de cada uno de estos objetos.
+La configuración de filas varía en función del componente que haya arrastrado a la tabla. Para obtener acceso a la configuración de fila de la tabla, seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** junto a una dimensión, segmento, métrica, período de tiempo o desglose dentro de cada uno de estos objetos.
 
 ![Tabla de forma libre que resalta el icono Configuración para Métricas](assets/row-settings.png)
 
@@ -71,7 +71,7 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | **[!UICONTROL Selección de tendencia]** | Cree una visualización de gráfico de líneas de tendencias para la selección. |
 | **[!UICONTROL Mostrar solamente las filas seleccionadas]** | Mostrar solo las filas seleccionadas en la visualización. |
 | **[!UICONTROL Mostrar todas las filas]** | Mostrar todas las filas de la visualización. |
-| **[!UICONTROL Crear filtro a partir de la selección]** | Abra **[!UICONTROL Generador de filtros]** para generar un filtro a partir de la selección. |
+| **[!UICONTROL Crear segmento de selección]** | Abra el **[!UICONTROL Generador de filtros]** para generar un segmento a partir de la selección. |
 | **[!UICONTROL Crear audiencia a partir de la selección]** | Abra el cuadro de diálogo **[!UICONTROL Crear audiencia]** para generar una audiencia a partir de la selección. |
 
 Las siguientes opciones de menú contextual adicionales están disponibles al seleccionar un encabezado de columna de métrica.
@@ -85,7 +85,7 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | **[!UICONTROL Comparar modelo de atribución]** | Especifique un nuevo modelo de atribución y compárelo con el modelo de atribución de la columna seleccionada. Se añade una nueva columna con las nuevas métricas del modelo de atribución. Además, se añade una columna Cambio porcentual para la comparación. |
 | **[!UICONTROL Restablecer anchos de columna]** | Restablezca el ancho de columna predeterminado. |
 | **[!UICONTROL Crear anotación a partir de la selección]** | Abra **[!UICONTROL Detalles de anotación]** para añadir una anotación. |
-| **[!UICONTROL Crear filtro a partir de la selección]** | Abra **[!UICONTROL Generador de filtros]** para generar un filtro a partir de la selección. |
+| **[!UICONTROL Crear segmento de selección]** | Abra el **[!UICONTROL Generador de filtros]** para generar un segmento a partir de la selección. |
 | **[!UICONTROL Crear audiencia a partir de la selección]** | Abra el cuadro de diálogo **[!UICONTROL Crear audiencia]** para generar una audiencia a partir de la selección. |
 
 ## Cambiar alto de fila

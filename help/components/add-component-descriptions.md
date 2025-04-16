@@ -4,7 +4,7 @@ title: Adición de descripciones de componentes
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: a0e301130cf7f8c4b3be17dfe52648fde5ee4fe4
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 14%
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 Las descripciones ayudan a los usuarios a saber cómo utilizar los distintos componentes al crear proyectos en Analysis Workspace o al ver informes.
 
-Los administradores de Customer Journey Analytics pueden agregar descripciones para los componentes (dimensiones, métricas, filtros e intervalos de fechas) dentro de una vista de datos o mediante el diccionario de datos.
+Los administradores de Customer Journey Analytics pueden agregar descripciones para los componentes (dimensiones, métricas, segmentos e intervalos de fechas) dentro de una vista de datos o mediante el diccionario de datos.
 
 ## Agregar descripciones en una vista de datos
 
@@ -23,7 +23,7 @@ Puede agregar una descripción a un componente que haya agregado a la vista de d
 
 ## Agregar descripciones mediante el diccionario de datos
 
-El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a realizar un seguimiento de los componentes de su entorno de Customer Journey Analytics y a comprenderlos mejor. El diccionario de datos incluye la capacidad, para administradores, de agregar descripciones de componentes directamente en Analysis Workspace.
+El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a realizar un seguimiento y comprender mejor los componentes de su entorno de Customer Journey Analytics. El diccionario de datos incluye la capacidad, para administradores, de agregar descripciones de componentes directamente en Analysis Workspace.
 
 Para obtener información acerca de cómo añadir un componente en el diccionario de datos, consulte [Edición de entradas de componentes en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 

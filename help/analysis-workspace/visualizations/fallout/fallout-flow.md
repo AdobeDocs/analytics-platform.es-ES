@@ -4,7 +4,7 @@ title: Acerca de los informes y visualizaciones de visitas en el orden previsto
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 30%
@@ -43,7 +43,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear un informe
 
 Las visualizaciones de visitas en el orden previsto le permiten:
 
-* Realice comparaciones paralelas de dos filtros distintos en el mismo informe
+* Realizar comparaciones paralelas de dos segmentos distintos en el mismo informe
 * Arrastre y suelte (y reorganice) los pasos del canal (puntos de contacto).
 * Mezcle y combine valores de diferentes dimensiones y métricas.
 * Cree un informe de visitas en el orden previsto multidimensional.
@@ -75,7 +75,7 @@ Las visualizaciones de visitas en el orden previsto son las más adecuadas para:
 
 * Análisis de abandonos que incluye recorridos con una secuencia predefinida de páginas y un único punto de entrada y ruta. (Utilice lienzo de Recorrido para recorridos con varios puntos de entrada y rutas).
 
-* Recorridos en los que debe realizar comparaciones paralelas de dos filtros diferentes en el mismo informe.
+* Recorridos en los que debe realizar comparaciones paralelas de dos segmentos diferentes en el mismo informe.
 
 Use [la tabla anterior](#understand-the-differences) para comprender las diferencias entre las visualizaciones de lienzo de Recorrido, Visitas en el orden previsto y Flujo.
 

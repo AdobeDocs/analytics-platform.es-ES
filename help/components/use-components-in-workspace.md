@@ -4,7 +4,7 @@ title: Uso de componentes en Analysis Workspace
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # Uso de componentes en Analysis Workspace
 
-Los componentes constituyen los datos reales de cualquier proyecto de Analysis Workspace. Los componentes están formados por dimensiones, métricas, filtros e intervalos de fechas. Puede añadir componentes a un proyecto arrastrándolos a visualizaciones o paneles.
+Los componentes constituyen los datos reales de cualquier proyecto de Analysis Workspace. Los componentes están formados por dimensiones, métricas, segmentos e intervalos de fechas. Puede añadir componentes a un proyecto arrastrándolos a visualizaciones o paneles.
 
 Consulte la [Descripción general de componentes](/help/components/overview.md) para obtener más información sobre los tipos de componentes que puede agregar.
 
@@ -31,8 +31,8 @@ Consulte la [Descripción general de componentes](/help/components/overview.md) 
 
 1. Desplácese hasta el componente que desee añadir o búsquelo y arrástrelo a un panel o a una visualización dentro del proyecto.
 
-1. Si lo desea, puede arrastrar un componente a la zona de colocación de filtros del encabezado de un panel. Con este proceso de arrastrar y soltar, se define el componente como un filtro y se aplica el filtro a todo el contenido del panel.
-Para obtener información sobre cómo usar la zona de colocación de filtros en un panel para filtrar el panel, consulte [Zona de colocación](/help/analysis-workspace/c-panels/panels.md#drop-zone) en [Información general de paneles](/help/analysis-workspace/c-panels/panels.md).
+1. Si lo desea, puede arrastrar un componente a la zona de colocación de segmentos en el encabezado de un panel. Con este proceso de arrastrar y soltar, se define el componente como un segmento y se aplica el segmento a todo el contenido del panel.
+Para obtener información sobre cómo usar la zona de colocación de segmentos en un panel para segmentar el panel, consulte [Zona de colocación](/help/analysis-workspace/c-panels/panels.md#drop-zone) en [Información general de paneles](/help/analysis-workspace/c-panels/panels.md).
 
 1. Para obtener información más detallada, consulte las siguientes secciones:
 
@@ -40,13 +40,13 @@ Para obtener información sobre cómo usar la zona de colocación de filtros en 
 
    * [Agregar métricas a un proyecto](#add-metrics-to-a-project)
 
-   * [Añadir filtros a un proyecto](#add-filters-to-a-project)
+   * [Añadir segmentos a un proyecto](#add-segments-to-a-project)
 
    * [Adición de intervalos de fechas a un proyecto](#add-date-ranges-to-a-project)
 
 ### Adición de dimensiones a un proyecto
 
-[Dimension](/help/components/dimensions/overview.md) son variables en el Customer Journey Analytics que generalmente contienen valores de cadena. Por el contrario, las [métricas](/help/components/calc-metrics/calc-metr-overview.md) contienen valores numéricos que se vinculan a una dimensión. Un informe básico muestra filas de valores de cadena (dimensión) frente a una columna de valores numéricos (métrica).
+[Las dimensiones](/help/components/dimensions/overview.md) son variables en Customer Journey Analytics que generalmente contienen valores de cadena. Por el contrario, las [métricas](/help/components/calc-metrics/calc-metr-overview.md) contienen valores numéricos que se vinculan a una dimensión. Un informe básico muestra filas de valores de cadena (dimensión) frente a una columna de valores numéricos (métrica).
 
 1. Comience a agregar una dimensión al proyecto en Analysis Workspace, tal como se describe en [Agregar componentes a un proyecto](#add-components-to-a-project).
 
@@ -56,7 +56,7 @@ Para obtener información sobre cómo usar la zona de colocación de filtros en 
 
    * Arrastre una dimensión a una visualización (como una tabla de forma libre) en Analysis Workspace.
 
-   * Arrastre una o más dimensiones del panel izquierdo a la zona de colocación de filtros para crear un filtro rápido, tal como se describe en [Agregar filtros a un proyecto](#add-filters-to-a-project).
+   * Arrastre una o más dimensiones del panel izquierdo a la zona de colocación de segmentos para crear un segmento rápido, tal como se describe en [Agregar segmentos a un proyecto](#add-filters-to-a-project).
 
 1. Si lo desea, puede desglosar dimensiones y elementos de dimensión en Analysis Workspace con otros componentes. Para obtener más información, consulte [Desglosar dimensiones en Workspace](/help/components/dimensions/t-breakdown-fa.md).
 
@@ -93,17 +93,17 @@ Para obtener más información sobre las métricas, consulte [Métricas](/help/c
 
 Los [filtros](/help/components/filters/filters-overview.md) le permiten identificar subconjuntos de personas, sesiones o eventos según sus características o interacciones específicas.
 
-Puede utilizar filtros en Analysis Workspace de cualquiera de las siguientes maneras:
+Puede utilizar segmentos en Analysis Workspace de cualquiera de las siguientes maneras:
 
-* Adición de filtros a un panel
-Cuando se añaden filtros a un panel, los filtros se aplican a todo el contenido del panel.
-Para obtener información sobre cómo usar la zona de colocación de filtros en un panel para filtrar el panel, consulte [Zona de colocación](/help/analysis-workspace/c-panels/panels.md#drop-zone) en [Información general de paneles](/help/analysis-workspace/c-panels/panels.md).
+* Adición de segmentos a un panel
+Cuando agrega segmentos a un panel, los segmentos se aplican a todo el contenido del panel.
+Para obtener información sobre cómo usar la zona de colocación de segmentos en un panel para segmentar el panel, consulte [Zona de colocación](/help/analysis-workspace/c-panels/panels.md#drop-zone) en [Información general de paneles](/help/analysis-workspace/c-panels/panels.md).
 
-* Añadir filtros a una visualización
-Cuando se añaden filtros a una columna de una tabla de forma libre, los filtros se aplican a todo el contenido de la columna de la tabla. También puede agregar filtros como parte de una visualización de visitas en el orden previsto.
+* Añadir segmentos a una visualización
+Cuando se añaden segmentos a una columna de una tabla de forma libre, los segmentos se aplican a todo el contenido de la columna de la tabla. También puede agregar segmentos como parte de una visualización de visitas en el orden previsto.
 
-* Uso de filtros en componentes
-Al definir componentes como [métricas calculadas](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [anotaciones](/help/components/annotations/create-annotations.md#annotation-builder) o incluso [filtros](/help/components/filters/filter-builder.md), puede usar filtros como parte de la definición.
+* Uso de segmentos en componentes
+Al definir componentes como [métricas calculadas](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [anotaciones](/help/components/annotations/create-annotations.md#annotation-builder) o incluso [segmentos](/help/components/filters/filter-builder.md), puede usar filtros como parte de la definición.
 
 
 ### Adición de intervalos de fechas a un proyecto
