@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
-source-wordcount: '4282'
+source-wordcount: '4288'
 ht-degree: 27%
 
 ---
@@ -419,7 +419,7 @@ La interfaz de uso utiliza las siguientes métricas
 
 La interfaz de uso consta de dos paneles:
 
-* Panel **[!UICONTROL Métricas de uso de claves]**: proporciona filas de informes de datos principales e históricos. The panel also tracks percentage changes compared to the previous month for both core and historical data rows.
+* Panel **[!UICONTROL Métricas de uso de claves]**: proporciona filas de informes de datos principales e históricos. El panel también realiza un seguimiento de los cambios porcentuales en comparación con el mes anterior, tanto para las filas de datos principales como para las históricas.
 
   El panel se muestra en una visualización:
 
@@ -485,3 +485,5 @@ La interfaz de uso consta de dos paneles:
 >[!MORELIKETHIS]
 >
 >[Ver, solucionar problemas y modificar la configuración de conexión](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja) tutorial.
+>[Administre su uso de Customer Journey Analytics](/help/technotes/estimate-usage.md)
+>
