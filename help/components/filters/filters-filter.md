@@ -1,29 +1,29 @@
 ---
 description: Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
-title: Filtrar la lista de filtros
+title: Filtrado de la lista de segmentos
 feature: Filters
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 7%
+source-wordcount: '176'
+ht-degree: 25%
 
 ---
 
-# Filtrar la lista de filtros
+# Filtrado de la lista de segmentos
 
-Puede filtrar la lista de filtros. El uso de un filtro en los filtros facilita la búsqueda de los filtros que están disponibles para usted y la administración de filtros desde el [Administrador de filtros](manage-filters.md).
+Puede filtrar la lista de segmentos. El uso de un filtro en los segmentos facilita la búsqueda de los segmentos que están disponibles para usted y la administración de segmentos desde el [Administrador de segmentos](manage-filters.md).
 
 >[!NOTE]
 >
->La lista de filtros hace referencia a la [lista de filtros](manage-filters.md#filters-list) como parte de [Administrador de filtros](manage-filters.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [y parte de ese mismo [Administrador de filtros](manage-filters.md).](manage-filters.md#filter-panel)
+>La lista de segmentos hace referencia a la [lista de segmentos](manage-filters.md#filters-list) como parte de [Administrador de segmentos](manage-filters.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [y parte de ese mismo [Administrador de segmentos](manage-filters.md).](manage-filters.md#filter-panel)
 >
 
 
-Para filtrar la lista de filtros:
+Para filtrar la lista de segmentos:
 
-1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesita más espacio para la lista Filtros, puede seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
+1. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesitas más espacio para la lista Filtros, puedes seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
 1. Seleccione filtros de cualquiera de las [secciones de filtros](#filter-sections) disponibles.
 
    >[!INFO]
@@ -53,4 +53,4 @@ Las secciones de filtro disponibles son las siguientes:
 {{otherfiltersfiltersection}}
 
 
-La [lista de filtros](manage-filters.md#filters-list) se actualiza automáticamente según la configuración del filtro. Puede ver los filtros configurados en la [barra de filtros activa](manage-filters.md#active-filter-bar).
+La [lista de filtros](manage-filters.md#filters-list) se actualiza automáticamente según la configuración del filtro. Puedes ver los filtros configurados en la [barra de filtros activa](manage-filters.md#active-filter-bar).

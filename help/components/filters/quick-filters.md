@@ -1,19 +1,19 @@
 ---
-description: Uso de filtros rápidos en Analysis Workspace para Customer Journey Analytics
-title: Filtros rápidos
+description: Uso de segmentos rápidos en Analysis Workspace para Customer Journey Analytics
+title: Segmentos rápidos
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: ht
-source-wordcount: '1170'
-ht-degree: 100%
+source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 59%
 
 ---
 
-# Filtros rápidos
+# Segmentos rápidos
 
-Los filtros rápidos le permiten explorar datos rápidamente dentro de un proyecto de Workspace, sin necesidad de crear un filtro en [Generador de filtros](/help/components/filters/create-filters.md).
+Los segmentos rápidos le permiten explorar datos dentro de un proyecto de Workspace rápidamente, sin necesidad de crear un segmento en el [Generador de segmentos](/help/components/filters/create-filters.md).
 
 
 
@@ -24,46 +24,46 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos 
 >[!ENDSHADEBOX]
 
 
-Si desea utilizar filtros rápidos, tenga en cuenta lo siguiente:
+Si desea utilizar segmentos rápidos, tenga en cuenta lo siguiente:
 
-* Los filtros rápidos se crean directamente en un proyecto de Workspace. Como resultado, un filtro rápido se aplica solo al proyecto de Workspace en el que crea el filtro rápido. Los filtros rápidos del proyecto de Workspace no están disponibles en otros proyectos y no se pueden compartir con otros usuarios.
-* Solo se pueden especificar tres condiciones como parte de un filtro rápido.
-* Los filtros rápidos no admiten contenedores anidados ni condiciones secuenciales.
-* Puede editar filtros rápidos dentro de un proyecto compartido de Workspace. Por lo tanto, otros usuarios pueden editar los filtros rápidos de un proyecto de Workspace que haya compartido con estos usuarios.
+* Los segmentos rápidos se crean directamente en un proyecto de Workspace. Como resultado, un segmento rápido se aplica solo al proyecto de Workspace en el que crea el segmento rápido. Los segmentos rápidos del proyecto de Workspace no están disponibles en otros proyectos y no se pueden compartir con otros usuarios.
+* Solo puede especificar tres condiciones como parte de un segmento rápido.
+* Los segmentos rápidos no admiten contenedores anidados ni condiciones secuenciales.
+* Puede editar segmentos rápidos dentro de un proyecto compartido de Workspace. Por lo tanto, otros usuarios pueden editar los segmentos rápidos de un proyecto de Workspace que haya compartido con estos usuarios.
 
 ## Crear
 
-Los filtros rápidos se aplican a los paneles. Puede crear uno o más filtros rápidos para cada panel del proyecto de Workspace. Cualquier usuario de Analysis Workspace puede crea filtros rápidos.
+Los segmentos rápidos se aplican a los paneles. Puede crear uno o más segmentos rápidos para cada panel del proyecto de Workspace. Cualquier usuario de Analysis Workspace puede crear segmentos rápidos.
 
-Para crear un filtro rápido:
+Para crear un segmento rápido haga lo siguiente:
 
-* Seleccione ![FilterAdd](/help/assets/icons/FilterAdd.svg) en la parte superior del panel. <br/>A continuación, edite directamente el filtro en el [Generador de filtros rápidos](#quick-filter-builder).
-* Arrastre un componente desde el panel de componentes hasta la zona de colocación de filtros del encabezado del panel. Una vez colocado, pase el puntero por encima del ratón sobre el filtro y seleccione ![Editar](/help/assets/icons/Edit.svg) para editar el filtro en el [Generador de filtros rápidos](#quick-filter-builder).
+* Seleccione ![SegmentAdd](/help/assets/icons/FilterAdd.svg) en la parte superior del panel. <br/>A continuación, edite directamente el segmento en el [Generador de segmentos rápidos](#quick-filter-builder).
+* Arrastre un componente desde el panel de componentes a la zona de colocación de segmentos en el encabezado del panel. Una vez colocado, pasa el ratón sobre el segmento y selecciona ![Editar](/help/assets/icons/Edit.svg) para editar el segmento en el [Generador de segmentos rápidos](#quick-filter-builder).
 
-Cuando cree un filtro rápido arrastrando y soltando, tenga en cuenta lo siguiente:
+Cuando cree un segmento rápido arrastrando y soltando, tenga en cuenta lo siguiente:
 
-* No se admiten todos los tipos de componentes. Las métricas calculadas no son compatibles y solo son compatibles las dimensiones y métricas a partir de las cuales se pueden crear filtros.
-* En el caso de los componentes de dimensiones y métricas, el [Generador de filtros rápidos](#quick-filter-builder) crea automáticamente una condición `exists`. Por ejemplo, si arrastra y suelta `City`, se creará la condición `City exists`.
-* En el caso de los valores de dimensión, el [Generador de filtros rápidos](#quick-filter-builder) crea automáticamente una condición `equals`. Por ejemplo, si arrastra y suelta `amsterdam` desde la dimensión `City`, se creará la condición `City equals amsterdam`.
-* Si arrastra y suelta `unspecified` o `none`, el [Generador de filtros rápidos](#quick-filter-builder) creará automáticamente una condición `does not exist`.
+* No se admiten todos los tipos de componentes. Las métricas calculadas no son compatibles, y solo son compatibles las dimensiones y métricas desde las que se pueden crear segmentos.
+* Para los componentes de dimensiones y métricas, el [Generador de segmentos rápidos](#quick-filter-builder) crea automáticamente una condición `exists`. Por ejemplo, si arrastra y suelta `City`, se creará la condición `City exists`.
+* Para los valores de dimensión, el [Generador de segmentos rápidos](#quick-filter-builder) crea automáticamente una condición `equals`. Por ejemplo, si arrastra y suelta `amsterdam` desde la dimensión `City`, se creará la condición `City equals amsterdam`.
+* Si arrastra y suelta `unspecified` o `none`, el [Generador de segmentos rápidos](#quick-filter-builder) crea automáticamente una condición `does not exist`.
 
-Los filtros rápidos que cree aparecerán en la parte superior del panel. Los filtros rápidos tienen una barra izquierda fina de color azul claro. Cuando un filtro rápido se encuentra en modo de edición con el [Generador de filtros rápidos](#quick-filter-builder), el fondo del filtro rápido es de color azul claro.
+Los segmentos rápidos que cree aparecerán en la parte superior del panel. Los segmentos rápidos tienen una barra izquierda fina de color azul claro. Cuando un segmento rápido se encuentra en modo de edición con el [Generador de segmentos rápidos](#quick-filter-builder), el fondo del segmento rápido es de color azul claro.
 
-Los resultados de los filtros rápidos que cree en un panel se aplican (mediante la lógica AND) a todas las visualizaciones que forman parte del panel.
+Los resultados de los segmentos rápidos que cree en un panel se aplican (mediante la lógica AND) a todas las visualizaciones que forman parte del panel.
 
 
 ## Administrar
 
-Para administrar un filtro rápido, pase el puntero del ratón por encima de **[!UICONTROL Filtro rápido]** específico.
+Para administrar un segmento rápido, pasa el ratón sobre el **[!UICONTROL segmento rápido]** específico.
 
-* Seleccione ![Editar](/help/assets/icons/Edit.svg) para abrir el [Generador de filtros rápidos](#quick-filter-builder) y edite el filtro rápido.
-* Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para abrir una ventana emergente. La ventana emergente muestra información sobre el filtro. Puede seleccionar **[!UICONTROL Poner a disposición de todos los proyectos y añadir a su lista de componentes]** para añadir el filtro a la lista de componentes ![Filtro](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filtros]** en el panel de componentes. Verá un cuadro de diálogo **[!UICONTROL Guardar filtro rápido]**, que le pedirá que especifique un nombre para el filtro. Seleccione **[!UICONTROL Guardar]** para continuar. Su [!UICONTROL filtro rápido] se convierte en un **[!UICONTROL Filtro]**. Ya no puede editar el filtro con el [Generador de filtros rápidos](#quick-filter-builder). En su lugar, debe editar el filtro como un filtro normal, usando el [Generador de filtros](filter-builder.md).
+* Seleccione ![Editar](/help/assets/icons/Edit.svg) para abrir el [Generador de segmentos rápidos](#quick-filter-builder) y editar el segmento rápido.
+* Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para abrir una ventana emergente. La ventana emergente muestra información sobre el filtro. Puede seleccionar **[!UICONTROL Poner a disposición de todos los proyectos y agregar a su lista de componentes]** Para agregar el segmento a la lista de componentes ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** en el panel de componentes. Aparece el cuadro de diálogo **[!UICONTROL Guardar segmento rápido]**, que le solicita que especifique un nombre para el segmento. Seleccione **[!UICONTROL Guardar]** para continuar. Tu [!UICONTROL segmento rápido] se convierte en un **[!UICONTROL segmento]**. Ya no puede editar el segmento con el [Generador de segmentos rápidos](#quick-filter-builder). En su lugar, debe editar el segmento como segmento normal con el [Generador de segmentos](filter-builder.md).
 
-## Generador de filtros rápidos
+## Generador de segmentos rápidos
 
-Consulte a continuación un ejemplo del Generador de filtros rápidos. En el ejemplo, se abre el generador para un filtro rápido denominado `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Ambos filtros rápidos de la parte superior se aplican al panel [!UICONTROL Tablero Valor de pedido promedio] y a todas las visualizaciones que contiene, como la tabla de forma libre [!UICONTROL Valor de pedido promedio por país].
+Consulte a continuación un ejemplo del Generador de segmentos rápidos. En el ejemplo, se abre el generador para un filtro rápido denominado `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Ambos filtros rápidos de la parte superior se aplican al panel [!UICONTROL Tablero Valor de pedido promedio] y a todas las visualizaciones que contiene, como la tabla de forma libre [!UICONTROL Valor de pedido promedio por país].
 
-![Generador de filtros rápidos](assets/quick-filter-builder.png)
+![Generador de segmentos rápidos](assets/quick-filter-builder.png)
 
 El generador de filtros rápidos consta de las siguientes áreas y botones.
 
