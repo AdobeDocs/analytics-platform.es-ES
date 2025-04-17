@@ -4,10 +4,10 @@ title: Monitorización del estado del diccionario de datos
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 87%
+ht-degree: 78%
 
 ---
 
@@ -49,6 +49,6 @@ Para identificar problemas de estado en el diccionario de datos:
 
    * [!UICONTROL **los componentes no tienen datos conectados**]
 
-   Según lo que seleccione, el filtro adecuado se aplica al diccionario de datos y solo se muestran los componentes relevantes.
+   Según lo que seleccione, el segmento adecuado se aplicará al diccionario de datos y solo se mostrarán los componentes relevantes.
 
 1. Edite cualquiera de los componentes para mejorar el estado del diccionario de datos. Para obtener información acerca de cómo editar un componente en el diccionario de datos, consulte [Editar entradas de componentes en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).

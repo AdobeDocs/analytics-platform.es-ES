@@ -1,22 +1,22 @@
 ---
-description: El filtrado en métricas individuales le permite realizar comparaciones de métricas dentro del mismo informe.
-title: Métricas filtradas
+description: La segmentación de métricas individuales le permite realizar comparaciones de métricas dentro del mismo informe.
+title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 2f87afb9c87b0436ee40cc67a04d99d4f4f10e74
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
 
-# Métricas filtradas
+# Métricas segmentadas
 
-En el [Creador de métricas calculadas](cm-build-metrics.md#definition-builder), puede aplicar filtros dentro de su definición de métrica. La aplicación de filtros es útil si desea utilizar métricas para un subconjunto de los datos en el análisis.
+En el [Creador de métricas calculadas](cm-build-metrics.md#definition-builder), puede aplicar segmentos dentro de su definición de métrica. La aplicación de segmentos resulta útil si desea utilizar métricas para un subconjunto de los datos en el análisis.
 
 >[!NOTE]
 >
->Las definiciones de filtros se actualizan a través de [Generador de filtros](/help/components/filters/filter-builder.md). Si realiza un cambio en un filtro, este se actualiza automáticamente en todos los lugares en los que se utiliza, incluso si el filtro forma parte de una definición de métrica calculada.
+>Las definiciones de segmentos se actualizan a través de [Generador de segmentos](/help/components/filters/filter-builder.md). Si realiza un cambio en un segmento, este se actualiza automáticamente en cualquier lugar donde se utilice, incluso si forma parte de una definición de métrica calculada.
 >
 
 Desea comparar las métricas de los alemanes que interactúan con su marca con las de otros fuera de Alemania. Por lo tanto, puede responder preguntas como:
@@ -25,36 +25,36 @@ Desea comparar las métricas de los alemanes que interactúan con su marca con l
 1. ¿Cuántas personas alemanas versus internacionales en [total](#totals) han interactuado en línea con su marca este mes?
 1. ¿Cuáles son los [porcentajes](#percentages) de alemanes y personas internacionales que han visitado tus páginas populares?
 
-Consulte las secciones siguientes para ilustrar cómo las métricas filtradas pueden ayudarle a responder a estas preguntas. Si procede, se hace referencia a documentación más detallada.
+Consulte las secciones siguientes para ilustrar cómo las métricas segmentadas pueden ayudarle a responder a estas preguntas. Si procede, se hace referencia a documentación más detallada.
 
 ## Páginas populares
 
 1. [Cree una métrica calculada](cm-workflow.md) a partir de un proyecto de Workspace, denominado `German people`.
-1. Desde el [Creador de métricas calculadas](cm-build-metrics.md), [cree un filtro](/help/components/filters/filter-builder.md), con el título `Germany`, que use el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
+1. Desde el [Creador de métricas calculadas](cm-build-metrics.md), [cree un segmento](/help/components/filters/filter-builder.md), con el título `Germany`, que use el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
 
    >[!TIP]
    >
-   >En el Creador de métricas calculadas, puede crear un filtro directamente mediante el panel Componentes.
+   >En el Creador de métricas calculadas, puede crear un segmento directamente mediante el panel Componentes.
    >   
 
-   El filtro podría tener el aspecto siguiente.
+   El segmento podría tener el aspecto siguiente:.
 
    ![Filtrar Alemania](assets/filter-germany.png)
 
-1. De nuevo en el Creador de métricas calculadas, utilice el filtro para actualizar la métrica calculada.
+1. En el Creador de métricas calculadas, utilice el segmento para actualizar la métrica calculada.
 
    ![Métrica calculada Alemania](assets/calculated-metric-germany.png)
 
 Repita los pasos anteriores para la versión internacional de la métrica calculada.
 
 1. Cree una métrica calculada a partir del proyecto de Workspace, con el título `International people`.
-1. Desde el Creador de métricas calculadas, cree un filtro, con el título `Not Germany`, que use el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
+1. Desde el Creador de métricas calculadas, cree un segmento con el título `Not Germany` que esté usando el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
 
-   El filtro debe tener el aspecto siguiente:.
+   El segmento debería tener el aspecto siguiente:.
 
    ![Filtrar Alemania](assets/filter-not-germany.png)
 
-1. De nuevo en el Creador de métricas calculadas, utilice el filtro para actualizar la métrica calculada.
+1. En el Creador de métricas calculadas, utilice el segmento para actualizar la métrica calculada.
 
    ![Métrica calculada Alemania](assets/calculated-metric-notgermany.png)
 
@@ -66,7 +66,7 @@ Repita los pasos anteriores para la versión internacional de la métrica calcul
 
 ## Totales
 
-1. Cree dos nuevos filtros basados en el Total general. Abra todos los filtros creados anteriormente, cambie el nombre del filtro, establezca el **[!UICONTROL Tipo de métrica]** para **[!UICONTROL Personas]** en **[!UICONTROL Total general]** y use **[!UICONTROL Guardar como]** para guardar el filtro con el nuevo nombre. Por ejemplo:
+1. Cree dos nuevos segmentos basados en el Total general. Abra cada uno de los segmentos creados anteriormente, cambie el nombre del segmento, establezca el **[!UICONTROL Tipo de métrica]** para **[!UICONTROL Personas]** en **[!UICONTROL Total general]** y use **[!UICONTROL Guardar como]** para guardar el segmento con el nuevo nombre. Por ejemplo:
 
    ![Métrica total para Alemania](assets/calculated-metric-germany-total.png)
 
@@ -90,7 +90,7 @@ Repita los pasos anteriores para la versión internacional de la métrica calcul
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada filtrada como métrica sin implementación](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

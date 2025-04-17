@@ -1,14 +1,14 @@
 ---
-description: Administrar la ubicación de exportación de la nube a la que se pueden enviar los datos del Customer Journey Analytics
+description: Administre la ubicación de exportación de la nube a la que se pueden enviar los datos de Customer Journey Analytics
 keywords: Analysis Workspace
 title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 1%
+source-wordcount: '1371'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 ### Filtrado de la lista de ubicaciones
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Ubicaciones**].
 
@@ -34,9 +34,9 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
    Puede filtrar por los siguientes criterios:
 
-   | Filtro | Descripción |
+   | Filtrar | Descripción |
    |---------|----------|
-   | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **SAS de Azure**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Plataforma de Google Cloud**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Cuenta**] | El nombre de la cuenta a la que está asociada la ubicación. |
    | [!UICONTROL **Creado por**] | La dirección de correo electrónico del usuario que creó la ubicación. |
 
@@ -44,7 +44,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 ### Buscar ubicaciones
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Ubicaciones**].
 
@@ -58,7 +58,7 @@ Una ubicación solo la puede editar el usuario que la creó o un administrador d
 
 Para editar una ubicación:
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Ubicaciones**].
 
@@ -78,7 +78,7 @@ Si elimina una ubicación, también se eliminarán todas las exportaciones que u
 
 Para eliminar una ubicación:
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Ubicaciones**].
 
@@ -104,7 +104,7 @@ Solamente el usuario que la creó o un administrador del sistema pueden editar u
 
 Para editar una cuenta:
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
 
@@ -122,7 +122,7 @@ Después de crear una cuenta, puede ver todas las claves de cuenta asociadas a e
 
 Para ver las claves asociadas a una cuenta de exportación:
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
 
@@ -134,7 +134,7 @@ Para ver las claves asociadas a una cuenta de exportación:
 
 ## Eliminar cuentas
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
 
@@ -225,9 +225,9 @@ Para limitar los tipos de cuentas disponibles para los usuarios al crear y utili
 
    * [!UICONTROL **ARN de la función Amazon S3**]
 
-   * [!UICONTROL **Plataforma de Google Cloud**]
+   * [!UICONTROL **Google Cloud Platform**]
 
-   * [!UICONTROL **SAS de Azure**]
+   * [!UICONTROL **Azure SAS**]
 
    * [!UICONTROL **Azure RBAC**]
 

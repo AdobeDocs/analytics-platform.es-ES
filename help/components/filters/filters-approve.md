@@ -1,29 +1,29 @@
 ---
-description: Puede configurar un flujo de trabajo que incluya la aprobación de filtros para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
-title: Aprobar filtros
+description: Puede configurar un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
+title: Aprobar segmentos
 feature: Filters
 exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
 role: User
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
 
 ---
 
-# Aprobar filtros
+# Aprobar segmentos
 
-En el [Administrador de filtros](manage-filters.md), puede aprobar y desaprobar filtros. Solo los administradores pueden aprobar filtros.
+En [Administrador de segmentos](manage-filters.md), puede aprobar y desaprobar segmentos. Solo los administradores pueden aprobar segmentos.
 
-Para aprobar filtros:
+Para aprobar segmentos:
 
-1. En el [Administrador de filtros](manage-filters.md), seleccione uno o varios de los filtros que desee aprobar.
-1. En la barra de acciones, seleccione ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. Los filtros aprobados se indican con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
+1. En [Administrador de segmentos](manage-filters.md), seleccione uno o varios de los segmentos que desee aprobar.
+1. En la barra de acciones, seleccione ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. Los segmentos aprobados se indican con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
-Para desaprobar filtros:
+Para desaprobar segmentos:
 
-1. En el [Administrador de filtros](manage-filters.md), seleccione uno o varios de los filtros que desea desaprobar.
+1. En el [Administrador de segmentos](manage-filters.md), seleccione uno o varios de los segmentos que desee desaprobar.
 1. En la barra de acciones, seleccione ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Desaprobar]**.
 
 
-Puede filtrar la lista de filtros por filtros aprobados. Seleccione **[!UICONTROL Otros filtros]** del panel ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** y seleccione **[!UICONTROL Aprobado]**. Ver [Filtrar la lista de filtros](/help/components/filters/filters-filter.md) para obtener más información.
+Puede segmentar la lista de segmentos por segmentos aprobados. Seleccione **[!UICONTROL Otros segmentos]** del panel ![Segmento](/help/assets/icons/Filter.svg) **[!UICONTROL Segmento]** y seleccione **[!UICONTROL Aprobado]**. Consulte [Segmentar la lista de segmentos](/help/components/filters/filters-filter.md) para obtener más información.
