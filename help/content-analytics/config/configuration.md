@@ -1,6 +1,6 @@
 ---
-title: Configuración de Content Analytics
-description: Información general sobre la configuración de Content Analytics
+title: Configuración del análisis de contenido
+description: Información general sobre cómo configurar el análisis de contenido
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
@@ -8,11 +8,11 @@ exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
 source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Configuración de Content Analytics
+# Configuración del análisis de contenido
 
 {{release-limited-testing}}
 
@@ -34,8 +34,8 @@ La configuración de Content Analytics consta de los siguientes pasos:
 
 Antes de configurar Content Analytics, asegúrese de que se cumplen los siguientes requisitos previos:
 
-* Ha incluido en la lista de permitidos el agente de usuario y la dirección IP para el servicio de funcionalidad que se utiliza en Content Analytics. La cadena del agente de usuario que se va a configurar es: <code>AdobeFeaturization/1.0</code>.
-* Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> para la biblioteca de JavaScript.
+* Ha incluido en la lista de permitidos el agente de usuario y la dirección IP para el servicio de caracterización que se utiliza en el análisis de contenido. La cadena del agente de usuario que se va a configurar es: <code>AdobeFeaturization/1.0</code>.
+* Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> para la biblioteca de JavaScript.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y vistas de datos.
 * Si considera recopilar experiencias de Content Analytics, asegúrese de configurar y actualizar [el control de versiones de Content Analytics](manual.md#versioning) en función de los cambios realizados en sus páginas web.
 * Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}:
@@ -46,8 +46,8 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
    * Su sitio es adecuado para los informes de experiencias. Un sistema de informes de experiencia adecuado solo es posible cuando se cumplen las siguientes condiciones:
       * Las páginas del sitio deben poder reproducirse utilizando la dirección URL de la página.
       * El contenido de texto que vea un usuario determinado se puede reproducir mediante la dirección URL de la página y no depende de las cookies u otros mecanismos de personalización.
-   * Tiene una comprensión clara de qué páginas desea capturar el análisis de participación del contenido y las perspectivas.
-   * Tiene una comprensión clara de qué recursos (tipo de) desea capturar el análisis y las perspectivas de participación en el contenido.
+   * Tiene una idea clara de las páginas para las que desea capturar el análisis e información de participación del contenido.
+   * Tiene una idea clara de para qué (tipo de) recursos desea capturar el análisis y la información de participación en el contenido.
 
 
 ## Control de acceso

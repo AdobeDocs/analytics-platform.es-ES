@@ -1,5 +1,5 @@
 ---
-title: Evalúe durante cuánto tiempo necesita Adobe Analytics después de actualizar a Customer Journey Analytics
+title: Evalúe cuánto tiempo necesita Adobe Analytics después de actualizar a Customer Journey Analytics
 description: Obtenga información sobre cómo evaluar cuánto tiempo necesita Adobe Analytics después de actualizar a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -8,7 +8,7 @@ exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-keep-aa"
 >title="Mantener ambos productos de análisis"
->abstract="(No recomendado) Si selecciona esta opción, el contrato con Adobe incluye tanto Adobe Analytics como Customer Journey Analytics, lo que puede resultar más caro para su organización con el tiempo."
+>abstract="(No recomendado) Si selecciona esta opción, el contrato con Adobe incluye tanto Adobe Analytics como Customer Journey Analytics, lo que puede resultar más caro para su organización a lo largo del tiempo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,8 +63,8 @@ A la hora de decidir si su organización debe deshabilitar Adobe Analytics y cu�
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-appmeasurement-third-pary"
->title="Deshabilitación de un sistema de administración de etiquetas de terceros"
->abstract="Con los datos del SDK web completamente funcionales, colabore con su administrador de etiquetas para quitar la biblioteca de AppMeasurement de su sistema de administración de etiquetas de terceros.<br><br>El tiempo estimado para realizar este paso depende de la facilidad con que se deshabilite AppMeasurement del producto de administración de etiquetas, así como del ciclo de lanzamiento que emplee su organización para implementar y administrar el código de etiquetas."
+>title="Desactivar un sistema de administración de etiquetas de terceros"
+>abstract="Con los datos de Web SDK completamente funcionales, colabore con su administrador de etiquetas para quitar la biblioteca de AppMeasurement de su sistema de administración de etiquetas de terceros.<br><br>El tiempo estimado para realizar este paso depende de la facilidad con que se deshabilite AppMeasurement del producto de administración de etiquetas, así como del ciclo de lanzamiento que emplee su organización para implementar y administrar el código de etiquetas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -88,7 +88,7 @@ A la hora de decidir si su organización debe deshabilitar Adobe Analytics y cu�
 
 La implementación de Adobe Analytics existente es una parte clave para una actualización correcta a Customer Journey Analytics, como se describe en la sección anterior, [Usos de Adobe Analytics durante y después de una actualización](#uses-of-adobe-analytics-during-and-after-an-upgrade).
 
-Cuando ya no necesite Adobe Analytics para los fines descritos en la sección anterior, utilice la siguiente información para eliminar Adobe Analytics:
+Cuando ya no necesite Adobe Analytics para los fines descritos en la sección anterior, utilice la siguiente información para quitar Adobe Analytics:
 
 1. Deje de recopilar datos con Adobe Analytics.
 
@@ -100,7 +100,7 @@ Cuando ya no necesite Adobe Analytics para los fines descritos en la sección an
 
 +++ AppMeasurement
 
-   [Deshabilitar la recopilación de datos de AppMeasurement](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md).
+   [Deshabilitación de la recopilación de datos de AppMeasurement](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
 
 +++
 
@@ -112,27 +112,27 @@ Cuando ya no necesite Adobe Analytics para los fines descritos en la sección an
 
 +++ API
 
-   Deshabilite la recopilación de datos API.
+   Deshabilite la recopilación de datos de la API.
 
 +++
 
 +++ Terceros
 
-   Póngase en contacto con el administrador de etiquetas para eliminar la biblioteca de AppMeasurement de su sistema de administración de etiquetas de terceros.
+   Trabaje con su administrador de etiquetas para quitar la biblioteca de AppMeasurement de su sistema de administración de etiquetas de terceros.
 
 +++
 
-1. Elimine Adobe Analytics como servicio del conjunto de datos.
+1. Elimine Adobe Analytics como servicio de la secuencia de datos.
 
-   Con los datos de Web SDK completamente funcionales, colabore con el administrador de la plataforma para quitar Adobe Analytics como servicio del conjunto de datos.
+   Con los datos de SDK web completamente funcionales, colabore con su administrador de Platform para eliminar Adobe Analytics como servicio de la secuencia de datos.
 
-   Antes de eliminar Adobe Analytics as a service, asegúrese de que los usuarios de Analytics utilicen Customer Journey Analytics y no Adobe Analytics.
+   Antes de eliminar Adobe Analytics como servicio, asegúrese de que los usuarios de Analytics utilizan Customer Journey Analytics y no Adobe Analytics.
 
-1. Elimine completamente el conector de origen de Analytics.
+1. Elimine por completo el conector de origen de Analytics.
 
    Después de haber recopilado suficientes datos históricos en Customer Journey Analytics con la nueva implementación de Web SDK, puede quitar el conector de origen de Analytics por completo.
 
-   Haga esto cuando ya no necesite los datos históricos de su entorno de Adobe Analytics a través del conector de origen de Analytics y pueda confiar únicamente en los datos históricos que recopiló con la nueva implementación de Web SDK.
+   Hágalo cuando ya no necesite los datos históricos de su entorno de Adobe Analytics a través del conector de origen de Analytics y pueda confiar únicamente en los datos históricos que recopiló con la nueva implementación del SDK web.
 
 {{upgrade-final-step}}
 

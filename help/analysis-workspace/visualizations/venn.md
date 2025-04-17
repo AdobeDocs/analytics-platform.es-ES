@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 59%
+ht-degree: 73%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización Venn en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Venn](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de Venn en_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**._<br/>_Consulte [Venn](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/venn) para ver la versión de_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 

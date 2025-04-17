@@ -1,5 +1,5 @@
 ---
-description: Obtenga información acerca de la función Flujo que muestra las rutas del cliente en sus sitios web y aplicaciones.
+description: Obtenga información sobre la función Flujo que muestra las rutas del cliente en sus sitios web y aplicaciones.
 title: Resumen de flujos
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 38%
+ht-degree: 96%
 
 ---
 
@@ -30,23 +30,23 @@ ht-degree: 38%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de flujo en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Flujo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualización Flujo en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Flujo ](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 
-La visualización ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** muestra las rutas del cliente en sus sitios web y aplicaciones.
+La visualización ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flujo]** muestra las rutas del cliente en sus sitios web y aplicaciones.
 
 Con la visualización puede:
 
-* Visualice el recorrido del cliente a través de su sitio web o aplicación.
-* Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida.
+* Visualizar el recorrido del cliente a lo largo de su sitio web o aplicación
+* Analizar a qué lugares acceden los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
 * Cree segmentos mediante la designación de un punto específico en una ruta elegida.
 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una visualización de flujo](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una visualización de flujo](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -61,25 +61,25 @@ Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y su
 
 >[!MORELIKETHIS]
 >
->[Configuración de una visualización de flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Configure una visualización de flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
-## Elija entre las visualizaciones de flujo, visitas en el orden previsto o lienzo de Recorrido
+## Elija entre las visualizaciones de flujo, visitas en el orden previsto o lienzo de recorrido
 
-La visualización de flujo tiene similitudes con la [visualización de visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y la [visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), pero con diferencias importantes.
+La visualización de flujo tiene similitudes con la [visualización de visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y la [visualización del lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), pero con diferencias importantes.
 
-### Comprender las diferencias
+### Conocer las diferencias
 
 <!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
 
 {{journey-visualization-comparisons}}
 
-### Cuándo usar Flujo
+### Cuándo utilizar Flujo
 
 Las visualizaciones de flujo son las más adecuadas para:
 
-* Análisis exploratorio y ad hoc para el siguiente punto de contacto inmediato en la ruta. (Utilice lienzo de Recorrido para los recorridos con una secuencia de páginas predefinidas o los que utilicen una ruta final).
+* Un análisis exploratorio y ad hoc para el siguiente punto de contacto inmediato en la ruta. (Utilice el lienzo de recorridos para ver los recorridos con una secuencia de páginas predefinidas o los que utilicen una ruta final).
 
-* Recorridos no lineales con varios puntos de entrada y rutas. (Utilice lienzo de Recorrido para recorridos con una secuencia de páginas predefinidas).
+* Recorridos no lineales con varios puntos de entrada y rutas. (Utilice el lienzo de recorridos para ver los recorridos con una secuencia de páginas predefinidas).
 
-Use [la tabla anterior](#understand-the-differences) para comprender las diferencias entre el flujo, las visitas en el orden previsto y el lienzo de Recorrido.
+Utilice [la tabla anterior](#understand-the-differences) para conocer las diferencias entre el flujo, las visitas en el orden previsto y el lienzo de recorridos.

@@ -8,24 +8,24 @@ exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
 source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 7%
+ht-degree: 99%
 
 ---
 
 # Datos de resumen
 
-Los datos de resumen son datos de series temporales que no están vinculados a un ID de persona individual. Los datos de resumen representan datos agregados en un nivel diferente de agregación, por ejemplo campañas. Puede utilizar estos datos en Customer Journey Analytics para admitir varios casos de uso. Por ejemplo, datos que contengan una fecha y un único valor de métrica, o datos que contengan varias dimensiones y métricas.
+Datos de series temporales que no están vinculadas a un ID de persona individual. Los datos de resumen representan datos agregados en un nivel diferente de agregación, por ejemplo campañas. Puede utilizar estos datos en Customer Journey Analytics para admitir varios casos de uso. Por ejemplo, datos que contengan una fecha y un único valor de métrica, o datos que contengan varias dimensiones y métricas.
 
-Estos datos de resumen se pueden utilizar para presentar indicadores de rendimiento de alto nivel o realizar análisis. Algunos ejemplos de datos de resumen pueden ser impresiones publicitarias, aperturas de correo electrónico, gasto en publicidad, coste del bien vendido, índices de S&amp;P y mucho más. También puede usar datos de resumen para cargar objetivos por hora o por día.
+A continuación, estos datos de resumen se pueden utilizar para presentar indicadores de rendimiento de alto nivel o realizar análisis. Algunos ejemplos de datos de resumen pueden ser impresiones publicitarias, aperturas de correo electrónico, el gasto en publicidad, el coste de un producto vendido, índices de S&amp;P, etc. También puede utilizar datos de resumen para cargar objetivos o metas por hora o por día.
 
 >[!NOTE]
 >
->Los datos de resumen son datos de series temporales de un conjunto de datos de resumen. Ese conjunto de datos de resumen se basa en un esquema que utiliza la clase Métricas de resumen de XDM como clase base.
+>Los datos de resumen son datos de series temporales de un conjunto de datos de resumen. Ese conjunto de datos de resumen se basa en un esquema que utiliza la clase Métricas de resumen XDM como clase base.
 >Solo se admiten datos de series temporales basados en horas o días.
 
 >[!TIP]
 >
->Puede configurar una conexión, una vista de datos y, posteriormente, un informe sobre **solo** datos de resumen. No es necesario tener datos de evento, perfil o búsqueda adicionales como parte de la configuración.
+>Puede configurar una conexión, una vista de datos y, posteriormente, elaborar un informe **solo** sobre los datos de resumen. No es necesario tener datos de evento, perfil o consulta adicionales como parte de la configuración.
 
 
 ## Ejemplo
@@ -36,32 +36,32 @@ Un ejemplo del uso de datos de resumen es la combinación de datos de campañas 
 
 Los datos del resumen contienen los siguientes datos sobre campañas publicitarias.
 
-| Código de campaña | Impresiones | Costo |
+| Código de campaña | Impresiones | Coste |
 |---|---:|---:|
-| abc123 | 1.250 | 1.500 $ |
-| def456 | 775 | 650 $ |
-| ghi789 | 500 | 500 $ |
+| abc123 | 1250 | 1500 USD |
+| def456 | 775 | 650 USD |
+| ghi789 | 500 | 500 USD |
 
 
 ### Datos de evento
 
 Los datos del flujo de navegación en el sitio contienen los eventos siguientes.
 
-| Código de seguimiento | Pulsaciones | Ingresos |
+| Código de seguimiento | Clics | Ingresos |
 |---|---:|---:|
-| abc123 | 1.250 | 7.200 $ |
-| def456 | 775 | 1.250 $ |
-| ghi789 | 500 | 750 $ |
+| abc123 | 1250 | 7200 USD |
+| def456 | 775 | 1250 USD |
+| ghi789 | 500 | 750 USD |
 
 ### Datos combinados
 
-Como se explica en [Conjunto de datos de evento combinado](/help/connections/combined-dataset.md), al definir una conexión, Customer Journey Analytics crea un conjunto de datos de evento combinado general. Al configurar la vista de datos para dimensiones que se originan de un conjunto de datos de resumen, hay opciones disponibles para agrupar y ocultar dimensiones como preparación para la creación de informes en Workspace. Específicamente para los datos de resumen, los datos de resumen se combinan con los datos de evento, según la configuración de [componente de grupo de datos de resumen](component-settings/summary-data-group.md).
+Tal como se explica en [Conjunto de datos de eventos combinados](/help/connections/combined-dataset.md), al definir una conexión, Customer Journey Analytics crea un conjunto de datos de eventos combinados general. Al configurar la vista de datos para dimensiones que se originan en un conjunto de datos de resumen, hay opciones disponibles para agrupar y ocultar dimensiones como preparación para la creación de informes en Workspace. Específicamente para los datos de resumen, los datos de resumen se combinan con los datos de evento, según la configuración de [componente de grupo de datos de resumen](component-settings/summary-data-group.md).
 
-| Código de seguimiento | Código de campaña | Impresiones | Costo | Pulsaciones | Ingresos |
+| Código de seguimiento | Código de campaña | Impresiones | Coste | Clics | Ingresos |
 |---|---|--:|--:|--:|--:|
-| abc123 | abc123 | 1.250 | 1.500 $ | 1.250 | 7.200 $ |
-| def456 | def123 | 775 | 650 $ | 775 | 1.250 $ |
-| ghi789 | ghi789 | 500 | 500 $ | 500 | 750 $ |
+| abc123 | abc123 | 1250 | 1500 USD | 1250 | 7200 USD |
+| def456 | def123 | 775 | 650 USD | 775 | 1250 USD |
+| ghi789 | ghi789 | 500 | 500 USD | 500 | 750 USD |
 
 
 
@@ -69,19 +69,19 @@ Como se explica en [Conjunto de datos de evento combinado](/help/connections/com
 
 La combinación de los datos de evento resumidos y los datos del flujo de navegación en el sitio le permite informar en Workspace sobre la rentabilidad de la inversión en publicidad (ROAS).
 
-| Código de seguimiento | Impresiones | Costo | Pulsaciones | Ingresos | ROAS |
+| Código de seguimiento | Impresiones | Coste | Clics | Ingresos | ROAS |
 |---|--:|--:|--:|--:|:--|
-| abc123 | 1.250 | 1.500 $ | 1.250 | 7.200 $ | 4,80 |
-| def456 | 775 | 650 $ | 775 | 1.250 $ | 1,92 |
-| ghi789 | 500 | 500 $ | 500 | 750 $ | 1,50 |
+| abc123 | 1250 | 1500 USD | 1250 | 7200 USD | 4,80 |
+| def456 | 775 | 650 USD | 775 | 1250 USD | 1,92 |
+| ghi789 | 500 | 500 USD | 500 | 750 USD | 1,50 |
 
 
-### Búsqueda de datos
+### Datos de búsqueda
 
 Si desea crear un informe con una dimensión definida en un conjunto de datos de búsqueda adicional (por ejemplo, el nombre de la campaña), debe seguir estos pasos adicionales:
 
-1. Cree un nuevo campo derivado que utilice la función [Lookup](/help/data-views/derived-fields/derived-fields.md#lookup) para buscar el nombre de campaña del conjunto de datos de búsqueda. En la definición de la función [Lookup](/help/data-views/derived-fields/derived-fields.md#lookup) se usa la coincidencia entre el código de campaña y el código de seguimiento para buscar el nombre de la campaña.
-1. Agregue el campo derivado recién creado como un componente de dimensión a la vista de datos.
+1. Cree un nuevo campo derivado que utilice la función [Búsqueda](/help/data-views/derived-fields/derived-fields.md#lookup) para buscar el nombre de campaña del conjunto de datos de búsqueda. En la definición de la función [Búsqueda](/help/data-views/derived-fields/derived-fields.md#lookup) se usa la coincidencia entre el código de campaña y el código de seguimiento para buscar el nombre de la campaña.
+1. Añada el campo derivado recién creado como un componente de dimensión a la vista de datos.
 1. Configure el componente de dimensión de nombre de campaña (del conjunto de datos de búsqueda) para que tenga una agrupación de datos de resumen con el campo derivado recién creado.
 
 Consulte el caso de uso [Ingesta e informe de datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un artículo detallado sobre cómo usar, informar y analizar datos de resumen en Customer Journey Analytics.
@@ -103,25 +103,25 @@ No puede combinar y hacer coincidir la granularidad horaria y diaria de los dato
 
 La zona horaria de los datos de resumen se define en el nivel de esquema de resumen en Experience Platform. La zona horaria solo se aplica a los datos granulares por hora.
 
-- Para la granularidad diaria, Experience Platform supone UTC, a menos que se incluya un desplazamiento de zona horaria en la marca de tiempo. Al agregar el conjunto de datos de resumen que contiene los datos de resumen diarios, Customer Journey Analytics ignora el conjunto de definiciones de zona horaria establecido en el esquema y respeta el día asociado a la marca de hora de los datos del conjunto de datos.
-- Para la granularidad horaria, Customer Journey Analytics respeta la zona horaria configurada en el esquema de datos de resumen en Experience Platform al interpretar la marca de tiempo. En el cuadro que figura a continuación se proporcionan algunos ejemplos de esta interpretación.
+- Para la granularidad diaria, Experience Platform supone UTC, a menos que se incluya un desplazamiento de zona horaria en la marca de tiempo. Al añadir el conjunto de datos de resumen que contiene los datos de resumen diarios, Customer Journey Analytics ignora el conjunto de definiciones de zona horaria establecido en el esquema y respeta el día asociado a la marca de hora de los datos del conjunto de datos.
+- Para la granularidad horaria, Customer Journey Analytics respeta la zona horaria configurada en el esquema de datos de resumen en Experience Platform al interpretar la marca de tiempo. En la tabla que figura a continuación se proporcionan algunos ejemplos de esta interpretación.
 
-  | Datos de origen de marca de tiempo <br/> | Timezone<br/>esquema | Marca de tiempo<br/>Experience<br/>Platform | Vista de <br/>datos de zona horaria<br/> | Marca de tiempo<br/>Cliente<br/>Recorrido<br>Analytics |
+  | Datos de origen de marca de tiempo <br/> | Esquema de zona horaria<br/> | Marca de tiempo<br/>Experience<br/>Platform | Vista de <br/>datos de zona horaria<br/> | Marca de tiempo<br/>Customer<br/>Journey<br>Analytics |
   |---|---|---|:---|---|
-  | 29-07-2024:00:00 | *GMT predeterminado* | 29-07-2024:00:00 | GMT | 29-07-2024:00:00 |
-  | 29-07-2024:00:00 | *GMT predeterminado* | 29-07-2024:00:00 | PST | 28-07-202418:00:00 |
-  | 2024-07-30T01:00:00-05:00 | *GMT predeterminado* | 30-07-2024:00:00 | GMT | 30-07-2024:00:00 |
-  | 2024-07-30T01:00:00-05:00 | *GMT predeterminado* | 30-07-2024:00:00 | PST | 29/07/2024 T23:00:00 |
-  | 02-08-2024 | *GMT predeterminado* | 02-08-2024 T00:00:00 | LISTA | 02-08-2024 T05:00:00 |
-  | 29-07-2024:00:00 | `America/`<br/>`Los_Angeles` | 28-07-202418:00:00 | PST | 28-07-202418:00:00 |
-  | 2024-07-30T01:00:00-05:00 | `Australia/`<br/>`Sydney` | 30-07-202417:00:00 | CET | 30-07-2024:00:00 |
+  | 29-07-2024T01:00:00 | *GMT predeterminado* | 29-07-2024T01:00:00 | GMT | 29-07-2024T01:00:00 |
+  | 29-07-2024T01:00:00 | *GMT predeterminado* | 29-07-2024T01:00:00 | PST | 28-07-2024T18:00:00 |
+  | 2024-07-30T01:00:00-05:00 | *GMT predeterminado* | 30-07-2024T06:00:00 | GMT | 30-07-2024T06:00:00 |
+  | 2024-07-30T01:00:00-05:00 | *GMT predeterminado* | 2024-07-30T06:00:00 | PST | 29-07-2024T23:00:00 |
+  | 02-08-2024 | *GMT predeterminado* | 02-08-2024-02T00:00:00 | IST | 02-08-2024-02T05:00:00 |
+  | 29-07-2024-29T01:00:00 | `America/`<br/>`Los_Angeles` | 28-07-2024-T18:00:00 | PST | 28-07-2024T18:00:00 |
+  | 30-07-2024-30T01:00:00-05:00 | `Australia/`<br/>`Sydney` | 30-07-2024-30T17:00:00 | CET | 30-07-2024-30T08:00:00 |
 
-  En el caso de las zonas horarias con un desplazamiento de 30 minutos (por ejemplo, IST, Hora estándar de India), el desplazamiento de 30 minutos se pierde al realizar informes con datos de resumen. Por ejemplo: 12:30 aparece como 12:00.
+  Para las zonas horarias con una diferencia de 30 minutos (por ejemplo, IST, hora estándar de India), la diferencia de 30 minutos se elimina al informar sobre datos de resumen. Por ejemplo: 12:30 se notifica como 12:00.
 
 
-Para asegurarse de que se utiliza la zona horaria adecuada para los datos de resumen granulares por hora, debe asegurarse de que el esquema utilizado para los datos de resumen tenga configurada la zona horaria adecuada.
+Para garantizar que se utiliza la zona horaria adecuada para los datos de resumen granular por hora, debe asegurarse de que el esquema utilizado para los datos de resumen tenga configurada la zona horaria adecuada.
 
-Para configurar la granularidad y la zona horaria de su esquema de datos de resumen, debe utilizar la siguiente llamada de API, ya que no hay una interfaz de usuario equivalente disponible.
+Para configurar la granularidad y la zona horaria del esquema de datos de resumen, debe utilizar la siguiente llamada API, ya que no hay una interfaz de usuario equivalente disponible.
 
 ```shell
 curl -X POST \
@@ -142,10 +142,10 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 
 | Variable | Valor |
 |---|---|
-| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Consulte [Autenticar y acceder a las API de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication) para obtener más información sobre cómo especificar valores para estas variables. |
-| `$SCHEMA_ID` | Puede encontrar el ID del esquema en la interfaz de usuario de Experience Platform. Seleccione el esquema de resumen de la lista de esquemas y busque **[!UICONTROL Uso de API]** > **[!UICONTROL ID de esquema]** en el panel derecho. Utilice ese ID como valor. |
+| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Consulte [Autenticar y acceder a las API de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication) para obtener más información sobre cómo especificar valores para estas variables. |
+| `$SCHEMA_ID` | Puede encontrar el ID de su esquema en la interfaz de usuario de Experience Platform. Seleccione su esquema de resumen de la lista de esquemas y busque **[!UICONTROL Uso de API]** > **[!UICONTROL ID de esquema]** en el panel derecho. Utilice ese ID como valor. |
 | `$GRANULARITY` | Especifique `hour` o `day` como valor. |
-| `$TIMEZONE` | Especifique el valor del identificador de zona horaria adecuado en la columna de identificador TZ de la [Lista de zonas horarias de base de datos tz](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo: `America/Los_Angeles`. |
+| `$TIMEZONE` | Especifique el valor adecuado del identificador de zona horaria en la columna del identificador de TZ en la [Lista de zonas horarias de la base de datos tz](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo: `America/Los_Angeles`. |
 
 ## Configuración de componentes
 
@@ -153,6 +153,6 @@ Asegúrese de que la configuración de los componentes de un grupo de datos de r
 
 >[!MORELIKETHIS]
 >
->- Consulte el artículo [Usar datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un ejemplo de uso detallado sobre cómo usar datos de resumen e informar sobre ellos.
+>- Consulte el artículo [Uso de datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un ejemplo de caso de uso detallado sobre cómo utlizar los datos de resumen e informar sobre ellos.
 >- Blog: [Cómo los datos de resumen mejoran los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

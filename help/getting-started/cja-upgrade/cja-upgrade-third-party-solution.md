@@ -1,6 +1,6 @@
 ---
 title: Actualización de una solución de análisis de terceros a Customer Journey Analytics
-description: Obtenga información sobre la actualización de una solución de análisis de terceros a Customer Journey Analytics
+description: Aprenda a actualizar de una solución de análisis de terceros a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 32%
+ht-degree: 54%
 
 ---
 
@@ -42,5 +42,5 @@ Utilice el siguiente proceso al pasar a Customer Journey Analytics desde una sol
    * Según la solución de análisis, podría haber un conector de origen disponible para la ingesta de datos históricos. Para obtener más información, consulte [Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#analytics) en la [descripción general de los conectores de Source](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) en la documentación de Experience Platform.
 
 
-Póngase en contacto con el representante del Adobe si necesita asesoramiento, ayuda o asistencia más específicos.
+Póngase en contacto con el representante de Adobe si necesita asesoramiento, ayuda o asistencia más específicos.
 

@@ -7,7 +7,7 @@ exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -43,9 +43,9 @@ El análisis guiado ya está disponible directamente desde Analysis Workspace, l
 [![imagen](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 
->[!TAB Subtítulos inteligentes v2]
+>[!TAB Pies de ilustración inteligentes v2]
 
-Ahora se admiten subtítulos inteligentes, con mejoras adicionales en la interfaz, para las visualizaciones [Línea](/help/analysis-workspace/visualizations/line.md) (incluidas las de varias líneas), [Barra](/help/analysis-workspace/visualizations/bar.md), [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md), [Área](/help/analysis-workspace/visualizations/area.md) (incluidas las de varias líneas de área), [Anillo](/help/analysis-workspace/visualizations/donut.md), [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md).
+Ahora se admiten pies de ilustración inteligentes, con mejoras adicionales en la interfaz, para las visualizaciones [Línea](/help/analysis-workspace/visualizations/line.md) (incluidas las de varias líneas), [Barra](/help/analysis-workspace/visualizations/bar.md), [Barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md), [Área](/help/analysis-workspace/visualizations/area.md) (incluidas las de varias líneas de área), [Anillo](/help/analysis-workspace/visualizations/donut.md), [Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md).
 
 [![imagen](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
@@ -74,7 +74,7 @@ Con la vinculación basada en gráficos, puede utilizar el gráfico de identidad
 
 >[!TAB Extensión de BI*]
 
-La extensión de BI habilita el acceso SQL a las vistas de datos que ha definido en Customer Journey Analytics. Ahora puede utilizar su herramienta de BI favorita (Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook y RStudio) para crear informes y paneles basados en las mismas vistas de datos que los usuarios de Customer Journey Analytics utilizan con sus proyectos de Analysis Workspace. Se han proporcionado [casos de uso](/help/use-cases/data-views/bi-extension-usecases.md).
+La extensión de BI habilita el acceso SQL a las vistas de datos que ha definido en Customer Journey Analytics. Ahora puede usar su herramienta de BI favorita (Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook y RStudio) para crear informes y tableros basados en las mismas vistas de datos que los usuarios de Customer Journey Analytics utilizan con sus proyectos de Analysis Workspace. Se han proporcionado [casos de uso](/help/use-cases/data-views/bi-extension-usecases.md).
 
 [![imagen](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 

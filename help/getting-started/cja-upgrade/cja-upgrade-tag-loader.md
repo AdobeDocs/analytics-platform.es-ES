@@ -1,6 +1,6 @@
 ---
-title: Implementación de la etiqueta de carga para la extensión del SDK web
-description: Obtenga información sobre cómo implementar la etiqueta de carga para la extensión Web SDK
+title: Implementar la etiqueta de carga para la extensión del SDK web
+description: Aprenda a implementar la etiqueta de carga para la extensión del SDK web
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,26 +8,26 @@ exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# Implementación de la etiqueta de carga para la extensión del SDK web {#upgrade-tag-loader}
+# Implementar la etiqueta de carga para la extensión del SDK web {#upgrade-tag-loader}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-loader"
->title="Implementación de la etiqueta del cargador en el sitio"
->abstract="Trabaje con el equipo de desarrollo del sitio web para instalar la etiqueta del cargador en cada página del sitio.<br><br>El tiempo de finalización de esta tarea depende en gran medida del tiempo de respuesta del equipo de ingeniería con el que trabaje para implementar el código. Algunas organizaciones que tienen equipos de ingeniería muy adaptables pueden completar este paso en días, mientras que los equipos de ingeniería con un registro de asuntos pendientes extenso pueden tardar un mes o más."
+>title="Implemente la etiqueta de carga en su sitio"
+>abstract="Trabaje con el equipo de desarrollo del sitio web para instalar la etiqueta de carga en cada página del sitio.<br><br>El tiempo necesario para llevar a cabo esta tarea depende en gran medida del tiempo de respuesta del equipo de ingeniería con el que trabaje para implementar el código. Algunas organizaciones que tienen equipos de ingeniería altamente adaptables pueden completar este paso en días, mientras que los equipos de ingeniería con un gran número de tareas pendientes pueden tardar un mes o más."
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note-step}}
 
-Debe instalar la etiqueta en el sitio web que desee rastrear, lo que implica colocar un código en la etiqueta de encabezado de la plantilla del sitio web.
+Debe instalar la etiqueta en el sitio web del que desee realizar un seguimiento, lo que implica colocar un código en la etiqueta de encabezado de la plantilla del sitio web.
 
-El siguiente proceso describe cómo obtener el código que hace referencia a la etiqueta. Para obtener información adicional, consulte las [Guías de implementación para etiquetas y reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides) en la documentación de Experience Platform.
+El siguiente proceso describe cómo obtener el código que hace referencia a la etiqueta. Para obtener información adicional, consulte las [guías de implementación para etiquetas y reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides) en la documentación de Experience Platform.
 
 Para obtener el código que hace referencia a la etiqueta, debe hacer lo siguiente:
 

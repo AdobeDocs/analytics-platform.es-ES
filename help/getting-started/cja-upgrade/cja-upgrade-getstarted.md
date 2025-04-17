@@ -10,7 +10,7 @@ exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 56%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 56%
 
 Customer Journey Analytics es la próxima generación de análisis. Permite la recopilación de datos multicanal (tanto datos en línea como sin conexión), combinados con una potente funcionalidad de procesamiento en el tiempo de los informes (a través de la definición de componentes y campos derivados en vistas de datos).
 
-Antes de comenzar el proceso de actualización de Adobe Analytics a Customer Journey Analytics, debe comprender las ventajas de Customer Journey Analytics, así como los pasos necesarios para una actualización correcta.
+Antes de comenzar el proceso de actualización de Adobe Analytics a Customer Journey Analytics, debe conocer las ventajas de Customer Journey Analytics, así como los pasos necesarios para realizar una actualización correcta.
 
 ## Conocer las ventajas de Customer Journey Analytics
 
@@ -52,23 +52,23 @@ A continuación se indican algunas de las ventajas principales: (para obtener un
 
   Los valores pueden ser numéricos, texto, objetos, listas o combinaciones de todos ellos. Las dimensiones pueden estar anidadas o ser jerárquicas. 
 
-## Comprender el proceso de actualización
+## Descripción del proceso de actualización
 
 <!-- Include a graphic of the end-to-end process, as well as links to each step of the process -->
-La información de esta página cubre el paso 1 del proceso de actualización, como se indica en la tabla siguiente. Complete todos los pasos de esta tabla para actualizar de Adobe Analytics a Customer Journey Analytics.
+La información de esta página corresponde al paso 1 del proceso de actualización, como se indica en la tabla siguiente. Complete todos los pasos de esta tabla para actualizar de Adobe Analytics a Customer Journey Analytics.
 
-| Actualizar tarea | Detalles |
+| Tarea de actualización | Detalles |
 |---------|----------|
-| <span class="preview">**Paso 1: Introducción a la actualización**</span> | <span class="preview">Conozca las ventajas de actualizar a Customer Journey Analytics y el proceso de actualización básico.</span> |
-| **Paso 2: [Elija la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | Hay varios métodos disponibles para actualizar a Customer Journey Analytics. Elija el método que mejor se adapte a su organización, en función del entorno de Adobe Analytics actual de su organización y los objetivos a largo plazo. |
-| **Paso 3: [Enviar datos a Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | El proceso de envío de datos a Adobe Experience Platform difiere según la ruta de actualización elegida en el paso 2. |
+| <span class="preview">**Paso 1: Introducción a la actualización**</span> | <span class="preview">Conozca las ventajas de actualizar a Adobe Analytics y el proceso de actualización básico.</span> |
+| **Paso 2: [Elegir la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | Hay varios métodos disponibles para actualizar a Customer Journey Analytics. Elija el método que mejor se adapte a su organización, en función del entorno de Adobe Analytics actual de su organización y los objetivos a largo plazo. |
+| **Paso 3: [Enviar datos a Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | El proceso de envío de datos a Adobe Experience Platform varía en función de la ruta de actualización elegida en el paso 2. |
 | **Paso 4: [Conservar los datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | La mayoría de las organizaciones necesitan conservar sus datos históricos de Adobe Analytics durante un periodo de tiempo determinado. Hay varias opciones disponibles para hacerlo. |
-| **Paso 5: [Realizar tareas de implementación adicionales](/help/getting-started/cja-getting-started.md)** | En este punto del proceso de actualización, debe realizar varias tareas antes de que el entorno de Customer Journey Analytics esté listo para su uso.<p>Estas tareas adicionales se aplican a las actualizaciones desde Adobe Analytics, así como a las nuevas implementaciones de Customer Journey Analytics.</p><p>Esta tareas son:</p><ul><li>Incorporación de datos a Experience Platform</li><li>Creación de conexiones entre conjuntos de datos de Platform y Customer Journey Analytics</li><li>Creación de vistas de datos </li><li>Transferencia del uso de API de informes</li><li>Contabilidad de fuentes de datos y Data Warehouse</li><li>Migración de proyectos y componentes</li><li>Planificación de la incorporación del usuario</li></ul> <p>Para obtener más información, consulte [Introducción a Customer Journey Analytics](/help/getting-started/cja-getting-started.md). |
+| **Paso 5: [Realizar tareas de implementación adicionales](/help/getting-started/cja-getting-started.md)** | En este punto del proceso de actualización, debe realizar varias tareas para que el entorno de Customer Journey Analytics se pueda usar.<p>Estas tareas adicionales se aplican a las actualizaciones de Adobe Analytics, así como a las nuevas implementaciones de Customer Journey Analytics.</p><p>Esta tareas son:</p><ul><li>Incorporación de datos a Experience Platform</li><li>Creación de conexiones entre conjuntos de datos de Platform y Customer Journey Analytics</li><li>Creación de vistas de datos </li><li>Transferencia del uso de API de informes</li><li>Contabilidad de fuentes de datos y Data Warehouse</li><li>Migración de proyectos y componentes</li><li>Planificación de la incorporación del usuario</li></ul> <p>Para obtener más información, consulte [Introducción a Customer Journey Analytics](/help/getting-started/cja-getting-started.md). |
 
 {style="table-layout:auto"}
 
-## Primero, elija la ruta de actualización
+## Primero, elegir la ruta de actualización
 
 Hay varios métodos disponibles para actualizar a Customer Journey Analytics. [Elija el método que mejor se adapte a su organización](/help/getting-started/cja-upgrade/cja-upgrade-path.md).
 
-La ruta de actualización que elija dependerá del entorno de Adobe Analytics actual de su organización y de los objetivos a largo plazo.
+La ruta de actualización que elija dependerá del entorno de Adobe Analytics actual de su organización y de las metas a largo plazo.

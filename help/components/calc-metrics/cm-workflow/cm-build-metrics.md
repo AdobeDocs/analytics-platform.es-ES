@@ -6,7 +6,7 @@ exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
 source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '1705'
-ht-degree: 20%
+ht-degree: 72%
 
 ---
 
@@ -49,17 +49,17 @@ Acceda al creador de métricas calculadas para empezar a crear una métrica calc
 
 ## Áreas del creador de métricas calculadas
 
-El cuadro de diálogo **[!UICONTROL Creador de métricas calculadas]** se usa para crear métricas calculadas nuevas o editar las existentes. El cuadro de diálogo se titula **[!UICONTROL Nueva métrica calculada]** o **[!UICONTROL Editar métrica calculada]** para las métricas que cree o administre desde el administrador de [[!UICONTROL Métricas calculadas]](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+El cuadro de diálogo **[!UICONTROL Generador de métricas calculadas]** se usa para crear anotaciones nuevas o editar las existentes. El cuadro de diálogo se titula **[!UICONTROL Nueva métrica calculada]** o **[!UICONTROL Editar métrica calculada]** para las anotaciones que cree o administre desde el administrador de [[!UICONTROL Métricas calculadas]](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
 >[!BEGINTABS]
 
 >[!TAB Generador de métricas calculadas]
 
-![Ventana de detalles de métricas calculadas que muestra campos y opciones descritos en la siguiente sección.](assets/calculated-metric-builder.png)
+![Ventana de detalles de métricas calculadas que muestra los campos y las opciones descritas en la sección siguiente.](assets/calculated-metric-builder.png)
 
->[!TAB Crear o editar métrica calculada]
+>[!TAB Crear o editar métricas calculadas]
 
-![Ventana de detalles de métricas calculadas que muestra campos y opciones descritos en la siguiente sección.](assets/create-edit-calculated-metric.png)
+![Ventana de detalles de métricas calculadas que muestra los campos y las opciones descritas en la sección siguiente.](assets/create-edit-calculated-metric.png)
 
 >[!ENDTABS]
 
@@ -67,54 +67,54 @@ El cuadro de diálogo **[!UICONTROL Creador de métricas calculadas]** se usa pa
 
    | Elemento | Descripción |
    | --- | --- |
-   | **[!UICONTROL Vista de datos]** | Puede seleccionar la vista de datos de la métrica calculada.  La métrica calculada que defina estará disponible en los proyectos de Workspace en función de la vista de datos seleccionada. |
+   | **[!UICONTROL Vista de datos]** | Puede seleccionar la vista de datos para la métrica calculada.  La métrica calculada que defina estará disponible en los proyectos de Workspace en función de la vista de datos seleccionada. |
    | **[!UICONTROL Métrica solo de proyecto]** | Aparece un cuadro de información en la parte superior de este cuadro de diálogo cuando edita una métrica calculada que se creó para un solo proyecto, como se describe en [Crear métricas calculadas para un solo proyecto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>Si desea que esta métrica calculada esté disponible para todos los proyectos, seleccione la opción **[!UICONTROL Poner esta métrica a disposición de todos los proyectos y agregarla a la lista de componentes]**.</p> |
-   | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre a la métrica calculada, por ejemplo, `Conversion Rate`. |
-   | **[!UICONTROL ID externo]** ![Requerido](/help/assets/icons/Required.svg) | Nombre de la métrica calculada al utilizar una herramienta de BI externa y la extensión de BI. El valor se define automáticamente como `undefined_xxx` a menos que reemplace el valor. |
+   | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne una métrica calculada, como por ejemplo `Conversion Rate`. |
+   | **[!UICONTROL ID externo]** ![Requerido](/help/assets/icons/Required.svg) | El nombre de la métrica calculada al utilizar una herramienta de BI externa y la extensión de BI. El valor se define automáticamente como `undefined_xxx` a menos que lo reemplace. |
    | **[!UICONTROL Descripción]** | Proporcione una descripción para el segmento, por ejemplo, `Calculated metric to define the conversion rate.`. No es necesario describir la fórmula de la métrica calculada, ya que la fórmula ya está disponible automáticamente en [!UICONTROL Resumen]. |
-   | **[!UICONTROL Formato]** | Seleccione un formato para la métrica calculada: puede seleccionar entre **[!UICONTROL Decimal]**, **[!UICONTROL Hora]**, **[!UICONTROL Porcentaje]** y **[!UICONTROL Moneda]**. |
+   | **[!UICONTROL Formato]** | Seleccione un formato para la métrica calculada: puede elegir entre **[!UICONTROL Decimal]**, **[!UICONTROL Hora]**, **[!UICONTROL Porcentaje]** y **[!UICONTROL Moneda]**. |
    | **[!UICONTROL Cifras decimales]** | Especifique el número de decimales para el formato seleccionado. Solo se habilita cuando el formato seleccionado es Decimal, Moneda y Porcentaje. |
-   | **[!UICONTROL Mostrar tend ascendente como]** | Especifique si una tendencia al alza de la métrica calculada se muestra como ▲ **[!UICONTROL Bueno (Verde)]** o como ▼ **[!UICONTROL Malo (Rojo)]**. |
+   | **[!UICONTROL Mostrar tend ascendente como]** | Especifique si una tendencia al alza de la métrica calculada se muestra como ▲ **[!UICONTROL Buena (verde)]** o como ▼ **[!UICONTROL Mala (rojo)]**. |
    | **[!UICONTROL Moneda]** | Especifique la moneda de la métrica calculada. Solo se habilita cuando el formato seleccionado es Moneda. |
-   | **[!UICONTROL Etiquetas]** | Organice la métrica calculada creando o aplicando una o varias etiquetas. Empieza a escribir para buscar las etiquetas existentes que puedes seleccionar. O presione **[!UICONTROL ENTRAR]** para agregar una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
+   | **[!UICONTROL Etiquetas]** | Organice la métrica calculada creando o aplicando una o varias etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O presione **[!UICONTROL Entrar]** para agregar una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
    | **[!UICONTROL Vista previa]** | La vista previa abarca los últimos 90 días y es una forma de medir si ha definido la métrica correctamente. |
    | **[!UICONTROL Resumen]** | Muestra un resumen de la definición de la métrica calculada. <br/>Por ejemplo: ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Pedidos totales]** ![Dividir](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sesiones]**. |
    | **[!UICONTROL Definición]** ![Requerida](/help/assets/icons/Required.svg) | Defina su segmento con el [generador de definiciones](#definition-builder). |
 
 1. Para comprobar si la definición de la métrica calculada es correcta, use la **[!UICONTROL Vista previa]** actualizada constantemente de los resultados de la métrica calculada. La **[!UICONTROL vista previa]** abarca los últimos 90 días y evalúa la definición de su métrica calculada de manera continua.
 
-   La **[!UICONTROL compatibilidad del producto]** indica si la métrica calculada se puede usar en experimentación. Los valores posibles son:
+   La **[!UICONTROL compatibilidad del producto]** indica si la métrica calculada se puede usar en experimentación. Entre los posibles valores están:
    * **[!UICONTROL En cualquier lugar de Customer Journey Analytics]**: la métrica calculada se puede usar en todo Customer Journey Analytics.
    * **[!UICONTROL En cualquier lugar de Customer Journey Analytics (excepto en experimentación)]**: la métrica calculada se puede usar en todo Customer Journey Analytics, excepto en el panel Experimentación.
 
-1. Seleccionar:
-   * **[!UICONTROL Guardar]** para guardar la métrica calculada.
+1. Seleccionar…
+   * Selecciona **[!UICONTROL Guardar]** para guardar la métrica calculada.
    * **[!UICONTROL Guardar como]** para guardar una copia de la métrica calculada.
-   * **[!UICONTROL Cancelar]** para cancelar los cambios realizados en la métrica calculada o cancelar la creación de una nueva métrica calculada.
+   * **[!UICONTROL Cancelar]** para cancelar los cambios realizados en una anotación o cancelar la creación de una nueva métrica calculada.
 
 
 ## Generador de definiciones
 
-Puede usar el Generador de definiciones para arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica, reglas y operadores de jerarquía de contenedor. En esa construcción, puede utilizar métricas estándar, métricas definidas por Adobe, métricas calculadas, segmentos, dimensiones y funciones. Todos estos componentes están disponibles en el panel de componentes del Creador de métricas calculadas. Además, puede utilizar operadores y contenedores en la definición.
+Puede usar el Generador de definiciones para arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica, reglas y operadores de jerarquía de contenedor. En esa construcción, puede utilizar métricas estándar, métricas definidas por Adobe, métricas calculadas, segmentos, dimensiones y funciones. Todos estos componentes están disponibles en el panel de componentes del generador de métricas calculadas. Además, puede utilizar operadores y contenedores en la definición.
 
 ![Crear métrica calculada](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
 
-Solo las métricas se definen como componentes singulares en el área **[!UICONTROL Definición]**. Todos los demás componentes se definen como un contenedor, métricas de ajuste u otros contenedores. Consulte [Contenedores](#containers) para obtener más información.
+Solo las métricas se definen como componentes singulares en el área **[!UICONTROL Definición]**. Todos los demás componentes se definen como un contenedor, métricas de ajuste u otros contenedores. Consulte [Detalles de conexión](#containers) para obtener más información.
 
 ### Métricas
 
-Para agregar una métrica:
+Para añadir una métrica:
 
 * Arrastre y suelte un componente ![Events](/help/assets/icons/Event.svg) **[!UICONTROL Metrics]** del panel de componentes en **[!UICONTROL Arrastre y suelte aquí métricas, dimensiones, elementos de dimensión, segmentos o funciones]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
 
 Cuando se utiliza una métrica calculada como parte de la definición, la métrica calculada se expande.
 
-Para modificar una métrica:
+Para reemplazar una métrica:
 
-1. Seleccione ![Setting](/help/assets/icons/Setting.svg) en un componente de métrica en el área de **[!UICONTROL Definición]**.
-1. En el cuadro de diálogo emergente puede definir el tipo de métrica y un modelo de atribución. Consulte [Tipo de métrica y Atribución](m-metric-type-alloc.md).
+1. Seleccione ![Configuración](/help/assets/icons/Setting.svg) en un componente de métrica en el área de **[!UICONTROL Definición]**.
+1. En el cuadro de diálogo emergente puede definir el tipo de métrica y un modelo de atribución. Consulte [Tipo de métrica y atribución](m-metric-type-alloc.md)
 
-Para suprimir una métrica:
+Para eliminar una métrica:
 
 * Seleccione ![Cerrar](/help/assets/icons/Close.svg) en la métrica.
 
@@ -131,22 +131,22 @@ Puede seleccionar:
 | Símbolo | Operador |
 |:---:|---|
 | ![Dividir](/help/assets/icons/Divide.svg) | Dividir (predeterminado) |
-| ![Cerrar](/help/assets/icons/Close.svg) | Multiplicar |
+| ![Cierre](/help/assets/icons/Close.svg) | Multiplicar |
 | ![Eliminar](/help/assets/icons/Remove.svg) | Restar |
 | ![Agregue](/help/assets/icons/Add.svg) | Agregar |
 
 ### Número estático
 
-Puede agregar un número estático a la definición de métrica calculada. Para agregar un número estático:
+Puede añadir un número estático a la definición de métrica calculada. Para añadir un número estático:
 
-* Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** desde un contenedor.
+* Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Añadir]** desde un contenedor.
 * Seleccione **[!UICONTROL Número estático]**. Aparece un contenedor de número estático.
-* Seleccione [!UICONTROL *Haga clic para agregar un valor*] y escriba un valor.
+* Seleccione [!UICONTROL *Haga clic para añadir un valor*] y escriba un valor.
 
 
 ### Contenedores
 
-Las dimensiones, los segmentos y las funciones se agregan como contenedores a una definición de métrica calculada. También puede agregar un contenedor genérico. Los contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. Cualquier cosa dentro de un contenedor se procesa antes del siguiente componente o contenedor.
+Las dimensiones, los segmentos y las funciones se agregan como contenedores a una definición de métrica calculada. También puede añadir un contenedor genérico. Los contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. Cualquier elemento dentro de un contenedor se procesa antes que el siguiente componente o contenedor.
 
 
 #### Contenedor de segmento
@@ -155,8 +155,8 @@ Utiliza el concepto de contenedor de segmento para crear una [métrica segmentad
 
 * Para agregar un contenedor de segmentos desde una dimensión:
 
-   1. Arrastre y suelte un componente ![Dimensiones](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensiones]** del panel Componentes en **[!UICONTROL Arrastre y suelte aquí métricas, dimensiones, elementos de dimensión, segmentos o funciones]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
-   1. En la ventana emergente **[!UICONTROL Crear filtro a partir de Dimension]**, defina la condición del segmento. Seleccione en la lista de operadores y seleccione un valor o introduzca un valor. Por ejemplo, **[!UICONTROL Mes]** **[!UICONTROL es igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+   1. Arrastre y suelte un componente ![Dimensiones](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensiones]** del panel Componentes en **[!UICONTROL Arrastre y suelte aquí métricas, dimensiones, elementos de dimensión, segmentos o funciones]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+   1. En la ventana emergente **[!UICONTROL Crear filtro a partir de Dimension]**, defina la condición del segmento. Seleccione en la lista de operadores y seleccione o introduzca un valor. Por ejemplo, **[!UICONTROL Mes]** **[!UICONTROL es igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
    1. Seleccione **[!UICONTROL Listo]**. Se agregó un contenedor de segmento a **[!UICONTROL Definición]**.
 
 
@@ -165,11 +165,11 @@ Utiliza el concepto de contenedor de segmento para crear una [métrica segmentad
    * Arrastre y suelte un componente ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** del panel Componentes en **[!UICONTROL Arrastre y suelte aquí métricas, dimensiones, elementos de dimensión, segmentos o funciones]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar segmentos específicos.
 Automáticamente se agrega un contenedor de segmento a **[!UICONTROL Definition]**, usando el nombre del segmento.
 
-   * Arrastre y suelte un componente ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** del panel de componentes a un contenedor genérico. El contenedor se modifica y se convierte en un contenedor de segmentos.
+   * Arrastre y suelte un componente ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filtros]** del panel de componentes en un contenedor genérico. El contenedor se modifica y se convierte en un contenedor de segmentos.
 
-   * Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** desde un contenedor:
+   * Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Añadir]** desde un contenedor:
 
-      1. Seleccione **[!UICONTROL Filtro]**. Se agregó un contenedor de segmento a **[!UICONTROL Definición]**.
+      1. Seleccionar **[!UICONTROL Filtro]**.  Se agregó un contenedor de segmento a **[!UICONTROL Definición]**.
       1. En el nuevo contenedor de segmentos, seleccione un segmento del menú desplegable [!UICONTROL *Seleccionar...*].
 
   >[!TIP]
@@ -186,34 +186,34 @@ Consulte [Métricas filtradas](metrics-with-segments.md) para obtener más detal
 
 #### Contenedor de funciones
 
-Para agregar un contenedor de funciones, puede utilizar:
+Para añadir un contenedor de funciones, puede utilizar:
 
 * Arrastrar y soltar:
 
-   1. Arrastre y suelte un componente ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** del panel de componentes en **[!UICONTROL Arrastre y suelte aquí métricas, dimensiones, elementos de dimensión, segmentos o funciones]**. Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar funciones específicas.
-   1. Se agrega automáticamente un contenedor de funciones a **[!UICONTROL Definition]** con el nombre de la función.
+   1. Arrastre y suelte un componente ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** del panel de componentes en **[!UICONTROL Arrastre y suelte aquí métricas, dimensiones, elementos de dimensión, segmentos o funciones]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar funciones específicas.
+   1. Se añade automáticamente un contenedor de funciones a la **[!UICONTROL Definición]** utilizando el nombre de la función.
 
-* Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** desde un contenedor:
+* Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Añadir]** desde un contenedor:
 
    1. Seleccione **[!UICONTROL Función]**.
-   1. En el contenedor, seleccione una función del menú desplegable [!UICONTROL *Seleccionar...*].
+   1. En el contenedor, seleccione una función en el menú desplegable [!UICONTROL *Seleccionar...*].
 
-El contenedor de funciones recibe el nombre del componente de funciones. Por ejemplo, ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (metric)]**. Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar una ventana emergente con detalles sobre la función. Seleccione **[!UICONTROL Más información]** para obtener más información sobre la función.
+El contenedor de funciones recibe el nombre del componente de funciones. Por ejemplo, ![Función](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (métrica)]**. Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar una ventana emergente con más detalles sobre la función. Seleccione **[!UICONTROL Más información]** para obtener más información sobre la función.
 
-Consulte [Usar funciones](cm-using-functions.md) para obtener detalles sobre cómo usar funciones y qué funciones están disponibles para crear una métrica calculada.
+Consulte [Uso de funciones](cm-using-functions.md) para obtener detalles sobre cómo utilizar funciones y qué funciones están disponibles para crear una métrica calculada.
 
 
 #### Contenedor genérico
 
-Para agregar un contenedor genérico:
+Para añadir un contenedor genérico:
 
-* Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** desde un contenedor
-* Seleccione **[!UICONTROL Contenedor]**. Se agrega un nuevo contenedor genérico vacío a **[!UICONTROL Definition]**. Puede utilizar un contenedor genérico para anidar o crear una jerarquía en la definición de la métrica calculada.
+* Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Añadir]** desde un contenedor
+* Seleccione **[!UICONTROL Contenedor]**. Se añade un nuevo contenedor genérico vacío a la **[!UICONTROL Definición]**. Puede utilizar un contenedor genérico para anidar o crear una jerarquía en la definición de la métrica calculada.
 
 
-#### Eliminar un contenedor
+#### Eliminación de un contenedor
 
-Para eliminar un contenedor, selecciona ![Cerrar](/help/assets/icons/Close.svg) en el nivel de contenedor.
+Para eliminar un contenedor, seleccione ![Cerrar](/help/assets/icons/Close.svg) en el nivel de contenedor.
 
 >[!MORELIKETHIS]
 >

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 47%
+ht-degree: 66%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización Anillo en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Anillo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel en blanco en_![CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**._<br/>_Consulte [Anillo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut) para ver la versión de_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 

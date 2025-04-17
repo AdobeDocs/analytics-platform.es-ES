@@ -1,6 +1,6 @@
 ---
-title: Descripción de las opciones de implementación del SDK web al actualizar a Customer Journey Analytics
-description: Obtenga información acerca de las opciones de implementación de Web SDK al actualizar a Customer Journey Analytics
+title: 'Información sobre las opciones de implementación del SDK web al actualizar a Customer Journey Analytics '
+description: Obtenga información sobre las opciones de implementación del SDK web al actualizar a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,11 +8,11 @@ exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
-# Descripción de las opciones de implementación del SDK web al actualizar a Customer Journey Analytics {#web-sdk-implementation-options}
+# Información sobre las opciones de implementación del SDK web al actualizar a Customer Journey Analytics  {#web-sdk-implementation-options}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,8 +27,8 @@ ht-degree: 54%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-tags"
->title="Extensión de la etiqueta del SDK web"
->abstract="(Recomendado) Si aún no utiliza Etiquetas, instale el cargador de etiquetas en su sitio. Si ya está utilizando etiquetas, puede añadir la extensión del SDK web a la propiedad de etiqueta. Esta opción incluye implementaciones que utilizan etiquetas en la recopilación de datos de Adobe Experience Platform y sistemas de administración de etiquetas de terceros."
+>title="Extensión de etiquetas del SDK web"
+>abstract="(Recomendado) Si aún no utiliza etiquetas, instale el cargador de etiquetas en su sitio. Si ya está utilizando etiquetas, puede añadir la extensión del SDK web a la propiedad de su etiqueta. Esta opción incluye implementaciones que utilizan etiquetas en la recopilación de datos de Adobe Experience Platform y sistemas de administración de etiquetas de terceros."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,14 +61,14 @@ ht-degree: 54%
 
 {{upgrade-note}}
 
-El proceso recomendado para actualizar de Adobe Analytics a Customer Journey Analytics es una nueva implementación de Experience Platform Web SDK, que es el método de recopilación de datos preferido para Customer Journey Analytics.
+El proceso recomendado para actualizar de Adobe Analytics a Customer Journey Analytics es una nueva implementación del SDK web de Experience Platform, que es el método de recopilación de datos preferido para Customer Journey Analytics.
 
-Existen tres formas compatibles de utilizar Adobe Experience Platform Web SDK:
+Existen tres formas compatibles de utilizar el SDK web de Adobe Experience Platform:
 
-* [Extensión de etiquetas Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/extension): Adobe recomienda utilizar este método. Instale un cargador de etiquetas en el sitio y, a continuación, utilice la IU de recopilación de datos de Adobe Experience Platform para configurar la implementación.
+* [Extensión de etiquetas del SDK web](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/install/extension): Adobe recomienda utilizar este método. Instale un cargador de etiquetas en su sitio y, a continuación, utilice la IU de recopilación de datos de Adobe Experience Platform para configurar la implementación.
 
-* [Biblioteca Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library): Haga referencia a un archivo de biblioteca alojado en CDN o aloje el archivo de biblioteca utilizando su propia infraestructura. Realice llamadas a la biblioteca dentro del código del sitio.
+* [Biblioteca JavaScript del SKD web](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/install/library): haga referencia a un archivo de biblioteca alojado en CDN o aloje el archivo de biblioteca utilizando su propia infraestructura. Realice llamadas a la biblioteca dentro del código del sitio.
 
-* [NPM](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/npm): instale Web SDK en su sitio mediante el administrador de paquetes NPM.
+* [NPM](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/install/npm): instale el SDK web en su sitio mediante el administrador de paquetes NPM.
 
-Para obtener más información, consulte [Información general sobre la instalación de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview) en la Guía de Experience Platform Web SDK.
+Para obtener más información, consulte [Información general sobre la instalación del SDK web](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/install/overview) en la Guía del SDK web de Experience Platform.

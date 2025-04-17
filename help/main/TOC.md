@@ -65,9 +65,9 @@ ht-degree: 85%
          + [Monitorización de la ingesta de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
       + Implementación de Web SDK con etiquetas {#create-tags}
          + [Creación de una etiqueta para su propiedad](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
-         + [Adición de la extensión del SDK web a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
-         + [Implementación de la etiqueta de carga para la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
-         + [Adición de la lógica de recopilación de datos XDM a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
+         + [Añada la extensión del SDK web a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+         + [Implementar la etiqueta de carga para la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
+         + [Añada la lógica de recopilación de datos XDM a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [Implementar Web SDK manualmente](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
       + [Implementar Web SDK con la API](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
       + [Crea una conexión](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
@@ -76,7 +76,7 @@ ht-degree: 85%
       + [Valida el flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [Configurar la colección de medios de streaming](/help/getting-started/cja-upgrade/cja-upgrade-streaming-media.md)
       + Conservación de datos históricos con el conector de origen de Analytics {#historical-data-source-connector}
-         + [Creación de un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+         + [Crear un esquema XDM para el conector de origen de Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
          + [Creación del conector de origen de Analytics y asignación de campos](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
          + [Adición del conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [Evaluar cuándo deshabilitar Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
@@ -136,7 +136,7 @@ ht-degree: 85%
       + [Atribución](../data-views/component-settings/attribution.md)
       + [Comportamiento](../data-views/component-settings/behavior.md)
       + [Formato](../data-views/component-settings/format.md)
-      + [Incluir/excluir valores](../data-views/component-settings/include-exclude-values.md)
+      + [Incluir valores de exclusión](../data-views/component-settings/include-exclude-values.md)
       + [Anulación de duplicación métrica](../data-views/component-settings/metric-deduplication.md)
       + [Sin opciones de valor](../data-views/component-settings/no-value-options.md)
       + [Persistencia](../data-views/component-settings/persistence.md)
@@ -181,7 +181,7 @@ ht-degree: 85%
    + Visualizaciones {#visualizations}
       + [Información general](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Administración de fuentes de datos](../analysis-workspace/visualizations/t-sync-visualization.md)
-      + [Pies de ilustración inteligentes](../analysis-workspace/visualizations/intelligent-captions.md)
+      + [Subtítulos inteligentes](../analysis-workspace/visualizations/intelligent-captions.md)
       + Tabla de forma libre {#freeform-table}
          + [Información general](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Crear hipervínculo](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
@@ -199,12 +199,12 @@ ht-degree: 85%
          + [Información general](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configuración](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Visita en orden previsto entre dimensiones](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Aplicar filtros](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Aplicación de filtros](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flujo {#flow}
          + [Información general](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuración](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flujos interdimensionales](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + Lienzo del recorrido  {#journey-canvas}
+      + Lienzo de recorrido  {#journey-canvas}
          + [Información general](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [Configuración](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [Solucionar problemas](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
@@ -218,7 +218,7 @@ ht-degree: 85%
       + [Resumen de métricas clave](../analysis-workspace/visualizations/key-metric.md)
       + [Línea](../analysis-workspace/visualizations/line.md)
       + [Mapa](/help/analysis-workspace/visualizations/map.md)
-      + [Dispersión](../analysis-workspace/visualizations/scatterplot.md)
+      + [Puntos](../analysis-workspace/visualizations/scatterplot.md)
       + [Encabezado de sección](/help/analysis-workspace/visualizations/section-header.md)
       + [Número de resumen y cambio](../analysis-workspace/visualizations/summary-number-change.md)
       + [Texto](../analysis-workspace/visualizations/text.md)
@@ -231,7 +231,7 @@ ht-degree: 85%
       + [Experimentación](../analysis-workspace/c-panels/experimentation.md)
       + [De forma libre](../analysis-workspace/c-panels/freeform-panel.md)
       + [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Espectadores simultáneos de medios](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Visualizadores simultáneos de medios](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Tiempo invertido en la reproducción de medios](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento siguiente o anterior](../analysis-workspace/c-panels/next-previous.md)
       + [Acceso rápido a información](../analysis-workspace/c-panels/quickinsight.md)
@@ -254,7 +254,7 @@ ht-degree: 85%
       + [Información general](../analysis-workspace/c-forecast/forecasting.md)
       + [Ver previsiones](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Técnicas estadísticas](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + [Índice ](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
+   + [Tabla de contenido](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [Preferencias de usuario](../analysis-workspace/user-preferences.md)
    + Preguntas frecuentes sobre Workspace y más {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)
@@ -291,7 +291,7 @@ ht-degree: 85%
    + [Frecuencia](../guided-analysis/types/frequency.md)
    + [Canal](../guided-analysis/types/funnel.md)
    + [Crecimiento neto](../guided-analysis/types/net-growth.md)
-   + [Impacto de versión](../guided-analysis/types/release-impact.md)
+   + [Impacto de la versión](../guided-analysis/types/release-impact.md)
    + [Retención](../guided-analysis/types/retention.md)
    + [Cronología](../guided-analysis/types/timeline.md)
    + [Tendencias](../guided-analysis/types/trends.md)
@@ -311,8 +311,8 @@ ht-degree: 85%
    + [Proyectos programados](../components/scheduled-projects-manager.md)
    + Audiencias {#audiences}
       + [Descripción general de las audiencias](../components/audiences/audiences-overview.md)
-      + [Crear y publicar audiencias](../components/audiences/publish.md)
-      + [Administrar audiencias](../components/audiences/manage.md)
+      + [Creación y publicación de públicos](../components/audiences/publish.md)
+      + [Administrar públicos](../components/audiences/manage.md)
    + Dimensiones {#dimensions}
       + [Información general de dimensiones](../components/dimensions/overview.md)
       + [Vista preliminar de dimensiones](../components/dimensions/view-dimensions.md)
@@ -332,7 +332,7 @@ ht-degree: 85%
       + [Marcar filtros como favoritos](../components/filters/filters-favorite.md)
       + [Aprobar filtros](../components/filters/filters-approve.md)
       + [Copiar filtros](../components/filters/filters-copy.md)
-      + [Administrar filtros](../components/filters/manage-filters.md)
+      + [Administración de filtros](../components/filters/manage-filters.md)
       + [Operadores](../components/filters/operators.md)
    + Métricas calculadas  {#cja-calcmetrics}
       + [Información general](../components/calc-metrics/calc-metr-overview.md)
@@ -397,8 +397,8 @@ ht-degree: 85%
 
 + Administrador de actividades de creación de informes {#reporting-activity-manager}
    + [Información general](../reporting-activity-manager/reporting-activity-overview.md)
-   + [Ver actividad de creación de informes](../reporting-activity-manager/reporting-activity.md)
-   + [Cancelar solicitudes de creación de informes](../reporting-activity-manager/reporting-activity-cancel-requests.md)
+   + [Visualización de la actividad de creación de informes](../reporting-activity-manager/reporting-activity.md)
+   + [Cancelación de solicitudes de creación de informes](../reporting-activity-manager/reporting-activity-cancel-requests.md)
 
 + Unión {#stitching}
    + [Información general](/help/stitching/overview.md)

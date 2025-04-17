@@ -1,24 +1,24 @@
 ---
 description: Información sobre la funcionalidad de la tabla de contenido en un proyecto de Workspace
 keywords: Analysis Workspace
-title: 'Índice '
+title: Tabla de contenido
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
 source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 4%
+ht-degree: 93%
 
 ---
 
-# Índice 
+# Tabla de contenido
 
-Puede ver una tabla de contenido para un proyecto en Analysis Workspace, lo que le permite moverse rápidamente entre cualquier panel y visualización que exista en el proyecto. La tabla de contenido es especialmente útil cuando se ven proyectos de mayor tamaño que contienen muchos paneles y visualizaciones.
+Puede ver una tabla de contenido de un proyecto en Analysis Workspace, lo que le permite moverse rápidamente entre cualquier panel y visualización que exista en el proyecto. La tabla de contenido es especialmente útil cuando se ven proyectos de mayor tamaño que contienen muchos paneles y visualizaciones.
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una tabla de contenido](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear y editar una tabla de contenido](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -35,13 +35,13 @@ Para ver la tabla de contenido de un proyecto:
 
 1. En el panel de botones, seleccione ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Tabla de contenido]**. Consulte [Información general de Analysis Workspace](/help/analysis-workspace/home.md) para obtener más información.<br/>
 
-   Se muestra **[!UICONTROL la tabla de contenido]** del proyecto, y cada panel se expande de manera predeterminada.
+   Se muestra la **[!UICONTROL tabla de contenido]** del proyecto y de manera predeterminada se expande cada panel.
 
 1. En la **[!UICONTROL tabla de contenido]**, seleccione una visualización.<br/>
 
-   La visualización seleccionada se desplaza automáticamente a y se resalta brevemente.
+   La visualización seleccionada se desplaza automáticamente y se resalta brevemente.
 
-   ![TDC resaltado](assets/toc-highlighted.png)
+   ![TDC resaltada](assets/toc-highlighted.png)
 
 
 >[!MORELIKETHIS]

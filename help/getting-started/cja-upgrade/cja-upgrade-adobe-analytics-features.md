@@ -1,6 +1,6 @@
 ---
-title: Comprender la compatibilidad con funciones de Adobe Analytics al actualizar a Customer Journey Analytics
-description: Obtenga información acerca de la compatibilidad con funciones de Adobe Analytics al actualizar a Customer Journey Analytics
+title: Conocer la compatibilidad con las funciones de Adobe Analytics al actualizar a Customer Journey Analytics
+description: Más información sobre la compatibilidad con las funciones de Adobe Analytics al actualizar a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,11 +8,11 @@ exl-id: 92053109-f80d-47ab-b011-c28a5411149c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 55%
+ht-degree: 88%
 
 ---
 
-# Comprender la compatibilidad con funciones de Adobe Analytics al actualizar a Customer Journey Analytics {#feature-support-upgrade}
+# Conocer la compatibilidad con las funciones de Adobe Analytics al actualizar a Customer Journey Analytics {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -97,16 +97,16 @@ ht-degree: 55%
 
 {{upgrade-note}}
 
-La siguiente lista muestra solo las funciones de Adobe Analytics que deben tenerse en cuenta durante el proceso de actualización a Customer Journey Analytics. Para obtener una lista completa que muestre qué características de Adobe Analytics son totalmente compatibles, parcialmente compatibles o no compatibles con Customer Journey Analytics, consulte [Compatibilidad con características de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
+En la siguiente lista se muestran solo las funciones de Adobe Analytics que deben tenerse en cuenta durante el proceso de actualización a Customer Journey Analytics. Para obtener una lista completa que muestre qué características de Adobe Analytics son totalmente compatibles, parcialmente compatibles o no compatibles con Customer Journey Analytics, consulte [Compatibilidad con funcionalidades de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 
 Tenga en cuenta cuál de las siguientes funciones de Adobe Analytics desea seguir utilizando al actualizar a Customer Journey Analytics:
 
 | Función Adobe Analytics | Función correspondiente en Customer Journey Analytics |
 |---------|----------|
-| [Componentes y proyectos de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [Migrar proyectos y sus componentes asociados a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration). |
-| [Superposición de Activity Map y seguimiento de vínculos](https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/overview) | Aún no está disponible |
-| [Datos de clasificación](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/c-classifications) | Los conjuntos de datos de búsqueda son el método para clasificar datos en Customer Journey Analytics.<p>[Cree un conjunto de datos de búsqueda para cada dimensión que contenga datos de clasificación.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
-| [Canales de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | Los campos derivados se crean dentro de una vista de datos. <p>[Crear un campo derivado de canal de marketing.](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
-| [Archivos de fuentes de datos](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform y Customer Journey Analytics proporcionan una serie de funcionalidades que, independientemente o combinadas, pueden resolver los distintos requisitos de exportación. Estas funcionalidades incluyen [API de acceso a datos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=es), [Destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es), [Exportación de tablas completas de Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) e [integración de herramientas de BI](/help/data-views/bi-extension.md).<p>Para obtener más información sobre las opciones de exportación, consulte [Casos de uso de exportación de datos](/help/use-cases/data-export/overview.md).</p> |
-| [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | La [Exportación de tablas completas de Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad. |
+| [Componentes y proyectos de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [Migre los proyectos y sus componentes asociados a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration). |
+| [Superposición de Activity Map y seguimiento de vínculos](https://experienceleague.adobe.com/es/docs/analytics/analyze/activity-map/overview) | Aún no se ha implementado |
+| [Datos de clasificación](https://experienceleague.adobe.com/es/docs/analytics/components/classifications/c-classifications) | Los conjuntos de datos de consulta son el método para clasificar datos en Customer Journey Analytics.<p>[Cree un conjunto de datos de consulta para cada dimensión que contenga datos de clasificación.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
+| [Canales de marketing](https://experienceleague.adobe.com/es/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | Los campos derivados se crean dentro de una vista de datos. <p>[Cree un campo derivado de canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
+| [Archivos de fuentes de datos](https://experienceleague.adobe.com/es/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform y Customer Journey Analytics proporcionan una serie de funcionalidades que, independientemente o combinadas, pueden resolver los distintos requisitos de exportación. Estas funcionalidades incluyen [API de acceso a datos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=es), [Destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es), [Exportación de tablas completas de Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) e [integración de herramientas de BI](/help/data-views/bi-extension.md).<p>Para obtener más información sobre las opciones de exportación, consulte [Casos de uso de exportación de datos](/help/use-cases/data-export/overview.md).</p> |
+| [Data Warehouse](https://experienceleague.adobe.com/es/docs/analytics/export/data-warehouse/data-warehouse) | La [Exportación de tablas completas de Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad. |
 | [Datos de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview) | Los datos de medios de streaming están disponibles mediante el conector de datos de Analytics como parte del panel Visualizadores simultáneos de medios y el panel Tiempo invertido en la reproducción de medios de Workspace. |

@@ -1,6 +1,6 @@
 ---
-title: Creación de un esquema para Customer Journey Analytics
-description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
+title: Crear un esquema para Customer Journey Analytics
+description: Más información sobre la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,18 +8,18 @@ exl-id: f76d098d-d223-40e4-be81-d28e7581396b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# Creación de una secuencia de datos para utilizarla con Customer Journey Analytics {#upgrade-create-datastream}
+# Crear una secuencia de datos para utilizarla con Customer Journey Analytics {#upgrade-create-datastream}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-datastream-create"
->title="Creación de una secuencia de datos en Adobe Experience Platform."
->abstract="Una secuencia de datos es una ubicación intermedia que pasa los datos a todos los servicios configurados. Cree esta ubicación en Adobe Experience Platform.<br><br>La creación inicial de una secuencia de datos en la interfaz de Platform solo lleva unos minutos."
+>title="Crear una secuencia de datos en Adobe Experience Platform"
+>abstract="Un conjunto de datos es una ubicación intermedia que pasa los datos a todos los servicios configurados. Cree esta ubicación en Adobe Experience Platform.<br><br>La creación inicial de una secuencia de datos en la interfaz de Platform solo lleva unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,17 +29,17 @@ ht-degree: 51%
 
 Una secuencia de datos representa la configuración del lado del servidor al implementar los SDK web y móvil de Adobe Experience Platform. Al recopilar datos con los SDK de Adobe Experience Platform, los datos se envían a Adobe Experience Platform Edge Network. Es la secuencia de datos la que determina a qué servicios se reenvían los datos.
 
-En la configuración, debe configurar el conjunto de datos para enviar los datos recopilados a su conjunto de datos en Adobe Experience Platform.
+En la configuración, desea configurar la secuencia de datos para enviar los datos recopilados a su conjunto de datos en Adobe Experience Platform.
 
 >[!NOTE]
 >
 >Los siguientes pasos solo son necesarios para implementaciones de Adobe Analytics que utilizan AppMeasurement o la extensión de Analytics (etiquetas).
 >
->Si la implementación de Adobe Analytics utiliza Web SDK o la extensión Web SDK, el conjunto de datos ya existe en el entorno de Adobe Analytics.
+>Si la implementación de Adobe Analytics utiliza el SDK web o la extensión del SDK web, el conjunto de datos ya existe en el entorno de Adobe Analytics.
 
 Para configurar la secuencia de datos, debe hacer lo siguiente:
 
-1. En Adobe Experience Platform, seleccione **[!UICONTROL Datastreams]** de [!UICONTROL RECOPILACIÓN DE DATOS] en el carril izquierdo.
+1. En Adobe Experience Platform, seleccione **[!UICONTROL Secuencias de datos]** en [!UICONTROL RECOPILACIÓN DE DATOS] en el carril izquierdo.
 
 1. Seleccione **[!UICONTROL Nueva secuencia de datos]**.
 

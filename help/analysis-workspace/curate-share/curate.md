@@ -8,7 +8,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -23,18 +23,18 @@ La depuración permite limitar los componentes (dimensiones, métricas, segmento
 
 1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
 Los componentes que se utilizan en el proyecto se añadirán automáticamente.
-1. (Opcional) Para agregar más componentes, arrastre los componentes que desee compartir desde el panel izquierdo al campo [!UICONTROL Depurar componentes].
+1. (Opcional) Para añadir más componentes, arrastre los componentes que desea compartir del panel izquierdo al campo [!UICONTROL Depurar componentes].
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
 La depuración también se puede aplicar desde el menú [!UICONTROL Compartir] haciendo clic en **[!UICONTROL Depurar y Compartir]**. Esta opción depura automáticamente el proyecto en los componentes que se utilizan en el proyecto. Puede agregar componentes adicionales siguiendo los pasos anteriores.
 
-![Ventana Depurar componentes que muestra los componentes en uso en el proyecto.](assets/curation-field.png)
+![Ventana Depurar componentes que muestra los componentes en uso del proyecto.](assets/curation-field.png)
 
 ## Vista de un proyecto depurado
 
 Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurado de componentes que haya definido:
 
-![Proyecto revisado compartido que muestra los componentes que ha definido.](assets/curate-project.png)
+![Un proyecto depurado compartido que muestra los componentes que se han definido.](assets/curate-project.png)
 
 ## Eliminar depuración del proyecto
 
@@ -46,7 +46,7 @@ Para eliminar la depuración del proyecto y restaurar el conjunto completo de co
 
 ## Opciones de depuración de componentes
 
-En un proyecto depurado, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos]** los componentes en el panel izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
+En un proyecto depurado, el destinatario tendrá la opción de seleccionar **[!UICONTROL Mostrar todo]** para mostrar todos los componentes en el panel izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
 
 * Nivel de permiso del usuario (administrador o no administrador)
 * Función del proyecto (propietario/editor o no)
@@ -55,6 +55,6 @@ En un proyecto depurado, el destinatario tendrá la opción de **[!UICONTROL Mos
 | Tipo de depuración | El administrador puede ver | El propietario del proyecto que no es administrador (o la función de edición) puede ver | La función duplicada que no es de administrador puede ver |
 | --- | --- | --- | --- |
 | **Componentes “ocultos” de una vista de datos** | Todos los componentes de vista de datos disponibles para la creación de informes (los ocultos requieren hacer clic en Mostrar todo) | No disponible para la creación de informes | No disponible para la creación de informes |
-| **Componentes añadidos o eliminados de una vista de datos** | Solo los componentes añadidos a la vista de datos (ocultos o no ocultos). Los administradores no pueden informar sobre campos o componentes que no estén definidos por la vista de datos. | Solo los componentes añadidos a la vista de datos o los componentes propiedad del usuario o compartidos con él. Los componentes ocultos no están disponibles (como la depuración de grupos de informes virtuales). | Solo los componentes añadidos a la vista de datos no se ocultan y se incluyen en la depuración del proyecto. |
+| **Componentes añadidos o eliminados de una vista de datos** | Solo los componentes añadidos a la vista de datos (ocultos o no ocultos). Los administradores no pueden informar sobre campos o componentes que no estén definidos por la vista de datos. | Solo los componentes añadidos a la vista de datos o los componentes propiedad del usuario o compartidos con él. Los componentes ocultos no están disponibles (como la depuración del grupo de informes virtuales). | Solo los componentes añadidos a la vista de datos no se ocultan y se incluyen en la depuración del proyecto. |
 | **Componentes depurados en un proyecto** | Todos los componentes de vista de datos disponibles para la creación de informes (los ocultos requieren hacer clic en Mostrar todo) | Todos los componentes de vista de datos no ocultos (requiere hacer clic en Mostrar todo) | Solo los componentes depurados, además de los componentes que sean propiedad del usuario o que se compartan con él |
 | **Proyecto depurado mediante una vista de datos con componentes ocultos** | Todos los componentes de datos disponibles para la creación de informes (los ocultos y no depurados requieren hacer clic en Mostrar todo) | Todos los componentes de proyecto no depurados, todos los componentes de vista de datos no ocultos y cualquier componente propiedad del usuario o compartido con él | Solo los componentes depurados, además de los componentes que sean propiedad del usuario o que se compartan con él |

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 90%
 <!-- markdownlint-enable MD034 -->
 
 
-La configuración de comportamiento está disponible tanto en dimensiones como en métricas. La disponibilidad de la configuración depende del tipo de componente y del tipo de datos de esquema.
+La configuración de comportamiento está disponible tanto en dimensiones como en métricas. La configuración disponible depende del tipo de componente y del tipo de datos de esquema.
 
 ![Configuración de comportamiento](../assets/behavior-settings.png)
 
@@ -38,7 +38,7 @@ La configuración de comportamiento está disponible tanto en dimensiones como e
 
 >[!NOTE]
 >
->Si habilita las [!UICONTROL minúsculas] en una dimensión del conjunto de datos de consulta, pueden existir varios valores de búsqueda para el mismo identificador. Si se produce este conflicto, Customer Journey Analytics utiliza el primer valor de intercalación ASCII (los valores en mayúsculas preceden a los valores en minúsculas). Adobe recomienda evitar el uso de conjuntos de datos de búsqueda que contienen el mismo valor cuando las [!UICONTROL minúsculas] está habilitadas.
+>Si habilita las [!UICONTROL minúsculas] en una dimensión del conjunto de datos de consulta, pueden existir varios valores de búsqueda para el mismo identificador. Si se produce este conflicto, Customer Journey Analytics utiliza el primer valor cotejado ASCII (los valores en mayúsculas preceden a los valores en minúsculas). Adobe recomienda evitar el uso de conjuntos de datos de búsqueda que contienen el mismo valor cuando las [!UICONTROL minúsculas] está habilitadas.
 
 ![Dimensión que distingue entre mayúsculas y minúsculas](../assets/case-sens-workspace.png)
 

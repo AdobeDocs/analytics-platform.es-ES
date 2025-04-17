@@ -130,7 +130,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Métrica predeterminada de la tabla"
->abstract="Seleccione la métrica predeterminada que se utilizará en las tablas de forma libre. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambia automáticamente a otra métrica principal."
+>abstract="Seleccione la métrica predeterminada que se utilizará para las tablas de forma libre. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambia automáticamente a otra métrica principal."
 
 
 Puede personalizar las preferencias de tabla de forma libre para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
@@ -240,7 +240,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Mostrar información sobre herramientas | Determina si se muestra la información de objeto, que contiene datos de nodo, al pasar el ratón por encima de nodos individuales dentro de una visualización de flujo. |
 | | Número de columnas | Determina cuántas columnas desea incluir en el diagrama de flujo. |
 | | Elementos expandidos por columna | Cuántos elementos desea incluir en cada columna. |
-| **[lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
+| **[Lienzo de recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
 | | Contenedor | Seleccione el contenedor preferido para analizar las rutas. El contenedor preferido le ayuda a comprender la participación de la cuenta en varios niveles de contenedor B2B [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, la participación de la persona en el nivel de persona (entre sesiones) o a restringir el análisis a una sola sesión. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Cuentas globales [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Cuentas [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Comprando grupos [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Oportunidades [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>Sesión</li><li>Persona</li></ul> |
 | **Gráficos apilados** | | |
 | | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. <p>Para obtener más información, consulte [Barra y barra apilada](/help/analysis-workspace/visualizations/bar.md).</p> |

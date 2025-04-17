@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 62%
+ht-degree: 79%
 
 ---
 
@@ -73,7 +73,7 @@ Detalles sobre la configuración de asignación disponible.
   | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
   | --- | --- | --- | --- | --- | --- |
   | Valores del conjunto de datos | A | B | C |  | A |
-  | Toda la asignación | A | A, B | A,B,C | A,B,C | A,B,C |
+  | Toda la asignación | A | A,B | A,B,C | A,B,C | A,B,C |
 
 * **[!UICONTROL Conocido por primera vez]** y **[!UICONTROL Último conocido]**: (19 de enero de 2022 ) estos dos modelos de asignación satisfacen los casos de uso de dimensiones “entrada” y “salida”. Toman el primer o el último valor observado para una dimensión dentro de un ámbito de persistencia especificado (sesión, persona o período de tiempo personalizado con retrospectiva) y lo aplican a todos los eventos dentro del ámbito especificado. Ejemplo:
 
@@ -96,27 +96,27 @@ Detalles sobre la configuración de caducidad disponible.
 * **Ventana de informes de oportunidad** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
 * **Ventana de informes del grupo de compra** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
 * **Hora personalizada**: caduca después de un período de tiempo especificado (hasta 90 días). Esta opción de caducidad solo está disponible para los modelos de asignación Original y Más reciente. Al utilizar la caducidad basada en el tiempo, se tienen en cuenta los valores anteriores al inicio de la ventana de creación de informes (hasta 90 días).
-* **Métrica**: cuando esta métrica se ve en un evento, caduca inmediatamente el valor persistente en la dimensión. Puede usar cualquier métrica como fin de caducidad para esta dimensión. Esta opción de caducidad solo está disponible para la configuración de asignación Original y Más reciente.
+* **Métrica**: cuando esta métrica se ve en un evento, caduca inmediatamente el valor persistente de la dimensión. Puede usar cualquier métrica como fin de caducidad para esta dimensión. Esta opción de caducidad solo está disponible para la configuración de asignación Original y Más reciente.
 
 
 ## [!UICONTROL Dimensión de enlace]
 
-Lista desplegable que permite enlazar la persistencia de un valor de dimensión a valores de dimensión de otra dimensión. Las opciones válidas incluyen otras dimensiones incluidas en la vista de datos.
+Una lista desplegable que le permite enlazar la persistencia de un valor de dimensión con valores de dimensión de otra dimensión. Las opciones válidas incluyen otras dimensiones incluidas en la vista de datos.
 
 Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones de enlace](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 ## [!UICONTROL Métrica de enlace]
 
-Lista desplegable que permite elegir una métrica que actúa como déclencheur de enlace. Las opciones válidas incluyen métricas incluidas en la vista de datos.
+Una lista desplegable que le permite elegir una métrica que actúa como activador de enlace. Las opciones válidas incluyen métricas incluidas en la vista de datos.
 
 Esta configuración solo aparece cuando la dimensión de enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace.
 
-Consulte el segundo ejemplo en [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar de forma eficaz las métricas de enlace.
+Vea el segundo ejemplo en [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar de forma eficaz las métricas de enlace.

@@ -1,6 +1,6 @@
 ---
-title: Extensión de Customer Journey Analytics BI
-description: Descubra cómo puede utilizar Power BI o Tableau Desktop para acceder a las vistas de datos mediante la extensión de Customer Journey Analytics BI.
+title: Extensión de BI de Customer Journey Analytics
+description: Descubra cómo puede utilizar Power BI o Tableau Desktop para acceder a las vistas de datos mediante la extensión de BI de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
@@ -8,11 +8,11 @@ exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
 source-git-commit: 2f9cfc3fc7edaa21175d44dfb3f9bface5cf0d81
 workflow-type: tm+mt
 source-wordcount: '3247'
-ht-degree: 48%
+ht-degree: 98%
 
 ---
 
-# Extensión de Customer Journey Analytics BI
+# Extensión de BI de Customer Journey Analytics
 
 {{select-package}}
 
@@ -22,13 +22,13 @@ El [servicio de consultas](https://experienceleague.adobe.com/es/docs/experience
 
 Las principales ventajas son las siguientes:
 
-* No es necesario volver a crear una representación equivalente de vistas de datos de Customer Journey Analytics dentro de la propia herramienta de BI. <br/>Vea [Vistas de datos](data-views.md) para obtener más información sobre la funcionalidad de las vistas de datos y comprender qué se debe volver a crear.
+* No es necesario volver a crear una representación equivalente de vistas de datos de Customer Journey Analytics dentro de la propia herramienta de BI. <br/>Consulte [Vistas de datos](data-views.md) para obtener más información sobre la funcionalidad de las vistas de datos y saber qué se debe volver a crear.
 * Mayor coherencia en la creacion de informes y análisis entre las herramientas de BI y Customer Journey Analytics.
 * Combinar datos de Customer Journey Analytics con otras fuentes de datos ya disponibles en las herramientas de BI.
 
 ## Requisitos previos
 
-Para usar esta funcionalidad, puede usar credenciales que caduquen o no caduquen para conectar las herramientas de BI a [!DNL Customer Journey Analytics BI extension]. La [Guía de credenciales](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) proporciona más información sobre cómo configurar credenciales que caducan o que no caducan.
+Para usar esta funcionalidad, puede usar credenciales que caduquen o no caduquen para conectar las herramientas de BI a la [!DNL Customer Journey Analytics BI extension]. La [guía de credenciales](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/credentials) proporciona más información sobre cómo configurar credenciales que caducan o que no.
 A continuación se muestran pasos adicionales para configurar los permisos de CJA
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
@@ -37,21 +37,21 @@ A continuación se muestran pasos adicionales para configurar los permisos de CJ
 Para utilizar credenciales que caducan, puede:
 
 * Conceder acceso a Experience Platform y Customer Journey Analytics.
-* Conceda acceso de administrador de productos a Customer Journey Analytics para que pueda ver, editar, actualizar o eliminar conexiones y vistas de datos.
+* Conceder acceso del administrador del producto a Customer Journey Analytics para que pueda ver, editar, actualizar o eliminar conexiones y vistas de datos.
 
 O bien puede:
 
-* Conceda acceso a las vistas de datos a las que desee acceder.
-* Conceder acceso a la extensión de Customer Journey Analytics BI.
+* Conceder acceso a las vistas de datos a las que desee acceder.
+* Conceder acceso a la extensión de BI de Customer Journey Analytics.
 
-### Credenciales que no caducan
+### Credenciales sin caducidad
 
 Para usar credenciales que no caduquen:
 
 * Cree credenciales que no caduquen en Experience Platform.
 * Conceda acceso a las credenciales que no caducan siguiendo los pasos mencionados en [Credenciales que caducan](#Expiring-credentials).
 
-Consulte [Control de acceso de Recorrido del cliente](../technotes/access-control.md) para obtener más información, en concreto los [permisos adicionales de administrador de productos](../technotes/access-control.md#product-admin-additional-permissions) y los [permisos de Customer Journey Analytics en Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
+Consulte [Control de acceso de Recorrido del cliente](../technotes/access-control.md) para obtener más información, en concreto los [permisos adicionales del administrador del producto](../technotes/access-control.md#product-admin-additional-permissions) y los [permisos de Customer Journey Analytics en Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## Uso
@@ -72,7 +72,7 @@ En Adobe Experience Platform:
 
 1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
-1. Para ejecutar la consulta, escriba la instrucción SQL y seleccione el botón ![Reproducir](assets/Smock_Play_18_N.svg) (o presione `[SHIFT]` + `[ENTER]`).
+1. Para ejecutar la consulta, escriba la instrucción SQL y seleccione el botón ![Reproducir](assets/Smock_Play_18_N.svg) (o pulse `[SHIFT]` + `[ENTER]`
 
 +++
 
@@ -87,20 +87,20 @@ En Adobe Experience Platform:
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
-   1. Para copiar la cadena de comandos, use ![Copiar](assets/Smock_Copy_18_N.svg) en la sección **[!UICONTROL ** Comando PSQL **]**.
+   1. Para copiar la cadena de conexión, utilice ![Copiar](assets/Smock_Copy_18_N.svg) en la sección **[!UICONTROL ** Comando PSQL **]**.
 
 1. Abra una ventana de comando o de terminal.
 
-1. Para iniciar sesión y comenzar a ejecutar las consultas, pegue la cadena de comando en el terminal.
+1. Para iniciar la sesión y empezar a ejecutar las consultas, pegue la cadena de conexión en la CLI de PostgresSQL.
 
 +++
 
-Consulte la [guía de la interfaz de usuario del editor de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide) para obtener más información.
+Si desea obtener más información, consulte la [Guía de la interfaz de usuario del Editor de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/user-guide).
 
 
 ### Herramientas de BI
 
-Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se ha probado para las herramientas que se enumeran a continuación. Otras herramientas de BI que usan la interfaz PSQL podrían funcionar también, pero aún no son compatibles oficialmente.
+Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y se ha probado para las herramientas que se enumeran a continuación. Otras herramientas de BI que usan la interfaz PSQL podrían funcionar también, pero aún no son compatibles oficialmente.
 
 +++ Power BI
 
@@ -124,24 +124,24 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. En el cuadro de diálogo **[!UICONTROL ** Base de datos de PostgressSQL **]**:
 
-      1. Pegue el parámetro **[!UICONTROL ** Host **]** de las consultas de Experience Platform [!UICONTROL Credenciales] en el campo de texto **[!UICONTROL ** Servidor **]**.
+      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Servidor **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Database **]** de las consultas de Experience Platform [!UICONTROL Credentials] en el campo de texto **[!UICONTROL ** Database **]**.
+      1. Pegue el parámetro **[!UICONTROL ** Database **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Base de datos **]**.
 
-         Añada `?FLATTEN` al parámetro **[!UICONTROL ** Base de datos **]**, para que se vea como `prod:cja?FLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
+         Añada `?FLATTEN` al parámetro **[!UICONTROL ** Base de datos **]**, para que se vea como `prod:cja?FLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
 
       1. Cuando se le pida el modo **[!UICONTROL Conectividad de datos]**, seleccione **[!UICONTROL DirectQuery]**.
 
       1. Se le solicitará el **[!UICONTROL nombre de usuario]** y la **[!UICONTROL contraseña]**. Utilice los parámetros equivalentes de las [!UICONTROL credenciales] de consultas de Experience Platform.
 
 
-   1. Después de iniciar sesión correctamente, las tablas de vista de datos de Customer Journey Analytics aparecen en Power BI **[!UICONTROL ** Navigator **]**.
+   1. Después de iniciar sesión correctamente, las tablas de la vista de datos de Customer Journey Analytics aparecerán en Power BI en el **[!UICONTROL ** navegador **]**. 
 
    1. Seleccione las tablas de vista de datos que desee utilizar y seleccione **[!UICONTROL ** cargar **]**.
 
    Todas las dimensiones y métricas asociadas con una o más tablas seleccionadas aparecen en el panel derecho, listas para utilizarse en las visualizaciones.
 
-   Consulte [Conectar Power BI al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi) para obtener más información. Consulte también [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
+   Consulte [Conectar Power BI al servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/clients/power-bi) para obtener más información. Consulte también [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
 
 +++
 
@@ -155,7 +155,7 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
-   1. Use ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Puerto], [!UICONTROL Base de datos], [!UICONTROL Nombre de usuario] y otros) cuando sea necesario en Tableau Desktop.
+   1. Utilice ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] y otros) cuando sea necesario en Tableau.
 
 1. En Tableau Desktop:
 
@@ -165,33 +165,33 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. En el cuadro de diálogo de [!UICONTROL PostgresSQL]:
 
-      1. Pegue el parámetro **[!UICONTROL ** Host **]** de las consultas de Experience Platform [!UICONTROL Credentials] en el campo de texto **[!UICONTROL ** Server **]**.
+      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Servidor **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Port **]** de las consultas de Experience Platform [!UICONTROL Credentials] en el campo de texto **[!UICONTROL ** Port **]**.
+      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Servidor **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Database **]** de las consultas de Experience Platform [!UICONTROL Credentials] en el campo de texto **[!UICONTROL ** Database **]**.
+      1. Pegue el parámetro **[!UICONTROL ** Database **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Base de datos **]**.
 
-         Añada `%3FFLATTEN` al parámetro **[!UICONTROL ** Base de datos **]**, para que se vea como `prod:cja%3FFLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
+         Añada `%3FFLATTEN` al parámetro **[!UICONTROL ** Base de datos **]**, para que se vea como `prod:cja%3FFLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
 
       1. Seleccione **[!UICONTROL ** Nombre de usuario y contraseña **]** de la lista **[!UICONTROL ** Autenticación **]**.
 
       1. Pegue el parámetro **[!UICONTROL ** Nombre de usuario **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Nombre de usuario **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Password **]** de las consultas de Experience Platform [!UICONTROL Credentials] en el campo de texto **[!UICONTROL ** Password **]**.
+      1. Pegue el parámetro **[!UICONTROL ** Password **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Contraseña **]**.
 
       1. Seleccione **[!UICONTROL ** Iniciar sesión **]**.
 
-   1. Las vistas de datos de Customer Journey Analytics se muestran como tablas en la lista **[!UICONTROL ** Tabla **]**.
+   1. Las vistas de datos de Customer Journey Analytics se muestran como tablas en la lista **[!UICONTROL ** Tabla **]**. 
 
    1. Arrastre las tablas que desee utilizar en el lienzo.
 
    Ahora puede trabajar con los datos de las tablas de vista de datos para crear sus informes y visualizaciones.
 
-   Consulte [Conectar Tableau al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau) para obtener más información. Consulte también [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
+   Consulte [Conectar Tableau al servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/clients/tableau) para obtener más información. Consulte también [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
 
 +++
 
-+++ Buscador
++++ Looker
 
 1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
 
@@ -201,20 +201,20 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
-   1. Use ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Puerto], [!UICONTROL Base de datos], [!UICONTROL Nombre de usuario] y otros) cuando sea necesario en Looker.
+   1. Utilice ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] y otros) cuando sea necesario en Tableau.
 
-1. En Buscador:
+1. En Looker:
 
    1. Seleccione **[!UICONTROL Admin]** en el carril izquierdo.
    1. Seleccione **[!UICONTROL Conexiones]**.
-   1. Seleccione **[!UICONTROL Agregar conexión]**.
-   1. En la pantalla **[!UICONTROL Conectar la base de datos al buscador]**, pegue los valores apropiados al configurar la nueva conexión. Asegúrese de seleccionar **[!UICONTROL PostgreSQL 9.5+]** como dialecto.
+   1. Seleccione **[!UICONTROL Añadir conexión]**.
+   1. En la pantalla **[!UICONTROL Conectar la base de datos a Looker]**, pegue los valores apropiados al configurar la nueva conexión. Asegúrese de seleccionar **[!UICONTROL PostgreSQL 9.5+]** como dialecto.
    1. Seleccione **[!UICONTROL Probar]** para probar la conexión.
    1. Si lo consigue, seleccione **[!UICONTROL Actualizar]** para guardar la conexión.
 
    Ahora puede trabajar con los datos de las tablas de vista de datos para crear sus informes y visualizaciones.
 
-   Consulte [Conectar buscador al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/looker) para obtener más información. Consulte también [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
+   Consulte [Conectar Looker al servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/clients/looker) para obtener más información. Consulte también [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
 
 +++
 
@@ -228,7 +228,7 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
-   1. Use ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Puerto], [!UICONTROL Base de datos], [!UICONTROL Nombre de usuario] y otros) cuando sea necesario en Jupyter Notebook.
+   1. Utilice ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] y otros) cuando sea necesario en Power BI.
 
 1. En Jupyter Notebook:
 
@@ -238,7 +238,7 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    Si tiene éxito, puede trabajar con los datos para crear sus informes y visualizaciones.
 
-   Consulte [Conectar Jupyter Notebook al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/jupyter-notebook) para obtener más información. Consulte también [casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
+   Consulte [Conectar Power BI al servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/clients/jupyter-notebook) para obtener más información. Consulte también [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado.
 
 +++
 
@@ -252,7 +252,7 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
-   1. Use ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Puerto], [!UICONTROL Base de datos], [!UICONTROL Nombre de usuario] y otros) cuando sea necesario en Jupyter Notebook.
+   1. Utilice ![Copiar](assets/Smock_Copy_18_N.svg) para copiar cada uno de los parámetros de credenciales de Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] y otros) cuando sea necesario en Power BI.
 
 1. En RStudio:
 
@@ -262,17 +262,17 @@ Actualmente, [!DNL Customer Journey Analytics BI extension] es compatible y se h
 
    Si tiene éxito, puede trabajar con los datos para crear sus informes y visualizaciones.
 
-   Consulte [Conectar RStudio al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/rstudio) para obtener más información. Consulte también [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado (que utiliza el paquete RPostgres en su lugar).
+   Consulte [Conectar Tableau al servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/clients/rstudio) para obtener más información. Consulte también [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md) para ver un ejemplo detallado (que utiliza el paquete RPostgres en su lugar).
 
 +++
 
-Consulte [Conectar clientes al servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview) para obtener información general y más detallada sobre las distintas herramientas disponibles.
+Consulte [Conectar clientes al servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/clients/overview) para obtener información general y más detallada sobre las distintas herramientas disponibles.
 
-Consulte [Casos de uso](/help/use-cases/data-views/bi-extension-usecases.md) sobre cómo realizar una serie de casos de uso con la extensión de Customer Journey Analytics BI.
+Consulte [Casos de uso](/help/use-cases/data-views/bi-extension-usecases.md) sobre cómo realizar una serie de casos de uso mediante la extensión de Customer Journey Analytics BI.
 
 ## Funcionalidad
 
-De forma predeterminada, las vistas de datos tienen un nombre seguro para las tablas generadas a partir de su nombre descriptivo. Por ejemplo, la vista de datos [!UICONTROL Mi vista de datos web] tiene el nombre de vista `my_web_data_view`. Puede definir un nombre preferido para usar en la herramienta de BI para la vista de datos. Consulte [Configuración de vista de datos](create-dataview.md#settings) para obtener más información.
+De forma predeterminada, las vistas de datos tienen un nombre seguro para las tablas generadas a partir de su nombre descriptivo. Por ejemplo, la vista de datos denominada [!UICONTROL Mis datos web] tiene el nombre de vista `my_web_data_view`. Puede definir un nombre preferido para usar en la herramienta de BI para la vista de datos. Consulte [Configuración de la vista de datos](create-dataview.md#settings) para obtener más información.
 
 Si desea utilizar los ID de vista de datos como nombres de tabla, puede añadir el `CJA_USE_IDS` opcional estableciendo en el nombre de la base de datos al conectarse. Por ejemplo, `prod:cja?CJA_USE_IDS` muestra sus vistas de datos con nombres como `dv_ABC123`.
 
@@ -280,9 +280,9 @@ Si desea utilizar los ID de vista de datos como nombres de tabla, puede añadir 
 
 La configuración relacionada con la gobernanza de datos en Customer Journey Analytics se hereda de Adobe Experience Platform. La integración entre Customer Journey Analytics y Gobernanza de datos de Adobe Experience Platform permite el etiquetado de datos confidenciales de Customer Journey Analytics y la aplicación de directivas de privacidad.
 
-Las etiquetas de privacidad y las políticas creadas en conjuntos de datos consumidos por Experience Platform se pueden ver en el flujo de trabajo de vistas de datos de Customer Journey Analytics. Por lo tanto, los datos consultados con [!DNL Customer Journey Analytics BI extension] muestran advertencias o errores adecuados cuando no cumplen con las etiquetas y directivas de privacidad definidas.
+Las etiquetas de privacidad y las políticas creadas en conjuntos de datos consumidos por Experience Platform pueden aparecer en el flujo de trabajo de vistas de datos de Customer Journey Analytics. Por lo tanto, los datos consultados mediante la [!DNL Customer Journey Analytics BI extension] de Customer Journey Analytics muestran advertencias o errores adecuados cuando no cumplen con las etiquetas y directivas de privacidad definidas.
 
-### Enumerar vistas de datos
+### Enumeración de vistas de datos
 
 En la CLI estándar de PostgreSQL, puede enumerar las vistas mediante `\dv`
 
@@ -297,7 +297,7 @@ prod:all=> \dv
 
 ### Anidado frente al acoplamiento
 
-De forma predeterminada, el esquema de las vistas de datos utiliza estructuras anidadas, al igual que los esquemas XDM originales. La integración también admite la opción `FLATTEN`. Puede utilizar esta opción para forzar el acoplamiento del esquema de las vistas de datos (y de cualquier otra tabla de la sesión). El acoplamiento permite un uso más sencillo en herramientas de BI que no admiten esquemas estructurados. Consulte [Trabajar con estructuras de datos anidadas en el servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
+De forma predeterminada, el esquema de las vistas de datos utiliza estructuras anidadas, al igual que los esquemas XDM originales. La integración también admite la opción `FLATTEN`. Puede utilizar esta opción para forzar el acoplamiento del esquema de las vistas de datos (y de cualquier otra tabla de la sesión). El acoplamiento permite un uso más sencillo en herramientas de BI que no admiten esquemas estructurados. Consulte [Trabajar con estructuras de datos anidadas en el servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
 
 
 ### Valores predeterminados y limitaciones
@@ -305,20 +305,20 @@ De forma predeterminada, el esquema de las vistas de datos utiliza estructuras a
 Al usar la extensión de BI, se aplican los siguientes valores predeterminados y limitaciones adicionales:
 
 * La extensión de BI requiere un límite de filas para los resultados de la consulta. El valor predeterminado es 50, pero puede invalidarlo en SQL con `LIMIT n`, donde `n` es 1 - 50000.
-* La extensión de BI requiere un intervalo de fechas para limitar las filas utilizadas en los cálculos. El valor predeterminado son los últimos 30 días, pero puede invalidarlo en la cláusula SQL `WHERE` con las columnas especiales [`timestamp`](#timestamp) o [`daterange`](#date-range).
-* La extensión de BI requiere consultas de agregado. No puede usar SQL como `SELECT * FROM ...` para obtener las filas subyacentes sin procesar. En un nivel superior, las consultas agregadas deben utilizar:
-   * Seleccionar totales usando `SUM` y/o `COUNT`.<br/> Por ejemplo, `SELECT SUM(metric1), COUNT(*) FROM ...`
+* La extensión de BI requiere un intervalo de fechas para limitar las filas utilizadas en los cálculos. El valor predeterminado son los últimos 30 días, pero puede invalidarlo en la cláusula de SQL `WHERE` con las columnas especiales [`timestamp`](#timestamp) o [`daterange`](#date-range).
+* La extensión de BI requiere consultas acumuladas. No puede usar SQL como `SELECT * FROM ...` para obtener las filas subyacentes sin procesar. En un nivel superior, las consultas agregadas deben utilizar:
+   * Seleccione totales usando `SUM` y/o `COUNT`.<br/> Por ejemplo, `SELECT SUM(metric1), COUNT(*) FROM ...`
    * Seleccione las métricas desglosadas por una dimensión. <br/>Por ejemplo, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
    * Seleccione valores de métrica distintos.<br/>Por ejemplo, `SELECT DISTINCT dimension1 FROM ...`
 
-     Consulte para obtener más información [SQL compatible](#supported-sql).
+     Consulte [SQL compatible](#supported-sql) para obtener más información.
 
 
 ### SQL compatible
 
-Consulte [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview) para obtener la referencia completa sobre qué tipo de SQL se admite.
+Consulte [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/sql/overview) para obtener la referencia completa sobre qué tipo de SQL se admite.
 
-Consulte la tabla siguiente para ver ejemplos del SQL que puede utilizar.
+Consulte la tabla siguiente para ver los ejemplos del SQL que puede utilizar.
 
 +++ Ejemplos
 
@@ -502,20 +502,20 @@ Puede seleccionar cualquiera de las dimensiones disponibles de forma predetermin
 Las métricas disponibles para seleccionar son las siguientes:
 
 * Cualquiera de las métricas disponibles de forma predeterminada;
-* Definido en la vista de datos;
-* Métricas calculadas compatibles con la vista de datos a la que el usuario tiene acceso.
+* Definidas en la vista de datos;
+* Métricas calculadas que son compatibles con la vista de datos a la que el usuario tiene acceso.
 
 Seleccione una métrica por su ID dentro de una expresión `SUM(metric)` igual que lo haría con otros orígenes SQL.
 
 Puede usar lo siguiente:
 
 * `SELECT COUNT(*)` o `COUNT(1)` para obtener la métrica de ocurrencias.
-* `SELECT COUNT(DISTINCT dimension)` o `SELECT APPROX_COUNT_DISTINCT(dimension)` para contar los valores distintos aproximados de una dimensión. Ver detalles en [Recuento de valores distintos](#counting-distinct-values).
-* [Cálculos en línea](#inline-calculations) para combinar métricas sobre la marcha o hacer cálculos matemáticos con ellas.
+* `SELECT COUNT(DISTINCT dimension)` o `SELECT APPROX_COUNT_DISTINCT(dimension)` para contar los valores distintos aproximados de una dimensión. Consulte los detalles en [Recuento de valores distintos](#counting-distinct-values).
+* [Cálculos en línea](#inline-calculations) para combinar métricas sobre la marcha o hacer cálculos matemáticos sobre ellas.
 
 #### Recuento de valores distintos
 
-Debido a la naturaleza subyacente del funcionamiento de Customer Journey Analytics, la única dimensión para la que puede obtener un recuento de distintos exactos es la dimensión `adobe_personid`. Las siguientes instrucciones SQL `SELECT COUNT(DISTINCT adobe_personid)` o `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` devuelven el valor de la métrica de personas predeterminada, que es el recuento de personas distintas. Para otras dimensiones, se devuelve un recuento distinto aproximado.
+Debido a la naturaleza subyacente del funcionamiento de Customer Journey Analytics, la única dimensión para la que puede obtener un recuento de distintos exactos es la dimensión `adobe_personid`. Las siguientes instrucciones de SQL `SELECT COUNT(DISTINCT adobe_personid)` o `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` devuelven el valor de la métrica de personas predeterminada que es el recuento de personas distintas. Para otras dimensiones, se devuelve un recuento distinto aproximado.
 
 #### Métricas condicionales
 
@@ -533,7 +533,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### Cálculos en línea
 
-Puede aplicar matemáticas adicionales a las expresiones de métricas en su `SELECT`. Esta matemática se puede utilizar en lugar de definir la matemática en una métrica calculada. En la tabla siguiente se enumeran los tipos de expresiones admitidos.
+Puede aplicar matemáticas adicionales a las expresiones de métricas en su `SELECT`. Esta matemática se puede utilizar en lugar de definir la matemática en una métrica calculada. En la tabla siguiente se indican qué tipos de expresiones se admiten.
 
 | Operador o función | Detalles |
 |---|---|
@@ -553,41 +553,41 @@ La columna especial `timestamp` se utiliza para proporcionar los intervalos de f
 El `timestamp` es opcional y, si no se proporciona ningún intervalo completo, se utilizan los valores predeterminados:
 
 * Si solo se proporciona un mínimo (`timestamp > X` o ` timestamp >= X`), el intervalo es de X a ahora.
-* Si solo se proporciona un máximo (`timestamp < X` o `timestamp <= X`), el intervalo va de X menos 30 días a X.
-* Si no se proporciona nada, el intervalo va de ahora a menos 30 días.
+* Si solo se proporciona un máximo (`timestamp < X` o `timestamp <= X`), el intervalo es de X menos 30 días a X.
+* Si no se proporciona nada, el intervalo es de ahora menos 30 días a ahora.
 
-El intervalo de marca de tiempo se convierte en un filtro global de intervalo de fecha en RankedRequest.
-El campo de marca de tiempo también se puede utilizar en funciones de fecha y hora para analizar o truncar la marca de tiempo del evento.
+El intervalo de marca de tiempo se convierte en un filtro global de intervalo de fechas en RankedRequest.
+El campo de marca de tiempo también se puede utilizar en funciones de fecha y hora para analizar y truncar la marca de tiempo del evento.
 
 #### Intervalo de fechas
 
-La columna especial `daterange` funciona de manera similar a `timestamp`; sin embargo, el filtrado se limita a días completos. El `daterange` también es opcional y tiene los mismos valores predeterminados de intervalo que `timestamp`.
-El campo `daterange` también se puede usar en funciones de fecha/hora para analizar o truncar la fecha del evento.
+La columna especial `daterange` funciona de forma similar a `timestamp`, pero el filtrado se limita a días completos. El `daterange` también es opcional y tiene los mismos valores predeterminados de intervalo que `timestamp`.
+El campo `daterange` también se puede utilizar en funciones de fecha y hora para analizar o truncar la fecha del evento.
 
 La columna especial `daterangeName` se puede usar para filtrar la consulta usando un intervalo de fechas con nombre como `Last Quarter`.
 
 >[!NOTE]
 >
->Power BI no admite `daterange` métricas con menos de un día (hora, 30 minutos, 5 minutos, etc.).
+>Power BI no admite las métricas `daterange` con menos de un día (hora, 30 minutos, 5 minutos, etc.).
 >
 
 #### Identificador de filtro
 
-La columna especial `filterId` es opcional y se utiliza para aplicar un filtro definido externamente a la consulta. La aplicación de un filtro definido externamente a una consulta es similar a arrastrar un filtro en un panel en Workspace. `AND` puede usar varios ID de filtro al usarlos.
+La columna especial `filterId` es opcional y se utiliza para aplicar un filtro definido externamente a la consulta. La aplicación de un filtro definido externamente a una consulta es similar a arrastrar un filtro en un panel en Workspace. Se pueden proporcionar varios ID de filtro aplicando `AND` sobre ellos.
 
 Junto con `filterId`, puede usar `filterName` para usar el nombre de un filtro en lugar del identificador.
 
 ### Cláusula Where
 
-La cláusula `WHERE` se administra en tres pasos:
+La cláusula `WHERE` se gestiona en tres pasos:
 
-1. Busque el intervalo de fechas en los campos especiales `timestamp`, `daterange` o `daterangeName`.
+1. Busque el intervalo de fechas en los campos especiales `timestamp`, `daterange` o `daterangeName`.
 
-1. Busque `filterId`s o `filterName`s definidos externamente para incluirlos en el filtro.
+1. Busque cualquier `filterId` o `filterName` definido externamente para incluir en el filtrado.
 
 1. Convierta las expresiones restantes en filtros ad hoc.
 
-La gestión se realiza analizando el primer nivel de `AND`s en la cláusula `WHERE`. Cada expresión de nivel superior `AND` debe coincidir con una de las expresiones anteriores. Lo que esté por debajo del primer nivel de `AND`s, o si la cláusula `WHERE` utiliza `OR` en el nivel superior, se gestiona como un filtro ad hoc.
+La gestión se realiza analizando el primer nivel de `AND`s en la cláusula `WHERE`. Cada expresión con `AND` de nivel superior debe coincidir con una de las expresiones anteriores. Lo que esté por debajo del primer nivel de `AND`s, o si la cláusula `WHERE` utiliza `OR` en el nivel superior, se gestiona como un filtro ad hoc.
 
 ### Orden de clasificación
 
@@ -603,19 +603,19 @@ ORDER BY metric1 ASC
 ORDER BY -metric1 DESC
 ```
 
-### Compatibilidad general con funciones
+### Compatibilidad con funciones generales
 
 | Función | Ejemplo | Detalles |
 |---|---|---|
-| [Reparto](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#cast) | ``CAST(`timestamp` AS STRING)`` o <br/> `` `timestamp`::string `` | Actualmente, no se admite la conversión de tipos, pero no se genera ningún error. Se ignora la función `CAST`. |
+| [Convertir](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#cast) | ``CAST(`timestamp` AS STRING)`` o <br/> `` `timestamp`::string `` | Actualmente, no se admite la conversión de tipos, pero no se genera ningún error. Se ignora la función `CAST`. |
 | [Marca de tiempo](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | Analice una cadena de tiempo como una marca de tiempo para utilizarla dentro de una cláusula `WHERE`. |
-| [A marca de tiempo](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#to_timestamp) | `` WHERE `timestamp` >= TO_TIMESTAMP('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_TIMESTAMP('01/02/2022', 'MM/dd/yyyy') `` | Analice una cadena de tiempo como una marca de tiempo para usarla dentro de una cláusula `WHERE`, proporcionando opcionalmente un formato para esa cadena de tiempo. |
+| [Hasta la marca de tiempo](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#to_timestamp) | `` WHERE `timestamp` >= TO_TIMESTAMP('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_TIMESTAMP('01/02/2022', 'MM/dd/yyyy') `` | Analice una cadena de tiempo como una marca de tiempo para usarla dentro de una cláusula `WHERE`, proporcionando opcionalmente un formato para esa cadena de tiempo. |
 | [Fecha](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#date) | `` WHERE `timestamp` >= DATE('2022-01-01') AND `timestamp` < DATE('2022-01-02') `` | Analice una cadena de fecha como una marca de tiempo para utilizarla dentro de una cláusula `WHERE`. |
 | [Hasta la fecha](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#to_date) | `` WHERE `timestamp` >= TO_DATE('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_DATE('01/02/2022', 'MM/dd/yyyy') `` | Analice una cadena de fecha como una marca de tiempo para utilizarla dentro de una cláusula `WHERE`, proporcionando opcionalmente un formato para esa cadena de fecha. |
 
 {style="table-layout:auto"}
 
-### Compatibilidad con funciones Dimension
+### Compatibilidad con las funciones de dimensión
 
 Estas funciones se pueden usar en dimensiones de la cláusula `SELECT`, `WHERE` o en métricas condicionales.
 
@@ -648,10 +648,10 @@ Estas funciones se pueden usar en dimensiones de la cláusula `SELECT`, `WHERE` 
 
 ### Compatibilidad parcial
 
-Algunas funcionalidades de SQL solo se admiten parcialmente con la extensión de BI y no devuelven los mismos resultados que se ven con otras bases de datos.  Esta funcionalidad específica se utiliza en SQL generado por varias herramientas de BI, para las que la extensión de BI no tiene una coincidencia exacta. Como resultado, la extensión de BI se centra en una implementación limitada que cubre el uso mínimo de la herramienta de BI sin arrojar errores. Consulte la tabla siguiente para obtener más detalles.
+Alguna funcionalidad de SQL solo es compatible parcialmente con la extensión de BI y no devuelve los mismos resultados que se ven con otras bases de datos.  Esta funcionalidad específica se utiliza en el SQL generado por varias herramientas de BI, para las que la extensión de BI no tiene una coincidencia exacta. Como resultado, la extensión de BI se centra en una implementación limitada que cubre el uso mínimo de la herramienta de BI sin generar errores. Consulte la tabla siguiente para obtener más detalles.
 
 | Función | Ejemplo | Detalles |
 |---|---|---|
-| MIN() &amp; MAX() | ``MIN(daterange)`` o <br/> ``MAX(daterange)`` | `MIN()` el `timestamp`, `daterange` o cualquiera de los `daterangeX` como `daterangeday` regresará hace 2 años.<br/><br/> `MAX()` el `timestamp`, `daterange` o cualquiera de los `daterangeX` como `daterangeday` devolverá la fecha/hora actual.<br/><br/>`MIN()` o `MAX()` en cualquier otra dimensión, métrica o expresión devolverá 0. |
+| MIN() y MAX() | ``MIN(daterange)`` o <br/> ``MAX(daterange)`` | `MIN()` en `timestamp`, `daterange` o cualquiera de `daterangeX` como `daterangeday` devolverá 2 años atrás.<br/><br/> `MAX()` en `timestamp`, `daterange` o cualquiera de `daterangeX` como `daterangeday` devolverá la fecha/hora actual.<br/><br/>`MIN()` o `MAX()` en cualquier otra dimensión, métrica o expresión devolverá 0. |
 
 {style="table-layout:auto"}

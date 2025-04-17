@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 58%
+ht-degree: 97%
 
 ---
 
@@ -32,17 +32,17 @@ ht-degree: 58%
 <!-- markdownlint-enable MD034 -->
 
 
-Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, Adobe Customer Journey Analytics le permite auditar la actividad del usuario para varios servicios y funcionalidades en forma de &quot;registros de auditoría&quot;. Estos registros forman una pista de auditoría que puede ser útil en la resolución de problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Portability and Accountability Act).
+Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, Customer Journey Analytics (CJA) le permite realizar una auditoría de la actividad del usuario en varios servicios y funcionalidades en forma de “registros de auditoría”. Estos registros forman una pista de auditoría que puede ser útil en la resolución de problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Portability and Accountability Act).
 
 En un sentido estricto, un registro de auditoría informa de **quién** realizó **qué** acción y **cuándo** lo hizo. Cada acción registrada contiene metadatos que indican el tipo de acción, la fecha y la hora, el ID de correo electrónico del usuario que realizó la acción y los atributos adicionales relevantes de ese tipo de acción.
 
-Este tema cubre los registros de auditoría en Customer Journey Analytics, incluido cómo verlos y administrarlos en la interfaz de usuario.
+Este tema trata sobre los registros de auditoría en Customer Journey Analytics, como su visualización y administración en la interfaz de usuario.
 
 ## Acceso a los registros de auditoría
 
 Cuando la función está habilitada para su organización, los registros de auditoría se recopilan automáticamente a medida que se produce la actividad. No es necesario habilitar manualmente la recopilación de registros.
 
-Para ver y exportar los registros de auditoría, se debe contar con el permiso de control **[!UICONTROL Acceso a registros de auditoría]** en la consola de Adobe. Para obtener información sobre cómo administrar permisos individuales para funciones de Customer Journey Analytics, consulte la [documentación de control de acceso](../technotes/access-control.md).
+Para ver y exportar los registros de auditoría, se debe contar con el permiso de control **[!UICONTROL Acceso a registros de auditoría]** en la consola de Adobe. Para obtener información sobre cómo administrar permisos individuales para funciones de Customer Journey Analyticis, consulte la [documentación de control de acceso](../technotes/access-control.md).
 
 ## Vista del registro de auditoría en la IU
 
@@ -50,7 +50,7 @@ En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONT
 
 El registro de auditoría correspondiente al día de hoy y al día de ayer se muestra de forma predeterminada.
 
-![Resaltar registros de auditoría hoy y ayer. ](assets/audit_ui.png)
+![Registro de auditoría resaltando hoy y ayer. ](assets/audit_ui.png)
 
 Para seleccionar qué columnas están visibles, vaya al selector de columnas ubicado en la parte superior derecha.
 
@@ -58,52 +58,52 @@ Para seleccionar qué columnas están visibles, vaya al selector de columnas ubi
 
 Haga doble clic en el botón de información (i) junto a una descripción.
 
-![Registro de auditoría que resalta el botón de información. ](assets/info-button-audit.png)
+![Registro de auditoría resaltando el botón de información. ](assets/info-button-audit.png)
 
 Se muestran los siguientes elementos:
 
-* **[!UICONTROL Nombre de la acción]**: Acción realizada. Entre los posibles valores están:
-   * API_REQUEST: Cualquier acción almacena en déclencheur una solicitud de API del servidor. Se muestran detalles sobre cuál era la solicitud de API.
-   * APROBAR: Se realizó una acción de &quot;aprobación&quot;.
-   * CREATE: Se ha realizado una acción &quot;create&quot;.
-   * DELETE: Se ha realizado una acción de &quot;eliminación&quot;.
-   * EDICIÓN: Se ha realizado una acción de &quot;edición&quot;.
+* **[!UICONTROL Nombre de acción]**: la acción realizada. Entre los posibles valores están:
+   * API_REQUEST: cualquier acción activa una solicitud de API back-end Se muestran detalles sobre cuál era la solicitud de API.
+   * APPROVE: se ha realizado una acción de &quot;aprobación&quot;.
+   * CREATE: se ha realizado una acción para &quot;crear&quot;.
+   * DELETE: se ha realizado una acción para &quot;eliminar&quot;.
+   * EDICIÓN: se ha realizado una acción para &quot;editar&quot;.
    * EMBARGO: cuando restringe una solicitud en [Administrador de actividades de creación de informes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), la acción se registra en el registro de auditoría en EMBARGO.
-   * EXPORTAR: Se realizó una acción de &quot;exportación&quot;.
-   * ORG_CHANGE: Se ha realizado una acción de cambio de organización.
-   * ACTUALIZAR: Se ha realizado una acción de &quot;actualización&quot;.
-   * COMPARTIR: Se realizó una acción de &quot;compartir&quot;.
-   * TRANSFERIR: Se realizó una acción de transferencia.
-   * UNAPPROVE: se realizó una acción &quot;desaprobar&quot;.
-   * DEJAR DE COMPARTIR: Se realizó una acción para dejar de compartir.
-* **[!UICONTROL Fecha de creación]**: La fecha y la hora en que se realizó la acción.
-* **[!UICONTROL Descripción]**: Un resumen de la acción.
-* **[!UICONTROL Nombre de usuario]**: El usuario que realizó la acción. En ocasiones, es posible que falte el nombre de usuario. Considere utilizar la característica [Uso del producto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/tools/product-usage/usage-overview), ya que siempre incluye el nombre de usuario de inicio de sesión.
-* **[!UICONTROL Correo electrónico]**: La dirección de correo electrónico del usuario que realizó la acción.
-* **[!UICONTROL Nombre de componente]**: Componente sobre el que el usuario realizó una acción.
-* **[!UICONTROL Tipo de componente]**: El tipo de componente. Entre los posibles valores están:
-   * ANOTACIÓN
-   * AUDIENCIA
+   * EXPORTAR: se ha realizado una acción para &quot;exportar&quot;.
+   * ORG_CHANGE: se ha realizado una acción de cambio de organización.
+   * ACTUALIZAR: se ha realizado una acción para &quot;actualizar&quot;.
+   * COMPARTIR: se ha realizado una acción para &quot;compartir&quot;.
+   * TRANSFERIR: se ha realizado una acción de transferencia.
+   * UNAPPROVE: se ha realizado una acción para &quot;desaprobar&quot;.
+   * UNSHARE: se ha realizado una acción para &quot;anular uso compartido&quot;.
+* **[!UICONTROL Fecha de creación]**: fecha y hora en que se realizó la acción.
+* **[!UICONTROL Descripción]**: un resumen de la acción.
+* **[!UICONTROL Nombre de usuario]**: el usuario que ha realizado la acción. En ocasiones, es posible que falte el nombre de usuario. Considere la posibilidad de utilizar la característica [Uso del producto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/tools/product-usage/usage-overview), ya que siempre incluye el nombre de usuario de inicio de sesión.
+* **[!UICONTROL Correo electrónico]**: la dirección de correo electrónico del usuario que ha realizado la acción.
+* **[!UICONTROL Nombre de componente]**: Componente en el que el usuario realizó una acción.
+* **[!UICONTROL Tipo]**: tipo de componente. Entre los posibles valores están:
+   * ANNOTATION
+   * AUDIENCE
    * CALCULATED_METRIC
-   * CONEXIÓN
+   * CONNECTION
    * DATA_GROUP
    * DATA_VIEW
    * DATASET_STITCHING
    * DATE_RANGE
    * FEATURE_ACCESS
-   * FILTRO
-   * IMS_ORG
-   * MÓVIL
-   * PROYECTO (Workspace)
-   * INFORME
-   * PROYECTO_PROGRAMADO
-   * USUARIO
+   * FILTRAR
+   * IMS_Org
+   * MOBILE
+   * PROJECT (Workspace)
+   * REPORT
+   * SCHEDULED_PROJECT
+   * USER
    * USER_GROUP
-* **[!UICONTROL ID de componente]**: ID del componente sobre el que el usuario realizó una acción.
-* **[!UICONTROL ID de organización de IMS]**: ID de IMS de la organización, con el formato `ABC123@AdobeOrg`.
-* **[!UICONTROL Id. de registro]**: ID único que identifica esta entrada de registro.
-* **[!UICONTROL ID de usuario]**: ID único que identifica al usuario que realizó la acción.
-* **[!UICONTROL Tipo de usuario]**: El tipo de autenticación usado. Los valores válidos son los siguientes:
+* **[!UICONTROL ID de componente]**: el identificador del componente en el que el usuario realizó una acción.
+* **[!UICONTROL ID de organización de IMS]**: el identificador de IMS de la organización, con el formato `ABC123@AdobeOrg`.
+* **[!UICONTROL ID de registro]**: un identificador único que identifica esta entrada de registro.
+* **[!UICONTROL ID de usuario]**: el ID único que identifica al usuario que realizó la acción.
+* **[!UICONTROL Tipo de usuario]**: el tipo de autenticación utilizado. Los valores válidos son los siguientes:
    * IMS
    * OKTA
 
@@ -115,7 +115,7 @@ Seleccione el icono de canal (![filtro](assets/filter-icon.png)) para mostrar un
 
 Los siguientes filtros están disponibles para eventos de auditoría en la interfaz de usuario:
 
-| Filtro | Descripción |
+| Filtrar | Descripción |
 | --- | --- |
 | [!UICONTROL Intervalo de fecha] | Filtre en un intervalo distinto seleccionando una fecha diferente o un intervalo de fechas arrastrando el cursor sobre varias fechas. De forma predeterminada, se seleccionan las fechas de hoy y de ayer. |
 | [!UICONTROL Acción] | Filtre por cualquier nombre de acción enumerado anteriormente. |
@@ -158,4 +158,4 @@ Puede descargar registros de auditoría en los formatos CSV o JSON. Los filtros 
 
 ## Administrar registros de auditoría en la API
 
-Todas las acciones que puede realizar en la interfaz de usuario también se pueden realizar mediante llamadas a la API. Consulte el [documento de referencia de la API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) para obtener más información.
+Todas las acciones que puede realizar en la interfaz de usuario también se pueden realizar mediante llamadas a la API. Para obtener más información, consulte el [documento de referencia de la API de Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs).

@@ -1,6 +1,6 @@
 ---
-title: Creación de un esquema para Customer Journey Analytics
-description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
+title: Crear un esquema para Customer Journey Analytics
+description: Más información sobre la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-create"
 >title="Creación de un conjunto de datos en Adobe Experience Platform"
->abstract="Un conjunto de datos es una ubicación en la que residen los datos recopilados. Cree esta ubicación en Adobe Experience Platform.<br><br>Crear un conjunto de datos con un esquema en mente solo lleva unos minutos."
+>abstract="Un conjunto de datos es una ubicación en la que residen los datos recopilados. Cree esta ubicación en Adobe Experience Platform.<br><br>Crear un conjunto de datos con un esquema en mente toma solo unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,11 +27,11 @@ ht-degree: 60%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-Un conjunto de datos es la construcción que almacena y administra los datos que recopila en Adobe Experience Platform.
+Un conjunto de datos es la construcción que almacena y administra los datos que se recopilan en Adobe Experience Platform.
 
 Para crear un conjunto de datos:
 
-1. En Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Conjuntos de datos]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
+1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Conjuntos de datos]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
 1. Seleccione **[!UICONTROL Crear conjunto de datos]**.
 
@@ -59,6 +59,6 @@ Para crear un conjunto de datos:
 
    ![Habilitar esquema para perfil](assets/aepwebsdk-dataset-profile.png)
 
-   Consulte [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es) para obtener mucha más información sobre cómo ver, previsualizar, crear y eliminar un conjunto de datos. También puede aprender a habilitar un conjunto de datos para el perfil del cliente en tiempo real.
+   Consulte [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es) para obtener más información sobre cómo ver, previsualizar, crear o eliminar un conjunto de datos. También puede aprender a habilitar un conjunto de datos para el perfil del cliente en tiempo real.
 
 {{upgrade-final-step}}

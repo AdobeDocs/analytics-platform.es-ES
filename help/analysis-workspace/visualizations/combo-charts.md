@@ -1,5 +1,5 @@
 ---
-description: Visualice fácilmente datos de comparación en Analysis Workspace, como comparaciones con el mes o el año pasado, etc.
+description: Permite visualizar fácilmente datos de comparación en Analysis Workspace, como crear comparaciones con el mes o el año pasado, etc.
 title: Visualización de gráficos combinados
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización combinada en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_En este artículo se describe la visualización Combo de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._.
 
-_Vea [Combo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_Consulte [Combo](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
