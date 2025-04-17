@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '5188'
-ht-degree: 8%
+source-wordcount: '5200'
+ht-degree: 15%
 
 ---
 
@@ -69,191 +69,191 @@ Los datos de evento están disponibles en el Ejemplo de conjunto de datos de eve
 
 | timestamp | _id | page_name | person_id | tracking_code | pedidos | revenue_amount |
 |---|---:|---|---|---|---:|---:|
-| 18-07-202419:15:39+00:00 | 1 | página principal | person-1abc123 | abc123 |  |  |
+| 18-07-202419:15:39+00:00 | 1 | página de inicio | person-1abc123 | abc123 |  |  |
 | 18-07-202419:15:39+00:00 | 2 | página de confirmación | person-1abc123 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 3 | página principal | person-2def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 4 | página principal | person-3ghi123 | ghi123 |  |  |
+| 18-07-202419:15:39+00:00 | 3 | página de inicio | person-2def123 | def123 |  |  |
+| 18-07-202419:15:39+00:00 | 4 | página de inicio | person-3ghi123 | ghi123 |  |  |
 | 18-07-202419:15:39+00:00 | 5 | página de confirmación | person-3ghi123 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 6 | página principal | person-4abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 7 | página principal | person-5def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 8 | página principal | person-6ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 6 | página de inicio | person-4abc456 | abc456 |  |  |
+| 18-07-202419:15:39+00:00 | 7 | página de inicio | person-5def456 | def456 |  |  |
+| 18-07-202419:15:39+00:00 | 8 | página de inicio | person-6ghi456 | ghi456 |  |  |
 | 18-07-202419:15:39+00:00 | 9 | página de confirmación | person-6ghi456 |  | 1 | 159,25 |
-| 18-07-202419:15:39+00:00 | 10 | página principal | person-7abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 11 | página principal | person-8def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 12 | página principal | person-9ghi789 | ghi789 |  |  |
+| 18-07-202419:15:39+00:00 | 10 | página de inicio | person-7abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 11 | página de inicio | person-8def789 | def789 |  |  |
+| 18-07-202419:15:39+00:00 | 12 | página de inicio | person-9ghi789 | ghi789 |  |  |
 | 18-07-202419:15:39+00:00 | 13 | página de confirmación | person-9ghi789 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 14 | página principal | person-10abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 15 | página principal | person-11def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 16 | página principal | person-12ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 17 | página principal | person-13abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 18 | página principal | person-14def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 19 | página principal | person-15ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 14 | página de inicio | person-10abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 15 | página de inicio | person-11def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 16 | página de inicio | person-12ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 17 | página de inicio | person-13abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 18 | página de inicio | person-14def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 19 | página de inicio | person-15ghi654 | ghi654 |  |  |
 | 18-07-202419:15:39+00:00 | 20 | página de confirmación | person-15ghi654 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 21 | página principal | person-16abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 22 | página principal | person-17def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 23 | página principal | person-18ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 24 | página principal | person-19abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 25 | página principal | person-20def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 26 | página principal | person-21ghi123 | ghi123 |  |  |
+| 18-07-202419:15:39+00:00 | 21 | página de inicio | person-16abc321 | abc321 |  |  |
+| 18-07-202419:15:39+00:00 | 22 | página de inicio | person-17def321 | def321 |  |  |
+| 18-07-202419:15:39+00:00 | 23 | página de inicio | person-18ghi321 | ghi321 |  |  |
+| 18-07-202419:15:39+00:00 | 24 | página de inicio | person-19abc123 | abc123 |  |  |
+| 18-07-202419:15:39+00:00 | 25 | página de inicio | person-20def123 | def123 |  |  |
+| 18-07-202419:15:39+00:00 | 26 | página de inicio | person-21ghi123 | ghi123 |  |  |
 | 18-07-202419:15:39+00:00 | 27 | página de confirmación | person-21ghi123 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 28 | página principal | person-22abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 29 | página principal | person-23def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 30 | página principal | person-24ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 31 | página principal | person-25abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 28 | página de inicio | person-22abc456 | abc456 |  |  |
+| 18-07-202419:15:39+00:00 | 29 | página de inicio | person-23def456 | def456 |  |  |
+| 18-07-202419:15:39+00:00 | 30 | página de inicio | person-24ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 31 | página de inicio | person-25abc789 | abc789 |  |  |
 | 18-07-202419:15:39+00:00 | 32 | página de confirmación | person-25abc789 |  | 1 | 139,25 |
-| 18-07-202419:15:39+00:00 | 33 | página principal | person-26abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 34 | página principal | person-27def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 35 | página principal | person-28ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 36 | página principal | person-29abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 33 | página de inicio | person-26abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 34 | página de inicio | person-27def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 35 | página de inicio | person-28ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 36 | página de inicio | person-29abc654 | abc654 |  |  |
 | 18-07-202419:15:39+00:00 | 37 | página de confirmación | person-29abc654 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 38 | página principal | person-30def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 39 | página principal | person-31ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 40 | página principal | person-32abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 41 | página principal | person-33ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 38 | página de inicio | person-30def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 39 | página de inicio | person-31ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 40 | página de inicio | person-32abc321 | abc321 |  |  |
+| 18-07-202419:15:39+00:00 | 41 | página de inicio | person-33ghi456 | ghi456 |  |  |
 | 18-07-202419:15:39+00:00 | 42 | página de confirmación | person-33ghi456 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 43 | página principal | person-34abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 44 | página principal | person-35def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 45 | página principal | person-36ghi789 | ghi789 |  |  |
+| 18-07-202419:15:39+00:00 | 43 | página de inicio | person-34abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 44 | página de inicio | person-35def789 | def789 |  |  |
+| 18-07-202419:15:39+00:00 | 45 | página de inicio | person-36ghi789 | ghi789 |  |  |
 | 18-07-202419:15:39+00:00 | 46 | página de confirmación | person-36ghi789 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 47 | página principal | person-37abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 48 | página principal | person-38def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 49 | página principal | person-39ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 50 | página principal | person-40abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 47 | página de inicio | person-37abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 48 | página de inicio | person-38def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 49 | página de inicio | person-39ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 50 | página de inicio | person-40abc654 | abc654 |  |  |
 | 18-07-202419:15:39+00:00 | 51 | página de confirmación | person-40abc654 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 52 | página principal | person-41def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 53 | página principal | person-42ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 54 | página principal | person-43abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 55 | página principal | person-44def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 56 | página principal | person-45ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 57 | página principal | person-46abc123 | abc123 |  |  |
+| 18-07-202419:15:39+00:00 | 52 | página de inicio | person-41def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 53 | página de inicio | person-42ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 54 | página de inicio | person-43abc321 | abc321 |  |  |
+| 18-07-202419:15:39+00:00 | 55 | página de inicio | person-44def321 | def321 |  |  |
+| 18-07-202419:15:39+00:00 | 56 | página de inicio | person-45ghi321 | ghi321 |  |  |
+| 18-07-202419:15:39+00:00 | 57 | página de inicio | person-46abc123 | abc123 |  |  |
 | 18-07-202419:15:39+00:00 | 58 | página de confirmación | person-46abc123 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 59 | página principal | person-47def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 60 | página principal | persona-48ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 61 | página principal | person-49abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 62 | página principal | person-50def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 63 | página principal | person-51ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 64 | página principal | person-52abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 59 | página de inicio | person-47def123 | def123 |  |  |
+| 18-07-202419:15:39+00:00 | 60 | página de inicio | persona-48ghi123 | ghi123 |  |  |
+| 18-07-202419:15:39+00:00 | 61 | página de inicio | person-49abc456 | abc456 |  |  |
+| 18-07-202419:15:39+00:00 | 62 | página de inicio | person-50def456 | def456 |  |  |
+| 18-07-202419:15:39+00:00 | 63 | página de inicio | person-51ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 64 | página de inicio | person-52abc789 | abc789 |  |  |
 | 18-07-202419:15:39+00:00 | 65 | página de confirmación | person-52abc789 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 66 | página principal | person-53abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 67 | página principal | person-54def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 68 | página principal | person-55ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 66 | página de inicio | person-53abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 67 | página de inicio | person-54def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 68 | página de inicio | person-55ghi987 | ghi987 |  |  |
 | 18-07-202419:15:39+00:00 | 69 | página de confirmación | person-55ghi987 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 70 | página principal | person-56abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 71 | página principal | person-57def123 | def123 |  |  |
+| 18-07-202419:15:39+00:00 | 70 | página de inicio | person-56abc123 | abc123 |  |  |
+| 18-07-202419:15:39+00:00 | 71 | página de inicio | person-57def123 | def123 |  |  |
 | 18-07-202419:15:39+00:00 | 72 | página de confirmación | person-57def123 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 73 | página principal | persona-58ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 74 | página principal | person-59abc456 | abc456 |  |  |
+| 18-07-202419:15:39+00:00 | 73 | página de inicio | persona-58ghi123 | ghi123 |  |  |
+| 18-07-202419:15:39+00:00 | 74 | página de inicio | person-59abc456 | abc456 |  |  |
 | 18-07-202419:15:39+00:00 | 75 | página de confirmación | person-59abc456 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 76 | página principal | person-60def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 77 | página principal | person-61ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 78 | página principal | person-62abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 76 | página de inicio | person-60def456 | def456 |  |  |
+| 18-07-202419:15:39+00:00 | 77 | página de inicio | person-61ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 78 | página de inicio | person-62abc789 | abc789 |  |  |
 | 18-07-202419:15:39+00:00 | 79 | página de confirmación | person-62abc789 |  | 1 | 159,25 |
-| 18-07-202419:15:39+00:00 | 80 | página principal | person-63def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 81 | página principal | person-64ghi789 | ghi789 |  |  |
-| 18-07-202419:15:39+00:00 | 82 | página principal | person-65abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 80 | página de inicio | person-63def789 | def789 |  |  |
+| 18-07-202419:15:39+00:00 | 81 | página de inicio | person-64ghi789 | ghi789 |  |  |
+| 18-07-202419:15:39+00:00 | 82 | página de inicio | person-65abc987 | abc987 |  |  |
 | 18-07-202419:15:39+00:00 | 83 | página de confirmación | person-65abc987 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 84 | página principal | person-66def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 85 | página principal | person-67ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 86 | página principal | person-68abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 87 | página principal | person-69def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 88 | página principal | person-70ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 89 | página principal | person-71abc321 | abc321 |  |  |
+| 18-07-202419:15:39+00:00 | 84 | página de inicio | person-66def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 85 | página de inicio | person-67ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 86 | página de inicio | person-68abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 87 | página de inicio | person-69def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 88 | página de inicio | person-70ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 89 | página de inicio | person-71abc321 | abc321 |  |  |
 | 18-07-202419:15:39+00:00 | 90 | página de confirmación | person-71abc321 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 91 | página principal | person-72def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 92 | página principal | person-73ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 93 | página principal | person-74abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 94 | página principal | person-75def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 95 | página principal | persona-76ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 96 | página principal | person-77abc456 | abc456 |  |  |
+| 18-07-202419:15:39+00:00 | 91 | página de inicio | person-72def321 | def321 |  |  |
+| 18-07-202419:15:39+00:00 | 92 | página de inicio | person-73ghi321 | ghi321 |  |  |
+| 18-07-202419:15:39+00:00 | 93 | página de inicio | person-74abc123 | abc123 |  |  |
+| 18-07-202419:15:39+00:00 | 94 | página de inicio | person-75def123 | def123 |  |  |
+| 18-07-202419:15:39+00:00 | 95 | página de inicio | persona-76ghi123 | ghi123 |  |  |
+| 18-07-202419:15:39+00:00 | 96 | página de inicio | person-77abc456 | abc456 |  |  |
 | 18-07-202419:15:39+00:00 | 97 | página de confirmación | person-77abc456 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 98 | página principal | person-78def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 99 | página principal | person-79ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 100 | página principal | person-80abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 101 | página principal | person-81abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 98 | página de inicio | person-78def456 | def456 |  |  |
+| 18-07-202419:15:39+00:00 | 99 | página de inicio | person-79ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 100 | página de inicio | person-80abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 101 | página de inicio | person-81abc987 | abc987 |  |  |
 | 18-07-202419:15:39+00:00 | 102 | página de confirmación | person-81abc987 |  | 1 | 139,25 |
-| 18-07-202419:15:39+00:00 | 103 | página principal | person-82def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 104 | página principal | person-83ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 105 | página principal | person-84abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 106 | página principal | person-85def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 103 | página de inicio | person-82def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 104 | página de inicio | person-83ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 105 | página de inicio | person-84abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 106 | página de inicio | person-85def654 | def654 |  |  |
 | 18-07-202419:15:39+00:00 | 107 | página de confirmación | person-85def654 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 108 | página principal | person-86ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 109 | página principal | person-87abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 110 | página principal | person-88ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 111 | página principal | person-89abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 108 | página de inicio | person-86ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 109 | página de inicio | person-87abc321 | abc321 |  |  |
+| 18-07-202419:15:39+00:00 | 110 | página de inicio | person-88ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 111 | página de inicio | person-89abc789 | abc789 |  |  |
 | 18-07-202419:15:39+00:00 | 112 | página de confirmación | person-89abc789 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 113 | página principal | person-90def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 114 | página principal | person-91ghi789 | ghi789 |  |  |
-| 18-07-202419:15:39+00:00 | 115 | página principal | person-92abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 113 | página de inicio | person-90def789 | def789 |  |  |
+| 18-07-202419:15:39+00:00 | 114 | página de inicio | person-91ghi789 | ghi789 |  |  |
+| 18-07-202419:15:39+00:00 | 115 | página de inicio | person-92abc987 | abc987 |  |  |
 | 18-07-202419:15:39+00:00 | 116 | página de confirmación | person-92abc987 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 117 | página principal | person-93def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 118 | página principal | person-94ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 119 | página principal | person-95abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 120 | página principal | person-96def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 117 | página de inicio | person-93def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 118 | página de inicio | person-94ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 119 | página de inicio | person-95abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 120 | página de inicio | person-96def654 | def654 |  |  |
 | 18-07-202419:15:39+00:00 | 121 | página de confirmación | person-96def654 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 122 | página principal | person-97ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 123 | página principal | person-98abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 124 | página principal | person-99def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 125 | página principal | persona-100ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 126 | página principal | person-101abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 127 | página principal | person-102def123 | def123 |  |  |
+| 18-07-202419:15:39+00:00 | 122 | página de inicio | person-97ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 123 | página de inicio | person-98abc321 | abc321 |  |  |
+| 18-07-202419:15:39+00:00 | 124 | página de inicio | person-99def321 | def321 |  |  |
+| 18-07-202419:15:39+00:00 | 125 | página de inicio | persona-100ghi321 | ghi321 |  |  |
+| 18-07-202419:15:39+00:00 | 126 | página de inicio | person-101abc123 | abc123 |  |  |
+| 18-07-202419:15:39+00:00 | 127 | página de inicio | person-102def123 | def123 |  |  |
 | 18-07-202419:15:39+00:00 | 128 | página de confirmación | person-102def123 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 129 | página principal | persona-103ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 130 | página principal | person-104abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 131 | página principal | person-105def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 132 | página principal | persona-106ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 133 | página principal | person-107abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 134 | página principal | person-108abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 129 | página de inicio | persona-103ghi123 | ghi123 |  |  |
+| 18-07-202419:15:39+00:00 | 130 | página de inicio | person-104abc456 | abc456 |  |  |
+| 18-07-202419:15:39+00:00 | 131 | página de inicio | person-105def456 | def456 |  |  |
+| 18-07-202419:15:39+00:00 | 132 | página de inicio | persona-106ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 133 | página de inicio | person-107abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 134 | página de inicio | person-108abc987 | abc987 |  |  |
 | 18-07-202419:15:39+00:00 | 135 | página de confirmación | person-108abc987 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 136 | página principal | person-109def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 137 | página principal | person-110ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 136 | página de inicio | person-109def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 137 | página de inicio | person-110ghi987 | ghi987 |  |  |
 | 18-07-202419:15:39+00:00 | 138 | página de confirmación | person-110ghi987 |  |  |  |
-| 18-07-202419:15:39+00:00 | 139 | página principal | person-111def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 140 | página principal | person-112def987 |  | 1 | 124,25 |
+| 18-07-202419:15:39+00:00 | 139 | página de inicio | person-111def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 140 | página de inicio | person-112def987 |  | 1 | 124,25 |
 | 18-07-202419:15:39+00:00 | 141 | página de confirmación | person-112def987 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 142 | página principal | person-113ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 143 | página principal | person-114abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 144 | página principal | person-115def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 142 | página de inicio | person-113ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 143 | página de inicio | person-114abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 144 | página de inicio | person-115def654 | def654 |  |  |
 | 18-07-202419:15:39+00:00 | 145 | página de confirmación | person-115def654 |  | 1 | 159,25 |
-| 18-07-202419:15:39+00:00 | 146 | página principal | person-116ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 147 | página principal | person-117abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 148 | página principal | person-118def321 | def321 |  |  |
+| 18-07-202419:15:39+00:00 | 146 | página de inicio | person-116ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 147 | página de inicio | person-117abc321 | abc321 |  |  |
+| 18-07-202419:15:39+00:00 | 148 | página de inicio | person-118def321 | def321 |  |  |
 | 18-07-202419:15:39+00:00 | 149 | página de confirmación | person-118def321 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 150 | página principal | person-119ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 151 | página principal | person-120abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 152 | página principal | person-121def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 153 | página principal | person-122ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 154 | página principal | person-123abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 155 | página principal | person-124def456 | def456 |  |  |
+| 18-07-202419:15:39+00:00 | 150 | página de inicio | person-119ghi321 | ghi321 |  |  |
+| 18-07-202419:15:39+00:00 | 151 | página de inicio | person-120abc123 | abc123 |  |  |
+| 18-07-202419:15:39+00:00 | 152 | página de inicio | person-121def123 | def123 |  |  |
+| 18-07-202419:15:39+00:00 | 153 | página de inicio | person-122ghi123 | ghi123 |  |  |
+| 18-07-202419:15:39+00:00 | 154 | página de inicio | person-123abc456 | abc456 |  |  |
+| 18-07-202419:15:39+00:00 | 155 | página de inicio | person-124def456 | def456 |  |  |
 | 18-07-202419:15:39+00:00 | 156 | página de confirmación | person-124def456 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 157 | página principal | person-125ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 158 | página principal | person-126abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 159 | página principal | person-127abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 160 | página principal | person-128def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 161 | página principal | person-129ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 162 | página principal | person-130abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 157 | página de inicio | person-125ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 158 | página de inicio | person-126abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 159 | página de inicio | person-127abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 160 | página de inicio | person-128def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 161 | página de inicio | person-129ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 162 | página de inicio | person-130abc654 | abc654 |  |  |
 | 18-07-202419:15:39+00:00 | 163 | página de confirmación | person-130abc654 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 164 | página principal | person-131def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 165 | página principal | person-132ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 166 | página principal | person-133abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 167 | página principal | person-134ghi456 | ghi456 |  |  |
+| 18-07-202419:15:39+00:00 | 164 | página de inicio | person-131def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 165 | página de inicio | person-132ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 166 | página de inicio | person-133abc321 | abc321 |  |  |
+| 18-07-202419:15:39+00:00 | 167 | página de inicio | person-134ghi456 | ghi456 |  |  |
 | 18-07-202419:15:39+00:00 | 168 | página de confirmación | person-134ghi456 |  | 1 | 139,25 |
-| 18-07-202419:15:39+00:00 | 169 | página principal | person-135abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 170 | página principal | person-136def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 171 | página principal | person-137ghi789 | ghi789 |  |  |
-| 18-07-202419:15:39+00:00 | 172 | página principal | person-138abc987 | abc987 |  |  |
+| 18-07-202419:15:39+00:00 | 169 | página de inicio | person-135abc789 | abc789 |  |  |
+| 18-07-202419:15:39+00:00 | 170 | página de inicio | person-136def789 | def789 |  |  |
+| 18-07-202419:15:39+00:00 | 171 | página de inicio | person-137ghi789 | ghi789 |  |  |
+| 18-07-202419:15:39+00:00 | 172 | página de inicio | person-138abc987 | abc987 |  |  |
 | 18-07-202419:15:39+00:00 | 173 | página de confirmación | person-138abc987 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 174 | página principal | person-139def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 175 | página principal | person-140ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 176 | página principal | person-141abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 177 | página principal | person-142def654 | def654 |  |  |
+| 18-07-202419:15:39+00:00 | 174 | página de inicio | person-139def987 | def987 |  |  |
+| 18-07-202419:15:39+00:00 | 175 | página de inicio | person-140ghi987 | ghi987 |  |  |
+| 18-07-202419:15:39+00:00 | 176 | página de inicio | person-141abc654 | abc654 |  |  |
+| 18-07-202419:15:39+00:00 | 177 | página de inicio | person-142def654 | def654 |  |  |
 | 18-07-202419:15:39+00:00 | 178 | página de confirmación | person-142def654 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 179 | página principal | person-143ghi654 | ghi654 |  |  |
+| 18-07-202419:15:39+00:00 | 179 | página de inicio | person-143ghi654 | ghi654 |  |  |
 
 [![DataDownload](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
 
 +++
 
-+++ Búsqueda de datos
++++ Datos de búsqueda
 
 Los datos de búsqueda están disponibles en el Ejemplo de conjunto de datos de búsqueda. Los datos de ejemplo tienen este aspecto:
 
@@ -387,7 +387,7 @@ Para utilizar los datos de ejemplo en Customer Journey Analytics, cree una conex
 
 
 1. Seleccione **[!UICONTROL Customer Journey Analytics]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
-1. Seleccione **[!UICONTROL Conexiones]** en el menú superior.
+1. Seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione **[!UICONTROL Crear nueva conexión]**.
 1. En **[!UICONTROL Conexiones]** > **[!UICONTROL Conexión sin título]**:
    1. Escriba un **[!UICONTROL nombre de conexión]**, por ejemplo `Example Connection Using Summary Data`.
@@ -428,7 +428,7 @@ Los datos de los conjuntos de datos se añaden a Customer Journey Analytics, que
 Después de un tiempo, compruebe que los datos de los conjuntos de datos se cargan correctamente en Customer Journey Analytics.
 
 1. Seleccione **[!UICONTROL Customer Journey Analytics]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
-1. Seleccione **[!UICONTROL Conexiones]** en el menú superior.
+1. Seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione su conexión, por ejemplo **[!UICONTROL Ejemplo de conexión con datos de resumen]**.
 1. Seleccione un intervalo de fechas adecuado en los detalles de **[!UICONTROL Conexión]** > **[!UICONTROL Ejemplo de conexión con datos de resumen]**.
    1. Seleccione ![Calendario](/help/assets/icons/Calendar.svg) y, a continuación, **[!UICONTROL Últimos 7 días]**.
@@ -443,7 +443,7 @@ En la lista de **[!UICONTROL Conjuntos de datos]**, los valores de la columna **
 Para asegurarse de que puede crear informes sobre los datos correctos en Workspace, debe crear una vista de datos que contenga las métricas y dimensiones relevantes.
 
 1. Seleccione **[!UICONTROL Customer Journey Analytics]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
-1. Seleccione **[!UICONTROL Vistas de datos]** en el menú superior.
+1. Seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione **[!UICONTROL Crear nueva vista de datos]**.
 1. En **[!UICONTROL Vistas de datos]**, pase por las pantallas del asistente para configurar la vista de datos.
    1. En el paso **[!UICONTROL Configurar]** de **[!UICONTROL Vistas de datos]**:
@@ -458,7 +458,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
 
          | Nombre del componente | Conjunto de datos | Tipo de datos del esquema | Ruta de esquema |
          |---|---|---|---|
-         | Costo | Ejemplo de conjunto de datos de resumen | Doble | *_tenant*.cost |
+         | Coste | Ejemplo de conjunto de datos de resumen | Doble | *_tenant*.cost |
          | Impresiones | Ejemplo de conjunto de datos de resumen | Número entero | *_tenant*.impression |
          | Pedidos | Ejemplo de conjunto de datos de evento | Número entero | *_tenant*.orders |
          | Ingresos | Ejemplo de conjunto de datos de evento | Doble | *_tenant*.revenue_amount |
@@ -473,7 +473,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
          | Nombre de campaña (búsqueda) | Ejemplo de conjunto de datos de búsqueda | Cadena | *_tenant*.campaign_name |
          | Nombre de campaña (resumen) | Ejemplo de conjunto de datos de resumen | Cadena | *_tenant*.campaign_name |
          | Red | Ejemplo de conjunto de datos de resumen | Cadena | *_tenant*.network |
-         | Nombre de la página | Ejemplo de conjunto de datos de evento | Cadena | *_tenant*.page_name |
+         | Nombre de página | Ejemplo de conjunto de datos de evento | Cadena | *_tenant*.page_name |
          | Identificación de la persona | Ejemplo de conjunto de datos de evento | Cadena | *_tenant*.person_id |
          | Código de seguimiento (evento) | Ejemplo de conjunto de datos de evento | Cadena | *_tenant*.tracking_code |
          | Código de seguimiento (búsqueda) | Ejemplo de conjunto de datos de búsqueda | Cadena | *_tenant*.tracking_code |
@@ -482,7 +482,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
 
          ![Datos de resumen de código de seguimiento](../assets/tracking-code-summary-data.png)
          1. Despliegue ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Grupo de datos de resumen]**.
-         1. Habilitar **[!UICONTROL Crear agrupación]**.
+         1. Habilite **[!UICONTROL Crear agrupación]**.
          1. Seleccione **[!UICONTROL ID de campaña]** en la lista desplegable **[!UICONTROL Dimension]**. Este paso garantiza que los datos de evento y los datos de resumen se combinen correctamente para la creación de informes.
          1. Si lo desea, puede habilitar **[!UICONTROL Ocultar en creación de informes]**. [!UICONTROL Ocultar en informes] garantiza que la dimensión seleccionada ([!UICONTROL ID de campaña]) esté oculta en Analysis Workspace y otras herramientas de informes de Customer Journey Analytics. Si ha activado esta opción, puede comprobar la opción:
             1. Seleccione la dimensión **[!UICONTROL Campaign Id]** en la lista **[!UICONTROL Dimensiones]**.
@@ -505,7 +505,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
          ![Grupo de datos de resumen de campo derivado](../assets/derived-field-summary-data-group.png)
 
          1. Despliegue ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Grupo de datos de resumen]**.
-         1. Habilitar **[!UICONTROL Crear agrupación]**.
+         1. Habilite **[!UICONTROL Crear agrupación]**.
          1. Seleccione **[!UICONTROL Nombre de campaña (campo derivado de búsqueda)]** de la lista desplegable **[!UICONTROL Dimension]**. Este paso garantiza que el nombre de la campaña (búsqueda) del conjunto de datos de búsqueda de ejemplo se pueda usar de forma segura en los informes (consulte [Workspace](#workspace)).
 
       1. Seleccione la métrica **[!UICONTROL Ingresos]** de la lista **[!UICONTROL Métricas]**. En el panel de componentes:
@@ -585,7 +585,7 @@ Añada las métricas calculadas al informe.
       1. Habilitar **[!UICONTROL formato condicional]**.
          1. Seleccione **[!UICONTROL Generado automáticamente]**.
          1. Seleccione una **[!UICONTROL paleta de formato condicional]** preferida.
-   1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
+   1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
 Si desea informar sobre el nombre de la campaña en lugar del código de seguimiento (evento), siga estos pasos:
 

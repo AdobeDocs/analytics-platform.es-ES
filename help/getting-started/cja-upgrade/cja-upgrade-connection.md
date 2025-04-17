@@ -1,25 +1,25 @@
 ---
-title: Creación de un esquema para Customer Journey Analytics
-description: Obtenga información acerca de la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
+title: Crear un esquema para Customer Journey Analytics
+description: Más información sobre la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 22d3e7b8-4a4d-48a8-a98d-5172a9876286
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 94%
+source-wordcount: '1635'
+ht-degree: 99%
 
 ---
 
-# Creación y configuración de una conexión para utilizarla con Customer Journey Analytics {#upgrade-create-connection}
+# Crear y configurar una conexión para su uso con Customer Journey Analytics {#upgrade-create-connection}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-connection"
 >title="Crear una conexión en Customer Journey Analytics"
->abstract="Una conexión le permite convertir datos de Adobe Experience Platform a un formato optimizado para la creación de informes en Customer Journey Analytics. La creación de una conexión en Customer Journey Analytics es sencilla y solo tarda unos minutos en completarse."
+>abstract="Una conexión le permite convertir datos de Adobe Experience Platform a un formato optimizado para la creación de informes en Customer Journey Analytics. Crear una conexión en Customer Journey Analytics es sencillo y solo lleva unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,11 +27,11 @@ ht-degree: 94%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/connections/create-connection.md -->
 
-En la siguiente información se explica cómo crear y configurar una conexión, así como cómo agregar conjuntos de datos de Experience Platform a la conexión que cree. Para obtener información adicional acerca de cómo crear y configurar una conexión, vea [Crear o editar una conexión](/help/connections/create-connection.md).
+En la siguiente información se explica cómo crear y configurar una conexión, así como cómo añadir conjuntos de datos de Experience Platform a la conexión que cree. Para obtener información adicional sobre cómo crear y configurar una conexión, consulte [Crear o editar una conexión](/help/connections/create-connection.md).
 
 ## Creación y configuración de la conexión {#create-connection}
 
-1. En Customer Journey Analytics, seleccione la pestaña **[!UICONTROL Conexiones]**.
+1. En Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione **[!UICONTROL Crear nueva conexión]**.
 
    ![Configuración de conexión sin título](assets/create-conn1.png)
@@ -63,7 +63,7 @@ En la siguiente información se explica cómo crear y configurar una conexión, 
 
 ## Agregar y configurar conjuntos de datos {#add-dataset}
 
-Puede agregar un conjunto de datos de Experience Platform al crear una conexión.
+Puede añadir un conjunto de datos de Experience Platform al crear una conexión.
 
 1. En el cuadro de diálogo Configuración de conexión, haga clic en **[!UICONTROL Añadir conjuntos de datos]**.
 
@@ -107,7 +107,7 @@ Puede agregar un conjunto de datos de Experience Platform al crear una conexión
    | **[!UICONTROL Tipo de fuente de datos]** | Seleccione un tipo de fuente de datos. <br/>Los tipos de fuentes de datos incluyen los siguientes: <ul><li>[!UICONTROL Datos web]</li><li>[!UICONTROL Datos de aplicación móvil]</li><li>[!UICONTROL Datos POS]</li><li>[!UICONTROL Datos CRM]</li><li>[!UICONTROL Datos de las encuestas]</li><li>[!UICONTROL Datos de centro de llamadas]</li><li>[!UICONTROL Datos del producto]</li><li> [!UICONTROL Datos de cuentas]</li><li> [!UICONTROL Datos de transacción]</li><li>[!UICONTROL Datos de valoraciones del cliente]</li><li> [!UICONTROL Otro]</li></ul>Este campo se utiliza para estudiar los tipos de fuentes de datos que se utilizan. |
    | **[!UICONTROL Importar datos nuevos]** | Habilite esta opción si desea establecer una conexión continua. Con una conexión continua, los nuevos lotes de datos que se añaden a los conjuntos de datos están disponibles automáticamente en Workspace. |
    | **[!UICONTROL Relleno del conjunto de datos]** | Habilite **[!UICONTROL Relleno de todos los datos existentes]** para asegurarse de que se rellenan todos los datos existentes.<br/><br/>Seleccione **[!UICONTROL Solicitar relleno]** para rellenar los datos históricos de un período específico. Puede definir hasta 10 períodos de relleno de conjuntos de datos.<ol><li>Defina el periodo introduciendo datos de inicio y finalización o seleccionando fechas utilizando ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleccione **[!UICONTROL Relleno de cola]** para añadir el relleno a la lista o **[!UICONTROL Cancelar]** para cancelar.</li></ol>Para cada entrada, seleccione ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) para editar el periodo o seleccione ![Eliminar](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) para eliminar la entrada.<br/><br/>En rellenos:<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Prioriza los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La cantidad de datos históricos influye en la latencia.</li><li>El conector de origen de Analytics importa hasta 13 meses de datos, independientemente de su tamaño, para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.</li></ul> |
-   | **[!UICONTROL Transformación de un conjunto de datos]** | Para conjuntos de datos de búsqueda B2B específicos, puede habilitar la transformación de un conjunto de datos para escenarios de informes adecuados basados en personas B2B. |
+   | **[!UICONTROL Transformación de un conjunto de datos]** | En el caso de los conjuntos de datos de consulta B2B específicos, puede habilitar la transformación de un conjunto de datos para escenarios adecuados de sistemas de informes basados en personas B2B.  |
    | **[!UICONTROL Estado de relleno]** | Los posibles indicadores de estado son:<ul><li>Correcto</li><li>Procesamiento de X rellenos</li><li>Off</li></ul> |
    | **[!UICONTROL ID de conjunto de datos]** | Este ID se genera automáticamente. |
    | **[!UICONTROL Descripción]** | La descripción dada a este conjunto de datos cuando se creó. |

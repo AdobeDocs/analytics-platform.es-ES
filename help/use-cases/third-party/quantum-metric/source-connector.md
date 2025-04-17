@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ Consulte [Conectores de origen de Adobe Experience Platform](https://experiencel
 Al crear un conector de origen para datos de métricas cuánticas se crea automáticamente un conjunto de datos en Adobe Experience Platform. Agregue este conjunto de datos a una [conexión](/help/connections/overview.md) nueva o existente en Customer Journey Analytics.
 
 1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com).
-1. Vaya a Customer Journey Analytics y seleccione **[!UICONTROL Conexiones]** en el menú superior.
+1. Vaya a Customer Journey Analytics y seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Asigne un nombre a la conexión y agregue el conjunto de datos de métrica cuántica a la conexión.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -46,7 +47,7 @@ Al crear un conector de origen para datos de métricas cuánticas se crea autom�
 Cree una [vista de datos](/help/data-views/data-views.md) para establecer la configuración de dimensiones y métricas.
 
 1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com).
-1. Vaya a Customer Journey Analytics y seleccione **[!UICONTROL Vistas de datos]** en el menú superior.
+1. Vaya a Customer Journey Analytics y seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione la vista de datos que desee o cree una vista de datos.
 1. Busque las dimensiones y métricas deseadas de la Métrica cuántica en la lista de campos de esquema de la derecha y arrástrelas al área de dimensiones y métricas en el centro.
 1. Utilice el panel derecho para configurar cada dimensión y métrica deseadas.

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3543'
-ht-degree: 83%
+source-wordcount: '3551'
+ht-degree: 88%
 
 ---
 
@@ -64,16 +64,16 @@ Para configurar el esquema:
 
       >[!INFO]
       >
-      >    Se usa un esquema de Experience Event para modelar el _comportamiento_ de un perfil (como el nombre de la escena, el botón secundario para agregar al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
 
 1. En el [!UICONTROL paso Nombre y revisión] del asistente [!UICONTROL Crear esquema]:
 
-   1. Escriba un **[!UICONTROL nombre para mostrar en el esquema]** y (opcional) una **[!UICONTROL Descripción]**.
+   1. Introduzca un **[!UICONTROL Nombre para mostrar para el esquema]** para su esquema y (opcionalmente) una **[!UICONTROL Descripción]**.
 
-      ![Crear ventana de esquema que muestra los campos Nombre su esquema](./assets/create-ee-schema-wizard-step-2.png)
+      ![Ventana Crear esquema que muestra los campos de Nombre de su esquema](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Seleccione **[!UICONTROL Finalizar]**.
 
@@ -105,11 +105,11 @@ Para configurar el esquema:
 
    >[!NOTE]
    >
-   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [cree un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) y [agregue nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (como `ecid`, `crmId` y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
+   >Si ese grupo de campos no está disponible, busque otro que contenga campos de identidad. O bien [cree un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=es) y [agregue nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=es#define-a-identity-field) (como `ecid`, `crmId` y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
 
    ![Objeto de identificación](./assets/identification-field.png)
 
-   El objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante el ID de Experience Cloud y la dirección de correo electrónico. Hay muchos otros atributos disponibles para rastrear la identificación de su persona (por ejemplo, ID de cliente, ID de fidelidad).
+   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante Experience Cloud ID y la dirección de correo electrónico. Hay muchos otros atributos disponibles para realizar un seguimiento de la identificación de la persona (por ejemplo, ID de cliente o ID de lealtad).
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -135,7 +135,7 @@ Para configurar el esquema:
 
    Se le pedirá que habilite el esquema para el perfil. Tras la habilitación, cuando los datos se incorporan en conjuntos de datos basados en este esquema, los datos se combinan en el perfil del cliente en tiempo real.
 
-   Consulte [Habilitar el esquema para utilizarlo en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) para obtener más información.
+   Consulte [Habilitar el esquema para utilizarlo en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#profile) para obtener más información.
 
    >[!IMPORTANT]
    >
@@ -157,7 +157,7 @@ Para capturar estos datos de perfil, debe hacer lo siguiente:
 
 - Agregar un objeto de identificación basado en el grupo de campos Profile Core v2.
 
-- Defina el ID de Experience Cloud como identificador principal y el correo electrónico como identificador.
+- Definir Experience Cloud ID como identificador principal y el correo electrónico como identificador.
 
 - Habilitar el esquema para el perfil
 
@@ -233,7 +233,7 @@ Para configurar la secuencia de datos, debe hacer lo siguiente:
 
 La secuencia de datos ya está configurada para reenviar los datos recopilados de su sitio web a su conjunto de datos en Adobe Experience Platform.
 
-Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
+Consulte la [Información general sobre secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=es) para obtener más información sobre cómo configurar una secuencia de datos y cómo gestionar datos confidenciales.
 
 
 
@@ -260,7 +260,7 @@ Seleccione la etiqueta recién creada de la lista de [!UICONTROL Propiedades de 
 
 #### **Extensiones**
 
-Para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos), agregue la extensión SDK web de Adobe Platform a la etiqueta.
+Para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos), agregue la extensión Web SDK de Adobe Platform a la etiqueta.
 
 Para crear y configurar la extensión del SDK web de Adobe Experience Platform, debe hacer lo siguiente:
 
@@ -280,7 +280,7 @@ Para crear y configurar la extensión del SDK web de Adobe Experience Platform, 
 
 Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) para obtener más información.
 
-Web SDK incluye el [!UICONTROL servicio Adobe Experience Cloud ID] de forma nativa, por lo que no es necesario que agregue la extensión del servicio de ID a la etiqueta.
+El SDK web incluye el [!UICONTROL servicio de Adobe Experience Cloud ID] de forma nativa, por lo que no es necesario que añada la extensión del servicio de ID a la etiqueta.
 
 #### **Elementos de datos**
 
@@ -444,7 +444,7 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Guardar y compilar para desarrollo]**.
 
-   La etiqueta se guardará y se creará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
+   La etiqueta se guardará y se generará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
 
 4. Puede seleccionar **[!UICONTROL ...]** para recompilar la biblioteca o moverla a un entorno de ensayo o producción.
 
@@ -493,7 +493,7 @@ Una conexión le permite integrar conjuntos de datos de Adobe Experience Platfor
 
 Para crear la conexión:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 
 2. Seleccione **[!UICONTROL Crear nueva conexión]**.
 
@@ -539,7 +539,7 @@ Una vista de datos es un contenedor específico de Customer Journey Analytics qu
 
 Para crear la vista de datos:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Vistas de datos]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 
 2. Seleccione **[!UICONTROL Crear nueva vista de datos]**.
 
@@ -576,7 +576,7 @@ Analysis Workspace es una herramienta de navegador flexible que le permite compi
 
 Para crear un proyecto:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Proyectos]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Proyectos]** en el menú superior.
 
 2. Seleccione **[!UICONTROL Proyectos]** en el panel de navegación izquierdo.
 
@@ -600,4 +600,4 @@ Consulte [Información general de Analysis Workspace](../analysis-workspace/home
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Comience por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform. A continuación, configuró una secuencia de datos en el Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, ha definido e implementado la etiqueta que contiene las extensiones (SDK web de Adobe Experience Platform, servicio de Experience Cloud ID), los elementos de datos y las reglas para capturar datos de su sitio web y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento del sitio web y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.
+>Ha completado todos los pasos. Comience por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform. A continuación, configuró una secuencia de datos en Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, ha definido e implementado la etiqueta que contiene las extensiones (SDK web de Adobe Experience Platform, servicio de Experience Cloud ID), los elementos de datos y las reglas para capturar datos de su sitio web y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento del sitio web y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.

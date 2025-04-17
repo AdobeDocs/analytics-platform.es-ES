@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 80%
+source-wordcount: '1181'
+ht-degree: 82%
 
 ---
 
@@ -54,7 +54,7 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
 
 3. Seleccione **[!UICONTROL Configurar]** o **[!UICONTROL Agregar datos]** en el mosaico de Adobe Analytics.
 
-   ![Ventana de Adobe Experience Platform con orígenes seleccionados junto con aplicaciones de Adobe y Agregar datos resaltados.](./assets/sources-overview.png)
+   ![Ventana de Adobe Experience Platform con la opción Fuentes seleccionada junto con las aplicaciones de Adobe y la opción Añadir datos resaltada.](./assets/sources-overview.png)
 
 4. Seleccione **[!UICONTROL Grupo de informes]**. En la lista de grupos de informes, seleccione el que quiera utilizar.
 
@@ -76,10 +76,10 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
 
 7. Revise la conexión y seleccione **[!UICONTROL Finalizar]**.
 
-   ![Ventana de Adobe Experience Platform que resalta las secciones Tipo de datos y Conexión para su revisión](./assets/review.png)
+   ![Ventana de Adobe Experience Platform que resalta las secciones Conexión y Tipo de datos para su revisión](./assets/review.png)
 
 
-Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes. El flujo de datos ingiere hasta 13 meses de datos históricos para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.
+Una vez creada la conexión, el flujo de datos se crea automáticamente para rellenar un conjunto de datos con los datos de Adobe Analytics del grupo de informes. El flujo de datos ingiere hasta 13 meses de datos históricos para las zonas protegidas de producción. El relleno en zonas protegidas que no son de producción está limitado a tres meses.
 
 Cuando termina la ingesta inicial, los datos del grupo de informes de Adobe Analytics están listos para que los use Customer Journey Analytics.
 
@@ -94,7 +94,7 @@ Una conexión le permite integrar conjuntos de datos de Adobe Experience Platfor
 
 Para crear la conexión:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 
 2. Seleccione **[!UICONTROL Crear nueva conexión]**.
 
@@ -140,7 +140,7 @@ Una vista de datos es un contenedor específico de Customer Journey Analytics qu
 
 Para crear la vista de datos:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Vistas de datos]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 
 2. Seleccione **[!UICONTROL Crear nueva vista de datos]**.
 
@@ -177,7 +177,7 @@ Analysis Workspace es una herramienta de navegador flexible que le permite compi
 
 Para crear un proyecto:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Proyectos]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Proyectos]** en el menú superior.
 
 2. Seleccione **[!UICONTROL Proyectos]** en el panel de navegación izquierdo.
 

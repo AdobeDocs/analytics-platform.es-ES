@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 10a70743d292e50ca5aea3225897e7097fa4fc8a
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Confirme que los conjuntos de datos de la conexión ahora tienen el ID de sesió
 Edite la vista de datos existente para añadir el ID de sesión como una dimensión disponible en Customer Journey Analytics.
 
 1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com).
-1. Vaya a Customer Journey Analytics y seleccione **[!UICONTROL Vistas de datos]** en el menú superior.
+1. Vaya a Customer Journey Analytics y seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione la vista de datos existente que desee.
 1. Busque la lista del campo de evento de fricción de métrica cuántica a la izquierda y arrástrela al área de métricas en el centro.
 1. En el panel derecho, establezca la configuración [Incluir/Excluir valores](/help/data-views/component-settings/include-exclude-values.md) en los eventos de fricción que desee rastrear. Se pueden añadir varios eventos de fricción a la misma métrica para combinarlos. También puede arrastrar otra copia del campo de eventos de fricción al área de métricas para rastrear otros eventos de fricción como una métrica independiente.

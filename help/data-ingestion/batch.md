@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 87%
+source-wordcount: '1956'
+ht-degree: 88%
 
 ---
 
@@ -59,14 +59,14 @@ Para configurar el esquema:
 
       >[!INFO]
       >
-      >    Se usa un esquema de Experience Event para modelar el _comportamiento_ de un perfil (como el nombre de la escena, el botón secundario para agregar al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
 
 1. En el [!UICONTROL paso Nombre y revisión] del asistente [!UICONTROL Crear esquema]:
 
-   1. Escriba un **[!UICONTROL nombre para mostrar en el esquema]** y (opcional) una **[!UICONTROL Descripción]**.
+   1. Introduzca un **[!UICONTROL Nombre para mostrar para el esquema]** para su esquema y (opcionalmente) una **[!UICONTROL Descripción]**.
 
       ![Asignar un nombre al esquema](./assets/create-pr-schema-wizard-step-2.png)
 
@@ -100,7 +100,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identifcation-loyalty-field.png)
 
-   El objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico de los datos por lotes.
+   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico de los datos por lotes.
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -118,7 +118,7 @@ Para configurar el esquema:
 
    Se le pedirá que habilite el esquema para el perfil. Tras la habilitación, cuando los datos se incorporan en conjuntos de datos basados en este esquema, los datos se combinan en el perfil del cliente en tiempo real.
 
-   Consulte [Habilitar el esquema para utilizarlo en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) para obtener más información.
+   Consulte [Habilitar el esquema para utilizarlo en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#profile) para obtener más información.
 
    >[!IMPORTANT]
    >
@@ -224,7 +224,7 @@ Consulte [Asignar un archivo CSV a un esquema XDM existente](https://experiencel
 - Obtenga información sobre cómo asignar datos cuando los datos entrantes no sean compatibles con el esquema XDM.
 - utilizar plantillas de asignación,
 - utilice campos calculados para asegurarse de que los datos por lotes se ajustan a lo que espera el esquema.
-- y más.
+- y más
 
 
 ## Configurar una conexión
@@ -235,7 +235,7 @@ Una conexión le permite integrar conjuntos de datos de Adobe Experience Platfor
 
 Para crear la conexión:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 
 2. Seleccione **[!UICONTROL Crear nueva conexión]**.
 
@@ -281,7 +281,7 @@ Una vista de datos es un contenedor específico de Customer Journey Analytics qu
 
 Para crear la vista de datos:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Vistas de datos]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 
 2. Seleccione **[!UICONTROL Crear nueva vista de datos]**.
 
@@ -318,7 +318,7 @@ Analysis Workspace es una herramienta de navegador flexible que le permite compi
 
 Para crear un proyecto:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Proyectos]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Proyectos]** en el menú superior.
 
 2. Seleccione **[!UICONTROL Proyectos]** en el panel de navegación izquierdo.
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3382'
-ht-degree: 60%
+source-wordcount: '3390'
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 >[!NOTE]
 >
->Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos recopilados de la aplicación en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos recopilados de su aplicación en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 
 ## Configurar un esquema y un conjunto de datos
@@ -64,14 +64,14 @@ Para configurar el esquema:
 
       >[!INFO]
       >
-      >    Se usa un esquema de Experience Event para modelar el _comportamiento_ de un perfil (como el nombre de la escena, el botón secundario para agregar al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
 
 1. En el [!UICONTROL paso Nombre y revisión] del asistente [!UICONTROL Crear esquema]:
 
-   1. Escriba un **[!UICONTROL nombre para mostrar en el esquema]** y (opcional) una **[!UICONTROL Descripción]**.
+   1. Introduzca un **[!UICONTROL Nombre para mostrar para el esquema]** para su esquema y (opcionalmente) una **[!UICONTROL Descripción]**.
 
       ![Asignar un nombre al esquema](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -105,11 +105,11 @@ Para configurar el esquema:
 
    >[!NOTE]
    >
-   >Si ese grupo de campos no está disponible, busque otro grupo de campos que contenga campos de identidad. O [cree un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) y [agregue nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (como `ecid`, `crmId` y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
+   >Si ese grupo de campos no está disponible, busque otro que contenga campos de identidad. O bien [cree un nuevo grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=es) y [agregue nuevos campos de identidad](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=es#define-a-identity-field) (como `ecid`, `crmId` y otros que necesite) al grupo de campos y seleccione ese nuevo grupo de campos.
 
    ![Objeto de identificación](./assets/identification-field-mobile.png)
 
-   El objeto de identificación agrega capacidades de identificación al esquema. En su caso, quiere identificar los perfiles que utilizan su aplicación móvil mediante el ID de Experience Cloud y la dirección de correo electrónico. Hay muchos otros atributos disponibles para rastrear la identificación de su persona (por ejemplo, ID de cliente, ID de fidelidad).
+   El objeto de identificación añade capacidades de identificación al esquema. En su caso, quiere identificar los perfiles que utilizan su aplicación móvil mediante el ID de Experience Cloud y la dirección de correo electrónico. Hay muchos otros atributos disponibles para realizar un seguimiento de la identificación de la persona (por ejemplo, ID de cliente o ID de lealtad).
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -135,7 +135,7 @@ Para configurar el esquema:
 
    Se le pedirá que habilite el esquema para el perfil. Tras la habilitación, cuando los datos se incorporan en conjuntos de datos basados en este esquema, los datos se combinan en el perfil del cliente en tiempo real.
 
-   Consulte [Habilitar el esquema para utilizarlo en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) para obtener más información.
+   Consulte [Habilitar el esquema para utilizarlo en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#profile) para obtener más información.
 
    >[!IMPORTANT]
    >
@@ -157,7 +157,7 @@ Para capturar datos de perfil, debería hacer lo siguiente:
 
 - Agregar un objeto de identificación basado en el grupo de campos Profile Core v2.
 
-- Defina el ID de Experience Cloud como identificador principal y el correo electrónico como identificador.
+- Definir Experience Cloud ID como identificador principal y el correo electrónico como identificador.
 
 - Habilitar el esquema para el perfil
 
@@ -260,7 +260,7 @@ Para configurarla, seleccione la etiqueta recién creada en la lista de [!UICONT
 
 #### **Extensiones**
 
-Añada la extensión del Edge Network de Adobe Platform a la etiqueta para asegurarse de que puede enviar datos a Adobe Experience Platform (a través de su secuencia de datos).
+Añada la extensión Adobe Platform Edge Network a la etiqueta para asegurarse de que puede enviar datos a Adobe Experience Platform (a través del conjunto de datos).
 
 Para crear y configurar la extensión de Adobe Experience Platform Mobile SDK:
 
@@ -268,22 +268,22 @@ Para crear y configurar la extensión de Adobe Experience Platform Mobile SDK:
 
 1. Seleccione **[!UICONTROL Catálogo]** en la barra superior.
 
-1. Busque o desplácese hasta la extensión **[!UICONTROL Edge Network de Adobe Experience Platform]** y seleccione **[!UICONTROL Instalar]** en el panel derecho para instalarla.
+1. Busque o desplácese hasta la extensión **[!UICONTROL Adobe Experience Platform Edge Network]** y seleccione **[!UICONTROL Instalar]** en el panel derecho para instalarla.
 
 1. Seleccione la zona protegida y la secuencia de datos que ha creado anteriormente para su [!UICONTROL Entorno de producción], (opcionalmente) su [!UICONTROL Entorno de ensayo] y su [!UICONTROL Entorno de desarrollo].
 
-   ![Configuración de la extensión AEP Mobile SDK](./assets/aepmobilesdk-extension-datastream.png)
+   ![Configuración de la extensión de AEP Mobile SDK](./assets/aepmobilesdk-extension-datastream.png)
 
 1. Escriba su **[!UICONTROL dominio de Edge Network]** debajo de [!UICONTROL Configuración de dominio]. Normalmente se utiliza `<organizationName>.data.adobedc.net`.
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-Consulte [Configuración de la extensión de Edge Network de Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/edge-network) para obtener más información.
+Consulte [Configurar la extensión de Adobe Experience Platform Edge Network](https://developer.adobe.com/client-sdks/documentation/edge-network) para obtener más información.
 
 También desea configurar las siguientes extensiones adicionales del catálogo:
 
 - Identidad.
-- Assurance de AEP.
+- AEP Assurance.
 - Consentimiento.
 
 Consulte [Configurar una propiedad de etiqueta](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=es) en el tutorial de la aplicación móvil para Experience Platform para obtener más información sobre las extensiones y su configuración.
@@ -318,7 +318,7 @@ Puede crear tantos elementos de datos como desee y utilizarlos en reglas.
 
 #### **Reglas**
 
-Las etiquetas de Adobe Experience Platform siguen un sistema basado en reglas. Buscan la interacción de usuarios y datos asociados. Cuando se cumplen los criterios descritos en las reglas, la regla activa la extensión, script o el código del lado del cliente identificados. Puede utilizar reglas para enviar datos (como un objeto XDM) a Adobe Experience Platform mediante la extensión de Edge Network de Adobe Experience Platform.
+Las etiquetas de Adobe Experience Platform siguen un sistema basado en reglas. Buscan la interacción de usuarios y datos asociados. Cuando se cumplen los criterios descritos en las reglas, la regla activa la extensión, script o el código del lado del cliente identificados. Puede utilizar reglas para enviar datos (como un objeto XDM) a Adobe Experience Platform mediante la extensión Edge Network de Adobe Experience Platform.
 
 Por ejemplo, desea enviar datos de evento cuando se utiliza la aplicación móvil (en primer plano) y cuando no se utiliza la aplicación móvil (devuelta al segundo plano).
 
@@ -352,9 +352,9 @@ Para definir una regla, debe hacer lo siguiente:
 
    - Haga clic en ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) Agregar debajo de [!UICONTROL ACCIONES]. En el cuadro de diálogo [!UICONTROL Configuración de acción], haga lo siguiente:
 
-      - Seleccione **[!UICONTROL Edge Network de Adobe Experience Platform]** de la lista [!UICONTROL Extension].
+      - Seleccione **[!UICONTROL Adobe Experience Platform Edge Network]** de la lista [!UICONTROL Extension].
 
-      - Seleccione **[!UICONTROL Reenviar evento al Edge Network]** de la lista [!UICONTROL Tipo de acción].
+      - Seleccione **[!UICONTROL Reenviar evento a Edge Network]** de la lista [!UICONTROL Tipo de acción].
 
       - Seleccione **[!UICONTROL Conservar cambios]**.
 
@@ -364,7 +364,7 @@ Para definir una regla, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Guardar]**.
 
-Lo anterior es solo un ejemplo de definición de una regla que envía datos XDM, que contienen el estado de la aplicación, a la red de Adobe Edge y a Adobe Experience Platform.
+Lo anterior es solo un ejemplo de definición de una regla que envía datos XDM, que contienen el estado de la aplicación, a Adobe Edge Network y a Adobe Experience Platform.
 
 Puede utilizar las reglas de varias formas en la etiqueta para manipular las variables (mediante los elementos de datos).
 
@@ -392,11 +392,11 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Guardar y compilar para desarrollo]**.
 
-   La etiqueta se guardará y se creará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
+   La etiqueta se guardará y se generará para su entorno de desarrollo. Un punto verde indica que la compilación de la etiqueta se ha realizado correctamente en el entorno de desarrollo.
 
 4. Puede seleccionar **[!UICONTROL ...]** para recompilar la biblioteca o moverla a un entorno de ensayo o producción.
 
-Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deben adaptarse a la implementación del Edge Network de Adobe Experience Platform.
+Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deben adaptarse a la implementación de Adobe Experience Platform Edge Network.
 
 Consulte la [Información general de la publicación](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration) para obtener más información.
 
@@ -437,7 +437,7 @@ Una conexión le permite integrar conjuntos de datos de Adobe Experience Platfor
 
 Para crear la conexión:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 
 2. Seleccione **[!UICONTROL Crear nueva conexión]**.
 
@@ -483,7 +483,7 @@ Una vista de datos es un contenedor específico de Customer Journey Analytics qu
 
 Para crear la vista de datos:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Vistas de datos]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 
 2. Seleccione **[!UICONTROL Crear nueva vista de datos]**.
 
@@ -520,7 +520,7 @@ Analysis Workspace es una herramienta de navegador flexible que le permite compi
 
 Para crear un proyecto:
 
-1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Proyectos]** en la barra de navegación superior.
+1. En la interfaz de usuario de Customer Journey Analytics, seleccione **[!UICONTROL Proyectos]** en el menú superior.
 
 2. Seleccione **[!UICONTROL Proyectos]** en el panel de navegación izquierdo.
 
@@ -544,4 +544,4 @@ Consulte [Información general de Analysis Workspace](../analysis-workspace/home
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Empezando por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform, ha configurado una secuencia de datos en Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, definió e implementó la etiqueta de que contenía las extensiones (Adobe Experience Platform Edge Network y otras), los elementos de datos y las reglas para capturar datos de la aplicación móvil y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento de notificaciones push de su aplicación móvil y otros datos. La definición de la vista de datos le permitió especificar qué dimensión y métricas utilizar y, finalmente, creó el primer proyecto que visualizó y analizó los datos de la aplicación móvil.
+>Ha completado todos los pasos. Empezando por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform, ha configurado una secuencia de datos en Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, definió e implementó la etiqueta que contiene las extensiones (Adobe Experience Platform Edge Network y otras), los elementos de datos y las reglas para capturar datos de la aplicación móvil y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento de notificaciones push de su aplicación móvil y otros datos. La definición de la vista de datos le permitió especificar qué dimensión y métricas utilizar y, finalmente, creó el primer proyecto que visualizó y analizó los datos de la aplicación móvil.
