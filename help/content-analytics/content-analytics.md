@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 1acb6ee56ec3d1c5ae21bb857205a0b9cc66cea0
+source-git-commit: 28a0abd3415a167e6dd3de3b77bd49b78fc003cd
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 50%
+source-wordcount: '858'
+ht-degree: 48%
 
 ---
 
@@ -65,10 +65,15 @@ El análisis de contenido utiliza datos de la vista de imágenes web recopilados
 >Si tiene licencia para el complemento Escudo de seguridad y privacidad, tenga en cuenta que (cualquier dato generado a partir de) las experiencias y los recursos, sujetos a Content Analytics, no están cubiertos por el etiquetado DULE ni por las claves gestionadas por el cliente.
 >
 
+>[!NOTE]
+>
+>Content Analytics [envía eventos adicionales](config/datacollection.md#content-analytics-event) que probablemente afecten a cualquier definición de tasa de salida hacia otro sitio basada en el número de eventos de una sesión o una página.
+>
 
 >[!MORELIKETHIS]
 >
 >[Creación de informes del análisis de contenido](report/report.md)
 >[Configurar Adobe Analytics](config/configuration.md)
+>[Cálculo de devoluciones y tasa de devoluciones en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
