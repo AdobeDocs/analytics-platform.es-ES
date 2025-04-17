@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '3551'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -567,7 +567,7 @@ Para crear la vista de datos:
 
    Deje la configuración tal como está y seleccione **[!UICONTROL Guardar y finalizar]**.
 
-Consulte [Información general de las vistas de datos](../data-views/data-views.md) para obtener más información sobre cómo crear y editar una vista de datos, qué componentes están disponibles para usar en la vista de datos y cómo usar la configuración de filtro y sesiones.
+Consulte [Resumen de vistas de datos](../data-views/data-views.md) para obtener más información sobre cómo crear y editar una vista de datos, qué componentes están disponibles para que los use en su vista de datos y cómo usar la configuración de segmentos y sesiones.
 
 
 ## Configurar un proyecto

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: b4325135ec05737a75027ded70e96f599eb0220c
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Para empezar a crear informes en Content Analytics desde cero:
 1. [Cree un nuevo](/help/analysis-workspace/build-workspace-project/create-projects.md) o [abra un proyecto existente](/help/analysis-workspace/build-workspace-project/open-projects.md) en Workspace.
 1. Asegúrese de [seleccionar una vista de datos](/help/analysis-workspace/c-panels/panels.md#data-view) para los informes de Content Analytics. Los informes de Content Analytics solo están disponibles para las vistas de datos [configuradas](/help/content-analytics/config/configuration.md) para Content Analytics.
 1. Arrastre una visualización ![Tabla](/help/assets/icons/Table.svg) [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) al lienzo.
-1. Use [componentes específicos de Content Analytics](components.md) y otros [componentes](/help/components/overview.md) genéricos (como filtros, intervalos de fechas, anotaciones) para generar sus datos de análisis de contenido.
+1. Use [componentes específicos de Content Analytics](components.md) y otros [componentes](/help/components/overview.md) genéricos (como segmentos, intervalos de fechas, anotaciones) para generar sus datos de análisis de contenido.
 
 ## Miniaturas
 
@@ -67,7 +67,7 @@ Para utilizar la plantilla:
 
 1. Seleccione **[!UICONTROL Workspace]** en el menú principal.
 1. Asegúrese de haber seleccionado una Vista de datos configurada para Content Analytics.
-1. Busque o utilice filtros (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**s) para buscar y seleccionar la plantilla **[!UICONTROL Análisis de contenido]**.
+1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**s) para buscar y seleccionar la plantilla **[!UICONTROL Análisis de contenido]**.
 1. Seleccione **[!UICONTROL Usar plantilla]**.
 1. En el cuadro de diálogo **[!UICONTROL Configurar la plantilla]**, seleccione una métrica del cuadro de diálogo **[!UICONTROL Seleccionar una métrica de conversión]**. Por ejemplo, **[!UICONTROL Asset CTR]**.
 1. Seleccione **[!UICONTROL Continuar]**.

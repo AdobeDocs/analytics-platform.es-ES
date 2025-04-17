@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '2125'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -101,7 +101,7 @@ Esta sección solo está visible para los administradores que están aprovisiona
 
 ### Contenedores
 
-Designa el nombre de los contenedores para la vista de datos. Los nombres de contenedores se utilizan frecuentemente en [Filtros](/help/components/filters/filters-overview.md#Filter-containers).
+Designa el nombre de los contenedores para la vista de datos. Los nombres de contenedores se utilizan frecuentemente en [segmentos](/help/components/filters/filters-overview.md#Filter-containers).
 
 | Configuración | Descripción |
 | --- | --- |
@@ -185,13 +185,13 @@ Puede filtrar los campos de esquema ![Icono de filtro](https://spectrum.adobe.co
 ## Configuración
 
 1. Seleccione la pestaña **[!UICONTROL Configuración]**.
-1. Configure filtros para aplicarlos a toda la vista de datos. Consulte [Configuración (filtros)](#settings-filters) más abajo.
+1. Configure segmentos para aplicarlos a toda la vista de datos. Consulte [Configuración (segmentos)](#settings-filters) a continuación.
 1. Configure el tiempo de espera de sesión y las métricas. Consulte [Configuración de sesión](#session-settings) más abajo.
-1. Seleccione **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccione **[!UICONTROL Guardar]** para guardar la configuración para la vista de datos existente.
+1. Seleccione **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
 
-### Configuración (filtros)
+### Configuración (segmentos)
 
-Puede agregar filtros que se apliquen a toda la vista de datos. Este filtro se aplicará a cualquier informe que ejecute el Espacio de trabajo. Arrastre un filtro desde la lista en el carril izquierdo al campo [!UICONTROL Añadir filtros].
+Puede agregar segmentos que se apliquen a toda la vista de datos. Este segmento se aplica a cualquier informe que ejecute en Workspace. Arrastre un segmento de la lista en el carril izquierdo al campo [!UICONTROL Agregar segmentos].
 
 ### Configuración de sesión
 
