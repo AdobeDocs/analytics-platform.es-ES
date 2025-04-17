@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: e3753cfde5e57a86229d0a42a125afcc118bc479
+source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ En el contexto de este artículo se utilizan las definiciones siguientes:
 * **Experiencia**: Una experiencia se define como el contenido de texto de toda una página web. Para la recopilación de datos, Content Analytics registra el Experience ID que se basa en la dirección URL de la página. Posteriormente, el texto de la página se captura mediante el servicio de recuperación.
 * **Experience ID**: Una combinación única de la dirección URL relevante (dirección URL base más cualquier parámetro que dirija el contenido de la página) y [versión de experiencia](manual.md#versioning).
    * Usted especifica, como parte de la [configuración](configuration.md), qué parámetros son relevantes para cualquier URL completa dada.
-   * Puede definir el [identificador de versión](manual.md#versioning) que se usa.
+   * Usted define un [identificador de versión](manual.md#versioning) para usar, de modo que recopile correctamente los cambios a sus experiencias.
 * **Recurso**: Una imagen. Content Analytics registra la dirección URL del recurso.
 * **ID de recurso**: La dirección URL del recurso.
 * **URL relevante**: La URL base más cualquier parámetro que dirija el contenido de la página.
@@ -83,7 +83,7 @@ Se registra un clic en la experiencia cuando:
 * Cualquier clic se produce en un vínculo de la página para la que las experiencias están habilitadas.
 
 
-### Evento regular o específico (conductual)
+### Evento regular o específico (de comportamiento)
 
 Los déclencheur para activar un evento normal o específico (de comportamiento) en el contexto de Content Analytics son los siguientes:
 
