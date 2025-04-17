@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
 source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 25%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones de áreas y áreas apiladas en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Área y área apilada](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_En este artículo se describen las visualizaciones Área y Área apilada en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Área y área apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/area) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 
-La visualización de áreas tiene una opción estándar y apilada.
+El área de visualización tiene una opción estándar y apilada.
 
 ## Área {#area}
 
@@ -37,9 +37,9 @@ La visualización de áreas tiene una opción estándar y apilada.
 
 
 
-La visualización ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** es similar a un gráfico de líneas, pero incluye un área coloreada bajo la línea. Añada un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas.
+La visualización ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Área]** es similar a un gráfico de líneas, pero incluye una zona coloreada debajo de la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área expresada por la intersección de dos o varias métricas.
 
-![Visualización de área que muestra varias métricas](assets/area.png)
+![Visualización del área que muestra varias métricas](assets/area.png)
 
 ## Área apilada {#area-stacked}
 
@@ -53,17 +53,17 @@ La visualización ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL A
 <!-- markdownlint-enable MD034 -->
 
 
-La visualización ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Área apilada]** es como un área, pero cada serie comienza en la parte superior de la serie anterior.
+La visualización ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Área apilada]** es similar a una Área, pero cada serie comienza en la parte superior de la serie anterior.
 
 ![Área apilada que muestra cada serie en la parte superior de la serie anterior.](assets/area-stacked.png)
 
-Use la opción **[!UICONTROL 100% apilado]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100%.
+Use la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100 %.
 
-![Área apilada que muestra una visualización apilada al 100%.](assets/area-stacked100.png)
+![Área apilada que muestra una visualización apilada al 100 %.](assets/area-stacked100.png)
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

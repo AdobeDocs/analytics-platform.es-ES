@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
 source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones de barras horizontales y barras horizontales apiladas en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [barras horizontales y barras horizontales apiladas](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_En este artículo se explican las visualizaciones Barra horizontal y Barra horizontal apilada de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Barra horizontal y barra horizontal apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
-La visualización de barras horizontales tiene una opción estándar y apilada.
+La visualización de barra horizontal tiene una opción estándar y apilada.
 
 ## Barra horizontal {#horizontal-bar}
 
@@ -33,7 +33,7 @@ La visualización de barras horizontales tiene una opción estándar y apilada.
 <!-- markdownlint-enable MD034 -->
 
 
-Esta visualización de ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** muestra barras horizontales que representan varios valores en una o más métricas.
+Esta visualización ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** muestra las barras horizontales que representan varios valores en una o varias métricas.
 
 ![Barra horizontal que muestra métricas como Vistas de página, Velocidad de página, Visitas, Entradas y Salidas.](assets/horizontal-bar.png)
 
@@ -53,14 +53,14 @@ La visualización ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizo
 
 ![Barra horizontal apilada que muestra vistas de página, visitas, entradas y salidas.](assets/horizontal-bar-stacked.png)
 
-Use la opción **[!UICONTROL 100% apilado]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100%.
+Utilice la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100 %.
 
-![Barra horizontal apilada al 100%](assets/horizontal-bar-stacked100.png)
+![Barra horizontal apilada al 100 %](assets/horizontal-bar-stacked100.png)
 
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

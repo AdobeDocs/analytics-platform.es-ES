@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 23%
 
 El formato le permite determinar cómo se muestra una métrica determinada cuando se utiliza en los informes.
 
-## Configurar los ajustes de formato de una métrica
+## Configuración de los ajustes de formato de una métrica
 
 Puede determinar cómo se muestra una métrica determinada ajustando su configuración de formato.
 
-1. En Customer Journey Analytics, seleccione la pestaña [!UICONTROL **Vistas de datos**].
+1. En Customer Journey Analytics, vaya a la pestaña [!UICONTROL **Vistas de datos**].
 
-1. Seleccione la vista de datos que contiene el componente cuya configuración de formato desee configurar.
+1. Seleccione la vista de datos que contiene el componente cuya configuración de formato desea configurar.
 
 1. Seleccione la pestaña [!UICONTROL **Componentes**].
 
@@ -48,7 +48,7 @@ Puede determinar cómo se muestra una métrica determinada ajustando su configur
    | **[!UICONTROL Decimal]** | No visible en los tipos de datos de esquema de enteros. Permite especificar el número de decimales que debe mostrar una métrica. |
    | **[!UICONTROL Fecha]** | Permite determinar cómo desea que se muestre el campo de fecha y hora cuando se utiliza como dimensión en la creación de informes.  [Más información](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL Fecha-hora]** | Permite determinar cómo desea que se muestre el campo de fecha y hora cuando se utiliza como dimensión en la creación de informes.  [Más información](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL Moneda]** | Permite determinar en qué moneda desea que se muestre la métrica. <p>Si analiza los datos globales en los que las transacciones se realizan en distintas monedas, consulte [Usar conversión de moneda](#use-currency-conversion).</p> |
+   | **[!UICONTROL Moneda]** | Le permite determinar en qué moneda desea que se muestre la métrica.  <p>Si analiza los datos globales en los que las transacciones se realizan en distintas monedas, consulte [Usar conversión de moneda](#use-currency-conversion).</p> |
    | **[!UICONTROL Mostrar tend ascendente como]** | Permite especificar si una tendencia al alza en esta métrica debe considerarse buena (verde) o mala (rojo). |
    | **[!UICONTROL Valor verdadero]** y **[!UICONTROL Valor falso]** | Solo visible en los tipos de datos de esquema booleano. Permite personalizar la etiqueta del elemento de dimensión para los valores `true` y `false`. |
 
@@ -65,38 +65,38 @@ Puede determinar cómo se muestra una métrica determinada ajustando su configur
 
 <!-- markdownlint-enable MD034 -->
 
-La conversión de divisas en Customer Journey Analytics puede ser extremadamente valiosa para las empresas que operan a nivel internacional. Al eliminar las complejidades de la conversión manual de divisas, la conversión de divisas en Customer Journey Analytics aporta uniformidad y claridad a los datos financieros. La conversión de moneda realiza un seguimiento de los tipos de cambio históricos diarios y mantiene esos tipos de cambio diarios durante un período de 4 años.
+La conversión de moneda de Customer Journey Analytics puede ser extremadamente valiosa para las empresas que operan a nivel internacional. Dado que elimina las complejidades de la conversión manual de divisas, la conversión de moneda de Customer Journey Analytics aporta uniformidad y claridad a los datos financieros. La conversión de moneda realiza un seguimiento de los tipos de cambio históricos diarios y mantiene esos tipos de cambio diarios durante un período de 4 años.
 
-Por ejemplo, si una empresa de comercio electrónico opera en los Estados Unidos, el Reino Unido y la UE, los datos de ventas se pueden convertir automáticamente a dólares estadounidenses, lo que garantiza una comparación sencilla y una comprensión integral del rendimiento.
+Por ejemplo, si una empresa de comercio electrónico opera en los Estados Unidos, el Reino Unido y la UE, los datos de las ventas se pueden convertir automáticamente a dólares estadounidenses, lo que garantiza una comparación sencilla y un tener conocimiento integral del rendimiento.
 
 >[!NOTE]
 >
 >Antes de comenzar a configurar una métrica para la conversión de moneda, tenga en cuenta lo siguiente:
 >
->* La métrica que seleccione para la conversión de moneda debe tener un tipo numérico (Double, Long, Integer, Short, Byte).
->* Configure la conexión de Customer Journey Analytics para que contenga al menos un conjunto de datos de evento que contenga una dimensión de código de moneda para cada evento que contenga una métrica de moneda. Esa dimensión de código de moneda utiliza un código de moneda alfabético que se ajusta al estándar [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) para representar monedas. Estos valores deben estar en formato completo en mayúsculas, como USD para $, EUR para €, GBP para £.
+>* La métrica que seleccione para la conversión de moneda debe ser de tipo numérico (Double, Long, Integer, Short, Byte).
+>* Configure la conexión de Customer Journey Analytics para que contenga al menos un conjunto de datos de evento que tenga una dimensión de código de moneda para cada evento que contiene una métrica de moneda. Esa dimensión de código de moneda utiliza un código de moneda alfabético que se ajusta al estándar [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html?lang=es) para representar monedas. Estos valores deben tener el formato completo de mayúsculas, como USD para $, EUR para €, GBP para £.
 
-Para determinar cómo se muestran y convierten las divisas para una métrica determinada:
+Para determinar cómo se muestran y convierten las divisas correspondientes a una métrica determinada:
 
-1. Comience a configurar la métrica para la cual desea usar moneda como formato, como se ha descrito anteriormente, en [Configurar la configuración de formato de una métrica](#configure-format-settings-for-a-metric).
+1. Comience a configurar la métrica para la cual desea usar el formato de moneda, como se ha descrito anteriormente, en [Configuración de los ajustes de formato de una métrica](#configure-format-settings-for-a-metric).
 
-1. Con la métrica seleccionada, realice las siguientes selecciones en la sección [!UICONTROL **Formato**] de la derecha de la página:
+1. Con la métrica seleccionada, realice las siguientes selecciones en la sección [!UICONTROL **Formato**] en el lado derecho de la página:
 
    * En el campo [!UICONTROL **Formato**], seleccione [!UICONTROL **Moneda**].
 
    * En el campo [!UICONTROL **Cifras decimales**], elija el número de decimales que mostrará la métrica.
 
-     Esta opción solo está disponible si la métrica tiene un tipo numérico &quot;Double&quot;.
+     Esta opción solo está disponible si la métrica tiene el tipo numérico “Doble”.
 
    * Seleccione la opción [!UICONTROL **Convertir moneda**].
 
    * En el campo [!UICONTROL **Seleccionar dimensión de código de moneda**], seleccione la dimensión que representa la moneda desde la que está realizando la conversión (la moneda en la que se basan los datos). Por ejemplo, seleccione una dimensión llamada [!UICONTROL **Código de moneda**].
 
-     Si no tiene una dimensión en el esquema de datos actual que contenga un campo de código de moneda, puede crear un nuevo campo de código de moneda con [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) o [Campos derivados](/help/data-views/derived-fields/derived-fields.md). La preparación de datos solo es adecuada para nuevas implementaciones, ya que solo se realiza en adelante. Según la configuración de una organización, Data Distiller y los campos derivados se pueden utilizar para acceder históricamente a los valores de código de divisa.
+     Si no tiene una dimensión en el esquema de datos actual que contenga un campo de código de moneda, puede crear un nuevo campo de código de moneda con [Preparación de datos](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=es) o [Campos derivados](/help/data-views/derived-fields/derived-fields.md). La preparación de datos solo es adecuada para nuevas implementaciones, ya que solo se realiza desde ese momento en adelante. Según la configuración de una organización, Data Distiller y los campos derivados se pueden utilizar para acceder históricamente a los valores de código de divisa.
 
-   * En el campo [!UICONTROL **Convertir y mostrar moneda en**], elija la moneda en la que desea convertir los datos.
+   * En el campo [!UICONTROL **Convertir y mostrar moneda en**], elija la moneda a la que desea convertir los datos.
 
-1. Repita estos pasos si desea aplicar la conversión de moneda a métricas adicionales.
+1. Repita los pasos si desea aplicar la conversión de moneda a métricas adicionales.
 
 
 

@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 20%
 <!-- markdownlint-enable MD034 -->
 
 
-Los proyectos de Analysis Workspace se guardan automáticamente cada 2 minutos. También puede guardar proyectos usted mismo, guardarlos como un duplicado o guardarlos con notas de la versión.
+Los proyectos de Analysis Workspace se guardan automáticamente cada 2 minutos. También puede guardar proyectos usted mismo, guardarlos como un duplicado o guardar un proyecto con notas de la versión.
 
 ## Guardar
 
-Para guardar un proyecto manualmente, con el proyecto abierto en Analysis Workspace, seleccione **[!UICONTROL Proyecto]** y, a continuación, elija una de las siguientes opciones:
+Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Workspace, seleccione **[!UICONTROL Proyecto]** y a continuación, elija entre las siguientes opciones:
 
 * **[!UICONTROL Guardar]**
 
-  Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios.
+  Guardar cambios en el proyecto. Si se comparte el proyecto, sus destinatarios también verán los cambios. 
 
   Cuando guarda el proyecto por primera vez, aparece el cuadro de diálogo **[!UICONTROL Guardar]**.
 
@@ -39,17 +39,17 @@ Para guardar un proyecto manualmente, con el proyecto abierto en Analysis Worksp
 
    1. Especifique lo siguiente:
 
-      * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
-      * **[!UICONTROL Descripción]**. Una descripción del proyecto.
-      * **[!UICONTROL Etiquetas]**. Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o agregue nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
-      * **[!UICONTROL Carpeta]**. Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
-      * **[!UICONTROL Notas de la versión]**. Agregar notas de versión en el área de texto *Agregar notas*.
+      * **[!UICONTROL Nombre]** (obligatorio) nombre del proyecto.
+      * **[!UICONTROL Descripción]** Descripción del proyecto.
+      * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
+      * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
+      * **[!UICONTROL Notas de la versión]**. Añada notas de versión en el área de texto *Añadir notas*.
 
    1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
 
-  Al guardar el proyecto, se guarda una versión del proyecto que se almacena durante 90 días.
+  Al guardar el proyecto, se guardará una versión del proyecto que se almacena durante 90 días.
 
-  Si guarda un proyecto que ha compartido, un cuadro de diálogo de advertencia **[!UICONTROL Guardar cambios en el proyecto compartido]** le pedirá confirmación.
+  Si guarda un proyecto que ha compartido, un cuadro de diálogo de advertencia **[!UICONTROL Guardar cambios en el proyecto compartido]** le solicitará confirmación.
 
   ![Guardar proyecto compartido](assets/save-project-shared.png)
 
@@ -61,12 +61,12 @@ Para guardar un proyecto manualmente, con el proyecto abierto en Analysis Worksp
 
   ![Guardar con notas](assets/save-version-notes.png)
 
-  Al guardar el proyecto, agregue notas sobre los cambios realizados. En el cuadro de diálogo Guardar notas de versión:
+  Al guardar el proyecto, añada notas sobre los cambios realizados. En el cuadro de diálogo Guardar notas de la versión:
 
-   1. Escriba sus **[!UICONTROL notas de la versión]** en el área de texto **[!UICONTROL Agregar notas]**.
+   1. Escriba sus **[!UICONTROL notas de la versión]** en el área de texto **[!UICONTROL Aañadir notas]**.
    1. Seleccione **[!UICONTROL Guardar]**.
 
-  Las notas se almacenan con la versión del proyecto y están disponibles al [abrir una versión anterior](open-projects.md#open-previous-version) del proyecto. Las versiones guardadas con notas se almacenan automáticamente durante un año.
+  Las notas se almacenan con la versión del proyecto y están disponibles al [abrir una versión anterior](open-projects.md#open-previous-version) del proyecto. Las versiones guardadas con notas se almacenarán automáticamente durante un año.
 
 * **[!UICONTROL Guardar como]**
 
@@ -76,15 +76,15 @@ Para guardar un proyecto manualmente, con el proyecto abierto en Analysis Worksp
 
    1. Especifique lo siguiente:
 
-      * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
-      * **[!UICONTROL Descripción]**. Una descripción del proyecto.
-      * **[!UICONTROL Etiquetas]**. Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o agregue nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
-      * **[!UICONTROL Carpeta]**. Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
-      * **[!UICONTROL Notas de la versión]**. Agregar notas de versión en el área de texto *Agregar notas*.
+      * **[!UICONTROL Nombre]** (obligatorio).  nombre del proyecto.
+      * **[!UICONTROL Descripción]** Descripción del proyecto.
+      * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
+      * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
+      * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
+   1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
-  Puede guardar el proyecto en una carpeta diferente. No afecta al proyecto original.
+  Puede guardar el proyecto en una carpeta diferente. El proyecto original no se verá afectado.
 
 
 <!-- Cannot find this option in CJA 
@@ -96,16 +96,16 @@ Para guardar un proyecto manualmente, con el proyecto abierto en Analysis Worksp
 
 >[!IMPORTANT]
 >
->Aunque los nuevos proyectos se guardan automáticamente, debe guardar cada nuevo proyecto manualmente la **primera** vez.
+>Aunque los nuevos proyectos se guardan automáticamente, debe guardar cada nuevo proyecto manualmente la **primera** vez. 
 >
 
-Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 minutos en el equipo local. Este guardado automático incluye proyectos recién creados que aún no se han guardado manualmente.
+Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 minutos en el equipo local. Esto incluye los proyectos recién creados que aún no se han guardado manualmente.
 
 ### Nuevos proyectos
 
 Analysis Workspace solicita guardar los nuevos proyectos manualmente al cambiar a otro proyecto, cerrar la pestaña del explorador, etc.
 
-Si, por cualquier motivo, pierde el acceso a un proyecto recién creado de forma inesperada antes de guardarlo manualmente, se guardará una versión de recuperación del proyecto en la página de aterrizaje de Analysis Workspace, en una carpeta denominada **[!UICONTROL Proyectos recuperados (últimos 7 días)]**. Restaure el proyecto recuperado y guárdelo manualmente en la ubicación deseada.
+Si, por cualquier motivo, pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guardará una versión de recuperación del proyecto en la página de aterrizaje de Analysis Workspace en una carpeta denominada **[!UICONTROL Proyectos recuperados (últimos 7 días)]**.  Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
 
 Para restaurar un proyecto recuperado:
 
@@ -120,31 +120,31 @@ Para restaurar un proyecto recuperado:
 
 ### Proyectos existentes
 
-Si, por cualquier motivo, deja un proyecto con cambios que aún no se han guardado automáticamente, Analysis Workspace le pedirá que guarde los cambios o le mostrará un mensaje de advertencia.
+Si, por cualquier motivo, abandona un proyecto con cambios que aún no se han guardado automáticamente, Analysis Workspace le indicará que guarde los cambios o le enviará un mensaje de advertencia.
 
 
 Algunos escenarios comunes:
 
 #### Abrir otro proyecto
 
-Si abre otro proyecto mientras trabaja en un proyecto que contiene cambios que aún no se han guardado automáticamente, Analysis Workspace le pedirá que guarde el proyecto actual.
+Si abre otro proyecto mientras trabaja en un proyecto que contiene cambios que aún no se han guardado automáticamente, Analysis Workspace le indicará que guarde el proyecto actual.
 
 Las opciones disponibles son las siguientes:
 
-* **[!UICONTROL Guardar]**: reemplaza la copia local guardada automáticamente más reciente de su proyecto por los cambios más recientes.
-* **[!UICONTROL Descartar cambios]**: descarta los cambios más recientes. El proyecto conserva la copia local guardada automáticamente más reciente.
+* **[!UICONTROL Guardar:]** sustituye la copia local guardada automáticamente más reciente del proyecto con los cambios más recientes.
+* **[!UICONTROL Descartar cambios:]** descarta los cambios más recientes. El proyecto conserva la copia local guardada automáticamente más reciente.
 * **[!UICONTROL Cancelar]**: cancela la acción para abrir otro proyecto y mantener abierto el proyecto existente.
 
 <!-- ![Click Save to save changes to a project.](assets/existing-save.png) -->
 
 #### Salir o cerrar una pestaña
 
-Si sale de la página o cierra la pestaña del explorador mientras ve un proyecto con cambios que aún no se han guardado automáticamente, el explorador le advierte de que se pierden los cambios no guardados. Puede elegir entre salir o cancelar. El modo en que el explorador le advierte depende del explorador que utilice.
+Si sale de la página o cierra la pestaña del explorador mientras visualiza un proyecto con cambios que aún no se han guardado automáticamente, el explorador le advertirá de que se perderán los cambios sin guardar. Puede elegir entre salir o cancelar. El modo en que el explorador le advierte depende del explorador que utilice.
 
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
 
-Si el explorador se bloquea o si se agota el tiempo de espera de la sesión, la próxima vez que acceda a Analysis Workspace se le pedirá que recupere los cambios del proyecto que aún no se hayan guardado automáticamente.
+Si el explorador se bloquea o si se agota el tiempo de espera de la sesión, la próxima vez que acceda a Analysis Workspace se le pedirá que recupere los cambios del proyecto que aún no se han guardado automáticamente.
 
 * Seleccione **[!UICONTROL Sí]** para restaurar el proyecto a partir de la copia más reciente guardada automáticamente.
 

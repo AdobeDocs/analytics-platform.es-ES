@@ -1,76 +1,76 @@
 ---
-title: Información general de uso del producto
+title: Información general sobre el uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
-# Información general de uso del producto
+# Información general sobre el uso del producto
 
-El uso del producto permite a su organización ver datos de análisis sobre cómo utiliza su organización Customer Journey Analytics. Está disponible para todas las organizaciones que utilizan Customer Journey Analytics. Una vez activados, los siguientes componentes de Adobe Experience Platform se crean y conectan automáticamente. Todos estos componentes son de propiedad del sistema, de solo lectura y no se pueden editar.
+El uso del producto le permite a su organización ver datos de análisis sobre cómo su organización utiliza Customer Journey Analytics. Está disponible para todas las organizaciones que utilizan Customer Journey Analytics. Una vez activados, los siguientes componentes de Adobe Experience Platform se crean y conectan automáticamente. Todos estos componentes son propiedad del sistema, son de solo lectura y no se pueden editar.
 
-* Un esquema en Adobe Experience Platform
-* Un conjunto de datos en Adobe Experience Platform
-* Una conexión en el Customer Journey Analytics
-* Una vista de datos en Customer Journey Analytics
+* Un esquema de Adobe Experience Platform
+* Un conjunto de datos de Adobe Experience Platform
+* Una conexión de Customer Journey Analytics
+* Una vista de datos de Customer Journey Analytics
 
-Toda la recopilación y configuración de datos se configura automáticamente una vez que se ha activado. Cada vez que un usuario realiza una acción en Analysis Workspace, esta se rastrea y está disponible para la creación de informes.
+Toda la recopilación y configuración de datos se configura automáticamente una vez que se haya activado. Cada vez que un usuario realiza una acción en Analysis Workspace, se rastrea y está disponible para la creación de informes.
 
 >[!IMPORTANT]
 >
->Esta función cuenta para los límites de filas contractuales en Adobe Experience Platform. Asegúrese de que su organización puede admitir los datos generados por esta función antes de habilitarla.
+>Esta función cuenta para los límites de filas contractuales en Adobe Experience Platform. Asegúrese de que su organización puede alojar los datos generados por esta función antes de habilitarla.
 
 ## Habilitar el uso del producto
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Uso del producto]**
 
-Si navega a esta sección de la interfaz en Customer Journey Analytics, accederá a [Configuración de datos](data-settings.md), donde podrá habilitar esta característica.
+Si navega hasta esta sección de la interfaz en Customer Journey Analytics, accederá a [Configuración de datos](data-settings.md), donde podrá habilitar esta función.
 
 ## Dimensiones disponibles
 
-Al habilitar Uso del producto, están disponibles las siguientes dimensiones. Si desea cambiar cualquier configuración de dimensión, cree una copia de la vista de datos propiedad del sistema y utilice la vista de datos copiada en Analysis Workspace.
+Al habilitar el uso del producto, están disponibles las siguientes dimensiones. Si desea cambiar alguna configuración de dimensión, cree una copia de la vista de datos propiedad del sistema y utilice la vista de datos copiada en Analysis Workspace.
 
-* **[!UICONTROL Nombre de acción]**: Tipo de acción que realizó el usuario. Puede utilizar esta dimensión como cualquier métrica deseada creando una copia en la configuración de la vista de datos. Los elementos de Dimension incluyen:
-   * [!UICONTROL Agregar atribución]
-   * [!UICONTROL Agregar componente]
-   * [!UICONTROL Agregar panel]
-   * [!UICONTROL Agregar visualización]
-   * [!UICONTROL Crear nuevo análisis guiado]
+* **[!UICONTROL Nombre de acción]**: tipo de acción que realizó el usuario. Puede utilizar esta dimensión como cualquier métrica deseada creando una copia en la configuración de la vista de datos. Los elementos de dimensión incluyen:
+   * [!UICONTROL Añadir atribución]
+   * [!UICONTROL Añadir componente]
+   * [!UICONTROL Añadir panel]
+   * [!UICONTROL Añadir visualización]
+   * [!UICONTROL Crear un análisis guiado]
    * [!UICONTROL Crear nuevo proyecto]
    * [!UICONTROL Depurar componentes]
    * [!UICONTROL Descargar CSV]
    * [!UICONTROL Descargar PDF]
-   * [!UICONTROL Análisis guiado de carga]
+   * [!UICONTROL Cargar análisis guiado]
    * [!UICONTROL Cargar proyecto]
-   * [!UICONTROL Se ha cargado el nuevo cuadro de resultados]
+   * [!UICONTROL Nuevo cuadro de resultados cargado]
    * [!UICONTROL Abrir diccionario de datos]
-   * [!UICONTROL Abrir subtítulos inteligentes]
-   * [!UICONTROL Recurso compartido de proyecto]
+   * [!UICONTROL Crear subtítulos inteligentes]
+   * [!UICONTROL Uso compartido del proyecto]
    * [!UICONTROL Ejecutar panel de experimentación]
    * [!UICONTROL Guardar proyecto]
-   * [!UICONTROL Informe de valoración guardado]
+   * [!UICONTROL Cuadro de resultados guardado]
    * [!UICONTROL Enviar archivo]
    * [!UICONTROL Enviar archivo según lo programado]
-   * [!UICONTROL Compartir proyecto con alguien]
+   * [!UICONTROL Compartir proyecto con cualquiera]
    * [!UICONTROL Compartir proyecto con usuarios de Workspace]
-* **[!UICONTROL Modelo de atribución utilizado]**: Tipo de modelo de atribución que utiliza el componente. Los elementos de Dimension incluyen:
+* **[!UICONTROL Modelo de atribución utilizado]**: tipo de modelo de atribución que utiliza el componente. Los elementos de dimensión incluyen:
    * [!UICONTROL Último contacto]
    * [!UICONTROL Primer contacto]
    * [!UICONTROL Lineal]
    * [!UICONTROL Participación]
    * [!UICONTROL Mismo contacto]
-   * [!UICONTROL Forma de U]
+   * [!UICONTROL En forma de U]
    * [!UICONTROL Curva J]
    * [!UICONTROL J inversa]
    * [!UICONTROL Deterioro de tiempo]
    * [!UICONTROL Personalizado]
    * [!UICONTROL Algorítmico]
-* **[!UICONTROL Nombre de componente]**: El nombre del componente que se agregó, eliminó o modificó.
-* **[!UICONTROL Tipo de componente]**: El tipo de componente que se agregó, eliminó o modificó. Los elementos de Dimension incluyen:
+* **[!UICONTROL Nombre de componente]**: el nombre de componente que se ha añadido, eliminado o modificado.
+* **[!UICONTROL Tipo de componente]**: el tipo de componente que se ha añadido, eliminado o modificado. Los elementos de dimensión incluyen:
    * [!UICONTROL Dimensión]
    * [!UICONTROL Métrica]
    * [!UICONTROL Filtro]
@@ -78,8 +78,8 @@ Al habilitar Uso del producto, están disponibles las siguientes dimensiones. Si
    * [!UICONTROL Intervalo de fecha]
    * [!UICONTROL Anotación]
    * [!UICONTROL Alerta]
-* **[!UICONTROL Usuario de inicio de sesión]**: El usuario que realizó la acción.
-* **[!UICONTROL Panel utilizado]**: Panel donde se agregó, eliminó o modificó el componente. Los elementos de Dimension incluyen:
+* **[!UICONTROL Usuario de inicio de sesión]**: el usuario que ha realizado la acción.
+* **[!UICONTROL Panel utilizado]**: el panel donde se ha añadido, eliminado o modificado el componente. Los elementos de dimensión incluyen:
    * [!UICONTROL Atribución]
    * [!UICONTROL Panel en blanco]
    * [!UICONTROL Experimentación]
@@ -93,17 +93,17 @@ Al habilitar Uso del producto, están disponibles las siguientes dimensiones. Si
    * [!UICONTROL Flujo de usuarios]
    * [!UICONTROL Retención]
    * [!UICONTROL Matriz de características]
-* **[!UICONTROL Nombre de proyecto]**: El nombre descriptivo del proyecto.
-* **[!UICONTROL Tipo de proyecto]**: El tipo de proyecto. Los elementos de Dimension incluyen:
+* **[!UICONTROL Nombre de proyecto]**: el nombre descriptivo del proyecto.
+* **[!UICONTROL Tipo de proyecto]**: el tipo de proyecto. Los elementos de dimensión incluyen:
    * `workspace-projects`
    * `guided-analysis`
    * `mobile-scorecard-builder`
-* **[!UICONTROL Visualización utilizada]**: La visualización que se agregó, eliminó o modificó. Los elementos de Dimension incluyen:
+* **[!UICONTROL Visualización utilizada]**: la visualización que se ha añadido, eliminado o modificado. Los elementos de dimensión incluyen:
    * [!UICONTROL Tabla de forma libre]
    * [!UICONTROL Tabla de cohorte]
    * [!UICONTROL Visita en orden previsto]
    * [!UICONTROL Flujo]
-   * [!UICONTROL Informe breve de lienzo de Recorrido]
+   * [!UICONTROL Informe breve del lienzo de recorridos]
    * [!UICONTROL Área]
    * [!UICONTROL Area stacked]
    * [!UICONTROL Barra]
@@ -113,8 +113,8 @@ Al habilitar Uso del producto, están disponibles las siguientes dimensiones. Si
    * [!UICONTROL Anillo]
    * [!UICONTROL Histograma]
    * [!UICONTROL Barra horizontal]
-   * [!UICONTROL Barra horizontal apilada]
-   * [!UICONTROL Resumen de métricas clave]
+   * [!UICONTROL Barra apilada horizontal]
+   * [!UICONTROL Resumen de las métricas clave]
    * [!UICONTROL Líneas]
    * [!UICONTROL Mapa]
    * [!UICONTROL Dispersión]
@@ -125,4 +125,4 @@ Al habilitar Uso del producto, están disponibles las siguientes dimensiones. Si
    * [!UICONTROL Gráfico de rectángulos]
    * [!UICONTROL Venn]
 
-El uso del producto no rastrea componentes de proyecto individuales cuando un proyecto simplemente se abre o se visualiza. Sin embargo, la acción del usuario de abrir un proyecto se rastrea.
+El uso del producto no rastrea componentes individuales del proyecto cuando un proyecto simplemente se abre o se visualiza. Sin embargo, la acción del usuario de abrir un proyecto se rastrea.

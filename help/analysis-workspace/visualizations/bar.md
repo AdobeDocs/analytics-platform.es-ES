@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
 source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones de barras y barras apiladas en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Ver [Barra y barra apilada](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_En este artículo se describen las visualizaciones Barra y Barra apilada en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Barra y barra apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bar) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 
 >[!ENDSHADEBOX]
@@ -35,11 +35,11 @@ La visualización de barras tiene una opción estándar y apilada.
 
 
 
-La visualización ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** muestra barras verticales que representan varios valores en una o más métricas.
+La visualización ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Barra]** muestra las barras verticales que representan varios valores en una o varias métricas.
 
 ![Visualización de barra vertical que muestra varias métricas, incluidas Vistas de página, Visitas, Entradas y Salidas.](assets/bar.png)
 
-Un menú desplegable de granularidad en la configuración de visualización le permite cambiar una visualización de tendencias (por ejemplo, una línea o una barra) de diaria a semanal, mensual, etc.
+Un menú desplegable de granularidad en la configuración de visualización le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc.
 
 ## Barra apilada {#bar-stacked}
 
@@ -53,17 +53,17 @@ Un menú desplegable de granularidad en la configuración de visualización le p
 <!-- markdownlint-enable MD034 -->
 
 
-La visualización ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Barra apilada]** es similar a un gráfico de barras, pero con las barras de series apiladas una encima de la otra.
+La visualización ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Barra apliada]** es similar a un gráfico de barras, pero con las barras de series apiladas una encima de la otra.
 
 ![Gráfico de barras apiladas que muestra varias métricas.](assets/bar-stacked.png)
 
-Use la opción **[!UICONTROL 100% apilado]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100%.
+Use la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100 %.
 
-![Gráfico de barras apiladas al 100%.](assets/bar-stacked100.png)
+![Gráfico de barras apiladas al 100 %.](assets/bar-stacked100.png)
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

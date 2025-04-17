@@ -1,41 +1,42 @@
 ---
 description: Las alertas permiten un control granular sobre las notificaciones y la integración con la detección de anomalías.
-title: Resumen de alertas
+title: Información general sobre alertas
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
-workflow-type: tm+mt
+exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
+source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
-# Resumen de alertas
+# Información general sobre alertas
 
 Las alertas de Customer Journey Analytics permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos.
 
-Según el paquete del Customer Journey Analytics, también puede utilizar alertas para activarlas en función de los umbrales de anomalías. Estas alertas (también conocidas como &quot;Alertas inteligentes&quot;) proporcionan controles granulares que se integran con [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más las necesita.
+Según el paquete de Customer Journey Analytics, también puede utilizar alertas para activarlas en función de los umbrales de anomalías. Estas alertas (también conocidas como “Alertas inteligentes”) proporcionan controles granulares que se integran con [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más los necesita.
 
 Las alertas le permiten:
 
 * Obtener una vista previa de la frecuencia con la que se activará una alerta
 * Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados
 * Crear alertas “apiladas” que capturan varias métricas en una sola alerta
-* Generar alertas en función de anomalías (umbrales del 90 %, 95 %, 99 %, 99,75 % y 99,9 %; cambio de %; por encima/por debajo) (disponible solo para clientes de Customer Journey Analytics con un paquete Select, Prime o Ultimate)
+* Generar alertas en función de anomalías (umbrales del 90 %, 95 %, 99 %, 99,75 % y 99,9 %; cambio de %; por encima/por debajo) (disponible solo para clientes de Customer Journey Analytics con un paquete Select, Prime o Ultimate)
 
 El siguiente tutorial de vídeo proporciona información general básica sobre las alertas: [Alertas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=es) (5:34)
 
-## Explicación de cómo difieren las alertas en el Customer Journey Analytics de Adobe Analytics
+## Comprenda las diferencias entre las alertas de Customer Journey Analytics y Adobe Analytics
 
-El proceso de uso de alertas en Customer Journey Analytics es casi idéntico al uso de alertas en Adobe Analytics. Sin embargo, hay diferencias importantes.
+El proceso de utilización de alertas en Customer Journey Analytics es casi idéntico al de las alertas en Adobe Analytics. Sin embargo, existen diferencias importantes.
 
-Para obtener más información, vea [Comparación de características de alertas: Customer Journey Analytics y Adobe Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md).
+Para obtener más información, consulte [Comparación de características de alertas: Customer Journey Analytics y Adobe Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md).
 
 ## Retrospectiva de anomalías para alertas
 
 >[!NOTE]
 >
->El uso de alertas con detección de anomalías (también conocido como _alertas inteligentes_) solo está disponible para organizaciones con un paquete Customer Journey Analytics Select, Prime o Ultimate.
+>El uso de alertas con detección de anomalías (también conocido como _alertas inteligentes_) solo está disponible para organizaciones con un paquete de Customer Journey Analytics Select, Prime o Ultimate.
 
 Si una alerta utiliza la detección de anomalías, el periodo de prueba varía según la granularidad seleccionada para la alerta.
 
@@ -44,7 +45,7 @@ Si una alerta utiliza la detección de anomalías, el periodo de prueba varía s
 * Granularidad diaria: 35 días + el mismo intervalo del año anterior
 * Granularidad horaria: 336 horas
 
-Para obtener más información, consulte [Técnicas estadísticas utilizadas en la detección de anomalías](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+Consulte [Técnicas estadísticas utilizadas en la detección de anomalías](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) para obtener más información.
 
 ## Creación de alertas
 
@@ -52,11 +53,10 @@ Para obtener información sobre cómo crear alertas en Customer Journey Analytic
 
 >[!IMPORTANT]
 >
->El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. El Adobe recomienda utilizar datos sin marca de hora para las alertas.
+>El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. Adobe recomienda utilizar datos sin marca de hora para las alertas.
 
 ## Administración de alertas
 
-Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
+Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración de las alertas, como etiquetado, cambio de nombre, eliminación, etc.
 
 Para obtener más información sobre cómo administrar las alertas existentes en Customer Journey Analytics, consulte [Administrar alertas](/help/components/c-intelligent-alerts/alert-manager.md).
-

@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Los administradores de Analytics son responsables de seleccionar la información
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -66,11 +66,11 @@ A continuación se indican algunas de las formas en que los administradores de A
 
 * Identificar los componentes que aún no se han aprobado.
 
-* Actualizar las descripciones de los componentes directamente en Analysis Workspace. Cualquier actualización realizada en las descripciones de los componentes del diccionario de datos se reflejará en la vista de datos.
+* Actualizar las descripciones de los componentes directamente en Analysis Workspace. Las actualizaciones realizadas en las descripciones de los componentes del diccionario de datos se reflejan en la vista de datos.
 
-  Del mismo modo, cualquier actualización realizada en las descripciones de los componentes en la vista de datos se reflejará en Analysis Workspace.
+  Del mismo modo, cualquier actualización realizada en las descripciones de los componentes de la vista de datos se reflejan en Analysis Workspace.
 
-  Para obtener más información sobre cómo agregar descripciones de componentes en Analysis Workspace o en una vista de datos, consulte [Agregar descripciones de componentes](/help/components/add-component-descriptions.md).
+  Para obtener más información sobre la adición de descripciones de componentes en Analysis Workspace o en una vista de datos, consulte [Adición de descripciones de componentes](/help/components/add-component-descriptions.md).
 
 ## Acceso al diccionario de datos
 
@@ -78,20 +78,20 @@ Puede acceder al diccionario de datos de cualquiera de las siguientes maneras en
 
 ![Icono del diccionario de datos en el panel izquierdo](assets/data-dictionary-access.png)
 
-* De ![Marcador](/help/assets/icons/Bookmark.svg) en el panel de botones.
+* Desde el ![Marcador](/help/assets/icons/Bookmark.svg) en el panel de botones.
 
 
 
-* De ![Marcador](/help/assets/icons/Bookmark.svg) en la ventana emergente de información de un componente.
+* Desde el ![Marcador](/help/assets/icons/Bookmark.svg) en la ventana emergente de información de un componente.
 
 
 Para obtener información detallada sobre las distintas opciones disponibles en el diccionario de datos, consulte [Ver información del componente en el diccionario de datos](/help/components/data-dictionary/view-data-dictionary.md).
 
 ## Actualizar y depurar el diccionario de datos
 
-Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos correcto para su organización, tal como se describe en [Supervisar el estado del diccionario de datos](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos saludable para su organización, tal como se describe en [Monitorizarización del estado del diccionario de datos.](/help/components/data-dictionary/monitor-data-dictionary-health.md)
 
-Como parte de este proceso, los administradores de Customer Journey Analytics pueden editar información sobre cada componente del diccionario de datos, tal como se describe en [Editar entradas de componentes en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+Como parte de este proceso, los administradores de Analytics pueden editar información sobre cada componente del diccionario de datos, tal y como se describe en [Edición de entradas de componentes en el diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Movimiento, minimización o cierre del diccionario de datos
 

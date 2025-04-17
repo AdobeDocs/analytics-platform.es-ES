@@ -5,41 +5,41 @@ feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
 source-git-commit: 373d0c9989fb692da23efe371c65344093801140
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
 # Ver densidad
 
-Ajustar la densidad de la visualización le permite ver más datos en la pantalla al reducir el margen vertical del panel izquierdo, las tablas de forma libre y las tablas de cohorte. Hay tres opciones disponibles:
+Ajustar la densidad de la visualización le permite ver más datos en la pantalla reduciendo el relleno vertical del panel izquierdo, las tablas de forma libre y las tablas de cohortes. Hay tres opciones disponibles:
 
 >[!BEGINTABS]
 
->[!TAB Compacto]
+>[!TAB Compacta]
 
-Esta es la versión con la vista más condensada.
+Es la versión con la vista más condensada.
 
-![Las densidades de vista compactas.](assets/view-density-compact.png)
+![Densidades de la vista Compacta.](assets/view-density-compact.png)
 
->[!TAB Cómodo]
+>[!TAB Cómoda]
 
-Esta es la vista de Workspace a la que está acostumbrado.
+Es la vista a la que está acostumbrado en Workspace.
 
-![Las densidades de vista ampliadas.](assets/view-density-comfortable.png)
+![Densidades de la vista Ampliada.](assets/view-density-comfortable.png)
 
->[!TAB Expandido]
+>[!TAB Ampliada]
 
-Esta es la vista de Workspace a la que está acostumbrado.
+Es la vista a la que está acostumbrado en Workspace.
 
-![Las densidades de vista ampliadas.](assets/view-density-expanded.png)
+![Densidades de la vista Ampliada.](assets/view-density-expanded.png)
 
 >[!ENDTABS]
 
 
 Para establecer la densidad de la visualización:
 
-1. En Workspace, vaya a **[!UICONTROL Proyectos]** > **[!UICONTROL Información y configuración del proyecto]**.
+1. En Workspace, vaya a **[!UICONTROL Proyectos]** > **[!UICONTROL Info y configuración del proyecto]**.
 
 1. Seleccione una opción **[!UICONTROL Ver densidad]** y seleccione **[!UICONTROL Guardar]**.

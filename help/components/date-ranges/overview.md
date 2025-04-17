@@ -5,17 +5,17 @@ feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
 # Información general sobre los intervalos de fechas
 
-En un proyecto de Workspace, normalmente se usa el calendario [en un panel](/help/analysis-workspace/c-panels/panels.md#calendar) para especificar el intervalo de fechas para las visualizaciones de ese panel.
+En un proyecto de Workspace, normalmente se usa el [calendario de un panel](/help/analysis-workspace/c-panels/panels.md#calendar) para especificar el intervalo de fechas para las visualizaciones de ese panel.
 
-Los componentes de intervalo de fechas permiten definir y anular la configuración de calendario del panel.
+Los componentes de intervalo de fechas le permiten definir y anular la configuración de calendario del panel.
 
 <!-- Very old video, should we show it?
 
@@ -32,35 +32,35 @@ Los componentes de intervalo de fechas permiten definir y anular la configuraci�
 
 Puede utilizar un componente de intervalo de fechas para redefinir el calendario del panel.
 
-O bien, puede utilizar un intervalo de fechas en una tabla de forma libre como métrica o dimensión.
+O bien, puede utilizar un intervalo de fechas en una tabla de forma libre como una métrica o dimensión.
 
 ![Uso del intervalo de fechas](/help/components/date-ranges/assets/date-ranges-usage.png)
 
-- **Métrica**. Por ejemplo, para comparar una dimensión de dos meses diferentes para una métrica específica.
-- **Dimension**. Para comparar una métrica en diferentes elementos de dimensión para la dimensión de intervalo de fechas.
+- **Métrica**.  Por ejemplo, para comparar una dimensión durante dos meses diferentes para una métrica específica.
+- **Dimensión**.  Para comparar una métrica en diferentes elementos de dimensión para la dimensión de intervalo de fechas.
 
 >[!NOTE]
 >
 >Cuando se utilizan intervalos de fechas en una tabla de forma libre, los intervalos de fechas anulan el calendario especificado para el panel al que pertenece la tabla de forma libre.
 >
 
-Usa un intervalo de fecha como lo haría [con cualquier componente](/help/components/overview.md#analysis-workspace-components). Arrastre el intervalo de fechas desde el panel de componente ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalos de fechas]** y suelte el componente en:
+Use un intervalo de fechas como lo [haría con cualquier componente](/help/components/overview.md#analysis-workspace-components). Arrastre el intervalo de fechas desde el panel de componente ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalos de fechas]** y suelte el componente en:
 
-- **[!UICONTROL Calendario]**: Ha ![cambiado](/help/assets/icons/Switch.svg) **[!UICONTROL Reemplaza]** la configuración actual del calendario con el intervalo de fechas.
-- **Encabezado de columna de métrica**: Ha ![cambiado](/help/assets/icons/Switch.svg) **[!UICONTROL reemplazado]** la métrica, ha ![agregado](/help/assets/icons/Add.svg)**[!UICONTROL agregado ]**el intervalo de fecha como métrica o ha ![filtrado](/help/assets/icons/Filter.svg)**[!UICONTROL  filtrado ]**la métrica mediante el componente de intervalo de fecha.
-- **Encabezado de columna de Dimension**: Usted ![Cambia](/help/assets/icons/Switch.svg) **[!UICONTROL Reemplaza]** las dimensiones actuales. La nueva dimensión ahora es **[!UICONTROL Intervalos de fechas]**. Una vez que la dimensión sea Intervalos de fechas, puede ![Agregar](/help/assets/icons/Add.svg)**[!UICONTROL Agregar ]**intervalos de fechas adicionales como elementos de dimensión.
-- **elemento del Dimension**: ha ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** el elemento de dimensión específico por el intervalo de fechas.
+- **[!UICONTROL Calendario]**: ![Cambiar](/help/assets/icons/Switch.svg) **[!UICONTROL Sustituya]** la configuración actual del calendario por el intervalo de fechas.
+- **Encabezado de la columna de métrica**:![Cambiar](/help/assets/icons/Switch.svg) **[!UICONTROL Sustituya]** la métrica, ![Añadir](/help/assets/icons/Add.svg)**[!UICONTROL Añada ]**el intervalo de fechas como métrica o ![Filtrar](/help/assets/icons/Filter.svg)**[!UICONTROL  Filtre ]**la métrica mediante el componente de intervalo de fechas.
+- **Encabezado de la columna de Dimension**: ![Cambiar](/help/assets/icons/Switch.svg) **[!UICONTROL Reemplace]** las dimensiones actuales. La nueva dimensión ahora es **[!UICONTROL Intervalos de fechas]**. Cuando la dimensión sea Intervalos de fechas, podrá ![Añadir](/help/assets/icons/Add.svg)**[!UICONTROL Añadir ]**intervalos de fechas adicionales como elementos de dimensión.
+- **Elemento de dimensión**: Realice un ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** del elemento de dimensión específico por el intervalo de fechas.
 
-También puede agregar una columna de intervalo de fechas directamente en una visualización de tabla de forma libre:
+También puede añadir una columna de intervalo de fechas directamente en una visualización de tabla de forma libre:
 
 1. En una columna de métrica, seleccione en el menú contextual:
 
-   - **[!UICONTROL Agregar columna de período de tiempo]**. Puede seleccionar entre las opciones sugeridas que se basan en el calendario actual o crear un [intervalo de fechas personalizado](#custom-date-ranges).
-   - **[!UICONTROL Comparar periodos de tiempo]**. Puede seleccionar entre una opción sugerida basada en el calendario actual o crear un [intervalo de fechas personalizado](#custom-date-ranges).
+   - **[!UICONTROL Añadir columna de período de tiempo]**. Puede seleccionar entre las opciones sugeridas que se basan en el calendario actual o crear un [intervalo de fechas personalizado](#custom-date-ranges).
+   - **[!UICONTROL Comparar períodos de tiempo]** Puede seleccionar entre una opción sugerida basada en el calendario actual o crear un [intervalo de fechas personalizado](#custom-date-ranges).
 
-1. En función de su selección, se agregarán columnas de intervalo de fechas adicionales a la tabla de forma libre.
+1. En función de su selección, se añadirán columnas de intervalo de fechas adicionales a la tabla de forma libre.
 
-## Intervalos de fechas predeterminados
+## Intervalos de fechas no compatibles
 
 Analysis Workspace proporciona una serie de intervalos de fechas predeterminados.
 
@@ -70,13 +70,13 @@ Analysis Workspace proporciona una serie de intervalos de fechas predeterminados
 | Hoy | Esta semana | Este mes | Este trimestre | Este año |
 | Ayer | Esta semana (sin incluir hoy) | Este mes (sin incluir hoy) | Este trimestre (sin incluir hoy) | Este año (sin incluir hoy) |
 | Hace 2 días | Hace 2 semanas | Hace 2 meses |   |  |
-| Hace 3 días | Hace 3 semanas | Hace 3 meses |  | |
-| Últimos 7 días | Última semana | Mes pasado | Último trimestre | Último año |
-| Últimos 14 días | Últimas 2 semanas completas | Los últimos 2 meses completos | Últimos 4 trimestres completos | |
-| Últimos 30 días | Últimas 3 semanas completas | Los últimos 3 meses completos | | |
-| Últimos 60 días | Últimas 4 semanas completas | Los últimos 6 meses completos | | |
-| Últimos 90 días | Últimas 12 semanas completas | Los últimos 12 meses completos | | |
-| Últimos 7 días completos | Últimas 52 semanas completas | Los últimos 13 meses completos | | |
+| Hace 3 días | Hace 3 semanas | Hace 3 meses  |  | |
+| Últimos 7 días | Semana pasada | Mes pasado | Último trimestre | Año pasado |
+| Últimos 14 días | Últimas 2 semanas completas | 2 últimos meses completos | Últimos 4 trimestres completos | |
+| Últimos 30 días | Últimas 3 semanas completas | 3 últimos meses completos | | |
+| Últimos 60 días | Últimas 4 semanas completas | 6 últimos meses completos | | |
+| Últimos 90 días | Últimas 12 semanas completas | 12 últimos meses completos | | |
+| Últimos 7 días completos | Últimas 52 semanas completas | 13 últimos meses completos | | |
 | Últimos 14 días completos | | | | |
 | Últimos 30 días completos | | | | |
 | Últimos 90 días completos | | | | |
@@ -85,6 +85,6 @@ Analysis Workspace proporciona una serie de intervalos de fechas predeterminados
 
 ## Intervalos de fechas personalizados
 
-Puede crear sus propios intervalos de fechas personalizados. Consulte [Crear intervalo de fechas](/help/components/date-ranges/create.md) para ver las distintas opciones disponibles para crear intervalos de fechas. A continuación, genere, modifique y guarde intervalos de fechas en el [Generador de intervalos de fechas](create.md#date-range-builder).
+Puede crear sus propios intervalos de fechas personalizados. Consulte [Crear intervalo de fechas](/help/components/date-ranges/create.md) para ver las distintas opciones disponibles para crear intervalos de fechas. A continuación, puede generar, modificar y guardar intervalos de fechas en el [Generador de intervalos de fechas](create.md#date-range-builder).
 
-Usa el [administrador de intervalos de fechas](manage.md) para administrar los intervalos de fechas.
+Utilice el [administrador de intervalos de fechas](manage.md) para administrar los intervalos de fechas.
