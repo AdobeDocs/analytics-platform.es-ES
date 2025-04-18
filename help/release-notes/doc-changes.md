@@ -4,7 +4,7 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 98%
@@ -23,7 +23,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Ver y administrar el uso | Se ha modificado la documentación sobre cómo [ver](/help/connections/manage-connections.md#usage) y [administrar](/help/technotes/estimate-usage.md) el uso de Customer Journey Analytics |
 | Análisis de contenido | [Documentación](/help/content-analytics/content-analytics.md) para Adobe Content Analytics. Content Analytics le permite investigar rápida y fácilmente grandes volúmenes de datos de contenido para descubrir tendencias, detectar anomalías, identificar la fatiga del contenido y obtener información de la exposición al contenido. |
 | **Marzo de 2025** | |
-| Casos de uso de métrica cuántica | Se han añadido casos de uso para recopilar datos de [la métrica cuántica](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
+| Casos de uso de métrica cuántica | Se han añadido casos de uso para recopilar datos de [la métrica cuántica](/help/use-cases/third-party/quantum-metric/qm-overview.md). |
 | **Febrero de 2025** |  |
 | Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de creación de informes de medios | El conector de origen de Analytics [asigna automáticamente los datos de medios de streaming de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero en el futuro solo se utilizará la nueva ubicación.  |
 | Extensión de BI: compatibilidad ampliada | La extensión de BI de Customer Journey Analytics ahora admite [Looker, Jupyter Notebook y R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en). |

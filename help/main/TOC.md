@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 13f2bdb9753c0f4252262c595061ed9b54c38a3c
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 85%
+source-wordcount: '1214'
+ht-degree: 86%
 
 ---
 
@@ -432,7 +432,6 @@ ht-degree: 85%
          + [Informe sobre datos de Google Analytics](/help/use-cases/third-party/ga/report.md)
       + Métrica cuántica {#qm}
          + [Información general](/help/use-cases/third-party/quantum-metric/qm-overview.md)
-         + [Recopilar ID de sesión](/help/use-cases/third-party/quantum-metric/collect-session-id.md)
          + [Reproducciones de sesión de hora](/help/use-cases/third-party/quantum-metric/tie-session-replays.md)
          + [Usar mapas de calor](/help/use-cases/third-party/quantum-metric/heatmap.md)
          + [Añadir eventos de fricción](/help/use-cases/third-party/quantum-metric/friction-events.md)
