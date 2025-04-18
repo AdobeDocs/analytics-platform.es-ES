@@ -7,10 +7,10 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1878'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ El uso de Data Insights Agent para responder preguntas centradas en los datos en
 | **Generar y actualizar visualizaciones** | Genera una tabla de forma libre y una visualización asociada (como una línea, una barra, un anillo, etc.).<p>Ejemplo: *¿Cuál es el beneficio entre SKU de febrero a mayo?* |
 | **Tipos de visualización compatibles** | <ul><li>Línea</li><li>De varias líneas</li><li>Tabla de forma libre</li><li>Barra</li><li>Anillo</li><li>Número de resumen</li></ul> |
 | **Detección de mensajes fuera del ámbito** | Si envía un mensaje que está fuera de ámbito, como &quot;exportar este proyecto&quot;, Data Insights Agent le responde indicando que la pregunta está fuera de ámbito. |
-| **aclarando preguntas** | Si hace una pregunta que no tiene contexto suficiente para que Data Insights Agent responda o es demasiado genérica, Data Insights Agent responde con una pregunta aclaratoria o con opciones sugeridas. Ejemplos: <p>**Componentes**<ul><li>Métrica: *¿A qué métrica de &quot;ingresos&quot; se refería?*</li><li>Dimension: *¿En cuál de las siguientes &quot;regiones&quot; desea centrarse?*</li><li>Filtro: *¿Qué segmento de &quot;cuenta&quot; quería aplicar?*</li><li>Intervalo de fechas: *Por &quot;mes pasado&quot;, ¿se refería al último mes completo o a los últimos 30 días?*</li></ul>**elementos de Dimension**: ¿a qué &quot;nombre de tienda&quot; se refería? (Por ejemplo, Almacenar #5274, Almacenar #2949, etc.). |
+| **aclarando preguntas** | Si hace una pregunta que no tiene contexto suficiente para que Data Insights Agent responda o es demasiado genérica, Data Insights Agent responde con una pregunta aclaratoria o con opciones sugeridas. Ejemplos: <p>**Componentes**<ul><li>Métrica: *¿A qué métrica de &quot;ingresos&quot; se refería?*</li><li>Dimension: *¿En cuál de las siguientes &quot;regiones&quot; desea centrarse?*</li><li>Segmento: *¿Qué segmento de &quot;cuenta&quot; quería aplicar?*</li><li>Intervalo de fechas: *Por &quot;mes pasado&quot;, ¿se refería al último mes completo o a los últimos 30 días?*</li></ul>**elementos de Dimension**: ¿a qué &quot;nombre de tienda&quot; se refería? (Por ejemplo, Almacenar #5274, Almacenar #2949, etc.). |
 | **Giro múltiple** | Data Insights Agent responde a una solicitud con el contexto de cualquier solicitud anterior, lo que permite a los usuarios actualizar las visualizaciones y hacer preguntas de seguimiento. Ejemplo: <ul><li>Preguntar 1: *Eventos de tendencia de marzo.*</li><li>Mensaje 2: *Mostrarme los datos de marzo a abril*</li></ul> |
 | **Verificabilidad** | La verificabilidad y corrección de los datos se puede confirmar mediante la tabla de forma libre y la visualización de datos generadas. Por ejemplo, si un usuario pregunta *Tendencia de pedidos el mes pasado*, puede confirmar que la métrica (&quot;pedidos&quot;) y el intervalo de fechas (&quot;el mes pasado&quot;) correctos se seleccionaron en el panel, la visualización de datos y la tabla de forma libre recién generados. |
 | **Comentarios** | <ul><li>Pulgares hacia arriba</li><li>Pulgar hacia abajo</li><li>Indicador</li></ul> |
@@ -43,7 +43,7 @@ El uso de Data Insights Agent para responder preguntas centradas en los datos en
 | **Resumen o respuesta en línea** | Data Insights Agent no puede responder en línea en el carril de chat con una respuesta resumida de una petición de datos del usuario. Ejemplos de mensajes fuera de ámbito:<ul><li>*Dame un resumen de los datos de mi última solicitud.*</li><li>*Resumir los elementos destacados de la visualización de líneas.*</li></ul> |
 | **aclarando preguntas** | Las preguntas de aclaración se limitan a componentes y elementos de dimensión. Data Insights Agent no puede aclarar cosas como vistas de datos, visualizaciones, granularidad de datos, comparación y ámbito. Cuando no se pueden aclarar preguntas, el agente toma de forma predeterminada lo que es más probable que pida. Si devuelve una visualización o una granularidad de datos inesperada, puede utilizar la capacidad de varias vueltas/actualización para ajustar la visualización y los datos. |
 | **Acciones/capacidades de Workspace** | Data Insights Agent no puede realizar acciones para un usuario en Workspace aparte de crear y actualizar visualizaciones. Por ejemplo, no puede realizar ninguna de las siguientes acciones:<ul><li>Botones de la interfaz de usuario de la acción contextual (añadir a gráfico, nuevo panel, nueva tabla)</li><li>Compartir</li><li>Exportar</li><li>Descargar</li><li>Administrar preferencias de usuario</li><li>Depurar</li><li>Administrar vista de datos</li><li>Aplicación de paneles de Analytics</li><li>Atribución</li></ul> |
-| **Tipos de visualización no compatibles** | <ul><li>Flujo</li><li>Visita en orden previsto</li><li>Tabla de cohortes</li><li>Área, área apilada</li><li>Barra apilada</li><li>Viñeta</li><li>Combo</li><li>Histograma</li><li>Barras horizontales, barras horizontales apiladas</li><li>Resumen de métricas clave</li><li>Dispersión</li><li>Cambio de resumen</li><li>Texto</li><li>Gráfico de rectángulos</li><li>Venn</li></ul> |
+| **Tipos de visualización no compatibles** | <ul><li>Flujo</li><li>Visita en orden previsto</li><li>Tabla de cohortes</li><li>Área, área apilada</li><li>Barra apilada</li><li>Viñeta</li><li>Combo</li><li>Histograma</li><li>Barras horizontales, barras horizontales apiladas</li><li>Resumen de métricas clave</li><li>Puntos</li><li>Cambio de resumen</li><li>Texto</li><li>Gráfico de rectángulos</li><li>Venn</li></ul> |
 
 ## Administración del acceso a Data Insights Agent en Customer Journey Analytics
 
@@ -57,12 +57,12 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
    1. Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos y servicios]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Perfiles de productos]**
    1. Seleccione el título del perfil de producto para el que desea proporcionar acceso a [!UICONTROL AI Assistant: Product Knowledge].
    1. En el perfil de producto específico, seleccione **[!UICONTROL Permisos]**.
-   1. Seleccione ![Editar](/help/assets/icons/Edit.svg) para editar **[!UICONTROL Herramientas de informes]**.
+   1. Seleccione ![Editar](/help/assets/icons/Edit.svg) para editar **[!UICONTROL Herramientas de creación de informes]**.
    1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) para agregar **Asistente de IA: Conocimiento del producto** y **Asistente de IA: Análisis de datos** a **[!UICONTROL Elementos de permiso incluidos]**.
 
       ![Agregar permiso](assets/ai-assistant-permissions.png).
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar los permisos.
+   1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
 Consulte [Control de acceso](/help/technotes/access-control.md#access-control) para obtener más información.
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 59%
+ht-degree: 51%
 
 ---
 
@@ -39,11 +39,11 @@ Un caso de uso que puede explorar es: ¿Cuántas visitas de páginas web de posi
 1. Abra [Analysis Workspace](/help/analysis-workspace/home.md) y cree un nuevo proyecto.
 Los clientes con B2B/B2P CDP pueden realizar análisis de tipo B2C en Customer Journey Analytics. Los objetos B2B aún no están disponibles.
 
-1. Cree un [filtro](/help/components/filters/create-filters.md) para vistas de páginas web como se indica a continuación: Tipo de evento = web.webpagedetails.pageViews :
+1. Cree un [segmento](/help/components/filters/create-filters.md) para vistas de páginas web como se indica a continuación: Tipo de evento = web.webpagedetails.pageViews :
 
    ![Ventana de definición que muestra el evento y el tipo de evento](../assets/marketo-filter.png)
 
-1. En la tabla de forma libre, arrastre el filtro que ha creado: Vistas de página web y, a continuación, arrastre el intervalo de fechas Mes. Esto le proporciona visitas a la página web por posibles clientes cada mes:
+1. Extraiga el segmento que ha creado en la tabla de forma libre: Vistas de página web y, a continuación, extraiga el intervalo de fechas Mes. Esto le proporciona visitas a la página web por posibles clientes cada mes:
 
    ![Tabla de forma libre que muestra los eventos por mes.](../assets/marketo-freeform.png)
 

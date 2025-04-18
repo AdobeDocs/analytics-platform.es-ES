@@ -1,8 +1,8 @@
 ---
-source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3796'
-ht-degree: 19%
+ht-degree: 30%
 
 ---
 # Fragmentos
@@ -60,7 +60,7 @@ Las opciones de comparación de tiempo disponibles incluyen el periodo anterior,
 *Este vídeo muestra la funcionalidad mediante Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las diferencias de terminología entre Adobe Analytics y Customer Journey Analytics (por ejemplo, &quot;visitas&quot; y &quot;sesiones&quot;).*
 
 
-## Panel Filtros {#filterspanel}
+## Panel Segmentos {#filterspanel}
 
 1. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesitas más espacio para la lista Filtros, puedes seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
 1. Seleccione filtros de cualquiera de las secciones de filtros disponibles.
@@ -77,7 +77,7 @@ Las opciones de comparación de tiempo disponibles incluyen el periodo anterior,
 
 | Vista de datos | Descripción |
 |---|---|
-| ![Vistas de datos](/help/assets/filter-dataview.png){width="300"} | La sección **[!UICONTROL Vista de datos]** le permite filtrar las vistas de datos. <ul><li>Puede ![Buscar](/help/assets/icons/Search.svg) *Buscar vistas de datos* para buscar vistas de datos que pueda usar para filtrar.</li><li>Puede seleccionar varias vistas de datos. Las vistas de datos disponibles dependen de las selecciones realizadas en otras secciones del panel de filtro.</li><li>Los números indican:<ul><li>**(2)**: El número de vistas de datos seleccionadas (si se seleccionan una o más vistas de datos).</li><li>**3︎⃣**: El número de vistas de datos disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: el número de elementos asociados con la vista de datos específica.</li></ul></li></ul> |
+| ![Vistas de datos](/help/assets/filter-dataview.png){width="300"} | La sección **[!UICONTROL Vista de datos]** le permite filtrar las vistas de datos. <ul><li>Puede ![Buscar](/help/assets/icons/Search.svg) *Buscar vistas de datos* para buscar vistas de datos que pueda usar para filtrar.</li><li>Puede seleccionar más de una vista de datos. Las vistas de datos disponibles dependen de las selecciones realizadas en otras secciones del panel de filtro.</li><li>Los números indican:<ul><li>**(2)**: El número de vistas de datos seleccionadas (si se seleccionan una o más vistas de datos).</li><li>**3︎⃣**: El número de vistas de datos disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: el número de elementos asociados con la vista de datos específica.</li></ul></li></ul> |
 
 ## Sección de filtro de estado habilitado {#enabledstatusfiltersection}
 
@@ -95,13 +95,13 @@ Las opciones de comparación de tiempo disponibles incluyen el periodo anterior,
 
 | Propietario | Descripción |
 |---|---|
-| ![Propietarios](/help/assets/filter-owners.png){width="300"} | La sección **[!UICONTROL Propietario]** le permite filtrar por propietarios. <ul><li>Puede ![Buscar](/help/assets/icons/Search.svg) *Buscar propietarios* para buscar los propietarios que pueda usar para filtrar.</li><li>Puede seleccionar más de un propietario. Los propietarios disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican:<ul><li>**(2)**: El número de propietarios seleccionados (si se seleccionan uno o más propietarios).</li><li>**3︎⃣**: El número de propietarios disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: número de elementos asociados con el propietario específico.</li></ul></li></ul> |
+| ![Propietarios](/help/assets/filter-owners.png){width="300"} | La sección **[!UICONTROL Propietario]** le permite filtrar por los propietarios. <ul><li>Puede ![Buscar](/help/assets/icons/Search.svg) *Buscar propietarios* para buscar los propietarios que pueda usar para filtrar.</li><li>Puede seleccionar más de un propietario. Los propietarios disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican:<ul><li>**(2)**: El número de propietarios seleccionados (si se seleccionan uno o más propietarios).</li><li>**3︎⃣**: El número de propietarios disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: número de elementos asociados con el propietario específico.</li></ul></li></ul> |
 
 ## Otros filtros, sección de filtro {#otherfiltersfiltersection}
 
 | Otros filtros | Descripción |
 |---|---|
-| ![Otros filtros](/help/assets/filter-other.png){width="300"} | La sección **[!UICONTROL Otros filtros]** le permite filtrar otros filtros predefinidos.<ul><li>Puede seleccionar una o varias de las siguientes opciones:<ul><li> **[!UICONTROL Mostrar todo]**</li><li>**[!UICONTROL Compartido conmigo]**</li><li>**[!UICONTROL Mío]**</li><li>**[!UICONTROL Aprobado]**</li><li>**[!UICONTROL Favoritos]**</li></ul> Lo que puede seleccionar depende de la función y los permisos.</li><li>Puede seleccionar más de un filtro. Los demás filtros disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican:<ul><li>**(1)**: El número de otros filtros seleccionados (si se seleccionan uno o más filtros).</li><li>**5︎⃣**: El número de otros filtros disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: el número de elementos asociados con el otro filtro específico.</li></ul></li></ul> |
+| ![Otros filtros](/help/assets/filter-other.png){width="300"} | La sección **[!UICONTROL Otros filtros]** le permite filtrar otros filtros predefinidos.<ul><li>Puede seleccionar una o varias de las siguientes opciones:<ul><li> **[!UICONTROL Mostrar todo]**</li><li>**[!UICONTROL Compartidos conmigo]**</li><li>**[!UICONTROL Míos]**</li><li>**[!UICONTROL Aprobado]**</li><li>**[!UICONTROL Favoritos]**</li></ul> Lo que puede seleccionar depende de la función y los permisos.</li><li>Puede seleccionar más de un otro filtro. Los otros filtros disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican:<ul><li>**(1)**: El número de otros filtros seleccionados (si se seleccionan uno o más filtros).</li><li>**5︎⃣**: El número de otros filtros disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: el número de elementos asociados con el otro filtro específico.</li></ul></li></ul> |
 
 ## Sección de filtro de intervalo de fechas  {#daterangefiltersection}
 
@@ -151,31 +151,31 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 Consideremos el siguiente ejemplo:
 
-1. El 15 de septiembre, una persona llega a su sitio a través de un anuncio de búsqueda de pago y luego lo abandona.
-1. El 18 de septiembre, la persona regresa a su sitio a través de un vínculo de medios sociales que obtuvo de un amigo. Agregan varios artículos al carro, pero no compran nada.
+1. El 15 de septiembre, una persona visita su sitio a través de un anuncio de búsqueda de pago y luego lo abandona.
+1. El 18 de setiembre, el visitante regresa de nuevo a su sitio a través de un vínculo de medios sociales que consiguió de un amigo. Agregan varios artículos al carro, pero no compran nada.
 1. El 24 de septiembre, su equipo de marketing les enviará un correo electrónico con un cupón para algunos de los artículos del carrito. Aplican el cupón, pero visitan otros sitios para ver si hay otros cupones disponibles. Encontraron otro a través de un anuncio y finalmente hicieron una compra por valor de 50 dólares.
 
-Según la ventana retrospectiva y el modelo de atribución, los canales reciben crédito diferente. A continuación se muestran algunos ejemplos:
+Según la ventana retrospectiva y el modelo de atribución, los canales reciben crédito diferente. Los siguientes son algunos ejemplos importantes:
 
-* Con **primer contacto** y una **ventana retrospectiva de sesión**, la atribución solo se fijará en la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue el primero, por lo que el correo electrónico recibe un 100% de crédito por la compra de 50 dólares.
+* Con el **primer contacto** y una **ventana de retroactividad de la sesión**, la atribución solo se centra en la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue el primero, por lo que el correo electrónico recibe el 100 % del crédito por la compra de 50 USD.
 
-* Con **primer contacto** y una **ventana retrospectiva de persona**, la atribución se fijará en las tres visitas. La búsqueda de pago fue la primera, así que recibe un 100% de crédito por la compra de 50 dólares.
+* Con el **primer contacto** y una **ventana de retroactividad de la persona**, la atribución solo se centra en las tres visitas. La búsqueda de pago fue la primera, así que recibe el 100 % del crédito por la compra de 50 USD.
 
-* Con **linear** y una ventana retrospectiva de **sesión**, el crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 dólares.
-Con **linear** y una **ventana retrospectiva de persona**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 dólares por esta compra.
+* Con un modelo **lineal** y una **ventana retroactividad de la visita**, el crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 USD.
+Con un modelo **lineal** y una **ventana de retroactividad del visitante**, el crédito se divide entre la búsqueda de pago, las redes sociales, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 USD por esta compra.
 
-* Con **J-shape** y una **ventana retrospectiva de persona**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización.
+* Con un modelo en **forma de J** y una **ventana de retroactividad de la persona**, el crédito se divide entre la búsqueda de pago, las redes sociales, el correo electrónico y la visualización.
 
    * Se otorga un crédito del 60 % a la visualización, es decir, 30 dólares.
    * El 20 % de crédito se asigna a la búsqueda de pago, 10 dólares en este caso.
    * El 20% restante se divide entre el medio social y el correo electrónico, lo que otorga 5 dólares a cada uno.
 
-* Con **Deterioro de tiempo** y una **ventana retrospectiva de persona**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Con la semivida de 7 días predeterminada:
+* Con un modelo **Deterioro de tiempo** y una **ventana de retroactividad de la persona**, el crédito se divide entre la búsqueda de pago, las redes sociales, el correo electrónico y la visualización. Con la semivida de 7 días predeterminada:
 
-   * Diferencia de cero días entre el punto de contacto de visualización y la conversión. `2^(-0/7) = 1`
-   * Diferencia de cero días entre el punto de contacto del correo electrónico y la conversión. `2^(-0/7) = 1`
-   * Diferencia de seis días entre el punto de contacto social y la conversión. `2^(-6/7) = 0.552`
-   * Diferencia de nueve días entre el punto de contacto de búsqueda de pago y la conversión. `2^(-9/7) = 0.41`
+   * Diferencia de 0 días entre el punto de contacto de visualización y la conversión. `2^(-0/7) = 1`
+   * Diferencia de 0 días entre el punto de contacto del correo electrónico y la conversión. `2^(-0/7) = 1`
+   * Diferencia de 6 días entre el punto de contacto social y la conversión. `2^(-6/7) = 0.552`
+   * Diferencia de 9 días entre el punto de contacto de búsqueda de pago y la conversión. `2^(-9/7) = 0.41`
    * La normalización de estos valores resulta en lo siguiente:
 
       * Visualización: 33,8 %, 16,88 dólares
@@ -183,7 +183,7 @@ Con **linear** y una **ventana retrospectiva de persona**, el crédito se divide
       * Medio social: 18,6 %, 9,32 dólares
       * Búsqueda de pago: 13,8 %, 6,92 dólares
 
-Los eventos de conversión que generalmente tienen números enteros se dividen si el crédito pertenece a más de un canal. Por ejemplo, si dos canales contribuyen a un pedido mediante un modelo de atribución lineal, ambos canales obtienen 0,5 de ese pedido. Estas métricas parciales se suman en todas las personas y luego se redondean al entero más cercano para los informes.
+Los eventos de conversión que generalmente tienen números enteros se dividen si el crédito pertenece a más de un canal. Por ejemplo, si dos canales contribuyen a un pedido mediante un modelo de atribución lineal, ambos canales obtienen 0,5 de dicho pedido. Estas métricas parciales se suman entre todas las visitas y luego se redondean al entero más cercano para los informes.
 
 ## Comparaciones de visualización de recorrido {#journey-visualization-comparisons}
 
@@ -191,7 +191,7 @@ Varias visualizaciones en Customer Recorrido Analytics están diseñadas para an
 
 Utilice la siguiente información para elegir la visualización que mejor se adapte a sus necesidades.
 
-| Función | Lienzo del recorrido  | Visita en orden previsto | Flujo |
+| Función | Lienzo de recorrido  | Visita en orden previsto | Flujo |
 |---------|----------|---------|---------|
 | **Secuencia predefinida de páginas** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). Los siguientes nodos inmediatos (no posibles) también se pueden mostrar en [mostrando los nodos principales basados en nodos existentes](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#show-the-top-nodes-based-on-existing-nodes). | Sí</br>La ruta puede ser una ruta final o puede restringirse al siguiente punto de contacto | No |
 | **Secuencia exploratoria de páginas (Ad Hoc Analysis)** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). Los siguientes nodos inmediatos (no posibles) también se pueden mostrar en [mostrando los nodos principales basados en nodos existentes](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#show-the-top-nodes-based-on-existing-nodes). | Limitado</br>Permite hacer clic con el botón secundario y ver los abandonos inmediatos en una tabla de forma libre. | Sí</br>Sólo análisis exploratorio. Siempre dentro de una instancia de dimensión entre nodos. Esto significa que cada nodo muestra el siguiente punto de contacto inmediato (no eventual) a lo largo de la ruta. |
@@ -217,7 +217,7 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 
 >[!NOTE]
 > 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los pasos de actualización recomendados (recomendados para la mayoría de las organizaciones) o puede seguir los pasos generados dinámicamente para su organización con la Guía de actualización de Customer Journey Analytics. <ul><li>**Pasos de actualización recomendados** (recomendado para la mayoría de las organizaciones)<p>Un conjunto de pasos que conducen a una implementación de Customer Journey Analytics ideal.</p><p>Para obtener información detallada, consulte [Actualizar de Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Guía de actualización de Customer Journey Analytics** (Pasos personalizados adaptados a las necesidades específicas de su organización)<p>Hay disponible una nueva guía de actualización que genera dinámicamente pasos de actualización adaptados a su organización y a sus circunstancias únicas.</p><p>Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.</p></li></ul>
+>Siga los pasos de esta página solo después de haber completado todos los pasos de actualización anteriores. Puede seguir los pasos de actualización recomendados (recomendados para la mayoría de las organizaciones) o puede seguir los pasos generados dinámicamente para su organización con la Guía de actualización de Customer Journey Analytics. <ul><li>**Pasos de actualización recomendados** (recomendado para la mayoría de las organizaciones)<p>Un conjunto de pasos que conducen a una implementación de Customer Journey Analytics ideal.</p><p>Para obtener información detallada, consulte [Actualizar de Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Guía de actualización de Customer Journey Analytics** (Pasos personalizados adaptados a las necesidades específicas de su organización)<p>Hay disponible una nueva guía de actualización que genera dinámicamente pasos de actualización adaptados a su organización y a sus circunstancias únicas.</p><p>Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.</p></li></ul>
 
 ## Paso final de la lista de comprobación de actualización {#upgrade-final-step}
 

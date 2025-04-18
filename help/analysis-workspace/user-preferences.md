@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3873'
 ht-degree: 75%
@@ -36,7 +36,7 @@ Las preferencias generales se aplican a su experiencia de Customer Journey Analy
 | --- | --- |
 | **[!UICONTROL Página de aterrizaje]** | Elija la página que se muestra como predeterminada al acceder a Customer Journey Analytics: <ul><li>Lista de proyectos (predeterminado)</li><li>Proyecto en blanco</li><li>Análisis guiado de Tendencias en blanco</li><li>Proyecto específico seleccionado de una lista</li></ul> |
 | **[!UICONTROL Sugerencias]** | Muestra sugerencias en un cuadro azul en el área inferior derecha de Analysis Workspace. <p>Esta opción está habilitada de manera predeterminada.</p> |
-| **[!UICONTROL Componentes mostrados en los grupos del panel izquierdo]** | Elige cuántos componentes de cada grupo se van a mostrar en el menú Componentes del panel izquierdo. <p>Si elige 0 para un grupo de componentes, ya no se puede acceder al grupo de componentes desde el panel izquierdo.</p><p>De forma predeterminada, se muestran cinco componentes para cada uno de los siguientes grupos:</p> <ul><li>Dimensiones</li><li>Métricas</li><li>Filtros</li><li>Intervalos de fechas</li></ul> <p>Para obtener más información sobre los componentes en Analysis Workspace, consulte la [Información general sobre componentes](/help/components/overview.md).</p> |
+| **[!UICONTROL Componentes mostrados en los grupos del panel izquierdo]** | Elige cuántos componentes de cada grupo se van a mostrar en el menú Componentes del panel izquierdo. <p>Si elige 0 para un grupo de componentes, ya no se puede acceder al grupo de componentes desde el panel izquierdo.</p><p>De forma predeterminada, se muestran cinco componentes para cada uno de los siguientes grupos:</p> <ul><li>Dimensiones</li><li>Métricas</li><li>Segmentos</li><li>Intervalos de fechas</li></ul> <p>Para obtener más información sobre los componentes en Analysis Workspace, consulte la [Información general sobre componentes](/help/components/overview.md).</p> |
 
 ### Preferencias de organización de IMS {#ims-organization-preferences}
 

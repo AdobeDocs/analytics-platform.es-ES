@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
-workflow-type: ht
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -51,11 +51,11 @@ Para obtener más información sobre el Administrador de actividades de creació
 
    ![Actividad de creación de informes que muestra la cola de informes](assets/reporting-activity-monthly.png)
 
-1. (Opcional) Puede buscar o filtrar la lista de conexiones:
+1. (Opcional) Puede buscar o segmentar la lista de conexiones:
 
    * Utilice el campo de búsqueda para buscar una conexión específica. Empiece a escribir el nombre o ID de la conexión y la lista de actualizaciones de las conexiones se actualizará a medida que escriba.
 
-   * Seleccione ![Filtro](/help/assets/icons/Filter.svg) para expandir la lista de opciones de filtro. Puede filtrar por [!UICONTROL **Favoritos**] o [!UICONTROL **Estado**].
+   * Seleccione ![Filter](/help/assets/icons/Filter.svg) para ampliar la lista de opciones de segmentos. Puede filtrar por [!UICONTROL **Favoritos**] o [!UICONTROL **Estado**].
 
      Para marcar una conexión como favorita, seleccione el icono de estrella a la izquierda del nombre de la conexión.
 

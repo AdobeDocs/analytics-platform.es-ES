@@ -5,10 +5,10 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -42,14 +42,14 @@ Al importar datos en Platform, estas sugerencias pueden ayudar a aumentar la per
 
 ## Vinculación del ID de la persona
 
-El Customer Journey Analytics requiere un identificador común para generar un [conjunto de datos combinado](/help/connections/combined-dataset.md).
+Customer Journey Analytics requiere un identificador común para generar un [conjunto de datos combinado](/help/connections/combined-dataset.md).
 
 * Si los conjuntos de datos ya tienen un identificador común en cada evento de ambos conjuntos de datos, puede omitir este paso y continuar con la creación de una conexión.
 * Si alguno de los conjuntos de datos tiene un identificador común solo en algunos eventos, puede unir los datos mediante [Vinculación](/help/stitching/overview.md) para ver los pasos que permiten el análisis en canales múltiples para estos dos conjuntos de datos.
 
 ## Crear una conexión en Customer Journey Analytics
 
-[Crear una conexión](/help/connections/create-connection.md) en el Customer Journey Analytics.
+[Crear una conexión](/help/connections/create-connection.md) en Customer Journey Analytics.
 
 * Si se utiliza AEC, encontrará un nuevo conjunto de datos vinculado disponible para el uso. Utilice el campo de ID de vinculación recién creado como ID de persona.
 * De lo contrario, puede seleccionar los conjuntos de datos originales del sitio web y el centro de llamadas para utilizarlos en la conexión.
@@ -69,11 +69,11 @@ Las siguientes visualizaciones se pueden utilizar para obtener información de s
 
 Esta visualización le ayuda a conocer el rendimiento de AEC a la hora de vincular los datos.
 
-1. Cree dos filtros. La variable que se utiliza en estos dos filtros es la misma variable que la que se menciona anteriormente y que refleja el origen de datos de cada evento. Consulte [Crear un filtro](/help/components/filters/create-filters.md) para obtener más información.
+1. Cree dos segmentos. La variable utilizada en estos dos segmentos es la misma variable mencionada anteriormente que refleja el origen de los datos de cada evento. Consulte [Crear un segmento](/help/components/filters/create-filters.md) para obtener más información.
    * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del sitio web
    * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del centro de llamadas
 2. En Analysis Workspace, arrastre una visualización [Venn](/help/analysis-workspace/visualizations/venn.md) al lienzo del área de trabajo.
-3. Arrastre los dos filtros recién creados al área **[!UICONTROL Añadir filtro]** y la métrica Personas al área **[!UICONTROL Añadir métrica]**.
+3. Arrastre los dos segmentos recién creados al área **[!UICONTROL Agregar filtro]** y la métrica Personas al área **[!UICONTROL Agregar métrica]**.
 
 La visualización Venn resultante muestra el número de personas del conjunto de datos que contienen datos del sitio web y del centro de llamadas. Cuanto mayor sea la superposición, más personas se habrán vinculado correctamente. Las áreas que no se superponen representan a las personas que residen exclusivamente en un conjunto de datos u otro.
 
@@ -93,8 +93,8 @@ El informe resultante muestra las páginas principales que dirigen las llamadas 
 Puede aumentar aún más la perspectiva con esta tabla dividiendo las llamadas por motivo o categoría.
 
 1. Haga clic en el corchete derecho debajo de la dimensión Razón de la llamada en la lista de componentes. Esta acción revela valores de dimensión individuales.
-2. Arrastre los valores de dimensión deseados en la métrica Llamadas, que filtra esa métrica por cada motivo de llamada respectivo.
-3. Repita el proceso por cada motivo de llamada en el que desee profundizar. Utilice el filtro Todas las sesiones para ver el total acumulado.
+2. Arrastre los valores de dimensión deseados en la métrica Llamadas, que segmenta esa métrica por cada motivo de llamada respectivo.
+3. Repita el proceso por cada motivo de llamada en el que desee profundizar. Utilice el segmento &quot;Todas las sesiones&quot; para ver el total acumulado.
 
 <!-- screenshot -->
 
@@ -139,10 +139,10 @@ step 2:
 
 Slide 4
 
-Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+Create a bunch of segments - facets to their business. Segments were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really segments)
 
 wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
 
-use sequential filters, but you lose the ability to use attribution IQ
+use sequential segments, but you lose the ability to use attribution IQ
 
 ## What to do when you've found insight -->

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 3b4917dade478f327ee3f532c5d72c4ca7656067
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -84,7 +84,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Filtros de audiencia | 20 | Protección impuesta por el sistema | Número máximo de [filtros](../components/filters/filters-overview.md) por audiencia. |
+| Segmentos de audiencia | 20 | Protección impuesta por el sistema | Número máximo de [segmentos](../components/filters/filters-overview.md) por audiencia. |
 | Número de identidades de la audiencia | 20 millones | Protección impuesta por el sistema | Número máximo de identidades por audiencia. |
 | Frecuencia de actualización de audiencia | 4 | Protección impuesta por el sistema | Frecuencia máxima en horas que se puede actualizar una [audiencia](../components/audiences/audiences-overview.md). |
 | Ventana retrospectiva de actualización de audiencia | 90 | Protección impuesta por el sistema | Número máximo de días para actualizar la ventana retrospectiva. |
@@ -183,18 +183,18 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 | Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días/frecuencia de reproducción. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 
 
-## Filtros y métricas calculadas
+## Segmentos y métricas calculadas
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Contenedores por filtro | 50 | Protección impuesta por el sistema | Número máximo de contenedores por filtro. |
+| Contenedores por filtro | 50 | Protección impuesta por el sistema | Número máximo de contenedores por segmento. |
 | Métricas por métrica calculada | 25 | Protección impuesta por el sistema | Número máximo de métricas por métrica calculada. |
-| Métricas y dimensiones por filtro | 25 | Protección impuesta por el sistema | Número máximo de métricas y dimensiones únicas por filtro. |
-| Contenedores anidados por filtro | 10 | Protección impuesta por el sistema | Número máximo de contenedores anidados por filtro. |
-| Reglas por filtro | 100 | Protección impuesta por el sistema | Número máximo de reglas por filtro. |
-| Comparaciones de cadenas por Dimension y por filtro | 100 | Protección impuesta por el sistema | Número máximo de comparaciones de cadenas por dimensión por filtro. |
+| Métricas y dimensiones por filtro | 25 | Protección impuesta por el sistema | Número máximo de métricas y dimensiones únicas por segmento. |
+| Contenedores anidados por filtro | 10 | Protección impuesta por el sistema | Número máximo de contenedores anidados por segmento. |
+| Reglas por segmento | 100 | Protección impuesta por el sistema | Número máximo de reglas por segmento. |
+| Comparaciones de cadenas por Dimension y por segmento | 100 | Protección impuesta por el sistema | Número máximo de comparaciones de cadenas por dimensión por segmento. |
 | Métricas calculadas  | 6.000 | Protección impuesta por el sistema | Número máximo de métricas calculadas para una organización. |
-| Filtros | 50 000 | Protección impuesta por el sistema | Número máximo de filtros que puede definir para una organización. |
+| Segmentos  | 50 000 | Protección impuesta por el sistema | Número máximo de segmentos que puede definir para una organización. |
 | Llamadas de API | 120 | Protección impuesta por el sistema | Solicitudes de API por minuto (12 solicitudes cada 6 segundos). |
 
 {style="table-layout:auto"}
@@ -205,7 +205,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
 | Mosaicos | 16 | Protección impuesta por el sistema | Número máximo de mosaicos por cuadro de resultados. |
-| Filtros | 10 | Protección impuesta por el sistema | Número máximo de filtros por cuadro de resultados. |
+| Segmentos  | 10 | Protección impuesta por el sistema | Número máximo de segmentos por cuadro de resultados. |
 | Dimensiones | 10 | Protección impuesta por el sistema | Número máximo de dimensiones por cuadro de resultados. |
 
 {style="table-layout:auto"}
@@ -223,7 +223,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 {style="table-layout:auto"}
 
 
-## Exportación de tablas completas
+## Exportación de tabla completa
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|

@@ -6,16 +6,16 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 354bdb440e36dc990f54d887908f9fb9c0a50110
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1549'
-ht-degree: 14%
+ht-degree: 21%
 
 ---
 
 # Control de acceso
 
-Existen tres niveles de acceso o funciones que rigen el Customer Journey Analytics: función Administrador de productos, función Administrador de perfiles de producto y acceso de nivel de usuario. En este tema se explican estas funciones con más detalle.
+Customer Journey Analytics se rige por tres niveles de acceso o funciones: función de administrador de productos, función de administrador de perfiles de producto y acceso de nivel de usuario. En este tema se explican estas funciones con más detalle.
 
 Además, este artículo analiza formas más granulares de limitar el acceso, como la depuración de Workspace y nivel de fila, así como el control de acceso de nivel de valor.
 
@@ -25,13 +25,13 @@ Están disponibles los siguientes niveles de control de acceso basados en funcio
 
 ### Función de administrador de productos
 
-De forma predeterminada, los usuarios a los que se les asigna la función de administrador de productos tienen los permisos necesarios para realizar la mayoría de las tareas dentro de Customer Journey Analytics. Sin embargo, algunas tareas requieren permisos adicionales.
+De forma predeterminada, los usuarios a los que se asigna la función de administrador de productos tienen los permisos necesarios para realizar la mayoría de las tareas en Customer Journey Analytics. Sin embargo, algunas tareas requieren permisos adicionales.
 
 Para agregar un usuario como administrador de productos:
 
-1. Ir al [Admin Console](https://adminconsole.adobe.com/enterprise/).
+1. Vaya a [Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-1. Seleccione [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **Administradores**] > [!UICONTROL **Agregar administrador**].
+1. Seleccione la pestaña [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **Administradores**] > [!UICONTROL **Agregar administrador**].
 
    A los usuarios que agregó se les han concedido los [permisos predeterminados del administrador de productos](#product-admin-default-permissions). También puede concederles [permisos adicionales](#product-admin-additional-permissions) si es necesario.
 
@@ -42,27 +42,27 @@ Los administradores de productos tienen permisos para completar la mayoría de l
 A los administradores de productos se les otorgan los permisos necesarios para realizar las siguientes tareas de forma predeterminada:
 
 * Creación, actualización y eliminación de vistas de datos
-* Actualizar y eliminar proyectos, filtros, métricas calculadas, audiencias, anotaciones o filtros creados por otros usuarios
+* Actualizar y eliminar proyectos, segmentos, métricas calculadas, audiencias, anotaciones o segmentos creados por otros usuarios
 * Compartir proyectos de Workspace con todos los usuarios
 * Administrar la actividad de generación de informes en [Administrador de actividades de generación de informes](/help/reporting-activity-manager/reporting-activity-overview.md)
 * [Exportar tablas completas](/help/analysis-workspace/export/export-cloud.md) desde Analysis Workspace
 
 #### Permisos adicionales del administrador de productos
 
-Además de agregarse como administrador de productos en el **Perfil de productos de Customer Journey Analytics** en el [Admin Console](https://adminconsole.adobe.com/enterprise/), se requieren permisos adicionales para completar las siguientes tareas dentro de Customer Journey Analytics:
+Además de agregarse como administrador de productos en el **Perfil de productos de Customer Journey Analytics** en [Admin Console](https://adminconsole.adobe.com/enterprise/), se necesitan permisos adicionales para completar las siguientes tareas en Customer Journey Analytics:
 
 * Crear, actualizar y eliminar datos [Conexiones](/help/connections/overview.md)
 
-  Para realizar esta tarea, los usuarios deben formar parte de un **perfil de producto del Experience Platform** que proporcione los siguientes permisos:
+  Para realizar esta tarea, los usuarios deben formar parte de un **perfil de producto de Experience Platform** que proporcione los siguientes permisos:
 
   | Categoría | Permiso | Descripción |
   |---|---|---|
-  | [!UICONTROL Modelado de datos] | [!UICONTROL Esquemas de vista] | Acceso de solo lectura a esquemas y recursos relacionados. |
+  | [!UICONTROL Modelado de datos] | [!UICONTROL Ver esquemas] | Acceso de solo lectura a esquemas y recursos relacionados. |
   | [!UICONTROL Modelado de datos] | [!UICONTROL Administrar esquemas] | Acceso para leer, crear, editar y eliminar esquemas y recursos relacionados. |
-  | [!UICONTROL Administración de datos] | [!UICONTROL Ver conjuntos de datos] | Acceso de solo lectura para conjuntos de datos y esquemas. |
+  | [!UICONTROL Administración de datos] | [!UICONTROL Ver conjuntos de datos de vistas] | Acceso de solo lectura para conjuntos de datos y esquemas. |
   | [!UICONTROL Administración de datos] | [!UICONTROL Administrar conjuntos de datos] | Acceso para leer, crear, editar y eliminar conjuntos de datos. Acceso de solo lectura para esquemas. |
-  | [!UICONTROL Ingesta de datos] | [!UICONTROL Administrar orígenes] | Acceso para leer, crear, editar y deshabilitar orígenes. |
-  | [!UICONTROL Identity Management] | [!UICONTROL Ver áreas de nombres de identidad] | Acceso de solo lectura para áreas de nombres de identidad. |
+  | [!UICONTROL Ingesta de datos] | [!UICONTROL Administrar fuentes] | Acceso para leer, crear, editar y deshabilitar orígenes. |
+  | [!UICONTROL Identity Management] | [!UICONTROL Ver espacios de nombres de identidad] | Acceso de solo lectura para áreas de nombres de identidad. |
 
   Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
 
@@ -78,7 +78,7 @@ Además de agregarse como administrador de productos en el **Perfil de productos
 
 * Exportar conjuntos de datos a [destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)
 
-  Para realizar esta tarea, los usuarios deben formar parte de un **perfil de producto del Experience Platform** que proporcione los siguientes permisos:
+  Para realizar esta tarea, los usuarios deben formar parte de un **perfil de producto de Experience Platform** que proporcione los siguientes permisos:
 
   | Categoría | Permiso | Descripción |
   |---|---|---|
@@ -100,7 +100,7 @@ Además de agregarse como administrador de productos en el **Perfil de productos
 
    * debe garantizar los permisos de Customer Journey Analytics adecuados para el usuario:
       * permiso para acceder a las vistas de datos relevantes. Ver [!UICONTROL Vistas de datos] en [acceso de nivel de usuario](#user-level-access).
-      * para acceder a la extensión de BI de Customer Journey Analytics. Ver [!UICONTROL Herramientas de vista de datos] en [acceso de nivel de usuario](#user-level-access).
+      * para acceder a la extensión de Customer Journey Analytics BI. Ver [!UICONTROL Herramientas de vista de datos] en [acceso de nivel de usuario](#user-level-access).
 
 ### Función de administrador de perfil de producto
 
@@ -114,7 +114,7 @@ Un perfil de producto es un conjunto de permisos. Los administradores de product
 
 En la tabla siguiente se describen los principales permisos de acceso para las distintas funciones de Customer Journey Analytics que puede configurar para los usuarios relevantes. Puede administrar diferentes niveles de acceso de usuarios a través de perfiles de producto. Un perfil de producto combina una serie de permisos que puede asignar a usuarios individuales o grupos de usuarios.
 
-La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en el [Admin Console](https://adminconsole.adobe.com/enterprise/).
+La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en [Admin Console](https://adminconsole.adobe.com/enterprise/).
 
 ![permisos de Admin Console](assets/permissions.png)
 
@@ -124,8 +124,8 @@ La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en el 
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a Analysis Workspace] | Permitir que los usuarios tengan acceso a [Analysis Workspace](/help/analysis-workspace/home.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso guiado a análisis] | Permitir que los usuarios tengan acceso a [Análisis guiado](/help/guided-analysis/overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de métricas calculadas] | Permitir que los usuarios creen [métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar, cambiar el nombre, aprobar o desaprobar las métricas calculadas que hayan creado o las métricas calculadas compartidas con ellos. |
-| [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de filtros] | Permitir que los usuarios creen [filtros](/help/components/filters/filters-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar, cambiar el nombre, aprobar o desaprobar los filtros que hayan creado o los filtros compartidos con ellos. |
-| [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a Labs] | Permita que los usuarios tengan acceso a la ficha [Labs](/help/labs/labs.md) del Customer Journey Analytics. |
+| [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de filtros] | Permitir que los usuarios creen [segmentos](/help/components/filters/filters-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar, cambiar el nombre, aprobar o desaprobar los segmentos que creen o los segmentos compartidos con ellos. |
+| [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a Labs] | Permita que los usuarios tengan acceso a la ficha [Labs](/help/labs/labs.md) en Customer Journey Analytics. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de anotaciones] | Permitir que los usuarios creen [anotaciones](/help/components/annotations/overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar y cambiar el nombre de las anotaciones que creen o de las anotaciones compartidas con ellos. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Visualización de audiencias] | Permitir que los usuarios vean [audiencias](/help/components/audiences/audiences-overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de audiencias] | Permitir que los usuarios creen [audiencias](/help/components/audiences/audiences-overview.md). |
@@ -141,11 +141,11 @@ La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en el 
 
 ## Depuración del proyecto de Workspace
 
-Se puede utilizar otro nivel de control de acceso en el nivel de creación de informes del Workspace. Puede limitar el acceso a componentes específicos para determinados usuarios. Para obtener más información sobre cómo limitar componentes (dimensiones, métricas, filtros e intervalos de fechas) en el nivel de proyecto de Workspace y cómo se vincula la depuración a las vistas de datos, consulte [Depurar proyectos](/help/analysis-workspace/curate-share/curate.md).
+Se puede utilizar otro nivel de control de acceso en el nivel de creación de informes del Workspace. Puede limitar el acceso a componentes específicos para determinados usuarios. Para obtener más información sobre cómo limitar componentes (dimensiones, métricas, segmentos e intervalos de fechas) en el nivel de proyecto de Workspace y cómo se vincula la depuración a las vistas de datos, consulte [Depuración de proyectos](/help/analysis-workspace/curate-share/curate.md).
 
 ## Conceder acceso a métricas o dimensiones individuales
 
-No se puede otorgar ni rechazar permisos a métricas o dimensiones individuales en Customer Journey Analytics como se puede hacer en la versión tradicional de Adobe Analytics. Las métricas y dimensiones se pueden modificar en [vistas de datos](/help/data-views/data-views.md) y, por lo tanto, están sujetas a cambios en el Customer Journey Analytics. Si se cambian, también de forma retroactiva, la creación de informes se verá modificada.
+No se puede otorgar ni rechazar permisos a métricas o dimensiones individuales en Customer Journey Analytics como se puede hacer en la versión tradicional de Adobe Analytics. Las métricas y dimensiones se pueden modificar en [vistas de datos](/help/data-views/data-views.md) y, por lo tanto, están sujetas a cambios en Customer Journey Analytics. Si se cambian, también de forma retroactiva, la creación de informes se verá modificada.
 
 ## Casos prácticos
 
@@ -161,7 +161,7 @@ Desea que los usuarios tengan acceso a los datos de un solo día. Así se limita
 
 1. Cree un filtro en [!UICONTROL Configuración] de una vista de datos específica, donde [!UICONTROL Día] es igual a la fecha en la que desea que tengan acceso a los datos. Consulte [Crear vista de datos](/help/data-views/create-dataview.md#settings-filters) para obtener más información.
 1. Guarde la vista de datos, que aplica el filtro a la parte de datos de los conjuntos de datos de la conexión subyacente. Las filas que no se ajusten a la definición del filtro se excluyen automáticamente de la vista de datos y no están disponibles para Analysis Workspace al utilizar esta vista de datos.
-1. Cree un nuevo [perfil de producto](#product-profile-admin-role) en el Admin Console, agregue usuarios al perfil de producto e incluya solamente esta vista de datos específica en el perfil de producto.
+1. Cree un nuevo [perfil de producto](#product-profile-admin-role) en Admin Console, agregue usuarios al perfil de producto e incluya solamente esta vista de datos específica en el perfil de producto.
 
 ### Control de acceso de nivel de valor
 

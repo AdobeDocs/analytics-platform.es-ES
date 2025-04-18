@@ -3,19 +3,19 @@ title: Transferir recursos
 description: Obtenga información sobre cómo transferir componentes de un usuario a otro
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: 9663a24c2430d3822cb83876ea048b6423405215
+exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
-
 # Transferir recursos
 
-La herramienta de transferencia de recursos permite transferir la propiedad de los recursos a otros usuarios. Assets puede incluir componentes como proyectos, filtros, intervalos de fechas, métricas calculadas, anotaciones, alertas y proyectos programados.
+La herramienta de transferencia de recursos permite transferir la propiedad de los recursos a otros usuarios. Assets puede incluir componentes como proyectos, segmentos, intervalos de fechas, métricas calculadas, anotaciones, alertas y proyectos programados.
 
-Los Assets suelen estar vinculados a un propietario individual y, en algunos casos, como los filtros y las métricas calculadas, los administradores no pueden editarlos ni compartirlos. Cuando los usuarios abandonan la organización o se modifica su función, puede ser necesario transferir la propiedad de estos activos a otros usuarios para garantizar la continuidad y el acceso adecuado.
+Assets suelen estar vinculados a un propietario individual y, en algunos casos, como los segmentos y las métricas calculadas, los administradores no pueden editarlos ni compartirlos. Cuando los usuarios abandonan la organización o se modifica su función, puede ser necesario transferir la propiedad de estos activos a otros usuarios para garantizar la continuidad y el acceso adecuado.
 
 ## Permisos
 
@@ -51,7 +51,7 @@ La transferencia de recursos requiere el permiso de administrador de productos p
 
    >[!NOTE]
    >
-   >    Al transferir recursos que hacen referencia a otros componentes (por ejemplo, proyectos que hacen referencia a otros filtros y métricas calculadas), los componentes que no sean propiedad del propietario actual del proyecto solo se compartirán con el destinatario. La propiedad de todos los demás componentes se transferirá al destinatario.
+   >    Al transferir recursos que hacen referencia a otros componentes (por ejemplo, proyectos que hacen referencia a otros segmentos y métricas calculadas), los componentes que no sean propiedad del propietario actual del proyecto solo se compartirán con el destinatario. La propiedad de todos los demás componentes se transferirá al destinatario.
 
 1. Para seleccionar _todos_ los recursos de una carpeta, marque la casilla junto a **[!UICONTROL Nombre]** en la parte superior de la tabla.
 
@@ -85,7 +85,7 @@ Posteriormente, esta herramienta de transferencia de recursos permite a los admi
 
 >[!IMPORTANT]
 >
->Aunque puede transferir componentes con esta herramienta, usted como administrador debe asegurarse de que el destinatario tenga acceso a las vistas de datos necesarias para ver o utilizar estos componentes. Puede ver y asignar permisos en el [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+>Aunque puede transferir componentes con esta herramienta, usted como administrador debe asegurarse de que el destinatario tenga acceso a las vistas de datos necesarias para ver o utilizar estos componentes. Puede ver y asignar permisos en [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
 ## Exportar a CSV
 

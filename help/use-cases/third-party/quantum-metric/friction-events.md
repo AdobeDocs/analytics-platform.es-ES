@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -66,4 +66,4 @@ Las ideas de análisis posibles son:
 
 * Tendencia de datos de eventos de fricción a lo largo del tiempo
 * En una visualización de visitas en el orden previsto o de canal, añada eventos de Customer Journey Analytics como algunos pasos y eventos de fricción de métricas cuánticas como otros. Este informe permite ver dónde se producen los problemas más comunes de los visitantes.
-* Cree y aplique un filtro para visitantes que experimenten eventos de fricción para un análisis más profundo
+* Cree y aplique un segmento para los visitantes que experimenten eventos de fricción para un análisis más profundo

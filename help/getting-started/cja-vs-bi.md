@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 95%
+source-wordcount: '1648'
+ht-degree: 92%
 
 ---
 
@@ -56,7 +56,7 @@ Customer Journey Analytics utiliza una potente arquitectura propietaria que dist
 
 El motor de creación de informes es fundamental para que Customer Journey Analytics le permita interactuar de forma progresiva con todos los datos de recorrido del cliente de ese motor de creación de informes y actuar en consecuencia. Customer Journey Analytics incorpora un amplio conjunto de componentes que le permiten hacerlo visualmente y mediante la operación de arrastrar y soltar. Las herramientas de visualización de BI le permiten explorar dentro de los límites de los datos preparados por SQL (según lo definido por TI). Customer Journey Analytics le permite desglosar y segmentar todo lo que quiera, sin tener que volver a TI para crear otra vista SQL.
 
-“Progresivamente” es un concepto clave aquí: al contrario que la mayoría de las visualizaciones de las herramientas de BI, la IU visual de arrastrar y soltar de Customer Journey Analytics le permite desglosar continuamente los datos para sus necesidades específicas: puede generar consultas visuales de forma interactiva utilizando métricas, dimensiones, filtros (segmentos), cálculos, líneas temporales, anotaciones y otros valores de análisis relevantes.
+&quot;Progresivamente&quot; es un concepto clave: a diferencia de la mayoría de las visualizaciones de las herramientas de BI, la IU visual de arrastrar y soltar en Customer Journey Analytics le permite desglosar continuamente los datos según sus necesidades específicas: puede crear consultas visuales de forma interactiva mediante métricas, dimensiones, segmentos, cálculos, líneas de tiempo, anotaciones y otros valores de análisis relevantes.
 
 Estos componentes de visualización incluyen funcionalidades inteligentes como:
 

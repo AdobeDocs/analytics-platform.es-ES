@@ -5,16 +5,16 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 33%
+source-wordcount: '1364'
+ht-degree: 32%
 
 ---
 
 # Casos de uso de vistas de datos
 
-Estos casos de uso ilustran la flexibilidad y la potencia de las vistas de datos en Customer Journey Analytics.
+Estos casos de uso ilustran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics.
 
 ## Usar métricas de dimensiones de enlace
 
@@ -39,7 +39,7 @@ Por ejemplo, al crear una vista de datos, podría crear una métrica de [!UICONT
 1. Abra la sección **[!UICONTROL Incluir/Excluir valores]** y especifique lo siguiente:
    1. Habilitar **[!UICONTROL Establecer valores de exclusión]**.
    1. Seleccione **[!UICONTROL Si se cumplen todos los criterios]** de **[!UICONTROL Coincidencia]**.
-   1. Especifique `confirmation`. Este texto para page_title indica que esta página está relacionada con la realización de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se contará un `1` para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Funciona con Attribution IQ, filtros y en cualquier otro lugar donde se pueden usar métricas estándares.
+   1. Especifique `confirmation`. Este texto para page_title indica que esta página está relacionada con la realización de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se contará un `1` para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Funciona con Attribution IQ, segmentos y en cualquier otro lugar donde se pueden utilizar métricas estándar.
 
    ![Dimension a métrica](../assets/string-to-metric.gif){width=100%}
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con un [!UICONTROL Periodo de retroactividad] de [!UICONTROL Sesión].
@@ -53,7 +53,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en Custom
 
 
 
-1. Arrastre el entero **[!UICONTROL Duration]** a la sección **[!UICONTROL Dimension]** en [!UICONTROL Componentes incluidos]:
+1. Arrastre el entero **[!UICONTROL Duration]** a la sección **[!UICONTROL Dimensiones]** en [!UICONTROL Componentes incluidos]:
 1. Ahora puede agregar **[!UICONTROL Clasificación de valor]** para presentar esta dimensión en forma de agrupación en los informes. Sin agrupar, cada instancia de esta dimensión aparecería como un elemento de línea en los informes de Workspace.
    ![Entero a dimensión](../assets/integer-to-dimension.gif){width=100%}
 

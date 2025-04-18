@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -77,6 +77,6 @@ Ahora, cada ID de sesión es un vínculo en el que puede hacer clic. Consulte [C
 
 ## Paso 5: Ver sesiones desde Customer Journey Analytics
 
-Una vez que haya encontrado un segmento interesante que desee explorar en las repeticiones de sesión, puede aplicarlo al panel que incluye los vínculos del ID de sesión y filtrar por segmento. La tabla devuelve todas las sesiones de ese segmento y puede hacer clic en cualquiera de ellas para explorarlas más en Métrica cuántica.
+Una vez que haya encontrado un segmento interesante que desee explorar en las repeticiones de sesión, puede aplicarlo al panel que incluye los vínculos del ID de sesión y el segmento. La tabla devuelve todas las sesiones de ese segmento y puede hacer clic en cualquiera de ellas para explorarlas más en Métrica cuántica.
 
 Consulte [La guía empresarial para la reproducción de sesión](https://www.quantummetric.com/resources/ebook/the-enterprise-guide-to-session-replay) en Métrica cuántica para obtener más información. También puede ponerse en contacto con el representante de atención al cliente de la métrica cuántica o enviar una solicitud a través del [Portal de solicitudes de clientes de la métrica cuántica](https://community.quantummetric.com/s/public-support-page).
