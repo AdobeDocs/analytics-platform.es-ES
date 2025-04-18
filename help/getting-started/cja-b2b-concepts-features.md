@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 3812b10e558c1b8a3ee4fe474405543c68433d8e
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -23,7 +23,7 @@ En este artículo se explican los conceptos y las funciones generales de los con
 
 Los conjuntos de datos son el origen de una conexión. Como parte de la configuración de una conexión, puede definir conjuntos de datos para que formen parte de esa conexión.
 
-Los contenedores son un complemento utilizado en Customer Journey Analytics para admitir y facilitar funciones como filtros, métricas calculadas y funciones de análisis avanzadas.
+Los contenedores son un complemento utilizado en Customer Journey Analytics para admitir y facilitar funciones como segmentos, métricas calculadas y funciones de análisis avanzadas.
 
 
 

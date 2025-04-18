@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ La configuración de componentes de [!UICONTROL subcadena] permite realizar vari
 
 ![Configuración de subcadenas](../assets/substring-settings.png)
 
-La [!UICONTROL subcadena] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar el filtrado u otras operaciones de análisis.
+La [!UICONTROL subcadena] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar la segmentación u otras operaciones de análisis.
 
 ## De izquierda a derecha
 

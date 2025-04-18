@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 13f2bdb9753c0f4252262c595061ed9b54c38a3c
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '2580'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ No. No puede acceder a los datos de zonas protegidas. Solo se pueden combinar co
 
 +++**¿Cómo puede conectar datos en línea con datos sin conexión en [!UICONTROL Customer Journey Analytics]?**
 
-Siempre que el ID de usuario coincida entre conjuntos de datos, [!UICONTROL Customer Journey Analytics] puede conectar filtros, atribuciones, flujos, visitas en orden previsto, etc., entre conjuntos de datos.
+Siempre que el ID de usuario coincida entre conjuntos de datos, [!UICONTROL Customer Journey Analytics] puede conectar segmentos, atribuciones, flujos, visitas en el orden previsto, etc. entre conjuntos de datos.
 
 +++
 
@@ -174,7 +174,7 @@ Si tiene pensado incorporar datos de Adobe Analytics a través del [Conector de 
 | Recuentos de [!UICONTROL Sesiones] y [!UICONTROL Personas] | Se deduplican en los grupos de informes. Como resultado, es posible que los recuentos no coincidan. |
 | Anulación de duplicación métrica | Anula la deduplicación de instancias de una métrica (por ejemplo, [!UICONTROL Pedidos]) si varias filas tienen el mismo ID de transacción (por ejemplo, [!UICONTROL ID de compra]). Esto evita el recuento excesivo de las métricas clave. Como resultado, es posible que las métricas como [!UICONTROL Pedidos] no se sumen teniendo en cuenta varios grupos de informes. |
 | Moneda | Customer Journey Analytics aún no admite la conversión de moneda. Si los grupos de informes que intenta combinar utilizan distintas monedas base, pueden surgir problemas. |
-| [!UICONTROL Persistencia] | La [persistencia](../data-views/component-settings/persistence.md) se extiende a los grupos de informes, lo que afecta a los [!UICONTROL filtros], la [!UICONTROL atribución], etc. Los números pueden no sumarse correctamente. |
+| [!UICONTROL Persistencia] | La [persistencia](../data-views/component-settings/persistence.md) se extiende a los grupos de informes, lo que afecta a [!UICONTROL segmentos], [!UICONTROL atribución], etc. Los números pueden no sumarse correctamente. |
 | [!UICONTROL Clasificaciones] | Las [!UICONTROL clasificaciones] no se deduplican automáticamente al combinar grupos de informes. Al combinar varios archivos de clasificaciones en un único conjunto de datos de [!UICONTROL búsqueda], puede encontrar problemas. |
 
 ## 8. Componentes de [!UICONTROL Adobe Analytics]

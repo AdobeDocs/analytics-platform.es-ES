@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Puede utilizar Customer Journey Analytics para formular preguntas a través del 
 
 Customer Journey Analytics utiliza una potente arquitectura propietaria que distribuye los análisis entre cientos o incluso miles de servidores para mostrar los datos en Analysis Workspace en cuestión de segundos. Algunas propiedades destacables de esta arquitectura de procesamiento son las siguientes:
 
-* **Optimizado para consultas individuales relacionadas con el cliente**: técnicamente, Customer Journey Analytics almacena los datos en un motor de creación de informes distribuido que hace un amplio uso del almacenamiento en la caché. Ese motor está bien adaptado para consultas adaptables sobre datos de eventos a nivel individual y, como tal, está perfectamente optimizado para consultas relacionadas con el cliente. El motor de creación de informes almacena los datos en índices de mapa de bits orientados a columnas que permiten un rápido cálculo sobre la marcha de las métricas agregadas. Dispone de un amplio motor de filtrado que permite una potente segmentación/análisis de audiencia. Además, tiene un conocimiento básico de la secuencia entre puntos de datos que resulta útil para analizar el comportamiento en esos puntos de datos (el orden en que ocurrieron las cosas) y para asignar atribuciones mediante diversos modelos complejos.
+* **Optimizado para consultas individuales relacionadas con el cliente**: técnicamente, Customer Journey Analytics almacena los datos en un motor de creación de informes distribuido que hace un amplio uso del almacenamiento en la caché. Ese motor está bien adaptado para consultas adaptables sobre datos de eventos a nivel individual y, como tal, está perfectamente optimizado para consultas relacionadas con el cliente. El motor de creación de informes almacena los datos en índices de mapa de bits orientados a columnas que permiten un rápido cálculo sobre la marcha de las métricas agregadas. Tiene un motor de segmentación extenso que permite una potente segmentación/análisis de audiencia. Además, tiene un conocimiento básico de la secuencia entre puntos de datos que resulta útil para analizar el comportamiento en esos puntos de datos (el orden en que ocurrieron las cosas) y para asignar atribuciones mediante diversos modelos complejos.
 
 * **Aplicación rápida de rutas y filtros complejos**: el motor de creación de informes trabaja sobre conjuntos de datos jerárquicos parcialmente ordenados (por ejemplo, persona -> sesiones -> eventos). Todos los datos de un objeto de nivel superior (perfiles individuales) residen en un único nodo de procesamiento para que los resultados sean precisos. Esta partición permite la aplicación rápida de rutas y filtros complejos. Las operaciones complejas, como la sesionización, la atribución, la persistencia de atributos de datos con estado y las opciones complejas de manipulación de datos, se ejecutan a escala con un tiempo de creación de informes rápido. En el mundo de BI, ese tipo de operaciones generalmente requieren la creación de nuevos cubos OLAP para cada caso de uso. El motor de creación de informes de Customer Journey Analytics permite acceder sin restricciones a todo el conjunto de datos en cada consulta, lo que da como resultado datos totalmente correlacionados sin necesidad de realizar ninguna cubicación previa.
 

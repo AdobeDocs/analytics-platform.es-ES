@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
-workflow-type: ht
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+workflow-type: tm+mt
 source-wordcount: '1078'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 
 * Puede aplicar formato a una métrica, como por ejemplo, mostrar decimales, tiempo, porcentaje o moneda; especificar las posiciones decimales; mostrar tendencias ascendentes como verde o rojo; y especificar opciones de moneda.
 
-* Puede crear una métrica o dimensión basada únicamente en algunos de los valores del campo de esquema. Por ejemplo, si desea una métrica de Errores, puede crear una métrica a partir del campo del nombre de página, pero solo incluir aquellas páginas que contengan la palabra `error`. La métrica Errores creada de esta manera admite filtros, se puede insertar en métricas calculadas y funciona con atribución, flujo, visitas en orden previsto, etc.
+* Puede crear una métrica o dimensión basada únicamente en algunos de los valores del campo de esquema. Por ejemplo, si desea una métrica de Errores, puede crear una métrica a partir del campo del nombre de página, pero solo incluir aquellas páginas que contengan la palabra `error`. La métrica de errores creada de esta manera admite segmentos, se puede insertar en métricas calculadas y funciona con atribución, flujo, visitas en orden previsto, etc.
 
 * Para las dimensiones, puede incluir o excluir automáticamente solo determinados valores dentro de un campo específico. Por ejemplo, si un desarrollador envía un valor incorrecto de `dev mistake` a un campo, puede excluirlo fácilmente de los informes mediante una regla de exclusión. La dimensión se comporta como si el valor incorrecto nunca existiera en los datos.
 
