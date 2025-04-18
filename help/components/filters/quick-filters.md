@@ -4,10 +4,10 @@ title: Segmentos rápidos
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -57,11 +57,11 @@ Los resultados de los segmentos rápidos que cree en un panel se aplican (median
 Para administrar un segmento rápido, pasa el ratón sobre el **[!UICONTROL segmento rápido]** específico.
 
 * Seleccione ![Editar](/help/assets/icons/Edit.svg) para abrir el [Generador de segmentos rápidos](#quick-filter-builder) y editar el segmento rápido.
-* Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para abrir una ventana emergente. La ventana emergente muestra información sobre el filtro. Puede seleccionar **[!UICONTROL Poner a disposición de todos los proyectos y agregar a su lista de componentes]** Para agregar el segmento a la lista de componentes ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** en el panel de componentes. Aparece el cuadro de diálogo **[!UICONTROL Guardar segmento rápido]**, que le solicita que especifique un nombre para el segmento. Seleccione **[!UICONTROL Guardar]** para continuar. Tu [!UICONTROL segmento rápido] se convierte en un **[!UICONTROL segmento]**. Ya no puede editar el segmento con el [Generador de segmentos rápidos](#quick-filter-builder). En su lugar, debe editar el segmento como segmento normal con el [Generador de segmentos](filter-builder.md).
+* Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para abrir una ventana emergente. La ventana emergente muestra información sobre el segmento. Puede seleccionar **[!UICONTROL Poner a disposición de todos los proyectos y agregar a su lista de componentes]** Para agregar el segmento a la lista de componentes ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** en el panel de componentes. Aparece el cuadro de diálogo **[!UICONTROL Guardar segmento rápido]**, que le solicita que especifique un nombre para el segmento. Seleccione **[!UICONTROL Guardar]** para continuar. Tu [!UICONTROL segmento rápido] se convierte en un **[!UICONTROL segmento]**. Ya no puede editar el segmento con el [Generador de segmentos rápidos](#quick-filter-builder). En su lugar, debe editar el segmento como segmento normal con el [Generador de segmentos](filter-builder.md).
 
 ## Generador de segmentos rápidos
 
-Consulte a continuación un ejemplo del Generador de segmentos rápidos. En el ejemplo, se abre el generador para un filtro rápido denominado `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Ambos filtros rápidos de la parte superior se aplican al panel [!UICONTROL Tablero Valor de pedido promedio] y a todas las visualizaciones que contiene, como la tabla de forma libre [!UICONTROL Valor de pedido promedio por país].
+Consulte a continuación un ejemplo del Generador de segmentos rápidos. En el ejemplo, el generador se abre para un segmento rápido denominado `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Ambos segmentos rápidos de la parte superior se aplican al panel [!UICONTROL Tablero de valor de pedido promedio] y a todas las visualizaciones de, como la tabla de forma libre [!UICONTROL Valor de pedido promedio por país].
 
 ![Generador de segmentos rápidos](assets/quick-filter-builder.png)
 

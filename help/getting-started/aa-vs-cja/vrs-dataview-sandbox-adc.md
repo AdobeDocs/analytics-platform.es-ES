@@ -4,10 +4,10 @@ description: Obtenga información sobre los entornos de informes virtuales y los
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -48,14 +48,14 @@ Para obtener más información, consulte: [Resumen de las vistas de datos](https
 
 Una vista de datos:
 
-* Se puede basar en filtros de Customer Journey Analytics.
+* Se puede basar en segmentos de Customer Journey Analytics.
 * Se puede aplicar a datos nuevos e históricos de una manera no destructiva.
 * Permite crear una o varias vistas virtuales sobre una conexión de Customer Journey Analytics para que las utilicen distintos equipos empresariales.
 * Puede utilizarse para controlar el acceso a diferentes tipos de datos y depurarlos para diferentes usuarios en Customer Journey Analytics.
 * Proporciona potentes opciones no destructivas para transformar y mejorar los datos que llegan a Customer Journey Analytics a través de una conexión de Customer Journey Analytics.
 * Se basa en las capacidades de procesamiento de tiempo de informes de Customer Journey Analytics.
 * Permite a los usuarios crear una definición personalizada para «sesión».
-* Se aplica durante el tiempo de ejecución del informe, de forma similar a una evaluación de filtro. Esto es _después_ de que el conector de origen (Adobe Analytics u otro) haya escrito datos en un conjunto de datos en el lago de datos de Adobe Experience Platform, y _después_ de que los datos se hayan introducido en Customer Journey Analytics a través de una conexión de Customer Journey Analytics.
+* Se aplica durante el tiempo de ejecución del informe, de forma similar a una evaluación de segmento. Esto es _después_ de que el conector de origen (Adobe Analytics u otro) haya escrito datos en un conjunto de datos en el lago de datos de Adobe Experience Platform, y _después_ de que los datos se hayan introducido en Customer Journey Analytics a través de una conexión de Customer Journey Analytics.
 * Permite un número ilimitado de variables, aunque la depuración puede limitar qué variables están expuestas a los usuarios
 * Permite la asignación de nombres personalizados a los contenedores Evento, Sesión y Persona.
 * Admite opciones de calendario personalizadas.
@@ -70,7 +70,7 @@ Para obtener más información, consulte [información general de las zonas prot
 
 La zona protegida de Adobe Experience Platform realiza lo siguiente:
 
-* Proporciona un medio para dividir una sola instancia de Adobe Experience Platform en entornos virtuales independientes (desarrollo, prueba, etapa, producción, etc.). para ayudar a desarrollar y evolucionar aplicaciones de experiencia digital.
+* Proporciona un medio para dividir una sola instancia de Adobe Experience Platform en entornos virtuales independientes (desarrollo, prueba, fase, producción, etc.) para ayudar a desarrollar y evolucionar aplicaciones de experiencia digital.
 * Se puede considerar como un contenedor de todos los datos y aplicaciones de un entorno determinado.
 
 La zona protegida de Adobe Experience Platform no realiza lo siguiente:

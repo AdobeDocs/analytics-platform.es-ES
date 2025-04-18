@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ Para crear una vista de datos:
 
    Para obtener información detallada sobre las opciones disponibles al añadir componentes a una vista de datos, consulte [Componentes](/help/data-views/create-dataview.md#components) en [Creación o edición de una vista de datos](/help/data-views/create-dataview.md).
 
-1. Seleccione la pestaña [!UICONTROL **Configuración.**] Desde aquí, puede configurar filtros para aplicarlos a toda la vista de datos y configurar el tiempo de espera de la sesión y las métricas.
+1. Seleccione la pestaña [!UICONTROL **Configuración.**] Desde aquí puede configurar segmentos para aplicarlos a toda la vista de datos y configurar métricas y tiempo de espera de sesión.
 
    Para obtener información detallada sobre las opciones disponibles al configurar opciones para una vista de datos, consulte [Configuración](/help/data-views/create-dataview.md#settings) en [Creación o edición de una vista de datos](/help/data-views/create-dataview.md).
 
