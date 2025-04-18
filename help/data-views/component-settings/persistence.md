@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 79%
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="Persistencia"
->abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes que los filtros en el sistema de informes. Para obtener más información consulte [configuración de la asignación](/help/data-views/component-settings/persistence.md#allocation-settings), [configuración de la caducidad](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensión del enlace](/help/data-views/component-settings/persistence.md#binding-dimension) y [métricas de enlace](/help/data-views/component-settings/persistence.md#binding-metric)."
+>abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes de los segmentos en los informes. Para obtener más información consulte [configuración de la asignación](/help/data-views/component-settings/persistence.md#allocation-settings), [configuración de la caducidad](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensión del enlace](/help/data-views/component-settings/persistence.md#binding-dimension) y [métricas de enlace](/help/data-views/component-settings/persistence.md#binding-metric)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,7 +40,7 @@ ht-degree: 79%
 
 * La **caducidad** le permite determinar cuánto tiempo persiste un elemento de dimensión más allá del evento en el que está establecido.
 
-La [!UICONTROL persistencia] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar el filtrado u otras operaciones de análisis.
+La [!UICONTROL persistencia] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar la segmentación u otras operaciones de análisis.
 
 | Configuración | Descripción |
 | --- | --- |
