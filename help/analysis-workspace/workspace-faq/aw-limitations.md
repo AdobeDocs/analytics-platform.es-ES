@@ -4,10 +4,10 @@ title: Limitaciones conocidas en Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 79%
+source-wordcount: '313'
+ht-degree: 73%
 
 ---
 
@@ -18,7 +18,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 ## Tablas
 
 * No se pueden agregar columnas de comparación de fechas cuando se utilizan intervalos de fechas o métricas como filas de una tabla.
-* La creación de métricas a partir de una selección se desactiva cuando los filtros se utilizan como filas de una tabla. Además, la creación de una métrica a partir de una selección no debe aplicarse a columnas alineadas con la fecha.
+* La creación de métricas a partir de una selección se desactiva cuando los segmentos se utilizan como filas de una tabla. Además, la creación de una métrica a partir de una selección no debe aplicarse a columnas alineadas con la fecha.
 * El formato condicional de las filas de desglose no puede utilizar intervalos personalizados.
 * Las filas totales de la tabla no pueden incluir tendencias cuando se calculan los totales sumando la configuración de valores de fila (generalmente se utiliza con elementos de fila estáticos).
 
@@ -28,10 +28,10 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 * [!UICONTROL Flujo]: Las dimensiones de entrada y salida, por ejemplo: [!UICONTROL página de entrada], no se pueden usar en Flujos.
 * [!UICONTROL Cohorte]: Los números no enteros no se pueden usar como criterios de cohorte.
 
-## Filtros
+## Segmentos 
 
 * Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Eventos], [!UICONTROL Personas], etc.
-* Los segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) son un tipo de segmento rápido. Estos no aparecerán en el panel izquierdo de Workspace ni en el administrador de componentes del filtro, a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
+* Los segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) son un tipo de segmento rápido. No aparecen en el panel izquierdo de Workspace ni en el Administrador de segmentos a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
 
 ## Métricas calculadas 
 

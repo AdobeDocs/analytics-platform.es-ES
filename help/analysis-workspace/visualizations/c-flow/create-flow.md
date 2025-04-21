@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -118,7 +118,7 @@ Utilice un menú contextual en cualquier nodo de la visualización de flujo con 
 |--- |--- |
 | **[!UICONTROL Centrarse en este nodo]** | Cambia el interés al nodo seleccionado. El nodo de interés aparece en el centro del diagrama de flujo. |
 | **[!UICONTROL Volver a empezar]** | Le hace regresar al generador de diagramas de forma libre, donde puede crear un nuevo diagrama de flujo. |
-| **[!UICONTROL Crear un filtro para esta ruta]** | Crear un filtro. Esta selección le lleva al Generador de filtros, donde puede configurar el nuevo filtro. |
+| **[!UICONTROL Crear un segmento para esta ruta]** | Creación de segmentos. Esta selección le lleva al Generador de segmentos, donde puede configurar el nuevo segmento. |
 | **[!UICONTROL Desglose]** | Desglosa el nodo mediante las dimensiones, métricas o tiempo disponibles. |
 | **[!UICONTROL Filtrar columna]** | Aparecerán las mismas opciones de filtro que están disponibles en la tabla de forma libre. Para obtener más información acerca de las opciones disponibles, consulte la sección &quot;Aplicar un filtro simple o avanzado a una tabla&quot; en [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | **[!UICONTROL Excluir elemento]** o **[!UICONTROL Restaurar elementos excluidos]** | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, seleccione en el menú contextual **[!UICONTROL Restaurar elemento excluido]**. también puede abrir el segmento en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |

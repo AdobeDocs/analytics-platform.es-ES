@@ -5,10 +5,10 @@ title: Exportación de informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: a7bd67894b02174d980a730086f89df97b524356
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2285'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -183,7 +183,7 @@ Las siguientes funciones no son compatibles y se eliminarán automáticamente de
 Los siguientes componentes no son compatibles y Analysis Workspace le pide que los quite de la tabla cuando realice una exportación de tabla completa:
 
 * Métricas calculadas que utilizan funciones básicas o avanzadas en la definición de la métrica (consulte [Funciones básicas](/help/components/calc-metrics/cm-functions.md) y [Funciones avanzadas](/help/components/calc-metrics/cm-adv-functions.md) para obtener más información)
-* Componentes que un administrador ha restringido para que no se exporten (consulte la sección *Filtro en las directivas de gobernanza de datos en vistas de datos* en [Etiquetas y directivas](/help/data-views/data-governance.md) para obtener más información)
+* Componentes que un administrador ha restringido para que no se exporten (consulte la sección *Segmento sobre políticas de control de datos en vistas de datos* en [Etiquetas y políticas](/help/data-views/data-governance.md) para obtener más información)
 * Cualquier dimensión que cumpla todos los criterios siguientes:
    * Se creó a partir de un campo que forma parte de una [matriz de objetos](/help/use-cases/object-arrays.md) (similar a las variables de varios valores en Adobe Analytics)
    * Tiene [habilitada la persistencia](/help/data-views/component-settings/persistence.md)
@@ -197,7 +197,7 @@ Los siguientes componentes no son compatibles y Analysis Workspace le pide que l
    * Métricas calculadas 
    * Métricas
    * Intervalos de fechas
-   * Filtros
+   * Segmentos 
 
 ### Comportamiento de la atribución
 

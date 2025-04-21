@@ -4,7 +4,7 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 004804eace69ec72f824603ec0d7b82470b19041
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '19662'
 ht-degree: 99%
@@ -67,7 +67,7 @@ En la siguiente información se describe cómo acceder a las plantillas y utiliz
    >
    >Para obtener más información sobre las etiquetas de contexto, consulte [Configuración de componentes](/help/data-views/component-settings/overview.md).
 
-   1. Seleccione el icono de filtro.
+   1. Seleccione el icono del segmento.
 
    1. Seleccione **[!UICONTROL No está listo para su uso]** para mostrar las plantillas que requieren componentes adicionales.
 
@@ -106,7 +106,7 @@ Para personalizar una plantilla y guardarla como un proyecto:
 1. Realice una de las siguientes acciones:
 
    * Vea la plantilla.
-   * Puede arrastrar uno o varios filtros a la zona de colocación Filtro en la parte superior. Por ejemplo, arrastre el filtro [!UICONTROL **Clientes móviles**] y vea los resultados.
+   * Puede arrastrar uno o más segmentos a la zona de colocación de Segmento en la parte superior. Por ejemplo, arrastre el segmento [!UICONTROL **Clientes móviles**] y vea los resultados.
    * Para cambiar el intervalo de fecha, vaya al calendario en la parte superior derecha.
    * Añada desgloses de dimensión, arrastre otras métricas y, por lo general, personalice la plantilla según sus necesidades.
 

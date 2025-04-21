@@ -5,16 +5,16 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '985'
 ht-degree: 93%
 
 ---
 
 # Información general sobre Customer Journey Analytics
 
-Customer Journey Analytics es una solución de análisis de próxima generación que le permite utilizar la potencia de Analysis Workspace con los datos de Adobe Experience Platform. Puede desglosar, segmentar, consultar y visualizar datos de años, y se combina con la capacidad de Platform de albergar todo tipo de esquemas y tipos de datos. Con el **Experience Data Model (XDM)**, los datos se pueden representar y organizar de forma uniforme, listos para la combinación y exploración. **El servicio de consulta de Adobe Experience Platform** le permite usar herramientas y marcos compatibles con SQL para hacer consultas y manipular todos los datos.
+Customer Journey Analytics es una solución de análisis de próxima generación que le permite utilizar la potencia de Analysis Workspace con los datos de Adobe Experience Platform. Puede desglosar, segmentar, consultar y visualizar datos de años, y se combina con la capacidad de Platform de albergar todo tipo de esquemas y tipos de datos. Con el **Modelo de datos de experiencia (XDM)**, los datos se pueden representar y organizar de forma uniforme, listos para la combinación y exploración. **El servicio de consulta de Adobe Experience Platform** le permite usar herramientas y marcos compatibles con SQL para hacer consultas y manipular todos los datos.
 
 La arquitectura de Customer Journey Analytics de alto nivel se muestra aquí:
 
@@ -70,7 +70,6 @@ Consulte [Control de acceso](/help/technotes/access-control.md).
 
 Se ha cambiado el nombre de varias funciones de Customer Journey Analytics, en comparación con la versión clásica de Adobe Analytics, para que se ajusten a los estándares del sector. Algunos términos actualizados incluyen lo siguiente:
 
-* Los segmentos ahora se conocen como “Filtros”.
 * Los grupos de informes virtuales ahora se conocen como &#39;Vistas de datos&#39;.
 * Las clasificaciones ahora se conocen como “Conjuntos de datos de búsqueda”.
 * Los atributos del cliente ahora se conocen como “Conjuntos de datos de perfil”.

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '3796'
 ht-degree: 30%
@@ -60,7 +60,7 @@ Las opciones de comparación de tiempo disponibles incluyen el periodo anterior,
 *Este vídeo muestra la funcionalidad mediante Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las diferencias de terminología entre Adobe Analytics y Customer Journey Analytics (por ejemplo, &quot;visitas&quot; y &quot;sesiones&quot;).*
 
 
-## Panel Segmentos {#filterspanel}
+## Panel Filtro {#filterspanel}
 
 1. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesitas más espacio para la lista Filtros, puedes seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
 1. Seleccione filtros de cualquiera de las secciones de filtros disponibles.

@@ -4,10 +4,10 @@ description: Interacción con elementos de dimensión dinámicos y estáticos en
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 44%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,9 @@ Los elementos de dimensión dinámicos cambian con el tiempo y dependen de la m�
 
 Cuando se coloca una dimensión en una tabla de forma libre, se devuelven filas dinámicas. Las filas dinámicas representan los elementos principales que corresponden a la dimensión de una métrica y un período de tiempo determinados. También puede colocar una dimensión en columnas de tabla de forma libre y esta se expande automáticamente a los 5 elementos de dimensión principales.
 
-Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) vuelven dinámicamente a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
+Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) regresan dinámicamente a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
 
-Los elementos de dimensión dinámicos tienen la opción de filtro de fila ![Filter](/help/assets/icons/Filter.svg) y ![Close](/help/assets/icons/Close.svg), y **not** tienen un bloqueo ![LockClosed](/help/assets/icons/LockClosed.svg). <!--do they have the lock icon? --> Al hacer clic en ![Cerrar](/help/assets/icons/Close.svg) junto a un elemento de dimensión dinámica, se aplica automáticamente un filtro. Para obtener más información sobre cómo aplicar filtros a las tablas, vea [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Los elementos de dimensión dinámica tienen la opción de filtro de fila ![Filtro](/help/assets/icons/Filter.svg) y un ![Cierre](/help/assets/icons/Close.svg), y **no** tienen un bloqueo ![BloqueoCerrado](/help/assets/icons/LockClosed.svg) presente. <!--do they have the lock icon? --> Al hacer clic en ![Cerrar](/help/assets/icons/Close.svg) junto a un elemento de dimensión dinámica, se aplica automáticamente un filtro. Para obtener más información sobre cómo aplicar filtros a las tablas, consulte [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
 ![Una tabla de forma libre que resalta el icono de filtro.](assets/dynamic-items.png)
@@ -32,21 +32,21 @@ Los elementos de dimensión dinámicos tienen la opción de filtro de fila ![Fil
 
 Los elementos de dimensión estáticos no cambian con el tiempo; son componentes fijos que siempre se devuelven en una tabla de forma libre. Se prefieren los elementos de dimensión estáticos cuando se desea analizar siempre el mismo elemento, ya sean campañas específicas o días específicos de la semana.
 
-Cada vez que selecciona y suelta manualmente valores de componente específicos (dimensión, métrica, filtro, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas.
+Cada vez que selecciona y suelta manualmente valores de componente específicos (dimensión, métrica, segmento, intervalo de fechas) en una tabla, el resultado es una lista estática de filas o columnas.
 
 Por ejemplo, cuando arrastra elementos específicos de Tipo de explorador como Microsoft y Apple, esos dos elementos específicos siempre se arrastran a la tabla.
 
 También se pueden crear elementos de dimensión estáticos si elige seleccionar **[!UICONTROL Mostrar solo las filas seleccionadas]** en el menú contextual para las filas seleccionadas.
 
-Los elementos de dimensión estáticos **no** tienen la opción de filtro de fila. En su lugar, hay ![LockClosed](/help/assets/icons/LockClosed.svg) y ![Close](/help/assets/icons/Close.svg) presentes en cada elemento. Seleccione ![Cerrar](/help/assets/icons/Close.svg) para eliminar ese elemento de dimensión de la tabla.
+Los elementos de dimensión estáticos **no** tienen la opción de filtro de fila. En su lugar, aparecen un ![BloqueoCerrado](/help/assets/icons/LockClosed.svg) y un ![Cerrar](/help/assets/icons/Close.svg) en cada elemento. Seleccione ![Cerrar](/help/assets/icons/Close.svg) para eliminar ese elemento de dimensión de la tabla.
 
 ![Una tabla de forma libre que muestra el tipo de explorador y la fila de Microsoft con un icono de candado. Nota: este elemento de dimensión es estático y no cambiará con el tiempo.](assets/static-items.png)
 
 ## Elementos de dimensión mixtos
 
-Los elementos de dimensión de diferentes dimensiones se pueden agregar a la misma tabla. El encabezado de fila indica **[!UICONTROL Dimension mixtos]** en estos casos. Estos elementos de dimensión son estáticos. Por ejemplo, si agrega elementos de dimensión específicos desde la dimensión Grupo de exploradores y otros elementos de dimensión desde la dimensión Nombre de explorador.
+Los elementos de dimensión de diferentes dimensiones se pueden agregar a la misma tabla. En estos casos, el encabezado de fila indica **[!UICONTROL Dimensiones mixtas]**. Estos elementos de dimensión son estáticos. Por ejemplo, si añade elementos de dimensión específicos desde la dimensión Grupo del explorador y otros elementos de dimensión desde la dimensión Nombre del explorador.
 
-![Una tabla de forma libre que resalta la columna Dimension mixtos.](assets/mixed-dimensions.png)
+![Una tabla de forma libre que resalta la columna Dimensiones mixtas.](assets/mixed-dimensions.png)
 
 ## Filas totales improvisadas
 

@@ -4,7 +4,7 @@ title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 305ae20c48ddf0f2032b8f92a016eb92427016ed
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 97%
@@ -136,26 +136,26 @@ Selecciona **[!UICONTROL Aplicar a todos los paneles]** para aplicar el interval
 
 La zona de colocación del panel permite aplicar segmentos y segmentos desplegables a todas las tablas y visualizaciones de un panel. Puede aplicar uno o varios segmentos a un panel.
 
-### Filtros
+### Segmentos 
 
-Arrastre y suelte cualquier segmento del panel izquierdo en la zona de colocación del panel para empezar a segmentar el panel. Repita este proceso para añadir segmentos adicionales al panel. Los filtros aparecen uno al lado del otro en la parte superior del panel.
+Arrastre y suelte cualquier segmento del panel izquierdo en la zona de colocación del panel para empezar a segmentar el panel. Repita este proceso para añadir segmentos adicionales al panel. Los segmentos aparecen uno al lado del otro en la parte superior del panel.
 
 ![El panel izquierdo muestra las métricas disponibles y la métrica Cliente móvil arrastrada a la zona de colocación del panel.](assets/segment-filter.png)
 
 #### Segmentos rápidos
 
-Los componentes que no son segmentos también pueden arrastrarse directamente a la zona de colocación para crear segmentos rápidos, lo que le ahorrará el tiempo y el esfuerzo de ir al [Generador de segmentos](/help/components/filters/filter-builder.md). Los filtros creados de esta manera se definen automáticamente como segmentos de nivel de evento. Esta definición puede modificarse rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del segmento.
+Los componentes que no son segmentos también pueden arrastrarse directamente a la zona de colocación para crear segmentos rápidos, lo que le ahorrará el tiempo y el esfuerzo de ir al [Generador de segmentos](/help/components/filters/filter-builder.md). Los segmentos creados de este modo se definen automáticamente como segmentos de nivel de evento. Esta definición puede modificarse rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del segmento.
 
 
 Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
 
 ![Segmentos ad hoc que se hacen públicos y se colocan en la zona de colocación](assets/adhoc-segment-filter.png)
 
-### Filtros desplegables
+### Segmentos desplegables
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

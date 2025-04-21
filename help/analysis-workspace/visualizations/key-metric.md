@@ -4,10 +4,10 @@ title: Resumen de métricas clave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 
 1. Añada una visualización ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Resumen de métricas clave]**. Consulte [Añadir una visualización a un panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
-1. Configure la visualización seleccionando una **[!UICONTROL Métrica]**, un **[!UICONTROL Intervalo de fechas principal]**, un **[!UICONTROL Intervalo de fechas de comparación]** (opcional) y un **[!UICONTROL Filtro]** (opcional):
+1. Configure la visualización seleccionando una **[!UICONTROL Métrica]**, un **[!UICONTROL Intervalo de fechas principal]**, un **[!UICONTROL Intervalo de fechas de comparación]** (opcional) y un **[!UICONTROL Segmento]** (opcional):
 
    ![Configuración de la métrica clave mostrando las opciones de métrica, intervalo de fechas principal, intervalo de fechas de comparación y segmento.](assets/key-metrics-config.png)
 
@@ -61,7 +61,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
    | **[!UICONTROL Métrica]** | Seleccione la métrica que desea examinar. Todas las métricas son compatibles. |
    | **[!UICONTROL Intervalo de fechas principal]** | El intervalo de fechas actual para la tabla de forma libre.<p>Elija entre cualquier intervalo de fechas disponible en la vista de datos.</p> <p>Elija [!UICONTROL **Intervalo de fechas del panel**] si desea utilizar el mismo intervalo de fechas que se está utilizando en el panel en el que se encuentra la visualización.</p> |
    | **[!UICONTROL Intervalo de fechas de comparación]** | El intervalo de fechas con el que se desea comparar el intervalo de fechas principal. |
-   | **[!UICONTROL Filtro (opcional)]** | Cualquier segmento que le interese para este resumen. |
+   | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese para este resumen. |
 
    {style="table-layout:auto"}
 

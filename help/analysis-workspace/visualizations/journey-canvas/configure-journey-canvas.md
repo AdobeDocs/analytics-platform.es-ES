@@ -1,10 +1,10 @@
 ---
 description: Configuración de una visualización de lienzo de recorrido
-title: 'Lienzo del recorrido '
+title: 'Lienzo de recorrido '
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '6225'
 ht-degree: 1%
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 La visualización del lienzo de Recorrido le permite analizar y obtener perspectivas profundas sobre los recorridos que proporciona a sus usuarios y clientes.
 
-![lienzo de Recorrido](assets/journey-canvas.png)
+![Lienzo de recorrido](assets/journey-canvas.png)
 
-## Información general del lienzo de recorrido
+## Información general sobre el lienzo de recorrido
 
 Consulte [descripción general del lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) para obtener más información sobre el lienzo de Recorrido, incluyendo:
 
 * Funciones principales
 
-* Perspectivas potenciales
+* Información potencial
 
 * Diferencias entre el lienzo de Recorrido y las visitas en orden previsto
 
@@ -35,7 +35,7 @@ Consulte [descripción general del lienzo de Recorrido](/help/analysis-workspace
 
 1. Agregue un panel en blanco al proyecto, seleccione el icono [!UICONTROL **Visualizaciones**] en el carril izquierdo y, a continuación, arrastre la visualización ![GraphPathing](/help/assets/icons/Branch3.svg) [!UICONTROL **lienzo de Recorrido**] al panel.
 
-   O
+   O bien
 
    Agregue una visualización de lienzo de Recorrido de cualquiera de las formas descritas en la sección [Agregar visualizaciones a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) de [Información general sobre visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
@@ -118,9 +118,9 @@ Los nodos se crean de las siguientes maneras: arrastrando componentes de Workspa
    | Elemento de dimensión | Área en blanco del lienzo | El nodo muestra dónde se colocó el componente, sin conexión con ningún nodo existente. |
    | Elemento de dimensión | Un nodo existente | El componente se combina automáticamente con el nodo existente. |
    | Elemento de dimensión | Una flecha que conecta 2 nodos existentes | El nodo se muestra entre los dos nodos existentes donde se colocó el componente y está conectado a ambos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p> |
-   | Filtro | Área en blanco del lienzo | El nodo muestra dónde se colocó el componente sin estar conectado con ningún otro nodo.<p>El número y el porcentaje que aparecen en el nodo incluyen el total de la métrica principal, segmentada por el segmento seleccionado.</p> <p>Por ejemplo, si se selecciona Personas como métrica principal para el recorrido y luego se agrega un segmento de Hoy a un área en blanco del lienzo, se muestran todas las personas que tuvieron un evento hoy.</p> |
-   | Filtro | Un nodo existente | Aplica el segmento al nodo existente. |
-   | Filtro | Una flecha que conecta 2 nodos | El nodo se muestra entre los dos nodos existentes donde se colocó el componente y está conectado a ambos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p><p>Aplica el segmento al punto de la ruta en el que se soltó el componente.</p> |
+   | Segmento | Área en blanco del lienzo | El nodo muestra dónde se colocó el componente sin estar conectado con ningún otro nodo.<p>El número y el porcentaje que aparecen en el nodo incluyen el total de la métrica principal, segmentada por el segmento seleccionado.</p> <p>Por ejemplo, si se selecciona Personas como métrica principal para el recorrido y luego se agrega un segmento de Hoy a un área en blanco del lienzo, se muestran todas las personas que tuvieron un evento hoy.</p> |
+   | Segmento | Un nodo existente | Aplica el segmento al nodo existente. |
+   | Segmento | Una flecha que conecta 2 nodos | El nodo se muestra entre los dos nodos existentes donde se colocó el componente y está conectado a ambos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p><p>Aplica el segmento al punto de la ruta en el que se soltó el componente.</p> |
    | Intervalo de fechas | Área en blanco del lienzo | El nodo muestra dónde se colocó el componente, sin conexión con ningún otro nodo.<p>El número y el porcentaje que aparecen en el nodo incluyen el total de la métrica principal, segmentado por el intervalo de fechas seleccionado.</p> <p>Por ejemplo, si se selecciona Personas como métrica principal para el recorrido y, a continuación, se agrega un intervalo de fechas de Este mes a un área en blanco del lienzo para mostrar todas las personas que tuvieron un evento durante el mes actual.</p> |
    | Intervalo de fechas | Un nodo existente | Aplica el intervalo de fechas al nodo existente. |
    | Intervalo de fechas | Una flecha que conecta 2 nodos | El nodo se muestra entre los dos nodos existentes donde se colocó el componente y está conectado a ambos nodos existentes. (Consulte [Conectar nodos](#connect-nodes) para obtener más información).</p><p>Aplica el intervalo de fechas al punto de la ruta en el que se soltó el componente.</p> |
@@ -274,10 +274,10 @@ La lógica que se aplica a los nodos cuando se combinan difiere según los tipos
 | Métrica + Métrica | Unido con OR |
 | Elemento de Dimension + elemento de Dimension (de la misma dimensión principal) | Unido con OR |
 | Elemento de Dimension + elemento de Dimension (de diferentes dimensiones principales) | Unido con AND |
-| Filtro + Filtro | Unido con AND |
-| Dimension + Métrica, Intervalo de fecha o Filtro | Unido con AND |
-| Intervalo de fechas + Métrica, Filtro o Dimension | Unido con AND |
-| Filtro + Métrica, Intervalo de fecha o Dimension | Unido con AND |
+| Segmento + Segmento | Unido con AND |
+| Dimension + Métrica, Intervalo de fecha o Segmento | Unido con AND |
+| Intervalo de fechas + Métrica, Segmento o Dimension | Unido con AND |
+| Segmento + Métrica, Intervalo de fecha o Dimension | Unido con AND |
 
 ### Conectar nodos
 
@@ -450,7 +450,7 @@ Al aplicar un desglose, tenga en cuenta lo siguiente:
 
 1. En una visualización del lienzo del Recorrido, seleccione uno o varios nodos en los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
-   O
+   O bien
 
    En una visualización de lienzo de Recorrido, seleccione una o más flechas entre 2 nodos donde desee aplicar el desglose y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
 
@@ -502,7 +502,7 @@ Para crear una audiencia:
 
 1. En una visualización del lienzo de Recorrido, seleccione uno o varios nodos en los que desee crear una audiencia y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
-   O
+   O bien
 
    En una visualización de lienzo de Recorrido, seleccione una o más flechas entre 2 nodos donde desee crear una audiencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
 
@@ -534,7 +534,7 @@ Para ver datos de tendencia:
 
 1. En una visualización de lienzo de Recorrido, seleccione uno o varios nodos para los que desee ver datos de tendencia y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
-   O
+   O bien
 
    En una visualización de lienzo de Recorrido, seleccione una o más flechas entre 2 nodos para los que desee ver datos de tendencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
 
@@ -546,7 +546,7 @@ Para ver datos de tendencia:
 
 Puede crear un nuevo segmento basado en un nodo o una flecha dentro de un recorrido. Una vez creado el segmento, puede utilizarlo en cualquier lugar de Analysis Workspace.
 
-Los filtros creados a partir del lienzo de Recorrido utilizan [segmentación secuencial](/help/components/filters/seg-sequential-build.md). Esto significa que el segmento utiliza el operador THEN para vincular la secuencia de eventos (el recorrido) por los que fluyeron las personas, hasta el nodo o la flecha seleccionados. Todos los eventos que coinciden con el nodo o la flecha seleccionados se incluyen en el segmento.
+Los segmentos creados a partir del lienzo de Recorrido utilizan [segmentación secuencial](/help/components/filters/seg-sequential-build.md). Esto significa que el segmento utiliza el operador THEN para vincular la secuencia de eventos (el recorrido) por los que fluyeron las personas, hasta el nodo o la flecha seleccionados. Todos los eventos que coinciden con el nodo o la flecha seleccionados se incluyen en el segmento.
 
 Si crea un segmento basado en un nodo que tiene varias rutas que fluyen a él, todas las rutas se incluyen en el segmento. Las rutas independientes se unen con el operador OR.
 
@@ -556,9 +556,9 @@ Para crear un segmento:
 
 1. Seleccione [!UICONTROL **Crear segmento desde el nodo**] o [!UICONTROL **Crear segmento desde la flecha**].
 
-   Se muestra el Generador de filtros. En la sección [!UICONTROL **Definición**], la definición del segmento se crea en función del nodo o la flecha que seleccionó y su contexto dentro del recorrido.
+   Se muestra el Generador de segmentos. En la sección [!UICONTROL **Definición**], la definición del segmento se crea en función del nodo o la flecha que seleccionó y su contexto dentro del recorrido.
 
-1. Especifique un título para el segmento y realice cualquier otro cambio. Para obtener más información sobre cómo crear un segmento, consulte [Generador de filtros](/help/components/filters/filter-builder.md).
+1. Especifique un título para el segmento y realice cualquier otro cambio. Para obtener más información sobre cómo crear un segmento, consulte [Generador de segmentos](/help/components/filters/filter-builder.md).
 
 1. Seleccione [!UICONTROL **Guardar**] para guardar el segmento.
 
