@@ -32,7 +32,7 @@ Siga estos pasos para configurar CMK para Customer Journey Analytics que se ejec
 
 1. El Servicio de atención al cliente de Adobe confirma la finalización de la aplicación CMK en sus datos de Customer Journey Analytics.
 
-Todos los datos que utiliza Platform se cifran en tránsito y en reposo para mantener sus datos seguros, con o sin claves administradas por el cliente. Para obtener información sobre el cifrado de Adobe Experience Platform, consulte [Cifrado de datos en Adobe Experience Platform](ttps://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/encryption).
+Todos los datos que utiliza Platform se cifran en tránsito y en reposo para mantener sus datos seguros, con o sin claves administradas por el cliente. Para obtener información sobre el cifrado de Adobe Experience Platform, consulte [Cifrado de datos en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/encryption).
 
 ## Configuración de claves administradas por el cliente para Customer Journey Analytics en Amazon Web Service
 
