@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 11e6d5a2aace4554b48c05c2316061de1e628108
+exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
+source-git-commit: ca619cfd0c4f4329c7069e387b5b4d919a53e9fb
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -24,6 +25,10 @@ Los comentarios en Analysis Workspace le permiten compartir perspectivas y hacer
 >* **Organización:** El administrador de Customer Journey Analytics puede deshabilitar esta funcionalidad para la organización, tal como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md).
 
 ## Ver comentarios
+
+Puede ver los comentarios desde el área de comentarios en el carril derecho o desde el distintivo de comentario, si existe.
+
+![Ver comentarios en Analysis Workspace](assets/workspace-comments-view.png)
 
 ### Ver comentarios en el área de comentarios
 
@@ -61,6 +66,12 @@ Para realizar comentarios en un área específica del proyecto (como un valor de
 
 1. Con el proyecto abierto en Analysis Workspace, haga clic con el botón derecho en el área del proyecto en la que desee insertar el comentario.
 
+   Todas las visualizaciones admiten insignias de comentario en el encabezado de la visualización, pero solo las siguientes visualizaciones admiten insignias de comentario en puntos de datos específicos dentro de la visualización:
+
+   * Tabla de forma libre
+   * Tabla de cohortes
+   * Línea
+
    <!--add screenshot-->
 
 1. Seleccione **[!UICONTROL Agregar comentario]**.
@@ -97,6 +108,8 @@ La función de comentarios de Analysis Workspace facilita la colaboración con o
 
 1. Escriba el símbolo @ y, a continuación, empiece a escribir el nombre, los apellidos o la dirección de correo electrónico de la persona que desea incluir.
 
+   ![usuario de etiqueta](assets/comments-tag-user.png)
+
 1. Seleccione el nombre de la persona cuando aparezca en el menú desplegable.
 
 Tenga en cuenta lo siguiente al utilizar el símbolo @ para incluir a las personas en un comentario:
@@ -111,7 +124,7 @@ Tenga en cuenta lo siguiente al utilizar el símbolo @ para incluir a las person
 
 1. Seleccione **[!UICONTROL Responder]** junto al comentario al que desea responder.
 
-   O
+   O bien
 
    Si desea que la respuesta incluya el texto del comentario al que está respondiendo, con el texto original escrito con una etiqueta de comillas, seleccione el icono de 3 puntos junto al comentario o la respuesta específicos a los que desea responder y, a continuación, seleccione **[!UICONTROL Respuesta de cita]**. Una respuesta de cita es una buena manera de indicar claramente el comentario o la respuesta a la que se refiere su comentario.
 
@@ -122,6 +135,38 @@ Tenga en cuenta lo siguiente al utilizar el símbolo @ para incluir a las person
 1. (Opcional) Notifique a otra persona su comentario escribiendo el símbolo @ seguido del nombre. Para obtener más información sobre cómo usar el símbolo @ para notificar a otros usuarios, vea [Incluir a otros en un comentario](#include-others-in-a-comment).
 
 1. Seleccione **[!UICONTROL Enviar]**.
+
+## Colocar una insignia para un comentario existente
+
+Si un comentario está disponible en el área de comentarios en el carril derecho pero aún no tiene un distintivo en el proyecto, puede añadir el distintivo.
+
+1. Con el proyecto abierto en Analysis Workspace, seleccione el icono del área de comentarios ![icono del área de comentarios](assets/comments-area-icon.png) en el carril derecho de Analysis Workspace.
+
+1. Seleccione el icono de más ![comment-more-icon](assets/comment-more-icon.png) junto al comentario para el que desea colocar una insignia y, a continuación, seleccione **[!UICONTROL Colocar insignia]**.
+
+1. Seleccione el área del proyecto en la que desea colocar el distintivo del comentario existente.
+
+   Se ha colocado una insignia de **comentario** ![insignia de comentario](assets/comment-indicator.png) en el área del proyecto de Workspace que seleccionó. El comentario también aparece en la parte superior del área de comentarios en el carril derecho.
+
+   Vea [Ver distintivos de comentarios en un proyecto](#view-comment-badges-in-a-project) para obtener más información.
+
+Para quitar una insignia:
+
+1. Seleccione la insignia que desee quitar y, a continuación, seleccione **[!UICONTROL Quitar insignia]**.
+
+   El distintivo se elimina, pero el comentario sigue estando disponible en el área de comentarios del carril derecho.
+
+## Mover una insignia de un comentario existente
+
+Puede mover un distintivo de comentario que ya se haya colocado para un comentario existente.
+
+1. Con el proyecto abierto en Analysis Workspace, busque el distintivo del comentario que desea mover.
+
+1. Haga clic con el botón derecho en el distintivo y, a continuación, seleccione **[!UICONTROL Mover ubicación]**.
+
+1. Seleccione el área del proyecto en la que desea colocar el distintivo.
+
+<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
 
 ## Copiar el vínculo a un comentario
 
@@ -182,36 +227,3 @@ Para resolver un comentario:
 De forma predeterminada, los comentarios resueltos se ocultan en el área de comentarios. Para mostrar los comentarios resueltos:
 
 1. Seleccione el icono de filtro en el área de comentarios y, a continuación, deseleccione la opción **[!UICONTROL Ocultar comentarios resueltos]**.
-
-## Colocar una insignia para un comentario existente
-
-Si un comentario está disponible en el área de comentarios en el carril derecho pero aún no tiene un distintivo en el proyecto, puede añadir el distintivo.
-
-1. Con el proyecto abierto en Analysis Workspace, seleccione el icono del área de comentarios ![icono del área de comentarios](assets/comments-area-icon.png) en el carril derecho de Analysis Workspace.
-
-1. Seleccione el icono de más ![comment-more-icon](assets/comment-more-icon.png) junto al comentario para el que desea colocar una insignia y, a continuación, seleccione **[!UICONTROL Colocar insignia]**.
-
-1. Seleccione el área del proyecto en la que desea colocar el distintivo del comentario existente.
-
-   Se ha colocado una insignia de **comentario** ![insignia de comentario](assets/comment-indicator.png) en el área del proyecto de Workspace que seleccionó. El comentario también aparece en la parte superior del área de comentarios en el carril derecho.
-
-   Vea [Ver distintivos de comentarios en un proyecto](#view-comment-badges-in-a-project) para obtener más información.
-
-Para quitar una insignia:
-
-1. Seleccione la insignia que desee quitar y, a continuación, seleccione **[!UICONTROL Quitar insignia]**.
-
-   El distintivo se elimina, pero el comentario sigue estando disponible en el área de comentarios del carril derecho.
-
-## Mover una insignia de un comentario existente
-
-Puede mover un distintivo de comentario que ya se haya colocado para un comentario existente.
-
-1. Con el proyecto abierto en Analysis Workspace, busque el distintivo del comentario que desea mover.
-
-1. Haga clic con el botón derecho en el distintivo y, a continuación, seleccione **[!UICONTROL Mover ubicación]**.
-
-1. Seleccione el área del proyecto en la que desea colocar el distintivo.
-
-<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
-
