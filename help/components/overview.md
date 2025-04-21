@@ -5,10 +5,10 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 9393be88ab7320adb5bd046701667f638673af5e
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Para administrar componentes desde la interfaz principal de Customer Journey Ana
 
 Puede administrar los siguientes componentes:
 
-* [Segmentos](filters/filters-overview.md): genera, administra, comparte y aplica a tus informes poderosos segmentos centrados en la audiencia. Los filtros le permiten identificar subconjuntos de personas basándose en sus características o en las interacciones.
+* [Segmentos](filters/filters-overview.md): genera, administra, comparte y aplica a tus informes poderosos segmentos centrados en la audiencia. Los segmentos permiten identificar subconjuntos de personas en función de sus características o interacciones.
 * [Métricas calculadas:](calc-metrics/calc-metr-overview.md) usar las métricas y fórmulas como componentes nuevos para utilizarlas en sistemas de informes
 * [Intervalos de fechas:](date-ranges/create.md) personalice y especifique las ofertas de Analysis Workspace en los intervalos de fechas.
 * [Anotaciones](/help/components/annotations/overview.md): comunicar matices y perspectivas de datos contextuales a su organización.
@@ -84,7 +84,7 @@ Puedes buscar, filtrar y ordenar la lista de componentes en el panel izquierdo d
 
 2. En el campo de búsqueda, empiece a escribir el nombre del componente que desea utilizar en el proyecto.
 
-   Un color y el icono identifican el tipo de componente. Las **dimensiones** ![icono de dimensión](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)son naranjas, los **filtros** ![icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) son azules, los **intervalos de fechas** ![icono de intervalo de fecha](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) son morados y las **métricas** ![icono de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)son verdes.<br/>El icono de Adobe ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) indica una plantilla de métrica calculada o de segmento. El icono de la calculadora ![Icono de la calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una métrica calculada que ha creado un administrador de tu organización.
+   Un color y el icono identifican el tipo de componente. **Dimensiones** ![Icono de Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) son de color naranja, **Segmentos** ![Icono de segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) es de color azul, **Intervalos de fechas** ![Icono de intervalo de fechas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) es de color morado y **Métricas** ![Icono de métricas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) es de color verde.<br/>El icono de Adobe ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) indica una plantilla de métrica calculada o de segmento. El icono de la calculadora ![Icono de la calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una métrica calculada que ha creado un administrador de tu organización.
 
 3. Selecciona la etiqueta que desees en la lista desplegable.
 

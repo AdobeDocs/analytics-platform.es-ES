@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -187,10 +187,10 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Contenedores por filtro | 50 | Protección impuesta por el sistema | Número máximo de contenedores por segmento. |
+| Contenedores por segmento | 50 | Protección impuesta por el sistema | Número máximo de contenedores por segmento. |
 | Métricas por métrica calculada | 25 | Protección impuesta por el sistema | Número máximo de métricas por métrica calculada. |
-| Métricas y dimensiones por filtro | 25 | Protección impuesta por el sistema | Número máximo de métricas y dimensiones únicas por segmento. |
-| Contenedores anidados por filtro | 10 | Protección impuesta por el sistema | Número máximo de contenedores anidados por segmento. |
+| Métricas y dimensiones por segmento | 25 | Protección impuesta por el sistema | Número máximo de métricas y dimensiones únicas por segmento. |
+| Contenedores anidados por segmento | 10 | Protección impuesta por el sistema | Número máximo de contenedores anidados por segmento. |
 | Reglas por segmento | 100 | Protección impuesta por el sistema | Número máximo de reglas por segmento. |
 | Comparaciones de cadenas por Dimension y por segmento | 100 | Protección impuesta por el sistema | Número máximo de comparaciones de cadenas por dimensión por segmento. |
 | Métricas calculadas  | 6.000 | Protección impuesta por el sistema | Número máximo de métricas calculadas para una organización. |

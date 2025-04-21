@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 21%
@@ -124,7 +124,7 @@ La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en [Ad
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a Analysis Workspace] | Permitir que los usuarios tengan acceso a [Analysis Workspace](/help/analysis-workspace/home.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso guiado a análisis] | Permitir que los usuarios tengan acceso a [Análisis guiado](/help/guided-analysis/overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de métricas calculadas] | Permitir que los usuarios creen [métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar, cambiar el nombre, aprobar o desaprobar las métricas calculadas que hayan creado o las métricas calculadas compartidas con ellos. |
-| [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de filtros] | Permitir que los usuarios creen [segmentos](/help/components/filters/filters-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar, cambiar el nombre, aprobar o desaprobar los segmentos que creen o los segmentos compartidos con ellos. |
+| [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de segmentos] | Permitir que los usuarios creen [segmentos](/help/components/filters/filters-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar, cambiar el nombre, aprobar o desaprobar los segmentos que creen o los segmentos compartidos con ellos. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a Labs] | Permita que los usuarios tengan acceso a la ficha [Labs](/help/labs/labs.md) en Customer Journey Analytics. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de anotaciones] | Permitir que los usuarios creen [anotaciones](/help/components/annotations/overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar y cambiar el nombre de las anotaciones que creen o de las anotaciones compartidas con ellos. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Visualización de audiencias] | Permitir que los usuarios vean [audiencias](/help/components/audiences/audiences-overview.md). |

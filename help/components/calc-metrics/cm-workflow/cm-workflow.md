@@ -3,9 +3,9 @@ description: Aprenda a crear métricas calculadas.
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '225'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Sin embargo, los administradores pueden dar permiso a **[!UICONTROL Creación de
 
 Puede crear una métrica calculada de las siguientes maneras:
 
-![Formas de crear un filtro](assets/create-metric.png)
+![Formas de crear una métrica calculada](assets/create-metric.png)
 
 * **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Métricas calculadas]**. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] del administrador de [[!UICONTROL métricas calculadas]](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 * **B**. En un proyecto de Workspace, en el panel izquierdo Componentes, seleccione ![Agregar](/help/assets/icons/Add.svg) en ![Evento](/help/assets/icons/Event.svg) **Métricas**.

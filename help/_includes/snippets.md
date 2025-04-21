@@ -1,8 +1,8 @@
 ---
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: be615a45a68b47f95517992cc4268a887ac1110a
 workflow-type: tm+mt
 source-wordcount: '3796'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 # Fragmentos
@@ -200,8 +200,8 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | **recorridos no lineales con múltiples puntos de entrada y rutas** | Sí | No | Sí |
 | **Métrica principal** | Cualquier métrica, incluidas las métricas calculadas. | Solo sesión o persona | Solo ocurrencias (vistas de ruta) |
 | **Métrica secundaria** | Sí<p>Cualquier métrica, incluidas las métricas calculadas.</p> | No | No |
-| **Compatibilidad con componentes en nodos o puntos de contacto** | Métricas, elementos de dimensión, filtros e intervalos de fechas. | Métricas, elementos de dimensión, filtros e intervalos de fechas. | Solo elementos de dimensión (excepto el punto de contacto inicial y final) |
-| **Comparar filtros** | No | Sí<p>Realice comparaciones paralelas de dos filtros distintos en el mismo informe</p> | No |
+| **Compatibilidad con componentes en nodos o puntos de contacto** | Métricas, elementos de dimensión, segmentos e intervalos de fechas. | Métricas, elementos de dimensión, segmentos e intervalos de fechas. | Solo elementos de dimensión (excepto el punto de contacto inicial y final) |
+| **Comparar segmentos** | No | Sí<p>Realizar comparaciones paralelas de dos segmentos distintos en el mismo informe</p> | No |
 | **Interacción de arrastrar y soltar** | Sí | Sí | No |
 | **recorridos Adobe Journey Optimizer** | Sí</br>Abrir recorridos de Journey Optimizer para un análisis y una personalización más profundos. | No | No |
 

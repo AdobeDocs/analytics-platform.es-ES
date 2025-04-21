@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 47%
@@ -138,7 +138,7 @@ Su configuración requiere la selección de una [vista de datos](/help/data-view
    Puede realizar las siguientes acciones:
 
    * Para buscar una vista de datos específica, usa el campo ![Buscar](/help/assets/icons/Search.svg).
-   * Para segmentar la lista de vistas de datos disponibles, seleccione ![Mostrar segmentos](/help/assets/icons/Filter.svg). Puede segmentar la lista en [!UICONTROL Connection], [!UICONTROL Owner] y [!UICONTROL Sandbox].<br/>Use ![Ocultar](/help/assets/icons/Filter.svg) **[!UICONTROL Ocultar segmentos]** para ocultar el panel de segmentos.
+   * Para segmentar la lista de vistas de datos disponibles, seleccione ![Mostrar segmentos](/help/assets/icons/Filter.svg). Puede filtrar la lista en [!UICONTROL Conexión], [!UICONTROL Propietario] y [!UICONTROL Espacio aislado].<br/>Use ![Ocultar](/help/assets/icons/Filter.svg) **[!UICONTROL Ocultar segmentos]** para ocultar el panel de segmentos.
    * Para definir qué columnas desea mostrar en la tabla, seleccione ![Configuración de columna](/help/assets/icons/ColumnSetting.svg). Seleccione qué columnas desea mostrar en el cuadro de diálogo **[!UICONTROL Personalizar tabla]** y seleccione **[!UICONTROL Aplicar]** para aplicar los cambios.
 
 1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) la vista de datos que desee utilizar.

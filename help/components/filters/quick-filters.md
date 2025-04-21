@@ -4,7 +4,7 @@ title: Segmentos rápidos
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 26%
@@ -97,7 +97,7 @@ El área de condición especifica las condiciones (hasta un máximo de tres). Pa
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Solo está disponible cuando se define más de una condición. Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) entre las condiciones. La selección determina la lógica booleana para el segmento rápido. No se puede mezclar lógica cuando se tienen tres condiciones. La lógica booleana es **[!UICONTROL AND]** o **[!UICONTROL OR]**. |
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | Añade otra condición al segmento rápido. Este botón solo está disponible cuando ha definido una o dos condiciones para el segmento rápido. |
 | **[!UICONTROL Aplicar]** | Aplique los cambios al segmento rápido. |
-| **[!UICONTROL Abrir creador]** | Se le solicitará confirmación con un cuadro de diálogo **[!UICONTROL ¿Está seguro?]**. Si seleccionas **[!UICONTROL Aceptar]**, ya no podrás modificar tu segmento en el [Generador de segmentos rápidos](#quick-filter-builder). Se ha cambiado el nombre de tu segmento rápido a **[!UICONTROL Segmento]** y ahora tiene una barra izquierda delgada de color azul más oscuro.<br/>Se abre el generador de segmentos [normal](filter-builder.md) con la opción de **[!UICONTROL Poner este segmento a disposición de todos los proyectos y agregarlo a la lista de componentes]**. <ul><li>Si selecciona esta opción y selecciona **[!UICONTROL Aplicar]**, el segmento se agrega a la lista de componentes ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filtros]** del panel de componentes.</li><li>Si no selecciona esta opción y selecciona **[!UICONTROL Aplicar]**, el segmento sigue siendo un segmento solo de proyecto de Workspace.</li></ul> |
+| **[!UICONTROL Abrir creador]** | Se le solicitará confirmación con un cuadro de diálogo **[!UICONTROL ¿Está seguro?]**. Si seleccionas **[!UICONTROL Aceptar]**, ya no podrás modificar tu segmento en el [Generador de segmentos rápidos](#quick-filter-builder). Se ha cambiado el nombre de tu segmento rápido a **[!UICONTROL Segmento]** y ahora tiene una barra izquierda delgada de color azul más oscuro.<br/>Se abre el generador de segmentos [normal](filter-builder.md) con la opción de **[!UICONTROL Poner este segmento a disposición de todos los proyectos y agregarlo a la lista de componentes]**. <ul><li>Si selecciona esta opción y selecciona **[!UICONTROL Aplicar]**, el segmento se agrega a la lista de componentes ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** en el panel de componentes.</li><li>Si no selecciona esta opción y selecciona **[!UICONTROL Aplicar]**, el segmento sigue siendo un segmento solo de proyecto de Workspace.</li></ul> |
 | **[!UICONTROL Cancelar]** | Seleccione para cancelar la creación o edición de un segmento rápido. |
 
 ## Segmentos rápidos en comparación con segmentos

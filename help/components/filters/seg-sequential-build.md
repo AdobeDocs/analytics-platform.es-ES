@@ -3,7 +3,7 @@ description: Los segmentos secuenciales son segmentos que utilizan el operador T
 title: Segmentos secuenciales
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '2459'
 ht-degree: 4%
@@ -43,7 +43,7 @@ Un segmento secuencial tiene [funcionalidad básica](#basics) y opciones adicion
 
 
 
-Los conceptos básicos para crear un segmento secuencial no son diferentes a crear un segmento normal con el [Generador de segmentos](filter-builder.md). Puede usar el [generador de definiciones](filter-builder.md#definition-builder) para crear su definición de segmento. En esa construcción, se utilizan componentes, contenedores, operadores y lógica. Un segmento normal se convierte en un filtro secuencial en cuanto se selecciona el operador **[!UICONTROL Then]** en la definición principal o en cualquiera de los contenedores que se usan en el [generador de definiciones](filter-builder.md#definition-builder).
+Los conceptos básicos para crear un segmento secuencial no son diferentes a crear un segmento normal con el [Generador de segmentos](filter-builder.md). Puede usar el [generador de definiciones](filter-builder.md#definition-builder) para crear su definición de segmento. En esa construcción, se utilizan componentes, contenedores, operadores y lógica. Un segmento normal se convierte en un segmento secuencial en cuanto se selecciona el operador **[!UICONTROL Then]** en la definición principal o en cualquiera de los contenedores que se usan en el [generador de definiciones](filter-builder.md#definition-builder).
 
 ### Ejemplos
 

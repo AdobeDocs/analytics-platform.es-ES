@@ -6,7 +6,7 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 60%
@@ -21,7 +21,7 @@ Puede desglosar los datos ilimitadamente para sus necesidades específicas; crea
 
    ![Resultado del paso que muestra la selección de Crear alerta a partir de la selección.](assets/breakdown.png)
 
-1. En el submenú, seleccione **[!UICONTROL Dimensiones]**, **[!UICONTROL Métricas]**, **[!UICONTROL Filtros]** o **[!UICONTROL Intervalos de fechas]** y, a continuación, seleccione un elemento.
+1. En el submenú, seleccione **[!UICONTROL Dimensiones]**, **[!UICONTROL Métricas]**, **[!UICONTROL Segmentos]** o **[!UICONTROL Intervalos de fechas]** y, a continuación, seleccione un elemento.
 
 Puede desglosar métricas por elementos de dimensión o segmentos de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 

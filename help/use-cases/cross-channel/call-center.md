@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 88%
@@ -73,7 +73,7 @@ Esta visualización le ayuda a conocer el rendimiento de AEC a la hora de vincul
    * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del sitio web
    * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del centro de llamadas
 2. En Analysis Workspace, arrastre una visualización [Venn](/help/analysis-workspace/visualizations/venn.md) al lienzo del área de trabajo.
-3. Arrastre los dos segmentos recién creados al área **[!UICONTROL Agregar filtro]** y la métrica Personas al área **[!UICONTROL Agregar métrica]**.
+3. Arrastre los dos segmentos recién creados al área **[!UICONTROL Agregar segmento]** y la métrica Personas al área **[!UICONTROL Agregar métrica]**.
 
 La visualización Venn resultante muestra el número de personas del conjunto de datos que contienen datos del sitio web y del centro de llamadas. Cuanto mayor sea la superposición, más personas se habrán vinculado correctamente. Las áreas que no se superponen representan a las personas que residen exclusivamente en un conjunto de datos u otro.
 

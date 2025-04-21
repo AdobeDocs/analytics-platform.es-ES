@@ -4,7 +4,7 @@ description: Determine cómo interactúa un componente con un valor dentro de un
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 54%
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 # Operadores
 
-El Generador de filtros le permite comparar y restringir valores para componentes utilizando los operadores seleccionados. Existen dos categorías de operadores: [[!UICONTROL Estándar]](#standard-operators) y [[!UICONTROL Recuento específico]](#distinct-count-operators).
+El Generador de segmentos le permite comparar y restringir valores para componentes utilizando los operadores seleccionados. Existen dos categorías de operadores: [[!UICONTROL Estándar]](#standard-operators) y [[!UICONTROL Recuento específico]](#distinct-count-operators).
 
 ## Operadores estándar
 

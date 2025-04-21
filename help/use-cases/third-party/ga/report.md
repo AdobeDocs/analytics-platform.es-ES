@@ -5,10 +5,10 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: fef935eb7692ffb2dade28cb6a7c3d408bcac1c3
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -56,9 +56,9 @@ Con una métrica calculada, puede aplicar esa atribución a los ingresos de la w
 
 ![Métrica calculada](../../assets/calc-metric.png)
 
-Attribution IQ también le permite filtrar sus datos. Solo se puede ver la atribución en determinados conjuntos de usuarios, como aquellos que utilizan más de un dispositivo.
+Attribution IQ también le permite segmentar los datos. Solo se puede ver la atribución en determinados conjuntos de usuarios, como aquellos que utilizan más de un dispositivo.
 
-![Filtro](../../assets/filter.png)
+![Segmento](../../assets/filter.png)
 
 También puede atribuir los ingresos de su aplicación y web al contenido de Google Ads. El ejemplo de este conjunto de datos obtuvo más ingresos gracias a la aplicación móvil impulsada por Google Ads en línea que por la web. Al ordenar los anuncios por ingresos de aplicaciones y web, se obtiene una imagen diferente de cuáles fueron los anuncios de Google con mayor rendimiento.
 

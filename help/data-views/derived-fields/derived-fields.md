@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '8844'
 ht-degree: 99%
@@ -643,7 +643,7 @@ Debe definir un campo derivado `Trip Duration (bucketed)`. Debe crear la siguien
 
 ## Más información {#casewhen-more-info}
 
-Customer Journey Analytics utiliza una estructura de contenedor anidada, siguiendo el modelo de Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) (modelo de datos de experiencia). Consulte [Contenedores](../create-dataview.md#containers) y [Contenedores de filtros](../../components/filters/filters-overview.md#filter-containers) para obtener más información contextual. Este modelo de contenedor, aunque flexible por naturaleza, establece algunas restricciones para utilizar el generador de reglas.
+Customer Journey Analytics utiliza una estructura de contenedor anidada, siguiendo el modelo de Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) (modelo de datos de experiencia). Consulte [Contenedores](../create-dataview.md#containers) y [Contenedores de segmento](../../components/filters/filters-overview.md#filter-containers) para obtener más información. Este modelo de contenedor, aunque flexible por naturaleza, establece algunas restricciones para utilizar el generador de reglas.
 
 Customer Journey Analytics utiliza el siguiente modelo de contenedor predeterminado:
 
