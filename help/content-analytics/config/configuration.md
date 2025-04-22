@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 19%
@@ -13,9 +13,6 @@ ht-degree: 19%
 ---
 
 # Configuración del análisis de contenido
-
-{{release-limited-testing}}
-
 
 La configuración de Content Analytics consta de los siguientes pasos:
 

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: feb253b20820112d5aa4b4eee31cff74d99fa186
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 44%
@@ -13,8 +13,6 @@ ht-degree: 44%
 ---
 
 # Información general sobre el análisis de contenido
-
-{{release-limited-testing}}
 
 El análisis de contenido ayuda a los especialistas en marketing a comprender cómo afecta el contenido a los indicadores de rendimiento clave que ha definido una empresa. Además de los datos de comportamiento, Content Analytics recopila datos sobre cómo se consume el contenido y cómo afecta a las unidades de contenido. Por ejemplo, ¿responden mejor los clientes a un tono de voz específico, a una paleta de colores específica o a temas específicos? Esta información, junto con los flujos de trabajo de creación de informes diseñados específicamente y las plantillas, puede ayudarle a realizar un análisis aún mejor y a obtener conocimientos más profundos sobre los datos de recorrido del cliente en Customer Journey Analytics.
 

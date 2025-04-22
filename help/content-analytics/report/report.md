@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Resumen de informes de Content Analytics
-
-{{release-limited-testing}}
 
 Realiza informes, realiza análisis y obtiene información sobre Content Analytics en [Analysis Workspace](/help/analysis-workspace/home.md). Hay disponible una [plantilla](#template) de Workspace específica para que pueda acceder inmediatamente a un proyecto de Workspace previamente completado con información de contenido relevante.
 
