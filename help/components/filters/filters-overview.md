@@ -4,9 +4,9 @@ description: Comprenda para qué segmentos se utilizan y cómo crear un segmento
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1474'
 ht-degree: 5%
 
 ---
@@ -160,6 +160,14 @@ Los contenedores de evento incluyen desgloses de una sola página basados en val
 - props de lista
 - Dimensiones de lista
 - Dimensiones de comercialización (en el contexto de eventos)
+
+
+
+### Contenedores B2B
+
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+
+Si tiene acceso a [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md), encontrará contenedores adicionales disponibles para usarlos en segmentos. Puede encontrar más detalles sobre el uso de estos contenedores adicionales en [conceptos y características de B2B](/help/getting-started/cja-b2b-concepts-features.md).
 
 
 ### Contenedor de grupo lógico

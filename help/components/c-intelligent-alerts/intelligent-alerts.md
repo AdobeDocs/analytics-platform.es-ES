@@ -4,10 +4,10 @@ title: Información general sobre alertas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Las alertas le permiten:
 
 El siguiente tutorial de vídeo proporciona información general básica sobre las alertas: [Alertas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=es) (5:34)
 
-## Comprenda las diferencias entre las alertas de Customer Journey Analytics y Adobe Analytics
+## Explicación de cómo difieren las alertas
 
 El proceso de utilización de alertas en Customer Journey Analytics es casi idéntico al de las alertas en Adobe Analytics. Sin embargo, existen diferencias importantes.
 

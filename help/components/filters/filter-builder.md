@@ -4,7 +4,7 @@ title: Generar segmentos
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 45%
@@ -20,17 +20,10 @@ ht-degree: 45%
 >title="Creación de públicos"
 >abstract="Las audiencias se pueden crear a partir de un segmento y compartir con Adobe Experience Platform para su activación."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Previsualización de datos"
 >abstract="Compara los datos de este segmento con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear segmentos nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo segmento]** o **[!UICONTROL Editar segmento]** para los segmentos que cree o administre desde el administrador de [[!UICONTROL segmentos]](/help/components/filters/manage-filters.md).
@@ -155,32 +148,23 @@ O bien, puede definir 52 segmentos: 50 segmentos para los estados de Estados Uni
 
 ## Atribución {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="Repetido"
 >abstract="Incluye instancias y valores persistentes para la dimensión."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instancia"
 >abstract="Incluye instancias y valores persistentes para la dimensión."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="Instancia no repetida"
 >abstract="Incluye instancias únicas (no repetitivas) para la dimensión."
 
-<!-- markdownlint-enable MD034 -->
 
 
 
@@ -218,3 +202,5 @@ La tabla siguiente explica, para cada modelo de atribución, qué eventos entran
 Un informe de ejemplo sobre los eventos que utilizan los tres segmentos tiene este aspecto:
 
 ![Resultados del modelo de atribución de segmentos](assets/filter-dimension-attribution-results.png)
+
+<!-- markdownlint-enable MD034 -->

@@ -4,10 +4,10 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: b98cd4dc73e57f9ae5704a5d9e529ae3b518576c
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -110,7 +110,7 @@ Los administradores pueden cambiar el nombre, etiquetar y aprobar plantillas de 
 
 1. Seleccione el icono de filtro para filtrar la lista de proyectos.
 
-1. En el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Plantillas de la compañía**.
+1. En el carril de filtro, seleccione **[!UICONTROL Otros filtros]** y, a continuación, seleccione **[!UICONTROL Plantillas de empresa]**.
 
    Se muestra una lista de las plantillas de la compañía. No se muestran todos los proyectos normales, a menos que estén anclados.
 

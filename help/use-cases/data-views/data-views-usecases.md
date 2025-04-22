@@ -5,7 +5,7 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 33%
@@ -39,7 +39,7 @@ Por ejemplo, al crear una vista de datos, podría crear una métrica de [!UICONT
 1. Abra la sección **[!UICONTROL Incluir/Excluir valores]** y especifique lo siguiente:
    1. Habilitar **[!UICONTROL Establecer valores de exclusión]**.
    1. Seleccione **[!UICONTROL Si se cumplen todos los criterios]** de **[!UICONTROL Coincidencia]**.
-   1. Especifique `confirmation`. Este texto para page_title indica que esta página está relacionada con la realización de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se contará un `1` para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Funciona con Attribution IQ, segmentos y en cualquier otro lugar donde se pueden utilizar métricas estándar.
+   1. Especifique `confirmation`. Este texto para **[!UICONTROL page_title]** indica que esta página está relacionada con la realización de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se contará un `1` para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Funciona con Attribution IQ, segmentos y en cualquier otro lugar donde se pueden utilizar métricas estándar.
 
    ![Dimension a métrica](../assets/string-to-metric.gif){width=100%}
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con un [!UICONTROL Periodo de retroactividad] de [!UICONTROL Sesión].
@@ -69,7 +69,7 @@ Puede utilizar una dimensión numérica para obtener métricas en la visualizaci
 
 ## Filtre los subeventos {#sub-event}
 
-Esta función se aplica específicamente a los campos basados en matrices. La funcionalidad de inclusión/exclusión permite filtrar en el nivel de subevento, mientras que los segmentos creados en el Generador de segmentos solo le proporcionan filtrado en el nivel de evento. Puede realizar el filtrado de subeventos mediante la inclusión/exclusión en Vistas de datos y luego hacer referencia a esa nueva métrica/dimensión en un segmento a nivel de evento.
+Esta función se aplica específicamente a los campos basados en matrices. La funcionalidad de inclusión/exclusión permite filtrar en el nivel de subevento, mientras que los segmentos creados en el Generador de segmentos solo le proporcionan segmentación en el nivel de evento. Puede realizar el filtrado de subeventos mediante la inclusión/exclusión en Vistas de datos y luego hacer referencia a esa nueva métrica/dimensión en un segmento a nivel de evento.
 
 Por ejemplo, use la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 $. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 $ y una compra de productos de 25 $, la funcionalidad de inclusión/exclusión elimina la compra de productos de 25 $, no todo el pedido.
 

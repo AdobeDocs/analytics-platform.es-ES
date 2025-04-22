@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo administrar segmentos en Customer 
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -64,12 +64,12 @@ Puede realizar acciones en los segmentos mediante el ➋ de barras de acciones. 
 | ![Copiar](/help/assets/icons/Copy.svg)  **[!UICONTROL Copiar]** | Copie el segmento seleccionado. Los segmentos nuevos se crean con el mismo nombre y sufijo `(Copy)`. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** | Exportar los segmentos a un archivo de `Segments List.csv`. |
 
-### Barra de segmento activa
+### Barra de filtro activa
 
-La ➌ de la barra de segmentos muestra los segmentos activos aplicados desde el panel de segmentos a la lista de segmentos (si los hay). Puede quitar rápidamente un segmento con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un segmento, puede quitar todos los segmentos usando **[!UICONTROL Quitar todos]**.
+La ➌ de la barra de filtro muestra los segmentos activos aplicados desde el panel de filtro a la lista de segmentos (si los hay). Puedes quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puede quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
 
-### Panel de segmentos
+### Panel Filtro
 
-Puede segmentar la lista de segmentos mediante el ➍ del panel izquierdo ![Segmento](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]**. El panel de segmentos muestra el tipo de segmento y el número de segmentos que respetan el segmento específico. Seleccione ![Segmento](/help/assets/icons/Filter.svg) para alternar la visualización del panel de segmentos.
+Puede filtrar la lista de segmentos mediante el ➍ del panel izquierdo ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]**. El panel Filtro muestra el tipo de filtro y el número de segmentos que respetan el filtro específico. Seleccione ![Filter](/help/assets/icons/Filter.svg) para alternar la visualización del panel Filtro.
 
 Ver [Filtrar la lista de segmentos](filters-filter.md) para obtener más información.
