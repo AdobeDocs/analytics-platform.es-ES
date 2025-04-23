@@ -1,10 +1,10 @@
 ---
 description: Describe cómo copiar un segmento en el Administrador de segmentos
 title: Copiar segmentos
-feature: Filters
+feature: Filters, Segments
 exl-id: a64737bd-5d5b-4e85-95ff-eb1d90b95e18
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 4%

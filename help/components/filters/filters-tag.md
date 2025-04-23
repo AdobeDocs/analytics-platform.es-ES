@@ -1,10 +1,10 @@
 ---
 description: Puede etiquetar segmentos para organizarlos.
 title: Etiquetar segmentos
-feature: Filters
+feature: Filters, Segments
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User
-source-git-commit: 66ec61ea64f1265d887d4941a22e1f9757120daa
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 4%

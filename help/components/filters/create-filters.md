@@ -2,9 +2,9 @@
 title: Crear segmentos
 description: Explicación de la interfaz de usuario para la creación de segmentos.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-feature: Filters
+feature: Filters, Segments
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%

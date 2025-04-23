@@ -2,9 +2,9 @@
 title: Administración de segmentos
 description: Obtenga información sobre cómo administrar segmentos en Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-feature: Filters
+feature: Filters, Segments
 role: User
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 33%
