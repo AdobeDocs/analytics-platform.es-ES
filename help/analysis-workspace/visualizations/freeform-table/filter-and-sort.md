@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Puede utilizar varios métodos para filtrar filas de una tabla de forma libre.
 
 - Excluir filas específicas de una tabla
 - Aplicar filtros a una tabla
-- Usar filtros de público
+- Usar segmentos de audiencia
 
 Asegúrese de leer cómo afecta cada método a los [Totales de tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -96,7 +96,7 @@ Para filtrar datos en tablas de forma libre:
 
 ### Usar segmentos de audiencia
 
-Consulte [Información general sobre los filtros](/help/components/filters/filters-overview.md) para obtener más información.
+Consulte [Resumen de segmentación](/help/components/filters/filters-overview.md) para obtener más información.
 
 ## Orden de tablas
 

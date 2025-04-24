@@ -4,7 +4,7 @@ title: Descarga de datos de Customer Journey Analytics
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 98%
@@ -94,7 +94,7 @@ Las funciones de la tabla se aplicarán al archivo descargado de la siguiente ma
 * Los desgloses **superiores** a la dimensión seleccionada en la tabla se aplican como filtros encima de cada columna.
 * Los desgloses **inferiores** a las dimensiones seleccionadas en la tabla se eliminan.
 
-En el ejemplo anterior, los elementos de página se descargan con el filtro de panel (Clientes de nuevos visitantes) y los componentes anteriores (Canal de marketing = Correo electrónico) aplicados como filtros, y los componentes siguientes (Tipo de dispositivo móvil) se eliminan del CSV descargado.
+En el ejemplo anterior, los elementos de página se descargan con el segmento de panel (Clientes de nuevos visitantes) y los componentes anteriores (Canal de marketing = Correo electrónico) aplicados como filtros, y los componentes siguientes (Tipo de dispositivo móvil) se eliminan del CSV descargado.
 
 ![El archivo .csv descargado se ha abierto en Excel.](assets/downloaded-file.png)
 
