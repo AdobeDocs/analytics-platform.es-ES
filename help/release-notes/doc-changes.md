@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9cda9a2b8d5ec876a1c4a5c539daa1e0624a4460
+source-git-commit: f3e1f5190024a38dc26199061fb7f466b8d0c472
 workflow-type: tm+mt
-source-wordcount: '5066'
+source-wordcount: '5088'
 ht-degree: 90%
 
 ---
@@ -20,6 +20,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Abril de 2025** | |
+| Caso de uso de análisis de producto | Se agregó [análisis de producto en Customer Journey Analytics](/help/use-cases/product-analysis.md). |
+| Métricas y dimensiones compartidas | Se ha agregado documentación para la función [Métricas y dimensiones compartidas](/help/data-views/shared-metrics-dimensions/smd-overview.md). |
 | Report Builder | Revisó y actualizó la documentación de [Report Builder](/help/report-builder/report-buider-overview.md). |
 | Ver y administrar el uso | Se ha modificado la documentación sobre cómo [ver](/help/connections/manage-connections.md#usage) y [administrar](/help/technotes/estimate-usage.md) el uso de Customer Journey Analytics |
 | Adobe Content Analytics | [Content Analytics](/help/content-analytics/content-analytics.md) le permite investigar rápida y fácilmente grandes volúmenes de datos de contenido para descubrir tendencias, detectar anomalías, identificar la fatiga del contenido y obtener información de la exposición al contenido. |
