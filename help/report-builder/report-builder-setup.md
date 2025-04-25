@@ -1,25 +1,25 @@
 ---
 title: Configuración de Report Builder en Customer Journey Analytics
-description: Describe cómo configurar un Report Builder en un Customer Journey Analytics
+description: Describe cómo configurar Report Builder en Customer Journey Analytics
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
+source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 87%
+source-wordcount: '529'
+ht-degree: 26%
 
 ---
 
 # Configuración de Report Builder
 
-Puede acceder rápidamente a Report Builder mediante el menú Complemento de Excel.
+Este artículo describe los requisitos para utilizar Report Builder for Customer Journey Analytics en Microsoft Excel. Y cómo instalar y configurar el complemento.
 
 ## Requisitos
 
-Report Builder para Customer Journey Analytics es compatible con los siguientes sistemas operativos y navegadores web.
+Report Builder para Customer Journey Analytics es compatible con los siguientes sistemas operativos y exploradores web.
 
 ### macOS
 
@@ -31,20 +31,20 @@ Report Builder para Customer Journey Analytics es compatible con los siguientes 
 - Windows 10, versión 1904 o posterior
 - Excel versión 2106 o posterior
 
-  Todos los usuarios de Excel de escritorio de Windows deben instalar Microsoft Edge Webview2 para utilizar el complemento. Para instalar el controlador:
+  Todos los usuarios de Excel de escritorio de Windows deben instalar Microsoft Edge Webview2 para utilizar el complemento. Para instalar:
 
-   1. Vaya a <https://aka.ms/webview2installer>.
-   1. Seleccione y descargue el instalador independiente Evergreen.
-   1. Siga las instrucciones de instalación.
+   1. Vaya a <https://developer.microsoft.com/en-us/microsoft-edge/webview2/>.
+   1. Seleccione y descargue la versión apropiada del **[!UICONTROL Instalador independiente Evergreen]** para su plataforma.
+   1. Ejecute el instalador y siga las indicaciones de instalación.
 
 ### Web Office
 
-- Admite todos los exploradores y versiones
+- Admite todos los exploradores y versiones.
 
 
-## Complemento de Excel de Report Builder
+## Complemento de Report Builder Excel
 
-Debe instalar el complemento de Excel de Report Builder para utilizar Report Builder para Customer Journey Analytics. Una vez instalado el complemento de Excel de Report Builder, puede acceder a Report Builder desde un libro de Excel abierto.
+Instale el complemento de Report Builder Excel para utilizar Report Builder para Customer Journey Analytics. Una vez instalado el complemento de Report Builder Excel, puede acceder a Report Builder desde un libro de Excel abierto.
 
 ### Descarga e instalación del complemento de Report Builder
 
@@ -52,31 +52,32 @@ Para descargar e instalar el complemento de Report Builder
 
 1. Inicie Excel y abra un nuevo libro.
 
-1. Seleccione Insertar > Obtener complementos.
+1. Seleccione **[!UICONTROL Insertar]** > **[!UICONTROL Complementos]** > **[!UICONTROL Obtener complementos]** en el menú principal.
 
-1. En el cuadro de diálogo Complementos de Office, seleccione la pestaña Tienda.
+1. En el cuadro de diálogo Complementos de Office, seleccione la ficha **[!UICONTROL Almacenar]**.
 
-1. Busque “Report Builder” y haga clic en Agregar.
+1. Busque `Report Builder` y seleccione **[!UICONTROL Agregar]**.
 
-1. En el cuadro de diálogo Términos de licencia y política de privacidad, haga clic en Continuar.
+1. En el cuadro de diálogo Términos de licencia y política de privacidad, seleccione **[!UICONTROL Continuar]**.
 
-**Si no se muestra la pestaña Tienda**
+Si no se muestra la ficha **[!UICONTROL Almacenar]**:
 
-1. En Excel, seleccione Archivo > Cuenta > Administrar configuración.
+1. En Excel, seleccione **[!UICONTROL Archivo]** > **[!UICONTROL Cuenta]** > **[!UICONTROL Administrar configuración]** en el menú principal.
 
-1. Marque la casilla junto a “Habilitar experiencias conectadas opcionales”.
+1. Marque la casilla junto a **[!UICONTROL Habilitar experiencias conectadas opcionales]**.
 
 1. Reinicie Excel.
 
-**Si su organización bloquea el acceso a la Microsoft Store**
+Si su organización bloquea el acceso a la Tienda Microsoft:
 
-Póngase en contacto con su equipo de TI o de seguridad para solicitar la aprobación del complemento de Report Builder. Una vez concedida la aprobación, en el cuadro de diálogo Complementos de Office, seleccione la pestaña Administración administrada.
+- Póngase en contacto con su equipo de TI o de seguridad para solicitar la aprobación del complemento de Report Builder. Una vez concedida la aprobación, en el cuadro de diálogo **[!UICONTROL Complementos]** de Office, seleccione la pestaña **[!UICONTROL Administración administrada]**.
 
-![La ficha Administración administrada del cuadro de diálogo Complementos de Office.](./assets/image1.png)
+  ![La ficha Administración administrada del cuadro de diálogo Complementos de Office.](./assets/image1.png){zoomable="yes"}
 
-Después de instalar el complemento de Report Builder, el icono de Report Builder se muestra en la cinta de Excel debajo de la pestaña Inicio.
+Después de instalar el complemento de Report Builder, el icono ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** se muestra en la cinta de Excel debajo de la ficha **[!UICONTROL Inicio]**.
 
-![El Report Builder de Excel](./assets/rb_app_icon.png)
+![Icono de Report Builder en Excel](./assets/rb_app_icon.png){zoomable="yes"}
+
 
 ## Inicio de sesión en Report Builder
 
@@ -84,36 +85,37 @@ Después de instalar el complemento de Report Builder for Excel para su platafor
 
 1. Abra un libro de Excel.
 
-1. Haga clic en el icono de Report Builder para iniciar Report Builder.
+1. Seleccione ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** para iniciar Report Builder.
 
-1. En la barra de herramientas de Adobe Report Builder, haga clic en **Iniciar sesión**.
+1. En la barra de herramientas de Adobe Report Builder, seleccione **[!UICONTROL Iniciar sesión]**.
 
-   ![Haga clic en el botón de inicio de sesión del Report Builder.](./assets/rb_login.png)
+   ![Haga clic en el botón de inicio de sesión de Report Builder.](./assets/rb_login.png){zoomable="yes"}
 
-1. Introduzca la información de la cuenta de Adobe Experience ID. La información de la cuenta debe coincidir con las credenciales de Customer Journey Analytics.
+1. Introduzca la información de su cuenta de Adobe. La información de la cuenta debe coincidir con las credenciales de Customer Journey Analytics.
 
-   ![Su icono de inicio de sesión y organización.](./assets/image4.png)
+   ![Su icono de inicio de sesión y organización.](./assets/image4.png){zoomable="yes"}
 
 Después de iniciar sesión, el icono de inicio de sesión y la organización aparecerán en la parte superior del panel
 
+
 ## Cambio de organizaciones
 
-La primera vez que inicie sesión, iniciará sesión en la organización predeterminada asignada a su perfil.
+La primera vez que inicie sesión, iniciará sesión en la organización predeterminada asignada a su perfil o a la organización seleccionada como parte del flujo de inicio de sesión.
 
-1. Haga clic en el nombre de la organización que se muestra cuando inicia sesión.
+1. Seleccione el nombre de la organización que se muestra cuando inicia sesión.
 
 1. Seleccione una organización de la lista de organizaciones disponibles. Solo aparecen en la lista las organizaciones a las que tiene acceso.
 
-   ![Lista de organizaciones a las que puede tener acceso.](./assets/image5.png)
+   ![Lista de organizaciones a las que puede tener acceso.](./assets/image5.png){zoomable="yes"}
 
 ## Cerrar sesión
 
-Puede cerrar la sesión de Report Builder desde el perfil de usuario.
+Para cerrar la sesión desde Report Builder:
 
 1. Guarde los cambios en los libros abiertos.
 
-1. Haga clic en el icono de avatar para mostrar su perfil de usuario.
+1. Seleccione el icono de avatar para mostrar su perfil de usuario.
 
-   ![El avatar de perfil de usuario y el botón Cerrar sesión.](./assets/image6.png)
+   ![El avatar de perfil de usuario y el botón Cerrar sesión.](./assets/image6.png){zoomable="yes"}
 
-1. Haga clic en **Cerrar sesión**.
+1. Seleccione **[!UICONTROL Cerrar sesión]**.

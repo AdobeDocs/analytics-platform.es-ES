@@ -4,10 +4,10 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b880c63d22cec0e7de4f313eef72e86f41e85eca
+source-git-commit: 9cda9a2b8d5ec876a1c4a5c539daa1e0624a4460
 workflow-type: tm+mt
-source-wordcount: '5057'
-ht-degree: 91%
+source-wordcount: '5066'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Abril de 2025** | |
+| Report Builder | Revisó y actualizó la documentación de [Report Builder](/help/report-builder/report-buider-overview.md). |
 | Ver y administrar el uso | Se ha modificado la documentación sobre cómo [ver](/help/connections/manage-connections.md#usage) y [administrar](/help/technotes/estimate-usage.md) el uso de Customer Journey Analytics |
 | Adobe Content Analytics | [Content Analytics](/help/content-analytics/content-analytics.md) le permite investigar rápida y fácilmente grandes volúmenes de datos de contenido para descubrir tendencias, detectar anomalías, identificar la fatiga del contenido y obtener información de la exposición al contenido. |
 | Campos XDM actualizados para recopilar datos de medios de streaming en Adobe Experience Platform | Al recopilar datos de medios de streaming en Adobe Experience Platform, ya no se deben utilizar las rutas de campo XDM que se muestran en el encabezado de &quot;Ruta de campo XDM&quot; de la documentación de parámetros de medios de streaming. Estas rutas de campo se encuentran en las páginas siguientes y están marcadas como &quot;Obsoletas&quot;: [Parámetros de audio y vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters), [Parámetros de publicidad](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/ad-parameters), [Parámetros de capítulo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/chapter-parameters), [Parámetros de estado del reproductor](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/player-state-parameters) y [Parámetros de calidad](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/quality-parameters). |

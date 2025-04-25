@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 2581ff0f3d149a539ed730a941ce1b6288e9af0e
+source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 85%
+ht-degree: 83%
 
 ---
 
@@ -385,12 +385,12 @@ ht-degree: 85%
    + [Información general](../report-builder/report-buider-overview.md)
    + [Configuración de Report Builder](../report-builder/report-builder-setup.md)
    + [Creación de un bloque de datos](../report-builder/create-a-data-block.md)
-   + [Report Builder Hub](../report-builder/report-builder-hub.md)
-   + [Seleccionar una vista de datos](../report-builder/select-data-view.md)
-   + [Selección de un intervalo de fechas](../report-builder/select-date-range.md)
-   + [Trabajar con segmentos](../report-builder/work-with-filters.md)
+   + [concentrador de Report Builder](../report-builder/report-builder-hub.md)
+   + [Seleccione una vista de datos](../report-builder/select-data-view.md)
+   + [Seleccionar un intervalo de fecha](../report-builder/select-date-range.md)
+   + [Trabajo con segmentos](../report-builder/work-with-filters.md)
    + [Filtrar dimensiones](../report-builder/filter-dimensions.md)
-   + [Administrar bloques de datos](../report-builder/manage-reportbuilder.md)
+   + [Administración de bloques de datos](../report-builder/manage-reportbuilder.md)
    + [Programar libros de trabajo](../report-builder/schedule-reportbuilder.md)
    + [Etiquetas restringidas](../report-builder/restricted-labels.md)
    + [Configuración de Report Builder](../report-builder/report-builder-settings.md)

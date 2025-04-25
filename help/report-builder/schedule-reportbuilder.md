@@ -6,20 +6,20 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 84%
+source-wordcount: '1105'
+ht-degree: 13%
 
 ---
 
 # Programar libros de trabajo
 
-Después de guardar un libro y completar el análisis, puede compartir fácilmente el libro con otros integrantes del equipo mediante la función de programación. La función Programación permite crear una programación que actualice automáticamente los datos del libro y envíe el archivo .xlsx del libro de Excel como datos adjuntos a la audiencia especificada en una fecha y hora específicas. La configuración de una programación proporciona a los destinatarios actualizaciones regulares de forma automática. También puede utilizar la función de programación para enviar el libro una vez sin programar actualizaciones automáticas.
+Una vez guardado el libro y completado el análisis, puede compartirlo con otros miembros de su equipo mediante la función de programación. La función de programación permite crear una programación que actualice automáticamente los datos del libro. Y envía por correo electrónico el archivo del libro de Excel como archivo adjunto a la audiencia especificada en una fecha y hora específicas. La configuración de una programación proporciona a los destinatarios actualizaciones regulares automáticamente. También puede utilizar la función de programación para enviar el libro una vez sin programar actualizaciones automáticas.
 
-Puede crear varias programaciones para un solo libro. Por ejemplo, puede enviar un libro a su equipo diariamente y enviarlo al administrador una vez a la semana creando dos programaciones diferentes.
+Puede crear varias programaciones para un solo libro. Por ejemplo, se crean dos programaciones para enviar un libro de trabajo al equipo diariamente y al administrador una vez a la semana.
 
-La función Programación también permite configurar la protección con contraseña para un libro y editar los libros programados previamente.
+La función de programación también permite configurar la protección con contraseña de un libro y editar los libros programados anteriormente.
 
 
 >[!BEGINSHADEBOX]
@@ -31,104 +31,152 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros
 
 ## Programar un libro
 
-Utilice el botón Programar tarea del centro de Report Builder para crear rápidamente una programación de modo que pueda distribuir automáticamente un archivo de Excel de libro (.xlsx) a un individuo o a un grupo.
+Para programar un libro:
 
-1. Haga clic en el botón Programar en el centro del Report Builder.
+1. Seleccione **[!UICONTROL Programar]** en Report Builder hub para crear una programación de modo que pueda distribuir automáticamente un archivo de Excel de libro (.xlsx) a un individuo o grupo.
 
-   ![Haga clic en el botón Programar para crear una programación.](./assets/schedule-button.png){width="55%"}
+   ![Seleccione el botón Programar para crear una programación.](./assets/schedule.png){zoomable="yes"}
 
-1. Haga clic en Programar libro o en el botón de signo más en la parte superior izquierda para crear un nuevo libro programado.
+1. Seleccione **[!UICONTROL Programar libro]** o ![Agregar](/help/assets/icons/Add.svg) para crear un nuevo libro programado.
 
-   ![Ventana Programar libros.](./assets/schedule-workbook.png){width="55%"}
+   ![Ventana Programar libros.](./assets/schedule-workbook.png){zoomable="yes"}
 
    El panel de programación muestra información predefinida sobre el libro, como el nombre del libro y la última fecha de modificación del libro.
 
-   ![Panel de programación.](./assets/schedule-pane.png){width="55%"}
+### Archivo
 
-1. (Opcional) Introduzca un nombre de archivo.
+En la sección **[!UICONTROL Archivo]**, proporciona detalles del tipo de archivo, el nombre y una contraseña para proteger el archivo.
 
-   El nombre de archivo del libro es el nombre predeterminado del libro, pero puede cambiarlo, si quiere. Si envía el mismo libro a varias audiencias y desea ponerle un nombre un poco más descriptivo para una audiencia determinada, puede cambiar el nombre.
+![Panel de programación.](./assets/schedule-pane.png){zoomable="yes"}
 
-1. (Opcional) Seleccione **Adjuntar marca temporal al nombre del archivo**.
+1. Use ![TableSelect](/help/assets/icons/TableSelect.svg) para seleccionar el libro actual, si no está seleccionado.
 
-   Puede adjuntar una marca temporal al nombre del archivo para identificar la fecha en que se actualizó el libro. Esto resulta útil para ver rápidamente qué versión de un libro se envió en una fecha específica. La **Vista previa del nombre de archivo** muestra cómo aparecerá el nombre del archivo del libro en el correo electrónico cuando se distribuya el libro. El formato de la marca temporal es AAAA-MM-DD.
+1. (Opcional) Escriba un **[!UICONTROL nombre de archivo]**.
 
-1. (Opcional) Seleccione **Compresión .zip** para comprimir el archivo y configurar la protección con contraseña en el archivo.
+   El nombre de archivo predeterminado del libro es el nombre del libro, pero puede cambiarlo si lo desea.
 
-   Cuando realice esta selección, se le pedirá que introduzca una contraseña para abrir el archivo. Esto resulta útil si le preocupa la seguridad de los datos y desea proteger el libro con contraseña. La protección del archivo con una contraseña requiere que seleccione **Compresión .zip**. La contraseña debe tener al menos ocho caracteres y contener un número y un carácter especial.
+1. Seleccione un **[!UICONTROL tipo de archivo]**.
 
-   ![Escriba una contraseña en el campo Proteger el libro con contraseña.](./assets/zip-compression.png){width="55%"}
+   * **[!UICONTROL Excel]**
+   * **[!UICONTROL PDF]**
+   * **[!UICONTROL CSV]**
 
-1. Introduzca los **Destinatarios**. Puede introducir el nombre de una persona reconocida en su organización, o una dirección de correo electrónico de una persona interna o externa de la organización.
+   Cuando seleccione **[!UICONTROL CSV]**, tenga en cuenta que el libro programado se enviará como archivo adjunto zip. Algunas administraciones de correo electrónico corporativas pueden bloquear el correo electrónico con archivos adjuntos zip. Verá una advertencia en consecuencia.
+
+1. (Opcional) Seleccione **[!UICONTROL Adjuntar marca temporal al nombre del archivo]**.
+
+   Puede adjuntar una marca temporal al nombre del archivo para identificar la fecha en que se actualizó el libro. Una marca de tiempo es útil para ver qué versión de un libro se envió en una fecha específica. Al seleccionarlo, puede elegir entre:
+
+   * **[!UICONTROL Formato de fecha ISO]**, que hace que `YYYY-MM-DD` se anexe al nombre de archivo.
+   * **[!UICONTROL Formato de fecha ISO + marca de hora]**, lo que hace que `YYYY-MM-DD_HH-MM-SS` se anexe al nombre de archivo.
+
+<!-- Does no longer seem to be an option? 
+1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
+
+    When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
+
+    ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
+-->
+
+1. Escriba una contraseña en **[!UICONTROL Proteger el libro con contraseña]**. Una contraseña válida requiere al menos 8 caracteres, un número y un carácter especial. Seleccione ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) para mostrar la contraseña y ![Visibility](/help/assets/icons/Visibility.svg) para ocultarla (valor predeterminado).
+
+
+### Correo electrónico
+
+En la sección **[!UICONTROL Correo electrónico]**, debe proporcionar los destinatarios, el asunto y la descripción del correo electrónico.
+
+![Programar configuración de correo electrónico](assets/schedule-email.png){zoomable="yes"}
+
+1. Introduzca los **Destinatarios**. Puede introducir el nombre de una persona reconocida en su organización. O bien, puede introducir una dirección de correo electrónico de una persona que esté fuera de su organización.
 
 1. Introduzca el **Asunto** del correo electrónico y una descripción para sus destinatarios. El asunto adopta como valor predeterminado el nombre de archivo del libro, pero puede modificarlo si es necesario. Puede agregar detalles en la sección de descripción.
 
-   ![Escriba un asunto en el campo Asunto.](./assets/recipients-subject.png){width="55%"}
+1. Si lo desea, puede escribir una descripción en el área de texto **[!UICONTROL Descripción]**.
 
-1. Configure las opciones de programación para establecer la fecha y la hora en que desea que el libro se envíe por correo electrónico a los destinatarios.
 
-   Elija los intervalos de fecha y hora de inicio y fin. Puede ser la fecha de hoy o una fecha futura.
+### Programación
 
-   Elija la **Frecuencia** en el menú desplegable. Puede establecer que la frecuencia sea horaria, diaria, semanal, mensual o anual en un día específico. Por ejemplo, puede configurar una programación para enviar el libro el primer domingo por la noche del mes de modo que los destinatarios tengan el correo electrónico en su bandeja de entrada el lunes por la mañana.
+En la sección **[!UICONTROL Programar]**, puede definir la programación para enviar los correos electrónicos con el libro de trabajo a los destinatarios.
 
-   ![Seleccione la frecuencia para programar el informe.](./assets/frequency.png){width="55%"}
+![Definición de horario](assets/schedule-enable.png){zoomable="yes"}
 
-1. Después de configurar la programación, haga clic en **Enviar según lo programado**.
+1. Seleccione **[!UICONTROL Mostrar opciones de horario]** para definir una programación.
 
-   ![Haga clic en Enviar según lo programado.](./assets/send-on-schedule.png){width="55%"}
+1. Escriba una fecha de inicio en **[!UICONTROL A partir del]**. Como alternativa, seleccione ![Calendario](/help/assets/icons/Calendar.svg) para elegir una fecha de inicio del calendario.
 
-   Verá una notificación de confirmación en la parte inferior del centro de Report Builder y el libro programado se mostrará en la pestaña Libros.
+1. Escriba una fecha de finalización en **[!UICONTROL Que termine el]**. Como alternativa, seleccione ![Calendario](/help/assets/icons/Calendar.svg) para elegir una fecha de finalización del calendario.
 
-   ![Mensaje de confirmación](./assets/confirmation-toast.png){width="55%"}
+1. Seleccione una **[!UICONTROL frecuencia]**. Según la frecuencia seleccionada, tiene opciones adicionales. Consulte la tabla siguiente.
 
-## Enviar el libro solo una vez
+   | Frecuencia | Opciones |
+   |---|---|
+   | **[!UICONTROL Enviar por hora]** | Escriba un valor para **[!UICONTROL Enviar cada número de horas]**. |
+   | **[!UICONTROL Enviar diariamente]** | Seleccione una **[!UICONTROL Frecuencia diaria]**: **[!UICONTROL Enviar todos los días]**, **[!UICONTROL Enviar todos los días de la semana]** o **[!UICONTROL Frecuencia personalizada]**.<br/>Si selecciona **[!UICONTROL Frecuencia personalizada]**, escriba un valor para **[!UICONTROL Enviar cada número de días]**. |
+   | **[!UICONTROL Enviar semanalmente]** | Escriba un valor para **[!UICONTROL Enviar cada número de semanas]**. Y selecciona **[!UICONTROL Día de la semana]**. |
+   | **[!UICONTROL Enviar mensualmente por día de la semana]** | Seleccione un **[!UICONTROL Día de la semana]** y una **[!UICONTROL Semana del mes]**. |
+   | **[!UICONTROL Enviar mensualmente por día del mes]** | Seleccione un valor de **[!UICONTROL Enviar en este día del mes]**. |
+   | **[!UICONTROL Enviar anualmente por día del mes]** | Seleccione un **[!UICONTROL Día de la semana]**, una **[!UICONTROL Semana del mes]** y un **[!UICONTROL Mes del año]**. |
+   | **[!UICONTROL Enviar anualmente por fecha específica]** | Seleccione un **[!UICONTROL Mes del año]** y elija un valor entre **[!UICONTROL Enviar en este día del mes]**. |
 
-También puede enviar el libro solo una vez.
+### Enviar
 
-1. Desmarque **Mostrar opciones de programación**.
+Para enviar el libro:
 
-   ![Haga clic en Desmarcar Mostrar opciones de programación para enviar un libro una vez.](./assets/send-now.png){width="40%"}
+* Si no ha definido una programación con **[!UICONTROL Mostrar opciones de programación]**, seleccione **[!UICONTROL Enviar ahora]** para enviar el libro por correo electrónico inmediatamente.
+* Si ha definido una programación con **[!UICONTROL Mostrar opciones de programación]**, seleccione **[!UICONTROL Enviar según lo programado]** para enviar el libro por correo electrónico según la programación que haya definido.
 
-1. Haga clic en **Enviar ahora**.
+En ambos casos, verá un mensaje de confirmación en la parte inferior de Report Builder hub.
 
-## Ver y editar libros programados
+Para cancelar el envío del libro, seleccione **[!UICONTROL Cancelar]**.
 
-Puede ver y administrar todos los libros programados en un mismo lugar en la pestaña Libros.
 
-1. En la sección Programación del centro de Report Builder, haga clic en la pestaña Libros. Utilice esta vista para ver una lista de todos los libros programados.
+## Ver y administrar libros programados
 
-1. Seleccione un libro. Se muestran varias herramientas que le permiten editar el libro, editar la tarea de programación, pausar y reiniciar la tarea de programación, descargar un informe de tarea programada o eliminar la tarea de programación.
+Puede ver y administrar todos los libros programados en la ficha **[!UICONTROL Libros]**.
 
-   ![Captura de pantalla que muestra los iconos de programación del libro.](./assets/schedule-icons.png){width="20%"}
+1. Seleccione **[!UICONTROL Horario]** en Report Builder Hub
 
-* (Opcional) Haga clic en el icono de lápiz para editar la tarea de programación del libro.
+1. Seleccione la ficha **[!UICONTROL Libros]**. Verá una lista de todos los libros programados.
 
-* (Opcional) Haga clic en el icono de reloj para ver el historial de cada tarea programada.
+   ![Libro programado](assets/scheduled-workbooks.png){zoomable="yes"}
 
-* (Opcional) Haga clic en el icono de pausa para pausar y reiniciar la tarea de programación de distribución. Esto resulta útil si necesita modificar el libro antes de enviarlo. Vuelva a hacer clic en el icono de pausa cuando desee reiniciar la distribución.
+   Puede pasar el ratón sobre el icono para ver el estado de un libro programado.
 
-* (Opcional) Haga clic en el icono de descarga para descargar una copia de la tarea de programación del libro.
+   Use ![Buscar](/help/assets/icons/Search.svg) para buscar libros programados específicos.
+Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
 
-* (Opcional) Haga clic en la papelera para eliminar la tarea programada.
+1. Seleccione uno o varios libros.
 
-  ![Captura de pantalla que muestra la lista de tareas programadas.](./assets/selected-workbook.png){width="40%"}
+   ![Programar libros seleccionados](assets/scheduled-workbooks-selected.png){zoomable="yes"}
 
-## Revisar el estado de las tareas programadas
+   Las opciones disponibles son las siguientes:
 
-La vista de historial permite revisar el estado de cada tarea programada. Hay una fila independiente que documenta el cambio de estado para cada tarea programada. En el ejemplo que se muestra a continuación, *Nuevo programa por hora* se inició el 5 de enero a las 15:04. A las 15:05 se actualizó correctamente y se envió a los destinatarios. Con el libro siguiente, *Libro incorrecto*, se ha generado un error durante el proceso de actualización. Si un libro no se ha podido enviar, la pestaña del historial le ayuda a solucionar problemas al mostrar en qué parte del proceso se produjo el error. En este caso, es probable que se deba a algún error de bloque de datos, tal vez a un componente que falta, que evitó que el libro se actualizara correctamente.
+   | Opción | Descripción |
+   |---|---|
+   | ![Editar](/help/assets/icons/Edit.svg) | Editar la programación de un libro seleccionado. |
+   | ![Historial](/help/assets/icons/History.svg) | Muestra el historial de los libros seleccionados. |
+   | ![Pausa](/help/assets/icons/Pause.svg) | Pausar la programación de los libros seleccionados. |
+   | ![Reproducir](/help/assets/icons/Play.svg) | Reanudar la programación de los libros seleccionados. |
+   | ![Descargar](/help/assets/icons/Download.svg) | Descargue el libro seleccionado en un nuevo libro. |
+   | ![Eliminar](/help/assets/icons/Delete.svg) | Eliminar la programación de los libros seleccionados. |
 
-Una marca de verificación verde indica que el libro se envió correctamente. Un signo de exclamación en un triángulo rojo indica que se ha producido un error.
 
-Puede elegir las columnas que quiere mostrar en la pestaña historial haciendo clic en el icono de configuración de columnas, a la derecha de la barra de búsqueda.
+## Historial y estado de los libros programados
 
-![Haga clic en el icono de columna para mostrar u ocultar columnas específicas.](./assets/history.png){width="55%"}
+Puede ver el historial y el estado de los libros programados en la ficha **[!UICONTROL Historial]**.
 
-Puede filtrar el historial para ver solo el de un único libro programado. Para ello, vaya a la pestaña Libros, seleccione el libro y haga clic en el icono de historial.
+1. Seleccione **[!UICONTROL Horario]** en Report Builder Hub.
 
-También puede ver el historial de un libro específico desde la pestaña Libros. En la pestaña Libros, seleccione el libro y haga clic en el icono de historial.
+1. Seleccione la ficha **[!UICONTROL Historial]**. Verá una lista de todos los libros programados.
 
-![Icono del historial de libros](./assets/history2.png){width="55%"}
+   ![Historial programado](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
-El filtro de libro aparece en la parte superior del historial. Para volver a ver el historial de todas las tareas programadas, haga clic en la X junto al filtro.
+   Use ![Buscar](/help/assets/icons/Search.svg) para buscar libros específicos en la lista.
+Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
 
-![El filtro del libro.](./assets/history3.png){width="55%"}
+   La ficha **[!UICONTROL Historial]** le permite revisar el estado de cada tarea programada. Una fila independiente documenta el cambio de estado de cada tarea programada.
+
+   * Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indica que el libro se envió correctamente.
+   * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica que se produjo un error.
+
+También puede seleccionar ![Historial](/help/assets/icons/History.svg) para uno o más libros seleccionados en la ficha **[!UICONTROL Libros]**. Esta acción muestra la ficha **[!UICONTROL Historial]** con una lista filtrada por su selección. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un filtro.
