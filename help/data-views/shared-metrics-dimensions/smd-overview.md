@@ -2,7 +2,7 @@
 title: Resumen de métricas y dimensiones compartidas
 description: Utilice la misma referencia de dimensión o métrica en varias vistas de datos.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
+source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Utilice la casilla de verificación situada junto a un componente para mostrar t
 ![Vista previa de acciones disponibles](assets/smd-actions.png)
 
 * ![Icono de lápiz](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]**: abre las dimensiones y métricas seleccionadas en el [editor de componentes compartidos](shared-component-editor.md), que te permite ajustar su [configuración de componentes](/help/data-views/component-settings/overview.md). Cuando se seleccionan varios componentes para editarlos, todos se abren en el editor de componentes. Puede desplazar y hacer clic en los componentes en el editor de componentes para editar el mismo campo para varios componentes.
-* ![Icono de compartir](/help/assets/icons/Share.svg) **[!UICONTROL Compartir en vista(s) de datos]**: abre una ventana que muestra todas las vistas de datos disponibles en la conexión seleccionada. Seleccione la casilla de verificación de cada vista de datos en la que desee que este componente esté disponible y, a continuación, seleccione **[!UICONTROL Compartir]**.
-* ![Icono de dejar de compartir](/help/assets/icons/SaveTo.svg) **[!UICONTROL Dejar de compartir en las vistas de datos]**: abre una ventana que muestra todas las vistas de datos con las que se comparte actualmente este componente. Seleccione la casilla de verificación de cada vista de datos de la que desee quitar la disponibilidad de este componente y, a continuación, seleccione **[!UICONTROL Dejar de compartir]**.
+* ![Icono de compartir](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Compartir en vista(s) de datos]**: abre una ventana que muestra todas las vistas de datos disponibles en la conexión seleccionada. Seleccione la casilla de verificación de cada vista de datos en la que desee que este componente esté disponible y, a continuación, seleccione **[!UICONTROL Compartir]**.
+* ![Icono de dejar de compartir](/help/assets/icons/SaveTo.svg) **[!UICONTROL Dejar de compartir de las vistas de datos]**: abre una ventana que muestra todas las vistas de datos con las que se comparte actualmente este componente. Seleccione la casilla de verificación de cada vista de datos de la que desee quitar la disponibilidad de este componente y, a continuación, seleccione **[!UICONTROL Dejar de compartir]**.
 * ![Icono duplicado](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicado]**: Crea una copia de los componentes seleccionados. Se genera un nuevo ID de componente para los componentes duplicados.
 * ![Icono Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]**: quita los componentes seleccionados de la interfaz. Si los componentes seleccionados se comparten con cualquier vista de datos, dejarán de compartirse.
