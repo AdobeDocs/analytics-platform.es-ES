@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
+source-git-commit: e0e80723e21b7e8c460c05ec39b699eef00abb8b
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 15%
@@ -29,7 +29,7 @@ La vinculación basada en campos admite el uso del grupo de campos [`identifyMap
 
   En el ejemplo siguiente, las áreas de nombres e identidades generan una lista de identidades principales ordenada y, finalmente, la identidad seleccionada.
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>Espacios de nombres</th>
        <th>Lista de identidades</th>
@@ -44,7 +44,7 @@ La vinculación basada en campos admite el uso del grupo de campos [`identifyMap
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>Lista de identidades ordenadas</th>
       <th>Identidad seleccionada</th>
@@ -62,7 +62,7 @@ La vinculación basada en campos admite el uso del grupo de campos [`identifyMap
 
   En el ejemplo siguiente, las áreas de nombres e identidades generan una lista de identidades ordenada para el área de nombres (ECID) seleccionada y, finalmente, la identidad seleccionada.
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>Espacios de nombres</th>
        <th>Lista de identidades</th>
@@ -77,7 +77,7 @@ La vinculación basada en campos admite el uso del grupo de campos [`identifyMap
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>Lista de identidades ordenadas</th>
       <th>Identidad seleccionada</th>
