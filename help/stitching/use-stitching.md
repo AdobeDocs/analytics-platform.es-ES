@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 157f70353f60da3fec83e016e7a09f69f7f514cf
+source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 10%
+source-wordcount: '462'
+ht-degree: 9%
 
 ---
 
@@ -34,7 +34,12 @@ El paquete de Customer Journey Analytics al que está autorizado determina los m
    - Una solicitud para habilitar la vinculación.
    - ID del conjunto de datos para el que desea volver a escribir.
    - El nombre de columna (ruta de identidad y área de nombres) del ID persistente del conjunto de datos deseado (el identificador que aparece en cada fila).
-   - Para la vinculación basada en el campo, el nombre de columna del ID transitorio para el conjunto de datos deseado (el identificador personal, que también actúa como vínculo entre conjuntos de datos en el contexto de una conexión). Para la vinculación basada en gráficos, el área de nombres de identidad que se utilizará para consultar el gráfico de identidad.
+   - Si el conjunto de datos admite `identityMap`:
+      - Para la vinculación basada en el campo, especifique el área de nombres para los ID persistentes y transitorios.
+      - Para la vinculación basada en gráficos, especifique el área de nombres del ID persistente y el área de nombres de identidad que se utilizará para consultar el gráfico de identidades.
+   - Si el conjunto de datos no admite `identityMap`:
+      - Para la vinculación basada en el campo, el nombre de columna del ID transitorio para el conjunto de datos deseado (el identificador personal, que también actúa como vínculo entre conjuntos de datos en el contexto de una conexión).
+      - Para la vinculación basada en gráficos, el área de nombres de identidad que se utilizará para consultar el gráfico de identidad.
    - Su preferencia de ventana retrospectiva y frecuencia de reproducción. Consulta tu paquete de Customer Journey Analytics para ver las [opciones](#options) disponibles.
    - Nombre de la zona protegida.
 

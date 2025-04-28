@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+source-git-commit: c27d5f44243e2cda252ac6a484a70964f0999dfc
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '739'
 ht-degree: 15%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 15%
 >
 >Debe tener el paquete **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete **** o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para usar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
-La vinculación de identidad (o simplemente, la vinculación) es una práctica funcionalidad que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona).
+La vinculación de identidad (o simplemente, la vinculación) es una práctica funcionalidad que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis entre canales es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona).
 
 Cuando combina conjuntos de datos con ID de personas similares, la atribución se transfiere a través de dispositivos y canales. Por ejemplo: un usuario visita su sitio por primera vez a través de un anuncio en su equipo de escritorio. Ese usuario encuentra un problema con su pedido y, a continuación, llama a su equipo de servicio de atención al cliente para que le ayude a resolverlo. Con el análisis en canales múltiples, puede atribuir eventos del centro de llamadas a la publicidad en la que se hizo clic originalmente.
 
-Lamentablemente, no todos los conjuntos de datos basados en eventos que forman parte de la conexión en Customer Journey Analytics están suficientemente rellenados con datos para admitir esta atribución de forma predeterminada. En especial, los conjuntos de datos de experiencias basados en la web o en dispositivos móviles a menudo no tienen una información de ID de persona real disponible en todos los eventos.
+Lamentablemente, no todos los conjuntos de datos basados en eventos que forman parte de su conexión en Customer Journey Analytics están suficientemente rellenados con datos para admitir esta atribución de forma predeterminada. En especial, los conjuntos de datos de experiencias basados en la web o en dispositivos móviles a menudo no tienen una información de ID de persona real disponible en todos los eventos.
 
 La configuración permite volver a incrustar identidades en las filas de un conjunto de datos, asegurándose de que el ID de persona (ID vinculado) esté disponible en cada evento. La vinculación busca los datos de usuario de las sesiones autenticadas y no autenticadas para determinar el valor de ID transitorio común (ID de persona) que se puede utilizar como ID vinculado. Esta regeneración de claves permite resolver registros dispares en un único ID vinculado para su análisis en el nivel de la persona, en lugar de en el nivel de dispositivo o cookie.
 
-El Customer Journey Analytics admite dos tipos de vinculación: [vinculación basada en el campo](fbs.md) y [vinculación basada en gráficos](gbs.md).
+Customer Journey Analytics admite dos tipos de vinculación: [vinculación basada en el campo](fbs.md) y [vinculación basada en gráficos](gbs.md).
 
 ## Requisitos previos
 
@@ -50,7 +50,6 @@ Se beneficia del análisis en canales múltiples si combina uno o más de los co
 
 >[!IMPORTANT]
 >
->- No se admite el uso de `identityMap` como identificador persistente. Debe definir un identificador específico en el conjunto de datos (por ejemplo, `ECID`) como el ID persistente.
 >
 >- Aplique cualquier cambio que realice en el esquema del conjunto de datos de evento de origen también al nuevo esquema del conjunto de datos vinculado; de lo contrario, este se romperá.
 >

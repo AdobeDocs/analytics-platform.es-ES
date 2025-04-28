@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
+source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1540'
 ht-degree: 7%
 
 ---
@@ -15,9 +15,77 @@ ht-degree: 7%
 # Vinculación basada en gráficos
 
 
-En la vinculación basada en gráficos, se especifica un conjunto de datos de evento, así como el ID persistente (cookie) y el área de nombres del ID transitorio (ID de persona) para ese conjunto de datos. La vinculación basada en gráficos crea una nueva columna para el ID vinculado en el nuevo conjunto de datos vinculado. Y, a continuación, utiliza el ID persistente para consultar el gráfico de identidades desde el servicio de identidad del Experience Platform, utilizando el área de nombres especificada para actualizar el ID vinculado.
+En la vinculación basada en gráficos, se especifica un conjunto de datos de evento, así como el ID persistente (cookie) y el área de nombres del ID transitorio (ID de persona) para ese conjunto de datos. La vinculación basada en gráficos crea una nueva columna para el ID vinculado en el nuevo conjunto de datos vinculado. Y, a continuación, utiliza el ID persistente para consultar el gráfico de identidades desde el servicio de identidad de Experience Platform, utilizando el área de nombres especificada para actualizar el ID vinculado.
 
 ![Vinculación basada en gráficos](/help/stitching/assets/gbs.png)
+
+## IdentityMap
+
+La vinculación basada en gráficos admite el uso del grupo de campos [`identifyMap` ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
+
+- Uso de la identidad principal en el espacio de nombres `identityMap` para definir el persistentID:
+   - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexigráficamente y se selecciona la primera identidad.
+   - Si se encuentran varias identidades principales en un solo área de nombres, se selecciona la primera identidad principal lexicográfica disponible.
+
+  En el ejemplo siguiente, las áreas de nombres e identidades generan una lista de identidades principales ordenada y, finalmente, la identidad seleccionada.
+
+  <table>
+     <tr>
+       <th>Espacios de nombres</th>
+       <th>Lista de identidades</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>&nbsp;]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>Lista de identidades ordenadas</th>
+      <th>Identidad seleccionada</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>PrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-2", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-1", "namespace": "ECID"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "namespace": "ECID"}<br/>]<br/>NonPrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-1", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-3", "namespace": "ECID"}<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ccid-2",<br/>"namespace": "CCID"</code></pre></td>
+    </tr>
+  </table>
+
+- Uso del espacio de nombres `identityMap` para definir el persistentID:
+   - Si se encuentran varios valores para persisttentID en un área de nombres `identityMap`, se utiliza la primera identidad lexicográfica disponible.
+
+  En el ejemplo siguiente, las áreas de nombres e identidades generan una lista de identidades ordenada para el área de nombres (ECID) seleccionada y, finalmente, la identidad seleccionada.
+
+  <table>
+     <tr>
+       <th>Espacios de nombres</th>
+       <th>Lista de identidades</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>Lista de identidades ordenadas</th>
+      <th>Identidad seleccionada</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;"id": "ecid-1",<br/>&nbsp;&nbsp;"id": "ecid-2",<br/>&nbsp;&nbsp;"id": "ecid-3"<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ecid-1",<br/>"namespace": "ECID"</code></pre></td>
+    </tr>
+  </table>
+
 
 ## Funcionamiento de la vinculación basada en gráficos
 
@@ -133,9 +201,9 @@ La siguiente tabla representa los mismos datos que los que hemos visto anteriorm
 
 Los siguientes requisitos previos se aplican específicamente a la vinculación basada en gráficos:
 
-- El conjunto de datos de evento de Adobe Experience Platform al que desea aplicar la vinculación debe tener una columna que identifique a un visitante en cada fila, la **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca de AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Experience Platform.
+- El conjunto de datos de evento de Adobe Experience Platform al que desea aplicar la vinculación debe tener una columna que identifique a un visitante en cada fila, la **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Experience Platform.
 - El identificador persistente también debe estar [definido como identidad](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/identity) en el esquema.
-- El gráfico de identidades del servicio de identidad de Experience Platform debe tener un área de nombres (por ejemplo `Email` o `Phone`) que desee usar durante la vinculación para resolver el **ID transitorio**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) para obtener más información.
+- El gráfico de identidades del servicio de identidad de Experience Platform debe tener un área de nombres (por ejemplo `Email` o `Phone`) que desee usar durante la vinculación para resolver el **identificador transitorio**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) para obtener más información.
 
 >[!NOTE]
 >
@@ -148,7 +216,7 @@ Las siguientes limitaciones se aplican específicamente a la vinculación basada
 
 - Las marcas de tiempo no se tienen en cuenta al consultar el ID transitorio mediante el área de nombres especificada. Por lo tanto, es posible que un ID persistente se vincule con un ID transitorio de un registro que tenga una marca de tiempo anterior.
 - En escenarios de dispositivos compartidos, donde el área de nombres del gráfico contiene varias identidades, se utiliza la primera identidad lexicográfica. Si los límites y prioridades del área de nombres se configuran como parte de la publicación de reglas de vinculación de gráficos, se utiliza la última identidad del usuario autenticado. Consulte [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md) para obtener más información.
-- Hay un límite estricto de tres meses para rellenar identidades en el gráfico de identidades. Se utilizan identidades de relleno en caso de que no se utilice una aplicación Experience Platform, como Real-time Customer Data Platform, para rellenar el gráfico de identidades.
+- Hay un límite estricto de tres meses para rellenar identidades en el gráfico de identidades. Para rellenar el gráfico de identidades, debe utilizar identidades de relleno en caso de que no utilice una aplicación de Experience Platform, como Real-time Customer Data Platform.
 - Se aplican las [protecciones del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails). Vea, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits) siguientes:
    - Número máximo de identidades en un gráfico: 50.
    - Número máximo de vínculos a una identidad para una sola ingesta por lotes: 50.
