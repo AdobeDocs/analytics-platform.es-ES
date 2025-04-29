@@ -5,18 +5,25 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: e4ddb98b800457e407bb414ed4929c5d5018cf30
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 10%
 
 ---
 
 # Información general sobre conexiones
 
-Las conexiones permiten a los administradores de productos de Customer Journey Analytics establecer conexiones con diferentes fuentes de datos de [!DNL Adobe Experience Platform], como conjuntos de datos de evento, búsqueda y perfil. Estas conexiones permiten la integración de datos de una Conexión a una Vista de datos derivada. Las conexiones son la base de CJA y se crean a partir de conjuntos de datos de origen de [!DNL Experience Platform]. El acceso a Conexiones también permite ver el administrador de Conexiones, que le permite ver los conjuntos de datos subyacentes que componen la conexión, así como realizar selecciones críticas de edición y configuración.
+Las conexiones permiten a los administradores de productos de Customer Journey Analytics establecer conexiones con diferentes fuentes de datos de [!DNL Adobe Experience Platform], como eventos, búsquedas, perfiles y conjuntos de datos de resumen. Estas conexiones permiten la integración de datos de una conexión a una vista de datos derivada. Las conexiones son la base de Customer Journey Analytics y se crean a partir de [!DNL Experience Platform] conjuntos de datos de origen.
 
-Se recomienda restringir el acceso a la administración de Conexiones a un grupo de administración principal. Las configuraciones a nivel de Conexión tienen implicaciones contractuales con respecto a las asignaciones de volumen para los datos introducidos en Customer Journey Analytics.
+>[!IMPORTANT]
+>
+>Puede combinar varios conjuntos de datos de [!DNL Experience Platform] en una sola conexión.
+
+
+## Flujo de trabajo Conexiones
+
+![Flujo de trabajo de conexiones](assets/connection-workflow.png)
 
 <!-- Outdated interface 
 
@@ -28,23 +35,24 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring conn
 
 -->
 
-## Permisos necesarios
+En un nivel superior, el flujo de trabajo Conexiones le permite:
 
-Para crear una conexión de Customer Journey Analytics, necesita los siguientes permisos: Para obtener más información sobre los permisos, consulte la documentación de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) y los [permisos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home).
+| Interfaz | Descripción |
+|:---:|---|
+| ➊ | [Administre sus conexiones y el uso general](manage-connections.md) de Customer Journey Analytics desde el Administrador de conexiones. |
+| ➋ | [Inspeccione los detalles de una conexión](manage-connections.md#connection-details), como los registros de conjuntos de datos ingeridos, omitidos o eliminados. |
+| ➌ | [Cree o edite la configuración de una conexión](create-connection.md#create-or-edit-a-connection), como una ventana de datos móviles, y qué conjuntos de datos forman parte de la conexión. |
+| ➍ | [Agregar conjuntos de datos a una conexión](create-connection.md#add-datasets). La conexión debe tener al menos un conjunto de datos de resumen o evento, pero puede contener una variedad de conjuntos de datos de resumen, perfil y evento. |
+| ➎ | [Configure las opciones](create-connection.md#dataset-settings) de los conjuntos de datos que agregue. Por lo tanto, puede determinar cómo vincular diferentes conjuntos de datos en función de una persona común o un identificador basado en cuenta de [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}. |
+| ➏ | [Editar la configuración de un conjunto de datos existente](create-connection.md#edit-a-dataset). Siempre puede volver a visitar la configuración del conjunto de datos en una etapa posterior. |
 
-### En Adobe Admin Console:
 
-* Customer Journey Analytics: Administrador de productos
-* Adobe Experience Platform: se ha añadido al perfil de producto denominado *AEP-Default-All-Users*
 
-### En los permisos de Adobe Experience Platform:
+## Control de acceso
 
-* Modelado de datos: Esquemas de vista, Administrar esquemas
-* Administración de datos: Ver conjuntos de datos, Administrar conjuntos de datos
-* Ingesta de datos: Administrar fuentes
-* Identity Management: ver áreas de nombres de identidad
-* Zonas protegidas: zonas protegidas utilizadas en conexiones de Customer Journey Analytics relacionadas
+El acceso a la administración de conexiones debe restringirse a un grupo de administración principal. Las configuraciones de conexión tienen implicaciones contractuales con respecto a las asignaciones de volumen para los datos introducidos en Customer Journey Analytics.
 
->[!IMPORTANT]
+>[!MORELIKETHIS]
 >
->Puede combinar varios conjuntos de datos de [!DNL Experience Platform] en una sola conexión.
+>[Control de acceso](/help/technotes/access-control.md).
+

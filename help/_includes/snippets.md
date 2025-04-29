@@ -1,8 +1,8 @@
 ---
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
 workflow-type: tm+mt
-source-wordcount: '3759'
-ht-degree: 30%
+source-wordcount: '4061'
+ht-degree: 34%
 
 ---
 # Fragmentos
@@ -239,3 +239,19 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 >[!INFO]
 >
 >En esta documentación, artículos o funcionalidades B2B específicos, solo disponibles con Customer Journey Analytics B2B edition, están marcados con [!BADGE B2B edition]{type=Informative}.
+
+
+## Configuración común de conjuntos de datos {#common-dataset-settings}
+
+| Configuración | Descripción |
+|---|---|
+| **[!UICONTROL Importar datos nuevos]** | Habilite esta opción si desea establecer una conexión continua. Con una conexión continua, los nuevos lotes de datos que se añaden a los conjuntos de datos están disponibles automáticamente en Workspace. |
+| **[!UICONTROL Relleno del conjunto de datos]** | Habilite **[!UICONTROL Relleno de todos los datos existentes]** para asegurarse de que se rellenan todos los datos existentes.<br/><br/>Seleccione **[!UICONTROL Solicitar relleno]** para rellenar los datos históricos de un período específico. Puede definir hasta 10 períodos de relleno de conjuntos de datos.<ol><li>Defina el periodo introduciendo datos de inicio y finalización o seleccionando fechas utilizando ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleccione **[!UICONTROL Relleno de cola]** para añadir el relleno a la lista o **[!UICONTROL Cancelar]** para cancelar.</li></ol>Para cada entrada, seleccione ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) para editar el periodo o seleccione ![Eliminar](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) para eliminar la entrada.<br/><br/>En rellenos:<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Prioriza los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La cantidad de datos históricos influye en la latencia.</li><li>El conector de origen de Analytics importa hasta 13 meses de datos, independientemente de su tamaño, para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.</li></ul> |
+| **[!UICONTROL Estado del lote]** | Los posibles indicadores de estado son:<ul><li>Correcto</li><li>Procesamiento de X rellenos</li><li>Off</li></ul> |
+| **[!UICONTROL ID de conjunto de datos]** | Este ID se genera automáticamente. |
+| **[!UICONTROL Descripción]** | Descripción dada a este conjunto de datos cuando se creó. |
+| **[!UICONTROL Número de registros]** | El tamaño del conjunto de datos. |
+| **[!UICONTROL Esquema]** | Este es el esquema en función del cual se creó el conjunto de datos en Adobe Experience Platform. |
+| **[!UICONTROL Conjunto de datos]** | El nombre del conjunto de datos. |
+| **[!UICONTROL Vista previa: *nombre del conjunto de datos *]** | Previsualiza el conjunto de datos para las primeras 10 filas y las primeras 10 columnas. |
+| ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Quitar]** | Puede [eliminar un conjunto de datos](/help/connections/create-connection.md#delete-a-dataset) sin eliminar toda la conexión. La eliminación de un conjunto de datos de una conexión reduce los costes que implica la ingesta de datos y el engorroso proceso de volver a crear toda la conexión y las vistas de datos asociadas. |
