@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo transferir componentes de un usuar
 role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ La transferencia de recursos requiere el permiso de administrador de productos p
 
 1. Después de seleccionar un usuario, la opción Transferir recursos aparece en la parte inferior de la pantalla.
 
-   ![opción de menú](/help/tools/asset-transfer/assets/after-selection.png)
+   ![Opción de menú Transferir recursos](/help/tools/asset-transfer/assets/after-selection.png)
 
 1. Haga clic en **[!UICONTROL Transferir recursos]**.
 
@@ -75,6 +75,20 @@ Hay tres posibles resultados para una transferencia:
 
 - **Error de transferencia**: &quot;No se pudieron transferir los recursos. Inténtelo de nuevo&quot;.
 
+### Posibles causas de un error de transferencia de recursos
+
+- Servicios dependientes que producen errores: la transferencia de recursos interactúa con un servicio diferente para cada tipo de componente (por ejemplo, problemas de red, problemas de servicio descendente), por lo que podría provocar un error parcial o completo o errores intermitentes.
+
+- Componente que falta o transferido por otro administrador: un componente fue eliminado por otro usuario o transferido por otro administrador a otra persona mientras el trabajo de transferencia de recursos aún estaba en curso.
+
+- El cuerpo de la API POST no se rellena correctamente: es posible que un componente no se envíe en el cuerpo de la API POST cuando se seleccionan varios tipos de componentes.
+
+- El usuario no existe: el usuario se eliminó a mitad de la transferencia o no es válido por otro motivo. Si el usuario no es válido antes de que se inicie la transferencia, la herramienta lo detectará y no procesará el trabajo. Si el usuario se eliminaba a mitad de la transferencia, esto podría provocar errores parciales.
+
+- Error de conexión/red: la conexión termina a mitad de la transferencia. Cualquier lote de trabajos de transferencia que ya se haya transmitido al servidor seguirá procesándose hasta su finalización, pero el usuario no verá el mensaje de resultado de la transferencia con un resumen de lo que ha tenido éxito y lo que ha fallado.
+
+- La pestaña del explorador se cerró a mitad de la transferencia: en el caso de transferencias muy grandes, si la pestaña del explorador está cerrada o se sale de la página a mitad de la transferencia, solo las solicitudes de red realizadas antes de que se cierre la pestaña o se navegue por la página transferirán los recursos correctamente. Si el usuario vuelve a la página, no recibirá el mensaje de estado de respuesta que indica qué recursos se transfirieron y cuáles no.
+
 ## Transferencia de recursos durante la actualización de Adobe Analytics a Customer Journey Analytics
 
 Uno de los principales casos de uso de la transferencia de recursos es durante la actualización de Adobe Analytics a Customer Journey Analytics.
@@ -91,6 +105,9 @@ Posteriormente, esta herramienta de transferencia de recursos permite a los admi
 
 La opción **[!UICONTROL Exportar a CSV]** solo permite a los administradores descargar una lista de usuarios mostrados en un archivo .csv. No les permite exportar una lista de recursos transferidos a un archivo .csv.
 
-<!---## Unknown users
+## Usuarios inactivos
 
-All previously deleted users appear under one unknown user entry, along with all their orphan components. These components can be transferred to a new recipient. This feature will be available in January.-->
+Todos los usuarios eliminados anteriormente aparecen en la entrada &quot;Usuarios inactivos&quot;, junto con todos sus componentes huérfanos. Estos componentes se pueden transferir a un nuevo destinatario. Esta función estará disponible en enero.
+
+Se muestran ![usuarios inactivos en la interfaz de usuario de transferencia de recursos](assets/inactive-users.png)
+
