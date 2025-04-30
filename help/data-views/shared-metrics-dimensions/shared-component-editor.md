@@ -1,7 +1,8 @@
 ---
 title: Editor de componentes compartidos
 description: Cree o edite dimensiones y métricas compartidas.
-source-git-commit: d2c6605cc440c293aca279c1583bac964055d277
+exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
+source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -19,7 +20,7 @@ El editor de componentes compartidos permite crear o editar dimensiones y métri
 
 La parte superior derecha incluye tres botones:
 
-* **[!UICONTROL Cerrar]** o **[!UICONTROL Cancelar]**: si se guardan todos los cambios, el botón **[!UICONTROL Cerrar]** cerrará el editor. Si hay cambios sin guardar, el botón **[!UICONTROL Cancelar] cierra el editor sin guardar dichos cambios.
+* **[!UICONTROL Cerrar]** o **[!UICONTROL Cancelar]**: si se guardan todos los cambios, el botón **[!UICONTROL Cerrar]** cerrará el editor. Si hay cambios sin guardar, el botón **[!UICONTROL Cancelar]** cierra el editor sin guardar los cambios.
 * **[!UICONTROL Guardar]**: guarda todos los componentes y mantiene abierto el editor.
 * **[!UICONTROL Guardar y finalizar]**: guarda todos los componentes y cierra el editor.
 

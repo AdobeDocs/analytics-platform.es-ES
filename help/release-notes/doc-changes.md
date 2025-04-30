@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
+source-git-commit: 1a88be1f79bc6dc07f849af5f32f3472105ee3ed
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5103'
 ht-degree: 90%
 
 ---
@@ -20,6 +20,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 | --- | --- |
 | **Abril de 2025** | |
+| Conexiones | Se ha modificado y actualizado la documentación de conexiones de Recorrido del cliente para el próximo B2B edition de Recorrido del cliente. |
 | Caso de uso de análisis de producto | Se agregó [análisis de producto en Customer Journey Analytics](/help/use-cases/product-analysis.md). |
 | Métricas y dimensiones compartidas | Se ha agregado documentación para la función [Métricas y dimensiones compartidas](/help/data-views/shared-metrics-dimensions/smd-overview.md). |
 | Report Builder | Revisó y actualizó la documentación de [Report Builder](/help/report-builder/report-buider-overview.md). |
