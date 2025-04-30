@@ -3,16 +3,16 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4e65e2fd1720b63b9dec341d4a67f7356df77fcb
+source-git-commit: 8a8244bff45017a4b021599df6ff3dc37cf8e1c6
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 76%
+source-wordcount: '890'
+ht-degree: 71%
 
 ---
 
 # Notas actuales de la versión de Adobe Customer Journey Analytics (abril de 2025)
 
-**Última actualización**: martes, 28 de abril de 2025
+**Última actualización**: jueves, 30 de abril de 2025
 
 Estas notas de la versión cubren el período comprendido entre el 27 de marzo y 15 de mayo de 2025. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,6 +20,7 @@ Estas notas de la versión cubren el período comprendido entre el 27 de marzo y
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Aumento en los límites de exportación de tabla completa** | Estamos aumentando el número de columnas que los clientes pueden utilizar con la exportación de tabla completa de 5 dimensiones y 5 métricas a 10 dimensiones y 10 métricas. Esto se aplica a todos los niveles de Customer Journey Analytics. No hay cambios en los derechos del número de filas que se pueden exportar. |  | 30 de abril de 2025 |
 | **Actualizaciones del elemento de línea &quot;Sin valor&quot; en dimensiones numéricas** | Para las dimensiones numéricas, esta actualización le permite<ul><li>Utilice el elemento de dimensión &quot;Sin valor&quot; en un segmento.</li><li>Realizar un desglose en un informe sobre el elemento de línea &quot;Sin valor&quot;.</li></ul> [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) | 27 de marzo de 2025 |
 | **Adobe Product Analytics** | Adobe Content Analytics le permite investigar rápida y fácilmente grandes volúmenes de datos de contenido para descubrir tendencias, detectar anomalías, identificar la fatiga del contenido y obtener información de la exposición al contenido.<p>De forma predeterminada, puede ahorrar tiempo con las plantillas de creación de informes generadas previamente y nuevas funciones como el Inspector de recursos. Esta función le permite no solo visualizar el recurso en línea con los datos, sino también abrir cada recurso para obtener detalles resumidos, entre ellos, ellos el rendimiento, ubicaciones, atributos y mucho más.<p>Puede investigar este nuevo conjunto de datos de contenido dentro del contexto del recorrido completo del cliente para responder a preguntas comerciales importantes, evaluar el rendimiento del contenido, mejorar la segmentación, identificar oportunidades de optimización y definir nuevos públicos para la activación.<p>El análisis de contenido es un complemento de Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics) |  | 27 de marzo de 2025 |
 | **Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de creación de informes de medios** | El conector de origen de Analytics asigna automáticamente los datos de medios de streaming en Adobe Analytics a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero en el futuro solo se utilizará la nueva ubicación. [Más información](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 31 de marzo de 2025 |

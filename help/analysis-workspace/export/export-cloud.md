@@ -5,7 +5,7 @@ title: Exportación de informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 98%
@@ -189,7 +189,7 @@ Los siguientes componentes no son compatibles y Analysis Workspace le pide que l
    * Tiene [habilitada la persistencia](/help/data-views/component-settings/persistence.md)
    * No está usando una [dimensión de enlace](/help/use-cases/data-views/binding-dimensions-metrics.md)
 * Varias dimensiones que proceden de campos que hacen referencia a diferentes [matrices de objetos](/help/use-cases/object-arrays.md). (Se permiten varias dimensiones que hagan referencia a la misma matriz de objetos).
-* Más de 5 dimensiones y 5 métricas por informe (se admiten hasta 5 dimensiones y 5 métricas)
+* Más de 10 dimensiones y 10 métricas por informe (se admiten hasta 10 dimensiones y 10 métricas)
 * En columnas de la tabla:
    * Intervalos de fechas
    * Dimensiones
@@ -227,8 +227,8 @@ Si anteriormente utilizó Data Warehouse para exportar datos de Adobe Analytics,
 | Crear un informe personalizado | Sí | Sí |
 | Métricas calculadas  | Sí | No |
 | Segmentos  | Sí | Limitado |
-| Dimensiones | Límite de 5 | Ilimitado |
-| Métricas | Límite de 5 | Ilimitado |
+| Dimensiones | Límite de 10 | Ilimitado |
+| Métricas | Límite de 10 | Ilimitado |
 | Filas de informes | Límite de 3 millones, 30 millones, 150 millones o 300 millones, según el nivel | Ilimitado |
 | Número de informes | Ilimitado | Ilimitado |
 | Envío ad hoc (único) | Sí | Sí |
