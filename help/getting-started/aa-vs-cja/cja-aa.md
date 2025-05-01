@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 8972a195554971006eb4315bdd216947d6cf79f3
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 94%
+source-wordcount: '2482'
+ht-degree: 93%
 
 ---
 
@@ -37,6 +37,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Lienzo del recorrido** | El [Lienzo del recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en) es una visualización de Analysis Workspace que permite analizar cómo las personas pasan o salen de un recorrido definido.  |
 | **Uso del producto** | [Uso del producto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/tools/product-usage/usage-overview) le muestra cómo su organización utiliza Customer Journey Analytics. |
 | **Transformaciones de tiempo de informes** | Las [Vistas de datos](/help/data-views/data-views.md) de Customer Journey Analytics le permiten interpretar aún más los datos de una conexión. Puede modificar o quitar datos sin cambiar su implementación, utilizar subcadenas para manipular dimensiones, crear métricas a partir de cualquier valor o filtrar subeventos. Todas estas transformaciones se realizan de manera no destructiva. Adobe Analytics proporciona funciones limitadas a través de grupos de informes virtuales y longitud de sesión personalizada. |
+| **Métricas y dimensiones compartidas en vistas de datos** | Le permite [aplicar la configuración de dimensiones y métricas en varias vistas de datos](/help/data-views/shared-metrics-dimensions/smd-overview.md). Los cambios realizados en una dimensión o métrica compartida se aplican a todas las instancias de esa dimensión o métrica en todas las vistas de datos aplicables. |
 | **Acceso SQL** | Con la opción Data Distiller, Customer Journey Analytics puede eliminar las limitaciones de los datos recopilados en el procesamiento back-end de Adobe. Puede modificar los datos con SQL, crear valores y conjuntos de datos únicos para su empresa y continuar explorando. Analytics no admite ningún tipo de acceso SQL a sus datos. |
 | **Unión** | [Vinculación](/help/stitching/overview.md) es una potente función que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes de varios conjuntos de datos de diferentes canales sin problemas, en función de un identificador común (ID de persona). |
 | **Plantillas de Adobe Journey Optimizer** | Personalice la nueva interfaz de informes en Adobe Journey Optimizer creando o editando una [plantilla](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en) en Customer Journey Analytics y, a continuación, guardando la plantilla para usarla en la página Informes de Journey Optimizer. |
