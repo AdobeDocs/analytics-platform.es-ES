@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -19,59 +19,74 @@ ht-degree: 0%
 
 {{draft-b2b}}
 
-En este artículo se explican los conceptos y las funciones generales de los conjuntos de datos y los contenedores, y cómo difieren entre el estándar y el B2B edition de Customer Journey Analytics.
-
-Los conjuntos de datos son el origen de una conexión. Como parte de la configuración de una conexión, puede definir conjuntos de datos para que formen parte de esa conexión.
-
-Los contenedores son un complemento utilizado en Customer Journey Analytics para admitir y facilitar funciones como segmentos, métricas calculadas y funciones de análisis avanzadas.
+En este artículo se explican conceptos como conexiones, identificadores, contenedores y conjuntos de datos, utilizados comúnmente en Customer Journey Analytics. Y cómo Customer Journey Analytics B2B edition agrega funciones adicionales a estos conceptos.
 
 
+## Conexiones e identificadores
+
+En Customer Journey Analytics, elige un identificador común, conocido como ID de persona, para conectar los datos de evento con otros conjuntos de datos, como conjuntos de datos de perfil y conjuntos de datos de búsqueda. Este tipo de conexión se conoce como conexión basada en personas que facilita los informes y análisis basados en personas.
+
+En Customer Journey Analytics B2B edition, puede seleccionar entre una conexión basada en persona o en una conexión basada en cuenta. Una conexión basada en cuentas facilita la creación de informes y el análisis basados en cuentas.
+
+* Para una conexión basada en persona, seleccione Persona como identificador principal. A continuación, puede configurar sus proyectos de conexión, vista de datos y espacio de trabajo para la creación de informes basados en personas.
+* Para una conexión basada en cuentas, seleccione Cuenta como identificador principal. A continuación, puede añadir contenedores adicionales para Cuenta global, Grupo de compra y Oportunidad. Dependiendo de si añade una cuenta global o no, su identificador principal es un identificador de cuenta o un identificador de cuenta global.
 
 
-## Contenedores estándar
+## Contenedores
 
-La versión *standard* de Customer Journey Analytics se basa en el concepto de tres contenedores: Persona, Sesión y Evento. En una configuración estándar de Customer Journey Analytics, estos contenedores relevantes se generan implícitamente en función de la configuración.
+En Customer Journey Analytics, los contenedores se generan como parte de la configuración de una conexión y una vista de datos. Los contenedores solo almacenan identificadores para facilitar la ejecución rápida y eficaz de funcionalidades como segmentación, desgloses y más.
 
-Puede redefinir cómo se asignan los nombres a estos contenedores cuando configura una vista de datos, pero conceptualmente la versión estándar utiliza una jerarquía de contenedores basada en persona.
+### Contenedores estándar
+
+Customer Journey Analytics se basa en el concepto de tres contenedores: Persona, Sesión y Evento. Durante una configuración, estos contenedores se generan implícitamente.
+
+Puede redefinir cómo se asignan los nombres a estos contenedores al configurar una vista de datos, pero la jerarquía y las relaciones entre los contenedores están predeterminadas. El contenedor de sesión se genera en función de cómo defina una sesión en la [configuración de sesión](/help/data-views/session-settings.md) de la vista de datos.
 
 ![B2C](assets/b2c-containers.svg){zoomable="yes"}
 
-En la conexión, se agregan conjuntos de datos de evento, perfil y búsqueda y se seleccionan identidades para utilizar y definir la conexión entre estos conjuntos de datos. Como parte de la conexión, se genera automáticamente una jerarquía de contenedor basada en persona. En esa jerarquía, el contenedor de sesión está definido por la [configuración de sesión](/help/data-views/session-settings.md) de la vista de datos.
 
+### Contenedores B2B
 
-## Contenedores B2B
+En Customer Journey Analytics B2B edition, se agrega un contenedor de cuenta a la lista de contenedores generados. Además, tiene la opción de configurar la generación de contenedores adicionales, como Cuenta global, Grupo de compra y Oportunidad.
 
-En Customer Journey Analytics B2B edition, se agrega un contenedor de cuenta a la lista de contenedores generados.  Además, tiene la opción de configurar la generación de contenedores adicionales, como Cuenta global, Grupo de compra y Oportunidad.
+La jerarquía y las relaciones entre los contenedores están predeterminadas. Oportunidad, grupo de compra y persona son contenedores del mismo nivel del contenedor de cuenta. En esa jerarquía, el contenedor de sesión entre el contenedor de persona y el contenedor de evento se genera en función de cómo defina una sesión en la [configuración de sesión](/help/data-views/session-settings.md) de la vista de datos. Actualmente no se generan ni admiten contenedores de sesión adicionales, por ejemplo, entre el contenedor de cuenta y el contenedor de evento. Consulte la tabla siguiente para obtener una descripción y un uso básico de los contenedores B2B.
 
 ![B2B](assets/b2b-containers.svg){zoomable="yes"}
 
-En la conexión, agrega Evento, Cuenta, Cuenta global, Oportunidad, Grupo de compra y otros conjuntos de datos de búsqueda. Selecciona Cuenta como ID principal para la conexión, de modo que puede utilizar identidades basadas en cuentas para definir la conexión entre los conjuntos de datos. Como parte de la conexión, se genera automáticamente una jerarquía de contenedor basada en cuentas. En esa jerarquía, el contenedor de sesión entre el contenedor de persona y el contenedor de evento se define mediante la [configuración de sesión](/help/data-views/session-settings.md) en la vista de datos. Además, actualmente no se admiten contenedores de sesión, por ejemplo, entre Account y Event.
-
-Oportunidad, grupo de compra y persona son contenedores del mismo nivel del contenedor de cuenta. Consulte la tabla siguiente para obtener una descripción y un uso básico.
-
 | Contenedor B2B | Descripción<br/>Caso de uso básico |
 |---|---|
-| Cuenta | Una compañía que es cliente o cliente potencial de su negocio. Podría ser una filial o división de una organización más grande. La cuenta representa la organización a la que realiza ventas y a la que desea realizar un seguimiento en ese nivel de organización. |
-| Cuenta global (opcional) | La sociedad matriz superior de un grupo de sociedades vinculadas. Una cuenta global no tiene compañía matriz, pero puede tener filiales o divisiones que pertenezcan a la cuenta global. Una cuenta que no tenga una cuenta principal o subsidiaria debe aparecer tanto en el campo de cuenta como en el campo de cuenta global, si ambos están habilitados como parte de la configuración de una conexión. |
-| Oportunidad (opcional) | Una colección de productos y servicios que se venden juntos. Una oportunidad que a menudo implicaba varias etapas en el ciclo de ventas para cerrar como una venta.<br>Utilizaría los datos de oportunidad para medir la progresión de la oportunidad a través del canal de ventas. Por ejemplo, un informe que proporciona detalles sobre las principales oportunidades que se trasladaron de la fase 3 a la fase 4. |
+| Cuenta | Una compañía que es cliente o cliente potencial de su negocio. La empresa podría ser una filial o división de una organización más grande. La cuenta representa la organización a la que realiza ventas y a la que desea realizar un seguimiento en ese nivel de organización. |
+| Cuenta global (opcional) | La sociedad matriz superior de un grupo de sociedades vinculadas. Una cuenta global no tiene compañía matriz, pero puede tener filiales o divisiones que pertenezcan a la cuenta global. Cuando tenga el contenedor de cuenta global configurado en la conexión, una cuenta que no tenga ninguna matriz o filiales deberá aparecer en el campo de cuenta y en el campo de cuenta global. |
+| Oportunidad (opcional) | Una colección de productos y servicios que se venden juntos. Una oportunidad a menudo implicaba varias etapas en el ciclo de ventas hasta el cierre de la venta.<br>Utilizaría datos para medir la progresión de la oportunidad a través del canal de ventas. Por ejemplo, un informe que proporciona detalles sobre las principales oportunidades que se movieron de la fase 3 a la fase 4. |
 | Grupo comprador (opcional) | Colección de personas de una organización que participan en el proceso de toma de decisiones para adquirir un producto o servicio. <br/>Utilizaría los datos del grupo de compra para rastrear los grupos de compra a través de la administración de campañas. Por ejemplo, cree un segmento de audiencia de grupos de compra clave.<br/> Lo más probable es que desee una búsqueda del grupo comprador en los datos de perfil para poder informar sobre las personas de un grupo comprador. |
 | Persona | Una persona, a menudo identificada por una dirección de correo electrónico única que ha interactuado con la compañía. <br/>Utilizaría los datos de perfil para identificar a las personas que trabajan para una cuenta. Por ejemplo: diríjase a todas las personas de una cuenta que se hayan registrado en una conferencia. |
 
+>[!IMPORTANT]
+>
+>* Si ha **habilitado** el contenedor de cuenta global en una conexión basada en cuentas, cada registro de los conjuntos de datos de evento debe contener un identificador de cuenta y un identificador de cuenta global. Si no es así, se omite el registro.
+>* Si **no ha habilitado** el contenedor de cuenta global en una conexión basada en cuentas, cada registro de los conjuntos de datos de evento debe contener un identificador de cuenta. Si no es así, se omite el registro.
+
+## Conjuntos de datos
+
+Al configurar [configuración de conjuntos de datos](/help/connections/create-connection.md#dataset-settings) para la conexión basada en cuentas en Customer Journey Analytics B2B edition, las opciones disponibles para algunas de las opciones dependen del [tipo de conjunto de datos](/help/connections/create-connection.md#dataset-types). Por ejemplo, debe:
+
+* Especifique identificadores para cada uno de los contenedores configurados para los conjuntos de datos de evento.
+* Defina un campo de cuenta o un campo de cuenta global para sus conjuntos de datos de perfil.
+* Defina las claves y cómo hacer coincidir estas claves (por contenedor de campo) para los conjuntos de datos de búsqueda.
 
 ## Coincidir por contenedor o campo
 
-Al definir una conexión en Customer Journey Analytics, puede definir para cada conjunto de datos de registro (perfil o búsqueda), si ese conjunto de datos coincide por contenedor o por campo.
+Puede definir para cada conjunto de datos de búsqueda, si coincide el conjunto de datos por campo o por contenedor.
 
 ### Coincidencia por contenedor
 
-Si un conjunto de datos de registro coincide con un contenedor como, por ejemplo, un grupo de compra, el conjunto de datos de registro se trata como un tipo de conjunto de datos de perfil y como un conjunto de datos de perfil en la interfaz de usuario.
+Si un conjunto de datos de registro utiliza una coincidencia por contenedor, el conjunto de datos de registro se trata como un tipo de conjunto de datos de perfil y como un conjunto de datos de perfil en la interfaz de usuario. Utilice la coincidencia por contenedor en conjuntos de datos que admitan los contenedores configurados. Por ejemplo, un conjunto de datos de grupo de compra.
 
 ### Coincidencia por campo
 
-Si un conjunto de datos de registro coincide con un campo, por ejemplo un miembro de la lista de marketing, el conjunto de datos de registro se trata como un tipo de conjunto de datos de búsqueda y como un conjunto de datos de búsqueda en la interfaz de usuario.
-
+Si un conjunto de datos de registro utiliza una coincidencia por campo, el conjunto de datos de registro se trata como un tipo de conjunto de datos de búsqueda y como un conjunto de datos de búsqueda en la interfaz de usuario. Utilizar la coincidencia por campo en conjuntos de datos que admiten detalles adicionales mediante la búsqueda Por ejemplo, un conjunto de datos de miembro de una lista de marketing o un conjunto de datos de detalles de producto.
 
 
 ## Informar sobre datos basados en personas y cuentas
 
-Si desea informar sobre contenedores basados en personas (e identidades de personas) y contenedores basados en cuentas (e identidades de cuentas), debe configurar dos conexiones independientes dentro de Customer Journey Analytics. Una conexión en la que selecciona Persona como ID principal y otra en la que selecciona Cuenta como ID principal. Customer Journey Analytics no admite informes basados en personas y cuentas desde el mismo contenedor.
+Si desea informar sobre contenedores basados en personas (e identidades de personas) y contenedores basados en cuentas (e identidades de cuentas), debe configurar dos conexiones independientes dentro de Customer Journey Analytics. Una conexión en la que selecciona Persona como ID principal y otra en la que selecciona Cuenta como ID principal. Customer Journey Analytics no admite informes basados en personas y en cuentas desde una sola jerarquía de contenedor.

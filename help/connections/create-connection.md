@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
 workflow-type: tm+mt
-source-wordcount: '6794'
-ht-degree: 58%
+source-wordcount: '6802'
+ht-degree: 56%
 
 ---
 
@@ -331,8 +331,8 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
->title="Clave de correspondencia"
->abstract="Seleccione cómo desea unirse: mediante una clave de coincidencia o un contenedor de coincidencia.<br/><br/>**[!UICONTROL Clave de coincidencia ]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Contenedor de coincidencia]**: seleccione un contenedor para utilizarlo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
+>title="Tipo de llave coincidente"
+>abstract="Seleccione cómo desea unirse: en función de un campo de coincidencia o de un contenedor de coincidencia.<br/><br/>**[!UICONTROL Coincidir por campo ]**: seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -446,8 +446,8 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
->title="Clave de correspondencia"
->abstract="Seleccione cómo desea unirse: mediante una clave de coincidencia o un contenedor de coincidencia.<br/><br/>**[!UICONTROL Clave de coincidencia ]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Contenedor de coincidencia]**: seleccione un contenedor para utilizarlo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
+>title="Tipo de llave coincidente"
+>abstract="Seleccione cómo desea unirse: en función de un campo de coincidencia o de un contenedor de coincidencia.<br/><br/>**[!UICONTROL Coincidir por campo ]**: seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya configurado uno o más contenedores."
 
 <!-- markdownlint-enable MD034 -->
 
