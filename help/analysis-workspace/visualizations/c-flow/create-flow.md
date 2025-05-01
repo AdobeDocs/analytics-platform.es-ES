@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -39,7 +39,7 @@ Puede configurar el inicio o el final de la ruta que le interese. O bien, analic
 
    * Utilice el menú desplegable para seleccionar métricas o dimensiones.
    * Arrastre las dimensiones o métricas del panel izquierdo.
-   * Empiece a escribir el nombre de una dimensión o métrica y, a continuación, selecciónela cuando aparezca en la lista desplegable.
+   * Empiece a escribir el nombre de una dimensión o métrica y, a continuación, selecciónela cuando aparezca en el menú desplegable.
 
    >[!IMPORTANT]
    >

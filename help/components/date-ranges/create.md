@@ -4,10 +4,10 @@ description: Crear un intervalo de fecha para utilizarlo en los informes.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 79%
+ht-degree: 76%
 
 ---
 
@@ -55,7 +55,7 @@ El cuadro de diálogo **[!UICONTROL Nuevo intervalo de fechas]** o **[!UICONTROL
 1. Opcionalmente, especifique una **[!UICONTROL Descripción]**.
 1. Organice el segmento creando o aplicando una o más **[!UICONTROL Etiquetas]**. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O pulse **[!UICONTROL Entrar]** para añadir una etiqueta nueva. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta.
 1. Seleccione un **[!UICONTROL Intervalo de fechas]** seleccionando primero la fecha de inicio y, a continuación, la fecha de finalización.
-También puedes seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
+También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
 
 1. De manera opcional, selecciona **[!UICONTROL Mostrar configuración avanzada]** para:
 

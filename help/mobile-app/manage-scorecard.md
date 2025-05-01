@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1806'
-ht-degree: 64%
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ En este tema se enseña a los depuradores de datos de Customer Journey Analytics
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
-Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando segmentos.
+Al hacer clic en un mosaico en el Creador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando segmentos.
 
 ![Mosaico de propiedades](assets/properties-tile-new.png)
 
@@ -34,7 +34,7 @@ Los desgloses afinan el análisis al desglosar las métricas por elementos de di
 
 ![Breakdown_view](assets/break_view.png)
 
-Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
+Cada dimensión agregada al mosaico se mostrará en un menú desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en el menú desplegable.
 
 ## Personalización de diapositivas de detalle {#customize-detail-slide}
 
@@ -42,7 +42,7 @@ Las diapositivas de detalles personalizadas le permiten centrarse aún más en l
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [vistas de detalles personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -71,7 +71,7 @@ Para agregar texto a una diapositiva de detalles, seleccione un diseño que mues
 
 ## Eliminación de componentes {#remove}
 
-Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, quítelo haciendo clic en el **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para **Visitas por primera vez**:
+Del mismo modo, para eliminar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el puntero por encima del componente, como se muestra a continuación para el filtro **Visitas por primera vez**:
 
 ![Remove_components](assets/new_remove.png)
 
@@ -79,7 +79,7 @@ Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resu
 
 Una historia basada en datos es una colección de puntos de datos de apoyo, contexto empresarial y métricas relacionadas creada en torno a un tema o métrica central.
 
-Por ejemplo: si se centra en el tráfico web, la métrica más importante pueden ser las visitas, pero también puede estar interesado en nuevas personas, personas únicas y es posible que desee ver los datos desglosados por página web o por el tipo de dispositivo del que proviene el tráfico. Las historias basadas en datos en proyectos de cuadros de resultados móviles le permiten poner sus métricas más importantes en primer plano y, al mismo tiempo, contar toda la historia que hay detrás con múltiples diapositivas detalladas.
+Por ejemplo, si se centra en el tráfico web, la métrica más importante pueden ser las visitas, pero también puede estar interesado en nuevos visitantes, visitantes únicos y puede que quiera ver los datos desglosados por cada página web o por el tipo de dispositivo desde el que proviene el tráfico. Las historias basadas en datos en proyectos de cuadros de resultados móviles le permiten poner sus métricas más importantes en primer plano y, al mismo tiempo, contar toda la historia que hay detrás con múltiples diapositivas detalladas.
 
 Vea el vídeo para obtener más información acerca de la creación de historias basadas en datos en los proyectos de cuadro de resultados móviles en Analysis Workspace.
 
@@ -91,7 +91,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de dat
 >[!ENDSHADEBOX]
 
 
-**Para crear una historia de datos** {#data-story-create}
+**Para crear una historia basada en datos** {#data-story-create}
 
 Cree su historia basada en datos al agregar varias diapositivas de detalles a un mosaico.
 
@@ -122,7 +122,7 @@ Cuando arrastra y suelta un componente como una visualización en un mosaico, es
    ![Creación de una historia basada en datos](assets/data-story4.png)
 
 >[!NOTE]
->Las diapositivas heredan los componentes del mosaico, pero los mosaicos no heredan los componentes de las diapositivas.
+>Las diapositivas heredan componentes del mosaico, pero los mosaicos no heredan componentes de las diapositivas.
 
 **Para personalizar las diapositivas individuales**
 
@@ -142,9 +142,9 @@ Para moverse entre los mosaicos y las diapositivas, pulse la barra de navegació
 
 También puede navegar hacia atrás y hacia adelante utilizando las flechas del teclado o seleccionando un componente y manteniéndolo a la izquierda o a la derecha de la pantalla para desplazarse.
 
-## Previsualizar informes de valoración {#preview}
+## Vista previa de los cuadros de resultados {#preview}
 
-Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de resultados una vez que se publique en la aplicación de paneles de Adobe Analytics.
+Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de resultados una vez que se publique en la aplicación de paneles de Analytics.
 
 1. Haga clic en **[!UICONTROL Vista previa]** en la esquina superior derecha de la pantalla.
 
@@ -162,13 +162,13 @@ Puede obtener una vista previa del aspecto y el funcionamiento del cuadro de res
 
    * Haga clic y mantenga presionado para simular el efecto del dedo en la pantalla del teléfono. Esto resulta útil para interactuar con las visualizaciones en la vista detallada.
 
-## Compartir cuadros de resultados {#share}
+## Uso compartido de cuadros de resultados {#share}
 
-Para compartir el informe de valoración con un usuario ejecutivo:
+Para compartir el cuadro de resultados con un usuario ejecutivo:
 
 1. Haga clic en el menú **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Compartir informe de valoración]**.
 
-1. En el formulario **[!UICONTROL Compartir informe de valoración móvil]**, rellene los campos con:
+1. En el formulario **[!UICONTROL Compartir cuadro de resultados móvil]**, complete los campos mediante los elementos siguientes:
 
    * Proporción del nombre del cuadro de resultados
    * Proporción de la descripción del cuadro de resultados
@@ -179,13 +179,13 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 ![Share_Scorecards](assets/new_share.png)
 
-Una vez que haya compartido un cuadro de resultados, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el cuadro de resultados mediante el Generador de cuadros de resultados, estos se actualizarán automáticamente en el cuadro de resultados compartido. Los usuarios ejecutivos verán los cambios después de actualizar el cuadro de resultados en su aplicación.
+Una vez que haya compartido un cuadro de resultados, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el cuadro de resultados del creador de cuadros de resultados, se actualizarán automáticamente en el cuadro de resultados compartido. Los usuarios ejecutivos verán los cambios después de actualizar el cuadro de resultados en su aplicación.
 
 Si actualiza el cuadro de resultados con nuevos componentes, es posible que desee volver a compartirlo (marque la opción **[!UICONTROL Compartir componentes incrustados]**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.
 
-### Compartir informes de valoración mediante un vínculo que se puede compartir
+### Uso compartido de cuadros de resultados mediante un vínculo que se puede compartir
 
-El uso de un vínculo que se puede compartir facilita el uso de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles. La vinculación profunda compartible facilita aún más el uso compartido de proyectos y la participación con las partes interesadas.
+El uso de un vínculo que se puede compartir facilita el uso compartido de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles. Los vínculos profundos compartibles facilitan aún más el uso compartido de proyectos y aumentan participación con las partes interesadas.
 
 Para compartir un cuadro de resultados mediante un vínculo que se puede compartir
 
@@ -197,9 +197,9 @@ Para compartir un cuadro de resultados mediante un vínculo que se puede compart
 
    Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto del cuadro de resultados móvil se abrirá en Workspace.
 
-   Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abre directamente en la aplicación de paneles de Adobe Analytics.
+   Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abrirá directamente en la aplicación de paneles de Adobe Analytics.
 
-   Si un destinatario no ha descargado la aplicación móvil, se le redirigirá a la lista de aplicaciones de la tienda de App Store o Google Play donde pueda descargarla.
+   Si un destinatario no ha descargado la aplicación móvil, se le redirigirá a la lista de aplicaciones de la tienda App Store o Google Play donde pueda descargarla.
 
 
 ## Eliminar elemento de dimensión [!UICONTROL no especificado] {#remove-dims}

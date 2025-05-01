@@ -4,10 +4,10 @@ title: Segmentos rápidos
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: e9516455416c0e5f228d62d17dee5ef87c368337
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 26%
+source-wordcount: '1174'
+ht-degree: 23%
 
 ---
 
@@ -75,7 +75,7 @@ El área de encabezado determina el nombre, tipo y ámbito del segmento rápido.
 |---|---|
 | **[!UICONTROL Nombre]** | El nombre se deriva automáticamente de la definición del segmento rápido. |
 | **[!UICONTROL Personas]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Vista previa de los datos resultantes del segmento rápido. Una barra y un porcentaje proporcionan a insight la cantidad de datos generales que forman parte del resultado del segmento rápido. Una ![alerta](/help/assets/icons/Alert.svg) roja indica que el segmento rápido no devuelve datos. |
-| **[!UICONTROL Incluir]**<br/>**[!UICONTROL Excluir]** | Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) si desea incluir o excluir los resultados del segmento rápido de los datos en el panel. |
+| **[!UICONTROL Incluir]**<br/>**[!UICONTROL Excluir]** | Seleccione en la lista desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) si desea incluir o excluir los resultados del segmento rápido de los datos en el panel. |
 | **[!UICONTROL Evento]**<br/>**[!UICONTROL Sesión]**<br/>**[!UICONTROL Persona]** | Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) el ámbito del segmento rápido. |
 
 ### Área de condición
@@ -84,7 +84,7 @@ El área de condición especifica las condiciones (hasta un máximo de tres). Pa
 
 | Elemento | Descripción |
 |---|---|
-| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Métrica]**<br/>**[!UICONTROL Intervalo de fecha]** | Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) si desea especificar una condición para una dimensión, métrica o intervalo de fechas. |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Métrica]**<br/>**[!UICONTROL Intervalo de fecha]** | Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) si desea especificar una condición para una dimensión, métrica o intervalo de fecha. |
 | **[!UICONTROL *componente *]** | El campo de componente de la condición. Puede [!UICONTROL *Escribir para añadir*] un componente, seleccionar un componente de la lista o arrastrar y soltar un componente desde el panel de componentes. Solo puede soltar componentes similares en el campo de componente de la condición. Por ejemplo, solo puede soltar un componente de dimensión del panel de componentes en una condición de dimensión. <br/>También puede arrastrar y soltar para reemplazar un componente existente.<br/>Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para eliminar el componente del campo de componente. |
 | **[!UICONTROL *operador *]** | El operador del componente. Consulte [Operadores](operators.md) para obtener más información. Solo está disponible para dimensiones y métricas. |
 | **[!UICONTROL *value *]** | El valor de la condición. Según el operador seleccionado, el valor puede seleccionarse de una lista o puede introducir un valor. |

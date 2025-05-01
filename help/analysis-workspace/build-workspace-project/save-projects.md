@@ -4,10 +4,10 @@ title: Guardar proyectos
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -39,11 +39,11 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
    1. Especifique lo siguiente:
 
-      * **[!UICONTROL Nombre]** (obligatorio) nombre del proyecto.
+      * **[!UICONTROL Nombre]** (obligatorio).  nombre del proyecto.
       * **[!UICONTROL Descripción]** Descripción del proyecto.
       * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
       * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
-      * **[!UICONTROL Notas de la versión]**. Añada notas de versión en el área de texto *Añadir notas*.
+      * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
 
    1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
 

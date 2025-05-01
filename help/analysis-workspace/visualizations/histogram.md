@@ -4,10 +4,10 @@ title: Histograma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ La visualización ![Histograma](/help/assets/icons/Histogram.svg) **[!UICONTRO
 Para crear un histograma:
 
 1. Añada una visualización ![Histograma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histograma]**. Consulte [Añadir una visualización a un panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
-1. Arrastre una métrica de la lista de componentes **[!UICONTROL Métricas]** o seleccione una métrica en el menú desplegable [!UICONTROL *Añadir una métrica*].
+1. Arrastre una métrica de la lista de componentes **[!UICONTROL Métricas]** o seleccione una métrica del menú desplegable [!UICONTROL *Agregar una métrica*].
 1. (opcional) Seleccione **[!UICONTROL Mostrar configuración avanzada]** para: Consulte [Configuración avanzada](#advanced-settings).
 1. Seleccione **[!UICONTROL Generar]**.
 

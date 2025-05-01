@@ -5,10 +5,10 @@ title: Administrar carpetas en Workspace
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
-workflow-type: ht
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -44,7 +44,7 @@ Eliminar carpetas en Workspace:
 * Selecciona la carpeta que desees mover en la [lista de proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
    1. Selecciona **[!UICONTROL Mover a]** de las [acciones](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
-   1. En el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**, selecciona una carpeta del menú desplegable **[!UICONTROL Carpeta]** a la que mover la carpeta.
+   1. En el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**, seleccione una carpeta del menú desplegable **[!UICONTROL Carpeta]** a la que mover la carpeta.
 
    1. Seleccione **[!UICONTROL Mover]**.
 
@@ -52,7 +52,7 @@ Eliminar carpetas en Workspace:
 
    1. Selecciona **[!UICONTROL Mover carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. En el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**, selecciona una carpeta del menú desplegable **[!UICONTROL Carpeta]** a la que mover la carpeta.
+   1. En el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**, seleccione una carpeta del menú desplegable **[!UICONTROL Carpeta]** a la que mover la carpeta.
 
    1. Seleccione **[!UICONTROL Mover]**.
 

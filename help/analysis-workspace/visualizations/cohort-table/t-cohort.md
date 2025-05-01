@@ -5,7 +5,7 @@ title: Configuración de una tabla de cohorte
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
 role: User
-source-git-commit: e4ddb98b800457e407bb414ed4929c5d5018cf30
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 85%

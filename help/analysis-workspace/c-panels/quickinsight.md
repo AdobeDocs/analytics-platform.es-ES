@@ -4,10 +4,10 @@ title: Panel de información rápida
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 94%
+source-wordcount: '1154'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ La primera vez que empieces a usar este [!UICONTROL Analysis Workspace], es posi
 * dónde crear un segmento,
 * y más
 
-Para ayudarlo con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que le presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa su compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y segmentos etiquetados con [!UICONTROL POPULAR] en la lista desplegable, como se muestra a continuación:
+Para ayudarlo con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que le presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa su compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y segmentos etiquetados con [!UICONTROL POPULAR] en el menú desplegable, como se muestra a continuación:
 
 ![Panel de información rápida.](assets/popular-tag.png)
 
@@ -94,7 +94,7 @@ Puedes especificar los bloques de creación de tres formas:
 
 * Arrastra y suelta los componentes desde el panel izquierdo.
 * Empieza a escribir en uno de los campos de bloque de creación. Cuando se encuentra la entrada, el campo de bloque de creación se rellena automáticamente con los valores posibles.
-* Especifica una lista desplegable de bloque de creación (por ejemplo, `Country` en **[!UICONTROL Analizar]**) y busca el valor que deseas usar en la lista de valores posibles (con ![ChevronRight](/help/assets/icons/ChevronRight.svg)) (por ejemplo, **[!UICONTROL Código de país]**).
+* Especifique un menú desplegable de bloque de creación (por ejemplo, `Country` en **[!UICONTROL Analizar]**) y busque el valor que desee usar en la lista de valores posibles (con ![ChevronRight](/help/assets/icons/ChevronRight.svg)) (por ejemplo, **[!UICONTROL Código de país]**).
 
 Selecciona **[!UICONTROL Borrar]** para borrar todos los campos de entrada.
 

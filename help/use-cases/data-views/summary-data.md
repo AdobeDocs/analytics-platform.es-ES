@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '5200'
+source-wordcount: '5202'
 ht-degree: 15%
 
 ---
@@ -314,7 +314,7 @@ Para agregar un grupo de campos que contenga los campos de los datos de ejemplo:
    1. Escriba un **[!UICONTROL nombre de campo]**: `campaign_id`
    1. Escriba un **[!UICONTROL nombre para mostrar]**: `campaign_id`
    1. Seleccione un **[!UICONTROL Tipo]** del menú desplegable **[!UICONTROL Seleccionar tipo de datos]**: **[!UICONTROL Cadena]**
-   1. Asegúrese de que la opción **[!UICONTROL Asignar a]** **[!UICONTROL Grupo de campos]** esté seleccionada y seleccione **[!UICONTROL Datos de resumen de ejemplo]** en el menú desplegable.
+   1. Asegúrese de que la opción **[!UICONTROL Asignar a]** **[!UICONTROL Grupo de campos]** esté seleccionada y seleccione **[!UICONTROL Datos de resumen de ejemplo]** del menú desplegable.
    1. Desplácese hacia abajo hasta la parte inferior y seleccione **[!UICONTROL Aplicar]**.
 1. Repita el paso anterior para los demás campos de los datos de resumen. Consulte la tabla siguiente para ver los valores correctos.
 
@@ -362,7 +362,7 @@ Para cargar los datos de ejemplo en este conjunto de datos:
    1. Seleccione **[!UICONTROL Launch]** del panel **[!UICONTROL Asignar CSV al esquema XDM]**.
 1. En el paso **[!UICONTROL Detalle del flujo de datos]** del asistente **[!UICONTROL Flujos de trabajo]** > **[!UICONTROL Asignar CSV al esquema XDM]**:
    1. Seleccione **[!UICONTROL Conjunto de datos existente]** para **[!UICONTROL Conjunto de datos de destino]**.
-   1. Seleccione **[!UICONTROL Ejemplo de conjunto de datos de resumen]** de la lista desplegable.
+   1. Seleccione **[!UICONTROL Ejemplo de conjunto de datos de resumen]** en el menú desplegable.
    1. Seleccione **[!UICONTROL Siguiente]**.
 1. En el paso **[!UICONTROL Seleccionar datos]** del asistente **[!UICONTROL Flujos de trabajo]** > **[!UICONTROL Asignar CSV al esquema XDM]**:
    1. Arrastre y suelte su archivo con datos de resumen en formato CSV en **[!UICONTROL Arrastre y suelte los archivos]**. También puede usar **[!UICONTROL Elegir archivos]** para seleccionar el archivo.
@@ -391,8 +391,8 @@ Para utilizar los datos de ejemplo en Customer Journey Analytics, cree una conex
 1. Seleccione **[!UICONTROL Crear nueva conexión]**.
 1. En **[!UICONTROL Conexiones]** > **[!UICONTROL Conexión sin título]**:
    1. Escriba un **[!UICONTROL nombre de conexión]**, por ejemplo `Example Connection Using Summary Data`.
-   1. Seleccione el entorno de pruebas que contiene el conjunto de datos que ha creado y los demás conjuntos de datos que desea incluir de la lista desplegable Entorno de pruebas.
-   1. Seleccione **[!UICONTROL menos de 1 millón]** de la lista desplegable **[!UICONTROL Cantidad promedio de eventos diarios]**.
+   1. Seleccione el simulador para pruebas que contiene el conjunto de datos que ha creado y los demás conjuntos de datos que desea incluir del menú desplegable Simulador para pruebas.
+   1. Seleccione **[!UICONTROL menos de 1 millón]** del menú desplegable **[!UICONTROL Cantidad promedio de eventos diarios]**.
    1. Seleccione **[!UICONTROL Agregar conjuntos de datos]**.
    1. En el paso **[!UICONTROL Seleccionar conjuntos de datos]** del asistente **[!UICONTROL Agregar conjuntos de datos]**:
       1. Busque ![Buscar](/help/assets/icons/Search.svg) y seleccione **[!UICONTROL Conjunto de datos de resumen de ejemplo]**, **[!UICONTROL Conjunto de datos de evento de ejemplo]** y **[!UICONTROL Conjunto de datos de búsqueda de ejemplo]**.
@@ -483,7 +483,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
          ![Datos de resumen de código de seguimiento](../assets/tracking-code-summary-data.png)
          1. Despliegue ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Grupo de datos de resumen]**.
          1. Habilite **[!UICONTROL Crear agrupación]**.
-         1. Seleccione **[!UICONTROL ID de campaña]** en la lista desplegable **[!UICONTROL Dimension]**. Este paso garantiza que los datos de evento y los datos de resumen se combinen correctamente para la creación de informes.
+         1. Seleccione **[!UICONTROL ID de campaña]** en el menú desplegable **[!UICONTROL Dimension]**. Este paso garantiza que los datos de evento y los datos de resumen se combinen correctamente para la creación de informes.
          1. Si lo desea, puede habilitar **[!UICONTROL Ocultar en creación de informes]**. [!UICONTROL Ocultar en informes] garantiza que la dimensión seleccionada ([!UICONTROL ID de campaña]) esté oculta en Analysis Workspace y otras herramientas de informes de Customer Journey Analytics. Si ha activado esta opción, puede comprobar la opción:
             1. Seleccione la dimensión **[!UICONTROL Campaign Id]** en la lista **[!UICONTROL Dimensiones]**.
             1. Observará que **[!UICONTROL Ocultar componente en los informes]** en **[!UICONTROL Configuración de componentes]** ahora se habilita automáticamente.
@@ -495,7 +495,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
          1. Seleccione **[!UICONTROL campaign_id]** para **[!UICONTROL Value]**.
          1. Seleccione **[!UICONTROL Ejemplo de conjunto de datos de búsqueda]** en el menú desplegable **[!UICONTROL Conjunto de datos de búsqueda]**.
          1. Seleccione **[!UICONTROL tracking_code]** en el menú desplegable **[!UICONTROL Clave de coincidencia]**.
-         1. Seleccione **[!UICONTROL campaign_name]** en el menú desplegable **[!UICONTROL Valores que devolver]**.
+         1. Seleccione **[!UICONTROL campaign_name]** del menú desplegable **[!UICONTROL Valores que devolver]**.
          1. Seleccione **[!UICONTROL Guardar]**.
 
       1. Agregue el campo derivado recién creado **[!UICONTROL Nombre de campaña (campo derivado de búsqueda)]** a la lista de componentes **[!UICONTROL Dimensiones]**.
@@ -506,27 +506,27 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
 
          1. Despliegue ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Grupo de datos de resumen]**.
          1. Habilite **[!UICONTROL Crear agrupación]**.
-         1. Seleccione **[!UICONTROL Nombre de campaña (campo derivado de búsqueda)]** de la lista desplegable **[!UICONTROL Dimension]**. Este paso garantiza que el nombre de la campaña (búsqueda) del conjunto de datos de búsqueda de ejemplo se pueda usar de forma segura en los informes (consulte [Workspace](#workspace)).
+         1. Seleccione **[!UICONTROL Nombre de campaña (campo derivado de búsqueda)]** en el menú desplegable **[!UICONTROL Dimension]**. Este paso garantiza que el nombre de la campaña (búsqueda) del conjunto de datos de búsqueda de ejemplo se pueda usar de forma segura en los informes (consulte [Workspace](#workspace)).
 
       1. Seleccione la métrica **[!UICONTROL Ingresos]** de la lista **[!UICONTROL Métricas]**. En el panel de componentes:
 
          ![Datos de resumen de ingresos](../assets/revenue-summary-data.png)
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Atribución]**.
-            1. Seleccione ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Último contacto]** de la lista desplegable **[!UICONTROL Modelo de atribución]**.
-            1. Seleccione **[!UICONTROL 30 día]** en la lista desplegable de la ventana retrospectiva **[!UICONTROL 3}.]**
+            1. Seleccione ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Último toque]** del menú desplegable **[!UICONTROL Modelo de atribución]**.
+            1. Seleccione **[!UICONTROL 30 día]** del menú desplegable de la **[!UICONTROL ventana retrospectiva]**.
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **Formato**.
-            1. Seleccione **[!UICONTROL Moneda]** de la lista desplegable **[!UICONTROL Formato]**.
-            1. Seleccione **[!UICONTROL 2]** de la lista desplegable **[!UICONTROL Lugares decimales]**.
+            1. Seleccione **[!UICONTROL Moneda]** del menú desplegable **[!UICONTROL Formato]**.
+            1. Seleccione **[!UICONTROL 2]** del menú desplegable **[!UICONTROL Lugares decimales]**.
 
       1. Seleccione la métrica **[!UICONTROL Pedidos]** de la lista **[!UICONTROL Métricas]**. En el panel de componentes:
 
          ![Datos de resumen de pedidos](../assets/orders-summary-data.png)
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Atribución]**.
-            1. Seleccione ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Último contacto]** de la lista desplegable **[!UICONTROL Modelo de atribución]**.
-            1. Seleccione **[!UICONTROL 30 día]** en la lista desplegable de la ventana retrospectiva **[!UICONTROL 3}.]**
+            1. Seleccione ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Último toque]** del menú desplegable **[!UICONTROL Modelo de atribución]**.
+            1. Seleccione **[!UICONTROL 30 día]** del menú desplegable de la **[!UICONTROL ventana retrospectiva]**.
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Formato]**.
-            1. Seleccione **[!UICONTROL Decimal]** de la lista desplegable **[!UICONTROL Formato]**.
-            1. Seleccione **[!UICONTROL ▲ buena (verde)]** de la lista desplegable **[!UICONTROL Mostrar tendencia ascendente como]**.
+            1. Seleccione **[!UICONTROL Decimal]** del menú desplegable **[!UICONTROL Formato]**.
+            1. Seleccione **[!UICONTROL ▲ buena (verde)]** del menú desplegable **[!UICONTROL Mostrar tendencia ascendente como]**.
 
       1. Seleccione **[!UICONTROL Guardar y continuar]**.
 

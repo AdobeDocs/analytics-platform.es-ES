@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 77%
+ht-degree: 74%
 
 ---
 
@@ -101,7 +101,7 @@ Detalles sobre la configuración de caducidad disponible.
 
 ## [!UICONTROL Dimensión de enlace]
 
-Una lista desplegable que le permite enlazar la persistencia de un valor de dimensión con valores de dimensión de otra dimensión. Las opciones válidas incluyen otras dimensiones incluidas en la vista de datos.
+Menú desplegable que permite enlazar la persistencia de un valor de dimensión a valores de dimensión de otra dimensión. Las opciones válidas incluyen otras dimensiones incluidas en la vista de datos.
 
 Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
 
@@ -115,7 +115,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensione
 
 ## [!UICONTROL Métrica de enlace]
 
-Una lista desplegable que le permite elegir una métrica que actúa como activador de enlace. Las opciones válidas incluyen métricas incluidas en la vista de datos.
+Menú desplegable que permite elegir una métrica que actúa como déclencheur de enlace. Las opciones válidas incluyen métricas incluidas en la vista de datos.
 
 Esta configuración solo aparece cuando la dimensión de enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace.
 

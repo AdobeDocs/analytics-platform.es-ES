@@ -3,10 +3,10 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1705'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -196,7 +196,7 @@ Para añadir un contenedor de funciones, puede utilizar:
 * Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Añadir]** desde un contenedor:
 
    1. Seleccione **[!UICONTROL Función]**.
-   1. En el contenedor, seleccione una función en el menú desplegable [!UICONTROL *Seleccionar...*].
+   1. En el contenedor, seleccione una función del menú desplegable [!UICONTROL *Seleccionar...*].
 
 El contenedor de funciones recibe el nombre del componente de funciones. Por ejemplo, ![Función](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (métrica)]**. Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar una ventana emergente con más detalles sobre la función. Seleccione **[!UICONTROL Más información]** para obtener más información sobre la función.
 

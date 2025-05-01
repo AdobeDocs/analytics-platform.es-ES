@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -203,7 +203,7 @@ Los desgloses afinan el análisis al desglosar las métricas por elementos de di
 
 ![Breakdown_view](assets/break_view.png)
 
-Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
+Cada dimensión agregada al mosaico se mostrará en un menú desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en el menú desplegable.
 
 ## Personalización de diapositivas de detalle {#customize-detail-slide}
 

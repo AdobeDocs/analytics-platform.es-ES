@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '8844'
-ht-degree: 99%
+source-wordcount: '8857'
+ht-degree: 98%
 
 ---
 
@@ -1948,7 +1948,7 @@ Las siguientes limitaciones se aplican a la funcionalidad del Campo derivado en 
 
 - Puede utilizar un máximo de 10 campos de esquema diferentes (sin incluir los campos estándar) cuando defina reglas para un campo derivado.
    - De este máximo de 10 campos de esquema diferentes, solo se permite un máximo de tres campos de esquema de consulta o esquema de perfil.
-- Puede tener un máximo de 100 campos derivados por conexión de Customer Journey Analytics.
+- Puede tener un número máximo de campos derivados por conexión de Customer Journey Analytics según el paquete con licencia. Consulte [Descripción del producto](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es){target="_blank"} para obtener más información.
 
 
 ### Resumen de las limitaciones de las funciones

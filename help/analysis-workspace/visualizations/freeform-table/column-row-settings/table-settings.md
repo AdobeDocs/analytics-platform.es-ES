@@ -4,10 +4,10 @@ title: Configuración de filas
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -36,9 +36,9 @@ Para cambiar el número de filas que se muestran:
 
 1. Haga clic en el número que aparece junto a **[!UICONTROL Filas]** en la parte superior de la primera columna de la tabla.
 
-   ![Tabla de forma libre que muestra la lista desplegable de para el número de filas mostradas. Se ha seleccionado 400 filas.](assets/change-row-count.gif)
+   ![Tabla de forma libre que muestra el menú desplegable de para el número de filas mostradas. Se ha seleccionado 400 filas.](assets/change-row-count.gif)
 
-1. En la lista desplegable, seleccione el número de filas que desee que muestre la tabla.
+1. En el menú desplegable, seleccione el número de filas que desee que muestre la tabla.
 
 
 ## Menú contextual

@@ -4,10 +4,10 @@ title: Visualización de gráficos combinados
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -52,7 +52,7 @@ Tenga en cuenta lo siguiente:
 
 1. Añada una visualización ![Comentario](/help/assets/icons/ComboChart.svg) [!UICONTROL Combo]. Consulte [Añadir una visualización a un panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 
-1. En las listas desplegables, seleccione una dimensión para el eje X y una métrica para el eje Y.
+1. En los menús desplegables, seleccione una dimensión para el eje X y una métrica para el eje Y.
 
 1. Seleccione el tipo de [!UICONTROL Comparación de líneas] que desea utilizar.
 

@@ -5,10 +5,10 @@ title: Resumen de las visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -125,7 +125,7 @@ Las opciones de configuración de la visualización disponibles dependen de la v
 | **[!UICONTROL Mostrar previsión]** | Mejora los gráficos de líneas y las tablas de forma libre al mostrar la detección de anomalías.  |
 | **[!UICONTROL Mostrar mínimo]** | Muestra el valor mínimo en la visualización. |
 | **[!UICONTROL Mostrar máximo]** | Muestra el valor máximo en la visualización. |
-| **[!UICONTROL Mostrar línea de tendencia]** | Muestra una línea de tendencia en la visualización. Una vez seleccionada esta opción, puede seleccionar el tipo de línea de tendencia en el menú desplegable. |
+| **[!UICONTROL Mostrar línea de tendencia]** | Muestra una línea de tendencia en la visualización. Cuando se selecciona, puede seleccionar el tipo de línea de tendencia en el menú desplegable. |
 
 Puede personalizar la configuración de todas las visualizaciones que cree. Para obtener más información, consulte [Preferencias de usuario](/help/analysis-workspace/user-preferences.md).
 
