@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: d48a6fc306a84eeeb189e1b272bfded7ed26ed70
+source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ En estos pasos se da por hecho que utiliza etiquetas en la recopilación de dato
 
 Consulte la documentación de la [extensión de etiqueta de métrica cuántica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) para obtener más información.
 
-## Paso 1: Crear un campo de esquema para dar cabida a los datos de métrica cuántica
+## Paso 1: Crear un campo de esquema para dar cabida al ID de sesión de métrica cuántica
 
 Este caso de uso requiere un campo de esquema dedicado al que enviar datos. Puede crear este campo en cualquier ubicación deseada del esquema y ponerle el nombre que desee. Se proporcionan valores de ejemplo si su organización no tiene preferencias en cuanto a nombre o ubicación.
 
