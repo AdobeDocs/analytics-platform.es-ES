@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 915c1ecff6dcbe42a6ed81c74f4ec5b4a24eaaa5
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 86%
+source-wordcount: '1525'
+ht-degree: 85%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 86%
 >id="workspace_flow_container"
 >title="Contenedor de flujo"
 >abstract="Seleccione el contenedor que desea utilizar para mostrar (números para) las rutas."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="Incluir repeticiones (deshabilitado)"
+>abstract="Las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones de varios valores."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="Incluir repeticiones "
+>abstract="Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo: recargas de página."
+
 
 
 Las visualizaciones de flujo le ayudan a comprender los recorridos que se originan a partir de un evento de conversión específico en el sitio web o la aplicación. O que conducen a un evento de conversión específico. La visualización traza una ruta a través de las dimensiones (y elementos de dimensión) o métricas.
