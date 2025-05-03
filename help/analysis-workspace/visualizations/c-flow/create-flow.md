@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 2a2e158c0eb0f60591a92ed98572bbb6c344e3be
+source-git-commit: 933b4005724aa438c3daeb58191e940821b5bb5f
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 79%
+source-wordcount: '1709'
+ht-degree: 78%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 79%
 >title="Elementos expandidos por columna"
 >abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
+>[!CONTEXTUALHELP]
+>id="workspace_flow_resettoupdate"
+>title="Restablecer para actualizar"
+>abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 
 Las visualizaciones de flujo le ayudan a comprender los recorridos que se originan a partir de un evento de conversión específico en el sitio web o la aplicación. O que conducen a un evento de conversión específico. La visualización traza una ruta a través de las dimensiones (y elementos de dimensión) o métricas.
