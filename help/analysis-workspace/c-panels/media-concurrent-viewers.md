@@ -55,7 +55,7 @@ En Analysis Workspace, la métrica Visualizadores simultáneos comprende la cant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/35187/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

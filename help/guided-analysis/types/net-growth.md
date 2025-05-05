@@ -41,7 +41,7 @@ De manera similar al análisis [Activo](active-growth.md), los usuarios se defin
 >
 >Los usuarios repetidos no se tienen en cuenta en este cálculo, ya que no representan ninguna ganancia o pérdida de usuarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423466/?quality=12&learn=on&captions=spa)
 
 
 ## Casos prácticos

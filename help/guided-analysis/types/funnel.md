@@ -25,7 +25,7 @@ ht-degree: 100%
 
 El análisis ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Canal ]**proporciona una representación visual de un recorrido de usuario esencial de su producto. El eje horizontal representa cada paso que debe atravesar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on){width="90%"}
+>[!VIDEO](https://video.tv.adobe.com/v/3431275/?quality=12&learn=on&captions=spa){width="90%"}
 
 ## Casos prácticos
 
