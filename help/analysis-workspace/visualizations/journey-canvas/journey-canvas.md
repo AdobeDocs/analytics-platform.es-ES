@@ -51,7 +51,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización de lienzo de recorrido en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/>No hay ninguna visualización equivalente en **Adobe Analytics**._
+_En este artículo se describe la visualización de lienzo de recorrido en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**.<br/>No hay ninguna visualización equivalente en **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 

@@ -17,7 +17,7 @@ ht-degree: 13%
 
 Esta tabla enumera todos los iconos de espectro disponibles a través de la configuración de fragmentos de iconos de espectro. Utilice el nombre para añadir el fragmento a la marca y hacer que aparezca el icono Espectro.
 
-Vea [Página Wiki](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) para obtener actualizaciones.
+Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) para obtener actualizaciones.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 

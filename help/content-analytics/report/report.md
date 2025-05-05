@@ -65,7 +65,7 @@ Para utilizar la plantilla:
 
 1. Seleccione **[!UICONTROL Workspace]** en el menú principal.
 1. Asegúrese de haber seleccionado una Vista de datos configurada para Content Analytics.
-1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**s) para buscar y seleccionar la plantilla **[!UICONTROL Análisis de contenido]**.
+1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**&#x200B;s) para buscar y seleccionar la plantilla **[!UICONTROL Análisis de contenido]**.
 1. Seleccione **[!UICONTROL Usar plantilla]**.
 1. En el cuadro de diálogo **[!UICONTROL Configurar la plantilla]**, seleccione una métrica del cuadro de diálogo **[!UICONTROL Seleccionar una métrica de conversión]**. Por ejemplo, **[!UICONTROL Asset CTR]**.
 1. Seleccione **[!UICONTROL Continuar]**.

@@ -16,7 +16,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->Debe tener el paquete **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete **** o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para usar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
+>Debe tener el paquete **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete **&#x200B;**&#x200B;o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para usar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
 La vinculación de identidad (o simplemente, la vinculación) es una práctica funcionalidad que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis entre canales es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona).
 

@@ -80,9 +80,9 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las audiencias seleccionadas. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de audiencia *]**, seleccione etiquetas en el menú desplegable o escriba una o más etiquetas nuevas. Seleccione**[!UICONTROL Guardar ]**para guardar. |
+| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las audiencias seleccionadas. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de audiencia *]**, seleccione etiquetas en el menú desplegable o escriba una o más etiquetas nuevas. Seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**&#x200B;para guardar. |
 | ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar las audiencias seleccionadas. |
-| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de la audiencia seleccionada. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de audiencia *]**para cambiar el nombre de la audiencia y seleccione**[!UICONTROL Guardar ]**para guardar. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de la audiencia seleccionada. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de audiencia *]**&#x200B;para cambiar el nombre de la audiencia y seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**&#x200B;para guardar. |
 
 Las siguientes acciones están disponibles en la barra de acciones azul al seleccionar uno o más proyectos programados.
 
