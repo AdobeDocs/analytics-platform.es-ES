@@ -7,7 +7,7 @@ exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="Lienzo de recorrido "
->abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Cree análisis de los recorridos de usuario creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y segmentos. Arrastre los nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos de Journey Optimizer existentes."
+>abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Cree análisis de los recorridos de usuario creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y segmentos. Arrastre los nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos existentes de Journey Optimizer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="Lienzo de recorrido "
->abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Cree análisis de los recorridos de usuario creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y segmentos. Arrastre los nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos de Journey Optimizer existentes."
+>abstract="Analice cómo las personas avanzan o abandonan un recorrido definido. Cree análisis de los recorridos de usuario creando un gráfico flexible de nodos y flechas que representen cualquier combinación de eventos, elementos de dimensión y segmentos. Arrastre los nodos en el lienzo para reorganizar los eventos y las condiciones del recorrido. A medida que lo haga, los datos se actualizarán en consecuencia. <br/><br/>Los clientes con acceso a Adobe Journey Optimizer pueden analizar los recorridos existentes de Journey Optimizer."
 
 <!-- markdownlint-enable MD034 -->
 
