@@ -93,7 +93,7 @@ Hay tres posibles resultados para una transferencia:
 
 Uno de los principales casos de uso de la transferencia de recursos es durante la actualización de Adobe Analytics a Customer Journey Analytics.
 
-La característica [Migración de componentes](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) de Adobe Analytics le permite migrar proyectos de propiedad del administrador a otros administradores. Todos los componentes que componen estos proyectos se vuelven a crear en Customer Journey Analytics y el administrador de destinatarios es propietario de todos esos componentes, independientemente de quién los haya creado.
+La característica [Migración de componentes](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/component-migration/component-migration) de Adobe Analytics le permite migrar proyectos de propiedad del administrador a otros administradores. Todos los componentes que componen estos proyectos se vuelven a crear en Customer Journey Analytics y el administrador de destinatarios es propietario de todos esos componentes, independientemente de quién los haya creado.
 
 Posteriormente, esta herramienta de transferencia de recursos permite a los administradores reasignar componentes a sus propietarios legítimos, tanto si son administradores como si no.
 

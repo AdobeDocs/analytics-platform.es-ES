@@ -165,7 +165,7 @@ Los contenedores de evento incluyen desgloses de una sola página basados en val
 
 ### Contenedores B2B
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 Si tiene acceso a [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md), encontrará contenedores adicionales disponibles para usarlos en segmentos. Puede encontrar más detalles sobre el uso de estos contenedores adicionales en [conceptos y características de B2B](/help/getting-started/cja-b2b-concepts-features.md).
 

@@ -28,7 +28,7 @@ CJA desbloquea el control de tiempo del informe de los datos de QM, el análisis
 1. Vaya a [!UICONTROL Experience Platform] > [!UICONTROL Conexiones] > [!UICONTROL Fuentes].
 1. Agregue el conector de origen de la métrica cuántica y siga las indicaciones hasta la finalización.
 
-Consulte [Conectores de origen de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) para obtener más información.
+Consulte [Conectores de origen de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home) para obtener más información.
 
 ## Paso 2: Crear una conexión en Customer Journey Analytics
 
@@ -40,7 +40,7 @@ Al crear un conector de origen para datos de métricas cuánticas se crea autom�
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
->Aunque puede agregar datos de métricas cuánticas a la misma conexión que el resto de los datos de Customer Journey Analytics, esos datos no se pueden vincular sin un ID de persona común entre los dos conjuntos de datos. Si se desea este comportamiento, Adobe recomienda usar la [extensión Tag](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) en lugar del conector de origen.
+>Aunque puede agregar datos de métricas cuánticas a la misma conexión que el resto de los datos de Customer Journey Analytics, esos datos no se pueden vincular sin un ID de persona común entre los dos conjuntos de datos. Si se desea este comportamiento, Adobe recomienda usar la [extensión Tag](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/analytics/quantum-metric) en lugar del conector de origen.
 
 ## Paso 3: Crear una vista de datos en Customer Journey Analytics
 

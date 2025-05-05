@@ -28,10 +28,10 @@ Algunas configuraciones de cortafuegos bloquean los dominios en los que Customer
 
 ## Dominios de Adobe Experience Cloud
 
-Además de los dominios anteriores, Adobe Experience Cloud se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
+Además de los dominios anteriores, Adobe Experience Cloud se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
 
 >[!MORELIKETHIS]
 >
 >[Direcciones IP utilizadas por el Customer Journey Analytics](ip-addresses.md)
 >
->[Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains)

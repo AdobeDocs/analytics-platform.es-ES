@@ -92,7 +92,7 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
      >[!AVAILABILITY]
      >
-     >Esta sección se aplica a las implementaciones de Experience Platform que se ejecutan en Amazon Web Service (AWS). Un Experience Platform que se ejecuta en AWS está disponible actualmente para un número limitado de clientes. Para obtener más información acerca de la infraestructura de Experience Platform compatible, consulte la [descripción general de la nube múltiple de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud).
+     >Esta sección se aplica a las implementaciones de Experience Platform que se ejecutan en Amazon Web Service (AWS). Un Experience Platform que se ejecuta en AWS está disponible actualmente para un número limitado de clientes. Para obtener más información acerca de la infraestructura de Experience Platform compatible, consulte la [descripción general de la nube múltiple de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/multi-cloud).
 
      Se muestra el cuadro de diálogo [!UICONTROL **Cuenta creada**].
 
@@ -112,9 +112,9 @@ Para obtener información sobre cómo administrar cuentas existentes, como ver, 
 
       1. Si aún no lo ha hecho, descargue [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-      1. En la documentación de Adobe Experience Platform, siga los pasos descritos en [Conecte su contenedor de zona de aterrizaje de datos al Explorador de almacenamiento de Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+      1. En la documentación de Adobe Experience Platform, siga los pasos descritos en [Conecte su contenedor de zona de aterrizaje de datos al Explorador de almacenamiento de Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=es#connect-your-data-landing-zone-container-to-azure-storage-explorer).
 
-         Puede omitir las tareas descritas en las secciones [Recuperar las credenciales de la zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) y [Actualizar las credenciales de la zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), ya que el URI que copió contiene estas credenciales.
+         Puede omitir las tareas descritas en las secciones [Recuperar las credenciales de la zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=es#retrieve-dlz-credentials) y [Actualizar las credenciales de la zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=es#update-dlz-credentials), ya que el URI que copió contiene estas credenciales.
 
       1. Cuando siga la documentación de Adobe Experience Platform y llegue al campo [!UICONTROL **URL SAS del contenedor de blobs**], pegue el URI SAS que copió en el paso 3.
 

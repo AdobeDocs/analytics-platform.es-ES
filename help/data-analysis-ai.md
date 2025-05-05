@@ -86,7 +86,7 @@ Consulte [Control de acceso](/help/technotes/access-control.md#access-control) p
 
    * **[!UICONTROL Asistente de IA: análisis de datos]**
 
-   Para obtener más información, los administradores pueden ver [estas instrucciones](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+   Para obtener más información, los administradores pueden ver [estas instrucciones](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/access).
 
    ![icono del Asistente de IA](/help/assets/ai-asst-icon.png)
 

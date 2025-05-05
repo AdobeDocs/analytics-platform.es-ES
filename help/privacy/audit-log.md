@@ -68,7 +68,7 @@ Se muestran los siguientes elementos:
    * CREATE: se ha realizado una acción para &quot;crear&quot;.
    * DELETE: se ha realizado una acción para &quot;eliminar&quot;.
    * EDICIÓN: se ha realizado una acción para &quot;editar&quot;.
-   * EMBARGO: cuando restringe una solicitud en [Administrador de actividades de creación de informes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), la acción se registra en el registro de auditoría en EMBARGO.
+   * EMBARGO: cuando restringe una solicitud en [Administrador de actividades de creación de informes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), la acción se registra en el registro de auditoría en EMBARGO.
    * EXPORTAR: se ha realizado una acción para &quot;exportar&quot;.
    * ORG_CHANGE: se ha realizado una acción de cambio de organización.
    * ACTUALIZAR: se ha realizado una acción para &quot;actualizar&quot;.

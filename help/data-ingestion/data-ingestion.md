@@ -101,5 +101,5 @@ Consulte [Ingesta y uso de datos mediante conectores de origen](./sources.md) pa
 
 >[!MORELIKETHIS]
 >
->Blog: [Un vistazo más de cerca al procesamiento y la ingesta de datos en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
+>Blog: [Un vistazo más de cerca al procesamiento y la ingesta de datos en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=es)
 

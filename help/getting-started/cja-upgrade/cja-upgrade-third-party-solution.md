@@ -39,7 +39,7 @@ Utilice el siguiente proceso al pasar a Customer Journey Analytics desde una sol
 
    * No puede migrar proyectos y componentes desde una solución que no sea de Adobe Analytics.
 
-   * Según la solución de análisis, podría haber un conector de origen disponible para la ingesta de datos históricos. Para obtener más información, consulte [Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#analytics) en la [descripción general de los conectores de Source](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) en la documentación de Experience Platform.
+   * Según la solución de análisis, podría haber un conector de origen disponible para la ingesta de datos históricos. Para obtener más información, consulte [Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#analytics) en la [descripción general de los conectores de Source](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home) en la documentación de Experience Platform.
 
 
 Póngase en contacto con el representante de Adobe si necesita asesoramiento, ayuda o asistencia más específicos.

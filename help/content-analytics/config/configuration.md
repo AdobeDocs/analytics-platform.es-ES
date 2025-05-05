@@ -23,7 +23,7 @@ La configuración de Content Analytics consta de los siguientes pasos:
 1. Solo cuando [publique](manual.md) manualmente la propiedad Tags, la configuración de Content Analytics se implementará de manera efectiva y se iniciará la recopilación de datos.
 
 1. Solo puede realizar algunos cambios menores en una configuración implementada mediante el asistente de [configuración guiada](guided.md). Por ejemplo, cambie la [vista de datos](/help/data-views/data-views.md).
-1. Puede realizar otros cambios en una configuración implementada usando la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) en la propiedad Tags asociada.
+1. Puede realizar otros cambios en una configuración implementada usando la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/content-analytics/overview) en la propiedad Tags asociada.
 1. Solo cuando [vuelva a publicar](manual.md) manualmente la propiedad Etiquetas, las modificaciones de configuración se implementarán de manera efectiva y se iniciará la recopilación de datos en función de los cambios.
 
 
@@ -35,9 +35,9 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
 * Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> para la biblioteca de JavaScript.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y vistas de datos.
 * Si considera recopilar experiencias de Content Analytics, asegúrese de configurar y actualizar [el control de versiones de Content Analytics](manual.md#versioning) en función de los cambios realizados en sus páginas web.
-* Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}:
-   * [Permisos de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
-   * [Permisos de recopilación de datos de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
+* Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions){target="_blank"}:
+   * [Permisos de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [Permisos de recopilación de datos de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * Ha considerado detenidamente las siguientes opciones de configuración importantes:
 
    * Su sitio es adecuado para los informes de experiencias. Un sistema de informes de experiencia adecuado solo es posible cuando se cumplen las siguientes condiciones:

@@ -48,5 +48,5 @@ Al utilizar un valor numérico como dimensión, puede
 
 >[!MORELIKETHIS]
 >
->Esta es una publicación de blog relacionada sobre [el manejo de &quot;sin valor&quot; en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+>Esta es una publicación de blog relacionada sobre [el manejo de &quot;sin valor&quot; en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339?profile.language=es).
 

@@ -39,4 +39,4 @@ De acuerdo con la CCPA, el Servicio de privacidad aceptará las solicitudes de e
 
 >[!MORELIKETHIS]
 >
->* [Blog: Cómo mantener la gobernanza efectiva en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
+>* [Blog: Cómo mantener la gobernanza efectiva en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=es)

@@ -27,7 +27,7 @@ ht-degree: 90%
 
 Al aprovechar las tecnologías de vanguardia en cuanto a aprendizaje automático supervisado y aprendizaje profundo, la optimización personalizada permite a un usuario empresarial (experto en marketing) definir objetivos comerciales y utiliza los datos de sus clientes para entrenar modelos orientados a la empresa que proporcionen ofertas personalizadas y maximicen los KPI.
 
-1. Siga la información de [Modelo de optimización personalizado](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) en la Guía de Journey Optimizer.
+1. Siga la información de [Modelo de optimización personalizado](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) en la Guía de Journey Optimizer.
 
 {{upgrade-final-step}}
 
