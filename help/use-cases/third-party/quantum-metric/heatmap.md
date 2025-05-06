@@ -4,12 +4,10 @@ description: Comprenda mejor la participación a nivel de página y optimice las
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
@@ -24,7 +22,7 @@ La tabla muestra todas las sesiones de ese segmento y puede hacer clic en cualqu
 
 Debe tener derecho al paquete **Operaciones de experiencia de usuario** de Quantum Metric para acceder a las capacidades de mapa de calor de Quantum Metric.
 
-## Paso 1: Cree una tabla de forma libre en Workspace y configúrela para que los valores de ID de sesión sean vínculos directamente a la métrica cuántica.
+## Paso 1: Configuración de vínculos en Analysis Workspace
 
 1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com).
 1. Vaya a Customer Journey Analytics y seleccione **[!UICONTROL Workspace]** en el menú superior.
@@ -41,6 +39,8 @@ Debe tener derecho al paquete **Operaciones de experiencia de usuario** de Quant
 
 1. Haga clic en **[!UICONTROL Crear]**.
 1. Pruebe uno de los vínculos para ver si se abre en la dirección URL con la extensión de métrica cuántica visible. Estos vínculos se abren en una nueva pestaña para que el proyecto de Workspace permanezca abierto.
+
+![Mapa de calor](assets/heatmap.png)
 
 ## Paso 2: Ver los mapas de calor haciendo clic en los vínculos de Customer Journey Analytics
 

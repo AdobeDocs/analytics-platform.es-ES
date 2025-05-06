@@ -4,12 +4,10 @@ description: Agregue eventos de fricción recopilados de métricas cuánticas a 
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 11dc62cda2ceb7afabd3abd0944420601c8fa235
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
@@ -40,7 +38,7 @@ Este caso de uso requiere un campo de esquema dedicado al que enviar datos. Pued
 
 ## Paso 2: Capturar eventos de fricción utilizando la extensión de etiqueta de métrica cuántica
 
-Consulte [Extensión de métrica cuántica](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/analytics/quantum-metric) en la guía Destinos de Adobe Experience Platform para obtener instrucciones sobre cómo configurar las etiquetas para incluir datos de métrica cuántica. El uso de esta extensión pasa más filas a un conjunto de datos existente.
+Consulte [Extensión de métrica cuántica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) en la guía Destinos de Adobe Experience Platform para obtener instrucciones sobre cómo configurar las etiquetas para incluir datos de métrica cuántica. El uso de esta extensión pasa más filas a un conjunto de datos existente.
 
 Utilice etiquetas en la recopilación de datos de Adobe Experience Platform para definir manualmente el nombre del evento de fricción de modo que se pueda incluir en el objeto XDM y analizarse. Una forma de hacerlo es mediante el código personalizado de la regla:
 
@@ -74,6 +72,8 @@ Con los datos de eventos de fricción de métricas cuánticas recopilados junto 
 1. Seleccione un proyecto existente o cree un proyecto.
 1. Crear [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Arrastre las dimensiones y métricas deseadas al lienzo de Workspace para su análisis.
+
+![Gráfico de fricción](assets/friction-graph.png)
 
 Las posibles ideas de análisis incluyen:
 

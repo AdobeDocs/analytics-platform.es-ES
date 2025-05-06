@@ -4,12 +4,10 @@ description: La sesión de Métrica cuántica de vínculos se reproduce con dato
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '814'
 ht-degree: 2%
 
 ---
@@ -22,7 +20,7 @@ Al vincular las reproducciones de sesiones de métricas cuánticas con los datos
 
 En estos pasos se da por hecho que utiliza etiquetas en la recopilación de datos de Adobe Experience Platform. Puede adaptar estos métodos de recopilación de datos a una implementación manual de Web SDK si su organización no utiliza etiquetas.
 
-Consulte la documentación de la [extensión de etiqueta de métrica cuántica](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/analytics/quantum-metric) para obtener más información.
+Consulte la documentación de la [extensión de etiqueta de métrica cuántica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) para obtener más información.
 
 ## Paso 1: Crear un campo de esquema para dar cabida al ID de sesión de métrica cuántica
 
@@ -109,6 +107,8 @@ Cree una tabla de forma libre en Workspace y configúrela para que los valores d
 1. Haga clic en **[!UICONTROL Crear]**.
 
 Ahora, cada ID de sesión es un vínculo en el que puede hacer clic. Consulte [Crear hipervínculos en una tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) para obtener más información sobre cómo agregar hipervínculos a elementos de dimensión de Analysis Workspace.
+
+![Reproducción de sesión](assets/session-replay.png)
 
 ## Paso 5: Ver sesiones desde Customer Journey Analytics
 
