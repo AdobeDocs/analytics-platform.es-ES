@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: c26829d7a53e9ba8d5faf731a8a1dca2e741bf21
-workflow-type: ht
-source-wordcount: '959'
-ht-degree: 100%
+source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 97%
 
 ---
 

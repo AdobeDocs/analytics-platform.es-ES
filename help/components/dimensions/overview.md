@@ -3,16 +3,16 @@ title: Información general de dimensiones
 description: Descubra cuáles son las dimensiones y cómo se utilizan en Customer Journey Analytics
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: d37734ae415722fc609715868c37a36f2becdbf6
+source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 36%
 
 ---
 
 # Información general de dimensiones
 
-Los Dimension son un tipo de componente en Customer Journey Analytics que se utiliza para analizar datos. Por ejemplo, usa dimensiones al crear informes en [Analysis Workspace](/help/analysis-workspace/home.md) o en [Report Builder](/help/report-builder/report-buider-overview.md).
+Las dimensiones son un tipo de componente en Customer Journey Analytics que se utiliza para analizar datos. Por ejemplo, usa dimensiones al crear informes en [Analysis Workspace](/help/analysis-workspace/home.md) o en [Report Builder](/help/report-builder/rb-overview.md).
 
 Las dimensiones de Customer Journey Analytics son de tipo ilimitado; los valores pueden ser numéricos, de texto, de objetos, de listas o de mezclas de todos.
 

@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 98%
@@ -24,7 +24,7 @@ Gran parte de lo que está familiarizado con los informes no ha cambiado.
 
 * Puede seguir utilizando la potencia de [Analysis Workspace](/help/analysis-workspace/home.md) para analizar los datos. Workspace funciona igual que en la versión tradicional de Adobe Analytics.
 * La misma versión de [paneles de Adobe Analytics](/help/mobile-app/home.md) está disponible y funciona de forma similar entre Customer Journey Analytics y Adobe Analytics.
-* [Report Builder](/help/report-builder/report-buider-overview.md) tiene una nueva interfaz y se ejecuta en MS Windows, MacOS y la versión web de Excel. (Antes de esta versión de Report Builder, no se podía usar en Mac a menos que se ejecutara en VMware). Esta versión aún no admite solicitudes de datos AA tradicionales.
+* [Report Builder](/help/report-builder/rb-overview.md) tiene una nueva interfaz y se ejecuta en MS Windows, MacOS y la versión web de Excel. (Antes de esta versión de Report Builder, no se podía usar en Mac a menos que se ejecutara en VMware). Esta versión aún no admite solicitudes de datos AA tradicionales.
 
 ## Cambios en los informes
 
@@ -93,7 +93,7 @@ Las métricas calculadas tienen un nombre similar entre Adobe Analytics y Custom
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mover métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://video.tv.adobe.com/v/33880?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración sobre cómo mover métricas calculadas.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mover métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración sobre cómo mover métricas calculadas.
 
 >[!ENDSHADEBOX]
 
@@ -120,7 +120,7 @@ Customer Journey Analytics amplía los conceptos de identidades más allá de lo
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de la identidad en Customer Journey Analytics](https://video.tv.adobe.com/v/36395/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de la identidad en Customer Journey Analytics](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
