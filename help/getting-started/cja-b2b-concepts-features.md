@@ -4,11 +4,9 @@ description: Conceptos y funciones de B2B edition de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
+source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
