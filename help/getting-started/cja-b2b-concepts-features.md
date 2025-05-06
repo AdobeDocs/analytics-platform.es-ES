@@ -6,12 +6,13 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
+source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
 
 ---
+
 
 # Conceptos y funciones de B2B edition
 

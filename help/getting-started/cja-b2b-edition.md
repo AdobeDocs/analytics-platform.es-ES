@@ -6,12 +6,13 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
+source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
 
 ---
+
 
 # Customer Journey Analytics B2B edition
 
