@@ -5,10 +5,10 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: e42f04eaa06a761803e76b64a5a16674fb4af57d
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 El análisis ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Tendencias]** proporciona información valiosa sobre el rendimiento del producto o el comportamiento de los usuarios a lo largo del tiempo. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los eventos deseados.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423445/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## Casos prácticos
 
@@ -39,7 +39,7 @@ Los casos de uso de este análisis incluyen:
 
 ## Interfaz
 
-Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de Análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
 
 ### Carril de consulta
 
@@ -47,7 +47,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Vista]**: cambie entre este análisis y [Frecuencia](frequency.md).
 * **[!UICONTROL Eventos]**: los eventos o las métricas que desea medir. Cada selección se representa como una serie de gráficos y una fila de la tabla. Los eventos y las métricas no se pueden combinar en la consulta. Una vez que haya realizado la primera selección, las selecciones de consulta restantes deben ser del mismo tipo. Puede incluir hasta cinco selecciones.
-* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen Eventos, Sesiones, Usuarios, Porcentaje de usuarios, Eventos por sesión y Eventos por usuario. Las opciones de Contabilizado como solo son aplicables a las consultas de evento y se eliminan para las consultas de métricas.
+* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. <ul><li>Las **[!UICONTROL opciones]** incluyen [!UICONTROL Usuarios], [!UICONTROL Eventos], [!UICONTROL Sesiones], [!UICONTROL Porcentaje de usuarios], [!UICONTROL Eventos por sesión] y [!UICONTROL Eventos por usuario].</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Hay **[!UICONTROL opciones B2B]** adicionales disponibles para Customer Journey Analytics B2B edition: [!UICONTROL Cuentas globales], [!UICONTROL Cuentas], [!UICONTROL Grupos de compras], [!UICONTROL Oportunidades], [!UICONTROL Porcentaje de cuentas globales], [!UICONTROL Porcentaje de cuentas], [!UICONTROL Porcentaje de grupos de compras], [!UICONTROL Porcentaje de oportunidades], [!UICONTROL Eventos por global cuenta], [!UICONTROL Eventos por cuenta], [!UICONTROL Eventos por grupo comprador] y [!UICONTROL Eventos por oportunidad].</li></ul>Las opciones de Contabilizado como solo son aplicables a las consultas de evento y se eliminan para las consultas de métricas.
 * **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado duplica el número de series de gráficos y filas de tabla. Puede incluir hasta cinco autores.
 * **[!UICONTROL Propiedad de desglose]**: desglosa la serie de gráficos y las filas de tabla según los valores de la propiedad seleccionada. Se admite una sola propiedad de desglose. Los 20 valores principales aparecen en la tabla y se pueden ver hasta 10 valores en el gráfico. Puede ocultar o exponer una fila del gráfico alternando el icono ![Mostrar u ocultar](../assets/hide-in-chart.png).
 

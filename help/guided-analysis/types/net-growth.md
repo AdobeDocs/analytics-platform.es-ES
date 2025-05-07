@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ De manera similar al análisis [Activo](active-growth.md), los usuarios se defin
 >
 >Los usuarios repetidos no se tienen en cuenta en este cálculo, ya que no representan ninguna ganancia o pérdida de usuarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423466/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
 
 
 ## Casos prácticos
@@ -54,7 +54,7 @@ Los casos de uso de este análisis incluyen:
 
 ## Interfaz
 
-Consulte [Interfaz](../overview.md#interface) para obtener información general de la interfaz Análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
 
 ### Carril de consulta
 
@@ -62,7 +62,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Vista]**: cambie entre este análisis y [Crecimiento activo](active-growth.md).
 * **[!UICONTROL Eventos]**: el evento que desea medir. Dado que este análisis se basa en el usuario, un usuario que interactúa con el evento una vez dentro del periodo se cuenta como un usuario activo. Puede incluir un evento en una consulta.
-* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Número de usuarios] y [!UICONTROL Porcentaje de usuarios].
+* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. <ul><li>**[!UICONTROL Las opciones]** incluyen [!UICONTROL Número de usuarios] y [!UICONTROL Porcentaje de usuarios].</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Hay **[!UICONTROL opciones B2B]** adicionales disponibles para Customer Journey Analytics B2B edition: [!UICONTROL Cuentas globales], [!UICONTROL Cuentas], [!UICONTROL Grupos de compras], [!UICONTROL Oportunidades], [!UICONTROL Porcentaje de cuentas globales], [!UICONTROL Porcentaje de cuentas], [!UICONTROL Porcentaje de grupos de compras] y [!UICONTROL Porcentaje de oportunidades].</li></ul>
 * **[!UICONTROL Segmentos]**: el segmento que desea medir. Puede incluir un segmento en una consulta.
 
 ### Comparación del tiempo
