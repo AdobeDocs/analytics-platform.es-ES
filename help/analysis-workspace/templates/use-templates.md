@@ -4,9 +4,9 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e37ac6f67da441e2e9491307dc44e31506383a0d
+source-git-commit: d618300480cdc3b4454e5c91e5e5adacc01d0c77
 workflow-type: tm+mt
-source-wordcount: '19815'
+source-wordcount: '19827'
 ht-degree: 96%
 
 ---
@@ -128,27 +128,27 @@ Para acceder a todas las plantillas creadas previamente que están disponibles:
 
    Las siguientes secciones corresponden a las categorías disponibles y proporcionan información sobre cada plantilla.
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#most-popular)
+   * **[[!UICONTROL El más popular]](#most-popular)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#engagement)
+   * **[[!UICONTROL Web]** > **[!UICONTROL Participación]](#engagement)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#web-conversion)
+   * **[[!UICONTROL Web]** > **[!UICONTROL Conversión]](#web-conversion)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#web-audience)
+   * **[[!UICONTROL Web]** > **[!UICONTROL Audiencia]](#web-audience)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#web-acquisition)
+   * **[[!UICONTROL Web]** > **[!UICONTROL Adquisición]](#web-acquisition)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#mobile-mobile-app)
+   * **[[!UICONTROL Móvil]** > **[!UICONTROL Aplicación móvil]](#mobile-mobile-app)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#mobile-mobile-device-information)
+   * **[[!UICONTROL Móvil]** > **[!UICONTROL Información de dispositivo móvil]](#mobile-mobile-device-information)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#time-parting)
+   * **[[!UICONTROL Partición de tiempo]](#time-parting)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#cross-channel)
+   * **[[!UICONTROL Canal cruzado]](#cross-channel)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#other-channels)
+   * **[[!UICONTROL Otros canales]](#other-channels)**
 
-   * &lbrack; [[!UICONTROL &#x200B;   &#x200B;]](#ajo)
+   * **[[!UICONTROL AJO]](#ajo)**
 
 ### Más popular {#most-popular}
 
@@ -1153,7 +1153,7 @@ Las plantillas disponibles son las siguientes:
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalle del canal de primer contacto**] | Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p> **Esto puede ayudarle** a comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Detalle de canal de primer contacto.</p> |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Canal de último contacto**] | Ver el canal de marketing más reciente con el que un visitante coincide durante el período de participación de ese visitante (de forma predeterminada, 30 días).<p>**Esto puede ayudarle** a comprender mejor qué canales de marketing dirigen el tráfico inicial a su sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Canal de primer contacto.  </p> |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalle del canal de último contacto**] | Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p> **Esto puede ayudarle** a comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas. </p><p>Esta plantilla usa la dimensión Detalle del canal de último toque. </p> |
-| &lbrace;[!UICONTROL **Campañas**] > [!UICONTROL **Código de seguimiento**] | Ver los nombres de los códigos de seguimiento en su sitio. Puede colocar vínculos con diferentes valores de parámetro de cadena de consulta en diferentes lugares de Internet. <p>**Estoi puede ayudarle** a conocer mejor qué vínculos fueron los más exitosos a la hora de impulsar el tráfico al sitio. Añadir cadenas de consulta de código de seguimiento es habitual en los correos electrónicos, anuncios de medios sociales y otros esfuerzos de marketing que utiliza su organización</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en las campañas que generan la mayor cantidad de ingresos.</p><p>Esta plantilla utiliza la dimensión Código de seguimiento. </p> |
+| {[!UICONTROL **Campañas**] > [!UICONTROL **Código de seguimiento**] | Ver los nombres de los códigos de seguimiento en su sitio. Puede colocar vínculos con diferentes valores de parámetro de cadena de consulta en diferentes lugares de Internet. <p>**Estoi puede ayudarle** a conocer mejor qué vínculos fueron los más exitosos a la hora de impulsar el tráfico al sitio. Añadir cadenas de consulta de código de seguimiento es habitual en los correos electrónicos, anuncios de medios sociales y otros esfuerzos de marketing que utiliza su organización</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en las campañas que generan la mayor cantidad de ingresos.</p><p>Esta plantilla utiliza la dimensión Código de seguimiento. </p> |
 | [!UICONTROL **Campañas**] > [!UICONTROL **Canal de conversión de campaña**] | Ver la cantidad de clics y cierres de compra de sus campañas. <p>**Esto puede ayudarle** a comprender mejor cómo las campañas de marketing generan conversiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como determinar qué campañas de marketing generan el máximo retorno de la inversión.</p> |
 | [!UICONTROL **Campañas**] > [!UICONTROL **Rendimiento de la campaña**] | Ver detalles sobre el rendimiento de sus campañas de marketing.<p>**Esto puede ayudarle** a comprender mejor los distintos indicadores de éxito asociados con las campañas, como los ingresos, las vistas de productos, los pedidos, etc.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en las campañas que generan la mayor cantidad de ingresos. </p><p>Esta plantilla usa las métricas Ingresos, Vistas del producto, Adiciones al carro de compras, Pedidos y Unidades. También utiliza la dimensión Código de seguimiento y Dominio de referencia. </p> |
 | **Adquisición web** | Ver cómo su sitio web obtiene visitantes.<p>**Esto puede ayudarle** a comprender mejor los distintos factores que llevan a la adquisición, como palabras clave de búsqueda, dominio de referencia, etc.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en los canales más efectivos.</p><p>Esta plantilla usa las métricas de Tasa de salida hacia otro sitio y Rechazos. También utiliza las dimensiones Motor de búsqueda, Palabra clave de búsqueda, Página de entrada, Dominio de referencia, Código de seguimiento y Referente.  </p> |
