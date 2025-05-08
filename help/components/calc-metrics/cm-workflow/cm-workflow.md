@@ -3,10 +3,10 @@ description: Aprenda a crear métricas calculadas.
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 2%
+source-wordcount: '386'
+ht-degree: 43%
 
 ---
 
@@ -19,7 +19,7 @@ Sin embargo, los administradores pueden dar permiso a **[!UICONTROL Creación de
 
 Puede crear una métrica calculada de las siguientes maneras:
 
-![Formas de crear una métrica calculada](assets/create-metric.png)
+![Formas de crear una métrica](assets/create-metric.png)
 
 * **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Métricas calculadas]**. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] del administrador de [[!UICONTROL métricas calculadas]](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 * **B**. En un proyecto de Workspace, en el panel izquierdo Componentes, seleccione ![Agregar](/help/assets/icons/Add.svg) en ![Evento](/help/assets/icons/Event.svg) **Métricas**.
@@ -29,18 +29,15 @@ Puede crear una métrica calculada de las siguientes maneras:
 
 Para definir la nueva métrica calculada, usa el [Creador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
-<!--
+Obtenga información sobre los pasos a seguir para crear métricas calculadas.
 
-Learn about the steps to take for creating calculated metrics.
-
-| Workflow Task | Description |
+| Tarea del flujo de trabajo | Descripción |
 | --- | --- |
-| Plan Calculated Metrics | Especially for metrics that are going to be officially "approved", it makes sense to outline which calculated metrics will be widely used and how they will be defined. |
-| [Build](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) Calculated Metrics | Build and edit calculated and advanced calculated metrics for use in [!DNL Customer Journey Analytics] components. |
-| [Tag](cm-tagging.md) Calculated Metrics | Tag calculated metrics for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization. |
-| [Approve](cm-approving.md) Calculated Metrics | Approve calculated metrics to make them canonical. |
-| Apply Calculated Metrics | You can apply metrics directly from a report, from the Metric Selector (to access it, click [!UICONTROL Show Metrics]). |
-| Filter Calculated Metrics | In the Metric Selector, click [!UICONTROL Advanced Selection] and filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) |
-| Mark Calculated Metrics as [Favorites](cm-finding.md) | Marking metrics as favorites is another way to organize them for ease of use.|
+| Planificar métricas calculadas | Especialmente en el caso de las métricas que se “aprobarán” oficialmente, tiene sentido detallar qué métricas calculadas se utilizarán de forma generalizada y cómo se definirán. |
+| [Crear](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) métricas calculadas | Cree y edite métricas calculadas y métricas calculadas avanzadas para utilizarlas en componentes de [!DNL Customer Journey Analytics].   |
+| [Etiquetar](cm-tagging.md) métricas calculadas | Etiquete métricas calculadas para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas. |
+| [Aprobar](cm-approving.md) métricas calculadas | Apruebe métricas calculadas para hacerlas canónicas. |
+| Aplicar métricas calculadas | Puede aplicar métricas directamente desde un informe, desde el Selector de métricas (para acceder a él, haga clic en [!UICONTROL Mostrar métricas]). |
+| Filtrar métricas calculadas | En el selector de métricas, haga clic en [!UICONTROL Selección avanzada] y filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Mío, Compartido conmigo, Favoritos y Aprobado). |
+| Marcar una métrica calculada como [favorita](cm-finding.md) | Marcar las métricas como favoritas es otra manera de organizarlas para que su uso sea más sencillo. |
 
--->

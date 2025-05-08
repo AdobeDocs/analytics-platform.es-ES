@@ -3,16 +3,16 @@ description: En el Administrador de métricas calculadas, puede configurar un fl
 title: Aprobar métricas calculadas
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '147'
 ht-degree: 21%
 
 ---
 
 # Aprobar métricas calculadas
 
-En el [Administrador de métricas calculadas](cm-manager.md), puede aprobar y desaprobar segmentos. Solo los administradores pueden aprobar métricas calculadas.
+En [Administrador de métricas calculadas](cm-manager.md), puede aprobar y desaprobar métricas calculadas. Solo los administradores pueden aprobar métricas calculadas.
 
 Para aprobar métricas calculadas:
 

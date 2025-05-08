@@ -4,16 +4,16 @@ title: Plantillas de métricas calculadas
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 88%
+ht-degree: 83%
 
 ---
 
 # Plantillas de métricas calculadas
 
-Customer Journey Analytics proporciona las siguientes plantillas de métricas calculadas para cubrir los casos de uso más habituales Estas métricas calculadas definidas por Adobe se identifican con un pequeño logotipo de ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg). Para filtrar rápidamente estas métricas, seleccione ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Plantilla de Adobe]** en el [filtro Componentes](/help/components/overview.md#filter).
+Customer Journey Analytics proporciona las siguientes plantillas de métricas calculadas para cubrir los casos de uso más comunes. Estas métricas calculadas definidas por Adobe se identifican con un pequeño logotipo de ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg). Para filtrar rápidamente estas métricas, seleccione ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Plantilla de Adobe]** en el filtro [Componentes](/help/components/overview.md#filter).
 
 | Nombre de métrica calculada | Descripción<br/>Fórmula |
 |---------|----------|
