@@ -4,7 +4,7 @@ title: Creación de proyectos
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
+source-git-commit: de0b51096c772ceb180e759b2dd992e3cf2a009d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 95%
@@ -12,15 +12,6 @@ ht-degree: 95%
 ---
 
 # Creación de proyectos {#create-projects}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_project_countrepeatinstances"
->title="Contar instancias repetidas"
->abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/><br/>Nota: esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Los [proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md) de Analysis Workspace le permiten crear y ver análisis críticos para la empresa.  Estos análisis se pueden compartir con las partes interesadas dentro o fuera de la organización.
@@ -56,23 +47,21 @@ Ahora que ha creado un proyecto de Workspace en blanco, asegúrese de estar fami
 
 ## Info y configuración del proyecto {#project-info-settings}
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="workspace_project_countrepeatinstances"
+>title="Contar instancias repetidas"
+>abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/><br/>Nota: esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="Contar instancias repetidas"
 >abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/>Nota: esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
 >title="Permitir comentarios"
 >abstract="Cuando se habilita, hay un área de comentarios disponible en el carril derecho del proyecto en Analysis Workspace."
-
-<!-- markdownlint-enable MD034 -->
 
 
 La configuración del proyecto proporciona información del proyecto activo actualmente.
