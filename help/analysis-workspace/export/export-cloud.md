@@ -5,7 +5,7 @@ title: Exportación de informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
+source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 98%
@@ -123,7 +123,7 @@ Se incluye un archivo de manifiesto con un nombre de archivo de `cja-export-{rep
 
 <!-- add in  what the file name, structure, and file format will be -->
 
-## Ventajas de exportar a la nube
+## Ventajas de exportar a la nube {#advantages}
 
 Exportar los datos de Customer Journey Analytics a la nube le permite:
 
@@ -209,7 +209,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
 
   Por ejemplo, una atribución de métrica de &quot;primer contacto&quot; anula una asignación de dimensión &quot;más reciente&quot;.
 
-* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [&#128279;](/help/data-views/component-settings/persistence.md).
+* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [](/help/data-views/component-settings/persistence.md).
 
   Por ejemplo, se aplica una atribución de métrica de &quot;primer contacto&quot; además de una asignación de dimensión &quot;más reciente&quot;. Además, la atribución de métricas se aplicará a los pares de elementos de dimensión post-asignados como si fueran elementos de dimensión únicos, en lugar de a cada elemento de dimensión de forma independiente, como se hace normalmente en una tabla de forma libre.
 
@@ -217,7 +217,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
   >
   >Los informes multidimensionales solo son compatibles cuando se exportan datos a la nube, tal como se describe en este artículo.
 
-## Comparación de la exportación de tablas completas (en Customer Journey Analytics) con Data Warehouse (en Adobe Analytics)
+## Comparación de la exportación de tablas completas (en Customer Journey Analytics) con Data Warehouse (en Adobe Analytics) {#comparison}
 
 Si anteriormente utilizó Data Warehouse para exportar datos de Adobe Analytics, la siguiente tabla puede ayudarle a comprender las diferencias entre exportar tablas completas en Customer Journey Analytics y exportar datos con Data Warehouse en Adobe Analytics.
 
