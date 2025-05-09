@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '4061'
-ht-degree: 34%
+source-wordcount: '5198'
+ht-degree: 35%
 
 ---
 # Fragmentos
@@ -255,3 +255,44 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | **[!UICONTROL Conjunto de datos]** | El nombre del conjunto de datos. |
 | **[!UICONTROL Vista previa: *nombre del conjunto de datos *]** | Previsualiza el conjunto de datos para las primeras 10 filas y las primeras 10 columnas. |
 | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Quitar]** | Puede [eliminar un conjunto de datos](/help/connections/create-connection.md#delete-a-dataset) sin eliminar toda la conexión. La eliminación de un conjunto de datos de una conexión reduce los costes que implica la ingesta de datos y el engorroso proceso de volver a crear toda la conexión y las vistas de datos asociadas. |
+
+## Dimensiones estándar {#standard-dimensions}
+
+| Nombre del componente | Notas |
+|---|---|
+| 15 minutos | Cada 15 minutos que se produjo un evento determinado (redondeado hacia abajo). El primer elemento de dimensión son los primeros 15 minutos del intervalo de fechas y el último elemento de dimensión son los últimos 15 minutos del intervalo de fechas. |
+| 30 minutos | Cada 30 minutos que se produce un evento determinado (redondeado hacia abajo). El primer elemento de dimensión son los primeros 30 minutos del intervalo de fechas y el último elemento de dimensión son los últimos 30 minutos del intervalo de fechas. |
+| 5 minutos | Cada 5 minutos que se produce un evento determinado (redondeado hacia abajo). El primer elemento de dimensión son los primeros 15 minutos del intervalo de fechas y el último elemento de dimensión son los últimos 5 minutos del intervalo de fechas. |
+| [!UICONTROL Día] | El día en que se produjo un evento determinado. El primer elemento de dimensión es el primer día del intervalo de fechas y el último elemento de dimensión es el último día del intervalo de fechas. |
+| [!UICONTROL Día del mes] | El día del mes en el que se produjo un evento determinado. El primer elemento de dimensión es el primer día del mes en el intervalo de fechas y el último elemento de dimensión es el último día del mes en el intervalo de fechas. |
+| [!UICONTROL Día de la semana] | El día de la semana en el que se produjo un evento determinado. El primer elemento de dimensión es el primer día de la semana en el intervalo de fechas y el último elemento de dimensión es el último día de la semana en el intervalo de fechas. |
+| [!UICONTROL Día del mes] | El día del mes en el que se produjo un evento determinado. El primer elemento de dimensión es el primer día del mes en el intervalo de fechas y el último elemento de dimensión es el último día del mes en el intervalo de fechas. |
+| Profundidad del evento | Asigna valores numéricos secuenciales (1, 2, 3, etc.) a cada interacción de evento dentro de una sesión. Con esta dimensión puede habilitar el seguimiento y el análisis detallados de dónde se producen eventos específicos en el flujo secuencial de interacciones del usuario dentro de una sesión. Puede realizar un seguimiento de la progresión de eventos de principio a fin dentro de una sesión limitada. Por ejemplo: un visitante llega a su página de inicio (evento 1, inicio de sesión), utiliza la función de búsqueda (evento 2), visualiza una página de detalles del producto (evento 3), añade al carro de compras (evento 4), continúa con el cierre de compra (evento 5) y completa una compra (evento 6, fin de sesión). Ahora puede usar [!UICONTROL Profundidad del evento] en una definición de segmento para segmentar datos basados en la profundidad de interacción. |
+| [!UICONTROL Hora] | Hora a la que se produjo un evento determinado (redondeado hacia abajo). El primer elemento de dimensión es la primera hora del intervalo de fechas y el último elemento de dimensión es la última hora del intervalo de fechas. |
+| [!UICONTROL Hora del día] | Hora del día en que se produjo un evento determinado (redondeado hacia abajo). El primer elemento de dimensión es la primera hora del día en el intervalo de fechas y el último elemento de dimensión es la última hora del día en el intervalo de fechas. |
+| [!UICONTROL Minuto] | El minuto en que ocurrió un evento determinado (redondeado hacia abajo). El primer elemento de dimensión es el primer minuto del intervalo de fechas y el último elemento de dimensión es el último minuto del intervalo de fechas. |
+| [!UICONTROL Minuto de la hora] | El minuto de la hora en que se produjo un evento determinado (redondeado hacia abajo). El primer elemento de dimensión es el primer minuto de la hora en el intervalo de fechas y el último elemento de dimensión es el último minuto de la hora en el intervalo de fechas. |
+| [!UICONTROL Mes] | Mes en el que se produjo un evento determinado. El primer elemento de dimensión es el primer mes del intervalo de fechas y el último elemento de dimensión es el último mes del intervalo de fechas. |
+| [!UICONTROL Mes del año] | Mes del año en el que se produjo un evento determinado. El primer elemento de dimensión es el primer mes del año en el intervalo de fechas y el último elemento de dimensión es el último mes del año en el intervalo de fechas. |
+| [!UICONTROL Trimestre] | El trimestre en el que se produjo un evento determinado. El primer elemento de dimensión es el primer trimestre del intervalo de fechas y el último elemento de dimensión es el último trimestre del intervalo de fechas. |
+| [!UICONTROL Trimestre del año] | El trimestre del año en el que se produjo un evento determinado. El primer elemento de dimensión es el primer trimestre del año en el intervalo de fechas y el último elemento de dimensión es el último trimestre del año en el intervalo de fechas. |
+| [!UICONTROL Segundo] | Hora a la que se ha producido un evento determinado (redondeado hacia abajo). El primer elemento de dimensión es el primer segundo del intervalo de fechas y el último elemento de dimensión es el último segundo del intervalo de fechas. |
+| [!UICONTROL Semana] | La semana en que se produjo un evento determinado. El primer elemento de dimensión es la primera semana del intervalo de fechas y el último elemento de dimensión es la última semana del intervalo de fechas. |
+| [!UICONTROL Semana del año] | La semana del año en que se produjo un evento determinado. El primer elemento de dimensión es la primera semana del año en el intervalo de fechas y el último elemento de dimensión es la última semana del año en el intervalo de fechas. |
+| [!UICONTROL Año] | Año en el que se produjo un evento determinado. El primer elemento de dimensión es el primer año del intervalo de fechas y el último elemento de dimensión es el año más reciente del intervalo de fechas. |
+
+
+## Métricas estándar {#standard-metrics}
+
+| Nombre del componente | Notas |
+| --- | --- |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL Cuentas] | Basado en el identificador de cuenta especificado en [!UICONTROL Connection]. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL Grupo de compra] | Los grupos compradores, según el identificador del grupo Comprador especificado en [!UICONTROL Conexión]. |
+| [!UICONTROL Eventos] | El número de filas de todos los conjuntos de datos de evento de una [!UICONTROL Conexión]. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL Cuentas globales] | Basado en el Id. de cuentas globales especificado en [!UICONTROL Conexión]. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL Oportunidades] | Las oportunidades, según el identificador de oportunidad especificado en [!UICONTROL Conexión]. |
+| [!UICONTROL Personas] | Basado en el ID de persona especificado en una [!UICONTROL Conexión]. |
+| [!UICONTROL La sesión termina] | El número de eventos que fueron el último evento de una sesión. De manera similar a [!UICONTROL Inicio de sesión], también se puede usar en una definición de segmento para segmentar cosas hasta el último evento de cada sesión.<p>Este componente debe incluirse en la vista de datos para lo siguiente [métrica calculada](/help/components/calc-metrics/default-calcmetrics.md) para que esté disponible en Workspace: <ul><li>Tasa de finalización de sesión</li></p> |
+| [!UICONTROL La sesión finaliza] | El número de eventos que fueron el primer evento de una sesión. Cuando se utiliza en una definición de segmento (por ejemplo, &#39;[!UICONTROL La sesión inicia] existe&#39;), se segmenta hasta el primer evento de cada sesión.<p>Este componente debe incluirse en la vista de datos para la siguiente [métrica calculada](/help/components/calc-metrics/default-calcmetrics.md) para que esté disponible en Workspace: <ul><li>Tasa de inicio de sesión</li></p> |
+| [!UICONTROL Sesiones] | Basado en la configuración de sesión de la vista de datos. |
+| [!UICONTROL Tiempo empleado (segundos)] | Suma el tiempo entre dos valores diferentes para una dimensión.<p>Este componente debe incluirse en la vista de datos para que las siguientes [métricas calculadas](/help/components/calc-metrics/default-calcmetrics.md) estén disponibles en Workspace: <ul><li>Tiempo empleado por persona </li><li>Tiempo empleado por sesión</li></p> |

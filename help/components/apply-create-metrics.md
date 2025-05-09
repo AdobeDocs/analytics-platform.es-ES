@@ -4,10 +4,10 @@ title: Métricas
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '886'
+ht-degree: 9%
 
 ---
 
@@ -35,11 +35,19 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
    * **Sesiones**: La métrica Sesiones de Customer Journey Analytics es lo que define como parte de la configuración de las Sesiones en la vista de datos. Consulte [Configuración de la sesión](/help/data-views/session-settings.md).
    * **Eventos**: la métrica Eventos de Customer Journey Analytics consta de los eventos que forman parte de cualquier conjunto de datos de evento que haya configurado como parte de su conexión.
 
+  Consulte [Métricas estándar](#standard-metrics) para obtener una lista completa de las métricas estándar.
+
 * **Métricas calculadas** ![Calculadora](/help/assets/icons/Calculator.svg): Métricas definidas por el usuario que se basan en métricas estándar, números estáticos o funciones algorítmicas.
 
 * **Plantillas de métricas calculadas** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : Métricas definidas por Adobe que se comportan de manera similar a las métricas calculadas. Puede utilizarlos tal cual en los proyectos de Workspace o guardar una copia para personalizar la lógica. Ver [métricas calculadas predeterminadas](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
 Puede ver si una métrica está aprobada ![Icono aprobado](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) o no. Si desea obtener más detalles sobre una métrica, pase el ratón sobre ella y seleccione ![Icono de información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Consulte [Información del componente](use-components-in-workspace.md#component-info) para obtener más información.
+
+
+## Métricas estándar
+
+La lista completa de métricas estándar en Customer Journey Analytics:
+{{standard-metrics}}
 
 ## Comparar métricas con diferentes modelos de atribución
 
@@ -71,7 +79,7 @@ Para crear una métrica calculada para un solo proyecto:
 
 1. En una tabla de forma libre, haga clic con el botón secundario en el encabezado de columna de una sola columna.
 
-   O
+   O bien
 
    Seleccione dos columnas mientras mantiene pulsada la tecla Mayús y, a continuación, haga clic con el botón derecho en una de las columnas seleccionadas.
 
