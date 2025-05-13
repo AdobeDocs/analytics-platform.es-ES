@@ -48,6 +48,6 @@ Los administradores de Customer Journey Analytics pueden agregar descripciones p
 
 >[!MORELIKETHIS]
 >
->[Descubra información más detallada del cliente con la función de profundidad de evento](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>[Descubra información más detallada del cliente con la función de profundidad de evento](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=es#M576)
 >
 
