@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: d0dfcce1a9ba2a2f3e55abc63116ed07a33c9411
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 {{draft-b2b}}
 
-Adobe Analytics comenzó como una herramienta de análisis digital y web para especialistas en marketing, mientras que Customer Journey Analytics amplió el ámbito para incluir datos de varios canales, sin conexión y multiplataforma.  Ambas herramientas ayudan a las empresas B2C a analizar y optimizar sus esfuerzos de marketing y las experiencias de los clientes.
+Adobe Analytics comenzó como una herramienta de análisis digital y web para especialistas en marketing, mientras que Customer Journey Analytics amplió el ámbito para incluir datos de varios canales, sin conexión y multiplataforma.  Ambas herramientas ayudan a las empresas B2C a analizar y optimizar sus esfuerzos de marketing y las experiencias de los clientes. Y céntrese en **informes y análisis basados en personas**: comprenda el recorrido del cliente, en el que el cliente es una persona que interactúa con su marca en varios canales.
 
-En las ventas B2B (de empresa a empresa), el recorrido de compra incluye varias partes, puntos de contacto en línea y sin conexión y etapas clave antes de cerrar una operación. Las empresas B2B necesitan realizar un seguimiento de todas estas interacciones en una vista de recorrido unificada para analizar y optimizar de forma eficaz sus esfuerzos de marketing y experiencias de cuenta.
+Customer Journey Analytics B2B edition agrega **análisis e informes basados en cuentas**. En las ventas B2B (de empresa a empresa), el recorrido de compra incluye varias partes, puntos de contacto en línea y sin conexión y etapas clave antes de cerrar una operación. Las empresas B2B necesitan realizar un seguimiento de todas estas interacciones en una vista de recorrido unificada para analizar y optimizar de forma eficaz sus esfuerzos de marketing y experiencias de cuenta.
 
 Las características típicas de las ventas B2B son:
 
