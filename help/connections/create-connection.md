@@ -178,8 +178,8 @@ En la pantalla **[!UICONTROL Conexiones]** > **[!UICONTROL *Nombre de la conexi�
    | **[!UICONTROL ID de la persona]** | El ID de persona que se utiliza para admitir la creación de informes basados en personas para el conjunto de datos. |
    | **[!UICONTROL Clave]** | La clave que se utiliza para un conjunto de datos de búsqueda. |
    | **[!UICONTROL Clave de coincidencia]** | La clave coincidente que se utiliza para un conjunto de datos de búsqueda. |
-   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
+   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
    Puede buscar un conjunto de datos específico mediante el campo ![Buscar](/help/assets/icons/Search.svg).
 
@@ -224,8 +224,8 @@ En la pantalla **[!UICONTROL Conexiones]** > **[!UICONTROL *Nombre de la conexi�
    | **[!UICONTROL ID de la persona]** | El ID de persona que se utiliza para admitir la creación de informes basados en personas para el conjunto de datos. |
    | **[!UICONTROL Clave]** | La clave que se utiliza para un conjunto de datos de búsqueda. |
    | **[!UICONTROL Clave de coincidencia]** | La clave coincidente que se utiliza para un conjunto de datos de búsqueda. |
-   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
+   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
    Puede buscar un conjunto de datos específico mediante el campo ![Buscar](/help/assets/icons/Search.svg).
 
@@ -242,7 +242,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalcontainers"
 >title="Contenedores opcionales"
->abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
+>abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global &#x200B;]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra &#x200B;]**: habilita la configuración de grupos de compra en una conexión."
 
 
 
@@ -279,7 +279,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="Tipo de llave coincidente"
->abstract="Seleccione cómo desea unirse: en función de un campo de coincidencia o de un contenedor de coincidencia.<br/><br/>**[!UICONTROL Coincidir por campo ]**: seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento."
+>abstract="Seleccione cómo desea unirse: en función de un campo de coincidencia o de un contenedor de coincidencia.<br/><br/>**[!UICONTROL Coincidir por campo &#x200B;]**: seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
@@ -309,7 +309,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="connection_optionalcontainers"
 >title="Contenedores opcionales"
->abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
+>abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global &#x200B;]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra &#x200B;]**: habilita la configuración de grupos de compra en una conexión."
 
 >[!CONTEXTUALHELP]
 >id="connection_personid"
@@ -344,7 +344,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
 >title="Tipo de llave coincidente"
->abstract="Seleccione cómo desea unirse: en función de un campo de coincidencia o de un contenedor de coincidencia.<br/><br/>**[!UICONTROL Coincidir por campo ]**: seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento."
+>abstract="Seleccione cómo desea unirse: en función de un campo de coincidencia o de un contenedor de coincidencia.<br/><br/>**[!UICONTROL Coincidir por campo &#x200B;]**: seleccione un campo para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento."
 
 >[!CONTEXTUALHELP]
 >id="connection_importnewdata"
@@ -575,7 +575,7 @@ Al eliminar un conjunto de datos, se le notifican las implicaciones de la elimin
 
 ### Rellenos anteriores
 
-Cuando selecciona ![Historial](/help/assets/icons/History.svg) **[!UICONTROL Rellenos anteriores]** en la interfaz, un cuadro de diálogo **[!UICONTROL Rellenos anteriores: _Nombre del conjunto de datos_]**muestra los rellenos más recientes del conjunto de datos.
+Cuando selecciona ![Historial](/help/assets/icons/History.svg) **[!UICONTROL Rellenos anteriores]** en la interfaz, un cuadro de diálogo **[!UICONTROL Rellenos anteriores: _Nombre del conjunto de datos_]**&#x200B;muestra los rellenos más recientes del conjunto de datos.
 
 ## Tipos de conjuntos de datos {#dataset-types}
 
