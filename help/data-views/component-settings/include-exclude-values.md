@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="Incluir valores de exclusión"
->abstract="Limite una dimensión para incluir solo valores que coincidan con criterios específicos. Las inclusiones y exclusiones ocurren antes de la asignación y la segmentación en los informes. Determine si la lógica de segmento especificada distingue entre mayúsculas y minúsculas."
+>abstract="Limite una dimensión para incluir solo valores que coincidan con criterios específicos. Las inclusiones y exclusiones se realizan antes de la asignación y la segmentación en los informes. Determine si la lógica de segmento especificada distingue entre mayúsculas y minúsculas."
 
 <!-- markdownlint-enable MD034 -->
 

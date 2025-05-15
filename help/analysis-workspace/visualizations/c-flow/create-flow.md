@@ -7,7 +7,7 @@ role: User
 source-git-commit: a7350b6fc8fa75de07238543ed0db48af42b7577
 workflow-type: tm+mt
 source-wordcount: '1735'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_startswith"
 >title="Comienza con"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_contains"
 >title="Contiene"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_endswith"
 >title="Finaliza con"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_pathingdimension"
 >title="Dimensión de las rutas"
->abstract="Seleccione una dimensión para utilizarla como ruta de acceso o de salida del componente seleccionado."
+>abstract="Seleccione una dimensión para usarla como ruta de acceso al componente seleccionado o desde este."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -46,27 +46,27 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="Incluir repeticiones"
->abstract="Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo: recargas de página."
+>abstract="Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. "
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
 >title="Limitar a la primera/última ocurrencia"
->abstract="Los resultados se limitan a rutas cuando el primer/último punto de contacto es una entrada/salida."
+>abstract="Los resultados se limitan a las rutas en las que el primer/último punto de contacto es una entrada/salida."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_numberofcolumns"
 >title="Número de columnas"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Elementos expandidos por columna"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_resettoupdate"
 >title="Restablecer para actualizar"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 
 Las visualizaciones de flujo le ayudan a comprender los recorridos que se originan a partir de un evento de conversión específico en el sitio web o la aplicación. O que conducen a un evento de conversión específico. La visualización traza una ruta a través de las dimensiones (y elementos de dimensión) o métricas.
@@ -109,7 +109,7 @@ Puede configurar el inicio o el final de la ruta que le interese. O bien, analic
    | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a aquellas que comienzan/terminan con la primera/última ocurrencia de una dimensión, un elemento o una métrica. Consulte [Limitar a la primera/última ocurrencia](#example-scenario-for-limit-to-firstlast-occurrence) para obtener una explicación más detallada. |
    | **[!UICONTROL Número de columnas]** | El número de columnas que quiere incluir en el diagrama de flujo. Puede especificar hasta un máximo de 5 columnas. |
    | **[!UICONTROL Elementos expandidos por columna]** | Cuántos elementos desea incluir en cada columna. Puede especificar un máximo de 10 elementos expandidos por columna. |
-   | **[!UICONTROL Contenedor de flujo]** | Puede alternar entre **[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Grupo de compra]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Sesiones]** y **[!UICONTROL Persona]** para analizar las rutas. Esta configuración le ayuda a comprender la participación a nivel de contenedor específico (entre sesiones) o a restringir el análisis a una sola sesión. |
+   | **[!UICONTROL Contenedor de flujo]** | Puede alternar entre **[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Grupo de compra]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Sesiones]** y **[!UICONTROL Persona]** para analizar las rutas. Esta configuración le ayuda a comprender la participación a nivel de contenedor específico (entre sesiones) o a restringir el análisis a una sola sesión. |
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ Utilice un menú contextual en cualquier nodo de la visualización de flujo con 
 | **[!UICONTROL Excluir elemento]** o **[!UICONTROL Restaurar elementos excluidos]** | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, seleccione en el menú contextual **[!UICONTROL Restaurar elemento excluido]**. también puede abrir el segmento en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |
 | **[!UICONTROL Tendencia]** | Crea un diagrama de tendencia para el nodo. |
 | **[!UICONTROL Mostrar columna siguiente]** / **[!UICONTROL Mostrar columna anterior]** | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
-| **[!UICONTROL Ocultar columna]**&#x200B;n | Oculta la columna seleccionada de la visualización. |
+| **[!UICONTROL Ocultar columna]**n | Oculta la columna seleccionada de la visualización. |
 | **[!UICONTROL Expandir toda la columna]** | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
 | **[!UICONTROL Crear audiencia a partir de la selección]** | Crea una audiencia basada en la columna seleccionada. |
 | **[!UICONTROL Contraer toda la columna]** | Oculta todos los nodos de una columna. |
@@ -196,7 +196,7 @@ En el ejemplo siguiente, se incluyen **todas** las ocurrencias de *Categoría pr
 
   En el ejemplo siguiente, solo se incluyen las **últimas** ocurrencias de *Categoría principal del producto* y *Añadir al carro de compras* en cada paso del flujo.
   ![Lint, inicio](assets/limitonlast.png)
-* La serie utilizada difiere según el contenedor. Si usa el contenedor **[!UICONTROL Session]**, la serie de eventos estará limitada a una sesión.  Si usa cualquiera de los otros contenedores (por ejemplo, **[!UICONTROL Persona]**, o **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, o **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}), la serie de eventos se basa en el contenedor especificado y puede abarcar varias sesiones.
+* La serie utilizada difiere según el contenedor. Si usa el contenedor **[!UICONTROL Session]**, la serie de eventos estará limitada a una sesión.  Si usa cualquiera de los otros contenedores (por ejemplo, **[!UICONTROL Persona]**, o **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, o **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}), la serie de eventos se basa en el contenedor especificado y puede abarcar varias sesiones.
 * La opción **[!UICONTROL Limitar a la primera/última ocurrencia]** puede configurarse en los ajustes avanzados cuando se utiliza un elemento de métrica o dimensión en los campos **[!UICONTROL Comienza con]** o **[!UICONTROL Termina con]**.
 
 

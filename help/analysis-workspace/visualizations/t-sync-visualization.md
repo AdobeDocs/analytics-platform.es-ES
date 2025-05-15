@@ -8,7 +8,7 @@ role: User
 source-git-commit: 8f9c03607130bdeaf6cb7a32d8dd465712a47ea5
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
 >title="Mostrar tabla"
->abstract="Seleccione **[!UICONTROL Mostrar tabla]** para generar un nuevo origen de datos para su visualización actual, independiente del origen de datos original."
+>abstract="Seleccione **[!UICONTROL Mostrar tabla]** para generar una nueva fuente de datos para la visualización actual, independiente de la fuente de datos original."
 
 <!-- markdownlint-enable MD034 -->
 

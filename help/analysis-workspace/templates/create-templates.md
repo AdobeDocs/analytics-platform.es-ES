@@ -7,7 +7,7 @@ exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ Las personas de la compañía que inician sesión pueden usar estas plantillas d
 >[!CONTEXTUALHELP]
 >id="use-case-ajo-template"
 >title="Uso de plantillas en Journey Optimizer"
->abstract="Cuando se utiliza esta plantilla en Journey Optimizer, se utiliza la vista de datos configurada como vista de datos predeterminada en Adobe Journey Optimizer, independientemente de la vista de datos seleccionada con esta plantilla en Customer Journey Analytics."
+>abstract="Cuando se utiliza esta plantilla en Journey Optimizer, se utiliza la vista de datos establecida como vista de datos predeterminada de Adobe Journey Optimizer, independientemente de la vista de datos que se haya seleccionado con esta plantilla en Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -164,7 +164,7 @@ Para agregar los componentes que faltan a una plantilla:
 
          ![Vista de tarjeta de la plantilla de la compañía](assets/company-template-cards.png)
 
-      1. Pase el ratón sobre la plantilla y seleccione **[!UICONTROL Vista previa]**.
+      1. Pase el puntero por encima de la plantilla y seleccione **[!UICONTROL Vista previa]**.
 
          ![Página de vista previa de la plantilla](assets/template-preview.png)
 
