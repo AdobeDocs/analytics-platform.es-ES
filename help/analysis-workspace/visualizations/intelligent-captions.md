@@ -4,9 +4,9 @@ title: Subtítulos inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 4d566411778774d21be04c4f3d6cf2ffabed6db2
-workflow-type: ht
-source-wordcount: '876'
+source-git-commit: af8d4f07498211931e9549cadd4746eebb9f56f4
+workflow-type: tm+mt
+source-wordcount: '754'
 ht-degree: 100%
 
 ---
@@ -16,65 +16,10 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_area"
->title="Pies de ilustración inteligentes: área"
+>id="workspace_intelligentcaptions"
+>title="Subtítulos inteligentes"
 >abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_bar"
->title="Pies de ilustración inteligentes: barra"
->abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_donut"
->title="Pies de ilustración inteligentes: anillo"
->abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_horizontalbar"
->title="Pies de ilustración inteligentes: barra horizontal"
->abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_line"
->title="Pies de ilustración inteligentes: línea"
->abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_fallout"
->title="Pies de ilustración inteligentes: visita en orden previsto"
->abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_flow"
->title="Pies de ilustración inteligentes: flujo"
->abstract="Genere perspectivas en lenguaje natural para ayudarle a comprender e interpretar los datos de esta visualización con mayor facilidad."
-
-<!-- markdownlint-enable MD034 -->
 
 La funcionalidad Subtítulos inteligentes utiliza IA generativa avanzada para proporcionar información clave para las visualizaciones de Workspace utilizadas con más frecuencia en forma de lenguaje natural.
 
@@ -85,7 +30,7 @@ Los subtítulos inteligentes están destinados a las siguientes personas:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Subtítulos inteligentes](https://video.tv.adobe.com/v/3443141/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Subtítulos inteligentes](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
