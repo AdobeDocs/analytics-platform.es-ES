@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
+source-git-commit: dd285caa3d9702d3ddccdba2bc656767a9fe4684
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 9%
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # Usar vinculación
 
-Una vez que su organización cumpla todos los [requisitos previos](#prerequisites) y comprenda las [limitaciones](#limitations) comunes y las limitaciones ([basadas en campos](#limitations-1) y [basadas en gráficos](#limitations-2)) específicas del método de vinculación, puede seguir estos pasos para empezar a utilizar la vinculación en Customer Journey Analytics.
+Una vez que su organización cumpla todos los [requisitos previos](overview.md#prerequisites) y comprenda las [limitaciones](overview.md#limitations) comunes y las limitaciones ([basadas en campos](fbs.md#limitations) y [basadas en gráficos](gbs.md#limitations)) específicas del método de vinculación, puede seguir estos pasos para empezar a utilizar la vinculación en Customer Journey Analytics.
 
 ## Seleccionar opciones
 
-El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración del relleno inicial, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de solicitar asistencia.
+El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración del relleno inicial, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de solicitar asistencia.
 
 | | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
