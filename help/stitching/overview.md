@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: c27d5f44243e2cda252ac6a484a70964f0999dfc
+source-git-commit: 1a697ce0372d1cb544940778850714a198a000ec
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 15%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->Debe tener el paquete **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete **&#x200B;**&#x200B;o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para usar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
+>Debe tener el paquete **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete **** o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para usar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
 La vinculación de identidad (o simplemente, la vinculación) es una práctica funcionalidad que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis entre canales es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, en función de un identificador común (ID de persona).
 
@@ -41,7 +41,7 @@ Antes de usar la vinculación, asegúrese de que su organización está preparad
 - Importe los datos deseados en Adobe Experience Platform:
 
    - Para los datos de Adobe Analytics, consulte [Uso de los datos del grupo de informes de Adobe Analytics en Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
-   - Para ver otros tipos de datos, consulte [Crear un esquema](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/create-schema-ui) y [Ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home) en la documentación de Adobe Experience Platform.
+   - Para ver otros tipos de datos, consulte [Crear un esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui) y [Ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) en la documentación de Adobe Experience Platform.
 
 Se beneficia del análisis en canales múltiples si combina uno o más de los conjuntos de datos enlazados con otros conjuntos de datos, como los datos del centro de llamadas, como parte de la definición de la conexión de Customer Journey Analytics. Esta configuración de conexión supone que esos otros conjuntos de datos ya contienen un ID de persona en cada fila, similar al ID vinculado.
 
@@ -55,7 +55,7 @@ Se beneficia del análisis en canales múltiples si combina uno o más de los co
 >
 >- Si elimina el conjunto de datos de origen, el conjunto de datos enlazado detiene el procesamiento y el sistema lo elimina.
 >
->- Las etiquetas de uso de datos no se propagan automáticamente al esquema del conjunto de datos vinculado. Si tiene etiquetas de uso de datos aplicadas al esquema del conjunto de datos de origen, debe aplicar estas etiquetas de uso de datos manualmente al esquema del conjunto de datos vinculado. Consulte [Administración de etiquetas de uso de datos en Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview) para obtener más información.
+>- Las etiquetas de uso de datos no se propagan automáticamente al esquema del conjunto de datos vinculado. Si tiene etiquetas de uso de datos aplicadas al esquema del conjunto de datos de origen, debe aplicar estas etiquetas de uso de datos manualmente al esquema del conjunto de datos vinculado. Consulte [Administración de etiquetas de uso de datos en Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) para obtener más información.
 
 La vinculación es una característica innovadora y sólida, pero tiene limitaciones en cuanto a su uso.
 
@@ -74,5 +74,6 @@ Asegúrese de no confundir la vinculación con lo siguiente:
 >[Vinculación basada en el campo](fbs.md)
 >[Vinculación basada en gráficos ](gbs.md)
 >[Usar vinculación ](use-stitching.md)
+>[Validar vinculación ](validate.md)
 >[Preguntas frecuentes sobre la vinculación ](faq.md)
 

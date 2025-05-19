@@ -4,11 +4,10 @@ description: Validación de la vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
+source-git-commit: 3b402e367d2385b336c84ef52897ab34387a948d
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Aunque estos métodos de análisis se pueden utilizar tanto para la vinculación
 
 >[!NOTE]
 >
->Este artículo no aborda el valor general de una configuración de Customer Journey Analytics que tiene todos los conjuntos de datos de Experience Platform alineados con el mismo área de nombres de identidad. Y que todos estos conjuntos de datos están muy bien unidos para realizar análisis en todo un recorrido de clientes.
+>La vinculación (validación) de uno o más conjuntos de datos contribuye en última instancia a un mejor análisis y perspectivas. Sin embargo, este artículo no analiza el valor general de una configuración de Customer Journey Analytics que tiene todos los conjuntos de datos de Experience Platform alineados con el mismo área de nombres de identidad. Y que todos estos conjuntos de datos están muy bien unidos para realizar análisis en todo un recorrido de clientes.
 
 
 ## Requisitos previos de vista de datos
@@ -70,7 +69,7 @@ Para la tabla **[!UICONTROL Stitched ID dimension**], verá los valores sin proc
 
 ## Informes centrados en el dispositivo o en la persona
 
-Al crear una Conexión, debe definir qué campo o identidad se utiliza para el ID de persona. Por ejemplo, en un conjunto de datos web, si elige un ID de dispositivo como ID de persona, crea informes centrados en el dispositivo y pierde la capacidad de unir estos datos con otros canales sin conexión. Si selecciona un campo o una identidad en canales múltiples, por ejemplo, un correo electrónico, perderá los eventos no autenticados. Para comprender este impacto, debe averiguar qué parte del tráfico no está autenticado y qué parte del tráfico está autenticado.
+Al crear una conexión, debe definir qué campo o identidad se utiliza para el ID de persona. Por ejemplo, en un conjunto de datos web, si elige un ID de dispositivo como ID de persona, crea informes centrados en el dispositivo y pierde la capacidad de unir estos datos con otros canales sin conexión. Si selecciona un campo o una identidad en canales múltiples, por ejemplo, un correo electrónico, perderá los eventos no autenticados. Para comprender este impacto, debe averiguar qué parte del tráfico no está autenticado y qué parte del tráfico está autenticado.
 
 1. Crear una métrica calculada **[!UICONTROL Eventos no autenticados en total]**. Defina la regla en el generador de reglas como se muestra a continuación:
    ![Eventos no autenticados en total](assets/calcmetric-unauthenticatedeventsovertotal.png)
@@ -88,7 +87,7 @@ Al crear una Conexión, debe definir qué campo o identidad se utiliza para el I
 
 Desea medir el rendimiento de identificación antes y después de la vinculación. Para ello, cree tres métricas calculadas adicionales:
 
-1. Una métrica calculada de **[!UICONTROL tasa de autenticación vinculada]** que calcula el número de eventos donde el área de nombres vinculada está configurada con la identidad deseada sobre el número total de eventos. Al configurar la vista de datos, creó una métrica de **[!UICONTROL espacio de nombres vinculado por correo electrónico]** que incluía un filtro para contar solo cuando un evento tiene un espacio de nombres establecido en correo electrónico. La métrica calculada utiliza esta métrica **[!UICONTROL Área de nombres vinculada por correo electrónico]** para proporcionar una indicación del porcentaje de datos que tiene la identidad deseada.
+1. Una métrica calculada de **[!UICONTROL tasa de autenticación vinculada]** que calcula el número de eventos donde el área de nombres vinculada está configurada con la identidad deseada sobre el número total de eventos. Al configurar la vista de datos, creó una métrica de **[!UICONTROL área de nombres vinculada por correo electrónico]** que incluía un filtro para contar solo cuando un evento tiene un área de nombres configurada como correo electrónico. La métrica calculada utiliza esta métrica **[!UICONTROL Área de nombres vinculada por correo electrónico]** para proporcionar una indicación del porcentaje de datos que tiene la identidad deseada.
    ![Métrica calculada de tasa de autenticación vinculada](assets/calcmetric-stitchedauthenticationrate.png)
 
 1. Una métrica calculada de **[!UICONTROL aumento porcentual]** que calcula el cambio de porcentaje sin procesar entre la tasa de identificación actual y la unida.
