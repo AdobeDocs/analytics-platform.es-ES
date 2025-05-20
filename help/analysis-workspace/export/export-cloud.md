@@ -8,7 +8,7 @@ role: User
 source-git-commit: 9482dd11ecf4aa6f3f8a45c90c3838a4a3389c73
 workflow-type: tm+mt
 source-wordcount: '2312'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ Utilice el siguiente proceso al exportar tablas completas a la nube:
 >[!CONTEXTUALHELP]
 >id="export-manifest"
 >title="Archivo de manifiesto"
->abstract="Cuando se habilita, se incluye un archivo de manifiesto con cualquier entrega de exportación correcta. El archivo de manifiesto le permite confirmar que todos los archivos se entregaron correctamente."
+>abstract="Cuando se habilita, se incluye un archivo de manifiesto con cualquier envío de exportación correcto. El archivo de manifiesto le permite confirmar que todos los archivos se enviaron correctamente."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -218,7 +218,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
 
   Por ejemplo, una atribución de métrica de &quot;primer contacto&quot; anula una asignación de dimensión &quot;más reciente&quot;.
 
-* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [&#128279;](/help/data-views/component-settings/persistence.md).
+* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [](/help/data-views/component-settings/persistence.md).
 
   Por ejemplo, se aplica una atribución de métrica de &quot;primer contacto&quot; además de una asignación de dimensión &quot;más reciente&quot;. Además, la atribución de métricas se aplicará a los pares de elementos de dimensión post-asignados como si fueran elementos de dimensión únicos, en lugar de a cada elemento de dimensión de forma independiente, como se hace normalmente en una tabla de forma libre.
 
