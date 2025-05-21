@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
+source-git-commit: 6bfd54148736d4b3434eac3ee3aa6fc8a838d57a
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1470'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ En Customer Journey Analytics B2B edition, puede seleccionar entre una conexión
 
 ## Contenedores
 
-En Customer Journey Analytics, los contenedores se generan como parte de la configuración de una conexión y una vista de datos. Los contenedores almacenan grupos de identificadores para facilitar la ejecución rápida y eficaz de funcionalidades como segmentación, desgloses y más.
+En Customer Journey Analytics, los contenedores se generan como parte de la configuración de una conexión y vista de datos, y proporcionan una estructura de datos y un ámbito determinados. Los contenedores almacenan grupos de identificadores para secuenciar todas las marcas de tiempo de evento por identificadores únicos. Ese almacenamiento facilita la ejecución rápida y eficaz de funcionalidades como la segmentación, la atribución y las visualizaciones.
 
 ### Contenedores estándar
 
@@ -64,6 +64,23 @@ La jerarquía y las relaciones entre los contenedores están predeterminadas. Op
 >
 >* Si ha **habilitado** el contenedor de cuenta global en una conexión basada en cuentas, cada registro de los conjuntos de datos de evento debe contener un identificador de cuenta y un identificador de cuenta global. Si no es así, se omite el registro.
 >* Si **no ha habilitado** el contenedor de cuenta global en una conexión basada en cuentas, cada registro de los conjuntos de datos de evento debe contener un identificador de cuenta. Si no es así, se omite el registro.
+
+Puede utilizar los contenedores B2B para la funcionalidad B2B específica en Analysis Workspace:
+
+* **Segmentación**: [Los contenedores de segmentos B2B](/help/components/filters/filters-overview.md#b2b-containers) le permiten generar segmentos con un ámbito de contenedor más allá de la persona, la sesión o el evento. Por ejemplo: una cuenta con un segmento de registro de evento o una cuenta de EE. UU. con grupos de compra y un segmento de oportunidades de la fase 5.
+
+  >[!NOTE]
+  >
+  >Los datos de evento B2B de una configuración basada en cuentas de Customer Journey Analytics B2B edition pueden contener filas de datos sin una persona o sesión. Por ejemplo: una fila que detalla la progresión de la fase de oportunidad. Cuando evalúe el segmento, tenga en cuenta que las personas y las sesiones pueden dejar de ser los criterios correctos.
+  >
+
+* **Atribución**: puede usar los nuevos contenedores B2B en [panel de atribución](/help/analysis-workspace/c-panels/attribution.md), en [configuración de componentes de atribución](/help/data-views/component-settings/attribution.md), en [métricas calculadas](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) o en [columnas en una tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md). Las retrospectivas de cuentas se amplían a 13 meses.
+
+* **Visualizaciones**: [Abandonos](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md), [Lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) y [Tablas de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) admiten los nuevos contenedores B2B. Por ejemplo: puede utilizar los nuevos contenedores para comprender cómo los grupos compradores consumen contenido o cómo las cohortes de oportunidades se mueven hacia el cierre de una venta.
+También puede establecer el contenedor predeterminado para estas visualizaciones en las [preferencias de usuario](/help/analysis-workspace/user-preferences.md#visualizations-preferences).
+
+Los segmentos, la atribución y las visualizaciones junto con los contenedores B2B le admiten en el análisis y las perspectivas profundos de B2B.
+
 
 ## Conjuntos de datos
 

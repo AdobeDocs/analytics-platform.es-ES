@@ -4,7 +4,7 @@ description: Comprenda para qué segmentos se utilizan y cómo crear un segmento
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
-source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
+source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 5%
@@ -37,7 +37,7 @@ En especial, como administrador, la correcta planificación de los segmentos mej
 
    - ¿Cuándo debo utilizar este segmento?
 
-- **Ámbito**: ¿Qué [contenedor de segmento](#filter-containers) representa mejor los datos que busca? Utilice el contenedor más pequeño posible.
+- **Ámbito**: ¿Qué [contenedor de segmento](#segment-containers) representa mejor los datos que busca? Utilice el contenedor más pequeño posible.
 
 - **Componentes**: decida qué componentes incluirá en la definición del segmento y con qué valores se validarán las condiciones.
 
@@ -165,7 +165,7 @@ Los contenedores de evento incluyen desgloses de una sola página basados en val
 
 ### Contenedores B2B
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 Si tiene acceso a [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md), encontrará contenedores adicionales disponibles para usarlos en segmentos. Puede encontrar más detalles sobre el uso de estos contenedores adicionales en [conceptos y características de B2B](/help/getting-started/cja-b2b-concepts-features.md).
 

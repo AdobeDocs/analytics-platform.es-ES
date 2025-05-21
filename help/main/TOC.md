@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+source-git-commit: d56605b1ae7fd6d83853ad54ce823464090e0192
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 83%
+source-wordcount: '1241'
+ht-degree: 82%
 
 ---
 
@@ -433,7 +433,13 @@ ht-degree: 83%
       + [Uso de dimensiones del canal de marketing](../use-cases/aa-data/marketing-channels.md)
       + [Combinación de grupos de informes con diferentes esquemas](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
-      + [Ejemplo de proyecto B2B](../use-cases/b2b/example.md)
+      + [Ejemplo de proyecto B2B basado en personas](../use-cases/b2b/example.md)
+      + B2B edition {#b2b-edition}
+         + [Resumen de casos de uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+         + [Configuración](/help/use-cases/b2b/b2b-edition/setup.md)
+         + [Optimización del marketing de cuentas](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
+         + [Ampliación de cuentas clave](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
+         + [Generar valor de producto](/help/use-cases/b2b/b2b-edition/build-product-value.md)
    + Datos complejos {#complex-data}
       + [Usar matrices de objetos](../use-cases/object-arrays.md)
    + Datos en canales múltiples {#cross-channel}
