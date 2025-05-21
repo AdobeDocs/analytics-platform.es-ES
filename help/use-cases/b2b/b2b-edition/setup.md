@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 0b4dd8940d5c31ec9bf2b3841174930d5cc2a854
+badgePremium: label="B2B edition"
+exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1727'
 ht-degree: 12%
 
 ---
 
 # Configuración para casos de uso de B2B edition
+
+{{draft-b2b}}
 
 Este artículo describe una configuración típica de Customer Journey Analytics B2B edition para admitir los siguientes casos de uso:
 

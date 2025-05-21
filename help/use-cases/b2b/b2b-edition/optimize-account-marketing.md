@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
 
 # Optimización del marketing de cuentas
+
+{{draft-b2b}}
 
 El marketing efectivo basado en cuentas requiere una comprensión profunda del recorrido de compra a nivel de cuenta. Por lo tanto, puede determinar las actividades de marketing más impactantes para cerrar el trato.
 
@@ -116,4 +120,3 @@ Desea visualizar la influencia en la generación de MQL (posibles clientes cuali
 1. Seleccione **[!UICONTROL Generar]**.
 
    ![Caso de uso B2B - eventos en persona - configuración de flujo](assets/b2b-uc-optimize-marketing-flow.png)
-

@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
 
 # Ampliación de cuentas clave
+
+{{draft-b2b}}
 
 El crecimiento y la conservación de las cuentas clave es una prioridad para las empresas B2B. Un requisito previo para garantizar que las ofertas progresan es comunicarse con las partes interesadas clave en sus cuentas de Target en el momento adecuado.
 
@@ -51,4 +55,3 @@ Puede utilizar estas funciones de Customer Journey Analytics B2B edition:
 1. [Alertas inteligentes](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 1. [Compartir con usuarios de Workspace o con cualquier persona](/help/analysis-workspace/curate-share/share-projects.md)
 1. [Comentarios](/help/analysis-workspace/build-workspace-project/comment-projects.md)
-

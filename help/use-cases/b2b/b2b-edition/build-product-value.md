@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Generar valor de producto
+
+{{draft-b2b}}
 
 Desea proporcionar perspectivas de valor de producto B2B a los gestores de producto, CMO o CEOs. Por ejemplo, a través de un análisis de pérdida impulsado por datos o predicaciones. Y hacer que estas perspectivas sean digeribles a través de paneles móviles.
 
@@ -61,5 +65,3 @@ Desea crear un cuadro de resultados móvil que combine detalles sobre cuentas, o
 1. Use **[!UICONTROL Vista previa]** para obtener una vista previa del tablero. El tablero ya está disponible en la aplicación de tablero de Adobe Analytics, disponible en [App Store](https://apps.apple.com/us/app/adobe-analytics-dashboards/id1509062264) o [Google Play](https://play.google.com/store/apps/details?id=com.adobe.analyticsdashboards).
 
    ![Caso de uso B2B - Generar valor del producto - Democratizar perspectivas - Vista previa del cuadro de resultados móvil](assets/b2b-uc-build-product-value-mobile-scorecard-preview.png)
-
-
