@@ -3,9 +3,9 @@ description: Obtenga información sobre el tipo de métrica y la atribución
 title: Tipo de métrica y atribución
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '947'
+source-git-commit: 2d182004b12eb44f54ec9b4b5f63cb9072594aec
+workflow-type: tm+mt
+source-wordcount: '1007'
 ht-degree: 100%
 
 ---
@@ -45,122 +45,92 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 
 ## Atribución {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Uso de modelos de atribución no predeterminados"
 >abstract="Habilite un modelo de atribución no predeterminado para la métrica seleccionada."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Modelo"
 >abstract="Seleccione un modelo de atribución para la métrica."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Último contacto"
 >abstract="El 100 % del crédito se destina al último valor de dimensión visto por un visitante."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="Primer contacto"
 >abstract="El 100 % del crédito se destina al primer valor de dimensión visto por un visitante."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Lineal"
 >abstract="El crédito se distribuye de manera uniforme en todos los valores de dimensión."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Participación"
 >abstract="100 % de crédito a cada valor de dimensión visto por un visitante.<br/>Los totales de columna están sobreestimados."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="Mismo contacto"
 >abstract="El crédito se otorga solo a los valores de dimensión que se producen en el mismo evento que la conversión."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="Mismo contacto"
+>abstract="El crédito se otorga solo a los valores de dimensión que se producen en el mismo evento que la conversión."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="Forma de U"
 >abstract="40 % de crédito al primer valor de dimensión, 40 % al último, 20 % compartido por el medio."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="Curva J"
 >abstract="60 % de crédito al último valor de dimensión, 20 % al primero y 20 % compartido por el medio."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="Curva J"
+>abstract="60 % de crédito al último valor de dimensión, 20 % al primero y 20 % compartido por el medio."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="J inversa"
 >abstract="60 % de crédito al primer valor de dimensión, 20 % al último, 20 % compartido por el medio."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="J inversa"
+>abstract="60 % de crédito al primer valor de dimensión, 20 % al último, 20 % compartido por el medio."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Deterioro de tiempo"
 >abstract="Los valores de dimensión más cercanos en el tiempo a una conversión obtienen la mayor cantidad de crédito."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="Personalizado"
 >abstract="Defina su propia ponderación de atribución basada en la posición."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="Personalizado"
+>abstract="Defina su propia ponderación de atribución basada en la posición."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algorítmico"
 >abstract="El crédito se determina de forma dinámica mediante un algoritmo estadístico."
 
-<!-- markdownlint-enable MD034 -->
 
 
 {{attribution-models-details}}
@@ -192,7 +162,7 @@ Según la ventana retrospectiva y el modelo de atribución, los canales reciben 
 
 * Con el **primer contacto** y una **ventana de retroactividad de la sesión**, la atribución solo se centra en la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue el primero, por lo que el correo electrónico recibe el 100 % del crédito por la compra de 50 USD.
 
-* Con el **primer contacto** y una **ventana de retroactividad de la persona**, la atribución se centra en las tres visitas. La búsqueda de pago fue la primera, así que recibe el 100 % del crédito por la compra de 50 USD.
+* Con el **primer contacto** y una **ventana de retroactividad de la persona**, la atribución solo se centra en las tres visitas. La búsqueda de pago fue la primera, así que recibe el 100 % del crédito por la compra de 50 USD.
 
 * Con un modelo **lineal** y una **ventana retroactividad de la visita**, el crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 USD.
 Con un modelo **lineal** y una **ventana de retroactividad del visitante**, el crédito se divide entre la búsqueda de pago, las redes sociales, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 USD por esta compra.
