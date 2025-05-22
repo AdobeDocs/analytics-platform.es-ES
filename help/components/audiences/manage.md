@@ -6,8 +6,8 @@ feature: Audiences
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 76%
+source-wordcount: '766'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 Los públicos se pueden administrar en Customer Journey Analytics mediante **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]**.
 
-## Comprender las tareas de gestión de audiencia
+## Comprender las tareas de gestión de público
 
 La administración de públicos creados anteriormente le permite:
 
@@ -25,21 +25,21 @@ La administración de públicos creados anteriormente le permite:
 * Obtener información sobre **cuánto tiempo se tardó en producir un público** de Customer Journey Analytics. Y la cantidad de tiempo que tardó el público en aparecer en Real-Time Customer Platform con fines de activación.
 * Compruebe si **Real-Time Customer Platform** está usando los públicos de Customer Journey Analytics activamente. O, idealmente, cualquier aplicación de Experience Platform que consuma los públicos creados por Customer Journey Analytics.
 
-Si cuenta con acceso a [Vista de públicos](/help/technotes/access-control.md#user-level-access), podrá ver los públicos. Si cuenta con acceso para [Crear audiencia](/help/technotes/access-control.md#user-level-access), puede editar y eliminar audiencias.
+Si cuenta con acceso a [Vista de públicos](/help/technotes/access-control.md#user-level-access), podrá ver los públicos. Si cuenta con acceso a [Crear público](/help/technotes/access-control.md#user-level-access), podrá editar y eliminar públicos. 
 
-## Ver audiencias en la lista Audiencias
+## Buscar públicos en la lista de Públicos
 
-La ➊ Lista de audiencias muestra las audiencias existentes.
+La lista Audiencias ➊ muestra las audiencias existentes.
 
 ![Audience Manager](assets/audiences-manager.png)
 
-Para ver la lista Audiencia:
+Para ver la lista Público:
 
-1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias]**.
+1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]**.
 
-1. (Opcional) Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar qué columnas mostrar.
+1. (Opcional) Utilice ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar qué columnas mostrar.
 
-1. (Opcional) Busque una audiencia con ![Search](/help/assets/icons/Search.svg).
+1. (Opcional) Busque un público utilizando ![Buscar](/help/assets/icons/Search.svg).
 
    Las siguientes columnas están disponibles con información sobre cada audiencia:
 
@@ -58,19 +58,19 @@ Para ver la lista Audiencia:
 
 ## Editar audiencias
 
-Puede editar la configuración de una audiencia en cualquier momento. Cuando edita una audiencia (ya sea una audiencia única o recurrente), se requiere volver a publicar.
+Puede editar la configuración de un público en cualquier momento. Cuando edita un público (ya sea un público único o recurrente), se requiere volver a publicar.
 
-Para crear un público:
+Para editar un público, haga lo siguiente:
 
-1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias]**.
+1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]**.
 
-   Se muestra la página Audiencias.
+   Se muestra la página Públicos.
 
-1. Seleccione el título de la audiencia que desea editar.
+1. Seleccione el título del público que desea editar.
 
-   Se muestra el cuadro de diálogo **[!UICONTROL Editar audiencia]**.
+   Se muestra el cuadro de diálogo **[!UICONTROL Editar público]**.
 
-1. Puede actualizar cualquiera de los campos disponibles para la audiencia. Para obtener información sobre los campos que puede actualizar, consulte [Generador de audiencias](/help/components/audiences/publish.md#audience-builder) en el artículo [Crear y publicar audiencias](/help/components/audiences/publish.md).
+1. Puede actualizar cualquiera de los campos disponibles para el público. Para obtener información sobre los campos que puede actualizar, consulte [Generador de públicos](/help/components/audiences/publish.md#audience-builder) en el artículo [Crear y publicar públicos](/help/components/audiences/publish.md).
 
 1. Seleccione **[!UICONTROL Volver a publicar]**.
 
@@ -80,9 +80,9 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las audiencias seleccionadas. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de audiencia *]**, seleccione etiquetas en el menú desplegable o escriba una o más etiquetas nuevas. Seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**&#x200B;para guardar. |
+| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las audiencias seleccionadas. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de audiencia *]**, seleccione etiquetas en el menú desplegable o escriba una o más etiquetas nuevas. Seleccione**[!UICONTROL Guardar ]**para guardar. |
 | ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar las audiencias seleccionadas. |
-| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de la audiencia seleccionada. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de audiencia *]**&#x200B;para cambiar el nombre de la audiencia y seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**&#x200B;para guardar. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de la audiencia seleccionada. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de audiencia *]**para cambiar el nombre de la audiencia y seleccione**[!UICONTROL Guardar ]**para guardar. |
 
 Las siguientes acciones están disponibles en la barra de acciones azul al seleccionar uno o más proyectos programados.
 
@@ -92,9 +92,9 @@ Las siguientes acciones están disponibles en la barra de acciones azul al selec
 | ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar las audiencias seleccionadas. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar las audiencias seleccionadas a un archivo lkanado `audiences.csv`. |
 
-## Filtrado de la lista de audiencias
+## Filtrado de la lista de públicos
 
-Puede filtrar la [lista de audiencias](#audiences-list) mediante el ➋ del panel de filtro. Para mostrar u ocultar el panel de filtro, use ![Filtro](/help/assets/icons/Filter.svg).
+Puede filtrar la [lista de audiencias](#audiences-list) mediante el panel de filtro ➋. Para mostrar u ocultar el panel de filtro, utilice ![Filtro](/help/assets/icons/Filter.svg).
 
 ![Audience Manager](assets/audiences-manager.png)
 

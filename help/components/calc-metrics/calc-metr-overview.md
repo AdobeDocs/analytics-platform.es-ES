@@ -1,13 +1,13 @@
 ---
 title: Información general sobre las métricas calculadas
-description: Obtenga información sobre las métricas segmentadas que se derivan del tiempo de ejecución de un informe.
+description: Obtenga información sobre las métricas segmentadas que se derivan del tiempo de ejecución del informe.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
 source-git-commit: ce18545a0ee597ee448fa55d83bdece54c7c849c
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Las métricas calculadas son personalizadas y se pueden crear a partir de métri
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a las métricas calculadas](https://video.tv.adobe.com/v/35863/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a las métricas calculadas](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

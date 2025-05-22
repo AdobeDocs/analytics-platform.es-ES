@@ -7,7 +7,7 @@ exl-id: 5b4b2e2b-0a73-48df-a40c-98d2c47f94c8
 source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Para crear una alerta:
 
 ## Generador de alertas
 
-La interfaz del Generador de alertas resulta familiar a quienes hayan creado segmentos o calculado métricas en Customer Journey Analytics:
+La interfaz del Generador de alertas resulta familiar para aquellos que han creado filtros o calculado métricas en Customer Journey Analytics:
 
 ![Interfaz del generador de alertas](assets/alert-builder.png)
 

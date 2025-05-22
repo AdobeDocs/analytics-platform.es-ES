@@ -6,8 +6,8 @@ exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 91%
+source-wordcount: '1145'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Información rápida en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte [Panel Información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel Información rápida en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte [Panel Información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -38,7 +38,7 @@ La primera vez que empieces a usar este [!UICONTROL Analysis Workspace], es posi
 * qué dimensiones y métricas pueden facilitar las perspectivas,
 * dónde arrastrar y soltar elementos,
 * dónde crear un segmento,
-* y más
+* y más.
 
 Para ayudarlo con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que le presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa su compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y segmentos etiquetados con [!UICONTROL POPULAR] en el menú desplegable, como se muestra a continuación:
 
@@ -62,7 +62,7 @@ A continuación se incluyen algunos de los términos básicos que debes conocer.
 | [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad de la persona, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
 | **[!UICONTROL Visualización]** | Workspace ofrece [varias visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para generar representaciones visuales de tus datos. Como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | **[!UICONTROL Desglose de dimensiones]** | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. Por ejemplo, puedes desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado. O puedes desglosar Dispositivos móviles por Tipos de dispositivos móviles, por Regiones, por Campañas internas y más. |
-| **[!UICONTROL Segmento]** | Los segmentos permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar [!UICONTROL Personas] segmentos basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: personas de Facebook, una página de aterrizaje definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
+| **[!UICONTROL Segmento]** | Los segmentos permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puedes generar segmentos de [!UICONTROL Personas] basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, género o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: personas de Facebook, una página de aterrizaje definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
 
 ## Usar
 
@@ -125,13 +125,13 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
   ![Generador de perspectivas rápidas](assets/qibuilder-result.png)
 
-   * **[!UICONTROL Analizar]** dimensión **[!UICONTROL Desglosar por]**: puedes utilizar hasta tres niveles de desgloses en las dimensiones para profundizar en los datos que realmente necesita. Consulta ➊, ➋ y ➌.
+   * **[!UICONTROL Analizar]** dimensión **[!UICONTROL Desglosar por]**: puedes utilizar hasta tres niveles de desgloses en las dimensiones para profundizar en los datos que realmente necesita. Ver ➊, ➋ y ➌.
 
-   * Agregar más métricas **[!UICONTROL por]**: puedes agregar hasta dos métricas más. Consulta ➍ y ➎.
+   * Agregar más métricas **[!UICONTROL por]**: puedes agregar hasta dos métricas más. Ver ➍ y ➎.
 
-   * **[!UICONTROL segmentar por]**: puede agregar hasta dos segmentos más. Por ejemplo, añada Reservas como segmento y combine ese segmento con los segmentos de Viajeros frecuentes y Viajeros por primera vez que compare. Consulta ➏, ➐ y ➑.
+   * **[!UICONTROL segmentar por]**: puede añadir hasta 2 segmentos más. Por ejemplo, añada Reservas como segmento y combine ese segmento con los segmentos de Viajeros frecuentes y Viajeros por primera vez que compare. Ver ➏, ➐ y ➑.
 
-   * activado: puede especificar el rango de fechas. Consulta ➒.
+   * activado: puede especificar el rango de fechas. Ver ➒.
 
 ## Limitaciones conocidas
 

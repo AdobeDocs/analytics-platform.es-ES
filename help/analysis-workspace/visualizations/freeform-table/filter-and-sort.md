@@ -7,7 +7,7 @@ role: User
 source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Las tablas de forma libre en Analysis Workspace son la base del análisis intera
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/327344?captions=spa)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## Filtrado de tablas
 
@@ -31,7 +31,7 @@ Puede utilizar varios métodos para filtrar filas de una tabla de forma libre.
 
 - Excluir filas específicas de una tabla
 - Aplicar filtros a una tabla
-- Usar segmentos de audiencia
+- Usar segmentos de público
 
 Asegúrese de leer cómo afecta cada método a los [Totales de tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -94,7 +94,7 @@ Para filtrar datos en tablas de forma libre:
 
 1. Seleccione **[!UICONTROL Aplicar]** para filtrar los datos. Seleccione **[!UICONTROL Borrar]** para borrar todos los campos de entrada. Seleccione **[!UICONTROL Cancelar]** para cancelar y cerrar el cuadro de diálogo. <br/>Un icono ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** de color indica y muestra detalles cuando se aplica un filtro a la tabla.
 
-### Usar segmentos de audiencia
+### Usar segmentos de público
 
 Consulte [Resumen de segmentación](/help/components/filters/filters-overview.md) para obtener más información.
 

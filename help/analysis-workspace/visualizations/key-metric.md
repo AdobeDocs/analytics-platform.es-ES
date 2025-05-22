@@ -7,7 +7,7 @@ role: User
 source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización Resumen de métricas clave en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Resumen de métricas clave](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualización Resumen de métricas clave en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Resumen de métricas clave](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
    | **[!UICONTROL Métrica]** | Seleccione la métrica que desea examinar. Todas las métricas son compatibles. |
    | **[!UICONTROL Intervalo de fechas principal]** | El intervalo de fechas actual para la tabla de forma libre.<p>Elija entre cualquier intervalo de fechas disponible en la vista de datos.</p> <p>Elija [!UICONTROL **Intervalo de fechas del panel**] si desea utilizar el mismo intervalo de fechas que se está utilizando en el panel en el que se encuentra la visualización.</p> |
    | **[!UICONTROL Intervalo de fechas de comparación]** | El intervalo de fechas con el que se desea comparar el intervalo de fechas principal. |
-   | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese para este resumen. |
+   | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese específicamente para este resumen. |
 
    {style="table-layout:auto"}
 
@@ -111,7 +111,7 @@ Tenga en cuenta lo siguiente al visualizar esta columna:
 
 * Si no se especifica un intervalo de fechas de comparación durante la configuración o está oculto en los ajustes de visualización, solo se muestra el gráfico de líneas del intervalo de fechas principal. El cambio de resumen estará oculto.
 
-* Desde aquí, puede pasar el ratón por encima de los gráficos de líneas para ver las estadísticas de los días individuales:
+* Desde aquí, puede pasar el puntero por encima de los gráficos de líneas para ver las estadísticas de los días individuales:
 
 
 ## Configuración

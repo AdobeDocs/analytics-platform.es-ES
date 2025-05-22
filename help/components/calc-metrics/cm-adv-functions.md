@@ -7,7 +7,7 @@ role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '5247'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Para obtener acceso a estas funciones, seleccione **[!UICONTROL Mostrar todo]** 
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
-Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"} o [!BADGE Fila]{type="Neutral"}
+Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"} o [!BADGE Fila]{type="Neutral"}
 
 ## ¿Qué significa el parámetro include-zeros?
 
@@ -93,7 +93,7 @@ Un caso de uso común para esta función es cuando desea obtener un número apro
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE Fila]{type="Neutral"} Devuelve el arco coseno, o la inversa del coseno, de una métrica. El arcocoseno es el ángulo cuyo coseno es el número. El ángulo devuelto se indica en radianes en el intervalo de 0 (cero) a pi. Si desea convertir el resultado de radianes a grados, multiplíquelo por 180/PI().
+[!BADGE Fila]{type="Neutral"} Devuelve el arcocoseno o la inversa del coseno de una métrica. El arcocoseno es el ángulo cuyo coseno es el número. El ángulo devuelto se indica en radianes en el intervalo de 0 (cero) a pi. Si desea convertir el resultado de radianes a grados, multiplíquelo por 180/PI().
 
 
 | Argumento | Descripción |
@@ -116,7 +116,7 @@ Un caso de uso común para esta función es cuando desea obtener un número apro
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE Fila]{type="Neutral"} Devuelve el arco seno o seno inverso de un número. El arcoseno es el ángulo cuyo seno es un número. El ángulo devuelto se indica en radianes en el intervalo -pi/2 a pi/2. Para expresar el arco seno en grados, multiplique el resultado por 180/PI().
+[!BADGE Fila]{type="Neutral"} Devuelve el arcoseno o la inversa del seno de un número. El arcoseno es el ángulo cuyo seno es un número. El ángulo devuelto se indica en radianes en el intervalo -pi/2 a pi/2. Para expresar el arcoseno en grados, multiplique el resultado por 180/PI().
 
 
 | Argumento | Descripción |
@@ -139,7 +139,7 @@ Un caso de uso común para esta función es cuando desea obtener un número apro
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE Fila]{type="Neutral"} Devuelve el arco tangente, o la tangente inversa, de un número. El arcotangente es el ángulo cuya tangente es un número. El ángulo devuelto se indica en radianes en el intervalo -pi/2 a pi/2. Para expresar el arcotangente en grados, multiplique el resultado por 180/PI().
+[!BADGE Fila]{type="Neutral"} Devuelve el arcotangente o la inversa de la tangente de un número. El arcotangente es el ángulo cuya tangente es un número. El ángulo devuelto se indica en radianes en el intervalo -pi/2 a pi/2. Para expresar el arcotangente en grados, multiplique el resultado por 180/PI().
 
 
 | Argumento | Descripción |
@@ -186,13 +186,13 @@ CDF-T(x, ∞) ? cdf_z(x)
 >[!CONTEXTUALHELP]
 >id="functions-cdf-z"
 >title="Cdf-Z"
->abstract="Devuelve la probabilidad de que una variable aleatoria con una distribución normal tenga una puntuación z inferior al valor de col."
+>abstract="Devuelve la probabilidad de que una variable aleatoria con una distribución normal tenga una puntuación z menor que el valor de col."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(metric, number)]**
 
-Devuelve la probabilidad de que una variable aleatoria con una distribución normal tenga una puntuación z inferior al valor de col.
+Devuelve la probabilidad de que una variable aleatoria con una distribución normal tenga una puntuación z menor que el valor de col.
 
 | Argumento | Descripción |
 |---|---|
@@ -215,13 +215,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="Límite superior"
->abstract="Devuelve el menor entero igual o mayor que un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe para los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula LÍMITE SUPERIOR(Ingresos) para redondear hacia arriba al dólar más próximo o 570 $."
+>abstract="Devuelve el menor entero igual o mayor que un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe para los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula LÍMITE SUPERIOR (Ingresos) para redondear hacia arriba al dólar más próximo o 570 $."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE Fila]{type="Neutral"} Devuelve el menor entero igual o mayor que un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe para los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula LÍMITE SUPERIOR(Ingresos) para redondear hacia arriba al dólar más próximo o 570 $.
+[!BADGE Fila]{type="Neutral"} Devuelve el menor entero igual o mayor que un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe para los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula LÍMITE SUPERIOR (Ingresos) para redondear hacia arriba al dólar más próximo o 570 $.
 
 | Argumento | Descripción |
 |---|---|
@@ -315,7 +315,7 @@ La confianza es una medida probabilística del grado de evidencia de que una var
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(métrica)]**
 
-[!BADGE Fila]{type="Neutral"} Devuelve el coseno del ángulo dado. Si el ángulo se expresa en grados, multiplique el ángulo por PI()/180.
+[!BADGE Fila]{type="Neutral"} Devuelve el coseno de un ángulo determinado. Si el ángulo se expresa en grados, multiplique el ángulo por PI()/180.
 
 | Argumento | Descripción |
 |---|---|
@@ -419,7 +419,7 @@ Igual. El resultado es 0 (falso) o 1 (verdadero).
 | Argumento | Descripción |
 |---|---|
 | metric_X | La métrica que desea utilizar para comparar. |
-| metric_Y | La métrica con la que desea comparar. |
+| metric_Y | La métrica que desea utilizar para comparar. |
 
 ### Ejemplo
 
@@ -533,7 +533,7 @@ Igual. El resultado es 0 (falso) o 1 (verdadero).
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Fila]{type="Neutral"} Devuelve el mayor entero igual o menor a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe para los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula LÍMITE MÍNIMO(Ingresos) para redondear hacia abajo al dólar más próximo o 569 $.
+[!BADGE Fila]{type="Neutral"} Devuelve el mayor entero más grande que no sea mayor que un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe para los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula LÍMITE MÍNIMO(Ingresos) para redondear hacia abajo al dólar más próximo o 569 $.
 
 | Argumento | Descripción |
 |---|---|
@@ -558,7 +558,7 @@ El resultado es 0 (falso) o 1 (verdadero).
 | Argumento | Descripción |
 |---|---|
 | metric_X | La métrica base que desea utilizar para comparar. |
-| metric_Y | La métrica con la que desea comparar. |
+| metric_Y | La métrica que desea utilizar para comparar. |
 
 ### Ejemplo
 
@@ -583,7 +583,7 @@ Mayor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 | Argumento | Descripción |
 |---|---|
 | metric_X | La métrica base que desea utilizar para comparar. |
-| metric_Y | La métrica con la que desea comparar. |
+| metric_Y | La métrica que desea utilizar para comparar. |
 
 ### Ejemplo
 
@@ -668,7 +668,7 @@ Mayor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE Fila]{type="Neutral"} Si el valor del parámetro de condición no es cero (true), el resultado es el valor del parámetro value_if_true. De lo contrario, es el valor del parámetro value_if_false.
+[!BADGE Fila]{type="Neutral"} Si el valor del parámetro de condición es distinto de cero (true), el resultado es el valor del parámetro value_if_true. De lo contrario, es el valor del parámetro value_if_false.
 
 
 | Argumento | Descripción |
@@ -696,7 +696,7 @@ El resultado es 0 (falso) o 1 (verdadero).
 | Argumento | Descripción |
 |---|---|
 | metric_X | La métrica que desea utilizar para comparar. |
-| metric_Y | La métrica con la que desea comparar. |
+| metric_Y | La métrica que desea utilizar para comparar. |
 
 ### Ejemplo
 
@@ -721,7 +721,7 @@ Menor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 | Argumento | Descripción |
 |---|---|
 | metric_X | La métrica que desea utilizar para comparar. |
-| metric_Y | La métrica con la que desea comparar. |
+| metric_Y | La métrica que desea utilizar para comparar. |
 
 ### Ejemplo
 
@@ -729,18 +729,18 @@ Menor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 
 
 
-## Alza {#lift}
+## Lift {#lift}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
->title="Alza"
+>title="Lift"
 >abstract="El alza de la proporción comparada con el valor de control."
 
 <!-- markdownlint-enable MD034 -->
 
-![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL ALZA(contenedor de normalización, métrica de éxito, control)]**
+![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LIFT(contenedor-normalizador, métrica-éxito, control)]**
 
 El alza de la proporción comparada con el valor de control.
 
@@ -884,7 +884,7 @@ El alza de la proporción comparada con el valor de control.
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve el coeficiente de correlación.
+[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve el coeficiente de correlación.
 
 | Argumento | Descripción |
 |---|---|
@@ -906,7 +906,7 @@ El alza de la proporción comparada con el valor de control.
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve b.
+[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve b.
 
 | Argumento | Descripción |
 |---|---|
@@ -929,7 +929,7 @@ El alza de la proporción comparada con el valor de control.
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Fila]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve Y.
+[!BADGE Fila]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve Y.
 
 | Argumento | Descripción |
 |---|---|
@@ -952,7 +952,7 @@ El alza de la proporción comparada con el valor de control.
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve a.
+[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve a.
 
 | Argumento | Descripción |
 |---|---|
@@ -1024,7 +1024,7 @@ No es igual. El resultado es 0 (falso) o 1 (verdadero).
 | Argumento | Descripción |
 |---|---|
 | metric_X | La métrica que desea utilizar para comparar. |
-| metric_Y | La métrica con la que desea comparar. |
+| metric_Y | La métrica que desea utilizar para comparar. |
 
 ### Ejemplo
 
@@ -1045,7 +1045,7 @@ No es igual. El resultado es 0 (falso) o 1 (verdadero).
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-Disyunción [!BADGE Row]{type="Neutral"}. No es igual a cero se considera verdadero y es igual a cero se considera falso. El resultado es 0 (falso) o 1 (verdadero).
+Disyunción de [!BADGE fila]{type="Neutral"}. No es igual a cero se considera verdadero y es igual a cero se considera falso. El resultado es 0 (falso) o 1 (verdadero).
 
 
 | Argumento | Descripción |
@@ -1353,9 +1353,9 @@ Devuelve Pi: 3,14159...
 >title="Varianza de muestra"
 >abstract="Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)).  donde N es el recuento del contenedor de normalización. <br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
 
-![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIACIÓN DE MUESTRA(contenedor de normalización, métrica de éxito)]**
+![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA DE MUESTRA (contenedor de normalización, métrica de éxito)]**
 
-Calcula una estimación de la varianza de la muestra.
+Calcula una estimación de la varianza de muestra.
 
 | Argumento | Descripción |
 | --- | --- |
@@ -1380,7 +1380,7 @@ Calcula una estimación de la varianza de la muestra.
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE Fila]{type="Neutral"} Devuelve el seno del ángulo dado. Si el ángulo se expresa en grados, multiplique el ángulo por PI()/180.
+[!BADGE Fila]{type="Neutral"} Devuelve el seno de un ángulo determinado. Si el ángulo se expresa en grados, multiplique el ángulo por PI()/180.
 
 
 | Argumento | Descripción |

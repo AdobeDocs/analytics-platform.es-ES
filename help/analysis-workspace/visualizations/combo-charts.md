@@ -7,7 +7,7 @@ role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización Combo de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._.
+_En este artículo se describe la visualización Combo de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._.
 
-_Consulte [Combo](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Consulte [Combo](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Tenga en cuenta lo siguiente:
 * Puede agregar varias comparaciones en un solo [!UICONTROL Gráfico combinado].
 * Si añade una o más comparaciones, deben ser del mismo tipo, como una [!UICONTROL Comparación temporal].
 * Se pueden añadir hasta cinco comparaciones.
-* Puede aplicar hasta 3 segmentos a una métrica.
+* Puede aplicar hasta tres segmentos a una métrica.
 * Las métricas calculadas no son compatibles con los gráficos combinados.
 
 ## Utiliza

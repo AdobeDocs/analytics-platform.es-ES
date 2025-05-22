@@ -7,7 +7,7 @@ role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2129'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ Puede realizar lo siguiente:
 
 ## Vista de datos
 
-Cada panel está asociado con una [vista de datos](/help/data-views/data-views.md), identificada por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre de la vista de datos *]**&#x200B;en el menú desplegable de la parte superior derecha del panel.
+Cada panel está asociado con una [vista de datos](/help/data-views/data-views.md), identificada por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre de la vista de datos *]**en el menú desplegable de la parte superior derecha del panel.
 
 Al crear un proyecto de Workspace en blanco, la vista de datos predeterminada para el panel inicial es la vista de datos en la que trabajaste por última vez en Customer Journey Analytics.
 
@@ -149,13 +149,13 @@ Los componentes que no son segmentos también pueden arrastrarse directamente a 
 
 Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
 
-![Segmentos ad hoc que se hacen públicos y se colocan en la zona de colocación](assets/adhoc-segment-filter.png)
+![Segmentos ad hoc que se hacen públicos y se sueltan en la zona de colocación](assets/adhoc-segment-filter.png)
 
 ### Segmentos desplegables
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/327488?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -168,7 +168,7 @@ Los segmentos desplegables estáticos permiten interactuar con los datos de form
 
 Los segmentos desplegables estáticos también pueden utilizarse para consolidar muchos proyectos en uno solo. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un segmento desplegable de país.
 
-![Segmentos desplegables estáticos que muestran el segmento &quot;Directo&quot; de Market Channel resaltado. ](assets/dropdown-filter-intro.png)
+![Segmentos desplegables estáticos que muestran el segmento &quot;Directo&quot; del canal de mercado resaltado. ](assets/dropdown-filter-intro.png)
 
 ##### Creación de segmentos desplegables dinámicos
 

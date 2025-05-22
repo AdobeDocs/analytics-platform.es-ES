@@ -7,7 +7,7 @@ role: User
 source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 73%
+ht-degree: 93%
 
 ---
 
@@ -24,20 +24,20 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 
 ## Visualizaciones
 
-* Las visualizaciones que aprovechan los segmentos, como [!UICONTROL Visita en orden previsto], [!UICONTROL Flujo], [!UICONTROL Cohorte] e [!UICONTROL Histograma], no pueden aceptar las métricas calculadas como entradas.
+* Las visualizaciones que aprovechan segmentos, como [!UICONTROL Visita en orden previsto], [!UICONTROL Flujo], [!UICONTROL Cohorte] y [!UICONTROL Histograma], no pueden aceptar métricas calculadas como entradas.
 * [!UICONTROL Flujo]: Las dimensiones de entrada y salida, por ejemplo: [!UICONTROL página de entrada], no se pueden usar en Flujos.
 * [!UICONTROL Cohorte]: Los números no enteros no se pueden usar como criterios de cohorte.
 
 ## Segmentos 
 
-* Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Eventos], [!UICONTROL Personas], etc.
-* Los segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) son un tipo de segmento rápido. No aparecen en el panel izquierdo de Workspace ni en el Administrador de segmentos a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
+* Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Eventos], [!UICONTROL Personas], etc.
+* Segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) son un tipo de segmento rápido. No aparecen en el panel izquierdo de Workspace ni en el Administrador de segmentos a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
 
 ## Métricas calculadas 
 
 * Las métricas calculadas no se pueden usar en determinadas visualizaciones. Consulta [Visualizaciones](#visualizations).
 * Las métricas calculadas no se pueden usar en el panel de [!UICONTROL Attribution], ya que las métricas calculadas pueden incluir modelos de atribución independientes.
-* Determinados componentes y operadores no están disponibles si se crea una métrica calculada desde Workspace (en lugar de hacerlo desde [!UICONTROL Componentes > segmentos]). Por ejemplo, [!UICONTROL Dirección IP].
+* Determinados componentes y operadores no están disponibles si se crea una métrica calculada desde Workspace (en lugar de hacerlo desde [!UICONTROL Componentes > Segmentos]). Por ejemplo, [!UICONTROL Dirección IP].
 
 ## Intervalos de fechas
 

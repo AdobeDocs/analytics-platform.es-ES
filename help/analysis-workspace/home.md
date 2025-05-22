@@ -8,7 +8,7 @@ solution: Customer Journey Analytics
 role: User
 source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1469'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ Analysis Workspace te permite crear análisis rápidamente para recopilar inform
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/35552/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -123,7 +123,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 
 | Ayuda | Acceso directo a Mac | Acceso directo a Windows | Descripción |
 |---|---|---|---|
-| Vídeos de **&#x200B;**&#x200B;| | | Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
+| Vídeos de **** | | | Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Documentación de ayuda]** | | | Abre la documentación (que acabas de leer…) en una nueva pestaña del explorador. |
 | **[!UICONTROL Foro de ayuda]** | | | Abre el foro de comunidades de Experience League de Adobe Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Teclas de acceso directo]** | | | Mostrar una descripción general de los métodos abreviados de teclado que se pueden utilizar en Workspace. |

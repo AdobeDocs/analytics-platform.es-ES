@@ -8,7 +8,7 @@ solution: Customer Journey Analytics
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ La siguiente información instruye a los revisores de datos de Adobe Analytics s
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creación de un cuadro de resultados móvil](https://video.tv.adobe.com/v/3409728?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creación de un cuadro de resultados móvil](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ Como revisor de este cuadro de resultados, puede utilizar el creador de cuadros 
 
 Para crear el cuadro de resultados, debe hacer lo siguiente:
 
-1. Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco] en Workspace.
+1. Acceda a la plantilla [!UICONTROL Cuadro de resultados móvil en blanco] en Workspace.
 2. Configure el cuadro de resultados con datos y guárdelo.
 
 ## Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco] {#template}
@@ -73,7 +73,7 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 
 Para implementar la plantilla del cuadro de resultados:
 
-1. En **[!UICONTROL Propiedades del informe de valoración]** (en el carril derecho), especifique una **[!UICONTROL vista de datos del proyecto]** cuyos datos quiera utilizar.
+1. En **[!UICONTROL Propiedades de la tarjeta de puntuación]** (en el carril derecho), especifique una **[!UICONTROL Vista de datos del proyecto]** de la que desee utilizar datos.
 
    ![Nueva ventana del cuadro de resultados móvil que resalta la selección de la vista de datos](assets/properties_save.png)
 
@@ -96,9 +96,9 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-Si desea aplicar el segmento a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar segmentos seleccionándolos en el menú de segmentos debajo de los intervalos de fechas. Usted [configura y aplica segmentos para sus cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la misma manera que lo haría en Customer Journey Analytics Workspace.
+Si desea aplicar el segmento a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de segmento debajo de los intervalos de fechas. Debe [configurar y aplicar segmentos para sus cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en el espacio de trabajo de Customer Adobe Analytics.
 
-![Selector desplegable de segmento que resalta los segmentos de compilación](assets/segment_ui.png)
+![Selector desplegable de segmentos que resalta los filtros de generación](assets/segment_ui.png)
 
 ## Adición de intervalos de fechas {#dates}
 
@@ -212,7 +212,7 @@ Las diapositivas de detalles personalizadas le permiten centrarse aún más en l
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3413786?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -257,7 +257,7 @@ Vea el vídeo para obtener más información acerca de la creación de historias
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://video.tv.adobe.com/v/3420559/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -273,7 +273,7 @@ Cree su historia basada en datos al agregar varias diapositivas de detalles a un
    ![Creación de una historia basada en datos](assets/data-story1.png)
    ![Creación de iconos de historia basada en datos](assets/create-data-story.png){width=".50%"}
 1. Agregue diapositivas para generar la historia basada en datos. La primera diapositiva se genera de forma predeterminada.
-Para agregar nuevas diapositivas, pase el ratón sobre una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
+Para agregar nuevas diapositivas, pase el puntero por encima de una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
    * Pulse el signo + para crear una nueva diapositiva.
    * Pulse el icono de duplicado para duplicar la diapositiva existente.
 1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para llenarla automáticamente con los datos del mosaico.
@@ -282,7 +282,7 @@ Para eliminar una diapositiva, pulse el icono de papelera.
 
 ### Personalización de una historia basada en datos {#customize-data-story}
 
-Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para añadir segmentos, mostrar desgloses, cambiar el diseño y cambiar las visualizaciones.
+Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para añadir segmentos, mostrar desgloses, cambiar el diseño y modificar las visualizaciones.
 
 **Para personalizar mosaicos**
 

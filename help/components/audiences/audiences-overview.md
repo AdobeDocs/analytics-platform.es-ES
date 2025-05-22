@@ -7,7 +7,7 @@ role: User, Admin
 source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 76%
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ Las audiencias que cree en Customer Journey Analytics no tienen por qué basarse
 
 **Audiencia**: conjunto o lista de identidades que tienen un área de nombres y un ID específico relacionado con ese área de nombres. Las audiencias se pueden transportar desde Adobe Experience Platform y las aplicaciones que se basan en la herramienta (como Customer Journey Analytics). Las audiencias pueden contener áreas de nombres mixtas.
 
-**Segmento**: conjunto de reglas que, al evaluarse con un conjunto de datos durante un período de tiempo, produce un subconjunto de datos. Un segmento se puede utilizar en el proceso de creación de una audiencia cuando se asocia con otros servicios de soporte. Los segmentos se definen y mantienen en Customer Journey Analytics.
+**Segmento**: Conjunto de reglas que, al evaluarse con un conjunto de datos durante un período de tiempo, produce un subconjunto de datos. Se puede utilizar un segmento en el proceso de creación de una audiencia cuando se asocia con otros servicios de respaldo. Los filtros se definen y mantienen en Customer Journey Analytics.
 
 ## Permisos
 

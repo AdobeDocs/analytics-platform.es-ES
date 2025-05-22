@@ -8,7 +8,7 @@ role: User
 source-git-commit: 1474a29dc9063ea65a78d34b3a2eb9861a71ee4e
 workflow-type: tm+mt
 source-wordcount: '2091'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://video.tv.adobe.com/v/40033/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -150,7 +150,7 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 >
 >* Los proyectos con más de 50 visualizaciones expandidas no se pueden compartir con personas que no tengan acceso a Customer Journey Analytics.
 >
->* Los usuarios con los que compartes pueden ver cualquier segmento que se haya aplicado al proyecto durante la [depuración](curate.md).
+>* Los usuarios con los que comparte pueden ver cualquier segmento que se haya aplicado al proyecto durante el [curado](curate.md).
 > 
 >* Los usuarios con los que comparte puede cambiar el intervalo de fechas del proyecto. El intervalo de fechas que ha establecido para el proyecto se muestra de forma predeterminada.
 >
@@ -160,7 +160,7 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://video.tv.adobe.com/v/3452454/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -215,7 +215,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://video.tv.adobe.com/v/327499/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

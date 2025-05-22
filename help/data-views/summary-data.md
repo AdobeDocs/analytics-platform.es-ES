@@ -8,7 +8,7 @@ exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -154,5 +154,5 @@ Asegúrese de que la configuración de los componentes de un grupo de datos de r
 >[!MORELIKETHIS]
 >
 >- Consulte el artículo [Uso de datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un ejemplo de caso de uso detallado sobre cómo utlizar los datos de resumen e informar sobre ellos.
->- Blog: [Cómo los datos de resumen mejoran los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=es)
+>- Blog: [Los datos de resumen favorecen los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

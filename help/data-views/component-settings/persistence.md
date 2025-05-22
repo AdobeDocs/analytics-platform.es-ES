@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 75%
+ht-degree: 95%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 75%
 
 
 
-[!UICONTROL Persistencia] es la capacidad de un valor de dimensión determinado para atribuirse a una métrica más allá del evento en el que está establecido. Utiliza una combinación de asignación y caducidad.
+La [!UICONTROL persistencia] es la capacidad de un valor de dimensión determinado para atribuirse a una métrica más allá del evento en el que está establecido. Utiliza una combinación de asignación y caducidad.
 
 ![Ventana de vistas de datos que resalta las opciones de Persistencia](../assets/persistence.png)
 
-* **Asignación** le permite determinar qué valor debe conservar cuando más de un elemento de dimensión puede persistir a la vez en una sola columna.
+* La **asignación** le permite determinar qué valor conservar cuando más de un elemento de dimensión puede persistir a la vez en una sola columna.
 
   >[!NOTE]
   >
@@ -46,7 +46,7 @@ La [!UICONTROL persistencia] solo está disponible en dimensiones y es retroacti
 | --- | --- |
 | [!UICONTROL Establecer persistencia] | Habilite la persistencia para la dimensión. Si la persistencia no está habilitada, la dimensión solo se relaciona con métricas que existen en el mismo evento. Esta opción está desactivada de manera predeterminada. |
 | [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son:<ul><li>**[!UICONTROL Más reciente]**: los valores de la dimensión persisten hasta que se sobrescriban con valores subsiguientes</li><li> **[!UICONTROL Original]**: el primer valor de esta dimensión persiste y no se sobrescribe con valores posteriores</li><li>**[!UICONTROL Todos]**: todos los valores de esta dimensión persisten simultáneamente</li><li>**[!UICONTROL Primero conocido]**: Se usa el primer valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li><li>**[!UICONTROL Último conocido]**: se usa el último valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li></ul> |
-| [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: <ul><li>**[!UICONTROL Sesión]** (predeterminada)</li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Tiempo personalizado]**</li><li>**[!UICONTROL Métrica]**</li></ul>. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). La caducidad máxima que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
+| [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: <ul><li>**[!UICONTROL Sesión]** (valor predeterminado). </li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Tiempo personalizado]**</li><li>**[!UICONTROL Métrica]**</li></ul>. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). La caducidad máxima que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
 
 {style="table-layout:auto"}
 
@@ -90,11 +90,11 @@ Detalles sobre la configuración de asignación disponible.
 Detalles sobre la configuración de caducidad disponible.
 
 * **Sesión**: caduca después de una sesión determinada. Ventana de caducidad predeterminada.
-* **Ventana de informes de personas**: Caduca al final de la ventana de informes.
-* **Ventana de informes de cuenta global** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
-* **Ventana de informes de cuenta** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
-* **Ventana de informes de oportunidad** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
-* **Ventana de informes del grupo de compra** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: Caduca al final de la ventana de informes.
+* **Ventana de informes de persona**: caduca al final de la ventana de informes.
+* **Ventana de informes de cuenta global** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: Caduca al final de la ventana de informes.
+* **Ventana de informes de cuenta** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: Caduca al final de la ventana de informes.
+* **Ventana de informes de oportunidad** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: Caduca al final de la ventana de informes.
+* **Ventana de creación de informes del grupo de compras** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: caduca al final de la ventana de informes.
 * **Hora personalizada**: caduca después de un período de tiempo especificado (hasta 90 días). Esta opción de caducidad solo está disponible para los modelos de asignación Original y Más reciente. Al utilizar la caducidad basada en el tiempo, se tienen en cuenta los valores anteriores al inicio de la ventana de creación de informes (hasta 90 días).
 * **Métrica**: cuando esta métrica se ve en un evento, caduca inmediatamente el valor persistente de la dimensión. Puede usar cualquier métrica como fin de caducidad para esta dimensión. Esta opción de caducidad solo está disponible para la configuración de asignación Original y Más reciente.
 
@@ -108,7 +108,7 @@ Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/3409291/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

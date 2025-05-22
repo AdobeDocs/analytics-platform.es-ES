@@ -145,7 +145,7 @@ Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Jo
 
 ## 5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
 
-La configuración [**[!UICONTROL Habilitar la ventana de datos móvil &#x200B;]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
+La configuración [**[!UICONTROL Habilitar la ventana de datos móvil ]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
 
 La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
 
@@ -217,7 +217,7 @@ Depende de su caso práctico; consúltelo con su equipo de cuentas de Adobe. Pue
 
 ## 9. Cálculo del tamaño de la conexión {#estimate-size}
 
-Consulte [Uso de conexiones](/help/connections/manage-connections.md#usage).
+Consulte el [Uso de conexiones](/help/connections/manage-connections.md#usage).
 
 ## 10. Con respecto a los excedentes de uso {#overage}
 
@@ -242,7 +242,7 @@ Obtenga más información sobre las [implicaciones de la eliminación de conjunt
 
 Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y las soluciones de Adobe y ajenas a Adobe se produzcan lo más cerca posible de los visitantes. Una vez que los datos se recopilan a nivel regional en un centro de recopilación de datos (DCC, también conocido como sitio perimetral, parte de la red de Platform Edge), se reenvían a través de una conexión segura a las soluciones relevantes en función de su secuencia de datos y/o el reenvío de eventos.
 
-![Flujo de datos mediante redes perimetrales](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png?lang=es)
+![Flujo de datos mediante redes perimetrales](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 El proceso de recopilación de datos regionales sigue los siguientes pasos:
 

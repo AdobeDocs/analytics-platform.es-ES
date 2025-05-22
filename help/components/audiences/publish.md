@@ -7,7 +7,7 @@ role: User
 source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
 workflow-type: tm+mt
 source-wordcount: '2368'
-ht-degree: 74%
+ht-degree: 96%
 
 ---
 
@@ -71,9 +71,9 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
 
    | Método de creación | Detalles |
    | --- | --- |
-   | Desde la interfaz **[!UICONTROL Audiencias]** | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Públicos. Seleccione **[!UICONTROL Crear audiencia]** y se abrirá [!UICONTROL el generador de audiencias]. |
-   | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear un público utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear público]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el segmento del Audience Builder con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear un público utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Los públicos no pueden incluir métricas calculadas. Si intenta crear un público que contenga una métrica calculada, ésta no se incluirá en la definición de público.</p> |
-   | Desde la IU de creación/edición de segmentos | Marque la casilla **[!UICONTROL Crear una audiencia a partir de este segmento]**. Mediante este método se rellena previamente el segmento. Consulte [Crear segmentos](/help/components/filters/create-filters.md) para obtener más información. |
+   | Desde la interfaz **[!UICONTROL Públicos]** | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Públicos. Seleccione **[!UICONTROL Generar público]** y se abrirá el [!UICONTROL Generador de públicos]. |
+   | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear un público utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear público]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el segmento del Generador de públicos con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear un público utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Los públicos no pueden incluir métricas calculadas. Si intenta crear un público que contenga una métrica calculada, ésta no se incluirá en la definición de público.</p> |
+   | Desde la interfaz de usuario de creación/edición de segmentos | Marque la casilla que dice **[!UICONTROL Crear un público a partir de este segmento]**. Mediante este método se rellena previamente el segmento. Consulte [Crear segmentos](/help/components/filters/create-filters.md) para obtener más información. |
 
    {style="table-layout:auto"}
 
@@ -101,7 +101,7 @@ Configure estas opciones para definir o actualizar el público.
 | **[!UICONTROL Etiquetas]** | Cualquier etiqueta que desee asignar al público con fines organizativos. Puede seleccionar una o varias etiquetas preexistentes o introducir una nueva. |
 | **[!UICONTROL Descripción]** | Descripción del público, para diferenciarlo de otros. Por ejemplo, `Build an audience of really interested potential car buyers` |
 | **[!UICONTROL Frecuencia de actualización]** | La frecuencia con la que desea actualizar la audiencia.<p/>Puede cambiar entre <ul><li>Público **[!UICONTROL único]**: público (predeterminado) que no necesita ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas y específicas.<br/>Debe especificar un **[!UICONTROL intervalo de fechas único]**. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para especificar un intervalo de fechas.</li><li>Un público que se actualiza. Puede seleccionar las siguientes opciones:<ul><li>**[!UICONTROL Cada 4 horas]**: un público que se actualiza cada 4 horas.</li><li>**[!UICONTROL Diario]**: un público que se actualiza diariamente</li><li>**[!UICONTROL Semanal]**: un público que se actualiza semanalmente.</li><li>**[!UICONTROL Mensual]**: un público que se actualiza mensualmente</li></ul></li>Para actualizar públicos, debe especificar lo siguiente:<ul><li>**[!UICONTROL Actualice la ventana de retroactividad]**. Defina el número de días retroactivos a partir de hoy en los que se evaluará a un público. Puede seleccionar entre las opciones o definir un tiempo personalizado. El máximo es de 90 días.</li><li>**[!UICONTROL Fecha de caducidad]**: defina cuándo la audiencia dejará de actualizarse. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar una fecha. El valor predeterminado es 1 año a partir de la fecha de creación. Los públicos que caducan se tratan de manera similar a los informes programados que caducan. El administrador recibe un correo electrónico un mes antes de que la audiencia caduque.</li></ul> Tenga en cuenta que hay un límite de 75 a 150 actualizaciones de público, según los derechos de Customer Journey Analytics.</li></ul> |
-| **[!UICONTROL Filtro]** | Los filtros son la entrada principal a la audiencia. Arrastre y suelte uno o más segmentos del panel ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** izquierdo en el área de Segmento. Puede usar ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar segmentos*] para buscar segmentos. Puede añadir hasta 20 segmentos. Los segmentos se pueden unir con los operadores **[!UICONTROL And]** o **[!UICONTROL Or]**.<p>Al crear una audiencia a partir de una visualización en Analysis Workspace (como una tabla de forma libre o un lienzo de Recorrido), se conservan los segmentos aplicados al panel o a la columna. Puede eliminar cualquier segmento que se aplique automáticamente.</p> |
+| **[!UICONTROL Filtro]** | Los filtros son la entrada principal a la audiencia. Arrastre y suelte uno o varios segmentos del panel izquierdo ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** en el área Segmento. Puede utilizar ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar segmentos*] para buscar segmentos. Se pueden añadir hasta 20 segmentos. Los segmentos pueden unirse con los operadores **[!UICONTROL And]** o **[!UICONTROL Or]**.<p>Al crear un público a partir de una visualización en Analysis Workspace (como una tabla de forma libre o un lienzo de recorridos), se conservan los segmentos aplicados al panel o a la columna. Puede quitar cualquier segmento que se aplique automáticamente.</p> |
 | **[!UICONTROL Previsualización de datos]** | Seleccione ![Información](/help/assets/icons/Info.svg) para mostrar u ocultar la [previsualización de datos](#data-preview) para el intervalo de fechas seleccionado. |
 
 ## Previsualización de datos
@@ -151,7 +151,7 @@ En varios puntos antes, durante y después de la publicación del público, pued
 
 ## Uso de públicos de Customer Journey Analytics en Experience Platform {#audiences-aep}
 
-Customer Journey Analytics toma todas las combinaciones de área de nombres e ID de la audiencia publicada y las transmite a Real-Time Customer Data Platform. Customer Journey Analytics envía el público a Experience Platform con la identidad principal establecida en el valor que se haya seleccionado como [!UICONTROL ID de la persona] cuando se configuró la conexión.
+Customer Journey Analytics toma todas las combinaciones de espacio de nombres e ID de audiencia publicado y las transmite a Real-Time Customer Data Platform. Customer Journey Analytics envía el público a Experience Platform con la identidad principal establecida en el valor que se haya seleccionado como [!UICONTROL ID de la persona] cuando se configuró la conexión.
 
 A continuación, Real-Time Customer Data Platform examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, añade el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia al segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
@@ -173,7 +173,7 @@ Para ver los públicos de Customer Journey Analytics en Platform:
 
 Para obtener más información sobre el uso de públicos en Platform, consulte la sección [Públicos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder) en la [guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder) en la documentación de Experience Platform.
 
-### Comprender las discrepancias en los recuentos de audiencia
+### Comprender las discrepancias en los recuentos de público
 
 Pueden producirse discrepancias en los recuentos de audiencias entre Customer Journey Analytics y Real-Time Customer Data Platform.
 
@@ -183,22 +183,22 @@ Pueden producirse discrepancias en los recuentos de audiencias entre Customer Jo
 
 #### Recuentos estimados versus deterministas
 
-La metodología mediante la cual se calculan los números de miembros de audiencia difiere entre las dos aplicaciones, como se describe a continuación.
+La metodología mediante la cual se calculan los números de miembros de público difiere entre las dos aplicaciones, como se describe a continuación.
 
 * **Customer Journey Analytics**: La métrica **[!UICONTROL Total de personas]** de Customer Journey Analytics es un valor estimado. Esto significa que el recuento es una estimación basada en las reglas de la audiencia y que puede cambiar entre intervalos de actualización.
-* **Real-Time Customer Data Platform**: el recuento en Real-Time Customer Data Platform es determinista, se basa en los trabajos de evaluación diarios y se corrigió en el momento en que la audiencia termina de publicar en el portal de audiencias.
+* **Real-Time Customer Data Platform**: el recuento en Real-Time Customer Data Platform es determinista, se basa en los trabajos de evaluación diarios y se corrigió en el momento en que la audiencia termina de publicar en el portal de públicos.
 
 #### Intervalo y velocidad de publicación
 
-Las audiencias publican en Real-Time Customer Data Platform a una velocidad de 1500 registros por segundo (RPS). Por ejemplo, una audiencia de 20 millones de miembros tardará aproximadamente 3,7 horas en publicarse completamente (20 millones/1500 RPS/3600 segundos por hora). Durante este tiempo, es probable que haya diferencias en la pertenencia a audiencias entre las dos aplicaciones.
+Los públicos publican en Real-Time Customer Data Platform a una velocidad de 1500 registros por segundo (RPS). Por ejemplo, un público de 20 millones de miembros tardará aproximadamente 3,7 horas en publicarse completamente (20 millones/1500 RPS/3600 segundos por hora). Durante este tiempo, es probable que haya diferencias en la pertenencia a públicos entre las dos aplicaciones.
 
 #### Fragmentación de perfiles
 
 Si los perfiles importados de Customer Journey Analytics ya existen en Real-Time Customer Data Platform, no se cuentan como perfiles nuevos. Esto puede provocar recuentos de perfiles inferiores a los esperados en Real-Time Customer Data Platform.
 
-#### Audiencias por lotes o de streaming
+#### Públicos por lotes frente a públicos en streaming
 
-Las audiencias de Customer Journey Analytics no se incluyen en el trabajo de evaluación por lotes diario y permanecen fijas hasta el siguiente intervalo de publicación. Por el contrario, otras audiencias por lotes en Real-Time Customer Data Platform se reevalúan cada 24 horas.
+Los públicos de Customer Journey Analytics no se incluyen en el trabajo de evaluación por lotes diario y permanecen fijos hasta el siguiente intervalo de publicación. Por el contrario, otros públicos por lotes en Real-Time Customer Data Platform se reevalúan cada 24 horas.
 
 ### Aspectos clave que recordar
 
@@ -206,7 +206,7 @@ Las audiencias de Customer Journey Analytics no se incluyen en el trabajo de eva
 * **Recuentos determinísticos en Real-Time Customer Data Platform**: el recuento de Real-Time Customer Data Platform es fijo y no cambia hasta el siguiente intervalo de publicación.
 * **Fragmentación de perfiles**: tenga en cuenta que los perfiles existentes en Real-Time Customer Data Platform pueden no contribuir a nuevos recuentos de perfiles al importar desde Customer Journey Analytics.
 
-Al diferenciar claramente estos aspectos, puede comprender y administrar mejor los datos de audiencia en Customer Journey Analytics y Real-Time Customer Data Platform.—>
+Al diferenciar claramente estos aspectos, puede comprender y administrar mejor los datos de público en Customer Journey Analytics y Real-Time Customer Data Platform.—>
 
 ## Preguntas frecuentes {#faq}
 

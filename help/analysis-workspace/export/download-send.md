@@ -7,7 +7,7 @@ role: User
 source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Si la [directiva de gobernanza de datos](/help/data-views/data-governance.md) **
 
 Si algún campo de datos etiquetado como confidencial se incluye en la [!UICONTROL vista de datos], la opción para seleccionar y copiar datos de la pantalla está restringida para todos los datos de la [!UICONTROL vista de datos].
 
-## Preguntas más frecuentes {#faq}
+## Preguntas frecuentes {#faq}
 
 | Pregunta | Respuesta |
 | --- | --- |
