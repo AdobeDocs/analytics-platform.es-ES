@@ -4,9 +4,9 @@ title: Agregar y ver comentarios en proyectos
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
+source-git-commit: df147b92e19b6dee66fcf6346113596f1cde6fd1
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -104,19 +104,23 @@ Para agregar comentarios a un proyecto en Analysis Workspace:
 
 ## Incluir a otras personas en un comentario
 
-La función de comentarios de Analysis Workspace facilita la colaboración con otros usuarios. Para incluir a otra persona en el comentario:
+La función de comentarios de Analysis Workspace facilita la colaboración con otros usuarios.
+
+Tenga en cuenta lo siguiente al utilizar el símbolo @ para incluir a las personas en un comentario:
+
+* Las personas que incluya recibirán notificaciones en función de su configuración de notificaciones de Adobe Experience Cloud. De manera predeterminada, reciben una [notificación de Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications).
+
+  Además, las personas pueden configurar su configuración de notificaciones de Experience Cloud para recibir notificaciones por correo electrónico y notificaciones de Slack mediante [suscripción a notificaciones por correo electrónico](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) y [suscripción a notificaciones de Slack](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+
+* Puede incluir a cualquier persona de su organización en un comentario, pero al hacerlo no se les concede automáticamente acceso al proyecto. Solo las personas que ya tienen acceso al proyecto pueden acceder a él.
+
+Para incluir a otra persona en el comentario:
 
 1. Escriba el símbolo @ y, a continuación, empiece a escribir el nombre, los apellidos o la dirección de correo electrónico de la persona que desea incluir.
 
    ![usuario de etiqueta](assets/comments-tag-user.png)
 
 1. Seleccione el nombre de la persona cuando aparezca en el menú desplegable.
-
-Tenga en cuenta lo siguiente al utilizar el símbolo @ para incluir a las personas en un comentario:
-
-* Las personas que incluya recibirán una notificación por correo electrónico y una notificación Pulse.
-
-* Puede incluir a cualquier miembro de su organización en un comentario, pero esto no le concede automáticamente acceso al proyecto. Solo las personas que ya tienen acceso al proyecto pueden acceder a él.
 
 ## Responder a un comentario
 
@@ -126,7 +130,7 @@ Tenga en cuenta lo siguiente al utilizar el símbolo @ para incluir a las person
 
    O bien
 
-   Si desea que la respuesta incluya el texto del comentario al que está respondiendo, con el texto original escrito con una etiqueta de comillas, seleccione el icono de 3 puntos junto al comentario o la respuesta específicos a los que desea responder y, a continuación, seleccione **[!UICONTROL Respuesta de cita]**. Una respuesta de cita es una buena manera de indicar claramente el comentario o la respuesta a la que se refiere su comentario.
+   Para incluir el texto del comentario al que está respondiendo, con el texto original dentro de una etiqueta de comillas, seleccione el icono de 3 puntos junto al comentario o la respuesta específicos a los que desea responder y, a continuación, seleccione **[!UICONTROL Respuesta de cita]**. Una respuesta de cita es una buena manera de indicar a qué comentario o respuesta se refiere su comentario.
 
 1. En el campo **[!UICONTROL Nuevo comentario]**, especifique el comentario.
 
@@ -182,7 +186,7 @@ Para copiar el vínculo a un comentario:
 
 ## Copiar el texto de un comentario
 
-Puede copiar el texto del cuerpo de un comentario y compartirlo con otros usuarios.
+Puede copiar el texto independiente de un comentario y compartirlo con otros usuarios.
 
 Para copiar el texto del cuerpo de un comentario:
 
