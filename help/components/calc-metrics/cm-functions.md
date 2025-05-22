@@ -6,8 +6,8 @@ exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 100%
+source-wordcount: '1878'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) permite ap
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
-Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"}[!BADGE Fila]{type="Neutral"}
+Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"} o [!BADGE Fila]{type="Neutral"}
 
 ## ¿Qué significa el parámetro include-zeros?
 
@@ -52,7 +52,7 @@ Un escenario alternativo es que tiene dos métricas de interés y una tiene un p
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VALOR ABSOLUTO(métrica)]**
 
-[!BADGE Fila]{type="Neutral"}
+[!BADGE Fila]{type="Neutral"} Devuelve el valor absoluto de un número. El valor absoluto de un número es el número con un valor positivo.
 
 | Argumento | Descripción |
 |---|---|
@@ -137,7 +137,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL RECUENTO(métrica)]**
 
-[!BADGE Tabla]{type="Neutral"}
+[!BADGE Tabla]{type="Neutral"} Devuelve el número o recuento de valores distintos de cero para una métrica dentro de una columna (el número de elementos únicos incluidos dentro de una dimensión).
 
 | Argumento | Descripción |
 |---|---|
@@ -157,7 +157,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTE(métrica)]**
 
-[!BADGE Fila]{type="Neutral"}
+[!BADGE Fila]{type="Neutral"} Devuelve e elevado a la potencia de un número determinado. La constante e es igual a 2,71828182845904, la base del logaritmo natural. EXPONENTE es el inverso de LN, el logaritmo natural de un número.
 
 | Argumento | Descripción |
 |---|---|
@@ -178,7 +178,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIA(métrica, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"}
+[!BADGE Tabla]{type="Neutral"} Devuelve la media aritmética o el promedio de una métrica en una columna.
 
 | Argumento | Descripción |
 |---|---|
@@ -200,7 +200,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIANA(métrica, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"}
+[!BADGE Tabla]{type="Neutral"} Devuelve la mediana de una métrica en una columna. La mediana es el número situado en medio de un conjunto de números. Es decir, la mitad de los números tienen valores mayores o iguales a la mediana y la mitad son menores o iguales a la mediana.
 
 | Argumento | Descripción |
 |---|---|
@@ -259,7 +259,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTIL(métrica, k, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"}
+[!BADGE Tabla]{type="Neutral"} Devuelve el percentil número n, que es un valor entre 0 y 100. Cuando n &lt; 0, la función utiliza cero. Cuando n > 100, la función devuelve 100.
 
 | Argumento | Descripción |
 |---|---|
@@ -304,7 +304,7 @@ Devuelve x elevado a la potencia y.
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL CUARTIL(métrica, cuartil, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"}[COLUMNA MÍNIMA](#column-minimum), [MEDIANA](#median) y [COLUMNA MÁXIMA](#column-maximum) devuelven el mismo valor que [CUARTIL](#quartile) cuando el cuartil es igual a `0` (cero), `2` y `4`, respectivamente.
+[!BADGE Tabla]{type="Neutral"} Devuelve el cuartil de valores de una métrica. Por ejemplo, los cuartiles se pueden utilizar para encontrar el primer 25 % de los productos que generan los mayores ingresos. [COLUMNA MÍNIMA](#column-minimum), [MEDIANA](#median) y [COLUMNA MÁXIMA](#column-maximum) devuelven el mismo valor que [CUARTIL](#quartile) cuando el cuartil es igual a `0` (cero), `2` y `4`, respectivamente.
 
 | Argumento | Descripción |
 |---|---|
@@ -435,7 +435,7 @@ Suma de las columnas de cada fila.
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL RAÍZ CUADRADA(métrica, include_zeros)]**
 
-[!BADGE Fila]{type="Neutral"}
+[!BADGE Fila]{type="Neutral"} Devuelve la raíz cuadrada positiva de un número. La raíz cuadrada de un número es el valor de ese número elevado a la potencia de 1/2.
 
 | Argumento | Descripción |
 |---|---|
@@ -449,13 +449,13 @@ Suma de las columnas de cada fila.
 >[!CONTEXTUALHELP]
 >id="functions-stdev"
 >title="Desviación estándar"
->abstract="Devuelve la desviación estándar, o la raíz cuadrada de la varianza, de una recopilación de datos de muestra."
+>abstract="Devuelve la desviación estándar, o la raíz cuadrada de la varianza, de una muestra de datos de una población."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL DESVIACIÓN ESTÁNDAR(métrica, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"}
+[!BADGE Tabla]{type="Neutral"} Devuelve la desviación estándar, o raíz cuadrada de la varianza, basándose en una población de datos de ejemplo.
 
 | Argumento | Descripción |
 |---|---|
@@ -470,13 +470,13 @@ Suma de las columnas de cada fila.
 >[!CONTEXTUALHELP]
 >id="functions-variance"
 >title="Varianza"
->abstract="Devuelve la varianza de una recopilación de datos de muestra."
+>abstract="Devuelve la varianza de una muestra de datos de una población."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA(métrica, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"}
+[!BADGE Tabla]{type="Neutral"} Devuelve la varianza en función de una población de datos de ejemplo.
 
 | Argumento | Descripción |
 |---|---|
