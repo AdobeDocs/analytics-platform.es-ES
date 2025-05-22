@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 69%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-Después de configurar la implementación de Web SDK o API, debe comprobar los estados de los lotes individuales para comprobar que se están introduciendo datos en el conjunto de datos.
+Después de configurar la implementación del SDK web o la API, debe comprobar los estados de los lotes individuales para comprobar que se están introduciendo datos en el conjunto de datos.
 
 1. En la interfaz de usuario de Experience Platform, seleccione **[!UICONTROL Monitorización]** en el panel de navegación izquierdo.
 
@@ -43,7 +43,7 @@ Después de configurar la implementación de Web SDK o API, debe comprobar los e
 
 1. Seleccione el ID de lote para un conjunto de datos determinado y, a continuación, valide que **[!UICONTROL Éxito]** se muestra en el campo **[!UICONTROL Estado]**.
 
-   Si se muestra **[!UICONTROL Error]** en el campo **[!UICONTROL Estado]**, compruebe su implementación para asegurarse de que envía datos correctamente a Adobe.
+   Si se muestra **[!UICONTROL Error]** en el campo **[!UICONTROL Estado]**, compruebe la implementación para asegurarse de que envía correctamente los datos a Adobe.
 
    Repita este paso para verificar el estado de cada lote.
 

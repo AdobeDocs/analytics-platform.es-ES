@@ -5,9 +5,9 @@ exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
 source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 En términos generales, cualquier configuración relacionada con la gobernanza de datos en Customer Journey Analytics se hereda de Adobe Experience Platform.
 
-## Gobierno de datos
+## Gobernanza de datos
 
 La integración entre Customer Journey Analytics y la [Gobernanza de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es) permite etiquetar datos confidenciales de Customer Journey Analytics y aplicar directivas de privacidad.
 
@@ -39,4 +39,4 @@ De acuerdo con la CCPA, el Servicio de privacidad aceptará las solicitudes de e
 
 >[!MORELIKETHIS]
 >
->* [Blog: Cómo mantener la gobernanza efectiva en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=es)
+>* [Blog: Mantenimiento de la gobernanza efectiva en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)

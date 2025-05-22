@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización de visitas en el orden previsto en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Visita en orden previsto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** version of this article._
+_En este artículo se describe la visualización de visitas en el orden previsto en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Visita en orden previsto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una 
 
 Las visualizaciones de visitas en el orden previsto le permiten:
 
-* Realizar comparaciones paralelas de dos segmentos distintos en el mismo informe
+* Realizar comparaciones paralelas de dos segmentos distintos en el mismo informe.
 * Arrastrar y soltar (y reorganizar) pasos de canal (puntos de contacto).
 * Mezclar y combinar valores de distintas dimensiones y métricas
 * Crear un informe de visitas en el orden previsto multidimensional
@@ -75,7 +75,7 @@ Las visualizaciones de visitas en el orden previsto son las más adecuadas para:
 
 * Realizar un análisis de las visitas en el orden previsto que incluya recorridos con una secuencia predefinida de páginas y un único punto de entrada y ruta. (Utilice el lienzo de recorridos para recorridos con varios puntos de entrada y rutas).
 
-* Recorridos en los que debe realizar comparaciones paralelas de dos segmentos diferentes en el mismo informe.
+* Los recorridos en los que necesite realizar comparaciones paralelas de dos segmentos distintos en el mismo informe.
 
 Use [la tabla anterior](#understand-the-differences) para conocer las diferencias entre las visualizaciones de lienzo de recorridos, visitas en el orden previsto y flujo.
 

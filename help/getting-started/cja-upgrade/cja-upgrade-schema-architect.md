@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ La arquitectura subyacente de Customer Journey Analytics proporciona mucha más 
 >
 >Esta información aún no está disponible. Estará disponible en un futuro próximo.
 
-## Tenga en cuenta otras aplicaciones de Adobe Experience Platform que se utilcen en su organización
+## Tenga en cuenta otras aplicaciones de Adobe Experience Platform que se utilizan en su organización
 
 >[!NOTE]
 >

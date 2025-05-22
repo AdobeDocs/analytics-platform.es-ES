@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 54%
 
 {{upgrade-note}}
 
-El proceso recomendado para actualizar desde una solución de análisis distinta de Adobe Analytics a Customer Journey Analytics es una nueva implementación de Experience Platform Web SDK, que es el método de recopilación de datos preferido para Customer Journey Analytics. Junto con Web SDK, Adobe también recomienda la ingesta de datos históricos de la solución de análisis de terceros en Adobe Experience Platform.
+El proceso recomendado para actualizar de una solución de análisis diferente de Adobe Analytics a Customer Journey Analytics es una nueva implementación del SDK web de Experience Platform, que es el método de recopilación de datos preferido para Customer Journey Analytics. Junto con Web SDK, Adobe también recomienda la ingesta de datos históricos de la solución de análisis de terceros en Adobe Experience Platform.
 
 <!-- After you have enough historical data using the Experience Platform Web SDK and you have fully transitioned to Customer Journey Analytics, the Analytics source connector can be turned off and the Web SDK can be used exclusively. -->
 
@@ -33,7 +33,7 @@ Utilice el siguiente proceso al pasar a Customer Journey Analytics desde una sol
 
 1. Siga los [pasos detallados para la actualización recomendada](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps).
 
-   Estos pasos están destinados a organizaciones que actualizan desde Adobe Analytics. Al seguir estos pasos, debe comprender lo siguiente:
+   Estos pasos están destinados a organizaciones que actualizan desde Adobe Analytics. Al seguir estos pasos, debe comprenda lo siguiente:
 
    * Debe crear una secuencia de datos.
 

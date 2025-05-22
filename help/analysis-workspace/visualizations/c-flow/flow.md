@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización Flujo en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Flujo ](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualización Flujo en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Flujo ](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Con la visualización puede:
 
 * Visualizar el recorrido del cliente a lo largo de su sitio web o aplicación
 * Analizar a qué lugares acceden los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
-* Cree segmentos mediante la designación de un punto específico en una ruta elegida.
+* Crear segmentos mediante la designación de un punto específico en una ruta elegida.
 
 
 >[!BEGINSHADEBOX]

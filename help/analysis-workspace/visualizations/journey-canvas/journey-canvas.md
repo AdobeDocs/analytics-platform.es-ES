@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1988'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización de lienzo de recorrido en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**.<br/>No hay ninguna visualización equivalente en **Adobe Analytics**._
+_En este artículo se describe la visualización de lienzo de recorrido en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/>No hay ninguna visualización equivalente en **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -192,21 +192,21 @@ Usar el lienzo de recorrido para analizar los recorridos creados en Journey Opti
 
 ### Sincronización entre Journey Optimizer y el lienzo de recorrido
 
-Tenga en cuenta los siguientes comportamientos para comprender la sincronización entre Journey Optimizer y los lienzos de Recorrido:
+Tenga en cuenta los siguientes comportamientos para comprender la sincronización entre Journey Optimizer y los lienzos de recorrido:
 
 * **La sincronización de datos es unidireccional**
 
   Después de crear un análisis de un recorrido de Journey Optimizer en el lienzo de recorrido, los datos se sincronizan en una sola dirección, de Journey Optimizer al lienzo de recorrido. Esto significa que los cambios realizados en un recorrido en el lienzo de recorrido nunca se reflejan en Journey Optimizer.
 
-* **Al modificar un recorrido en el lienzo del Recorrido, se detiene la sincronización**
+* **Al modificar un recorrido en el lienzo de recorrido, se detiene la sincronización**
 
-  Los cambios realizados en un recorrido de Journey Optimizer se sincronizan con el lienzo de Recorrido [sólo si el recorrido no se ha modificado significativamente en el lienzo de Recorrido](#differences-after-modifying-a-journey-in-journey-canvas). Después de modificar un recorrido en el lienzo de recorrido, los cambios realizados en el recorrido en Journey Optimizer no se reflejarán en el lienzo de recorrido. Para ver los cambios reflejados en el lienzo de recorrido, puede eliminar y [volver a crear el recorrido en el lienzo de recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+  Los cambios realizados en un recorrido de Journey Optimizer se sincronizan con el lienzo de recorrido [solo si el recorrido no se ha modificado significativamente en el lienzo de recorrido](#differences-after-modifying-a-journey-in-journey-canvas). Después de modificar un recorrido en el lienzo de recorrido, los cambios realizados en el recorrido en Journey Optimizer no se reflejarán en el lienzo de recorrido. Para ver los cambios reflejados en el lienzo de recorrido, puede eliminar y [volver a crear el recorrido en el lienzo de recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
-* **El uso del vínculo &quot;Compartir con alguien&quot; requiere que el proyecto se guarde en Customer Journey Analytics después de realizar cambios en Journey Optimizer**
+* **El uso del vínculo &quot;Compartir con cualquiera&quot; requiere que el proyecto se guarde en Customer Journey Analytics después de realizar cambios en Journey Optimizer**
 
-  Al utilizar el vínculo &quot;Compartir con cualquiera&quot;, los cambios realizados en Journey Optimizer no se reflejan en los lienzos de Recorrido hasta que el proyecto se guarda en Customer Journey Analytics.
+  Al utilizar el vínculo “Compartir con cualquiera”, los cambios realizados en Journey Optimizer no se reflejan en los lienzos del recorrido hasta que el proyecto se guarda en Customer Journey Analytics.
 
-  Para obtener más información sobre los vínculos &quot;Compartir con quien quieras&quot;, consulta [Compartir un proyecto con quien quieras (ya no es obligatorio)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
+  Para obtener más información sobre los vínculos &quot;Compartir con cualquiera&quot;, consulte [Compartir un proyecto con cualquiera (no es necesario iniciar sesión)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) en [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
 
 ### Diferencias después de modificar un recorrido en el lienzo de recorrido {#differences-after-modifying}
 
@@ -234,7 +234,7 @@ Esto se debe a que, a diferencia de Journey Optimizer, el lienzo de recorrido pe
 
 #### Diferencias de características
 
-Después de modificar un recorrido de Journey Optimizer en lienzo de Recorrido, las opciones disponibles en el campo desplegable [!UICONTROL **Configuración de flecha**] cambian según las modificaciones que se realicen. Para obtener más información, consulte [Configuración de ajustes](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Después de modificar un recorrido de Journey Optimizer en el lienzo de recorrido, las opciones disponibles en el menú desplegable [!UICONTROL **Configuración de flecha**] cambian según las modificaciones que realice. Para obtener más información, consulte [Configuración de ajustes](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 El campo [!UICONTROL **Tipo de nodo**] solo está disponible en Journey Optimizer. No está disponible cuando se ve un recorrido de Journey Optimizer en el lienzo de recorrido, independientemente de si se realizan modificaciones en el recorrido en el lienzo de recorridos.
 
@@ -263,5 +263,5 @@ Puede crear análisis en el lienzo de recorridos que estén basados en cualquier
 
 >[!MORELIKETHIS]
 >
-> * [Guía para la visualización del lienzo de Recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=es)
+> * [Guía para la visualización del lienzo de recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 

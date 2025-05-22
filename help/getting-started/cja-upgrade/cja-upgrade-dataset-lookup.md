@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Para añadir el conjunto de datos de consulta a su conexión en Customer Journey
 
 1. Utilizando el campo **[!UICONTROL Clave]** y el campo **[!UICONTROL Clave de coincidencia]**, cree una correlación entre el campo del conjunto de datos de consulta y el del conjunto de datos de resumen o evento.
 
-1. Repita este proceso hasta que todos los conjuntos de datos de búsqueda se agreguen a la conexión en Customer Journey Analytics.
+1. Repita este proceso hasta que todos los conjuntos de datos de búsqueda se añadan a la conexión en Customer Journey Analytics.
 
 {{upgrade-final-step}}
 
