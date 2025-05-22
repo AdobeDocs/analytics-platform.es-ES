@@ -5,10 +5,10 @@ title: Exportación de informes de Customer Journey Analytics a la nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: c503b5bc65565b342e5e6bea8c019d8e1ee1e429
+source-git-commit: 0891aa2bed446e704b0222eff992c5f5bc200f82
 workflow-type: tm+mt
-source-wordcount: '2284'
-ht-degree: 98%
+source-wordcount: '2340'
+ht-degree: 95%
 
 ---
 
@@ -156,9 +156,9 @@ Las siguientes funciones no son compatibles y se eliminarán automáticamente de
 * Filas estáticas
 * Alineación de fechas
 * Métricas de conjuntos de datos de resumen
-* Dimensiones dinámicas
+* Elementos de dimensión dinámicos
 
-  Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+  Los elementos de dimensión dinámicos se crean al soltar una dimensión en el encabezado de una columna en una tabla de forma libre, lo que da como resultado que la columna se filtre dinámicamente por los 5 elementos de dimensión principales. En Analysis Workspace, estos 5 elementos de dimensión principales se actualizan cada vez que se carga el proyecto. En una exportación de tabla completa, estos elementos de dimensión se vuelven estáticos. Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 * Las dimensiones del primer desglose se convierten y añaden como una dimensión secundaria en la fila de la tabla exportada; cualquier otro desglose no se incluye en la tabla
 * No es posible ordenar la mayoría de los conjuntos de datos; es posible que los datos se ordenen para conjuntos de datos pequeños
 
@@ -193,7 +193,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
 
   Por ejemplo, una atribución de métrica de &quot;primer contacto&quot; anula una asignación de dimensión &quot;más reciente&quot;.
 
-* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [&#128279;](/help/data-views/component-settings/persistence.md).
+* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [](/help/data-views/component-settings/persistence.md).
 
   Por ejemplo, se aplica una atribución de métrica de &quot;primer contacto&quot; además de una asignación de dimensión &quot;más reciente&quot;. Además, la atribución de métricas se aplicará a los pares de elementos de dimensión post-asignados como si fueran elementos de dimensión únicos, en lugar de a cada elemento de dimensión de forma independiente, como se hace normalmente en una tabla de forma libre.
 
