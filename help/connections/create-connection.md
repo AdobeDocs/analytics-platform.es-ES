@@ -682,6 +682,6 @@ Póngase en contacto con el equipo de soporte de Adobe para obtener más informa
 
 >[!MORELIKETHIS]
 >
->Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
+>Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=es)
 
 ![Compartir](/help/assets/icons/Share.svg)

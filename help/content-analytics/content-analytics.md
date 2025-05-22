@@ -72,6 +72,6 @@ Content Analytics usa datos de vista de imágenes web en conjuntos de datos de e
 >
 >[Creación de informes del análisis de contenido](report/report.md)
 >[Configurar Adobe Analytics](config/configuration.md)
->[Cálculo de devoluciones y tasa de devoluciones en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>[Cálculo de devoluciones y tasa de devoluciones en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=es#M454)
 >
 
