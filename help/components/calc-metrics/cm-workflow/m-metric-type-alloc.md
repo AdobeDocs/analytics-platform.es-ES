@@ -3,10 +3,10 @@ description: Obtenga información sobre el tipo de métrica y la atribución
 title: Tipo de métrica y atribución
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 2d182004b12eb44f54ec9b4b5f63cb9072594aec
+source-git-commit: 2b193e1ff612ab00335898164dc84afb08673fff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -132,11 +132,14 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >abstract="El crédito se determina de forma dinámica mediante un algoritmo estadístico."
 
 
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="Contenedor"
+>abstract="Seleccione un contenedor para establecer el ámbito deseado para la atribución."
+
 
 {{attribution-models-details}}
 
-
-### Ventana de retroactividad {#lookback-window}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -145,7 +148,6 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >title="Ventana de retroactividad"
 >abstract="Este ajuste determina la ventana de atribución de datos que se aplicará a cada conversión."
 
-<!-- markdownlint-enable MD034 -->
 
 {{attribution-lookback-window}}
 
