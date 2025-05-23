@@ -54,7 +54,7 @@ A continuación se muestra un proceso de alto nivel para realizar la transición
 
 1. Asigne cada dimensión de Adobe Analytics desde el conector de origen de Analytics a la dimensión del esquema del SDK web.
 
-   1. 
+   1. &#x200B;
       <!-- how do you get here -->
 
    1. En la sección **[!UICONTROL Asignar campos estándar]**, seleccione la pestaña **[!UICONTROL Personalizado]**.
