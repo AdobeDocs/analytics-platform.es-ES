@@ -4,10 +4,10 @@ title: Generar segmentos
 feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c383681cb5c454b79d33a89e25b0d54bd239da66
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 51%
+source-wordcount: '1569'
+ht-degree: 50%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 51%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
->title="Previsualización de datos"
+>title="Previsualización de los datos"
 >abstract="Compara los datos de este segmento con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
 
 
@@ -157,7 +157,7 @@ O bien, puede definir 52 segmentos: 50 segmentos para los estados de Estados Uni
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instancia"
->abstract="Incluye instancias y valores persistentes para la dimensión."
+>abstract="Incluye instancias para la dimensión."
 
 
 >[!CONTEXTUALHELP]
