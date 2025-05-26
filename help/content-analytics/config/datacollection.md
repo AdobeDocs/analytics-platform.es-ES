@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 63c6a5d6148c1562b7f6ac8e4a1cac5919e2dd2e
+source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 80%
+source-wordcount: '628'
+ht-degree: 77%
 
 ---
 
@@ -94,6 +94,11 @@ Para reducir el número de llamadas que salen de la página, Content Analytics r
    * Se bloquea la pantalla
 * La dirección URL cambia, lo que da como resultado una dirección URL relevante modificada.
 * Las vistas de recursos registradas y listas para enviar superan el número de 32.
+
+>[!NOTE]
+>
+>Es muy probable que los eventos de Content Analytics adicionales afecten a cualquier definición de tasa de salida hacia otro sitio basada en el número de eventos de una sesión o una página.
+>
 
 
 ## Esquemas

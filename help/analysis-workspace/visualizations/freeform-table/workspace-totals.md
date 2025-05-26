@@ -4,31 +4,27 @@ title: Totales de Workspace
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 91%
 
 ---
 
 # Totales de Workspace {#workspace-totals}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
 >title="Total general"
->abstract="El total general no es compatible con tablas o desgloses con filas estáticas"
-
-<!-- markdownlint-enable MD034 -->
+>abstract="El total general no es compatible con tablas o desgloses con filas estáticas."
 
 
 En las tablas de forma libre, aparece una fila total en cada nivel de desglose y puede mostrar dos totales:
 
 ![Tabla de forma libre que resalta el total general y el total de la tabla.](assets/total-row.png)
 
-* **[!UICONTROL Total de tabla]** ➊: este total suele ser igual o un subconjunto del [!UICONTROL total general]. El total refleja cualquier segmento de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL No incluir ninguno].
-* **[!UICONTROL Total general]** (**[!UICONTROL de]** *número*) ➋: este total representa todos los eventos que se han recopilado. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todos los eventos que coinciden con los criterios del segmento. 
+* **[!UICONTROL Total de tabla]** ➊: este total suele ser igual o un subconjunto de [!UICONTROL Total general]. El total refleja cualquier segmento de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL No incluir ninguno].
+* **[!UICONTROL Total general]** (**[!UICONTROL de]** *número*) ➋: este total representa todos los eventos que se han recopilado. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todos los eventos que coinciden con los criterios del segmento. 
 
 
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 91%
+source-wordcount: '836'
+ht-degree: 89%
 
 ---
 
@@ -60,18 +60,14 @@ Content Analytics usa datos de vista de imágenes web en conjuntos de datos de e
 
 >[!NOTE]
 >
->Si tiene licencia para el complemento Escudo de seguridad y privacidad, tenga en cuenta que (cualquier dato generado a partir de) las experiencias y los recursos, sujetos al análisis de contenido, no están cubiertos por el etiquetado DULE ni por las claves gestionadas por el cliente.
+>Si tiene licencia para el complemento Escudo de seguridad y privacidad, tenga en cuenta que (cualquier dato generado a partir de) las experiencias y los recursos, sujetos a Content Analytics, no están cubiertos por el etiquetado DULE ni por las claves gestionadas por el cliente. Además, Content Analytics no es un servicio compatible con HIPAA.
 >
 
->[!NOTE]
->
->Content Analytics [envía eventos adicionales](config/datacollection.md#content-analytics-event) que probablemente afecten a cualquier definición de tasa de salida hacia otro sitio basada en el número de eventos de una sesión o una página.
->
 
 >[!MORELIKETHIS]
 >
 >[Creación de informes del análisis de contenido](report/report.md)
 >[Configurar Adobe Analytics](config/configuration.md)
->[Cálculo de devoluciones y tasa de devoluciones en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=es#M454)
+>[Cálculo de devoluciones y tasa de devoluciones en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 

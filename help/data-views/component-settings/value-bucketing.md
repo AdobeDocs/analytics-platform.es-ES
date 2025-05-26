@@ -5,8 +5,8 @@ exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
+source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="dataview_component_dimension_valuebucketing"
+>id="dataview_component_dimension_value_bucketing"
 >title="Creación de depósitos"
 >abstract="Agrupe los valores en intervalos específicos. Estos intervalos aparecerán como elementos de dimensión en los informes."
 
