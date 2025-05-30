@@ -4,11 +4,9 @@ description: Descubra los casos de uso habituales de Customer Journey Analytics 
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User, Admin
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%

@@ -4,11 +4,9 @@ description: Obtenga información acerca de cómo configurar Customer Journey An
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 12%
@@ -288,9 +286,9 @@ Defina una conexión basada en cuentas en Customer Journey Analytics para introd
    ![Conexión B2B - agregar conjuntos de datos](assets/b2b-connection-add-datasets.png)
 
 1. Seleccione **[!UICONTROL Siguiente]** para establecer la configuración de cada uno de los conjuntos de datos seleccionados.
-1. Para el conjunto de datos de evento, asegúrese de seleccionar las eVars adecuadas que correspondan a las identidades de **[!UICONTROL ID de cuenta]**, **[!UICONTROL ID de cuenta global]**, **[!UICONTROL ID de oportunidad]**, **[!UICONTROL ID de grupo de compra]** e **[!UICONTROL ID de persona]**.
+1. Para el conjunto de datos de evento, asegúrese de seleccionar los campos apropiados que correspondan a las identidades de **[!UICONTROL ID de cuenta]**, **[!UICONTROL ID de cuenta global]**, **[!UICONTROL ID de oportunidad]**, **[!UICONTROL ID de grupo de compra]** e **[!UICONTROL ID de persona]**.
 
-   ![Conexión B2B - agregar conjunto de datos de evento](assets/b2b-connection-add-datasets-event-data.png).
+   ![Conexión B2B - agregar conjunto de datos de evento](assets/b2b-connection-add-datasets-event-data.png)
 
 1. Desplácese hacia abajo para configurar el conjunto de datos de registros de cuenta. Asegúrese de seleccionar el identificador correcto (**[!UICONTROL Account_ID]**) para que coincida con la cuenta a través del contenedor de **[!UICONTROL Cuenta global]**. Seleccione el identificador correcto (**[!UICONTROL Account_ID]**) como **[!UICONTROL campo Cuenta global]**.
 

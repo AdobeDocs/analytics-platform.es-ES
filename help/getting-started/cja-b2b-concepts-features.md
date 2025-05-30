@@ -6,7 +6,7 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 6bfd54148736d4b3434eac3ee3aa6fc8a838d57a
+source-git-commit: 1a7b877d989764e737d7f35c05f515efe3e7a307
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 2%

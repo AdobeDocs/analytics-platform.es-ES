@@ -4,11 +4,9 @@ description: Obtenga información sobre cómo optimizar el marketing de cuentas 
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
