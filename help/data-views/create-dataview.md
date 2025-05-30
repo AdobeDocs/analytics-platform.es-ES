@@ -183,45 +183,45 @@ Puede filtrar los campos de esquema ![Icono de filtro](https://spectrum.adobe.co
 >id="dataview_includedcomponents_filter_datagovernance_custom"
 >title="Etiquetas personalizadas"
 >abstract="Además de las etiquetas proporcionadas por Adobe, también puede definir sus propias etiquetas personalizadas para su organización."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_contract"
 >title="Etiquetas del contrato"
 >abstract="Las etiquetas de contrato (C) se utilizan para categorizar los datos que tienen obligaciones contractuales o están relacionados con las políticas de gobernanza de datos de su organización."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_identity"
 >title="Etiquetas de identidad"
 >abstract="Las etiquetas de identidad (I) se utilizan para categorizar los datos que pueden identificar o contactar a una persona específica."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_sensitive"
 >title="Etiquetas confidenciales"
 >abstract="Las etiquetas confidenciales (S) se utilizan para categorizar los datos que usted y su organización consideran confidenciales."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_partnerecosystem"
 >title="Ecosistema de socios"
 >abstract="Las etiquetas de Ecosistema de socios (P) se utilizan para categorizar los datos que se comparten con socios de terceros."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="Políticas"
 >abstract="Para que las etiquetas de uso de datos respalden con eficacia el cumplimiento, se deben implementar políticas de uso de datos. Son reglas que describen los tipos de acciones de marketing que se le permite o se le impide realizar en relación con los datos dentro de Experience Platform. Los filtros Políticas aplican la política habilitada a la Vista de datos."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_responsibleengagement"
 >title="Etiquetas de participación responsable"
 >abstract="Las etiquetas de participación responsable se utilizan para respaldar la participación responsable."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview" text="Información general sobre las etiquetas de uso de datos"
 
 
 Los **[!UICONTROL componentes incluidos]** contienen la lista de **[!UICONTROL métricas]** y **[!UICONTROL dimensiones]** que configuró para la vista de datos.
