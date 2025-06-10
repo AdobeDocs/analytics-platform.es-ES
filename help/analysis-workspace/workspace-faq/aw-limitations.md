@@ -4,7 +4,7 @@ title: Limitaciones conocidas en Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 93%
@@ -31,7 +31,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 ## Segmentos 
 
 * Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Eventos], [!UICONTROL Personas], etc.
-* Segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) son un tipo de segmento rápido. No aparecen en el panel izquierdo de Workspace ni en el Administrador de segmentos a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
+* Segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) son un tipo de segmento rápido. No aparecen en el panel izquierdo de Workspace ni en el Administrador de segmentos a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/components/segments/seg-quick.md).
 
 ## Métricas calculadas 
 

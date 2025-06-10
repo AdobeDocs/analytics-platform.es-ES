@@ -4,8 +4,8 @@ description: Las tablas de forma libre son la base del análisis de datos en Wor
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Puede interactuar con una tabla de forma libre y personalizarla de diversas mane
 * Puede visualizar más filas en una sola pantalla ajustando la [densidad de vista](/help/analysis-workspace/build-workspace-project/view-density.md) del proyecto.
 * Cada fila de dimensión puede mostrar hasta 400 filas antes de que se produzca la paginación. Seleccione el número que hay junto a **[!UICONTROL Filas]** en el encabezado de la primera columna para mostrar más filas en una página. Vaya a otra página mediante ![ChevronRight](/help/assets/icons/ChevronRight.svg) en el encabezado de la primera columna.
 * Puede desglosar filas por componentes adicionales. Para desglosar muchas filas a la vez solo tiene que seleccionar varias filas y arrastrar el siguiente componente sobre las filas seleccionadas. Obtenga más información sobre los [desgloses](/help/components/dimensions/t-breakdown-fa.md).
-* Las filas se pueden [segmentar](/help/components/filters/filters-overview.md) para mostrar un conjunto reducido de elementos. Hay opciones de configuración adicionales disponibles en la [Configuración de fila](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
+* Las filas se pueden [segmentar](/help/components/segments/seg-overview.md) para mostrar un conjunto reducido de elementos. Hay opciones de configuración adicionales disponibles en la [Configuración de fila](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
 ### Columnas
 
@@ -113,6 +113,6 @@ Las siguientes opciones de [menú contextual](../freeform-analysis-visualization
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

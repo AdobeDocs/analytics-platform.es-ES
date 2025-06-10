@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo publicar audiencias desde Customer
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 96%
@@ -73,7 +73,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | --- | --- |
    | Desde la interfaz **[!UICONTROL Públicos]** | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Públicos. Seleccione **[!UICONTROL Generar público]** y se abrirá el [!UICONTROL Generador de públicos]. |
    | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear un público utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear público]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el segmento del Generador de públicos con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear un público utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Los públicos no pueden incluir métricas calculadas. Si intenta crear un público que contenga una métrica calculada, ésta no se incluirá en la definición de público.</p> |
-   | Desde la interfaz de usuario de creación/edición de segmentos | Marque la casilla que dice **[!UICONTROL Crear un público a partir de este segmento]**. Mediante este método se rellena previamente el segmento. Consulte [Crear segmentos](/help/components/filters/create-filters.md) para obtener más información. |
+   | Desde la interfaz de usuario de creación/edición de segmentos | Marque la casilla que dice **[!UICONTROL Crear un público a partir de este segmento]**. Mediante este método se rellena previamente el segmento. Consulte [Crear segmentos](/help/components/segments/seg-create.md) para obtener más información. |
 
    {style="table-layout:auto"}
 

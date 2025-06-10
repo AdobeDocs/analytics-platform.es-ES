@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 88%
@@ -69,7 +69,7 @@ Las siguientes visualizaciones se pueden utilizar para obtener información de s
 
 Esta visualización le ayuda a conocer el rendimiento de AEC a la hora de vincular los datos.
 
-1. Cree dos segmentos. La variable utilizada en estos dos segmentos es la misma variable mencionada anteriormente que refleja el origen de los datos de cada evento. Consulte [Crear un segmento](/help/components/filters/create-filters.md) para obtener más información.
+1. Cree dos segmentos. La variable utilizada en estos dos segmentos es la misma variable mencionada anteriormente que refleja el origen de los datos de cada evento. Consulte [Crear un segmento](/help/components/segments/seg-create.md) para obtener más información.
    * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del sitio web
    * Contenedor personal en el que el ID del conjunto de datos es igual a los datos del centro de llamadas
 2. En Analysis Workspace, arrastre una visualización [Venn](/help/analysis-workspace/visualizations/venn.md) al lienzo del área de trabajo.

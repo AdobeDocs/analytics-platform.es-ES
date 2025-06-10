@@ -6,7 +6,7 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 99%
@@ -19,7 +19,7 @@ Analysis Workspace te permite crear análisis rápidamente para recopilar inform
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/35552/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Las funciones principales de Analysis Workspace están disponibles a través del
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL Paneles]** | [Los paneles](/help/analysis-workspace/c-panels/panels.md) se utilizan para organizar el análisis dentro de un proyecto y pueden tener muchas tablas y visualizaciones. Muchos de los paneles que se proporcionan en Analysis Workspace generan un conjunto completo de análisis basados en unas pocas entradas de usuario.  |
 | ![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL Análisis guiado]** | El [análisis guiado](../guided-analysis/overview.md) te permite ofrecer datos de alta calidad y perspectivas sobre el recorrido del cliente a través de flujos de trabajo guiados. Puedes crear un análisis para incluirlo en tu proyecto de Workspace o incluir un análisis existente guardado anteriormente. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizaciones]** | Las [Visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), como una barra o un gráfico de líneas se pueden utilizar para que los datos cobren vida visualmente. En el panel del extremo izquierdo, selecciona el icono **[!UICONTROL Visualizaciones]** del medio para ver la lista completa de visualizaciones disponibles. |
-| ![Depurar](/help/assets/icons/Curate.svg) | **[!UICONTROL Componentes]** | [Los componentes](/help/components/overview.md) incluyen los siguientes elementos:<ul><li>![Dimensiones](/help/assets/icons/Dimensions.svg) [Dimensión](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [ Métricas](/help/components/apply-create-metrics.md)</li><li>![Segmentación](/help/assets/icons/Segmentation.svg) [Segmentos](/help/components/filters/filters-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalos de fecha](/help/components/date-ranges/overview.md)</li></ul> |
+| ![Depurar](/help/assets/icons/Curate.svg) | **[!UICONTROL Componentes]** | [Los componentes](/help/components/overview.md) incluyen los siguientes elementos:<ul><li>![Dimensiones](/help/assets/icons/Dimensions.svg) [Dimensión](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [ Métricas](/help/components/apply-create-metrics.md)</li><li>![Segmentación](/help/assets/icons/Segmentation.svg) [Segmentos](/help/components/segments/seg-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalos de fecha](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL Índice]** | El índice organiza todos los paneles y visualizaciones incluidos en el proyecto en una lista contraíble, lo que te permite acceder rápidamente a un panel o visualización específicos. |
 | ![Bookmark](/help/assets/icons/Bookmark.svg) | **Diccionario de datos** | El [Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md) ayuda tanto a los usuarios como a los administradores a realizar un seguimiento de los componentes de su entorno de Analytics y a comprenderlos mejor. |
 
@@ -106,7 +106,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 
 | **[!UICONTROL Componentes]** | Acceso directo a Mac | Acceso directo a Windows | Descripción |
 |---|---|---|---|
-| **[!UICONTROL Crear segmento...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Crear un nuevo [segmento](/help/components/filters/create-filters.md). |
+| **[!UICONTROL Crear segmento...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Crear un nuevo [segmento](/help/components/segments/seg-create.md). |
 | **[!UICONTROL Crear métrica...]** | **[!UICONTROL *shift+cmd+c *]** | **[!UICONTROL *shift+ctrl+c *]** | Crear una nueva [métrica calculada](/help/components/calc-metrics/calc-metr-overview.md). |
 | **[!UICONTROL Crear intervalo de fechas...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Creación de un nuevo [intervalo de fechas](/help/components/date-ranges/overview.md). |
 | **[!UICONTROL Crear anotación...]** | **[!UICONTROL *shift+cmd+o *]** | **[!UICONTROL *shift+ctrl+o *]** | Crear una [nueva anotación](/help/components/annotations/overview.md). |
@@ -123,7 +123,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 
 | Ayuda | Acceso directo a Mac | Acceso directo a Windows | Descripción |
 |---|---|---|---|
-| Vídeos de **&#x200B;**&#x200B;| | | Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
+| Vídeos de **** | | | Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Documentación de ayuda]** | | | Abre la documentación (que acabas de leer…) en una nueva pestaña del explorador. |
 | **[!UICONTROL Foro de ayuda]** | | | Abre el foro de comunidades de Experience League de Adobe Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Teclas de acceso directo]** | | | Mostrar una descripción general de los métodos abreviados de teclado que se pueden utilizar en Workspace. |

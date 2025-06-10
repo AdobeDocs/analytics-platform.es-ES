@@ -4,7 +4,7 @@ title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 97%
@@ -77,7 +77,7 @@ Puede realizar lo siguiente:
 
 ## Vista de datos
 
-Cada panel está asociado con una [vista de datos](/help/data-views/data-views.md), identificada por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre de la vista de datos *]**&#x200B;en el menú desplegable de la parte superior derecha del panel.
+Cada panel está asociado con una [vista de datos](/help/data-views/data-views.md), identificada por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre de la vista de datos *]**en el menú desplegable de la parte superior derecha del panel.
 
 Al crear un proyecto de Workspace en blanco, la vista de datos predeterminada para el panel inicial es la vista de datos en la que trabajaste por última vez en Customer Journey Analytics.
 
@@ -144,10 +144,10 @@ Arrastre y suelte cualquier segmento del panel izquierdo en la zona de colocaci�
 
 #### Segmentos rápidos
 
-Los componentes que no son segmentos también pueden arrastrarse directamente a la zona de colocación para crear segmentos rápidos, lo que le ahorrará el tiempo y el esfuerzo de ir al [Generador de segmentos](/help/components/filters/filter-builder.md). Los segmentos creados de este modo se definen automáticamente como segmentos de nivel de evento. Esta definición puede modificarse rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del segmento.
+Los componentes que no son segmentos también pueden arrastrarse directamente a la zona de colocación para crear segmentos rápidos, lo que le ahorrará el tiempo y el esfuerzo de ir al [Generador de segmentos](/help/components/segments/seg-builder.md). Los segmentos creados de este modo se definen automáticamente como segmentos de nivel de evento. Esta definición puede modificarse rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del segmento.
 
 
-Para obtener más información, consulte [Segmentos rápidos](/help/components/filters/quick-filters.md).
+Para obtener más información, consulte [Segmentos rápidos](/help/components/segments/seg-quick.md).
 
 ![Segmentos ad hoc que se hacen públicos y se sueltan en la zona de colocación](assets/adhoc-segment-filter.png)
 
@@ -155,7 +155,7 @@ Para obtener más información, consulte [Segmentos rápidos](/help/components/f
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/327488?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

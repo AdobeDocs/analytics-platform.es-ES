@@ -3,7 +3,7 @@ description: La segmentación de métricas individuales le permite realizar comp
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 1%
@@ -16,7 +16,7 @@ En el [Creador de métricas calculadas](cm-build-metrics.md#definition-builder),
 
 >[!NOTE]
 >
->Las definiciones de segmentos se actualizan a través de [Generador de segmentos](/help/components/filters/filter-builder.md). Si realiza un cambio en un segmento, este se actualiza automáticamente en cualquier lugar donde se utilice, incluso si forma parte de una definición de métrica calculada.
+>Las definiciones de segmentos se actualizan a través de [Generador de segmentos](/help/components/segments/seg-builder.md). Si realiza un cambio en un segmento, este se actualiza automáticamente en cualquier lugar donde se utilice, incluso si forma parte de una definición de métrica calculada.
 >
 
 Desea comparar las métricas de los alemanes que interactúan con su marca con las de otros fuera de Alemania. Por lo tanto, puede responder preguntas como:
@@ -30,7 +30,7 @@ Consulte las secciones siguientes para ilustrar cómo las métricas segmentadas 
 ## Páginas populares
 
 1. [Cree una métrica calculada](cm-workflow.md) a partir de un proyecto de Workspace, denominado `German people`.
-1. Desde el [Creador de métricas calculadas](cm-build-metrics.md), [cree un segmento](/help/components/filters/filter-builder.md), con el título `Germany`, que use el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
+1. Desde el [Creador de métricas calculadas](cm-build-metrics.md), [cree un segmento](/help/components/segments/seg-builder.md), con el título `Germany`, que use el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
 
    >[!TIP]
    >
@@ -90,7 +90,7 @@ Repita los pasos anteriores para la versión internacional de la métrica calcul
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://video.tv.adobe.com/v/37936?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

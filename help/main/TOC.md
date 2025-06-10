@@ -9,7 +9,7 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: c0446bd85b65109fd3311d54e33f9fb33af28f88
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 94%
@@ -325,20 +325,20 @@ ht-degree: 94%
       + [Dimensiones de partición de tiempo](../components/dimensions/time-parting-dimensions.md)
       + [Dimensiones de alta cardinalidad](../components/dimensions/high-cardinality.md)
    + [Métricas](../components/apply-create-metrics.md)
-   + Segmentos {#cja-filters}
-      + [Información general](../components/filters/filters-overview.md)
-      + [Crear segmentos](../components/filters/create-filters.md)
-      + [ Generación de segmentos](../components/filters/filter-builder.md)
-      + [Segmentos rápidos](../components/filters/quick-filters.md)
-      + [Segmentos secuenciales](../components/filters/seg-sequential-build.md)
-      + [Compartir segmentos](../components/filters/filters-share.md)
-      + [Etiquetar segmentos](../components/filters/filters-tag.md)
-      + [Filtrado de la lista de segmentos](../components/filters/filters-filter.md)
-      + [Marcar segmentos como favoritos](../components/filters/filters-favorite.md)
-      + [Aprobar segmentos](../components/filters/filters-approve.md)
-      + [Copiar segmentos](../components/filters/filters-copy.md)
-      + [Administración de segmentos](../components/filters/manage-filters.md)
-      + [Operadores](../components/filters/operators.md)
+   + Segmentos {#segments}
+      + [Información general](/help/components/segments/seg-overview.md)
+      + [Crear segmentos](/help/components/segments/seg-create.md)
+      + [ Generación de segmentos](/help/components/segments/seg-builder.md)
+      + [Segmentos rápidos](/help/components/segments/seg-quick.md)
+      + [Segmentos secuenciales](/help/components/segments/seg-sequential-build.md)
+      + [Compartir segmentos](/help/components/segments/seg-share.md)
+      + [Etiquetar segmentos](/help/components/segments/seg-tag.md)
+      + [Filtrado de la lista de segmentos](/help/components/segments/seg-filter.md)
+      + [Marcar segmentos como favoritos](/help/components/segments/seg-favorite.md)
+      + [Aprobar segmentos](/help/components/segments/seg-approve.md)
+      + [Copiar segmentos](/help/components/segments/seg-copy.md)
+      + [Administración de segmentos](/help/components/segments/seg-manage.md)
+      + [Operadores](/help/components/segments/seg-operators.md)
    + Métricas calculadas  {#cja-calcmetrics}
       + [Información general](../components/calc-metrics/calc-metr-overview.md)
       + Flujo de trabajo de las métricas calculadas {#cm-workflow}

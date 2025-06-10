@@ -4,9 +4,9 @@ title: Administrar alertas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '596'
 ht-degree: 21%
 
 ---
@@ -18,7 +18,7 @@ Puede filtrar, etiquetar, eliminar, cambiar el nombre, copiar, habilitar, deshab
 
 * Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Alertas]**.
 
-El Administrador de alertas está estructurado como [Administrador de segmentos](/help/components/filters/manage-filters.md) y [Administrador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+El Administrador de alertas está estructurado como [Administrador de segmentos](/help/components/segments/seg-manage.md) y [Administrador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
 
 ## Administrador de alertas
@@ -29,7 +29,7 @@ El Administrador de alertas tiene los siguientes elementos de interfaz:
 
 ### Lista de alertas
 
-La lista de alertas ➊ muestra todas las alertas que posee, las alertas que se han asignado a todos sus proyectos y las alertas que se han compartido con usted. La lista tiene las siguientes columnas:
+La lista de alertas ➊ muestra todas las alertas que posee, las alertas cuyo ámbito se ha asignado a todos sus proyectos y las alertas que se han compartido con usted. La lista tiene las siguientes columnas:
 
 | Columna | Descripción |
 |---|---|
@@ -49,7 +49,7 @@ Usa ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué
 
 ### Barra de acciones
 
-Puede realizar acciones en las alertas mediante el ➋ de la barra de acciones. La barra de acciones contiene las siguientes acciones:
+Puede realizar acciones con las alertas mediante la barra de acciones ➋. La barra de acciones contiene las siguientes acciones:
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
@@ -66,12 +66,12 @@ Puede realizar acciones en las alertas mediante el ➋ de la barra de acciones. 
 
 ### Barra de filtro activa
 
-La ➌ de la barra de filtros muestra los filtros activos aplicados desde el panel de filtros a la lista de alertas (si los hay). Puedes quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puedes quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
+La barra de filtros ➌ muestra los filtros activos aplicados desde el panel de filtros a la lista de alertas (si existe). Puedes quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puedes quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
 
 
 ### Panel Filtro
 
-Puede filtrar la lista de alertas con el ➍ del panel izquierdo ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]**. El panel Filtro muestra el tipo de filtro y el número de alertas que respetan el filtro específico.
+Puede filtrar la lista de alertas con el panel izquierdo ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** ➍. El panel Filtro muestra el tipo de filtro y el número de alertas que respetan el filtro específico.
 
 
 1. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesita más espacio para la lista Alertas, puede seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.

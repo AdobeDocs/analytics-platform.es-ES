@@ -5,7 +5,7 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 7%
@@ -34,7 +34,7 @@ Aunque es posible que falten algunos elementos de dimensión individuales en los
 
 La mejor manera de dar cabida a las dimensiones de alta cardinalidad es limitar el número de elementos de dimensión que procesa un informe. Dado que todos los informes se procesan en el momento en que se solicitan, puede ajustar los parámetros del informe para obtener resultados inmediatos. Adobe recomienda cualquiera de las siguientes optimizaciones para las dimensiones de alta cardinalidad:
 
-* Usar un [segmento](/help/components/filters/create-filters.md). Los segmentos se aplican en el momento en que cada servidor procesa un subconjunto de datos.
+* Usar un [segmento](/help/components/segments/seg-create.md). Los segmentos se aplican en el momento en que cada servidor procesa un subconjunto de datos.
 * Utilice una búsqueda. Los elementos de Dimension excluidos del término de búsqueda se eliminan de los resultados del informe, lo que aumenta la probabilidad de que vea los elementos de dimensión deseados.
 * Utilice una dimensión del conjunto de datos de búsqueda. Las dimensiones del conjunto de datos de búsqueda combinan elementos de dimensión del conjunto de datos de evento, lo que limita el número de valores únicos devueltos.
 * Use la configuración del componente [Incluir/excluir](/help/data-views/component-settings/include-exclude-values.md) en el administrador de vista de datos.

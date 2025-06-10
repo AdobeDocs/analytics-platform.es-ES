@@ -3,7 +3,7 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 95%
@@ -218,6 +218,6 @@ Para eliminar un contenedor, seleccione ![Cerrar](/help/assets/icons/Close.svg) 
 >[!MORELIKETHIS]
 >
 >[Uso de funciones](cm-using-functions.md)
->[Segmentos ](/help/components/filters/filters-overview.md)
+>>[Segmentos ](/help/components/segments/seg-overview.md)
 >
 

@@ -4,7 +4,7 @@ title: 'Lienzo de recorrido '
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '6225'
 ht-degree: 1%
@@ -297,7 +297,7 @@ Los nodos se conectan mediante una flecha. Tanto la dirección de la flecha como
 
 #### Lógica al conectar nodos
 
-Cuando se conectan nodos en lienzo de Recorrido, se conectan mediante el operador THEN. Esto también se conoce como [segmentación secuencial](/help/components/filters/seg-sequential-build.md).
+Cuando se conectan nodos en lienzo de Recorrido, se conectan mediante el operador THEN. Esto también se conoce como [segmentación secuencial](/help/components/segments/seg-sequential-build.md).
 
 Los nodos están conectados como una &quot;ruta eventual&quot;, lo que significa que los visitantes se cuentan siempre y cuando finalmente se muevan de un nodo a otro, independientemente de los eventos que se produzcan entre los 2 nodos. El tiempo asignado para que los usuarios se muevan por la ruta viene determinado por la configuración del contenedor. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
@@ -546,7 +546,7 @@ Para ver datos de tendencia:
 
 Puede crear un nuevo segmento basado en un nodo o una flecha dentro de un recorrido. Una vez creado el segmento, puede utilizarlo en cualquier lugar de Analysis Workspace.
 
-Los segmentos creados a partir del lienzo de Recorrido utilizan [segmentación secuencial](/help/components/filters/seg-sequential-build.md). Esto significa que el segmento utiliza el operador THEN para vincular la secuencia de eventos (el recorrido) por los que fluyeron las personas, hasta el nodo o la flecha seleccionados. Todos los eventos que coinciden con el nodo o la flecha seleccionados se incluyen en el segmento.
+Los segmentos creados a partir del lienzo de Recorrido utilizan [segmentación secuencial](/help/components/segments/seg-sequential-build.md). Esto significa que el segmento utiliza el operador THEN para vincular la secuencia de eventos (el recorrido) por los que fluyeron las personas, hasta el nodo o la flecha seleccionados. Todos los eventos que coinciden con el nodo o la flecha seleccionados se incluyen en el segmento.
 
 Si crea un segmento basado en un nodo que tiene varias rutas que fluyen a él, todas las rutas se incluyen en el segmento. Las rutas independientes se unen con el operador OR.
 
@@ -558,7 +558,7 @@ Para crear un segmento:
 
    Se muestra el Generador de segmentos. En la sección [!UICONTROL **Definición**], la definición del segmento se crea en función del nodo o la flecha que seleccionó y su contexto dentro del recorrido.
 
-1. Especifique un título para el segmento y realice cualquier otro cambio. Para obtener más información sobre cómo crear un segmento, consulte [Generador de segmentos](/help/components/filters/filter-builder.md).
+1. Especifique un título para el segmento y realice cualquier otro cambio. Para obtener más información sobre cómo crear un segmento, consulte [Generador de segmentos](/help/components/segments/seg-builder.md).
 
 1. Seleccione [!UICONTROL **Guardar**] para guardar el segmento.
 

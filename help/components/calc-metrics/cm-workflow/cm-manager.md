@@ -3,10 +3,10 @@ description: El Administrador de métricas calculadas le permite compartir, filt
 title: Administrador de métricas calculadas
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 30%
+source-wordcount: '897'
+ht-degree: 29%
 
 ---
 
@@ -27,13 +27,13 @@ El Administrador de métricas calculadas tiene los siguientes elementos de inter
 
 ### Lista de filtros
 
-La lista de filtros ➊ muestra todas las métricas calculadas que posee o que han compartido con usted. La lista tiene las siguientes columnas:
+La lista de filtros ➊ muestra todas las métricas calculadas que usted posee o que han compartido con usted. La lista tiene las siguientes columnas:
 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
 | Columna | Descripción |
 | --- | --- | 
-| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o dejar de favorecer a ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) en una métrica calculada. Ver [Marcar métrica calculada como favorita](/help/components/filters/filters-favorite.md) |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o dejar de favorecer a ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) en una métrica calculada. Ver [Marcar métrica calculada como favorita](/help/components/segments/seg-favorite.md) |
 | **[!UICONTROL Título y descripción]** | Para editar la métrica calculada, seleccione el vínculo del título, que abre el [Creador de métricas calculadas](cm-build-metrics.md). Se indica una métrica calculada compartida con ![Compartir](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Vista de datos]** | Las vistas de datos a las que se aplica esta métrica calculada. |
 | **[!UICONTROL Propietario]** | Propietario de la métrica calculada. Si no eres el administrador, solo podrás ver las anotaciones que te pertenecen o que se han compartido contigo. |
@@ -65,11 +65,11 @@ Puede realizar acciones en los filtros mediante la barra de acciones ➋. La bar
 
 ### Barra de filtro activa
 
-La ➌ de la barra de filtros muestra los filtros activos aplicados desde el panel de filtros a la lista de métricas calculadas (si las hay). Puedes quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puedes quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
+La barra de filtro ➌ muestra los filtros activos aplicados desde el panel de filtro a la lista de métricas calculadas (si las hay). Puedes quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puedes quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
 
 ### Panel Filtro
 
-Puede filtrar la lista de métricas calculadas mediante el ➍ del panel izquierdo ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]**. El panel Filtro muestra el tipo de filtro y el número de métricas calculadas que respetan el filtro específico. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para alternar la visualización del panel de filtros.
+Puede filtrar la lista de métricas calculadas mediante el panel izquierdo ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** ➍. El panel Filtro muestra el tipo de filtro y el número de métricas calculadas que respetan el filtro específico. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para alternar la visualización del panel de filtros.
 
 Ver [Filtrar la lista de métricas calculadas](cm-filter.md) para obtener más información.
 
