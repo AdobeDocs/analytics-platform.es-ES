@@ -17,7 +17,7 @@ Puede filtrar la lista de segmentos. El uso de un filtro en los segmentos facili
 
 >[!NOTE]
 >
->La lista de segmentos hace referencia a la [lista de segmentos](seg-manage.md#filters-list) como parte de [Administrador de segmentos](seg-manage.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [y parte de ese mismo [Administrador de segmentos](seg-manage.md).](seg-manage.md#filter-panel)
+>La lista de segmentos hace referencia a la [lista de segmentos](seg-manage.md#filters-list) como parte de [Administrador de segmentos](seg-manage.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [&#128279;](seg-manage.md#filter-panel)y parte de ese mismo [Administrador de segmentos](seg-manage.md).
 >
 
 
