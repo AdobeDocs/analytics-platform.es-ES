@@ -368,37 +368,37 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >id="connection_stitching_enable"
 >title="Habilitación de la vinculación de identidad"
 >abstract="Habilite la vinculación de identidad para elevar este conjunto de datos de evento para el análisis en canales múltiples."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_dialog"
 >title="Habilitación de la vinculación de identidad"
 >abstract="La habilitación de la vinculación de identidad deriva un ID vinculado de un único conjunto de datos o de varios. Este proceso puede incluir la combinación de datos de usuario de sesiones autenticadas y no autenticadas.<br/><br/>Usted es responsable de cumplir con las leyes y regulaciones aplicables. Esta conformidad incluye que obtenga los permisos de usuario final necesarios antes de combinar conjuntos de datos."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_persistentid"
 >title="ID de la persona"
 >abstract="Seleccione un ID persistente entre las identidades disponibles. Un ID persistente es un identificador disponible en todos los eventos del conjunto de datos del evento."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_lookbackwindow"
 >title="Ventana de retroactividad"
 >abstract="Seleccione el período de tiempo adecuado para que la ventana retroactiva se utilice en la reproducción de la vinculación."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_map"
 >title="Mapa de identidad del espacio de nombres"
 >abstract="Seleccione el espacio de nombres a utilizar para elegir el identificador del mapa de identidad."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_graph"
 >title="Gráfico de identidad del espacio de nombres"
 >abstract="Seleccione el espacio de nombres a utilizar para actualizar el identificador en el gráfico de identidad."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
 
 
 ### Añadir conjuntos de datos
@@ -717,6 +717,6 @@ Póngase en contacto con el equipo de soporte de Adobe para obtener más informa
 
 >[!MORELIKETHIS]
 >
->Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
+>Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=es)
 
 ![Compartir](/help/assets/icons/Share.svg)
