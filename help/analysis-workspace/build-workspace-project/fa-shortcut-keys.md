@@ -5,10 +5,10 @@ feature: Workspace Basics
 title: Cómo usar las teclas de acceso directo de Workspace
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 90%
 
 ---
 
@@ -35,8 +35,8 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 | Ir al panel Componentes | **[!UICONTROL *opt+mayús+3 *]** | **[!UICONTROL *alt+mayús+3 *]** |
 | Contraer/Expandir todos los paneles | **[!UICONTROL *opt+m *]** | **[!UICONTROL *alt+m *]** |
 | Contraer/Expandir el panel activo | **[!UICONTROL *opt+cmd+m *]** | **[!UICONTROL *alt+ctrl+m *]** |
-| Mover al panel siguiente | **[!UICONTROL *opt *+▶︎]** | **[!UICONTROL *alt *+▶︎]** |
-| Mover al panel anterior | **[!UICONTROL *opt *+◀︎]** | **[!UICONTROL *alt *+◀︎]** |
+| Mover al panel siguiente | **[!UICONTROL *exclusión *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
+| Mover al panel anterior | **[!UICONTROL *exclusión *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
 
 ## Acciones de análisis
 
@@ -67,6 +67,13 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 | Nuevo gráfico de líneas | **[!UICONTROL *opt+2 *]** | **[!UICONTROL *alt+2 *]** |
 | Nuevo gráfico de barras | **[!UICONTROL *opt+3 *]** | **[!UICONTROL *alt+3 *]** |
 | Nuevo gráfico combinado | **[!UICONTROL *opt+4 *]** | **[!UICONTROL *alt+4 *]** |
+
+## Mover acciones del panel
+
+| Acción | Acceso directo a Mac | Acceso directo a Windows |
+| --- | --- | --- | 
+| Mover panel hacia arriba | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
+| Mover panel hacia abajo | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
 ## Acciones de democratización
 
