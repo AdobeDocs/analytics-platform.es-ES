@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 9c8a2ed7712ad7e4e0bcada16d3b581d52a49472
+source-git-commit: 277e69432e4c8a93f692486b5f281329cbfc55db
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2061'
 ht-degree: 9%
 
 ---
 
 # Protecciones de Customer Journey Analytics
 
-Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [Descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es) o la [Descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es).
+Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [Descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) o la [Descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es).
 
 ## Tipos de límite
 
@@ -142,7 +142,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es).
+Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Exportación de datos de destinos
@@ -154,7 +154,7 @@ Consulte también [Protecciones de Experience Platform para la ingesta de datos]
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
+Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
 
 
 ## Zona de aterrizaje de datos
@@ -243,18 +243,19 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Biblioteca compartida | 1 | Protección reforzada por el sistema | Número máximo de bibliotecas compartidas para una conexión. |
+| Biblioteca compartida | 1 | Protección impuesta por el sistema | Número máximo de bibliotecas compartidas para una conexión. |
 | Métricas compartidas | 10.000 | Protección impuesta por el sistema | Número máximo de métricas compartidas por biblioteca compartida. |
-| Dimensiones compartidas | 10.000 | Protección reforzada por el sistema | Número máximo de dimensiones compartidas por biblioteca compartida. |
+| Dimensiones compartidas | 10.000 | Protección impuesta por el sistema | Número máximo de dimensiones compartidas por biblioteca compartida. |
 
 {style="table-layout:auto"}
+
 
 
 ## Latencias
 
 >[!NOTE]
 >
->Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es) de Experience Platform para obtener más información.
+>Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) de Experience Platform para obtener más información.
 
 | Flujo de datos | Latencia esperada |
 |---|---|
