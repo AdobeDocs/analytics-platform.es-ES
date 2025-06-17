@@ -4,10 +4,10 @@ description: Describe cómo funciona la gobernanza de datos en Customer Journey 
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
-source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 40706e3118cbaf7582d8625d307358b16f1836ac
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 90%
 
 ---
 
@@ -27,6 +27,12 @@ Esta integración le permite administrar el cumplimiento de normas más fácilme
 
 [Más información](/help/data-views/data-governance.md)
 
+## Solicitudes de privacidad
+
+Adobe gestiona las solicitudes de privacidad de acuerdo con las leyes locales e internacionales aplicables.
+
+Como Customer Journey Analytics usa datos que están disponibles en Adobe Experience Platform, Adobe ofrece [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para enviar solicitudes de acceso y eliminación de datos. Las solicitudes se aplican tanto a los conjuntos de datos originales como a aquellos cuyas claves se volvieron a generar.
+
 ## RGPD
 
 Customer Journey Analytics no se suscribirá directamente al servicio central del Reglamento general de protección de datos (RGPD) y, en su lugar, heredará todos los cambios de conjuntos de datos realizados en Experience Platform. Customer Journey Analytics depende del lago de datos de Platform para aplicar las solicitudes de eliminación de RGPD y notificárselo a Customer Journey Analytics cuando se completen las solicitudes. Todos los cambios realizados en los lotes afectados de Customer Journey Analytics para los conjuntos de datos de evento se sincronizan con los datos de Platform. Los conjuntos de datos de perfil y consulta afectados por las solicitudes de eliminación del RGPD se volverán a ingerir completamente después de cada solicitud de eliminación. Las solicitudes de eliminación suelen finalizar en un plazo de 7 días después del evento de eliminación en el lago de datos.
@@ -39,4 +45,4 @@ De acuerdo con la CCPA, el Servicio de privacidad aceptará las solicitudes de e
 
 >[!MORELIKETHIS]
 >
->* [Blog: Mantenimiento de la gobernanza efectiva en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=es)
+>* [Blog: Mantenimiento de la gobernanza efectiva en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
