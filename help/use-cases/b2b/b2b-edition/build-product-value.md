@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B edition"
 exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Generar valor de producto
-
-{{draft-b2b}}
 
 Desea proporcionar perspectivas de valor de producto B2B a los gestores de producto, CMO o CEOs. Por ejemplo, a través de un análisis de pérdida impulsado por datos o predicaciones. Y hacer que estas perspectivas sean digeribles a través de paneles móviles.
 

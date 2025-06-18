@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B edition"
 exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -14,8 +14,6 @@ ht-degree: 2%
 ---
 
 # Ampliación de cuentas clave
-
-{{draft-b2b}}
 
 El crecimiento y la conservación de las cuentas clave es una prioridad para las empresas B2B. Un requisito previo para garantizar que las ofertas progresan es comunicarse con las partes interesadas clave en sus cuentas de Target en el momento adecuado.
 

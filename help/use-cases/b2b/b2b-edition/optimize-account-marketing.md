@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B edition"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Optimización del marketing de cuentas
-
-{{draft-b2b}}
 
 El marketing efectivo basado en cuentas requiere una comprensión profunda del recorrido de compra a nivel de cuenta. Por lo tanto, puede determinar las actividades de marketing más impactantes para cerrar el trato.
 

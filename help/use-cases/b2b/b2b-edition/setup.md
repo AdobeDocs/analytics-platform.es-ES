@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 12%
@@ -14,8 +14,6 @@ ht-degree: 12%
 ---
 
 # Configuración para casos de uso de B2B edition
-
-{{draft-b2b}}
 
 Este artículo describe una configuración típica de Customer Journey Analytics B2B edition para admitir los siguientes casos de uso:
 

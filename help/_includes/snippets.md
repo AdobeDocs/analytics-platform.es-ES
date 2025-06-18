@@ -1,7 +1,7 @@
 ---
-source-git-commit: fe705aade87a2c5ea8d47db3dcd727d239eafc76
+source-git-commit: 256b1a3901a13ff2873a5cb5782baf26c93b8e8d
 workflow-type: tm+mt
-source-wordcount: '5193'
+source-wordcount: '4947'
 ht-degree: 38%
 
 ---
@@ -124,21 +124,26 @@ Un modelo de atribución determina qué elementos de dimensión obtienen crédit
 
 {style="table-layout:auto"}
 
+## Contenedor de atribución {#attribution-container}
+
+Un contenedor de atribución define el ámbito deseado para la atribución. Las opciones posibles son:
+
+* **Sesión**: Busca hasta el principio de la sesión en la que se produjo una conversión. Las ventanas retrospectivas de sesión respetan el [tiempo de espera de sesión](/help/data-views/create-dataview.md#session-settings) modificado en una vista de datos.
+* **Persona**: busca conversiones desde el ámbito del contenedor de persona.
+* **Cuenta global** [!BADGE B2B edition]{type=Informative}: busca conversiones desde el ámbito del contenedor de cuentas globales.
+* **Cuentas** [!BADGE B2B edition]{type=Informative}: busca conversiones desde el ámbito del contenedor de persona
+* **Oportunidad** [!BADGE B2B edition]{type=Informative}: Busca conversiones desde el ámbito del contenedor de oportunidad
+* **Grupo de compra** [!BADGE B2B edition]{type=Informative}: busca las conversiones desde el ámbito del contenedor de grupo de compra.
+
 ## Ventana retrospectiva de atribución {#attribution-lookback-window}
 
-Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devolverse en el tiempo para incluir los puntos de contacto. Si se establece un elemento de dimensión fuera de la ventana retrospectiva, el valor no se incluye en ningún cálculo de atribución.
+Una ventana retrospectiva de atribución es la cantidad de tiempo que una conversión debe devolverse atrás para incluir los puntos de contacto. Si se establece un elemento de dimensión fuera de la ventana retrospectiva, el valor no se incluye en ningún cálculo de atribución.
 
 * **14 días**: Busca hasta 14 días después de que se produjo la conversión.
 * **30 días**: Busca hasta 30 días después de que se produjo la conversión.
 * **60 días**: Busca hasta 60 días después de que se produjo la conversión.
 * **90 días**: Busca hasta 90 días después de que se produjo la conversión.
 * **13 meses** [!BADGE B2B edition]{type=Informative}: Busca hasta 13 meses después de que se produjo la conversión.
-* **Sesión**: Busca hasta el principio de la sesión en la que se produjo una conversión. Las ventanas retrospectivas de sesión respetan el [tiempo de espera de sesión](/help/data-views/create-dataview.md#session-settings) modificado en una vista de datos.
-* **Persona (ventana de informes)**: Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de personas sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
-* **Cuenta global (ventana de informes)** [!BADGE B2B edition]{type=Informative}: Busca todas las cuentas globales hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de la cuenta global sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
-* **Cuentas (ventana de informes)** [!BADGE B2B edition]{type=Informative}: Busca todas las cuentas hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de la cuenta sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
-* **Oportunidad (ventana de informes)** [!BADGE B2B edition]{type=Informative}: Busca todas las oportunidades hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de oportunidades sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
-* **Grupo de compra (ventana de informes)** [!BADGE B2B edition]{type=Informative}: Busca todos los grupos de compra hasta el primer día del mes del intervalo de fechas actual. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva del grupo comprador sería del 1 de septiembre al 30 de septiembre. Si utiliza esta ventana retrospectiva, puede ver ocasionalmente que los elementos de dimensión se atribuyen a fechas fuera de la ventana de creación de informes.
 * **Tiempo personalizado:** le permite establecer una ventana retrospectiva personalizada desde el momento en que se produjo una conversión. Puede especificar el número de minutos, horas, días, semanas, meses o trimestres. Por ejemplo, si se produce una conversión el 20 de febrero, una ventana retrospectiva de cinco días evaluaría todos los puntos de contacto de la dimensión del 15 de febrero al 20 de febrero en el modelo de atribución.
 
 ## Ejemplo de atribución {#attribution-example}
@@ -149,35 +154,20 @@ Consideremos el siguiente ejemplo:
 1. El 18 de setiembre, el visitante regresa de nuevo a su sitio a través de un vínculo de medios sociales que consiguió de un amigo. Agregan varios artículos al carro, pero no compran nada.
 1. El 24 de septiembre, su equipo de marketing les enviará un correo electrónico con un cupón para algunos de los artículos del carrito. Aplican el cupón, pero visitan otros sitios para ver si hay otros cupones disponibles. Encontraron otro a través de un anuncio y finalmente hicieron una compra por valor de 50 dólares.
 
-Según la ventana retrospectiva y el modelo de atribución, los canales reciben crédito diferente. Los siguientes son algunos ejemplos importantes:
+Según el modelo de atribución, el contenedor y los canales reciben crédito diferente. Consulte la tabla siguiente para ver ejemplos:
 
-* Con el **primer contacto** y una **ventana de retroactividad de la sesión**, la atribución solo se centra en la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue el primero, por lo que el correo electrónico recibe el 100 % del crédito por la compra de 50 USD.
-
-* Con el **primer contacto** y una **ventana de retroactividad de la persona**, la atribución solo se centra en las tres visitas. La búsqueda de pago fue la primera, así que recibe el 100 % del crédito por la compra de 50 USD.
-
-* Con un modelo **lineal** y una **ventana retroactividad de la visita**, el crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 USD.
-Con un modelo **lineal** y una **ventana de retroactividad del visitante**, el crédito se divide entre la búsqueda de pago, las redes sociales, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 USD por esta compra.
-
-* Con un modelo en **forma de J** y una **ventana de retroactividad de la persona**, el crédito se divide entre la búsqueda de pago, las redes sociales, el correo electrónico y la visualización.
-
-   * Se otorga un crédito del 60 % a la visualización, es decir, 30 dólares.
-   * El 20 % de crédito se asigna a la búsqueda de pago, 10 dólares en este caso.
-   * El 20% restante se divide entre el medio social y el correo electrónico, lo que otorga 5 dólares a cada uno.
-
-* Con un modelo **Deterioro de tiempo** y una **ventana de retroactividad de la persona**, el crédito se divide entre la búsqueda de pago, las redes sociales, el correo electrónico y la visualización. Con la semivida de 7 días predeterminada:
-
-   * Diferencia de 0 días entre el punto de contacto de visualización y la conversión. `2^(-0/7) = 1`
-   * Diferencia de 0 días entre el punto de contacto del correo electrónico y la conversión. `2^(-0/7) = 1`
-   * Diferencia de 6 días entre el punto de contacto social y la conversión. `2^(-6/7) = 0.552`
-   * Diferencia de 9 días entre el punto de contacto de búsqueda de pago y la conversión. `2^(-9/7) = 0.41`
-   * La normalización de estos valores resulta en lo siguiente:
-
-      * Visualización: 33,8 %, 16,88 dólares
-      * Correo electrónico: 33,8 % 16,88 dólares
-      * Medio social: 18,6 %, 9,32 dólares
-      * Búsqueda de pago: 13,8 %, 6,92 dólares
+| Modelo | Contenedor | Ventana de retroactividad | Explicación |
+|---|---|---|---|
+| Primer contacto | Sesión | 30 días | La atribución solo examina la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue el primero, por lo que el correo electrónico recibe el 100 % del crédito por la compra de 50 USD. |
+| Primer contacto | Persona | 30 días | La atribución se fijará en las tres visitas. La búsqueda de pago fue la primera, así que recibe el 100 % del crédito por la compra de 50 USD. |
+| Lineal | Sesión | 30 días | El crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 dólares. |
+| Lineal | Persona | 30 días | El crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 USD por esta compra. |
+| en forma de J | Persona | 30 días | El crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización.<ul><li>Se otorga un crédito del 60 % a la visualización, es decir, 30 dólares.</li><li>El 20 % de crédito se asigna a la búsqueda de pago, 10 dólares en este caso.</li><li>El 20% restante se divide entre el medio social y el correo electrónico, lo que otorga 5 dólares a cada uno.</li></ul> |
+| Deterioro de tiempo | Persona | 30 días | <ul><li>Diferencia de 0 días entre el punto de contacto de visualización y la conversión. `2^(-0/7) = 1`</li><li>Diferencia de 0 días entre el punto de contacto del correo electrónico y la conversión. `2^(-0/7) = 1`</li><li>Diferencia de 6 días entre el punto de contacto social y la conversión. `2^(-6/7) = 0.552`</li><li>Diferencia de 9 días entre el punto de contacto de búsqueda de pago y la conversión. `2^(-9/7) = 0.41`</li>La normalización de estos valores resulta en lo siguiente:<ul><li>Visualización: 33,8 %, 16,88 dólares</li><li>Correo electrónico: 33,8 % 16,88 dólares</li><li>Medio social: 18,6 %, 9,32 dólares</li><li>Búsqueda de pago: 13,8 %, 6,92 dólares</li></ul></li></ul> |
 
 Los eventos de conversión que generalmente tienen números enteros se dividen si el crédito pertenece a más de un canal. Por ejemplo, si dos canales contribuyen a un pedido mediante un modelo de atribución lineal, ambos canales obtienen 0,5 de dicho pedido. Estas métricas parciales se suman entre todas las visitas y luego se redondean al entero más cercano para los informes.
+
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: utilice contenedores B2B específicos, como cuentas u oportunidades, y ventanas retrospectivas más apropiadas (hasta 13 meses) para aplicar los modelos de atribución anteriores en escenarios B2B típicos.
 
 ## Comparaciones de visualización de recorrido {#journey-visualization-comparisons}
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
-workflow-type: ht
+source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -47,11 +47,11 @@ Para definir el contexto de una sesión en una vista de datos:
 
    2. Seleccione una métrica de la lista **[!UICONTROL Suelte una métrica aquí]** debajo de **[!UICONTROL Iniciar nueva sesión con una métrica]**. También puede arrastrar y soltar una métrica desde el panel izquierdo en el campo **[!UICONTROL Suelte una métrica]**. La métrica seleccionada define el inicio de una nueva sesión. Puede definir más de una métrica.
 
-      Puede emplear cualquier tipo de métrica para definir una nueva sesión. Por ejemplo, imagine que desea definir una nueva sesión cada vez que un perfil inicia la aplicación móvil. En **[!UICONTROL Vista de datos]** > **[!UICONTROL Componentes]**, define un componente de tipo métrica, denominado **[!UICONTROL Lanzamientos]**, basado en un campo de esquema **[!UICONTROL appInteraction]** **[!UICONTROL Nombre]**. También especifica el componente de métrica **[!UICONTROL Lanzamientos]** para contar el valor solo cuando coincida con `launch`.
+      Puede emplear cualquier tipo de métrica para definir una nueva sesión. Por ejemplo, imagine que desea definir una nueva sesión cada vez que un perfil inicia la aplicación móvil. En **[!UICONTROL Vista de datos]** > **[!UICONTROL Componentes]**, define un componente de tipo métrica, denominado **[!UICONTROL Launch]**, basado en un campo de esquema **[!UICONTROL appInteraction]** **[!UICONTROL Name]**. Además, especifique el componente de métrica **[!UICONTROL Launch]** para contar solo el valor cuando el valor coincida con `launch`.
 
       ![Lanzamientos del componente de métrica de interacción de aplicación](assets/component-launches.png)
 
-      A continuación, arrastra y suelta o selecciona **[!UICONTROL Lanzamientos]** como la métrica para definir una nueva sesión.
+      A continuación, arrastre y suelte o seleccione la métrica **[!UICONTROL Launch]** como métrica para definir una nueva sesión.
 
       ![Lanzamientos de configuración de sesión](assets/session-settings-launches-metric.png)
 
