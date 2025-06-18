@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 97c3b05d4d9661aabcb1b06db7fdf44671a29394
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '995'
 ht-degree: 33%
 
 ---
@@ -42,7 +42,7 @@ Para cambiar los elementos de dimensión devueltos para cada dimensión:
 
 1. Report Builder muestra una notificación para confirmar el filtro añadido.
 
-Para mostrar los filtros aplicados, pase el ratón sobre una dimensión. Las dimensiones con filtros aplicados muestran un icono de filtro ![Filter](/help/assets/icons/Filter.svg) junto al nombre de la dimensión.
+Para mostrar los filtros aplicados, pase el puntero por encima de una dimensión. Las dimensiones con filtros aplicados muestran un icono de filtro ![Filter](/help/assets/icons/Filter.svg) junto al nombre de la dimensión.
 
 ## Cambio del filtro y el orden
 
@@ -54,7 +54,7 @@ Para cambiar el criterio de ordenación:
 
 Para cambiar la métrica utilizada para filtrar y ordenar el bloque de datos:
 
-1. Pase el ratón sobre el componente de métrica deseado en el Generador de tablas para ver las opciones adicionales.
+1. Pase el puntero por encima del componente de métrica deseado en el Generador de tablas para ver las opciones adicionales.
 
 2. Seleccione ![ArrowDown](/help/assets/icons/ArrowDown.svg) para la métrica preferida.
 

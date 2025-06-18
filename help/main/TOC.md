@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 52cdf2ba21af45fc318212ab6456573b912c2924
+source-git-commit: a1213f33d8acf7780c13789706a613515df0edf2
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1253'
 ht-degree: 94%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 94%
       + [Proceso de actualización recomendado](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + Arquitecto y creación de un esquema {#schema}
          + [Diseña tu esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
-         + [Crea tu etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
+         + [Cree su esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
          + [Usa el esquema existente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
       + Crear un flujo de datos {#create-datastream}
          + [Crear un flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
@@ -400,6 +400,7 @@ ht-degree: 94%
    + [Programar libros de trabajo](../report-builder/schedule-reportbuilder.md)
    + [Etiquetas restringidas](../report-builder/restricted-labels.md)
    + [Configuración de Report Builder](../report-builder/report-builder-settings.md)
+   + [Exportar datos](../report-builder/report-builder-export.md)
 
 
 + Administrador de actividades de creación de informes {#reporting-activity-manager}
