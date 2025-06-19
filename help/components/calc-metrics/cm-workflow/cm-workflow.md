@@ -3,10 +3,10 @@ description: Aprenda a crear métricas calculadas.
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 43%
+source-wordcount: '383'
+ht-degree: 25%
 
 ---
 
@@ -29,15 +29,19 @@ Puede crear una métrica calculada de las siguientes maneras:
 
 Para definir la nueva métrica calculada, usa el [Creador de métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
-Obtenga información sobre los pasos a seguir para crear métricas calculadas.
+
+## Flujo de trabajo
+
+Antes de crear métricas calculadas, tenga en cuenta cuidadosamente el siguiente flujo de trabajo:
 
 | Tarea del flujo de trabajo | Descripción |
 | --- | --- |
 | Planificar métricas calculadas | Especialmente en el caso de las métricas que se “aprobarán” oficialmente, tiene sentido detallar qué métricas calculadas se utilizarán de forma generalizada y cómo se definirán. |
-| [Crear](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) métricas calculadas | Cree y edite métricas calculadas y métricas calculadas avanzadas para utilizarlas en componentes de [!DNL Customer Journey Analytics].   |
+| [Generar](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) métricas calculadas | Cree y edite métricas calculadas y métricas calculadas avanzadas para utilizarlas en componentes de [!DNL Customer Journey Analytics].   |
 | [Etiquetar](cm-tagging.md) métricas calculadas | Etiquete métricas calculadas para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas. |
 | [Aprobar](cm-approving.md) métricas calculadas | Apruebe métricas calculadas para hacerlas canónicas. |
-| Aplicar métricas calculadas | Puede aplicar métricas directamente desde un informe, desde el Selector de métricas (para acceder a él, haga clic en [!UICONTROL Mostrar métricas]). |
-| Filtrar métricas calculadas | En el selector de métricas, haga clic en [!UICONTROL Selección avanzada] y filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Mío, Compartido conmigo, Favoritos y Aprobado). |
-| Marcar una métrica calculada como [favorita](cm-finding.md) | Marcar las métricas como favoritas es otra manera de organizarlas para que su uso sea más sencillo. |
+| Uso de métricas calculadas | Utilice las métricas calculadas en sus proyectos. |
+| [Compartir](cm-sharing.md) métricas calculadas | Comparta sus métricas calculadas con otras personas, grupos u organizaciones. |
+| [Filtrar](cm-filter.md) métricas calculadas | Filtre las métricas calculadas por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados). |
+| Marcar métricas calculadas como [favoritos](cm-finding.md) | Marcar las métricas como favoritas es otra manera de organizarlas para que su uso sea más sencillo. |
 

@@ -3,9 +3,9 @@ description: El Administrador de métricas calculadas le permite compartir, filt
 title: Administrador de métricas calculadas
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 29%
 
 ---
@@ -23,11 +23,11 @@ Puede compartir, filtrar, etiquetar, aprobar, cambiar el nombre, copiar, elimina
 El Administrador de métricas calculadas tiene los siguientes elementos de interfaz:
 
 
-![Interfaz de filtros](assets/calculated-metrics-manager.png)
+![Interfaz del administrador de métricas calculadas](assets/calculated-metrics-manager.png)
 
-### Lista de filtros
+### Lista de métricas calculadas
 
-La lista de filtros ➊ muestra todas las métricas calculadas que usted posee o que han compartido con usted. La lista tiene las siguientes columnas:
+La lista de métricas calculadas ➊ muestra todas las métricas calculadas que posee o que han compartido con usted. La lista tiene las siguientes columnas:
 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 

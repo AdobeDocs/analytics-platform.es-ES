@@ -4,7 +4,7 @@ title: Segmentos rápidos
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 23%
@@ -19,7 +19,7 @@ Los segmentos rápidos le permiten explorar datos dentro de un proyecto de Works
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://video.tv.adobe.com/v/345336/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -107,6 +107,6 @@ Los segmentos rápidos son exactamente como se llaman. Puede crear y editar segm
 Los segmentos tienen las siguientes ventajas en comparación con los segmentos rápidos.
 
 * Los segmentos pueden estar disponibles en todos sus proyectos de Workspace
-* Los segmentos admiten una mayor complejidad mediante el uso de contenedores anidados y jerárquicos, y secuencias (mediante segmentos de secuencia).
+* Los segmentos admiten una mayor complejidad al usar [contenedores](seg-builder.md#containers) y secuencias anidados y jerárquicos (con [segmentos secuenciales](seg-sequential-build.md)).
 
 
