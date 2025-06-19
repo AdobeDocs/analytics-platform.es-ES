@@ -4,9 +4,9 @@ title: Agregar y ver comentarios en proyectos
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 29db477c96ad5ca7c69a7f7055c1a7fd3c06eb04
+source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Puede ver los comentarios desde el área de comentarios en el carril derecho o d
 
 ### Ver comentarios en el área de comentarios
 
-Todos los comentarios realizados en un proyecto de Analysis Workspace se pueden ver en el área de comentarios del carril derecho.
+Todos los comentarios realizados en un proyecto de Analysis Workspace se pueden ver en el área de comentarios del carril derecho. El número total de comentarios existentes se muestra en el icono de comentarios.
 
 1. De forma predeterminada, el área de comentarios se expande para cada proyecto en Analysis Workspace la primera vez que se abre un proyecto.
 
@@ -131,13 +131,15 @@ Para incluir a otra persona en el comentario:
 
 ## Responder a un comentario
 
-1. Con el proyecto abierto en Analysis Workspace, seleccione el icono del área de comentarios ![icono del área de comentarios](/help/assets/icons/Comment.svg) en el carril derecho de Analysis Workspace.
+1. En Analysis Workspace, abra el proyecto en el que desea agregar un comentario.
 
-1. Seleccione **[!UICONTROL Responder]** junto al comentario al que desea responder.
+1. Seleccione el icono del área de comentarios ![Icono del área de comentarios](/help/assets/icons/Comment.svg) en el carril derecho de Analysis Workspace y, a continuación, seleccione **[!UICONTROL Responder]** junto al comentario al que desee responder.
+
+   Para incluir el texto del comentario al que está respondiendo, con el texto original dentro de una etiqueta de comillas, seleccione el icono de 3 puntos junto al comentario o la respuesta específicos a los que desea responder y, a continuación, seleccione **[!UICONTROL Respuesta de cita]**. Una respuesta de cita es una buena manera de indicar a qué comentario o respuesta se refiere su comentario.
 
    O bien
 
-   Para incluir el texto del comentario al que está respondiendo, con el texto original dentro de una etiqueta de comillas, seleccione el icono de 3 puntos junto al comentario o la respuesta específicos a los que desea responder y, a continuación, seleccione **[!UICONTROL Respuesta de cita]**. Una respuesta de cita es una buena manera de indicar a qué comentario o respuesta se refiere su comentario.
+   Seleccione el icono de comentario en el panel o la visualización donde se realizó el comentario y, a continuación, seleccione **[!UICONTROL Responder]**.
 
 1. En el campo **[!UICONTROL Nuevo comentario]**, especifique el comentario.
 
@@ -149,9 +151,9 @@ Para incluir a otra persona en el comentario:
 
 ## Recibir notificaciones sobre comentarios
 
-Los propietarios del proyecto y [determinadas personas que menciona](#include-others-in-a-comment) reciben notificaciones según su configuración de notificaciones de Adobe Experience Cloud. De forma predeterminada, reciben una notificación en la aplicación, visible desde el icono [Experience Cloud notification](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#view-notifications) ![Experience Cloud notification icon](assets/experience-cloud-notification.svg) en Customer Journey Analytics.
+Los propietarios del proyecto y [determinadas personas que menciona](#include-others-in-a-comment) reciben notificaciones según su configuración de notificaciones de Adobe Experience Cloud. De forma predeterminada, reciben una notificación en la aplicación, visible desde el icono [Experience Cloud notification](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) ![Experience Cloud notification icon](assets/experience-cloud-notification.svg) en Customer Journey Analytics.
 
-Además, las personas pueden configurar su configuración de notificaciones de Experience Cloud para recibir notificaciones por correo electrónico y notificaciones de Slack mediante [suscripción a notificaciones por correo electrónico](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) y [suscripción a notificaciones de Slack](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#slack).
+Además, las personas pueden configurar su configuración de notificaciones de Experience Cloud para recibir notificaciones por correo electrónico y notificaciones de Slack mediante [suscripción a notificaciones por correo electrónico](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) y [suscripción a notificaciones de Slack](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 ## Colocar una insignia para un comentario existente
 
