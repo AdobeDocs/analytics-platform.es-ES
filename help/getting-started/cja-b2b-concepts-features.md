@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: 68f2fe684f6eb9590ab047e893fb04b1cbe1a8cd
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1469'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ En Customer Journey Analytics B2B edition, puede seleccionar entre una conexión
 
 ## Contenedores
 
-En Customer Journey Analytics, los contenedores se generan como parte de la configuración de una conexión y vista de datos, y proporcionan una estructura de datos y un ámbito determinados. Los contenedores almacenan grupos de identificadores para secuenciar todas las marcas de tiempo de evento por identificadores únicos. Ese almacenamiento facilita la ejecución rápida y eficaz de funcionalidades como la segmentación, la atribución y las visualizaciones.
+En Customer Journey Analytics, los contenedores se generan como parte de la configuración de una conexión y vista de datos, y proporcionan la estructura y el ámbito de los datos. Los contenedores almacenan grupos de identificadores para secuenciar todas las marcas de tiempo de evento por identificadores únicos. Ese almacenamiento facilita la ejecución rápida y eficaz de funcionalidades como la segmentación, la atribución y las visualizaciones.
 
 ### Contenedores estándar
 
