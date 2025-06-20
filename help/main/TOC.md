@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: a1213f33d8acf7780c13789706a613515df0edf2
+source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 94%
+source-wordcount: '1255'
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 94%
    + Customer Journey Analytics {#cja-b2c-overview}
       + [Información general](../getting-started/cja-overview.md)
       + [Guía de inicio rápido](../getting-started/cja-getting-started.md)
-      + [Página de aterrizaje](../getting-started/landing.md)
+      + [Página de destino](../getting-started/landing.md)
       + [Preguntas frecuentes](../getting-started/cja-faq.md)
       + [Comparar soluciones con las soluciones de BI](../getting-started/cja-vs-bi.md)
       + [Asistente de IA](../ai-assistant.md)
@@ -340,6 +340,7 @@ ht-degree: 94%
       + [Copiar segmentos](/help/components/segments/seg-copy.md)
       + [Administración de segmentos](/help/components/segments/seg-manage.md)
       + [Operadores](/help/components/segments/seg-operators.md)
+      + [Uso de segmentos](/help/components/segments/seg-use.md)
    + Métricas calculadas  {#cja-calcmetrics}
       + [Información general](../components/calc-metrics/calc-metr-overview.md)
       + Flujo de trabajo de las métricas calculadas {#cm-workflow}

@@ -4,7 +4,7 @@ title: Generar segmentos
 feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 51%
@@ -12,8 +12,6 @@ ht-degree: 51%
 ---
 
 # Generar segmentos {#build-segments}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -24,7 +22,6 @@ ht-degree: 51%
 >id="components_filters_datapreview"
 >title="Previsualización de los datos"
 >abstract="Compara los datos de este segmento con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
-
 
 El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear segmentos nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo segmento]** o **[!UICONTROL Editar segmento]** para los segmentos que cree o administre desde el administrador de [[!UICONTROL segmentos]](/help/components/segments/seg-manage.md).
 
@@ -202,5 +199,3 @@ La tabla siguiente explica, para cada modelo de atribución, qué eventos entran
 Un informe de ejemplo sobre los eventos que utilizan los tres segmentos tiene este aspecto:
 
 ![Resultados del modelo de atribución de segmentos](assets/filter-dimension-attribution-results.png)
-
-<!-- markdownlint-enable MD034 -->
