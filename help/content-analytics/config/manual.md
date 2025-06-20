@@ -53,7 +53,7 @@ Utilice la [extensión de Adobe Content Analytics](https://experienceleague.adob
 
   Puede habilitar o deshabilitar las experiencias y editar las combinaciones de expresión regular y parámetros de consulta para determinar cómo se procesa el contenido en el sitio web.
 
-* [Segmentación de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
+* [Segmentación de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
   Puede editar las expresiones regulares para modificar la forma en que segmenta páginas y recursos.
 
@@ -97,7 +97,7 @@ Content Analytics gestiona las identidades de la siguiente manera:
 * No se admite la vinculación basada en campos porque el esquema es propiedad del sistema. Por lo tanto, no se puede agregar otro campo al esquema para admitir la vinculación basada en el campo
 
 
-Para asegurarse de que los datos de identidad de Content Analytics y los datos de identidad de Adobe Experience Platform Web SDK se vinculen correctamente en el nivel de campo, debe realizar modificaciones en Web SDK [en antes de la devolución de llamada de evento](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}.
+Para asegurarse de que los datos de identidad de Content Analytics y los datos de identidad de Adobe Experience Platform Web SDK se vinculen correctamente en el nivel de campo, debe realizar modificaciones en Web SDK [en antes de la devolución de llamada de evento](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}.
 
 1. Vaya a la propiedad **[!UICONTROL Tags]** que contiene la extensión Adobe Experience Platform Web SDK y la extensión Adobe Content Analytics.
 1. Seleccionar ![Plug](/help/assets/icons/Plug.svg) **[!UICONTROL Extensiones]**.
