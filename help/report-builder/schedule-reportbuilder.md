@@ -6,14 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 13%
+source-wordcount: '864'
+ht-degree: 15%
 
 ---
 
-# Programar libros de trabajo
+# Programar libros compartiéndolos por correo electrónico
 
 Una vez guardado el libro y completado el análisis, puede compartirlo con otros miembros de su equipo mediante la función de programación. La función de programación permite crear una programación que actualice automáticamente los datos del libro. Y envía por correo electrónico el archivo del libro de Excel como archivo adjunto a la audiencia especificada en una fecha y hora específicas. La configuración de una programación proporciona a los destinatarios actualizaciones regulares automáticamente. También puede utilizar la función de programación para enviar el libro una vez sin programar actualizaciones automáticas.
 
@@ -24,7 +24,7 @@ La función de programación también permite configurar la protección con cont
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros](https://video.tv.adobe.com/v/3417503/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -129,54 +129,7 @@ En ambos casos, verá un mensaje de confirmación en la parte inferior de Report
 
 Para cancelar el envío del libro, seleccione **[!UICONTROL Cancelar]**.
 
+## Administrar libros programados
 
-## Ver y administrar libros programados
+Para obtener información acerca de la administración de libros que ya están programados, vea [Administrar libros programados](/help/report-builder/manage-schedules-reportbuilder.md).
 
-Puede ver y administrar todos los libros programados en la ficha **[!UICONTROL Libros]**.
-
-1. Seleccione **[!UICONTROL Horario]** en Report Builder Hub
-
-1. Seleccione la ficha **[!UICONTROL Libros]**. Verá una lista de todos los libros programados.
-
-   ![Libro programado](assets/scheduled-workbooks.png){zoomable="yes"}
-
-   Puede pasar el ratón sobre el icono para ver el estado de un libro programado.
-
-   Use ![Buscar](/help/assets/icons/Search.svg) para buscar libros programados específicos.
-Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
-
-1. Seleccione uno o varios libros.
-
-   ![Programar libros seleccionados](assets/scheduled-workbooks-selected.png){zoomable="yes"}
-
-   Las opciones disponibles son las siguientes:
-
-   | Opción | Descripción |
-   |---|---|
-   | ![Editar](/help/assets/icons/Edit.svg) | Editar la programación de un libro seleccionado. |
-   | ![Historial](/help/assets/icons/History.svg) | Muestra el historial de los libros seleccionados. |
-   | ![Pausa](/help/assets/icons/Pause.svg) | Pausar la programación de los libros seleccionados. |
-   | ![Reproducir](/help/assets/icons/Play.svg) | Reanudar la programación de los libros seleccionados. |
-   | ![Descargar](/help/assets/icons/Download.svg) | Descargue el libro seleccionado en un nuevo libro. |
-   | ![Eliminar](/help/assets/icons/Delete.svg) | Eliminar la programación de los libros seleccionados. |
-
-
-## Historial y estado de los libros programados
-
-Puede ver el historial y el estado de los libros programados en la ficha **[!UICONTROL Historial]**.
-
-1. Seleccione **[!UICONTROL Horario]** en Report Builder Hub.
-
-1. Seleccione la ficha **[!UICONTROL Historial]**. Verá una lista de todos los libros programados.
-
-   ![Historial programado](assets/scheduled-workbooks-history.png){zoomable="yes"}
-
-   Use ![Buscar](/help/assets/icons/Search.svg) para buscar libros específicos en la lista.
-Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
-
-   La ficha **[!UICONTROL Historial]** le permite revisar el estado de cada tarea programada. Una fila independiente documenta el cambio de estado de cada tarea programada.
-
-   * Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indica que el libro se envió correctamente.
-   * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica que se produjo un error.
-
-También puede seleccionar ![Historial](/help/assets/icons/History.svg) para uno o más libros seleccionados en la ficha **[!UICONTROL Libros]**. Esta acción muestra la ficha **[!UICONTROL Historial]** con una lista filtrada por su selección. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un filtro.
