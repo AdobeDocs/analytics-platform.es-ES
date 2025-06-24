@@ -7,7 +7,7 @@ role: User
 source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 * [!UICONTROL Flujo]: Las dimensiones de entrada y salida, por ejemplo: [!UICONTROL página de entrada], no se pueden usar en Flujos.
 * [!UICONTROL Cohorte]: Los números no enteros no se pueden usar como criterios de cohorte.
 
-## Segmentos 
+## Segmentos
 
 * Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Eventos], [!UICONTROL Personas], etc.
-* Segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) son un tipo de segmento rápido. No aparecen en el panel izquierdo de Workspace ni en el Administrador de segmentos a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/components/segments/seg-quick.md).
+* Segmentos ad hoc creados en la [zona desplegable del panel](/help/analysis-workspace/c-panels/panels.md) son un tipo de segmento rápido. No aparecen en la barra izquierda de Workspace ni en el Administrador de componentes del segmento, a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/components/segments/seg-quick.md).
 
 ## Métricas calculadas 
 

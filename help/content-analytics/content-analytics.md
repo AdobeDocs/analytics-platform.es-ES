@@ -8,7 +8,7 @@ exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ El análisis de contenido utiliza los siguientes términos clave:
 
 ## Funcionamiento
 
-Content Analytics usa datos de vista de imágenes web en conjuntos de datos de evento en Experience Platform para [recopilar datos de evento de contenido](config/datacollection.md). Y combina esa recopilación de datos de contenido con la implementación (existente) de recopilación de datos de comportamiento.
+Content Analytics usa los datos de vista de imágenes web en conjuntos de datos de evento en Experience Platform para [recopilar datos de evento de contenido](config/datacollection.md). Y combina esa recopilación de datos de contenido con la implementación (ya existente) de recopilación de datos de comportamiento.
 
 ![Análisis de contenido: funcionamiento](assets/aca-overview.gif)
 
@@ -67,7 +67,7 @@ Content Analytics usa datos de vista de imágenes web en conjuntos de datos de e
 >[!MORELIKETHIS]
 >
 >[Creación de informes del análisis de contenido](report/report.md)
->[Configurar Adobe Analytics](config/configuration.md)
->[Cálculo de devoluciones y tasa de devoluciones en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=es#M454)
+>>[Configurar Adobe Analytics](config/configuration.md)
+>>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 

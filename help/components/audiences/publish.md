@@ -7,7 +7,7 @@ role: User
 source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2368'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -122,13 +122,13 @@ El panel Previsualización de datos proporciona la siguiente información.
 
 ## ¿Qué sucede después de crear y publicar un público? {#after-audience-created}
 
-Después de crear y publicar una audiencia en Customer Journey Analytics, esta estará disponible en Experience Platform y podrá verse en [Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal). Con la audiencia disponible en Experience Platform, se puede utilizar en otras aplicaciones de Experience Platform, como Adobe Journey Optimizer.
+Después de crear y publicar un público en Customer Journey Analytics, estará disponible en Experience Platform y podrá verse en el [portal del público](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal). Con el público disponible en Experience Platform, se puede utilizar en otras aplicaciones de Experience Platform, como Adobe Journey Optimizer.
 
 Solo se creará un segmento de streaming de Adobe Experience Platform si su organización se ha configurado para la segmentación de streaming.
 
-Tenga en cuenta lo siguiente al trabajar con audiencias publicadas desde Customer Journey Analytics en Experience Platform:
+Tenga en cuenta lo siguiente cuando trabaje con públicos que se publican desde Customer Journey Analytics en Experience Platform:
 
-* La audiencia de Experience Platform comparte el mismo nombre y la misma descripción que la audiencia de Customer Journey Analytics. El nombre se añade con el ID de audiencia de Customer Journey Analytics para garantizar que el público sea único.
+* El público de Experience Platform comparte el mismo nombre y la misma descripción que el público de Customer Journey Analytics. El nombre se añade con el ID de audiencia de Customer Journey Analytics para garantizar que el público sea único.
 * Cualquier cambio realizado en el nombre o la descripción del público en Customer Journey Analytics se reflejará en Experience Platform.
 * Si se elimina un público Customer Journey Analytics, permanecerá disponible en Experience Platform hasta que caduque el perfil al que pertenece el público. La pertenencia al perfil caduca pasados 420 días en el caso de públicos únicos y después de 16 días en el caso de públicos recurrentes.
 

@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 995a2a9250f4ef929890b781b8d55263a04d38a3
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -171,7 +171,7 @@ ht-degree: 93%
       + [Información general](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Crear proyectos](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Abrir proyectos](/help/analysis-workspace/build-workspace-project/open-projects.md)
-      + [Comentario sobre los proyectos](/help/analysis-workspace/build-workspace-project/comment-projects.md)
+      + [Comentario en proyectos](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
       + Carpetas en Workspace {#workspace-folders}
          + [Acerca de las carpetas](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -224,7 +224,7 @@ ht-degree: 93%
       + [Resumen de métricas clave](../analysis-workspace/visualizations/key-metric.md)
       + [Línea](../analysis-workspace/visualizations/line.md)
       + [Mapa](/help/analysis-workspace/visualizations/map.md)
-      + [Puntos](../analysis-workspace/visualizations/scatterplot.md)
+      + [Disperso](../analysis-workspace/visualizations/scatterplot.md)
       + [Encabezado de sección](/help/analysis-workspace/visualizations/section-header.md)
       + [Número de resumen y cambio](../analysis-workspace/visualizations/summary-number-change.md)
       + [Texto](../analysis-workspace/visualizations/text.md)
@@ -320,7 +320,7 @@ ht-degree: 93%
       + [Creación y publicación de públicos](../components/audiences/publish.md)
       + [Administrar públicos](../components/audiences/manage.md)
    + Dimensiones {#dimensions}
-      + [Información general de dimensiones](../components/dimensions/overview.md)
+      + [Información general sobre las dimensiones](../components/dimensions/overview.md)
       + [Vista preliminar de dimensiones](../components/dimensions/view-dimensions.md)
       + [Desglose de dimensiones](../components/dimensions/t-breakdown-fa.md)
       + [Dimensiones de partición de tiempo](../components/dimensions/time-parting-dimensions.md)
@@ -329,7 +329,7 @@ ht-degree: 93%
    + Segmentos {#segments}
       + [Información general](/help/components/segments/seg-overview.md)
       + [Crear segmentos](/help/components/segments/seg-create.md)
-      + [ Generación de segmentos](/help/components/segments/seg-builder.md)
+      + [Generación de segmentos](/help/components/segments/seg-builder.md)
       + [Segmentos rápidos](/help/components/segments/seg-quick.md)
       + [Segmentos secuenciales](/help/components/segments/seg-sequential-build.md)
       + [Compartir segmentos](/help/components/segments/seg-share.md)
@@ -392,12 +392,12 @@ ht-degree: 93%
    + [Información general](../report-builder/rb-overview.md)
    + [Configuración de Report Builder](../report-builder/report-builder-setup.md)
    + [Creación de un bloque de datos](../report-builder/create-a-data-block.md)
-   + [concentrador de Report Builder](../report-builder/report-builder-hub.md)
+   + [Hub de Report Builder](../report-builder/report-builder-hub.md)
    + [Seleccione una vista de datos](../report-builder/select-data-view.md)
-   + [Seleccionar un intervalo de fecha](../report-builder/select-date-range.md)
-   + [Trabajo con segmentos](../report-builder/work-with-filters.md)
+   + [Selección de un intervalo de fechas](../report-builder/select-date-range.md)
+   + [Trabajar con segmentos](../report-builder/work-with-filters.md)
    + [Filtrar dimensiones](../report-builder/filter-dimensions.md)
-   + [Administración de bloques de datos](../report-builder/manage-reportbuilder.md)
+   + [Administrar bloques de datos](../report-builder/manage-reportbuilder.md)
    + [Programar libros para correo electrónico](../report-builder/schedule-reportbuilder.md)
    + [Programar libros para exportaciones en la nube](../report-builder/report-builder-export.md)
    + [Administrar programaciones de libros](/help/report-builder/manage-schedules-reportbuilder.md)
@@ -438,9 +438,9 @@ ht-degree: 93%
       + [Uso de dimensiones del canal de marketing](../use-cases/aa-data/marketing-channels.md)
       + [Combinación de grupos de informes con diferentes esquemas](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
-      + [Ejemplo de proyecto B2B basado en personas](../use-cases/b2b/example.md)
-      + B2B edition {#b2b-edition}
-         + [Resumen de casos de uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+      + [Un ejemplo de proyecto B2B basado en personas](../use-cases/b2b/example.md)
+      + B2B Edition {#b2b-edition}
+         + [Información general de casos de uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
          + [Configuración](/help/use-cases/b2b/b2b-edition/setup.md)
          + [Optimización del marketing de cuentas](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
          + [Ampliación de cuentas clave](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
@@ -487,7 +487,7 @@ ht-degree: 93%
 + Labs {#labs}
    + [Guía del usuario de Labs](../labs/labs.md)
 
-+ Resolución de problemas {#troubleshooting}
++ Solución de problemas {#troubleshooting}
    + [Comparar datos](../troubleshooting/compare.md)
    + [Coherencia de métricas y audiencias](../troubleshooting/consistency-rcdp-cja.md)
    + [Falta de permisos](../troubleshooting/lack-of-permissions.md)
