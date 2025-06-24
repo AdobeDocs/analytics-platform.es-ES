@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0e508ce7-8f3b-41f1-808c-1348942c2716
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 70%
 
 {{upgrade-note-step}}
 
-Puede instalar manualmente Platform Web SDK agregando el código base directamente a cada página de la implementación.
+Puede instalar manualmente el SDK web de Platform añadiendo el código base directamente a cada página de la implementación.
 
-1. Siga los pasos de la sección [Opción 2: instalar la versión independiente prediseñada](https://experienceleague.adobe.com/es/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) en [Instalar Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/edge/fundamentals/installing-the-sdk) en la Guía de Web SDK.
+1. Siga los pasos de la sección [Opción 2: instalar la versión independiente prediseñada](https://experienceleague.adobe.com/es/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) en [Instalar SDK web](https://experienceleague.adobe.com/es/docs/experience-platform/edge/fundamentals/installing-the-sdk) en la Guía de SDK web.
 
 {{upgrade-final-step}}
 

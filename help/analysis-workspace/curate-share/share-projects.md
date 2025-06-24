@@ -6,9 +6,9 @@ feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
 source-git-commit: 1474a29dc9063ea65a78d34b3a2eb9861a71ee4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2091'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://video.tv.adobe.com/v/40033/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -100,7 +100,7 @@ Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 
 1. (Condicional) Si comparte un único proyecto, elija si desea activar las siguientes opciones al compartir el proyecto:
 
-   * **Compartir componentes del proyecto incrustados:** comparta segmentos, métricas calculadas e intervalos de fechas con todos los destinatarios. Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes de Workspace del destinatario. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
+   * **Compartir componentes del proyecto incrustados:** comparta segmentos, métricas calculadas e intervalos de fechas con todos los destinatarios. Después de compartirlos, estos componentes aparecerán en el menú desplegable Componentes de Workspace del destinatario. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
 
    * **Establecer como página de aterrizaje para destinatarios:** establece esta página como página de aterrizaje para destinatarios. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
 
@@ -133,7 +133,7 @@ Para compartir el vínculo del proyecto con los usuarios de su organización, ha
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
 >title="Requiere autenticación de Experience Cloud"
->abstract="Su organización requiere que los usuarios inicien sesión en Experience Cloud para poder usar este vínculo."
+>abstract="Su organización requiere que los usuarios inicien sesión en Experience Cloud para poder utilizar este vínculo."
 
 
 Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/view-only-projects.md) a proyectos de Analysis Workspace a las personas que no tienen acceso a Customer Journey Analytics. Esto puede incluir:
@@ -160,7 +160,7 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://video.tv.adobe.com/v/3452454/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -215,7 +215,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://video.tv.adobe.com/v/327499/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

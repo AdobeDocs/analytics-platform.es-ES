@@ -5,9 +5,9 @@ exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
 source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ Ahora puede crear y publicar audiencias que haya descubierto en Customer Journey
 
 La publicación de audiencias proporciona una manera clara de activar y realizar acciones relacionadas con la información contenida en Customer Journey Analytics. Estas acciones pueden incluir:
 
-* Uso de la audiencia para un recorrido en Adobe Journey Optimizer.
-Para obtener más información sobre el uso de audiencias publicadas en Experience Platform, consulte [Introducción a las audiencias](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) en la documentación de Journey Optimizer.
+* Uso del público para un recorrido en Adobe Journey Optimizer.
+Para obtener más información sobre el uso de públicos que se publican en Experience Platform, consulte [Introducción a los públicos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) en la documentación de Journey Optimizer.
 * Exportación de la audiencia a un tercero mediante un destino de Experience Platform.
 * Enriquecimiento del perfil del cliente en tiempo real con atributos útiles derivados de datos basados en eventos en Customer Journey Analytics.
-* Hacer todo esto con una latencia mínima después de publicar la audiencia.
-Para obtener más información, consulte [Consideraciones de latencia](/help/components/audiences/publish.md#latency-considerations) en [Crear y publicar audiencias](/help/components/audiences/publish.md).
+* Hacer todo esto con una latencia mínima después de la publicación del público.
+Para obtener más información, consulte [Consideraciones sobre la latencia](/help/components/audiences/publish.md#latency-considerations) en [Creación y publicación de públicos](/help/components/audiences/publish.md).
 * Publicación de audiencias únicas o recurrentes
 
 Las audiencias que cree en Customer Journey Analytics no tienen por qué basarse en conjuntos de datos habilitados para el perfil. Puede introducir datos históricos en Experience Platform sin habilitar los conjuntos de datos y esquemas asociados para el perfil. A continuación, utilice estos conjuntos de datos para detectar audiencias relevantes en Customer Journey Analytics y publicar estas audiencias en el Perfil del cliente en tiempo real en Experience Platform para su activación.

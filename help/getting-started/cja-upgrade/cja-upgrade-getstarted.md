@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ A continuación se indican algunas de las ventajas principales: (para obtener un
 
 * [Transformaciones en el tiempo del informe en vistas de datos](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md#customer-journey-analytics-data-views)
 
-  Las vistas de datos de Customer Journey Analytics le permiten interpretar aún más los datos de una conexión. Puede modificar o eliminar datos sin cambiar la implementación, utilizar subcadenas para manipular dimensiones, crear métricas a partir de cualquier valor, segmentar subeventos o utilizar campos derivados. Todas estas transformaciones se realizan de manera no destructiva. 
+  Las vistas de datos de Customer Journey Analytics le permiten interpretar aún más los datos de una conexión. Puede modificar o quitar datos sin cambiar su implementación, utilizar subcadenas para manipular dimensiones, crear métricas a partir de cualquier valor, segmentar subeventos, o usar campos derivados. Todas estas transformaciones se realizan de manera no destructiva. 
 
 * [Las transformaciones se aplican a datos nuevos e históricos](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
 

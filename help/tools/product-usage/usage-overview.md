@@ -3,9 +3,9 @@ title: Información general sobre el uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -131,6 +131,6 @@ El uso del producto no rastrea componentes individuales del proyecto cuando un p
 
 Hay disponible una [plantilla de Adobe](/help/analysis-workspace/templates/use-templates.md) que utiliza los componentes generados automáticamente a partir de esta característica.
 
-**[!UICONTROL Plantillas de Adobe]** > **[!UICONTROL Otras]** > **[!UICONTROL Descripción general del uso del producto]**
+**[!UICONTROL Plantillas de Adobe]** > **[!UICONTROL Otras]** > **[!UICONTROL Información general del uso del producto]**
 
-Seleccione la vista de datos que Uso del producto creó automáticamente en el selector de vista de datos y, a continuación, seleccione la plantilla **[!UICONTROL Resumen del uso del producto]**. Seleccione **[!UICONTROL Vista previa]** para ver qué paneles utiliza la plantilla y conocer los casos de uso ideales, o bien seleccione **[!UICONTROL Usar plantilla]** para abrirla en Analysis Workspace.
+Seleccione la vista de datos que Uso del producto creó automáticamente en el selector de vista de datos y, a continuación, seleccione la plantilla **[!UICONTROL Información general del uso del producto]**. Seleccione **[!UICONTROL Vista previa]** para ver qué paneles utiliza la plantilla y conocer los casos de uso ideales, o bien seleccione **[!UICONTROL Usar plantilla]** para abrirla en Analysis Workspace.

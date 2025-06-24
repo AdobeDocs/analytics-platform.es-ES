@@ -5,9 +5,9 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Si cuenta con acceso a [Vista de públicos](/help/technotes/access-control.md#us
 
 ## Buscar públicos en la lista de Públicos
 
-La lista Audiencias ➊ muestra las audiencias existentes.
+La lista de Públicos ➊ muestra los públicos existentes.
 
 ![Audience Manager](assets/audiences-manager.png)
 
@@ -80,9 +80,9 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las audiencias seleccionadas. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de audiencia *]**, seleccione etiquetas en el menú desplegable o escriba una o más etiquetas nuevas. Seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**&#x200B;para guardar. |
+| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las audiencias seleccionadas. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de público *]**, seleccione las etiquetas en el menú desplegable o escriba una o varias etiquetas nuevas. Seleccione**[!UICONTROL Guardar ]**para guardar. |
 | ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar las audiencias seleccionadas. |
-| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de la audiencia seleccionada. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de audiencia *]**&#x200B;para cambiar el nombre de la audiencia y seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**&#x200B;para guardar. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de la audiencia seleccionada. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de audiencia *]**para cambiar el nombre de la audiencia y seleccione**[!UICONTROL Guardar ]**para guardar. |
 
 Las siguientes acciones están disponibles en la barra de acciones azul al seleccionar uno o más proyectos programados.
 
@@ -94,7 +94,7 @@ Las siguientes acciones están disponibles en la barra de acciones azul al selec
 
 ## Filtrado de la lista de públicos
 
-Puede filtrar la [lista de audiencias](#audiences-list) mediante el panel de filtro ➋. Para mostrar u ocultar el panel de filtro, utilice ![Filtro](/help/assets/icons/Filter.svg).
+Puede filtrar la [Lista de públicos](#audiences-list) mediante el panel de filtro ➋. Para mostrar u ocultar el panel de filtro, utilice ![Filtro](/help/assets/icons/Filter.svg).
 
 ![Audience Manager](assets/audiences-manager.png)
 

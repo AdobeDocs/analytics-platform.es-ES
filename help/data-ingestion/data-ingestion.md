@@ -6,15 +6,15 @@ feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
 source-git-commit: 8071e8d5e1ab7e9cfc5037d710361a4d10285704
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Información general sobre la ingesta de datos
 
-Tiene varias opciones al ingerir datos en Customer Journey Analytics. En algunas de ellas se presupone que desea mover los datos tradicionales de Adobe Analytics, en otras se presupone que utiliza datos ingeridos en Adobe Experience Platform.
+Tiene varias opciones de ingesta de datos en Customer Journey Analytics. En algunas de ellas se presupone que desea mover los datos tradicionales de Adobe Analytics, en otras se presupone que utiliza datos ingeridos en Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ Tiene varias opciones al ingerir datos en Customer Journey Analytics. En algunas
 
 Consulte la arquitectura de Customer Journey Analytics de nivel general mostrada anteriormente en [Información general](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es):
 
-![Arquitectura de Customer Journey Analytics descrita en esta sección](./assets/cja-architecture.png)
+![Arquitectura de Customer Journey Analytics que se describe en esta sección](./assets/cja-architecture.png)
 
 El conjunto de datos de la arquitectura anterior puede proceder de varios orígenes:
 
@@ -32,9 +32,9 @@ El conjunto de datos de la arquitectura anterior puede proceder de varios oríge
 
 - datos de una implementación actual de Adobe Analytics,
 
-- datos de seguimiento de su sitio web/aplicación móvil mediante Adobe Experience Platform Web/Mobile SDK,
+- datos del seguimiento de su sitio web o aplicación móvil mediante el SDK móvil o web de Adobe Experience Platform,
 
-- datos de seguimiento de una aplicación de escritorio, un juego de consola, un decodificador o un dispositivo IoT mediante la API de servidor de Adobe Experience Platform Edge Network, o
+- datos de seguimiento de una aplicación de escritorio, un juego de consola, descodificador o dispositivo IoT mediante la API de servidor de Adobe Experience Platform Edge Network o
 
 - datos procedentes de un proveedor de datos de terceros para el que Adobe proporciona un conector de origen.
 
@@ -44,15 +44,15 @@ Esta sección de la documentación proporciona guías de inicio rápido para var
 
 ## Priorización y latencia de la ingesta
 
-Puede introducir los datos de evento en Customer Journey Analytics en un plazo de 90 minutos (SLT), independientemente de si los datos tienen 24 horas, 48 horas o 7 días.
+Ahora puede introducir los datos de evento en Customer Journey Analytics en un plazo de 90 minutos (SLT), independientemente de si los datos tienen 24 horas, 48 horas o 7 días de antigüedad.
 
 Tenga en cuenta que esta posibilidad difiere según el paquete de SKU que haya adquirido su compañía:
 
-- Ingesta de prioridad básica: datos de 24 horas de antigüedad en un procesamiento de SLT de 90 minutos (disponibles para **CJA Foundation** y **CJA Select**)
+- Ingesta de prioridades básica: datos de 24 horas de antigüedad dentro de un procesamiento SLT de 90 minutos (disponible para **CJA Foundation** y **CJA Select**)
 
-- Ingesta de prioridad intermedia: datos de 72 horas dentro del procesamiento SLT de 90 minutos (disponible para **CJA Prime**)
+- Ingesta de prioridades intermedia: datos de 72 horas de antigüedad dentro de un procesamiento SLT de 90 minutos (disponible para **CJA Prime**)
 
-- Ingesta de prioridad avanzada: datos de una semana de antigüedad en un procesamiento de SLT de 90 minutos (disponible para **CJA Ultimate**)
+- Ingesta de prioridades avanzada: datos de una semana de antigüedad dentro de un procesamiento SLT de 90 minutos (disponible para **CJA Ultimate**)
 
 ## Ingesta y uso de datos de Adobe Analytics tradicional
 
@@ -63,23 +63,23 @@ Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md)
 
 ## Ingesta y uso de datos mediante Edge Network
 
-### Uso de Adobe Experience Platform Web SDK
+### Uso del SDK web de Adobe Experience Platform
 
-Desea analizar su sitio web con tecnología de Adobe, con la posibilidad de migrar desde otra solución o empezar a rastrear el comportamiento de su persona. Quiere seguir las prácticas recomendadas de Adobe para la implementación, que consisten en utilizar los SDK de Adobe Experience Platform y Edge Network, para ingerir los datos. A continuación, puede utilizar, combinar y analizar los datos ingeridos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
+Quiere analizar su sitio web con la tecnología de Adobe, migrando potencialmente desde otra solución o iniciando el seguimiento del comportamiento de su visitante. Quiere seguir las prácticas recomendadas de Adobe para la implementación, que consisten en utilizar los SDK de Adobe Experience Platform y Edge Network, para ingerir los datos. A continuación, puede utilizar, combinar y analizar los datos ingeridos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
 
-Consulte [Ingesta y uso de datos mediante Adobe Experience Platform Web SDK](./aepwebsdk.md) para obtener más información.
+Consulte [Ingesta y uso de datos mediante el SDK web de Adobe Experience Platform](./aepwebsdk.md) para obtener más información.
 
-### Uso de Adobe Experience Platform Mobile SDK
+### Uso del SDK móvil de Adobe Experience Platform
 
-Desea analizar su aplicación móvil con tecnología de Adobe, con la posibilidad de migrar desde otra solución o empezar a rastrear el comportamiento de una persona en la aplicación desde cero. Quiere seguir las prácticas recomendadas de Adobe para la implementación, que consisten en utilizar los SDK de Adobe Experience Platform y Edge Network, para ingerir los datos. A continuación, puede utilizar, combinar y analizar los datos ingeridos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
+Quiere analizar su aplicación móvil con la tecnología de Adobe, migrando potencialmente desde otra solución o iniciando el seguimiento del comportamiento de su visitante en la aplicación desde cero. Quiere seguir las prácticas recomendadas de Adobe para la implementación, que consisten en utilizar los SDK de Adobe Experience Platform y Edge Network, para ingerir los datos. A continuación, puede utilizar, combinar y analizar los datos ingeridos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
 
-Consulte [Ingesta y uso de datos mediante Adobe Experience Platform Mobile SDK](./aepmobilesdk.md) para obtener más información.
+Consulte [Ingesta y uso de datos mediante el SDK móvil de Adobe Experience Platform](./aepmobilesdk.md) para obtener más información.
 
-### Uso de la API de servidor de Adobe Experience Platform Edge Network
+### Uso de la API del servidor de Adobe Experience Platform Edge Network
 
-Desea analizar la aplicación de escritorio, el juego tal como se juega en una consola de juegos, el uso de una aplicación de transmisión de vídeo en un decodificador o su dispositivo IoT con tecnología Adobe. Posible migración desde otra solución o inicio del seguimiento del comportamiento de una persona en estos dispositivos desde cero. Desea seguir las prácticas recomendadas de Adobe para la implementación de, que utiliza las API de servidor de Adobe Experience Platform Edge Network y Edge Network para la ingesta de datos. A continuación, puede utilizar, combinar y analizar los datos ingeridos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
+Quiere analizar la aplicación de escritorio o un juego tal como en una consola de juegos, el uso de una aplicación de streaming de vídeo en un descodificador o su dispositivo IoT con tecnología Adobe. Migrando posiblemente desde otra solución o inicio del seguimiento del comportamiento de un visitante en estos dispositivos desde cero. Quiere seguir las prácticas recomendadas de Adobe para la implementación, que consisten en utilizar las API del servidor Adobe Experience Platform Edge Network y Edge Network, para la ingesta de datos. A continuación, puede utilizar, combinar y analizar los datos ingeridos con datos de otros canales y fuentes de datos en Customer Journey Analytics.
 
-Consulte [Ingesta y uso de datos mediante la API de servidor de Adobe Experience Platform Edge Network](./serverapi.md) para obtener más información.
+Consulte [Ingesta y uso de datos mediante la API del servidor de Adobe Experience Platform Edge Network](./serverapi.md) para obtener más información.
 
 ## Ingesta y uso de datos por lotes
 
@@ -101,5 +101,5 @@ Consulte [Ingesta y uso de datos mediante conectores de origen](./sources.md) pa
 
 >[!MORELIKETHIS]
 >
->Blog: [Un vistazo más de cerca al procesamiento y la ingesta de datos en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=es)
+>Blog: [Análisis detallado del procesamiento y la ingesta de datos en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 

@@ -1,24 +1,24 @@
 ---
-title: Información general de dimensiones
-description: Descubra cuáles son las dimensiones y cómo se utilizan en Customer Journey Analytics
+title: Información general sobre las dimensiones
+description: Descubra qué son las dimensiones y cómo se utilizan en Customer Journey Analytics
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
 source-git-commit: 6cabedc5ed58dac450577fc3505be5f95b7a959d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
-# Información general de dimensiones
+# Información general sobre las dimensiones
 
-Las dimensiones son un tipo de componente en Customer Journey Analytics que se utiliza para analizar datos. Por ejemplo, usa dimensiones al crear informes en [Analysis Workspace](/help/analysis-workspace/home.md) o en [Report Builder](/help/report-builder/rb-overview.md).
+Las dimensiones son un tipo de componente en Customer Journey Analytics que se utiliza para analizar datos. Por ejemplo, use dimensiones para crear informes en [Analysis Workspace](/help/analysis-workspace/home.md) o en [Report Builder](/help/report-builder/rb-overview.md).
 
-Las dimensiones de Customer Journey Analytics son de tipo ilimitado; los valores pueden ser numéricos, de texto, de objetos, de listas o de mezclas de todos.
+Las dimensiones de Customer Journey Analytics son ilimitadas; los valores pueden ser numéricos, de texto, objetos, listas o combinaciones de todos ellos.
 
 Un informe básico en Customer Journey Analytics muestra filas de dimensiones (normalmente valores de cadena) frente a una columna de métricas (normalmente valores numéricos).
 
-Por ejemplo, si combina la dimensión Página con la métrica Personas, obtendrá un informe de clasificación que muestre las páginas más visitadas por las personas:
+Por ejemplo, si combina la dimensión Página con la métrica Personas, obtendría un informe de clasificación que mostraría las páginas más visitadas por personas:
 
 | Página | Personas |
 | --- | ---: |
@@ -44,10 +44,10 @@ Al crear una vista de datos, los siguientes componentes se añaden de forma pred
 
 ## Agregar descripciones de dimensión
 
-Los administradores de Customer Journey Analytics pueden agregar descripciones para dimensiones y otros componentes dentro de la vista de datos o directamente en Analysis Workspace. Para obtener información acerca de cómo añadir descripciones a dimensiones, consulte [Adición de descripciones de componentes](/help/components/add-component-descriptions.md).
+Los administradores de Customer Journey Analytics pueden añadir descripciones para dimensiones y otros componentes tanto dentro de la vista de datos como directamente dentro de Analysis Workspace. Para obtener información acerca de cómo añadir descripciones a dimensiones, consulte [Adición de descripciones de componentes](/help/components/add-component-descriptions.md).
 
 >[!MORELIKETHIS]
 >
->[Descubra información más detallada del cliente con la función de profundidad de evento](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=es#M576)
+>[Descubra datos del cliente más detallados con la función de profundidad de evento](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >
 
