@@ -23,7 +23,7 @@ La arquitectura de Customer Journey Analytics de alto nivel se muestra aquí:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis del recorrido del cliente: análisis de la experiencia empresarial](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"} para ver un vídeo introductorio de Customer Journey Analytics.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis del recorrido del cliente: análisis de la experiencia empresarial](https://video.tv.adobe.com/v/36226/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo introductorio de Customer Journey Analytics.
 
 >[!ENDSHADEBOX]
 
@@ -93,13 +93,13 @@ Desde la ingesta de datos hasta el acceso directo a SQL, varios componentes de E
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajar con datos en Customer Journey Analytics](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"} para ver un vídeo introductorio sobre cómo trabajar con datos en Customer Journey Analytics.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajar con datos en Customer Journey Analytics](https://video.tv.adobe.com/v/36019/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo introductorio sobre cómo trabajar con datos en Customer Journey Analytics.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arquitectura e integración](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"} para ver un vídeo introductorio sobre la arquitectura y la integración de Customer Journey Analytics.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arquitectura e integración](https://video.tv.adobe.com/v/330412/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo introductorio sobre la arquitectura y la integración de Customer Journey Analytics.
 
 >[!ENDSHADEBOX]
 
