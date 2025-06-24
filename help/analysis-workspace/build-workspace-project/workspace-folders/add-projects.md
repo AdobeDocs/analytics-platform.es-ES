@@ -1,13 +1,13 @@
 ---
 description: Aprenda a añadir o mover carpetas en Workspace
 keywords: Analysis Workspace
-title: Añadir o mover carpetas
+title: Agregar o mover proyectos a carpetas
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '260'
 ht-degree: 93%
 
 ---

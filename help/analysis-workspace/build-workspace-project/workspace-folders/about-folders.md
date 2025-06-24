@@ -5,16 +5,16 @@ title: Información general de carpetas
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 8571fbcfddd18658306e264cef88a3f10861e069
-workflow-type: ht
-source-wordcount: '416'
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+workflow-type: tm+mt
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
 
-# Use las carpetas en Analysis Workspace
+# Información general de carpetas
 
-Las carpetas de Customer Journey Analytics están disponibles en la página de aterrizaje de Workspace cuando has seleccionado [Mostrar carpetas y proyectos](../freeform-overview.md#show-selector).
+Las carpetas de Customer Journey Analytics están disponibles en la página de destino de Workspace cuando has seleccionado [Mostrar carpetas y proyectos](../freeform-overview.md#show-selector).
 
 Las carpetas de Workspace ayudan a organizar y clasificar sus proyectos. Con la funcionalidad de carpetas, puedes crear carpetas y subcarpetas para administrar tus proyectos.
 

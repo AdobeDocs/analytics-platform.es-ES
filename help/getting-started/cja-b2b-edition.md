@@ -6,10 +6,10 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: a2aea32eb14462ee2041405394afa6bd0c484e8d
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 98%
+source-wordcount: '472'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 98%
 
 Adobe Analytics comenzó como una herramienta de análisis digital y web para especialistas en marketing, mientras que Customer Journey Analytics amplió el ámbito para incluir datos de varios canales, sin conexión y multiplataforma.  Ambas herramientas ayudan a las empresas B2C a analizar y optimizar sus esfuerzos de marketing y las experiencias de los clientes. Y céntrese en **informes y análisis basados en personas**: comprenda el recorrido del cliente, en el que el cliente es una persona que interactúa con su marca en varios canales.
 
-Customer Journey Analytics B2B Edition añade **análisis e informes basados en cuentas**. En las ventas B2B (de empresa a empresa), el recorrido de compra incluye varias partes, puntos de contacto en línea y sin conexión y etapas clave antes de cerrar una operación. Las empresas B2B necesitan realizar un seguimiento de todas estas interacciones en una vista de recorrido unificada para analizar y optimizar de forma eficaz sus esfuerzos de marketing y experiencias de cuenta.
+![Imagen a pantalla completa B2B](assets/b2b-image.png)
+Customer Journey Analytics B2B edition agrega **análisis e informes basados en cuentas**. En las ventas B2B (de empresa a empresa), el recorrido de compra incluye varias partes, puntos de contacto en línea y sin conexión y etapas clave antes de cerrar una operación. Las empresas B2B necesitan realizar un seguimiento de todas estas interacciones en una vista de recorrido unificada para analizar y optimizar de forma eficaz sus esfuerzos de marketing y experiencias de cuenta.
 
 Las características típicas de las ventas B2B son:
 
@@ -43,7 +44,7 @@ Customer Journey Analytics B2B Edition ayuda a las empresas B2B a alinear sus eq
 >[!MORELIKETHIS]
 >
 >[Conceptos y funciones de B2B](cja-b2b-concepts-features.md)
->&#x200B;>[Guía de inicio rápido B2B](cja-b2b-quick-start-guide.md)
->&#x200B;>[Guía de transición B2B](cja-b2b-transition.md)
->&#x200B;>[Casos de uso B2B](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+>>[Guía de inicio rápido B2B](cja-b2b-quick-start-guide.md)
+>>[Guía de transición B2B](cja-b2b-transition.md)
+>>[Casos de uso B2B](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
 >
