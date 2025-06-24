@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: e653cbe7c1955d04830b9ed9ff6399973036ab64
+exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
+source-git-commit: 5a0cb6fa221282b70df5efb58362855ff58f76b8
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 38%
 
 ---
-
 
 # Programar libros exportándolos a destinos en la nube
 
@@ -35,7 +35,7 @@ Utilice el siguiente proceso al exportar libros de Report Builder a la nube:
 
 ![Proceso de exportación descrito en los pasos del 1 al 4.](assets/report-builder-export-process.png)
 
-## Exportación de un informe desde Report Builder {#export-from-report-builder}
+## Exportación de un informe desde Report Builder
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Para exportar informes desde Report Builder:
 
 Una vez exportados los datos desde Analysis Workspace, puede editar, volver a exportar, duplicar, etiquetar o eliminar las exportaciones existentes, tal como se describe en [Administración de exportaciones](/help/components/exports/manage-exports.md).
 
-## Ventajas de exportar a la nube {#advantages}
+## Ventajas de exportar a la nube
 
 Exportar los datos de Customer Journey Analytics a la nube le permite:
 
@@ -119,6 +119,3 @@ Asegúrese de que los bloques de datos, el entorno y los permisos cumplan los si
 * **Bloques de datos:** Todos los bloques de datos deben incluir al menos un componente en una columna, fila o valor.
 
 * **Entorno:** asegúrese de que las [direcciones IP](/help/technotes/ip-addresses.md) y los [dominios](/help/technotes/domains.md) utilizados por Customer Journey Analytics tengan permiso para pasar a través del firewall de su organización.
-
-
-
