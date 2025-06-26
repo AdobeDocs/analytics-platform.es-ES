@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 7bf74e02db581bdf11b7efe31b62f018320c7f22
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '648'
 ht-degree: 97%
 
 ---
@@ -40,9 +40,8 @@ La siguiente información describe la configuración que utiliza un componente d
 | Configuración | Descripción/caso de uso |
 | --- | --- |
 | [!UICONTROL Tipo de componente] | Requerido. Permite cambiar un componente de Métrica a Dimensión o viceversa. Si se cambia esta lista desplegable, el componente pasará al área de componentes incluidos correspondiente. |
-| [!UICONTROL Nombre del componente] | Requerido. Permite especificar el nombre descriptivo que aparecerá en Analysis Workspace. Puede cambiar el nombre de un componente para darle un nombre específico para la vista de datos. |
+| [!UICONTROL Nombre del componente] | Obligatorio. Permite especificar el nombre descriptivo que aparecerá en Analysis Workspace. Puede cambiar el nombre de un componente para darle un nombre específico para la vista de datos. |
 | [!UICONTROL Descripción] | Opcional, pero recomendada. Proporciona información sobre el componente a otros usuarios. |
-| [!UICONTROL Etiquetas] | Opcional. Le permite etiquetar el componente con etiquetas personalizadas o listas para usar para facilitar la búsqueda y el filtrado en la IU de Analysis Workspace. |
 | [!UICONTROL Etiquetas de contexto] | Opcional. Un menú desplegable de etiquetas definidas por el sistema disponibles que se pueden aplicar a un componente. <p>Estas etiquetas pueden ser necesarias en las siguientes situaciones:</p> <ul><li>Para definir un conjunto de componentes que puede utilizar en los informes de experimentación utilizando el [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md) en los proyectos de Analysis Workspace.<p>Para obtener más información, consulte [Integración con Journey Optimizer](/help/integrations/ajo.md#data-view) e [Creación de informes de Target](/help/integrations/at.md) para obtener más información.</p></li><li>Al utilizar plantillas que proporciona Adobe. De forma predeterminada, algunas plantillas que proporciona Adobe no funcionarán porque contienen componentes que no están en la vista de datos.<p>Para cada componente que falta, existe una etiqueta de contexto coincidente disponible en la vista de datos. Debe añadir la etiqueta de contexto coincidente a un componente que ya está en la vista de datos o añadir uno nuevo a la vista de datos y añadirle la etiqueta de contexto.</p><p>Para obtener más información, consulte [Añadir componentes que faltan a la vista de datos para una plantilla determinada](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) en el artículo [Creación y administración de plantillas](/help/analysis-workspace/templates/create-templates.md).</p> |
 | [!UICONTROL Nombre del campo de esquema] | Nombre del campo de esquema. |
 | [!UICONTROL Tipo de conjunto de datos] | Requerido. Campo no editable que muestra el tipo de conjunto de datos (evento, búsqueda o perfil) del que procede el componente. |
@@ -59,7 +58,7 @@ La siguiente información describe la configuración que utiliza un componente d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://video.tv.adobe.com/v/3412934/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -5,14 +5,14 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 029a7ebb10ac9daf4c4b121efa85042d6da22316
+source-git-commit: 7bf74e02db581bdf11b7efe31b62f018320c7f22
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 91%
+source-wordcount: '2359'
+ht-degree: 75%
 
 ---
 
-# Visualización de datos con Data Insights Agent en Customer Journey Analytics
+# Visualización de datos con Data Insights Agent
 
 >[!AVAILABILITY]
 >
@@ -39,7 +39,7 @@ El uso de Data Insights Agent para responder a preguntas centradas en los datos 
 | **Mecanismos de comentarios** | <ul><li>Pulgares hacia arriba</li><li>Pulgares hacia abajo</li><li>Indicador</li></ul> |  |
 
 
-## Administración del acceso a Data Insights Agent en Customer Journey Analytics
+## Administración del acceso a Data Insights Agent
 
 Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Journey Analytics:
 
@@ -229,3 +229,24 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 -->
 
+
+## Prácticas recomendadas de configuración
+
+A continuación se describen las prácticas recomendadas para la configuración de Customer Journey Analytics (vista de datos, métricas calculadas, segmentos, etc.) con el fin de garantizar que Data Insights Agent pueda localizar los componentes correctos y devolver respuestas más limpias sin que se le pida información adicional.
+
+* **Equilibre los componentes que necesita**. No agregue todos los campos de los conjuntos de datos como métricas o componentes de dimensión a la vista de datos. En especial, aquellos que, con toda seguridad, no usará en su análisis. Por otro lado, no se limite estrictamente a los campos que prevé que necesite para el análisis. Una vista de datos demasiado limitada restringe la flexibilidad del análisis y la funcionalidad del agente de Data Insight.
+* **Use siempre nombres descriptivos para mostrar**. Asegúrese de que todos los campos que defina en la vista de datos, ya sea como métricas o como componentes de dimensión, tengan un nombre de componente descriptivo. El proceso de cambiar el nombre de los campos con un nombre descriptivo es especialmente relevante para los campos de conjuntos de datos del conector de origen de Adobe Analytics. Estos campos a menudo tienen nombres no descriptivos no identificables como `eVar41` o `prop25`.
+* **Use nombres distintivos**. Los nombres distintivos son especialmente relevantes cuando se utiliza un campo como métrica y como componente de dimensión en la vista de datos. O cuando se utiliza un campo en varios componentes, cada uno con una configuración de componente diferente.
+* **Use una convención de nomenclatura de componentes**. Puede utilizar una convención de nombres de componentes para agrupar componentes. Por ejemplo, **[!UICONTROL Pedidos |]** y **[!UICONTROL pedidos del producto | Customer]** para distinguir entre distintas métricas de pedidos que podrían existir en sus datos.
+* **Usar el diccionario de datos**. Agregue una descripción y otros datos relevantes para los componentes del diccionario de datos. En este momento, el agente de Data Insight no utiliza descripciones ni etiquetas. pero podría utilizar la descripción y las etiquetas del diccionario de datos en el futuro.
+* **Usar métricas calculadas aprobadas**. Acuerde un proceso para utilizar solamente métricas calculadas aprobadas como componentes en la vista de datos y evitar el uso de métricas calculadas experimentales.
+* **Comparta los segmentos necesarios**. Asegúrese de compartir segmentos y hacer visibles los segmentos necesarios para las solicitudes del agente de Data Insights.
+* **Estandarizar nombres de componentes en vistas de datos**. Si utiliza los mismos campos como componente en varias vistas de datos, asegúrese de utilizar un solo nombre descriptivo y un único identificador para ese componente. Un nombre e identificador únicos permiten al agente de Data Insights cambiar de vista de datos sin perder contexto.
+
+>[!MORELIKETHIS]
+>
+>[Configuración de componentes](/help/data-views/component-settings/overview.md)
+>>[Diccionario de datos ](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Aprobar métrica calculada](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Compartir segmentos](/help/components/segments/seg-share.md)
+>
