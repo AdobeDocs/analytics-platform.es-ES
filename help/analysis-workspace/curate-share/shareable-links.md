@@ -5,16 +5,16 @@ title: Crear vínculos que se pueden compartir
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 61%
+source-wordcount: '369'
+ht-degree: 58%
 
 ---
 
 # Crear vínculos que se pueden compartir
 
-Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en el Customer Journey Analytics antes de acceder al proyecto, mientras que otros no.
+Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en Customer Journey Analytics antes de acceder al proyecto, mientras que otros no.
 
 ## Obtener un vínculo de proyecto para compartir con otros usuarios de Workspace {#project-link}
 
@@ -26,7 +26,7 @@ Si el destinatario del vínculo no se ha asignado a [función de proyecto](/help
 
 Puede compartir un vínculo de solo lectura a proyectos de Analysis Workspace con personas que no tengan acceso a Customer Journey Analytics.
 
-Para obtener más información, consulte “Compartir un proyecto con alguien (no se requiere inicio de sesión)” en el artículo [Compartir proyectos](/help/analysis-workspace/curate-share/share-projects.md).
+Para obtener más información, vea [Compartir con alguien](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required).
 
 ## Obtener un panel o un vínculo de visualización {#panel-link}
 
@@ -37,7 +37,7 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
 
-![Menú desplegable después de hacer clic con el botón secundario en el encabezado con el vínculo Obtener visualización resaltado.](assets/get-viz-link.png)
+![Menú desplegable después de hacer clic con el botón secundario en el encabezado con el vínculo Obtener visualización resaltado.](assets/get-visualization-link.png)
 
 ## Uso de vínculos en una tabla de contenido {#TOC}
 

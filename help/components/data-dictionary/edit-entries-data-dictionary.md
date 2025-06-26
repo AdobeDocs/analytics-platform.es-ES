@@ -4,10 +4,10 @@ title: Editar entradas de componente
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 66%
+source-wordcount: '1254'
+ht-degree: 67%
 
 ---
 
@@ -35,24 +35,30 @@ Para editar un componente en el diccionario de datos:
 
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Aprobado**] | Mostrar solo los componentes marcados como Aprobado por un administrador. |
-   | [!UICONTROL **Favoritos**] | Mostrar solo los componentes que se encuentran en la lista de Favoritos. Para obtener información acerca de cómo añadir componentes a la lista de favoritos, consulte [Información general sobre componentes](/help/components/overview.md). |
-   | [!UICONTROL **Dimensiones**] | Mostrar solo los componentes que son dimensiones. (Esta opción también está disponible en la pestaña [!UICONTROL **Segmentos rápidos**] al acceder por primera vez al diccionario de datos). |
-   | [!UICONTROL **Métricas**] | Mostrar solo los componentes que son métricas. (Esta opción también está disponible en la pestaña [!UICONTROL **Segmentos rápidos**] al acceder por primera vez al diccionario de datos). |
-   | [!UICONTROL **Segmentos**] | Mostrar solo los componentes que son segmentos. (Esta opción también está disponible en la pestaña [!UICONTROL **Segmentos rápidos**] al acceder por primera vez al diccionario de datos). |
-   | [!UICONTROL **Intervalos de fechas**] | Mostrar solo los componentes que son intervalos de fechas. (Esta opción también está disponible en la pestaña [!UICONTROL **Segmentos rápidos**] al acceder por primera vez al diccionario de datos). |
-   | [!UICONTROL **Mostrar todo**] | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
-   | [!UICONTROL **No aprobado**] | Mostrar solo los componentes que aún no están marcados como Aprobado por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |
-   | [!UICONTROL **Falta la descripción**] | Mostrar solo los componentes que aún no tienen descripción en el campo Descripción. Esta opción solo está disponible para administradores. |
-   | [!UICONTROL **Mostrar duplicados**] | Mostrar solo los componentes que tienen el mismo nombre o la misma descripción que otro componente en la vista de datos seleccionada. Esto incluye tanto los componentes que crea como los que proporciona Adobe. Los nombres o las descripciones deben coincidir de forma exacta para mostrarlos como duplicados. Esta opción solo está disponible para administradores. |
-   | [!UICONTROL **No hay datos recientes**] | Mostrar solo los componentes que no han recopilado ningún dato en los últimos 90 días. Esta opción solo está disponible para administradores. |
-   | [!UICONTROL **Creado por Adobe**] <!-- I don't see this option--> | Mostrar solo los componentes creados por Adobe. No se muestran los componentes creados por un administrador u otro usuario de su organización. |
+   | **[!UICONTROL Aprobado]** | Mostrar solo los componentes marcados como Aprobado por un administrador. |
+   | **[!UICONTROL Favoritos]** | Mostrar solo los componentes que se encuentran en la lista de Favoritos. Para obtener información acerca de cómo añadir componentes a la lista de favoritos, consulte [Información general sobre componentes](/help/components/overview.md). |
+   | **[!UICONTROL Dimensiones]** | Mostrar solo los componentes que son dimensiones. (Esta opción también está disponible en la pestaña **[!UICONTROL Segmentos rápidos]** al acceder por primera vez al diccionario de datos). |
+   | **[!UICONTROL Métricas]** | Mostrar solo los componentes que son métricas. (Esta opción también está disponible en la pestaña **[!UICONTROL Segmentos rápidos]** al acceder por primera vez al diccionario de datos). |
+   | **[!UICONTROL Segmentos]** | Mostrar solo los componentes que son segmentos. (Esta opción también está disponible en la pestaña **[!UICONTROL Segmentos rápidos]** al acceder por primera vez al diccionario de datos). |
+   | **[!UICONTROL Intervalos de fechas]** | Mostrar solo los componentes que son intervalos de fechas. (Esta opción también está disponible en la pestaña **[!UICONTROL Segmentos rápidos]** al acceder por primera vez al diccionario de datos). |
+   | **[!UICONTROL Mostrar todo]** | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
+   | **[!UICONTROL No aprobado]** | Mostrar solo los componentes que aún no están marcados como Aprobado por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |
+   | **[!UICONTROL Falta la descripción]** | Mostrar solo los componentes que aún no tienen descripción en el campo Descripción. Esta opción solo está disponible para administradores. |
+   | **[!UICONTROL Mostrar duplicados]** | Mostrar solo los componentes que tienen el mismo nombre o la misma descripción que otro componente en la vista de datos seleccionada. Esto incluye tanto los componentes que crea como los que proporciona Adobe. Los nombres o las descripciones deben coincidir de forma exacta para mostrarlos como duplicados. Esta opción solo está disponible para administradores. |
+   | **[!UICONTROL No hay datos recientes]** | Mostrar solo los componentes que no han recopilado ningún dato en los últimos 90 días. Esta opción solo está disponible para administradores. |
+   | **[!UICONTROL Creado por Adobe]** <!-- I don't see this option--> | Mostrar solo los componentes creados por Adobe. Por ejemplo, **[!UICONTROL Adobe Target]**. No se muestran los componentes creados por un administrador u otro usuario de su organización. |
 
    {style="table-layout:auto"}
 
 1. (Opcional) Seleccione el icono **Sort** ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) y, a continuación, seleccione cualquiera de las siguientes opciones de segmento para ordenar la lista de componentes:
 
-{{components-sort-options}}
+   | Opción | Función |
+   |---------|----------|
+   | [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados en la parte superior de la lista. Los componentes que usted u otras personas de su organización utilizan con más frecuencia y más recientemente aparecen en la parte superior de la lista. |
+   | [!UICONTROL **Alfabético**] | Ordena los componentes alfabéticamente. |
+   | [!UICONTROL **Categórica**] | Ordena los componentes según su tipo (dimensión, métrica, segmento, intervalo de fecha). |
+
+   {style="table-layout:auto"}
 
 1. En la lista de componentes, seleccione el componente que desea editar.
 
@@ -62,17 +68,17 @@ Para editar un componente en el diccionario de datos:
 
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Aprobado**] | <p>Indica que el administrador revisó y aprobó el componente.</p><p>Los administradores ven una opción para [!UICONTROL **Desaprobar**]. Al seleccionar esta opción, se marca el componente como &quot;No aprobado&quot; para los usuarios.</p> |
-   | [!UICONTROL **No aprobado**] | <p>Indica que el administrador aún no ha revisado y aprobado el componente.</p><p>Los administradores ven la opción para [!UICONTROL **Aprobar**]. Al seleccionar esta opción, el componente se marca como “Aprobado” para los usuarios.</p> |
-   | [!UICONTROL **Descripción**] | Describe la función deseada del componente. (El administrador de Analytics agrega esta información, tal como se describe en [Adición de descripciones de componentes](/help/components/add-component-descriptions.md)). |
-   | [!UICONTROL **Usado frecuentemente con**] | <p>Muestra los componentes que se utilizan con más frecuencia con el componente que está viendo.</p><p>Se muestran hasta 5 componentes en los 5 tipos de componentes principales: métrica, métrica calculada, dimensión, segmento e intervalo de fecha.</p><p>Esta lista se basa en los datos de los últimos 90 días. Solo se muestran los componentes a los que tiene acceso de vista.</p><p>Los administradores pueden depurar los componentes que los usuarios ven en esta sección al seleccionar los componentes deseados en los campos desplegables [!UICONTROL **Incluir siempre**] y [!UICONTROL **Excluir siempre**]. Antes de depurar los componentes que ven los usuarios, aplique el segmento **Mostrar todo** para asegurarse de que ve los componentes que no se han compartido con usted y que otro administrador podría haber agregado.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p> |
-   | [!UICONTROL **Similar a**] | <p>Muestra componentes con nombres similares al componente que está viendo.</p><p>Se muestran hasta 5 componentes en los 5 tipos de componentes principales: métrica, métrica calculada, dimensión, segmento e intervalo de fecha.</p><p>Solo se muestran los componentes a los que tiene acceso de vista.</p><p>Aquí se mostrará cualquier componente duplicado de la vista de datos. Los administradores de Analytics deben identificar y eliminar todos los componentes duplicados, tal como se describe en [Monitorización del estado del diccionario de datos](/help/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Los administradores pueden depurar los componentes que los usuarios ven en esta sección seleccionando los componentes deseados en los campos desplegables [!UICONTROL **Incluir siempre**] y [!UICONTROL **Excluir siempre**]. Antes de depurar los componentes que ven los usuarios, aplique el segmento **Mostrar todo** para asegurarse de que ve los componentes que no se han compartido con usted y que otro administrador podría haber agregado.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p><p>**Nota:** Actualmente, la sección **Similar a** incluye solo los componentes que crea y no los proporcionados por Adobe. En una versión futura se agregarán componentes proporcionados por Adobe.</p> |
-   | [!UICONTROL **Compatibilidad del producto**] | Indica en qué parte de Customer Journey Analytics se puede utilizar esta métrica calculada. <p>Los valores posibles son:</p><ul><li>[!UICONTROL **En cualquier lugar de Customer Journey Analytics**]: la métrica calculada se puede usar en todo Customer Journey Analytics, incluso en Analysis Workspace, Report Builder, etc.</li><li>[!UICONTROL **En cualquier lugar de Customer Journey Analytics (excepto en experimentación)**]: la métrica calculada se puede usar en todo Customer Journey Analytics, excepto en el panel Experimentación.</li> <p>Para obtener información acerca de los criterios que determinan si se puede usar una métrica calculada con experimentación, consulte [Usar métricas calculadas en el panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel) en [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md).</p></ul> |
-   | [!UICONTROL **Etiquetas**] | Muestra todas las etiquetas aplicadas al componente. Los usuarios con acceso de administrador pueden añadir etiquetas al editar el componente. |
-   | [!UICONTROL **Tipo de componente**] | Muestra el tipo de componente que es, ya sea una dimensión, una métrica, un segmento o un intervalo de fecha. |
-   | [!UICONTROL **Creado por**] | Muestra el nombre del usuario que ha creado el componente. |
-   | [!UICONTROL **Vista previa**] | Muestra una vista previa del aspecto del componente en Analysis Workspace. |
-   | [!UICONTROL **Fecha de la última modificación**] | Muestra el día en que se modificó por última vez el componente. Esta sección se muestra cuando se visualizan segmentos, métricas, métricas calculadas e intervalos de fechas. |
+   | **[!UICONTROL Aprobado]** | <p>Indica que el administrador revisó y aprobó el componente.</p><p>Los administradores ven una opción para **[!UICONTROL Desaprobar]**. Al seleccionar esta opción, se marca el componente como &quot;No aprobado&quot; para los usuarios.</p> |
+   | **[!UICONTROL No aprobado]** | <p>Indica que el administrador aún no ha revisado y aprobado el componente.</p><p>Los administradores ven la opción para **[!UICONTROL Aprobar]**. Al seleccionar esta opción, el componente se marca como “Aprobado” para los usuarios.</p> |
+   | **[!UICONTROL Descripción]** | Describe la función deseada del componente. (El administrador de Analytics agrega esta información, tal como se describe en [Adición de descripciones de componentes](/help/components/add-component-descriptions.md)). |
+   | **[!UICONTROL Usado frecuentemente con]** | <p>Muestra los componentes que se utilizan con más frecuencia con el componente que está viendo.</p><p>Se muestran hasta 5 componentes en los 5 tipos de componentes principales: métrica, métrica calculada, dimensión, segmento e intervalo de fecha.</p><p>Esta lista se basa en los datos de los últimos 90 días. Solo se muestran los componentes a los que tiene acceso de vista.</p><p>Los administradores pueden depurar los componentes que los usuarios ven en esta sección al seleccionar los componentes deseados en los campos desplegables **[!UICONTROL Incluir siempre]** y **[!UICONTROL Excluir siempre]**. Antes de depurar los componentes que ven los usuarios, aplique el segmento **Mostrar todo** para asegurarse de que ve los componentes que no se han compartido con usted y que otro administrador podría haber agregado.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p> |
+   | **[!UICONTROL Similar a]** | <p>Muestra componentes con nombres similares al componente que está viendo.</p><p>Se muestran hasta 5 componentes en los 5 tipos de componentes principales: métrica, métrica calculada, dimensión, segmento e intervalo de fecha.</p><p>Solo se muestran los componentes a los que tiene acceso de vista.</p><p>Aquí se mostrará cualquier componente duplicado de la vista de datos. Los administradores de Analytics deben identificar y eliminar todos los componentes duplicados, tal como se describe en [Monitorización del estado del diccionario de datos](/help/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Los administradores pueden depurar los componentes que los usuarios ven en esta sección seleccionando los componentes deseados en los campos desplegables **[!UICONTROL Incluir siempre]** y **[!UICONTROL Excluir siempre]**. Antes de depurar los componentes que ven los usuarios, aplique el segmento **Mostrar todo** para asegurarse de que ve los componentes que no se han compartido con usted y que otro administrador podría haber agregado.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p><p>**Nota:** Actualmente, la sección **Similar a** incluye solo los componentes que crea y no los proporcionados por Adobe. En una versión futura se agregarán componentes proporcionados por Adobe.</p> |
+   | **[!UICONTROL Compatibilidad del producto]** | Indica en qué parte de Customer Journey Analytics se puede utilizar esta métrica calculada. <p>Los valores posibles son:</p><ul><li>**[!UICONTROL En cualquier lugar de Customer Journey Analytics]**: la métrica calculada se puede usar en todo Customer Journey Analytics, incluso en Analysis Workspace, Report Builder, etc.</li><li>**[!UICONTROL En cualquier lugar de Customer Journey Analytics (excepto en experimentación)]**: la métrica calculada se puede usar en todo Customer Journey Analytics, excepto en el panel Experimentación.</li> <p>Para obtener información acerca de los criterios que determinan si se puede usar una métrica calculada con experimentación, consulte [Usar métricas calculadas en el panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel) en [Panel de experimentación](/help/analysis-workspace/c-panels/experimentation.md).</p></ul> |
+   | **[!UICONTROL Etiquetas]** | Muestra todas las etiquetas aplicadas al componente. Los usuarios con acceso de administrador pueden añadir etiquetas al editar el componente. |
+   | **[!UICONTROL Tipo de componente]** | Muestra el tipo de componente que es, ya sea una dimensión, una métrica, un segmento o un intervalo de fecha. |
+   | **[!UICONTROL Creado por]** | Muestra el nombre del usuario que ha creado el componente. |
+   | **[!UICONTROL Vista previa]** | Muestra una vista previa del aspecto del componente en Analysis Workspace. |
+   | **[!UICONTROL Fecha de la última modificación]** | Muestra el día en que se modificó por última vez el componente. Esta sección se muestra cuando se visualizan segmentos, métricas, métricas calculadas e intervalos de fechas. |
 
    {style="table-layout:auto"}
 
