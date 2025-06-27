@@ -1,49 +1,36 @@
 ---
-description: La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde a una visualización.
+description: Obtenga información sobre cómo sincronizar una tabla de forma libre o una fuente de datos con la visualización correspondiente.
 keywords: Analysis Workspace;Sincronizar visualización con fuente de datos
-title: Administración de fuentes de datos
+title: Administrar fuentes de datos
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: 8f9c03607130bdeaf6cb7a32d8dd465712a47ea5
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 96%
+source-wordcount: '436'
+ht-degree: 89%
 
 ---
 
 # Administración de fuentes de datos {#manage-data-sources}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection"
 >title="Bloquear selección"
 >abstract="Active esta configuración para bloquear la visualización en las posiciones o en los elementos seleccionados de la fuente de datos."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="Mostrar tabla"
 >abstract="Si se selecciona **[!UICONTROL Mostrar tabla]**, se generará un nuevo origen de datos para la visualización actual, independiente del origen de datos original."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
 >title="Mostrar tabla"
 >abstract="Seleccione **[!UICONTROL Mostrar tabla]** para generar una nueva fuente de datos para la visualización actual, independiente de la fuente de datos original."
 
-<!-- markdownlint-enable MD034 -->
 
-
-
-La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde a una visualización.
+La sincronización de visualizaciones le permite controlar qué tabla de forma libre o fuente de datos corresponde con una visualización.
 
 >[!TIP]
 >

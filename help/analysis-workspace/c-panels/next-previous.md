@@ -1,19 +1,17 @@
 ---
-description: Panel que muestra los elementos de dimensión siguientes o anteriores de una dimensión específica.
-title: Panel de elemento siguiente o anterior
+description: Obtenga información sobre cómo utilizar el panel Elemento siguiente o anterior que muestra los elementos de dimensión siguientes o anteriores para una dimensión específica.
+title: Panel Elemento Siguiente O Anterior
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 94%
 
 ---
 
 # Panel de elemento siguiente o anterior {#next-or-previous-item-panel}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
@@ -25,9 +23,6 @@ ht-degree: 100%
 >title="Elemento siguiente o anterior"
 >abstract="Analice cuáles son los lugares más habituales de los que proceden o a los que se dirigen los visitantes. Especifique la dimensión, el elemento de dimensión, la dirección y el contenedor que se utilizará para la visualización."
 
-
-
-<!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 

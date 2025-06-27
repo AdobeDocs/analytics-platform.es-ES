@@ -1,13 +1,13 @@
 ---
 title: Panel de visualizadores simultáneos de medios
-description: Cómo utilizar e interpretar el panel Visualizadores simultáneos de medios en Analysis Workspace.
+description: Aprenda a utilizar e interpretar el panel Visualizadores simultáneos de medios en Analysis Workspace.
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '1174'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ En Analysis Workspace, la métrica Visualizadores simultáneos comprende la cant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/35187/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -130,6 +130,6 @@ No hay ninguna tabla de forma libre disponible en esta vista.  Para ver la fuent
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
->[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+>>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
 >

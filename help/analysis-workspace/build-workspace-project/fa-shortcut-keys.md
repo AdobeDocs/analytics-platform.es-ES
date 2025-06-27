@@ -1,28 +1,28 @@
 ---
-description: Obtenga información sobre las interacciones de teclado, las teclas de acceso directo y los comportamientos de apuntar y hacer clic disponibles en Analysis Workspace.
+description: Aprenda a utilizar las interacciones de teclado, las teclas de método abreviado y los comportamientos de apuntar y hacer clic disponibles en Analysis Workspace.
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: Cómo usar las teclas de acceso directo de Workspace
+title: Teclas de acceso directo
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 90%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
-# Teclas de acceso directo (métodos abreviados)
+# Teclas de acceso directo
 
 Las teclas de acceso directo (métodos abreviados de teclado) están disponibles en Analysis Workspace para una navegación, análisis y democratización sin problemas.
 
 Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 
-- **⇧** para **[!UICONTROL **&#x200B; shift &#x200B;**]**.
-- **⌘** para **[!UICONTROL **&#x200B; cmd &#x200B;**]** (comando).
-- **⌃** para **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (control).
-- **⌥** para **[!UICONTROL **&#x200B; opt &#x200B;**]** (opción).
-- **⎇** para **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternativo).
+- **⇧** para **[!UICONTROL ** shift **]**.
+- **⌘** para **[!UICONTROL ** cmd **]** (comando).
+- **⌃** para **[!UICONTROL ** ctrl **]** (control).
+- **⌥** para **[!UICONTROL ** opt **]** (opción).
+- **⎇** para **[!UICONTROL ** alt **]** (alternativo).
 
 ## Acciones de navegación
 
@@ -53,7 +53,7 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 | Deshacer | **[!UICONTROL *cmd+z *]** | **[!UICONTROL *ctrl+z *]** |
 | Actualizar componentes | **[!UICONTROL *opt+mayús+r *]** | **[!UICONTROL *alt+mayús+r *]** |
 | Actualizar proyecto | **[!UICONTROL *opt+r *]** | **[!UICONTROL *alt+r *]** |
-| Definir como página de aterrizaje | **[!UICONTROL *cmd+mayús+l *]** | **[!UICONTROL *ctrl+mayús+l *]** |
+| Definir como página de destino | **[!UICONTROL *cmd+mayús+l *]** | **[!UICONTROL *ctrl+mayús+l *]** |
 
 ## Añadir paneles y acciones de visualización
 

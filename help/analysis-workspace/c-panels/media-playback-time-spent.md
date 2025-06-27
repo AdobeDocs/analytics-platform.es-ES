@@ -1,13 +1,13 @@
 ---
 title: Panel Tiempo invertido en la reproducción de medios
-description: Cómo utilizar e interpretar el panel Tiempo invertido en la reproducción de medios en Analysis Workspace.
+description: Aprenda a utilizar e interpretar el panel Tiempo invertido en la reproducción de contenido en Analysis Workspace.
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '1074'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ _En este artículo se describe el panel Tiempo invertido en la reproducción de 
 >[!NOTE]
 >
 >El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento de la colección de medios de streaming para Customer Journey Analytics.
->Póngase en contacto con su representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
+>>Póngase en contacto con su representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
 >
 
 El panel **[!UICONTROL Tiempo invertido en la reproducción de medios]** permite analizar la reproducción a lo largo del tiempo, con detalles sobre los picos de simultaneidad y la posibilidad de realizar desgloses y comparaciones. 
@@ -129,6 +129,6 @@ La única métrica que se puede usar en este panel es Tiempo invertido en la rep
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
->[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
+>>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
 >

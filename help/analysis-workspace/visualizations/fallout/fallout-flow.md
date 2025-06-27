@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre los informes y visualizaciones de visitas en el orden previsto.
-title: Acerca de los informes y visualizaciones de visitas en el orden previsto
+description: Aprenda a utilizar la visualización de abandonos en Analysis Workspace.
+title: Información general de visitas en orden previsto
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '357'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 96%
 
 ---
 

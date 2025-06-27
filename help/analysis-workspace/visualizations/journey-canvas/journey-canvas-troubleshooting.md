@@ -1,16 +1,17 @@
 ---
-description: Ejemplos al configurar una visualización de lienzo de Recorrido
-title: ejemplos de lienzo de recorrido
+description: Obtenga información sobre cómo solucionar problemas al configurar una visualización de lienzo de recorrido.
+title: Solución de problemas de lienzo recorrido
 feature: Visualizations
 role: User
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
 
-# solución de problemas de lienzo de recorrido
+# Información general del lienzo de resolución de problemas
 
 La visualización del lienzo de Recorrido le permite analizar y obtener perspectivas profundas sobre los recorridos que proporciona a sus usuarios y clientes.
 

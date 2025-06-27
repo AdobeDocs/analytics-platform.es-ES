@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre las opciones para abrir proyectos.
+description: Obtenga información sobre cómo abrir proyectos en Analysis Workspace.
 title: Abrir proyectos
 feature: Workspace Basics
 role: User
 exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -50,5 +50,5 @@ Cuando abra un proyecto, es posible que vea un cuadro de diálogo de advertencia
 Para corregir esta advertencia, puede:
 
 * **[!UICONTROL Cambiar la vista de datos.]** Seleccione una vista de datos adecuada en **[!UICONTROL Cambiar vista de datos:]** ![Datos](/help/assets/icons/Data.svg). Si la vista de datos seleccionada es válida, el proyecto se abrirá en Analysis Workspace.
-* **[!UICONTROL Volver a la página de aterrizaje]**. El proyecto seleccionado no se abre y puede seleccionar otro proyecto.
+* **[!UICONTROL Volver a la página de destino]**. El proyecto seleccionado no se abre y puede seleccionar otro proyecto.
 * **[!UICONTROL Continuar de todas formas]**. El proyecto se abre en Analysis Workspace, pero muestra errores en algunas de las visualizaciones y las vistas de datos incompatibles tienen una alerta ![Alert](/help/assets/icons/Alert.svg) antes del nombre de la vista de datos.

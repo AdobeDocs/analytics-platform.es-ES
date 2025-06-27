@@ -1,13 +1,13 @@
 ---
-title: Elementos de dimensión dinámicos o estáticos
-description: Interacción con elementos de dimensión dinámicos y estáticos en tablas
+title: Elementos De Dimension Dinámicos Y Estáticos
+description: Aprenda a utilizar elementos de dimensión dinámicos frente a estáticos en tablas de forma libre en Analysis Workspace.
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 93%
+source-wordcount: '544'
+ht-degree: 88%
 
 ---
 

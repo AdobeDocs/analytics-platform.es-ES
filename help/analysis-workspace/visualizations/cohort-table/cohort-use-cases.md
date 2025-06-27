@@ -1,26 +1,26 @@
 ---
-description: Obtenga información acerca de ejemplos de casos de uso para análisis de cohorte.
+description: Obtenga información acerca de algunos ejemplos de casos de uso para análisis de cohorte.
 keywords: Analysis Workspace
-title: Casos de uso de análisis de cohorte
+title: Análisis de cohorte con Xases
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 52%
+source-wordcount: '974'
+ht-degree: 51%
 
 ---
 
-# Casos de uso de [!UICONTROL análisis de cohorte]
+# Casos de uso de análisis de cohorte
 
-Este artículo describe algunos ejemplos de casos de uso de [!UICONTROL Análisis de cohorte].
+En este artículo se describen algunos ejemplos de casos de uso para análisis de cohorte.
 
 ## Caso de uso de interacción con aplicaciones
 
 Imagine que desea analizar de qué manera los usuarios que instalan su aplicación interactúan con ella con el transcurso del tiempo. ¿La instalan y nunca la usan? ¿La usan por un tiempo y luego dejan de hacerlo? ¿O siguen interactuando con la aplicación a lo largo del tiempo?
 
-Puede crear un [!UICONTROL análisis de cohorte] de seis meses:
+Puede crear un análisis de cohorte de seis meses.
 
 **Granularidad**: mensual, de enero de 2015 a junio de 2015
 

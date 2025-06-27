@@ -1,13 +1,13 @@
 ---
-description: Cómo usar el panel en blanco en Analysis Workspace.
+description: Aprenda a crear un panel en blanco como punto de partida para cualquier visualización.
 title: Panel en blanco
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 90%
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 
@@ -26,18 +26,18 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel en blanco en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Ver [Panel en blanco](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/blank-panel) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel en blanco en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte [Panel en blanco](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/blank-panel) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 
 Un **[!UICONTROL panel en blanco]** muestra una selección de paneles (indicados por ![WebPage](/help/assets/icons/WebPage.svg)) o visualizaciones que puede crear para generar un análisis completamente personalizado.
 
-## Utiliza
+## Usar
 
 Para usar un **[!UICONTROL panel en blanco]**:
 
-1. Creación de un **[!UICONTROL panel en blanco]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
+1. Creación de un **[!UICONTROL panel en blanco]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
 
    ![Crear un panel](assets/create-panel.png)
 
@@ -53,14 +53,14 @@ Para usar un **[!UICONTROL panel en blanco]**:
 
 
 
-Puedes realizar lo siguiente:
+Puede realizar lo siguiente:
 
 * Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **en** un panel para agregar otra visualización. Aparece una ventana emergente que te permite seleccionar una visualización.
 
   | Seleccionar… | Para crear un filtro: |
   |---|---|
   | ![Tabla](/help/assets/icons/Table.svg) | [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
-  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analysis-workspace/visualizations/line.md) |
+  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Línea](/help/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barra](/help/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Texto](/help/assets/icons/Text.svg) | [Texto](/help/analysis-workspace/visualizations/text.md) |

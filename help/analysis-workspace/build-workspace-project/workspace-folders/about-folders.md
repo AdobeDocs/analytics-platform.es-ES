@@ -1,22 +1,22 @@
 ---
-description: Información acerca de las carpetas en Workspace
+description: Aprenda a organizar sus proyectos en carpetas en Analysis Workspace.
 keywords: Analysis Workspace
 title: Información general de carpetas
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 97%
 
 ---
 
 # Información general de carpetas
 
-Las carpetas de Customer Journey Analytics están disponibles en la página de destino de Workspace cuando has seleccionado [Mostrar carpetas y proyectos](../freeform-overview.md#show-selector).
-
 Las carpetas de Workspace ayudan a organizar y clasificar sus proyectos. Con la funcionalidad de carpetas, puedes crear carpetas y subcarpetas para administrar tus proyectos.
+
+Las carpetas de Customer Journey Analytics están disponibles en la página de destino de Workspace cuando has seleccionado [Mostrar carpetas y proyectos](../freeform-overview.md#show-selector).
 
 Existen dos tipos de carpetas en Workspace: la carpeta de compañía y las carpetas personales. Además, una carpeta Compañía compartida permite a los administradores crear y compartir contenido fácilmente con todos los usuarios del Espacio de trabajo.
 

@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1253'
 ht-degree: 97%
 
 ---
@@ -173,12 +173,13 @@ ht-degree: 97%
       + [Abrir proyectos](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Comentario en proyectos](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [Guardar proyectos](../analysis-workspace/build-workspace-project/save-projects.md)
+      + [Tabla de contenido](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Carpetas en Workspace {#workspace-folders}
-         + [Acerca de las carpetas](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Creación de carpetas y subcarpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Información general](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Creación de carpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Administración de carpetas](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Agregar o mover proyectos a carpetas](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [Teclas de acceso directo (métodos abreviados)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+         + [Agregar o mover proyectos](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [Teclas de acceso directo](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paletas de color](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Ver densidad](../analysis-workspace/build-workspace-project/view-density.md)
    + Plantillas {#templates}
@@ -195,8 +196,8 @@ ht-degree: 97%
             + [Configuración de columna](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos y estáticos](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtrado y ordenación de tablas](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totales de Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Filtrar y ordenar](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totales](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohortes {#cohort-table}
          + [Información general](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuración](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -232,7 +233,7 @@ ht-degree: 97%
       + [Venn](../analysis-workspace/visualizations/venn.md)
    + Paneles {#panels}
       + [Información general](../analysis-workspace/c-panels/panels.md)
-      + [Panel en blanco](../analysis-workspace/c-panels/blank-panel.md)
+      + [En blanco](../analysis-workspace/c-panels/blank-panel.md)
       + [Atribución](../analysis-workspace/c-panels/attribution.md)
       + [Experimentación](../analysis-workspace/c-panels/experimentation.md)
       + [De forma libre](../analysis-workspace/c-panels/freeform-panel.md)
@@ -260,7 +261,6 @@ ht-degree: 97%
       + [Información general](../analysis-workspace/c-forecast/forecasting.md)
       + [Ver previsiones](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Técnicas estadísticas](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + [Tabla de contenido](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [Preferencias de usuario](../analysis-workspace/user-preferences.md)
    + Preguntas frecuentes sobre Workspace y más {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)

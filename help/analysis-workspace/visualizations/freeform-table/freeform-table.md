@@ -1,13 +1,13 @@
 ---
-title: Información general sobre las tablas de forma libre
-description: Las tablas de forma libre son la base del análisis de datos en Workspace
+title: Resumen de tabla de forma libre
+description: Aprenda a utilizar las tablas improvisadas, que son la base del análisis de datos en Analysis Workspace.
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 97%
 
 ---
 

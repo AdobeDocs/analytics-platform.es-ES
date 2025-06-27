@@ -1,19 +1,17 @@
 ---
-description: Utilice subtítulos inteligentes para generar información en forma de lenguaje natural y mostrar las tendencias dentro de las visualizaciones.
-title: Subtítulos inteligentes
+description: Aprenda a utilizar subtítulos inteligentes para generar perspectivas en lenguaje natural y mostrar tendencias dentro de las visualizaciones.
+title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: af8d4f07498211931e9549cadd4746eebb9f56f4
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 98%
 
 ---
 
 # Subtítulos inteligentes {#intelligent-captions}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions"
@@ -30,7 +28,7 @@ Los subtítulos inteligentes están destinados a las siguientes personas:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Subtítulos inteligentes](https://video.tv.adobe.com/v/3443141/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Subtítulos inteligentes](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

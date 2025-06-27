@@ -1,12 +1,12 @@
 ---
-description: Configuración de una visualización de lienzo de recorrido
-title: 'Lienzo de recorrido '
+description: Obtenga información sobre cómo configurar una visualización de lienzo de recorrido.
+title: Configuración De Una Visualización De Lienzo De Recorrido
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '6225'
+source-wordcount: '6231'
 ht-degree: 1%
 
 ---

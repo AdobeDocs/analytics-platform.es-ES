@@ -1,15 +1,15 @@
 ---
-description: Utilice la visualización de mapas en un proyecto de Workspace.
+description: Utilice la visualización de mapas para trazar datos en una visualización de mapa geográfico
 title: Mapa
 feature: Visualizations
 role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 00c57793846d997dbfd80b413f3cf3b78a96097b
-workflow-type: ht
-source-wordcount: '67'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 83%
 
 ---
 

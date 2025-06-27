@@ -1,17 +1,17 @@
 ---
-description: Las visitas en el orden previsto en Analysis Workspace le permiten mezclar y hacer coincidir dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Las visitas en el orden previsto le proporcionan más flexibilidad para definir los pasos del usuario que desea investigar.
-title: Abandonos entre dimensiones
+description: Descubra cómo la visualización de visitas en el orden previsto en Analysis Workspace le permite mezclar y hacer coincidir dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Descubra cómo esto proporciona más flexibilidad para definir los pasos del usuario que desea investigar.
+title: Visitas en el orden previsto entre dimensiones
 feature: Visualizations
 exl-id: 7975324c-4efc-4c36-bc83-dcde85d2febc
 role: User
-source-git-commit: 37158b4e614435724205c505f322c1d7a434c35d
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '226'
 ht-degree: 7%
 
 ---
 
-# Abandonos entre dimensiones
+# Visita en orden previsto entre dimensiones
 
 Las visitas en el orden previsto en Analysis Workspace le permiten mezclar y hacer coincidir dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Las visitas en el orden previsto le proporcionan más flexibilidad para definir los pasos del usuario que desea investigar.
 

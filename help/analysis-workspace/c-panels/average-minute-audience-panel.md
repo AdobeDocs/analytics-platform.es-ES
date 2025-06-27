@@ -1,13 +1,13 @@
 ---
-title: Panel de audiencia media por minuto de medios
-description: Cómo utilizar e interpretar el panel Audiencia media por minuto de medios en Analysis Workspace.
+title: Panel Audiencia media por minuto de medios
+description: Aprenda a utilizar e interpretar el panel Audiencia media por minuto de medios en Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 95%
+source-wordcount: '1679'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe el panel Audiencia media por minuto de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte el [panel de audiencia media por minuto de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** version of this article._
+_En este artículo se describe el panel Audiencia media por minuto de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte el [panel de audiencia media por minuto de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ Utilice la configuración de entrada que se describe en esta sección para confi
 
    | Opciones | Descripción |
    |---------|------------|
-   | **[!UICONTROL Granularidad]** | La granularidad predeterminada es de [!UICONTROL **5 minutos**], pero puede elegir cualquiera de las granularidades que se utilizan como denominador para la serie temporal dentro del período de tiempo seleccionado. Por ejemplo, si selecciona 12:00 a 12:30 horas de la noche con una granularidad de 5 minutos, obtendrá la audiencia media por minuto durante la media hora completa, así como seis filas con la audiencia media por minuto para cada período de 5 minutos. Estas filas se utilizan como puntos de datos para el gráfico de series temporales. |
+   | **[!UICONTROL Granularidad]** | La granularidad predeterminada es de [!UICONTROL **5 minutos**], pero puede elegir cualquiera de las granularidades que se utilizan como denominador para la serie temporal dentro del período de tiempo seleccionado. Por ejemplo, si selecciona 12:00 a 12:30 horas de la noche con una granularidad de 5 minutos, obtendrá la audiencia media por minuto durante la media hora completa, así como seis filas con la audiencia media por minuto para cada período de 5 minutos. Estas filas se utilizan como puntos de datos para el gráfico de serie temporal. |
    | [!UICONTROL **Filtrar contenido por (opcional)**] | Puede filtrar el contenido específico según la vista que desee o la forma en que se estructuran los datos. <ul>[!UICONTROL **Mostrar temporada, episodio**]: muestra los programas disponibles en la lista desplegable, que puede filtrar mediante una búsqueda (o arrastrando y soltando el nombre del programa desde la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado.</li><li>[!UICONTROL **Dimensión personalizada**]: si el nombre para mostrar se encuentra en una dimensión personalizada, puede encontrarla buscando en el menú de dimensión (opcional) o utilizando la búsqueda de la columna izquierda. El elemento de dimensión se rellena automáticamente en función de esa selección y se trata como un episodio.</li><li>[!UICONTROL **Ninguno**]: muestra todos los nombres de vídeo que tengan datos de audiencia media por minuto para la selección que haya elegido. (Esta opción está seleccionada de manera predeterminada).</li></ul> |
 
 1. Continúe con [Configuración avanzada del período de tiempo personalizado](#custom-time-period-advanced-settings) para establecer la configuración avanzada.
@@ -187,6 +187,6 @@ El panel Audiencia media por minuto de medios solo utiliza la métrica Audiencia
 >[!MORELIKETHIS]
 >
 > [Crear un panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
-> [Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+> > [Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
+> > [Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
 >

@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como, guardar como plantilla y abrir versiones anteriores.
+description: Obtenga información sobre las distintas opciones para guardar sus proyectos en Analysis Workspace.
 title: Guardar proyectos
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 97%
+source-wordcount: '846'
+ht-degree: 95%
 
 ---
 
@@ -88,7 +88,7 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
 
 <!-- Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es) that becomes available to your organization under **[!UICONTROL Project > New]** | 
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
 -->
 
 ## Guardar automáticamente
@@ -105,11 +105,11 @@ Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 min
 
 Analysis Workspace solicita guardar los nuevos proyectos manualmente al cambiar a otro proyecto, cerrar la pestaña del explorador, etc.
 
-Si, por cualquier motivo, pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guardará una versión de recuperación del proyecto en la página de aterrizaje de Analysis Workspace en una carpeta denominada **[!UICONTROL Proyectos recuperados (últimos 7 días)]**.  Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
+Si, por cualquier motivo, pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guardará una versión de recuperación del proyecto en la página de destino de Analysis Workspace en una carpeta denominada **[!UICONTROL Proyectos recuperados (últimos 7 días)]**.  Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
 
 Para restaurar un proyecto recuperado:
 
-1. Vaya a la carpeta **[!UICONTROL Proyectos recuperados (últimos 7 días)]** en la página de aterrizaje de Analysis Workspace.
+1. Vaya a la carpeta **[!UICONTROL Proyectos recuperados (últimos 7 días)]** en la página de destino de Analysis Workspace.
 
 <!-- 
      ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
@@ -139,7 +139,7 @@ Las opciones disponibles son las siguientes:
 
 #### Salir o cerrar una pestaña
 
-Si sale de la página o cierra la pestaña del explorador mientras visualiza un proyecto con cambios que aún no se han guardado automáticamente, el explorador le advertirá de que se perderán los cambios sin guardar. Puede elegir entre salir o cancelar. El modo en que el explorador le advierte depende del explorador que utilice.
+Si sale de la página o cierra la pestaña del explorador mientras visualiza un proyecto con cambios que aún no se han guardado automáticamente, el explorador le advertirá de que se perderán los cambios no guardados. Puede elegir entre salir o cancelar. El modo en que el explorador le advierte depende del explorador que utilice.
 
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
@@ -154,7 +154,7 @@ Si el explorador se bloquea o si se agota el tiempo de espera de la sesión, la 
 
 
 
-Para **nuevos** proyectos que nunca se han guardado, los cambios sin guardar no se pueden recuperar.
+Para **nuevos** proyectos que nunca se han guardado, los cambios no guardados no se pueden recuperar.
 
 
 <!-- Shouldn't this belong to another page?  Moved it to a new open projects page

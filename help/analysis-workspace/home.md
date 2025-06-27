@@ -1,15 +1,15 @@
 ---
 keywords: Analysis Workspace
 title: Información general sobre Analysis Workspace
-description: Información general sobre las capacidades de Analysis Workspace
+description: Obtenga información sobre Analysis Workspace, la herramienta de análisis más importante para Adobe Analytics. Utilice proyectos, paneles, tablas, visualizaciones y otros componentes para dar vida a los datos, depurar y compartir el análisis.
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 100%
+source-wordcount: '1490'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,9 @@ Analysis Workspace te permite crear análisis rápidamente para recopilar inform
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/35552/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
 
 >[!ENDSHADEBOX]
 
@@ -121,16 +123,16 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 | **[!UICONTROL Programar la exportación del archivo]** | **[!UICONTROL *shift+opt+s *]** | **[!UICONTROL *shift+alt+s *]** | [Enviar el proyecto según una programación como archivo CSV o de PDF a otros destinatarios](/help/analysis-workspace/curate-share/send-schedule-files.md). |
 | **[!UICONTROL Depurar datos de proyectos]** | **[!UICONTROL *shift+cmd+g *]** | **[!UICONTROL *shift+ctrl+g *]** | [Depurar datos de proyectos](/help/analysis-workspace/curate-share/curate.md) |
 
-| Ayuda | Acceso directo a Mac | Acceso directo a Windows | Descripción |
-|---|---|---|---|
-| Vídeos de **** | | | Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
-| **[!UICONTROL Documentación de ayuda]** | | | Abre la documentación (que acabas de leer…) en una nueva pestaña del explorador. |
-| **[!UICONTROL Foro de ayuda]** | | | Abre el foro de comunidades de Experience League de Adobe Analytics en una nueva pestaña del explorador. |
-| **[!UICONTROL Teclas de acceso directo]** | | | Mostrar una descripción general de los métodos abreviados de teclado que se pueden utilizar en Workspace. |
-| **[!UICONTROL Habilitar depurador]** |  | | Activar depurador. Se volverá a cargar el proyecto. |
-| **[!UICONTROL Deshabilitar depurador]** | | | Deshabilitar el recurso. Se volverá a cargar el proyecto. |
-| **[!UICONTROL Rendimiento]** | | | Mostrar un cuadro de diálogo que muestra métricas sobre el **[!UICONTROL rendimiento de Analysis Workspace]**. Usa **[!UICONTROL Descargar como CSV]** para descargar un archivo CSV de las métricas de rendimiento. |
-| **[!UICONTROL Acerca de Workspace]** | | | Mostrar un cuadro de diálogo **[!UICONTROL Acerca de Analysis Workspace]** con información de versión, niveles de acceso a características y marcas de características activas. |
+| Ayuda | Descripción |
+|---|---|
+| Vídeos de **** | Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
+| **[!UICONTROL Documentación de ayuda]** | Abre la documentación (que acabas de leer…) en una nueva pestaña del explorador. |
+| **[!UICONTROL Foro de ayuda]** | Abre el foro de comunidades de Experience League de Adobe Analytics en una nueva pestaña del explorador. |
+| **[!UICONTROL Teclas de acceso directo]** | Mostrar una descripción general de los métodos abreviados de teclado que se pueden utilizar en Workspace. |
+| **[!UICONTROL Habilitar depurador]** | Activar depurador. Se volverá a cargar el proyecto. |
+| **[!UICONTROL Deshabilitar depurador]** | Deshabilitar el recurso. Se volverá a cargar el proyecto. |
+| **[!UICONTROL Rendimiento]** | Mostrar un cuadro de diálogo que muestra métricas sobre el **[!UICONTROL rendimiento de Analysis Workspace]**. Usa **[!UICONTROL Descargar como CSV]** para descargar un archivo CSV de las métricas de rendimiento. |
+| **[!UICONTROL Acerca de Workspace]** | Mostrar un cuadro de diálogo **[!UICONTROL Acerca de Analysis Workspace]** con información de versión, niveles de acceso a características y marcas de características activas. |
 
 ## Fuentes de datos
 

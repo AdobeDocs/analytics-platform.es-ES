@@ -1,50 +1,56 @@
 ---
-description: Obtenga información sobre cómo cambiar el nombre de proyectos desde carpetas
+description: Obtenga información sobre cómo quitar proyectos de Analysis Workspace.
 keywords: Analysis Workspace
-title: Quitar proyectos de carpetas
+title: Eliminar proyectos
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
+source-git-commit: 9506cc42e80f25f68a891f21f38d60fb4d364588
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 94%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
 # Eliminar proyectos
 
-<!-- Is this article still needed -->
+
+Ver [Acciones en Administrar proyectos](../freeform-overview.md#actions) sobre cómo quitar proyectos de Analysis Workspace.
 
 
-## Traslado de un proyecto {#move-project-in-folder}
+<!-- Is this article still needed; not in the TOC anymore
 
-Puede mover proyectos de una carpeta a otra que haya creado.
 
-1. En una carpeta de proyecto, seleccione los puntos suspensivos **…** junto al nombre del proyecto.
+## Move a project {#move-project-in-folder}
 
-   ![Las opciones de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+You can move projects from one folder to another folder that you created.
 
-1. Seleccione **Mover a** y, a continuación, una carpeta a la que mover el proyecto.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![La ventana Seleccionar ubicación.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+    ![The ellipsis options.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Haga clic en **Mover**.
+1. Select **Move to** and then select a folder to move the project to.
 
-   ![Haga clic Mover.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+    ![The Select Location window.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-   Un mensaje confirma que el proyecto se ha movido.
+1. Click **Move**.
 
-   ![El mensaje de confirmación de movimiento. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+    ![Click Move.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-## Eliminación de un proyecto de una carpeta de proyecto {#delete-project-in-folder}
+    A toast confirms that the project was moved.
 
-Cuando se elimina un proyecto de una carpeta, se elimina del sistema pasados 180 días. Durante los 180 días posteriores a la eliminación, los usuarios podrán seguir accediendo a un proyecto eliminado a través de la interfaz web si tienen una dirección URL directa al proyecto.
+    ![The move confirmation toast. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-1. En una carpeta de proyecto, seleccione los puntos suspensivos **…** junto al nombre del proyecto.
+## Delete a project from a project folder {#delete-project-in-folder}
 
-   ![Las opciones de los tres puntos.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a direct URL to the project.
 
-1. Seleccione **Eliminar**.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-1. Una ventana de confirmación le pedirá que confirme la eliminación.
+    ![The ellipsis options.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+
+1. Select **Delete**.
+
+1. A confirmation window asks you to confirm the deletion.
+
+-->

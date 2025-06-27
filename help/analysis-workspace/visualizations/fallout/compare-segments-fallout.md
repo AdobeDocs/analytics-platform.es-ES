@@ -1,14 +1,14 @@
 ---
-description: Puede crear segmentos a partir de un punto de contacto, añadir segmentos como punto de contacto y comparar flujos de trabajo clave entre diversos segmentos en Analysis Workspace.
-keywords: abandonos y segmentos;segmentos en el análisis de abandonos;comparar segmentos en abandonos
-title: Aplicación de segmentos en el análisis de abandonos
+description: Descubra cómo puede crear segmentos a partir de un punto de contacto, añadir segmentos como punto de contacto y comparar flujos de trabajo clave entre diversos segmentos en un análisis de visitas en el orden previsto en Analysis Workspace.
+keywords: abandonos y segmentación, segmentos en el análisis de abandonos, comparar segmentos de abandonos
+title: Aplicación De Segmentos En El Análisis De Abandonos
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 38%
+source-wordcount: '468'
+ht-degree: 34%
 
 ---
 
@@ -20,9 +20,12 @@ Puede crear segmentos a partir de un punto de contacto, añadir segmentos como p
 >
 >Los segmentos utilizados como puntos de comprobación de abandonos deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización de abandonos. Con las visitas en orden previsto respectivas a las personas, los segmentos utilizados como puntos de comprobación deben ser segmentos basados en sesiones o eventos. Con los abandonos respectivos a las sesiones, los segmentos utilizados como puntos de comprobación deben ser segmentos basados en eventos. Si utiliza una combinación no válida, el resultado de visitas en orden previsto es del 100 %. Verá una advertencia en la visualización de abandonos cuando añada un segmento incompatible como punto de contacto. Determinadas combinaciones de contenedores de segmentos no válidas producen diagramas de abandonos no válidos, como:
 >
->* Cuando se usa un segmento basado en personas como punto de contacto dentro de una visualización de abandonos basada en personas.
+>* Cuando se usa un segmento basado en personas como punto de contacto dentro de una visualización de abandonos de contexto de persona.
 >* Cuando se usa un segmento basado en personas como punto de contacto dentro de una visualización de abandonos de sesión.
 >* Cuando se usa un segmento basado en sesión como punto de contacto dentro de una visualización de abandonos de sesión.
+<!-- Should we add B2B context here?
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* -->
 
 ## Creación de segmentos a partir de un punto de contacto
 
