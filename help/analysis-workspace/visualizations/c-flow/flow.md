@@ -1,17 +1,17 @@
 ---
-description: Obtenga información sobre la función Flujo que muestra las rutas del cliente en sus sitios web y aplicaciones.
-title: Resumen de flujos
+description: Aprenda a utilizar la visualización de flujo en Analysis Workspace.
+title: Resumen de flujo
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 96%
 
 ---
 
-# Flujo {#flow}
+# Resumen de flujos {#flow}
 
 <!-- markdownlint-disable MD034 -->
 
