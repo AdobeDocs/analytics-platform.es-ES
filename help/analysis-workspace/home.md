@@ -125,7 +125,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 
 | Ayuda | Descripción |
 |---|---|
-| Vídeos de **** | Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
+| Vídeos de **&#x200B;**&#x200B;| Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Documentación de ayuda]** | Abre la documentación (que acabas de leer…) en una nueva pestaña del explorador. |
 | **[!UICONTROL Foro de ayuda]** | Abre el foro de comunidades de Experience League de Adobe Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Teclas de acceso directo]** | Mostrar una descripción general de los métodos abreviados de teclado que se pueden utilizar en Workspace. |

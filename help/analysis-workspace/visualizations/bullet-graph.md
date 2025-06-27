@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización de viñeta de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Viñeta](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualización de viñeta de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Viñeta](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -58,12 +58,12 @@ Puede definir una configuración específica para una visualización de [!UICONT
 
 | Configuración | Descripción |
 |---|---|
-| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta ]**es el objetivo principal que busca.**[!UICONTROL  Meta baja ]**y**[!UICONTROL  Meta media ]**crean intervalos por debajo de la Meta alta. Nota: Cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
+| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta &#x200B;]**&#x200B;es el objetivo principal que busca.**[!UICONTROL &#x200B; Meta baja &#x200B;]**&#x200B;y&#x200B;**[!UICONTROL &#x200B; Meta media &#x200B;]**&#x200B;crean intervalos por debajo de la Meta alta. Nota: Cuando la opción&#x200B;**[!UICONTROL &#x200B; Porcentajes &#x200B;]**&#x200B;esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
 
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

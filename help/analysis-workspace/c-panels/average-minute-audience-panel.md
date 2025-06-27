@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe el panel Audiencia media por minuto de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte el [panel de audiencia media por minuto de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** version of this article._
+_En este artículo se describe el panel Audiencia media por minuto de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte el [panel de audiencia media por minuto de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -187,6 +187,6 @@ El panel Audiencia media por minuto de medios solo utiliza la métrica Audiencia
 >[!MORELIKETHIS]
 >
 > [Crear un panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
-> > [Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+> &#x200B;> [Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
+> &#x200B;> [Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
 >
