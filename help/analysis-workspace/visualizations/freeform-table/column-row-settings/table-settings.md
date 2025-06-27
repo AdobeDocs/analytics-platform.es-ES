@@ -90,4 +90,4 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 
 ## Cambiar altura de fila
 
-Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**. .
+Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**. .
