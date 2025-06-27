@@ -55,7 +55,7 @@ La [!UICONTROL Tabla de cohorte] está disponible para todos los clientes de Cus
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de cohorte en Analysis Workspace](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de cohorte en Analysis Workspace](https://video.tv.adobe.com/v/3430075/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
