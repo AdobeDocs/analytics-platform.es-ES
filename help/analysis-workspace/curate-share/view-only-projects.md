@@ -1,14 +1,14 @@
 ---
-description: Proyectos de solo lectura en Workspace
+description: Comprenda la experiencia de los proyectos de solo lectura en Analysis Workspace.
 keywords: Proyectos de solo lectura
 title: Proyectos de solo lectura
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 37%
+source-wordcount: '303'
+ht-degree: 35%
 
 ---
 
@@ -43,10 +43,10 @@ Algunas de las interacciones habilitadas más notables en un proyecto de Solo co
 
 | Área | Interacciones habilitadas |
 | --- | --- |
-| Tablas improvisadas | <ul><li>Paginación y ordenación</li><li>Pasar el cursor por las opciones</li><li>Selecciones de celdas que actualizan las visualizaciones vinculadas</li><li>En el menú contextual > Obtener vínculo de visualización</li><li>En el menú contextual > Copiar al portapapeles</li></ul> |
-| Visualizaciones | <ul><li>Hacer clic para activar o desactivar la leyenda</li><li>Pasar el cursor por las opciones</li><li>En el menú contextual > Obtener vínculo de visualización</li><li>Contraer/expandir</li><li>Flujo: expandir nodos de flujo</li><li>Mapa: zoom</li></ul> |
-| Paneles | <ul><li>Segmentos desplegables interactivos</li><li>En el menú contextual > Obtener vínculo del panel</li><li>Contraer/expandir</li></ul> |
-| Proyecto | <ul><li>Inspección de todos los iconos de información</li><li>Menú Proyecto: Nuevo, Abrir, Definir como página principal, Actualizar, Descargar CSV/PDF, Información y configuración limitadas del proyecto</li><li>Menú Compartir: Obtener vínculo del proyecto, Enviar archivo ahora</li><li>Menú Ayuda: Todas las acciones excepto Sugerencias y opciones de Debugger</li></ul> |
+| **Tablas improvisadas** | <li>Paginación y ordenación</li><li>Pasar el cursor por las opciones</li><li>Selecciones de celdas que actualizan las visualizaciones vinculadas</li><li>En el menú contextual > Obtener vínculo de visualización</li><li>En el menú contextual > Copiar al portapapeles</li> |
+| **Visualizaciones** | <li>Hacer clic para activar o desactivar la leyenda</li><li>Pasar el cursor por las opciones</li><li>En el menú contextual > Obtener vínculo de visualización</li><li>Contraer/expandir</li><li>Flujo: expandir nodos de flujo</li><li>Mapa: zoom</li></ul> |
+| **Paneles** | <li>Segmentos desplegables interactivos</li><li>En el menú contextual > Obtener vínculo del panel</li><li>Contraer/expandir</li> |
+| **Proyecto** | <li>Inspección de todos los iconos de información</li><li>Menú Proyecto: Nuevo, Abrir, Definir como página principal, Actualizar, Descargar CSV/PDF, Información y configuración limitadas del proyecto</li><li>Menú Compartir: Obtener vínculo del proyecto, Enviar archivo ahora</li><li>Menú Ayuda: Todas las acciones excepto Sugerencias y opciones de Debugger</li> |
 
 
 ## Compartir con cualquier persona la experiencia

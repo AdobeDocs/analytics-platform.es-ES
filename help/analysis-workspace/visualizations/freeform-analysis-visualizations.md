@@ -5,10 +5,10 @@ title: Información general sobre visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -139,11 +139,11 @@ Utilice el menú contextual (disponible a través de una selección alternativa,
 | Opción | Descripción |
 | --- | --- |
 | **[!UICONTROL Insertar visualización copiada]** | Pega (inserta) una visualización copiada en otro lugar dentro del proyecto o en un proyecto completamente diferente. |
-| **[!UICONTROL Copiar datos en el portapapeles]** | Copia los datos de la visualización en el portapapeles. |
-| **[!UICONTROL Copiar selección en el portapapeles]** | Copia la selección de la visualización en el portapapeles. |
-| **[!UICONTROL Descargar elementos como CSV (*nombre de dimensión*)]** | Descargue los elementos de dimensión (hasta un máximo de 50 000) de la visualización en su dispositivo local. Un máximo de 50 000 elementos de dimensión para la dimensión seleccionada. |
+| **[!UICONTROL Copiar datos en el portapapeles]** | [Copie datos](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) de la visualización en el portapapeles. |
+| **[!UICONTROL Copiar selección en el portapapeles]** | [Copie la selección](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) de la visualización en el portapapeles. |
+| **[!UICONTROL Descargar elementos como CSV (*nombre de dimensión*)]** | [Descargue los elementos de dimensión](/help/analysis-workspace/export/download-send.md#download-items-as-csv) (hasta un máximo de 50 000) de la visualización en su dispositivo local. Un máximo de 50 000 elementos de dimensión para la dimensión seleccionada. |
 | **[!UICONTROL Copiar visualización]** | Copia la visualización para que la pueda insertar en otro lugar del proyecto o en un proyecto completamente diferente. |
-| **[!UICONTROL Descargar los datos como CSV]** | Descargue los datos mostrados de la visualización en su dispositivo local. |
+| **[!UICONTROL Descargar los datos como CSV]** | [Descargue los datos mostrados](/help/analysis-workspace/export/download-send.md#download-as-csv) de la visualización en su dispositivo local. |
 | **[!UICONTROL Exportar tabla completa]** | Exporta la tabla completa a las ubicaciones en la nube designadas. Para obtener más información, consulte [Exporta informes de Customer Journey Analytics a la nube](../export/export-cloud.md). |
 | **[!UICONTROL Duplicar visualización]** | Crea un duplicado exacto de la visualización. |
 | **[!UICONTROL Editar descripción]** | Añade (o edita) una descripción de texto para la visualización. Véase [Texto](text.md). |

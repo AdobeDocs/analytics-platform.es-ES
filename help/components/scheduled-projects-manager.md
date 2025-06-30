@@ -4,7 +4,7 @@ title: Métricas
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 42%
@@ -44,7 +44,7 @@ Puede usar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configura
 
 Busque un proyecto programado con ![Buscar](/help/assets/icons/Search.svg). También puede ver si se aplica algún filtro desde el panel Filtros. Para quitar un filtro, seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para un filtro. Para quitar todos los filtros, seleccione **[!UICONTROL Borrar todo]**.
 
-Para editar un proyecto programado, seleccione su título. Utilice el cuadro de diálogo **[!UICONTROL Editar proyecto programado]** para actualizar los detalles de la programación. Ver [Enviar archivos a otros](../analysis-workspace/export/t-schedule-report.md) para obtener más detalles.
+Para editar un proyecto programado, seleccione su título. Utilice el cuadro de diálogo **[!UICONTROL Editar proyecto programado]** para actualizar los detalles de la programación. Ver [Enviar archivos a otros](../analysis-workspace/curate-share/t-schedule-report.md) para obtener más detalles.
 
 ![Editar proyecto programado](assets/edit-scheduled-project.png)
 

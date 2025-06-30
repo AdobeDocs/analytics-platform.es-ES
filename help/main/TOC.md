@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 97%
+source-wordcount: '1255'
+ht-degree: 96%
 
 ---
 
@@ -169,6 +169,7 @@ ht-degree: 97%
    + [Realizar análisis avanzado](../analysis-workspace/perform-adv-analysis.md)
    + Proyectos {#build-workspace-project}
       + [Información general](../analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Iniciar proyectos rápidamente](/help/analysis-workspace/build-workspace-project/starter-projects.md)
       + [Crear proyectos](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Abrir proyectos](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Comentario en proyectos](/help/analysis-workspace/build-workspace-project/comment-projects.md)
@@ -242,16 +243,16 @@ ht-degree: 97%
       + [Tiempo invertido en la reproducción de medios](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento siguiente o anterior](../analysis-workspace/c-panels/next-previous.md)
       + [Acceso rápido a información](../analysis-workspace/c-panels/quickinsight.md)
-   + Depuración, uso compartido y programación de proyectos {#curate-share}
+   + Depurar y compartir {#curate-share}
       + [Información general](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](../analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](../analysis-workspace/curate-share/share-projects.md)
       + [Crear vínculos que se pueden compartir](../analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de solo lectura](../analysis-workspace/curate-share/view-only-projects.md)
+      + [Envío y programación de proyectos](../analysis-workspace/curate-share//t-schedule-report.md)
    + Exportar {#export}
       + [Información general](../analysis-workspace/export/export-project-overview.md)
       + [Descargar](../analysis-workspace/export/download-send.md)
-      + [Enviar a otros](../analysis-workspace/export/t-schedule-report.md)
       + [Exportar a la nube](../analysis-workspace/export/export-cloud.md)
    + Detección de anomalías {#anomaly-detection}
       + [Información general](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
@@ -334,7 +335,7 @@ ht-degree: 97%
       + [Segmentos secuenciales](/help/components/segments/seg-sequential-build.md)
       + [Compartir segmentos](/help/components/segments/seg-share.md)
       + [Etiquetar segmentos](/help/components/segments/seg-tag.md)
-      + [Filtrado de la lista de segmentos](/help/components/segments/seg-filter.md)
+      + [Filtrar la lista de segmentos](/help/components/segments/seg-filter.md)
       + [Marcar segmentos como favoritos](/help/components/segments/seg-favorite.md)
       + [Aprobar segmentos](/help/components/segments/seg-approve.md)
       + [Copiar segmentos](/help/components/segments/seg-copy.md)
