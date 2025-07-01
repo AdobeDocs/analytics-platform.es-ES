@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: a3442e4cbb949228213a606b87ff65c8c562895b
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 + Notas de la versión  {#releases}
    + [Última versión de Customer Journey Analytics](../release-notes/latest.md)
-   + [Notas previas al lanzamiento de Customer Journey Analytics](../release-notes/pre-release-notes.md)
+   + [Notas de la versión preliminar de Customer Journey Analytics](../release-notes/pre-release-notes.md)
    + [Versiones de 2025](../release-notes/2025.md)
    + [Versiones de 2024](../release-notes/2024.md)
    + [Versiones de 2023](../release-notes/2023.md)
