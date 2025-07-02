@@ -32,7 +32,7 @@ En conjuntos de datos como Adobe Analytics, es posible que no exista una identid
 
 ### Alinee las variables
 
-El método de transformación más directa de datos de Adobe Analytics a datos de Customer Journey Analytics es ingestar un [grupo de informes globales](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/global-rs) en Experience Platform mediante el [conector de origen de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). Este conector asigna las variables de Adobe Analytics directamente a un esquema XDM y a un conjunto de datos en Experience Platform, que a su vez pueden conectarse fácilmente a Customer Journey Analytics.
+El método de transformación más directa de datos de Adobe Analytics a datos de Customer Journey Analytics es ingestar un [grupo de informes globales](https://experienceleague.adobe.com/es/docs/analytics/implementation/prepare/global-rs) en Experience Platform mediante el [conector de origen de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). Este conector asigna las variables de Adobe Analytics directamente a un esquema XDM y a un conjunto de datos en Experience Platform, que a su vez pueden conectarse fácilmente a Customer Journey Analytics.
 
 Es posible que no siempre sea factible una implementación de un grupo de informes globales completo. Si planea incluir varios grupos de informes en Customer Journey Analytics, tiene dos opciones:
 
@@ -52,7 +52,7 @@ La configuración tradicional del canal de marketing de Adobe Analytics no funci
 
 * El carácter de tiempo del informe de Customer Journey Analytics
 
-Adobe ha publicado [prácticas recomendadas actualizadas para la implementación de canales de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/mchannel-best-practices). Estas recomendaciones actualizadas le ayudan a sacar el máximo partido a las funciones que ya están disponibles en Adobe Analytics con funciones de atribución avanzadas. Las recomendaciones también le preparan para tener éxito al realizar la transición a Customer Journey Analytics.
+Adobe ha publicado [prácticas recomendadas actualizadas para la implementación de canales de marketing](https://experienceleague.adobe.com/es/docs/analytics/components/marketing-channels/mchannel-best-practices). Estas recomendaciones actualizadas le ayudan a sacar el máximo partido a las funciones que ya están disponibles en Adobe Analytics con funciones de atribución avanzadas. Las recomendaciones también le preparan para tener éxito al realizar la transición a Customer Journey Analytics.
 
 Con la introducción de los [Campos derivados](../data-views/derived-fields/derived-fields.md) como parte de las vistas de datos de Customer Journey Analytics, los canales de marketing también son compatibles de forma inofensiva y retroactiva mediante la [plantilla de función de canal de marketing](../data-views/derived-fields/derived-fields.md#function-templates).
 
@@ -66,7 +66,7 @@ Los informes de Adobe Analytics dependen de una cantidad significativa de datos 
 
 [!UICONTROL Procesamiento de intervalo de tiempo] abre la capacidad de aplicar configuraciones retroactivas y crear varias versiones de persistencia de variables sin necesidad de cambiar la forma en que se recopilan los datos subyacentes.
 
-Este cambio presenta algunas diferencias en la forma en que se crean los informes de los datos, especialmente en el caso de las variables que pueden tener un período de caducidad largo. Puede empezar evaluando cómo puede afectar el procesamiento del tiempo de los informes a su creación con un [grupo de informes virtuales](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
+Este cambio presenta algunas diferencias en la forma en que se crean los informes de los datos, especialmente en el caso de las variables que pueden tener un período de caducidad largo. Puede empezar evaluando cómo puede afectar el procesamiento del tiempo de los informes a su creación con un [grupo de informes virtuales](https://experienceleague.adobe.com/es/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
 
 ### Identificación de segmentos críticos y métricas calculadas {#segments-calcmetrics}
 
@@ -82,9 +82,9 @@ Para que el cambio sea lo más fluido posible para los usuarios cuando realicen 
 
 Aquí hay un par de vídeos para guiarle:
 
-* [Paso de segmentos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
+* [Paso de segmentos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=es)
 
-* [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
+* [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
 
 ### Otras consideraciones
 
