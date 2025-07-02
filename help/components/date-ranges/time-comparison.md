@@ -1,13 +1,13 @@
 ---
-description: La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc.
+description: Aprenda a utilizar la comparación de fechas en Analysis Workspace, que le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes.
 title: Comparación de fechas
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 role: User
-source-git-commit: 483c0d3bcc6ff700395a51a4d550844fb6af30d2
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 17%
+source-wordcount: '683'
+ht-degree: 35%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 17%
 
 La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc.
 
-## Comparar periodos de tiempo
+## Comparar períodos de tiempo
 
-El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta *¿Cuánto mejor o peor estás haciendo ahora en comparación con esta época del año pasado?* es fundamental para comprender su negocio. La comparación de fechas incluye automáticamente una columna *difference* que muestra el porcentaje de cambio en comparación con un período de tiempo especificado.
+El análisis requiere contexto, y este lo proporciona a menudo un período de tiempo previo. Por ejemplo, la pregunta *¿Cuánto mejor o peor estás haciendo ahora en comparación con esta época del año pasado?* es fundamental para comprender su negocio. La comparación de fechas incluye automáticamente una columna *difference* que muestra el porcentaje de cambio en comparación con un período de tiempo especificado.
 
 1. Cree una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), con cualquier dimensión y métrica que quiera comparar en un período de tiempo.
 1. Abra el menú contextual de una fila de tabla y seleccione **[!UICONTROL Comparar periodos de tiempo]**.
@@ -34,11 +34,11 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
    |---|---|
    | **[!UICONTROL Semanas/meses/trimestres/años anteriores a este intervalo de fechas *x*]** | Compare con el intervalo de fechas seleccionado inmediatamente antes de este intervalo de fechas. |
    | **[!UICONTROL Estas x semanas / meses / trimestres / años del año pasado a este intervalo de fechas]** | Compare con el mismo intervalo de fechas hace un año. |
-   | **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]** | Permite definir un intervalo de fechas personalizado. |
+   | **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]** | Permite definir un intervalo de fechas personalizado. |
 
    >[!NOTE]
    >
-   >Al seleccionar una cantidad personalizada de días, por ejemplo, del 7 de octubre al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL 14 días anteriores a este intervalo de fechas]** e **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]**.
+   >Cuando seleccione un número de días personalizado, por ejemplo del 7 al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL los 14 días anteriores a este intervalo de fechas]** y un **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]**.
 
 1. La comparación resultante tiene este aspecto:
 
@@ -50,7 +50,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
 Ahora puede agregar un período de tiempo a cada columna en una tabla, lo que le permite agregar un período de tiempo diferente del período en el que está establecido el calendario.
 
-1. Haga clic con el botón derecho en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de período de tiempo]**.
+1. Haga clic con el botón secundario en una columna de la tabla y seleccione **[!UICONTROL Añadir columna de periodo de tiempo]**.
 
    ![](assets/add-time-period-column.png)
 
@@ -60,11 +60,11 @@ Ahora puede agregar un período de tiempo a cada columna en una tabla, lo que le
    |---|---|
    | **[!UICONTROL Semanas/meses/trimestres/años anteriores a este intervalo de fechas *x*]** | Añada una columna con la semana, el mes, etc. inmediatamente anterior a este intervalo de fechas. |
    | **[!UICONTROL Estas *x* semanas / meses / trimestres / años del año pasado a este intervalo de fechas]** | Agregue el mismo intervalo de fechas hace un año. |
-   | **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]** | Permite crear un intervalo de fechas personalizado. |
+   | **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]** | Permite crear un intervalo de fechas personalizado. |
 
    >[!NOTE]
    >
-   >Al seleccionar una cantidad personalizada de días, por ejemplo, del 7 de octubre al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL 14 días anteriores a este intervalo de fechas]** e **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]**.
+   >Cuando seleccione un número de días personalizado, por ejemplo del 7 al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL los 14 días anteriores a este intervalo de fechas]** y un **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]**.
 
 1. El periodo de tiempo se inserta encima de la columna seleccionada:
 
@@ -76,7 +76,7 @@ Ahora puede agregar un período de tiempo a cada columna en una tabla, lo que le
 
 ## Alinear fechas de columnas para que comiencen en la misma fila
 
-Puede alinear las fechas de cada columna con todas a partir de la misma fila.
+Puede alinear fechas de cada columna con todas a partir de la misma fila.
 
 Por ejemplo, se realiza una comparación día tras día de la última semana (que termina el 5 de octubre de 2024) y de la semana anterior. De forma predeterminada, la columna izquierda comenzará el 22 de septiembre y la columna derecha comenzará el 29 de septiembre.
 

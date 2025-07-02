@@ -1,13 +1,13 @@
 ---
-description: Los administradores pueden agregar descripciones para los componentes mediante la vista de datos.
-title: Adición de descripciones de componentes
+description: Los administradores pueden agregar descripciones para los componentes en la vista de datos o mediante el diccionario de datos
+title: Agregar descripciones de componentes
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 14%
+source-wordcount: '174'
+ht-degree: 12%
 
 ---
 
@@ -32,5 +32,5 @@ Para obtener información general acerca del diccionario de datos, consulte la [
 >[!MORELIKETHIS]
 >
 >[Configuración del componente de vista de datos](/help/data-views/component-settings/overview.md)
->&#x200B;>[Entradas del componente del diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Entradas del componente del diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

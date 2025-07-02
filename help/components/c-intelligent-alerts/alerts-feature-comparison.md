@@ -4,10 +4,10 @@ title: Comparación de funciones de alertas entre Customer Journey Analytics y A
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 7%
+source-wordcount: '558'
+ht-degree: 23%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 7%
 
 El proceso de utilización de alertas en Customer Journey Analytics es casi idéntico al de las alertas en Adobe Analytics. Sin embargo, hay diferencias importantes. Las siguientes secciones describen las diferencias clave.
 
-## Las alertas horarias no están disponibles en Customer Journey Analytics
+## Las alertas horarias no están disponibles
 
-Las alertas horarias no están disponibles en Customer Journey Analytics como lo están en Adobe Analytics. En Customer Journey Analytics, las alertas se pueden configurar para alertas diarias, semanales o mensuales.
+Las alertas por hora están **no** disponibles en Customer Journey Analytics, mientras que las alertas por hora están disponibles en Adobe Analytics. En Customer Journey Analytics, las alertas se pueden configurar para alertas diarias, semanales o mensuales.
 
-Esto se debe a las distintas formas en que se pueden ingerir los datos en Adobe Experience Platform antes de notificarlos en Customer Journey Analytics. La integridad y disponibilidad de los datos no se pueden lograr de forma fiable en una hora, lo que hace que las alertas horarias no sean prácticas debido al alto potencial de datos incompletos. Para obtener más información, consulte [Los tiempos de ingesta de datos varían](#data-ingestion-times-vary-in-customer-journey-analytics).
+Puede introducir datos en Adobe Experience Platform de varias formas. Como resultado, la integridad y disponibilidad de los datos no se pueden lograr de forma fiable dentro de las restricciones de una hora.  La flexibilidad de la ingesta de datos implica que las alertas horarias no son prácticas debido al alto potencial de datos incompletos. Para obtener más información, consulte [Los tiempos de ingesta de datos varían](#data-ingestion-times-vary-in-customer-journey-analytics).
 
-## Los tiempos de ingesta de datos varían en Customer Journey Analytics
+## Los tiempos de ingesta de datos varían
 
 El tiempo necesario antes de que los datos se completen y estén disponibles para la creación de informes en Customer Journey Analytics varía según la organización.
 
@@ -39,13 +39,13 @@ Por estos motivos, la ingesta de datos para los distintos tipos de datos de even
 
 Para tener en cuenta este retraso en el tiempo de ingesta, las alertas tienen un retraso predeterminado de 9 horas antes de enviarse.
 
-Puede ajustar el retraso predeterminado de 9 horas a cualquier valor entre 0 y 24 horas. Sin embargo, si se reduce el retraso por debajo de 9 horas, puede significar que está generando informes con datos incompletos, lo que da como resultado información de alerta inexacta.
+Puede ajustar el retraso predeterminado de 9 horas a cualquier valor entre 0 y 24 horas. Sin embargo, si se reduce el retraso por debajo de 9 horas, puede indicar que está generando informes sobre datos incompletos, lo que da como resultado una información de alerta inexacta.
 
 Para obtener más información sobre cómo ajustar la demora y los factores que debe tener en cuenta al hacerlo, consulte [Crear alertas](/help/components/c-intelligent-alerts/alert-builder.md).
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## La opción para crear una alerta desde Analysis Workspace no está disponible
+## Crear una alerta a partir de Analysis Workspace no disponible
 
 En Analysis Workspace en Adobe Analytics, puede crear alertas a partir de Analysis Workspace de cualquiera de las formas que se describen a continuación. En Customer Journey Analytics, las opciones para crear alertas desde Analysis Workspace aún no están disponibles. En su lugar, acceda al Generador de alertas, tal como se describe en [Crear alertas](/help/components/c-intelligent-alerts/alert-builder.md).
 
@@ -57,4 +57,4 @@ En Adobe Analytics, están disponibles las siguientes opciones:
 
 * Abra un proyecto en Analysis Workspace y seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Crear alerta]**.
 
-* Abra un proyecto en Analysis Workspace y, a continuación, utilice el acceso directo siguiente: **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) o&#x200B;**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]** (macOS).
+* Abra un proyecto en Analysis Workspace y, a continuación, utilice el acceso directo siguiente: **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) o**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]** (macOS).

@@ -1,13 +1,13 @@
 ---
 title: Crear intervalos de fechas
-description: Crear un intervalo de fecha para utilizarlo en los informes.
+description: Obtenga información sobre cómo crear un intervalo de fechas que pueda utilizar en Analysis Workspace.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 96%
+source-wordcount: '539'
+ht-degree: 92%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-description: Funciones de soporte de accesibilidad en Analysis Workspace
-title: Accesibilidad en Analysis Workspace
+description: Obtenga información acerca de las funciones de compatibilidad con la accesibilidad en Analysis Workspace.
+title: Accesibilidad En Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: dca8b99dad97e939e8021a681cb21ab14ca1ff87
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ La accesibilidad se refiere a hacer que personas con discapacidades visuales, au
 La navegación en [!UICONTROL Analysis Workspace] funciona desde arriba a abajo e izquierda a derecha. Los siguientes elementos de navegación facilitan la accesibilidad:
 
 * La tecla **[!UICONTROL Pestaña]** habilita accesos directos de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el panel izquierdo, **[!UICONTROL Pestaña]** también te permite pasar de una opción arrastrable a la siguiente.
-* Los ◀︎ y ▶︎ se mueven entre elementos individuales después de que la tecla **[!UICONTROL Pestaña]** haya resaltado un elemento.
+* ◀︎ y ▶︎ se mueven entre elementos individuales después de que la tecla **[!UICONTROL Tab]** haya resaltado un elemento.
 * La clave **[!UICONTROL F6]** se desplaza al primer panel del proyecto y se mueve entre las visualizaciones de ese panel. A continuación, se desplaza al siguiente panel del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul para el panel seleccionado. Y fondo gris para la funcionalidad seleccionada recientemente y la selección dentro de la funcionalidad. En el ejemplo, [!UICONTROL Componentes] y la dimensión Página se han seleccionado recientemente.
 

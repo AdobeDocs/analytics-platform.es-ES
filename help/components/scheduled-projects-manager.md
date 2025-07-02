@@ -1,13 +1,13 @@
 ---
-description: Hay dos modos de utilizar métricas en Analysis Workspace.
-title: Métricas
+description: Obtenga información sobre cómo administrar proyectos programados.
+title: Proyectos programados
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 42%
+source-wordcount: '787'
+ht-degree: 41%
 
 ---
 

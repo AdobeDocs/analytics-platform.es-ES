@@ -1,13 +1,13 @@
 ---
-title: Administración de intervalos de fechas
-description: Comparta, cambie el nombre o elimine intervalos de fechas en Analysis Workspace.
+title: Administrar intervalos de fechas
+description: Obtenga información sobre cómo administrar intervalos de fechas en Analysis Workspace.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 12%
+source-wordcount: '603'
+ht-degree: 30%
 
 ---
 
@@ -27,11 +27,11 @@ El administrador de intervalos de fechas tiene los siguientes elementos de inter
 
 ### Lista de intervalos de fechas
 
-La lista de intervalos de fechas ➊ muestra todos los intervalos de fechas. La lista tiene las columnas siguientes:
+La lista de intervalos de fechas ➊ muestra todos los intervalos de fechas. La lista tiene las siguientes columnas:
 
 | Columna | Descripción |
 | --- | --- | 
-| ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o para anular la preferencia de ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) en un intervalo de fechas. |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o para anular la preferencia de ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) en un intervalo de fechas. |
 | **[!UICONTROL Título y descripción]** | Para editar el título y la descripción, seleccione el vínculo del título, que abre el [Generador de intervalos de fechas](/help/components/date-ranges/create.md#date-range-builder). |
 | **[!UICONTROL Propietario]** | El propietario del intervalo de fecha. |
 | **[!UICONTROL Etiquetas]** | Las etiquetas para este intervalo de fechas. |
@@ -40,35 +40,35 @@ La lista de intervalos de fechas ➊ muestra todos los intervalos de fechas. La 
 
 {style="table-layout:auto"}
 
-Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué columnas desea mostrar.
+Usa ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué columnas deseas mostrar.
 
 ### Barra de acciones
 
-Puede realizar acciones en intervalos de fechas utilizando el ➋ de barra de acciones. La barra de acciones contiene las siguientes acciones:
+Puede realizar acciones en intervalos de fechas utilizando la barra de acciones ➋. La barra de acciones contiene las siguientes acciones:
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![AgregarCírculo](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otro intervalo de fechas utilizando el generador de intervalos de fechas [1&rbrace;.](create.md#date-range-builder) |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otro intervalo de fechas utilizando el generador de intervalos de fechas [1}.](create.md#date-range-builder) |
 | ![Buscar](/help/assets/icons/Search.svg) | [!UICONTROL *Buscar por título*] | Cuando no se selecciona ningún intervalo de fechas en la lista, busque intervalos de fechas utilizando este campo de búsqueda. |
 | ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquete los intervalos de fechas seleccionados. En el cuadro de diálogo **[!UICONTROL Intervalo de fecha de etiqueta]**, seleccione o anule la selección de las etiquetas para los intervalos de fecha seleccionados. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los intervalos de fechas seleccionados. |
 | ![Compartir](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Compartir]** | Compartir los intervalos de fechas seleccionados. En el cuadro de diálogo **[!UICONTROL Compartir intervalo de fechas]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de los intervalos de fechas seleccionados. |
-| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar los intervalos de fechas seleccionados. Se le pedirá una confirmación. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar los intervalos de fechas seleccionados. Se te pedirá una confirmación. |
 | ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambie el nombre de un solo intervalo de fechas seleccionado. Cuando se selecciona, puede cambiar el nombre del intervalo de fechas en línea. |
 | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprobar]** | Apruebe los intervalos de fechas seleccionados. |
 | ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copie los intervalos de fechas seleccionados. Los nuevos intervalos de fechas se crean con el mismo nombre y sufijo (Copiar) |
-| ![ArchivoCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar los intervalos de fechas seleccionados a un archivo de `Date ranges List.csv`. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar los intervalos de fechas seleccionados a un archivo de `Date ranges List.csv`. |
 
 ### Barra de filtro activa
 
-La ➌ de la barra de filtros muestra los filtros activos (si los hay). Puede quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, use **[!UICONTROL Quitar todos]** para quitar todos los filtros.
+La barra de filtros ➌ muestra los filtros activos (si los hay). Puedes quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, use **[!UICONTROL Quitar todos]** para quitar todos los filtros.
 
 ### Panel Filtro
 
-Puede filtrar intervalos de fechas utilizando el ➍ del panel izquierdo **[!UICONTROL Filtrar]**. El panel Filtro muestra el tipo de filtro y el número de intervalos de fechas que respetan el filtro. Seleccione ![Filter](/help/assets/icons/Filter.svg) para alternar la visualización del panel de filtros.
+Puede filtrar intervalos de fechas utilizando el panel izquierdo **[!UICONTROL Filtro]** ➍. El panel Filtro muestra el tipo de filtro y el número de intervalos de fechas que respetan el filtro. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para alternar la visualización del panel de filtros.
 
-Para filtrar la lista de filtros:
+Filtrar la lista de filtros
 
-1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesita más espacio para la lista Filtros, puede seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
+1. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesitas más espacio para la lista Filtros, puedes seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
 1. Puede filtrar los intervalos de fechas utilizando cualquiera de las [secciones de filtros](#filter-sections) disponibles.
 
    >[!INFO]
@@ -83,14 +83,14 @@ Para filtrar la lista de filtros:
 {{otherfiltersfiltersection}}
 
 
-La [lista de intervalos de fechas](#date-ranges-list) se actualiza automáticamente según la configuración del filtro. Puede ver los filtros configurados en la [barra de filtros activa](#active-filter-bar).
+La [lista de intervalos de fechas](#date-ranges-list) se actualiza automáticamente según la configuración del filtro. Puedes ver los filtros configurados en la [barra de filtros activa](#active-filter-bar).
 
 
 ## Editar intervalos de fechas
 
 Un intervalo de fecha se edita de dos formas:
 
-* En un proyecto de Workspace, use el icono [Información del componente](/help/components/use-components-in-workspace.md#component-info).
+* En un proyecto de Workspace, usa el icono [Información del componente](/help/components/use-components-in-workspace.md#component-info).
 
 * En la lista [[!UICONTROL Intervalos de fechas]](#date-ranges-list), seleccione el título del intervalo de fechas.
 

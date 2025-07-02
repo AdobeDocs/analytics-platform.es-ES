@@ -1,14 +1,14 @@
 ---
-title: Casos de uso de vistas de datos en Customer Journey Analytics
-description: Casos de uso múltiple que muestran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics
+title: Casos de uso de vistas de datos
+description: Obtenga información sobre varios casos de uso que muestran la flexibilidad y la potencia de las vistas de datos en Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 33%
+source-wordcount: '1358'
+ht-degree: 30%
 
 ---
 
@@ -39,7 +39,7 @@ Por ejemplo, al crear una vista de datos, podría crear una métrica de [!UICONT
 1. Abra la sección **[!UICONTROL Incluir/Excluir valores]** y especifique lo siguiente:
    1. Habilitar **[!UICONTROL Establecer valores de exclusión]**.
    1. Seleccione **[!UICONTROL Si se cumplen todos los criterios]** de **[!UICONTROL Coincidencia]**.
-   1. Especifique `confirmation`. Este texto para **[!UICONTROL page_title]** indica que esta página está relacionada con la realización de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se contará un `1` para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Funciona con Attribution IQ, segmentos y en cualquier otro lugar donde se pueden utilizar métricas estándar.
+   1. Especifique `confirmation`. El texto de **[!UICONTROL page_title]** indica que esta página está relacionada con la realización de un pedido. Después de revisar todos los títulos de las páginas donde se cumplen esos criterios, se contará un `1` para cada instancia. El resultado es una nueva métrica (no una métrica calculada). Una métrica que ha incluido o excluido valores puede utilizarse en cualquier otra métrica. Estas métricas funcionan con atribución, segmentos y en cualquier otro lugar donde se pueden utilizar métricas estándar.
 
    ![Dimension a métrica](../assets/string-to-metric.gif){width=100%}
 1. Puede especificar un modelo de atribución para esta métrica, como [!UICONTROL Último toque], con un [!UICONTROL Periodo de retroactividad] de [!UICONTROL Sesión].
@@ -60,9 +60,9 @@ Anteriormente, los enteros se trataban automáticamente como métricas en Custom
 
 ## Uso de dimensiones numéricas como métricas en diagramas de flujo {#numeric}
 
-Puede utilizar una dimensión numérica para obtener métricas en la visualización [!UICONTROL &#x200B; Flujo].
+Puede utilizar una dimensión numérica para obtener métricas en la visualización [!UICONTROL  Flujo].
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 2. En los informes de Workspace, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
 
 ![Flujo de canal de mercadotecnia de correos electrónicos a pedidos de salida.](../assets/flow.png)
@@ -73,7 +73,7 @@ Esta función se aplica específicamente a los campos basados en matrices. La fu
 
 Por ejemplo, use la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 $. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 $ y una compra de productos de 25 $, la funcionalidad de inclusión/exclusión elimina la compra de productos de 25 $, no todo el pedido.
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema **[!UICONTROL Ingresos]** al área **[!UICONTROL Métricas]** en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema **[!UICONTROL Ingresos]** al área **[!UICONTROL Métricas]** en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
 a. En **[!UICONTROL Formato]**, seleccione **[!UICONTROL Moneda]**.
 b. En **[!UICONTROL Moneda]**, seleccione **[!UICONTROL USD]**.
@@ -86,7 +86,7 @@ Esta nueva configuración le permite ver solo los ingresos de alto valor y filtr
 
 ## Usar la configuración [!UICONTROL Sin opciones de valor] {#no-value}
 
-Es posible que su empresa haya dedicado tiempo en formar a sus usuarios para ver No especificado para las dimensiones en los informes. El valor predeterminado de las dimensiones en Vistas de datos es &quot;Sin valor&quot;. Sin embargo, puede especificar por dimensión cómo se debe informar de Ningún valor. Consulte las Opciones sin valor para un componente de dimensión.
+Es posible que su empresa haya dedicado tiempo en formar a sus usuarios para ver No especificado para las dimensiones en los informes. El valor predeterminado para las dimensiones en Vistas de datos es *Sin valor*. Sin embargo, puede especificar por dimensión cómo se debe informar de Ningún valor. Ver las opciones **[!UICONTROL Sin valor]** para un componente de dimensión.
 
 ![Sin opciones de valor](../assets/no-value-options.gif){width=100%}
 
@@ -112,11 +112,11 @@ Puede determinar si una sesión es realmente la primera sesión de un usuario o 
 
 Una dimensión y dos métricas facilitan esta creación de informes:
 
-* [Tipo de sesión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference) - Esta dimensión tiene dos valores: [!UICONTROL Nuevo] y [!UICONTROL Devolviendo]. El elemento de línea [!UICONTROL New] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
+* [Tipo de sesión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) - Esta dimensión tiene dos valores: [!UICONTROL Nuevo] y [!UICONTROL Devolviendo]. El elemento de línea [!UICONTROL New] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
 
-* [Sesiones por primera vez](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference). La métrica Sesiones por primera vez se define como la primera sesión definida por una persona dentro de la ventana de creación de informes.
+* [Sesiones por primera vez](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference). La métrica Sesiones por primera vez se define como la primera sesión definida por una persona dentro de la ventana de creación de informes.
 
-* [Sesiones de retorno](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference) La métrica Sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.—>
+* [Sesiones de retorno](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) La métrica Sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.—>
 
 Para acceder a los componentes:
 
@@ -127,8 +127,7 @@ Para acceder a los componentes:
 Las nuevas sesiones se registran con precisión casi siempre. Las únicas excepciones son las siguientes:
 
 * Cuando se produce una primera sesión antes de la ventana retrospectiva de 13 meses. <br/>Se omite esta sesión.
-
-* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes. <br/>Por ejemplo, ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión se inicia el 30 de mayo de 2022 y finaliza el 1 de junio de 2022, la sesión se incluirá en la ventana retrospectiva. Y todas las sesiones de la ventana de creación de informes se cuentan como sesiones recurrentes.
+* Cuando una sesión abarca tanto la ventana retrospectiva como la ventana de creación de informes.<br/>Por ejemplo, ejecuta un informe del 1 al 15 de junio de 2022. La ventana retrospectiva abarcaría del 1 de mayo de 2021 al 31 de mayo de 2022. Si una sesión se inicia el 30 de mayo de 2022 y finaliza el 1 de junio de 2022, la sesión se incluirá en la ventana retrospectiva. Y todas las sesiones de la ventana de creación de informes se cuentan como sesiones recurrentes.
 
 ## Uso de la funcionalidad Fecha y Fecha-hora {#date}
 

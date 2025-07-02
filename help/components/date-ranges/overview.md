@@ -1,13 +1,13 @@
 ---
-title: Información general sobre los intervalos de fechas
-description: Aprenda qué son los intervalos de fechas y cómo puede utilizarlos en el sistema de informes.
+description: Utilice el calendario y los intervalos de fechas para especificar intervalos de fechas en Analysis Workspace.
+title: Resumen de intervalos de fechas
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
-workflow-type: ht
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Los componentes de intervalo de fechas le permiten definir y anular la configura
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/327349?format=jpeg&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++

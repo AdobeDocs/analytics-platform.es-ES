@@ -1,14 +1,14 @@
 ---
-title: ¿Qué son los componentes de Customer Journey Analytics?
+title: Resumen de componentes
 description: Aprenda qué componentes ofrece Customer Journey Analytics y cómo puede utilizarlos en el sistema de informes.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 100%
+source-wordcount: '908'
+ht-degree: 99%
 
 ---
 

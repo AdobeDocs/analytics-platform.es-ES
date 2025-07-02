@@ -1,17 +1,17 @@
 ---
 description: Obtenga información acerca de la detección de anomalías de datos en Analysis Workspace.
-title: Funcionamiento de la detección de anomalías
+title: Información general de detección de anomalías
 feature: Anomaly Detection
 exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 96%
 
 ---
 
-# Resumen de la Detección de anomalías
+# Resumen de detección de anomalías
 
 Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
 
@@ -26,7 +26,7 @@ Algunos ejemplos de anomalías que puede investigar son:
 * Caídas drásticas en un valor de pedido promedio
 * Picos en pedidos con ingresos bajos
 * Picos o caídas en registros de prueba
-* Caídas en vistas de páginas de aterrizaje
+* Caídas en vistas de páginas de destino
 * Picos en eventos de almacenamiento de vídeo
 * Picos en tasas de bits de vídeo bajas
 

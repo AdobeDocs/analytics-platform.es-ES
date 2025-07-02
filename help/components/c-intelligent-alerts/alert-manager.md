@@ -1,13 +1,13 @@
 ---
-description: Crear, editar o eliminar alertas.
+description: Obtenga información sobre cómo administrar alertas.
 title: Administrar alertas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -83,7 +83,7 @@ Puede filtrar la lista de alertas con el panel izquierdo ![Filtro](/help/assets/
 {{tagfiltersection}}
 
 
-#### Sección Filtro de vista de datos
+#### Sección de filtro Vista de datos
 
 {{dataviewfiltersection}}
 
@@ -93,17 +93,17 @@ Puede filtrar la lista de alertas con el panel izquierdo ![Filtro](/help/assets/
 {{ownerfiltersection}}
 
 
-#### Sección de filtro de estado habilitado
+#### Sección de filtro Estado habilitado
 
 {{enabledstatusfiltersection}}
 
 
-#### Escriba la sección de filtro
+#### Sección de filtro Tipo
 
 {{typefiltersection}}
 
 
-#### Otros filtros, sección de filtro
+#### Sección de filtro Otros filtros
 
 {{otherfiltersfiltersection}}
 

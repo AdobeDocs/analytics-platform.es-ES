@@ -1,17 +1,17 @@
 ---
-description: La partición de tiempo toma la marca de hora de los eventos recopilados y la divide en dimensiones más significativas, como "Hora del día" o "Día de la semana".
+description: Obtenga información sobre cómo las dimensiones de partición de tiempo toman la marca de tiempo de los eventos recopilados y la dividen en dimensiones más significativas, como Hora del día o Día de la semana.
 title: Dimensiones de partición de tiempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
-# Dimensiones de partición de tiempo en Analysis Workspace
+# Dimensiones de partición de tiempo
 
 La partición de tiempo toma la marca de tiempo de los eventos recopilados y la divide en dimensiones más significativas, como **Hora del día** o **Día de la semana**.
 
