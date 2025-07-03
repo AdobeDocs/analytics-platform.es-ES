@@ -1,10 +1,9 @@
 ---
 description: Obtenga información sobre cómo ver los detalles y los valores principales de una dimensión en Analysis Workspace.
 title: Previsualizar dimensiones
-feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 22f6370152b2ff4a48514de4ff2bb02db9f4a64b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 4%

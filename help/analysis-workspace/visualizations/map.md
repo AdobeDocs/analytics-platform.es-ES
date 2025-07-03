@@ -1,12 +1,12 @@
 ---
-description: Utilice la visualización de mapas para trazar datos en una visualización de mapa geográfico
+description: Utilice la visualización de mapas para trazar datos en una visualización de mapa geográfico.
 title: Mapa
 feature: Visualizations
 role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 639c3d3c349615078c76f8806bcd5bb458b0f6f2
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 83%
@@ -44,6 +44,6 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_Actualmente no hay ninguna visualización Mapa disponible en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para ver la documentación sobre la visualización Mapa en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._
+_Actualmente no hay ninguna visualización Mapa disponible en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para ver la documentación sobre la visualización Mapa en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]

@@ -1,13 +1,13 @@
 ---
-description: Comprenda cuáles son las métricas y cómo utilizarlas en Adobe Analytics.
+description: Comprenda cuáles son las métricas y cómo utilizarlas en Analysis Workspace.
 title: Métricas
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 8%
+source-wordcount: '868'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Las métricas permiten cuantificar los puntos de datos en Analysis Workspace. No
 
 ## Uso de métricas en Analysis Workspace
 
-Las métricas son flexibles en su uso dentro de Analysis Workspace. Arrastre una métrica a una tabla de forma libre vacía para ver las tendencias de esa métrica durante el período de fecha del proyecto. También puede arrastrar una métrica cuando una dimensión esté presente para ver cómo se compara esa métrica con cada elemento de dimensión. Si arrastra una métrica sobre un encabezado de métrica existente, reemplazará la métrica existente y, si arrastra una métrica junto a un encabezado, podrá ver ambas métricas una al lado de la otra.
+Las métricas son flexibles en su uso dentro de Analysis Workspace. Arrastre una métrica a una tabla de forma libre vacía para ver las tendencias de esa métrica durante el período de fecha del proyecto. También puede arrastrar una métrica cuando una dimensión esté presente para verla comparada con cada elemento de dimensión. Al arrastrar una métrica sobre un encabezado de métrica existente, se reemplaza y al arrastrar una métrica junto a un encabezado, puede ver ambas métricas en paralelo.
 
 Para obtener información acerca de cómo agregar métricas y otros tipos de componentes a Analysis Workspace, vea [Usar componentes en Analysis Workspace](/help/components/use-components-in-workspace.md).
 
@@ -27,11 +27,17 @@ Para obtener información acerca de cómo agregar métricas y otros tipos de com
 Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
 
-* **Métricas estándar**: Algunos ejemplos de métricas estándar son Personas, Sesiones, Eventos y Cuentas de [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.
+* **Métricas estándar**: Algunas métricas estándar son Personas, Sesiones y Eventos.
 
-  Al contrario que Adobe Analytics, Customer Journey Analytics permite definir métricas estándar de forma flexible dentro del ámbito de una conexión y una vista de datos.  Consulte [Métricas estándar](#standard-metrics) para obtener una lista completa de las métricas estándar.
+  Al contrario que Adobe Analytics, Customer Journey Analytics permite definir métricas estándar de forma flexible dentro del ámbito de una conexión y una vista de datos.
 
-* **Métricas calculadas** ![Calculadora](/help/assets/icons/Calculator.svg): [Métricas definidas por el usuario](/help/components/calc-metrics/calc-metr-overview.md) basadas en métricas estándar, números estáticos o funciones algorítmicas.
+   * **Personas**: La métrica Personas en Customer Journey Analytics es el recuento distinto de los ID de persona. Según lo que elija como ID de persona al configurar conjuntos de datos en la conexión, la métrica Personas puede significar cosas diferentes.
+   * **Sesiones**: La métrica Sesiones de Customer Journey Analytics es lo que define como parte de la configuración de las Sesiones en la vista de datos. Consulte [Configuración de la sesión](/help/data-views/session-settings.md).
+   * **Eventos**: la métrica Eventos de Customer Journey Analytics consta de los eventos que forman parte de cualquier conjunto de datos de evento que haya configurado como parte de su conexión.
+
+  Consulte [Métricas estándar](#standard-metrics) para obtener una lista completa de las métricas estándar.
+
+* **Métricas calculadas** ![Calculadora](/help/assets/icons/Calculator.svg): Métricas definidas por el usuario que se basan en métricas estándar, números estáticos o funciones algorítmicas.
 
 * **Plantillas de métricas calculadas** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : Métricas definidas por Adobe que se comportan de manera similar a las métricas calculadas. Puede utilizarlos tal cual en los proyectos de Workspace o guardar una copia para personalizar la lógica. Ver [métricas calculadas predeterminadas](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
@@ -46,7 +52,7 @@ La lista completa de métricas estándar en Customer Journey Analytics:
 
 ## Crear métricas calculadas
 
-Las métricas calculadas permiten configurar cómo se relacionan entre sí las métricas, mediante operadores simples o funciones estadísticas. Consulte [Resumen de métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md) para obtener más información.
+Las métricas calculadas permiten configurar fácilmente cómo se relacionan entre sí las métricas, mediante operadores simples o funciones estadísticas. Consulte [Resumen de métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md) para obtener más información.
 
 Existen varias formas de crear métricas calculadas. El método que elija determina si la métrica calculada está disponible en la lista de componentes de todos los proyectos o solo en el proyecto en el que se creó.
 
@@ -76,15 +82,15 @@ Para crear una métrica calculada para un solo proyecto:
 
    Cuando se selecciona una sola columna, están disponibles las siguientes opciones:
 
-   * [!UICONTROL **Media**]: crea una nueva columna que muestra el valor medio en el conjunto de elementos de dimensión de la columna. Este valor de columna utiliza la función [Media](/help/components/calc-metrics/cm-functions.md#mean).
+   * [!UICONTROL **Media**]: crea una nueva columna que muestra el valor medio en el conjunto de elementos de dimensión de la columna. Utiliza la función [Mean](/help/components/calc-metrics/cm-functions.md#mean).
 
-   * [!UICONTROL **Mediana**]: crea una nueva columna que muestra el valor de mediana en el conjunto de elementos de dimensión de la columna. Este valor de columna utiliza la función [Median](/help/components/calc-metrics/cm-functions.md#median).
+   * [!UICONTROL **Mediana**]: crea una nueva columna que muestra el valor de mediana en el conjunto de elementos de dimensión de la columna. Utiliza la función [Median](/help/components/calc-metrics/cm-functions.md#median).
 
-   * [!UICONTROL **Máximo de columna**]: Crea una nueva columna que muestra el valor más alto del conjunto de elementos de dimensión de la columna. Este valor de columna utiliza la función [Máximo de columna](/help/components/calc-metrics/cm-functions.md#column-maximum).
+   * [!UICONTROL **Máximo de columna**]: Crea una nueva columna que muestra el valor más alto del conjunto de elementos de dimensión de la columna. Utiliza la función [Máximo de columna](/help/components/calc-metrics/cm-functions.md#column-maximum).
 
-   * [!UICONTROL **Columna mín.**]: crea una nueva columna que muestra el valor más pequeño del conjunto de elementos de dimensión para la columna. Este valor de columna utiliza la función [Mínimo de columna](/help/components/calc-metrics/cm-functions.md#column-minimum).
+   * [!UICONTROL **Columna mín.**]: crea una nueva columna que muestra el valor más pequeño del conjunto de elementos de dimensión para la columna. Utiliza la función [Mínimo de columna](/help/components/calc-metrics/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **Suma de columna**]: Crea una nueva columna que agrega todos los valores numéricos de una métrica dentro de una columna (en los elementos de una dimensión). Este valor de columna utiliza la función [Suma de columna](/help/components/calc-metrics/cm-functions.md#column-sum).
+   * [!UICONTROL **Suma de columna**]: Crea una nueva columna que agrega todos los valores numéricos de una métrica dentro de una columna (en los elementos de una dimensión). Utiliza la función [Suma de columna](/help/components/calc-metrics/cm-functions.md#column-sum).
 
    Cuando se seleccionan dos columnas, están disponibles las siguientes opciones:
 

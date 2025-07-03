@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 4d902bab01c1c795cb7d852066128f6b9db0823a
 workflow-type: tm+mt
-source-wordcount: '5261'
+source-wordcount: '5279'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 | --- | --- |
+| **Julio de 2025** | |
+| Depurador | Nuevo artículo sobre cómo habilitar, utilizar y deshabilitar el depurador de proyectos en Analysis Workspace. |
 | **Junio de 2025** | |
 | Nuevas acciones de método abreviado | Los nuevos métodos abreviados de teclado en Analysis Workspace ahora le permiten [mover paneles de Workspace](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) hacia arriba y hacia abajo en un proyecto. |
 | **Mayo de 2025** | |
@@ -43,8 +45,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Actualizaciones del elemento de línea &quot;Sin valor&quot; en dimensiones numéricas | En el caso de las dimensiones numéricas, esta actualización le permite utilizar el elemento de dimensión “Sin valor” en un segmento y realizar un desglose en un informe sobre el elemento de línea “Sin valor”. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) |
 | Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de creación de informes de medios | El conector de origen de Analytics asigna automáticamente los datos de medios de streaming en Adobe Analytics a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero en el futuro solo se utilizará la nueva ubicación. [Más información](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **Febrero de 2025** |  |
-| Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de creación de informes de medios | El conector de origen de Analytics [asigna automáticamente los datos de medios de streaming de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero en el futuro solo se utilizará la nueva ubicación.  |
-| Extensión de BI: compatibilidad ampliada | La extensión de BI de Customer Journey Analytics ahora admite [Looker, Jupyter Notebook y R Studio](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en). |
+| Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de creación de informes de medios | El conector de origen de Analytics [asigna automáticamente los datos de medios de streaming de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero en el futuro solo se utilizará la nueva ubicación.  |
+| Extensión de BI: compatibilidad ampliada | La extensión de BI de Customer Journey Analytics ahora admite [Looker, Jupyter Notebook y R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en). |
 | **Enero de 2025** |  |
 | Experiencia de uso de conexiones actualizadas | La pestaña [Uso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage) de Connection ahora proporciona visualizaciones mejoradas para estos tipos de filas de informes: datos principales, ingeridos e históricos. También puede ver y desglosar los datos de uso por la conexión, el conjunto de datos, la zona protegida o la etiqueta.  |
 | Métricas de uso | Se ha actualizado la documentación sobre la interfaz de [métricas de uso](/help/connections/manage-connections.md#usage) mejorada. |
@@ -52,7 +54,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Análisis guiado | Se ha actualizado la documentación con la disponibilidad de [Análisis guiado](/help/guided-analysis/overview.md) desde el Análisis guiado. |
 | Documentación sobre el uso de plantillas personalizadas de Customer Journey Analytics en la página Informes de Journey Optimizer | Ahora puede personalizar la nueva interfaz de creación de informes en Adobe Journey Optimizer [creando o editando una plantilla en Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en) y guardando a continuación la plantilla que desea utilizar en la página Informes de Journey Optimizer. Anteriormente, la nueva interfaz de informes de Adobe Journey Optimizer no se podía personalizar. |
 | Plantillas de Analysis Workspace | Las [plantillas creadas previamente](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates) y las [plantillas de la compañía](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/create-templates) ya están disponibles en Customer Journey Analytics. |
-| Subtítulos inteligentes v2 | Los [Subtítulos inteligentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en) ahora son compatibles con las siguientes visualizaciones: Multilínea, Barra, Barra horizontal, Anillo, Área, Flujo y Visita en orden previsto. Puede seleccionar que se muestren todos los subtítulos inteligentes a la vez en una vista expandida o puede mostrar subtítulos inteligentes individuales en una vista uno por uno.  |
+| Subtítulos inteligentes v2 | Los [Subtítulos inteligentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en) ahora son compatibles con las siguientes visualizaciones: Multilínea, Barra, Barra horizontal, Anillo, Área, Flujo y Visita en orden previsto. Puede seleccionar que se muestren todos los subtítulos inteligentes a la vez en una vista expandida o puede mostrar subtítulos inteligentes individuales en una vista uno por uno.  |
 
 ## 2024
 

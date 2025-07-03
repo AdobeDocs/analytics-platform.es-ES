@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre cómo las dimensiones de partición de tiempo toman la marca de tiempo de los eventos recopilados y la dividen en dimensiones más significativas, como Hora del día o Día de la semana.
+description: Obtenga información sobre cómo las dimensiones de partición de tiempo toman la marca de tiempo de los eventos recopilados y los desglosan en dimensiones más significativas, como Hora del día o Día de la semana.
 title: Dimensiones de partición de tiempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 55%
+source-wordcount: '198'
+ht-degree: 54%
 
 ---
 

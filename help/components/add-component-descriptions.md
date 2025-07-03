@@ -1,13 +1,13 @@
 ---
-description: Los administradores pueden agregar descripciones para los componentes en la vista de datos o mediante el diccionario de datos
-title: Agregar descripciones de componentes
+description: Descubra cómo los administradores pueden agregar descripciones a los componentes mediante una vista de datos o el diccionario de datos.
+title: Adición de descripciones de componentes
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '168'
+ht-degree: 17%
 
 ---
 
@@ -17,11 +17,11 @@ Las descripciones ayudan a los usuarios a saber cómo utilizar los distintos com
 
 Los administradores de Customer Journey Analytics pueden agregar descripciones para los componentes (dimensiones, métricas, segmentos e intervalos de fechas) dentro de una vista de datos o mediante el diccionario de datos.
 
-## Agregar descripciones en una vista de datos
+## Vista de datos
 
 Puede agregar una descripción a un componente que haya agregado a la vista de datos. Consulte [Configuración de componentes](/help/data-views/component-settings/overview.md).
 
-## Agregar descripciones mediante el diccionario de datos
+## Diccionario de datos
 
 El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a realizar un seguimiento y comprender mejor los componentes de su entorno de Customer Journey Analytics. El diccionario de datos incluye la capacidad, para administradores, de agregar descripciones de componentes directamente en Analysis Workspace.
 
@@ -32,5 +32,5 @@ Para obtener información general acerca del diccionario de datos, consulte la [
 >[!MORELIKETHIS]
 >
 >[Configuración del componente de vista de datos](/help/data-views/component-settings/overview.md)
->&#x200B;>[Entradas del componente del diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Entradas del componente del diccionario de datos](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

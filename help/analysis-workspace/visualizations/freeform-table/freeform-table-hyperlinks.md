@@ -1,12 +1,12 @@
 ---
-title: Creación De Hipervínculos Para Dimensiones En Una Tabla De Forma Libre
+title: Crear hipervínculos
 description: Obtenga información sobre cómo crear hipervínculos para elementos de dimensión en una tabla de forma libre en Analysis Workspace.
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1599'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ Esta funcionalidad es especialmente útil al crear hipervínculos para los sigui
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear hipervínculos en una tabla de forma libre](https://video.tv.adobe.com/v/3445784/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear hipervínculos en una tabla de forma libre](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -1,23 +1,23 @@
 ---
 description: Aprenda a filtrar y ordenar tablas de forma libre en Analysis Workspace.
-title: Filtrar Y Ordenar Tablas
+title: Filtrar Y Ordenar
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '841'
 ht-degree: 97%
 
 ---
 
-# Filtrado y ordenación de tablas de forma libre
+# Filtrar y ordenar
 
 Las tablas de forma libre en Analysis Workspace son la base del análisis interactivo de datos. Como tal, pueden contener miles de filas de información. Filtrar y ordenar los datos puede ser una parte fundamental para que la información más importante aparezca de forma eficaz.
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/327344?captions=spa)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## Filtrado de tablas
 

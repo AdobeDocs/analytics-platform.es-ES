@@ -1,14 +1,14 @@
 ---
 description: Aprenda a organizar sus proyectos en carpetas en Analysis Workspace.
 keywords: Analysis Workspace
-title: Información general de carpetas
+title: Información general sobre carpetas
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
