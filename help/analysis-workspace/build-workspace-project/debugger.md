@@ -75,7 +75,7 @@ Para utilizar el depurador para una visualización específica:
    * JSON (respuesta)
    * Solicitud cURL
 
-1. Use ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar al portapapeles]**d debajo de **[!UICONTROL Solicitud cURL]** para copiar la solicitud en el portapapeles.
+1. Use ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar al portapapeles]**&#x200B;d debajo de **[!UICONTROL Solicitud cURL]** para copiar la solicitud en el portapapeles.
 1. Pase el ratón sobre cualquiera de las áreas de texto de **[!UICONTROL Solicitud]** o **[!UICONTROL Respuesta]** para mostrar y seleccionar ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar al portapapeles]** para copiar el contenido de ese área de texto (XML o JSON) en el portapapeles.
 
 1. Intercambie cualquier información que haya copiado y que el Soporte de Adobe haya solicitado para solucionar los problemas de las visualizaciones en su proyecto de Analysis Workspace.
