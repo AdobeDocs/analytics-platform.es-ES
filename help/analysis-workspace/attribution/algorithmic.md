@@ -18,7 +18,7 @@ El [modelo de atribución](models.md) algorítmica en Analysis Workspace difiere
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución algorítmica](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución algorítmica](https://video.tv.adobe.com/v/40049?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

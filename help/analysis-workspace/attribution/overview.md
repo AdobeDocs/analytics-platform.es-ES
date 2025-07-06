@@ -53,28 +53,28 @@ Attribution incluye las siguientes funciones:
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución en tablas de forma libre](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución en tablas de forma libre](https://video.tv.adobe.com/v/38639?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución en métricas calculadas](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución en métricas calculadas](https://video.tv.adobe.com/v/41480?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso del panel de atribución](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso del panel de atribución](https://video.tv.adobe.com/v/38642?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adición de comparaciones paralelas de modelos de atribución](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adición de comparaciones paralelas de modelos de atribución](https://video.tv.adobe.com/v/327796?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
