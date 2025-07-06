@@ -1,12 +1,12 @@
 ---
-description: Obtenga información sobre el tipo de métrica y la atribución
-title: Tipo de métrica y atribución
+description: Obtenga información sobre el tipo de métrica y la atribución.
+title: Tipo De Métrica Y Atribución
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -33,15 +33,15 @@ Puede configurar el tipo de métrica y [modelo de atribución](#attribution-mode
          * Deshabilitar **[!UICONTROL Uso de modelos de atribución no predeterminados]** para usar el modelo de atribución de columna predeterminado, que es Último toque, con una ventana de retroactividad de 30 días.
          * Habilitar **[!UICONTROL Uso de modelos de atribución no predeterminados]**. En el cuadro de diálogo **[!UICONTROL Modelo de atribución de columna]**:
 
-            * Seleccione un **[!UICONTROL Modelo]** de los [modelos de atribución](#attribution-models).
+            * Seleccione un **[!UICONTROL Modelo]** en los [modelos de atribución](#attribution-models).
             * Seleccione un **[!UICONTROL contenedor]** de las opciones de [contenedor](#container).
-            * Seleccione una **[!UICONTROL ventana retrospectiva]** de las opciones de la [ventana retrospectiva](#lookback-window). Si selecciona **[!UICONTROL Tiempo personalizado]**, puede definir el período de tiempo en **[!UICONTROL Minuto(s)]** hasta **[!UICONTROL Trimestre(s)]**.
+            * Seleccione una **[!UICONTROL ventana de retroactividad]** de las opciones de la [ventana de retroactividad](#lookback-window). Si selecciona **[!UICONTROL Tiempo personalizado]**, puede definir el período de tiempo en **[!UICONTROL Minuto(s)]** hasta **[!UICONTROL Trimestre(s)]**.
 
       1. Seleccione **[!UICONTROL Aplicar]** para aplicar el modelo de atribución no predeterminado. Seleccione Cancelar para cancelar.
 
      Si ya ha definido un modelo de atribución no predeterminado, seleccione **[!UICONTROL Editar]** para modificar la selección.
 
-Vea [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribución, un contenedor y una ventana retrospectiva.
+Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribución, un contenedor y una ventana de retroactividad.
 
 
 ## Modelos de atribución {#attribution-models}
@@ -113,7 +113,7 @@ Vea [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribución,
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
->title="Deterioro de tiempo"
+>title="Declive temporal"
 >abstract="Los valores de dimensión más cercanos en el tiempo a una conversión obtienen la mayor cantidad de crédito."
 
 >[!CONTEXTUALHELP]
@@ -163,6 +163,6 @@ Vea [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribución,
 >[!MORELIKETHIS]
 >
 >[Configuración de componentes de atribución](/help/data-views/component-settings/attribution.md)
->&#x200B;>[Métrica de participación](participation-metric.md)
+>>[Métrica de participación](participation-metric.md)
 >
 

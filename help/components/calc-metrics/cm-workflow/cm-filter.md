@@ -1,12 +1,12 @@
 ---
-description: Filtre por etiquetas, vista de datos, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
-title: Filtrar métricas calculadas
+description: Obtenga información sobre cómo filtrar métricas calculadas por etiquetas, vista de datos, propietarios y otros filtros.
+title: Filtrar La Lista De Métricas Calculadas
 feature: Calculated Metrics
 exl-id: 902da464-14de-45b9-bd92-d2db064cb095
-source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '141'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,7 @@ Puede filtrar la lista de métricas calculadas. El uso de un filtro en las métr
 
 Para filtrar la lista de métricas calculadas:
 
-1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesita más espacio para la lista Filtros, puede seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
+1. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesitas más espacio para la lista Filtros, puedes seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
 1. Seleccione filtros de cualquiera de las [secciones de filtros](#filter-sections) disponibles.
 
    >[!INFO]
@@ -33,4 +33,4 @@ Para filtrar la lista de métricas calculadas:
 {{otherfiltersfiltersection}}
 
 
-La [lista de métricas calculadas](cm-manager.md#filters-list) se actualiza automáticamente según la configuración del filtro. Puede ver los filtros configurados en la [barra de filtros activa](cm-manager.md#active-filter-bar).
+La [lista de métricas calculadas](cm-manager.md#filters-list) se actualiza automáticamente según la configuración del filtro. Puedes ver los filtros configurados en la [barra de filtros activa](cm-manager.md#active-filter-bar).

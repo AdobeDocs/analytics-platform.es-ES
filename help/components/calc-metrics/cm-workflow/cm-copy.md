@@ -1,12 +1,12 @@
 ---
-description: Describe cómo copiar una métrica calculada en el Administrador de métricas calculadas
+description: Obtenga información sobre cómo copiar una métrica calculada en el Administrador de métricas calculadas.
 title: Copiar métricas calculadas
 feature: Calculated Metrics
 exl-id: b1cc1171-aebf-4b97-99db-9bbcef5ea9d7
-source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 

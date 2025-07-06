@@ -1,13 +1,13 @@
 ---
-description: En función de sus permisos, puede compartir segmentos con toda su organización, con grupos o con usuarios individuales.
+description: Descubra cómo puede compartir segmentos con toda su organización, con grupos o con usuarios individuales.
 title: Compartir segmentos
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 11%
+source-wordcount: '295'
+ht-degree: 6%
 
 ---
 

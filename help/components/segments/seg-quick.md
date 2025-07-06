@@ -1,12 +1,12 @@
 ---
-description: Uso de segmentos rápidos en Analysis Workspace para Customer Journey Analytics
+description: Aprenda a utilizar segmentos rápidos en Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1186'
 ht-degree: 21%
 
 ---
@@ -19,7 +19,7 @@ Los segmentos rápidos le permiten explorar datos dentro de un proyecto de Works
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://video.tv.adobe.com/v/345336/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

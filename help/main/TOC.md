@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 97%
+source-wordcount: '1269'
+ht-degree: 95%
 
 ---
 
@@ -234,7 +234,7 @@ ht-degree: 97%
       + [Venn](../analysis-workspace/visualizations/venn.md)
    + Paneles {#panels}
       + [Información general](../analysis-workspace/c-panels/panels.md)
-      + [En blanco](../analysis-workspace/c-panels/blank-panel.md)
+      + [Panel en blanco](../analysis-workspace/c-panels/blank-panel.md)
       + [Atribución](../analysis-workspace/c-panels/attribution.md)
       + [Experimentación](../analysis-workspace/c-panels/experimentation.md)
       + [De forma libre](../analysis-workspace/c-panels/freeform-panel.md)
@@ -254,6 +254,12 @@ ht-degree: 97%
       + [Descargar](../analysis-workspace/export/download-send.md)
       + [Envío y programación](../analysis-workspace/export/t-schedule-report.md)
       + [Exportar a la nube](../analysis-workspace/export/export-cloud.md)
+   + Atribución {#attribution}
+      + [Información general de Attribution](../analysis-workspace/attribution/overview.md)
+      + [Modelo, contenedor y ventana retrospectiva](../analysis-workspace/attribution/models.md)
+      + [Atribución algorítmica](../analysis-workspace/attribution/algorithmic.md)
+      + [Prácticas recomendadas](../analysis-workspace/attribution/best-practices.md)
+      + [Preguntas frecuentes](../analysis-workspace/attribution/faq.md)
    + Detección de anomalías {#anomaly-detection}
       + [Información general](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Ver anomalías](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
@@ -268,7 +274,7 @@ ht-degree: 97%
       + [Optimización del rendimiento](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Error y solución de problemas](../analysis-workspace/workspace-faq/error-messages.md)
       + [Limitaciones](../analysis-workspace/workspace-faq/aw-limitations.md)
-      + [Requisitos de administración](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Requisitos](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Análisis de contenido {#content-analytics}
@@ -346,14 +352,16 @@ ht-degree: 97%
       + [Información general](../components/calc-metrics/calc-metr-overview.md)
       + Flujo de trabajo {#cm-workflow}
          + [Crear métricas calculadas](../components/calc-metrics/cm-workflow/cm-workflow.md)
-         + [Crear métricas calculadas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Buscar métricas](../components/calc-metrics/cm-workflow/cm-finding.md)
+         + [Crear métricas calculadas](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Un ejemplo sencillo](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Un ejemplo más complejo](../components/calc-metrics/cm-workflow/cm-orders-participation.md)
          + [Tipo de métrica y atribución](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Generar una métrica de participación](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Métricas de participación](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Métricas segmentadas](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Apilar y sustituir segmentos](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Filtrar métricas calculadas](../components/calc-metrics/cm-workflow/cm-filter.md)
-         + [Marcar una métrica calculada como favorita](../components/calc-metrics/cm-workflow/cm-favorite.md)
+         + [Marcar métricas calculadas como favoritas](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [Copiar métricas calculadas](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [Uso de funciones](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [Etiquetar métricas calculadas](../components/calc-metrics/cm-workflow/cm-tagging.md)

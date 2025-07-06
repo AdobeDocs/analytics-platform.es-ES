@@ -1,13 +1,13 @@
 ---
 description: Obtenga información acerca de las funciones de compatibilidad con la accesibilidad en Analysis Workspace.
 title: Accesibilidad En Analysis Workspace
-feature: FAQ
+feature: Workspace Basics
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 94%
+source-wordcount: '546'
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ La navegación en [!UICONTROL Analysis Workspace] funciona desde arriba a abajo 
 
 ### Métodos abreviados de teclado (teclas de acceso directo)
 
-[!UICONTROL Analysis Workspace] ofrece un completo conjunto de [métodos abreviados de teclado](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para lograr un flujo de trabajo más fluido. 
+[!UICONTROL Analysis Workspace] ofrece un completo conjunto de [métodos abreviados de teclado (teclas de acceso directo)](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para lograr un flujo de trabajo más fluido.
 
 ## Compatibilidad con lectores de pantalla y ampliadores de pantalla
 

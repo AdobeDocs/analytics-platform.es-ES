@@ -1,12 +1,12 @@
 ---
-description: El Creador de métricas calculadas proporciona un lienzo en el que arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica de jerarquía de contenedor, reglas y operadores. Esta herramienta de desarrollo integrada le permite crear y guardar métricas calculadas simples o métricas calculadas avanzadas complejas.
-title: Crear métricas calculadas
+description: Obtenga información sobre el creador de métricas calculadas que proporciona un lienzo en el que arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica, reglas y operadores de jerarquía de contenedor.
+title: Generar métricas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 94%
+source-wordcount: '1613'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ El cuadro de diálogo **[!UICONTROL Generador de métricas calculadas]** se usa 
    | **[!UICONTROL Descripción]** | Proporcione una descripción para el segmento, por ejemplo, `Calculated metric to define the conversion rate.`. No es necesario describir la fórmula para la métrica calculada, dado que la fórmula ya está disponible automáticamente en [!UICONTROL Resumen]. |
    | **[!UICONTROL Formato]** | Seleccione un formato para la métrica calculada: puede elegir entre **[!UICONTROL Decimal]**, **[!UICONTROL Hora]**, **[!UICONTROL Porcentaje]** y **[!UICONTROL Moneda]**. |
    | **[!UICONTROL Cifras decimales]** | Especifique el número de decimales para el formato seleccionado. Solo se habilita cuando el formato seleccionado es Decimal, Moneda y Porcentaje. |
-   | **[!UICONTROL Mostrar tend ascendente como]** | Especifique si una tendencia ascendente de la métrica calculada se muestra como ▲ **[!UICONTROL Bueno (verde)]** o como ▼ **[!UICONTROL Malo (rojo)]**. |
+   | **[!UICONTROL Mostrar tend ascendente como]** | Especifique si una tendencia al alza de la métrica calculada se muestra como ▲ **[!UICONTROL Buena (verde)]** o como ▼ **[!UICONTROL Mala (rojo)]**. |
    | **[!UICONTROL Moneda]** | Especifique la moneda de la métrica calculada. Solo se habilita cuando el formato seleccionado es Moneda. |
    | **[!UICONTROL Etiquetas]** | Organice la métrica calculada creando o aplicando una o varias etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O presione **[!UICONTROL Entrar]** para agregar una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
    | **[!UICONTROL Vista previa]** | La vista previa abarca los últimos 90 días y es una forma de medir si ha definido la métrica correctamente. |
@@ -138,7 +138,7 @@ Utiliza el concepto de contenedor de segmentos para crear una [métrica segmenta
 * Para añadir un contenedor de segmentos a partir de una dimensión:
 
    1. Arrastre y suelte un componente ![Dimensiones](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensiones]** del panel de componentes hasta **[!UICONTROL Arrastrar y soltar aquí métricas, dimensiones, elementos de dimensión, segmentos o funciones]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
-   1. En la ventana emergente **[!UICONTROL Crear segmento a partir de Dimension]**, defina la condición del segmento. Seleccione en la lista de operadores y seleccione o introduzca un valor. Por ejemplo, **[!UICONTROL Mes]** **[!UICONTROL es igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+   1. En la ventana emergente **[!UICONTROL Crear segmento a partir de la dimensión]**, defina la condición del segmento. Seleccione en la lista de operadores y seleccione o introduzca un valor. Por ejemplo, **[!UICONTROL Mes]** **[!UICONTROL es igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
    1. Seleccione **[!UICONTROL Listo]**. Se ha añadido un contenedor de segmentos a la **[!UICONTROL Definición]**.
 
 
@@ -147,12 +147,12 @@ Utiliza el concepto de contenedor de segmentos para crear una [métrica segmenta
    * Arrastre y suelte un componente ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** del panel de componentes hasta **[!UICONTROL Arrastrar y soltar aquí métricas, dimensiones, elementos de dimensión, segmentos o funciones]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar segmentos específicos.
 Se añade automáticamente un contenedor de segmentos a la **[!UICONTROL Definición]**, con el nombre del segmento.
 
-   * Arrastre y suelte un componente ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** del panel de componentes en un contenedor genérico. El contenedor se modifica para convertirse en un contenedor de segmentos.
+   * Arrastre y suelte el componente ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** del panel de componentes en un contenedor genérico. El contenedor se modifica para convertirse en un contenedor de segmentos.
 
    * Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Añadir]** desde un contenedor:
 
       1. Seleccione **[!UICONTROL Segmento]**. Se ha añadido un contenedor de segmentos a la **[!UICONTROL Definición]**.
-      1. En el nuevo contenedor de segmentos, seleccione un segmento del menú desplegable [!UICONTROL *Seleccionar...*].
+      1. En el nuevo contenedor de segmento, seleccione un segmento en el menú desplegable [!UICONTROL *Seleccionar...*].
 
   >[!TIP]
   >
@@ -178,7 +178,7 @@ Para añadir un contenedor de funciones, puede utilizar:
 * Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Añadir]** desde un contenedor:
 
    1. Seleccione **[!UICONTROL Función]**.
-   1. En el contenedor, seleccione una función del menú desplegable [!UICONTROL *Seleccionar...*].
+   1. En el contenedor, seleccione una función en el menú desplegable [!UICONTROL *Seleccionar...*].
 
 El contenedor de funciones recibe el nombre del componente de funciones. Por ejemplo, ![Función](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (métrica)]**. Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar una ventana emergente con más detalles sobre la función. Seleccione **[!UICONTROL Más información]** para obtener más información sobre la función.
 
@@ -200,5 +200,5 @@ Para eliminar un contenedor, seleccione ![Cerrar](/help/assets/icons/Close.svg) 
 >[!MORELIKETHIS]
 >
 >[Uso de funciones](cm-using-functions.md)
->&#x200B;>[Segmentos ](/help/components/segments/seg-overview.md)
+>>[Segmentos](/help/components/segments/seg-overview.md)
 >

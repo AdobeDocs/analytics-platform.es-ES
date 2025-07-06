@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 95%
+source-wordcount: '1037'
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="Persistencia"
->abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes que los segmentos en el sistema de informes. Para obtener más información consulte [configuración de la asignación](/help/data-views/component-settings/persistence.md#allocation-settings), [configuración de la caducidad](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensión del enlace](/help/data-views/component-settings/persistence.md#binding-dimension) y [métricas de enlace](/help/data-views/component-settings/persistence.md#binding-metric)."
+>abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes de los segmentos en la creación de informes."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,19 +40,19 @@ La [!UICONTROL persistencia] es la capacidad de un valor de dimensión determina
 
 * La **caducidad** le permite determinar cuánto tiempo persiste un elemento de dimensión más allá del evento en el que está establecido.
 
-La [!UICONTROL persistencia] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar la segmentación u otras operaciones de análisis.
+[!UICONTROL La persistencia] solo está disponible en dimensiones y es retroactiva a los datos a los que se aplica. Se trata de una transformación inmediata de los datos que se produce antes de aplicar la segmentación u otras operaciones de análisis.
 
 | Configuración | Descripción |
 | --- | --- |
 | [!UICONTROL Establecer persistencia] | Habilite la persistencia para la dimensión. Si la persistencia no está habilitada, la dimensión solo se relaciona con métricas que existen en el mismo evento. Esta opción está desactivada de manera predeterminada. |
-| [!UICONTROL Asignación] | Permite especificar el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son:<ul><li>**[!UICONTROL Más reciente]**: los valores de la dimensión persisten hasta que se sobrescriban con valores subsiguientes</li><li> **[!UICONTROL Original]**: el primer valor de esta dimensión persiste y no se sobrescribe con valores posteriores</li><li>**[!UICONTROL Todos]**: todos los valores de esta dimensión persisten simultáneamente</li><li>**[!UICONTROL Primero conocido]**: Se usa el primer valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li><li>**[!UICONTROL Último conocido]**: se usa el último valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li></ul> |
-| [!UICONTROL Caducidad] | Permite especificar la ventana de persistencia para una dimensión. Las opciones son: <ul><li>**[!UICONTROL Sesión]** (valor predeterminado). </li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Tiempo personalizado]**</li><li>**[!UICONTROL Métrica]**</li></ul>. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). La caducidad máxima que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
+| [!UICONTROL Asignación] | Especifique el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son:<ul><li>**[!UICONTROL Más reciente]**: los valores de la dimensión persisten hasta que los valores subsiguientes los sobrescriban</li><li> **[!UICONTROL Original]**: el primer valor de esta dimensión persiste y no se sobrescribe con valores posteriores</li><li>**[!UICONTROL Todos]**: todos los valores de esta dimensión persisten simultáneamente</li><li>**[!UICONTROL Primero conocido]**: Se usa el primer valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li><li>**[!UICONTROL Último conocido]**: se usa el último valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li></ul> |
+| [!UICONTROL Caducidad] | Especifique la ventana de persistencia para una dimensión. Las opciones son: <ul><li>**[!UICONTROL Sesión]** (valor predeterminado). </li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Tiempo personalizado]**</li><li>**[!UICONTROL Métrica]**</li></ul>. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). El tiempo de caducidad máximo que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
 
 {style="table-layout:auto"}
 
 ## Configuración de [!UICONTROL asignación]
 
-Detalles sobre la configuración de asignación disponible.
+La configuración de asignación disponible es:
 
 * **[!UICONTROL Más reciente]**: conserva el valor más reciente (por marca de tiempo) presente en la dimensión. Cualquier valor posterior que aparezca en el periodo de caducidad de la dimensión reemplaza al valor que persiste anteriormente. Si Tratar Sin valor como un valor está habilitado en esta dimensión en [Sin opciones de valor](no-value-options.md), los valores vacíos sobrescriben los valores persistentes anteriormente. Por ejemplo, vea la siguiente tabla con asignación [!UICONTROL Más reciente] y caducidad de [!UICONTROL Sesión]:
 
@@ -61,7 +61,7 @@ Detalles sobre la configuración de asignación disponible.
   | Valores del conjunto de datos |  | C | B |  | A |
   | Asignación más reciente |  | C | B | B | A |
 
-* **[!UICONTROL Original]**: conserva el valor original por marca de tiempo presente en la dimensión durante el periodo de caducidad. Si esta dimensión tiene un valor, no se sobrescribe cuando se ve un valor diferente en un evento posterior. Por ejemplo, vea la siguiente tabla con asignación [!UICONTROL Original] y caducidad de [!UICONTROL Sesión]:
+* **[!UICONTROL Original]**: conserva el valor original por marca de tiempo que está presente en la dimensión durante el período de caducidad. Si esta dimensión tiene un valor, no se sobrescribe cuando se ve un valor diferente en un evento posterior. Por ejemplo, vea la siguiente tabla con asignación [!UICONTROL Original] y caducidad de [!UICONTROL Sesión]:
 
   | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
   | --- | --- | --- | --- | --- | --- |
@@ -87,7 +87,7 @@ Detalles sobre la configuración de asignación disponible.
 
 ## Configuración de [!UICONTROL caducidad]
 
-Detalles sobre la configuración de caducidad disponible.
+La configuración de caducidad disponible es:
 
 * **Sesión**: caduca después de una sesión determinada. Ventana de caducidad predeterminada.
 * **Ventana de informes de persona**: caduca al final de la ventana de informes.
@@ -103,12 +103,12 @@ Detalles sobre la configuración de caducidad disponible.
 
 Menú desplegable que permite enlazar la persistencia de un valor de dimensión a valores de dimensión de otra dimensión. Las opciones válidas incluyen otras dimensiones incluidas en la vista de datos.
 
-Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar de forma eficaz las dimensiones de enlace.
+Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para ver ejemplos sobre cómo utilizar dimensiones de enlace de forma eficaz.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/3409291/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -119,4 +119,4 @@ Menú desplegable que permite elegir una métrica que actúa como déclencheur d
 
 Esta configuración solo aparece cuando la dimensión de enlace es inferior en la matriz de objetos que el componente. Cuando la métrica de enlace está presente en un evento, los valores de dimensión se copian de la dimensión de nivel de evento hasta el nivel de esquema inferior de la dimensión de enlace.
 
-Vea el segundo ejemplo en [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar de forma eficaz las métricas de enlace.
+Vea el segundo ejemplo en [Uso de dimensiones y métricas de enlace en Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) para obtener más información sobre cómo utilizar las métricas de enlace de forma eficaz.

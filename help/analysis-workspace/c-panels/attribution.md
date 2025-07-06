@@ -4,10 +4,10 @@ description: Aprenda a utilizar e interpretar el panel de atribución en Analysi
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 97%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo describe el panel Atribución en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte el [panel Atribución](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/attribution) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo describe el panel Atribución en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte el [panel Atribución](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/attribution) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Puede configurar el panel Atribución con esta configuración de entrada:
 
    ![Ventana del panel Atribución que muestra varias dimensiones y métricas seleccionadas.](assets/attribution-panel.png)
 
-1. Seleccione uno o varios [modelos de atribución](#attribution-models) en **[!UICONTROL Modelos incluidos]** y una [ventana de retroactividad](#lookback-window) en la **[!UICONTROL ventana de retroactividad]** que desee usar para la comparación.
+1. Seleccione uno o más [modelos de atribución](#attribution-models) de **[!UICONTROL modelos incluidos]**, el [contenedor](#container) de **[!UICONTROL Contenedor]** y una [ventana retrospectiva](#lookback-window) de la **[!UICONTROL ventana retrospectiva]** que desee usar para la comparación.
 
 1. Seleccione **[!UICONTROL Generar]** para generar las visualizaciones en el panel.
 
@@ -88,7 +88,7 @@ La siguiente visualización forma parte de la salida del panel.
 * **Rendimiento de tendencias**: Muestra la tendencia de las conversiones atribuidas para el elemento de dimensión principal. Si se seleccionan otras filas en la Tabla de forma libre adyacente, se actualizará la visualización para reflejar su selección.
 * **Flujo**: le permite ver con qué canales se interactúa con más frecuencia y en qué orden a lo largo del recorrido de una persona.
 
-## Modelos de atribución
+## Modelo de atribución
 
 {{attribution-models-details}}
 
@@ -96,7 +96,7 @@ La siguiente visualización forma parte de la salida del panel.
 
 {{attribution-container}}
 
-## Ventana de retroactividad
+## Período de retroactividad
 
 {{attribution-lookback-window}}
 

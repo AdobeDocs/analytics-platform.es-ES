@@ -1,13 +1,13 @@
 ---
-description: Preguntas frecuentes sobre Workspace
+description: Obtenga respuestas a preguntas comunes sobre Analysis Workspace.
 title: 'Preguntas frecuentes '
-feature: FAQ
+feature: Workspace Basics
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 96%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-description: Aprenda a utilizar el panel Quick insights como guía para crear tablas de datos y visualizaciones en Analysis Workspace.
+description: Aprenda a utilizar el panel Quick insights como guía para crear tablas improvisadas y visualizaciones en Analysis Workspace.
 title: Panel de información rápida
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 93%
+source-wordcount: '1148'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Información rápida en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte [Panel Información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel Información rápida en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte [Panel Información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ La primera vez que empieces a usar este [!UICONTROL Analysis Workspace], es posi
 * dónde crear un segmento,
 * y más.
 
-Para ayudarlo con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que le presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa su compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y segmentos etiquetados con [!UICONTROL POPULAR] en el menú desplegable, como se muestra a continuación:
+Para ayudarte con estas preguntas, [!UICONTROL Quick Insights] aprovecha un algoritmo que te presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa tu compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y segmentos etiquetados con [!UICONTROL POPULAR] en el menú desplegable, como se muestra a continuación:
 
 ![Panel de información rápida.](assets/popular-tag.png)
 
@@ -94,7 +94,7 @@ Puedes especificar los bloques de creación de tres formas:
 
 * Arrastra y suelta los componentes desde el panel izquierdo.
 * Empieza a escribir en uno de los campos de bloque de creación. Cuando se encuentra la entrada, el campo de bloque de creación se rellena automáticamente con los valores posibles.
-* Especifique un menú desplegable de bloque de creación (por ejemplo, `Country` en **[!UICONTROL Analizar]**) y busque el valor que desee usar en la lista de valores posibles (con ![ChevronRight](/help/assets/icons/ChevronRight.svg)) (por ejemplo, **[!UICONTROL Código de país]**).
+* Especifique un menú desplegable de bloque de creación (por ejemplo, País en **[!UICONTROL Analizar]**) y **[!UICONTROL buscar]** la lista de valores posibles (con ![ChevronRight](/help/assets/icons/ChevronRight.svg)) para el valor que desea usar (por ejemplo, **[!UICONTROL Código de país]**).
 
 Selecciona **[!UICONTROL Borrar]** para borrar todos los campos de entrada.
 

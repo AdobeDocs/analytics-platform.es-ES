@@ -1,13 +1,14 @@
 ---
-title: Información general sobre las métricas calculadas
-description: Obtenga información sobre las métricas segmentadas que se derivan del tiempo de ejecución del informe.
+description: Obtenga información acerca de las métricas calculadas que puede crear a partir de métricas existentes.
+keywords: 'Métricas calculadas '
+title: Resumen de métricas calculadas
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: ce18545a0ee597ee448fa55d83bdece54c7c849c
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +20,7 @@ Las métricas calculadas son personalizadas y se pueden crear a partir de métri
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a las métricas calculadas](https://video.tv.adobe.com/v/35863/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a las métricas calculadas](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -27,7 +28,7 @@ Un flujo de trabajo típico para las métricas calculadas consiste en estas tare
 
 | Tarea | Descripción |
 | --- | --- |
-| Planificar | En especial, para las métricas que se van a aprobar oficialmente ![Marca de verificación](/help/assets/icons/Checkmark.svg), planifica y estructura cuidadosamente las métricas calculadas que preveas que se van a utilizar con frecuencia. |
+| Planificar | En especial, en el caso de las métricas que se van a aprobar oficialmente ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg), planifique y organice cuidadosamente las métricas calculadas que prevé que se utilicen con frecuencia. |
 | [Versión](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | Crea, modifica y guarda métricas calculadas. |
 | [Aplicar](/help/components/use-components-in-workspace.md) | Aplica métricas calculadas directamente dentro de tus proyectos de Workspace. |
 | [Administrar](/help/components/calc-metrics/cm-workflow/cm-manager.md) | Administrar métricas calculadas. Puedes [etiquetar](/help/components/calc-metrics/cm-workflow/cm-tagging.md), [aprobar](/help/components/calc-metrics/cm-workflow/cm-approving.md), [desaprobar](/help/components/calc-metrics/cm-workflow/cm-approving.md), [filtrar](/help/components/calc-metrics/cm-workflow/cm-filter.md), [favorecer](/help/components/calc-metrics/cm-workflow/cm-favorite.md) o [desfavorecer](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [compartir](/help/components/calc-metrics/cm-workflow/cm-sharing.md) o [copiar](/help/components/calc-metrics/cm-workflow/cm-copy.md) una o más métricas calculadas. |

@@ -3,10 +3,10 @@ description: Aprenda a crear métricas calculadas.
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ Antes de crear métricas calculadas, tenga en cuenta cuidadosamente el siguiente
 
 | Tarea del flujo de trabajo | Descripción |
 | --- | --- |
-| Planificar métricas calculadas | Especialmente en el caso de las métricas que se “aprobarán” oficialmente, tiene sentido detallar qué métricas calculadas se utilizarán de forma generalizada y cómo se definirán. |
+| Planificar métricas calculadas | Especialmente para las métricas que se van a aprobar oficialmente, la planificación tiene sentido para delinear qué métricas calculadas se utilizarán ampliamente y cómo se definirán. |
 | [Generar](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) métricas calculadas | Cree y edite métricas calculadas y métricas calculadas avanzadas para utilizarlas en componentes de [!DNL Customer Journey Analytics].   |
 | [Etiquetar](cm-tagging.md) métricas calculadas | Etiquete métricas calculadas para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas. |
 | [Aprobar](cm-approving.md) métricas calculadas | Apruebe métricas calculadas para hacerlas canónicas. |

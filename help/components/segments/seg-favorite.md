@@ -1,13 +1,13 @@
 ---
-description: Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
-title: Marcar segmentos como favoritos
+description: Aprenda a marcar segmentos como favoritos como otra forma de organizar los segmentos para que su uso sea más sencillo.
+title: Marcar Segmentos Como Favoritos
 feature: Filters, Segments
 exl-id: b13457dd-06e5-4316-af7e-edcf4ee46408
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 18%
+source-wordcount: '99'
+ht-degree: 0%
 
 ---
 

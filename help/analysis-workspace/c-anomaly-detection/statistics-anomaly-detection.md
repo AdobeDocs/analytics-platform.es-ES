@@ -1,12 +1,12 @@
 ---
-description: Aprenda a identificar anomalías estadísticas con técnicas de detección de anomalías.
+description: Descubra qué técnicas estadísticas se utilizan para identificar anomalías.
 title: Técnicas Estadísticas Utilizadas En La Detección De Anomalías
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
 role: User
-source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 67%
 
 ---

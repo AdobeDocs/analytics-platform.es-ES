@@ -1,17 +1,17 @@
 ---
 description: Obtenga información sobre cómo ver previsiones en una tabla o en un gráfico de líneas.
-title: Visualización de previsiones en Analysis Workspace
+title: Ver previsiones
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 3%
+source-wordcount: '359'
+ht-degree: 2%
 
 ---
 
-# Visualización de previsiones en Analysis Workspace
+# Ver previsiones
 
 Puede ver las previsiones en una tabla de forma libre o en un gráfico de líneas.
 

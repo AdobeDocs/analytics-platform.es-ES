@@ -1,11 +1,11 @@
 ---
-description: La segmentación de métricas individuales le permite realizar comparaciones de métricas dentro del mismo informe.
+description: Aprenda a segmentar métricas individuales, lo que le permite realizar comparaciones de métricas dentro de la misma visualización.
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Repita los pasos anteriores para la versión internacional de la métrica calcul
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://video.tv.adobe.com/v/37936?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

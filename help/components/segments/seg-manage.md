@@ -1,13 +1,13 @@
 ---
+description: Obtenga información sobre cómo utilizar el administrador de segmentos para administrar segmentos, como compartir, filtrar, etiquetar, aprobar, copiar y eliminar segmentos, y marcar segmentos como favoritos.
 title: Administración de segmentos
-description: Obtenga información sobre cómo administrar segmentos en Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters, Segments
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 34%
+source-wordcount: '930'
+ht-degree: 31%
 
 ---
 
@@ -58,7 +58,7 @@ Puede realizar acciones en los segmentos mediante la barra de acciones ➋. La b
 | ![Búsqueda](/help/assets/icons/Search.svg) [!UICONTROL *Búsqueda por el título*] | Cuando no haya ningún segmento seleccionado en la lista, busque segmentos utilizando este campo de búsqueda. |
 | ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Etiqueta]** | Etiquete los segmentos seleccionados. En el cuadro de diálogo **[!UICONTROL Segmento de etiqueta]**, seleccione o anule la selección de las etiquetas de los segmentos seleccionados. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los segmentos seleccionados. Consulte [Etiquetar segmentos](/help/components/segments/seg-tag.md) para obtener más información. |
 | ![Compartir](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Compartir]** | Compartir los segmentos seleccionados. En el cuadro de diálogo **[!UICONTROL Compartir segmento]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de los segmentos seleccionados. Consulte [Compartir segmentos](seg-share.md) para obtener más información. |
-| ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Eliminar los segmentos seleccionados. Se le pedirá una confirmación. |
+| ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** | Eliminar los segmentos seleccionados. Se le pedirá una confirmación. <br/>Cuando elimine un segmento, tenga en cuenta que: <ul><li>Los informes programados y los proyectos a los que se ha aplicado este segmento siguen funcionando normalmente.</li><li> Los informes programados no se actualizan cuando edita un segmento con el mismo nombre.</li> </ul> |
 | ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Cambiar nombre]** | Cambiar el nombre de un solo segmento seleccionado. Cuando se selecciona, puede cambiar el nombre del segmento en línea. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Aprobar]** | Apruebe los segmentos seleccionados. Consulte [Aprobar segmentos](seg-approve.md) para obtener más información. |
 | ![Copiar](/help/assets/icons/Copy.svg)  **[!UICONTROL Copiar]** | Copie el segmento seleccionado. Los segmentos nuevos se crean con el mismo nombre y sufijo `(Copy)`. |

@@ -1,13 +1,13 @@
 ---
 description: Obtenga información sobre la previsión en Analysis Workspace.
-title: Información general sobre la previsión
+title: Resumen de previsión
 feature: Visualizations
 role: User
 exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
-source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
-workflow-type: ht
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

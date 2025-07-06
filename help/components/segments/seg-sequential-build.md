@@ -1,9 +1,9 @@
 ---
-description: Los segmentos secuenciales son segmentos que utilizan el operador THEN para definir la secuencia de condiciones de los segmentos.
-title: Segmentos secuenciales
+description: Obtenga información acerca de los segmentos secuenciales que utilizan el operador THEN para definir una secuencia de condiciones de segmento.
+title: SequentialSegments
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
 source-wordcount: '2459'
 ht-degree: 4%
@@ -18,7 +18,7 @@ Puede crear segmentos secuenciales utilizando el operador lógico [!UICONTROL Th
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/37430/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -91,7 +91,7 @@ Para aplicar restricciones de tiempo al operador **[!UICONTROL Then]**:
 1. Seleccione ![Reloj](/help/assets/icons/Clock.svg).
 1. Seleccione **[!UICONTROL En]** o **[!UICONTROL Después]** del menú contextual.
 1. Especifique un período de tiempo (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, hasta **[!UICONTROL Años]**).
-1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;para abrir una ventana emergente que le permita escribir o especificar un número con&#x200B;**[!UICONTROL -]**&#x200B;o&#x200B;**[!UICONTROL +]**.
+1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**para abrir una ventana emergente que le permita escribir o especificar un número con**[!UICONTROL -]**o**[!UICONTROL +]**.
 
 Para quitar una restricción de tiempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -255,7 +255,7 @@ Identificar a las personas que visitaron una página pero nunca visitaron otras.
 >
 >Un [!UICONTROL grupo lógico] solo se puede definir en un segmento secuencial, lo que significa que el operador [!UICONTROL Then] se usa dentro del contenedor.
 
-Grupo lógico le permite agrupar condiciones en un único punto de comprobación secuencial de segmento. Como parte de la secuencia, la lógica definida en el contenedor identificado como grupo lógico se evalúa después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente.
+El grupo lógico permite agrupar condiciones en un único punto de comprobación de segmento secuencial. Como parte de la secuencia, la lógica definida en el contenedor identificado como grupo lógico se evalúa después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente.
 
 Las condiciones dentro del propio grupo lógico pueden cumplirse en cualquier orden. Por el contrario, los contenedores no secuenciales (evento, sesión, persona) no requieren que se cumplan sus condiciones dentro de la secuencia general, lo que produce posibles resultados poco intuitivos si se utilizan con un operador Then.
 
@@ -296,7 +296,7 @@ Identifique a las personas que visitaron una página y luego no visitaron explí
 
 #### [!UICONTROL Excluir] [!UICONTROL O]
 
-Identifique a las personas que visitaron una página y luego no visitaron explícitamente ninguna página de un conjunto de páginas, pero sí visitaron otra página. Por ejemplo, las personas que visitaron la página de inicio, no visitaron la página Hombres y mujeres, pero sí la página Niños.
+Identifique a las personas que visitaron una página y luego no visitaron explícitamente ninguna página de un conjunto de páginas, pero sí visitaron otra página. Por ejemplo, las personas que visitaron la Página de inicio y no la página Hombres y mujeres, pero sí la página Niños.
 
 ![Excluir grupo lógico y](assets/logicgroup-exclude-or.png)
 

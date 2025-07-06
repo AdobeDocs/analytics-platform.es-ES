@@ -4,7 +4,7 @@ description: Explicación de la interfaz de usuario para la creación de segment
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters, Segments
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%

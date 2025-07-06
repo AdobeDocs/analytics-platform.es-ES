@@ -1,13 +1,13 @@
 ---
-description: El Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los segmentos y los eventos para segmentar a las personas en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar segmentos simples o complejos que identifican atributos y acciones de personas en visitas y eventos.
+description: Descubra cómo el Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las métricas, las dimensiones, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Descubra cómo puede generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
 title: Generar segmentos
 feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 51%
+source-wordcount: '1570'
+ht-degree: 87%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 51%
 >title="Previsualización de los datos"
 >abstract="Compara los datos de este segmento con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
 
-El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear segmentos nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo segmento]** o **[!UICONTROL Editar segmento]** para los segmentos que cree o administre desde el administrador de [[!UICONTROL segmentos]](/help/components/segments/seg-manage.md).
+El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear segmentos nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo segmento]** o **[!UICONTROL Editar segmento]** para los segmentos que se creen o administren desde el administrador de [[!UICONTROL Segmentos]](/help/components/segments/seg-manage.md).
 
 >[!BEGINTABS]
 
 >[!TAB Generador de segmentos]
 
-![Ventana de detalles del segmento que muestra los campos y las opciones descritos en la siguiente sección.](assets/filter-builder.png)
+![Ventana de detalles del segmento que muestra los campos y las opciones descritas en la sección siguiente.](assets/filter-builder.png)
 
 >[!TAB Crear o editar segmento]
 
-![Ventana de detalles del segmento que muestra los campos y las opciones descritos en la siguiente sección.](assets/create-edit-filter.png)
+![Ventana de detalles del segmento que muestra los campos y las opciones descritas en la sección siguiente.](assets/create-edit-filter.png)
 
 >[!ENDTABS]
 
@@ -42,43 +42,43 @@ El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear 
    | Elemento | Descripción |
    | --- | --- |
    | **[!UICONTROL Vista de datos]** | Puede seleccionar la vista de datos para el segmento.  El segmento que defina estará disponible como segmento en la ficha [Configuración](/help/data-views/create-dataview.md#settings-filters) de una vista de datos. |
-   | **[!UICONTROL Segmento solo de proyecto]** | Un cuadro de información para explicar que el segmento solo está visible en el proyecto en el que se crea y que el segmento no se añadirá a la lista de componentes. Habilite **[!UICONTROL Ponga este segmento a disposición de todos sus proyectos y agréguelo a su lista de componentes]** para cambiar esa configuración. Este cuadro de información solo está visible cuando crea un [segmento rápido](seg-quick.md) y convierte la información de segmento rápido en un segmento normal mediante **[!UICONTROL Abrir generador]** desde la interfaz de [!UICONTROL Segmento rápido]. |
-   | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre al segmento, por ejemplo, `Last month mobile customers`. |
+   | **[!UICONTROL Segmento solo de proyecto]** | Un cuadro de información que explica que el segmento solo es visible en el proyecto en el que se crea y que este no se añade a la lista de componentes. Habilite **[!UICONTROL Poner este segmento a disposición de todos los proyectos y añadirlo a la lista de componentes]** para cambiar esa configuración. Este cuadro de información solo es visible cuando crea un [segmento rápido](seg-quick.md) y convierte su información en un segmento normal mediante la opción **[!UICONTROL Abrir generador]** de la interfaz de [!UICONTROL Segmento rápido]. |
+   | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre al segmento como, por ejemplo, `Last month mobile customers`. |
    | **[!UICONTROL Descripción]** | Proporcione una descripción para el segmento, por ejemplo, `Segment to define the mobile customers for the last month`. |
-   | **[!UICONTROL Etiquetas]** | Organice el segmento creando o aplicando una o más etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O presione **[!UICONTROL Entrar]** para agregar una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
+   | **[!UICONTROL Etiquetas]** | Organice el segmento creando o aplicando una o varias etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O presione **[!UICONTROL Entrar]** para agregar una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
    | **[!UICONTROL Definición]** ![requerida](/help/assets/icons/Required.svg) | Defina su segmento con el [Generador de definiciones](#definition-builder). |
 
    {style="table-layout:auto"}
 
-1. Para comprobar si la definición del segmento es correcta, utilice la previsualización de los resultados del segmento actualizada constantemente en la parte superior derecha.
+1. Para comprobar si la definición del segmento es correcta, utilice la previsualización constantemente actualizada de los resultados del segmento situada en la parte superior derecha.
 1. Para crear una audiencia a partir del segmento y compartir la audiencia con Experience Platform, seleccione **[!UICONTROL Crear audiencia a partir del segmento]**. Consulte [Crear y publicar audiencias](/help/components/audiences/publish.md) para obtener más información.
-1. Seleccionar…
+1. Seleccione lo siguiente:
    * **[!UICONTROL Guardar]** para guardar el segmento.
    * **[!UICONTROL Guardar como]** para guardar una copia del segmento.
    * **[!UICONTROL Eliminar]** para eliminar el segmento.
-   * **[!UICONTROL Cancelar]** para cancelar cualquier cambio que haya hecho en el segmento o cancelar la creación de un nuevo segmento.
+   * **[!UICONTROL Cancelar]** para cancelar los cambios realizados en un segmento o cancelar la creación de un nuevo segmento.
 
 
 ## Generador de definiciones
 
-Utilice el Generador de definiciones para crear la definición del segmento. En esa construcción, se utilizan componentes, contenedores, operadores y lógica.
+El Generador de definiciones se utiliza para crear la definición del segmento. En esa construcción, se utilizan componentes, contenedores, operadores y lógica.
 
 Se puede configurar el tipo y el ámbito de la definición:
 
-1. Para especificar el tipo de definición, especifique si desea que la generación incluya o excluya una definición. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]** y en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]**.
+1. Para especificar el tipo de definición, especifique si desea que la generación incluya o excluya una definición. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]** y, luego, **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** del menú desplegable.
 1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Evento]**, **[!UICONTROL Sesión]**, **[!UICONTROL Persona]**, **[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, o **[!UICONTROL Grupo comprador]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
 Siempre puede cambiar esta configuración más adelante.
 
 ### Componentes
 
-Una parte vital de la creación de su definición de segmento es el uso de dimensiones, métricas, segmentos existentes e intervalos de fechas. Todos estos componentes están disponibles en el panel de componentes del Generador de segmentos.
+Una parte vital de la creación de la definición del segmento es el uso de dimensiones, métricas, segmentos existentes e intervalos de fechas. Todos estos componentes están disponibles en el panel del componente del generador de segmentos.
 
 ![Empiece a crear una definición](assets/start-building-filter.gif){width=100%}
 
-Para añadir un componente:
+Para añadir un componente, haga lo siguiente:
 
-1. Arrastre y suelte un componente del panel Componentes en **[!UICONTROL Arrastre y suelte las métricas, segmentos o dimensiones aquí]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+1. Arrastre y suelte un componente del panel de componentes hasta **[!UICONTROL Arrastre y suelte aquí métricas, segmentos o dimensiones]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
 1. Especifique los detalles del componente. Por ejemplo, seleccione un valor en **[!UICONTROL Seleccionar valor]**. O bien, introduzca un valor El hecho de especificar uno o varios valores y cómo hacerlo dependen del componente y del operador.
 1. Si lo desea, modifique el operador predeterminado. Por ejemplo, de **[!UICONTROL es igual a]** a **[!UICONTROL es igual a cualquiera de]**. Consulte [Operadores](seg-operators.md) para obtener información general sobre los operadores disponibles.
 
@@ -118,9 +118,9 @@ Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor pa
 
 ## Intervalos de fechas
 
-Puede generar segmentos que contengan intervalos de fechas móviles. De este modo, puede responder preguntas acerca de campañas o eventos en curso. Por ejemplo, puede generar un segmento que incluya a *todas las personas que hayan realizado una compra en línea en los últimos 60 días*.
+Puede generar segmentos que contengan intervalos de fechas móviles. Por lo tanto, puede responder preguntas sobre campañas o eventos en curso. Por ejemplo, puede crear un segmento que incluya *a todas las personas que hayan efectuado una compra en línea en los últimos 60 días*.
 
-![Segmento con intervalo de fechas móvil](assets/filter-rolling-date-range.gif)
+![Segmento con intervalo de fechas móviles](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]
@@ -132,11 +132,11 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos 
 
 ## Apilar segmentos {#stack}
 
-Puede generar un segmento utilizando segmentos. Cuando utiliza segmentos en un segmento, puede optimizarlos y reducir la complejidad.
+Puede crear un segmento mediante segmentos. Cuando utiliza segmentos en un segmento, puede optimizarlo y reducir la complejidad.
 
-Imagine que desea segmentar la combinación de tipo de dispositivo (2) y estados de Estados Unidos (50). Puede generar 100 segmentos, cada uno para la combinación única de tipo de dispositivo (teléfono móvil frente a tableta) y estado de EE. UU. Para conseguir los usuarios de tabletas en California, utilizaría uno de los 100 segmentos:
+Imagine que desea segmentar la combinación de tipo de dispositivo (2) y estados de Estados Unidos (50). Puede crear 100 segmentos, cada uno para la combinación única de tipo de dispositivo (teléfono móvil frente a tableta) y por estado de los EE. UU. Para obtener los usuarios de tabletas de California, debe utilizar uno de los 100 segmentos:
 
-![Segmento simple para California y tabletas](assets/filter-ca-tablet-single.png)
+![Segmento simple para California y tableta](assets/filter-ca-tablet-single.png)
 
 O bien, puede definir 52 segmentos: 50 segmentos para los estados de Estados Unidos, uno para el teléfono móvil y otro para la tableta. Y luego apilar los segmentos para obtener los mismos resultados. Para obtener los usuarios de tabletas de California, apilaría dos segmentos:
 
@@ -180,7 +180,7 @@ Seleccione ![Configuración](/help/assets/icons/Setting.svg) dentro del componen
 
 ### Ejemplo
 
-Como parte de una definición de segmento, ha especificado la siguiente condición: Nombre de página es igual a Mujeres. Similar al ejemplo anterior. Repita esta definición de segmento utilizando los otros dos modelos de atribución. Por lo tanto, tiene tres segmentos, cada uno con su propio modelo de atribución:
+Como parte de una definición de segmento, ha especificado la siguiente condición: Nombre de página es igual a Mujeres. Similar al ejemplo anterior. Repita esta definición de segmento con los otros dos modelos de atribución. Por lo tanto, tiene tres segmentos, cada uno con su propio modelo de atribución:
 
 * Página Mujeres - Atribución - Repetición (predeterminada)
 * Página Mujeres - Atribución - Instancia
@@ -198,4 +198,4 @@ La tabla siguiente explica, para cada modelo de atribución, qué eventos entran
 
 Un informe de ejemplo sobre los eventos que utilizan los tres segmentos tiene este aspecto:
 
-![Resultados del modelo de atribución de segmentos](assets/filter-dimension-attribution-results.png)
+![Segmentar los resultados del modelo de atribución](assets/filter-dimension-attribution-results.png)
