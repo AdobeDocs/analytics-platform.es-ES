@@ -61,9 +61,9 @@ Puede compartir una función específica con usuarios o grupos, o bien compartir
 
 Cuando comparta una función de proyecto específica con usuarios y grupos de su organización, tenga en cuenta lo siguiente:
 
-* Las funciones del proyecto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar copia]**, y **[!UICONTROL Solo lectura]**) están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started).
+* Las funciones del proyecto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar copia]**, y **[!UICONTROL Solo lectura]**) están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-getting-started).
 
-* En Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started). Los administradores pueden compartir con cualquier grupo, incluido *Todos*. Los no administradores pueden compartir con cualquier grupo al que pertenezcan, excepto con *Todos*.
+* En Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-getting-started). Los administradores pueden compartir con cualquier grupo, incluido *Todos*. Los no administradores pueden compartir con cualquier grupo al que pertenezcan, excepto con *Todos*.
 
 * El usuario que desempeña varias funciones siempre obtiene la mayor experiencia. Este escenario se puede producir si se agrega un usuario como individuo y como parte de un grupo. Por ejemplo, si a un usuario se le asigna el rol **[!UICONTROL Editar original]** como individuo y el rol **[!UICONTROL Solo lectura]** como miembro de un grupo, el usuario recibe una experiencia de proyecto **[!UICONTROL Editar original]**.
 
