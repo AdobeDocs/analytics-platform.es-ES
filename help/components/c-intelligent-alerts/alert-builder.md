@@ -4,10 +4,10 @@ title: Crear alertas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 5b4b2e2b-0a73-48df-a40c-98d2c47f94c8
-source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
+source-git-commit: 9e07dfc84bc06aef987d99c225cefb4e0406f552
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 68%
+source-wordcount: '990'
+ht-degree: 64%
 
 ---
 
@@ -37,9 +37,9 @@ Para crear una alerta:
 
 1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**. En el [Administrador de alertas](alert-manager.md), seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Añadir]** para crear una nueva alerta o seleccione cualquiera de las alertas enumeradas para modificar una alerta existente.
 
-   Se muestra la interfaz [Generador de alertas](#alert-builder).
+1. En Analysis Workspace, seleccione uno o más elementos de línea en una tabla de forma libre y seleccione **[!UICONTROL Crear alerta a partir de la selección]** en el menú contextual. Esta acción rellena instantáneamente el generador de alertas para crear una alerta con las métricas y los segmentos correctos.
 
-1. Seleccione **[!UICONTROL Guardar]** para guardar la alerta. Seleccione **[!UICONTROL Guardar como]** para guardar una copia de la alerta.
+Se muestra la interfaz [Generador de alertas](#alert-builder).
 
 
 ## Generador de alertas

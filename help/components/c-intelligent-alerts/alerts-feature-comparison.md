@@ -4,10 +4,10 @@ title: Comparación de funciones de alertas entre Customer Journey Analytics y A
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 9e07dfc84bc06aef987d99c225cefb4e0406f552
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 23%
+source-wordcount: '487'
+ht-degree: 24%
 
 ---
 
@@ -45,16 +45,8 @@ Para obtener más información sobre cómo ajustar la demora y los factores que 
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## Crear una alerta a partir de Analysis Workspace no disponible
+## Crear una alerta
 
-En Analysis Workspace en Adobe Analytics, puede crear alertas a partir de Analysis Workspace de cualquiera de las formas que se describen a continuación. En Customer Journey Analytics, las opciones para crear alertas desde Analysis Workspace aún no están disponibles. En su lugar, acceda al Generador de alertas, tal como se describe en [Crear alertas](/help/components/c-intelligent-alerts/alert-builder.md).
+En Analysis Workspace en Adobe Analytics, puede [crear alertas desde Analysis Workspace de varias formas](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder). En Customer Journey Analytics, solo puede [crear una alerta](alert-builder.md) en Analysis Workspace a partir de una selección en una tabla de forma libre.
 
-En Adobe Analytics, están disponibles las siguientes opciones:
-
-* Seleccione uno o más elementos de línea en una tabla de forma libre, luego haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**.
-
-  De este modo, se rellena instantáneamente el Generador de alertas para crear una alerta con las métricas y los segmentos correctos.
-
-* Abra un proyecto en Analysis Workspace y seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Crear alerta]**.
-
-* Abra un proyecto en Analysis Workspace y, a continuación, utilice el acceso directo siguiente: **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) o&#x200B;**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]** (macOS).
+Tanto Adobe Analytics como Customer Journey Analytics admiten la creación de alertas a través de [Alert Manager](alert-manager.md)
