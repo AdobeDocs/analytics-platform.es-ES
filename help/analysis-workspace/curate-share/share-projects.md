@@ -1,14 +1,14 @@
 ---
-description: Obtenga información sobre cómo compartir proyectos en Analysis Workspace.
+description: Aprenda a compartir proyectos en Analysis Workspace.
 keywords: Uso compartido en Analysis Workspace
-title: Proyectos compartidos
+title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
 source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
 source-wordcount: '2089'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -40,14 +40,14 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://video.tv.adobe.com/v/40033/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-## Compartir con usuarios y grupos de su organización {#Add}
+## Comparta contenido con usuarios y grupos de su organización {#Add}
 
 Puede compartir un proyecto con usuarios o grupos existentes de Analysis Workspace de su organización. Cuando comparte un proyecto como se describe en esta sección, los usuarios con los que comparte ya deben tener una cuenta de Customer Journey Analytics.
 
@@ -61,9 +61,9 @@ Puede compartir una función específica con usuarios o grupos, o bien compartir
 
 Cuando comparta una función de proyecto específica con usuarios y grupos de su organización, tenga en cuenta lo siguiente:
 
-* Las funciones del proyecto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar copia]**, y **[!UICONTROL Solo lectura]**) están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-getting-started).
+* Las funciones del proyecto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar copia]**, y **[!UICONTROL Solo lectura]**) están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started).
 
-* En Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-getting-started). Los administradores pueden compartir con cualquier grupo, incluido *Todos*. Los no administradores pueden compartir con cualquier grupo al que pertenezcan, excepto con *Todos*.
+* En Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started). Los administradores pueden compartir con cualquier grupo, incluido *Todos*. Los no administradores pueden compartir con cualquier grupo al que pertenezcan, excepto con *Todos*.
 
 * El usuario que desempeña varias funciones siempre obtiene la mayor experiencia. Este escenario se puede producir si se agrega un usuario como individuo y como parte de un grupo. Por ejemplo, si a un usuario se le asigna el rol **[!UICONTROL Editar original]** como individuo y el rol **[!UICONTROL Solo lectura]** como miembro de un grupo, el usuario recibe una experiencia de proyecto **[!UICONTROL Editar original]**.
 
@@ -117,7 +117,7 @@ Cuando comparta un vínculo como se describe en esta sección, tenga en cuenta l
 
 * Los destinatarios que utilicen el vínculo deben iniciar sesión en Customer Journey Analytics antes de obtener acceso al proyecto.
 
-* Si a un destinatario no se le asigna una función y recibe un [vínculo que se puede compartir](/help/analysis-workspace/curate-share/shareable-links.md) con el proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo del proyecto]**), se le asignará una función de forma predeterminada. Los administradores reciben **[!UICONTROL Editar original]** y los usuarios que no son administradores reciben **[!UICONTROL Editar copia]**.
+* Si a un destinatario no se le asigna una función y recibe un [vínculo compartible](/help/analysis-workspace/curate-share/shareable-links.md) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función predeterminada. Los administradores reciben **[!UICONTROL Editar original]** y los usuarios que no son administradores reciben **[!UICONTROL Editar copia]**.
 
 Para compartir el vínculo del proyecto con los usuarios de su organización, haga lo siguiente:
 
@@ -161,7 +161,7 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://video.tv.adobe.com/v/3452454/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -216,7 +216,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://video.tv.adobe.com/v/327499/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

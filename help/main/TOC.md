@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 95%
       + [Guía de inicio rápido](/help/getting-started/cja-b2b-quick-start-guide.md)
       + [Guía de transición](/help/getting-started/cja-b2b-transition.md)
 
-+ Actualización y comparación {#compare-aa-cja}
++ Actualizar y comparar {#compare-aa-cja}
    + Actualizar a Customer Journey Analytics {#upgrade-to-cja}
       + [Introducción](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
       + [Elegir la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
@@ -178,7 +178,7 @@ ht-degree: 95%
          + [Información general](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creación de carpetas](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Administración de carpetas](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Agregar o mover proyectos](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Añadir o mover proyectos](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Teclas de acceso directo](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paletas de color](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Ver densidad](../analysis-workspace/build-workspace-project/view-density.md)
@@ -252,7 +252,7 @@ ht-degree: 95%
    + Exportar {#export}
       + [Información general](../analysis-workspace/export/export-project-overview.md)
       + [Descargar](../analysis-workspace/export/download-send.md)
-      + [Envío y programación](../analysis-workspace/export/t-schedule-report.md)
+      + [Enviar y programar](../analysis-workspace/export/t-schedule-report.md)
       + [Exportar a la nube](../analysis-workspace/export/export-cloud.md)
    + Atribución {#attribution}
       + [Información general de Attribution](../analysis-workspace/attribution/overview.md)
