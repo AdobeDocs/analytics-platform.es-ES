@@ -1,8 +1,8 @@
 ---
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4947'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Fragmentos
@@ -57,7 +57,7 @@ Las opciones de comparación de tiempo disponibles incluyen el período anterior
 
 ## Vídeo de demostración de Adobe Analytics {#videoaa}
 
-En este vídeo se demuestra la funcionalidad utilizando Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las diferencias terminológicas entre Adobe Analytics y Customer Journey Analytics (por ejemplo, *visitas* frente a *sesiones*).
+En este vídeo se demuestra la funcionalidad utilizando Adobe Analytics. Sin embargo, la funcionalidad también está disponible en Customer Journey Analytics. Tenga en cuenta las diferencias de terminología entre Adobe Analytics y Customer Journey Analytics (por ejemplo, *visitas* frente a *sesiones*).
 
 
 ## Sección de filtro Etiqueta {#tagfiltersection}

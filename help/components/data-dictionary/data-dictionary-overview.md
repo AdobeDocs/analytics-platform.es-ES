@@ -1,13 +1,13 @@
 ---
-description: El diccionario de datos de Analysis Workspace permite a los usuarios catalogar y realizar un seguimiento de los distintos componentes de Analysis Workspace, incluido su uso previsto, que se aprueba, que son duplicados, etc.
+description: El diccionario de datos de Analysis Workspace permite a los usuarios catalogar y realizar un seguimiento de los distintos componentes de Analysis Workspace, incluido su uso previsto, cuáles están aprobados, cuáles son duplicados, etc.
 title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Diccionario de datos"
->abstract="El diccionario de datos ayuda a los usuarios y a los administradores a realizar el seguimiento de los componentes en el entorno de Customer Journey Analytics y a comprenderlos mejor. <br/>Los administradores de Customer Journey Analytics son responsables de recopilar la información sobre cada componente del diccionario de datos."
+>abstract="El diccionario de datos ayuda tanto a los usuarios como a los administradores a realizar un seguimiento y comprender mejor los componentes de su entorno de Customer Journey Analytics. <br/>Los administradores de Customer Journey Analytics son responsables de revisar la información sobre cada componente del diccionario de datos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ Los administradores de Analytics son responsables de seleccionar la información
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3422281/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -103,10 +103,10 @@ Puede manipular la ventana Diccionario de datos de cualquiera de estas formas:
 
   Si cierra y vuelve a abrir Analysis Workspace, la ventana Diccionario de datos permanece en la ubicación donde la movió por última vez. <!--True?-->
 
-* Minimice la ventana.
+* Minimizar la ventana.
 
   Cuando se minimiza, el diccionario de datos aparece como una pestaña azul en la esquina inferior derecha de Analysis Workspace.
 
   Al seleccionar la pestaña azul, el diccionario de datos se abre con el componente que estaba viendo más recientemente.
 
-* Cierre la ventana.
+* Cerrar la ventana.

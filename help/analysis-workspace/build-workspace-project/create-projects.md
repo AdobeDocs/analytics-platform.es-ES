@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre cómo crear un proyecto en Analysis Workspace.
+description: Aprenda a crear un proyecto en Analysis Workspace.
 title: Crear proyectos
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
