@@ -4,11 +4,11 @@ description: Conceptos y funciones de B2B edition de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 68f2fe684f6eb9590ab047e893fb04b1cbe1a8cd
+source-git-commit: a9c22cfd7077fd9e1ac4b9ea4ec0e016e9d2425b
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1468'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Customer Journey Analytics B2B distingue entre los siguientes tipos de datos y c
 | Tipo de datos | Serie temporal | Registros de contenedor | Registros de campo |
 |---|---|---|---|
 | **Conjuntos de datos** | **Conjuntos de datos de eventos**<br/> Por ejemplo:<ul><li>Análisis digital</li><li>Eventos CRM</li><li>Eventos en persona</li><li>Datos del centro de llamadas</li></ul> | **Conjuntos de datos de perfil**<br/> Por ejemplo:<ul><li>Registros CRM</li><li>Registros B2B de AJO</li><li>Registros CDP</li><ul> | **Clasificaciones**<br/> Por ejemplo:<ul><li>Registros de campaña</li><li>Registros de lista de marketing</li><li>Metadatos de contenido</li><li>Registros de productos</li></ul> |
-| Requisitos | **Marca de tiempo**<br> Cada registro necesita:<ul><li>ID de cuenta</li><li>ID de cuenta global</li><li>ID de la persona</li></ul> | **Los registros de identificador de cuenta**<br> necesitan un identificador de contenedor, como:<ul><li>Cuenta</li><li>Persona</li><li>Oportunidad</li><li>Grupo de compras</li></ul> | **Los registros de clave coincidente**<br> necesitan un identificador contenido en un contenedor o conjunto de datos de evento, como:<ul><li>ID de campaña</li><li>ID de contenido</li><li>ID del producto</li></ul> |
+| Requisitos | **Marca de tiempo**<br> Cada registro necesita:<ul><li>ID de cuenta</li><li>ID de cuenta global (opcional)</li></ul> | **Los registros de identificador de cuenta**<br> necesitan un identificador de contenedor, como:<ul><li>Cuenta</li><li>Persona</li><li>Oportunidad</li><li>Grupo de compras</li></ul> | **Los registros de clave coincidente**<br> necesitan un identificador contenido en un contenedor o conjunto de datos de evento, como:<ul><li>ID de campaña</li><li>ID de contenido</li><li>ID del producto</li></ul> |
 
 {style="table-layout:fixed"}
 
