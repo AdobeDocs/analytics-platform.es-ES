@@ -7,7 +7,7 @@ role: User, Admin
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Puedes crear una anotación de las siguientes maneras:
 
 ![Crear una anotación](assets/create-annotation.png)
 
-* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL &#x200B; Anotaciones]](/help/components/annotations/manage-annotations.md).
+* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL  Anotaciones]](/help/components/annotations/manage-annotations.md).
 * **B**. En un proyecto de Workspace, en el menú contextual de una visualización, seleccione **[!UICONTROL Crear anotación a partir de la selección]**.
 * **C**. En un proyecto de Workspace, en el menú contextual de un gráfico de líneas, seleccione **[!UICONTROL Anotar selección]**.
 * **D**. En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú, y **[!UICONTROL Crear anotación]**.
@@ -41,7 +41,7 @@ Para definir la anotación, utilice el [[!UICONTROL Generador de anotaciones]](#
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="Detalles de anotación"
->abstract="Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Las anotaciones permiten enlazar eventos de calendario con dimensiones y métricas específicas."
+>abstract="Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Las anotaciones le permiten enlazar los eventos de calendario con dimensiones y métricas específicas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +50,7 @@ Para definir la anotación, utilice el [[!UICONTROL Generador de anotaciones]](#
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"
 >title="Ámbito"
->abstract="El ámbito le permite personalizar qué datos se anotan. Las métricas y los segmentos calculados no heredan automáticamente las anotaciones aplicadas a los componentes utilizados en sus definiciones. Puedes agregar nuevas métricas calculadas a la sección de ámbito de una anotación existente. Los nuevos segmentos requieren una nueva anotación."
+>abstract="El ámbito le permite personalizar los datos se anotan. Las métricas y los segmentos calculados no heredan de forma automática las anotaciones aplicadas a los componentes utilizados en sus definiciones. Puedes agregar nuevas métricas calculadas a la sección de ámbito de una anotación existente. Los nuevos segmentos requieren una nueva anotación."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -20,7 +20,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="Persistencia"
->abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes de los segmentos en la creación de informes."
+>abstract="Configure el modelo de asignación predeterminado aplicado a una dimensión. La asignación se aplica antes que los segmentos en el sistema de informes."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -108,7 +108,7 @@ Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/3409291/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
