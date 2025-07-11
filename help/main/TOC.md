@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: 24834f6a1424a885c6f7b3dcf0ad84375e21b462
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1275'
 ht-degree: 97%
 
 ---
@@ -202,7 +202,7 @@ ht-degree: 97%
       + Tabla de cohortes {#cohort-table}
          + [Información general](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuración](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casos prácticos](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Casos de uso](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Visita en orden previsto {#fallout}
          + [Información general](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configuración](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -396,8 +396,10 @@ ht-degree: 97%
       + [Visualización de información de componentes en el diccionario de datos](../components/data-dictionary/view-data-dictionary.md)
       + [Edición de entradas de componentes en el diccionario de datos](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [Monitorización del estado del diccionario de datos](../components/data-dictionary/monitor-data-dictionary-health.md)
+   + Creación de informes en tiempo real {#real-time-reporting}
+      + [Información general](/help/components/real-time/real-time.md)
+      + [Uso de informes en tiempo real](/help/components/real-time/use-real-time.md)
    + [Proyectos programados](../components/scheduled-projects-manager.md)
-
 + Report Builder {#cja-reportbuilder}
    + [Información general](../report-builder/rb-overview.md)
    + [Configuración de Report Builder](../report-builder/report-builder-setup.md)
