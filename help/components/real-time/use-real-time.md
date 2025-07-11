@@ -26,7 +26,7 @@ Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actuali
 * [Panel de forma libre](/help/analysis-workspace/c-panels/freeform-panel.md)
 * ...
 
-Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL  *Última actualización a las 07:55 pm*].
+Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL &#x200B; *Última actualización a las 07:55 pm*].
 
 Seleccione el período en tiempo real sobre el que desea crear el informe en el menú desplegable. Entre las opciones disponibles se encuentran:
 
