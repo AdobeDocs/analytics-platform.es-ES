@@ -6,13 +6,13 @@ hide: true
 hidefromtoc: true
 role: User
 badgePremium: label="Beta"
-source-git-commit: 24834f6a1424a885c6f7b3dcf0ad84375e21b462
+exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
+source-git-commit: edc5e96b8c55f785fd8b2ed04ace1944ecf3947d
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 2%
+source-wordcount: '413'
+ht-degree: 1%
 
 ---
-
 
 # Resumen de informes en tiempo real
 
@@ -36,11 +36,11 @@ Como parte de ese lanzamiento, desea saber lo siguiente:
 * Los casos de uso relevantes, pero menos valiosos, para la creación de informes en tiempo real son los casos de uso de validación.
 Desea validar, por ejemplo:
 
-   * ¿Funciona realmente el recorrido de campaña que ha lanzado recientemente?
-   * ¿Se lanzó la nueva página de productos y está recopilando datos de clientes de la página?
+   * ¿Funciona realmente el recorrido de campaña que ha iniciado recientemente?
+   * Cuando se lanzó la nueva página de productos, ¿está recopilando datos de clientes de la página?
    * ¿Funciona correctamente su evento de medios en directo?
 
-No considere la creación de informes en tiempo real para las operaciones que supervisan casos de uso. Por ejemplo, para responder a la pregunta de si el sitio está funcionando realmente?
+No considere la creación de informes en tiempo real para las operaciones que supervisan casos de uso. Por ejemplo, para responder a la pregunta: ¿está funcionando realmente un sitio?
 
 
 ## Definición
@@ -53,6 +53,6 @@ Debe tener en cuenta la siguiente limitación para los informes en tiempo real:
 
 * Los informes en tiempo real solo incluyen datos disponibles en un periodo móvil de 24 horas. Los datos que cruzan este periodo móvil de 24 horas no están disponibles.
 * La atribución, la segmentación, las métricas calculadas y mucho más solo funcionan en los datos disponibles dentro del período móvil de 24 horas.
-* Los informes en tiempo real funcionan mejor con datos de nivel de evento y sesión, y por ello se recomienda tener cuidado al usar los informes en tiempo real con datos de nivel de persona. <!--Need to explain this a bit better --> Al seleccionar métricas de dimensión (calculadas), tenga en cuenta la preferencia por los datos de nivel de evento y de sesión. Y cuando utiliza funcionalidades como desgloses, siguiente o anterior, y más en el panel habilitado para la actualización en tiempo real.
+* La creación de informes en tiempo real funciona mejor con datos de nivel de evento y sesión, y debe tener cuidado al utilizar la creación de informes en tiempo real con datos de nivel de persona. <!--Need to explain this a bit better --> Dado que solo los eventos del período móvil de 24 horas están disponibles para los informes en tiempo real, el historial de eventos de una persona también se limita a esta ventana. Tenga en cuenta la preferencia para los datos de nivel de evento y de sesión al seleccionar dimensiones y métricas (calculadas). Y cuando utiliza funcionalidades como desgloses, siguiente o anterior, y más en el panel habilitado para la actualización en tiempo real.
 * No se puede combinar la vinculación con los informes en tiempo real. <!-- Do we need to explain this in more detail, why? --> Como se mencionó anteriormente, los informes en tiempo real se refieren a los datos de nivel de evento y sesión, y no tanto a los datos basados en personas.
 * No hay métricas de medios recopilados de Heartbeat disponibles, a excepción de las métricas de inicio y cierre de medios. Por lo tanto, puede seguir utilizando los informes en tiempo real para habilitar un caso de uso de medios.
