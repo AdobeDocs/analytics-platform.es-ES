@@ -4,7 +4,7 @@ description: Atribuir dimensiones a matrices de objetos para un análisis de per
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
+source-git-commit: db47e3414046a2222c2cb95588c4e3cc6988e6be
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 70%
@@ -440,4 +440,4 @@ Sin embargo, si se enlaza `product_finding_method` a la métrica Adiciones al ca
 
 >[!MORELIKETHIS]
 >
->[Dimension de enlace en vistas de datos](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=es) tutorial.
+>[Dimensiones de enlace en las vistas de datos](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) tutorial.
