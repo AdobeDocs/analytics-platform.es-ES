@@ -33,13 +33,13 @@ Para informar sobre la fecha de Marketo Engage en Customer Journey Analytics:
 
 +++ &#x200B;1. Asigne campos de datos de origen de Marketo a sus destinos XDM
 
-Asigne los objetos [Personas](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
+Asigne los objetos [Personas](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
 
 +++
 
 +++ &#x200B;2. Ingresar datos de Marketo en Adobe Experience Platform
 
-Utilice el [conector de Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
+Utilice el [conector de Marketo Engage](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
 
 +++
 
