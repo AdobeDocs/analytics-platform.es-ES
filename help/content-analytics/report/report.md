@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
-workflow-type: ht
+source-git-commit: c86da649c23ca06c3404b6e5db0b9970e8817a72
+workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ En función de las dimensiones específicas de Content Analytics que utilice en 
 
 De forma predeterminada, se muestran las miniaturas de las dimensiones relevantes del análisis de contenido. Para configurar la visualización de miniaturas para una dimensión de Content Analytics:
 
-* Pase el puntero por encima de una fila de encabezado para la dimensión del análisis de contenido. Por ejemplo, **[!UICONTROL Nombre de recurso]** o **[!UICONTROL ID de experiencia]**.
+* Pase el puntero por encima de una fila de encabezado para la dimensión del análisis de contenido. Por ejemplo, **[!UICONTROL ID de recurso]** o **[!UICONTROL ID de experiencia]**.
 * Seleccione ![Configuración](/help/assets/icons/Setting.svg).
 * En la ventana emergente **[!UICONTROL Configuración de fila]**, debajo de **[!UICONTROL Configuración]**, marque o desmarque **[!UICONTROL Mostrar miniaturas]**.
 
