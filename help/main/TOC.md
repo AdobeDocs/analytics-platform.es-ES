@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 24834f6a1424a885c6f7b3dcf0ad84375e21b462
 workflow-type: tm+mt
 source-wordcount: '1275'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -272,7 +272,7 @@ ht-degree: 97%
    + Preguntas frecuentes sobre Workspace y más {#workspace-faq}
       + [Preguntas frecuentes](../analysis-workspace/workspace-faq/faq.md)
       + [Optimización del rendimiento](../analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [Error y solución de problemas](../analysis-workspace/workspace-faq/error-messages.md)
+      + [Errores y solución de problemas](../analysis-workspace/workspace-faq/error-messages.md)
       + [Limitaciones](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad](../analysis-workspace/workspace-faq/aw-accessibility.md)
@@ -321,7 +321,7 @@ ht-degree: 97%
       + [Creación de anotaciones](../components/annotations/create-annotations.md)
       + [Administración de anotaciones](../components/annotations/manage-annotations.md)
       + [Visualización de anotaciones](../components/annotations/view-annotations.md)
-      + [Anotaciones del cuadro de resultados móvil](../components/annotations/mobile-annotations.md)
+      + [Anotaciones de cuadros de resultados móviles](../components/annotations/mobile-annotations.md)
    + Audiencias {#audiences}
       + [Descripción general de las audiencias](../components/audiences/audiences-overview.md)
       + [Creación y publicación de públicos](../components/audiences/publish.md)
@@ -361,7 +361,7 @@ ht-degree: 97%
          + [Métricas segmentadas](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Apilar y sustituir segmentos](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Filtrar métricas calculadas](../components/calc-metrics/cm-workflow/cm-filter.md)
-         + [Marcar métricas calculadas como favoritas](../components/calc-metrics/cm-workflow/cm-favorite.md)
+         + [Marcar una métrica calculada como favorita](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [Copiar métricas calculadas](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [Uso de funciones](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [Etiquetar métricas calculadas](../components/calc-metrics/cm-workflow/cm-tagging.md)
