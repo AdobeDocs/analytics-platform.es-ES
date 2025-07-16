@@ -4,10 +4,10 @@ title: Configuración De Una Visualización De Flujo
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 016bf917e3737f00364c531760722d9b0d6ec785
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 85%
+source-wordcount: '1759'
+ht-degree: 83%
 
 ---
 
@@ -139,7 +139,9 @@ Para explorar en profundidad los datos, tiene varias opciones:
 
 * El diagrama de flujo es interactivo. Pase el ratón por encima del diagrama para cambiar los detalles que se muestran.
 
-* Al seleccionar en un nodo del diagrama, aparecen los detalles de dicho nodo. Seleccione de nuevo el nodo para contraerlo.
+* Al seleccionar un nodo en el diagrama, aparecen los detalles de dicho nodo. Seleccione de nuevo el nodo para contraerlo.
+
+  Si deja varios nodos expandidos en una visualización de flujo, el tiempo de creación de informes puede verse afectado. Como guía general, no deben permanecer expandidos más de 10 nodos a la vez.
 
   ![Ejemplo de diagrama de flujo interactivo que muestra detalles de nodo.](assets/node-details.png)
 
@@ -174,7 +176,7 @@ Utilice un menú contextual en cualquier nodo de la visualización de flujo con 
 | **[!UICONTROL Excluir elemento]** o **[!UICONTROL Restaurar elementos excluidos]** | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, seleccione en el menú contextual **[!UICONTROL Restaurar elemento excluido]**. también puede abrir el segmento en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |
 | **[!UICONTROL Tendencia]** | Crea un diagrama de tendencia para el nodo. |
 | **[!UICONTROL Mostrar columna siguiente]** / **[!UICONTROL Mostrar columna anterior]** | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
-| **[!UICONTROL Ocultar columna]**&#x200B;n | Oculta la columna seleccionada de la visualización. |
+| **[!UICONTROL Ocultar columna]**n | Oculta la columna seleccionada de la visualización. |
 | **[!UICONTROL Expandir toda la columna]** | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
 | **[!UICONTROL Crear audiencia a partir de la selección]** | Crea una audiencia basada en la columna seleccionada. |
 | **[!UICONTROL Contraer toda la columna]** | Oculta todos los nodos de una columna. |
@@ -203,7 +205,7 @@ En el ejemplo siguiente, se incluyen **todas** las ocurrencias de *Categoría pr
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
