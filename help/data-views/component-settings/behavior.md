@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="Comportamiento"
->abstract="Aplicable a los componentes de dimensiones y métricas. Determine cómo se agregan los elementos de línea de esta métrica. Especifique si los valores de cadena para esta dimensión deben estar en minúsculas."
+>abstract="Aplicable a los componentes de dimensiones y métricas. Determine cómo se agregan los elementos de línea de esta métrica. Especifique si los valores de cadena de esta dimensión deben estar en minúsculas."
 
 <!-- markdownlint-enable MD034 -->
 
