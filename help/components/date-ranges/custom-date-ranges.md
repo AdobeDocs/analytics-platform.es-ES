@@ -1,22 +1,20 @@
 ---
-description: Ejemplo de intervalos de fechas personalizados en Analysis Workspace.
+description: Obtenga información sobre cómo definir intervalos de fechas personalizados en Analysis Workspace.
 keywords: Analysis Workspace
 title: Ejemplo de intervalos de fechas personalizados
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 2a152e09d4ff62a02182fc6ac085d4143105a665
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 4%
 
 ---
 
 # Ejemplo de intervalos de fechas personalizados
 
-Este artículo muestra más ejemplos de intervalos de fechas personalizados
-
-
+Este artículo muestra más ejemplos de intervalos de fechas personalizados.
 
 ## Últimos dos meses
 
