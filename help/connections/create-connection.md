@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: bf5d809588c7a0b2e7a97470c99a0f2565d6f713
 workflow-type: tm+mt
 source-wordcount: '7413'
 ht-degree: 67%
@@ -111,7 +111,7 @@ La experiencia de flujo de trabajo de creación y edición de conexiones reúne 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear y editar una conexión](https://video.tv.adobe.com/v/3409298/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear y editar una conexión](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -178,8 +178,8 @@ En la pantalla **[!UICONTROL Conexiones]** > **[!UICONTROL *Nombre de la conexi�
    | **[!UICONTROL ID de la persona]** | El ID de persona que se utiliza para admitir la creación de informes basados en personas para el conjunto de datos. |
    | **[!UICONTROL Clave]** | La clave que se utiliza para un conjunto de datos de búsqueda. |
    | **[!UICONTROL Clave de coincidencia]** | La clave coincidente que se utiliza para un conjunto de datos de búsqueda. |
-   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
+   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
    Puede buscar un conjunto de datos específico mediante el campo ![Buscar](/help/assets/icons/Search.svg).
 
@@ -224,8 +224,8 @@ En la pantalla **[!UICONTROL Conexiones]** > **[!UICONTROL *Nombre de la conexi�
    | **[!UICONTROL ID de la persona]** | El ID de persona que se utiliza para admitir la creación de informes basados en personas para el conjunto de datos. |
    | **[!UICONTROL Clave]** | La clave que se utiliza para un conjunto de datos de búsqueda. |
    | **[!UICONTROL Clave de coincidencia]** | La clave coincidente que se utiliza para un conjunto de datos de búsqueda. |
-   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
+   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
    Puede buscar un conjunto de datos específico mediante el campo ![Buscar](/help/assets/icons/Search.svg).
 
@@ -242,7 +242,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalcontainers"
 >title="Contenedores opcionales"
->abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global &#x200B;]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra &#x200B;]**: habilita la configuración de grupos de compra en una conexión."
+>abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
@@ -277,7 +277,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="Tipo de clave coincidente"
->abstract="Seleccione cómo desea unirse: mediante un coincidencia por campo o una coincidencia por contenedor.<br/><br/>**[!UICONTROL Coincidencia por campo &#x200B;]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. "
+>abstract="Seleccione cómo desea unirse: mediante un coincidencia por campo o una coincidencia por contenedor.<br/><br/>**[!UICONTROL Coincidencia por campo ]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. "
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
@@ -307,7 +307,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="connection_optionalcontainers"
 >title="Contenedores opcionales"
->abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global &#x200B;]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra &#x200B;]**: habilita la configuración de grupos de compra en una conexión."
+>abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
 
 >[!CONTEXTUALHELP]
 >id="connection_personid"
@@ -342,7 +342,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
 >title="Tipo de clave coincidente"
->abstract="Seleccione cómo desea unirse: mediante un coincidencia por campo o una coincidencia por contenedor.<br/><br/>**[!UICONTROL Coincidencia por campo &#x200B;]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. "
+>abstract="Seleccione cómo desea unirse: mediante un coincidencia por campo o una coincidencia por contenedor.<br/><br/>**[!UICONTROL Coincidencia por campo ]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. "
 
 >[!CONTEXTUALHELP]
 >id="connection_importnewdata"
@@ -368,37 +368,37 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >id="connection_stitching_enable"
 >title="Habilitación de la vinculación de identidad"
 >abstract="Habilite la vinculación de identidad para elevar este conjunto de datos de evento para el análisis en canales múltiples."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_dialog"
 >title="Habilitación de la vinculación de identidad"
 >abstract="La habilitación de la vinculación de identidad deriva un ID vinculado de un único conjunto de datos o de varios. Este proceso puede incluir la combinación de datos de usuario de sesiones autenticadas y no autenticadas.<br/><br/>Usted es responsable de cumplir con las leyes y regulaciones aplicables. Esta conformidad incluye que obtenga los permisos de usuario final necesarios antes de combinar conjuntos de datos."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_persistentid"
 >title="ID de la persona"
 >abstract="Seleccione un ID persistente entre las identidades disponibles. Un ID persistente es un identificador disponible en todos los eventos del conjunto de datos del evento."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_lookbackwindow"
->title="Ventana de retroactividad"
+>title="Período de retroactividad"
 >abstract="Seleccione el período de tiempo adecuado para que la ventana retroactiva se utilice en la reproducción de la vinculación."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_map"
 >title="Mapa de identidad del espacio de nombres"
 >abstract="Seleccione el espacio de nombres a utilizar para elegir el identificador del mapa de identidad."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_graph"
 >title="Gráfico de identidad del espacio de nombres"
 >abstract="Seleccione el espacio de nombres a utilizar para actualizar el identificador en el gráfico de identidad."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general sobre la vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 
 ### Añadir conjuntos de datos
@@ -490,8 +490,8 @@ Para un conjunto de datos de evento en una conexión basada en cuentas, puede es
 
 | Configuración | Descripción |
 | --- | --- |
-| **[!UICONTROL ID de cuenta]** | Seleccione un ID de cuenta global (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform. Aplicable cuando se ha añadido una cuenta global como contenedor a la conexión. <p>Si un registro no contiene un valor para la identidad seleccionada como ID de cuenta para el conjunto de datos de evento, se omitirá el registro. |
-| **[!UICONTROL Id. de cuenta global]** | Seleccione un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform. Aplicable cuando no ha añadido una cuenta global como contenedor a su conexión. |
+| **[!UICONTROL Id. de cuenta global]** | Seleccione un ID de cuenta global (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform. Aplicable cuando se ha añadido una cuenta global como contenedor a la conexión. <p>Si un registro no contiene un valor para la identidad seleccionada como ID de cuenta para el conjunto de datos de evento, se omitirá el registro. |
+| **[!UICONTROL ID de cuenta]** | Seleccione un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform. Aplicable cuando no ha añadido una cuenta global como contenedor a su conexión. |
 | **[!UICONTROL ID de oportunidad]** | Seleccione un ID de oportunidad (el identificador único de una oportunidad) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform. |
 | **[!UICONTROL Id. de grupo de compra]** | Seleccione un ID de grupo de compra (el identificador único de un grupo de compra) entre las identidades disponibles definidas en el esquema del conjunto de datos en Experience Platform. |
 | **[!UICONTROL ID de la persona]** | Seleccione un ID de persona en el menú desplegable de identidades disponibles. Estas identidades se definieron en el esquema del conjunto de datos en Experience Platform. Consulte [Usar el mapa de identidad como ID de persona](#id-map) para obtener información sobre cómo usar el mapa de identidad como ID de persona.<p>Si no hay ningún ID de persona para elegir, significa que uno o más ID de persona no se han definido en el esquema. Consulte [Definición de campos de identidad en la IU](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/identity) para obtener más información. <p>El valor del ID de persona seleccionado se considera que distingue entre mayúsculas y minúsculas. Por ejemplo, `abc123` y `ABC123` son dos valores diferentes. |
@@ -610,7 +610,7 @@ Al eliminar un conjunto de datos, se le notifican las implicaciones de la elimin
 
 ### Rellenos anteriores
 
-Cuando selecciona ![Historial](/help/assets/icons/History.svg) **[!UICONTROL Rellenos anteriores]** en la interfaz, un cuadro de diálogo **[!UICONTROL Rellenos anteriores: _Nombre del conjunto de datos_]**&#x200B;muestra los rellenos más recientes del conjunto de datos.
+Cuando selecciona ![Historial](/help/assets/icons/History.svg) **[!UICONTROL Rellenos anteriores]** en la interfaz, un cuadro de diálogo **[!UICONTROL Rellenos anteriores: _Nombre del conjunto de datos_]**muestra los rellenos más recientes del conjunto de datos.
 
 ## Tipos de conjuntos de datos {#dataset-types}
 
@@ -715,6 +715,6 @@ Póngase en contacto con el equipo de soporte de Adobe para obtener más informa
 
 >[!MORELIKETHIS]
 >
->Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=es)
+>Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ![Compartir](/help/assets/icons/Share.svg)
