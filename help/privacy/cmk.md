@@ -4,10 +4,10 @@ description: 'Obtenga información sobre cómo configurar teclas administradas p
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 feature: Privacy
 role: Admin
-source-git-commit: dfdb6bc5c190e4de98eaef86e0c8d118327640a6
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: cdc8d889a05c55d2f4765d0837023d007a5a230d
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 91%
 
 ---
 
@@ -22,9 +22,12 @@ Siga estos pasos para configurar CMK para Customer Journey Analytics que se ejec
 1. Asegúrese de que tiene derecho a CMK de Adobe Customer Journey Analytics CMK y de que su organización utiliza Adobe Experience Platform, que se ejecuta en Azure. Para comprobar estos derechos, póngase en contacto con el equipo de cuentas de Adobe.
 1. Asegúrese de que, en Azure, es un administrador con una función de privilegio, como administrador de aplicaciones, administrador de aplicaciones de nube o administrador global. Consulte [Funciones integradas de Microsoft Entra](https://learn.microsoft.com/es-es/entra/identity/role-based-access-control/permissions-reference) para obtener más información.
 1. Cree un nuevo Azure Key Vault para utilizarlo solo con Customer Journey Analytics. Consulte la [Documentación de Microsoft Azure Key Vault](https://learn.microsoft.com/es-es/azure/key-vault/general/) para obtener más información.
-1. Conceda acceso a la aplicación de Adobe Azure a su clave en el almacén de claves. Consulte [Configuración de claves administradas por el cliente para una cuenta existente](https://learn.microsoft.com/es-es/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault) para obtener más información. El ID de aplicación de Adobe es:
+1. Conceda acceso a la aplicación de Adobe Azure a su clave en el almacén de claves. Puede hacerlo mediante cualquiera de los siguientes métodos:
+   * Conceder permisos mediante el consentimiento de autorización a través de la siguiente dirección URL: [https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&amp;redirect_uri=https://experience.adobe.com&amp;scope=user.read](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&redirect_uri=https://experience.adobe.com&scope=user.read)
 
-   **`251e3919-1940-4296-bb8b-6b9a5e8a4805`**
+   * Siga las instrucciones de [Configurar claves administradas por el cliente para una cuenta existente](https://learn.microsoft.com/es-es/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault). El ID de aplicación de Adobe es:
+
+     **`251e3919-1940-4296-bb8b-6b9a5e8a4805`**
 
 1. Cree un ticket del Servicio de atención al cliente de Adobe solicitando la configuración de CMK. Incluya el URI de Azure en su ticket. El URI se puede encontrar en el campo **Identificador de clave** de la clave de Azure:
 
