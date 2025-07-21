@@ -9,7 +9,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
 workflow-type: tm+mt
 source-wordcount: '2270'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -129,14 +129,14 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 | Crear una tendencia a partir de una selección | Cree una visualización de gráfico de líneas de tendencias en función de un área específica que seleccione en la visualización de mapas. <p>Para obtener más información, consulte [Crear un gráfico de líneas de tendencias a partir de la visualización del mapa](#create-a-trended-line-chart-from-the-map-visualization). <!-- is this correct? --> | No se puede crear una tendencia desde la visualización del mapa. |
 | Añadir un desglose de una selección | Desglose un elemento de dimensión, métrica, segmento o intervalo de fechas específico dentro de un área específica que seleccione en la visualización de mapas. <p>Para obtener más información, consulte [Agregar un desglose desde la visualización del mapa](#add-a-breakdown-from-the-map-visualization). | No se puede añadir un desglose desde la visualización del mapa. |
 
-## Comenzar a crear una visualización de mapas {#begin-building-map}
+## Comenzar a crear una visualización del mapa {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_panel"
->title="Configuración de la visualización de mapas"
->abstract="Elija la métrica o métrica calculada que se utiliza como base para la visualización del mapa. También puede agregar un segmento si desea centrarse en un subconjunto específico de los datos.<p>Puede actualizar esta información en cualquier momento después de que se procese la visualización.</p>"
+>title="Configurar la visualización del mapa"
+>abstract="Elija la métrica o métrica calculada que se utiliza como base para la visualización del mapa. También puede añadir un segmento si desea centrarse en un subconjunto específico de los datos.<p>Puede actualizar esta información en cualquier momento después de que se genere la visualización.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
