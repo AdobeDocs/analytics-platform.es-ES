@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
+source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2283'
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,9 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
       * Mostrar números negativos.
 
         Por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
+
       * En cuanto a las métricas que son de tipo *por ciento*, el clústering calcula la media total de los porcentajes.
+
       * El esquema de colores verde y rojo indica positivo y negativo.
 
    * **Configuración de visualización adicional**: seleccione el icono Configuración ![Setting](/help/assets/icons/Setting.svg) en el encabezado de visualización para ver la configuración adicional para la visualización de mapas. Para obtener más información, consulte [Configurar opciones de visualización](#configure-visualization-settings).
@@ -238,7 +240,7 @@ Para configurar los ajustes de la visualización de mapas:
    | **[!UICONTROL Estilos]** | | |
    | | **[!UICONTROL Tema de color]** | Muestra el esquema de colores para el mapa de calor y las burbujas. Puede elegir entre Coral, Rojos, Verdes o Azules. El color predeterminado es Coral. |
    | | **[!UICONTROL Estilo de mapa]** | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
-   | | **[!UICONTROL Radio de clúster]** | Agrupar los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50. |
+   | | **[!UICONTROL Radio de clúster]** | Agrupar los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50.<p>Esta opción solo está disponible cuando **[!UICONTROL Burbujas]** está seleccionado como **[!UICONTROL Tipo de mapa]**.</p> |
    | | **[!UICONTROL Valor máximo personalizado]** | Permite modificar el umbral para el valor máximo del mapa. Al ajustar este valor, se ajusta la escala de los valores (color y tamaño) de las burbujas o del mapa de calor en relación con el valor máximo personalizado que se haya definido. |
    | | **[!UICONTROL Mostrar anotaciones]** | Muestra las anotaciones realizadas para esta visualización. |
    | | **[!UICONTROL Ocultar título]** | Oculta el título de la visualización. |
