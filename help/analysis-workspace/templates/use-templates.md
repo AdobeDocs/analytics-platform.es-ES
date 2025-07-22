@@ -538,7 +538,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Descubra qué contenido y atributos de contenido tienen el mejor rendimiento."
->abstract="**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos. &lt;a href=\&quot;https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics\&quot; target=\&quot;_blank\&quot;>Más información</a>.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como promocionar recursos de alto rendimiento en su página de inicio, personalizar contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
+>abstract="**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos. &lt;a href=\&quot;https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics\&quot; target=\&quot;_blank\&quot;>Más información</a>.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como promocionar recursos de alto rendimiento en su página de inicio, personalizar contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
 
 <!-- markdownlint-enable MD034 -->
 
