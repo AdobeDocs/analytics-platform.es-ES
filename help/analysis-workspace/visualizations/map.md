@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
+source-git-commit: f0ef310f120e278685893308315902e32c54e35e
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2385'
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -287,11 +287,13 @@ Puede crear un segmento basado en un área específica que seleccione en la visu
 
 Para crear un segmento a partir de la visualización de mapas:
 
-1. (Opcional) Aumente el tamaño del área específica del mapa que contiene los datos que desea utilizar para el segmento.
+1. Aplique el zoom o el desplazamiento al área del mapa que contiene los datos que desea utilizar para el segmento.
 
-1. Haga clic en la herramienta de selección ![icono de selección de mapas](assets/map-selection-icon.png) y, a continuación, arrastre el ratón para seleccionar el área que desee.
+1. Realice cualquiera de los siguientes pasos:
 
-1. Seleccione **[!UICONTROL Crear segmento de selección]** en el menú desplegable que aparece.
+   * **Para crear un segmento a partir de todo lo que se muestra actualmente en el mapa:** Haga clic con el botón secundario en cualquier lugar del mapa y, a continuación, seleccione **[!UICONTROL Crear segmento a partir de la vista actual]**.
+
+   * **Para crear un segmento para un área más específica del mapa:** Haga clic en la herramienta de selección ![icono de selección de mapas](assets/map-selection-icon.png), arrastre el ratón para seleccionar el área deseada y, a continuación, seleccione **[!UICONTROL Crear segmento de selección]**.
 
 1. Utilice el Generador de segmentos para definir el nuevo segmento. Para obtener más información, consulte [Generador de segmentos](/help/components/segments/seg-builder.md).
 
@@ -301,11 +303,13 @@ Puede crear una audiencia basada en un área específica que seleccione en la vi
 
 Para crear una audiencia a partir de la visualización del mapa:
 
-1. (Opcional) Aumente el zoom en el área específica del mapa que contiene los datos que desea utilizar para la audiencia.
+1. Aplique el zoom o el desplazamiento al área del mapa que contiene los datos que desea utilizar para su audiencia.
 
-1. Haga clic en la herramienta de selección ![icono de selección de mapas](assets/map-selection-icon.png) y, a continuación, arrastre el ratón para seleccionar el área que desee.
+1. Realice cualquiera de los siguientes pasos:
 
-1. Seleccione **[!UICONTROL Crear audiencia a partir de la selección]** en el menú desplegable que aparece.
+   * **Para crear una audiencia a partir de todo lo que se muestra actualmente en el mapa:** Haga clic con el botón secundario en cualquier lugar del mapa y, a continuación, seleccione **[!UICONTROL Crear audiencia a partir de la vista actual]**.
+
+   * **Para crear una audiencia para un área más específica del mapa:** Haga clic en la herramienta de selección ![icono de selección de mapas](assets/map-selection-icon.png), arrastre el ratón para seleccionar el área deseada y, a continuación, seleccione **[!UICONTROL Crear audiencia a partir de la selección]**.
 
 1. Utilice el Generador de audiencias para definir la nueva audiencia. Para obtener más información, consulte [Generador de audiencias](/help/components/audiences/publish.md#audience-builder) en [Crear y publicar audiencias](/help/components/audiences/publish.md)
 
@@ -315,11 +319,13 @@ Puede crear una visualización de gráfico de líneas de tendencias para los dat
 
 Para crear un gráfico de líneas de tendencias a partir de la visualización de mapas:
 
-1. (Opcional) Acerque el área específica del mapa que contiene los datos que desea utilizar para el gráfico de líneas de tendencias.
+1. Aplique el zoom o el desplazamiento al área del mapa que contiene los datos que desea utilizar para el gráfico de líneas de tendencias.
 
-1. Haga clic en la herramienta de selección ![icono de selección de mapas](assets/map-selection-icon.png) y, a continuación, arrastre el ratón para seleccionar el área que desee.
+1. Realice cualquiera de los siguientes pasos:
 
-1. Seleccione **[!UICONTROL Tendencia]** en el menú desplegable que aparece.
+   * **Para crear un gráfico de líneas de tendencia a partir de todo lo que se muestra actualmente en el mapa:** Haga clic con el botón secundario en cualquier lugar del mapa y, a continuación, seleccione **[!UICONTROL Tendencia de la vista actual]**.
+
+   * **Para crear un gráfico de líneas de tendencias para un área más específica del mapa:** Haga clic en la herramienta de selección ![icono de selección de mapas](assets/map-selection-icon.png), arrastre el mouse para seleccionar el área deseada y, a continuación, seleccione **[!UICONTROL Tendencia]**.
 
    Se crea una visualización de líneas que incluye una línea de tendencia. Para obtener más información sobre esta visualización, consulte [Línea](/help/analysis-workspace/visualizations/line.md).
 
