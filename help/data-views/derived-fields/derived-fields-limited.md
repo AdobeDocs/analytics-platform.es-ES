@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!IMPORTANT]
 >
 >Esta es la documentación preliminar de las nuevas funciones de campo derivadas que aún no están disponibles de forma general. Utilice esta información para obtener información sobre las nuevas funciones de campo derivadas. Esta documentación sigue estando sujeta a cambios y no se puede derivar ninguna obligación legal de la versión actual de este artículo.
->&#x200B;><br/>Consulte [Campos derivados](derived-fields.md) para obtener información sobre la funcionalidad de campos derivados en general y las funciones liberadas y plantillas de funciones disponibles actualmente.
+>><br/>Consulte [Campos derivados](derived-fields.md) para obtener información sobre la funcionalidad de campos derivados en general y las funciones liberadas y plantillas de funciones disponibles actualmente.
 >
 
 ## Referencia de función
