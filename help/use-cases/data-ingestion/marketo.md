@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
+source-git-commit: fedb1337b32e44fc00989bace6a4d1788043f55f
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 14%
+source-wordcount: '1059'
+ht-degree: 13%
 
 ---
 
@@ -29,17 +29,17 @@ Consulte [comparación de informes](#reporting-comparison) para obtener más inf
 >
 
 
-Para informar sobre la fecha de Marketo Engage en Customer Journey Analytics:
+Para informar sobre los datos de Marketo Engage en Customer Journey Analytics:
 
 +++ &#x200B;1. Asigne campos de datos de origen de Marketo a sus destinos XDM
 
-Asigne los objetos [Personas](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
+Asigne los objetos [Personas](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
 
 +++
 
 +++ &#x200B;2. Ingresar datos de Marketo en Adobe Experience Platform
 
-Utilice el [conector de Marketo Engage](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
+Utilice el [conector de Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
 
 +++
 
@@ -137,3 +137,6 @@ Consulte a continuación una tabla comparativa rápida sobre las funciones de cr
 | **Flexibilidad y creación de informes personalizados** | BI avanzado (complemento) para análisis profundos de programas y cuentas. | Es muy flexible en la forma de crear espacios de trabajo, tableros o informes personalizados con todos los datos disponibles. |
 | **Análisis de audiencia** | Filtre y segmente listas de programas, participación y listas inteligentes. | Visualizaciones de persona y recorrido enriquecidas, rutas de audiencia y análisis de superposición de segmentos. |
 | **Usuarios previstos** | Especialistas en marketing, operadores de marketing, trabajadores de generación de demanda, funcionarios de ingresos. | Analistas, científicos de datos, estrategas de marketing, profesionales de la experiencia del cliente. |
+| **Anulación de duplicación métrica** | Para los informes de rendimiento de correo electrónico, las métricas se deduplican automáticamente por ID de posible cliente, ID de campaña e ID de recurso de correo electrónico. Si se crean varios correos electrónicos a partir del mismo recurso de correo electrónico y se envían al mismo posible cliente desde el mismo programa, estos correos electrónicos solo se contarán como uno. | Sin aplicar filtros y métricas adicionales, los datos de los informes de correo electrónico se presentan como un recuento total del rendimiento del correo electrónico sin [anulación de duplicación de métricas](/help/data-views/component-settings/metric-deduplication.md). |
+
+{style="table-layout:fixed"}
