@@ -1,23 +1,17 @@
 ---
 description: Explicación de los paneles y cómo utilizarlos en Analysis Workspace.
-title: Información general de los paneles
+title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
-workflow-type: ht
-source-wordcount: '2143'
+source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
+workflow-type: tm+mt
+source-wordcount: '2130'
 ht-degree: 100%
 
 ---
 
 # Información general de los paneles {#panels-overview}
-
->[!CONTEXTUALHELP]
->id="workspace_panel_realtime_refresh"
->title="Actualización en tiempo real"
->abstract="Habilite la opción para actualizar los datos y las visualizaciones en este panel en tiempo real."
-
 
 Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles en el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, vistas de datos o casos de uso de análisis.
 
@@ -161,7 +155,7 @@ Para obtener más información, consulte [Segmentos rápidos](/help/components/s
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VídeoConsultado](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/327488?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VídeoConsultado](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

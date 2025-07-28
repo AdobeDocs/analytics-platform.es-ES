@@ -7,20 +7,23 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
+source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 9%
+source-wordcount: '198'
+ht-degree: 13%
 
 ---
 
-# Uso de informes en tiempo real
+# Uso de informes en tiempo real {#use-real-time-reporting}
+
+>[!CONTEXTUALHELP]
+>id="workspace_panel_realtime_refresh"
+>title="Actualización en tiempo real"
+>abstract="Habilite la opción para actualizar los datos y las visualizaciones en este panel en tiempo real."
 
 {{release-limited-testing}}
 
 Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actualización en tiempo real]** en cualquiera de los siguientes paneles de su proyecto de Workspace:
-
-
 
 * [Panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md)
 * [De forma libre](/help/analysis-workspace/c-panels/freeform-panel.md)
@@ -28,7 +31,7 @@ Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actuali
 * [Elemento siguiente o anterior](/help/analysis-workspace/c-panels/next-previous.md)
 * [Acceso rápido a información](/help/analysis-workspace/c-panels/quickinsight.md)
 
-Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL &#x200B; *Última actualización a las 07:55 pm*].
+Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL  *Última actualización a las 07:55 pm*].
 
 Seleccione el período en tiempo real sobre el que desea crear el informe en el menú desplegable. Entre las opciones disponibles se encuentran:
 
@@ -39,6 +42,8 @@ Seleccione el período en tiempo real sobre el que desea crear el informe en el 
 * [!UICONTROL Últimas 24 horas]
 
 Ahora, todas las visualizaciones del panel se actualizan cada minuto durante un máximo de 30 minutos, mientras que la pestaña del explorador con el panel habilitado para la actualización en tiempo real está activa.
+
+Por ejemplo, vea a continuación una instantánea de **[!UICONTROL Panel de informes en tiempo real]** que actualiza la visualización de barra de **[!UICONTROL Ingresos totales por hora]** y la tabla de forma libre de **[!UICONTROL Ingresos totales por hora]** a medida que el tiempo pasa de **[!UICONTROL *06:26pm*]** a **[!UICONTROL *06:27 pm *]**.
 
 ![Actualización en tiempo real](assets/real-time-refresh.gif)
 
