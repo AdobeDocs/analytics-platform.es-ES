@@ -399,7 +399,7 @@ ht-degree: 99%
       + [Monitorización del estado del diccionario de datos](../components/data-dictionary/monitor-data-dictionary-health.md)
    + Creación de informes en tiempo real {#real-time-reporting}
       + [Información general](/help/components/real-time/real-time.md)
-      + [Uso de informes en tiempo real](/help/components/real-time/use-real-time.md)
+      + [Uso de creación de informes en tiempo real](/help/components/real-time/use-real-time.md)
    + [Proyectos programados](../components/scheduled-projects-manager.md)
 + Report Builder {#cja-reportbuilder}
    + [Información general](../report-builder/rb-overview.md)
