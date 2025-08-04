@@ -10,11 +10,11 @@ exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
 source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# Uso de informes en tiempo real {#use-real-time-reporting}
+# Uso de creación de informes en tiempo real {#use-real-time-reporting}
 
 >[!CONTEXTUALHELP]
 >id="workspace_panel_realtime_refresh"
@@ -31,7 +31,7 @@ Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actuali
 * [Elemento siguiente o anterior](/help/analysis-workspace/c-panels/next-previous.md)
 * [Acceso rápido a información](/help/analysis-workspace/c-panels/quickinsight.md)
 
-Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL &#x200B; *Última actualización a las 07:55 pm*].
+Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL  *Última actualización a las 07:55 pm*].
 
 Seleccione el período en tiempo real sobre el que desea crear el informe en el menú desplegable. Entre las opciones disponibles se encuentran:
 
