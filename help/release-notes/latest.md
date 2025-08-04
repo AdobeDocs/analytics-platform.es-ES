@@ -3,10 +3,10 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 144caa157e1a7161595e2b4fc0da60cd63de50bd
+source-git-commit: 71974e607b0924796c4413a4d092f7afd643d32f
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 81%
 
 ---
 
@@ -23,9 +23,9 @@ Estas notas de la versión abarcan el período de lanzamiento del 11 de julio de
 | ----------- | ---------- | ------- | ---- |
 | **Añadir y ver comentarios en proyectos de Analysis Workspace** | Una nueva [característica de comentarios](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects) en Analysis Workspace le permite compartir información y hacer preguntas en el contexto de un proyecto de Analysis Workspace. Esto puede agilizar los debates sobre los datos, manteniendo las conversaciones en el contexto de los datos que se están debatiendo. Puede <ul><li>Comentar cualquier proyecto de Analysis Workspace al que tenga acceso</li><li>Comentar un punto específico en una visualización o hacer comentarios generales sobre un proyecto</li><li>Etiquetar a otros usuarios para notificarles sus comentarios</li><li>Administrar comentarios existentes (editar, fijar, resolver, etc.)</li></ul>Los administradores de Customer Journey Analytics pueden [deshabilitar los comentarios en el nivel de organización](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences). Los propietarios del proyecto pueden [deshabilitar los comentarios en el nivel de proyecto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects). | 25 de junio de 2025 | miércoles, 22 de julio de 2025 <p>(anteriormente, 29 de mayo de 2025)</p> |
 | **Los proyectos descargados en formato PDF se descargan en su estación de trabajo** | Al descargar un proyecto en formato PDF, este se descarga en la carpeta de descargas de la estación de trabajo. Anteriormente, al descargar un proyecto en formato PDF, este se abría en una nueva pestaña del explorador con una dirección URL única. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/export/download-send) | | Por determinar |
-| **Campos derivados: función de conversión de tipos** | Esta función derivada de conversión de tipos ofrece la posibilidad de cambiar un tipo de campo sobre la marcha para que esté disponible para transformaciones adicionales en Customer Journey Analytics. | . | 30 de julio de 2025 |
-| **Campos derivados: función aritmética de fechas** | La función de campo derivado de aritmética de fechas ofrece la posibilidad de devolver la diferencia entre dos campos de fecha o de fecha y hora. | | 30 de julio de 2025 |
-| **Ares: función de profundidad de campos derivados** | La función de campo derivado de profundidad ofrece la posibilidad de devolver la profundidad de un campo, de forma similar a lo que es posible con la dimensión de profundidad de evento estándar predeterminada. |  | 30 de julio de 2025 |
+| **Campos derivados: función aritmética de fechas** | La función de campo derivado [Date Math](/help/data-views/derived-fields/derived-fields.md#date-math) proporciona la capacidad de devolver la diferencia entre dos campos Date o Date-time. | martes, 04 de agosto de 2025 | sábado, 08 de agosto de 2025 |
+| **Campos derivados - Función de profundidad** | La función de campo derivado [Depth](/help/data-views/derived-fields/derived-fields.md#depth) proporciona la capacidad de devolver la profundidad de un campo, de forma similar a lo que es posible con la dimensión de profundidad de evento estándar predeterminada. | martes, 04 de agosto de 2025 | sábado, 08 de agosto de 2025 |
+| **Campos derivados: función de conversión de tipos** | La función de campo derivado [Typecast](/help/data-views/derived-fields/derived-fields.md#typecast) proporciona la capacidad de cambiar un tipo de campo sobre la marcha y hacer que el campo esté disponible para transformaciones adicionales en Customer Journey Analytics. | martes, 04 de agosto de 2025 | sábado, 08 de agosto de 2025 |
 
 ## Correcciones en Customer Journey Analytics
 
