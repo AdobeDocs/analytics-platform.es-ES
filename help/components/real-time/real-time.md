@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: e7a7a297e303a410c73598f373219644e50ede74
+source-git-commit: 34dfbc98acecf1ca953434a7d1f0547ff45139a8
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
@@ -54,5 +54,8 @@ Debe tener en cuenta la siguiente limitación para los informes en tiempo real:
 * Los informes en tiempo real solo incluyen datos disponibles en un periodo móvil de 24 horas. Los datos que cruzan este periodo móvil de 24 horas no están disponibles.
 * La atribución, la segmentación, las métricas calculadas y mucho más solo funcionan en los datos disponibles dentro del período móvil de 24 horas.
 * La creación de informes en tiempo real funciona mejor con datos de nivel de evento y sesión, y debe tener cuidado al utilizar la creación de informes en tiempo real con datos de nivel de persona. <!--Need to explain this a bit better --> Dado que solo los eventos del período móvil de 24 horas están disponibles para los informes en tiempo real, el historial de eventos de una persona también se limita a esta ventana. Tenga en cuenta la preferencia para los datos de nivel de evento y de sesión al seleccionar dimensiones y métricas (calculadas). Y cuando utiliza funcionalidades como desgloses, siguiente o anterior, y más en el panel habilitado para la actualización en tiempo real.
-* No se puede combinar la vinculación con los informes en tiempo real. <!-- Do we need to explain this in more detail, why? --> Como se mencionó anteriormente, los informes en tiempo real se refieren a los datos de nivel de evento y sesión, y no tanto a los datos basados en personas.
+* No se puede combinar la vinculación con los informes en tiempo real. <!-- Do we need to explain this in more detail, why? --> Los informes en tiempo real se refieren a los datos de nivel de evento y sesión, y son menos relevantes para los datos basados en personas.
 * No hay métricas de medios recopilados de Heartbeat disponibles, a excepción de las métricas de inicio y cierre de medios. Por lo tanto, puede seguir utilizando los informes en tiempo real para habilitar un caso de uso de medios.
+* Cuando use las [opciones de descarga o exportación](/help/analysis-workspace/export/download-send.md) para descargar un proyecto o exportar datos desde una tabla de forma libre, tenga en cuenta lo siguiente:
+   * Un proyecto CSV descargado o un archivo CSV exportado contiene los datos en tiempo real disponibles en el momento de la descarga o exportación.
+   * Un proyecto de PDF descargado contiene datos no en tiempo real, similares a los datos que se muestran cuando la actualización en tiempo real está desactivada.

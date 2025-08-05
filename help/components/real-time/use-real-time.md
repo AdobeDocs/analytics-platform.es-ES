@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
+source-git-commit: 8f19ed6b4214c434dd4ca2dbb5e311c62da109c0
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 15%
+source-wordcount: '196'
+ht-degree: 14%
 
 ---
 
@@ -29,9 +29,8 @@ Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actuali
 * [De forma libre](/help/analysis-workspace/c-panels/freeform-panel.md)
 * [Atribución](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento siguiente o anterior](/help/analysis-workspace/c-panels/next-previous.md)
-* [Acceso rápido a información](/help/analysis-workspace/c-panels/quickinsight.md)
 
-Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL &#x200B; *Última actualización a las 07:55 pm*].
+Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL  *Última actualización a las 07:55 pm*].
 
 Seleccione el período en tiempo real sobre el que desea crear el informe en el menú desplegable. Entre las opciones disponibles se encuentran:
 
