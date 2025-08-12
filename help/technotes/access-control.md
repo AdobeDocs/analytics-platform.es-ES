@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 8da8d22d35e0b4a77da010d0ba5fb230946ccce5
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1560'
 ht-degree: 21%
 
 ---
@@ -57,6 +57,7 @@ Además de agregarse como administrador de productos en el **Perfil de productos
 
   | Categoría | Permiso | Descripción |
   |---|---|---|
+  | [!UICONTROL Zonas protegidas] | [!UICONTROL Al menos uno] | Acceso a zonas protegidas relevantes para conexiones de CJA. |
   | [!UICONTROL Modelado de datos] | [!UICONTROL Ver esquemas] | Acceso de solo lectura a esquemas y recursos relacionados. |
   | [!UICONTROL Modelado de datos] | [!UICONTROL Administrar esquemas] | Acceso para leer, crear, editar y eliminar esquemas y recursos relacionados. |
   | [!UICONTROL Administración de datos] | [!UICONTROL Ver conjuntos de datos de vistas] | Acceso de solo lectura para conjuntos de datos y esquemas. |
@@ -64,7 +65,7 @@ Además de agregarse como administrador de productos en el **Perfil de productos
   | [!UICONTROL Ingesta de datos] | [!UICONTROL Administrar fuentes] | Acceso para leer, crear, editar y deshabilitar orígenes. |
   | [!UICONTROL Identity Management] | [!UICONTROL Ver espacios de nombres de identidad] | Acceso de solo lectura para espacios de nombres de identidad. |
 
-  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
 
 
 * Si Adobe Journey Optimizer se ha integrado con CJA donde existen conexiones de AJO, también se deben añadir permisos de Recorrido para acceder a las conexiones:
@@ -85,13 +86,13 @@ Además de agregarse como administrador de productos en el **Perfil de productos
   | [!UICONTROL Destinos] | [!UICONTROL Administrar destinos] | Acceso para leer, crear y eliminar conexiones y cuentas de destino. |
   | [!UICONTROL Destinos] | [!UICONTROL Activar destinos] | Permitir a los usuarios activar segmentos en destinos existentes. Habilita el paso de asignación en el flujo de trabajo de activación. Este permiso también requiere que se conceda el permiso Ver destinos al usuario que desea activar los datos en los destinos. |
 
-  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
 
 * Usar la [extensión de BI](../data-views/bi-extension.md)
 
   Para que los usuarios utilicen la extensión de BI, un administrador de productos
 
-   * debe asegurarse de que los permisos de Experience Platform para el usuario incluyan una función que tenga el recurso del servicio de consultas con las opciones Administrar consultas y Administrar integración del servicio de consultas. Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+   * debe asegurarse de que los permisos de Experience Platform para el usuario incluyan una función que tenga el recurso del servicio de consultas con las opciones Administrar consultas y Administrar integración del servicio de consultas. Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
 
      | Categoría | Permiso | Descripción |
      |---|---|---| 
@@ -130,7 +131,7 @@ La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en [Ad
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Visualización de audiencias] | Permitir que los usuarios vean [audiencias](/help/components/audiences/audiences-overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de audiencias] | Permitir que los usuarios creen [audiencias](/help/components/audiences/audiences-overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a registros de auditoría] | Aplicar la comprobación de permisos en la [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) y la interfaz de usuario de registros de auditoría. |
-| [!UICONTROL Herramientas de informes] | [!UICONTROL Compartir Vínculos De Proyecto Con Cualquiera] | Permitir que los usuarios [compartan proyectos con cualquiera.](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
+| [!UICONTROL Herramientas de informes] | [!UICONTROL Compartir Vínculos De Proyecto Con Cualquiera] | Permitir que los usuarios [compartan proyectos con cualquiera.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Previsión] | Permitir que los usuarios accedan a la función [Previsión](../analysis-workspace/c-forecast/forecasting.md) en Analysis Workspace |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Asistente de IA: conocimiento del producto] | Permita que los usuarios tengan acceso al [Asistente de IA](../ai-assistant.md) para obtener información sobre el producto. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Pies de ilustración inteligentes] | Permitir que los usuarios tengan acceso a [subtítulos inteligentes](/help/analysis-workspace/visualizations/intelligent-captions.md). |
