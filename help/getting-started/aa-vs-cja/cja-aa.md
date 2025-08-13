@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 144caa157e1a7161595e2b4fc0da60cd63de50bd
+source-git-commit: 7f44c7497a48e8377ca26cb194f828c3c8836f98
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2709'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Alojamiento para cualquier tipo de datos** | Customer Journey Analytics se combina con la capacidad de Experience Platform para albergar todo tipo de esquemas y datos. Con [Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), los datos se pueden representar y organizar de forma uniforme, listos para la combinación y exploración. Adobe Analytics se centra principalmente en los datos de análisis web y móviles con algunas funcionalidades para [importar datos](https://experienceleague.adobe.com/es/docs/analytics/import/home). |
 | **B2B Edition** | [Customer Journey Analytics B2B Edition](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition?lang=es) ayuda a las compañías B2B a alinear sus equipos de marketing, ventas y productos al proporcionar información útil sobre las cuentas que impulsa el crecimiento de los ingresos. Con la cuenta en el centro del modelo de datos, todo el análisis se centra en el recorrido de la cuenta. Al añadir una nueva capa de entidades (cuentas, oportunidades y grupos de compra) sobre los eventos basados en personas y tiempo, se crea una imagen completa del ciclo vital de ingresos y marketing B2B. |
 | **Extensión de BI** | La [Extensión de BI](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) le permite conectar Customer Journey Analytics directamente a herramientas de visualización de BI populares, como Power BI o Tableau. Con esta extensión, puede hacer que los informes de BI coincidan con precisión con lo que ve en Analysis Workspace y otras interfaces del sistema de informes de Customer Journey Analytics. Esta extensión proporciona una forma mucho más sencilla de obtener informes de BI para Customer Journey Analytics sin necesidad de volver a crear informes/métricas a partir de datos sin procesar. |
-| **Comentarios en proyectos de Workspace** | Los comentarios le permiten compartir perspectivas y hacer preguntas en el contexto de un [proyecto de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects?lang=en). Esto puede agilizar los debates sobre los datos, manteniendo las conversaciones en el contexto de los datos que se están debatiendo. |
+| **Comentarios en los proyectos de Workspace** | Los comentarios le permiten compartir datos y hacer preguntas en el entorno de un [proyecto de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects?lang=en). Esto puede agilizar los debates sobre los datos, manteniendo las conversaciones en el contexto de los datos que se están debatiendo. |
 | **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics) ayuda a los especialistas en marketing a comprender cómo afecta el contenido a los indicadores de rendimiento clave que ha definido una empresa. Además de los datos de comportamiento, el análisis de contenido recopila datos sobre cómo se consume el contenido y cómo este genera impacto. |
 | **Análisis entre dispositivos** | Customer Journey Analytics admite la combinación perfecta de conjuntos de datos específicos del dispositivo desde sesiones no autenticadas y autenticadas. Customer Journey Analytics ofrece rellenar los datos históricos en dispositivos conocidos. En Adobe Analytics, esta posibilidad se limita a un único grupo de informes y al uso de un gráfico de dispositivos. |
 | **Data Insights Agent** | [Data Insights Agent](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai?lang=es), que forma parte del Asistente de IA de Customer Journey Analytics, es un agente de conversación de IA generativa. Utiliza componentes de su vista de datos y de sus datos reales para responder de forma rápida y eficaz a preguntas centradas en los datos mediante la creación de visualizaciones relevantes en Analysis Workspace. |
@@ -112,9 +112,10 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Reglas de procesamiento, reglas de VISTA, reglas de procesamiento de canales de marketing** | Se admite mediante la funcionalidad de preparación de datos de Adobe Experience Platform así como [campos derivados](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/derived-fields) tanto para conjuntos de datos basados en WebSDK como para datos del conector de origen de Analytics. |
 | **Variable products** | Dentro de Experience Platform, los usuarios pueden utilizar una matriz de objetos dentro de un esquema del conjunto de datos para satisfacer este caso práctico. Dentro de Customer Journey Analytics, los clientes tienen la capacidad de usar cualquier número de variables de producto y no están restringidos a una sola variable como en Adobe Analytics. |
 | **Uso compartido de proyectos** | El uso compartido de proyectos solo es compatible entre los usuarios de Customer Journey Analytics; no existe el uso compartido de proyectos entre Customer Journey Analytics y la versión tradicional de Analysis Workspace. |
+| **Creación de informes en tiempo real** | La creación de informes en tiempo real en Customer Journey Analytics muestra y actualiza datos y visualizaciones en uno o varios paneles de Analysis Workspace en tiempo real. |
 | **Report Builder** | Compatible con un nuevo complemento de Office 365 para Microsoft Excel. |
 | **Permisos de usuario/controles de acceso de datos** | Customer Journey Analytics distingue entre administradores de productos, administradores de perfiles de productos y usuarios de [Adobe Admin Console](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-tool-experience-cloud). Solo los administradores de productos pueden crear, actualizar y eliminar conexiones, proyectos, segmentos o métricas calculadas que hayan creado otros usuarios. Los administradores de productos y los administradores de perfil de productos pueden editar las vistas de datos. Hay disponibles permisos de usuario adicionales para tareas como crear métricas calculadas, segmentos o anotaciones. |
-| **Visualizaciones** | Todas las visualizaciones son compatibles, excepto la visualización de Mapa. |
+| **Visualizaciones** | Todas las visualizaciones de Workspace son compatibles. |
 | **Identificación entre dispositivos y canales** | Admitido para conjuntos de datos de eventos que contienen información de identidad. Consulte [Vinculación](../../stitching/overview.md). |
 
 ## Compatibilidad parcial {#partial}
@@ -127,7 +128,6 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 
 | Función | Notas |
 | --- | --- |
-| **Creación de informes en tiempo real** | Se ha planificado lanzar una versión compatible. |
 | **Fuentes de datos de ID de transacción** | Se ha planificado lanzar una versión compatible. |
 
 ## Sin compatibilidad, aún no planificada {#not-planned}
