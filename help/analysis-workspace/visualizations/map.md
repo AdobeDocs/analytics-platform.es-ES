@@ -4,9 +4,9 @@ title: Mapa
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 0aac2739e03044c03a2561535846f1355054f45f
+source-git-commit: 71d5326f5d80f196504178855dacdf01f60fb81c
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2761'
 ht-degree: 11%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -112,13 +112,13 @@ Para agregar estas etiquetas de contexto:
 
 1. En Customer Journey Analytics, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]**.
 
-1. En la página Vistas de datos, seleccione la vista de datos que contiene los datos que desea analizar con plantillas creadas previamente que utilizan la visualización de mapas. En esta vista de datos, elegirá cinco dimensiones, una con los datos de país, otra con los datos de región, otra con los datos de ciudad, otra con los datos de estado y otra con los datos DMA. A continuación, etiquete esas dimensiones con la etiqueta de contexto correspondiente.
+1. En la página Vistas de datos, seleccione la vista de datos que contiene los datos que desea analizar con plantillas creadas previamente que utilizan la visualización de mapas. En esta vista de datos, elija cinco dimensiones: una con los datos de país, otra con los datos de región, otra con los datos de ciudad, otra con los datos de estado y otra con los datos DMA. A continuación, etiquete esas dimensiones con la etiqueta de contexto correspondiente.
 
 1. Seleccione la pestaña **[!UICONTROL Componentes]**.
 
 1. (Condicional) Si utiliza Web SDK y ha configurado campos geográficos para que se rellenen en el flujo de datos, o si utiliza el conector de Source de Analytics para rellenar datos de evento, los campos geográficos ya deben estar disponibles en el esquema y rellenarse con las etiquetas de contexto correctas.
 
-   Busque los campos de esquema adecuados, como **[!UICONTROL Ciudad]**, **[!UICONTROL Código postal]**, **[!UICONTROL Estado o provincia]** (en **[!UICONTROL Conjuntos de datos de eventos]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]**) y arrástrelos a la vista de datos como dimensiones si aún no están presentes.
+   Busque los campos de esquema adecuados, como **[!UICONTROL Ciudad]**, **[!UICONTROL Código postal]**, **[!UICONTROL Estado o provincia]** (en **[!UICONTROL Conjuntos de datos de eventos]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]**), y arrástrelos a la vista de datos como dimensiones si aún no están presentes.
 
    Cuando estos campos de esquema existen como dimensiones en la vista de datos, sus etiquetas de contexto se aplican automáticamente y las plantillas geográficas los utilizan sin ninguna configuración adicional.
 
@@ -153,7 +153,7 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 | Crear una tendencia a partir de una selección | Cree una visualización de gráfico de líneas de tendencias en función de un área específica que seleccione en la visualización de mapas. <p>Para obtener más información, consulte [Crear un gráfico de líneas de tendencias a partir de la visualización del mapa](#create-a-trended-line-chart-from-the-map-visualization). <!-- is this correct? --> | No se puede crear una tendencia desde la visualización del mapa. |
 | Añadir un desglose de una selección | Desglose un elemento de dimensión, métrica, segmento o intervalo de fechas específico dentro de un área específica que seleccione en la visualización de mapas. <p>Para obtener más información, consulte [Agregar un desglose desde la visualización del mapa](#add-a-breakdown-from-the-map-visualization). | No se puede añadir un desglose desde la visualización del mapa. |
 
-## Comenzar a crear una visualización del mapa {#begin-building-map}
+## Creación de una visualización de mapas {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -185,7 +185,7 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
    * **[!UICONTROL Agregar segmento]**: (Opcional) En la lista desplegable de segmento, seleccione un segmento. O bien arrastre un segmento desde la lista de segmentos.
 
-   Puede actualizar esta información una vez creada la visualización seleccionando el icono de edición ![Editar](/help/assets/icons/Edit.svg) en el encabezado de la visualización.
+   Puede actualizar esta información una vez creada la visualización seleccionando el icono Editar ![Editar](/help/assets/icons/Edit.svg) en el encabezado de la visualización.
 
 1. Seleccione **[!UICONTROL Generar]**.
 
@@ -197,7 +197,7 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
 ## Visualización de una visualización de mapas
 
-1. Si aún no lo ha hecho, cree una visualización de mapas como se describe en [Empiece a crear una visualización de mapas](#begin-building-a-map-visualization).
+1. Si aún no lo ha hecho, cree una visualización de mapas como se describe en [Crear una visualización de mapas](#begin-building-a-map-visualization).
 
 1. En la visualización de mapas de Analysis Workspace, realice una de las siguientes acciones:
 
@@ -221,7 +221,7 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
      El mapa amplía en consecuencia. La dimensión requerida (país > estado > ciudad) se actualiza automáticamente, en función del nivel de zoom.
 
-   * **Rotar**: Puede girar el mapa en 2D o 3D manteniendo presionada la tecla [!UICONTROL Ctrl] mientras arrastra el mapa con el ratón.
+   * **Rotar**: Puede girar el mapa en 2D o 3D manteniendo pulsada la tecla [!UICONTROL Ctrl] mientras arrastra el mapa con el ratón.
 
      Para restablecer la alineación norte del mapa, seleccione el icono de brújula ![icono de brújula](assets/map-compass-icon.png).
 
@@ -250,7 +250,7 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
 Para configurar los ajustes de la visualización de mapas:
 
-1. En Analysis Workspace, abra una visualización de mapas existente o [empiece a crear uno nuevo](#begin-building-a-map-visualization).
+1. En Analysis Workspace, abra una visualización de mapas existente o [cree uno nuevo](#begin-building-a-map-visualization).
 
 1. Pase el ratón sobre la visualización del mapa y luego seleccione el icono Configuración ![Setting](/help/assets/icons/Setting.svg) en el encabezado de la visualización.
 
