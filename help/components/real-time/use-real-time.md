@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: 8f19ed6b4214c434dd4ca2dbb5e311c62da109c0
+source-git-commit: b833914e7066fa660f856737d6b8a6392aae2feb
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '197'
 ht-degree: 14%
 
 ---
@@ -30,9 +30,9 @@ Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actuali
 * [Atribución](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento siguiente o anterior](/help/analysis-workspace/c-panels/next-previous.md)
 
-Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL &#x200B; *Última actualización a las 07:55 pm*].
+Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL  *Última actualización a las 07:55 pm*].
 
-Seleccione el período en tiempo real sobre el que desea crear el informe en el menú desplegable. Entre las opciones disponibles se encuentran:
+Seleccione el periodo en tiempo real sobre el que desea crear el informe desde el menú desplegable. Entre las opciones disponibles se encuentran:
 
 * [!UICONTROL Últimos 15 minutos]
 * [!UICONTROL Últimos 30 minutos]
@@ -46,4 +46,4 @@ Por ejemplo, vea a continuación una instantánea de **[!UICONTROL Panel de info
 
 ![Actualización en tiempo real](assets/real-time-refresh.gif)
 
-Transcurridos 30 minutos, o en cuanto la ficha del explorador se vuelve inactiva, el conmutador **[!UICONTROL Actualización en tiempo real]** se deshabilita automáticamente y se detienen las actualizaciones en tiempo real.
+Transcurridos 30 minutos, o en cuanto la ficha del explorador se vuelve inactiva, el conmutador **[!UICONTROL Actualización en tiempo real]** se desactiva automáticamente y se detienen las actualizaciones en tiempo real.
