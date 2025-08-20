@@ -7,7 +7,7 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: d0067d8271b7628f0d174d1fa647ba1b4558ffb4
+source-git-commit: 804668db5e104d1a1de7d5d9ce0c92a9bb1980dc
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 2%
@@ -45,7 +45,7 @@ No considere la creación de informes en tiempo real para las operaciones que su
 
 ## Latencias
 
-La forma en que recopile datos determina la latencia en tiempo real de los informes en tiempo real para Customer Journey Analytics La ilustración y la tabla siguientes muestran latencias aproximadas para varios escenarios de recopilación de datos al utilizar informes estándar y en tiempo real.
+La forma en que se recopilan los datos determina la latencia en tiempo real de los informes en tiempo real para Customer Journey Analytics. La ilustración y la tabla siguientes muestran latencias aproximadas para varios escenarios de recopilación de datos al utilizar informes estándar y en tiempo real.
 
 La ilustración también enfatiza que los informes en tiempo real usan un conjunto de datos consolidado que es completamente independiente del [conjunto de datos consolidado (combinado)](/help/connections/combined-dataset.md) que se usa para los informes estándar. Utilice [la opción de actualización en tiempo real](use-real-time.md) para cambiar entre:
 
@@ -56,10 +56,10 @@ La ilustración también enfatiza que los informes en tiempo real usan un conjun
 
 | | Recopilación de datos | Latencia de informes en tiempo real | Latencia estándar de informes |
 |:---:|---|--:|--:|
-| 1 | SDK/API de Edge Network en Edge Network | &aprox; &lt; 00h:06m:30s | &aprox; &lt; 01h:35m:00s |
-| 2 | Conectores de streaming | &aprox; &lt; 00h:16m:30s | &aprox; &lt; 01h:45m:00s |
-| 3 | Conector de origen de Adobe Analytics | &aprox; &lt; 00h:16m:30s | &aprox; &lt; 01h:45m:00s |
-| 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | &aprox; &lt; 24h:01m:30s | &aprox; &lt; 25h:30m:00s |
+| 1 | SDK/API de Edge Network en Edge Network | &amp;aprox; &lt; 00h:06m:30s | &amp;aprox; &lt; 01h:35m:00s |
+| 2 | Conectores de streaming | &amp;aprox; &lt; 00h:16m:30s | &amp;aprox; &lt; 01h:45m:00s |
+| 3 | Conector de origen de Adobe Analytics | &amp;aprox; &lt; 00h:16m:30s | &amp;aprox; &lt; 01h:45m:00s |
+| 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | &amp;aprox; &lt; 24h:01m:30s | &amp;aprox; &lt; 25h:30m:00s |
 
 ## Limitaciones
 
