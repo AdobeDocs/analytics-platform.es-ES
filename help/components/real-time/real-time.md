@@ -56,10 +56,10 @@ La ilustración también enfatiza que los informes en tiempo real usan un conjun
 
 | | Recopilación de datos | Latencia de informes en tiempo real | Latencia estándar de informes |
 |:---:|---|--:|--:|
-| 1 | SDK/API de Edge Network en Edge Network | &amp;aprox; &lt; 00h:06m:30s | &amp;aprox; &lt; 01h:35m:00s |
-| 2 | Conectores de streaming | &amp;aprox; &lt; 00h:16m:30s | &amp;aprox; &lt; 01h:45m:00s |
-| 3 | Conector de origen de Adobe Analytics | &amp;aprox; &lt; 00h:16m:30s | &amp;aprox; &lt; 01h:45m:00s |
-| 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | &amp;aprox; &lt; 24h:01m:30s | &amp;aprox; &lt; 25h:30m:00s |
+| 1 | SDK/API de Edge Network en Edge Network | &aprox; &lt; 00h:06m:30s | &aprox; &lt; 01h:35m:00s |
+| 2 | Conectores de streaming | &aprox; &lt; 00h:16m:30s | &aprox; &lt; 01h:45m:00s |
+| 3 | Conector de origen de Adobe Analytics | &aprox; &lt; 00h:16m:30s | &aprox; &lt; 01h:45m:00s |
+| 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | &aprox; &lt; 24h:01m:30s | &aprox; &lt; 25h:30m:00s |
 
 
 ## Limitaciones
