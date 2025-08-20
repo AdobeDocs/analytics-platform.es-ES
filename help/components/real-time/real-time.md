@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 804668db5e104d1a1de7d5d9ce0c92a9bb1980dc
+source-git-commit: 2dd78dc120fc2bf48d3a59e28631e4ddf605b0c3
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ No considere la creación de informes en tiempo real para las operaciones que su
 
 ## Latencias
 
-La forma en que se recopilan los datos determina la latencia en tiempo real de los informes en tiempo real para Customer Journey Analytics. La ilustración y la tabla siguientes muestran latencias aproximadas para varios escenarios de recopilación de datos al utilizar informes estándar y en tiempo real.
+La forma en que se recopilan los datos determina la latencia de los informes en tiempo real en Customer Journey Analytics. La ilustración y la tabla siguientes muestran latencias aproximadas para varios escenarios de recopilación de datos al utilizar informes estándar y en tiempo real (para comparar).
 
 La ilustración también enfatiza que los informes en tiempo real usan un conjunto de datos consolidado que es completamente independiente del [conjunto de datos consolidado (combinado)](/help/connections/combined-dataset.md) que se usa para los informes estándar. Utilice [la opción de actualización en tiempo real](use-real-time.md) para cambiar entre:
 
@@ -56,10 +56,11 @@ La ilustración también enfatiza que los informes en tiempo real usan un conjun
 
 | | Recopilación de datos | Latencia de informes en tiempo real | Latencia estándar de informes |
 |:---:|---|--:|--:|
-| 1 | SDK/API de Edge Network en Edge Network | &aprox; &lt; 00h:06m:30s | &aprox; &lt; 01h:35m:00s |
-| 2 | Conectores de streaming | &aprox; &lt; 00h:16m:30s | &aprox; &lt; 01h:45m:00s |
-| 3 | Conector de origen de Adobe Analytics | &aprox; &lt; 00h:16m:30s | &aprox; &lt; 01h:45m:00s |
-| 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | &aprox; &lt; 24h:01m:30s | &aprox; &lt; 25h:30m:00s |
+| 1 | SDK/API de Edge Network en Edge Network | &amp;aprox; &lt; 00h:06m:30s | &amp;aprox; &lt; 01h:35m:00s |
+| 2 | Conectores de streaming | &amp;aprox; &lt; 00h:16m:30s | &amp;aprox; &lt; 01h:45m:00s |
+| 3 | Conector de origen de Adobe Analytics | &amp;aprox; &lt; 00h:16m:30s | &amp;aprox; &lt; 01h:45m:00s |
+| 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | &amp;aprox; &lt; 24h:01m:30s | &amp;aprox; &lt; 25h:30m:00s |
+
 
 ## Limitaciones
 
@@ -67,8 +68,8 @@ Tenga en cuenta la siguiente limitación para los informes en tiempo real:
 
 * Los informes en tiempo real solo incluyen datos disponibles en un periodo móvil de 24 horas. Datos superiores a   Los informes de 24 horas de antigüedad no están disponibles para los informes en tiempo real. Una vez que la [actualización en tiempo real](use-real-time.md) de un informe se haya deshabilitado o desactivado automáticamente, todos los datos relevantes volverán a estar disponibles en el [conjunto de datos consolidado](/help/connections/combined-dataset.md) que se suele usar para la generación de informes en Customer Journey Analytics.
 * La atribución, la segmentación, las métricas calculadas y mucho más solo funcionan en los datos disponibles dentro del período móvil de 24 horas. Por ejemplo, un segmento de *Visitantes repetidos* incluye muy pocas personas en un informe en tiempo real, porque el informe solo incluye a las personas que lo visitaron varias veces en las últimas 24 horas. Se aplica una limitación similar cuando crea un informe en tiempo real sobre las personas que anteriormente hicieron clic en una campaña que ya no está activa.
-* La creación de informes en tiempo real funciona mejor con datos de nivel de evento y sesión, y debe tener cuidado al utilizar la creación de informes en tiempo real con datos de nivel de persona. <!--Need to explain this a bit better --> Dado que solo los eventos del período móvil de 24 horas están disponibles para los informes en tiempo real, el historial de eventos de una persona también se limita a esta ventana. Tenga en cuenta la preferencia por los datos de nivel de evento y de sesión al seleccionar una dimensión y métricas (calculadas). Y cuando utiliza funcionalidades como desgloses, siguiente o anterior, y más en el panel habilitado para la actualización en tiempo real.
-* No se puede combinar la vinculación con los informes en tiempo real. <!-- Do we need to explain this in more detail, why? --> Los informes en tiempo real se refieren a los datos de nivel de evento y de sesión, y son menos relevantes para los datos basados en personas.
+* La creación de informes en tiempo real funciona mejor con datos de nivel de evento y sesión, y debe tener cuidado al utilizar la creación de informes en tiempo real con datos de nivel de persona. Dado que solo los eventos del periodo móvil de 24 horas están disponibles para los informes en tiempo real, el historial de eventos de una persona también se limita a esta ventana. Tenga en cuenta la preferencia por los datos de nivel de evento y de sesión al seleccionar una dimensión y métricas (calculadas). Y cuando utiliza funcionalidades como desgloses, siguiente o anterior, y más en el panel habilitado para la actualización en tiempo real.
+* No se puede combinar la vinculación con los informes en tiempo real. La creación de informes en tiempo real trata de los datos de nivel de evento y de sesión, y es menos relevante para los datos basados en personas.
 * No hay métricas de medios recopilados de Heartbeat disponibles, excepto métricas de inicio y cierre de medios. Por lo tanto, puede seguir utilizando los informes en tiempo real para habilitar un caso de uso de medios.
 * Cuando use las [opciones de descarga o exportación](/help/analysis-workspace/export/download-send.md) para descargar un proyecto o exportar datos desde una tabla de forma libre, tenga en cuenta lo siguiente:
    * Un proyecto CSV descargado o un archivo CSV exportado contiene los datos en tiempo real disponibles en el momento de la descarga o exportación.
