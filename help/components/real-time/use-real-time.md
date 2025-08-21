@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: b833914e7066fa660f856737d6b8a6392aae2feb
+source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 14%
+source-wordcount: '225'
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actuali
 * [Atribución](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento siguiente o anterior](/help/analysis-workspace/c-panels/next-previous.md)
 
-Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL &#x200B; *Última actualización a las 07:55 pm*].
+Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL  *Última actualización a las 07:55 pm*].
 
 Seleccione el periodo en tiempo real sobre el que desea crear el informe desde el menú desplegable. Entre las opciones disponibles se encuentran:
 
@@ -47,3 +47,5 @@ Por ejemplo, vea a continuación una instantánea de **[!UICONTROL Panel de info
 ![Actualización en tiempo real](assets/real-time-refresh.gif)
 
 Transcurridos 30 minutos, o en cuanto la ficha del explorador se vuelve inactiva, el conmutador **[!UICONTROL Actualización en tiempo real]** se desactiva automáticamente y se detienen las actualizaciones en tiempo real.
+
+Tan pronto como se deshabilite la opción de actualización en tiempo real, el panel (y todas las visualizaciones dentro de) volverán a [usar los datos y las características de informes estándar de Customer Journey Analytics](real-time.md#how-it-works).

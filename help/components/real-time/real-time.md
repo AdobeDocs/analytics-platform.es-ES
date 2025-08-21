@@ -7,7 +7,7 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: b34cf8d95080cb333cd497450f5881f0418b8ae9
+source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 4%
@@ -42,17 +42,18 @@ Desea validar, por ejemplo:
 
 No considere la creación de informes en tiempo real para las operaciones que supervisan casos de uso. Por ejemplo, para responder a la pregunta de si un sitio funciona correctamente. Dado que [cambio de actualización en tiempo real](use-real-time.md) se deshabilita automáticamente después de 30 minutos y el informe en tiempo real deja de actualizarse, no debería usar un informe en tiempo real como una fuente confiable para estos casos de uso.
 
+## Funcionamiento
 
-## Latencias
-
-La forma en que se recopilan los datos determina la latencia de los informes en tiempo real en Customer Journey Analytics. La ilustración y la tabla siguientes muestran latencias aproximadas para varios escenarios de recopilación de datos al utilizar informes estándar y en tiempo real (para comparar).
-
-La ilustración también enfatiza que los informes en tiempo real usan un conjunto de datos consolidado que es completamente independiente del [conjunto de datos consolidado (combinado)](/help/connections/combined-dataset.md) que se usa para los informes estándar. Utilice [la opción de actualización en tiempo real](use-real-time.md) para cambiar entre:
+Los informes en tiempo real usan un conjunto de datos consolidado que es completamente independiente del [conjunto de datos consolidado (combinado)](/help/connections/combined-dataset.md) que se usa para los informes estándar. Utilice [la opción de actualización en tiempo real](use-real-time.md) para cambiar entre:
 
 * Creación de informes en tiempo real en un conjunto de datos consolidado que contiene hasta 24 horas de datos móviles.
 * Creación de informes estándar sobre el conjunto de datos consolidado que contiene hasta 13 meses de datos móviles (o más en caso de que tenga licencia del complemento de capacidad de datos extendida).
 
 ![Creación de informes en tiempo real](assets/real-time-reporting-latencies.svg){zoomable="yes"}
+
+### Latencias
+
+La forma en que se recopilan los datos determina la latencia de los informes en tiempo real en Customer Journey Analytics. La ilustración anterior y la tabla siguiente muestran latencias aproximadas para varios escenarios de recopilación de datos al utilizar informes estándar y en tiempo real (para comparar).
 
 | | Recopilación de datos | Latencia de informes en tiempo real <br/>(aprox. menor que) | Latencia de informe estándar <br/>(aprox. menor que) |
 |:---:|---|--:|--:|
