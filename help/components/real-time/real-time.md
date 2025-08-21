@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 2dd78dc120fc2bf48d3a59e28631e4ddf605b0c3
+source-git-commit: b34cf8d95080cb333cd497450f5881f0418b8ae9
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 2%
+source-wordcount: '723'
+ht-degree: 4%
 
 ---
 
@@ -54,12 +54,12 @@ La ilustración también enfatiza que los informes en tiempo real usan un conjun
 
 ![Creación de informes en tiempo real](assets/real-time-reporting-latencies.svg){zoomable="yes"}
 
-| | Recopilación de datos | Latencia de informes en tiempo real | Latencia estándar de informes |
+| | Recopilación de datos | Latencia de informes en tiempo real <br/>(aprox. menor que) | Latencia de informe estándar <br/>(aprox. menor que) |
 |:---:|---|--:|--:|
-| 1 | SDK/API de Edge Network en Edge Network | &aprox; &lt; 00h:06m:30s | &aprox; &lt; 01h:35m:00s |
-| 2 | Conectores de streaming | &aprox; &lt; 00h:16m:30s | &aprox; &lt; 01h:45m:00s |
-| 3 | Conector de origen de Adobe Analytics | &aprox; &lt; 00h:16m:30s | &aprox; &lt; 01h:45m:00s |
-| 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | &aprox; &lt; 24h:01m:30s | &aprox; &lt; 25h:30m:00s |
+| 1 | SDK/API de Edge Network en Edge Network | 7 minutos | 95 minutos |
+| 2 | Conectores de streaming | 17 minutos | 105 minutos |
+| 3 | Conector de origen de Adobe Analytics | 17 minutos | 105 minutos |
+| 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | 25 horas | 25 horas |
 
 
 ## Limitaciones
