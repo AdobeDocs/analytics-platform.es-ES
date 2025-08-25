@@ -5,10 +5,10 @@ title: Información general sobre visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 95%
+source-wordcount: '1738'
+ht-degree: 89%
 
 ---
 
@@ -67,6 +67,22 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
    * Utilice el menú de Workspace **[!UICONTROL Insertar]** para insertar una visualización.
 
    * En el menú contextual de una tabla de forma libre, seleccione **[!UICONTROL Visualizar]**. A continuación, seleccione la visualización en el submenú. En función de la selección actual de la tabla, Workspace determina qué visualización ofrecer e interpreta los datos para crear la visualización solicitada.
+
+Cuando agrega una visualización simple, por ejemplo una visualización [Línea](line.md) de [Barra](bar.md), la visualización utiliza la tabla de forma libre más cercana como fuente de datos. Siempre puede modificar la [fuente de datos](#data-source) de sus visualizaciones.
+
+
+## Administración de visualizaciones
+
+Puede administrar una visualización cuando pasa el ratón por encima de la visualización o selecciona la visualización.
+
+![Administrar visualización](assets/manage-visualization.png)
+
+* Para contraer una visualización, seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* Para mostrar una visualización contraída, seleccione ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* Para eliminar una visualización, seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg). Para deshacer, selecciona **[!UICONTROL Editar]** > **[!UICONTROL Deshacer]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Para devolver una visualización a la altura predeterminada, seleccione ![ImageResize](/help/assets/icons/Resize.svg).
+* Para mover una visualización dentro de un panel, arrástrela y suéltela siempre que ![Mover](/help/assets/icons/Move.svg) esté visible (normalmente al pasar el ratón por encima del encabezado).
+
 
 
 ## Leyenda

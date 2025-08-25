@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 100%
+source-wordcount: '2193'
+ht-degree: 97%
 
 ---
 
@@ -73,6 +73,18 @@ Puede realizar lo siguiente:
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [Gráfico de rectángulos](/help/analysis-workspace/visualizations/treemap.md) |
 
 * Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **fuera** del último panel del área de trabajo para agregar otro [panel en blanco](blank-panel.md).
+
+
+## Administración de un panel
+
+Puede administrar un panel de las siguientes maneras:
+
+![Administrar panel](assets/manage-panel.png)
+
+* Para contraer un panel, seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* Para mostrar un panel contraído, seleccione ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* Para eliminar un panel, seleccione ![CrossSize400](/help/assets/icons/CrossSize200.svg). Para deshacer, selecciona **[!UICONTROL Editar]** > **[!UICONTROL Deshacer]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Para mover un panel, arrástrelo y suéltelo siempre que ![Mover](/help/assets/icons/Move.svg) esté visible (normalmente al pasar el ratón por encima del encabezado).
 
 
 ## Vista de datos
@@ -155,7 +167,7 @@ Para obtener más información, consulte [Segmentos rápidos](/help/components/s
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VídeoConsultado](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/327488?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VídeoConsultado](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
