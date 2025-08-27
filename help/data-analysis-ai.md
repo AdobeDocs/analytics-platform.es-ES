@@ -5,18 +5,14 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
+source-git-commit: c8d9eddd1ce11975dec16f715a5f5888cd4d6ffa
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2316'
 ht-degree: 98%
 
 ---
 
 # Visualización de datos con Data Insights Agent
-
->[!AVAILABILITY]
->
->La funcionalidad que se describe en este artículo está disponible para todos los clientes elegibles como parte de una versión por fases que comienza el 28 de mayo de 2025, es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Lanzamientos de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
 
 >[!AVAILABILITY]
 >
@@ -33,7 +29,7 @@ El uso de Data Insights Agent para responder a preguntas centradas en los datos 
 | Función | Dentro del ámbito | Fuera del ámbito |
 | --- | --- | --- |
 | **Tipos de visualización** | <ul><li>Línea</li><li>Varias líneas</li><li>Tabla de forma libre</li><li>Barra</li><li>Anillo</li><li>Número de resumen</li></ul> | <ul><li>Flujo</li><li>Visita en orden previsto</li><li>Tabla de cohorte</li><li>Área, área apilada</li><li>Barra apilada</li><li>Viñeta</li><li>Combo</li><li>Histograma</li><li>Barra horizontal, barra horizontal apilada</li><li>Resumen de métricas clave</li><li>Disperso</li><li>Cambio de resumen</li><li>Texto</li><li>Mapa de árbol</li><li>Venn</li><li>Análisis guiado: Crecimiento activo, tendencias de conversión, participación, impacto de primer uso, frecuencia, canal, crecimiento neto, impacto de versión, retención, cronología, tendencias</li></ul> |
-| **Acciones de Workspace y capacidades del agente** | <ul><li>Crear y actualizar visualizaciones<p>Genera una tabla de forma libre y una visualización asociada (como una línea, una barra, un anillo, etc.).<p>Por ejemplo, *¿Cuál es la ganancia entre las SKU de febrero a mayo?*</p></li><li>Formular preguntas de seguimiento<p>Responda a una solicitud dentro del contexto desde cualquier solicitud anterior. Por ejemplo:</p> <ul><li>Solicitud 1: *Tendencias de eventos a partir de marzo.*</li><li>Solicitud 2: *Mostrarme los datos de marzo a abril en su lugar*</li></ul> </li><li>Detección de solicitudes fuera de ámbito<p>Si envía una solicitud que está fuera del ámbito, como *Exportar este proyecto*, Data Insights Agent le responde informándole de que la pregunta está fuera del ámbito.</p></li></ul> | <ul><li>Compartir</li><li>Exportar</li><li>Descargar</li><li>Administrar preferencias de usuario</li><li>Administrar vista de datos</li><li>Aplicación de paneles de Analytics</li><li>Atribución</li><li>Resumen o respuesta en línea<p>Data Insights Agent no puede responder en línea en el carril de chat con una respuesta resumida de una solicitud de usuario. Algunos ejemplos de mensajes fuera del ámbito son: *Darme un resumen de los datos de mi última solicitud* y *Resumir los elementos destacados de la visualización de líneas.*</p></li></ul> |
+| **Acciones de Workspace y capacidades del agente** | <ul><li>Crear y actualizar visualizaciones<p>Genera una tabla de forma libre y una visualización asociada (como una línea, una barra, un anillo, etc.).<p>Por ejemplo, *¿Cuál es la ganancia entre las SKU de febrero a mayo?*</p></li><li>Formular preguntas de seguimiento<p>Responda a una indicación dentro del contexto desde cualquier indicación anterior. Por ejemplo:</p> <ul><li>Indicación 1: *Tendencias de eventos a partir de marzo.*</li><li>Indicación 2: *Mostrarme los datos de marzo a abril en su lugar*</li></ul> </li><li>Detección de indicaciones fuera de ámbito<p>Si envía una indicación que está fuera del ámbito, como *Exportar este proyecto*, Data Insights Agent le responde informándole de que la pregunta está fuera del ámbito.</p></li></ul> | <ul><li>Compartir</li><li>Exportar</li><li>Descargar</li><li>Administrar preferencias de usuario</li><li>Administrar vista de datos</li><li>Aplicación de paneles de Analytics</li><li>Atribución</li><li>Resumen o respuesta en línea<p>Data Insights Agent no puede responder en línea en el carril de chat con una respuesta resumida de una indicación de usuario. Algunos ejemplos de mensajes fuera del ámbito son: *Hacerme un resumen de los datos de mi última indicación* y *Resumir los elementos destacados de la visualización de líneas.*</p></li></ul> |
 | **Preguntas aclaratorias** | Si formula una pregunta que carece de contexto suficiente para que Data Insights Agent la responda o es demasiado genérica, Data Insights Agent responde con una pregunta aclaratoria o con opciones sugeridas. <p>Las siguientes preguntas aclaratorias son ejemplos de preguntas relacionadas con los componentes:</p><ul><li>Métrica: *¿A qué métrica de “ingresos” se refiere?*</li><li>Dimensión: *¿En cuál de las siguientes “regiones” desea centrarse?*</li><li>Segmento: *¿Qué segmento de “cuenta” quiere aplicar?*</li><li>Intervalo de fechas: *Por “mes pasado”, ¿se refiere al último mes completo o a los últimos 30 días?*</li></ul><p>La siguiente pregunta aclaratoria es un ejemplo de una pregunta relacionada con los elementos de dimensión:</p> <ul><li>¿A qué “nombre de tienda” se refiere? (Por ejemplo: tienda n.º 5274, tienda n.º 2949, etc.).</li></ul> | Las preguntas aclaratorias se limitan a los componentes y elementos de dimensión. Data Insights Agent no puede aclarar cuestiones como vistas de datos, visualizaciones, granularidad de datos, comparación y ámbito. Cuando no se pueden utilizar preguntas aclaratorias, el agente recurre de forma predeterminada a lo que es más probable que esté preguntando. Si devuelve una visualización o una granularidad de datos inesperada, puede formular una pregunta de seguimiento o ajustar la visualización y los datos. |
 | **Verificación y corrección de datos** | La verificación y corrección de los datos se puede confirmar consultando la tabla de forma libre y la visualización de datos que se han generado. <p>Por ejemplo, si solicita a Data Insights Agent que *muestre las tendencias de los pedidos el mes pasado*, podrá confirmar que la métrica (“pedidos”) y el intervalo de fechas (“el mes pasado”) correctos se seleccionaron en el panel, la visualización de datos y la tabla de forma libre recién generados. | Data Insights Agent no responde informándole de los componentes o visualizaciones que se han añadido.</p> |
 | **Mecanismos de comentarios** | <ul><li>Pulgares hacia arriba</li><li>Pulgares hacia abajo</li><li>Indicador</li></ul> |  |
@@ -118,21 +114,21 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 
 Por ejemplo, supongamos que le interesan los pedidos que recibió su empresa en julio.
 
-**Solicitud:** escriba *“Tendencia de pedidos en julio”.*
+**Indicación:** escriba *“Tendencia de pedidos en julio”.*
 
-![Solicitud de IA](/help/assets/ai-asst-prompt1.png)
+![Indicación de IA](/help/assets/ai-asst-prompt1.png)
 
-**Respuesta:** Data Insights Agent recopila la información analizando los datos de la vista de datos, incluidas las métricas y los componentes. Traduce la solicitud a las dimensiones y métricas correctas dentro del rango de datos.
+**Respuesta:** Data Insights Agent recopila la información analizando los datos de la vista de datos, incluidas las métricas y los componentes. Traduce la indicación a las dimensiones y métricas correctas dentro del rango de datos.
 
 Como puede ver, generó automáticamente un gráfico de líneas y una tabla de forma libre para mostrar los pedidos de julio.
 
-![Respuesta a la solicitud: gráfico de líneas y tabla de forma libre](/help/assets/ai-asst-result.png)
+![Respuesta a la indicación: gráfico de líneas y tabla de forma libre](/help/assets/ai-asst-result.png)
 
 ### Ejemplo 2
 
 A continuación, desea ver cómo se comparan los ingresos por región.
 
-**Solicitud:** en la ventana de solicitud, escriba *“Mostrar ingresos por región”.*
+**Indicación:** en la ventana de solicitud, escriba *“Mostrar ingresos por región”.*
 
 **Respuesta:** Data Insights Agent entiende inteligentemente que por “región” se refiere a “región del cliente”. Genera un gráfico de barras que muestra mejor los ingresos por región:
 
@@ -140,9 +136,9 @@ A continuación, desea ver cómo se comparan los ingresos por región.
 
 ### Ejemplo 3
 
-A continuación, además de conocer los ingresos por región, también querrá ver los datos de beneficios por región. En lugar de repetir la solicitud anterior, puede pedir a Data Insights Agent que actualice la visualización más reciente y la tabla de forma libre.
+A continuación, además de conocer los ingresos por región, también querrá ver los datos de beneficios por región. En lugar de repetir la indicación anterior, puede pedir a Data Insights Agent que actualice la visualización más reciente y la tabla de forma libre.
 
-**Solicitud:** en la ventana de solicitud, escriba *“Añadir beneficio”.*
+**Indicación:** en la ventana de solicitud, escriba *“Añadir beneficio”.*
 
 **Respuesta:** el gráfico de **[!UICONTROL barras]** sigue ofreciendo la respuesta más concisa, pero la métrica de beneficios se ha añadido como una columna en la tabla de forma libre:
 
@@ -152,17 +148,17 @@ A continuación, además de conocer los ingresos por región, también querrá v
 
 Por último, veamos los ingresos por categoría de producto.
 
-**Solicitud:** en la ventana de solicitud, escriba *“Proporción de ingresos por categoría de producto”.*
+**Indicación:** en la ventana de solicitud, escriba *“Proporción de ingresos por categoría de producto”.*
 
 **Respuesta:** de nuevo, Data Insights Agent elige la visualización más adecuada, en este caso la visualización en **[!UICONTROL Anillo]**, para responder a la pregunta.
 
 ![Anillo](/help/assets/ai-asst-result3.png)
 
-## Ejemplos de solicitudes de visualización de datos
+## Ejemplos de indicaciones de visualización de datos
 
-A continuación, se muestran algunos ejemplos de solicitudes comunes y las visualizaciones utilizadas por Data Insights Agent para responder a dichas solicitudes.
+A continuación, se muestran algunos ejemplos de indicaciones comunes y las visualizaciones utilizadas por Data Insights Agent para responder a dichas indicaciones.
 
-| Ejemplo de solicitud | Visualización prevista |
+| Ejemplo de indicación | Visualización prevista |
 | --- | --- |
 | Mostrarme los beneficios en [Mes] | Línea<p>Si se solicita una tendencia o métrica dentro de un intervalo de tiempo determinado, de forma predeterminada, se devuelve una visualización de línea. |
 | Tendencia de pedidos en [Mes] | Línea |
@@ -179,21 +175,21 @@ A continuación, se muestran algunos ejemplos de solicitudes comunes y las visua
 
 ## Prácticas recomendadas sobre solicitudes
 
-Data Insights Agent procesa el contexto proporcionado por cada solicitud de usuario e intenta responder de forma inteligente con la visualización y los componentes más adecuados en una tabla de forma libre.
+Data Insights Agent procesa el contexto proporcionado por cada indicación de usuario e intenta responder de forma inteligente con la visualización y los componentes más adecuados en una tabla de forma libre.
 
-Las respuestas pueden variar en función de las palabras y frases específicas utilizadas en la solicitud, y ligeros cambios de idioma pueden dar lugar a resultados diferentes.
+Las respuestas pueden variar en función de las palabras y frases específicas utilizadas en la indicación, y ligeros cambios de idioma pueden dar lugar a resultados diferentes.
 
 Para lograr los mejores resultados, tenga en cuenta las siguientes directrices:
 
-* **Sea específico:** incluya términos exactos para reducir la respuesta. El siguiente es un ejemplo de una solicitud específica: “Ventas del mes pasado en California”
+* **Sea específico:** incluya términos exactos para reducir la respuesta. El siguiente es un ejemplo de una indicación específica: “Ventas del mes pasado en California”
 
 * **Use métricas, dimensiones y segmentos claros:** si añade métricas específicas (como “Ingresos”), dimensiones (como “nombre del sitio web”), segmentos (como “usuarios de iPhone”) e intervalos de fechas (como “los últimos tres meses”), Data Insights Agent podrá centrarse en los datos correctos.
 
-* **Haga preguntas directas:** formular las preguntas de forma directa facilita que Data Insights Agent proporcione información clara y relevante. El siguiente es un ejemplo de cómo formular una pregunta directa en una solicitud: “¿Cuál es el ingreso promedio por categoría de producto este año?”
+* **Haga preguntas directas:** formular las preguntas de forma directa facilita que Data Insights Agent proporcione información clara y relevante. El siguiente es un ejemplo de cómo formular una pregunta directa en una indicación: “¿Cuál es el ingreso promedio por categoría de producto este año?”
 
-Revise la siguiente tabla de términos y frases de ejemplo que puede utilizar en las solicitudes de datos con Data Insights Agent, junto con los tipos de respuesta que puede esperar.
+Revise la siguiente tabla de términos y frases de ejemplo que puede utilizar en las indicaciones de datos con Data Insights Agent, junto con los tipos de respuesta que puede esperar.
 
-Estos ejemplos están diseñados para ayudarle a familiarizarse con la forma en que palabras o estructuras específicas pueden influir en los resultados de Data Insight Agent, lo que garantiza una información más precisa y valiosa. Data Insights Agent utiliza la IA generativa, por lo que las visualizaciones o los datos seleccionados pueden variar ligeramente en solicitudes similares.
+Estos ejemplos están diseñados para ayudarle a familiarizarse con la forma en que palabras o estructuras específicas pueden influir en los resultados de Data Insight Agent, lo que garantiza una información más precisa y valiosa. Data Insights Agent utiliza la IA generativa, por lo que las visualizaciones o los datos seleccionados pueden variar ligeramente en indicaciones similares.
 
 | Resultado deseado | Ejemplo de términos y frases |
 | --- | --- |
@@ -240,13 +236,13 @@ A continuación se describen las prácticas recomendadas para la configuración 
 * **Use una convención de nomenclatura de componentes**. Puede utilizar una convención de nomenclatura de componentes para agrupar componentes. Por ejemplo, **[!UICONTROL Pedidos | Producto]** y **[!UICONTROL Pedidos | Cliente]** puede distinguir entre distintas métricas de pedidos que podrían existir en sus datos.
 * **Utilice el diccionario de datos**. Añada una descripción y otros datos relevantes para los componentes del diccionario de datos. Data Insight Agent no utiliza actualmente descripciones ni etiquetas del diccionario de datos, pero podría hacerlo en el futuro.
 * **Utilice métricas calculadas aprobadas**. Acuerde un proceso para utilizar solamente métricas calculadas aprobadas como componentes en la vista de datos y evite el uso de métricas calculadas experimentales.
-* **Comparta los segmentos necesarios**. Asegúrese de compartir segmentos y de hacer visibles los segmentos necesarios para las peticiones de datos de Data Insights Agent.
+* **Comparta los segmentos necesarios**. Asegúrese de compartir segmentos y de hacer visibles los segmentos necesarios para las indicaciones de datos de Data Insights Agent.
 * **Estandarice nombres de componentes en vistas de datos**. Si utiliza los mismos campos como componente en varias vistas de datos, asegúrese de utilizar un solo nombre descriptivo y un único identificador para ese componente. Un solo nombre e identificador permite a Data Insights Agent cambiar de vista de datos sin perder contexto.
 
 >[!MORELIKETHIS]
 >
 >[Configuración de componentes](/help/data-views/component-settings/overview.md)
->&#x200B;>[Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Aprobar métrica calculada](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Compartir segmentos](/help/components/segments/seg-share.md)
+>>[Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Aprobar métrica calculada](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Compartir segmentos](/help/components/segments/seg-share.md)
 >
