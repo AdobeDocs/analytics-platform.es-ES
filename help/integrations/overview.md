@@ -4,10 +4,10 @@ description: Aprenda a integrar datos de otras soluciones y servicios de Adobe.
 exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
 feature: Experience Platform Integration
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 93%
 
 ---
 
@@ -21,3 +21,17 @@ La mayoría de los flujos de trabajo implican los siguientes pasos:
 2. [Crear una conexión](/help/connections/create-connection.md) en Customer Journey Analytics con el conjunto de datos deseado.
 3. [Crear una vista de datos](/help/data-views/create-dataview.md) que contenga las dimensiones y métricas deseadas para su uso en la creación de informes.
 4. Ejecutar informes en Analysis Workspace en función de las dimensiones y métricas configuradas en la vista datos.
+
+A continuación se muestra una lista de algunas de las integraciones disponibles:
+
+* [Adobe Analytics](/help/integrations/aa.md)
+
+* [Target](/help/integrations/at.md)
+
+* [Adobe Advertising](/help/integrations/advertising.md)
+
+* [Journey Optimizer](/help/integrations/ajo.md)
+
+* [Gestión de decisiones](/help/integrations/ajo-od.md)
+
+* [Inteligencia artificial aplicada al cliente](/help/integrations/customer-ai.md)
