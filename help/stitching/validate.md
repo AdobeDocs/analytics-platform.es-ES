@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: a37542e4df80048c0750964bb979d77625813ebe
+source-git-commit: d9a65774fa5ab8c6b7fdd018f5d345dc7eb9e9de
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 0%
