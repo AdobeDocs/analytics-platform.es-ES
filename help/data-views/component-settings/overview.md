@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9e263d638d483194424a492b0494672ef0f62e71
+source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
 workflow-type: tm+mt
-source-wordcount: '3739'
+source-wordcount: '3738'
 ht-degree: 55%
 
 ---
@@ -90,7 +90,7 @@ Las ventajas de las etiquetas de contexto son:
 * **Coherencia**: todas las personas de su organización que trabajen en uno o más proyectos basados en una vista de datos que utilice etiquetas de contexto obtendrán el mismo comportamiento.
 * **Visibilidad de características y plantillas**: Algunas visualizaciones y características solo aparecen cuando se asigna la etiqueta de contexto adecuada. Por ejemplo:
 
-   * Una visualización [Map](/help/analysis-workspace/visualizations/map.md) solo se muestra correctamente cuando Customer Journey Analytics sabe qué campos representan latitud y longitud.
+   * Una visualización [Map](/help/analysis-workspace/visualizations/map.md) solo se muestra correctamente cuando Customer Journey Analytics sabe qué componentes representan latitud y longitud.
    * Las [plantillas](/help/analysis-workspace/templates/use-templates.md) específicas solo están visibles cuando se aplican las etiquetas de contexto correctas y los componentes asociados están disponibles.
 
 Las etiquetas de contexto pueden ser necesarias en las siguientes situaciones:
@@ -105,7 +105,7 @@ Las etiquetas de contexto pueden ser necesarias en las siguientes situaciones:
 
   **Nota**: la visualización del mapa se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno.
 
-* Si usa [plantillas proporcionadas por Adobe](/help/analysis-workspace/templates/use-templates.md). Es posible que algunas plantillas proporcionadas por Adobe no funcionen porque algunos componentes no están en la vista de datos.
+* Para mostrar [plantillas proporcionadas por Adobe](/help/analysis-workspace/templates/use-templates.md). Es posible que algunas plantillas proporcionadas por Adobe no funcionen porque algunos componentes no están en la vista de datos.
 
   Para cada componente que falta, existe una etiqueta de contexto coincidente disponible en la vista de datos. Debe agregar la etiqueta de contexto coincidente a un componente que ya esté en la vista de datos. O bien, debe agregar un nuevo componente a la vista de datos y agregar la etiqueta de contexto al componente (si no se ha proporcionado ya automáticamente).
 
