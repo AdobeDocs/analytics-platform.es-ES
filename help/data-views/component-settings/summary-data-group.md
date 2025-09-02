@@ -28,7 +28,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_summarydatagroup_hideinreporting"
 >title="Ocultar en la creación de informes"
->abstract="Si selecciona esta opción, se activará **[!UICONTROL Ocultar componente en la creación de informes]** para esa dimensión y se evitará que el componente se muestre en Analysis Workspace y otras herramientas de creación de informes de Customer Journey Analytics."
+>abstract="Si selecciona esta opción, se habilitará **[!UICONTROL Ocultar componente en la creación de informes]** para esa dimensión y se evitará que el componente se muestre en Analysis Workspace y otras herramientas de creación de informes de Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
