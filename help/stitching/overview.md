@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 93%
 
 ---
 
@@ -68,6 +68,20 @@ Asegúrese de no confundir la vinculación con lo siguiente:
 - La combinación de dos o más conjuntos de datos. La vinculación solo se aplica a un conjunto de datos. La combinación de conjuntos de datos se produce como resultado de la configuración de una conexión de Customer Journey Analytics y la selección del mismo ID de persona en los conjuntos de datos seleccionados en la conexión.
 
 - La unión de dos conjuntos de datos. En Customer Journey Analytics, una unión se utiliza a menudo para búsquedas o clasificaciones en Analysis Workspace. Aunque la vinculación utiliza la funcionalidad de unión, el proceso en sí mismo implica más que uniones.
+
+
+## Conjuntos de datos de Journey Optimizer
+
+La vinculación admite los siguientes conjuntos de datos de Journey Optimizer generados automáticamente:
+
+- Eventos de paso de Recorrido de AJO
+- Conjunto de datos de evento de actividad entrante de AJO
+- Conjunto de datos de AJO Surfaces
+- Conjunto de datos de evento de comentarios de mensajes de AJO* Conjunto de datos de evento de experiencia de seguimiento push de AJO
+- Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO
+- Conjunto de datos de evento de comentarios BCC de AJO
+- Conjunto de datos de evento de comentarios de actividades de AJO Live
+- Conjunto de datos de evento de decisión de AJO ExD
 
 >[!MORELIKETHIS]
 >
