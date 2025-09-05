@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 4bca14492374939cd1ea6508c774720db61a6283
+source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '368'
 ht-degree: 3%
 
 ---
@@ -44,9 +44,19 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento d
    * Habilitar **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.
 
-   Si selecciona **[!UICONTROL Gráfico de identidad]** para el ID de persona, debe seleccionar un área de nombres. Antes de eso, se muestra el cuadro de diálogo **[!UICONTROL Cambiar al gráfico de identidad]** para asegurarse de que ha finalizado la configuración del gráfico de identidad antes de usar el gráfico de identidad para la vinculación. Seleccione **[!UICONTROL Continuar]** para continuar.
+
+   Si selecciona **[!UICONTROL Gráfico de identidad]** para el ID de persona, debe seleccionar un área de nombres.
+
+   >[!NOTE]
+   >
+   >Debe tener derecho a utilizar el gráfico de identidad.
+   >
+
+   Antes de eso, se muestra el cuadro de diálogo **[!UICONTROL Cambiar al gráfico de identidad]** para asegurarse de que ha [finalizado la configuración del gráfico de identidad para el conjunto de datos](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) antes de usar el gráfico de identidad para la vinculación. Seleccione **[!UICONTROL Continuar]** para continuar.
 
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.
 
 
-1. Seleccione una ventana retrospectiva en el menú desplegable **[!UICONTROL Ventana retrospectiva]**. Las opciones son **[!UICONTROL 1 día]**, **[!UICONTROL 7 días]**, **[!UICONTROL 14 días]** o **[!UICONTROL 30 días]**.
+1. Seleccione una ventana retrospectiva en el menú desplegable **[!UICONTROL Ventana retrospectiva]**. Las opciones disponibles dependen del paquete de Customer Journey Analytics al que esté autorizado.
+
+Una vez guardada una conexión que contiene conjuntos de datos habilitados para la vinculación de identidad, el proceso de vinculación de cada conjunto de datos comienza cuando se inicia la ingesta de datos para ese conjunto de datos.
