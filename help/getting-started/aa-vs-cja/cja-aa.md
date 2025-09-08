@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 7f44c7497a48e8377ca26cb194f828c3c8836f98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2709'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **eVars de comercialización** | Compatibilidad total a través de [dimensiones de enlace y métricas de enlace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/persistence) |
 | **Métricas** | Compatibilidad total; Customer Journey Analytic emplea el Modelo de datos de experiencia (XDM), admite métricas ilimitadas y no está vinculado a los eventos de éxito personalizados de Adobe Analytics. Tenga en cuenta que algunas métricas estándar han cambiado de nombre desde la versión tradicional de Adobe Analytics: Visitantes = Personas, Visitas = Sesiones, Visitas = Eventos. |
 | **Migración de proyectos, segmentos y métricas calculadas de Adobe Analytics a Customer Journey Analytics** | Compatibilidad total. |
-| **Paneles y cuadro de resultados para móviles** | Compatibilidad total |
+| **Paneles de control y cuadro de resultados para móviles** | Compatibilidad total |
 | **Paneles** | Compatibilidad total con los siguientes paneles: Panel en blanco, Atribución, Forma libre, Información rápida y Elemento siguiente o anterior. |
 | **Exportación de PDF** | Compatibilidad total |
 | **Revisión del proyecto** | Compatibilidad total |
@@ -91,7 +91,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Advertising Cloud** | Puede [recopilar datos históricos de ID de AMO e ID de EF para usarlos en Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/advertising/integrations/analytics/planning/rvars-to-evars). |
 | **Alertas** | El proceso de [utilización de alertas en Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) es casi idéntico al de las alertas en Adobe Analytics. <p>Sin embargo, debido al tiempo que tarda la recopilación de datos en Customer Journey Analytics, las alertas horarias no están disponibles. En Customer Journey Analytics, las alertas se pueden configurar para alertas diarias, semanales o mensuales.</p> |
 | **Analytics for Target (A4T)** | La [integración entre Adobe Customer Journey Analytics y Target](https://experienceleague.adobe.com/es/docs/target/using/integrate/cja/target-reporting-in-cja) proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización. |
-| **Publicación del público** | Compatible si tiene licencia con la plataforma de datos del cliente o los productos de Journey Optimizer de Adobe. [Publicación de audiencias](/help/components/audiences/audiences-overview.md) envía audiencias al perfil del cliente en tiempo real en Experience Platform. |
+| **Publicación del público** | Compatible si tiene licencia con la plataforma de datos del cliente o los productos de Journey Optimizer de Adobe. [Publicación de públicos](/help/components/audiences/audiences-overview.md) envía públicos al perfil del cliente en tiempo real en Experience Platform. |
 | **Clasificaciones** | Los conjuntos de datos de búsqueda son el equivalente de las clasificaciones de Adobe Analytics. Las clasificaciones utilizadas en Analytics se pueden importar a Experience Platform y a Customer Journey Analytics mediante el conector de origen de clasificaciones de Analytics. Los conjuntos de datos de búsqueda también se pueden cargar directamente en Experience Platform y estar disponibles en Customer Journey Analytics. |
 | **Generador de reglas de clasificación** | Admitido mediante [subcadenas](/help/data-views/component-settings/substring.md) en Customer Journey Analytics. Utiliza manipulaciones de cadenas en el tiempo del informe en lugar de conjuntos de datos de búsqueda. |
 | **Longitud de sesión personalizada** | La longitud de sesión se puede configurar mediante las opciones de [Configuración de sesión](../../data-views/create-dataview.md#session-settings) en una Vista de datos. Consulte [Configuración de sesiones](../../data-views/session-settings.md) para obtener más información. <br/>La gestión de eventos móviles en segundo plano se admite mediante el SDK móvil de Adobe Experience Platform. Consulte [Ciclo de vida para Edge Network](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/) para obtener más información. |

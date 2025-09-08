@@ -10,9 +10,9 @@ user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1280'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -238,7 +238,7 @@ ht-degree: 99%
       + [Atribución](../analysis-workspace/c-panels/attribution.md)
       + [Experimentación](../analysis-workspace/c-panels/experimentation.md)
       + [De forma libre](../analysis-workspace/c-panels/freeform-panel.md)
-      + [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Público medio por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Visualizadores simultáneos de medios](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Tiempo invertido en la reproducción de medios](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento siguiente o anterior](../analysis-workspace/c-panels/next-previous.md)
@@ -322,8 +322,8 @@ ht-degree: 99%
       + [Administración de anotaciones](../components/annotations/manage-annotations.md)
       + [Visualización de anotaciones](../components/annotations/view-annotations.md)
       + [Anotaciones de cuadros de resultados móviles](../components/annotations/mobile-annotations.md)
-   + Audiencias {#audiences}
-      + [Descripción general de las audiencias](../components/audiences/audiences-overview.md)
+   + Públicos {#audiences}
+      + [Descripción general de los públicos](../components/audiences/audiences-overview.md)
       + [Creación y publicación de públicos](../components/audiences/publish.md)
       + [Administrar públicos](../components/audiences/manage.md)
    + Dimensiones {#dimensions}
@@ -439,7 +439,7 @@ ht-degree: 99%
    + [Integración de datos de Journey Optimizer](/help/integrations/ajo.md)
    + [Integración de datos de gestión de decisiones](/help/integrations/ajo-od.md)
    + [Integración de la inteligencia artificial aplicada al cliente](/help/integrations/customer-ai.md)
-   + [Integrar Adobe Advertising](/help/integrations/advertising.md)
+   + [Integración de Adobe Advertising](/help/integrations/advertising.md)
 
 + Gobernanza de datos {#cja-privacy}
    + [Gobernanza de datos](../privacy/privacy-overview.md)
@@ -503,7 +503,7 @@ ht-degree: 99%
 
 + Solución de problemas {#troubleshooting}
    + [Comparar datos](../troubleshooting/compare.md)
-   + [Coherencia de métricas y audiencias](../troubleshooting/consistency-rcdp-cja.md)
+   + [Coherencia de métricas y públicos](../troubleshooting/consistency-rcdp-cja.md)
    + [Falta de permisos](../troubleshooting/lack-of-permissions.md)
 
 + Notas técnicas {#technotes}
