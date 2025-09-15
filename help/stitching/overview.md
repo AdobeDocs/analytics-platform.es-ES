@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
 source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,20 +74,20 @@ Asegúrese de no confundir la vinculación con lo siguiente:
 
 La vinculación admite los siguientes conjuntos de datos de Journey Optimizer generados automáticamente:
 
-- Eventos de paso de Recorrido de AJO
+- Eventos de paso de recorrido de AJO
 - Conjunto de datos de evento de actividad entrante de AJO
-- Conjunto de datos de AJO Surfaces
-- Conjunto de datos de evento de comentarios de mensajes de AJO* Conjunto de datos de evento de experiencia de seguimiento push de AJO
+- Conjunto de datos de superficies de AJO
+- Conjunto de datos de evento de comentarios de mensajes* de AJO Conjunto de datos de evento de experiencia de seguimiento push de AJO
 - Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO
 - Conjunto de datos de evento de comentarios BCC de AJO
-- Conjunto de datos de evento de comentarios de actividades de AJO Live
-- Conjunto de datos de evento de decisión de AJO ExD
+- Conjunto de datos de evento de comentarios de actividades en vivo de AJO
+- Conjunto de datos de evento de decisión ExD de AJO
 
 >[!MORELIKETHIS]
 >
 >[Vinculación basada en campos](fbs.md)
->&#x200B;>[Vinculación basada en gráficos](gbs.md)
->&#x200B;>[Uso de la vinculación](use-stitching.md)
->&#x200B;>[Validación de la vinculación](validate.md)
->&#x200B;>[Preguntas frecuentes sobre la vinculación](faq.md)
+>>[Vinculación basada en gráficos](gbs.md)
+>>[Uso de la vinculación](use-stitching.md)
+>>[Validación de la vinculación](validate.md)
+>>[Preguntas frecuentes sobre la vinculación](faq.md)
 
