@@ -2,15 +2,12 @@
 description: Comprenda las funcionalidades de creación de informes en tiempo real en Customer Journey Analytics.
 title: Información general de informes en tiempo real
 feature: Real-time Reporting
-hide: true
-hidefromtoc: true
 role: User
-badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
+source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
+source-wordcount: '722'
+ht-degree: 7%
 
 ---
 
