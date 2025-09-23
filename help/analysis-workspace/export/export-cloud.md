@@ -5,10 +5,10 @@ title: Exportar Tablas Completas A La Nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: e3037b3981ce128f67165d6caca0b4dc5df04773
+source-git-commit: 0b6afd5639234f6305c99267d3b1624279c97368
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 74%
+source-wordcount: '2482'
+ht-degree: 73%
 
 ---
 
@@ -56,15 +56,6 @@ Utilice el siguiente proceso al exportar tablas completas a la nube:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="export-manifest"
->title="Archivo de manifiesto"
->abstract="Cuando se habilita, se incluye un archivo de manifiesto con cualquier envío de exportación correcto. El archivo de manifiesto le permite confirmar que todos los archivos se enviaron correctamente."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
 >id="cja-export-details"
 >title="Detalles"
 >abstract="Especifique un nombre para la exportación. También puede añadir una descripción y cualquier etiqueta. Esta información ayuda a identificar la exportación en la tabla de exportaciones y en las notificaciones por correo electrónico."
@@ -78,7 +69,16 @@ Utilice el siguiente proceso al exportar tablas completas a la nube:
 >title="Estructura de datos"
 >abstract="Esta es la tabla de forma libre que está exportando. Puede modificar la estructura de datos arrastrando componentes del panel izquierdo a la tabla. Puede aplicar un filtro arrastrando un componente al área de filtro. El proyecto se actualiza dinámicamente a medida que se añade componentes al lienzo."
 
-<!-- markdownlint-enable MD034 -->ß
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="export-manifest"
+>title="Archivo de manifiesto"
+>abstract="Cuando se selecciona, se incluye un archivo de manifiesto con cualquier entrega de exportación correcta. El archivo de manifiesto le permite confirmar que todos los archivos se enviaron correctamente."
+
+<!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -96,6 +96,15 @@ Utilice el siguiente proceso al exportar tablas completas a la nube:
 >id="cja-export-destination"
 >title="Destino"
 >abstract="Seleccione la cuenta y la ubicación de la nube a la que desea enviar los datos. Puede elegir una cuenta y una ubicación existentes o seleccionar &quot;Agregar nuevo&quot; para crearlos. Especifique los usuarios y grupos a los que notificar las exportaciones que fallan o caducan."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-file-format"
+>title="Formato del archivo"
+>abstract="Al elegir el formato de archivo Parquet, algunos caracteres especiales incluidos en los nombres de componentes se sustituyen por guiones bajos (_). Consulte el vínculo siguiente para obtener una lista completa de los caracteres que se reemplazan."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -226,7 +235,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
 
   Por ejemplo, una atribución de métrica de &quot;primer contacto&quot; anula una asignación de dimensión &quot;más reciente&quot;.
 
-* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [&#128279;](/help/data-views/component-settings/persistence.md).
+* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [](/help/data-views/component-settings/persistence.md).
 
   Por ejemplo, se aplica una atribución de métrica de &quot;primer contacto&quot; además de una asignación de dimensión &quot;más reciente&quot;. Además, la atribución de métricas se aplica a pares de elementos de dimensión posasignados como si fueran elementos de dimensión únicos, en lugar de a cada elemento de dimensión de forma independiente, como se hace normalmente en una tabla de forma libre.
 
