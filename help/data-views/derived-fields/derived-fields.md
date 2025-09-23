@@ -2088,7 +2088,7 @@ Las siguientes limitaciones se aplican a la funcionalidad del Campo derivado en 
 
 - Puede utilizar un máximo de 10 campos de esquema diferentes (sin incluir los campos estándar) cuando defina reglas para un campo derivado.
    - De este máximo de 10 campos de esquema diferentes, solo se permite un máximo de tres campos de esquema de consulta o esquema de perfil.
-- Puede tener un número máximo de campos derivados por conexión de Customer Journey Analytics según el paquete con licencia. Consulte [Descripción del producto](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es){target="_blank"} para obtener más información.
+- Puede tener un número máximo de campos derivados por conexión de Customer Journey Analytics según el paquete con licencia. Consulte [Descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es){target="_blank"} para obtener más información.
 
 
 ### Resumen de las limitaciones de las funciones
@@ -2139,7 +2139,7 @@ La compatibilidad con los campos de búsqueda y perfil en los campos derivados p
 
 >[!MORELIKETHIS]
 >
->- [Blog: Aprovechar al máximo sus datos: un marco para usar campos derivados en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
->- [Blog: Casos de uso de campos derivados de Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
->- [Blog: Mejoras en los campos derivados de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
+>- [Blog: Aprovechar al máximo sus datos: un marco para usar campos derivados en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=es)
+>- [Blog: Casos de uso de campos derivados de Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=es)
+>- [Blog: Mejoras en los campos derivados de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=es)
 
