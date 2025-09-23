@@ -180,7 +180,7 @@ Defina un esquema que modele estos datos. Para configurar el esquema:
 
      ![Descriptor de persona](assets/platform-schema-personid.png)
 
-   * El campo **[!UICONTROL timestamp]** está configurado, junto con el campo **[!UICONTROL personid]** como la **[!UICONTROL clave principal]**y. El campo **[!UICONTROL timestamp]** también está configurado como **[!UICONTROL descriptor Timestamp]**. Solo necesita definir un campo como **[!UICONTROL descriptor de marca de tiempo]** para datos basados en modelos de series de tiempo.
+   * El campo **[!UICONTROL timestamp]** está configurado, junto con el campo **[!UICONTROL personid]** como la **[!UICONTROL clave principal]**&#x200B;y. El campo **[!UICONTROL timestamp]** también está configurado como **[!UICONTROL descriptor Timestamp]**. Solo necesita definir un campo como **[!UICONTROL descriptor de marca de tiempo]** para datos basados en modelos de series de tiempo.
 
      ![Descriptor de marca de tiempo](assets/platform-schema-timestamp.png)
 
