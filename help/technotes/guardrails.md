@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 88956946aabb74d94cd84a8b4ef30d9eb1044ebd
+source-git-commit: 1af81040d144ab1717b9453756d0d5b92d489d56
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 8%
+source-wordcount: '1933'
+ht-degree: 7%
 
 ---
 
 # Protecciones de Customer Journey Analytics
 
-Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics-b2b.html).
+Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
 
 ## Tipos de límite
 
@@ -81,7 +81,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 -->
 
-## Audiencias
+## Públicos
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
@@ -94,7 +94,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
+Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
 
 
 ## Caducidad automatizada del conjunto de datos
@@ -139,7 +139,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es).
+Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Exportación de datos de destinos
@@ -151,7 +151,7 @@ Consulte también [Protecciones de Experience Platform para la ingesta de datos]
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
+Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
 
 
 ## Zona de aterrizaje de datos
@@ -258,7 +258,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 >[!NOTE]
 >
->Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es) de Experience Platform para obtener más información.
+>Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) de Experience Platform para obtener más información.
 
 | Flujo de datos | Latencia esperada |
 |---|---|
@@ -272,5 +272,12 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 | Relleno de menos de 10 000 millones de eventos en el conector Source de Adobe Analytics (máximo de 13 meses de datos históricos) | &lt; 4 semanas |
 | Publicación de audiencias en el Perfil del cliente en tiempo real, lo que incluye la creación automática del segmento de flujo continuo y permite que el segmento esté listo para recibir los datos. | ≈ 60 minutos |
 | Frecuencia de actualización para audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualizar cada 4 horas, diaria, semanal o mensual (la latencia va de la mano con la frecuencia de actualización). |
+
+| Latencias de informes en tiempo real | Latencia esperada |
+|---|---|
+| Edge Network SDK/API en Edge Network | &lt; 7 minutos |
+| Conectores de streaming | &lt; 17 minutos |
+| Conector de origen de Adobe Analytics | &lt; 17 minutos |
+| Otros conectores de origen (incluidos los datos por lotes) | &lt; 25 horas |
 
 {style="table-layout:auto"}

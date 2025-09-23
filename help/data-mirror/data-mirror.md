@@ -7,9 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
+source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -44,7 +45,7 @@ Consulte también la documentación de Experience Platform sobre Data Mirror.
 
 >[!NOTE]
 >
->La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics está disponible en **versión beta pública** hasta el 25 de marzo de 2026. Durante el período beta, las actualizaciones de la captura de datos de cambio (CDC) están limitadas al 0,5 % de las filas mensuales de datos de su organización. Las filas mensuales de datos se basan en su asignación anual para filas de datos divididas entre 12. Adobe se reserva el derecho de finalizar el acceso beta a Experience Platform Data Mirror para Customer Journey Analytics en caso de que su organización supere este límite.
+>La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics está disponible en **versión beta pública** hasta el 25 de marzo de 2026. Durante el período beta, las actualizaciones de las capturas de datos de cambio (CDC) se limitan a 10 millones de filas de cambios diarios para Customer Journey Analytics. Adobe se reserva el derecho de finalizar el acceso beta a la funcionalidad de Experience Platform Data Mirror en caso de que su organización supere este límite. Para obtener información adicional acerca de la funcionalidad, incluidas las implicaciones de facturación, consulte esta sección de la documentación de Experience League.
 >
 
 La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics está disponible para las soluciones nativas seleccionadas del Data Warehouse ([!DNL Azure Databricks], [!DNL Google BigQuery] y [!DNL Snowflake]). La versión de Customer Journey Analytics de la capacidad Data Mirror requiere una configuración y configuración adecuadas de varios componentes:
@@ -56,5 +57,5 @@ La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics
 
 >[!MORELIKETHIS]
 >
->[Guía de inicio rápido de Data Mirror: crear reflejos y utilizar datos basados en modelos](data-mirror.md)
+>[Guía de inicio rápido de Data Mirror: crear reflejos y utilizar datos basados en modelos](model-based.md)
 >
