@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
+source-git-commit: 8946f1bc57cc856adeac4ee0a96799040f7e698c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '458'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 {{release-limited-testing}}
 
-La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics requiere la configuración adecuada de varios componentes de Experience Platform:
+Experience Platform Data Mirror para Customer Journey Analytics requiere la configuración adecuada de varios componentes de Experience Platform:
 
 * esquema
 * conjunto de datos
@@ -32,7 +32,7 @@ A continuación, encontrará los detalles que debe tener en cuenta al configurar
 Debe crear un esquema basado en modelos que modele la tabla nativa del almacén de datos que desea duplicar. Cuando construya el esquema basado en modelos, asegúrese de que se cumplan los siguientes requisitos:
 
 * Cuando se le pida el tipo de esquema basado en modelos, asegúrese de seleccionar la opción manual.
-* Seleccione el esquema adecuado para el tipo de datos. Tenga en cuenta que la funcionalidad Data Mirror se utiliza principalmente para datos de series temporales (por ejemplo, datos de eventos).
+* Seleccione el esquema adecuado para el tipo de datos. Tenga en cuenta que Experience Platform Data Mirror se utiliza principalmente para datos de series temporales (por ejemplo, datos de eventos).
 
 * Defina los campos del esquema y sus atributos
 * Configure los atributos necesarios para los campos de un esquema basado en modelos:
@@ -55,9 +55,9 @@ Para configurar el conector de origen de las soluciones nativas del almacén de 
 
 Para obtener información sobre la autenticación con la solución nativa del almacén de datos admitida, consulte la documentación de Experience Platform correspondiente:
 
-* [Databricks de Azure](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Databricks de Azure](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Seleccionar datos

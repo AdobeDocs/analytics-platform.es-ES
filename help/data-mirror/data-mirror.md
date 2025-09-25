@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
-source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
+source-git-commit: 3cd771669370a58230fc4806e2b7fb2fc16444b9
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -21,39 +21,34 @@ ht-degree: 1%
 
 Data Mirror es una funcionalidad de Experience Platform que permite la ingesta de cambios a nivel de fila desde bases de datos externas al lago de datos mediante esquemas basados en modelos. Conserva las relaciones de datos, fuerza la exclusividad y admite el control de versiones sin requerir procesos de extracción, transformación y carga (ETL) en sentido ascendente.
 
-Utilice Data Mirror para sincronizar inserciones, actualizaciones y eliminaciones (datos mutables) de soluciones nativas externas del almacén de datos como [!DNL Snowflake], [!DNL Azure Databricks] o [!DNL Google BigQuery] directamente en Experience Platform. Data Mirror le ayuda a preservar la estructura y la integridad de los datos del modelo de base de datos existente a medida que introduce datos en Experience Platform.
-
+Utilice Experience Platform Data Mirror para sincronizar inserciones, actualizaciones y eliminaciones (datos mutables) de soluciones nativas externas de Data Warehouse ([!DNL Snowflake], [!DNL Azure Databricks] o [!DNL Google BigQuery]) directamente con datos de Experience Platform. Data Mirror le ayuda a preservar la estructura y la integridad de los datos del modelo de base de datos existente a medida que introduce datos en Experience Platform.
 
 ## Capacidades y ventajas
 
 Data Mirror proporciona las siguientes funciones esenciales para la sincronización de bases de datos:
 
-* **Aplicación de clave principal**. Garantiza la exclusividad dentro de los conjuntos de datos y evita registros duplicados durante la ingesta.
-* **Ingesta de cambios a nivel de fila**. Admite cambios de datos granulares, incluidas actualizaciones y eliminaciones con control de precisión.
-* **Relaciones de esquema**. Habilita relaciones de clave externa y principal entre conjuntos de datos mediante descriptores.
-* **Control de eventos desordenado**. Los procesos cambian eventos utilizando descriptores de versión y marca de tiempo, incluso cuando llegan fuera de secuencia.
-* **Integración directa con el almacén**. Se conecta con almacenes de datos en la nube compatibles para la sincronización de cambios en tiempo real.
+* **Aplicación de clave principal.** Garantiza la exclusividad dentro de los conjuntos de datos y evita registros duplicados durante la ingesta.
+* **Ingesta de cambios a nivel de fila.** admite cambios de datos granulares, incluidas actualizaciones y eliminaciones con control de precisión.
+* **Relaciones de esquema.** Habilita relaciones de clave principal y externa entre conjuntos de datos mediante descriptores.
+* **Control de eventos desordenado.** procesos cambian eventos utilizando descriptores de versión y marca de tiempo, incluso cuando llegan fuera de secuencia.
+* **Integración directa con el almacén.** se conecta con los almacenes de datos en la nube compatibles para sincronizar cambios en tiempo real.
 
 Utilice Data Mirror para introducir cambios directamente desde los sistemas de origen, aplicar la integridad del esquema y hacer que los datos estén disponibles para los flujos de trabajo de análisis, orquestación de recorrido y conformidad. Data Mirror elimina los procesos complejos de ETL ascendentes y acelera la implementación al permitir la duplicación directa de los modelos de base de datos existentes. Esta eliminación puede mejorar la gobernanza de los datos mediante un control preciso de las eliminaciones y las operaciones de higiene de los datos.
 
-<!-- Add link when AEP docs are ready... -->
-
 Consulte también la documentación de Experience Platform sobre Data Mirror.
-
 
 ## Data Mirror para Customer Journey Analytics
 
 >[!NOTE]
 >
->La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics está disponible en **versión beta pública** hasta el 25 de marzo de 2026. Durante el período beta, las actualizaciones de las capturas de datos de cambio (CDC) se limitan a 10 millones de filas de cambios diarios para Customer Journey Analytics. Adobe se reserva el derecho de finalizar el acceso beta a la funcionalidad de Experience Platform Data Mirror en caso de que su organización supere este límite. Para obtener información adicional acerca de la funcionalidad, incluidas las implicaciones de facturación, consulte esta sección de la documentación de Experience League.
+>La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics está disponible en **versión beta pública** hasta el 25 de marzo de 2026. Durante el período beta, las actualizaciones de las capturas de datos de cambio (CDC) se limitan a 10 millones de filas de cambios diarios para Customer Journey Analytics. Adobe se reserva el derecho de finalizar el acceso beta a la funcionalidad de Experience Platform Data Mirror en caso de que su organización supere este límite. Para solicitar acceso a esta funcionalidad, póngase en contacto con el equipo de su cuenta de Adobe.
 >
 
-La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics está disponible para las soluciones nativas seleccionadas del Data Warehouse ([!DNL Azure Databricks], [!DNL Google BigQuery] y [!DNL Snowflake]). La versión de Customer Journey Analytics de la capacidad Data Mirror requiere una configuración y configuración adecuadas de varios componentes:
+Experience Platform Data Mirror para Customer Journey Analytics está disponible para las soluciones nativas seleccionadas del Data Warehouse ([!DNL Azure Databricks], [!DNL Google BigQuery] y [!DNL Snowflake]). La versión de Customer Journey Analytics de Experience Platform Data Mirror requiere la configuración adecuada de las siguientes aplicaciones o componentes:
 
-* [Solución nativa del Data Warehouse](datawarehouse.md)
+* [Soluciones nativas del Data Warehouse](datawarehouse.md)
 * [Experience Platform](aep.md)
 * [Customer Journey Analytics](cja.md)
-
 
 >[!MORELIKETHIS]
 >

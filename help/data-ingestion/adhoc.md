@@ -6,27 +6,25 @@ feature: Basics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
+source-git-commit: e5975a7bb60f4a2386997024c4615f95be648363
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 27%
+source-wordcount: '1623'
+ht-degree: 23%
 
 ---
 
-
 # Ingesta y uso de datos ad hoc
 
-En esta guía de inicio rápido se explica cómo puede introducir datos ad hoc en Adobe Experience Platform y, a continuación, utilizar esos datos en Customer Journey Analytics.
+En esta guía de inicio rápido se explica cómo puede introducir datos ad hoc en Experience Platform y, a continuación, utilizar esos datos en Customer Journey Analytics.
 
 Para lograrlo, debe llevar a cabo lo siguiente:
 
-- **Cree un conjunto de datos con un archivo CSV** en Experience Platform para definir el modelo (esquema) de los datos que desea recopilar y dónde recopilar los datos (conjunto de datos).
+- **Crear un conjunto de datos con un archivo CSV** en Experience Platform. Este flujo de trabajo define el modelo (esquema) de los datos que desea recopilar y dónde recopilar los datos (conjunto de datos).
 
-- **Use un conector de origen** en Experience Platform para introducir sus datos en el conjunto de datos configurado.
+- **Configurar una conexión** en Customer Journey Analytics. Esta conexión debe incluir (al menos) su conjunto de datos ad hoc de Experience Platform.
 
-- **Configurar una conexión** en Customer Journey Analytics. Esta conexión debe incluir (al menos) su conjunto de datos de Adobe Experience Platform.
-
-- **Configurar una vista de datos** en Customer Journey Analytics para definir las métricas y las dimensiones que desea utilizar en Analysis Workspace.
+- **Configure una vista de datos** en Customer Journey Analytics para definir métricas y dimensiones a partir de los campos de los datos ad hoc que desee usar en Analysis Workspace.
 
 - **Configurar un proyecto** en Customer Journey Analytics para crear sus informes y visualizaciones.
 
@@ -34,7 +32,7 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 >[!NOTE]
 >
->Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos ad hoc mediante en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
+>Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos ad hoc mediante en Experience Platform y utilizar esos datos ad hoc en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
 
 ## Creación de un conjunto de datos con un archivo CSV
@@ -53,14 +51,14 @@ Para este inicio rápido, desea utilizar un archivo CSV que represente los datos
 >
 >Utilice conjuntos de datos y esquemas ad hoc para datos basados en registros (búsqueda, perfil). Los conjuntos de datos y esquemas ad hoc son menos adecuados y no deben tenerse en cuenta para los datos de series temporales (evento, resumen).
 
-No es necesario crear un esquema XDM para datos ad hoc. Adobe Experience Platform admite un flujo de trabajo basado en los datos del archivo CSV:
+No es necesario crear un esquema XDM para datos ad hoc. Experience Platform admite un flujo de trabajo basado en los datos del archivo CSV:
 
-1. Crea un esquema ad hoc que se ajusta a las columnas del archivo CSV.
-1. Crea un conjunto de datos basado en el esquema ad hoc que contiene los datos del archivo CSV.
+1. Crea un esquema ad hoc automáticamente. Ese esquema se ajusta a las columnas del archivo CSV.
+1. Crea un conjunto de datos que contiene los datos del archivo CSV.
 
 Para iniciar el flujo de trabajo:
 
-1. En la IU de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Flujos de trabajo]**.
+1. En la interfaz de Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Flujos de trabajo]**.
 1. Seleccione ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL Crear conjunto de datos a partir del archivo CSV]**.
 1. Seleccione **[!UICONTROL Launch]** en el panel derecho.
 1. En el asistente de **[!UICONTROL Flujos de trabajo]** > **[!UICONTROL Crear conjunto de datos a partir del archivo CSV]**:
@@ -80,15 +78,15 @@ Para iniciar el flujo de trabajo:
 
       1. Seleccione **[!UICONTROL Finalizar]**.
 
-Los datos se preparan y cargan. Una vez que los datos se hayan cargado correctamente, se le redirigirá a **[!UICONTROL Conjuntos de datos]** en la interfaz de usuario de Adobe Experience Platform.<br/> Verá la **[!UICONTROL actividad del conjunto de datos]** para su **[!UICONTROL conjunto de datos de ejemplo del CSV]** con el estado ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Procesando]**.
+Una vez que los datos se hayan preparado y cargado correctamente, se le redirigirá a **[!UICONTROL Conjuntos de datos]** en la interfaz de Experience Platform.<br/> Verá la **[!UICONTROL actividad del conjunto de datos]** para su **[!UICONTROL conjunto de datos de ejemplo del CSV]** con el estado ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Procesando]**.
 
 ![Actividad de conjunto de datos para datos ad hoc](assets/datasets-dataset-activity.png)
 
 Para inspeccionar los datos ad hoc:
 
-1. En la IU de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Conjuntos de datos]**.
+1. En la interfaz de Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Conjuntos de datos]**.
 1. Seleccione la ficha **[!UICONTROL Examinar]** en **[!UICONTROL Conjuntos de datos]**. Debería ver su conjunto de datos en la lista.
-1. Seleccione el nombre del esquema en la columna **[!UICONTROL Esquema]**. Por ejemplo: **[!UICONTROL Datos de ejemplo del CSV...]**.
+1. Seleccione el nombre del esquema en la columna **[!UICONTROL Esquema]**. Por ejemplo: **[!UICONTROL Datos de ejemplo del CSV...]**
 
    ![Seleccionar esquema para conjunto de datos ad hoc](assets/adhoc-schema-selection.png)
 
@@ -100,13 +98,19 @@ En **[!UICONTROL Esquemas]** > **[!UICONTROL Datos de ejemplo del CSV - esquema 
 
   ![Esquema ad hoc](dataset/../assets/adhoc-schema.png)
 
+  >[!NOTE]
+  >
+  >El flujo de trabajo define todos los campos del esquema para que sean del tipo Cadena. No puede cambiar este tipo en una fase posterior. Si necesita más flexibilidad en la definición de un esquema ad hoc, considere [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/ad-hoc) y luego use el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema).
+  > 
+
+
 
 
 ## Configurar una conexión
 
-Para utilizar el conjunto de datos de Adobe Experience Platform en Customer Journey Analytics, se crea una conexión que incluye los datos ad hoc resultantes del flujo de trabajo.
+Para usar el conjunto de datos de Experience Platform en Customer Journey Analytics, debe crear una conexión que incluya el conjunto de datos ad hoc resultante del [flujo de trabajo](#create-a-dataset-with-a-csv-file)
 
-Una conexión le permite integrar conjuntos de datos de Adobe Experience Platform en Workspace. Para informar sobre estos conjuntos de datos, primero debe establecer una conexión entre conjuntos de datos en Adobe Experience Platform y Workspace.
+Una conexión le permite integrar conjuntos de datos de Experience Platform en Workspace. Para informar sobre estos conjuntos de datos, primero debe establecer una conexión entre conjuntos de datos en Experience Platform y Workspace.
 
 Para crear la conexión:
 
@@ -126,7 +130,7 @@ Para crear la conexión:
 
 1. En el paso **[!UICONTROL Seleccionar conjuntos de datos]**, en **[!UICONTROL Agregar conjuntos de datos]**, haga lo siguiente:
 
-   1. Seleccione el conjunto de datos que creó anteriormente, por ejemplo **[!UICONTROL Datos de ejemplo del CSV]**, y cualquier otro conjunto de datos que desee incluir en la conexión.
+   1. Seleccione el conjunto de datos que creó anteriormente, por ejemplo **[!UICONTROL Datos de ejemplo del CSV]**, y cualquier otro conjunto de datos que desee incluir en la conexión. Los conjuntos de datos ad hoc tienen **[!UICONTROL Adhoc]** [!UICONTROL Tipo de conjunto de datos].
 
       ![Añadir conjuntos de datos](./assets/cja-connections-adhoc-2.png)
 
@@ -153,7 +157,7 @@ Consulte [Configuración de conjuntos de datos ad hoc](/help/connections/create-
 
 >[!IMPORTANT]
 >
->Además de la recomendación general de no usar conjuntos de datos y esquemas ad hoc para datos de series temporales, debería **no** usar el flujo de trabajo **[!UICONTROL Crear conjunto de datos a partir de CSV]** para datos de series temporales. El flujo de trabajo que genera el esquema ad hoc define todos los campos para que sean del tipo Cadena que no se puede modificar posteriormente. Cuando se agrega un conjunto de datos basado en series temporales (evento o resumen) a una conexión, este tipo de conjunto de datos requiere la definición de al menos un campo de tipo DateTime. <br/>Si necesita usar datos de series temporales ad hoc, debería considerar [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) y luego usar el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#schema).
+>Además de la recomendación general de no usar conjuntos de datos y esquemas ad hoc para datos de series temporales, no puede usar el flujo de trabajo **[!UICONTROL Crear conjunto de datos a partir de CSV]** para datos de series temporales. Este flujo de trabajo define todos los campos para que sean de tipo cadena que no se puede modificar posteriormente. Cuando se agrega un conjunto de datos basado en series temporales (evento o resumen) a una conexión, este tipo de conjunto de datos requiere la definición de al menos un campo de tipo DateTime.<br/>Si necesita usar datos de series temporales ad hoc, considere [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) y luego use el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema).
 
 
 Después de crear una [conexión](/help/connections/overview.md), puede realizar diversas tareas de administración, como [seleccionar y combinar conjuntos de datos](/help/connections/combined-dataset.md), [comprobar el estado de los conjuntos de datos de una conexión y el estado de la ingesta de datos](/help/connections/manage-connections.md), etc.
@@ -180,7 +184,17 @@ Para crear la vista de datos:
 
 1. En el paso **[!UICONTROL Componentes]**, haga lo siguiente:
 
-   1. Agregue cualquier campo de esquema ad hoc o componente estándar que desee incluir en los cuadros de componente **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**.
+   1. Agregue cualquier campo de esquema o componente estándar que desee incluir en los cuadros de componente **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**. Asegúrese de agregar campos relevantes del conjunto de datos que contiene los datos ad hoc. Para acceder a esos campos:
+
+      1. Seleccionar **[!UICONTROL conjuntos de datos de eventos]**.
+      1. Seleccione **[!UICONTROL campos ad hoc y basados en modelos]**.
+
+         ![Vista de datos - componentes ad hoc](assets/cja-dataview-components-adhoc.png)
+
+      1. Arrastre y suelte los campos de los esquemas ad hoc en **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**.
+
+
+
    1. De forma opcional, use [campos derivados](/help/data-views/derived-fields/derived-fields.md) para modificar cualquiera de los campos ad hoc de su tipo de cadena y formato predeterminados a otro tipo o formato.
 
    1. Seleccione **[!UICONTROL Guardar y continuar]**.
@@ -208,7 +222,7 @@ Para crear un proyecto:
 
 1. Seleccione su [vista de datos](#set-up-a-data-view) de la lista.
 
-1. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel]. Inclusión de esas métricas o dimensiones en función de los datos ad hoc.
+1. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel]. Incluyendo aquellas métricas o dimensiones que se basan en los datos ad hoc.
 
 Consulte [Información general de Analysis Workspace](../analysis-workspace/home.md) para obtener más información sobre cómo crear proyectos y compilar su análisis mediante componentes, visualizaciones y paneles.
 
