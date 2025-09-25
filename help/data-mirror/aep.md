@@ -93,5 +93,5 @@ Una vez que haya terminado la configuración del conector de origen, se crea un 
 >[!MORELIKETHIS]
 >
 >[Guía de inicio rápido de Data Mirror: crear reflejos y utilizar datos basados en modelos](model-based.md)
->>[Data Mirror (documentación de Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
->>[Esquemas basados en modelos (documentación de Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
+>&#x200B;>[Data Mirror (documentación de Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>&#x200B;>[Esquemas basados en modelos (documentación de Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
