@@ -4,9 +4,9 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: f41162d1c4c44f79c59585d1311cd2e431725103
-workflow-type: ht
-source-wordcount: '20276'
+source-git-commit: cae339ebc5d2609a7a93e63e874c4e7d611f2cad
+workflow-type: tm+mt
+source-wordcount: '20424'
 ht-degree: 100%
 
 ---
@@ -591,6 +591,16 @@ Las plantillas disponibles son las siguientes:
 
 
 <!--Both AA and CJA-->
+
+>[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="Ver el país desde el que las personas visitaron el sitio."
+>abstract="**Esto puede ayudarle** a comprender mejor de qué países provienen los visitantes más populares del sitio.<br/>**En función de lo que aprenda, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing en estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.<br/>Esta plantilla usa la dimensión Países."
+
+>[!CONTEXTUALHELP]
+>id="template--consentPolicyOverview"
+>title="Ver el país desde el que las personas visitaron el sitio."
+>abstract="**Esto puede ayudarle** a comprender mejor de qué países provienen los visitantes más populares del sitio.<br/>**En función de lo que aprenda, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing en estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.<br/>Esta plantilla usa la dimensión Países."
 
 >[!CONTEXTUALHELP]
 >id="template--countryGeoReport"
