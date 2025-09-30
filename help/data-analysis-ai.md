@@ -8,7 +8,7 @@ exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: cd92bde10b9cb473c4df791e91296a2a43b2ad84
 workflow-type: tm+mt
 source-wordcount: '2463'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 >
 >Data Insights Agent está disponible para los clientes elegibles durante tiempo limitado. El acceso a Data Insights Agent finaliza el 30 de noviembre de 2025. Para seguir utilizando Data Insights Agent sin interrupciones, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Data Insights Agent.
 
-Data Insights Agent, al que puede acceder desde el [Asistente de IA](/help/ai-assistant.md) de Customer Journey Analytics, es un agente de conversación de IA generativa que responde de forma rápida y eficaz a las preguntas sobre sus datos. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando sus datos reales.
+Data Insights Agent, al que puede acceder desde el [Asistente de IA](/help/ai-assistant.md) de Customer Journey Analytics, es un agente de conversación de IA generativa que responde de forma rápida y eficaz a las preguntas sobre sus datos. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y sus datos reales.
 
 El uso de Data Insights Agent para responder a preguntas centradas en los datos de Analysis Workspace puede ahorrarle incontables horas que, de lo contrario, podría dedicar a la creación manual de visualizaciones en Analysis Workspace y a familiarizarse con los componentes de la vista de datos.
 
@@ -42,7 +42,7 @@ El uso de Data Insights Agent para responder a preguntas centradas en los datos 
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
 >title="Habilitar para Data Insights Agent"
->abstract="Esta opción habilita esta vista de datos para su uso con Data Insights Agent. Data Insights Agent es un agente de conversación de IA generativa al que se puede acceder desde el asistente de IA en Customer Journey Analytics. Le ayuda a analizar rápidamente los datos con mensajes de texto. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando sus datos reales."
+>abstract="Esta opción habilita esta vista de datos para su uso con Data Insights Agent. Data Insights Agent es un agente de conversación de IA generativa al que se puede acceder desde el asistente de IA en Customer Journey Analytics. Le ayuda a analizar rápidamente los datos con indicaciones de texto. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y sus datos reales."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -259,7 +259,7 @@ A continuación se describen las prácticas recomendadas para la configuración 
 >[!MORELIKETHIS]
 >
 >[Configuración de componentes](/help/data-views/component-settings/overview.md)
->&#x200B;>[Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Aprobar métrica calculada](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Compartir segmentos](/help/components/segments/seg-share.md)
+>>[Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Aprobar métrica calculada](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Compartir segmentos](/help/components/segments/seg-share.md)
 >
