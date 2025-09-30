@@ -4,10 +4,10 @@ title: Configuración De Una Visualización De Abandonos
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: d91e6aaebd14bc02f53b28820dd6013350e36d36
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 92%
+source-wordcount: '856'
+ht-degree: 76%
 
 ---
 
@@ -43,7 +43,7 @@ Puede realizar rutas en dimensiones, métricas y segmentos. Por ejemplo, suponga
    >
    >Varios segmentos se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
 
-   ![Página:CamerRoll o Página: puntos de contacto de la cámara resaltados.](assets/fallout-or.png)
+   ![Página:CamerRoll o página: puntos de contacto de la cámara resaltados.](assets/fallout-or.png)
 
 1. También puede **limitar puntos de contacto individuales al siguiente evento** (en lugar de *eventualmente*) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones **[!UICONTROL Ruta eventual]** y **[!UICONTROL Evento siguiente]**, como se muestra aquí:
 
@@ -80,14 +80,14 @@ Como parte de la visualización, hay opciones específicas de menú contextual d
 | **[!UICONTROL Punto de contacto de la tendencia]** | Consulte los datos de tendencia para un punto de contacto en un gráfico de líneas en el cual se hayan incorporado previamente algunos datos de detección de anomalías. |
 | **[!UICONTROL Punto de contacto de tendencia (%)]** | Realiza la tendencia del porcentaje total de visitas en el orden previsto. |
 | **[!UICONTROL Tendencia de todos los puntos de contacto (%)]** | Realiza la tendencia de todos los porcentajes de puntos de contacto en las visitas en el orden previsto (excepto **[!UICONTROL Todas las personas]**, si se incluye) en el mismo gráfico. |
-| **[!UICONTROL Desglosar visitas en el orden previsto en este punto de contacto]** | Vea qué hicieron las personas entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Así se crea una tabla improvisada que muestra sus dimensiones. Puede sustituir las dimensiones y otros elementos de la tabla. |
-| **[!UICONTROL Desglosar visitas en orden previsto en este punto de contacto]** | Vea qué han hecho las personas que no han seguido el embudo inmediatamente tras el paso seleccionado. |
+| **[!UICONTROL Desglosar visitas en el orden previsto en este punto de contacto]** | Vea qué hicieron las personas entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Así se crea una tabla improvisada que muestra sus dimensiones. Se pueden reemplazar dimensiones y otros elementos de la tabla. Por ejemplo, una tabla con la etiqueta **[!UICONTROL Visitas en el orden previsto: Todas las personas > Página es igual a cualquiera de inicio]** y contiene **[!UICONTROL Página]** como dimensión y **[!UICONTROL Personas]** segmentadas por el [segmento rápido de solo proyecto](/help/components/segments/seg-quick.md) **[!UICONTROL Visitas en el orden previsto: Todas las personas > Página es igual a cualquiera de inicio]** como métrica. Inspeccione el segmento para comprender cómo se determina el segmento de alternativa. |
+| **[!UICONTROL Desglosar visitas en orden previsto en este punto de contacto]** | Vea qué han hecho las personas que no han seguido la funnel inmediatamente después del paso seleccionado. Así se crea una tabla improvisada que muestra sus dimensiones. Se pueden reemplazar dimensiones y otros elementos de la tabla. Por ejemplo, una tabla con la etiqueta **[!UICONTROL Visitas en el orden previsto: Personas > Página es igual a cualquiera de las páginas de inicio]** y contiene **[!UICONTROL Página]** como dimensión y **[!UICONTROL Personas]** segmentadas por el [segmento rápido de solo proyecto](/help/components/segments/seg-quick.md) **[!UICONTROL Visitantes en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** como métrica. Inspeccione el segmento para comprender cómo se determina el segmento de visitas en el orden previsto. |
 | **[!UICONTROL Crear segmento a partir de touchpoint]** | Cree un nuevo segmento a partir de un punto de contacto seleccionado. |
 
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo ver y administrar los registros de
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: 2ef96ad194f8c7acec35bd7635c650af4370531a
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 100%
 Para aumentar la transparencia y la visibilidad de las actividades realizadas en el sistema, Customer Journey Analytics (CJA) le permite realizar una auditoría de la actividad del usuario en varios servicios y funcionalidades en forma de “registros de auditoría”. Estos registros forman una pista de auditoría que puede ser útil en la resolución de problemas y ayudar a su empresa a cumplir de manera eficaz con las políticas de administración de datos corporativos y los requisitos regulatorios, como la Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, Health Insurance Portability and Accountability Act).
 
 En un sentido estricto, un registro de auditoría informa de **quién** realizó **qué** acción y **cuándo** lo hizo. Cada acción registrada contiene metadatos que indican el tipo de acción, la fecha y la hora, el ID de correo electrónico del usuario que realizó la acción y los atributos adicionales relevantes de ese tipo de acción.
+
+Los registros de auditoría se conservan durante 90 días. Después, los registros de auditoría se eliminan automáticamente.
 
 Este tema trata sobre los registros de auditoría en Customer Journey Analytics, como su visualización y administración en la interfaz de usuario.
 
@@ -133,7 +135,7 @@ La siguiente tabla indica qué acciones sobre qué tipo de componentes se regist
 | Tipo de componente | Acciones |
 | --- | --- |
 | [!UICONTROL Anotación] | <ul><li>Crear</li><li>Eliminar</li><li>Editar</li></ul> |
-| [!UICONTROL Audiencia] | <ul><li>API_Request</li><li>Crear</li><li>Eliminar</li><li>Editar</li><li>Exportar</li><li>Actualizar</li></ul> |
+| [!UICONTROL Público] | <ul><li>API_Request</li><li>Crear</li><li>Eliminar</li><li>Editar</li><li>Exportar</li><li>Actualizar</li></ul> |
 | [!UICONTROL Métrica calculada] | <ul><li>API_Request</li><li>Crear</li><li>Eliminar</li><li>Editar</li></ul> |
 | [!UICONTROL Conexión] | <ul><li>API_Request</li><li>Crear</li><li>Eliminar</li><li>Editar</li></ul> |
 | [!UICONTROL Vista de datos] | <ul><li>API_Request</li><li>Crear</li><li>Eliminar</li><li>Editar</li></ul> |
