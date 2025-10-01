@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
+source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 94%
@@ -47,8 +47,8 @@ Content Analytics usa los datos de vista de imágenes web en conjuntos de datos 
 
 1. Cuando un usuario visita un sitio [configurado para Content Analytics](config/configuration.md), Experience Platform Web SDK registra las impresiones y las interacciones con el contenido.
 1. El servicio de identidad y características procesa estas interacciones. Ese proceso consiste en un servicio de recuperación que vuelve a visitar las versiones públicas de las direcciones URL configuradas que definen las interacciones. Para todas estas direcciones URL recuperadas, el servicio de identidad identifica de forma exclusiva las experiencias y los recursos. Además, el servicio de personalización aplica servicios de IA/ML para descubrir experiencias, recursos, metadatos y atributos.
-1. Los resultados de estos servicios ([componentes, atributos e identidades](/help/content-analytics/report/components.md)) se utilizan para actualizar los conjuntos de datos específicos de análisis de contenido relevantes en Experience Platform.
-1. Los datos de análisis de contenido, junto con los datos de comportamiento y otros datos de búsqueda, se pueden utilizar en una configuración de Customer Journey Analytics. ([Conexión](/help/connections/overview.md), [Vista de datos](/help/data-views/data-views.md) y [Espacio de trabajo](/help/analysis-workspace/home.md)). Esa configuración proporciona la base para los conocimientos únicos a nivel de macro sobre el contenido. <br/>Puede iniciar sus informes y análisis de contenido con la [plantilla de análisis de contenido](/help/content-analytics/report/report.md#template).
+1. Los resultados de estos servicios ([componentes, atributos e identidades](/help/content-analytics/report/components.md)) se utilizan para actualizar los conjuntos de datos específicos de Content Analytics relevantes en Experience Platform.
+1. Los datos de Content Analytics, junto con los datos de comportamiento y otros datos de búsqueda, se pueden usar en una configuración de Customer Journey Analytics ([Conexión](/help/connections/overview.md), [Vista de datos](/help/data-views/data-views.md) y [Workspace](/help/analysis-workspace/home.md)). Esa configuración proporciona la base para los conocimientos únicos a nivel de macro sobre el contenido. <br/>Puede iniciar sus informes y análisis de contenido con la [plantilla de análisis de contenido](/help/content-analytics/report/report.md#template).
 
 
 >[!NOTE]
@@ -60,14 +60,14 @@ Content Analytics usa los datos de vista de imágenes web en conjuntos de datos 
 
 >[!NOTE]
 >
->Si tiene licencia para el complemento Escudo de seguridad y privacidad, tenga en cuenta que (cualquier dato generado a partir de) las experiencias y los recursos, sujetos a Content Analytics, no están cubiertos por el etiquetado DULE ni por las claves gestionadas por el cliente. Además, Content Analytics no es un servicio compatible con HIPAA.
+>Si ha adquirido la licencia del complemento Escudo de privacidad y seguridad, tenga en cuenta que (cualquier dato generado) las experiencias y los recursos, sujetos al análisis de contenido, no están cubiertos por el etiquetado DULE ni por las claves gestionadas por el cliente. Además, Content Analytics no es un servicio compatible con HIPAA.
 >
 
 
 >[!MORELIKETHIS]
 >
 >[Creación de informes del análisis de contenido](report/report.md)
->&#x200B;>[Configurar Adobe Analytics](config/configuration.md)
->&#x200B;>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=es#M454)
+>>[Configurar Adobe Analytics](config/configuration.md)
+>>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
