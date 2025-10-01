@@ -5,14 +5,32 @@ title: Configuración de ubicaciones de exportación en la nube
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 882e280da3f65e297abccd475d381832fd236843
+source-git-commit: 5adcab1df932f5c8af1f140fb6707f2d56726ae3
 workflow-type: tm+mt
-source-wordcount: '1915'
-ht-degree: 20%
+source-wordcount: '2030'
+ht-degree: 19%
 
 ---
 
-# Configuración de ubicaciones de exportación en la nube
+# Configuración de ubicaciones de exportación en la nube {#configure-cloud-export-locations}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-prefix"
+>title="Prefijo"
+>abstract="Carpeta raíz dentro del contenedor en el que desea colocar los datos. Especifique un nombre de carpeta estática y, a continuación, añada una barra diagonal después del nombre para crear la carpeta. Por ejemplo, `folder_name/`"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-file-name"
+>title="Nombre de archivo y ruta"
+>abstract="Especifique un nombre de archivo personalizado dinámico para usar en las exportaciones automatizadas enviadas a esta ubicación. También puede anteponer al nombre del archivo una ruta de acceso dinámica personalizada. &lt;br\>Use variables en el nombre y la ruta del archivo para hacerlas dinámicas. &lt;br\>Por ejemplo, si especifica `${yyyy}/${mm}/${dd}/my-report-${instance_id}-${idx}`, una exportación que se envíe automáticamente a este destino el 15 de enero de 2026 tendría la siguiente ruta de archivo y nombre: `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` &lt;br\>Haga clic en el vínculo siguiente para obtener una lista de variables disponibles."
+
+<!-- markdownlint-enable MD034 -->
 
 Para poder exportar informes de Customer Journey Analytics a un destino de nube (desde Analysis Workspace, como se describe en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md) o desde Report Builder, como se describe en [Exportar informes desde Report Builder](/help/report-builder/report-builder-export.md)) como se describe en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md), debe agregar y configurar la ubicación a la que desea enviar los datos.
 
@@ -88,11 +106,11 @@ Para obtener información sobre cómo administrar ubicaciones existentes, como v
 
    1. Abra [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-   1. Vaya a [!UICONTROL **Cuentas de almacenamiento**] > [!UICONTROL **(Contenedores adjuntos)**] > [!UICONTROL **Contenedores de blob**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***.
+   1. Vaya a [!UICONTROL **Cuentas de almacenamiento**] > [!UICONTROL **(Contenedores adjuntos)**] > [!UICONTROL **Contenedores de blob**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***.
 
       >[!NOTE]
       >
-      >El nombre de carpeta **[!UICONTROL cjaexport-_number_]**&#x200B;es el nombre predeterminado proporcionado por el Explorador de almacenamiento de Azure. Si solo tiene una conexión asociada a su URI SAS (lo cual es normal), el nombre de esta carpeta será&#x200B;**[!UICONTROL cjaexport-1]**.
+      >El nombre de carpeta **[!UICONTROL cjaexport-_number_]**es el nombre predeterminado proporcionado por el Explorador de almacenamiento de Azure. Si solo tiene una conexión asociada a su URI SAS (lo cual es normal), el nombre de esta carpeta será&#x200B;**[!UICONTROL cjaexport-1]**.
 
 
       ![Acceder a archivos en el Explorador de almacenamiento de Azure](assets/azure-storage-explorer-access.png)
