@@ -8,7 +8,7 @@ role: User
 source-git-commit: 0b6afd5639234f6305c99267d3b1624279c97368
 workflow-type: tm+mt
 source-wordcount: '2482'
-ht-degree: 73%
+ht-degree: 78%
 
 ---
 
@@ -67,7 +67,7 @@ Utilice el siguiente proceso al exportar tablas completas a la nube:
 >[!CONTEXTUALHELP]
 >id="cja-export-data-structure"
 >title="Estructura de datos"
->abstract="Esta es la tabla de forma libre que está exportando. Puede modificar la estructura de datos arrastrando componentes del panel izquierdo a la tabla. Puede aplicar un filtro arrastrando un componente al área de filtro. El proyecto se actualiza dinámicamente a medida que se añade componentes al lienzo."
+>abstract="Es la tabla de forma libre que está exportando. Puede modificar la estructura de datos arrastrando los componentes del panel izquierdo a la tabla. Puede aplicar un filtro arrastrando un componente al área de filtro. El proyecto se actualiza dinámicamente a medida que se añade componentes al lienzo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ Utilice el siguiente proceso al exportar tablas completas a la nube:
 >[!CONTEXTUALHELP]
 >id="cja-export-destination"
 >title="Destino"
->abstract="Seleccione la cuenta y la ubicación de la nube a la que desea enviar los datos. Puede elegir una cuenta y una ubicación existentes o seleccionar &quot;Agregar nuevo&quot; para crearlos. Especifique los usuarios y grupos a los que notificar las exportaciones que fallan o caducan."
+>abstract="Seleccione la cuenta en la nube y la ubicación a la que desea enviar los datos. Puede elegir una cuenta y una ubicación existentes o seleccionar &#39;Añadir nuevo&#39; para crearlas. Especifique los usuarios y grupos a los que desea notificar las exportaciones que fallan o caducan."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -235,7 +235,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
 
   Por ejemplo, una atribución de métrica de &quot;primer contacto&quot; anula una asignación de dimensión &quot;más reciente&quot;.
 
-* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [&#128279;](/help/data-views/component-settings/persistence.md).
+* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [](/help/data-views/component-settings/persistence.md).
 
   Por ejemplo, se aplica una atribución de métrica de &quot;primer contacto&quot; además de una asignación de dimensión &quot;más reciente&quot;. Además, la atribución de métricas se aplica a pares de elementos de dimensión posasignados como si fueran elementos de dimensión únicos, en lugar de a cada elemento de dimensión de forma independiente, como se hace normalmente en una tabla de forma libre.
 
