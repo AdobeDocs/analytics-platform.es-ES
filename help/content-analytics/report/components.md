@@ -6,7 +6,7 @@ feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
 
