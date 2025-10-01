@@ -67,7 +67,7 @@ Content Analytics usa los datos de vista de imágenes web en conjuntos de datos 
 >[!MORELIKETHIS]
 >
 >[Creación de informes del análisis de contenido](report/report.md)
->>[Configurar Adobe Analytics](config/configuration.md)
->>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>&#x200B;>[Configurar Adobe Analytics](config/configuration.md)
+>&#x200B;>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 

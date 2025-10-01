@@ -65,7 +65,7 @@ Después de realizar cambios en la extensión de Adobe Content Analytics, asegú
 >[!MORELIKETHIS]
 >
 >[Configuración guiada](guided.md)
->>[Información general sobre publicación de etiquetas de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview)
+>&#x200B;>[Información general sobre publicación de etiquetas de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview)
 >
 
 
