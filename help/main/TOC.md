@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 4621b5059333c5ee4f7d41014d0e4eff17ef33bf
+source-git-commit: 663c7442bce8222f5163b0c8e38afb087b268ad9
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1295'
 ht-degree: 98%
 
 ---
@@ -258,6 +258,7 @@ ht-degree: 98%
       + [Compartir proyectos](../analysis-workspace/curate-share/share-projects.md)
       + [Crear vínculos que se pueden compartir](../analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de solo lectura](../analysis-workspace/curate-share/view-only-projects.md)
+      + [Generar presentaciones](/help/analysis-workspace/curate-share/generate-presentations.md)
    + Exportar {#export}
       + [Información general](../analysis-workspace/export/export-project-overview.md)
       + [Descargar](../analysis-workspace/export/download-send.md)
