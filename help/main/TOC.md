@@ -12,7 +12,7 @@ breadcrumb-title: Guía de Customer Journey Analytics
 source-git-commit: 663c7442bce8222f5163b0c8e38afb087b268ad9
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -122,10 +122,10 @@ ht-degree: 98%
       + [Conectores de origen](../data-ingestion/sources.md)
       + [Datos ad hoc](/help/data-ingestion/adhoc.md)
 
-+ Espejo de datos {#cja-data-mirror}
++ Data Mirror {#cja-data-mirror}
    + [Información general](/help/data-mirror/data-mirror.md)
    + Configuración {#configure}
-      + [Soluciones nativas del Data Warehouse](/help/data-mirror/datawarehouse.md)
+      + [Soluciones nativas del almacén de datos](/help/data-mirror/datawarehouse.md)
       + [Experience Platform](/help/data-mirror/aep.md)
       + [Customer Journey Analytics](/help/data-mirror/cja.md)
    + [Guía de inicio rápido de Data Mirror](/help/data-mirror/model-based.md)

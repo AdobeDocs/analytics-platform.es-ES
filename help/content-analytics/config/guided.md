@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '2694'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,7 @@ Su configuración requiere la selección de una [vista de datos](/help/data-view
    Puede realizar las siguientes acciones:
 
    * Para buscar un conjunto de datos específico, utilice el campo ![Buscar](/help/assets/icons/Search.svg).
-   * Para filtrar la lista de vistas de datos disponibles, seleccione ![Mostrar filtro](/help/assets/icons/Filter.svg). Puede filtrar la lista en [!UICONTROL Conexión], [!UICONTROL Propietario] y [!UICONTROL Zona protegida].<br/>Use ![Ocultar](/help/assets/icons/Filter.svg) **[!UICONTROL Ocultar segmentos]** para ocultar el panel de segmentos.
+   * Para filtrar la lista de vistas de datos disponibles, seleccione ![Mostrar filtro](/help/assets/icons/Filter.svg). Puede filtrar la lista en [!UICONTROL Conexión], [!UICONTROL Propietario] y [!UICONTROL Zona protegida].<br/>Utilice ![Ocultar](/help/assets/icons/Filter.svg) **[!UICONTROL Ocultar segmentos]** para ocultar el panel de segmentos.
    * Para definir qué columnas desea mostrar en la tabla, seleccione ![Configuración de columna](/help/assets/icons/ColumnSetting.svg). Seleccione qué columnas desea mostrar en el cuadro de diálogo **[!UICONTROL Personalizar tabla]** y seleccione **[!UICONTROL Aplicar]** para aplicar los cambios.
 
 1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) la vista de datos que desee utilizar.
@@ -296,7 +296,7 @@ En una nueva configuración, debe definir si desea utilizar una propiedad Etique
   ![Etiqueta existente de recopilación de datos del análisis de contenido](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. Seleccione **[!UICONTROL Elegir existente]**.
-   2. Seleccione una propiedad existente del menú desplegable **[!UICONTROL Propiedad de etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles. No puede seleccionar una propiedad Etiquetas que ya esté siendo utilizada por otra configuración implementada de Content Analytics.
+   2. Seleccione una propiedad existente en el menú desplegable **[!UICONTROL Propiedad Etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles. No puede seleccionar una propiedad Etiquetas que ya esté siendo utilizada por otra configuración implementada de Content Analytics.
 
 
 * Para crear una propiedad Etiquetas nueva:
@@ -324,7 +324,7 @@ En una nueva configuración, debe definir si desea utilizar una propiedad Etique
 
 #### Configuración existente {#existing-configuration}
 
-Para una configuración existente, no se puede editar la propiedad Etiquetas. Para obtener actualizaciones de una propiedad Tags asociada a una configuración existente, use la [configuración de la extensión Content Analytics Tag](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/content-analytics/overview).
+Para una configuración existente, no se puede editar la propiedad Etiquetas. Para obtener actualizaciones de una propiedad Etiquetas asociada a una configuración existente, use la [configuración de la extensión Content Analytics Tag](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/content-analytics/overview).
 
 Sin embargo, puede editar las páginas y los recursos que desea incluir o excluir.
 
