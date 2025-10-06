@@ -6,9 +6,9 @@ feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
 source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ La arquitectura de Customer Journey Analytics de alto nivel se muestra aquí:
 
 ![Arquitectura de Customer Journey Analytics](/help/getting-started/assets/cja-overview.svg)
 
-Esta arquitectura ilustra cómo el Recorrido de cliente de Analytics le permite:
+Esta arquitectura ilustra cómo Customer Journey Analytics le permite lo siguiente:
 
-* Combine varios conjuntos de datos ![Data](/help/assets/icons/Data.svg) en una [conexión](/help/connections/overview.md).
-* Defina y configure las dimensiones ![Dimensiones](/help/assets/icons/Dimensions.svg) y las métricas ![Evento](/help/assets/icons/Event.svg) en una [vista de datos](/help/data-views/data-views.md), según los campos disponibles de los conjuntos de datos que definió en su conexión.
-* Generar informes ![ViewTable](/help/assets/icons/ViewTable.svg) y visualizaciones (como la línea ![Line](/help/assets/icons/GraphTrend.svg) y el área ![Area](/help/assets/icons/GraphAreaStacked.svg)) en [proyectos](/help/analysis-workspace/home.md) en función de las dimensiones y métricas de las vistas de datos.
+* Combinar varios ![Datos](/help/assets/icons/Data.svg) de los conjuntos de datos en una [conexión](/help/connections/overview.md).
+* Definir y configurar las dimensiones ![Dimensiones](/help/assets/icons/Dimensions.svg) y las métricas ![Evento](/help/assets/icons/Event.svg) en una [vista de datos](/help/data-views/data-views.md), según los campos disponibles de los conjuntos de datos que definió en su conexión.
+* Genere informes ![ViewTable](/help/assets/icons/ViewTable.svg) y visualizaciones (como la línea ![Línea](/help/assets/icons/GraphTrend.svg) y el área ![Área](/help/assets/icons/GraphAreaStacked.svg)) en [proyectos](/help/analysis-workspace/home.md) en función de las dimensiones y métricas de las vistas de datos.
 
-Los conjuntos de datos de la arquitectura pueden proceder de varias fuentes:
+El conjunto de datos de la arquitectura puede proceder de varios orígenes:
 
 * datos por lotes,
 
@@ -108,11 +108,11 @@ Consulte [Ingesta y uso de datos mediante conectores de origen](./sources.md) pa
 
 ## Ingesta y uso de datos ad hoc
 
-Tiene datos ad hoc disponibles que solo requieren un único conjunto de datos en Experience Platform y no requieren la configuración de un esquema Experience Data Model (XDM). Este escenario se denomina esquema ad hoc. Los esquemas ad hoc se utilizan en varios flujos de trabajo de ingesta de datos para Experience Platform, incluida la ingesta de archivos CSV y la creación de determinados tipos de conexiones de origen.
+Tiene datos ad hoc disponibles que solo requieren un único conjunto de datos en Experience Platform y no requieren la configuración de un esquema Experience Data Model (XDM). Este escenario se denomina esquema ad hoc. Los esquemas ad hoc se utilizan en varios flujos de trabajo de ingesta de datos de Experience Platform, incluida la ingesta de archivos CSV y la creación de determinados tipos de conexiones de origen.
 
 Ver [Ingesta y uso de datos ad hoc](./adhoc.md)
 
 >[!MORELIKETHIS]
 >
->Blog: [Análisis detallado del procesamiento y la ingesta de datos en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=es)
+>Blog: [Análisis detallado del procesamiento y la ingesta de datos en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 

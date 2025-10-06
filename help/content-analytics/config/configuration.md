@@ -6,9 +6,9 @@ feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
 source-git-commit: f149a2bd7f184f4e8f6e67979649e2d9f609d603
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -68,10 +68,10 @@ Este acceso implica:
 
 ## Limitaciones
 
-El esquema utilizado para los datos de evento de Content Analytics es propiedad del sistema. No se puede modificar un esquema propiedad del sistema, lo que implica:
+El esquema utilizado para los datos de evento de Content Analytics es propiedad del sistema. No se puede modificar un esquema propiedad del sistema, lo que implica lo siguiente:
 
 * No se pueden incluir grupos de campos para admitir funcionalidades como la geolocalización, la detección de bots o la búsqueda de dispositivos.
-* No puede agregar un identificador específico para admitir [vinculación basada en el campo](/help/stitching/fbs.md).
+* No puede añadir un identificador específico para admitir la [vinculación basada en el campo](/help/stitching/fbs.md).
 
 >[!MORELIKETHIS]
 >
