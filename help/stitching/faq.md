@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: c60c68e6065e877d0fa4a92dbfe8dd54a2dfb4fe
+source-git-commit: b1fa2220b20cd2cdeae51aa57b05aa28b266a8d6
 workflow-type: tm+mt
-source-wordcount: '2046'
-ht-degree: 26%
+source-wordcount: '2084'
+ht-degree: 25%
 
 ---
 
@@ -23,8 +23,8 @@ Estas son algunas de las preguntas más frecuentes sobre la vinculación:
 Puede utilizar una visualización de flujo con la dimensión ID de conjunto de datos.
 
 1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y cree un proyecto de Workspace en blanco.
-2. Seleccione la pestaña **[!UICONTROL ** Visualizaciones **]** de la izquierda y arrastre una visualización de **[!UICONTROL **&#x200B; Flujo &#x200B;**]** al lienzo de la derecha.
-3. Seleccione la ficha **[!UICONTROL ** Componentes **]** de la izquierda y arrastre la dimensión **[!UICONTROL ** ID de conjunto de datos **]** a la ubicación central denominada **[!UICONTROL **&#x200B; Dimension o Elemento &#x200B;**]**.
+2. Seleccione la pestaña **[!UICONTROL ** Visualizaciones **]** de la izquierda y arrastre una visualización de **[!UICONTROL ** Flujo **]** al lienzo de la derecha.
+3. Seleccione la ficha **[!UICONTROL ** Componentes **]** de la izquierda y arrastre la dimensión **[!UICONTROL ** ID de conjunto de datos **]** a la ubicación central denominada **[!UICONTROL ** Dimension o Elemento **]**.
 4. Este informe de flujo es interactivo. Para expandir los flujos a páginas posteriores o anteriores, seleccione cualquiera de los valores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
 Puede utilizar un conjunto de datos de búsqueda si desea cambiar el nombre de los elementos de la dimensión de ID de conjunto de datos.
@@ -227,10 +227,12 @@ Sí, Customer Journey Analytics puede usar los campos del mapa de identidad para
 
 No es necesario volver a ingerir los datos en Experience Platform, pero deberán reconfigurarse en Customer Journey Analytics. Siga estos pasos:
 
-1. Configure el nuevo conjunto de datos vinculado basado en gráficos.
-1. Configure el nuevo conjunto de datos como parte de una nueva conexión en Customer Journey Analytics.
-1. Cambie la vista de datos existente para utilizar la nueva conexión (y, como tal, el nuevo conjunto de datos vinculado basado en gráficos).
-1. Elimine la conexión antigua que estaba utilizando el conjunto de datos vinculado basado en el campo.
+1. Configure el nuevo conjunto de datos vinculado basado en gráficos mediante la vinculación basada en gráficos.
+1. Cree una nueva conexión temporal con un período de tiempo muy corto de datos.
+1. Configure el nuevo conjunto de datos basado en gráficos como parte de esta conexión temporal.
+1. Compruebe con esta nueva conexión temporal si la vinculación basada en gráficos funciona correctamente.
+1. Si la vinculación basada en gráficos funciona según lo esperado, solicite cualquier relleno adicional para el conjunto de datos basado en gráficos y, a continuación, intercambie el conjunto de datos basado en campos en su conexión original con el nuevo conjunto de datos basado en gráficos.
+1. Quitar la conexión temporal
 
 +++
 
@@ -273,6 +275,6 @@ curl -X POST \
 
 Cualquier uso de la etiqueta `unifiedProfile` en la solicitud, aunque no tenga licencia para el perfil de datos del cliente en tiempo real, devuelve un error.
 
-Consulte [Crear un conjunto de datos habilitado para Perfil e Identidad](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity) para obtener más información.
+Consulte [Crear un conjunto de datos habilitado para Perfil e Identidad](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity) para obtener más información.
 
 +++ 
