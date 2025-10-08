@@ -1,96 +1,66 @@
 ---
-title: Comparación con los datos de Adobe Analytics
-description: Obtenga información sobre cómo comparar sus datos de Adobe Analytics con los de Customer Journey Analytics
+title: Comparación de datos del conector de Source de Analytics con Adobe Analytics
+description: Comprenda las diferencias en los datos al ver informes similares en Adobe Analytics y Customer Journey Analytics.
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: servicio de consultas;Servicio de consultas;sintaxis sql
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+source-git-commit: d96404479aabe6020566e693245879b5ad4fad9c
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 4%
 
 ---
 
-# Comparación con los datos de Adobe Analytics
+# Comparación de datos del conector de Source de Analytics con Adobe Analytics
 
-A medida que su organización adopta Customer Journey Analytics, es posible que observe algunas diferencias en los datos entre Adobe Analytics y Customer Journey Analytics. Esto es normal y puede ocurrir por varios motivos. Customer Journey Analytics está diseñado para permitirle mejorar algunas de las limitaciones de sus datos en AA. Sin embargo, pueden producirse discrepancias inesperadas y no deseadas. Este artículo está diseñado para ayudarle a diagnosticar y resolver esas diferencias, para que tanto usted como su equipo puedan utilizar Customer Journey Analytics sin impedimentos por preocupaciones sobre la integridad de los datos.
+A medida que su organización adopta Customer Journey Analytics, es posible observar algunas diferencias en los datos entre Adobe Analytics y Customer Journey Analytics. Estas diferencias son normales y pueden ocurrir por varias razones. Customer Journey Analytics está diseñado para permitirle mejorar algunas de las limitaciones de sus datos en Adobe Analytics. Esta flexibilidad puede causar algunas diferencias en la forma en que Customer Journey Analytics interpreta los datos. Utilice este artículo para comprender las posibles diferencias en el modo en que Customer Journey Analytics y Adobe Analytics tratan los datos.
 
-Supongamos que ha ingerido datos de Adobe Analytics en Adobe Experience Platform a través del [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) y, a continuación, ha creado una conexión de Customer Journey Analytics utilizando este conjunto de datos.
+En esta página se da por hecho que se han ingerido datos de Adobe Analytics en Adobe Experience Platform mediante el [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es), y después se ha creado una [conexión](/help/connections/overview.md) y [vista de datos](/help/data-views/data-views.md) en Customer Journey Analytics.
 
 ![El flujo de datos de Adobe Analytics a través del conector de datos a Adobe Experience Platform y a Customer Journey Analytics mediante conexiones de CJA.](assets/compare.png)
 
-A continuación, ha creado una vista de datos y, mientras informaba posteriormente de estos datos en Customer Journey Analytics, ha detectado discrepancias con los resultados de los informes en Adobe Analytics.
+Tenga en cuenta las siguientes posibles razones por las que los datos pueden diferir entre plataformas de informes:
 
-A continuación, se indican algunos pasos a seguir para comparar los datos originales de Adobe Analytics con los datos de Adobe Analytics que ahora están en Customer Journey Analytics.
+* **Conjuntos de datos o grupos de informes diferentes**: Asegúrese de que el grupo de informes de Adobe Analytics y el grupo de informes del que deriva los datos el conector de Source sean los mismos.
+* **Configuración del calendario**: los grupos de informes de Adobe Analytics contienen una zona horaria y otras opciones de calendario que puede configurar. Del mismo modo, las vistas de datos de Customer Journey Analytics tienen una configuración independiente que puede controlar. Asegúrese de que esta configuración coincida entre los productos si desea la paridad.
+* **Conjuntos de datos adicionales**: Customer Journey Analytics proporciona la capacidad de incluir varios conjuntos de datos en una sola conexión. Estas diferencias incluyen conjuntos de datos de evento, conjuntos de datos de perfil o conjuntos de datos de búsqueda adicionales. Esta capacidad es un diferenciador clave entre Adobe Analytics y Customer Journey Analytics, lo que permite a insight incorporar datos de canales cruzados.
+* **Conjuntos de datos enlazados**: Adobe proporciona la capacidad de analizar los ID de persona entre dos conjuntos de datos, lo que da como resultado un nuevo conjunto de datos que contiene los ID enlazados. Estos [conjuntos de datos enlazados](/help/stitching/overview.md) contienen datos adicionales además de lo que ofrece un grupo de informes de Adobe Analytics.
+* **Fuentes de datos**: Customer Journey Analytics no incluye ningún tipo de [Fuentes de datos](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/overview) cargadas en un grupo de informes de Adobe Analytics, incluidas las fuentes de datos de resumen o las fuentes de datos del ID de transacción.
+* **Dimension y configuración de métricas**: dentro de una vista de datos, cada dimensión y métrica contiene su propia configuración que su organización puede modificar. Estos cambios se aplican en el momento de ejecutar el informe y, por lo tanto, se aplican de forma retroactiva. La configuración de Dimension y métricas en Adobe Analytics cambia la forma en que se recopilan los datos, lo que hace que esos cambios se apliquen a partir de ese momento. Si ha cambiado la configuración de los componentes en cualquiera de los productos, pueden crear diferencias en la creación de informes. Si se centra en una dimensión específica, asegúrese de que la configuración de atribución y persistencia coincida entre Adobe Analytics y Customer Journey Analytics.
 
-## Requisitos previos
+  >[!TIP]
+  >
+  >Adobe recomienda encarecidamente que las dimensiones de Adobe Analytics utilicen una asignación de &#39;[!UICONTROL Más reciente (último)]&#39;. Esta configuración de asignación permite una mayor flexibilidad de atribución en Customer Journey Analytics.
 
-* Asegúrese de que el conjunto de datos de Analytics en Adobe Experience Platform contenga datos para el intervalo de fechas que está investigando.
+* **Definición de visita**: además de la configuración de dimensiones y métricas individuales, la propia vista de datos contiene configuraciones que cambian fundamentalmente la manera en que se interpretan los datos de visitantes. Por ejemplo, puede aplicar un segmento a toda una vista de datos (similar a un [grupo de informes virtuales](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-about) en Adobe Analytics). También puede cambiar la definición de una duración de visita o iniciar automáticamente una nueva visita en cualquier evento deseado. Cualquiera de estas configuraciones puede tener un impacto notable en las diferencias de creación de informes entre Customer Journey Analytics y Adobe Analytics.
 
-* Asegúrese de que el grupo de informes seleccionado en Analytics coincida con el grupo de informes ingerido en Adobe Experience Platform.
+## Comprobación del recuento de registros entre productos
 
-## Paso 1: Ejecute la métrica Ocurrencias en Adobe Analytics
+Si todos los ajustes anteriores parecen similares y desea validar al menos el número de registros entre productos, puede seguir estos pasos:
 
-La métrica [Ocurrencias](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=es) muestra el número de visitas configurado o en las que persiste una dimensión.
-
-1. En Analytics > [!UICONTROL Workspace], arrastre el intervalo de fechas sobre el que desee crear el informe como dimensión a una tabla de [!UICONTROL Forma libre].
-
-1. La variable [!UICONTROL Ocurrencias] se aplica automáticamente a ese intervalo de fechas.
-
-1. Guarde este proyecto para que pueda utilizarlo en la comparación.
-
-## Paso 2: Compare los resultados con el [!UICONTROL Total de registros por marcas de tiempo] en Customer Journey Analytics
-
-Ahora compare la [!UICONTROL Ocurrencias] en Analytics para el total de registros por marcas de tiempo en Customer Journey Analytics.
-
-Los registros totales por marcas de tiempo deben coincidir con Ocurrencias, siempre que el conector de origen de Analytics no haya caído ningún registro; consulte la sección siguiente.
-
->[!NOTE]
->
->Esto solo funciona para conjuntos de datos de valores medios normales, no para conjuntos de datos identificados (a través de la [Identificación](/help/stitching/overview.md)). Tenga en cuenta que es fundamental tener en cuenta el ID de la persona que se utiliza en Customer Journey Analytics para que la comparación funcione. Puede que no siempre sea fácil de replicar en Adobe Analytics, especialmente si se ha activado la Identificación.
-
-1. En los [Servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=es) de Adobe Experience Platform, ejecute la siguiente consulta [!UICONTROL Registros totales por marcas de tiempo]:
+1. En Adobe Experience Platform [Servicios de consulta](https://experienceleague.adobe.com/es/docs/experience-platform/query/home), ejecute la siguiente consulta Registros totales por marcas de tiempo:
 
    ```sql
    SELECT
-       Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) AS Day,
-       Count(_id) AS Records 
+     Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) AS Day,
+     Count(_id) AS Records
    FROM  {dataset}
    WHERE   timestamp >= from_utc_timestamp('{fromDate}','UTC')
-       AND timestamp < from_utc_timestamp('{toDate}','UTC')
-       AND timestamp IS NOT NULL
-       AND enduserids._experience.aaid.id IS NOT NULL
+     AND timestamp < from_utc_timestamp('{toDate}','UTC')
+     AND timestamp IS NOT NULL
+     AND enduserids._experience.aaid.id IS NOT NULL
    GROUP BY Day
-   ORDER BY Day; 
+   ORDER BY Day;
    ```
 
-1. En [Fuentes de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es), identifique, a partir de los datos sin procesar, si el conector de origen de Analytics puede haber filtrado algunas filas.
+1. En Adobe Analytics [Fuentes de datos](https://experienceleague.adobe.com/es/docs/analytics/export/analytics-data-feed/data-feed-overview), genere archivos de fuentes para el intervalo de fechas deseado. Contar el número de filas dentro de cada archivo, identificando y excluyendo las siguientes filas:
 
-   El [conector de origen de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es) podría filtrar determinadas filas durante la transformación al esquema XDM. Puede haber varias razones para que toda la fila no sea apta para la transformación. Si alguno de los campos de Analytics siguientes tiene estos valores, se filtrará toda la fila.
+   * `exclude_hit` no es `0` (datos excluidos de Analysis Workspace en ambos productos)
+   * `hit_source` es `0`, `3`, `5`, `7`, `8`, `9` o `10` (fuentes de datos y otros datos que no son de visita)
+   * `page_event` es `53` o `63` (visitas de mantenimiento de medios de streaming)
 
-   | Campo de Analytics | Valores que hacen que se borre una fila |
-   | --- | --- |
-   | Opt_out | y, Y |
-   | In_data_only | No 0 |
-   | Exclude_hit | No 0 |
-   | Bot_id | No 0 |
-   | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
-   | Page_event | 53, 63 |
+   Las filas que coincidan con cualquiera de los criterios anteriores se excluirán del flujo de trabajo de ingesta del conector de Source de Analytics y, por lo tanto, también deben excluirse al contar las filas de fuentes de datos.
 
-   Para obtener más información acerca de hit\_source, consulte [Referencia de columnas de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es). Para obtener más información acerca de page\_event, consulte [Búsqueda de eventos de página](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=es).
-
-1. Si el conector filtra filas, reste esas filas de la métrica [!UICONTROL Ocurrencias]. El número resultante debe coincidir con el número de eventos de los conjuntos de datos de Adobe Experience Platform.
-
-## Por qué se pueden filtrar u omitir registros durante la ingesta desde Adobe Experience Platform
-
-Las [Conexiones](/help/connections/create-connection.md) de Customer Journey Analytics le permiten unir varios conjuntos de datos en función de un ID de persona común en todos los conjuntos de datos. En el servidor, se aplica la anulación de duplicación: unión externa completa o unión en conjuntos de datos de evento basados en marcas de tiempo y, a continuación, unión interna en el perfil y el conjunto de datos de búsqueda, según el ID de persona.
-
-A continuación, se indican algunas de las razones por las que se pueden omitir registros al introducir datos desde Adobe Experience Platform.
-
-* **Marcas de tiempo que faltan**: si faltan marcas de tiempo en los conjuntos de datos de evento, esos registros se ignorarán u omitirán por completo durante la ingesta.
-
-* **ID de persona que faltan**: los ID de persona que faltan (del conjunto de datos de eventos y/o del perfil o conjunto de datos de búsqueda) hacen que esos registros se ignoren o se omitan. El motivo es que no hay ID comunes ni claves coincidentes para unirse a los registros.
-
-* **ID de persona grande o no válida**: con ID no válidos, el sistema no puede encontrar un ID común válido entre los conjuntos de datos para unirse. En algunos casos, la columna ID de persona tiene ID de persona no válidos, como “indefinido” o “00000000”. Un ID de persona (con cualquier combinación de números y letras) que aparezca en un evento más de 1 millón de veces al mes no se puede atribuir a ningún usuario o persona en particular. Se clasificará como no válido. Estos registros no se pueden ingerir en el sistema, y conlleva a la creación de informes e ingestas propensas a errores.
+1. El total de registros de los servicios de consulta debe coincidir con el número de filas de una fuente de datos durante el mismo período de tiempo.
