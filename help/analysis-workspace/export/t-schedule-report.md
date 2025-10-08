@@ -6,18 +6,22 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 973e999b611d578da12018e60becf48efd7a76f8
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 50%
+source-wordcount: '799'
+ht-degree: 51%
 
 ---
 
 # Envío y programación de proyectos
 
-Puede enviar proyectos de Customer Journey Analytics como archivos a usuarios seleccionados por correo electrónico. Puede enviar archivos ad hoc o configurar proyectos para que se envíen según una programación. Los proyectos se pueden enviar en formato CSV o PDF.
+Puede enviar proyectos de Customer Journey Analytics como archivos a usuarios seleccionados por correo electrónico. Puede enviar archivos ad hoc o configurar proyectos para que se envíen según una programación.
 
-Todas las etiquetas aplicadas al proyecto se aplicarán automáticamente a la exportación.
+Tenga en cuenta lo siguiente al enviar archivos:
+
+* Los archivos se pueden enviar en formato CSV o PDF.
+
+* Todas las etiquetas aplicadas al proyecto se aplicarán automáticamente a la exportación.
 
 También están disponibles otros métodos de exportación de datos de Customer Journey Analytics, como se describe en [Información general sobre la exportación](/help/analysis-workspace/export/export-project-overview.md).
 
@@ -40,7 +44,7 @@ Para enviar un archivo a los destinatarios por correo electrónico:
 
 ## Programar la exportación del archivo {#schedule}
 
-Para enviar un archivo según una programación a los destinatarios por correo electrónico
+Para enviar un archivo según una programación a los destinatarios por correo electrónico:
 
 1. Seleccione **[!UICONTROL Compartir] > [!UICONTROL Programar exportación de archivos]**.
 1. Especifique el tipo de archivo:
@@ -86,7 +90,7 @@ Para enviar un archivo según una programación a los destinatarios por correo e
 
 Adobe utiliza la contraseña para cifrar proyectos programados, independientemente de si se envían en formato .pdf o .csv.
 
-Después de que su compañía haya adquirido la SKU de Healthcare Shield y haya sido habilitada para ello, aparecerá la solicitud para crear una contraseña para un proyecto programado en las siguientes circunstancias:
+Después de que su compañía haya adquirido la SKU de Healthcare Shield y haya sido habilitada para ello, aparecerá la indicación para crear una contraseña para un proyecto programado en las siguientes circunstancias:
 
 * Cuando alguien crea un nuevo proyecto programado.
 
@@ -99,7 +103,7 @@ Los requisitos de contraseña cumplen con los estándares de Adobe y requieren u
 ### Proteger con contraseña un proyecto programado nuevo
 
 1. Una vez guardado el proyecto, vaya a **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo ahora]** o **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo según lo programado]**.
-1. Siga las instrucciones anteriores, en [Enviar archivo ahora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=es#now) o [Enviar archivo según lo programado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=es#schedule).
+1. Siga las instrucciones anteriores, en [Enviar archivo ahora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) o [Enviar archivo según lo programado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
 
 ### Proteger con contraseña un proyecto programado existente
 
