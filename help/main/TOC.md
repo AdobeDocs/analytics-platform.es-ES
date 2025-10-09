@@ -287,7 +287,7 @@ ht-degree: 99%
       + [Requisitos](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
-+ Análisis de contenido {#content-analytics}
++ Content Analytics {#content-analytics}
    + [Información general](/help/content-analytics/content-analytics.md)
    + Informe {#report}
       + [Información general](/help/content-analytics/report/report.md)
