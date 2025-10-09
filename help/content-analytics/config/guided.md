@@ -6,9 +6,9 @@ feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2694'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -87,12 +87,12 @@ Cada configuración requiere un nombre único. Por ejemplo, `Example Content Ana
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Vista de datos"
->abstract="Seleccione una vista de datos existente de Customer Journey Analytics con la que desee combinar los datos de Content Analytics."
+>abstract="Seleccione una vista de datos existente de Customer Journey Analytics con la que desee combinar sus datos de Content Analytics."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="Vista de datos"
->abstract="Seleccione una vista de datos existente de Customer Journey Analytics con la que desee combinar los datos de Content Analytics.<br/>"
+>abstract="Seleccione una vista de datos existente de Customer Journey Analytics con la que desee combinar sus datos de Content Analytics con<br/>."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"

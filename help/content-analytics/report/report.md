@@ -6,9 +6,9 @@ feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Para empezar a crear informes en análisis de contenido desde cero, haga lo sigu
 1. [Cree un nuevo proyecto](/help/analysis-workspace/build-workspace-project/create-projects.md) o [abra un proyecto existente](/help/analysis-workspace/build-workspace-project/open-projects.md) en Workspace.
 1. Asegúrese de [seleccionar una vista de datos](/help/analysis-workspace/c-panels/panels.md#data-view) para la creación de informes del análisis de contenido. La creación de informes de análisis de contenido solo está disponibles para las vistas de datos [configuradas](/help/content-analytics/config/configuration.md).
 1. Arrastre una visualización ![Tabla](/help/assets/icons/Table.svg) [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) al lienzo.
-1. Use [componentes específicos de Content Analytics](components.md) y otros [componentes](/help/components/overview.md) genéricos (como segmentos, intervalos de fechas, anotaciones) para generar sus datos de Content Analytics.
+1. Utilice [componentes específicos de Content Analytics](components.md) y otros [componentes](/help/components/overview.md) genéricos (como segmentos, intervalos de fechas y anotaciones) para crear sus análisis de Content Analytics.
 
 ## Miniaturas
 
@@ -57,7 +57,7 @@ Para abrir la vista previa con los siguientes detalles:
 
 ## Plantilla
 
-Hay disponible una [plantilla](/help/analysis-workspace/templates/use-templates.md) de Content Analytics para ayudarle a saber qué contenido y atributos de contenido tienen el mejor rendimiento. La plantilla forma parte del [caso de uso del canal Web y la participación](/help/analysis-workspace/templates/use-templates.md#web-engagement), y detalla el rendimiento del contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos.
+Hay disponible una [plantilla](/help/analysis-workspace/templates/use-templates.md) de análisis de contenido para ayudarle a saber qué contenido y atributos de contenido tienen el mejor rendimiento. La plantilla forma parte del [caso de uso del canal Web y la participación](/help/analysis-workspace/templates/use-templates.md#web-engagement), y detalla el rendimiento del contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos.
 
 En función de lo que aprenda, podría hacer varias cosas. Como promocionar recursos de alto rendimiento en su página de inicio, personalizar el contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que ha empezado a quedar obsoleto.
 
@@ -65,7 +65,7 @@ Para utilizar la plantilla:
 
 1. Seleccione **[!UICONTROL Workspace]** en el menú principal.
 1. Asegúrese de que ha seleccionado una vista de datos configurada para Content Analytics.
-1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**&#x200B;s) para buscar y seleccionar la plantilla **[!UICONTROL Content Analytics]**.
+1. Busque o utilice segmentos (**[!UICONTROL web]** para **[!UICONTROL canal]** e **[!UICONTROL interacción]** para **[!UICONTROL casos de uso]**) para buscar y seleccionar la plantilla de **[!UICONTROL Content Analytics]**.
 1. Seleccione **[!UICONTROL Usar plantilla]**.
 1. En el cuadro de diálogo **[!UICONTROL Configurar la plantilla]**, seleccione una métrica del cuadro de diálogo **[!UICONTROL Seleccionar una métrica de conversión]**. Por ejemplo, **[!UICONTROL CTR del recurso]**.
 1. Seleccione **[!UICONTROL Continuar]**.
@@ -155,5 +155,5 @@ Puede desglosar cualquier recurso por dimensiones para comprender mejor dónde a
 >[!MORELIKETHIS]
 >
 >[Componentes de Content Analytics](components.md)
->&#x200B;>[Uso de plantillas](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>>[Uso de plantillas](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
