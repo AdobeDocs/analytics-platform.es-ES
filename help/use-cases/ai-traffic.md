@@ -6,9 +6,9 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 1cf0d957d62d60979982320f45b4fdadcc7458b8
+source-git-commit: 38be574621e4fc384f9fdeac94fc071f0cdd132b
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1217'
 ht-degree: 1%
 
 ---
@@ -37,8 +37,8 @@ La siguiente tabla ilustra cómo se pueden utilizar los métodos de detección e
 |---|---|---|---|
 | **Formación de un modelo** | El agente (`GPTBot`, `ClaudeBot` y más) se puede identificar cuando se implementa el registro en el lado del servidor. | No es posible realizar ninguna clasificación. Los rastreadores de IA no generan referentes durante la formación. | La detección es imposible. Los rastreadores de IA no añaden parámetros durante el aprendizaje. |
 | **Exploración del agente** | El agente (`ChatGPT-User`, `claude-web`) se puede identificar cuando el registro del lado del servidor captura los encabezados. | La clasificación es posible si el agente navega desde una interfaz de IA con preservación de referente. | La detección a veces es posible si el servicio de IA agrega parámetros de seguimiento. |
-| **Generación aumentada de recuperación (RAG) para responder a la consulta** | El agente (`OAI-SearchBot`, `PerplexityBot`) se puede identificar con el registro del lado del servidor. | No suele ser posible realizar clasificaciones, ya que las operaciones de RAG suelen omitir los mecanismos del referente. | La detección rara vez es posible a menos que la implemente específicamente el proveedor de IA. |
-| **Clics de usuarios** | No se puede identificar el agente. El agente de IA aparece como un agente de usuario normal. | La clasificación es posible cuando los usuarios hacen clic en los vínculos de las interfaces de IA ([chat.com](https://chatgpt.com), [claude.ai](https://claude.ai) y más). | La detección es posible cuando los servicios de IA añaden parámetros de UTM a los vínculos de salida. |
+| **Recuperación de generación aumentada (RAG) para responder a la consulta** | El agente (`OAI-SearchBot`, `PerplexityBot`) se puede identificar con el registro del lado del servidor. | No suele ser posible realizar clasificaciones, ya que las operaciones de RAG suelen omitir los mecanismos del referente. | La detección rara vez es posible a menos que la implemente específicamente el proveedor de IA. |
+| **Clics del usuario hasta** | No se puede identificar el agente. El agente de IA aparece como un agente de usuario normal. | La clasificación es posible cuando los usuarios hacen clic en los vínculos de las interfaces de IA ([chat.com](https://chatgpt.com), [claude.ai](https://claude.ai) y más). | La detección es posible cuando los servicios de IA añaden parámetros de UTM a los vínculos de salida. |
 | **Condiciones de visibilidad del tráfico** | Requerir integración de registro del lado del servidor con Customer Journey Analytics o etiquetado del lado del servidor para la identificación del agente. | La clasificación depende de las políticas de referente de la plataforma de IA y de la transmisión correcta del encabezado HTTP. | La detección requiere la preservación de parámetros mediante redirecciones y la recopilación de parámetros de URL adecuada. |
 
 ### Retos
@@ -293,6 +293,6 @@ Utilice los campos y segmentos derivados para informar y analizar el tráfico ge
 
 >[!MORELIKETHIS]
 >
->Este artículo de caso de uso se basa en el artículo del blog de Brian Au: [Seguimiento y análisis del tráfico generado por LLM y AI en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=es)
+>Este artículo de caso de uso se basa en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM y IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967).
 >
 >
