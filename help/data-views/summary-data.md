@@ -21,7 +21,7 @@ A continuación, estos datos de resumen se pueden utilizar para presentar indica
 >[!NOTE]
 >
 >Los datos de resumen son datos de series temporales de un conjunto de datos de resumen. Ese conjunto de datos de resumen se basa en un esquema que utiliza la clase Métricas de resumen XDM como clase base.
->>Solo se admiten datos de series temporales basados en horas o días.
+>&#x200B;>Solo se admiten datos de series temporales basados en horas o días.
 
 >[!TIP]
 >

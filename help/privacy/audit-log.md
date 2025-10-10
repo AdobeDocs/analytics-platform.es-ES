@@ -52,7 +52,7 @@ En Customer Journey Analytics, vaya a **[!UICONTROL Herramientas]** > **[!UICONT
 
 El registro de auditoría correspondiente al día de hoy y al día de ayer se muestra de forma predeterminada.
 
-![Registro de auditoría resaltando hoy y ayer. ](assets/audit_ui.png)
+![Registro de auditoría resaltando hoy y ayer. &#x200B;](assets/audit_ui.png)
 
 Para seleccionar qué columnas están visibles, vaya al selector de columnas ubicado en la parte superior derecha.
 
@@ -60,7 +60,7 @@ Para seleccionar qué columnas están visibles, vaya al selector de columnas ubi
 
 Haga doble clic en el botón de información (i) junto a una descripción.
 
-![Registro de auditoría resaltando el botón de información. ](assets/info-button-audit.png)
+![Registro de auditoría resaltando el botón de información. &#x200B;](assets/info-button-audit.png)
 
 Se muestran los siguientes elementos:
 

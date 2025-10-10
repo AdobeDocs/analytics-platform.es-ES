@@ -38,7 +38,7 @@ Las siguientes funciones de Adobe Experience Platform y Customer Journey Analyti
    * [Conexiones&#x200B;](/help/connections/overview.md)
    * [Vistas de datos](/help/data-views/data-views.md), incluidos [campos derivados&#x200B;](/help/data-views/derived-fields/derived-fields.md)
    * [Segmentos&#x200B;](/help/components/segments/seg-overview.md)
-   * [Métricas calculadas ](/help/components/calc-metrics/calc-metr-overview.md)
+   * [Métricas calculadas &#x200B;](/help/components/calc-metrics/calc-metr-overview.md)
    * [Análisis guiado&#x200B;: Cronología&#x200B;](/help/guided-analysis/types/timeline.md)
 
 ## Medir adquisición y activación

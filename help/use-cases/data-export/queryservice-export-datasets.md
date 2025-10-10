@@ -154,7 +154,7 @@ Los esquemas en los que se basan los conjuntos de datos suelen contener tipos de
 }
 ```
 
-Puede usar [`explode()` u otras funciones de matrices ](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/spark-sql-functions#arrays) de Spark SQL para obtener los datos dentro de una estructura de datos anidada, por ejemplo:
+Puede usar [`explode()` u otras funciones de matrices &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/spark-sql-functions#arrays) de Spark SQL para obtener los datos dentro de una estructura de datos anidada, por ejemplo:
 
 ```sql
 select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;

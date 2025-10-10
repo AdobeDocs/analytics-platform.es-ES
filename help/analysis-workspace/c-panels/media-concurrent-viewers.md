@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe el panel Visualizadores simultáneos de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte el [panel Visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_En este artículo se describe el panel Visualizadores simultáneos de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte el [panel Visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -130,6 +130,6 @@ No hay ninguna tabla de forma libre disponible en esta vista.  Para ver la fuent
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
->>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
+>&#x200B;>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+>&#x200B;>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
 >

@@ -60,7 +60,7 @@ Anteriormente, los enteros se trataban automáticamente como métricas en Custom
 
 ## Uso de dimensiones numéricas como métricas en diagramas de flujo {#numeric}
 
-Puede utilizar una dimensión numérica para obtener métricas en la visualización [!UICONTROL  Flujo].
+Puede utilizar una dimensión numérica para obtener métricas en la visualización [!UICONTROL &#x200B; Flujo].
 
 1. En la pestaña [Componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 2. En los informes de Workspace, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
